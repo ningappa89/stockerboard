@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+python-jose[cryptography]
+passlib[bcrypt]
+yfinance
+pandas
+ta
+plotly
+reflex        # for frontend inside python env (reflex CLI)
