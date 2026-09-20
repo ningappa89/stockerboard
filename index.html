@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stockerboard Weekly Intelligence Pulse | Stockerboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-body: #070b14;
+            --bg-card: #0e1726;
+            --border-card: rgba(255, 255, 255, 0.08);
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #3b82f6;
+            --accent-glow: rgba(59, 130, 246, 0.25);
+            --success: #10b981;
+            --warning: #f59e0b;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            font-family: 'Inter', -apple-system, sans-serif;
+            line-height: 1.6;
+            padding: 36px 20px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        header {
+            margin-bottom: 28px;
+            padding: 28px 32px;
+            background: linear-gradient(135deg, rgba(30, 58, 138, 0.18) 0%, rgba(15, 23, 42, 0.6) 100%);
+            border: 1px solid rgba(59, 130, 246, 0.28);
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
+        }
+        .brand-logo {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.15rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            color: #ffffff;
+            margin-bottom: 12px;
+        }
+        .brand-logo .dot {
+            width: 30px;
+            height: 30px;
+            background: linear-gradient(135deg, #2563eb, #38bdf8);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.95rem;
+            font-weight: 800;
+            color: #fff;
+            box-shadow: 0 2px 8px rgba(37,99,235,0.4);
+        }
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            background: linear-gradient(180deg, #ffffff 0%, #cbd5e1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 6px;
+        }
+        .edition-meta {
+            font-size: 0.92rem;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+        .badge-bar {
+            display: flex;
+            gap: 10px;
+            margin-top: 16px;
+            flex-wrap: wrap;
+        }
+        .badge-pill {
+            font-size: 0.74rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-card);
+            padding: 5px 12px;
+            border-radius: 9999px;
+            color: #cbd5e1;
+        }
+        /* Bento Grid Stat Strip */
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            margin-bottom: 28px;
+        }
+        .bento-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-card);
+            border-radius: 12px;
+            padding: 16px 18px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+        .bento-card:hover {
+            transform: translateY(-2px);
+            border-color: rgba(59, 130, 246, 0.4);
+        }
+        .bento-label {
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--text-muted);
+        }
+        .bento-val {
+            font-size: 1.45rem;
+            font-weight: 800;
+            margin-top: 4px;
+            color: #fff;
+            display: flex;
+            align-items: baseline;
+            gap: 6px;
+        }
+        .bento-sub {
+            font-size: 0.74rem;
+            margin-top: 4px;
+            font-weight: 600;
+        }
+        /* Search & Tab Controller */
+        .desk-toolbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        .tab-buttons {
+            display: flex;
+            gap: 8px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-card);
+            padding: 4px;
+            border-radius: 10px;
+        }
+        .tab-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            font-weight: 600;
+            font-size: 0.85rem;
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .tab-btn.active {
+            background: #2563eb;
+            color: #ffffff;
+            box-shadow: 0 2px 8px rgba(37,99,235,0.4);
+        }
+        .search-box {
+            background: var(--bg-card);
+            border: 1px solid var(--border-card);
+            color: #fff;
+            padding: 9px 14px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            min-width: 260px;
+            outline: none;
+            transition: border-color 0.2s ease;
+        }
+        .search-box:focus {
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+        }
+        /* Tables & Cards */
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-card);
+            border-radius: 14px;
+            padding: 24px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+            margin-bottom: 28px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.88rem;
+            margin-top: 8px;
+        }
+        th {
+            text-align: left;
+            padding: 12px 14px;
+            font-size: 0.74rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border-card);
+        }
+        td {
+            padding: 12px 14px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+        }
+        tr:hover td {
+            background: rgba(255, 255, 255, 0.02);
+        }
+        .badge-symbol {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.78rem;
+            font-weight: 600;
+            background: rgba(59, 130, 246, 0.12);
+            color: #60a5fa;
+            padding: 3px 8px;
+            border-radius: 5px;
+            border: 1px solid rgba(59, 130, 246, 0.25);
+        }
+        .progress-track {
+            width: 65px;
+            height: 6px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 9999px;
+            overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #3b82f6, #10b981);
+            border-radius: 9999px;
+        }
+        .rank-pill {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: #34d399;
+            min-width: 24px;
+        }
+        .stability-pill {
+            font-size: 0.72rem;
+            font-weight: 600;
+            background: rgba(14, 165, 233, 0.12);
+            color: #38bdf8;
+            padding: 4px 10px;
+            border-radius: 6px;
+        }
+        .takeaway-box {
+            background: linear-gradient(135deg, rgba(15, 23, 42, 0.85) 0%, rgba(30, 41, 59, 0.95) 100%);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            border-radius: 12px;
+            padding: 24px;
+            line-height: 1.8;
+            color: #cbd5e1;
+        }
+        .disclaimer-box {
+            padding: 20px 24px;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.35);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            font-size: 0.78rem;
+            color: #64748b;
+            line-height: 1.7;
+            margin-top: 36px;
+            text-align: justify;
+        }
+        footer {
+            text-align: center;
+            font-size: 0.82rem;
+            color: #475569;
+            margin-top: 36px;
+            padding-bottom: 24px;
+        }
+        @media (max-width: 900px) {
+            .bento-grid { grid-template-columns: repeat(2, 1fr); }
+            .desk-toolbar { flex-direction: column; align-items: stretch; }
+            .search-box { width: 100%; }
+            table { display: block; overflow-x: auto; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="brand-logo">
+                <div class="dot">S</div>
+                <span>Stockerboard</span>
+            </div>
+            <h1>Stockerboard Weekly Intelligence Pulse</h1>
+            <div class="edition-meta">Edition #38 — Week Ending Friday, 18 September 2026</div>
+            <div class="badge-bar">
+                <span class="badge-pill" style="color:#10b981;border-color:rgba(16,185,129,0.3);">🛡️ SEBI Compliant (Educational)</span>
+                <span class="badge-pill" style="color:#60a5fa;border-color:rgba(59,130,246,0.3);">📊 EOD Verified Bhavcopy</span>
+                <span class="badge-pill" style="color:#f59e0b;border-color:rgba(245,158,11,0.3);">⚡ Quantitative Screening</span>
+            </div>
+        </header>
+
+        <!-- Bento Grid Stat Strip -->
+        <div class="bento-grid">
+            <div class="bento-card" style="border-left:4px solid #F59E0B;">
+                <div class="bento-label">Macro Regime</div>
+                <div class="bento-val" style="color:#F59E0B;">Balanced</div>
+                <div class="bento-sub" style="color:#94a3b8;">Breadth: Selectivity matters. Not all sig...</div>
+            </div>
+            <div class="bento-card" style="border-left:4px solid #3b82f6;">
+                <div class="bento-label">52W Breakouts</div>
+                <div class="bento-val" style="color:#60a5fa;">10 <span style="font-size:0.75rem;color:#94a3b8;">Scrips</span></div>
+                <div class="bento-sub" style="color:#34d399;">Avg Rank: 94/100</div>
+            </div>
+            <div class="bento-card" style="border-left:4px solid #0ea5e9;">
+                <div class="bento-label">Capital Efficiency</div>
+                <div class="bento-val" style="color:#38bdf8;">158.0%</div>
+                <div class="bento-sub" style="color:#38bdf8;">Top Return on Equity</div>
+            </div>
+            <div class="bento-card" style="border-left:4px solid #f59e0b;">
+                <div class="bento-label">Corporate Actions</div>
+                <div class="bento-val" style="color:#fbbf24;">8 <span style="font-size:0.75rem;color:#94a3b8;">Events</span></div>
+                <div class="bento-sub" style="color:#fbbf24;">Upcoming Ex-Dates</div>
+            </div>
+        </div>
+
+        <!-- Desk Toolbar: Interactive Tabs & Instant Search -->
+        <div class="desk-toolbar">
+            <div class="tab-buttons">
+                <button class="tab-btn active" onclick="switchTab('tab-breakouts')">🚀 52W High Breakouts</button>
+                <button class="tab-btn" onclick="switchTab('tab-fundamentals')">💎 Fundamental Screener</button>
+                <button class="tab-btn" onclick="switchTab('tab-corporate')">📅 Corporate Actions</button>
+                <button class="tab-btn" onclick="switchTab('tab-thesis')">🎓 Research Thesis</button>
+            </div>
+            <input type="text" class="search-box" id="tableSearch" placeholder="🔍 Search company name or symbol..." onkeyup="filterTables()">
+        </div>
+
+        <!-- Tab 1: 52W High Breakouts -->
+        <div id="tab-breakouts" class="tab-content active">
+            <div class="card">
+                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+                    <div style="font-size:1.15rem;font-weight:700;">🚀 52-Week High Breakout Leaders</div>
+                    <span style="font-size:0.8rem;color:var(--text-muted);">Trailing 252-Session Price Envelope</span>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="text-align:center;">#</th>
+                            <th>Company Name</th>
+                            <th>Symbol</th>
+                            <th style="text-align:right;">CMP</th>
+                            <th style="text-align:right;">52W High</th>
+                            <th style="text-align:right;">Dist 52W</th>
+                            <th style="text-align:right;">Volume</th>
+                            <th style="text-align:center;">Momentum Rank</th>
+                        </tr>
+                    </thead>
+                    <tbody id="breakoutBody">
+                        
+            <tr class="searchable-row">
+                <td style="text-align:center;color:#64748b;font-weight:600;">1</td>
+                <td><strong class="col-name">Aurobindo Pharma Ltd.</strong></td>
+                <td><span class="badge-symbol col-sym">AUROPHARMA</span></td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹1,734.00</td>
+                <td style="text-align:right;color:#64748b;font-family:'JetBrains Mono',monospace;">₹1,734.00</td>
+                <td style="text-align:right;color:#10b981;font-weight:600;font-family:'JetBrains Mono',monospace;">0.0%</td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;color:#94a3b8;">1,209,478</td>
+                <td style="text-align:center;">
+                    <div style="display:flex;align-items:center;justify-content:center;gap:8px;">
+                        <div class="progress-track"><div class="progress-fill" style="width:95%;"></div></div>
+                        <span class="rank-pill">95</span>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr class="searchable-row">
+                <td style="text-align:center;color:#64748b;font-weight:600;">2</td>
+                <td><strong class="col-name">ASIAN STAR CO.LTD.</strong></td>
+                <td><span class="badge-symbol col-sym">ASTAR</span></td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹807.35</td>
+                <td style="text-align:right;color:#64748b;font-family:'JetBrains Mono',monospace;">₹807.35</td>
+                <td style="text-align:right;color:#10b981;font-weight:600;font-family:'JetBrains Mono',monospace;">0.0%</td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;color:#94a3b8;">13,851</td>
+                <td style="text-align:center;">
+                    <div style="display:flex;align-items:center;justify-content:center;gap:8px;">
+                        <div class="progress-track"><div class="progress-fill" style="width:95%;"></div></div>
+                        <span class="rank-pill">95</span>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr class="searchable-row">
+                <td style="text-align:center;color:#64748b;font-weight:600;">3</td>
+                <td><strong class="col-name">TRIB BHIMJI ZAVERI LTD</strong></td>
+                <td><span class="badge-symbol col-sym">TBZ</span></td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹603.55</td>
+                <td style="text-align:right;color:#64748b;font-family:'JetBrains Mono',monospace;">₹603.55</td>
+                <td style="text-align:right;color:#10b981;font-weight:600;font-family:'JetBrains Mono',monospace;">0.0%</td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;color:#94a3b8;">1,436,925</td>
+                <td style="text-align:center;">
+                    <div style="display:flex;align-items:center;justify-content:center;gap:8px;">
+                        <div class="progress-track"><div class="progress-fill" style="width:95%;"></div></div>
+                        <span class="rank-pill">95</span>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr class="searchable-row">
+                <td style="text-align:center;color:#64748b;font-weight:600;">4</td>
+                <td><strong class="col-name">SoftTech Engineers Limited</strong></td>
+                <td><span class="badge-symbol col-sym">SOFTTECH</span></td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹525.70</td>
+                <td style="text-align:right;color:#64748b;font-family:'JetBrains Mono',monospace;">₹525.70</td>
+                <td style="text-align:right;color:#10b981;font-weight:600;font-family:'JetBrains Mono',monospace;">0.0%</td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;color:#94a3b8;">35,070</td>
+                <td style="text-align:center;">
+                    <div style="display:flex;align-items:center;justify-content:center;gap:8px;">
+                        <div class="progress-track"><div class="progress-fill" style="width:95%;"></div></div>
+                        <span class="rank-pill">95</span>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr class="searchable-row">
+                <td style="text-align:center;color:#64748b;font-weight:600;">5</td>
+                <td><strong class="col-name">BODAL CHEMICALS LTD.</strong></td>
+                <td><span class="badge-symbol col-sym">BODALCHEM</span></td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹191.23</td>
+                <td style="text-align:right;color:#64748b;font-family:'JetBrains Mono',monospace;">₹191.23</td>
+                <td style="text-align:right;color:#10b981;font-weight:600;font-family:'JetBrains Mono',monospace;">0.0%</td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;color:#94a3b8;">1,686,113</td>
+                <td style="text-align:center;">
+                    <div style="display:flex;align-items:center;justify-content:center;gap:8px;">
+                        <div class="progress-track"><div class="progress-fill" style="width:95%;"></div></div>
+                        <span class="rank-pill">95</span>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr class="searchable-row">
+                <td style="text-align:center;color:#64748b;font-weight:600;">6</td>
+                <td><strong class="col-name">QUINT DIGITAL LTD.</strong></td>
+                <td><span class="badge-symbol col-sym">QUINT</span></td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹70.02</td>
+                <td style="text-align:right;color:#64748b;font-family:'JetBrains Mono',monospace;">₹70.02</td>
+                <td style="text-align:right;color:#10b981;font-weight:600;font-family:'JetBrains Mono',monospace;">0.0%</td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;color:#94a3b8;">668,824</td>
+                <td style="text-align:center;">
+                    <div style="display:flex;align-items:center;justify-content:center;gap:8px;">
+                        <div class="progress-track"><div class="progress-fill" style="width:95%;"></div></div>
+                        <span class="rank-pill">95</span>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr class="searchable-row">
+                <td style="text-align:center;color:#64748b;font-weight:600;">7</td>
+                <td><strong class="col-name">STL Networks Limited</strong></td>
+                <td><span class="badge-symbol col-sym">STLNETWORK</span></td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹42.95</td>
+                <td style="text-align:right;color:#64748b;font-family:'JetBrains Mono',monospace;">₹42.95</td>
+                <td style="text-align:right;color:#10b981;font-weight:600;font-family:'JetBrains Mono',monospace;">0.0%</td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;color:#94a3b8;">1,250,147</td>
+                <td style="text-align:center;">
+                    <div style="display:flex;align-items:center;justify-content:center;gap:8px;">
+                        <div class="progress-track"><div class="progress-fill" style="width:95%;"></div></div>
+                        <span class="rank-pill">95</span>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr class="searchable-row">
+                <td style="text-align:center;color:#64748b;font-weight:600;">8</td>
+                <td><strong class="col-name">TOYAM SPORTS LIMITED</strong></td>
+                <td><span class="badge-symbol col-sym">TOYAMSL</span></td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹0.77</td>
+                <td style="text-align:right;color:#64748b;font-family:'JetBrains Mono',monospace;">₹0.77</td>
+                <td style="text-align:right;color:#10b981;font-weight:600;font-family:'JetBrains Mono',monospace;">0.0%</td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;color:#94a3b8;">458,115</td>
+                <td style="text-align:center;">
+                    <div style="display:flex;align-items:center;justify-content:center;gap:8px;">
+                        <div class="progress-track"><div class="progress-fill" style="width:95%;"></div></div>
+                        <span class="rank-pill">95</span>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr class="searchable-row">
+                <td style="text-align:center;color:#64748b;font-weight:600;">9</td>
+                <td><strong class="col-name">Max Estates Limited</strong></td>
+                <td><span class="badge-symbol col-sym">MAXESTATES</span></td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹594.00</td>
+                <td style="text-align:right;color:#64748b;font-family:'JetBrains Mono',monospace;">₹595.00</td>
+                <td style="text-align:right;color:#10b981;font-weight:600;font-family:'JetBrains Mono',monospace;">-0.17%</td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;color:#94a3b8;">201,561</td>
+                <td style="text-align:center;">
+                    <div style="display:flex;align-items:center;justify-content:center;gap:8px;">
+                        <div class="progress-track"><div class="progress-fill" style="width:94%;"></div></div>
+                        <span class="rank-pill">94</span>
+                    </div>
+                </td>
+            </tr>
+            
+            <tr class="searchable-row">
+                <td style="text-align:center;color:#64748b;font-weight:600;">10</td>
+                <td><strong class="col-name">KSHITIJ POLYLINE LIMITED</strong></td>
+                <td><span class="badge-symbol col-sym">KSHITIJPOL</span></td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹4.20</td>
+                <td style="text-align:right;color:#64748b;font-family:'JetBrains Mono',monospace;">₹4.21</td>
+                <td style="text-align:right;color:#10b981;font-weight:600;font-family:'JetBrains Mono',monospace;">-0.24%</td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;color:#94a3b8;">6,675,034</td>
+                <td style="text-align:center;">
+                    <div style="display:flex;align-items:center;justify-content:center;gap:8px;">
+                        <div class="progress-track"><div class="progress-fill" style="width:94%;"></div></div>
+                        <span class="rank-pill">94</span>
+                    </div>
+                </td>
+            </tr>
+            
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Tab 2: Fundamental Screener -->
+        <div id="tab-fundamentals" class="tab-content">
+            <div class="card">
+                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+                    <div style="font-size:1.15rem;font-weight:700;">💎 Fundamental Health Snapshots</div>
+                    <span style="font-size:0.8rem;color:var(--text-muted);">Official NSE PR Corporate Filings</span>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Company Name</th>
+                            <th>Symbol</th>
+                            <th style="text-align:center;">ROE</th>
+                            <th style="text-align:center;">ROCE</th>
+                            <th style="text-align:center;">P/E</th>
+                            <th style="text-align:right;">Market Cap</th>
+                            <th style="text-align:center;">Quality Tier</th>
+                        </tr>
+                    </thead>
+                    <tbody id="fundBody">
+                        
+            <tr class="searchable-row">
+                <td><strong class="col-name">TIMEX GROUP INDIA LTD.</strong></td>
+                <td><span class="badge-symbol col-sym">TIMEX</span></td>
+                <td style="text-align:center;color:#38bdf8;font-weight:700;font-family:'JetBrains Mono',monospace;">158.0%</td>
+                <td style="text-align:center;color:#34d399;font-weight:700;font-family:'JetBrains Mono',monospace;">82.8%</td>
+                <td style="text-align:center;font-family:'JetBrains Mono',monospace;">80.8</td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹7,210 Cr</td>
+                <td style="text-align:center;"><span class="stability-pill">Robust</span></td>
+            </tr>
+            
+            <tr class="searchable-row">
+                <td><strong class="col-name">GOCL CORPORATION LIMITED</strong></td>
+                <td><span class="badge-symbol col-sym">GOCLCORP</span></td>
+                <td style="text-align:center;color:#38bdf8;font-weight:700;font-family:'JetBrains Mono',monospace;">90.8%</td>
+                <td style="text-align:center;color:#34d399;font-weight:700;font-family:'JetBrains Mono',monospace;">9.7%</td>
+                <td style="text-align:center;font-family:'JetBrains Mono',monospace;">12.1</td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹2,211 Cr</td>
+                <td style="text-align:center;"><span class="stability-pill">Robust</span></td>
+            </tr>
+            
+            <tr class="searchable-row">
+                <td><strong class="col-name">ADVIT JEWELS LIMITED</strong></td>
+                <td><span class="badge-symbol col-sym">RAMBHAJO</span></td>
+                <td style="text-align:center;color:#38bdf8;font-weight:700;font-family:'JetBrains Mono',monospace;">45.6%</td>
+                <td style="text-align:center;color:#34d399;font-weight:700;font-family:'JetBrains Mono',monospace;">32.2%</td>
+                <td style="text-align:center;font-family:'JetBrains Mono',monospace;">36.4</td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹1,332 Cr</td>
+                <td style="text-align:center;"><span class="stability-pill">Robust</span></td>
+            </tr>
+            
+            <tr class="searchable-row">
+                <td><strong class="col-name">Rentomojo Limited</strong></td>
+                <td><span class="badge-symbol col-sym">RENTOMOJO</span></td>
+                <td style="text-align:center;color:#38bdf8;font-weight:700;font-family:'JetBrains Mono',monospace;">45.4%</td>
+                <td style="text-align:center;color:#34d399;font-weight:700;font-family:'JetBrains Mono',monospace;">21.5%</td>
+                <td style="text-align:center;font-family:'JetBrains Mono',monospace;">49.2</td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹5,338 Cr</td>
+                <td style="text-align:center;"><span class="stability-pill">Robust</span></td>
+            </tr>
+            
+            <tr class="searchable-row">
+                <td><strong class="col-name">Manipal Payment and Identity Solutions Limited</strong></td>
+                <td><span class="badge-symbol col-sym">MPIMANIPAL</span></td>
+                <td style="text-align:center;color:#38bdf8;font-weight:700;font-family:'JetBrains Mono',monospace;">45.1%</td>
+                <td style="text-align:center;color:#34d399;font-weight:700;font-family:'JetBrains Mono',monospace;">43.3%</td>
+                <td style="text-align:center;font-family:'JetBrains Mono',monospace;">32.0</td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹7,913 Cr</td>
+                <td style="text-align:center;"><span class="stability-pill">Robust</span></td>
+            </tr>
+            
+            <tr class="searchable-row">
+                <td><strong class="col-name">XTRANET TECHNOLOGIES LTD</strong></td>
+                <td><span class="badge-symbol col-sym">XTRANET</span></td>
+                <td style="text-align:center;color:#38bdf8;font-weight:700;font-family:'JetBrains Mono',monospace;">42.4%</td>
+                <td style="text-align:center;color:#34d399;font-weight:700;font-family:'JetBrains Mono',monospace;">43.0%</td>
+                <td style="text-align:center;font-family:'JetBrains Mono',monospace;">39.8</td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹1,632 Cr</td>
+                <td style="text-align:center;"><span class="stability-pill">Robust</span></td>
+            </tr>
+            
+            <tr class="searchable-row">
+                <td><strong class="col-name">INDO-MIM Limited</strong></td>
+                <td><span class="badge-symbol col-sym">INDOMIM</span></td>
+                <td style="text-align:center;color:#38bdf8;font-weight:700;font-family:'JetBrains Mono',monospace;">34.5%</td>
+                <td style="text-align:center;color:#34d399;font-weight:700;font-family:'JetBrains Mono',monospace;">32.2%</td>
+                <td style="text-align:center;font-family:'JetBrains Mono',monospace;">78.8</td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹52,212 Cr</td>
+                <td style="text-align:center;"><span class="stability-pill">Robust</span></td>
+            </tr>
+            
+            <tr class="searchable-row">
+                <td><strong class="col-name">SBC EXPORTS LIMITED</strong></td>
+                <td><span class="badge-symbol col-sym">SBC</span></td>
+                <td style="text-align:center;color:#38bdf8;font-weight:700;font-family:'JetBrains Mono',monospace;">33.6%</td>
+                <td style="text-align:center;color:#34d399;font-weight:700;font-family:'JetBrains Mono',monospace;">16.7%</td>
+                <td style="text-align:center;font-family:'JetBrains Mono',monospace;">69.1</td>
+                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹2,345 Cr</td>
+                <td style="text-align:center;"><span class="stability-pill">Robust</span></td>
+            </tr>
+            
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Tab 3: Corporate Actions -->
+        <div id="tab-corporate" class="tab-content">
+            <div class="card">
+                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+                    <div style="font-size:1.15rem;font-weight:700;">📅 Upcoming Corporate Actions Calendar</div>
+                    <span style="font-size:0.8rem;color:var(--text-muted);">Verified Ex-Dates</span>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Company Name</th>
+                            <th>Symbol</th>
+                            <th style="text-align:center;">Ex-Date</th>
+                            <th>Event Description</th>
+                        </tr>
+                    </thead>
+                    <tbody id="corpBody">
+                        
+            <tr class="searchable-row">
+                <td><strong class="col-name">BEML LTD.</strong></td>
+                <td><span class="badge-symbol col-sym">BEML</span></td>
+                <td style="text-align:center;font-weight:700;color:#fbbf24;font-family:'JetBrains Mono',monospace;">2026-09-22</td>
+                <td>DIV - RS 12.28 PER SH</td>
+            </tr>
+            
+            <tr class="searchable-row">
+                <td><strong class="col-name">SEC RED NCD 10.27% SR. VI</strong></td>
+                <td><span class="badge-symbol col-sym">829PFL29</span></td>
+                <td style="text-align:center;font-weight:700;color:#fbbf24;font-family:'JetBrains Mono',monospace;">2026-09-21</td>
+                <td>INTEREST PAYMENT</td>
+            </tr>
+            
+            <tr class="searchable-row">
+                <td><strong class="col-name">SCL-8.43%-6-1-27-NCD</strong></td>
+                <td><span class="badge-symbol col-sym">843SCFL27</span></td>
+                <td style="text-align:center;font-weight:700;color:#fbbf24;font-family:'JetBrains Mono',monospace;">2026-09-21</td>
+                <td>INTEREST PAYMENT</td>
+            </tr>
+            
+            <tr class="searchable-row">
+                <td><strong class="col-name">SCL-8.89%-6-1-27-NCD</strong></td>
+                <td><span class="badge-symbol col-sym">889SCFL27</span></td>
+                <td style="text-align:center;font-weight:700;color:#fbbf24;font-family:'JetBrains Mono',monospace;">2026-09-21</td>
+                <td>INTEREST PAYMENT</td>
+            </tr>
+            
+            <tr class="searchable-row">
+                <td><strong class="col-name">A B INFRABUILD LIMITED</strong></td>
+                <td><span class="badge-symbol col-sym">ABINFRA</span></td>
+                <td style="text-align:center;font-weight:700;color:#fbbf24;font-family:'JetBrains Mono',monospace;">2026-09-21</td>
+                <td>DIV - RE 0.006 PER SH</td>
+            </tr>
+            
+            <tr class="searchable-row">
+                <td><strong class="col-name">ALICON CASTALLOY LIMITED</strong></td>
+                <td><span class="badge-symbol col-sym">ALICON</span></td>
+                <td style="text-align:center;font-weight:700;color:#fbbf24;font-family:'JetBrains Mono',monospace;">2026-09-21</td>
+                <td>DIV - RS 3 PER SH</td>
+            </tr>
+            
+            <tr class="searchable-row">
+                <td><strong class="col-name">ALL E TECHNOLOGIES LTD</strong></td>
+                <td><span class="badge-symbol col-sym">ALLETEC</span></td>
+                <td style="text-align:center;font-weight:700;color:#fbbf24;font-family:'JetBrains Mono',monospace;">2026-09-21</td>
+                <td>DIV - RS 1.5 PER SH</td>
+            </tr>
+            
+            <tr class="searchable-row">
+                <td><strong class="col-name">APOLLO SINDOORI HOTEL LTD</strong></td>
+                <td><span class="badge-symbol col-sym">APOLSINHOT</span></td>
+                <td style="text-align:center;font-weight:700;color:#fbbf24;font-family:'JetBrains Mono',monospace;">2026-09-21</td>
+                <td>DIV - RS 3 PER SH</td>
+            </tr>
+            
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Tab 4: Research Thesis -->
+        <div id="tab-thesis" class="tab-content">
+            <div class="card takeaway-box">
+                <div style="font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:#38bdf8;margin-bottom:10px;">
+                    🎓 Quantitative Insight of the Week
+                </div>
+                <p style="font-size:0.96rem;line-height:1.8;">
+                    When markets are in a 'Favorable' regime, equities making new 52-week highs with strong return on equity (ROE > 15%) historically exhibit superior institutional sponsorship. The 52-week high breakout reflects price discovery free of overhead supply resistance, while robust ROE ensures the momentum is backed by corporate capital efficiency rather than pure speculative multiple expansion.
+                </p>
+            </div>
+        </div>
+
+        <!-- Statutory Disclaimer -->
+        <div class="disclaimer-box">
+            <strong>Statutory Disclosure & Educational Disclaimer:</strong><br>
+            Disclaimer: Stockerboard (stockerboard.com) is an educational research and quantitative market analytics platform. We are not registered with SEBI as an Investment Adviser (IA) or Research Analyst (RA). All information, scores, tables, and statistics provided herein are strictly for educational and informational purposes and do not constitute an offer, solicitation, or recommendation to buy, sell, or hold any security. Market data is compiled from official publicly available End-of-Day filings from NSE India and BSE India. Investments in securities are subject to market risks; read all related documents carefully.
+        </div>
+
+        <footer>
+            © 2026 Stockerboard. All rights reserved. • Compiled from official public records of NSE India & BSE India.
+        </footer>
+    </div>
+
+    <!-- Client-Side Interactive Tab & Search Scripts -->
+    <script>
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+            
+            const target = document.getElementById(tabId);
+            if (target) target.classList.add('active');
+            event.target.classList.add('active');
+        }
+
+        function filterTables() {
+            const query = document.getElementById('tableSearch').value.toLowerCase().trim();
+            document.querySelectorAll('.searchable-row').forEach(row => {
+                const name = row.querySelector('.col-name')?.innerText.toLowerCase() || '';
+                const sym = row.querySelector('.col-sym')?.innerText.toLowerCase() || '';
+                if (name.includes(query) || sym.includes(query)) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
