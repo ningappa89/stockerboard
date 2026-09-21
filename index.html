@@ -45,10 +45,230 @@
             padding: 40px 24px 80px 24px;
         }
 
-        /* Header */
+        /* Header & Navigation */
         header {
             margin-bottom: 36px;
             position: relative;
+        }
+        .top-nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 24px;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        .auth-container {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            position: relative;
+        }
+        .g-signin-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: #131926;
+            color: #F8FAFC;
+            border: 1px solid rgba(255, 255, 255, 0.14);
+            border-radius: 9999px;
+            padding: 7px 18px;
+            font-size: 0.84rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+        .g-signin-btn:hover {
+            background: #1C2438;
+            border-color: rgba(59, 130, 246, 0.45);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 14px rgba(59, 130, 246, 0.2);
+        }
+        .g-icon {
+            width: 17px;
+            height: 17px;
+            flex-shrink: 0;
+        }
+        .user-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(22, 29, 46, 0.85);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            border-radius: 9999px;
+            padding: 5px 14px 5px 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+            user-select: none;
+        }
+        .user-chip:hover {
+            border-color: var(--accent-blue);
+            background: rgba(30, 41, 65, 0.95);
+        }
+        .user-avatar {
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #3B82F6, #10B981);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.78rem;
+            font-weight: 700;
+            overflow: hidden;
+        }
+        .user-name {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+        .sync-badge {
+            font-size: 0.68rem;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-weight: 600;
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--accent-emerald);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .sync-badge.syncing {
+            background: rgba(245, 158, 11, 0.15);
+            color: var(--accent-amber);
+            border-color: rgba(245, 158, 11, 0.3);
+        }
+        .sync-badge.offline {
+            background: rgba(148, 163, 184, 0.15);
+            color: var(--text-muted);
+            border-color: rgba(148, 163, 184, 0.3);
+        }
+        .user-dropdown {
+            position: absolute;
+            top: calc(100% + 10px);
+            right: 0;
+            width: 270px;
+            background: #101522;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 14px;
+            box-shadow: 0 16px 36px rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(20px);
+            padding: 16px;
+            z-index: 1000;
+            display: none;
+            animation: fadeIn 0.15s ease-out;
+        }
+        .user-dropdown.active {
+            display: block;
+        }
+        .dropdown-email {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            word-break: break-all;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+        .dropdown-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.82rem;
+            color: var(--text-secondary);
+            padding: 6px 0;
+        }
+        .dropdown-btn-danger {
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid var(--border-subtle);
+            color: var(--accent-rose);
+            font-size: 0.78rem;
+            cursor: pointer;
+            text-align: left;
+            background: none;
+            border: none;
+            width: 100%;
+        }
+        .dropdown-btn-danger:hover {
+            text-decoration: underline;
+        }
+        .dropdown-btn-signout {
+            margin-top: 10px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-primary);
+            padding: 7px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.82rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .dropdown-btn-signout:hover {
+            background: rgba(239, 68, 68, 0.15);
+            border-color: rgba(239, 68, 68, 0.3);
+            color: #F87171;
+        }
+        .modal-backdrop {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.75);
+            backdrop-filter: blur(8px);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 2000;
+        }
+        .modal-backdrop.active {
+            display: flex;
+        }
+        .modal-box {
+            background: #101522;
+            border: 1px solid rgba(255, 255, 255, 0.14);
+            border-radius: 16px;
+            width: 90%;
+            max-width: 460px;
+            padding: 24px;
+            box-shadow: 0 20px 48px rgba(0, 0, 0, 0.6);
+        }
+        .modal-title {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .modal-close {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+        .modal-textarea {
+            width: 100%;
+            height: 100px;
+            background: #0A0D14;
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            color: var(--text-primary);
+            padding: 12px;
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            margin: 14px 0;
+            resize: none;
+        }
+        .modal-textarea:focus {
+            outline: none;
+            border-color: var(--border-focus);
         }
         .brand-pill {
             display: inline-flex;
@@ -61,7 +281,7 @@
             font-size: 0.85rem;
             font-weight: 700;
             color: var(--accent-blue);
-            margin-bottom: 16px;
+            margin-bottom: 0;
             letter-spacing: 0.05em;
             text-transform: uppercase;
         }
@@ -623,9 +843,39 @@
 <body>
     <div class="container">
         <header>
-            <div class="brand-pill">
-                <div class="brand-icon">S</div>
-                <span>Stockerboard</span>
+            <div class="top-nav">
+                <div class="brand-pill">
+                    <div class="brand-icon">S</div>
+                    <span>Stockerboard</span>
+                </div>
+                <div id="authContainer" class="auth-container">
+                    <button class="g-signin-btn" id="gSigninBtn" onclick="handleGoogleAuthClick()">
+                        <svg class="g-icon" viewBox="0 0 24 24">
+                            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                        </svg>
+                        <span>Sign in with Google</span>
+                    </button>
+                    <div id="userChip" class="user-chip" style="display: none;" onclick="toggleUserDropdown(event)">
+                        <div id="userAvatar" class="user-avatar">U</div>
+                        <span id="userName" class="user-name">User</span>
+                        <span id="syncBadge" class="sync-badge">🟢 Synced</span>
+                    </div>
+                    <div id="userDropdown" class="user-dropdown">
+                        <div id="dropdownEmail" class="dropdown-email">user@gmail.com</div>
+                        <div class="dropdown-item">
+                            <span>Cloud Watchlist</span>
+                            <strong id="dropdownWatchCount">0 scrips</strong>
+                        </div>
+                        <div class="dropdown-item" style="font-size: 0.72rem; color: var(--text-muted); border-top: 1px solid var(--border-subtle); padding-top: 8px; margin-top: 6px;">
+                            <span>🇮🇳 DPDP Act (2023) Consent: Verified</span>
+                        </div>
+                        <button class="dropdown-btn-signout" onclick="signOutUser()">🚪 Sign Out</button>
+                        <button class="dropdown-btn-danger" onclick="deleteUserCloudData()">🗑️ Delete Account &amp; Cloud Data</button>
+                    </div>
+                </div>
             </div>
             <h1>Stockerboard Weekly Intelligence Pulse</h1>
             <div class="edition-subtitle">
@@ -636,6 +886,7 @@
                 <span class="meta-badge">📊 EOD VERIFIED BHAVCOPY</span>
                 <span class="meta-badge">⚡ QUANTITATIVE SCREENING</span>
                 <span class="meta-badge">🚀 ZERO-LATENCY STATIC CDN</span>
+                <span class="meta-badge">☁️ GOOGLE CLOUD OAUTH</span>
             </div>
         </header>
 
@@ -1379,8 +1630,18 @@
         <div id="tab-watchlist" class="tab-content">
             <div class="table-card">
                 <div class="table-header-bar">
-                    <div class="table-title">⭐ My Personal Watchlist (Saved on your device)</div>
-                    <button class="btn btn-secondary" onclick="clearWatchlist()" style="font-size: 0.75rem; padding: 4px 10px;">Clear All</button>
+                    <div>
+                        <div class="table-title">⭐ My Personal Watchlist</div>
+                        <div id="watchlistSyncSub" style="font-size: 0.76rem; color: var(--text-muted); margin-top: 2px;">
+                            Saved to your browser storage • Sign in with Google for cross-device cloud sync
+                        </div>
+                    </div>
+                    <div style="display: flex; gap: 8px; flex-wrap: wrap; align-items: center;">
+                        <button class="btn btn-secondary" onclick="openTvImportModal()" style="font-size: 0.75rem; padding: 5px 12px;">📥 Import Tickers</button>
+                        <button class="btn btn-secondary" onclick="copyWatchlistForTradingView()" style="font-size: 0.75rem; padding: 5px 12px;">📋 Copy for TradingView</button>
+                        <button class="btn btn-secondary" onclick="exportActiveTableCSV('watchlistTable', 'stockerboard_watchlist.csv')" style="font-size: 0.75rem; padding: 5px 12px;">📥 Export CSV</button>
+                        <button class="btn btn-secondary" onclick="clearWatchlist()" style="font-size: 0.75rem; padding: 5px 12px; color: var(--accent-rose);">🗑️ Clear All</button>
+                    </div>
                 </div>
                 <div class="table-responsive">
                     <table id="watchlistTable">
@@ -1481,9 +1742,33 @@
         </footer>
     </div>
 
+    <!-- TradingView Watchlist Import Modal -->
+    <div id="tvImportModal" class="modal-backdrop" onclick="if(event.target === this) closeTvImportModal()">
+        <div class="modal-box">
+            <div class="modal-title">
+                <span>📥 Import Watchlist from TradingView</span>
+                <button class="modal-close" onclick="closeTvImportModal()">✕</button>
+            </div>
+            <p style="font-size: 0.82rem; color: var(--text-secondary); line-height: 1.5;">
+                Paste comma, space, or newline-separated tickers (e.g. <code>TRENT, BEL, AUROPHARMA, NSE:TITAN</code>).
+            </p>
+            <textarea id="tvImportInput" class="modal-textarea" placeholder="Paste symbols here..."></textarea>
+            <div style="display: flex; justify-content: flex-end; gap: 10px;">
+                <button class="btn btn-secondary" onclick="closeTvImportModal()">Cancel</button>
+                <button class="btn btn-primary" style="padding: 7px 16px;" onclick="applyTvImport()">⭐ Import &amp; Star</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Google Identity Services & Firebase SDKs -->
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore-compat.js"></script>
+
     <!-- Client-Side Reactive Controller -->
     <script>
-        const APP_DATA = {"title": "Stockerboard Weekly Intelligence Pulse", "edition": 38, "session_date": "2026-09-18", "display_date": "Friday, 18 September 2026", "regime": {"regime": "Balanced", "explanation": "Selectivity matters. Not all signals will work.", "color": "#F59E0B"}, "market_regime": {"regime": "Balanced", "explanation": "Selectivity matters. Not all signals will work.", "color": "#F59E0B"}, "breakouts": [{"symbol": "AUROPHARMA", "company_name": "Aurobindo Pharma Ltd.", "sector": "Healthcare", "industry": "Healthcare", "cmp": 1734.0, "high_52w": 1734.0, "low_52w": 1061.3, "dist_52w_pct": 0.0, "volume": "1,209,478", "volume_raw": 1209478, "volume_multiplier": "1.52x", "momentum_score": 95, "pe": 38.3, "roe": 11.2, "roce": 13.0, "pb": 4.4, "mcap": "Rs. 99,771 Cr", "setup_type": "52W High Breakout"}, {"symbol": "ASTAR", "company_name": "ASIAN STAR CO.LTD.", "sector": "Diversified", "industry": "Broad Market", "cmp": 807.35, "high_52w": 807.35, "low_52w": 485.0, "dist_52w_pct": 0.0, "volume": "13,851", "volume_raw": 13851, "volume_multiplier": "16.22x", "momentum_score": 95, "pe": 47.0, "roe": 3.1, "roce": 4.3, "pb": 1.2, "mcap": "Rs. 1,292 Cr", "setup_type": "52W High Breakout"}, {"symbol": "TBZ", "company_name": "TRIB BHIMJI ZAVERI LTD", "sector": "Diversified", "industry": "Broad Market", "cmp": 603.55, "high_52w": 603.55, "low_52w": 110.5, "dist_52w_pct": 0.0, "volume": "1,436,925", "volume_raw": 1436925, "volume_multiplier": "0.33x", "momentum_score": 95, "pe": 19.0, "roe": 26.5, "roce": 21.6, "pb": 4.8, "mcap": "Rs. 4,028 Cr", "setup_type": "52W High Breakout"}, {"symbol": "SOFTTECH", "company_name": "SoftTech Engineers Limited", "sector": "Diversified", "industry": "Broad Market", "cmp": 525.7, "high_52w": 525.7, "low_52w": 215.0, "dist_52w_pct": 0.0, "volume": "35,070", "volume_raw": 35070, "volume_multiplier": "4.85x", "momentum_score": 95, "pe": 73.8, "roe": 5.2, "roce": 7.6, "pb": 3.9, "mcap": "Rs. 728 Cr", "setup_type": "52W High Breakout"}, {"symbol": "BODALCHEM", "company_name": "BODAL CHEMICALS LTD.", "sector": "Diversified", "industry": "Broad Market", "cmp": 191.23, "high_52w": 191.23, "low_52w": 42.81, "dist_52w_pct": 0.0, "volume": "1,686,113", "volume_raw": 1686113, "volume_multiplier": "0.32x", "momentum_score": 95, "pe": 36.8, "roe": 0.9, "roce": 5.3, "pb": 2.0, "mcap": "Rs. 2,408 Cr", "setup_type": "52W High Breakout"}, {"symbol": "QUINT", "company_name": "QUINT DIGITAL LTD.", "sector": "Diversified", "industry": "Broad Market", "cmp": 70.02, "high_52w": 70.02, "low_52w": 33.45, "dist_52w_pct": 0.0, "volume": "668,824", "volume_raw": 668824, "volume_multiplier": "11.08x", "momentum_score": 95, "pe": 41.7, "roe": -1.0, "roce": -0.4, "pb": "N/A", "mcap": "Rs. 331 Cr", "setup_type": "52W High Breakout"}, {"symbol": "STLNETWORK", "company_name": "STL Networks Limited", "sector": "Diversified", "industry": "Broad Market", "cmp": 42.95, "high_52w": 42.95, "low_52w": 15.75, "dist_52w_pct": 0.0, "volume": "1,250,147", "volume_raw": 1250147, "volume_multiplier": "0.29x", "momentum_score": 95, "pe": 23.4, "roe": -2.1, "roce": 4.3, "pb": "N/A", "mcap": "Rs. 2,097 Cr", "setup_type": "52W High Breakout"}, {"symbol": "TOYAMSL", "company_name": "TOYAM SPORTS LIMITED", "sector": "Diversified", "industry": "Broad Market", "cmp": 0.77, "high_52w": 0.77, "low_52w": 0.6, "dist_52w_pct": 0.0, "volume": "458,115", "volume_raw": 458115, "volume_multiplier": "0.57x", "momentum_score": 95, "pe": 5.0, "roe": -0.1, "roce": -0.1, "pb": "N/A", "mcap": "Rs. 44 Cr", "setup_type": "52W High Breakout"}, {"symbol": "MAXESTATES", "company_name": "Max Estates Limited", "sector": "Diversified", "industry": "Broad Market", "cmp": 594.0, "high_52w": 595.0, "low_52w": 305.45, "dist_52w_pct": -0.17, "volume": "201,561", "volume_raw": 201561, "volume_multiplier": "0.66x", "momentum_score": 94, "pe": 209.0, "roe": 1.8, "roce": 3.4, "pb": 3.8, "mcap": "Rs. 9,717 Cr", "setup_type": "52W High Breakout"}, {"symbol": "KSHITIJPOL", "company_name": "KSHITIJ POLYLINE LIMITED", "sector": "Diversified", "industry": "Broad Market", "cmp": 4.2, "high_52w": 4.21, "low_52w": 1.88, "dist_52w_pct": -0.24, "volume": "6,675,034", "volume_raw": 6675034, "volume_multiplier": "2.45x", "momentum_score": 94, "pe": 26.4, "roe": 7.4, "roce": 8.4, "pb": 1.4, "mcap": "Rs. 104 Cr", "setup_type": "52W High Breakout"}], "consolidations": [{"symbol": "AAREYDRUGS", "company_name": "AAREY DRUGS & PHARMACEUTICALS", "sector": "Diversified", "industry": "Broad Market", "cmp": 102.13, "high_52w": 103.5, "low_52w": 47.76, "dist_52w_pct": -1.32, "volume": "289,834", "volume_raw": 289834, "volume_multiplier": "1.14x", "momentum_score": 89, "pe": 75.6, "roe": 2.8, "roce": 5.6, "pb": 1.9, "mcap": "Rs. 315 Cr", "setup_type": "Near 52W Consolidation"}, {"symbol": "AARTISURF", "company_name": "AARTI SURFACTANTS LIMITED", "sector": "Diversified", "industry": "Broad Market", "cmp": 658.55, "high_52w": 677.7, "low_52w": 316.0, "dist_52w_pct": -2.83, "volume": "103,714", "volume_raw": 103714, "volume_multiplier": "1.03x", "momentum_score": 86, "pe": "N/A", "roe": "N/A", "roce": "N/A", "pb": "N/A", "mcap": "N/A", "setup_type": "Near 52W Consolidation"}, {"symbol": "ACE", "company_name": "ACTION CONSTRUCTION EQUIPMENT", "sector": "Diversified", "industry": "Broad Market", "cmp": 1229.2, "high_52w": 1241.5, "low_52w": 745.1, "dist_52w_pct": -0.99, "volume": "881,443", "volume_raw": 881443, "volume_multiplier": "2.59x", "momentum_score": 90, "pe": 32.7, "roe": 23.6, "roce": 32.4, "pb": 7.3, "mcap": "Rs. 14,638 Cr", "setup_type": "Near 52W Consolidation"}, {"symbol": "ACMESOLAR", "company_name": "ACME SOLAR HOLDINGS LTD", "sector": "Diversified", "industry": "Broad Market", "cmp": 435.25, "high_52w": 440.7, "low_52w": 195.9, "dist_52w_pct": -1.24, "volume": "12,038,412", "volume_raw": 12038412, "volume_multiplier": "4.65x", "momentum_score": 89, "pe": 68.6, "roe": 6.9, "roce": 9.3, "pb": 5.3, "mcap": "Rs. 30,767 Cr", "setup_type": "Near 52W Consolidation"}, {"symbol": "AEGISVOPAK", "company_name": "AEGIS VOPAK TERMINALS LTD", "sector": "Diversified", "industry": "Broad Market", "cmp": 314.95, "high_52w": 317.0, "low_52w": 158.0, "dist_52w_pct": -0.65, "volume": "2,342,046", "volume_raw": 2342046, "volume_multiplier": "1.5x", "momentum_score": 90, "pe": 124.0, "roe": 8.1, "roce": 6.5, "pb": 7.2, "mcap": "Rs. 34,896 Cr", "setup_type": "Near 52W Consolidation"}, {"symbol": "AKUMS", "company_name": "Akums Drugs and Pharmaceutical", "sector": "Diversified", "industry": "Broad Market", "cmp": 783.7, "high_52w": 796.55, "low_52w": 409.3, "dist_52w_pct": -1.61, "volume": "330,477", "volume_raw": 330477, "volume_multiplier": "0.96x", "momentum_score": 88, "pe": 106.0, "roe": 4.9, "roce": 6.8, "pb": 5.1, "mcap": "Rs. 12,335 Cr", "setup_type": "Near 52W Consolidation"}, {"symbol": "AONELIQUID", "company_name": "AONEAMC - AONELIQUID", "sector": "Diversified", "industry": "Broad Market", "cmp": 1077.58, "high_52w": 1094.59, "low_52w": 997.56, "dist_52w_pct": -1.55, "volume": "55,374", "volume_raw": 55374, "volume_multiplier": "2.97x", "momentum_score": 88, "pe": "N/A", "roe": "N/A", "roce": "N/A", "pb": "N/A", "mcap": "N/A", "setup_type": "Near 52W Consolidation"}, {"symbol": "APARINDS", "company_name": "APAR INDUSTRIES LTD.", "sector": "Diversified", "industry": "Broad Market", "cmp": 18858.0, "high_52w": 19080.0, "low_52w": 6801.0, "dist_52w_pct": -1.16, "volume": "271,798", "volume_raw": 271798, "volume_multiplier": "2.12x", "momentum_score": 89, "pe": 66.2, "roe": 21.2, "roce": 32.9, "pb": 14.7, "mcap": "Rs. 78,963 Cr", "setup_type": "Near 52W Consolidation"}, {"symbol": "APLAPOLLO", "company_name": "APL Apollo Tubes Ltd.", "sector": "Capital Goods", "industry": "Capital Goods", "cmp": 2270.1, "high_52w": 2301.4, "low_52w": 1653.3, "dist_52w_pct": -1.36, "volume": "1,115,754", "volume_raw": 1115754, "volume_multiplier": "1.57x", "momentum_score": 89, "pe": 109.0, "roe": 16.7, "roce": 21.5, "pb": 18.2, "mcap": "Rs. 63,031 Cr", "setup_type": "Near 52W Consolidation"}, {"symbol": "APOLLOHOSP", "company_name": "Apollo Hospitals Enterprise Ltd.", "sector": "Healthcare", "industry": "Healthcare", "cmp": 8944.5, "high_52w": 9050.0, "low_52w": 6696.5, "dist_52w_pct": -1.17, "volume": "344,265", "volume_raw": 344265, "volume_multiplier": "1.3x", "momentum_score": 89, "pe": 81.4, "roe": 15.0, "roce": 17.0, "pb": 12.9, "mcap": "Rs. 128,608 Cr", "setup_type": "Near 52W Consolidation"}], "sector_rotation": [{"sector": "Capital Goods", "weekly_return": 3.43, "top_stock": "DYNAMATECH", "top_stock_name": "Dynamatic Technologies Ltd.", "top_stock_return": 4.49, "scrip_count": 3, "trend": "Leading"}, {"sector": "Oil Gas & Consumable Fuels", "weekly_return": 1.35, "top_stock": "ATGL", "top_stock_name": "Adani Total Gas Ltd.", "top_stock_return": 9.62, "scrip_count": 13, "trend": "Improving"}, {"sector": "Healthcare", "weekly_return": 0.5, "top_stock": "ABBOTINDIA", "top_stock_name": "Abbott India Ltd.", "top_stock_return": 7.96, "scrip_count": 49, "trend": "Improving"}, {"sector": "Telecommunication", "weekly_return": 0.47, "top_stock": "INDUSTOWER", "top_stock_name": "Indus Towers Ltd.", "top_stock_return": 1.05, "scrip_count": 4, "trend": "Improving"}, {"sector": "Information Technology", "weekly_return": 0.41, "top_stock": "SONATSOFTW", "top_stock_name": "Sonata Software Ltd.", "top_stock_return": 5.34, "scrip_count": 20, "trend": "Improving"}, {"sector": "Fast Moving Consumer Goods", "weekly_return": 0.11, "top_stock": "PATANJALI", "top_stock_name": "Patanjali Foods Ltd.", "top_stock_return": 8.02, "scrip_count": 15, "trend": "Improving"}, {"sector": "Chemicals", "weekly_return": -0.68, "top_stock": "TATACHEM", "top_stock_name": "Tata Chemicals Ltd.", "top_stock_return": 13.55, "scrip_count": 21, "trend": "Lagging"}, {"sector": "Financial Services", "weekly_return": -0.68, "top_stock": "PAYTM", "top_stock_name": "One 97 Communications Ltd.", "top_stock_return": 6.38, "scrip_count": 54, "trend": "Lagging"}, {"sector": "Media Entertainment & Publication", "weekly_return": -0.94, "top_stock": "PFOCUS", "top_stock_name": "Prime Focus Ltd", "top_stock_return": 9.82, "scrip_count": 10, "trend": "Lagging"}, {"sector": "Automobile and Auto Components", "weekly_return": -1.13, "top_stock": "UNOMINDA", "top_stock_name": "UNO Minda Ltd.", "top_stock_return": 4.83, "scrip_count": 16, "trend": "Lagging"}, {"sector": "Realty", "weekly_return": -1.71, "top_stock": "OBEROIRLTY", "top_stock_name": "Oberoi Realty Ltd.", "top_stock_return": -0.39, "scrip_count": 10, "trend": "Lagging"}, {"sector": "Metals & Mining", "weekly_return": -2.02, "top_stock": "LLOYDSME", "top_stock_name": "Lloyds Metals And Energy Ltd.", "top_stock_return": 0.68, "scrip_count": 14, "trend": "Lagging"}, {"sector": "Consumer Durables", "weekly_return": -2.33, "top_stock": "HAVELLS", "top_stock_name": "Havells India Ltd.", "top_stock_return": 1.47, "scrip_count": 16, "trend": "Lagging"}], "fundamentals": [{"symbol": "TIMEX", "company_name": "TIMEX GROUP INDIA LTD.", "sector": "Diversified", "industry": "Broad Market", "pe": 80.8, "roe": "158.0%", "roce": "82.8%", "pb": 95.6, "mcap": "Rs. 7,210 Cr", "fundamental_rating": "Robust"}, {"symbol": "GOCLCORP", "company_name": "GOCL CORPORATION LIMITED", "sector": "Diversified", "industry": "Broad Market", "pe": 12.1, "roe": "90.8%", "roce": "9.7%", "pb": 1.0, "mcap": "Rs. 2,211 Cr", "fundamental_rating": "Robust"}, {"symbol": "RAMBHAJO", "company_name": "ADVIT JEWELS LIMITED", "sector": "Diversified", "industry": "Broad Market", "pe": 36.4, "roe": "45.6%", "roce": "32.2%", "pb": "N/A", "mcap": "Rs. 1,332 Cr", "fundamental_rating": "Robust"}, {"symbol": "RENTOMOJO", "company_name": "Rentomojo Limited", "sector": "Diversified", "industry": "Broad Market", "pe": 49.2, "roe": "45.4%", "roce": "21.5%", "pb": "N/A", "mcap": "Rs. 5,338 Cr", "fundamental_rating": "Robust"}, {"symbol": "MPIMANIPAL", "company_name": "Manipal Payment and Identity Solutions Limited", "sector": "Diversified", "industry": "Broad Market", "pe": 32.0, "roe": "45.1%", "roce": "43.3%", "pb": "N/A", "mcap": "Rs. 7,913 Cr", "fundamental_rating": "Robust"}, {"symbol": "XTRANET", "company_name": "XTRANET TECHNOLOGIES LTD", "sector": "Diversified", "industry": "Broad Market", "pe": 39.8, "roe": "42.4%", "roce": "43.0%", "pb": "N/A", "mcap": "Rs. 1,632 Cr", "fundamental_rating": "Robust"}, {"symbol": "INDOMIM", "company_name": "INDO-MIM Limited", "sector": "Diversified", "industry": "Broad Market", "pe": 78.8, "roe": "34.5%", "roce": "32.2%", "pb": "N/A", "mcap": "Rs. 52,212 Cr", "fundamental_rating": "Robust"}, {"symbol": "SBC", "company_name": "SBC EXPORTS LIMITED", "sector": "Diversified", "industry": "Broad Market", "pe": 69.1, "roe": "33.6%", "roce": "16.7%", "pb": 31.1, "mcap": "Rs. 2,345 Cr", "fundamental_rating": "Robust"}], "fundamental_leaders": [{"symbol": "TIMEX", "company_name": "TIMEX GROUP INDIA LTD.", "sector": "Diversified", "industry": "Broad Market", "pe": 80.8, "roe": "158.0%", "roce": "82.8%", "pb": 95.6, "mcap": "Rs. 7,210 Cr", "fundamental_rating": "Robust"}, {"symbol": "GOCLCORP", "company_name": "GOCL CORPORATION LIMITED", "sector": "Diversified", "industry": "Broad Market", "pe": 12.1, "roe": "90.8%", "roce": "9.7%", "pb": 1.0, "mcap": "Rs. 2,211 Cr", "fundamental_rating": "Robust"}, {"symbol": "RAMBHAJO", "company_name": "ADVIT JEWELS LIMITED", "sector": "Diversified", "industry": "Broad Market", "pe": 36.4, "roe": "45.6%", "roce": "32.2%", "pb": "N/A", "mcap": "Rs. 1,332 Cr", "fundamental_rating": "Robust"}, {"symbol": "RENTOMOJO", "company_name": "Rentomojo Limited", "sector": "Diversified", "industry": "Broad Market", "pe": 49.2, "roe": "45.4%", "roce": "21.5%", "pb": "N/A", "mcap": "Rs. 5,338 Cr", "fundamental_rating": "Robust"}, {"symbol": "MPIMANIPAL", "company_name": "Manipal Payment and Identity Solutions Limited", "sector": "Diversified", "industry": "Broad Market", "pe": 32.0, "roe": "45.1%", "roce": "43.3%", "pb": "N/A", "mcap": "Rs. 7,913 Cr", "fundamental_rating": "Robust"}, {"symbol": "XTRANET", "company_name": "XTRANET TECHNOLOGIES LTD", "sector": "Diversified", "industry": "Broad Market", "pe": 39.8, "roe": "42.4%", "roce": "43.0%", "pb": "N/A", "mcap": "Rs. 1,632 Cr", "fundamental_rating": "Robust"}, {"symbol": "INDOMIM", "company_name": "INDO-MIM Limited", "sector": "Diversified", "industry": "Broad Market", "pe": 78.8, "roe": "34.5%", "roce": "32.2%", "pb": "N/A", "mcap": "Rs. 52,212 Cr", "fundamental_rating": "Robust"}, {"symbol": "SBC", "company_name": "SBC EXPORTS LIMITED", "sector": "Diversified", "industry": "Broad Market", "pe": 69.1, "roe": "33.6%", "roce": "16.7%", "pb": 31.1, "mcap": "Rs. 2,345 Cr", "fundamental_rating": "Robust"}], "corporate_actions": [{"symbol": "1077IIFL30", "company_name": "IIFL SAMASTA 10.77% 2030", "purpose": "INTEREST PAYMENT", "ex_date": "2026-09-18", "record_date": "2026-09-20"}, {"symbol": "1116AFL27", "company_name": "AFL 11.16 % 2027", "purpose": "INTEREST PAYMENT", "ex_date": "2026-09-18", "record_date": "2026-09-20"}, {"symbol": "1116AFL28", "company_name": "AFL-11.16%-19-1-28-PVT", "purpose": "INTEREST PAYMENT", "ex_date": "2026-09-18", "record_date": "2026-09-20"}, {"symbol": "11MCS27", "company_name": "MCS 11% 2027", "purpose": "INTEREST PAYMENT", "ex_date": "2026-09-18", "record_date": "2026-09-20"}, {"symbol": "125VCCL31", "company_name": "VCCL 12.5% 2031", "purpose": "INTEREST PAYMENT", "ex_date": "2026-09-18", "record_date": "2026-09-20"}, {"symbol": "12VCCL29B", "company_name": "VCCL 12% 2029", "purpose": "INTEREST PAYMENT", "ex_date": "2026-09-18", "record_date": "2026-09-19"}, {"symbol": "728NTPC30B", "company_name": "TFB 7.28% 2030 SR. 2A", "purpose": "INTEREST PAYMENT", "ex_date": "2026-09-18", "record_date": "2026-09-20"}, {"symbol": "737NTPC35C", "company_name": "TFB 7.37% 2035 SR. 3A", "purpose": "INTEREST PAYMENT", "ex_date": "2026-09-18", "record_date": "2026-09-20"}], "tradingview_tickers": "NSE:AUROPHARMA,NSE:ASTAR,NSE:TBZ,NSE:SOFTTECH,NSE:BODALCHEM,NSE:QUINT,NSE:STLNETWORK,NSE:TOYAMSL,NSE:MAXESTATES,NSE:KSHITIJPOL,NSE:AAREYDRUGS,NSE:AARTISURF,NSE:ACE,NSE:ACMESOLAR,NSE:AEGISVOPAK,NSE:AKUMS,NSE:AONELIQUID,NSE:APARINDS,NSE:APLAPOLLO,NSE:APOLLOHOSP", "educational_takeaway": "Market conditions remain Balanced. Institutional capital is prioritizing volume-backed breakouts and high capital efficiency.", "stats": {"breakout_count": 10, "consolidation_count": 10, "top_roe": "158.0%", "action_count": 8, "top_sector": "Capital Goods"}, "thesis": {"summary": "Market conditions remain Balanced. Institutional capital is prioritizing volume-backed breakouts and high capital efficiency.", "flow": "Sector rotation indicates leadership in Capital Goods segments, with consolidating setups providing favorable risk-reward envelopes.", "discipline": "Quantitative screeners reflect mathematical EOD criteria. Investors should conduct independent research and adhere to personal risk tolerances."}, "disclaimer": "Disclaimer: Stockerboard (stockerboard.com) is an educational research and quantitative market analytics platform. We are not registered with SEBI as an Investment Adviser (IA) or Research Analyst (RA). All information, scores, tables, and statistics provided herein are strictly for educational and informational purposes and do not constitute an offer, solicitation, or recommendation to buy, sell, or hold any security. Market data is compiled from official publicly available End-of-Day filings from NSE India and BSE India. Investments in securities are subject to market risks; read all related documents carefully."};
+        const APP_DATA = {"title": "Stockerboard Weekly Intelligence Pulse", "edition": 38, "session_date": "2026-09-18", "display_date": "Friday, 18 September 2026", "regime": {"regime": "Balanced", "explanation": "Selectivity matters. Not all signals will work.", "color": "#F59E0B"}, "market_regime": {"regime": "Balanced", "explanation": "Selectivity matters. Not all signals will work.", "color": "#F59E0B"}, "breakouts": [{"symbol": "AUROPHARMA", "company_name": "Aurobindo Pharma Ltd.", "sector": "Healthcare", "industry": "Healthcare", "cmp": 1734.0, "high_52w": 1734.0, "low_52w": 1061.3, "dist_52w_pct": 0.0, "volume": "1,209,478", "volume_raw": 1209478, "volume_multiplier": "1.52x", "momentum_score": 95, "pe": 38.3, "roe": 11.2, "roce": 13.0, "pb": 4.4, "mcap": "Rs. 99,771 Cr", "setup_type": "52W High Breakout"}, {"symbol": "ASTAR", "company_name": "ASIAN STAR CO.LTD.", "sector": "Diversified", "industry": "Broad Market", "cmp": 807.35, "high_52w": 807.35, "low_52w": 485.0, "dist_52w_pct": 0.0, "volume": "13,851", "volume_raw": 13851, "volume_multiplier": "16.22x", "momentum_score": 95, "pe": 47.0, "roe": 3.1, "roce": 4.3, "pb": 1.2, "mcap": "Rs. 1,292 Cr", "setup_type": "52W High Breakout"}, {"symbol": "TBZ", "company_name": "TRIB BHIMJI ZAVERI LTD", "sector": "Diversified", "industry": "Broad Market", "cmp": 603.55, "high_52w": 603.55, "low_52w": 110.5, "dist_52w_pct": 0.0, "volume": "1,436,925", "volume_raw": 1436925, "volume_multiplier": "0.33x", "momentum_score": 95, "pe": 19.0, "roe": 26.5, "roce": 21.6, "pb": 4.8, "mcap": "Rs. 4,028 Cr", "setup_type": "52W High Breakout"}, {"symbol": "SOFTTECH", "company_name": "SoftTech Engineers Limited", "sector": "Diversified", "industry": "Broad Market", "cmp": 525.7, "high_52w": 525.7, "low_52w": 215.0, "dist_52w_pct": 0.0, "volume": "35,070", "volume_raw": 35070, "volume_multiplier": "4.85x", "momentum_score": 95, "pe": 73.8, "roe": 5.2, "roce": 7.6, "pb": 3.9, "mcap": "Rs. 728 Cr", "setup_type": "52W High Breakout"}, {"symbol": "BODALCHEM", "company_name": "BODAL CHEMICALS LTD.", "sector": "Diversified", "industry": "Broad Market", "cmp": 191.23, "high_52w": 191.23, "low_52w": 42.81, "dist_52w_pct": 0.0, "volume": "1,686,113", "volume_raw": 1686113, "volume_multiplier": "0.32x", "momentum_score": 95, "pe": 36.8, "roe": 0.9, "roce": 5.3, "pb": 2.0, "mcap": "Rs. 2,408 Cr", "setup_type": "52W High Breakout"}, {"symbol": "QUINT", "company_name": "QUINT DIGITAL LTD.", "sector": "Diversified", "industry": "Broad Market", "cmp": 70.02, "high_52w": 70.02, "low_52w": 33.45, "dist_52w_pct": 0.0, "volume": "668,824", "volume_raw": 668824, "volume_multiplier": "11.08x", "momentum_score": 95, "pe": 41.7, "roe": -1.0, "roce": -0.4, "pb": "N/A", "mcap": "Rs. 331 Cr", "setup_type": "52W High Breakout"}, {"symbol": "STLNETWORK", "company_name": "STL Networks Limited", "sector": "Diversified", "industry": "Broad Market", "cmp": 42.95, "high_52w": 42.95, "low_52w": 15.75, "dist_52w_pct": 0.0, "volume": "1,250,147", "volume_raw": 1250147, "volume_multiplier": "0.29x", "momentum_score": 95, "pe": 23.4, "roe": -2.1, "roce": 4.3, "pb": "N/A", "mcap": "Rs. 2,097 Cr", "setup_type": "52W High Breakout"}, {"symbol": "TOYAMSL", "company_name": "TOYAM SPORTS LIMITED", "sector": "Diversified", "industry": "Broad Market", "cmp": 0.77, "high_52w": 0.77, "low_52w": 0.6, "dist_52w_pct": 0.0, "volume": "458,115", "volume_raw": 458115, "volume_multiplier": "0.57x", "momentum_score": 95, "pe": 5.0, "roe": -0.1, "roce": -0.1, "pb": "N/A", "mcap": "Rs. 44 Cr", "setup_type": "52W High Breakout"}, {"symbol": "MAXESTATES", "company_name": "Max Estates Limited", "sector": "Diversified", "industry": "Broad Market", "cmp": 594.0, "high_52w": 595.0, "low_52w": 305.45, "dist_52w_pct": -0.17, "volume": "201,561", "volume_raw": 201561, "volume_multiplier": "0.66x", "momentum_score": 94, "pe": 209.0, "roe": 1.8, "roce": 3.4, "pb": 3.8, "mcap": "Rs. 9,717 Cr", "setup_type": "52W High Breakout"}, {"symbol": "KSHITIJPOL", "company_name": "KSHITIJ POLYLINE LIMITED", "sector": "Diversified", "industry": "Broad Market", "cmp": 4.2, "high_52w": 4.21, "low_52w": 1.88, "dist_52w_pct": -0.24, "volume": "6,675,034", "volume_raw": 6675034, "volume_multiplier": "2.45x", "momentum_score": 94, "pe": 26.4, "roe": 7.4, "roce": 8.4, "pb": 1.4, "mcap": "Rs. 104 Cr", "setup_type": "52W High Breakout"}], "consolidations": [{"symbol": "AAREYDRUGS", "company_name": "AAREY DRUGS & PHARMACEUTICALS", "sector": "Diversified", "industry": "Broad Market", "cmp": 102.13, "high_52w": 103.5, "low_52w": 47.76, "dist_52w_pct": -1.32, "volume": "289,834", "volume_raw": 289834, "volume_multiplier": "1.14x", "momentum_score": 89, "pe": 75.6, "roe": 2.8, "roce": 5.6, "pb": 1.9, "mcap": "Rs. 315 Cr", "setup_type": "Near 52W Consolidation"}, {"symbol": "AARTISURF", "company_name": "AARTI SURFACTANTS LIMITED", "sector": "Diversified", "industry": "Broad Market", "cmp": 658.55, "high_52w": 677.7, "low_52w": 316.0, "dist_52w_pct": -2.83, "volume": "103,714", "volume_raw": 103714, "volume_multiplier": "1.03x", "momentum_score": 86, "pe": "N/A", "roe": "N/A", "roce": "N/A", "pb": "N/A", "mcap": "N/A", "setup_type": "Near 52W Consolidation"}, {"symbol": "ACE", "company_name": "ACTION CONSTRUCTION EQUIPMENT", "sector": "Diversified", "industry": "Broad Market", "cmp": 1229.2, "high_52w": 1241.5, "low_52w": 745.1, "dist_52w_pct": -0.99, "volume": "881,443", "volume_raw": 881443, "volume_multiplier": "2.59x", "momentum_score": 90, "pe": 32.7, "roe": 23.6, "roce": 32.4, "pb": 7.3, "mcap": "Rs. 14,638 Cr", "setup_type": "Near 52W Consolidation"}, {"symbol": "ACMESOLAR", "company_name": "ACME SOLAR HOLDINGS LTD", "sector": "Diversified", "industry": "Broad Market", "cmp": 435.25, "high_52w": 440.7, "low_52w": 195.9, "dist_52w_pct": -1.24, "volume": "12,038,412", "volume_raw": 12038412, "volume_multiplier": "4.65x", "momentum_score": 89, "pe": 68.6, "roe": 6.9, "roce": 9.3, "pb": 5.3, "mcap": "Rs. 30,767 Cr", "setup_type": "Near 52W Consolidation"}, {"symbol": "AEGISVOPAK", "company_name": "AEGIS VOPAK TERMINALS LTD", "sector": "Diversified", "industry": "Broad Market", "cmp": 314.95, "high_52w": 317.0, "low_52w": 158.0, "dist_52w_pct": -0.65, "volume": "2,342,046", "volume_raw": 2342046, "volume_multiplier": "1.5x", "momentum_score": 90, "pe": 124.0, "roe": 8.1, "roce": 6.5, "pb": 7.2, "mcap": "Rs. 34,896 Cr", "setup_type": "Near 52W Consolidation"}, {"symbol": "AKUMS", "company_name": "Akums Drugs and Pharmaceutical", "sector": "Diversified", "industry": "Broad Market", "cmp": 783.7, "high_52w": 796.55, "low_52w": 409.3, "dist_52w_pct": -1.61, "volume": "330,477", "volume_raw": 330477, "volume_multiplier": "0.96x", "momentum_score": 88, "pe": 106.0, "roe": 4.9, "roce": 6.8, "pb": 5.1, "mcap": "Rs. 12,335 Cr", "setup_type": "Near 52W Consolidation"}, {"symbol": "AONELIQUID", "company_name": "AONEAMC - AONELIQUID", "sector": "Diversified", "industry": "Broad Market", "cmp": 1077.58, "high_52w": 1094.59, "low_52w": 997.56, "dist_52w_pct": -1.55, "volume": "55,374", "volume_raw": 55374, "volume_multiplier": "2.97x", "momentum_score": 88, "pe": "N/A", "roe": "N/A", "roce": "N/A", "pb": "N/A", "mcap": "N/A", "setup_type": "Near 52W Consolidation"}, {"symbol": "APARINDS", "company_name": "APAR INDUSTRIES LTD.", "sector": "Diversified", "industry": "Broad Market", "cmp": 18858.0, "high_52w": 19080.0, "low_52w": 6801.0, "dist_52w_pct": -1.16, "volume": "271,798", "volume_raw": 271798, "volume_multiplier": "2.12x", "momentum_score": 89, "pe": 66.2, "roe": 21.2, "roce": 32.9, "pb": 14.7, "mcap": "Rs. 78,963 Cr", "setup_type": "Near 52W Consolidation"}, {"symbol": "APLAPOLLO", "company_name": "APL Apollo Tubes Ltd.", "sector": "Capital Goods", "industry": "Capital Goods", "cmp": 2270.1, "high_52w": 2301.4, "low_52w": 1653.3, "dist_52w_pct": -1.36, "volume": "1,115,754", "volume_raw": 1115754, "volume_multiplier": "1.57x", "momentum_score": 89, "pe": 109.0, "roe": 16.7, "roce": 21.5, "pb": 18.2, "mcap": "Rs. 63,031 Cr", "setup_type": "Near 52W Consolidation"}, {"symbol": "APOLLOHOSP", "company_name": "Apollo Hospitals Enterprise Ltd.", "sector": "Healthcare", "industry": "Healthcare", "cmp": 8944.5, "high_52w": 9050.0, "low_52w": 6696.5, "dist_52w_pct": -1.17, "volume": "344,265", "volume_raw": 344265, "volume_multiplier": "1.3x", "momentum_score": 89, "pe": 81.4, "roe": 15.0, "roce": 17.0, "pb": 12.9, "mcap": "Rs. 128,608 Cr", "setup_type": "Near 52W Consolidation"}], "sector_rotation": [{"sector": "Capital Goods", "weekly_return": 3.43, "top_stock": "DYNAMATECH", "top_stock_name": "Dynamatic Technologies Ltd.", "top_stock_return": 4.49, "scrip_count": 3, "trend": "Leading"}, {"sector": "Oil Gas & Consumable Fuels", "weekly_return": 1.35, "top_stock": "ATGL", "top_stock_name": "Adani Total Gas Ltd.", "top_stock_return": 9.62, "scrip_count": 13, "trend": "Improving"}, {"sector": "Healthcare", "weekly_return": 0.5, "top_stock": "ABBOTINDIA", "top_stock_name": "Abbott India Ltd.", "top_stock_return": 7.96, "scrip_count": 49, "trend": "Improving"}, {"sector": "Telecommunication", "weekly_return": 0.47, "top_stock": "INDUSTOWER", "top_stock_name": "Indus Towers Ltd.", "top_stock_return": 1.05, "scrip_count": 4, "trend": "Improving"}, {"sector": "Information Technology", "weekly_return": 0.41, "top_stock": "SONATSOFTW", "top_stock_name": "Sonata Software Ltd.", "top_stock_return": 5.34, "scrip_count": 20, "trend": "Improving"}, {"sector": "Fast Moving Consumer Goods", "weekly_return": 0.11, "top_stock": "PATANJALI", "top_stock_name": "Patanjali Foods Ltd.", "top_stock_return": 8.02, "scrip_count": 15, "trend": "Improving"}, {"sector": "Chemicals", "weekly_return": -0.68, "top_stock": "TATACHEM", "top_stock_name": "Tata Chemicals Ltd.", "top_stock_return": 13.55, "scrip_count": 21, "trend": "Lagging"}, {"sector": "Financial Services", "weekly_return": -0.68, "top_stock": "PAYTM", "top_stock_name": "One 97 Communications Ltd.", "top_stock_return": 6.38, "scrip_count": 54, "trend": "Lagging"}, {"sector": "Media Entertainment & Publication", "weekly_return": -0.94, "top_stock": "PFOCUS", "top_stock_name": "Prime Focus Ltd", "top_stock_return": 9.82, "scrip_count": 10, "trend": "Lagging"}, {"sector": "Automobile and Auto Components", "weekly_return": -1.13, "top_stock": "UNOMINDA", "top_stock_name": "UNO Minda Ltd.", "top_stock_return": 4.83, "scrip_count": 16, "trend": "Lagging"}, {"sector": "Realty", "weekly_return": -1.71, "top_stock": "OBEROIRLTY", "top_stock_name": "Oberoi Realty Ltd.", "top_stock_return": -0.39, "scrip_count": 10, "trend": "Lagging"}, {"sector": "Metals & Mining", "weekly_return": -2.02, "top_stock": "LLOYDSME", "top_stock_name": "Lloyds Metals And Energy Ltd.", "top_stock_return": 0.68, "scrip_count": 14, "trend": "Lagging"}, {"sector": "Consumer Durables", "weekly_return": -2.33, "top_stock": "HAVELLS", "top_stock_name": "Havells India Ltd.", "top_stock_return": 1.47, "scrip_count": 16, "trend": "Lagging"}], "fundamentals": [{"symbol": "TIMEX", "company_name": "TIMEX GROUP INDIA LTD.", "sector": "Diversified", "industry": "Broad Market", "pe": 80.8, "roe": "158.0%", "roce": "82.8%", "pb": 95.6, "mcap": "Rs. 7,210 Cr", "fundamental_rating": "Robust"}, {"symbol": "GOCLCORP", "company_name": "GOCL CORPORATION LIMITED", "sector": "Diversified", "industry": "Broad Market", "pe": 12.1, "roe": "90.8%", "roce": "9.7%", "pb": 1.0, "mcap": "Rs. 2,211 Cr", "fundamental_rating": "Robust"}, {"symbol": "RAMBHAJO", "company_name": "ADVIT JEWELS LIMITED", "sector": "Diversified", "industry": "Broad Market", "pe": 36.4, "roe": "45.6%", "roce": "32.2%", "pb": "N/A", "mcap": "Rs. 1,332 Cr", "fundamental_rating": "Robust"}, {"symbol": "RENTOMOJO", "company_name": "Rentomojo Limited", "sector": "Diversified", "industry": "Broad Market", "pe": 49.2, "roe": "45.4%", "roce": "21.5%", "pb": "N/A", "mcap": "Rs. 5,338 Cr", "fundamental_rating": "Robust"}, {"symbol": "MPIMANIPAL", "company_name": "Manipal Payment and Identity Solutions Limited", "sector": "Diversified", "industry": "Broad Market", "pe": 32.0, "roe": "45.1%", "roce": "43.3%", "pb": "N/A", "mcap": "Rs. 7,913 Cr", "fundamental_rating": "Robust"}, {"symbol": "XTRANET", "company_name": "XTRANET TECHNOLOGIES LTD", "sector": "Diversified", "industry": "Broad Market", "pe": 39.8, "roe": "42.4%", "roce": "43.0%", "pb": "N/A", "mcap": "Rs. 1,632 Cr", "fundamental_rating": "Robust"}, {"symbol": "INDOMIM", "company_name": "INDO-MIM Limited", "sector": "Diversified", "industry": "Broad Market", "pe": 78.8, "roe": "34.5%", "roce": "32.2%", "pb": "N/A", "mcap": "Rs. 52,212 Cr", "fundamental_rating": "Robust"}, {"symbol": "SBC", "company_name": "SBC EXPORTS LIMITED", "sector": "Diversified", "industry": "Broad Market", "pe": 69.1, "roe": "33.6%", "roce": "16.7%", "pb": 31.1, "mcap": "Rs. 2,345 Cr", "fundamental_rating": "Robust"}], "fundamental_leaders": [{"symbol": "TIMEX", "company_name": "TIMEX GROUP INDIA LTD.", "sector": "Diversified", "industry": "Broad Market", "pe": 80.8, "roe": "158.0%", "roce": "82.8%", "pb": 95.6, "mcap": "Rs. 7,210 Cr", "fundamental_rating": "Robust"}, {"symbol": "GOCLCORP", "company_name": "GOCL CORPORATION LIMITED", "sector": "Diversified", "industry": "Broad Market", "pe": 12.1, "roe": "90.8%", "roce": "9.7%", "pb": 1.0, "mcap": "Rs. 2,211 Cr", "fundamental_rating": "Robust"}, {"symbol": "RAMBHAJO", "company_name": "ADVIT JEWELS LIMITED", "sector": "Diversified", "industry": "Broad Market", "pe": 36.4, "roe": "45.6%", "roce": "32.2%", "pb": "N/A", "mcap": "Rs. 1,332 Cr", "fundamental_rating": "Robust"}, {"symbol": "RENTOMOJO", "company_name": "Rentomojo Limited", "sector": "Diversified", "industry": "Broad Market", "pe": 49.2, "roe": "45.4%", "roce": "21.5%", "pb": "N/A", "mcap": "Rs. 5,338 Cr", "fundamental_rating": "Robust"}, {"symbol": "MPIMANIPAL", "company_name": "Manipal Payment and Identity Solutions Limited", "sector": "Diversified", "industry": "Broad Market", "pe": 32.0, "roe": "45.1%", "roce": "43.3%", "pb": "N/A", "mcap": "Rs. 7,913 Cr", "fundamental_rating": "Robust"}, {"symbol": "XTRANET", "company_name": "XTRANET TECHNOLOGIES LTD", "sector": "Diversified", "industry": "Broad Market", "pe": 39.8, "roe": "42.4%", "roce": "43.0%", "pb": "N/A", "mcap": "Rs. 1,632 Cr", "fundamental_rating": "Robust"}, {"symbol": "INDOMIM", "company_name": "INDO-MIM Limited", "sector": "Diversified", "industry": "Broad Market", "pe": 78.8, "roe": "34.5%", "roce": "32.2%", "pb": "N/A", "mcap": "Rs. 52,212 Cr", "fundamental_rating": "Robust"}, {"symbol": "SBC", "company_name": "SBC EXPORTS LIMITED", "sector": "Diversified", "industry": "Broad Market", "pe": 69.1, "roe": "33.6%", "roce": "16.7%", "pb": 31.1, "mcap": "Rs. 2,345 Cr", "fundamental_rating": "Robust"}], "corporate_actions": [{"symbol": "1077IIFL30", "company_name": "IIFL SAMASTA 10.77% 2030", "purpose": "INTEREST PAYMENT", "ex_date": "2026-09-18", "record_date": "2026-09-20"}, {"symbol": "1116AFL27", "company_name": "AFL 11.16 % 2027", "purpose": "INTEREST PAYMENT", "ex_date": "2026-09-18", "record_date": "2026-09-20"}, {"symbol": "1116AFL28", "company_name": "AFL-11.16%-19-1-28-PVT", "purpose": "INTEREST PAYMENT", "ex_date": "2026-09-18", "record_date": "2026-09-20"}, {"symbol": "11MCS27", "company_name": "MCS 11% 2027", "purpose": "INTEREST PAYMENT", "ex_date": "2026-09-18", "record_date": "2026-09-20"}, {"symbol": "125VCCL31", "company_name": "VCCL 12.5% 2031", "purpose": "INTEREST PAYMENT", "ex_date": "2026-09-18", "record_date": "2026-09-20"}, {"symbol": "12VCCL29B", "company_name": "VCCL 12% 2029", "purpose": "INTEREST PAYMENT", "ex_date": "2026-09-18", "record_date": "2026-09-19"}, {"symbol": "728NTPC30B", "company_name": "TFB 7.28% 2030 SR. 2A", "purpose": "INTEREST PAYMENT", "ex_date": "2026-09-18", "record_date": "2026-09-20"}, {"symbol": "737NTPC35C", "company_name": "TFB 7.37% 2035 SR. 3A", "purpose": "INTEREST PAYMENT", "ex_date": "2026-09-18", "record_date": "2026-09-20"}], "tradingview_tickers": "NSE:AUROPHARMA,NSE:ASTAR,NSE:TBZ,NSE:SOFTTECH,NSE:BODALCHEM,NSE:QUINT,NSE:STLNETWORK,NSE:TOYAMSL,NSE:MAXESTATES,NSE:KSHITIJPOL,NSE:AAREYDRUGS,NSE:AARTISURF,NSE:ACE,NSE:ACMESOLAR,NSE:AEGISVOPAK,NSE:AKUMS,NSE:AONELIQUID,NSE:APARINDS,NSE:APLAPOLLO,NSE:APOLLOHOSP", "educational_takeaway": "Market conditions remain Balanced. Institutional capital is prioritizing volume-backed breakouts and high capital efficiency.", "stats": {"breakout_count": 10, "consolidation_count": 10, "top_roe": "158.0%", "action_count": 8, "top_sector": "Capital Goods"}, "thesis": {"summary": "Market conditions remain Balanced. Institutional capital is prioritizing volume-backed breakouts and high capital efficiency.", "flow": "Sector rotation indicates leadership in Capital Goods segments, with consolidating setups providing favorable risk-reward envelopes.", "discipline": "Quantitative screeners reflect mathematical EOD criteria. Investors should conduct independent research and adhere to personal risk tolerances."}, "disclaimer": "Disclaimer: Stockerboard (stockerboard.com) is an educational research and quantitative market analytics platform. We are not registered with SEBI as an Investment Adviser (IA) or Research Analyst (RA). All information, scores, tables, and statistics provided herein are strictly for educational and informational purposes and do not constitute an offer, solicitation, or recommendation to buy, sell, or hold any security. Market data is compiled from official publicly available End-of-Day filings from NSE India and BSE India. Investments in securities are subject to market risks; read all related documents carefully.", "auth_config": {"enabled": false, "provider": "firebase", "client_id": "", "firebaseConfig": {"apiKey": "", "authDomain": "stockerboard-portal.firebaseapp.com", "projectId": "stockerboard-portal", "storageBucket": "stockerboard-portal.appspot.com", "messagingSenderId": "", "appId": ""}, "one_tap_enabled": true, "telemetry_enabled": true, "consent_notice": "By continuing, you agree to Stockerboard's Educational Terms & Privacy Policy in accordance with the Digital Personal Data Protection Act (DPDP), India."}};
 
         // 1. Tab Switching
         function switchTab(tabId, btn) {
@@ -1634,9 +1919,10 @@
             }
         }
 
-        function saveWatchlist(list) {
+        function saveWatchlist(list, syncToCloud = true) {
             localStorage.setItem('stockerboard_watchlist', JSON.stringify(list));
             updateWatchlistUI();
+            if (syncToCloud) syncWatchlistToCloud(list);
         }
 
         function toggleWatchlist(symbol, btn) {
@@ -1684,7 +1970,8 @@
 
         function updateWatchlistUI() {
             const list = getWatchlist();
-            document.getElementById('watchlistCount').innerText = list.length;
+            const counter = document.getElementById('watchlistCount');
+            if (counter) counter.innerText = list.length;
             document.querySelectorAll('.star-btn').forEach(btn => {
                 const sym = btn.getAttribute('data-sym');
                 if (list.includes(sym)) {
@@ -1746,9 +2033,260 @@
             }, 3000);
         }
 
+        // 9. Stockerboard Cloud Identity & Sync Engine (FAANG Grade)
+        const AUTH_CONFIG = APP_DATA.auth_config || {};
+        let currentAuthUser = null;
+        let firestoreDb = null;
+        let firebaseAuth = null;
+        let syncDebounceTimer = null;
+
+        function initAuthEngine() {
+            try {
+                if (AUTH_CONFIG.enabled && AUTH_CONFIG.firebaseConfig && AUTH_CONFIG.firebaseConfig.apiKey && typeof firebase !== 'undefined') {
+                    if (!firebase.apps.length) {
+                        firebase.initializeApp(AUTH_CONFIG.firebaseConfig);
+                    }
+                    firebaseAuth = firebase.auth();
+                    firestoreDb = firebase.firestore();
+
+                    firebaseAuth.onAuthStateChanged((user) => {
+                        handleAuthStateChange(user);
+                    });
+
+                    // Initialize Google One-Tap if enabled
+                    if (AUTH_CONFIG.one_tap_enabled && typeof google !== 'undefined' && google.accounts && AUTH_CONFIG.client_id) {
+                        google.accounts.id.initialize({
+                            client_id: AUTH_CONFIG.client_id,
+                            callback: handleGoogleOneTapResponse
+                        });
+                        google.accounts.id.prompt();
+                    }
+                } else {
+                    console.log('Stockerboard running in Local-First Mode (localStorage)');
+                }
+            } catch (err) {
+                console.warn('Google Cloud Auth initialization skipped/blocked by privacy extension:', err);
+            }
+        }
+
+        function handleGoogleAuthClick() {
+            if (!AUTH_CONFIG.enabled || !firebaseAuth) {
+                showToast('💡 Local-First Mode: Stars are securely saved on this device.');
+                return;
+            }
+
+            const provider = new firebase.auth.GoogleAuthProvider();
+            provider.setCustomParameters({ prompt: 'select_account' });
+            setSyncStatus('syncing');
+
+            firebaseAuth.signInWithPopup(provider)
+                .then((result) => {
+                    showToast(`Signed in as ${result.user.displayName || result.user.email} ⭐`);
+                })
+                .catch((error) => {
+                    console.error('Google Sign-In error:', error);
+                    setSyncStatus('offline');
+                    if (error.code !== 'auth/popup-closed-by-user') {
+                        showToast('Sign-in unavailable. Continuing in local-first mode.');
+                    }
+                });
+        }
+
+        function handleGoogleOneTapResponse(response) {
+            if (!firebaseAuth || !response.credential) return;
+            const cred = firebase.auth.GoogleAuthProvider.credential(response.credential);
+            firebaseAuth.signInWithCredential(cred).catch(err => console.error('One-Tap auth error:', err));
+        }
+
+        function handleAuthStateChange(user) {
+            currentAuthUser = user;
+            const signinBtn = document.getElementById('gSigninBtn');
+            const userChip = document.getElementById('userChip');
+            const syncSub = document.getElementById('watchlistSyncSub');
+
+            if (user) {
+                if (signinBtn) signinBtn.style.display = 'none';
+                if (userChip) {
+                    userChip.style.display = 'inline-flex';
+                    const name = user.displayName ? user.displayName.split(' ')[0] : 'User';
+                    document.getElementById('userName').innerText = name;
+                    const avatar = document.getElementById('userAvatar');
+                    if (user.photoURL) {
+                        avatar.innerHTML = `<img src="${user.photoURL}" style="width:100%;height:100%;border-radius:50%;" alt="avatar" />`;
+                    } else {
+                        avatar.innerText = name.charAt(0).toUpperCase();
+                    }
+                }
+                if (syncSub) {
+                    syncSub.innerText = `☁️ Synced to Google Account (${user.email}) • Accessible across all your devices`;
+                    syncSub.style.color = 'var(--accent-emerald)';
+                }
+                document.getElementById('dropdownEmail').innerText = user.email || 'Google User';
+                mergeAndSyncWatchlistWithCloud(user);
+            } else {
+                if (signinBtn) signinBtn.style.display = 'inline-flex';
+                if (userChip) userChip.style.display = 'none';
+                if (syncSub) {
+                    syncSub.innerText = 'Saved to your browser storage • Sign in with Google for cross-device cloud sync';
+                    syncSub.style.color = 'var(--text-muted)';
+                }
+                setSyncStatus('offline');
+            }
+        }
+
+        function toggleUserDropdown(e) {
+            if (e) e.stopPropagation();
+            const dd = document.getElementById('userDropdown');
+            if (dd) {
+                dd.classList.toggle('active');
+                document.getElementById('dropdownWatchCount').innerText = `${getWatchlist().length} scrips`;
+            }
+        }
+
+        document.addEventListener('click', (e) => {
+            const dd = document.getElementById('userDropdown');
+            if (dd && !dd.contains(e.target) && !e.target.closest('#userChip')) {
+                dd.classList.remove('active');
+            }
+        });
+
+        function signOutUser() {
+            if (firebaseAuth) {
+                firebaseAuth.signOut().then(() => {
+                    showToast('Signed out of Google account');
+                    document.getElementById('userDropdown').classList.remove('active');
+                });
+            } else {
+                currentAuthUser = null;
+                handleAuthStateChange(null);
+            }
+        }
+
+        function setSyncStatus(status) {
+            const badge = document.getElementById('syncBadge');
+            if (!badge) return;
+            badge.className = 'sync-badge';
+            if (status === 'synced') {
+                badge.innerText = '🟢 Synced';
+            } else if (status === 'syncing') {
+                badge.classList.add('syncing');
+                badge.innerText = '🟡 Syncing...';
+            } else {
+                badge.classList.add('offline');
+                badge.innerText = '⚪ Local';
+            }
+        }
+
+        function mergeAndSyncWatchlistWithCloud(user) {
+            if (!firestoreDb || !user) return;
+            setSyncStatus('syncing');
+            const userDocRef = firestoreDb.collection('users').doc(user.uid);
+
+            userDocRef.get().then((doc) => {
+                const cloudData = doc.exists ? (doc.data().watchlist || []) : [];
+                const localData = getWatchlist();
+                const merged = Array.from(new Set([...localData, ...cloudData]));
+
+                saveWatchlist(merged, false);
+                setSyncStatus('synced');
+
+                userDocRef.set({
+                    email: user.email,
+                    name: user.displayName || '',
+                    watchlist: merged,
+                    updated_at: new Date().toISOString()
+                }, { merge: true });
+            }).catch((err) => {
+                console.warn('Cloud sync error:', err);
+                setSyncStatus('offline');
+            });
+        }
+
+        function syncWatchlistToCloud(list) {
+            if (!firestoreDb || !currentAuthUser) return;
+            setSyncStatus('syncing');
+            clearTimeout(syncDebounceTimer);
+            syncDebounceTimer = setTimeout(() => {
+                firestoreDb.collection('users').doc(currentAuthUser.uid).set({
+                    watchlist: list,
+                    updated_at: new Date().toISOString()
+                }, { merge: true })
+                .then(() => setSyncStatus('synced'))
+                .catch(() => setSyncStatus('offline'));
+            }, 500);
+        }
+
+        function deleteUserCloudData() {
+            if (!confirm('Are you sure? This will delete your synced watchlist and account data in accordance with DPDP regulations.')) return;
+            if (firestoreDb && currentAuthUser) {
+                firestoreDb.collection('users').doc(currentAuthUser.uid).delete()
+                    .then(() => {
+                        saveWatchlist([]);
+                        signOutUser();
+                        showToast('Cloud account data successfully deleted');
+                    });
+            } else {
+                saveWatchlist([]);
+                showToast('Local watchlist deleted');
+            }
+        }
+
+        // 10. TradingView Import & Copy Utilities
+        function openTvImportModal() {
+            document.getElementById('tvImportModal').classList.add('active');
+            document.getElementById('tvImportInput').focus();
+        }
+
+        function closeTvImportModal() {
+            document.getElementById('tvImportModal').classList.remove('active');
+            document.getElementById('tvImportInput').value = '';
+        }
+
+        function applyTvImport() {
+            const raw = document.getElementById('tvImportInput').value;
+            if (!raw.trim()) {
+                closeTvImportModal();
+                return;
+            }
+            const tokens = raw.replace(/NSE:|BSE:|\.NS|\.BO/gi, '')
+                              .split(/[\s,]+/)
+                              .map(s => s.trim().toUpperCase())
+                              .filter(s => s.length >= 2);
+
+            if (!tokens.length) {
+                showToast('No valid symbols detected');
+                closeTvImportModal();
+                return;
+            }
+
+            const current = getWatchlist();
+            const updated = Array.from(new Set([...current, ...tokens]));
+            const addedCount = updated.length - current.length;
+
+            saveWatchlist(updated);
+            renderWatchlistTable();
+            closeTvImportModal();
+            showToast(`Imported ${addedCount} new ticker(s) ⭐`);
+        }
+
+        function copyWatchlistForTradingView() {
+            const list = getWatchlist();
+            if (!list.length) {
+                showToast('Watchlist is empty');
+                return;
+            }
+            const tvStr = list.map(s => `NSE:${s}`).join(',');
+            navigator.clipboard.writeText(tvStr).then(() => {
+                showToast(`Copied ${list.length} watchlist symbol(s) for TradingView!`);
+            }).catch(() => {
+                showToast('Clipboard access denied');
+            });
+        }
+
         // Initialize on load
         document.addEventListener('DOMContentLoaded', () => {
             updateWatchlistUI();
+            initAuthEngine();
         });
     </script>
 </body>
