@@ -4,726 +4,1475 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stockerboard Weekly Intelligence Pulse | Stockerboard</title>
+    <meta name="description" content="FAANG-grade quantitative weekly stock market intelligence dispatch for Indian equities. EOD Bhavcopy verified screeners, breakouts, and corporate actions.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg-body: #070b14;
-            --bg-card: #0e1726;
-            --border-card: rgba(255, 255, 255, 0.08);
-            --text-main: #f8fafc;
-            --text-muted: #94a3b8;
-            --accent: #3b82f6;
-            --accent-glow: rgba(59, 130, 246, 0.25);
-            --success: #10b981;
-            --warning: #f59e0b;
+            --bg-primary: #0A0D14;
+            --bg-surface: #101522;
+            --bg-surface-elevated: #161D2E;
+            --bg-glass: rgba(22, 29, 46, 0.7);
+            --border-subtle: rgba(255, 255, 255, 0.08);
+            --border-focus: #3B82F6;
+            --text-primary: #F8FAFC;
+            --text-secondary: #94A3B8;
+            --text-muted: #64748B;
+            --accent-blue: #3B82F6;
+            --accent-cyan: #06B6D4;
+            --accent-emerald: #10B981;
+            --accent-amber: #F59E0B;
+            --accent-rose: #F43F5E;
+            --accent-purple: #8B5CF6;
+            --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
         }
-        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            background-color: var(--bg-body);
-            color: var(--text-main);
-            font-family: 'Inter', -apple-system, sans-serif;
-            line-height: 1.6;
-            padding: 36px 20px;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            font-family: var(--font-sans);
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
         }
+
         .container {
-            max-width: 1100px;
+            max-width: 1240px;
             margin: 0 auto;
+            padding: 40px 24px 80px 24px;
         }
+
+        /* Header */
         header {
-            margin-bottom: 28px;
-            padding: 28px 32px;
-            background: linear-gradient(135deg, rgba(30, 58, 138, 0.18) 0%, rgba(15, 23, 42, 0.6) 100%);
-            border: 1px solid rgba(59, 130, 246, 0.28);
-            border-radius: 16px;
-            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
+            margin-bottom: 36px;
+            position: relative;
         }
-        .brand-logo {
+        .brand-pill {
             display: inline-flex;
             align-items: center;
             gap: 10px;
-            font-size: 1.15rem;
-            font-weight: 800;
-            letter-spacing: -0.02em;
-            color: #ffffff;
-            margin-bottom: 12px;
+            background: rgba(59, 130, 246, 0.12);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            padding: 6px 14px;
+            border-radius: 9999px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--accent-blue);
+            margin-bottom: 16px;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
         }
-        .brand-logo .dot {
-            width: 30px;
-            height: 30px;
-            background: linear-gradient(135deg, #2563eb, #38bdf8);
-            border-radius: 8px;
+        .brand-icon {
+            width: 22px;
+            height: 22px;
+            background: linear-gradient(135deg, #3B82F6, #06B6D4);
+            border-radius: 6px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 0.95rem;
+            color: #FFFFFF;
+            font-size: 13px;
             font-weight: 800;
-            color: #fff;
-            box-shadow: 0 2px 8px rgba(37,99,235,0.4);
         }
         h1 {
-            font-size: 2.2rem;
+            font-size: 2.6rem;
             font-weight: 800;
             letter-spacing: -0.03em;
-            background: linear-gradient(180deg, #ffffff 0%, #cbd5e1 100%);
+            background: linear-gradient(180deg, #FFFFFF 30%, #CBD5E1 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            margin-bottom: 6px;
+            margin-bottom: 8px;
         }
-        .edition-meta {
-            font-size: 0.92rem;
-            color: var(--text-muted);
-            font-weight: 500;
+        .edition-subtitle {
+            font-size: 1.05rem;
+            color: var(--text-secondary);
+            margin-bottom: 18px;
         }
         .badge-bar {
             display: flex;
-            gap: 10px;
-            margin-top: 16px;
             flex-wrap: wrap;
+            gap: 10px;
         }
-        .badge-pill {
-            font-size: 0.74rem;
-            font-weight: 700;
+        .meta-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 6px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-muted);
             text-transform: uppercase;
             letter-spacing: 0.04em;
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid var(--border-card);
-            padding: 5px 12px;
-            border-radius: 9999px;
-            color: #cbd5e1;
         }
-        /* Bento Grid Stat Strip */
+
+        /* Bento Grid */
         .bento-grid {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
             gap: 16px;
-            margin-bottom: 28px;
+            margin-bottom: 32px;
         }
         .bento-card {
-            background: var(--bg-card);
-            border: 1px solid var(--border-card);
-            border-radius: 12px;
-            padding: 16px 18px;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: 14px;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
             transition: transform 0.2s ease, border-color 0.2s ease;
         }
         .bento-card:hover {
             transform: translateY(-2px);
-            border-color: rgba(59, 130, 246, 0.4);
+            border-color: rgba(255, 255, 255, 0.15);
         }
-        .bento-label {
-            font-size: 0.7rem;
-            font-weight: 700;
+        .bento-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.5), transparent);
+        }
+        .card-label {
+            font-size: 0.72rem;
             text-transform: uppercase;
             letter-spacing: 0.08em;
             color: var(--text-muted);
+            font-weight: 700;
+            margin-bottom: 8px;
         }
-        .bento-val {
-            font-size: 1.45rem;
+        .card-val {
+            font-size: 1.8rem;
             font-weight: 800;
-            margin-top: 4px;
-            color: #fff;
-            display: flex;
-            align-items: baseline;
-            gap: 6px;
+            font-family: var(--font-mono);
+            letter-spacing: -0.02em;
+            margin-bottom: 4px;
         }
-        .bento-sub {
-            font-size: 0.74rem;
-            margin-top: 4px;
-            font-weight: 600;
+        .card-sub {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
         }
-        /* Search & Tab Controller */
-        .desk-toolbar {
+
+        /* Action Toolbar */
+        .action-toolbar {
             display: flex;
+            flex-wrap: wrap;
             align-items: center;
             justify-content: space-between;
-            margin-bottom: 20px;
-            gap: 16px;
+            gap: 12px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 12px 16px;
+            margin-bottom: 24px;
+        }
+        .toolbar-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
             flex-wrap: wrap;
         }
-        .tab-buttons {
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 14px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            border: 1px solid transparent;
+            transition: all 0.15s ease;
+            text-decoration: none;
+            color: var(--text-primary);
+        }
+        .btn-primary {
+            background: var(--accent-blue);
+            color: #FFFFFF;
+        }
+        .btn-primary:hover {
+            background: #2563EB;
+        }
+        .btn-secondary {
+            background: var(--bg-surface-elevated);
+            border-color: var(--border-subtle);
+        }
+        .btn-secondary:hover {
+            border-color: rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.05);
+        }
+        .search-box {
+            position: relative;
+            min-width: 260px;
+        }
+        .search-box input {
+            width: 100%;
+            background: var(--bg-surface-elevated);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 8px 14px 8px 36px;
+            color: var(--text-primary);
+            font-size: 0.85rem;
+            font-family: var(--font-sans);
+            outline: none;
+            transition: border-color 0.15s ease;
+        }
+        .search-box input:focus {
+            border-color: var(--accent-blue);
+        }
+        .search-icon {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            font-size: 14px;
+            pointer-events: none;
+        }
+
+        /* Tabs */
+        .tab-bar {
             display: flex;
             gap: 8px;
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid var(--border-card);
-            padding: 4px;
-            border-radius: 10px;
+            border-bottom: 1px solid var(--border-subtle);
+            margin-bottom: 24px;
+            overflow-x: auto;
+            padding-bottom: 4px;
         }
         .tab-btn {
             background: transparent;
             border: none;
-            color: var(--text-muted);
+            padding: 10px 16px;
+            font-size: 0.9rem;
             font-weight: 600;
-            font-size: 0.85rem;
-            padding: 8px 16px;
-            border-radius: 8px;
+            color: var(--text-secondary);
             cursor: pointer;
-            transition: all 0.2s ease;
+            border-radius: 8px;
+            transition: all 0.15s ease;
+            white-space: nowrap;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .tab-btn:hover {
+            color: var(--text-primary);
+            background: rgba(255, 255, 255, 0.04);
         }
         .tab-btn.active {
-            background: #2563eb;
-            color: #ffffff;
-            box-shadow: 0 2px 8px rgba(37,99,235,0.4);
+            color: #FFFFFF;
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-bottom: 2px solid var(--accent-blue);
         }
-        .search-box {
-            background: var(--bg-card);
-            border: 1px solid var(--border-card);
-            color: #fff;
-            padding: 9px 14px;
-            border-radius: 8px;
-            font-size: 0.85rem;
-            min-width: 260px;
-            outline: none;
-            transition: border-color 0.2s ease;
+        .tab-counter {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2px 7px;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-family: var(--font-mono);
         }
-        .search-box:focus {
-            border-color: #3b82f6;
-            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+
+        /* Tables & Content */
+        .tab-content {
+            display: none;
         }
-        /* Tables & Cards */
-        .tab-content { display: none; }
-        .tab-content.active { display: block; }
-        .card {
-            background: var(--bg-card);
-            border: 1px solid var(--border-card);
+        .tab-content.active {
+            display: block;
+        }
+        .table-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
             border-radius: 14px;
-            padding: 24px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
-            margin-bottom: 28px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        .table-header-bar {
+            padding: 16px 20px;
+            border-bottom: 1px solid var(--border-subtle);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .table-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+        .table-responsive {
+            overflow-x: auto;
         }
         table {
             width: 100%;
             border-collapse: collapse;
             font-size: 0.88rem;
-            margin-top: 8px;
+            text-align: left;
         }
         th {
-            text-align: left;
-            padding: 12px 14px;
-            font-size: 0.74rem;
+            background: var(--bg-surface-elevated);
+            color: var(--text-muted);
+            padding: 12px 18px;
+            font-size: 0.72rem;
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 0.06em;
-            color: var(--text-muted);
-            border-bottom: 1px solid var(--border-card);
+            cursor: pointer;
+            user-select: none;
+            white-space: nowrap;
         }
+        th:hover {
+            color: var(--text-primary);
+        }
+        th .sort-arrow {
+            margin-left: 4px;
+            font-size: 0.7rem;
+            opacity: 0.5;
+        }
+        th.sorted-asc .sort-arrow { opacity: 1; content: '▲'; }
+        th.sorted-desc .sort-arrow { opacity: 1; content: '▼'; }
         td {
-            padding: 12px 14px;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+            padding: 14px 18px;
+            border-bottom: 1px solid var(--border-subtle);
+            vertical-align: middle;
         }
-        tr:hover td {
-            background: rgba(255, 255, 255, 0.02);
+        tr.stock-row {
+            cursor: pointer;
+            transition: background 0.15s ease;
         }
-        .badge-symbol {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.78rem;
-            font-weight: 600;
-            background: rgba(59, 130, 246, 0.12);
-            color: #60a5fa;
+        tr.stock-row:hover {
+            background: rgba(59, 130, 246, 0.05);
+        }
+        .mono {
+            font-family: var(--font-mono);
+        }
+        .star-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            cursor: pointer;
+            padding: 4px;
+            transition: transform 0.1s ease, color 0.1s ease;
+        }
+        .star-btn:hover {
+            transform: scale(1.2);
+            color: var(--accent-amber);
+        }
+        .star-btn.starred {
+            color: var(--accent-amber);
+        }
+        .sym-badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.06);
             padding: 3px 8px;
             border-radius: 5px;
-            border: 1px solid rgba(59, 130, 246, 0.25);
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #E2E8F0;
         }
-        .progress-track {
-            width: 65px;
+        .sector-tag {
+            display: inline-block;
+            background: rgba(59, 130, 246, 0.08);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            padding: 2px 7px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            color: #60A5FA;
+            margin-top: 4px;
+        }
+        .progress-bar-bg {
+            width: 100px;
             height: 6px;
-            background: rgba(255, 255, 255, 0.08);
+            background: var(--bg-surface-elevated);
             border-radius: 9999px;
             overflow: hidden;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 8px;
         }
-        .progress-fill {
+        .progress-bar-fill {
             height: 100%;
-            background: linear-gradient(90deg, #3b82f6, #10b981);
+            background: linear-gradient(90deg, #3B82F6, #06B6D4);
             border-radius: 9999px;
         }
-        .rank-pill {
-            font-family: 'JetBrains Mono', monospace;
+
+        /* Sector Leaderboard */
+        .sector-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 16px;
+            padding: 20px;
+        }
+        .sector-card {
+            background: var(--bg-surface-elevated);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .sector-name {
+            font-weight: 700;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .return-pill {
+            padding: 3px 8px;
+            border-radius: 6px;
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            font-weight: 700;
+        }
+        .return-pos { background: rgba(16, 185, 129, 0.15); color: var(--accent-emerald); }
+        .return-neg { background: rgba(244, 63, 94, 0.15); color: var(--accent-rose); }
+
+        /* Slide-over Stock Drawer */
+        .drawer-overlay {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(4px);
+            z-index: 1000;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.25s ease;
+        }
+        .drawer-overlay.open {
+            opacity: 1;
+            pointer-events: auto;
+        }
+        .stock-drawer {
+            position: fixed;
+            top: 0; right: 0; bottom: 0;
+            width: 460px;
+            max-width: 90vw;
+            background: var(--bg-surface);
+            border-left: 1px solid var(--border-subtle);
+            z-index: 1001;
+            transform: translateX(100%);
+            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            display: flex;
+            flex-direction: column;
+            padding: 32px 28px;
+            overflow-y: auto;
+            box-shadow: -10px 0 40px rgba(0,0,0,0.5);
+        }
+        .stock-drawer.open {
+            transform: translateX(0);
+        }
+        .drawer-header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-bottom: 24px;
+        }
+        .drawer-close {
+            background: var(--bg-surface-elevated);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-muted);
+            border-radius: 8px;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .drawer-close:hover {
+            color: #FFFFFF;
+            border-color: rgba(255,255,255,0.2);
+        }
+        .drawer-sym {
+            font-size: 1.8rem;
+            font-weight: 800;
+            margin-bottom: 4px;
+        }
+        .drawer-name {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            margin-bottom: 10px;
+        }
+
+        /* 52W Spectrum Range Bar */
+        .range-box {
+            background: var(--bg-surface-elevated);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 24px;
+        }
+        .range-title {
             font-size: 0.75rem;
             font-weight: 700;
-            color: #34d399;
-            min-width: 24px;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 12px;
         }
-        .stability-pill {
-            font-size: 0.72rem;
-            font-weight: 600;
-            background: rgba(14, 165, 233, 0.12);
-            color: #38bdf8;
-            padding: 4px 10px;
-            border-radius: 6px;
+        .spectrum-bar {
+            height: 8px;
+            background: linear-gradient(90deg, #F43F5E, #F59E0B, #10B981);
+            border-radius: 9999px;
+            position: relative;
+            margin: 20px 0 10px 0;
         }
-        .takeaway-box {
-            background: linear-gradient(135deg, rgba(15, 23, 42, 0.85) 0%, rgba(30, 41, 59, 0.95) 100%);
-            border: 1px solid rgba(59, 130, 246, 0.3);
-            border-radius: 12px;
-            padding: 24px;
-            line-height: 1.8;
-            color: #cbd5e1;
+        .spectrum-pin {
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 16px;
+            height: 16px;
+            background: #FFFFFF;
+            border: 3px solid var(--accent-blue);
+            border-radius: 50%;
+            box-shadow: 0 0 10px var(--accent-blue);
         }
-        .disclaimer-box {
-            padding: 20px 24px;
+        .range-bounds {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.8rem;
+            font-family: var(--font-mono);
+            color: var(--text-secondary);
+        }
+
+        /* Ratio Grid in Drawer */
+        .ratio-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+        .ratio-tile {
+            background: var(--bg-surface-elevated);
+            border: 1px solid var(--border-subtle);
             border-radius: 10px;
-            background: rgba(0, 0, 0, 0.35);
-            border: 1px solid rgba(255, 255, 255, 0.06);
-            font-size: 0.78rem;
-            color: #64748b;
-            line-height: 1.7;
-            margin-top: 36px;
-            text-align: justify;
+            padding: 12px 14px;
+        }
+        .ratio-lbl {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+        .ratio-val {
+            font-size: 1.15rem;
+            font-weight: 700;
+            font-family: var(--font-mono);
+        }
+
+        .drawer-actions {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: auto;
+        }
+
+        /* Toast */
+        .toast {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            background: #1E293B;
+            border: 1px solid var(--accent-blue);
+            color: #FFFFFF;
+            padding: 12px 20px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            font-size: 0.88rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            z-index: 2000;
+            transform: translateY(100px);
+            opacity: 0;
+            transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .toast.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        /* Footer & Compliance */
+        .compliance-box {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 48px;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            line-height: 1.6;
         }
         footer {
             text-align: center;
-            font-size: 0.82rem;
-            color: #475569;
-            margin-top: 36px;
-            padding-bottom: 24px;
-        }
-        @media (max-width: 900px) {
-            .bento-grid { grid-template-columns: repeat(2, 1fr); }
-            .desk-toolbar { flex-direction: column; align-items: stretch; }
-            .search-box { width: 100%; }
-            table { display: block; overflow-x: auto; }
+            margin-top: 24px;
+            font-size: 0.8rem;
+            color: var(--text-muted);
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <div class="brand-logo">
-                <div class="dot">S</div>
+            <div class="brand-pill">
+                <div class="brand-icon">S</div>
                 <span>Stockerboard</span>
             </div>
             <h1>Stockerboard Weekly Intelligence Pulse</h1>
-            <div class="edition-meta">Edition #38 — Week Ending Friday, 18 September 2026</div>
+            <div class="edition-subtitle">
+                Edition #38 • Week Ending Friday, 18 September 2026
+            </div>
             <div class="badge-bar">
-                <span class="badge-pill" style="color:#10b981;border-color:rgba(16,185,129,0.3);">🛡️ SEBI Compliant (Educational)</span>
-                <span class="badge-pill" style="color:#60a5fa;border-color:rgba(59,130,246,0.3);">📊 EOD Verified Bhavcopy</span>
-                <span class="badge-pill" style="color:#f59e0b;border-color:rgba(245,158,11,0.3);">⚡ Quantitative Screening</span>
+                <span class="meta-badge">🛡️ SEBI COMPLIANT (EDUCATIONAL)</span>
+                <span class="meta-badge">📊 EOD VERIFIED BHAVCOPY</span>
+                <span class="meta-badge">⚡ QUANTITATIVE SCREENING</span>
+                <span class="meta-badge">🚀 ZERO-LATENCY STATIC CDN</span>
             </div>
         </header>
 
-        <!-- Bento Grid Stat Strip -->
+        <!-- Bento Grid -->
         <div class="bento-grid">
-            <div class="bento-card" style="border-left:4px solid #F59E0B;">
-                <div class="bento-label">Macro Regime</div>
-                <div class="bento-val" style="color:#F59E0B;">Balanced</div>
-                <div class="bento-sub" style="color:#94a3b8;">Breadth: Selectivity matters. Not all sig...</div>
+            <div class="bento-card">
+                <div class="card-label">Macro Regime (Market Health)</div>
+                <div class="card-val" style="color: #F59E0B;">Balanced</div>
+                <div class="card-sub">Selectivity matters. Not all signals will work....</div>
             </div>
-            <div class="bento-card" style="border-left:4px solid #3b82f6;">
-                <div class="bento-label">52W Breakouts</div>
-                <div class="bento-val" style="color:#60a5fa;">10 <span style="font-size:0.75rem;color:#94a3b8;">Scrips</span></div>
-                <div class="bento-sub" style="color:#34d399;">Avg Rank: 94/100</div>
+            <div class="bento-card">
+                <div class="card-label">52W Breakouts</div>
+                <div class="card-val">10 <span style="font-size: 0.9rem; color: var(--text-muted);">Scrips</span></div>
+                <div class="card-sub">Average Momentum Rank: 94/100</div>
             </div>
-            <div class="bento-card" style="border-left:4px solid #0ea5e9;">
-                <div class="bento-label">Capital Efficiency</div>
-                <div class="bento-val" style="color:#38bdf8;">158.0%</div>
-                <div class="bento-sub" style="color:#38bdf8;">Top Return on Equity</div>
+            <div class="bento-card">
+                <div class="card-label">Near-High Consolidations</div>
+                <div class="card-val">10 <span style="font-size: 0.9rem; color: var(--text-muted);">Setups</span></div>
+                <div class="card-sub">&lt; 3.0% below 52-Week Peak</div>
             </div>
-            <div class="bento-card" style="border-left:4px solid #f59e0b;">
-                <div class="bento-label">Corporate Actions</div>
-                <div class="bento-val" style="color:#fbbf24;">8 <span style="font-size:0.75rem;color:#94a3b8;">Events</span></div>
-                <div class="bento-sub" style="color:#fbbf24;">Upcoming Ex-Dates</div>
+            <div class="bento-card">
+                <div class="card-label">Leading Sector</div>
+                <div class="card-val" style="color: var(--accent-cyan); font-size: 1.4rem;">Capital Goods</div>
+                <div class="card-sub">Top Weekly Median Outperformer</div>
+            </div>
+            <div class="bento-card">
+                <div class="card-label">Capital Efficiency</div>
+                <div class="card-val" style="color: var(--accent-emerald);">158.0%</div>
+                <div class="card-sub">Top Screener Return on Equity</div>
             </div>
         </div>
 
-        <!-- Desk Toolbar: Interactive Tabs & Instant Search -->
-        <div class="desk-toolbar">
-            <div class="tab-buttons">
-                <button class="tab-btn active" onclick="switchTab('tab-breakouts')">🚀 52W High Breakouts</button>
-                <button class="tab-btn" onclick="switchTab('tab-fundamentals')">💎 Fundamental Screener</button>
-                <button class="tab-btn" onclick="switchTab('tab-corporate')">📅 Corporate Actions</button>
-                <button class="tab-btn" onclick="switchTab('tab-thesis')">🎓 Research Thesis</button>
+        <!-- Action & Utilities Toolbar -->
+        <div class="action-toolbar">
+            <div class="toolbar-group">
+                <button class="btn btn-primary" onclick="copyTradingViewTickers()">
+                    📋 Copy for TradingView
+                </button>
+                <button class="btn btn-secondary" onclick="exportActiveTableCSV()">
+                    📥 Export Table (CSV)
+                </button>
             </div>
-            <input type="text" class="search-box" id="tableSearch" placeholder="🔍 Search company name or symbol..." onkeyup="filterTables()">
+            <div class="search-box">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="tableSearch" placeholder="Search company, symbol, or sector..." oninput="filterActiveTable()">
+            </div>
         </div>
 
-        <!-- Tab 1: 52W High Breakouts -->
+        <!-- Navigation Tabs -->
+        <div class="tab-bar">
+            <button class="tab-btn active" onclick="switchTab('tab-breakouts', this)">
+                🚀 52W High Breakouts <span class="tab-counter">10</span>
+            </button>
+            <button class="tab-btn" onclick="switchTab('tab-consolidations', this)">
+                ⚡ Near-Breakout Consolidations <span class="tab-counter">10</span>
+            </button>
+            <button class="tab-btn" onclick="switchTab('tab-sectors', this)">
+                📊 Sector Rotation <span class="tab-counter">13</span>
+            </button>
+            <button class="tab-btn" onclick="switchTab('tab-fundamentals', this)">
+                💎 Fundamental Screener <span class="tab-counter">8</span>
+            </button>
+            <button class="tab-btn" onclick="switchTab('tab-actions', this)">
+                📅 Corporate Actions <span class="tab-counter">8</span>
+            </button>
+            <button class="tab-btn" onclick="switchTab('tab-watchlist', this)" id="tabBtnWatchlist">
+                ⭐ My Watchlist <span class="tab-counter" id="watchlistCount">0</span>
+            </button>
+        </div>
+
+        <!-- TAB 1: 52W Breakouts -->
         <div id="tab-breakouts" class="tab-content active">
-            <div class="card">
-                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
-                    <div style="font-size:1.15rem;font-weight:700;">🚀 52-Week High Breakout Leaders</div>
-                    <span style="font-size:0.8rem;color:var(--text-muted);">Trailing 252-Session Price Envelope</span>
+            <div class="table-card">
+                <div class="table-header-bar">
+                    <div class="table-title">🚀 52-Week High Breakout Leaders (Volume Verified)</div>
                 </div>
-                <table>
-                    <thead>
-                        <tr>
-                            <th style="text-align:center;">#</th>
-                            <th>Company Name</th>
-                            <th>Symbol</th>
-                            <th style="text-align:right;">CMP</th>
-                            <th style="text-align:right;">52W High</th>
-                            <th style="text-align:right;">Dist 52W</th>
-                            <th style="text-align:right;">Volume</th>
-                            <th style="text-align:center;">Momentum Rank</th>
-                        </tr>
-                    </thead>
-                    <tbody id="breakoutBody">
-                        
-            <tr class="searchable-row">
-                <td style="text-align:center;color:#64748b;font-weight:600;">1</td>
-                <td><strong class="col-name">Aurobindo Pharma Ltd.</strong></td>
-                <td><span class="badge-symbol col-sym">AUROPHARMA</span></td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹1,734.00</td>
-                <td style="text-align:right;color:#64748b;font-family:'JetBrains Mono',monospace;">₹1,734.00</td>
-                <td style="text-align:right;color:#10b981;font-weight:600;font-family:'JetBrains Mono',monospace;">0.0%</td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;color:#94a3b8;">1,209,478</td>
-                <td style="text-align:center;">
-                    <div style="display:flex;align-items:center;justify-content:center;gap:8px;">
-                        <div class="progress-track"><div class="progress-fill" style="width:95%;"></div></div>
-                        <span class="rank-pill">95</span>
-                    </div>
-                </td>
-            </tr>
-            
-            <tr class="searchable-row">
-                <td style="text-align:center;color:#64748b;font-weight:600;">2</td>
-                <td><strong class="col-name">ASIAN STAR CO.LTD.</strong></td>
-                <td><span class="badge-symbol col-sym">ASTAR</span></td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹807.35</td>
-                <td style="text-align:right;color:#64748b;font-family:'JetBrains Mono',monospace;">₹807.35</td>
-                <td style="text-align:right;color:#10b981;font-weight:600;font-family:'JetBrains Mono',monospace;">0.0%</td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;color:#94a3b8;">13,851</td>
-                <td style="text-align:center;">
-                    <div style="display:flex;align-items:center;justify-content:center;gap:8px;">
-                        <div class="progress-track"><div class="progress-fill" style="width:95%;"></div></div>
-                        <span class="rank-pill">95</span>
-                    </div>
-                </td>
-            </tr>
-            
-            <tr class="searchable-row">
-                <td style="text-align:center;color:#64748b;font-weight:600;">3</td>
-                <td><strong class="col-name">TRIB BHIMJI ZAVERI LTD</strong></td>
-                <td><span class="badge-symbol col-sym">TBZ</span></td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹603.55</td>
-                <td style="text-align:right;color:#64748b;font-family:'JetBrains Mono',monospace;">₹603.55</td>
-                <td style="text-align:right;color:#10b981;font-weight:600;font-family:'JetBrains Mono',monospace;">0.0%</td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;color:#94a3b8;">1,436,925</td>
-                <td style="text-align:center;">
-                    <div style="display:flex;align-items:center;justify-content:center;gap:8px;">
-                        <div class="progress-track"><div class="progress-fill" style="width:95%;"></div></div>
-                        <span class="rank-pill">95</span>
-                    </div>
-                </td>
-            </tr>
-            
-            <tr class="searchable-row">
-                <td style="text-align:center;color:#64748b;font-weight:600;">4</td>
-                <td><strong class="col-name">SoftTech Engineers Limited</strong></td>
-                <td><span class="badge-symbol col-sym">SOFTTECH</span></td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹525.70</td>
-                <td style="text-align:right;color:#64748b;font-family:'JetBrains Mono',monospace;">₹525.70</td>
-                <td style="text-align:right;color:#10b981;font-weight:600;font-family:'JetBrains Mono',monospace;">0.0%</td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;color:#94a3b8;">35,070</td>
-                <td style="text-align:center;">
-                    <div style="display:flex;align-items:center;justify-content:center;gap:8px;">
-                        <div class="progress-track"><div class="progress-fill" style="width:95%;"></div></div>
-                        <span class="rank-pill">95</span>
-                    </div>
-                </td>
-            </tr>
-            
-            <tr class="searchable-row">
-                <td style="text-align:center;color:#64748b;font-weight:600;">5</td>
-                <td><strong class="col-name">BODAL CHEMICALS LTD.</strong></td>
-                <td><span class="badge-symbol col-sym">BODALCHEM</span></td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹191.23</td>
-                <td style="text-align:right;color:#64748b;font-family:'JetBrains Mono',monospace;">₹191.23</td>
-                <td style="text-align:right;color:#10b981;font-weight:600;font-family:'JetBrains Mono',monospace;">0.0%</td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;color:#94a3b8;">1,686,113</td>
-                <td style="text-align:center;">
-                    <div style="display:flex;align-items:center;justify-content:center;gap:8px;">
-                        <div class="progress-track"><div class="progress-fill" style="width:95%;"></div></div>
-                        <span class="rank-pill">95</span>
-                    </div>
-                </td>
-            </tr>
-            
-            <tr class="searchable-row">
-                <td style="text-align:center;color:#64748b;font-weight:600;">6</td>
-                <td><strong class="col-name">QUINT DIGITAL LTD.</strong></td>
-                <td><span class="badge-symbol col-sym">QUINT</span></td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹70.02</td>
-                <td style="text-align:right;color:#64748b;font-family:'JetBrains Mono',monospace;">₹70.02</td>
-                <td style="text-align:right;color:#10b981;font-weight:600;font-family:'JetBrains Mono',monospace;">0.0%</td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;color:#94a3b8;">668,824</td>
-                <td style="text-align:center;">
-                    <div style="display:flex;align-items:center;justify-content:center;gap:8px;">
-                        <div class="progress-track"><div class="progress-fill" style="width:95%;"></div></div>
-                        <span class="rank-pill">95</span>
-                    </div>
-                </td>
-            </tr>
-            
-            <tr class="searchable-row">
-                <td style="text-align:center;color:#64748b;font-weight:600;">7</td>
-                <td><strong class="col-name">STL Networks Limited</strong></td>
-                <td><span class="badge-symbol col-sym">STLNETWORK</span></td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹42.95</td>
-                <td style="text-align:right;color:#64748b;font-family:'JetBrains Mono',monospace;">₹42.95</td>
-                <td style="text-align:right;color:#10b981;font-weight:600;font-family:'JetBrains Mono',monospace;">0.0%</td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;color:#94a3b8;">1,250,147</td>
-                <td style="text-align:center;">
-                    <div style="display:flex;align-items:center;justify-content:center;gap:8px;">
-                        <div class="progress-track"><div class="progress-fill" style="width:95%;"></div></div>
-                        <span class="rank-pill">95</span>
-                    </div>
-                </td>
-            </tr>
-            
-            <tr class="searchable-row">
-                <td style="text-align:center;color:#64748b;font-weight:600;">8</td>
-                <td><strong class="col-name">TOYAM SPORTS LIMITED</strong></td>
-                <td><span class="badge-symbol col-sym">TOYAMSL</span></td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹0.77</td>
-                <td style="text-align:right;color:#64748b;font-family:'JetBrains Mono',monospace;">₹0.77</td>
-                <td style="text-align:right;color:#10b981;font-weight:600;font-family:'JetBrains Mono',monospace;">0.0%</td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;color:#94a3b8;">458,115</td>
-                <td style="text-align:center;">
-                    <div style="display:flex;align-items:center;justify-content:center;gap:8px;">
-                        <div class="progress-track"><div class="progress-fill" style="width:95%;"></div></div>
-                        <span class="rank-pill">95</span>
-                    </div>
-                </td>
-            </tr>
-            
-            <tr class="searchable-row">
-                <td style="text-align:center;color:#64748b;font-weight:600;">9</td>
-                <td><strong class="col-name">Max Estates Limited</strong></td>
-                <td><span class="badge-symbol col-sym">MAXESTATES</span></td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹594.00</td>
-                <td style="text-align:right;color:#64748b;font-family:'JetBrains Mono',monospace;">₹595.00</td>
-                <td style="text-align:right;color:#10b981;font-weight:600;font-family:'JetBrains Mono',monospace;">-0.17%</td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;color:#94a3b8;">201,561</td>
-                <td style="text-align:center;">
-                    <div style="display:flex;align-items:center;justify-content:center;gap:8px;">
-                        <div class="progress-track"><div class="progress-fill" style="width:94%;"></div></div>
-                        <span class="rank-pill">94</span>
-                    </div>
-                </td>
-            </tr>
-            
-            <tr class="searchable-row">
-                <td style="text-align:center;color:#64748b;font-weight:600;">10</td>
-                <td><strong class="col-name">KSHITIJ POLYLINE LIMITED</strong></td>
-                <td><span class="badge-symbol col-sym">KSHITIJPOL</span></td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹4.20</td>
-                <td style="text-align:right;color:#64748b;font-family:'JetBrains Mono',monospace;">₹4.21</td>
-                <td style="text-align:right;color:#10b981;font-weight:600;font-family:'JetBrains Mono',monospace;">-0.24%</td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;color:#94a3b8;">6,675,034</td>
-                <td style="text-align:center;">
-                    <div style="display:flex;align-items:center;justify-content:center;gap:8px;">
-                        <div class="progress-track"><div class="progress-fill" style="width:94%;"></div></div>
-                        <span class="rank-pill">94</span>
-                    </div>
-                </td>
-            </tr>
-            
-                    </tbody>
-                </table>
+                <div class="table-responsive">
+                    <table id="breakoutsTable">
+                        <thead>
+                            <tr>
+                                <th style="width: 40px;">⭐</th>
+                                <th onclick="sortTable('breakoutsTable', 1)">Company Name <span class="sort-arrow"></span></th>
+                                <th onclick="sortTable('breakoutsTable', 2)">Symbol <span class="sort-arrow"></span></th>
+                                <th onclick="sortTable('breakoutsTable', 3)">Sector <span class="sort-arrow"></span></th>
+                                <th onclick="sortTable('breakoutsTable', 4)">CMP (Rs.) <span class="sort-arrow"></span></th>
+                                <th onclick="sortTable('breakoutsTable', 5)">52W High <span class="sort-arrow"></span></th>
+                                <th onclick="sortTable('breakoutsTable', 6)">Volume <span class="sort-arrow"></span></th>
+                                <th onclick="sortTable('breakoutsTable', 7)">Momentum <span class="sort-arrow"></span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                            <tr class="stock-row" onclick="openStockDrawer('AUROPHARMA')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="AUROPHARMA" onclick="toggleWatchlist('AUROPHARMA', this)">★</button></td>
+                                <td><strong>Aurobindo Pharma Ltd.</strong></td>
+                                <td><span class="sym-badge">AUROPHARMA</span></td>
+                                <td><span class="sector-tag">Healthcare</span></td>
+                                <td class="mono">Rs. 1,734.00</td>
+                                <td class="mono" style="color: var(--accent-emerald);">Rs. 1,734.00</td>
+                                <td class="mono">1,209,478</td>
+                                <td>
+                                    <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 95%;"></div></div>
+                                    <span class="mono" style="font-size: 0.8rem;">95</span>
+                                </td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('ASTAR')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="ASTAR" onclick="toggleWatchlist('ASTAR', this)">★</button></td>
+                                <td><strong>ASIAN STAR CO.LTD.</strong></td>
+                                <td><span class="sym-badge">ASTAR</span></td>
+                                <td><span class="sector-tag">Diversified</span></td>
+                                <td class="mono">Rs. 807.35</td>
+                                <td class="mono" style="color: var(--accent-emerald);">Rs. 807.35</td>
+                                <td class="mono">13,851</td>
+                                <td>
+                                    <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 95%;"></div></div>
+                                    <span class="mono" style="font-size: 0.8rem;">95</span>
+                                </td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('TBZ')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="TBZ" onclick="toggleWatchlist('TBZ', this)">★</button></td>
+                                <td><strong>TRIB BHIMJI ZAVERI LTD</strong></td>
+                                <td><span class="sym-badge">TBZ</span></td>
+                                <td><span class="sector-tag">Diversified</span></td>
+                                <td class="mono">Rs. 603.55</td>
+                                <td class="mono" style="color: var(--accent-emerald);">Rs. 603.55</td>
+                                <td class="mono">1,436,925</td>
+                                <td>
+                                    <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 95%;"></div></div>
+                                    <span class="mono" style="font-size: 0.8rem;">95</span>
+                                </td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('SOFTTECH')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="SOFTTECH" onclick="toggleWatchlist('SOFTTECH', this)">★</button></td>
+                                <td><strong>SoftTech Engineers Limited</strong></td>
+                                <td><span class="sym-badge">SOFTTECH</span></td>
+                                <td><span class="sector-tag">Diversified</span></td>
+                                <td class="mono">Rs. 525.70</td>
+                                <td class="mono" style="color: var(--accent-emerald);">Rs. 525.70</td>
+                                <td class="mono">35,070</td>
+                                <td>
+                                    <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 95%;"></div></div>
+                                    <span class="mono" style="font-size: 0.8rem;">95</span>
+                                </td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('BODALCHEM')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="BODALCHEM" onclick="toggleWatchlist('BODALCHEM', this)">★</button></td>
+                                <td><strong>BODAL CHEMICALS LTD.</strong></td>
+                                <td><span class="sym-badge">BODALCHEM</span></td>
+                                <td><span class="sector-tag">Diversified</span></td>
+                                <td class="mono">Rs. 191.23</td>
+                                <td class="mono" style="color: var(--accent-emerald);">Rs. 191.23</td>
+                                <td class="mono">1,686,113</td>
+                                <td>
+                                    <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 95%;"></div></div>
+                                    <span class="mono" style="font-size: 0.8rem;">95</span>
+                                </td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('QUINT')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="QUINT" onclick="toggleWatchlist('QUINT', this)">★</button></td>
+                                <td><strong>QUINT DIGITAL LTD.</strong></td>
+                                <td><span class="sym-badge">QUINT</span></td>
+                                <td><span class="sector-tag">Diversified</span></td>
+                                <td class="mono">Rs. 70.02</td>
+                                <td class="mono" style="color: var(--accent-emerald);">Rs. 70.02</td>
+                                <td class="mono">668,824</td>
+                                <td>
+                                    <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 95%;"></div></div>
+                                    <span class="mono" style="font-size: 0.8rem;">95</span>
+                                </td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('STLNETWORK')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="STLNETWORK" onclick="toggleWatchlist('STLNETWORK', this)">★</button></td>
+                                <td><strong>STL Networks Limited</strong></td>
+                                <td><span class="sym-badge">STLNETWORK</span></td>
+                                <td><span class="sector-tag">Diversified</span></td>
+                                <td class="mono">Rs. 42.95</td>
+                                <td class="mono" style="color: var(--accent-emerald);">Rs. 42.95</td>
+                                <td class="mono">1,250,147</td>
+                                <td>
+                                    <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 95%;"></div></div>
+                                    <span class="mono" style="font-size: 0.8rem;">95</span>
+                                </td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('TOYAMSL')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="TOYAMSL" onclick="toggleWatchlist('TOYAMSL', this)">★</button></td>
+                                <td><strong>TOYAM SPORTS LIMITED</strong></td>
+                                <td><span class="sym-badge">TOYAMSL</span></td>
+                                <td><span class="sector-tag">Diversified</span></td>
+                                <td class="mono">Rs. 0.77</td>
+                                <td class="mono" style="color: var(--accent-emerald);">Rs. 0.77</td>
+                                <td class="mono">458,115</td>
+                                <td>
+                                    <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 95%;"></div></div>
+                                    <span class="mono" style="font-size: 0.8rem;">95</span>
+                                </td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('MAXESTATES')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="MAXESTATES" onclick="toggleWatchlist('MAXESTATES', this)">★</button></td>
+                                <td><strong>Max Estates Limited</strong></td>
+                                <td><span class="sym-badge">MAXESTATES</span></td>
+                                <td><span class="sector-tag">Diversified</span></td>
+                                <td class="mono">Rs. 594.00</td>
+                                <td class="mono" style="color: var(--accent-emerald);">Rs. 595.00</td>
+                                <td class="mono">201,561</td>
+                                <td>
+                                    <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 94%;"></div></div>
+                                    <span class="mono" style="font-size: 0.8rem;">94</span>
+                                </td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('KSHITIJPOL')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="KSHITIJPOL" onclick="toggleWatchlist('KSHITIJPOL', this)">★</button></td>
+                                <td><strong>KSHITIJ POLYLINE LIMITED</strong></td>
+                                <td><span class="sym-badge">KSHITIJPOL</span></td>
+                                <td><span class="sector-tag">Diversified</span></td>
+                                <td class="mono">Rs. 4.20</td>
+                                <td class="mono" style="color: var(--accent-emerald);">Rs. 4.21</td>
+                                <td class="mono">6,675,034</td>
+                                <td>
+                                    <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 94%;"></div></div>
+                                    <span class="mono" style="font-size: 0.8rem;">94</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
 
-        <!-- Tab 2: Fundamental Screener -->
+        <!-- TAB 2: Consolidations -->
+        <div id="tab-consolidations" class="tab-content">
+            <div class="table-card">
+                <div class="table-header-bar">
+                    <div class="table-title">⚡ Pre-Breakout Consolidations (&lt; 3.0% from 52W High)</div>
+                </div>
+                <div class="table-responsive">
+                    <table id="consolidationsTable">
+                        <thead>
+                            <tr>
+                                <th style="width: 40px;">⭐</th>
+                                <th onclick="sortTable('consolidationsTable', 1)">Company Name <span class="sort-arrow"></span></th>
+                                <th onclick="sortTable('consolidationsTable', 2)">Symbol <span class="sort-arrow"></span></th>
+                                <th onclick="sortTable('consolidationsTable', 3)">Sector <span class="sort-arrow"></span></th>
+                                <th onclick="sortTable('consolidationsTable', 4)">CMP (Rs.) <span class="sort-arrow"></span></th>
+                                <th onclick="sortTable('consolidationsTable', 5)">52W High <span class="sort-arrow"></span></th>
+                                <th onclick="sortTable('consolidationsTable', 6)">Dist to 52W <span class="sort-arrow"></span></th>
+                                <th onclick="sortTable('consolidationsTable', 7)">Vol Surge <span class="sort-arrow"></span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                            <tr class="stock-row" onclick="openStockDrawer('AAREYDRUGS')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="AAREYDRUGS" onclick="toggleWatchlist('AAREYDRUGS', this)">★</button></td>
+                                <td><strong>AAREY DRUGS & PHARMACEUTICALS</strong></td>
+                                <td><span class="sym-badge">AAREYDRUGS</span></td>
+                                <td><span class="sector-tag">Diversified</span></td>
+                                <td class="mono">Rs. 102.13</td>
+                                <td class="mono">Rs. 103.50</td>
+                                <td class="mono" style="color: var(--accent-amber);">-1.32%</td>
+                                <td class="mono" style="color: var(--accent-cyan);">1.14x</td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('AARTISURF')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="AARTISURF" onclick="toggleWatchlist('AARTISURF', this)">★</button></td>
+                                <td><strong>AARTI SURFACTANTS LIMITED</strong></td>
+                                <td><span class="sym-badge">AARTISURF</span></td>
+                                <td><span class="sector-tag">Diversified</span></td>
+                                <td class="mono">Rs. 658.55</td>
+                                <td class="mono">Rs. 677.70</td>
+                                <td class="mono" style="color: var(--accent-amber);">-2.83%</td>
+                                <td class="mono" style="color: var(--accent-cyan);">1.03x</td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('ACE')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="ACE" onclick="toggleWatchlist('ACE', this)">★</button></td>
+                                <td><strong>ACTION CONSTRUCTION EQUIPMENT</strong></td>
+                                <td><span class="sym-badge">ACE</span></td>
+                                <td><span class="sector-tag">Diversified</span></td>
+                                <td class="mono">Rs. 1,229.20</td>
+                                <td class="mono">Rs. 1,241.50</td>
+                                <td class="mono" style="color: var(--accent-amber);">-0.99%</td>
+                                <td class="mono" style="color: var(--accent-cyan);">2.59x</td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('ACMESOLAR')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="ACMESOLAR" onclick="toggleWatchlist('ACMESOLAR', this)">★</button></td>
+                                <td><strong>ACME SOLAR HOLDINGS LTD</strong></td>
+                                <td><span class="sym-badge">ACMESOLAR</span></td>
+                                <td><span class="sector-tag">Diversified</span></td>
+                                <td class="mono">Rs. 435.25</td>
+                                <td class="mono">Rs. 440.70</td>
+                                <td class="mono" style="color: var(--accent-amber);">-1.24%</td>
+                                <td class="mono" style="color: var(--accent-cyan);">4.65x</td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('AEGISVOPAK')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="AEGISVOPAK" onclick="toggleWatchlist('AEGISVOPAK', this)">★</button></td>
+                                <td><strong>AEGIS VOPAK TERMINALS LTD</strong></td>
+                                <td><span class="sym-badge">AEGISVOPAK</span></td>
+                                <td><span class="sector-tag">Diversified</span></td>
+                                <td class="mono">Rs. 314.95</td>
+                                <td class="mono">Rs. 317.00</td>
+                                <td class="mono" style="color: var(--accent-amber);">-0.65%</td>
+                                <td class="mono" style="color: var(--accent-cyan);">1.5x</td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('AKUMS')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="AKUMS" onclick="toggleWatchlist('AKUMS', this)">★</button></td>
+                                <td><strong>Akums Drugs and Pharmaceutical</strong></td>
+                                <td><span class="sym-badge">AKUMS</span></td>
+                                <td><span class="sector-tag">Diversified</span></td>
+                                <td class="mono">Rs. 783.70</td>
+                                <td class="mono">Rs. 796.55</td>
+                                <td class="mono" style="color: var(--accent-amber);">-1.61%</td>
+                                <td class="mono" style="color: var(--accent-cyan);">0.96x</td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('AONELIQUID')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="AONELIQUID" onclick="toggleWatchlist('AONELIQUID', this)">★</button></td>
+                                <td><strong>AONEAMC - AONELIQUID</strong></td>
+                                <td><span class="sym-badge">AONELIQUID</span></td>
+                                <td><span class="sector-tag">Diversified</span></td>
+                                <td class="mono">Rs. 1,077.58</td>
+                                <td class="mono">Rs. 1,094.59</td>
+                                <td class="mono" style="color: var(--accent-amber);">-1.55%</td>
+                                <td class="mono" style="color: var(--accent-cyan);">2.97x</td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('APARINDS')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="APARINDS" onclick="toggleWatchlist('APARINDS', this)">★</button></td>
+                                <td><strong>APAR INDUSTRIES LTD.</strong></td>
+                                <td><span class="sym-badge">APARINDS</span></td>
+                                <td><span class="sector-tag">Diversified</span></td>
+                                <td class="mono">Rs. 18,858.00</td>
+                                <td class="mono">Rs. 19,080.00</td>
+                                <td class="mono" style="color: var(--accent-amber);">-1.16%</td>
+                                <td class="mono" style="color: var(--accent-cyan);">2.12x</td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('APLAPOLLO')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="APLAPOLLO" onclick="toggleWatchlist('APLAPOLLO', this)">★</button></td>
+                                <td><strong>APL Apollo Tubes Ltd.</strong></td>
+                                <td><span class="sym-badge">APLAPOLLO</span></td>
+                                <td><span class="sector-tag">Capital Goods</span></td>
+                                <td class="mono">Rs. 2,270.10</td>
+                                <td class="mono">Rs. 2,301.40</td>
+                                <td class="mono" style="color: var(--accent-amber);">-1.36%</td>
+                                <td class="mono" style="color: var(--accent-cyan);">1.57x</td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('APOLLOHOSP')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="APOLLOHOSP" onclick="toggleWatchlist('APOLLOHOSP', this)">★</button></td>
+                                <td><strong>Apollo Hospitals Enterprise Ltd.</strong></td>
+                                <td><span class="sym-badge">APOLLOHOSP</span></td>
+                                <td><span class="sector-tag">Healthcare</span></td>
+                                <td class="mono">Rs. 8,944.50</td>
+                                <td class="mono">Rs. 9,050.00</td>
+                                <td class="mono" style="color: var(--accent-amber);">-1.17%</td>
+                                <td class="mono" style="color: var(--accent-cyan);">1.3x</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 3: Sector Rotation -->
+        <div id="tab-sectors" class="tab-content">
+            <div class="table-card">
+                <div class="table-header-bar">
+                    <div class="table-title">📊 Weekly Sector Rotation Leaderboard (Median Returns)</div>
+                </div>
+                <div class="sector-grid">
+                    
+                    <div class="sector-card">
+                        <div class="sector-name">
+                            <span>Capital Goods</span>
+                            <span class="return-pill return-pos">+3.43%</span>
+                        </div>
+                        <div style="font-size: 0.8rem; color: var(--text-muted);">
+                            Top Stock: <strong style="color: var(--text-primary);">Dynamatic Technologies Ltd. (DYNAMATECH)</strong> 
+                            <span style="color: var(--accent-emerald);">(+4.49%)</span>
+                        </div>
+                        <div style="font-size: 0.75rem; color: var(--text-muted); display: flex; justify-content: space-between; margin-top: 4px;">
+                            <span>Scrips: 3</span>
+                            <span style="font-weight: 700; color: var(--accent-emerald);">Leading</span>
+                        </div>
+                    </div>
+                    <div class="sector-card">
+                        <div class="sector-name">
+                            <span>Oil Gas & Consumable Fuels</span>
+                            <span class="return-pill return-pos">+1.35%</span>
+                        </div>
+                        <div style="font-size: 0.8rem; color: var(--text-muted);">
+                            Top Stock: <strong style="color: var(--text-primary);">Adani Total Gas Ltd. (ATGL)</strong> 
+                            <span style="color: var(--accent-emerald);">(+9.62%)</span>
+                        </div>
+                        <div style="font-size: 0.75rem; color: var(--text-muted); display: flex; justify-content: space-between; margin-top: 4px;">
+                            <span>Scrips: 13</span>
+                            <span style="font-weight: 700; color: var(--accent-amber);">Improving</span>
+                        </div>
+                    </div>
+                    <div class="sector-card">
+                        <div class="sector-name">
+                            <span>Healthcare</span>
+                            <span class="return-pill return-pos">+0.50%</span>
+                        </div>
+                        <div style="font-size: 0.8rem; color: var(--text-muted);">
+                            Top Stock: <strong style="color: var(--text-primary);">Abbott India Ltd. (ABBOTINDIA)</strong> 
+                            <span style="color: var(--accent-emerald);">(+7.96%)</span>
+                        </div>
+                        <div style="font-size: 0.75rem; color: var(--text-muted); display: flex; justify-content: space-between; margin-top: 4px;">
+                            <span>Scrips: 49</span>
+                            <span style="font-weight: 700; color: var(--accent-amber);">Improving</span>
+                        </div>
+                    </div>
+                    <div class="sector-card">
+                        <div class="sector-name">
+                            <span>Telecommunication</span>
+                            <span class="return-pill return-pos">+0.47%</span>
+                        </div>
+                        <div style="font-size: 0.8rem; color: var(--text-muted);">
+                            Top Stock: <strong style="color: var(--text-primary);">Indus Towers Ltd. (INDUSTOWER)</strong> 
+                            <span style="color: var(--accent-emerald);">(+1.05%)</span>
+                        </div>
+                        <div style="font-size: 0.75rem; color: var(--text-muted); display: flex; justify-content: space-between; margin-top: 4px;">
+                            <span>Scrips: 4</span>
+                            <span style="font-weight: 700; color: var(--accent-amber);">Improving</span>
+                        </div>
+                    </div>
+                    <div class="sector-card">
+                        <div class="sector-name">
+                            <span>Information Technology</span>
+                            <span class="return-pill return-pos">+0.41%</span>
+                        </div>
+                        <div style="font-size: 0.8rem; color: var(--text-muted);">
+                            Top Stock: <strong style="color: var(--text-primary);">Sonata Software Ltd. (SONATSOFTW)</strong> 
+                            <span style="color: var(--accent-emerald);">(+5.34%)</span>
+                        </div>
+                        <div style="font-size: 0.75rem; color: var(--text-muted); display: flex; justify-content: space-between; margin-top: 4px;">
+                            <span>Scrips: 20</span>
+                            <span style="font-weight: 700; color: var(--accent-amber);">Improving</span>
+                        </div>
+                    </div>
+                    <div class="sector-card">
+                        <div class="sector-name">
+                            <span>Fast Moving Consumer Goods</span>
+                            <span class="return-pill return-pos">+0.11%</span>
+                        </div>
+                        <div style="font-size: 0.8rem; color: var(--text-muted);">
+                            Top Stock: <strong style="color: var(--text-primary);">Patanjali Foods Ltd. (PATANJALI)</strong> 
+                            <span style="color: var(--accent-emerald);">(+8.02%)</span>
+                        </div>
+                        <div style="font-size: 0.75rem; color: var(--text-muted); display: flex; justify-content: space-between; margin-top: 4px;">
+                            <span>Scrips: 15</span>
+                            <span style="font-weight: 700; color: var(--accent-amber);">Improving</span>
+                        </div>
+                    </div>
+                    <div class="sector-card">
+                        <div class="sector-name">
+                            <span>Chemicals</span>
+                            <span class="return-pill return-neg">-0.68%</span>
+                        </div>
+                        <div style="font-size: 0.8rem; color: var(--text-muted);">
+                            Top Stock: <strong style="color: var(--text-primary);">Tata Chemicals Ltd. (TATACHEM)</strong> 
+                            <span style="color: var(--accent-emerald);">(+13.55%)</span>
+                        </div>
+                        <div style="font-size: 0.75rem; color: var(--text-muted); display: flex; justify-content: space-between; margin-top: 4px;">
+                            <span>Scrips: 21</span>
+                            <span style="font-weight: 700; color: var(--accent-rose);">Lagging</span>
+                        </div>
+                    </div>
+                    <div class="sector-card">
+                        <div class="sector-name">
+                            <span>Financial Services</span>
+                            <span class="return-pill return-neg">-0.68%</span>
+                        </div>
+                        <div style="font-size: 0.8rem; color: var(--text-muted);">
+                            Top Stock: <strong style="color: var(--text-primary);">One 97 Communications Ltd. (PAYTM)</strong> 
+                            <span style="color: var(--accent-emerald);">(+6.38%)</span>
+                        </div>
+                        <div style="font-size: 0.75rem; color: var(--text-muted); display: flex; justify-content: space-between; margin-top: 4px;">
+                            <span>Scrips: 54</span>
+                            <span style="font-weight: 700; color: var(--accent-rose);">Lagging</span>
+                        </div>
+                    </div>
+                    <div class="sector-card">
+                        <div class="sector-name">
+                            <span>Media Entertainment & Publication</span>
+                            <span class="return-pill return-neg">-0.94%</span>
+                        </div>
+                        <div style="font-size: 0.8rem; color: var(--text-muted);">
+                            Top Stock: <strong style="color: var(--text-primary);">Prime Focus Ltd (PFOCUS)</strong> 
+                            <span style="color: var(--accent-emerald);">(+9.82%)</span>
+                        </div>
+                        <div style="font-size: 0.75rem; color: var(--text-muted); display: flex; justify-content: space-between; margin-top: 4px;">
+                            <span>Scrips: 10</span>
+                            <span style="font-weight: 700; color: var(--accent-rose);">Lagging</span>
+                        </div>
+                    </div>
+                    <div class="sector-card">
+                        <div class="sector-name">
+                            <span>Automobile and Auto Components</span>
+                            <span class="return-pill return-neg">-1.13%</span>
+                        </div>
+                        <div style="font-size: 0.8rem; color: var(--text-muted);">
+                            Top Stock: <strong style="color: var(--text-primary);">UNO Minda Ltd. (UNOMINDA)</strong> 
+                            <span style="color: var(--accent-emerald);">(+4.83%)</span>
+                        </div>
+                        <div style="font-size: 0.75rem; color: var(--text-muted); display: flex; justify-content: space-between; margin-top: 4px;">
+                            <span>Scrips: 16</span>
+                            <span style="font-weight: 700; color: var(--accent-rose);">Lagging</span>
+                        </div>
+                    </div>
+                    <div class="sector-card">
+                        <div class="sector-name">
+                            <span>Realty</span>
+                            <span class="return-pill return-neg">-1.71%</span>
+                        </div>
+                        <div style="font-size: 0.8rem; color: var(--text-muted);">
+                            Top Stock: <strong style="color: var(--text-primary);">Oberoi Realty Ltd. (OBEROIRLTY)</strong> 
+                            <span style="color: var(--accent-emerald);">(-0.39%)</span>
+                        </div>
+                        <div style="font-size: 0.75rem; color: var(--text-muted); display: flex; justify-content: space-between; margin-top: 4px;">
+                            <span>Scrips: 10</span>
+                            <span style="font-weight: 700; color: var(--accent-rose);">Lagging</span>
+                        </div>
+                    </div>
+                    <div class="sector-card">
+                        <div class="sector-name">
+                            <span>Metals & Mining</span>
+                            <span class="return-pill return-neg">-2.02%</span>
+                        </div>
+                        <div style="font-size: 0.8rem; color: var(--text-muted);">
+                            Top Stock: <strong style="color: var(--text-primary);">Lloyds Metals And Energy Ltd. (LLOYDSME)</strong> 
+                            <span style="color: var(--accent-emerald);">(+0.68%)</span>
+                        </div>
+                        <div style="font-size: 0.75rem; color: var(--text-muted); display: flex; justify-content: space-between; margin-top: 4px;">
+                            <span>Scrips: 14</span>
+                            <span style="font-weight: 700; color: var(--accent-rose);">Lagging</span>
+                        </div>
+                    </div>
+                    <div class="sector-card">
+                        <div class="sector-name">
+                            <span>Consumer Durables</span>
+                            <span class="return-pill return-neg">-2.33%</span>
+                        </div>
+                        <div style="font-size: 0.8rem; color: var(--text-muted);">
+                            Top Stock: <strong style="color: var(--text-primary);">Havells India Ltd. (HAVELLS)</strong> 
+                            <span style="color: var(--accent-emerald);">(+1.47%)</span>
+                        </div>
+                        <div style="font-size: 0.75rem; color: var(--text-muted); display: flex; justify-content: space-between; margin-top: 4px;">
+                            <span>Scrips: 16</span>
+                            <span style="font-weight: 700; color: var(--accent-rose);">Lagging</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 4: Fundamentals -->
         <div id="tab-fundamentals" class="tab-content">
-            <div class="card">
-                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
-                    <div style="font-size:1.15rem;font-weight:700;">💎 Fundamental Health Snapshots</div>
-                    <span style="font-size:0.8rem;color:var(--text-muted);">Official NSE PR Corporate Filings</span>
+            <div class="table-card">
+                <div class="table-header-bar">
+                    <div class="table-title">💎 Fundamental Health Snapshots (High ROE &gt; 15%)</div>
                 </div>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Company Name</th>
-                            <th>Symbol</th>
-                            <th style="text-align:center;">ROE</th>
-                            <th style="text-align:center;">ROCE</th>
-                            <th style="text-align:center;">P/E</th>
-                            <th style="text-align:right;">Market Cap</th>
-                            <th style="text-align:center;">Quality Tier</th>
-                        </tr>
-                    </thead>
-                    <tbody id="fundBody">
-                        
-            <tr class="searchable-row">
-                <td><strong class="col-name">TIMEX GROUP INDIA LTD.</strong></td>
-                <td><span class="badge-symbol col-sym">TIMEX</span></td>
-                <td style="text-align:center;color:#38bdf8;font-weight:700;font-family:'JetBrains Mono',monospace;">158.0%</td>
-                <td style="text-align:center;color:#34d399;font-weight:700;font-family:'JetBrains Mono',monospace;">82.8%</td>
-                <td style="text-align:center;font-family:'JetBrains Mono',monospace;">80.8</td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹7,210 Cr</td>
-                <td style="text-align:center;"><span class="stability-pill">Robust</span></td>
-            </tr>
-            
-            <tr class="searchable-row">
-                <td><strong class="col-name">GOCL CORPORATION LIMITED</strong></td>
-                <td><span class="badge-symbol col-sym">GOCLCORP</span></td>
-                <td style="text-align:center;color:#38bdf8;font-weight:700;font-family:'JetBrains Mono',monospace;">90.8%</td>
-                <td style="text-align:center;color:#34d399;font-weight:700;font-family:'JetBrains Mono',monospace;">9.7%</td>
-                <td style="text-align:center;font-family:'JetBrains Mono',monospace;">12.1</td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹2,211 Cr</td>
-                <td style="text-align:center;"><span class="stability-pill">Robust</span></td>
-            </tr>
-            
-            <tr class="searchable-row">
-                <td><strong class="col-name">ADVIT JEWELS LIMITED</strong></td>
-                <td><span class="badge-symbol col-sym">RAMBHAJO</span></td>
-                <td style="text-align:center;color:#38bdf8;font-weight:700;font-family:'JetBrains Mono',monospace;">45.6%</td>
-                <td style="text-align:center;color:#34d399;font-weight:700;font-family:'JetBrains Mono',monospace;">32.2%</td>
-                <td style="text-align:center;font-family:'JetBrains Mono',monospace;">36.4</td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹1,332 Cr</td>
-                <td style="text-align:center;"><span class="stability-pill">Robust</span></td>
-            </tr>
-            
-            <tr class="searchable-row">
-                <td><strong class="col-name">Rentomojo Limited</strong></td>
-                <td><span class="badge-symbol col-sym">RENTOMOJO</span></td>
-                <td style="text-align:center;color:#38bdf8;font-weight:700;font-family:'JetBrains Mono',monospace;">45.4%</td>
-                <td style="text-align:center;color:#34d399;font-weight:700;font-family:'JetBrains Mono',monospace;">21.5%</td>
-                <td style="text-align:center;font-family:'JetBrains Mono',monospace;">49.2</td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹5,338 Cr</td>
-                <td style="text-align:center;"><span class="stability-pill">Robust</span></td>
-            </tr>
-            
-            <tr class="searchable-row">
-                <td><strong class="col-name">Manipal Payment and Identity Solutions Limited</strong></td>
-                <td><span class="badge-symbol col-sym">MPIMANIPAL</span></td>
-                <td style="text-align:center;color:#38bdf8;font-weight:700;font-family:'JetBrains Mono',monospace;">45.1%</td>
-                <td style="text-align:center;color:#34d399;font-weight:700;font-family:'JetBrains Mono',monospace;">43.3%</td>
-                <td style="text-align:center;font-family:'JetBrains Mono',monospace;">32.0</td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹7,913 Cr</td>
-                <td style="text-align:center;"><span class="stability-pill">Robust</span></td>
-            </tr>
-            
-            <tr class="searchable-row">
-                <td><strong class="col-name">XTRANET TECHNOLOGIES LTD</strong></td>
-                <td><span class="badge-symbol col-sym">XTRANET</span></td>
-                <td style="text-align:center;color:#38bdf8;font-weight:700;font-family:'JetBrains Mono',monospace;">42.4%</td>
-                <td style="text-align:center;color:#34d399;font-weight:700;font-family:'JetBrains Mono',monospace;">43.0%</td>
-                <td style="text-align:center;font-family:'JetBrains Mono',monospace;">39.8</td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹1,632 Cr</td>
-                <td style="text-align:center;"><span class="stability-pill">Robust</span></td>
-            </tr>
-            
-            <tr class="searchable-row">
-                <td><strong class="col-name">INDO-MIM Limited</strong></td>
-                <td><span class="badge-symbol col-sym">INDOMIM</span></td>
-                <td style="text-align:center;color:#38bdf8;font-weight:700;font-family:'JetBrains Mono',monospace;">34.5%</td>
-                <td style="text-align:center;color:#34d399;font-weight:700;font-family:'JetBrains Mono',monospace;">32.2%</td>
-                <td style="text-align:center;font-family:'JetBrains Mono',monospace;">78.8</td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹52,212 Cr</td>
-                <td style="text-align:center;"><span class="stability-pill">Robust</span></td>
-            </tr>
-            
-            <tr class="searchable-row">
-                <td><strong class="col-name">SBC EXPORTS LIMITED</strong></td>
-                <td><span class="badge-symbol col-sym">SBC</span></td>
-                <td style="text-align:center;color:#38bdf8;font-weight:700;font-family:'JetBrains Mono',monospace;">33.6%</td>
-                <td style="text-align:center;color:#34d399;font-weight:700;font-family:'JetBrains Mono',monospace;">16.7%</td>
-                <td style="text-align:center;font-family:'JetBrains Mono',monospace;">69.1</td>
-                <td style="text-align:right;font-family:'JetBrains Mono',monospace;">₹2,345 Cr</td>
-                <td style="text-align:center;"><span class="stability-pill">Robust</span></td>
-            </tr>
-            
-                    </tbody>
-                </table>
+                <div class="table-responsive">
+                    <table id="fundTable">
+                        <thead>
+                            <tr>
+                                <th style="width: 40px;">⭐</th>
+                                <th onclick="sortTable('fundTable', 1)">Company Name <span class="sort-arrow"></span></th>
+                                <th onclick="sortTable('fundTable', 2)">Symbol <span class="sort-arrow"></span></th>
+                                <th onclick="sortTable('fundTable', 3)">P/E <span class="sort-arrow"></span></th>
+                                <th onclick="sortTable('fundTable', 4)">ROE <span class="sort-arrow"></span></th>
+                                <th onclick="sortTable('fundTable', 5)">ROCE <span class="sort-arrow"></span></th>
+                                <th onclick="sortTable('fundTable', 6)">P/B <span class="sort-arrow"></span></th>
+                                <th onclick="sortTable('fundTable', 7)">Market Cap <span class="sort-arrow"></span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                            <tr class="stock-row" onclick="openStockDrawer('TIMEX')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="TIMEX" onclick="toggleWatchlist('TIMEX', this)">★</button></td>
+                                <td><strong>TIMEX GROUP INDIA LTD.</strong></td>
+                                <td><span class="sym-badge">TIMEX</span></td>
+                                <td class="mono">80.8</td>
+                                <td class="mono" style="color: var(--accent-emerald); font-weight: 700;">158.0%</td>
+                                <td class="mono" style="color: var(--accent-cyan);">82.8%</td>
+                                <td class="mono">95.6</td>
+                                <td class="mono">Rs. 7,210 Cr</td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('GOCLCORP')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="GOCLCORP" onclick="toggleWatchlist('GOCLCORP', this)">★</button></td>
+                                <td><strong>GOCL CORPORATION LIMITED</strong></td>
+                                <td><span class="sym-badge">GOCLCORP</span></td>
+                                <td class="mono">12.1</td>
+                                <td class="mono" style="color: var(--accent-emerald); font-weight: 700;">90.8%</td>
+                                <td class="mono" style="color: var(--accent-cyan);">9.7%</td>
+                                <td class="mono">1.0</td>
+                                <td class="mono">Rs. 2,211 Cr</td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('RAMBHAJO')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="RAMBHAJO" onclick="toggleWatchlist('RAMBHAJO', this)">★</button></td>
+                                <td><strong>ADVIT JEWELS LIMITED</strong></td>
+                                <td><span class="sym-badge">RAMBHAJO</span></td>
+                                <td class="mono">36.4</td>
+                                <td class="mono" style="color: var(--accent-emerald); font-weight: 700;">45.6%</td>
+                                <td class="mono" style="color: var(--accent-cyan);">32.2%</td>
+                                <td class="mono">N/A</td>
+                                <td class="mono">Rs. 1,332 Cr</td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('RENTOMOJO')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="RENTOMOJO" onclick="toggleWatchlist('RENTOMOJO', this)">★</button></td>
+                                <td><strong>Rentomojo Limited</strong></td>
+                                <td><span class="sym-badge">RENTOMOJO</span></td>
+                                <td class="mono">49.2</td>
+                                <td class="mono" style="color: var(--accent-emerald); font-weight: 700;">45.4%</td>
+                                <td class="mono" style="color: var(--accent-cyan);">21.5%</td>
+                                <td class="mono">N/A</td>
+                                <td class="mono">Rs. 5,338 Cr</td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('MPIMANIPAL')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="MPIMANIPAL" onclick="toggleWatchlist('MPIMANIPAL', this)">★</button></td>
+                                <td><strong>Manipal Payment and Identity Solutions Limited</strong></td>
+                                <td><span class="sym-badge">MPIMANIPAL</span></td>
+                                <td class="mono">32.0</td>
+                                <td class="mono" style="color: var(--accent-emerald); font-weight: 700;">45.1%</td>
+                                <td class="mono" style="color: var(--accent-cyan);">43.3%</td>
+                                <td class="mono">N/A</td>
+                                <td class="mono">Rs. 7,913 Cr</td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('XTRANET')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="XTRANET" onclick="toggleWatchlist('XTRANET', this)">★</button></td>
+                                <td><strong>XTRANET TECHNOLOGIES LTD</strong></td>
+                                <td><span class="sym-badge">XTRANET</span></td>
+                                <td class="mono">39.8</td>
+                                <td class="mono" style="color: var(--accent-emerald); font-weight: 700;">42.4%</td>
+                                <td class="mono" style="color: var(--accent-cyan);">43.0%</td>
+                                <td class="mono">N/A</td>
+                                <td class="mono">Rs. 1,632 Cr</td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('INDOMIM')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="INDOMIM" onclick="toggleWatchlist('INDOMIM', this)">★</button></td>
+                                <td><strong>INDO-MIM Limited</strong></td>
+                                <td><span class="sym-badge">INDOMIM</span></td>
+                                <td class="mono">78.8</td>
+                                <td class="mono" style="color: var(--accent-emerald); font-weight: 700;">34.5%</td>
+                                <td class="mono" style="color: var(--accent-cyan);">32.2%</td>
+                                <td class="mono">N/A</td>
+                                <td class="mono">Rs. 52,212 Cr</td>
+                            </tr>
+                            <tr class="stock-row" onclick="openStockDrawer('SBC')">
+                                <td onclick="event.stopPropagation()"><button class="star-btn" data-sym="SBC" onclick="toggleWatchlist('SBC', this)">★</button></td>
+                                <td><strong>SBC EXPORTS LIMITED</strong></td>
+                                <td><span class="sym-badge">SBC</span></td>
+                                <td class="mono">69.1</td>
+                                <td class="mono" style="color: var(--accent-emerald); font-weight: 700;">33.6%</td>
+                                <td class="mono" style="color: var(--accent-cyan);">16.7%</td>
+                                <td class="mono">31.1</td>
+                                <td class="mono">Rs. 2,345 Cr</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
 
-        <!-- Tab 3: Corporate Actions -->
-        <div id="tab-corporate" class="tab-content">
-            <div class="card">
-                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
-                    <div style="font-size:1.15rem;font-weight:700;">📅 Upcoming Corporate Actions Calendar</div>
-                    <span style="font-size:0.8rem;color:var(--text-muted);">Verified Ex-Dates</span>
+        <!-- TAB 5: Corporate Actions -->
+        <div id="tab-actions" class="tab-content">
+            <div class="table-card">
+                <div class="table-header-bar">
+                    <div class="table-title">📅 Upcoming Corporate Actions Calendar (Ex-Dates)</div>
                 </div>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Company Name</th>
-                            <th>Symbol</th>
-                            <th style="text-align:center;">Ex-Date</th>
-                            <th>Event Description</th>
-                        </tr>
-                    </thead>
-                    <tbody id="corpBody">
-                        
-            <tr class="searchable-row">
-                <td><strong class="col-name">BEML LTD.</strong></td>
-                <td><span class="badge-symbol col-sym">BEML</span></td>
-                <td style="text-align:center;font-weight:700;color:#fbbf24;font-family:'JetBrains Mono',monospace;">2026-09-22</td>
-                <td>DIV - RS 12.28 PER SH</td>
-            </tr>
-            
-            <tr class="searchable-row">
-                <td><strong class="col-name">SEC RED NCD 10.27% SR. VI</strong></td>
-                <td><span class="badge-symbol col-sym">829PFL29</span></td>
-                <td style="text-align:center;font-weight:700;color:#fbbf24;font-family:'JetBrains Mono',monospace;">2026-09-21</td>
-                <td>INTEREST PAYMENT</td>
-            </tr>
-            
-            <tr class="searchable-row">
-                <td><strong class="col-name">SCL-8.43%-6-1-27-NCD</strong></td>
-                <td><span class="badge-symbol col-sym">843SCFL27</span></td>
-                <td style="text-align:center;font-weight:700;color:#fbbf24;font-family:'JetBrains Mono',monospace;">2026-09-21</td>
-                <td>INTEREST PAYMENT</td>
-            </tr>
-            
-            <tr class="searchable-row">
-                <td><strong class="col-name">SCL-8.89%-6-1-27-NCD</strong></td>
-                <td><span class="badge-symbol col-sym">889SCFL27</span></td>
-                <td style="text-align:center;font-weight:700;color:#fbbf24;font-family:'JetBrains Mono',monospace;">2026-09-21</td>
-                <td>INTEREST PAYMENT</td>
-            </tr>
-            
-            <tr class="searchable-row">
-                <td><strong class="col-name">A B INFRABUILD LIMITED</strong></td>
-                <td><span class="badge-symbol col-sym">ABINFRA</span></td>
-                <td style="text-align:center;font-weight:700;color:#fbbf24;font-family:'JetBrains Mono',monospace;">2026-09-21</td>
-                <td>DIV - RE 0.006 PER SH</td>
-            </tr>
-            
-            <tr class="searchable-row">
-                <td><strong class="col-name">ALICON CASTALLOY LIMITED</strong></td>
-                <td><span class="badge-symbol col-sym">ALICON</span></td>
-                <td style="text-align:center;font-weight:700;color:#fbbf24;font-family:'JetBrains Mono',monospace;">2026-09-21</td>
-                <td>DIV - RS 3 PER SH</td>
-            </tr>
-            
-            <tr class="searchable-row">
-                <td><strong class="col-name">ALL E TECHNOLOGIES LTD</strong></td>
-                <td><span class="badge-symbol col-sym">ALLETEC</span></td>
-                <td style="text-align:center;font-weight:700;color:#fbbf24;font-family:'JetBrains Mono',monospace;">2026-09-21</td>
-                <td>DIV - RS 1.5 PER SH</td>
-            </tr>
-            
-            <tr class="searchable-row">
-                <td><strong class="col-name">APOLLO SINDOORI HOTEL LTD</strong></td>
-                <td><span class="badge-symbol col-sym">APOLSINHOT</span></td>
-                <td style="text-align:center;font-weight:700;color:#fbbf24;font-family:'JetBrains Mono',monospace;">2026-09-21</td>
-                <td>DIV - RS 3 PER SH</td>
-            </tr>
-            
-                    </tbody>
-                </table>
+                <div class="table-responsive">
+                    <table id="actionsTable">
+                        <thead>
+                            <tr>
+                                <th>Company Name</th>
+                                <th>Symbol</th>
+                                <th>Purpose / Action</th>
+                                <th>Ex-Date</th>
+                                <th>Record Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                            <tr>
+                                <td><strong>IIFL SAMASTA 10.77% 2030</strong></td>
+                                <td><span class="sym-badge">1077IIFL30</span></td>
+                                <td style="color: var(--accent-cyan); font-weight: 600;">INTEREST PAYMENT</td>
+                                <td class="mono" style="color: var(--accent-amber); font-weight: 700;">2026-09-18</td>
+                                <td class="mono">2026-09-20</td>
+                            </tr>
+                            <tr>
+                                <td><strong>AFL 11.16 % 2027</strong></td>
+                                <td><span class="sym-badge">1116AFL27</span></td>
+                                <td style="color: var(--accent-cyan); font-weight: 600;">INTEREST PAYMENT</td>
+                                <td class="mono" style="color: var(--accent-amber); font-weight: 700;">2026-09-18</td>
+                                <td class="mono">2026-09-20</td>
+                            </tr>
+                            <tr>
+                                <td><strong>AFL-11.16%-19-1-28-PVT</strong></td>
+                                <td><span class="sym-badge">1116AFL28</span></td>
+                                <td style="color: var(--accent-cyan); font-weight: 600;">INTEREST PAYMENT</td>
+                                <td class="mono" style="color: var(--accent-amber); font-weight: 700;">2026-09-18</td>
+                                <td class="mono">2026-09-20</td>
+                            </tr>
+                            <tr>
+                                <td><strong>MCS 11% 2027</strong></td>
+                                <td><span class="sym-badge">11MCS27</span></td>
+                                <td style="color: var(--accent-cyan); font-weight: 600;">INTEREST PAYMENT</td>
+                                <td class="mono" style="color: var(--accent-amber); font-weight: 700;">2026-09-18</td>
+                                <td class="mono">2026-09-20</td>
+                            </tr>
+                            <tr>
+                                <td><strong>VCCL 12.5% 2031</strong></td>
+                                <td><span class="sym-badge">125VCCL31</span></td>
+                                <td style="color: var(--accent-cyan); font-weight: 600;">INTEREST PAYMENT</td>
+                                <td class="mono" style="color: var(--accent-amber); font-weight: 700;">2026-09-18</td>
+                                <td class="mono">2026-09-20</td>
+                            </tr>
+                            <tr>
+                                <td><strong>VCCL 12% 2029</strong></td>
+                                <td><span class="sym-badge">12VCCL29B</span></td>
+                                <td style="color: var(--accent-cyan); font-weight: 600;">INTEREST PAYMENT</td>
+                                <td class="mono" style="color: var(--accent-amber); font-weight: 700;">2026-09-18</td>
+                                <td class="mono">2026-09-19</td>
+                            </tr>
+                            <tr>
+                                <td><strong>TFB 7.28% 2030 SR. 2A</strong></td>
+                                <td><span class="sym-badge">728NTPC30B</span></td>
+                                <td style="color: var(--accent-cyan); font-weight: 600;">INTEREST PAYMENT</td>
+                                <td class="mono" style="color: var(--accent-amber); font-weight: 700;">2026-09-18</td>
+                                <td class="mono">2026-09-20</td>
+                            </tr>
+                            <tr>
+                                <td><strong>TFB 7.37% 2035 SR. 3A</strong></td>
+                                <td><span class="sym-badge">737NTPC35C</span></td>
+                                <td style="color: var(--accent-cyan); font-weight: 600;">INTEREST PAYMENT</td>
+                                <td class="mono" style="color: var(--accent-amber); font-weight: 700;">2026-09-18</td>
+                                <td class="mono">2026-09-20</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
 
-        <!-- Tab 4: Research Thesis -->
-        <div id="tab-thesis" class="tab-content">
-            <div class="card takeaway-box">
-                <div style="font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:#38bdf8;margin-bottom:10px;">
-                    🎓 Quantitative Insight of the Week
+        <!-- TAB 6: Watchlist (Dynamic LocalStorage) -->
+        <div id="tab-watchlist" class="tab-content">
+            <div class="table-card">
+                <div class="table-header-bar">
+                    <div class="table-title">⭐ My Personal Watchlist (Saved on your device)</div>
+                    <button class="btn btn-secondary" onclick="clearWatchlist()" style="font-size: 0.75rem; padding: 4px 10px;">Clear All</button>
                 </div>
-                <p style="font-size:0.96rem;line-height:1.8;">
-                    When markets are in a 'Favorable' regime, equities making new 52-week highs with strong return on equity (ROE > 15%) historically exhibit superior institutional sponsorship. The 52-week high breakout reflects price discovery free of overhead supply resistance, while robust ROE ensures the momentum is backed by corporate capital efficiency rather than pure speculative multiple expansion.
-                </p>
+                <div class="table-responsive">
+                    <table id="watchlistTable">
+                        <thead>
+                            <tr>
+                                <th style="width: 40px;">Remove</th>
+                                <th>Company Name</th>
+                                <th>Symbol</th>
+                                <th>Sector</th>
+                                <th>CMP</th>
+                                <th>52W High</th>
+                                <th>Volume</th>
+                            </tr>
+                        </thead>
+                        <tbody id="watchlistTableBody">
+                            <!-- Injected via JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+                <div id="watchlistEmptyState" style="padding: 40px; text-align: center; color: var(--text-muted); display: none;">
+                    You haven't added any stocks to your watchlist yet. Click the ★ icon next to any stock to track it here!
+                </div>
             </div>
         </div>
 
-        <!-- Statutory Disclaimer -->
-        <div class="disclaimer-box">
-            <strong>Statutory Disclosure & Educational Disclaimer:</strong><br>
+        <!-- Slide-over Stock Drawer -->
+        <div class="drawer-overlay" id="drawerOverlay" onclick="closeStockDrawer()"></div>
+        <div class="stock-drawer" id="stockDrawer">
+            <div class="drawer-header">
+                <div>
+                    <span class="sym-badge" id="drawerSym">SYMBOL</span>
+                    <span class="sector-tag" id="drawerSector">Sector</span>
+                </div>
+                <button class="drawer-close" onclick="closeStockDrawer()">✕</button>
+            </div>
+            <div class="drawer-sym" id="drawerCmp">Rs. 0.00</div>
+            <div class="drawer-name" id="drawerName">Company Name Ltd.</div>
+
+            <!-- 52W Spectrum -->
+            <div class="range-box">
+                <div class="range-title">52-Week Price Spectrum</div>
+                <div class="spectrum-bar">
+                    <div class="spectrum-pin" id="drawerPin" style="left: 50%;"></div>
+                </div>
+                <div class="range-bounds">
+                    <span>52W Low: <strong id="drawerLow">Rs. 0</strong></span>
+                    <span>52W High: <strong id="drawerHigh">Rs. 0</strong></span>
+                </div>
+            </div>
+
+            <!-- Valuation & Ratios Grid -->
+            <div class="ratio-grid">
+                <div class="ratio-tile">
+                    <div class="ratio-lbl">P/E Ratio</div>
+                    <div class="ratio-val" id="drawerPE">N/A</div>
+                </div>
+                <div class="ratio-tile">
+                    <div class="ratio-lbl">Return on Equity</div>
+                    <div class="ratio-val" style="color: var(--accent-emerald);" id="drawerROE">N/A</div>
+                </div>
+                <div class="ratio-tile">
+                    <div class="ratio-lbl">ROCE</div>
+                    <div class="ratio-val" style="color: var(--accent-cyan);" id="drawerROCE">N/A</div>
+                </div>
+                <div class="ratio-tile">
+                    <div class="ratio-lbl">Price / Book</div>
+                    <div class="ratio-val" id="drawerPB">N/A</div>
+                </div>
+            </div>
+
+            <!-- Drawer Action Buttons -->
+            <div class="drawer-actions">
+                <a id="drawerTvLink" class="btn btn-primary" target="_blank" href="#" style="justify-content: center;">
+                    📊 Open Chart on TradingView ↗
+                </a>
+                <a id="drawerNseLink" class="btn btn-secondary" target="_blank" href="#" style="justify-content: center;">
+                    🏛️ Official NSE Dispatches ↗
+                </a>
+                <button id="drawerWatchlistBtn" class="btn btn-secondary" onclick="toggleDrawerWatchlist()" style="justify-content: center;">
+                    ⭐ Add to Watchlist
+                </button>
+            </div>
+        </div>
+
+        <!-- Floating Toast -->
+        <div id="toast" class="toast">
+            <span id="toastMsg">Action completed successfully</span>
+        </div>
+
+        <!-- SEBI Compliance Box -->
+        <div class="compliance-box">
+            <strong>🛡️ Statutory Disclosure & Disclaimer:</strong><br>
             Disclaimer: Stockerboard (stockerboard.com) is an educational research and quantitative market analytics platform. We are not registered with SEBI as an Investment Adviser (IA) or Research Analyst (RA). All information, scores, tables, and statistics provided herein are strictly for educational and informational purposes and do not constitute an offer, solicitation, or recommendation to buy, sell, or hold any security. Market data is compiled from official publicly available End-of-Day filings from NSE India and BSE India. Investments in securities are subject to market risks; read all related documents carefully.
         </div>
 
@@ -732,29 +1481,275 @@
         </footer>
     </div>
 
-    <!-- Client-Side Interactive Tab & Search Scripts -->
+    <!-- Client-Side Reactive Controller -->
     <script>
-        function switchTab(tabId) {
+        const APP_DATA = {"title": "Stockerboard Weekly Intelligence Pulse", "edition": 38, "session_date": "2026-09-18", "display_date": "Friday, 18 September 2026", "regime": {"regime": "Balanced", "explanation": "Selectivity matters. Not all signals will work.", "color": "#F59E0B"}, "market_regime": {"regime": "Balanced", "explanation": "Selectivity matters. Not all signals will work.", "color": "#F59E0B"}, "breakouts": [{"symbol": "AUROPHARMA", "company_name": "Aurobindo Pharma Ltd.", "sector": "Healthcare", "industry": "Healthcare", "cmp": 1734.0, "high_52w": 1734.0, "low_52w": 1061.3, "dist_52w_pct": 0.0, "volume": "1,209,478", "volume_raw": 1209478, "volume_multiplier": "1.52x", "momentum_score": 95, "pe": 38.3, "roe": 11.2, "roce": 13.0, "pb": 4.4, "mcap": "Rs. 99,771 Cr", "setup_type": "52W High Breakout"}, {"symbol": "ASTAR", "company_name": "ASIAN STAR CO.LTD.", "sector": "Diversified", "industry": "Broad Market", "cmp": 807.35, "high_52w": 807.35, "low_52w": 485.0, "dist_52w_pct": 0.0, "volume": "13,851", "volume_raw": 13851, "volume_multiplier": "16.22x", "momentum_score": 95, "pe": 47.0, "roe": 3.1, "roce": 4.3, "pb": 1.2, "mcap": "Rs. 1,292 Cr", "setup_type": "52W High Breakout"}, {"symbol": "TBZ", "company_name": "TRIB BHIMJI ZAVERI LTD", "sector": "Diversified", "industry": "Broad Market", "cmp": 603.55, "high_52w": 603.55, "low_52w": 110.5, "dist_52w_pct": 0.0, "volume": "1,436,925", "volume_raw": 1436925, "volume_multiplier": "0.33x", "momentum_score": 95, "pe": 19.0, "roe": 26.5, "roce": 21.6, "pb": 4.8, "mcap": "Rs. 4,028 Cr", "setup_type": "52W High Breakout"}, {"symbol": "SOFTTECH", "company_name": "SoftTech Engineers Limited", "sector": "Diversified", "industry": "Broad Market", "cmp": 525.7, "high_52w": 525.7, "low_52w": 215.0, "dist_52w_pct": 0.0, "volume": "35,070", "volume_raw": 35070, "volume_multiplier": "4.85x", "momentum_score": 95, "pe": 73.8, "roe": 5.2, "roce": 7.6, "pb": 3.9, "mcap": "Rs. 728 Cr", "setup_type": "52W High Breakout"}, {"symbol": "BODALCHEM", "company_name": "BODAL CHEMICALS LTD.", "sector": "Diversified", "industry": "Broad Market", "cmp": 191.23, "high_52w": 191.23, "low_52w": 42.81, "dist_52w_pct": 0.0, "volume": "1,686,113", "volume_raw": 1686113, "volume_multiplier": "0.32x", "momentum_score": 95, "pe": 36.8, "roe": 0.9, "roce": 5.3, "pb": 2.0, "mcap": "Rs. 2,408 Cr", "setup_type": "52W High Breakout"}, {"symbol": "QUINT", "company_name": "QUINT DIGITAL LTD.", "sector": "Diversified", "industry": "Broad Market", "cmp": 70.02, "high_52w": 70.02, "low_52w": 33.45, "dist_52w_pct": 0.0, "volume": "668,824", "volume_raw": 668824, "volume_multiplier": "11.08x", "momentum_score": 95, "pe": 41.7, "roe": -1.0, "roce": -0.4, "pb": "N/A", "mcap": "Rs. 331 Cr", "setup_type": "52W High Breakout"}, {"symbol": "STLNETWORK", "company_name": "STL Networks Limited", "sector": "Diversified", "industry": "Broad Market", "cmp": 42.95, "high_52w": 42.95, "low_52w": 15.75, "dist_52w_pct": 0.0, "volume": "1,250,147", "volume_raw": 1250147, "volume_multiplier": "0.29x", "momentum_score": 95, "pe": 23.4, "roe": -2.1, "roce": 4.3, "pb": "N/A", "mcap": "Rs. 2,097 Cr", "setup_type": "52W High Breakout"}, {"symbol": "TOYAMSL", "company_name": "TOYAM SPORTS LIMITED", "sector": "Diversified", "industry": "Broad Market", "cmp": 0.77, "high_52w": 0.77, "low_52w": 0.6, "dist_52w_pct": 0.0, "volume": "458,115", "volume_raw": 458115, "volume_multiplier": "0.57x", "momentum_score": 95, "pe": 5.0, "roe": -0.1, "roce": -0.1, "pb": "N/A", "mcap": "Rs. 44 Cr", "setup_type": "52W High Breakout"}, {"symbol": "MAXESTATES", "company_name": "Max Estates Limited", "sector": "Diversified", "industry": "Broad Market", "cmp": 594.0, "high_52w": 595.0, "low_52w": 305.45, "dist_52w_pct": -0.17, "volume": "201,561", "volume_raw": 201561, "volume_multiplier": "0.66x", "momentum_score": 94, "pe": 209.0, "roe": 1.8, "roce": 3.4, "pb": 3.8, "mcap": "Rs. 9,717 Cr", "setup_type": "52W High Breakout"}, {"symbol": "KSHITIJPOL", "company_name": "KSHITIJ POLYLINE LIMITED", "sector": "Diversified", "industry": "Broad Market", "cmp": 4.2, "high_52w": 4.21, "low_52w": 1.88, "dist_52w_pct": -0.24, "volume": "6,675,034", "volume_raw": 6675034, "volume_multiplier": "2.45x", "momentum_score": 94, "pe": 26.4, "roe": 7.4, "roce": 8.4, "pb": 1.4, "mcap": "Rs. 104 Cr", "setup_type": "52W High Breakout"}], "consolidations": [{"symbol": "AAREYDRUGS", "company_name": "AAREY DRUGS & PHARMACEUTICALS", "sector": "Diversified", "industry": "Broad Market", "cmp": 102.13, "high_52w": 103.5, "low_52w": 47.76, "dist_52w_pct": -1.32, "volume": "289,834", "volume_raw": 289834, "volume_multiplier": "1.14x", "momentum_score": 89, "pe": 75.6, "roe": 2.8, "roce": 5.6, "pb": 1.9, "mcap": "Rs. 315 Cr", "setup_type": "Near 52W Consolidation"}, {"symbol": "AARTISURF", "company_name": "AARTI SURFACTANTS LIMITED", "sector": "Diversified", "industry": "Broad Market", "cmp": 658.55, "high_52w": 677.7, "low_52w": 316.0, "dist_52w_pct": -2.83, "volume": "103,714", "volume_raw": 103714, "volume_multiplier": "1.03x", "momentum_score": 86, "pe": "N/A", "roe": "N/A", "roce": "N/A", "pb": "N/A", "mcap": "N/A", "setup_type": "Near 52W Consolidation"}, {"symbol": "ACE", "company_name": "ACTION CONSTRUCTION EQUIPMENT", "sector": "Diversified", "industry": "Broad Market", "cmp": 1229.2, "high_52w": 1241.5, "low_52w": 745.1, "dist_52w_pct": -0.99, "volume": "881,443", "volume_raw": 881443, "volume_multiplier": "2.59x", "momentum_score": 90, "pe": 32.7, "roe": 23.6, "roce": 32.4, "pb": 7.3, "mcap": "Rs. 14,638 Cr", "setup_type": "Near 52W Consolidation"}, {"symbol": "ACMESOLAR", "company_name": "ACME SOLAR HOLDINGS LTD", "sector": "Diversified", "industry": "Broad Market", "cmp": 435.25, "high_52w": 440.7, "low_52w": 195.9, "dist_52w_pct": -1.24, "volume": "12,038,412", "volume_raw": 12038412, "volume_multiplier": "4.65x", "momentum_score": 89, "pe": 68.6, "roe": 6.9, "roce": 9.3, "pb": 5.3, "mcap": "Rs. 30,767 Cr", "setup_type": "Near 52W Consolidation"}, {"symbol": "AEGISVOPAK", "company_name": "AEGIS VOPAK TERMINALS LTD", "sector": "Diversified", "industry": "Broad Market", "cmp": 314.95, "high_52w": 317.0, "low_52w": 158.0, "dist_52w_pct": -0.65, "volume": "2,342,046", "volume_raw": 2342046, "volume_multiplier": "1.5x", "momentum_score": 90, "pe": 124.0, "roe": 8.1, "roce": 6.5, "pb": 7.2, "mcap": "Rs. 34,896 Cr", "setup_type": "Near 52W Consolidation"}, {"symbol": "AKUMS", "company_name": "Akums Drugs and Pharmaceutical", "sector": "Diversified", "industry": "Broad Market", "cmp": 783.7, "high_52w": 796.55, "low_52w": 409.3, "dist_52w_pct": -1.61, "volume": "330,477", "volume_raw": 330477, "volume_multiplier": "0.96x", "momentum_score": 88, "pe": 106.0, "roe": 4.9, "roce": 6.8, "pb": 5.1, "mcap": "Rs. 12,335 Cr", "setup_type": "Near 52W Consolidation"}, {"symbol": "AONELIQUID", "company_name": "AONEAMC - AONELIQUID", "sector": "Diversified", "industry": "Broad Market", "cmp": 1077.58, "high_52w": 1094.59, "low_52w": 997.56, "dist_52w_pct": -1.55, "volume": "55,374", "volume_raw": 55374, "volume_multiplier": "2.97x", "momentum_score": 88, "pe": "N/A", "roe": "N/A", "roce": "N/A", "pb": "N/A", "mcap": "N/A", "setup_type": "Near 52W Consolidation"}, {"symbol": "APARINDS", "company_name": "APAR INDUSTRIES LTD.", "sector": "Diversified", "industry": "Broad Market", "cmp": 18858.0, "high_52w": 19080.0, "low_52w": 6801.0, "dist_52w_pct": -1.16, "volume": "271,798", "volume_raw": 271798, "volume_multiplier": "2.12x", "momentum_score": 89, "pe": 66.2, "roe": 21.2, "roce": 32.9, "pb": 14.7, "mcap": "Rs. 78,963 Cr", "setup_type": "Near 52W Consolidation"}, {"symbol": "APLAPOLLO", "company_name": "APL Apollo Tubes Ltd.", "sector": "Capital Goods", "industry": "Capital Goods", "cmp": 2270.1, "high_52w": 2301.4, "low_52w": 1653.3, "dist_52w_pct": -1.36, "volume": "1,115,754", "volume_raw": 1115754, "volume_multiplier": "1.57x", "momentum_score": 89, "pe": 109.0, "roe": 16.7, "roce": 21.5, "pb": 18.2, "mcap": "Rs. 63,031 Cr", "setup_type": "Near 52W Consolidation"}, {"symbol": "APOLLOHOSP", "company_name": "Apollo Hospitals Enterprise Ltd.", "sector": "Healthcare", "industry": "Healthcare", "cmp": 8944.5, "high_52w": 9050.0, "low_52w": 6696.5, "dist_52w_pct": -1.17, "volume": "344,265", "volume_raw": 344265, "volume_multiplier": "1.3x", "momentum_score": 89, "pe": 81.4, "roe": 15.0, "roce": 17.0, "pb": 12.9, "mcap": "Rs. 128,608 Cr", "setup_type": "Near 52W Consolidation"}], "sector_rotation": [{"sector": "Capital Goods", "weekly_return": 3.43, "top_stock": "DYNAMATECH", "top_stock_name": "Dynamatic Technologies Ltd.", "top_stock_return": 4.49, "scrip_count": 3, "trend": "Leading"}, {"sector": "Oil Gas & Consumable Fuels", "weekly_return": 1.35, "top_stock": "ATGL", "top_stock_name": "Adani Total Gas Ltd.", "top_stock_return": 9.62, "scrip_count": 13, "trend": "Improving"}, {"sector": "Healthcare", "weekly_return": 0.5, "top_stock": "ABBOTINDIA", "top_stock_name": "Abbott India Ltd.", "top_stock_return": 7.96, "scrip_count": 49, "trend": "Improving"}, {"sector": "Telecommunication", "weekly_return": 0.47, "top_stock": "INDUSTOWER", "top_stock_name": "Indus Towers Ltd.", "top_stock_return": 1.05, "scrip_count": 4, "trend": "Improving"}, {"sector": "Information Technology", "weekly_return": 0.41, "top_stock": "SONATSOFTW", "top_stock_name": "Sonata Software Ltd.", "top_stock_return": 5.34, "scrip_count": 20, "trend": "Improving"}, {"sector": "Fast Moving Consumer Goods", "weekly_return": 0.11, "top_stock": "PATANJALI", "top_stock_name": "Patanjali Foods Ltd.", "top_stock_return": 8.02, "scrip_count": 15, "trend": "Improving"}, {"sector": "Chemicals", "weekly_return": -0.68, "top_stock": "TATACHEM", "top_stock_name": "Tata Chemicals Ltd.", "top_stock_return": 13.55, "scrip_count": 21, "trend": "Lagging"}, {"sector": "Financial Services", "weekly_return": -0.68, "top_stock": "PAYTM", "top_stock_name": "One 97 Communications Ltd.", "top_stock_return": 6.38, "scrip_count": 54, "trend": "Lagging"}, {"sector": "Media Entertainment & Publication", "weekly_return": -0.94, "top_stock": "PFOCUS", "top_stock_name": "Prime Focus Ltd", "top_stock_return": 9.82, "scrip_count": 10, "trend": "Lagging"}, {"sector": "Automobile and Auto Components", "weekly_return": -1.13, "top_stock": "UNOMINDA", "top_stock_name": "UNO Minda Ltd.", "top_stock_return": 4.83, "scrip_count": 16, "trend": "Lagging"}, {"sector": "Realty", "weekly_return": -1.71, "top_stock": "OBEROIRLTY", "top_stock_name": "Oberoi Realty Ltd.", "top_stock_return": -0.39, "scrip_count": 10, "trend": "Lagging"}, {"sector": "Metals & Mining", "weekly_return": -2.02, "top_stock": "LLOYDSME", "top_stock_name": "Lloyds Metals And Energy Ltd.", "top_stock_return": 0.68, "scrip_count": 14, "trend": "Lagging"}, {"sector": "Consumer Durables", "weekly_return": -2.33, "top_stock": "HAVELLS", "top_stock_name": "Havells India Ltd.", "top_stock_return": 1.47, "scrip_count": 16, "trend": "Lagging"}], "fundamentals": [{"symbol": "TIMEX", "company_name": "TIMEX GROUP INDIA LTD.", "sector": "Diversified", "industry": "Broad Market", "pe": 80.8, "roe": "158.0%", "roce": "82.8%", "pb": 95.6, "mcap": "Rs. 7,210 Cr", "fundamental_rating": "Robust"}, {"symbol": "GOCLCORP", "company_name": "GOCL CORPORATION LIMITED", "sector": "Diversified", "industry": "Broad Market", "pe": 12.1, "roe": "90.8%", "roce": "9.7%", "pb": 1.0, "mcap": "Rs. 2,211 Cr", "fundamental_rating": "Robust"}, {"symbol": "RAMBHAJO", "company_name": "ADVIT JEWELS LIMITED", "sector": "Diversified", "industry": "Broad Market", "pe": 36.4, "roe": "45.6%", "roce": "32.2%", "pb": "N/A", "mcap": "Rs. 1,332 Cr", "fundamental_rating": "Robust"}, {"symbol": "RENTOMOJO", "company_name": "Rentomojo Limited", "sector": "Diversified", "industry": "Broad Market", "pe": 49.2, "roe": "45.4%", "roce": "21.5%", "pb": "N/A", "mcap": "Rs. 5,338 Cr", "fundamental_rating": "Robust"}, {"symbol": "MPIMANIPAL", "company_name": "Manipal Payment and Identity Solutions Limited", "sector": "Diversified", "industry": "Broad Market", "pe": 32.0, "roe": "45.1%", "roce": "43.3%", "pb": "N/A", "mcap": "Rs. 7,913 Cr", "fundamental_rating": "Robust"}, {"symbol": "XTRANET", "company_name": "XTRANET TECHNOLOGIES LTD", "sector": "Diversified", "industry": "Broad Market", "pe": 39.8, "roe": "42.4%", "roce": "43.0%", "pb": "N/A", "mcap": "Rs. 1,632 Cr", "fundamental_rating": "Robust"}, {"symbol": "INDOMIM", "company_name": "INDO-MIM Limited", "sector": "Diversified", "industry": "Broad Market", "pe": 78.8, "roe": "34.5%", "roce": "32.2%", "pb": "N/A", "mcap": "Rs. 52,212 Cr", "fundamental_rating": "Robust"}, {"symbol": "SBC", "company_name": "SBC EXPORTS LIMITED", "sector": "Diversified", "industry": "Broad Market", "pe": 69.1, "roe": "33.6%", "roce": "16.7%", "pb": 31.1, "mcap": "Rs. 2,345 Cr", "fundamental_rating": "Robust"}], "fundamental_leaders": [{"symbol": "TIMEX", "company_name": "TIMEX GROUP INDIA LTD.", "sector": "Diversified", "industry": "Broad Market", "pe": 80.8, "roe": "158.0%", "roce": "82.8%", "pb": 95.6, "mcap": "Rs. 7,210 Cr", "fundamental_rating": "Robust"}, {"symbol": "GOCLCORP", "company_name": "GOCL CORPORATION LIMITED", "sector": "Diversified", "industry": "Broad Market", "pe": 12.1, "roe": "90.8%", "roce": "9.7%", "pb": 1.0, "mcap": "Rs. 2,211 Cr", "fundamental_rating": "Robust"}, {"symbol": "RAMBHAJO", "company_name": "ADVIT JEWELS LIMITED", "sector": "Diversified", "industry": "Broad Market", "pe": 36.4, "roe": "45.6%", "roce": "32.2%", "pb": "N/A", "mcap": "Rs. 1,332 Cr", "fundamental_rating": "Robust"}, {"symbol": "RENTOMOJO", "company_name": "Rentomojo Limited", "sector": "Diversified", "industry": "Broad Market", "pe": 49.2, "roe": "45.4%", "roce": "21.5%", "pb": "N/A", "mcap": "Rs. 5,338 Cr", "fundamental_rating": "Robust"}, {"symbol": "MPIMANIPAL", "company_name": "Manipal Payment and Identity Solutions Limited", "sector": "Diversified", "industry": "Broad Market", "pe": 32.0, "roe": "45.1%", "roce": "43.3%", "pb": "N/A", "mcap": "Rs. 7,913 Cr", "fundamental_rating": "Robust"}, {"symbol": "XTRANET", "company_name": "XTRANET TECHNOLOGIES LTD", "sector": "Diversified", "industry": "Broad Market", "pe": 39.8, "roe": "42.4%", "roce": "43.0%", "pb": "N/A", "mcap": "Rs. 1,632 Cr", "fundamental_rating": "Robust"}, {"symbol": "INDOMIM", "company_name": "INDO-MIM Limited", "sector": "Diversified", "industry": "Broad Market", "pe": 78.8, "roe": "34.5%", "roce": "32.2%", "pb": "N/A", "mcap": "Rs. 52,212 Cr", "fundamental_rating": "Robust"}, {"symbol": "SBC", "company_name": "SBC EXPORTS LIMITED", "sector": "Diversified", "industry": "Broad Market", "pe": 69.1, "roe": "33.6%", "roce": "16.7%", "pb": 31.1, "mcap": "Rs. 2,345 Cr", "fundamental_rating": "Robust"}], "corporate_actions": [{"symbol": "1077IIFL30", "company_name": "IIFL SAMASTA 10.77% 2030", "purpose": "INTEREST PAYMENT", "ex_date": "2026-09-18", "record_date": "2026-09-20"}, {"symbol": "1116AFL27", "company_name": "AFL 11.16 % 2027", "purpose": "INTEREST PAYMENT", "ex_date": "2026-09-18", "record_date": "2026-09-20"}, {"symbol": "1116AFL28", "company_name": "AFL-11.16%-19-1-28-PVT", "purpose": "INTEREST PAYMENT", "ex_date": "2026-09-18", "record_date": "2026-09-20"}, {"symbol": "11MCS27", "company_name": "MCS 11% 2027", "purpose": "INTEREST PAYMENT", "ex_date": "2026-09-18", "record_date": "2026-09-20"}, {"symbol": "125VCCL31", "company_name": "VCCL 12.5% 2031", "purpose": "INTEREST PAYMENT", "ex_date": "2026-09-18", "record_date": "2026-09-20"}, {"symbol": "12VCCL29B", "company_name": "VCCL 12% 2029", "purpose": "INTEREST PAYMENT", "ex_date": "2026-09-18", "record_date": "2026-09-19"}, {"symbol": "728NTPC30B", "company_name": "TFB 7.28% 2030 SR. 2A", "purpose": "INTEREST PAYMENT", "ex_date": "2026-09-18", "record_date": "2026-09-20"}, {"symbol": "737NTPC35C", "company_name": "TFB 7.37% 2035 SR. 3A", "purpose": "INTEREST PAYMENT", "ex_date": "2026-09-18", "record_date": "2026-09-20"}], "tradingview_tickers": "NSE:AUROPHARMA,NSE:ASTAR,NSE:TBZ,NSE:SOFTTECH,NSE:BODALCHEM,NSE:QUINT,NSE:STLNETWORK,NSE:TOYAMSL,NSE:MAXESTATES,NSE:KSHITIJPOL,NSE:AAREYDRUGS,NSE:AARTISURF,NSE:ACE,NSE:ACMESOLAR,NSE:AEGISVOPAK,NSE:AKUMS,NSE:AONELIQUID,NSE:APARINDS,NSE:APLAPOLLO,NSE:APOLLOHOSP", "educational_takeaway": "Market conditions remain Balanced. Institutional capital is prioritizing volume-backed breakouts and high capital efficiency.", "stats": {"breakout_count": 10, "consolidation_count": 10, "top_roe": "158.0%", "action_count": 8, "top_sector": "Capital Goods"}, "thesis": {"summary": "Market conditions remain Balanced. Institutional capital is prioritizing volume-backed breakouts and high capital efficiency.", "flow": "Sector rotation indicates leadership in Capital Goods segments, with consolidating setups providing favorable risk-reward envelopes.", "discipline": "Quantitative screeners reflect mathematical EOD criteria. Investors should conduct independent research and adhere to personal risk tolerances."}, "disclaimer": "Disclaimer: Stockerboard (stockerboard.com) is an educational research and quantitative market analytics platform. We are not registered with SEBI as an Investment Adviser (IA) or Research Analyst (RA). All information, scores, tables, and statistics provided herein are strictly for educational and informational purposes and do not constitute an offer, solicitation, or recommendation to buy, sell, or hold any security. Market data is compiled from official publicly available End-of-Day filings from NSE India and BSE India. Investments in securities are subject to market risks; read all related documents carefully."};
+
+        // 1. Tab Switching
+        function switchTab(tabId, btn) {
             document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
             document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
-            
             const target = document.getElementById(tabId);
             if (target) target.classList.add('active');
-            event.target.classList.add('active');
+            if (btn) btn.classList.add('active');
+            if (tabId === 'tab-watchlist') renderWatchlistTable();
         }
 
-        function filterTables() {
+        // 2. Client-Side Instant Filtering
+        function filterActiveTable() {
             const query = document.getElementById('tableSearch').value.toLowerCase().trim();
-            document.querySelectorAll('.searchable-row').forEach(row => {
-                const name = row.querySelector('.col-name')?.innerText.toLowerCase() || '';
-                const sym = row.querySelector('.col-sym')?.innerText.toLowerCase() || '';
-                if (name.includes(query) || sym.includes(query)) {
-                    row.style.display = '';
+            const activeTab = document.querySelector('.tab-content.active');
+            if (!activeTab) return;
+
+            activeTab.querySelectorAll('tbody tr').forEach(row => {
+                const text = row.innerText.toLowerCase();
+                row.style.display = text.includes(query) ? '' : 'none';
+            });
+        }
+
+        // 3. Multi-Column Sorting
+        function sortTable(tableId, colIndex) {
+            const table = document.getElementById(tableId);
+            if (!table) return;
+            const th = table.querySelectorAll('th')[colIndex];
+            const isAsc = th.classList.contains('sorted-asc');
+
+            table.querySelectorAll('th').forEach(h => h.classList.remove('sorted-asc', 'sorted-desc'));
+            th.classList.add(isAsc ? 'sorted-desc' : 'sorted-asc');
+
+            const tbody = table.querySelector('tbody');
+            const rows = Array.from(tbody.querySelectorAll('tr'));
+
+            rows.sort((a, b) => {
+                let valA = a.children[colIndex]?.innerText.trim() || '';
+                let valB = b.children[colIndex]?.innerText.trim() || '';
+
+                // Clean numbers
+                let numA = parseFloat(valA.replace(/[Rs.,%x]/g, ''));
+                let numB = parseFloat(valB.replace(/[Rs.,%x]/g, ''));
+
+                if (!isNaN(numA) && !isNaN(numB)) {
+                    return isAsc ? numB - numA : numA - numB;
+                }
+                return isAsc ? valB.localeCompare(valA) : valA.localeCompare(valB);
+            });
+
+            rows.forEach(r => tbody.appendChild(r));
+        }
+
+        // 4. TradingView Watchlist Copier
+        function copyTradingViewTickers() {
+            const tickers = APP_DATA.tradingview_tickers || '';
+            if (!tickers) return;
+            navigator.clipboard.writeText(tickers).then(() => {
+                showToast(`Copied ${APP_DATA.breakouts.length + APP_DATA.consolidations.length} tickers to clipboard for TradingView!`);
+            }).catch(err => {
+                showToast('Clipboard access denied.');
+            });
+        }
+
+        // 5. CSV Table Exporter
+        function exportActiveTableCSV() {
+            const activeTab = document.querySelector('.tab-content.active');
+            if (!activeTab) return;
+            const table = activeTab.querySelector('table');
+            if (!table) return;
+
+            let csv = [];
+            const rows = table.querySelectorAll('tr');
+            rows.forEach(row => {
+                const cols = row.querySelectorAll('th, td');
+                let rowData = [];
+                cols.forEach((col, idx) => {
+                    if (idx === 0 && col.querySelector('.star-btn')) return; // Skip star col
+                    let text = col.innerText.replace(/"/g, '""').trim();
+                    rowData.push(`"${text}"`);
+                });
+                if (rowData.length) csv.push(rowData.join(','));
+            });
+
+            const blob = new Blob([csv.join('\n')], { type: 'text/csv;charset=utf-8;' });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.setAttribute('href', url);
+            link.setAttribute('download', `stockerboard_${activeTab.id}.csv`);
+            link.click();
+            showToast('Table exported successfully!');
+        }
+
+        // 6. Interactive Stock Drawer
+        let currentDrawerSym = null;
+        function openStockDrawer(symbol) {
+            const stock = [...APP_DATA.breakouts, ...(APP_DATA.consolidations || []), ...APP_DATA.fundamental_leaders].find(s => s.symbol === symbol);
+            if (!stock) return;
+
+            currentDrawerSym = symbol;
+            document.getElementById('drawerSym').innerText = stock.symbol;
+            document.getElementById('drawerSector').innerText = stock.sector || 'Diversified';
+            document.getElementById('drawerName').innerText = stock.company_name;
+            document.getElementById('drawerCmp').innerText = `Rs. ${stock.cmp ? stock.cmp.toLocaleString() : 'N/A'}`;
+            document.getElementById('drawerPE').innerText = stock.pe || 'N/A';
+            document.getElementById('drawerROE').innerText = stock.roe || 'N/A';
+            document.getElementById('drawerROCE').innerText = stock.roce || 'N/A';
+            document.getElementById('drawerPB').innerText = stock.pb || 'N/A';
+
+            // 52W Spectrum
+            const low = stock.low_52w || (stock.cmp * 0.7);
+            const high = stock.high_52w || stock.cmp;
+            document.getElementById('drawerLow').innerText = `Rs. ${low ? low.toLocaleString() : 'N/A'}`;
+            document.getElementById('drawerHigh').innerText = `Rs. ${high ? high.toLocaleString() : 'N/A'}`;
+
+            let pct = 50;
+            if (high > low && stock.cmp) {
+                pct = Math.min(100, Math.max(0, ((stock.cmp - low) / (high - low)) * 100));
+            }
+            document.getElementById('drawerPin').style.left = `${pct}%`;
+
+            // Action Links
+            document.getElementById('drawerTvLink').href = `https://in.tradingview.com/chart/?symbol=NSE:${stock.symbol}`;
+            document.getElementById('drawerNseLink').href = `https://www.nseindia.com/get-quotes/equity?symbol=${stock.symbol}`;
+
+            updateDrawerWatchlistBtn();
+
+            document.getElementById('drawerOverlay').classList.add('open');
+            document.getElementById('stockDrawer').classList.add('open');
+        }
+
+        function closeStockDrawer() {
+            document.getElementById('drawerOverlay').classList.remove('open');
+            document.getElementById('stockDrawer').classList.remove('open');
+            currentDrawerSym = null;
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeStockDrawer();
+        });
+
+        // 7. Watchlist Management (Zero-Server LocalStorage)
+        function getWatchlist() {
+            try {
+                return JSON.parse(localStorage.getItem('stockerboard_watchlist') || '[]');
+            } catch {
+                return [];
+            }
+        }
+
+        function saveWatchlist(list) {
+            localStorage.setItem('stockerboard_watchlist', JSON.stringify(list));
+            updateWatchlistUI();
+        }
+
+        function toggleWatchlist(symbol, btn) {
+            let list = getWatchlist();
+            const idx = list.indexOf(symbol);
+            if (idx >= 0) {
+                list.splice(idx, 1);
+                showToast(`Removed ${symbol} from watchlist`);
+            } else {
+                list.push(symbol);
+                showToast(`Added ${symbol} to watchlist ⭐`);
+            }
+            saveWatchlist(list);
+        }
+
+        function toggleDrawerWatchlist() {
+            if (!currentDrawerSym) return;
+            let list = getWatchlist();
+            const idx = list.indexOf(currentDrawerSym);
+            if (idx >= 0) {
+                list.splice(idx, 1);
+                showToast(`Removed ${currentDrawerSym} from watchlist`);
+            } else {
+                list.push(currentDrawerSym);
+                showToast(`Added ${currentDrawerSym} to watchlist ⭐`);
+            }
+            saveWatchlist(list);
+            updateDrawerWatchlistBtn();
+        }
+
+        function updateDrawerWatchlistBtn() {
+            const btn = document.getElementById('drawerWatchlistBtn');
+            if (!btn || !currentDrawerSym) return;
+            const isStarred = getWatchlist().includes(currentDrawerSym);
+            btn.innerText = isStarred ? '★ Remove from Watchlist' : '⭐ Add to Watchlist';
+        }
+
+        function clearWatchlist() {
+            if (confirm('Are you sure you want to clear your watchlist?')) {
+                saveWatchlist([]);
+                renderWatchlistTable();
+                showToast('Watchlist cleared');
+            }
+        }
+
+        function updateWatchlistUI() {
+            const list = getWatchlist();
+            document.getElementById('watchlistCount').innerText = list.length;
+            document.querySelectorAll('.star-btn').forEach(btn => {
+                const sym = btn.getAttribute('data-sym');
+                if (list.includes(sym)) {
+                    btn.classList.add('starred');
                 } else {
-                    row.style.display = 'none';
+                    btn.classList.remove('starred');
                 }
             });
         }
+
+        function renderWatchlistTable() {
+            const list = getWatchlist();
+            const tbody = document.getElementById('watchlistTableBody');
+            const emptyState = document.getElementById('watchlistEmptyState');
+            tbody.innerHTML = '';
+
+            if (!list.length) {
+                emptyState.style.display = 'block';
+                return;
+            }
+            emptyState.style.display = 'none';
+
+            const allStocks = [...APP_DATA.breakouts, ...(APP_DATA.consolidations || []), ...APP_DATA.fundamental_leaders];
+            list.forEach(sym => {
+                const stock = allStocks.find(s => s.symbol === sym) || {
+                    symbol: sym,
+                    company_name: sym,
+                    sector: 'User Added',
+                    cmp: 0,
+                    high_52w: 0,
+                    volume: 'N/A'
+                };
+
+                const tr = document.createElement('tr');
+                tr.className = 'stock-row';
+                tr.onclick = () => openStockDrawer(stock.symbol);
+                tr.innerHTML = `
+                    <td onclick="event.stopPropagation()"><button class="star-btn starred" onclick="toggleWatchlist('${stock.symbol}', this); renderWatchlistTable();">★</button></td>
+                    <td><strong>${stock.company_name}</strong></td>
+                    <td><span class="sym-badge">${stock.symbol}</span></td>
+                    <td><span class="sector-tag">${stock.sector || 'Diversified'}</span></td>
+                    <td class="mono">Rs. ${stock.cmp ? stock.cmp.toLocaleString() : 'N/A'}</td>
+                    <td class="mono">Rs. ${stock.high_52w ? stock.high_52w.toLocaleString() : 'N/A'}</td>
+                    <td class="mono">${stock.volume || 'N/A'}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        // 8. Toast Notifications
+        let toastTimer = null;
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            document.getElementById('toastMsg').innerText = msg;
+            toast.classList.add('show');
+            clearTimeout(toastTimer);
+            toastTimer = setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+
+        // Initialize on load
+        document.addEventListener('DOMContentLoaded', () => {
+            updateWatchlistUI();
+        });
     </script>
 </body>
 </html>
