@@ -2040,6 +2040,339 @@
         .status-target { background: rgba(16, 185, 129, 0.15); color: #34D399; }
         .status-stopped { background: rgba(239, 68, 68, 0.15); color: #F87171; }
         .status-archived { background: rgba(148, 163, 184, 0.15); color: #94A3B8; }
+
+        /* ─── Strategy Radar Styles ──────────────────────── */
+        .radar-hero {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 14px;
+            margin-bottom: 20px;
+        }
+        .radar-hero-card {
+            background: var(--bg-surface-elevated);
+            border: 1px solid var(--border-card);
+            border-radius: 12px;
+            padding: 16px 18px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            position: relative;
+            overflow: hidden;
+        }
+        .radar-hero-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 3px;
+            border-radius: 12px 12px 0 0;
+        }
+        .radar-hero-card.card-vcp::before { background: linear-gradient(90deg, #10B981, #059669); }
+        .radar-hero-card.card-pivot::before { background: linear-gradient(90deg, #0284C7, #0EA5E9); }
+        .radar-hero-card.card-stage2::before { background: linear-gradient(90deg, #7C3AED, #8B5CF6); }
+        .radar-hero-card.card-compounder::before { background: linear-gradient(90deg, #D97706, #F59E0B); }
+        .radar-hero-card.card-confluence::before { background: linear-gradient(90deg, #F59E0B, #EF4444, #7C3AED); }
+        .radar-strat-name {
+            font-size: 0.78rem;
+            font-weight: 700;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .radar-winrate {
+            font-size: 2.2rem;
+            font-weight: 800;
+            line-height: 1;
+            font-family: var(--font-mono);
+        }
+        .radar-sublabel {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+        }
+        .radar-bar-wrap {
+            margin-top: 8px;
+        }
+        .radar-bar-track {
+            background: rgba(255,255,255,0.07);
+            border-radius: 4px;
+            height: 6px;
+            overflow: hidden;
+        }
+        .radar-bar-fill {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        .radar-mini-stats {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 6px;
+        }
+        .radar-mini-stat {
+            font-size: 0.74rem;
+        }
+        .radar-mini-stat span {
+            color: var(--text-muted);
+        }
+        .radar-table-wrap {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-card);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .radar-table-hdr {
+            padding: 12px 16px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--text-secondary);
+            border-bottom: 1px solid var(--border-subtle);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #radarSetupTable { width: 100%; border-collapse: collapse; }
+        #radarSetupTable thead tr th {
+            background: var(--table-header-bg);
+            padding: 10px 14px;
+            font-size: 0.74rem;
+            text-align: left;
+            color: var(--text-muted);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+        #radarSetupTable tbody tr td {
+            padding: 10px 14px;
+            font-size: 0.82rem;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+        #radarSetupTable tbody tr:hover { background: var(--table-hover-bg); }
+        .radar-no-data {
+            padding: 40px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        /* ─── Exit Ladder Styles ──────────────────────── */
+        .exit-ladder-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .exit-ladder-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        .ladder-empty-state {
+            padding: 60px 20px;
+            text-align: center;
+            color: var(--text-muted);
+        }
+        .ladder-empty-state .ladder-empty-icon {
+            font-size: 3rem;
+            margin-bottom: 12px;
+        }
+        .ladder-card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 16px;
+        }
+        .ladder-card {
+            background: var(--bg-surface-elevated);
+            border: 1px solid var(--border-card);
+            border-radius: 14px;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            transition: border-color 0.2s;
+        }
+        .ladder-card:hover { border-color: var(--accent-blue); }
+        .ladder-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .ladder-sym { font-weight: 800; font-size: 1rem; }
+        .ladder-setup-badge {
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 2px 8px;
+            border-radius: 6px;
+            background: rgba(59, 130, 246, 0.15);
+            color: #60A5FA;
+        }
+        .ladder-rung-row {
+            display: grid;
+            grid-template-columns: 80px 1fr auto;
+            align-items: center;
+            gap: 10px;
+        }
+        .ladder-rung-label {
+            font-size: 0.76rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+        .rung-sl { color: #F87171; }
+        .rung-t1 { color: #34D399; }
+        .rung-t2 { color: #60A5FA; }
+        .rung-runner { color: #FBBF24; }
+        .rung-entry { color: var(--text-muted); }
+        .ladder-price-track {
+            height: 8px;
+            border-radius: 4px;
+            background: rgba(255,255,255,0.07);
+            overflow: hidden;
+        }
+        .ladder-price-fill {
+            height: 100%;
+            border-radius: 4px;
+        }
+        .ladder-price-val {
+            font-size: 0.82rem;
+            font-weight: 700;
+            font-family: var(--font-mono);
+            min-width: 64px;
+            text-align: right;
+        }
+        .ladder-qty-row {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .ladder-qty-chip {
+            font-size: 0.72rem;
+            padding: 3px 8px;
+            border-radius: 6px;
+            font-weight: 600;
+            background: rgba(255,255,255,0.06);
+            border: 1px solid rgba(255,255,255,0.1);
+            color: var(--text-secondary);
+        }
+        .ladder-rr-badge {
+            font-size: 0.82rem;
+            font-weight: 700;
+            font-family: var(--font-mono);
+            color: #34D399;
+        }
+
+        /* ─── Risk Shield Styles ──────────────────────── */
+        .shield-summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 14px;
+            margin-bottom: 22px;
+        }
+        .shield-stat-card {
+            background: var(--bg-surface-elevated);
+            border: 1px solid var(--border-card);
+            border-radius: 12px;
+            padding: 14px 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .shield-stat-label {
+            font-size: 0.74rem;
+            color: var(--text-muted);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+        .shield-stat-val {
+            font-size: 1.8rem;
+            font-weight: 800;
+            font-family: var(--font-mono);
+            line-height: 1;
+        }
+        .shield-stat-sub {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+        }
+        .shield-ok { color: #34D399; }
+        .shield-warn { color: #FBBF24; }
+        .shield-danger { color: #F87171; }
+        .shield-gauge-section {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-card);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
+        .shield-gauge-title {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+        .shield-allocation-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+        }
+        .shield-alloc-label {
+            min-width: 80px;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            font-weight: 600;
+        }
+        .shield-alloc-track {
+            flex: 1;
+            height: 10px;
+            background: rgba(255,255,255,0.07);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .shield-alloc-fill {
+            height: 100%;
+            border-radius: 5px;
+            background: linear-gradient(90deg, #3B82F6, #60A5FA);
+            transition: width 0.6s ease;
+        }
+        .shield-alloc-fill.over-limit { background: linear-gradient(90deg, #EF4444, #F87171); }
+        .shield-alloc-pct {
+            min-width: 50px;
+            text-align: right;
+            font-size: 0.8rem;
+            font-weight: 700;
+            font-family: var(--font-mono);
+        }
+        .shield-table-wrap {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-card);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        #riskTable { width: 100%; border-collapse: collapse; }
+        #riskTable thead tr th {
+            background: var(--table-header-bg);
+            padding: 10px 14px;
+            font-size: 0.74rem;
+            text-align: left;
+            color: var(--text-muted);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+        #riskTable tbody tr td {
+            padding: 10px 14px;
+            font-size: 0.82rem;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+        #riskTable tbody tr:hover { background: var(--table-hover-bg); }
+        .shield-empty {
+            padding: 60px 20px;
+            text-align: center;
+            color: var(--text-muted);
+        }
     </style>
 </head>
 <body>
@@ -2181,6 +2514,15 @@
             </button>
             <button class="tab-btn" onclick="switchTab('tab-watchlist', this)" id="tabBtnWatchlist">
                 ⭐ My Watchlist <span class="tab-counter" id="watchlistCount">0</span>
+            </button>
+            <button class="tab-btn" onclick="switchTab('tab-radar', this)" id="tabBtnRadar">
+                🧠 Strategy Radar
+            </button>
+            <button class="tab-btn" onclick="switchTab('tab-exitladder', this)" id="tabBtnLadder">
+                🪜 Exit Ladder
+            </button>
+            <button class="tab-btn" onclick="switchTab('tab-riskshield', this)" id="tabBtnShield">
+                🛡️ Risk Shield
             </button>
         </div>
 
@@ -10070,6 +10412,112 @@
             </div>
         </div>
 
+        <!-- TAB: Strategy Radar (Empirical Scorecard from Decision Journal) -->
+        <div id="tab-radar" class="tab-content">
+            <div class="table-card">
+                <div class="table-header-bar">
+                    <div>
+                        <div class="table-title">🧠 Strategy Evidence Radar</div>
+                        <div style="font-size: 0.76rem; color: var(--text-muted); margin-top: 2px;">Empirical scorecard computed from your Decision Journal. Tracks win-rate, profit factor, and average R:R per strategy pattern — locally, with zero server dependency.</div>
+                    </div>
+                    <button class="btn btn-secondary" onclick="refreshRadar()" style="font-size: 0.78rem; padding: 5px 12px;">🔄 Refresh</button>
+                </div>
+                <div style="padding: 16px 16px 0;">
+                    <div class="radar-hero" id="radarHeroCards"></div>
+                    <div class="radar-table-wrap">
+                        <div class="radar-table-hdr">
+                            <span>Setup-Level Breakdown</span>
+                            <span style="font-size: 0.74rem; color: var(--text-muted);">Sorted by Win Rate ↓</span>
+                        </div>
+                        <div class="table-responsive">
+                            <table id="radarSetupTable">
+                                <thead><tr>
+                                    <th>Setup / Strategy</th>
+                                    <th class="col-right">Setups</th>
+                                    <th class="col-right">Targets Hit</th>
+                                    <th class="col-right">Win Rate</th>
+                                    <th class="col-right">Avg R:R</th>
+                                    <th class="col-right">Profit Factor</th>
+                                    <th class="col-right">Discipline</th>
+                                </tr></thead>
+                                <tbody id="radarSetupTableBody"></tbody>
+                            </table>
+                        </div>
+                        <div class="radar-no-data" id="radarNoData" style="display:none;">
+                            📓 Log your first trade in <strong>Decision Journal</strong> to see your Strategy Radar populate here.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB: Exit Ladder (Visual Scaling Plan: SL / T1 / T2 / Runner) -->
+        <div id="tab-exitladder" class="tab-content">
+            <div class="table-card">
+                <div class="table-header-bar">
+                    <div>
+                        <div class="table-title">🪜 Milestone Exit Ladder</div>
+                        <div style="font-size: 0.76rem; color: var(--text-muted); margin-top: 2px;">Visual scaling plan for every active setup in your journal. Shows Stop Loss, Target 1 (book ½), Target 2 (book ¼), and Runner (hold remainder) rungs.</div>
+                    </div>
+                    <button class="btn btn-secondary" onclick="refreshExitLadder()" style="font-size: 0.78rem; padding: 5px 12px;">🔄 Refresh</button>
+                </div>
+                <div style="padding: 16px;">
+                    <div class="exit-ladder-stats" id="ladderStats"></div>
+                    <div id="ladderCardGrid" class="ladder-card-grid"></div>
+                    <div class="ladder-empty-state" id="ladderEmptyState" style="display:none;">
+                        <div class="ladder-empty-icon">🪜</div>
+                        <div style="font-weight:700; margin-bottom:8px;">No active setups in your journal</div>
+                        <div style="font-size:0.82rem;">Open any stock drawer → <strong>📓 Log Trade / Setup</strong> to add an active setup here.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB: Portfolio Risk Shield -->
+        <div id="tab-riskshield" class="tab-content">
+            <div class="table-card">
+                <div class="table-header-bar">
+                    <div>
+                        <div class="table-title">🛡️ Portfolio Risk Shield</div>
+                        <div style="font-size: 0.76rem; color: var(--text-muted); margin-top: 2px;">Portfolio-level exposure & heat map computed from your Decision Journal. Enforces position sizing discipline — all data stays local.</div>
+                    </div>
+                    <button class="btn btn-secondary" onclick="refreshRiskShield()" style="font-size: 0.78rem; padding: 5px 12px;">🔄 Refresh</button>
+                </div>
+                <div style="padding: 16px;" id="riskShieldContent">
+                    <div class="shield-summary-grid" id="shieldSummaryGrid"></div>
+                    <div class="shield-gauge-section">
+                        <div class="shield-gauge-title">📊 Setup Allocation by Strategy Type</div>
+                        <div id="shieldAllocationBars"></div>
+                    </div>
+                    <div class="shield-table-wrap">
+                        <div class="radar-table-hdr">
+                            <span>Active Position Risk Register</span>
+                            <span style="font-size:0.74rem; color:var(--text-muted);">Sorted by Risk Amount ↓</span>
+                        </div>
+                        <div class="table-responsive">
+                            <table id="riskTable">
+                                <thead><tr>
+                                    <th>Symbol</th>
+                                    <th>Setup</th>
+                                    <th class="col-right">Entry (₹)</th>
+                                    <th class="col-right">Stop Loss (₹)</th>
+                                    <th class="col-right">Budget (₹)</th>
+                                    <th class="col-right">Max Risk (₹)</th>
+                                    <th class="col-right">Risk %</th>
+                                    <th class="col-right">R:R</th>
+                                    <th>Status</th>
+                                </tr></thead>
+                                <tbody id="riskTableBody"></tbody>
+                            </table>
+                        </div>
+                        <div class="shield-empty" id="shieldEmpty" style="display:none;">
+                            🛡️ Your Risk Shield is clear. Log active setups in the Decision Journal to monitor position risk here.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Slide-over Stock Drawer -->
         <div class="drawer-overlay" id="drawerOverlay" onclick="closeStockDrawer()"></div>
         <div class="stock-drawer" id="stockDrawer">
@@ -12209,11 +12657,277 @@
             });
         }
 
+        // ─── FEATURE: Strategy Evidence Radar ──────────────────────────────────
+        function getJournalEntries() {
+            try { return JSON.parse(localStorage.getItem('stockerboard_journal') || '[]'); } catch(e) { return []; }
+        }
+
+        function refreshRadar() {
+            const entries = getJournalEntries();
+            const heroEl = document.getElementById('radarHeroCards');
+            const tbodyEl = document.getElementById('radarSetupTableBody');
+            const noDataEl = document.getElementById('radarNoData');
+            if (!heroEl || !tbodyEl) return;
+
+            // Group by setup type
+            const groups = {};
+            entries.forEach(e => {
+                const key = (e.setup || e.strategy || 'Untagged').trim();
+                if (!groups[key]) groups[key] = { total: 0, wins: 0, stopped: 0, totalRR: 0, honoredSL: 0 };
+                const g = groups[key];
+                g.total++;
+                const rr = parseFloat(e.rr_ratio) || 0;
+                g.totalRR += rr;
+                if ((e.status || '').toLowerCase() === 'target') g.wins++;
+                if ((e.status || '').toLowerCase() === 'stopped') { g.stopped++; g.honoredSL++; }
+            });
+
+            const sortedKeys = Object.keys(groups).sort((a,b) => {
+                const wr_a = groups[a].total > 0 ? groups[a].wins / groups[a].total : 0;
+                const wr_b = groups[b].total > 0 ? groups[b].wins / groups[b].total : 0;
+                return wr_b - wr_a;
+            });
+
+            if (sortedKeys.length === 0) {
+                heroEl.innerHTML = '';
+                tbodyEl.innerHTML = '';
+                if (noDataEl) noDataEl.style.display = 'block';
+                return;
+            }
+            if (noDataEl) noDataEl.style.display = 'none';
+
+            const stratColors = { vcp:'#10B981', pivot:'#0284C7', stage2:'#7C3AED', compounder:'#F59E0B', confluence:'#F59E0B' };
+            const stratCard   = { vcp:'card-vcp', pivot:'card-pivot', stage2:'card-stage2', compounder:'card-compounder', confluence:'card-confluence' };
+
+            // Hero cards for top-5
+            heroEl.innerHTML = sortedKeys.slice(0, 5).map(key => {
+                const g = groups[key];
+                const wr = g.total > 0 ? Math.round((g.wins / g.total) * 100) : 0;
+                const avgRR = g.total > 0 ? (g.totalRR / g.total).toFixed(1) : '—';
+                const pf = g.wins > 0 && g.stopped > 0 ? (g.wins / g.stopped).toFixed(2) : (g.wins > 0 ? '∞' : '0');
+                const slug = key.toLowerCase().replace(/\s+/g, '');
+                const cardCls = stratCard[slug] || '';
+                const color = stratColors[slug] || '#60A5FA';
+                const wrColor = wr >= 60 ? '#34D399' : wr >= 40 ? '#FBBF24' : '#F87171';
+                return `<div class="radar-hero-card ${cardCls}">
+                    <div class="radar-strat-name">${key}</div>
+                    <div class="radar-winrate" style="color:${wrColor}">${wr}%</div>
+                    <div class="radar-sublabel">Win Rate &bull; ${g.total} setups</div>
+                    <div class="radar-bar-wrap">
+                        <div class="radar-bar-track">
+                            <div class="radar-bar-fill" style="width:${wr}%;background:${color};"></div>
+                        </div>
+                    </div>
+                    <div class="radar-mini-stats">
+                        <div class="radar-mini-stat"><span>Avg R:R</span> ${avgRR}</div>
+                        <div class="radar-mini-stat"><span>P.Factor</span> ${pf}</div>
+                    </div>
+                </div>`;
+            }).join('');
+
+            // Full table
+            tbodyEl.innerHTML = sortedKeys.map(key => {
+                const g = groups[key];
+                const wr = g.total > 0 ? Math.round((g.wins / g.total) * 100) : 0;
+                const avgRR = g.total > 0 ? (g.totalRR / g.total).toFixed(2) : '—';
+                const pf = g.wins > 0 && g.stopped > 0 ? (g.wins / g.stopped).toFixed(2) : (g.wins > 0 ? '∞' : '0');
+                const disc = g.stopped > 0 && g.total > 0 ? Math.round((g.honoredSL / (g.stopped)) * 100) + '%' : '100%';
+                const wrColor = wr >= 60 ? '#34D399' : wr >= 40 ? '#FBBF24' : '#F87171';
+                return `<tr>
+                    <td><strong>${key}</strong></td>
+                    <td class="col-right">${g.total}</td>
+                    <td class="col-right" style="color:#34D399;">${g.wins}</td>
+                    <td class="col-right" style="color:${wrColor};font-weight:700;font-family:var(--font-mono);">${wr}%</td>
+                    <td class="col-right" style="font-family:var(--font-mono);">${avgRR}</td>
+                    <td class="col-right" style="font-family:var(--font-mono);">${pf}</td>
+                    <td class="col-right" style="color:#60A5FA;">${disc}</td>
+                </tr>`;
+            }).join('');
+        }
+
+        // ─── FEATURE: Milestone Exit Ladder ────────────────────────────────────
+        function refreshExitLadder() {
+            const entries = getJournalEntries();
+            const grid = document.getElementById('ladderCardGrid');
+            const statsEl = document.getElementById('ladderStats');
+            const emptyEl = document.getElementById('ladderEmptyState');
+            if (!grid) return;
+
+            const active = entries.filter(e => (e.status || '').toLowerCase() === 'active' || !(e.status));
+            grid.innerHTML = '';
+
+            if (active.length === 0) {
+                if (emptyEl) emptyEl.style.display = 'flex';
+                if (statsEl) statsEl.innerHTML = '';
+                return;
+            }
+            if (emptyEl) emptyEl.style.display = 'none';
+
+            // Summary stats
+            const totalBudget = active.reduce((s, e) => s + (parseFloat(e.budget) || 0), 0);
+            const totalRisk = active.reduce((s, e) => {
+                const entry = parseFloat(e.entry) || 0;
+                const sl = parseFloat(e.stop_loss) || 0;
+                const budget = parseFloat(e.budget) || 0;
+                const qty = entry > 0 ? Math.floor(budget / entry) : 0;
+                return s + qty * Math.max(0, entry - sl);
+            }, 0);
+            const avgRR = active.reduce((s,e) => s + (parseFloat(e.rr_ratio) || 0), 0) / active.length;
+
+            if (statsEl) statsEl.innerHTML = [
+                ['Active Setups', active.length, ''],
+                ['Total Budget', '₹' + (totalBudget > 999 ? (totalBudget/1000).toFixed(1)+'K' : totalBudget.toFixed(0)), ''],
+                ['Aggregate Max Risk', '₹' + (totalRisk > 999 ? (totalRisk/1000).toFixed(1)+'K' : totalRisk.toFixed(0)), 'shield-warn'],
+                ['Avg R:R', avgRR.toFixed(2) + ':1', 'shield-ok']
+            ].map(([lbl, val, cls]) => `<div class="shield-stat-card"><div class="shield-stat-label">${lbl}</div><div class="shield-stat-val ${cls}">${val}</div></div>`).join('');
+
+            // Ladder cards
+            grid.innerHTML = active.map(e => {
+                const sym = e.symbol || '—';
+                const entry = parseFloat(e.entry) || 0;
+                const sl = parseFloat(e.stop_loss) || 0;
+                const target = parseFloat(e.target) || 0;
+                const budget = parseFloat(e.budget) || 0;
+                const setup = e.setup || e.strategy || 'Custom';
+
+                const qty = entry > 0 ? Math.floor(budget / entry) : 0;
+                const t1 = entry + (target - entry) * 0.5;
+                const t2 = entry + (target - entry) * 0.75;
+                const runner = target;
+
+                const rng = Math.max(target, entry, sl) - Math.min(target, entry, sl);
+                const pct = (v) => rng > 0 ? Math.round(((v - Math.min(sl, entry)) / rng) * 100) : 50;
+
+                const slColor = '#EF4444'; const t1Color = '#10B981'; const t2Color = '#3B82F6'; const rnColor = '#F59E0B';
+
+                const rungRow = (label, price, color, fillPct) => `
+                    <div class="ladder-rung-row">
+                        <div class="ladder-rung-label" style="color:${color}">${label}</div>
+                        <div class="ladder-price-track"><div class="ladder-price-fill" style="width:${fillPct}%;background:${color};opacity:0.7;"></div></div>
+                        <div class="ladder-price-val" style="color:${color}">₹${price.toFixed(2)}</div>
+                    </div>`;
+
+                return `<div class="ladder-card">
+                    <div class="ladder-card-header">
+                        <div class="ladder-sym">${sym}</div>
+                        <div class="ladder-setup-badge">${setup}</div>
+                    </div>
+                    ${rungRow('⛔ SL', sl, slColor, pct(sl))}
+                    ${rungRow('Entry', entry, '#94A3B8', pct(entry))}
+                    ${rungRow('T1 (½)', t1, t1Color, pct(t1))}
+                    ${rungRow('T2 (¼)', t2, t2Color, pct(t2))}
+                    ${rungRow('🏆 Runner', runner, rnColor, 100)}
+                    <div class="ladder-qty-row">
+                        <div class="ladder-qty-chip">Qty: ${qty} shares</div>
+                        <div class="ladder-qty-chip">T1 → book ${Math.floor(qty/2)} shares</div>
+                        <div class="ladder-qty-chip">T2 → book ${Math.floor(qty/4)} more</div>
+                        <div class="ladder-qty-chip">Runner → ${qty - Math.floor(qty/2) - Math.floor(qty/4)} shares</div>
+                    </div>
+                </div>`;
+            }).join('');
+        }
+
+        // ─── FEATURE: Portfolio Risk Shield ────────────────────────────────────
+        function refreshRiskShield() {
+            const entries = getJournalEntries();
+            const summaryEl = document.getElementById('shieldSummaryGrid');
+            const barsEl = document.getElementById('shieldAllocationBars');
+            const tbodyEl = document.getElementById('riskTableBody');
+            const emptyEl = document.getElementById('shieldEmpty');
+            if (!tbodyEl) return;
+
+            const active = entries.filter(e => (e.status || '').toLowerCase() !== 'archived');
+            const stoppedOut = entries.filter(e => (e.status || '').toLowerCase() === 'stopped');
+            const totalWins = entries.filter(e => (e.status || '').toLowerCase() === 'target').length;
+
+            // Compute per-position risk
+            const positions = active.map(e => {
+                const entry = parseFloat(e.entry) || 0;
+                const sl = parseFloat(e.stop_loss) || 0;
+                const target = parseFloat(e.target) || 0;
+                const budget = parseFloat(e.budget) || 0;
+                const qty = entry > 0 ? Math.floor(budget / entry) : 0;
+                const maxRisk = qty * Math.max(0, entry - sl);
+                const riskPct = budget > 0 ? (maxRisk / budget) * 100 : 0;
+                const rr = parseFloat(e.rr_ratio) || (entry > 0 && sl > 0 ? parseFloat(((target - entry) / (entry - sl)).toFixed(2)) : 0);
+                return { ...e, qty, maxRisk, riskPct, rr, budget, entry, sl, target };
+            }).sort((a, b) => b.maxRisk - a.maxRisk);
+
+            const totalBudget = positions.reduce((s, p) => s + p.budget, 0);
+            const totalRisk = positions.reduce((s, p) => s + p.maxRisk, 0);
+            const avgRiskPct = totalBudget > 0 ? ((totalRisk / totalBudget) * 100).toFixed(1) : 0;
+            const riskRating = parseFloat(avgRiskPct) <= 2 ? ['OK', 'shield-ok'] : parseFloat(avgRiskPct) <= 5 ? ['WARN', 'shield-warn'] : ['HIGH', 'shield-danger'];
+
+            if (summaryEl) summaryEl.innerHTML = [
+                ['Active Setups', active.length, ''],
+                ['Total Deployed', '₹' + (totalBudget > 999 ? (totalBudget/1000).toFixed(1)+'K' : totalBudget.toFixed(0)), ''],
+                ['Total Max Risk', '₹' + (totalRisk > 999 ? (totalRisk/1000).toFixed(1)+'K' : totalRisk.toFixed(0)), riskRating[1]],
+                ['Avg Risk/Position', avgRiskPct + '%', riskRating[1]],
+                ['Risk Rating', riskRating[0], riskRating[1]],
+                ['Win Count', totalWins, 'shield-ok'],
+                ['Stopped Out', stoppedOut.length, stoppedOut.length > 2 ? 'shield-warn' : ''],
+            ].map(([lbl, val, cls]) => `<div class="shield-stat-card"><div class="shield-stat-label">${lbl}</div><div class="shield-stat-val ${cls}">${val}</div></div>`).join('');
+
+            // Allocation bars by strategy
+            const stratGroups = {};
+            active.forEach(e => {
+                const k = e.setup || e.strategy || 'Custom';
+                if (!stratGroups[k]) stratGroups[k] = 0;
+                stratGroups[k]++;
+            });
+            const maxCount = Math.max(...Object.values(stratGroups), 1);
+            if (barsEl) barsEl.innerHTML = Object.entries(stratGroups).sort((a,b) => b[1]-a[1]).map(([k, cnt]) => {
+                const pct = Math.round((cnt / maxCount) * 100);
+                const capPct = Math.round((cnt / Math.max(active.length, 1)) * 100);
+                const overLimit = capPct > 40;
+                return `<div class="shield-allocation-row">
+                    <div class="shield-alloc-label">${k}</div>
+                    <div class="shield-alloc-track"><div class="shield-alloc-fill ${overLimit ? 'over-limit' : ''}" style="width:${pct}%;"></div></div>
+                    <div class="shield-alloc-pct" style="color:${overLimit ? '#F87171' : 'var(--text-secondary)'}">${cnt} (${capPct}%)</div>
+                </div>`;
+            }).join('') || '<div style="color:var(--text-muted);font-size:0.82rem;padding:8px 0;">No active setups yet.</div>';
+
+            // Risk register table
+            if (positions.length === 0) {
+                tbodyEl.innerHTML = '';
+                if (emptyEl) emptyEl.style.display = 'block';
+                return;
+            }
+            if (emptyEl) emptyEl.style.display = 'none';
+
+            tbodyEl.innerHTML = positions.map(p => {
+                const statusCls = { 'active': 'status-active', 'target': 'status-target', 'stopped': 'status-stopped', 'archived': 'status-archived' }[(p.status||'active').toLowerCase()] || 'status-active';
+                const riskColor = p.riskPct > 5 ? '#F87171' : p.riskPct > 2 ? '#FBBF24' : '#34D399';
+                return `<tr>
+                    <td><strong>${p.symbol || '—'}</strong></td>
+                    <td>${p.setup || p.strategy || '—'}</td>
+                    <td class="col-right mono">₹${p.entry.toFixed(2)}</td>
+                    <td class="col-right mono" style="color:#F87171;">₹${p.sl.toFixed(2)}</td>
+                    <td class="col-right mono">₹${p.budget.toFixed(0)}</td>
+                    <td class="col-right mono" style="color:${riskColor};">₹${p.maxRisk.toFixed(0)}</td>
+                    <td class="col-right mono" style="color:${riskColor};">${p.riskPct.toFixed(1)}%</td>
+                    <td class="col-right mono" style="color:#34D399;">${p.rr.toFixed(2)}:1</td>
+                    <td><span class="journal-status-pill ${statusCls}">${(p.status||'Active').toUpperCase()}</span></td>
+                </tr>`;
+            }).join('');
+        }
+
+        // Wire tab switching to auto-refresh the 3 new panels
+        const _origSwitchTab = switchTab;
+        switchTab = function(tabId, btn) {
+            _origSwitchTab(tabId, btn);
+            if (tabId === 'tab-radar') refreshRadar();
+            if (tabId === 'tab-exitladder') refreshExitLadder();
+            if (tabId === 'tab-riskshield') refreshRiskShield();
+        };
+
         // Initialize on load
         document.addEventListener('DOMContentLoaded', () => {
             updateWatchlistUI();
             updateJournalUI();
             initAuthEngine();
+            // Pre-compute radar/ladder/shield on first load
+            setTimeout(() => { refreshRadar(); refreshExitLadder(); refreshRiskShield(); }, 400);
         });
     </script>
 </body>
