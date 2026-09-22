@@ -7217,17 +7217,18 @@
                         <button class="btn btn-secondary" onclick="clearWatchlist()" style="font-size: 0.75rem; padding: 5px 12px; color: var(--accent-rose);">🗑️ Clear All</button>
                     </div>
                 </div>
+                <div id="watchlistTierBanner" style="margin-bottom: 14px;"></div>
                 <div class="table-responsive">
                     <table id="watchlistTable">
                         <thead>
                             <tr>
-                                <th style="width: 40px;">Remove</th>
+                                <th style="width: 40px; text-align: center;">Remove</th>
                                 <th>Company Name</th>
                                 <th>Symbol</th>
                                 <th>Sector</th>
-                                <th>CMP</th>
-                                <th>52W High</th>
-                                <th>Volume</th>
+                                <th class="col-right">CMP (₹)</th>
+                                <th class="col-right">52W High</th>
+                                <th class="col-right">Volume</th>
                             </tr>
                         </thead>
                         <tbody id="watchlistTableBody">
@@ -7353,6 +7354,48 @@
                 <button class="btn btn-secondary" onclick="closeTvImportModal()">Cancel</button>
                 <button class="btn btn-primary" style="padding: 7px 16px;" onclick="applyTvImport()">⭐ Import &amp; Star</button>
             </div>
+        </div>
+    </div>
+
+    <!-- Watchlist Guest Limit Modal -->
+    <div id="watchlistLimitModal" class="modal-backdrop" onclick="if(event.target === this) closeWatchlistLimitModal()">
+        <div class="modal-box" style="max-width: 440px; text-align: center;">
+            <div class="modal-title" style="border-bottom: none; margin-bottom: 0; justify-content: flex-end;">
+                <button class="modal-close" onclick="closeWatchlistLimitModal()">✕</button>
+            </div>
+            <div style="font-size: 2.6rem; margin: -16px 0 8px;">⭐</div>
+            <h3 style="margin: 0 0 8px; font-size: 1.25rem; font-weight: 800; color: var(--text-primary);">
+                Guest Limit Reached (3 Stocks)
+            </h3>
+            <p style="font-size: 0.84rem; color: var(--text-secondary); line-height: 1.55; margin: 0 0 16px;">
+                You've reached the free guest limit of <strong>3 watchlist scrips</strong>. Sign in with Google to unlock <strong>unlimited watchlists</strong> and real-time cloud sync across your phone and laptop.
+            </p>
+            <div style="background: rgba(59, 130, 246, 0.08); border: 1px solid rgba(59, 130, 246, 0.22); border-radius: 10px; padding: 12px 14px; margin-bottom: 18px; text-align: left; font-size: 0.78rem; color: var(--text-secondary);">
+                <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
+                    <span style="color: var(--accent-emerald); font-weight: 800;">✓</span>
+                    <span><strong>Unlimited</strong> personal watchlist scrips</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
+                    <span style="color: var(--accent-emerald); font-weight: 800;">✓</span>
+                    <span><strong>Real-Time Cloud Sync</strong> across phone &amp; desktop</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <span style="color: var(--accent-emerald); font-weight: 800;">✓</span>
+                    <span><strong>100% Free</strong> • Zero spam • SEBI &amp; DPDP compliant</span>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="closeWatchlistLimitModal(); handleGoogleAuthClick();" style="width: 100%; justify-content: center; padding: 11px; font-size: 0.9rem; font-weight: 700; gap: 10px; margin-bottom: 8px;">
+                <svg viewBox="0 0 24 24" style="width: 18px; height: 18px;">
+                    <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                    <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                    <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                    <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                </svg>
+                Sign in with Google for Unlimited Access
+            </button>
+            <button class="btn btn-secondary" onclick="closeWatchlistLimitModal()" style="width: 100%; justify-content: center; font-size: 0.82rem;">
+                Stay on Free Guest Tier (3 Stocks)
+            </button>
         </div>
     </div>
 
@@ -7918,7 +7961,19 @@
             });
         }
 
-        // 7. Watchlist Management (Zero-Server LocalStorage)
+        // 7. Watchlist Management (Zero-Server LocalStorage + Google Cloud Sync)
+        const GUEST_WATCHLIST_LIMIT = 3;
+
+        function openWatchlistLimitModal(symbol) {
+            const modal = document.getElementById('watchlistLimitModal');
+            if (modal) modal.classList.add('active');
+        }
+
+        function closeWatchlistLimitModal() {
+            const modal = document.getElementById('watchlistLimitModal');
+            if (modal) modal.classList.remove('active');
+        }
+
         function getWatchlist() {
             try {
                 return JSON.parse(localStorage.getItem('stockerboard_watchlist') || '[]');
@@ -7939,11 +7994,17 @@
             if (idx >= 0) {
                 list.splice(idx, 1);
                 showToast(`Removed ${symbol} from watchlist`);
+                saveWatchlist(list);
             } else {
+                if (!currentAuthUser && list.length >= GUEST_WATCHLIST_LIMIT) {
+                    openWatchlistLimitModal(symbol);
+                    showToast('Guest limit reached (3 stocks). Sign in for unlimited! 🔒');
+                    return;
+                }
                 list.push(symbol);
                 showToast(`Added ${symbol} to watchlist ⭐`);
+                saveWatchlist(list);
             }
-            saveWatchlist(list);
         }
 
         function toggleDrawerWatchlist() {
@@ -7953,11 +8014,17 @@
             if (idx >= 0) {
                 list.splice(idx, 1);
                 showToast(`Removed ${currentDrawerSym} from watchlist`);
+                saveWatchlist(list);
             } else {
+                if (!currentAuthUser && list.length >= GUEST_WATCHLIST_LIMIT) {
+                    openWatchlistLimitModal(currentDrawerSym);
+                    showToast('Guest limit reached (3 stocks). Sign in for unlimited! 🔒');
+                    return;
+                }
                 list.push(currentDrawerSym);
                 showToast(`Added ${currentDrawerSym} to watchlist ⭐`);
+                saveWatchlist(list);
             }
-            saveWatchlist(list);
             updateDrawerWatchlistBtn();
         }
 
@@ -7979,7 +8046,15 @@
         function updateWatchlistUI() {
             const list = getWatchlist();
             const counter = document.getElementById('watchlistCount');
-            if (counter) counter.innerText = list.length;
+            if (counter) {
+                if (currentAuthUser) {
+                    counter.innerText = list.length;
+                    counter.style.background = 'var(--accent-blue)';
+                } else {
+                    counter.innerText = `${list.length}/${GUEST_WATCHLIST_LIMIT}`;
+                    counter.style.background = list.length >= GUEST_WATCHLIST_LIMIT ? '#EF4444' : 'rgba(255,255,255,0.12)';
+                }
+            }
             document.querySelectorAll('.star-btn').forEach(btn => {
                 const sym = btn.getAttribute('data-sym');
                 if (list.includes(sym)) {
@@ -7994,7 +8069,34 @@
             const list = getWatchlist();
             const tbody = document.getElementById('watchlistTableBody');
             const emptyState = document.getElementById('watchlistEmptyState');
+            const banner = document.getElementById('watchlistTierBanner');
             tbody.innerHTML = '';
+
+            if (banner) {
+                if (currentAuthUser) {
+                    banner.innerHTML = `
+                        <div style="background: rgba(16, 185, 129, 0.08); border: 1px solid rgba(16, 185, 129, 0.25); border-radius: 8px; padding: 10px 14px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;">
+                            <div style="font-size: 0.8rem; color: var(--accent-emerald); font-weight: 600;">
+                                ☁️ <strong>Unlimited Cloud Watchlist:</strong> Connected to ${currentAuthUser.email || 'Google Account'} • Synced across all devices.
+                            </div>
+                            <span class="status-pulse-pill" style="margin: 0; font-size: 0.72rem; padding: 2px 8px;">UNLIMITED ACTIVE</span>
+                        </div>
+                    `;
+                } else {
+                    const slotsUsed = list.length;
+                    const isMax = slotsUsed >= GUEST_WATCHLIST_LIMIT;
+                    banner.innerHTML = `
+                        <div style="background: ${isMax ? 'rgba(239, 68, 68, 0.08)' : 'rgba(59, 130, 246, 0.08)'}; border: 1px solid ${isMax ? 'rgba(239, 68, 68, 0.28)' : 'rgba(59, 130, 246, 0.22)'}; border-radius: 8px; padding: 10px 14px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;">
+                            <div style="font-size: 0.8rem; color: var(--text-secondary);">
+                                ⭐ <strong>Free Guest Tier:</strong> <strong>${slotsUsed} of ${GUEST_WATCHLIST_LIMIT}</strong> free slots used. ${isMax ? '<span style="color:#EF4444; font-weight:700;">Limit reached.</span>' : ''}
+                            </div>
+                            <button class="btn btn-primary" onclick="handleGoogleAuthClick()" style="padding: 5px 12px; font-size: 0.75rem; font-weight: 700;">
+                                🚀 Sign in with Google for Unlimited
+                            </button>
+                        </div>
+                    `;
+                }
+            }
 
             if (!list.length) {
                 emptyState.style.display = 'block';
@@ -8002,7 +8104,7 @@
             }
             emptyState.style.display = 'none';
 
-            const allStocks = [...APP_DATA.breakouts, ...(APP_DATA.consolidations || []), ...APP_DATA.fundamental_leaders];
+            const allStocks = [...(APP_DATA.market_screener || []), ...APP_DATA.breakouts, ...(APP_DATA.consolidations || []), ...APP_DATA.fundamental_leaders];
             list.forEach(sym => {
                 const stock = allStocks.find(s => s.symbol === sym) || {
                     symbol: sym,
@@ -8017,13 +8119,13 @@
                 tr.className = 'stock-row';
                 tr.onclick = () => openStockDrawer(stock.symbol);
                 tr.innerHTML = `
-                    <td onclick="event.stopPropagation()"><button class="star-btn starred" onclick="toggleWatchlist('${stock.symbol}', this); renderWatchlistTable();">★</button></td>
+                    <td style="text-align: center;" onclick="event.stopPropagation()"><button class="star-btn starred" onclick="toggleWatchlist('${stock.symbol}', this); renderWatchlistTable();">★</button></td>
                     <td><strong>${stock.company_name}</strong></td>
                     <td><span class="sym-badge">${stock.symbol}</span></td>
                     <td><span class="sector-tag">${stock.sector || 'Diversified'}</span></td>
-                    <td class="mono">Rs. ${stock.cmp ? stock.cmp.toLocaleString() : 'N/A'}</td>
-                    <td class="mono">Rs. ${stock.high_52w ? stock.high_52w.toLocaleString() : 'N/A'}</td>
-                    <td class="mono">${stock.volume || 'N/A'}</td>
+                    <td class="col-right mono">₹${stock.cmp ? stock.cmp.toLocaleString() : 'N/A'}</td>
+                    <td class="col-right mono">₹${stock.high_52w ? stock.high_52w.toLocaleString() : 'N/A'}</td>
+                    <td class="col-right mono">${stock.volume || 'N/A'}</td>
                 `;
                 tbody.appendChild(tr);
             });
@@ -8164,6 +8266,8 @@
                 }
                 setSyncStatus('offline');
             }
+            updateWatchlistUI();
+            renderWatchlistTable();
         }
 
         function toggleUserDropdown(e) {
@@ -8292,13 +8396,34 @@
             }
 
             const current = getWatchlist();
-            const updated = Array.from(new Set([...current, ...tokens]));
-            const addedCount = updated.length - current.length;
+            let toAdd = tokens.filter(s => !current.includes(s));
+            let hitLimit = false;
 
+            if (!currentAuthUser) {
+                const availableSlots = Math.max(0, GUEST_WATCHLIST_LIMIT - current.length);
+                if (availableSlots <= 0) {
+                    closeTvImportModal();
+                    openWatchlistLimitModal();
+                    showToast('Guest limit reached (3 stocks). Sign in for unlimited! 🔒');
+                    return;
+                }
+                if (toAdd.length > availableSlots) {
+                    hitLimit = true;
+                    toAdd = toAdd.slice(0, availableSlots);
+                }
+            }
+
+            const updated = Array.from(new Set([...current, ...toAdd]));
             saveWatchlist(updated);
             renderWatchlistTable();
             closeTvImportModal();
-            showToast(`Imported ${addedCount} new ticker(s) ⭐`);
+
+            if (hitLimit) {
+                openWatchlistLimitModal();
+                showToast(`Imported ${toAdd.length} stocks (guest limit of 3). Sign in for unlimited!`);
+            } else {
+                showToast(`Imported ${toAdd.length} symbol(s) into Watchlist ⭐`);
+            }
         }
 
         function copyWatchlistForTradingView() {
