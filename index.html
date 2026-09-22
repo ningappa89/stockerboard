@@ -10521,7 +10521,7 @@
                 if (metricKey === 'return') {
                     const ret = parseFloat(tile.dataset.retRaw || '0');
                     if (valEl) {
-                        valEl.innerText = tile.dataset.return || `${ret:+0.2f}%`;
+                        valEl.innerText = tile.dataset.return || ((ret >= 0 ? '+' : '') + ret.toFixed(2) + '%');
                     }
                     if (ret >= 3.0) {
                         tile.style.background = '#065F46';
