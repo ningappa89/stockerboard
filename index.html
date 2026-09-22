@@ -1975,6 +1975,40 @@
         .journal-input:focus, .journal-select:focus {
             border-color: var(--accent-blue);
         }
+        .journal-quick-chips {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            margin-top: 6px;
+            flex-wrap: wrap;
+        }
+        .quick-chip {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            color: var(--text-muted);
+            font-size: 0.68rem;
+            font-family: 'JetBrains Mono', monospace;
+            padding: 2px 7px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.15s;
+            user-select: none;
+        }
+        .quick-chip:hover {
+            background: rgba(59, 130, 246, 0.2);
+            color: #60A5FA;
+            border-color: #3B82F6;
+        }
+        .quick-chip.sl-chip:hover {
+            background: rgba(239, 68, 68, 0.2);
+            color: #F87171;
+            border-color: #EF4444;
+        }
+        .quick-chip.target-chip:hover {
+            background: rgba(16, 185, 129, 0.2);
+            color: #34D399;
+            border-color: #10B981;
+        }
         .journal-risk-box {
             background: rgba(37, 99, 235, 0.08);
             border: 1px solid rgba(37, 99, 235, 0.25);
@@ -10194,23 +10228,52 @@
 
                     <div class="journal-grid-2">
                         <div class="journal-field">
-                            <label class="journal-label">Planned Entry (₹)</label>
-                            <input type="number" id="journalInputEntry" class="journal-input mono" placeholder="Entry" oninput="calculateJournalRisk()">
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <label class="journal-label">Planned Entry (₹)</label>
+                                <span style="font-size: 0.68rem; font-weight: 600; color: #60A5FA;">🔵 Blue Line</span>
+                            </div>
+                            <input type="number" step="any" id="journalInputEntry" class="journal-input mono" placeholder="Entry" oninput="calculateJournalRisk()">
                         </div>
                         <div class="journal-field">
-                            <label class="journal-label">Stop Loss (₹)</label>
-                            <input type="number" id="journalInputSL" class="journal-input mono" placeholder="Stop Loss" oninput="calculateJournalRisk()">
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <label class="journal-label">Stop Loss (₹)</label>
+                                <span style="font-size: 0.68rem; font-weight: 600; color: #EF4444;">🔴 Red Line</span>
+                            </div>
+                            <input type="number" step="any" id="journalInputSL" class="journal-input mono" placeholder="Stop Loss" oninput="calculateJournalRisk()">
+                            <div class="journal-quick-chips">
+                                <span class="quick-chip sl-chip" onclick="adjustJournalLevel('sl', -2)">-2%</span>
+                                <span class="quick-chip sl-chip" onclick="adjustJournalLevel('sl', -4)">-4%</span>
+                                <span class="quick-chip sl-chip" onclick="adjustJournalLevel('sl', -6)">-6%</span>
+                                <span class="quick-chip sl-chip" onclick="adjustJournalLevel('sl', -8)">-8%</span>
+                            </div>
                         </div>
                     </div>
 
                     <div class="journal-grid-2">
                         <div class="journal-field">
-                            <label class="journal-label">Profit Target (₹)</label>
-                            <input type="number" id="journalInputTarget" class="journal-input mono" placeholder="Target" oninput="calculateJournalRisk()">
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <label class="journal-label">Profit Target (₹)</label>
+                                <span style="font-size: 0.68rem; font-weight: 600; color: #10B981;">🟢 Green Line</span>
+                            </div>
+                            <input type="number" step="any" id="journalInputTarget" class="journal-input mono" placeholder="Target" oninput="calculateJournalRisk()">
+                            <div class="journal-quick-chips">
+                                <span class="quick-chip target-chip" onclick="adjustJournalLevel('target', 5)">+5%</span>
+                                <span class="quick-chip target-chip" onclick="adjustJournalLevel('target', 10)">+10%</span>
+                                <span class="quick-chip target-chip" onclick="adjustJournalLevel('target', 15)">+15%</span>
+                                <span class="quick-chip target-chip" onclick="adjustJournalLevel('target', 20)">+20%</span>
+                            </div>
                         </div>
                         <div class="journal-field">
-                            <label class="journal-label">Risk Budget (₹)</label>
-                            <input type="number" id="journalInputBudget" class="journal-input mono" value="5000" placeholder="Max Risk" oninput="calculateJournalRisk()">
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <label class="journal-label">Risk Budget (₹)</label>
+                                <span style="font-size: 0.68rem; color: var(--text-muted);">Max loss</span>
+                            </div>
+                            <input type="number" step="any" id="journalInputBudget" class="journal-input mono" value="5000" placeholder="Max Risk" oninput="calculateJournalRisk()">
+                            <div class="journal-quick-chips">
+                                <span class="quick-chip" onclick="document.getElementById('journalInputBudget').value=2000; calculateJournalRisk();">₹2k</span>
+                                <span class="quick-chip" onclick="document.getElementById('journalInputBudget').value=5000; calculateJournalRisk();">₹5k</span>
+                                <span class="quick-chip" onclick="document.getElementById('journalInputBudget').value=10000; calculateJournalRisk();">₹10k</span>
+                            </div>
                         </div>
                     </div>
 
@@ -10845,6 +10908,27 @@
             updateChartPriceLines(entry, sl, target);
         }
 
+        // Quick Percentage Level Adjuster for Stop Loss and Target
+        function adjustJournalLevel(type, pct) {
+            const entryInput = document.getElementById('journalInputEntry');
+            const entry = parseFloat(entryInput ? entryInput.value : '0') || 0;
+            if (!entry) return;
+
+            if (type === 'sl') {
+                const slInput = document.getElementById('journalInputSL');
+                if (slInput) {
+                    slInput.value = (entry * (1 + pct / 100)).toFixed(2);
+                    calculateJournalRisk();
+                }
+            } else if (type === 'target') {
+                const targetInput = document.getElementById('journalInputTarget');
+                if (targetInput) {
+                    targetInput.value = (entry * (1 + pct / 100)).toFixed(2);
+                    calculateJournalRisk();
+                }
+            }
+        }
+
         window.addEventListener('resize', () => {
             if (activeTvChart) {
                 const container = document.getElementById('tvChartContainer');
@@ -11295,6 +11379,13 @@
         document.addEventListener('keydown', (e) => {
             const drawer = document.getElementById('stockDrawer');
             if (drawer && drawer.classList.contains('open')) {
+                // If the user is currently editing an input, textarea, or select, do not intercept typing or arrow keys
+                const activeTag = document.activeElement ? document.activeElement.tagName : '';
+                if (['INPUT', 'TEXTAREA', 'SELECT'].includes(activeTag)) {
+                    if (e.key === 'Escape') closeStockDrawer();
+                    return;
+                }
+
                 if (e.key === 'Escape') {
                     closeStockDrawer();
                 } else if (e.key === 'ArrowLeft' || e.key === 'j' || e.key === 'J') {
