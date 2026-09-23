@@ -20,6 +20,14 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-STOCKERBOARD', { send_page_view: true, cookie_flags: 'SameSite=None;Secure' });
+
+        // Initialize flagship features on page load
+        window.addEventListener('DOMContentLoaded', () => {
+            setTimeout(() => {
+                if (typeof initWhatIfSandbox === 'function') initWhatIfSandbox();
+            }, 300);
+        });
+
     </script>
     <!-- Anti-flicker Theme Initializer -->
     <script>
@@ -31,6 +39,14 @@
                 document.documentElement.setAttribute('data-theme', theme);
             } catch(e) {}
         })();
+
+        // Initialize flagship features on page load
+        window.addEventListener('DOMContentLoaded', () => {
+            setTimeout(() => {
+                if (typeof initWhatIfSandbox === 'function') initWhatIfSandbox();
+            }, 300);
+        });
+
     </script>
     <!-- Official TradingView Lightweight Charts Library v4.1.3 -->
     <script src="https://unpkg.com/lightweight-charts@4.1.3/dist/lightweight-charts.standalone.production.js"></script>
@@ -2666,6 +2682,337 @@
             font-size: 0.65rem;
             color: var(--text-muted);
         }
+
+        /* ═══════════════════════════════════════════════════════════════
+           🌟 FLAGSHIP FEATURES: EOD ACTION RADAR, WHAT-IF SANDBOX, EDGE MATRIX
+           ═══════════════════════════════════════════════════════════════ */
+        /* --- Feature 1: EOD Action Radar --- */
+        .action-radar-box {
+            background: linear-gradient(135deg, rgba(30, 41, 59, 0.7), rgba(15, 23, 42, 0.9));
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            border-radius: 14px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(10px);
+        }
+        .action-radar-hdr {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 16px;
+            border-bottom: 1px solid var(--border-subtle);
+            padding-bottom: 12px;
+        }
+        .action-radar-title {
+            font-size: 1.15rem;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--text-primary);
+        }
+        .action-radar-kpis {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 12px;
+            margin-bottom: 18px;
+        }
+        .action-radar-kpi-card {
+            background: var(--bg-surface-elevated);
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            padding: 12px 14px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .action-radar-kpi-lbl {
+            font-size: 0.72rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+        .action-radar-kpi-val {
+            font-size: 1.25rem;
+            font-weight: 800;
+            font-family: var(--font-mono);
+            color: var(--text-primary);
+        }
+        .radar-directives-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .radar-directive-card {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 12px;
+            padding: 14px 16px;
+            border-radius: 10px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            transition: all 0.2s ease;
+        }
+        .radar-directive-card:hover {
+            border-color: rgba(59, 130, 246, 0.4);
+            transform: translateY(-1px);
+        }
+        .directive-exit {
+            border-left: 4px solid #EF4444;
+            background: rgba(239, 68, 68, 0.06);
+        }
+        .directive-trail {
+            border-left: 4px solid #F59E0B;
+            background: rgba(245, 158, 11, 0.06);
+        }
+        .directive-stagnant {
+            border-left: 4px solid #8B5CF6;
+            background: rgba(139, 92, 246, 0.06);
+        }
+        .directive-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.72rem;
+            font-weight: 800;
+            padding: 3px 8px;
+            border-radius: 6px;
+            text-transform: uppercase;
+        }
+        .pill-exit { background: rgba(239, 68, 68, 0.2); color: #F87171; border: 1px solid rgba(239, 68, 68, 0.4); }
+        .pill-trail { background: rgba(245, 158, 11, 0.2); color: #FBBF24; border: 1px solid rgba(245, 158, 11, 0.4); }
+        .pill-stagnant { background: rgba(139, 92, 246, 0.2); color: #C084FC; border: 1px solid rgba(139, 92, 246, 0.4); }
+        .pill-ok { background: rgba(16, 185, 129, 0.2); color: #34D399; border: 1px solid rgba(16, 185, 129, 0.4); }
+
+        /* --- Feature 2: What-If Portfolio Sandbox --- */
+        .whatif-sandbox-box {
+            background: linear-gradient(135deg, rgba(30, 41, 59, 0.65), rgba(15, 23, 42, 0.85));
+            border: 1px solid rgba(16, 185, 129, 0.25);
+            border-radius: 14px;
+            padding: 20px;
+            margin-bottom: 24px;
+            backdrop-filter: blur(10px);
+        }
+        .whatif-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.35fr;
+            gap: 20px;
+            margin-top: 16px;
+        }
+        @media (max-width: 900px) {
+            .whatif-grid { grid-template-columns: 1fr; }
+        }
+        .whatif-input-pane {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .whatif-field {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .whatif-lbl {
+            font-size: 0.74rem;
+            font-weight: 700;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+        }
+        .whatif-input, .whatif-select {
+            width: 100%;
+            background: var(--bg-surface-elevated);
+            border: 1px solid var(--border-subtle);
+            color: var(--text-primary);
+            border-radius: 8px;
+            padding: 8px 12px;
+            font-size: 0.86rem;
+            font-weight: 600;
+            outline: none;
+            transition: all 0.2s;
+        }
+        .whatif-input:focus, .whatif-select:focus {
+            border-color: var(--accent-emerald);
+            box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.15);
+        }
+        .whatif-results-pane {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+        .whatif-kpi-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+            gap: 10px;
+        }
+        .whatif-metric-card {
+            background: var(--bg-surface-elevated);
+            border: 1px solid var(--border-subtle);
+            border-radius: 8px;
+            padding: 10px 12px;
+        }
+        .whatif-metric-lbl {
+            font-size: 0.68rem;
+            color: var(--text-muted);
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .whatif-metric-val {
+            font-size: 1.05rem;
+            font-weight: 800;
+            font-family: var(--font-mono);
+            margin-top: 2px;
+        }
+        .whatif-delta {
+            font-size: 0.72rem;
+            font-weight: 700;
+            margin-left: 4px;
+        }
+        .delta-up { color: #34D399; }
+        .delta-down { color: #F87171; }
+        .delta-warn { color: #FBBF24; }
+
+        .fit-score-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.86rem;
+            font-weight: 800;
+            padding: 4px 12px;
+            border-radius: 8px;
+            font-family: var(--font-mono);
+        }
+        .fit-a { background: rgba(16, 185, 129, 0.2); color: #34D399; border: 1px solid rgba(16, 185, 129, 0.4); }
+        .fit-b { background: rgba(59, 130, 246, 0.2); color: #60A5FA; border: 1px solid rgba(59, 130, 246, 0.4); }
+        .fit-c { background: rgba(245, 158, 11, 0.2); color: #FBBF24; border: 1px solid rgba(245, 158, 11, 0.4); }
+        .fit-d { background: rgba(239, 68, 68, 0.2); color: #F87171; border: 1px solid rgba(239, 68, 68, 0.4); }
+
+        /* --- Feature 3: Edge Matrix & Capital Leak Detector --- */
+        .edge-hero-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 14px;
+            margin-bottom: 20px;
+        }
+        .edge-hero-card {
+            background: var(--bg-surface-elevated);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .edge-hero-lbl {
+            font-size: 0.72rem;
+            font-weight: 700;
+            color: var(--text-muted);
+            text-transform: uppercase;
+        }
+        .edge-hero-val {
+            font-size: 1.45rem;
+            font-weight: 800;
+            font-family: var(--font-mono);
+            color: var(--text-primary);
+        }
+        .badge-scaleup {
+            background: rgba(16, 185, 129, 0.15);
+            color: #34D399;
+            border: 1px solid rgba(16, 185, 129, 0.35);
+            font-size: 0.72rem;
+            font-weight: 800;
+            padding: 3px 8px;
+            border-radius: 6px;
+            display: inline-block;
+        }
+        .badge-maintain {
+            background: rgba(59, 130, 246, 0.15);
+            color: #60A5FA;
+            border: 1px solid rgba(59, 130, 246, 0.35);
+            font-size: 0.72rem;
+            font-weight: 800;
+            padding: 3px 8px;
+            border-radius: 6px;
+            display: inline-block;
+        }
+        .badge-review {
+            background: rgba(239, 68, 68, 0.15);
+            color: #F87171;
+            border: 1px solid rgba(239, 68, 68, 0.35);
+            font-size: 0.72rem;
+            font-weight: 800;
+            padding: 3px 8px;
+            border-radius: 6px;
+            display: inline-block;
+        }
+        .leak-detector-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 14px;
+            margin-top: 14px;
+        }
+        .leak-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            padding: 14px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .leak-card-hdr {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.78rem;
+            font-weight: 700;
+        }
+        .leak-cost-val {
+            font-size: 1.25rem;
+            font-weight: 800;
+            font-family: var(--font-mono);
+            color: #F87171;
+        }
+        .leak-card-desc {
+            font-size: 0.73rem;
+            color: var(--text-muted);
+            line-height: 1.4;
+        }
+        .discipline-gauge-wrap {
+            margin-top: 16px;
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            padding: 16px;
+        }
+        .discipline-progress-track {
+            height: 10px;
+            background: var(--bg-surface-elevated);
+            border-radius: 5px;
+            overflow: hidden;
+            margin: 10px 0;
+            border: 1px solid var(--border-subtle);
+        }
+        .discipline-progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #3B82F6, #10B981);
+            transition: width 0.4s ease;
+        }
+
     </style>
 </head>
 <body>
@@ -2812,13 +3159,13 @@
                 ⭐ My Watchlist <span class="tab-counter" id="watchlistCount">0</span>
             </button>
             <button class="tab-btn" onclick="switchTab('tab-radar', this)" id="tabBtnRadar">
-                🧠 Strategy Radar
+                🧠 Edge Matrix & Leaks
             </button>
             <button class="tab-btn" onclick="switchTab('tab-exitladder', this)" id="tabBtnLadder">
-                🪜 Exit Ladder
+                ⚡ 3:30 PM Action Radar & Ladder
             </button>
             <button class="tab-btn" onclick="switchTab('tab-riskshield', this)" id="tabBtnShield">
-                🛡️ Risk Shield
+                🛡️ Risk Shield & What-If Sandbox
             </button>
         </div>
 
@@ -10783,13 +11130,13 @@
                         <div class="table-responsive">
                             <table id="radarSetupTable">
                                 <thead><tr>
-                                    <th>Setup / Strategy</th>
-                                    <th class="col-right">Setups</th>
-                                    <th class="col-right">Targets Hit</th>
+                                    <th>Setup / Strategy Pattern</th>
+                                    <th class="col-right">Closed Trades</th>
                                     <th class="col-right">Win Rate</th>
-                                    <th class="col-right">Avg R:R</th>
-                                    <th class="col-right">Profit Factor</th>
-                                    <th class="col-right">Discipline</th>
+                                    <th class="col-right">Avg Win (R)</th>
+                                    <th class="col-right">Avg Loss (R)</th>
+                                    <th class="col-right">Expectancy (E)</th>
+                                    <th class="col-right">Prescriptive Directive</th>
                                 </tr></thead>
                                 <tbody id="radarSetupTableBody"></tbody>
                             </table>
@@ -10798,6 +11145,68 @@
                             📓 Log your first trade in <strong>Decision Journal</strong> to see your Strategy Radar populate here.
                         </div>
                     </div>
+                    <!-- 💸 Feature 3: Behavioral Capital Leak Detector -->
+                    <div class="leak-detector-section" id="leakDetectorSection" style="margin-top:24px; border-top:1px solid var(--border-subtle); padding-top:18px;">
+                        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+                            <div>
+                                <div style="font-weight:800; font-size:1.05rem; color:#F87171; display:flex; align-items:center; gap:8px;">
+                                    💸 Behavioral Capital Leak Detector
+                                </div>
+                                <div style="font-size:0.75rem; color:var(--text-muted); margin-top:2px;">
+                                    Quantifies the exact rupee cost of unforced trader execution errors across your closed journal setups.
+                                </div>
+                            </div>
+                            <div style="font-size:0.8rem; font-weight:700; color:var(--text-primary); font-family:var(--font-mono);">
+                                Total Leaked: <span id="leakTotalAmount" style="color:#F87171; font-size:1.05rem;">₹0</span>
+                            </div>
+                        </div>
+
+                        <div class="leak-detector-grid">
+                            <div class="leak-card">
+                                <div class="leak-card-hdr">
+                                    <span style="color:#F87171;">🛑 Stop Widening / Indecision</span>
+                                    <span class="mono" id="leakStopWideningVal">₹0</span>
+                                </div>
+                                <div class="leak-card-desc">
+                                    Rupee loss incurred beyond initial planned stop-loss (exited lower than planned 1R risk).
+                                </div>
+                            </div>
+                            <div class="leak-card">
+                                <div class="leak-card-hdr">
+                                    <span style="color:#FBBF24;">⏳ Premature Winner Exit</span>
+                                    <span class="mono" id="leakPrematureVal">₹0</span>
+                                </div>
+                                <div class="leak-card-desc">
+                                    Money left on table by cutting winning momentum setups before reaching minimum 1.5R target.
+                                </div>
+                            </div>
+                            <div class="leak-card">
+                                <div class="leak-card-hdr">
+                                    <span style="color:#A78BFA;">🎲 Off-Playbook Trades</span>
+                                    <span class="mono" id="leakOffPlaybookVal">₹0</span>
+                                </div>
+                                <div class="leak-card-desc">
+                                    Net losses on unvetted, impulsive trades taken outside your defined strategy playbook.
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Discipline Consistency Gauge -->
+                        <div class="discipline-gauge-wrap">
+                            <div style="display:flex; justify-content:space-between; align-items:center;">
+                                <span style="font-size:0.78rem; font-weight:700; text-transform:uppercase; color:var(--text-secondary);">Execution Discipline Score</span>
+                                <span style="font-size:1.05rem; font-weight:800; font-family:var(--font-mono); color:#34D399;" id="disciplineScoreVal">100%</span>
+                            </div>
+                            <div class="discipline-progress-track">
+                                <div class="discipline-progress-fill" id="disciplineProgressFill" style="width: 100%;"></div>
+                            </div>
+                            <div style="font-size:0.73rem; color:var(--text-muted); display:flex; justify-content:space-between;">
+                                <span>Target: &ge; 90% Rules Adherence</span>
+                                <span id="disciplineBadgeText">Flawless Process Execution</span>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -10813,6 +11222,48 @@
                     <button class="btn btn-secondary" onclick="refreshExitLadder()" style="font-size: 0.78rem; padding: 5px 12px;">🔄 Refresh</button>
                 </div>
                 <div style="padding: 16px;">
+                <!-- ⚡ Feature 1: Daily EOD Action Radar (The 3:30 PM Ritual) -->
+                <div class="action-radar-box" id="actionRadarBox">
+                    <div class="action-radar-hdr">
+                        <div>
+                            <div class="action-radar-title">⚡ Daily EOD Action Radar <span style="font-size:0.75rem; font-weight:600; padding:2px 8px; border-radius:6px; background:rgba(59,130,246,0.2); color:#60A5FA;">The 3:30 PM Ritual</span></div>
+                            <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 3px;">Daily rule-invalidation audit against settled EOD Bhavcopy facts. Flags mandatory exits, profit lock trailing, and stagnant capital. Zero live streaming, 100% compliant.</div>
+                        </div>
+                        <button class="btn btn-secondary" onclick="refreshEODActionRadar()" style="font-size: 0.76rem; padding: 4px 10px;">⚡ Run 3:30 PM Audit</button>
+                    </div>
+
+                    <div class="action-radar-kpis" id="actionRadarKPIs">
+                        <div class="action-radar-kpi-card">
+                            <span class="action-radar-kpi-lbl">Active Audited Setups</span>
+                            <span class="action-radar-kpi-val" id="radarKpiActive">0</span>
+                        </div>
+                        <div class="action-radar-kpi-card" style="border-color: rgba(239, 68, 68, 0.4);">
+                            <span class="action-radar-kpi-lbl" style="color: #F87171;">🔴 Rule Invalidation Exits</span>
+                            <span class="action-radar-kpi-val" id="radarKpiInvalidated" style="color: #F87171;">0</span>
+                        </div>
+                        <div class="action-radar-kpi-card" style="border-color: rgba(245, 158, 11, 0.4);">
+                            <span class="action-radar-kpi-lbl" style="color: #FBBF24;">🟡 Trailing / Profit Locks</span>
+                            <span class="action-radar-kpi-val" id="radarKpiTrailing" style="color: #FBBF24;">0</span>
+                        </div>
+                        <div class="action-radar-kpi-card">
+                            <span class="action-radar-kpi-lbl">Overnight Value-at-Risk</span>
+                            <span class="action-radar-kpi-val" id="radarKpiVaR">₹0 (0%)</span>
+                        </div>
+                    </div>
+
+                    <div class="radar-directives-grid" id="actionRadarDirectivesList">
+                        <!-- Directives injected via JavaScript -->
+                    </div>
+
+                    <div id="radarAllClearMsg" style="display:none; text-align:center; padding:16px; background:rgba(16,185,129,0.08); border:1px solid rgba(16,185,129,0.25); border-radius:8px; color:#34D399; font-size:0.82rem; font-weight:600;">
+                        ✓ All active positions are fully compliant with your stop-loss & momentum rules. Zero invalidations detected as of today's settled close.
+                    </div>
+                </div>
+
+                <!-- Existing Milestone Ladder Header -->
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; margin-top:20px;">
+                    <div style="font-weight:700; font-size:0.92rem; color:var(--text-primary);">🪜 Visual Milestone Ladder (SL / T1 / T2 / Runner)</div>
+                </div>
                     <div class="exit-ladder-stats" id="ladderStats"></div>
                     <div id="ladderCardGrid" class="ladder-card-grid"></div>
                     <div class="ladder-empty-state" id="ladderEmptyState" style="display:none;">
@@ -10835,6 +11286,135 @@
                     <button class="btn btn-secondary" onclick="refreshRiskShield()" style="font-size: 0.78rem; padding: 5px 12px;">🔄 Refresh</button>
                 </div>
                 <div style="padding: 16px;" id="riskShieldContent">
+                <!-- 🔬 Feature 2: Interactive What-If Portfolio Sandbox & Shock Simulator -->
+                <div class="whatif-sandbox-box" id="whatifSandboxBox">
+                    <div class="action-radar-hdr">
+                        <div>
+                            <div class="action-radar-title" style="color:#34D399;">🔬 Interactive "What-If" Portfolio Sandbox & Shock Simulator</div>
+                            <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 3px;">Pre-trade stress test. Simulate candidate position sizing, sector concentration shift, portfolio beta, and historical shock drawdowns before risking 1 rupee.</div>
+                        </div>
+                        <span id="whatifFitBadge" class="fit-score-badge fit-a">Score: A (Balanced Fit)</span>
+                    </div>
+
+                    <div class="whatif-grid">
+                        <!-- Left Pane: Candidate Inputs -->
+                        <div class="whatif-input-pane">
+                            <div style="font-weight:700; font-size:0.86rem; border-bottom:1px solid var(--border-subtle); padding-bottom:8px; margin-bottom:4px; display:flex; justify-content:space-between; align-items:center;">
+                                <span>Candidate Parameters</span>
+                                <span style="font-size:0.72rem; color:var(--text-muted);">Client-Side Math</span>
+                            </div>
+
+                            <div class="whatif-field">
+                                <label class="whatif-lbl">Select Stock Candidate</label>
+                                <select id="whatifStockSelect" class="whatif-select" onchange="onWhatIfSymbolChange()">
+                                    <!-- Populated dynamically via JS -->
+                                </select>
+                            </div>
+
+                            <div style="display:grid; grid-template-columns: 1fr 1fr; gap:10px;">
+                                <div class="whatif-field">
+                                    <label class="whatif-lbl">Entry Price (₹)</label>
+                                    <input type="number" id="whatifEntry" class="whatif-input" step="0.05" oninput="runWhatIfSimulation()">
+                                </div>
+                                <div class="whatif-field">
+                                    <label class="whatif-lbl">Stop Loss (₹)</label>
+                                    <input type="number" id="whatifSL" class="whatif-input" step="0.05" oninput="runWhatIfSimulation()">
+                                </div>
+                            </div>
+
+                            <div class="whatif-field">
+                                <div style="display:flex; justify-content:space-between; align-items:center;">
+                                    <label class="whatif-lbl">Proposed Allocation (₹)</label>
+                                    <span id="whatifRiskAmountDisp" style="font-size:0.72rem; font-weight:700; color:#F87171;">Max Risk: ₹0</span>
+                                </div>
+                                <input type="number" id="whatifCapital" class="whatif-input" value="50000" step="5000" oninput="runWhatIfSimulation()">
+                                <div style="display:flex; gap:6px; margin-top:4px;">
+                                    <button class="btn btn-secondary" onclick="setWhatIfCapital(25000)" style="font-size:0.68rem; padding:2px 8px; flex:1;">₹25K</button>
+                                    <button class="btn btn-secondary" onclick="setWhatIfCapital(50000)" style="font-size:0.68rem; padding:2px 8px; flex:1;">₹50K</button>
+                                    <button class="btn btn-secondary" onclick="setWhatIfCapital(100000)" style="font-size:0.68rem; padding:2px 8px; flex:1;">₹1 Lakh</button>
+                                    <button class="btn btn-secondary" onclick="setWhatIfCapital(200000)" style="font-size:0.68rem; padding:2px 8px; flex:1;">₹2 Lakh</button>
+                                </div>
+                            </div>
+
+                            <div class="whatif-field">
+                                <label class="whatif-lbl">Playbook Setup Pattern</label>
+                                <select id="whatifSetup" class="whatif-select">
+                                    <option value="52W High Breakout">🚀 52W High Breakout</option>
+                                    <option value="VCP Contraction">🌪️ VCP Contraction</option>
+                                    <option value="Pocket Pivot">⚡ Pocket Pivot</option>
+                                    <option value="Stage 2 Momentum">📈 Stage 2 Momentum</option>
+                                    <option value="High Quality Compounder">💎 High Quality Compounder</option>
+                                </select>
+                            </div>
+
+                            <button class="btn btn-primary" onclick="logWhatIfToJournal()" style="margin-top:6px; font-weight:700; font-size:0.82rem; padding:9px;">
+                                📥 Transfer Candidate to Decision Journal
+                            </button>
+                        </div>
+
+                        <!-- Right Pane: Real-Time Portfolio Impact & Stress Test -->
+                        <div class="whatif-results-pane">
+                            <div style="font-weight:700; font-size:0.86rem; border-bottom:1px solid var(--border-subtle); padding-bottom:8px; display:flex; justify-content:space-between; align-items:center;">
+                                <span>Portfolio Impact (Before vs. After)</span>
+                                <span id="whatifSectorWarning" style="font-size:0.72rem; color:#FBBF24; display:none;">⚠️ Sector Limit &gt; 25%</span>
+                            </div>
+
+                            <div class="whatif-kpi-row">
+                                <div class="whatif-metric-card">
+                                    <div class="whatif-metric-lbl">Target Sector Share</div>
+                                    <div class="whatif-metric-val" id="whatifSectorImpact">0% → 0%</div>
+                                    <div style="font-size:0.68rem; color:var(--text-muted); margin-top:2px;" id="whatifSectorName">Sector</div>
+                                </div>
+                                <div class="whatif-metric-card">
+                                    <div class="whatif-metric-lbl">Cash Reserve Buffer</div>
+                                    <div class="whatif-metric-val" id="whatifCashImpact">25% → 20%</div>
+                                    <div style="font-size:0.68rem; color:var(--text-muted); margin-top:2px;">Target: &ge; 15%</div>
+                                </div>
+                                <div class="whatif-metric-card">
+                                    <div class="whatif-metric-lbl">Portfolio Beta</div>
+                                    <div class="whatif-metric-val" id="whatifBetaImpact">0.98 → 1.04</div>
+                                    <div style="font-size:0.68rem; color:var(--text-muted); margin-top:2px;">vs. Nifty 50</div>
+                                </div>
+                                <div class="whatif-metric-card">
+                                    <div class="whatif-metric-lbl">Single-Position Risk</div>
+                                    <div class="whatif-metric-val" id="whatifRiskImpact">1.0%</div>
+                                    <div style="font-size:0.68rem; color:var(--text-muted); margin-top:2px;">Max 2.0% Cap</div>
+                                </div>
+                            </div>
+
+                            <!-- Historical Shock Scenarios Box -->
+                            <div style="background:var(--bg-surface-elevated); border:1px solid var(--border-subtle); border-radius:8px; padding:12px;">
+                                <div style="font-size:0.76rem; font-weight:700; color:var(--text-secondary); text-transform:uppercase; margin-bottom:8px; display:flex; justify-content:space-between;">
+                                    <span>Historical Shock Scenarios</span>
+                                    <span>Simulated Portfolio Loss</span>
+                                </div>
+                                <div style="display:flex; flex-direction:column; gap:6px;">
+                                    <div style="display:flex; justify-content:space-between; align-items:center; font-size:0.78rem;">
+                                        <span>📉 <strong>Nifty 50 Flash Crash (-5%)</strong></span>
+                                        <span class="mono delta-down" id="shockNiftyDrop">-₹12,400 (-2.48%)</span>
+                                    </div>
+                                    <div style="display:flex; justify-content:space-between; align-items:center; font-size:0.78rem;">
+                                        <span>🌪️ <strong>Midcap/Smallcap Unwind (-10%)</strong></span>
+                                        <span class="mono delta-down" id="shockMidcapDrop">-₹24,800 (-4.96%)</span>
+                                    </div>
+                                    <div style="display:flex; justify-content:space-between; align-items:center; font-size:0.78rem;">
+                                        <span>⚡ <strong>Catastrophe Stop Slip (1.5x SL Gap)</strong></span>
+                                        <span class="mono delta-down" id="shockStopSlip">-₹7,500</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div style="font-size:0.72rem; color:var(--text-muted); line-height:1.4;">
+                                💡 <strong>Fit Assessment:</strong> <span id="whatifFitNote">Optimal position size. Sector exposure remains well within the 25% institutional risk ceiling.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Existing Risk Shield Overview Section -->
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; margin-top:20px;">
+                    <div style="font-weight:700; font-size:0.92rem; color:var(--text-primary);">🛡️ Portfolio Heat Map & Active Risk Register</div>
+                </div>
                     <div class="shield-summary-grid" id="shieldSummaryGrid"></div>
                     <div class="shield-gauge-section">
                         <div class="shield-gauge-title">📊 Setup Allocation by Strategy Type</div>
@@ -11110,6 +11690,7 @@
                 </div>
                 <div style="display: flex; align-items: center; gap: 6px;">
                     <button class="btn btn-secondary" onclick="openCalculatorForCurrentDrawerStock()" style="font-size: 0.72rem; padding: 4px 8px; border-color: rgba(59,130,246,0.3); color: #60A5FA;" title="Open in 3:1 Position Sizer">🎯 Size in Playbook</button>
+                    <button class="btn btn-secondary" onclick="openWhatIfForCurrentDrawerStock()" style="font-size: 0.72rem; padding: 4px 8px; border-color: rgba(16,185,129,0.3); color: #34D399;" title="Simulate Portfolio Shock & Allocation">🔬 What-If Test</button>
                     <button class="drawer-nav-btn" onclick="navigateDrawerStock(-1)" title="Previous Stock (Arrow Left or J)">◀</button>
                     <button class="drawer-nav-btn" onclick="navigateDrawerStock(1)" title="Next Stock (Arrow Right or K)">▶</button>
                     <button class="drawer-btn-fullscreen" id="drawerFullscreenBtn" onclick="toggleChartFullscreen()" title="Toggle Fullscreen Studio Mode">⛶ Studio Mode</button>
@@ -11549,8 +12130,15 @@
             const target = document.getElementById(tabId);
             if (target) target.classList.add('active');
             if (btn) btn.classList.add('active');
+            else {
+                const matchedBtn = document.querySelector(`.tab-btn[onclick*="${tabId}"]`);
+                if (matchedBtn) matchedBtn.classList.add('active');
+            }
             if (tabId === 'tab-watchlist') renderWatchlistTable();
             if (tabId === 'tab-journal') updateJournalUI();
+            if (tabId === 'tab-radar') refreshRadar();
+            if (tabId === 'tab-exitladder') refreshExitLadder();
+            if (tabId === 'tab-riskshield') refreshRiskShield();
             trackEvent('tab_switched', { tab_id: tabId });
         }
 
@@ -13732,91 +14320,341 @@
             try { return JSON.parse(localStorage.getItem('stockerboard_decision_journal') || '[]'); } catch(e) { return []; }
         }
 
+
+        // ── Helper: Unified Stock Lookup Across Screener Universe ──
+        function getStockBySymbol(sym) {
+            if (!sym) return null;
+            const sUpper = sym.trim().toUpperCase();
+            if (!window._stockLookupMap) {
+                window._stockLookupMap = {};
+                const pool = [
+                    ...(APP_DATA.market_screener || []),
+                    ...(APP_DATA.breakouts || []),
+                    ...(APP_DATA.consolidations || []),
+                    ...(APP_DATA.fundamental_leaders || [])
+                ];
+                pool.forEach(stk => {
+                    if (stk && stk.symbol) {
+                        window._stockLookupMap[stk.symbol.toUpperCase()] = stk;
+                    }
+                });
+            }
+            return window._stockLookupMap[sUpper] || null;
+        }
+
         function refreshRadar() {
             const entries = getJournalEntries();
             const heroEl = document.getElementById('radarHeroCards');
             const tbodyEl = document.getElementById('radarSetupTableBody');
             const noDataEl = document.getElementById('radarNoData');
-            if (!heroEl || !tbodyEl) return;
+            if (!tbodyEl) return;
 
-            // Group by setup type
+            // Group closed setups
             const groups = {};
+            let totalLeaks = 0;
+            let stopWideningCost = 0;
+            let prematureExitCost = 0;
+            let offPlaybookCost = 0;
+            let compliantTradesCount = 0;
+            let closedTradesCount = 0;
+
             entries.forEach(e => {
                 const key = (e.setup || e.strategy || 'Untagged').trim();
-                if (!groups[key]) groups[key] = { total: 0, wins: 0, stopped: 0, totalRR: 0, honoredSL: 0 };
-                const g = groups[key];
-                g.total++;
-                const rr = parseFloat(e.rr_ratio) || 0;
-                g.totalRR += rr;
-                if ((e.status || '').toLowerCase() === 'target') g.wins++;
-                if ((e.status || '').toLowerCase() === 'stopped') { g.stopped++; g.honoredSL++; }
+                const status = (e.status || 'active').toLowerCase();
+                const isClosed = status === 'target' || status === 'stopped' || status === 'closed' || status === 'archived';
+                
+                if (isClosed) {
+                    closedTradesCount++;
+                    if (!groups[key]) groups[key] = { total: 0, wins: 0, losses: 0, totalWinR: 0, totalLossR: 0, totalPnL: 0 };
+                    const g = groups[key];
+                    g.total++;
+
+                    const entry = parseFloat(e.entry) || 0;
+                    const sl = parseFloat(e.stop_loss || e.sl) || 0;
+                    const exit = parseFloat(e.exitPrice) || (status === 'target' ? parseFloat(e.target || 0) : sl);
+                    const riskPerShare = Math.max(0.01, entry - sl);
+                    const qty = parseFloat(e.recQty) || (entry > 0 ? Math.floor((parseFloat(e.budget) || 50000) / entry) : 0);
+                    const planned1R = qty * riskPerShare;
+
+                    let tradeFollowedRules = true;
+
+                    if (status === 'target' || exit >= entry) {
+                        g.wins++;
+                        const rAchieved = Math.max(0.5, (exit - entry) / riskPerShare);
+                        g.totalWinR += rAchieved;
+                        if (rAchieved < 1.5 && rAchieved > 0.2) {
+                            const missedGain = (1.5 - rAchieved) * planned1R;
+                            prematureExitCost += Math.round(missedGain);
+                            tradeFollowedRules = false;
+                        }
+                    } else {
+                        g.losses++;
+                        const rLost = Math.max(1.0, (entry - exit) / riskPerShare);
+                        g.totalLossR += rLost;
+                        if (exit < sl && sl > 0) {
+                            const extraLoss = (sl - exit) * qty;
+                            stopWideningCost += Math.round(extraLoss);
+                            tradeFollowedRules = false;
+                        }
+                    }
+
+                    if (key.toLowerCase().includes('untagged') || key.toLowerCase().includes('impulsive')) {
+                        const tradeLoss = Math.max(0, (entry - exit) * qty);
+                        offPlaybookCost += Math.round(tradeLoss);
+                        tradeFollowedRules = false;
+                    }
+
+                    if (tradeFollowedRules) compliantTradesCount++;
+                }
             });
 
-            const sortedKeys = Object.keys(groups).sort((a,b) => {
-                const wr_a = groups[a].total > 0 ? groups[a].wins / groups[a].total : 0;
-                const wr_b = groups[b].total > 0 ? groups[b].wins / groups[b].total : 0;
-                return wr_b - wr_a;
-            });
+            totalLeaks = stopWideningCost + prematureExitCost + offPlaybookCost;
+            const disciplineScore = closedTradesCount > 0 ? Math.round((compliantTradesCount / closedTradesCount) * 100) : 100;
 
-            if (sortedKeys.length === 0) {
-                heroEl.innerHTML = '';
-                tbodyEl.innerHTML = '';
-                if (noDataEl) noDataEl.style.display = 'block';
-                return;
+            const leakTotalEl = document.getElementById('leakTotalAmount');
+            if (leakTotalEl) leakTotalEl.textContent = '₹' + totalLeaks.toLocaleString();
+            const leakStopEl = document.getElementById('leakStopWideningVal');
+            if (leakStopEl) leakStopEl.textContent = '₹' + stopWideningCost.toLocaleString();
+            const leakPrematureEl = document.getElementById('leakPrematureVal');
+            if (leakPrematureEl) leakPrematureEl.textContent = '₹' + prematureExitCost.toLocaleString();
+            const leakOffEl = document.getElementById('leakOffPlaybookVal');
+            if (leakOffEl) leakOffEl.textContent = '₹' + offPlaybookCost.toLocaleString();
+
+            const discScoreEl = document.getElementById('disciplineScoreVal');
+            if (discScoreEl) discScoreEl.textContent = disciplineScore + '%';
+            const discFillEl = document.getElementById('disciplineProgressFill');
+            if (discFillEl) discFillEl.style.width = disciplineScore + '%';
+            const discTextEl = document.getElementById('disciplineBadgeText');
+            if (discTextEl) {
+                discTextEl.textContent = disciplineScore >= 90 ? 'Institutional Grade Adherence' : disciplineScore >= 70 ? 'Moderate Rule Adherence' : 'Action Required: Reduce Unforced Errors';
             }
-            if (noDataEl) noDataEl.style.display = 'none';
 
-            const stratColors = { vcp:'#10B981', pivot:'#0284C7', stage2:'#7C3AED', compounder:'#F59E0B', confluence:'#F59E0B' };
-            const stratCard   = { vcp:'card-vcp', pivot:'card-pivot', stage2:'card-stage2', compounder:'card-compounder', confluence:'card-confluence' };
+            let keys = Object.keys(groups);
+            let isBenchmark = false;
+            if (keys.length === 0) {
+                isBenchmark = true;
+                groups['52W Breakout'] = { total: 12, wins: 7, losses: 5, totalWinR: 18.2, totalLossR: 5.0 };
+                groups['VCP Contraction'] = { total: 8, wins: 5, losses: 3, totalWinR: 12.5, totalLossR: 3.0 };
+                groups['Pocket Pivot'] = { total: 6, wins: 3, losses: 3, totalWinR: 6.9, totalLossR: 3.0 };
+                groups['Stage 2 Momentum'] = { total: 5, wins: 2, losses: 3, totalWinR: 4.0, totalLossR: 3.0 };
+                keys = Object.keys(groups);
+            }
 
-            // Hero cards for top-5
-            heroEl.innerHTML = sortedKeys.slice(0, 5).map(key => {
-                const g = groups[key];
-                const wr = g.total > 0 ? Math.round((g.wins / g.total) * 100) : 0;
-                const avgRR = g.total > 0 ? (g.totalRR / g.total).toFixed(1) : '—';
-                const pf = g.wins > 0 && g.stopped > 0 ? (g.wins / g.stopped).toFixed(2) : (g.wins > 0 ? '∞' : '0');
-                const slug = key.toLowerCase().replace(/\s+/g, '');
-                const cardCls = stratCard[slug] || '';
-                const color = stratColors[slug] || '#60A5FA';
-                const wrColor = wr >= 60 ? '#34D399' : wr >= 40 ? '#FBBF24' : '#F87171';
-                return `<div class="radar-hero-card ${cardCls}">
-                    <div class="radar-strat-name">${key}</div>
-                    <div class="radar-winrate" style="color:${wrColor}">${wr}%</div>
-                    <div class="radar-sublabel">Win Rate &bull; ${g.total} setups</div>
-                    <div class="radar-bar-wrap">
-                        <div class="radar-bar-track">
-                            <div class="radar-bar-fill" style="width:${wr}%;background:${color};"></div>
+            const setupStats = keys.map(k => {
+                const g = groups[k];
+                const wr = g.total > 0 ? (g.wins / g.total) : 0;
+                const avgWinR = g.wins > 0 ? (g.totalWinR / g.wins) : 2.2;
+                const avgLossR = g.losses > 0 ? (g.totalLossR / g.losses) : 1.0;
+                const expectancy = (wr * avgWinR) - ((1 - wr) * avgLossR);
+                return {
+                    setup: k,
+                    total: g.total,
+                    wins: g.wins,
+                    losses: g.losses,
+                    wr: wr,
+                    avgWinR: avgWinR,
+                    avgLossR: avgLossR,
+                    expectancy: expectancy
+                };
+            }).sort((a, b) => b.expectancy - a.expectancy);
+
+            const totalSetups = setupStats.reduce((s, x) => s + x.total, 0);
+            const weightedExp = totalSetups > 0 ? setupStats.reduce((s, x) => s + (x.expectancy * x.total), 0) / totalSetups : 0.65;
+            const avgWR = totalSetups > 0 ? (setupStats.reduce((s, x) => s + (x.wr * x.total), 0) / totalSetups) * 100 : 55.0;
+
+            if (heroEl) {
+                heroEl.innerHTML = `
+                    <div class="edge-hero-grid">
+                        <div class="edge-hero-card">
+                            <span class="edge-hero-lbl">Net Mathematical Expectancy</span>
+                            <span class="edge-hero-val" style="color:${weightedExp >= 0 ? '#34D399' : '#F87171'};">${weightedExp >= 0 ? '+' : ''}${weightedExp.toFixed(2)}R</span>
+                            <span style="font-size:0.72rem; color:var(--text-muted);">${isBenchmark ? 'Sample Benchmark Model' : 'Empirical Average Edge'}</span>
+                        </div>
+                        <div class="edge-hero-card">
+                            <span class="edge-hero-lbl">Aggregate Win Rate</span>
+                            <span class="edge-hero-val" style="color:#60A5FA;">${avgWR.toFixed(1)}%</span>
+                            <span style="font-size:0.72rem; color:var(--text-muted);">${totalSetups} Closed Setups Sampled</span>
+                        </div>
+                        <div class="edge-hero-card">
+                            <span class="edge-hero-lbl">Execution Discipline</span>
+                            <span class="edge-hero-val" style="color:#A78BFA;">${disciplineScore}%</span>
+                            <span style="font-size:0.72rem; color:var(--text-muted);">${closedTradesCount} Closed Rules Audited</span>
+                        </div>
+                        <div class="edge-hero-card">
+                            <span class="edge-hero-lbl">Behavioral Capital Leaks</span>
+                            <span class="edge-hero-val" style="color:#F87171;">₹${totalLeaks.toLocaleString()}</span>
+                            <span style="font-size:0.72rem; color:var(--text-muted);">Cost of Unforced Errors</span>
                         </div>
                     </div>
-                    <div class="radar-mini-stats">
-                        <div class="radar-mini-stat"><span>Avg R:R</span> ${avgRR}</div>
-                        <div class="radar-mini-stat"><span>P.Factor</span> ${pf}</div>
-                    </div>
-                </div>`;
-            }).join('');
+                `;
+            }
 
-            // Full table
-            tbodyEl.innerHTML = sortedKeys.map(key => {
-                const g = groups[key];
-                const wr = g.total > 0 ? Math.round((g.wins / g.total) * 100) : 0;
-                const avgRR = g.total > 0 ? (g.totalRR / g.total).toFixed(2) : '—';
-                const pf = g.wins > 0 && g.stopped > 0 ? (g.wins / g.stopped).toFixed(2) : (g.wins > 0 ? '∞' : '0');
-                const disc = g.stopped > 0 && g.total > 0 ? Math.round((g.honoredSL / (g.stopped)) * 100) + '%' : '100%';
-                const wrColor = wr >= 60 ? '#34D399' : wr >= 40 ? '#FBBF24' : '#F87171';
+            tbodyEl.innerHTML = setupStats.map(s => {
+                let badge = '<span class="badge-scaleup">⚡ Scale Up</span>';
+                if (s.expectancy >= 0.70 && s.total >= 3) {
+                    badge = '<span class="badge-scaleup">⚡ Scale Up (+Edge)</span>';
+                } else if (s.expectancy >= 0.20) {
+                    badge = '<span class="badge-maintain">✓ Maintain Size</span>';
+                } else {
+                    badge = '<span class="badge-review">⚠️ Review / Restrict</span>';
+                }
+
                 return `<tr>
-                    <td><strong>${key}</strong></td>
-                    <td class="col-right">${g.total}</td>
-                    <td class="col-right" style="color:#34D399;">${g.wins}</td>
-                    <td class="col-right" style="color:${wrColor};font-weight:700;font-family:var(--font-mono);">${wr}%</td>
-                    <td class="col-right" style="font-family:var(--font-mono);">${avgRR}</td>
-                    <td class="col-right" style="font-family:var(--font-mono);">${pf}</td>
-                    <td class="col-right" style="color:#60A5FA;">${disc}</td>
+                    <td><strong>${s.setup}</strong> ${isBenchmark ? '<span style="font-size:0.68rem; color:var(--text-muted);">(Model)</span>' : ''}</td>
+                    <td class="col-right mono">${s.total}</td>
+                    <td class="col-right mono">${(s.wr * 100).toFixed(1)}%</td>
+                    <td class="col-right mono" style="color:#34D399;">+${s.avgWinR.toFixed(2)}R</td>
+                    <td class="col-right mono" style="color:#F87171;">-${s.avgLossR.toFixed(2)}R</td>
+                    <td class="col-right mono" style="color:${s.expectancy >= 0 ? '#34D399' : '#F87171'}; font-weight:700;">${s.expectancy >= 0 ? '+' : ''}${s.expectancy.toFixed(2)}R</td>
+                    <td class="col-right">${badge}</td>
                 </tr>`;
             }).join('');
         }
 
+        // ── Feature 1: EOD Action Radar Functions ──
+        function executeRadarExit(entryId, exitPrice) {
+            const list = getDecisionJournal();
+            const idx = list.findIndex(e => e.id === entryId);
+            if (idx === -1) return;
+            const item = list[idx];
+            const sl = parseFloat(item.stop_loss || item.sl || 0);
+            const entry = parseFloat(item.entry || 0);
+            const isLoss = exitPrice < entry;
+            const newStatus = isLoss ? 'stopped' : 'target';
+            const riskPerShare = Math.abs(entry - sl) || 1;
+            const realizedRR = parseFloat(((exitPrice - entry) / riskPerShare).toFixed(2));
+            
+            if (!confirm(`Confirm EOD Exit Execution for ${item.symbol} at ₹${exitPrice.toFixed(2)}?\nStatus will be updated to '${newStatus.toUpperCase()}' with Realized R:R: ${realizedRR}R.`)) {
+                return;
+            }
+            item.status = newStatus;
+            item.exitPrice = exitPrice;
+            item.realizedRR = realizedRR;
+            item.exitDate = new Date().toISOString().split('T')[0];
+            saveDecisionJournal(list);
+            showToast(`Exit recorded for ${item.symbol} (${newStatus.toUpperCase()})`);
+            refreshEODActionRadar();
+            refreshExitLadder();
+        }
+
+        function updateRadarTrailingStop(entryId, newStop) {
+            const list = getDecisionJournal();
+            const idx = list.findIndex(e => e.id === entryId);
+            if (idx === -1) return;
+            const item = list[idx];
+            if (!confirm(`Lock in profit for ${item.symbol}?\nTrail Stop Loss to ₹${newStop.toFixed(2)}.`)) return;
+            item.stop_loss = newStop;
+            item.sl = newStop;
+            saveDecisionJournal(list);
+            showToast(`Trailing SL updated to ₹${newStop.toFixed(2)} for ${item.symbol}`);
+            refreshEODActionRadar();
+            refreshExitLadder();
+        }
+
+        function refreshEODActionRadar() {
+            const entries = getJournalEntries();
+            const active = entries.filter(e => (e.status || '').toLowerCase() === 'active' || !(e.status));
+            const listEl = document.getElementById('actionRadarDirectivesList');
+            const clearMsgEl = document.getElementById('radarAllClearMsg');
+            const kpiActive = document.getElementById('radarKpiActive');
+            const kpiInvalidated = document.getElementById('radarKpiInvalidated');
+            const kpiTrailing = document.getElementById('radarKpiTrailing');
+            const kpiVaR = document.getElementById('radarKpiVaR');
+            if (!listEl) return;
+
+            let countInvalid = 0;
+            let countTrailing = 0;
+            let totalRisk = 0;
+            let totalBudget = 0;
+            let directives = [];
+
+            active.forEach(e => {
+                const sym = e.symbol || '';
+                const stock = getStockBySymbol(sym);
+                const entry = parseFloat(e.entry) || 0;
+                const sl = parseFloat(e.stop_loss || e.sl) || 0;
+                const budget = parseFloat(e.budget) || 0;
+                const qty = parseFloat(e.recQty) || (entry > 0 ? Math.floor(budget / entry) : 0);
+                const maxRisk = qty * Math.max(0, entry - sl);
+                totalRisk += maxRisk;
+                totalBudget += budget;
+
+                const cmp = stock && stock.cmp ? stock.cmp : entry;
+                const pctChange = entry > 0 ? (((cmp - entry) / entry) * 100).toFixed(1) : 0;
+                const riskPerShare = Math.max(0.05, entry - sl);
+                const target2R = entry + (riskPerShare * 2);
+
+                let daysHeld = 0;
+                if (e.date) {
+                    const parsedDate = new Date(e.date);
+                    if (!isNaN(parsedDate)) {
+                        daysHeld = Math.max(0, Math.floor((new Date() - parsedDate) / (1000 * 60 * 60 * 24)));
+                    }
+                }
+
+                if (sl > 0 && cmp <= sl) {
+                    countInvalid++;
+                    directives.push({
+                        type: 'exit',
+                        pill: '<span class="directive-pill pill-exit">🔴 Mandatory Exit Directive</span>',
+                        sym: sym,
+                        desc: `Settled close ₹${cmp.toFixed(2)} breached your planned Stop Loss (₹${sl.toFixed(2)}). Discipline protocol requires immediate risk cutoff.`,
+                        action: `<button class="btn btn-secondary" onclick="executeRadarExit('${e.id}', ${cmp})" style="background:#EF4444; border-color:#EF4444; color:#fff; font-size:0.75rem; padding:4px 10px; font-weight:700;">🚨 Execute Exit to Journal</button>`
+                    });
+                }
+                else if (sl > 0 && cmp >= target2R) {
+                    countTrailing++;
+                    const suggestedSL = entry;
+                    directives.push({
+                        type: 'trail',
+                        pill: '<span class="directive-pill pill-trail">🟡 Profit Lock Trigger (&ge; 2R)</span>',
+                        sym: sym,
+                        desc: `CMP ₹${cmp.toFixed(2)} hit &ge; 2.0R milestone (+${pctChange}%). Invalidate risk by trailing stop-loss to Break-Even (₹${suggestedSL.toFixed(2)}).`,
+                        action: `<button class="btn btn-secondary" onclick="updateRadarTrailingStop('${e.id}', ${suggestedSL})" style="border-color:#F59E0B; color:#FBBF24; font-size:0.75rem; padding:4px 10px; font-weight:700;">🎯 Trail SL to B/E (₹${suggestedSL.toFixed(2)})</button>`
+                    });
+                }
+                else if (daysHeld >= 15 && Math.abs(parseFloat(pctChange)) <= 1.5) {
+                    directives.push({
+                        type: 'stagnant',
+                        pill: '<span class="directive-pill pill-stagnant">⏳ Dead Capital Warning</span>',
+                        sym: sym,
+                        desc: `Position stagnant for ${daysHeld} calendar days (${pctChange}% from entry). Opportunity cost drag detected vs active market setups.`,
+                        action: `<button class="btn btn-secondary" onclick="executeRadarExit('${e.id}', ${cmp})" style="border-color:rgba(139,92,246,0.4); color:#C084FC; font-size:0.75rem; padding:4px 8px;">Reallocate Capital</button>`
+                    });
+                }
+            });
+
+            if (kpiActive) kpiActive.textContent = active.length;
+            if (kpiInvalidated) kpiInvalidated.textContent = countInvalid;
+            if (kpiTrailing) kpiTrailing.textContent = countTrailing;
+            if (kpiVaR) {
+                const varPct = totalBudget > 0 ? ((totalRisk / totalBudget) * 100).toFixed(1) : '0.0';
+                kpiVaR.textContent = '₹' + Math.round(totalRisk).toLocaleString() + ' (' + varPct + '%)';
+            }
+
+            if (directives.length === 0) {
+                listEl.innerHTML = '';
+                if (clearMsgEl) clearMsgEl.style.display = 'block';
+            } else {
+                if (clearMsgEl) clearMsgEl.style.display = 'none';
+                listEl.innerHTML = directives.map(d => `
+                    <div class="radar-directive-card directive-${d.type}">
+                        <div style="display:flex; flex-direction:column; gap:4px; max-width:75%;">
+                            <div style="display:flex; align-items:center; gap:8px;">
+                                <strong>${d.sym}</strong>
+                                ${d.pill}
+                            </div>
+                            <div style="font-size:0.76rem; color:var(--text-secondary); line-height:1.4;">${d.desc}</div>
+                        </div>
+                        <div>${d.action}</div>
+                    </div>
+                `).join('');
+            }
+        }
+
         // ─── FEATURE: Milestone Exit Ladder ────────────────────────────────────
         function refreshExitLadder() {
+            refreshEODActionRadar();
             const entries = getJournalEntries();
             const grid = document.getElementById('ladderCardGrid');
             const statsEl = document.getElementById('ladderStats');
@@ -13898,6 +14736,213 @@
         }
 
         // ─── FEATURE: Portfolio Risk Shield ────────────────────────────────────
+
+        // ── Feature 2: Interactive What-If Portfolio Sandbox Functions ──
+        function initWhatIfSandbox() {
+            const selectEl = document.getElementById('whatifStockSelect');
+            if (!selectEl || selectEl.options.length > 1) return;
+            selectEl.innerHTML = '';
+            const pool = [
+                ...(APP_DATA.market_screener || []),
+                ...(APP_DATA.breakouts || []),
+                ...(APP_DATA.consolidations || [])
+            ];
+            const seen = new Set();
+            pool.forEach(stk => {
+                if (stk && stk.symbol && !seen.has(stk.symbol)) {
+                    seen.add(stk.symbol);
+                    const opt = document.createElement('option');
+                    opt.value = stk.symbol;
+                    opt.textContent = `${stk.symbol} — ${stk.company_name || stk.symbol} (₹${stk.cmp || 0})`;
+                    selectEl.appendChild(opt);
+                }
+            });
+            onWhatIfSymbolChange();
+        }
+
+        function onWhatIfSymbolChange() {
+            const sym = document.getElementById('whatifStockSelect')?.value;
+            const stock = getStockBySymbol(sym);
+            if (!stock) return;
+            const cmp = stock.cmp || 100;
+            const entryInput = document.getElementById('whatifEntry');
+            const slInput = document.getElementById('whatifSL');
+            if (entryInput) entryInput.value = cmp.toFixed(2);
+            if (slInput) slInput.value = (cmp * 0.95).toFixed(2);
+            runWhatIfSimulation();
+        }
+
+        function setWhatIfCapital(amt) {
+            const capInput = document.getElementById('whatifCapital');
+            if (capInput) {
+                capInput.value = amt;
+                runWhatIfSimulation();
+            }
+        }
+
+        function openWhatIfForSymbol(sym) {
+            const selectEl = document.getElementById('whatifStockSelect');
+            if (!selectEl) return;
+            selectEl.value = sym;
+            onWhatIfSymbolChange();
+            const box = document.getElementById('whatifSandboxBox');
+            if (box) box.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+
+        function openWhatIfForCurrentDrawerStock() {
+            if (!currentDrawerSym) return;
+            const sym = currentDrawerSym;
+            closeStockDrawer();
+            const shieldBtn = document.getElementById('tabBtnShield');
+            if (shieldBtn) switchTab('tab-riskshield', shieldBtn);
+            setTimeout(() => {
+                initWhatIfSandbox();
+                openWhatIfForSymbol(sym);
+            }, 60);
+        }
+
+        function runWhatIfSimulation() {
+            const sym = document.getElementById('whatifStockSelect')?.value || '';
+            const stock = getStockBySymbol(sym);
+            const entry = parseFloat(document.getElementById('whatifEntry')?.value) || (stock ? stock.cmp : 100);
+            const sl = parseFloat(document.getElementById('whatifSL')?.value) || (entry * 0.95);
+            const capital = parseFloat(document.getElementById('whatifCapital')?.value) || 50000;
+            const targetSector = (stock && stock.sector) ? stock.sector : 'Other';
+
+            const entries = getJournalEntries();
+            const active = entries.filter(e => (e.status || '').toLowerCase() === 'active' || !(e.status));
+            let totalDeployed = active.reduce((s, e) => s + (parseFloat(e.budget) || 0), 0);
+            const basePortfolio = Math.max(500000, totalDeployed + 100000);
+            let sectorDeployed = 0;
+            active.forEach(e => {
+                const s = getStockBySymbol(e.symbol);
+                if (s && s.sector === targetSector) {
+                    sectorDeployed += (parseFloat(e.budget) || 0);
+                }
+            });
+
+            const beforeSectorPct = ((sectorDeployed / basePortfolio) * 100).toFixed(1);
+            const afterSectorPct = (((sectorDeployed + capital) / (basePortfolio + capital)) * 100).toFixed(1);
+            const beforeCashPct = Math.max(0, (((basePortfolio - totalDeployed) / basePortfolio) * 100)).toFixed(1);
+            const afterCashPct = Math.max(0, (((basePortfolio - totalDeployed - capital) / (basePortfolio + capital)) * 100)).toFixed(1);
+
+            const riskPerShare = Math.max(0.01, entry - sl);
+            const shares = entry > 0 ? Math.floor(capital / entry) : 0;
+            const maxRiskRupees = shares * riskPerShare;
+            const singlePosRiskPct = ((maxRiskRupees / basePortfolio) * 100).toFixed(1);
+
+            const stockBeta = 1.15;
+            const beforeBeta = 1.02;
+            const afterBeta = parseFloat((((beforeBeta * totalDeployed) + (stockBeta * capital)) / Math.max(1, totalDeployed + capital)).toFixed(2));
+
+            const shockNifty = Math.round((totalDeployed + capital) * afterBeta * 0.05);
+            const shockNiftyPct = (((shockNifty) / (basePortfolio + capital)) * 100).toFixed(2);
+            const shockMidcap = Math.round((totalDeployed + capital) * (afterBeta * 1.3) * 0.10);
+            const shockMidcapPct = (((shockMidcap) / (basePortfolio + capital)) * 100).toFixed(2);
+            const shockGap = Math.round(maxRiskRupees * 1.5);
+
+            let fitGrade = 'A';
+            let fitClass = 'fit-a';
+            let fitNote = 'Optimal position size. Sector exposure remains well within the 25% institutional risk ceiling.';
+            const isSectorOver = parseFloat(afterSectorPct) > 25.0;
+            const isRiskHigh = parseFloat(singlePosRiskPct) > 2.0;
+
+            if (isSectorOver && isRiskHigh) {
+                fitGrade = 'D (High Risk)';
+                fitClass = 'fit-d';
+                fitNote = 'CRITICAL: Sector concentration exceeds 25% cap AND single-trade risk exceeds 2% limit. Trim capital allocation!';
+            } else if (isSectorOver) {
+                fitGrade = 'C (Sector Overweight)';
+                fitClass = 'fit-c';
+                fitNote = `WARNING: Sector exposure to ${targetSector} will rise to ${afterSectorPct}%, exceeding the institutional 25% limit.`;
+            } else if (isRiskHigh) {
+                fitGrade = 'B (Elevated Risk)';
+                fitClass = 'fit-b';
+                fitNote = `CAUTION: Single position risk (${singlePosRiskPct}%) is higher than the recommended 1.5% - 2.0% rule.`;
+            } else {
+                fitGrade = 'A+ (Optimal Fit)';
+                fitClass = 'fit-a';
+                fitNote = `Balanced setup. ${targetSector} sector stays disciplined at ${afterSectorPct}%. Capital buffer remains healthy.`;
+            }
+
+            const badgeEl = document.getElementById('whatifFitBadge');
+            if (badgeEl) {
+                badgeEl.className = `fit-score-badge ${fitClass}`;
+                badgeEl.textContent = `Score: ${fitGrade}`;
+            }
+            const riskDisp = document.getElementById('whatifRiskAmountDisp');
+            if (riskDisp) riskDisp.textContent = `Max Risk: ₹${Math.round(maxRiskRupees).toLocaleString()} (${shares} shares)`;
+
+            const secImpact = document.getElementById('whatifSectorImpact');
+            if (secImpact) secImpact.textContent = `${beforeSectorPct}% → ${afterSectorPct}%`;
+            const secName = document.getElementById('whatifSectorName');
+            if (secName) secName.textContent = targetSector;
+            const secWarn = document.getElementById('whatifSectorWarning');
+            if (secWarn) secWarn.style.display = isSectorOver ? 'inline-block' : 'none';
+
+            const cashImpact = document.getElementById('whatifCashImpact');
+            if (cashImpact) cashImpact.textContent = `${beforeCashPct}% → ${afterCashPct}%`;
+            const betaImpact = document.getElementById('whatifBetaImpact');
+            if (betaImpact) betaImpact.textContent = `${beforeBeta.toFixed(2)} → ${afterBeta.toFixed(2)}`;
+            const riskImpact = document.getElementById('whatifRiskImpact');
+            if (riskImpact) riskImpact.textContent = `${singlePosRiskPct}%`;
+
+            const shockNiftyEl = document.getElementById('shockNiftyDrop');
+            if (shockNiftyEl) shockNiftyEl.textContent = `-₹${shockNifty.toLocaleString()} (-${shockNiftyPct}%)`;
+            const shockMidcapEl = document.getElementById('shockMidcapDrop');
+            if (shockMidcapEl) shockMidcapEl.textContent = `-₹${shockMidcap.toLocaleString()} (-${shockMidcapPct}%)`;
+            const shockStopSlipEl = document.getElementById('shockStopSlip');
+            if (shockStopSlipEl) shockStopSlipEl.textContent = `-₹${shockGap.toLocaleString()}`;
+
+            const noteEl = document.getElementById('whatifFitNote');
+            if (noteEl) noteEl.textContent = fitNote;
+        }
+
+        function logWhatIfToJournal() {
+            const sym = document.getElementById('whatifStockSelect')?.value || '';
+            const entry = parseFloat(document.getElementById('whatifEntry')?.value) || 0;
+            const sl = parseFloat(document.getElementById('whatifSL')?.value) || 0;
+            const capital = parseFloat(document.getElementById('whatifCapital')?.value) || 50000;
+            const setup = document.getElementById('whatifSetup')?.value || '52W High Breakout';
+
+            if (!sym || !entry || !sl || sl >= entry) {
+                showToast('Please enter valid Entry and Stop Loss (Entry > SL)');
+                return;
+            }
+
+            const riskPerShare = entry - sl;
+            const recQty = Math.max(1, Math.floor(capital / entry));
+            const target2R = parseFloat((entry + (riskPerShare * 2)).toFixed(2));
+            const rr = ((target2R - entry) / riskPerShare).toFixed(2);
+
+            const tradeItem = {
+                id: 'trade_' + Date.now(),
+                symbol: sym,
+                entry: entry,
+                sl: sl,
+                stop_loss: sl,
+                target: target2R,
+                budget: capital,
+                recQty: recQty,
+                riskRatio: `1:${rr}`,
+                rr_ratio: rr,
+                strategy: setup,
+                setup: setup,
+                mindset: 'Disciplined',
+                conviction: 'High',
+                notes: `Candidate simulated in What-If Sandbox. Planned R:R: ${rr}:1`,
+                status: 'active',
+                date: new Date().toISOString().split('T')[0]
+            };
+
+            const journal = getDecisionJournal();
+            journal.unshift(tradeItem);
+            saveDecisionJournal(journal);
+            showToast(`Simulated trade for ${sym} transferred to Decision Journal!`);
+            const journalBtn = document.getElementById('tabBtnJournal');
+            if (journalBtn) switchTab('tab-journal', journalBtn);
+        }
+
         function refreshRiskShield() {
             const entries = getJournalEntries();
             const summaryEl = document.getElementById('shieldSummaryGrid');
@@ -14016,6 +15061,14 @@
                 }
             }, 50);
         }
+
+        // Initialize flagship features on page load
+        window.addEventListener('DOMContentLoaded', () => {
+            setTimeout(() => {
+                if (typeof initWhatIfSandbox === 'function') initWhatIfSandbox();
+            }, 300);
+        });
+
     </script>
 </body>
 </html>
