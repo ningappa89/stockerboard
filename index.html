@@ -10841,17 +10841,13 @@
             <div class="modal-title" style="border-bottom: none; margin-bottom: 0; justify-content: flex-end;">
                 <button class="modal-close" onclick="closeWatchlistLimitModal()">✕</button>
             </div>
-            <div style="font-size: 2.6rem; margin: -16px 0 8px;">⭐</div>
-            <h3 style="margin: 0 0 8px; font-size: 1.25rem; font-weight: 800; color: var(--text-primary);">
-                Guest Limit Reached (3 Stocks)
-            </h3>
-            <p style="font-size: 0.84rem; color: var(--text-secondary); line-height: 1.55; margin: 0 0 16px;">
-                You've reached the free guest limit of <strong>3 watchlist scrips</strong>. Sign in with Google to unlock <strong>unlimited watchlists</strong> and real-time cloud sync across your phone and laptop.
-            </p>
+            <div id="limitModalIcon" style="font-size: 2.6rem; margin: -16px 0 8px;">🔒</div>
+            <h3 id="limitModalTitle" style="margin: 0 0 8px; font-size: 1.25rem; font-weight: 800; color: var(--text-primary);">Guest Limit Reached</h3>
+            <p id="limitModalBody" style="font-size: 0.84rem; color: var(--text-secondary); line-height: 1.55; margin: 0 0 16px;"></p>
             <div style="background: rgba(59, 130, 246, 0.08); border: 1px solid rgba(59, 130, 246, 0.22); border-radius: 10px; padding: 12px 14px; margin-bottom: 18px; text-align: left; font-size: 0.78rem; color: var(--text-secondary);">
                 <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
                     <span style="color: var(--accent-emerald); font-weight: 800;">✓</span>
-                    <span><strong>Unlimited</strong> personal watchlist scrips</span>
+                    <span><strong>Unlimited</strong> Watchlist &amp; Decision Journal entries</span>
                 </div>
                 <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px;">
                     <span style="color: var(--accent-emerald); font-weight: 800;">✓</span>
@@ -10871,9 +10867,7 @@
                 </svg>
                 Sign in with Google for Unlimited Access
             </button>
-            <button class="btn btn-secondary" onclick="closeWatchlistLimitModal()" style="width: 100%; justify-content: center; font-size: 0.82rem;">
-                Stay on Free Guest Tier (3 Stocks)
-            </button>
+            <button id="limitModalStayBtn" class="btn btn-secondary" onclick="closeWatchlistLimitModal()" style="width: 100%; justify-content: center; font-size: 0.82rem;">Stay on Free Guest Tier</button>
         </div>
     </div>
 
@@ -11981,8 +11975,25 @@
 
         // 7. Watchlist Management (Zero-Server LocalStorage + Google Cloud Sync)
         const GUEST_WATCHLIST_LIMIT = 3;
+        const GUEST_JOURNAL_LIMIT = 2;   // Guests can log up to 2 setups; sign in for unlimited
 
-        function openWatchlistLimitModal(symbol) {
+        function openWatchlistLimitModal(context) {
+            // Set context-aware copy before opening
+            const isJournal = context === 'journal';
+            const iconEl = document.getElementById('limitModalIcon');
+            const titleEl = document.getElementById('limitModalTitle');
+            const bodyEl = document.getElementById('limitModalBody');
+            const stayBtn = document.getElementById('limitModalStayBtn');
+            if (iconEl) iconEl.textContent = isJournal ? '📓' : '⭐';
+            if (titleEl) titleEl.textContent = isJournal
+                ? 'Journal Limit Reached (2 Setups)'
+                : 'Watchlist Limit Reached (3 Stocks)';
+            if (bodyEl) bodyEl.innerHTML = isJournal
+                ? `You've used your <strong>2 free guest journal slots</strong>. Sign in with Google to unlock <strong>unlimited Decision Journal entries</strong>, Strategy Radar, Exit Ladder &amp; Risk Shield across all devices.`
+                : `You've reached the free guest limit of <strong>3 watchlist scrips</strong>. Sign in with Google to unlock <strong>unlimited watchlists</strong> and real-time cloud sync across your phone and laptop.`;
+            if (stayBtn) stayBtn.textContent = isJournal
+                ? 'Stay on Free (2 Setups only)'
+                : 'Stay on Free Guest Tier (3 Stocks)';
             const modal = document.getElementById('watchlistLimitModal');
             if (modal) modal.classList.add('active');
         }
@@ -12410,6 +12421,16 @@
             const conviction = document.getElementById('journalSelectConviction').value;
             const notes = (document.getElementById('journalInputNotes').value || '').trim();
 
+            // ── Guest Freemium Gate: max 2 journal entries without sign-in ──
+            const existingJournal = getDecisionJournal();
+            const uniqueSymbols = new Set(existingJournal.map(j => j.symbol));
+            const isAlreadyLogged = uniqueSymbols.has(currentDrawerSym);
+            if (!currentAuthUser && !isAlreadyLogged && uniqueSymbols.size >= GUEST_JOURNAL_LIMIT) {
+                openWatchlistLimitModal('journal');
+                showToast('Guest limit: 2 setups max — Sign in for unlimited Journal 🔒');
+                return;
+            }
+
             if (!entry || !sl || !target) {
                 showToast('Please provide valid Entry, Stop Loss, and Target prices');
                 return;
@@ -12659,7 +12680,8 @@
 
         // ─── FEATURE: Strategy Evidence Radar ──────────────────────────────────
         function getJournalEntries() {
-            try { return JSON.parse(localStorage.getItem('stockerboard_journal') || '[]'); } catch(e) { return []; }
+            // Alias for the main decision journal key (used by Radar / Ladder / Shield)
+            try { return JSON.parse(localStorage.getItem('stockerboard_decision_journal') || '[]'); } catch(e) { return []; }
         }
 
         function refreshRadar() {
