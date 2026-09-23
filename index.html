@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,6 +23,20 @@
 
         // Initialize flagship features on page load
         window.addEventListener('DOMContentLoaded', () => {
+            // Sync theme toggle button state
+            const activeTheme = document.documentElement.getAttribute('data-theme') || 'light';
+            const themeIcon = document.getElementById('themeToggleIcon');
+            const themeText = document.getElementById('themeToggleText');
+            if (themeIcon && themeText) {
+                if (activeTheme === 'light') {
+                    themeIcon.textContent = '🌙';
+                    themeText.textContent = 'Dark';
+                } else {
+                    themeIcon.textContent = '☀️';
+                    themeText.textContent = 'Light';
+                }
+            }
+
             setTimeout(() => {
                 if (typeof initWhatIfSandbox === 'function') initWhatIfSandbox();
             }, 300);
@@ -34,14 +48,27 @@
         (function() {
             try {
                 const savedTheme = localStorage.getItem('stockerboard_theme');
-                const systemPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-                const theme = savedTheme ? savedTheme : (systemPrefersDark ? 'dark' : 'dark');
+                const theme = savedTheme ? savedTheme : 'light';
                 document.documentElement.setAttribute('data-theme', theme);
             } catch(e) {}
         })();
 
         // Initialize flagship features on page load
         window.addEventListener('DOMContentLoaded', () => {
+            // Sync theme toggle button state
+            const activeTheme = document.documentElement.getAttribute('data-theme') || 'light';
+            const themeIcon = document.getElementById('themeToggleIcon');
+            const themeText = document.getElementById('themeToggleText');
+            if (themeIcon && themeText) {
+                if (activeTheme === 'light') {
+                    themeIcon.textContent = '🌙';
+                    themeText.textContent = 'Dark';
+                } else {
+                    themeIcon.textContent = '☀️';
+                    themeText.textContent = 'Light';
+                }
+            }
+
             setTimeout(() => {
                 if (typeof initWhatIfSandbox === 'function') initWhatIfSandbox();
             }, 300);
@@ -3464,8 +3491,8 @@
 
                 <div id="authContainer" class="auth-container">
                     <button class="theme-toggle-btn" id="themeToggleBtn" onclick="toggleTheme()" title="Toggle Light/Dark Theme">
-                        <span id="themeToggleIcon">☀️</span>
-                        <span id="themeToggleText">Light</span>
+                        <span id="themeToggleIcon">🌙</span>
+                        <span id="themeToggleText">Dark</span>
                     </button>
                     <button class="g-signin-btn" id="gSigninBtn" onclick="handleGoogleAuthClick()">
                         <svg class="g-icon" viewBox="0 0 24 24">
@@ -12676,7 +12703,7 @@
 
         // Theme Controller (Dual Light/Dark Mode)
         function toggleTheme() {
-            const current = document.documentElement.getAttribute('data-theme') || 'dark';
+            const current = document.documentElement.getAttribute('data-theme') || 'light';
             const next = current === 'dark' ? 'light' : 'dark';
             setTheme(next);
         }
@@ -15534,6 +15561,20 @@
 
         // Initialize flagship features on page load
         window.addEventListener('DOMContentLoaded', () => {
+            // Sync theme toggle button state
+            const activeTheme = document.documentElement.getAttribute('data-theme') || 'light';
+            const themeIcon = document.getElementById('themeToggleIcon');
+            const themeText = document.getElementById('themeToggleText');
+            if (themeIcon && themeText) {
+                if (activeTheme === 'light') {
+                    themeIcon.textContent = '🌙';
+                    themeText.textContent = 'Dark';
+                } else {
+                    themeIcon.textContent = '☀️';
+                    themeText.textContent = 'Light';
+                }
+            }
+
             setTimeout(() => {
                 if (typeof initWhatIfSandbox === 'function') initWhatIfSandbox();
             }, 300);
