@@ -2373,6 +2373,53 @@
             text-align: center;
             color: var(--text-muted);
         }
+
+        /* ─── Screener Pagination ─────────────────────────────── */
+        .screener-pagination {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            padding: 16px 12px;
+            flex-wrap: wrap;
+            border-top: 1px solid var(--border-subtle);
+        }
+        .pg-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 34px;
+            height: 34px;
+            padding: 0 10px;
+            border-radius: 8px;
+            border: 1px solid var(--border-subtle);
+            background: var(--bg-surface-elevated);
+            color: var(--text-secondary);
+            font-size: 0.82rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.15s;
+            font-family: var(--font-mono);
+        }
+        .pg-btn:hover:not(:disabled) {
+            background: rgba(59,130,246,0.15);
+            border-color: var(--accent-blue);
+            color: #60A5FA;
+        }
+        .pg-btn.active {
+            background: var(--accent-blue);
+            border-color: var(--accent-blue);
+            color: #fff;
+            font-weight: 800;
+        }
+        .pg-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+        .pg-ellipsis {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            padding: 0 4px;
+            user-select: none;
+        }
+        /* ─── End Screener Pagination ──────────────────────────── */
     </style>
 </head>
 <body>
@@ -2559,7 +2606,7 @@
                         <div id="activeFilterTags" class="active-tag-stack"></div>
                     </div>
                     <div class="screener-status-text">
-                        Showing <strong id="screenerVisibleCount" style="color: #60A5FA;">350</strong> of <strong id="screenerTotalCount">350</strong> scrips
+                        Showing <strong id="screenerVisibleStart" style="color: #60A5FA;">1</strong>–<strong id="screenerVisibleEnd" style="color: #60A5FA;">100</strong> of <strong id="screenerVisibleCount">350</strong> scrips &nbsp;<span id="screenerPageLabel" style="color: var(--text-muted); font-size: 0.78rem;"></span>
                     </div>
                 </div>
             </div>
@@ -7489,6 +7536,8 @@
                     </table>
                 </div>
             </div>
+            <!-- Screener Pagination Bar -->
+            <div class="screener-pagination" id="screenerPagination"></div>
         </div>
 
         <!-- TAB 1: 52W Breakouts -->
@@ -10954,6 +11003,20 @@
             const activeTab = document.querySelector('.tab-content.active');
             if (!activeTab) return;
 
+            // For the main screener, route through the pagination engine
+            if (activeTab.id === 'tab-screener') {
+                applyScreenerFilters();
+                // Also apply text search on top of the filtered set
+                if (query) {
+                    screenerFilteredRows = screenerFilteredRows.filter(row =>
+                        row.innerText.toLowerCase().includes(query)
+                    );
+                    screenerCurrentPage = 1;
+                    renderScreenerPage();
+                }
+                return;
+            }
+
             activeTab.querySelectorAll('tbody tr').forEach(row => {
                 const text = row.innerText.toLowerCase();
                 row.style.display = text.includes(query) ? '' : 'none';
@@ -10988,6 +11051,12 @@
             });
 
             rows.forEach(r => tbody.appendChild(r));
+
+            // Re-render pagination if this is the screener table
+            if (tableId === 'screenerTable') {
+                screenerCurrentPage = 1;
+                renderScreenerPage();
+            }
         }
 
         // Theme Controller (Dual Light/Dark Mode)
@@ -11851,61 +11920,117 @@
             trackEvent('strategy_preset_selected', { preset: preset });
         }
 
+        // ── Screener Pagination State ──
+        const SCREENER_PAGE_SIZE = 100;
+        let screenerCurrentPage = 1;
+        let screenerFilteredRows = []; // holds DOM row refs for the current filtered set
+
         function applyScreenerFilters() {
             const table = document.getElementById('screenerTable');
             if (!table) return;
             const sectorSelect = document.getElementById('screenerSectorSelect');
             const selectedSector = sectorSelect ? sectorSelect.value : 'ALL';
-            const rows = table.querySelectorAll('tbody tr');
-            let visibleCount = 0;
+            const rows = Array.from(table.querySelectorAll('tbody tr'));
 
-            rows.forEach(row => {
+            screenerFilteredRows = rows.filter(row => {
                 const dist = parseFloat(row.dataset.dist || '-999');
-                const mom = parseFloat(row.dataset.mom || '0');
+                const mom  = parseFloat(row.dataset.mom  || '0');
                 const volmult = parseFloat(row.dataset.volmult || '1');
-                const roe = parseFloat(row.dataset.roe || '-999');
-                const pe = parseFloat(row.dataset.pe || '-999');
-                const sec = row.dataset.sec || '';
+                const roe  = parseFloat(row.dataset.roe  || '-999');
+                const pe   = parseFloat(row.dataset.pe   || '-999');
+                const sec  = row.dataset.sec || '';
 
                 let matchesPreset = true;
-                if (activeScreenerPreset === 'BREAKOUT') {
-                    matchesPreset = dist >= -0.5;
-                } else if (activeScreenerPreset === 'COILED') {
-                    matchesPreset = dist >= -3.0 && dist < -0.05;
-                } else if (activeScreenerPreset === 'VCP') {
-                    matchesPreset = row.dataset.vcp === '1';
-                } else if (activeScreenerPreset === 'POCKET_PIVOT') {
-                    matchesPreset = row.dataset.pivot === '1';
-                } else if (activeScreenerPreset === 'STAGE2') {
-                    matchesPreset = row.dataset.stage2 === '1';
-                } else if (activeScreenerPreset === 'CONFLUENCE') {
-                    matchesPreset = row.dataset.confluence === '1';
-                } else if (activeScreenerPreset === 'MOMENTUM') {
-                    matchesPreset = mom >= 85;
-                } else if (activeScreenerPreset === 'VOL_SURGE') {
-                    matchesPreset = volmult >= 1.5;
-                } else if (activeScreenerPreset === 'HIGH_ROE') {
-                    matchesPreset = roe >= 15.0;
-                } else if (activeScreenerPreset === 'VALUE_PE') {
-                    matchesPreset = pe > 0 && pe <= 25.0;
-                }
+                if (activeScreenerPreset === 'BREAKOUT')      matchesPreset = dist >= -0.5;
+                else if (activeScreenerPreset === 'COILED')   matchesPreset = dist >= -3.0 && dist < -0.05;
+                else if (activeScreenerPreset === 'VCP')       matchesPreset = row.dataset.vcp === '1';
+                else if (activeScreenerPreset === 'POCKET_PIVOT') matchesPreset = row.dataset.pivot === '1';
+                else if (activeScreenerPreset === 'STAGE2')   matchesPreset = row.dataset.stage2 === '1';
+                else if (activeScreenerPreset === 'CONFLUENCE') matchesPreset = row.dataset.confluence === '1';
+                else if (activeScreenerPreset === 'MOMENTUM') matchesPreset = mom >= 85;
+                else if (activeScreenerPreset === 'VOL_SURGE') matchesPreset = volmult >= 1.5;
+                else if (activeScreenerPreset === 'HIGH_ROE') matchesPreset = roe >= 15.0;
+                else if (activeScreenerPreset === 'VALUE_PE') matchesPreset = pe > 0 && pe <= 25.0;
 
-                let matchesSector = (selectedSector === 'ALL') || (sec === selectedSector);
-
-                if (matchesPreset && matchesSector) {
-                    row.style.display = '';
-                    visibleCount++;
-                } else {
-                    row.style.display = 'none';
-                }
+                const matchesSector = (selectedSector === 'ALL') || (sec === selectedSector);
+                return matchesPreset && matchesSector;
             });
 
-            const countEl = document.getElementById('screenerVisibleCount');
-            if (countEl) countEl.innerText = visibleCount;
-            const tvCountEl = document.getElementById('filteredTvCount');
-            if (tvCountEl) tvCountEl.innerText = visibleCount;
-
+            screenerCurrentPage = 1;
+            renderScreenerPage();
             renderActiveFilterTags(selectedSector);
+        }
+
+        function renderScreenerPage() {
+            const allRows = document.querySelectorAll('#screenerTable tbody tr');
+            const totalFiltered = screenerFilteredRows.length;
+            const totalPages = Math.max(1, Math.ceil(totalFiltered / SCREENER_PAGE_SIZE));
+            screenerCurrentPage = Math.min(Math.max(screenerCurrentPage, 1), totalPages);
+
+            const startIdx = (screenerCurrentPage - 1) * SCREENER_PAGE_SIZE;
+            const endIdx   = Math.min(startIdx + SCREENER_PAGE_SIZE, totalFiltered);
+            const pageSet  = new Set(screenerFilteredRows.slice(startIdx, endIdx));
+
+            // Show only current page rows
+            allRows.forEach(row => {
+                row.style.display = pageSet.has(row) ? '' : 'none';
+            });
+
+            // Update status line
+            const startEl = document.getElementById('screenerVisibleStart');
+            const endEl   = document.getElementById('screenerVisibleEnd');
+            const countEl = document.getElementById('screenerVisibleCount');
+            const labelEl = document.getElementById('screenerPageLabel');
+            const tvEl    = document.getElementById('filteredTvCount');
+            if (startEl) startEl.innerText = totalFiltered > 0 ? startIdx + 1 : 0;
+            if (endEl)   endEl.innerText   = endIdx;
+            if (countEl) countEl.innerText = totalFiltered;
+            if (labelEl) labelEl.innerText = totalPages > 1 ? `(Page ${screenerCurrentPage} of ${totalPages})` : '';
+            if (tvEl)    tvEl.innerText    = totalFiltered;
+
+            // Render pagination buttons
+            renderScreenerPagination(totalPages);
+        }
+
+        function renderScreenerPagination(totalPages) {
+            const container = document.getElementById('screenerPagination');
+            if (!container) return;
+            if (totalPages <= 1) { container.innerHTML = ''; return; }
+
+            const cur = screenerCurrentPage;
+            let html = '';
+
+            // Helper to make a page button
+            const btn = (label, page, disabled=false, active=false) =>
+                `<button class="pg-btn${active ? ' active' : ''}" ${disabled ? 'disabled' : ''}
+                    onclick="goToScreenerPage(${page})">${label}</button>`;
+
+            html += btn('&laquo;', 1, cur === 1);
+            html += btn('&lsaquo;', cur - 1, cur === 1);
+
+            // Page number window: always show first, last, cur-1, cur, cur+1
+            const pageNums = new Set([1, totalPages, cur-1, cur, cur+1].filter(p => p >= 1 && p <= totalPages));
+            const sorted = Array.from(pageNums).sort((a,b) => a-b);
+
+            let prev = 0;
+            sorted.forEach(p => {
+                if (p - prev > 1) html += `<span class="pg-ellipsis">&hellip;</span>`;
+                html += btn(p, p, false, p === cur);
+                prev = p;
+            });
+
+            html += btn('&rsaquo;', cur + 1, cur === totalPages);
+            html += btn('&raquo;', totalPages, cur === totalPages);
+
+            container.innerHTML = html;
+        }
+
+        function goToScreenerPage(page) {
+            screenerCurrentPage = page;
+            renderScreenerPage();
+            // Smooth scroll to screener table top
+            const tableCard = document.querySelector('#tab-screener .table-card');
+            if (tableCard) tableCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
 
         function renderActiveFilterTags(selectedSector) {
