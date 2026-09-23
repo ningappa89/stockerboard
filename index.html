@@ -3679,15 +3679,34 @@
             border-color: rgba(56, 189, 248, 0.22);
         }
         .fresher-hero-heading {
-            font-size: 2.5rem;
-            font-weight: 700;
+            font-size: 2.85rem;
+            font-weight: 750;
             color: var(--text-primary);
-            letter-spacing: -0.035em;
+            letter-spacing: -0.04em;
             line-height: 1.15;
             margin-bottom: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+        }
+        .fresher-hero-lead {
+            font-size: 2.85rem;
+            font-weight: 750;
+            color: var(--text-primary);
+            letter-spacing: -0.04em;
+        }
+        .fresher-hero-subline {
+            font-size: 1.35rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            letter-spacing: -0.02em;
+            opacity: 0.92;
         }
         @media (max-width: 768px) {
             .fresher-hero-heading { font-size: 2rem; }
+            .fresher-hero-lead { font-size: 2rem; }
+            .fresher-hero-subline { font-size: 1.1rem; }
         }
         .fresher-hero-subheading {
             font-size: 0.88rem;
@@ -4595,7 +4614,8 @@
                     <span>✦ SYSTEMATIC EQUITY INTELLIGENCE • SEBI COMPLIANT</span>
                 </div>
                 <h1 class="fresher-hero-heading">
-                    Search any stock.<br>Know your risk before you buy.
+                    <span class="fresher-hero-lead">Search any stock.</span>
+                    <span class="fresher-hero-subline">Know your risk before you buy.</span>
                 </h1>
                 <p class="fresher-hero-subheading">
                     Mathematical pattern anatomy, invalidation levels, and 1% sizing
@@ -17858,10 +17878,15 @@
                 setTxt('dossierRegimeSub', 'NSE Listed Scrip');
             }
 
+            const hasPe = matched.richData?.pe && matched.richData.pe !== 'N/A' && matched.richData.pe !== '—' && matched.richData.pe !== -1;
+            const hasRoe = matched.richData?.roe && matched.richData.roe !== 'N/A' && matched.richData.roe !== '—' && matched.richData.roe !== -1;
+            const hasRoce = matched.richData?.roce && matched.richData.roce !== 'N/A' && matched.richData.roce !== '—' && matched.richData.roce !== -1;
+            const hasPb = matched.richData?.pb && matched.richData.pb !== 'N/A' && matched.richData.pb !== '—' && matched.richData.pb !== -1;
+
             setTxt('dossierMomVal', (matched.momentum || 75) + '/100');
             setTxt('dossierVolVal', (matched.richData?.volume_multiplier || '1.1x'));
-            setTxt('dossierPeVal', (matched.richData?.pe || 'N/A') + ' P/E');
-            setTxt('dossierRoeSub', 'ROE: ' + (matched.richData?.roe || 'N/A') + '% • ROCE: ' + (matched.richData?.roce || 'N/A') + '%');
+            setTxt('dossierPeVal', hasPe ? (matched.richData.pe + ' P/E') : '—');
+            setTxt('dossierRoeSub', (hasRoe ? ('ROE: ' + matched.richData.roe + '%') : 'ROE: —') + ' • ' + (hasRoce ? ('ROCE: ' + matched.richData.roce + '%') : 'ROCE: —'));
 
             // SEBI-Compliant Risk & Pattern Matrix
             currentDossierPivot = cmp > 0 ? (cmp * (distVal >= -1.0 ? 1.008 : 1.02)) : 105;
@@ -17890,10 +17915,10 @@
             calculateDossierSimulation();
 
             // Fundamentals Table
-            setTxt('dossierTblPE', matched.richData?.pe || 'N/A');
-            setTxt('dossierTblPB', matched.richData?.pb || 'N/A');
-            setTxt('dossierTblROE', matched.richData?.roe ? (matched.richData.roe + '%') : 'N/A');
-            setTxt('dossierTblROCE', matched.richData?.roce ? (matched.richData.roce + '%') : 'N/A');
+            setTxt('dossierTblPE', hasPe ? matched.richData.pe : '—');
+            setTxt('dossierTblPB', hasPb ? matched.richData.pb : '—');
+            setTxt('dossierTblROE', hasRoe ? (matched.richData.roe + '%') : '—');
+            setTxt('dossierTblROCE', hasRoce ? (matched.richData.roce + '%') : '—');
             setTxt('dossierTblHigh', low > 0 ? '₹' + high.toLocaleString('en-IN') : '—');
             setTxt('dossierTblLow', low > 0 ? '₹' + low.toLocaleString('en-IN') : '—');
             setTxt('dossierTblSector', matched.sector || 'NSE Equities');
