@@ -4519,7 +4519,7 @@
     <div class="container">
         <header class="terminal-hero">
             <div class="top-nav">
-                <div class="brand-unit" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+                <div class="brand-unit" onclick="switchUserMode('fresher'); window.scrollTo({top:0, behavior:'smooth'})" style="cursor: pointer;" title="Return to Stockerboard Home">
                     <div class="brand-emblem">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                             <path d="M3 17L9 11L13 15L21 7" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -4528,7 +4528,7 @@
                     </div>
                     <div class="brand-text-block">
                         <span class="brand-name">STOCKERBOARD</span>
-                        <span class="brand-pro-tag">PRO</span>
+                        <span class="brand-pro-tag" id="brandProTag">STUDIO</span>
                     </div>
                 </div>
 
@@ -4746,6 +4746,9 @@
             </h1>
             <div class="hero-meta-row">
                 <div class="meta-capsule-group">
+                    <button class="hero-chip" onclick="switchUserMode('fresher')" style="cursor: pointer; background: rgba(56, 189, 248, 0.12); border: 1px solid rgba(56, 189, 248, 0.35); color: #38BDF8; font-weight: 700;">
+                        ← Back to Fresher Studio
+                    </button>
                     <span class="hero-chip chip-edition">Edition #39</span>
                     <span class="hero-chip">📅 Tuesday, 22 Sep 2026</span>
                     <span class="hero-chip chip-compliance">🛡️ SEBI Compliant (Educational)</span>
@@ -17468,12 +17471,15 @@
             const btnPro = document.getElementById('btnModePro');
             const fresherHome = document.getElementById('fresherHome');
             const proTerminal = document.getElementById('intermediateTerminal');
+            const brandTag = document.getElementById('brandProTag');
 
             if (mode === 'fresher') {
                 if (btnFresher) btnFresher.classList.add('active');
                 if (btnPro) btnPro.classList.remove('active');
                 if (fresherHome) fresherHome.style.display = 'block';
                 if (proTerminal) proTerminal.style.display = 'none';
+                if (brandTag) brandTag.innerText = 'STUDIO';
+                localStorage.setItem('stockerboard_mode_v2', 'fresher');
                 localStorage.setItem('stockerboard_user_mode', 'fresher');
                 renderFresherFocusCards();
             } else {
@@ -17481,6 +17487,8 @@
                 if (btnPro) btnPro.classList.add('active');
                 if (fresherHome) fresherHome.style.display = 'none';
                 if (proTerminal) proTerminal.style.display = 'block';
+                if (brandTag) brandTag.innerText = 'PRO';
+                localStorage.setItem('stockerboard_mode_v2', 'intermediate');
                 localStorage.setItem('stockerboard_user_mode', 'intermediate');
                 // Re-calculate visible tables
                 applyScreenerFilters();
@@ -17631,8 +17639,23 @@
         // Initialize mode on DOM load
         document.addEventListener('DOMContentLoaded', () => {
             buildStockSearchIndex();
-            const savedMode = localStorage.getItem('stockerboard_user_mode') || 'fresher';
-            switchUserMode(savedMode);
+            const urlParams = new URLSearchParams(window.location.search);
+            const hash = window.location.hash;
+
+            // Explicit URL parameters or tab hash request Pro Terminal
+            if (urlParams.get('mode') === 'pro' || urlParams.get('mode') === 'intermediate' || (hash && hash.startsWith('#tab-'))) {
+                switchUserMode('intermediate');
+            } else if (urlParams.get('mode') === 'fresher') {
+                switchUserMode('fresher');
+            } else {
+                // By default, visiting the root homepage https://stockerboard.com/ lands on the FAANG Fresher Mode
+                const userPreference = localStorage.getItem('stockerboard_mode_v2');
+                if (!userPreference) {
+                    switchUserMode('fresher');
+                } else {
+                    switchUserMode(userPreference);
+                }
+            }
         });
 
     
