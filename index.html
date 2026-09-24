@@ -17777,6 +17777,40 @@
             if (!stockSearchIndex || stockSearchIndex.length === 0) buildUniversalSearchIndex();
 
             let matched = stockSearchIndex.find(s => s.symbol === cleanSym);
+
+            // Robust Fallback: Guarantee rich data from all screener pools even if not in universal array
+            if (!matched || !matched.richData) {
+                const pool = [
+                    ...(APP_DATA.market_screener || []),
+                    ...(APP_DATA.breakouts || []),
+                    ...(APP_DATA.consolidations || []),
+                    ...(APP_DATA.fundamental_leaders || [])
+                ];
+                const direct = pool.find(p => p && p.symbol && p.symbol.replace(/NSE:|BSE:|\.NS|\.BO/gi, '').trim().toUpperCase() === cleanSym);
+                if (direct) {
+                    if (!matched) {
+                        matched = {
+                            symbol: cleanSym,
+                            name: direct.company_name || cleanSym,
+                            sector: direct.sector || 'NSE Equities',
+                            cmp: parseFloat(direct.cmp) || 0,
+                            dist: parseFloat(direct.dist_52w_pct) || 0,
+                            momentum: parseInt(direct.momentum_score) || 75,
+                            isBreakout: Math.abs(parseFloat(direct.dist_52w_pct) || 0) <= 1.0,
+                            isCoiled: (parseFloat(direct.dist_52w_pct) >= -3.5 && parseFloat(direct.dist_52w_pct) < -0.5),
+                            isStage2: !!direct.stage2,
+                            isScreenerQualified: true,
+                            richData: direct
+                        };
+                    } else {
+                        matched.richData = direct;
+                        matched.isScreenerQualified = true;
+                        if (direct.cmp) matched.cmp = parseFloat(direct.cmp);
+                        if (direct.sector) matched.sector = direct.sector;
+                    }
+                }
+            }
+
             if (!matched) {
                 matched = {
                     symbol: cleanSym,
@@ -17984,7 +18018,12 @@
             const isLight = (document.documentElement.getAttribute('data-theme') || 'dark') === 'light';
 
             // Case A: Rich Candlestick data available in core screener pool
-            if (richData && richData.candles && richData.candles.length > 0 && typeof LightweightCharts !== 'undefined') {
+            if (richData && richData.candles && richData.candles.length > 0) {
+                if (typeof LightweightCharts === 'undefined') {
+                    // Script still downloading from CDN, retry in 120ms
+                    setTimeout(() => renderDossierChart(cleanSym, richData), 120);
+                    return;
+                }
                 try {
                     activeDossierTvChart = LightweightCharts.createChart(container, {
                         width: container.clientWidth || 900,
@@ -18071,10 +18110,10 @@
                             });
                         }
                     });
-                    return;
                 } catch(e) {
                     console.error('Error mounting Dossier Lightweight Chart:', e);
                 }
+                return;
             }
 
             // Case B: Broader NSE Stock outside daily screener -> Institutional TradingView Pro Studio Launcher
