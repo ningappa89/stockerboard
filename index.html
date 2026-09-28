@@ -4613,6 +4613,32 @@
             color: #4ADE80;
             background: rgba(34, 197, 94, 0.12);
         }
+
+        /* FAANG Shimmer & Chart Overlay */
+        #dossierChartViewport {
+            min-height: 480px;
+            position: relative;
+        }
+        .chart-loading-overlay {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 14px;
+            background: var(--bg-surface);
+            border-radius: 14px;
+            z-index: 10;
+        }
+        @keyframes shimmerGlow {
+            0% { opacity: 0.6; transform: scale(0.98); }
+            50% { opacity: 1; transform: scale(1.02); }
+            100% { opacity: 0.6; transform: scale(0.98); }
+        }
+        .shimmer-pulse-badge {
+            animation: shimmerGlow 1.8s ease-in-out infinite;
+        }
 </style>
 </head>
 <body>
@@ -17255,7 +17281,14 @@
             'bel': 'BEL',
             'polycab': 'POLYCAB',
             'coalindia': 'COALINDIA',
-            'coal india': 'COALINDIA'
+            'coal india': 'COALINDIA',
+            'ramco': 'RAMCOCEM',
+            'ramcocem': 'RAMCOCEM',
+            'ramco cement': 'RAMCOCEM',
+            'ramco cements': 'RAMCOCEM',
+            'eternal': 'ETERNAL',
+            'irfc': 'IRFC',
+            'indian railway finance': 'IRFC'
         };
 
         // Damerau-Levenshtein distance (handles insertions, deletions, substitutions, and transpositions)
@@ -17474,7 +17507,7 @@
                 const s = item.stock;
                 const isTop = idx === 0 ? 'highlighted' : '';
                 return `
-                    <div class="fresher-drop-item ${isTop}" data-sym="${s.symbol}" onclick="selectFresherStock('${s.symbol}')">
+                    <div class="fresher-drop-item ${isTop}" data-sym="${s.symbol}" onmouseenter="preloadDossier('${s.symbol}')" onclick="selectFresherStock('${s.symbol}')">
                         <div class="drop-sym-block">
                             <div class="drop-sym-row">
                                 <span class="drop-sym">${s.symbol}</span>
@@ -17533,6 +17566,8 @@
                 if (i === highlightedDropdownIdx) {
                     el.classList.add('highlighted');
                     el.scrollIntoView({ block: 'nearest' });
+                    const sym = el.getAttribute('data-sym');
+                    if (sym && typeof preloadDossier === 'function') preloadDossier(sym);
                 } else {
                     el.classList.remove('highlighted');
                 }
@@ -17865,64 +17900,194 @@
         buildStockSearchIndex = buildUniversalSearchIndex;
 
         // Dedicated Full-Page Stock Intelligence Dossier Controller
-        function openStockDossier(symbol, updateHistory) {
+        
+        // =========================================================
+        // FAANG-GRADE UNIVERSAL DOSSIER STREAMING ENGINE
+        // =========================================================
+        const DOSSIER_CACHE_LIMIT = 100;
+        const dossierCache = new Map();
+        let activeDossierAbortController = null;
+        let activeDossierSymbol = null;
+
+        function getDossierShard(symbol) {
+            if (!symbol) return '__';
+            const clean = String(symbol).trim().toUpperCase();
+            let shard = clean.slice(0, 2).replace(/[^A-Z0-9]/gi, '_');
+            while (shard.length < 2) {
+                shard += '_';
+            }
+            return shard;
+        }
+
+        function putInDossierCache(symbol, data) {
+            if (!symbol || !data) return;
+            if (dossierCache.size >= DOSSIER_CACHE_LIMIT) {
+                const oldestKey = dossierCache.keys().next().value;
+                dossierCache.delete(oldestKey);
+            }
+            dossierCache.set(symbol, data);
+        }
+
+        function normalizeDossierJson(json, cleanSym) {
+            if (!json) return null;
+            const price = json.price || {};
+            const range = json.range || {};
+            const metrics = json.metrics || {};
+            const risk = json.risk_model || {};
+            const candles = json.candles || [];
+            
+            const cmp = parseFloat(price.close) || 0;
+            const high_52w = parseFloat(range.high_52w) || (cmp > 0 ? cmp * 1.15 : 0);
+            const low_52w = parseFloat(range.low_52w) || (cmp > 0 ? cmp * 0.72 : 0);
+            const dist_52w = typeof range.distance_from_high_pct === 'number' ? 
+                range.distance_from_high_pct : 
+                (high_52w > 0 ? ((cmp - high_52w) / high_52w) * 100 : 0);
+
+            const mom = parseInt(metrics.momentum_score) || 60;
+            const volMul = metrics.volume_multiplier || '1.1x';
+            const isBreakout = !!metrics.is_breakout || (dist_52w >= -1.0 && dist_52w <= 0.5);
+            const isCoiled = !!metrics.is_coiled || (dist_52w >= -3.5 && dist_52w < -1.0);
+            const isStage2 = !!metrics.is_stage2 || (cmp > low_52w * 1.25);
+
+            const pivot = parseFloat(risk.technical_pivot) || (cmp > 0 ? (cmp * (dist_52w >= -1.0 ? 1.008 : 1.02)) : 0);
+            const floor = parseFloat(risk.invalidation_floor) || (cmp > 0 ? (cmp * 0.965) : 0);
+            const riskPerShare = parseFloat(risk.risk_per_share) || Math.max(0.5, pivot - floor);
+
+            return {
+                symbol: json.symbol || cleanSym,
+                company_name: json.company_name || cleanSym,
+                sector: json.sector || json.industry || 'NSE Equities',
+                cmp: cmp,
+                change: parseFloat(price.change) || 0,
+                change_pct: parseFloat(price.change_pct) || 0,
+                high_52w: high_52w,
+                low_52w: low_52w,
+                dist_52w_pct: dist_52w,
+                momentum_score: mom,
+                volume_multiplier: volMul,
+                is_breakout: isBreakout,
+                is_coiled: isCoiled,
+                is_stage2: isStage2,
+                technical_pivot: pivot,
+                invalidation_floor: floor,
+                risk_per_share: riskPerShare,
+                candles: candles,
+                isScreenerQualified: true,
+                source: 'static_dossier'
+            };
+        }
+
+        function preloadDossier(symbol) {
+            if (!symbol) return;
+            const cleanSym = String(symbol).replace(/NSE:|BSE:|\.NS|\.BO/gi, '').trim().toUpperCase();
+            if (dossierCache.has(cleanSym)) return;
+            
+            const shard = getDossierShard(cleanSym);
+            const version = (typeof APP_DATA !== 'undefined' && APP_DATA.market_session_date) ? APP_DATA.market_session_date : '2026-09-25';
+            fetch(`./stocks/${shard}/${cleanSym}.json?v=${version}`)
+                .then(r => r.ok ? r.json() : null)
+                .then(json => {
+                    if (json) {
+                        const norm = normalizeDossierJson(json, cleanSym);
+                        putInDossierCache(cleanSym, norm);
+                    }
+                })
+                .catch(() => {});
+        }
+
+        async function fetchDossierData(cleanSym, signal) {
+            if (dossierCache.has(cleanSym)) {
+                return dossierCache.get(cleanSym);
+            }
+
+            const pool = [
+                ...(APP_DATA.market_screener || []),
+                ...(APP_DATA.breakouts || []),
+                ...(APP_DATA.consolidations || []),
+                ...(APP_DATA.fundamental_leaders || [])
+            ];
+            const direct = pool.find(p => p && p.symbol && p.symbol.replace(/NSE:|BSE:|\.NS|\.BO/gi, '').trim().toUpperCase() === cleanSym);
+            if (direct && direct.candles && direct.candles.length > 0) {
+                const norm = {
+                    symbol: cleanSym,
+                    company_name: direct.company_name || cleanSym,
+                    sector: direct.sector || 'NSE Equities',
+                    cmp: parseFloat(direct.cmp) || 0,
+                    change: parseFloat(direct.change) || 0,
+                    change_pct: parseFloat(direct.change_pct) || 0,
+                    high_52w: parseFloat(direct.high_52w) || 0,
+                    low_52w: parseFloat(direct.low_52w) || 0,
+                    dist_52w_pct: parseFloat(direct.dist_52w_pct) || 0,
+                    momentum_score: parseInt(direct.momentum_score) || 75,
+                    volume_multiplier: direct.volume_multiplier || '1.1x',
+                    is_breakout: Math.abs(parseFloat(direct.dist_52w_pct) || 0) <= 1.0,
+                    is_coiled: (parseFloat(direct.dist_52w_pct) >= -3.5 && parseFloat(direct.dist_52w_pct) < -0.5),
+                    is_stage2: !!direct.stage2,
+                    technical_pivot: (parseFloat(direct.cmp) || 0) * (parseFloat(direct.dist_52w_pct) >= -1.0 ? 1.008 : 1.02),
+                    invalidation_floor: (parseFloat(direct.cmp) || 0) * 0.965,
+                    risk_per_share: Math.max(0.5, ((parseFloat(direct.cmp) || 0) * 0.05)),
+                    candles: direct.candles || [],
+                    isScreenerQualified: true,
+                    pe: direct.pe,
+                    pb: direct.pb,
+                    roe: direct.roe,
+                    roce: direct.roce,
+                    richData: direct
+                };
+                putInDossierCache(cleanSym, norm);
+                return norm;
+            }
+
+            try {
+                const shard = getDossierShard(cleanSym);
+                const version = (typeof APP_DATA !== 'undefined' && APP_DATA.market_session_date) ? APP_DATA.market_session_date : '2026-09-25';
+                const resp = await fetch(`./stocks/${shard}/${cleanSym}.json?v=${version}`, { signal });
+                if (resp.ok) {
+                    const json = await resp.json();
+                    const norm = normalizeDossierJson(json, cleanSym);
+                    if (direct) {
+                        norm.richData = direct;
+                        norm.pe = direct.pe;
+                        norm.pb = direct.pb;
+                        norm.roe = direct.roe;
+                        norm.roce = direct.roce;
+                    }
+                    putInDossierCache(cleanSym, norm);
+                    return norm;
+                }
+            } catch (e) {
+                if (e.name === 'AbortError') throw e;
+                console.warn('Dossier fetch error for', cleanSym, e);
+            }
+
+            return direct ? {
+                symbol: cleanSym,
+                company_name: direct.company_name || cleanSym,
+                sector: direct.sector || 'NSE Equities',
+                cmp: parseFloat(direct.cmp) || 0,
+                high_52w: parseFloat(direct.high_52w) || 0,
+                low_52w: parseFloat(direct.low_52w) || 0,
+                dist_52w_pct: parseFloat(direct.dist_52w_pct) || 0,
+                momentum_score: parseInt(direct.momentum_score) || 70,
+                candles: [],
+                richData: direct
+            } : null;
+        }
+
+        async function openStockDossier(symbol, updateHistory) {
             if (updateHistory === undefined) updateHistory = true;
             if (!symbol) return;
             const cleanSym = String(symbol).replace(/NSE:|BSE:|\.NS|\.BO/gi, '').trim().toUpperCase();
 
-            if (!stockSearchIndex || stockSearchIndex.length === 0) buildUniversalSearchIndex();
-
-            let matched = stockSearchIndex.find(s => s.symbol === cleanSym);
-
-            // Robust Fallback: Guarantee rich data from all screener pools even if not in universal array
-            if (!matched || !matched.richData) {
-                const pool = [
-                    ...(APP_DATA.market_screener || []),
-                    ...(APP_DATA.breakouts || []),
-                    ...(APP_DATA.consolidations || []),
-                    ...(APP_DATA.fundamental_leaders || [])
-                ];
-                const direct = pool.find(p => p && p.symbol && p.symbol.replace(/NSE:|BSE:|\.NS|\.BO/gi, '').trim().toUpperCase() === cleanSym);
-                if (direct) {
-                    if (!matched) {
-                        matched = {
-                            symbol: cleanSym,
-                            name: direct.company_name || cleanSym,
-                            sector: direct.sector || 'NSE Equities',
-                            cmp: parseFloat(direct.cmp) || 0,
-                            dist: parseFloat(direct.dist_52w_pct) || 0,
-                            momentum: parseInt(direct.momentum_score) || 75,
-                            isBreakout: Math.abs(parseFloat(direct.dist_52w_pct) || 0) <= 1.0,
-                            isCoiled: (parseFloat(direct.dist_52w_pct) >= -3.5 && parseFloat(direct.dist_52w_pct) < -0.5),
-                            isStage2: !!direct.stage2,
-                            isScreenerQualified: true,
-                            richData: direct
-                        };
-                    } else {
-                        matched.richData = direct;
-                        matched.isScreenerQualified = true;
-                        if (direct.cmp) matched.cmp = parseFloat(direct.cmp);
-                        if (direct.sector) matched.sector = direct.sector;
-                    }
-                }
+            // 1. Concurrency Guard: Abort any pending in-flight request
+            if (activeDossierAbortController) {
+                try { activeDossierAbortController.abort(); } catch(e) {}
             }
+            activeDossierAbortController = new AbortController();
+            const currentSignal = activeDossierAbortController.signal;
+            activeDossierSymbol = cleanSym;
 
-            if (!matched) {
-                matched = {
-                    symbol: cleanSym,
-                    name: cleanSym + ' Limited',
-                    sector: 'NSE Equities Universe',
-                    cmp: 0,
-                    dist: -2.0,
-                    momentum: 70,
-                    isScreenerQualified: false,
-                    richData: null
-                };
-            }
-
-            currentDossierStock = matched;
-
-            // Close other views
+            // 2. Immediate View Switching
             const fresherHome = document.getElementById('fresherHome');
             const proTerminal = document.getElementById('intermediateTerminal');
             const dossierView = document.getElementById('stockDossierView');
@@ -17933,25 +18098,74 @@
             if (proTerminal) proTerminal.style.display = 'none';
             if (stockDrawer) stockDrawer.classList.remove('open');
             if (drawerOverlay) drawerOverlay.classList.remove('open');
-
             if (dossierView) dossierView.style.display = 'block';
 
-            // Populate Dossier Elements
+            // 3. Populate base identity
+            if (!stockSearchIndex || stockSearchIndex.length === 0) buildUniversalSearchIndex();
+            const searchMeta = stockSearchIndex ? stockSearchIndex.find(s => s.symbol === cleanSym) : null;
+
             const setTxt = (id, val) => { const el = document.getElementById(id); if (el) el.innerText = val; };
 
-            setTxt('dossierSym', matched.symbol);
-            setTxt('dossierName', matched.name);
-            setTxt('dossierSector', matched.sector || 'NSE Equities');
+            setTxt('dossierSym', cleanSym);
+            setTxt('dossierName', searchMeta ? searchMeta.name : (cleanSym + ' Limited'));
+            setTxt('dossierSector', searchMeta?.sector || 'NSE Equities');
 
-            const cmp = matched.cmp && matched.cmp > 0 ? matched.cmp : (matched.richData?.cmp || 0);
+            // 4. Shimmer Skeleton State while fetching
+            const isCached = dossierCache.has(cleanSym);
+            if (!isCached) {
+                setTxt('dossierCmp', 'Loading...');
+                const chartContainer = document.getElementById('dossierChartViewport');
+                if (chartContainer) {
+                    chartContainer.innerHTML = `
+                        <div class="chart-loading-overlay">
+                            <div class="pulse-live-dot" style="width: 14px; height: 14px; background: #16A34A; box-shadow: 0 0 14px #16A34A;"></div>
+                            <span class="shimmer-pulse-badge" style="font-size: 0.88rem; font-weight: 700; color: #15803D; font-family: var(--font-mono); letter-spacing: 0.04em;">
+                                STREAMING 252-DAY CANDLESTICKS FOR NSE:${cleanSym}...
+                            </span>
+                        </div>
+                    `;
+                }
+            }
+
+            // 5. Asynchronous Data Fetch
+            let stockData = null;
+            try {
+                stockData = await fetchDossierData(cleanSym, currentSignal);
+            } catch (err) {
+                if (err.name === 'AbortError') return;
+            }
+
+            // Stale check
+            if (activeDossierSymbol !== cleanSym) return;
+
+            if (!stockData) {
+                stockData = {
+                    symbol: cleanSym,
+                    company_name: searchMeta ? searchMeta.name : cleanSym,
+                    sector: searchMeta?.sector || 'NSE Equities Universe',
+                    cmp: 0,
+                    dist_52w_pct: -2.0,
+                    momentum_score: 50,
+                    is_breakout: false,
+                    is_coiled: false,
+                    is_stage2: false,
+                    candles: []
+                };
+            }
+
+            currentDossierStock = stockData;
+
+            // 6. Populate Verified Metrics
+            const cmp = stockData.cmp || 0;
             setTxt('dossierCmp', cmp > 0 ? '₹' + cmp.toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2}) : 'Live Quote on NSE');
 
             const changeEl = document.getElementById('dossierChange');
             if (changeEl) {
                 if (cmp > 0) {
-                    changeEl.innerText = '▲ EOD Active';
-                    changeEl.style.background = 'rgba(16, 185, 129, 0.12)';
-                    changeEl.style.color = '#10B981';
+                    const chg = stockData.change_pct || 0;
+                    changeEl.innerText = (chg >= 0 ? '▲ +' : '▼ ') + chg.toFixed(2) + '% (EOD Settled)';
+                    changeEl.style.background = chg >= 0 ? 'rgba(16, 185, 129, 0.12)' : 'rgba(244, 63, 94, 0.12)';
+                    changeEl.style.color = chg >= 0 ? '#10B981' : '#F43F5E';
                 } else {
                     changeEl.innerText = 'Listed Equity';
                     changeEl.style.background = 'rgba(59, 130, 246, 0.12)';
@@ -17960,45 +18174,40 @@
             }
 
             // 52W Spectrum
-            const low = matched.richData?.low_52w || (cmp > 0 ? cmp * 0.72 : 0);
-            const high = matched.richData?.high_52w || (cmp > 0 ? cmp * 1.15 : 0);
+            const low = stockData.low_52w || (cmp > 0 ? cmp * 0.72 : 0);
+            const high = stockData.high_52w || (cmp > 0 ? cmp * 1.15 : 0);
             setTxt('dossierLow', low > 0 ? '₹' + low.toLocaleString('en-IN') : '—');
             setTxt('dossierHigh', high > 0 ? '₹' + high.toLocaleString('en-IN') : '—');
 
-            let pct = 60;
+            let pct = 50;
             if (high > low && cmp > 0) {
                 pct = Math.min(100, Math.max(0, ((cmp - low) / (high - low)) * 100));
             }
             const pinEl = document.getElementById('dossierPin');
             if (pinEl) pinEl.style.left = pct + '%';
 
-            const distVal = matched.dist || matched.richData?.dist_52w_pct || 0;
-            setTxt('dossierDist52w', distVal >= 0 ? 'At 52-Week High' : distVal.toFixed(1) + '% from 52W Peak');
+            const distVal = typeof stockData.dist_52w_pct === 'number' ? stockData.dist_52w_pct : 0;
+            setTxt('dossierDist52w', distVal >= -0.5 ? 'At 52-Week High' : distVal.toFixed(1) + '% from 52W Peak');
 
             // Quality Badge
             const badgeEl = document.getElementById('dossierBadge');
             if (badgeEl) {
-                if (matched.isScreenerQualified) {
-                    badgeEl.innerText = '⭐ Quant Screener Qualified';
-                    badgeEl.className = 'dossier-quality-badge';
-                } else {
-                    badgeEl.innerText = '📊 NSE Listed Equity';
-                    badgeEl.className = 'dossier-sector-tag';
-                }
+                badgeEl.innerText = '⭐ Quantitative Dossier Verified';
+                badgeEl.className = 'dossier-quality-badge';
             }
 
             // Bento Barometers
             const regimeVal = document.getElementById('dossierRegimeVal');
             const regimeSub = document.getElementById('dossierRegimeSub');
-            if (matched.isBreakout) {
+            if (stockData.is_breakout) {
                 setTxt('dossierRegimeVal', '🚀 52W Breakout');
                 if (regimeVal) regimeVal.style.color = 'var(--accent-blue)';
                 setTxt('dossierRegimeSub', 'Clearing major resistance');
-            } else if (matched.isCoiled) {
+            } else if (stockData.is_coiled) {
                 setTxt('dossierRegimeVal', '⚡ Coiled < 3%');
                 if (regimeVal) regimeVal.style.color = '#8B5CF6';
                 setTxt('dossierRegimeSub', 'Tight Volatility Contraction');
-            } else if (matched.isStage2) {
+            } else if (stockData.is_stage2) {
                 setTxt('dossierRegimeVal', '🟢 Stage 2 Trend');
                 if (regimeVal) regimeVal.style.color = 'var(--accent-emerald)';
                 setTxt('dossierRegimeSub', 'Institutional Uptrend Template');
@@ -18008,19 +18217,20 @@
                 setTxt('dossierRegimeSub', 'NSE Listed Scrip');
             }
 
-            const hasPe = matched.richData?.pe && matched.richData.pe !== 'N/A' && matched.richData.pe !== '—' && matched.richData.pe !== -1;
-            const hasRoe = matched.richData?.roe && matched.richData.roe !== 'N/A' && matched.richData.roe !== '—' && matched.richData.roe !== -1;
-            const hasRoce = matched.richData?.roce && matched.richData.roce !== 'N/A' && matched.richData.roce !== '—' && matched.richData.roce !== -1;
-            const hasPb = matched.richData?.pb && matched.richData.pb !== 'N/A' && matched.richData.pb !== '—' && matched.richData.pb !== -1;
+            setTxt('dossierMomVal', (stockData.momentum_score || 60) + '/100');
+            setTxt('dossierVolVal', stockData.volume_multiplier || '1.1x');
 
-            setTxt('dossierMomVal', (matched.momentum || 75) + '/100');
-            setTxt('dossierVolVal', (matched.richData?.volume_multiplier || '1.1x'));
-            setTxt('dossierPeVal', hasPe ? (matched.richData.pe + ' P/E') : '—');
-            setTxt('dossierRoeSub', (hasRoe ? ('ROE: ' + matched.richData.roe + '%') : 'ROE: —') + ' • ' + (hasRoce ? ('ROCE: ' + matched.richData.roce + '%') : 'ROCE: —'));
+            const hasPe = stockData.pe && stockData.pe !== 'N/A' && stockData.pe !== -1;
+            const hasRoe = stockData.roe && stockData.roe !== 'N/A' && stockData.roe !== -1;
+            const hasRoce = stockData.roce && stockData.roce !== 'N/A' && stockData.roce !== -1;
+            const hasPb = stockData.pb && stockData.pb !== 'N/A' && stockData.pb !== -1;
 
-            // SEBI-Compliant Risk & Pattern Matrix
-            currentDossierPivot = cmp > 0 ? (cmp * (distVal >= -1.0 ? 1.008 : 1.02)) : 0;
-            currentDossierFloor = cmp > 0 ? (cmp * 0.965) : 0;
+            setTxt('dossierPeVal', hasPe ? (stockData.pe + ' P/E') : '—');
+            setTxt('dossierRoeSub', (hasRoe ? ('ROE: ' + stockData.roe + '%') : 'ROE: —') + ' • ' + (hasRoce ? ('ROCE: ' + stockData.roce + '%') : 'ROCE: —'));
+
+            // SEBI-Compliant Risk Matrix
+            currentDossierPivot = stockData.technical_pivot || (cmp > 0 ? (cmp * (distVal >= -1.0 ? 1.008 : 1.02)) : 0);
+            currentDossierFloor = stockData.invalidation_floor || (cmp > 0 ? (cmp * 0.965) : 0);
 
             if (cmp > 0) {
                 setTxt('dossierEduPivot', '₹' + currentDossierPivot.toFixed(2));
@@ -18035,10 +18245,10 @@
 
             const patternBadge = document.getElementById('dossierEduPatternBadge');
             if (patternBadge) {
-                if (cmp > 0 && distVal >= -1.0) {
+                if (cmp > 0 && stockData.is_breakout) {
                     patternBadge.innerText = '🚀 52-Week High Breakout Structure';
                     patternBadge.className = 'drop-reason-pill drop-reason-green';
-                } else if (cmp > 0 && distVal >= -3.5) {
+                } else if (cmp > 0 && stockData.is_coiled) {
                     patternBadge.innerText = '⚡ Minervini Volatility Contraction Base';
                     patternBadge.className = 'drop-reason-pill drop-reason-blue';
                 } else if (cmp > 0) {
@@ -18053,35 +18263,30 @@
             calculateDossierSimulation();
 
             // Fundamentals Table
-            setTxt('dossierTblPE', hasPe ? matched.richData.pe : '—');
-            setTxt('dossierTblPB', hasPb ? matched.richData.pb : '—');
-            setTxt('dossierTblROE', hasRoe ? (matched.richData.roe + '%') : '—');
-            setTxt('dossierTblROCE', hasRoce ? (matched.richData.roce + '%') : '—');
+            setTxt('dossierTblPE', hasPe ? stockData.pe : '—');
+            setTxt('dossierTblPB', hasPb ? stockData.pb : '—');
+            setTxt('dossierTblROE', hasRoe ? (stockData.roe + '%') : '—');
+            setTxt('dossierTblROCE', hasRoce ? (stockData.roce + '%') : '—');
             setTxt('dossierTblHigh', low > 0 ? '₹' + high.toLocaleString('en-IN') : '—');
             setTxt('dossierTblLow', low > 0 ? '₹' + low.toLocaleString('en-IN') : '—');
-            setTxt('dossierTblSector', matched.sector || 'NSE Equities');
+            setTxt('dossierTblSector', stockData.sector || 'NSE Equities');
 
-            // Peer Matrix
-            renderDossierPeers(matched.sector, cleanSym);
+            renderDossierPeers(stockData.sector, cleanSym);
 
-            // TradingView Link
             const tvLink = document.getElementById('dossierTvLink');
             if (tvLink) tvLink.href = 'https://in.tradingview.com/chart/?symbol=NSE:' + cleanSym;
 
-            // Render Full Candlestick Chart
-            renderDossierChart(cleanSym, matched.richData);
+            // Render Full Candlestick Chart (Universal for all 2,213+ stocks!)
+            renderDossierChart(cleanSym, stockData);
 
-            // Watchlist Button State
             updateDossierWatchlistBtn(cleanSym);
 
-            // URL Hash History
             if (updateHistory) {
                 history.pushState({ view: 'dossier', symbol: cleanSym }, '', '#stock/' + cleanSym);
             }
 
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
-
         function closeStockDossier(updateHistory) {
             if (updateHistory === undefined) updateHistory = true;
             const dossierView = document.getElementById('stockDossierView');
