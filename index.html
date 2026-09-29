@@ -13839,14 +13839,15 @@
                 <div class="dossier-section-card">
                     <div class="dossier-sec-title">
                         <span>💎 Fundamental Profile &amp; Balance Sheet Health</span>
-                        <span style="font-size: 0.72rem; color: var(--text-muted);">Bhavcopy Verified</span>
+                        <span id="dossierFundamentalsStatus" style="font-size: 0.72rem; color: var(--text-muted);"></span>
                     </div>
+                    <p id="dossierFundamentalsNotice" role="status" style="font-size:0.85rem;color:var(--text-secondary);line-height:1.5;margin:12px 0;"></p>
                     <table class="dossier-metrics-table">
                         <tbody>
-                            <tr><td>P/E Ratio</td><td id="dossierTblPE">24.5</td></tr>
-                            <tr><td>Price to Book (P/B)</td><td id="dossierTblPB">3.2</td></tr>
-                            <tr><td>Return on Equity (ROE)</td><td id="dossierTblROE">16.5%</td></tr>
-                            <tr><td>Return on Capital Employed (ROCE)</td><td id="dossierTblROCE">18.2%</td></tr>
+                            <tr><td>P/E Ratio</td><td id="dossierTblPE">—</td></tr>
+                            <tr><td>Price to Book (P/B)</td><td id="dossierTblPB">—</td></tr>
+                            <tr><td>Return on Equity (ROE)</td><td id="dossierTblROE">—</td></tr>
+                            <tr><td>Return on Capital Employed (ROCE)</td><td id="dossierTblROCE">—</td></tr>
                             <tr><td>52-Week High</td><td id="dossierTblHigh">₹0.00</td></tr>
                             <tr><td>52-Week Low</td><td id="dossierTblLow">₹0.00</td></tr>
                             <tr><td>Sector Classification</td><td id="dossierTblSector">Diversified</td></tr>
@@ -18395,8 +18396,33 @@
             dossierCache.set(symbol, data);
         }
 
+        function readDossierFundamentals(primary = {}, fallback = {}) {
+            const result = {};
+            for (const key of ['pe', 'pb', 'roe', 'roce']) {
+                const value = numericMetric(primary?.[key]);
+                result[key] = value === null ? numericMetric(fallback?.[key]) : value;
+            }
+            return result;
+        }
+
+        function renderDossierFundamentals(stock) {
+            const values = readDossierFundamentals(stock);
+            const available = Object.values(values).filter(value => value !== null).length;
+            for (const [key, id] of Object.entries({pe: 'PE', pb: 'PB', roe: 'ROE', roce: 'ROCE'})) {
+                document.getElementById('dossierTbl' + id).textContent = formatMetric(values[key], key === 'roe' || key === 'roce' ? '%' : '');
+            }
+            document.getElementById('dossierFundamentalsStatus').textContent = available === 4 ? 'Reported ratios' : available ? 'Partial ratio coverage' : 'Ratios unavailable';
+            const notice = document.getElementById('dossierFundamentalsNotice');
+            notice.hidden = available === 4;
+            notice.textContent = available === 0
+                ? 'P/E, P/B, ROE and ROCE are not included in the available data for this stock. Price history and sector information are shown below; missing ratios are not zero.'
+                : 'Some ratios are not included in the available data for this stock. An em dash indicates an unavailable value.';
+        }
+
         function normalizeDossierJson(json, cleanSym) {
             if (!json) return null;
+            const canonical = [...(APP_DATA.market_screener || []), ...(APP_DATA.fundamental_leaders || [])].find(stock => stock.symbol === cleanSym);
+            const fundamentals = readDossierFundamentals(json.fundamentals || json, canonical);
             const price = json.price || {};
             const range = json.range || {};
             const metrics = json.metrics || {};
@@ -18440,6 +18466,7 @@
                 risk_per_share: riskPerShare,
                 candles: candles,
                 isScreenerQualified: true,
+                ...fundamentals,
                 source: 'static_dossier'
             };
         }
@@ -18514,10 +18541,7 @@
                     const norm = normalizeDossierJson(json, cleanSym);
                     if (direct) {
                         norm.richData = direct;
-                        norm.pe = direct.pe;
-                        norm.pb = direct.pb;
-                        norm.roe = direct.roe;
-                        norm.roce = direct.roce;
+                        Object.assign(norm, readDossierFundamentals(norm, direct));
                     }
                     putInDossierCache(cleanSym, norm);
                     return norm;
@@ -18687,10 +18711,10 @@
             setTxt('dossierMomVal', (stockData.momentum_score || 60) + '/100');
             setTxt('dossierVolVal', stockData.volume_multiplier || '1.1x');
 
-            const hasPe = stockData.pe && stockData.pe !== 'N/A' && stockData.pe !== -1;
-            const hasRoe = stockData.roe && stockData.roe !== 'N/A' && stockData.roe !== -1;
-            const hasRoce = stockData.roce && stockData.roce !== 'N/A' && stockData.roce !== -1;
-            const hasPb = stockData.pb && stockData.pb !== 'N/A' && stockData.pb !== -1;
+            const hasPe = numericMetric(stockData.pe) !== null;
+            const hasRoe = numericMetric(stockData.roe) !== null;
+            const hasRoce = numericMetric(stockData.roce) !== null;
+            const hasPb = numericMetric(stockData.pb) !== null;
 
             setTxt('dossierPeVal', hasPe ? (stockData.pe + ' P/E') : '—');
             setTxt('dossierRoeSub', (hasRoe ? ('ROE: ' + stockData.roe + '%') : 'ROE: —') + ' • ' + (hasRoce ? ('ROCE: ' + stockData.roce + '%') : 'ROCE: —'));
@@ -18730,10 +18754,7 @@
             calculateDossierSimulation();
 
             // Fundamentals Table
-            setTxt('dossierTblPE', hasPe ? stockData.pe : '—');
-            setTxt('dossierTblPB', hasPb ? stockData.pb : '—');
-            setTxt('dossierTblROE', hasRoe ? (stockData.roe + '%') : '—');
-            setTxt('dossierTblROCE', hasRoce ? (stockData.roce + '%') : '—');
+            renderDossierFundamentals(stockData);
             setTxt('dossierTblHigh', low > 0 ? '₹' + high.toLocaleString('en-IN') : '—');
             setTxt('dossierTblLow', low > 0 ? '₹' + low.toLocaleString('en-IN') : '—');
             setTxt('dossierTblSector', stockData.sector || 'NSE Equities');

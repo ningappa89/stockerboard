@@ -32,6 +32,7 @@ console.log('regressions', await ev(`(async () => {
  const before=getWatchlist().includes(row.dataset.sym);row.querySelector('.star-btn').click();check('watch star stays in results',!document.getElementById('drawerOverlay').classList.contains('open'));check('watch persistence',getWatchlist().includes(row.dataset.sym)!==before);row.querySelector('.star-btn').click();
  const theme=document.documentElement.dataset.theme;toggleTheme();check('theme toggle',document.documentElement.dataset.theme!==theme);toggleTheme();
  const stock=await fetchDossierData('RELIANCE');check('dossier on demand',stock&&stock.symbol==='RELIANCE');
+ await openStockDossier('HDFCBANK'); check('HDFCBANK missing fundamentals explained',document.getElementById('dossierFundamentalsStatus').textContent==='Ratios unavailable' && !document.getElementById('dossierFundamentalsNotice').hidden && document.getElementById('dossierTblPE').textContent==='—'); closeStockDossier();
  check('retained tools',['exportActiveTableCSV','copyTradingViewTickers','copyFilteredTradingViewWatchlist','refreshRiskShield','updateJournalUI','handleGoogleAuthClick'].every(n=>typeof window[n]==='function'));
  return checks;
 })()`));
