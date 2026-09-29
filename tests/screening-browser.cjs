@@ -32,11 +32,21 @@ console.log('regressions', await ev(`(async () => {
  const before=getWatchlist().includes(row.dataset.sym);row.querySelector('.star-btn').click();check('watch star stays in results',!document.getElementById('drawerOverlay').classList.contains('open'));check('watch persistence',getWatchlist().includes(row.dataset.sym)!==before);row.querySelector('.star-btn').click();
  const theme=document.documentElement.dataset.theme;toggleTheme();check('theme toggle',document.documentElement.dataset.theme!==theme);toggleTheme();
  const stock=await fetchDossierData('RELIANCE');check('dossier on demand',stock&&stock.symbol==='RELIANCE');
- await openStockDossier('HDFCBANK'); check('HDFCBANK missing fundamentals explained',document.getElementById('dossierFundamentalsStatus').textContent==='Ratios unavailable' && !document.getElementById('dossierFundamentalsNotice').hidden && document.getElementById('dossierTblPE').textContent==='—'); closeStockDossier();
+ await openStockDossier('HDFCBANK'); check('HDFCBANK sourced fundamentals',document.getElementById('dossierFundamentalsStatus').textContent==='Stock-specific ratios' && document.getElementById('dossierFundamentalsNotice').hidden && document.getElementById('dossierTblPE').textContent==='14.8' && document.getElementById('dossierTblPB').textContent==='1.93' && document.getElementById('dossierTblROE').textContent==='14%' && document.getElementById('dossierTblROCE').textContent==='6.92%'); closeStockDossier();
+ check('all visible stocks have own fundamentals record',APP_DATA.market_screener.every(stock=>fundamentalsSnapshot[stock.symbol]));
+ check('all visible stock data merged by symbol',APP_DATA.market_screener.every(stock=>['pe','pb','roe','roce'].every(key=>stock[key]===fundamentalsSnapshot[stock.symbol][key])));
+ await openStockDossier('SHIPROCKET'); check('empty source does not retain HDFCBANK values',document.getElementById('dossierFundamentalsStatus').textContent==='Ratios unavailable' && document.getElementById('dossierTblPE').textContent==='—' && !document.getElementById('dossierFundamentalsNotice').hidden); closeStockDossier();
+ for (const symbol of ['TCS','INFY','ITC','SBIN','RELIANCE','FEDDERSHOL']) {const data=await fetchDossierData(symbol);const expected=fundamentalsSnapshot[symbol];check(symbol+' stock-specific ratios',['pe','pb','roe','roce'].every(key=>data[key]===expected[key]));}
+ check('one shared fundamentals request',performance.getEntriesByType('resource').filter(r=>r.name.includes('/fundamentals.json')).length===1);
  check('retained tools',['exportActiveTableCSV','copyTradingViewTickers','copyFilteredTradingViewWatchlist','refreshRiskShield','updateJournalUI','handleGoogleAuthClick'].every(n=>typeof window[n]==='function'));
  return checks;
 })()`));
 await ev('closeStockDrawer(); resetScreenFilters();');
+await call('Emulation.setDeviceMetricsOverride',{width:1280,height:1000,deviceScaleFactor:1,mobile:false});
+await ev('openStockDossier("HDFCBANK")');
+await ev('document.getElementById("dossierFundamentalsStatus").scrollIntoView({block:"center"})');
+const hdfcShot=await call('Page.captureScreenshot',{format:'png'});fs.writeFileSync(path.join(output,'hdfcbank-fundamentals.png'),Buffer.from(hdfcShot.data,'base64'));
+await ev('closeStockDossier(); window.scrollTo(0,0)');
 for(const width of [1440,1280,1024,768,430,390,375]){
 await call('Emulation.setDeviceMetricsOverride',{width,height:900,deviceScaleFactor:1,mobile:false});
 console.log(width,await ev('JSON.stringify({page:document.documentElement.scrollWidth,viewport:innerWidth,table:document.getElementById("screenerTable").getBoundingClientRect().width,resultsY:document.getElementById("tab-screener").getBoundingClientRect().top})'));

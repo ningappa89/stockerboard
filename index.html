@@ -13841,6 +13841,7 @@
                         <span>💎 Fundamental Profile &amp; Balance Sheet Health</span>
                         <span id="dossierFundamentalsStatus" style="font-size: 0.72rem; color: var(--text-muted);"></span>
                     </div>
+                    <p id="dossierFundamentalsSource" style="font-size:0.75rem;color:var(--text-secondary);line-height:1.5;margin:12px 0;"></p>
                     <p id="dossierFundamentalsNotice" role="status" style="font-size:0.85rem;color:var(--text-secondary);line-height:1.5;margin:12px 0;"></p>
                     <table class="dossier-metrics-table">
                         <tbody>
@@ -14365,6 +14366,34 @@
         }
 
 
+        let fundamentalsSnapshot = {};
+        let fundamentalsLoadPromise;
+        let fundamentalsLoaded = false;
+
+        function loadFundamentalsSnapshot() {
+            if (!fundamentalsLoadPromise) {
+                fundamentalsLoadPromise = fetch('./fundamentals.json?v=20260929', {cache: 'no-cache'})
+                    .then(response => { if (!response.ok) throw new Error('Fundamentals snapshot unavailable'); return response.json(); })
+                    .then(snapshot => {
+                        if (snapshot.schema_version !== 1 || !snapshot.stocks || typeof snapshot.stocks !== 'object') throw new Error('Invalid fundamentals snapshot');
+                        fundamentalsSnapshot = snapshot.stocks;
+                        for (const pool of Object.values(APP_DATA)) {
+                            if (!Array.isArray(pool)) continue;
+                            for (const stock of pool) {
+                                if (!stock || typeof stock !== 'object' || !stock.symbol) continue;
+                                const ratios = fundamentalsSnapshot[stock.symbol];
+                                if (!ratios) continue;
+                                Object.assign(stock, readDossierFundamentals(ratios), {fundamentals_metadata: ratios});
+                                stock.pe_raw = stock.pe; stock.roe_raw = stock.roe;
+                            }
+                        }
+                    })
+                    .catch(error => { console.warn(error.message); })
+                    .finally(() => { fundamentalsLoaded = true; });
+            }
+            return fundamentalsLoadPromise;
+        }
+
         function numericMetric(value) {
             if (value === null || value === undefined || value === '' || value === 'N/A') return null;
             const n = parseFloat(value);
@@ -14423,7 +14452,8 @@
             const summary = document.getElementById('drawerScreenSummary');
             summary.innerHTML = `<div class="screen-setup">${setupLabel(stock)}</div><h3>52 week position</h3>${positionMarkup(stock)}<dl class="screen-metrics"><div><dt>Volume</dt><dd>${formatMetric(stock.volume_multiplier, '×')}</dd></div><div><dt>ROE</dt><dd>${formatMetric(stock.roe, '%')}</dd></div><div><dt>P/E</dt><dd>${formatMetric(stock.pe)}</dd></div>${numericMetric(stock.invalidation_floor) > 0 ? '<div><dt>Risk Floor</dt><dd>₹' + formatMetric(stock.invalidation_floor) + '</dd></div>' : ''}</dl>`;
         }
-        function initializeScreeningUI() {
+        async function initializeScreeningUI() {
+            await loadFundamentalsSnapshot();
             const table = document.getElementById('screenerTable');
             const stocks = new Map((APP_DATA.market_screener || []).map(s => [s.symbol, s]));
             const tbody = table.tBodies[0];
@@ -15318,6 +15348,7 @@
                 };
             }
 
+            if (fundamentalsSnapshot[cleanSym]) Object.assign(stock, readDossierFundamentals(fundamentalsSnapshot[cleanSym]), {fundamentals_metadata: fundamentalsSnapshot[cleanSym]});
             currentDrawerSym = cleanSym;
             const setTxt = (id, val) => { const el = document.getElementById(id); if (el) el.innerText = val; };
 
@@ -18411,7 +18442,19 @@
             for (const [key, id] of Object.entries({pe: 'PE', pb: 'PB', roe: 'ROE', roce: 'ROCE'})) {
                 document.getElementById('dossierTbl' + id).textContent = formatMetric(values[key], key === 'roe' || key === 'roce' ? '%' : '');
             }
-            document.getElementById('dossierFundamentalsStatus').textContent = available === 4 ? 'Reported ratios' : available ? 'Partial ratio coverage' : 'Ratios unavailable';
+            document.getElementById('dossierFundamentalsStatus').textContent = available === 4 ? 'Stock-specific ratios' : available ? 'Partial ratio coverage' : 'Ratios unavailable';
+            const provenance = document.getElementById('dossierFundamentalsSource');
+            provenance.replaceChildren();
+            const metadata = stock.fundamentals_metadata;
+            if (metadata) {
+                const source = document.createElement('a');
+                try {
+                    const url = new URL(metadata.source_url);
+                    if (url.protocol === 'https:' && url.hostname === 'www.screener.in') { source.href = url.href; source.target = '_blank'; source.rel = 'noopener noreferrer'; }
+                } catch (_) {}
+                source.textContent = metadata.source || 'Fundamentals source';
+                provenance.append(source, document.createTextNode(' · Standalone · Retrieved ' + String(metadata.retrieved_at || '').slice(0, 10) + (metadata.pb_basis ? ' · P/B = source price ÷ book value' : '')));
+            }
             const notice = document.getElementById('dossierFundamentalsNotice');
             notice.hidden = available === 4;
             notice.textContent = available === 0
@@ -18422,7 +18465,8 @@
         function normalizeDossierJson(json, cleanSym) {
             if (!json) return null;
             const canonical = [...(APP_DATA.market_screener || []), ...(APP_DATA.fundamental_leaders || [])].find(stock => stock.symbol === cleanSym);
-            const fundamentals = readDossierFundamentals(json.fundamentals || json, canonical);
+            const metadata = fundamentalsSnapshot[cleanSym] || json.fundamentals_metadata || canonical?.fundamentals_metadata;
+            const fundamentals = readDossierFundamentals(fundamentalsSnapshot[cleanSym] || json.fundamentals || json, canonical);
             const price = json.price || {};
             const range = json.range || {};
             const metrics = json.metrics || {};
@@ -18467,11 +18511,13 @@
                 candles: candles,
                 isScreenerQualified: true,
                 ...fundamentals,
+                fundamentals_metadata: metadata,
                 source: 'static_dossier'
             };
         }
 
-        function preloadDossier(symbol) {
+        async function preloadDossier(symbol) {
+            await loadFundamentalsSnapshot();
             if (!symbol) return;
             const cleanSym = String(symbol).replace(/NSE:|BSE:|\.NS|\.BO/gi, '').trim().toUpperCase();
             if (dossierCache.has(cleanSym)) return;
@@ -18490,6 +18536,7 @@
         }
 
         async function fetchDossierData(cleanSym, signal) {
+            await loadFundamentalsSnapshot();
             if (dossierCache.has(cleanSym)) {
                 return dossierCache.get(cleanSym);
             }
@@ -18526,6 +18573,7 @@
                     pb: direct.pb,
                     roe: direct.roe,
                     roce: direct.roce,
+                    fundamentals_metadata: direct.fundamentals_metadata,
                     richData: direct
                 };
                 putInDossierCache(cleanSym, norm);
@@ -18561,6 +18609,8 @@
                 dist_52w_pct: parseFloat(direct.dist_52w_pct) || 0,
                 momentum_score: parseInt(direct.momentum_score) || 70,
                 candles: [],
+                ...readDossierFundamentals(fundamentalsSnapshot[cleanSym] || direct),
+                fundamentals_metadata: fundamentalsSnapshot[cleanSym] || direct.fundamentals_metadata,
                 richData: direct
             } : null;
         }
@@ -18597,6 +18647,9 @@
 
             const setTxt = (id, val) => { const el = document.getElementById(id); if (el) el.innerText = val; };
 
+            renderDossierFundamentals({symbol: cleanSym});
+            document.getElementById('dossierFundamentalsStatus').textContent = 'Loading ratios…';
+            document.getElementById('dossierFundamentalsNotice').hidden = true;
             setTxt('dossierSym', cleanSym);
             setTxt('dossierName', searchMeta ? searchMeta.name : (cleanSym + ' Limited'));
             setTxt('dossierSector', searchMeta?.sector || 'NSE Equities');
@@ -19082,6 +19135,7 @@
         // Replace openStockDrawer so table clicks open the full Dossier
         const _origDrawer = openStockDrawer;
         openStockDrawer = function(symbol) {
+            if (!fundamentalsLoaded) { loadFundamentalsSnapshot().then(() => openStockDrawer(symbol)); return; }
             _origDrawer(symbol);
             renderQuickView(symbol);
             trackEvent('screener_stock_opened', {symbol});
