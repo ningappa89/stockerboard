@@ -1,4 +1,6 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
     {
       "close": 823.35,
@@ -1137,6 +1139,54 @@
       "volume": 212211
     },
     {
+      "close": 1751.4,
+      "high": 1835.0,
+      "low": 1727.1,
+      "open": 1800.0,
+      "time": "2026-04-30",
+      "volume": 140593
+    },
+    {
+      "close": 1666.8,
+      "high": 1774.0,
+      "low": 1663.9,
+      "open": 1774.0,
+      "time": "2026-05-04",
+      "volume": 105287
+    },
+    {
+      "close": 1587.4,
+      "high": 1645.0,
+      "low": 1583.5,
+      "open": 1645.0,
+      "time": "2026-05-05",
+      "volume": 183994
+    },
+    {
+      "close": 1541.7,
+      "high": 1644.0,
+      "low": 1508.1,
+      "open": 1580.0,
+      "time": "2026-05-06",
+      "volume": 116038
+    },
+    {
+      "close": 1617.6,
+      "high": 1618.7,
+      "low": 1509.1,
+      "open": 1534.0,
+      "time": "2026-05-07",
+      "volume": 79500
+    },
+    {
+      "close": 1646.1,
+      "high": 1698.3,
+      "low": 1570.0,
+      "open": 1635.0,
+      "time": "2026-05-08",
+      "volume": 71140
+    },
+    {
       "close": 1728.4,
       "high": 1728.4,
       "low": 1728.4,
@@ -1271,6 +1321,102 @@
       "open": 1943.0,
       "time": "2026-06-03",
       "volume": 116065
+    },
+    {
+      "close": 2151.5,
+      "high": 2152.6,
+      "low": 2082.0,
+      "open": 2148.0,
+      "time": "2026-06-04",
+      "volume": 87277
+    },
+    {
+      "close": 2044.0,
+      "high": 2144.2,
+      "low": 2044.0,
+      "open": 2140.0,
+      "time": "2026-06-05",
+      "volume": 64072
+    },
+    {
+      "close": 1954.6,
+      "high": 1995.0,
+      "low": 1941.8,
+      "open": 1941.8,
+      "time": "2026-06-08",
+      "volume": 78343
+    },
+    {
+      "close": 1890.7,
+      "high": 1993.0,
+      "low": 1872.1,
+      "open": 1944.0,
+      "time": "2026-06-09",
+      "volume": 49415
+    },
+    {
+      "close": 1855.5,
+      "high": 1929.9,
+      "low": 1830.1,
+      "open": 1890.7,
+      "time": "2026-06-10",
+      "volume": 34410
+    },
+    {
+      "close": 1825.2,
+      "high": 1940.0,
+      "low": 1801.2,
+      "open": 1846.2,
+      "time": "2026-06-11",
+      "volume": 48541
+    },
+    {
+      "close": 1843.7,
+      "high": 1885.0,
+      "low": 1775.5,
+      "open": 1865.0,
+      "time": "2026-06-12",
+      "volume": 120812
+    },
+    {
+      "close": 1828.3,
+      "high": 1894.4,
+      "low": 1781.1,
+      "open": 1885.0,
+      "time": "2026-06-15",
+      "volume": 46174
+    },
+    {
+      "close": 1919.7,
+      "high": 1919.7,
+      "low": 1836.0,
+      "open": 1850.0,
+      "time": "2026-06-16",
+      "volume": 99721
+    },
+    {
+      "close": 1956.1,
+      "high": 2010.0,
+      "low": 1890.0,
+      "open": 1919.7,
+      "time": "2026-06-17",
+      "volume": 62470
+    },
+    {
+      "close": 1905.5,
+      "high": 1970.0,
+      "low": 1865.0,
+      "open": 1969.0,
+      "time": "2026-06-18",
+      "volume": 50050
+    },
+    {
+      "close": 1915.7,
+      "high": 1930.0,
+      "low": 1851.8,
+      "open": 1899.9,
+      "time": "2026-06-19",
+      "volume": 26962
     },
     {
       "close": 1931.0,
@@ -1820,9 +1966,9 @@
   "company_name": "Atlanta Electricals Limited",
   "history": {
     "first_session": "2025-09-29",
-    "has_full_52w_history": true,
+    "has_full_52w_history": false,
     "last_session": "2026-09-25",
-    "sessions_available": 227
+    "sessions_available": 245
   },
   "industry": null,
   "isin": "INE0Z4F01028",
@@ -1830,7 +1976,7 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
+    "momentum_score": 53,
     "setup_type": "Liquid Active",
     "volume_multiplier": "1.3x"
   },
@@ -1844,12 +1990,12 @@
     "volume": 155340
   },
   "range": {
-    "distance_from_high_pct": -21.0,
+    "distance_from_high_pct": -24.47,
     "distance_from_low_pct": 129.78,
-    "high_52w": 2058.0,
+    "high_52w": 2152.6,
     "history_basis": "52_WEEK",
     "low_52w": 707.6,
-    "range_position_pct": 68.0
+    "range_position_pct": 63.55
   },
   "risk_model": {
     "invalidation_floor": 1568.99,

@@ -1,4 +1,6 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
     {
       "close": 42.7,
@@ -855,14 +857,22 @@
       "open": 73.45,
       "time": "2026-09-21",
       "volume": 621549
+    },
+    {
+      "close": 80.56,
+      "high": 80.56,
+      "low": 74.1,
+      "open": 76.73,
+      "time": "2026-09-22",
+      "volume": 193585
     }
   ],
   "company_name": "QUINT DIGITAL LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-21",
-    "sessions_available": 107
+    "last_session": "2026-09-22",
+    "sessions_available": 108
   },
   "industry": null,
   "isin": "INE641R01017",
@@ -870,31 +880,31 @@
     "is_breakout": true,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 89,
+    "momentum_score": 90,
     "setup_type": "52W High Breakout",
-    "volume_multiplier": "7.05x"
+    "volume_multiplier": "2.01x"
   },
   "price": {
-    "as_of": "2026-09-21",
-    "change": 6.71,
-    "change_pct": 9.58,
-    "close": 76.73,
-    "previous_close": 70.02,
+    "as_of": "2026-09-22",
+    "change": 3.83,
+    "change_pct": 4.99,
+    "close": 80.56,
+    "previous_close": 76.73,
     "type": "EOD_CLOSE",
-    "volume": 621549
+    "volume": 193585
   },
   "range": {
-    "distance_from_high_pct": -0.38,
-    "distance_from_low_pct": 129.39,
-    "high_52w": 77.02,
+    "distance_from_high_pct": 0.0,
+    "distance_from_low_pct": 140.84,
+    "high_52w": 80.56,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 33.45,
-    "range_position_pct": 99.33
+    "range_position_pct": 100.0
   },
   "risk_model": {
-    "invalidation_floor": 74.04,
-    "risk_per_share": 3.3,
-    "technical_pivot": 77.34
+    "invalidation_floor": 77.74,
+    "risk_per_share": 3.46,
+    "technical_pivot": 81.2
   },
   "schema_version": "1.0",
   "sector": null,

@@ -1,4 +1,6 @@
 {
+  "analytics_reason": "UNRESOLVED_CORPORATE_ACTION",
+  "analytics_status": "BLOCKED_INPUT",
   "candles": [
     {
       "close": 4793.0,
@@ -2026,14 +2028,7 @@
   },
   "industry": null,
   "isin": "INE640A01023",
-  "metrics": {
-    "is_breakout": false,
-    "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.38x"
-  },
+  "metrics": null,
   "price": {
     "as_of": "2026-09-25",
     "change": -2.2,
@@ -2043,19 +2038,8 @@
     "type": "EOD_CLOSE",
     "volume": 21172
   },
-  "range": {
-    "distance_from_high_pct": -69.65,
-    "distance_from_low_pct": 9.67,
-    "high_52w": 5074.0,
-    "history_basis": "52_WEEK",
-    "low_52w": 1404.0,
-    "range_position_pct": 3.7
-  },
-  "risk_model": {
-    "invalidation_floor": 1485.91,
-    "risk_per_share": 84.69,
-    "technical_pivot": 1570.6
-  },
+  "range": null,
+  "risk_model": null,
   "schema_version": "1.0",
   "sector": null,
   "symbol": "SKFINDIA"

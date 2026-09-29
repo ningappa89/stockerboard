@@ -1,4 +1,6 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
     {
       "close": 150.68,
@@ -143,46 +145,62 @@
       "open": 147.33,
       "time": "2026-09-09",
       "volume": 22324
+    },
+    {
+      "close": 138.37,
+      "high": 138.37,
+      "low": 138.37,
+      "open": 138.37,
+      "time": "2026-09-15",
+      "volume": 17259
+    },
+    {
+      "close": 131.46,
+      "high": 131.46,
+      "low": 131.46,
+      "open": 131.46,
+      "time": "2026-09-21",
+      "volume": 23177
     }
   ],
   "company_name": "SPEL SEMICONDUCTOR LTD",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-09",
-    "sessions_available": 18
+    "last_session": "2026-09-21",
+    "sessions_available": 20
   },
   "industry": null,
   "isin": "INE252A01019",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 79,
+    "is_stage2": false,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.51x"
+    "volume_multiplier": "0.56x"
   },
   "price": {
-    "as_of": "2026-09-09",
-    "change": -0.95,
-    "change_pct": -0.65,
-    "close": 145.65,
-    "previous_close": 146.6,
+    "as_of": "2026-09-21",
+    "change": -6.91,
+    "change_pct": -4.99,
+    "close": 131.46,
+    "previous_close": 138.37,
     "type": "EOD_CLOSE",
-    "volume": 22324
+    "volume": 23177
   },
   "range": {
-    "distance_from_high_pct": -7.23,
-    "distance_from_low_pct": 3.96,
+    "distance_from_high_pct": -16.27,
+    "distance_from_low_pct": 0.0,
     "high_52w": 157.0,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 140.1,
-    "range_position_pct": 32.84
+    "low_52w": 131.46,
+    "range_position_pct": 0.0
   },
   "risk_model": {
-    "invalidation_floor": 140.55,
-    "risk_per_share": 8.01,
-    "technical_pivot": 148.56
+    "invalidation_floor": 126.86,
+    "risk_per_share": 7.23,
+    "technical_pivot": 134.09
   },
   "schema_version": "1.0",
   "sector": null,

@@ -1,4 +1,6 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
     {
       "close": 40.0,
@@ -711,46 +713,198 @@
       "open": 52.49,
       "time": "2026-08-25",
       "volume": 283434
+    },
+    {
+      "close": 48.45,
+      "high": 52.0,
+      "low": 48.42,
+      "open": 51.1,
+      "time": "2026-08-26",
+      "volume": 296083
+    },
+    {
+      "close": 49.95,
+      "high": 50.4,
+      "low": 48.51,
+      "open": 50.0,
+      "time": "2026-08-27",
+      "volume": 53166
+    },
+    {
+      "close": 51.58,
+      "high": 52.0,
+      "low": 48.51,
+      "open": 50.2,
+      "time": "2026-08-28",
+      "volume": 231778
+    },
+    {
+      "close": 51.42,
+      "high": 53.0,
+      "low": 50.0,
+      "open": 51.75,
+      "time": "2026-08-31",
+      "volume": 389314
+    },
+    {
+      "close": 50.94,
+      "high": 52.0,
+      "low": 50.0,
+      "open": 52.0,
+      "time": "2026-09-01",
+      "volume": 82349
+    },
+    {
+      "close": 51.25,
+      "high": 51.5,
+      "low": 50.02,
+      "open": 50.94,
+      "time": "2026-09-02",
+      "volume": 59299
+    },
+    {
+      "close": 50.69,
+      "high": 52.45,
+      "low": 50.25,
+      "open": 51.2,
+      "time": "2026-09-03",
+      "volume": 229078
+    },
+    {
+      "close": 51.83,
+      "high": 52.0,
+      "low": 51.0,
+      "open": 51.9,
+      "time": "2026-09-04",
+      "volume": 124987
+    },
+    {
+      "close": 54.42,
+      "high": 54.42,
+      "low": 51.4,
+      "open": 52.4,
+      "time": "2026-09-07",
+      "volume": 308737
+    },
+    {
+      "close": 57.14,
+      "high": 57.14,
+      "low": 55.0,
+      "open": 56.0,
+      "time": "2026-09-08",
+      "volume": 653499
+    },
+    {
+      "close": 59.99,
+      "high": 59.99,
+      "low": 57.5,
+      "open": 57.5,
+      "time": "2026-09-09",
+      "volume": 654859
+    },
+    {
+      "close": 57.86,
+      "high": 61.5,
+      "low": 57.4,
+      "open": 60.75,
+      "time": "2026-09-10",
+      "volume": 530654
+    },
+    {
+      "close": 58.29,
+      "high": 59.95,
+      "low": 56.5,
+      "open": 57.1,
+      "time": "2026-09-11",
+      "volume": 220997
+    },
+    {
+      "close": 59.45,
+      "high": 61.1,
+      "low": 58.5,
+      "open": 58.5,
+      "time": "2026-09-15",
+      "volume": 274304
+    },
+    {
+      "close": 60.0,
+      "high": 61.0,
+      "low": 56.5,
+      "open": 59.39,
+      "time": "2026-09-16",
+      "volume": 189174
+    },
+    {
+      "close": 63.0,
+      "high": 63.0,
+      "low": 60.0,
+      "open": 60.48,
+      "time": "2026-09-17",
+      "volume": 146350
+    },
+    {
+      "close": 66.15,
+      "high": 66.15,
+      "low": 64.99,
+      "open": 64.99,
+      "time": "2026-09-18",
+      "volume": 430625
+    },
+    {
+      "close": 69.45,
+      "high": 69.45,
+      "low": 67.79,
+      "open": 67.8,
+      "time": "2026-09-21",
+      "volume": 301821
+    },
+    {
+      "close": 72.92,
+      "high": 72.92,
+      "low": 71.7,
+      "open": 71.7,
+      "time": "2026-09-22",
+      "volume": 112624
     }
   ],
   "company_name": "A C S TECHNOLOGIES LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-08-25",
-    "sessions_available": 89
+    "last_session": "2026-09-22",
+    "sessions_available": 108
   },
   "industry": null,
   "isin": "INE366C01021",
   "metrics": {
-    "is_breakout": false,
+    "is_breakout": true,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 79,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.76x"
+    "momentum_score": 90,
+    "setup_type": "52W High Breakout",
+    "volume_multiplier": "0.4x"
   },
   "price": {
-    "as_of": "2026-08-25",
-    "change": -0.43,
-    "change_pct": -0.84,
-    "close": 50.96,
-    "previous_close": 51.39,
+    "as_of": "2026-09-22",
+    "change": 3.47,
+    "change_pct": 5.0,
+    "close": 72.92,
+    "previous_close": 69.45,
     "type": "EOD_CLOSE",
-    "volume": 283434
+    "volume": 112624
   },
   "range": {
-    "distance_from_high_pct": -6.96,
-    "distance_from_low_pct": 60.71,
-    "high_52w": 54.77,
+    "distance_from_high_pct": 0.0,
+    "distance_from_low_pct": 129.96,
+    "high_52w": 72.92,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 31.71,
-    "range_position_pct": 83.48
+    "range_position_pct": 100.0
   },
   "risk_model": {
-    "invalidation_floor": 49.18,
-    "risk_per_share": 2.8,
-    "technical_pivot": 51.98
+    "invalidation_floor": 70.37,
+    "risk_per_share": 3.13,
+    "technical_pivot": 73.5
   },
   "schema_version": "1.0",
   "sector": null,

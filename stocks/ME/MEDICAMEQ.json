@@ -1,29 +1,7 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
-    {
-      "close": 347.6,
-      "high": 355.35,
-      "low": 344.8,
-      "open": 348.55,
-      "time": "2025-09-10",
-      "volume": 15822
-    },
-    {
-      "close": 346.4,
-      "high": 353.95,
-      "low": 339.95,
-      "open": 349.8,
-      "time": "2025-09-11",
-      "volume": 16135
-    },
-    {
-      "close": 344.05,
-      "high": 349.85,
-      "low": 343.0,
-      "open": 349.85,
-      "time": "2025-09-12",
-      "volume": 12382
-    },
     {
       "close": 341.35,
       "high": 347.75,
@@ -2015,13 +1993,37 @@
       "open": 345.5,
       "time": "2026-09-17",
       "volume": 128639
+    },
+    {
+      "close": 328.05,
+      "high": 344.7,
+      "low": 328.05,
+      "open": 344.7,
+      "time": "2026-09-18",
+      "volume": 29506
+    },
+    {
+      "close": 318.2,
+      "high": 339.7,
+      "low": 312.15,
+      "open": 328.05,
+      "time": "2026-09-21",
+      "volume": 25377
+    },
+    {
+      "close": 319.5,
+      "high": 326.85,
+      "low": 314.0,
+      "open": 317.9,
+      "time": "2026-09-22",
+      "volume": 20311
     }
   ],
   "company_name": "MEDICAMEN BIOTECH LTD.",
   "history": {
-    "first_session": "2025-09-10",
+    "first_session": "2025-09-15",
     "has_full_52w_history": true,
-    "last_session": "2026-09-17",
+    "last_session": "2026-09-22",
     "sessions_available": 252
   },
   "industry": null,
@@ -2030,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 56,
+    "momentum_score": 47,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.16x"
+    "volume_multiplier": "0.19x"
   },
   "price": {
-    "as_of": "2026-09-17",
-    "change": 0.8,
-    "change_pct": 0.23,
-    "close": 346.3,
-    "previous_close": 345.5,
+    "as_of": "2026-09-22",
+    "change": 1.3,
+    "change_pct": 0.41,
+    "close": 319.5,
+    "previous_close": 318.2,
     "type": "EOD_CLOSE",
-    "volume": 128639
+    "volume": 20311
   },
   "range": {
-    "distance_from_high_pct": -22.64,
-    "distance_from_low_pct": 63.04,
+    "distance_from_high_pct": -28.63,
+    "distance_from_low_pct": 50.42,
     "high_52w": 447.65,
     "history_basis": "52_WEEK",
     "low_52w": 212.4,
-    "range_position_pct": 56.92
+    "range_position_pct": 45.53
   },
   "risk_model": {
-    "invalidation_floor": 334.18,
-    "risk_per_share": 19.05,
-    "technical_pivot": 353.23
+    "invalidation_floor": 308.32,
+    "risk_per_share": 17.57,
+    "technical_pivot": 325.89
   },
   "schema_version": "1.0",
   "sector": null,

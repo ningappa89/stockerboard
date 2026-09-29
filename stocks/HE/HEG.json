@@ -1,85 +1,7 @@
 {
+  "analytics_reason": "UNRESOLVED_CORPORATE_ACTION",
+  "analytics_status": "BLOCKED_INPUT",
   "candles": [
-    {
-      "close": 462.0,
-      "high": 473.1,
-      "low": 459.8,
-      "open": 471.0,
-      "time": "2025-08-29",
-      "volume": 363586
-    },
-    {
-      "close": 478.45,
-      "high": 480.75,
-      "low": 465.15,
-      "open": 466.6,
-      "time": "2025-09-01",
-      "volume": 491006
-    },
-    {
-      "close": 478.25,
-      "high": 498.0,
-      "low": 475.6,
-      "open": 479.0,
-      "time": "2025-09-02",
-      "volume": 800647
-    },
-    {
-      "close": 490.25,
-      "high": 495.0,
-      "low": 478.4,
-      "open": 481.5,
-      "time": "2025-09-03",
-      "volume": 598186
-    },
-    {
-      "close": 496.6,
-      "high": 510.8,
-      "low": 493.0,
-      "open": 494.3,
-      "time": "2025-09-04",
-      "volume": 1632493
-    },
-    {
-      "close": 492.45,
-      "high": 501.0,
-      "low": 490.4,
-      "open": 498.8,
-      "time": "2025-09-05",
-      "volume": 415169
-    },
-    {
-      "close": 491.1,
-      "high": 506.6,
-      "low": 485.7,
-      "open": 495.5,
-      "time": "2025-09-08",
-      "volume": 592203
-    },
-    {
-      "close": 499.1,
-      "high": 501.0,
-      "low": 490.2,
-      "open": 493.5,
-      "time": "2025-09-09",
-      "volume": 426064
-    },
-    {
-      "close": 508.85,
-      "high": 512.0,
-      "low": 501.0,
-      "open": 502.0,
-      "time": "2025-09-10",
-      "volume": 1003567
-    },
-    {
-      "close": 510.45,
-      "high": 515.9,
-      "low": 503.9,
-      "open": 512.9,
-      "time": "2025-09-11",
-      "volume": 689909
-    },
     {
       "close": 518.55,
       "high": 523.0,
@@ -2015,47 +1937,109 @@
       "open": 709.0,
       "time": "2026-09-04",
       "volume": 2565950
+    },
+    {
+      "close": 272.2,
+      "high": 273.0,
+      "low": 250.0,
+      "open": 260.0,
+      "time": "2026-09-07",
+      "volume": 3615221
+    },
+    {
+      "close": 258.6,
+      "high": 265.4,
+      "low": 258.6,
+      "open": 265.4,
+      "time": "2026-09-08",
+      "volume": 1334287
+    },
+    {
+      "close": 262.75,
+      "high": 271.5,
+      "low": 255.0,
+      "open": 257.0,
+      "time": "2026-09-09",
+      "volume": 3289030
+    },
+    {
+      "close": 249.65,
+      "high": 256.1,
+      "low": 249.65,
+      "open": 253.9,
+      "time": "2026-09-10",
+      "volume": 1892656
+    },
+    {
+      "close": 237.2,
+      "high": 243.0,
+      "low": 237.2,
+      "open": 238.1,
+      "time": "2026-09-11",
+      "volume": 1259054
+    },
+    {
+      "close": 225.35,
+      "high": 229.35,
+      "low": 225.35,
+      "open": 225.35,
+      "time": "2026-09-15",
+      "volume": 1510389
+    },
+    {
+      "close": 215.05,
+      "high": 225.25,
+      "low": 214.1,
+      "open": 214.1,
+      "time": "2026-09-16",
+      "volume": 3358403
+    },
+    {
+      "close": 225.8,
+      "high": 225.8,
+      "low": 215.6,
+      "open": 216.0,
+      "time": "2026-09-17",
+      "volume": 1462653
+    },
+    {
+      "close": 237.05,
+      "high": 237.05,
+      "low": 226.25,
+      "open": 226.3,
+      "time": "2026-09-18",
+      "volume": 930482
+    },
+    {
+      "close": 248.5,
+      "high": 248.9,
+      "low": 240.9,
+      "open": 243.85,
+      "time": "2026-09-21",
+      "volume": 1813114
     }
   ],
   "company_name": "HEG LTD",
   "history": {
-    "first_session": "2025-08-29",
+    "first_session": "2025-09-12",
     "has_full_52w_history": true,
-    "last_session": "2026-09-04",
+    "last_session": "2026-09-21",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE545A01024",
-  "metrics": {
-    "is_breakout": false,
-    "is_coiled": true,
-    "is_stage2": true,
-    "momentum_score": 84,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "1.45x"
-  },
+  "metrics": null,
   "price": {
-    "as_of": "2026-09-04",
-    "change": 20.8,
-    "change_pct": 2.94,
-    "close": 728.25,
-    "previous_close": 707.45,
+    "as_of": "2026-09-21",
+    "change": 11.45,
+    "change_pct": 4.83,
+    "close": 248.5,
+    "previous_close": 237.05,
     "type": "EOD_CLOSE",
-    "volume": 2565950
+    "volume": 1813114
   },
-  "range": {
-    "distance_from_high_pct": -3.4,
-    "distance_from_low_pct": 58.38,
-    "high_52w": 753.9,
-    "history_basis": "52_WEEK",
-    "low_52w": 459.8,
-    "range_position_pct": 91.28
-  },
-  "risk_model": {
-    "invalidation_floor": 702.76,
-    "risk_per_share": 40.06,
-    "technical_pivot": 742.82
-  },
+  "range": null,
+  "risk_model": null,
   "schema_version": "1.0",
   "sector": null,
   "symbol": "HEG"

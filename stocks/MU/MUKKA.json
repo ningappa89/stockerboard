@@ -1,37 +1,7 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
-    {
-      "close": 27.76,
-      "high": 28.1,
-      "low": 27.64,
-      "open": 28.1,
-      "time": "2025-09-09",
-      "volume": 105370
-    },
-    {
-      "close": 28.8,
-      "high": 31.23,
-      "low": 27.85,
-      "open": 28.3,
-      "time": "2025-09-10",
-      "volume": 2853668
-    },
-    {
-      "close": 28.79,
-      "high": 29.85,
-      "low": 28.51,
-      "open": 28.84,
-      "time": "2025-09-11",
-      "volume": 542089
-    },
-    {
-      "close": 27.66,
-      "high": 28.98,
-      "low": 27.3,
-      "open": 28.92,
-      "time": "2025-09-12",
-      "volume": 688047
-    },
     {
       "close": 27.71,
       "high": 28.0,
@@ -2015,13 +1985,45 @@
       "open": 31.1,
       "time": "2026-09-16",
       "volume": 1355601
+    },
+    {
+      "close": 28.28,
+      "high": 29.43,
+      "low": 28.06,
+      "open": 28.1,
+      "time": "2026-09-17",
+      "volume": 650557
+    },
+    {
+      "close": 26.93,
+      "high": 28.76,
+      "low": 26.87,
+      "open": 28.56,
+      "time": "2026-09-18",
+      "volume": 640411
+    },
+    {
+      "close": 28.25,
+      "high": 28.27,
+      "low": 26.47,
+      "open": 26.47,
+      "time": "2026-09-21",
+      "volume": 329305
+    },
+    {
+      "close": 27.37,
+      "high": 28.28,
+      "low": 27.01,
+      "open": 28.28,
+      "time": "2026-09-22",
+      "volume": 265123
     }
   ],
   "company_name": "Mukka Proteins Limited",
   "history": {
-    "first_session": "2025-09-09",
+    "first_session": "2025-09-15",
     "has_full_52w_history": true,
-    "last_session": "2026-09-16",
+    "last_session": "2026-09-22",
     "sessions_available": 252
   },
   "industry": null,
@@ -2029,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 73,
+    "is_stage2": false,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.83x"
+    "volume_multiplier": "0.16x"
   },
   "price": {
-    "as_of": "2026-09-16",
-    "change": -1.86,
-    "change_pct": -5.93,
-    "close": 29.53,
-    "previous_close": 31.39,
+    "as_of": "2026-09-22",
+    "change": -0.88,
+    "change_pct": -3.12,
+    "close": 27.37,
+    "previous_close": 28.25,
     "type": "EOD_CLOSE",
-    "volume": 1355601
+    "volume": 265123
   },
   "range": {
-    "distance_from_high_pct": -11.29,
-    "distance_from_low_pct": 61.63,
+    "distance_from_high_pct": -17.78,
+    "distance_from_low_pct": 49.81,
     "high_52w": 33.29,
     "history_basis": "52_WEEK",
     "low_52w": 18.27,
-    "range_position_pct": 74.97
+    "range_position_pct": 60.59
   },
   "risk_model": {
-    "invalidation_floor": 28.5,
-    "risk_per_share": 1.62,
-    "technical_pivot": 30.12
+    "invalidation_floor": 26.41,
+    "risk_per_share": 1.51,
+    "technical_pivot": 27.92
   },
   "schema_version": "1.0",
   "sector": null,

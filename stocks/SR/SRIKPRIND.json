@@ -1,4 +1,6 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
     {
       "close": 20.69,
@@ -119,46 +121,126 @@
       "open": 35.43,
       "time": "2026-09-07",
       "volume": 113310
+    },
+    {
+      "close": 32.36,
+      "high": 34.98,
+      "low": 32.13,
+      "open": 33.42,
+      "time": "2026-09-08",
+      "volume": 25393
+    },
+    {
+      "close": 32.26,
+      "high": 33.97,
+      "low": 30.75,
+      "open": 33.97,
+      "time": "2026-09-09",
+      "volume": 10151
+    },
+    {
+      "close": 31.43,
+      "high": 32.14,
+      "low": 30.65,
+      "open": 31.01,
+      "time": "2026-09-10",
+      "volume": 11076
+    },
+    {
+      "close": 30.75,
+      "high": 31.6,
+      "low": 29.86,
+      "open": 31.39,
+      "time": "2026-09-11",
+      "volume": 15491
+    },
+    {
+      "close": 29.22,
+      "high": 29.5,
+      "low": 29.22,
+      "open": 29.5,
+      "time": "2026-09-15",
+      "volume": 3687
+    },
+    {
+      "close": 27.76,
+      "high": 30.4,
+      "low": 27.76,
+      "open": 29.0,
+      "time": "2026-09-16",
+      "volume": 7914
+    },
+    {
+      "close": 27.83,
+      "high": 29.14,
+      "low": 26.66,
+      "open": 27.76,
+      "time": "2026-09-17",
+      "volume": 16348
+    },
+    {
+      "close": 27.98,
+      "high": 28.9,
+      "low": 26.8,
+      "open": 27.8,
+      "time": "2026-09-18",
+      "volume": 5520
+    },
+    {
+      "close": 28.54,
+      "high": 29.18,
+      "low": 27.25,
+      "open": 29.18,
+      "time": "2026-09-21",
+      "volume": 9916
+    },
+    {
+      "close": 28.78,
+      "high": 29.74,
+      "low": 28.0,
+      "open": 28.64,
+      "time": "2026-09-22",
+      "volume": 18113
     }
   ],
   "company_name": "SRI KPR INDUSTRIES LTD.",
   "history": {
     "first_session": "2026-08-18",
     "has_full_52w_history": false,
-    "last_session": "2026-09-07",
-    "sessions_available": 15
+    "last_session": "2026-09-22",
+    "sessions_available": 25
   },
   "industry": null,
   "isin": "INE009C01019",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 77,
+    "is_stage2": false,
+    "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.99x"
+    "volume_multiplier": "0.38x"
   },
   "price": {
-    "as_of": "2026-09-07",
-    "change": 0.44,
-    "change_pct": 1.32,
-    "close": 33.82,
-    "previous_close": 33.38,
+    "as_of": "2026-09-22",
+    "change": 0.24,
+    "change_pct": 0.84,
+    "close": 28.78,
+    "previous_close": 28.54,
     "type": "EOD_CLOSE",
-    "volume": 113310
+    "volume": 18113
   },
   "range": {
-    "distance_from_high_pct": -8.1,
-    "distance_from_low_pct": 74.33,
+    "distance_from_high_pct": -21.79,
+    "distance_from_low_pct": 48.35,
     "high_52w": 36.8,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 19.4,
-    "range_position_pct": 82.87
+    "range_position_pct": 53.91
   },
   "risk_model": {
-    "invalidation_floor": 32.64,
-    "risk_per_share": 1.86,
-    "technical_pivot": 34.5
+    "invalidation_floor": 27.77,
+    "risk_per_share": 1.59,
+    "technical_pivot": 29.36
   },
   "schema_version": "1.0",
   "sector": null,

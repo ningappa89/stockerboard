@@ -1,4 +1,6 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
     {
       "close": 850.0,
@@ -135,14 +137,22 @@
       "open": 818.0,
       "time": "2026-09-22",
       "volume": 27
+    },
+    {
+      "close": 780.0,
+      "high": 780.0,
+      "low": 780.0,
+      "open": 780.0,
+      "time": "2026-09-23",
+      "volume": 2
     }
   ],
   "company_name": "ASSAM ENTRADE LIMITED",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-22",
-    "sessions_available": 17
+    "last_session": "2026-09-23",
+    "sessions_available": 18
   },
   "industry": null,
   "isin": "INE165G01010",
@@ -150,31 +160,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 77,
+    "momentum_score": 76,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.44x"
+    "volume_multiplier": "0.11x"
   },
   "price": {
-    "as_of": "2026-09-22",
-    "change": 8.0,
-    "change_pct": 1.03,
-    "close": 788.0,
-    "previous_close": 780.0,
+    "as_of": "2026-09-23",
+    "change": -8.0,
+    "change_pct": -1.02,
+    "close": 780.0,
+    "previous_close": 788.0,
     "type": "EOD_CLOSE",
-    "volume": 27
+    "volume": 2
   },
   "range": {
-    "distance_from_high_pct": -8.13,
-    "distance_from_low_pct": 11.77,
+    "distance_from_high_pct": -9.06,
+    "distance_from_low_pct": 10.64,
     "high_52w": 857.75,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 705.0,
-    "range_position_pct": 54.34
+    "range_position_pct": 49.1
   },
   "risk_model": {
-    "invalidation_floor": 760.42,
-    "risk_per_share": 43.34,
-    "technical_pivot": 803.76
+    "invalidation_floor": 752.7,
+    "risk_per_share": 42.9,
+    "technical_pivot": 795.6
   },
   "schema_version": "1.0",
   "sector": null,

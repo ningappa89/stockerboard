@@ -1,4 +1,6 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
     {
       "close": 28.05,
@@ -823,14 +825,46 @@
       "open": 49.0,
       "time": "2026-09-16",
       "volume": 94415
+    },
+    {
+      "close": 40.26,
+      "high": 41.5,
+      "low": 40.26,
+      "open": 41.5,
+      "time": "2026-09-17",
+      "volume": 555
+    },
+    {
+      "close": 38.25,
+      "high": 38.25,
+      "low": 38.25,
+      "open": 38.25,
+      "time": "2026-09-18",
+      "volume": 3609
+    },
+    {
+      "close": 36.34,
+      "high": 36.35,
+      "low": 36.34,
+      "open": 36.35,
+      "time": "2026-09-21",
+      "volume": 817
+    },
+    {
+      "close": 34.53,
+      "high": 36.32,
+      "low": 34.53,
+      "open": 34.53,
+      "time": "2026-09-22",
+      "volume": 5300
     }
   ],
   "company_name": "GRAVISS HOSPITALITY LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-16",
-    "sessions_available": 103
+    "last_session": "2026-09-22",
+    "sessions_available": 107
   },
   "industry": null,
   "isin": "INE214F01026",
@@ -838,31 +872,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 67,
+    "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.15x"
+    "volume_multiplier": "0.06x"
   },
   "price": {
-    "as_of": "2026-09-16",
-    "change": -4.6,
-    "change_pct": -9.79,
-    "close": 42.37,
-    "previous_close": 46.97,
+    "as_of": "2026-09-22",
+    "change": -1.81,
+    "change_pct": -4.98,
+    "close": 34.53,
+    "previous_close": 36.34,
     "type": "EOD_CLOSE",
-    "volume": 94415
+    "volume": 5300
   },
   "range": {
-    "distance_from_high_pct": -15.09,
-    "distance_from_low_pct": 68.13,
+    "distance_from_high_pct": -30.8,
+    "distance_from_low_pct": 37.02,
     "high_52w": 49.9,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 25.2,
-    "range_position_pct": 69.51
+    "range_position_pct": 37.77
   },
   "risk_model": {
-    "invalidation_floor": 40.89,
-    "risk_per_share": 2.33,
-    "technical_pivot": 43.22
+    "invalidation_floor": 33.32,
+    "risk_per_share": 1.9,
+    "technical_pivot": 35.22
   },
   "schema_version": "1.0",
   "sector": null,

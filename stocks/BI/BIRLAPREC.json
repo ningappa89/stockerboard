@@ -1,4 +1,6 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
     {
       "close": 35.05,
@@ -791,46 +793,118 @@
       "open": 58.3,
       "time": "2026-09-08",
       "volume": 463466
+    },
+    {
+      "close": 56.48,
+      "high": 57.0,
+      "low": 51.78,
+      "open": 54.11,
+      "time": "2026-09-09",
+      "volume": 147033
+    },
+    {
+      "close": 59.3,
+      "high": 59.3,
+      "low": 54.8,
+      "open": 56.4,
+      "time": "2026-09-10",
+      "volume": 251521
+    },
+    {
+      "close": 61.43,
+      "high": 62.0,
+      "low": 57.0,
+      "open": 59.0,
+      "time": "2026-09-11",
+      "volume": 273989
+    },
+    {
+      "close": 58.36,
+      "high": 63.49,
+      "low": 58.36,
+      "open": 62.3,
+      "time": "2026-09-15",
+      "volume": 189775
+    },
+    {
+      "close": 58.47,
+      "high": 59.35,
+      "low": 55.45,
+      "open": 55.45,
+      "time": "2026-09-16",
+      "volume": 126575
+    },
+    {
+      "close": 58.6,
+      "high": 59.9,
+      "low": 55.6,
+      "open": 57.96,
+      "time": "2026-09-17",
+      "volume": 150896
+    },
+    {
+      "close": 57.08,
+      "high": 58.6,
+      "low": 56.16,
+      "open": 58.49,
+      "time": "2026-09-18",
+      "volume": 71985
+    },
+    {
+      "close": 55.92,
+      "high": 57.1,
+      "low": 55.0,
+      "open": 57.1,
+      "time": "2026-09-21",
+      "volume": 81943
+    },
+    {
+      "close": 53.98,
+      "high": 56.49,
+      "low": 53.66,
+      "open": 55.5,
+      "time": "2026-09-22",
+      "volume": 87252
     }
   ],
   "company_name": "BIRLA PRECISION TECHNOLOGIES L",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-08",
-    "sessions_available": 99
+    "last_session": "2026-09-22",
+    "sessions_available": 108
   },
   "industry": null,
   "isin": "INE372E01025",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 73,
+    "is_stage2": false,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.09x"
+    "volume_multiplier": "0.22x"
   },
   "price": {
-    "as_of": "2026-09-08",
-    "change": -3.62,
-    "change_pct": -6.23,
-    "close": 54.5,
-    "previous_close": 58.12,
+    "as_of": "2026-09-22",
+    "change": -1.94,
+    "change_pct": -3.47,
+    "close": 53.98,
+    "previous_close": 55.92,
     "type": "EOD_CLOSE",
-    "volume": 463466
+    "volume": 87252
   },
   "range": {
-    "distance_from_high_pct": -11.24,
-    "distance_from_low_pct": 68.99,
-    "high_52w": 61.4,
+    "distance_from_high_pct": -14.98,
+    "distance_from_low_pct": 67.38,
+    "high_52w": 63.49,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 32.25,
-    "range_position_pct": 76.33
+    "range_position_pct": 69.56
   },
   "risk_model": {
-    "invalidation_floor": 52.59,
-    "risk_per_share": 3.0,
-    "technical_pivot": 55.59
+    "invalidation_floor": 52.09,
+    "risk_per_share": 2.97,
+    "technical_pivot": 55.06
   },
   "schema_version": "1.0",
   "sector": null,

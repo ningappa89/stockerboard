@@ -1,4 +1,6 @@
 {
+  "analytics_reason": "UNRESOLVED_CORPORATE_ACTION",
+  "analytics_status": "BLOCKED_INPUT",
   "candles": [
     {
       "close": 340.0,
@@ -7,6 +9,86 @@
       "open": 335.0,
       "time": "2026-07-01",
       "volume": 2029887
+    },
+    {
+      "close": 300.05,
+      "high": 304.5,
+      "low": 289.0,
+      "open": 290.0,
+      "time": "2026-07-02",
+      "volume": 715025
+    },
+    {
+      "close": 298.1,
+      "high": 314.9,
+      "low": 297.0,
+      "open": 298.0,
+      "time": "2026-07-03",
+      "volume": 537278
+    },
+    {
+      "close": 295.85,
+      "high": 300.8,
+      "low": 294.0,
+      "open": 300.0,
+      "time": "2026-07-06",
+      "volume": 270151
+    },
+    {
+      "close": 286.15,
+      "high": 296.0,
+      "low": 284.4,
+      "open": 295.85,
+      "time": "2026-07-07",
+      "volume": 465939
+    },
+    {
+      "close": 286.85,
+      "high": 291.95,
+      "low": 284.0,
+      "open": 286.5,
+      "time": "2026-07-08",
+      "volume": 1069844
+    },
+    {
+      "close": 286.45,
+      "high": 290.4,
+      "low": 285.0,
+      "open": 290.4,
+      "time": "2026-07-09",
+      "volume": 731679
+    },
+    {
+      "close": 289.7,
+      "high": 290.7,
+      "low": 273.0,
+      "open": 288.5,
+      "time": "2026-07-10",
+      "volume": 1042048
+    },
+    {
+      "close": 286.95,
+      "high": 289.7,
+      "low": 286.0,
+      "open": 287.7,
+      "time": "2026-07-13",
+      "volume": 186178
+    },
+    {
+      "close": 284.95,
+      "high": 289.0,
+      "low": 279.0,
+      "open": 286.9,
+      "time": "2026-07-14",
+      "volume": 1855760
+    },
+    {
+      "close": 285.65,
+      "high": 287.15,
+      "low": 284.2,
+      "open": 284.8,
+      "time": "2026-07-15",
+      "volume": 253505
     },
     {
       "close": 288.75,
@@ -422,18 +504,11 @@
     "first_session": "2026-07-01",
     "has_full_52w_history": false,
     "last_session": "2026-09-25",
-    "sessions_available": 52
+    "sessions_available": 62
   },
   "industry": null,
   "isin": "INE844O01030",
-  "metrics": {
-    "is_breakout": false,
-    "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.26x"
-  },
+  "metrics": null,
   "price": {
     "as_of": "2026-09-25",
     "change": 0.3,
@@ -443,19 +518,8 @@
     "type": "EOD_CLOSE",
     "volume": 451419
   },
-  "range": {
-    "distance_from_high_pct": -32.79,
-    "distance_from_low_pct": 2.84,
-    "high_52w": 351.15,
-    "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 229.5,
-    "range_position_pct": 5.36
-  },
-  "risk_model": {
-    "invalidation_floor": 227.76,
-    "risk_per_share": 12.98,
-    "technical_pivot": 240.74
-  },
+  "range": null,
+  "risk_model": null,
   "schema_version": "1.0",
   "sector": null,
   "symbol": "GUJENERGY"

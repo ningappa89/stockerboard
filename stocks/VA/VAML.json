@@ -1,5 +1,87 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
+    {
+      "close": 495.9,
+      "high": 537.0,
+      "low": 495.9,
+      "open": 522.0,
+      "time": "2026-06-15",
+      "volume": 18180544
+    },
+    {
+      "close": 471.11,
+      "high": 471.11,
+      "low": 471.11,
+      "open": 471.11,
+      "time": "2026-06-16",
+      "volume": 6744811
+    },
+    {
+      "close": 465.36,
+      "high": 488.75,
+      "low": 447.56,
+      "open": 447.56,
+      "time": "2026-06-17",
+      "volume": 59089063
+    },
+    {
+      "close": 448.08,
+      "high": 479.0,
+      "low": 443.0,
+      "open": 462.9,
+      "time": "2026-06-18",
+      "volume": 35721118
+    },
+    {
+      "close": 457.77,
+      "high": 465.0,
+      "low": 440.0,
+      "open": 440.0,
+      "time": "2026-06-19",
+      "volume": 10683293
+    },
+    {
+      "close": 478.45,
+      "high": 480.65,
+      "low": 456.2,
+      "open": 458.2,
+      "time": "2026-06-22",
+      "volume": 49264804
+    },
+    {
+      "close": 456.61,
+      "high": 483.9,
+      "low": 454.53,
+      "open": 483.9,
+      "time": "2026-06-23",
+      "volume": 23486381
+    },
+    {
+      "close": 463.13,
+      "high": 469.0,
+      "low": 446.0,
+      "open": 453.51,
+      "time": "2026-06-24",
+      "volume": 16679713
+    },
+    {
+      "close": 442.82,
+      "high": 454.9,
+      "low": 439.98,
+      "open": 454.0,
+      "time": "2026-06-25",
+      "volume": 16555198
+    },
+    {
+      "close": 452.09,
+      "high": 454.07,
+      "low": 425.0,
+      "open": 441.05,
+      "time": "2026-06-29",
+      "volume": 12993265
+    },
     {
       "close": 448.46,
       "high": 455.98,
@@ -507,18 +589,18 @@
   ],
   "company_name": "VEDANTA ALUMINIUM METAL L",
   "history": {
-    "first_session": "2026-06-30",
+    "first_session": "2026-06-15",
     "has_full_52w_history": false,
     "last_session": "2026-09-25",
-    "sessions_available": 63
+    "sessions_available": 73
   },
   "industry": null,
   "isin": "INE1CDF01017",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 71,
+    "is_stage2": false,
+    "momentum_score": 59,
     "setup_type": "Liquid Active",
     "volume_multiplier": "0.81x"
   },
@@ -532,12 +614,12 @@
     "volume": 5912626
   },
   "range": {
-    "distance_from_high_pct": -12.5,
+    "distance_from_high_pct": -20.53,
     "distance_from_low_pct": 6.38,
-    "high_52w": 487.7,
+    "high_52w": 537.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 401.15,
-    "range_position_pct": 29.58
+    "range_position_pct": 18.84
   },
   "risk_model": {
     "invalidation_floor": 411.81,

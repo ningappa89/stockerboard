@@ -1,5 +1,23 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
+    {
+      "close": 7.84,
+      "high": 7.93,
+      "low": 7.72,
+      "open": 7.79,
+      "time": "2025-09-18",
+      "volume": 596497872
+    },
+    {
+      "close": 8.4,
+      "high": 8.82,
+      "low": 7.81,
+      "open": 7.91,
+      "time": "2025-09-19",
+      "volume": 2689120745
+    },
     {
       "close": 8.39,
       "high": 8.67,
@@ -169,14 +187,6 @@
       "volume": 194980250
     },
     {
-      "close": 1768.1,
-      "high": 1789.16,
-      "low": 1755.05,
-      "open": 1763.76,
-      "time": "2025-10-22",
-      "volume": 4634939
-    },
-    {
       "close": 9.52,
       "high": 9.6,
       "low": 9.03,
@@ -247,14 +257,6 @@
       "open": 9.73,
       "time": "2025-11-04",
       "volume": 1135567490
-    },
-    {
-      "close": 1741.99,
-      "high": 1810.55,
-      "low": 1731.07,
-      "open": 1766.7,
-      "time": "2025-11-05",
-      "volume": 115658
     },
     {
       "close": 9.27,
@@ -2019,7 +2021,7 @@
   ],
   "company_name": "VODAFONE IDEA LIMITED",
   "history": {
-    "first_session": "2025-09-22",
+    "first_session": "2025-09-18",
     "has_full_52w_history": true,
     "last_session": "2026-09-25",
     "sessions_available": 252
@@ -2029,8 +2031,8 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 40,
+    "is_stage2": true,
+    "momentum_score": 75,
     "setup_type": "Liquid Active",
     "volume_multiplier": "0.73x"
   },
@@ -2044,12 +2046,12 @@
     "volume": 309260435
   },
   "range": {
-    "distance_from_high_pct": -33.11,
-    "distance_from_low_pct": 80.51,
-    "high_52w": 21.32,
+    "distance_from_high_pct": -9.69,
+    "distance_from_low_pct": 84.72,
+    "high_52w": 15.79,
     "history_basis": "52_WEEK",
-    "low_52w": 7.9,
-    "range_position_pct": 47.39
+    "low_52w": 7.72,
+    "range_position_pct": 81.04
   },
   "risk_model": {
     "invalidation_floor": 13.76,

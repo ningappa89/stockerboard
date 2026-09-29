@@ -1,4 +1,6 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
     {
       "close": 181.5,
@@ -199,46 +201,62 @@
       "open": 293.2,
       "time": "2026-09-22",
       "volume": 11275606
+    },
+    {
+      "close": 317.25,
+      "high": 317.25,
+      "low": 306.15,
+      "open": 307.0,
+      "time": "2026-09-23",
+      "volume": 4163501
+    },
+    {
+      "close": 309.16,
+      "high": 333.11,
+      "low": 305.1,
+      "open": 323.0,
+      "time": "2026-09-24",
+      "volume": 9525794
     }
   ],
   "company_name": "MILKY MIST DAIRY FOOD L",
   "history": {
     "first_session": "2026-08-18",
     "has_full_52w_history": false,
-    "last_session": "2026-09-22",
-    "sessions_available": 25
+    "last_session": "2026-09-24",
+    "sessions_available": 27
   },
   "industry": null,
   "isin": "INE00IT01020",
   "metrics": {
-    "is_breakout": true,
-    "is_coiled": true,
+    "is_breakout": false,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 88,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.58x"
+    "momentum_score": 79,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.52x"
   },
   "price": {
-    "as_of": "2026-09-22",
-    "change": 14.38,
-    "change_pct": 5.0,
-    "close": 302.15,
-    "previous_close": 287.77,
+    "as_of": "2026-09-24",
+    "change": -8.09,
+    "change_pct": -2.55,
+    "close": 309.16,
+    "previous_close": 317.25,
     "type": "EOD_CLOSE",
-    "volume": 11275606
+    "volume": 9525794
   },
   "range": {
-    "distance_from_high_pct": -0.84,
-    "distance_from_low_pct": 83.12,
-    "high_52w": 304.7,
+    "distance_from_high_pct": -7.19,
+    "distance_from_low_pct": 87.37,
+    "high_52w": 333.11,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 165.0,
-    "range_position_pct": 98.17
+    "range_position_pct": 85.75
   },
   "risk_model": {
-    "invalidation_floor": 291.57,
-    "risk_per_share": 13.0,
-    "technical_pivot": 304.57
+    "invalidation_floor": 298.34,
+    "risk_per_share": 17.0,
+    "technical_pivot": 315.34
   },
   "schema_version": "1.0",
   "sector": null,

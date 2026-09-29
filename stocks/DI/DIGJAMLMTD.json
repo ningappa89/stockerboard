@@ -1,45 +1,7 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
-    {
-      "close": 56.14,
-      "high": 56.35,
-      "low": 56.14,
-      "open": 56.14,
-      "time": "2025-07-28",
-      "volume": 5976
-    },
-    {
-      "close": 56.75,
-      "high": 56.75,
-      "low": 55.01,
-      "open": 55.01,
-      "time": "2025-07-29",
-      "volume": 37383
-    },
-    {
-      "close": 56.75,
-      "high": 57.49,
-      "low": 56.75,
-      "open": 57.49,
-      "time": "2025-07-30",
-      "volume": 20673
-    },
-    {
-      "close": 55.61,
-      "high": 56.5,
-      "low": 55.61,
-      "open": 56.5,
-      "time": "2025-07-31",
-      "volume": 7403
-    },
-    {
-      "close": 56.72,
-      "high": 56.72,
-      "low": 54.5,
-      "open": 55.61,
-      "time": "2025-08-01",
-      "volume": 8645
-    },
     {
       "close": 57.85,
       "high": 57.85,
@@ -2015,13 +1977,53 @@
       "open": 68.79,
       "time": "2026-09-15",
       "volume": 123964
+    },
+    {
+      "close": 61.75,
+      "high": 62.05,
+      "low": 61.75,
+      "open": 62.04,
+      "time": "2026-09-16",
+      "volume": 4217
+    },
+    {
+      "close": 58.67,
+      "high": 58.67,
+      "low": 58.67,
+      "open": 58.67,
+      "time": "2026-09-17",
+      "volume": 1194
+    },
+    {
+      "close": 61.6,
+      "high": 61.6,
+      "low": 58.5,
+      "open": 58.5,
+      "time": "2026-09-18",
+      "volume": 18535
+    },
+    {
+      "close": 59.43,
+      "high": 62.75,
+      "low": 58.55,
+      "open": 60.5,
+      "time": "2026-09-21",
+      "volume": 30937
+    },
+    {
+      "close": 56.83,
+      "high": 58.5,
+      "low": 56.46,
+      "open": 58.45,
+      "time": "2026-09-22",
+      "volume": 8395
     }
   ],
   "company_name": "DIGJAM LIMITED",
   "history": {
-    "first_session": "2025-07-28",
+    "first_session": "2025-08-04",
     "has_full_52w_history": true,
-    "last_session": "2026-09-15",
+    "last_session": "2026-09-22",
     "sessions_available": 252
   },
   "industry": null,
@@ -2029,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 73,
+    "is_stage2": false,
+    "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.09x"
+    "volume_multiplier": "0.07x"
   },
   "price": {
-    "as_of": "2026-09-15",
-    "change": -3.42,
-    "change_pct": -5.0,
-    "close": 65.0,
-    "previous_close": 68.42,
+    "as_of": "2026-09-22",
+    "change": -2.6,
+    "change_pct": -4.37,
+    "close": 56.83,
+    "previous_close": 59.43,
     "type": "EOD_CLOSE",
-    "volume": 123964
+    "volume": 8395
   },
   "range": {
-    "distance_from_high_pct": -11.19,
-    "distance_from_low_pct": 80.41,
+    "distance_from_high_pct": -22.35,
+    "distance_from_low_pct": 57.73,
     "high_52w": 73.19,
     "history_basis": "52_WEEK",
     "low_52w": 36.03,
-    "range_position_pct": 77.96
+    "range_position_pct": 55.97
   },
   "risk_model": {
-    "invalidation_floor": 62.73,
-    "risk_per_share": 3.57,
-    "technical_pivot": 66.3
+    "invalidation_floor": 54.84,
+    "risk_per_share": 3.13,
+    "technical_pivot": 57.97
   },
   "schema_version": "1.0",
   "sector": null,

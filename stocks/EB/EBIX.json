@@ -1,4 +1,6 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
     {
       "close": 16.25,
@@ -103,46 +105,150 @@
       "open": 19.06,
       "time": "2026-09-02",
       "volume": 79184
+    },
+    {
+      "close": 19.84,
+      "high": 20.45,
+      "low": 19.4,
+      "open": 20.03,
+      "time": "2026-09-03",
+      "volume": 20898
+    },
+    {
+      "close": 20.28,
+      "high": 20.48,
+      "low": 19.5,
+      "open": 20.24,
+      "time": "2026-09-04",
+      "volume": 20412
+    },
+    {
+      "close": 20.49,
+      "high": 20.8,
+      "low": 19.3,
+      "open": 20.48,
+      "time": "2026-09-07",
+      "volume": 29032
+    },
+    {
+      "close": 19.77,
+      "high": 20.3,
+      "low": 19.52,
+      "open": 20.3,
+      "time": "2026-09-08",
+      "volume": 16460
+    },
+    {
+      "close": 19.81,
+      "high": 20.4,
+      "low": 19.51,
+      "open": 20.05,
+      "time": "2026-09-09",
+      "volume": 21547
+    },
+    {
+      "close": 19.63,
+      "high": 20.63,
+      "low": 19.55,
+      "open": 19.82,
+      "time": "2026-09-10",
+      "volume": 20521
+    },
+    {
+      "close": 19.99,
+      "high": 20.23,
+      "low": 19.4,
+      "open": 19.4,
+      "time": "2026-09-11",
+      "volume": 4484
+    },
+    {
+      "close": 19.3,
+      "high": 20.39,
+      "low": 19.0,
+      "open": 19.99,
+      "time": "2026-09-15",
+      "volume": 15398
+    },
+    {
+      "close": 19.39,
+      "high": 20.0,
+      "low": 18.8,
+      "open": 20.0,
+      "time": "2026-09-16",
+      "volume": 26923
+    },
+    {
+      "close": 19.24,
+      "high": 19.94,
+      "low": 18.6,
+      "open": 19.0,
+      "time": "2026-09-17",
+      "volume": 17117
+    },
+    {
+      "close": 19.03,
+      "high": 19.3,
+      "low": 18.66,
+      "open": 19.24,
+      "time": "2026-09-18",
+      "volume": 5798
+    },
+    {
+      "close": 19.39,
+      "high": 19.89,
+      "low": 18.9,
+      "open": 18.94,
+      "time": "2026-09-21",
+      "volume": 7274
+    },
+    {
+      "close": 18.43,
+      "high": 19.75,
+      "low": 18.43,
+      "open": 18.45,
+      "time": "2026-09-22",
+      "volume": 124035
     }
   ],
   "company_name": "EBIX LIMITED",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-02",
-    "sessions_available": 13
+    "last_session": "2026-09-22",
+    "sessions_available": 26
   },
   "industry": null,
   "isin": "INE432F01032",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 71,
+    "is_stage2": false,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.73x"
+    "volume_multiplier": "1.74x"
   },
   "price": {
-    "as_of": "2026-09-02",
-    "change": 0.04,
-    "change_pct": 0.2,
-    "close": 20.03,
-    "previous_close": 19.99,
+    "as_of": "2026-09-22",
+    "change": -0.96,
+    "change_pct": -4.95,
+    "close": 18.43,
+    "previous_close": 19.39,
     "type": "EOD_CLOSE",
-    "volume": 79184
+    "volume": 124035
   },
   "range": {
-    "distance_from_high_pct": -12.26,
-    "distance_from_low_pct": 24.95,
+    "distance_from_high_pct": -19.27,
+    "distance_from_low_pct": 14.97,
     "high_52w": 22.83,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 16.03,
-    "range_position_pct": 58.82
+    "range_position_pct": 35.29
   },
   "risk_model": {
-    "invalidation_floor": 19.33,
-    "risk_per_share": 1.1,
-    "technical_pivot": 20.43
+    "invalidation_floor": 17.78,
+    "risk_per_share": 1.02,
+    "technical_pivot": 18.8
   },
   "schema_version": "1.0",
   "sector": null,

@@ -1,4 +1,6 @@
 {
+  "analytics_reason": "UNRESOLVED_CORPORATE_ACTION",
+  "analytics_status": "BLOCKED_INPUT",
   "candles": [
     {
       "close": 455.65,
@@ -2026,14 +2028,7 @@
   },
   "industry": "Metals & Mining",
   "isin": "INE205A01025",
-  "metrics": {
-    "is_breakout": false,
-    "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.48x"
-  },
+  "metrics": null,
   "price": {
     "as_of": "2026-09-25",
     "change": -1.15,
@@ -2043,19 +2038,8 @@
     "type": "EOD_CLOSE",
     "volume": 3768892
   },
-  "range": {
-    "distance_from_high_pct": -66.5,
-    "distance_from_low_pct": 6.67,
-    "high_52w": 795.0,
-    "history_basis": "52_WEEK",
-    "low_52w": 249.7,
-    "range_position_pct": 3.05
-  },
-  "risk_model": {
-    "invalidation_floor": 257.03,
-    "risk_per_share": 14.65,
-    "technical_pivot": 271.68
-  },
+  "range": null,
+  "risk_model": null,
   "schema_version": "1.0",
   "sector": "Metals & Mining",
   "symbol": "VEDL"

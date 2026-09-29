@@ -1,12 +1,14 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 363.8,
-      "high": 364.45,
-      "low": 361.1,
-      "open": 362.05,
+      "close": 72.76,
+      "high": 72.89,
+      "low": 72.22,
+      "open": 72.41,
       "time": "2025-09-18",
-      "volume": 1872477
+      "volume": 9362385
     },
     {
       "close": 72.4,
@@ -2029,9 +2031,9 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 40,
-    "setup_type": "Volume Expansion",
+    "is_stage2": true,
+    "momentum_score": 80,
+    "setup_type": "Pocket Pivot",
     "volume_multiplier": "2.88x"
   },
   "price": {
@@ -2044,12 +2046,12 @@
     "volume": 30056074
   },
   "range": {
-    "distance_from_high_pct": -62.05,
+    "distance_from_high_pct": -6.33,
     "distance_from_low_pct": 171.2,
-    "high_52w": 364.45,
+    "high_52w": 147.65,
     "history_basis": "52_WEEK",
     "low_52w": 51.0,
-    "range_position_pct": 27.85
+    "range_position_pct": 90.34
   },
   "risk_model": {
     "invalidation_floor": 133.47,

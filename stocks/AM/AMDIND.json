@@ -1,29 +1,7 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
-    {
-      "close": 51.02,
-      "high": 52.21,
-      "low": 49.95,
-      "open": 50.55,
-      "time": "2025-09-10",
-      "volume": 20266
-    },
-    {
-      "close": 50.07,
-      "high": 52.47,
-      "low": 49.9,
-      "open": 52.04,
-      "time": "2025-09-11",
-      "volume": 14956
-    },
-    {
-      "close": 50.96,
-      "high": 51.4,
-      "low": 50.01,
-      "open": 50.01,
-      "time": "2025-09-12",
-      "volume": 9841
-    },
     {
       "close": 54.54,
       "high": 55.55,
@@ -2015,13 +1993,37 @@
       "open": 64.01,
       "time": "2026-09-17",
       "volume": 116979
+    },
+    {
+      "close": 63.26,
+      "high": 66.0,
+      "low": 63.26,
+      "open": 66.0,
+      "time": "2026-09-18",
+      "volume": 18035
+    },
+    {
+      "close": 60.1,
+      "high": 60.7,
+      "low": 60.1,
+      "open": 60.1,
+      "time": "2026-09-21",
+      "volume": 22033
+    },
+    {
+      "close": 59.84,
+      "high": 62.4,
+      "low": 58.11,
+      "open": 59.59,
+      "time": "2026-09-22",
+      "volume": 49658
     }
   ],
   "company_name": "AMD INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-10",
+    "first_session": "2025-09-15",
     "has_full_52w_history": true,
-    "last_session": "2026-09-17",
+    "last_session": "2026-09-22",
     "sessions_available": 252
   },
   "industry": null,
@@ -2029,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 74,
+    "is_stage2": false,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.74x"
+    "volume_multiplier": "0.31x"
   },
   "price": {
-    "as_of": "2026-09-17",
-    "change": 2.92,
-    "change_pct": 4.59,
-    "close": 66.58,
-    "previous_close": 63.66,
+    "as_of": "2026-09-22",
+    "change": -0.26,
+    "change_pct": -0.43,
+    "close": 59.84,
+    "previous_close": 60.1,
     "type": "EOD_CLOSE",
-    "volume": 116979
+    "volume": 49658
   },
   "range": {
-    "distance_from_high_pct": -10.5,
-    "distance_from_low_pct": 97.16,
+    "distance_from_high_pct": -19.56,
+    "distance_from_low_pct": 77.2,
     "high_52w": 74.39,
     "history_basis": "52_WEEK",
     "low_52w": 33.77,
-    "range_position_pct": 80.77
+    "range_position_pct": 64.18
   },
   "risk_model": {
-    "invalidation_floor": 64.25,
-    "risk_per_share": 3.66,
-    "technical_pivot": 67.91
+    "invalidation_floor": 57.75,
+    "risk_per_share": 3.29,
+    "technical_pivot": 61.04
   },
   "schema_version": "1.0",
   "sector": null,

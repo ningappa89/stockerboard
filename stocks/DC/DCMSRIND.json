@@ -1,4 +1,6 @@
 {
+  "analytics_reason": "UNRESOLVED_CORPORATE_ACTION",
+  "analytics_status": "BLOCKED_INPUT",
   "candles": [
     {
       "close": 168.48,
@@ -2026,14 +2028,7 @@
   },
   "industry": null,
   "isin": "INE843D01027",
-  "metrics": {
-    "is_breakout": false,
-    "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "7.33x"
-  },
+  "metrics": null,
   "price": {
     "as_of": "2026-09-25",
     "change": 1.83,
@@ -2043,19 +2038,8 @@
     "type": "EOD_CLOSE",
     "volume": 2401956
   },
-  "range": {
-    "distance_from_high_pct": -78.17,
-    "distance_from_low_pct": 24.48,
-    "high_52w": 181.9,
-    "history_basis": "52_WEEK",
-    "low_52w": 31.9,
-    "range_position_pct": 5.21
-  },
-  "risk_model": {
-    "invalidation_floor": 38.32,
-    "risk_per_share": 2.18,
-    "technical_pivot": 40.5
-  },
+  "range": null,
+  "risk_model": null,
   "schema_version": "1.0",
   "sector": null,
   "symbol": "DCMSRIND"

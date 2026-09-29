@@ -1,45 +1,7 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
-    {
-      "close": 93.78,
-      "high": 96.38,
-      "low": 93.5,
-      "open": 95.9,
-      "time": "2025-09-08",
-      "volume": 233959
-    },
-    {
-      "close": 93.26,
-      "high": 94.53,
-      "low": 93.0,
-      "open": 94.0,
-      "time": "2025-09-09",
-      "volume": 147490
-    },
-    {
-      "close": 93.72,
-      "high": 95.0,
-      "low": 93.2,
-      "open": 93.26,
-      "time": "2025-09-10",
-      "volume": 350807
-    },
-    {
-      "close": 93.32,
-      "high": 94.89,
-      "low": 93.15,
-      "open": 94.65,
-      "time": "2025-09-11",
-      "volume": 172154
-    },
-    {
-      "close": 92.26,
-      "high": 94.3,
-      "low": 91.8,
-      "open": 94.02,
-      "time": "2025-09-12",
-      "volume": 324376
-    },
     {
       "close": 91.8,
       "high": 92.84,
@@ -2015,13 +1977,53 @@
       "open": 84.0,
       "time": "2026-09-15",
       "volume": 1325850
+    },
+    {
+      "close": 71.7,
+      "high": 74.7,
+      "low": 71.7,
+      "open": 72.0,
+      "time": "2026-09-16",
+      "volume": 90970
+    },
+    {
+      "close": 68.12,
+      "high": 68.12,
+      "low": 68.12,
+      "open": 68.12,
+      "time": "2026-09-17",
+      "volume": 207578
+    },
+    {
+      "close": 71.24,
+      "high": 71.52,
+      "low": 66.0,
+      "open": 68.75,
+      "time": "2026-09-18",
+      "volume": 703327
+    },
+    {
+      "close": 74.1,
+      "high": 74.5,
+      "low": 68.81,
+      "open": 68.81,
+      "time": "2026-09-21",
+      "volume": 287578
+    },
+    {
+      "close": 72.15,
+      "high": 74.85,
+      "low": 71.0,
+      "open": 71.55,
+      "time": "2026-09-22",
+      "volume": 293333
     }
   ],
   "company_name": "Radhika Jeweltech Limited",
   "history": {
-    "first_session": "2025-09-08",
+    "first_session": "2025-09-15",
     "has_full_52w_history": true,
-    "last_session": "2026-09-15",
+    "last_session": "2026-09-22",
     "sessions_available": 252
   },
   "industry": null,
@@ -2030,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 53,
+    "momentum_score": 48,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.34x"
+    "volume_multiplier": "0.08x"
   },
   "price": {
-    "as_of": "2026-09-15",
-    "change": -7.74,
-    "change_pct": -9.3,
-    "close": 75.47,
-    "previous_close": 83.21,
+    "as_of": "2026-09-22",
+    "change": -1.95,
+    "change_pct": -2.63,
+    "close": 72.15,
+    "previous_close": 74.1,
     "type": "EOD_CLOSE",
-    "volume": 1325850
+    "volume": 293333
   },
   "range": {
-    "distance_from_high_pct": -24.26,
-    "distance_from_low_pct": 50.91,
+    "distance_from_high_pct": -27.6,
+    "distance_from_low_pct": 44.27,
     "high_52w": 99.65,
     "history_basis": "52_WEEK",
     "low_52w": 50.01,
-    "range_position_pct": 51.29
+    "range_position_pct": 44.6
   },
   "risk_model": {
-    "invalidation_floor": 72.83,
-    "risk_per_share": 4.15,
-    "technical_pivot": 76.98
+    "invalidation_floor": 69.62,
+    "risk_per_share": 3.97,
+    "technical_pivot": 73.59
   },
   "schema_version": "1.0",
   "sector": null,

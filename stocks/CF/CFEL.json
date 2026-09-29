@@ -1,4 +1,6 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
     {
       "close": 30.16,
@@ -175,14 +177,46 @@
       "open": 47.0,
       "time": "2026-09-16",
       "volume": 66304
+    },
+    {
+      "close": 46.22,
+      "high": 46.99,
+      "low": 44.0,
+      "open": 44.0,
+      "time": "2026-09-17",
+      "volume": 11128
+    },
+    {
+      "close": 46.95,
+      "high": 47.0,
+      "low": 44.0,
+      "open": 46.99,
+      "time": "2026-09-18",
+      "volume": 32553
+    },
+    {
+      "close": 48.84,
+      "high": 49.29,
+      "low": 44.8,
+      "open": 48.0,
+      "time": "2026-09-21",
+      "volume": 47219
+    },
+    {
+      "close": 47.32,
+      "high": 49.75,
+      "low": 47.0,
+      "open": 49.75,
+      "time": "2026-09-22",
+      "volume": 11513
     }
   ],
   "company_name": "CONFIDENCE FUTURIST ENE L",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-16",
-    "sessions_available": 22
+    "last_session": "2026-09-22",
+    "sessions_available": 26
   },
   "industry": null,
   "isin": "INE700F01024",
@@ -190,31 +224,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 70,
+    "momentum_score": 74,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "0.1x"
   },
   "price": {
-    "as_of": "2026-09-16",
-    "change": -1.41,
-    "change_pct": -2.97,
-    "close": 46.0,
-    "previous_close": 47.41,
+    "as_of": "2026-09-22",
+    "change": -1.52,
+    "change_pct": -3.11,
+    "close": 47.32,
+    "previous_close": 48.84,
     "type": "EOD_CLOSE",
-    "volume": 66304
+    "volume": 11513
   },
   "range": {
-    "distance_from_high_pct": -12.88,
-    "distance_from_low_pct": 88.83,
+    "distance_from_high_pct": -10.38,
+    "distance_from_low_pct": 94.25,
     "high_52w": 52.8,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 24.36,
-    "range_position_pct": 76.09
+    "range_position_pct": 80.73
   },
   "risk_model": {
-    "invalidation_floor": 44.39,
-    "risk_per_share": 2.53,
-    "technical_pivot": 46.92
+    "invalidation_floor": 45.66,
+    "risk_per_share": 2.61,
+    "technical_pivot": 48.27
   },
   "schema_version": "1.0",
   "sector": null,

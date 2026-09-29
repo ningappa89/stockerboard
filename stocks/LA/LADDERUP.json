@@ -1,4 +1,6 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
     {
       "close": 49.11,
@@ -175,14 +177,46 @@
       "open": 66.8,
       "time": "2026-09-16",
       "volume": 10098
+    },
+    {
+      "close": 62.98,
+      "high": 63.98,
+      "low": 60.26,
+      "open": 61.55,
+      "time": "2026-09-17",
+      "volume": 5213
+    },
+    {
+      "close": 59.84,
+      "high": 63.24,
+      "low": 59.84,
+      "open": 60.05,
+      "time": "2026-09-18",
+      "volume": 3727
+    },
+    {
+      "close": 59.01,
+      "high": 62.83,
+      "low": 57.15,
+      "open": 57.25,
+      "time": "2026-09-21",
+      "volume": 3821
+    },
+    {
+      "close": 57.89,
+      "high": 61.5,
+      "low": 56.06,
+      "open": 61.48,
+      "time": "2026-09-22",
+      "volume": 4700
     }
   ],
   "company_name": "LADDERUP FINANCE LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-16",
-    "sessions_available": 22
+    "last_session": "2026-09-22",
+    "sessions_available": 26
   },
   "industry": null,
   "isin": "INE519D01015",
@@ -190,31 +224,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 52,
+    "momentum_score": 47,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.3x"
+    "volume_multiplier": "0.55x"
   },
   "price": {
-    "as_of": "2026-09-16",
-    "change": -5.94,
-    "change_pct": -8.88,
-    "close": 60.94,
-    "previous_close": 66.88,
+    "as_of": "2026-09-22",
+    "change": -1.12,
+    "change_pct": -1.9,
+    "close": 57.89,
+    "previous_close": 59.01,
     "type": "EOD_CLOSE",
-    "volume": 10098
+    "volume": 4700
   },
   "range": {
-    "distance_from_high_pct": -24.75,
-    "distance_from_low_pct": 42.72,
+    "distance_from_high_pct": -28.51,
+    "distance_from_low_pct": 35.57,
     "high_52w": 80.98,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 42.7,
-    "range_position_pct": 47.65
+    "range_position_pct": 39.68
   },
   "risk_model": {
-    "invalidation_floor": 58.81,
-    "risk_per_share": 3.35,
-    "technical_pivot": 62.16
+    "invalidation_floor": 55.86,
+    "risk_per_share": 3.19,
+    "technical_pivot": 59.05
   },
   "schema_version": "1.0",
   "sector": null,

@@ -1,4 +1,6 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
     {
       "close": 25.26,
@@ -183,14 +185,38 @@
       "open": 25.8,
       "time": "2026-09-17",
       "volume": 15631
+    },
+    {
+      "close": 25.82,
+      "high": 25.82,
+      "low": 24.0,
+      "open": 24.25,
+      "time": "2026-09-18",
+      "volume": 3778
+    },
+    {
+      "close": 25.92,
+      "high": 26.6,
+      "low": 24.6,
+      "open": 26.07,
+      "time": "2026-09-21",
+      "volume": 13491
+    },
+    {
+      "close": 25.34,
+      "high": 25.87,
+      "low": 24.8,
+      "open": 25.37,
+      "time": "2026-09-22",
+      "volume": 4022
     }
   ],
   "company_name": "MEDI-CAPS LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-17",
-    "sessions_available": 23
+    "last_session": "2026-09-22",
+    "sessions_available": 26
   },
   "industry": null,
   "isin": "INE442D01010",
@@ -198,31 +224,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 41,
+    "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.41x"
+    "volume_multiplier": "0.1x"
   },
   "price": {
-    "as_of": "2026-09-17",
-    "change": -1.0,
-    "change_pct": -3.87,
-    "close": 24.81,
-    "previous_close": 25.81,
+    "as_of": "2026-09-22",
+    "change": -0.58,
+    "change_pct": -2.24,
+    "close": 25.34,
+    "previous_close": 25.92,
     "type": "EOD_CLOSE",
-    "volume": 15631
+    "volume": 4022
   },
   "range": {
-    "distance_from_high_pct": -32.58,
-    "distance_from_low_pct": 22.04,
+    "distance_from_high_pct": -31.14,
+    "distance_from_low_pct": 24.64,
     "high_52w": 36.8,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 20.33,
-    "range_position_pct": 27.2
+    "range_position_pct": 30.42
   },
   "risk_model": {
-    "invalidation_floor": 23.94,
-    "risk_per_share": 1.37,
-    "technical_pivot": 25.31
+    "invalidation_floor": 24.45,
+    "risk_per_share": 1.4,
+    "technical_pivot": 25.85
   },
   "schema_version": "1.0",
   "sector": null,

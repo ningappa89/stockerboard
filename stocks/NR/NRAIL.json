@@ -1,5 +1,23 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
+    {
+      "close": 396.5,
+      "high": 398.0,
+      "low": 384.25,
+      "open": 391.75,
+      "time": "2025-09-18",
+      "volume": 2538
+    },
+    {
+      "close": 392.0,
+      "high": 401.0,
+      "low": 391.0,
+      "open": 392.25,
+      "time": "2025-09-19",
+      "volume": 2009
+    },
     {
       "close": 386.2,
       "high": 396.0,
@@ -169,14 +187,6 @@
       "volume": 5364
     },
     {
-      "close": 1603.99,
-      "high": 1604.39,
-      "low": 1534.56,
-      "open": 1567.27,
-      "time": "2025-10-22",
-      "volume": 393390
-    },
-    {
       "close": 473.5,
       "high": 483.0,
       "low": 466.05,
@@ -247,14 +257,6 @@
       "open": 452.2,
       "time": "2025-11-04",
       "volume": 21337
-    },
-    {
-      "close": 1575.6,
-      "high": 1580.99,
-      "low": 1538.64,
-      "open": 1540.38,
-      "time": "2025-11-05",
-      "volume": 1581573
     },
     {
       "close": 458.05,
@@ -2019,7 +2021,7 @@
   ],
   "company_name": "N R AGARWAL INDS LTD",
   "history": {
-    "first_session": "2025-09-22",
+    "first_session": "2025-09-18",
     "has_full_52w_history": true,
     "last_session": "2026-09-25",
     "sessions_available": 252
@@ -2028,10 +2030,10 @@
   "isin": "INE740D01017",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 40,
-    "setup_type": "Liquid Active",
+    "is_coiled": true,
+    "is_stage2": true,
+    "momentum_score": 88,
+    "setup_type": "Minervini VCP",
     "volume_multiplier": "0.56x"
   },
   "price": {
@@ -2044,12 +2046,12 @@
     "volume": 24892
   },
   "range": {
-    "distance_from_high_pct": -57.79,
+    "distance_from_high_pct": -1.13,
     "distance_from_low_pct": 89.55,
-    "high_52w": 1604.39,
+    "high_52w": 685.0,
     "history_basis": "52_WEEK",
     "low_52w": 357.3,
-    "range_position_pct": 25.66
+    "range_position_pct": 97.64
   },
   "risk_model": {
     "invalidation_floor": 653.55,

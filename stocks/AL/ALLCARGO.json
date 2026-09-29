@@ -1,4 +1,6 @@
 {
+  "analytics_reason": "UNRESOLVED_CORPORATE_ACTION",
+  "analytics_status": "BLOCKED_INPUT",
   "candles": [
     {
       "close": 33.87,
@@ -2026,14 +2028,7 @@
   },
   "industry": null,
   "isin": "INE418H01029",
-  "metrics": {
-    "is_breakout": false,
-    "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.63x"
-  },
+  "metrics": null,
   "price": {
     "as_of": "2026-09-25",
     "change": -0.28,
@@ -2043,19 +2038,8 @@
     "type": "EOD_CLOSE",
     "volume": 8547656
   },
-  "range": {
-    "distance_from_high_pct": -70.81,
-    "distance_from_low_pct": 50.07,
-    "high_52w": 36.55,
-    "history_basis": "52_WEEK",
-    "low_52w": 7.11,
-    "range_position_pct": 12.09
-  },
-  "risk_model": {
-    "invalidation_floor": 10.3,
-    "risk_per_share": 0.58,
-    "technical_pivot": 10.88
-  },
+  "range": null,
+  "risk_model": null,
   "schema_version": "1.0",
   "sector": null,
   "symbol": "ALLCARGO"

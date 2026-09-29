@@ -1,4 +1,6 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
     {
       "close": 99.8,
@@ -615,14 +617,30 @@
       "open": 84.01,
       "time": "2026-09-22",
       "volume": 50
+    },
+    {
+      "close": 83.55,
+      "high": 83.55,
+      "low": 83.5,
+      "open": 83.5,
+      "time": "2026-09-23",
+      "volume": 201
+    },
+    {
+      "close": 87.7,
+      "high": 87.7,
+      "low": 87.5,
+      "open": 87.5,
+      "time": "2026-09-24",
+      "volume": 203
     }
   ],
   "company_name": "SONAL MERCANTILE LTD.",
   "history": {
     "first_session": "2026-04-21",
     "has_full_52w_history": false,
-    "last_session": "2026-09-22",
-    "sessions_available": 77
+    "last_session": "2026-09-24",
+    "sessions_available": 79
   },
   "industry": null,
   "isin": "INE321M01017",
@@ -630,31 +648,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 60,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.37x"
+    "volume_multiplier": "1.4x"
   },
   "price": {
-    "as_of": "2026-09-22",
-    "change": 0.0,
-    "change_pct": 0.0,
-    "close": 84.01,
-    "previous_close": 84.01,
+    "as_of": "2026-09-24",
+    "change": 4.15,
+    "change_pct": 4.97,
+    "close": 87.7,
+    "previous_close": 83.55,
     "type": "EOD_CLOSE",
-    "volume": 50
+    "volume": 203
   },
   "range": {
-    "distance_from_high_pct": -19.8,
-    "distance_from_low_pct": 1.83,
+    "distance_from_high_pct": -16.28,
+    "distance_from_low_pct": 6.3,
     "high_52w": 104.75,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 82.5,
-    "range_position_pct": 6.79
+    "range_position_pct": 23.37
   },
   "risk_model": {
-    "invalidation_floor": 81.07,
-    "risk_per_share": 4.62,
-    "technical_pivot": 85.69
+    "invalidation_floor": 84.63,
+    "risk_per_share": 4.82,
+    "technical_pivot": 89.45
   },
   "schema_version": "1.0",
   "sector": null,

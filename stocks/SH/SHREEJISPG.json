@@ -1,5 +1,23 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
+    {
+      "close": 253.05,
+      "high": 255.95,
+      "low": 253.0,
+      "open": 254.25,
+      "time": "2025-09-18",
+      "volume": 268211
+    },
+    {
+      "close": 255.3,
+      "high": 259.0,
+      "low": 252.0,
+      "open": 253.0,
+      "time": "2025-09-19",
+      "volume": 634262
+    },
     {
       "close": 253.55,
       "high": 259.1,
@@ -169,14 +187,6 @@
       "volume": 139412
     },
     {
-      "close": 1461.28,
-      "high": 1492.19,
-      "low": 1429.42,
-      "open": 1457.34,
-      "time": "2025-10-22",
-      "volume": 138890
-    },
-    {
       "close": 237.63,
       "high": 241.04,
       "low": 237.0,
@@ -247,14 +257,6 @@
       "open": 273.1,
       "time": "2025-11-04",
       "volume": 416433
-    },
-    {
-      "close": 1555.01,
-      "high": 1557.95,
-      "low": 1492.63,
-      "open": 1516.25,
-      "time": "2025-11-05",
-      "volume": 115047
     },
     {
       "close": 268.5,
@@ -2019,7 +2021,7 @@
   ],
   "company_name": "Shreeji Shipping Global Limite",
   "history": {
-    "first_session": "2025-09-22",
+    "first_session": "2025-09-18",
     "has_full_52w_history": true,
     "last_session": "2026-09-25",
     "sessions_available": 252
@@ -2027,11 +2029,11 @@
   "industry": null,
   "isin": "INE1B6101010",
   "metrics": {
-    "is_breakout": false,
+    "is_breakout": true,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 40,
-    "setup_type": "Liquid Active",
+    "is_stage2": true,
+    "momentum_score": 89,
+    "setup_type": "52W High Breakout",
     "volume_multiplier": "1.02x"
   },
   "price": {
@@ -2044,17 +2046,17 @@
     "volume": 1197147
   },
   "range": {
-    "distance_from_high_pct": -51.7,
+    "distance_from_high_pct": -0.21,
     "distance_from_low_pct": 238.94,
-    "high_52w": 1557.95,
+    "high_52w": 754.0,
     "history_basis": "52_WEEK",
     "low_52w": 222.0,
-    "range_position_pct": 39.71
+    "range_position_pct": 99.71
   },
   "risk_model": {
     "invalidation_floor": 726.11,
-    "risk_per_share": 41.39,
-    "technical_pivot": 767.5
+    "risk_per_share": 32.36,
+    "technical_pivot": 758.47
   },
   "schema_version": "1.0",
   "sector": null,

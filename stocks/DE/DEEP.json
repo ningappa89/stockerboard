@@ -1,4 +1,6 @@
 {
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
   "candles": [
     {
       "close": 36.01,
@@ -191,14 +193,30 @@
       "open": 49.0,
       "time": "2026-09-18",
       "volume": 24429
+    },
+    {
+      "close": 46.28,
+      "high": 47.9,
+      "low": 44.39,
+      "open": 46.7,
+      "time": "2026-09-21",
+      "volume": 6635
+    },
+    {
+      "close": 45.56,
+      "high": 48.59,
+      "low": 45.1,
+      "open": 48.59,
+      "time": "2026-09-22",
+      "volume": 8005
     }
   ],
   "company_name": "DEEP POLYMERS LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-18",
-    "sessions_available": 24
+    "last_session": "2026-09-22",
+    "sessions_available": 26
   },
   "industry": null,
   "isin": "INE00IY01012",
@@ -206,31 +224,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 82,
+    "momentum_score": 78,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.48x"
+    "volume_multiplier": "0.16x"
   },
   "price": {
-    "as_of": "2026-09-18",
-    "change": -0.51,
-    "change_pct": -1.08,
-    "close": 46.72,
-    "previous_close": 47.23,
+    "as_of": "2026-09-22",
+    "change": -0.72,
+    "change_pct": -1.56,
+    "close": 45.56,
+    "previous_close": 46.28,
     "type": "EOD_CLOSE",
-    "volume": 24429
+    "volume": 8005
   },
   "range": {
-    "distance_from_high_pct": -4.98,
-    "distance_from_low_pct": 36.61,
+    "distance_from_high_pct": -7.34,
+    "distance_from_low_pct": 33.22,
     "high_52w": 49.17,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 34.2,
-    "range_position_pct": 83.63
+    "range_position_pct": 75.89
   },
   "risk_model": {
-    "invalidation_floor": 45.08,
-    "risk_per_share": 2.57,
-    "technical_pivot": 47.65
+    "invalidation_floor": 43.97,
+    "risk_per_share": 2.5,
+    "technical_pivot": 46.47
   },
   "schema_version": "1.0",
   "sector": null,
