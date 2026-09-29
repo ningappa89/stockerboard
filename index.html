@@ -14372,7 +14372,7 @@
 
         function loadFundamentalsSnapshot() {
             if (!fundamentalsLoadPromise) {
-                fundamentalsLoadPromise = fetch('./fundamentals.json?v=20260929', {cache: 'no-cache'})
+                fundamentalsLoadPromise = fetch('./fundamentals.json?v=20260930', {cache: 'no-cache'})
                     .then(response => { if (!response.ok) throw new Error('Fundamentals snapshot unavailable'); return response.json(); })
                     .then(snapshot => {
                         if (snapshot.schema_version !== 1 || !snapshot.stocks || typeof snapshot.stocks !== 'object') throw new Error('Invalid fundamentals snapshot');
@@ -18683,17 +18683,32 @@
             if (activeDossierSymbol !== cleanSym) return;
 
             if (!stockData) {
+                // Pull fundamentals from the prebuilt snapshot (1806 stocks) for any
+                // stock that has no dossier shard file and is not in the screener pool.
+                const snapEntry = fundamentalsSnapshot ? fundamentalsSnapshot[cleanSym] : null;
+                const snapFundamentals = snapEntry ? readDossierFundamentals(snapEntry) : {};
+                const metaCmp = searchMeta ? (parseFloat(searchMeta.cmp) || 0) : 0;
+                const metaDist = searchMeta ? (parseFloat(searchMeta.dist) || -2.0) : -2.0;
+                // Estimate 52W range from CMP + dist-from-high when the shard is absent.
+                const estHigh = metaCmp > 0 ? metaCmp / (1 + metaDist / 100) : 0;
+                const estLow  = estHigh > 0 ? estHigh * 0.72 : 0;
                 stockData = {
                     symbol: cleanSym,
                     company_name: searchMeta ? searchMeta.name : cleanSym,
                     sector: searchMeta?.sector || 'NSE Equities Universe',
-                    cmp: 0,
-                    dist_52w_pct: -2.0,
-                    momentum_score: 50,
-                    is_breakout: false,
-                    is_coiled: false,
-                    is_stage2: false,
-                    candles: []
+                    cmp: metaCmp,
+                    change: 0,
+                    change_pct: 0,
+                    high_52w: estHigh,
+                    low_52w: estLow,
+                    dist_52w_pct: metaDist,
+                    momentum_score: searchMeta ? (parseInt(searchMeta.momentum) || 50) : 50,
+                    is_breakout: searchMeta ? !!searchMeta.isBreakout : false,
+                    is_coiled: searchMeta ? !!searchMeta.isCoiled : false,
+                    is_stage2: searchMeta ? !!searchMeta.isStage2 : false,
+                    candles: [],
+                    ...snapFundamentals,
+                    fundamentals_metadata: snapEntry || null
                 };
             }
 
