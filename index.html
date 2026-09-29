@@ -4639,6 +4639,123 @@
         .shimmer-pulse-badge {
             animation: shimmerGlow 1.8s ease-in-out infinite;
         }
+
+        /* === Sprint UX: Quick Screen Buttons === */
+        .fresher-qs-btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 7px 16px;
+            border: 1px solid var(--border-card, #E5E7EB);
+            border-radius: 8px;
+            background: var(--bg-surface, #FFFFFF);
+            color: var(--text-primary);
+            font-family: var(--font-sans);
+            font-size: 0.88rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            white-space: nowrap;
+        }
+        .fresher-qs-btn:hover {
+            border-color: var(--brand-green, #15803D);
+            color: var(--brand-green, #15803D);
+            background: rgba(21, 128, 61, 0.05);
+        }
+        .fresher-qs-btn.active {
+            background: var(--brand-green, #15803D);
+            border-color: var(--brand-green, #15803D);
+            color: #FFFFFF;
+        }
+        [data-theme="dark"] .fresher-qs-btn {
+            background: var(--bg-surface, #0E1420);
+            border-color: var(--border-card, rgba(255,255,255,0.06));
+            color: var(--text-primary, #F8FAFC);
+        }
+        [data-theme="dark"] .fresher-qs-btn:hover {
+            border-color: #22C55E;
+            color: #22C55E;
+            background: rgba(34, 197, 94, 0.06);
+        }
+        [data-theme="dark"] .fresher-qs-btn.active {
+            background: #15803D;
+            border-color: #15803D;
+            color: #FFFFFF;
+        }
+
+        /* === Sprint UX: Why Matched section in drawer === */
+        .drawer-why-matched {
+            margin: 10px 16px 4px 16px;
+            padding: 12px 14px;
+            border: 1px solid var(--border-card, #E5E7EB);
+            border-radius: 8px;
+            background: var(--bg-surface-elevated, #F8FAFC);
+        }
+        [data-theme="dark"] .drawer-why-matched {
+            background: rgba(255,255,255,0.03);
+            border-color: rgba(255,255,255,0.06);
+        }
+        .drawer-why-title {
+            font-size: 0.68rem;
+            font-weight: 700;
+            letter-spacing: 0.07em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+        }
+        .drawer-why-list {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .drawer-why-item {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            font-size: 0.82rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+        .drawer-why-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--accent-emerald, #16A34A);
+            flex-shrink: 0;
+        }
+
+        /* === Sprint UX: Empty State === */
+        .screener-empty-state {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 48px 24px;
+            text-align: center;
+            gap: 12px;
+        }
+        .screener-empty-state.visible {
+            display: flex;
+        }
+        .screener-empty-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+        .screener-empty-sub {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            max-width: 320px;
+        }
+
+        /* === Responsive: hide less-important columns === */
+        @media (max-width: 1024px) {
+            #screenerTable th:nth-child(5),
+            #screenerTable td:nth-child(5) { display: none; }
+        }
+        @media (max-width: 768px) {
+            #screenerTable th:nth-child(10),
+            #screenerTable td:nth-child(10) { display: none; }
+        }
 </style>
 </head>
 <body>
@@ -4721,8 +4838,8 @@
             <!-- Refined Hero Studio -->
             <div class="fresher-hero-studio">
                 <h1 class="fresher-hero-heading" style="margin-bottom: 8px;">
-                    <span class="fresher-hero-lead" style="font-size: 3.4rem; font-weight: 800; letter-spacing: -0.035em;">Analyze any <span style="color: #15803D;">Indian stock</span><span style="color: #F43F5E;">.</span></span>
-                    <span class="fresher-hero-subline" style="font-size: 1.25rem; font-weight: 500; color: var(--text-secondary); margin-top: 6px;">Financial health, valuation & risk floors before you buy.</span>
+                    <span class="fresher-hero-lead" style="font-size: 3.4rem; font-weight: 800; letter-spacing: -0.035em;">Find <span style="color: #15803D;">Indian stocks</span> worth investigating<span style="color: #F43F5E;">.</span></span>
+                    <span class="fresher-hero-subline" style="font-size: 1.25rem; font-weight: 500; color: var(--text-secondary); margin-top: 6px;">Screen NSE stocks using momentum, quality, valuation and price strength.</span>
                 </h1>
 
                 <!-- FAANG-Grade Omnibar (Perplexity / Raycast elevation) -->
@@ -4751,29 +4868,13 @@
                     </div>
                 </div>
 
-                <!-- Popular Searches Pill Row -->
-                <div class="fresher-capsules-wrap" style="display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap; margin: 16px auto 16px auto;">
-                    <span class="fresher-capsule-label" style="font-size: 0.88rem; font-weight: 500; color: var(--text-secondary); margin-right: 4px;">Popular searches:</span>
-                    <a href="/stocks/RELIANCE/" class="fresher-capsule" onclick="openStockDossier('RELIANCE'); return false;" title="Analyze Reliance Industries (Energy & Retail)">
-                        <span>RELIANCE</span>
-                        <span style="font-size: 0.72rem; color: var(--text-muted); font-weight: 500; opacity: 0.85;">• Energy</span>
-                    </a>
-                    <a href="/stocks/TCS/" class="fresher-capsule" onclick="openStockDossier('TCS'); return false;" title="Analyze Tata Consultancy Services (IT)">
-                        <span>TCS</span>
-                        <span style="font-size: 0.72rem; color: var(--text-muted); font-weight: 500; opacity: 0.85;">• IT</span>
-                    </a>
-                    <a href="/stocks/HDFCBANK/" class="fresher-capsule" onclick="openStockDossier('HDFCBANK'); return false;" title="Analyze HDFC Bank (Banking)">
-                        <span>HDFCBANK</span>
-                        <span style="font-size: 0.72rem; color: var(--text-muted); font-weight: 500; opacity: 0.85;">• Bank</span>
-                    </a>
-                    <a href="/stocks/INFY/" class="fresher-capsule" onclick="openStockDossier('INFY'); return false;" title="Analyze Infosys Ltd (IT)">
-                        <span>INFY</span>
-                        <span style="font-size: 0.72rem; color: var(--text-muted); font-weight: 500; opacity: 0.85;">• IT</span>
-                    </a>
-                    <a href="/stocks/ITC/" class="fresher-capsule" onclick="openStockDossier('ITC'); return false;" title="Analyze ITC Ltd (FMCG)">
-                        <span>ITC</span>
-                        <span style="font-size: 0.72rem; color: var(--text-muted); font-weight: 500; opacity: 0.85;">• FMCG</span>
-                    </a>
+                <!-- Quick Screens — map to canonical screener presets -->
+                <div class="fresher-quickscreen-wrap" style="display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap; margin: 18px auto 4px auto;">
+                    <button class="fresher-qs-btn" id="qs-btn-breakout" onclick="applyQuickScreen('BREAKOUT', this)" title="Stocks clearing 52-week high on strong volume">Breakouts</button>
+                    <button class="fresher-qs-btn" id="qs-btn-near52" onclick="applyQuickScreen('COILED', this)" title="Stocks within 3% of 52-week high, coiling before next move">Near 52W High</button>
+                    <button class="fresher-qs-btn" id="qs-btn-momentum" onclick="applyQuickScreen('MOMENTUM', this)" title="Stocks with momentum score ≥ 85/100">Momentum</button>
+                    <button class="fresher-qs-btn" id="qs-btn-quality" onclick="applyQuickScreen('HIGH_ROE', this)" title="Stocks with Return on Equity ≥ 15%">Quality</button>
+                    <button class="fresher-qs-btn" id="qs-btn-value" onclick="applyQuickScreen('VALUE_PE', this)" title="Stocks with P/E ≤ 25">Value</button>
                 </div>
 
                 </div>
@@ -4826,28 +4927,27 @@
                 </div>
             </div>
 
-            <!-- Top 5 Focus Setups of the Day -->
-            <div class="fresher-focus-section">
-                <div class="fresher-section-hdr">
-                    <div>
-                        <h2 class="fresher-section-title">Today's Focus Setups &amp; Risk Floors</h2>
-                        <div class="fresher-section-sub">Mathematically qualified setups with pre-calculated invalidation levels.</div>
-                    </div>
-                    <span style="font-size: 0.72rem; color: var(--text-muted);">Updated Daily Post-Market • 25 Sep 2026</span>
-                </div>
-
-                <div class="fresher-focus-grid" id="fresherFocusGrid">
-                    <!-- Populated dynamically via JS -->
-                </div>
+            <!-- Mode Bridge Banner (directly below quick screens) -->
+            <div class="fresher-bridge-banner" style="margin-top: 20px;">
+                <div class="bridge-title">Ready for the full screener?</div>
+                <div class="bridge-desc">350+ NSE stocks with advanced filters, sector rotation, strategy signals and portfolio tools.</div>
+                <button class="btn btn-primary" onclick="switchUserMode('intermediate')" style="padding: 8px 18px; font-size: 0.82rem;">
+                    Open Full Screener ➔
+                </button>
             </div>
 
-            <!-- Bottom Mode Bridge Banner -->
-            <div class="fresher-bridge-banner">
-                <div class="bridge-title">Looking for 350+ screener tables, What-If shock tests, or Minervini playbooks?</div>
-                <div class="bridge-desc">Switch to the full quantitative Intermediate Terminal anytime for deep-dive screening and portfolio risk shields.</div>
-                <button class="btn btn-primary" onclick="switchUserMode('intermediate')" style="padding: 8px 18px; font-size: 0.82rem;">
-                    Switch to Pro Terminal Mode ➔
-                </button>
+            <!-- Today's Focus moved below bridge — minimal, canonical data only -->
+            <div class="fresher-focus-section" style="margin-top: 28px;">
+                <div class="fresher-section-hdr">
+                    <div>
+                        <h2 class="fresher-section-title">Recent Setups</h2>
+                        <div class="fresher-section-sub">High-momentum stocks from today's qualified screener pool.</div>
+                    </div>
+                    <span id="fresherFocusDate" style="font-size: 0.72rem; color: var(--text-muted);">Updated daily post-market</span>
+                </div>
+                <div class="fresher-focus-grid" id="fresherFocusGrid">
+                    <!-- Populated dynamically via JS from APP_DATA — no fabricated values -->
+                </div>
             </div>
         </div>
 
@@ -5104,8 +5204,8 @@
                                 <th onclick="sortTable('screenerTable', 4)">Sector <span class="sort-arrow"></span></th>
                                 <th class="col-right" onclick="sortTable('screenerTable', 5)">CMP (₹) <span class="sort-arrow"></span></th>
                                 <th class="col-right" onclick="sortTable('screenerTable', 6)">52W High <span class="sort-arrow"></span></th>
-                                <th class="col-right" onclick="sortTable('screenerTable', 7)">Dist 52W <span class="sort-arrow"></span></th>
-                                <th class="col-right" onclick="sortTable('screenerTable', 8)">Volume <span class="sort-arrow"></span></th>
+                                <th class="col-right" onclick="sortTable('screenerTable', 7)">52W Position <span class="sort-arrow"></span></th>
+                                <th class="col-right" onclick="sortTable('screenerTable', 8)">Raw Volume <span class="sort-arrow"></span></th>
                                 <th class="col-right" onclick="sortTable('screenerTable', 9)">Vol Surge <span class="sort-arrow"></span></th>
                                 <th class="col-right" onclick="sortTable('screenerTable', 10)">P/E <span class="sort-arrow"></span></th>
                                 <th class="col-right" onclick="sortTable('screenerTable', 11)">ROE % <span class="sort-arrow"></span></th>
@@ -10019,6 +10119,12 @@
             </div>
             <!-- Screener Pagination Bar -->
             <div class="screener-pagination" id="screenerPagination"></div>
+        <!-- Empty state: shown when no stocks match filters -->
+        <div class="screener-empty-state" id="screenerEmptyState">
+            <div class="screener-empty-title">No stocks match these filters.</div>
+            <div class="screener-empty-sub">Try changing one filter or resetting the screen.</div>
+            <button class="btn btn-secondary" onclick="setScreenerPreset('ALL', document.querySelector('.screener-preset-btn')); document.querySelectorAll('.fresher-qs-btn').forEach(function(b){b.classList.remove('active');});" style="margin-top:8px; font-size:0.84rem;">Reset Filters</button>
+        </div>
         </div>
 
         <!-- TAB 1: 52W Breakouts -->
@@ -13727,6 +13833,11 @@
             </div>
             <div class="drawer-sym" id="drawerCmp">Rs. 0.00</div>
             <div class="drawer-name" id="drawerName">Company Name Ltd.</div>
+            <!-- Why It Matched - rendered by renderDrawerWhyMatched() -->
+            <div class="drawer-why-matched" id="drawerWhyMatched" style="display:none;">
+                <div class="drawer-why-title">Why It Matched</div>
+                <div class="drawer-why-list" id="drawerWhyList"></div>
+            </div>
 
             <!-- Drawer Navigation Sub-Tabs -->
             <div class="drawer-tabs-bar">
@@ -14196,6 +14307,88 @@
                 }
             } catch(e) {}
         }
+
+        // === Sprint UX Helpers (injected by apply_ux_sprint.py) ===
+
+        // P0.2: Single authoritative date source
+        function getMarketSessionDate() {
+            if (typeof APP_DATA !== 'undefined') {
+                return APP_DATA.session_date || APP_DATA.market_session_date || APP_DATA.universe_as_of || '2026-09-22';
+            }
+            return '2026-09-22';
+        }
+
+        // P3: Quick Screen - switches to Pro terminal and applies canonical preset
+        function applyQuickScreen(preset, btn) {
+            // Visual state on quick-screen buttons
+            document.querySelectorAll('.fresher-qs-btn').forEach(function(b) { b.classList.remove('active'); });
+            if (btn) btn.classList.add('active');
+
+            // Switch to Pro terminal mode
+            switchUserMode('intermediate');
+
+            // Apply the canonical preset using existing setScreenerPreset()
+            setScreenerPreset(preset, null);
+
+            // Sync Pro preset button visual state
+            var presetBtn = document.querySelector('.screener-preset-btn[onclick*="' + preset + '"]');
+            if (presetBtn) {
+                document.querySelectorAll('.screener-preset-btn').forEach(function(b) { b.classList.remove('active'); });
+                presetBtn.classList.add('active');
+            }
+
+            // Analytics - reuse existing trackEvent
+            if (typeof trackEvent === 'function') {
+                trackEvent('quick_screen_selected', { screen: preset.toLowerCase() });
+            }
+        }
+
+        // P13: Build match reasons from canonical fields only - no fabricated values
+        // Thresholds intentionally match applyScreenerFilters() exactly
+        function buildMatchReasons(stock) {
+            if (!stock) return [];
+            var reasons = [];
+            var dist = parseFloat(stock.dist_52w_pct);
+            var volRaw = stock.volume_multiplier || '';
+            var vol = parseFloat(volRaw);
+            var roe = parseFloat(stock.roe_raw !== undefined ? stock.roe_raw : stock.roe);
+            var mom = parseInt(stock.momentum_score);
+
+            if (stock.is_stage2)       reasons.push('Stage 2 uptrend');
+            if (stock.is_vcp)          reasons.push('VCP base forming');
+            if (stock.is_pocket_pivot) reasons.push('Pocket Pivot signal');
+            if (stock.is_confluence)   reasons.push('Multi-signal confluence');
+            if (!isNaN(dist)) {
+                if (dist >= -0.5)      reasons.push('At 52-week high');
+                else if (dist >= -3.0) reasons.push(Math.abs(dist).toFixed(1) + '% below 52W high');
+            }
+            if (!isNaN(vol) && vol >= 1.5) reasons.push('Volume ' + volRaw + ' vs avg');
+            if (!isNaN(roe) && roe >= 15)  reasons.push('ROE ' + roe.toFixed(1) + '%');
+            if (!isNaN(mom) && mom >= 85)  reasons.push('Momentum ' + mom + '/100');
+
+            return reasons.slice(0, 4);
+        }
+
+        // P5: Render Why Matched in the drawer
+        function renderDrawerWhyMatched(stock) {
+            var container = document.getElementById('drawerWhyMatched');
+            if (!container) return;
+            var reasons = buildMatchReasons(stock);
+            if (reasons.length === 0) {
+                container.style.display = 'none';
+                return;
+            }
+            container.style.display = 'block';
+            var list = document.getElementById('drawerWhyList');
+            if (list) {
+                list.innerHTML = reasons.map(function(r) {
+                    return '<div class="drawer-why-item"><span class="drawer-why-dot"></span><span>' + r + '</span></div>';
+                }).join('');
+            }
+        }
+
+        // === End Sprint UX Helpers ===
+
 
         // 1. Tab Switching
         function switchTab(tabId, btn) {
@@ -14984,8 +15177,8 @@
             setTxt('drawerName', stock.company_name || cleanSym);
             setTxt('drawerCmp', stock.cmp && stock.cmp > 0 ? `Rs. ${stock.cmp.toLocaleString()}` : 'Live Market Quote');
             setTxt('drawerPE', stock.pe || 'N/A');
-            setTxt('drawerROE', stock.roe ? `${stock.roe}%` : 'N/A');
-            setTxt('drawerROCE', stock.roce ? `${stock.roce}%` : 'N/A');
+            setTxt('drawerROE', (parseFloat(stock.roe_raw !== undefined ? stock.roe_raw : stock.roe) > 0) ? `${stock.roe}%` : '—');
+            setTxt('drawerROCE', (parseFloat(stock.roce) > 0) ? `${stock.roce}%` : '—');
             setTxt('drawerPB', stock.pb || 'N/A');
 
             // 52W Spectrum
@@ -15100,6 +15293,9 @@
                     peersList.innerHTML = '<div style="color: var(--text-muted); font-size: 0.8rem; padding: 4px 0;">No other direct peers in this sector found in the qualified screener pool.</div>';
                 }
             }
+
+            // Why It Matched - inject from canonical data
+            renderDrawerWhyMatched(stock);
 
             // Action Links
             const tvLink = document.getElementById('drawerTvLink');
@@ -15583,6 +15779,9 @@
             if (startEl) startEl.innerText = totalFiltered > 0 ? startIdx + 1 : 0;
             if (endEl)   endEl.innerText   = endIdx;
             if (countEl) countEl.innerText = totalFiltered;
+            // Show/hide empty state when no results
+            var emptyState = document.getElementById('screenerEmptyState');
+            if (emptyState) emptyState.classList.toggle('visible', totalFiltered === 0);
             if (labelEl) labelEl.innerText = totalPages > 1 ? `(Page ${screenerCurrentPage} of ${totalPages})` : '';
             if (tvEl)    tvEl.innerText    = totalFiltered;
 
@@ -17677,75 +17876,89 @@
 
         // Top 5 Focus Cards Population
         function renderFresherFocusCards() {
-            const grid = document.getElementById('fresherFocusGrid');
+            var grid = document.getElementById('fresherFocusGrid');
             if (!grid) return;
 
-            // Handpicked educational leaders (100% verified in daily screener with full OHLCV candlestick data)
-            const focusTickers = ['BEL', 'TATAPOWER', 'COALINDIA', 'RBLBANK', 'ENGINERSIN'];
-            if (!stockSearchIndex || stockSearchIndex.length === 0) buildStockSearchIndex();
+            // Update date label from canonical source - no hard-coded dates
+            var dateEl = document.getElementById('fresherFocusDate');
+            if (dateEl && typeof APP_DATA !== 'undefined') {
+                var d = APP_DATA.display_date || APP_DATA.session_date || '';
+                if (d) dateEl.innerText = 'Updated post-market - ' + d;
+            }
 
-            const cardsData = focusTickers.map(t => {
-                return stockSearchIndex.find(s => s.symbol === t) || {
-                    symbol: t,
-                    name: `${t} Limited`,
-                    cmp: 450,
-                    dist: -1.5,
-                    sector: 'Industrials',
-                    momentum: 90
-                };
-            });
+            // Derive focus stocks from canonical APP_DATA pools - sorted by momentum
+            var pool = []
+                .concat(APP_DATA.breakouts || [])
+                .concat(APP_DATA.consolidations || [])
+                .filter(function(s) { return s && s.symbol && s.cmp > 0; })
+                .sort(function(a, b) { return (b.momentum_score || 0) - (a.momentum_score || 0); });
 
-            grid.innerHTML = cardsData.map(c => {
-                const pivot = (c.cmp * 1.015).toFixed(2);
-                const floor = (c.cmp * 0.965).toFixed(2);
-                const badge = c.dist >= -1.0 ? '52W Breakout' : (c.dist >= -3.5 ? 'Coiled < 3%' : 'Stage 2 Trend');
-                const badgeClass = c.dist >= -1.0 ? 'drop-reason-blue' : (c.dist >= -3.5 ? 'drop-reason-amber' : 'drop-reason-green');
-                return `
-                    <div class="fresher-focus-card" onclick="openStockDossier('${c.symbol}')">
-                        <div>
-                            <div class="focus-top-row">
-                                <span class="focus-sym">${c.symbol}</span>
-                                <span class="focus-cmp">₹${c.cmp > 0 ? c.cmp.toLocaleString() : '—'}</span>
-                            </div>
-                            <div class="focus-name">${c.name}</div>
-                            <div style="margin-bottom: 10px;">
-                                <span class="drop-reason-pill ${badgeClass}">${badge}</span>
-                            </div>
-                            <div class="focus-pivots-box">
-                                <div class="focus-pivot-item">
-                                    <span>Technical Pivot</span>
-                                    <strong>₹${pivot}</strong>
-                                </div>
-                                <div class="focus-pivot-item" style="text-align: right;">
-                                    <span>Safety Floor</span>
-                                    <strong style="color: #F87171;">₹${floor}</strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="focus-card-cta">
-                            <span>Inspect Setup &amp; Risk Sizer</span>
-                            <span>➔</span>
-                        </div>
-                    </div>
-                `;
+            // Deduplicate by symbol, take top 5
+            var seen = {};
+            var topStocks = [];
+            for (var i = 0; i < pool.length; i++) {
+                var s = pool[i];
+                if (!seen[s.symbol]) {
+                    seen[s.symbol] = true;
+                    topStocks.push(s);
+                    if (topStocks.length >= 5) break;
+                }
+            }
+
+            if (topStocks.length === 0) {
+                grid.innerHTML = '<div style="color: var(--text-muted); font-size: 0.84rem; padding: 12px 0;">No setups available for today\'s session.</div>';
+                return;
+            }
+
+            grid.innerHTML = topStocks.map(function(c) {
+                var dist = parseFloat(c.dist_52w_pct);
+                var badge, badgeClass;
+                if (dist >= -0.5) {
+                    badge = '52W Breakout'; badgeClass = 'drop-reason-blue';
+                } else if (dist >= -3.0) {
+                    badge = 'Near 52W High'; badgeClass = 'drop-reason-amber';
+                } else {
+                    badge = 'Stage 2 Trend'; badgeClass = 'drop-reason-green';
+                }
+
+                // Build match reasons from canonical fields - NO fabricated values
+                var reasons = buildMatchReasons(c);
+                var reasonsHtml = reasons.length > 0
+                    ? '<div style="display:flex;flex-direction:column;gap:4px;margin-bottom:10px;">'
+                        + reasons.map(function(r) {
+                            return '<div style="font-size:0.76rem;color:var(--text-secondary);display:flex;align-items:center;gap:5px;">'
+                                + '<span style="width:5px;height:5px;border-radius:50%;background:var(--accent-emerald);flex-shrink:0;display:inline-block;"></span>' + r + '</div>';
+                          }).join('')
+                        + '</div>'
+                    : '';
+
+                return '<div class="fresher-focus-card" onclick="openStockDrawer(\'' + c.symbol + '\')">'
+                    + '<div>'
+                    + '<div class="focus-top-row">'
+                    + '<span class="focus-sym">' + c.symbol + '</span>'
+                    + '<span class="focus-cmp">\u20b9' + (c.cmp > 0 ? c.cmp.toLocaleString('en-IN', {maximumFractionDigits: 2}) : '-') + '</span>'
+                    + '</div>'
+                    + '<div class="focus-name">' + (c.company_name || c.symbol) + '</div>'
+                    + '<div style="margin-bottom: 8px;"><span class="drop-reason-pill ' + badgeClass + '">' + badge + '</span></div>'
+                    + reasonsHtml
+                    + '</div>'
+                    + '<div class="focus-card-cta"><span>View Setup</span><span>\u2794</span></div>'
+                    + '</div>';
             }).join('');
         }
-
-        // Educational Risk Simulation in Drawer
-        let currentDrawerPivot = 0;
-        let currentDrawerFloor = 0;
 
         function updateFresherDrawerCard(stock) {
             const cmp = parseFloat(stock.cmp) || 100;
             const dist = parseFloat(stock.dist_52w_pct) || -2.0;
 
-            currentDrawerPivot = cmp > 0 ? (cmp * (dist >= -1.0 ? 1.008 : 1.018)) : 105;
-            currentDrawerFloor = cmp > 0 ? (cmp * 0.965) : 96.5;
+            // Use canonical dossier values only - never fabricate
+            currentDrawerPivot = (stock.technical_pivot && stock.technical_pivot > 0) ? stock.technical_pivot : 0;
+            currentDrawerFloor = (stock.invalidation_floor && stock.invalidation_floor > 0) ? stock.invalidation_floor : 0;
 
             const setTxt = (id, val) => { const el = document.getElementById(id); if (el) el.innerText = val; };
 
-            setTxt('eduPivotVal', `₹${currentDrawerPivot.toFixed(2)}`);
-            setTxt('eduFloorVal', `₹${currentDrawerFloor.toFixed(2)}`);
+            setTxt('eduPivotVal', currentDrawerPivot > 0 ? `₹${currentDrawerPivot.toFixed(2)}` : '—');
+            setTxt('eduFloorVal', currentDrawerFloor > 0 ? `₹${currentDrawerFloor.toFixed(2)}` : '—');
 
             const riskPerShare = Math.max(0.5, currentDrawerPivot - currentDrawerFloor);
             setTxt('eduRiskPerShare', `₹${riskPerShare.toFixed(2)} (${((riskPerShare / currentDrawerPivot) * 100).toFixed(1)}%)`);
@@ -18089,7 +18302,7 @@
             if (dossierCache.has(cleanSym)) return;
             
             const shard = getDossierShard(cleanSym);
-            const version = (typeof APP_DATA !== 'undefined' && APP_DATA.market_session_date) ? APP_DATA.market_session_date : '2026-09-25';
+            const version = getMarketSessionDate();
             fetch(`./stocks/${shard}/${cleanSym}.json?v=${version}`)
                 .then(r => r.ok ? r.json() : null)
                 .then(json => {
@@ -18146,7 +18359,7 @@
 
             try {
                 const shard = getDossierShard(cleanSym);
-                const version = (typeof APP_DATA !== 'undefined' && APP_DATA.market_session_date) ? APP_DATA.market_session_date : '2026-09-25';
+                const version = getMarketSessionDate();
                 const resp = await fetch(`./stocks/${shard}/${cleanSym}.json?v=${version}`, { signal });
                 if (resp.ok) {
                     const json = await resp.json();
