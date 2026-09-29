@@ -4756,6 +4756,59 @@
             #screenerTable th:nth-child(10),
             #screenerTable td:nth-child(10) { display: none; }
         }
+
+        /* Shared screening surface; existing Pro tools retain their original columns. */
+        #tab-screener { scroll-margin-top: 90px; }
+        .fresher-bridge-banner { display: none; }
+        .fresher-hero-lead { font-size: clamp(1.8rem, 3.5vw, 3.4rem) !important; }
+        .fresher-hero-subline { font-size: clamp(.9rem, 1.5vw, 1.25rem) !important; }
+        #screenAdvanced { margin-top: 12px; border-top: 1px solid var(--border-subtle); padding-top: 12px; }
+        #screenAdvanced summary { cursor: pointer; font-weight: 600; padding: 6px; }
+        #screenAdvanced[open] .filter-row-top { margin-top: 12px; }
+        #screenerTable td:nth-child(2) small { display: block; color: var(--text-secondary); white-space: normal; font-size: .72rem; margin-top: 4px; }
+        .screen-fresher #screenerTable :is(th,td):nth-child(3),
+        .screen-fresher #screenerTable :is(th,td):nth-child(5),
+        .screen-fresher #screenerTable :is(th,td):nth-child(7),
+        .screen-fresher #screenerTable :is(th,td):nth-child(9),
+        .screen-fresher #screenerTable :is(th,td):nth-child(11) { display: none; }
+        #screenerTable tbody tr:hover { background: var(--bg-hover); }
+        :is(button,select,input,summary,tr):focus-visible { outline: 2px solid var(--accent-emerald); outline-offset: 3px; }
+        .screen-position { display: inline-flex; align-items: center; gap: 8px; font-variant-numeric: tabular-nums; }
+        .screen-track { display: inline-block; width: 65px; height: 5px; background: var(--border-subtle); border-radius: 4px; overflow: hidden; }
+        .screen-track > span { display: block; height: 100%; background: var(--accent-emerald); }
+        .screen-setup { font-size: .68rem; color: var(--text-secondary); white-space: normal; }
+        #drawerScreenSummary { padding: 16px 0; }
+        #drawerScreenSummary h3 { font-size: .75rem; color: var(--text-secondary); }
+        .screen-metrics { display: flex; gap: 24px; flex-wrap: wrap; }
+        .screen-metrics dt { font-size: .75rem; color: var(--text-secondary); }
+        .screen-metrics dd { margin: 5px 0; font-variant-numeric: tabular-nums; }
+        @media(max-width: 768px) {
+            #screenerTable { min-width: 0 !important; width: 100%; table-layout: fixed; }
+            #screenerTable :is(th,td) { padding: 10px 4px !important; font-size: .69rem; white-space: normal; overflow-wrap: anywhere; }
+            #screenerTable :is(th,td):nth-child(3), #screenerTable :is(th,td):nth-child(5), #screenerTable :is(th,td):nth-child(7), #screenerTable :is(th,td):nth-child(9), #screenerTable :is(th,td):nth-child(10), #screenerTable :is(th,td):nth-child(11), #screenerTable :is(th,td):nth-child(12) { display: none; }
+            #screenerTable th:first-child { width: 30px !important; }
+            #screenerTable th:nth-child(2) { width: 30%; }
+            #screenerTable th:nth-child(4) { width: 18% !important; }
+            #screenerTable td:nth-child(2) small { font-size: .62rem; }
+            .screen-position { flex-direction: column; gap: 4px; }
+            .screen-track { width: 40px; }
+            #screenerSectorSelect { max-width: 210px; }
+            .fresher-hero-studio { padding-top: 28px; }
+        }
+
+
+        #tab-screener .sector-select { background: var(--bg-surface); color: var(--text-primary); }
+        .fresher-hero-studio { margin-bottom: 24px; }
+        .screener-filter-bar { padding: 12px 16px; }
+        #tab-screener .filter-row-bottom { gap: 8px !important; }
+        #tab-screener .top-pager { display: none; }
+        #screenAdvanced { margin-top: 8px; padding-top: 8px; }
+        @media(max-width: 768px) {
+            .fresher-hero-studio { margin: 12px auto 20px; padding-top: 0; }
+            .fresher-hero-heading { margin-top: 20px !important; }
+            #tab-screener .screener-status-text { font-size: .72rem; }
+            #tab-screener .filter-row-bottom > div { gap: 8px !important; }
+        }
 </style>
 </head>
 <body>
@@ -4851,13 +4904,13 @@
                                 <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                             </svg>
                         </span>
-                        <input type="text" id="fresherSearchInput" class="fresher-search-input" placeholder="Search RELIANCE, TCS, HDFCBANK, INFY..." autocomplete="off" spellcheck="false" oninput="handleFresherSearchInput(this.value)" onkeydown="handleFresherSearchKeydown(event)">
+                        <input type="text" id="fresherSearchInput" class="fresher-search-input" placeholder="Search company or NSE symbol..." autocomplete="off" spellcheck="false" oninput="handleFresherSearchInput(this.value)" onkeydown="handleFresherSearchKeydown(event)">
                         <button class="fresher-clear-btn" id="fresherClearBtn" onclick="clearFresherSearch()" title="Clear">✕</button>
                         <span class="fresher-kbd-shortcut" id="fresherKbdShortcut" onclick="document.getElementById('fresherSearchInput').focus();" title="Press Ctrl+K or / to search">Ctrl K</span>
                     </div>
 
                     <!-- Predictive Autocomplete Dropdown -->
-                    <div class="fresher-dropdown" id="fresherDropdown">
+                    <div class="fresher-dropdown" id="fresherDropdown" style="display:none;">
                         <div class="fresher-dropdown-header">
                             <span>Instant Matches (Auto-Correct Active)</span>
                             <span style="font-family: var(--font-mono); font-size: 0.66rem;">↑↓ Navigate • Enter to Open</span>
@@ -4870,7 +4923,7 @@
 
                 <!-- Quick Screens — map to canonical screener presets -->
                 <div class="fresher-quickscreen-wrap" style="display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap; margin: 18px auto 4px auto;">
-                    <button class="fresher-qs-btn" id="qs-btn-breakout" onclick="applyQuickScreen('BREAKOUT', this)" title="Stocks clearing 52-week high on strong volume">Breakouts</button>
+                    <button class="fresher-qs-btn" id="qs-btn-breakout" onclick="applyQuickScreen('BREAKOUT', this)" title="Stocks at or within 0.5% of their 52-week high">Breakouts</button>
                     <button class="fresher-qs-btn" id="qs-btn-near52" onclick="applyQuickScreen('COILED', this)" title="Stocks within 3% of 52-week high, coiling before next move">Near 52W High</button>
                     <button class="fresher-qs-btn" id="qs-btn-momentum" onclick="applyQuickScreen('MOMENTUM', this)" title="Stocks with momentum score ≥ 85/100">Momentum</button>
                     <button class="fresher-qs-btn" id="qs-btn-quality" onclick="applyQuickScreen('HIGH_ROE', this)" title="Stocks with Return on Equity ≥ 15%">Quality</button>
@@ -4971,7 +5024,7 @@
                         ← Back to Fresher Studio
                     </button>
                     <span class="hero-chip chip-edition">Edition #39</span>
-                    <span class="hero-chip">📅 Friday, 25 Sep 2026</span>
+                    <span class="hero-chip"><span data-market-session></span></span>
                     <span class="hero-chip chip-compliance">🛡️ SEBI Compliant (Educational)</span>
                     <span class="hero-chip">🔒 DPDP Act Local-First</span>
                 </div>
@@ -5147,10 +5200,10 @@
                         <div class="power-slider-card">
                             <div class="power-slider-hdr">
                                 <span>🌊 Min Volume Surge</span>
-                                <span id="sliderVolVal" class="slider-val-badge">&ge; 1.0x (Any)</span>
+                                <span id="sliderVolVal" class="slider-val-badge">&ge; 1.0x</span>
                             </div>
                             <input type="range" id="sliderVol" min="1.0" max="3.0" step="0.1" value="1.0" oninput="onPowerSliderChange()">
-                            <div class="slider-scale"><span>1.0x (Normal)</span><span>2.0x</span><span>3.0x (Extreme)</span></div>
+                            <div class="slider-scale"><span>1.0x</span><span>2.0x</span><span>3.0x (Extreme)</span></div>
                         </div>
                         <div class="power-slider-card">
                             <div class="power-slider-hdr">
@@ -10123,7 +10176,7 @@
         <div class="screener-empty-state" id="screenerEmptyState">
             <div class="screener-empty-title">No stocks match these filters.</div>
             <div class="screener-empty-sub">Try changing one filter or resetting the screen.</div>
-            <button class="btn btn-secondary" onclick="setScreenerPreset('ALL', document.querySelector('.screener-preset-btn')); document.querySelectorAll('.fresher-qs-btn').forEach(function(b){b.classList.remove('active');});" style="margin-top:8px; font-size:0.84rem;">Reset Filters</button>
+            <button class="btn btn-secondary" onclick="resetScreenFilters()" style="margin-top:8px; font-size:0.84rem;">Reset Filters</button>
         </div>
         </div>
 
@@ -13839,6 +13892,8 @@
                 <div class="drawer-why-list" id="drawerWhyList"></div>
             </div>
 
+            <div id="drawerScreenSummary"></div>
+            <button class="btn btn-primary" onclick="closeStockDrawer(); openStockDossier(currentDrawerSym)">Full Analysis →</button>
             <!-- Drawer Navigation Sub-Tabs -->
             <div class="drawer-tabs-bar">
                 <button class="drawer-subtab-btn active" id="subtab-btn-tech" onclick="switchDrawerSubTab('tech')">📈 Chart &amp; Technicals</button>
@@ -14308,43 +14363,135 @@
             } catch(e) {}
         }
 
+
+        function numericMetric(value) {
+            if (value === null || value === undefined || value === '' || value === 'N/A') return null;
+            const n = parseFloat(value);
+            return Number.isFinite(n) ? n : null;
+        }
+        function formatMetric(value, suffix = '') {
+            const n = numericMetric(value);
+            return n === null ? '—' : n.toLocaleString('en-IN', {maximumFractionDigits: 2}) + suffix;
+        }
+        function stockPosition(stock) {
+            const low = numericMetric(stock.low_52w), high = numericMetric(stock.high_52w), price = numericMetric(stock.cmp);
+            return low !== null && high > low && price !== null ? Math.max(0, Math.min(100, (price - low) / (high - low) * 100)) : null;
+        }
+        function positionMarkup(stock) {
+            const pct = stockPosition(stock);
+            if (pct === null) return '—';
+            return `<span class="screen-position" title="52W Low ₹${formatMetric(stock.low_52w)} · CMP ₹${formatMetric(stock.cmp)} · High ₹${formatMetric(stock.high_52w)} · Distance ${formatMetric(stock.dist_52w_pct, '%')}"><span class="screen-track"><span style="width:${pct}%"></span></span><span>${Math.round(pct)}%</span></span>`;
+        }
+        function setupLabel(stock) {
+            return [[stock.is_confluence, 'CONFLUENCE'], [stock.is_vcp, 'VCP'], [stock.is_pocket_pivot, 'PIVOT'], [stock.is_stage2, 'STAGE 2']].filter(x => x[0]).map(x => x[1]).slice(0, 2).join(' · ') || '—';
+        }
+        function placeSharedScreener(mode) {
+            const screener = document.getElementById('tab-screener');
+            if (!screener) return;
+            if (!document.getElementById('screenerHomeAnchor')) {
+                const anchor = document.createElement('span'); anchor.id = 'screenerHomeAnchor';
+                screener.before(anchor);
+            }
+            document.body.classList.toggle('screen-fresher', mode === 'fresher');
+            if (mode === 'fresher') document.querySelector('.fresher-hero-studio').after(screener);
+            else document.getElementById('screenerHomeAnchor').after(screener);
+        }
+        function syncScreenButtons() {
+            document.querySelectorAll('.fresher-qs-btn, .screener-preset-btn').forEach(b => {
+                const preset = b.getAttribute('onclick').match(/'([^']+)'/)?.[1];
+                const active = preset === 'ALL' ? !activeScreenerPresets.size : activeScreenerPresets.has(preset);
+                b.classList.toggle('active', active); b.setAttribute('aria-pressed', String(active));
+            });
+        }
+        function toggleAdvancedFilters() {
+            const details = document.getElementById('screenAdvanced');
+            if (details.open) trackEvent('advanced_filters_opened', {});
+        }
+        function resetScreenFilters() {
+            activeScreenerPresets.clear();
+            document.getElementById('screenerSectorSelect').value = 'ALL';
+            document.getElementById('tableSearch').value = '';
+            resetPowerSliders();
+            applyScreenerFilters();
+        }
+        function renderQuickView(symbol) {
+            const stock = (APP_DATA.market_screener || []).find(s => s.symbol === symbol);
+            document.getElementById('drawerScreenSummary').replaceChildren();
+            if (!stock) return;
+            renderDrawerWhyMatched(stock);
+            const summary = document.getElementById('drawerScreenSummary');
+            summary.innerHTML = `<div class="screen-setup">${setupLabel(stock)}</div><h3>52 week position</h3>${positionMarkup(stock)}<dl class="screen-metrics"><div><dt>Volume</dt><dd>${formatMetric(stock.volume_multiplier, '×')}</dd></div><div><dt>ROE</dt><dd>${formatMetric(stock.roe, '%')}</dd></div><div><dt>P/E</dt><dd>${formatMetric(stock.pe)}</dd></div>${numericMetric(stock.invalidation_floor) > 0 ? '<div><dt>Risk Floor</dt><dd>₹' + formatMetric(stock.invalidation_floor) + '</dd></div>' : ''}</dl>`;
+        }
+        function initializeScreeningUI() {
+            const table = document.getElementById('screenerTable');
+            const stocks = new Map((APP_DATA.market_screener || []).map(s => [s.symbol, s]));
+            const tbody = table.tBodies[0];
+            const template = tbody.rows[0].cloneNode(true);
+            const rows = new Map(Array.from(tbody.rows, row => [row.dataset.sym, row]));
+            tbody.replaceChildren();
+            stocks.forEach(stock => {
+                const row = rows.get(stock.symbol) || template.cloneNode(true);
+                row.dataset.sym = stock.symbol; row.dataset.name = stock.company_name || stock.symbol;
+                row.removeAttribute('onclick'); row.onclick = () => openStockDrawer(stock.symbol);
+                const star = row.querySelector('.star-btn');
+                star.dataset.sym = stock.symbol; star.removeAttribute('onclick');
+                star.onclick = event => { event.stopPropagation(); toggleWatchlist(stock.symbol, star); };
+                row.cells[3].removeAttribute('onclick');
+                tbody.append(row);
+                // The generated HTML snapshot can lag APP_DATA: filtering and display share its values.
+                Object.assign(row.dataset, {dist: stock.dist_52w_pct ?? '', mom: stock.momentum_score ?? '', volmult: numericMetric(stock.volume_multiplier) ?? '', roe: numericMetric(stock.roe) ?? '', pe: numericMetric(stock.pe) ?? '', sec: stock.sector || '', vcp: stock.is_vcp ? '1' : '0', pivot: stock.is_pocket_pivot ? '1' : '0', stage2: stock.is_stage2 ? '1' : '0', confluence: stock.is_confluence ? '1' : '0'});
+                const cells = row.cells;
+                cells[1].textContent = '';
+                const strong = document.createElement('strong'); strong.textContent = stock.symbol;
+                const name = document.createElement('small'); name.textContent = stock.company_name;
+                cells[1].append(strong, name);
+                cells[2].textContent = stock.symbol; cells[4].textContent = stock.sector || '—'; cells[6].textContent = formatMetric(stock.high_52w); cells[8].textContent = stock.volume || '—';
+                cells[3].textContent = setupLabel(stock); cells[3].className = 'screen-setup';
+                cells[5].textContent = numericMetric(stock.cmp) === null ? '—' : '₹' + formatMetric(stock.cmp);
+                cells[7].innerHTML = positionMarkup(stock);
+                cells[9].textContent = formatMetric(stock.volume_multiplier, '×');
+                cells[9].title = 'Volume: ' + (stock.volume || '—');
+                cells[10].textContent = formatMetric(stock.pe); cells[11].textContent = formatMetric(stock.roe, '%');
+                row.tabIndex = 0;
+                row.setAttribute('aria-label', 'Open ' + stock.symbol);
+                row.addEventListener('keydown', e => { if (e.target === row && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); openStockDrawer(stock.symbol); } });
+            });
+            const headers = table.tHead.rows[0].cells;
+            headers[1].firstChild.textContent = 'Company '; headers[3].textContent = 'Setup'; headers[5].firstChild.textContent = 'Price '; headers[9].firstChild.textContent = 'Volume '; headers[7].firstChild.textContent = '52W ';
+            document.querySelectorAll('.star-btn[data-sym]').forEach(b => b.setAttribute('aria-label', 'Toggle watchlist for ' + b.dataset.sym));
+            const bar = document.querySelector('.screener-filter-bar');
+            const details = document.createElement('details'); details.id = 'screenAdvanced'; details.ontoggle = toggleAdvancedFilters;
+            const summary = document.createElement('summary'); summary.textContent = 'Advanced Filters'; summary.setAttribute('aria-label', 'Advanced Filters'); details.append(summary);
+            details.append(bar.querySelector('.filter-row-top'), document.getElementById('powerSlidersPanel'));
+            bar.append(details);
+            const sort = document.createElement('select'); sort.className = 'sector-select'; sort.setAttribute('aria-label', 'Sort results');
+            sort.innerHTML = '<option value="">Sort</option><option value="1">Company</option><option value="5">Price</option><option value="7">52W Position</option><option value="9">Volume</option><option value="11">ROE</option>';
+            sort.onchange = () => { if (sort.value) sortTable('screenerTable', Number(sort.value)); };
+            bar.querySelector('.filter-row-bottom').append(sort);
+            document.querySelectorAll('[data-market-session]').forEach(el => el.textContent = 'Data as of ' + (getMarketSessionDate() || '—'));
+            updateWatchlistUI(); syncScreenButtons(); applyScreenerFilters();
+        }
+        document.addEventListener('DOMContentLoaded', initializeScreeningUI);
+
         // === Sprint UX Helpers (injected by apply_ux_sprint.py) ===
 
         // P0.2: Single authoritative date source
         function getMarketSessionDate() {
-            if (typeof APP_DATA !== 'undefined') {
-                return APP_DATA.session_date || APP_DATA.market_session_date || APP_DATA.universe_as_of || '2026-09-22';
-            }
-            return '2026-09-22';
+            return APP_DATA.session_date || '';
         }
 
         // P3: Quick Screen - switches to Pro terminal and applies canonical preset
-        function applyQuickScreen(preset, btn) {
-            // Visual state on quick-screen buttons
-            document.querySelectorAll('.fresher-qs-btn').forEach(function(b) { b.classList.remove('active'); });
-            if (btn) btn.classList.add('active');
-
-            // Switch to Pro terminal mode
-            switchUserMode('intermediate');
-
-            // Apply the canonical preset using existing setScreenerPreset()
-            setScreenerPreset(preset, null);
-
-            // Sync Pro preset button visual state
-            var presetBtn = document.querySelector('.screener-preset-btn[onclick*="' + preset + '"]');
-            if (presetBtn) {
-                document.querySelectorAll('.screener-preset-btn').forEach(function(b) { b.classList.remove('active'); });
-                presetBtn.classList.add('active');
-            }
-
-            // Analytics - reuse existing trackEvent
-            if (typeof trackEvent === 'function') {
-                trackEvent('quick_screen_selected', { screen: preset.toLowerCase() });
-            }
+        function applyQuickScreen(preset) {
+            activeScreenerPresets.clear();
+            setScreenerPreset(preset, document.querySelector('.screener-preset-btn[onclick*="' + preset + '"]'));
+            switchTab('tab-screener');
+            const names = {BREAKOUT: 'breakout', COILED: 'near_52w', MOMENTUM: 'momentum', HIGH_ROE: 'quality', VALUE_PE: 'value'};
+            trackEvent('quick_screen_selected', {screen: names[preset]});
         }
 
         // P13: Build match reasons from canonical fields only - no fabricated values
         // Thresholds intentionally match applyScreenerFilters() exactly
+        const SCREEN_LIMITS = Object.freeze({breakout: -0.5, nearHigh: -3, nearUpper: -0.05, momentum: 85, volume: 1.5, roe: 15, pe: 25});
         function buildMatchReasons(stock) {
             if (!stock) return [];
             var reasons = [];
@@ -14359,12 +14506,12 @@
             if (stock.is_pocket_pivot) reasons.push('Pocket Pivot signal');
             if (stock.is_confluence)   reasons.push('Multi-signal confluence');
             if (!isNaN(dist)) {
-                if (dist >= -0.5)      reasons.push('At 52-week high');
-                else if (dist >= -3.0) reasons.push(Math.abs(dist).toFixed(1) + '% below 52W high');
+                if (dist >= SCREEN_LIMITS.breakout)      reasons.push(dist === 0 ? 'At 52-week high' : Math.abs(dist).toFixed(2) + '% from 52W high');
+                else if (dist >= SCREEN_LIMITS.nearHigh && dist < SCREEN_LIMITS.nearUpper) reasons.push(Math.abs(dist).toFixed(1) + '% below 52W high');
             }
-            if (!isNaN(vol) && vol >= 1.5) reasons.push('Volume ' + volRaw + ' vs avg');
-            if (!isNaN(roe) && roe >= 15)  reasons.push('ROE ' + roe.toFixed(1) + '%');
-            if (!isNaN(mom) && mom >= 85)  reasons.push('Momentum ' + mom + '/100');
+            if (!isNaN(vol) && vol >= SCREEN_LIMITS.volume) reasons.push('Volume ' + volRaw + ' vs avg');
+            if (!isNaN(roe) && roe >= SCREEN_LIMITS.roe)  reasons.push('ROE ' + roe.toFixed(1) + '%');
+            if (!isNaN(mom) && mom >= SCREEN_LIMITS.momentum)  reasons.push('Momentum ' + mom + '/100');
 
             return reasons.slice(0, 4);
         }
@@ -14463,6 +14610,7 @@
             });
 
             rows.forEach(r => tbody.appendChild(r));
+            if (tableId === 'screenerTable') screenerFilteredRows = rows.filter(r => screenerFilteredRows.includes(r));
 
             // Re-render pagination if this is the screener table
             if (tableId === 'screenerTable') {
@@ -14927,7 +15075,7 @@
                         tile.style.background = '#065F46';
                         tile.style.borderColor = '#10B981';
                         if (valEl) valEl.style.color = '#6EE7B7';
-                    } else if (dist >= -3.0) {
+                    } else if (dist >= SCREEN_LIMITS.nearHigh) {
                         tile.style.background = '#0C4A6E';
                         tile.style.borderColor = '#0284C7';
                         if (valEl) valEl.style.color = '#7DD3FC';
@@ -15021,7 +15169,7 @@
                 <div class="hud-grid">
                     <div class="hud-tile"><div class="hud-lbl">CMP</div><div class="hud-val">₹${stock.cmp ? stock.cmp.toLocaleString() : 'N/A'}</div></div>
                     <div class="hud-tile"><div class="hud-lbl">52W Dist</div><div class="hud-val">${stock.dist_52w_pct ? stock.dist_52w_pct + '%' : '0%'}</div></div>
-                    <div class="hud-tile"><div class="hud-lbl">Vol Surge</div><div class="hud-val">${stock.volume_multiplier || '1.0x'}</div></div>
+                    <div class="hud-tile"><div class="hud-lbl">Vol Surge</div><div class="hud-val">${stock.volume_multiplier || '—'}</div></div>
                     <div class="hud-tile"><div class="hud-lbl">P/E</div><div class="hud-val">${stock.pe || 'N/A'}</div></div>
                 </div>
                 <div class="hud-cta">⚡ Click to open Candlestick Studio ↗</div>
@@ -15176,14 +15324,14 @@
             setTxt('drawerSector', stock.sector || 'Diversified');
             setTxt('drawerName', stock.company_name || cleanSym);
             setTxt('drawerCmp', stock.cmp && stock.cmp > 0 ? `Rs. ${stock.cmp.toLocaleString()}` : 'Live Market Quote');
-            setTxt('drawerPE', stock.pe || 'N/A');
-            setTxt('drawerROE', (parseFloat(stock.roe_raw !== undefined ? stock.roe_raw : stock.roe) > 0) ? `${stock.roe}%` : '—');
+            setTxt('drawerPE', formatMetric(stock.pe));
+            setTxt('drawerROE', formatMetric(stock.roe, '%'));
             setTxt('drawerROCE', (parseFloat(stock.roce) > 0) ? `${stock.roce}%` : '—');
             setTxt('drawerPB', stock.pb || 'N/A');
 
             // 52W Spectrum
-            const low = stock.low_52w || (stock.cmp ? stock.cmp * 0.7 : 0);
-            const high = stock.high_52w || stock.cmp || 0;
+            const low = numericMetric(stock.low_52w);
+            const high = numericMetric(stock.high_52w);
             setTxt('drawerLow', low > 0 ? `Rs. ${low.toLocaleString()}` : '—');
             setTxt('drawerHigh', high > 0 ? `Rs. ${high.toLocaleString()}` : '—');
 
@@ -15197,12 +15345,12 @@
             // Volume Surge & Momentum Fills
             const volMult = parseFloat(stock.volume_multiplier) || 1.0;
             const volFillPct = Math.min(100, Math.max(12, Math.round((volMult / 3.0) * 100)));
-            setTxt('drawerVolMult', `${stock.volume_multiplier || '1.0x'}`);
+            setTxt('drawerVolMult', `${stock.volume_multiplier || '—'}`);
             const volFillEl = document.getElementById('drawerVolFill');
             if (volFillEl) volFillEl.style.width = `${volFillPct}%`;
 
-            const momScore = stock.momentum_score || 80;
-            setTxt('drawerMomScore', `${momScore}/100`);
+            const momScore = numericMetric(stock.momentum_score);
+            setTxt('drawerMomScore', formatMetric(momScore, '/100'));
             const momFillEl = document.getElementById('drawerMomFill');
             if (momFillEl) momFillEl.style.width = `${momScore}%`;
 
@@ -15476,7 +15624,7 @@
                 document.getElementById('sliderDistVal').innerText = dist === 0 ? 'At 52W High' : (dist <= -20 ? 'Within -20%' : `Within ${dist}%`);
             }
             if (document.getElementById('sliderVolVal')) {
-                document.getElementById('sliderVolVal').innerText = vol <= 1.0 ? '≥ 1.0x (Any)' : `≥ ${vol.toFixed(1)}x`;
+                document.getElementById('sliderVolVal').innerText = vol <= 1.0 ? '≥ 1.0x' : `≥ ${vol.toFixed(1)}x`;
             }
             if (document.getElementById('sliderRoeVal')) {
                 document.getElementById('sliderRoeVal').innerText = roe <= 0 ? 'Any ROE' : `≥ ${roe}%`;
@@ -15725,16 +15873,16 @@
                 let matchesPresets = true;
                 if (activeScreenerPresets.size > 0) {
                     for (const preset of activeScreenerPresets) {
-                        if (preset === 'BREAKOUT' && !(dist >= -0.5)) { matchesPresets = false; break; }
-                        if (preset === 'COILED' && !(dist >= -3.0 && dist < -0.05)) { matchesPresets = false; break; }
+                        if (preset === 'BREAKOUT' && !(dist >= SCREEN_LIMITS.breakout)) { matchesPresets = false; break; }
+                        if (preset === 'COILED' && !(dist >= SCREEN_LIMITS.nearHigh && dist < SCREEN_LIMITS.nearUpper)) { matchesPresets = false; break; }
                         if (preset === 'VCP' && !(row.dataset.vcp === '1')) { matchesPresets = false; break; }
                         if (preset === 'POCKET_PIVOT' && !(row.dataset.pivot === '1')) { matchesPresets = false; break; }
                         if (preset === 'STAGE2' && !(row.dataset.stage2 === '1')) { matchesPresets = false; break; }
                         if (preset === 'CONFLUENCE' && !(row.dataset.confluence === '1')) { matchesPresets = false; break; }
-                        if (preset === 'MOMENTUM' && !(mom >= 85)) { matchesPresets = false; break; }
-                        if (preset === 'VOL_SURGE' && !(volmult >= 1.5)) { matchesPresets = false; break; }
-                        if (preset === 'HIGH_ROE' && !(roe >= 15.0)) { matchesPresets = false; break; }
-                        if (preset === 'VALUE_PE' && !(pe > 0 && pe <= 25.0)) { matchesPresets = false; break; }
+                        if (preset === 'MOMENTUM' && !(mom >= SCREEN_LIMITS.momentum)) { matchesPresets = false; break; }
+                        if (preset === 'VOL_SURGE' && !(volmult >= SCREEN_LIMITS.volume)) { matchesPresets = false; break; }
+                        if (preset === 'HIGH_ROE' && !(roe >= SCREEN_LIMITS.roe)) { matchesPresets = false; break; }
+                        if (preset === 'VALUE_PE' && !(pe > 0 && pe <= SCREEN_LIMITS.pe)) { matchesPresets = false; break; }
                     }
                 }
 
@@ -15750,6 +15898,7 @@
                 return matchesPresets && matchesDist && matchesVol && matchesRoe && matchesPe && matchesSector && matchesQuery;
             });
 
+            syncScreenButtons();
             screenerCurrentPage = 1;
             renderScreenerPage();
             renderActiveFilterTags(selectedSector);
@@ -15863,7 +16012,7 @@
             if (activeScreenerPresets.size > 0) {
                 const presetNames = {
                     'BREAKOUT': '🚀 52W Breakouts',
-                    'COILED': '⚡ Coiled < 3%',
+                    'COILED': 'Near 52W High',
                     'VCP': '🌀 Minervini VCP',
                     'POCKET_PIVOT': '⚡ Pocket Pivot',
                     'STAGE2': '📈 Stage 2 Trend',
@@ -15888,7 +16037,7 @@
                 tags.push(`<span class="active-tag-pill">Dist &ge; ${dist}% <span class="remove-tag" onclick="document.getElementById('sliderDist').value=-20; onPowerSliderChange();">✕</span></span>`);
             }
             const vol = parseFloat(document.getElementById('sliderVol')?.value ?? '1.0');
-            if (vol > 1.0) {
+            if (vol >= 1.0) {
                 tags.push(`<span class="active-tag-pill">Vol &ge; ${vol}x <span class="remove-tag" onclick="document.getElementById('sliderVol').value=1.0; onPowerSliderChange();">✕</span></span>`);
             }
             const roe = parseFloat(document.getElementById('sliderRoe')?.value ?? '0');
@@ -16000,6 +16149,7 @@
                 list.splice(idx, 1);
                 showToast(`Removed ${symbol} from watchlist`);
                 saveWatchlist(list);
+                trackEvent('watchlist_toggled', {symbol, watched: list.includes(symbol)});
             } else {
                 if (!currentAuthUser && list.length >= GUEST_WATCHLIST_LIMIT) {
                     openWatchlistLimitModal(symbol);
@@ -16009,6 +16159,7 @@
                 list.push(symbol);
                 showToast(`Added ${symbol} to watchlist ⭐`);
                 saveWatchlist(list);
+                trackEvent('watchlist_toggled', {symbol, watched: list.includes(symbol)});
             }
         }
 
@@ -17833,6 +17984,7 @@
 
         // Mode Switcher Engine
         function switchUserMode(mode) {
+            placeSharedScreener(mode);
             const btnFresher = document.getElementById('btnModeFresher');
             const btnPro = document.getElementById('btnModePro');
             const fresherHome = document.getElementById('fresherHome');
@@ -17848,6 +18000,8 @@
                 localStorage.setItem('stockerboard_mode_v2', 'fresher');
                 localStorage.setItem('stockerboard_user_mode', 'fresher');
                 renderFresherFocusCards();
+                switchTab('tab-screener');
+                applyScreenerFilters();
             } else {
                 if (btnFresher) btnFresher.classList.remove('active');
                 if (btnPro) btnPro.classList.add('active');
@@ -17882,7 +18036,7 @@
             // Update date label from canonical source - no hard-coded dates
             var dateEl = document.getElementById('fresherFocusDate');
             if (dateEl && typeof APP_DATA !== 'undefined') {
-                var d = APP_DATA.display_date || APP_DATA.session_date || '';
+                var d = getMarketSessionDate();
                 if (d) dateEl.innerText = 'Updated post-market - ' + d;
             }
 
@@ -17913,9 +18067,9 @@
             grid.innerHTML = topStocks.map(function(c) {
                 var dist = parseFloat(c.dist_52w_pct);
                 var badge, badgeClass;
-                if (dist >= -0.5) {
+                if (dist >= SCREEN_LIMITS.breakout) {
                     badge = '52W Breakout'; badgeClass = 'drop-reason-blue';
-                } else if (dist >= -3.0) {
+                } else if (dist >= SCREEN_LIMITS.nearHigh) {
                     badge = 'Near 52W High'; badgeClass = 'drop-reason-amber';
                 } else {
                     badge = 'Stage 2 Trend'; badgeClass = 'drop-reason-green';
@@ -17948,8 +18102,8 @@
         }
 
         function updateFresherDrawerCard(stock) {
-            const cmp = parseFloat(stock.cmp) || 100;
-            const dist = parseFloat(stock.dist_52w_pct) || -2.0;
+            const cmp = numericMetric(stock.cmp);
+            const dist = numericMetric(stock.dist_52w_pct);
 
             // Use canonical dossier values only - never fabricate
             currentDrawerPivot = (stock.technical_pivot && stock.technical_pivot > 0) ? stock.technical_pivot : 0;
@@ -17960,22 +18114,15 @@
             setTxt('eduPivotVal', currentDrawerPivot > 0 ? `₹${currentDrawerPivot.toFixed(2)}` : '—');
             setTxt('eduFloorVal', currentDrawerFloor > 0 ? `₹${currentDrawerFloor.toFixed(2)}` : '—');
 
-            const riskPerShare = Math.max(0.5, currentDrawerPivot - currentDrawerFloor);
-            setTxt('eduRiskPerShare', `₹${riskPerShare.toFixed(2)} (${((riskPerShare / currentDrawerPivot) * 100).toFixed(1)}%)`);
+            const riskPerShare = currentDrawerFloor > 0 && currentDrawerPivot > currentDrawerFloor ? currentDrawerPivot - currentDrawerFloor : null;
+            setTxt('eduRiskPerShare', riskPerShare === null ? '—' : `₹${riskPerShare.toFixed(2)} (${((riskPerShare / currentDrawerPivot) * 100).toFixed(1)}%)`);
 
             const badge = document.getElementById('eduPatternBadge');
             if (badge) {
-                if (dist >= -1.0) {
-                    badge.innerText = '52-Week High Breakout';
-                    badge.className = 'drop-reason-pill drop-reason-blue';
-                } else if (dist >= -3.5) {
-                    badge.innerText = 'Minervini Volatility Contraction Base';
-                    badge.className = 'drop-reason-pill drop-reason-amber';
-                } else {
-                    badge.innerText = 'Stage 2 Low-Risk Moving Average Base';
-                    badge.className = 'drop-reason-pill drop-reason-green';
-                }
+                badge.textContent = setupLabel(stock);
+                badge.className = 'screen-setup';
             }
+
 
             calculateFresherSimulation();
         }
@@ -17984,11 +18131,12 @@
             const equityInp = document.getElementById('fresherSimEquity');
             const outputEl = document.getElementById('fresherSimOutput');
             if (!equityInp || !outputEl) return;
+            if (!(currentDrawerFloor > 0 && currentDrawerPivot > currentDrawerFloor)) { outputEl.textContent = 'Canonical pivot and risk floor unavailable.'; return; }
 
             const equity = Math.max(1000, parseFloat(equityInp.value) || 50000);
             const maxPermittedRisk = equity * 0.01; // 1% golden rule
 
-            const riskPerShare = Math.max(0.5, currentDrawerPivot - currentDrawerFloor);
+            const riskPerShare = (currentDrawerPivot - currentDrawerFloor);
             const sizedQty = riskPerShare > 0 ? Math.floor(maxPermittedRisk / riskPerShare) : 0;
             const totalDeployed = sizedQty * currentDrawerPivot;
 
@@ -18268,9 +18416,9 @@
             const isCoiled = !!metrics.is_coiled || (dist_52w >= -3.5 && dist_52w < -1.0);
             const isStage2 = !!metrics.is_stage2 || (cmp > low_52w * 1.25);
 
-            const pivot = parseFloat(risk.technical_pivot) || (cmp > 0 ? (cmp * (dist_52w >= -1.0 ? 1.008 : 1.02)) : 0);
-            const floor = parseFloat(risk.invalidation_floor) || (cmp > 0 ? (cmp * 0.965) : 0);
-            const riskPerShare = parseFloat(risk.risk_per_share) || Math.max(0.5, pivot - floor);
+            const pivot = parseFloat(risk.technical_pivot) || 0;
+            const floor = parseFloat(risk.invalidation_floor) || 0;
+            const riskPerShare = parseFloat(risk.risk_per_share) || (floor > 0 && pivot > floor ? pivot - floor : null);
 
             return {
                 symbol: json.symbol || cleanSym,
@@ -18342,9 +18490,9 @@
                     is_breakout: Math.abs(parseFloat(direct.dist_52w_pct) || 0) <= 1.0,
                     is_coiled: (parseFloat(direct.dist_52w_pct) >= -3.5 && parseFloat(direct.dist_52w_pct) < -0.5),
                     is_stage2: !!direct.stage2,
-                    technical_pivot: (parseFloat(direct.cmp) || 0) * (parseFloat(direct.dist_52w_pct) >= -1.0 ? 1.008 : 1.02),
-                    invalidation_floor: (parseFloat(direct.cmp) || 0) * 0.965,
-                    risk_per_share: Math.max(0.5, ((parseFloat(direct.cmp) || 0) * 0.05)),
+                    technical_pivot: parseFloat(direct.technical_pivot) || 0,
+                    invalidation_floor: parseFloat(direct.invalidation_floor) || 0,
+                    risk_per_share: parseFloat(direct.risk_per_share) || 0,
                     candles: direct.candles || [],
                     isScreenerQualified: true,
                     pe: direct.pe,
@@ -18548,18 +18696,18 @@
             setTxt('dossierRoeSub', (hasRoe ? ('ROE: ' + stockData.roe + '%') : 'ROE: —') + ' • ' + (hasRoce ? ('ROCE: ' + stockData.roce + '%') : 'ROCE: —'));
 
             // SEBI-Compliant Risk Matrix
-            currentDossierPivot = stockData.technical_pivot || (cmp > 0 ? (cmp * (distVal >= -1.0 ? 1.008 : 1.02)) : 0);
-            currentDossierFloor = stockData.invalidation_floor || (cmp > 0 ? (cmp * 0.965) : 0);
+            currentDossierPivot = parseFloat(stockData.technical_pivot) || 0;
+            currentDossierFloor = parseFloat(stockData.invalidation_floor) || 0;
 
-            if (cmp > 0) {
+            if (currentDossierPivot > currentDossierFloor && currentDossierFloor > 0) {
                 setTxt('dossierEduPivot', '₹' + currentDossierPivot.toFixed(2));
                 setTxt('dossierEduFloor', '₹' + currentDossierFloor.toFixed(2));
-                const riskPerShare = Math.max(0.5, currentDossierPivot - currentDossierFloor);
+                const riskPerShare = (currentDossierPivot - currentDossierFloor);
                 setTxt('dossierEduRiskPerShare', '₹' + riskPerShare.toFixed(2) + ' (' + ((riskPerShare / currentDossierPivot) * 100).toFixed(1) + '%)');
             } else {
-                setTxt('dossierEduPivot', 'TradingView Pro');
-                setTxt('dossierEduFloor', '-3.5% Invalidation');
-                setTxt('dossierEduRiskPerShare', '1.0% Capital Max');
+                setTxt('dossierEduPivot', '—');
+                setTxt('dossierEduFloor', '—');
+                setTxt('dossierEduRiskPerShare', '—');
             }
 
             const patternBadge = document.getElementById('dossierEduPatternBadge');
@@ -18782,12 +18930,12 @@
             const equity = Math.max(1000, parseFloat(equityInp.value) || 50000);
             const maxPermittedRisk = equity * 0.01;
 
-            if (currentDossierPivot <= 0 || currentDossierFloor <= 0) {
+            if (currentDossierPivot <= currentDossierFloor || currentDossierFloor <= 0) {
                 outputEl.innerHTML = 'Max Permitted Risk (1%): <strong>₹' + maxPermittedRisk.toFixed(0) + '</strong> • Position Sizing: <em>Apply max 1% capital risk from your execution pivot on TradingView</em>';
                 return;
             }
 
-            const riskPerShare = Math.max(0.5, currentDossierPivot - currentDossierFloor);
+            const riskPerShare = (currentDossierPivot - currentDossierFloor);
             const sizedQty = riskPerShare > 0 ? Math.floor(maxPermittedRisk / riskPerShare) : 0;
             const totalAlloc = (sizedQty * currentDossierPivot).toFixed(0);
 
@@ -18913,7 +19061,9 @@
         // Replace openStockDrawer so table clicks open the full Dossier
         const _origDrawer = openStockDrawer;
         openStockDrawer = function(symbol) {
-            openStockDossier(symbol);
+            _origDrawer(symbol);
+            renderQuickView(symbol);
+            trackEvent('screener_stock_opened', {symbol});
         };
 
         // Initialization hook
