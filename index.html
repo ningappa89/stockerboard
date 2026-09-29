@@ -17391,16 +17391,16 @@
                 let reason = 'Qualified Tracked Scrip';
                 let reasonCls = 'drop-reason-blue';
 
-                // 1. Exact alias match
-                if (resolvedAlias && stock.symbol === resolvedAlias) {
+                // 1. Exact canonical ticker match
+                if (sSym === q || sSym === cleanQ) {
                     score += 1200;
-                    reason = 'Exact Alias Match';
+                    reason = 'Exact Ticker Match';
                     reasonCls = 'drop-reason-green';
                 }
-                // 2. Exact ticker match
-                else if (sSym === q || sSym === cleanQ) {
-                    score += 1000;
-                    reason = 'Exact Ticker Match';
+                // 2. Exact alias match (only when query itself is an alias)
+                else if (resolvedAlias && stock.symbol === resolvedAlias) {
+                    score += 1100;
+                    reason = 'Exact Alias Match';
                     reasonCls = 'drop-reason-green';
                 }
                 // 3. Ticker prefix match
