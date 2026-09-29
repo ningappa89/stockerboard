@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 12.43,
-      "high": 12.55,
-      "low": 12.41,
-      "open": 12.55,
-      "time": "2025-09-18",
-      "volume": 1008320
-    },
-    {
       "close": 12.52,
       "high": 12.74,
       "low": 12.37,
@@ -2017,13 +2009,21 @@
       "open": 7.49,
       "time": "2026-09-25",
       "volume": 969637
+    },
+    {
+      "close": 7.29,
+      "high": 7.58,
+      "low": 7.25,
+      "open": 7.53,
+      "time": "2026-09-28",
+      "volume": 791762
     }
   ],
   "company_name": "ZEE MEDIA CORPORATION LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.47x"
+    "volume_multiplier": "0.42x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.12,
-    "change_pct": 1.62,
-    "close": 7.52,
-    "previous_close": 7.4,
+    "as_of": "2026-09-28",
+    "change": -0.23,
+    "change_pct": -3.06,
+    "close": 7.29,
+    "previous_close": 7.52,
     "type": "EOD_CLOSE",
-    "volume": 969637
+    "volume": 791762
   },
   "range": {
-    "distance_from_high_pct": -43.29,
-    "distance_from_low_pct": 13.08,
+    "distance_from_high_pct": -45.02,
+    "distance_from_low_pct": 9.62,
     "high_52w": 13.26,
     "history_basis": "52_WEEK",
     "low_52w": 6.65,
-    "range_position_pct": 13.16
+    "range_position_pct": 9.68
   },
   "risk_model": {
-    "invalidation_floor": 7.26,
+    "invalidation_floor": 7.03,
     "risk_per_share": 0.5,
-    "technical_pivot": 7.67
+    "technical_pivot": 7.44
   },
   "schema_version": "1.0",
   "sector": null,

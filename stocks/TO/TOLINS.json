@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 192.62,
-      "high": 198.44,
-      "low": 190.02,
-      "open": 195.7,
-      "time": "2025-09-18",
-      "volume": 383094
-    },
-    {
       "close": 186.26,
       "high": 193.33,
       "low": 184.52,
@@ -2017,13 +2009,21 @@
       "open": 91.1,
       "time": "2026-09-25",
       "volume": 63412
+    },
+    {
+      "close": 86.91,
+      "high": 88.5,
+      "low": 86.0,
+      "open": 87.52,
+      "time": "2026-09-28",
+      "volume": 28721
     }
   ],
   "company_name": "Tolins Tyres Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.71x"
+    "volume_multiplier": "0.77x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.03,
-    "change_pct": -2.25,
-    "close": 88.11,
-    "previous_close": 90.14,
+    "as_of": "2026-09-28",
+    "change": -1.2,
+    "change_pct": -1.36,
+    "close": 86.91,
+    "previous_close": 88.11,
     "type": "EOD_CLOSE",
-    "volume": 63412
+    "volume": 28721
   },
   "range": {
-    "distance_from_high_pct": -56.16,
-    "distance_from_low_pct": 6.11,
+    "distance_from_high_pct": -56.76,
+    "distance_from_low_pct": 4.66,
     "high_52w": 201.0,
     "history_basis": "52_WEEK",
     "low_52w": 83.04,
-    "range_position_pct": 4.3
+    "range_position_pct": 3.28
   },
   "risk_model": {
-    "invalidation_floor": 85.03,
-    "risk_per_share": 4.84,
-    "technical_pivot": 89.87
+    "invalidation_floor": 83.87,
+    "risk_per_share": 4.78,
+    "technical_pivot": 88.65
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1131.5,
-      "high": 1159.2,
-      "low": 1126.5,
-      "open": 1148.0,
-      "time": "2025-09-18",
-      "volume": 36362
-    },
-    {
       "close": 1125.7,
       "high": 1167.1,
       "low": 1116.1,
@@ -2017,13 +2009,21 @@
       "open": 1479.5,
       "time": "2026-09-25",
       "volume": 220062
+    },
+    {
+      "close": 1480.1,
+      "high": 1510.0,
+      "low": 1457.2,
+      "open": 1510.0,
+      "time": "2026-09-28",
+      "volume": 191005
     }
   ],
   "company_name": "GMM PFAUDLER LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 87,
+    "momentum_score": 84,
     "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.38x"
+    "volume_multiplier": "0.33x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 29.8,
-    "change_pct": 2.02,
-    "close": 1505.2,
-    "previous_close": 1475.4,
+    "as_of": "2026-09-28",
+    "change": -25.1,
+    "change_pct": -1.67,
+    "close": 1480.1,
+    "previous_close": 1505.2,
     "type": "EOD_CLOSE",
-    "volume": 220062
+    "volume": 191005
   },
   "range": {
-    "distance_from_high_pct": -1.85,
-    "distance_from_low_pct": 104.79,
+    "distance_from_high_pct": -3.49,
+    "distance_from_low_pct": 101.37,
     "high_52w": 1533.6,
     "history_basis": "52_WEEK",
     "low_52w": 735.0,
-    "range_position_pct": 96.44
+    "range_position_pct": 93.3
   },
   "risk_model": {
-    "invalidation_floor": 1452.52,
-    "risk_per_share": 82.78,
-    "technical_pivot": 1535.3
+    "invalidation_floor": 1428.3,
+    "risk_per_share": 81.4,
+    "technical_pivot": 1509.7
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 585.5,
-      "high": 597.95,
-      "low": 583.25,
-      "open": 588.0,
-      "time": "2025-09-18",
-      "volume": 2189706
-    },
-    {
       "close": 640.4,
       "high": 647.8,
       "low": 580.15,
@@ -2017,13 +2009,21 @@
       "open": 622.55,
       "time": "2026-09-25",
       "volume": 1198697
+    },
+    {
+      "close": 607.95,
+      "high": 619.8,
+      "low": 601.8,
+      "open": 615.0,
+      "time": "2026-09-28",
+      "volume": 1047967
     }
   ],
   "company_name": "ANANT RAJ LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Realty",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
+    "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.41x"
+    "volume_multiplier": "0.35x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -6.7,
-    "change_pct": -1.07,
-    "close": 617.4,
-    "previous_close": 624.1,
+    "as_of": "2026-09-28",
+    "change": -9.45,
+    "change_pct": -1.53,
+    "close": 607.95,
+    "previous_close": 617.4,
     "type": "EOD_CLOSE",
-    "volume": 1198697
+    "volume": 1047967
   },
   "range": {
-    "distance_from_high_pct": -16.98,
-    "distance_from_low_pct": 53.2,
+    "distance_from_high_pct": -18.25,
+    "distance_from_low_pct": 50.86,
     "high_52w": 743.65,
     "history_basis": "52_WEEK",
     "low_52w": 403.0,
-    "range_position_pct": 62.94
+    "range_position_pct": 60.16
   },
   "risk_model": {
-    "invalidation_floor": 595.79,
-    "risk_per_share": 33.96,
-    "technical_pivot": 629.75
+    "invalidation_floor": 586.67,
+    "risk_per_share": 33.44,
+    "technical_pivot": 620.11
   },
   "schema_version": "1.0",
   "sector": "Realty",

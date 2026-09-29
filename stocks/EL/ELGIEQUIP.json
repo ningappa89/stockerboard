@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 505.85,
-      "high": 513.3,
-      "low": 496.75,
-      "open": 500.0,
-      "time": "2025-09-18",
-      "volume": 1222875
-    },
-    {
       "close": 500.35,
       "high": 507.5,
       "low": 499.0,
@@ -2017,13 +2009,21 @@
       "open": 610.25,
       "time": "2026-09-25",
       "volume": 213480
+    },
+    {
+      "close": 598.85,
+      "high": 604.0,
+      "low": 592.2,
+      "open": 603.3,
+      "time": "2026-09-28",
+      "volume": 142523
     }
   ],
   "company_name": "ELGI EQUIPMENTS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 78,
+    "momentum_score": 77,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.48x"
+    "volume_multiplier": "0.36x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -5.8,
-    "change_pct": -0.95,
-    "close": 603.0,
-    "previous_close": 608.8,
+    "as_of": "2026-09-28",
+    "change": -4.15,
+    "change_pct": -0.69,
+    "close": 598.85,
+    "previous_close": 603.0,
     "type": "EOD_CLOSE",
-    "volume": 213480
+    "volume": 142523
   },
   "range": {
-    "distance_from_high_pct": -7.71,
-    "distance_from_low_pct": 47.7,
+    "distance_from_high_pct": -8.35,
+    "distance_from_low_pct": 46.69,
     "high_52w": 653.4,
     "history_basis": "52_WEEK",
     "low_52w": 408.25,
-    "range_position_pct": 79.44
+    "range_position_pct": 77.75
   },
   "risk_model": {
-    "invalidation_floor": 581.89,
-    "risk_per_share": 33.17,
-    "technical_pivot": 615.06
+    "invalidation_floor": 577.89,
+    "risk_per_share": 32.94,
+    "technical_pivot": 610.83
   },
   "schema_version": "1.0",
   "sector": null,

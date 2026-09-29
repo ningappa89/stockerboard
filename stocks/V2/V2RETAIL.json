@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 185.17,
-      "high": 191.8,
-      "low": 179.49,
-      "open": 179.8,
-      "time": "2025-09-18",
-      "volume": 1641890
-    },
-    {
       "close": 185.81,
       "high": 190.98,
       "low": 183.0,
@@ -2017,13 +2009,21 @@
       "open": 214.94,
       "time": "2026-09-25",
       "volume": 612614
+    },
+    {
+      "close": 211.22,
+      "high": 214.52,
+      "low": 208.0,
+      "open": 213.25,
+      "time": "2026-09-28",
+      "volume": 682658
     }
   ],
   "company_name": "V2 RETAIL LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
+    "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.68x"
+    "volume_multiplier": "0.76x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.25,
-    "change_pct": 0.12,
-    "close": 214.72,
-    "previous_close": 214.47,
+    "as_of": "2026-09-28",
+    "change": -3.5,
+    "change_pct": -1.63,
+    "close": 211.22,
+    "previous_close": 214.72,
     "type": "EOD_CLOSE",
-    "volume": 612614
+    "volume": 682658
   },
   "range": {
-    "distance_from_high_pct": -17.18,
-    "distance_from_low_pct": 24.82,
+    "distance_from_high_pct": -18.53,
+    "distance_from_low_pct": 22.78,
     "high_52w": 259.25,
     "history_basis": "52_WEEK",
     "low_52w": 172.03,
-    "range_position_pct": 48.95
+    "range_position_pct": 44.93
   },
   "risk_model": {
-    "invalidation_floor": 207.2,
-    "risk_per_share": 11.81,
-    "technical_pivot": 219.01
+    "invalidation_floor": 203.83,
+    "risk_per_share": 11.61,
+    "technical_pivot": 215.44
   },
   "schema_version": "1.0",
   "sector": null,

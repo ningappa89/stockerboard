@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 154.71,
-      "high": 156.69,
-      "low": 152.31,
-      "open": 156.69,
-      "time": "2025-09-18",
-      "volume": 2612
-    },
-    {
       "close": 153.99,
       "high": 156.78,
       "low": 152.8,
@@ -2017,13 +2009,21 @@
       "open": 106.2,
       "time": "2026-09-25",
       "volume": 1484
+    },
+    {
+      "close": 106.84,
+      "high": 111.9,
+      "low": 105.4,
+      "open": 111.9,
+      "time": "2026-09-28",
+      "volume": 1643
     }
   ],
   "company_name": "KAKATIYA CEMENT SUGAR & INDUST",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.67x"
+    "volume_multiplier": "0.8x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.73,
-    "change_pct": 0.69,
-    "close": 106.72,
-    "previous_close": 105.99,
+    "as_of": "2026-09-28",
+    "change": 0.12,
+    "change_pct": 0.11,
+    "close": 106.84,
+    "previous_close": 106.72,
     "type": "EOD_CLOSE",
-    "volume": 1484
+    "volume": 1643
   },
   "range": {
-    "distance_from_high_pct": -35.54,
-    "distance_from_low_pct": 25.55,
+    "distance_from_high_pct": -35.46,
+    "distance_from_low_pct": 25.69,
     "high_52w": 165.55,
     "history_basis": "52_WEEK",
     "low_52w": 85.0,
-    "range_position_pct": 26.96
+    "range_position_pct": 27.11
   },
   "risk_model": {
-    "invalidation_floor": 102.98,
-    "risk_per_share": 5.87,
-    "technical_pivot": 108.85
+    "invalidation_floor": 103.1,
+    "risk_per_share": 5.88,
+    "technical_pivot": 108.98
   },
   "schema_version": "1.0",
   "sector": null,

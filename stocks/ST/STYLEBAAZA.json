@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 367.7,
-      "high": 378.0,
-      "low": 365.45,
-      "open": 375.15,
-      "time": "2025-09-18",
-      "volume": 256478
-    },
-    {
       "close": 367.2,
       "high": 373.0,
       "low": 362.85,
@@ -2017,13 +2009,21 @@
       "open": 370.1,
       "time": "2026-09-25",
       "volume": 625952
+    },
+    {
+      "close": 394.5,
+      "high": 394.55,
+      "low": 383.75,
+      "open": 383.8,
+      "time": "2026-09-28",
+      "volume": 4429305
     }
   ],
   "company_name": "Baazar Style Retail Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 66,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "is_stage2": true,
+    "momentum_score": 72,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "3.95x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 5.4,
-    "change_pct": 1.46,
-    "close": 375.8,
-    "previous_close": 370.4,
+    "as_of": "2026-09-28",
+    "change": 18.7,
+    "change_pct": 4.98,
+    "close": 394.5,
+    "previous_close": 375.8,
     "type": "EOD_CLOSE",
-    "volume": 625952
+    "volume": 4429305
   },
   "range": {
-    "distance_from_high_pct": -15.95,
-    "distance_from_low_pct": 63.43,
+    "distance_from_high_pct": -11.76,
+    "distance_from_low_pct": 71.56,
     "high_52w": 447.1,
     "history_basis": "52_WEEK",
     "low_52w": 229.95,
-    "range_position_pct": 67.17
+    "range_position_pct": 75.78
   },
   "risk_model": {
-    "invalidation_floor": 362.65,
-    "risk_per_share": 20.67,
-    "technical_pivot": 383.32
+    "invalidation_floor": 380.69,
+    "risk_per_share": 21.7,
+    "technical_pivot": 402.39
   },
   "schema_version": "1.0",
   "sector": null,

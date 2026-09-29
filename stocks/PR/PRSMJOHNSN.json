@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 166.39,
-      "high": 176.0,
-      "low": 148.4,
-      "open": 149.0,
-      "time": "2025-09-18",
-      "volume": 18503174
-    },
-    {
       "close": 167.74,
       "high": 169.35,
       "low": 161.48,
@@ -2017,13 +2009,21 @@
       "open": 115.01,
       "time": "2026-09-25",
       "volume": 221858
+    },
+    {
+      "close": 115.15,
+      "high": 118.2,
+      "low": 114.94,
+      "open": 116.75,
+      "time": "2026-09-28",
+      "volume": 245697
     }
   ],
   "company_name": "PRISM JOHNSON LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.65x"
+    "volume_multiplier": "0.73x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.07,
-    "change_pct": 0.93,
-    "close": 116.31,
-    "previous_close": 115.24,
+    "as_of": "2026-09-28",
+    "change": -1.16,
+    "change_pct": -1.0,
+    "close": 115.15,
+    "previous_close": 116.31,
     "type": "EOD_CLOSE",
-    "volume": 221858
+    "volume": 245697
   },
   "range": {
-    "distance_from_high_pct": -33.91,
-    "distance_from_low_pct": 19.78,
-    "high_52w": 176.0,
+    "distance_from_high_pct": -33.21,
+    "distance_from_low_pct": 18.59,
+    "high_52w": 172.4,
     "history_basis": "52_WEEK",
     "low_52w": 97.1,
-    "range_position_pct": 24.35
+    "range_position_pct": 23.97
   },
   "risk_model": {
-    "invalidation_floor": 112.24,
-    "risk_per_share": 6.4,
-    "technical_pivot": 118.64
+    "invalidation_floor": 111.12,
+    "risk_per_share": 6.33,
+    "technical_pivot": 117.45
   },
   "schema_version": "1.0",
   "sector": null,

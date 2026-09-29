@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 175.55,
-      "high": 180.51,
-      "low": 171.5,
-      "open": 174.45,
-      "time": "2025-09-18",
-      "volume": 751043
-    },
-    {
       "close": 174.26,
       "high": 176.3,
       "low": 172.1,
@@ -2017,13 +2009,21 @@
       "open": 118.55,
       "time": "2026-09-25",
       "volume": 59407
+    },
+    {
+      "close": 116.21,
+      "high": 118.93,
+      "low": 115.55,
+      "open": 118.93,
+      "time": "2026-09-28",
+      "volume": 52991
     }
   ],
   "company_name": "JTEKT India Ltd",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.39x"
+    "volume_multiplier": "0.35x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.21,
-    "change_pct": -0.18,
-    "close": 118.07,
-    "previous_close": 118.28,
+    "as_of": "2026-09-28",
+    "change": -1.86,
+    "change_pct": -1.58,
+    "close": 116.21,
+    "previous_close": 118.07,
     "type": "EOD_CLOSE",
-    "volume": 59407
+    "volume": 52991
   },
   "range": {
-    "distance_from_high_pct": -37.18,
-    "distance_from_low_pct": 2.83,
+    "distance_from_high_pct": -38.17,
+    "distance_from_low_pct": 1.21,
     "high_52w": 187.95,
     "history_basis": "52_WEEK",
     "low_52w": 114.82,
-    "range_position_pct": 4.44
+    "range_position_pct": 1.9
   },
   "risk_model": {
-    "invalidation_floor": 113.94,
-    "risk_per_share": 6.49,
-    "technical_pivot": 120.43
+    "invalidation_floor": 112.14,
+    "risk_per_share": 6.39,
+    "technical_pivot": 118.53
   },
   "schema_version": "1.0",
   "sector": null,

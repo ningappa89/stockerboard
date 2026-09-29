@@ -881,14 +881,22 @@
       "open": 118.9,
       "time": "2026-09-25",
       "volume": 15391
+    },
+    {
+      "close": 114.48,
+      "high": 117.98,
+      "low": 112.53,
+      "open": 116.0,
+      "time": "2026-09-28",
+      "volume": 11712
     }
   ],
   "company_name": "NATIONAL STAND (INDIA) L",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 110
+    "last_session": "2026-09-28",
+    "sessions_available": 111
   },
   "industry": null,
   "isin": "INE166R01015",
@@ -898,29 +906,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.47x"
+    "volume_multiplier": "0.4x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.04,
-    "change_pct": 0.9,
-    "close": 116.15,
-    "previous_close": 115.11,
+    "as_of": "2026-09-28",
+    "change": -1.67,
+    "change_pct": -1.44,
+    "close": 114.48,
+    "previous_close": 116.15,
     "type": "EOD_CLOSE",
-    "volume": 15391
+    "volume": 11712
   },
   "range": {
-    "distance_from_high_pct": -92.36,
-    "distance_from_low_pct": 18.19,
+    "distance_from_high_pct": -92.47,
+    "distance_from_low_pct": 16.5,
     "high_52w": 1519.95,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 98.27,
-    "range_position_pct": 1.26
+    "range_position_pct": 1.14
   },
   "risk_model": {
-    "invalidation_floor": 112.08,
-    "risk_per_share": 6.39,
-    "technical_pivot": 118.47
+    "invalidation_floor": 110.47,
+    "risk_per_share": 6.3,
+    "technical_pivot": 116.77
   },
   "schema_version": "1.0",
   "sector": null,

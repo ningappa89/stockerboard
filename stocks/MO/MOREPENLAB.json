@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 53.99,
-      "high": 55.5,
-      "low": 53.8,
-      "open": 54.04,
-      "time": "2025-09-18",
-      "volume": 4832862
-    },
-    {
       "close": 54.14,
       "high": 54.7,
       "low": 53.71,
@@ -2017,13 +2009,21 @@
       "open": 117.3,
       "time": "2026-09-25",
       "volume": 8996779
+    },
+    {
+      "close": 120.71,
+      "high": 126.22,
+      "low": 119.42,
+      "open": 121.15,
+      "time": "2026-09-28",
+      "volume": 19123218
     }
   ],
   "company_name": "MOREPEN LAB. LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": true,
     "momentum_score": 82,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.42x"
+    "volume_multiplier": "0.93x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 3.78,
-    "change_pct": 3.24,
-    "close": 120.38,
-    "previous_close": 116.6,
+    "as_of": "2026-09-28",
+    "change": 0.33,
+    "change_pct": 0.27,
+    "close": 120.71,
+    "previous_close": 120.38,
     "type": "EOD_CLOSE",
-    "volume": 8996779
+    "volume": 19123218
   },
   "range": {
-    "distance_from_high_pct": -5.06,
-    "distance_from_low_pct": 264.24,
+    "distance_from_high_pct": -4.8,
+    "distance_from_low_pct": 265.23,
     "high_52w": 126.8,
     "history_basis": "52_WEEK",
     "low_52w": 33.05,
-    "range_position_pct": 93.15
+    "range_position_pct": 93.5
   },
   "risk_model": {
-    "invalidation_floor": 116.17,
-    "risk_per_share": 6.62,
-    "technical_pivot": 122.79
+    "invalidation_floor": 116.49,
+    "risk_per_share": 6.63,
+    "technical_pivot": 123.12
   },
   "schema_version": "1.0",
   "sector": null,

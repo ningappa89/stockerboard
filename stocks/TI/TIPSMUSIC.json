@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 600.6,
-      "high": 610.8,
-      "low": 598.3,
-      "open": 609.0,
-      "time": "2025-09-18",
-      "volume": 109955
-    },
-    {
       "close": 599.75,
       "high": 603.95,
       "low": 595.95,
@@ -2017,13 +2009,21 @@
       "open": 665.05,
       "time": "2026-09-25",
       "volume": 245082
+    },
+    {
+      "close": 657.35,
+      "high": 670.4,
+      "low": 651.6,
+      "open": 668.9,
+      "time": "2026-09-28",
+      "volume": 201981
     }
   ],
   "company_name": "TIPS MUSIC LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Media Entertainment & Publication",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 75,
+    "momentum_score": 73,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.0x"
+    "volume_multiplier": "0.82x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 6.9,
-    "change_pct": 1.04,
-    "close": 668.95,
-    "previous_close": 662.05,
+    "as_of": "2026-09-28",
+    "change": -11.6,
+    "change_pct": -1.73,
+    "close": 657.35,
+    "previous_close": 668.95,
     "type": "EOD_CLOSE",
-    "volume": 245082
+    "volume": 201981
   },
   "range": {
-    "distance_from_high_pct": -9.72,
-    "distance_from_low_pct": 39.03,
+    "distance_from_high_pct": -11.29,
+    "distance_from_low_pct": 36.62,
     "high_52w": 741.0,
     "history_basis": "52_WEEK",
     "low_52w": 481.15,
-    "range_position_pct": 72.27
+    "range_position_pct": 67.81
   },
   "risk_model": {
-    "invalidation_floor": 645.54,
-    "risk_per_share": 36.79,
-    "technical_pivot": 682.33
+    "invalidation_floor": 634.34,
+    "risk_per_share": 36.16,
+    "technical_pivot": 670.5
   },
   "schema_version": "1.0",
   "sector": "Media Entertainment & Publication",

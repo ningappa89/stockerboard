@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 146.63,
-      "high": 149.89,
-      "low": 145.0,
-      "open": 146.59,
-      "time": "2025-09-18",
-      "volume": 284737
-    },
-    {
       "close": 145.43,
       "high": 146.5,
       "low": 145.0,
@@ -2017,46 +2009,54 @@
       "open": 324.9,
       "time": "2026-09-25",
       "volume": 6123089
+    },
+    {
+      "close": 330.95,
+      "high": 340.45,
+      "low": 329.0,
+      "open": 335.7,
+      "time": "2026-09-28",
+      "volume": 5822738
     }
   ],
   "company_name": "Ratnaveer Precision Engineerin",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE05CZ01011",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 85,
+    "momentum_score": 84,
     "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.87x"
+    "volume_multiplier": "0.83x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 10.0,
-    "change_pct": 3.09,
-    "close": 333.95,
-    "previous_close": 323.95,
+    "as_of": "2026-09-28",
+    "change": -3.0,
+    "change_pct": -0.9,
+    "close": 330.95,
+    "previous_close": 333.95,
     "type": "EOD_CLOSE",
-    "volume": 6123089
+    "volume": 5822738
   },
   "range": {
-    "distance_from_high_pct": -2.85,
-    "distance_from_low_pct": 155.9,
+    "distance_from_high_pct": -3.72,
+    "distance_from_low_pct": 153.6,
     "high_52w": 343.75,
     "history_basis": "52_WEEK",
     "low_52w": 130.5,
-    "range_position_pct": 95.4
+    "range_position_pct": 94.0
   },
   "risk_model": {
-    "invalidation_floor": 322.26,
-    "risk_per_share": 18.37,
-    "technical_pivot": 340.63
+    "invalidation_floor": 319.37,
+    "risk_per_share": 18.2,
+    "technical_pivot": 337.57
   },
   "schema_version": "1.0",
   "sector": null,

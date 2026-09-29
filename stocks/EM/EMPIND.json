@@ -233,14 +233,22 @@
       "open": 1053.0,
       "time": "2026-09-25",
       "volume": 1360
+    },
+    {
+      "close": 1041.4,
+      "high": 1056.0,
+      "low": 1025.0,
+      "open": 1040.0,
+      "time": "2026-09-28",
+      "volume": 1269
     }
   ],
   "company_name": "EMPIRE INDUSTRIES LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE515H01014",
@@ -248,31 +256,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.25x"
+    "volume_multiplier": "0.24x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -14.2,
-    "change_pct": -1.35,
-    "close": 1037.4,
-    "previous_close": 1051.6,
+    "as_of": "2026-09-28",
+    "change": 4.0,
+    "change_pct": 0.39,
+    "close": 1041.4,
+    "previous_close": 1037.4,
     "type": "EOD_CLOSE",
-    "volume": 1360
+    "volume": 1269
   },
   "range": {
-    "distance_from_high_pct": -16.87,
-    "distance_from_low_pct": 3.52,
+    "distance_from_high_pct": -16.55,
+    "distance_from_low_pct": 3.92,
     "high_52w": 1248.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 1002.1,
-    "range_position_pct": 14.36
+    "range_position_pct": 15.98
   },
   "risk_model": {
-    "invalidation_floor": 1001.09,
-    "risk_per_share": 57.06,
-    "technical_pivot": 1058.15
+    "invalidation_floor": 1004.95,
+    "risk_per_share": 57.28,
+    "technical_pivot": 1062.23
   },
   "schema_version": "1.0",
   "sector": null,

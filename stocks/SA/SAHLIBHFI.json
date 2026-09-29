@@ -929,14 +929,22 @@
       "open": 79.49,
       "time": "2026-09-25",
       "volume": 21320
+    },
+    {
+      "close": 75.61,
+      "high": 79.19,
+      "low": 75.01,
+      "open": 79.19,
+      "time": "2026-09-28",
+      "volume": 15680
     }
   ],
   "company_name": "SHALIBHADRA FINANCE LTD",
   "history": {
     "first_session": "2026-04-10",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 116
+    "last_session": "2026-09-28",
+    "sessions_available": 117
   },
   "industry": null,
   "isin": "INE861D01011",
@@ -944,31 +952,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.15x"
+    "volume_multiplier": "0.11x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.69,
-    "change_pct": -0.88,
-    "close": 77.55,
-    "previous_close": 78.24,
+    "as_of": "2026-09-28",
+    "change": -1.94,
+    "change_pct": -2.5,
+    "close": 75.61,
+    "previous_close": 77.55,
     "type": "EOD_CLOSE",
-    "volume": 21320
+    "volume": 15680
   },
   "range": {
-    "distance_from_high_pct": -15.66,
-    "distance_from_low_pct": 16.44,
+    "distance_from_high_pct": -17.77,
+    "distance_from_low_pct": 13.53,
     "high_52w": 91.95,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 66.6,
-    "range_position_pct": 43.2
+    "range_position_pct": 35.54
   },
   "risk_model": {
-    "invalidation_floor": 74.84,
-    "risk_per_share": 4.26,
-    "technical_pivot": 79.1
+    "invalidation_floor": 72.96,
+    "risk_per_share": 4.16,
+    "technical_pivot": 77.12
   },
   "schema_version": "1.0",
   "sector": null,

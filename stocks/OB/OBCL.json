@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 57.96,
-      "high": 61.9,
-      "low": 57.21,
-      "open": 58.67,
-      "time": "2025-09-18",
-      "volume": 51444
-    },
-    {
       "close": 57.59,
       "high": 58.84,
       "low": 57.1,
@@ -2017,13 +2009,21 @@
       "open": 59.42,
       "time": "2026-09-25",
       "volume": 365
+    },
+    {
+      "close": 56.9,
+      "high": 59.9,
+      "low": 55.5,
+      "open": 57.6,
+      "time": "2026-09-28",
+      "volume": 1582
     }
   ],
   "company_name": "OBCL Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 79,
+    "momentum_score": 77,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.04x"
+    "volume_multiplier": "0.16x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.82,
-    "change_pct": -3.06,
-    "close": 57.6,
-    "previous_close": 59.42,
+    "as_of": "2026-09-28",
+    "change": -0.7,
+    "change_pct": -1.22,
+    "close": 56.9,
+    "previous_close": 57.6,
     "type": "EOD_CLOSE",
-    "volume": 365
+    "volume": 1582
   },
   "range": {
-    "distance_from_high_pct": -7.1,
-    "distance_from_low_pct": 23.84,
+    "distance_from_high_pct": -8.23,
+    "distance_from_low_pct": 22.34,
     "high_52w": 62.0,
     "history_basis": "52_WEEK",
     "low_52w": 46.51,
-    "range_position_pct": 71.59
+    "range_position_pct": 67.08
   },
   "risk_model": {
-    "invalidation_floor": 55.58,
-    "risk_per_share": 3.17,
-    "technical_pivot": 58.75
+    "invalidation_floor": 54.91,
+    "risk_per_share": 3.13,
+    "technical_pivot": 58.04
   },
   "schema_version": "1.0",
   "sector": null,

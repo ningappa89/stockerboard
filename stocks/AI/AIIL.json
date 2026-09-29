@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 639.56,
-      "high": 656.2,
-      "low": 630.4,
-      "open": 656.0,
-      "time": "2025-09-18",
-      "volume": 822400
-    },
-    {
       "close": 632.08,
       "high": 645.46,
       "low": 621.0,
@@ -2017,13 +2009,21 @@
       "open": 551.6,
       "time": "2026-09-25",
       "volume": 338399
+    },
+    {
+      "close": 548.25,
+      "high": 556.95,
+      "low": 541.6,
+      "open": 555.9,
+      "time": "2026-09-28",
+      "volume": 112054
     }
   ],
   "company_name": "Authum Investment & Infrastruc",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.54x"
+    "volume_multiplier": "0.18x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 8.0,
-    "change_pct": 1.45,
-    "close": 559.6,
-    "previous_close": 551.6,
+    "as_of": "2026-09-28",
+    "change": -11.35,
+    "change_pct": -2.03,
+    "close": 548.25,
+    "previous_close": 559.6,
     "type": "EOD_CLOSE",
-    "volume": 338399
+    "volume": 112054
   },
   "range": {
-    "distance_from_high_pct": -18.07,
-    "distance_from_low_pct": 39.9,
+    "distance_from_high_pct": -19.73,
+    "distance_from_low_pct": 37.06,
     "high_52w": 683.0,
     "history_basis": "52_WEEK",
     "low_52w": 400.0,
-    "range_position_pct": 56.4
+    "range_position_pct": 52.39
   },
   "risk_model": {
-    "invalidation_floor": 540.01,
-    "risk_per_share": 30.78,
-    "technical_pivot": 570.79
+    "invalidation_floor": 529.06,
+    "risk_per_share": 30.16,
+    "technical_pivot": 559.22
   },
   "schema_version": "1.0",
   "sector": null,

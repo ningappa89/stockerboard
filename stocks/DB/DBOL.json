@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 85.07,
-      "high": 86.88,
-      "low": 84.65,
-      "open": 85.0,
-      "time": "2025-09-18",
-      "volume": 52202
-    },
-    {
       "close": 85.31,
       "high": 85.6,
       "low": 84.0,
@@ -2017,13 +2009,21 @@
       "open": 112.51,
       "time": "2026-09-25",
       "volume": 352645
+    },
+    {
+      "close": 122.77,
+      "high": 125.28,
+      "low": 119.71,
+      "open": 123.8,
+      "time": "2026-09-28",
+      "volume": 385520
     }
   ],
   "company_name": "DHAMPUR BIO ORGANICS LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 71,
+    "momentum_score": 72,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.66x"
+    "volume_multiplier": "1.81x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 9.05,
-    "change_pct": 7.99,
-    "close": 122.25,
-    "previous_close": 113.2,
+    "as_of": "2026-09-28",
+    "change": 0.52,
+    "change_pct": 0.43,
+    "close": 122.77,
+    "previous_close": 122.25,
     "type": "EOD_CLOSE",
-    "volume": 352645
+    "volume": 385520
   },
   "range": {
-    "distance_from_high_pct": -12.05,
-    "distance_from_low_pct": 77.17,
+    "distance_from_high_pct": -11.68,
+    "distance_from_low_pct": 77.93,
     "high_52w": 139.0,
     "history_basis": "52_WEEK",
     "low_52w": 69.0,
-    "range_position_pct": 76.07
+    "range_position_pct": 76.81
   },
   "risk_model": {
-    "invalidation_floor": 117.97,
-    "risk_per_share": 6.73,
-    "technical_pivot": 124.7
+    "invalidation_floor": 118.47,
+    "risk_per_share": 6.76,
+    "technical_pivot": 125.23
   },
   "schema_version": "1.0",
   "sector": null,

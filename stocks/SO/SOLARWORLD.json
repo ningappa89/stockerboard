@@ -1953,14 +1953,22 @@
       "open": 134.0,
       "time": "2026-09-25",
       "volume": 80994
+    },
+    {
+      "close": 131.49,
+      "high": 135.7,
+      "low": 130.5,
+      "open": 135.7,
+      "time": "2026-09-28",
+      "volume": 234233
     }
   ],
   "company_name": "Solarworld Energy Solutions Li",
   "history": {
     "first_session": "2025-09-30",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 244
+    "last_session": "2026-09-28",
+    "sessions_available": 245
   },
   "industry": null,
   "isin": "INE0TY101024",
@@ -1970,29 +1978,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.28x"
+    "volume_multiplier": "0.8x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.86,
-    "change_pct": 0.64,
-    "close": 134.75,
-    "previous_close": 133.89,
+    "as_of": "2026-09-28",
+    "change": -3.26,
+    "change_pct": -2.42,
+    "close": 131.49,
+    "previous_close": 134.75,
     "type": "EOD_CLOSE",
-    "volume": 80994
+    "volume": 234233
   },
   "range": {
-    "distance_from_high_pct": -65.32,
-    "distance_from_low_pct": 5.14,
+    "distance_from_high_pct": -66.15,
+    "distance_from_low_pct": 2.6,
     "high_52w": 388.5,
     "history_basis": "52_WEEK",
     "low_52w": 128.16,
-    "range_position_pct": 2.53
+    "range_position_pct": 1.28
   },
   "risk_model": {
-    "invalidation_floor": 130.03,
-    "risk_per_share": 7.41,
-    "technical_pivot": 137.44
+    "invalidation_floor": 126.89,
+    "risk_per_share": 7.23,
+    "technical_pivot": 134.12
   },
   "schema_version": "1.0",
   "sector": null,

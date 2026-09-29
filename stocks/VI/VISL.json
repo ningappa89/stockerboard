@@ -585,14 +585,22 @@
       "open": 32.0,
       "time": "2026-09-25",
       "volume": 17169111
+    },
+    {
+      "close": 31.42,
+      "high": 32.94,
+      "low": 31.15,
+      "open": 32.94,
+      "time": "2026-09-28",
+      "volume": 18432933
     }
   ],
   "company_name": "Vedanta Iron and Steel Limited",
   "history": {
     "first_session": "2026-06-15",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 73
+    "last_session": "2026-09-28",
+    "sessions_available": 74
   },
   "industry": null,
   "isin": "INE1CLE01013",
@@ -600,31 +608,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 49,
+    "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.85x"
+    "volume_multiplier": "0.91x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.65,
-    "change_pct": 2.02,
-    "close": 32.78,
-    "previous_close": 32.13,
+    "as_of": "2026-09-28",
+    "change": -1.36,
+    "change_pct": -4.15,
+    "close": 31.42,
+    "previous_close": 32.78,
     "type": "EOD_CLOSE",
-    "volume": 17169111
+    "volume": 18432933
   },
   "range": {
-    "distance_from_high_pct": -26.8,
-    "distance_from_low_pct": 71.98,
+    "distance_from_high_pct": -29.83,
+    "distance_from_low_pct": 64.85,
     "high_52w": 44.78,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 19.06,
-    "range_position_pct": 53.34
+    "range_position_pct": 48.06
   },
   "risk_model": {
-    "invalidation_floor": 31.63,
-    "risk_per_share": 1.81,
-    "technical_pivot": 33.44
+    "invalidation_floor": 30.32,
+    "risk_per_share": 1.73,
+    "technical_pivot": 32.05
   },
   "schema_version": "1.0",
   "sector": null,

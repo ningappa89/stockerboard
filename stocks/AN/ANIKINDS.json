@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 69.47,
-      "high": 69.47,
-      "low": 64.1,
-      "open": 67.98,
-      "time": "2025-09-18",
-      "volume": 121380
-    },
-    {
       "close": 72.94,
       "high": 72.94,
       "low": 69.49,
@@ -2017,13 +2009,21 @@
       "open": 43.75,
       "time": "2026-09-25",
       "volume": 3918
+    },
+    {
+      "close": 43.03,
+      "high": 44.99,
+      "low": 41.96,
+      "open": 44.99,
+      "time": "2026-09-28",
+      "volume": 3018
     }
   ],
   "company_name": "ANIK INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.41x"
+    "volume_multiplier": "0.32x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.28,
-    "change_pct": 0.65,
-    "close": 43.28,
-    "previous_close": 43.0,
+    "as_of": "2026-09-28",
+    "change": -0.25,
+    "change_pct": -0.58,
+    "close": 43.03,
+    "previous_close": 43.28,
     "type": "EOD_CLOSE",
-    "volume": 3918
+    "volume": 3018
   },
   "range": {
-    "distance_from_high_pct": -48.11,
-    "distance_from_low_pct": 33.17,
+    "distance_from_high_pct": -48.41,
+    "distance_from_low_pct": 32.4,
     "high_52w": 83.4,
     "history_basis": "52_WEEK",
     "low_52w": 32.5,
-    "range_position_pct": 21.18
+    "range_position_pct": 20.69
   },
   "risk_model": {
-    "invalidation_floor": 41.77,
-    "risk_per_share": 2.38,
-    "technical_pivot": 44.15
+    "invalidation_floor": 41.52,
+    "risk_per_share": 2.37,
+    "technical_pivot": 43.89
   },
   "schema_version": "1.0",
   "sector": null,

@@ -889,46 +889,54 @@
       "open": 1398.3,
       "time": "2026-09-25",
       "volume": 8013
+    },
+    {
+      "close": 1584.8,
+      "high": 1599.0,
+      "low": 1475.5,
+      "open": 1502.9,
+      "time": "2026-09-28",
+      "volume": 84310
     }
   ],
   "company_name": "3B BlackBio Dx Limited",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE994E01018",
   "metrics": {
-    "is_breakout": false,
-    "is_coiled": false,
+    "is_breakout": true,
+    "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 77,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.43x"
+    "momentum_score": 88,
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "4.06x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 50.2,
-    "change_pct": 3.57,
-    "close": 1456.2,
-    "previous_close": 1406.0,
+    "as_of": "2026-09-28",
+    "change": 128.6,
+    "change_pct": 8.83,
+    "close": 1584.8,
+    "previous_close": 1456.2,
     "type": "EOD_CLOSE",
-    "volume": 8013
+    "volume": 84310
   },
   "range": {
-    "distance_from_high_pct": -8.35,
-    "distance_from_low_pct": 34.21,
-    "high_52w": 1588.9,
+    "distance_from_high_pct": -0.89,
+    "distance_from_low_pct": 46.06,
+    "high_52w": 1599.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 1085.0,
-    "range_position_pct": 73.67
+    "range_position_pct": 97.24
   },
   "risk_model": {
-    "invalidation_floor": 1405.23,
-    "risk_per_share": 80.09,
-    "technical_pivot": 1485.32
+    "invalidation_floor": 1529.33,
+    "risk_per_share": 68.15,
+    "technical_pivot": 1597.48
   },
   "schema_version": "1.0",
   "sector": null,

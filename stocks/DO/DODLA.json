@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1459.5,
-      "high": 1475.0,
-      "low": 1420.0,
-      "open": 1438.1,
-      "time": "2025-09-18",
-      "volume": 56498
-    },
-    {
       "close": 1444.7,
       "high": 1461.8,
       "low": 1431.6,
@@ -2017,13 +2009,21 @@
       "open": 1060.0,
       "time": "2026-09-25",
       "volume": 14762
+    },
+    {
+      "close": 1008.7,
+      "high": 1044.5,
+      "low": 990.0,
+      "open": 1044.5,
+      "time": "2026-09-28",
+      "volume": 30753
     }
   ],
   "company_name": "Dodla Dairy Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 45,
+    "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.61x"
+    "volume_multiplier": "1.33x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -6.3,
-    "change_pct": -0.6,
-    "close": 1039.4,
-    "previous_close": 1045.7,
+    "as_of": "2026-09-28",
+    "change": -30.7,
+    "change_pct": -2.95,
+    "close": 1008.7,
+    "previous_close": 1039.4,
     "type": "EOD_CLOSE",
-    "volume": 14762
+    "volume": 30753
   },
   "range": {
-    "distance_from_high_pct": -29.53,
-    "distance_from_low_pct": 7.81,
-    "high_52w": 1475.0,
+    "distance_from_high_pct": -31.0,
+    "distance_from_low_pct": 4.63,
+    "high_52w": 1461.8,
     "history_basis": "52_WEEK",
     "low_52w": 964.1,
-    "range_position_pct": 14.74
+    "range_position_pct": 8.96
   },
   "risk_model": {
-    "invalidation_floor": 1003.02,
-    "risk_per_share": 57.17,
-    "technical_pivot": 1060.19
+    "invalidation_floor": 973.4,
+    "risk_per_share": 55.47,
+    "technical_pivot": 1028.87
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2278.6,
-      "high": 2310.6,
-      "low": 2258.7,
-      "open": 2310.6,
-      "time": "2025-09-18",
-      "volume": 27386
-    },
-    {
       "close": 2536.7,
       "high": 2576.0,
       "low": 2312.5,
@@ -2017,13 +2009,21 @@
       "open": 1677.8,
       "time": "2026-09-25",
       "volume": 15001
+    },
+    {
+      "close": 1632.0,
+      "high": 1689.5,
+      "low": 1626.0,
+      "open": 1683.2,
+      "time": "2026-09-28",
+      "volume": 21183
     }
   ],
   "company_name": "The Anup Engineering Ltd",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.66x"
+    "volume_multiplier": "0.94x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 7.0,
-    "change_pct": 0.42,
-    "close": 1677.1,
-    "previous_close": 1670.1,
+    "as_of": "2026-09-28",
+    "change": -45.1,
+    "change_pct": -2.69,
+    "close": 1632.0,
+    "previous_close": 1677.1,
     "type": "EOD_CLOSE",
-    "volume": 15001
+    "volume": 21183
   },
   "range": {
-    "distance_from_high_pct": -34.9,
-    "distance_from_low_pct": 17.91,
+    "distance_from_high_pct": -36.65,
+    "distance_from_low_pct": 14.74,
     "high_52w": 2576.0,
     "history_basis": "52_WEEK",
     "low_52w": 1422.3,
-    "range_position_pct": 22.09
+    "range_position_pct": 18.18
   },
   "risk_model": {
-    "invalidation_floor": 1618.4,
-    "risk_per_share": 92.24,
-    "technical_pivot": 1710.64
+    "invalidation_floor": 1574.88,
+    "risk_per_share": 89.76,
+    "technical_pivot": 1664.64
   },
   "schema_version": "1.0",
   "sector": null,

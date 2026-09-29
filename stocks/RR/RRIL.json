@@ -889,14 +889,22 @@
       "open": 16.2,
       "time": "2026-09-25",
       "volume": 17486
+    },
+    {
+      "close": 15.66,
+      "high": 15.93,
+      "low": 15.3,
+      "open": 15.93,
+      "time": "2026-09-28",
+      "volume": 17719
     }
   ],
   "company_name": "R R I L LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE951M01037",
@@ -904,31 +912,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 51,
+    "momentum_score": 49,
     "setup_type": "Liquid Active",
     "volume_multiplier": "0.76x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.16,
-    "change_pct": -0.99,
-    "close": 16.01,
-    "previous_close": 16.17,
+    "as_of": "2026-09-28",
+    "change": -0.35,
+    "change_pct": -2.19,
+    "close": 15.66,
+    "previous_close": 16.01,
     "type": "EOD_CLOSE",
-    "volume": 17486
+    "volume": 17719
   },
   "range": {
-    "distance_from_high_pct": -25.53,
-    "distance_from_low_pct": 6.31,
+    "distance_from_high_pct": -27.16,
+    "distance_from_low_pct": 3.98,
     "high_52w": 21.5,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 15.06,
-    "range_position_pct": 14.75
+    "range_position_pct": 9.32
   },
   "risk_model": {
-    "invalidation_floor": 15.45,
-    "risk_per_share": 0.88,
-    "technical_pivot": 16.33
+    "invalidation_floor": 15.11,
+    "risk_per_share": 0.86,
+    "technical_pivot": 15.97
   },
   "schema_version": "1.0",
   "sector": null,

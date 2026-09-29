@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 327.55,
-      "high": 336.7,
-      "low": 326.15,
-      "open": 336.0,
-      "time": "2025-09-18",
-      "volume": 228194
-    },
-    {
       "close": 319.5,
       "high": 327.25,
       "low": 316.65,
@@ -2017,13 +2009,21 @@
       "open": 566.0,
       "time": "2026-09-25",
       "volume": 338603
+    },
+    {
+      "close": 543.6,
+      "high": 551.95,
+      "low": 542.0,
+      "open": 550.25,
+      "time": "2026-09-28",
+      "volume": 227662
     }
   ],
   "company_name": "ARVIND LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 75,
+    "momentum_score": 74,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.47x"
+    "volume_multiplier": "0.33x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -16.65,
-    "change_pct": -2.94,
-    "close": 549.05,
-    "previous_close": 565.7,
+    "as_of": "2026-09-28",
+    "change": -5.45,
+    "change_pct": -0.99,
+    "close": 543.6,
+    "previous_close": 549.05,
     "type": "EOD_CLOSE",
-    "volume": 338603
+    "volume": 227662
   },
   "range": {
-    "distance_from_high_pct": -9.57,
-    "distance_from_low_pct": 97.57,
+    "distance_from_high_pct": -10.47,
+    "distance_from_low_pct": 95.61,
     "high_52w": 607.15,
     "history_basis": "52_WEEK",
     "low_52w": 277.9,
-    "range_position_pct": 82.35
+    "range_position_pct": 80.7
   },
   "risk_model": {
-    "invalidation_floor": 529.83,
-    "risk_per_share": 30.2,
-    "technical_pivot": 560.03
+    "invalidation_floor": 524.57,
+    "risk_per_share": 29.9,
+    "technical_pivot": 554.47
   },
   "schema_version": "1.0",
   "sector": null,

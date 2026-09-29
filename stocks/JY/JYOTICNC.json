@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 939.8,
-      "high": 956.0,
-      "low": 931.6,
-      "open": 956.0,
-      "time": "2025-09-18",
-      "volume": 120480
-    },
-    {
       "close": 953.9,
       "high": 957.9,
       "low": 932.5,
@@ -2017,13 +2009,21 @@
       "open": 1072.55,
       "time": "2026-09-25",
       "volume": 793087
+    },
+    {
+      "close": 1046.1,
+      "high": 1094.55,
+      "low": 1025.0,
+      "open": 1089.1,
+      "time": "2026-09-28",
+      "volume": 1202568
     }
   ],
   "company_name": "Jyoti CNC Automation Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 80,
+    "momentum_score": 78,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.59x"
+    "volume_multiplier": "0.88x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -7.45,
-    "change_pct": -0.69,
-    "close": 1065.1,
-    "previous_close": 1072.55,
+    "as_of": "2026-09-28",
+    "change": -19.0,
+    "change_pct": -1.78,
+    "close": 1046.1,
+    "previous_close": 1065.1,
     "type": "EOD_CLOSE",
-    "volume": 793087
+    "volume": 1202568
   },
   "range": {
-    "distance_from_high_pct": -6.13,
-    "distance_from_low_pct": 83.61,
+    "distance_from_high_pct": -7.8,
+    "distance_from_low_pct": 80.33,
     "high_52w": 1134.6,
     "history_basis": "52_WEEK",
     "low_52w": 580.1,
-    "range_position_pct": 87.47
+    "range_position_pct": 84.04
   },
   "risk_model": {
-    "invalidation_floor": 1027.82,
-    "risk_per_share": 58.58,
-    "technical_pivot": 1086.4
+    "invalidation_floor": 1009.49,
+    "risk_per_share": 57.53,
+    "technical_pivot": 1067.02
   },
   "schema_version": "1.0",
   "sector": null,

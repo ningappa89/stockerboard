@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2087.6,
-      "high": 2106.0,
-      "low": 2075.0,
-      "open": 2090.0,
-      "time": "2025-09-18",
-      "volume": 462646
-    },
-    {
       "close": 2145.2,
       "high": 2148.0,
       "low": 2078.9,
@@ -2017,13 +2009,21 @@
       "open": 1666.0,
       "time": "2026-09-25",
       "volume": 273610
+    },
+    {
+      "close": 1669.8,
+      "high": 1708.0,
+      "low": 1667.0,
+      "open": 1708.0,
+      "time": "2026-09-28",
+      "volume": 422392
     }
   ],
   "company_name": "GODREJ PROPERTIES LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Realty",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 46,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.39x"
+    "volume_multiplier": "0.6x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 28.9,
-    "change_pct": 1.73,
-    "close": 1700.1,
-    "previous_close": 1671.2,
+    "as_of": "2026-09-28",
+    "change": -30.3,
+    "change_pct": -1.78,
+    "close": 1669.8,
+    "previous_close": 1700.1,
     "type": "EOD_CLOSE",
-    "volume": 273610
+    "volume": 422392
   },
   "range": {
-    "distance_from_high_pct": -27.72,
-    "distance_from_low_pct": 18.56,
+    "distance_from_high_pct": -29.01,
+    "distance_from_low_pct": 16.44,
     "high_52w": 2352.0,
     "history_basis": "52_WEEK",
     "low_52w": 1434.0,
-    "range_position_pct": 28.99
+    "range_position_pct": 25.69
   },
   "risk_model": {
-    "invalidation_floor": 1640.6,
-    "risk_per_share": 93.5,
-    "technical_pivot": 1734.1
+    "invalidation_floor": 1611.36,
+    "risk_per_share": 91.84,
+    "technical_pivot": 1703.2
   },
   "schema_version": "1.0",
   "sector": "Realty",

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1770.1,
-      "high": 1800.3,
-      "low": 1735.0,
-      "open": 1789.7,
-      "time": "2025-09-18",
-      "volume": 13952
-    },
-    {
       "close": 1759.6,
       "high": 1779.0,
       "low": 1755.0,
@@ -2017,13 +2009,21 @@
       "open": 1695.6,
       "time": "2026-09-25",
       "volume": 26667
+    },
+    {
+      "close": 1689.2,
+      "high": 1732.9,
+      "low": 1680.0,
+      "open": 1718.3,
+      "time": "2026-09-28",
+      "volume": 3695
     }
   ],
   "company_name": "AUTOMOTIVE AXLES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 61,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "4.3x"
+    "momentum_score": 59,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.59x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 26.2,
-    "change_pct": 1.56,
-    "close": 1709.8,
-    "previous_close": 1683.6,
+    "as_of": "2026-09-28",
+    "change": -20.6,
+    "change_pct": -1.2,
+    "close": 1689.2,
+    "previous_close": 1709.8,
     "type": "EOD_CLOSE",
-    "volume": 26667
+    "volume": 3695
   },
   "range": {
-    "distance_from_high_pct": -19.16,
-    "distance_from_low_pct": 11.01,
+    "distance_from_high_pct": -20.13,
+    "distance_from_low_pct": 9.67,
     "high_52w": 2115.0,
     "history_basis": "52_WEEK",
     "low_52w": 1540.2,
-    "range_position_pct": 29.51
+    "range_position_pct": 25.92
   },
   "risk_model": {
-    "invalidation_floor": 1649.96,
-    "risk_per_share": 94.04,
-    "technical_pivot": 1744.0
+    "invalidation_floor": 1630.08,
+    "risk_per_share": 92.9,
+    "technical_pivot": 1722.98
   },
   "schema_version": "1.0",
   "sector": null,

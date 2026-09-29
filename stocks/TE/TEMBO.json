@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 60.89,
-      "high": 61.48,
-      "low": 60.16,
-      "open": 60.28,
-      "time": "2025-09-18",
-      "volume": 446680
-    },
-    {
       "close": 61.16,
       "high": 62.28,
       "low": 59.95,
@@ -2017,13 +2009,21 @@
       "open": 59.82,
       "time": "2026-09-25",
       "volume": 3971032
+    },
+    {
+      "close": 57.75,
+      "high": 59.54,
+      "low": 57.56,
+      "open": 58.75,
+      "time": "2026-09-28",
+      "volume": 1014268
     }
   ],
   "company_name": "TEMBO GLOBAL IND LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 44,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.01x"
+    "momentum_score": 43,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.51x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.98,
-    "change_pct": -1.65,
-    "close": 58.28,
-    "previous_close": 59.26,
+    "as_of": "2026-09-28",
+    "change": -0.53,
+    "change_pct": -0.91,
+    "close": 57.75,
+    "previous_close": 58.28,
     "type": "EOD_CLOSE",
-    "volume": 3971032
+    "volume": 1014268
   },
   "range": {
-    "distance_from_high_pct": -30.37,
-    "distance_from_low_pct": 34.47,
+    "distance_from_high_pct": -31.0,
+    "distance_from_low_pct": 33.25,
     "high_52w": 83.7,
     "history_basis": "52_WEEK",
     "low_52w": 43.34,
-    "range_position_pct": 37.02
+    "range_position_pct": 35.7
   },
   "risk_model": {
-    "invalidation_floor": 56.24,
-    "risk_per_share": 3.21,
-    "technical_pivot": 59.45
+    "invalidation_floor": 55.73,
+    "risk_per_share": 3.18,
+    "technical_pivot": 58.91
   },
   "schema_version": "1.0",
   "sector": null,

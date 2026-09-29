@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 307.2,
-      "high": 341.0,
-      "low": 303.6,
-      "open": 338.0,
-      "time": "2025-09-18",
-      "volume": 139696
-    },
-    {
       "close": 305.1,
       "high": 315.0,
       "low": 303.0,
@@ -2017,13 +2009,21 @@
       "open": 151.0,
       "time": "2026-09-25",
       "volume": 20843
+    },
+    {
+      "close": 146.02,
+      "high": 149.9,
+      "low": 143.24,
+      "open": 147.05,
+      "time": "2026-09-28",
+      "volume": 22888
     }
   ],
   "company_name": "BRAND CONCEPTS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.84x"
+    "volume_multiplier": "1.91x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -3.16,
-    "change_pct": -2.09,
-    "close": 148.16,
-    "previous_close": 151.32,
+    "as_of": "2026-09-28",
+    "change": -2.14,
+    "change_pct": -1.44,
+    "close": 146.02,
+    "previous_close": 148.16,
     "type": "EOD_CLOSE",
-    "volume": 20843
+    "volume": 22888
   },
   "range": {
-    "distance_from_high_pct": -67.0,
-    "distance_from_low_pct": 0.3,
+    "distance_from_high_pct": -67.48,
+    "distance_from_low_pct": 1.94,
     "high_52w": 449.0,
     "history_basis": "52_WEEK",
-    "low_52w": 147.71,
-    "range_position_pct": 0.15
+    "low_52w": 143.24,
+    "range_position_pct": 0.91
   },
   "risk_model": {
-    "invalidation_floor": 142.97,
-    "risk_per_share": 8.15,
-    "technical_pivot": 151.12
+    "invalidation_floor": 140.91,
+    "risk_per_share": 8.03,
+    "technical_pivot": 148.94
   },
   "schema_version": "1.0",
   "sector": null,

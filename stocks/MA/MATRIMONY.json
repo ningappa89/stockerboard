@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 513.65,
-      "high": 518.65,
-      "low": 509.9,
-      "open": 509.9,
-      "time": "2025-09-18",
-      "volume": 10283
-    },
-    {
       "close": 513.1,
       "high": 516.2,
       "low": 509.55,
@@ -2017,13 +2009,21 @@
       "open": 538.55,
       "time": "2026-09-25",
       "volume": 2598
+    },
+    {
+      "close": 521.35,
+      "high": 536.1,
+      "low": 515.0,
+      "open": 536.1,
+      "time": "2026-09-28",
+      "volume": 8006
     }
   ],
   "company_name": "Matrimony.com Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 80,
+    "momentum_score": 76,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.18x"
+    "volume_multiplier": "0.56x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -3.15,
-    "change_pct": -0.58,
-    "close": 535.4,
-    "previous_close": 538.55,
+    "as_of": "2026-09-28",
+    "change": -14.05,
+    "change_pct": -2.62,
+    "close": 521.35,
+    "previous_close": 535.4,
     "type": "EOD_CLOSE",
-    "volume": 2598
+    "volume": 8006
   },
   "range": {
-    "distance_from_high_pct": -6.56,
-    "distance_from_low_pct": 47.07,
+    "distance_from_high_pct": -9.01,
+    "distance_from_low_pct": 43.21,
     "high_52w": 573.0,
     "history_basis": "52_WEEK",
     "low_52w": 364.05,
-    "range_position_pct": 82.01
+    "range_position_pct": 75.28
   },
   "risk_model": {
-    "invalidation_floor": 516.66,
-    "risk_per_share": 29.45,
-    "technical_pivot": 546.11
+    "invalidation_floor": 503.1,
+    "risk_per_share": 28.68,
+    "technical_pivot": 531.78
   },
   "schema_version": "1.0",
   "sector": null,

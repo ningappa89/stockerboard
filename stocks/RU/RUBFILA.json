@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 84.86,
-      "high": 86.45,
-      "low": 84.41,
-      "open": 85.5,
-      "time": "2025-09-18",
-      "volume": 55835
-    },
-    {
       "close": 83.93,
       "high": 85.97,
       "low": 83.35,
@@ -2017,13 +2009,21 @@
       "open": 65.07,
       "time": "2026-09-25",
       "volume": 56164
+    },
+    {
+      "close": 62.37,
+      "high": 64.8,
+      "low": 62.1,
+      "open": 63.79,
+      "time": "2026-09-28",
+      "volume": 37446
     }
   ],
   "company_name": "RUBFILA INTERNATIONAL LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 49,
+    "momentum_score": 47,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.97x"
+    "volume_multiplier": "0.63x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.48,
-    "change_pct": -0.75,
-    "close": 63.31,
-    "previous_close": 63.79,
+    "as_of": "2026-09-28",
+    "change": -0.94,
+    "change_pct": -1.48,
+    "close": 62.37,
+    "previous_close": 63.31,
     "type": "EOD_CLOSE",
-    "volume": 56164
+    "volume": 37446
   },
   "range": {
-    "distance_from_high_pct": -27.15,
-    "distance_from_low_pct": 10.47,
+    "distance_from_high_pct": -28.23,
+    "distance_from_low_pct": 8.83,
     "high_52w": 86.9,
     "history_basis": "52_WEEK",
     "low_52w": 57.31,
-    "range_position_pct": 20.28
+    "range_position_pct": 17.1
   },
   "risk_model": {
-    "invalidation_floor": 61.09,
-    "risk_per_share": 3.49,
-    "technical_pivot": 64.58
+    "invalidation_floor": 60.19,
+    "risk_per_share": 3.43,
+    "technical_pivot": 63.62
   },
   "schema_version": "1.0",
   "sector": null,

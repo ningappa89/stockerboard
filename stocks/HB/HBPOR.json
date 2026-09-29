@@ -233,14 +233,22 @@
       "open": 61.39,
       "time": "2026-09-25",
       "volume": 1223
+    },
+    {
+      "close": 59.75,
+      "high": 59.75,
+      "low": 58.4,
+      "open": 59.15,
+      "time": "2026-09-28",
+      "volume": 212
     }
   ],
   "company_name": "HB PORTFOLIO LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE638B01025",
@@ -248,31 +256,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 79,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "1.53x"
+    "momentum_score": 77,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.27x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.79,
-    "change_pct": -1.29,
-    "close": 60.6,
-    "previous_close": 61.39,
+    "as_of": "2026-09-28",
+    "change": -0.85,
+    "change_pct": -1.4,
+    "close": 59.75,
+    "previous_close": 60.6,
     "type": "EOD_CLOSE",
-    "volume": 1223
+    "volume": 212
   },
   "range": {
-    "distance_from_high_pct": -6.77,
-    "distance_from_low_pct": 24.69,
+    "distance_from_high_pct": -8.08,
+    "distance_from_low_pct": 22.94,
     "high_52w": 65.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 48.6,
-    "range_position_pct": 73.17
+    "range_position_pct": 67.99
   },
   "risk_model": {
-    "invalidation_floor": 58.48,
-    "risk_per_share": 3.33,
-    "technical_pivot": 61.81
+    "invalidation_floor": 57.66,
+    "risk_per_share": 3.29,
+    "technical_pivot": 60.95
   },
   "schema_version": "1.0",
   "sector": null,

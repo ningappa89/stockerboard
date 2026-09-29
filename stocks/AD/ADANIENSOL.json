@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 837.6,
-      "high": 845.8,
-      "low": 824.3,
-      "open": 827.05,
-      "time": "2025-09-18",
-      "volume": 971044
-    },
-    {
       "close": 877.15,
       "high": 899.0,
       "low": 855.2,
@@ -2017,13 +2009,21 @@
       "open": 1341.4,
       "time": "2026-09-25",
       "volume": 1534753
+    },
+    {
+      "close": 1287.9,
+      "high": 1338.0,
+      "low": 1283.0,
+      "open": 1338.0,
+      "time": "2026-09-28",
+      "volume": 1230234
     }
   ],
   "company_name": "Adani Energy Solutions Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 52,
+    "momentum_score": 47,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.42x"
+    "volume_multiplier": "0.34x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.0,
-    "change_pct": -0.15,
-    "close": 1338.5,
-    "previous_close": 1340.5,
+    "as_of": "2026-09-28",
+    "change": -50.6,
+    "change_pct": -3.78,
+    "close": 1287.9,
+    "previous_close": 1338.5,
     "type": "EOD_CLOSE",
-    "volume": 1534753
+    "volume": 1230234
   },
   "range": {
-    "distance_from_high_pct": -25.18,
-    "distance_from_low_pct": 66.67,
+    "distance_from_high_pct": -28.01,
+    "distance_from_low_pct": 60.37,
     "high_52w": 1789.0,
     "history_basis": "52_WEEK",
     "low_52w": 803.1,
-    "range_position_pct": 54.31
+    "range_position_pct": 49.17
   },
   "risk_model": {
-    "invalidation_floor": 1291.65,
-    "risk_per_share": 73.62,
-    "technical_pivot": 1365.27
+    "invalidation_floor": 1242.82,
+    "risk_per_share": 70.84,
+    "technical_pivot": 1313.66
   },
   "schema_version": "1.0",
   "sector": null,

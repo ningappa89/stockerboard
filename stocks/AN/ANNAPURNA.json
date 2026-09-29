@@ -257,14 +257,22 @@
       "open": 131.8,
       "time": "2026-09-25",
       "volume": 9829
+    },
+    {
+      "close": 127.66,
+      "high": 132.58,
+      "low": 126.1,
+      "open": 131.97,
+      "time": "2026-09-28",
+      "volume": 41065
     }
   ],
   "company_name": "ANNAPURNA SWADISHT LTD",
   "history": {
     "first_session": "2026-08-12",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 32
+    "last_session": "2026-09-28",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE0MGM01017",
@@ -272,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
+    "momentum_score": 54,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.24x"
+    "volume_multiplier": "1.04x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.8,
-    "change_pct": 0.61,
-    "close": 131.97,
-    "previous_close": 131.17,
+    "as_of": "2026-09-28",
+    "change": -4.31,
+    "change_pct": -3.27,
+    "close": 127.66,
+    "previous_close": 131.97,
     "type": "EOD_CLOSE",
-    "volume": 9829
+    "volume": 41065
   },
   "range": {
-    "distance_from_high_pct": -20.98,
-    "distance_from_low_pct": 2.76,
+    "distance_from_high_pct": -23.56,
+    "distance_from_low_pct": 1.24,
     "high_52w": 167.0,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 128.42,
-    "range_position_pct": 9.2
+    "low_52w": 126.1,
+    "range_position_pct": 3.81
   },
   "risk_model": {
-    "invalidation_floor": 127.35,
-    "risk_per_share": 7.26,
-    "technical_pivot": 134.61
+    "invalidation_floor": 123.19,
+    "risk_per_share": 7.02,
+    "technical_pivot": 130.21
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 82.19,
-      "high": 82.9,
-      "low": 79.66,
-      "open": 80.0,
-      "time": "2025-09-18",
-      "volume": 7957792
-    },
-    {
       "close": 82.64,
       "high": 84.3,
       "low": 80.6,
@@ -2017,13 +2009,21 @@
       "open": 24.9,
       "time": "2026-09-25",
       "volume": 1108651
+    },
+    {
+      "close": 23.95,
+      "high": 24.92,
+      "low": 23.7,
+      "open": 24.92,
+      "time": "2026-09-28",
+      "volume": 641144
     }
   ],
   "company_name": "MAGELLANIC CLOUD LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.82x"
+    "volume_multiplier": "0.5x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.46,
-    "change_pct": -1.85,
-    "close": 24.44,
-    "previous_close": 24.9,
+    "as_of": "2026-09-28",
+    "change": -0.49,
+    "change_pct": -2.0,
+    "close": 23.95,
+    "previous_close": 24.44,
     "type": "EOD_CLOSE",
-    "volume": 1108651
+    "volume": 641144
   },
   "range": {
-    "distance_from_high_pct": -71.91,
-    "distance_from_low_pct": 25.98,
+    "distance_from_high_pct": -72.47,
+    "distance_from_low_pct": 23.45,
     "high_52w": 87.0,
     "history_basis": "52_WEEK",
     "low_52w": 19.4,
-    "range_position_pct": 7.46
+    "range_position_pct": 6.73
   },
   "risk_model": {
-    "invalidation_floor": 23.58,
-    "risk_per_share": 1.35,
-    "technical_pivot": 24.93
+    "invalidation_floor": 23.11,
+    "risk_per_share": 1.32,
+    "technical_pivot": 24.43
   },
   "schema_version": "1.0",
   "sector": null,

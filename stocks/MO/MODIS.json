@@ -1849,14 +1849,22 @@
       "open": 362.15,
       "time": "2026-09-25",
       "volume": 19718
+    },
+    {
+      "close": 362.85,
+      "high": 365.0,
+      "low": 357.0,
+      "open": 363.25,
+      "time": "2026-09-28",
+      "volume": 37031
     }
   ],
   "company_name": "MODIS NAVNIRMAN LTD",
   "history": {
     "first_session": "2025-10-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 231
+    "last_session": "2026-09-28",
+    "sessions_available": 232
   },
   "industry": null,
   "isin": "INE0L0L01012",
@@ -1866,29 +1874,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.7x"
+    "volume_multiplier": "1.35x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.1,
-    "change_pct": -0.03,
-    "close": 363.1,
-    "previous_close": 363.2,
+    "as_of": "2026-09-28",
+    "change": -0.25,
+    "change_pct": -0.07,
+    "close": 362.85,
+    "previous_close": 363.1,
     "type": "EOD_CLOSE",
-    "volume": 19718
+    "volume": 37031
   },
   "range": {
-    "distance_from_high_pct": -74.68,
-    "distance_from_low_pct": 31.56,
+    "distance_from_high_pct": -74.69,
+    "distance_from_low_pct": 31.47,
     "high_52w": 1433.83,
     "history_basis": "52_WEEK",
     "low_52w": 276.0,
-    "range_position_pct": 7.52
+    "range_position_pct": 7.5
   },
   "risk_model": {
-    "invalidation_floor": 350.39,
-    "risk_per_share": 19.97,
-    "technical_pivot": 370.36
+    "invalidation_floor": 350.15,
+    "risk_per_share": 19.96,
+    "technical_pivot": 370.11
   },
   "schema_version": "1.0",
   "sector": null,

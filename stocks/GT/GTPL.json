@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 117.22,
-      "high": 118.95,
-      "low": 115.3,
-      "open": 116.4,
-      "time": "2025-09-18",
-      "volume": 21949
-    },
-    {
       "close": 115.9,
       "high": 117.0,
       "low": 115.25,
@@ -2017,13 +2009,21 @@
       "open": 55.9,
       "time": "2026-09-25",
       "volume": 46020
+    },
+    {
+      "close": 54.86,
+      "high": 56.98,
+      "low": 54.7,
+      "open": 56.57,
+      "time": "2026-09-28",
+      "volume": 27809
     }
   ],
   "company_name": "GTPL Hathway Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.57x"
+    "volume_multiplier": "0.44x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.5,
-    "change_pct": 2.72,
-    "close": 56.57,
-    "previous_close": 55.07,
+    "as_of": "2026-09-28",
+    "change": -1.71,
+    "change_pct": -3.02,
+    "close": 54.86,
+    "previous_close": 56.57,
     "type": "EOD_CLOSE",
-    "volume": 46020
+    "volume": 27809
   },
   "range": {
-    "distance_from_high_pct": -52.44,
-    "distance_from_low_pct": 11.25,
-    "high_52w": 118.95,
+    "distance_from_high_pct": -53.61,
+    "distance_from_low_pct": 7.89,
+    "high_52w": 118.25,
     "history_basis": "52_WEEK",
     "low_52w": 50.85,
-    "range_position_pct": 8.4
+    "range_position_pct": 5.95
   },
   "risk_model": {
-    "invalidation_floor": 54.59,
-    "risk_per_share": 3.11,
-    "technical_pivot": 57.7
+    "invalidation_floor": 52.94,
+    "risk_per_share": 3.02,
+    "technical_pivot": 55.96
   },
   "schema_version": "1.0",
   "sector": null,

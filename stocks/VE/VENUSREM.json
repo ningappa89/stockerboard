@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 436.5,
-      "high": 453.4,
-      "low": 433.95,
-      "open": 449.5,
-      "time": "2025-09-18",
-      "volume": 29551
-    },
-    {
       "close": 431.3,
       "high": 445.0,
       "low": 424.0,
@@ -2017,13 +2009,21 @@
       "open": 1618.0,
       "time": "2026-09-25",
       "volume": 36028
+    },
+    {
+      "close": 1629.2,
+      "high": 1732.9,
+      "low": 1621.0,
+      "open": 1699.0,
+      "time": "2026-09-28",
+      "volume": 40916
     }
   ],
   "company_name": "VENUS REMEDIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
+    "momentum_score": 59,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.39x"
+    "volume_multiplier": "1.54x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 43.6,
-    "change_pct": 2.68,
-    "close": 1668.4,
-    "previous_close": 1624.8,
+    "as_of": "2026-09-28",
+    "change": -39.2,
+    "change_pct": -2.35,
+    "close": 1629.2,
+    "previous_close": 1668.4,
     "type": "EOD_CLOSE",
-    "volume": 36028
+    "volume": 40916
   },
   "range": {
-    "distance_from_high_pct": -18.39,
-    "distance_from_low_pct": 293.49,
+    "distance_from_high_pct": -20.31,
+    "distance_from_low_pct": 284.25,
     "high_52w": 2044.3,
     "history_basis": "52_WEEK",
     "low_52w": 424.0,
-    "range_position_pct": 76.8
+    "range_position_pct": 74.38
   },
   "risk_model": {
-    "invalidation_floor": 1610.01,
-    "risk_per_share": 91.76,
-    "technical_pivot": 1701.77
+    "invalidation_floor": 1572.18,
+    "risk_per_share": 89.6,
+    "technical_pivot": 1661.78
   },
   "schema_version": "1.0",
   "sector": null,

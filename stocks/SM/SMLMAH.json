@@ -1745,46 +1745,54 @@
       "open": 6675.0,
       "time": "2026-09-25",
       "volume": 50096
+    },
+    {
+      "close": 6515.5,
+      "high": 6884.0,
+      "low": 6485.0,
+      "open": 6849.0,
+      "time": "2026-09-28",
+      "volume": 67169
     }
   ],
   "company_name": "SML Mahindra Limited",
   "history": {
     "first_session": "2025-11-10",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 218
+    "last_session": "2026-09-28",
+    "sessions_available": 219
   },
   "industry": null,
   "isin": "INE294B01019",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 88,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.44x"
+    "momentum_score": 81,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.59x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 222.5,
-    "change_pct": 3.37,
-    "close": 6825.5,
-    "previous_close": 6603.0,
+    "as_of": "2026-09-28",
+    "change": -310.0,
+    "change_pct": -4.54,
+    "close": 6515.5,
+    "previous_close": 6825.5,
     "type": "EOD_CLOSE",
-    "volume": 50096
+    "volume": 67169
   },
   "range": {
-    "distance_from_high_pct": -1.06,
-    "distance_from_low_pct": 148.29,
+    "distance_from_high_pct": -5.55,
+    "distance_from_low_pct": 137.01,
     "high_52w": 6898.5,
     "history_basis": "52_WEEK",
     "low_52w": 2749.0,
-    "range_position_pct": 98.24
+    "range_position_pct": 90.77
   },
   "risk_model": {
-    "invalidation_floor": 6586.61,
-    "risk_per_share": 375.4,
-    "technical_pivot": 6962.01
+    "invalidation_floor": 6287.46,
+    "risk_per_share": 358.35,
+    "technical_pivot": 6645.81
   },
   "schema_version": "1.0",
   "sector": null,

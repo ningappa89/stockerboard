@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2691.7,
-      "high": 2715.0,
-      "low": 2565.0,
-      "open": 2591.4,
-      "time": "2025-09-18",
-      "volume": 41159
-    },
-    {
       "close": 2623.9,
       "high": 2754.9,
       "low": 2602.7,
@@ -2017,13 +2009,21 @@
       "open": 4200.0,
       "time": "2026-09-25",
       "volume": 46381
+    },
+    {
+      "close": 4014.1,
+      "high": 4116.5,
+      "low": 3950.0,
+      "open": 4035.0,
+      "time": "2026-09-28",
+      "volume": 41785
     }
   ],
   "company_name": "KDDL LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": true,
     "momentum_score": 81,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.33x"
+    "volume_multiplier": "1.15x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -86.4,
-    "change_pct": -2.1,
-    "close": 4033.4,
-    "previous_close": 4119.8,
+    "as_of": "2026-09-28",
+    "change": -19.3,
+    "change_pct": -0.48,
+    "close": 4014.1,
+    "previous_close": 4033.4,
     "type": "EOD_CLOSE",
-    "volume": 46381
+    "volume": 41785
   },
   "range": {
-    "distance_from_high_pct": -5.54,
-    "distance_from_low_pct": 102.68,
+    "distance_from_high_pct": -5.99,
+    "distance_from_low_pct": 101.71,
     "high_52w": 4270.0,
     "history_basis": "52_WEEK",
     "low_52w": 1990.0,
-    "range_position_pct": 89.62
+    "range_position_pct": 88.78
   },
   "risk_model": {
-    "invalidation_floor": 3892.23,
-    "risk_per_share": 221.84,
-    "technical_pivot": 4114.07
+    "invalidation_floor": 3873.61,
+    "risk_per_share": 220.77,
+    "technical_pivot": 4094.38
   },
   "schema_version": "1.0",
   "sector": null,

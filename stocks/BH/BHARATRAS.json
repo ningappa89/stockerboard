@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2509.25,
-      "high": 2537.0,
-      "low": 2503.25,
-      "open": 2527.75,
-      "time": "2025-09-18",
-      "volume": 8692
-    },
-    {
       "close": 2485.0,
       "high": 2557.5,
       "low": 2480.25,
@@ -2017,13 +2009,21 @@
       "open": 1122.2,
       "time": "2026-09-25",
       "volume": 36304
+    },
+    {
+      "close": 1046.2,
+      "high": 1102.2,
+      "low": 1027.8,
+      "open": 1102.2,
+      "time": "2026-09-28",
+      "volume": 26011
     }
   ],
   "company_name": "BHARAT RASAYAN LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.06x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.42x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -17.2,
-    "change_pct": -1.54,
-    "close": 1096.8,
-    "previous_close": 1114.0,
+    "as_of": "2026-09-28",
+    "change": -50.6,
+    "change_pct": -4.61,
+    "close": 1046.2,
+    "previous_close": 1096.8,
     "type": "EOD_CLOSE",
-    "volume": 36304
+    "volume": 26011
   },
   "range": {
-    "distance_from_high_pct": -63.29,
-    "distance_from_low_pct": 0.61,
+    "distance_from_high_pct": -64.98,
+    "distance_from_low_pct": 1.79,
     "high_52w": 2987.5,
     "history_basis": "52_WEEK",
-    "low_52w": 1090.1,
-    "range_position_pct": 0.35
+    "low_52w": 1027.8,
+    "range_position_pct": 0.94
   },
   "risk_model": {
-    "invalidation_floor": 1058.41,
-    "risk_per_share": 60.33,
-    "technical_pivot": 1118.74
+    "invalidation_floor": 1009.58,
+    "risk_per_share": 57.54,
+    "technical_pivot": 1067.12
   },
   "schema_version": "1.0",
   "sector": null,

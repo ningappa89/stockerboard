@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 314.1,
-      "high": 318.3,
-      "low": 312.0,
-      "open": 316.35,
-      "time": "2025-09-18",
-      "volume": 54761
-    },
-    {
       "close": 315.35,
       "high": 316.15,
       "low": 311.5,
@@ -2017,13 +2009,21 @@
       "open": 280.35,
       "time": "2026-09-25",
       "volume": 226045
+    },
+    {
+      "close": 279.1,
+      "high": 283.45,
+      "low": 276.3,
+      "open": 282.75,
+      "time": "2026-09-28",
+      "volume": 218436
     }
   ],
   "company_name": "MAS Financial Services Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
+    "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.71x"
+    "volume_multiplier": "0.73x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.4,
-    "change_pct": 0.86,
-    "close": 282.75,
-    "previous_close": 280.35,
+    "as_of": "2026-09-28",
+    "change": -3.65,
+    "change_pct": -1.29,
+    "close": 279.1,
+    "previous_close": 282.75,
     "type": "EOD_CLOSE",
-    "volume": 226045
+    "volume": 218436
   },
   "range": {
-    "distance_from_high_pct": -21.21,
-    "distance_from_low_pct": 2.82,
+    "distance_from_high_pct": -22.22,
+    "distance_from_low_pct": 1.49,
     "high_52w": 358.85,
     "history_basis": "52_WEEK",
     "low_52w": 275.0,
-    "range_position_pct": 9.24
+    "range_position_pct": 4.89
   },
   "risk_model": {
-    "invalidation_floor": 272.85,
-    "risk_per_share": 15.56,
-    "technical_pivot": 288.41
+    "invalidation_floor": 269.33,
+    "risk_per_share": 15.35,
+    "technical_pivot": 284.68
   },
   "schema_version": "1.0",
   "sector": null,

@@ -481,14 +481,22 @@
       "open": 13.76,
       "time": "2026-09-25",
       "volume": 1229115
+    },
+    {
+      "close": 13.21,
+      "high": 13.69,
+      "low": 13.12,
+      "open": 13.69,
+      "time": "2026-09-28",
+      "volume": 1258673
     }
   ],
   "company_name": "Allcargo Global Limited",
   "history": {
     "first_session": "2026-07-03",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 60
+    "last_session": "2026-09-28",
+    "sessions_available": 61
   },
   "industry": null,
   "isin": "INE1YPB01014",
@@ -501,26 +509,26 @@
     "volume_multiplier": "0.24x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.05,
-    "change_pct": 0.37,
-    "close": 13.73,
-    "previous_close": 13.68,
+    "as_of": "2026-09-28",
+    "change": -0.52,
+    "change_pct": -3.79,
+    "close": 13.21,
+    "previous_close": 13.73,
     "type": "EOD_CLOSE",
-    "volume": 1229115
+    "volume": 1258673
   },
   "range": {
-    "distance_from_high_pct": -37.59,
-    "distance_from_low_pct": 14.13,
+    "distance_from_high_pct": -39.95,
+    "distance_from_low_pct": 9.81,
     "high_52w": 22.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 12.03,
-    "range_position_pct": 17.05
+    "range_position_pct": 11.84
   },
   "risk_model": {
-    "invalidation_floor": 13.25,
-    "risk_per_share": 0.75,
-    "technical_pivot": 14.0
+    "invalidation_floor": 12.75,
+    "risk_per_share": 0.72,
+    "technical_pivot": 13.47
   },
   "schema_version": "1.0",
   "sector": null,

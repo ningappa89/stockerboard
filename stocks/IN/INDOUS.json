@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 142.78,
-      "high": 145.4,
-      "low": 142.1,
-      "open": 143.0,
-      "time": "2025-09-18",
-      "volume": 9605
-    },
-    {
       "close": 143.04,
       "high": 145.0,
       "low": 137.2,
@@ -2017,13 +2009,21 @@
       "open": 79.9,
       "time": "2026-09-25",
       "volume": 2473
+    },
+    {
+      "close": 77.9,
+      "high": 79.5,
+      "low": 77.6,
+      "open": 79.5,
+      "time": "2026-09-28",
+      "volume": 5063
     }
   ],
   "company_name": "Indo US Bio-Tech Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.23x"
+    "volume_multiplier": "0.69x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.46,
-    "change_pct": -0.59,
-    "close": 77.6,
-    "previous_close": 78.06,
+    "as_of": "2026-09-28",
+    "change": 0.3,
+    "change_pct": 0.39,
+    "close": 77.9,
+    "previous_close": 77.6,
     "type": "EOD_CLOSE",
-    "volume": 2473
+    "volume": 5063
   },
   "range": {
-    "distance_from_high_pct": -51.19,
-    "distance_from_low_pct": 10.86,
+    "distance_from_high_pct": -51.01,
+    "distance_from_low_pct": 11.29,
     "high_52w": 159.0,
     "history_basis": "52_WEEK",
     "low_52w": 70.0,
-    "range_position_pct": 8.54
+    "range_position_pct": 8.88
   },
   "risk_model": {
-    "invalidation_floor": 74.88,
-    "risk_per_share": 4.27,
-    "technical_pivot": 79.15
+    "invalidation_floor": 75.17,
+    "risk_per_share": 4.29,
+    "technical_pivot": 79.46
   },
   "schema_version": "1.0",
   "sector": null,

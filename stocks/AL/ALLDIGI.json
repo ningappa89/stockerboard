@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 922.3,
-      "high": 938.85,
-      "low": 908.95,
-      "open": 938.2,
-      "time": "2025-09-18",
-      "volume": 14850
-    },
-    {
       "close": 923.9,
       "high": 933.5,
       "low": 920.1,
@@ -2017,13 +2009,21 @@
       "open": 775.5,
       "time": "2026-09-25",
       "volume": 2008
+    },
+    {
+      "close": 775.9,
+      "high": 782.0,
+      "low": 770.0,
+      "open": 780.8,
+      "time": "2026-09-28",
+      "volume": 5655
     }
   ],
   "company_name": "Alldigi Tech Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.38x"
+    "volume_multiplier": "1.06x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 5.3,
-    "change_pct": 0.69,
-    "close": 776.95,
-    "previous_close": 771.65,
+    "as_of": "2026-09-28",
+    "change": -1.05,
+    "change_pct": -0.14,
+    "close": 775.9,
+    "previous_close": 776.95,
     "type": "EOD_CLOSE",
-    "volume": 2008
+    "volume": 5655
   },
   "range": {
-    "distance_from_high_pct": -22.3,
-    "distance_from_low_pct": 10.99,
+    "distance_from_high_pct": -22.41,
+    "distance_from_low_pct": 10.84,
     "high_52w": 1000.0,
     "history_basis": "52_WEEK",
     "low_52w": 700.0,
-    "range_position_pct": 25.65
+    "range_position_pct": 25.3
   },
   "risk_model": {
-    "invalidation_floor": 749.76,
-    "risk_per_share": 42.73,
-    "technical_pivot": 792.49
+    "invalidation_floor": 748.74,
+    "risk_per_share": 42.68,
+    "technical_pivot": 791.42
   },
   "schema_version": "1.0",
   "sector": null,

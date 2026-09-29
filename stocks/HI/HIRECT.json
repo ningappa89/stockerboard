@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 821.75,
-      "high": 827.8,
-      "low": 809.9,
-      "open": 811.45,
-      "time": "2025-09-18",
-      "volume": 63766
-    },
-    {
       "close": 862.8,
       "high": 862.8,
       "low": 845.25,
@@ -2017,13 +2009,21 @@
       "open": 1205.6,
       "time": "2026-09-25",
       "volume": 24429
+    },
+    {
+      "close": 1179.4,
+      "high": 1227.9,
+      "low": 1172.9,
+      "open": 1212.0,
+      "time": "2026-09-28",
+      "volume": 32306
     }
   ],
   "company_name": "Hirect Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
+    "is_stage2": false,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.46x"
+    "volume_multiplier": "0.61x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -6.1,
-    "change_pct": -0.5,
-    "close": 1212.9,
-    "previous_close": 1219.0,
+    "as_of": "2026-09-28",
+    "change": -33.5,
+    "change_pct": -2.76,
+    "close": 1179.4,
+    "previous_close": 1212.9,
     "type": "EOD_CLOSE",
-    "volume": 24429
+    "volume": 32306
   },
   "range": {
-    "distance_from_high_pct": -13.3,
-    "distance_from_low_pct": 114.6,
+    "distance_from_high_pct": -15.7,
+    "distance_from_low_pct": 108.67,
     "high_52w": 1399.0,
     "history_basis": "52_WEEK",
     "low_52w": 565.2,
-    "range_position_pct": 77.68
+    "range_position_pct": 73.66
   },
   "risk_model": {
-    "invalidation_floor": 1170.45,
-    "risk_per_share": 66.71,
-    "technical_pivot": 1237.16
+    "invalidation_floor": 1138.12,
+    "risk_per_share": 64.87,
+    "technical_pivot": 1202.99
   },
   "schema_version": "1.0",
   "sector": null,

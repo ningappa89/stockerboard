@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1268.6,
-      "high": 1278.5,
-      "low": 1266.8,
-      "open": 1278.0,
-      "time": "2025-09-18",
-      "volume": 622251
-    },
-    {
       "close": 1272.7,
       "high": 1275.6,
       "low": 1253.6,
@@ -2017,13 +2009,21 @@
       "open": 1991.2,
       "time": "2026-09-25",
       "volume": 549393
+    },
+    {
+      "close": 1957.0,
+      "high": 1994.5,
+      "low": 1951.2,
+      "open": 1980.1,
+      "time": "2026-09-28",
+      "volume": 583093
     }
   ],
   "company_name": "BHARAT FORGE LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Automobile and Auto Components",
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 71,
+    "is_stage2": false,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.59x"
+    "volume_multiplier": "0.61x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 9.1,
-    "change_pct": 0.46,
-    "close": 2008.0,
-    "previous_close": 1998.9,
+    "as_of": "2026-09-28",
+    "change": -51.0,
+    "change_pct": -2.54,
+    "close": 1957.0,
+    "previous_close": 2008.0,
     "type": "EOD_CLOSE",
-    "volume": 549393
+    "volume": 583093
   },
   "range": {
-    "distance_from_high_pct": -12.51,
-    "distance_from_low_pct": 70.31,
+    "distance_from_high_pct": -14.73,
+    "distance_from_low_pct": 65.99,
     "high_52w": 2295.0,
     "history_basis": "52_WEEK",
     "low_52w": 1179.0,
-    "range_position_pct": 74.28
+    "range_position_pct": 69.71
   },
   "risk_model": {
-    "invalidation_floor": 1937.72,
-    "risk_per_share": 110.44,
-    "technical_pivot": 2048.16
+    "invalidation_floor": 1888.5,
+    "risk_per_share": 107.64,
+    "technical_pivot": 1996.14
   },
   "schema_version": "1.0",
   "sector": "Automobile and Auto Components",

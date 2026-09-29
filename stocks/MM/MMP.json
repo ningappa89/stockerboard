@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 278.7,
-      "high": 285.5,
-      "low": 276.35,
-      "open": 278.6,
-      "time": "2025-09-18",
-      "volume": 12986
-    },
-    {
       "close": 275.75,
       "high": 281.95,
       "low": 274.0,
@@ -2017,13 +2009,21 @@
       "open": 456.0,
       "time": "2026-09-25",
       "volume": 37919
+    },
+    {
+      "close": 452.25,
+      "high": 463.95,
+      "low": 440.3,
+      "open": 461.5,
+      "time": "2026-09-28",
+      "volume": 66556
     }
   ],
   "company_name": "MMP INDUSTRIES LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 78,
+    "momentum_score": 76,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.31x"
+    "volume_multiplier": "0.54x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 6.3,
-    "change_pct": 1.39,
-    "close": 460.25,
-    "previous_close": 453.95,
+    "as_of": "2026-09-28",
+    "change": -8.0,
+    "change_pct": -1.74,
+    "close": 452.25,
+    "previous_close": 460.25,
     "type": "EOD_CLOSE",
-    "volume": 37919
+    "volume": 66556
   },
   "range": {
-    "distance_from_high_pct": -7.58,
-    "distance_from_low_pct": 148.52,
+    "distance_from_high_pct": -9.19,
+    "distance_from_low_pct": 144.2,
     "high_52w": 498.0,
     "history_basis": "52_WEEK",
     "low_52w": 185.2,
-    "range_position_pct": 87.93
+    "range_position_pct": 85.37
   },
   "risk_model": {
-    "invalidation_floor": 444.14,
-    "risk_per_share": 25.31,
-    "technical_pivot": 469.45
+    "invalidation_floor": 436.42,
+    "risk_per_share": 24.88,
+    "technical_pivot": 461.3
   },
   "schema_version": "1.0",
   "sector": null,

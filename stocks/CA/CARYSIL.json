@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 916.55,
-      "high": 930.0,
-      "low": 905.0,
-      "open": 907.0,
-      "time": "2025-09-18",
-      "volume": 128121
-    },
-    {
       "close": 917.55,
       "high": 928.85,
       "low": 911.0,
@@ -2017,13 +2009,21 @@
       "open": 1040.8,
       "time": "2026-09-25",
       "volume": 88707
+    },
+    {
+      "close": 1038.3,
+      "high": 1064.1,
+      "low": 1034.0,
+      "open": 1064.1,
+      "time": "2026-09-28",
+      "volume": 74140
     }
   ],
   "company_name": "CARYSIL LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.02x"
+    "volume_multiplier": "0.83x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 16.5,
-    "change_pct": 1.57,
-    "close": 1064.4,
-    "previous_close": 1047.9,
+    "as_of": "2026-09-28",
+    "change": -26.1,
+    "change_pct": -2.45,
+    "close": 1038.3,
+    "previous_close": 1064.4,
     "type": "EOD_CLOSE",
-    "volume": 88707
+    "volume": 74140
   },
   "range": {
-    "distance_from_high_pct": -16.9,
-    "distance_from_low_pct": 45.39,
+    "distance_from_high_pct": -18.94,
+    "distance_from_low_pct": 41.82,
     "high_52w": 1280.9,
     "history_basis": "52_WEEK",
     "low_52w": 732.1,
-    "range_position_pct": 60.55
+    "range_position_pct": 55.79
   },
   "risk_model": {
-    "invalidation_floor": 1027.15,
-    "risk_per_share": 58.54,
-    "technical_pivot": 1085.69
+    "invalidation_floor": 1001.96,
+    "risk_per_share": 57.11,
+    "technical_pivot": 1059.07
   },
   "schema_version": "1.0",
   "sector": null,

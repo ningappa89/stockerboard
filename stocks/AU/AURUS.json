@@ -425,14 +425,22 @@
       "open": 4.63,
       "time": "2026-09-25",
       "volume": 8547
+    },
+    {
+      "close": 4.58,
+      "high": 4.78,
+      "low": 4.5,
+      "open": 4.5,
+      "time": "2026-09-28",
+      "volume": 5536
     }
   ],
   "company_name": "AURUS GEM CORPORATION LIMITED",
   "history": {
     "first_session": "2026-07-14",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 53
+    "last_session": "2026-09-28",
+    "sessions_available": 54
   },
   "industry": null,
   "isin": "INE142K01011",
@@ -440,31 +448,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 78,
+    "momentum_score": 76,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.35x"
+    "volume_multiplier": "0.23x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.02,
-    "change_pct": 0.43,
-    "close": 4.65,
-    "previous_close": 4.63,
+    "as_of": "2026-09-28",
+    "change": -0.07,
+    "change_pct": -1.51,
+    "close": 4.58,
+    "previous_close": 4.65,
     "type": "EOD_CLOSE",
-    "volume": 8547
+    "volume": 5536
   },
   "range": {
-    "distance_from_high_pct": -7.74,
-    "distance_from_low_pct": 9.15,
+    "distance_from_high_pct": -9.13,
+    "distance_from_low_pct": 7.51,
     "high_52w": 5.04,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 4.26,
-    "range_position_pct": 50.0
+    "range_position_pct": 41.03
   },
   "risk_model": {
-    "invalidation_floor": 4.49,
+    "invalidation_floor": 4.42,
     "risk_per_share": 0.5,
-    "technical_pivot": 4.74
+    "technical_pivot": 4.67
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 66.34,
-      "high": 67.41,
-      "low": 66.0,
-      "open": 66.45,
-      "time": "2025-09-18",
-      "volume": 687204
-    },
-    {
       "close": 67.39,
       "high": 69.19,
       "low": 65.92,
@@ -2017,13 +2009,21 @@
       "open": 58.3,
       "time": "2026-09-25",
       "volume": 961605
+    },
+    {
+      "close": 56.4,
+      "high": 58.09,
+      "low": 56.1,
+      "open": 57.87,
+      "time": "2026-09-28",
+      "volume": 917770
     }
   ],
   "company_name": "MMTC LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 51,
+    "momentum_score": 47,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.7x"
+    "volume_multiplier": "0.67x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.38,
-    "change_pct": 0.66,
-    "close": 58.35,
-    "previous_close": 57.97,
+    "as_of": "2026-09-28",
+    "change": -1.95,
+    "change_pct": -3.34,
+    "close": 56.4,
+    "previous_close": 58.35,
     "type": "EOD_CLOSE",
-    "volume": 961605
+    "volume": 917770
   },
   "range": {
-    "distance_from_high_pct": -25.53,
-    "distance_from_low_pct": 16.47,
+    "distance_from_high_pct": -28.02,
+    "distance_from_low_pct": 12.57,
     "high_52w": 78.35,
     "history_basis": "52_WEEK",
     "low_52w": 50.1,
-    "range_position_pct": 29.2
+    "range_position_pct": 22.3
   },
   "risk_model": {
-    "invalidation_floor": 56.31,
-    "risk_per_share": 3.21,
-    "technical_pivot": 59.52
+    "invalidation_floor": 54.43,
+    "risk_per_share": 3.1,
+    "technical_pivot": 57.53
   },
   "schema_version": "1.0",
   "sector": null,

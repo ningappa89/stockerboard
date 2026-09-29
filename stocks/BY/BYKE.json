@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 70.21,
-      "high": 71.4,
-      "low": 70.0,
-      "open": 70.0,
-      "time": "2025-09-18",
-      "volume": 32983
-    },
-    {
       "close": 69.64,
       "high": 70.98,
       "low": 69.42,
@@ -2017,13 +2009,21 @@
       "open": 30.0,
       "time": "2026-09-25",
       "volume": 19441
+    },
+    {
+      "close": 29.13,
+      "high": 30.0,
+      "low": 28.25,
+      "open": 29.99,
+      "time": "2026-09-28",
+      "volume": 39172
     }
   ],
   "company_name": "THE BYKE HOSPITALITY LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.58x"
+    "volume_multiplier": "1.16x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.29,
-    "change_pct": -0.97,
-    "close": 29.76,
-    "previous_close": 30.05,
+    "as_of": "2026-09-28",
+    "change": -0.63,
+    "change_pct": -2.12,
+    "close": 29.13,
+    "previous_close": 29.76,
     "type": "EOD_CLOSE",
-    "volume": 19441
+    "volume": 39172
   },
   "range": {
-    "distance_from_high_pct": -59.27,
-    "distance_from_low_pct": 13.37,
+    "distance_from_high_pct": -60.13,
+    "distance_from_low_pct": 10.97,
     "high_52w": 73.06,
     "history_basis": "52_WEEK",
     "low_52w": 26.25,
-    "range_position_pct": 7.5
+    "range_position_pct": 6.15
   },
   "risk_model": {
-    "invalidation_floor": 28.72,
-    "risk_per_share": 1.64,
-    "technical_pivot": 30.36
+    "invalidation_floor": 28.11,
+    "risk_per_share": 1.6,
+    "technical_pivot": 29.71
   },
   "schema_version": "1.0",
   "sector": null,

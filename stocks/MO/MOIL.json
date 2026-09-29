@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 356.95,
-      "high": 364.0,
-      "low": 355.0,
-      "open": 359.65,
-      "time": "2025-09-18",
-      "volume": 824646
-    },
-    {
       "close": 355.6,
       "high": 361.0,
       "low": 354.2,
@@ -2017,13 +2009,21 @@
       "open": 245.5,
       "time": "2026-09-25",
       "volume": 304344
+    },
+    {
+      "close": 242.05,
+      "high": 245.1,
+      "low": 238.0,
+      "open": 242.05,
+      "time": "2026-09-28",
+      "volume": 515276
     }
   ],
   "company_name": "MOIL LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.43x"
+    "volume_multiplier": "0.74x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -3.5,
-    "change_pct": -1.43,
-    "close": 241.88,
-    "previous_close": 245.38,
+    "as_of": "2026-09-28",
+    "change": 0.17,
+    "change_pct": 0.07,
+    "close": 242.05,
+    "previous_close": 241.88,
     "type": "EOD_CLOSE",
-    "volume": 304344
+    "volume": 515276
   },
   "range": {
-    "distance_from_high_pct": -40.26,
-    "distance_from_low_pct": 3.34,
+    "distance_from_high_pct": -40.22,
+    "distance_from_low_pct": 3.41,
     "high_52w": 404.9,
     "history_basis": "52_WEEK",
     "low_52w": 234.06,
-    "range_position_pct": 4.58
+    "range_position_pct": 4.68
   },
   "risk_model": {
-    "invalidation_floor": 233.41,
+    "invalidation_floor": 233.58,
     "risk_per_share": 13.31,
-    "technical_pivot": 246.72
+    "technical_pivot": 246.89
   },
   "schema_version": "1.0",
   "sector": null,

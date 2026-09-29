@@ -1889,46 +1889,54 @@
       "open": 337.0,
       "time": "2026-09-25",
       "volume": 1484301
+    },
+    {
+      "close": 328.1,
+      "high": 338.45,
+      "low": 327.0,
+      "open": 338.35,
+      "time": "2026-09-28",
+      "volume": 1993842
     }
   ],
   "company_name": "TATA CAPITAL LIMITED",
   "history": {
     "first_session": "2025-10-13",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 236
+    "last_session": "2026-09-28",
+    "sessions_available": 237
   },
   "industry": null,
   "isin": "INE976I01016",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
+    "is_stage2": false,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.21x"
+    "volume_multiplier": "1.57x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.9,
-    "change_pct": 0.86,
-    "close": 339.15,
-    "previous_close": 336.25,
+    "as_of": "2026-09-28",
+    "change": -11.05,
+    "change_pct": -3.26,
+    "close": 328.1,
+    "previous_close": 339.15,
     "type": "EOD_CLOSE",
-    "volume": 1484301
+    "volume": 1993842
   },
   "range": {
-    "distance_from_high_pct": -13.08,
-    "distance_from_low_pct": 14.58,
+    "distance_from_high_pct": -15.91,
+    "distance_from_low_pct": 10.84,
     "high_52w": 390.2,
     "history_basis": "52_WEEK",
     "low_52w": 296.0,
-    "range_position_pct": 45.81
+    "range_position_pct": 34.08
   },
   "risk_model": {
-    "invalidation_floor": 327.28,
-    "risk_per_share": 18.65,
-    "technical_pivot": 345.93
+    "invalidation_floor": 316.62,
+    "risk_per_share": 18.04,
+    "technical_pivot": 334.66
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 78.33,
-      "high": 79.68,
-      "low": 77.76,
-      "open": 78.76,
-      "time": "2025-09-18",
-      "volume": 134823
-    },
-    {
       "close": 77.05,
       "high": 78.6,
       "low": 76.8,
@@ -2017,13 +2009,21 @@
       "open": 93.89,
       "time": "2026-09-25",
       "volume": 564260
+    },
+    {
+      "close": 95.13,
+      "high": 97.4,
+      "low": 94.46,
+      "open": 97.4,
+      "time": "2026-09-28",
+      "volume": 345913
     }
   ],
   "company_name": "ANDHRA SUGARS LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": true,
     "momentum_score": 73,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.26x"
+    "volume_multiplier": "0.8x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.43,
-    "change_pct": 2.61,
-    "close": 95.41,
-    "previous_close": 92.98,
+    "as_of": "2026-09-28",
+    "change": -0.28,
+    "change_pct": -0.29,
+    "close": 95.13,
+    "previous_close": 95.41,
     "type": "EOD_CLOSE",
-    "volume": 564260
+    "volume": 345913
   },
   "range": {
-    "distance_from_high_pct": -11.02,
-    "distance_from_low_pct": 43.47,
+    "distance_from_high_pct": -11.28,
+    "distance_from_low_pct": 43.05,
     "high_52w": 107.23,
     "history_basis": "52_WEEK",
     "low_52w": 66.5,
-    "range_position_pct": 70.98
+    "range_position_pct": 70.29
   },
   "risk_model": {
-    "invalidation_floor": 92.07,
-    "risk_per_share": 5.25,
-    "technical_pivot": 97.32
+    "invalidation_floor": 91.8,
+    "risk_per_share": 5.23,
+    "technical_pivot": 97.03
   },
   "schema_version": "1.0",
   "sector": null,

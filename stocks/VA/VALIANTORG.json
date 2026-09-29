@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 374.55,
-      "high": 378.5,
-      "low": 359.1,
-      "open": 359.1,
-      "time": "2025-09-18",
-      "volume": 9166
-    },
-    {
       "close": 370.6,
       "high": 378.0,
       "low": 365.55,
@@ -2017,13 +2009,21 @@
       "open": 406.05,
       "time": "2026-09-25",
       "volume": 30685
+    },
+    {
+      "close": 397.75,
+      "high": 419.35,
+      "low": 396.4,
+      "open": 419.35,
+      "time": "2026-09-28",
+      "volume": 33242
     }
   ],
   "company_name": "VALIANT ORGANICS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 79,
+    "momentum_score": 74,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.39x"
+    "volume_multiplier": "0.42x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.9,
-    "change_pct": -0.22,
-    "close": 410.45,
-    "previous_close": 411.35,
+    "as_of": "2026-09-28",
+    "change": -12.7,
+    "change_pct": -3.09,
+    "close": 397.75,
+    "previous_close": 410.45,
     "type": "EOD_CLOSE",
-    "volume": 30685
+    "volume": 33242
   },
   "range": {
-    "distance_from_high_pct": -7.16,
-    "distance_from_low_pct": 110.49,
+    "distance_from_high_pct": -10.03,
+    "distance_from_low_pct": 103.97,
     "high_52w": 442.1,
     "history_basis": "52_WEEK",
     "low_52w": 195.0,
-    "range_position_pct": 87.19
+    "range_position_pct": 82.05
   },
   "risk_model": {
-    "invalidation_floor": 396.08,
-    "risk_per_share": 22.58,
-    "technical_pivot": 418.66
+    "invalidation_floor": 383.83,
+    "risk_per_share": 21.87,
+    "technical_pivot": 405.7
   },
   "schema_version": "1.0",
   "sector": null,

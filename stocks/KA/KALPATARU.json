@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 393.8,
-      "high": 396.95,
-      "low": 391.1,
-      "open": 395.45,
-      "time": "2025-09-18",
-      "volume": 33511
-    },
-    {
       "close": 391.2,
       "high": 397.0,
       "low": 389.05,
@@ -2017,13 +2009,21 @@
       "open": 282.0,
       "time": "2026-09-25",
       "volume": 128997
+    },
+    {
+      "close": 275.8,
+      "high": 286.8,
+      "low": 272.8,
+      "open": 286.8,
+      "time": "2026-09-28",
+      "volume": 74370
     }
   ],
   "company_name": "Kalpataru Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.27x"
+    "momentum_score": 40,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.29x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 4.05,
-    "change_pct": 1.46,
-    "close": 281.85,
-    "previous_close": 277.8,
+    "as_of": "2026-09-28",
+    "change": -6.05,
+    "change_pct": -2.15,
+    "close": 275.8,
+    "previous_close": 281.85,
     "type": "EOD_CLOSE",
-    "volume": 128997
+    "volume": 74370
   },
   "range": {
-    "distance_from_high_pct": -31.37,
-    "distance_from_low_pct": 12.74,
+    "distance_from_high_pct": -32.85,
+    "distance_from_low_pct": 10.32,
     "high_52w": 410.7,
     "history_basis": "52_WEEK",
     "low_52w": 250.0,
-    "range_position_pct": 19.82
+    "range_position_pct": 16.05
   },
   "risk_model": {
-    "invalidation_floor": 271.99,
-    "risk_per_share": 15.5,
-    "technical_pivot": 287.49
+    "invalidation_floor": 266.15,
+    "risk_per_share": 15.17,
+    "technical_pivot": 281.32
   },
   "schema_version": "1.0",
   "sector": null,

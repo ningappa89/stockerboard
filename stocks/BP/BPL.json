@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 86.11,
-      "high": 87.47,
-      "low": 84.9,
-      "open": 85.35,
-      "time": "2025-09-18",
-      "volume": 114729
-    },
-    {
       "close": 86.44,
       "high": 87.6,
       "low": 85.2,
@@ -2017,13 +2009,21 @@
       "open": 45.1,
       "time": "2026-09-25",
       "volume": 27183
+    },
+    {
+      "close": 46.41,
+      "high": 50.6,
+      "low": 44.78,
+      "open": 45.89,
+      "time": "2026-09-28",
+      "volume": 248463
     }
   ],
   "company_name": "BPL LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.61x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "4.52x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.13,
-    "change_pct": 0.29,
-    "close": 44.98,
-    "previous_close": 44.85,
+    "as_of": "2026-09-28",
+    "change": 1.43,
+    "change_pct": 3.18,
+    "close": 46.41,
+    "previous_close": 44.98,
     "type": "EOD_CLOSE",
-    "volume": 27183
+    "volume": 248463
   },
   "range": {
-    "distance_from_high_pct": -48.65,
-    "distance_from_low_pct": 19.6,
+    "distance_from_high_pct": -47.02,
+    "distance_from_low_pct": 23.4,
     "high_52w": 87.6,
     "history_basis": "52_WEEK",
     "low_52w": 37.61,
-    "range_position_pct": 14.74
+    "range_position_pct": 17.6
   },
   "risk_model": {
-    "invalidation_floor": 43.41,
-    "risk_per_share": 2.47,
-    "technical_pivot": 45.88
+    "invalidation_floor": 44.79,
+    "risk_per_share": 2.55,
+    "technical_pivot": 47.34
   },
   "schema_version": "1.0",
   "sector": null,

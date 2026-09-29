@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 158.39,
-      "high": 162.89,
-      "low": 157.65,
-      "open": 160.99,
-      "time": "2025-09-18",
-      "volume": 127255
-    },
-    {
       "close": 158.15,
       "high": 160.84,
       "low": 154.12,
@@ -2017,13 +2009,21 @@
       "open": 75.0,
       "time": "2026-09-25",
       "volume": 439933
+    },
+    {
+      "close": 73.72,
+      "high": 76.65,
+      "low": 73.51,
+      "open": 76.65,
+      "time": "2026-09-28",
+      "volume": 182719
     }
   ],
   "company_name": "WONDER ELECTRICALS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.27x"
+    "volume_multiplier": "0.12x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.44,
-    "change_pct": 0.59,
-    "close": 74.62,
-    "previous_close": 74.18,
+    "as_of": "2026-09-28",
+    "change": -0.9,
+    "change_pct": -1.21,
+    "close": 73.72,
+    "previous_close": 74.62,
     "type": "EOD_CLOSE",
-    "volume": 439933
+    "volume": 182719
   },
   "range": {
-    "distance_from_high_pct": -59.34,
-    "distance_from_low_pct": 9.72,
+    "distance_from_high_pct": -59.83,
+    "distance_from_low_pct": 8.4,
     "high_52w": 183.53,
     "history_basis": "52_WEEK",
     "low_52w": 68.01,
-    "range_position_pct": 5.72
+    "range_position_pct": 4.94
   },
   "risk_model": {
-    "invalidation_floor": 72.01,
-    "risk_per_share": 4.1,
-    "technical_pivot": 76.11
+    "invalidation_floor": 71.14,
+    "risk_per_share": 4.05,
+    "technical_pivot": 75.19
   },
   "schema_version": "1.0",
   "sector": null,

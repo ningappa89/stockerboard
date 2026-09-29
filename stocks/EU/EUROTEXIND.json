@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 13.52,
-      "high": 14.54,
-      "low": 13.45,
-      "open": 14.54,
-      "time": "2025-07-28",
-      "volume": 991
-    },
-    {
       "close": 13.18,
       "high": 13.88,
       "low": 13.0,
@@ -2017,13 +2009,21 @@
       "open": 12.27,
       "time": "2026-09-22",
       "volume": 1372
+    },
+    {
+      "close": 12.92,
+      "high": 12.92,
+      "low": 12.1,
+      "open": 12.9,
+      "time": "2026-09-28",
+      "volume": 2600
     }
   ],
   "company_name": "EUROTEX INDUSTRIES & EXPORTS L",
   "history": {
-    "first_session": "2025-07-28",
+    "first_session": "2025-07-29",
     "has_full_52w_history": true,
-    "last_session": "2026-09-22",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.37x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.32x"
   },
   "price": {
-    "as_of": "2026-09-22",
-    "change": 0.56,
-    "change_pct": 4.79,
-    "close": 12.26,
-    "previous_close": 11.7,
+    "as_of": "2026-09-28",
+    "change": 0.66,
+    "change_pct": 5.38,
+    "close": 12.92,
+    "previous_close": 12.26,
     "type": "EOD_CLOSE",
-    "volume": 1372
+    "volume": 2600
   },
   "range": {
-    "distance_from_high_pct": -48.49,
-    "distance_from_low_pct": 9.86,
+    "distance_from_high_pct": -45.71,
+    "distance_from_low_pct": 15.77,
     "high_52w": 23.8,
     "history_basis": "52_WEEK",
     "low_52w": 11.16,
-    "range_position_pct": 8.7
+    "range_position_pct": 13.92
   },
   "risk_model": {
-    "invalidation_floor": 11.83,
-    "risk_per_share": 0.68,
-    "technical_pivot": 12.51
+    "invalidation_floor": 12.47,
+    "risk_per_share": 0.71,
+    "technical_pivot": 13.18
   },
   "schema_version": "1.0",
   "sector": null,

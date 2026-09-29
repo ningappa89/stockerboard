@@ -473,14 +473,22 @@
       "open": 79.0,
       "time": "2026-09-25",
       "volume": 4769681
+    },
+    {
+      "close": 39.3,
+      "high": 39.95,
+      "low": 37.03,
+      "open": 37.03,
+      "time": "2026-09-28",
+      "volume": 2200477
     }
   ],
   "company_name": "AASTHA SPINTEX LIMITED",
   "history": {
     "first_session": "2026-07-06",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 59
+    "last_session": "2026-09-28",
+    "sessions_available": 60
   },
   "industry": null,
   "isin": "INE2FMX01012",
@@ -489,30 +497,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "3.98x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.85x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -8.08,
-    "change_pct": -10.0,
-    "close": 72.72,
-    "previous_close": 80.8,
+    "as_of": "2026-09-28",
+    "change": -33.42,
+    "change_pct": -45.96,
+    "close": 39.3,
+    "previous_close": 72.72,
     "type": "EOD_CLOSE",
-    "volume": 4769681
+    "volume": 2200477
   },
   "range": {
-    "distance_from_high_pct": -48.06,
-    "distance_from_low_pct": 3.89,
+    "distance_from_high_pct": -71.93,
+    "distance_from_low_pct": 6.13,
     "high_52w": 140.01,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 70.0,
-    "range_position_pct": 3.89
+    "low_52w": 37.03,
+    "range_position_pct": 2.2
   },
   "risk_model": {
-    "invalidation_floor": 70.17,
-    "risk_per_share": 4.0,
-    "technical_pivot": 74.17
+    "invalidation_floor": 37.92,
+    "risk_per_share": 2.17,
+    "technical_pivot": 40.09
   },
   "schema_version": "1.0",
   "sector": null,

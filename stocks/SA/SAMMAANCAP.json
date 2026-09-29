@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 139.19,
-      "high": 139.96,
-      "low": 135.18,
-      "open": 136.0,
-      "time": "2025-09-18",
-      "volume": 21107137
-    },
-    {
       "close": 143.21,
       "high": 145.49,
       "low": 137.61,
@@ -2017,13 +2009,21 @@
       "open": 141.78,
       "time": "2026-09-25",
       "volume": 3454356
+    },
+    {
+      "close": 138.82,
+      "high": 141.0,
+      "low": 138.48,
+      "open": 140.61,
+      "time": "2026-09-28",
+      "volume": 2900128
     }
   ],
   "company_name": "Sammaan Capital Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 49,
+    "momentum_score": 47,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.66x"
+    "volume_multiplier": "0.57x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.06,
-    "change_pct": 0.04,
-    "close": 140.61,
-    "previous_close": 140.55,
+    "as_of": "2026-09-28",
+    "change": -1.79,
+    "change_pct": -1.27,
+    "close": 138.82,
+    "previous_close": 140.61,
     "type": "EOD_CLOSE",
-    "volume": 3454356
+    "volume": 2900128
   },
   "range": {
-    "distance_from_high_pct": -27.13,
-    "distance_from_low_pct": 9.0,
+    "distance_from_high_pct": -28.05,
+    "distance_from_low_pct": 7.61,
     "high_52w": 192.95,
     "history_basis": "52_WEEK",
     "low_52w": 129.0,
-    "range_position_pct": 18.15
+    "range_position_pct": 15.36
   },
   "risk_model": {
-    "invalidation_floor": 135.69,
-    "risk_per_share": 7.73,
-    "technical_pivot": 143.42
+    "invalidation_floor": 133.96,
+    "risk_per_share": 7.64,
+    "technical_pivot": 141.6
   },
   "schema_version": "1.0",
   "sector": null,

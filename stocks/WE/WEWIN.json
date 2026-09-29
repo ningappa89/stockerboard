@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 50.62,
-      "high": 51.42,
-      "low": 49.66,
-      "open": 50.03,
-      "time": "2025-09-18",
-      "volume": 6113
-    },
-    {
       "close": 50.02,
       "high": 51.61,
       "low": 49.68,
@@ -2017,13 +2009,21 @@
       "open": 48.91,
       "time": "2026-09-25",
       "volume": 2296
+    },
+    {
+      "close": 48.59,
+      "high": 50.0,
+      "low": 47.99,
+      "open": 48.0,
+      "time": "2026-09-28",
+      "volume": 18241
     }
   ],
   "company_name": "We Win Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.79x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "4.92x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.75,
-    "change_pct": -1.53,
-    "close": 48.26,
-    "previous_close": 49.01,
+    "as_of": "2026-09-28",
+    "change": 0.33,
+    "change_pct": 0.68,
+    "close": 48.59,
+    "previous_close": 48.26,
     "type": "EOD_CLOSE",
-    "volume": 2296
+    "volume": 18241
   },
   "range": {
-    "distance_from_high_pct": -38.13,
-    "distance_from_low_pct": 36.4,
+    "distance_from_high_pct": -37.71,
+    "distance_from_low_pct": 37.34,
     "high_52w": 78.0,
     "history_basis": "52_WEEK",
     "low_52w": 35.38,
-    "range_position_pct": 30.22
+    "range_position_pct": 30.99
   },
   "risk_model": {
-    "invalidation_floor": 46.57,
-    "risk_per_share": 2.66,
-    "technical_pivot": 49.23
+    "invalidation_floor": 46.89,
+    "risk_per_share": 2.67,
+    "technical_pivot": 49.56
   },
   "schema_version": "1.0",
   "sector": null,

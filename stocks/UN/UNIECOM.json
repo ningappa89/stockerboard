@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 146.27,
-      "high": 147.0,
-      "low": 143.69,
-      "open": 144.4,
-      "time": "2025-09-18",
-      "volume": 217061
-    },
-    {
       "close": 141.75,
       "high": 146.24,
       "low": 141.46,
@@ -2017,13 +2009,21 @@
       "open": 83.35,
       "time": "2026-09-25",
       "volume": 514134
+    },
+    {
+      "close": 82.18,
+      "high": 84.5,
+      "low": 81.99,
+      "open": 84.5,
+      "time": "2026-09-28",
+      "volume": 159709
     }
   ],
   "company_name": "UNICOMMERCE ESOLUTIONS L",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.52x"
+    "volume_multiplier": "0.16x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.02,
-    "change_pct": 1.23,
-    "close": 83.78,
-    "previous_close": 82.76,
+    "as_of": "2026-09-28",
+    "change": -1.6,
+    "change_pct": -1.91,
+    "close": 82.18,
+    "previous_close": 83.78,
     "type": "EOD_CLOSE",
-    "volume": 514134
+    "volume": 159709
   },
   "range": {
-    "distance_from_high_pct": -45.23,
-    "distance_from_low_pct": 6.71,
+    "distance_from_high_pct": -46.28,
+    "distance_from_low_pct": 4.67,
     "high_52w": 152.98,
     "history_basis": "52_WEEK",
     "low_52w": 78.51,
-    "range_position_pct": 7.08
+    "range_position_pct": 4.93
   },
   "risk_model": {
-    "invalidation_floor": 80.85,
-    "risk_per_share": 4.61,
-    "technical_pivot": 85.46
+    "invalidation_floor": 79.3,
+    "risk_per_share": 4.52,
+    "technical_pivot": 83.82
   },
   "schema_version": "1.0",
   "sector": null,

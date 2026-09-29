@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 38.01,
-      "high": 39.5,
-      "low": 37.11,
-      "open": 39.19,
-      "time": "2025-09-18",
-      "volume": 1159208
-    },
-    {
       "close": 38.13,
       "high": 39.4,
       "low": 37.75,
@@ -2017,13 +2009,21 @@
       "open": 34.8,
       "time": "2026-09-25",
       "volume": 848940
+    },
+    {
+      "close": 32.99,
+      "high": 33.78,
+      "low": 32.5,
+      "open": 33.41,
+      "time": "2026-09-28",
+      "volume": 986058
     }
   ],
   "company_name": "MSP STEEL & POWER LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 49,
+    "momentum_score": 47,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.05x"
+    "volume_multiplier": "1.28x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.19,
-    "change_pct": -3.41,
-    "close": 33.73,
-    "previous_close": 34.92,
+    "as_of": "2026-09-28",
+    "change": -0.74,
+    "change_pct": -2.19,
+    "close": 32.99,
+    "previous_close": 33.73,
     "type": "EOD_CLOSE",
-    "volume": 848940
+    "volume": 986058
   },
   "range": {
-    "distance_from_high_pct": -26.86,
-    "distance_from_low_pct": 28.5,
+    "distance_from_high_pct": -28.47,
+    "distance_from_low_pct": 25.68,
     "high_52w": 46.12,
     "history_basis": "52_WEEK",
     "low_52w": 26.25,
-    "range_position_pct": 37.64
+    "range_position_pct": 33.92
   },
   "risk_model": {
-    "invalidation_floor": 32.55,
-    "risk_per_share": 1.85,
-    "technical_pivot": 34.4
+    "invalidation_floor": 31.84,
+    "risk_per_share": 1.81,
+    "technical_pivot": 33.65
   },
   "schema_version": "1.0",
   "sector": null,

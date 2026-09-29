@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 671.1,
-      "high": 685.05,
-      "low": 661.1,
-      "open": 670.0,
-      "time": "2025-09-18",
-      "volume": 295802
-    },
-    {
       "close": 661.5,
       "high": 669.25,
       "low": 659.4,
@@ -2017,13 +2009,21 @@
       "open": 553.0,
       "time": "2026-09-25",
       "volume": 58267
+    },
+    {
+      "close": 536.55,
+      "high": 545.85,
+      "low": 534.35,
+      "open": 539.1,
+      "time": "2026-09-28",
+      "volume": 33004
     }
   ],
   "company_name": "GALLANTT ISPAT LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "0.34x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.15,
-    "change_pct": -0.03,
-    "close": 545.1,
-    "previous_close": 545.25,
+    "as_of": "2026-09-28",
+    "change": -8.55,
+    "change_pct": -1.57,
+    "close": 536.55,
+    "previous_close": 545.1,
     "type": "EOD_CLOSE",
-    "volume": 58267
+    "volume": 33004
   },
   "range": {
-    "distance_from_high_pct": -42.5,
-    "distance_from_low_pct": 9.84,
+    "distance_from_high_pct": -43.4,
+    "distance_from_low_pct": 8.12,
     "high_52w": 948.0,
     "history_basis": "52_WEEK",
     "low_52w": 496.25,
-    "range_position_pct": 10.81
+    "range_position_pct": 8.92
   },
   "risk_model": {
-    "invalidation_floor": 526.02,
-    "risk_per_share": 29.98,
-    "technical_pivot": 556.0
+    "invalidation_floor": 517.77,
+    "risk_per_share": 29.51,
+    "technical_pivot": 547.28
   },
   "schema_version": "1.0",
   "sector": null,

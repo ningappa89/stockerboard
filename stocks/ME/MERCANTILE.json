@@ -881,14 +881,22 @@
       "open": 22.25,
       "time": "2026-09-25",
       "volume": 524
+    },
+    {
+      "close": 23.16,
+      "high": 23.36,
+      "low": 21.31,
+      "open": 22.27,
+      "time": "2026-09-28",
+      "volume": 135
     }
   ],
   "company_name": "Mercantile Ventures Limited",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 110
+    "last_session": "2026-09-28",
+    "sessions_available": 111
   },
   "industry": null,
   "isin": "INE689O01013",
@@ -896,31 +904,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 46,
+    "momentum_score": 48,
     "setup_type": "Liquid Active",
     "volume_multiplier": "0.0x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.13,
-    "change_pct": 0.58,
-    "close": 22.72,
-    "previous_close": 22.59,
+    "as_of": "2026-09-28",
+    "change": 0.44,
+    "change_pct": 1.94,
+    "close": 23.16,
+    "previous_close": 22.72,
     "type": "EOD_CLOSE",
-    "volume": 524
+    "volume": 135
   },
   "range": {
-    "distance_from_high_pct": -28.78,
-    "distance_from_low_pct": 19.58,
+    "distance_from_high_pct": -27.4,
+    "distance_from_low_pct": 21.89,
     "high_52w": 31.9,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 19.0,
-    "range_position_pct": 28.84
+    "range_position_pct": 32.25
   },
   "risk_model": {
-    "invalidation_floor": 21.92,
-    "risk_per_share": 1.25,
-    "technical_pivot": 23.17
+    "invalidation_floor": 22.35,
+    "risk_per_share": 1.27,
+    "technical_pivot": 23.62
   },
   "schema_version": "1.0",
   "sector": null,

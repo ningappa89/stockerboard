@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 376.45,
-      "high": 405.0,
-      "low": 371.0,
-      "open": 405.0,
-      "time": "2025-09-18",
-      "volume": 348023
-    },
-    {
       "close": 363.2,
       "high": 380.15,
       "low": 360.6,
@@ -2017,13 +2009,21 @@
       "open": 215.0,
       "time": "2026-09-25",
       "volume": 6886
+    },
+    {
+      "close": 207.55,
+      "high": 219.85,
+      "low": 206.72,
+      "open": 214.58,
+      "time": "2026-09-28",
+      "volume": 34440
     }
   ],
   "company_name": "TRF LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.59x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.63x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.52,
-    "change_pct": 0.24,
-    "close": 215.65,
-    "previous_close": 215.13,
+    "as_of": "2026-09-28",
+    "change": -8.1,
+    "change_pct": -3.76,
+    "close": 207.55,
+    "previous_close": 215.65,
     "type": "EOD_CLOSE",
-    "volume": 6886
+    "volume": 34440
   },
   "range": {
-    "distance_from_high_pct": -46.75,
-    "distance_from_low_pct": 2.69,
-    "high_52w": 405.0,
+    "distance_from_high_pct": -48.74,
+    "distance_from_low_pct": 0.4,
+    "high_52w": 404.9,
     "history_basis": "52_WEEK",
-    "low_52w": 210.0,
-    "range_position_pct": 2.9
+    "low_52w": 206.72,
+    "range_position_pct": 0.42
   },
   "risk_model": {
-    "invalidation_floor": 208.1,
-    "risk_per_share": 11.86,
-    "technical_pivot": 219.96
+    "invalidation_floor": 200.29,
+    "risk_per_share": 11.41,
+    "technical_pivot": 211.7
   },
   "schema_version": "1.0",
   "sector": null,

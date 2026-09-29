@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 988.8,
-      "high": 1009.9,
-      "low": 965.0,
-      "open": 965.5,
-      "time": "2025-09-18",
-      "volume": 989664
-    },
-    {
       "close": 974.1,
       "high": 1009.0,
       "low": 970.25,
@@ -2017,13 +2009,21 @@
       "open": 2350.0,
       "time": "2026-09-25",
       "volume": 534906
+    },
+    {
+      "close": 2310.2,
+      "high": 2364.6,
+      "low": 2296.0,
+      "open": 2328.1,
+      "time": "2026-09-28",
+      "volume": 134421
     }
   ],
   "company_name": "Avalon Technologies Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 73,
+    "momentum_score": 72,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.75x"
+    "volume_multiplier": "0.19x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 12.4,
-    "change_pct": 0.54,
-    "close": 2328.5,
-    "previous_close": 2316.1,
+    "as_of": "2026-09-28",
+    "change": -18.3,
+    "change_pct": -0.79,
+    "close": 2310.2,
+    "previous_close": 2328.5,
     "type": "EOD_CLOSE",
-    "volume": 534906
+    "volume": 134421
   },
   "range": {
-    "distance_from_high_pct": -11.06,
-    "distance_from_low_pct": 199.56,
+    "distance_from_high_pct": -11.76,
+    "distance_from_low_pct": 197.21,
     "high_52w": 2618.0,
     "history_basis": "52_WEEK",
     "low_52w": 777.3,
-    "range_position_pct": 84.27
+    "range_position_pct": 83.28
   },
   "risk_model": {
-    "invalidation_floor": 2247.0,
-    "risk_per_share": 128.07,
-    "technical_pivot": 2375.07
+    "invalidation_floor": 2229.34,
+    "risk_per_share": 127.06,
+    "technical_pivot": 2356.4
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2395.6,
-      "high": 2436.0,
-      "low": 2382.4,
-      "open": 2435.1,
-      "time": "2025-09-18",
-      "volume": 162369
-    },
-    {
       "close": 2540.6,
       "high": 2583.5,
       "low": 2355.3,
@@ -2017,13 +2009,21 @@
       "open": 3070.0,
       "time": "2026-09-25",
       "volume": 322295
+    },
+    {
+      "close": 2880.1,
+      "high": 3009.0,
+      "low": 2860.1,
+      "open": 2992.0,
+      "time": "2026-09-28",
+      "volume": 332576
     }
   ],
   "company_name": "CarTrade Tech Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 76,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.98x"
+    "volume_multiplier": "0.99x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.2,
-    "change_pct": -0.07,
-    "close": 3002.6,
-    "previous_close": 3004.8,
+    "as_of": "2026-09-28",
+    "change": -122.5,
+    "change_pct": -4.08,
+    "close": 2880.1,
+    "previous_close": 3002.6,
     "type": "EOD_CLOSE",
-    "volume": 322295
+    "volume": 332576
   },
   "range": {
-    "distance_from_high_pct": -8.75,
-    "distance_from_low_pct": 87.66,
+    "distance_from_high_pct": -12.47,
+    "distance_from_low_pct": 80.01,
     "high_52w": 3290.5,
     "history_basis": "52_WEEK",
     "low_52w": 1600.0,
-    "range_position_pct": 82.97
+    "range_position_pct": 75.72
   },
   "risk_model": {
-    "invalidation_floor": 2897.51,
-    "risk_per_share": 165.14,
-    "technical_pivot": 3062.65
+    "invalidation_floor": 2779.3,
+    "risk_per_share": 158.4,
+    "technical_pivot": 2937.7
   },
   "schema_version": "1.0",
   "sector": null,

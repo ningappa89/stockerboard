@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 456.45,
-      "high": 463.7,
-      "low": 448.95,
-      "open": 454.5,
-      "time": "2025-09-18",
-      "volume": 5114
-    },
-    {
       "close": 457.45,
       "high": 465.0,
       "low": 453.0,
@@ -2017,13 +2009,21 @@
       "open": 312.0,
       "time": "2026-09-25",
       "volume": 24778
+    },
+    {
+      "close": 331.8,
+      "high": 375.0,
+      "low": 326.6,
+      "open": 346.0,
+      "time": "2026-09-28",
+      "volume": 26667
     }
   ],
   "company_name": "Tips Films Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 46,
+    "momentum_score": 43,
     "setup_type": "Volume Expansion",
-    "volume_multiplier": "6.89x"
+    "volume_multiplier": "6.07x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 29.95,
-    "change_pct": 9.61,
-    "close": 341.45,
-    "previous_close": 311.5,
+    "as_of": "2026-09-28",
+    "change": -9.65,
+    "change_pct": -2.83,
+    "close": 331.8,
+    "previous_close": 341.45,
     "type": "EOD_CLOSE",
-    "volume": 24778
+    "volume": 26667
   },
   "range": {
-    "distance_from_high_pct": -28.75,
-    "distance_from_low_pct": 23.38,
+    "distance_from_high_pct": -30.77,
+    "distance_from_low_pct": 19.89,
     "high_52w": 479.25,
     "history_basis": "52_WEEK",
     "low_52w": 276.75,
-    "range_position_pct": 31.95
+    "range_position_pct": 27.19
   },
   "risk_model": {
-    "invalidation_floor": 329.5,
-    "risk_per_share": 18.78,
-    "technical_pivot": 348.28
+    "invalidation_floor": 320.19,
+    "risk_per_share": 18.25,
+    "technical_pivot": 338.44
   },
   "schema_version": "1.0",
   "sector": null,

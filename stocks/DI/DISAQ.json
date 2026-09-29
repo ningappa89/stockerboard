@@ -889,14 +889,22 @@
       "open": 11953.0,
       "time": "2026-09-25",
       "volume": 55
+    },
+    {
+      "close": 11972.0,
+      "high": 12119.0,
+      "low": 11679.0,
+      "open": 11779.0,
+      "time": "2026-09-28",
+      "volume": 123
     }
   ],
   "company_name": "DISA INDIA LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE131C01011",
@@ -904,31 +912,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 77,
+    "momentum_score": 79,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.22x"
+    "volume_multiplier": "0.59x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -235.0,
-    "change_pct": -1.96,
-    "close": 11773.0,
-    "previous_close": 12008.0,
+    "as_of": "2026-09-28",
+    "change": 199.0,
+    "change_pct": 1.69,
+    "close": 11972.0,
+    "previous_close": 11773.0,
     "type": "EOD_CLOSE",
-    "volume": 55
+    "volume": 123
   },
   "range": {
-    "distance_from_high_pct": -8.48,
-    "distance_from_low_pct": 8.5,
+    "distance_from_high_pct": -6.93,
+    "distance_from_low_pct": 10.33,
     "high_52w": 12864.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 10851.0,
-    "range_position_pct": 45.8
+    "range_position_pct": 55.69
   },
   "risk_model": {
-    "invalidation_floor": 11360.94,
-    "risk_per_share": 647.52,
-    "technical_pivot": 12008.46
+    "invalidation_floor": 11552.98,
+    "risk_per_share": 658.46,
+    "technical_pivot": 12211.44
   },
   "schema_version": "1.0",
   "sector": null,

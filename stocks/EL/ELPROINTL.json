@@ -889,14 +889,22 @@
       "open": 172.5,
       "time": "2026-09-25",
       "volume": 2672
+    },
+    {
+      "close": 172.52,
+      "high": 174.0,
+      "low": 171.4,
+      "open": 171.45,
+      "time": "2026-09-28",
+      "volume": 9798
     }
   ],
   "company_name": "ELPRO INTERNATIONAL LTD",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE579B01039",
@@ -904,31 +912,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 82,
+    "momentum_score": 83,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.23x"
+    "volume_multiplier": "0.84x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.21,
-    "change_pct": -0.12,
-    "close": 171.8,
-    "previous_close": 172.01,
+    "as_of": "2026-09-28",
+    "change": 0.72,
+    "change_pct": 0.42,
+    "close": 172.52,
+    "previous_close": 171.8,
     "type": "EOD_CLOSE",
-    "volume": 2672
+    "volume": 9798
   },
   "range": {
-    "distance_from_high_pct": -5.03,
-    "distance_from_low_pct": 99.77,
+    "distance_from_high_pct": -4.63,
+    "distance_from_low_pct": 100.6,
     "high_52w": 180.89,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 86.0,
-    "range_position_pct": 90.42
+    "range_position_pct": 91.18
   },
   "risk_model": {
-    "invalidation_floor": 165.79,
-    "risk_per_share": 9.45,
-    "technical_pivot": 175.24
+    "invalidation_floor": 166.48,
+    "risk_per_share": 9.49,
+    "technical_pivot": 175.97
   },
   "schema_version": "1.0",
   "sector": null,

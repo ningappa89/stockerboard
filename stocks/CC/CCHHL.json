@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 17.13,
-      "high": 17.69,
-      "low": 17.05,
-      "open": 17.69,
-      "time": "2025-09-18",
-      "volume": 30236
-    },
-    {
       "close": 17.32,
       "high": 17.65,
       "low": 16.86,
@@ -2017,13 +2009,21 @@
       "open": 13.1,
       "time": "2026-09-25",
       "volume": 25038
+    },
+    {
+      "close": 12.83,
+      "high": 13.8,
+      "low": 12.75,
+      "open": 13.15,
+      "time": "2026-09-28",
+      "volume": 23613
     }
   ],
   "company_name": "COUNTRY CLUB HOSPITALITY AND H",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 49,
+    "momentum_score": 46,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.93x"
+    "volume_multiplier": "0.85x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.35,
-    "change_pct": -2.59,
-    "close": 13.14,
-    "previous_close": 13.49,
+    "as_of": "2026-09-28",
+    "change": -0.31,
+    "change_pct": -2.36,
+    "close": 12.83,
+    "previous_close": 13.14,
     "type": "EOD_CLOSE",
-    "volume": 25038
+    "volume": 23613
   },
   "range": {
-    "distance_from_high_pct": -27.0,
-    "distance_from_low_pct": 31.01,
+    "distance_from_high_pct": -28.72,
+    "distance_from_low_pct": 27.92,
     "high_52w": 18.0,
     "history_basis": "52_WEEK",
     "low_52w": 10.03,
-    "range_position_pct": 39.02
+    "range_position_pct": 35.13
   },
   "risk_model": {
-    "invalidation_floor": 12.68,
-    "risk_per_share": 0.72,
-    "technical_pivot": 13.4
+    "invalidation_floor": 12.38,
+    "risk_per_share": 0.71,
+    "technical_pivot": 13.09
   },
   "schema_version": "1.0",
   "sector": null,

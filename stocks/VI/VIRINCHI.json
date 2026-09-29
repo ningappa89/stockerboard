@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 31.85,
-      "high": 32.69,
-      "low": 31.52,
-      "open": 31.86,
-      "time": "2025-09-18",
-      "volume": 583832
-    },
-    {
       "close": 31.9,
       "high": 32.43,
       "low": 31.55,
@@ -2017,13 +2009,21 @@
       "open": 14.0,
       "time": "2026-09-25",
       "volume": 38149
+    },
+    {
+      "close": 13.72,
+      "high": 14.18,
+      "low": 13.71,
+      "open": 13.82,
+      "time": "2026-09-28",
+      "volume": 33201
     }
   ],
   "company_name": "Virinchi Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.55x"
+    "volume_multiplier": "0.49x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.0,
-    "change_pct": 0.0,
-    "close": 13.81,
+    "as_of": "2026-09-28",
+    "change": -0.09,
+    "change_pct": -0.65,
+    "close": 13.72,
     "previous_close": 13.81,
     "type": "EOD_CLOSE",
-    "volume": 38149
+    "volume": 33201
   },
   "range": {
-    "distance_from_high_pct": -57.75,
-    "distance_from_low_pct": 1.54,
-    "high_52w": 32.69,
+    "distance_from_high_pct": -57.69,
+    "distance_from_low_pct": 0.88,
+    "high_52w": 32.43,
     "history_basis": "52_WEEK",
     "low_52w": 13.6,
-    "range_position_pct": 1.1
+    "range_position_pct": 0.64
   },
   "risk_model": {
-    "invalidation_floor": 13.33,
-    "risk_per_share": 0.76,
-    "technical_pivot": 14.09
+    "invalidation_floor": 13.24,
+    "risk_per_share": 0.75,
+    "technical_pivot": 13.99
   },
   "schema_version": "1.0",
   "sector": null,

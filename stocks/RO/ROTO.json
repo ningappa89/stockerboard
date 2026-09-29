@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 83.23,
-      "high": 84.35,
-      "low": 83.0,
-      "open": 83.24,
-      "time": "2025-09-18",
-      "volume": 126541
-    },
-    {
       "close": 82.48,
       "high": 83.9,
       "low": 82.3,
@@ -2017,13 +2009,21 @@
       "open": 63.77,
       "time": "2026-09-25",
       "volume": 388024
+    },
+    {
+      "close": 62.55,
+      "high": 64.5,
+      "low": 62.12,
+      "open": 62.52,
+      "time": "2026-09-28",
+      "volume": 326135
     }
   ],
   "company_name": "ROTO PUMPS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 51,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.83x"
+    "volume_multiplier": "0.68x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.97,
-    "change_pct": -1.52,
-    "close": 62.8,
-    "previous_close": 63.77,
+    "as_of": "2026-09-28",
+    "change": -0.25,
+    "change_pct": -0.4,
+    "close": 62.55,
+    "previous_close": 62.8,
     "type": "EOD_CLOSE",
-    "volume": 388024
+    "volume": 326135
   },
   "range": {
-    "distance_from_high_pct": -25.55,
-    "distance_from_low_pct": 32.21,
-    "high_52w": 84.35,
+    "distance_from_high_pct": -25.45,
+    "distance_from_low_pct": 31.68,
+    "high_52w": 83.9,
     "history_basis": "52_WEEK",
     "low_52w": 47.5,
-    "range_position_pct": 41.52
+    "range_position_pct": 41.35
   },
   "risk_model": {
-    "invalidation_floor": 60.6,
-    "risk_per_share": 3.46,
-    "technical_pivot": 64.06
+    "invalidation_floor": 60.36,
+    "risk_per_share": 3.44,
+    "technical_pivot": 63.8
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 233.58,
-      "high": 239.94,
-      "low": 233.01,
-      "open": 239.94,
-      "time": "2025-09-18",
-      "volume": 2934
-    },
-    {
       "close": 237.22,
       "high": 238.98,
       "low": 232.65,
@@ -2017,13 +2009,21 @@
       "open": 129.98,
       "time": "2026-09-25",
       "volume": 2486
+    },
+    {
+      "close": 129.0,
+      "high": 133.9,
+      "low": 128.72,
+      "open": 130.15,
+      "time": "2026-09-28",
+      "volume": 2208
     }
   ],
   "company_name": "SHREYANS INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.37x"
+    "volume_multiplier": "0.34x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.26,
-    "change_pct": -0.2,
-    "close": 130.15,
-    "previous_close": 130.41,
+    "as_of": "2026-09-28",
+    "change": -1.15,
+    "change_pct": -0.88,
+    "close": 129.0,
+    "previous_close": 130.15,
     "type": "EOD_CLOSE",
-    "volume": 2486
+    "volume": 2208
   },
   "range": {
-    "distance_from_high_pct": -47.35,
-    "distance_from_low_pct": 6.89,
+    "distance_from_high_pct": -47.82,
+    "distance_from_low_pct": 5.95,
     "high_52w": 247.22,
     "history_basis": "52_WEEK",
     "low_52w": 121.76,
-    "range_position_pct": 6.69
+    "range_position_pct": 5.77
   },
   "risk_model": {
-    "invalidation_floor": 125.59,
-    "risk_per_share": 7.16,
-    "technical_pivot": 132.75
+    "invalidation_floor": 124.48,
+    "risk_per_share": 7.1,
+    "technical_pivot": 131.58
   },
   "schema_version": "1.0",
   "sector": null,

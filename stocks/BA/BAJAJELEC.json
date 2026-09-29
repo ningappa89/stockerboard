@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 597.3,
-      "high": 610.0,
-      "low": 594.85,
-      "open": 610.0,
-      "time": "2025-09-18",
-      "volume": 45594
-    },
-    {
       "close": 589.7,
       "high": 599.95,
       "low": 586.2,
@@ -2017,13 +2009,21 @@
       "open": 321.0,
       "time": "2026-09-25",
       "volume": 107647
+    },
+    {
+      "close": 314.65,
+      "high": 324.35,
+      "low": 313.0,
+      "open": 322.0,
+      "time": "2026-09-28",
+      "volume": 96887
     }
   ],
   "company_name": "BAJAJ ELECT.LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.97x"
+    "volume_multiplier": "0.89x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.5,
-    "change_pct": -0.78,
-    "close": 318.95,
-    "previous_close": 321.45,
+    "as_of": "2026-09-28",
+    "change": -4.3,
+    "change_pct": -1.35,
+    "close": 314.65,
+    "previous_close": 318.95,
     "type": "EOD_CLOSE",
-    "volume": 107647
+    "volume": 96887
   },
   "range": {
-    "distance_from_high_pct": -51.22,
-    "distance_from_low_pct": 5.96,
+    "distance_from_high_pct": -51.87,
+    "distance_from_low_pct": 4.53,
     "high_52w": 653.8,
     "history_basis": "52_WEEK",
     "low_52w": 301.0,
-    "range_position_pct": 5.09
+    "range_position_pct": 3.87
   },
   "risk_model": {
-    "invalidation_floor": 307.79,
-    "risk_per_share": 17.54,
-    "technical_pivot": 325.33
+    "invalidation_floor": 303.64,
+    "risk_per_share": 17.3,
+    "technical_pivot": 320.94
   },
   "schema_version": "1.0",
   "sector": null,

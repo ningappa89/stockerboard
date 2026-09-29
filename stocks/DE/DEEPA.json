@@ -105,14 +105,22 @@
       "open": 195.0,
       "time": "2026-09-25",
       "volume": 19215814
+    },
+    {
+      "close": 202.54,
+      "high": 217.16,
+      "low": 193.2,
+      "open": 212.9,
+      "time": "2026-09-28",
+      "volume": 13094617
     }
   ],
   "company_name": "Deepa Jewellers Limited",
   "history": {
     "first_session": "2026-09-08",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 13
+    "last_session": "2026-09-28",
+    "sessions_available": 14
   },
   "industry": null,
   "isin": "INE1M2N01020",
@@ -120,31 +128,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 84,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "2.13x"
+    "momentum_score": 76,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.4x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 18.94,
-    "change_pct": 9.75,
-    "close": 213.12,
-    "previous_close": 194.18,
+    "as_of": "2026-09-28",
+    "change": -10.58,
+    "change_pct": -4.96,
+    "close": 202.54,
+    "previous_close": 213.12,
     "type": "EOD_CLOSE",
-    "volume": 19215814
+    "volume": 13094617
   },
   "range": {
-    "distance_from_high_pct": -4.0,
-    "distance_from_low_pct": 29.33,
+    "distance_from_high_pct": -8.77,
+    "distance_from_low_pct": 22.91,
     "high_52w": 222.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 164.79,
-    "range_position_pct": 84.48
+    "range_position_pct": 65.98
   },
   "risk_model": {
-    "invalidation_floor": 205.66,
-    "risk_per_share": 11.72,
-    "technical_pivot": 217.38
+    "invalidation_floor": 195.45,
+    "risk_per_share": 11.14,
+    "technical_pivot": 206.59
   },
   "schema_version": "1.0",
   "sector": null,

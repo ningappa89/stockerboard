@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 198.43,
-      "high": 200.47,
-      "low": 197.81,
-      "open": 200.0,
-      "time": "2025-09-18",
-      "volume": 6394641
-    },
-    {
       "close": 197.92,
       "high": 199.5,
       "low": 197.62,
@@ -2017,13 +2009,21 @@
       "open": 327.5,
       "time": "2026-09-25",
       "volume": 6128694
+    },
+    {
+      "close": 325.0,
+      "high": 327.3,
+      "low": 320.5,
+      "open": 322.3,
+      "time": "2026-09-28",
+      "volume": 7819379
     }
   ],
   "company_name": "FEDERAL BANK LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 69,
+    "is_stage2": true,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.17x"
+    "volume_multiplier": "1.43x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -7.5,
-    "change_pct": -2.28,
-    "close": 322.0,
-    "previous_close": 329.5,
+    "as_of": "2026-09-28",
+    "change": 3.0,
+    "change_pct": 0.93,
+    "close": 325.0,
+    "previous_close": 322.0,
     "type": "EOD_CLOSE",
-    "volume": 6128694
+    "volume": 7819379
   },
   "range": {
-    "distance_from_high_pct": -13.37,
-    "distance_from_low_pct": 70.33,
+    "distance_from_high_pct": -12.56,
+    "distance_from_low_pct": 71.91,
     "high_52w": 371.7,
     "history_basis": "52_WEEK",
     "low_52w": 189.05,
-    "range_position_pct": 72.79
+    "range_position_pct": 74.43
   },
   "risk_model": {
-    "invalidation_floor": 310.73,
-    "risk_per_share": 17.71,
-    "technical_pivot": 328.44
+    "invalidation_floor": 313.62,
+    "risk_per_share": 17.88,
+    "technical_pivot": 331.5
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

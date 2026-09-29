@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 26.06,
-      "high": 26.56,
-      "low": 25.9,
-      "open": 26.28,
-      "time": "2025-09-18",
-      "volume": 364358
-    },
-    {
       "close": 26.22,
       "high": 26.38,
       "low": 25.92,
@@ -2017,13 +2009,21 @@
       "open": 29.68,
       "time": "2026-09-25",
       "volume": 239224
+    },
+    {
+      "close": 28.23,
+      "high": 29.41,
+      "low": 27.86,
+      "open": 28.99,
+      "time": "2026-09-28",
+      "volume": 532281
     }
   ],
   "company_name": "DHANLAXMI BANK LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 59,
+    "momentum_score": 54,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.58x"
+    "volume_multiplier": "1.29x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.37,
-    "change_pct": -1.25,
-    "close": 29.31,
-    "previous_close": 29.68,
+    "as_of": "2026-09-28",
+    "change": -1.08,
+    "change_pct": -3.68,
+    "close": 28.23,
+    "previous_close": 29.31,
     "type": "EOD_CLOSE",
-    "volume": 239224
+    "volume": 532281
   },
   "range": {
-    "distance_from_high_pct": -20.46,
-    "distance_from_low_pct": 50.69,
+    "distance_from_high_pct": -23.39,
+    "distance_from_low_pct": 45.14,
     "high_52w": 36.85,
     "history_basis": "52_WEEK",
     "low_52w": 19.45,
-    "range_position_pct": 56.67
+    "range_position_pct": 50.46
   },
   "risk_model": {
-    "invalidation_floor": 28.28,
-    "risk_per_share": 1.62,
-    "technical_pivot": 29.9
+    "invalidation_floor": 27.24,
+    "risk_per_share": 1.55,
+    "technical_pivot": 28.79
   },
   "schema_version": "1.0",
   "sector": null,

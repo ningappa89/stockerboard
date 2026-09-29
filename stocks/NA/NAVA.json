@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 714.6,
-      "high": 718.0,
-      "low": 701.6,
-      "open": 709.0,
-      "time": "2025-09-18",
-      "volume": 423724
-    },
-    {
       "close": 717.3,
       "high": 731.7,
       "low": 705.0,
@@ -2017,13 +2009,21 @@
       "open": 552.25,
       "time": "2026-09-25",
       "volume": 450107
+    },
+    {
+      "close": 547.0,
+      "high": 554.55,
+      "low": 543.15,
+      "open": 550.0,
+      "time": "2026-09-28",
+      "volume": 267941
     }
   ],
   "company_name": "NAVA LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 51,
+    "momentum_score": 50,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.77x"
+    "volume_multiplier": "1.12x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -5.55,
-    "change_pct": -1.0,
-    "close": 551.45,
-    "previous_close": 557.0,
+    "as_of": "2026-09-28",
+    "change": -4.45,
+    "change_pct": -0.81,
+    "close": 547.0,
+    "previous_close": 551.45,
     "type": "EOD_CLOSE",
-    "volume": 450107
+    "volume": 267941
   },
   "range": {
-    "distance_from_high_pct": -25.42,
-    "distance_from_low_pct": 9.93,
+    "distance_from_high_pct": -26.02,
+    "distance_from_low_pct": 9.04,
     "high_52w": 739.4,
     "history_basis": "52_WEEK",
     "low_52w": 501.65,
-    "range_position_pct": 20.95
+    "range_position_pct": 19.07
   },
   "risk_model": {
-    "invalidation_floor": 532.15,
-    "risk_per_share": 30.33,
-    "technical_pivot": 562.48
+    "invalidation_floor": 527.86,
+    "risk_per_share": 30.08,
+    "technical_pivot": 557.94
   },
   "schema_version": "1.0",
   "sector": null,

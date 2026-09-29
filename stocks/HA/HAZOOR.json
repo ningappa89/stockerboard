@@ -233,14 +233,22 @@
       "open": 18.53,
       "time": "2026-09-25",
       "volume": 1533958
+    },
+    {
+      "close": 18.98,
+      "high": 19.81,
+      "low": 18.72,
+      "open": 19.46,
+      "time": "2026-09-28",
+      "volume": 90116
     }
   ],
   "company_name": "HAZOOR MULTI PROJECTS LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE550F01049",
@@ -248,31 +256,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.52x"
+    "momentum_score": 66,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.15x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.83,
-    "change_pct": 4.48,
-    "close": 19.36,
-    "previous_close": 18.53,
+    "as_of": "2026-09-28",
+    "change": -0.38,
+    "change_pct": -1.96,
+    "close": 18.98,
+    "previous_close": 19.36,
     "type": "EOD_CLOSE",
-    "volume": 1533958
+    "volume": 90116
   },
   "range": {
-    "distance_from_high_pct": -13.92,
-    "distance_from_low_pct": 11.01,
+    "distance_from_high_pct": -15.61,
+    "distance_from_low_pct": 8.83,
     "high_52w": 22.49,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 17.44,
-    "range_position_pct": 38.02
+    "range_position_pct": 30.5
   },
   "risk_model": {
-    "invalidation_floor": 18.68,
-    "risk_per_share": 1.07,
-    "technical_pivot": 19.75
+    "invalidation_floor": 18.32,
+    "risk_per_share": 1.04,
+    "technical_pivot": 19.36
   },
   "schema_version": "1.0",
   "sector": null,

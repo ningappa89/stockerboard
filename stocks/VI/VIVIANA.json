@@ -657,14 +657,22 @@
       "open": 702.8,
       "time": "2026-09-25",
       "volume": 19704
+    },
+    {
+      "close": 710.65,
+      "high": 726.9,
+      "low": 705.45,
+      "open": 719.5,
+      "time": "2026-09-28",
+      "volume": 11081
     }
   ],
   "company_name": "VIVIANA POWER TECH LTD",
   "history": {
     "first_session": "2026-06-02",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 82
+    "last_session": "2026-09-28",
+    "sessions_available": 83
   },
   "industry": null,
   "isin": "INE0MEG01014",
@@ -672,31 +680,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 51,
+    "momentum_score": 50,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.86x"
+    "volume_multiplier": "0.48x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 13.3,
-    "change_pct": 1.88,
-    "close": 719.55,
-    "previous_close": 706.25,
+    "as_of": "2026-09-28",
+    "change": -8.9,
+    "change_pct": -1.24,
+    "close": 710.65,
+    "previous_close": 719.55,
     "type": "EOD_CLOSE",
-    "volume": 19704
+    "volume": 11081
   },
   "range": {
-    "distance_from_high_pct": -25.66,
-    "distance_from_low_pct": 8.86,
+    "distance_from_high_pct": -26.58,
+    "distance_from_low_pct": 7.51,
     "high_52w": 967.9,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 661.0,
-    "range_position_pct": 19.08
+    "range_position_pct": 16.18
   },
   "risk_model": {
-    "invalidation_floor": 694.37,
-    "risk_per_share": 39.57,
-    "technical_pivot": 733.94
+    "invalidation_floor": 685.78,
+    "risk_per_share": 39.08,
+    "technical_pivot": 724.86
   },
   "schema_version": "1.0",
   "sector": null,

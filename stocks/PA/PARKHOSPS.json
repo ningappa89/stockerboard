@@ -1529,14 +1529,22 @@
       "open": 284.0,
       "time": "2026-09-25",
       "volume": 722620
+    },
+    {
+      "close": 276.5,
+      "high": 287.75,
+      "low": 275.7,
+      "open": 283.7,
+      "time": "2026-09-28",
+      "volume": 352758
     }
   ],
   "company_name": "PARK MEDI WORLD LIMITED",
   "history": {
     "first_session": "2025-12-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 191
+    "last_session": "2026-09-28",
+    "sessions_available": 192
   },
   "industry": null,
   "isin": "INE119201023",
@@ -1544,31 +1552,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 80,
+    "momentum_score": 75,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.31x"
+    "volume_multiplier": "0.64x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.35,
-    "change_pct": 0.47,
-    "close": 286.35,
-    "previous_close": 285.0,
+    "as_of": "2026-09-28",
+    "change": -9.85,
+    "change_pct": -3.44,
+    "close": 276.5,
+    "previous_close": 286.35,
     "type": "EOD_CLOSE",
-    "volume": 722620
+    "volume": 352758
   },
   "range": {
-    "distance_from_high_pct": -6.11,
-    "distance_from_low_pct": 107.35,
+    "distance_from_high_pct": -9.34,
+    "distance_from_low_pct": 100.22,
     "high_52w": 305.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 138.1,
-    "range_position_pct": 88.83
+    "range_position_pct": 82.92
   },
   "risk_model": {
-    "invalidation_floor": 276.33,
-    "risk_per_share": 15.75,
-    "technical_pivot": 292.08
+    "invalidation_floor": 266.82,
+    "risk_per_share": 15.21,
+    "technical_pivot": 282.03
   },
   "schema_version": "1.0",
   "sector": null,

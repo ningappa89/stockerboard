@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 7440.5,
-      "high": 7452.0,
-      "low": 7350.0,
-      "open": 7359.5,
-      "time": "2025-09-18",
-      "volume": 184784
-    },
-    {
       "close": 7549.0,
       "high": 7568.0,
       "low": 7424.0,
@@ -2017,13 +2009,21 @@
       "open": 8394.0,
       "time": "2026-09-25",
       "volume": 296612
+    },
+    {
+      "close": 8191.0,
+      "high": 8400.0,
+      "low": 8180.0,
+      "open": 8400.0,
+      "time": "2026-09-28",
+      "volume": 274844
     }
   ],
   "company_name": "POLYCAB INDIA LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.75x"
+    "volume_multiplier": "0.69x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 42.0,
-    "change_pct": 0.5,
-    "close": 8408.5,
-    "previous_close": 8366.5,
+    "as_of": "2026-09-28",
+    "change": -217.5,
+    "change_pct": -2.59,
+    "close": 8191.0,
+    "previous_close": 8408.5,
     "type": "EOD_CLOSE",
-    "volume": 296612
+    "volume": 274844
   },
   "range": {
-    "distance_from_high_pct": -16.96,
-    "distance_from_low_pct": 26.2,
+    "distance_from_high_pct": -19.11,
+    "distance_from_low_pct": 22.93,
     "high_52w": 10126.0,
     "history_basis": "52_WEEK",
     "low_52w": 6663.0,
-    "range_position_pct": 50.4
+    "range_position_pct": 44.12
   },
   "risk_model": {
-    "invalidation_floor": 8114.2,
-    "risk_per_share": 462.47,
-    "technical_pivot": 8576.67
+    "invalidation_floor": 7904.31,
+    "risk_per_share": 450.51,
+    "technical_pivot": 8354.82
   },
   "schema_version": "1.0",
   "sector": null,

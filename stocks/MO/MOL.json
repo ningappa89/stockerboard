@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 86.69,
-      "high": 87.75,
-      "low": 84.65,
-      "open": 85.69,
-      "time": "2025-09-18",
-      "volume": 1263839
-    },
-    {
       "close": 85.99,
       "high": 87.7,
       "low": 85.8,
@@ -2017,13 +2009,21 @@
       "open": 59.9,
       "time": "2026-09-25",
       "volume": 1117006
+    },
+    {
+      "close": 56.96,
+      "high": 59.34,
+      "low": 56.73,
+      "open": 58.46,
+      "time": "2026-09-28",
+      "volume": 622304
     }
   ],
   "company_name": "Meghmani Organics Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.75x"
+    "volume_multiplier": "0.42x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.04,
-    "change_pct": -1.75,
-    "close": 58.52,
-    "previous_close": 59.56,
+    "as_of": "2026-09-28",
+    "change": -1.56,
+    "change_pct": -2.67,
+    "close": 56.96,
+    "previous_close": 58.52,
     "type": "EOD_CLOSE",
-    "volume": 1117006
+    "volume": 622304
   },
   "range": {
-    "distance_from_high_pct": -33.31,
-    "distance_from_low_pct": 60.33,
-    "high_52w": 87.75,
+    "distance_from_high_pct": -35.05,
+    "distance_from_low_pct": 56.05,
+    "high_52w": 87.7,
     "history_basis": "52_WEEK",
     "low_52w": 36.5,
-    "range_position_pct": 42.97
+    "range_position_pct": 39.96
   },
   "risk_model": {
-    "invalidation_floor": 56.47,
-    "risk_per_share": 3.22,
-    "technical_pivot": 59.69
+    "invalidation_floor": 54.97,
+    "risk_per_share": 3.13,
+    "technical_pivot": 58.1
   },
   "schema_version": "1.0",
   "sector": null,

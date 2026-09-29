@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1540.6,
-      "high": 1555.0,
-      "low": 1538.5,
-      "open": 1550.0,
-      "time": "2025-09-18",
-      "volume": 9331945
-    },
-    {
       "close": 1540.2,
       "high": 1551.3,
       "low": 1520.1,
@@ -2017,13 +2009,21 @@
       "open": 999.5,
       "time": "2026-09-25",
       "volume": 10240700
+    },
+    {
+      "close": 1003.2,
+      "high": 1009.5,
+      "low": 986.6,
+      "open": 1002.0,
+      "time": "2026-09-28",
+      "volume": 8567672
     }
   ],
   "company_name": "INFOSYS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Information Technology",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.13x"
+    "volume_multiplier": "0.95x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -14.3,
-    "change_pct": -1.41,
-    "close": 1000.2,
-    "previous_close": 1014.5,
+    "as_of": "2026-09-28",
+    "change": 3.0,
+    "change_pct": 0.3,
+    "close": 1003.2,
+    "previous_close": 1000.2,
     "type": "EOD_CLOSE",
-    "volume": 10240700
+    "volume": 8567672
   },
   "range": {
-    "distance_from_high_pct": -42.12,
-    "distance_from_low_pct": 1.81,
+    "distance_from_high_pct": -41.94,
+    "distance_from_low_pct": 2.12,
     "high_52w": 1728.0,
     "history_basis": "52_WEEK",
     "low_52w": 982.4,
-    "range_position_pct": 2.39
+    "range_position_pct": 2.79
   },
   "risk_model": {
-    "invalidation_floor": 965.19,
-    "risk_per_share": 55.01,
-    "technical_pivot": 1020.2
+    "invalidation_floor": 968.09,
+    "risk_per_share": 55.17,
+    "technical_pivot": 1023.26
   },
   "schema_version": "1.0",
   "sector": "Information Technology",

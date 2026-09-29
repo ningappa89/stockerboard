@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 750.25,
-      "high": 754.55,
-      "low": 702.1,
-      "open": 707.45,
-      "time": "2025-09-18",
-      "volume": 7046750
-    },
-    {
       "close": 733.35,
       "high": 750.0,
       "low": 727.75,
@@ -2017,13 +2009,21 @@
       "open": 659.65,
       "time": "2026-09-25",
       "volume": 268798
+    },
+    {
+      "close": 644.45,
+      "high": 670.95,
+      "low": 640.0,
+      "open": 650.0,
+      "time": "2026-09-28",
+      "volume": 499514
     }
   ],
   "company_name": "TATA INVESTMENT CORP LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.11x"
+    "volume_multiplier": "0.21x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -6.75,
-    "change_pct": -1.03,
-    "close": 651.6,
-    "previous_close": 658.35,
+    "as_of": "2026-09-28",
+    "change": -7.15,
+    "change_pct": -1.1,
+    "close": 644.45,
+    "previous_close": 651.6,
     "type": "EOD_CLOSE",
-    "volume": 268798
+    "volume": 499514
   },
   "range": {
-    "distance_from_high_pct": -45.0,
-    "distance_from_low_pct": 20.92,
+    "distance_from_high_pct": -45.6,
+    "distance_from_low_pct": 19.6,
     "high_52w": 1184.7,
     "history_basis": "52_WEEK",
     "low_52w": 538.85,
-    "range_position_pct": 17.46
+    "range_position_pct": 16.35
   },
   "risk_model": {
-    "invalidation_floor": 628.79,
-    "risk_per_share": 35.84,
-    "technical_pivot": 664.63
+    "invalidation_floor": 621.89,
+    "risk_per_share": 35.45,
+    "technical_pivot": 657.34
   },
   "schema_version": "1.0",
   "sector": null,

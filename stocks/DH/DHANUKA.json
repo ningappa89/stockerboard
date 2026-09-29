@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1562.4,
-      "high": 1578.0,
-      "low": 1552.6,
-      "open": 1570.0,
-      "time": "2025-09-18",
-      "volume": 17787
-    },
-    {
       "close": 1556.6,
       "high": 1575.0,
       "low": 1551.1,
@@ -2017,13 +2009,21 @@
       "open": 965.9,
       "time": "2026-09-25",
       "volume": 6793
+    },
+    {
+      "close": 954.4,
+      "high": 968.9,
+      "low": 951.0,
+      "open": 964.35,
+      "time": "2026-09-28",
+      "volume": 29923
     }
   ],
   "company_name": "DHANUKA AGRITECH LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.32x"
+    "volume_multiplier": "1.4x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -3.25,
-    "change_pct": -0.34,
-    "close": 964.35,
-    "previous_close": 967.6,
+    "as_of": "2026-09-28",
+    "change": -9.95,
+    "change_pct": -1.03,
+    "close": 954.4,
+    "previous_close": 964.35,
     "type": "EOD_CLOSE",
-    "volume": 6793
+    "volume": 29923
   },
   "range": {
-    "distance_from_high_pct": -40.49,
-    "distance_from_low_pct": 8.4,
+    "distance_from_high_pct": -41.1,
+    "distance_from_low_pct": 7.28,
     "high_52w": 1620.4,
     "history_basis": "52_WEEK",
     "low_52w": 889.6,
-    "range_position_pct": 10.23
+    "range_position_pct": 8.87
   },
   "risk_model": {
-    "invalidation_floor": 930.6,
-    "risk_per_share": 53.04,
-    "technical_pivot": 983.64
+    "invalidation_floor": 921.0,
+    "risk_per_share": 52.49,
+    "technical_pivot": 973.49
   },
   "schema_version": "1.0",
   "sector": null,

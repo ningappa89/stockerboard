@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 169.22,
-      "high": 173.35,
-      "low": 168.5,
-      "open": 170.61,
-      "time": "2025-09-18",
-      "volume": 91212
-    },
-    {
       "close": 168.72,
       "high": 169.9,
       "low": 168.12,
@@ -2017,13 +2009,21 @@
       "open": 166.0,
       "time": "2026-09-25",
       "volume": 106706
+    },
+    {
+      "close": 166.35,
+      "high": 171.5,
+      "low": 162.6,
+      "open": 163.99,
+      "time": "2026-09-28",
+      "volume": 282155
     }
   ],
   "company_name": "BHARAT WIRE ROPES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.78x"
+    "volume_multiplier": "1.92x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.37,
-    "change_pct": -0.22,
-    "close": 164.97,
-    "previous_close": 165.34,
+    "as_of": "2026-09-28",
+    "change": 1.38,
+    "change_pct": 0.84,
+    "close": 166.35,
+    "previous_close": 164.97,
     "type": "EOD_CLOSE",
-    "volume": 106706
+    "volume": 282155
   },
   "range": {
-    "distance_from_high_pct": -37.03,
-    "distance_from_low_pct": 11.46,
+    "distance_from_high_pct": -36.51,
+    "distance_from_low_pct": 12.39,
     "high_52w": 262.0,
     "history_basis": "52_WEEK",
     "low_52w": 148.01,
-    "range_position_pct": 14.88
+    "range_position_pct": 16.09
   },
   "risk_model": {
-    "invalidation_floor": 159.2,
-    "risk_per_share": 9.07,
-    "technical_pivot": 168.27
+    "invalidation_floor": 160.53,
+    "risk_per_share": 9.15,
+    "technical_pivot": 169.68
   },
   "schema_version": "1.0",
   "sector": null,

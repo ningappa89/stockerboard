@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 185.92,
-      "high": 192.39,
-      "low": 185.0,
-      "open": 185.0,
-      "time": "2025-09-15",
-      "volume": 5074
-    },
-    {
       "close": 188.07,
       "high": 192.4,
       "low": 185.0,
@@ -2017,13 +2009,21 @@
       "open": 226.85,
       "time": "2026-09-22",
       "volume": 327
+    },
+    {
+      "close": 227.15,
+      "high": 245.0,
+      "low": 223.25,
+      "open": 239.0,
+      "time": "2026-09-28",
+      "volume": 15250
     }
   ],
   "company_name": "ORBIT EXPORTS LIMITED",
   "history": {
-    "first_session": "2025-09-15",
+    "first_session": "2025-09-16",
     "has_full_52w_history": true,
-    "last_session": "2026-09-22",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 62,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.12x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "4.69x"
   },
   "price": {
-    "as_of": "2026-09-22",
-    "change": -1.66,
-    "change_pct": -0.72,
-    "close": 228.32,
-    "previous_close": 229.98,
+    "as_of": "2026-09-28",
+    "change": -1.17,
+    "change_pct": -0.51,
+    "close": 227.15,
+    "previous_close": 228.32,
     "type": "EOD_CLOSE",
-    "volume": 327
+    "volume": 15250
   },
   "range": {
-    "distance_from_high_pct": -18.05,
-    "distance_from_low_pct": 69.13,
+    "distance_from_high_pct": -18.47,
+    "distance_from_low_pct": 68.26,
     "high_52w": 278.61,
     "history_basis": "52_WEEK",
     "low_52w": 135.0,
-    "range_position_pct": 64.98
+    "range_position_pct": 64.17
   },
   "risk_model": {
-    "invalidation_floor": 220.33,
-    "risk_per_share": 12.56,
-    "technical_pivot": 232.89
+    "invalidation_floor": 219.2,
+    "risk_per_share": 12.49,
+    "technical_pivot": 231.69
   },
   "schema_version": "1.0",
   "sector": null,

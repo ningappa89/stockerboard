@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 13467.0,
-      "high": 13703.0,
-      "low": 13445.0,
-      "open": 13664.0,
-      "time": "2025-09-18",
-      "volume": 25665
-    },
-    {
       "close": 13206.0,
       "high": 13520.0,
       "low": 13152.0,
@@ -2017,13 +2009,21 @@
       "open": 10925.0,
       "time": "2026-09-25",
       "volume": 41708
+    },
+    {
+      "close": 10800.0,
+      "high": 10940.0,
+      "low": 10791.0,
+      "open": 10925.0,
+      "time": "2026-09-28",
+      "volume": 31440
     }
   ],
   "company_name": "BAJAJ HOLDINGS & INVS LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 59,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.96x"
+    "volume_multiplier": "0.72x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 23.0,
-    "change_pct": 0.21,
-    "close": 10940.0,
-    "previous_close": 10917.0,
+    "as_of": "2026-09-28",
+    "change": -140.0,
+    "change_pct": -1.28,
+    "close": 10800.0,
+    "previous_close": 10940.0,
     "type": "EOD_CLOSE",
-    "volume": 41708
+    "volume": 31440
   },
   "range": {
-    "distance_from_high_pct": -20.16,
-    "distance_from_low_pct": 27.39,
-    "high_52w": 13703.0,
+    "distance_from_high_pct": -20.12,
+    "distance_from_low_pct": 25.76,
+    "high_52w": 13520.0,
     "history_basis": "52_WEEK",
     "low_52w": 8588.0,
-    "range_position_pct": 45.98
+    "range_position_pct": 44.85
   },
   "risk_model": {
-    "invalidation_floor": 10557.1,
-    "risk_per_share": 601.7,
-    "technical_pivot": 11158.8
+    "invalidation_floor": 10422.0,
+    "risk_per_share": 594.0,
+    "technical_pivot": 11016.0
   },
   "schema_version": "1.0",
   "sector": null,

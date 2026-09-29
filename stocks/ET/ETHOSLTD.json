@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2400.6,
-      "high": 2425.0,
-      "low": 2390.0,
-      "open": 2410.0,
-      "time": "2025-09-18",
-      "volume": 16568
-    },
-    {
       "close": 2472.5,
       "high": 2475.0,
       "low": 2402.1,
@@ -2017,13 +2009,21 @@
       "open": 2605.0,
       "time": "2026-09-25",
       "volume": 28869
+    },
+    {
+      "close": 2518.2,
+      "high": 2566.1,
+      "low": 2490.0,
+      "open": 2565.6,
+      "time": "2026-09-28",
+      "volume": 31536
     }
   ],
   "company_name": "ETHOS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 57,
+    "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.71x"
+    "volume_multiplier": "0.76x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -52.9,
-    "change_pct": -2.03,
-    "close": 2552.8,
-    "previous_close": 2605.7,
+    "as_of": "2026-09-28",
+    "change": -34.6,
+    "change_pct": -1.36,
+    "close": 2518.2,
+    "previous_close": 2552.8,
     "type": "EOD_CLOSE",
-    "volume": 28869
+    "volume": 31536
   },
   "range": {
-    "distance_from_high_pct": -21.35,
-    "distance_from_low_pct": 33.0,
+    "distance_from_high_pct": -22.42,
+    "distance_from_low_pct": 31.2,
     "high_52w": 3245.9,
     "history_basis": "52_WEEK",
     "low_52w": 1919.4,
-    "range_position_pct": 47.75
+    "range_position_pct": 45.14
   },
   "risk_model": {
-    "invalidation_floor": 2463.45,
-    "risk_per_share": 140.41,
-    "technical_pivot": 2603.86
+    "invalidation_floor": 2430.06,
+    "risk_per_share": 138.5,
+    "technical_pivot": 2568.56
   },
   "schema_version": "1.0",
   "sector": null,

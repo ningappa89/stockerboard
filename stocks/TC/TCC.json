@@ -1153,14 +1153,22 @@
       "open": 52.27,
       "time": "2026-09-25",
       "volume": 393062
+    },
+    {
+      "close": 49.35,
+      "high": 52.11,
+      "low": 48.16,
+      "open": 52.0,
+      "time": "2026-09-28",
+      "volume": 451046
     }
   ],
   "company_name": "TCC Concept Limited",
   "history": {
     "first_session": "2026-02-25",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 144
+    "last_session": "2026-09-28",
+    "sessions_available": 145
   },
   "industry": null,
   "isin": "INE887D01024",
@@ -1170,29 +1178,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.06x"
+    "volume_multiplier": "0.07x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.88,
-    "change_pct": -1.7,
-    "close": 50.75,
-    "previous_close": 51.63,
+    "as_of": "2026-09-28",
+    "change": -1.4,
+    "change_pct": -2.76,
+    "close": 49.35,
+    "previous_close": 50.75,
     "type": "EOD_CLOSE",
-    "volume": 393062
+    "volume": 451046
   },
   "range": {
-    "distance_from_high_pct": -51.8,
-    "distance_from_low_pct": 28.91,
+    "distance_from_high_pct": -53.12,
+    "distance_from_low_pct": 25.35,
     "high_52w": 105.28,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 39.37,
-    "range_position_pct": 17.27
+    "range_position_pct": 15.14
   },
   "risk_model": {
-    "invalidation_floor": 48.97,
-    "risk_per_share": 2.8,
-    "technical_pivot": 51.77
+    "invalidation_floor": 47.62,
+    "risk_per_share": 2.72,
+    "technical_pivot": 50.34
   },
   "schema_version": "1.0",
   "sector": null,

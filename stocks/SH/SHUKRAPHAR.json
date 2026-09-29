@@ -241,46 +241,54 @@
       "open": 56.79,
       "time": "2026-09-25",
       "volume": 1803626
+    },
+    {
+      "close": 59.43,
+      "high": 60.49,
+      "low": 56.0,
+      "open": 56.7,
+      "time": "2026-09-28",
+      "volume": 15642105
     }
   ],
   "company_name": "Shukra Pharmaceuticals Limited",
   "history": {
     "first_session": "2026-08-14",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 30
+    "last_session": "2026-09-28",
+    "sessions_available": 31
   },
   "industry": null,
   "isin": "INE551C01044",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": false,
+    "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 80,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "momentum_score": 87,
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "4.18x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.17,
-    "change_pct": 0.3,
-    "close": 55.93,
-    "previous_close": 55.76,
+    "as_of": "2026-09-28",
+    "change": 3.5,
+    "change_pct": 6.26,
+    "close": 59.43,
+    "previous_close": 55.93,
     "type": "EOD_CLOSE",
-    "volume": 1803626
+    "volume": 15642105
   },
   "range": {
-    "distance_from_high_pct": -6.47,
-    "distance_from_low_pct": 39.62,
-    "high_52w": 59.8,
+    "distance_from_high_pct": -1.75,
+    "distance_from_low_pct": 48.35,
+    "high_52w": 60.49,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 40.06,
-    "range_position_pct": 80.4
+    "range_position_pct": 94.81
   },
   "risk_model": {
-    "invalidation_floor": 53.97,
-    "risk_per_share": 3.08,
-    "technical_pivot": 57.05
+    "invalidation_floor": 57.35,
+    "risk_per_share": 3.27,
+    "technical_pivot": 60.62
   },
   "schema_version": "1.0",
   "sector": null,

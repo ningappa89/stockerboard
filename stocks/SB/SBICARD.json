@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 891.7,
-      "high": 895.8,
-      "low": 878.0,
-      "open": 890.0,
-      "time": "2025-09-18",
-      "volume": 1757116
-    },
-    {
       "close": 871.65,
       "high": 897.2,
       "low": 869.5,
@@ -2017,13 +2009,21 @@
       "open": 617.0,
       "time": "2026-09-25",
       "volume": 1310548
+    },
+    {
+      "close": 591.0,
+      "high": 610.0,
+      "low": 590.5,
+      "open": 608.55,
+      "time": "2026-09-28",
+      "volume": 1388562
     }
   ],
   "company_name": "SBI CARDS AND PAYMENT SERVICES",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.43x"
+    "volume_multiplier": "0.45x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -7.2,
-    "change_pct": -1.16,
-    "close": 611.2,
-    "previous_close": 618.4,
+    "as_of": "2026-09-28",
+    "change": -20.2,
+    "change_pct": -3.3,
+    "close": 591.0,
+    "previous_close": 611.2,
     "type": "EOD_CLOSE",
-    "volume": 1310548
+    "volume": 1388562
   },
   "range": {
-    "distance_from_high_pct": -36.66,
-    "distance_from_low_pct": 8.09,
+    "distance_from_high_pct": -38.76,
+    "distance_from_low_pct": 4.52,
     "high_52w": 965.0,
     "history_basis": "52_WEEK",
     "low_52w": 565.45,
-    "range_position_pct": 11.45
+    "range_position_pct": 6.39
   },
   "risk_model": {
-    "invalidation_floor": 589.81,
-    "risk_per_share": 33.61,
-    "technical_pivot": 623.42
+    "invalidation_floor": 570.31,
+    "risk_per_share": 32.51,
+    "technical_pivot": 602.82
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

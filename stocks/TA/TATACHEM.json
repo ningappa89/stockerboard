@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 989.25,
-      "high": 1008.15,
-      "low": 986.65,
-      "open": 1007.2,
-      "time": "2025-09-18",
-      "volume": 606064
-    },
-    {
       "close": 993.6,
       "high": 1001.8,
       "low": 983.05,
@@ -2017,13 +2009,21 @@
       "open": 654.65,
       "time": "2026-09-25",
       "volume": 1131484
+    },
+    {
+      "close": 641.45,
+      "high": 676.4,
+      "low": 635.6,
+      "open": 644.9,
+      "time": "2026-09-28",
+      "volume": 2286959
     }
   ],
   "company_name": "TATA CHEMICALS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Chemicals",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.32x"
+    "volume_multiplier": "0.64x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -8.45,
-    "change_pct": -1.3,
-    "close": 643.75,
-    "previous_close": 652.2,
+    "as_of": "2026-09-28",
+    "change": -2.3,
+    "change_pct": -0.36,
+    "close": 641.45,
+    "previous_close": 643.75,
     "type": "EOD_CLOSE",
-    "volume": 1131484
+    "volume": 2286959
   },
   "range": {
-    "distance_from_high_pct": -36.15,
-    "distance_from_low_pct": 10.93,
-    "high_52w": 1008.15,
+    "distance_from_high_pct": -35.97,
+    "distance_from_low_pct": 10.54,
+    "high_52w": 1001.8,
     "history_basis": "52_WEEK",
     "low_52w": 580.3,
-    "range_position_pct": 14.83
+    "range_position_pct": 14.51
   },
   "risk_model": {
-    "invalidation_floor": 621.22,
-    "risk_per_share": 35.4,
-    "technical_pivot": 656.62
+    "invalidation_floor": 619.0,
+    "risk_per_share": 35.28,
+    "technical_pivot": 654.28
   },
   "schema_version": "1.0",
   "sector": "Chemicals",

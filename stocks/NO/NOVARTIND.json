@@ -889,14 +889,22 @@
       "open": 1990.0,
       "time": "2026-09-25",
       "volume": 17098
+    },
+    {
+      "close": 1935.0,
+      "high": 2035.0,
+      "low": 1922.0,
+      "open": 1965.0,
+      "time": "2026-09-28",
+      "volume": 38334
     }
   ],
   "company_name": "NOVARTIS INDIA LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE234A01025",
@@ -904,31 +912,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 53,
+    "momentum_score": 52,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.07x"
+    "volume_multiplier": "0.15x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -5.8,
-    "change_pct": -0.29,
-    "close": 1965.6,
-    "previous_close": 1971.4,
+    "as_of": "2026-09-28",
+    "change": -30.6,
+    "change_pct": -1.56,
+    "close": 1935.0,
+    "previous_close": 1965.6,
     "type": "EOD_CLOSE",
-    "volume": 17098
+    "volume": 38334
   },
   "range": {
-    "distance_from_high_pct": -24.07,
-    "distance_from_low_pct": 106.91,
+    "distance_from_high_pct": -25.25,
+    "distance_from_low_pct": 103.68,
     "high_52w": 2588.8,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 950.0,
-    "range_position_pct": 61.97
+    "range_position_pct": 60.1
   },
   "risk_model": {
-    "invalidation_floor": 1896.8,
-    "risk_per_share": 108.11,
-    "technical_pivot": 2004.91
+    "invalidation_floor": 1867.27,
+    "risk_per_share": 106.43,
+    "technical_pivot": 1973.7
   },
   "schema_version": "1.0",
   "sector": null,

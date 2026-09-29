@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 270.56,
-      "high": 275.0,
-      "low": 269.79,
-      "open": 273.9,
-      "time": "2025-09-18",
-      "volume": 450948
-    },
-    {
       "close": 272.47,
       "high": 273.52,
       "low": 269.0,
@@ -2017,13 +2009,21 @@
       "open": 201.5,
       "time": "2026-09-25",
       "volume": 342582
+    },
+    {
+      "close": 196.11,
+      "high": 199.21,
+      "low": 195.01,
+      "open": 199.0,
+      "time": "2026-09-28",
+      "volume": 286377
     }
   ],
   "company_name": "RITES LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 47,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.01x"
+    "volume_multiplier": "0.84x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.43,
-    "change_pct": -1.2,
-    "close": 199.31,
-    "previous_close": 201.74,
+    "as_of": "2026-09-28",
+    "change": -3.2,
+    "change_pct": -1.61,
+    "close": 196.11,
+    "previous_close": 199.31,
     "type": "EOD_CLOSE",
-    "volume": 342582
+    "volume": 286377
   },
   "range": {
-    "distance_from_high_pct": -27.52,
-    "distance_from_low_pct": 13.89,
-    "high_52w": 275.0,
+    "distance_from_high_pct": -28.3,
+    "distance_from_low_pct": 12.06,
+    "high_52w": 273.52,
     "history_basis": "52_WEEK",
     "low_52w": 175.0,
-    "range_position_pct": 24.31
+    "range_position_pct": 21.43
   },
   "risk_model": {
-    "invalidation_floor": 192.33,
-    "risk_per_share": 10.97,
-    "technical_pivot": 203.3
+    "invalidation_floor": 189.25,
+    "risk_per_share": 10.78,
+    "technical_pivot": 200.03
   },
   "schema_version": "1.0",
   "sector": null,

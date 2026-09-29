@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 321.15,
-      "high": 334.0,
-      "low": 319.85,
-      "open": 321.0,
-      "time": "2025-09-18",
-      "volume": 1899418
-    },
-    {
       "close": 312.25,
       "high": 324.5,
       "low": 310.9,
@@ -2017,13 +2009,21 @@
       "open": 193.4,
       "time": "2026-09-25",
       "volume": 162257
+    },
+    {
+      "close": 184.41,
+      "high": 191.13,
+      "low": 184.0,
+      "open": 190.01,
+      "time": "2026-09-28",
+      "volume": 251940
     }
   ],
   "company_name": "CAPACITE INFRAPROJECT LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.54x"
+    "volume_multiplier": "0.85x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.43,
-    "change_pct": -0.74,
-    "close": 191.14,
-    "previous_close": 192.57,
+    "as_of": "2026-09-28",
+    "change": -6.73,
+    "change_pct": -3.52,
+    "close": 184.41,
+    "previous_close": 191.14,
     "type": "EOD_CLOSE",
-    "volume": 162257
+    "volume": 251940
   },
   "range": {
-    "distance_from_high_pct": -42.77,
-    "distance_from_low_pct": 6.19,
-    "high_52w": 334.0,
+    "distance_from_high_pct": -43.17,
+    "distance_from_low_pct": 2.45,
+    "high_52w": 324.5,
     "history_basis": "52_WEEK",
     "low_52w": 180.0,
-    "range_position_pct": 7.23
+    "range_position_pct": 3.05
   },
   "risk_model": {
-    "invalidation_floor": 184.45,
-    "risk_per_share": 10.51,
-    "technical_pivot": 194.96
+    "invalidation_floor": 177.96,
+    "risk_per_share": 10.14,
+    "technical_pivot": 188.1
   },
   "schema_version": "1.0",
   "sector": null,

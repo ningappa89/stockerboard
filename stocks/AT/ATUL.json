@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 6545.0,
-      "high": 6581.5,
-      "low": 6481.5,
-      "open": 6550.0,
-      "time": "2025-09-18",
-      "volume": 31160
-    },
-    {
       "close": 6341.0,
       "high": 6569.5,
       "low": 6291.0,
@@ -2017,13 +2009,21 @@
       "open": 6164.0,
       "time": "2026-09-25",
       "volume": 15678
+    },
+    {
+      "close": 5991.0,
+      "high": 6070.0,
+      "low": 5941.0,
+      "open": 6070.0,
+      "time": "2026-09-28",
+      "volume": 22706
     }
   ],
   "company_name": "ATUL LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Chemicals",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.57x"
+    "volume_multiplier": "0.84x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -65.0,
-    "change_pct": -1.06,
-    "close": 6070.5,
-    "previous_close": 6135.5,
+    "as_of": "2026-09-28",
+    "change": -79.5,
+    "change_pct": -1.31,
+    "close": 5991.0,
+    "previous_close": 6070.5,
     "type": "EOD_CLOSE",
-    "volume": 15678
+    "volume": 22706
   },
   "range": {
-    "distance_from_high_pct": -15.45,
-    "distance_from_low_pct": 9.17,
+    "distance_from_high_pct": -16.56,
+    "distance_from_low_pct": 7.74,
     "high_52w": 7180.0,
     "history_basis": "52_WEEK",
     "low_52w": 5560.5,
-    "range_position_pct": 31.49
+    "range_position_pct": 26.58
   },
   "risk_model": {
-    "invalidation_floor": 5858.03,
-    "risk_per_share": 333.88,
-    "technical_pivot": 6191.91
+    "invalidation_floor": 5781.31,
+    "risk_per_share": 329.51,
+    "technical_pivot": 6110.82
   },
   "schema_version": "1.0",
   "sector": "Chemicals",

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 727.4,
-      "high": 741.8,
-      "low": 726.15,
-      "open": 741.6,
-      "time": "2025-09-18",
-      "volume": 162038
-    },
-    {
       "close": 717.55,
       "high": 731.15,
       "low": 715.0,
@@ -2017,13 +2009,21 @@
       "open": 524.9,
       "time": "2026-09-25",
       "volume": 199080
+    },
+    {
+      "close": 541.3,
+      "high": 543.25,
+      "low": 520.25,
+      "open": 526.0,
+      "time": "2026-09-28",
+      "volume": 165833
     }
   ],
   "company_name": "Vedant Fashions Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
+    "momentum_score": 44,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.5x"
+    "volume_multiplier": "0.42x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 8.05,
-    "change_pct": 1.53,
-    "close": 532.5,
-    "previous_close": 524.45,
+    "as_of": "2026-09-28",
+    "change": 8.8,
+    "change_pct": 1.65,
+    "close": 541.3,
+    "previous_close": 532.5,
     "type": "EOD_CLOSE",
-    "volume": 199080
+    "volume": 165833
   },
   "range": {
-    "distance_from_high_pct": -31.64,
-    "distance_from_low_pct": 61.76,
+    "distance_from_high_pct": -30.51,
+    "distance_from_low_pct": 64.43,
     "high_52w": 779.0,
     "history_basis": "52_WEEK",
     "low_52w": 329.2,
-    "range_position_pct": 45.2
+    "range_position_pct": 47.15
   },
   "risk_model": {
-    "invalidation_floor": 513.86,
-    "risk_per_share": 29.29,
-    "technical_pivot": 543.15
+    "invalidation_floor": 522.35,
+    "risk_per_share": 29.78,
+    "technical_pivot": 552.13
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 142.44,
-      "high": 144.76,
-      "low": 140.03,
-      "open": 143.99,
-      "time": "2025-09-18",
-      "volume": 496808
-    },
-    {
       "close": 144.34,
       "high": 145.83,
       "low": 141.57,
@@ -2017,13 +2009,21 @@
       "open": 94.3,
       "time": "2026-09-25",
       "volume": 179760
+    },
+    {
+      "close": 92.75,
+      "high": 95.3,
+      "low": 92.0,
+      "open": 94.77,
+      "time": "2026-09-28",
+      "volume": 163956
     }
   ],
   "company_name": "Western Carriers (India) Limit",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.94x"
+    "volume_multiplier": "0.84x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.01,
-    "change_pct": -1.05,
-    "close": 94.77,
-    "previous_close": 95.78,
+    "as_of": "2026-09-28",
+    "change": -2.02,
+    "change_pct": -2.13,
+    "close": 92.75,
+    "previous_close": 94.77,
     "type": "EOD_CLOSE",
-    "volume": 179760
+    "volume": 163956
   },
   "range": {
-    "distance_from_high_pct": -35.66,
-    "distance_from_low_pct": 23.05,
+    "distance_from_high_pct": -37.03,
+    "distance_from_low_pct": 20.42,
     "high_52w": 147.29,
     "history_basis": "52_WEEK",
     "low_52w": 77.02,
-    "range_position_pct": 25.26
+    "range_position_pct": 22.39
   },
   "risk_model": {
-    "invalidation_floor": 91.45,
-    "risk_per_share": 5.22,
-    "technical_pivot": 96.67
+    "invalidation_floor": 89.5,
+    "risk_per_share": 5.11,
+    "technical_pivot": 94.61
   },
   "schema_version": "1.0",
   "sector": null,

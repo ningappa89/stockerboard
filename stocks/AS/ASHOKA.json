@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 194.27,
-      "high": 196.9,
-      "low": 193.09,
-      "open": 194.0,
-      "time": "2025-09-18",
-      "volume": 819878
-    },
-    {
       "close": 194.8,
       "high": 196.0,
       "low": 191.14,
@@ -2017,13 +2009,21 @@
       "open": 113.05,
       "time": "2026-09-25",
       "volume": 295342
+    },
+    {
+      "close": 110.17,
+      "high": 112.78,
+      "low": 109.8,
+      "open": 112.5,
+      "time": "2026-09-28",
+      "volume": 537264
     }
   ],
   "company_name": "ASHOKA BUILDCON LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.05x"
+    "volume_multiplier": "0.09x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.07,
-    "change_pct": 0.06,
-    "close": 113.12,
-    "previous_close": 113.05,
+    "as_of": "2026-09-28",
+    "change": -2.95,
+    "change_pct": -2.61,
+    "close": 110.17,
+    "previous_close": 113.12,
     "type": "EOD_CLOSE",
-    "volume": 295342
+    "volume": 537264
   },
   "range": {
-    "distance_from_high_pct": -47.26,
-    "distance_from_low_pct": 12.0,
+    "distance_from_high_pct": -48.64,
+    "distance_from_low_pct": 9.08,
     "high_52w": 214.5,
     "history_basis": "52_WEEK",
     "low_52w": 101.0,
-    "range_position_pct": 10.68
+    "range_position_pct": 8.08
   },
   "risk_model": {
-    "invalidation_floor": 109.16,
-    "risk_per_share": 6.22,
-    "technical_pivot": 115.38
+    "invalidation_floor": 106.31,
+    "risk_per_share": 6.06,
+    "technical_pivot": 112.37
   },
   "schema_version": "1.0",
   "sector": null,

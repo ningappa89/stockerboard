@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3546.6,
-      "high": 3552.5,
-      "low": 3491.1,
-      "open": 3518.8,
-      "time": "2025-09-18",
-      "volume": 637171
-    },
-    {
       "close": 3529.4,
       "high": 3546.0,
       "low": 3515.7,
@@ -2017,13 +2009,21 @@
       "open": 4075.0,
       "time": "2026-09-25",
       "volume": 411326
+    },
+    {
+      "close": 4095.0,
+      "high": 4164.0,
+      "low": 4057.6,
+      "open": 4140.0,
+      "time": "2026-09-28",
+      "volume": 574256
     }
   ],
   "company_name": "TVS MOTOR COMPANY  LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Automobile and Auto Components",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 79,
+    "momentum_score": 76,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.46x"
+    "volume_multiplier": "0.72x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 66.3,
-    "change_pct": 1.62,
-    "close": 4157.3,
-    "previous_close": 4091.0,
+    "as_of": "2026-09-28",
+    "change": -62.3,
+    "change_pct": -1.5,
+    "close": 4095.0,
+    "previous_close": 4157.3,
     "type": "EOD_CLOSE",
-    "volume": 411326
+    "volume": 574256
   },
   "range": {
-    "distance_from_high_pct": -7.3,
-    "distance_from_low_pct": 28.79,
+    "distance_from_high_pct": -8.69,
+    "distance_from_low_pct": 26.86,
     "high_52w": 4484.5,
     "history_basis": "52_WEEK",
     "low_52w": 3228.0,
-    "range_position_pct": 73.96
+    "range_position_pct": 69.0
   },
   "risk_model": {
-    "invalidation_floor": 4011.79,
-    "risk_per_share": 228.66,
-    "technical_pivot": 4240.45
+    "invalidation_floor": 3951.67,
+    "risk_per_share": 225.23,
+    "technical_pivot": 4176.9
   },
   "schema_version": "1.0",
   "sector": "Automobile and Auto Components",

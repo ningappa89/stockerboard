@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 14.08,
-      "high": 14.19,
-      "low": 13.89,
-      "open": 13.9,
-      "time": "2025-09-18",
-      "volume": 2023
-    },
-    {
       "close": 13.9,
       "high": 14.18,
       "low": 13.68,
@@ -2017,13 +2009,21 @@
       "open": 10.8,
       "time": "2026-09-25",
       "volume": 1300
+    },
+    {
+      "close": 10.8,
+      "high": 10.85,
+      "low": 10.3,
+      "open": 10.3,
+      "time": "2026-09-28",
+      "volume": 677
     }
   ],
   "company_name": "GLOBALE TESSILE LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 43,
+    "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.31x"
+    "volume_multiplier": "0.16x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.21,
-    "change_pct": -1.94,
-    "close": 10.59,
-    "previous_close": 10.8,
+    "as_of": "2026-09-28",
+    "change": 0.21,
+    "change_pct": 1.98,
+    "close": 10.8,
+    "previous_close": 10.59,
     "type": "EOD_CLOSE",
-    "volume": 1300
+    "volume": 677
   },
   "range": {
-    "distance_from_high_pct": -31.23,
-    "distance_from_low_pct": 15.11,
+    "distance_from_high_pct": -29.87,
+    "distance_from_low_pct": 17.39,
     "high_52w": 15.4,
     "history_basis": "52_WEEK",
     "low_52w": 9.2,
-    "range_position_pct": 22.42
+    "range_position_pct": 25.81
   },
   "risk_model": {
-    "invalidation_floor": 10.22,
-    "risk_per_share": 0.58,
-    "technical_pivot": 10.8
+    "invalidation_floor": 10.42,
+    "risk_per_share": 0.6,
+    "technical_pivot": 11.02
   },
   "schema_version": "1.0",
   "sector": null,

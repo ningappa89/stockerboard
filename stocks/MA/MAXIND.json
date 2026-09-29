@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 206.98,
-      "high": 218.7,
-      "low": 206.0,
-      "open": 212.1,
-      "time": "2025-09-18",
-      "volume": 68744
-    },
-    {
       "close": 206.19,
       "high": 209.99,
       "low": 205.55,
@@ -2017,13 +2009,21 @@
       "open": 147.73,
       "time": "2026-09-25",
       "volume": 16908
+    },
+    {
+      "close": 155.35,
+      "high": 157.8,
+      "low": 142.16,
+      "open": 146.11,
+      "time": "2026-09-28",
+      "volume": 133306
     }
   ],
   "company_name": "Max India Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.29x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.1x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.77,
-    "change_pct": -0.52,
-    "close": 148.45,
-    "previous_close": 149.22,
+    "as_of": "2026-09-28",
+    "change": 6.9,
+    "change_pct": 4.65,
+    "close": 155.35,
+    "previous_close": 148.45,
     "type": "EOD_CLOSE",
-    "volume": 16908
+    "volume": 133306
   },
   "range": {
-    "distance_from_high_pct": -38.55,
-    "distance_from_low_pct": 23.71,
+    "distance_from_high_pct": -35.69,
+    "distance_from_low_pct": 29.46,
     "high_52w": 241.57,
     "history_basis": "52_WEEK",
     "low_52w": 120.0,
-    "range_position_pct": 23.4
+    "range_position_pct": 29.08
   },
   "risk_model": {
-    "invalidation_floor": 143.25,
-    "risk_per_share": 8.17,
-    "technical_pivot": 151.42
+    "invalidation_floor": 149.91,
+    "risk_per_share": 8.55,
+    "technical_pivot": 158.46
   },
   "schema_version": "1.0",
   "sector": null,

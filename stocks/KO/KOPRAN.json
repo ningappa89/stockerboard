@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 172.76,
-      "high": 177.35,
-      "low": 171.25,
-      "open": 176.2,
-      "time": "2025-09-18",
-      "volume": 210212
-    },
-    {
       "close": 172.42,
       "high": 176.08,
       "low": 170.25,
@@ -2017,46 +2009,54 @@
       "open": 271.8,
       "time": "2026-09-25",
       "volume": 662546
+    },
+    {
+      "close": 277.97,
+      "high": 293.5,
+      "low": 274.77,
+      "open": 285.0,
+      "time": "2026-09-28",
+      "volume": 1132745
     }
   ],
   "company_name": "KOPRAN LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE082A01010",
   "metrics": {
-    "is_breakout": true,
-    "is_coiled": true,
+    "is_breakout": false,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 88,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.28x"
+    "momentum_score": 82,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.46x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 13.72,
-    "change_pct": 5.07,
-    "close": 284.53,
-    "previous_close": 270.81,
+    "as_of": "2026-09-28",
+    "change": -6.56,
+    "change_pct": -2.31,
+    "close": 277.97,
+    "previous_close": 284.53,
     "type": "EOD_CLOSE",
-    "volume": 662546
+    "volume": 1132745
   },
   "range": {
-    "distance_from_high_pct": -0.93,
-    "distance_from_low_pct": 165.92,
-    "high_52w": 287.2,
+    "distance_from_high_pct": -5.29,
+    "distance_from_low_pct": 159.79,
+    "high_52w": 293.5,
     "history_basis": "52_WEEK",
     "low_52w": 107.0,
-    "range_position_pct": 98.52
+    "range_position_pct": 91.67
   },
   "risk_model": {
-    "invalidation_floor": 274.57,
-    "risk_per_share": 12.24,
-    "technical_pivot": 286.81
+    "invalidation_floor": 268.24,
+    "risk_per_share": 15.29,
+    "technical_pivot": 283.53
   },
   "schema_version": "1.0",
   "sector": null,

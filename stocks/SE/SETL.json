@@ -1361,46 +1361,54 @@
       "open": 402.8,
       "time": "2026-09-25",
       "volume": 500272
+    },
+    {
+      "close": 422.65,
+      "high": 422.65,
+      "low": 394.0,
+      "open": 402.05,
+      "time": "2026-09-28",
+      "volume": 974559
     }
   ],
   "company_name": "STANDARD ENGINEERING TECHNOLOG",
   "history": {
     "first_session": "2026-01-19",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 170
+    "last_session": "2026-09-28",
+    "sessions_available": 171
   },
   "industry": null,
   "isin": "INE0M4D01010",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 68,
+    "is_stage2": true,
+    "momentum_score": 75,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.45x"
+    "volume_multiplier": "0.86x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.25,
-    "change_pct": -0.06,
-    "close": 402.55,
-    "previous_close": 402.8,
+    "as_of": "2026-09-28",
+    "change": 20.1,
+    "change_pct": 4.99,
+    "close": 422.65,
+    "previous_close": 402.55,
     "type": "EOD_CLOSE",
-    "volume": 500272
+    "volume": 974559
   },
   "range": {
-    "distance_from_high_pct": -14.01,
-    "distance_from_low_pct": 284.99,
+    "distance_from_high_pct": -9.72,
+    "distance_from_low_pct": 304.22,
     "high_52w": 468.15,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 104.56,
-    "range_position_pct": 81.96
+    "range_position_pct": 87.49
   },
   "risk_model": {
-    "invalidation_floor": 388.46,
-    "risk_per_share": 22.14,
-    "technical_pivot": 410.6
+    "invalidation_floor": 407.86,
+    "risk_per_share": 23.24,
+    "technical_pivot": 431.1
   },
   "schema_version": "1.0",
   "sector": null,

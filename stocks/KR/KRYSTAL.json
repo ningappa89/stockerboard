@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 662.45,
-      "high": 675.8,
-      "low": 660.0,
-      "open": 672.4,
-      "time": "2025-09-18",
-      "volume": 17471
-    },
-    {
       "close": 653.5,
       "high": 669.95,
       "low": 651.0,
@@ -2017,13 +2009,21 @@
       "open": 639.35,
       "time": "2026-09-25",
       "volume": 6661
+    },
+    {
+      "close": 621.65,
+      "high": 635.0,
+      "low": 615.1,
+      "open": 634.55,
+      "time": "2026-09-28",
+      "volume": 8467
     }
   ],
   "company_name": "KRYSTAL INTEGRATED SER L",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 75,
+    "momentum_score": 73,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.19x"
+    "volume_multiplier": "0.24x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -5.95,
-    "change_pct": -0.93,
-    "close": 631.55,
-    "previous_close": 637.5,
+    "as_of": "2026-09-28",
+    "change": -9.9,
+    "change_pct": -1.57,
+    "close": 621.65,
+    "previous_close": 631.55,
     "type": "EOD_CLOSE",
-    "volume": 6661
+    "volume": 8467
   },
   "range": {
-    "distance_from_high_pct": -9.38,
-    "distance_from_low_pct": 26.31,
+    "distance_from_high_pct": -10.8,
+    "distance_from_low_pct": 24.33,
     "high_52w": 696.9,
     "history_basis": "52_WEEK",
     "low_52w": 500.0,
-    "range_position_pct": 66.81
+    "range_position_pct": 61.78
   },
   "risk_model": {
-    "invalidation_floor": 609.45,
-    "risk_per_share": 34.73,
-    "technical_pivot": 644.18
+    "invalidation_floor": 599.89,
+    "risk_per_share": 34.19,
+    "technical_pivot": 634.08
   },
   "schema_version": "1.0",
   "sector": null,

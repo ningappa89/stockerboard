@@ -233,46 +233,54 @@
       "open": 1361.1,
       "time": "2026-09-25",
       "volume": 64955
+    },
+    {
+      "close": 1387.0,
+      "high": 1399.0,
+      "low": 1342.0,
+      "open": 1356.3,
+      "time": "2026-09-28",
+      "volume": 44054
     }
   ],
   "company_name": "Fredun Pharmaceuticals Limited",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE194R01017",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 67,
+    "is_stage2": true,
+    "momentum_score": 70,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.0x"
+    "volume_multiplier": "0.66x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -3.7,
-    "change_pct": -0.27,
-    "close": 1356.6,
-    "previous_close": 1360.3,
+    "as_of": "2026-09-28",
+    "change": 30.4,
+    "change_pct": 2.24,
+    "close": 1387.0,
+    "previous_close": 1356.6,
     "type": "EOD_CLOSE",
-    "volume": 64955
+    "volume": 44054
   },
   "range": {
-    "distance_from_high_pct": -14.68,
-    "distance_from_low_pct": 13.5,
+    "distance_from_high_pct": -12.77,
+    "distance_from_low_pct": 16.05,
     "high_52w": 1590.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 1195.2,
-    "range_position_pct": 40.88
+    "range_position_pct": 48.58
   },
   "risk_model": {
-    "invalidation_floor": 1309.12,
-    "risk_per_share": 74.61,
-    "technical_pivot": 1383.73
+    "invalidation_floor": 1338.45,
+    "risk_per_share": 76.29,
+    "technical_pivot": 1414.74
   },
   "schema_version": "1.0",
   "sector": null,

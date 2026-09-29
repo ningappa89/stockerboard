@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 535.35,
-      "high": 543.0,
-      "low": 532.6,
-      "open": 535.0,
-      "time": "2025-09-18",
-      "volume": 476811
-    },
-    {
       "close": 531.6,
       "high": 540.7,
       "low": 530.2,
@@ -2017,13 +2009,21 @@
       "open": 451.9,
       "time": "2026-09-25",
       "volume": 219110
+    },
+    {
+      "close": 452.85,
+      "high": 458.85,
+      "low": 450.3,
+      "open": 458.0,
+      "time": "2026-09-28",
+      "volume": 354792
     }
   ],
   "company_name": "BERGER PAINTS (I) LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 55,
+    "momentum_score": 54,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "0.95x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 8.95,
-    "change_pct": 1.99,
-    "close": 458.35,
-    "previous_close": 449.4,
+    "as_of": "2026-09-28",
+    "change": -5.5,
+    "change_pct": -1.2,
+    "close": 452.85,
+    "previous_close": 458.35,
     "type": "EOD_CLOSE",
-    "volume": 219110
+    "volume": 354792
   },
   "range": {
-    "distance_from_high_pct": -22.91,
-    "distance_from_low_pct": 17.2,
+    "distance_from_high_pct": -23.83,
+    "distance_from_low_pct": 15.79,
     "high_52w": 594.55,
     "history_basis": "52_WEEK",
     "low_52w": 391.1,
-    "range_position_pct": 33.05
+    "range_position_pct": 30.35
   },
   "risk_model": {
-    "invalidation_floor": 442.31,
-    "risk_per_share": 25.21,
-    "technical_pivot": 467.52
+    "invalidation_floor": 437.0,
+    "risk_per_share": 24.91,
+    "technical_pivot": 461.91
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 266.63,
-      "high": 278.5,
-      "low": 261.92,
-      "open": 263.0,
-      "time": "2025-09-18",
-      "volume": 383699
-    },
-    {
       "close": 264.98,
       "high": 268.0,
       "low": 263.6,
@@ -2017,13 +2009,21 @@
       "open": 226.73,
       "time": "2026-09-25",
       "volume": 97580
+    },
+    {
+      "close": 228.35,
+      "high": 229.01,
+      "low": 221.1,
+      "open": 225.5,
+      "time": "2026-09-28",
+      "volume": 192055
     }
   ],
   "company_name": "Spandana Sphoorty Financial Li",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 45,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.11x"
+    "momentum_score": 47,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.04x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.08,
-    "change_pct": -0.04,
-    "close": 225.53,
-    "previous_close": 225.61,
+    "as_of": "2026-09-28",
+    "change": 2.82,
+    "change_pct": 1.25,
+    "close": 228.35,
+    "previous_close": 225.53,
     "type": "EOD_CLOSE",
-    "volume": 97580
+    "volume": 192055
   },
   "range": {
-    "distance_from_high_pct": -29.39,
-    "distance_from_low_pct": 24.53,
+    "distance_from_high_pct": -28.51,
+    "distance_from_low_pct": 26.09,
     "high_52w": 319.4,
     "history_basis": "52_WEEK",
     "low_52w": 181.1,
-    "range_position_pct": 32.13
+    "range_position_pct": 34.16
   },
   "risk_model": {
-    "invalidation_floor": 217.64,
-    "risk_per_share": 12.4,
-    "technical_pivot": 230.04
+    "invalidation_floor": 220.36,
+    "risk_per_share": 12.56,
+    "technical_pivot": 232.92
   },
   "schema_version": "1.0",
   "sector": null,

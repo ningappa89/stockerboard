@@ -233,14 +233,22 @@
       "open": 151.0,
       "time": "2026-09-25",
       "volume": 3654
+    },
+    {
+      "close": 150.9,
+      "high": 158.0,
+      "low": 143.06,
+      "open": 151.99,
+      "time": "2026-09-28",
+      "volume": 19528
     }
   ],
   "company_name": "SHRADDHA PRIME PROJECTS LTD",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE311M01018",
@@ -248,31 +256,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 63,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.47x"
+    "momentum_score": 66,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.81x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -3.52,
-    "change_pct": -2.34,
-    "close": 146.97,
-    "previous_close": 150.49,
+    "as_of": "2026-09-28",
+    "change": 3.93,
+    "change_pct": 2.67,
+    "close": 150.9,
+    "previous_close": 146.97,
     "type": "EOD_CLOSE",
-    "volume": 3654
+    "volume": 19528
   },
   "range": {
-    "distance_from_high_pct": -17.89,
-    "distance_from_low_pct": 3.5,
+    "distance_from_high_pct": -15.7,
+    "distance_from_low_pct": 6.27,
     "high_52w": 179.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 142.0,
-    "range_position_pct": 13.43
+    "range_position_pct": 24.05
   },
   "risk_model": {
-    "invalidation_floor": 141.83,
-    "risk_per_share": 8.08,
-    "technical_pivot": 149.91
+    "invalidation_floor": 145.62,
+    "risk_per_share": 8.3,
+    "technical_pivot": 153.92
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 71.24,
-      "high": 72.49,
-      "low": 70.15,
-      "open": 72.49,
-      "time": "2025-09-17",
-      "volume": 7962
-    },
-    {
       "close": 71.14,
       "high": 71.82,
       "low": 70.8,
@@ -2017,13 +2009,21 @@
       "open": 62.87,
       "time": "2026-09-25",
       "volume": 1529
+    },
+    {
+      "close": 60.55,
+      "high": 60.9,
+      "low": 58.0,
+      "open": 58.0,
+      "time": "2026-09-28",
+      "volume": 551
     }
   ],
   "company_name": "Shiva Mills Limited",
   "history": {
-    "first_session": "2025-09-17",
+    "first_session": "2025-09-18",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 53,
+    "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.06x"
+    "volume_multiplier": "0.38x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.42,
-    "change_pct": -3.97,
-    "close": 58.51,
-    "previous_close": 60.93,
+    "as_of": "2026-09-28",
+    "change": 2.04,
+    "change_pct": 3.49,
+    "close": 60.55,
+    "previous_close": 58.51,
     "type": "EOD_CLOSE",
-    "volume": 1529
+    "volume": 551
   },
   "range": {
-    "distance_from_high_pct": -24.02,
-    "distance_from_low_pct": 36.04,
+    "distance_from_high_pct": -21.37,
+    "distance_from_low_pct": 40.78,
     "high_52w": 77.01,
     "history_basis": "52_WEEK",
     "low_52w": 43.01,
-    "range_position_pct": 45.59
+    "range_position_pct": 51.59
   },
   "risk_model": {
-    "invalidation_floor": 56.46,
-    "risk_per_share": 3.22,
-    "technical_pivot": 59.68
+    "invalidation_floor": 58.43,
+    "risk_per_share": 3.33,
+    "technical_pivot": 61.76
   },
   "schema_version": "1.0",
   "sector": null,

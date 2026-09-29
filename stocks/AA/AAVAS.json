@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1649.9,
-      "high": 1662.9,
-      "low": 1640.9,
-      "open": 1662.0,
-      "time": "2025-09-18",
-      "volume": 198965
-    },
-    {
       "close": 1670.6,
       "high": 1677.8,
       "low": 1646.0,
@@ -2017,13 +2009,21 @@
       "open": 1246.1,
       "time": "2026-09-25",
       "volume": 49117
+    },
+    {
+      "close": 1282.4,
+      "high": 1313.7,
+      "low": 1250.0,
+      "open": 1256.0,
+      "time": "2026-09-28",
+      "volume": 88608
     }
   ],
   "company_name": "AAVAS Financiers Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 47,
+    "momentum_score": 48,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.41x"
+    "volume_multiplier": "0.82x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 11.3,
-    "change_pct": 0.9,
-    "close": 1267.7,
-    "previous_close": 1256.4,
+    "as_of": "2026-09-28",
+    "change": 14.7,
+    "change_pct": 1.16,
+    "close": 1282.4,
+    "previous_close": 1267.7,
     "type": "EOD_CLOSE",
-    "volume": 49117
+    "volume": 88608
   },
   "range": {
-    "distance_from_high_pct": -28.46,
-    "distance_from_low_pct": 19.55,
+    "distance_from_high_pct": -27.63,
+    "distance_from_low_pct": 20.94,
     "high_52w": 1771.9,
     "history_basis": "52_WEEK",
     "low_52w": 1060.4,
-    "range_position_pct": 29.14
+    "range_position_pct": 31.2
   },
   "risk_model": {
-    "invalidation_floor": 1223.33,
-    "risk_per_share": 69.72,
-    "technical_pivot": 1293.05
+    "invalidation_floor": 1237.52,
+    "risk_per_share": 70.53,
+    "technical_pivot": 1308.05
   },
   "schema_version": "1.0",
   "sector": null,

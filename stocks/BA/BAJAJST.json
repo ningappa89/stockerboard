@@ -889,14 +889,22 @@
       "open": 355.25,
       "time": "2026-09-25",
       "volume": 6987
+    },
+    {
+      "close": 338.8,
+      "high": 354.2,
+      "low": 333.25,
+      "open": 353.3,
+      "time": "2026-09-28",
+      "volume": 11562
     }
   ],
   "company_name": "BAJAJ STEEL INDUSTRIES LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE704G01024",
@@ -904,31 +912,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.84x"
+    "volume_multiplier": "1.44x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.25,
-    "change_pct": 0.07,
-    "close": 347.25,
-    "previous_close": 347.0,
+    "as_of": "2026-09-28",
+    "change": -8.45,
+    "change_pct": -2.43,
+    "close": 338.8,
+    "previous_close": 347.25,
     "type": "EOD_CLOSE",
-    "volume": 6987
+    "volume": 11562
   },
   "range": {
-    "distance_from_high_pct": -31.62,
-    "distance_from_low_pct": 1.24,
+    "distance_from_high_pct": -33.28,
+    "distance_from_low_pct": 1.67,
     "high_52w": 507.8,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 343.0,
-    "range_position_pct": 2.58
+    "low_52w": 333.25,
+    "range_position_pct": 3.18
   },
   "risk_model": {
-    "invalidation_floor": 335.1,
-    "risk_per_share": 19.09,
-    "technical_pivot": 354.19
+    "invalidation_floor": 326.94,
+    "risk_per_share": 18.64,
+    "technical_pivot": 345.58
   },
   "schema_version": "1.0",
   "sector": null,

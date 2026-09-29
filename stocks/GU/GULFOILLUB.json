@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1295.4,
-      "high": 1317.8,
-      "low": 1287.5,
-      "open": 1308.5,
-      "time": "2025-09-18",
-      "volume": 137963
-    },
-    {
       "close": 1275.1,
       "high": 1282.6,
       "low": 1250.1,
@@ -2017,13 +2009,21 @@
       "open": 1090.8,
       "time": "2026-09-25",
       "volume": 59678
+    },
+    {
+      "close": 1110.5,
+      "high": 1114.1,
+      "low": 1088.1,
+      "open": 1114.1,
+      "time": "2026-09-28",
+      "volume": 47443
     }
   ],
   "company_name": "GULF OIL LUBRICANTS INDIA LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.0x"
+    "volume_multiplier": "0.8x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 15.8,
-    "change_pct": 1.45,
-    "close": 1106.6,
-    "previous_close": 1090.8,
+    "as_of": "2026-09-28",
+    "change": 3.9,
+    "change_pct": 0.35,
+    "close": 1110.5,
+    "previous_close": 1106.6,
     "type": "EOD_CLOSE",
-    "volume": 59678
+    "volume": 47443
   },
   "range": {
-    "distance_from_high_pct": -16.03,
-    "distance_from_low_pct": 27.93,
-    "high_52w": 1317.8,
+    "distance_from_high_pct": -13.87,
+    "distance_from_low_pct": 28.38,
+    "high_52w": 1289.4,
     "history_basis": "52_WEEK",
     "low_52w": 865.0,
-    "range_position_pct": 53.36
+    "range_position_pct": 57.85
   },
   "risk_model": {
-    "invalidation_floor": 1067.87,
-    "risk_per_share": 60.86,
-    "technical_pivot": 1128.73
+    "invalidation_floor": 1071.63,
+    "risk_per_share": 61.08,
+    "technical_pivot": 1132.71
   },
   "schema_version": "1.0",
   "sector": null,

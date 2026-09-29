@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1066.8,
-      "high": 1084.8,
-      "low": 1047.0,
-      "open": 1050.9,
-      "time": "2025-09-18",
-      "volume": 31300
-    },
-    {
       "close": 1053.6,
       "high": 1072.1,
       "low": 1046.9,
@@ -2017,13 +2009,21 @@
       "open": 674.0,
       "time": "2026-09-25",
       "volume": 20296
+    },
+    {
+      "close": 661.5,
+      "high": 679.7,
+      "low": 658.8,
+      "open": 679.55,
+      "time": "2026-09-28",
+      "volume": 14417
     }
   ],
   "company_name": "NUCLEUS SOFTWARE EXPORTS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.14x"
+    "volume_multiplier": "0.83x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 4.4,
-    "change_pct": 0.65,
-    "close": 679.55,
-    "previous_close": 675.15,
+    "as_of": "2026-09-28",
+    "change": -18.05,
+    "change_pct": -2.66,
+    "close": 661.5,
+    "previous_close": 679.55,
     "type": "EOD_CLOSE",
-    "volume": 20296
+    "volume": 14417
   },
   "range": {
-    "distance_from_high_pct": -37.36,
-    "distance_from_low_pct": 1.61,
-    "high_52w": 1084.8,
+    "distance_from_high_pct": -38.3,
+    "distance_from_low_pct": 0.41,
+    "high_52w": 1072.1,
     "history_basis": "52_WEEK",
-    "low_52w": 668.75,
-    "range_position_pct": 2.6
+    "low_52w": 658.8,
+    "range_position_pct": 0.65
   },
   "risk_model": {
-    "invalidation_floor": 655.77,
-    "risk_per_share": 37.37,
-    "technical_pivot": 693.14
+    "invalidation_floor": 638.35,
+    "risk_per_share": 36.38,
+    "technical_pivot": 674.73
   },
   "schema_version": "1.0",
   "sector": null,

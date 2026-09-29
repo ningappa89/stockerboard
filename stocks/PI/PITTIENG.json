@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 962.6,
-      "high": 972.0,
-      "low": 955.35,
-      "open": 967.0,
-      "time": "2025-09-18",
-      "volume": 37071
-    },
-    {
       "close": 1006.5,
       "high": 1014.0,
       "low": 951.9,
@@ -2017,13 +2009,21 @@
       "open": 1160.0,
       "time": "2026-09-25",
       "volume": 93537
+    },
+    {
+      "close": 1136.8,
+      "high": 1171.4,
+      "low": 1130.0,
+      "open": 1171.4,
+      "time": "2026-09-28",
+      "volume": 71436
     }
   ],
   "company_name": "PITTI ENGINEERING LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 81,
+    "momentum_score": 78,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.5x"
+    "volume_multiplier": "0.38x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.4,
-    "change_pct": 0.12,
-    "close": 1162.4,
-    "previous_close": 1161.0,
+    "as_of": "2026-09-28",
+    "change": -25.6,
+    "change_pct": -2.2,
+    "close": 1136.8,
+    "previous_close": 1162.4,
     "type": "EOD_CLOSE",
-    "volume": 93537
+    "volume": 71436
   },
   "range": {
-    "distance_from_high_pct": -5.34,
-    "distance_from_low_pct": 72.21,
+    "distance_from_high_pct": -7.43,
+    "distance_from_low_pct": 68.41,
     "high_52w": 1228.0,
     "history_basis": "52_WEEK",
     "low_52w": 675.0,
-    "range_position_pct": 88.14
+    "range_position_pct": 83.51
   },
   "risk_model": {
-    "invalidation_floor": 1121.72,
-    "risk_per_share": 63.93,
-    "technical_pivot": 1185.65
+    "invalidation_floor": 1097.01,
+    "risk_per_share": 62.53,
+    "technical_pivot": 1159.54
   },
   "schema_version": "1.0",
   "sector": null,

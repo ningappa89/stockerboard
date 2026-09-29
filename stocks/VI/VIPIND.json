@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 445.35,
-      "high": 454.3,
-      "low": 442.5,
-      "open": 447.0,
-      "time": "2025-09-18",
-      "volume": 243051
-    },
-    {
       "close": 449.95,
       "high": 452.2,
       "low": 443.95,
@@ -2017,13 +2009,21 @@
       "open": 300.95,
       "time": "2026-09-25",
       "volume": 208836
+    },
+    {
+      "close": 296.25,
+      "high": 301.0,
+      "low": 295.15,
+      "open": 301.0,
+      "time": "2026-09-28",
+      "volume": 114218
     }
   ],
   "company_name": "V.I.P.INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.58x"
+    "volume_multiplier": "0.33x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.25,
-    "change_pct": 0.08,
-    "close": 301.2,
-    "previous_close": 300.95,
+    "as_of": "2026-09-28",
+    "change": -4.95,
+    "change_pct": -1.64,
+    "close": 296.25,
+    "previous_close": 301.2,
     "type": "EOD_CLOSE",
-    "volume": 208836
+    "volume": 114218
   },
   "range": {
-    "distance_from_high_pct": -33.7,
-    "distance_from_low_pct": 8.25,
-    "high_52w": 454.3,
+    "distance_from_high_pct": -34.49,
+    "distance_from_low_pct": 6.47,
+    "high_52w": 452.2,
     "history_basis": "52_WEEK",
     "low_52w": 278.25,
-    "range_position_pct": 13.04
+    "range_position_pct": 10.35
   },
   "risk_model": {
-    "invalidation_floor": 290.66,
-    "risk_per_share": 16.56,
-    "technical_pivot": 307.22
+    "invalidation_floor": 285.88,
+    "risk_per_share": 16.3,
+    "technical_pivot": 302.18
   },
   "schema_version": "1.0",
   "sector": null,

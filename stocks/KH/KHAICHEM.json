@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 127.78,
-      "high": 132.0,
-      "low": 126.61,
-      "open": 130.3,
-      "time": "2025-09-18",
-      "volume": 306562
-    },
-    {
       "close": 128.79,
       "high": 130.79,
       "low": 127.57,
@@ -2017,13 +2009,21 @@
       "open": 49.41,
       "time": "2026-09-25",
       "volume": 75324
+    },
+    {
+      "close": 49.51,
+      "high": 51.8,
+      "low": 48.6,
+      "open": 50.0,
+      "time": "2026-09-28",
+      "volume": 324044
     }
   ],
   "company_name": "KHAITAN CHEM & FERT LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.5x"
+    "volume_multiplier": "1.98x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.18,
-    "change_pct": 0.36,
-    "close": 49.59,
-    "previous_close": 49.41,
+    "as_of": "2026-09-28",
+    "change": -0.08,
+    "change_pct": -0.16,
+    "close": 49.51,
+    "previous_close": 49.59,
     "type": "EOD_CLOSE",
-    "volume": 75324
+    "volume": 324044
   },
   "range": {
-    "distance_from_high_pct": -63.29,
-    "distance_from_low_pct": 15.54,
+    "distance_from_high_pct": -63.35,
+    "distance_from_low_pct": 15.35,
     "high_52w": 135.1,
     "history_basis": "52_WEEK",
     "low_52w": 42.92,
-    "range_position_pct": 7.24
+    "range_position_pct": 7.15
   },
   "risk_model": {
-    "invalidation_floor": 47.85,
-    "risk_per_share": 2.73,
-    "technical_pivot": 50.58
+    "invalidation_floor": 47.78,
+    "risk_per_share": 2.72,
+    "technical_pivot": 50.5
   },
   "schema_version": "1.0",
   "sector": null,

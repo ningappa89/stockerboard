@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 18.83,
-      "high": 19.13,
-      "low": 18.8,
-      "open": 19.06,
-      "time": "2025-09-18",
-      "volume": 18026472
-    },
-    {
       "close": 18.68,
       "high": 19.04,
       "low": 18.5,
@@ -2017,13 +2009,21 @@
       "open": 15.84,
       "time": "2026-09-25",
       "volume": 30626176
+    },
+    {
+      "close": 15.52,
+      "high": 15.92,
+      "low": 15.46,
+      "open": 15.92,
+      "time": "2026-09-28",
+      "volume": 31879871
     }
   ],
   "company_name": "JAIPRAKASH POWER VENTURES LIMI",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.44x"
+    "volume_multiplier": "0.46x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.03,
-    "change_pct": 0.19,
-    "close": 15.87,
-    "previous_close": 15.84,
+    "as_of": "2026-09-28",
+    "change": -0.35,
+    "change_pct": -2.21,
+    "close": 15.52,
+    "previous_close": 15.87,
     "type": "EOD_CLOSE",
-    "volume": 30626176
+    "volume": 31879871
   },
   "range": {
-    "distance_from_high_pct": -35.22,
-    "distance_from_low_pct": 20.68,
+    "distance_from_high_pct": -36.65,
+    "distance_from_low_pct": 18.02,
     "high_52w": 24.5,
     "history_basis": "52_WEEK",
     "low_52w": 13.15,
-    "range_position_pct": 23.96
+    "range_position_pct": 20.88
   },
   "risk_model": {
-    "invalidation_floor": 15.31,
-    "risk_per_share": 0.88,
-    "technical_pivot": 16.19
+    "invalidation_floor": 14.98,
+    "risk_per_share": 0.85,
+    "technical_pivot": 15.83
   },
   "schema_version": "1.0",
   "sector": null,

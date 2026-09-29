@@ -233,14 +233,22 @@
       "open": 112.97,
       "time": "2026-09-25",
       "volume": 10797
+    },
+    {
+      "close": 108.12,
+      "high": 111.93,
+      "low": 106.25,
+      "open": 111.93,
+      "time": "2026-09-28",
+      "volume": 24682
     }
   ],
   "company_name": "SAINT-GOBAIN SEKURIT INDIA LTD",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE068B01017",
@@ -248,31 +256,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 74,
+    "momentum_score": 70,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.4x"
+    "volume_multiplier": "0.9x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.41,
-    "change_pct": 0.37,
-    "close": 111.93,
-    "previous_close": 111.52,
+    "as_of": "2026-09-28",
+    "change": -3.81,
+    "change_pct": -3.4,
+    "close": 108.12,
+    "previous_close": 111.93,
     "type": "EOD_CLOSE",
-    "volume": 10797
+    "volume": 24682
   },
   "range": {
-    "distance_from_high_pct": -10.2,
-    "distance_from_low_pct": 6.55,
+    "distance_from_high_pct": -13.26,
+    "distance_from_low_pct": 2.92,
     "high_52w": 124.65,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 105.05,
-    "range_position_pct": 35.1
+    "range_position_pct": 15.66
   },
   "risk_model": {
-    "invalidation_floor": 108.01,
-    "risk_per_share": 6.16,
-    "technical_pivot": 114.17
+    "invalidation_floor": 104.34,
+    "risk_per_share": 5.94,
+    "technical_pivot": 110.28
   },
   "schema_version": "1.0",
   "sector": null,

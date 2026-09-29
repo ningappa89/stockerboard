@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 4004.7,
-      "high": 4080.8,
-      "low": 3980.0,
-      "open": 4002.0,
-      "time": "2025-09-11",
-      "volume": 469
-    },
-    {
       "close": 3970.7,
       "high": 4037.9,
       "low": 3970.0,
@@ -2017,13 +2009,21 @@
       "open": 3375.0,
       "time": "2026-09-25",
       "volume": 70
+    },
+    {
+      "close": 3329.3,
+      "high": 3391.6,
+      "low": 3320.0,
+      "open": 3355.0,
+      "time": "2026-09-28",
+      "volume": 650
     }
   ],
   "company_name": "VARDHMAN HOLDINGS LIMITED",
   "history": {
-    "first_session": "2025-09-11",
+    "first_session": "2025-09-12",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 57,
+    "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.1x"
+    "volume_multiplier": "0.94x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -10.0,
-    "change_pct": -0.3,
-    "close": 3358.1,
-    "previous_close": 3368.1,
+    "as_of": "2026-09-28",
+    "change": -28.8,
+    "change_pct": -0.86,
+    "close": 3329.3,
+    "previous_close": 3358.1,
     "type": "EOD_CLOSE",
-    "volume": 70
+    "volume": 650
   },
   "range": {
-    "distance_from_high_pct": -21.45,
-    "distance_from_low_pct": 17.01,
+    "distance_from_high_pct": -22.12,
+    "distance_from_low_pct": 16.0,
     "high_52w": 4275.0,
     "history_basis": "52_WEEK",
     "low_52w": 2870.0,
-    "range_position_pct": 34.74
+    "range_position_pct": 32.69
   },
   "risk_model": {
-    "invalidation_floor": 3240.57,
-    "risk_per_share": 184.69,
-    "technical_pivot": 3425.26
+    "invalidation_floor": 3212.77,
+    "risk_per_share": 183.12,
+    "technical_pivot": 3395.89
   },
   "schema_version": "1.0",
   "sector": null,

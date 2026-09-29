@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 39.07,
-      "high": 39.89,
-      "low": 38.41,
-      "open": 39.6,
-      "time": "2025-09-18",
-      "volume": 1044469
-    },
-    {
       "close": 39.23,
       "high": 39.47,
       "low": 38.29,
@@ -2017,13 +2009,21 @@
       "open": 49.39,
       "time": "2026-09-25",
       "volume": 7279293
+    },
+    {
+      "close": 48.69,
+      "high": 51.0,
+      "low": 45.58,
+      "open": 46.89,
+      "time": "2026-09-28",
+      "volume": 9005124
     }
   ],
   "company_name": "JINDAL WORLDWIDE LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 53,
+    "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.19x"
+    "volume_multiplier": "0.24x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.41,
-    "change_pct": -4.9,
-    "close": 46.76,
-    "previous_close": 49.17,
+    "as_of": "2026-09-28",
+    "change": 1.93,
+    "change_pct": 4.13,
+    "close": 48.69,
+    "previous_close": 46.76,
     "type": "EOD_CLOSE",
-    "volume": 7279293
+    "volume": 9005124
   },
   "range": {
-    "distance_from_high_pct": -24.57,
-    "distance_from_low_pct": 161.96,
+    "distance_from_high_pct": -21.46,
+    "distance_from_low_pct": 172.77,
     "high_52w": 61.99,
     "history_basis": "52_WEEK",
     "low_52w": 17.85,
-    "range_position_pct": 65.5
+    "range_position_pct": 69.87
   },
   "risk_model": {
-    "invalidation_floor": 45.12,
-    "risk_per_share": 2.58,
-    "technical_pivot": 47.7
+    "invalidation_floor": 46.99,
+    "risk_per_share": 2.67,
+    "technical_pivot": 49.66
   },
   "schema_version": "1.0",
   "sector": null,

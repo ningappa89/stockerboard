@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1876.4,
-      "high": 1921.9,
-      "low": 1865.0,
-      "open": 1888.4,
-      "time": "2025-09-18",
-      "volume": 4243
-    },
-    {
       "close": 1892.4,
       "high": 1905.0,
       "low": 1872.3,
@@ -2017,13 +2009,21 @@
       "open": 2161.4,
       "time": "2026-09-25",
       "volume": 4584
+    },
+    {
+      "close": 2146.5,
+      "high": 2185.0,
+      "low": 2141.6,
+      "open": 2185.0,
+      "time": "2026-09-28",
+      "volume": 4516
     }
   ],
   "company_name": "THEJO ENGINEERING LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 83,
+    "momentum_score": 80,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.53x"
+    "volume_multiplier": "0.62x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 16.2,
-    "change_pct": 0.75,
-    "close": 2185.0,
-    "previous_close": 2168.8,
+    "as_of": "2026-09-28",
+    "change": -38.5,
+    "change_pct": -1.76,
+    "close": 2146.5,
+    "previous_close": 2185.0,
     "type": "EOD_CLOSE",
-    "volume": 4584
+    "volume": 4516
   },
   "range": {
-    "distance_from_high_pct": -4.44,
-    "distance_from_low_pct": 51.36,
+    "distance_from_high_pct": -6.13,
+    "distance_from_low_pct": 48.69,
     "high_52w": 2286.6,
     "history_basis": "52_WEEK",
     "low_52w": 1443.6,
-    "range_position_pct": 87.95
+    "range_position_pct": 83.38
   },
   "risk_model": {
-    "invalidation_floor": 2108.53,
-    "risk_per_share": 120.17,
-    "technical_pivot": 2228.7
+    "invalidation_floor": 2071.37,
+    "risk_per_share": 118.06,
+    "technical_pivot": 2189.43
   },
   "schema_version": "1.0",
   "sector": null,

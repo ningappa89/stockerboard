@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 192.57,
-      "high": 196.35,
-      "low": 191.2,
-      "open": 195.01,
-      "time": "2025-09-18",
-      "volume": 67113
-    },
-    {
       "close": 178.6,
       "high": 195.4,
       "low": 176.6,
@@ -2017,13 +2009,21 @@
       "open": 342.25,
       "time": "2026-09-25",
       "volume": 20313
+    },
+    {
+      "close": 326.1,
+      "high": 341.85,
+      "low": 325.0,
+      "open": 340.3,
+      "time": "2026-09-28",
+      "volume": 27420
     }
   ],
   "company_name": "LOKESH MACHINES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 72,
+    "is_stage2": false,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.31x"
+    "volume_multiplier": "0.43x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.7,
-    "change_pct": -0.79,
-    "close": 340.2,
-    "previous_close": 342.9,
+    "as_of": "2026-09-28",
+    "change": -14.1,
+    "change_pct": -4.14,
+    "close": 326.1,
+    "previous_close": 340.2,
     "type": "EOD_CLOSE",
-    "volume": 20313
+    "volume": 27420
   },
   "range": {
-    "distance_from_high_pct": -11.82,
-    "distance_from_low_pct": 144.82,
+    "distance_from_high_pct": -15.47,
+    "distance_from_low_pct": 134.67,
     "high_52w": 385.8,
     "history_basis": "52_WEEK",
     "low_52w": 138.96,
-    "range_position_pct": 81.53
+    "range_position_pct": 75.81
   },
   "risk_model": {
-    "invalidation_floor": 328.29,
-    "risk_per_share": 18.71,
-    "technical_pivot": 347.0
+    "invalidation_floor": 314.69,
+    "risk_per_share": 17.93,
+    "technical_pivot": 332.62
   },
   "schema_version": "1.0",
   "sector": null,

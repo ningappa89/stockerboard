@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1471.0,
-      "high": 1475.7,
-      "low": 1461.0,
-      "open": 1475.0,
-      "time": "2025-09-18",
-      "volume": 126304
-    },
-    {
       "close": 1458.1,
       "high": 1507.1,
       "low": 1436.6,
@@ -2017,13 +2009,21 @@
       "open": 3294.9,
       "time": "2026-09-25",
       "volume": 153473
+    },
+    {
+      "close": 3214.4,
+      "high": 3273.1,
+      "low": 3184.3,
+      "open": 3272.5,
+      "time": "2026-09-28",
+      "volume": 202322
     }
   ],
   "company_name": "ACUTAAS CHEMICALS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 71,
+    "is_stage2": false,
+    "momentum_score": 68,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.47x"
+    "volume_multiplier": "0.63x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -11.2,
-    "change_pct": -0.34,
-    "close": 3272.5,
-    "previous_close": 3283.7,
+    "as_of": "2026-09-28",
+    "change": -58.1,
+    "change_pct": -1.78,
+    "close": 3214.4,
+    "previous_close": 3272.5,
     "type": "EOD_CLOSE",
-    "volume": 153473
+    "volume": 202322
   },
   "range": {
-    "distance_from_high_pct": -12.5,
-    "distance_from_low_pct": 151.34,
+    "distance_from_high_pct": -14.05,
+    "distance_from_low_pct": 146.88,
     "high_52w": 3740.0,
     "history_basis": "52_WEEK",
     "low_52w": 1302.0,
-    "range_position_pct": 80.82
+    "range_position_pct": 78.44
   },
   "risk_model": {
-    "invalidation_floor": 3157.96,
-    "risk_per_share": 179.99,
-    "technical_pivot": 3337.95
+    "invalidation_floor": 3101.9,
+    "risk_per_share": 176.79,
+    "technical_pivot": 3278.69
   },
   "schema_version": "1.0",
   "sector": null,

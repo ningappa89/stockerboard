@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 95.34,
-      "high": 97.99,
-      "low": 95.1,
-      "open": 96.0,
-      "time": "2025-09-18",
-      "volume": 4623
-    },
-    {
       "close": 94.99,
       "high": 97.32,
       "low": 94.0,
@@ -2017,13 +2009,21 @@
       "open": 91.8,
       "time": "2026-09-25",
       "volume": 5958
+    },
+    {
+      "close": 84.99,
+      "high": 92.0,
+      "low": 84.71,
+      "open": 92.0,
+      "time": "2026-09-28",
+      "volume": 12501
     }
   ],
   "company_name": "INSPIRISYS SOLUTIONS LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.25x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.38x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.52,
-    "change_pct": -0.58,
-    "close": 88.48,
-    "previous_close": 89.0,
+    "as_of": "2026-09-28",
+    "change": -3.49,
+    "change_pct": -3.94,
+    "close": 84.99,
+    "previous_close": 88.48,
     "type": "EOD_CLOSE",
-    "volume": 5958
+    "volume": 12501
   },
   "range": {
-    "distance_from_high_pct": -33.92,
-    "distance_from_low_pct": 26.54,
+    "distance_from_high_pct": -36.53,
+    "distance_from_low_pct": 21.55,
     "high_52w": 133.9,
     "history_basis": "52_WEEK",
     "low_52w": 69.92,
-    "range_position_pct": 29.01
+    "range_position_pct": 23.55
   },
   "risk_model": {
-    "invalidation_floor": 85.38,
-    "risk_per_share": 4.87,
-    "technical_pivot": 90.25
+    "invalidation_floor": 82.02,
+    "risk_per_share": 4.67,
+    "technical_pivot": 86.69
   },
   "schema_version": "1.0",
   "sector": null,

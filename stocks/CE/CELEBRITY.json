@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 12.15,
-      "high": 12.45,
-      "low": 12.03,
-      "open": 12.1,
-      "time": "2025-09-18",
-      "volume": 25992
-    },
-    {
       "close": 12.29,
       "high": 12.48,
       "low": 12.06,
@@ -2017,13 +2009,21 @@
       "open": 6.43,
       "time": "2026-09-25",
       "volume": 18954
+    },
+    {
+      "close": 6.68,
+      "high": 6.82,
+      "low": 6.4,
+      "open": 6.82,
+      "time": "2026-09-28",
+      "volume": 14854
     }
   ],
   "company_name": "CELEBRITY FASHIONS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.02x"
+    "volume_multiplier": "0.79x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.07,
-    "change_pct": 1.07,
-    "close": 6.63,
-    "previous_close": 6.56,
+    "as_of": "2026-09-28",
+    "change": 0.05,
+    "change_pct": 0.75,
+    "close": 6.68,
+    "previous_close": 6.63,
     "type": "EOD_CLOSE",
-    "volume": 18954
+    "volume": 14854
   },
   "range": {
-    "distance_from_high_pct": -49.96,
-    "distance_from_low_pct": 17.35,
+    "distance_from_high_pct": -49.58,
+    "distance_from_low_pct": 18.23,
     "high_52w": 13.25,
     "history_basis": "52_WEEK",
     "low_52w": 5.65,
-    "range_position_pct": 12.89
+    "range_position_pct": 13.55
   },
   "risk_model": {
-    "invalidation_floor": 6.4,
+    "invalidation_floor": 6.45,
     "risk_per_share": 0.5,
-    "technical_pivot": 6.76
+    "technical_pivot": 6.81
   },
   "schema_version": "1.0",
   "sector": null,

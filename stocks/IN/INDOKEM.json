@@ -233,14 +233,22 @@
       "open": 615.35,
       "time": "2026-09-25",
       "volume": 3645
+    },
+    {
+      "close": 609.0,
+      "high": 629.3,
+      "low": 600.35,
+      "open": 601.35,
+      "time": "2026-09-28",
+      "volume": 4289
     }
   ],
   "company_name": "INDOKEM LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE716F01012",
@@ -248,31 +256,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 77,
+    "momentum_score": 76,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.59x"
+    "volume_multiplier": "0.68x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.75,
-    "change_pct": -0.12,
-    "close": 613.25,
-    "previous_close": 614.0,
+    "as_of": "2026-09-28",
+    "change": -4.25,
+    "change_pct": -0.69,
+    "close": 609.0,
+    "previous_close": 613.25,
     "type": "EOD_CLOSE",
-    "volume": 3645
+    "volume": 4289
   },
   "range": {
-    "distance_from_high_pct": -8.2,
-    "distance_from_low_pct": 10.5,
+    "distance_from_high_pct": -8.83,
+    "distance_from_low_pct": 9.73,
     "high_52w": 668.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 555.0,
-    "range_position_pct": 51.55
+    "range_position_pct": 47.79
   },
   "risk_model": {
-    "invalidation_floor": 591.79,
-    "risk_per_share": 33.72,
-    "technical_pivot": 625.51
+    "invalidation_floor": 587.68,
+    "risk_per_share": 33.5,
+    "technical_pivot": 621.18
   },
   "schema_version": "1.0",
   "sector": null,

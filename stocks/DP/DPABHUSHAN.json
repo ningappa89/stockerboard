@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1582.4,
-      "high": 1600.0,
-      "low": 1576.2,
-      "open": 1584.4,
-      "time": "2025-09-18",
-      "volume": 23424
-    },
-    {
       "close": 1575.2,
       "high": 1588.0,
       "low": 1570.1,
@@ -2017,13 +2009,21 @@
       "open": 1407.0,
       "time": "2026-09-25",
       "volume": 19662
+    },
+    {
+      "close": 1388.2,
+      "high": 1404.0,
+      "low": 1369.1,
+      "open": 1400.1,
+      "time": "2026-09-28",
+      "volume": 13375
     }
   ],
   "company_name": "D P ABHUSHAN LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 67,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.85x"
+    "volume_multiplier": "0.6x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 12.1,
-    "change_pct": 0.86,
-    "close": 1417.7,
-    "previous_close": 1405.6,
+    "as_of": "2026-09-28",
+    "change": -29.5,
+    "change_pct": -2.08,
+    "close": 1388.2,
+    "previous_close": 1417.7,
     "type": "EOD_CLOSE",
-    "volume": 19662
+    "volume": 13375
   },
   "range": {
-    "distance_from_high_pct": -15.11,
-    "distance_from_low_pct": 63.69,
+    "distance_from_high_pct": -16.87,
+    "distance_from_low_pct": 60.28,
     "high_52w": 1670.0,
     "history_basis": "52_WEEK",
     "low_52w": 866.1,
-    "range_position_pct": 68.62
+    "range_position_pct": 64.95
   },
   "risk_model": {
-    "invalidation_floor": 1368.08,
-    "risk_per_share": 77.97,
-    "technical_pivot": 1446.05
+    "invalidation_floor": 1339.61,
+    "risk_per_share": 76.35,
+    "technical_pivot": 1415.96
   },
   "schema_version": "1.0",
   "sector": null,

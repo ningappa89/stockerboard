@@ -1,0 +1,56 @@
+{
+  "analytics_reason": null,
+  "analytics_status": "AVAILABLE",
+  "candles": [
+    {
+      "close": 1.17,
+      "high": 1.17,
+      "low": 1.17,
+      "open": 1.17,
+      "time": "2026-09-28",
+      "volume": 12583
+    }
+  ],
+  "company_name": "QUINTEGRA SOLUTIONS LTD.",
+  "history": {
+    "first_session": "2026-09-28",
+    "has_full_52w_history": false,
+    "last_session": "2026-09-28",
+    "sessions_available": 1
+  },
+  "industry": null,
+  "isin": "INE033B01011",
+  "metrics": {
+    "is_breakout": true,
+    "is_coiled": false,
+    "is_stage2": true,
+    "momentum_score": 90,
+    "setup_type": "52W High Breakout",
+    "volume_multiplier": "1.0x"
+  },
+  "price": {
+    "as_of": "2026-09-28",
+    "change": null,
+    "change_pct": null,
+    "close": 1.17,
+    "previous_close": null,
+    "type": "EOD_CLOSE",
+    "volume": 12583
+  },
+  "range": {
+    "distance_from_high_pct": 0.0,
+    "distance_from_low_pct": 0.0,
+    "high_52w": 1.17,
+    "history_basis": "AVAILABLE_HISTORY",
+    "low_52w": 1.17,
+    "range_position_pct": 50.0
+  },
+  "risk_model": {
+    "invalidation_floor": 1.13,
+    "risk_per_share": 0.5,
+    "technical_pivot": 1.18
+  },
+  "schema_version": "1.0",
+  "sector": null,
+  "symbol": "QUINTEGRA"
+}

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 251.78,
-      "high": 255.99,
-      "low": 250.55,
-      "open": 255.6,
-      "time": "2025-09-18",
-      "volume": 964263
-    },
-    {
       "close": 250.16,
       "high": 254.47,
       "low": 249.76,
@@ -2017,13 +2009,21 @@
       "open": 239.0,
       "time": "2026-09-25",
       "volume": 422871
+    },
+    {
+      "close": 234.32,
+      "high": 242.0,
+      "low": 233.05,
+      "open": 242.0,
+      "time": "2026-09-28",
+      "volume": 222631
     }
   ],
   "company_name": "RELIGARE ENTERPRISES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.33x"
+    "volume_multiplier": "0.2x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.95,
-    "change_pct": 0.81,
-    "close": 242.27,
-    "previous_close": 240.32,
+    "as_of": "2026-09-28",
+    "change": -7.95,
+    "change_pct": -3.28,
+    "close": 234.32,
+    "previous_close": 242.27,
     "type": "EOD_CLOSE",
-    "volume": 422871
+    "volume": 222631
   },
   "range": {
-    "distance_from_high_pct": -13.47,
-    "distance_from_low_pct": 23.29,
+    "distance_from_high_pct": -16.31,
+    "distance_from_low_pct": 19.24,
     "high_52w": 280.0,
     "history_basis": "52_WEEK",
     "low_52w": 196.51,
-    "range_position_pct": 54.81
+    "range_position_pct": 45.29
   },
   "risk_model": {
-    "invalidation_floor": 233.79,
-    "risk_per_share": 13.33,
-    "technical_pivot": 247.12
+    "invalidation_floor": 226.12,
+    "risk_per_share": 12.89,
+    "technical_pivot": 239.01
   },
   "schema_version": "1.0",
   "sector": null,

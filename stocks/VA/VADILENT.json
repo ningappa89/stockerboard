@@ -217,14 +217,22 @@
       "open": 10280.0,
       "time": "2026-09-25",
       "volume": 10
+    },
+    {
+      "close": 10201.0,
+      "high": 10300.0,
+      "low": 10200.0,
+      "open": 10280.0,
+      "time": "2026-09-28",
+      "volume": 18
     }
   ],
   "company_name": "VADILAL ENTERPRISES LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 27
+    "last_session": "2026-09-28",
+    "sessions_available": 28
   },
   "industry": null,
   "isin": "INE693D01018",
@@ -232,31 +240,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.17x"
+    "volume_multiplier": "0.39x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -38.0,
-    "change_pct": -0.37,
-    "close": 10265.0,
-    "previous_close": 10303.0,
+    "as_of": "2026-09-28",
+    "change": -64.0,
+    "change_pct": -0.62,
+    "close": 10201.0,
+    "previous_close": 10265.0,
     "type": "EOD_CLOSE",
-    "volume": 10
+    "volume": 18
   },
   "range": {
-    "distance_from_high_pct": -18.52,
-    "distance_from_low_pct": 9.19,
+    "distance_from_high_pct": -19.03,
+    "distance_from_low_pct": 8.51,
     "high_52w": 12598.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 9401.0,
-    "range_position_pct": 27.03
+    "range_position_pct": 25.02
   },
   "risk_model": {
-    "invalidation_floor": 9905.73,
-    "risk_per_share": 564.57,
-    "technical_pivot": 10470.3
+    "invalidation_floor": 9843.97,
+    "risk_per_share": 561.05,
+    "technical_pivot": 10405.02
   },
   "schema_version": "1.0",
   "sector": null,

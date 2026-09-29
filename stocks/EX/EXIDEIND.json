@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 425.15,
-      "high": 425.85,
-      "low": 417.9,
-      "open": 419.8,
-      "time": "2025-09-18",
-      "volume": 2015535
-    },
-    {
       "close": 414.5,
       "high": 425.1,
       "low": 413.4,
@@ -2017,13 +2009,21 @@
       "open": 426.85,
       "time": "2026-09-25",
       "volume": 1864971
+    },
+    {
+      "close": 411.75,
+      "high": 422.65,
+      "low": 411.0,
+      "open": 422.0,
+      "time": "2026-09-28",
+      "volume": 946136
     }
   ],
   "company_name": "EXIDE INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Automobile and Auto Components",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 68,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.78x"
+    "volume_multiplier": "0.44x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.9,
-    "change_pct": -0.68,
-    "close": 423.65,
-    "previous_close": 426.55,
+    "as_of": "2026-09-28",
+    "change": -11.9,
+    "change_pct": -2.81,
+    "close": 411.75,
+    "previous_close": 423.65,
     "type": "EOD_CLOSE",
-    "volume": 1864971
+    "volume": 946136
   },
   "range": {
-    "distance_from_high_pct": -14.66,
-    "distance_from_low_pct": 47.61,
+    "distance_from_high_pct": -17.05,
+    "distance_from_low_pct": 43.47,
     "high_52w": 496.4,
     "history_basis": "52_WEEK",
     "low_52w": 287.0,
-    "range_position_pct": 65.26
+    "range_position_pct": 59.57
   },
   "risk_model": {
-    "invalidation_floor": 408.82,
-    "risk_per_share": 23.3,
-    "technical_pivot": 432.12
+    "invalidation_floor": 397.34,
+    "risk_per_share": 22.65,
+    "technical_pivot": 419.99
   },
   "schema_version": "1.0",
   "sector": "Automobile and Auto Components",

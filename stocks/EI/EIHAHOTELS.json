@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 397.05,
-      "high": 406.75,
-      "low": 395.15,
-      "open": 404.0,
-      "time": "2025-09-18",
-      "volume": 26275
-    },
-    {
       "close": 397.4,
       "high": 400.2,
       "low": 396.4,
@@ -2017,13 +2009,21 @@
       "open": 285.6,
       "time": "2026-09-25",
       "volume": 30841
+    },
+    {
+      "close": 290.0,
+      "high": 294.8,
+      "low": 287.45,
+      "open": 294.8,
+      "time": "2026-09-28",
+      "volume": 12242
     }
   ],
   "company_name": "EIH ASSOCIATED HOTELS LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 47,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.69x"
+    "volume_multiplier": "0.66x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 5.7,
-    "change_pct": 1.98,
-    "close": 294.3,
-    "previous_close": 288.6,
+    "as_of": "2026-09-28",
+    "change": -4.3,
+    "change_pct": -1.46,
+    "close": 290.0,
+    "previous_close": 294.3,
     "type": "EOD_CLOSE",
-    "volume": 30841
+    "volume": 12242
   },
   "range": {
-    "distance_from_high_pct": -27.65,
-    "distance_from_low_pct": 10.37,
-    "high_52w": 406.75,
+    "distance_from_high_pct": -28.12,
+    "distance_from_low_pct": 8.76,
+    "high_52w": 403.45,
     "history_basis": "52_WEEK",
     "low_52w": 266.65,
-    "range_position_pct": 19.74
+    "range_position_pct": 17.07
   },
   "risk_model": {
-    "invalidation_floor": 284.0,
-    "risk_per_share": 16.19,
-    "technical_pivot": 300.19
+    "invalidation_floor": 279.85,
+    "risk_per_share": 15.95,
+    "technical_pivot": 295.8
   },
   "schema_version": "1.0",
   "sector": null,

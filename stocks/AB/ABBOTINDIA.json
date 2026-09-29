@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 30890.0,
-      "high": 31355.0,
-      "low": 30840.0,
-      "open": 31095.0,
-      "time": "2025-09-18",
-      "volume": 8509
-    },
-    {
       "close": 30365.0,
       "high": 31055.0,
       "low": 30130.0,
@@ -2017,13 +2009,21 @@
       "open": 26860.0,
       "time": "2026-09-25",
       "volume": 2263
+    },
+    {
+      "close": 26740.0,
+      "high": 27175.0,
+      "low": 26530.0,
+      "open": 26955.0,
+      "time": "2026-09-28",
+      "volume": 5515
     }
   ],
   "company_name": "ABBOTT INDIA LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 68,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.28x"
+    "volume_multiplier": "0.68x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 95.0,
-    "change_pct": 0.35,
-    "close": 26955.0,
-    "previous_close": 26860.0,
+    "as_of": "2026-09-28",
+    "change": -215.0,
+    "change_pct": -0.8,
+    "close": 26740.0,
+    "previous_close": 26955.0,
     "type": "EOD_CLOSE",
-    "volume": 2263
+    "volume": 5515
   },
   "range": {
-    "distance_from_high_pct": -14.03,
-    "distance_from_low_pct": 7.24,
-    "high_52w": 31355.0,
+    "distance_from_high_pct": -13.89,
+    "distance_from_low_pct": 6.39,
+    "high_52w": 31055.0,
     "history_basis": "52_WEEK",
     "low_52w": 25135.0,
-    "range_position_pct": 29.26
+    "range_position_pct": 27.11
   },
   "risk_model": {
-    "invalidation_floor": 26011.58,
-    "risk_per_share": 1482.52,
-    "technical_pivot": 27494.1
+    "invalidation_floor": 25804.1,
+    "risk_per_share": 1470.7,
+    "technical_pivot": 27274.8
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1057.4,
-      "high": 1080.0,
-      "low": 1050.5,
-      "open": 1075.0,
-      "time": "2025-09-18",
-      "volume": 44180
-    },
-    {
       "close": 1070.8,
       "high": 1081.0,
       "low": 1058.0,
@@ -2017,13 +2009,21 @@
       "open": 974.9,
       "time": "2026-09-25",
       "volume": 45449
+    },
+    {
+      "close": 945.1,
+      "high": 978.0,
+      "low": 936.0,
+      "open": 950.0,
+      "time": "2026-09-28",
+      "volume": 62487
     }
   ],
   "company_name": "SHARDA MOTOR INDUSTRIES LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 60,
+    "momentum_score": 59,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "0.81x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -5.5,
-    "change_pct": -0.57,
-    "close": 956.35,
-    "previous_close": 961.85,
+    "as_of": "2026-09-28",
+    "change": -11.25,
+    "change_pct": -1.18,
+    "close": 945.1,
+    "previous_close": 956.35,
     "type": "EOD_CLOSE",
-    "volume": 45449
+    "volume": 62487
   },
   "range": {
-    "distance_from_high_pct": -19.63,
-    "distance_from_low_pct": 36.62,
+    "distance_from_high_pct": -20.57,
+    "distance_from_low_pct": 35.01,
     "high_52w": 1189.9,
     "history_basis": "52_WEEK",
     "low_52w": 700.0,
-    "range_position_pct": 52.33
+    "range_position_pct": 50.03
   },
   "risk_model": {
-    "invalidation_floor": 922.88,
-    "risk_per_share": 52.6,
-    "technical_pivot": 975.48
+    "invalidation_floor": 912.02,
+    "risk_per_share": 51.98,
+    "technical_pivot": 964.0
   },
   "schema_version": "1.0",
   "sector": null,

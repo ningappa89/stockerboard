@@ -233,14 +233,22 @@
       "open": 43.7,
       "time": "2026-09-25",
       "volume": 72833
+    },
+    {
+      "close": 38.07,
+      "high": 43.11,
+      "low": 37.45,
+      "open": 42.44,
+      "time": "2026-09-28",
+      "volume": 348137
     }
   ],
   "company_name": "V T M LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE222F01029",
@@ -249,30 +257,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.91x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "3.74x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.6,
-    "change_pct": -1.42,
-    "close": 41.53,
-    "previous_close": 42.13,
+    "as_of": "2026-09-28",
+    "change": -3.46,
+    "change_pct": -8.33,
+    "close": 38.07,
+    "previous_close": 41.53,
     "type": "EOD_CLOSE",
-    "volume": 72833
+    "volume": 348137
   },
   "range": {
-    "distance_from_high_pct": -32.91,
-    "distance_from_low_pct": 6.08,
+    "distance_from_high_pct": -38.5,
+    "distance_from_low_pct": 1.66,
     "high_52w": 61.9,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 39.15,
-    "range_position_pct": 10.46
+    "low_52w": 37.45,
+    "range_position_pct": 2.54
   },
   "risk_model": {
-    "invalidation_floor": 40.08,
-    "risk_per_share": 2.28,
-    "technical_pivot": 42.36
+    "invalidation_floor": 36.74,
+    "risk_per_share": 2.09,
+    "technical_pivot": 38.83
   },
   "schema_version": "1.0",
   "sector": null,

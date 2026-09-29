@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 6112.0,
-      "high": 6129.5,
-      "low": 6042.0,
-      "open": 6052.0,
-      "time": "2025-09-18",
-      "volume": 480382
-    },
-    {
       "close": 6200.0,
       "high": 6280.0,
       "low": 6156.5,
@@ -2017,13 +2009,21 @@
       "open": 9602.0,
       "time": "2026-09-25",
       "volume": 388859
+    },
+    {
+      "close": 9550.0,
+      "high": 9655.0,
+      "low": 9473.0,
+      "open": 9600.0,
+      "time": "2026-09-28",
+      "volume": 380253
     }
   ],
   "company_name": "DIVI S LABORATORIES LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 88,
+    "momentum_score": 87,
     "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.75x"
+    "volume_multiplier": "0.76x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 17.5,
-    "change_pct": 0.18,
-    "close": 9619.5,
-    "previous_close": 9602.0,
+    "as_of": "2026-09-28",
+    "change": -69.5,
+    "change_pct": -0.72,
+    "close": 9550.0,
+    "previous_close": 9619.5,
     "type": "EOD_CLOSE",
-    "volume": 388859
+    "volume": 380253
   },
   "range": {
-    "distance_from_high_pct": -1.24,
-    "distance_from_low_pct": 70.66,
+    "distance_from_high_pct": -1.95,
+    "distance_from_low_pct": 69.43,
     "high_52w": 9740.0,
     "history_basis": "52_WEEK",
     "low_52w": 5636.5,
-    "range_position_pct": 97.06
+    "range_position_pct": 95.37
   },
   "risk_model": {
-    "invalidation_floor": 9282.82,
-    "risk_per_share": 529.07,
-    "technical_pivot": 9811.89
+    "invalidation_floor": 9215.75,
+    "risk_per_share": 525.25,
+    "technical_pivot": 9741.0
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

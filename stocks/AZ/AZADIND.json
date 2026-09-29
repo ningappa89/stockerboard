@@ -233,46 +233,54 @@
       "open": 85.0,
       "time": "2026-09-25",
       "volume": 70203
+    },
+    {
+      "close": 82.3,
+      "high": 89.98,
+      "low": 80.0,
+      "open": 88.0,
+      "time": "2026-09-28",
+      "volume": 76822
     }
   ],
   "company_name": "AZAD INDIA MOBILITY LIMITED",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE566M01017",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 71,
+    "is_stage2": false,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.8x"
+    "volume_multiplier": "1.91x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 3.26,
-    "change_pct": 3.89,
-    "close": 87.03,
-    "previous_close": 83.77,
+    "as_of": "2026-09-28",
+    "change": -4.73,
+    "change_pct": -5.43,
+    "close": 82.3,
+    "previous_close": 87.03,
     "type": "EOD_CLOSE",
-    "volume": 70203
+    "volume": 76822
   },
   "range": {
-    "distance_from_high_pct": -12.08,
-    "distance_from_low_pct": 23.6,
+    "distance_from_high_pct": -16.86,
+    "distance_from_low_pct": 16.89,
     "high_52w": 98.99,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 70.41,
-    "range_position_pct": 58.15
+    "range_position_pct": 41.6
   },
   "risk_model": {
-    "invalidation_floor": 83.98,
-    "risk_per_share": 4.79,
-    "technical_pivot": 88.77
+    "invalidation_floor": 79.42,
+    "risk_per_share": 4.53,
+    "technical_pivot": 83.95
   },
   "schema_version": "1.0",
   "sector": null,

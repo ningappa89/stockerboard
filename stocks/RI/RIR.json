@@ -409,14 +409,22 @@
       "open": 183.85,
       "time": "2026-09-25",
       "volume": 2076996
+    },
+    {
+      "close": 186.21,
+      "high": 188.94,
+      "low": 183.01,
+      "open": 188.03,
+      "time": "2026-09-28",
+      "volume": 596771
     }
   ],
   "company_name": "RIR POWER ELECTRONICS LIMITED",
   "history": {
     "first_session": "2026-07-16",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 51
+    "last_session": "2026-09-28",
+    "sessions_available": 52
   },
   "industry": null,
   "isin": "INE302D01024",
@@ -424,31 +432,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 71,
+    "momentum_score": 70,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.55x"
+    "volume_multiplier": "0.16x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 3.98,
-    "change_pct": 2.16,
-    "close": 188.01,
-    "previous_close": 184.03,
+    "as_of": "2026-09-28",
+    "change": -1.8,
+    "change_pct": -0.96,
+    "close": 186.21,
+    "previous_close": 188.01,
     "type": "EOD_CLOSE",
-    "volume": 2076996
+    "volume": 596771
   },
   "range": {
-    "distance_from_high_pct": -12.12,
-    "distance_from_low_pct": 22.08,
+    "distance_from_high_pct": -12.96,
+    "distance_from_low_pct": 20.92,
     "high_52w": 213.94,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 154.0,
-    "range_position_pct": 56.74
+    "range_position_pct": 53.74
   },
   "risk_model": {
-    "invalidation_floor": 181.43,
-    "risk_per_share": 10.34,
-    "technical_pivot": 191.77
+    "invalidation_floor": 179.69,
+    "risk_per_share": 10.24,
+    "technical_pivot": 189.93
   },
   "schema_version": "1.0",
   "sector": null,

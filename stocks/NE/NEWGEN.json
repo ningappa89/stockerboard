@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 918.7,
-      "high": 947.0,
-      "low": 887.0,
-      "open": 891.0,
-      "time": "2025-09-18",
-      "volume": 6826720
-    },
-    {
       "close": 915.5,
       "high": 924.9,
       "low": 906.0,
@@ -2017,13 +2009,21 @@
       "open": 490.75,
       "time": "2026-09-25",
       "volume": 345857
+    },
+    {
+      "close": 474.4,
+      "high": 488.9,
+      "low": 472.4,
+      "open": 485.35,
+      "time": "2026-09-28",
+      "volume": 347520
     }
   ],
   "company_name": "Newgen Software Technologies L",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.27x"
+    "volume_multiplier": "0.45x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -8.3,
-    "change_pct": -1.68,
-    "close": 485.3,
-    "previous_close": 493.6,
+    "as_of": "2026-09-28",
+    "change": -10.9,
+    "change_pct": -2.25,
+    "close": 474.4,
+    "previous_close": 485.3,
     "type": "EOD_CLOSE",
-    "volume": 345857
+    "volume": 347520
   },
   "range": {
-    "distance_from_high_pct": -53.42,
-    "distance_from_low_pct": 21.01,
+    "distance_from_high_pct": -54.47,
+    "distance_from_low_pct": 18.29,
     "high_52w": 1041.95,
     "history_basis": "52_WEEK",
     "low_52w": 401.05,
-    "range_position_pct": 13.15
+    "range_position_pct": 11.44
   },
   "risk_model": {
-    "invalidation_floor": 468.31,
-    "risk_per_share": 26.7,
-    "technical_pivot": 495.01
+    "invalidation_floor": 457.8,
+    "risk_per_share": 26.09,
+    "technical_pivot": 483.89
   },
   "schema_version": "1.0",
   "sector": null,

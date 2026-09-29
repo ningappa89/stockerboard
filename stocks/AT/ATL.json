@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 30.94,
-      "high": 32.0,
-      "low": 30.77,
-      "open": 31.39,
-      "time": "2025-09-18",
-      "volume": 237502
-    },
-    {
       "close": 30.52,
       "high": 30.97,
       "low": 30.25,
@@ -2017,13 +2009,21 @@
       "open": 25.78,
       "time": "2026-09-25",
       "volume": 186397
+    },
+    {
+      "close": 24.85,
+      "high": 26.2,
+      "low": 24.8,
+      "open": 25.26,
+      "time": "2026-09-28",
+      "volume": 101125
     }
   ],
   "company_name": "Allcargo Terminals Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.7x"
+    "volume_multiplier": "0.41x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.42,
-    "change_pct": 1.67,
-    "close": 25.6,
-    "previous_close": 25.18,
+    "as_of": "2026-09-28",
+    "change": -0.75,
+    "change_pct": -2.93,
+    "close": 24.85,
+    "previous_close": 25.6,
     "type": "EOD_CLOSE",
-    "volume": 186397
+    "volume": 101125
   },
   "range": {
-    "distance_from_high_pct": -36.81,
-    "distance_from_low_pct": 40.66,
+    "distance_from_high_pct": -38.66,
+    "distance_from_low_pct": 36.54,
     "high_52w": 40.51,
     "history_basis": "52_WEEK",
     "low_52w": 18.2,
-    "range_position_pct": 33.17
+    "range_position_pct": 29.81
   },
   "risk_model": {
-    "invalidation_floor": 24.7,
-    "risk_per_share": 1.41,
-    "technical_pivot": 26.11
+    "invalidation_floor": 23.98,
+    "risk_per_share": 1.37,
+    "technical_pivot": 25.35
   },
   "schema_version": "1.0",
   "sector": null,

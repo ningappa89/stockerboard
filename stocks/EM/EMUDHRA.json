@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 684.85,
-      "high": 697.45,
-      "low": 683.0,
-      "open": 694.0,
-      "time": "2025-09-18",
-      "volume": 57001
-    },
-    {
       "close": 684.35,
       "high": 688.45,
       "low": 678.1,
@@ -2017,13 +2009,21 @@
       "open": 660.0,
       "time": "2026-09-25",
       "volume": 409910
+    },
+    {
+      "close": 649.25,
+      "high": 666.6,
+      "low": 638.05,
+      "open": 658.0,
+      "time": "2026-09-28",
+      "volume": 447539
     }
   ],
   "company_name": "EMUDHRA LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": true,
     "momentum_score": 80,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.18x"
+    "volume_multiplier": "0.2x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -5.95,
-    "change_pct": -0.9,
-    "close": 653.45,
-    "previous_close": 659.4,
+    "as_of": "2026-09-28",
+    "change": -4.2,
+    "change_pct": -0.64,
+    "close": 649.25,
+    "previous_close": 653.45,
     "type": "EOD_CLOSE",
-    "volume": 409910
+    "volume": 447539
   },
   "range": {
-    "distance_from_high_pct": -6.31,
-    "distance_from_low_pct": 79.25,
-    "high_52w": 697.45,
+    "distance_from_high_pct": -6.03,
+    "distance_from_low_pct": 78.1,
+    "high_52w": 690.9,
     "history_basis": "52_WEEK",
     "low_52w": 364.55,
-    "range_position_pct": 86.78
+    "range_position_pct": 87.24
   },
   "risk_model": {
-    "invalidation_floor": 630.58,
-    "risk_per_share": 35.94,
-    "technical_pivot": 666.52
+    "invalidation_floor": 626.53,
+    "risk_per_share": 35.71,
+    "technical_pivot": 662.24
   },
   "schema_version": "1.0",
   "sector": null,

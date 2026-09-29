@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 81.32,
-      "high": 82.89,
-      "low": 81.1,
-      "open": 81.85,
-      "time": "2025-09-18",
-      "volume": 34385
-    },
-    {
       "close": 81.61,
       "high": 83.04,
       "low": 81.5,
@@ -2017,13 +2009,21 @@
       "open": 135.0,
       "time": "2026-09-25",
       "volume": 554170
+    },
+    {
+      "close": 134.83,
+      "high": 139.37,
+      "low": 133.61,
+      "open": 138.16,
+      "time": "2026-09-28",
+      "volume": 613654
     }
   ],
   "company_name": "GHCL TEXTILES LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 84,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.74x"
+    "momentum_score": 79,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.86x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 3.78,
-    "change_pct": 2.79,
-    "close": 139.12,
-    "previous_close": 135.34,
+    "as_of": "2026-09-28",
+    "change": -4.29,
+    "change_pct": -3.08,
+    "close": 134.83,
+    "previous_close": 139.12,
     "type": "EOD_CLOSE",
-    "volume": 554170
+    "volume": 613654
   },
   "range": {
-    "distance_from_high_pct": -3.78,
-    "distance_from_low_pct": 113.18,
+    "distance_from_high_pct": -6.75,
+    "distance_from_low_pct": 106.6,
     "high_52w": 144.59,
     "history_basis": "52_WEEK",
     "low_52w": 65.26,
-    "range_position_pct": 93.1
+    "range_position_pct": 87.7
   },
   "risk_model": {
-    "invalidation_floor": 134.25,
-    "risk_per_share": 7.65,
-    "technical_pivot": 141.9
+    "invalidation_floor": 130.11,
+    "risk_per_share": 7.42,
+    "technical_pivot": 137.53
   },
   "schema_version": "1.0",
   "sector": null,

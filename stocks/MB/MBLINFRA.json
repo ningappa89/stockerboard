@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 46.55,
-      "high": 48.85,
-      "low": 46.12,
-      "open": 48.0,
-      "time": "2025-09-18",
-      "volume": 166273
-    },
-    {
       "close": 46.08,
       "high": 47.4,
       "low": 45.8,
@@ -2017,13 +2009,21 @@
       "open": 20.5,
       "time": "2026-09-25",
       "volume": 87140
+    },
+    {
+      "close": 20.8,
+      "high": 21.6,
+      "low": 20.5,
+      "open": 21.12,
+      "time": "2026-09-28",
+      "volume": 46168
     }
   ],
   "company_name": "MBL INFRASTRUCTURE LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.26x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.2x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.22,
-    "change_pct": 1.05,
-    "close": 21.12,
-    "previous_close": 20.9,
+    "as_of": "2026-09-28",
+    "change": -0.32,
+    "change_pct": -1.52,
+    "close": 20.8,
+    "previous_close": 21.12,
     "type": "EOD_CLOSE",
-    "volume": 87140
+    "volume": 46168
   },
   "range": {
-    "distance_from_high_pct": -56.77,
-    "distance_from_low_pct": 14.97,
-    "high_52w": 48.85,
+    "distance_from_high_pct": -56.12,
+    "distance_from_low_pct": 13.23,
+    "high_52w": 47.4,
     "history_basis": "52_WEEK",
     "low_52w": 18.37,
-    "range_position_pct": 9.02
+    "range_position_pct": 8.37
   },
   "risk_model": {
-    "invalidation_floor": 20.38,
-    "risk_per_share": 1.16,
-    "technical_pivot": 21.54
+    "invalidation_floor": 20.07,
+    "risk_per_share": 1.15,
+    "technical_pivot": 21.22
   },
   "schema_version": "1.0",
   "sector": null,

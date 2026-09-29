@@ -1865,14 +1865,22 @@
       "open": 228.75,
       "time": "2026-09-25",
       "volume": 153397
+    },
+    {
+      "close": 225.4,
+      "high": 230.95,
+      "low": 224.1,
+      "open": 230.5,
+      "time": "2026-09-28",
+      "volume": 243953
     }
   ],
   "company_name": "Canara Robeco Asset Management",
   "history": {
     "first_session": "2025-10-16",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 233
+    "last_session": "2026-09-28",
+    "sessions_available": 234
   },
   "industry": null,
   "isin": "INE218I01013",
@@ -1882,29 +1890,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.37x"
+    "volume_multiplier": "0.58x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.65,
-    "change_pct": 0.72,
-    "close": 230.45,
-    "previous_close": 228.8,
+    "as_of": "2026-09-28",
+    "change": -5.05,
+    "change_pct": -2.19,
+    "close": 225.4,
+    "previous_close": 230.45,
     "type": "EOD_CLOSE",
-    "volume": 153397
+    "volume": 243953
   },
   "range": {
-    "distance_from_high_pct": -34.79,
-    "distance_from_low_pct": 7.59,
+    "distance_from_high_pct": -36.22,
+    "distance_from_low_pct": 5.23,
     "high_52w": 353.4,
     "history_basis": "52_WEEK",
     "low_52w": 214.2,
-    "range_position_pct": 11.67
+    "range_position_pct": 8.05
   },
   "risk_model": {
-    "invalidation_floor": 222.38,
-    "risk_per_share": 12.68,
-    "technical_pivot": 235.06
+    "invalidation_floor": 217.51,
+    "risk_per_share": 12.4,
+    "technical_pivot": 229.91
   },
   "schema_version": "1.0",
   "sector": null,

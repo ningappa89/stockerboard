@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 139.74,
-      "high": 144.0,
-      "low": 138.59,
-      "open": 141.9,
-      "time": "2025-09-18",
-      "volume": 532363
-    },
-    {
       "close": 137.67,
       "high": 141.69,
       "low": 136.25,
@@ -2017,13 +2009,21 @@
       "open": 139.25,
       "time": "2026-09-25",
       "volume": 382049
+    },
+    {
+      "close": 138.03,
+      "high": 142.11,
+      "low": 137.5,
+      "open": 142.11,
+      "time": "2026-09-28",
+      "volume": 670774
     }
   ],
   "company_name": "ORIENTAL HOTELS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 82,
+    "momentum_score": 79,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.52x"
+    "volume_multiplier": "0.93x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.52,
-    "change_pct": 0.37,
-    "close": 140.93,
-    "previous_close": 140.41,
+    "as_of": "2026-09-28",
+    "change": -2.9,
+    "change_pct": -2.06,
+    "close": 138.03,
+    "previous_close": 140.93,
     "type": "EOD_CLOSE",
-    "volume": 382049
+    "volume": 670774
   },
   "range": {
-    "distance_from_high_pct": -5.29,
-    "distance_from_low_pct": 76.16,
+    "distance_from_high_pct": -7.24,
+    "distance_from_low_pct": 72.54,
     "high_52w": 148.8,
     "history_basis": "52_WEEK",
     "low_52w": 80.0,
-    "range_position_pct": 88.56
+    "range_position_pct": 84.35
   },
   "risk_model": {
-    "invalidation_floor": 136.0,
-    "risk_per_share": 7.75,
-    "technical_pivot": 143.75
+    "invalidation_floor": 133.2,
+    "risk_per_share": 7.59,
+    "technical_pivot": 140.79
   },
   "schema_version": "1.0",
   "sector": null,

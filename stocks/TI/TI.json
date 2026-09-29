@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 468.3,
-      "high": 482.0,
-      "low": 465.1,
-      "open": 471.7,
-      "time": "2025-09-18",
-      "volume": 1836850
-    },
-    {
       "close": 459.3,
       "high": 470.95,
       "low": 457.1,
@@ -2017,13 +2009,21 @@
       "open": 590.0,
       "time": "2026-09-25",
       "volume": 1372795
+    },
+    {
+      "close": 561.65,
+      "high": 578.95,
+      "low": 560.0,
+      "open": 575.25,
+      "time": "2026-09-28",
+      "volume": 541005
     }
   ],
   "company_name": "TILAKNAGAR INDUSTRIES LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 83,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "1.73x"
+    "momentum_score": 78,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.68x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -5.85,
-    "change_pct": -1.0,
-    "close": 581.7,
-    "previous_close": 587.55,
+    "as_of": "2026-09-28",
+    "change": -20.05,
+    "change_pct": -3.45,
+    "close": 561.65,
+    "previous_close": 581.7,
     "type": "EOD_CLOSE",
-    "volume": 1372795
+    "volume": 541005
   },
   "range": {
-    "distance_from_high_pct": -4.29,
-    "distance_from_low_pct": 52.46,
+    "distance_from_high_pct": -7.59,
+    "distance_from_low_pct": 47.2,
     "high_52w": 607.8,
     "history_basis": "52_WEEK",
     "low_52w": 381.55,
-    "range_position_pct": 88.46
+    "range_position_pct": 79.6
   },
   "risk_model": {
-    "invalidation_floor": 561.34,
-    "risk_per_share": 31.99,
-    "technical_pivot": 593.33
+    "invalidation_floor": 541.99,
+    "risk_per_share": 30.89,
+    "technical_pivot": 572.88
   },
   "schema_version": "1.0",
   "sector": null,

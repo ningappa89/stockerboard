@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3.62,
-      "high": 3.75,
-      "low": 3.56,
-      "open": 3.59,
-      "time": "2025-09-18",
-      "volume": 2608999
-    },
-    {
       "close": 3.61,
       "high": 3.69,
       "low": 3.56,
@@ -2017,13 +2009,21 @@
       "open": 2.7,
       "time": "2026-09-25",
       "volume": 1326115
+    },
+    {
+      "close": 2.67,
+      "high": 2.73,
+      "low": 2.62,
+      "open": 2.66,
+      "time": "2026-09-28",
+      "volume": 980887
     }
   ],
   "company_name": "NANDAN DENIM LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 44,
+    "momentum_score": 48,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.16x"
+    "volume_multiplier": "0.87x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.08,
-    "change_pct": -2.97,
-    "close": 2.61,
-    "previous_close": 2.69,
+    "as_of": "2026-09-28",
+    "change": 0.06,
+    "change_pct": 2.3,
+    "close": 2.67,
+    "previous_close": 2.61,
     "type": "EOD_CLOSE",
-    "volume": 1326115
+    "volume": 980887
   },
   "range": {
-    "distance_from_high_pct": -30.4,
-    "distance_from_low_pct": 45.0,
-    "high_52w": 3.75,
+    "distance_from_high_pct": -27.64,
+    "distance_from_low_pct": 48.33,
+    "high_52w": 3.69,
     "history_basis": "52_WEEK",
     "low_52w": 1.8,
-    "range_position_pct": 41.54
+    "range_position_pct": 46.03
   },
   "risk_model": {
-    "invalidation_floor": 2.52,
+    "invalidation_floor": 2.58,
     "risk_per_share": 0.5,
-    "technical_pivot": 2.66
+    "technical_pivot": 2.72
   },
   "schema_version": "1.0",
   "sector": null,

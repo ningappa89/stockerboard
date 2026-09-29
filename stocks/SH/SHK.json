@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 251.72,
-      "high": 254.9,
-      "low": 248.55,
-      "open": 254.6,
-      "time": "2025-09-18",
-      "volume": 316155
-    },
-    {
       "close": 248.8,
       "high": 252.85,
       "low": 247.5,
@@ -2017,13 +2009,21 @@
       "open": 140.96,
       "time": "2026-09-25",
       "volume": 122196
+    },
+    {
+      "close": 137.78,
+      "high": 143.32,
+      "low": 136.42,
+      "open": 143.32,
+      "time": "2026-09-28",
+      "volume": 147035
     }
   ],
   "company_name": "S H KELKAR AND CO. LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.31x"
+    "volume_multiplier": "0.38x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.4,
-    "change_pct": 0.99,
-    "close": 142.36,
-    "previous_close": 140.96,
+    "as_of": "2026-09-28",
+    "change": -4.58,
+    "change_pct": -3.22,
+    "close": 137.78,
+    "previous_close": 142.36,
     "type": "EOD_CLOSE",
-    "volume": 122196
+    "volume": 147035
   },
   "range": {
-    "distance_from_high_pct": -44.15,
-    "distance_from_low_pct": 27.13,
-    "high_52w": 254.9,
+    "distance_from_high_pct": -45.51,
+    "distance_from_low_pct": 23.04,
+    "high_52w": 252.85,
     "history_basis": "52_WEEK",
     "low_52w": 111.98,
-    "range_position_pct": 21.26
+    "range_position_pct": 18.31
   },
   "risk_model": {
-    "invalidation_floor": 137.38,
-    "risk_per_share": 7.83,
-    "technical_pivot": 145.21
+    "invalidation_floor": 132.96,
+    "risk_per_share": 7.58,
+    "technical_pivot": 140.54
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 41.42,
-      "high": 42.14,
-      "low": 41.14,
-      "open": 41.76,
-      "time": "2025-09-18",
-      "volume": 5590840
-    },
-    {
       "close": 42.92,
       "high": 43.18,
       "low": 41.3,
@@ -2017,13 +2009,21 @@
       "open": 267.1,
       "time": "2026-09-25",
       "volume": 13680181
+    },
+    {
+      "close": 264.5,
+      "high": 272.5,
+      "low": 261.4,
+      "open": 270.1,
+      "time": "2026-09-28",
+      "volume": 12661694
     }
   ],
   "company_name": "CUPID LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Consumer Durables",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 75,
+    "momentum_score": 72,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.73x"
+    "volume_multiplier": "0.68x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 3.7,
-    "change_pct": 1.39,
-    "close": 270.0,
-    "previous_close": 266.3,
+    "as_of": "2026-09-28",
+    "change": -5.5,
+    "change_pct": -2.04,
+    "close": 264.5,
+    "previous_close": 270.0,
     "type": "EOD_CLOSE",
-    "volume": 13680181
+    "volume": 12661694
   },
   "range": {
-    "distance_from_high_pct": -9.7,
-    "distance_from_low_pct": 556.3,
+    "distance_from_high_pct": -11.54,
+    "distance_from_low_pct": 540.44,
     "high_52w": 299.0,
     "history_basis": "52_WEEK",
-    "low_52w": 41.14,
-    "range_position_pct": 88.75
+    "low_52w": 41.3,
+    "range_position_pct": 86.61
   },
   "risk_model": {
-    "invalidation_floor": 260.55,
-    "risk_per_share": 14.85,
-    "technical_pivot": 275.4
+    "invalidation_floor": 255.24,
+    "risk_per_share": 14.55,
+    "technical_pivot": 269.79
   },
   "schema_version": "1.0",
   "sector": "Consumer Durables",

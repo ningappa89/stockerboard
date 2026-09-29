@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 719.75,
-      "high": 724.1,
-      "low": 713.4,
-      "open": 713.8,
-      "time": "2025-09-18",
-      "volume": 1972919
-    },
-    {
       "close": 720.15,
       "high": 723.9,
       "low": 716.0,
@@ -2017,13 +2009,21 @@
       "open": 822.0,
       "time": "2026-09-25",
       "volume": 459905
+    },
+    {
+      "close": 813.25,
+      "high": 815.0,
+      "low": 804.2,
+      "open": 815.0,
+      "time": "2026-09-28",
+      "volume": 1076911
     }
   ],
   "company_name": "MARICO LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Fast Moving Consumer Goods",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 78,
+    "momentum_score": 77,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.25x"
+    "volume_multiplier": "0.61x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -5.55,
-    "change_pct": -0.67,
-    "close": 819.0,
-    "previous_close": 824.55,
+    "as_of": "2026-09-28",
+    "change": -5.75,
+    "change_pct": -0.7,
+    "close": 813.25,
+    "previous_close": 819.0,
     "type": "EOD_CLOSE",
-    "volume": 459905
+    "volume": 1076911
   },
   "range": {
-    "distance_from_high_pct": -7.88,
-    "distance_from_low_pct": 18.64,
+    "distance_from_high_pct": -8.53,
+    "distance_from_low_pct": 17.81,
     "high_52w": 889.1,
     "history_basis": "52_WEEK",
     "low_52w": 690.3,
-    "range_position_pct": 64.74
+    "range_position_pct": 61.85
   },
   "risk_model": {
-    "invalidation_floor": 790.33,
-    "risk_per_share": 45.05,
-    "technical_pivot": 835.38
+    "invalidation_floor": 784.79,
+    "risk_per_share": 44.72,
+    "technical_pivot": 829.51
   },
   "schema_version": "1.0",
   "sector": "Fast Moving Consumer Goods",

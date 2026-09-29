@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 531.45,
-      "high": 540.0,
-      "low": 521.1,
-      "open": 537.3,
-      "time": "2025-09-18",
-      "volume": 492319
-    },
-    {
       "close": 549.25,
       "high": 550.5,
       "low": 532.55,
@@ -2017,13 +2009,21 @@
       "open": 680.3,
       "time": "2026-09-25",
       "volume": 74927
+    },
+    {
+      "close": 673.0,
+      "high": 678.75,
+      "low": 668.15,
+      "open": 678.5,
+      "time": "2026-09-28",
+      "volume": 126782
     }
   ],
   "company_name": "Minda Corporation Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 72,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.41x"
+    "volume_multiplier": "0.74x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.45,
-    "change_pct": -0.21,
-    "close": 678.85,
-    "previous_close": 680.3,
+    "as_of": "2026-09-28",
+    "change": -5.85,
+    "change_pct": -0.86,
+    "close": 673.0,
+    "previous_close": 678.85,
     "type": "EOD_CLOSE",
-    "volume": 74927
+    "volume": 126782
   },
   "range": {
-    "distance_from_high_pct": -11.72,
-    "distance_from_low_pct": 44.9,
+    "distance_from_high_pct": -12.48,
+    "distance_from_low_pct": 43.65,
     "high_52w": 769.0,
     "history_basis": "52_WEEK",
     "low_52w": 468.5,
-    "range_position_pct": 70.0
+    "range_position_pct": 68.05
   },
   "risk_model": {
-    "invalidation_floor": 655.09,
-    "risk_per_share": 37.34,
-    "technical_pivot": 692.43
+    "invalidation_floor": 649.44,
+    "risk_per_share": 37.02,
+    "technical_pivot": 686.46
   },
   "schema_version": "1.0",
   "sector": null,

@@ -889,14 +889,22 @@
       "open": 685.0,
       "time": "2026-09-25",
       "volume": 145
+    },
+    {
+      "close": 677.9,
+      "high": 688.0,
+      "low": 677.9,
+      "open": 688.0,
+      "time": "2026-09-28",
+      "volume": 59
     }
   ],
   "company_name": "MAC CHARLES (INDIA) LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE435D01014",
@@ -906,29 +914,29 @@
     "is_stage2": false,
     "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.07x"
+    "volume_multiplier": "0.03x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 3.15,
-    "change_pct": 0.46,
-    "close": 681.0,
-    "previous_close": 677.85,
+    "as_of": "2026-09-28",
+    "change": -3.1,
+    "change_pct": -0.46,
+    "close": 677.9,
+    "previous_close": 681.0,
     "type": "EOD_CLOSE",
-    "volume": 145
+    "volume": 59
   },
   "range": {
-    "distance_from_high_pct": -14.77,
-    "distance_from_low_pct": 17.41,
+    "distance_from_high_pct": -15.16,
+    "distance_from_low_pct": 16.88,
     "high_52w": 799.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 580.0,
-    "range_position_pct": 46.12
+    "range_position_pct": 44.7
   },
   "risk_model": {
-    "invalidation_floor": 657.16,
-    "risk_per_share": 37.46,
-    "technical_pivot": 694.62
+    "invalidation_floor": 654.17,
+    "risk_per_share": 37.29,
+    "technical_pivot": 691.46
   },
   "schema_version": "1.0",
   "sector": null,

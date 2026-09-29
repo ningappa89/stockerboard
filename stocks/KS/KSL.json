@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 814.7,
-      "high": 827.85,
-      "low": 810.0,
-      "open": 820.2,
-      "time": "2025-09-18",
-      "volume": 23955
-    },
-    {
       "close": 826.7,
       "high": 831.2,
       "low": 809.05,
@@ -2017,13 +2009,21 @@
       "open": 974.2,
       "time": "2026-09-25",
       "volume": 94739
+    },
+    {
+      "close": 952.35,
+      "high": 980.0,
+      "low": 940.55,
+      "open": 970.0,
+      "time": "2026-09-28",
+      "volume": 126983
     }
   ],
   "company_name": "KALYANI STEELS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 80,
+    "momentum_score": 78,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.54x"
+    "volume_multiplier": "0.74x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -9.5,
-    "change_pct": -0.98,
-    "close": 964.7,
-    "previous_close": 974.2,
+    "as_of": "2026-09-28",
+    "change": -12.35,
+    "change_pct": -1.28,
+    "close": 952.35,
+    "previous_close": 964.7,
     "type": "EOD_CLOSE",
-    "volume": 94739
+    "volume": 126983
   },
   "range": {
-    "distance_from_high_pct": -6.6,
-    "distance_from_low_pct": 68.07,
+    "distance_from_high_pct": -7.8,
+    "distance_from_low_pct": 65.91,
     "high_52w": 1032.9,
     "history_basis": "52_WEEK",
     "low_52w": 574.0,
-    "range_position_pct": 85.14
+    "range_position_pct": 82.45
   },
   "risk_model": {
-    "invalidation_floor": 930.94,
-    "risk_per_share": 53.05,
-    "technical_pivot": 983.99
+    "invalidation_floor": 919.02,
+    "risk_per_share": 52.38,
+    "technical_pivot": 971.4
   },
   "schema_version": "1.0",
   "sector": null,

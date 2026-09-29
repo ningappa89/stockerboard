@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 51.37,
-      "high": 56.69,
-      "low": 49.65,
-      "open": 49.65,
-      "time": "2025-09-18",
-      "volume": 1367904
-    },
-    {
       "close": 50.48,
       "high": 54.9,
       "low": 50.0,
@@ -2017,13 +2009,21 @@
       "open": 27.0,
       "time": "2026-09-25",
       "volume": 90978
+    },
+    {
+      "close": 26.4,
+      "high": 27.5,
+      "low": 25.93,
+      "open": 26.01,
+      "time": "2026-09-28",
+      "volume": 80603
     }
   ],
   "company_name": "TIGER LOGISTICS (INDIA) LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.08x"
+    "volume_multiplier": "0.96x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.03,
-    "change_pct": -0.11,
-    "close": 26.33,
-    "previous_close": 26.36,
+    "as_of": "2026-09-28",
+    "change": 0.07,
+    "change_pct": 0.27,
+    "close": 26.4,
+    "previous_close": 26.33,
     "type": "EOD_CLOSE",
-    "volume": 90978
+    "volume": 80603
   },
   "range": {
-    "distance_from_high_pct": -53.55,
-    "distance_from_low_pct": 14.98,
-    "high_52w": 56.69,
+    "distance_from_high_pct": -51.91,
+    "distance_from_low_pct": 15.28,
+    "high_52w": 54.9,
     "history_basis": "52_WEEK",
     "low_52w": 22.9,
-    "range_position_pct": 10.15
+    "range_position_pct": 10.94
   },
   "risk_model": {
-    "invalidation_floor": 25.41,
+    "invalidation_floor": 25.48,
     "risk_per_share": 1.45,
-    "technical_pivot": 26.86
+    "technical_pivot": 26.93
   },
   "schema_version": "1.0",
   "sector": null,

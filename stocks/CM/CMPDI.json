@@ -985,14 +985,22 @@
       "open": 207.49,
       "time": "2026-09-25",
       "volume": 1078380
+    },
+    {
+      "close": 204.58,
+      "high": 209.9,
+      "low": 203.78,
+      "open": 209.9,
+      "time": "2026-09-28",
+      "volume": 777876
     }
   ],
   "company_name": "Central Mine Planning & Design",
   "history": {
     "first_session": "2026-03-30",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 123
+    "last_session": "2026-09-28",
+    "sessions_available": 124
   },
   "industry": null,
   "isin": "INE05HV01027",
@@ -1000,31 +1008,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 51,
+    "momentum_score": 48,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.56x"
+    "volume_multiplier": "0.4x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 3.49,
-    "change_pct": 1.69,
-    "close": 210.2,
-    "previous_close": 206.71,
+    "as_of": "2026-09-28",
+    "change": -5.62,
+    "change_pct": -2.67,
+    "close": 204.58,
+    "previous_close": 210.2,
     "type": "EOD_CLOSE",
-    "volume": 1078380
+    "volume": 777876
   },
   "range": {
-    "distance_from_high_pct": -25.91,
-    "distance_from_low_pct": 39.98,
+    "distance_from_high_pct": -27.89,
+    "distance_from_low_pct": 36.24,
     "high_52w": 283.69,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 150.16,
-    "range_position_pct": 44.96
+    "range_position_pct": 40.75
   },
   "risk_model": {
-    "invalidation_floor": 202.84,
-    "risk_per_share": 11.56,
-    "technical_pivot": 214.4
+    "invalidation_floor": 197.42,
+    "risk_per_share": 11.25,
+    "technical_pivot": 208.67
   },
   "schema_version": "1.0",
   "sector": null,

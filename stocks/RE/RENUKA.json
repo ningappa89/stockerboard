@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 31.97,
-      "high": 33.3,
-      "low": 31.24,
-      "open": 31.3,
-      "time": "2025-09-18",
-      "volume": 18077115
-    },
-    {
       "close": 32.31,
       "high": 32.46,
       "low": 31.6,
@@ -2017,13 +2009,21 @@
       "open": 22.92,
       "time": "2026-09-25",
       "volume": 24534315
+    },
+    {
+      "close": 22.91,
+      "high": 23.84,
+      "low": 22.78,
+      "open": 23.5,
+      "time": "2026-09-28",
+      "volume": 14572179
     }
   ],
   "company_name": "SHREE RENUKA SUGARS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.42x"
+    "volume_multiplier": "0.89x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.39,
-    "change_pct": 1.7,
-    "close": 23.31,
-    "previous_close": 22.92,
+    "as_of": "2026-09-28",
+    "change": -0.4,
+    "change_pct": -1.72,
+    "close": 22.91,
+    "previous_close": 23.31,
     "type": "EOD_CLOSE",
-    "volume": 24534315
+    "volume": 14572179
   },
   "range": {
-    "distance_from_high_pct": -30.0,
-    "distance_from_low_pct": 10.74,
-    "high_52w": 33.3,
+    "distance_from_high_pct": -29.42,
+    "distance_from_low_pct": 8.84,
+    "high_52w": 32.46,
     "history_basis": "52_WEEK",
     "low_52w": 21.05,
-    "range_position_pct": 18.45
+    "range_position_pct": 16.3
   },
   "risk_model": {
-    "invalidation_floor": 22.49,
-    "risk_per_share": 1.29,
-    "technical_pivot": 23.78
+    "invalidation_floor": 22.11,
+    "risk_per_share": 1.26,
+    "technical_pivot": 23.37
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 109.13,
-      "high": 109.89,
-      "low": 106.05,
-      "open": 106.05,
-      "time": "2025-09-18",
-      "volume": 6124
-    },
-    {
       "close": 107.96,
       "high": 109.94,
       "low": 106.6,
@@ -2017,13 +2009,21 @@
       "open": 59.8,
       "time": "2026-09-25",
       "volume": 7194
+    },
+    {
+      "close": 58.81,
+      "high": 63.0,
+      "low": 57.8,
+      "open": 63.0,
+      "time": "2026-09-28",
+      "volume": 6485
     }
   ],
   "company_name": "SARTHAK METALS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.04x"
+    "volume_multiplier": "0.91x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.39,
-    "change_pct": -2.29,
-    "close": 59.35,
-    "previous_close": 60.74,
+    "as_of": "2026-09-28",
+    "change": -0.54,
+    "change_pct": -0.91,
+    "close": 58.81,
+    "previous_close": 59.35,
     "type": "EOD_CLOSE",
-    "volume": 7194
+    "volume": 6485
   },
   "range": {
-    "distance_from_high_pct": -50.95,
-    "distance_from_low_pct": 4.84,
+    "distance_from_high_pct": -51.4,
+    "distance_from_low_pct": 3.89,
     "high_52w": 121.0,
     "history_basis": "52_WEEK",
     "low_52w": 56.61,
-    "range_position_pct": 4.26
+    "range_position_pct": 3.42
   },
   "risk_model": {
-    "invalidation_floor": 57.27,
-    "risk_per_share": 3.27,
-    "technical_pivot": 60.54
+    "invalidation_floor": 56.75,
+    "risk_per_share": 3.24,
+    "technical_pivot": 59.99
   },
   "schema_version": "1.0",
   "sector": null,

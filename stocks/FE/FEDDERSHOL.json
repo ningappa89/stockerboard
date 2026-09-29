@@ -889,14 +889,22 @@
       "open": 66.14,
       "time": "2026-09-25",
       "volume": 5634189
+    },
+    {
+      "close": 61.89,
+      "high": 63.8,
+      "low": 61.0,
+      "open": 63.54,
+      "time": "2026-09-28",
+      "volume": 3142774
     }
   ],
   "company_name": "FEDDERS HOLDING LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE417D01020",
@@ -904,31 +912,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 68,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.66x"
+    "volume_multiplier": "0.36x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.4,
-    "change_pct": -3.71,
-    "close": 62.31,
-    "previous_close": 64.71,
+    "as_of": "2026-09-28",
+    "change": -0.42,
+    "change_pct": -0.67,
+    "close": 61.89,
+    "previous_close": 62.31,
     "type": "EOD_CLOSE",
-    "volume": 5634189
+    "volume": 3142774
   },
   "range": {
-    "distance_from_high_pct": -14.37,
-    "distance_from_low_pct": 94.35,
+    "distance_from_high_pct": -14.95,
+    "distance_from_low_pct": 93.04,
     "high_52w": 72.77,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 32.06,
-    "range_position_pct": 74.31
+    "range_position_pct": 73.27
   },
   "risk_model": {
-    "invalidation_floor": 60.13,
-    "risk_per_share": 3.43,
-    "technical_pivot": 63.56
+    "invalidation_floor": 59.72,
+    "risk_per_share": 3.41,
+    "technical_pivot": 63.13
   },
   "schema_version": "1.0",
   "sector": null,

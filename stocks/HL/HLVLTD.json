@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 12.25,
-      "high": 12.6,
-      "low": 12.06,
-      "open": 12.6,
-      "time": "2025-09-18",
-      "volume": 259656
-    },
-    {
       "close": 12.19,
       "high": 12.39,
       "low": 12.15,
@@ -2017,13 +2009,21 @@
       "open": 6.5,
       "time": "2026-09-25",
       "volume": 86809
+    },
+    {
+      "close": 6.37,
+      "high": 6.55,
+      "low": 6.15,
+      "open": 6.55,
+      "time": "2026-09-28",
+      "volume": 139134
     }
   ],
   "company_name": "HLV LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.41x"
+    "volume_multiplier": "0.66x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.03,
-    "change_pct": 0.46,
-    "close": 6.53,
-    "previous_close": 6.5,
+    "as_of": "2026-09-28",
+    "change": -0.16,
+    "change_pct": -2.45,
+    "close": 6.37,
+    "previous_close": 6.53,
     "type": "EOD_CLOSE",
-    "volume": 86809
+    "volume": 139134
   },
   "range": {
-    "distance_from_high_pct": -48.17,
-    "distance_from_low_pct": 16.61,
-    "high_52w": 12.6,
+    "distance_from_high_pct": -48.59,
+    "distance_from_low_pct": 13.75,
+    "high_52w": 12.39,
     "history_basis": "52_WEEK",
     "low_52w": 5.6,
-    "range_position_pct": 13.29
+    "range_position_pct": 11.34
   },
   "risk_model": {
-    "invalidation_floor": 6.3,
+    "invalidation_floor": 6.15,
     "risk_per_share": 0.5,
-    "technical_pivot": 6.66
+    "technical_pivot": 6.5
   },
   "schema_version": "1.0",
   "sector": null,

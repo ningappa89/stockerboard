@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 74.22,
-      "high": 74.22,
-      "low": 69.11,
-      "open": 69.11,
-      "time": "2025-09-18",
-      "volume": 171237
-    },
-    {
       "close": 77.6,
       "high": 77.93,
       "low": 74.0,
@@ -2017,46 +2009,54 @@
       "open": 98.5,
       "time": "2026-09-25",
       "volume": 112885
+    },
+    {
+      "close": 99.53,
+      "high": 101.57,
+      "low": 99.0,
+      "open": 101.57,
+      "time": "2026-09-28",
+      "volume": 50771
     }
   ],
   "company_name": "AAREY DRUGS & PHARMACEUTICALS",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE198H01019",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 86,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.44x"
+    "momentum_score": 83,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.21x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.31,
-    "change_pct": 1.31,
-    "close": 101.57,
-    "previous_close": 100.26,
+    "as_of": "2026-09-28",
+    "change": -2.04,
+    "change_pct": -2.01,
+    "close": 99.53,
+    "previous_close": 101.57,
     "type": "EOD_CLOSE",
-    "volume": 112885
+    "volume": 50771
   },
   "range": {
-    "distance_from_high_pct": -2.33,
-    "distance_from_low_pct": 101.89,
+    "distance_from_high_pct": -4.29,
+    "distance_from_low_pct": 97.83,
     "high_52w": 103.99,
     "history_basis": "52_WEEK",
     "low_52w": 50.31,
-    "range_position_pct": 95.49
+    "range_position_pct": 91.69
   },
   "risk_model": {
-    "invalidation_floor": 98.02,
-    "risk_per_share": 5.58,
-    "technical_pivot": 103.6
+    "invalidation_floor": 96.05,
+    "risk_per_share": 5.47,
+    "technical_pivot": 101.52
   },
   "schema_version": "1.0",
   "sector": null,

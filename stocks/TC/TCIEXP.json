@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 719.0,
-      "high": 729.9,
-      "low": 696.4,
-      "open": 704.0,
-      "time": "2025-09-18",
-      "volume": 35588
-    },
-    {
       "close": 710.75,
       "high": 722.5,
       "low": 707.7,
@@ -2017,13 +2009,21 @@
       "open": 499.15,
       "time": "2026-09-25",
       "volume": 33811
+    },
+    {
+      "close": 486.0,
+      "high": 499.45,
+      "low": 482.3,
+      "open": 498.0,
+      "time": "2026-09-28",
+      "volume": 15696
     }
   ],
   "company_name": "TCI Express Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.12x"
+    "volume_multiplier": "0.54x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 8.8,
-    "change_pct": 1.79,
-    "close": 501.55,
-    "previous_close": 492.75,
+    "as_of": "2026-09-28",
+    "change": -15.55,
+    "change_pct": -3.1,
+    "close": 486.0,
+    "previous_close": 501.55,
     "type": "EOD_CLOSE",
-    "volume": 33811
+    "volume": 15696
   },
   "range": {
-    "distance_from_high_pct": -35.7,
-    "distance_from_low_pct": 12.07,
+    "distance_from_high_pct": -37.69,
+    "distance_from_low_pct": 8.59,
     "high_52w": 780.0,
     "history_basis": "52_WEEK",
     "low_52w": 447.55,
-    "range_position_pct": 16.24
+    "range_position_pct": 11.57
   },
   "risk_model": {
-    "invalidation_floor": 484.0,
-    "risk_per_share": 27.58,
-    "technical_pivot": 511.58
+    "invalidation_floor": 468.99,
+    "risk_per_share": 26.73,
+    "technical_pivot": 495.72
   },
   "schema_version": "1.0",
   "sector": null,

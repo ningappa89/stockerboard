@@ -113,14 +113,22 @@
       "open": 518.9,
       "time": "2026-09-25",
       "volume": 398066
+    },
+    {
+      "close": 517.85,
+      "high": 539.95,
+      "low": 510.2,
+      "open": 538.7,
+      "time": "2026-09-28",
+      "volume": 48711
     }
   ],
   "company_name": "Purple Style Labs Limited",
   "history": {
     "first_session": "2026-09-07",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 14
+    "last_session": "2026-09-28",
+    "sessions_available": 15
   },
   "industry": null,
   "isin": "INE0I1B01016",
@@ -128,31 +136,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 78,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.43x"
+    "volume_multiplier": "0.06x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 15.15,
-    "change_pct": 2.86,
-    "close": 545.55,
-    "previous_close": 530.4,
+    "as_of": "2026-09-28",
+    "change": -27.7,
+    "change_pct": -5.08,
+    "close": 517.85,
+    "previous_close": 545.55,
     "type": "EOD_CLOSE",
-    "volume": 398066
+    "volume": 48711
   },
   "range": {
-    "distance_from_high_pct": -7.36,
-    "distance_from_low_pct": 8.88,
+    "distance_from_high_pct": -12.06,
+    "distance_from_low_pct": 3.35,
     "high_52w": 588.9,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 501.05,
-    "range_position_pct": 50.65
+    "range_position_pct": 19.12
   },
   "risk_model": {
-    "invalidation_floor": 526.46,
-    "risk_per_share": 30.0,
-    "technical_pivot": 556.46
+    "invalidation_floor": 499.73,
+    "risk_per_share": 28.48,
+    "technical_pivot": 528.21
   },
   "schema_version": "1.0",
   "sector": null,

@@ -657,14 +657,22 @@
       "open": 39.48,
       "time": "2026-09-25",
       "volume": 236021
+    },
+    {
+      "close": 38.93,
+      "high": 39.68,
+      "low": 38.5,
+      "open": 39.62,
+      "time": "2026-09-28",
+      "volume": 154119
     }
   ],
   "company_name": "MERCURY EV-TECH LIMITED",
   "history": {
     "first_session": "2026-06-02",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 82
+    "last_session": "2026-09-28",
+    "sessions_available": 83
   },
   "industry": null,
   "isin": "INE763M01028",
@@ -672,31 +680,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 75,
+    "momentum_score": 72,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.24x"
+    "volume_multiplier": "0.16x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.78,
-    "change_pct": 2.01,
-    "close": 39.65,
-    "previous_close": 38.87,
+    "as_of": "2026-09-28",
+    "change": -0.72,
+    "change_pct": -1.82,
+    "close": 38.93,
+    "previous_close": 39.65,
     "type": "EOD_CLOSE",
-    "volume": 236021
+    "volume": 154119
   },
   "range": {
-    "distance_from_high_pct": -9.99,
-    "distance_from_low_pct": 31.47,
+    "distance_from_high_pct": -11.62,
+    "distance_from_low_pct": 29.08,
     "high_52w": 44.05,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 30.16,
-    "range_position_pct": 68.32
+    "range_position_pct": 63.14
   },
   "risk_model": {
-    "invalidation_floor": 38.26,
-    "risk_per_share": 2.18,
-    "technical_pivot": 40.44
+    "invalidation_floor": 37.57,
+    "risk_per_share": 2.14,
+    "technical_pivot": 39.71
   },
   "schema_version": "1.0",
   "sector": null,

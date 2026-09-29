@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 35.58,
-      "high": 36.9,
-      "low": 35.25,
-      "open": 36.0,
-      "time": "2025-09-18",
-      "volume": 96989
-    },
-    {
       "close": 35.52,
       "high": 36.24,
       "low": 35.0,
@@ -2017,13 +2009,21 @@
       "open": 29.88,
       "time": "2026-09-25",
       "volume": 3166
+    },
+    {
+      "close": 29.49,
+      "high": 30.89,
+      "low": 29.12,
+      "open": 29.93,
+      "time": "2026-09-28",
+      "volume": 15907
     }
   ],
   "company_name": "IND TERRAIN FASHIONS LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 45,
+    "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.09x"
+    "volume_multiplier": "0.48x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.04,
-    "change_pct": 0.13,
-    "close": 29.93,
-    "previous_close": 29.89,
+    "as_of": "2026-09-28",
+    "change": -0.44,
+    "change_pct": -1.47,
+    "close": 29.49,
+    "previous_close": 29.93,
     "type": "EOD_CLOSE",
-    "volume": 3166
+    "volume": 15907
   },
   "range": {
-    "distance_from_high_pct": -29.77,
-    "distance_from_low_pct": 21.86,
+    "distance_from_high_pct": -30.81,
+    "distance_from_low_pct": 20.07,
     "high_52w": 42.62,
     "history_basis": "52_WEEK",
     "low_52w": 24.56,
-    "range_position_pct": 29.73
+    "range_position_pct": 27.3
   },
   "risk_model": {
-    "invalidation_floor": 28.88,
-    "risk_per_share": 1.65,
-    "technical_pivot": 30.53
+    "invalidation_floor": 28.46,
+    "risk_per_share": 1.62,
+    "technical_pivot": 30.08
   },
   "schema_version": "1.0",
   "sector": null,

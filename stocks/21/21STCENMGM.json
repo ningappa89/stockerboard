@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 53.32,
-      "high": 54.47,
-      "low": 52.75,
-      "open": 53.75,
-      "time": "2025-09-18",
-      "volume": 1068
-    },
-    {
       "close": 52.42,
       "high": 54.1,
       "low": 52.32,
@@ -2017,13 +2009,21 @@
       "open": 40.16,
       "time": "2026-09-25",
       "volume": 4675
+    },
+    {
+      "close": 39.64,
+      "high": 40.27,
+      "low": 39.1,
+      "open": 40.27,
+      "time": "2026-09-28",
+      "volume": 5424
     }
   ],
   "company_name": "21ST CENTURY MGMT SERVICE",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 49,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.4x"
+    "volume_multiplier": "1.58x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.1,
-    "change_pct": 0.25,
-    "close": 39.87,
-    "previous_close": 39.77,
+    "as_of": "2026-09-28",
+    "change": -0.23,
+    "change_pct": -0.58,
+    "close": 39.64,
+    "previous_close": 39.87,
     "type": "EOD_CLOSE",
-    "volume": 4675
+    "volume": 5424
   },
   "range": {
-    "distance_from_high_pct": -26.8,
-    "distance_from_low_pct": 41.13,
-    "high_52w": 54.47,
+    "distance_from_high_pct": -26.73,
+    "distance_from_low_pct": 40.32,
+    "high_52w": 54.1,
     "history_basis": "52_WEEK",
     "low_52w": 28.25,
-    "range_position_pct": 44.32
+    "range_position_pct": 44.06
   },
   "risk_model": {
-    "invalidation_floor": 38.47,
-    "risk_per_share": 2.2,
-    "technical_pivot": 40.67
+    "invalidation_floor": 38.25,
+    "risk_per_share": 2.18,
+    "technical_pivot": 40.43
   },
   "schema_version": "1.0",
   "sector": null,

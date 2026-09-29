@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1430.7,
-      "high": 1452.5,
-      "low": 1426.0,
-      "open": 1446.7,
-      "time": "2025-09-18",
-      "volume": 153854
-    },
-    {
       "close": 1416.8,
       "high": 1439.4,
       "low": 1408.4,
@@ -2017,13 +2009,21 @@
       "open": 986.35,
       "time": "2026-09-25",
       "volume": 104359
+    },
+    {
+      "close": 981.85,
+      "high": 1015.0,
+      "low": 977.9,
+      "open": 1006.2,
+      "time": "2026-09-28",
+      "volume": 104260
     }
   ],
   "company_name": "TECHNO ELEC & ENG CO. LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 43,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.7x"
+    "volume_multiplier": "0.74x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 14.55,
-    "change_pct": 1.47,
-    "close": 1006.2,
-    "previous_close": 991.65,
+    "as_of": "2026-09-28",
+    "change": -24.35,
+    "change_pct": -2.42,
+    "close": 981.85,
+    "previous_close": 1006.2,
     "type": "EOD_CLOSE",
-    "volume": 104359
+    "volume": 104260
   },
   "range": {
-    "distance_from_high_pct": -31.08,
-    "distance_from_low_pct": 15.66,
+    "distance_from_high_pct": -32.75,
+    "distance_from_low_pct": 12.86,
     "high_52w": 1460.0,
     "history_basis": "52_WEEK",
     "low_52w": 870.0,
-    "range_position_pct": 23.08
+    "range_position_pct": 18.96
   },
   "risk_model": {
-    "invalidation_floor": 970.98,
-    "risk_per_share": 55.34,
-    "technical_pivot": 1026.32
+    "invalidation_floor": 947.49,
+    "risk_per_share": 54.0,
+    "technical_pivot": 1001.49
   },
   "schema_version": "1.0",
   "sector": null,

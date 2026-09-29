@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 369.95,
-      "high": 375.7,
-      "low": 369.0,
-      "open": 373.45,
-      "time": "2025-09-18",
-      "volume": 82577
-    },
-    {
       "close": 374.35,
       "high": 375.4,
       "low": 368.05,
@@ -2017,13 +2009,21 @@
       "open": 310.0,
       "time": "2026-09-25",
       "volume": 313680
+    },
+    {
+      "close": 307.25,
+      "high": 308.3,
+      "low": 298.8,
+      "open": 306.85,
+      "time": "2026-09-28",
+      "volume": 383502
     }
   ],
   "company_name": "V-GUARD INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Consumer Durables",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 56,
+    "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.61x"
+    "volume_multiplier": "0.75x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -4.25,
-    "change_pct": -1.38,
-    "close": 304.35,
-    "previous_close": 308.6,
+    "as_of": "2026-09-28",
+    "change": 2.9,
+    "change_pct": 0.95,
+    "close": 307.25,
+    "previous_close": 304.35,
     "type": "EOD_CLOSE",
-    "volume": 313680
+    "volume": 383502
   },
   "range": {
-    "distance_from_high_pct": -22.4,
-    "distance_from_low_pct": 5.38,
+    "distance_from_high_pct": -21.66,
+    "distance_from_low_pct": 6.39,
     "high_52w": 392.2,
     "history_basis": "52_WEEK",
     "low_52w": 288.8,
-    "range_position_pct": 15.04
+    "range_position_pct": 17.84
   },
   "risk_model": {
-    "invalidation_floor": 293.7,
-    "risk_per_share": 16.74,
-    "technical_pivot": 310.44
+    "invalidation_floor": 296.5,
+    "risk_per_share": 16.89,
+    "technical_pivot": 313.39
   },
   "schema_version": "1.0",
   "sector": "Consumer Durables",

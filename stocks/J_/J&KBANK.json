@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 104.56,
-      "high": 105.5,
-      "low": 103.05,
-      "open": 105.0,
-      "time": "2025-09-18",
-      "volume": 2365952
-    },
-    {
       "close": 105.61,
       "high": 106.09,
       "low": 104.09,
@@ -2017,13 +2009,21 @@
       "open": 146.88,
       "time": "2026-09-25",
       "volume": 1214432
+    },
+    {
+      "close": 142.25,
+      "high": 145.88,
+      "low": 142.0,
+      "open": 145.51,
+      "time": "2026-09-28",
+      "volume": 1442913
     }
   ],
   "company_name": "JAMMU & KASHMIR BANK LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.64x"
+    "volume_multiplier": "0.75x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.97,
-    "change_pct": -0.66,
-    "close": 146.1,
-    "previous_close": 147.07,
+    "as_of": "2026-09-28",
+    "change": -3.85,
+    "change_pct": -2.64,
+    "close": 142.25,
+    "previous_close": 146.1,
     "type": "EOD_CLOSE",
-    "volume": 1214432
+    "volume": 1442913
   },
   "range": {
-    "distance_from_high_pct": -27.58,
-    "distance_from_low_pct": 50.08,
+    "distance_from_high_pct": -29.49,
+    "distance_from_low_pct": 46.12,
     "high_52w": 201.75,
     "history_basis": "52_WEEK",
     "low_52w": 97.35,
-    "range_position_pct": 46.7
+    "range_position_pct": 43.01
   },
   "risk_model": {
-    "invalidation_floor": 140.99,
-    "risk_per_share": 8.03,
-    "technical_pivot": 149.02
+    "invalidation_floor": 137.27,
+    "risk_per_share": 7.82,
+    "technical_pivot": 145.09
   },
   "schema_version": "1.0",
   "sector": null,

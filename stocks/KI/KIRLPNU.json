@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 629.15,
-      "high": 634.05,
-      "low": 624.9,
-      "open": 632.45,
-      "time": "2025-09-18",
-      "volume": 70216
-    },
-    {
       "close": 629.2,
       "high": 632.95,
       "low": 618.5,
@@ -2017,13 +2009,21 @@
       "open": 699.8,
       "time": "2026-09-25",
       "volume": 72155
+    },
+    {
+      "close": 678.65,
+      "high": 691.0,
+      "low": 676.6,
+      "open": 690.3,
+      "time": "2026-09-28",
+      "volume": 59000
     }
   ],
   "company_name": "KIRLOSKAR PNEUMATIC CO.LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.5x"
+    "volume_multiplier": "0.42x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -5.8,
-    "change_pct": -0.83,
-    "close": 691.95,
-    "previous_close": 697.75,
+    "as_of": "2026-09-28",
+    "change": -13.3,
+    "change_pct": -1.92,
+    "close": 678.65,
+    "previous_close": 691.95,
     "type": "EOD_CLOSE",
-    "volume": 72155
+    "volume": 59000
   },
   "range": {
-    "distance_from_high_pct": -37.01,
-    "distance_from_low_pct": 39.77,
+    "distance_from_high_pct": -38.22,
+    "distance_from_low_pct": 37.09,
     "high_52w": 1098.55,
     "history_basis": "52_WEEK",
     "low_52w": 495.05,
-    "range_position_pct": 32.63
+    "range_position_pct": 30.42
   },
   "risk_model": {
-    "invalidation_floor": 667.73,
-    "risk_per_share": 38.06,
-    "technical_pivot": 705.79
+    "invalidation_floor": 654.9,
+    "risk_per_share": 37.32,
+    "technical_pivot": 692.22
   },
   "schema_version": "1.0",
   "sector": null,

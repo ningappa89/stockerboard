@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 9.03,
-      "high": 9.27,
-      "low": 9.02,
-      "open": 9.12,
-      "time": "2025-09-18",
-      "volume": 332676
-    },
-    {
       "close": 9.08,
       "high": 9.24,
       "low": 9.0,
@@ -2017,13 +2009,21 @@
       "open": 6.24,
       "time": "2026-09-25",
       "volume": 141227
+    },
+    {
+      "close": 6.15,
+      "high": 6.27,
+      "low": 6.0,
+      "open": 6.16,
+      "time": "2026-09-28",
+      "volume": 168741
     }
   ],
   "company_name": "EXXARO TILES LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.13x"
+    "volume_multiplier": "0.32x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.03,
-    "change_pct": -0.48,
-    "close": 6.21,
-    "previous_close": 6.24,
+    "as_of": "2026-09-28",
+    "change": -0.06,
+    "change_pct": -0.97,
+    "close": 6.15,
+    "previous_close": 6.21,
     "type": "EOD_CLOSE",
-    "volume": 141227
+    "volume": 168741
   },
   "range": {
-    "distance_from_high_pct": -39.88,
-    "distance_from_low_pct": 3.67,
+    "distance_from_high_pct": -40.46,
+    "distance_from_low_pct": 2.67,
     "high_52w": 10.33,
     "history_basis": "52_WEEK",
     "low_52w": 5.99,
-    "range_position_pct": 5.07
+    "range_position_pct": 3.69
   },
   "risk_model": {
-    "invalidation_floor": 5.99,
+    "invalidation_floor": 5.93,
     "risk_per_share": 0.5,
-    "technical_pivot": 6.33
+    "technical_pivot": 6.27
   },
   "schema_version": "1.0",
   "sector": null,

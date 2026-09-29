@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 564.35,
-      "high": 575.0,
-      "low": 560.85,
-      "open": 567.55,
-      "time": "2025-09-18",
-      "volume": 202152
-    },
-    {
       "close": 564.65,
       "high": 567.0,
       "low": 560.05,
@@ -2017,13 +2009,21 @@
       "open": 415.9,
       "time": "2026-09-25",
       "volume": 253117
+    },
+    {
+      "close": 413.75,
+      "high": 416.3,
+      "low": 410.0,
+      "open": 412.8,
+      "time": "2026-09-28",
+      "volume": 98851
     }
   ],
   "company_name": "Arvind Fashions Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 49,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.3x"
+    "volume_multiplier": "0.52x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.95,
-    "change_pct": 0.71,
-    "close": 417.2,
-    "previous_close": 414.25,
+    "as_of": "2026-09-28",
+    "change": -3.45,
+    "change_pct": -0.83,
+    "close": 413.75,
+    "previous_close": 417.2,
     "type": "EOD_CLOSE",
-    "volume": 253117
+    "volume": 98851
   },
   "range": {
-    "distance_from_high_pct": -27.44,
-    "distance_from_low_pct": 13.93,
-    "high_52w": 575.0,
+    "distance_from_high_pct": -27.28,
+    "distance_from_low_pct": 12.98,
+    "high_52w": 569.0,
     "history_basis": "52_WEEK",
     "low_52w": 366.2,
-    "range_position_pct": 24.43
+    "range_position_pct": 23.45
   },
   "risk_model": {
-    "invalidation_floor": 402.6,
-    "risk_per_share": 22.94,
-    "technical_pivot": 425.54
+    "invalidation_floor": 399.27,
+    "risk_per_share": 22.76,
+    "technical_pivot": 422.03
   },
   "schema_version": "1.0",
   "sector": null,

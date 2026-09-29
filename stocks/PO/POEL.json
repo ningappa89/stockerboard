@@ -233,14 +233,22 @@
       "open": 146.7,
       "time": "2026-09-25",
       "volume": 38758
+    },
+    {
+      "close": 141.35,
+      "high": 146.5,
+      "low": 139.4,
+      "open": 145.06,
+      "time": "2026-09-28",
+      "volume": 30931
     }
   ],
   "company_name": "POCL ENTERPRISES LTD",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE035S01028",
@@ -248,31 +256,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.33x"
+    "volume_multiplier": "1.06x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.36,
-    "change_pct": -0.93,
-    "close": 145.34,
-    "previous_close": 146.7,
+    "as_of": "2026-09-28",
+    "change": -3.99,
+    "change_pct": -2.75,
+    "close": 141.35,
+    "previous_close": 145.34,
     "type": "EOD_CLOSE",
-    "volume": 38758
+    "volume": 30931
   },
   "range": {
-    "distance_from_high_pct": -13.98,
-    "distance_from_low_pct": 6.94,
+    "distance_from_high_pct": -16.35,
+    "distance_from_low_pct": 4.0,
     "high_52w": 168.97,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 135.91,
-    "range_position_pct": 28.52
+    "range_position_pct": 16.45
   },
   "risk_model": {
-    "invalidation_floor": 140.25,
-    "risk_per_share": 8.0,
-    "technical_pivot": 148.25
+    "invalidation_floor": 136.4,
+    "risk_per_share": 7.78,
+    "technical_pivot": 144.18
   },
   "schema_version": "1.0",
   "sector": null,

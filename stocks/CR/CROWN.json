@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 169.75,
-      "high": 176.05,
-      "low": 168.15,
-      "open": 173.38,
-      "time": "2025-09-18",
-      "volume": 34249
-    },
-    {
       "close": 166.8,
       "high": 172.55,
       "low": 165.42,
@@ -2017,13 +2009,21 @@
       "open": 119.5,
       "time": "2026-09-25",
       "volume": 9405
+    },
+    {
+      "close": 113.72,
+      "high": 122.0,
+      "low": 112.27,
+      "open": 122.0,
+      "time": "2026-09-28",
+      "volume": 24588
     }
   ],
   "company_name": "CROWN LIFTERS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 41,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.24x"
+    "volume_multiplier": "0.61x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.42,
-    "change_pct": 1.2,
-    "close": 119.36,
-    "previous_close": 117.94,
+    "as_of": "2026-09-28",
+    "change": -5.64,
+    "change_pct": -4.73,
+    "close": 113.72,
+    "previous_close": 119.36,
     "type": "EOD_CLOSE",
-    "volume": 9405
+    "volume": 24588
   },
   "range": {
-    "distance_from_high_pct": -32.2,
-    "distance_from_low_pct": 19.23,
-    "high_52w": 176.05,
+    "distance_from_high_pct": -34.09,
+    "distance_from_low_pct": 13.6,
+    "high_52w": 172.55,
     "history_basis": "52_WEEK",
     "low_52w": 100.11,
-    "range_position_pct": 25.35
+    "range_position_pct": 18.79
   },
   "risk_model": {
-    "invalidation_floor": 115.18,
-    "risk_per_share": 6.57,
-    "technical_pivot": 121.75
+    "invalidation_floor": 109.74,
+    "risk_per_share": 6.25,
+    "technical_pivot": 115.99
   },
   "schema_version": "1.0",
   "sector": null,

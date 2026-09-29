@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 551.15,
-      "high": 555.0,
-      "low": 544.7,
-      "open": 555.0,
-      "time": "2025-09-18",
-      "volume": 22737
-    },
-    {
       "close": 557.5,
       "high": 559.9,
       "low": 546.1,
@@ -2017,13 +2009,21 @@
       "open": 382.5,
       "time": "2026-09-25",
       "volume": 3588100
+    },
+    {
+      "close": 421.8,
+      "high": 428.9,
+      "low": 413.05,
+      "open": 428.9,
+      "time": "2026-09-28",
+      "volume": 124030
     }
   ],
   "company_name": "SHOPPERS STOP LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 51,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "9.29x"
+    "momentum_score": 50,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.32x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 38.5,
-    "change_pct": 10.0,
-    "close": 423.55,
-    "previous_close": 385.05,
+    "as_of": "2026-09-28",
+    "change": -1.75,
+    "change_pct": -0.41,
+    "close": 421.8,
+    "previous_close": 423.55,
     "type": "EOD_CLOSE",
-    "volume": 3588100
+    "volume": 124030
   },
   "range": {
-    "distance_from_high_pct": -25.95,
-    "distance_from_low_pct": 53.49,
+    "distance_from_high_pct": -26.26,
+    "distance_from_low_pct": 52.85,
     "high_52w": 572.0,
     "history_basis": "52_WEEK",
     "low_52w": 275.95,
-    "range_position_pct": 49.86
+    "range_position_pct": 49.27
   },
   "risk_model": {
-    "invalidation_floor": 408.73,
-    "risk_per_share": 23.29,
-    "technical_pivot": 432.02
+    "invalidation_floor": 407.04,
+    "risk_per_share": 23.2,
+    "technical_pivot": 430.24
   },
   "schema_version": "1.0",
   "sector": null,

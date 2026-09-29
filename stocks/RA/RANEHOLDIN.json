@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1494.4,
-      "high": 1518.0,
-      "low": 1482.1,
-      "open": 1516.3,
-      "time": "2025-09-18",
-      "volume": 19257
-    },
-    {
       "close": 1496.2,
       "high": 1509.6,
       "low": 1491.1,
@@ -2017,13 +2009,21 @@
       "open": 1598.5,
       "time": "2026-09-25",
       "volume": 3105
+    },
+    {
+      "close": 1584.4,
+      "high": 1607.7,
+      "low": 1534.5,
+      "open": 1580.6,
+      "time": "2026-09-28",
+      "volume": 18617
     }
   ],
   "company_name": "RANE HOLDINGS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.18x"
+    "volume_multiplier": "1.05x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -10.1,
-    "change_pct": -0.63,
-    "close": 1580.6,
-    "previous_close": 1590.7,
+    "as_of": "2026-09-28",
+    "change": 3.8,
+    "change_pct": 0.24,
+    "close": 1584.4,
+    "previous_close": 1580.6,
     "type": "EOD_CLOSE",
-    "volume": 3105
+    "volume": 18617
   },
   "range": {
-    "distance_from_high_pct": -16.57,
-    "distance_from_low_pct": 61.12,
+    "distance_from_high_pct": -16.37,
+    "distance_from_low_pct": 61.51,
     "high_52w": 1894.5,
     "history_basis": "52_WEEK",
     "low_52w": 981.0,
-    "range_position_pct": 65.64
+    "range_position_pct": 66.05
   },
   "risk_model": {
-    "invalidation_floor": 1525.28,
-    "risk_per_share": 86.93,
-    "technical_pivot": 1612.21
+    "invalidation_floor": 1528.95,
+    "risk_per_share": 87.14,
+    "technical_pivot": 1616.09
   },
   "schema_version": "1.0",
   "sector": null,

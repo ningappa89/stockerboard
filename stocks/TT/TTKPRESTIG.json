@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 673.6,
-      "high": 679.95,
-      "low": 668.0,
-      "open": 674.15,
-      "time": "2025-09-18",
-      "volume": 18764
-    },
-    {
       "close": 664.3,
       "high": 675.4,
       "low": 660.1,
@@ -2017,13 +2009,21 @@
       "open": 518.9,
       "time": "2026-09-25",
       "volume": 21938
+    },
+    {
+      "close": 513.85,
+      "high": 521.75,
+      "low": 511.6,
+      "open": 520.05,
+      "time": "2026-09-28",
+      "volume": 26198
     }
   ],
   "company_name": "TTK PRESTIGE LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.37x"
+    "volume_multiplier": "0.44x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 9.1,
-    "change_pct": 1.77,
-    "close": 524.4,
-    "previous_close": 515.3,
+    "as_of": "2026-09-28",
+    "change": -10.55,
+    "change_pct": -2.01,
+    "close": 513.85,
+    "previous_close": 524.4,
     "type": "EOD_CLOSE",
-    "volume": 21938
+    "volume": 26198
   },
   "range": {
-    "distance_from_high_pct": -32.0,
-    "distance_from_low_pct": 23.97,
+    "distance_from_high_pct": -33.37,
+    "distance_from_low_pct": 21.48,
     "high_52w": 771.2,
     "history_basis": "52_WEEK",
     "low_52w": 423.0,
-    "range_position_pct": 29.12
+    "range_position_pct": 26.09
   },
   "risk_model": {
-    "invalidation_floor": 506.05,
-    "risk_per_share": 28.84,
-    "technical_pivot": 534.89
+    "invalidation_floor": 495.87,
+    "risk_per_share": 28.26,
+    "technical_pivot": 524.13
   },
   "schema_version": "1.0",
   "sector": null,

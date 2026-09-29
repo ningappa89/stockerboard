@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 90.33,
-      "high": 92.81,
-      "low": 90.01,
-      "open": 92.65,
-      "time": "2025-09-18",
-      "volume": 38834
-    },
-    {
       "close": 91.82,
       "high": 92.54,
       "low": 90.1,
@@ -2017,13 +2009,21 @@
       "open": 52.51,
       "time": "2026-09-25",
       "volume": 73902
+    },
+    {
+      "close": 52.83,
+      "high": 53.32,
+      "low": 52.6,
+      "open": 52.98,
+      "time": "2026-09-28",
+      "volume": 46599
     }
   ],
   "company_name": "FOODS & INNS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.71x"
+    "volume_multiplier": "0.45x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.01,
-    "change_pct": -0.02,
-    "close": 52.97,
-    "previous_close": 52.98,
+    "as_of": "2026-09-28",
+    "change": -0.14,
+    "change_pct": -0.26,
+    "close": 52.83,
+    "previous_close": 52.97,
     "type": "EOD_CLOSE",
-    "volume": 73902
+    "volume": 46599
   },
   "range": {
-    "distance_from_high_pct": -42.93,
-    "distance_from_low_pct": 20.39,
-    "high_52w": 92.81,
+    "distance_from_high_pct": -42.91,
+    "distance_from_low_pct": 20.07,
+    "high_52w": 92.54,
     "history_basis": "52_WEEK",
     "low_52w": 44.0,
-    "range_position_pct": 18.38
+    "range_position_pct": 18.19
   },
   "risk_model": {
-    "invalidation_floor": 51.12,
+    "invalidation_floor": 50.98,
     "risk_per_share": 2.91,
-    "technical_pivot": 54.03
+    "technical_pivot": 53.89
   },
   "schema_version": "1.0",
   "sector": null,

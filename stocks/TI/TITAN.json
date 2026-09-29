@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3511.3,
-      "high": 3546.0,
-      "low": 3503.4,
-      "open": 3530.0,
-      "time": "2025-09-18",
-      "volume": 829442
-    },
-    {
       "close": 3467.2,
       "high": 3511.3,
       "low": 3460.0,
@@ -2017,13 +2009,21 @@
       "open": 4855.0,
       "time": "2026-09-25",
       "volume": 368677
+    },
+    {
+      "close": 4819.5,
+      "high": 4881.0,
+      "low": 4810.0,
+      "open": 4881.0,
+      "time": "2026-09-28",
+      "volume": 632938
     }
   ],
   "company_name": "TITAN COMPANY LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Consumer Durables",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 81,
+    "momentum_score": 79,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.64x"
+    "volume_multiplier": "1.09x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 51.5,
-    "change_pct": 1.07,
-    "close": 4884.0,
-    "previous_close": 4832.5,
+    "as_of": "2026-09-28",
+    "change": -64.5,
+    "change_pct": -1.32,
+    "close": 4819.5,
+    "previous_close": 4884.0,
     "type": "EOD_CLOSE",
-    "volume": 368677
+    "volume": 632938
   },
   "range": {
-    "distance_from_high_pct": -5.84,
-    "distance_from_low_pct": 47.86,
+    "distance_from_high_pct": -7.08,
+    "distance_from_low_pct": 45.91,
     "high_52w": 5186.7,
     "history_basis": "52_WEEK",
     "low_52w": 3303.1,
-    "range_position_pct": 83.93
+    "range_position_pct": 80.51
   },
   "risk_model": {
-    "invalidation_floor": 4713.06,
-    "risk_per_share": 268.62,
-    "technical_pivot": 4981.68
+    "invalidation_floor": 4650.82,
+    "risk_per_share": 265.07,
+    "technical_pivot": 4915.89
   },
   "schema_version": "1.0",
   "sector": "Consumer Durables",

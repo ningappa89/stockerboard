@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 77.4,
-      "high": 82.0,
-      "low": 75.75,
-      "open": 77.59,
-      "time": "2025-09-18",
-      "volume": 325708
-    },
-    {
       "close": 76.99,
       "high": 79.0,
       "low": 76.5,
@@ -2017,13 +2009,21 @@
       "open": 84.5,
       "time": "2026-09-25",
       "volume": 227265
+    },
+    {
+      "close": 81.86,
+      "high": 84.78,
+      "low": 80.42,
+      "open": 81.89,
+      "time": "2026-09-28",
+      "volume": 141997
     }
   ],
   "company_name": "AUTOLINE INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 57,
+    "momentum_score": 58,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.7x"
+    "volume_multiplier": "0.43x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.59,
-    "change_pct": -3.07,
-    "close": 81.73,
-    "previous_close": 84.32,
+    "as_of": "2026-09-28",
+    "change": 0.13,
+    "change_pct": 0.16,
+    "close": 81.86,
+    "previous_close": 81.73,
     "type": "EOD_CLOSE",
-    "volume": 227265
+    "volume": 141997
   },
   "range": {
-    "distance_from_high_pct": -21.41,
-    "distance_from_low_pct": 69.04,
+    "distance_from_high_pct": -21.29,
+    "distance_from_low_pct": 69.31,
     "high_52w": 104.0,
     "history_basis": "52_WEEK",
     "low_52w": 48.35,
-    "range_position_pct": 59.98
+    "range_position_pct": 60.22
   },
   "risk_model": {
-    "invalidation_floor": 78.87,
-    "risk_per_share": 4.49,
-    "technical_pivot": 83.36
+    "invalidation_floor": 78.99,
+    "risk_per_share": 4.51,
+    "technical_pivot": 83.5
   },
   "schema_version": "1.0",
   "sector": null,

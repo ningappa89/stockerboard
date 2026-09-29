@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 310.95,
-      "high": 318.95,
-      "low": 306.4,
-      "open": 310.05,
-      "time": "2025-09-18",
-      "volume": 113969
-    },
-    {
       "close": 311.25,
       "high": 315.0,
       "low": 307.3,
@@ -2017,13 +2009,21 @@
       "open": 240.3,
       "time": "2026-09-25",
       "volume": 39082
+    },
+    {
+      "close": 233.18,
+      "high": 236.94,
+      "low": 230.37,
+      "open": 230.37,
+      "time": "2026-09-28",
+      "volume": 60159
     }
   ],
   "company_name": "KAMAT HOTELS (I) LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 47,
+    "momentum_score": 46,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.43x"
+    "volume_multiplier": "0.68x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.44,
-    "change_pct": 0.61,
-    "close": 237.13,
-    "previous_close": 235.69,
+    "as_of": "2026-09-28",
+    "change": -3.95,
+    "change_pct": -1.67,
+    "close": 233.18,
+    "previous_close": 237.13,
     "type": "EOD_CLOSE",
-    "volume": 39082
+    "volume": 60159
   },
   "range": {
-    "distance_from_high_pct": -28.1,
-    "distance_from_low_pct": 69.14,
+    "distance_from_high_pct": -29.3,
+    "distance_from_low_pct": 66.32,
     "high_52w": 329.8,
     "history_basis": "52_WEEK",
     "low_52w": 140.2,
-    "range_position_pct": 51.12
+    "range_position_pct": 49.04
   },
   "risk_model": {
-    "invalidation_floor": 228.83,
-    "risk_per_share": 13.04,
-    "technical_pivot": 241.87
+    "invalidation_floor": 225.02,
+    "risk_per_share": 12.82,
+    "technical_pivot": 237.84
   },
   "schema_version": "1.0",
   "sector": null,

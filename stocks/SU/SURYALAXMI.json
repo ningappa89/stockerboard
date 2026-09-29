@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 66.79,
-      "high": 69.7,
-      "low": 66.0,
-      "open": 66.76,
-      "time": "2025-09-18",
-      "volume": 16524
-    },
-    {
       "close": 65.49,
       "high": 68.4,
       "low": 65.02,
@@ -2017,13 +2009,21 @@
       "open": 59.38,
       "time": "2026-09-25",
       "volume": 3319
+    },
+    {
+      "close": 56.5,
+      "high": 57.74,
+      "low": 55.21,
+      "open": 57.28,
+      "time": "2026-09-28",
+      "volume": 2180
     }
   ],
   "company_name": "SURYALAKSHMI COT MIL LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.48x"
+    "volume_multiplier": "0.34x"
   },
   "price": {
-    "as_of": "2026-09-25",
+    "as_of": "2026-09-28",
     "change": -0.5,
-    "change_pct": -0.87,
-    "close": 57.0,
-    "previous_close": 57.5,
+    "change_pct": -0.88,
+    "close": 56.5,
+    "previous_close": 57.0,
     "type": "EOD_CLOSE",
-    "volume": 3319
+    "volume": 2180
   },
   "range": {
-    "distance_from_high_pct": -18.22,
-    "distance_from_low_pct": 32.56,
-    "high_52w": 69.7,
+    "distance_from_high_pct": -17.4,
+    "distance_from_low_pct": 31.4,
+    "high_52w": 68.4,
     "history_basis": "52_WEEK",
     "low_52w": 43.0,
-    "range_position_pct": 52.43
+    "range_position_pct": 53.15
   },
   "risk_model": {
-    "invalidation_floor": 55.0,
-    "risk_per_share": 3.14,
-    "technical_pivot": 58.14
+    "invalidation_floor": 54.52,
+    "risk_per_share": 3.11,
+    "technical_pivot": 57.63
   },
   "schema_version": "1.0",
   "sector": null,

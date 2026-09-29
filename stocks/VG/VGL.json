@@ -1889,14 +1889,22 @@
       "open": 66.52,
       "time": "2026-09-25",
       "volume": 42751
+    },
+    {
+      "close": 64.26,
+      "high": 69.35,
+      "low": 63.15,
+      "open": 69.35,
+      "time": "2026-09-28",
+      "volume": 82614
     }
   ],
   "company_name": "VARVEE GLOBAL LIMITED",
   "history": {
     "first_session": "2025-10-13",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 236
+    "last_session": "2026-09-28",
+    "sessions_available": 237
   },
   "industry": null,
   "isin": "INE273D01027",
@@ -1904,31 +1912,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 59,
+    "momentum_score": 53,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.17x"
+    "volume_multiplier": "0.32x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.76,
-    "change_pct": 1.14,
-    "close": 67.28,
-    "previous_close": 66.52,
+    "as_of": "2026-09-28",
+    "change": -3.02,
+    "change_pct": -4.49,
+    "close": 64.26,
+    "previous_close": 67.28,
     "type": "EOD_CLOSE",
-    "volume": 42751
+    "volume": 82614
   },
   "range": {
-    "distance_from_high_pct": -20.61,
-    "distance_from_low_pct": 53.96,
+    "distance_from_high_pct": -24.18,
+    "distance_from_low_pct": 47.05,
     "high_52w": 84.75,
     "history_basis": "52_WEEK",
     "low_52w": 43.7,
-    "range_position_pct": 57.44
+    "range_position_pct": 50.09
   },
   "risk_model": {
-    "invalidation_floor": 64.93,
-    "risk_per_share": 3.7,
-    "technical_pivot": 68.63
+    "invalidation_floor": 62.01,
+    "risk_per_share": 3.54,
+    "technical_pivot": 65.55
   },
   "schema_version": "1.0",
   "sector": null,

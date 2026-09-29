@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1058.2,
-      "high": 1076.1,
-      "low": 1012.0,
-      "open": 1036.0,
-      "time": "2025-09-18",
-      "volume": 38970
-    },
-    {
       "close": 1082.25,
       "high": 1098.9,
       "low": 1023.05,
@@ -2017,13 +2009,21 @@
       "open": 908.0,
       "time": "2026-09-25",
       "volume": 23940
+    },
+    {
+      "close": 806.65,
+      "high": 870.0,
+      "low": 786.05,
+      "open": 850.0,
+      "time": "2026-09-28",
+      "volume": 69918
     }
   ],
   "company_name": "ELECTROTHERM (I) LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.07x"
+    "momentum_score": 40,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.76x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -14.35,
-    "change_pct": -1.62,
-    "close": 873.35,
-    "previous_close": 887.7,
+    "as_of": "2026-09-28",
+    "change": -66.7,
+    "change_pct": -7.64,
+    "close": 806.65,
+    "previous_close": 873.35,
     "type": "EOD_CLOSE",
-    "volume": 23940
+    "volume": 69918
   },
   "range": {
-    "distance_from_high_pct": -31.61,
-    "distance_from_low_pct": 58.5,
+    "distance_from_high_pct": -36.83,
+    "distance_from_low_pct": 46.4,
     "high_52w": 1277.0,
     "history_basis": "52_WEEK",
     "low_52w": 551.0,
-    "range_position_pct": 44.4
+    "range_position_pct": 35.21
   },
   "risk_model": {
-    "invalidation_floor": 842.78,
-    "risk_per_share": 48.04,
-    "technical_pivot": 890.82
+    "invalidation_floor": 778.42,
+    "risk_per_share": 44.36,
+    "technical_pivot": 822.78
   },
   "schema_version": "1.0",
   "sector": null,

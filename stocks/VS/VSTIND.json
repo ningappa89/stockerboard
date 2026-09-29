@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 271.3,
-      "high": 274.1,
-      "low": 270.0,
-      "open": 274.0,
-      "time": "2025-09-18",
-      "volume": 143971
-    },
-    {
       "close": 269.0,
       "high": 272.3,
       "low": 268.5,
@@ -2017,13 +2009,21 @@
       "open": 205.82,
       "time": "2026-09-25",
       "volume": 89396
+    },
+    {
+      "close": 204.0,
+      "high": 206.09,
+      "low": 203.1,
+      "open": 205.4,
+      "time": "2026-09-28",
+      "volume": 90130
     }
   ],
   "company_name": "VST INDUSTRIES LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2037,26 +2037,26 @@
     "volume_multiplier": "0.81x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.15,
-    "change_pct": -1.04,
-    "close": 204.54,
-    "previous_close": 206.69,
+    "as_of": "2026-09-28",
+    "change": -0.54,
+    "change_pct": -0.26,
+    "close": 204.0,
+    "previous_close": 204.54,
     "type": "EOD_CLOSE",
-    "volume": 89396
+    "volume": 90130
   },
   "range": {
-    "distance_from_high_pct": -28.68,
-    "distance_from_low_pct": 2.27,
+    "distance_from_high_pct": -28.87,
+    "distance_from_low_pct": 2.0,
     "high_52w": 286.78,
     "history_basis": "52_WEEK",
     "low_52w": 200.0,
-    "range_position_pct": 5.23
+    "range_position_pct": 4.61
   },
   "risk_model": {
-    "invalidation_floor": 197.38,
-    "risk_per_share": 11.25,
-    "technical_pivot": 208.63
+    "invalidation_floor": 196.86,
+    "risk_per_share": 11.22,
+    "technical_pivot": 208.08
   },
   "schema_version": "1.0",
   "sector": null,

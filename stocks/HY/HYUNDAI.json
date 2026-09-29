@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2720.8,
-      "high": 2734.8,
-      "low": 2635.0,
-      "open": 2655.0,
-      "time": "2025-09-18",
-      "volume": 1234632
-    },
-    {
       "close": 2809.3,
       "high": 2849.5,
       "low": 2679.2,
@@ -2017,13 +2009,21 @@
       "open": 2060.1,
       "time": "2026-09-25",
       "volume": 1546794
+    },
+    {
+      "close": 2050.7,
+      "high": 2113.0,
+      "low": 2040.5,
+      "open": 2105.0,
+      "time": "2026-09-28",
+      "volume": 539910
     }
   ],
   "company_name": "HYUNDAI MOTOR INDIA LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 49,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.35x"
+    "momentum_score": 46,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.84x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 54.4,
-    "change_pct": 2.64,
-    "close": 2115.0,
-    "previous_close": 2060.6,
+    "as_of": "2026-09-28",
+    "change": -64.3,
+    "change_pct": -3.04,
+    "close": 2050.7,
+    "previous_close": 2115.0,
     "type": "EOD_CLOSE",
-    "volume": 1546794
+    "volume": 539910
   },
   "range": {
-    "distance_from_high_pct": -26.82,
-    "distance_from_low_pct": 27.56,
+    "distance_from_high_pct": -29.04,
+    "distance_from_low_pct": 23.69,
     "high_52w": 2890.0,
     "history_basis": "52_WEEK",
     "low_52w": 1658.0,
-    "range_position_pct": 37.09
+    "range_position_pct": 31.87
   },
   "risk_model": {
-    "invalidation_floor": 2040.97,
-    "risk_per_share": 116.33,
-    "technical_pivot": 2157.3
+    "invalidation_floor": 1978.93,
+    "risk_per_share": 112.78,
+    "technical_pivot": 2091.71
   },
   "schema_version": "1.0",
   "sector": null,

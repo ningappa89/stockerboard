@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 352.0,
-      "high": 360.0,
-      "low": 351.0,
-      "open": 359.0,
-      "time": "2025-09-18",
-      "volume": 250380
-    },
-    {
       "close": 349.3,
       "high": 354.3,
       "low": 347.6,
@@ -2017,13 +2009,21 @@
       "open": 253.0,
       "time": "2026-09-25",
       "volume": 365201
+    },
+    {
+      "close": 263.25,
+      "high": 267.0,
+      "low": 252.1,
+      "open": 254.5,
+      "time": "2026-09-28",
+      "volume": 4342796
     }
   ],
   "company_name": "Go Digit General Insurance Lim",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.56x"
+    "momentum_score": 43,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "5.07x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 3.4,
-    "change_pct": 1.36,
-    "close": 253.7,
-    "previous_close": 250.3,
+    "as_of": "2026-09-28",
+    "change": 9.55,
+    "change_pct": 3.76,
+    "close": 263.25,
+    "previous_close": 253.7,
     "type": "EOD_CLOSE",
-    "volume": 365201
+    "volume": 4342796
   },
   "range": {
-    "distance_from_high_pct": -33.48,
-    "distance_from_low_pct": 9.52,
+    "distance_from_high_pct": -30.98,
+    "distance_from_low_pct": 13.64,
     "high_52w": 381.4,
     "history_basis": "52_WEEK",
     "low_52w": 231.65,
-    "range_position_pct": 14.72
+    "range_position_pct": 21.1
   },
   "risk_model": {
-    "invalidation_floor": 244.82,
-    "risk_per_share": 13.95,
-    "technical_pivot": 258.77
+    "invalidation_floor": 254.04,
+    "risk_per_share": 14.47,
+    "technical_pivot": 268.51
   },
   "schema_version": "1.0",
   "sector": null,

@@ -969,14 +969,22 @@
       "open": 567.0,
       "time": "2026-09-25",
       "volume": 200960
+    },
+    {
+      "close": 562.95,
+      "high": 594.25,
+      "low": 555.0,
+      "open": 584.55,
+      "time": "2026-09-28",
+      "volume": 142642
     }
   ],
   "company_name": "Powerica Ltd.",
   "history": {
     "first_session": "2026-04-02",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 121
+    "last_session": "2026-09-28",
+    "sessions_available": 122
   },
   "industry": null,
   "isin": "INE921L01032",
@@ -984,31 +992,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.24x"
+    "volume_multiplier": "0.86x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 20.1,
-    "change_pct": 3.57,
-    "close": 582.95,
-    "previous_close": 562.85,
+    "as_of": "2026-09-28",
+    "change": -20.0,
+    "change_pct": -3.43,
+    "close": 562.95,
+    "previous_close": 582.95,
     "type": "EOD_CLOSE",
-    "volume": 200960
+    "volume": 142642
   },
   "range": {
-    "distance_from_high_pct": -13.89,
-    "distance_from_low_pct": 59.67,
+    "distance_from_high_pct": -16.84,
+    "distance_from_low_pct": 54.19,
     "high_52w": 676.95,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 365.1,
-    "range_position_pct": 69.86
+    "range_position_pct": 63.44
   },
   "risk_model": {
-    "invalidation_floor": 562.55,
-    "risk_per_share": 32.06,
-    "technical_pivot": 594.61
+    "invalidation_floor": 543.25,
+    "risk_per_share": 30.96,
+    "technical_pivot": 574.21
   },
   "schema_version": "1.0",
   "sector": null,

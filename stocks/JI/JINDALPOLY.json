@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 611.7,
-      "high": 616.05,
-      "low": 594.15,
-      "open": 610.6,
-      "time": "2025-09-18",
-      "volume": 116035
-    },
-    {
       "close": 611.75,
       "high": 622.0,
       "low": 610.0,
@@ -2017,13 +2009,21 @@
       "open": 699.8,
       "time": "2026-09-25",
       "volume": 13867
+    },
+    {
+      "close": 679.65,
+      "high": 704.0,
+      "low": 675.0,
+      "open": 695.0,
+      "time": "2026-09-28",
+      "volume": 10293
     }
   ],
   "company_name": "JINDAL POLY FILMS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 41,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.22x"
+    "volume_multiplier": "0.16x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -5.7,
-    "change_pct": -0.81,
-    "close": 694.1,
-    "previous_close": 699.8,
+    "as_of": "2026-09-28",
+    "change": -14.45,
+    "change_pct": -2.08,
+    "close": 679.65,
+    "previous_close": 694.1,
     "type": "EOD_CLOSE",
-    "volume": 13867
+    "volume": 10293
   },
   "range": {
-    "distance_from_high_pct": -32.38,
-    "distance_from_low_pct": 90.16,
+    "distance_from_high_pct": -33.79,
+    "distance_from_low_pct": 86.21,
     "high_52w": 1026.45,
     "history_basis": "52_WEEK",
     "low_52w": 365.0,
-    "range_position_pct": 49.75
+    "range_position_pct": 47.57
   },
   "risk_model": {
-    "invalidation_floor": 669.81,
-    "risk_per_share": 38.17,
-    "technical_pivot": 707.98
+    "invalidation_floor": 655.86,
+    "risk_per_share": 37.38,
+    "technical_pivot": 693.24
   },
   "schema_version": "1.0",
   "sector": null,

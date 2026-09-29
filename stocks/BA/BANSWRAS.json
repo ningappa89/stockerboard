@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 130.63,
-      "high": 131.92,
-      "low": 125.22,
-      "open": 126.0,
-      "time": "2025-09-18",
-      "volume": 40724
-    },
-    {
       "close": 135.23,
       "high": 137.0,
       "low": 129.2,
@@ -2017,13 +2009,21 @@
       "open": 109.1,
       "time": "2026-09-25",
       "volume": 16084
+    },
+    {
+      "close": 107.62,
+      "high": 111.0,
+      "low": 106.65,
+      "open": 109.25,
+      "time": "2026-09-28",
+      "volume": 12765
     }
   ],
   "company_name": "BANSWARA SYNTEX LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 53,
+    "momentum_score": 52,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.5x"
+    "volume_multiplier": "0.41x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.61,
-    "change_pct": -0.56,
-    "close": 108.73,
-    "previous_close": 109.34,
+    "as_of": "2026-09-28",
+    "change": -1.11,
+    "change_pct": -1.02,
+    "close": 107.62,
+    "previous_close": 108.73,
     "type": "EOD_CLOSE",
-    "volume": 16084
+    "volume": 12765
   },
   "range": {
-    "distance_from_high_pct": -24.49,
-    "distance_from_low_pct": 16.0,
+    "distance_from_high_pct": -25.26,
+    "distance_from_low_pct": 14.82,
     "high_52w": 144.0,
     "history_basis": "52_WEEK",
     "low_52w": 93.73,
-    "range_position_pct": 29.84
+    "range_position_pct": 27.63
   },
   "risk_model": {
-    "invalidation_floor": 104.92,
-    "risk_per_share": 5.98,
-    "technical_pivot": 110.9
+    "invalidation_floor": 103.85,
+    "risk_per_share": 5.92,
+    "technical_pivot": 109.77
   },
   "schema_version": "1.0",
   "sector": null,

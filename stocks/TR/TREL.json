@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 32.2,
-      "high": 32.96,
-      "low": 32.15,
-      "open": 32.5,
-      "time": "2025-09-18",
-      "volume": 103667
-    },
-    {
       "close": 32.29,
       "high": 32.48,
       "low": 32.2,
@@ -2017,13 +2009,21 @@
       "open": 27.8,
       "time": "2026-09-25",
       "volume": 116098
+    },
+    {
+      "close": 28.89,
+      "high": 29.1,
+      "low": 27.8,
+      "open": 28.8,
+      "time": "2026-09-28",
+      "volume": 143807
     }
   ],
   "company_name": "Transindia Real Estate Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.54x"
+    "volume_multiplier": "0.67x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.52,
-    "change_pct": 1.87,
-    "close": 28.32,
-    "previous_close": 27.8,
+    "as_of": "2026-09-28",
+    "change": 0.57,
+    "change_pct": 2.01,
+    "close": 28.89,
+    "previous_close": 28.32,
     "type": "EOD_CLOSE",
-    "volume": 116098
+    "volume": 143807
   },
   "range": {
-    "distance_from_high_pct": -15.49,
-    "distance_from_low_pct": 31.9,
+    "distance_from_high_pct": -13.79,
+    "distance_from_low_pct": 34.56,
     "high_52w": 33.51,
     "history_basis": "52_WEEK",
     "low_52w": 21.47,
-    "range_position_pct": 56.89
+    "range_position_pct": 61.63
   },
   "risk_model": {
-    "invalidation_floor": 27.33,
-    "risk_per_share": 1.56,
-    "technical_pivot": 28.89
+    "invalidation_floor": 27.88,
+    "risk_per_share": 1.59,
+    "technical_pivot": 29.47
   },
   "schema_version": "1.0",
   "sector": null,

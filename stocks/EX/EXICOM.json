@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 144.78,
-      "high": 149.9,
-      "low": 143.98,
-      "open": 145.35,
-      "time": "2025-09-18",
-      "volume": 515550
-    },
-    {
       "close": 163.74,
       "high": 168.3,
       "low": 145.4,
@@ -2017,13 +2009,21 @@
       "open": 165.45,
       "time": "2026-09-25",
       "volume": 739666
+    },
+    {
+      "close": 156.07,
+      "high": 162.88,
+      "low": 155.05,
+      "open": 162.35,
+      "time": "2026-09-28",
+      "volume": 630042
     }
   ],
   "company_name": "EXICOM TELE SYSTEMS LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 67,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.4x"
+    "volume_multiplier": "0.39x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -3.65,
-    "change_pct": -2.22,
-    "close": 160.99,
-    "previous_close": 164.64,
+    "as_of": "2026-09-28",
+    "change": -4.92,
+    "change_pct": -3.06,
+    "close": 156.07,
+    "previous_close": 160.99,
     "type": "EOD_CLOSE",
-    "volume": 739666
+    "volume": 630042
   },
   "range": {
-    "distance_from_high_pct": -14.9,
-    "distance_from_low_pct": 112.95,
+    "distance_from_high_pct": -17.5,
+    "distance_from_low_pct": 106.44,
     "high_52w": 189.17,
     "history_basis": "52_WEEK",
     "low_52w": 75.6,
-    "range_position_pct": 75.19
+    "range_position_pct": 70.85
   },
   "risk_model": {
-    "invalidation_floor": 155.36,
-    "risk_per_share": 8.85,
-    "technical_pivot": 164.21
+    "invalidation_floor": 150.61,
+    "risk_per_share": 8.58,
+    "technical_pivot": 159.19
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1475.8,
-      "high": 1529.6,
-      "low": 1471.0,
-      "open": 1522.0,
-      "time": "2025-09-18",
-      "volume": 137597
-    },
-    {
       "close": 1495.0,
       "high": 1500.9,
       "low": 1460.1,
@@ -2017,46 +2009,54 @@
       "open": 4629.6,
       "time": "2026-09-25",
       "volume": 315334
+    },
+    {
+      "close": 4457.2,
+      "high": 4662.1,
+      "low": 4436.0,
+      "open": 4660.7,
+      "time": "2026-09-28",
+      "volume": 272710
     }
   ],
   "company_name": "Sansera Engineering Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE953O01021",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 87,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "1.16x"
+    "momentum_score": 80,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.97x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 56.8,
-    "change_pct": 1.23,
-    "close": 4662.4,
-    "previous_close": 4605.6,
+    "as_of": "2026-09-28",
+    "change": -205.2,
+    "change_pct": -4.4,
+    "close": 4457.2,
+    "previous_close": 4662.4,
     "type": "EOD_CLOSE",
-    "volume": 315334
+    "volume": 272710
   },
   "range": {
-    "distance_from_high_pct": -1.71,
-    "distance_from_low_pct": 241.77,
+    "distance_from_high_pct": -6.04,
+    "distance_from_low_pct": 226.73,
     "high_52w": 4743.5,
     "history_basis": "52_WEEK",
     "low_52w": 1364.2,
-    "range_position_pct": 97.6
+    "range_position_pct": 91.53
   },
   "risk_model": {
-    "invalidation_floor": 4499.22,
-    "risk_per_share": 256.43,
-    "technical_pivot": 4755.65
+    "invalidation_floor": 4301.2,
+    "risk_per_share": 245.14,
+    "technical_pivot": 4546.34
   },
   "schema_version": "1.0",
   "sector": null,

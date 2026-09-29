@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 568.6,
-      "high": 605.3,
-      "low": 566.0,
-      "open": 605.2,
-      "time": "2025-09-18",
-      "volume": 1977994
-    },
-    {
       "close": 573.65,
       "high": 578.6,
       "low": 565.0,
@@ -2017,13 +2009,21 @@
       "open": 499.45,
       "time": "2026-09-25",
       "volume": 250490
+    },
+    {
+      "close": 501.3,
+      "high": 504.2,
+      "low": 485.1,
+      "open": 494.05,
+      "time": "2026-09-28",
+      "volume": 558287
     }
   ],
   "company_name": "SARDA ENERGY & MIN LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.41x"
+    "volume_multiplier": "0.89x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -6.3,
-    "change_pct": -1.26,
-    "close": 493.15,
-    "previous_close": 499.45,
+    "as_of": "2026-09-28",
+    "change": 8.15,
+    "change_pct": 1.65,
+    "close": 501.3,
+    "previous_close": 493.15,
     "type": "EOD_CLOSE",
-    "volume": 250490
+    "volume": 558287
   },
   "range": {
-    "distance_from_high_pct": -20.97,
-    "distance_from_low_pct": 8.84,
+    "distance_from_high_pct": -19.66,
+    "distance_from_low_pct": 10.64,
     "high_52w": 624.0,
     "history_basis": "52_WEEK",
     "low_52w": 453.1,
-    "range_position_pct": 23.43
+    "range_position_pct": 28.2
   },
   "risk_model": {
-    "invalidation_floor": 475.89,
-    "risk_per_share": 27.12,
-    "technical_pivot": 503.01
+    "invalidation_floor": 483.75,
+    "risk_per_share": 27.58,
+    "technical_pivot": 511.33
   },
   "schema_version": "1.0",
   "sector": null,

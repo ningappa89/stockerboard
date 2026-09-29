@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 337.15,
-      "high": 340.0,
-      "low": 335.1,
-      "open": 336.9,
-      "time": "2025-09-18",
-      "volume": 65801
-    },
-    {
       "close": 333.25,
       "high": 342.0,
       "low": 330.75,
@@ -2017,13 +2009,21 @@
       "open": 261.2,
       "time": "2026-09-25",
       "volume": 78264
+    },
+    {
+      "close": 257.75,
+      "high": 263.95,
+      "low": 255.45,
+      "open": 262.0,
+      "time": "2026-09-28",
+      "volume": 104953
     }
   ],
   "company_name": "Prince Pipes and Fittings Limi",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 51,
+    "momentum_score": 49,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.53x"
+    "volume_multiplier": "0.71x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.0,
-    "change_pct": 0.77,
-    "close": 261.8,
-    "previous_close": 259.8,
+    "as_of": "2026-09-28",
+    "change": -4.05,
+    "change_pct": -1.55,
+    "close": 257.75,
+    "previous_close": 261.8,
     "type": "EOD_CLOSE",
-    "volume": 78264
+    "volume": 104953
   },
   "range": {
-    "distance_from_high_pct": -25.67,
-    "distance_from_low_pct": 27.71,
+    "distance_from_high_pct": -26.82,
+    "distance_from_low_pct": 25.73,
     "high_52w": 352.2,
     "history_basis": "52_WEEK",
     "low_52w": 205.0,
-    "range_position_pct": 38.59
+    "range_position_pct": 35.84
   },
   "risk_model": {
-    "invalidation_floor": 252.64,
-    "risk_per_share": 14.4,
-    "technical_pivot": 267.04
+    "invalidation_floor": 248.73,
+    "risk_per_share": 14.18,
+    "technical_pivot": 262.91
   },
   "schema_version": "1.0",
   "sector": null,

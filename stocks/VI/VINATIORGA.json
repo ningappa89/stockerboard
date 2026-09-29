@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1718.4,
-      "high": 1722.4,
-      "low": 1702.9,
-      "open": 1714.7,
-      "time": "2025-09-18",
-      "volume": 17253
-    },
-    {
       "close": 1736.8,
       "high": 1744.2,
       "low": 1709.8,
@@ -2017,13 +2009,21 @@
       "open": 1194.1,
       "time": "2026-09-25",
       "volume": 21752
+    },
+    {
+      "close": 1191.0,
+      "high": 1210.1,
+      "low": 1190.0,
+      "open": 1206.4,
+      "time": "2026-09-28",
+      "volume": 26786
     }
   ],
   "company_name": "VINATI ORGANICS LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.36x"
+    "volume_multiplier": "0.44x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 11.4,
-    "change_pct": 0.95,
-    "close": 1206.4,
-    "previous_close": 1195.0,
+    "as_of": "2026-09-28",
+    "change": -15.4,
+    "change_pct": -1.28,
+    "close": 1191.0,
+    "previous_close": 1206.4,
     "type": "EOD_CLOSE",
-    "volume": 21752
+    "volume": 26786
   },
   "range": {
-    "distance_from_high_pct": -34.79,
-    "distance_from_low_pct": 1.38,
+    "distance_from_high_pct": -35.62,
+    "distance_from_low_pct": 0.08,
     "high_52w": 1849.9,
     "history_basis": "52_WEEK",
     "low_52w": 1190.0,
-    "range_position_pct": 2.49
+    "range_position_pct": 0.15
   },
   "risk_model": {
-    "invalidation_floor": 1164.18,
-    "risk_per_share": 66.35,
-    "technical_pivot": 1230.53
+    "invalidation_floor": 1149.32,
+    "risk_per_share": 65.5,
+    "technical_pivot": 1214.82
   },
   "schema_version": "1.0",
   "sector": null,

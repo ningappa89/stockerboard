@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 53.83,
-      "high": 54.99,
-      "low": 53.75,
-      "open": 54.99,
-      "time": "2025-09-18",
-      "volume": 159837
-    },
-    {
       "close": 54.49,
       "high": 54.64,
       "low": 52.85,
@@ -2017,13 +2009,21 @@
       "open": 52.99,
       "time": "2026-09-25",
       "volume": 12725
+    },
+    {
+      "close": 52.36,
+      "high": 53.4,
+      "low": 47.04,
+      "open": 53.1,
+      "time": "2026-09-28",
+      "volume": 72719
     }
   ],
   "company_name": "ORICON ENTERPRISES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 45,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.29x"
+    "momentum_score": 47,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.32x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.37,
-    "change_pct": -0.71,
-    "close": 51.4,
-    "previous_close": 51.77,
+    "as_of": "2026-09-28",
+    "change": 0.96,
+    "change_pct": 1.87,
+    "close": 52.36,
+    "previous_close": 51.4,
     "type": "EOD_CLOSE",
-    "volume": 12725
+    "volume": 72719
   },
   "range": {
-    "distance_from_high_pct": -29.7,
-    "distance_from_low_pct": 5.31,
+    "distance_from_high_pct": -28.39,
+    "distance_from_low_pct": 11.31,
     "high_52w": 73.12,
     "history_basis": "52_WEEK",
-    "low_52w": 48.81,
-    "range_position_pct": 10.65
+    "low_52w": 47.04,
+    "range_position_pct": 20.4
   },
   "risk_model": {
-    "invalidation_floor": 49.6,
-    "risk_per_share": 2.83,
-    "technical_pivot": 52.43
+    "invalidation_floor": 50.53,
+    "risk_per_share": 2.88,
+    "technical_pivot": 53.41
   },
   "schema_version": "1.0",
   "sector": null,

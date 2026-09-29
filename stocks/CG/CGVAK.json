@@ -233,14 +233,22 @@
       "open": 148.0,
       "time": "2026-09-25",
       "volume": 7674
+    },
+    {
+      "close": 151.69,
+      "high": 156.48,
+      "low": 146.15,
+      "open": 156.48,
+      "time": "2026-09-28",
+      "volume": 858
     }
   ],
   "company_name": "CG-VAK SOFTWARE & EXPORTS LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE084D01010",
@@ -248,31 +256,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 80,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "2.97x"
+    "momentum_score": 78,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.36x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 5.3,
-    "change_pct": 3.58,
-    "close": 153.41,
-    "previous_close": 148.11,
+    "as_of": "2026-09-28",
+    "change": -1.72,
+    "change_pct": -1.12,
+    "close": 151.69,
+    "previous_close": 153.41,
     "type": "EOD_CLOSE",
-    "volume": 7674
+    "volume": 858
   },
   "range": {
-    "distance_from_high_pct": -6.29,
-    "distance_from_low_pct": 20.8,
+    "distance_from_high_pct": -7.34,
+    "distance_from_low_pct": 19.44,
     "high_52w": 163.7,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 127.0,
-    "range_position_pct": 71.96
+    "range_position_pct": 67.28
   },
   "risk_model": {
-    "invalidation_floor": 148.04,
-    "risk_per_share": 8.44,
-    "technical_pivot": 156.48
+    "invalidation_floor": 146.38,
+    "risk_per_share": 8.34,
+    "technical_pivot": 154.72
   },
   "schema_version": "1.0",
   "sector": null,

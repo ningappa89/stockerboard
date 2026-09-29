@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1.66,
-      "high": 1.68,
-      "low": 1.63,
-      "open": 1.64,
-      "time": "2025-09-18",
-      "volume": 1695939
-    },
-    {
       "close": 1.59,
       "high": 1.67,
       "low": 1.59,
@@ -2017,13 +2009,21 @@
       "open": 0.89,
       "time": "2026-09-25",
       "volume": 585864
+    },
+    {
+      "close": 0.87,
+      "high": 0.89,
+      "low": 0.87,
+      "open": 0.88,
+      "time": "2026-09-28",
+      "volume": 466988
     }
   ],
   "company_name": "INVENTURE GRO & SEC LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,24 +2034,24 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.79x"
+    "volume_multiplier": "0.65x"
   },
   "price": {
-    "as_of": "2026-09-25",
+    "as_of": "2026-09-28",
     "change": 0.0,
     "change_pct": 0.0,
     "close": 0.87,
     "previous_close": 0.87,
     "type": "EOD_CLOSE",
-    "volume": 585864
+    "volume": 466988
   },
   "range": {
-    "distance_from_high_pct": -48.21,
+    "distance_from_high_pct": -47.9,
     "distance_from_low_pct": 20.83,
-    "high_52w": 1.68,
+    "high_52w": 1.67,
     "history_basis": "52_WEEK",
     "low_52w": 0.72,
-    "range_position_pct": 15.63
+    "range_position_pct": 15.79
   },
   "risk_model": {
     "invalidation_floor": 0.84,

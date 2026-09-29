@@ -865,14 +865,22 @@
       "open": 141.35,
       "time": "2026-09-22",
       "volume": 32133
+    },
+    {
+      "close": 152.35,
+      "high": 159.0,
+      "low": 150.1,
+      "open": 153.47,
+      "time": "2026-09-28",
+      "volume": 292097
     }
   ],
   "company_name": "HALDYN GLASS LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-22",
-    "sessions_available": 108
+    "last_session": "2026-09-28",
+    "sessions_available": 109
   },
   "industry": null,
   "isin": "INE506D01020",
@@ -881,30 +889,30 @@
     "is_coiled": false,
     "is_stage2": true,
     "momentum_score": 83,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.71x"
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "4.95x"
   },
   "price": {
-    "as_of": "2026-09-22",
-    "change": 0.27,
-    "change_pct": 0.19,
-    "close": 143.05,
-    "previous_close": 142.78,
+    "as_of": "2026-09-28",
+    "change": 9.3,
+    "change_pct": 6.5,
+    "close": 152.35,
+    "previous_close": 143.05,
     "type": "EOD_CLOSE",
-    "volume": 32133
+    "volume": 292097
   },
   "range": {
-    "distance_from_high_pct": -4.5,
-    "distance_from_low_pct": 68.29,
-    "high_52w": 149.79,
+    "distance_from_high_pct": -4.18,
+    "distance_from_low_pct": 79.24,
+    "high_52w": 159.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 85.0,
-    "range_position_pct": 89.6
+    "range_position_pct": 91.01
   },
   "risk_model": {
-    "invalidation_floor": 138.04,
-    "risk_per_share": 7.87,
-    "technical_pivot": 145.91
+    "invalidation_floor": 147.02,
+    "risk_per_share": 8.38,
+    "technical_pivot": 155.4
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1629.0,
-      "high": 1670.0,
-      "low": 1625.0,
-      "open": 1655.0,
-      "time": "2025-09-18",
-      "volume": 785568
-    },
-    {
       "close": 1618.7,
       "high": 1634.0,
       "low": 1592.5,
@@ -2017,13 +2009,21 @@
       "open": 1470.0,
       "time": "2026-09-25",
       "volume": 312842
+    },
+    {
+      "close": 1470.8,
+      "high": 1470.8,
+      "low": 1437.4,
+      "open": 1465.2,
+      "time": "2026-09-28",
+      "volume": 576978
     }
   ],
   "company_name": "PRESTIGE ESTATE LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Realty",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.65x"
+    "volume_multiplier": "1.16x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.8,
-    "change_pct": 0.19,
-    "close": 1477.8,
-    "previous_close": 1475.0,
+    "as_of": "2026-09-28",
+    "change": -7.0,
+    "change_pct": -0.47,
+    "close": 1470.8,
+    "previous_close": 1477.8,
     "type": "EOD_CLOSE",
-    "volume": 312842
+    "volume": 576978
   },
   "range": {
-    "distance_from_high_pct": -18.14,
-    "distance_from_low_pct": 35.58,
+    "distance_from_high_pct": -18.52,
+    "distance_from_low_pct": 34.94,
     "high_52w": 1805.2,
     "history_basis": "52_WEEK",
     "low_52w": 1090.0,
-    "range_position_pct": 54.22
+    "range_position_pct": 53.24
   },
   "risk_model": {
-    "invalidation_floor": 1426.08,
-    "risk_per_share": 81.28,
-    "technical_pivot": 1507.36
+    "invalidation_floor": 1419.32,
+    "risk_per_share": 80.9,
+    "technical_pivot": 1500.22
   },
   "schema_version": "1.0",
   "sector": "Realty",

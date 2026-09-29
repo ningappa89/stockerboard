@@ -329,14 +329,22 @@
       "open": 1349.0,
       "time": "2026-09-25",
       "volume": 1637687
+    },
+    {
+      "close": 1227.6,
+      "high": 1272.15,
+      "low": 1215.1,
+      "open": 1271.1,
+      "time": "2026-09-28",
+      "volume": 1251529
     }
   ],
   "company_name": "INDO-MIM Limited",
   "history": {
     "first_session": "2026-07-30",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 41
+    "last_session": "2026-09-28",
+    "sessions_available": 42
   },
   "industry": null,
   "isin": "INE084101034",
@@ -344,31 +352,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 81,
+    "momentum_score": 76,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.62x"
+    "volume_multiplier": "0.47x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -35.2,
-    "change_pct": -2.68,
-    "close": 1275.95,
-    "previous_close": 1311.15,
+    "as_of": "2026-09-28",
+    "change": -48.35,
+    "change_pct": -3.79,
+    "close": 1227.6,
+    "previous_close": 1275.95,
     "type": "EOD_CLOSE",
-    "volume": 1637687
+    "volume": 1251529
   },
   "range": {
-    "distance_from_high_pct": -5.42,
-    "distance_from_low_pct": 82.28,
+    "distance_from_high_pct": -9.0,
+    "distance_from_low_pct": 75.37,
     "high_52w": 1349.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 700.0,
-    "range_position_pct": 88.74
+    "range_position_pct": 81.29
   },
   "risk_model": {
-    "invalidation_floor": 1231.29,
-    "risk_per_share": 70.18,
-    "technical_pivot": 1301.47
+    "invalidation_floor": 1184.63,
+    "risk_per_share": 67.52,
+    "technical_pivot": 1252.15
   },
   "schema_version": "1.0",
   "sector": null,

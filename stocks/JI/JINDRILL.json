@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 607.95,
-      "high": 612.0,
-      "low": 605.05,
-      "open": 612.0,
-      "time": "2025-09-18",
-      "volume": 39362
-    },
-    {
       "close": 608.0,
       "high": 615.95,
       "low": 606.6,
@@ -2017,13 +2009,21 @@
       "open": 591.5,
       "time": "2026-09-25",
       "volume": 112911
+    },
+    {
+      "close": 624.15,
+      "high": 643.95,
+      "low": 579.3,
+      "open": 586.7,
+      "time": "2026-09-28",
+      "volume": 7024748
     }
   ],
   "company_name": "JINDAL DRILLING & INDUSTRIES L",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 66,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.25x"
+    "is_stage2": true,
+    "momentum_score": 72,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "8.72x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.25,
-    "change_pct": 0.04,
-    "close": 592.2,
-    "previous_close": 591.95,
+    "as_of": "2026-09-28",
+    "change": 31.95,
+    "change_pct": 5.4,
+    "close": 624.15,
+    "previous_close": 592.2,
     "type": "EOD_CLOSE",
-    "volume": 112911
+    "volume": 7024748
   },
   "range": {
-    "distance_from_high_pct": -15.93,
-    "distance_from_low_pct": 34.56,
+    "distance_from_high_pct": -11.39,
+    "distance_from_low_pct": 41.82,
     "high_52w": 704.4,
     "history_basis": "52_WEEK",
     "low_52w": 440.1,
-    "range_position_pct": 57.55
+    "range_position_pct": 69.64
   },
   "risk_model": {
-    "invalidation_floor": 571.47,
-    "risk_per_share": 32.57,
-    "technical_pivot": 604.04
+    "invalidation_floor": 602.3,
+    "risk_per_share": 34.33,
+    "technical_pivot": 636.63
   },
   "schema_version": "1.0",
   "sector": null,

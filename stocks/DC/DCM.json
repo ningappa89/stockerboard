@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 99.22,
-      "high": 99.99,
-      "low": 98.61,
-      "open": 99.26,
-      "time": "2025-09-18",
-      "volume": 8172
-    },
-    {
       "close": 99.72,
       "high": 100.2,
       "low": 97.47,
@@ -2017,13 +2009,21 @@
       "open": 75.01,
       "time": "2026-09-25",
       "volume": 9883
+    },
+    {
+      "close": 75.1,
+      "high": 76.02,
+      "low": 75.0,
+      "open": 76.0,
+      "time": "2026-09-28",
+      "volume": 2575
     }
   ],
   "company_name": "DCM LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 47,
+    "momentum_score": 48,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.61x"
+    "volume_multiplier": "0.17x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.07,
-    "change_pct": -0.09,
-    "close": 75.0,
-    "previous_close": 75.07,
+    "as_of": "2026-09-28",
+    "change": 0.1,
+    "change_pct": 0.13,
+    "close": 75.1,
+    "previous_close": 75.0,
     "type": "EOD_CLOSE",
-    "volume": 9883
+    "volume": 2575
   },
   "range": {
-    "distance_from_high_pct": -28.09,
-    "distance_from_low_pct": 36.36,
+    "distance_from_high_pct": -28.0,
+    "distance_from_low_pct": 36.55,
     "high_52w": 104.3,
     "history_basis": "52_WEEK",
     "low_52w": 55.0,
-    "range_position_pct": 40.57
+    "range_position_pct": 40.77
   },
   "risk_model": {
-    "invalidation_floor": 72.38,
-    "risk_per_share": 4.12,
-    "technical_pivot": 76.5
+    "invalidation_floor": 72.47,
+    "risk_per_share": 4.13,
+    "technical_pivot": 76.6
   },
   "schema_version": "1.0",
   "sector": null,

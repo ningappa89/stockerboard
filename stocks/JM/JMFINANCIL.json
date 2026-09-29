@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 176.13,
-      "high": 177.75,
-      "low": 175.0,
-      "open": 177.1,
-      "time": "2025-09-18",
-      "volume": 1990064
-    },
-    {
       "close": 171.6,
       "high": 176.35,
       "low": 171.0,
@@ -2017,13 +2009,21 @@
       "open": 126.5,
       "time": "2026-09-25",
       "volume": 1681050
+    },
+    {
+      "close": 125.25,
+      "high": 127.83,
+      "low": 124.9,
+      "open": 126.6,
+      "time": "2026-09-28",
+      "volume": 2219125
     }
   ],
   "company_name": "JM FINANCIAL LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 44,
+    "momentum_score": 42,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.67x"
+    "volume_multiplier": "0.88x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.65,
-    "change_pct": 0.51,
-    "close": 127.68,
-    "previous_close": 127.03,
+    "as_of": "2026-09-28",
+    "change": -2.43,
+    "change_pct": -1.9,
+    "close": 125.25,
+    "previous_close": 127.68,
     "type": "EOD_CLOSE",
-    "volume": 1681050
+    "volume": 2219125
   },
   "range": {
-    "distance_from_high_pct": -30.04,
-    "distance_from_low_pct": 14.0,
+    "distance_from_high_pct": -31.37,
+    "distance_from_low_pct": 11.83,
     "high_52w": 182.5,
     "history_basis": "52_WEEK",
     "low_52w": 112.0,
-    "range_position_pct": 22.24
+    "range_position_pct": 18.79
   },
   "risk_model": {
-    "invalidation_floor": 123.21,
-    "risk_per_share": 7.02,
-    "technical_pivot": 130.23
+    "invalidation_floor": 120.87,
+    "risk_per_share": 6.88,
+    "technical_pivot": 127.75
   },
   "schema_version": "1.0",
   "sector": null,

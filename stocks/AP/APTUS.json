@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 329.5,
-      "high": 331.35,
-      "low": 326.6,
-      "open": 329.0,
-      "time": "2025-09-18",
-      "volume": 1089432
-    },
-    {
       "close": 332.7,
       "high": 335.0,
       "low": 328.75,
@@ -2017,13 +2009,21 @@
       "open": 240.9,
       "time": "2026-09-25",
       "volume": 1278151
+    },
+    {
+      "close": 237.47,
+      "high": 244.0,
+      "low": 237.0,
+      "open": 244.0,
+      "time": "2026-09-28",
+      "volume": 710146
     }
   ],
   "company_name": "Aptus Value Housing Finance In",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 49,
+    "momentum_score": 46,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.83x"
+    "volume_multiplier": "0.46x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 3.68,
-    "change_pct": 1.53,
-    "close": 244.6,
-    "previous_close": 240.92,
+    "as_of": "2026-09-28",
+    "change": -7.13,
+    "change_pct": -2.91,
+    "close": 237.47,
+    "previous_close": 244.6,
     "type": "EOD_CLOSE",
-    "volume": 1278151
+    "volume": 710146
   },
   "range": {
-    "distance_from_high_pct": -26.99,
-    "distance_from_low_pct": 26.72,
+    "distance_from_high_pct": -29.11,
+    "distance_from_low_pct": 23.02,
     "high_52w": 335.0,
     "history_basis": "52_WEEK",
     "low_52w": 193.03,
-    "range_position_pct": 36.32
+    "range_position_pct": 31.3
   },
   "risk_model": {
-    "invalidation_floor": 236.04,
-    "risk_per_share": 13.45,
-    "technical_pivot": 249.49
+    "invalidation_floor": 229.16,
+    "risk_per_share": 13.06,
+    "technical_pivot": 242.22
   },
   "schema_version": "1.0",
   "sector": null,

@@ -1465,14 +1465,22 @@
       "open": 171.73,
       "time": "2026-09-25",
       "volume": 1830502
+    },
+    {
+      "close": 174.83,
+      "high": 179.9,
+      "low": 171.97,
+      "open": 179.44,
+      "time": "2026-09-28",
+      "volume": 307001
     }
   ],
   "company_name": "GUJARAT KIDNEY N SUP SP L",
   "history": {
     "first_session": "2025-12-30",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 183
+    "last_session": "2026-09-28",
+    "sessions_available": 184
   },
   "industry": null,
   "isin": "INE0V0W01025",
@@ -1480,31 +1488,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 82,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "2.4x"
+    "momentum_score": 80,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.43x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 7.17,
-    "change_pct": 4.2,
-    "close": 178.02,
-    "previous_close": 170.85,
+    "as_of": "2026-09-28",
+    "change": -3.19,
+    "change_pct": -1.79,
+    "close": 174.83,
+    "previous_close": 178.02,
     "type": "EOD_CLOSE",
-    "volume": 1830502
+    "volume": 307001
   },
   "range": {
-    "distance_from_high_pct": -4.8,
-    "distance_from_low_pct": 80.99,
+    "distance_from_high_pct": -6.5,
+    "distance_from_low_pct": 77.75,
     "high_52w": 186.99,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 98.36,
-    "range_position_pct": 89.88
+    "range_position_pct": 86.28
   },
   "risk_model": {
-    "invalidation_floor": 171.79,
-    "risk_per_share": 9.79,
-    "technical_pivot": 181.58
+    "invalidation_floor": 168.71,
+    "risk_per_share": 9.62,
+    "technical_pivot": 178.33
   },
   "schema_version": "1.0",
   "sector": null,

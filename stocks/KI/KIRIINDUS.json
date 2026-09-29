@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 610.3,
-      "high": 632.0,
-      "low": 607.05,
-      "open": 628.5,
-      "time": "2025-09-18",
-      "volume": 421027
-    },
-    {
       "close": 608.55,
       "high": 620.7,
       "low": 603.55,
@@ -2017,13 +2009,21 @@
       "open": 563.0,
       "time": "2026-09-25",
       "volume": 631430
+    },
+    {
+      "close": 541.95,
+      "high": 558.0,
+      "low": 532.65,
+      "open": 557.0,
+      "time": "2026-09-28",
+      "volume": 589119
     }
   ],
   "company_name": "KIRI INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 47,
+    "momentum_score": 44,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.39x"
+    "volume_multiplier": "0.36x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.4,
-    "change_pct": -0.43,
-    "close": 557.5,
-    "previous_close": 559.9,
+    "as_of": "2026-09-28",
+    "change": -15.55,
+    "change_pct": -2.79,
+    "close": 541.95,
+    "previous_close": 557.5,
     "type": "EOD_CLOSE",
-    "volume": 631430
+    "volume": 589119
   },
   "range": {
-    "distance_from_high_pct": -28.43,
-    "distance_from_low_pct": 67.02,
+    "distance_from_high_pct": -30.43,
+    "distance_from_low_pct": 62.36,
     "high_52w": 779.0,
     "history_basis": "52_WEEK",
     "low_52w": 333.8,
-    "range_position_pct": 50.25
+    "range_position_pct": 46.75
   },
   "risk_model": {
-    "invalidation_floor": 537.99,
-    "risk_per_share": 30.66,
-    "technical_pivot": 568.65
+    "invalidation_floor": 522.98,
+    "risk_per_share": 29.81,
+    "technical_pivot": 552.79
   },
   "schema_version": "1.0",
   "sector": null,

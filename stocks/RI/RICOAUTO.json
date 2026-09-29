@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 105.3,
-      "high": 107.49,
-      "low": 104.51,
-      "open": 106.48,
-      "time": "2025-09-18",
-      "volume": 1413089
-    },
-    {
       "close": 104.44,
       "high": 106.0,
       "low": 104.01,
@@ -2017,13 +2009,21 @@
       "open": 131.4,
       "time": "2026-09-25",
       "volume": 946822
+    },
+    {
+      "close": 127.36,
+      "high": 132.23,
+      "low": 127.1,
+      "open": 132.0,
+      "time": "2026-09-28",
+      "volume": 579322
     }
   ],
   "company_name": "RICO AUTO INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.11x"
+    "volume_multiplier": "0.68x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.56,
-    "change_pct": 1.19,
-    "close": 132.23,
-    "previous_close": 130.67,
+    "as_of": "2026-09-28",
+    "change": -4.87,
+    "change_pct": -3.68,
+    "close": 127.36,
+    "previous_close": 132.23,
     "type": "EOD_CLOSE",
-    "volume": 946822
+    "volume": 579322
   },
   "range": {
-    "distance_from_high_pct": -16.3,
-    "distance_from_low_pct": 67.55,
+    "distance_from_high_pct": -19.39,
+    "distance_from_low_pct": 61.38,
     "high_52w": 157.99,
     "history_basis": "52_WEEK",
     "low_52w": 78.92,
-    "range_position_pct": 67.42
+    "range_position_pct": 61.26
   },
   "risk_model": {
-    "invalidation_floor": 127.6,
-    "risk_per_share": 7.27,
-    "technical_pivot": 134.87
+    "invalidation_floor": 122.9,
+    "risk_per_share": 7.01,
+    "technical_pivot": 129.91
   },
   "schema_version": "1.0",
   "sector": null,

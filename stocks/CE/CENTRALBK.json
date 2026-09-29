@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 37.67,
-      "high": 38.31,
-      "low": 37.52,
-      "open": 38.12,
-      "time": "2025-09-18",
-      "volume": 6499262
-    },
-    {
       "close": 38.2,
       "high": 38.5,
       "low": 37.55,
@@ -2017,13 +2009,21 @@
       "open": 31.18,
       "time": "2026-09-25",
       "volume": 3133875
+    },
+    {
+      "close": 30.59,
+      "high": 31.11,
+      "low": 30.51,
+      "open": 31.1,
+      "time": "2026-09-28",
+      "volume": 4229654
     }
   ],
   "company_name": "CENTRAL BANK OF INDIA",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 54,
+    "momentum_score": 52,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.43x"
+    "volume_multiplier": "0.59x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.01,
-    "change_pct": -0.03,
-    "close": 31.18,
-    "previous_close": 31.19,
+    "as_of": "2026-09-28",
+    "change": -0.59,
+    "change_pct": -1.89,
+    "close": 30.59,
+    "previous_close": 31.18,
     "type": "EOD_CLOSE",
-    "volume": 3133875
+    "volume": 4229654
   },
   "range": {
-    "distance_from_high_pct": -23.8,
-    "distance_from_low_pct": 6.34,
+    "distance_from_high_pct": -25.24,
+    "distance_from_low_pct": 4.33,
     "high_52w": 40.92,
     "history_basis": "52_WEEK",
     "low_52w": 29.32,
-    "range_position_pct": 16.03
+    "range_position_pct": 10.95
   },
   "risk_model": {
-    "invalidation_floor": 30.09,
-    "risk_per_share": 1.71,
-    "technical_pivot": 31.8
+    "invalidation_floor": 29.52,
+    "risk_per_share": 1.68,
+    "technical_pivot": 31.2
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

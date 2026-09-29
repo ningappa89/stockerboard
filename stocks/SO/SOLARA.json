@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 686.5,
-      "high": 693.1,
-      "low": 676.2,
-      "open": 680.0,
-      "time": "2025-09-18",
-      "volume": 78516
-    },
-    {
       "close": 675.15,
       "high": 694.85,
       "low": 670.5,
@@ -2017,13 +2009,21 @@
       "open": 734.55,
       "time": "2026-09-25",
       "volume": 287888
+    },
+    {
+      "close": 736.3,
+      "high": 750.0,
+      "low": 723.75,
+      "open": 741.7,
+      "time": "2026-09-28",
+      "volume": 265881
     }
   ],
   "company_name": "SOLARA ACTIVE PHARMA SCIENCES ",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 83,
+    "momentum_score": 82,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.46x"
+    "volume_multiplier": "0.43x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 11.8,
-    "change_pct": 1.62,
-    "close": 739.15,
-    "previous_close": 727.35,
+    "as_of": "2026-09-28",
+    "change": -2.85,
+    "change_pct": -0.39,
+    "close": 736.3,
+    "previous_close": 739.15,
     "type": "EOD_CLOSE",
-    "volume": 287888
+    "volume": 265881
   },
   "range": {
-    "distance_from_high_pct": -4.5,
-    "distance_from_low_pct": 75.15,
+    "distance_from_high_pct": -4.87,
+    "distance_from_low_pct": 74.48,
     "high_52w": 774.0,
     "history_basis": "52_WEEK",
     "low_52w": 422.0,
-    "range_position_pct": 90.1
+    "range_position_pct": 89.29
   },
   "risk_model": {
-    "invalidation_floor": 713.28,
-    "risk_per_share": 40.65,
-    "technical_pivot": 753.93
+    "invalidation_floor": 710.53,
+    "risk_per_share": 40.5,
+    "technical_pivot": 751.03
   },
   "schema_version": "1.0",
   "sector": null,

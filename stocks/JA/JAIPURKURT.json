@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 38.34,
-      "high": 38.9,
-      "low": 37.91,
-      "open": 38.15,
-      "time": "2025-09-18",
-      "volume": 10030
-    },
-    {
       "close": 38.46,
       "high": 40.0,
       "low": 37.66,
@@ -2017,13 +2009,21 @@
       "open": 25.01,
       "time": "2026-09-25",
       "volume": 34887
+    },
+    {
+      "close": 25.48,
+      "high": 25.87,
+      "low": 24.41,
+      "open": 25.74,
+      "time": "2026-09-28",
+      "volume": 15579
     }
   ],
   "company_name": "NANDANI CREATION LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.83x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.21x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.13,
-    "change_pct": -0.51,
-    "close": 25.13,
-    "previous_close": 25.26,
+    "as_of": "2026-09-28",
+    "change": 0.35,
+    "change_pct": 1.39,
+    "close": 25.48,
+    "previous_close": 25.13,
     "type": "EOD_CLOSE",
-    "volume": 34887
+    "volume": 15579
   },
   "range": {
-    "distance_from_high_pct": -41.2,
-    "distance_from_low_pct": 5.1,
+    "distance_from_high_pct": -40.38,
+    "distance_from_low_pct": 6.57,
     "high_52w": 42.74,
     "history_basis": "52_WEEK",
     "low_52w": 23.91,
-    "range_position_pct": 6.48
+    "range_position_pct": 8.34
   },
   "risk_model": {
-    "invalidation_floor": 24.25,
-    "risk_per_share": 1.38,
-    "technical_pivot": 25.63
+    "invalidation_floor": 24.59,
+    "risk_per_share": 1.4,
+    "technical_pivot": 25.99
   },
   "schema_version": "1.0",
   "sector": null,

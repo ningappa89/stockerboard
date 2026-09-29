@@ -889,14 +889,22 @@
       "open": 2215.0,
       "time": "2026-09-25",
       "volume": 2135
+    },
+    {
+      "close": 2203.6,
+      "high": 2238.1,
+      "low": 2201.0,
+      "open": 2238.1,
+      "time": "2026-09-28",
+      "volume": 1443
     }
   ],
   "company_name": "KAMA HOLDINGS LIMITED",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE411F01010",
@@ -904,31 +912,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 60,
+    "momentum_score": 58,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.43x"
+    "volume_multiplier": "0.3x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 38.5,
-    "change_pct": 1.75,
-    "close": 2238.1,
-    "previous_close": 2199.6,
+    "as_of": "2026-09-28",
+    "change": -34.5,
+    "change_pct": -1.54,
+    "close": 2203.6,
+    "previous_close": 2238.1,
     "type": "EOD_CLOSE",
-    "volume": 2135
+    "volume": 1443
   },
   "range": {
-    "distance_from_high_pct": -19.61,
-    "distance_from_low_pct": 3.03,
+    "distance_from_high_pct": -20.84,
+    "distance_from_low_pct": 1.44,
     "high_52w": 2783.9,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 2172.3,
-    "range_position_pct": 10.76
+    "range_position_pct": 5.12
   },
   "risk_model": {
-    "invalidation_floor": 2159.77,
-    "risk_per_share": 123.09,
-    "technical_pivot": 2282.86
+    "invalidation_floor": 2126.47,
+    "risk_per_share": 121.2,
+    "technical_pivot": 2247.67
   },
   "schema_version": "1.0",
   "sector": null,

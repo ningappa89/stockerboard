@@ -849,14 +849,22 @@
       "open": 34.5,
       "time": "2026-09-25",
       "volume": 104
+    },
+    {
+      "close": 35.2,
+      "high": 38.8,
+      "low": 34.15,
+      "open": 34.15,
+      "time": "2026-09-28",
+      "volume": 4271
     }
   ],
   "company_name": "SHRI KRISHNA DEVCON LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 106
+    "last_session": "2026-09-28",
+    "sessions_available": 107
   },
   "industry": null,
   "isin": "INE997I01012",
@@ -865,30 +873,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.13x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "5.09x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.11,
-    "change_pct": -3.0,
-    "close": 35.89,
-    "previous_close": 37.0,
+    "as_of": "2026-09-28",
+    "change": -0.69,
+    "change_pct": -1.92,
+    "close": 35.2,
+    "previous_close": 35.89,
     "type": "EOD_CLOSE",
-    "volume": 104
+    "volume": 4271
   },
   "range": {
-    "distance_from_high_pct": -35.91,
-    "distance_from_low_pct": 6.03,
+    "distance_from_high_pct": -37.14,
+    "distance_from_low_pct": 3.99,
     "high_52w": 56.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 33.85,
-    "range_position_pct": 9.21
+    "range_position_pct": 6.09
   },
   "risk_model": {
-    "invalidation_floor": 34.63,
-    "risk_per_share": 1.98,
-    "technical_pivot": 36.61
+    "invalidation_floor": 33.97,
+    "risk_per_share": 1.93,
+    "technical_pivot": 35.9
   },
   "schema_version": "1.0",
   "sector": null,

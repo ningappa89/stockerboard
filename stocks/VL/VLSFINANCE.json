@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 222.14,
-      "high": 226.99,
-      "low": 220.8,
-      "open": 223.08,
-      "time": "2025-09-18",
-      "volume": 57535
-    },
-    {
       "close": 228.81,
       "high": 233.0,
       "low": 222.6,
@@ -2017,13 +2009,21 @@
       "open": 243.0,
       "time": "2026-09-25",
       "volume": 7005
+    },
+    {
+      "close": 237.4,
+      "high": 239.65,
+      "low": 234.25,
+      "open": 239.65,
+      "time": "2026-09-28",
+      "volume": 2385
     }
   ],
   "company_name": "VLS FINANCE LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 46,
+    "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.95x"
+    "volume_multiplier": "0.33x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.16,
-    "change_pct": 0.07,
-    "close": 239.74,
-    "previous_close": 239.58,
+    "as_of": "2026-09-28",
+    "change": -2.34,
+    "change_pct": -0.98,
+    "close": 237.4,
+    "previous_close": 239.74,
     "type": "EOD_CLOSE",
-    "volume": 7005
+    "volume": 2385
   },
   "range": {
-    "distance_from_high_pct": -29.28,
-    "distance_from_low_pct": 20.59,
+    "distance_from_high_pct": -29.97,
+    "distance_from_low_pct": 19.41,
     "high_52w": 339.0,
     "history_basis": "52_WEEK",
     "low_52w": 198.81,
-    "range_position_pct": 29.2
+    "range_position_pct": 27.53
   },
   "risk_model": {
-    "invalidation_floor": 231.35,
-    "risk_per_share": 13.18,
-    "technical_pivot": 244.53
+    "invalidation_floor": 229.09,
+    "risk_per_share": 13.06,
+    "technical_pivot": 242.15
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 111.5,
-      "high": 112.7,
-      "low": 108.95,
-      "open": 108.95,
-      "time": "2025-09-18",
-      "volume": 17786
-    },
-    {
       "close": 111.76,
       "high": 113.4,
       "low": 110.05,
@@ -2017,13 +2009,21 @@
       "open": 103.64,
       "time": "2026-09-25",
       "volume": 103573
+    },
+    {
+      "close": 100.86,
+      "high": 103.42,
+      "low": 99.01,
+      "open": 101.95,
+      "time": "2026-09-28",
+      "volume": 82234
     }
   ],
   "company_name": "MAAN ALUMINIUM LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.35x"
+    "volume_multiplier": "1.04x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.44,
-    "change_pct": -2.38,
-    "close": 100.18,
-    "previous_close": 102.62,
+    "as_of": "2026-09-28",
+    "change": 0.68,
+    "change_pct": 0.68,
+    "close": 100.86,
+    "previous_close": 100.18,
     "type": "EOD_CLOSE",
-    "volume": 103573
+    "volume": 82234
   },
   "range": {
-    "distance_from_high_pct": -45.77,
-    "distance_from_low_pct": 0.33,
+    "distance_from_high_pct": -45.4,
+    "distance_from_low_pct": 1.87,
     "high_52w": 184.74,
     "history_basis": "52_WEEK",
-    "low_52w": 99.85,
-    "range_position_pct": 0.39
+    "low_52w": 99.01,
+    "range_position_pct": 2.16
   },
   "risk_model": {
-    "invalidation_floor": 96.67,
-    "risk_per_share": 5.51,
-    "technical_pivot": 102.18
+    "invalidation_floor": 97.33,
+    "risk_per_share": 5.55,
+    "technical_pivot": 102.88
   },
   "schema_version": "1.0",
   "sector": null,

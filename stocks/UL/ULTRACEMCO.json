@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 12626.0,
-      "high": 12749.0,
-      "low": 12562.0,
-      "open": 12730.0,
-      "time": "2025-09-18",
-      "volume": 190079
-    },
-    {
       "close": 12508.0,
       "high": 12644.0,
       "low": 12484.0,
@@ -2017,13 +2009,21 @@
       "open": 11100.0,
       "time": "2026-09-25",
       "volume": 191155
+    },
+    {
+      "close": 11025.0,
+      "high": 11155.0,
+      "low": 10978.0,
+      "open": 11155.0,
+      "time": "2026-09-28",
+      "volume": 331811
     }
   ],
   "company_name": "ULTRATECH CEMENT LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 67,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.72x"
+    "volume_multiplier": "1.23x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 99.0,
-    "change_pct": 0.9,
-    "close": 11155.0,
-    "previous_close": 11056.0,
+    "as_of": "2026-09-28",
+    "change": -130.0,
+    "change_pct": -1.17,
+    "close": 11025.0,
+    "previous_close": 11155.0,
     "type": "EOD_CLOSE",
-    "volume": 191155
+    "volume": 331811
   },
   "range": {
-    "distance_from_high_pct": -14.91,
-    "distance_from_low_pct": 8.04,
+    "distance_from_high_pct": -15.9,
+    "distance_from_low_pct": 6.78,
     "high_52w": 13110.0,
     "history_basis": "52_WEEK",
     "low_52w": 10325.0,
-    "range_position_pct": 29.8
+    "range_position_pct": 25.13
   },
   "risk_model": {
-    "invalidation_floor": 10764.57,
-    "risk_per_share": 613.53,
-    "technical_pivot": 11378.1
+    "invalidation_floor": 10639.12,
+    "risk_per_share": 606.38,
+    "technical_pivot": 11245.5
   },
   "schema_version": "1.0",
   "sector": null,

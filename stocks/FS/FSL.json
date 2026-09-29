@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 374.55,
-      "high": 379.7,
-      "low": 369.0,
-      "open": 373.8,
-      "time": "2025-09-18",
-      "volume": 959637
-    },
-    {
       "close": 375.8,
       "high": 377.0,
       "low": 371.8,
@@ -2017,13 +2009,21 @@
       "open": 262.15,
       "time": "2026-09-25",
       "volume": 417268
+    },
+    {
+      "close": 256.0,
+      "high": 260.55,
+      "low": 255.05,
+      "open": 260.5,
+      "time": "2026-09-28",
+      "volume": 400591
     }
   ],
   "company_name": "FIRSTSOURCE SOLUTIONS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
+    "momentum_score": 41,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.17x"
+    "volume_multiplier": "0.16x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.7,
-    "change_pct": -1.03,
-    "close": 259.45,
-    "previous_close": 262.15,
+    "as_of": "2026-09-28",
+    "change": -3.45,
+    "change_pct": -1.33,
+    "close": 256.0,
+    "previous_close": 259.45,
     "type": "EOD_CLOSE",
-    "volume": 417268
+    "volume": 400591
   },
   "range": {
-    "distance_from_high_pct": -31.67,
-    "distance_from_low_pct": 28.44,
-    "high_52w": 379.7,
+    "distance_from_high_pct": -32.1,
+    "distance_from_low_pct": 26.73,
+    "high_52w": 377.0,
     "history_basis": "52_WEEK",
     "low_52w": 202.0,
-    "range_position_pct": 32.33
+    "range_position_pct": 30.86
   },
   "risk_model": {
-    "invalidation_floor": 250.37,
-    "risk_per_share": 14.27,
-    "technical_pivot": 264.64
+    "invalidation_floor": 247.04,
+    "risk_per_share": 14.08,
+    "technical_pivot": 261.12
   },
   "schema_version": "1.0",
   "sector": null,

@@ -385,14 +385,22 @@
       "open": 51.79,
       "time": "2026-09-25",
       "volume": 466758
+    },
+    {
+      "close": 48.36,
+      "high": 49.88,
+      "low": 48.0,
+      "open": 49.88,
+      "time": "2026-09-28",
+      "volume": 212831
     }
   ],
   "company_name": "ALPINE TEXWORLD LIMITED",
   "history": {
     "first_session": "2026-07-21",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 48
+    "last_session": "2026-09-28",
+    "sessions_available": 49
   },
   "industry": null,
   "isin": "INE1JCQ01037",
@@ -402,29 +410,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.47x"
+    "volume_multiplier": "0.67x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.59,
-    "change_pct": -3.14,
-    "close": 49.06,
-    "previous_close": 50.65,
+    "as_of": "2026-09-28",
+    "change": -0.7,
+    "change_pct": -1.43,
+    "close": 48.36,
+    "previous_close": 49.06,
     "type": "EOD_CLOSE",
-    "volume": 466758
+    "volume": 212831
   },
   "range": {
-    "distance_from_high_pct": -53.28,
-    "distance_from_low_pct": 1.26,
+    "distance_from_high_pct": -53.94,
+    "distance_from_low_pct": 0.75,
     "high_52w": 105.0,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 48.45,
-    "range_position_pct": 1.08
+    "low_52w": 48.0,
+    "range_position_pct": 0.63
   },
   "risk_model": {
-    "invalidation_floor": 47.34,
-    "risk_per_share": 2.7,
-    "technical_pivot": 50.04
+    "invalidation_floor": 46.67,
+    "risk_per_share": 2.66,
+    "technical_pivot": 49.33
   },
   "schema_version": "1.0",
   "sector": null,

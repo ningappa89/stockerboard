@@ -1169,14 +1169,22 @@
       "open": 19.5,
       "time": "2026-09-25",
       "volume": 1354842
+    },
+    {
+      "close": 18.0,
+      "high": 19.38,
+      "low": 17.72,
+      "open": 18.93,
+      "time": "2026-09-28",
+      "volume": 419474
     }
   ],
   "company_name": "Aqylon Nexus Limited",
   "history": {
     "first_session": "2026-02-23",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 146
+    "last_session": "2026-09-28",
+    "sessions_available": 147
   },
   "industry": null,
   "isin": "INE416A01051",
@@ -1186,29 +1194,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.44x"
+    "volume_multiplier": "0.14x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.43,
-    "change_pct": -2.26,
-    "close": 18.56,
-    "previous_close": 18.99,
+    "as_of": "2026-09-28",
+    "change": -0.56,
+    "change_pct": -3.02,
+    "close": 18.0,
+    "previous_close": 18.56,
     "type": "EOD_CLOSE",
-    "volume": 1354842
+    "volume": 419474
   },
   "range": {
-    "distance_from_high_pct": -87.53,
-    "distance_from_low_pct": 3.46,
+    "distance_from_high_pct": -87.9,
+    "distance_from_low_pct": 1.58,
     "high_52w": 148.8,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 17.94,
-    "range_position_pct": 0.47
+    "low_52w": 17.72,
+    "range_position_pct": 0.21
   },
   "risk_model": {
-    "invalidation_floor": 17.91,
-    "risk_per_share": 1.02,
-    "technical_pivot": 18.93
+    "invalidation_floor": 17.37,
+    "risk_per_share": 0.99,
+    "technical_pivot": 18.36
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 235.32,
-      "high": 236.8,
-      "low": 224.7,
-      "open": 229.58,
-      "time": "2025-09-18",
-      "volume": 583737
-    },
-    {
       "close": 240.57,
       "high": 244.0,
       "low": 234.25,
@@ -2017,13 +2009,21 @@
       "open": 143.0,
       "time": "2026-09-25",
       "volume": 106923
+    },
+    {
+      "close": 143.25,
+      "high": 146.99,
+      "low": 142.15,
+      "open": 146.5,
+      "time": "2026-09-28",
+      "volume": 66372
     }
   ],
   "company_name": "SHALBY LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.9x"
+    "volume_multiplier": "0.56x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 3.35,
-    "change_pct": 2.33,
-    "close": 147.12,
-    "previous_close": 143.77,
+    "as_of": "2026-09-28",
+    "change": -3.87,
+    "change_pct": -2.63,
+    "close": 143.25,
+    "previous_close": 147.12,
     "type": "EOD_CLOSE",
-    "volume": 106923
+    "volume": 66372
   },
   "range": {
-    "distance_from_high_pct": -46.44,
-    "distance_from_low_pct": 16.93,
+    "distance_from_high_pct": -47.85,
+    "distance_from_low_pct": 13.85,
     "high_52w": 274.7,
     "history_basis": "52_WEEK",
     "low_52w": 125.82,
-    "range_position_pct": 14.31
+    "range_position_pct": 11.71
   },
   "risk_model": {
-    "invalidation_floor": 141.97,
-    "risk_per_share": 8.09,
-    "technical_pivot": 150.06
+    "invalidation_floor": 138.24,
+    "risk_per_share": 7.88,
+    "technical_pivot": 146.12
   },
   "schema_version": "1.0",
   "sector": null,

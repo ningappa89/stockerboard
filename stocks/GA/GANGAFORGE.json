@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3.78,
-      "high": 3.83,
-      "low": 3.7,
-      "open": 3.75,
-      "time": "2025-09-18",
-      "volume": 107709
-    },
-    {
       "close": 3.76,
       "high": 3.83,
       "low": 3.72,
@@ -2017,13 +2009,21 @@
       "open": 1.52,
       "time": "2026-09-25",
       "volume": 3359674
+    },
+    {
+      "close": 1.4,
+      "high": 1.45,
+      "low": 1.39,
+      "open": 1.45,
+      "time": "2026-09-28",
+      "volume": 2988270
     }
   ],
   "company_name": "GANGA FORGING LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.71x"
+    "volume_multiplier": "0.7x"
   },
   "price": {
-    "as_of": "2026-09-25",
+    "as_of": "2026-09-28",
     "change": -0.06,
-    "change_pct": -3.95,
-    "close": 1.46,
-    "previous_close": 1.52,
+    "change_pct": -4.11,
+    "close": 1.4,
+    "previous_close": 1.46,
     "type": "EOD_CLOSE",
-    "volume": 3359674
+    "volume": 2988270
   },
   "range": {
-    "distance_from_high_pct": -64.82,
-    "distance_from_low_pct": 0.69,
+    "distance_from_high_pct": -66.27,
+    "distance_from_low_pct": 0.72,
     "high_52w": 4.15,
     "history_basis": "52_WEEK",
-    "low_52w": 1.45,
-    "range_position_pct": 0.37
+    "low_52w": 1.39,
+    "range_position_pct": 0.36
   },
   "risk_model": {
-    "invalidation_floor": 1.41,
+    "invalidation_floor": 1.35,
     "risk_per_share": 0.5,
-    "technical_pivot": 1.49
+    "technical_pivot": 1.43
   },
   "schema_version": "1.0",
   "sector": null,

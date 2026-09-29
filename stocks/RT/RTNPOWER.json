@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 12.35,
-      "high": 12.57,
-      "low": 12.26,
-      "open": 12.38,
-      "time": "2025-09-18",
-      "volume": 16265134
-    },
-    {
       "close": 12.41,
       "high": 12.55,
       "low": 12.25,
@@ -2017,13 +2009,21 @@
       "open": 7.02,
       "time": "2026-09-25",
       "volume": 14384293
+    },
+    {
+      "close": 6.86,
+      "high": 7.04,
+      "low": 6.85,
+      "open": 7.04,
+      "time": "2026-09-28",
+      "volume": 13063775
     }
   ],
   "company_name": "RATTANINDIA POWER LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "0.55x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.02,
-    "change_pct": -0.28,
-    "close": 7.0,
-    "previous_close": 7.02,
+    "as_of": "2026-09-28",
+    "change": -0.14,
+    "change_pct": -2.0,
+    "close": 6.86,
+    "previous_close": 7.0,
     "type": "EOD_CLOSE",
-    "volume": 14384293
+    "volume": 13063775
   },
   "range": {
-    "distance_from_high_pct": -44.31,
-    "distance_from_low_pct": 1.74,
-    "high_52w": 12.57,
+    "distance_from_high_pct": -45.34,
+    "distance_from_low_pct": 0.15,
+    "high_52w": 12.55,
     "history_basis": "52_WEEK",
-    "low_52w": 6.88,
-    "range_position_pct": 2.11
+    "low_52w": 6.85,
+    "range_position_pct": 0.18
   },
   "risk_model": {
-    "invalidation_floor": 6.75,
+    "invalidation_floor": 6.62,
     "risk_per_share": 0.5,
-    "technical_pivot": 7.14
+    "technical_pivot": 7.0
   },
   "schema_version": "1.0",
   "sector": null,

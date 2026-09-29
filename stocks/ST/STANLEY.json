@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 299.35,
-      "high": 305.9,
-      "low": 298.05,
-      "open": 301.0,
-      "time": "2025-09-18",
-      "volume": 74734
-    },
-    {
       "close": 300.0,
       "high": 303.0,
       "low": 297.8,
@@ -2017,13 +2009,21 @@
       "open": 135.89,
       "time": "2026-09-25",
       "volume": 375595
+    },
+    {
+      "close": 135.81,
+      "high": 145.49,
+      "low": 134.55,
+      "open": 144.97,
+      "time": "2026-09-28",
+      "volume": 174411
     }
   ],
   "company_name": "STANLEY LIFESTYLES LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "4.6x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.99x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 9.1,
-    "change_pct": 6.73,
-    "close": 144.32,
-    "previous_close": 135.22,
+    "as_of": "2026-09-28",
+    "change": -8.51,
+    "change_pct": -5.9,
+    "close": 135.81,
+    "previous_close": 144.32,
     "type": "EOD_CLOSE",
-    "volume": 375595
+    "volume": 174411
   },
   "range": {
-    "distance_from_high_pct": -54.96,
-    "distance_from_low_pct": 17.33,
+    "distance_from_high_pct": -57.62,
+    "distance_from_low_pct": 10.41,
     "high_52w": 320.45,
     "history_basis": "52_WEEK",
     "low_52w": 123.0,
-    "range_position_pct": 10.8
+    "range_position_pct": 6.49
   },
   "risk_model": {
-    "invalidation_floor": 139.27,
-    "risk_per_share": 7.94,
-    "technical_pivot": 147.21
+    "invalidation_floor": 131.06,
+    "risk_per_share": 7.47,
+    "technical_pivot": 138.53
   },
   "schema_version": "1.0",
   "sector": null,

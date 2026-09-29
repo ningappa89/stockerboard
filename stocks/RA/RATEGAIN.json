@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 638.0,
-      "high": 643.65,
-      "low": 632.9,
-      "open": 642.0,
-      "time": "2025-09-18",
-      "volume": 328791
-    },
-    {
       "close": 639.2,
       "high": 646.45,
       "low": 634.55,
@@ -2017,13 +2009,21 @@
       "open": 826.0,
       "time": "2026-09-25",
       "volume": 119666
+    },
+    {
+      "close": 828.7,
+      "high": 834.0,
+      "low": 814.05,
+      "open": 827.0,
+      "time": "2026-09-28",
+      "volume": 175709
     }
   ],
   "company_name": "RATEGAIN TRAVEL TECHN LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 58,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.36x"
+    "volume_multiplier": "0.53x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 3.75,
-    "change_pct": 0.46,
-    "close": 827.75,
-    "previous_close": 824.0,
+    "as_of": "2026-09-28",
+    "change": 0.95,
+    "change_pct": 0.11,
+    "close": 828.7,
+    "previous_close": 827.75,
     "type": "EOD_CLOSE",
-    "volume": 119666
+    "volume": 175709
   },
   "range": {
-    "distance_from_high_pct": -21.17,
-    "distance_from_low_pct": 89.42,
+    "distance_from_high_pct": -21.08,
+    "distance_from_low_pct": 89.63,
     "high_52w": 1050.0,
     "history_basis": "52_WEEK",
     "low_52w": 437.0,
-    "range_position_pct": 63.74
+    "range_position_pct": 63.9
   },
   "risk_model": {
-    "invalidation_floor": 798.78,
-    "risk_per_share": 45.53,
-    "technical_pivot": 844.31
+    "invalidation_floor": 799.7,
+    "risk_per_share": 45.57,
+    "technical_pivot": 845.27
   },
   "schema_version": "1.0",
   "sector": null,

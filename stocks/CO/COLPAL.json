@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2365.6,
-      "high": 2369.4,
-      "low": 2342.9,
-      "open": 2350.0,
-      "time": "2025-09-18",
-      "volume": 283950
-    },
-    {
       "close": 2337.9,
       "high": 2379.2,
       "low": 2334.0,
@@ -2017,13 +2009,21 @@
       "open": 1854.8,
       "time": "2026-09-25",
       "volume": 359623
+    },
+    {
+      "close": 1845.9,
+      "high": 1857.9,
+      "low": 1826.8,
+      "open": 1852.3,
+      "time": "2026-09-28",
+      "volume": 427586
     }
   ],
   "company_name": "COLGATE-PALMOLIVE (INDIA) LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Fast Moving Consumer Goods",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 57,
+    "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.76x"
+    "volume_multiplier": "0.89x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.0,
-    "change_pct": 0.05,
-    "close": 1855.8,
-    "previous_close": 1854.8,
+    "as_of": "2026-09-28",
+    "change": -9.9,
+    "change_pct": -0.53,
+    "close": 1845.9,
+    "previous_close": 1855.8,
     "type": "EOD_CLOSE",
-    "volume": 359623
+    "volume": 427586
   },
   "range": {
-    "distance_from_high_pct": -22.0,
-    "distance_from_low_pct": 4.14,
+    "distance_from_high_pct": -22.42,
+    "distance_from_low_pct": 3.59,
     "high_52w": 2379.2,
     "history_basis": "52_WEEK",
     "low_52w": 1782.0,
-    "range_position_pct": 12.36
+    "range_position_pct": 10.7
   },
   "risk_model": {
-    "invalidation_floor": 1790.85,
-    "risk_per_share": 102.07,
-    "technical_pivot": 1892.92
+    "invalidation_floor": 1781.29,
+    "risk_per_share": 101.53,
+    "technical_pivot": 1882.82
   },
   "schema_version": "1.0",
   "sector": "Fast Moving Consumer Goods",

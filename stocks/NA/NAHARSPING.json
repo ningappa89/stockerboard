@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 216.26,
-      "high": 221.0,
-      "low": 216.0,
-      "open": 218.03,
-      "time": "2025-09-18",
-      "volume": 11682
-    },
-    {
       "close": 217.02,
       "high": 219.9,
       "low": 215.29,
@@ -2017,13 +2009,21 @@
       "open": 271.15,
       "time": "2026-09-25",
       "volume": 8044
+    },
+    {
+      "close": 267.3,
+      "high": 278.0,
+      "low": 265.0,
+      "open": 278.0,
+      "time": "2026-09-28",
+      "volume": 9962
     }
   ],
   "company_name": "NAHAR SPINNING MILLS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 56,
+    "momentum_score": 54,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.24x"
+    "volume_multiplier": "0.3x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.65,
-    "change_pct": -0.24,
-    "close": 269.95,
-    "previous_close": 270.6,
+    "as_of": "2026-09-28",
+    "change": -2.65,
+    "change_pct": -0.98,
+    "close": 267.3,
+    "previous_close": 269.95,
     "type": "EOD_CLOSE",
-    "volume": 8044
+    "volume": 9962
   },
   "range": {
-    "distance_from_high_pct": -22.65,
-    "distance_from_low_pct": 80.93,
+    "distance_from_high_pct": -23.41,
+    "distance_from_low_pct": 79.16,
     "high_52w": 349.0,
     "history_basis": "52_WEEK",
     "low_52w": 149.2,
-    "range_position_pct": 60.44
+    "range_position_pct": 59.11
   },
   "risk_model": {
-    "invalidation_floor": 260.5,
-    "risk_per_share": 14.85,
-    "technical_pivot": 275.35
+    "invalidation_floor": 257.94,
+    "risk_per_share": 14.71,
+    "technical_pivot": 272.65
   },
   "schema_version": "1.0",
   "sector": null,

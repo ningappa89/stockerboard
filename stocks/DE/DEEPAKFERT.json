@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1451.0,
-      "high": 1479.9,
-      "low": 1424.0,
-      "open": 1470.0,
-      "time": "2025-09-18",
-      "volume": 237359
-    },
-    {
       "close": 1457.3,
       "high": 1462.0,
       "low": 1441.6,
@@ -2017,13 +2009,21 @@
       "open": 1361.0,
       "time": "2026-09-25",
       "volume": 394991
+    },
+    {
+      "close": 1350.5,
+      "high": 1367.0,
+      "low": 1336.0,
+      "open": 1367.0,
+      "time": "2026-09-28",
+      "volume": 106981
     }
   ],
   "company_name": "DEEPAK FERTILISERS & PETROCHEM",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 61,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.56x"
+    "volume_multiplier": "0.42x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.4,
-    "change_pct": 0.18,
-    "close": 1363.8,
-    "previous_close": 1361.4,
+    "as_of": "2026-09-28",
+    "change": -13.3,
+    "change_pct": -0.98,
+    "close": 1350.5,
+    "previous_close": 1363.8,
     "type": "EOD_CLOSE",
-    "volume": 394991
+    "volume": 106981
   },
   "range": {
-    "distance_from_high_pct": -18.87,
-    "distance_from_low_pct": 57.41,
+    "distance_from_high_pct": -19.66,
+    "distance_from_low_pct": 55.87,
     "high_52w": 1681.0,
     "history_basis": "52_WEEK",
     "low_52w": 866.4,
-    "range_position_pct": 61.06
+    "range_position_pct": 59.43
   },
   "risk_model": {
-    "invalidation_floor": 1316.07,
-    "risk_per_share": 75.01,
-    "technical_pivot": 1391.08
+    "invalidation_floor": 1303.23,
+    "risk_per_share": 74.28,
+    "technical_pivot": 1377.51
   },
   "schema_version": "1.0",
   "sector": null,

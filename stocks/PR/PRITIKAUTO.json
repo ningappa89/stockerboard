@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 17.91,
-      "high": 18.23,
-      "low": 17.81,
-      "open": 17.81,
-      "time": "2025-09-15",
-      "volume": 255700
-    },
-    {
       "close": 17.62,
       "high": 18.08,
       "low": 17.5,
@@ -2017,13 +2009,21 @@
       "open": 15.49,
       "time": "2026-09-22",
       "volume": 89488
+    },
+    {
+      "close": 18.87,
+      "high": 18.98,
+      "low": 17.35,
+      "open": 18.0,
+      "time": "2026-09-28",
+      "volume": 1141258
     }
   ],
   "company_name": "Pritika Auto Industries Limite",
   "history": {
-    "first_session": "2025-09-15",
+    "first_session": "2025-09-16",
     "has_full_52w_history": true,
-    "last_session": "2026-09-22",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 51,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.61x"
+    "is_stage2": true,
+    "momentum_score": 74,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "5.69x"
   },
   "price": {
-    "as_of": "2026-09-22",
-    "change": 0.33,
-    "change_pct": 2.16,
-    "close": 15.6,
-    "previous_close": 15.27,
+    "as_of": "2026-09-28",
+    "change": 3.27,
+    "change_pct": 20.96,
+    "close": 18.87,
+    "previous_close": 15.6,
     "type": "EOD_CLOSE",
-    "volume": 89488
+    "volume": 1141258
   },
   "range": {
-    "distance_from_high_pct": -25.68,
-    "distance_from_low_pct": 49.86,
+    "distance_from_high_pct": -10.1,
+    "distance_from_low_pct": 81.27,
     "high_52w": 20.99,
     "history_basis": "52_WEEK",
     "low_52w": 10.41,
-    "range_position_pct": 49.05
+    "range_position_pct": 79.96
   },
   "risk_model": {
-    "invalidation_floor": 15.05,
-    "risk_per_share": 0.86,
-    "technical_pivot": 15.91
+    "invalidation_floor": 18.21,
+    "risk_per_share": 1.04,
+    "technical_pivot": 19.25
   },
   "schema_version": "1.0",
   "sector": null,

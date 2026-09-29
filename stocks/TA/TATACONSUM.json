@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1129.3,
-      "high": 1144.4,
-      "low": 1123.0,
-      "open": 1136.3,
-      "time": "2025-09-18",
-      "volume": 1030976
-    },
-    {
       "close": 1126.8,
       "high": 1132.6,
       "low": 1114.4,
@@ -2017,13 +2009,21 @@
       "open": 988.0,
       "time": "2026-09-25",
       "volume": 885948
+    },
+    {
+      "close": 960.0,
+      "high": 983.6,
+      "low": 955.5,
+      "open": 983.2,
+      "time": "2026-09-28",
+      "volume": 1307916
     }
   ],
   "company_name": "TATA CONSUMER PRODUCT LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Fast Moving Consumer Goods",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 54,
+    "momentum_score": 52,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.77x"
+    "volume_multiplier": "1.12x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -3.1,
-    "change_pct": -0.31,
-    "close": 983.2,
-    "previous_close": 986.3,
+    "as_of": "2026-09-28",
+    "change": -23.2,
+    "change_pct": -2.36,
+    "close": 960.0,
+    "previous_close": 983.2,
     "type": "EOD_CLOSE",
-    "volume": 885948
+    "volume": 1307916
   },
   "range": {
-    "distance_from_high_pct": -23.35,
-    "distance_from_low_pct": 0.41,
+    "distance_from_high_pct": -25.16,
+    "distance_from_low_pct": 0.47,
     "high_52w": 1282.7,
     "history_basis": "52_WEEK",
-    "low_52w": 979.2,
-    "range_position_pct": 1.32
+    "low_52w": 955.5,
+    "range_position_pct": 1.38
   },
   "risk_model": {
-    "invalidation_floor": 948.79,
-    "risk_per_share": 54.07,
-    "technical_pivot": 1002.86
+    "invalidation_floor": 926.4,
+    "risk_per_share": 52.8,
+    "technical_pivot": 979.2
   },
   "schema_version": "1.0",
   "sector": "Fast Moving Consumer Goods",

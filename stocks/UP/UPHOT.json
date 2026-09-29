@@ -177,14 +177,22 @@
       "open": 1500.0,
       "time": "2026-09-25",
       "volume": 8
+    },
+    {
+      "close": 1503.0,
+      "high": 1503.0,
+      "low": 1503.0,
+      "open": 1503.0,
+      "time": "2026-09-28",
+      "volume": 10
     }
   ],
   "company_name": "U.P.HOTELS LTD.",
   "history": {
     "first_session": "2026-08-18",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 22
+    "last_session": "2026-09-28",
+    "sessions_available": 23
   },
   "industry": null,
   "isin": "INE726E01014",
@@ -194,29 +202,29 @@
     "is_stage2": true,
     "momentum_score": 85,
     "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.07x"
+    "volume_multiplier": "0.09x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.0,
-    "change_pct": 0.0,
-    "close": 1500.0,
+    "as_of": "2026-09-28",
+    "change": 3.0,
+    "change_pct": 0.2,
+    "close": 1503.0,
     "previous_close": 1500.0,
     "type": "EOD_CLOSE",
-    "volume": 8
+    "volume": 10
   },
   "range": {
-    "distance_from_high_pct": -3.23,
-    "distance_from_low_pct": 13.64,
+    "distance_from_high_pct": -3.03,
+    "distance_from_low_pct": 13.86,
     "high_52w": 1550.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 1320.0,
-    "range_position_pct": 78.26
+    "range_position_pct": 79.57
   },
   "risk_model": {
-    "invalidation_floor": 1447.5,
-    "risk_per_share": 82.5,
-    "technical_pivot": 1530.0
+    "invalidation_floor": 1450.39,
+    "risk_per_share": 82.67,
+    "technical_pivot": 1533.06
   },
   "schema_version": "1.0",
   "sector": null,

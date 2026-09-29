@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 448.55,
-      "high": 452.8,
-      "low": 444.0,
-      "open": 450.5,
-      "time": "2025-09-18",
-      "volume": 357590
-    },
-    {
       "close": 449.5,
       "high": 457.3,
       "low": 445.55,
@@ -2017,13 +2009,21 @@
       "open": 550.3,
       "time": "2026-09-25",
       "volume": 1280937
+    },
+    {
+      "close": 552.5,
+      "high": 559.5,
+      "low": 540.5,
+      "open": 550.8,
+      "time": "2026-09-28",
+      "volume": 369082
     }
   ],
   "company_name": "Star Health and Allied Insuran",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 73,
+    "momentum_score": 72,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.25x"
+    "volume_multiplier": "0.36x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 7.75,
-    "change_pct": 1.41,
-    "close": 558.15,
-    "previous_close": 550.4,
+    "as_of": "2026-09-28",
+    "change": -5.65,
+    "change_pct": -1.01,
+    "close": 552.5,
+    "previous_close": 558.15,
     "type": "EOD_CLOSE",
-    "volume": 1280937
+    "volume": 369082
   },
   "range": {
-    "distance_from_high_pct": -10.68,
-    "distance_from_low_pct": 33.99,
+    "distance_from_high_pct": -11.59,
+    "distance_from_low_pct": 32.64,
     "high_52w": 624.9,
     "history_basis": "52_WEEK",
     "low_52w": 416.55,
-    "range_position_pct": 67.96
+    "range_position_pct": 65.25
   },
   "risk_model": {
-    "invalidation_floor": 538.61,
-    "risk_per_share": 30.7,
-    "technical_pivot": 569.31
+    "invalidation_floor": 533.16,
+    "risk_per_share": 30.39,
+    "technical_pivot": 563.55
   },
   "schema_version": "1.0",
   "sector": null,

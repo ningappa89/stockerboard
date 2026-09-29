@@ -1209,14 +1209,22 @@
       "open": 747.55,
       "time": "2026-09-25",
       "volume": 163432
+    },
+    {
+      "close": 742.1,
+      "high": 752.9,
+      "low": 735.0,
+      "open": 750.0,
+      "time": "2026-09-28",
+      "volume": 108146
     }
   ],
   "company_name": "Fractal Analytics Limited",
   "history": {
     "first_session": "2026-02-16",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 151
+    "last_session": "2026-09-28",
+    "sessions_available": 152
   },
   "industry": null,
   "isin": "INE212S01015",
@@ -1226,29 +1234,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.55x"
+    "volume_multiplier": "0.39x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.95,
-    "change_pct": 0.13,
-    "close": 750.2,
-    "previous_close": 749.25,
+    "as_of": "2026-09-28",
+    "change": -8.1,
+    "change_pct": -1.08,
+    "close": 742.1,
+    "previous_close": 750.2,
     "type": "EOD_CLOSE",
-    "volume": 163432
+    "volume": 108146
   },
   "range": {
-    "distance_from_high_pct": -32.9,
-    "distance_from_low_pct": 2.25,
+    "distance_from_high_pct": -33.62,
+    "distance_from_low_pct": 1.14,
     "high_52w": 1118.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 733.7,
-    "range_position_pct": 4.29
+    "range_position_pct": 2.19
   },
   "risk_model": {
-    "invalidation_floor": 723.94,
-    "risk_per_share": 41.26,
-    "technical_pivot": 765.2
+    "invalidation_floor": 716.13,
+    "risk_per_share": 40.81,
+    "technical_pivot": 756.94
   },
   "schema_version": "1.0",
   "sector": null,

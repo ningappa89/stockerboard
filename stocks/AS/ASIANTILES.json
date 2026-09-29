@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 62.35,
-      "high": 62.52,
-      "low": 59.1,
-      "open": 59.84,
-      "time": "2025-09-18",
-      "volume": 479118
-    },
-    {
       "close": 62.95,
       "high": 64.95,
       "low": 62.0,
@@ -2017,13 +2009,21 @@
       "open": 50.3,
       "time": "2026-09-25",
       "volume": 788714
+    },
+    {
+      "close": 50.16,
+      "high": 50.67,
+      "low": 49.96,
+      "open": 50.65,
+      "time": "2026-09-28",
+      "volume": 662074
     }
   ],
   "company_name": "ASIAN GRANITO INDIA LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.23x"
+    "volume_multiplier": "0.2x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.34,
-    "change_pct": 0.68,
-    "close": 50.69,
-    "previous_close": 50.35,
+    "as_of": "2026-09-28",
+    "change": -0.53,
+    "change_pct": -1.05,
+    "close": 50.16,
+    "previous_close": 50.69,
     "type": "EOD_CLOSE",
-    "volume": 788714
+    "volume": 662074
   },
   "range": {
-    "distance_from_high_pct": -35.88,
-    "distance_from_low_pct": 19.27,
+    "distance_from_high_pct": -36.55,
+    "distance_from_low_pct": 18.02,
     "high_52w": 79.06,
     "history_basis": "52_WEEK",
     "low_52w": 42.5,
-    "range_position_pct": 22.4
+    "range_position_pct": 20.95
   },
   "risk_model": {
-    "invalidation_floor": 48.92,
-    "risk_per_share": 2.78,
-    "technical_pivot": 51.7
+    "invalidation_floor": 48.4,
+    "risk_per_share": 2.76,
+    "technical_pivot": 51.16
   },
   "schema_version": "1.0",
   "sector": null,

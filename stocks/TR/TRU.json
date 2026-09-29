@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 12.03,
-      "high": 12.38,
-      "low": 11.86,
-      "open": 12.12,
-      "time": "2025-09-18",
-      "volume": 205966
-    },
-    {
       "close": 12.62,
       "high": 12.63,
       "low": 11.92,
@@ -2017,13 +2009,21 @@
       "open": 4.36,
       "time": "2026-09-25",
       "volume": 44534
+    },
+    {
+      "close": 4.11,
+      "high": 4.28,
+      "low": 4.05,
+      "open": 4.05,
+      "time": "2026-09-28",
+      "volume": 69501
     }
   ],
   "company_name": "TruCap Finance Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.42x"
+    "volume_multiplier": "0.7x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.01,
-    "change_pct": -0.24,
-    "close": 4.2,
-    "previous_close": 4.21,
+    "as_of": "2026-09-28",
+    "change": -0.09,
+    "change_pct": -2.14,
+    "close": 4.11,
+    "previous_close": 4.2,
     "type": "EOD_CLOSE",
-    "volume": 44534
+    "volume": 69501
   },
   "range": {
-    "distance_from_high_pct": -67.99,
-    "distance_from_low_pct": 7.69,
+    "distance_from_high_pct": -68.67,
+    "distance_from_low_pct": 5.38,
     "high_52w": 13.12,
     "history_basis": "52_WEEK",
     "low_52w": 3.9,
-    "range_position_pct": 3.25
+    "range_position_pct": 2.28
   },
   "risk_model": {
-    "invalidation_floor": 4.05,
+    "invalidation_floor": 3.97,
     "risk_per_share": 0.5,
-    "technical_pivot": 4.28
+    "technical_pivot": 4.19
   },
   "schema_version": "1.0",
   "sector": null,

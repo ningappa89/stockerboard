@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 271.2,
-      "high": 273.2,
-      "low": 262.7,
-      "open": 264.4,
-      "time": "2025-09-18",
-      "volume": 10780169
-    },
-    {
       "close": 271.0,
       "high": 273.75,
       "low": 268.9,
@@ -2017,46 +2009,54 @@
       "open": 412.6,
       "time": "2026-09-25",
       "volume": 3419454
+    },
+    {
+      "close": 407.0,
+      "high": 413.85,
+      "low": 404.3,
+      "open": 412.0,
+      "time": "2026-09-28",
+      "volume": 1955370
     }
   ],
   "company_name": "RBL Bank Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Financial Services",
   "isin": "INE976G01028",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 84,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.79x"
+    "momentum_score": 82,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.45x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.3,
-    "change_pct": 0.56,
-    "close": 415.05,
-    "previous_close": 412.75,
+    "as_of": "2026-09-28",
+    "change": -8.05,
+    "change_pct": -1.94,
+    "close": 407.0,
+    "previous_close": 415.05,
     "type": "EOD_CLOSE",
-    "volume": 3419454
+    "volume": 1955370
   },
   "range": {
-    "distance_from_high_pct": -3.39,
-    "distance_from_low_pct": 58.66,
+    "distance_from_high_pct": -5.26,
+    "distance_from_low_pct": 55.58,
     "high_52w": 429.6,
     "history_basis": "52_WEEK",
     "low_52w": 261.6,
-    "range_position_pct": 91.34
+    "range_position_pct": 86.55
   },
   "risk_model": {
-    "invalidation_floor": 400.52,
-    "risk_per_share": 22.83,
-    "technical_pivot": 423.35
+    "invalidation_floor": 392.75,
+    "risk_per_share": 22.39,
+    "technical_pivot": 415.14
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

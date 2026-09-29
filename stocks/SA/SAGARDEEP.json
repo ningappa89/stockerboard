@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 27.27,
-      "high": 27.6,
-      "low": 26.92,
-      "open": 27.4,
-      "time": "2025-09-18",
-      "volume": 7062
-    },
-    {
       "close": 26.78,
       "high": 27.5,
       "low": 26.71,
@@ -2017,13 +2009,21 @@
       "open": 24.17,
       "time": "2026-09-25",
       "volume": 7598
+    },
+    {
+      "close": 23.29,
+      "high": 23.95,
+      "low": 23.02,
+      "open": 23.65,
+      "time": "2026-09-28",
+      "volume": 8880
     }
   ],
   "company_name": "SAGARDEEP ALLOYS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 50,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.42x"
+    "volume_multiplier": "1.57x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.51,
-    "change_pct": -2.15,
-    "close": 23.19,
-    "previous_close": 23.7,
+    "as_of": "2026-09-28",
+    "change": 0.1,
+    "change_pct": 0.43,
+    "close": 23.29,
+    "previous_close": 23.19,
     "type": "EOD_CLOSE",
-    "volume": 7598
+    "volume": 8880
   },
   "range": {
-    "distance_from_high_pct": -26.33,
-    "distance_from_low_pct": 11.44,
+    "distance_from_high_pct": -26.02,
+    "distance_from_low_pct": 11.92,
     "high_52w": 31.48,
     "history_basis": "52_WEEK",
     "low_52w": 20.81,
-    "range_position_pct": 22.31
+    "range_position_pct": 23.24
   },
   "risk_model": {
-    "invalidation_floor": 22.38,
-    "risk_per_share": 1.27,
-    "technical_pivot": 23.65
+    "invalidation_floor": 22.47,
+    "risk_per_share": 1.29,
+    "technical_pivot": 23.76
   },
   "schema_version": "1.0",
   "sector": null,

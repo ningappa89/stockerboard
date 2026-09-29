@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 37.49,
-      "high": 37.49,
-      "low": 34.25,
-      "open": 34.3,
-      "time": "2025-09-18",
-      "volume": 866455
-    },
-    {
       "close": 40.56,
       "high": 40.94,
       "low": 38.0,
@@ -2017,13 +2009,21 @@
       "open": 22.0,
       "time": "2026-09-25",
       "volume": 45956
+    },
+    {
+      "close": 21.09,
+      "high": 21.7,
+      "low": 20.7,
+      "open": 21.7,
+      "time": "2026-09-28",
+      "volume": 17110
     }
   ],
   "company_name": "VIP Clothing Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "0.22x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.07,
-    "change_pct": -0.32,
-    "close": 21.63,
-    "previous_close": 21.7,
+    "as_of": "2026-09-28",
+    "change": -0.54,
+    "change_pct": -2.5,
+    "close": 21.09,
+    "previous_close": 21.63,
     "type": "EOD_CLOSE",
-    "volume": 45956
+    "volume": 17110
   },
   "range": {
-    "distance_from_high_pct": -47.5,
-    "distance_from_low_pct": 53.95,
+    "distance_from_high_pct": -48.81,
+    "distance_from_low_pct": 50.11,
     "high_52w": 41.2,
     "history_basis": "52_WEEK",
     "low_52w": 14.05,
-    "range_position_pct": 27.92
+    "range_position_pct": 25.93
   },
   "risk_model": {
-    "invalidation_floor": 20.87,
-    "risk_per_share": 1.19,
-    "technical_pivot": 22.06
+    "invalidation_floor": 20.35,
+    "risk_per_share": 1.16,
+    "technical_pivot": 21.51
   },
   "schema_version": "1.0",
   "sector": null,

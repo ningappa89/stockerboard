@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 163.99,
-      "high": 166.33,
-      "low": 163.33,
-      "open": 166.33,
-      "time": "2025-09-18",
-      "volume": 4136
-    },
-    {
       "close": 164.01,
       "high": 166.13,
       "low": 164.0,
@@ -2017,13 +2009,21 @@
       "open": 582.75,
       "time": "2026-09-25",
       "volume": 1952645
+    },
+    {
+      "close": 537.8,
+      "high": 549.0,
+      "low": 535.7,
+      "open": 547.9,
+      "time": "2026-09-28",
+      "volume": 221302
     }
   ],
   "company_name": "KAPSTON SERVICES LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": true,
     "momentum_score": 70,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "11.63x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.33x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -42.4,
-    "change_pct": -7.33,
-    "close": 535.7,
-    "previous_close": 578.1,
+    "as_of": "2026-09-28",
+    "change": 2.1,
+    "change_pct": 0.39,
+    "close": 537.8,
+    "previous_close": 535.7,
     "type": "EOD_CLOSE",
-    "volume": 1952645
+    "volume": 221302
   },
   "range": {
-    "distance_from_high_pct": -13.06,
-    "distance_from_low_pct": 229.07,
+    "distance_from_high_pct": -12.72,
+    "distance_from_low_pct": 230.36,
     "high_52w": 616.2,
     "history_basis": "52_WEEK",
     "low_52w": 162.79,
-    "range_position_pct": 82.25
+    "range_position_pct": 82.71
   },
   "risk_model": {
-    "invalidation_floor": 516.95,
-    "risk_per_share": 29.46,
-    "technical_pivot": 546.41
+    "invalidation_floor": 518.98,
+    "risk_per_share": 29.58,
+    "technical_pivot": 548.56
   },
   "schema_version": "1.0",
   "sector": null,

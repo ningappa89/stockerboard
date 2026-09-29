@@ -873,14 +873,22 @@
       "open": 39.8,
       "time": "2026-09-25",
       "volume": 3662
+    },
+    {
+      "close": 40.2,
+      "high": 40.8,
+      "low": 39.2,
+      "open": 40.8,
+      "time": "2026-09-28",
+      "volume": 5179
     }
   ],
   "company_name": "LAHOTI OVERSEAS LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 109
+    "last_session": "2026-09-28",
+    "sessions_available": 110
   },
   "industry": null,
   "isin": "INE515C01023",
@@ -890,29 +898,29 @@
     "is_stage2": false,
     "momentum_score": 51,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.28x"
+    "volume_multiplier": "0.4x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.62,
-    "change_pct": 4.23,
-    "close": 39.9,
-    "previous_close": 38.28,
+    "as_of": "2026-09-28",
+    "change": 0.3,
+    "change_pct": 0.75,
+    "close": 40.2,
+    "previous_close": 39.9,
     "type": "EOD_CLOSE",
-    "volume": 3662
+    "volume": 5179
   },
   "range": {
-    "distance_from_high_pct": -25.97,
-    "distance_from_low_pct": 17.15,
+    "distance_from_high_pct": -25.42,
+    "distance_from_low_pct": 18.03,
     "high_52w": 53.9,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 34.06,
-    "range_position_pct": 29.44
+    "range_position_pct": 30.95
   },
   "risk_model": {
-    "invalidation_floor": 38.5,
-    "risk_per_share": 2.2,
-    "technical_pivot": 40.7
+    "invalidation_floor": 38.79,
+    "risk_per_share": 2.21,
+    "technical_pivot": 41.0
   },
   "schema_version": "1.0",
   "sector": null,

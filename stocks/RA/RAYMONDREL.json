@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 642.35,
-      "high": 652.0,
-      "low": 633.25,
-      "open": 645.0,
-      "time": "2025-09-18",
-      "volume": 335540
-    },
-    {
       "close": 664.65,
       "high": 667.5,
       "low": 640.3,
@@ -2017,13 +2009,21 @@
       "open": 702.0,
       "time": "2026-09-25",
       "volume": 8688746
+    },
+    {
+      "close": 672.95,
+      "high": 712.5,
+      "low": 668.2,
+      "open": 712.5,
+      "time": "2026-09-28",
+      "volume": 1674907
     }
   ],
   "company_name": "RAYMOND REALTY LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 83,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "3.38x"
+    "momentum_score": 76,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.63x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 3.0,
-    "change_pct": 0.42,
-    "close": 711.3,
-    "previous_close": 708.3,
+    "as_of": "2026-09-28",
+    "change": -38.35,
+    "change_pct": -5.39,
+    "close": 672.95,
+    "previous_close": 711.3,
     "type": "EOD_CLOSE",
-    "volume": 8688746
+    "volume": 1674907
   },
   "range": {
-    "distance_from_high_pct": -4.13,
-    "distance_from_low_pct": 103.81,
+    "distance_from_high_pct": -9.3,
+    "distance_from_low_pct": 92.82,
     "high_52w": 741.95,
     "history_basis": "52_WEEK",
     "low_52w": 349.0,
-    "range_position_pct": 92.2
+    "range_position_pct": 82.44
   },
   "risk_model": {
-    "invalidation_floor": 686.4,
-    "risk_per_share": 39.13,
-    "technical_pivot": 725.53
+    "invalidation_floor": 649.4,
+    "risk_per_share": 37.01,
+    "technical_pivot": 686.41
   },
   "schema_version": "1.0",
   "sector": null,

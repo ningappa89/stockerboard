@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 205.6,
-      "high": 213.4,
-      "low": 203.0,
-      "open": 204.47,
-      "time": "2025-09-18",
-      "volume": 1181129
-    },
-    {
       "close": 204.35,
       "high": 207.28,
       "low": 203.04,
@@ -2017,13 +2009,21 @@
       "open": 178.0,
       "time": "2026-09-25",
       "volume": 407274
+    },
+    {
+      "close": 178.81,
+      "high": 180.23,
+      "low": 176.13,
+      "open": 180.23,
+      "time": "2026-09-28",
+      "volume": 360896
     }
   ],
   "company_name": "GARUDA CONSTRUCT N ENG L",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 46,
+    "momentum_score": 47,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.36x"
+    "volume_multiplier": "0.32x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.34,
-    "change_pct": -0.75,
-    "close": 176.87,
-    "previous_close": 178.21,
+    "as_of": "2026-09-28",
+    "change": 1.94,
+    "change_pct": 1.1,
+    "close": 178.81,
+    "previous_close": 176.87,
     "type": "EOD_CLOSE",
-    "volume": 407274
+    "volume": 360896
   },
   "range": {
-    "distance_from_high_pct": -29.05,
-    "distance_from_low_pct": 36.05,
+    "distance_from_high_pct": -28.28,
+    "distance_from_low_pct": 37.55,
     "high_52w": 249.3,
     "history_basis": "52_WEEK",
     "low_52w": 130.0,
-    "range_position_pct": 39.29
+    "range_position_pct": 40.91
   },
   "risk_model": {
-    "invalidation_floor": 170.68,
-    "risk_per_share": 9.73,
-    "technical_pivot": 180.41
+    "invalidation_floor": 172.55,
+    "risk_per_share": 9.84,
+    "technical_pivot": 182.39
   },
   "schema_version": "1.0",
   "sector": null,

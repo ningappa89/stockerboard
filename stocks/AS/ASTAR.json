@@ -785,14 +785,22 @@
       "open": 681.0,
       "time": "2026-09-25",
       "volume": 555
+    },
+    {
+      "close": 708.8,
+      "high": 730.0,
+      "low": 700.0,
+      "open": 724.0,
+      "time": "2026-09-28",
+      "volume": 484
     }
   ],
   "company_name": "ASIAN STAR CO.LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 98
+    "last_session": "2026-09-28",
+    "sessions_available": 99
   },
   "industry": null,
   "isin": "INE194D01017",
@@ -800,31 +808,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 63,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.29x"
+    "volume_multiplier": "0.25x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 19.45,
-    "change_pct": 2.86,
-    "close": 698.7,
-    "previous_close": 679.25,
+    "as_of": "2026-09-28",
+    "change": 10.1,
+    "change_pct": 1.45,
+    "close": 708.8,
+    "previous_close": 698.7,
     "type": "EOD_CLOSE",
-    "volume": 555
+    "volume": 484
   },
   "range": {
-    "distance_from_high_pct": -17.61,
-    "distance_from_low_pct": 44.06,
+    "distance_from_high_pct": -16.42,
+    "distance_from_low_pct": 46.14,
     "high_52w": 848.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 485.0,
-    "range_position_pct": 58.87
+    "range_position_pct": 61.65
   },
   "risk_model": {
-    "invalidation_floor": 674.25,
-    "risk_per_share": 38.42,
-    "technical_pivot": 712.67
+    "invalidation_floor": 683.99,
+    "risk_per_share": 38.99,
+    "technical_pivot": 722.98
   },
   "schema_version": "1.0",
   "sector": null,

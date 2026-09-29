@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1047.85,
-      "high": 1049.95,
-      "low": 1025.5,
-      "open": 1035.0,
-      "time": "2025-09-18",
-      "volume": 977193
-    },
-    {
       "close": 1037.3,
       "high": 1059.05,
       "low": 1034.0,
@@ -2017,46 +2009,54 @@
       "open": 1185.5,
       "time": "2026-09-25",
       "volume": 1991779
+    },
+    {
+      "close": 1215.0,
+      "high": 1228.6,
+      "low": 1201.2,
+      "open": 1210.7,
+      "time": "2026-09-28",
+      "volume": 3986338
     }
   ],
   "company_name": "ZYDUS LIFESCIENCES LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Healthcare",
   "isin": "INE010B01027",
   "metrics": {
-    "is_breakout": true,
-    "is_coiled": false,
+    "is_breakout": false,
+    "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 89,
-    "setup_type": "52W High Breakout",
-    "volume_multiplier": "1.52x"
+    "momentum_score": 88,
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "2.76x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 23.6,
-    "change_pct": 2.0,
-    "close": 1203.9,
-    "previous_close": 1180.3,
+    "as_of": "2026-09-28",
+    "change": 11.1,
+    "change_pct": 0.92,
+    "close": 1215.0,
+    "previous_close": 1203.9,
     "type": "EOD_CLOSE",
-    "volume": 1991779
+    "volume": 3986338
   },
   "range": {
-    "distance_from_high_pct": -0.39,
-    "distance_from_low_pct": 44.09,
-    "high_52w": 1208.6,
+    "distance_from_high_pct": -1.11,
+    "distance_from_low_pct": 45.42,
+    "high_52w": 1228.6,
     "history_basis": "52_WEEK",
     "low_52w": 835.5,
-    "range_position_pct": 98.74
+    "range_position_pct": 96.54
   },
   "risk_model": {
-    "invalidation_floor": 1161.76,
-    "risk_per_share": 51.77,
-    "technical_pivot": 1213.53
+    "invalidation_floor": 1172.47,
+    "risk_per_share": 66.83,
+    "technical_pivot": 1239.3
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

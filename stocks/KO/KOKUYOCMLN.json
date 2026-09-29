@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 114.28,
-      "high": 116.84,
-      "low": 114.02,
-      "open": 115.48,
-      "time": "2025-09-18",
-      "volume": 32469
-    },
-    {
       "close": 113.89,
       "high": 115.55,
       "low": 113.5,
@@ -2017,13 +2009,21 @@
       "open": 77.49,
       "time": "2026-09-25",
       "volume": 9366
+    },
+    {
+      "close": 74.64,
+      "high": 76.6,
+      "low": 74.26,
+      "open": 76.03,
+      "time": "2026-09-28",
+      "volume": 25382
     }
   ],
   "company_name": "KOKUYO CAMLIN LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.32x"
+    "volume_multiplier": "0.85x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.61,
-    "change_pct": -0.8,
-    "close": 76.03,
-    "previous_close": 76.64,
+    "as_of": "2026-09-28",
+    "change": -1.39,
+    "change_pct": -1.83,
+    "close": 74.64,
+    "previous_close": 76.03,
     "type": "EOD_CLOSE",
-    "volume": 9366
+    "volume": 25382
   },
   "range": {
-    "distance_from_high_pct": -34.93,
-    "distance_from_low_pct": 7.01,
-    "high_52w": 116.84,
+    "distance_from_high_pct": -35.4,
+    "distance_from_low_pct": 5.05,
+    "high_52w": 115.55,
     "history_basis": "52_WEEK",
     "low_52w": 71.05,
-    "range_position_pct": 10.88
+    "range_position_pct": 8.07
   },
   "risk_model": {
-    "invalidation_floor": 73.37,
-    "risk_per_share": 4.18,
-    "technical_pivot": 77.55
+    "invalidation_floor": 72.03,
+    "risk_per_share": 4.1,
+    "technical_pivot": 76.13
   },
   "schema_version": "1.0",
   "sector": null,

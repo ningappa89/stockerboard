@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 51.6,
-      "high": 52.7,
-      "low": 51.25,
-      "open": 52.49,
-      "time": "2025-09-18",
-      "volume": 61611
-    },
-    {
       "close": 51.45,
       "high": 52.21,
       "low": 51.14,
@@ -2017,13 +2009,21 @@
       "open": 25.0,
       "time": "2026-09-25",
       "volume": 21064
+    },
+    {
+      "close": 25.25,
+      "high": 25.48,
+      "low": 25.0,
+      "open": 25.01,
+      "time": "2026-09-28",
+      "volume": 13039
     }
   ],
   "company_name": "SHREE TIRUPATI BALAJEE AGRO TR",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.8x"
+    "volume_multiplier": "0.51x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.19,
-    "change_pct": 0.75,
-    "close": 25.57,
-    "previous_close": 25.38,
+    "as_of": "2026-09-28",
+    "change": -0.32,
+    "change_pct": -1.25,
+    "close": 25.25,
+    "previous_close": 25.57,
     "type": "EOD_CLOSE",
-    "volume": 21064
+    "volume": 13039
   },
   "range": {
-    "distance_from_high_pct": -53.07,
-    "distance_from_low_pct": 21.18,
+    "distance_from_high_pct": -53.65,
+    "distance_from_low_pct": 19.67,
     "high_52w": 54.48,
     "history_basis": "52_WEEK",
     "low_52w": 21.1,
-    "range_position_pct": 13.39
+    "range_position_pct": 12.43
   },
   "risk_model": {
-    "invalidation_floor": 24.68,
-    "risk_per_share": 1.4,
-    "technical_pivot": 26.08
+    "invalidation_floor": 24.37,
+    "risk_per_share": 1.38,
+    "technical_pivot": 25.75
   },
   "schema_version": "1.0",
   "sector": null,

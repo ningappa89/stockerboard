@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3491.0,
-      "high": 3600.0,
-      "low": 3471.0,
-      "open": 3579.0,
-      "time": "2025-09-18",
-      "volume": 659581
-    },
-    {
       "close": 3525.0,
       "high": 3554.0,
       "low": 3403.0,
@@ -2017,13 +2009,21 @@
       "open": 1974.0,
       "time": "2026-09-25",
       "volume": 68917
+    },
+    {
+      "close": 1931.5,
+      "high": 1993.4,
+      "low": 1921.8,
+      "open": 1961.7,
+      "time": "2026-09-28",
+      "volume": 260451
     }
   ],
   "company_name": "GODFREY PHILLIPS INDIA LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.44x"
+    "volume_multiplier": "1.61x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -3.6,
-    "change_pct": -0.18,
-    "close": 1970.4,
-    "previous_close": 1974.0,
+    "as_of": "2026-09-28",
+    "change": -38.9,
+    "change_pct": -1.97,
+    "close": 1931.5,
+    "previous_close": 1970.4,
     "type": "EOD_CLOSE",
-    "volume": 68917
+    "volume": 260451
   },
   "range": {
-    "distance_from_high_pct": -45.27,
-    "distance_from_low_pct": 7.55,
-    "high_52w": 3600.0,
+    "distance_from_high_pct": -45.65,
+    "distance_from_low_pct": 5.43,
+    "high_52w": 3554.0,
     "history_basis": "52_WEEK",
     "low_52w": 1832.1,
-    "range_position_pct": 7.82
+    "range_position_pct": 5.77
   },
   "risk_model": {
-    "invalidation_floor": 1901.44,
-    "risk_per_share": 108.37,
-    "technical_pivot": 2009.81
+    "invalidation_floor": 1863.9,
+    "risk_per_share": 106.23,
+    "technical_pivot": 1970.13
   },
   "schema_version": "1.0",
   "sector": null,

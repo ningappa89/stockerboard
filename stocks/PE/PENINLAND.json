@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 36.62,
-      "high": 36.99,
-      "low": 35.15,
-      "open": 36.89,
-      "time": "2025-09-18",
-      "volume": 475747
-    },
-    {
       "close": 35.98,
       "high": 36.98,
       "low": 35.76,
@@ -2017,13 +2009,21 @@
       "open": 16.98,
       "time": "2026-09-25",
       "volume": 132272
+    },
+    {
+      "close": 15.76,
+      "high": 17.25,
+      "low": 15.51,
+      "open": 17.25,
+      "time": "2026-09-28",
+      "volume": 158300
     }
   ],
   "company_name": "PENINSULA LAND LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.72x"
+    "volume_multiplier": "0.87x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.12,
-    "change_pct": 0.72,
-    "close": 16.7,
-    "previous_close": 16.58,
+    "as_of": "2026-09-28",
+    "change": -0.94,
+    "change_pct": -5.63,
+    "close": 15.76,
+    "previous_close": 16.7,
     "type": "EOD_CLOSE",
-    "volume": 132272
+    "volume": 158300
   },
   "range": {
-    "distance_from_high_pct": -55.59,
-    "distance_from_low_pct": 20.84,
+    "distance_from_high_pct": -58.09,
+    "distance_from_low_pct": 14.04,
     "high_52w": 37.6,
     "history_basis": "52_WEEK",
     "low_52w": 13.82,
-    "range_position_pct": 12.11
+    "range_position_pct": 8.16
   },
   "risk_model": {
-    "invalidation_floor": 16.12,
-    "risk_per_share": 0.91,
-    "technical_pivot": 17.03
+    "invalidation_floor": 15.21,
+    "risk_per_share": 0.87,
+    "technical_pivot": 16.08
   },
   "schema_version": "1.0",
   "sector": null,

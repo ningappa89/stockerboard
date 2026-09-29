@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 527.55,
-      "high": 540.0,
-      "low": 496.15,
-      "open": 498.65,
-      "time": "2025-09-18",
-      "volume": 9681262
-    },
-    {
       "close": 524.55,
       "high": 534.55,
       "low": 517.0,
@@ -2017,13 +2009,21 @@
       "open": 414.2,
       "time": "2026-09-25",
       "volume": 189918
+    },
+    {
+      "close": 402.05,
+      "high": 409.35,
+      "low": 397.05,
+      "open": 405.0,
+      "time": "2026-09-28",
+      "volume": 233359
     }
   ],
   "company_name": "HERITAGE FOODS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 53,
+    "momentum_score": 52,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.21x"
+    "volume_multiplier": "0.25x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -6.7,
-    "change_pct": -1.62,
-    "close": 407.4,
-    "previous_close": 414.1,
+    "as_of": "2026-09-28",
+    "change": -5.35,
+    "change_pct": -1.31,
+    "close": 402.05,
+    "previous_close": 407.4,
     "type": "EOD_CLOSE",
-    "volume": 189918
+    "volume": 233359
   },
   "range": {
-    "distance_from_high_pct": -24.56,
-    "distance_from_low_pct": 39.26,
-    "high_52w": 540.0,
+    "distance_from_high_pct": -25.3,
+    "distance_from_low_pct": 37.43,
+    "high_52w": 538.25,
     "history_basis": "52_WEEK",
     "low_52w": 292.55,
-    "range_position_pct": 46.41
+    "range_position_pct": 44.57
   },
   "risk_model": {
-    "invalidation_floor": 393.14,
-    "risk_per_share": 22.41,
-    "technical_pivot": 415.55
+    "invalidation_floor": 387.98,
+    "risk_per_share": 22.11,
+    "technical_pivot": 410.09
   },
   "schema_version": "1.0",
   "sector": null,

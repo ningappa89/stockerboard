@@ -233,14 +233,22 @@
       "open": 39.0,
       "time": "2026-09-25",
       "volume": 2331
+    },
+    {
+      "close": 38.99,
+      "high": 40.24,
+      "low": 36.0,
+      "open": 39.31,
+      "time": "2026-09-28",
+      "volume": 3315
     }
   ],
   "company_name": "SHIVA GLOBAL AGRO INDUSTRIES L",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE960E01019",
@@ -248,31 +256,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.65x"
+    "volume_multiplier": "0.91x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.51,
-    "change_pct": 1.31,
-    "close": 39.5,
-    "previous_close": 38.99,
+    "as_of": "2026-09-28",
+    "change": -0.51,
+    "change_pct": -1.29,
+    "close": 38.99,
+    "previous_close": 39.5,
     "type": "EOD_CLOSE",
-    "volume": 2331
+    "volume": 3315
   },
   "range": {
-    "distance_from_high_pct": -13.94,
-    "distance_from_low_pct": 8.22,
+    "distance_from_high_pct": -15.05,
+    "distance_from_low_pct": 8.31,
     "high_52w": 45.9,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 36.5,
-    "range_position_pct": 31.91
+    "low_52w": 36.0,
+    "range_position_pct": 30.2
   },
   "risk_model": {
-    "invalidation_floor": 38.12,
-    "risk_per_share": 2.17,
-    "technical_pivot": 40.29
+    "invalidation_floor": 37.63,
+    "risk_per_share": 2.14,
+    "technical_pivot": 39.77
   },
   "schema_version": "1.0",
   "sector": null,

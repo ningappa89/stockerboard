@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 559.7,
-      "high": 563.95,
-      "low": 555.55,
-      "open": 562.0,
-      "time": "2025-09-18",
-      "volume": 163149
-    },
-    {
       "close": 557.5,
       "high": 566.7,
       "low": 556.35,
@@ -2017,13 +2009,21 @@
       "open": 511.35,
       "time": "2026-09-25",
       "volume": 791506
+    },
+    {
+      "close": 519.9,
+      "high": 533.0,
+      "low": 506.1,
+      "open": 510.6,
+      "time": "2026-09-28",
+      "volume": 1271129
     }
   ],
   "company_name": "SUN TV NETWORK LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Media Entertainment & Publication",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 56,
+    "momentum_score": 58,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.81x"
+    "volume_multiplier": "1.29x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.5,
-    "change_pct": 0.1,
-    "close": 513.2,
-    "previous_close": 512.7,
+    "as_of": "2026-09-28",
+    "change": 6.7,
+    "change_pct": 1.31,
+    "close": 519.9,
+    "previous_close": 513.2,
     "type": "EOD_CLOSE",
-    "volume": 791506
+    "volume": 1271129
   },
   "range": {
-    "distance_from_high_pct": -22.32,
-    "distance_from_low_pct": 14.76,
+    "distance_from_high_pct": -21.31,
+    "distance_from_low_pct": 16.26,
     "high_52w": 660.7,
     "history_basis": "52_WEEK",
     "low_52w": 447.2,
-    "range_position_pct": 30.91
+    "range_position_pct": 34.05
   },
   "risk_model": {
-    "invalidation_floor": 495.24,
-    "risk_per_share": 28.22,
-    "technical_pivot": 523.46
+    "invalidation_floor": 501.7,
+    "risk_per_share": 28.6,
+    "technical_pivot": 530.3
   },
   "schema_version": "1.0",
   "sector": "Media Entertainment & Publication",

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1239.1,
-      "high": 1253.9,
-      "low": 1224.1,
-      "open": 1244.8,
-      "time": "2025-09-18",
-      "volume": 2222
-    },
-    {
       "close": 1242.4,
       "high": 1255.0,
       "low": 1219.0,
@@ -2017,13 +2009,21 @@
       "open": 840.05,
       "time": "2026-09-25",
       "volume": 51360
+    },
+    {
+      "close": 832.8,
+      "high": 940.0,
+      "low": 829.05,
+      "open": 838.15,
+      "time": "2026-09-28",
+      "volume": 43830
     }
   ],
   "company_name": "Wealth First Portfolio Manager",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Volume Expansion",
-    "volume_multiplier": "13.08x"
+    "volume_multiplier": "7.24x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -4.3,
-    "change_pct": -0.51,
-    "close": 834.95,
-    "previous_close": 839.25,
+    "as_of": "2026-09-28",
+    "change": -2.15,
+    "change_pct": -0.26,
+    "close": 832.8,
+    "previous_close": 834.95,
     "type": "EOD_CLOSE",
-    "volume": 51360
+    "volume": 43830
   },
   "range": {
-    "distance_from_high_pct": -34.15,
-    "distance_from_low_pct": 7.74,
+    "distance_from_high_pct": -34.32,
+    "distance_from_low_pct": 7.46,
     "high_52w": 1267.9,
     "history_basis": "52_WEEK",
     "low_52w": 774.95,
-    "range_position_pct": 12.17
+    "range_position_pct": 11.74
   },
   "risk_model": {
-    "invalidation_floor": 805.73,
-    "risk_per_share": 45.92,
-    "technical_pivot": 851.65
+    "invalidation_floor": 803.65,
+    "risk_per_share": 45.81,
+    "technical_pivot": 849.46
   },
   "schema_version": "1.0",
   "sector": null,

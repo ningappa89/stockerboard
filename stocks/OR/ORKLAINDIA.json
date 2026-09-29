@@ -1761,14 +1761,22 @@
       "open": 550.3,
       "time": "2026-09-25",
       "volume": 98422
+    },
+    {
+      "close": 554.3,
+      "high": 559.75,
+      "low": 547.05,
+      "open": 554.9,
+      "time": "2026-09-28",
+      "volume": 52237
     }
   ],
   "company_name": "ORKLA INDIA LIMITED",
   "history": {
     "first_session": "2025-11-06",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 220
+    "last_session": "2026-09-28",
+    "sessions_available": 221
   },
   "industry": null,
   "isin": "INE16NZ01023",
@@ -1778,29 +1786,29 @@
     "is_stage2": false,
     "momentum_score": 49,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.05x"
+    "volume_multiplier": "0.62x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 10.0,
-    "change_pct": 1.83,
-    "close": 555.95,
-    "previous_close": 545.95,
+    "as_of": "2026-09-28",
+    "change": -1.65,
+    "change_pct": -0.3,
+    "close": 554.3,
+    "previous_close": 555.95,
     "type": "EOD_CLOSE",
-    "volume": 98422
+    "volume": 52237
   },
   "range": {
-    "distance_from_high_pct": -26.85,
-    "distance_from_low_pct": 4.26,
+    "distance_from_high_pct": -27.07,
+    "distance_from_low_pct": 3.95,
     "high_52w": 760.0,
     "history_basis": "52_WEEK",
     "low_52w": 533.25,
-    "range_position_pct": 10.01
+    "range_position_pct": 9.28
   },
   "risk_model": {
-    "invalidation_floor": 536.49,
-    "risk_per_share": 30.58,
-    "technical_pivot": 567.07
+    "invalidation_floor": 534.9,
+    "risk_per_share": 30.49,
+    "technical_pivot": 565.39
   },
   "schema_version": "1.0",
   "sector": null,

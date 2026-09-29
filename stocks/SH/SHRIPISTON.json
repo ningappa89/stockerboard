@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2623.3,
-      "high": 2673.9,
-      "low": 2596.0,
-      "open": 2670.0,
-      "time": "2025-09-18",
-      "volume": 43597
-    },
-    {
       "close": 2593.2,
       "high": 2638.0,
       "low": 2576.0,
@@ -2017,46 +2009,54 @@
       "open": 4593.3,
       "time": "2026-09-25",
       "volume": 110008
+    },
+    {
+      "close": 4645.3,
+      "high": 4843.0,
+      "low": 4624.0,
+      "open": 4780.0,
+      "time": "2026-09-28",
+      "volume": 132283
     }
   ],
   "company_name": "SPR Auto Technologies Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE526E01018",
   "metrics": {
-    "is_breakout": true,
-    "is_coiled": true,
+    "is_breakout": false,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 88,
+    "momentum_score": 83,
     "setup_type": "Pocket Pivot",
-    "volume_multiplier": "1.57x"
+    "volume_multiplier": "1.79x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 220.1,
-    "change_pct": 4.86,
-    "close": 4746.8,
-    "previous_close": 4526.7,
+    "as_of": "2026-09-28",
+    "change": -101.5,
+    "change_pct": -2.14,
+    "close": 4645.3,
+    "previous_close": 4746.8,
     "type": "EOD_CLOSE",
-    "volume": 110008
+    "volume": 132283
   },
   "range": {
-    "distance_from_high_pct": -0.88,
-    "distance_from_low_pct": 87.93,
-    "high_52w": 4789.1,
+    "distance_from_high_pct": -4.08,
+    "distance_from_low_pct": 83.91,
+    "high_52w": 4843.0,
     "history_basis": "52_WEEK",
     "low_52w": 2525.8,
-    "range_position_pct": 98.13
+    "range_position_pct": 91.47
   },
   "risk_model": {
-    "invalidation_floor": 4580.66,
-    "risk_per_share": 204.11,
-    "technical_pivot": 4784.77
+    "invalidation_floor": 4482.71,
+    "risk_per_share": 255.5,
+    "technical_pivot": 4738.21
   },
   "schema_version": "1.0",
   "sector": null,

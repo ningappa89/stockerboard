@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 839.8,
-      "high": 877.2,
-      "low": 832.3,
-      "open": 873.8,
-      "time": "2025-09-18",
-      "volume": 194823
-    },
-    {
       "close": 839.7,
       "high": 847.8,
       "low": 836.1,
@@ -2017,13 +2009,21 @@
       "open": 822.0,
       "time": "2026-09-25",
       "volume": 182324
+    },
+    {
+      "close": 804.8,
+      "high": 836.6,
+      "low": 792.35,
+      "open": 798.0,
+      "time": "2026-09-28",
+      "volume": 141280
     }
   ],
   "company_name": "AGI GREENPAC LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 68,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.74x"
+    "volume_multiplier": "0.6x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -18.0,
-    "change_pct": -2.19,
-    "close": 803.35,
-    "previous_close": 821.35,
+    "as_of": "2026-09-28",
+    "change": 1.45,
+    "change_pct": 0.18,
+    "close": 804.8,
+    "previous_close": 803.35,
     "type": "EOD_CLOSE",
-    "volume": 182324
+    "volume": 141280
   },
   "range": {
-    "distance_from_high_pct": -14.45,
-    "distance_from_low_pct": 72.76,
+    "distance_from_high_pct": -14.29,
+    "distance_from_low_pct": 73.08,
     "high_52w": 939.0,
     "history_basis": "52_WEEK",
     "low_52w": 465.0,
-    "range_position_pct": 71.38
+    "range_position_pct": 71.69
   },
   "risk_model": {
-    "invalidation_floor": 775.23,
-    "risk_per_share": 44.19,
-    "technical_pivot": 819.42
+    "invalidation_floor": 776.63,
+    "risk_per_share": 44.27,
+    "technical_pivot": 820.9
   },
   "schema_version": "1.0",
   "sector": null,

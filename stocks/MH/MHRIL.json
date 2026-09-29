@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 362.05,
-      "high": 362.7,
-      "low": 356.15,
-      "open": 359.0,
-      "time": "2025-09-18",
-      "volume": 72344
-    },
-    {
       "close": 358.25,
       "high": 363.5,
       "low": 355.0,
@@ -2017,13 +2009,21 @@
       "open": 200.0,
       "time": "2026-09-25",
       "volume": 44040
+    },
+    {
+      "close": 195.92,
+      "high": 200.7,
+      "low": 194.0,
+      "open": 200.7,
+      "time": "2026-09-28",
+      "volume": 201611
     }
   ],
   "company_name": "MAHINDRA HOLIDAYS & RESORTS IN",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.34x"
+    "volume_multiplier": "1.53x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.29,
-    "change_pct": 0.15,
-    "close": 200.0,
-    "previous_close": 199.71,
+    "as_of": "2026-09-28",
+    "change": -4.08,
+    "change_pct": -2.04,
+    "close": 195.92,
+    "previous_close": 200.0,
     "type": "EOD_CLOSE",
-    "volume": 44040
+    "volume": 201611
   },
   "range": {
-    "distance_from_high_pct": -45.78,
-    "distance_from_low_pct": 6.26,
+    "distance_from_high_pct": -46.89,
+    "distance_from_low_pct": 4.1,
     "high_52w": 368.9,
     "history_basis": "52_WEEK",
     "low_52w": 188.21,
-    "range_position_pct": 6.52
+    "range_position_pct": 4.27
   },
   "risk_model": {
-    "invalidation_floor": 193.0,
-    "risk_per_share": 11.0,
-    "technical_pivot": 204.0
+    "invalidation_floor": 189.06,
+    "risk_per_share": 10.78,
+    "technical_pivot": 199.84
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 204.79,
-      "high": 206.8,
-      "low": 204.15,
-      "open": 206.5,
-      "time": "2025-09-18",
-      "volume": 102816
-    },
-    {
       "close": 203.18,
       "high": 206.45,
       "low": 201.15,
@@ -2017,13 +2009,21 @@
       "open": 158.45,
       "time": "2026-09-25",
       "volume": 147091
+    },
+    {
+      "close": 157.28,
+      "high": 161.5,
+      "low": 156.21,
+      "open": 161.5,
+      "time": "2026-09-28",
+      "volume": 87597
     }
   ],
   "company_name": "K.C.P.LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 57,
+    "momentum_score": 53,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.28x"
+    "volume_multiplier": "0.78x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 4.11,
-    "change_pct": 2.58,
-    "close": 163.29,
-    "previous_close": 159.18,
+    "as_of": "2026-09-28",
+    "change": -6.01,
+    "change_pct": -3.68,
+    "close": 157.28,
+    "previous_close": 163.29,
     "type": "EOD_CLOSE",
-    "volume": 147091
+    "volume": 87597
   },
   "range": {
-    "distance_from_high_pct": -21.42,
-    "distance_from_low_pct": 30.63,
+    "distance_from_high_pct": -24.31,
+    "distance_from_low_pct": 25.82,
     "high_52w": 207.8,
     "history_basis": "52_WEEK",
     "low_52w": 125.0,
-    "range_position_pct": 46.24
+    "range_position_pct": 38.99
   },
   "risk_model": {
-    "invalidation_floor": 157.57,
-    "risk_per_share": 8.99,
-    "technical_pivot": 166.56
+    "invalidation_floor": 151.78,
+    "risk_per_share": 8.65,
+    "technical_pivot": 160.43
   },
   "schema_version": "1.0",
   "sector": null,

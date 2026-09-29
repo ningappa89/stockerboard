@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 5479.5,
-      "high": 5502.0,
-      "low": 5456.0,
-      "open": 5502.0,
-      "time": "2025-09-18",
-      "volume": 160615
-    },
-    {
       "close": 5541.5,
       "high": 5575.5,
       "low": 5481.0,
@@ -2017,13 +2009,21 @@
       "open": 5322.5,
       "time": "2026-09-25",
       "volume": 28742
+    },
+    {
+      "close": 5175.0,
+      "high": 5273.5,
+      "low": 5131.0,
+      "open": 5254.0,
+      "time": "2026-09-28",
+      "volume": 101714
     }
   ],
   "company_name": "Alkem Laboratories Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 73,
+    "momentum_score": 70,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.19x"
+    "volume_multiplier": "0.7x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -52.0,
-    "change_pct": -0.98,
-    "close": 5274.0,
-    "previous_close": 5326.0,
+    "as_of": "2026-09-28",
+    "change": -99.0,
+    "change_pct": -1.88,
+    "close": 5175.0,
+    "previous_close": 5274.0,
     "type": "EOD_CLOSE",
-    "volume": 28742
+    "volume": 101714
   },
   "range": {
-    "distance_from_high_pct": -11.11,
-    "distance_from_low_pct": 4.41,
+    "distance_from_high_pct": -12.78,
+    "distance_from_low_pct": 2.45,
     "high_52w": 5933.5,
     "history_basis": "52_WEEK",
     "low_52w": 5051.0,
-    "range_position_pct": 25.27
+    "range_position_pct": 14.05
   },
   "risk_model": {
-    "invalidation_floor": 5089.41,
-    "risk_per_share": 290.07,
-    "technical_pivot": 5379.48
+    "invalidation_floor": 4993.88,
+    "risk_per_share": 284.62,
+    "technical_pivot": 5278.5
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

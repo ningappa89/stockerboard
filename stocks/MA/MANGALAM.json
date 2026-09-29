@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 75.03,
-      "high": 77.19,
-      "low": 74.9,
-      "open": 75.1,
-      "time": "2025-09-18",
-      "volume": 16709
-    },
-    {
       "close": 76.13,
       "high": 76.98,
       "low": 75.03,
@@ -2017,13 +2009,21 @@
       "open": 31.65,
       "time": "2026-09-25",
       "volume": 23815
+    },
+    {
+      "close": 30.9,
+      "high": 32.4,
+      "low": 30.5,
+      "open": 32.34,
+      "time": "2026-09-28",
+      "volume": 35269
     }
   ],
   "company_name": "MANGALAM DRUGS & ORGANICS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.3x"
+    "volume_multiplier": "0.45x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.18,
-    "change_pct": 0.57,
-    "close": 31.83,
-    "previous_close": 31.65,
+    "as_of": "2026-09-28",
+    "change": -0.93,
+    "change_pct": -2.92,
+    "close": 30.9,
+    "previous_close": 31.83,
     "type": "EOD_CLOSE",
-    "volume": 23815
+    "volume": 35269
   },
   "range": {
-    "distance_from_high_pct": -58.98,
-    "distance_from_low_pct": 39.61,
+    "distance_from_high_pct": -60.18,
+    "distance_from_low_pct": 35.53,
     "high_52w": 77.6,
     "history_basis": "52_WEEK",
     "low_52w": 22.8,
-    "range_position_pct": 16.48
+    "range_position_pct": 14.78
   },
   "risk_model": {
-    "invalidation_floor": 30.72,
-    "risk_per_share": 1.75,
-    "technical_pivot": 32.47
+    "invalidation_floor": 29.82,
+    "risk_per_share": 1.7,
+    "technical_pivot": 31.52
   },
   "schema_version": "1.0",
   "sector": null,

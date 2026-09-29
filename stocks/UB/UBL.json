@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1799.4,
-      "high": 1816.5,
-      "low": 1795.0,
-      "open": 1801.9,
-      "time": "2025-09-18",
-      "volume": 120328
-    },
-    {
       "close": 1796.0,
       "high": 1806.7,
       "low": 1787.0,
@@ -2017,13 +2009,21 @@
       "open": 1270.2,
       "time": "2026-09-25",
       "volume": 168060
+    },
+    {
+      "close": 1217.4,
+      "high": 1258.8,
+      "low": 1215.2,
+      "open": 1258.8,
+      "time": "2026-09-28",
+      "volume": 42919
     }
   ],
   "company_name": "UNITED BREWERIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Fast Moving Consumer Goods",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 41,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.14x"
+    "volume_multiplier": "0.29x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -18.9,
-    "change_pct": -1.49,
-    "close": 1251.3,
-    "previous_close": 1270.2,
+    "as_of": "2026-09-28",
+    "change": -33.9,
+    "change_pct": -2.71,
+    "close": 1217.4,
+    "previous_close": 1251.3,
     "type": "EOD_CLOSE",
-    "volume": 168060
+    "volume": 42919
   },
   "range": {
-    "distance_from_high_pct": -32.14,
-    "distance_from_low_pct": 3.38,
+    "distance_from_high_pct": -33.98,
+    "distance_from_low_pct": 0.58,
     "high_52w": 1844.0,
     "history_basis": "52_WEEK",
     "low_52w": 1210.4,
-    "range_position_pct": 6.46
+    "range_position_pct": 1.1
   },
   "risk_model": {
-    "invalidation_floor": 1207.5,
-    "risk_per_share": 68.83,
-    "technical_pivot": 1276.33
+    "invalidation_floor": 1174.79,
+    "risk_per_share": 66.96,
+    "technical_pivot": 1241.75
   },
   "schema_version": "1.0",
   "sector": "Fast Moving Consumer Goods",

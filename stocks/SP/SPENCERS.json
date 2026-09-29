@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 57.19,
-      "high": 58.75,
-      "low": 57.06,
-      "open": 58.44,
-      "time": "2025-09-18",
-      "volume": 121839
-    },
-    {
       "close": 56.88,
       "high": 57.78,
       "low": 56.71,
@@ -2017,13 +2009,21 @@
       "open": 28.46,
       "time": "2026-09-25",
       "volume": 41164
+    },
+    {
+      "close": 27.41,
+      "high": 28.52,
+      "low": 27.11,
+      "open": 28.5,
+      "time": "2026-09-28",
+      "volume": 17383
     }
   ],
   "company_name": "Spencer's Retail Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.11x"
+    "volume_multiplier": "0.48x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.85,
-    "change_pct": -2.94,
-    "close": 28.07,
-    "previous_close": 28.92,
+    "as_of": "2026-09-28",
+    "change": -0.66,
+    "change_pct": -2.35,
+    "close": 27.41,
+    "previous_close": 28.07,
     "type": "EOD_CLOSE",
-    "volume": 41164
+    "volume": 17383
   },
   "range": {
-    "distance_from_high_pct": -54.28,
-    "distance_from_low_pct": 15.14,
+    "distance_from_high_pct": -55.36,
+    "distance_from_low_pct": 12.43,
     "high_52w": 61.4,
     "history_basis": "52_WEEK",
     "low_52w": 24.38,
-    "range_position_pct": 9.97
+    "range_position_pct": 8.18
   },
   "risk_model": {
-    "invalidation_floor": 27.09,
-    "risk_per_share": 1.54,
-    "technical_pivot": 28.63
+    "invalidation_floor": 26.45,
+    "risk_per_share": 1.51,
+    "technical_pivot": 27.96
   },
   "schema_version": "1.0",
   "sector": null,

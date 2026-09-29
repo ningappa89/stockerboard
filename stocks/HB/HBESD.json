@@ -889,14 +889,22 @@
       "open": 71.0,
       "time": "2026-09-25",
       "volume": 129
+    },
+    {
+      "close": 71.5,
+      "high": 71.51,
+      "low": 68.08,
+      "open": 68.08,
+      "time": "2026-09-28",
+      "volume": 660
     }
   ],
   "company_name": "HB ESTATE DEVELOPERS LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE640B01021",
@@ -904,31 +912,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 46,
+    "momentum_score": 51,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.21x"
+    "volume_multiplier": "1.09x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.47,
-    "change_pct": -3.5,
-    "close": 68.04,
-    "previous_close": 70.51,
+    "as_of": "2026-09-28",
+    "change": 3.46,
+    "change_pct": 5.09,
+    "close": 71.5,
+    "previous_close": 68.04,
     "type": "EOD_CLOSE",
-    "volume": 129
+    "volume": 660
   },
   "range": {
-    "distance_from_high_pct": -29.05,
-    "distance_from_low_pct": 12.44,
+    "distance_from_high_pct": -25.44,
+    "distance_from_low_pct": 18.16,
     "high_52w": 95.9,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 60.51,
-    "range_position_pct": 21.28
+    "range_position_pct": 31.05
   },
   "risk_model": {
-    "invalidation_floor": 65.66,
-    "risk_per_share": 3.74,
-    "technical_pivot": 69.4
+    "invalidation_floor": 69.0,
+    "risk_per_share": 3.93,
+    "technical_pivot": 72.93
   },
   "schema_version": "1.0",
   "sector": null,

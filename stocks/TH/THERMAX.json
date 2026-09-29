@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3330.0,
-      "high": 3376.2,
-      "low": 3306.0,
-      "open": 3321.0,
-      "time": "2025-09-18",
-      "volume": 63368
-    },
-    {
       "close": 3307.6,
       "high": 3365.0,
       "low": 3289.4,
@@ -2017,13 +2009,21 @@
       "open": 3402.0,
       "time": "2026-09-25",
       "volume": 71452
+    },
+    {
+      "close": 3386.0,
+      "high": 3464.2,
+      "low": 3365.0,
+      "open": 3451.9,
+      "time": "2026-09-28",
+      "volume": 88773
     }
   ],
   "company_name": "THERMAX LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.51x"
+    "volume_multiplier": "0.62x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 41.1,
-    "change_pct": 1.21,
-    "close": 3447.2,
-    "previous_close": 3406.1,
+    "as_of": "2026-09-28",
+    "change": -61.2,
+    "change_pct": -1.78,
+    "close": 3386.0,
+    "previous_close": 3447.2,
     "type": "EOD_CLOSE",
-    "volume": 71452
+    "volume": 88773
   },
   "range": {
-    "distance_from_high_pct": -34.68,
-    "distance_from_low_pct": 25.69,
+    "distance_from_high_pct": -35.84,
+    "distance_from_low_pct": 23.45,
     "high_52w": 5277.8,
     "history_basis": "52_WEEK",
     "low_52w": 2742.7,
-    "range_position_pct": 27.79
+    "range_position_pct": 25.38
   },
   "risk_model": {
-    "invalidation_floor": 3326.55,
-    "risk_per_share": 189.59,
-    "technical_pivot": 3516.14
+    "invalidation_floor": 3267.49,
+    "risk_per_share": 186.23,
+    "technical_pivot": 3453.72
   },
   "schema_version": "1.0",
   "sector": null,

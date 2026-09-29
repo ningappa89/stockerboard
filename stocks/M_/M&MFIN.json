@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 285.95,
-      "high": 290.8,
-      "low": 280.05,
-      "open": 283.0,
-      "time": "2025-09-18",
-      "volume": 4134013
-    },
-    {
       "close": 289.55,
       "high": 291.6,
       "low": 284.6,
@@ -2017,13 +2009,21 @@
       "open": 341.45,
       "time": "2026-09-25",
       "volume": 1662139
+    },
+    {
+      "close": 331.75,
+      "high": 336.5,
+      "low": 326.2,
+      "open": 333.0,
+      "time": "2026-09-28",
+      "volume": 763309
     }
   ],
   "company_name": "MAHINDRA & MAHINDRA FINANCIAL",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 60,
+    "momentum_score": 59,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.92x"
+    "volume_multiplier": "0.42x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -6.8,
-    "change_pct": -2.0,
-    "close": 333.1,
-    "previous_close": 339.9,
+    "as_of": "2026-09-28",
+    "change": -1.35,
+    "change_pct": -0.41,
+    "close": 331.75,
+    "previous_close": 333.1,
     "type": "EOD_CLOSE",
-    "volume": 1662139
+    "volume": 763309
   },
   "range": {
-    "distance_from_high_pct": -19.73,
-    "distance_from_low_pct": 23.6,
+    "distance_from_high_pct": -20.06,
+    "distance_from_low_pct": 23.1,
     "high_52w": 415.0,
     "history_basis": "52_WEEK",
     "low_52w": 269.5,
-    "range_position_pct": 43.71
+    "range_position_pct": 42.78
   },
   "risk_model": {
-    "invalidation_floor": 321.44,
-    "risk_per_share": 18.32,
-    "technical_pivot": 339.76
+    "invalidation_floor": 320.14,
+    "risk_per_share": 18.24,
+    "technical_pivot": 338.38
   },
   "schema_version": "1.0",
   "sector": null,

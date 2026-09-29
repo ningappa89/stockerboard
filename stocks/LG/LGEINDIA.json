@@ -1881,14 +1881,22 @@
       "open": 1711.0,
       "time": "2026-09-25",
       "volume": 883000
+    },
+    {
+      "close": 1730.7,
+      "high": 1741.5,
+      "low": 1713.3,
+      "open": 1739.9,
+      "time": "2026-09-28",
+      "volume": 596986
     }
   ],
   "company_name": "LG ELECTRONICS INDIA LTD",
   "history": {
     "first_session": "2025-10-14",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 235
+    "last_session": "2026-09-28",
+    "sessions_available": 236
   },
   "industry": null,
   "isin": "INE324D01010",
@@ -1897,30 +1905,30 @@
     "is_coiled": true,
     "is_stage2": true,
     "momentum_score": 87,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "1.65x"
+    "setup_type": "Minervini VCP",
+    "volume_multiplier": "1.13x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 27.7,
-    "change_pct": 1.63,
-    "close": 1725.4,
-    "previous_close": 1697.7,
+    "as_of": "2026-09-28",
+    "change": 5.3,
+    "change_pct": 0.31,
+    "close": 1730.7,
+    "previous_close": 1725.4,
     "type": "EOD_CLOSE",
-    "volume": 883000
+    "volume": 596986
   },
   "range": {
-    "distance_from_high_pct": -1.69,
-    "distance_from_low_pct": 32.31,
+    "distance_from_high_pct": -1.38,
+    "distance_from_low_pct": 32.71,
     "high_52w": 1755.0,
     "history_basis": "52_WEEK",
     "low_52w": 1304.1,
-    "range_position_pct": 93.44
+    "range_position_pct": 94.61
   },
   "risk_model": {
-    "invalidation_floor": 1665.01,
-    "risk_per_share": 94.9,
-    "technical_pivot": 1759.91
+    "invalidation_floor": 1670.13,
+    "risk_per_share": 95.18,
+    "technical_pivot": 1765.31
   },
   "schema_version": "1.0",
   "sector": null,

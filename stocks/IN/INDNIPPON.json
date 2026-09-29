@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 980.85,
-      "high": 1010.0,
-      "low": 976.55,
-      "open": 1006.9,
-      "time": "2025-09-18",
-      "volume": 47720
-    },
-    {
       "close": 989.75,
       "high": 1005.0,
       "low": 972.0,
@@ -2017,13 +2009,21 @@
       "open": 1315.9,
       "time": "2026-09-25",
       "volume": 88704
+    },
+    {
+      "close": 1290.6,
+      "high": 1327.0,
+      "low": 1279.5,
+      "open": 1325.0,
+      "time": "2026-09-28",
+      "volume": 41621
     }
   ],
   "company_name": "INDIA NIPPON ELECTRICALS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.31x"
+    "volume_multiplier": "0.14x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.3,
-    "change_pct": 0.17,
-    "close": 1318.2,
-    "previous_close": 1315.9,
+    "as_of": "2026-09-28",
+    "change": -27.6,
+    "change_pct": -2.09,
+    "close": 1290.6,
+    "previous_close": 1318.2,
     "type": "EOD_CLOSE",
-    "volume": 88704
+    "volume": 41621
   },
   "range": {
-    "distance_from_high_pct": -15.72,
-    "distance_from_low_pct": 95.29,
+    "distance_from_high_pct": -17.48,
+    "distance_from_low_pct": 91.2,
     "high_52w": 1564.0,
     "history_basis": "52_WEEK",
     "low_52w": 675.0,
-    "range_position_pct": 72.35
+    "range_position_pct": 69.25
   },
   "risk_model": {
-    "invalidation_floor": 1272.06,
-    "risk_per_share": 72.5,
-    "technical_pivot": 1344.56
+    "invalidation_floor": 1245.43,
+    "risk_per_share": 70.98,
+    "technical_pivot": 1316.41
   },
   "schema_version": "1.0",
   "sector": null,

@@ -209,14 +209,22 @@
       "open": 131.99,
       "time": "2026-09-25",
       "volume": 717
+    },
+    {
+      "close": 126.69,
+      "high": 131.67,
+      "low": 119.13,
+      "open": 125.4,
+      "time": "2026-09-28",
+      "volume": 369
     }
   ],
   "company_name": "SIMPLEX REALTY LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 26
+    "last_session": "2026-09-28",
+    "sessions_available": 27
   },
   "industry": null,
   "isin": "INE167H01014",
@@ -224,31 +232,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 66,
     "setup_type": "Volume Expansion",
-    "volume_multiplier": "5.37x"
+    "volume_multiplier": "2.43x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -6.59,
-    "change_pct": -4.99,
-    "close": 125.4,
-    "previous_close": 131.99,
+    "as_of": "2026-09-28",
+    "change": 1.29,
+    "change_pct": 1.03,
+    "close": 126.69,
+    "previous_close": 125.4,
     "type": "EOD_CLOSE",
-    "volume": 717
+    "volume": 369
   },
   "range": {
-    "distance_from_high_pct": -16.39,
-    "distance_from_low_pct": 9.84,
+    "distance_from_high_pct": -15.53,
+    "distance_from_low_pct": 10.97,
     "high_52w": 149.98,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 114.17,
-    "range_position_pct": 31.36
+    "range_position_pct": 34.96
   },
   "risk_model": {
-    "invalidation_floor": 121.01,
-    "risk_per_share": 6.9,
-    "technical_pivot": 127.91
+    "invalidation_floor": 122.26,
+    "risk_per_share": 6.96,
+    "technical_pivot": 129.22
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 39.32,
-      "high": 39.32,
-      "low": 39.32,
-      "open": 39.32,
-      "time": "2025-09-18",
-      "volume": 32221
-    },
-    {
       "close": 40.1,
       "high": 40.1,
       "low": 40.09,
@@ -2017,13 +2009,21 @@
       "open": 44.4,
       "time": "2026-09-25",
       "volume": 1037819
+    },
+    {
+      "close": 45.28,
+      "high": 47.25,
+      "low": 45.0,
+      "open": 47.25,
+      "time": "2026-09-28",
+      "volume": 54846
     }
   ],
   "company_name": "United Polyfab Gujarat Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 77,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "4.16x"
+    "momentum_score": 72,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.22x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.54,
-    "change_pct": 3.4,
-    "close": 46.81,
-    "previous_close": 45.27,
+    "as_of": "2026-09-28",
+    "change": -1.53,
+    "change_pct": -3.27,
+    "close": 45.28,
+    "previous_close": 46.81,
     "type": "EOD_CLOSE",
-    "volume": 1037819
+    "volume": 54846
   },
   "range": {
-    "distance_from_high_pct": -8.5,
-    "distance_from_low_pct": 127.23,
+    "distance_from_high_pct": -11.49,
+    "distance_from_low_pct": 119.81,
     "high_52w": 51.16,
     "history_basis": "52_WEEK",
     "low_52w": 20.6,
-    "range_position_pct": 85.77
+    "range_position_pct": 80.76
   },
   "risk_model": {
-    "invalidation_floor": 45.17,
-    "risk_per_share": 2.58,
-    "technical_pivot": 47.75
+    "invalidation_floor": 43.7,
+    "risk_per_share": 2.49,
+    "technical_pivot": 46.19
   },
   "schema_version": "1.0",
   "sector": null,

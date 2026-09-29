@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 113.72,
-      "high": 114.66,
-      "low": 108.67,
-      "open": 110.5,
-      "time": "2025-09-18",
-      "volume": 17012528
-    },
-    {
       "close": 114.88,
       "high": 116.64,
       "low": 112.9,
@@ -2017,13 +2009,21 @@
       "open": 60.5,
       "time": "2026-09-25",
       "volume": 2587537
+    },
+    {
+      "close": 57.26,
+      "high": 59.07,
+      "low": 57.01,
+      "open": 58.82,
+      "time": "2026-09-28",
+      "volume": 941790
     }
   ],
   "company_name": "Vikran Engineering Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.97x"
+    "volume_multiplier": "0.35x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.81,
-    "change_pct": -2.97,
-    "close": 59.18,
-    "previous_close": 60.99,
+    "as_of": "2026-09-28",
+    "change": -1.92,
+    "change_pct": -3.24,
+    "close": 57.26,
+    "previous_close": 59.18,
     "type": "EOD_CLOSE",
-    "volume": 2587537
+    "volume": 941790
   },
   "range": {
-    "distance_from_high_pct": -50.02,
-    "distance_from_low_pct": 15.81,
+    "distance_from_high_pct": -51.64,
+    "distance_from_low_pct": 12.05,
     "high_52w": 118.4,
     "history_basis": "52_WEEK",
     "low_52w": 51.1,
-    "range_position_pct": 12.01
+    "range_position_pct": 9.15
   },
   "risk_model": {
-    "invalidation_floor": 57.11,
-    "risk_per_share": 3.25,
-    "technical_pivot": 60.36
+    "invalidation_floor": 55.26,
+    "risk_per_share": 3.15,
+    "technical_pivot": 58.41
   },
   "schema_version": "1.0",
   "sector": null,

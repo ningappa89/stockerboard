@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 410.92,
-      "high": 412.26,
-      "low": 408.44,
-      "open": 410.0,
-      "time": "2025-09-18",
-      "volume": 17420580
-    },
-    {
       "close": 406.2,
       "high": 410.92,
       "low": 405.48,
@@ -2017,13 +2009,21 @@
       "open": 406.9,
       "time": "2026-09-25",
       "volume": 18175573
+    },
+    {
+      "close": 401.55,
+      "high": 403.7,
+      "low": 395.75,
+      "open": 402.0,
+      "time": "2026-09-28",
+      "volume": 15062655
     }
   ],
   "company_name": "KOTAK MAHINDRA BANK LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 73,
+    "momentum_score": 72,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.59x"
+    "volume_multiplier": "1.34x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.0,
-    "change_pct": -0.25,
-    "close": 404.0,
-    "previous_close": 405.0,
+    "as_of": "2026-09-28",
+    "change": -2.45,
+    "change_pct": -0.61,
+    "close": 401.55,
+    "previous_close": 404.0,
     "type": "EOD_CLOSE",
-    "volume": 18175573
+    "volume": 15062655
   },
   "range": {
-    "distance_from_high_pct": -10.86,
-    "distance_from_low_pct": 16.93,
+    "distance_from_high_pct": -11.4,
+    "distance_from_low_pct": 16.22,
     "high_52w": 453.2,
     "history_basis": "52_WEEK",
     "low_52w": 345.5,
-    "range_position_pct": 54.32
+    "range_position_pct": 52.04
   },
   "risk_model": {
-    "invalidation_floor": 389.86,
-    "risk_per_share": 22.22,
-    "technical_pivot": 412.08
+    "invalidation_floor": 387.5,
+    "risk_per_share": 22.08,
+    "technical_pivot": 409.58
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1118.45,
-      "high": 1122.0,
-      "low": 1095.0,
-      "open": 1112.75,
-      "time": "2025-09-18",
-      "volume": 195079
-    },
-    {
       "close": 1133.45,
       "high": 1144.0,
       "low": 1094.7,
@@ -2017,13 +2009,21 @@
       "open": 1118.0,
       "time": "2026-09-25",
       "volume": 79073
+    },
+    {
+      "close": 1101.2,
+      "high": 1112.0,
+      "low": 1087.2,
+      "open": 1106.3,
+      "time": "2026-09-28",
+      "volume": 85203
     }
   ],
   "company_name": "K.P.R.MILL LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.32x"
+    "volume_multiplier": "0.36x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -7.4,
-    "change_pct": -0.66,
-    "close": 1106.4,
-    "previous_close": 1113.8,
+    "as_of": "2026-09-28",
+    "change": -5.2,
+    "change_pct": -0.47,
+    "close": 1101.2,
+    "previous_close": 1106.4,
     "type": "EOD_CLOSE",
-    "volume": 79073
+    "volume": 85203
   },
   "range": {
-    "distance_from_high_pct": -17.06,
-    "distance_from_low_pct": 38.98,
+    "distance_from_high_pct": -17.45,
+    "distance_from_low_pct": 38.32,
     "high_52w": 1334.0,
     "history_basis": "52_WEEK",
     "low_52w": 796.1,
-    "range_position_pct": 57.69
+    "range_position_pct": 56.72
   },
   "risk_model": {
-    "invalidation_floor": 1067.68,
-    "risk_per_share": 60.85,
-    "technical_pivot": 1128.53
+    "invalidation_floor": 1062.66,
+    "risk_per_share": 60.56,
+    "technical_pivot": 1123.22
   },
   "schema_version": "1.0",
   "sector": null,

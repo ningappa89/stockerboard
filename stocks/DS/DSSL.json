@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 987.55,
-      "high": 993.9,
-      "low": 982.0,
-      "open": 990.0,
-      "time": "2025-09-18",
-      "volume": 15132
-    },
-    {
       "close": 977.1,
       "high": 992.0,
       "low": 975.3,
@@ -2017,13 +2009,21 @@
       "open": 1031.0,
       "time": "2026-09-25",
       "volume": 13959
+    },
+    {
+      "close": 1011.3,
+      "high": 1041.8,
+      "low": 1006.3,
+      "open": 1035.0,
+      "time": "2026-09-28",
+      "volume": 18485
     }
   ],
   "company_name": "DYNACONS SYS & SOLN LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.5x"
+    "volume_multiplier": "0.66x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.9,
-    "change_pct": -0.09,
-    "close": 1021.2,
-    "previous_close": 1022.1,
+    "as_of": "2026-09-28",
+    "change": -9.9,
+    "change_pct": -0.97,
+    "close": 1011.3,
+    "previous_close": 1021.2,
     "type": "EOD_CLOSE",
-    "volume": 13959
+    "volume": 18485
   },
   "range": {
-    "distance_from_high_pct": -46.95,
-    "distance_from_low_pct": 30.76,
+    "distance_from_high_pct": -47.46,
+    "distance_from_low_pct": 29.49,
     "high_52w": 1924.8,
     "history_basis": "52_WEEK",
     "low_52w": 781.0,
-    "range_position_pct": 21.0
+    "range_position_pct": 20.13
   },
   "risk_model": {
-    "invalidation_floor": 985.46,
-    "risk_per_share": 56.16,
-    "technical_pivot": 1041.62
+    "invalidation_floor": 975.9,
+    "risk_per_share": 55.63,
+    "technical_pivot": 1031.53
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 157.53,
-      "high": 162.33,
-      "low": 156.0,
-      "open": 161.82,
-      "time": "2025-09-18",
-      "volume": 961170
-    },
-    {
       "close": 159.33,
       "high": 161.57,
       "low": 157.75,
@@ -2017,13 +2009,21 @@
       "open": 183.0,
       "time": "2026-09-25",
       "volume": 337776
+    },
+    {
+      "close": 181.51,
+      "high": 186.4,
+      "low": 180.5,
+      "open": 186.09,
+      "time": "2026-09-28",
+      "volume": 530234
     }
   ],
   "company_name": "SANDUR MANGANESE & IRON ORES L",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 41,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.68x"
+    "volume_multiplier": "1.05x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.68,
-    "change_pct": 0.92,
-    "close": 184.79,
-    "previous_close": 183.11,
+    "as_of": "2026-09-28",
+    "change": -3.28,
+    "change_pct": -1.77,
+    "close": 181.51,
+    "previous_close": 184.79,
     "type": "EOD_CLOSE",
-    "volume": 337776
+    "volume": 530234
   },
   "range": {
-    "distance_from_high_pct": -32.31,
-    "distance_from_low_pct": 18.46,
+    "distance_from_high_pct": -33.51,
+    "distance_from_low_pct": 16.13,
     "high_52w": 273.0,
     "history_basis": "52_WEEK",
-    "low_52w": 156.0,
-    "range_position_pct": 24.61
+    "low_52w": 156.3,
+    "range_position_pct": 21.6
   },
   "risk_model": {
-    "invalidation_floor": 178.32,
-    "risk_per_share": 10.17,
-    "technical_pivot": 188.49
+    "invalidation_floor": 175.16,
+    "risk_per_share": 9.98,
+    "technical_pivot": 185.14
   },
   "schema_version": "1.0",
   "sector": null,

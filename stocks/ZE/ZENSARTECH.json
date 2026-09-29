@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 850.5,
-      "high": 868.95,
-      "low": 840.0,
-      "open": 844.0,
-      "time": "2025-09-18",
-      "volume": 1586460
-    },
-    {
       "close": 857.75,
       "high": 862.0,
       "low": 842.5,
@@ -2017,13 +2009,21 @@
       "open": 422.4,
       "time": "2026-09-25",
       "volume": 1049624
+    },
+    {
+      "close": 436.7,
+      "high": 452.0,
+      "low": 432.5,
+      "open": 434.9,
+      "time": "2026-09-28",
+      "volume": 2452523
     }
   ],
   "company_name": "ZENSAR TECHNOLOGIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Information Technology",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.3x"
+    "volume_multiplier": "0.69x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 12.35,
-    "change_pct": 2.92,
-    "close": 434.9,
-    "previous_close": 422.55,
+    "as_of": "2026-09-28",
+    "change": 1.8,
+    "change_pct": 0.41,
+    "close": 436.7,
+    "previous_close": 434.9,
     "type": "EOD_CLOSE",
-    "volume": 1049624
+    "volume": 2452523
   },
   "range": {
-    "distance_from_high_pct": -49.95,
-    "distance_from_low_pct": 4.51,
-    "high_52w": 868.95,
+    "distance_from_high_pct": -49.34,
+    "distance_from_low_pct": 4.94,
+    "high_52w": 862.0,
     "history_basis": "52_WEEK",
     "low_52w": 416.15,
-    "range_position_pct": 4.14
+    "range_position_pct": 4.61
   },
   "risk_model": {
-    "invalidation_floor": 419.68,
-    "risk_per_share": 23.92,
-    "technical_pivot": 443.6
+    "invalidation_floor": 421.42,
+    "risk_per_share": 24.01,
+    "technical_pivot": 445.43
   },
   "schema_version": "1.0",
   "sector": "Information Technology",

@@ -233,14 +233,22 @@
       "open": 149.68,
       "time": "2026-09-25",
       "volume": 1906
+    },
+    {
+      "close": 143.36,
+      "high": 149.0,
+      "low": 138.0,
+      "open": 149.0,
+      "time": "2026-09-28",
+      "volume": 15555
     }
   ],
   "company_name": "SHILP GRAVURES LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE960A01017",
@@ -248,31 +256,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
+    "momentum_score": 59,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.17x"
+    "volume_multiplier": "1.29x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 4.55,
-    "change_pct": 3.14,
-    "close": 149.5,
-    "previous_close": 144.95,
+    "as_of": "2026-09-28",
+    "change": -6.14,
+    "change_pct": -4.11,
+    "close": 143.36,
+    "previous_close": 149.5,
     "type": "EOD_CLOSE",
-    "volume": 1906
+    "volume": 15555
   },
   "range": {
-    "distance_from_high_pct": -16.81,
-    "distance_from_low_pct": 5.28,
+    "distance_from_high_pct": -20.22,
+    "distance_from_low_pct": 3.88,
     "high_52w": 179.7,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 142.0,
-    "range_position_pct": 19.89
+    "low_52w": 138.0,
+    "range_position_pct": 12.85
   },
   "risk_model": {
-    "invalidation_floor": 144.27,
-    "risk_per_share": 8.22,
-    "technical_pivot": 152.49
+    "invalidation_floor": 138.34,
+    "risk_per_share": 7.89,
+    "technical_pivot": 146.23
   },
   "schema_version": "1.0",
   "sector": null,

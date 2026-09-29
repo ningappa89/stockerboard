@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1111.9,
-      "high": 1132.5,
-      "low": 1056.1,
-      "open": 1079.6,
-      "time": "2025-09-18",
-      "volume": 221582
-    },
-    {
       "close": 1111.7,
       "high": 1120.4,
       "low": 1099.0,
@@ -2017,13 +2009,21 @@
       "open": 1706.0,
       "time": "2026-09-25",
       "volume": 93740
+    },
+    {
+      "close": 1713.8,
+      "high": 1747.0,
+      "low": 1655.0,
+      "open": 1700.0,
+      "time": "2026-09-28",
+      "volume": 165356
     }
   ],
   "company_name": "KERNEX MICROSYS(I) LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.44x"
+    "volume_multiplier": "0.78x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -7.3,
-    "change_pct": -0.43,
-    "close": 1693.5,
-    "previous_close": 1700.8,
+    "as_of": "2026-09-28",
+    "change": 20.3,
+    "change_pct": 1.2,
+    "close": 1713.8,
+    "previous_close": 1693.5,
     "type": "EOD_CLOSE",
-    "volume": 93740
+    "volume": 165356
   },
   "range": {
-    "distance_from_high_pct": -34.36,
-    "distance_from_low_pct": 99.24,
+    "distance_from_high_pct": -33.57,
+    "distance_from_low_pct": 101.62,
     "high_52w": 2580.0,
     "history_basis": "52_WEEK",
     "low_52w": 850.0,
-    "range_position_pct": 48.76
+    "range_position_pct": 49.93
   },
   "risk_model": {
-    "invalidation_floor": 1634.23,
-    "risk_per_share": 93.14,
-    "technical_pivot": 1727.37
+    "invalidation_floor": 1653.82,
+    "risk_per_share": 94.26,
+    "technical_pivot": 1748.08
   },
   "schema_version": "1.0",
   "sector": null,

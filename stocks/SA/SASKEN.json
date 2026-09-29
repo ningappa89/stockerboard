@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1495.4,
-      "high": 1512.5,
-      "low": 1490.0,
-      "open": 1506.7,
-      "time": "2025-09-18",
-      "volume": 4129
-    },
-    {
       "close": 1498.0,
       "high": 1537.0,
       "low": 1491.0,
@@ -2017,13 +2009,21 @@
       "open": 1768.0,
       "time": "2026-09-25",
       "volume": 33465
+    },
+    {
+      "close": 1658.2,
+      "high": 1711.1,
+      "low": 1650.2,
+      "open": 1700.0,
+      "time": "2026-09-28",
+      "volume": 17178
     }
   ],
   "company_name": "Sasken Technologies Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.37x"
+    "volume_multiplier": "0.7x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -45.7,
-    "change_pct": -2.63,
-    "close": 1691.1,
-    "previous_close": 1736.8,
+    "as_of": "2026-09-28",
+    "change": -32.9,
+    "change_pct": -1.95,
+    "close": 1658.2,
+    "previous_close": 1691.1,
     "type": "EOD_CLOSE",
-    "volume": 33465
+    "volume": 17178
   },
   "range": {
-    "distance_from_high_pct": -39.17,
-    "distance_from_low_pct": 70.65,
+    "distance_from_high_pct": -40.36,
+    "distance_from_low_pct": 67.33,
     "high_52w": 2780.2,
     "history_basis": "52_WEEK",
     "low_52w": 991.0,
-    "range_position_pct": 39.13
+    "range_position_pct": 37.29
   },
   "risk_model": {
-    "invalidation_floor": 1631.91,
-    "risk_per_share": 93.01,
-    "technical_pivot": 1724.92
+    "invalidation_floor": 1600.16,
+    "risk_per_share": 91.2,
+    "technical_pivot": 1691.36
   },
   "schema_version": "1.0",
   "sector": null,

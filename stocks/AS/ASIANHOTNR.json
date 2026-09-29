@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 328.5,
-      "high": 345.75,
-      "low": 322.2,
-      "open": 325.05,
-      "time": "2025-09-18",
-      "volume": 9151
-    },
-    {
       "close": 324.95,
       "high": 334.2,
       "low": 318.15,
@@ -2017,13 +2009,21 @@
       "open": 386.05,
       "time": "2026-09-25",
       "volume": 5905
+    },
+    {
+      "close": 372.0,
+      "high": 396.05,
+      "low": 362.0,
+      "open": 395.0,
+      "time": "2026-09-28",
+      "volume": 10253
     }
   ],
   "company_name": "ASIAN HOTELS (NORTH) LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 79,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.06x"
+    "volume_multiplier": "0.12x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 4.85,
-    "change_pct": 1.25,
-    "close": 394.35,
-    "previous_close": 389.5,
+    "as_of": "2026-09-28",
+    "change": -22.35,
+    "change_pct": -5.67,
+    "close": 372.0,
+    "previous_close": 394.35,
     "type": "EOD_CLOSE",
-    "volume": 5905
+    "volume": 10253
   },
   "range": {
-    "distance_from_high_pct": -6.95,
-    "distance_from_low_pct": 59.33,
+    "distance_from_high_pct": -12.22,
+    "distance_from_low_pct": 50.3,
     "high_52w": 423.8,
     "history_basis": "52_WEEK",
     "low_52w": 247.5,
-    "range_position_pct": 83.3
+    "range_position_pct": 70.62
   },
   "risk_model": {
-    "invalidation_floor": 380.55,
-    "risk_per_share": 21.69,
-    "technical_pivot": 402.24
+    "invalidation_floor": 358.98,
+    "risk_per_share": 20.46,
+    "technical_pivot": 379.44
   },
   "schema_version": "1.0",
   "sector": null,

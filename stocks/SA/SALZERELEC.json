@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 816.3,
-      "high": 829.35,
-      "low": 814.6,
-      "open": 829.0,
-      "time": "2025-09-18",
-      "volume": 28331
-    },
-    {
       "close": 818.5,
       "high": 825.0,
       "low": 810.0,
@@ -2017,13 +2009,21 @@
       "open": 535.0,
       "time": "2026-09-25",
       "volume": 21706
+    },
+    {
+      "close": 535.55,
+      "high": 539.1,
+      "low": 527.55,
+      "open": 536.05,
+      "time": "2026-09-28",
+      "volume": 26255
     }
   ],
   "company_name": "SALZER ELECTRONICS LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.48x"
+    "volume_multiplier": "0.58x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.6,
-    "change_pct": 0.48,
-    "close": 541.25,
-    "previous_close": 538.65,
+    "as_of": "2026-09-28",
+    "change": -5.7,
+    "change_pct": -1.05,
+    "close": 535.55,
+    "previous_close": 541.25,
     "type": "EOD_CLOSE",
-    "volume": 21706
+    "volume": 26255
   },
   "range": {
-    "distance_from_high_pct": -43.18,
-    "distance_from_low_pct": 10.73,
+    "distance_from_high_pct": -43.77,
+    "distance_from_low_pct": 9.56,
     "high_52w": 952.5,
     "history_basis": "52_WEEK",
     "low_52w": 488.8,
-    "range_position_pct": 11.31
+    "range_position_pct": 10.08
   },
   "risk_model": {
-    "invalidation_floor": 522.31,
-    "risk_per_share": 29.77,
-    "technical_pivot": 552.08
+    "invalidation_floor": 516.81,
+    "risk_per_share": 29.45,
+    "technical_pivot": 546.26
   },
   "schema_version": "1.0",
   "sector": null,

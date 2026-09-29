@@ -609,14 +609,22 @@
       "open": 221.99,
       "time": "2026-09-25",
       "volume": 591723
+    },
+    {
+      "close": 221.77,
+      "high": 223.7,
+      "low": 218.05,
+      "open": 222.6,
+      "time": "2026-09-28",
+      "volume": 324806
     }
   ],
   "company_name": "CMR Green Technologies Limited",
   "history": {
     "first_session": "2026-06-10",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 76
+    "last_session": "2026-09-28",
+    "sessions_available": 77
   },
   "industry": null,
   "isin": "INE00WV01027",
@@ -624,31 +632,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.13x"
+    "volume_multiplier": "0.64x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 3.77,
-    "change_pct": 1.71,
-    "close": 224.49,
-    "previous_close": 220.72,
+    "as_of": "2026-09-28",
+    "change": -2.72,
+    "change_pct": -1.21,
+    "close": 221.77,
+    "previous_close": 224.49,
     "type": "EOD_CLOSE",
-    "volume": 591723
+    "volume": 324806
   },
   "range": {
-    "distance_from_high_pct": -16.53,
-    "distance_from_low_pct": 9.37,
+    "distance_from_high_pct": -17.55,
+    "distance_from_low_pct": 8.05,
     "high_52w": 268.96,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 205.25,
-    "range_position_pct": 30.2
+    "range_position_pct": 25.93
   },
   "risk_model": {
-    "invalidation_floor": 216.63,
-    "risk_per_share": 12.35,
-    "technical_pivot": 228.98
+    "invalidation_floor": 214.01,
+    "risk_per_share": 12.2,
+    "technical_pivot": 226.21
   },
   "schema_version": "1.0",
   "sector": null,

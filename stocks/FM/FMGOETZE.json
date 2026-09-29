@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 552.8,
-      "high": 561.7,
-      "low": 548.8,
-      "open": 558.75,
-      "time": "2025-09-18",
-      "volume": 28461
-    },
-    {
       "close": 551.7,
       "high": 557.95,
       "low": 549.15,
@@ -2017,13 +2009,21 @@
       "open": 466.9,
       "time": "2026-09-25",
       "volume": 222375
+    },
+    {
+      "close": 458.65,
+      "high": 481.2,
+      "low": 454.8,
+      "open": 480.1,
+      "time": "2026-09-28",
+      "volume": 165148
     }
   ],
   "company_name": "FEDERAL-MOGUL GOETZE (INDIA) L",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 52,
+    "momentum_score": 47,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.12x"
+    "volume_multiplier": "0.16x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 14.15,
-    "change_pct": 3.02,
-    "close": 482.6,
-    "previous_close": 468.45,
+    "as_of": "2026-09-28",
+    "change": -23.95,
+    "change_pct": -4.96,
+    "close": 458.65,
+    "previous_close": 482.6,
     "type": "EOD_CLOSE",
-    "volume": 222375
+    "volume": 165148
   },
   "range": {
-    "distance_from_high_pct": -24.72,
-    "distance_from_low_pct": 34.8,
+    "distance_from_high_pct": -28.46,
+    "distance_from_low_pct": 28.11,
     "high_52w": 641.1,
     "history_basis": "52_WEEK",
     "low_52w": 358.0,
-    "range_position_pct": 44.01
+    "range_position_pct": 35.55
   },
   "risk_model": {
-    "invalidation_floor": 465.71,
-    "risk_per_share": 26.54,
-    "technical_pivot": 492.25
+    "invalidation_floor": 442.6,
+    "risk_per_share": 25.22,
+    "technical_pivot": 467.82
   },
   "schema_version": "1.0",
   "sector": null,

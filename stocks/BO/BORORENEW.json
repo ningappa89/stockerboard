@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 556.4,
-      "high": 566.0,
-      "low": 555.25,
-      "open": 565.0,
-      "time": "2025-09-18",
-      "volume": 212955
-    },
-    {
       "close": 570.05,
       "high": 574.85,
       "low": 550.0,
@@ -2017,13 +2009,21 @@
       "open": 460.0,
       "time": "2026-09-25",
       "volume": 289701
+    },
+    {
+      "close": 452.25,
+      "high": 462.65,
+      "low": 449.9,
+      "open": 455.45,
+      "time": "2026-09-28",
+      "volume": 308633
     }
   ],
   "company_name": "BOROSIL RENEWABLES LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.59x"
+    "volume_multiplier": "0.68x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -4.6,
-    "change_pct": -1.0,
-    "close": 455.15,
-    "previous_close": 459.75,
+    "as_of": "2026-09-28",
+    "change": -2.9,
+    "change_pct": -0.64,
+    "close": 452.25,
+    "previous_close": 455.15,
     "type": "EOD_CLOSE",
-    "volume": 289701
+    "volume": 308633
   },
   "range": {
-    "distance_from_high_pct": -36.87,
-    "distance_from_low_pct": 21.57,
+    "distance_from_high_pct": -37.27,
+    "distance_from_low_pct": 20.79,
     "high_52w": 721.0,
     "history_basis": "52_WEEK",
     "low_52w": 374.4,
-    "range_position_pct": 23.3
+    "range_position_pct": 22.46
   },
   "risk_model": {
-    "invalidation_floor": 439.22,
-    "risk_per_share": 25.03,
-    "technical_pivot": 464.25
+    "invalidation_floor": 436.42,
+    "risk_per_share": 24.88,
+    "technical_pivot": 461.3
   },
   "schema_version": "1.0",
   "sector": null,

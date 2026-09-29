@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 269.1,
-      "high": 274.0,
-      "low": 264.2,
-      "open": 264.2,
-      "time": "2025-09-18",
-      "volume": 109414
-    },
-    {
       "close": 267.85,
       "high": 270.45,
       "low": 267.0,
@@ -2017,13 +2009,21 @@
       "open": 261.8,
       "time": "2026-09-25",
       "volume": 2805051
+    },
+    {
+      "close": 294.75,
+      "high": 309.55,
+      "low": 288.0,
+      "open": 294.0,
+      "time": "2026-09-28",
+      "volume": 703248
     }
   ],
   "company_name": "UTTAM SUGAR MILLS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "7.73x"
+    "momentum_score": 63,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.85x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 33.15,
-    "change_pct": 12.75,
-    "close": 293.15,
-    "previous_close": 260.0,
+    "as_of": "2026-09-28",
+    "change": 1.6,
+    "change_pct": 0.55,
+    "close": 294.75,
+    "previous_close": 293.15,
     "type": "EOD_CLOSE",
-    "volume": 2805051
+    "volume": 703248
   },
   "range": {
-    "distance_from_high_pct": -18.41,
-    "distance_from_low_pct": 61.87,
+    "distance_from_high_pct": -17.97,
+    "distance_from_low_pct": 62.76,
     "high_52w": 359.3,
     "history_basis": "52_WEEK",
     "low_52w": 181.1,
-    "range_position_pct": 62.88
+    "range_position_pct": 63.78
   },
   "risk_model": {
-    "invalidation_floor": 282.89,
-    "risk_per_share": 16.12,
-    "technical_pivot": 299.01
+    "invalidation_floor": 284.43,
+    "risk_per_share": 16.21,
+    "technical_pivot": 300.64
   },
   "schema_version": "1.0",
   "sector": null,

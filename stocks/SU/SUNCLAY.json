@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1694.3,
-      "high": 1729.3,
-      "low": 1690.0,
-      "open": 1722.5,
-      "time": "2025-09-18",
-      "volume": 3918
-    },
-    {
       "close": 1788.6,
       "high": 1942.0,
       "low": 1701.4,
@@ -2017,13 +2009,21 @@
       "open": 1268.7,
       "time": "2026-09-25",
       "volume": 7772
+    },
+    {
+      "close": 1229.9,
+      "high": 1253.8,
+      "low": 1228.0,
+      "open": 1253.8,
+      "time": "2026-09-28",
+      "volume": 14053
     }
   ],
   "company_name": "SUNDARAM CLAYTON LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.31x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.28x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -12.7,
-    "change_pct": -1.02,
-    "close": 1236.7,
-    "previous_close": 1249.4,
+    "as_of": "2026-09-28",
+    "change": -6.8,
+    "change_pct": -0.55,
+    "close": 1229.9,
+    "previous_close": 1236.7,
     "type": "EOD_CLOSE",
-    "volume": 7772
+    "volume": 14053
   },
   "range": {
-    "distance_from_high_pct": -36.32,
-    "distance_from_low_pct": 11.13,
+    "distance_from_high_pct": -36.67,
+    "distance_from_low_pct": 10.52,
     "high_52w": 1942.0,
     "history_basis": "52_WEEK",
     "low_52w": 1112.8,
-    "range_position_pct": 14.94
+    "range_position_pct": 14.12
   },
   "risk_model": {
-    "invalidation_floor": 1193.42,
-    "risk_per_share": 68.01,
-    "technical_pivot": 1261.43
+    "invalidation_floor": 1186.85,
+    "risk_per_share": 67.65,
+    "technical_pivot": 1254.5
   },
   "schema_version": "1.0",
   "sector": null,

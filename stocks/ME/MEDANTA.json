@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1367.7,
-      "high": 1387.6,
-      "low": 1362.0,
-      "open": 1381.2,
-      "time": "2025-09-18",
-      "volume": 187037
-    },
-    {
       "close": 1354.2,
       "high": 1379.0,
       "low": 1350.0,
@@ -2017,46 +2009,54 @@
       "open": 1506.0,
       "time": "2026-09-25",
       "volume": 158143
+    },
+    {
+      "close": 1433.4,
+      "high": 1495.1,
+      "low": 1426.6,
+      "open": 1490.0,
+      "time": "2026-09-28",
+      "volume": 116663
     }
   ],
   "company_name": "Global Health Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Healthcare",
   "isin": "INE474Q01031",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 85,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.6x"
+    "momentum_score": 79,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.46x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -10.8,
-    "change_pct": -0.72,
-    "close": 1495.4,
-    "previous_close": 1506.2,
+    "as_of": "2026-09-28",
+    "change": -62.0,
+    "change_pct": -4.15,
+    "close": 1433.4,
+    "previous_close": 1495.4,
     "type": "EOD_CLOSE",
-    "volume": 158143
+    "volume": 116663
   },
   "range": {
-    "distance_from_high_pct": -3.15,
-    "distance_from_low_pct": 56.42,
+    "distance_from_high_pct": -7.16,
+    "distance_from_low_pct": 49.94,
     "high_52w": 1544.0,
     "history_basis": "52_WEEK",
     "low_52w": 956.0,
-    "range_position_pct": 91.73
+    "range_position_pct": 81.19
   },
   "risk_model": {
-    "invalidation_floor": 1443.06,
-    "risk_per_share": 82.25,
-    "technical_pivot": 1525.31
+    "invalidation_floor": 1383.23,
+    "risk_per_share": 78.84,
+    "technical_pivot": 1462.07
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

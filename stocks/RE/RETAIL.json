@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 37.36,
-      "high": 38.49,
-      "low": 36.7,
-      "open": 37.51,
-      "time": "2025-09-18",
-      "volume": 26436
-    },
-    {
       "close": 37.6,
       "high": 39.49,
       "low": 36.4,
@@ -2017,13 +2009,21 @@
       "open": 17.98,
       "time": "2026-09-25",
       "volume": 111518
+    },
+    {
+      "close": 24.07,
+      "high": 24.07,
+      "low": 22.13,
+      "open": 23.0,
+      "time": "2026-09-28",
+      "volume": 125527
     }
   ],
   "company_name": "JHS SVENDGAARD RETAIL VENTURES",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Volume Expansion",
-    "volume_multiplier": "11.28x"
+    "volume_multiplier": "7.8x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 3.34,
-    "change_pct": 19.98,
-    "close": 20.06,
-    "previous_close": 16.72,
+    "as_of": "2026-09-28",
+    "change": 4.01,
+    "change_pct": 19.99,
+    "close": 24.07,
+    "previous_close": 20.06,
     "type": "EOD_CLOSE",
-    "volume": 111518
+    "volume": 125527
   },
   "range": {
-    "distance_from_high_pct": -49.2,
-    "distance_from_low_pct": 26.88,
+    "distance_from_high_pct": -39.05,
+    "distance_from_low_pct": 52.25,
     "high_52w": 39.49,
     "history_basis": "52_WEEK",
     "low_52w": 15.81,
-    "range_position_pct": 17.95
+    "range_position_pct": 34.88
   },
   "risk_model": {
-    "invalidation_floor": 19.36,
-    "risk_per_share": 1.1,
-    "technical_pivot": 20.46
+    "invalidation_floor": 23.23,
+    "risk_per_share": 1.32,
+    "technical_pivot": 24.55
   },
   "schema_version": "1.0",
   "sector": null,

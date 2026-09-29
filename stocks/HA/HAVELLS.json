@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1594.3,
-      "high": 1599.2,
-      "low": 1583.6,
-      "open": 1595.9,
-      "time": "2025-09-18",
-      "volume": 940785
-    },
-    {
       "close": 1590.8,
       "high": 1610.0,
       "low": 1586.5,
@@ -2017,13 +2009,21 @@
       "open": 1085.2,
       "time": "2026-09-25",
       "volume": 308307
+    },
+    {
+      "close": 1085.0,
+      "high": 1099.9,
+      "low": 1074.5,
+      "open": 1099.9,
+      "time": "2026-09-28",
+      "volume": 735161
     }
   ],
   "company_name": "HAVELLS INDIA LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Consumer Durables",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
+    "momentum_score": 41,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.36x"
+    "volume_multiplier": "0.91x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 6.5,
-    "change_pct": 0.6,
-    "close": 1096.5,
-    "previous_close": 1090.0,
+    "as_of": "2026-09-28",
+    "change": -11.5,
+    "change_pct": -1.05,
+    "close": 1085.0,
+    "previous_close": 1096.5,
     "type": "EOD_CLOSE",
-    "volume": 308307
+    "volume": 735161
   },
   "range": {
-    "distance_from_high_pct": -31.89,
-    "distance_from_low_pct": 1.42,
+    "distance_from_high_pct": -32.61,
+    "distance_from_low_pct": 0.98,
     "high_52w": 1610.0,
     "history_basis": "52_WEEK",
-    "low_52w": 1081.1,
-    "range_position_pct": 2.91
+    "low_52w": 1074.5,
+    "range_position_pct": 1.96
   },
   "risk_model": {
-    "invalidation_floor": 1058.12,
-    "risk_per_share": 60.31,
-    "technical_pivot": 1118.43
+    "invalidation_floor": 1047.02,
+    "risk_per_share": 59.68,
+    "technical_pivot": 1106.7
   },
   "schema_version": "1.0",
   "sector": "Consumer Durables",

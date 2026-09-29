@@ -889,14 +889,22 @@
       "open": 1745.7,
       "time": "2026-09-25",
       "volume": 204
+    },
+    {
+      "close": 1758.0,
+      "high": 1763.8,
+      "low": 1744.5,
+      "open": 1744.5,
+      "time": "2026-09-28",
+      "volume": 1355
     }
   ],
   "company_name": "A.K.CAPITAL SERVICES LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE701G01012",
@@ -906,29 +914,29 @@
     "is_stage2": true,
     "momentum_score": 80,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.16x"
+    "volume_multiplier": "1.16x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 24.8,
-    "change_pct": 1.43,
-    "close": 1754.0,
-    "previous_close": 1729.2,
+    "as_of": "2026-09-28",
+    "change": 4.0,
+    "change_pct": 0.23,
+    "close": 1758.0,
+    "previous_close": 1754.0,
     "type": "EOD_CLOSE",
-    "volume": 204
+    "volume": 1355
   },
   "range": {
-    "distance_from_high_pct": -6.45,
-    "distance_from_low_pct": 18.12,
+    "distance_from_high_pct": -6.24,
+    "distance_from_low_pct": 18.39,
     "high_52w": 1875.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 1484.9,
-    "range_position_pct": 68.98
+    "range_position_pct": 70.01
   },
   "risk_model": {
-    "invalidation_floor": 1692.61,
-    "risk_per_share": 96.47,
-    "technical_pivot": 1789.08
+    "invalidation_floor": 1696.47,
+    "risk_per_share": 96.69,
+    "technical_pivot": 1793.16
   },
   "schema_version": "1.0",
   "sector": null,

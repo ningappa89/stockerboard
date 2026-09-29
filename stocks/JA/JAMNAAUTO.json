@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 107.7,
-      "high": 108.88,
-      "low": 106.76,
-      "open": 108.88,
-      "time": "2025-09-18",
-      "volume": 1203487
-    },
-    {
       "close": 107.86,
       "high": 108.9,
       "low": 107.0,
@@ -2017,13 +2009,21 @@
       "open": 138.39,
       "time": "2026-09-25",
       "volume": 3496903
+    },
+    {
+      "close": 139.68,
+      "high": 141.0,
+      "low": 134.99,
+      "open": 138.2,
+      "time": "2026-09-28",
+      "volume": 3679842
     }
   ],
   "company_name": "JAMNA AUTO INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 75,
+    "momentum_score": 77,
     "setup_type": "Liquid Active",
     "volume_multiplier": "1.24x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.19,
-    "change_pct": -0.14,
-    "close": 138.2,
-    "previous_close": 138.39,
+    "as_of": "2026-09-28",
+    "change": 1.48,
+    "change_pct": 1.07,
+    "close": 139.68,
+    "previous_close": 138.2,
     "type": "EOD_CLOSE",
-    "volume": 3496903
+    "volume": 3679842
   },
   "range": {
-    "distance_from_high_pct": -9.44,
-    "distance_from_low_pct": 54.0,
+    "distance_from_high_pct": -8.47,
+    "distance_from_low_pct": 55.65,
     "high_52w": 152.6,
     "history_basis": "52_WEEK",
     "low_52w": 89.74,
-    "range_position_pct": 77.09
+    "range_position_pct": 79.45
   },
   "risk_model": {
-    "invalidation_floor": 133.36,
-    "risk_per_share": 7.6,
-    "technical_pivot": 140.96
+    "invalidation_floor": 134.79,
+    "risk_per_share": 7.68,
+    "technical_pivot": 142.47
   },
   "schema_version": "1.0",
   "sector": null,

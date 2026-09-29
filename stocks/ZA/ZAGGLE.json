@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 356.75,
-      "high": 369.6,
-      "low": 355.0,
-      "open": 366.8,
-      "time": "2025-09-18",
-      "volume": 663133
-    },
-    {
       "close": 353.9,
       "high": 361.95,
       "low": 353.0,
@@ -2017,13 +2009,21 @@
       "open": 179.48,
       "time": "2026-09-25",
       "volume": 853946
+    },
+    {
+      "close": 175.55,
+      "high": 178.48,
+      "low": 175.16,
+      "open": 177.75,
+      "time": "2026-09-28",
+      "volume": 653784
     }
   ],
   "company_name": "ZAGGLE PREPAID OCEAN SERVICES ",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.83x"
+    "volume_multiplier": "0.65x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.62,
-    "change_pct": 0.35,
-    "close": 178.84,
-    "previous_close": 178.22,
+    "as_of": "2026-09-28",
+    "change": -3.29,
+    "change_pct": -1.84,
+    "close": 175.55,
+    "previous_close": 178.84,
     "type": "EOD_CLOSE",
-    "volume": 853946
+    "volume": 653784
   },
   "range": {
-    "distance_from_high_pct": -55.89,
-    "distance_from_low_pct": 15.86,
+    "distance_from_high_pct": -56.7,
+    "distance_from_low_pct": 13.73,
     "high_52w": 405.4,
     "history_basis": "52_WEEK",
     "low_52w": 154.36,
-    "range_position_pct": 9.75
+    "range_position_pct": 8.44
   },
   "risk_model": {
-    "invalidation_floor": 172.58,
-    "risk_per_share": 9.84,
-    "technical_pivot": 182.42
+    "invalidation_floor": 169.41,
+    "risk_per_share": 9.65,
+    "technical_pivot": 179.06
   },
   "schema_version": "1.0",
   "sector": null,

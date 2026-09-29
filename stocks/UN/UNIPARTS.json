@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 410.6,
-      "high": 423.0,
-      "low": 408.0,
-      "open": 408.0,
-      "time": "2025-09-18",
-      "volume": 957016
-    },
-    {
       "close": 410.05,
       "high": 416.5,
       "low": 406.0,
@@ -2017,13 +2009,21 @@
       "open": 850.35,
       "time": "2026-09-25",
       "volume": 85608
+    },
+    {
+      "close": 837.1,
+      "high": 851.45,
+      "low": 832.5,
+      "open": 845.0,
+      "time": "2026-09-28",
+      "volume": 98322
     }
   ],
   "company_name": "Uniparts India Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 78,
+    "momentum_score": 77,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.45x"
+    "volume_multiplier": "0.57x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -3.15,
-    "change_pct": -0.37,
-    "close": 847.2,
-    "previous_close": 850.35,
+    "as_of": "2026-09-28",
+    "change": -10.1,
+    "change_pct": -1.19,
+    "close": 837.1,
+    "previous_close": 847.2,
     "type": "EOD_CLOSE",
-    "volume": 85608
+    "volume": 98322
   },
   "range": {
-    "distance_from_high_pct": -7.51,
-    "distance_from_low_pct": 111.91,
+    "distance_from_high_pct": -8.61,
+    "distance_from_low_pct": 109.38,
     "high_52w": 915.95,
     "history_basis": "52_WEEK",
     "low_52w": 399.8,
-    "range_position_pct": 86.68
+    "range_position_pct": 84.72
   },
   "risk_model": {
-    "invalidation_floor": 817.55,
-    "risk_per_share": 46.59,
-    "technical_pivot": 864.14
+    "invalidation_floor": 807.8,
+    "risk_per_share": 46.04,
+    "technical_pivot": 853.84
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1664.6,
-      "high": 1688.4,
-      "low": 1651.0,
-      "open": 1664.0,
-      "time": "2025-09-18",
-      "volume": 571033
-    },
-    {
       "close": 1640.1,
       "high": 1666.7,
       "low": 1632.2,
@@ -2017,13 +2009,21 @@
       "open": 1247.0,
       "time": "2026-09-25",
       "volume": 357307
+    },
+    {
+      "close": 1173.8,
+      "high": 1204.0,
+      "low": 1166.4,
+      "open": 1204.0,
+      "time": "2026-09-28",
+      "volume": 334384
     }
   ],
   "company_name": "OLECTRA GREENTECH LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 45,
+    "momentum_score": 42,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.92x"
+    "volume_multiplier": "0.85x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -36.8,
-    "change_pct": -2.96,
-    "close": 1207.2,
-    "previous_close": 1244.0,
+    "as_of": "2026-09-28",
+    "change": -33.4,
+    "change_pct": -2.77,
+    "close": 1173.8,
+    "previous_close": 1207.2,
     "type": "EOD_CLOSE",
-    "volume": 357307
+    "volume": 334384
   },
   "range": {
-    "distance_from_high_pct": -29.58,
-    "distance_from_low_pct": 39.3,
+    "distance_from_high_pct": -31.52,
+    "distance_from_low_pct": 35.45,
     "high_52w": 1714.2,
     "history_basis": "52_WEEK",
     "low_52w": 866.6,
-    "range_position_pct": 40.18
+    "range_position_pct": 36.24
   },
   "risk_model": {
-    "invalidation_floor": 1164.95,
-    "risk_per_share": 66.39,
-    "technical_pivot": 1231.34
+    "invalidation_floor": 1132.72,
+    "risk_per_share": 64.56,
+    "technical_pivot": 1197.28
   },
   "schema_version": "1.0",
   "sector": null,

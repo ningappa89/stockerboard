@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2104.8,
-      "high": 2153.8,
-      "low": 2091.1,
-      "open": 2153.8,
-      "time": "2025-09-18",
-      "volume": 185193
-    },
-    {
       "close": 2145.2,
       "high": 2185.0,
       "low": 2095.0,
@@ -2017,13 +2009,21 @@
       "open": 1584.2,
       "time": "2026-09-25",
       "volume": 113281
+    },
+    {
+      "close": 1548.4,
+      "high": 1575.5,
+      "low": 1543.1,
+      "open": 1570.0,
+      "time": "2026-09-28",
+      "volume": 100507
     }
   ],
   "company_name": "AFFLE 3I LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Information Technology",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 46,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.29x"
+    "volume_multiplier": "0.26x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -10.1,
-    "change_pct": -0.64,
-    "close": 1578.0,
-    "previous_close": 1588.1,
+    "as_of": "2026-09-28",
+    "change": -29.6,
+    "change_pct": -1.88,
+    "close": 1548.4,
+    "previous_close": 1578.0,
     "type": "EOD_CLOSE",
-    "volume": 113281
+    "volume": 100507
   },
   "range": {
-    "distance_from_high_pct": -27.81,
-    "distance_from_low_pct": 26.11,
+    "distance_from_high_pct": -29.16,
+    "distance_from_low_pct": 23.74,
     "high_52w": 2185.9,
     "history_basis": "52_WEEK",
     "low_52w": 1251.3,
-    "range_position_pct": 34.96
+    "range_position_pct": 31.79
   },
   "risk_model": {
-    "invalidation_floor": 1522.77,
-    "risk_per_share": 86.79,
-    "technical_pivot": 1609.56
+    "invalidation_floor": 1494.21,
+    "risk_per_share": 85.16,
+    "technical_pivot": 1579.37
   },
   "schema_version": "1.0",
   "sector": "Information Technology",

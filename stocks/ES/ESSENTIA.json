@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1.9,
-      "high": 1.93,
-      "low": 1.9,
-      "open": 1.92,
-      "time": "2025-09-18",
-      "volume": 1079894
-    },
-    {
       "close": 1.89,
       "high": 1.92,
       "low": 1.86,
@@ -2017,13 +2009,21 @@
       "open": 1.04,
       "time": "2026-09-25",
       "volume": 1166081
+    },
+    {
+      "close": 1.01,
+      "high": 1.04,
+      "low": 1.01,
+      "open": 1.04,
+      "time": "2026-09-28",
+      "volume": 2135410
     }
   ],
   "company_name": "INTEGRA ESSENTIA LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.41x"
+    "volume_multiplier": "0.74x"
   },
   "price": {
-    "as_of": "2026-09-25",
+    "as_of": "2026-09-28",
     "change": -0.01,
-    "change_pct": -0.97,
-    "close": 1.02,
-    "previous_close": 1.03,
+    "change_pct": -0.98,
+    "close": 1.01,
+    "previous_close": 1.02,
     "type": "EOD_CLOSE",
-    "volume": 1166081
+    "volume": 2135410
   },
   "range": {
-    "distance_from_high_pct": -50.96,
-    "distance_from_low_pct": 0.99,
+    "distance_from_high_pct": -51.44,
+    "distance_from_low_pct": 0.0,
     "high_52w": 2.08,
     "history_basis": "52_WEEK",
     "low_52w": 1.01,
-    "range_position_pct": 0.93
+    "range_position_pct": 0.0
   },
   "risk_model": {
-    "invalidation_floor": 0.98,
+    "invalidation_floor": 0.97,
     "risk_per_share": 0.5,
-    "technical_pivot": 1.04
+    "technical_pivot": 1.03
   },
   "schema_version": "1.0",
   "sector": null,

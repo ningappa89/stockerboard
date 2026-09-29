@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 4392.4,
-      "high": 4497.0,
-      "low": 4304.0,
-      "open": 4304.0,
-      "time": "2025-09-18",
-      "volume": 383861
-    },
-    {
       "close": 4345.4,
       "high": 4414.4,
       "low": 4328.2,
@@ -2017,13 +2009,21 @@
       "open": 3218.6,
       "time": "2026-09-25",
       "volume": 23468
+    },
+    {
+      "close": 3211.6,
+      "high": 3280.0,
+      "low": 3157.0,
+      "open": 3221.0,
+      "time": "2026-09-28",
+      "volume": 35810
     }
   ],
   "company_name": "L&T TECHNOLOGY SER. LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Information Technology",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 41,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.29x"
+    "volume_multiplier": "0.45x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -3.0,
-    "change_pct": -0.09,
-    "close": 3206.1,
-    "previous_close": 3209.1,
+    "as_of": "2026-09-28",
+    "change": 5.5,
+    "change_pct": 0.17,
+    "close": 3211.6,
+    "previous_close": 3206.1,
     "type": "EOD_CLOSE",
-    "volume": 23468
+    "volume": 35810
   },
   "range": {
-    "distance_from_high_pct": -32.16,
-    "distance_from_low_pct": 6.51,
+    "distance_from_high_pct": -32.04,
+    "distance_from_low_pct": 6.7,
     "high_52w": 4726.0,
     "history_basis": "52_WEEK",
     "low_52w": 3010.0,
-    "range_position_pct": 11.43
+    "range_position_pct": 11.75
   },
   "risk_model": {
-    "invalidation_floor": 3093.89,
-    "risk_per_share": 176.33,
-    "technical_pivot": 3270.22
+    "invalidation_floor": 3099.19,
+    "risk_per_share": 176.64,
+    "technical_pivot": 3275.83
   },
   "schema_version": "1.0",
   "sector": "Information Technology",

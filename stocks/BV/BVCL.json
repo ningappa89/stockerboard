@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 53.48,
-      "high": 54.65,
-      "low": 52.43,
-      "open": 53.62,
-      "time": "2025-09-18",
-      "volume": 45065
-    },
-    {
       "close": 52.01,
       "high": 53.7,
       "low": 51.53,
@@ -2017,13 +2009,21 @@
       "open": 41.99,
       "time": "2026-09-25",
       "volume": 12620
+    },
+    {
+      "close": 40.53,
+      "high": 41.92,
+      "low": 40.32,
+      "open": 41.16,
+      "time": "2026-09-28",
+      "volume": 11671
     }
   ],
   "company_name": "BARAK VALLEY CEMENTS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 49,
+    "momentum_score": 47,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.26x"
+    "volume_multiplier": "0.28x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.08,
-    "change_pct": 0.19,
-    "close": 41.26,
-    "previous_close": 41.18,
+    "as_of": "2026-09-28",
+    "change": -0.73,
+    "change_pct": -1.77,
+    "close": 40.53,
+    "previous_close": 41.26,
     "type": "EOD_CLOSE",
-    "volume": 12620
+    "volume": 11671
   },
   "range": {
-    "distance_from_high_pct": -26.99,
-    "distance_from_low_pct": 32.24,
+    "distance_from_high_pct": -28.28,
+    "distance_from_low_pct": 29.9,
     "high_52w": 56.51,
     "history_basis": "52_WEEK",
     "low_52w": 31.2,
-    "range_position_pct": 39.75
+    "range_position_pct": 36.86
   },
   "risk_model": {
-    "invalidation_floor": 39.82,
-    "risk_per_share": 2.27,
-    "technical_pivot": 42.09
+    "invalidation_floor": 39.11,
+    "risk_per_share": 2.23,
+    "technical_pivot": 41.34
   },
   "schema_version": "1.0",
   "sector": null,

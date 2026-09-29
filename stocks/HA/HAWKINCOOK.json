@@ -889,14 +889,22 @@
       "open": 8199.5,
       "time": "2026-09-25",
       "volume": 986
+    },
+    {
+      "close": 8082.5,
+      "high": 8148.0,
+      "low": 7940.5,
+      "open": 8074.5,
+      "time": "2026-09-28",
+      "volume": 31652
     }
   ],
   "company_name": "HAWKINS COOKERS LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE979B01015",
@@ -904,31 +912,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.56x"
+    "momentum_score": 66,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "9.5x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -16.0,
-    "change_pct": -0.2,
-    "close": 8047.5,
-    "previous_close": 8063.5,
+    "as_of": "2026-09-28",
+    "change": 35.0,
+    "change_pct": 0.43,
+    "close": 8082.5,
+    "previous_close": 8047.5,
     "type": "EOD_CLOSE",
-    "volume": 986
+    "volume": 31652
   },
   "range": {
-    "distance_from_high_pct": -16.17,
-    "distance_from_low_pct": 13.2,
+    "distance_from_high_pct": -15.81,
+    "distance_from_low_pct": 13.69,
     "high_52w": 9600.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 7109.0,
-    "range_position_pct": 37.68
+    "range_position_pct": 39.08
   },
   "risk_model": {
-    "invalidation_floor": 7765.84,
-    "risk_per_share": 442.61,
-    "technical_pivot": 8208.45
+    "invalidation_floor": 7799.61,
+    "risk_per_share": 444.54,
+    "technical_pivot": 8244.15
   },
   "schema_version": "1.0",
   "sector": null,

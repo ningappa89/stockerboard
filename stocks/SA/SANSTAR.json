@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 95.12,
-      "high": 97.85,
-      "low": 94.82,
-      "open": 95.9,
-      "time": "2025-09-18",
-      "volume": 534415
-    },
-    {
       "close": 95.2,
       "high": 96.73,
       "low": 95.0,
@@ -2017,13 +2009,21 @@
       "open": 108.9,
       "time": "2026-09-25",
       "volume": 55139
+    },
+    {
+      "close": 106.9,
+      "high": 110.0,
+      "low": 106.12,
+      "open": 108.74,
+      "time": "2026-09-28",
+      "volume": 176706
     }
   ],
   "company_name": "SANSTAR LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
+    "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.29x"
+    "volume_multiplier": "0.93x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.98,
-    "change_pct": -0.9,
-    "close": 108.42,
-    "previous_close": 109.4,
+    "as_of": "2026-09-28",
+    "change": -1.52,
+    "change_pct": -1.4,
+    "close": 106.9,
+    "previous_close": 108.42,
     "type": "EOD_CLOSE",
-    "volume": 55139
+    "volume": 176706
   },
   "range": {
-    "distance_from_high_pct": -21.14,
-    "distance_from_low_pct": 45.92,
+    "distance_from_high_pct": -22.25,
+    "distance_from_low_pct": 43.88,
     "high_52w": 137.49,
     "history_basis": "52_WEEK",
     "low_52w": 74.3,
-    "range_position_pct": 54.0
+    "range_position_pct": 51.59
   },
   "risk_model": {
-    "invalidation_floor": 104.63,
-    "risk_per_share": 5.96,
-    "technical_pivot": 110.59
+    "invalidation_floor": 103.16,
+    "risk_per_share": 5.88,
+    "technical_pivot": 109.04
   },
   "schema_version": "1.0",
   "sector": null,

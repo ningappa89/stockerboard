@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 820.25,
-      "high": 828.0,
-      "low": 818.15,
-      "open": 825.7,
-      "time": "2025-09-18",
-      "volume": 279168
-    },
-    {
       "close": 809.65,
       "high": 825.8,
       "low": 808.0,
@@ -2017,13 +2009,21 @@
       "open": 749.5,
       "time": "2026-09-25",
       "volume": 324562
+    },
+    {
+      "close": 756.9,
+      "high": 799.0,
+      "low": 741.0,
+      "open": 749.45,
+      "time": "2026-09-28",
+      "volume": 403447
     }
   ],
   "company_name": "CHOICE INTERNATIONAL LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 70,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.83x"
+    "volume_multiplier": "1.03x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.55,
-    "change_pct": 0.21,
-    "close": 751.05,
-    "previous_close": 749.5,
+    "as_of": "2026-09-28",
+    "change": 5.85,
+    "change_pct": 0.78,
+    "close": 756.9,
+    "previous_close": 751.05,
     "type": "EOD_CLOSE",
-    "volume": 324562
+    "volume": 403447
   },
   "range": {
-    "distance_from_high_pct": -12.72,
-    "distance_from_low_pct": 32.06,
+    "distance_from_high_pct": -12.04,
+    "distance_from_low_pct": 33.09,
     "high_52w": 860.5,
     "history_basis": "52_WEEK",
     "low_52w": 568.7,
-    "range_position_pct": 62.49
+    "range_position_pct": 64.5
   },
   "risk_model": {
-    "invalidation_floor": 724.76,
-    "risk_per_share": 41.31,
-    "technical_pivot": 766.07
+    "invalidation_floor": 730.41,
+    "risk_per_share": 41.63,
+    "technical_pivot": 772.04
   },
   "schema_version": "1.0",
   "sector": null,

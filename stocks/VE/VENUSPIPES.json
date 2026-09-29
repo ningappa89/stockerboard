@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1361.3,
-      "high": 1385.0,
-      "low": 1355.1,
-      "open": 1377.8,
-      "time": "2025-09-18",
-      "volume": 28996
-    },
-    {
       "close": 1396.2,
       "high": 1404.0,
       "low": 1361.3,
@@ -2017,13 +2009,21 @@
       "open": 2215.8,
       "time": "2026-09-25",
       "volume": 148235
+    },
+    {
+      "close": 2132.6,
+      "high": 2249.0,
+      "low": 2090.0,
+      "open": 2166.5,
+      "time": "2026-09-28",
+      "volume": 261075
     }
   ],
   "company_name": "Venus Pipes & Tubes Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 78,
+    "momentum_score": 76,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.42x"
+    "volume_multiplier": "0.73x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -43.1,
-    "change_pct": -1.95,
-    "close": 2163.2,
-    "previous_close": 2206.3,
+    "as_of": "2026-09-28",
+    "change": -30.6,
+    "change_pct": -1.41,
+    "close": 2132.6,
+    "previous_close": 2163.2,
     "type": "EOD_CLOSE",
-    "volume": 148235
+    "volume": 261075
   },
   "range": {
-    "distance_from_high_pct": -7.87,
-    "distance_from_low_pct": 143.06,
+    "distance_from_high_pct": -9.17,
+    "distance_from_low_pct": 139.62,
     "high_52w": 2347.9,
     "history_basis": "52_WEEK",
     "low_52w": 890.0,
-    "range_position_pct": 87.33
+    "range_position_pct": 85.23
   },
   "risk_model": {
-    "invalidation_floor": 2087.49,
-    "risk_per_share": 118.97,
-    "technical_pivot": 2206.46
+    "invalidation_floor": 2057.96,
+    "risk_per_share": 117.29,
+    "technical_pivot": 2175.25
   },
   "schema_version": "1.0",
   "sector": null,

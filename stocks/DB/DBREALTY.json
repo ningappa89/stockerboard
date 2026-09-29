@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 167.45,
-      "high": 171.7,
-      "low": 167.0,
-      "open": 171.35,
-      "time": "2025-09-18",
-      "volume": 635495
-    },
-    {
       "close": 175.37,
       "high": 176.5,
       "low": 167.11,
@@ -2017,13 +2009,21 @@
       "open": 100.99,
       "time": "2026-09-25",
       "volume": 667369
+    },
+    {
+      "close": 96.28,
+      "high": 99.49,
+      "low": 95.08,
+      "open": 98.16,
+      "time": "2026-09-28",
+      "volume": 397975
     }
   ],
   "company_name": "VALOR ESTATE LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.51x"
+    "volume_multiplier": "0.31x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.14,
-    "change_pct": -0.14,
-    "close": 100.08,
-    "previous_close": 100.22,
+    "as_of": "2026-09-28",
+    "change": -3.8,
+    "change_pct": -3.8,
+    "close": 96.28,
+    "previous_close": 100.08,
     "type": "EOD_CLOSE",
-    "volume": 667369
+    "volume": 397975
   },
   "range": {
-    "distance_from_high_pct": -45.58,
-    "distance_from_low_pct": 19.86,
+    "distance_from_high_pct": -47.65,
+    "distance_from_low_pct": 15.31,
     "high_52w": 183.9,
     "history_basis": "52_WEEK",
     "low_52w": 83.5,
-    "range_position_pct": 16.51
+    "range_position_pct": 12.73
   },
   "risk_model": {
-    "invalidation_floor": 96.58,
-    "risk_per_share": 5.5,
-    "technical_pivot": 102.08
+    "invalidation_floor": 92.91,
+    "risk_per_share": 5.3,
+    "technical_pivot": 98.21
   },
   "schema_version": "1.0",
   "sector": null,

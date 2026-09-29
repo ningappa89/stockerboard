@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 709.3,
-      "high": 719.25,
-      "low": 707.0,
-      "open": 716.0,
-      "time": "2025-09-18",
-      "volume": 89395
-    },
-    {
       "close": 673.85,
       "high": 715.0,
       "low": 656.0,
@@ -2017,13 +2009,21 @@
       "open": 630.35,
       "time": "2026-09-25",
       "volume": 372268
+    },
+    {
+      "close": 654.8,
+      "high": 673.5,
+      "low": 646.45,
+      "open": 664.0,
+      "time": "2026-09-28",
+      "volume": 658767
     }
   ],
   "company_name": "JUBILANT INGREVIA LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 63,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.26x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.04x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 20.75,
-    "change_pct": 3.27,
-    "close": 656.1,
-    "previous_close": 635.35,
+    "as_of": "2026-09-28",
+    "change": -1.3,
+    "change_pct": -0.2,
+    "close": 654.8,
+    "previous_close": 656.1,
     "type": "EOD_CLOSE",
-    "volume": 372268
+    "volume": 658767
   },
   "range": {
-    "distance_from_high_pct": -17.47,
-    "distance_from_low_pct": 22.11,
+    "distance_from_high_pct": -17.64,
+    "distance_from_low_pct": 21.87,
     "high_52w": 795.0,
     "history_basis": "52_WEEK",
     "low_52w": 537.3,
-    "range_position_pct": 46.1
+    "range_position_pct": 45.6
   },
   "risk_model": {
-    "invalidation_floor": 633.14,
-    "risk_per_share": 36.08,
-    "technical_pivot": 669.22
+    "invalidation_floor": 631.88,
+    "risk_per_share": 36.02,
+    "technical_pivot": 667.9
   },
   "schema_version": "1.0",
   "sector": null,

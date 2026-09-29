@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 218.93,
-      "high": 220.29,
-      "low": 215.0,
-      "open": 217.09,
-      "time": "2025-09-18",
-      "volume": 1579384
-    },
-    {
       "close": 217.18,
       "high": 218.93,
       "low": 215.37,
@@ -2017,13 +2009,21 @@
       "open": 325.0,
       "time": "2026-09-25",
       "volume": 1233878
+    },
+    {
+      "close": 320.75,
+      "high": 327.0,
+      "low": 320.1,
+      "open": 326.45,
+      "time": "2026-09-28",
+      "volume": 850213
     }
   ],
   "company_name": "KARUR VYSYA BANK LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 77,
+    "momentum_score": 74,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.79x"
+    "volume_multiplier": "0.56x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.95,
-    "change_pct": 0.91,
-    "close": 327.95,
-    "previous_close": 325.0,
+    "as_of": "2026-09-28",
+    "change": -7.2,
+    "change_pct": -2.2,
+    "close": 320.75,
+    "previous_close": 327.95,
     "type": "EOD_CLOSE",
-    "volume": 1233878
+    "volume": 850213
   },
   "range": {
-    "distance_from_high_pct": -8.56,
-    "distance_from_low_pct": 60.13,
+    "distance_from_high_pct": -10.57,
+    "distance_from_low_pct": 56.62,
     "high_52w": 358.65,
     "history_basis": "52_WEEK",
     "low_52w": 204.8,
-    "range_position_pct": 80.05
+    "range_position_pct": 75.37
   },
   "risk_model": {
-    "invalidation_floor": 316.47,
-    "risk_per_share": 18.04,
-    "technical_pivot": 334.51
+    "invalidation_floor": 309.52,
+    "risk_per_share": 17.65,
+    "technical_pivot": 327.17
   },
   "schema_version": "1.0",
   "sector": null,

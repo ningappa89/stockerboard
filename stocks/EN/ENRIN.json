@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3474.8,
-      "high": 3540.0,
-      "low": 3468.7,
-      "open": 3509.9,
-      "time": "2025-09-18",
-      "volume": 435534
-    },
-    {
       "close": 3435.6,
       "high": 3475.1,
       "low": 3411.0,
@@ -2017,13 +2009,21 @@
       "open": 3224.0,
       "time": "2026-09-25",
       "volume": 462792
+    },
+    {
+      "close": 3189.0,
+      "high": 3334.9,
+      "low": 3168.8,
+      "open": 3333.0,
+      "time": "2026-09-28",
+      "volume": 306877
     }
   ],
   "company_name": "SIEMENS ENERGY INDIA LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.23x"
+    "volume_multiplier": "0.81x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 97.6,
-    "change_pct": 3.04,
-    "close": 3313.0,
-    "previous_close": 3215.4,
+    "as_of": "2026-09-28",
+    "change": -124.0,
+    "change_pct": -3.74,
+    "close": 3189.0,
+    "previous_close": 3313.0,
     "type": "EOD_CLOSE",
-    "volume": 462792
+    "volume": 306877
   },
   "range": {
-    "distance_from_high_pct": -16.51,
-    "distance_from_low_pct": 56.64,
+    "distance_from_high_pct": -19.63,
+    "distance_from_low_pct": 50.78,
     "high_52w": 3968.0,
     "history_basis": "52_WEEK",
     "low_52w": 2115.0,
-    "range_position_pct": 64.65
+    "range_position_pct": 57.96
   },
   "risk_model": {
-    "invalidation_floor": 3197.05,
-    "risk_per_share": 182.21,
-    "technical_pivot": 3379.26
+    "invalidation_floor": 3077.38,
+    "risk_per_share": 175.4,
+    "technical_pivot": 3252.78
   },
   "schema_version": "1.0",
   "sector": null,

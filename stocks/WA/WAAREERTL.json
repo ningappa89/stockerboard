@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1094.4,
-      "high": 1132.3,
-      "low": 1092.0,
-      "open": 1129.9,
-      "time": "2025-09-18",
-      "volume": 264506
-    },
-    {
       "close": 1091.6,
       "high": 1099.9,
       "low": 1075.8,
@@ -2017,13 +2009,21 @@
       "open": 830.0,
       "time": "2026-09-25",
       "volume": 77627
+    },
+    {
+      "close": 826.05,
+      "high": 835.0,
+      "low": 822.95,
+      "open": 833.3,
+      "time": "2026-09-28",
+      "volume": 81752
     }
   ],
   "company_name": "WAAREE RENEWABLE TECHNOLOGIES ",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "0.66x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.6,
-    "change_pct": 0.07,
-    "close": 832.9,
-    "previous_close": 832.3,
+    "as_of": "2026-09-28",
+    "change": -6.85,
+    "change_pct": -0.82,
+    "close": 826.05,
+    "previous_close": 832.9,
     "type": "EOD_CLOSE",
-    "volume": 77627
+    "volume": 81752
   },
   "range": {
-    "distance_from_high_pct": -38.67,
-    "distance_from_low_pct": 6.85,
+    "distance_from_high_pct": -39.17,
+    "distance_from_low_pct": 5.97,
     "high_52w": 1358.0,
     "history_basis": "52_WEEK",
     "low_52w": 779.5,
-    "range_position_pct": 9.23
+    "range_position_pct": 8.05
   },
   "risk_model": {
-    "invalidation_floor": 803.75,
-    "risk_per_share": 45.81,
-    "technical_pivot": 849.56
+    "invalidation_floor": 797.14,
+    "risk_per_share": 45.43,
+    "technical_pivot": 842.57
   },
   "schema_version": "1.0",
   "sector": null,

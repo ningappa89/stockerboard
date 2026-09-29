@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 602.1,
-      "high": 614.0,
-      "low": 598.05,
-      "open": 607.0,
-      "time": "2025-09-18",
-      "volume": 263729
-    },
-    {
       "close": 579.6,
       "high": 605.55,
       "low": 576.9,
@@ -2017,13 +2009,21 @@
       "open": 390.0,
       "time": "2026-09-25",
       "volume": 2020121
+    },
+    {
+      "close": 388.75,
+      "high": 390.05,
+      "low": 379.95,
+      "open": 388.0,
+      "time": "2026-09-28",
+      "volume": 2032711
     }
   ],
   "company_name": "EMAMI LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Fast Moving Consumer Goods",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.78x"
+    "volume_multiplier": "0.77x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.25,
-    "change_pct": -0.32,
-    "close": 389.25,
-    "previous_close": 390.5,
+    "as_of": "2026-09-28",
+    "change": -0.5,
+    "change_pct": -0.13,
+    "close": 388.75,
+    "previous_close": 389.25,
     "type": "EOD_CLOSE",
-    "volume": 2020121
+    "volume": 2032711
   },
   "range": {
-    "distance_from_high_pct": -36.6,
-    "distance_from_low_pct": 7.78,
-    "high_52w": 614.0,
+    "distance_from_high_pct": -35.8,
+    "distance_from_low_pct": 7.64,
+    "high_52w": 605.55,
     "history_basis": "52_WEEK",
     "low_52w": 361.15,
-    "range_position_pct": 11.11
+    "range_position_pct": 11.29
   },
   "risk_model": {
-    "invalidation_floor": 375.63,
-    "risk_per_share": 21.41,
-    "technical_pivot": 397.04
+    "invalidation_floor": 375.14,
+    "risk_per_share": 21.39,
+    "technical_pivot": 396.53
   },
   "schema_version": "1.0",
   "sector": "Fast Moving Consumer Goods",

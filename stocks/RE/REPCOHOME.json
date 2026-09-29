@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 373.65,
-      "high": 387.45,
-      "low": 372.5,
-      "open": 384.1,
-      "time": "2025-09-18",
-      "volume": 258937
-    },
-    {
       "close": 376.5,
       "high": 380.3,
       "low": 374.0,
@@ -2017,13 +2009,21 @@
       "open": 352.0,
       "time": "2026-09-25",
       "volume": 66626
+    },
+    {
+      "close": 346.75,
+      "high": 348.8,
+      "low": 340.0,
+      "open": 345.0,
+      "time": "2026-09-28",
+      "volume": 82568
     }
   ],
   "company_name": "REPCO HOME FINANCE LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 54,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.85x"
+    "volume_multiplier": "1.05x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -4.75,
-    "change_pct": -1.35,
-    "close": 347.7,
-    "previous_close": 352.45,
+    "as_of": "2026-09-28",
+    "change": -0.95,
+    "change_pct": -0.27,
+    "close": 346.75,
+    "previous_close": 347.7,
     "type": "EOD_CLOSE",
-    "volume": 66626
+    "volume": 82568
   },
   "range": {
-    "distance_from_high_pct": -23.73,
-    "distance_from_low_pct": 4.23,
+    "distance_from_high_pct": -23.94,
+    "distance_from_low_pct": 3.94,
     "high_52w": 455.9,
     "history_basis": "52_WEEK",
     "low_52w": 333.6,
-    "range_position_pct": 11.53
+    "range_position_pct": 10.75
   },
   "risk_model": {
-    "invalidation_floor": 335.53,
-    "risk_per_share": 19.12,
-    "technical_pivot": 354.65
+    "invalidation_floor": 334.61,
+    "risk_per_share": 19.08,
+    "technical_pivot": 353.69
   },
   "schema_version": "1.0",
   "sector": null,

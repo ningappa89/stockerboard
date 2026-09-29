@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 452.7,
-      "high": 457.3,
-      "low": 444.85,
-      "open": 447.4,
-      "time": "2025-09-18",
-      "volume": 303273
-    },
-    {
       "close": 450.05,
       "high": 453.65,
       "low": 445.25,
@@ -2017,13 +2009,21 @@
       "open": 285.35,
       "time": "2026-09-25",
       "volume": 79920
+    },
+    {
+      "close": 276.75,
+      "high": 282.15,
+      "low": 275.1,
+      "open": 281.0,
+      "time": "2026-09-28",
+      "volume": 163885
     }
   ],
   "company_name": "SUNTECK REALTY LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.72x"
+    "volume_multiplier": "1.43x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.05,
-    "change_pct": -0.37,
-    "close": 283.0,
-    "previous_close": 284.05,
+    "as_of": "2026-09-28",
+    "change": -6.25,
+    "change_pct": -2.21,
+    "close": 276.75,
+    "previous_close": 283.0,
     "type": "EOD_CLOSE",
-    "volume": 79920
+    "volume": 163885
   },
   "range": {
-    "distance_from_high_pct": -40.11,
-    "distance_from_low_pct": 4.52,
+    "distance_from_high_pct": -41.43,
+    "distance_from_low_pct": 2.22,
     "high_52w": 472.5,
     "history_basis": "52_WEEK",
     "low_52w": 270.75,
-    "range_position_pct": 6.07
+    "range_position_pct": 2.97
   },
   "risk_model": {
-    "invalidation_floor": 273.09,
-    "risk_per_share": 15.57,
-    "technical_pivot": 288.66
+    "invalidation_floor": 267.06,
+    "risk_per_share": 15.23,
+    "technical_pivot": 282.29
   },
   "schema_version": "1.0",
   "sector": null,

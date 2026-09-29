@@ -1953,46 +1953,54 @@
       "open": 372.45,
       "time": "2026-09-25",
       "volume": 468659
+    },
+    {
+      "close": 370.35,
+      "high": 381.15,
+      "low": 365.05,
+      "open": 377.0,
+      "time": "2026-09-28",
+      "volume": 99818
     }
   ],
   "company_name": "Seshaasai Technologies Limited",
   "history": {
     "first_session": "2025-09-30",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 244
+    "last_session": "2026-09-28",
+    "sessions_available": 245
   },
   "industry": null,
   "isin": "INE04VU01023",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "3.66x"
+    "is_stage2": false,
+    "momentum_score": 66,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.79x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 11.5,
-    "change_pct": 3.11,
-    "close": 381.85,
-    "previous_close": 370.35,
+    "as_of": "2026-09-28",
+    "change": -11.5,
+    "change_pct": -3.01,
+    "close": 370.35,
+    "previous_close": 381.85,
     "type": "EOD_CLOSE",
-    "volume": 468659
+    "volume": 99818
   },
   "range": {
-    "distance_from_high_pct": -12.71,
-    "distance_from_low_pct": 82.61,
+    "distance_from_high_pct": -15.34,
+    "distance_from_low_pct": 77.11,
     "high_52w": 437.45,
     "history_basis": "52_WEEK",
     "low_52w": 209.11,
-    "range_position_pct": 75.65
+    "range_position_pct": 70.61
   },
   "risk_model": {
-    "invalidation_floor": 368.49,
-    "risk_per_share": 21.0,
-    "technical_pivot": 389.49
+    "invalidation_floor": 357.39,
+    "risk_per_share": 20.37,
+    "technical_pivot": 377.76
   },
   "schema_version": "1.0",
   "sector": null,

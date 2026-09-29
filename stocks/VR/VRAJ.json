@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 154.35,
-      "high": 155.5,
-      "low": 153.05,
-      "open": 154.89,
-      "time": "2025-09-18",
-      "volume": 32347
-    },
-    {
       "close": 154.83,
       "high": 156.97,
       "low": 153.05,
@@ -2017,13 +2009,21 @@
       "open": 127.28,
       "time": "2026-09-25",
       "volume": 9380
+    },
+    {
+      "close": 124.66,
+      "high": 129.0,
+      "low": 123.61,
+      "open": 127.0,
+      "time": "2026-09-28",
+      "volume": 15278
     }
   ],
   "company_name": "VRAJ IRON AND STEEL LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
+    "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.55x"
+    "volume_multiplier": "0.91x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.05,
-    "change_pct": 0.04,
-    "close": 126.24,
-    "previous_close": 126.19,
+    "as_of": "2026-09-28",
+    "change": -1.58,
+    "change_pct": -1.25,
+    "close": 124.66,
+    "previous_close": 126.24,
     "type": "EOD_CLOSE",
-    "volume": 9380
+    "volume": 15278
   },
   "range": {
-    "distance_from_high_pct": -21.1,
-    "distance_from_low_pct": 35.74,
+    "distance_from_high_pct": -22.08,
+    "distance_from_low_pct": 34.04,
     "high_52w": 159.99,
     "history_basis": "52_WEEK",
     "low_52w": 93.0,
-    "range_position_pct": 49.62
+    "range_position_pct": 47.26
   },
   "risk_model": {
-    "invalidation_floor": 121.82,
-    "risk_per_share": 6.94,
-    "technical_pivot": 128.76
+    "invalidation_floor": 120.3,
+    "risk_per_share": 6.85,
+    "technical_pivot": 127.15
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 797.55,
-      "high": 810.0,
-      "low": 778.65,
-      "open": 806.75,
-      "time": "2025-09-18",
-      "volume": 124907
-    },
-    {
       "close": 783.75,
       "high": 804.0,
       "low": 781.0,
@@ -2017,13 +2009,21 @@
       "open": 802.6,
       "time": "2026-09-25",
       "volume": 46119
+    },
+    {
+      "close": 779.1,
+      "high": 806.65,
+      "low": 775.0,
+      "open": 806.65,
+      "time": "2026-09-28",
+      "volume": 74336
     }
   ],
   "company_name": "PSP Projects Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 45,
+    "momentum_score": 42,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.89x"
+    "volume_multiplier": "1.38x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 4.05,
-    "change_pct": 0.5,
-    "close": 806.65,
-    "previous_close": 802.6,
+    "as_of": "2026-09-28",
+    "change": -27.55,
+    "change_pct": -3.42,
+    "close": 779.1,
+    "previous_close": 806.65,
     "type": "EOD_CLOSE",
-    "volume": 46119
+    "volume": 74336
   },
   "range": {
-    "distance_from_high_pct": -29.43,
-    "distance_from_low_pct": 41.72,
+    "distance_from_high_pct": -31.84,
+    "distance_from_low_pct": 36.88,
     "high_52w": 1143.0,
     "history_basis": "52_WEEK",
     "low_52w": 569.2,
-    "range_position_pct": 41.38
+    "range_position_pct": 36.58
   },
   "risk_model": {
-    "invalidation_floor": 778.42,
-    "risk_per_share": 44.36,
-    "technical_pivot": 822.78
+    "invalidation_floor": 751.83,
+    "risk_per_share": 42.85,
+    "technical_pivot": 794.68
   },
   "schema_version": "1.0",
   "sector": null,

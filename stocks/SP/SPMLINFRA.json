@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 276.1,
-      "high": 281.4,
-      "low": 269.4,
-      "open": 269.4,
-      "time": "2025-09-18",
-      "volume": 451350
-    },
-    {
       "close": 282.35,
       "high": 288.1,
       "low": 277.5,
@@ -2017,13 +2009,21 @@
       "open": 166.2,
       "time": "2026-09-25",
       "volume": 505854
+    },
+    {
+      "close": 161.42,
+      "high": 165.44,
+      "low": 160.23,
+      "open": 163.0,
+      "time": "2026-09-28",
+      "volume": 114032
     }
   ],
   "company_name": "SPML INFRA LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.67x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.61x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.5,
-    "change_pct": 0.3,
-    "close": 165.86,
-    "previous_close": 165.36,
+    "as_of": "2026-09-28",
+    "change": -4.44,
+    "change_pct": -2.68,
+    "close": 161.42,
+    "previous_close": 165.86,
     "type": "EOD_CLOSE",
-    "volume": 505854
+    "volume": 114032
   },
   "range": {
-    "distance_from_high_pct": -42.43,
-    "distance_from_low_pct": 9.83,
+    "distance_from_high_pct": -43.97,
+    "distance_from_low_pct": 6.89,
     "high_52w": 288.1,
     "history_basis": "52_WEEK",
     "low_52w": 151.01,
-    "range_position_pct": 10.83
+    "range_position_pct": 7.59
   },
   "risk_model": {
-    "invalidation_floor": 160.05,
-    "risk_per_share": 9.13,
-    "technical_pivot": 169.18
+    "invalidation_floor": 155.77,
+    "risk_per_share": 8.88,
+    "technical_pivot": 164.65
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 82.09,
-      "high": 82.9,
-      "low": 81.8,
-      "open": 82.74,
-      "time": "2025-09-18",
-      "volume": 1023919
-    },
-    {
       "close": 82.39,
       "high": 82.71,
       "low": 82.0,
@@ -2017,13 +2009,21 @@
       "open": 76.74,
       "time": "2026-09-25",
       "volume": 1111284
+    },
+    {
+      "close": 75.73,
+      "high": 77.57,
+      "low": 74.72,
+      "open": 77.4,
+      "time": "2026-09-28",
+      "volume": 863602
     }
   ],
   "company_name": "NIVA BUPA HEALTH INSURANCE COM",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.5x"
+    "volume_multiplier": "1.13x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.06,
-    "change_pct": 1.39,
-    "close": 77.19,
-    "previous_close": 76.13,
+    "as_of": "2026-09-28",
+    "change": -1.46,
+    "change_pct": -1.89,
+    "close": 75.73,
+    "previous_close": 77.19,
     "type": "EOD_CLOSE",
-    "volume": 1111284
+    "volume": 863602
   },
   "range": {
-    "distance_from_high_pct": -15.55,
-    "distance_from_low_pct": 14.36,
+    "distance_from_high_pct": -17.14,
+    "distance_from_low_pct": 12.19,
     "high_52w": 91.4,
     "history_basis": "52_WEEK",
     "low_52w": 67.5,
-    "range_position_pct": 40.54
+    "range_position_pct": 34.44
   },
   "risk_model": {
-    "invalidation_floor": 74.49,
-    "risk_per_share": 4.24,
-    "technical_pivot": 78.73
+    "invalidation_floor": 73.08,
+    "risk_per_share": 4.16,
+    "technical_pivot": 77.24
   },
   "schema_version": "1.0",
   "sector": null,

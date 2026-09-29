@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 581.0,
-      "high": 584.25,
-      "low": 576.5,
-      "open": 583.9,
-      "time": "2025-09-18",
-      "volume": 2063929
-    },
-    {
       "close": 582.45,
       "high": 588.5,
       "low": 578.2,
@@ -2017,13 +2009,21 @@
       "open": 382.2,
       "time": "2026-09-25",
       "volume": 1180134
+    },
+    {
+      "close": 374.35,
+      "high": 383.8,
+      "low": 374.0,
+      "open": 383.8,
+      "time": "2026-09-28",
+      "volume": 1653664
     }
   ],
   "company_name": "AMBUJA CEMENTS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.93x"
+    "volume_multiplier": "1.32x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.3,
-    "change_pct": -0.08,
-    "close": 383.8,
-    "previous_close": 384.1,
+    "as_of": "2026-09-28",
+    "change": -9.45,
+    "change_pct": -2.46,
+    "close": 374.35,
+    "previous_close": 383.8,
     "type": "EOD_CLOSE",
-    "volume": 1180134
+    "volume": 1653664
   },
   "range": {
-    "distance_from_high_pct": -36.12,
-    "distance_from_low_pct": 1.12,
+    "distance_from_high_pct": -37.69,
+    "distance_from_low_pct": 0.09,
     "high_52w": 600.8,
     "history_basis": "52_WEEK",
-    "low_52w": 379.55,
-    "range_position_pct": 1.92
+    "low_52w": 374.0,
+    "range_position_pct": 0.15
   },
   "risk_model": {
-    "invalidation_floor": 370.37,
-    "risk_per_share": 21.11,
-    "technical_pivot": 391.48
+    "invalidation_floor": 361.25,
+    "risk_per_share": 20.59,
+    "technical_pivot": 381.84
   },
   "schema_version": "1.0",
   "sector": null,

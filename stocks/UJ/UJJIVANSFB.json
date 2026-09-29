@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 45.51,
-      "high": 46.33,
-      "low": 45.34,
-      "open": 45.94,
-      "time": "2025-09-18",
-      "volume": 7655996
-    },
-    {
       "close": 45.79,
       "high": 46.16,
       "low": 45.36,
@@ -2017,13 +2009,21 @@
       "open": 63.29,
       "time": "2026-09-25",
       "volume": 13378426
+    },
+    {
+      "close": 63.09,
+      "high": 64.97,
+      "low": 63.0,
+      "open": 64.81,
+      "time": "2026-09-28",
+      "volume": 15764038
     }
   ],
   "company_name": "Ujjivan Small Finance Bank Lim",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 71,
+    "is_stage2": false,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.02x"
+    "volume_multiplier": "1.16x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.02,
-    "change_pct": 3.22,
-    "close": 64.71,
-    "previous_close": 62.69,
+    "as_of": "2026-09-28",
+    "change": -1.62,
+    "change_pct": -2.5,
+    "close": 63.09,
+    "previous_close": 64.71,
     "type": "EOD_CLOSE",
-    "volume": 13378426
+    "volume": 15764038
   },
   "range": {
-    "distance_from_high_pct": -12.48,
-    "distance_from_low_pct": 47.57,
+    "distance_from_high_pct": -14.67,
+    "distance_from_low_pct": 43.88,
     "high_52w": 73.94,
     "history_basis": "52_WEEK",
     "low_52w": 43.85,
-    "range_position_pct": 69.33
+    "range_position_pct": 63.94
   },
   "risk_model": {
-    "invalidation_floor": 62.45,
-    "risk_per_share": 3.55,
-    "technical_pivot": 66.0
+    "invalidation_floor": 60.88,
+    "risk_per_share": 3.47,
+    "technical_pivot": 64.35
   },
   "schema_version": "1.0",
   "sector": null,

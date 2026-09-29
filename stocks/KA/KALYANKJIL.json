@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 515.0,
-      "high": 525.75,
-      "low": 512.0,
-      "open": 525.3,
-      "time": "2025-09-18",
-      "volume": 2750835
-    },
-    {
       "close": 511.4,
       "high": 517.5,
       "low": 510.75,
@@ -2017,13 +2009,21 @@
       "open": 574.6,
       "time": "2026-09-25",
       "volume": 2831344
+    },
+    {
+      "close": 564.0,
+      "high": 573.75,
+      "low": 559.25,
+      "open": 573.0,
+      "time": "2026-09-28",
+      "volume": 2660336
     }
   ],
   "company_name": "Kalyan Jewellers India Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Consumer Durables",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 72,
+    "momentum_score": 70,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.4x"
+    "volume_multiplier": "0.39x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.6,
-    "change_pct": -0.1,
-    "close": 573.0,
-    "previous_close": 573.6,
+    "as_of": "2026-09-28",
+    "change": -9.0,
+    "change_pct": -1.57,
+    "close": 564.0,
+    "previous_close": 573.0,
     "type": "EOD_CLOSE",
-    "volume": 2831344
+    "volume": 2660336
   },
   "range": {
-    "distance_from_high_pct": -11.7,
-    "distance_from_low_pct": 75.2,
+    "distance_from_high_pct": -13.09,
+    "distance_from_low_pct": 72.45,
     "high_52w": 648.95,
     "history_basis": "52_WEEK",
     "low_52w": 327.05,
-    "range_position_pct": 76.41
+    "range_position_pct": 73.61
   },
   "risk_model": {
-    "invalidation_floor": 552.94,
-    "risk_per_share": 31.52,
-    "technical_pivot": 584.46
+    "invalidation_floor": 544.26,
+    "risk_per_share": 31.02,
+    "technical_pivot": 575.28
   },
   "schema_version": "1.0",
   "sector": "Consumer Durables",

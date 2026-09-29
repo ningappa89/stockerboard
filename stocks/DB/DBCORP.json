@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 280.0,
-      "high": 283.7,
-      "low": 278.0,
-      "open": 279.25,
-      "time": "2025-09-18",
-      "volume": 43572
-    },
-    {
       "close": 277.25,
       "high": 281.8,
       "low": 275.4,
@@ -2017,13 +2009,21 @@
       "open": 180.31,
       "time": "2026-09-25",
       "volume": 40295
+    },
+    {
+      "close": 178.55,
+      "high": 182.61,
+      "low": 178.01,
+      "open": 182.61,
+      "time": "2026-09-28",
+      "volume": 41285
     }
   ],
   "company_name": "D B CORP LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Media Entertainment & Publication",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.62x"
+    "volume_multiplier": "0.64x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.4,
-    "change_pct": 0.78,
-    "close": 181.71,
-    "previous_close": 180.31,
+    "as_of": "2026-09-28",
+    "change": -3.16,
+    "change_pct": -1.74,
+    "close": 178.55,
+    "previous_close": 181.71,
     "type": "EOD_CLOSE",
-    "volume": 40295
+    "volume": 41285
   },
   "range": {
-    "distance_from_high_pct": -35.95,
-    "distance_from_low_pct": 2.03,
-    "high_52w": 283.7,
+    "distance_from_high_pct": -36.64,
+    "distance_from_low_pct": 0.3,
+    "high_52w": 281.8,
     "history_basis": "52_WEEK",
-    "low_52w": 178.1,
-    "range_position_pct": 3.42
+    "low_52w": 178.01,
+    "range_position_pct": 0.52
   },
   "risk_model": {
-    "invalidation_floor": 175.35,
-    "risk_per_share": 9.99,
-    "technical_pivot": 185.34
+    "invalidation_floor": 172.3,
+    "risk_per_share": 9.82,
+    "technical_pivot": 182.12
   },
   "schema_version": "1.0",
   "sector": "Media Entertainment & Publication",

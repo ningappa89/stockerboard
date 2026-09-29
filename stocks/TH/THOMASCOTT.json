@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 361.55,
-      "high": 367.95,
-      "low": 349.95,
-      "open": 358.9,
-      "time": "2025-09-18",
-      "volume": 81921
-    },
-    {
       "close": 369.5,
       "high": 379.6,
       "low": 351.75,
@@ -2017,13 +2009,21 @@
       "open": 235.05,
       "time": "2026-09-25",
       "volume": 160337
+    },
+    {
+      "close": 238.35,
+      "high": 245.0,
+      "low": 235.55,
+      "open": 242.2,
+      "time": "2026-09-28",
+      "volume": 59885
     }
   ],
   "company_name": "THOMAS SCOTT (INDIA) LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.72x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.01x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 13.65,
-    "change_pct": 5.81,
-    "close": 248.65,
-    "previous_close": 235.0,
+    "as_of": "2026-09-28",
+    "change": -10.3,
+    "change_pct": -4.14,
+    "close": 238.35,
+    "previous_close": 248.65,
     "type": "EOD_CLOSE",
-    "volume": 160337
+    "volume": 59885
   },
   "range": {
-    "distance_from_high_pct": -45.92,
-    "distance_from_low_pct": 12.11,
+    "distance_from_high_pct": -48.16,
+    "distance_from_low_pct": 7.46,
     "high_52w": 459.8,
     "history_basis": "52_WEEK",
     "low_52w": 221.8,
-    "range_position_pct": 11.28
+    "range_position_pct": 6.95
   },
   "risk_model": {
-    "invalidation_floor": 239.95,
-    "risk_per_share": 13.67,
-    "technical_pivot": 253.62
+    "invalidation_floor": 230.01,
+    "risk_per_share": 13.11,
+    "technical_pivot": 243.12
   },
   "schema_version": "1.0",
   "sector": null,

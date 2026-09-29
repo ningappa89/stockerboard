@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 16.2,
-      "high": 16.8,
-      "low": 16.0,
-      "open": 16.8,
-      "time": "2025-09-18",
-      "volume": 1132
-    },
-    {
       "close": 16.49,
       "high": 17.01,
       "low": 15.75,
@@ -2017,13 +2009,21 @@
       "open": 12.2,
       "time": "2026-09-25",
       "volume": 3661
+    },
+    {
+      "close": 11.67,
+      "high": 12.0,
+      "low": 11.65,
+      "open": 11.75,
+      "time": "2026-09-28",
+      "volume": 754
     }
   ],
   "company_name": "TRANSWARRANTY FINANCE LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.47x"
+    "volume_multiplier": "0.1x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.03,
-    "change_pct": 0.26,
-    "close": 11.76,
-    "previous_close": 11.73,
+    "as_of": "2026-09-28",
+    "change": -0.09,
+    "change_pct": -0.77,
+    "close": 11.67,
+    "previous_close": 11.76,
     "type": "EOD_CLOSE",
-    "volume": 3661
+    "volume": 754
   },
   "range": {
-    "distance_from_high_pct": -36.43,
-    "distance_from_low_pct": 15.18,
+    "distance_from_high_pct": -36.92,
+    "distance_from_low_pct": 14.3,
     "high_52w": 18.5,
     "history_basis": "52_WEEK",
     "low_52w": 10.21,
-    "range_position_pct": 18.7
+    "range_position_pct": 17.61
   },
   "risk_model": {
-    "invalidation_floor": 11.35,
-    "risk_per_share": 0.65,
-    "technical_pivot": 12.0
+    "invalidation_floor": 11.26,
+    "risk_per_share": 0.64,
+    "technical_pivot": 11.9
   },
   "schema_version": "1.0",
   "sector": null,

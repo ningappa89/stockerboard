@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2304.7,
-      "high": 2326.6,
-      "low": 2276.6,
-      "open": 2315.0,
-      "time": "2025-09-18",
-      "volume": 256269
-    },
-    {
       "close": 2261.5,
       "high": 2342.0,
       "low": 2215.2,
@@ -2017,13 +2009,21 @@
       "open": 1942.5,
       "time": "2026-09-25",
       "volume": 49460
+    },
+    {
+      "close": 1899.1,
+      "high": 1954.0,
+      "low": 1894.0,
+      "open": 1942.5,
+      "time": "2026-09-28",
+      "volume": 58461
     }
   ],
   "company_name": "COROMANDEL INTERNTL. LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Chemicals",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 57,
+    "momentum_score": 53,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.41x"
+    "volume_multiplier": "0.49x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 21.4,
-    "change_pct": 1.1,
-    "close": 1963.9,
-    "previous_close": 1942.5,
+    "as_of": "2026-09-28",
+    "change": -64.8,
+    "change_pct": -3.3,
+    "close": 1899.1,
+    "previous_close": 1963.9,
     "type": "EOD_CLOSE",
-    "volume": 49460
+    "volume": 58461
   },
   "range": {
-    "distance_from_high_pct": -21.41,
-    "distance_from_low_pct": 15.08,
+    "distance_from_high_pct": -24.01,
+    "distance_from_low_pct": 11.29,
     "high_52w": 2499.0,
     "history_basis": "52_WEEK",
     "low_52w": 1706.5,
-    "range_position_pct": 32.48
+    "range_position_pct": 24.3
   },
   "risk_model": {
-    "invalidation_floor": 1895.16,
-    "risk_per_share": 108.02,
-    "technical_pivot": 2003.18
+    "invalidation_floor": 1832.63,
+    "risk_per_share": 104.45,
+    "technical_pivot": 1937.08
   },
   "schema_version": "1.0",
   "sector": "Chemicals",

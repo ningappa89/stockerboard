@@ -233,14 +233,22 @@
       "open": 168.0,
       "time": "2026-09-25",
       "volume": 10152
+    },
+    {
+      "close": 159.23,
+      "high": 169.2,
+      "low": 158.26,
+      "open": 161.8,
+      "time": "2026-09-28",
+      "volume": 6432
     }
   ],
   "company_name": "AUSTIN ENGINEERING CO.LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE759F01012",
@@ -248,31 +256,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 76,
+    "momentum_score": 74,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.48x"
+    "volume_multiplier": "0.3x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -7.26,
-    "change_pct": -4.29,
-    "close": 161.78,
-    "previous_close": 169.04,
+    "as_of": "2026-09-28",
+    "change": -2.55,
+    "change_pct": -1.58,
+    "close": 159.23,
+    "previous_close": 161.78,
     "type": "EOD_CLOSE",
-    "volume": 10152
+    "volume": 6432
   },
   "range": {
-    "distance_from_high_pct": -9.11,
-    "distance_from_low_pct": 47.07,
+    "distance_from_high_pct": -10.54,
+    "distance_from_low_pct": 44.75,
     "high_52w": 178.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 110.0,
-    "range_position_pct": 76.15
+    "range_position_pct": 72.4
   },
   "risk_model": {
-    "invalidation_floor": 156.12,
-    "risk_per_share": 8.9,
-    "technical_pivot": 165.02
+    "invalidation_floor": 153.66,
+    "risk_per_share": 8.75,
+    "technical_pivot": 162.41
   },
   "schema_version": "1.0",
   "sector": null,

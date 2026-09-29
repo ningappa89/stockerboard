@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 923.05,
-      "high": 940.1,
-      "low": 919.05,
-      "open": 940.0,
-      "time": "2025-09-18",
-      "volume": 478648
-    },
-    {
       "close": 944.7,
       "high": 962.0,
       "low": 921.5,
@@ -2017,13 +2009,21 @@
       "open": 1020.0,
       "time": "2026-09-25",
       "volume": 866039
+    },
+    {
+      "close": 1011.6,
+      "high": 1033.4,
+      "low": 999.5,
+      "open": 1028.9,
+      "time": "2026-09-28",
+      "volume": 709373
     }
   ],
   "company_name": "MOTILAL OSWAL FINANCIAL SERVIC",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 80,
+    "momentum_score": 78,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.1x"
+    "volume_multiplier": "0.89x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 7.0,
-    "change_pct": 0.68,
-    "close": 1029.0,
-    "previous_close": 1022.0,
+    "as_of": "2026-09-28",
+    "change": -17.4,
+    "change_pct": -1.69,
+    "close": 1011.6,
+    "previous_close": 1029.0,
     "type": "EOD_CLOSE",
-    "volume": 866039
+    "volume": 709373
   },
   "range": {
-    "distance_from_high_pct": -6.21,
-    "distance_from_low_pct": 67.34,
+    "distance_from_high_pct": -7.79,
+    "distance_from_low_pct": 64.51,
     "high_52w": 1097.1,
     "history_basis": "52_WEEK",
     "low_52w": 614.9,
-    "range_position_pct": 85.88
+    "range_position_pct": 82.27
   },
   "risk_model": {
-    "invalidation_floor": 992.99,
-    "risk_per_share": 56.59,
-    "technical_pivot": 1049.58
+    "invalidation_floor": 976.19,
+    "risk_per_share": 55.64,
+    "technical_pivot": 1031.83
   },
   "schema_version": "1.0",
   "sector": null,

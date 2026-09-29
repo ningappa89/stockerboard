@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 655.2,
-      "high": 660.9,
-      "low": 647.55,
-      "open": 647.55,
-      "time": "2025-09-18",
-      "volume": 4520
-    },
-    {
       "close": 663.3,
       "high": 667.0,
       "low": 655.4,
@@ -2017,13 +2009,21 @@
       "open": 1161.9,
       "time": "2026-09-25",
       "volume": 67322
+    },
+    {
+      "close": 1218.6,
+      "high": 1242.0,
+      "low": 1123.0,
+      "open": 1141.1,
+      "time": "2026-09-28",
+      "volume": 376368
     }
   ],
   "company_name": "DIVGI TORQTRANSFER SYSTEMS LIM",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 70,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.47x"
+    "momentum_score": 77,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.42x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.0,
-    "change_pct": -0.17,
-    "close": 1154.6,
-    "previous_close": 1156.6,
+    "as_of": "2026-09-28",
+    "change": 64.0,
+    "change_pct": 5.54,
+    "close": 1218.6,
+    "previous_close": 1154.6,
     "type": "EOD_CLOSE",
-    "volume": 67322
+    "volume": 376368
   },
   "range": {
-    "distance_from_high_pct": -13.17,
-    "distance_from_low_pct": 101.26,
+    "distance_from_high_pct": -8.36,
+    "distance_from_low_pct": 112.41,
     "high_52w": 1329.8,
     "history_basis": "52_WEEK",
     "low_52w": 573.7,
-    "range_position_pct": 76.83
+    "range_position_pct": 85.29
   },
   "risk_model": {
-    "invalidation_floor": 1114.19,
-    "risk_per_share": 63.5,
-    "technical_pivot": 1177.69
+    "invalidation_floor": 1175.95,
+    "risk_per_share": 67.02,
+    "technical_pivot": 1242.97
   },
   "schema_version": "1.0",
   "sector": null,

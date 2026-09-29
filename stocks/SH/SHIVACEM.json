@@ -233,14 +233,22 @@
       "open": 15.72,
       "time": "2026-09-25",
       "volume": 131022
+    },
+    {
+      "close": 15.21,
+      "high": 15.69,
+      "low": 15.09,
+      "open": 15.69,
+      "time": "2026-09-28",
+      "volume": 62830
     }
   ],
   "company_name": "SHIVA CEMENT LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE555C01029",
@@ -248,31 +256,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.35x"
+    "momentum_score": 67,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.11x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.18,
-    "change_pct": -1.15,
-    "close": 15.47,
-    "previous_close": 15.65,
+    "as_of": "2026-09-28",
+    "change": -0.26,
+    "change_pct": -1.68,
+    "close": 15.21,
+    "previous_close": 15.47,
     "type": "EOD_CLOSE",
-    "volume": 131022
+    "volume": 62830
   },
   "range": {
-    "distance_from_high_pct": -13.77,
-    "distance_from_low_pct": 3.13,
+    "distance_from_high_pct": -15.22,
+    "distance_from_low_pct": 1.4,
     "high_52w": 17.94,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 15.0,
-    "range_position_pct": 15.99
+    "range_position_pct": 7.14
   },
   "risk_model": {
-    "invalidation_floor": 14.93,
-    "risk_per_share": 0.85,
-    "technical_pivot": 15.78
+    "invalidation_floor": 14.68,
+    "risk_per_share": 0.83,
+    "technical_pivot": 15.51
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 13.58,
-      "high": 13.75,
-      "low": 13.52,
-      "open": 13.72,
-      "time": "2025-09-18",
-      "volume": 145101
-    },
-    {
       "close": 13.74,
       "high": 13.9,
       "low": 13.53,
@@ -2017,13 +2009,21 @@
       "open": 7.55,
       "time": "2026-09-25",
       "volume": 98193
+    },
+    {
+      "close": 7.19,
+      "high": 7.54,
+      "low": 7.15,
+      "open": 7.46,
+      "time": "2026-09-28",
+      "volume": 251664
     }
   ],
   "company_name": "SADBHAV ENGINEERING LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.34x"
+    "volume_multiplier": "0.93x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.08,
-    "change_pct": -1.06,
-    "close": 7.46,
-    "previous_close": 7.54,
+    "as_of": "2026-09-28",
+    "change": -0.27,
+    "change_pct": -3.62,
+    "close": 7.19,
+    "previous_close": 7.46,
     "type": "EOD_CLOSE",
-    "volume": 98193
+    "volume": 251664
   },
   "range": {
-    "distance_from_high_pct": -49.25,
-    "distance_from_low_pct": 23.31,
+    "distance_from_high_pct": -51.09,
+    "distance_from_low_pct": 18.84,
     "high_52w": 14.7,
     "history_basis": "52_WEEK",
     "low_52w": 6.05,
-    "range_position_pct": 16.3
+    "range_position_pct": 13.18
   },
   "risk_model": {
-    "invalidation_floor": 7.2,
+    "invalidation_floor": 6.94,
     "risk_per_share": 0.5,
-    "technical_pivot": 7.61
+    "technical_pivot": 7.33
   },
   "schema_version": "1.0",
   "sector": null,

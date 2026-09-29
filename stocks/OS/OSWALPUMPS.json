@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 794.6,
-      "high": 802.65,
-      "low": 787.25,
-      "open": 799.85,
-      "time": "2025-09-18",
-      "volume": 301466
-    },
-    {
       "close": 791.85,
       "high": 802.95,
       "low": 790.0,
@@ -2017,13 +2009,21 @@
       "open": 279.9,
       "time": "2026-09-25",
       "volume": 310754
+    },
+    {
+      "close": 268.55,
+      "high": 273.6,
+      "low": 267.85,
+      "open": 273.0,
+      "time": "2026-09-28",
+      "volume": 256608
     }
   ],
   "company_name": "Oswal Pumps Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.59x"
+    "volume_multiplier": "0.49x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -5.3,
-    "change_pct": -1.89,
-    "close": 274.95,
-    "previous_close": 280.25,
+    "as_of": "2026-09-28",
+    "change": -6.4,
+    "change_pct": -2.33,
+    "close": 268.55,
+    "previous_close": 274.95,
     "type": "EOD_CLOSE",
-    "volume": 310754
+    "volume": 256608
   },
   "range": {
-    "distance_from_high_pct": -65.76,
-    "distance_from_low_pct": 3.19,
+    "distance_from_high_pct": -66.55,
+    "distance_from_low_pct": 0.79,
     "high_52w": 802.95,
     "history_basis": "52_WEEK",
     "low_52w": 266.45,
-    "range_position_pct": 1.58
+    "range_position_pct": 0.39
   },
   "risk_model": {
-    "invalidation_floor": 265.33,
-    "risk_per_share": 15.12,
-    "technical_pivot": 280.45
+    "invalidation_floor": 259.15,
+    "risk_per_share": 14.77,
+    "technical_pivot": 273.92
   },
   "schema_version": "1.0",
   "sector": null,

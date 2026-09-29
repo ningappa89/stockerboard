@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 443.35,
-      "high": 451.75,
-      "low": 441.2,
-      "open": 441.65,
-      "time": "2025-09-18",
-      "volume": 180564
-    },
-    {
       "close": 443.5,
       "high": 445.55,
       "low": 437.4,
@@ -2017,13 +2009,21 @@
       "open": 237.42,
       "time": "2026-09-25",
       "volume": 128718
+    },
+    {
+      "close": 275.21,
+      "high": 282.74,
+      "low": 245.45,
+      "open": 250.0,
+      "time": "2026-09-28",
+      "volume": 61311130
     }
   ],
   "company_name": "R SYSTEMS INTERNATIONAL LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.72x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "18.97x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.81,
-    "change_pct": -0.76,
-    "close": 235.62,
-    "previous_close": 237.43,
+    "as_of": "2026-09-28",
+    "change": 39.59,
+    "change_pct": 16.8,
+    "close": 275.21,
+    "previous_close": 235.62,
     "type": "EOD_CLOSE",
-    "volume": 128718
+    "volume": 61311130
   },
   "range": {
-    "distance_from_high_pct": -47.84,
-    "distance_from_low_pct": 10.35,
-    "high_52w": 451.75,
+    "distance_from_high_pct": -38.23,
+    "distance_from_low_pct": 28.89,
+    "high_52w": 445.55,
     "history_basis": "52_WEEK",
     "low_52w": 213.52,
-    "range_position_pct": 9.28
+    "range_position_pct": 26.59
   },
   "risk_model": {
-    "invalidation_floor": 227.37,
-    "risk_per_share": 12.96,
-    "technical_pivot": 240.33
+    "invalidation_floor": 265.58,
+    "risk_per_share": 15.13,
+    "technical_pivot": 280.71
   },
   "schema_version": "1.0",
   "sector": null,

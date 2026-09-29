@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 25.53,
-      "high": 25.53,
-      "low": 24.15,
-      "open": 24.15,
-      "time": "2025-09-18",
-      "volume": 948
-    },
-    {
       "close": 26.43,
       "high": 26.8,
       "low": 24.25,
@@ -2017,13 +2009,21 @@
       "open": 26.1,
       "time": "2026-09-25",
       "volume": 1870
+    },
+    {
+      "close": 26.97,
+      "high": 28.51,
+      "low": 26.01,
+      "open": 26.01,
+      "time": "2026-09-28",
+      "volume": 34609
     }
   ],
   "company_name": "G-TEC JAINX EDUCATION LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 43,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.3x"
+    "momentum_score": 45,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "4.63x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.04,
-    "change_pct": 0.15,
-    "close": 26.52,
-    "previous_close": 26.48,
+    "as_of": "2026-09-28",
+    "change": 0.45,
+    "change_pct": 1.7,
+    "close": 26.97,
+    "previous_close": 26.52,
     "type": "EOD_CLOSE",
-    "volume": 1870
+    "volume": 34609
   },
   "range": {
-    "distance_from_high_pct": -30.85,
-    "distance_from_low_pct": 70.66,
+    "distance_from_high_pct": -29.67,
+    "distance_from_low_pct": 73.55,
     "high_52w": 38.35,
     "history_basis": "52_WEEK",
     "low_52w": 15.54,
-    "range_position_pct": 48.14
+    "range_position_pct": 50.11
   },
   "risk_model": {
-    "invalidation_floor": 25.59,
-    "risk_per_share": 1.46,
-    "technical_pivot": 27.05
+    "invalidation_floor": 26.03,
+    "risk_per_share": 1.48,
+    "technical_pivot": 27.51
   },
   "schema_version": "1.0",
   "sector": null,

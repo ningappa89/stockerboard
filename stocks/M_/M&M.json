@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3642.2,
-      "high": 3650.0,
-      "low": 3603.3,
-      "open": 3636.1,
-      "time": "2025-09-18",
-      "volume": 2480472
-    },
-    {
       "close": 3592.1,
       "high": 3636.7,
       "low": 3584.5,
@@ -2017,13 +2009,21 @@
       "open": 2965.0,
       "time": "2026-09-25",
       "volume": 2080300
+    },
+    {
+      "close": 2995.0,
+      "high": 3019.9,
+      "low": 2977.6,
+      "open": 3017.3,
+      "time": "2026-09-28",
+      "volume": 2078624
     }
   ],
   "company_name": "MAHINDRA & MAHINDRA LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Automobile and Auto Components",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
+    "momentum_score": 57,
     "setup_type": "Liquid Active",
     "volume_multiplier": "1.03x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 52.3,
-    "change_pct": 1.75,
-    "close": 3035.0,
-    "previous_close": 2982.7,
+    "as_of": "2026-09-28",
+    "change": -40.0,
+    "change_pct": -1.32,
+    "close": 2995.0,
+    "previous_close": 3035.0,
     "type": "EOD_CLOSE",
-    "volume": 2080300
+    "volume": 2078624
   },
   "range": {
-    "distance_from_high_pct": -20.96,
-    "distance_from_low_pct": 4.8,
+    "distance_from_high_pct": -22.0,
+    "distance_from_low_pct": 3.42,
     "high_52w": 3839.9,
     "history_basis": "52_WEEK",
     "low_52w": 2896.0,
-    "range_position_pct": 14.73
+    "range_position_pct": 10.49
   },
   "risk_model": {
-    "invalidation_floor": 2928.78,
-    "risk_per_share": 166.92,
-    "technical_pivot": 3095.7
+    "invalidation_floor": 2890.17,
+    "risk_per_share": 164.73,
+    "technical_pivot": 3054.9
   },
   "schema_version": "1.0",
   "sector": "Automobile and Auto Components",

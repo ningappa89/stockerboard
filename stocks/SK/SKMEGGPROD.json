@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 178.12,
-      "high": 184.0,
-      "low": 176.97,
-      "open": 179.5,
-      "time": "2025-09-18",
-      "volume": 68798
-    },
-    {
       "close": 173.1,
       "high": 178.12,
       "low": 172.55,
@@ -2017,13 +2009,21 @@
       "open": 224.55,
       "time": "2026-09-25",
       "volume": 130288
+    },
+    {
+      "close": 211.35,
+      "high": 220.0,
+      "low": 209.4,
+      "open": 220.0,
+      "time": "2026-09-28",
+      "volume": 207652
     }
   ],
   "company_name": "SKM EGG PROD EXPORT(I) LT",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.64x"
+    "volume_multiplier": "1.02x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.8,
-    "change_pct": -1.25,
-    "close": 220.4,
-    "previous_close": 223.2,
+    "as_of": "2026-09-28",
+    "change": -9.05,
+    "change_pct": -4.11,
+    "close": 211.35,
+    "previous_close": 220.4,
     "type": "EOD_CLOSE",
-    "volume": 130288
+    "volume": 207652
   },
   "range": {
-    "distance_from_high_pct": -40.75,
-    "distance_from_low_pct": 54.02,
+    "distance_from_high_pct": -43.19,
+    "distance_from_low_pct": 47.69,
     "high_52w": 372.0,
     "history_basis": "52_WEEK",
     "low_52w": 143.1,
-    "range_position_pct": 33.77
+    "range_position_pct": 29.82
   },
   "risk_model": {
-    "invalidation_floor": 212.69,
-    "risk_per_share": 12.12,
-    "technical_pivot": 224.81
+    "invalidation_floor": 203.95,
+    "risk_per_share": 11.63,
+    "technical_pivot": 215.58
   },
   "schema_version": "1.0",
   "sector": null,

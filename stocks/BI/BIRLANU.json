@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1964.4,
-      "high": 1989.9,
-      "low": 1946.5,
-      "open": 1973.1,
-      "time": "2025-09-18",
-      "volume": 4198
-    },
-    {
       "close": 1979.0,
       "high": 1999.9,
       "low": 1958.9,
@@ -2017,13 +2009,21 @@
       "open": 1414.8,
       "time": "2026-09-25",
       "volume": 10226
+    },
+    {
+      "close": 1441.0,
+      "high": 1511.9,
+      "low": 1408.1,
+      "open": 1438.8,
+      "time": "2026-09-28",
+      "volume": 21222
     }
   ],
   "company_name": "BIRLANU LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 47,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.29x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.45x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 17.5,
-    "change_pct": 1.23,
-    "close": 1438.8,
-    "previous_close": 1421.3,
+    "as_of": "2026-09-28",
+    "change": 2.2,
+    "change_pct": 0.15,
+    "close": 1441.0,
+    "previous_close": 1438.8,
     "type": "EOD_CLOSE",
-    "volume": 10226
+    "volume": 21222
   },
   "range": {
-    "distance_from_high_pct": -28.5,
-    "distance_from_low_pct": 20.9,
+    "distance_from_high_pct": -28.39,
+    "distance_from_low_pct": 21.08,
     "high_52w": 2012.4,
     "history_basis": "52_WEEK",
     "low_52w": 1190.1,
-    "range_position_pct": 30.24
+    "range_position_pct": 30.51
   },
   "risk_model": {
-    "invalidation_floor": 1388.44,
-    "risk_per_share": 79.14,
-    "technical_pivot": 1467.58
+    "invalidation_floor": 1390.57,
+    "risk_per_share": 79.25,
+    "technical_pivot": 1469.82
   },
   "schema_version": "1.0",
   "sector": null,

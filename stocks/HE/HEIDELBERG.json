@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 210.98,
-      "high": 211.99,
-      "low": 209.01,
-      "open": 211.82,
-      "time": "2025-09-18",
-      "volume": 102096
-    },
-    {
       "close": 213.29,
       "high": 214.95,
       "low": 210.88,
@@ -2017,13 +2009,21 @@
       "open": 140.2,
       "time": "2026-09-25",
       "volume": 429293
+    },
+    {
+      "close": 131.45,
+      "high": 135.75,
+      "low": 131.1,
+      "open": 134.9,
+      "time": "2026-09-28",
+      "volume": 198118
     }
   ],
   "company_name": "HEIDELBERGCEMENT INDIA LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.81x"
+    "volume_multiplier": "0.82x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -4.52,
-    "change_pct": -3.24,
-    "close": 134.97,
-    "previous_close": 139.49,
+    "as_of": "2026-09-28",
+    "change": -3.52,
+    "change_pct": -2.61,
+    "close": 131.45,
+    "previous_close": 134.97,
     "type": "EOD_CLOSE",
-    "volume": 429293
+    "volume": 198118
   },
   "range": {
-    "distance_from_high_pct": -37.8,
-    "distance_from_low_pct": 0.36,
+    "distance_from_high_pct": -39.42,
+    "distance_from_low_pct": 0.27,
     "high_52w": 216.99,
     "history_basis": "52_WEEK",
-    "low_52w": 134.49,
-    "range_position_pct": 0.58
+    "low_52w": 131.1,
+    "range_position_pct": 0.41
   },
   "risk_model": {
-    "invalidation_floor": 130.25,
-    "risk_per_share": 7.42,
-    "technical_pivot": 137.67
+    "invalidation_floor": 126.85,
+    "risk_per_share": 7.23,
+    "technical_pivot": 134.08
   },
   "schema_version": "1.0",
   "sector": null,

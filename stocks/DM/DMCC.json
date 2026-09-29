@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 313.4,
-      "high": 322.0,
-      "low": 309.0,
-      "open": 322.0,
-      "time": "2025-09-18",
-      "volume": 47653
-    },
-    {
       "close": 315.05,
       "high": 321.8,
       "low": 311.0,
@@ -2017,13 +2009,21 @@
       "open": 296.55,
       "time": "2026-09-25",
       "volume": 122619
+    },
+    {
+      "close": 302.8,
+      "high": 315.85,
+      "low": 300.0,
+      "open": 307.0,
+      "time": "2026-09-28",
+      "volume": 144945
     }
   ],
   "company_name": "DMCC SPECIALITY CHEMICALS LIMI",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 77,
+    "momentum_score": 76,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.23x"
+    "volume_multiplier": "1.8x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 10.3,
-    "change_pct": 3.49,
-    "close": 305.35,
-    "previous_close": 295.05,
+    "as_of": "2026-09-28",
+    "change": -2.55,
+    "change_pct": -0.84,
+    "close": 302.8,
+    "previous_close": 305.35,
     "type": "EOD_CLOSE",
-    "volume": 122619
+    "volume": 144945
   },
   "range": {
-    "distance_from_high_pct": -8.28,
-    "distance_from_low_pct": 59.58,
+    "distance_from_high_pct": -9.04,
+    "distance_from_low_pct": 58.24,
     "high_52w": 332.9,
     "history_basis": "52_WEEK",
     "low_52w": 191.35,
-    "range_position_pct": 80.54
+    "range_position_pct": 78.74
   },
   "risk_model": {
-    "invalidation_floor": 294.66,
-    "risk_per_share": 16.8,
-    "technical_pivot": 311.46
+    "invalidation_floor": 292.2,
+    "risk_per_share": 16.66,
+    "technical_pivot": 308.86
   },
   "schema_version": "1.0",
   "sector": null,

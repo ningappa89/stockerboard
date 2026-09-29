@@ -289,14 +289,22 @@
       "open": 819.0,
       "time": "2026-09-25",
       "volume": 922003
+    },
+    {
+      "close": 786.35,
+      "high": 817.6,
+      "low": 782.0,
+      "open": 814.0,
+      "time": "2026-09-28",
+      "volume": 639847
     }
   ],
   "company_name": "MV ELECTROSYSTEMS LIMITED",
   "history": {
     "first_session": "2026-08-06",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 36
+    "last_session": "2026-09-28",
+    "sessions_available": 37
   },
   "industry": null,
   "isin": "INE0OWZ01020",
@@ -304,31 +312,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 68,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.13x"
+    "volume_multiplier": "0.11x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -4.7,
-    "change_pct": -0.57,
-    "close": 813.8,
-    "previous_close": 818.5,
+    "as_of": "2026-09-28",
+    "change": -27.45,
+    "change_pct": -3.37,
+    "close": 786.35,
+    "previous_close": 813.8,
     "type": "EOD_CLOSE",
-    "volume": 922003
+    "volume": 639847
   },
   "range": {
-    "distance_from_high_pct": -14.16,
-    "distance_from_low_pct": 57.55,
+    "distance_from_high_pct": -17.05,
+    "distance_from_low_pct": 52.23,
     "high_52w": 948.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 516.55,
-    "range_position_pct": 68.9
+    "range_position_pct": 62.53
   },
   "risk_model": {
-    "invalidation_floor": 785.32,
-    "risk_per_share": 44.76,
-    "technical_pivot": 830.08
+    "invalidation_floor": 758.83,
+    "risk_per_share": 43.25,
+    "technical_pivot": 802.08
   },
   "schema_version": "1.0",
   "sector": null,

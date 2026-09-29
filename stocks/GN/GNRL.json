@@ -889,14 +889,22 @@
       "open": 99.1,
       "time": "2026-09-25",
       "volume": 77761
+    },
+    {
+      "close": 98.46,
+      "high": 119.4,
+      "low": 96.72,
+      "open": 101.3,
+      "time": "2026-09-28",
+      "volume": 1631909
     }
   ],
   "company_name": "GUJARAT NATURAL RESOURCES LIMI",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE207H01018",
@@ -904,31 +912,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.18x"
+    "momentum_score": 62,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "3.21x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.07,
-    "change_pct": 2.11,
-    "close": 100.18,
-    "previous_close": 98.11,
+    "as_of": "2026-09-28",
+    "change": -1.72,
+    "change_pct": -1.72,
+    "close": 98.46,
+    "previous_close": 100.18,
     "type": "EOD_CLOSE",
-    "volume": 77761
+    "volume": 1631909
   },
   "range": {
-    "distance_from_high_pct": -17.14,
-    "distance_from_low_pct": 20.41,
+    "distance_from_high_pct": -18.56,
+    "distance_from_low_pct": 18.34,
     "high_52w": 120.9,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 83.2,
-    "range_position_pct": 45.04
+    "range_position_pct": 40.48
   },
   "risk_model": {
-    "invalidation_floor": 96.67,
-    "risk_per_share": 5.51,
-    "technical_pivot": 102.18
+    "invalidation_floor": 95.01,
+    "risk_per_share": 5.42,
+    "technical_pivot": 100.43
   },
   "schema_version": "1.0",
   "sector": null,

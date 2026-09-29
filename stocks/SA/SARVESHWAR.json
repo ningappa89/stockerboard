@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 7.17,
-      "high": 7.88,
-      "low": 7.09,
-      "open": 7.63,
-      "time": "2025-09-18",
-      "volume": 24793031
-    },
-    {
       "close": 6.58,
       "high": 6.64,
       "low": 6.1,
@@ -2017,13 +2009,21 @@
       "open": 3.69,
       "time": "2026-09-25",
       "volume": 3010745
+    },
+    {
+      "close": 3.49,
+      "high": 3.63,
+      "low": 3.46,
+      "open": 3.59,
+      "time": "2026-09-28",
+      "volume": 1786986
     }
   ],
   "company_name": "SARVESHWAR FOODS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.0x"
+    "volume_multiplier": "0.59x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.1,
-    "change_pct": -2.75,
-    "close": 3.53,
-    "previous_close": 3.63,
+    "as_of": "2026-09-28",
+    "change": -0.04,
+    "change_pct": -1.13,
+    "close": 3.49,
+    "previous_close": 3.53,
     "type": "EOD_CLOSE",
-    "volume": 3010745
+    "volume": 1786986
   },
   "range": {
-    "distance_from_high_pct": -55.2,
-    "distance_from_low_pct": 41.2,
-    "high_52w": 7.88,
+    "distance_from_high_pct": -48.9,
+    "distance_from_low_pct": 39.6,
+    "high_52w": 6.83,
     "history_basis": "52_WEEK",
     "low_52w": 2.5,
-    "range_position_pct": 19.14
+    "range_position_pct": 22.86
   },
   "risk_model": {
-    "invalidation_floor": 3.41,
+    "invalidation_floor": 3.37,
     "risk_per_share": 0.5,
-    "technical_pivot": 3.6
+    "technical_pivot": 3.56
   },
   "schema_version": "1.0",
   "sector": null,

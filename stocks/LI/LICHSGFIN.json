@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 593.2,
-      "high": 595.0,
-      "low": 572.95,
-      "open": 575.0,
-      "time": "2025-09-18",
-      "volume": 4634182
-    },
-    {
       "close": 592.8,
       "high": 595.9,
       "low": 586.85,
@@ -2017,13 +2009,21 @@
       "open": 564.75,
       "time": "2026-09-25",
       "volume": 1070523
+    },
+    {
+      "close": 564.15,
+      "high": 574.7,
+      "low": 562.5,
+      "open": 568.0,
+      "time": "2026-09-28",
+      "volume": 2923229
     }
   ],
   "company_name": "LIC HOUSING FINANCE LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2034,29 +2034,29 @@
     "is_stage2": true,
     "momentum_score": 81,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.3x"
+    "volume_multiplier": "0.82x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.75,
-    "change_pct": 0.31,
-    "close": 566.0,
-    "previous_close": 564.25,
+    "as_of": "2026-09-28",
+    "change": -1.85,
+    "change_pct": -0.33,
+    "close": 564.15,
+    "previous_close": 566.0,
     "type": "EOD_CLOSE",
-    "volume": 1070523
+    "volume": 2923229
   },
   "range": {
-    "distance_from_high_pct": -5.38,
-    "distance_from_low_pct": 23.34,
+    "distance_from_high_pct": -5.69,
+    "distance_from_low_pct": 22.94,
     "high_52w": 598.2,
     "history_basis": "52_WEEK",
     "low_52w": 458.9,
-    "range_position_pct": 76.88
+    "range_position_pct": 75.56
   },
   "risk_model": {
-    "invalidation_floor": 546.19,
-    "risk_per_share": 31.13,
-    "technical_pivot": 577.32
+    "invalidation_floor": 544.4,
+    "risk_per_share": 31.03,
+    "technical_pivot": 575.43
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

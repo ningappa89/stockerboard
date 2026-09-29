@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2108.4,
-      "high": 2116.0,
-      "low": 2049.9,
-      "open": 2049.9,
-      "time": "2025-09-18",
-      "volume": 1114841
-    },
-    {
       "close": 2085.2,
       "high": 2119.0,
       "low": 2078.2,
@@ -2017,13 +2009,21 @@
       "open": 2425.0,
       "time": "2026-09-25",
       "volume": 785299
+    },
+    {
+      "close": 2325.7,
+      "high": 2392.5,
+      "low": 2307.3,
+      "open": 2380.0,
+      "time": "2026-09-28",
+      "volume": 985878
     }
   ],
   "company_name": "GLENMARK PHARMACEUTICALS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 80,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "1.58x"
+    "momentum_score": 77,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.95x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -50.4,
-    "change_pct": -2.07,
-    "close": 2380.0,
-    "previous_close": 2430.4,
+    "as_of": "2026-09-28",
+    "change": -54.3,
+    "change_pct": -2.28,
+    "close": 2325.7,
+    "previous_close": 2380.0,
     "type": "EOD_CLOSE",
-    "volume": 785299
+    "volume": 985878
   },
   "range": {
-    "distance_from_high_pct": -6.21,
-    "distance_from_low_pct": 32.77,
+    "distance_from_high_pct": -8.35,
+    "distance_from_low_pct": 29.74,
     "high_52w": 2537.6,
     "history_basis": "52_WEEK",
     "low_52w": 1792.6,
-    "range_position_pct": 78.85
+    "range_position_pct": 71.56
   },
   "risk_model": {
-    "invalidation_floor": 2296.7,
-    "risk_per_share": 130.9,
-    "technical_pivot": 2427.6
+    "invalidation_floor": 2244.3,
+    "risk_per_share": 127.91,
+    "technical_pivot": 2372.21
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

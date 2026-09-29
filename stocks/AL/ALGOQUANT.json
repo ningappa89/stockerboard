@@ -1425,14 +1425,22 @@
       "open": 73.69,
       "time": "2026-09-25",
       "volume": 1131847
+    },
+    {
+      "close": 69.55,
+      "high": 72.28,
+      "low": 68.61,
+      "open": 72.2,
+      "time": "2026-09-28",
+      "volume": 1207760
     }
   ],
   "company_name": "ALGOQUANT FINTECH LIMITED",
   "history": {
     "first_session": "2026-01-06",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 178
+    "last_session": "2026-09-28",
+    "sessions_available": 179
   },
   "industry": null,
   "isin": "INE598D01035",
@@ -1440,31 +1448,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 82,
+    "momentum_score": 76,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.78x"
+    "volume_multiplier": "0.83x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.09,
-    "change_pct": -1.49,
-    "close": 72.28,
-    "previous_close": 73.37,
+    "as_of": "2026-09-28",
+    "change": -2.73,
+    "change_pct": -3.78,
+    "close": 69.55,
+    "previous_close": 72.28,
     "type": "EOD_CLOSE",
-    "volume": 1131847
+    "volume": 1207760
   },
   "range": {
-    "distance_from_high_pct": -5.14,
-    "distance_from_low_pct": 51.21,
+    "distance_from_high_pct": -8.73,
+    "distance_from_low_pct": 45.5,
     "high_52w": 76.2,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 47.8,
-    "range_position_pct": 86.2
+    "range_position_pct": 76.58
   },
   "risk_model": {
-    "invalidation_floor": 69.75,
-    "risk_per_share": 3.98,
-    "technical_pivot": 73.73
+    "invalidation_floor": 67.12,
+    "risk_per_share": 3.82,
+    "technical_pivot": 70.94
   },
   "schema_version": "1.0",
   "sector": null,

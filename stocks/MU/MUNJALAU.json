@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 90.28,
-      "high": 91.33,
-      "low": 90.01,
-      "open": 91.3,
-      "time": "2025-09-18",
-      "volume": 124362
-    },
-    {
       "close": 90.27,
       "high": 91.09,
       "low": 89.81,
@@ -2017,13 +2009,21 @@
       "open": 105.7,
       "time": "2026-09-25",
       "volume": 477592
+    },
+    {
+      "close": 106.87,
+      "high": 110.1,
+      "low": 105.75,
+      "open": 110.1,
+      "time": "2026-09-28",
+      "volume": 253364
     }
   ],
   "company_name": "MUNJAL AUTO IND. LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.09x"
+    "volume_multiplier": "0.59x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 3.68,
-    "change_pct": 3.49,
-    "close": 109.02,
-    "previous_close": 105.34,
+    "as_of": "2026-09-28",
+    "change": -2.15,
+    "change_pct": -1.97,
+    "close": 106.87,
+    "previous_close": 109.02,
     "type": "EOD_CLOSE",
-    "volume": 477592
+    "volume": 253364
   },
   "range": {
-    "distance_from_high_pct": -16.52,
-    "distance_from_low_pct": 62.23,
+    "distance_from_high_pct": -18.17,
+    "distance_from_low_pct": 59.03,
     "high_52w": 130.6,
     "history_basis": "52_WEEK",
     "low_52w": 67.2,
-    "range_position_pct": 65.96
+    "range_position_pct": 62.57
   },
   "risk_model": {
-    "invalidation_floor": 105.2,
-    "risk_per_share": 6.0,
-    "technical_pivot": 111.2
+    "invalidation_floor": 103.13,
+    "risk_per_share": 5.88,
+    "technical_pivot": 109.01
   },
   "schema_version": "1.0",
   "sector": null,

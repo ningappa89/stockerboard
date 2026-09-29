@@ -1873,14 +1873,22 @@
       "open": 55.3,
       "time": "2026-09-25",
       "volume": 27305
+    },
+    {
+      "close": 48.65,
+      "high": 50.16,
+      "low": 48.65,
+      "open": 49.05,
+      "time": "2026-09-28",
+      "volume": 17686
     }
   ],
   "company_name": "MONEYBOXX FINANCE LIMITED",
   "history": {
     "first_session": "2025-10-15",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 234
+    "last_session": "2026-09-28",
+    "sessions_available": 235
   },
   "industry": null,
   "isin": "INE296Q01012",
@@ -1890,29 +1898,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.18x"
+    "volume_multiplier": "0.12x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.69,
-    "change_pct": -4.99,
-    "close": 51.21,
-    "previous_close": 53.9,
+    "as_of": "2026-09-28",
+    "change": -2.56,
+    "change_pct": -5.0,
+    "close": 48.65,
+    "previous_close": 51.21,
     "type": "EOD_CLOSE",
-    "volume": 27305
+    "volume": 17686
   },
   "range": {
-    "distance_from_high_pct": -44.03,
-    "distance_from_low_pct": 42.85,
+    "distance_from_high_pct": -46.83,
+    "distance_from_low_pct": 35.7,
     "high_52w": 91.5,
     "history_basis": "52_WEEK",
     "low_52w": 35.85,
-    "range_position_pct": 27.6
+    "range_position_pct": 23.0
   },
   "risk_model": {
-    "invalidation_floor": 49.42,
-    "risk_per_share": 2.81,
-    "technical_pivot": 52.23
+    "invalidation_floor": 46.95,
+    "risk_per_share": 2.67,
+    "technical_pivot": 49.62
   },
   "schema_version": "1.0",
   "sector": null,

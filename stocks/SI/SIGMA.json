@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 46.79,
-      "high": 47.18,
-      "low": 45.12,
-      "open": 46.62,
-      "time": "2025-09-18",
-      "volume": 196020
-    },
-    {
       "close": 46.31,
       "high": 47.13,
       "low": 46.0,
@@ -2017,13 +2009,21 @@
       "open": 45.25,
       "time": "2026-09-25",
       "volume": 73296
+    },
+    {
+      "close": 44.74,
+      "high": 47.0,
+      "low": 44.5,
+      "open": 47.0,
+      "time": "2026-09-28",
+      "volume": 58662
     }
   ],
   "company_name": "SIGMA SOLVE LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 44,
+    "momentum_score": 42,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.68x"
+    "volume_multiplier": "0.59x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.08,
-    "change_pct": 2.43,
-    "close": 45.61,
-    "previous_close": 44.53,
+    "as_of": "2026-09-28",
+    "change": -0.87,
+    "change_pct": -1.91,
+    "close": 44.74,
+    "previous_close": 45.61,
     "type": "EOD_CLOSE",
-    "volume": 73296
+    "volume": 58662
   },
   "range": {
-    "distance_from_high_pct": -30.37,
-    "distance_from_low_pct": 28.62,
+    "distance_from_high_pct": -31.69,
+    "distance_from_low_pct": 26.17,
     "high_52w": 65.5,
     "history_basis": "52_WEEK",
     "low_52w": 35.46,
-    "range_position_pct": 33.79
+    "range_position_pct": 30.89
   },
   "risk_model": {
-    "invalidation_floor": 44.01,
-    "risk_per_share": 2.51,
-    "technical_pivot": 46.52
+    "invalidation_floor": 43.17,
+    "risk_per_share": 2.46,
+    "technical_pivot": 45.63
   },
   "schema_version": "1.0",
   "sector": null,

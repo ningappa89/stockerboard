@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 479.05,
-      "high": 488.0,
-      "low": 476.5,
-      "open": 479.9,
-      "time": "2025-09-18",
-      "volume": 181664
-    },
-    {
       "close": 479.0,
       "high": 483.2,
       "low": 478.0,
@@ -2017,13 +2009,21 @@
       "open": 914.0,
       "time": "2026-09-25",
       "volume": 261221
+    },
+    {
+      "close": 917.95,
+      "high": 941.9,
+      "low": 913.05,
+      "open": 925.0,
+      "time": "2026-09-28",
+      "volume": 274823
     }
   ],
   "company_name": "CYIENT DLM LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 78,
+    "momentum_score": 76,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.35x"
+    "volume_multiplier": "0.39x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 18.7,
-    "change_pct": 2.05,
-    "close": 931.4,
-    "previous_close": 912.7,
+    "as_of": "2026-09-28",
+    "change": -13.45,
+    "change_pct": -1.44,
+    "close": 917.95,
+    "previous_close": 931.4,
     "type": "EOD_CLOSE",
-    "volume": 261221
+    "volume": 274823
   },
   "range": {
-    "distance_from_high_pct": -7.69,
-    "distance_from_low_pct": 251.21,
+    "distance_from_high_pct": -9.02,
+    "distance_from_low_pct": 246.13,
     "high_52w": 1009.0,
     "history_basis": "52_WEEK",
     "low_52w": 265.2,
-    "range_position_pct": 89.57
+    "range_position_pct": 87.76
   },
   "risk_model": {
-    "invalidation_floor": 898.8,
-    "risk_per_share": 51.23,
-    "technical_pivot": 950.03
+    "invalidation_floor": 885.82,
+    "risk_per_share": 50.49,
+    "technical_pivot": 936.31
   },
   "schema_version": "1.0",
   "sector": null,

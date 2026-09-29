@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 108.26,
-      "high": 110.0,
-      "low": 107.53,
-      "open": 110.0,
-      "time": "2025-09-18",
-      "volume": 89733
-    },
-    {
       "close": 109.63,
       "high": 111.0,
       "low": 108.0,
@@ -2017,13 +2009,21 @@
       "open": 210.85,
       "time": "2026-09-25",
       "volume": 135844
+    },
+    {
+      "close": 207.42,
+      "high": 213.62,
+      "low": 205.7,
+      "open": 213.62,
+      "time": "2026-09-28",
+      "volume": 171667
     }
   ],
   "company_name": "Sportking India Ltd.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 72,
+    "is_stage2": false,
+    "momentum_score": 68,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.44x"
+    "volume_multiplier": "0.55x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.77,
-    "change_pct": 1.31,
-    "close": 213.62,
-    "previous_close": 210.85,
+    "as_of": "2026-09-28",
+    "change": -6.2,
+    "change_pct": -2.9,
+    "close": 207.42,
+    "previous_close": 213.62,
     "type": "EOD_CLOSE",
-    "volume": 135844
+    "volume": 171667
   },
   "range": {
-    "distance_from_high_pct": -11.55,
-    "distance_from_low_pct": 173.28,
+    "distance_from_high_pct": -14.12,
+    "distance_from_low_pct": 165.34,
     "high_52w": 241.51,
     "history_basis": "52_WEEK",
     "low_52w": 78.17,
-    "range_position_pct": 82.93
+    "range_position_pct": 79.13
   },
   "risk_model": {
-    "invalidation_floor": 206.14,
-    "risk_per_share": 11.75,
-    "technical_pivot": 217.89
+    "invalidation_floor": 200.16,
+    "risk_per_share": 11.41,
+    "technical_pivot": 211.57
   },
   "schema_version": "1.0",
   "sector": null,

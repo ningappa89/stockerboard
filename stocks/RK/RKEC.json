@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 69.32,
-      "high": 71.8,
-      "low": 69.11,
-      "open": 70.83,
-      "time": "2025-09-18",
-      "volume": 57393
-    },
-    {
       "close": 69.98,
       "high": 70.5,
       "low": 69.1,
@@ -2017,13 +2009,21 @@
       "open": 26.0,
       "time": "2026-09-25",
       "volume": 768771
+    },
+    {
+      "close": 22.78,
+      "high": 25.7,
+      "low": 22.1,
+      "open": 23.8,
+      "time": "2026-09-28",
+      "volume": 140522
     }
   ],
   "company_name": "RKEC PROJECTS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "8.85x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.52x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.42,
-    "change_pct": 6.22,
-    "close": 24.26,
-    "previous_close": 22.84,
+    "as_of": "2026-09-28",
+    "change": -1.48,
+    "change_pct": -6.1,
+    "close": 22.78,
+    "previous_close": 24.26,
     "type": "EOD_CLOSE",
-    "volume": 768771
+    "volume": 140522
   },
   "range": {
-    "distance_from_high_pct": -70.23,
-    "distance_from_low_pct": 39.43,
+    "distance_from_high_pct": -72.05,
+    "distance_from_low_pct": 30.92,
     "high_52w": 81.5,
     "history_basis": "52_WEEK",
     "low_52w": 17.4,
-    "range_position_pct": 10.7
+    "range_position_pct": 8.39
   },
   "risk_model": {
-    "invalidation_floor": 23.41,
-    "risk_per_share": 1.34,
-    "technical_pivot": 24.75
+    "invalidation_floor": 21.98,
+    "risk_per_share": 1.26,
+    "technical_pivot": 23.24
   },
   "schema_version": "1.0",
   "sector": null,

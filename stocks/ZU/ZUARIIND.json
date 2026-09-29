@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 290.4,
-      "high": 297.65,
-      "low": 288.85,
-      "open": 296.0,
-      "time": "2025-09-18",
-      "volume": 89145
-    },
-    {
       "close": 289.9,
       "high": 294.85,
       "low": 288.0,
@@ -2017,13 +2009,21 @@
       "open": 284.95,
       "time": "2026-09-25",
       "volume": 227243
+    },
+    {
+      "close": 276.85,
+      "high": 292.85,
+      "low": 271.55,
+      "open": 292.0,
+      "time": "2026-09-28",
+      "volume": 67041
     }
   ],
   "company_name": "Zuari Industries Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 44,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "3.03x"
+    "momentum_score": 40,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.89x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 7.35,
-    "change_pct": 2.6,
-    "close": 290.2,
-    "previous_close": 282.85,
+    "as_of": "2026-09-28",
+    "change": -13.35,
+    "change_pct": -4.6,
+    "close": 276.85,
+    "previous_close": 290.2,
     "type": "EOD_CLOSE",
-    "volume": 227243
+    "volume": 67041
   },
   "range": {
-    "distance_from_high_pct": -30.24,
-    "distance_from_low_pct": 38.19,
+    "distance_from_high_pct": -33.45,
+    "distance_from_low_pct": 31.83,
     "high_52w": 416.0,
     "history_basis": "52_WEEK",
     "low_52w": 210.0,
-    "range_position_pct": 38.93
+    "range_position_pct": 32.45
   },
   "risk_model": {
-    "invalidation_floor": 280.04,
-    "risk_per_share": 15.96,
-    "technical_pivot": 296.0
+    "invalidation_floor": 267.16,
+    "risk_per_share": 15.23,
+    "technical_pivot": 282.39
   },
   "schema_version": "1.0",
   "sector": null,

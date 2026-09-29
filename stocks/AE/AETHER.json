@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 732.05,
-      "high": 737.95,
-      "low": 731.0,
-      "open": 735.85,
-      "time": "2025-09-18",
-      "volume": 40467
-    },
-    {
       "close": 736.1,
       "high": 739.95,
       "low": 726.45,
@@ -2017,13 +2009,21 @@
       "open": 1653.0,
       "time": "2026-09-25",
       "volume": 1686153
+    },
+    {
+      "close": 1739.2,
+      "high": 1785.2,
+      "low": 1705.0,
+      "open": 1768.0,
+      "time": "2026-09-28",
+      "volume": 318334
     }
   ],
   "company_name": "AETHER INDUSTRIES LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 87,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "5.99x"
+    "momentum_score": 85,
+    "setup_type": "Minervini VCP",
+    "volume_multiplier": "1.16x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 120.8,
-    "change_pct": 7.34,
-    "close": 1767.0,
-    "previous_close": 1646.2,
+    "as_of": "2026-09-28",
+    "change": -27.8,
+    "change_pct": -1.57,
+    "close": 1739.2,
+    "previous_close": 1767.0,
     "type": "EOD_CLOSE",
-    "volume": 1686153
+    "volume": 318334
   },
   "range": {
-    "distance_from_high_pct": -1.72,
-    "distance_from_low_pct": 143.24,
+    "distance_from_high_pct": -3.27,
+    "distance_from_low_pct": 139.41,
     "high_52w": 1798.0,
     "history_basis": "52_WEEK",
     "low_52w": 726.45,
-    "range_position_pct": 97.11
+    "range_position_pct": 94.51
   },
   "risk_model": {
-    "invalidation_floor": 1705.15,
-    "risk_per_share": 97.19,
-    "technical_pivot": 1802.34
+    "invalidation_floor": 1678.33,
+    "risk_per_share": 95.65,
+    "technical_pivot": 1773.98
   },
   "schema_version": "1.0",
   "sector": null,

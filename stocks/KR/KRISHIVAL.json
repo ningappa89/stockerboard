@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 468.5,
-      "high": 469.4,
-      "low": 466.0,
-      "open": 466.0,
-      "time": "2025-09-18",
-      "volume": 7415
-    },
-    {
       "close": 470.6,
       "high": 471.0,
       "low": 470.0,
@@ -2017,13 +2009,21 @@
       "open": 415.0,
       "time": "2026-09-25",
       "volume": 11444
+    },
+    {
+      "close": 413.65,
+      "high": 415.0,
+      "low": 411.25,
+      "open": 415.0,
+      "time": "2026-09-28",
+      "volume": 211393
     }
   ],
   "company_name": "KRISHIVAL FOODS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 62,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.72x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "8.36x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.1,
-    "change_pct": 0.51,
-    "close": 413.4,
-    "previous_close": 411.3,
+    "as_of": "2026-09-28",
+    "change": 0.25,
+    "change_pct": 0.06,
+    "close": 413.65,
+    "previous_close": 413.4,
     "type": "EOD_CLOSE",
-    "volume": 11444
+    "volume": 211393
   },
   "range": {
-    "distance_from_high_pct": -18.62,
-    "distance_from_low_pct": 46.44,
+    "distance_from_high_pct": -18.57,
+    "distance_from_low_pct": 46.53,
     "high_52w": 508.0,
     "history_basis": "52_WEEK",
     "low_52w": 282.3,
-    "range_position_pct": 58.09
+    "range_position_pct": 58.2
   },
   "risk_model": {
-    "invalidation_floor": 398.93,
-    "risk_per_share": 22.74,
-    "technical_pivot": 421.67
+    "invalidation_floor": 399.17,
+    "risk_per_share": 22.75,
+    "technical_pivot": 421.92
   },
   "schema_version": "1.0",
   "sector": null,

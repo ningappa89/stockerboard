@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 928.15,
-      "high": 969.5,
-      "low": 925.0,
-      "open": 958.0,
-      "time": "2025-09-18",
-      "volume": 22396
-    },
-    {
       "close": 917.25,
       "high": 935.6,
       "low": 910.0,
@@ -2017,13 +2009,21 @@
       "open": 979.1,
       "time": "2026-09-25",
       "volume": 7495
+    },
+    {
+      "close": 952.5,
+      "high": 986.15,
+      "low": 950.0,
+      "open": 982.0,
+      "time": "2026-09-28",
+      "volume": 8185
     }
   ],
   "company_name": "GANDHI SPECIAL TUBES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 78,
+    "momentum_score": 76,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.33x"
+    "volume_multiplier": "0.36x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -12.6,
-    "change_pct": -1.29,
-    "close": 966.5,
-    "previous_close": 979.1,
+    "as_of": "2026-09-28",
+    "change": -14.0,
+    "change_pct": -1.45,
+    "close": 952.5,
+    "previous_close": 966.5,
     "type": "EOD_CLOSE",
-    "volume": 7495
+    "volume": 8185
   },
   "range": {
-    "distance_from_high_pct": -7.65,
-    "distance_from_low_pct": 41.91,
+    "distance_from_high_pct": -8.99,
+    "distance_from_low_pct": 39.86,
     "high_52w": 1046.6,
     "history_basis": "52_WEEK",
     "low_52w": 681.05,
-    "range_position_pct": 78.09
+    "range_position_pct": 74.26
   },
   "risk_model": {
-    "invalidation_floor": 932.67,
-    "risk_per_share": 53.16,
-    "technical_pivot": 985.83
+    "invalidation_floor": 919.16,
+    "risk_per_share": 52.39,
+    "technical_pivot": 971.55
   },
   "schema_version": "1.0",
   "sector": null,

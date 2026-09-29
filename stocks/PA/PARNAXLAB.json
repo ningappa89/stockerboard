@@ -233,14 +233,22 @@
       "open": 124.0,
       "time": "2026-09-25",
       "volume": 11075
+    },
+    {
+      "close": 112.78,
+      "high": 117.63,
+      "low": 110.0,
+      "open": 117.63,
+      "time": "2026-09-28",
+      "volume": 8002
     }
   ],
   "company_name": "PARNAX LAB LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE383L01019",
@@ -248,31 +256,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
+    "momentum_score": 53,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.6x"
+    "volume_multiplier": "1.1x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -5.64,
-    "change_pct": -4.55,
-    "close": 118.22,
-    "previous_close": 123.86,
+    "as_of": "2026-09-28",
+    "change": -5.44,
+    "change_pct": -4.6,
+    "close": 112.78,
+    "previous_close": 118.22,
     "type": "EOD_CLOSE",
-    "volume": 11075
+    "volume": 8002
   },
   "range": {
-    "distance_from_high_pct": -20.92,
-    "distance_from_low_pct": 13.67,
+    "distance_from_high_pct": -24.56,
+    "distance_from_low_pct": 8.44,
     "high_52w": 149.5,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 104.0,
-    "range_position_pct": 31.25
+    "range_position_pct": 19.3
   },
   "risk_model": {
-    "invalidation_floor": 114.08,
-    "risk_per_share": 6.5,
-    "technical_pivot": 120.58
+    "invalidation_floor": 108.83,
+    "risk_per_share": 6.21,
+    "technical_pivot": 115.04
   },
   "schema_version": "1.0",
   "sector": null,

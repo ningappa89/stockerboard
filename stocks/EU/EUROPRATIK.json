@@ -1993,14 +1993,22 @@
       "open": 213.5,
       "time": "2026-09-25",
       "volume": 201904
+    },
+    {
+      "close": 206.4,
+      "high": 214.6,
+      "low": 204.05,
+      "open": 214.55,
+      "time": "2026-09-28",
+      "volume": 99249
     }
   ],
   "company_name": "EURO PRATIK SALES LIMITED",
   "history": {
     "first_session": "2025-09-23",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 249
+    "last_session": "2026-09-28",
+    "sessions_available": 250
   },
   "industry": null,
   "isin": "INE198501012",
@@ -2010,29 +2018,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.95x"
+    "volume_multiplier": "0.47x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.5,
-    "change_pct": 0.71,
-    "close": 213.15,
-    "previous_close": 211.65,
+    "as_of": "2026-09-28",
+    "change": -6.75,
+    "change_pct": -3.17,
+    "close": 206.4,
+    "previous_close": 213.15,
     "type": "EOD_CLOSE",
-    "volume": 201904
+    "volume": 99249
   },
   "range": {
-    "distance_from_high_pct": -45.35,
-    "distance_from_low_pct": 3.92,
+    "distance_from_high_pct": -47.08,
+    "distance_from_low_pct": 1.15,
     "high_52w": 390.0,
     "history_basis": "52_WEEK",
-    "low_52w": 205.1,
-    "range_position_pct": 4.35
+    "low_52w": 204.05,
+    "range_position_pct": 1.26
   },
   "risk_model": {
-    "invalidation_floor": 205.69,
-    "risk_per_share": 11.72,
-    "technical_pivot": 217.41
+    "invalidation_floor": 199.18,
+    "risk_per_share": 11.35,
+    "technical_pivot": 210.53
   },
   "schema_version": "1.0",
   "sector": null,

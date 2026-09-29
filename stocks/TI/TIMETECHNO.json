@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 238.05,
-      "high": 240.4,
-      "low": 235.57,
-      "open": 239.0,
-      "time": "2025-09-18",
-      "volume": 2476586
-    },
-    {
       "close": 239.82,
       "high": 241.5,
       "low": 236.1,
@@ -2017,13 +2009,21 @@
       "open": 179.31,
       "time": "2026-09-25",
       "volume": 2079844
+    },
+    {
+      "close": 183.44,
+      "high": 185.4,
+      "low": 179.91,
+      "open": 181.0,
+      "time": "2026-09-28",
+      "volume": 3582524
     }
   ],
   "company_name": "TIME TECHNOPLAST LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 49,
+    "momentum_score": 50,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.83x"
+    "volume_multiplier": "1.41x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.91,
-    "change_pct": 1.07,
-    "close": 181.22,
-    "previous_close": 179.31,
+    "as_of": "2026-09-28",
+    "change": 2.22,
+    "change_pct": 1.23,
+    "close": 183.44,
+    "previous_close": 181.22,
     "type": "EOD_CLOSE",
-    "volume": 2079844
+    "volume": 3582524
   },
   "range": {
-    "distance_from_high_pct": -27.26,
-    "distance_from_low_pct": 17.68,
+    "distance_from_high_pct": -26.37,
+    "distance_from_low_pct": 19.12,
     "high_52w": 249.15,
     "history_basis": "52_WEEK",
     "low_52w": 154.0,
-    "range_position_pct": 28.61
+    "range_position_pct": 30.94
   },
   "risk_model": {
-    "invalidation_floor": 174.88,
-    "risk_per_share": 9.96,
-    "technical_pivot": 184.84
+    "invalidation_floor": 177.02,
+    "risk_per_share": 10.09,
+    "technical_pivot": 187.11
   },
   "schema_version": "1.0",
   "sector": null,

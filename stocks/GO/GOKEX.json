@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 823.9,
-      "high": 830.0,
-      "low": 806.0,
-      "open": 823.0,
-      "time": "2025-09-18",
-      "volume": 275042
-    },
-    {
       "close": 835.55,
       "high": 838.85,
       "low": 817.0,
@@ -2017,13 +2009,21 @@
       "open": 698.0,
       "time": "2026-09-25",
       "volume": 158193
+    },
+    {
+      "close": 671.85,
+      "high": 689.3,
+      "low": 666.8,
+      "open": 686.45,
+      "time": "2026-09-28",
+      "volume": 627253
     }
   ],
   "company_name": "GOKALDAS EXPORTS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.63x"
+    "momentum_score": 45,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.31x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -3.25,
-    "change_pct": -0.47,
-    "close": 689.6,
-    "previous_close": 692.85,
+    "as_of": "2026-09-28",
+    "change": -17.75,
+    "change_pct": -2.57,
+    "close": 671.85,
+    "previous_close": 689.6,
     "type": "EOD_CLOSE",
-    "volume": 158193
+    "volume": 627253
   },
   "range": {
-    "distance_from_high_pct": -27.78,
-    "distance_from_low_pct": 29.87,
+    "distance_from_high_pct": -29.64,
+    "distance_from_low_pct": 26.53,
     "high_52w": 954.9,
     "history_basis": "52_WEEK",
     "low_52w": 531.0,
-    "range_position_pct": 37.41
+    "range_position_pct": 33.23
   },
   "risk_model": {
-    "invalidation_floor": 665.46,
-    "risk_per_share": 37.93,
-    "technical_pivot": 703.39
+    "invalidation_floor": 648.34,
+    "risk_per_share": 36.95,
+    "technical_pivot": 685.29
   },
   "schema_version": "1.0",
   "sector": null,

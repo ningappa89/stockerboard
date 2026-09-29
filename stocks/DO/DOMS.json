@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2596.6,
-      "high": 2657.0,
-      "low": 2579.2,
-      "open": 2608.0,
-      "time": "2025-09-18",
-      "volume": 32945
-    },
-    {
       "close": 2622.3,
       "high": 2636.7,
       "low": 2575.0,
@@ -2017,13 +2009,21 @@
       "open": 2104.3,
       "time": "2026-09-25",
       "volume": 13623
+    },
+    {
+      "close": 2046.5,
+      "high": 2088.6,
+      "low": 2045.0,
+      "open": 2083.9,
+      "time": "2026-09-28",
+      "volume": 31057
     }
   ],
   "company_name": "DOMS Industries Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 53,
+    "momentum_score": 51,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.33x"
+    "volume_multiplier": "0.76x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -26.0,
-    "change_pct": -1.23,
-    "close": 2083.0,
-    "previous_close": 2109.0,
+    "as_of": "2026-09-28",
+    "change": -36.5,
+    "change_pct": -1.75,
+    "close": 2046.5,
+    "previous_close": 2083.0,
     "type": "EOD_CLOSE",
-    "volume": 13623
+    "volume": 31057
   },
   "range": {
-    "distance_from_high_pct": -24.39,
-    "distance_from_low_pct": 2.92,
+    "distance_from_high_pct": -25.72,
+    "distance_from_low_pct": 1.12,
     "high_52w": 2755.0,
     "history_basis": "52_WEEK",
     "low_52w": 2023.9,
-    "range_position_pct": 8.08
+    "range_position_pct": 3.09
   },
   "risk_model": {
-    "invalidation_floor": 2010.1,
-    "risk_per_share": 114.56,
-    "technical_pivot": 2124.66
+    "invalidation_floor": 1974.87,
+    "risk_per_share": 112.56,
+    "technical_pivot": 2087.43
   },
   "schema_version": "1.0",
   "sector": null,

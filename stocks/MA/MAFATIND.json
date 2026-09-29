@@ -889,14 +889,22 @@
       "open": 119.82,
       "time": "2026-09-25",
       "volume": 88400
+    },
+    {
+      "close": 115.41,
+      "high": 120.0,
+      "low": 114.5,
+      "open": 119.0,
+      "time": "2026-09-28",
+      "volume": 36925
     }
   ],
   "company_name": "MAFATLAL INDUSTRIES LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE270B01035",
@@ -904,31 +912,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 51,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.69x"
+    "momentum_score": 49,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.11x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.89,
-    "change_pct": -2.41,
-    "close": 116.92,
-    "previous_close": 119.81,
+    "as_of": "2026-09-28",
+    "change": -1.51,
+    "change_pct": -1.29,
+    "close": 115.41,
+    "previous_close": 116.92,
     "type": "EOD_CLOSE",
-    "volume": 88400
+    "volume": 36925
   },
   "range": {
-    "distance_from_high_pct": -25.89,
-    "distance_from_low_pct": 3.1,
+    "distance_from_high_pct": -26.85,
+    "distance_from_low_pct": 1.77,
     "high_52w": 157.77,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 113.4,
-    "range_position_pct": 7.93
+    "range_position_pct": 4.53
   },
   "risk_model": {
-    "invalidation_floor": 112.83,
-    "risk_per_share": 6.43,
-    "technical_pivot": 119.26
+    "invalidation_floor": 111.37,
+    "risk_per_share": 6.35,
+    "technical_pivot": 117.72
   },
   "schema_version": "1.0",
   "sector": null,

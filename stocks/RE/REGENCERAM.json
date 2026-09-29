@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 44.41,
-      "high": 45.99,
-      "low": 43.95,
-      "open": 44.99,
-      "time": "2025-09-18",
-      "volume": 7677
-    },
-    {
       "close": 43.04,
       "high": 45.94,
       "low": 42.9,
@@ -2017,13 +2009,21 @@
       "open": 34.78,
       "time": "2026-09-25",
       "volume": 1978
+    },
+    {
+      "close": 32.64,
+      "high": 33.73,
+      "low": 31.0,
+      "open": 33.39,
+      "time": "2026-09-28",
+      "volume": 899
     }
   ],
   "company_name": "REGENCY CERAMICS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.68x"
+    "volume_multiplier": "0.31x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.39,
-    "change_pct": -4.0,
-    "close": 33.39,
-    "previous_close": 34.78,
+    "as_of": "2026-09-28",
+    "change": -0.75,
+    "change_pct": -2.25,
+    "close": 32.64,
+    "previous_close": 33.39,
     "type": "EOD_CLOSE",
-    "volume": 1978
+    "volume": 899
   },
   "range": {
-    "distance_from_high_pct": -39.28,
-    "distance_from_low_pct": 11.3,
+    "distance_from_high_pct": -40.64,
+    "distance_from_low_pct": 8.8,
     "high_52w": 54.99,
     "history_basis": "52_WEEK",
     "low_52w": 30.0,
-    "range_position_pct": 13.57
+    "range_position_pct": 10.56
   },
   "risk_model": {
-    "invalidation_floor": 32.22,
-    "risk_per_share": 1.84,
-    "technical_pivot": 34.06
+    "invalidation_floor": 31.5,
+    "risk_per_share": 1.79,
+    "technical_pivot": 33.29
   },
   "schema_version": "1.0",
   "sector": null,

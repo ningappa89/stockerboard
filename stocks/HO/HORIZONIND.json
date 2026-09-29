@@ -193,14 +193,22 @@
       "open": 51.81,
       "time": "2026-09-25",
       "volume": 5295503
+    },
+    {
+      "close": 51.79,
+      "high": 52.4,
+      "low": 50.0,
+      "open": 50.25,
+      "time": "2026-09-28",
+      "volume": 5041297
     }
   ],
   "company_name": "HORIZON INDUSTRIAL PRKS L",
   "history": {
     "first_session": "2026-08-24",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 24
+    "last_session": "2026-09-28",
+    "sessions_available": 25
   },
   "industry": null,
   "isin": "INE685T01010",
@@ -208,31 +216,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 68,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.18x"
+    "volume_multiplier": "1.15x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.29,
-    "change_pct": -2.49,
-    "close": 50.52,
-    "previous_close": 51.81,
+    "as_of": "2026-09-28",
+    "change": 1.27,
+    "change_pct": 2.51,
+    "close": 51.79,
+    "previous_close": 50.52,
     "type": "EOD_CLOSE",
-    "volume": 5295503
+    "volume": 5041297
   },
   "range": {
-    "distance_from_high_pct": -16.15,
-    "distance_from_low_pct": 1.04,
+    "distance_from_high_pct": -14.04,
+    "distance_from_low_pct": 3.58,
     "high_52w": 60.25,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 50.0,
-    "range_position_pct": 5.07
+    "range_position_pct": 17.46
   },
   "risk_model": {
-    "invalidation_floor": 48.75,
-    "risk_per_share": 2.78,
-    "technical_pivot": 51.53
+    "invalidation_floor": 49.98,
+    "risk_per_share": 2.85,
+    "technical_pivot": 52.83
   },
   "schema_version": "1.0",
   "sector": null,

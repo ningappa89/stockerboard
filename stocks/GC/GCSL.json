@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 287.35,
-      "high": 299.9,
-      "low": 284.0,
-      "open": 287.85,
-      "time": "2025-09-17",
-      "volume": 59682
-    },
-    {
       "close": 274.25,
       "high": 293.1,
       "low": 273.1,
@@ -2017,13 +2009,21 @@
       "open": 633.5,
       "time": "2026-09-25",
       "volume": 444252
+    },
+    {
+      "close": 667.35,
+      "high": 670.5,
+      "low": 652.5,
+      "open": 656.75,
+      "time": "2026-09-28",
+      "volume": 273458
     }
   ],
   "company_name": "GRETEX CORPORATE SERVICES",
   "history": {
-    "first_session": "2025-09-17",
+    "first_session": "2025-09-18",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": true,
     "momentum_score": 89,
     "setup_type": "52W High Breakout",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "0.37x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 20.15,
-    "change_pct": 3.18,
-    "close": 653.45,
-    "previous_close": 633.3,
+    "as_of": "2026-09-28",
+    "change": 13.9,
+    "change_pct": 2.13,
+    "close": 667.35,
+    "previous_close": 653.45,
     "type": "EOD_CLOSE",
-    "volume": 444252
+    "volume": 273458
   },
   "range": {
-    "distance_from_high_pct": -0.24,
-    "distance_from_low_pct": 206.57,
-    "high_52w": 655.0,
+    "distance_from_high_pct": -0.47,
+    "distance_from_low_pct": 213.09,
+    "high_52w": 670.5,
     "history_basis": "52_WEEK",
     "low_52w": 213.15,
-    "range_position_pct": 99.65
+    "range_position_pct": 99.31
   },
   "risk_model": {
-    "invalidation_floor": 630.58,
-    "risk_per_share": 28.1,
-    "technical_pivot": 658.68
+    "invalidation_floor": 643.99,
+    "risk_per_share": 28.7,
+    "technical_pivot": 672.69
   },
   "schema_version": "1.0",
   "sector": null,

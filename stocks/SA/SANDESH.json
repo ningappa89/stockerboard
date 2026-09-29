@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1203.4,
-      "high": 1210.0,
-      "low": 1201.0,
-      "open": 1209.9,
-      "time": "2025-09-18",
-      "volume": 406
-    },
-    {
       "close": 1199.3,
       "high": 1215.0,
       "low": 1194.6,
@@ -2017,13 +2009,21 @@
       "open": 1025.0,
       "time": "2026-09-25",
       "volume": 566
+    },
+    {
+      "close": 1027.9,
+      "high": 1034.4,
+      "low": 1009.0,
+      "open": 1034.4,
+      "time": "2026-09-28",
+      "volume": 563
     }
   ],
   "company_name": "SANDESH LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.54x"
+    "volume_multiplier": "0.57x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 20.1,
-    "change_pct": 1.98,
-    "close": 1034.4,
-    "previous_close": 1014.3,
+    "as_of": "2026-09-28",
+    "change": -6.5,
+    "change_pct": -0.63,
+    "close": 1027.9,
+    "previous_close": 1034.4,
     "type": "EOD_CLOSE",
-    "volume": 566
+    "volume": 563
   },
   "range": {
-    "distance_from_high_pct": -18.55,
-    "distance_from_low_pct": 27.55,
+    "distance_from_high_pct": -19.06,
+    "distance_from_low_pct": 26.74,
     "high_52w": 1270.0,
     "history_basis": "52_WEEK",
     "low_52w": 811.0,
-    "range_position_pct": 48.67
+    "range_position_pct": 47.25
   },
   "risk_model": {
-    "invalidation_floor": 998.2,
-    "risk_per_share": 56.89,
-    "technical_pivot": 1055.09
+    "invalidation_floor": 991.92,
+    "risk_per_share": 56.54,
+    "technical_pivot": 1048.46
   },
   "schema_version": "1.0",
   "sector": null,

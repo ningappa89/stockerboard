@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1020.5,
-      "high": 1039.7,
-      "low": 1015.0,
-      "open": 1039.7,
-      "time": "2025-09-18",
-      "volume": 96579
-    },
-    {
       "close": 1004.8,
       "high": 1022.7,
       "low": 998.45,
@@ -2017,13 +2009,21 @@
       "open": 463.0,
       "time": "2026-09-25",
       "volume": 451893
+    },
+    {
+      "close": 444.55,
+      "high": 454.9,
+      "low": 442.0,
+      "open": 454.9,
+      "time": "2026-09-28",
+      "volume": 135545
     }
   ],
   "company_name": "H.G.INFRA ENGINEERING LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.62x"
+    "volume_multiplier": "0.18x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -14.95,
-    "change_pct": -3.19,
-    "close": 453.1,
-    "previous_close": 468.05,
+    "as_of": "2026-09-28",
+    "change": -8.55,
+    "change_pct": -1.89,
+    "close": 444.55,
+    "previous_close": 453.1,
     "type": "EOD_CLOSE",
-    "volume": 451893
+    "volume": 135545
   },
   "range": {
-    "distance_from_high_pct": -56.42,
-    "distance_from_low_pct": 5.49,
-    "high_52w": 1039.7,
+    "distance_from_high_pct": -56.53,
+    "distance_from_low_pct": 3.5,
+    "high_52w": 1022.7,
     "history_basis": "52_WEEK",
     "low_52w": 429.5,
-    "range_position_pct": 3.87
+    "range_position_pct": 2.54
   },
   "risk_model": {
-    "invalidation_floor": 437.24,
-    "risk_per_share": 24.92,
-    "technical_pivot": 462.16
+    "invalidation_floor": 428.99,
+    "risk_per_share": 24.45,
+    "technical_pivot": 453.44
   },
   "schema_version": "1.0",
   "sector": null,

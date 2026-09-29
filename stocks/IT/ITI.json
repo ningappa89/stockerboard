@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 316.65,
-      "high": 321.9,
-      "low": 315.2,
-      "open": 321.2,
-      "time": "2025-09-18",
-      "volume": 354496
-    },
-    {
       "close": 320.35,
       "high": 323.0,
       "low": 314.65,
@@ -2017,13 +2009,21 @@
       "open": 250.8,
       "time": "2026-09-25",
       "volume": 96575
+    },
+    {
+      "close": 245.8,
+      "high": 254.7,
+      "low": 244.15,
+      "open": 253.0,
+      "time": "2026-09-28",
+      "volume": 155783
     }
   ],
   "company_name": "ITI LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 41,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.64x"
+    "volume_multiplier": "1.04x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.85,
-    "change_pct": 0.74,
-    "close": 252.9,
-    "previous_close": 251.05,
+    "as_of": "2026-09-28",
+    "change": -7.1,
+    "change_pct": -2.81,
+    "close": 245.8,
+    "previous_close": 252.9,
     "type": "EOD_CLOSE",
-    "volume": 96575
+    "volume": 155783
   },
   "range": {
-    "distance_from_high_pct": -32.17,
-    "distance_from_low_pct": 6.71,
+    "distance_from_high_pct": -34.08,
+    "distance_from_low_pct": 3.71,
     "high_52w": 372.85,
     "history_basis": "52_WEEK",
     "low_52w": 237.0,
-    "range_position_pct": 11.7
+    "range_position_pct": 6.48
   },
   "risk_model": {
-    "invalidation_floor": 244.05,
-    "risk_per_share": 13.91,
-    "technical_pivot": 257.96
+    "invalidation_floor": 237.2,
+    "risk_per_share": 13.52,
+    "technical_pivot": 250.72
   },
   "schema_version": "1.0",
   "sector": null,

@@ -233,46 +233,54 @@
       "open": 562.5,
       "time": "2026-09-25",
       "volume": 6912
+    },
+    {
+      "close": 604.7,
+      "high": 644.4,
+      "low": 562.6,
+      "open": 565.4,
+      "time": "2026-09-28",
+      "volume": 66544
     }
   ],
   "company_name": "ALUFLUORIDE LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE058F01019",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 85,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.75x"
+    "momentum_score": 80,
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "5.7x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.4,
-    "change_pct": -0.07,
-    "close": 565.4,
-    "previous_close": 565.8,
+    "as_of": "2026-09-28",
+    "change": 39.3,
+    "change_pct": 6.95,
+    "close": 604.7,
+    "previous_close": 565.4,
     "type": "EOD_CLOSE",
-    "volume": 6912
+    "volume": 66544
   },
   "range": {
-    "distance_from_high_pct": -2.81,
-    "distance_from_low_pct": 34.3,
-    "high_52w": 581.75,
+    "distance_from_high_pct": -6.16,
+    "distance_from_low_pct": 43.63,
+    "high_52w": 644.4,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 421.0,
-    "range_position_pct": 89.83
+    "range_position_pct": 82.23
   },
   "risk_model": {
-    "invalidation_floor": 545.61,
-    "risk_per_share": 31.1,
-    "technical_pivot": 576.71
+    "invalidation_floor": 583.54,
+    "risk_per_share": 33.25,
+    "technical_pivot": 616.79
   },
   "schema_version": "1.0",
   "sector": null,

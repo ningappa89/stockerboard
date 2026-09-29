@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 5436.0,
-      "high": 5471.3,
-      "low": 5396.0,
-      "open": 5410.1,
-      "time": "2025-09-18",
-      "volume": 293576
-    },
-    {
       "close": 5436.9,
       "high": 5464.7,
       "low": 5418.0,
@@ -2017,13 +2009,21 @@
       "open": 7111.0,
       "time": "2026-09-25",
       "volume": 80574
+    },
+    {
+      "close": 6972.5,
+      "high": 7041.5,
+      "low": 6910.5,
+      "open": 7038.0,
+      "time": "2026-09-28",
+      "volume": 209202
     }
   ],
   "company_name": "ABB INDIA LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 73,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.46x"
+    "volume_multiplier": "1.16x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -76.5,
-    "change_pct": -1.07,
-    "close": 7052.5,
-    "previous_close": 7129.0,
+    "as_of": "2026-09-28",
+    "change": -80.0,
+    "change_pct": -1.13,
+    "close": 6972.5,
+    "previous_close": 7052.5,
     "type": "EOD_CLOSE",
-    "volume": 80574
+    "volume": 209202
   },
   "range": {
-    "distance_from_high_pct": -11.0,
-    "distance_from_low_pct": 52.08,
+    "distance_from_high_pct": -12.01,
+    "distance_from_low_pct": 50.35,
     "high_52w": 7924.5,
     "history_basis": "52_WEEK",
     "low_52w": 4637.5,
-    "range_position_pct": 73.47
+    "range_position_pct": 71.04
   },
   "risk_model": {
-    "invalidation_floor": 6805.66,
-    "risk_per_share": 387.89,
-    "technical_pivot": 7193.55
+    "invalidation_floor": 6728.46,
+    "risk_per_share": 383.49,
+    "technical_pivot": 7111.95
   },
   "schema_version": "1.0",
   "sector": null,

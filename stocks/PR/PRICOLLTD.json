@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 545.65,
-      "high": 546.85,
-      "low": 534.0,
-      "open": 538.3,
-      "time": "2025-09-18",
-      "volume": 351786
-    },
-    {
       "close": 539.85,
       "high": 547.25,
       "low": 535.95,
@@ -2017,13 +2009,21 @@
       "open": 763.8,
       "time": "2026-09-25",
       "volume": 143267
+    },
+    {
+      "close": 753.1,
+      "high": 764.45,
+      "low": 751.1,
+      "open": 759.4,
+      "time": "2026-09-28",
+      "volume": 193298
     }
   ],
   "company_name": "Pricol Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 78,
+    "momentum_score": 77,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.45x"
+    "volume_multiplier": "0.61x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -4.4,
-    "change_pct": -0.58,
-    "close": 759.4,
-    "previous_close": 763.8,
+    "as_of": "2026-09-28",
+    "change": -6.3,
+    "change_pct": -0.83,
+    "close": 753.1,
+    "previous_close": 759.4,
     "type": "EOD_CLOSE",
-    "volume": 143267
+    "volume": 193298
   },
   "range": {
-    "distance_from_high_pct": -7.73,
-    "distance_from_low_pct": 51.91,
+    "distance_from_high_pct": -8.49,
+    "distance_from_low_pct": 50.65,
     "high_52w": 823.0,
     "history_basis": "52_WEEK",
     "low_52w": 499.9,
-    "range_position_pct": 80.32
+    "range_position_pct": 78.37
   },
   "risk_model": {
-    "invalidation_floor": 732.82,
-    "risk_per_share": 41.77,
-    "technical_pivot": 774.59
+    "invalidation_floor": 726.74,
+    "risk_per_share": 41.42,
+    "technical_pivot": 768.16
   },
   "schema_version": "1.0",
   "sector": null,

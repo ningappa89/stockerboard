@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1133.4,
-      "high": 1219.5,
-      "low": 1114.5,
-      "open": 1216.3,
-      "time": "2025-09-18",
-      "volume": 211636
-    },
-    {
       "close": 1128.4,
       "high": 1149.9,
       "low": 1115.4,
@@ -2017,13 +2009,21 @@
       "open": 1220.0,
       "time": "2026-09-25",
       "volume": 45394
+    },
+    {
+      "close": 1142.2,
+      "high": 1206.7,
+      "low": 1134.1,
+      "open": 1206.7,
+      "time": "2026-09-28",
+      "volume": 40786
     }
   ],
   "company_name": "XPRO INDIA LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 54,
+    "momentum_score": 48,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.29x"
+    "volume_multiplier": "0.26x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -9.9,
-    "change_pct": -0.82,
-    "close": 1197.1,
-    "previous_close": 1207.0,
+    "as_of": "2026-09-28",
+    "change": -54.9,
+    "change_pct": -4.59,
+    "close": 1142.2,
+    "previous_close": 1197.1,
     "type": "EOD_CLOSE",
-    "volume": 45394
+    "volume": 40786
   },
   "range": {
-    "distance_from_high_pct": -23.98,
-    "distance_from_low_pct": 51.91,
+    "distance_from_high_pct": -27.47,
+    "distance_from_low_pct": 44.94,
     "high_52w": 1574.8,
     "history_basis": "52_WEEK",
     "low_52w": 788.05,
-    "range_position_pct": 51.99
+    "range_position_pct": 45.01
   },
   "risk_model": {
-    "invalidation_floor": 1155.2,
-    "risk_per_share": 65.84,
-    "technical_pivot": 1221.04
+    "invalidation_floor": 1102.22,
+    "risk_per_share": 62.82,
+    "technical_pivot": 1165.04
   },
   "schema_version": "1.0",
   "sector": null,

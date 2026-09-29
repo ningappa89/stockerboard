@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 138.76,
-      "high": 139.5,
-      "low": 135.72,
-      "open": 137.43,
-      "time": "2025-09-18",
-      "volume": 15571795
-    },
-    {
       "close": 140.89,
       "high": 142.63,
       "low": 138.89,
@@ -2017,13 +2009,21 @@
       "open": 157.52,
       "time": "2026-09-25",
       "volume": 10274172
+    },
+    {
+      "close": 155.22,
+      "high": 158.88,
+      "low": 154.7,
+      "open": 158.51,
+      "time": "2026-09-28",
+      "volume": 12214126
     }
   ],
   "company_name": "ASHOK LEYLAND LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Automobile and Auto Components",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 50,
+    "momentum_score": 48,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.87x"
+    "volume_multiplier": "1.03x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.78,
-    "change_pct": 1.13,
-    "close": 159.08,
-    "previous_close": 157.3,
+    "as_of": "2026-09-28",
+    "change": -3.86,
+    "change_pct": -2.43,
+    "close": 155.22,
+    "previous_close": 159.08,
     "type": "EOD_CLOSE",
-    "volume": 10274172
+    "volume": 12214126
   },
   "range": {
-    "distance_from_high_pct": -26.15,
-    "distance_from_low_pct": 18.53,
+    "distance_from_high_pct": -27.95,
+    "distance_from_low_pct": 15.65,
     "high_52w": 215.42,
     "history_basis": "52_WEEK",
     "low_52w": 134.21,
-    "range_position_pct": 30.62
+    "range_position_pct": 25.87
   },
   "risk_model": {
-    "invalidation_floor": 153.51,
-    "risk_per_share": 8.75,
-    "technical_pivot": 162.26
+    "invalidation_floor": 149.79,
+    "risk_per_share": 8.53,
+    "technical_pivot": 158.32
   },
   "schema_version": "1.0",
   "sector": "Automobile and Auto Components",

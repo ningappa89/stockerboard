@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2053.0,
-      "high": 2060.0,
-      "low": 2020.4,
-      "open": 2027.0,
-      "time": "2025-09-18",
-      "volume": 150223
-    },
-    {
       "close": 2042.0,
       "high": 2059.0,
       "low": 2025.8,
@@ -2017,13 +2009,21 @@
       "open": 1926.0,
       "time": "2026-09-25",
       "volume": 120437
+    },
+    {
+      "close": 1926.0,
+      "high": 1976.8,
+      "low": 1920.0,
+      "open": 1963.1,
+      "time": "2026-09-28",
+      "volume": 39451
     }
   ],
   "company_name": "FIEM INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 50,
+    "momentum_score": 48,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.88x"
+    "volume_multiplier": "0.62x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 48.3,
-    "change_pct": 2.52,
-    "close": 1965.5,
-    "previous_close": 1917.2,
+    "as_of": "2026-09-28",
+    "change": -39.5,
+    "change_pct": -2.01,
+    "close": 1926.0,
+    "previous_close": 1965.5,
     "type": "EOD_CLOSE",
-    "volume": 120437
+    "volume": 39451
   },
   "range": {
-    "distance_from_high_pct": -26.52,
-    "distance_from_low_pct": 5.19,
+    "distance_from_high_pct": -27.99,
+    "distance_from_low_pct": 3.08,
     "high_52w": 2674.8,
     "history_basis": "52_WEEK",
     "low_52w": 1868.5,
-    "range_position_pct": 12.03
+    "range_position_pct": 7.13
   },
   "risk_model": {
-    "invalidation_floor": 1896.71,
-    "risk_per_share": 108.1,
-    "technical_pivot": 2004.81
+    "invalidation_floor": 1858.59,
+    "risk_per_share": 105.93,
+    "technical_pivot": 1964.52
   },
   "schema_version": "1.0",
   "sector": null,

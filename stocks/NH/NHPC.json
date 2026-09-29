@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 87.09,
-      "high": 88.69,
-      "low": 86.6,
-      "open": 87.5,
-      "time": "2025-09-18",
-      "volume": 16436138
-    },
-    {
       "close": 87.82,
       "high": 89.22,
       "low": 87.3,
@@ -2017,13 +2009,21 @@
       "open": 76.17,
       "time": "2026-09-25",
       "volume": 6481994
+    },
+    {
+      "close": 74.5,
+      "high": 75.9,
+      "low": 74.3,
+      "open": 75.6,
+      "time": "2026-09-28",
+      "volume": 5560492
     }
   ],
   "company_name": "NHPC LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 67,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "0.52x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.25,
-    "change_pct": -0.33,
-    "close": 76.0,
-    "previous_close": 76.25,
+    "as_of": "2026-09-28",
+    "change": -1.5,
+    "change_pct": -1.97,
+    "close": 74.5,
+    "previous_close": 76.0,
     "type": "EOD_CLOSE",
-    "volume": 6481994
+    "volume": 5560492
   },
   "range": {
-    "distance_from_high_pct": -14.82,
-    "distance_from_low_pct": 6.12,
+    "distance_from_high_pct": -16.5,
+    "distance_from_low_pct": 4.02,
     "high_52w": 89.22,
     "history_basis": "52_WEEK",
     "low_52w": 71.62,
-    "range_position_pct": 24.89
+    "range_position_pct": 16.36
   },
   "risk_model": {
-    "invalidation_floor": 73.34,
-    "risk_per_share": 4.18,
-    "technical_pivot": 77.52
+    "invalidation_floor": 71.89,
+    "risk_per_share": 4.1,
+    "technical_pivot": 75.99
   },
   "schema_version": "1.0",
   "sector": null,

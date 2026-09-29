@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 36.59,
-      "high": 37.87,
-      "low": 35.78,
-      "open": 37.75,
-      "time": "2025-09-18",
-      "volume": 214406
-    },
-    {
       "close": 36.51,
       "high": 37.34,
       "low": 36.1,
@@ -2017,13 +2009,21 @@
       "open": 33.41,
       "time": "2026-09-25",
       "volume": 415607
+    },
+    {
+      "close": 31.87,
+      "high": 33.11,
+      "low": 31.5,
+      "open": 32.9,
+      "time": "2026-09-28",
+      "volume": 142126
     }
   ],
   "company_name": "GEEKAY WIRES LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
+    "is_stage2": false,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.86x"
+    "volume_multiplier": "0.31x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.51,
-    "change_pct": -1.53,
-    "close": 32.9,
-    "previous_close": 33.41,
+    "as_of": "2026-09-28",
+    "change": -1.03,
+    "change_pct": -3.13,
+    "close": 31.87,
+    "previous_close": 32.9,
     "type": "EOD_CLOSE",
-    "volume": 415607
+    "volume": 142126
   },
   "range": {
-    "distance_from_high_pct": -13.12,
-    "distance_from_low_pct": 77.74,
-    "high_52w": 37.87,
+    "distance_from_high_pct": -14.69,
+    "distance_from_low_pct": 72.18,
+    "high_52w": 37.36,
     "history_basis": "52_WEEK",
     "low_52w": 18.51,
-    "range_position_pct": 74.33
+    "range_position_pct": 70.88
   },
   "risk_model": {
-    "invalidation_floor": 31.75,
-    "risk_per_share": 1.81,
-    "technical_pivot": 33.56
+    "invalidation_floor": 30.75,
+    "risk_per_share": 1.76,
+    "technical_pivot": 32.51
   },
   "schema_version": "1.0",
   "sector": null,

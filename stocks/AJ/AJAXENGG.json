@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 674.9,
-      "high": 683.0,
-      "low": 658.1,
-      "open": 661.0,
-      "time": "2025-09-18",
-      "volume": 176530
-    },
-    {
       "close": 675.8,
       "high": 684.0,
       "low": 670.4,
@@ -2017,13 +2009,21 @@
       "open": 592.0,
       "time": "2026-09-25",
       "volume": 695472
+    },
+    {
+      "close": 589.9,
+      "high": 618.05,
+      "low": 585.2,
+      "open": 614.0,
+      "time": "2026-09-28",
+      "volume": 174202
     }
   ],
   "company_name": "AJAX Engineering Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "4.37x"
+    "is_stage2": false,
+    "momentum_score": 66,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.05x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 32.55,
-    "change_pct": 5.66,
-    "close": 607.75,
-    "previous_close": 575.2,
+    "as_of": "2026-09-28",
+    "change": -17.85,
+    "change_pct": -2.94,
+    "close": 589.9,
+    "previous_close": 607.75,
     "type": "EOD_CLOSE",
-    "volume": 695472
+    "volume": 174202
   },
   "range": {
-    "distance_from_high_pct": -12.87,
-    "distance_from_low_pct": 53.94,
+    "distance_from_high_pct": -15.43,
+    "distance_from_low_pct": 49.42,
     "high_52w": 697.55,
     "history_basis": "52_WEEK",
     "low_52w": 394.8,
-    "range_position_pct": 70.34
+    "range_position_pct": 64.44
   },
   "risk_model": {
-    "invalidation_floor": 586.48,
-    "risk_per_share": 33.42,
-    "technical_pivot": 619.9
+    "invalidation_floor": 569.25,
+    "risk_per_share": 32.45,
+    "technical_pivot": 601.7
   },
   "schema_version": "1.0",
   "sector": null,

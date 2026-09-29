@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 26.25,
-      "high": 28.1,
-      "low": 26.03,
-      "open": 26.82,
-      "time": "2025-09-18",
-      "volume": 296602
-    },
-    {
       "close": 25.34,
       "high": 26.8,
       "low": 25.0,
@@ -2017,13 +2009,21 @@
       "open": 19.0,
       "time": "2026-09-25",
       "volume": 108079
+    },
+    {
+      "close": 18.14,
+      "high": 18.56,
+      "low": 17.98,
+      "open": 18.52,
+      "time": "2026-09-28",
+      "volume": 177362
     }
   ],
   "company_name": "CENTURY EXTRUSIONS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.31x"
+    "volume_multiplier": "0.51x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.26,
-    "change_pct": -1.38,
-    "close": 18.56,
-    "previous_close": 18.82,
+    "as_of": "2026-09-28",
+    "change": -0.42,
+    "change_pct": -2.26,
+    "close": 18.14,
+    "previous_close": 18.56,
     "type": "EOD_CLOSE",
-    "volume": 108079
+    "volume": 177362
   },
   "range": {
-    "distance_from_high_pct": -46.59,
-    "distance_from_low_pct": 18.44,
+    "distance_from_high_pct": -47.8,
+    "distance_from_low_pct": 15.76,
     "high_52w": 34.75,
     "history_basis": "52_WEEK",
     "low_52w": 15.67,
-    "range_position_pct": 15.15
+    "range_position_pct": 12.95
   },
   "risk_model": {
-    "invalidation_floor": 17.91,
-    "risk_per_share": 1.02,
-    "technical_pivot": 18.93
+    "invalidation_floor": 17.51,
+    "risk_per_share": 0.99,
+    "technical_pivot": 18.5
   },
   "schema_version": "1.0",
   "sector": null,

@@ -889,46 +889,54 @@
       "open": 53.86,
       "time": "2026-09-25",
       "volume": 563618
+    },
+    {
+      "close": 53.81,
+      "high": 55.63,
+      "low": 53.05,
+      "open": 55.5,
+      "time": "2026-09-28",
+      "volume": 347359
     }
   ],
   "company_name": "WELSPUN SPECIALTY SOL L",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE731F01037",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
+    "is_stage2": false,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.57x"
+    "volume_multiplier": "0.35x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.54,
-    "change_pct": 2.88,
-    "close": 55.0,
-    "previous_close": 53.46,
+    "as_of": "2026-09-28",
+    "change": -1.19,
+    "change_pct": -2.16,
+    "close": 53.81,
+    "previous_close": 55.0,
     "type": "EOD_CLOSE",
-    "volume": 563618
+    "volume": 347359
   },
   "range": {
-    "distance_from_high_pct": -13.04,
-    "distance_from_low_pct": 52.78,
+    "distance_from_high_pct": -14.92,
+    "distance_from_low_pct": 49.47,
     "high_52w": 63.25,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 36.0,
-    "range_position_pct": 69.72
+    "range_position_pct": 65.36
   },
   "risk_model": {
-    "invalidation_floor": 53.07,
-    "risk_per_share": 3.03,
-    "technical_pivot": 56.1
+    "invalidation_floor": 51.93,
+    "risk_per_share": 2.96,
+    "technical_pivot": 54.89
   },
   "schema_version": "1.0",
   "sector": null,

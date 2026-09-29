@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 436.95,
-      "high": 443.5,
-      "low": 435.0,
-      "open": 441.8,
-      "time": "2025-09-18",
-      "volume": 137934
-    },
-    {
       "close": 432.6,
       "high": 441.0,
       "low": 430.4,
@@ -2017,46 +2009,54 @@
       "open": 502.85,
       "time": "2026-09-25",
       "volume": 1950037
+    },
+    {
+      "close": 531.5,
+      "high": 564.9,
+      "low": 527.6,
+      "open": 537.0,
+      "time": "2026-09-28",
+      "volume": 1323802
     }
   ],
   "company_name": "Quadrant Future Tek Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE0LRY01011",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 86,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "1.37x"
+    "momentum_score": 81,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.91x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 47.1,
-    "change_pct": 9.41,
-    "close": 547.5,
-    "previous_close": 500.4,
+    "as_of": "2026-09-28",
+    "change": -16.0,
+    "change_pct": -2.92,
+    "close": 531.5,
+    "previous_close": 547.5,
     "type": "EOD_CLOSE",
-    "volume": 1950037
+    "volume": 1323802
   },
   "range": {
-    "distance_from_high_pct": -2.18,
-    "distance_from_low_pct": 120.28,
-    "high_52w": 559.7,
+    "distance_from_high_pct": -5.91,
+    "distance_from_low_pct": 113.84,
+    "high_52w": 564.9,
     "history_basis": "52_WEEK",
     "low_52w": 248.55,
-    "range_position_pct": 96.08
+    "range_position_pct": 89.44
   },
   "risk_model": {
-    "invalidation_floor": 528.34,
-    "risk_per_share": 30.11,
-    "technical_pivot": 558.45
+    "invalidation_floor": 512.9,
+    "risk_per_share": 29.23,
+    "technical_pivot": 542.13
   },
   "schema_version": "1.0",
   "sector": null,

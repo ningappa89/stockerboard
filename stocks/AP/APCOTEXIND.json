@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 408.25,
-      "high": 415.0,
-      "low": 405.1,
-      "open": 408.35,
-      "time": "2025-09-18",
-      "volume": 23735
-    },
-    {
       "close": 418.4,
       "high": 424.9,
       "low": 405.1,
@@ -2017,13 +2009,21 @@
       "open": 607.9,
       "time": "2026-09-25",
       "volume": 86241
+    },
+    {
+      "close": 586.0,
+      "high": 599.4,
+      "low": 583.55,
+      "open": 599.4,
+      "time": "2026-09-28",
+      "volume": 68000
     }
   ],
   "company_name": "APCOTEX INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.58x"
+    "volume_multiplier": "0.47x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -3.45,
-    "change_pct": -0.57,
-    "close": 599.4,
-    "previous_close": 602.85,
+    "as_of": "2026-09-28",
+    "change": -13.4,
+    "change_pct": -2.24,
+    "close": 586.0,
+    "previous_close": 599.4,
     "type": "EOD_CLOSE",
-    "volume": 86241
+    "volume": 68000
   },
   "range": {
-    "distance_from_high_pct": -15.81,
-    "distance_from_low_pct": 93.07,
+    "distance_from_high_pct": -17.7,
+    "distance_from_low_pct": 88.76,
     "high_52w": 712.0,
     "history_basis": "52_WEEK",
     "low_52w": 310.45,
-    "range_position_pct": 71.96
+    "range_position_pct": 68.62
   },
   "risk_model": {
-    "invalidation_floor": 578.42,
-    "risk_per_share": 32.97,
-    "technical_pivot": 611.39
+    "invalidation_floor": 565.49,
+    "risk_per_share": 32.23,
+    "technical_pivot": 597.72
   },
   "schema_version": "1.0",
   "sector": null,

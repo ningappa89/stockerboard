@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 408.8,
-      "high": 414.25,
-      "low": 406.57,
-      "open": 410.0,
-      "time": "2025-09-18",
-      "volume": 68780
-    },
-    {
       "close": 412.5,
       "high": 418.5,
       "low": 406.23,
@@ -2017,13 +2009,21 @@
       "open": 1028.0,
       "time": "2026-09-25",
       "volume": 604526
+    },
+    {
+      "close": 1025.25,
+      "high": 1039.0,
+      "low": 998.0,
+      "open": 1018.0,
+      "time": "2026-09-28",
+      "volume": 678050
     }
   ],
   "company_name": "SHILPA MEDICARE LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 81,
+    "momentum_score": 83,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.53x"
+    "volume_multiplier": "0.6x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 6.15,
-    "change_pct": 0.61,
-    "close": 1013.45,
-    "previous_close": 1007.3,
+    "as_of": "2026-09-28",
+    "change": 11.8,
+    "change_pct": 1.16,
+    "close": 1025.25,
+    "previous_close": 1013.45,
     "type": "EOD_CLOSE",
-    "volume": 604526
+    "volume": 678050
   },
   "range": {
-    "distance_from_high_pct": -5.73,
-    "distance_from_low_pct": 290.54,
+    "distance_from_high_pct": -4.63,
+    "distance_from_low_pct": 295.09,
     "high_52w": 1075.0,
     "history_basis": "52_WEEK",
     "low_52w": 259.5,
-    "range_position_pct": 92.45
+    "range_position_pct": 93.9
   },
   "risk_model": {
-    "invalidation_floor": 977.98,
-    "risk_per_share": 55.74,
-    "technical_pivot": 1033.72
+    "invalidation_floor": 989.37,
+    "risk_per_share": 56.39,
+    "technical_pivot": 1045.76
   },
   "schema_version": "1.0",
   "sector": null,

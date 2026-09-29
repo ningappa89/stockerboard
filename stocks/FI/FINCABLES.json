@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 844.25,
-      "high": 855.0,
-      "low": 842.5,
-      "open": 855.0,
-      "time": "2025-09-18",
-      "volume": 111163
-    },
-    {
       "close": 830.85,
       "high": 847.65,
       "low": 829.05,
@@ -2017,46 +2009,54 @@
       "open": 1482.0,
       "time": "2026-09-25",
       "volume": 501380
+    },
+    {
+      "close": 1408.1,
+      "high": 1460.9,
+      "low": 1400.0,
+      "open": 1460.9,
+      "time": "2026-09-28",
+      "volume": 431897
     }
   ],
   "company_name": "FINOLEX CABLES LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE235A01022",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 86,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.39x"
+    "momentum_score": 81,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.33x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -19.1,
-    "change_pct": -1.29,
-    "close": 1460.9,
-    "previous_close": 1480.0,
+    "as_of": "2026-09-28",
+    "change": -52.8,
+    "change_pct": -3.61,
+    "close": 1408.1,
+    "previous_close": 1460.9,
     "type": "EOD_CLOSE",
-    "volume": 501380
+    "volume": 431897
   },
   "range": {
-    "distance_from_high_pct": -2.48,
-    "distance_from_low_pct": 108.46,
+    "distance_from_high_pct": -6.0,
+    "distance_from_low_pct": 100.93,
     "high_52w": 1498.0,
     "history_basis": "52_WEEK",
     "low_52w": 700.8,
-    "range_position_pct": 95.35
+    "range_position_pct": 88.72
   },
   "risk_model": {
-    "invalidation_floor": 1409.77,
-    "risk_per_share": 80.35,
-    "technical_pivot": 1490.12
+    "invalidation_floor": 1358.82,
+    "risk_per_share": 77.44,
+    "technical_pivot": 1436.26
   },
   "schema_version": "1.0",
   "sector": null,

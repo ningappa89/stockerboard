@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 394.25,
-      "high": 396.95,
-      "low": 386.7,
-      "open": 390.4,
-      "time": "2025-09-18",
-      "volume": 142752
-    },
-    {
       "close": 396.25,
       "high": 411.5,
       "low": 394.0,
@@ -2017,13 +2009,21 @@
       "open": 430.4,
       "time": "2026-09-25",
       "volume": 64101
+    },
+    {
+      "close": 444.15,
+      "high": 447.6,
+      "low": 420.55,
+      "open": 426.05,
+      "time": "2026-09-28",
+      "volume": 170596
     }
   ],
   "company_name": "Diffusion Engineers Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
+    "momentum_score": 68,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.09x"
+    "volume_multiplier": "0.23x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 3.2,
-    "change_pct": 0.75,
-    "close": 430.45,
-    "previous_close": 427.25,
+    "as_of": "2026-09-28",
+    "change": 13.7,
+    "change_pct": 3.18,
+    "close": 444.15,
+    "previous_close": 430.45,
     "type": "EOD_CLOSE",
-    "volume": 64101
+    "volume": 170596
   },
   "range": {
-    "distance_from_high_pct": -17.21,
-    "distance_from_low_pct": 98.55,
+    "distance_from_high_pct": -14.57,
+    "distance_from_low_pct": 104.87,
     "high_52w": 519.9,
     "history_basis": "52_WEEK",
     "low_52w": 216.8,
-    "range_position_pct": 70.49
+    "range_position_pct": 75.01
   },
   "risk_model": {
-    "invalidation_floor": 415.38,
-    "risk_per_share": 23.68,
-    "technical_pivot": 439.06
+    "invalidation_floor": 428.6,
+    "risk_per_share": 24.43,
+    "technical_pivot": 453.03
   },
   "schema_version": "1.0",
   "sector": null,

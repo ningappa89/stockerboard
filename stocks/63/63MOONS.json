@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 923.1,
-      "high": 966.0,
-      "low": 921.8,
-      "open": 929.0,
-      "time": "2025-09-18",
-      "volume": 185904
-    },
-    {
       "close": 928.8,
       "high": 943.0,
       "low": 925.0,
@@ -2017,13 +2009,21 @@
       "open": 867.5,
       "time": "2026-09-25",
       "volume": 180556
+    },
+    {
+      "close": 818.6,
+      "high": 857.9,
+      "low": 811.65,
+      "open": 857.9,
+      "time": "2026-09-28",
+      "volume": 162896
     }
   ],
   "company_name": "63 Moons Technologies Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 73,
+    "is_stage2": false,
+    "momentum_score": 68,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.34x"
+    "volume_multiplier": "0.31x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -5.25,
-    "change_pct": -0.61,
-    "close": 857.65,
-    "previous_close": 862.9,
+    "as_of": "2026-09-28",
+    "change": -39.05,
+    "change_pct": -4.55,
+    "close": 818.6,
+    "previous_close": 857.65,
     "type": "EOD_CLOSE",
-    "volume": 180556
+    "volume": 162896
   },
   "range": {
-    "distance_from_high_pct": -11.22,
-    "distance_from_low_pct": 83.65,
-    "high_52w": 966.0,
+    "distance_from_high_pct": -14.55,
+    "distance_from_low_pct": 75.29,
+    "high_52w": 957.95,
     "history_basis": "52_WEEK",
     "low_52w": 467.0,
-    "range_position_pct": 78.29
+    "range_position_pct": 71.62
   },
   "risk_model": {
-    "invalidation_floor": 827.63,
-    "risk_per_share": 47.17,
-    "technical_pivot": 874.8
+    "invalidation_floor": 789.95,
+    "risk_per_share": 45.02,
+    "technical_pivot": 834.97
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 59.66,
-      "high": 61.17,
-      "low": 59.62,
-      "open": 60.0,
-      "time": "2025-09-18",
-      "volume": 8614
-    },
-    {
       "close": 59.95,
       "high": 61.18,
       "low": 59.22,
@@ -2017,13 +2009,21 @@
       "open": 72.5,
       "time": "2026-09-25",
       "volume": 8472
+    },
+    {
+      "close": 71.61,
+      "high": 76.0,
+      "low": 71.21,
+      "open": 74.49,
+      "time": "2026-09-28",
+      "volume": 10397
     }
   ],
   "company_name": "MAHESHWARI LOGISTICS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 83,
+    "momentum_score": 79,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.03x"
+    "volume_multiplier": "1.23x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.7,
-    "change_pct": 0.96,
-    "close": 73.4,
-    "previous_close": 72.7,
+    "as_of": "2026-09-28",
+    "change": -1.79,
+    "change_pct": -2.44,
+    "close": 71.61,
+    "previous_close": 73.4,
     "type": "EOD_CLOSE",
-    "volume": 8472
+    "volume": 10397
   },
   "range": {
-    "distance_from_high_pct": -4.44,
-    "distance_from_low_pct": 88.01,
+    "distance_from_high_pct": -6.77,
+    "distance_from_low_pct": 83.43,
     "high_52w": 76.81,
     "history_basis": "52_WEEK",
     "low_52w": 39.04,
-    "range_position_pct": 90.97
+    "range_position_pct": 86.23
   },
   "risk_model": {
-    "invalidation_floor": 70.83,
-    "risk_per_share": 4.04,
-    "technical_pivot": 74.87
+    "invalidation_floor": 69.1,
+    "risk_per_share": 3.94,
+    "technical_pivot": 73.04
   },
   "schema_version": "1.0",
   "sector": null,

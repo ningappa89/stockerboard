@@ -913,14 +913,22 @@
       "open": 3128.5,
       "time": "2026-09-25",
       "volume": 52257
+    },
+    {
+      "close": 3169.8,
+      "high": 3230.0,
+      "low": 3149.7,
+      "open": 3229.9,
+      "time": "2026-09-28",
+      "volume": 22945
     }
   ],
   "company_name": "JSW Dulux Limited",
   "history": {
     "first_session": "2026-04-15",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 114
+    "last_session": "2026-09-28",
+    "sessions_available": 115
   },
   "industry": null,
   "isin": "INE133A01011",
@@ -928,31 +936,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 82,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "1.86x"
+    "momentum_score": 80,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.79x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 67.3,
-    "change_pct": 2.15,
-    "close": 3199.6,
-    "previous_close": 3132.3,
+    "as_of": "2026-09-28",
+    "change": -29.8,
+    "change_pct": -0.93,
+    "close": 3169.8,
+    "previous_close": 3199.6,
     "type": "EOD_CLOSE",
-    "volume": 52257
+    "volume": 22945
   },
   "range": {
-    "distance_from_high_pct": -5.23,
-    "distance_from_low_pct": 11.99,
+    "distance_from_high_pct": -6.11,
+    "distance_from_low_pct": 10.95,
     "high_52w": 3376.2,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 2857.0,
-    "range_position_pct": 65.99
+    "range_position_pct": 60.25
   },
   "risk_model": {
-    "invalidation_floor": 3087.61,
-    "risk_per_share": 175.98,
-    "technical_pivot": 3263.59
+    "invalidation_floor": 3058.86,
+    "risk_per_share": 174.34,
+    "technical_pivot": 3233.2
   },
   "schema_version": "1.0",
   "sector": null,

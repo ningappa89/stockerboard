@@ -225,14 +225,22 @@
       "open": 80.49,
       "time": "2026-09-25",
       "volume": 1076
+    },
+    {
+      "close": 80.5,
+      "high": 82.45,
+      "low": 80.5,
+      "open": 82.45,
+      "time": "2026-09-28",
+      "volume": 833
     }
   ],
   "company_name": "NICCO PARKS & RESORTS LTD.",
   "history": {
     "first_session": "2026-08-18",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 28
+    "last_session": "2026-09-28",
+    "sessions_available": 29
   },
   "industry": null,
   "isin": "INE653C01022",
@@ -240,31 +248,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.05x"
+    "volume_multiplier": "0.04x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.99,
-    "change_pct": 2.47,
-    "close": 82.48,
-    "previous_close": 80.49,
+    "as_of": "2026-09-28",
+    "change": -1.98,
+    "change_pct": -2.4,
+    "close": 80.5,
+    "previous_close": 82.48,
     "type": "EOD_CLOSE",
-    "volume": 1076
+    "volume": 833
   },
   "range": {
-    "distance_from_high_pct": -16.68,
-    "distance_from_low_pct": 14.56,
+    "distance_from_high_pct": -18.68,
+    "distance_from_low_pct": 11.81,
     "high_52w": 98.99,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 72.0,
-    "range_position_pct": 38.83
+    "range_position_pct": 31.49
   },
   "risk_model": {
-    "invalidation_floor": 79.59,
-    "risk_per_share": 4.54,
-    "technical_pivot": 84.13
+    "invalidation_floor": 77.68,
+    "risk_per_share": 4.43,
+    "technical_pivot": 82.11
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 777.0,
-      "high": 790.0,
-      "low": 775.0,
-      "open": 788.7,
-      "time": "2025-09-18",
-      "volume": 130957
-    },
-    {
       "close": 788.25,
       "high": 794.1,
       "low": 776.0,
@@ -2017,13 +2009,21 @@
       "open": 575.2,
       "time": "2026-09-25",
       "volume": 71004
+    },
+    {
+      "close": 557.9,
+      "high": 570.7,
+      "low": 555.25,
+      "open": 570.7,
+      "time": "2026-09-28",
+      "volume": 56338
     }
   ],
   "company_name": "Bikaji Foods International Lim",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.18x"
+    "volume_multiplier": "0.15x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.25,
-    "change_pct": -0.22,
-    "close": 573.95,
-    "previous_close": 575.2,
+    "as_of": "2026-09-28",
+    "change": -16.05,
+    "change_pct": -2.8,
+    "close": 557.9,
+    "previous_close": 573.95,
     "type": "EOD_CLOSE",
-    "volume": 71004
+    "volume": 56338
   },
   "range": {
-    "distance_from_high_pct": -27.72,
-    "distance_from_low_pct": 7.73,
+    "distance_from_high_pct": -29.74,
+    "distance_from_low_pct": 4.72,
     "high_52w": 794.1,
     "history_basis": "52_WEEK",
     "low_52w": 532.75,
-    "range_position_pct": 15.76
+    "range_position_pct": 9.62
   },
   "risk_model": {
-    "invalidation_floor": 553.86,
-    "risk_per_share": 31.57,
-    "technical_pivot": 585.43
+    "invalidation_floor": 538.37,
+    "risk_per_share": 30.69,
+    "technical_pivot": 569.06
   },
   "schema_version": "1.0",
   "sector": null,

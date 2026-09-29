@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 276.79,
-      "high": 282.0,
-      "low": 276.01,
-      "open": 278.91,
-      "time": "2025-09-18",
-      "volume": 499993
-    },
-    {
       "close": 275.99,
       "high": 279.9,
       "low": 275.0,
@@ -2017,13 +2009,21 @@
       "open": 382.0,
       "time": "2026-09-25",
       "volume": 203979
+    },
+    {
+      "close": 378.55,
+      "high": 387.0,
+      "low": 374.0,
+      "open": 387.0,
+      "time": "2026-09-28",
+      "volume": 153927
     }
   ],
   "company_name": "Ceigall India Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 82,
+    "momentum_score": 79,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.36x"
+    "volume_multiplier": "0.29x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.55,
-    "change_pct": 0.41,
-    "close": 384.1,
-    "previous_close": 382.55,
+    "as_of": "2026-09-28",
+    "change": -5.55,
+    "change_pct": -1.44,
+    "close": 378.55,
+    "previous_close": 384.1,
     "type": "EOD_CLOSE",
-    "volume": 203979
+    "volume": 153927
   },
   "range": {
-    "distance_from_high_pct": -5.32,
-    "distance_from_low_pct": 72.54,
+    "distance_from_high_pct": -6.69,
+    "distance_from_low_pct": 70.05,
     "high_52w": 405.7,
     "history_basis": "52_WEEK",
     "low_52w": 222.61,
-    "range_position_pct": 88.2
+    "range_position_pct": 85.17
   },
   "risk_model": {
-    "invalidation_floor": 370.66,
-    "risk_per_share": 21.12,
-    "technical_pivot": 391.78
+    "invalidation_floor": 365.3,
+    "risk_per_share": 20.82,
+    "technical_pivot": 386.12
   },
   "schema_version": "1.0",
   "sector": null,

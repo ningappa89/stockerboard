@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 222.52,
-      "high": 229.0,
-      "low": 220.26,
-      "open": 220.63,
-      "time": "2025-09-18",
-      "volume": 887166
-    },
-    {
       "close": 207.39,
       "high": 234.85,
       "low": 201.2,
@@ -2017,13 +2009,21 @@
       "open": 139.26,
       "time": "2026-09-25",
       "volume": 798903
+    },
+    {
+      "close": 136.33,
+      "high": 142.9,
+      "low": 136.0,
+      "open": 142.9,
+      "time": "2026-09-28",
+      "volume": 248177
     }
   ],
   "company_name": "PROSTARM INFO SYSTEMS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.33x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.71x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.91,
-    "change_pct": 1.37,
-    "close": 141.17,
-    "previous_close": 139.26,
+    "as_of": "2026-09-28",
+    "change": -4.84,
+    "change_pct": -3.43,
+    "close": 136.33,
+    "previous_close": 141.17,
     "type": "EOD_CLOSE",
-    "volume": 798903
+    "volume": 248177
   },
   "range": {
-    "distance_from_high_pct": -39.89,
-    "distance_from_low_pct": 23.14,
+    "distance_from_high_pct": -41.95,
+    "distance_from_low_pct": 18.92,
     "high_52w": 234.85,
     "history_basis": "52_WEEK",
     "low_52w": 114.64,
-    "range_position_pct": 22.07
+    "range_position_pct": 18.04
   },
   "risk_model": {
-    "invalidation_floor": 136.23,
-    "risk_per_share": 7.76,
-    "technical_pivot": 143.99
+    "invalidation_floor": 131.56,
+    "risk_per_share": 7.5,
+    "technical_pivot": 139.06
   },
   "schema_version": "1.0",
   "sector": null,

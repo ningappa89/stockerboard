@@ -233,46 +233,54 @@
       "open": 0.82,
       "time": "2026-09-25",
       "volume": 1729168
+    },
+    {
+      "close": 0.86,
+      "high": 0.89,
+      "low": 0.81,
+      "open": 0.82,
+      "time": "2026-09-28",
+      "volume": 12166050
     }
   ],
   "company_name": "AVANCE TECHNOLOGIES LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE758A01072",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 69,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.32x"
+    "is_stage2": true,
+    "momentum_score": 77,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.09x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.01,
-    "change_pct": 1.25,
-    "close": 0.81,
-    "previous_close": 0.8,
+    "as_of": "2026-09-28",
+    "change": 0.05,
+    "change_pct": 6.17,
+    "close": 0.86,
+    "previous_close": 0.81,
     "type": "EOD_CLOSE",
-    "volume": 1729168
+    "volume": 12166050
   },
   "range": {
-    "distance_from_high_pct": -13.83,
-    "distance_from_low_pct": 8.0,
+    "distance_from_high_pct": -8.51,
+    "distance_from_low_pct": 14.67,
     "high_52w": 0.94,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 0.75,
-    "range_position_pct": 31.58
+    "range_position_pct": 57.89
   },
   "risk_model": {
-    "invalidation_floor": 0.78,
+    "invalidation_floor": 0.83,
     "risk_per_share": 0.5,
-    "technical_pivot": 0.83
+    "technical_pivot": 0.88
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 249.11,
-      "high": 251.0,
-      "low": 246.69,
-      "open": 251.0,
-      "time": "2025-09-18",
-      "volume": 185350
-    },
-    {
       "close": 244.01,
       "high": 249.0,
       "low": 242.6,
@@ -2017,46 +2009,54 @@
       "open": 378.9,
       "time": "2026-09-25",
       "volume": 1650357
+    },
+    {
+      "close": 388.65,
+      "high": 390.0,
+      "low": 376.0,
+      "open": 382.0,
+      "time": "2026-09-28",
+      "volume": 1382064
     }
   ],
   "company_name": "STEEL STRIPS WHEELS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE802C01033",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": false,
+    "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 84,
+    "momentum_score": 87,
     "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.59x"
+    "volume_multiplier": "0.49x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.65,
-    "change_pct": 0.7,
-    "close": 378.75,
-    "previous_close": 376.1,
+    "as_of": "2026-09-28",
+    "change": 9.9,
+    "change_pct": 2.61,
+    "close": 388.65,
+    "previous_close": 378.75,
     "type": "EOD_CLOSE",
-    "volume": 1650357
+    "volume": 1382064
   },
   "range": {
-    "distance_from_high_pct": -3.94,
-    "distance_from_low_pct": 124.11,
+    "distance_from_high_pct": -1.43,
+    "distance_from_low_pct": 129.97,
     "high_52w": 394.3,
     "history_basis": "52_WEEK",
     "low_52w": 169.0,
-    "range_position_pct": 93.1
+    "range_position_pct": 97.49
   },
   "risk_model": {
-    "invalidation_floor": 365.49,
-    "risk_per_share": 20.83,
-    "technical_pivot": 386.32
+    "invalidation_floor": 375.05,
+    "risk_per_share": 21.37,
+    "technical_pivot": 396.42
   },
   "schema_version": "1.0",
   "sector": null,

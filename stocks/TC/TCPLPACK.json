@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3403.3,
-      "high": 3418.0,
-      "low": 3376.7,
-      "open": 3417.9,
-      "time": "2025-09-18",
-      "volume": 1706
-    },
-    {
       "close": 3454.7,
       "high": 3471.3,
       "low": 3380.0,
@@ -2017,13 +2009,21 @@
       "open": 4098.8,
       "time": "2026-09-25",
       "volume": 9656
+    },
+    {
+      "close": 3987.8,
+      "high": 4106.8,
+      "low": 3965.0,
+      "open": 4106.8,
+      "time": "2026-09-28",
+      "volume": 6403
     }
   ],
   "company_name": "TCPL PACKAGING LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 79,
+    "momentum_score": 75,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.04x"
+    "volume_multiplier": "0.68x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 48.0,
-    "change_pct": 1.18,
-    "close": 4106.8,
-    "previous_close": 4058.8,
+    "as_of": "2026-09-28",
+    "change": -119.0,
+    "change_pct": -2.9,
+    "close": 3987.8,
+    "previous_close": 4106.8,
     "type": "EOD_CLOSE",
-    "volume": 9656
+    "volume": 6403
   },
   "range": {
-    "distance_from_high_pct": -6.89,
-    "distance_from_low_pct": 86.67,
+    "distance_from_high_pct": -9.59,
+    "distance_from_low_pct": 81.26,
     "high_52w": 4410.9,
     "history_basis": "52_WEEK",
     "low_52w": 2200.0,
-    "range_position_pct": 86.25
+    "range_position_pct": 80.86
   },
   "risk_model": {
-    "invalidation_floor": 3963.06,
-    "risk_per_share": 225.88,
-    "technical_pivot": 4188.94
+    "invalidation_floor": 3848.23,
+    "risk_per_share": 219.33,
+    "technical_pivot": 4067.56
   },
   "schema_version": "1.0",
   "sector": null,

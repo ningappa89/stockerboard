@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 235.94,
-      "high": 237.6,
-      "low": 232.0,
-      "open": 233.6,
-      "time": "2025-09-18",
-      "volume": 1322060
-    },
-    {
       "close": 235.28,
       "high": 238.8,
       "low": 233.0,
@@ -2017,13 +2009,21 @@
       "open": 273.0,
       "time": "2026-09-25",
       "volume": 3237412
+    },
+    {
+      "close": 271.6,
+      "high": 276.0,
+      "low": 257.0,
+      "open": 267.0,
+      "time": "2026-09-28",
+      "volume": 3175307
     }
   ],
   "company_name": "AGI INFRA LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.02x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.82x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -6.9,
-    "change_pct": -2.54,
-    "close": 264.55,
-    "previous_close": 271.45,
+    "as_of": "2026-09-28",
+    "change": 7.05,
+    "change_pct": 2.66,
+    "close": 271.6,
+    "previous_close": 264.55,
     "type": "EOD_CLOSE",
-    "volume": 3237412
+    "volume": 3175307
   },
   "range": {
-    "distance_from_high_pct": -39.1,
-    "distance_from_low_pct": 17.73,
+    "distance_from_high_pct": -37.48,
+    "distance_from_low_pct": 20.87,
     "high_52w": 434.4,
     "history_basis": "52_WEEK",
     "low_52w": 224.7,
-    "range_position_pct": 19.0
+    "range_position_pct": 22.37
   },
   "risk_model": {
-    "invalidation_floor": 255.29,
-    "risk_per_share": 14.55,
-    "technical_pivot": 269.84
+    "invalidation_floor": 262.09,
+    "risk_per_share": 14.94,
+    "technical_pivot": 277.03
   },
   "schema_version": "1.0",
   "sector": null,

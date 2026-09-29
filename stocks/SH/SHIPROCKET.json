@@ -217,14 +217,22 @@
       "open": 121.0,
       "time": "2026-09-25",
       "volume": 3157738
+    },
+    {
+      "close": 120.9,
+      "high": 122.8,
+      "low": 118.26,
+      "open": 120.9,
+      "time": "2026-09-28",
+      "volume": 2234171
     }
   ],
   "company_name": "SHIPROCKET LIMITED",
   "history": {
     "first_session": "2026-08-19",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 27
+    "last_session": "2026-09-28",
+    "sessions_available": 28
   },
   "industry": null,
   "isin": "INE0FOO01011",
@@ -232,31 +240,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 54,
+    "momentum_score": 55,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.32x"
+    "volume_multiplier": "0.24x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.21,
-    "change_pct": -0.17,
-    "close": 120.25,
-    "previous_close": 120.46,
+    "as_of": "2026-09-28",
+    "change": 0.65,
+    "change_pct": 0.54,
+    "close": 120.9,
+    "previous_close": 120.25,
     "type": "EOD_CLOSE",
-    "volume": 3157738
+    "volume": 2234171
   },
   "range": {
-    "distance_from_high_pct": -23.36,
-    "distance_from_low_pct": 3.09,
+    "distance_from_high_pct": -22.94,
+    "distance_from_low_pct": 3.65,
     "high_52w": 156.9,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 116.64,
-    "range_position_pct": 8.97
+    "range_position_pct": 10.58
   },
   "risk_model": {
-    "invalidation_floor": 116.04,
-    "risk_per_share": 6.62,
-    "technical_pivot": 122.66
+    "invalidation_floor": 116.67,
+    "risk_per_share": 6.65,
+    "technical_pivot": 123.32
   },
   "schema_version": "1.0",
   "sector": null,

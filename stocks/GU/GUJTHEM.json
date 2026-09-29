@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 382.3,
-      "high": 387.4,
-      "low": 376.1,
-      "open": 385.55,
-      "time": "2025-09-18",
-      "volume": 99419
-    },
-    {
       "close": 386.3,
       "high": 387.9,
       "low": 381.1,
@@ -2017,13 +2009,21 @@
       "open": 411.0,
       "time": "2026-09-25",
       "volume": 159525
+    },
+    {
+      "close": 397.55,
+      "high": 415.0,
+      "low": 392.7,
+      "open": 414.4,
+      "time": "2026-09-28",
+      "volume": 211072
     }
   ],
   "company_name": "GUJARAT THEMIS BIOSYN LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
+    "is_stage2": false,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.22x"
+    "volume_multiplier": "0.29x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 6.55,
-    "change_pct": 1.6,
-    "close": 417.0,
-    "previous_close": 410.45,
+    "as_of": "2026-09-28",
+    "change": -19.45,
+    "change_pct": -4.66,
+    "close": 397.55,
+    "previous_close": 417.0,
     "type": "EOD_CLOSE",
-    "volume": 159525
+    "volume": 211072
   },
   "range": {
-    "distance_from_high_pct": -12.94,
-    "distance_from_low_pct": 85.29,
+    "distance_from_high_pct": -17.0,
+    "distance_from_low_pct": 76.65,
     "high_52w": 479.0,
     "history_basis": "52_WEEK",
     "low_52w": 225.05,
-    "range_position_pct": 75.59
+    "range_position_pct": 67.93
   },
   "risk_model": {
-    "invalidation_floor": 402.4,
-    "risk_per_share": 22.94,
-    "technical_pivot": 425.34
+    "invalidation_floor": 383.64,
+    "risk_per_share": 21.86,
+    "technical_pivot": 405.5
   },
   "schema_version": "1.0",
   "sector": null,

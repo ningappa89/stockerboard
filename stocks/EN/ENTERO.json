@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1148.2,
-      "high": 1153.3,
-      "low": 1133.0,
-      "open": 1133.0,
-      "time": "2025-09-18",
-      "volume": 36864
-    },
-    {
       "close": 1129.7,
       "high": 1162.8,
       "low": 1126.0,
@@ -2017,13 +2009,21 @@
       "open": 1854.0,
       "time": "2026-09-25",
       "volume": 110434
+    },
+    {
+      "close": 1790.1,
+      "high": 1821.7,
+      "low": 1746.2,
+      "open": 1805.0,
+      "time": "2026-09-28",
+      "volume": 183547
     }
   ],
   "company_name": "ENTERO HEALTHCARE SOLU L",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 82,
+    "momentum_score": 79,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.39x"
+    "volume_multiplier": "0.72x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -30.4,
-    "change_pct": -1.64,
-    "close": 1821.8,
-    "previous_close": 1852.2,
+    "as_of": "2026-09-28",
+    "change": -31.7,
+    "change_pct": -1.74,
+    "close": 1790.1,
+    "previous_close": 1821.8,
     "type": "EOD_CLOSE",
-    "volume": 110434
+    "volume": 183547
   },
   "range": {
-    "distance_from_high_pct": -5.11,
-    "distance_from_low_pct": 92.99,
+    "distance_from_high_pct": -6.77,
+    "distance_from_low_pct": 89.63,
     "high_52w": 1920.0,
     "history_basis": "52_WEEK",
     "low_52w": 944.0,
-    "range_position_pct": 89.94
+    "range_position_pct": 86.69
   },
   "risk_model": {
-    "invalidation_floor": 1758.04,
-    "risk_per_share": 100.2,
-    "technical_pivot": 1858.24
+    "invalidation_floor": 1727.45,
+    "risk_per_share": 98.45,
+    "technical_pivot": 1825.9
   },
   "schema_version": "1.0",
   "sector": null,

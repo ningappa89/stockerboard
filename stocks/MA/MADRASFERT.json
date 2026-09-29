@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 90.95,
-      "high": 92.38,
-      "low": 90.4,
-      "open": 92.38,
-      "time": "2025-09-18",
-      "volume": 84712
-    },
-    {
       "close": 90.69,
       "high": 91.67,
       "low": 90.5,
@@ -2017,13 +2009,21 @@
       "open": 60.72,
       "time": "2026-09-25",
       "volume": 29816
+    },
+    {
+      "close": 59.18,
+      "high": 60.21,
+      "low": 59.02,
+      "open": 60.18,
+      "time": "2026-09-28",
+      "volume": 40427
     }
   ],
   "company_name": "MADRAS FERTILISERS LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.66x"
+    "volume_multiplier": "0.91x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.55,
-    "change_pct": -0.91,
-    "close": 60.17,
-    "previous_close": 60.72,
+    "as_of": "2026-09-28",
+    "change": -0.99,
+    "change_pct": -1.65,
+    "close": 59.18,
+    "previous_close": 60.17,
     "type": "EOD_CLOSE",
-    "volume": 29816
+    "volume": 40427
   },
   "range": {
-    "distance_from_high_pct": -34.87,
-    "distance_from_low_pct": 14.48,
-    "high_52w": 92.38,
+    "distance_from_high_pct": -35.44,
+    "distance_from_low_pct": 12.6,
+    "high_52w": 91.67,
     "history_basis": "52_WEEK",
     "low_52w": 52.56,
-    "range_position_pct": 19.11
+    "range_position_pct": 16.93
   },
   "risk_model": {
-    "invalidation_floor": 58.06,
-    "risk_per_share": 3.31,
-    "technical_pivot": 61.37
+    "invalidation_floor": 57.11,
+    "risk_per_share": 3.25,
+    "technical_pivot": 60.36
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 570.7,
-      "high": 586.0,
-      "low": 565.0,
-      "open": 576.0,
-      "time": "2025-09-18",
-      "volume": 12896
-    },
-    {
       "close": 569.65,
       "high": 575.5,
       "low": 565.9,
@@ -2017,13 +2009,21 @@
       "open": 900.0,
       "time": "2026-09-25",
       "volume": 43393
+    },
+    {
+      "close": 891.85,
+      "high": 905.35,
+      "low": 876.0,
+      "open": 900.0,
+      "time": "2026-09-28",
+      "volume": 23332
     }
   ],
   "company_name": "Arrow Greentech Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 82,
+    "momentum_score": 80,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.71x"
+    "volume_multiplier": "0.38x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 9.85,
-    "change_pct": 1.1,
-    "close": 905.8,
-    "previous_close": 895.95,
+    "as_of": "2026-09-28",
+    "change": -13.95,
+    "change_pct": -1.54,
+    "close": 891.85,
+    "previous_close": 905.8,
     "type": "EOD_CLOSE",
-    "volume": 43393
+    "volume": 23332
   },
   "range": {
-    "distance_from_high_pct": -4.93,
-    "distance_from_low_pct": 164.89,
+    "distance_from_high_pct": -6.39,
+    "distance_from_low_pct": 160.81,
     "high_52w": 952.75,
     "history_basis": "52_WEEK",
     "low_52w": 341.95,
-    "range_position_pct": 92.31
+    "range_position_pct": 90.03
   },
   "risk_model": {
-    "invalidation_floor": 874.1,
-    "risk_per_share": 49.82,
-    "technical_pivot": 923.92
+    "invalidation_floor": 860.64,
+    "risk_per_share": 49.05,
+    "technical_pivot": 909.69
   },
   "schema_version": "1.0",
   "sector": null,

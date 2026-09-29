@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 521.8,
-      "high": 527.05,
-      "low": 518.0,
-      "open": 525.3,
-      "time": "2025-09-18",
-      "volume": 25369
-    },
-    {
       "close": 528.55,
       "high": 531.2,
       "low": 520.0,
@@ -2017,13 +2009,21 @@
       "open": 733.1,
       "time": "2026-09-25",
       "volume": 122295
+    },
+    {
+      "close": 717.05,
+      "high": 729.5,
+      "low": 710.0,
+      "open": 729.5,
+      "time": "2026-09-28",
+      "volume": 69158
     }
   ],
   "company_name": "MAYUR UNIQUOTERS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 60,
+    "momentum_score": 58,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.03x"
+    "volume_multiplier": "0.59x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -3.5,
-    "change_pct": -0.48,
-    "close": 729.6,
-    "previous_close": 733.1,
+    "as_of": "2026-09-28",
+    "change": -12.55,
+    "change_pct": -1.72,
+    "close": 717.05,
+    "previous_close": 729.6,
     "type": "EOD_CLOSE",
-    "volume": 122295
+    "volume": 69158
   },
   "range": {
-    "distance_from_high_pct": -19.56,
-    "distance_from_low_pct": 54.84,
+    "distance_from_high_pct": -20.94,
+    "distance_from_low_pct": 52.18,
     "high_52w": 907.0,
     "history_basis": "52_WEEK",
     "low_52w": 471.2,
-    "range_position_pct": 59.29
+    "range_position_pct": 56.41
   },
   "risk_model": {
-    "invalidation_floor": 704.06,
-    "risk_per_share": 40.13,
-    "technical_pivot": 744.19
+    "invalidation_floor": 691.95,
+    "risk_per_share": 39.44,
+    "technical_pivot": 731.39
   },
   "schema_version": "1.0",
   "sector": null,

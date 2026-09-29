@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 13.67,
-      "high": 14.3,
-      "low": 12.61,
-      "open": 12.92,
-      "time": "2025-09-18",
-      "volume": 575646
-    },
-    {
       "close": 13.41,
       "high": 13.89,
       "low": 13.36,
@@ -2017,13 +2009,21 @@
       "open": 12.35,
       "time": "2026-09-25",
       "volume": 54262
+    },
+    {
+      "close": 11.47,
+      "high": 12.95,
+      "low": 11.1,
+      "open": 12.95,
+      "time": "2026-09-28",
+      "volume": 196682
     }
   ],
   "company_name": "LIBAS CONSU PRODUCTS LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.38x"
+    "volume_multiplier": "1.29x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.36,
-    "change_pct": 3.0,
-    "close": 12.38,
-    "previous_close": 12.02,
+    "as_of": "2026-09-28",
+    "change": -0.91,
+    "change_pct": -7.35,
+    "close": 11.47,
+    "previous_close": 12.38,
     "type": "EOD_CLOSE",
-    "volume": 54262
+    "volume": 196682
   },
   "range": {
-    "distance_from_high_pct": -13.43,
-    "distance_from_low_pct": 37.25,
-    "high_52w": 14.3,
+    "distance_from_high_pct": -17.66,
+    "distance_from_low_pct": 27.16,
+    "high_52w": 13.93,
     "history_basis": "52_WEEK",
     "low_52w": 9.02,
-    "range_position_pct": 63.64
+    "range_position_pct": 49.9
   },
   "risk_model": {
-    "invalidation_floor": 11.95,
-    "risk_per_share": 0.68,
-    "technical_pivot": 12.63
+    "invalidation_floor": 11.07,
+    "risk_per_share": 0.63,
+    "technical_pivot": 11.7
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1410.5,
-      "high": 1427.0,
-      "low": 1404.1,
-      "open": 1414.0,
-      "time": "2025-09-18",
-      "volume": 1458
-    },
-    {
       "close": 1423.2,
       "high": 1450.1,
       "low": 1412.0,
@@ -2017,13 +2009,21 @@
       "open": 1202.0,
       "time": "2026-09-25",
       "volume": 1289
+    },
+    {
+      "close": 1172.9,
+      "high": 1212.0,
+      "low": 1166.0,
+      "open": 1196.0,
+      "time": "2026-09-28",
+      "volume": 889
     }
   ],
   "company_name": "APOLLO SINDOORI HOTEL LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.79x"
+    "volume_multiplier": "1.21x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -14.7,
-    "change_pct": -1.21,
-    "close": 1202.4,
-    "previous_close": 1217.1,
+    "as_of": "2026-09-28",
+    "change": -29.5,
+    "change_pct": -2.45,
+    "close": 1172.9,
+    "previous_close": 1202.4,
     "type": "EOD_CLOSE",
-    "volume": 1289
+    "volume": 889
   },
   "range": {
-    "distance_from_high_pct": -17.08,
-    "distance_from_low_pct": 26.57,
+    "distance_from_high_pct": -19.12,
+    "distance_from_low_pct": 23.46,
     "high_52w": 1450.1,
     "history_basis": "52_WEEK",
     "low_52w": 950.0,
-    "range_position_pct": 50.47
+    "range_position_pct": 44.57
   },
   "risk_model": {
-    "invalidation_floor": 1160.32,
-    "risk_per_share": 66.13,
-    "technical_pivot": 1226.45
+    "invalidation_floor": 1131.85,
+    "risk_per_share": 64.51,
+    "technical_pivot": 1196.36
   },
   "schema_version": "1.0",
   "sector": null,

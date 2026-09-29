@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 46.64,
-      "high": 47.5,
-      "low": 46.1,
-      "open": 46.62,
-      "time": "2025-09-18",
-      "volume": 8560
-    },
-    {
       "close": 46.2,
       "high": 48.0,
       "low": 46.0,
@@ -2017,13 +2009,21 @@
       "open": 31.98,
       "time": "2026-09-25",
       "volume": 6235
+    },
+    {
+      "close": 31.42,
+      "high": 32.7,
+      "low": 31.2,
+      "open": 31.3,
+      "time": "2026-09-28",
+      "volume": 7736
     }
   ],
   "company_name": "CORAL INDIA FINANCE & HOUSING",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.45x"
+    "volume_multiplier": "0.58x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.48,
-    "change_pct": 1.53,
-    "close": 31.77,
-    "previous_close": 31.29,
+    "as_of": "2026-09-28",
+    "change": -0.35,
+    "change_pct": -1.1,
+    "close": 31.42,
+    "previous_close": 31.77,
     "type": "EOD_CLOSE",
-    "volume": 6235
+    "volume": 7736
   },
   "range": {
-    "distance_from_high_pct": -33.81,
-    "distance_from_low_pct": 27.03,
+    "distance_from_high_pct": -34.54,
+    "distance_from_low_pct": 25.63,
     "high_52w": 48.0,
     "history_basis": "52_WEEK",
     "low_52w": 25.01,
-    "range_position_pct": 29.4
+    "range_position_pct": 27.88
   },
   "risk_model": {
-    "invalidation_floor": 30.66,
-    "risk_per_share": 1.75,
-    "technical_pivot": 32.41
+    "invalidation_floor": 30.32,
+    "risk_per_share": 1.73,
+    "technical_pivot": 32.05
   },
   "schema_version": "1.0",
   "sector": null,

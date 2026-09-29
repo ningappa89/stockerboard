@@ -889,14 +889,22 @@
       "open": 14.98,
       "time": "2026-09-25",
       "volume": 180905
+    },
+    {
+      "close": 14.56,
+      "high": 15.78,
+      "low": 14.34,
+      "open": 15.09,
+      "time": "2026-09-28",
+      "volume": 73110
     }
   ],
   "company_name": "MEDIA MATRIX WORLDWIDE L",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE200D01020",
@@ -904,31 +912,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 76,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "5.39x"
+    "momentum_score": 71,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.99x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.71,
-    "change_pct": 4.94,
-    "close": 15.09,
-    "previous_close": 14.38,
+    "as_of": "2026-09-28",
+    "change": -0.53,
+    "change_pct": -3.51,
+    "close": 14.56,
+    "previous_close": 15.09,
     "type": "EOD_CLOSE",
-    "volume": 180905
+    "volume": 73110
   },
   "range": {
-    "distance_from_high_pct": -8.93,
-    "distance_from_low_pct": 67.29,
+    "distance_from_high_pct": -12.13,
+    "distance_from_low_pct": 61.42,
     "high_52w": 16.57,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 9.02,
-    "range_position_pct": 80.4
+    "range_position_pct": 73.38
   },
   "risk_model": {
-    "invalidation_floor": 14.56,
-    "risk_per_share": 0.83,
-    "technical_pivot": 15.39
+    "invalidation_floor": 14.05,
+    "risk_per_share": 0.8,
+    "technical_pivot": 14.85
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 445.95,
-      "high": 464.7,
-      "low": 444.0,
-      "open": 464.7,
-      "time": "2025-09-18",
-      "volume": 158597
-    },
-    {
       "close": 427.45,
       "high": 450.0,
       "low": 425.2,
@@ -2017,13 +2009,21 @@
       "open": 374.7,
       "time": "2026-09-25",
       "volume": 74313
+    },
+    {
+      "close": 366.45,
+      "high": 374.6,
+      "low": 364.3,
+      "open": 374.6,
+      "time": "2026-09-28",
+      "volume": 47469
     }
   ],
   "company_name": "PANACEA BIOTEC LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.68x"
+    "volume_multiplier": "0.44x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.15,
-    "change_pct": -0.57,
-    "close": 372.6,
-    "previous_close": 374.75,
+    "as_of": "2026-09-28",
+    "change": -6.15,
+    "change_pct": -1.65,
+    "close": 366.45,
+    "previous_close": 372.6,
     "type": "EOD_CLOSE",
-    "volume": 74313
+    "volume": 47469
   },
   "range": {
-    "distance_from_high_pct": -42.41,
-    "distance_from_low_pct": 27.43,
+    "distance_from_high_pct": -43.36,
+    "distance_from_low_pct": 25.32,
     "high_52w": 647.0,
     "history_basis": "52_WEEK",
     "low_52w": 292.4,
-    "range_position_pct": 22.62
+    "range_position_pct": 20.88
   },
   "risk_model": {
-    "invalidation_floor": 359.56,
-    "risk_per_share": 20.49,
-    "technical_pivot": 380.05
+    "invalidation_floor": 353.62,
+    "risk_per_share": 20.16,
+    "technical_pivot": 373.78
   },
   "schema_version": "1.0",
   "sector": null,

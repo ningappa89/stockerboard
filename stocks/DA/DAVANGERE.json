@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3.85,
-      "high": 4.01,
-      "low": 3.83,
-      "open": 4.0,
-      "time": "2025-09-18",
-      "volume": 36016825
-    },
-    {
       "close": 3.75,
       "high": 3.88,
       "low": 3.73,
@@ -2017,13 +2009,21 @@
       "open": 2.19,
       "time": "2026-09-25",
       "volume": 28793669
+    },
+    {
+      "close": 2.48,
+      "high": 2.55,
+      "low": 2.39,
+      "open": 2.47,
+      "time": "2026-09-28",
+      "volume": 21983093
     }
   ],
   "company_name": "Davangere Sugar Company Limite",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.04x"
+    "volume_multiplier": "0.84x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.21,
-    "change_pct": 9.59,
-    "close": 2.4,
-    "previous_close": 2.19,
+    "as_of": "2026-09-28",
+    "change": 0.08,
+    "change_pct": 3.33,
+    "close": 2.48,
+    "previous_close": 2.4,
     "type": "EOD_CLOSE",
-    "volume": 28793669
+    "volume": 21983093
   },
   "range": {
-    "distance_from_high_pct": -56.36,
-    "distance_from_low_pct": 37.93,
+    "distance_from_high_pct": -54.91,
+    "distance_from_low_pct": 42.53,
     "high_52w": 5.5,
     "history_basis": "52_WEEK",
     "low_52w": 1.74,
-    "range_position_pct": 17.55
+    "range_position_pct": 19.68
   },
   "risk_model": {
-    "invalidation_floor": 2.32,
+    "invalidation_floor": 2.39,
     "risk_per_share": 0.5,
-    "technical_pivot": 2.45
+    "technical_pivot": 2.53
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 40.92,
-      "high": 41.44,
-      "low": 38.11,
-      "open": 38.41,
-      "time": "2025-09-18",
-      "volume": 116330
-    },
-    {
       "close": 41.31,
       "high": 42.5,
       "low": 40.51,
@@ -2017,13 +2009,21 @@
       "open": 35.6,
       "time": "2026-09-25",
       "volume": 13114
+    },
+    {
+      "close": 35.32,
+      "high": 35.98,
+      "low": 35.02,
+      "open": 35.9,
+      "time": "2026-09-28",
+      "volume": 15329
     }
   ],
   "company_name": "ATLANTAA LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.35x"
+    "volume_multiplier": "0.42x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.08,
-    "change_pct": 0.22,
-    "close": 35.73,
-    "previous_close": 35.65,
+    "as_of": "2026-09-28",
+    "change": -0.41,
+    "change_pct": -1.15,
+    "close": 35.32,
+    "previous_close": 35.73,
     "type": "EOD_CLOSE",
-    "volume": 13114
+    "volume": 15329
   },
   "range": {
-    "distance_from_high_pct": -51.31,
-    "distance_from_low_pct": 13.36,
+    "distance_from_high_pct": -51.87,
+    "distance_from_low_pct": 12.06,
     "high_52w": 73.39,
     "history_basis": "52_WEEK",
     "low_52w": 31.52,
-    "range_position_pct": 10.05
+    "range_position_pct": 9.08
   },
   "risk_model": {
-    "invalidation_floor": 34.48,
-    "risk_per_share": 1.96,
-    "technical_pivot": 36.44
+    "invalidation_floor": 34.08,
+    "risk_per_share": 1.95,
+    "technical_pivot": 36.03
   },
   "schema_version": "1.0",
   "sector": null,

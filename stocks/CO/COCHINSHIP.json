@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1907.4,
-      "high": 1940.0,
-      "low": 1894.4,
-      "open": 1918.0,
-      "time": "2025-09-18",
-      "volume": 4942852
-    },
-    {
       "close": 1900.8,
       "high": 1912.0,
       "low": 1873.9,
@@ -2017,13 +2009,21 @@
       "open": 1370.0,
       "time": "2026-09-25",
       "volume": 421803
+    },
+    {
+      "close": 1329.0,
+      "high": 1372.4,
+      "low": 1327.0,
+      "open": 1370.2,
+      "time": "2026-09-28",
+      "volume": 450410
     }
   ],
   "company_name": "Cochin Shipyard Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 44,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.39x"
+    "volume_multiplier": "0.42x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 7.0,
-    "change_pct": 0.51,
-    "close": 1377.0,
-    "previous_close": 1370.0,
+    "as_of": "2026-09-28",
+    "change": -48.0,
+    "change_pct": -3.49,
+    "close": 1329.0,
+    "previous_close": 1377.0,
     "type": "EOD_CLOSE",
-    "volume": 421803
+    "volume": 450410
   },
   "range": {
-    "distance_from_high_pct": -30.45,
-    "distance_from_low_pct": 16.01,
+    "distance_from_high_pct": -32.88,
+    "distance_from_low_pct": 11.96,
     "high_52w": 1979.9,
     "history_basis": "52_WEEK",
     "low_52w": 1187.0,
-    "range_position_pct": 23.96
+    "range_position_pct": 17.91
   },
   "risk_model": {
-    "invalidation_floor": 1328.81,
-    "risk_per_share": 75.73,
-    "technical_pivot": 1404.54
+    "invalidation_floor": 1282.48,
+    "risk_per_share": 73.1,
+    "technical_pivot": 1355.58
   },
   "schema_version": "1.0",
   "sector": null,

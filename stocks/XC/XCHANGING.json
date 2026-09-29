@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 90.16,
-      "high": 91.65,
-      "low": 89.37,
-      "open": 89.59,
-      "time": "2025-09-18",
-      "volume": 106964
-    },
-    {
       "close": 89.35,
       "high": 90.8,
       "low": 89.01,
@@ -2017,13 +2009,21 @@
       "open": 62.0,
       "time": "2026-09-25",
       "volume": 64422
+    },
+    {
+      "close": 60.04,
+      "high": 62.0,
+      "low": 59.8,
+      "open": 62.0,
+      "time": "2026-09-28",
+      "volume": 72124
     }
   ],
   "company_name": "XCHANGING SOLUTIONS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.62x"
+    "volume_multiplier": "0.68x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.07,
-    "change_pct": 1.77,
-    "close": 61.42,
-    "previous_close": 60.35,
+    "as_of": "2026-09-28",
+    "change": -1.38,
+    "change_pct": -2.25,
+    "close": 60.04,
+    "previous_close": 61.42,
     "type": "EOD_CLOSE",
-    "volume": 64422
+    "volume": 72124
   },
   "range": {
-    "distance_from_high_pct": -40.37,
-    "distance_from_low_pct": 29.31,
+    "distance_from_high_pct": -41.71,
+    "distance_from_low_pct": 26.4,
     "high_52w": 103.0,
     "history_basis": "52_WEEK",
     "low_52w": 47.5,
-    "range_position_pct": 25.08
+    "range_position_pct": 22.59
   },
   "risk_model": {
-    "invalidation_floor": 59.27,
-    "risk_per_share": 3.38,
-    "technical_pivot": 62.65
+    "invalidation_floor": 57.94,
+    "risk_per_share": 3.3,
+    "technical_pivot": 61.24
   },
   "schema_version": "1.0",
   "sector": null,

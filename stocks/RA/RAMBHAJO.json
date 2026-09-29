@@ -497,46 +497,54 @@
       "open": 279.5,
       "time": "2026-09-25",
       "volume": 649377
+    },
+    {
+      "close": 265.03,
+      "high": 282.44,
+      "low": 263.0,
+      "open": 282.44,
+      "time": "2026-09-28",
+      "volume": 861228
     }
   ],
   "company_name": "ADVIT JEWELS LIMITED",
   "history": {
     "first_session": "2026-07-01",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 62
+    "last_session": "2026-09-28",
+    "sessions_available": 63
   },
   "industry": null,
   "isin": "INE1SJO01012",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 79,
+    "is_stage2": false,
+    "momentum_score": 68,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "0.89x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 10.47,
-    "change_pct": 3.8,
-    "close": 286.23,
-    "previous_close": 275.76,
+    "as_of": "2026-09-28",
+    "change": -21.2,
+    "change_pct": -7.41,
+    "close": 265.03,
+    "previous_close": 286.23,
     "type": "EOD_CLOSE",
-    "volume": 649377
+    "volume": 861228
   },
   "range": {
-    "distance_from_high_pct": -7.19,
-    "distance_from_low_pct": 77.12,
+    "distance_from_high_pct": -14.06,
+    "distance_from_low_pct": 64.0,
     "high_52w": 308.4,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 161.6,
-    "range_position_pct": 84.9
+    "range_position_pct": 70.46
   },
   "risk_model": {
-    "invalidation_floor": 276.21,
-    "risk_per_share": 15.74,
-    "technical_pivot": 291.95
+    "invalidation_floor": 255.75,
+    "risk_per_share": 14.58,
+    "technical_pivot": 270.33
   },
   "schema_version": "1.0",
   "sector": null,

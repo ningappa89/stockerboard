@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 5024.1,
-      "high": 5105.0,
-      "low": 5012.0,
-      "open": 5091.0,
-      "time": "2025-09-18",
-      "volume": 13643
-    },
-    {
       "close": 4985.8,
       "high": 5046.4,
       "low": 4960.1,
@@ -2017,13 +2009,21 @@
       "open": 4488.8,
       "time": "2026-09-25",
       "volume": 36310
+    },
+    {
+      "close": 4650.6,
+      "high": 4706.2,
+      "low": 4450.0,
+      "open": 4500.5,
+      "time": "2026-09-28",
+      "volume": 135575
     }
   ],
   "company_name": "CRISIL LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 72,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.65x"
+    "momentum_score": 77,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.36x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 16.5,
-    "change_pct": 0.37,
-    "close": 4520.0,
-    "previous_close": 4503.5,
+    "as_of": "2026-09-28",
+    "change": 130.6,
+    "change_pct": 2.89,
+    "close": 4650.6,
+    "previous_close": 4520.0,
     "type": "EOD_CLOSE",
-    "volume": 36310
+    "volume": 135575
   },
   "range": {
-    "distance_from_high_pct": -11.46,
-    "distance_from_low_pct": 22.63,
-    "high_52w": 5105.0,
+    "distance_from_high_pct": -8.18,
+    "distance_from_low_pct": 26.17,
+    "high_52w": 5064.9,
     "history_basis": "52_WEEK",
     "low_52w": 3686.0,
-    "range_position_pct": 58.77
+    "range_position_pct": 69.95
   },
   "risk_model": {
-    "invalidation_floor": 4361.8,
-    "risk_per_share": 248.6,
-    "technical_pivot": 4610.4
+    "invalidation_floor": 4487.83,
+    "risk_per_share": 255.78,
+    "technical_pivot": 4743.61
   },
   "schema_version": "1.0",
   "sector": null,

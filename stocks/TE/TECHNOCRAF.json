@@ -241,46 +241,54 @@
       "open": 479.55,
       "time": "2026-09-25",
       "volume": 1351541
+    },
+    {
+      "close": 476.95,
+      "high": 494.0,
+      "low": 474.4,
+      "open": 490.0,
+      "time": "2026-09-28",
+      "volume": 753134
     }
   ],
   "company_name": "Technocraft Ventures Limited",
   "history": {
     "first_session": "2026-08-14",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 30
+    "last_session": "2026-09-28",
+    "sessions_available": 31
   },
   "industry": null,
   "isin": "INE1D0W01018",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 88,
+    "momentum_score": 84,
     "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.85x"
+    "volume_multiplier": "0.5x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 16.0,
-    "change_pct": 3.37,
-    "close": 491.05,
-    "previous_close": 475.05,
+    "as_of": "2026-09-28",
+    "change": -14.1,
+    "change_pct": -2.87,
+    "close": 476.95,
+    "previous_close": 491.05,
     "type": "EOD_CLOSE",
-    "volume": 1351541
+    "volume": 753134
   },
   "range": {
-    "distance_from_high_pct": -1.1,
-    "distance_from_low_pct": 72.9,
+    "distance_from_high_pct": -3.94,
+    "distance_from_low_pct": 67.94,
     "high_52w": 496.5,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 284.0,
-    "range_position_pct": 97.44
+    "range_position_pct": 90.8
   },
   "risk_model": {
-    "invalidation_floor": 473.86,
-    "risk_per_share": 27.01,
-    "technical_pivot": 500.87
+    "invalidation_floor": 460.26,
+    "risk_per_share": 26.23,
+    "technical_pivot": 486.49
   },
   "schema_version": "1.0",
   "sector": null,

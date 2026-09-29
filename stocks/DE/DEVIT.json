@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 43.17,
-      "high": 44.75,
-      "low": 42.9,
-      "open": 43.49,
-      "time": "2025-09-18",
-      "volume": 60796
-    },
-    {
       "close": 43.1,
       "high": 44.3,
       "low": 42.8,
@@ -2017,13 +2009,21 @@
       "open": 22.61,
       "time": "2026-09-25",
       "volume": 52336
+    },
+    {
+      "close": 22.16,
+      "high": 22.55,
+      "low": 21.3,
+      "open": 22.28,
+      "time": "2026-09-28",
+      "volume": 30950
     }
   ],
   "company_name": "DEV INFORMATION TECHNOLOGY LIM",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.48x"
+    "volume_multiplier": "0.87x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.31,
-    "change_pct": -1.37,
-    "close": 22.28,
-    "previous_close": 22.59,
+    "as_of": "2026-09-28",
+    "change": -0.12,
+    "change_pct": -0.54,
+    "close": 22.16,
+    "previous_close": 22.28,
     "type": "EOD_CLOSE",
-    "volume": 52336
+    "volume": 30950
   },
   "range": {
-    "distance_from_high_pct": -50.21,
-    "distance_from_low_pct": 3.15,
-    "high_52w": 44.75,
+    "distance_from_high_pct": -50.14,
+    "distance_from_low_pct": 4.04,
+    "high_52w": 44.44,
     "history_basis": "52_WEEK",
-    "low_52w": 21.6,
-    "range_position_pct": 2.94
+    "low_52w": 21.3,
+    "range_position_pct": 3.72
   },
   "risk_model": {
-    "invalidation_floor": 21.5,
-    "risk_per_share": 1.23,
-    "technical_pivot": 22.73
+    "invalidation_floor": 21.38,
+    "risk_per_share": 1.22,
+    "technical_pivot": 22.6
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1266.2,
-      "high": 1283.9,
-      "low": 1260.1,
-      "open": 1283.9,
-      "time": "2025-09-18",
-      "volume": 57544
-    },
-    {
       "close": 1269.0,
       "high": 1276.8,
       "low": 1254.9,
@@ -2017,13 +2009,21 @@
       "open": 1406.6,
       "time": "2026-09-25",
       "volume": 128530
+    },
+    {
+      "close": 1375.6,
+      "high": 1424.8,
+      "low": 1368.0,
+      "open": 1420.0,
+      "time": "2026-09-28",
+      "volume": 184926
     }
   ],
   "company_name": "KALPATARU PROJECTS INTERNATION",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 81,
+    "momentum_score": 79,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.83x"
+    "volume_multiplier": "1.15x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -8.4,
-    "change_pct": -0.6,
-    "close": 1391.2,
-    "previous_close": 1399.6,
+    "as_of": "2026-09-28",
+    "change": -15.6,
+    "change_pct": -1.12,
+    "close": 1375.6,
+    "previous_close": 1391.2,
     "type": "EOD_CLOSE",
-    "volume": 128530
+    "volume": 184926
   },
   "range": {
-    "distance_from_high_pct": -5.97,
-    "distance_from_low_pct": 38.14,
+    "distance_from_high_pct": -7.03,
+    "distance_from_low_pct": 36.59,
     "high_52w": 1479.6,
     "history_basis": "52_WEEK",
     "low_52w": 1007.1,
-    "range_position_pct": 81.29
+    "range_position_pct": 77.99
   },
   "risk_model": {
-    "invalidation_floor": 1342.51,
-    "risk_per_share": 76.51,
-    "technical_pivot": 1419.02
+    "invalidation_floor": 1327.45,
+    "risk_per_share": 75.66,
+    "technical_pivot": 1403.11
   },
   "schema_version": "1.0",
   "sector": null,

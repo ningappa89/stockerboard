@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 626.9,
-      "high": 631.0,
-      "low": 620.0,
-      "open": 620.0,
-      "time": "2025-09-18",
-      "volume": 4675034
-    },
-    {
       "close": 633.2,
       "high": 637.3,
       "low": 627.1,
@@ -2017,13 +2009,21 @@
       "open": 990.0,
       "time": "2026-09-25",
       "volume": 2700614
+    },
+    {
+      "close": 976.3,
+      "high": 991.3,
+      "low": 970.0,
+      "open": 990.0,
+      "time": "2026-09-28",
+      "volume": 4953660
     }
   ],
   "company_name": "SHRIRAM FINANCE LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.65x"
+    "volume_multiplier": "1.16x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 4.1,
-    "change_pct": 0.41,
-    "close": 994.1,
-    "previous_close": 990.0,
+    "as_of": "2026-09-28",
+    "change": -17.8,
+    "change_pct": -1.79,
+    "close": 976.3,
+    "previous_close": 994.1,
     "type": "EOD_CLOSE",
-    "volume": 2700614
+    "volume": 4953660
   },
   "range": {
-    "distance_from_high_pct": -13.83,
-    "distance_from_low_pct": 64.82,
+    "distance_from_high_pct": -15.38,
+    "distance_from_low_pct": 61.87,
     "high_52w": 1153.7,
     "history_basis": "52_WEEK",
     "low_52w": 603.15,
-    "range_position_pct": 71.01
+    "range_position_pct": 67.78
   },
   "risk_model": {
-    "invalidation_floor": 959.31,
-    "risk_per_share": 54.67,
-    "technical_pivot": 1013.98
+    "invalidation_floor": 942.13,
+    "risk_per_share": 53.7,
+    "technical_pivot": 995.83
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

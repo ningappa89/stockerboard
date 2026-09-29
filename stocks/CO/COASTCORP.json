@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 38.25,
-      "high": 39.99,
-      "low": 37.03,
-      "open": 37.03,
-      "time": "2025-09-18",
-      "volume": 332714
-    },
-    {
       "close": 37.96,
       "high": 39.13,
       "low": 37.5,
@@ -2017,13 +2009,21 @@
       "open": 38.47,
       "time": "2026-09-25",
       "volume": 124729
+    },
+    {
+      "close": 36.18,
+      "high": 36.71,
+      "low": 35.5,
+      "open": 36.0,
+      "time": "2026-09-28",
+      "volume": 80074
     }
   ],
   "company_name": "COASTAL CORPORATION LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.62x"
+    "volume_multiplier": "1.01x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.55,
-    "change_pct": -4.11,
-    "close": 36.13,
-    "previous_close": 37.68,
+    "as_of": "2026-09-28",
+    "change": 0.05,
+    "change_pct": 0.14,
+    "close": 36.18,
+    "previous_close": 36.13,
     "type": "EOD_CLOSE",
-    "volume": 124729
+    "volume": 80074
   },
   "range": {
-    "distance_from_high_pct": -45.83,
-    "distance_from_low_pct": 11.17,
+    "distance_from_high_pct": -45.76,
+    "distance_from_low_pct": 11.32,
     "high_52w": 66.7,
     "history_basis": "52_WEEK",
     "low_52w": 32.5,
-    "range_position_pct": 10.61
+    "range_position_pct": 10.76
   },
   "risk_model": {
-    "invalidation_floor": 34.87,
-    "risk_per_share": 1.98,
-    "technical_pivot": 36.85
+    "invalidation_floor": 34.91,
+    "risk_per_share": 1.99,
+    "technical_pivot": 36.9
   },
   "schema_version": "1.0",
   "sector": null,

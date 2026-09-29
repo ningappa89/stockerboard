@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 605.0,
-      "high": 609.75,
-      "low": 600.75,
-      "open": 601.0,
-      "time": "2025-09-18",
-      "volume": 577642
-    },
-    {
       "close": 602.55,
       "high": 609.45,
       "low": 601.15,
@@ -2017,13 +2009,21 @@
       "open": 464.55,
       "time": "2026-09-25",
       "volume": 1121971
+    },
+    {
+      "close": 458.7,
+      "high": 464.2,
+      "low": 450.65,
+      "open": 458.6,
+      "time": "2026-09-28",
+      "volume": 1352420
     }
   ],
   "company_name": "ICICI PRU LIFE INS CO LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.64x"
+    "volume_multiplier": "0.78x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.5,
-    "change_pct": -0.32,
-    "close": 463.0,
-    "previous_close": 464.5,
+    "as_of": "2026-09-28",
+    "change": -4.3,
+    "change_pct": -0.93,
+    "close": 458.7,
+    "previous_close": 463.0,
     "type": "EOD_CLOSE",
-    "volume": 1121971
+    "volume": 1352420
   },
   "range": {
-    "distance_from_high_pct": -34.49,
-    "distance_from_low_pct": 3.96,
+    "distance_from_high_pct": -35.1,
+    "distance_from_low_pct": 3.0,
     "high_52w": 706.8,
     "history_basis": "52_WEEK",
     "low_52w": 445.35,
-    "range_position_pct": 6.75
+    "range_position_pct": 5.11
   },
   "risk_model": {
-    "invalidation_floor": 446.79,
-    "risk_per_share": 25.47,
-    "technical_pivot": 472.26
+    "invalidation_floor": 442.65,
+    "risk_per_share": 25.22,
+    "technical_pivot": 467.87
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

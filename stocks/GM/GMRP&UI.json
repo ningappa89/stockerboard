@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 128.98,
-      "high": 132.59,
-      "low": 127.5,
-      "open": 130.96,
-      "time": "2025-09-18",
-      "volume": 2231011
-    },
-    {
       "close": 124.3,
       "high": 129.59,
       "low": 123.3,
@@ -2017,13 +2009,21 @@
       "open": 101.41,
       "time": "2026-09-25",
       "volume": 2175028
+    },
+    {
+      "close": 101.9,
+      "high": 102.49,
+      "low": 97.74,
+      "open": 102.19,
+      "time": "2026-09-28",
+      "volume": 2458573
     }
   ],
   "company_name": "GMR POW AND URBAN INFRA L",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 52,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.03x"
+    "volume_multiplier": "1.19x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.27,
-    "change_pct": 1.25,
-    "close": 102.68,
-    "previous_close": 101.41,
+    "as_of": "2026-09-28",
+    "change": -0.78,
+    "change_pct": -0.76,
+    "close": 101.9,
+    "previous_close": 102.68,
     "type": "EOD_CLOSE",
-    "volume": 2175028
+    "volume": 2458573
   },
   "range": {
-    "distance_from_high_pct": -24.67,
-    "distance_from_low_pct": 18.29,
+    "distance_from_high_pct": -25.24,
+    "distance_from_low_pct": 17.4,
     "high_52w": 136.3,
     "history_basis": "52_WEEK",
     "low_52w": 86.8,
-    "range_position_pct": 32.08
+    "range_position_pct": 30.51
   },
   "risk_model": {
-    "invalidation_floor": 99.09,
-    "risk_per_share": 5.64,
-    "technical_pivot": 104.73
+    "invalidation_floor": 98.33,
+    "risk_per_share": 5.61,
+    "technical_pivot": 103.94
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 303.0,
-      "high": 308.14,
-      "low": 288.75,
-      "open": 295.5,
-      "time": "2025-09-18",
-      "volume": 1887173
-    },
-    {
       "close": 298.91,
       "high": 303.75,
       "low": 296.55,
@@ -2017,13 +2009,21 @@
       "open": 322.1,
       "time": "2026-09-25",
       "volume": 256884
+    },
+    {
+      "close": 312.6,
+      "high": 324.05,
+      "low": 310.9,
+      "open": 322.05,
+      "time": "2026-09-28",
+      "volume": 612243
     }
   ],
   "company_name": "GOLDIAM INTERNATIONAL LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
+    "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.59x"
+    "volume_multiplier": "1.36x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 3.35,
-    "change_pct": 1.04,
-    "close": 325.05,
-    "previous_close": 321.7,
+    "as_of": "2026-09-28",
+    "change": -12.45,
+    "change_pct": -3.83,
+    "close": 312.6,
+    "previous_close": 325.05,
     "type": "EOD_CLOSE",
-    "volume": 256884
+    "volume": 612243
   },
   "range": {
-    "distance_from_high_pct": -18.37,
-    "distance_from_low_pct": 63.55,
+    "distance_from_high_pct": -21.5,
+    "distance_from_low_pct": 57.28,
     "high_52w": 398.2,
     "history_basis": "52_WEEK",
     "low_52w": 198.75,
-    "range_position_pct": 63.32
+    "range_position_pct": 57.08
   },
   "risk_model": {
-    "invalidation_floor": 313.67,
-    "risk_per_share": 17.88,
-    "technical_pivot": 331.55
+    "invalidation_floor": 301.66,
+    "risk_per_share": 17.19,
+    "technical_pivot": 318.85
   },
   "schema_version": "1.0",
   "sector": null,

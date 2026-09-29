@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2321.5,
-      "high": 2362.4,
-      "low": 2286.6,
-      "open": 2341.8,
-      "time": "2025-09-18",
-      "volume": 79639
-    },
-    {
       "close": 2343.0,
       "high": 2356.8,
       "low": 2290.0,
@@ -2017,13 +2009,21 @@
       "open": 2867.0,
       "time": "2026-09-25",
       "volume": 181149
+    },
+    {
+      "close": 2854.0,
+      "high": 2869.8,
+      "low": 2801.8,
+      "open": 2856.7,
+      "time": "2026-09-28",
+      "volume": 121333
     }
   ],
   "company_name": "CAPLIN POINT LABORATORIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 82,
+    "momentum_score": 83,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.54x"
+    "volume_multiplier": "0.35x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -32.3,
-    "change_pct": -1.13,
-    "close": 2835.1,
-    "previous_close": 2867.4,
+    "as_of": "2026-09-28",
+    "change": 18.9,
+    "change_pct": 0.67,
+    "close": 2854.0,
+    "previous_close": 2835.1,
     "type": "EOD_CLOSE",
-    "volume": 181149
+    "volume": 121333
   },
   "range": {
-    "distance_from_high_pct": -5.18,
-    "distance_from_low_pct": 88.97,
+    "distance_from_high_pct": -4.55,
+    "distance_from_low_pct": 90.23,
     "high_52w": 2990.0,
     "history_basis": "52_WEEK",
     "low_52w": 1500.3,
-    "range_position_pct": 89.6
+    "range_position_pct": 90.87
   },
   "risk_model": {
-    "invalidation_floor": 2735.87,
-    "risk_per_share": 155.93,
-    "technical_pivot": 2891.8
+    "invalidation_floor": 2754.11,
+    "risk_per_share": 156.97,
+    "technical_pivot": 2911.08
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

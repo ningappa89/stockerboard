@@ -225,14 +225,22 @@
       "open": 80.9,
       "time": "2026-09-25",
       "volume": 181
+    },
+    {
+      "close": 77.5,
+      "high": 80.0,
+      "low": 72.0,
+      "open": 80.0,
+      "time": "2026-09-28",
+      "volume": 537
     }
   ],
   "company_name": "ADDI INDUSTRIES LTD.",
   "history": {
     "first_session": "2026-08-18",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 28
+    "last_session": "2026-09-28",
+    "sessions_available": 29
   },
   "industry": null,
   "isin": "INE757C01021",
@@ -242,29 +250,29 @@
     "is_stage2": false,
     "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.25x"
+    "volume_multiplier": "0.72x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.21,
-    "change_pct": 0.27,
-    "close": 77.2,
-    "previous_close": 76.99,
+    "as_of": "2026-09-28",
+    "change": 0.3,
+    "change_pct": 0.39,
+    "close": 77.5,
+    "previous_close": 77.2,
     "type": "EOD_CLOSE",
-    "volume": 181
+    "volume": 537
   },
   "range": {
-    "distance_from_high_pct": -18.39,
-    "distance_from_low_pct": 8.66,
+    "distance_from_high_pct": -18.08,
+    "distance_from_low_pct": 9.08,
     "high_52w": 94.6,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 71.05,
-    "range_position_pct": 26.11
+    "range_position_pct": 27.39
   },
   "risk_model": {
-    "invalidation_floor": 74.5,
-    "risk_per_share": 4.24,
-    "technical_pivot": 78.74
+    "invalidation_floor": 74.79,
+    "risk_per_share": 4.26,
+    "technical_pivot": 79.05
   },
   "schema_version": "1.0",
   "sector": null,

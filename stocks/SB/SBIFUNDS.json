@@ -385,14 +385,22 @@
       "open": 537.45,
       "time": "2026-09-25",
       "volume": 924166
+    },
+    {
+      "close": 522.9,
+      "high": 531.15,
+      "low": 521.05,
+      "open": 531.0,
+      "time": "2026-09-28",
+      "volume": 837580
     }
   ],
   "company_name": "SBI Funds Management Limited",
   "history": {
     "first_session": "2026-07-21",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 48
+    "last_session": "2026-09-28",
+    "sessions_available": 49
   },
   "industry": null,
   "isin": "INE640G01020",
@@ -400,31 +408,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 67,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.79x"
+    "volume_multiplier": "0.74x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -6.45,
-    "change_pct": -1.2,
-    "close": 531.15,
-    "previous_close": 537.6,
+    "as_of": "2026-09-28",
+    "change": -8.25,
+    "change_pct": -1.55,
+    "close": 522.9,
+    "previous_close": 531.15,
     "type": "EOD_CLOSE",
-    "volume": 924166
+    "volume": 837580
   },
   "range": {
-    "distance_from_high_pct": -15.01,
-    "distance_from_low_pct": 1.11,
+    "distance_from_high_pct": -16.33,
+    "distance_from_low_pct": 0.36,
     "high_52w": 624.95,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 525.3,
-    "range_position_pct": 5.87
+    "low_52w": 521.05,
+    "range_position_pct": 1.78
   },
   "risk_model": {
-    "invalidation_floor": 512.56,
-    "risk_per_share": 29.21,
-    "technical_pivot": 541.77
+    "invalidation_floor": 504.6,
+    "risk_per_share": 28.76,
+    "technical_pivot": 533.36
   },
   "schema_version": "1.0",
   "sector": null,

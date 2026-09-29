@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 744.85,
-      "high": 757.45,
-      "low": 740.2,
-      "open": 740.2,
-      "time": "2025-09-18",
-      "volume": 513478
-    },
-    {
       "close": 742.4,
       "high": 751.8,
       "low": 740.0,
@@ -2017,13 +2009,21 @@
       "open": 1372.8,
       "time": "2026-09-25",
       "volume": 1115488
+    },
+    {
+      "close": 1408.1,
+      "high": 1445.6,
+      "low": 1368.2,
+      "open": 1380.0,
+      "time": "2026-09-28",
+      "volume": 2809248
     }
   ],
   "company_name": "CHENNAI PETROLEUM CORPORATION",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 63,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "1.43x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 3.7,
-    "change_pct": 0.27,
-    "close": 1376.4,
-    "previous_close": 1372.7,
+    "as_of": "2026-09-28",
+    "change": 31.7,
+    "change_pct": 2.3,
+    "close": 1408.1,
+    "previous_close": 1376.4,
     "type": "EOD_CLOSE",
-    "volume": 1115488
+    "volume": 2809248
   },
   "range": {
-    "distance_from_high_pct": -17.95,
-    "distance_from_low_pct": 92.02,
+    "distance_from_high_pct": -16.06,
+    "distance_from_low_pct": 96.44,
     "high_52w": 1677.5,
     "history_basis": "52_WEEK",
     "low_52w": 716.8,
-    "range_position_pct": 68.66
+    "range_position_pct": 71.96
   },
   "risk_model": {
-    "invalidation_floor": 1328.23,
-    "risk_per_share": 75.7,
-    "technical_pivot": 1403.93
+    "invalidation_floor": 1358.82,
+    "risk_per_share": 77.44,
+    "technical_pivot": 1436.26
   },
   "schema_version": "1.0",
   "sector": null,

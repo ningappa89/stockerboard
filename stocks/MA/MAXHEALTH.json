@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1173.4,
-      "high": 1176.7,
-      "low": 1145.1,
-      "open": 1145.1,
-      "time": "2025-09-18",
-      "volume": 3746782
-    },
-    {
       "close": 1159.7,
       "high": 1176.4,
       "low": 1151.2,
@@ -2017,13 +2009,21 @@
       "open": 1050.0,
       "time": "2026-09-25",
       "volume": 1900715
+    },
+    {
+      "close": 1000.1,
+      "high": 1015.8,
+      "low": 989.1,
+      "open": 1014.0,
+      "time": "2026-09-28",
+      "volume": 2647811
     }
   ],
   "company_name": "Max Healthcare Institute Limit",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
+    "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.0x"
+    "volume_multiplier": "1.36x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -32.0,
-    "change_pct": -3.06,
-    "close": 1014.0,
-    "previous_close": 1046.0,
+    "as_of": "2026-09-28",
+    "change": -13.9,
+    "change_pct": -1.37,
+    "close": 1000.1,
+    "previous_close": 1014.0,
     "type": "EOD_CLOSE",
-    "volume": 1900715
+    "volume": 2647811
   },
   "range": {
-    "distance_from_high_pct": -17.01,
-    "distance_from_low_pct": 12.29,
+    "distance_from_high_pct": -18.15,
+    "distance_from_low_pct": 10.75,
     "high_52w": 1221.9,
     "history_basis": "52_WEEK",
     "low_52w": 903.0,
-    "range_position_pct": 34.81
+    "range_position_pct": 30.45
   },
   "risk_model": {
-    "invalidation_floor": 978.51,
-    "risk_per_share": 55.77,
-    "technical_pivot": 1034.28
+    "invalidation_floor": 965.1,
+    "risk_per_share": 55.0,
+    "technical_pivot": 1020.1
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

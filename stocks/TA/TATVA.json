@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1086.6,
-      "high": 1119.1,
-      "low": 1075.0,
-      "open": 1115.0,
-      "time": "2025-09-18",
-      "volume": 43066
-    },
-    {
       "close": 1105.3,
       "high": 1128.2,
       "low": 1080.0,
@@ -2017,46 +2009,54 @@
       "open": 1749.5,
       "time": "2026-09-25",
       "volume": 66589
+    },
+    {
+      "close": 1760.2,
+      "high": 1880.0,
+      "low": 1736.4,
+      "open": 1808.0,
+      "time": "2026-09-28",
+      "volume": 210374
     }
   ],
   "company_name": "TATVA CHIN PHARM CHEM LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE0GK401011",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 86,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "1.1x"
+    "momentum_score": 80,
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "3.03x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 64.6,
-    "change_pct": 3.74,
-    "close": 1793.2,
-    "previous_close": 1728.6,
+    "as_of": "2026-09-28",
+    "change": -33.0,
+    "change_pct": -1.84,
+    "close": 1760.2,
+    "previous_close": 1793.2,
     "type": "EOD_CLOSE",
-    "volume": 66589
+    "volume": 210374
   },
   "range": {
-    "distance_from_high_pct": -2.44,
-    "distance_from_low_pct": 82.7,
-    "high_52w": 1838.1,
+    "distance_from_high_pct": -6.37,
+    "distance_from_low_pct": 79.34,
+    "high_52w": 1880.0,
     "history_basis": "52_WEEK",
     "low_52w": 981.5,
-    "range_position_pct": 94.76
+    "range_position_pct": 86.67
   },
   "risk_model": {
-    "invalidation_floor": 1730.44,
-    "risk_per_share": 98.62,
-    "technical_pivot": 1829.06
+    "invalidation_floor": 1698.59,
+    "risk_per_share": 96.81,
+    "technical_pivot": 1795.4
   },
   "schema_version": "1.0",
   "sector": null,

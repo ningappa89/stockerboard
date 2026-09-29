@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3429.34,
-      "high": 3483.34,
-      "low": 3422.67,
-      "open": 3476.67,
-      "time": "2025-09-18",
-      "volume": 1215496
-    },
-    {
       "close": 3386.67,
       "high": 3438.67,
       "low": 3382.67,
@@ -2017,13 +2009,21 @@
       "open": 2720.0,
       "time": "2026-09-25",
       "volume": 1054993
+    },
+    {
+      "close": 2626.0,
+      "high": 2663.8,
+      "low": 2615.1,
+      "open": 2660.0,
+      "time": "2026-09-28",
+      "volume": 636905
     }
   ],
   "company_name": "TRENT LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 54,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.53x"
+    "volume_multiplier": "0.91x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -30.7,
-    "change_pct": -1.14,
-    "close": 2669.3,
-    "previous_close": 2700.0,
+    "as_of": "2026-09-28",
+    "change": -43.3,
+    "change_pct": -1.62,
+    "close": 2626.0,
+    "previous_close": 2669.3,
     "type": "EOD_CLOSE",
-    "volume": 1054993
+    "volume": 636905
   },
   "range": {
-    "distance_from_high_pct": -23.37,
-    "distance_from_low_pct": 22.24,
-    "high_52w": 3483.34,
+    "distance_from_high_pct": -23.63,
+    "distance_from_low_pct": 20.26,
+    "high_52w": 3438.67,
     "history_basis": "52_WEEK",
     "low_52w": 2183.67,
-    "range_position_pct": 37.37
+    "range_position_pct": 35.25
   },
   "risk_model": {
-    "invalidation_floor": 2575.87,
-    "risk_per_share": 146.82,
-    "technical_pivot": 2722.69
+    "invalidation_floor": 2534.09,
+    "risk_per_share": 144.43,
+    "technical_pivot": 2678.52
   },
   "schema_version": "1.0",
   "sector": null,

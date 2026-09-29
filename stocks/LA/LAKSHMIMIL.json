@@ -217,14 +217,22 @@
       "open": 8001.0,
       "time": "2026-09-25",
       "volume": 87
+    },
+    {
+      "close": 7689.5,
+      "high": 7710.0,
+      "low": 7689.0,
+      "open": 7704.0,
+      "time": "2026-09-28",
+      "volume": 18
     }
   ],
   "company_name": "LAKSHMI MILLS COMPANY LTD.",
   "history": {
     "first_session": "2026-08-18",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 27
+    "last_session": "2026-09-28",
+    "sessions_available": 28
   },
   "industry": null,
   "isin": "INE938C01019",
@@ -232,31 +240,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 76,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.47x"
+    "momentum_score": 75,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.5x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -51.5,
-    "change_pct": -0.66,
-    "close": 7729.0,
-    "previous_close": 7780.5,
+    "as_of": "2026-09-28",
+    "change": -39.5,
+    "change_pct": -0.51,
+    "close": 7689.5,
+    "previous_close": 7729.0,
     "type": "EOD_CLOSE",
-    "volume": 87
+    "volume": 18
   },
   "range": {
-    "distance_from_high_pct": -9.12,
-    "distance_from_low_pct": 2.51,
+    "distance_from_high_pct": -9.59,
+    "distance_from_low_pct": 1.98,
     "high_52w": 8505.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 7540.0,
-    "range_position_pct": 19.59
+    "range_position_pct": 15.49
   },
   "risk_model": {
-    "invalidation_floor": 7458.48,
-    "risk_per_share": 425.1,
-    "technical_pivot": 7883.58
+    "invalidation_floor": 7420.37,
+    "risk_per_share": 422.92,
+    "technical_pivot": 7843.29
   },
   "schema_version": "1.0",
   "sector": null,

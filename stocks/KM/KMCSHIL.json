@@ -233,14 +233,22 @@
       "open": 157.92,
       "time": "2026-09-25",
       "volume": 138169
+    },
+    {
+      "close": 165.33,
+      "high": 177.79,
+      "low": 152.3,
+      "open": 155.7,
+      "time": "2026-09-28",
+      "volume": 1370878
     }
   ],
   "company_name": "K M C SPECIALITY HOSP I L",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE879K01018",
@@ -248,31 +256,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 80,
+    "momentum_score": 79,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.15x"
+    "volume_multiplier": "1.36x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.69,
-    "change_pct": -1.07,
-    "close": 156.23,
-    "previous_close": 157.92,
+    "as_of": "2026-09-28",
+    "change": 9.1,
+    "change_pct": 5.82,
+    "close": 165.33,
+    "previous_close": 156.23,
     "type": "EOD_CLOSE",
-    "volume": 138169
+    "volume": 1370878
   },
   "range": {
-    "distance_from_high_pct": -6.06,
-    "distance_from_low_pct": 21.6,
-    "high_52w": 166.3,
+    "distance_from_high_pct": -7.01,
+    "distance_from_low_pct": 28.68,
+    "high_52w": 177.79,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 128.48,
-    "range_position_pct": 73.37
+    "range_position_pct": 74.73
   },
   "risk_model": {
-    "invalidation_floor": 150.76,
-    "risk_per_share": 8.59,
-    "technical_pivot": 159.35
+    "invalidation_floor": 159.54,
+    "risk_per_share": 9.1,
+    "technical_pivot": 168.64
   },
   "schema_version": "1.0",
   "sector": null,

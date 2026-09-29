@@ -1617,14 +1617,22 @@
       "open": 28.48,
       "time": "2026-09-25",
       "volume": 14185546
+    },
+    {
+      "close": 28.9,
+      "high": 30.54,
+      "low": 28.6,
+      "open": 30.17,
+      "time": "2026-09-28",
+      "volume": 15268932
     }
   ],
   "company_name": "Indiabulls Limited",
   "history": {
     "first_session": "2025-11-10",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 202
+    "last_session": "2026-09-28",
+    "sessions_available": 203
   },
   "industry": null,
   "isin": "INE126M01010",
@@ -1632,31 +1640,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 77,
+    "momentum_score": 73,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.78x"
+    "volume_multiplier": "0.81x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.42,
-    "change_pct": 5.0,
-    "close": 29.83,
-    "previous_close": 28.41,
+    "as_of": "2026-09-28",
+    "change": -0.93,
+    "change_pct": -3.12,
+    "close": 28.9,
+    "previous_close": 29.83,
     "type": "EOD_CLOSE",
-    "volume": 14185546
+    "volume": 15268932
   },
   "range": {
-    "distance_from_high_pct": -8.22,
-    "distance_from_low_pct": 235.17,
+    "distance_from_high_pct": -11.08,
+    "distance_from_low_pct": 224.72,
     "high_52w": 32.5,
     "history_basis": "52_WEEK",
     "low_52w": 8.9,
-    "range_position_pct": 88.69
+    "range_position_pct": 84.75
   },
   "risk_model": {
-    "invalidation_floor": 28.79,
-    "risk_per_share": 1.64,
-    "technical_pivot": 30.43
+    "invalidation_floor": 27.89,
+    "risk_per_share": 1.59,
+    "technical_pivot": 29.48
   },
   "schema_version": "1.0",
   "sector": null,

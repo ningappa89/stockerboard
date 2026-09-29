@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3440.6,
-      "high": 3450.0,
-      "low": 3409.7,
-      "open": 3431.9,
-      "time": "2025-09-18",
-      "volume": 45869
-    },
-    {
       "close": 3396.2,
       "high": 3452.6,
       "low": 3375.0,
@@ -2017,13 +2009,21 @@
       "open": 3369.2,
       "time": "2026-09-25",
       "volume": 38247
+    },
+    {
+      "close": 3274.7,
+      "high": 3352.2,
+      "low": 3260.0,
+      "open": 3350.0,
+      "time": "2026-09-28",
+      "volume": 60830
     }
   ],
   "company_name": "CEAT LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 53,
+    "momentum_score": 50,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.66x"
+    "volume_multiplier": "1.03x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.6,
-    "change_pct": -0.05,
-    "close": 3352.2,
-    "previous_close": 3353.8,
+    "as_of": "2026-09-28",
+    "change": -77.5,
+    "change_pct": -2.31,
+    "close": 3274.7,
+    "previous_close": 3352.2,
     "type": "EOD_CLOSE",
-    "volume": 38247
+    "volume": 60830
   },
   "range": {
-    "distance_from_high_pct": -24.47,
-    "distance_from_low_pct": 9.51,
+    "distance_from_high_pct": -26.21,
+    "distance_from_low_pct": 6.97,
     "high_52w": 4438.0,
     "history_basis": "52_WEEK",
     "low_52w": 3061.2,
-    "range_position_pct": 21.14
+    "range_position_pct": 15.51
   },
   "risk_model": {
-    "invalidation_floor": 3234.87,
-    "risk_per_share": 184.37,
-    "technical_pivot": 3419.24
+    "invalidation_floor": 3160.09,
+    "risk_per_share": 180.1,
+    "technical_pivot": 3340.19
   },
   "schema_version": "1.0",
   "sector": null,

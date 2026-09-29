@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 122.75,
-      "high": 124.96,
-      "low": 121.2,
-      "open": 124.87,
-      "time": "2025-09-18",
-      "volume": 1035
-    },
-    {
       "close": 121.25,
       "high": 124.05,
       "low": 121.25,
@@ -2017,13 +2009,21 @@
       "open": 84.0,
       "time": "2026-09-25",
       "volume": 1078
+    },
+    {
+      "close": 88.9,
+      "high": 88.91,
+      "low": 86.1,
+      "open": 88.0,
+      "time": "2026-09-28",
+      "volume": 849
     }
   ],
   "company_name": "Palash Securities Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.05x"
+    "volume_multiplier": "0.97x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 4.81,
-    "change_pct": 5.72,
-    "close": 88.92,
-    "previous_close": 84.11,
+    "as_of": "2026-09-28",
+    "change": -0.02,
+    "change_pct": -0.02,
+    "close": 88.9,
+    "previous_close": 88.92,
     "type": "EOD_CLOSE",
-    "volume": 1078
+    "volume": 849
   },
   "range": {
-    "distance_from_high_pct": -32.99,
-    "distance_from_low_pct": 12.54,
+    "distance_from_high_pct": -33.01,
+    "distance_from_low_pct": 12.52,
     "high_52w": 132.7,
     "history_basis": "52_WEEK",
     "low_52w": 79.01,
-    "range_position_pct": 18.46
+    "range_position_pct": 18.42
   },
   "risk_model": {
-    "invalidation_floor": 85.81,
+    "invalidation_floor": 85.79,
     "risk_per_share": 4.89,
-    "technical_pivot": 90.7
+    "technical_pivot": 90.68
   },
   "schema_version": "1.0",
   "sector": null,

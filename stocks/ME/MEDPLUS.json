@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 838.3,
-      "high": 853.6,
-      "low": 830.5,
-      "open": 849.8,
-      "time": "2025-09-18",
-      "volume": 171651
-    },
-    {
       "close": 840.55,
       "high": 845.0,
       "low": 832.75,
@@ -2017,13 +2009,21 @@
       "open": 658.0,
       "time": "2026-09-25",
       "volume": 122436
+    },
+    {
+      "close": 653.0,
+      "high": 661.5,
+      "low": 647.0,
+      "open": 654.9,
+      "time": "2026-09-28",
+      "volume": 113837
     }
   ],
   "company_name": "Medplus Health Services Limite",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.22x"
+    "volume_multiplier": "1.12x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.65,
-    "change_pct": 0.1,
-    "close": 654.9,
-    "previous_close": 654.25,
+    "as_of": "2026-09-28",
+    "change": -1.9,
+    "change_pct": -0.29,
+    "close": 653.0,
+    "previous_close": 654.9,
     "type": "EOD_CLOSE",
-    "volume": 122436
+    "volume": 113837
   },
   "range": {
-    "distance_from_high_pct": -35.93,
-    "distance_from_low_pct": 1.53,
+    "distance_from_high_pct": -36.12,
+    "distance_from_low_pct": 1.24,
     "high_52w": 1022.2,
     "history_basis": "52_WEEK",
     "low_52w": 645.0,
-    "range_position_pct": 2.62
+    "range_position_pct": 2.12
   },
   "risk_model": {
-    "invalidation_floor": 631.98,
-    "risk_per_share": 36.02,
-    "technical_pivot": 668.0
+    "invalidation_floor": 630.14,
+    "risk_per_share": 35.92,
+    "technical_pivot": 666.06
   },
   "schema_version": "1.0",
   "sector": null,

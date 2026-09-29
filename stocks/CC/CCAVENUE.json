@@ -1281,14 +1281,22 @@
       "open": 16.02,
       "time": "2026-09-25",
       "volume": 6133145
+    },
+    {
+      "close": 15.41,
+      "high": 15.99,
+      "low": 15.36,
+      "open": 15.93,
+      "time": "2026-09-28",
+      "volume": 6856447
     }
   ],
   "company_name": "AVENUESAI LIMITED",
   "history": {
     "first_session": "2026-02-03",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 160
+    "last_session": "2026-09-28",
+    "sessions_available": 161
   },
   "industry": null,
   "isin": "INE483S01020",
@@ -1296,31 +1304,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
+    "momentum_score": 58,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.39x"
+    "volume_multiplier": "0.43x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.1,
-    "change_pct": -0.63,
-    "close": 15.89,
-    "previous_close": 15.99,
+    "as_of": "2026-09-28",
+    "change": -0.48,
+    "change_pct": -3.02,
+    "close": 15.41,
+    "previous_close": 15.89,
     "type": "EOD_CLOSE",
-    "volume": 6133145
+    "volume": 6856447
   },
   "range": {
-    "distance_from_high_pct": -18.22,
-    "distance_from_low_pct": 22.99,
+    "distance_from_high_pct": -20.69,
+    "distance_from_low_pct": 19.27,
     "high_52w": 19.43,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 12.92,
-    "range_position_pct": 45.62
+    "range_position_pct": 38.25
   },
   "risk_model": {
-    "invalidation_floor": 15.33,
-    "risk_per_share": 0.88,
-    "technical_pivot": 16.21
+    "invalidation_floor": 14.87,
+    "risk_per_share": 0.85,
+    "technical_pivot": 15.72
   },
   "schema_version": "1.0",
   "sector": null,

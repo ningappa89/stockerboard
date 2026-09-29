@@ -849,46 +849,54 @@
       "open": 6200.0,
       "time": "2026-09-25",
       "volume": 63
+    },
+    {
+      "close": 6092.5,
+      "high": 6205.0,
+      "low": 6050.0,
+      "open": 6120.0,
+      "time": "2026-09-28",
+      "volume": 276
     }
   ],
   "company_name": "INDUSTRIAL & PRU INV CO L",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 106
+    "last_session": "2026-09-28",
+    "sessions_available": 107
   },
   "industry": null,
   "isin": "INE620D01011",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 71,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.29x"
+    "is_stage2": false,
+    "momentum_score": 69,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "4.5x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.0,
-    "change_pct": 0.0,
-    "close": 6200.0,
+    "as_of": "2026-09-28",
+    "change": -107.5,
+    "change_pct": -1.73,
+    "close": 6092.5,
     "previous_close": 6200.0,
     "type": "EOD_CLOSE",
-    "volume": 63
+    "volume": 276
   },
   "range": {
-    "distance_from_high_pct": -12.09,
-    "distance_from_low_pct": 7.82,
+    "distance_from_high_pct": -13.61,
+    "distance_from_low_pct": 5.95,
     "high_52w": 7052.5,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 5750.5,
-    "range_position_pct": 34.52
+    "range_position_pct": 26.27
   },
   "risk_model": {
-    "invalidation_floor": 5983.0,
-    "risk_per_share": 341.0,
-    "technical_pivot": 6324.0
+    "invalidation_floor": 5879.26,
+    "risk_per_share": 335.09,
+    "technical_pivot": 6214.35
   },
   "schema_version": "1.0",
   "sector": null,

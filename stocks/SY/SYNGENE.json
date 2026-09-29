@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 657.95,
-      "high": 660.0,
-      "low": 649.3,
-      "open": 652.0,
-      "time": "2025-09-18",
-      "volume": 410959
-    },
-    {
       "close": 665.45,
       "high": 666.75,
       "low": 656.3,
@@ -2017,13 +2009,21 @@
       "open": 380.35,
       "time": "2026-09-25",
       "volume": 177820
+    },
+    {
+      "close": 376.0,
+      "high": 380.0,
+      "low": 374.0,
+      "open": 380.0,
+      "time": "2026-09-28",
+      "volume": 271472
     }
   ],
   "company_name": "SYNGENE INTERNATIONAL LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.28x"
+    "volume_multiplier": "0.42x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.65,
-    "change_pct": -0.43,
-    "close": 378.7,
-    "previous_close": 380.35,
+    "as_of": "2026-09-28",
+    "change": -2.7,
+    "change_pct": -0.71,
+    "close": 376.0,
+    "previous_close": 378.7,
     "type": "EOD_CLOSE",
-    "volume": 177820
+    "volume": 271472
   },
   "range": {
-    "distance_from_high_pct": -44.22,
-    "distance_from_low_pct": 5.08,
+    "distance_from_high_pct": -44.62,
+    "distance_from_low_pct": 4.33,
     "high_52w": 678.95,
     "history_basis": "52_WEEK",
     "low_52w": 360.4,
-    "range_position_pct": 5.74
+    "range_position_pct": 4.9
   },
   "risk_model": {
-    "invalidation_floor": 365.45,
-    "risk_per_share": 20.82,
-    "technical_pivot": 386.27
+    "invalidation_floor": 362.84,
+    "risk_per_share": 20.68,
+    "technical_pivot": 383.52
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

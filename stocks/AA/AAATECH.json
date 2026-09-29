@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 79.11,
-      "high": 80.3,
-      "low": 78.6,
-      "open": 79.88,
-      "time": "2025-09-18",
-      "volume": 17339
-    },
-    {
       "close": 79.23,
       "high": 79.67,
       "low": 78.39,
@@ -2017,13 +2009,21 @@
       "open": 93.2,
       "time": "2026-09-25",
       "volume": 735186
+    },
+    {
+      "close": 99.53,
+      "high": 102.38,
+      "low": 97.19,
+      "open": 101.75,
+      "time": "2026-09-28",
+      "volume": 66484
     }
   ],
   "company_name": "AAA TECHNOLOGIES LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 51,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "7.08x"
+    "momentum_score": 49,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.63x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 9.66,
-    "change_pct": 10.52,
-    "close": 101.5,
-    "previous_close": 91.84,
+    "as_of": "2026-09-28",
+    "change": -1.97,
+    "change_pct": -1.94,
+    "close": 99.53,
+    "previous_close": 101.5,
     "type": "EOD_CLOSE",
-    "volume": 735186
+    "volume": 66484
   },
   "range": {
-    "distance_from_high_pct": -25.37,
-    "distance_from_low_pct": 33.36,
+    "distance_from_high_pct": -26.82,
+    "distance_from_low_pct": 30.77,
     "high_52w": 136.0,
     "history_basis": "52_WEEK",
     "low_52w": 76.11,
-    "range_position_pct": 42.39
+    "range_position_pct": 39.11
   },
   "risk_model": {
-    "invalidation_floor": 97.95,
-    "risk_per_share": 5.58,
-    "technical_pivot": 103.53
+    "invalidation_floor": 96.05,
+    "risk_per_share": 5.47,
+    "technical_pivot": 101.52
   },
   "schema_version": "1.0",
   "sector": null,

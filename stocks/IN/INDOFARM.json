@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 258.54,
-      "high": 265.4,
-      "low": 253.3,
-      "open": 258.0,
-      "time": "2025-09-18",
-      "volume": 493045
-    },
-    {
       "close": 257.84,
       "high": 265.0,
       "low": 256.0,
@@ -2017,13 +2009,21 @@
       "open": 138.61,
       "time": "2026-09-25",
       "volume": 89452
+    },
+    {
+      "close": 134.27,
+      "high": 139.45,
+      "low": 133.74,
+      "open": 139.45,
+      "time": "2026-09-28",
+      "volume": 72825
     }
   ],
   "company_name": "INDO FARM EQUIPMENT LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.38x"
+    "volume_multiplier": "0.31x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.01,
-    "change_pct": -0.73,
-    "close": 138.16,
-    "previous_close": 139.17,
+    "as_of": "2026-09-28",
+    "change": -3.89,
+    "change_pct": -2.82,
+    "close": 134.27,
+    "previous_close": 138.16,
     "type": "EOD_CLOSE",
-    "volume": 89452
+    "volume": 72825
   },
   "range": {
-    "distance_from_high_pct": -49.15,
-    "distance_from_low_pct": 24.81,
+    "distance_from_high_pct": -50.58,
+    "distance_from_low_pct": 21.29,
     "high_52w": 271.69,
     "history_basis": "52_WEEK",
     "low_52w": 110.7,
-    "range_position_pct": 17.06
+    "range_position_pct": 14.64
   },
   "risk_model": {
-    "invalidation_floor": 133.32,
-    "risk_per_share": 7.6,
-    "technical_pivot": 140.92
+    "invalidation_floor": 129.57,
+    "risk_per_share": 7.39,
+    "technical_pivot": 136.96
   },
   "schema_version": "1.0",
   "sector": null,

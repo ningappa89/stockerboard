@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 451.9,
-      "high": 453.55,
-      "low": 443.0,
-      "open": 450.0,
-      "time": "2025-09-18",
-      "volume": 90088
-    },
-    {
       "close": 454.9,
       "high": 466.75,
       "low": 450.65,
@@ -2017,13 +2009,21 @@
       "open": 548.0,
       "time": "2026-09-25",
       "volume": 86135
+    },
+    {
+      "close": 523.7,
+      "high": 535.05,
+      "low": 522.3,
+      "open": 535.0,
+      "time": "2026-09-28",
+      "volume": 62260
     }
   ],
   "company_name": "CARRARO INDIA LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 60,
+    "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.55x"
+    "volume_multiplier": "0.47x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -15.05,
-    "change_pct": -2.74,
-    "close": 535.0,
-    "previous_close": 550.05,
+    "as_of": "2026-09-28",
+    "change": -11.3,
+    "change_pct": -2.11,
+    "close": 523.7,
+    "previous_close": 535.0,
     "type": "EOD_CLOSE",
-    "volume": 86135
+    "volume": 62260
   },
   "range": {
-    "distance_from_high_pct": -19.86,
-    "distance_from_low_pct": 28.61,
+    "distance_from_high_pct": -21.55,
+    "distance_from_low_pct": 25.89,
     "high_52w": 667.55,
     "history_basis": "52_WEEK",
     "low_52w": 416.0,
-    "range_position_pct": 47.31
+    "range_position_pct": 42.81
   },
   "risk_model": {
-    "invalidation_floor": 516.27,
-    "risk_per_share": 29.43,
-    "technical_pivot": 545.7
+    "invalidation_floor": 505.37,
+    "risk_per_share": 28.8,
+    "technical_pivot": 534.17
   },
   "schema_version": "1.0",
   "sector": null,

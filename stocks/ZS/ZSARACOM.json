@@ -881,14 +881,22 @@
       "open": 9950.0,
       "time": "2026-09-25",
       "volume": 47
+    },
+    {
+      "close": 10008.0,
+      "high": 10307.0,
+      "low": 9820.0,
+      "open": 10307.0,
+      "time": "2026-09-28",
+      "volume": 30
     }
   ],
   "company_name": "SARASWATI COMM (INDIA) L",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 110
+    "last_session": "2026-09-28",
+    "sessions_available": 111
   },
   "industry": null,
   "isin": "INE967G01019",
@@ -896,31 +904,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 47,
+    "momentum_score": 44,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.81x"
+    "volume_multiplier": "0.51x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 359.0,
-    "change_pct": 3.61,
-    "close": 10307.0,
-    "previous_close": 9948.0,
+    "as_of": "2026-09-28",
+    "change": -299.0,
+    "change_pct": -2.9,
+    "close": 10008.0,
+    "previous_close": 10307.0,
     "type": "EOD_CLOSE",
-    "volume": 47
+    "volume": 30
   },
   "range": {
-    "distance_from_high_pct": -28.42,
-    "distance_from_low_pct": 14.52,
+    "distance_from_high_pct": -30.5,
+    "distance_from_low_pct": 11.2,
     "high_52w": 14400.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 9000.0,
-    "range_position_pct": 24.2
+    "range_position_pct": 18.67
   },
   "risk_model": {
-    "invalidation_floor": 9946.25,
-    "risk_per_share": 566.89,
-    "technical_pivot": 10513.14
+    "invalidation_floor": 9657.72,
+    "risk_per_share": 550.44,
+    "technical_pivot": 10208.16
   },
   "schema_version": "1.0",
   "sector": null,

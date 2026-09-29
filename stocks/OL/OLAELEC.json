@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 57.71,
-      "high": 58.81,
-      "low": 57.0,
-      "open": 58.81,
-      "time": "2025-09-18",
-      "volume": 21173083
-    },
-    {
       "close": 57.67,
       "high": 58.7,
       "low": 56.5,
@@ -2017,13 +2009,21 @@
       "open": 42.5,
       "time": "2026-09-25",
       "volume": 194568434
+    },
+    {
+      "close": 37.86,
+      "high": 38.95,
+      "low": 37.68,
+      "open": 38.21,
+      "time": "2026-09-28",
+      "volume": 83934195
     }
   ],
   "company_name": "OLA ELECTRIC MOBILITY LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.89x"
+    "volume_multiplier": "0.81x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -4.04,
-    "change_pct": -9.5,
-    "close": 38.48,
-    "previous_close": 42.52,
+    "as_of": "2026-09-28",
+    "change": -0.62,
+    "change_pct": -1.61,
+    "close": 37.86,
+    "previous_close": 38.48,
     "type": "EOD_CLOSE",
-    "volume": 194568434
+    "volume": 83934195
   },
   "range": {
-    "distance_from_high_pct": -35.0,
-    "distance_from_low_pct": 72.94,
+    "distance_from_high_pct": -36.05,
+    "distance_from_low_pct": 70.16,
     "high_52w": 59.2,
     "history_basis": "52_WEEK",
     "low_52w": 22.25,
-    "range_position_pct": 43.92
+    "range_position_pct": 42.25
   },
   "risk_model": {
-    "invalidation_floor": 37.13,
-    "risk_per_share": 2.12,
-    "technical_pivot": 39.25
+    "invalidation_floor": 36.53,
+    "risk_per_share": 2.09,
+    "technical_pivot": 38.62
   },
   "schema_version": "1.0",
   "sector": null,

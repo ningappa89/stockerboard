@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3686.0,
-      "high": 3700.0,
-      "low": 3672.5,
-      "open": 3691.0,
-      "time": "2025-09-18",
-      "volume": 1270148
-    },
-    {
       "close": 3675.4,
       "high": 3705.0,
       "low": 3671.0,
@@ -2017,13 +2009,21 @@
       "open": 3865.0,
       "time": "2026-09-25",
       "volume": 1230579
+    },
+    {
+      "close": 3766.4,
+      "high": 3858.2,
+      "low": 3766.4,
+      "open": 3857.0,
+      "time": "2026-09-28",
+      "volume": 1361601
     }
   ],
   "company_name": "LARSEN & TOUBRO LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
+    "is_stage2": false,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.88x"
+    "volume_multiplier": "0.96x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 17.8,
-    "change_pct": 0.46,
-    "close": 3876.2,
-    "previous_close": 3858.4,
+    "as_of": "2026-09-28",
+    "change": -109.8,
+    "change_pct": -2.83,
+    "close": 3766.4,
+    "previous_close": 3876.2,
     "type": "EOD_CLOSE",
-    "volume": 1230579
+    "volume": 1361601
   },
   "range": {
-    "distance_from_high_pct": -12.7,
-    "distance_from_low_pct": 17.89,
+    "distance_from_high_pct": -15.17,
+    "distance_from_low_pct": 14.55,
     "high_52w": 4440.0,
     "history_basis": "52_WEEK",
     "low_52w": 3288.1,
-    "range_position_pct": 51.05
+    "range_position_pct": 41.52
   },
   "risk_model": {
-    "invalidation_floor": 3740.53,
-    "risk_per_share": 213.19,
-    "technical_pivot": 3953.72
+    "invalidation_floor": 3634.58,
+    "risk_per_share": 207.15,
+    "technical_pivot": 3841.73
   },
   "schema_version": "1.0",
   "sector": null,

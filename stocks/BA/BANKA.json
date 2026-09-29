@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 90.94,
-      "high": 93.38,
-      "low": 90.1,
-      "open": 90.8,
-      "time": "2025-09-18",
-      "volume": 13591
-    },
-    {
       "close": 90.73,
       "high": 93.0,
       "low": 89.0,
@@ -2017,13 +2009,21 @@
       "open": 76.5,
       "time": "2026-09-25",
       "volume": 9948
+    },
+    {
+      "close": 73.09,
+      "high": 75.48,
+      "low": 71.6,
+      "open": 73.78,
+      "time": "2026-09-28",
+      "volume": 1103
     }
   ],
   "company_name": "BANKA BIOLOO LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 54,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.66x"
+    "momentum_score": 53,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.29x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -3.08,
-    "change_pct": -4.03,
-    "close": 73.42,
-    "previous_close": 76.5,
+    "as_of": "2026-09-28",
+    "change": -0.33,
+    "change_pct": -0.45,
+    "close": 73.09,
+    "previous_close": 73.42,
     "type": "EOD_CLOSE",
-    "volume": 9948
+    "volume": 1103
   },
   "range": {
-    "distance_from_high_pct": -23.98,
-    "distance_from_low_pct": 79.07,
+    "distance_from_high_pct": -24.32,
+    "distance_from_low_pct": 78.27,
     "high_52w": 96.58,
     "history_basis": "52_WEEK",
     "low_52w": 41.0,
-    "range_position_pct": 58.33
+    "range_position_pct": 57.74
   },
   "risk_model": {
-    "invalidation_floor": 70.85,
-    "risk_per_share": 4.04,
-    "technical_pivot": 74.89
+    "invalidation_floor": 70.53,
+    "risk_per_share": 4.02,
+    "technical_pivot": 74.55
   },
   "schema_version": "1.0",
   "sector": null,

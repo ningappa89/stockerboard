@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 149.31,
-      "high": 151.53,
-      "low": 148.31,
-      "open": 149.51,
-      "time": "2025-09-18",
-      "volume": 105614
-    },
-    {
       "close": 147.24,
       "high": 150.29,
       "low": 146.78,
@@ -2017,13 +2009,21 @@
       "open": 262.7,
       "time": "2026-09-25",
       "volume": 300287
+    },
+    {
+      "close": 262.05,
+      "high": 264.85,
+      "low": 257.3,
+      "open": 261.4,
+      "time": "2026-09-28",
+      "volume": 448095
     }
   ],
   "company_name": "Gandhar Oil Refinery (India) L",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.38x"
+    "volume_multiplier": "0.57x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.05,
-    "change_pct": -0.4,
-    "close": 261.65,
-    "previous_close": 262.7,
+    "as_of": "2026-09-28",
+    "change": 0.4,
+    "change_pct": 0.15,
+    "close": 262.05,
+    "previous_close": 261.65,
     "type": "EOD_CLOSE",
-    "volume": 300287
+    "volume": 448095
   },
   "range": {
-    "distance_from_high_pct": -13.7,
-    "distance_from_low_pct": 127.52,
+    "distance_from_high_pct": -13.56,
+    "distance_from_low_pct": 127.87,
     "high_52w": 303.17,
     "history_basis": "52_WEEK",
     "low_52w": 115.0,
-    "range_position_pct": 77.93
+    "range_position_pct": 78.15
   },
   "risk_model": {
-    "invalidation_floor": 252.49,
-    "risk_per_share": 14.39,
-    "technical_pivot": 266.88
+    "invalidation_floor": 252.88,
+    "risk_per_share": 14.41,
+    "technical_pivot": 267.29
   },
   "schema_version": "1.0",
   "sector": null,

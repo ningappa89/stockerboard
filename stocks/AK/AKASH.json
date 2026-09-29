@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 31.99,
-      "high": 36.0,
-      "low": 31.35,
-      "open": 32.0,
-      "time": "2025-09-18",
-      "volume": 326026
-    },
-    {
       "close": 31.38,
       "high": 32.39,
       "low": 31.1,
@@ -2017,13 +2009,21 @@
       "open": 24.51,
       "time": "2026-09-25",
       "volume": 5168
+    },
+    {
+      "close": 25.02,
+      "high": 25.79,
+      "low": 25.0,
+      "open": 25.04,
+      "time": "2026-09-28",
+      "volume": 1163
     }
   ],
   "company_name": "AKASH INFRA-PROJECTS LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 44,
+    "momentum_score": 48,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.35x"
+    "volume_multiplier": "0.31x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.53,
-    "change_pct": 2.16,
-    "close": 25.04,
-    "previous_close": 24.51,
+    "as_of": "2026-09-28",
+    "change": -0.02,
+    "change_pct": -0.08,
+    "close": 25.02,
+    "previous_close": 25.04,
     "type": "EOD_CLOSE",
-    "volume": 5168
+    "volume": 1163
   },
   "range": {
-    "distance_from_high_pct": -30.44,
-    "distance_from_low_pct": 9.82,
-    "high_52w": 36.0,
+    "distance_from_high_pct": -27.98,
+    "distance_from_low_pct": 9.74,
+    "high_52w": 34.74,
     "history_basis": "52_WEEK",
     "low_52w": 22.8,
-    "range_position_pct": 16.97
+    "range_position_pct": 18.59
   },
   "risk_model": {
-    "invalidation_floor": 24.16,
+    "invalidation_floor": 24.14,
     "risk_per_share": 1.38,
-    "technical_pivot": 25.54
+    "technical_pivot": 25.52
   },
   "schema_version": "1.0",
   "sector": null,

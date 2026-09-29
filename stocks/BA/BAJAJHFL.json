@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 114.8,
-      "high": 115.99,
-      "low": 114.6,
-      "open": 115.7,
-      "time": "2025-09-18",
-      "volume": 3447657
-    },
-    {
       "close": 114.58,
       "high": 114.78,
       "low": 114.15,
@@ -2017,13 +2009,21 @@
       "open": 83.03,
       "time": "2026-09-25",
       "volume": 3121239
+    },
+    {
+      "close": 82.52,
+      "high": 83.14,
+      "low": 82.0,
+      "open": 83.14,
+      "time": "2026-09-28",
+      "volume": 2875733
     }
   ],
   "company_name": "Bajaj Housing Finance Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 47,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.06x"
+    "volume_multiplier": "0.96x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.18,
-    "change_pct": 0.22,
-    "close": 83.14,
-    "previous_close": 82.96,
+    "as_of": "2026-09-28",
+    "change": -0.62,
+    "change_pct": -0.75,
+    "close": 82.52,
+    "previous_close": 83.14,
     "type": "EOD_CLOSE",
-    "volume": 3121239
+    "volume": 2875733
   },
   "range": {
-    "distance_from_high_pct": -28.32,
-    "distance_from_low_pct": 14.44,
-    "high_52w": 115.99,
+    "distance_from_high_pct": -28.21,
+    "distance_from_low_pct": 13.59,
+    "high_52w": 114.95,
     "history_basis": "52_WEEK",
     "low_52w": 72.65,
-    "range_position_pct": 24.2
+    "range_position_pct": 23.33
   },
   "risk_model": {
-    "invalidation_floor": 80.23,
-    "risk_per_share": 4.57,
-    "technical_pivot": 84.8
+    "invalidation_floor": 79.63,
+    "risk_per_share": 4.54,
+    "technical_pivot": 84.17
   },
   "schema_version": "1.0",
   "sector": null,

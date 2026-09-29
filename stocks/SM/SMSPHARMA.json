@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 285.38,
-      "high": 308.5,
-      "low": 281.29,
-      "open": 286.55,
-      "time": "2025-09-18",
-      "volume": 2411545
-    },
-    {
       "close": 292.14,
       "high": 295.78,
       "low": 283.6,
@@ -2017,13 +2009,21 @@
       "open": 475.9,
       "time": "2026-09-25",
       "volume": 361831
+    },
+    {
+      "close": 462.15,
+      "high": 476.0,
+      "low": 460.0,
+      "open": 474.05,
+      "time": "2026-09-28",
+      "volume": 387779
     }
   ],
   "company_name": "SMS PHARMACEUTICALS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 84,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.24x"
+    "momentum_score": 80,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.25x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.95,
-    "change_pct": 0.2,
-    "close": 475.0,
-    "previous_close": 474.05,
+    "as_of": "2026-09-28",
+    "change": -12.85,
+    "change_pct": -2.71,
+    "close": 462.15,
+    "previous_close": 475.0,
     "type": "EOD_CLOSE",
-    "volume": 361831
+    "volume": 387779
   },
   "range": {
-    "distance_from_high_pct": -3.93,
-    "distance_from_low_pct": 96.08,
+    "distance_from_high_pct": -6.53,
+    "distance_from_low_pct": 90.77,
     "high_52w": 494.45,
     "history_basis": "52_WEEK",
     "low_52w": 242.25,
-    "range_position_pct": 92.29
+    "range_position_pct": 87.19
   },
   "risk_model": {
-    "invalidation_floor": 458.38,
-    "risk_per_share": 26.12,
-    "technical_pivot": 484.5
+    "invalidation_floor": 445.97,
+    "risk_per_share": 25.42,
+    "technical_pivot": 471.39
   },
   "schema_version": "1.0",
   "sector": null,

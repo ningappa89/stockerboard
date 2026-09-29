@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1621.3,
-      "high": 1621.3,
-      "low": 1555.0,
-      "open": 1557.9,
-      "time": "2025-09-18",
-      "volume": 2010633
-    },
-    {
       "close": 1604.2,
       "high": 1657.0,
       "low": 1572.9,
@@ -2017,13 +2009,21 @@
       "open": 1649.0,
       "time": "2026-09-25",
       "volume": 318892
+    },
+    {
+      "close": 1642.8,
+      "high": 1678.4,
+      "low": 1638.2,
+      "open": 1675.0,
+      "time": "2026-09-28",
+      "volume": 181301
     }
   ],
   "company_name": "ZEN TECHNOLOGIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 63,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.03x"
+    "volume_multiplier": "0.59x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 36.7,
-    "change_pct": 2.23,
-    "close": 1682.4,
-    "previous_close": 1645.7,
+    "as_of": "2026-09-28",
+    "change": -39.6,
+    "change_pct": -2.35,
+    "close": 1642.8,
+    "previous_close": 1682.4,
     "type": "EOD_CLOSE",
-    "volume": 318892
+    "volume": 181301
   },
   "range": {
-    "distance_from_high_pct": -17.68,
-    "distance_from_low_pct": 37.56,
+    "distance_from_high_pct": -19.62,
+    "distance_from_low_pct": 34.33,
     "high_52w": 2043.7,
     "history_basis": "52_WEEK",
     "low_52w": 1223.0,
-    "range_position_pct": 55.98
+    "range_position_pct": 51.15
   },
   "risk_model": {
-    "invalidation_floor": 1623.52,
-    "risk_per_share": 92.53,
-    "technical_pivot": 1716.05
+    "invalidation_floor": 1585.3,
+    "risk_per_share": 90.36,
+    "technical_pivot": 1675.66
   },
   "schema_version": "1.0",
   "sector": null,

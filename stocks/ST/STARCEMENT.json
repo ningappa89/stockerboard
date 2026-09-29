@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 270.15,
-      "high": 272.45,
-      "low": 269.5,
-      "open": 271.65,
-      "time": "2025-09-18",
-      "volume": 185073
-    },
-    {
       "close": 273.45,
       "high": 279.3,
       "low": 267.0,
@@ -2017,13 +2009,21 @@
       "open": 187.7,
       "time": "2026-09-25",
       "volume": 50622
+    },
+    {
+      "close": 182.42,
+      "high": 187.18,
+      "low": 182.0,
+      "open": 187.18,
+      "time": "2026-09-28",
+      "volume": 115025
     }
   ],
   "company_name": "Star Cement Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.16x"
+    "volume_multiplier": "0.37x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.63,
-    "change_pct": -0.34,
-    "close": 186.61,
-    "previous_close": 187.24,
+    "as_of": "2026-09-28",
+    "change": -4.19,
+    "change_pct": -2.25,
+    "close": 182.42,
+    "previous_close": 186.61,
     "type": "EOD_CLOSE",
-    "volume": 50622
+    "volume": 115025
   },
   "range": {
-    "distance_from_high_pct": -33.19,
-    "distance_from_low_pct": 3.6,
+    "distance_from_high_pct": -34.69,
+    "distance_from_low_pct": 1.28,
     "high_52w": 279.3,
     "history_basis": "52_WEEK",
     "low_52w": 180.12,
-    "range_position_pct": 6.54
+    "range_position_pct": 2.32
   },
   "risk_model": {
-    "invalidation_floor": 180.08,
-    "risk_per_share": 10.26,
-    "technical_pivot": 190.34
+    "invalidation_floor": 176.04,
+    "risk_per_share": 10.03,
+    "technical_pivot": 186.07
   },
   "schema_version": "1.0",
   "sector": null,

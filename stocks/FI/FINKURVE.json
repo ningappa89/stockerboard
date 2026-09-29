@@ -1945,14 +1945,22 @@
       "open": 70.02,
       "time": "2026-09-25",
       "volume": 39834
+    },
+    {
+      "close": 69.32,
+      "high": 71.74,
+      "low": 68.0,
+      "open": 68.0,
+      "time": "2026-09-28",
+      "volume": 50688
     }
   ],
   "company_name": "FINKURVE FINANCIAL SERV L",
   "history": {
     "first_session": "2025-10-01",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 243
+    "last_session": "2026-09-28",
+    "sessions_available": 244
   },
   "industry": null,
   "isin": "INE734I01027",
@@ -1962,29 +1970,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.27x"
+    "volume_multiplier": "0.36x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.87,
-    "change_pct": -1.24,
-    "close": 69.31,
-    "previous_close": 70.18,
+    "as_of": "2026-09-28",
+    "change": 0.01,
+    "change_pct": 0.01,
+    "close": 69.32,
+    "previous_close": 69.31,
     "type": "EOD_CLOSE",
-    "volume": 39834
+    "volume": 50688
   },
   "range": {
-    "distance_from_high_pct": -48.62,
-    "distance_from_low_pct": 44.34,
+    "distance_from_high_pct": -48.61,
+    "distance_from_low_pct": 44.36,
     "high_52w": 134.9,
     "history_basis": "52_WEEK",
     "low_52w": 48.02,
-    "range_position_pct": 24.51
+    "range_position_pct": 24.52
   },
   "risk_model": {
-    "invalidation_floor": 66.88,
+    "invalidation_floor": 66.89,
     "risk_per_share": 3.82,
-    "technical_pivot": 70.7
+    "technical_pivot": 70.71
   },
   "schema_version": "1.0",
   "sector": null,

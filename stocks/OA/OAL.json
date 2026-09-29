@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 340.3,
-      "high": 345.45,
-      "low": 335.1,
-      "open": 343.9,
-      "time": "2025-09-18",
-      "volume": 8534
-    },
-    {
       "close": 350.7,
       "high": 354.0,
       "low": 340.0,
@@ -2017,46 +2009,54 @@
       "open": 533.05,
       "time": "2026-09-25",
       "volume": 28203
+    },
+    {
+      "close": 553.15,
+      "high": 558.0,
+      "low": 521.8,
+      "open": 533.45,
+      "time": "2026-09-28",
+      "volume": 99966
     }
   ],
   "company_name": "ORIENTAL AROMATICS LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE959C01023",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": false,
+    "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 80,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.26x"
+    "momentum_score": 85,
+    "setup_type": "Minervini VCP",
+    "volume_multiplier": "1.36x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.35,
-    "change_pct": 0.25,
-    "close": 533.65,
-    "previous_close": 532.3,
+    "as_of": "2026-09-28",
+    "change": 19.5,
+    "change_pct": 3.65,
+    "close": 553.15,
+    "previous_close": 533.65,
     "type": "EOD_CLOSE",
-    "volume": 28203
+    "volume": 99966
   },
   "range": {
-    "distance_from_high_pct": -6.38,
-    "distance_from_low_pct": 134.06,
+    "distance_from_high_pct": -2.96,
+    "distance_from_low_pct": 142.61,
     "high_52w": 570.0,
     "history_basis": "52_WEEK",
     "low_52w": 228.0,
-    "range_position_pct": 89.37
+    "range_position_pct": 95.07
   },
   "risk_model": {
-    "invalidation_floor": 514.97,
-    "risk_per_share": 29.35,
-    "technical_pivot": 544.32
+    "invalidation_floor": 533.79,
+    "risk_per_share": 30.42,
+    "technical_pivot": 564.21
   },
   "schema_version": "1.0",
   "sector": null,

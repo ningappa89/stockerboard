@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 353.75,
-      "high": 356.5,
-      "low": 346.5,
-      "open": 349.7,
-      "time": "2025-09-18",
-      "volume": 182055
-    },
-    {
       "close": 347.9,
       "high": 354.0,
       "low": 347.1,
@@ -2017,13 +2009,21 @@
       "open": 472.9,
       "time": "2026-09-25",
       "volume": 226490
+    },
+    {
+      "close": 474.15,
+      "high": 495.9,
+      "low": 472.0,
+      "open": 490.45,
+      "time": "2026-09-28",
+      "volume": 295542
     }
   ],
   "company_name": "ASIAN ENERGY SERVICES LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.44x"
+    "volume_multiplier": "0.6x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 13.1,
-    "change_pct": 2.76,
-    "close": 487.75,
-    "previous_close": 474.65,
+    "as_of": "2026-09-28",
+    "change": -13.6,
+    "change_pct": -2.79,
+    "close": 474.15,
+    "previous_close": 487.75,
     "type": "EOD_CLOSE",
-    "volume": 226490
+    "volume": 295542
   },
   "range": {
-    "distance_from_high_pct": -13.78,
-    "distance_from_low_pct": 112.07,
+    "distance_from_high_pct": -16.18,
+    "distance_from_low_pct": 106.15,
     "high_52w": 565.7,
     "history_basis": "52_WEEK",
     "low_52w": 230.0,
-    "range_position_pct": 76.78
+    "range_position_pct": 72.73
   },
   "risk_model": {
-    "invalidation_floor": 470.68,
-    "risk_per_share": 26.82,
-    "technical_pivot": 497.5
+    "invalidation_floor": 457.55,
+    "risk_per_share": 26.08,
+    "technical_pivot": 483.63
   },
   "schema_version": "1.0",
   "sector": null,

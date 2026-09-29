@@ -193,14 +193,22 @@
       "open": 115.0,
       "time": "2026-09-25",
       "volume": 414
+    },
+    {
+      "close": 116.0,
+      "high": 116.0,
+      "low": 114.0,
+      "open": 114.8,
+      "time": "2026-09-28",
+      "volume": 203
     }
   ],
   "company_name": "TERAI TEA CO.LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 24
+    "last_session": "2026-09-28",
+    "sessions_available": 25
   },
   "industry": null,
   "isin": "INE390D01011",
@@ -208,31 +216,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.82x"
+    "volume_multiplier": "0.42x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 6.31,
-    "change_pct": 5.66,
-    "close": 117.86,
-    "previous_close": 111.55,
+    "as_of": "2026-09-28",
+    "change": -1.86,
+    "change_pct": -1.58,
+    "close": 116.0,
+    "previous_close": 117.86,
     "type": "EOD_CLOSE",
-    "volume": 414
+    "volume": 203
   },
   "range": {
-    "distance_from_high_pct": -15.81,
-    "distance_from_low_pct": 14.43,
+    "distance_from_high_pct": -17.14,
+    "distance_from_low_pct": 12.62,
     "high_52w": 140.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 103.0,
-    "range_position_pct": 40.16
+    "range_position_pct": 35.14
   },
   "risk_model": {
-    "invalidation_floor": 113.73,
-    "risk_per_share": 6.49,
-    "technical_pivot": 120.22
+    "invalidation_floor": 111.94,
+    "risk_per_share": 6.38,
+    "technical_pivot": 118.32
   },
   "schema_version": "1.0",
   "sector": null,

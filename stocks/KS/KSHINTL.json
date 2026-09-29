@@ -1497,14 +1497,22 @@
       "open": 1036.3,
       "time": "2026-09-25",
       "volume": 131534
+    },
+    {
+      "close": 984.55,
+      "high": 1046.7,
+      "low": 975.6,
+      "open": 1042.85,
+      "time": "2026-09-28",
+      "volume": 321967
     }
   ],
   "company_name": "KSH INTERNATIONAL LIMITED",
   "history": {
     "first_session": "2025-12-23",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 187
+    "last_session": "2026-09-28",
+    "sessions_available": 188
   },
   "industry": null,
   "isin": "INE987S01020",
@@ -1512,31 +1520,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.43x"
+    "volume_multiplier": "1.03x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.5,
-    "change_pct": -0.05,
-    "close": 1035.5,
-    "previous_close": 1036.0,
+    "as_of": "2026-09-28",
+    "change": -50.95,
+    "change_pct": -4.92,
+    "close": 984.55,
+    "previous_close": 1035.5,
     "type": "EOD_CLOSE",
-    "volume": 131534
+    "volume": 321967
   },
   "range": {
-    "distance_from_high_pct": -13.56,
-    "distance_from_low_pct": 213.41,
+    "distance_from_high_pct": -17.82,
+    "distance_from_low_pct": 197.99,
     "high_52w": 1198.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 330.4,
-    "range_position_pct": 81.27
+    "range_position_pct": 75.4
   },
   "risk_model": {
-    "invalidation_floor": 999.26,
-    "risk_per_share": 56.95,
-    "technical_pivot": 1056.21
+    "invalidation_floor": 950.09,
+    "risk_per_share": 54.15,
+    "technical_pivot": 1004.24
   },
   "schema_version": "1.0",
   "sector": null,

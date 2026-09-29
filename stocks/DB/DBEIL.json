@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 13.04,
-      "high": 13.19,
-      "low": 13.0,
-      "open": 13.0,
-      "time": "2025-09-01",
-      "volume": 314330
-    },
-    {
       "close": 13.17,
       "high": 13.36,
       "low": 13.02,
@@ -2017,13 +2009,21 @@
       "open": 6.79,
       "time": "2026-09-25",
       "volume": 121300
+    },
+    {
+      "close": 6.54,
+      "high": 6.83,
+      "low": 6.22,
+      "open": 6.42,
+      "time": "2026-09-28",
+      "volume": 285211
     }
   ],
   "company_name": "DEEPAK BUILDERS & ENG I L",
   "history": {
-    "first_session": "2025-09-01",
+    "first_session": "2025-09-02",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.28x"
+    "volume_multiplier": "0.66x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.01,
-    "change_pct": -0.15,
-    "close": 6.63,
-    "previous_close": 6.64,
+    "as_of": "2026-09-28",
+    "change": -0.09,
+    "change_pct": -1.36,
+    "close": 6.54,
+    "previous_close": 6.63,
     "type": "EOD_CLOSE",
-    "volume": 121300
+    "volume": 285211
   },
   "range": {
-    "distance_from_high_pct": -64.28,
-    "distance_from_low_pct": 28.74,
+    "distance_from_high_pct": -64.76,
+    "distance_from_low_pct": 26.99,
     "high_52w": 18.56,
     "history_basis": "52_WEEK",
     "low_52w": 5.15,
-    "range_position_pct": 11.04
+    "range_position_pct": 10.37
   },
   "risk_model": {
-    "invalidation_floor": 6.4,
+    "invalidation_floor": 6.31,
     "risk_per_share": 0.5,
-    "technical_pivot": 6.76
+    "technical_pivot": 6.67
   },
   "schema_version": "1.0",
   "sector": null,

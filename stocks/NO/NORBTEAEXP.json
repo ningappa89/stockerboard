@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 51.68,
-      "high": 51.68,
-      "low": 51.64,
-      "open": 51.64,
-      "time": "2025-09-17",
-      "volume": 1812
-    },
-    {
       "close": 52.71,
       "high": 52.71,
       "low": 52.71,
@@ -2017,13 +2009,21 @@
       "open": 66.52,
       "time": "2026-09-25",
       "volume": 4162
+    },
+    {
+      "close": 66.62,
+      "high": 70.12,
+      "low": 66.62,
+      "open": 70.12,
+      "time": "2026-09-28",
+      "volume": 3033
     }
   ],
   "company_name": "NORBEN TEA & EXPORTS LTD.",
   "history": {
-    "first_session": "2025-09-17",
+    "first_session": "2025-09-18",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 45,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.83x"
+    "momentum_score": 40,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.9x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.24,
-    "change_pct": 3.3,
-    "close": 70.12,
-    "previous_close": 67.88,
+    "as_of": "2026-09-28",
+    "change": -3.5,
+    "change_pct": -4.99,
+    "close": 66.62,
+    "previous_close": 70.12,
     "type": "EOD_CLOSE",
-    "volume": 4162
+    "volume": 3033
   },
   "range": {
-    "distance_from_high_pct": -29.42,
-    "distance_from_low_pct": 47.62,
+    "distance_from_high_pct": -32.94,
+    "distance_from_low_pct": 40.25,
     "high_52w": 99.35,
     "history_basis": "52_WEEK",
     "low_52w": 47.5,
-    "range_position_pct": 43.63
+    "range_position_pct": 36.88
   },
   "risk_model": {
-    "invalidation_floor": 67.67,
-    "risk_per_share": 3.85,
-    "technical_pivot": 71.52
+    "invalidation_floor": 64.29,
+    "risk_per_share": 3.66,
+    "technical_pivot": 67.95
   },
   "schema_version": "1.0",
   "sector": null,

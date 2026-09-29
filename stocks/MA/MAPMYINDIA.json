@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1649.9,
-      "high": 1666.0,
-      "low": 1639.0,
-      "open": 1650.0,
-      "time": "2025-09-18",
-      "volume": 49885
-    },
-    {
       "close": 1646.2,
       "high": 1659.3,
       "low": 1640.0,
@@ -2017,13 +2009,21 @@
       "open": 881.4,
       "time": "2026-09-25",
       "volume": 76763
+    },
+    {
+      "close": 866.1,
+      "high": 895.0,
+      "low": 861.0,
+      "open": 888.0,
+      "time": "2026-09-28",
+      "volume": 86698
     }
   ],
   "company_name": "C.E. Info Systems Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.33x"
+    "volume_multiplier": "0.39x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.9,
-    "change_pct": -0.1,
-    "close": 881.9,
-    "previous_close": 882.8,
+    "as_of": "2026-09-28",
+    "change": -15.8,
+    "change_pct": -1.79,
+    "close": 866.1,
+    "previous_close": 881.9,
     "type": "EOD_CLOSE",
-    "volume": 76763
+    "volume": 86698
   },
   "range": {
-    "distance_from_high_pct": -55.86,
-    "distance_from_low_pct": 10.93,
+    "distance_from_high_pct": -56.65,
+    "distance_from_low_pct": 8.94,
     "high_52w": 1998.0,
     "history_basis": "52_WEEK",
     "low_52w": 795.0,
-    "range_position_pct": 7.22
+    "range_position_pct": 5.91
   },
   "risk_model": {
-    "invalidation_floor": 851.03,
-    "risk_per_share": 48.51,
-    "technical_pivot": 899.54
+    "invalidation_floor": 835.79,
+    "risk_per_share": 47.63,
+    "technical_pivot": 883.42
   },
   "schema_version": "1.0",
   "sector": null,

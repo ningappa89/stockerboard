@@ -897,14 +897,22 @@
       "open": 166.04,
       "time": "2026-09-25",
       "volume": 82345
+    },
+    {
+      "close": 162.71,
+      "high": 168.84,
+      "low": 162.0,
+      "open": 168.84,
+      "time": "2026-09-28",
+      "volume": 80156
     }
   ],
   "company_name": "OM POWER TRANSMISSION LIMITED",
   "history": {
     "first_session": "2026-04-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 112
+    "last_session": "2026-09-28",
+    "sessions_available": 113
   },
   "industry": null,
   "isin": "INE25E901019",
@@ -912,31 +920,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
+    "momentum_score": 58,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.94x"
+    "volume_multiplier": "1.0x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.81,
-    "change_pct": 1.69,
-    "close": 168.84,
-    "previous_close": 166.03,
+    "as_of": "2026-09-28",
+    "change": -6.13,
+    "change_pct": -3.63,
+    "close": 162.71,
+    "previous_close": 168.84,
     "type": "EOD_CLOSE",
-    "volume": 82345
+    "volume": 80156
   },
   "range": {
-    "distance_from_high_pct": -18.04,
-    "distance_from_low_pct": 6.85,
+    "distance_from_high_pct": -21.01,
+    "distance_from_low_pct": 2.97,
     "high_52w": 206.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 158.01,
-    "range_position_pct": 22.57
+    "range_position_pct": 9.79
   },
   "risk_model": {
-    "invalidation_floor": 162.93,
-    "risk_per_share": 9.29,
-    "technical_pivot": 172.22
+    "invalidation_floor": 157.02,
+    "risk_per_share": 8.94,
+    "technical_pivot": 165.96
   },
   "schema_version": "1.0",
   "sector": null,

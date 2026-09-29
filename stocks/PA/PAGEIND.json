@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 44265.0,
-      "high": 45650.0,
-      "low": 44095.0,
-      "open": 45650.0,
-      "time": "2025-09-18",
-      "volume": 30765
-    },
-    {
       "close": 43570.0,
       "high": 44485.0,
       "low": 43490.0,
@@ -2017,13 +2009,21 @@
       "open": 37350.0,
       "time": "2026-09-25",
       "volume": 15467
+    },
+    {
+      "close": 37500.0,
+      "high": 37680.0,
+      "low": 37280.0,
+      "open": 37350.0,
+      "time": "2026-09-28",
+      "volume": 15742
     }
   ],
   "company_name": "PAGE INDUSTRIES LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 63,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.77x"
+    "volume_multiplier": "0.78x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 195.0,
-    "change_pct": 0.52,
-    "close": 37695.0,
-    "previous_close": 37500.0,
+    "as_of": "2026-09-28",
+    "change": -195.0,
+    "change_pct": -0.52,
+    "close": 37500.0,
+    "previous_close": 37695.0,
     "type": "EOD_CLOSE",
-    "volume": 15467
+    "volume": 15742
   },
   "range": {
-    "distance_from_high_pct": -17.43,
-    "distance_from_low_pct": 26.47,
-    "high_52w": 45650.0,
+    "distance_from_high_pct": -15.7,
+    "distance_from_low_pct": 25.82,
+    "high_52w": 44485.0,
     "history_basis": "52_WEEK",
     "low_52w": 29805.0,
-    "range_position_pct": 49.79
+    "range_position_pct": 52.42
   },
   "risk_model": {
-    "invalidation_floor": 36375.67,
-    "risk_per_share": 2073.23,
-    "technical_pivot": 38448.9
+    "invalidation_floor": 36187.5,
+    "risk_per_share": 2062.5,
+    "technical_pivot": 38250.0
   },
   "schema_version": "1.0",
   "sector": null,

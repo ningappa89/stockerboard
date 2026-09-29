@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 374.5,
-      "high": 379.4,
-      "low": 373.15,
-      "open": 378.45,
-      "time": "2025-09-18",
-      "volume": 292748
-    },
-    {
       "close": 374.9,
       "high": 376.95,
       "low": 373.0,
@@ -2017,13 +2009,21 @@
       "open": 347.35,
       "time": "2026-09-25",
       "volume": 744180
+    },
+    {
+      "close": 337.8,
+      "high": 343.95,
+      "low": 337.1,
+      "open": 343.95,
+      "time": "2026-09-28",
+      "volume": 385055
     }
   ],
   "company_name": "JK TYRE & INDUSTRIES LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Automobile and Auto Components",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.73x"
+    "volume_multiplier": "0.88x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.35,
-    "change_pct": -0.39,
-    "close": 345.85,
-    "previous_close": 347.2,
+    "as_of": "2026-09-28",
+    "change": -8.05,
+    "change_pct": -2.33,
+    "close": 337.8,
+    "previous_close": 345.85,
     "type": "EOD_CLOSE",
-    "volume": 744180
+    "volume": 385055
   },
   "range": {
-    "distance_from_high_pct": -43.48,
-    "distance_from_low_pct": 2.16,
+    "distance_from_high_pct": -44.79,
+    "distance_from_low_pct": 0.21,
     "high_52w": 611.9,
     "history_basis": "52_WEEK",
-    "low_52w": 338.55,
-    "range_position_pct": 2.67
+    "low_52w": 337.1,
+    "range_position_pct": 0.25
   },
   "risk_model": {
-    "invalidation_floor": 333.75,
-    "risk_per_share": 19.02,
-    "technical_pivot": 352.77
+    "invalidation_floor": 325.98,
+    "risk_per_share": 18.58,
+    "technical_pivot": 344.56
   },
   "schema_version": "1.0",
   "sector": "Automobile and Auto Components",

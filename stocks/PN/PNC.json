@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 35.25,
-      "high": 36.65,
-      "low": 35.0,
-      "open": 35.0,
-      "time": "2025-09-18",
-      "volume": 14634
-    },
-    {
       "close": 34.81,
       "high": 36.37,
       "low": 34.5,
@@ -2017,13 +2009,21 @@
       "open": 16.62,
       "time": "2026-09-25",
       "volume": 2725
+    },
+    {
+      "close": 16.68,
+      "high": 17.19,
+      "low": 16.21,
+      "open": 16.5,
+      "time": "2026-09-28",
+      "volume": 3744
     }
   ],
   "company_name": "PRITISH NANDY COMMUNICATI",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.12x"
+    "volume_multiplier": "0.16x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.27,
-    "change_pct": 1.62,
-    "close": 16.89,
-    "previous_close": 16.62,
+    "as_of": "2026-09-28",
+    "change": -0.21,
+    "change_pct": -1.24,
+    "close": 16.68,
+    "previous_close": 16.89,
     "type": "EOD_CLOSE",
-    "volume": 2725
+    "volume": 3744
   },
   "range": {
-    "distance_from_high_pct": -53.92,
-    "distance_from_low_pct": 7.44,
-    "high_52w": 36.65,
+    "distance_from_high_pct": -54.19,
+    "distance_from_low_pct": 6.11,
+    "high_52w": 36.41,
     "history_basis": "52_WEEK",
     "low_52w": 15.72,
-    "range_position_pct": 5.59
+    "range_position_pct": 4.64
   },
   "risk_model": {
-    "invalidation_floor": 16.3,
-    "risk_per_share": 0.93,
-    "technical_pivot": 17.23
+    "invalidation_floor": 16.1,
+    "risk_per_share": 0.91,
+    "technical_pivot": 17.01
   },
   "schema_version": "1.0",
   "sector": null,

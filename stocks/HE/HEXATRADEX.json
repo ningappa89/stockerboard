@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 179.0,
-      "high": 184.04,
-      "low": 174.1,
-      "open": 184.04,
-      "time": "2025-09-18",
-      "volume": 9107
-    },
-    {
       "close": 178.56,
       "high": 181.05,
       "low": 176.7,
@@ -2017,13 +2009,21 @@
       "open": 159.9,
       "time": "2026-09-25",
       "volume": 986
+    },
+    {
+      "close": 155.0,
+      "high": 159.96,
+      "low": 154.02,
+      "open": 159.96,
+      "time": "2026-09-28",
+      "volume": 1656
     }
   ],
   "company_name": "HEXA TRADEX LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 68,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.59x"
+    "volume_multiplier": "0.97x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.37,
-    "change_pct": 0.24,
-    "close": 157.35,
-    "previous_close": 156.98,
+    "as_of": "2026-09-28",
+    "change": -2.35,
+    "change_pct": -1.49,
+    "close": 155.0,
+    "previous_close": 157.35,
     "type": "EOD_CLOSE",
-    "volume": 986
+    "volume": 1656
   },
   "range": {
-    "distance_from_high_pct": -14.5,
-    "distance_from_low_pct": 6.85,
-    "high_52w": 184.04,
+    "distance_from_high_pct": -15.16,
+    "distance_from_low_pct": 5.26,
+    "high_52w": 182.7,
     "history_basis": "52_WEEK",
     "low_52w": 147.26,
-    "range_position_pct": 27.43
+    "range_position_pct": 21.84
   },
   "risk_model": {
-    "invalidation_floor": 151.84,
-    "risk_per_share": 8.66,
-    "technical_pivot": 160.5
+    "invalidation_floor": 149.57,
+    "risk_per_share": 8.53,
+    "technical_pivot": 158.1
   },
   "schema_version": "1.0",
   "sector": null,

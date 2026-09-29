@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3794.7,
-      "high": 3814.9,
-      "low": 3692.2,
-      "open": 3694.0,
-      "time": "2025-09-18",
-      "volume": 630474
-    },
-    {
       "close": 3688.1,
       "high": 3794.5,
       "low": 3670.0,
@@ -2017,13 +2009,21 @@
       "open": 2822.9,
       "time": "2026-09-25",
       "volume": 42484
+    },
+    {
+      "close": 2740.7,
+      "high": 2847.4,
+      "low": 2729.7,
+      "open": 2844.0,
+      "time": "2026-09-28",
+      "volume": 98486
     }
   ],
   "company_name": "Escorts Kubota Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 47,
+    "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.57x"
+    "volume_multiplier": "1.29x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 32.8,
-    "change_pct": 1.16,
-    "close": 2855.7,
-    "previous_close": 2822.9,
+    "as_of": "2026-09-28",
+    "change": -115.0,
+    "change_pct": -4.03,
+    "close": 2740.7,
+    "previous_close": 2855.7,
     "type": "EOD_CLOSE",
-    "volume": 42484
+    "volume": 98486
   },
   "range": {
-    "distance_from_high_pct": -28.39,
-    "distance_from_low_pct": 5.77,
+    "distance_from_high_pct": -31.27,
+    "distance_from_low_pct": 1.51,
     "high_52w": 3987.8,
     "history_basis": "52_WEEK",
     "low_52w": 2700.0,
-    "range_position_pct": 12.09
+    "range_position_pct": 3.16
   },
   "risk_model": {
-    "invalidation_floor": 2755.75,
-    "risk_per_share": 157.06,
-    "technical_pivot": 2912.81
+    "invalidation_floor": 2644.78,
+    "risk_per_share": 150.73,
+    "technical_pivot": 2795.51
   },
   "schema_version": "1.0",
   "sector": null,

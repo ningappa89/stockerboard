@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1335.4,
-      "high": 1380.0,
-      "low": 1325.9,
-      "open": 1370.0,
-      "time": "2025-09-18",
-      "volume": 127578
-    },
-    {
       "close": 1337.8,
       "high": 1345.6,
       "low": 1325.0,
@@ -2017,13 +2009,21 @@
       "open": 855.0,
       "time": "2026-09-25",
       "volume": 27943285
+    },
+    {
+      "close": 917.1,
+      "high": 932.0,
+      "low": 889.85,
+      "open": 910.0,
+      "time": "2026-09-28",
+      "volume": 4140030
     }
   ],
   "company_name": "WHIRLPOOL OF INDIA LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Consumer Durables",
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "10.72x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.5x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 65.45,
-    "change_pct": 7.67,
-    "close": 918.9,
-    "previous_close": 853.45,
+    "as_of": "2026-09-28",
+    "change": -1.8,
+    "change_pct": -0.2,
+    "close": 917.1,
+    "previous_close": 918.9,
     "type": "EOD_CLOSE",
-    "volume": 27943285
+    "volume": 4140030
   },
   "range": {
-    "distance_from_high_pct": -36.05,
-    "distance_from_low_pct": 30.16,
+    "distance_from_high_pct": -36.18,
+    "distance_from_low_pct": 29.9,
     "high_52w": 1437.0,
     "history_basis": "52_WEEK",
     "low_52w": 706.0,
-    "range_position_pct": 29.12
+    "range_position_pct": 28.88
   },
   "risk_model": {
-    "invalidation_floor": 886.74,
-    "risk_per_share": 50.54,
-    "technical_pivot": 937.28
+    "invalidation_floor": 885.0,
+    "risk_per_share": 50.44,
+    "technical_pivot": 935.44
   },
   "schema_version": "1.0",
   "sector": "Consumer Durables",

@@ -233,14 +233,22 @@
       "open": 16.67,
       "time": "2026-09-25",
       "volume": 6740
+    },
+    {
+      "close": 16.26,
+      "high": 17.39,
+      "low": 16.1,
+      "open": 17.39,
+      "time": "2026-09-28",
+      "volume": 10869
     }
   ],
   "company_name": "VIVO BIO TECH LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE380K01017",
@@ -248,31 +256,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 60,
+    "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.36x"
+    "volume_multiplier": "0.58x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.71,
-    "change_pct": 4.42,
-    "close": 16.79,
-    "previous_close": 16.08,
+    "as_of": "2026-09-28",
+    "change": -0.53,
+    "change_pct": -3.16,
+    "close": 16.26,
+    "previous_close": 16.79,
     "type": "EOD_CLOSE",
-    "volume": 6740
+    "volume": 10869
   },
   "range": {
-    "distance_from_high_pct": -19.82,
-    "distance_from_low_pct": 8.25,
+    "distance_from_high_pct": -22.35,
+    "distance_from_low_pct": 4.84,
     "high_52w": 20.94,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 15.51,
-    "range_position_pct": 23.57
+    "range_position_pct": 13.81
   },
   "risk_model": {
-    "invalidation_floor": 16.2,
-    "risk_per_share": 0.93,
-    "technical_pivot": 17.13
+    "invalidation_floor": 15.69,
+    "risk_per_share": 0.9,
+    "technical_pivot": 16.59
   },
   "schema_version": "1.0",
   "sector": null,

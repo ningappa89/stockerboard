@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1645.0,
-      "high": 1685.5,
-      "low": 1596.0,
-      "open": 1605.0,
-      "time": "2025-09-18",
-      "volume": 555090
-    },
-    {
       "close": 1665.7,
       "high": 1705.0,
       "low": 1633.1,
@@ -2017,13 +2009,21 @@
       "open": 2680.0,
       "time": "2026-09-25",
       "volume": 438788
+    },
+    {
+      "close": 2723.2,
+      "high": 2798.0,
+      "low": 2673.1,
+      "open": 2740.0,
+      "time": "2026-09-28",
+      "volume": 439192
     }
   ],
   "company_name": "Azad Engineering Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 77,
+    "momentum_score": 76,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.16x"
+    "volume_multiplier": "1.15x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 49.7,
-    "change_pct": 1.86,
-    "close": 2728.0,
-    "previous_close": 2678.3,
+    "as_of": "2026-09-28",
+    "change": -4.8,
+    "change_pct": -0.18,
+    "close": 2723.2,
+    "previous_close": 2728.0,
     "type": "EOD_CLOSE",
-    "volume": 438788
+    "volume": 439192
   },
   "range": {
-    "distance_from_high_pct": -8.66,
-    "distance_from_low_pct": 100.59,
+    "distance_from_high_pct": -8.82,
+    "distance_from_low_pct": 100.24,
     "high_52w": 2986.6,
     "history_basis": "52_WEEK",
     "low_52w": 1360.0,
-    "range_position_pct": 84.1
+    "range_position_pct": 83.81
   },
   "risk_model": {
-    "invalidation_floor": 2632.52,
-    "risk_per_share": 150.04,
-    "technical_pivot": 2782.56
+    "invalidation_floor": 2627.89,
+    "risk_per_share": 149.77,
+    "technical_pivot": 2777.66
   },
   "schema_version": "1.0",
   "sector": null,

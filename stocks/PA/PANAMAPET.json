@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 304.05,
-      "high": 306.0,
-      "low": 295.0,
-      "open": 302.4,
-      "time": "2025-09-18",
-      "volume": 82299
-    },
-    {
       "close": 295.7,
       "high": 304.65,
       "low": 294.85,
@@ -2017,13 +2009,21 @@
       "open": 482.5,
       "time": "2026-09-25",
       "volume": 73939
+    },
+    {
+      "close": 467.35,
+      "high": 483.4,
+      "low": 463.3,
+      "open": 473.4,
+      "time": "2026-09-28",
+      "volume": 97078
     }
   ],
   "company_name": "PANAMA PETROCHEM LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
+    "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.31x"
+    "volume_multiplier": "0.41x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -7.2,
-    "change_pct": -1.5,
-    "close": 473.4,
-    "previous_close": 480.6,
+    "as_of": "2026-09-28",
+    "change": -6.05,
+    "change_pct": -1.28,
+    "close": 467.35,
+    "previous_close": 473.4,
     "type": "EOD_CLOSE",
-    "volume": 73939
+    "volume": 97078
   },
   "range": {
-    "distance_from_high_pct": -21.05,
-    "distance_from_low_pct": 106.72,
+    "distance_from_high_pct": -22.06,
+    "distance_from_low_pct": 104.08,
     "high_52w": 599.6,
     "history_basis": "52_WEEK",
     "low_52w": 229.0,
-    "range_position_pct": 65.95
+    "range_position_pct": 64.31
   },
   "risk_model": {
-    "invalidation_floor": 456.83,
-    "risk_per_share": 26.04,
-    "technical_pivot": 482.87
+    "invalidation_floor": 450.99,
+    "risk_per_share": 25.71,
+    "technical_pivot": 476.7
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 454.85,
-      "high": 460.1,
-      "low": 451.55,
-      "open": 459.05,
-      "time": "2025-09-18",
-      "volume": 2208920
-    },
-    {
       "close": 453.05,
       "high": 457.8,
       "low": 452.05,
@@ -2017,13 +2009,21 @@
       "open": 591.1,
       "time": "2026-09-25",
       "volume": 3349241
+    },
+    {
+      "close": 573.0,
+      "high": 580.3,
+      "low": 568.25,
+      "open": 576.25,
+      "time": "2026-09-28",
+      "volume": 3911892
     }
   ],
   "company_name": "HINDUSTAN ZINC LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Metals & Mining",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 60,
+    "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.7x"
+    "volume_multiplier": "0.83x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.8,
-    "change_pct": 0.31,
-    "close": 588.95,
-    "previous_close": 587.15,
+    "as_of": "2026-09-28",
+    "change": -15.95,
+    "change_pct": -2.71,
+    "close": 573.0,
+    "previous_close": 588.95,
     "type": "EOD_CLOSE",
-    "volume": 3349241
+    "volume": 3911892
   },
   "range": {
-    "distance_from_high_pct": -19.65,
-    "distance_from_low_pct": 32.17,
+    "distance_from_high_pct": -21.83,
+    "distance_from_low_pct": 28.59,
     "high_52w": 733.0,
     "history_basis": "52_WEEK",
     "low_52w": 445.6,
-    "range_position_pct": 49.88
+    "range_position_pct": 44.33
   },
   "risk_model": {
-    "invalidation_floor": 568.34,
-    "risk_per_share": 32.39,
-    "technical_pivot": 600.73
+    "invalidation_floor": 552.94,
+    "risk_per_share": 31.52,
+    "technical_pivot": 584.46
   },
   "schema_version": "1.0",
   "sector": "Metals & Mining",

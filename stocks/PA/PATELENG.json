@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 40.24,
-      "high": 40.74,
-      "low": 39.39,
-      "open": 40.54,
-      "time": "2025-09-18",
-      "volume": 2693234
-    },
-    {
       "close": 40.66,
       "high": 42.77,
       "low": 39.51,
@@ -2017,13 +2009,21 @@
       "open": 27.56,
       "time": "2026-09-25",
       "volume": 1659476
+    },
+    {
+      "close": 26.9,
+      "high": 27.54,
+      "low": 26.82,
+      "open": 27.54,
+      "time": "2026-09-28",
+      "volume": 1329633
     }
   ],
   "company_name": "PATEL ENGINEERING LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.65x"
+    "volume_multiplier": "0.53x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.07,
-    "change_pct": -0.25,
-    "close": 27.61,
-    "previous_close": 27.68,
+    "as_of": "2026-09-28",
+    "change": -0.71,
+    "change_pct": -2.57,
+    "close": 26.9,
+    "previous_close": 27.61,
     "type": "EOD_CLOSE",
-    "volume": 1659476
+    "volume": 1329633
   },
   "range": {
-    "distance_from_high_pct": -35.45,
-    "distance_from_low_pct": 25.5,
+    "distance_from_high_pct": -37.11,
+    "distance_from_low_pct": 22.27,
     "high_52w": 42.77,
     "history_basis": "52_WEEK",
     "low_52w": 22.0,
-    "range_position_pct": 27.01
+    "range_position_pct": 23.59
   },
   "risk_model": {
-    "invalidation_floor": 26.64,
-    "risk_per_share": 1.52,
-    "technical_pivot": 28.16
+    "invalidation_floor": 25.96,
+    "risk_per_share": 1.48,
+    "technical_pivot": 27.44
   },
   "schema_version": "1.0",
   "sector": null,

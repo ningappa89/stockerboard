@@ -889,14 +889,22 @@
       "open": 517.9,
       "time": "2026-09-25",
       "volume": 87220
+    },
+    {
+      "close": 514.4,
+      "high": 524.9,
+      "low": 506.8,
+      "open": 524.5,
+      "time": "2026-09-28",
+      "volume": 176312
     }
   ],
   "company_name": "KILBURN ENGINEERING LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE338F01015",
@@ -904,31 +912,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 83,
+    "momentum_score": 81,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.23x"
+    "volume_multiplier": "0.5x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 3.85,
-    "change_pct": 0.74,
-    "close": 521.75,
-    "previous_close": 517.9,
+    "as_of": "2026-09-28",
+    "change": -7.35,
+    "change_pct": -1.41,
+    "close": 514.4,
+    "previous_close": 521.75,
     "type": "EOD_CLOSE",
-    "volume": 87220
+    "volume": 176312
   },
   "range": {
-    "distance_from_high_pct": -4.24,
-    "distance_from_low_pct": 56.96,
+    "distance_from_high_pct": -5.59,
+    "distance_from_low_pct": 54.75,
     "high_52w": 544.85,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 332.4,
-    "range_position_pct": 89.13
+    "range_position_pct": 85.67
   },
   "risk_model": {
-    "invalidation_floor": 503.49,
-    "risk_per_share": 28.7,
-    "technical_pivot": 532.19
+    "invalidation_floor": 496.4,
+    "risk_per_share": 28.29,
+    "technical_pivot": 524.69
   },
   "schema_version": "1.0",
   "sector": null,

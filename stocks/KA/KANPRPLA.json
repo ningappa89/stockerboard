@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 225.44,
-      "high": 235.49,
-      "low": 224.8,
-      "open": 230.84,
-      "time": "2025-09-18",
-      "volume": 14645
-    },
-    {
       "close": 221.7,
       "high": 228.89,
       "low": 216.02,
@@ -2017,13 +2009,21 @@
       "open": 259.6,
       "time": "2026-09-25",
       "volume": 19717
+    },
+    {
+      "close": 250.9,
+      "high": 257.3,
+      "low": 250.0,
+      "open": 252.6,
+      "time": "2026-09-28",
+      "volume": 8970
     }
   ],
   "company_name": "KANPUR PLASTIPACK LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 76,
+    "momentum_score": 72,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.72x"
+    "volume_multiplier": "0.35x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -5.05,
-    "change_pct": -1.92,
-    "close": 257.45,
-    "previous_close": 262.5,
+    "as_of": "2026-09-28",
+    "change": -6.55,
+    "change_pct": -2.54,
+    "close": 250.9,
+    "previous_close": 257.45,
     "type": "EOD_CLOSE",
-    "volume": 19717
+    "volume": 8970
   },
   "range": {
-    "distance_from_high_pct": -9.07,
-    "distance_from_low_pct": 70.21,
+    "distance_from_high_pct": -11.39,
+    "distance_from_low_pct": 65.88,
     "high_52w": 283.14,
     "history_basis": "52_WEEK",
     "low_52w": 151.25,
-    "range_position_pct": 80.52
+    "range_position_pct": 75.56
   },
   "risk_model": {
-    "invalidation_floor": 248.44,
-    "risk_per_share": 14.16,
-    "technical_pivot": 262.6
+    "invalidation_floor": 242.12,
+    "risk_per_share": 13.8,
+    "technical_pivot": 255.92
   },
   "schema_version": "1.0",
   "sector": null,

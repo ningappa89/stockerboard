@@ -1137,14 +1137,22 @@
       "open": 4038.0,
       "time": "2026-09-25",
       "volume": 302018
+    },
+    {
+      "close": 4091.4,
+      "high": 4132.4,
+      "low": 4018.2,
+      "open": 4098.9,
+      "time": "2026-09-28",
+      "volume": 408185
     }
   ],
   "company_name": "LTM LIMITED",
   "history": {
     "first_session": "2026-02-27",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 142
+    "last_session": "2026-09-28",
+    "sessions_available": 143
   },
   "industry": null,
   "isin": "INE214T01019",
@@ -1154,29 +1162,29 @@
     "is_stage2": false,
     "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.7x"
+    "volume_multiplier": "1.04x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 45.0,
-    "change_pct": 1.11,
-    "close": 4083.0,
-    "previous_close": 4038.0,
+    "as_of": "2026-09-28",
+    "change": 8.4,
+    "change_pct": 0.21,
+    "close": 4091.4,
+    "previous_close": 4083.0,
     "type": "EOD_CLOSE",
-    "volume": 302018
+    "volume": 408185
   },
   "range": {
-    "distance_from_high_pct": -15.81,
-    "distance_from_low_pct": 15.73,
+    "distance_from_high_pct": -15.64,
+    "distance_from_low_pct": 15.97,
     "high_52w": 4850.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 3528.0,
-    "range_position_pct": 41.98
+    "range_position_pct": 42.62
   },
   "risk_model": {
-    "invalidation_floor": 3940.09,
-    "risk_per_share": 224.57,
-    "technical_pivot": 4164.66
+    "invalidation_floor": 3948.2,
+    "risk_per_share": 225.03,
+    "technical_pivot": 4173.23
   },
   "schema_version": "1.0",
   "sector": null,

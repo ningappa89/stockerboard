@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 59.23,
-      "high": 60.24,
-      "low": 58.5,
-      "open": 59.24,
-      "time": "2025-09-18",
-      "volume": 9425812
-    },
-    {
       "close": 59.74,
       "high": 60.4,
       "low": 58.07,
@@ -2017,13 +2009,21 @@
       "open": 75.02,
       "time": "2026-09-25",
       "volume": 36139840
+    },
+    {
+      "close": 70.55,
+      "high": 73.85,
+      "low": 70.31,
+      "open": 73.8,
+      "time": "2026-09-28",
+      "volume": 34183109
     }
   ],
   "company_name": "IFCI LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 43,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
     "volume_multiplier": "0.26x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.24,
-    "change_pct": -1.65,
-    "close": 73.95,
-    "previous_close": 75.19,
+    "as_of": "2026-09-28",
+    "change": -3.4,
+    "change_pct": -4.6,
+    "close": 70.55,
+    "previous_close": 73.95,
     "type": "EOD_CLOSE",
-    "volume": 36139840
+    "volume": 34183109
   },
   "range": {
-    "distance_from_high_pct": -31.21,
-    "distance_from_low_pct": 59.96,
+    "distance_from_high_pct": -34.37,
+    "distance_from_low_pct": 52.61,
     "high_52w": 107.5,
     "history_basis": "52_WEEK",
     "low_52w": 46.23,
-    "range_position_pct": 45.24
+    "range_position_pct": 39.69
   },
   "risk_model": {
-    "invalidation_floor": 71.36,
-    "risk_per_share": 4.07,
-    "technical_pivot": 75.43
+    "invalidation_floor": 68.08,
+    "risk_per_share": 3.88,
+    "technical_pivot": 71.96
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 540.5,
-      "high": 560.0,
-      "low": 536.15,
-      "open": 538.0,
-      "time": "2025-09-18",
-      "volume": 905573
-    },
-    {
       "close": 550.15,
       "high": 561.15,
       "low": 535.9,
@@ -2017,13 +2009,21 @@
       "open": 350.7,
       "time": "2026-09-25",
       "volume": 78696
+    },
+    {
+      "close": 342.1,
+      "high": 356.9,
+      "low": 336.4,
+      "open": 344.0,
+      "time": "2026-09-28",
+      "volume": 176245
     }
   ],
   "company_name": "Hariom Pipe Industries Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.81x"
+    "volume_multiplier": "1.74x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -6.15,
-    "change_pct": -1.75,
-    "close": 344.55,
-    "previous_close": 350.7,
+    "as_of": "2026-09-28",
+    "change": -2.45,
+    "change_pct": -0.71,
+    "close": 342.1,
+    "previous_close": 344.55,
     "type": "EOD_CLOSE",
-    "volume": 78696
+    "volume": 176245
   },
   "range": {
-    "distance_from_high_pct": -39.79,
-    "distance_from_low_pct": 28.54,
+    "distance_from_high_pct": -40.21,
+    "distance_from_low_pct": 27.63,
     "high_52w": 572.2,
     "history_basis": "52_WEEK",
     "low_52w": 268.05,
-    "range_position_pct": 25.15
+    "range_position_pct": 24.35
   },
   "risk_model": {
-    "invalidation_floor": 332.49,
-    "risk_per_share": 18.95,
-    "technical_pivot": 351.44
+    "invalidation_floor": 330.13,
+    "risk_per_share": 18.81,
+    "technical_pivot": 348.94
   },
   "schema_version": "1.0",
   "sector": null,

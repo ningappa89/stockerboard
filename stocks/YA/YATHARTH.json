@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 789.25,
-      "high": 804.6,
-      "low": 786.0,
-      "open": 802.05,
-      "time": "2025-09-18",
-      "volume": 177106
-    },
-    {
       "close": 776.45,
       "high": 795.0,
       "low": 771.05,
@@ -2017,13 +2009,21 @@
       "open": 1162.3,
       "time": "2026-09-25",
       "volume": 304843
+    },
+    {
+      "close": 1100.4,
+      "high": 1129.3,
+      "low": 1093.6,
+      "open": 1122.4,
+      "time": "2026-09-28",
+      "volume": 325159
     }
   ],
   "company_name": "YATHARTH HOSPITAL & TRAUMA CAR",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 82,
+    "momentum_score": 79,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.34x"
+    "volume_multiplier": "0.39x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -35.6,
-    "change_pct": -3.08,
-    "close": 1121.4,
-    "previous_close": 1157.0,
+    "as_of": "2026-09-28",
+    "change": -21.0,
+    "change_pct": -1.87,
+    "close": 1100.4,
+    "previous_close": 1121.4,
     "type": "EOD_CLOSE",
-    "volume": 304843
+    "volume": 325159
   },
   "range": {
-    "distance_from_high_pct": -5.29,
-    "distance_from_low_pct": 108.34,
+    "distance_from_high_pct": -7.06,
+    "distance_from_low_pct": 104.44,
     "high_52w": 1184.0,
     "history_basis": "52_WEEK",
     "low_52w": 538.25,
-    "range_position_pct": 90.31
+    "range_position_pct": 87.05
   },
   "risk_model": {
-    "invalidation_floor": 1082.15,
-    "risk_per_share": 61.68,
-    "technical_pivot": 1143.83
+    "invalidation_floor": 1061.89,
+    "risk_per_share": 60.52,
+    "technical_pivot": 1122.41
   },
   "schema_version": "1.0",
   "sector": null,

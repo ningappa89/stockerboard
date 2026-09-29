@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 421.6,
-      "high": 428.0,
-      "low": 420.0,
-      "open": 423.8,
-      "time": "2025-09-18",
-      "volume": 170437
-    },
-    {
       "close": 424.55,
       "high": 426.0,
       "low": 420.55,
@@ -2017,13 +2009,21 @@
       "open": 424.5,
       "time": "2026-09-25",
       "volume": 108351
+    },
+    {
+      "close": 422.9,
+      "high": 425.9,
+      "low": 411.75,
+      "open": 419.85,
+      "time": "2026-09-28",
+      "volume": 239259
     }
   ],
   "company_name": "ION EXCHANGE (INDIA) LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 69,
+    "is_stage2": true,
+    "momentum_score": 70,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.17x"
+    "volume_multiplier": "0.37x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.4,
-    "change_pct": -0.1,
-    "close": 420.15,
-    "previous_close": 420.55,
+    "as_of": "2026-09-28",
+    "change": 2.75,
+    "change_pct": 0.65,
+    "close": 422.9,
+    "previous_close": 420.15,
     "type": "EOD_CLOSE",
-    "volume": 108351
+    "volume": 239259
   },
   "range": {
-    "distance_from_high_pct": -13.55,
-    "distance_from_low_pct": 34.36,
+    "distance_from_high_pct": -12.98,
+    "distance_from_low_pct": 35.24,
     "high_52w": 486.0,
     "history_basis": "52_WEEK",
     "low_52w": 312.7,
-    "range_position_pct": 62.0
+    "range_position_pct": 63.59
   },
   "risk_model": {
-    "invalidation_floor": 405.44,
-    "risk_per_share": 23.11,
-    "technical_pivot": 428.55
+    "invalidation_floor": 408.1,
+    "risk_per_share": 23.26,
+    "technical_pivot": 431.36
   },
   "schema_version": "1.0",
   "sector": null,

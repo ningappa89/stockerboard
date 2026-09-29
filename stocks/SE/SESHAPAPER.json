@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 266.9,
-      "high": 270.0,
-      "low": 265.6,
-      "open": 265.6,
-      "time": "2025-09-18",
-      "volume": 15309
-    },
-    {
       "close": 262.3,
       "high": 267.5,
       "low": 260.0,
@@ -2017,13 +2009,21 @@
       "open": 244.0,
       "time": "2026-09-25",
       "volume": 34098
+    },
+    {
+      "close": 242.23,
+      "high": 249.04,
+      "low": 241.55,
+      "open": 248.73,
+      "time": "2026-09-28",
+      "volume": 12802
     }
   ],
   "company_name": "SESHASAYEE PAPER & BOARDS",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.54x"
+    "volume_multiplier": "0.2x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.53,
-    "change_pct": 0.63,
-    "close": 246.27,
-    "previous_close": 244.74,
+    "as_of": "2026-09-28",
+    "change": -4.04,
+    "change_pct": -1.64,
+    "close": 242.23,
+    "previous_close": 246.27,
     "type": "EOD_CLOSE",
-    "volume": 34098
+    "volume": 12802
   },
   "range": {
-    "distance_from_high_pct": -15.98,
-    "distance_from_low_pct": 17.29,
+    "distance_from_high_pct": -17.36,
+    "distance_from_low_pct": 15.37,
     "high_52w": 293.11,
     "history_basis": "52_WEEK",
     "low_52w": 209.96,
-    "range_position_pct": 43.67
+    "range_position_pct": 38.81
   },
   "risk_model": {
-    "invalidation_floor": 237.65,
-    "risk_per_share": 13.55,
-    "technical_pivot": 251.2
+    "invalidation_floor": 233.75,
+    "risk_per_share": 13.32,
+    "technical_pivot": 247.07
   },
   "schema_version": "1.0",
   "sector": null,

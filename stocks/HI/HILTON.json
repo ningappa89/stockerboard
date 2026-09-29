@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 54.34,
-      "high": 55.4,
-      "low": 53.86,
-      "open": 55.4,
-      "time": "2025-09-18",
-      "volume": 42683
-    },
-    {
       "close": 53.88,
       "high": 55.65,
       "low": 53.5,
@@ -2017,13 +2009,21 @@
       "open": 16.6,
       "time": "2026-09-25",
       "volume": 87300
+    },
+    {
+      "close": 16.78,
+      "high": 17.45,
+      "low": 16.31,
+      "open": 17.45,
+      "time": "2026-09-28",
+      "volume": 79606
     }
   ],
   "company_name": "HILTON METAL FORGING LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.76x"
+    "volume_multiplier": "0.69x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.14,
-    "change_pct": -0.82,
-    "close": 16.85,
-    "previous_close": 16.99,
+    "as_of": "2026-09-28",
+    "change": -0.07,
+    "change_pct": -0.42,
+    "close": 16.78,
+    "previous_close": 16.85,
     "type": "EOD_CLOSE",
-    "volume": 87300
+    "volume": 79606
   },
   "range": {
-    "distance_from_high_pct": -69.72,
-    "distance_from_low_pct": 25.47,
+    "distance_from_high_pct": -69.85,
+    "distance_from_low_pct": 24.94,
     "high_52w": 55.65,
     "history_basis": "52_WEEK",
     "low_52w": 13.43,
-    "range_position_pct": 8.1
+    "range_position_pct": 7.93
   },
   "risk_model": {
-    "invalidation_floor": 16.26,
+    "invalidation_floor": 16.19,
     "risk_per_share": 0.93,
-    "technical_pivot": 17.19
+    "technical_pivot": 17.12
   },
   "schema_version": "1.0",
   "sector": null,

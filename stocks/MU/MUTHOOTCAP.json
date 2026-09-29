@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 282.5,
-      "high": 289.45,
-      "low": 275.0,
-      "open": 279.6,
-      "time": "2025-09-18",
-      "volume": 45339
-    },
-    {
       "close": 281.45,
       "high": 286.0,
       "low": 278.0,
@@ -2017,13 +2009,21 @@
       "open": 236.0,
       "time": "2026-09-25",
       "volume": 10162
+    },
+    {
+      "close": 221.17,
+      "high": 228.46,
+      "low": 220.8,
+      "open": 226.16,
+      "time": "2026-09-28",
+      "volume": 3472
     }
   ],
   "company_name": "MUTHOOT CAPITAL SERVICES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 51,
+    "momentum_score": 49,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.9x"
+    "volume_multiplier": "0.32x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -4.87,
-    "change_pct": -2.11,
-    "close": 226.16,
-    "previous_close": 231.03,
+    "as_of": "2026-09-28",
+    "change": -4.99,
+    "change_pct": -2.21,
+    "close": 221.17,
+    "previous_close": 226.16,
     "type": "EOD_CLOSE",
-    "volume": 10162
+    "volume": 3472
   },
   "range": {
-    "distance_from_high_pct": -25.36,
-    "distance_from_low_pct": 29.05,
+    "distance_from_high_pct": -27.01,
+    "distance_from_low_pct": 26.2,
     "high_52w": 303.0,
     "history_basis": "52_WEEK",
     "low_52w": 175.25,
-    "range_position_pct": 39.85
+    "range_position_pct": 35.95
   },
   "risk_model": {
-    "invalidation_floor": 218.24,
-    "risk_per_share": 12.44,
-    "technical_pivot": 230.68
+    "invalidation_floor": 213.43,
+    "risk_per_share": 12.16,
+    "technical_pivot": 225.59
   },
   "schema_version": "1.0",
   "sector": null,

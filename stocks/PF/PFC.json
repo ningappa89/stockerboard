@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 408.0,
-      "high": 411.65,
-      "low": 405.75,
-      "open": 406.0,
-      "time": "2025-09-18",
-      "volume": 4572862
-    },
-    {
       "close": 409.1,
       "high": 410.45,
       "low": 407.0,
@@ -2017,13 +2009,21 @@
       "open": 340.0,
       "time": "2026-09-25",
       "volume": 8623661
+    },
+    {
+      "close": 330.0,
+      "high": 338.55,
+      "low": 329.05,
+      "open": 338.3,
+      "time": "2026-09-28",
+      "volume": 10003097
     }
   ],
   "company_name": "POWER FIN CORP LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 44,
+    "momentum_score": 41,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.98x"
+    "volume_multiplier": "1.12x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.35,
-    "change_pct": -0.4,
-    "close": 338.0,
-    "previous_close": 339.35,
+    "as_of": "2026-09-28",
+    "change": -8.0,
+    "change_pct": -2.37,
+    "close": 330.0,
+    "previous_close": 338.0,
     "type": "EOD_CLOSE",
-    "volume": 8623661
+    "volume": 10003097
   },
   "range": {
-    "distance_from_high_pct": -30.52,
-    "distance_from_low_pct": 2.46,
+    "distance_from_high_pct": -32.17,
+    "distance_from_low_pct": 0.29,
     "high_52w": 486.5,
     "history_basis": "52_WEEK",
-    "low_52w": 329.9,
-    "range_position_pct": 5.17
+    "low_52w": 329.05,
+    "range_position_pct": 0.6
   },
   "risk_model": {
-    "invalidation_floor": 326.17,
-    "risk_per_share": 18.59,
-    "technical_pivot": 344.76
+    "invalidation_floor": 318.45,
+    "risk_per_share": 18.15,
+    "technical_pivot": 336.6
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

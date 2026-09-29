@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1068.6,
-      "high": 1089.9,
-      "low": 1057.1,
-      "open": 1085.8,
-      "time": "2025-09-18",
-      "volume": 71056
-    },
-    {
       "close": 1075.0,
       "high": 1080.0,
       "low": 1062.6,
@@ -2017,13 +2009,21 @@
       "open": 836.5,
       "time": "2026-09-25",
       "volume": 35079
+    },
+    {
+      "close": 819.15,
+      "high": 833.3,
+      "low": 815.05,
+      "open": 832.55,
+      "time": "2026-09-28",
+      "volume": 39778
     }
   ],
   "company_name": "GLOBUS SPIRITS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.41x"
+    "volume_multiplier": "0.48x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -3.95,
-    "change_pct": -0.47,
-    "close": 832.55,
-    "previous_close": 836.5,
+    "as_of": "2026-09-28",
+    "change": -13.4,
+    "change_pct": -1.61,
+    "close": 819.15,
+    "previous_close": 832.55,
     "type": "EOD_CLOSE",
-    "volume": 35079
+    "volume": 39778
   },
   "range": {
-    "distance_from_high_pct": -33.54,
-    "distance_from_low_pct": 4.06,
+    "distance_from_high_pct": -34.61,
+    "distance_from_low_pct": 2.39,
     "high_52w": 1252.8,
     "history_basis": "52_WEEK",
     "low_52w": 800.05,
-    "range_position_pct": 7.18
+    "range_position_pct": 4.22
   },
   "risk_model": {
-    "invalidation_floor": 803.41,
-    "risk_per_share": 45.79,
-    "technical_pivot": 849.2
+    "invalidation_floor": 790.48,
+    "risk_per_share": 45.05,
+    "technical_pivot": 835.53
   },
   "schema_version": "1.0",
   "sector": null,

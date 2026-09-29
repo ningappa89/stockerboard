@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 74.48,
-      "high": 75.7,
-      "low": 74.15,
-      "open": 74.8,
-      "time": "2025-09-18",
-      "volume": 506381
-    },
-    {
       "close": 74.26,
       "high": 74.78,
       "low": 73.88,
@@ -2017,13 +2009,21 @@
       "open": 48.36,
       "time": "2026-09-25",
       "volume": 1396410
+    },
+    {
+      "close": 46.81,
+      "high": 49.2,
+      "low": 46.56,
+      "open": 49.13,
+      "time": "2026-09-28",
+      "volume": 1385706
     }
   ],
   "company_name": "DCW LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.61x"
+    "volume_multiplier": "0.6x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.36,
-    "change_pct": 0.74,
-    "close": 48.72,
-    "previous_close": 48.36,
+    "as_of": "2026-09-28",
+    "change": -1.91,
+    "change_pct": -3.92,
+    "close": 46.81,
+    "previous_close": 48.72,
     "type": "EOD_CLOSE",
-    "volume": 1396410
+    "volume": 1385706
   },
   "range": {
-    "distance_from_high_pct": -35.64,
-    "distance_from_low_pct": 31.29,
-    "high_52w": 75.7,
+    "distance_from_high_pct": -37.59,
+    "distance_from_low_pct": 26.14,
+    "high_52w": 75.0,
     "history_basis": "52_WEEK",
     "low_52w": 37.11,
-    "range_position_pct": 30.09
+    "range_position_pct": 25.6
   },
   "risk_model": {
-    "invalidation_floor": 47.01,
-    "risk_per_share": 2.68,
-    "technical_pivot": 49.69
+    "invalidation_floor": 45.17,
+    "risk_per_share": 2.58,
+    "technical_pivot": 47.75
   },
   "schema_version": "1.0",
   "sector": null,

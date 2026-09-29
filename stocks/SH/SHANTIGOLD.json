@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 220.86,
-      "high": 223.0,
-      "low": 219.0,
-      "open": 220.5,
-      "time": "2025-09-18",
-      "volume": 360057
-    },
-    {
       "close": 222.6,
       "high": 223.9,
       "low": 218.56,
@@ -2017,46 +2009,54 @@
       "open": 289.8,
       "time": "2026-09-25",
       "volume": 36407266
+    },
+    {
+      "close": 308.77,
+      "high": 316.19,
+      "low": 302.41,
+      "open": 315.0,
+      "time": "2026-09-28",
+      "volume": 7374839
     }
   ],
   "company_name": "SHANTI GOLD INTERNATION L",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE06ZD01017",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 86,
+    "momentum_score": 79,
     "setup_type": "Pocket Pivot",
-    "volume_multiplier": "9.14x"
+    "volume_multiplier": "1.72x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 42.06,
-    "change_pct": 14.83,
-    "close": 325.68,
-    "previous_close": 283.62,
+    "as_of": "2026-09-28",
+    "change": -16.91,
+    "change_pct": -5.19,
+    "close": 308.77,
+    "previous_close": 325.68,
     "type": "EOD_CLOSE",
-    "volume": 36407266
+    "volume": 7374839
   },
   "range": {
-    "distance_from_high_pct": -2.22,
-    "distance_from_low_pct": 110.12,
+    "distance_from_high_pct": -7.3,
+    "distance_from_low_pct": 99.21,
     "high_52w": 333.09,
     "history_basis": "52_WEEK",
     "low_52w": 155.0,
-    "range_position_pct": 95.84
+    "range_position_pct": 86.34
   },
   "risk_model": {
-    "invalidation_floor": 314.28,
-    "risk_per_share": 17.91,
-    "technical_pivot": 332.19
+    "invalidation_floor": 297.96,
+    "risk_per_share": 16.99,
+    "technical_pivot": 314.95
   },
   "schema_version": "1.0",
   "sector": null,

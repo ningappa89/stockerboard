@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 895.45,
-      "high": 909.35,
-      "low": 888.05,
-      "open": 897.45,
-      "time": "2025-09-18",
-      "volume": 223543
-    },
-    {
       "close": 903.8,
       "high": 907.85,
       "low": 886.45,
@@ -2017,46 +2009,54 @@
       "open": 2752.9,
       "time": "2026-09-25",
       "volume": 2763523
+    },
+    {
+      "close": 2739.7,
+      "high": 2838.0,
+      "low": 2684.5,
+      "open": 2830.0,
+      "time": "2026-09-28",
+      "volume": 1348785
     }
   ],
   "company_name": "WELSPUN CORP LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Capital Goods",
   "isin": "INE191B01025",
   "metrics": {
-    "is_breakout": true,
-    "is_coiled": false,
+    "is_breakout": false,
+    "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 89,
-    "setup_type": "52W High Breakout",
-    "volume_multiplier": "1.23x"
+    "momentum_score": 84,
+    "setup_type": "Minervini VCP",
+    "volume_multiplier": "0.6x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 140.2,
-    "change_pct": 5.21,
-    "close": 2832.4,
-    "previous_close": 2692.2,
+    "as_of": "2026-09-28",
+    "change": -92.7,
+    "change_pct": -3.27,
+    "close": 2739.7,
+    "previous_close": 2832.4,
     "type": "EOD_CLOSE",
-    "volume": 2763523
+    "volume": 1348785
   },
   "range": {
-    "distance_from_high_pct": -0.18,
-    "distance_from_low_pct": 298.93,
-    "high_52w": 2837.5,
+    "distance_from_high_pct": -3.46,
+    "distance_from_low_pct": 285.87,
+    "high_52w": 2838.0,
     "history_basis": "52_WEEK",
     "low_52w": 710.0,
-    "range_position_pct": 99.76
+    "range_position_pct": 95.38
   },
   "risk_model": {
-    "invalidation_floor": 2733.27,
-    "risk_per_share": 121.79,
-    "technical_pivot": 2855.06
+    "invalidation_floor": 2643.81,
+    "risk_per_share": 150.68,
+    "technical_pivot": 2794.49
   },
   "schema_version": "1.0",
   "sector": "Capital Goods",

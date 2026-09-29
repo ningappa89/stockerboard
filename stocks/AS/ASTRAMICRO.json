@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1085.0,
-      "high": 1116.8,
-      "low": 1080.0,
-      "open": 1114.8,
-      "time": "2025-09-18",
-      "volume": 342460
-    },
-    {
       "close": 1140.8,
       "high": 1145.0,
       "low": 1081.3,
@@ -2017,13 +2009,21 @@
       "open": 1599.2,
       "time": "2026-09-25",
       "volume": 267279
+    },
+    {
+      "close": 1590.1,
+      "high": 1623.3,
+      "low": 1585.0,
+      "open": 1622.4,
+      "time": "2026-09-28",
+      "volume": 117344
     }
   ],
   "company_name": "ASTRA MICROWAVE PRODUCTS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.85x"
+    "volume_multiplier": "0.38x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 26.2,
-    "change_pct": 1.64,
-    "close": 1622.4,
-    "previous_close": 1596.2,
+    "as_of": "2026-09-28",
+    "change": -32.3,
+    "change_pct": -1.99,
+    "close": 1590.1,
+    "previous_close": 1622.4,
     "type": "EOD_CLOSE",
-    "volume": 267279
+    "volume": 117344
   },
   "range": {
-    "distance_from_high_pct": -17.22,
-    "distance_from_low_pct": 90.65,
+    "distance_from_high_pct": -18.87,
+    "distance_from_low_pct": 86.85,
     "high_52w": 1960.0,
     "history_basis": "52_WEEK",
     "low_52w": 851.0,
-    "range_position_pct": 69.56
+    "range_position_pct": 66.65
   },
   "risk_model": {
-    "invalidation_floor": 1565.62,
-    "risk_per_share": 89.23,
-    "technical_pivot": 1654.85
+    "invalidation_floor": 1534.45,
+    "risk_per_share": 87.45,
+    "technical_pivot": 1621.9
   },
   "schema_version": "1.0",
   "sector": null,

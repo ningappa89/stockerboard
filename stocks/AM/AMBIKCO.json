@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1558.9,
-      "high": 1599.0,
-      "low": 1547.0,
-      "open": 1547.4,
-      "time": "2025-09-18",
-      "volume": 26393
-    },
-    {
       "close": 1519.8,
       "high": 1546.7,
       "low": 1510.0,
@@ -2017,13 +2009,21 @@
       "open": 1553.0,
       "time": "2026-09-25",
       "volume": 2720
+    },
+    {
+      "close": 1568.0,
+      "high": 1584.4,
+      "low": 1522.5,
+      "open": 1546.2,
+      "time": "2026-09-28",
+      "volume": 11978
     }
   ],
   "company_name": "AMBIKA COTTON MILL LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 60,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.3x"
+    "volume_multiplier": "1.3x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -10.4,
-    "change_pct": -0.67,
-    "close": 1546.1,
-    "previous_close": 1556.5,
+    "as_of": "2026-09-28",
+    "change": 21.9,
+    "change_pct": 1.42,
+    "close": 1568.0,
+    "previous_close": 1546.1,
     "type": "EOD_CLOSE",
-    "volume": 2720
+    "volume": 11978
   },
   "range": {
-    "distance_from_high_pct": -19.93,
-    "distance_from_low_pct": 40.43,
+    "distance_from_high_pct": -18.8,
+    "distance_from_low_pct": 42.42,
     "high_52w": 1931.0,
     "history_basis": "52_WEEK",
     "low_52w": 1101.0,
-    "range_position_pct": 53.63
+    "range_position_pct": 56.27
   },
   "risk_model": {
-    "invalidation_floor": 1491.99,
-    "risk_per_share": 85.03,
-    "technical_pivot": 1577.02
+    "invalidation_floor": 1513.12,
+    "risk_per_share": 86.24,
+    "technical_pivot": 1599.36
   },
   "schema_version": "1.0",
   "sector": null,

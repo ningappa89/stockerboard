@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 6924.5,
-      "high": 6935.0,
-      "low": 6868.5,
-      "open": 6895.5,
-      "time": "2025-09-18",
-      "volume": 224356
-    },
-    {
       "close": 6973.5,
       "high": 7018.0,
       "low": 6925.0,
@@ -2017,13 +2009,21 @@
       "open": 7340.5,
       "time": "2026-09-25",
       "volume": 201194
+    },
+    {
+      "close": 7213.5,
+      "high": 7323.0,
+      "low": 7189.0,
+      "open": 7323.0,
+      "time": "2026-09-28",
+      "volume": 423079
     }
   ],
   "company_name": "EICHER MOTORS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Automobile and Auto Components",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 74,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.47x"
+    "volume_multiplier": "0.99x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 21.5,
-    "change_pct": 0.29,
-    "close": 7360.0,
-    "previous_close": 7338.5,
+    "as_of": "2026-09-28",
+    "change": -146.5,
+    "change_pct": -1.99,
+    "close": 7213.5,
+    "previous_close": 7360.0,
     "type": "EOD_CLOSE",
-    "volume": 201194
+    "volume": 423079
   },
   "range": {
-    "distance_from_high_pct": -10.57,
-    "distance_from_low_pct": 14.25,
+    "distance_from_high_pct": -12.35,
+    "distance_from_low_pct": 11.98,
     "high_52w": 8230.0,
     "history_basis": "52_WEEK",
     "low_52w": 6442.0,
-    "range_position_pct": 51.34
+    "range_position_pct": 43.15
   },
   "risk_model": {
-    "invalidation_floor": 7102.4,
-    "risk_per_share": 404.8,
-    "technical_pivot": 7507.2
+    "invalidation_floor": 6961.03,
+    "risk_per_share": 396.74,
+    "technical_pivot": 7357.77
   },
   "schema_version": "1.0",
   "sector": "Automobile and Auto Components",

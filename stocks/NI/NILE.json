@@ -889,14 +889,22 @@
       "open": 1385.2,
       "time": "2026-09-25",
       "volume": 3259
+    },
+    {
+      "close": 1279.4,
+      "high": 1369.5,
+      "low": 1256.3,
+      "open": 1369.5,
+      "time": "2026-09-28",
+      "volume": 11133
     }
   ],
   "company_name": "NILE LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE445D01013",
@@ -904,31 +912,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 41,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.38x"
+    "momentum_score": 40,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "3.96x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -18.3,
-    "change_pct": -1.32,
-    "close": 1369.7,
-    "previous_close": 1388.0,
+    "as_of": "2026-09-28",
+    "change": -90.3,
+    "change_pct": -6.59,
+    "close": 1279.4,
+    "previous_close": 1369.7,
     "type": "EOD_CLOSE",
-    "volume": 3259
+    "volume": 11133
   },
   "range": {
-    "distance_from_high_pct": -32.16,
-    "distance_from_low_pct": 1.11,
+    "distance_from_high_pct": -36.63,
+    "distance_from_low_pct": 1.84,
     "high_52w": 2018.9,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 1354.6,
-    "range_position_pct": 2.27
+    "low_52w": 1256.3,
+    "range_position_pct": 3.03
   },
   "risk_model": {
-    "invalidation_floor": 1321.76,
-    "risk_per_share": 75.33,
-    "technical_pivot": 1397.09
+    "invalidation_floor": 1234.62,
+    "risk_per_share": 70.37,
+    "technical_pivot": 1304.99
   },
   "schema_version": "1.0",
   "sector": null,

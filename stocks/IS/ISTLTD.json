@@ -233,46 +233,54 @@
       "open": 664.0,
       "time": "2026-09-25",
       "volume": 268
+    },
+    {
+      "close": 639.6,
+      "high": 661.0,
+      "low": 631.05,
+      "open": 661.0,
+      "time": "2026-09-28",
+      "volume": 959
     }
   ],
   "company_name": "IST LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE684B01029",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 72,
+    "is_stage2": false,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.37x"
+    "volume_multiplier": "1.29x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.05,
-    "change_pct": 0.31,
-    "close": 660.0,
-    "previous_close": 657.95,
+    "as_of": "2026-09-28",
+    "change": -20.4,
+    "change_pct": -3.09,
+    "close": 639.6,
+    "previous_close": 660.0,
     "type": "EOD_CLOSE",
-    "volume": 268
+    "volume": 959
   },
   "range": {
-    "distance_from_high_pct": -11.99,
-    "distance_from_low_pct": 9.09,
+    "distance_from_high_pct": -14.71,
+    "distance_from_low_pct": 5.72,
     "high_52w": 749.95,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 605.0,
-    "range_position_pct": 37.94
+    "range_position_pct": 23.87
   },
   "risk_model": {
-    "invalidation_floor": 636.9,
-    "risk_per_share": 36.3,
-    "technical_pivot": 673.2
+    "invalidation_floor": 617.21,
+    "risk_per_share": 35.18,
+    "technical_pivot": 652.39
   },
   "schema_version": "1.0",
   "sector": null,

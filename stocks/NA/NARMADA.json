@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 12.16,
-      "high": 12.45,
-      "low": 11.11,
-      "open": 11.51,
-      "time": "2025-09-18",
-      "volume": 1224138
-    },
-    {
       "close": 12.26,
       "high": 12.75,
       "low": 12.01,
@@ -2017,13 +2009,21 @@
       "open": 13.6,
       "time": "2026-09-25",
       "volume": 1844506
+    },
+    {
+      "close": 13.05,
+      "high": 13.88,
+      "low": 12.71,
+      "open": 13.06,
+      "time": "2026-09-28",
+      "volume": 402616
     }
   ],
   "company_name": "Narmada Agrobase Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "3.88x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.85x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.13,
-    "change_pct": 0.98,
-    "close": 13.37,
-    "previous_close": 13.24,
+    "as_of": "2026-09-28",
+    "change": -0.32,
+    "change_pct": -2.39,
+    "close": 13.05,
+    "previous_close": 13.37,
     "type": "EOD_CLOSE",
-    "volume": 1844506
+    "volume": 402616
   },
   "range": {
-    "distance_from_high_pct": -40.81,
-    "distance_from_low_pct": 34.37,
+    "distance_from_high_pct": -42.23,
+    "distance_from_low_pct": 31.16,
     "high_52w": 22.59,
     "history_basis": "52_WEEK",
     "low_52w": 9.95,
-    "range_position_pct": 27.06
+    "range_position_pct": 24.53
   },
   "risk_model": {
-    "invalidation_floor": 12.9,
-    "risk_per_share": 0.74,
-    "technical_pivot": 13.64
+    "invalidation_floor": 12.59,
+    "risk_per_share": 0.72,
+    "technical_pivot": 13.31
   },
   "schema_version": "1.0",
   "sector": null,

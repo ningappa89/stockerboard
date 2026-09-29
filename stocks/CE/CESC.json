@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 165.0,
-      "high": 167.67,
-      "low": 164.59,
-      "open": 167.4,
-      "time": "2025-09-18",
-      "volume": 1193889
-    },
-    {
       "close": 169.46,
       "high": 171.45,
       "low": 164.67,
@@ -2017,13 +2009,21 @@
       "open": 140.24,
       "time": "2026-09-25",
       "volume": 2429335
+    },
+    {
+      "close": 136.18,
+      "high": 139.84,
+      "low": 135.9,
+      "open": 139.69,
+      "time": "2026-09-28",
+      "volume": 1339169
     }
   ],
   "company_name": "CESC LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.27x"
+    "volume_multiplier": "0.71x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.03,
-    "change_pct": -0.02,
-    "close": 139.86,
-    "previous_close": 139.89,
+    "as_of": "2026-09-28",
+    "change": -3.68,
+    "change_pct": -2.63,
+    "close": 136.18,
+    "previous_close": 139.86,
     "type": "EOD_CLOSE",
-    "volume": 2429335
+    "volume": 1339169
   },
   "range": {
-    "distance_from_high_pct": -31.61,
-    "distance_from_low_pct": 1.62,
+    "distance_from_high_pct": -33.41,
+    "distance_from_low_pct": 0.21,
     "high_52w": 204.5,
     "history_basis": "52_WEEK",
-    "low_52w": 137.63,
-    "range_position_pct": 3.33
+    "low_52w": 135.9,
+    "range_position_pct": 0.41
   },
   "risk_model": {
-    "invalidation_floor": 134.96,
-    "risk_per_share": 7.7,
-    "technical_pivot": 142.66
+    "invalidation_floor": 131.41,
+    "risk_per_share": 7.49,
+    "technical_pivot": 138.9
   },
   "schema_version": "1.0",
   "sector": null,

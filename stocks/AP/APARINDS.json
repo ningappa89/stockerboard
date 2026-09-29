@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 8943.0,
-      "high": 8975.0,
-      "low": 8850.0,
-      "open": 8944.5,
-      "time": "2025-09-18",
-      "volume": 40116
-    },
-    {
       "close": 8847.0,
       "high": 8979.0,
       "low": 8705.5,
@@ -2017,13 +2009,21 @@
       "open": 18000.0,
       "time": "2026-09-25",
       "volume": 85829
+    },
+    {
+      "close": 17263.0,
+      "high": 17770.0,
+      "low": 17147.0,
+      "open": 17750.0,
+      "time": "2026-09-28",
+      "volume": 128717
     }
   ],
   "company_name": "APAR INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 78,
+    "momentum_score": 74,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.67x"
+    "volume_multiplier": "1.0x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -28.0,
-    "change_pct": -0.16,
-    "close": 17776.0,
-    "previous_close": 17804.0,
+    "as_of": "2026-09-28",
+    "change": -513.0,
+    "change_pct": -2.89,
+    "close": 17263.0,
+    "previous_close": 17776.0,
     "type": "EOD_CLOSE",
-    "volume": 85829
+    "volume": 128717
   },
   "range": {
-    "distance_from_high_pct": -7.73,
-    "distance_from_low_pct": 161.37,
+    "distance_from_high_pct": -10.39,
+    "distance_from_low_pct": 153.83,
     "high_52w": 19265.0,
     "history_basis": "52_WEEK",
     "low_52w": 6801.0,
-    "range_position_pct": 88.05
+    "range_position_pct": 83.94
   },
   "risk_model": {
-    "invalidation_floor": 17153.84,
-    "risk_per_share": 977.68,
-    "technical_pivot": 18131.52
+    "invalidation_floor": 16658.79,
+    "risk_per_share": 949.47,
+    "technical_pivot": 17608.26
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 995.45,
-      "high": 1007.45,
-      "low": 992.1,
-      "open": 1002.0,
-      "time": "2025-09-18",
-      "volume": 3977
-    },
-    {
       "close": 1031.55,
       "high": 1049.0,
       "low": 992.0,
@@ -2017,13 +2009,21 @@
       "open": 1612.9,
       "time": "2026-09-25",
       "volume": 39147
+    },
+    {
+      "close": 1611.7,
+      "high": 1656.9,
+      "low": 1580.0,
+      "open": 1630.0,
+      "time": "2026-09-28",
+      "volume": 34159
     }
   ],
   "company_name": "ADOR WELDING LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 79,
+    "momentum_score": 76,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.82x"
+    "volume_multiplier": "0.79x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 26.0,
-    "change_pct": 1.61,
-    "close": 1638.9,
-    "previous_close": 1612.9,
+    "as_of": "2026-09-28",
+    "change": -27.2,
+    "change_pct": -1.66,
+    "close": 1611.7,
+    "previous_close": 1638.9,
     "type": "EOD_CLOSE",
-    "volume": 39147
+    "volume": 34159
   },
   "range": {
-    "distance_from_high_pct": -7.22,
-    "distance_from_low_pct": 93.27,
+    "distance_from_high_pct": -8.76,
+    "distance_from_low_pct": 90.06,
     "high_52w": 1766.4,
     "history_basis": "52_WEEK",
     "low_52w": 848.0,
-    "range_position_pct": 86.12
+    "range_position_pct": 83.16
   },
   "risk_model": {
-    "invalidation_floor": 1581.54,
-    "risk_per_share": 90.14,
-    "technical_pivot": 1671.68
+    "invalidation_floor": 1555.29,
+    "risk_per_share": 88.64,
+    "technical_pivot": 1643.93
   },
   "schema_version": "1.0",
   "sector": null,

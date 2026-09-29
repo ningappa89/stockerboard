@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 8.9,
-      "high": 9.32,
-      "low": 8.81,
-      "open": 9.06,
-      "time": "2025-09-18",
-      "volume": 933889
-    },
-    {
       "close": 8.5,
       "high": 9.1,
       "low": 8.48,
@@ -2017,13 +2009,21 @@
       "open": 5.35,
       "time": "2026-09-25",
       "volume": 673898
+    },
+    {
+      "close": 5.4,
+      "high": 5.7,
+      "low": 5.35,
+      "open": 5.55,
+      "time": "2026-09-28",
+      "volume": 309490
     }
   ],
   "company_name": "VISHWARAJ SUGAR IND LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.53x"
+    "volume_multiplier": "0.72x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.2,
-    "change_pct": 3.79,
-    "close": 5.48,
-    "previous_close": 5.28,
+    "as_of": "2026-09-28",
+    "change": -0.08,
+    "change_pct": -1.46,
+    "close": 5.4,
+    "previous_close": 5.48,
     "type": "EOD_CLOSE",
-    "volume": 673898
+    "volume": 309490
   },
   "range": {
-    "distance_from_high_pct": -41.2,
-    "distance_from_low_pct": 32.37,
-    "high_52w": 9.32,
+    "distance_from_high_pct": -40.66,
+    "distance_from_low_pct": 30.43,
+    "high_52w": 9.1,
     "history_basis": "52_WEEK",
     "low_52w": 4.14,
-    "range_position_pct": 25.87
+    "range_position_pct": 25.4
   },
   "risk_model": {
-    "invalidation_floor": 5.29,
+    "invalidation_floor": 5.21,
     "risk_per_share": 0.5,
-    "technical_pivot": 5.59
+    "technical_pivot": 5.51
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 916.15,
-      "high": 948.4,
-      "low": 910.65,
-      "open": 929.85,
-      "time": "2025-09-18",
-      "volume": 7363
-    },
-    {
       "close": 908.05,
       "high": 933.95,
       "low": 900.1,
@@ -2017,13 +2009,21 @@
       "open": 1660.0,
       "time": "2026-09-25",
       "volume": 24872
+    },
+    {
+      "close": 1613.1,
+      "high": 1696.0,
+      "low": 1601.2,
+      "open": 1696.0,
+      "time": "2026-09-28",
+      "volume": 29357
     }
   ],
   "company_name": "RACL Geartech Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 71,
+    "is_stage2": false,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.2x"
+    "volume_multiplier": "0.24x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 6.7,
-    "change_pct": 0.4,
-    "close": 1686.5,
-    "previous_close": 1679.8,
+    "as_of": "2026-09-28",
+    "change": -73.4,
+    "change_pct": -4.35,
+    "close": 1613.1,
+    "previous_close": 1686.5,
     "type": "EOD_CLOSE",
-    "volume": 24872
+    "volume": 29357
   },
   "range": {
-    "distance_from_high_pct": -12.51,
-    "distance_from_low_pct": 87.37,
+    "distance_from_high_pct": -16.32,
+    "distance_from_low_pct": 79.21,
     "high_52w": 1927.7,
     "history_basis": "52_WEEK",
     "low_52w": 900.1,
-    "range_position_pct": 76.53
+    "range_position_pct": 69.38
   },
   "risk_model": {
-    "invalidation_floor": 1627.47,
-    "risk_per_share": 92.76,
-    "technical_pivot": 1720.23
+    "invalidation_floor": 1556.64,
+    "risk_per_share": 88.72,
+    "technical_pivot": 1645.36
   },
   "schema_version": "1.0",
   "sector": null,

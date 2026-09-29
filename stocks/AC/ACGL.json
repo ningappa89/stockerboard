@@ -233,46 +233,54 @@
       "open": 1707.6,
       "time": "2026-09-25",
       "volume": 457
+    },
+    {
+      "close": 1695.9,
+      "high": 1780.0,
+      "low": 1683.0,
+      "open": 1780.0,
+      "time": "2026-09-28",
+      "volume": 686
     }
   ],
   "company_name": "AUTOMOBILE CORPN OF GOA L",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE451C01013",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 72,
+    "is_stage2": false,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.54x"
+    "volume_multiplier": "0.79x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 21.3,
-    "change_pct": 1.24,
-    "close": 1737.8,
-    "previous_close": 1716.5,
+    "as_of": "2026-09-28",
+    "change": -41.9,
+    "change_pct": -2.41,
+    "close": 1695.9,
+    "previous_close": 1737.8,
     "type": "EOD_CLOSE",
-    "volume": 457
+    "volume": 686
   },
   "range": {
-    "distance_from_high_pct": -11.42,
-    "distance_from_low_pct": 2.22,
+    "distance_from_high_pct": -13.56,
+    "distance_from_low_pct": 0.77,
     "high_52w": 1961.9,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 1700.0,
-    "range_position_pct": 14.43
+    "low_52w": 1683.0,
+    "range_position_pct": 4.63
   },
   "risk_model": {
-    "invalidation_floor": 1676.98,
-    "risk_per_share": 95.58,
-    "technical_pivot": 1772.56
+    "invalidation_floor": 1636.54,
+    "risk_per_share": 93.28,
+    "technical_pivot": 1729.82
   },
   "schema_version": "1.0",
   "sector": null,

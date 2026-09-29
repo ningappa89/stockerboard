@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 34.12,
-      "high": 35.5,
-      "low": 33.3,
-      "open": 34.6,
-      "time": "2025-09-18",
-      "volume": 129670
-    },
-    {
       "close": 34.58,
       "high": 35.87,
       "low": 34.0,
@@ -2017,13 +2009,21 @@
       "open": 25.59,
       "time": "2026-09-25",
       "volume": 17041
+    },
+    {
+      "close": 25.13,
+      "high": 25.78,
+      "low": 24.86,
+      "open": 25.77,
+      "time": "2026-09-28",
+      "volume": 16832
     }
   ],
   "company_name": "SURANA SOLAR LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2037,26 +2037,26 @@
     "volume_multiplier": "0.49x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.35,
-    "change_pct": -1.36,
-    "close": 25.3,
-    "previous_close": 25.65,
+    "as_of": "2026-09-28",
+    "change": -0.17,
+    "change_pct": -0.67,
+    "close": 25.13,
+    "previous_close": 25.3,
     "type": "EOD_CLOSE",
-    "volume": 17041
+    "volume": 16832
   },
   "range": {
-    "distance_from_high_pct": -30.68,
-    "distance_from_low_pct": 38.18,
+    "distance_from_high_pct": -31.15,
+    "distance_from_low_pct": 37.25,
     "high_52w": 36.5,
     "history_basis": "52_WEEK",
     "low_52w": 18.31,
-    "range_position_pct": 38.43
+    "range_position_pct": 37.49
   },
   "risk_model": {
-    "invalidation_floor": 24.41,
-    "risk_per_share": 1.4,
-    "technical_pivot": 25.81
+    "invalidation_floor": 24.25,
+    "risk_per_share": 1.38,
+    "technical_pivot": 25.63
   },
   "schema_version": "1.0",
   "sector": null,

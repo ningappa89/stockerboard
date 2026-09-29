@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 186.21,
-      "high": 187.0,
-      "low": 180.24,
-      "open": 180.3,
-      "time": "2025-09-18",
-      "volume": 466455
-    },
-    {
       "close": 189.81,
       "high": 191.0,
       "low": 184.86,
@@ -2017,13 +2009,21 @@
       "open": 177.78,
       "time": "2026-09-25",
       "volume": 397315
+    },
+    {
+      "close": 171.93,
+      "high": 177.74,
+      "low": 171.09,
+      "open": 175.65,
+      "time": "2026-09-28",
+      "volume": 260948
     }
   ],
   "company_name": "FUSION FINANCE LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 49,
+    "momentum_score": 46,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.75x"
+    "volume_multiplier": "0.5x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.34,
-    "change_pct": 0.19,
-    "close": 177.14,
-    "previous_close": 176.8,
+    "as_of": "2026-09-28",
+    "change": -5.21,
+    "change_pct": -2.94,
+    "close": 171.93,
+    "previous_close": 177.14,
     "type": "EOD_CLOSE",
-    "volume": 397315
+    "volume": 260948
   },
   "range": {
-    "distance_from_high_pct": -27.1,
-    "distance_from_low_pct": 29.77,
+    "distance_from_high_pct": -29.25,
+    "distance_from_low_pct": 25.96,
     "high_52w": 243.0,
     "history_basis": "52_WEEK",
     "low_52w": 136.5,
-    "range_position_pct": 38.16
+    "range_position_pct": 33.27
   },
   "risk_model": {
-    "invalidation_floor": 170.94,
-    "risk_per_share": 9.74,
-    "technical_pivot": 180.68
+    "invalidation_floor": 165.91,
+    "risk_per_share": 9.46,
+    "technical_pivot": 175.37
   },
   "schema_version": "1.0",
   "sector": null,

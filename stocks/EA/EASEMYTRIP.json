@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 8.81,
-      "high": 8.93,
-      "low": 8.76,
-      "open": 8.87,
-      "time": "2025-09-18",
-      "volume": 10043421
-    },
-    {
       "close": 8.79,
       "high": 8.85,
       "low": 8.72,
@@ -2017,13 +2009,21 @@
       "open": 5.82,
       "time": "2026-09-25",
       "volume": 14957504
+    },
+    {
+      "close": 5.97,
+      "high": 6.1,
+      "low": 5.93,
+      "open": 6.0,
+      "time": "2026-09-28",
+      "volume": 14312003
     }
   ],
   "company_name": "EASY TRIP PLANNERS LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.98x"
+    "volume_multiplier": "0.92x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.12,
-    "change_pct": 2.07,
-    "close": 5.92,
-    "previous_close": 5.8,
+    "as_of": "2026-09-28",
+    "change": 0.05,
+    "change_pct": 0.84,
+    "close": 5.97,
+    "previous_close": 5.92,
     "type": "EOD_CLOSE",
-    "volume": 14957504
+    "volume": 14312003
   },
   "range": {
-    "distance_from_high_pct": -44.15,
-    "distance_from_low_pct": 3.68,
+    "distance_from_high_pct": -43.68,
+    "distance_from_low_pct": 4.55,
     "high_52w": 10.6,
     "history_basis": "52_WEEK",
     "low_52w": 5.71,
-    "range_position_pct": 4.29
+    "range_position_pct": 5.32
   },
   "risk_model": {
-    "invalidation_floor": 5.71,
+    "invalidation_floor": 5.76,
     "risk_per_share": 0.5,
-    "technical_pivot": 6.04
+    "technical_pivot": 6.09
   },
   "schema_version": "1.0",
   "sector": null,

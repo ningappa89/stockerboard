@@ -233,14 +233,22 @@
       "open": 60.05,
       "time": "2026-09-25",
       "volume": 56
+    },
+    {
+      "close": 58.12,
+      "high": 61.5,
+      "low": 58.11,
+      "open": 61.49,
+      "time": "2026-09-28",
+      "volume": 183
     }
   ],
   "company_name": "KJMC FINANCIAL SERVICES LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE533C01018",
@@ -248,31 +256,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 46,
+    "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.05x"
+    "volume_multiplier": "0.17x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.21,
-    "change_pct": 0.35,
-    "close": 60.05,
-    "previous_close": 59.84,
+    "as_of": "2026-09-28",
+    "change": -1.93,
+    "change_pct": -3.21,
+    "close": 58.12,
+    "previous_close": 60.05,
     "type": "EOD_CLOSE",
-    "volume": 56
+    "volume": 183
   },
   "range": {
-    "distance_from_high_pct": -28.93,
-    "distance_from_low_pct": 17.72,
+    "distance_from_high_pct": -31.22,
+    "distance_from_low_pct": 13.94,
     "high_52w": 84.5,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 51.01,
-    "range_position_pct": 26.99
+    "range_position_pct": 21.23
   },
   "risk_model": {
-    "invalidation_floor": 57.95,
-    "risk_per_share": 3.3,
-    "technical_pivot": 61.25
+    "invalidation_floor": 56.09,
+    "risk_per_share": 3.19,
+    "technical_pivot": 59.28
   },
   "schema_version": "1.0",
   "sector": null,

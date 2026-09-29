@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 96.38,
-      "high": 97.54,
-      "low": 95.49,
-      "open": 96.8,
-      "time": "2025-09-18",
-      "volume": 100513
-    },
-    {
       "close": 95.38,
       "high": 96.67,
       "low": 94.92,
@@ -2017,13 +2009,21 @@
       "open": 80.4,
       "time": "2026-09-25",
       "volume": 56540
+    },
+    {
+      "close": 79.9,
+      "high": 81.99,
+      "low": 79.8,
+      "open": 81.99,
+      "time": "2026-09-28",
+      "volume": 38032
     }
   ],
   "company_name": "INTL CONVEYORS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 46,
+    "momentum_score": 44,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.89x"
+    "volume_multiplier": "0.75x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.13,
-    "change_pct": 1.41,
-    "close": 81.17,
-    "previous_close": 80.04,
+    "as_of": "2026-09-28",
+    "change": -1.27,
+    "change_pct": -1.56,
+    "close": 79.9,
+    "previous_close": 81.17,
     "type": "EOD_CLOSE",
-    "volume": 56540
+    "volume": 38032
   },
   "range": {
-    "distance_from_high_pct": -29.13,
-    "distance_from_low_pct": 35.28,
+    "distance_from_high_pct": -30.24,
+    "distance_from_low_pct": 33.17,
     "high_52w": 114.54,
     "history_basis": "52_WEEK",
     "low_52w": 60.0,
-    "range_position_pct": 38.82
+    "range_position_pct": 36.49
   },
   "risk_model": {
-    "invalidation_floor": 78.33,
-    "risk_per_share": 4.46,
-    "technical_pivot": 82.79
+    "invalidation_floor": 77.1,
+    "risk_per_share": 4.4,
+    "technical_pivot": 81.5
   },
   "schema_version": "1.0",
   "sector": null,

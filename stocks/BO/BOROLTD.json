@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 343.6,
-      "high": 351.0,
-      "low": 342.25,
-      "open": 347.05,
-      "time": "2025-09-18",
-      "volume": 60593
-    },
-    {
       "close": 341.75,
       "high": 344.9,
       "low": 340.1,
@@ -2017,13 +2009,21 @@
       "open": 260.6,
       "time": "2026-09-25",
       "volume": 1348123
+    },
+    {
+      "close": 280.8,
+      "high": 283.76,
+      "low": 269.0,
+      "open": 275.0,
+      "time": "2026-09-28",
+      "volume": 1497356
     }
   ],
   "company_name": "Borosil Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 40,
+    "momentum_score": 45,
     "setup_type": "Volume Expansion",
-    "volume_multiplier": "4.04x"
+    "volume_multiplier": "3.98x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 5.49,
-    "change_pct": 2.12,
-    "close": 264.8,
-    "previous_close": 259.31,
+    "as_of": "2026-09-28",
+    "change": 16.0,
+    "change_pct": 6.04,
+    "close": 280.8,
+    "previous_close": 264.8,
     "type": "EOD_CLOSE",
-    "volume": 1348123
+    "volume": 1497356
   },
   "range": {
-    "distance_from_high_pct": -33.46,
-    "distance_from_low_pct": 23.89,
+    "distance_from_high_pct": -29.44,
+    "distance_from_low_pct": 31.38,
     "high_52w": 397.95,
     "history_basis": "52_WEEK",
     "low_52w": 213.73,
-    "range_position_pct": 27.72
+    "range_position_pct": 36.41
   },
   "risk_model": {
-    "invalidation_floor": 255.53,
-    "risk_per_share": 14.57,
-    "technical_pivot": 270.1
+    "invalidation_floor": 270.97,
+    "risk_per_share": 15.45,
+    "technical_pivot": 286.42
   },
   "schema_version": "1.0",
   "sector": null,

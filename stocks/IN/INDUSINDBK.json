@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 735.45,
-      "high": 743.0,
-      "low": 732.5,
-      "open": 742.45,
-      "time": "2025-09-18",
-      "volume": 2280312
-    },
-    {
       "close": 744.4,
       "high": 746.95,
       "low": 736.15,
@@ -2017,13 +2009,21 @@
       "open": 919.5,
       "time": "2026-09-25",
       "volume": 1426025
+    },
+    {
+      "close": 909.7,
+      "high": 913.0,
+      "low": 889.4,
+      "open": 912.2,
+      "time": "2026-09-28",
+      "volume": 1794894
     }
   ],
   "company_name": "INDUSIND BANK LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.68x"
+    "volume_multiplier": "0.84x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -7.3,
-    "change_pct": -0.79,
-    "close": 912.2,
-    "previous_close": 919.5,
+    "as_of": "2026-09-28",
+    "change": -2.5,
+    "change_pct": -0.27,
+    "close": 909.7,
+    "previous_close": 912.2,
     "type": "EOD_CLOSE",
-    "volume": 1426025
+    "volume": 1794894
   },
   "range": {
-    "distance_from_high_pct": -15.37,
-    "distance_from_low_pct": 28.37,
+    "distance_from_high_pct": -15.6,
+    "distance_from_low_pct": 28.02,
     "high_52w": 1077.85,
     "history_basis": "52_WEEK",
     "low_52w": 710.6,
-    "range_position_pct": 54.89
+    "range_position_pct": 54.21
   },
   "risk_model": {
-    "invalidation_floor": 880.27,
-    "risk_per_share": 50.17,
-    "technical_pivot": 930.44
+    "invalidation_floor": 877.86,
+    "risk_per_share": 50.03,
+    "technical_pivot": 927.89
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

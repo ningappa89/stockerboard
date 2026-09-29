@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1115.1,
-      "high": 1124.3,
-      "low": 1094.2,
-      "open": 1111.0,
-      "time": "2025-09-18",
-      "volume": 148841
-    },
-    {
       "close": 1100.2,
       "high": 1118.5,
       "low": 1084.1,
@@ -2017,13 +2009,21 @@
       "open": 1059.55,
       "time": "2026-09-25",
       "volume": 156277
+    },
+    {
+      "close": 1060.45,
+      "high": 1077.9,
+      "low": 1044.15,
+      "open": 1077.9,
+      "time": "2026-09-28",
+      "volume": 95393
     }
   ],
   "company_name": "JUBILANT PHARMOVA LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 75,
+    "momentum_score": 74,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.56x"
+    "volume_multiplier": "0.35x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 8.1,
-    "change_pct": 0.76,
-    "close": 1071.95,
-    "previous_close": 1063.85,
+    "as_of": "2026-09-28",
+    "change": -11.5,
+    "change_pct": -1.07,
+    "close": 1060.45,
+    "previous_close": 1071.95,
     "type": "EOD_CLOSE",
-    "volume": 156277
+    "volume": 95393
   },
   "range": {
-    "distance_from_high_pct": -9.52,
-    "distance_from_low_pct": 36.37,
+    "distance_from_high_pct": -10.5,
+    "distance_from_low_pct": 34.91,
     "high_52w": 1184.8,
     "history_basis": "52_WEEK",
     "low_52w": 786.05,
-    "range_position_pct": 71.7
+    "range_position_pct": 68.82
   },
   "risk_model": {
-    "invalidation_floor": 1034.43,
-    "risk_per_share": 58.96,
-    "technical_pivot": 1093.39
+    "invalidation_floor": 1023.33,
+    "risk_per_share": 58.33,
+    "technical_pivot": 1081.66
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

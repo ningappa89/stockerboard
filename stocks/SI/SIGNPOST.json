@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 290.25,
-      "high": 294.95,
-      "low": 281.55,
-      "open": 283.05,
-      "time": "2025-09-18",
-      "volume": 65822
-    },
-    {
       "close": 285.0,
       "high": 291.9,
       "low": 281.55,
@@ -2017,13 +2009,21 @@
       "open": 272.1,
       "time": "2026-09-25",
       "volume": 24226
+    },
+    {
+      "close": 264.4,
+      "high": 273.8,
+      "low": 263.5,
+      "open": 273.8,
+      "time": "2026-09-28",
+      "volume": 38998
     }
   ],
   "company_name": "Signpost India Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 60,
+    "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.08x"
+    "volume_multiplier": "0.13x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.6,
-    "change_pct": -0.59,
-    "close": 271.2,
-    "previous_close": 272.8,
+    "as_of": "2026-09-28",
+    "change": -6.8,
+    "change_pct": -2.51,
+    "close": 264.4,
+    "previous_close": 271.2,
     "type": "EOD_CLOSE",
-    "volume": 24226
+    "volume": 38998
   },
   "range": {
-    "distance_from_high_pct": -19.48,
-    "distance_from_low_pct": 41.69,
+    "distance_from_high_pct": -21.5,
+    "distance_from_low_pct": 38.13,
     "high_52w": 336.8,
     "history_basis": "52_WEEK",
     "low_52w": 191.41,
-    "range_position_pct": 54.88
+    "range_position_pct": 50.2
   },
   "risk_model": {
-    "invalidation_floor": 261.71,
-    "risk_per_share": 14.91,
-    "technical_pivot": 276.62
+    "invalidation_floor": 255.15,
+    "risk_per_share": 14.54,
+    "technical_pivot": 269.69
   },
   "schema_version": "1.0",
   "sector": null,

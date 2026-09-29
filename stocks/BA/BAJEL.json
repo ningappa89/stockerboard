@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 215.9,
-      "high": 220.04,
-      "low": 215.0,
-      "open": 215.2,
-      "time": "2025-09-18",
-      "volume": 199974
-    },
-    {
       "close": 224.57,
       "high": 226.69,
       "low": 214.22,
@@ -2017,13 +2009,21 @@
       "open": 173.37,
       "time": "2026-09-25",
       "volume": 76580
+    },
+    {
+      "close": 169.47,
+      "high": 172.0,
+      "low": 168.97,
+      "open": 171.39,
+      "time": "2026-09-28",
+      "volume": 75012
     }
   ],
   "company_name": "Bajel Projects Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 54,
+    "momentum_score": 52,
     "setup_type": "Liquid Active",
     "volume_multiplier": "0.46x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.03,
-    "change_pct": 0.6,
-    "close": 173.14,
-    "previous_close": 172.11,
+    "as_of": "2026-09-28",
+    "change": -3.67,
+    "change_pct": -2.12,
+    "close": 169.47,
+    "previous_close": 173.14,
     "type": "EOD_CLOSE",
-    "volume": 76580
+    "volume": 75012
   },
   "range": {
-    "distance_from_high_pct": -23.62,
-    "distance_from_low_pct": 28.16,
+    "distance_from_high_pct": -25.24,
+    "distance_from_low_pct": 25.44,
     "high_52w": 226.69,
     "history_basis": "52_WEEK",
     "low_52w": 135.1,
-    "range_position_pct": 41.53
+    "range_position_pct": 37.53
   },
   "risk_model": {
-    "invalidation_floor": 167.08,
-    "risk_per_share": 9.52,
-    "technical_pivot": 176.6
+    "invalidation_floor": 163.54,
+    "risk_per_share": 9.32,
+    "technical_pivot": 172.86
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1683.6,
-      "high": 1745.2,
-      "low": 1676.0,
-      "open": 1703.0,
-      "time": "2025-09-18",
-      "volume": 399160
-    },
-    {
       "close": 1684.4,
       "high": 1729.7,
       "low": 1674.0,
@@ -2017,13 +2009,21 @@
       "open": 1671.9,
       "time": "2026-09-25",
       "volume": 126901
+    },
+    {
+      "close": 1655.3,
+      "high": 1666.0,
+      "low": 1637.0,
+      "open": 1660.0,
+      "time": "2026-09-28",
+      "volume": 145808
     }
   ],
   "company_name": "TATA COMMUNICATIONS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Telecommunication",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
+    "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.51x"
+    "volume_multiplier": "0.59x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -3.5,
-    "change_pct": -0.21,
-    "close": 1666.5,
-    "previous_close": 1670.0,
+    "as_of": "2026-09-28",
+    "change": -11.2,
+    "change_pct": -0.67,
+    "close": 1655.3,
+    "previous_close": 1666.5,
     "type": "EOD_CLOSE",
-    "volume": 126901
+    "volume": 145808
   },
   "range": {
-    "distance_from_high_pct": -21.02,
-    "distance_from_low_pct": 26.01,
+    "distance_from_high_pct": -21.55,
+    "distance_from_low_pct": 25.16,
     "high_52w": 2110.0,
     "history_basis": "52_WEEK",
     "low_52w": 1322.5,
-    "range_position_pct": 43.68
+    "range_position_pct": 42.26
   },
   "risk_model": {
-    "invalidation_floor": 1608.17,
-    "risk_per_share": 91.66,
-    "technical_pivot": 1699.83
+    "invalidation_floor": 1597.36,
+    "risk_per_share": 91.05,
+    "technical_pivot": 1688.41
   },
   "schema_version": "1.0",
   "sector": "Telecommunication",

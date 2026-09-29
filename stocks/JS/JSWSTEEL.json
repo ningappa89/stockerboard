@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1121.1,
-      "high": 1122.9,
-      "low": 1105.0,
-      "open": 1111.9,
-      "time": "2025-09-18",
-      "volume": 824725
-    },
-    {
       "close": 1122.8,
       "high": 1126.0,
       "low": 1113.7,
@@ -2017,13 +2009,21 @@
       "open": 1279.0,
       "time": "2026-09-25",
       "volume": 1032391
+    },
+    {
+      "close": 1264.1,
+      "high": 1278.4,
+      "low": 1254.1,
+      "open": 1278.4,
+      "time": "2026-09-28",
+      "volume": 1216506
     }
   ],
   "company_name": "JSW STEEL LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Metals & Mining",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 81,
+    "momentum_score": 80,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.77x"
+    "volume_multiplier": "0.91x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 3.8,
-    "change_pct": 0.3,
-    "close": 1277.0,
-    "previous_close": 1273.2,
+    "as_of": "2026-09-28",
+    "change": -12.9,
+    "change_pct": -1.01,
+    "close": 1264.1,
+    "previous_close": 1277.0,
     "type": "EOD_CLOSE",
-    "volume": 1032391
+    "volume": 1216506
   },
   "range": {
-    "distance_from_high_pct": -5.48,
-    "distance_from_low_pct": 18.99,
+    "distance_from_high_pct": -6.43,
+    "distance_from_low_pct": 17.79,
     "high_52w": 1351.0,
     "history_basis": "52_WEEK",
     "low_52w": 1073.2,
-    "range_position_pct": 73.36
+    "range_position_pct": 68.72
   },
   "risk_model": {
-    "invalidation_floor": 1232.31,
-    "risk_per_share": 70.23,
-    "technical_pivot": 1302.54
+    "invalidation_floor": 1219.86,
+    "risk_per_share": 69.52,
+    "technical_pivot": 1289.38
   },
   "schema_version": "1.0",
   "sector": "Metals & Mining",

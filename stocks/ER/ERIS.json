@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1636.1,
-      "high": 1650.0,
-      "low": 1606.3,
-      "open": 1643.0,
-      "time": "2025-09-18",
-      "volume": 400337
-    },
-    {
       "close": 1639.6,
       "high": 1691.0,
       "low": 1626.4,
@@ -2017,13 +2009,21 @@
       "open": 1275.0,
       "time": "2026-09-25",
       "volume": 30256
+    },
+    {
+      "close": 1236.3,
+      "high": 1269.5,
+      "low": 1231.1,
+      "open": 1258.0,
+      "time": "2026-09-28",
+      "volume": 31386
     }
   ],
   "company_name": "ERIS LIFESCIENCES LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 46,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.53x"
+    "volume_multiplier": "0.57x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -15.7,
-    "change_pct": -1.23,
-    "close": 1258.9,
-    "previous_close": 1274.6,
+    "as_of": "2026-09-28",
+    "change": -22.6,
+    "change_pct": -1.8,
+    "close": 1236.3,
+    "previous_close": 1258.9,
     "type": "EOD_CLOSE",
-    "volume": 30256
+    "volume": 31386
   },
   "range": {
-    "distance_from_high_pct": -27.65,
-    "distance_from_low_pct": 4.91,
+    "distance_from_high_pct": -28.95,
+    "distance_from_low_pct": 3.02,
     "high_52w": 1740.0,
     "history_basis": "52_WEEK",
     "low_52w": 1200.0,
-    "range_position_pct": 10.91
+    "range_position_pct": 6.72
   },
   "risk_model": {
-    "invalidation_floor": 1214.84,
-    "risk_per_share": 69.24,
-    "technical_pivot": 1284.08
+    "invalidation_floor": 1193.03,
+    "risk_per_share": 68.0,
+    "technical_pivot": 1261.03
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

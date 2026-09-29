@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 137.76,
-      "high": 141.39,
-      "low": 135.56,
-      "open": 139.25,
-      "time": "2025-09-18",
-      "volume": 155470
-    },
-    {
       "close": 139.2,
       "high": 140.0,
       "low": 136.02,
@@ -2017,13 +2009,21 @@
       "open": 132.56,
       "time": "2026-09-25",
       "volume": 165927
+    },
+    {
+      "close": 125.54,
+      "high": 132.29,
+      "low": 124.57,
+      "open": 131.4,
+      "time": "2026-09-28",
+      "volume": 752268
     }
   ],
   "company_name": "Manaksia Coated Metals & Indus",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 46,
+    "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.33x"
+    "volume_multiplier": "1.43x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.25,
-    "change_pct": -0.95,
-    "close": 129.91,
-    "previous_close": 131.16,
+    "as_of": "2026-09-28",
+    "change": -4.37,
+    "change_pct": -3.36,
+    "close": 125.54,
+    "previous_close": 129.91,
     "type": "EOD_CLOSE",
-    "volume": 165927
+    "volume": 752268
   },
   "range": {
-    "distance_from_high_pct": -28.94,
-    "distance_from_low_pct": 37.91,
+    "distance_from_high_pct": -31.33,
+    "distance_from_low_pct": 33.27,
     "high_52w": 182.82,
     "history_basis": "52_WEEK",
     "low_52w": 94.2,
-    "range_position_pct": 40.3
+    "range_position_pct": 35.36
   },
   "risk_model": {
-    "invalidation_floor": 125.36,
-    "risk_per_share": 7.15,
-    "technical_pivot": 132.51
+    "invalidation_floor": 121.15,
+    "risk_per_share": 6.9,
+    "technical_pivot": 128.05
   },
   "schema_version": "1.0",
   "sector": null,

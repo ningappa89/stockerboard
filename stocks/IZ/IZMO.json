@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1006.55,
-      "high": 1006.55,
-      "low": 963.4,
-      "open": 1006.55,
-      "time": "2025-09-18",
-      "volume": 266766
-    },
-    {
       "close": 1056.85,
       "high": 1056.85,
       "low": 966.0,
@@ -2017,13 +2009,21 @@
       "open": 910.15,
       "time": "2026-09-25",
       "volume": 46289
+    },
+    {
+      "close": 873.55,
+      "high": 905.0,
+      "low": 871.0,
+      "open": 901.2,
+      "time": "2026-09-28",
+      "volume": 60613
     }
   ],
   "company_name": "IZMO Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.27x"
+    "volume_multiplier": "0.36x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.5,
-    "change_pct": -0.06,
-    "close": 903.95,
-    "previous_close": 904.45,
+    "as_of": "2026-09-28",
+    "change": -30.4,
+    "change_pct": -3.36,
+    "close": 873.55,
+    "previous_close": 903.95,
     "type": "EOD_CLOSE",
-    "volume": 46289
+    "volume": 60613
   },
   "range": {
-    "distance_from_high_pct": -34.24,
-    "distance_from_low_pct": 58.77,
+    "distance_from_high_pct": -36.46,
+    "distance_from_low_pct": 53.43,
     "high_52w": 1374.7,
     "history_basis": "52_WEEK",
     "low_52w": 569.35,
-    "range_position_pct": 41.55
+    "range_position_pct": 37.77
   },
   "risk_model": {
-    "invalidation_floor": 872.31,
-    "risk_per_share": 49.72,
-    "technical_pivot": 922.03
+    "invalidation_floor": 842.98,
+    "risk_per_share": 48.04,
+    "technical_pivot": 891.02
   },
   "schema_version": "1.0",
   "sector": null,

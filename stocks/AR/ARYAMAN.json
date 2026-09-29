@@ -233,14 +233,22 @@
       "open": 633.0,
       "time": "2026-09-25",
       "volume": 20
+    },
+    {
+      "close": 625.0,
+      "high": 630.0,
+      "low": 605.0,
+      "open": 630.0,
+      "time": "2026-09-28",
+      "volume": 30485
     }
   ],
   "company_name": "ARYAMAN FINANCIAL SERV L",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE032E01017",
@@ -248,31 +256,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 75,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.1x"
+    "momentum_score": 78,
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "18.07x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -5.0,
-    "change_pct": -0.81,
-    "close": 610.0,
-    "previous_close": 615.0,
+    "as_of": "2026-09-28",
+    "change": 15.0,
+    "change_pct": 2.46,
+    "close": 625.0,
+    "previous_close": 610.0,
     "type": "EOD_CLOSE",
-    "volume": 20
+    "volume": 30485
   },
   "range": {
-    "distance_from_high_pct": -9.62,
-    "distance_from_low_pct": 7.02,
+    "distance_from_high_pct": -7.4,
+    "distance_from_low_pct": 9.65,
     "high_52w": 674.95,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 570.0,
-    "range_position_pct": 38.11
+    "range_position_pct": 52.41
   },
   "risk_model": {
-    "invalidation_floor": 588.65,
-    "risk_per_share": 33.55,
-    "technical_pivot": 622.2
+    "invalidation_floor": 603.12,
+    "risk_per_share": 34.38,
+    "technical_pivot": 637.5
   },
   "schema_version": "1.0",
   "sector": null,

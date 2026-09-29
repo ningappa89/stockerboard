@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 354.5,
-      "high": 359.0,
-      "low": 353.1,
-      "open": 358.0,
-      "time": "2025-09-18",
-      "volume": 35459
-    },
-    {
       "close": 363.95,
       "high": 364.9,
       "low": 353.0,
@@ -2017,13 +2009,21 @@
       "open": 324.9,
       "time": "2026-09-25",
       "volume": 55601
+    },
+    {
+      "close": 317.6,
+      "high": 335.0,
+      "low": 310.6,
+      "open": 322.15,
+      "time": "2026-09-28",
+      "volume": 326451
     }
   ],
   "company_name": "Bansal Wire Industries Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.68x"
+    "is_stage2": false,
+    "momentum_score": 68,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "3.36x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.95,
-    "change_pct": -0.6,
-    "close": 321.4,
-    "previous_close": 323.35,
+    "as_of": "2026-09-28",
+    "change": -3.8,
+    "change_pct": -1.18,
+    "close": 317.6,
+    "previous_close": 321.4,
     "type": "EOD_CLOSE",
-    "volume": 55601
+    "volume": 326451
   },
   "range": {
-    "distance_from_high_pct": -13.14,
-    "distance_from_low_pct": 44.45,
+    "distance_from_high_pct": -14.16,
+    "distance_from_low_pct": 42.74,
     "high_52w": 370.0,
     "history_basis": "52_WEEK",
     "low_52w": 222.5,
-    "range_position_pct": 67.05
+    "range_position_pct": 64.47
   },
   "risk_model": {
-    "invalidation_floor": 310.15,
-    "risk_per_share": 17.68,
-    "technical_pivot": 327.83
+    "invalidation_floor": 306.48,
+    "risk_per_share": 17.47,
+    "technical_pivot": 323.95
   },
   "schema_version": "1.0",
   "sector": null,

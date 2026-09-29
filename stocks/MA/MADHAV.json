@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 45.43,
-      "high": 47.5,
-      "low": 45.1,
-      "open": 46.01,
-      "time": "2025-09-18",
-      "volume": 23995
-    },
-    {
       "close": 46.19,
       "high": 46.54,
       "low": 45.2,
@@ -2017,13 +2009,21 @@
       "open": 34.12,
       "time": "2026-09-25",
       "volume": 3191
+    },
+    {
+      "close": 35.82,
+      "high": 36.49,
+      "low": 34.2,
+      "open": 36.49,
+      "time": "2026-09-28",
+      "volume": 3862
     }
   ],
   "company_name": "MADHAV MARBLES & GRANITES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 52,
+    "momentum_score": 54,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.77x"
+    "volume_multiplier": "0.91x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.31,
-    "change_pct": 3.8,
-    "close": 35.77,
-    "previous_close": 34.46,
+    "as_of": "2026-09-28",
+    "change": 0.05,
+    "change_pct": 0.14,
+    "close": 35.82,
+    "previous_close": 35.77,
     "type": "EOD_CLOSE",
-    "volume": 3191
+    "volume": 3862
   },
   "range": {
-    "distance_from_high_pct": -24.69,
-    "distance_from_low_pct": 23.34,
-    "high_52w": 47.5,
+    "distance_from_high_pct": -23.45,
+    "distance_from_low_pct": 23.52,
+    "high_52w": 46.79,
     "history_basis": "52_WEEK",
     "low_52w": 29.0,
-    "range_position_pct": 36.59
+    "range_position_pct": 38.34
   },
   "risk_model": {
-    "invalidation_floor": 34.52,
+    "invalidation_floor": 34.57,
     "risk_per_share": 1.97,
-    "technical_pivot": 36.49
+    "technical_pivot": 36.54
   },
   "schema_version": "1.0",
   "sector": null,

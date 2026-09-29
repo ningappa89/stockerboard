@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1059.65,
-      "high": 1074.0,
-      "low": 1034.75,
-      "open": 1050.0,
-      "time": "2025-09-18",
-      "volume": 758379
-    },
-    {
       "close": 1054.4,
       "high": 1064.8,
       "low": 1047.55,
@@ -2017,13 +2009,21 @@
       "open": 1479.0,
       "time": "2026-09-25",
       "volume": 454472
+    },
+    {
+      "close": 1533.4,
+      "high": 1567.9,
+      "low": 1490.1,
+      "open": 1515.0,
+      "time": "2026-09-28",
+      "volume": 3277779
     }
   ],
   "company_name": "GREAT EASTERN SHIPPING CO.LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.52x"
+    "momentum_score": 67,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "3.39x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 14.6,
-    "change_pct": 0.98,
-    "close": 1497.2,
-    "previous_close": 1482.6,
+    "as_of": "2026-09-28",
+    "change": 36.2,
+    "change_pct": 2.42,
+    "close": 1533.4,
+    "previous_close": 1497.2,
     "type": "EOD_CLOSE",
-    "volume": 454472
+    "volume": 3277779
   },
   "range": {
-    "distance_from_high_pct": -16.73,
-    "distance_from_low_pct": 54.18,
+    "distance_from_high_pct": -14.72,
+    "distance_from_low_pct": 57.9,
     "high_52w": 1798.0,
     "history_basis": "52_WEEK",
     "low_52w": 971.1,
-    "range_position_pct": 63.62
+    "range_position_pct": 68.0
   },
   "risk_model": {
-    "invalidation_floor": 1444.8,
-    "risk_per_share": 82.34,
-    "technical_pivot": 1527.14
+    "invalidation_floor": 1479.73,
+    "risk_per_share": 84.34,
+    "technical_pivot": 1564.07
   },
   "schema_version": "1.0",
   "sector": null,

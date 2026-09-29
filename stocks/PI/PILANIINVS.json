@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 5411.0,
-      "high": 5430.0,
-      "low": 5261.0,
-      "open": 5261.0,
-      "time": "2025-09-18",
-      "volume": 11669
-    },
-    {
       "close": 5495.1,
       "high": 5509.9,
       "low": 5392.1,
@@ -2017,13 +2009,21 @@
       "open": 3998.6,
       "time": "2026-09-25",
       "volume": 1020
+    },
+    {
+      "close": 3997.5,
+      "high": 4052.0,
+      "low": 3950.0,
+      "open": 4052.0,
+      "time": "2026-09-28",
+      "volume": 1441
     }
   ],
   "company_name": "PILANI INV & IND COR LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.44x"
+    "volume_multiplier": "0.61x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 7.9,
-    "change_pct": 0.2,
-    "close": 4015.0,
-    "previous_close": 4007.1,
+    "as_of": "2026-09-28",
+    "change": -17.5,
+    "change_pct": -0.44,
+    "close": 3997.5,
+    "previous_close": 4015.0,
     "type": "EOD_CLOSE",
-    "volume": 1020
+    "volume": 1441
   },
   "range": {
-    "distance_from_high_pct": -32.86,
-    "distance_from_low_pct": 1.83,
+    "distance_from_high_pct": -33.15,
+    "distance_from_low_pct": 1.39,
     "high_52w": 5980.0,
     "history_basis": "52_WEEK",
     "low_52w": 3942.8,
-    "range_position_pct": 3.54
+    "range_position_pct": 2.69
   },
   "risk_model": {
-    "invalidation_floor": 3874.47,
-    "risk_per_share": 220.83,
-    "technical_pivot": 4095.3
+    "invalidation_floor": 3857.59,
+    "risk_per_share": 219.86,
+    "technical_pivot": 4077.45
   },
   "schema_version": "1.0",
   "sector": null,

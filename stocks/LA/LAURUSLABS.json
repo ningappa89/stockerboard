@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 923.25,
-      "high": 926.3,
-      "low": 885.8,
-      "open": 891.0,
-      "time": "2025-09-18",
-      "volume": 3054360
-    },
-    {
       "close": 932.1,
       "high": 944.0,
       "low": 917.1,
@@ -2017,13 +2009,21 @@
       "open": 2026.0,
       "time": "2026-09-25",
       "volume": 1442142
+    },
+    {
+      "close": 2010.7,
+      "high": 2012.3,
+      "low": 1984.8,
+      "open": 2000.0,
+      "time": "2026-09-28",
+      "volume": 950451
     }
   ],
   "company_name": "Laurus Labs Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2034,29 +2034,29 @@
     "is_stage2": true,
     "momentum_score": 86,
     "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.43x"
+    "volume_multiplier": "0.29x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -19.2,
-    "change_pct": -0.95,
-    "close": 2007.0,
-    "previous_close": 2026.2,
+    "as_of": "2026-09-28",
+    "change": 3.7,
+    "change_pct": 0.18,
+    "close": 2010.7,
+    "previous_close": 2007.0,
     "type": "EOD_CLOSE",
-    "volume": 1442142
+    "volume": 950451
   },
   "range": {
-    "distance_from_high_pct": -2.35,
-    "distance_from_low_pct": 143.83,
+    "distance_from_high_pct": -2.17,
+    "distance_from_low_pct": 144.28,
     "high_52w": 2055.3,
     "history_basis": "52_WEEK",
     "low_52w": 823.1,
-    "range_position_pct": 96.08
+    "range_position_pct": 96.38
   },
   "risk_model": {
-    "invalidation_floor": 1936.75,
-    "risk_per_share": 110.39,
-    "technical_pivot": 2047.14
+    "invalidation_floor": 1940.33,
+    "risk_per_share": 110.58,
+    "technical_pivot": 2050.91
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

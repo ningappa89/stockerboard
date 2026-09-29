@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 76.05,
-      "high": 79.0,
-      "low": 75.82,
-      "open": 77.99,
-      "time": "2025-09-18",
-      "volume": 71306
-    },
-    {
       "close": 76.07,
       "high": 76.99,
       "low": 75.6,
@@ -2017,13 +2009,21 @@
       "open": 59.55,
       "time": "2026-09-25",
       "volume": 26279
+    },
+    {
+      "close": 58.87,
+      "high": 60.85,
+      "low": 58.7,
+      "open": 59.8,
+      "time": "2026-09-28",
+      "volume": 23097
     }
   ],
   "company_name": "UFO MOVIEZ INDIA LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.93x"
+    "volume_multiplier": "0.86x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.2,
-    "change_pct": 0.34,
-    "close": 59.73,
-    "previous_close": 59.53,
+    "as_of": "2026-09-28",
+    "change": -0.86,
+    "change_pct": -1.44,
+    "close": 58.87,
+    "previous_close": 59.73,
     "type": "EOD_CLOSE",
-    "volume": 26279
+    "volume": 23097
   },
   "range": {
-    "distance_from_high_pct": -35.75,
-    "distance_from_low_pct": 11.13,
+    "distance_from_high_pct": -36.68,
+    "distance_from_low_pct": 9.53,
     "high_52w": 92.97,
     "history_basis": "52_WEEK",
     "low_52w": 53.75,
-    "range_position_pct": 15.25
+    "range_position_pct": 13.05
   },
   "risk_model": {
-    "invalidation_floor": 57.64,
-    "risk_per_share": 3.28,
-    "technical_pivot": 60.92
+    "invalidation_floor": 56.81,
+    "risk_per_share": 3.24,
+    "technical_pivot": 60.05
   },
   "schema_version": "1.0",
   "sector": null,

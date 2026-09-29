@@ -25,14 +25,22 @@
       "open": 37.85,
       "time": "2026-09-25",
       "volume": 27320
+    },
+    {
+      "close": 36.1,
+      "high": 39.0,
+      "low": 35.45,
+      "open": 39.0,
+      "time": "2026-09-28",
+      "volume": 8118
     }
   ],
   "company_name": "DOLLEX AGROTECH LIMITED",
   "history": {
     "first_session": "2026-09-23",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 3
+    "last_session": "2026-09-28",
+    "sessions_available": 4
   },
   "industry": null,
   "isin": "INE0JHH01011",
@@ -40,31 +48,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 81,
+    "momentum_score": 78,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.54x"
+    "volume_multiplier": "0.2x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.95,
-    "change_pct": -2.57,
-    "close": 36.05,
-    "previous_close": 37.0,
+    "as_of": "2026-09-28",
+    "change": 0.05,
+    "change_pct": 0.14,
+    "close": 36.1,
+    "previous_close": 36.05,
     "type": "EOD_CLOSE",
-    "volume": 27320
+    "volume": 8118
   },
   "range": {
-    "distance_from_high_pct": -5.75,
-    "distance_from_low_pct": 1.55,
-    "high_52w": 38.25,
+    "distance_from_high_pct": -7.44,
+    "distance_from_low_pct": 1.83,
+    "high_52w": 39.0,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 35.5,
-    "range_position_pct": 20.0
+    "low_52w": 35.45,
+    "range_position_pct": 18.31
   },
   "risk_model": {
-    "invalidation_floor": 34.79,
+    "invalidation_floor": 34.84,
     "risk_per_share": 1.98,
-    "technical_pivot": 36.77
+    "technical_pivot": 36.82
   },
   "schema_version": "1.0",
   "sector": null,

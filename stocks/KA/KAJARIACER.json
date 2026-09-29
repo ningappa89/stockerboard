@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1219.3,
-      "high": 1236.0,
-      "low": 1215.2,
-      "open": 1236.0,
-      "time": "2025-09-18",
-      "volume": 62390
-    },
-    {
       "close": 1205.0,
       "high": 1225.0,
       "low": 1186.5,
@@ -2017,13 +2009,21 @@
       "open": 1214.7,
       "time": "2026-09-25",
       "volume": 251382
+    },
+    {
+      "close": 1189.5,
+      "high": 1217.7,
+      "low": 1185.6,
+      "open": 1213.0,
+      "time": "2026-09-28",
+      "volume": 113284
     }
   ],
   "company_name": "KAJARIA CERAMICS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Consumer Durables",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 81,
+    "momentum_score": 77,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.24x"
+    "volume_multiplier": "0.55x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -3.7,
-    "change_pct": -0.3,
-    "close": 1218.1,
-    "previous_close": 1221.8,
+    "as_of": "2026-09-28",
+    "change": -28.6,
+    "change_pct": -2.35,
+    "close": 1189.5,
+    "previous_close": 1218.1,
     "type": "EOD_CLOSE",
-    "volume": 251382
+    "volume": 113284
   },
   "range": {
-    "distance_from_high_pct": -5.85,
-    "distance_from_low_pct": 40.08,
+    "distance_from_high_pct": -8.06,
+    "distance_from_low_pct": 36.79,
     "high_52w": 1293.8,
     "history_basis": "52_WEEK",
     "low_52w": 869.6,
-    "range_position_pct": 82.15
+    "range_position_pct": 75.41
   },
   "risk_model": {
-    "invalidation_floor": 1175.47,
-    "risk_per_share": 66.99,
-    "technical_pivot": 1242.46
+    "invalidation_floor": 1147.87,
+    "risk_per_share": 65.42,
+    "technical_pivot": 1213.29
   },
   "schema_version": "1.0",
   "sector": "Consumer Durables",

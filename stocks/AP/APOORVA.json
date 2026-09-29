@@ -145,14 +145,22 @@
       "open": 34.3,
       "time": "2026-09-25",
       "volume": 364
+    },
+    {
+      "close": 33.49,
+      "high": 35.1,
+      "low": 31.78,
+      "open": 35.1,
+      "time": "2026-09-28",
+      "volume": 678
     }
   ],
   "company_name": "Apoorva Leasing Finance & Inve",
   "history": {
     "first_session": "2026-08-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 18
+    "last_session": "2026-09-28",
+    "sessions_available": 19
   },
   "industry": null,
   "isin": "INE217S01014",
@@ -162,29 +170,29 @@
     "is_stage2": true,
     "momentum_score": 81,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.47x"
+    "volume_multiplier": "0.89x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.25,
-    "change_pct": -0.74,
-    "close": 33.45,
-    "previous_close": 33.7,
+    "as_of": "2026-09-28",
+    "change": 0.04,
+    "change_pct": 0.12,
+    "close": 33.49,
+    "previous_close": 33.45,
     "type": "EOD_CLOSE",
-    "volume": 364
+    "volume": 678
   },
   "range": {
-    "distance_from_high_pct": -5.99,
-    "distance_from_low_pct": 39.14,
+    "distance_from_high_pct": -5.87,
+    "distance_from_low_pct": 39.31,
     "high_52w": 35.58,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 24.04,
-    "range_position_pct": 81.54
+    "range_position_pct": 81.89
   },
   "risk_model": {
-    "invalidation_floor": 32.28,
+    "invalidation_floor": 32.32,
     "risk_per_share": 1.84,
-    "technical_pivot": 34.12
+    "technical_pivot": 34.16
   },
   "schema_version": "1.0",
   "sector": null,

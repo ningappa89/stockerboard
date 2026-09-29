@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 584.35,
-      "high": 596.0,
-      "low": 575.35,
-      "open": 596.0,
-      "time": "2025-09-18",
-      "volume": 1080372
-    },
-    {
       "close": 618.5,
       "high": 623.0,
       "low": 588.6,
@@ -2017,13 +2009,21 @@
       "open": 260.35,
       "time": "2026-09-25",
       "volume": 667000
+    },
+    {
+      "close": 250.2,
+      "high": 259.75,
+      "low": 249.65,
+      "open": 256.85,
+      "time": "2026-09-28",
+      "volume": 394018
     }
   ],
   "company_name": "AWFIS SPACE SOLUTIONS LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.39x"
+    "volume_multiplier": "0.23x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -5.2,
-    "change_pct": -1.98,
-    "close": 257.2,
-    "previous_close": 262.4,
+    "as_of": "2026-09-28",
+    "change": -7.0,
+    "change_pct": -2.72,
+    "close": 250.2,
+    "previous_close": 257.2,
     "type": "EOD_CLOSE",
-    "volume": 667000
+    "volume": 394018
   },
   "range": {
-    "distance_from_high_pct": -59.77,
-    "distance_from_low_pct": 12.29,
+    "distance_from_high_pct": -60.87,
+    "distance_from_low_pct": 9.23,
     "high_52w": 639.4,
     "history_basis": "52_WEEK",
     "low_52w": 229.05,
-    "range_position_pct": 6.86
+    "range_position_pct": 5.15
   },
   "risk_model": {
-    "invalidation_floor": 248.2,
-    "risk_per_share": 14.14,
-    "technical_pivot": 262.34
+    "invalidation_floor": 241.44,
+    "risk_per_share": 13.76,
+    "technical_pivot": 255.2
   },
   "schema_version": "1.0",
   "sector": null,

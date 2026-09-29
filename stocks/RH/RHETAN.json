@@ -1969,14 +1969,22 @@
       "open": 15.17,
       "time": "2026-09-25",
       "volume": 803125
+    },
+    {
+      "close": 15.91,
+      "high": 15.92,
+      "low": 14.42,
+      "open": 14.43,
+      "time": "2026-09-28",
+      "volume": 66655760
     }
   ],
   "company_name": "RHETAN TMT LIMITED",
   "history": {
     "first_session": "2025-09-26",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 246
+    "last_session": "2026-09-28",
+    "sessions_available": 247
   },
   "industry": null,
   "isin": "INE0KKN01029",
@@ -1985,30 +1993,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.11x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "6.82x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.79,
-    "change_pct": -4.95,
-    "close": 15.17,
-    "previous_close": 15.96,
+    "as_of": "2026-09-28",
+    "change": 0.74,
+    "change_pct": 4.88,
+    "close": 15.91,
+    "previous_close": 15.17,
     "type": "EOD_CLOSE",
-    "volume": 803125
+    "volume": 66655760
   },
   "range": {
-    "distance_from_high_pct": -56.5,
-    "distance_from_low_pct": 0.0,
+    "distance_from_high_pct": -54.37,
+    "distance_from_low_pct": 10.33,
     "high_52w": 34.87,
     "history_basis": "52_WEEK",
-    "low_52w": 15.17,
-    "range_position_pct": 0.0
+    "low_52w": 14.42,
+    "range_position_pct": 7.29
   },
   "risk_model": {
-    "invalidation_floor": 14.64,
-    "risk_per_share": 0.83,
-    "technical_pivot": 15.47
+    "invalidation_floor": 15.35,
+    "risk_per_share": 0.88,
+    "technical_pivot": 16.23
   },
   "schema_version": "1.0",
   "sector": null,

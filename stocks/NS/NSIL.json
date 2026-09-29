@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 7167.5,
-      "high": 7287.0,
-      "low": 7076.5,
-      "open": 7252.5,
-      "time": "2025-09-18",
-      "volume": 11861
-    },
-    {
       "close": 7121.0,
       "high": 7200.0,
       "low": 7110.0,
@@ -2017,13 +2009,21 @@
       "open": 5510.0,
       "time": "2026-09-25",
       "volume": 1308
+    },
+    {
+      "close": 5398.5,
+      "high": 5510.0,
+      "low": 5381.0,
+      "open": 5495.0,
+      "time": "2026-09-28",
+      "volume": 6793
     }
   ],
   "company_name": "NALWA SONS INVESTMENT LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.76x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "3.4x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -34.0,
-    "change_pct": -0.62,
-    "close": 5468.0,
-    "previous_close": 5502.0,
+    "as_of": "2026-09-28",
+    "change": -69.5,
+    "change_pct": -1.27,
+    "close": 5398.5,
+    "previous_close": 5468.0,
     "type": "EOD_CLOSE",
-    "volume": 1308
+    "volume": 6793
   },
   "range": {
-    "distance_from_high_pct": -37.37,
-    "distance_from_low_pct": 16.34,
+    "distance_from_high_pct": -38.16,
+    "distance_from_low_pct": 14.86,
     "high_52w": 8730.0,
     "history_basis": "52_WEEK",
     "low_52w": 4700.0,
-    "range_position_pct": 19.06
+    "range_position_pct": 17.33
   },
   "risk_model": {
-    "invalidation_floor": 5276.62,
-    "risk_per_share": 300.74,
-    "technical_pivot": 5577.36
+    "invalidation_floor": 5209.55,
+    "risk_per_share": 296.92,
+    "technical_pivot": 5506.47
   },
   "schema_version": "1.0",
   "sector": null,

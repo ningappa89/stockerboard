@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 894.65,
-      "high": 904.7,
-      "low": 887.1,
-      "open": 904.7,
-      "time": "2025-09-18",
-      "volume": 509859
-    },
-    {
       "close": 913.65,
       "high": 923.4,
       "low": 892.5,
@@ -2017,13 +2009,21 @@
       "open": 1590.0,
       "time": "2026-09-25",
       "volume": 265877
+    },
+    {
+      "close": 1582.8,
+      "high": 1611.1,
+      "low": 1564.1,
+      "open": 1600.2,
+      "time": "2026-09-28",
+      "volume": 273968
     }
   ],
   "company_name": "SAI LIFE SCIENCES LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 80,
+    "momentum_score": 79,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.29x"
+    "volume_multiplier": "0.3x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.7,
-    "change_pct": -0.17,
-    "close": 1592.2,
-    "previous_close": 1594.9,
+    "as_of": "2026-09-28",
+    "change": -9.4,
+    "change_pct": -0.59,
+    "close": 1582.8,
+    "previous_close": 1592.2,
     "type": "EOD_CLOSE",
-    "volume": 265877
+    "volume": 273968
   },
   "range": {
-    "distance_from_high_pct": -6.18,
-    "distance_from_low_pct": 103.13,
+    "distance_from_high_pct": -6.73,
+    "distance_from_low_pct": 101.93,
     "high_52w": 1697.0,
     "history_basis": "52_WEEK",
     "low_52w": 783.85,
-    "range_position_pct": 88.52
+    "range_position_pct": 87.49
   },
   "risk_model": {
-    "invalidation_floor": 1536.47,
-    "risk_per_share": 87.57,
-    "technical_pivot": 1624.04
+    "invalidation_floor": 1527.4,
+    "risk_per_share": 87.06,
+    "technical_pivot": 1614.46
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 59.08,
-      "high": 59.66,
-      "low": 58.75,
-      "open": 59.41,
-      "time": "2025-09-18",
-      "volume": 34615017
-    },
-    {
       "close": 60.4,
       "high": 60.61,
       "low": 59.06,
@@ -2017,13 +2009,21 @@
       "open": 40.74,
       "time": "2026-09-25",
       "volume": 57074067
+    },
+    {
+      "close": 39.66,
+      "high": 40.93,
+      "low": 39.52,
+      "open": 40.8,
+      "time": "2026-09-28",
+      "volume": 67390402
     }
   ],
   "company_name": "SUZLON ENERGY LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.12x"
+    "volume_multiplier": "1.26x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.06,
-    "change_pct": 0.15,
-    "close": 40.8,
-    "previous_close": 40.74,
+    "as_of": "2026-09-28",
+    "change": -1.14,
+    "change_pct": -2.79,
+    "close": 39.66,
+    "previous_close": 40.8,
     "type": "EOD_CLOSE",
-    "volume": 57074067
+    "volume": 67390402
   },
   "range": {
-    "distance_from_high_pct": -33.66,
-    "distance_from_low_pct": 6.83,
+    "distance_from_high_pct": -35.51,
+    "distance_from_low_pct": 3.85,
     "high_52w": 61.5,
     "history_basis": "52_WEEK",
     "low_52w": 38.19,
-    "range_position_pct": 11.2
+    "range_position_pct": 6.31
   },
   "risk_model": {
-    "invalidation_floor": 39.37,
-    "risk_per_share": 2.25,
-    "technical_pivot": 41.62
+    "invalidation_floor": 38.27,
+    "risk_per_share": 2.18,
+    "technical_pivot": 40.45
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 811.85,
-      "high": 818.0,
-      "low": 792.05,
-      "open": 803.7,
-      "time": "2025-09-18",
-      "volume": 1207585
-    },
-    {
       "close": 827.55,
       "high": 840.0,
       "low": 803.45,
@@ -2017,46 +2009,54 @@
       "open": 1703.0,
       "time": "2026-09-25",
       "volume": 1026235
+    },
+    {
+      "close": 1746.4,
+      "high": 1781.9,
+      "low": 1723.9,
+      "open": 1733.3,
+      "time": "2026-09-28",
+      "volume": 1859395
     }
   ],
   "company_name": "Syrma SGS Technology Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE0DYJ01015",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": false,
+    "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 84,
+    "momentum_score": 85,
     "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.38x"
+    "volume_multiplier": "0.66x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 34.0,
-    "change_pct": 2.0,
-    "close": 1732.6,
-    "previous_close": 1698.6,
+    "as_of": "2026-09-28",
+    "change": 13.8,
+    "change_pct": 0.8,
+    "close": 1746.4,
+    "previous_close": 1732.6,
     "type": "EOD_CLOSE",
-    "volume": 1026235
+    "volume": 1859395
   },
   "range": {
-    "distance_from_high_pct": -3.95,
-    "distance_from_low_pct": 173.07,
+    "distance_from_high_pct": -3.19,
+    "distance_from_low_pct": 175.24,
     "high_52w": 1803.9,
     "history_basis": "52_WEEK",
     "low_52w": 634.5,
-    "range_position_pct": 93.9
+    "range_position_pct": 95.08
   },
   "risk_model": {
-    "invalidation_floor": 1671.96,
-    "risk_per_share": 95.29,
-    "technical_pivot": 1767.25
+    "invalidation_floor": 1685.28,
+    "risk_per_share": 96.05,
+    "technical_pivot": 1781.33
   },
   "schema_version": "1.0",
   "sector": null,

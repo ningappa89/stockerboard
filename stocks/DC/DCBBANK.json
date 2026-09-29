@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 130.32,
-      "high": 131.28,
-      "low": 129.0,
-      "open": 130.37,
-      "time": "2025-09-18",
-      "volume": 671107
-    },
-    {
       "close": 130.21,
       "high": 130.68,
       "low": 129.5,
@@ -2017,13 +2009,21 @@
       "open": 215.19,
       "time": "2026-09-25",
       "volume": 951797
+    },
+    {
+      "close": 207.46,
+      "high": 213.54,
+      "low": 207.0,
+      "open": 213.0,
+      "time": "2026-09-28",
+      "volume": 1466242
     }
   ],
   "company_name": "DCB BANK LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 76,
+    "momentum_score": 72,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.55x"
+    "volume_multiplier": "0.85x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.74,
-    "change_pct": 0.35,
-    "close": 214.09,
-    "previous_close": 213.35,
+    "as_of": "2026-09-28",
+    "change": -6.63,
+    "change_pct": -3.1,
+    "close": 207.46,
+    "previous_close": 214.09,
     "type": "EOD_CLOSE",
-    "volume": 951797
+    "volume": 1466242
   },
   "range": {
-    "distance_from_high_pct": -8.82,
-    "distance_from_low_pct": 74.91,
+    "distance_from_high_pct": -11.64,
+    "distance_from_low_pct": 69.49,
     "high_52w": 234.8,
     "history_basis": "52_WEEK",
     "low_52w": 122.4,
-    "range_position_pct": 81.57
+    "range_position_pct": 75.68
   },
   "risk_model": {
-    "invalidation_floor": 206.6,
-    "risk_per_share": 11.77,
-    "technical_pivot": 218.37
+    "invalidation_floor": 200.2,
+    "risk_per_share": 11.41,
+    "technical_pivot": 211.61
   },
   "schema_version": "1.0",
   "sector": null,

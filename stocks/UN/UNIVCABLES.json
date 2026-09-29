@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 794.2,
-      "high": 799.0,
-      "low": 750.0,
-      "open": 750.0,
-      "time": "2025-09-18",
-      "volume": 280478
-    },
-    {
       "close": 801.35,
       "high": 805.0,
       "low": 786.0,
@@ -2017,13 +2009,21 @@
       "open": 1510.3,
       "time": "2026-09-25",
       "volume": 69934
+    },
+    {
+      "close": 1427.1,
+      "high": 1504.7,
+      "low": 1420.0,
+      "open": 1497.6,
+      "time": "2026-09-28",
+      "volume": 85584
     }
   ],
   "company_name": "UNIVERSAL CABLES LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.49x"
+    "volume_multiplier": "0.66x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -23.0,
-    "change_pct": -1.52,
-    "close": 1494.0,
-    "previous_close": 1517.0,
+    "as_of": "2026-09-28",
+    "change": -66.9,
+    "change_pct": -4.48,
+    "close": 1427.1,
+    "previous_close": 1494.0,
     "type": "EOD_CLOSE",
-    "volume": 69934
+    "volume": 85584
   },
   "range": {
-    "distance_from_high_pct": -15.83,
-    "distance_from_low_pct": 159.38,
+    "distance_from_high_pct": -19.6,
+    "distance_from_low_pct": 147.76,
     "high_52w": 1774.9,
     "history_basis": "52_WEEK",
     "low_52w": 576.0,
-    "range_position_pct": 76.57
+    "range_position_pct": 70.99
   },
   "risk_model": {
-    "invalidation_floor": 1441.71,
-    "risk_per_share": 82.17,
-    "technical_pivot": 1523.88
+    "invalidation_floor": 1377.15,
+    "risk_per_share": 78.49,
+    "technical_pivot": 1455.64
   },
   "schema_version": "1.0",
   "sector": null,

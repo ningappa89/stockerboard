@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 272.6,
-      "high": 276.6,
-      "low": 269.7,
-      "open": 271.9,
-      "time": "2025-09-18",
-      "volume": 1930698
-    },
-    {
       "close": 284.65,
       "high": 287.4,
       "low": 273.15,
@@ -2017,13 +2009,21 @@
       "open": 159.85,
       "time": "2026-09-25",
       "volume": 1248580
+    },
+    {
+      "close": 155.08,
+      "high": 158.0,
+      "low": 154.05,
+      "open": 156.0,
+      "time": "2026-09-28",
+      "volume": 770370
     }
   ],
   "company_name": "LE TRAVENUES TECHNOLOGY L",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.86x"
+    "volume_multiplier": "0.53x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.51,
-    "change_pct": -1.58,
-    "close": 156.8,
-    "previous_close": 159.31,
+    "as_of": "2026-09-28",
+    "change": -1.72,
+    "change_pct": -1.1,
+    "close": 155.08,
+    "previous_close": 156.8,
     "type": "EOD_CLOSE",
-    "volume": 1248580
+    "volume": 770370
   },
   "range": {
-    "distance_from_high_pct": -53.77,
-    "distance_from_low_pct": 3.66,
+    "distance_from_high_pct": -54.27,
+    "distance_from_low_pct": 2.52,
     "high_52w": 339.15,
     "history_basis": "52_WEEK",
     "low_52w": 151.27,
-    "range_position_pct": 2.94
+    "range_position_pct": 2.03
   },
   "risk_model": {
-    "invalidation_floor": 151.31,
-    "risk_per_share": 8.63,
-    "technical_pivot": 159.94
+    "invalidation_floor": 149.65,
+    "risk_per_share": 8.53,
+    "technical_pivot": 158.18
   },
   "schema_version": "1.0",
   "sector": null,

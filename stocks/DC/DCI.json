@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 296.2,
-      "high": 314.67,
-      "low": 282.18,
-      "open": 282.64,
-      "time": "2025-09-18",
-      "volume": 103216
-    },
-    {
       "close": 285.77,
       "high": 299.95,
       "low": 282.3,
@@ -2017,13 +2009,21 @@
       "open": 299.05,
       "time": "2026-09-25",
       "volume": 114505
+    },
+    {
+      "close": 326.65,
+      "high": 336.6,
+      "low": 301.2,
+      "open": 304.9,
+      "time": "2026-09-28",
+      "volume": 448678
     }
   ],
   "company_name": "Dc Infotech and Communication ",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 40,
+    "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.18x"
+    "volume_multiplier": "0.78x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.4,
-    "change_pct": -0.13,
-    "close": 302.0,
-    "previous_close": 302.4,
+    "as_of": "2026-09-28",
+    "change": 24.65,
+    "change_pct": 8.16,
+    "close": 326.65,
+    "previous_close": 302.0,
     "type": "EOD_CLOSE",
-    "volume": 114505
+    "volume": 448678
   },
   "range": {
-    "distance_from_high_pct": -36.42,
-    "distance_from_low_pct": 44.51,
+    "distance_from_high_pct": -31.23,
+    "distance_from_low_pct": 56.31,
     "high_52w": 475.0,
     "history_basis": "52_WEEK",
     "low_52w": 208.98,
-    "range_position_pct": 34.97
+    "range_position_pct": 44.23
   },
   "risk_model": {
-    "invalidation_floor": 291.43,
-    "risk_per_share": 16.61,
-    "technical_pivot": 308.04
+    "invalidation_floor": 315.22,
+    "risk_per_share": 17.96,
+    "technical_pivot": 333.18
   },
   "schema_version": "1.0",
   "sector": null,

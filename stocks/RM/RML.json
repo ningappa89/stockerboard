@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 856.9,
-      "high": 876.8,
-      "low": 855.05,
-      "open": 865.0,
-      "time": "2025-09-18",
-      "volume": 11467
-    },
-    {
       "close": 844.5,
       "high": 859.85,
       "low": 843.0,
@@ -2017,13 +2009,21 @@
       "open": 1369.6,
       "time": "2026-09-25",
       "volume": 45192
+    },
+    {
+      "close": 1325.9,
+      "high": 1359.9,
+      "low": 1302.6,
+      "open": 1328.9,
+      "time": "2026-09-28",
+      "volume": 46931
     }
   ],
   "company_name": "RANE (MADRAS) LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 77,
+    "momentum_score": 78,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.21x"
+    "volume_multiplier": "0.22x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -40.5,
-    "change_pct": -2.97,
-    "close": 1322.3,
-    "previous_close": 1362.8,
+    "as_of": "2026-09-28",
+    "change": 3.6,
+    "change_pct": 0.27,
+    "close": 1325.9,
+    "previous_close": 1322.3,
     "type": "EOD_CLOSE",
-    "volume": 45192
+    "volume": 46931
   },
   "range": {
-    "distance_from_high_pct": -8.17,
-    "distance_from_low_pct": 117.3,
+    "distance_from_high_pct": -7.92,
+    "distance_from_low_pct": 117.9,
     "high_52w": 1440.0,
     "history_basis": "52_WEEK",
     "low_52w": 608.5,
-    "range_position_pct": 85.84
+    "range_position_pct": 86.28
   },
   "risk_model": {
-    "invalidation_floor": 1276.02,
-    "risk_per_share": 72.73,
-    "technical_pivot": 1348.75
+    "invalidation_floor": 1279.49,
+    "risk_per_share": 72.93,
+    "technical_pivot": 1352.42
   },
   "schema_version": "1.0",
   "sector": null,

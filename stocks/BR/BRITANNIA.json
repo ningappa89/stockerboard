@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 6100.5,
-      "high": 6129.0,
-      "low": 6062.0,
-      "open": 6105.0,
-      "time": "2025-09-18",
-      "volume": 267540
-    },
-    {
       "close": 6069.5,
       "high": 6110.0,
       "low": 6048.0,
@@ -2017,13 +2009,21 @@
       "open": 4900.5,
       "time": "2026-09-25",
       "volume": 107642
+    },
+    {
+      "close": 4915.0,
+      "high": 4933.0,
+      "low": 4869.0,
+      "open": 4933.0,
+      "time": "2026-09-28",
+      "volume": 305787
     }
   ],
   "company_name": "BRITANNIA INDUSTRIES LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Fast Moving Consumer Goods",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
+    "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.45x"
+    "volume_multiplier": "1.25x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 42.5,
-    "change_pct": 0.87,
-    "close": 4937.5,
-    "previous_close": 4895.0,
+    "as_of": "2026-09-28",
+    "change": -22.5,
+    "change_pct": -0.46,
+    "close": 4915.0,
+    "previous_close": 4937.5,
     "type": "EOD_CLOSE",
-    "volume": 107642
+    "volume": 305787
   },
   "range": {
-    "distance_from_high_pct": -21.26,
-    "distance_from_low_pct": 1.12,
+    "distance_from_high_pct": -21.62,
+    "distance_from_low_pct": 0.94,
     "high_52w": 6271.0,
     "history_basis": "52_WEEK",
-    "low_52w": 4883.0,
-    "range_position_pct": 3.93
+    "low_52w": 4869.0,
+    "range_position_pct": 3.28
   },
   "risk_model": {
-    "invalidation_floor": 4764.69,
-    "risk_per_share": 271.56,
-    "technical_pivot": 5036.25
+    "invalidation_floor": 4742.97,
+    "risk_per_share": 270.33,
+    "technical_pivot": 5013.3
   },
   "schema_version": "1.0",
   "sector": "Fast Moving Consumer Goods",

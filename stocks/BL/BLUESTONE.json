@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 602.65,
-      "high": 612.4,
-      "low": 593.2,
-      "open": 598.15,
-      "time": "2025-09-18",
-      "volume": 527299
-    },
-    {
       "close": 609.1,
       "high": 638.15,
       "low": 602.45,
@@ -2017,13 +2009,21 @@
       "open": 803.0,
       "time": "2026-09-25",
       "volume": 2086039
+    },
+    {
+      "close": 786.2,
+      "high": 814.0,
+      "low": 775.5,
+      "open": 810.0,
+      "time": "2026-09-28",
+      "volume": 978972
     }
   ],
   "company_name": "BlueStone Jewellery and Lifest",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.22x"
+    "volume_multiplier": "0.56x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.15,
-    "change_pct": 0.27,
-    "close": 809.3,
-    "previous_close": 807.15,
+    "as_of": "2026-09-28",
+    "change": -23.1,
+    "change_pct": -2.85,
+    "close": 786.2,
+    "previous_close": 809.3,
     "type": "EOD_CLOSE",
-    "volume": 2086039
+    "volume": 978972
   },
   "range": {
-    "distance_from_high_pct": -16.56,
-    "distance_from_low_pct": 102.43,
+    "distance_from_high_pct": -18.94,
+    "distance_from_low_pct": 96.65,
     "high_52w": 969.9,
     "history_basis": "52_WEEK",
     "low_52w": 399.8,
-    "range_position_pct": 71.83
+    "range_position_pct": 67.78
   },
   "risk_model": {
-    "invalidation_floor": 780.97,
-    "risk_per_share": 44.52,
-    "technical_pivot": 825.49
+    "invalidation_floor": 758.68,
+    "risk_per_share": 43.24,
+    "technical_pivot": 801.92
   },
   "schema_version": "1.0",
   "sector": null,

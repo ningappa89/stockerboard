@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2096.8,
-      "high": 2159.5,
-      "low": 2088.0,
-      "open": 2159.5,
-      "time": "2025-09-18",
-      "volume": 3841
-    },
-    {
       "close": 2267.9,
       "high": 2354.0,
       "low": 2059.9,
@@ -2017,13 +2009,21 @@
       "open": 1999.2,
       "time": "2026-09-25",
       "volume": 456
+    },
+    {
+      "close": 1950.4,
+      "high": 1999.6,
+      "low": 1945.0,
+      "open": 1999.6,
+      "time": "2026-09-28",
+      "volume": 944
     }
   ],
   "company_name": "GRP LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 67,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.23x"
+    "volume_multiplier": "0.47x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 11.2,
-    "change_pct": 0.56,
-    "close": 1999.0,
-    "previous_close": 1987.8,
+    "as_of": "2026-09-28",
+    "change": -48.6,
+    "change_pct": -2.43,
+    "close": 1950.4,
+    "previous_close": 1999.0,
     "type": "EOD_CLOSE",
-    "volume": 456
+    "volume": 944
   },
   "range": {
-    "distance_from_high_pct": -15.32,
-    "distance_from_low_pct": 33.27,
+    "distance_from_high_pct": -17.38,
+    "distance_from_low_pct": 30.03,
     "high_52w": 2360.6,
     "history_basis": "52_WEEK",
     "low_52w": 1500.0,
-    "range_position_pct": 57.98
+    "range_position_pct": 52.34
   },
   "risk_model": {
-    "invalidation_floor": 1929.03,
-    "risk_per_share": 109.95,
-    "technical_pivot": 2038.98
+    "invalidation_floor": 1882.14,
+    "risk_per_share": 107.27,
+    "technical_pivot": 1989.41
   },
   "schema_version": "1.0",
   "sector": null,

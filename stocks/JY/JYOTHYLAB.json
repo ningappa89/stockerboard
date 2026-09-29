@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 324.95,
-      "high": 326.7,
-      "low": 324.0,
-      "open": 326.0,
-      "time": "2025-09-18",
-      "volume": 244638
-    },
-    {
       "close": 322.5,
       "high": 325.45,
       "low": 321.6,
@@ -2017,13 +2009,21 @@
       "open": 192.86,
       "time": "2026-09-25",
       "volume": 324174
+    },
+    {
+      "close": 189.66,
+      "high": 191.96,
+      "low": 188.31,
+      "open": 191.6,
+      "time": "2026-09-28",
+      "volume": 330391
     }
   ],
   "company_name": "JYOTHY LABS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2037,26 +2037,26 @@
     "volume_multiplier": "0.33x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.79,
-    "change_pct": -0.93,
-    "close": 191.07,
-    "previous_close": 192.86,
+    "as_of": "2026-09-28",
+    "change": -1.41,
+    "change_pct": -0.74,
+    "close": 189.66,
+    "previous_close": 191.07,
     "type": "EOD_CLOSE",
-    "volume": 324174
+    "volume": 330391
   },
   "range": {
-    "distance_from_high_pct": -41.52,
-    "distance_from_low_pct": 1.58,
-    "high_52w": 326.7,
+    "distance_from_high_pct": -41.72,
+    "distance_from_low_pct": 0.83,
+    "high_52w": 325.45,
     "history_basis": "52_WEEK",
     "low_52w": 188.1,
-    "range_position_pct": 2.14
+    "range_position_pct": 1.14
   },
   "risk_model": {
-    "invalidation_floor": 184.38,
-    "risk_per_share": 10.51,
-    "technical_pivot": 194.89
+    "invalidation_floor": 183.02,
+    "risk_per_share": 10.43,
+    "technical_pivot": 193.45
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 25.94,
-      "high": 26.4,
-      "low": 25.75,
-      "open": 26.4,
-      "time": "2025-09-18",
-      "volume": 70820
-    },
-    {
       "close": 25.82,
       "high": 26.27,
       "low": 25.65,
@@ -2017,13 +2009,21 @@
       "open": 23.4,
       "time": "2026-09-25",
       "volume": 1374230
+    },
+    {
+      "close": 28.13,
+      "high": 29.8,
+      "low": 25.8,
+      "open": 26.0,
+      "time": "2026-09-28",
+      "volume": 4154950
     }
   ],
   "company_name": "Primo Chemicals Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 80,
+    "momentum_score": 81,
     "setup_type": "Pocket Pivot",
-    "volume_multiplier": "5.37x"
+    "volume_multiplier": "9.06x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.99,
-    "change_pct": 13.41,
-    "close": 25.28,
-    "previous_close": 22.29,
+    "as_of": "2026-09-28",
+    "change": 2.85,
+    "change_pct": 11.27,
+    "close": 28.13,
+    "previous_close": 25.28,
     "type": "EOD_CLOSE",
-    "volume": 1374230
+    "volume": 4154950
   },
   "range": {
-    "distance_from_high_pct": -6.02,
-    "distance_from_low_pct": 57.02,
-    "high_52w": 26.9,
+    "distance_from_high_pct": -5.6,
+    "distance_from_low_pct": 74.72,
+    "high_52w": 29.8,
     "history_basis": "52_WEEK",
     "low_52w": 16.1,
-    "range_position_pct": 85.0
+    "range_position_pct": 87.81
   },
   "risk_model": {
-    "invalidation_floor": 24.4,
-    "risk_per_share": 1.39,
-    "technical_pivot": 25.79
+    "invalidation_floor": 27.15,
+    "risk_per_share": 1.54,
+    "technical_pivot": 28.69
   },
   "schema_version": "1.0",
   "sector": null,

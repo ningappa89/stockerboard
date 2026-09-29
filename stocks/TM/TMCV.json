@@ -1729,46 +1729,54 @@
       "open": 440.0,
       "time": "2026-09-25",
       "volume": 6273947
+    },
+    {
+      "close": 432.95,
+      "high": 441.5,
+      "low": 430.2,
+      "open": 441.5,
+      "time": "2026-09-28",
+      "volume": 4528303
     }
   ],
   "company_name": "TATA MOTORS LIMITED",
   "history": {
     "first_session": "2025-11-12",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 216
+    "last_session": "2026-09-28",
+    "sessions_available": 217
   },
   "industry": null,
   "isin": "INE1TAE01010",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
+    "is_stage2": false,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.89x"
+    "volume_multiplier": "0.65x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 4.35,
-    "change_pct": 1.0,
-    "close": 441.5,
-    "previous_close": 437.15,
+    "as_of": "2026-09-28",
+    "change": -8.55,
+    "change_pct": -1.94,
+    "close": 432.95,
+    "previous_close": 441.5,
     "type": "EOD_CLOSE",
-    "volume": 6273947
+    "volume": 4528303
   },
   "range": {
-    "distance_from_high_pct": -13.26,
-    "distance_from_low_pct": 44.14,
+    "distance_from_high_pct": -14.94,
+    "distance_from_low_pct": 41.35,
     "high_52w": 509.0,
     "history_basis": "52_WEEK",
     "low_52w": 306.3,
-    "range_position_pct": 66.7
+    "range_position_pct": 62.48
   },
   "risk_model": {
-    "invalidation_floor": 426.05,
-    "risk_per_share": 24.28,
-    "technical_pivot": 450.33
+    "invalidation_floor": 417.8,
+    "risk_per_share": 23.81,
+    "technical_pivot": 441.61
   },
   "schema_version": "1.0",
   "sector": null,

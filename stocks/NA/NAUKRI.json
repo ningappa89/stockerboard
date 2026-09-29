@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1384.8,
-      "high": 1391.3,
-      "low": 1371.8,
-      "open": 1380.0,
-      "time": "2025-09-18",
-      "volume": 1051506
-    },
-    {
       "close": 1376.1,
       "high": 1388.0,
       "low": 1371.2,
@@ -2017,13 +2009,21 @@
       "open": 1216.4,
       "time": "2026-09-25",
       "volume": 1135428
+    },
+    {
+      "close": 1253.9,
+      "high": 1263.0,
+      "low": 1234.4,
+      "open": 1250.8,
+      "time": "2026-09-28",
+      "volume": 1070424
     }
   ],
   "company_name": "INFO EDGE (INDIA) LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": true,
     "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.81x"
+    "volume_multiplier": "0.79x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 30.8,
-    "change_pct": 2.52,
-    "close": 1254.8,
-    "previous_close": 1224.0,
+    "as_of": "2026-09-28",
+    "change": -0.9,
+    "change_pct": -0.07,
+    "close": 1253.9,
+    "previous_close": 1254.8,
     "type": "EOD_CLOSE",
-    "volume": 1135428
+    "volume": 1070424
   },
   "range": {
-    "distance_from_high_pct": -12.47,
-    "distance_from_low_pct": 38.15,
+    "distance_from_high_pct": -12.53,
+    "distance_from_low_pct": 38.05,
     "high_52w": 1433.6,
     "history_basis": "52_WEEK",
     "low_52w": 908.3,
-    "range_position_pct": 65.96
+    "range_position_pct": 65.79
   },
   "risk_model": {
-    "invalidation_floor": 1210.88,
-    "risk_per_share": 69.02,
-    "technical_pivot": 1279.9
+    "invalidation_floor": 1210.01,
+    "risk_per_share": 68.97,
+    "technical_pivot": 1278.98
   },
   "schema_version": "1.0",
   "sector": null,

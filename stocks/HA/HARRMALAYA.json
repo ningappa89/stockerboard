@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 207.95,
-      "high": 217.0,
-      "low": 205.21,
-      "open": 217.0,
-      "time": "2025-09-18",
-      "volume": 16125
-    },
-    {
       "close": 207.96,
       "high": 212.79,
       "low": 206.65,
@@ -2017,13 +2009,21 @@
       "open": 174.1,
       "time": "2026-09-25",
       "volume": 9942
+    },
+    {
+      "close": 167.9,
+      "high": 174.99,
+      "low": 167.0,
+      "open": 174.99,
+      "time": "2026-09-28",
+      "volume": 8098
     }
   ],
   "company_name": "HARRISON MALAYALAM LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.19x"
+    "volume_multiplier": "0.98x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.29,
-    "change_pct": -1.31,
-    "close": 172.59,
-    "previous_close": 174.88,
+    "as_of": "2026-09-28",
+    "change": -4.69,
+    "change_pct": -2.72,
+    "close": 167.9,
+    "previous_close": 172.59,
     "type": "EOD_CLOSE",
-    "volume": 9942
+    "volume": 8098
   },
   "range": {
-    "distance_from_high_pct": -27.45,
-    "distance_from_low_pct": 12.32,
+    "distance_from_high_pct": -29.42,
+    "distance_from_low_pct": 9.27,
     "high_52w": 237.9,
     "history_basis": "52_WEEK",
     "low_52w": 153.66,
-    "range_position_pct": 22.47
+    "range_position_pct": 16.9
   },
   "risk_model": {
-    "invalidation_floor": 166.55,
-    "risk_per_share": 9.49,
-    "technical_pivot": 176.04
+    "invalidation_floor": 162.02,
+    "risk_per_share": 9.24,
+    "technical_pivot": 171.26
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 47.63,
-      "high": 48.99,
-      "low": 46.36,
-      "open": 46.36,
-      "time": "2025-09-18",
-      "volume": 157334
-    },
-    {
       "close": 46.85,
       "high": 48.26,
       "low": 46.25,
@@ -2017,13 +2009,21 @@
       "open": 29.13,
       "time": "2026-09-25",
       "volume": 33826
+    },
+    {
+      "close": 27.9,
+      "high": 29.4,
+      "low": 27.7,
+      "open": 29.4,
+      "time": "2026-09-28",
+      "volume": 7949
     }
   ],
   "company_name": "NIRAJ CEMENT STRUCTURALS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.11x"
+    "volume_multiplier": "0.28x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.02,
-    "change_pct": -3.5,
-    "close": 28.11,
-    "previous_close": 29.13,
+    "as_of": "2026-09-28",
+    "change": -0.21,
+    "change_pct": -0.75,
+    "close": 27.9,
+    "previous_close": 28.11,
     "type": "EOD_CLOSE",
-    "volume": 33826
+    "volume": 7949
   },
   "range": {
-    "distance_from_high_pct": -42.63,
-    "distance_from_low_pct": 39.5,
+    "distance_from_high_pct": -43.06,
+    "distance_from_low_pct": 38.46,
     "high_52w": 49.0,
     "history_basis": "52_WEEK",
     "low_52w": 20.15,
-    "range_position_pct": 27.59
+    "range_position_pct": 26.86
   },
   "risk_model": {
-    "invalidation_floor": 27.13,
+    "invalidation_floor": 26.92,
     "risk_per_share": 1.54,
-    "technical_pivot": 28.67
+    "technical_pivot": 28.46
   },
   "schema_version": "1.0",
   "sector": null,

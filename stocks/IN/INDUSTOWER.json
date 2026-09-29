@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 354.3,
-      "high": 357.7,
-      "low": 352.6,
-      "open": 355.7,
-      "time": "2025-09-18",
-      "volume": 5598853
-    },
-    {
       "close": 356.85,
       "high": 361.7,
       "low": 350.95,
@@ -2017,13 +2009,21 @@
       "open": 378.0,
       "time": "2026-09-25",
       "volume": 2952516
+    },
+    {
+      "close": 360.0,
+      "high": 374.25,
+      "low": 355.55,
+      "open": 373.5,
+      "time": "2026-09-28",
+      "volume": 6106607
     }
   ],
   "company_name": "INDUS TOWERS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Telecommunication",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 56,
+    "momentum_score": 52,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.71x"
+    "volume_multiplier": "1.39x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -5.2,
-    "change_pct": -1.37,
-    "close": 374.65,
-    "previous_close": 379.85,
+    "as_of": "2026-09-28",
+    "change": -14.65,
+    "change_pct": -3.91,
+    "close": 360.0,
+    "previous_close": 374.65,
     "type": "EOD_CLOSE",
-    "volume": 2952516
+    "volume": 6106607
   },
   "range": {
-    "distance_from_high_pct": -22.19,
-    "distance_from_low_pct": 10.91,
+    "distance_from_high_pct": -25.23,
+    "distance_from_low_pct": 6.57,
     "high_52w": 481.5,
     "history_basis": "52_WEEK",
     "low_52w": 337.8,
-    "range_position_pct": 25.64
+    "range_position_pct": 15.45
   },
   "risk_model": {
-    "invalidation_floor": 361.54,
-    "risk_per_share": 20.6,
-    "technical_pivot": 382.14
+    "invalidation_floor": 347.4,
+    "risk_per_share": 19.8,
+    "technical_pivot": 367.2
   },
   "schema_version": "1.0",
   "sector": "Telecommunication",

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 399.35,
-      "high": 407.9,
-      "low": 398.65,
-      "open": 406.85,
-      "time": "2025-09-18",
-      "volume": 206982
-    },
-    {
       "close": 398.7,
       "high": 399.8,
       "low": 395.0,
@@ -2017,13 +2009,21 @@
       "open": 330.1,
       "time": "2026-09-25",
       "volume": 247095
+    },
+    {
+      "close": 312.4,
+      "high": 324.8,
+      "low": 310.8,
+      "open": 323.2,
+      "time": "2026-09-28",
+      "volume": 151875
     }
   ],
   "company_name": "INDIA CEMENTS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.29x"
+    "volume_multiplier": "0.81x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -7.0,
-    "change_pct": -2.12,
-    "close": 323.1,
-    "previous_close": 330.1,
+    "as_of": "2026-09-28",
+    "change": -10.7,
+    "change_pct": -3.31,
+    "close": 312.4,
+    "previous_close": 323.1,
     "type": "EOD_CLOSE",
-    "volume": 247095
+    "volume": 151875
   },
   "range": {
-    "distance_from_high_pct": -33.49,
-    "distance_from_low_pct": 1.22,
+    "distance_from_high_pct": -35.69,
+    "distance_from_low_pct": 0.51,
     "high_52w": 485.8,
     "history_basis": "52_WEEK",
-    "low_52w": 319.2,
-    "range_position_pct": 2.34
+    "low_52w": 310.8,
+    "range_position_pct": 0.91
   },
   "risk_model": {
-    "invalidation_floor": 311.79,
-    "risk_per_share": 17.77,
-    "technical_pivot": 329.56
+    "invalidation_floor": 301.47,
+    "risk_per_share": 17.18,
+    "technical_pivot": 318.65
   },
   "schema_version": "1.0",
   "sector": null,

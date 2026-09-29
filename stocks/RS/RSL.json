@@ -1033,46 +1033,54 @@
       "open": 183.4,
       "time": "2026-09-25",
       "volume": 126146
+    },
+    {
+      "close": 167.41,
+      "high": 182.41,
+      "low": 165.92,
+      "open": 182.41,
+      "time": "2026-09-28",
+      "volume": 799193
     }
   ],
   "company_name": "RAJPUTANA STAINLESS LIMITED",
   "history": {
     "first_session": "2026-03-19",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 129
+    "last_session": "2026-09-28",
+    "sessions_available": 130
   },
   "industry": null,
   "isin": "INE313L01016",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 76,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.29x"
+    "is_stage2": false,
+    "momentum_score": 64,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.07x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.54,
-    "change_pct": 0.85,
-    "close": 183.46,
-    "previous_close": 181.92,
+    "as_of": "2026-09-28",
+    "change": -16.05,
+    "change_pct": -8.75,
+    "close": 167.41,
+    "previous_close": 183.46,
     "type": "EOD_CLOSE",
-    "volume": 126146
+    "volume": 799193
   },
   "range": {
-    "distance_from_high_pct": -9.28,
-    "distance_from_low_pct": 80.39,
+    "distance_from_high_pct": -17.21,
+    "distance_from_low_pct": 64.61,
     "high_52w": 202.22,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 101.7,
-    "range_position_pct": 81.34
+    "range_position_pct": 65.37
   },
   "risk_model": {
-    "invalidation_floor": 177.04,
-    "risk_per_share": 10.09,
-    "technical_pivot": 187.13
+    "invalidation_floor": 161.55,
+    "risk_per_share": 9.21,
+    "technical_pivot": 170.76
   },
   "schema_version": "1.0",
   "sector": null,

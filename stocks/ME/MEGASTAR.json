@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 223.2,
-      "high": 233.95,
-      "low": 222.9,
-      "open": 231.0,
-      "time": "2025-09-18",
-      "volume": 39727
-    },
-    {
       "close": 222.24,
       "high": 229.69,
       "low": 221.0,
@@ -2017,13 +2009,21 @@
       "open": 270.0,
       "time": "2026-09-25",
       "volume": 3756
+    },
+    {
+      "close": 248.3,
+      "high": 269.0,
+      "low": 235.0,
+      "open": 252.35,
+      "time": "2026-09-28",
+      "volume": 2277
     }
   ],
   "company_name": "MEGASTAR FOODS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.58x"
+    "volume_multiplier": "0.35x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -7.3,
-    "change_pct": -2.8,
-    "close": 253.6,
-    "previous_close": 260.9,
+    "as_of": "2026-09-28",
+    "change": -5.3,
+    "change_pct": -2.09,
+    "close": 248.3,
+    "previous_close": 253.6,
     "type": "EOD_CLOSE",
-    "volume": 3756
+    "volume": 2277
   },
   "range": {
-    "distance_from_high_pct": -35.31,
-    "distance_from_low_pct": 24.93,
+    "distance_from_high_pct": -36.66,
+    "distance_from_low_pct": 22.32,
     "high_52w": 392.0,
     "history_basis": "52_WEEK",
     "low_52w": 203.0,
-    "range_position_pct": 26.77
+    "range_position_pct": 23.97
   },
   "risk_model": {
-    "invalidation_floor": 244.72,
-    "risk_per_share": 13.95,
-    "technical_pivot": 258.67
+    "invalidation_floor": 239.61,
+    "risk_per_share": 13.66,
+    "technical_pivot": 253.27
   },
   "schema_version": "1.0",
   "sector": null,

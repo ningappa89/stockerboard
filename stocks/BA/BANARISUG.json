@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3650.1,
-      "high": 3700.0,
-      "low": 3650.0,
-      "open": 3700.0,
-      "time": "2025-09-18",
-      "volume": 2300
-    },
-    {
       "close": 3650.2,
       "high": 3689.8,
       "low": 3650.0,
@@ -2017,13 +2009,21 @@
       "open": 3333.5,
       "time": "2026-09-25",
       "volume": 3531
+    },
+    {
+      "close": 3383.7,
+      "high": 3478.8,
+      "low": 3355.0,
+      "open": 3401.9,
+      "time": "2026-09-28",
+      "volume": 2059
     }
   ],
   "company_name": "BANNARI AMMAN SUGARS LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.82x"
+    "volume_multiplier": "1.28x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 95.4,
-    "change_pct": 2.89,
-    "close": 3401.9,
-    "previous_close": 3306.5,
+    "as_of": "2026-09-28",
+    "change": -18.2,
+    "change_pct": -0.53,
+    "close": 3383.7,
+    "previous_close": 3401.9,
     "type": "EOD_CLOSE",
-    "volume": 3531
+    "volume": 2059
   },
   "range": {
-    "distance_from_high_pct": -21.58,
-    "distance_from_low_pct": 9.55,
+    "distance_from_high_pct": -22.0,
+    "distance_from_low_pct": 8.97,
     "high_52w": 4338.0,
     "history_basis": "52_WEEK",
     "low_52w": 3105.2,
-    "range_position_pct": 24.07
+    "range_position_pct": 22.59
   },
   "risk_model": {
-    "invalidation_floor": 3282.83,
-    "risk_per_share": 187.11,
-    "technical_pivot": 3469.94
+    "invalidation_floor": 3265.27,
+    "risk_per_share": 186.1,
+    "technical_pivot": 3451.37
   },
   "schema_version": "1.0",
   "sector": null,

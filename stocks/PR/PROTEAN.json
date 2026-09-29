@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 913.85,
-      "high": 920.9,
-      "low": 902.0,
-      "open": 906.0,
-      "time": "2025-09-18",
-      "volume": 369270
-    },
-    {
       "close": 905.85,
       "high": 917.0,
       "low": 902.0,
@@ -2017,13 +2009,21 @@
       "open": 643.0,
       "time": "2026-09-25",
       "volume": 3560004
+    },
+    {
+      "close": 691.5,
+      "high": 719.0,
+      "low": 675.0,
+      "open": 690.7,
+      "time": "2026-09-28",
+      "volume": 2689437
     }
   ],
   "company_name": "Protean eGov Technologies Limi",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 50,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.06x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.45x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 48.75,
-    "change_pct": 7.59,
-    "close": 690.7,
-    "previous_close": 641.95,
+    "as_of": "2026-09-28",
+    "change": 0.8,
+    "change_pct": 0.12,
+    "close": 691.5,
+    "previous_close": 690.7,
     "type": "EOD_CLOSE",
-    "volume": 3560004
+    "volume": 2689437
   },
   "range": {
-    "distance_from_high_pct": -26.51,
-    "distance_from_low_pct": 55.56,
+    "distance_from_high_pct": -26.42,
+    "distance_from_low_pct": 55.74,
     "high_52w": 939.8,
     "history_basis": "52_WEEK",
     "low_52w": 444.0,
-    "range_position_pct": 49.76
+    "range_position_pct": 49.92
   },
   "risk_model": {
-    "invalidation_floor": 666.53,
-    "risk_per_share": 37.98,
-    "technical_pivot": 704.51
+    "invalidation_floor": 667.3,
+    "risk_per_share": 38.03,
+    "technical_pivot": 705.33
   },
   "schema_version": "1.0",
   "sector": null,

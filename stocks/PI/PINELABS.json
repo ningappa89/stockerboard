@@ -1849,14 +1849,22 @@
       "open": 181.0,
       "time": "2026-09-25",
       "volume": 17665754
+    },
+    {
+      "close": 173.02,
+      "high": 177.08,
+      "low": 170.61,
+      "open": 176.97,
+      "time": "2026-09-28",
+      "volume": 23290188
     }
   ],
   "company_name": "Pine Labs Limited",
   "history": {
     "first_session": "2025-10-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 231
+    "last_session": "2026-09-28",
+    "sessions_available": 232
   },
   "industry": null,
   "isin": "INE15B701018",
@@ -1866,29 +1874,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.36x"
+    "volume_multiplier": "0.47x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.74,
-    "change_pct": -1.53,
-    "close": 176.57,
-    "previous_close": 179.31,
+    "as_of": "2026-09-28",
+    "change": -3.55,
+    "change_pct": -2.01,
+    "close": 173.02,
+    "previous_close": 176.57,
     "type": "EOD_CLOSE",
-    "volume": 17665754
+    "volume": 23290188
   },
   "range": {
-    "distance_from_high_pct": -65.8,
-    "distance_from_low_pct": 31.05,
+    "distance_from_high_pct": -66.49,
+    "distance_from_low_pct": 28.42,
     "high_52w": 516.28,
     "history_basis": "52_WEEK",
     "low_52w": 134.73,
-    "range_position_pct": 10.97
+    "range_position_pct": 10.04
   },
   "risk_model": {
-    "invalidation_floor": 170.39,
-    "risk_per_share": 9.71,
-    "technical_pivot": 180.1
+    "invalidation_floor": 166.96,
+    "risk_per_share": 9.52,
+    "technical_pivot": 176.48
   },
   "schema_version": "1.0",
   "sector": null,

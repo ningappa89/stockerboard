@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 15873.0,
-      "high": 16345.0,
-      "low": 15721.0,
-      "open": 16164.0,
-      "time": "2025-09-18",
-      "volume": 84217
-    },
-    {
       "close": 15467.0,
       "high": 16100.0,
       "low": 15311.0,
@@ -2017,13 +2009,21 @@
       "open": 22100.0,
       "time": "2026-09-25",
       "volume": 41988
+    },
+    {
+      "close": 21440.0,
+      "high": 21920.0,
+      "low": 21395.0,
+      "open": 21890.0,
+      "time": "2026-09-28",
+      "volume": 18960
     }
   ],
   "company_name": "NEULAND LABORATORIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 75,
+    "momentum_score": 72,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.94x"
+    "volume_multiplier": "0.43x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -15.0,
-    "change_pct": -0.07,
-    "close": 21890.0,
-    "previous_close": 21905.0,
+    "as_of": "2026-09-28",
+    "change": -450.0,
+    "change_pct": -2.06,
+    "close": 21440.0,
+    "previous_close": 21890.0,
     "type": "EOD_CLOSE",
-    "volume": 41988
+    "volume": 18960
   },
   "range": {
-    "distance_from_high_pct": -9.64,
-    "distance_from_low_pct": 90.35,
+    "distance_from_high_pct": -11.5,
+    "distance_from_low_pct": 86.43,
     "high_52w": 24225.0,
     "history_basis": "52_WEEK",
     "low_52w": 11500.0,
-    "range_position_pct": 81.65
+    "range_position_pct": 78.11
   },
   "risk_model": {
-    "invalidation_floor": 21123.85,
-    "risk_per_share": 1203.95,
-    "technical_pivot": 22327.8
+    "invalidation_floor": 20689.6,
+    "risk_per_share": 1179.2,
+    "technical_pivot": 21868.8
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

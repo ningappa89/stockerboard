@@ -889,14 +889,22 @@
       "open": 84.57,
       "time": "2026-09-25",
       "volume": 13429
+    },
+    {
+      "close": 83.19,
+      "high": 87.5,
+      "low": 80.53,
+      "open": 84.25,
+      "time": "2026-09-28",
+      "volume": 27593
     }
   ],
   "company_name": "BATLIBOI LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE177C01022",
@@ -906,29 +914,29 @@
     "is_stage2": false,
     "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.32x"
+    "volume_multiplier": "0.67x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.18,
-    "change_pct": -0.21,
-    "close": 83.59,
-    "previous_close": 83.77,
+    "as_of": "2026-09-28",
+    "change": -0.4,
+    "change_pct": -0.48,
+    "close": 83.19,
+    "previous_close": 83.59,
     "type": "EOD_CLOSE",
-    "volume": 13429
+    "volume": 27593
   },
   "range": {
-    "distance_from_high_pct": -21.51,
-    "distance_from_low_pct": 17.39,
+    "distance_from_high_pct": -21.89,
+    "distance_from_low_pct": 16.82,
     "high_52w": 106.5,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 71.21,
-    "range_position_pct": 35.08
+    "range_position_pct": 33.95
   },
   "risk_model": {
-    "invalidation_floor": 80.66,
-    "risk_per_share": 4.6,
-    "technical_pivot": 85.26
+    "invalidation_floor": 80.28,
+    "risk_per_share": 4.57,
+    "technical_pivot": 84.85
   },
   "schema_version": "1.0",
   "sector": null,

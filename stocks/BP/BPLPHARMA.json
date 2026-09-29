@@ -233,46 +233,54 @@
       "open": 1578.9,
       "time": "2026-09-25",
       "volume": 35202
+    },
+    {
+      "close": 2149.8,
+      "high": 2277.6,
+      "low": 2001.0,
+      "open": 2093.0,
+      "time": "2026-09-28",
+      "volume": 155526
     }
   ],
   "company_name": "BHARAT PARENTERALS LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE365Y01019",
   "metrics": {
-    "is_breakout": true,
+    "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 90,
-    "setup_type": "52W High Breakout",
-    "volume_multiplier": "10.15x"
+    "momentum_score": 81,
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "13.89x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 316.3,
-    "change_pct": 20.0,
-    "close": 1898.0,
-    "previous_close": 1581.7,
+    "as_of": "2026-09-28",
+    "change": 251.8,
+    "change_pct": 13.27,
+    "close": 2149.8,
+    "previous_close": 1898.0,
     "type": "EOD_CLOSE",
-    "volume": 35202
+    "volume": 155526
   },
   "range": {
-    "distance_from_high_pct": 0.0,
-    "distance_from_low_pct": 68.61,
-    "high_52w": 1898.0,
+    "distance_from_high_pct": -5.61,
+    "distance_from_low_pct": 90.97,
+    "high_52w": 2277.6,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 1125.7,
-    "range_position_pct": 100.0
+    "range_position_pct": 88.91
   },
   "risk_model": {
-    "invalidation_floor": 1831.57,
-    "risk_per_share": 81.61,
-    "technical_pivot": 1913.18
+    "invalidation_floor": 2074.56,
+    "risk_per_share": 118.24,
+    "technical_pivot": 2192.8
   },
   "schema_version": "1.0",
   "sector": null,

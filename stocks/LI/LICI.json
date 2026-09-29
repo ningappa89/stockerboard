@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 444.7,
-      "high": 446.48,
-      "low": 443.38,
-      "open": 444.52,
-      "time": "2025-09-18",
-      "volume": 1292596
-    },
-    {
       "close": 446.77,
       "high": 449.93,
       "low": 445.1,
@@ -2017,13 +2009,21 @@
       "open": 404.0,
       "time": "2026-09-25",
       "volume": 11594970
+    },
+    {
+      "close": 400.65,
+      "high": 408.0,
+      "low": 400.5,
+      "open": 408.0,
+      "time": "2026-09-28",
+      "volume": 5071575
     }
   ],
   "company_name": "LIFE INSURANCE CORPORATION OF ",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
+    "is_stage2": false,
+    "momentum_score": 68,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.57x"
+    "volume_multiplier": "0.74x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 3.05,
-    "change_pct": 0.75,
-    "close": 409.05,
-    "previous_close": 406.0,
+    "as_of": "2026-09-28",
+    "change": -8.4,
+    "change_pct": -2.05,
+    "close": 400.65,
+    "previous_close": 409.05,
     "type": "EOD_CLOSE",
-    "volume": 11594970
+    "volume": 5071575
   },
   "range": {
-    "distance_from_high_pct": -12.69,
-    "distance_from_low_pct": 13.39,
+    "distance_from_high_pct": -14.48,
+    "distance_from_low_pct": 11.06,
     "high_52w": 468.48,
     "history_basis": "52_WEEK",
     "low_52w": 360.75,
-    "range_position_pct": 44.83
+    "range_position_pct": 37.04
   },
   "risk_model": {
-    "invalidation_floor": 394.73,
-    "risk_per_share": 22.5,
-    "technical_pivot": 417.23
+    "invalidation_floor": 386.63,
+    "risk_per_share": 22.03,
+    "technical_pivot": 408.66
   },
   "schema_version": "1.0",
   "sector": null,

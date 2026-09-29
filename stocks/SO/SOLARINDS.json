@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 14617.0,
-      "high": 14796.0,
-      "low": 14540.0,
-      "open": 14750.0,
-      "time": "2025-09-18",
-      "volume": 86314
-    },
-    {
       "close": 14672.0,
       "high": 14748.0,
       "low": 14571.0,
@@ -2017,13 +2009,21 @@
       "open": 19570.0,
       "time": "2026-09-25",
       "volume": 120411
+    },
+    {
+      "close": 19150.0,
+      "high": 19750.0,
+      "low": 18970.0,
+      "open": 19750.0,
+      "time": "2026-09-28",
+      "volume": 159878
     }
   ],
   "company_name": "SOLAR INDUSTRIES INDIA LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Chemicals",
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
+    "is_stage2": false,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.46x"
+    "volume_multiplier": "0.61x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 265.0,
-    "change_pct": 1.36,
-    "close": 19745.0,
-    "previous_close": 19480.0,
+    "as_of": "2026-09-28",
+    "change": -595.0,
+    "change_pct": -3.01,
+    "close": 19150.0,
+    "previous_close": 19745.0,
     "type": "EOD_CLOSE",
-    "volume": 120411
+    "volume": 159878
   },
   "range": {
-    "distance_from_high_pct": -13.02,
-    "distance_from_low_pct": 69.54,
+    "distance_from_high_pct": -15.64,
+    "distance_from_low_pct": 64.43,
     "high_52w": 22700.0,
     "history_basis": "52_WEEK",
     "low_52w": 11646.0,
-    "range_position_pct": 73.27
+    "range_position_pct": 67.88
   },
   "risk_model": {
-    "invalidation_floor": 19053.92,
-    "risk_per_share": 1085.98,
-    "technical_pivot": 20139.9
+    "invalidation_floor": 18479.75,
+    "risk_per_share": 1053.25,
+    "technical_pivot": 19533.0
   },
   "schema_version": "1.0",
   "sector": "Chemicals",

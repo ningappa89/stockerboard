@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 111.86,
-      "high": 113.21,
-      "low": 111.13,
-      "open": 112.5,
-      "time": "2025-09-18",
-      "volume": 15714147
-    },
-    {
       "close": 113.3,
       "high": 114.3,
       "low": 111.86,
@@ -2017,13 +2009,21 @@
       "open": 117.12,
       "time": "2026-09-25",
       "volume": 8069096
+    },
+    {
+      "close": 112.6,
+      "high": 116.55,
+      "low": 112.07,
+      "open": 116.55,
+      "time": "2026-09-28",
+      "volume": 14250157
     }
   ],
   "company_name": "PUNJAB NATIONAL BANK",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.63x"
+    "volume_multiplier": "1.08x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.52,
-    "change_pct": -0.44,
-    "close": 116.6,
-    "previous_close": 117.12,
+    "as_of": "2026-09-28",
+    "change": -4.0,
+    "change_pct": -3.43,
+    "close": 112.6,
+    "previous_close": 116.6,
     "type": "EOD_CLOSE",
-    "volume": 8069096
+    "volume": 14250157
   },
   "range": {
-    "distance_from_high_pct": -13.73,
-    "distance_from_low_pct": 18.38,
+    "distance_from_high_pct": -16.69,
+    "distance_from_low_pct": 14.31,
     "high_52w": 135.15,
     "history_basis": "52_WEEK",
     "low_52w": 98.5,
-    "range_position_pct": 49.39
+    "range_position_pct": 38.47
   },
   "risk_model": {
-    "invalidation_floor": 112.52,
-    "risk_per_share": 6.41,
-    "technical_pivot": 118.93
+    "invalidation_floor": 108.66,
+    "risk_per_share": 6.19,
+    "technical_pivot": 114.85
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

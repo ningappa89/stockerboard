@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1052.0,
-      "high": 1081.2,
-      "low": 1050.0,
-      "open": 1078.3,
-      "time": "2025-09-18",
-      "volume": 523907
-    },
-    {
       "close": 1051.3,
       "high": 1065.0,
       "low": 1044.0,
@@ -2017,13 +2009,21 @@
       "open": 894.0,
       "time": "2026-09-25",
       "volume": 455438
+    },
+    {
+      "close": 906.0,
+      "high": 912.7,
+      "low": 883.0,
+      "open": 892.0,
+      "time": "2026-09-28",
+      "volume": 1041474
     }
   ],
   "company_name": "Premier Energies Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
+    "momentum_score": 59,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.38x"
+    "volume_multiplier": "0.93x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.6,
-    "change_pct": -0.18,
-    "close": 896.4,
-    "previous_close": 898.0,
+    "as_of": "2026-09-28",
+    "change": 9.6,
+    "change_pct": 1.07,
+    "close": 906.0,
+    "previous_close": 896.4,
     "type": "EOD_CLOSE",
-    "volume": 455438
+    "volume": 1041474
   },
   "range": {
-    "distance_from_high_pct": -20.95,
-    "distance_from_low_pct": 34.41,
+    "distance_from_high_pct": -20.11,
+    "distance_from_low_pct": 35.85,
     "high_52w": 1134.0,
     "history_basis": "52_WEEK",
     "low_52w": 666.9,
-    "range_position_pct": 49.13
+    "range_position_pct": 51.19
   },
   "risk_model": {
-    "invalidation_floor": 865.03,
-    "risk_per_share": 49.3,
-    "technical_pivot": 914.33
+    "invalidation_floor": 874.29,
+    "risk_per_share": 49.83,
+    "technical_pivot": 924.12
   },
   "schema_version": "1.0",
   "sector": null,

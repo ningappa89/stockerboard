@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1463.0,
-      "high": 1471.0,
-      "low": 1438.6,
-      "open": 1470.0,
-      "time": "2025-09-18",
-      "volume": 102269
-    },
-    {
       "close": 1480.5,
       "high": 1486.0,
       "low": 1451.8,
@@ -2017,13 +2009,21 @@
       "open": 2262.7,
       "time": "2026-09-25",
       "volume": 68630
+    },
+    {
+      "close": 2261.7,
+      "high": 2310.0,
+      "low": 2257.7,
+      "open": 2310.0,
+      "time": "2026-09-28",
+      "volume": 60843
     }
   ],
   "company_name": "S.J.S. Enterprises Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 74,
+    "momentum_score": 70,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.44x"
+    "volume_multiplier": "0.4x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 56.2,
-    "change_pct": 2.49,
-    "close": 2317.6,
-    "previous_close": 2261.4,
+    "as_of": "2026-09-28",
+    "change": -55.9,
+    "change_pct": -2.41,
+    "close": 2261.7,
+    "previous_close": 2317.6,
     "type": "EOD_CLOSE",
-    "volume": 68630
+    "volume": 60843
   },
   "range": {
-    "distance_from_high_pct": -10.52,
-    "distance_from_low_pct": 63.43,
+    "distance_from_high_pct": -12.68,
+    "distance_from_low_pct": 59.49,
     "high_52w": 2590.0,
     "history_basis": "52_WEEK",
     "low_52w": 1418.1,
-    "range_position_pct": 76.76
+    "range_position_pct": 71.99
   },
   "risk_model": {
-    "invalidation_floor": 2236.48,
-    "risk_per_share": 127.47,
-    "technical_pivot": 2363.95
+    "invalidation_floor": 2182.54,
+    "risk_per_share": 124.39,
+    "technical_pivot": 2306.93
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 126.83,
-      "high": 129.0,
-      "low": 126.24,
-      "open": 129.0,
-      "time": "2025-09-18",
-      "volume": 2621514
-    },
-    {
       "close": 124.41,
       "high": 127.39,
       "low": 123.1,
@@ -2017,46 +2009,54 @@
       "open": 222.4,
       "time": "2026-09-25",
       "volume": 2858135
+    },
+    {
+      "close": 227.95,
+      "high": 229.0,
+      "low": 221.8,
+      "open": 224.9,
+      "time": "2026-09-28",
+      "volume": 4159923
     }
   ],
   "company_name": "WELSPUN LIVING LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE192B01031",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": false,
+    "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 84,
+    "momentum_score": 86,
     "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.62x"
+    "volume_multiplier": "0.89x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.36,
-    "change_pct": 1.06,
-    "close": 224.68,
-    "previous_close": 222.32,
+    "as_of": "2026-09-28",
+    "change": 3.27,
+    "change_pct": 1.46,
+    "close": 227.95,
+    "previous_close": 224.68,
     "type": "EOD_CLOSE",
-    "volume": 2858135
+    "volume": 4159923
   },
   "range": {
-    "distance_from_high_pct": -3.57,
-    "distance_from_low_pct": 109.79,
+    "distance_from_high_pct": -2.17,
+    "distance_from_low_pct": 112.84,
     "high_52w": 233.0,
     "history_basis": "52_WEEK",
     "low_52w": 107.1,
-    "range_position_pct": 93.39
+    "range_position_pct": 95.99
   },
   "risk_model": {
-    "invalidation_floor": 216.82,
-    "risk_per_share": 12.35,
-    "technical_pivot": 229.17
+    "invalidation_floor": 219.97,
+    "risk_per_share": 12.54,
+    "technical_pivot": 232.51
   },
   "schema_version": "1.0",
   "sector": null,

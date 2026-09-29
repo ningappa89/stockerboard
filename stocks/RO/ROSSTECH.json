@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 746.05,
-      "high": 772.5,
-      "low": 738.0,
-      "open": 744.9,
-      "time": "2025-09-18",
-      "volume": 166990
-    },
-    {
       "close": 750.45,
       "high": 764.0,
       "low": 740.0,
@@ -2017,13 +2009,21 @@
       "open": 1415.3,
       "time": "2026-09-25",
       "volume": 132626
+    },
+    {
+      "close": 1398.8,
+      "high": 1410.8,
+      "low": 1342.2,
+      "open": 1405.0,
+      "time": "2026-09-28",
+      "volume": 151249
     }
   ],
   "company_name": "Rossell Techsys Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": true,
     "momentum_score": 79,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.27x"
+    "volume_multiplier": "0.3x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -16.2,
-    "change_pct": -1.14,
-    "close": 1402.7,
-    "previous_close": 1418.9,
+    "as_of": "2026-09-28",
+    "change": -3.9,
+    "change_pct": -0.28,
+    "close": 1398.8,
+    "previous_close": 1402.7,
     "type": "EOD_CLOSE",
-    "volume": 132626
+    "volume": 151249
   },
   "range": {
-    "distance_from_high_pct": -6.8,
-    "distance_from_low_pct": 154.16,
+    "distance_from_high_pct": -7.06,
+    "distance_from_low_pct": 153.45,
     "high_52w": 1505.0,
     "history_basis": "52_WEEK",
     "low_52w": 551.9,
-    "range_position_pct": 89.27
+    "range_position_pct": 88.86
   },
   "risk_model": {
-    "invalidation_floor": 1353.61,
-    "risk_per_share": 77.14,
-    "technical_pivot": 1430.75
+    "invalidation_floor": 1349.84,
+    "risk_per_share": 76.94,
+    "technical_pivot": 1426.78
   },
   "schema_version": "1.0",
   "sector": null,

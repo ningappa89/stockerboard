@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 130.24,
-      "high": 132.45,
-      "low": 129.63,
-      "open": 131.2,
-      "time": "2025-09-18",
-      "volume": 69720
-    },
-    {
       "close": 129.65,
       "high": 132.5,
       "low": 129.0,
@@ -2017,13 +2009,21 @@
       "open": 92.25,
       "time": "2026-09-25",
       "volume": 49412
+    },
+    {
+      "close": 90.27,
+      "high": 92.25,
+      "low": 88.52,
+      "open": 92.25,
+      "time": "2026-09-28",
+      "volume": 56446
     }
   ],
   "company_name": "APTECH LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 43,
+    "momentum_score": 42,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.7x"
+    "volume_multiplier": "0.8x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.88,
-    "change_pct": -0.96,
-    "close": 91.22,
-    "previous_close": 92.1,
+    "as_of": "2026-09-28",
+    "change": -0.95,
+    "change_pct": -1.04,
+    "close": 90.27,
+    "previous_close": 91.22,
     "type": "EOD_CLOSE",
-    "volume": 49412
+    "volume": 56446
   },
   "range": {
-    "distance_from_high_pct": -31.15,
-    "distance_from_low_pct": 32.01,
+    "distance_from_high_pct": -31.87,
+    "distance_from_low_pct": 30.64,
     "high_52w": 132.5,
     "history_basis": "52_WEEK",
     "low_52w": 69.1,
-    "range_position_pct": 34.89
+    "range_position_pct": 33.39
   },
   "risk_model": {
-    "invalidation_floor": 88.03,
-    "risk_per_share": 5.01,
-    "technical_pivot": 93.04
+    "invalidation_floor": 87.11,
+    "risk_per_share": 4.97,
+    "technical_pivot": 92.08
   },
   "schema_version": "1.0",
   "sector": null,

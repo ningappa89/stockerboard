@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 869.5,
-      "high": 884.5,
-      "low": 866.25,
-      "open": 882.15,
-      "time": "2025-09-18",
-      "volume": 234923
-    },
-    {
       "close": 875.55,
       "high": 877.95,
       "low": 858.75,
@@ -2017,13 +2009,21 @@
       "open": 471.5,
       "time": "2026-09-25",
       "volume": 205670
+    },
+    {
+      "close": 465.15,
+      "high": 473.8,
+      "low": 459.0,
+      "open": 463.75,
+      "time": "2026-09-28",
+      "volume": 399430
     }
   ],
   "company_name": "SHAKTI PUMPS (INDIA) LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.19x"
+    "volume_multiplier": "0.36x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -5.25,
-    "change_pct": -1.11,
-    "close": 466.9,
-    "previous_close": 472.15,
+    "as_of": "2026-09-28",
+    "change": -1.75,
+    "change_pct": -0.37,
+    "close": 465.15,
+    "previous_close": 466.9,
     "type": "EOD_CLOSE",
-    "volume": 205670
+    "volume": 399430
   },
   "range": {
-    "distance_from_high_pct": -47.21,
-    "distance_from_low_pct": 2.62,
-    "high_52w": 884.5,
+    "distance_from_high_pct": -47.32,
+    "distance_from_low_pct": 2.23,
+    "high_52w": 883.0,
     "history_basis": "52_WEEK",
     "low_52w": 455.0,
-    "range_position_pct": 2.77
+    "range_position_pct": 2.37
   },
   "risk_model": {
-    "invalidation_floor": 450.56,
-    "risk_per_share": 25.68,
-    "technical_pivot": 476.24
+    "invalidation_floor": 448.87,
+    "risk_per_share": 25.58,
+    "technical_pivot": 474.45
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 86.24,
-      "high": 89.0,
-      "low": 84.82,
-      "open": 88.0,
-      "time": "2025-09-18",
-      "volume": 194350
-    },
-    {
       "close": 85.92,
       "high": 87.31,
       "low": 85.5,
@@ -2017,13 +2009,21 @@
       "open": 126.25,
       "time": "2026-09-25",
       "volume": 241671
+    },
+    {
+      "close": 121.66,
+      "high": 125.64,
+      "low": 120.79,
+      "open": 125.64,
+      "time": "2026-09-28",
+      "volume": 258602
     }
   ],
   "company_name": "AEROFLEX ENTERPRISES LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
+    "momentum_score": 54,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.22x"
+    "volume_multiplier": "0.24x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.22,
-    "change_pct": -0.96,
-    "close": 125.64,
-    "previous_close": 126.86,
+    "as_of": "2026-09-28",
+    "change": -3.98,
+    "change_pct": -3.17,
+    "close": 121.66,
+    "previous_close": 125.64,
     "type": "EOD_CLOSE",
-    "volume": 241671
+    "volume": 258602
   },
   "range": {
-    "distance_from_high_pct": -21.28,
-    "distance_from_low_pct": 101.99,
+    "distance_from_high_pct": -23.77,
+    "distance_from_low_pct": 95.59,
     "high_52w": 159.6,
     "history_basis": "52_WEEK",
     "low_52w": 62.2,
-    "range_position_pct": 65.13
+    "range_position_pct": 61.05
   },
   "risk_model": {
-    "invalidation_floor": 121.24,
-    "risk_per_share": 6.91,
-    "technical_pivot": 128.15
+    "invalidation_floor": 117.4,
+    "risk_per_share": 6.69,
+    "technical_pivot": 124.09
   },
   "schema_version": "1.0",
   "sector": null,

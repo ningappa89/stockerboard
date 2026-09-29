@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 133.33,
-      "high": 134.86,
-      "low": 133.0,
-      "open": 134.3,
-      "time": "2025-09-18",
-      "volume": 331439
-    },
-    {
       "close": 135.09,
       "high": 135.7,
       "low": 133.0,
@@ -2017,13 +2009,21 @@
       "open": 72.7,
       "time": "2026-09-25",
       "volume": 22824335
+    },
+    {
+      "close": 80.62,
+      "high": 83.8,
+      "low": 78.11,
+      "open": 81.92,
+      "time": "2026-09-28",
+      "volume": 19487717
     }
   ],
   "company_name": "SOM DISTILLERIES & BREWERIES L",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Volume Expansion",
-    "volume_multiplier": "14.4x"
+    "volume_multiplier": "7.68x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 7.12,
-    "change_pct": 10.59,
-    "close": 74.36,
-    "previous_close": 67.24,
+    "as_of": "2026-09-28",
+    "change": 6.26,
+    "change_pct": 8.42,
+    "close": 80.62,
+    "previous_close": 74.36,
     "type": "EOD_CLOSE",
-    "volume": 22824335
+    "volume": 19487717
   },
   "range": {
-    "distance_from_high_pct": -47.85,
-    "distance_from_low_pct": 20.32,
+    "distance_from_high_pct": -43.46,
+    "distance_from_low_pct": 30.45,
     "high_52w": 142.6,
     "history_basis": "52_WEEK",
     "low_52w": 61.8,
-    "range_position_pct": 15.54
+    "range_position_pct": 23.29
   },
   "risk_model": {
-    "invalidation_floor": 71.76,
-    "risk_per_share": 4.09,
-    "technical_pivot": 75.85
+    "invalidation_floor": 77.8,
+    "risk_per_share": 4.43,
+    "technical_pivot": 82.23
   },
   "schema_version": "1.0",
   "sector": null,

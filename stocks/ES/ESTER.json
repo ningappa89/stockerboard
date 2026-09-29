@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 115.8,
-      "high": 118.28,
-      "low": 115.4,
-      "open": 116.05,
-      "time": "2025-09-18",
-      "volume": 74237
-    },
-    {
       "close": 116.04,
       "high": 116.72,
       "low": 114.77,
@@ -2017,13 +2009,21 @@
       "open": 86.8,
       "time": "2026-09-25",
       "volume": 24329
+    },
+    {
+      "close": 85.23,
+      "high": 88.2,
+      "low": 85.0,
+      "open": 88.2,
+      "time": "2026-09-28",
+      "volume": 30052
     }
   ],
   "company_name": "ESTER INDUSTRIES LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.41x"
+    "volume_multiplier": "0.52x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.75,
-    "change_pct": -0.86,
-    "close": 86.14,
-    "previous_close": 86.89,
+    "as_of": "2026-09-28",
+    "change": -0.91,
+    "change_pct": -1.06,
+    "close": 85.23,
+    "previous_close": 86.14,
     "type": "EOD_CLOSE",
-    "volume": 24329
+    "volume": 30052
   },
   "range": {
-    "distance_from_high_pct": -34.96,
-    "distance_from_low_pct": 25.66,
+    "distance_from_high_pct": -35.65,
+    "distance_from_low_pct": 24.33,
     "high_52w": 132.45,
     "history_basis": "52_WEEK",
     "low_52w": 68.55,
-    "range_position_pct": 27.53
+    "range_position_pct": 26.1
   },
   "risk_model": {
-    "invalidation_floor": 83.13,
-    "risk_per_share": 4.73,
-    "technical_pivot": 87.86
+    "invalidation_floor": 82.25,
+    "risk_per_share": 4.68,
+    "technical_pivot": 86.93
   },
   "schema_version": "1.0",
   "sector": null,

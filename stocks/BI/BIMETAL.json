@@ -889,14 +889,22 @@
       "open": 660.0,
       "time": "2026-09-25",
       "volume": 107
+    },
+    {
+      "close": 640.15,
+      "high": 662.95,
+      "low": 628.6,
+      "open": 646.15,
+      "time": "2026-09-28",
+      "volume": 664
     }
   ],
   "company_name": "BIMETAL BEARINGS LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE469A01019",
@@ -904,31 +912,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.17x"
+    "volume_multiplier": "1.2x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -11.1,
-    "change_pct": -1.68,
-    "close": 648.0,
-    "previous_close": 659.1,
+    "as_of": "2026-09-28",
+    "change": -7.85,
+    "change_pct": -1.21,
+    "close": 640.15,
+    "previous_close": 648.0,
     "type": "EOD_CLOSE",
-    "volume": 107
+    "volume": 664
   },
   "range": {
-    "distance_from_high_pct": -13.69,
-    "distance_from_low_pct": 20.47,
+    "distance_from_high_pct": -14.73,
+    "distance_from_low_pct": 19.01,
     "high_52w": 750.75,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 537.9,
-    "range_position_pct": 51.73
+    "range_position_pct": 48.04
   },
   "risk_model": {
-    "invalidation_floor": 625.32,
-    "risk_per_share": 35.64,
-    "technical_pivot": 660.96
+    "invalidation_floor": 617.74,
+    "risk_per_share": 35.21,
+    "technical_pivot": 652.95
   },
   "schema_version": "1.0",
   "sector": null,

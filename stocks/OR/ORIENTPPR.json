@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 28.45,
-      "high": 28.81,
-      "low": 28.31,
-      "open": 28.5,
-      "time": "2025-09-18",
-      "volume": 311788
-    },
-    {
       "close": 28.48,
       "high": 28.7,
       "low": 28.29,
@@ -2017,13 +2009,21 @@
       "open": 16.91,
       "time": "2026-09-25",
       "volume": 183765
+    },
+    {
+      "close": 16.61,
+      "high": 16.79,
+      "low": 16.57,
+      "open": 16.63,
+      "time": "2026-09-28",
+      "volume": 108847
     }
   ],
   "company_name": "ORIENT PAPER & INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.55x"
+    "volume_multiplier": "0.33x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.04,
-    "change_pct": -0.24,
-    "close": 16.76,
-    "previous_close": 16.8,
+    "as_of": "2026-09-28",
+    "change": -0.15,
+    "change_pct": -0.89,
+    "close": 16.61,
+    "previous_close": 16.76,
     "type": "EOD_CLOSE",
-    "volume": 183765
+    "volume": 108847
   },
   "range": {
-    "distance_from_high_pct": -41.83,
-    "distance_from_low_pct": 26.49,
-    "high_52w": 28.81,
+    "distance_from_high_pct": -42.29,
+    "distance_from_low_pct": 25.36,
+    "high_52w": 28.78,
     "history_basis": "52_WEEK",
     "low_52w": 13.25,
-    "range_position_pct": 22.56
+    "range_position_pct": 21.64
   },
   "risk_model": {
-    "invalidation_floor": 16.17,
-    "risk_per_share": 0.93,
-    "technical_pivot": 17.1
+    "invalidation_floor": 16.03,
+    "risk_per_share": 0.91,
+    "technical_pivot": 16.94
   },
   "schema_version": "1.0",
   "sector": null,

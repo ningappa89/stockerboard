@@ -1353,14 +1353,22 @@
       "open": 252.0,
       "time": "2026-09-25",
       "volume": 3407
+    },
+    {
+      "close": 247.15,
+      "high": 255.55,
+      "low": 229.2,
+      "open": 244.9,
+      "time": "2026-09-28",
+      "volume": 2462
     }
   ],
   "company_name": "Halder Venture Limited",
   "history": {
     "first_session": "2026-01-19",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 169
+    "last_session": "2026-09-28",
+    "sessions_available": 170
   },
   "industry": null,
   "isin": "INE115S01010",
@@ -1368,31 +1376,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 53,
+    "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.15x"
+    "volume_multiplier": "0.11x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -7.3,
-    "change_pct": -2.93,
-    "close": 241.45,
-    "previous_close": 248.75,
+    "as_of": "2026-09-28",
+    "change": 5.7,
+    "change_pct": 2.36,
+    "close": 247.15,
+    "previous_close": 241.45,
     "type": "EOD_CLOSE",
-    "volume": 3407
+    "volume": 2462
   },
   "range": {
-    "distance_from_high_pct": -24.31,
-    "distance_from_low_pct": 14.98,
+    "distance_from_high_pct": -22.52,
+    "distance_from_low_pct": 17.69,
     "high_52w": 319.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 210.0,
-    "range_position_pct": 28.85
+    "range_position_pct": 34.08
   },
   "risk_model": {
-    "invalidation_floor": 233.0,
-    "risk_per_share": 13.28,
-    "technical_pivot": 246.28
+    "invalidation_floor": 238.5,
+    "risk_per_share": 13.59,
+    "technical_pivot": 252.09
   },
   "schema_version": "1.0",
   "sector": null,

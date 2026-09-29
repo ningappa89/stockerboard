@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 565.45,
-      "high": 576.25,
-      "low": 553.6,
-      "open": 556.8,
-      "time": "2025-09-18",
-      "volume": 1511373
-    },
-    {
       "close": 569.9,
       "high": 577.7,
       "low": 564.1,
@@ -2017,13 +2009,21 @@
       "open": 819.6,
       "time": "2026-09-25",
       "volume": 1351331
+    },
+    {
+      "close": 799.0,
+      "high": 820.0,
+      "low": 794.55,
+      "open": 820.0,
+      "time": "2026-09-28",
+      "volume": 1013536
     }
   ],
   "company_name": "GRAPHITE INDIA LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 80,
+    "momentum_score": 77,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.33x"
+    "volume_multiplier": "0.25x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 6.0,
-    "change_pct": 0.74,
-    "close": 820.7,
-    "previous_close": 814.7,
+    "as_of": "2026-09-28",
+    "change": -21.7,
+    "change_pct": -2.64,
+    "close": 799.0,
+    "previous_close": 820.7,
     "type": "EOD_CLOSE",
-    "volume": 1351331
+    "volume": 1013536
   },
   "range": {
-    "distance_from_high_pct": -6.14,
-    "distance_from_low_pct": 58.99,
+    "distance_from_high_pct": -8.62,
+    "distance_from_low_pct": 54.78,
     "high_52w": 874.35,
     "history_basis": "52_WEEK",
     "low_52w": 516.2,
-    "range_position_pct": 85.02
+    "range_position_pct": 78.96
   },
   "risk_model": {
-    "invalidation_floor": 791.98,
-    "risk_per_share": 45.13,
-    "technical_pivot": 837.11
+    "invalidation_floor": 771.03,
+    "risk_per_share": 43.95,
+    "technical_pivot": 814.98
   },
   "schema_version": "1.0",
   "sector": null,

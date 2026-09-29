@@ -329,14 +329,22 @@
       "open": 318.0,
       "time": "2026-09-25",
       "volume": 724833
+    },
+    {
+      "close": 285.76,
+      "high": 308.83,
+      "low": 285.76,
+      "open": 298.0,
+      "time": "2026-09-28",
+      "volume": 995113
     }
   ],
   "company_name": "XTRANET TECHNOLOGIES LTD",
   "history": {
     "first_session": "2026-07-30",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 41
+    "last_session": "2026-09-28",
+    "sessions_available": 42
   },
   "industry": null,
   "isin": "INE0NG701011",
@@ -344,31 +352,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 59,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.2x"
+    "volume_multiplier": "0.29x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -12.92,
-    "change_pct": -4.12,
-    "close": 300.79,
-    "previous_close": 313.71,
+    "as_of": "2026-09-28",
+    "change": -15.03,
+    "change_pct": -5.0,
+    "close": 285.76,
+    "previous_close": 300.79,
     "type": "EOD_CLOSE",
-    "volume": 724833
+    "volume": 995113
   },
   "range": {
-    "distance_from_high_pct": -16.1,
-    "distance_from_low_pct": 145.54,
+    "distance_from_high_pct": -20.29,
+    "distance_from_low_pct": 133.27,
     "high_52w": 358.5,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 122.5,
-    "range_position_pct": 75.55
+    "range_position_pct": 69.18
   },
   "risk_model": {
-    "invalidation_floor": 290.26,
-    "risk_per_share": 16.55,
-    "technical_pivot": 306.81
+    "invalidation_floor": 275.76,
+    "risk_per_share": 15.72,
+    "technical_pivot": 291.48
   },
   "schema_version": "1.0",
   "sector": null,

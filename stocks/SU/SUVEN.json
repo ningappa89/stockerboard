@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 218.99,
-      "high": 229.0,
-      "low": 216.0,
-      "open": 229.0,
-      "time": "2025-09-18",
-      "volume": 221695
-    },
-    {
       "close": 224.45,
       "high": 227.67,
       "low": 215.5,
@@ -2017,13 +2009,21 @@
       "open": 337.0,
       "time": "2026-09-25",
       "volume": 251356
+    },
+    {
+      "close": 321.65,
+      "high": 336.0,
+      "low": 320.2,
+      "open": 335.0,
+      "time": "2026-09-28",
+      "volume": 374676
     }
   ],
   "company_name": "SUVEN LIFE SCIENCES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
+    "momentum_score": 59,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.42x"
+    "volume_multiplier": "0.62x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.05,
-    "change_pct": -0.01,
-    "close": 335.0,
-    "previous_close": 335.05,
+    "as_of": "2026-09-28",
+    "change": -13.35,
+    "change_pct": -3.99,
+    "close": 321.65,
+    "previous_close": 335.0,
     "type": "EOD_CLOSE",
-    "volume": 251356
+    "volume": 374676
   },
   "range": {
-    "distance_from_high_pct": -16.95,
-    "distance_from_low_pct": 169.92,
+    "distance_from_high_pct": -20.26,
+    "distance_from_low_pct": 159.17,
     "high_52w": 403.35,
     "history_basis": "52_WEEK",
     "low_52w": 124.11,
-    "range_position_pct": 75.52
+    "range_position_pct": 70.74
   },
   "risk_model": {
-    "invalidation_floor": 323.27,
-    "risk_per_share": 18.43,
-    "technical_pivot": 341.7
+    "invalidation_floor": 310.39,
+    "risk_per_share": 17.69,
+    "technical_pivot": 328.08
   },
   "schema_version": "1.0",
   "sector": null,

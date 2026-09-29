@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 167.4,
-      "high": 169.0,
-      "low": 166.45,
-      "open": 166.75,
-      "time": "2025-09-18",
-      "volume": 394687
-    },
-    {
       "close": 167.71,
       "high": 169.0,
       "low": 166.0,
@@ -2017,13 +2009,21 @@
       "open": 119.0,
       "time": "2026-09-25",
       "volume": 464030
+    },
+    {
+      "close": 115.68,
+      "high": 119.89,
+      "low": 114.2,
+      "open": 118.81,
+      "time": "2026-09-28",
+      "volume": 596566
     }
   ],
   "company_name": "PRAKASH INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.0x"
+    "volume_multiplier": "1.26x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.13,
-    "change_pct": 0.96,
-    "close": 118.81,
-    "previous_close": 117.68,
+    "as_of": "2026-09-28",
+    "change": -3.13,
+    "change_pct": -2.63,
+    "close": 115.68,
+    "previous_close": 118.81,
     "type": "EOD_CLOSE",
-    "volume": 464030
+    "volume": 596566
   },
   "range": {
-    "distance_from_high_pct": -32.88,
-    "distance_from_low_pct": 7.77,
+    "distance_from_high_pct": -34.64,
+    "distance_from_low_pct": 4.93,
     "high_52w": 177.0,
     "history_basis": "52_WEEK",
     "low_52w": 110.24,
-    "range_position_pct": 12.84
+    "range_position_pct": 8.15
   },
   "risk_model": {
-    "invalidation_floor": 114.65,
-    "risk_per_share": 6.54,
-    "technical_pivot": 121.19
+    "invalidation_floor": 111.63,
+    "risk_per_share": 6.36,
+    "technical_pivot": 117.99
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 131.41,
-      "high": 134.6,
-      "low": 129.71,
-      "open": 134.32,
-      "time": "2025-09-18",
-      "volume": 458761
-    },
-    {
       "close": 131.18,
       "high": 132.4,
       "low": 130.01,
@@ -2017,13 +2009,21 @@
       "open": 70.15,
       "time": "2026-09-25",
       "volume": 379256
+    },
+    {
+      "close": 72.34,
+      "high": 72.99,
+      "low": 69.51,
+      "open": 70.25,
+      "time": "2026-09-28",
+      "volume": 650379
     }
   ],
   "company_name": "SERVOTECH REN POW SYS LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.96x"
+    "volume_multiplier": "1.56x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.47,
-    "change_pct": 0.67,
-    "close": 70.76,
-    "previous_close": 70.29,
+    "as_of": "2026-09-28",
+    "change": 1.58,
+    "change_pct": 2.23,
+    "close": 72.34,
+    "previous_close": 70.76,
     "type": "EOD_CLOSE",
-    "volume": 379256
+    "volume": 650379
   },
   "range": {
-    "distance_from_high_pct": -49.99,
-    "distance_from_low_pct": 23.04,
+    "distance_from_high_pct": -48.88,
+    "distance_from_low_pct": 25.79,
     "high_52w": 141.5,
     "history_basis": "52_WEEK",
     "low_52w": 57.51,
-    "range_position_pct": 15.78
+    "range_position_pct": 17.66
   },
   "risk_model": {
-    "invalidation_floor": 68.28,
-    "risk_per_share": 3.9,
-    "technical_pivot": 72.18
+    "invalidation_floor": 69.81,
+    "risk_per_share": 3.98,
+    "technical_pivot": 73.79
   },
   "schema_version": "1.0",
   "sector": null,

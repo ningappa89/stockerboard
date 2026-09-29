@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 4646.4,
-      "high": 4698.2,
-      "low": 4617.1,
-      "open": 4670.2,
-      "time": "2025-09-18",
-      "volume": 12140
-    },
-    {
       "close": 4656.0,
       "high": 4676.5,
       "low": 4607.0,
@@ -2017,13 +2009,21 @@
       "open": 3523.9,
       "time": "2026-09-25",
       "volume": 7887
+    },
+    {
+      "close": 3495.8,
+      "high": 3580.0,
+      "low": 3482.1,
+      "open": 3539.8,
+      "time": "2026-09-28",
+      "volume": 16965
     }
   ],
   "company_name": "BASF INDIA LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 49,
+    "momentum_score": 48,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.4x"
+    "volume_multiplier": "0.84x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 15.9,
-    "change_pct": 0.45,
-    "close": 3539.8,
-    "previous_close": 3523.9,
+    "as_of": "2026-09-28",
+    "change": -44.0,
+    "change_pct": -1.24,
+    "close": 3495.8,
+    "previous_close": 3539.8,
     "type": "EOD_CLOSE",
-    "volume": 7887
+    "volume": 16965
   },
   "range": {
-    "distance_from_high_pct": -26.71,
-    "distance_from_low_pct": 13.38,
+    "distance_from_high_pct": -27.62,
+    "distance_from_low_pct": 11.97,
     "high_52w": 4829.9,
     "history_basis": "52_WEEK",
     "low_52w": 3122.2,
-    "range_position_pct": 24.45
+    "range_position_pct": 21.88
   },
   "risk_model": {
-    "invalidation_floor": 3415.91,
-    "risk_per_share": 194.69,
-    "technical_pivot": 3610.6
+    "invalidation_floor": 3373.45,
+    "risk_per_share": 192.27,
+    "technical_pivot": 3565.72
   },
   "schema_version": "1.0",
   "sector": null,

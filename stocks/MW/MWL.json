@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 25.5,
-      "high": 26.5,
-      "low": 23.73,
-      "open": 26.5,
-      "time": "2025-09-18",
-      "volume": 1075750
-    },
-    {
       "close": 25.37,
       "high": 26.5,
       "low": 24.11,
@@ -2017,13 +2009,21 @@
       "open": 44.26,
       "time": "2026-09-25",
       "volume": 269047
+    },
+    {
+      "close": 43.46,
+      "high": 43.9,
+      "low": 42.5,
+      "open": 43.07,
+      "time": "2026-09-28",
+      "volume": 329028
     }
   ],
   "company_name": "Mangalam Worldwide Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 74,
+    "momentum_score": 75,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.13x"
+    "volume_multiplier": "0.16x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.79,
-    "change_pct": -1.8,
-    "close": 43.07,
-    "previous_close": 43.86,
+    "as_of": "2026-09-28",
+    "change": 0.39,
+    "change_pct": 0.91,
+    "close": 43.46,
+    "previous_close": 43.07,
     "type": "EOD_CLOSE",
-    "volume": 269047
+    "volume": 329028
   },
   "range": {
-    "distance_from_high_pct": -10.27,
-    "distance_from_low_pct": 115.35,
+    "distance_from_high_pct": -9.46,
+    "distance_from_low_pct": 117.3,
     "high_52w": 48.0,
     "history_basis": "52_WEEK",
     "low_52w": 20.0,
-    "range_position_pct": 82.39
+    "range_position_pct": 83.79
   },
   "risk_model": {
-    "invalidation_floor": 41.56,
-    "risk_per_share": 2.37,
-    "technical_pivot": 43.93
+    "invalidation_floor": 41.94,
+    "risk_per_share": 2.39,
+    "technical_pivot": 44.33
   },
   "schema_version": "1.0",
   "sector": null,

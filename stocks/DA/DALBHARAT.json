@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2448.2,
-      "high": 2488.9,
-      "low": 2440.9,
-      "open": 2488.9,
-      "time": "2025-09-18",
-      "volume": 186407
-    },
-    {
       "close": 2409.9,
       "high": 2457.8,
       "low": 2407.1,
@@ -2017,13 +2009,21 @@
       "open": 1746.2,
       "time": "2026-09-25",
       "volume": 254282
+    },
+    {
+      "close": 1651.6,
+      "high": 1698.5,
+      "low": 1650.0,
+      "open": 1692.0,
+      "time": "2026-09-28",
+      "volume": 91040
     }
   ],
   "company_name": "DALMIA BHARAT LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.32x"
+    "volume_multiplier": "0.47x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -21.0,
-    "change_pct": -1.22,
-    "close": 1700.2,
-    "previous_close": 1721.2,
+    "as_of": "2026-09-28",
+    "change": -48.6,
+    "change_pct": -2.86,
+    "close": 1651.6,
+    "previous_close": 1700.2,
     "type": "EOD_CLOSE",
-    "volume": 254282
+    "volume": 91040
   },
   "range": {
-    "distance_from_high_pct": -31.69,
-    "distance_from_low_pct": 5.93,
-    "high_52w": 2488.9,
+    "distance_from_high_pct": -32.8,
+    "distance_from_low_pct": 2.9,
+    "high_52w": 2457.8,
     "history_basis": "52_WEEK",
     "low_52w": 1605.0,
-    "range_position_pct": 10.77
+    "range_position_pct": 5.46
   },
   "risk_model": {
-    "invalidation_floor": 1640.69,
-    "risk_per_share": 93.51,
-    "technical_pivot": 1734.2
+    "invalidation_floor": 1593.79,
+    "risk_per_share": 90.84,
+    "technical_pivot": 1684.63
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 132.68,
-      "high": 134.76,
-      "low": 131.56,
-      "open": 134.45,
-      "time": "2025-09-18",
-      "volume": 538692
-    },
-    {
       "close": 131.32,
       "high": 134.0,
       "low": 130.78,
@@ -2017,13 +2009,21 @@
       "open": 130.0,
       "time": "2026-09-25",
       "volume": 420956
+    },
+    {
+      "close": 128.5,
+      "high": 129.8,
+      "low": 127.18,
+      "open": 129.5,
+      "time": "2026-09-28",
+      "volume": 501981
     }
   ],
   "company_name": "TVS SUPPLY CHAIN SOL L",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 73,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.52x"
+    "volume_multiplier": "0.63x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.21,
-    "change_pct": -0.16,
-    "close": 130.26,
-    "previous_close": 130.47,
+    "as_of": "2026-09-28",
+    "change": -1.76,
+    "change_pct": -1.35,
+    "close": 128.5,
+    "previous_close": 130.26,
     "type": "EOD_CLOSE",
-    "volume": 420956
+    "volume": 501981
   },
   "range": {
-    "distance_from_high_pct": -11.09,
-    "distance_from_low_pct": 44.22,
+    "distance_from_high_pct": -12.29,
+    "distance_from_low_pct": 42.27,
     "high_52w": 146.5,
     "history_basis": "52_WEEK",
     "low_52w": 90.32,
-    "range_position_pct": 71.09
+    "range_position_pct": 67.96
   },
   "risk_model": {
-    "invalidation_floor": 125.7,
-    "risk_per_share": 7.17,
-    "technical_pivot": 132.87
+    "invalidation_floor": 124.0,
+    "risk_per_share": 7.07,
+    "technical_pivot": 131.07
   },
   "schema_version": "1.0",
   "sector": null,

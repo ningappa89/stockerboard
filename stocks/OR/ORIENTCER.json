@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 40.37,
-      "high": 40.99,
-      "low": 39.8,
-      "open": 39.89,
-      "time": "2025-09-18",
-      "volume": 63340
-    },
-    {
       "close": 40.36,
       "high": 41.1,
       "low": 39.16,
@@ -2017,13 +2009,21 @@
       "open": 47.29,
       "time": "2026-09-25",
       "volume": 31332
+    },
+    {
+      "close": 45.86,
+      "high": 48.8,
+      "low": 45.12,
+      "open": 48.8,
+      "time": "2026-09-28",
+      "volume": 141474
     }
   ],
   "company_name": "ORIENT CERATECH LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.29x"
+    "volume_multiplier": "1.29x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.97,
-    "change_pct": 2.07,
-    "close": 47.8,
-    "previous_close": 46.83,
+    "as_of": "2026-09-28",
+    "change": -1.94,
+    "change_pct": -4.06,
+    "close": 45.86,
+    "previous_close": 47.8,
     "type": "EOD_CLOSE",
-    "volume": 31332
+    "volume": 141474
   },
   "range": {
-    "distance_from_high_pct": -15.61,
-    "distance_from_low_pct": 40.59,
+    "distance_from_high_pct": -19.03,
+    "distance_from_low_pct": 34.88,
     "high_52w": 56.64,
     "history_basis": "52_WEEK",
     "low_52w": 34.0,
-    "range_position_pct": 60.95
+    "range_position_pct": 52.39
   },
   "risk_model": {
-    "invalidation_floor": 46.13,
-    "risk_per_share": 2.63,
-    "technical_pivot": 48.76
+    "invalidation_floor": 44.25,
+    "risk_per_share": 2.53,
+    "technical_pivot": 46.78
   },
   "schema_version": "1.0",
   "sector": null,

@@ -177,14 +177,22 @@
       "open": 146.0,
       "time": "2026-09-25",
       "volume": 562904
+    },
+    {
+      "close": 140.93,
+      "high": 144.8,
+      "low": 139.5,
+      "open": 144.8,
+      "time": "2026-09-28",
+      "volume": 364817
     }
   ],
   "company_name": "GAJA ALT ASSET MGT LTD",
   "history": {
     "first_session": "2026-08-26",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 22
+    "last_session": "2026-09-28",
+    "sessions_available": 23
   },
   "industry": null,
   "isin": "INE18UN01038",
@@ -192,31 +200,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 51,
+    "momentum_score": 50,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.22x"
+    "volume_multiplier": "0.16x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -3.68,
-    "change_pct": -2.52,
-    "close": 142.26,
-    "previous_close": 145.94,
+    "as_of": "2026-09-28",
+    "change": -1.33,
+    "change_pct": -0.93,
+    "close": 140.93,
+    "previous_close": 142.26,
     "type": "EOD_CLOSE",
-    "volume": 562904
+    "volume": 364817
   },
   "range": {
-    "distance_from_high_pct": -25.77,
-    "distance_from_low_pct": 3.46,
+    "distance_from_high_pct": -26.46,
+    "distance_from_low_pct": 2.49,
     "high_52w": 191.65,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 137.5,
-    "range_position_pct": 8.79
+    "range_position_pct": 6.33
   },
   "risk_model": {
-    "invalidation_floor": 137.28,
-    "risk_per_share": 7.83,
-    "technical_pivot": 145.11
+    "invalidation_floor": 136.0,
+    "risk_per_share": 7.75,
+    "technical_pivot": 143.75
   },
   "schema_version": "1.0",
   "sector": null,

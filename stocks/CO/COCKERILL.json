@@ -889,14 +889,22 @@
       "open": 8049.0,
       "time": "2026-09-25",
       "volume": 2130
+    },
+    {
+      "close": 7824.5,
+      "high": 8012.0,
+      "low": 7800.0,
+      "open": 7900.0,
+      "time": "2026-09-28",
+      "volume": 3628
     }
   ],
   "company_name": "JOHN COCKERILL INDIA LIMITED",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE515A01019",
@@ -904,31 +912,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 49,
+    "momentum_score": 47,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.3x"
+    "volume_multiplier": "0.51x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.5,
-    "change_pct": 0.01,
-    "close": 7956.0,
-    "previous_close": 7955.5,
+    "as_of": "2026-09-28",
+    "change": -131.5,
+    "change_pct": -1.65,
+    "close": 7824.5,
+    "previous_close": 7956.0,
     "type": "EOD_CLOSE",
-    "volume": 2130
+    "volume": 3628
   },
   "range": {
-    "distance_from_high_pct": -26.82,
-    "distance_from_low_pct": 60.57,
+    "distance_from_high_pct": -28.03,
+    "distance_from_low_pct": 57.91,
     "high_52w": 10871.5,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 4955.0,
-    "range_position_pct": 50.72
+    "range_position_pct": 48.5
   },
   "risk_model": {
-    "invalidation_floor": 7677.54,
-    "risk_per_share": 437.58,
-    "technical_pivot": 8115.12
+    "invalidation_floor": 7550.64,
+    "risk_per_share": 430.35,
+    "technical_pivot": 7980.99
   },
   "schema_version": "1.0",
   "sector": null,

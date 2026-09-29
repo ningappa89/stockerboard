@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 201.17,
-      "high": 204.0,
-      "low": 200.2,
-      "open": 204.0,
-      "time": "2025-09-18",
-      "volume": 9250
-    },
-    {
       "close": 203.27,
       "high": 204.2,
       "low": 201.64,
@@ -2017,13 +2009,21 @@
       "open": 257.73,
       "time": "2026-09-25",
       "volume": 139221
+    },
+    {
+      "close": 229.31,
+      "high": 248.63,
+      "low": 228.66,
+      "open": 247.4,
+      "time": "2026-09-28",
+      "volume": 45792
     }
   ],
   "company_name": "UNITED DRILLING TOOLS LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 73,
+    "is_stage2": false,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.86x"
+    "volume_multiplier": "0.6x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -18.05,
-    "change_pct": -6.95,
-    "close": 241.71,
-    "previous_close": 259.76,
+    "as_of": "2026-09-28",
+    "change": -12.4,
+    "change_pct": -5.13,
+    "close": 229.31,
+    "previous_close": 241.71,
     "type": "EOD_CLOSE",
-    "volume": 139221
+    "volume": 45792
   },
   "range": {
-    "distance_from_high_pct": -11.14,
-    "distance_from_low_pct": 65.55,
+    "distance_from_high_pct": -15.69,
+    "distance_from_low_pct": 57.06,
     "high_52w": 272.0,
     "history_basis": "52_WEEK",
     "low_52w": 146.0,
-    "range_position_pct": 75.96
+    "range_position_pct": 66.12
   },
   "risk_model": {
-    "invalidation_floor": 233.25,
-    "risk_per_share": 13.29,
-    "technical_pivot": 246.54
+    "invalidation_floor": 221.28,
+    "risk_per_share": 12.62,
+    "technical_pivot": 233.9
   },
   "schema_version": "1.0",
   "sector": null,

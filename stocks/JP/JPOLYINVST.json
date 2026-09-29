@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 951.1,
-      "high": 984.0,
-      "low": 946.95,
-      "open": 977.25,
-      "time": "2025-09-18",
-      "volume": 9566
-    },
-    {
       "close": 935.0,
       "high": 961.2,
       "low": 922.05,
@@ -2017,13 +2009,21 @@
       "open": 964.15,
       "time": "2026-09-25",
       "volume": 2807
+    },
+    {
+      "close": 911.5,
+      "high": 961.05,
+      "low": 903.0,
+      "open": 946.55,
+      "time": "2026-09-28",
+      "volume": 11519
     }
   ],
   "company_name": "JINDAL POLY INVESTMENT AND FIN",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.5x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.25x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -7.75,
-    "change_pct": -0.8,
-    "close": 957.05,
-    "previous_close": 964.8,
+    "as_of": "2026-09-28",
+    "change": -45.55,
+    "change_pct": -4.76,
+    "close": 911.5,
+    "previous_close": 957.05,
     "type": "EOD_CLOSE",
-    "volume": 2807
+    "volume": 11519
   },
   "range": {
-    "distance_from_high_pct": -35.67,
-    "distance_from_low_pct": 12.32,
+    "distance_from_high_pct": -38.73,
+    "distance_from_low_pct": 6.97,
     "high_52w": 1487.7,
     "history_basis": "52_WEEK",
     "low_52w": 852.1,
-    "range_position_pct": 16.51
+    "range_position_pct": 9.35
   },
   "risk_model": {
-    "invalidation_floor": 923.55,
-    "risk_per_share": 52.64,
-    "technical_pivot": 976.19
+    "invalidation_floor": 879.6,
+    "risk_per_share": 50.13,
+    "technical_pivot": 929.73
   },
   "schema_version": "1.0",
   "sector": null,

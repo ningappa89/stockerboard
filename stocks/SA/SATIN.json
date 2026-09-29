@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 146.43,
-      "high": 148.13,
-      "low": 144.6,
-      "open": 148.1,
-      "time": "2025-09-18",
-      "volume": 153543
-    },
-    {
       "close": 147.0,
       "high": 147.99,
       "low": 144.87,
@@ -2017,13 +2009,21 @@
       "open": 224.89,
       "time": "2026-09-25",
       "volume": 421528
+    },
+    {
+      "close": 234.4,
+      "high": 239.39,
+      "low": 229.01,
+      "open": 237.91,
+      "time": "2026-09-28",
+      "volume": 331802
     }
   ],
   "company_name": "SATIN CREDIT NET LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.12x"
+    "momentum_score": 68,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.58x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 10.5,
-    "change_pct": 4.64,
-    "close": 236.65,
-    "previous_close": 226.15,
+    "as_of": "2026-09-28",
+    "change": -2.25,
+    "change_pct": -0.95,
+    "close": 234.4,
+    "previous_close": 236.65,
     "type": "EOD_CLOSE",
-    "volume": 421528
+    "volume": 331802
   },
   "range": {
-    "distance_from_high_pct": -13.68,
-    "distance_from_low_pct": 74.25,
+    "distance_from_high_pct": -14.5,
+    "distance_from_low_pct": 72.59,
     "high_52w": 274.14,
     "history_basis": "52_WEEK",
     "low_52w": 135.81,
-    "range_position_pct": 72.9
+    "range_position_pct": 71.27
   },
   "risk_model": {
-    "invalidation_floor": 228.37,
-    "risk_per_share": 13.01,
-    "technical_pivot": 241.38
+    "invalidation_floor": 226.2,
+    "risk_per_share": 12.89,
+    "technical_pivot": 239.09
   },
   "schema_version": "1.0",
   "sector": null,

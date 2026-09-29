@@ -1529,46 +1529,54 @@
       "open": 715.0,
       "time": "2026-09-25",
       "volume": 592871
+    },
+    {
+      "close": 674.0,
+      "high": 696.65,
+      "low": 667.25,
+      "open": 696.65,
+      "time": "2026-09-28",
+      "volume": 306073
     }
   ],
   "company_name": "NEPHROCARE HEALTH SERV L",
   "history": {
     "first_session": "2025-12-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 191
+    "last_session": "2026-09-28",
+    "sessions_available": 192
   },
   "industry": null,
   "isin": "INE428V01029",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 73,
+    "is_stage2": false,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.85x"
+    "volume_multiplier": "0.43x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -12.85,
-    "change_pct": -1.81,
-    "close": 696.65,
-    "previous_close": 709.5,
+    "as_of": "2026-09-28",
+    "change": -22.65,
+    "change_pct": -3.25,
+    "close": 674.0,
+    "previous_close": 696.65,
     "type": "EOD_CLOSE",
-    "volume": 592871
+    "volume": 306073
   },
   "range": {
-    "distance_from_high_pct": -10.86,
-    "distance_from_low_pct": 56.2,
+    "distance_from_high_pct": -13.76,
+    "distance_from_low_pct": 51.12,
     "high_52w": 781.5,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 446.0,
-    "range_position_pct": 74.71
+    "range_position_pct": 67.96
   },
   "risk_model": {
-    "invalidation_floor": 672.27,
-    "risk_per_share": 38.31,
-    "technical_pivot": 710.58
+    "invalidation_floor": 650.41,
+    "risk_per_share": 37.07,
+    "technical_pivot": 687.48
   },
   "schema_version": "1.0",
   "sector": null,

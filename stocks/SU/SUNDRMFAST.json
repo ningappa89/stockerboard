@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1043.7,
-      "high": 1071.1,
-      "low": 1038.5,
-      "open": 1062.0,
-      "time": "2025-09-18",
-      "volume": 62767
-    },
-    {
       "close": 1038.2,
       "high": 1050.5,
       "low": 1033.7,
@@ -2017,13 +2009,21 @@
       "open": 1172.0,
       "time": "2026-09-25",
       "volume": 66426
+    },
+    {
+      "close": 1166.6,
+      "high": 1182.9,
+      "low": 1160.7,
+      "open": 1178.9,
+      "time": "2026-09-28",
+      "volume": 78217
     }
   ],
   "company_name": "SUNDRAM FASTENERS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 71,
+    "is_stage2": false,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.26x"
+    "volume_multiplier": "0.31x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 6.6,
-    "change_pct": 0.56,
-    "close": 1178.9,
-    "previous_close": 1172.3,
+    "as_of": "2026-09-28",
+    "change": -12.3,
+    "change_pct": -1.04,
+    "close": 1166.6,
+    "previous_close": 1178.9,
     "type": "EOD_CLOSE",
-    "volume": 66426
+    "volume": 78217
   },
   "range": {
-    "distance_from_high_pct": -12.49,
-    "distance_from_low_pct": 61.47,
+    "distance_from_high_pct": -13.41,
+    "distance_from_low_pct": 59.79,
     "high_52w": 1347.2,
     "history_basis": "52_WEEK",
     "low_52w": 730.1,
-    "range_position_pct": 72.73
+    "range_position_pct": 70.73
   },
   "risk_model": {
-    "invalidation_floor": 1137.64,
-    "risk_per_share": 64.84,
-    "technical_pivot": 1202.48
+    "invalidation_floor": 1125.77,
+    "risk_per_share": 64.16,
+    "technical_pivot": 1189.93
   },
   "schema_version": "1.0",
   "sector": null,

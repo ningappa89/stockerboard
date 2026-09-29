@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 143.87,
-      "high": 146.9,
-      "low": 143.11,
-      "open": 144.99,
-      "time": "2025-09-18",
-      "volume": 254083
-    },
-    {
       "close": 143.28,
       "high": 149.27,
       "low": 141.15,
@@ -2017,13 +2009,21 @@
       "open": 204.4,
       "time": "2026-09-25",
       "volume": 2233858
+    },
+    {
+      "close": 202.85,
+      "high": 211.67,
+      "low": 201.62,
+      "open": 209.0,
+      "time": "2026-09-28",
+      "volume": 1280826
     }
   ],
   "company_name": "SUN PHARMA ADV.RES.CO.LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.98x"
+    "volume_multiplier": "1.18x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 5.07,
-    "change_pct": 2.49,
-    "close": 209.05,
-    "previous_close": 203.98,
+    "as_of": "2026-09-28",
+    "change": -6.2,
+    "change_pct": -2.97,
+    "close": 202.85,
+    "previous_close": 209.05,
     "type": "EOD_CLOSE",
-    "volume": 2233858
+    "volume": 1280826
   },
   "range": {
-    "distance_from_high_pct": -27.66,
-    "distance_from_low_pct": 93.56,
+    "distance_from_high_pct": -29.81,
+    "distance_from_low_pct": 87.82,
     "high_52w": 289.0,
     "history_basis": "52_WEEK",
     "low_52w": 108.0,
-    "range_position_pct": 55.83
+    "range_position_pct": 52.4
   },
   "risk_model": {
-    "invalidation_floor": 201.73,
-    "risk_per_share": 11.5,
-    "technical_pivot": 213.23
+    "invalidation_floor": 195.75,
+    "risk_per_share": 11.16,
+    "technical_pivot": 206.91
   },
   "schema_version": "1.0",
   "sector": null,

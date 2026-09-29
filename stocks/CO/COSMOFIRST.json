@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 920.65,
-      "high": 937.3,
-      "low": 917.35,
-      "open": 930.8,
-      "time": "2025-09-18",
-      "volume": 35865
-    },
-    {
       "close": 915.05,
       "high": 928.7,
       "low": 909.8,
@@ -2017,13 +2009,21 @@
       "open": 857.25,
       "time": "2026-09-25",
       "volume": 32823
+    },
+    {
+      "close": 842.75,
+      "high": 852.45,
+      "low": 833.7,
+      "open": 846.3,
+      "time": "2026-09-28",
+      "volume": 56362
     }
   ],
   "company_name": "Cosmo First Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 67,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.46x"
+    "volume_multiplier": "0.79x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -7.85,
-    "change_pct": -0.92,
-    "close": 849.4,
-    "previous_close": 857.25,
+    "as_of": "2026-09-28",
+    "change": -6.65,
+    "change_pct": -0.78,
+    "close": 842.75,
+    "previous_close": 849.4,
     "type": "EOD_CLOSE",
-    "volume": 32823
+    "volume": 56362
   },
   "range": {
-    "distance_from_high_pct": -14.72,
-    "distance_from_low_pct": 51.46,
+    "distance_from_high_pct": -15.39,
+    "distance_from_low_pct": 50.28,
     "high_52w": 996.0,
     "history_basis": "52_WEEK",
     "low_52w": 560.8,
-    "range_position_pct": 66.31
+    "range_position_pct": 64.79
   },
   "risk_model": {
-    "invalidation_floor": 819.67,
-    "risk_per_share": 46.72,
-    "technical_pivot": 866.39
+    "invalidation_floor": 813.25,
+    "risk_per_share": 46.36,
+    "technical_pivot": 859.61
   },
   "schema_version": "1.0",
   "sector": null,

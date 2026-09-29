@@ -329,46 +329,54 @@
       "open": 574.8,
       "time": "2026-09-25",
       "volume": 1672547
+    },
+    {
+      "close": 570.2,
+      "high": 599.95,
+      "low": 567.0,
+      "open": 595.7,
+      "time": "2026-09-28",
+      "volume": 312247
     }
   ],
   "company_name": "LOHIA CORP LIMITED",
   "history": {
     "first_session": "2026-07-30",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 41
+    "last_session": "2026-09-28",
+    "sessions_available": 42
   },
   "industry": null,
   "isin": "INE0QJW01029",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 86,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "3.15x"
+    "momentum_score": 80,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.59x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 19.15,
-    "change_pct": 3.33,
-    "close": 594.7,
-    "previous_close": 575.55,
+    "as_of": "2026-09-28",
+    "change": -24.5,
+    "change_pct": -4.12,
+    "close": 570.2,
+    "previous_close": 594.7,
     "type": "EOD_CLOSE",
-    "volume": 1672547
+    "volume": 312247
   },
   "range": {
-    "distance_from_high_pct": -2.41,
-    "distance_from_low_pct": 29.0,
+    "distance_from_high_pct": -6.43,
+    "distance_from_low_pct": 23.69,
     "high_52w": 609.4,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 461.0,
-    "range_position_pct": 90.09
+    "range_position_pct": 73.58
   },
   "risk_model": {
-    "invalidation_floor": 573.89,
-    "risk_per_share": 32.7,
-    "technical_pivot": 606.59
+    "invalidation_floor": 550.24,
+    "risk_per_share": 31.36,
+    "technical_pivot": 581.6
   },
   "schema_version": "1.0",
   "sector": null,

@@ -889,14 +889,22 @@
       "open": 5.88,
       "time": "2026-09-25",
       "volume": 1363067
+    },
+    {
+      "close": 7.21,
+      "high": 7.4,
+      "low": 6.57,
+      "open": 6.63,
+      "time": "2026-09-28",
+      "volume": 3901800
     }
   ],
   "company_name": "COMFORT INTECH LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE819A01049",
@@ -904,31 +912,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 46,
+    "momentum_score": 57,
     "setup_type": "Volume Expansion",
-    "volume_multiplier": "6.52x"
+    "volume_multiplier": "9.77x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.82,
-    "change_pct": 14.41,
-    "close": 6.51,
-    "previous_close": 5.69,
+    "as_of": "2026-09-28",
+    "change": 0.7,
+    "change_pct": 10.75,
+    "close": 7.21,
+    "previous_close": 6.51,
     "type": "EOD_CLOSE",
-    "volume": 1363067
+    "volume": 3901800
   },
   "range": {
-    "distance_from_high_pct": -29.16,
-    "distance_from_low_pct": 24.95,
+    "distance_from_high_pct": -21.55,
+    "distance_from_low_pct": 38.39,
     "high_52w": 9.19,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 5.21,
-    "range_position_pct": 32.66
+    "range_position_pct": 50.25
   },
   "risk_model": {
-    "invalidation_floor": 6.28,
+    "invalidation_floor": 6.96,
     "risk_per_share": 0.5,
-    "technical_pivot": 6.64
+    "technical_pivot": 7.35
   },
   "schema_version": "1.0",
   "sector": null,

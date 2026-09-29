@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1514.8,
-      "high": 1560.0,
-      "low": 1507.4,
-      "open": 1516.7,
-      "time": "2025-09-18",
-      "volume": 52115
-    },
-    {
       "close": 1482.7,
       "high": 1514.8,
       "low": 1476.0,
@@ -2017,13 +2009,21 @@
       "open": 2237.0,
       "time": "2026-09-25",
       "volume": 164986
+    },
+    {
+      "close": 2153.9,
+      "high": 2194.9,
+      "low": 2136.0,
+      "open": 2194.9,
+      "time": "2026-09-28",
+      "volume": 82299
     }
   ],
   "company_name": "BALAJI AMINES LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
+    "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.75x"
+    "volume_multiplier": "0.38x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -36.4,
-    "change_pct": -1.64,
-    "close": 2189.6,
-    "previous_close": 2226.0,
+    "as_of": "2026-09-28",
+    "change": -35.7,
+    "change_pct": -1.63,
+    "close": 2153.9,
+    "previous_close": 2189.6,
     "type": "EOD_CLOSE",
-    "volume": 164986
+    "volume": 82299
   },
   "range": {
-    "distance_from_high_pct": -16.74,
-    "distance_from_low_pct": 126.17,
+    "distance_from_high_pct": -18.1,
+    "distance_from_low_pct": 122.49,
     "high_52w": 2629.8,
     "history_basis": "52_WEEK",
     "low_52w": 968.1,
-    "range_position_pct": 73.51
+    "range_position_pct": 71.36
   },
   "risk_model": {
-    "invalidation_floor": 2112.96,
-    "risk_per_share": 120.43,
-    "technical_pivot": 2233.39
+    "invalidation_floor": 2078.51,
+    "risk_per_share": 118.47,
+    "technical_pivot": 2196.98
   },
   "schema_version": "1.0",
   "sector": null,

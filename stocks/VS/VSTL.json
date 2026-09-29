@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 160.98,
-      "high": 163.79,
-      "low": 160.0,
-      "open": 163.79,
-      "time": "2025-09-18",
-      "volume": 16347
-    },
-    {
       "close": 162.63,
       "high": 164.0,
       "low": 160.01,
@@ -2017,13 +2009,21 @@
       "open": 113.0,
       "time": "2026-09-25",
       "volume": 3529
+    },
+    {
+      "close": 111.23,
+      "high": 114.89,
+      "low": 110.5,
+      "open": 113.76,
+      "time": "2026-09-28",
+      "volume": 5590
     }
   ],
   "company_name": "VIBHOR STEEL TUBES LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 43,
+    "momentum_score": 41,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.28x"
+    "volume_multiplier": "0.46x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.89,
-    "change_pct": 0.79,
-    "close": 113.76,
-    "previous_close": 112.87,
+    "as_of": "2026-09-28",
+    "change": -2.53,
+    "change_pct": -2.22,
+    "close": 111.23,
+    "previous_close": 113.76,
     "type": "EOD_CLOSE",
-    "volume": 3529
+    "volume": 5590
   },
   "range": {
-    "distance_from_high_pct": -30.88,
-    "distance_from_low_pct": 12.86,
+    "distance_from_high_pct": -32.42,
+    "distance_from_low_pct": 10.35,
     "high_52w": 164.58,
     "history_basis": "52_WEEK",
     "low_52w": 100.8,
-    "range_position_pct": 20.32
+    "range_position_pct": 16.35
   },
   "risk_model": {
-    "invalidation_floor": 109.78,
-    "risk_per_share": 6.26,
-    "technical_pivot": 116.04
+    "invalidation_floor": 107.34,
+    "risk_per_share": 6.11,
+    "technical_pivot": 113.45
   },
   "schema_version": "1.0",
   "sector": null,

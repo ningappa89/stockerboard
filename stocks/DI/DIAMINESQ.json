@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 370.45,
-      "high": 372.4,
-      "low": 360.3,
-      "open": 361.15,
-      "time": "2025-09-18",
-      "volume": 4392
-    },
-    {
       "close": 374.5,
       "high": 377.1,
       "low": 365.15,
@@ -2017,13 +2009,21 @@
       "open": 244.7,
       "time": "2026-09-25",
       "volume": 5139
+    },
+    {
+      "close": 240.18,
+      "high": 251.79,
+      "low": 235.5,
+      "open": 246.29,
+      "time": "2026-09-28",
+      "volume": 3421
     }
   ],
   "company_name": "DIAMINES & CHEMICALS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.92x"
+    "volume_multiplier": "0.68x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.41,
-    "change_pct": 0.57,
-    "close": 248.25,
-    "previous_close": 246.84,
+    "as_of": "2026-09-28",
+    "change": -8.07,
+    "change_pct": -3.25,
+    "close": 240.18,
+    "previous_close": 248.25,
     "type": "EOD_CLOSE",
-    "volume": 5139
+    "volume": 3421
   },
   "range": {
-    "distance_from_high_pct": -34.17,
-    "distance_from_low_pct": 19.35,
+    "distance_from_high_pct": -36.31,
+    "distance_from_low_pct": 15.47,
     "high_52w": 377.1,
     "history_basis": "52_WEEK",
     "low_52w": 208.01,
-    "range_position_pct": 23.8
+    "range_position_pct": 19.03
   },
   "risk_model": {
-    "invalidation_floor": 239.56,
-    "risk_per_share": 13.66,
-    "technical_pivot": 253.22
+    "invalidation_floor": 231.77,
+    "risk_per_share": 13.21,
+    "technical_pivot": 244.98
   },
   "schema_version": "1.0",
   "sector": null,

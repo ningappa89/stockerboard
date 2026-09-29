@@ -1921,14 +1921,22 @@
       "open": 146.1,
       "time": "2026-09-25",
       "volume": 55026
+    },
+    {
+      "close": 144.26,
+      "high": 149.9,
+      "low": 142.56,
+      "open": 149.9,
+      "time": "2026-09-28",
+      "volume": 88065
     }
   ],
   "company_name": "Fabtech Technologies Limited",
   "history": {
     "first_session": "2025-10-07",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 240
+    "last_session": "2026-09-28",
+    "sessions_available": 241
   },
   "industry": null,
   "isin": "INE0HF201011",
@@ -1938,29 +1946,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.77x"
+    "volume_multiplier": "1.2x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.64,
-    "change_pct": -0.44,
-    "close": 145.83,
-    "previous_close": 146.47,
+    "as_of": "2026-09-28",
+    "change": -1.57,
+    "change_pct": -1.08,
+    "close": 144.26,
+    "previous_close": 145.83,
     "type": "EOD_CLOSE",
-    "volume": 55026
+    "volume": 88065
   },
   "range": {
-    "distance_from_high_pct": -44.51,
-    "distance_from_low_pct": 9.89,
+    "distance_from_high_pct": -45.11,
+    "distance_from_low_pct": 8.71,
     "high_52w": 262.8,
     "history_basis": "52_WEEK",
     "low_52w": 132.7,
-    "range_position_pct": 10.09
+    "range_position_pct": 8.89
   },
   "risk_model": {
-    "invalidation_floor": 140.73,
-    "risk_per_share": 8.02,
-    "technical_pivot": 148.75
+    "invalidation_floor": 139.21,
+    "risk_per_share": 7.94,
+    "technical_pivot": 147.15
   },
   "schema_version": "1.0",
   "sector": null,

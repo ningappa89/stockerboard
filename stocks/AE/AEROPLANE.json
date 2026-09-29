@@ -393,46 +393,54 @@
       "open": 207.55,
       "time": "2026-09-25",
       "volume": 709126
+    },
+    {
+      "close": 201.09,
+      "high": 212.07,
+      "low": 200.0,
+      "open": 209.54,
+      "time": "2026-09-28",
+      "volume": 462373
     }
   ],
   "company_name": "Amir Chand Jagdish Kumar (Expo",
   "history": {
     "first_session": "2026-07-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 49
+    "last_session": "2026-09-28",
+    "sessions_available": 50
   },
   "industry": null,
   "isin": "INE05TO01019",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 88,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.84x"
+    "momentum_score": 82,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.54x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 7.49,
-    "change_pct": 3.71,
-    "close": 209.47,
-    "previous_close": 201.98,
+    "as_of": "2026-09-28",
+    "change": -8.38,
+    "change_pct": -4.0,
+    "close": 201.09,
+    "previous_close": 209.47,
     "type": "EOD_CLOSE",
-    "volume": 709126
+    "volume": 462373
   },
   "range": {
-    "distance_from_high_pct": -1.15,
-    "distance_from_low_pct": 23.18,
-    "high_52w": 211.9,
+    "distance_from_high_pct": -5.18,
+    "distance_from_low_pct": 18.25,
+    "high_52w": 212.07,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 170.05,
-    "range_position_pct": 94.19
+    "range_position_pct": 73.87
   },
   "risk_model": {
-    "invalidation_floor": 202.14,
-    "risk_per_share": 11.52,
-    "technical_pivot": 213.66
+    "invalidation_floor": 194.05,
+    "risk_per_share": 11.06,
+    "technical_pivot": 205.11
   },
   "schema_version": "1.0",
   "sector": null,

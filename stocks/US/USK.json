@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 31.71,
-      "high": 32.46,
-      "low": 31.5,
-      "open": 32.03,
-      "time": "2025-09-18",
-      "volume": 51394
-    },
-    {
       "close": 31.51,
       "high": 32.0,
       "low": 31.21,
@@ -2017,13 +2009,21 @@
       "open": 19.61,
       "time": "2026-09-25",
       "volume": 30738
+    },
+    {
+      "close": 19.31,
+      "high": 19.85,
+      "low": 18.9,
+      "open": 19.85,
+      "time": "2026-09-28",
+      "volume": 40086
     }
   ],
   "company_name": "UDAYSHIVAKUMAR INFRA LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.63x"
+    "volume_multiplier": "1.97x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.25,
-    "change_pct": 1.27,
-    "close": 19.86,
-    "previous_close": 19.61,
+    "as_of": "2026-09-28",
+    "change": -0.55,
+    "change_pct": -2.77,
+    "close": 19.31,
+    "previous_close": 19.86,
     "type": "EOD_CLOSE",
-    "volume": 30738
+    "volume": 40086
   },
   "range": {
-    "distance_from_high_pct": -43.53,
-    "distance_from_low_pct": 4.69,
+    "distance_from_high_pct": -45.1,
+    "distance_from_low_pct": 2.17,
     "high_52w": 35.17,
     "history_basis": "52_WEEK",
-    "low_52w": 18.97,
-    "range_position_pct": 5.49
+    "low_52w": 18.9,
+    "range_position_pct": 2.52
   },
   "risk_model": {
-    "invalidation_floor": 19.16,
-    "risk_per_share": 1.1,
-    "technical_pivot": 20.26
+    "invalidation_floor": 18.63,
+    "risk_per_share": 1.07,
+    "technical_pivot": 19.7
   },
   "schema_version": "1.0",
   "sector": null,

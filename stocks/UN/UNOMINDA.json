@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1312.6,
-      "high": 1318.6,
-      "low": 1300.1,
-      "open": 1300.9,
-      "time": "2025-09-18",
-      "volume": 764966
-    },
-    {
       "close": 1319.7,
       "high": 1328.0,
       "low": 1307.2,
@@ -2017,13 +2009,21 @@
       "open": 1224.4,
       "time": "2026-09-25",
       "volume": 272547
+    },
+    {
+      "close": 1173.0,
+      "high": 1214.2,
+      "low": 1167.2,
+      "open": 1211.5,
+      "time": "2026-09-28",
+      "volume": 605484
     }
   ],
   "company_name": "UNO MINDA LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Automobile and Auto Components",
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 72,
+    "is_stage2": false,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.44x"
+    "volume_multiplier": "0.97x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -6.4,
-    "change_pct": -0.52,
-    "close": 1218.0,
-    "previous_close": 1224.4,
+    "as_of": "2026-09-28",
+    "change": -45.0,
+    "change_pct": -3.69,
+    "close": 1173.0,
+    "previous_close": 1218.0,
     "type": "EOD_CLOSE",
-    "volume": 272547
+    "volume": 605484
   },
   "range": {
-    "distance_from_high_pct": -11.87,
-    "distance_from_low_pct": 22.54,
+    "distance_from_high_pct": -15.12,
+    "distance_from_low_pct": 18.01,
     "high_52w": 1382.0,
     "history_basis": "52_WEEK",
     "low_52w": 994.0,
-    "range_position_pct": 57.73
+    "range_position_pct": 46.13
   },
   "risk_model": {
-    "invalidation_floor": 1175.37,
-    "risk_per_share": 66.99,
-    "technical_pivot": 1242.36
+    "invalidation_floor": 1131.94,
+    "risk_per_share": 64.52,
+    "technical_pivot": 1196.46
   },
   "schema_version": "1.0",
   "sector": "Automobile and Auto Components",

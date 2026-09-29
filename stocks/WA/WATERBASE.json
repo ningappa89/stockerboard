@@ -233,14 +233,22 @@
       "open": 45.92,
       "time": "2026-09-25",
       "volume": 7545
+    },
+    {
+      "close": 44.56,
+      "high": 46.35,
+      "low": 44.25,
+      "open": 45.02,
+      "time": "2026-09-28",
+      "volume": 21954
     }
   ],
   "company_name": "WATERBASE LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE054C01015",
@@ -248,31 +256,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.4x"
+    "volume_multiplier": "1.2x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.07,
-    "change_pct": 0.15,
-    "close": 45.43,
-    "previous_close": 45.36,
+    "as_of": "2026-09-28",
+    "change": -0.87,
+    "change_pct": -1.92,
+    "close": 44.56,
+    "previous_close": 45.43,
     "type": "EOD_CLOSE",
-    "volume": 7545
+    "volume": 21954
   },
   "range": {
-    "distance_from_high_pct": -15.87,
-    "distance_from_low_pct": 4.15,
+    "distance_from_high_pct": -17.48,
+    "distance_from_low_pct": 2.15,
     "high_52w": 54.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 43.62,
-    "range_position_pct": 17.44
+    "range_position_pct": 9.06
   },
   "risk_model": {
-    "invalidation_floor": 43.84,
-    "risk_per_share": 2.5,
-    "technical_pivot": 46.34
+    "invalidation_floor": 43.0,
+    "risk_per_share": 2.45,
+    "technical_pivot": 45.45
   },
   "schema_version": "1.0",
   "sector": null,

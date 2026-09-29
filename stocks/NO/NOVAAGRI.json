@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 50.52,
-      "high": 51.45,
-      "low": 50.37,
-      "open": 51.45,
-      "time": "2025-09-18",
-      "volume": 71812
-    },
-    {
       "close": 51.06,
       "high": 51.25,
       "low": 50.6,
@@ -2017,13 +2009,21 @@
       "open": 22.0,
       "time": "2026-09-25",
       "volume": 61655
+    },
+    {
+      "close": 22.48,
+      "high": 23.5,
+      "low": 21.5,
+      "open": 23.5,
+      "time": "2026-09-28",
+      "volume": 39405
     }
   ],
   "company_name": "NOVA AGRITECH LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.18x"
+    "volume_multiplier": "0.78x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.11,
-    "change_pct": -0.48,
-    "close": 22.9,
-    "previous_close": 23.01,
+    "as_of": "2026-09-28",
+    "change": -0.42,
+    "change_pct": -1.83,
+    "close": 22.48,
+    "previous_close": 22.9,
     "type": "EOD_CLOSE",
-    "volume": 61655
+    "volume": 39405
   },
   "range": {
-    "distance_from_high_pct": -55.95,
-    "distance_from_low_pct": 26.38,
+    "distance_from_high_pct": -56.76,
+    "distance_from_low_pct": 24.06,
     "high_52w": 51.99,
     "history_basis": "52_WEEK",
     "low_52w": 18.12,
-    "range_position_pct": 14.11
+    "range_position_pct": 12.87
   },
   "risk_model": {
-    "invalidation_floor": 22.1,
-    "risk_per_share": 1.26,
-    "technical_pivot": 23.36
+    "invalidation_floor": 21.69,
+    "risk_per_share": 1.24,
+    "technical_pivot": 22.93
   },
   "schema_version": "1.0",
   "sector": null,

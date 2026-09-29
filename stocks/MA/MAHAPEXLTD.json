@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 102.89,
-      "high": 103.97,
-      "low": 101.06,
-      "open": 102.9,
-      "time": "2025-09-18",
-      "volume": 1431
-    },
-    {
       "close": 104.31,
       "high": 105.0,
       "low": 101.0,
@@ -2017,13 +2009,21 @@
       "open": 50.98,
       "time": "2026-09-25",
       "volume": 9986
+    },
+    {
+      "close": 51.08,
+      "high": 53.84,
+      "low": 50.52,
+      "open": 51.51,
+      "time": "2026-09-28",
+      "volume": 12763
     }
   ],
   "company_name": "MAHA RASHTRA APEX COPR. L",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.63x"
+    "volume_multiplier": "0.8x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.16,
-    "change_pct": -0.31,
-    "close": 51.58,
-    "previous_close": 51.74,
+    "as_of": "2026-09-28",
+    "change": -0.5,
+    "change_pct": -0.97,
+    "close": 51.08,
+    "previous_close": 51.58,
     "type": "EOD_CLOSE",
-    "volume": 9986
+    "volume": 12763
   },
   "range": {
-    "distance_from_high_pct": -63.14,
-    "distance_from_low_pct": 22.81,
+    "distance_from_high_pct": -63.5,
+    "distance_from_low_pct": 21.62,
     "high_52w": 139.94,
     "history_basis": "52_WEEK",
     "low_52w": 42.0,
-    "range_position_pct": 9.78
+    "range_position_pct": 9.27
   },
   "risk_model": {
-    "invalidation_floor": 49.77,
-    "risk_per_share": 2.84,
-    "technical_pivot": 52.61
+    "invalidation_floor": 49.29,
+    "risk_per_share": 2.81,
+    "technical_pivot": 52.1
   },
   "schema_version": "1.0",
   "sector": null,

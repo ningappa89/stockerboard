@@ -225,14 +225,22 @@
       "open": 165.9,
       "time": "2026-09-25",
       "volume": 7353
+    },
+    {
+      "close": 162.0,
+      "high": 168.45,
+      "low": 162.0,
+      "open": 167.9,
+      "time": "2026-09-28",
+      "volume": 1262
     }
   ],
   "company_name": "YOGI LIMITED",
   "history": {
     "first_session": "2026-08-18",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 28
+    "last_session": "2026-09-28",
+    "sessions_available": 29
   },
   "industry": null,
   "isin": "INE290E01011",
@@ -240,31 +248,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 74,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "5.85x"
+    "momentum_score": 75,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.98x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.9,
-    "change_pct": -1.77,
-    "close": 161.1,
-    "previous_close": 164.0,
+    "as_of": "2026-09-28",
+    "change": 0.9,
+    "change_pct": 0.56,
+    "close": 162.0,
+    "previous_close": 161.1,
     "type": "EOD_CLOSE",
-    "volume": 7353
+    "volume": 1262
   },
   "range": {
-    "distance_from_high_pct": -10.5,
-    "distance_from_low_pct": 23.91,
+    "distance_from_high_pct": -10.0,
+    "distance_from_low_pct": 24.61,
     "high_52w": 180.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 130.01,
-    "range_position_pct": 62.19
+    "range_position_pct": 63.99
   },
   "risk_model": {
-    "invalidation_floor": 155.46,
-    "risk_per_share": 8.86,
-    "technical_pivot": 164.32
+    "invalidation_floor": 156.33,
+    "risk_per_share": 8.91,
+    "technical_pivot": 165.24
   },
   "schema_version": "1.0",
   "sector": null,

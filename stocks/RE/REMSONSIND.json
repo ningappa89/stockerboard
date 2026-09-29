@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 127.92,
-      "high": 129.1,
-      "low": 124.0,
-      "open": 124.0,
-      "time": "2025-09-18",
-      "volume": 121038
-    },
-    {
       "close": 125.8,
       "high": 130.8,
       "low": 125.0,
@@ -2017,13 +2009,21 @@
       "open": 116.4,
       "time": "2026-09-25",
       "volume": 4262134
+    },
+    {
+      "close": 120.39,
+      "high": 130.0,
+      "low": 116.0,
+      "open": 122.29,
+      "time": "2026-09-28",
+      "volume": 1550404
     }
   ],
   "company_name": "REMSONS INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 54,
+    "momentum_score": 58,
     "setup_type": "Volume Expansion",
-    "volume_multiplier": "9.48x"
+    "volume_multiplier": "2.99x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 5.68,
-    "change_pct": 5.11,
-    "close": 116.8,
-    "previous_close": 111.12,
+    "as_of": "2026-09-28",
+    "change": 3.59,
+    "change_pct": 3.07,
+    "close": 120.39,
+    "previous_close": 116.8,
     "type": "EOD_CLOSE",
-    "volume": 4262134
+    "volume": 1550404
   },
   "range": {
-    "distance_from_high_pct": -23.38,
-    "distance_from_low_pct": 55.26,
+    "distance_from_high_pct": -21.03,
+    "distance_from_low_pct": 60.03,
     "high_52w": 152.45,
     "history_basis": "52_WEEK",
     "low_52w": 75.23,
-    "range_position_pct": 53.83
+    "range_position_pct": 58.48
   },
   "risk_model": {
-    "invalidation_floor": 112.71,
-    "risk_per_share": 6.43,
-    "technical_pivot": 119.14
+    "invalidation_floor": 116.18,
+    "risk_per_share": 6.62,
+    "technical_pivot": 122.8
   },
   "schema_version": "1.0",
   "sector": null,

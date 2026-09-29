@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 75.13,
-      "high": 77.22,
-      "low": 74.85,
-      "open": 75.06,
-      "time": "2025-09-18",
-      "volume": 100448
-    },
-    {
       "close": 75.22,
       "high": 75.99,
       "low": 74.72,
@@ -2017,13 +2009,21 @@
       "open": 140.0,
       "time": "2026-09-25",
       "volume": 179885
+    },
+    {
+      "close": 137.55,
+      "high": 141.94,
+      "low": 133.85,
+      "open": 141.94,
+      "time": "2026-09-28",
+      "volume": 114414
     }
   ],
   "company_name": "ZIM Laboratories Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 83,
+    "momentum_score": 82,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.17x"
+    "volume_multiplier": "0.73x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.66,
-    "change_pct": 0.48,
-    "close": 138.48,
-    "previous_close": 137.82,
+    "as_of": "2026-09-28",
+    "change": -0.93,
+    "change_pct": -0.67,
+    "close": 137.55,
+    "previous_close": 138.48,
     "type": "EOD_CLOSE",
-    "volume": 179885
+    "volume": 114414
   },
   "range": {
-    "distance_from_high_pct": -4.16,
-    "distance_from_low_pct": 133.49,
+    "distance_from_high_pct": -4.8,
+    "distance_from_low_pct": 131.92,
     "high_52w": 144.49,
     "history_basis": "52_WEEK",
     "low_52w": 59.31,
-    "range_position_pct": 92.94
+    "range_position_pct": 91.85
   },
   "risk_model": {
-    "invalidation_floor": 133.63,
-    "risk_per_share": 7.62,
-    "technical_pivot": 141.25
+    "invalidation_floor": 132.74,
+    "risk_per_share": 7.56,
+    "technical_pivot": 140.3
   },
   "schema_version": "1.0",
   "sector": null,

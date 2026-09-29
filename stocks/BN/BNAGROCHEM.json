@@ -881,14 +881,22 @@
       "open": 210.2,
       "time": "2026-09-25",
       "volume": 1315
+    },
+    {
+      "close": 208.0,
+      "high": 210.0,
+      "low": 205.92,
+      "open": 209.0,
+      "time": "2026-09-28",
+      "volume": 130
     }
   ],
   "company_name": "BN AGROCHEM LIMITED",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 110
+    "last_session": "2026-09-28",
+    "sessions_available": 111
   },
   "industry": null,
   "isin": "INE00HZ01011",
@@ -898,29 +906,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.2x"
+    "volume_multiplier": "0.03x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.41,
-    "change_pct": 0.2,
-    "close": 208.4,
-    "previous_close": 207.99,
+    "as_of": "2026-09-28",
+    "change": -0.4,
+    "change_pct": -0.19,
+    "close": 208.0,
+    "previous_close": 208.4,
     "type": "EOD_CLOSE",
-    "volume": 1315
+    "volume": 130
   },
   "range": {
-    "distance_from_high_pct": -47.21,
-    "distance_from_low_pct": 8.41,
+    "distance_from_high_pct": -47.32,
+    "distance_from_low_pct": 8.2,
     "high_52w": 394.8,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 192.23,
-    "range_position_pct": 7.98
+    "range_position_pct": 7.78
   },
   "risk_model": {
-    "invalidation_floor": 201.11,
-    "risk_per_share": 11.46,
-    "technical_pivot": 212.57
+    "invalidation_floor": 200.72,
+    "risk_per_share": 11.44,
+    "technical_pivot": 212.16
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 34.85,
-      "high": 36.4,
-      "low": 34.25,
-      "open": 35.47,
-      "time": "2025-09-18",
-      "volume": 8608
-    },
-    {
       "close": 35.09,
       "high": 35.17,
       "low": 33.61,
@@ -2017,13 +2009,21 @@
       "open": 35.84,
       "time": "2026-09-25",
       "volume": 57655
+    },
+    {
+      "close": 35.33,
+      "high": 36.3,
+      "low": 34.31,
+      "open": 35.15,
+      "time": "2026-09-28",
+      "volume": 51893
     }
   ],
   "company_name": "Vineet Laboratories Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 44,
+    "momentum_score": 46,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.65x"
+    "volume_multiplier": "0.58x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.08,
-    "change_pct": -0.23,
-    "close": 34.85,
-    "previous_close": 34.93,
+    "as_of": "2026-09-28",
+    "change": 0.48,
+    "change_pct": 1.38,
+    "close": 35.33,
+    "previous_close": 34.85,
     "type": "EOD_CLOSE",
-    "volume": 57655
+    "volume": 51893
   },
   "range": {
-    "distance_from_high_pct": -30.29,
-    "distance_from_low_pct": 24.64,
+    "distance_from_high_pct": -29.33,
+    "distance_from_low_pct": 26.36,
     "high_52w": 49.99,
     "history_basis": "52_WEEK",
     "low_52w": 27.96,
-    "range_position_pct": 31.28
+    "range_position_pct": 33.45
   },
   "risk_model": {
-    "invalidation_floor": 33.63,
-    "risk_per_share": 1.92,
-    "technical_pivot": 35.55
+    "invalidation_floor": 34.09,
+    "risk_per_share": 1.95,
+    "technical_pivot": 36.04
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1824.5,
-      "high": 1827.4,
-      "low": 1803.1,
-      "open": 1806.0,
-      "time": "2025-09-18",
-      "volume": 2107488
-    },
-    {
       "close": 1795.3,
       "high": 1830.0,
       "low": 1792.1,
@@ -2017,13 +2009,21 @@
       "open": 1786.9,
       "time": "2026-09-25",
       "volume": 803153
+    },
+    {
+      "close": 1773.0,
+      "high": 1786.0,
+      "low": 1767.5,
+      "open": 1786.0,
+      "time": "2026-09-28",
+      "volume": 1102782
     }
   ],
   "company_name": "COFORGE LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Information Technology",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 72,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.31x"
+    "volume_multiplier": "0.46x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.9,
-    "change_pct": -0.11,
-    "close": 1784.0,
-    "previous_close": 1785.9,
+    "as_of": "2026-09-28",
+    "change": -11.0,
+    "change_pct": -0.62,
+    "close": 1773.0,
+    "previous_close": 1784.0,
     "type": "EOD_CLOSE",
-    "volume": 803153
+    "volume": 1102782
   },
   "range": {
-    "distance_from_high_pct": -11.74,
-    "distance_from_low_pct": 76.97,
+    "distance_from_high_pct": -12.28,
+    "distance_from_low_pct": 75.88,
     "high_52w": 2021.2,
     "history_basis": "52_WEEK",
     "low_52w": 1008.1,
-    "range_position_pct": 76.59
+    "range_position_pct": 75.5
   },
   "risk_model": {
-    "invalidation_floor": 1721.56,
-    "risk_per_share": 98.12,
-    "technical_pivot": 1819.68
+    "invalidation_floor": 1710.94,
+    "risk_per_share": 97.52,
+    "technical_pivot": 1808.46
   },
   "schema_version": "1.0",
   "sector": "Information Technology",

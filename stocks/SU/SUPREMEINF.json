@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 103.39,
-      "high": 107.25,
-      "low": 102.01,
-      "open": 107.25,
-      "time": "2025-09-18",
-      "volume": 5946
-    },
-    {
       "close": 104.89,
       "high": 107.92,
       "low": 100.0,
@@ -2017,13 +2009,21 @@
       "open": 82.5,
       "time": "2026-09-25",
       "volume": 17086
+    },
+    {
+      "close": 79.72,
+      "high": 83.0,
+      "low": 78.0,
+      "open": 81.29,
+      "time": "2026-09-28",
+      "volume": 35228
     }
   ],
   "company_name": "SUPREME INFRASTRUCTURE INDIA L",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 46,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.36x"
+    "volume_multiplier": "0.76x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.9,
-    "change_pct": 1.12,
-    "close": 81.29,
-    "previous_close": 80.39,
+    "as_of": "2026-09-28",
+    "change": -1.57,
+    "change_pct": -1.93,
+    "close": 79.72,
+    "previous_close": 81.29,
     "type": "EOD_CLOSE",
-    "volume": 17086
+    "volume": 35228
   },
   "range": {
-    "distance_from_high_pct": -27.42,
-    "distance_from_low_pct": 39.89,
+    "distance_from_high_pct": -28.82,
+    "distance_from_low_pct": 37.19,
     "high_52w": 112.0,
     "history_basis": "52_WEEK",
     "low_52w": 58.11,
-    "range_position_pct": 43.01
+    "range_position_pct": 40.1
   },
   "risk_model": {
-    "invalidation_floor": 78.44,
-    "risk_per_share": 4.48,
-    "technical_pivot": 82.92
+    "invalidation_floor": 76.93,
+    "risk_per_share": 4.38,
+    "technical_pivot": 81.31
   },
   "schema_version": "1.0",
   "sector": null,

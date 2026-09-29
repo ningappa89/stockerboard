@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 448.45,
-      "high": 450.0,
-      "low": 442.4,
-      "open": 445.0,
-      "time": "2025-09-18",
-      "volume": 151048
-    },
-    {
       "close": 447.45,
       "high": 450.2,
       "low": 443.05,
@@ -2017,13 +2009,21 @@
       "open": 333.0,
       "time": "2026-09-25",
       "volume": 204487
+    },
+    {
+      "close": 325.85,
+      "high": 337.6,
+      "low": 324.15,
+      "open": 335.4,
+      "time": "2026-09-28",
+      "volume": 220322
     }
   ],
   "company_name": "Nuvoco Vistas Corporation Limi",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 51,
+    "momentum_score": 47,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.5x"
+    "volume_multiplier": "0.54x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.45,
-    "change_pct": 0.13,
-    "close": 335.45,
-    "previous_close": 335.0,
+    "as_of": "2026-09-28",
+    "change": -9.6,
+    "change_pct": -2.86,
+    "close": 325.85,
+    "previous_close": 335.45,
     "type": "EOD_CLOSE",
-    "volume": 204487
+    "volume": 220322
   },
   "range": {
-    "distance_from_high_pct": -25.99,
-    "distance_from_low_pct": 21.43,
+    "distance_from_high_pct": -28.11,
+    "distance_from_low_pct": 17.95,
     "high_52w": 453.25,
     "history_basis": "52_WEEK",
     "low_52w": 276.25,
-    "range_position_pct": 33.45
+    "range_position_pct": 28.02
   },
   "risk_model": {
-    "invalidation_floor": 323.71,
-    "risk_per_share": 18.45,
-    "technical_pivot": 342.16
+    "invalidation_floor": 314.45,
+    "risk_per_share": 17.92,
+    "technical_pivot": 332.37
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 234.13,
-      "high": 238.4,
-      "low": 232.5,
-      "open": 234.14,
-      "time": "2025-09-18",
-      "volume": 301228
-    },
-    {
       "close": 245.46,
       "high": 246.95,
       "low": 233.15,
@@ -2017,13 +2009,21 @@
       "open": 137.2,
       "time": "2026-09-25",
       "volume": 177289
+    },
+    {
+      "close": 158.66,
+      "high": 163.75,
+      "low": 137.71,
+      "open": 139.9,
+      "time": "2026-09-28",
+      "volume": 18844708
     }
   ],
   "company_name": "DAM Capital Advisors Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.94x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "16.75x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.98,
-    "change_pct": 0.71,
-    "close": 138.18,
-    "previous_close": 137.2,
+    "as_of": "2026-09-28",
+    "change": 20.48,
+    "change_pct": 14.82,
+    "close": 158.66,
+    "previous_close": 138.18,
     "type": "EOD_CLOSE",
-    "volume": 177289
+    "volume": 18844708
   },
   "range": {
-    "distance_from_high_pct": -51.69,
-    "distance_from_low_pct": 15.9,
+    "distance_from_high_pct": -44.52,
+    "distance_from_low_pct": 33.08,
     "high_52w": 286.0,
     "history_basis": "52_WEEK",
     "low_52w": 119.22,
-    "range_position_pct": 11.37
+    "range_position_pct": 23.65
   },
   "risk_model": {
-    "invalidation_floor": 133.34,
-    "risk_per_share": 7.6,
-    "technical_pivot": 140.94
+    "invalidation_floor": 153.11,
+    "risk_per_share": 8.72,
+    "technical_pivot": 161.83
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 43.34,
-      "high": 44.78,
-      "low": 42.06,
-      "open": 44.78,
-      "time": "2025-09-18",
-      "volume": 15099861
-    },
-    {
       "close": 44.2,
       "high": 44.6,
       "low": 41.86,
@@ -2017,13 +2009,21 @@
       "open": 30.68,
       "time": "2026-09-25",
       "volume": 2558006
+    },
+    {
+      "close": 28.77,
+      "high": 29.45,
+      "low": 28.57,
+      "open": 29.4,
+      "time": "2026-09-28",
+      "volume": 1687256
     }
   ],
   "company_name": "Sigachi Industries Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.41x"
+    "volume_multiplier": "0.27x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.87,
-    "change_pct": -2.87,
-    "close": 29.43,
-    "previous_close": 30.3,
+    "as_of": "2026-09-28",
+    "change": -0.66,
+    "change_pct": -2.24,
+    "close": 28.77,
+    "previous_close": 29.43,
     "type": "EOD_CLOSE",
-    "volume": 2558006
+    "volume": 1687256
   },
   "range": {
-    "distance_from_high_pct": -34.28,
-    "distance_from_low_pct": 76.76,
-    "high_52w": 44.78,
+    "distance_from_high_pct": -35.49,
+    "distance_from_low_pct": 72.79,
+    "high_52w": 44.6,
     "history_basis": "52_WEEK",
     "low_52w": 16.65,
-    "range_position_pct": 45.43
+    "range_position_pct": 43.36
   },
   "risk_model": {
-    "invalidation_floor": 28.4,
-    "risk_per_share": 1.62,
-    "technical_pivot": 30.02
+    "invalidation_floor": 27.76,
+    "risk_per_share": 1.59,
+    "technical_pivot": 29.35
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 260.21,
-      "high": 265.5,
-      "low": 258.1,
-      "open": 262.2,
-      "time": "2025-09-18",
-      "volume": 1641890
-    },
-    {
       "close": 264.39,
       "high": 266.59,
       "low": 258.5,
@@ -2017,13 +2009,21 @@
       "open": 200.6,
       "time": "2026-09-25",
       "volume": 1033739
+    },
+    {
+      "close": 193.0,
+      "high": 200.61,
+      "low": 191.98,
+      "open": 197.77,
+      "time": "2026-09-28",
+      "volume": 431126
     }
   ],
   "company_name": "ENVIRO INFRA ENGINEERS L",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 44,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.64x"
+    "volume_multiplier": "0.27x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.78,
-    "change_pct": -1.38,
-    "close": 198.85,
-    "previous_close": 201.63,
+    "as_of": "2026-09-28",
+    "change": -5.85,
+    "change_pct": -2.94,
+    "close": 193.0,
+    "previous_close": 198.85,
     "type": "EOD_CLOSE",
-    "volume": 1033739
+    "volume": 431126
   },
   "range": {
-    "distance_from_high_pct": -27.98,
-    "distance_from_low_pct": 47.61,
+    "distance_from_high_pct": -30.1,
+    "distance_from_low_pct": 43.27,
     "high_52w": 276.1,
     "history_basis": "52_WEEK",
     "low_52w": 134.71,
-    "range_position_pct": 45.36
+    "range_position_pct": 41.23
   },
   "risk_model": {
-    "invalidation_floor": 191.89,
-    "risk_per_share": 10.94,
-    "technical_pivot": 202.83
+    "invalidation_floor": 186.25,
+    "risk_per_share": 10.61,
+    "technical_pivot": 196.86
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 4864.1,
-      "high": 4944.0,
-      "low": 4781.6,
-      "open": 4918.0,
-      "time": "2025-09-18",
-      "volume": 15754
-    },
-    {
       "close": 4871.8,
       "high": 4966.0,
       "low": 4850.1,
@@ -2017,13 +2009,21 @@
       "open": 3715.0,
       "time": "2026-09-25",
       "volume": 4027
+    },
+    {
+      "close": 3667.6,
+      "high": 3753.1,
+      "low": 3650.0,
+      "open": 3753.0,
+      "time": "2026-09-28",
+      "volume": 4393
     }
   ],
   "company_name": "ORISSA MINERALS DEVELOPMENT CO",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.5x"
+    "volume_multiplier": "0.56x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 17.8,
-    "change_pct": 0.48,
-    "close": 3734.7,
-    "previous_close": 3716.9,
+    "as_of": "2026-09-28",
+    "change": -67.1,
+    "change_pct": -1.8,
+    "close": 3667.6,
+    "previous_close": 3734.7,
     "type": "EOD_CLOSE",
-    "volume": 4027
+    "volume": 4393
   },
   "range": {
-    "distance_from_high_pct": -39.16,
-    "distance_from_low_pct": 20.45,
+    "distance_from_high_pct": -40.26,
+    "distance_from_low_pct": 18.29,
     "high_52w": 6138.9,
     "history_basis": "52_WEEK",
     "low_52w": 3100.5,
-    "range_position_pct": 20.87
+    "range_position_pct": 18.66
   },
   "risk_model": {
-    "invalidation_floor": 3603.99,
-    "risk_per_share": 205.4,
-    "technical_pivot": 3809.39
+    "invalidation_floor": 3539.23,
+    "risk_per_share": 201.72,
+    "technical_pivot": 3740.95
   },
   "schema_version": "1.0",
   "sector": null,

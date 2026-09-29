@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1586.6,
-      "high": 1592.9,
-      "low": 1568.1,
-      "open": 1575.0,
-      "time": "2025-09-18",
-      "volume": 1022359
-    },
-    {
       "close": 1590.9,
       "high": 1601.3,
       "low": 1563.3,
@@ -2017,13 +2009,21 @@
       "open": 1678.1,
       "time": "2026-09-25",
       "volume": 2878656
+    },
+    {
+      "close": 1634.2,
+      "high": 1660.4,
+      "low": 1620.4,
+      "open": 1655.0,
+      "time": "2026-09-28",
+      "volume": 1194338
     }
   ],
   "company_name": "CHOLAMANDALAM IN & FIN CO",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 67,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.93x"
+    "volume_multiplier": "0.79x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -19.0,
-    "change_pct": -1.13,
-    "close": 1662.7,
-    "previous_close": 1681.7,
+    "as_of": "2026-09-28",
+    "change": -28.5,
+    "change_pct": -1.71,
+    "close": 1634.2,
+    "previous_close": 1662.7,
     "type": "EOD_CLOSE",
-    "volume": 2878656
+    "volume": 1194338
   },
   "range": {
-    "distance_from_high_pct": -14.84,
-    "distance_from_low_pct": 27.96,
+    "distance_from_high_pct": -16.3,
+    "distance_from_low_pct": 25.77,
     "high_52w": 1952.5,
     "history_basis": "52_WEEK",
     "low_52w": 1299.4,
-    "range_position_pct": 55.63
+    "range_position_pct": 51.26
   },
   "risk_model": {
-    "invalidation_floor": 1604.51,
-    "risk_per_share": 91.44,
-    "technical_pivot": 1695.95
+    "invalidation_floor": 1577.0,
+    "risk_per_share": 89.88,
+    "technical_pivot": 1666.88
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

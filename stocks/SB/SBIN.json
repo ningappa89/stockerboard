@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 854.35,
-      "high": 860.8,
-      "low": 851.1,
-      "open": 858.65,
-      "time": "2025-09-18",
-      "volume": 10400847
-    },
-    {
       "close": 862.35,
       "high": 864.45,
       "low": 849.3,
@@ -2017,13 +2009,21 @@
       "open": 980.8,
       "time": "2026-09-25",
       "volume": 3759097
+    },
+    {
+      "close": 962.0,
+      "high": 982.5,
+      "low": 956.1,
+      "open": 980.1,
+      "time": "2026-09-28",
+      "volume": 9846646
     }
   ],
   "company_name": "STATE BANK OF INDIA",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 59,
+    "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.51x"
+    "volume_multiplier": "1.29x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 4.5,
-    "change_pct": 0.46,
-    "close": 983.0,
-    "previous_close": 978.5,
+    "as_of": "2026-09-28",
+    "change": -21.0,
+    "change_pct": -2.14,
+    "close": 962.0,
+    "previous_close": 983.0,
     "type": "EOD_CLOSE",
-    "volume": 3759097
+    "volume": 9846646
   },
   "range": {
-    "distance_from_high_pct": -20.39,
-    "distance_from_low_pct": 15.74,
+    "distance_from_high_pct": -22.09,
+    "distance_from_low_pct": 13.27,
     "high_52w": 1234.7,
     "history_basis": "52_WEEK",
     "low_52w": 849.3,
-    "range_position_pct": 34.69
+    "range_position_pct": 29.24
   },
   "risk_model": {
-    "invalidation_floor": 948.59,
-    "risk_per_share": 54.07,
-    "technical_pivot": 1002.66
+    "invalidation_floor": 928.33,
+    "risk_per_share": 52.91,
+    "technical_pivot": 981.24
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

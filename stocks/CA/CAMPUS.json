@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 283.3,
-      "high": 289.05,
-      "low": 281.95,
-      "open": 282.3,
-      "time": "2025-09-18",
-      "volume": 545802
-    },
-    {
       "close": 283.35,
       "high": 284.9,
       "low": 280.1,
@@ -2017,13 +2009,21 @@
       "open": 210.97,
       "time": "2026-09-25",
       "volume": 347831
+    },
+    {
+      "close": 211.04,
+      "high": 212.99,
+      "low": 207.4,
+      "open": 209.94,
+      "time": "2026-09-28",
+      "volume": 325125
     }
   ],
   "company_name": "CAMPUS ACTIVEWEAR LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 49,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.98x"
+    "volume_multiplier": "0.93x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.96,
-    "change_pct": -0.46,
-    "close": 209.99,
-    "previous_close": 210.95,
+    "as_of": "2026-09-28",
+    "change": 1.05,
+    "change_pct": 0.5,
+    "close": 211.04,
+    "previous_close": 209.99,
     "type": "EOD_CLOSE",
-    "volume": 347831
+    "volume": 325125
   },
   "range": {
-    "distance_from_high_pct": -27.35,
-    "distance_from_low_pct": 1.35,
-    "high_52w": 289.05,
+    "distance_from_high_pct": -26.67,
+    "distance_from_low_pct": 1.85,
+    "high_52w": 287.8,
     "history_basis": "52_WEEK",
     "low_52w": 207.2,
-    "range_position_pct": 3.41
+    "range_position_pct": 4.76
   },
   "risk_model": {
-    "invalidation_floor": 202.64,
-    "risk_per_share": 11.55,
-    "technical_pivot": 214.19
+    "invalidation_floor": 203.65,
+    "risk_per_share": 11.61,
+    "technical_pivot": 215.26
   },
   "schema_version": "1.0",
   "sector": null,

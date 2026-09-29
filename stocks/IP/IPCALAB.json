@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1340.8,
-      "high": 1347.9,
-      "low": 1309.0,
-      "open": 1309.0,
-      "time": "2025-09-18",
-      "volume": 163404
-    },
-    {
       "close": 1441.0,
       "high": 1506.9,
       "low": 1333.8,
@@ -2017,46 +2009,54 @@
       "open": 2020.0,
       "time": "2026-09-25",
       "volume": 263825
+    },
+    {
+      "close": 1919.3,
+      "high": 1972.9,
+      "low": 1902.3,
+      "open": 1956.0,
+      "time": "2026-09-28",
+      "volume": 170123
     }
   ],
   "company_name": "IPCA LABORATORIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Healthcare",
   "isin": "INE571A01038",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 85,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "1.09x"
+    "momentum_score": 81,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.72x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -26.3,
-    "change_pct": -1.32,
-    "close": 1970.8,
-    "previous_close": 1997.1,
+    "as_of": "2026-09-28",
+    "change": -51.5,
+    "change_pct": -2.61,
+    "close": 1919.3,
+    "previous_close": 1970.8,
     "type": "EOD_CLOSE",
-    "volume": 263825
+    "volume": 170123
   },
   "range": {
-    "distance_from_high_pct": -3.3,
-    "distance_from_low_pct": 57.46,
+    "distance_from_high_pct": -5.82,
+    "distance_from_low_pct": 53.35,
     "high_52w": 2038.0,
     "history_basis": "52_WEEK",
     "low_52w": 1251.6,
-    "range_position_pct": 91.45
+    "range_position_pct": 84.91
   },
   "risk_model": {
-    "invalidation_floor": 1901.82,
-    "risk_per_share": 108.4,
-    "technical_pivot": 2010.22
+    "invalidation_floor": 1852.12,
+    "risk_per_share": 105.57,
+    "technical_pivot": 1957.69
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

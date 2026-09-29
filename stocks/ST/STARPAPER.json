@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 175.09,
-      "high": 177.35,
-      "low": 173.2,
-      "open": 177.2,
-      "time": "2025-09-18",
-      "volume": 28801
-    },
-    {
       "close": 174.91,
       "high": 175.68,
       "low": 172.7,
@@ -2017,13 +2009,21 @@
       "open": 155.23,
       "time": "2026-09-25",
       "volume": 2363
+    },
+    {
+      "close": 151.52,
+      "high": 157.25,
+      "low": 151.11,
+      "open": 155.06,
+      "time": "2026-09-28",
+      "volume": 2005
     }
   ],
   "company_name": "STAR PAPER MILLS LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
+    "is_stage2": false,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.09x"
+    "volume_multiplier": "0.08x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.21,
-    "change_pct": -0.14,
-    "close": 155.06,
-    "previous_close": 155.27,
+    "as_of": "2026-09-28",
+    "change": -3.54,
+    "change_pct": -2.28,
+    "close": 151.52,
+    "previous_close": 155.06,
     "type": "EOD_CLOSE",
-    "volume": 2363
+    "volume": 2005
   },
   "range": {
-    "distance_from_high_pct": -12.79,
-    "distance_from_low_pct": 30.25,
+    "distance_from_high_pct": -14.78,
+    "distance_from_low_pct": 27.27,
     "high_52w": 177.8,
     "history_basis": "52_WEEK",
     "low_52w": 119.05,
-    "range_position_pct": 61.29
+    "range_position_pct": 55.27
   },
   "risk_model": {
-    "invalidation_floor": 149.63,
-    "risk_per_share": 8.53,
-    "technical_pivot": 158.16
+    "invalidation_floor": 146.22,
+    "risk_per_share": 8.33,
+    "technical_pivot": 154.55
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 197.97,
-      "high": 199.46,
-      "low": 189.23,
-      "open": 190.74,
-      "time": "2025-09-18",
-      "volume": 259200
-    },
-    {
       "close": 197.46,
       "high": 206.0,
       "low": 196.3,
@@ -2017,13 +2009,21 @@
       "open": 328.45,
       "time": "2026-09-25",
       "volume": 242706
+    },
+    {
+      "close": 320.65,
+      "high": 327.7,
+      "low": 319.85,
+      "open": 324.5,
+      "time": "2026-09-28",
+      "volume": 163636
     }
   ],
   "company_name": "BLS E-Services Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 83,
+    "momentum_score": 81,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.67x"
+    "volume_multiplier": "0.49x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.15,
-    "change_pct": -0.66,
-    "close": 324.55,
-    "previous_close": 326.7,
+    "as_of": "2026-09-28",
+    "change": -3.9,
+    "change_pct": -1.2,
+    "close": 320.65,
+    "previous_close": 324.55,
     "type": "EOD_CLOSE",
-    "volume": 242706
+    "volume": 163636
   },
   "range": {
-    "distance_from_high_pct": -4.49,
-    "distance_from_low_pct": 161.1,
+    "distance_from_high_pct": -5.64,
+    "distance_from_low_pct": 157.96,
     "high_52w": 339.8,
     "history_basis": "52_WEEK",
     "low_52w": 124.3,
-    "range_position_pct": 92.92
+    "range_position_pct": 91.11
   },
   "risk_model": {
-    "invalidation_floor": 313.19,
-    "risk_per_share": 17.85,
-    "technical_pivot": 331.04
+    "invalidation_floor": 309.43,
+    "risk_per_share": 17.63,
+    "technical_pivot": 327.06
   },
   "schema_version": "1.0",
   "sector": null,

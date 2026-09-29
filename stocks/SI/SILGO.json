@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 69.5,
-      "high": 72.9,
-      "low": 68.0,
-      "open": 71.65,
-      "time": "2025-09-18",
-      "volume": 38652
-    },
-    {
       "close": 70.49,
       "high": 71.35,
       "low": 69.0,
@@ -2017,13 +2009,21 @@
       "open": 70.1,
       "time": "2026-09-25",
       "volume": 12888
+    },
+    {
+      "close": 68.31,
+      "high": 70.1,
+      "low": 66.65,
+      "open": 70.1,
+      "time": "2026-09-28",
+      "volume": 24934
     }
   ],
   "company_name": "SILGO RETAIL LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 59,
+    "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.12x"
+    "volume_multiplier": "0.24x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.68,
-    "change_pct": -0.96,
-    "close": 69.79,
-    "previous_close": 70.47,
+    "as_of": "2026-09-28",
+    "change": -1.48,
+    "change_pct": -2.12,
+    "close": 68.31,
+    "previous_close": 69.79,
     "type": "EOD_CLOSE",
-    "volume": 12888
+    "volume": 24934
   },
   "range": {
-    "distance_from_high_pct": -20.24,
-    "distance_from_low_pct": 14.41,
+    "distance_from_high_pct": -21.93,
+    "distance_from_low_pct": 11.98,
     "high_52w": 87.5,
     "history_basis": "52_WEEK",
     "low_52w": 61.0,
-    "range_position_pct": 33.17
+    "range_position_pct": 27.58
   },
   "risk_model": {
-    "invalidation_floor": 67.35,
-    "risk_per_share": 3.84,
-    "technical_pivot": 71.19
+    "invalidation_floor": 65.92,
+    "risk_per_share": 3.76,
+    "technical_pivot": 69.68
   },
   "schema_version": "1.0",
   "sector": null,

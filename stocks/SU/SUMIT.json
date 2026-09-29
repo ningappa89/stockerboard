@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 90.6,
-      "high": 93.39,
-      "low": 88.42,
-      "open": 93.39,
-      "time": "2025-09-18",
-      "volume": 19644
-    },
-    {
       "close": 92.08,
       "high": 92.98,
       "low": 89.02,
@@ -2017,13 +2009,21 @@
       "open": 50.9,
       "time": "2026-09-25",
       "volume": 54349
+    },
+    {
+      "close": 49.52,
+      "high": 51.5,
+      "low": 47.09,
+      "open": 51.5,
+      "time": "2026-09-28",
+      "volume": 35655
     }
   ],
   "company_name": "SUMIT WOODS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.72x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.76x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.4,
-    "change_pct": -0.81,
-    "close": 49.19,
-    "previous_close": 49.59,
+    "as_of": "2026-09-28",
+    "change": 0.33,
+    "change_pct": 0.67,
+    "close": 49.52,
+    "previous_close": 49.19,
     "type": "EOD_CLOSE",
-    "volume": 54349
+    "volume": 35655
   },
   "range": {
-    "distance_from_high_pct": -52.7,
-    "distance_from_low_pct": 54.98,
+    "distance_from_high_pct": -52.38,
+    "distance_from_low_pct": 56.02,
     "high_52w": 104.0,
     "history_basis": "52_WEEK",
     "low_52w": 31.74,
-    "range_position_pct": 24.15
+    "range_position_pct": 24.61
   },
   "risk_model": {
-    "invalidation_floor": 47.47,
-    "risk_per_share": 2.7,
-    "technical_pivot": 50.17
+    "invalidation_floor": 47.79,
+    "risk_per_share": 2.72,
+    "technical_pivot": 50.51
   },
   "schema_version": "1.0",
   "sector": null,

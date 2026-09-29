@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 8261.0,
-      "high": 8313.0,
-      "low": 8172.5,
-      "open": 8295.0,
-      "time": "2025-09-18",
-      "volume": 382165
-    },
-    {
       "close": 8286.5,
       "high": 8334.0,
       "low": 8243.5,
@@ -2017,13 +2009,21 @@
       "open": 6916.0,
       "time": "2026-09-25",
       "volume": 99885
+    },
+    {
+      "close": 6990.0,
+      "high": 7038.5,
+      "low": 6880.0,
+      "open": 7001.5,
+      "time": "2026-09-28",
+      "volume": 124117
     }
   ],
   "company_name": "Amber Enterprises India Limite",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Consumer Durables",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.85x"
+    "volume_multiplier": "1.12x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 49.0,
-    "change_pct": 0.71,
-    "close": 6960.0,
-    "previous_close": 6911.0,
+    "as_of": "2026-09-28",
+    "change": 30.0,
+    "change_pct": 0.43,
+    "close": 6990.0,
+    "previous_close": 6960.0,
     "type": "EOD_CLOSE",
-    "volume": 99885
+    "volume": 124117
   },
   "range": {
-    "distance_from_high_pct": -22.44,
-    "distance_from_low_pct": 28.88,
+    "distance_from_high_pct": -22.11,
+    "distance_from_low_pct": 29.43,
     "high_52w": 8974.0,
     "history_basis": "52_WEEK",
     "low_52w": 5400.5,
-    "range_position_pct": 43.64
+    "range_position_pct": 44.48
   },
   "risk_model": {
-    "invalidation_floor": 6716.4,
-    "risk_per_share": 382.8,
-    "technical_pivot": 7099.2
+    "invalidation_floor": 6745.35,
+    "risk_per_share": 384.45,
+    "technical_pivot": 7129.8
   },
   "schema_version": "1.0",
   "sector": "Consumer Durables",

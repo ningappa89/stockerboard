@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 6446.0,
-      "high": 6500.0,
-      "low": 6410.0,
-      "open": 6500.0,
-      "time": "2025-09-18",
-      "volume": 17455
-    },
-    {
       "close": 6314.5,
       "high": 6457.5,
       "low": 6275.0,
@@ -2017,13 +2009,21 @@
       "open": 6185.0,
       "time": "2026-09-25",
       "volume": 9751
+    },
+    {
+      "close": 6191.0,
+      "high": 6370.5,
+      "low": 6145.0,
+      "open": 6200.0,
+      "time": "2026-09-28",
+      "volume": 33696
     }
   ],
   "company_name": "Linde India Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Chemicals",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 54,
+    "momentum_score": 55,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.45x"
+    "volume_multiplier": "1.47x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -54.0,
-    "change_pct": -0.87,
-    "close": 6142.5,
-    "previous_close": 6196.5,
+    "as_of": "2026-09-28",
+    "change": 48.5,
+    "change_pct": 0.79,
+    "close": 6191.0,
+    "previous_close": 6142.5,
     "type": "EOD_CLOSE",
-    "volume": 9751
+    "volume": 33696
   },
   "range": {
-    "distance_from_high_pct": -23.69,
-    "distance_from_low_pct": 8.28,
+    "distance_from_high_pct": -23.08,
+    "distance_from_low_pct": 9.13,
     "high_52w": 8049.0,
     "history_basis": "52_WEEK",
     "low_52w": 5673.0,
-    "range_position_pct": 19.76
+    "range_position_pct": 21.8
   },
   "risk_model": {
-    "invalidation_floor": 5927.51,
-    "risk_per_share": 337.84,
-    "technical_pivot": 6265.35
+    "invalidation_floor": 5974.31,
+    "risk_per_share": 340.51,
+    "technical_pivot": 6314.82
   },
   "schema_version": "1.0",
   "sector": "Chemicals",

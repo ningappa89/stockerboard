@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 390.9,
-      "high": 392.95,
-      "low": 388.05,
-      "open": 391.0,
-      "time": "2025-09-18",
-      "volume": 393380
-    },
-    {
       "close": 393.2,
       "high": 395.3,
       "low": 390.45,
@@ -2017,13 +2009,21 @@
       "open": 487.85,
       "time": "2026-09-25",
       "volume": 302323
+    },
+    {
+      "close": 476.6,
+      "high": 487.75,
+      "low": 475.5,
+      "open": 485.6,
+      "time": "2026-09-28",
+      "volume": 270786
     }
   ],
   "company_name": "AARTI INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Chemicals",
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 73,
+    "is_stage2": false,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.53x"
+    "volume_multiplier": "0.49x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.2,
-    "change_pct": -0.04,
-    "close": 489.25,
-    "previous_close": 489.45,
+    "as_of": "2026-09-28",
+    "change": -12.65,
+    "change_pct": -2.59,
+    "close": 476.6,
+    "previous_close": 489.25,
     "type": "EOD_CLOSE",
-    "volume": 302323
+    "volume": 270786
   },
   "range": {
-    "distance_from_high_pct": -11.33,
-    "distance_from_low_pct": 44.73,
+    "distance_from_high_pct": -13.62,
+    "distance_from_low_pct": 40.99,
     "high_52w": 551.75,
     "history_basis": "52_WEEK",
     "low_52w": 338.05,
-    "range_position_pct": 70.75
+    "range_position_pct": 64.83
   },
   "risk_model": {
-    "invalidation_floor": 472.13,
-    "risk_per_share": 26.91,
-    "technical_pivot": 499.04
+    "invalidation_floor": 459.92,
+    "risk_per_share": 26.21,
+    "technical_pivot": 486.13
   },
   "schema_version": "1.0",
   "sector": "Chemicals",

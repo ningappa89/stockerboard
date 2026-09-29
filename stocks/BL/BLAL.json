@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 222.27,
-      "high": 227.97,
-      "low": 220.9,
-      "open": 225.87,
-      "time": "2025-09-18",
-      "volume": 52808
-    },
-    {
       "close": 221.04,
       "high": 222.87,
       "low": 220.14,
@@ -2017,13 +2009,21 @@
       "open": 162.94,
       "time": "2026-09-25",
       "volume": 41047
+    },
+    {
+      "close": 160.69,
+      "high": 164.85,
+      "low": 160.01,
+      "open": 164.85,
+      "time": "2026-09-28",
+      "volume": 12083
     }
   ],
   "company_name": "BEML Land Assets Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 46,
+    "momentum_score": 47,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.77x"
+    "volume_multiplier": "0.54x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.87,
-    "change_pct": -0.53,
-    "close": 161.96,
-    "previous_close": 162.83,
+    "as_of": "2026-09-28",
+    "change": -1.27,
+    "change_pct": -0.78,
+    "close": 160.69,
+    "previous_close": 161.96,
     "type": "EOD_CLOSE",
-    "volume": 41047
+    "volume": 12083
   },
   "range": {
-    "distance_from_high_pct": -28.96,
-    "distance_from_low_pct": 4.15,
-    "high_52w": 227.97,
+    "distance_from_high_pct": -28.25,
+    "distance_from_low_pct": 3.34,
+    "high_52w": 223.97,
     "history_basis": "52_WEEK",
     "low_52w": 155.5,
-    "range_position_pct": 8.91
+    "range_position_pct": 7.58
   },
   "risk_model": {
-    "invalidation_floor": 156.29,
-    "risk_per_share": 8.91,
-    "technical_pivot": 165.2
+    "invalidation_floor": 155.07,
+    "risk_per_share": 8.83,
+    "technical_pivot": 163.9
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 103.15,
-      "high": 105.7,
-      "low": 102.15,
-      "open": 105.0,
-      "time": "2025-09-18",
-      "volume": 1045201
-    },
-    {
       "close": 104.3,
       "high": 105.5,
       "low": 102.5,
@@ -2017,13 +2009,21 @@
       "open": 91.06,
       "time": "2026-09-25",
       "volume": 231775
+    },
+    {
+      "close": 88.56,
+      "high": 90.74,
+      "low": 86.6,
+      "open": 89.98,
+      "time": "2026-09-28",
+      "volume": 330994
     }
   ],
   "company_name": "REGAAL RESOURCES LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 67,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.25x"
+    "volume_multiplier": "0.36x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.63,
-    "change_pct": -0.7,
-    "close": 89.98,
-    "previous_close": 90.61,
+    "as_of": "2026-09-28",
+    "change": -1.42,
+    "change_pct": -1.58,
+    "close": 88.56,
+    "previous_close": 89.98,
     "type": "EOD_CLOSE",
-    "volume": 231775
+    "volume": 330994
   },
   "range": {
-    "distance_from_high_pct": -15.11,
-    "distance_from_low_pct": 57.12,
+    "distance_from_high_pct": -16.45,
+    "distance_from_low_pct": 54.64,
     "high_52w": 106.0,
     "history_basis": "52_WEEK",
     "low_52w": 57.27,
-    "range_position_pct": 67.12
+    "range_position_pct": 64.21
   },
   "risk_model": {
-    "invalidation_floor": 86.83,
-    "risk_per_share": 4.95,
-    "technical_pivot": 91.78
+    "invalidation_floor": 85.46,
+    "risk_per_share": 4.87,
+    "technical_pivot": 90.33
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1527.1,
-      "high": 1543.8,
-      "low": 1523.5,
-      "open": 1531.0,
-      "time": "2025-09-18",
-      "volume": 1191302
-    },
-    {
       "close": 1524.15,
       "high": 1539.0,
       "low": 1520.35,
@@ -2017,13 +2009,21 @@
       "open": 1525.0,
       "time": "2026-09-25",
       "volume": 503315
+    },
+    {
+      "close": 1503.0,
+      "high": 1508.0,
+      "low": 1486.8,
+      "open": 1508.0,
+      "time": "2026-09-28",
+      "volume": 585752
     }
   ],
   "company_name": "PIDILITE INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Chemicals",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 73,
+    "momentum_score": 72,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.76x"
+    "volume_multiplier": "0.88x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -4.8,
-    "change_pct": -0.32,
-    "close": 1517.2,
-    "previous_close": 1522.0,
+    "as_of": "2026-09-28",
+    "change": -14.2,
+    "change_pct": -0.94,
+    "close": 1503.0,
+    "previous_close": 1517.2,
     "type": "EOD_CLOSE",
-    "volume": 503315
+    "volume": 585752
   },
   "range": {
-    "distance_from_high_pct": -11.14,
-    "distance_from_low_pct": 20.51,
+    "distance_from_high_pct": -11.98,
+    "distance_from_low_pct": 19.38,
     "high_52w": 1707.5,
     "history_basis": "52_WEEK",
     "low_52w": 1259.0,
-    "range_position_pct": 57.57
+    "range_position_pct": 54.4
   },
   "risk_model": {
-    "invalidation_floor": 1464.1,
-    "risk_per_share": 83.44,
-    "technical_pivot": 1547.54
+    "invalidation_floor": 1450.39,
+    "risk_per_share": 82.67,
+    "technical_pivot": 1533.06
   },
   "schema_version": "1.0",
   "sector": "Chemicals",

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 968.4,
-      "high": 970.8,
-      "low": 953.25,
-      "open": 966.0,
-      "time": "2025-09-18",
-      "volume": 970002
-    },
-    {
       "close": 953.95,
       "high": 968.5,
       "low": 950.35,
@@ -2017,13 +2009,21 @@
       "open": 878.15,
       "time": "2026-09-25",
       "volume": 2433292
+    },
+    {
+      "close": 830.75,
+      "high": 840.2,
+      "low": 817.25,
+      "open": 831.0,
+      "time": "2026-09-28",
+      "volume": 2608914
     }
   ],
   "company_name": "FORTIS HEALTHCARE LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 53,
+    "momentum_score": 52,
     "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.16x"
+    "volume_multiplier": "2.2x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -39.5,
-    "change_pct": -4.5,
-    "close": 837.85,
-    "previous_close": 877.35,
+    "as_of": "2026-09-28",
+    "change": -7.1,
+    "change_pct": -0.85,
+    "close": 830.75,
+    "previous_close": 837.85,
     "type": "EOD_CLOSE",
-    "volume": 2433292
+    "volume": 2608914
   },
   "range": {
-    "distance_from_high_pct": -24.13,
-    "distance_from_low_pct": 9.27,
+    "distance_from_high_pct": -24.77,
+    "distance_from_low_pct": 8.34,
     "high_52w": 1104.3,
     "history_basis": "52_WEEK",
     "low_52w": 766.8,
-    "range_position_pct": 21.05
+    "range_position_pct": 18.95
   },
   "risk_model": {
-    "invalidation_floor": 808.53,
-    "risk_per_share": 46.08,
-    "technical_pivot": 854.61
+    "invalidation_floor": 801.67,
+    "risk_per_share": 45.7,
+    "technical_pivot": 847.37
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

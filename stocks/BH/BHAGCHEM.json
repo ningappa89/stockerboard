@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 255.45,
-      "high": 261.2,
-      "low": 255.05,
-      "open": 257.0,
-      "time": "2025-09-18",
-      "volume": 68438
-    },
-    {
       "close": 257.05,
       "high": 261.0,
       "low": 253.05,
@@ -2017,13 +2009,21 @@
       "open": 244.0,
       "time": "2026-09-25",
       "volume": 65273
+    },
+    {
+      "close": 241.1,
+      "high": 244.0,
+      "low": 240.1,
+      "open": 244.0,
+      "time": "2026-09-28",
+      "volume": 63546
     }
   ],
   "company_name": "BHAGIRADHA CHEMICALS & INDUSTR",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 56,
+    "momentum_score": 54,
     "setup_type": "Liquid Active",
     "volume_multiplier": "0.88x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.75,
-    "change_pct": 0.31,
-    "close": 245.6,
-    "previous_close": 244.85,
+    "as_of": "2026-09-28",
+    "change": -4.5,
+    "change_pct": -1.83,
+    "close": 241.1,
+    "previous_close": 245.6,
     "type": "EOD_CLOSE",
-    "volume": 65273
+    "volume": 63546
   },
   "range": {
-    "distance_from_high_pct": -22.5,
-    "distance_from_low_pct": 43.96,
+    "distance_from_high_pct": -23.92,
+    "distance_from_low_pct": 41.32,
     "high_52w": 316.9,
     "history_basis": "52_WEEK",
     "low_52w": 170.6,
-    "range_position_pct": 51.26
+    "range_position_pct": 48.19
   },
   "risk_model": {
-    "invalidation_floor": 237.0,
-    "risk_per_share": 13.51,
-    "technical_pivot": 250.51
+    "invalidation_floor": 232.66,
+    "risk_per_share": 13.26,
+    "technical_pivot": 245.92
   },
   "schema_version": "1.0",
   "sector": null,

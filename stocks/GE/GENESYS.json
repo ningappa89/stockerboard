@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 577.65,
-      "high": 584.7,
-      "low": 572.25,
-      "open": 578.0,
-      "time": "2025-09-18",
-      "volume": 97988
-    },
-    {
       "close": 559.75,
       "high": 578.8,
       "low": 556.6,
@@ -2017,13 +2009,21 @@
       "open": 294.03,
       "time": "2026-09-25",
       "volume": 754157
+    },
+    {
+      "close": 282.13,
+      "high": 288.71,
+      "low": 272.68,
+      "open": 286.17,
+      "time": "2026-09-28",
+      "volume": 514678
     }
   ],
   "company_name": "GENESYS INTERNATIONAL CORPORAT",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.42x"
+    "volume_multiplier": "0.29x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.99,
-    "change_pct": 1.06,
-    "close": 286.17,
-    "previous_close": 283.18,
+    "as_of": "2026-09-28",
+    "change": -4.04,
+    "change_pct": -1.41,
+    "close": 282.13,
+    "previous_close": 286.17,
     "type": "EOD_CLOSE",
-    "volume": 754157
+    "volume": 514678
   },
   "range": {
-    "distance_from_high_pct": -53.24,
-    "distance_from_low_pct": 69.83,
+    "distance_from_high_pct": -53.9,
+    "distance_from_low_pct": 67.44,
     "high_52w": 612.0,
     "history_basis": "52_WEEK",
     "low_52w": 168.5,
-    "range_position_pct": 26.53
+    "range_position_pct": 25.62
   },
   "risk_model": {
-    "invalidation_floor": 276.15,
-    "risk_per_share": 15.74,
-    "technical_pivot": 291.89
+    "invalidation_floor": 272.26,
+    "risk_per_share": 15.51,
+    "technical_pivot": 287.77
   },
   "schema_version": "1.0",
   "sector": null,

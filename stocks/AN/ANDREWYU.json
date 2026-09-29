@@ -233,46 +233,54 @@
       "open": 27.0,
       "time": "2026-09-25",
       "volume": 67783
+    },
+    {
+      "close": 25.81,
+      "high": 26.99,
+      "low": 25.13,
+      "open": 26.61,
+      "time": "2026-09-28",
+      "volume": 106812
     }
   ],
   "company_name": "ANDREW YULE & CO. LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE449C01025",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 72,
+    "is_stage2": false,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.69x"
+    "volume_multiplier": "1.08x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.15,
-    "change_pct": 0.56,
-    "close": 27.0,
-    "previous_close": 26.85,
+    "as_of": "2026-09-28",
+    "change": -1.19,
+    "change_pct": -4.41,
+    "close": 25.81,
+    "previous_close": 27.0,
     "type": "EOD_CLOSE",
-    "volume": 67783
+    "volume": 106812
   },
   "range": {
-    "distance_from_high_pct": -11.45,
-    "distance_from_low_pct": 10.16,
+    "distance_from_high_pct": -15.35,
+    "distance_from_low_pct": 5.3,
     "high_52w": 30.49,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 24.51,
-    "range_position_pct": 41.64
+    "range_position_pct": 21.74
   },
   "risk_model": {
-    "invalidation_floor": 26.05,
-    "risk_per_share": 1.49,
-    "technical_pivot": 27.54
+    "invalidation_floor": 24.91,
+    "risk_per_share": 1.42,
+    "technical_pivot": 26.33
   },
   "schema_version": "1.0",
   "sector": null,

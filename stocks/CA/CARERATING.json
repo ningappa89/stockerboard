@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1592.9,
-      "high": 1625.8,
-      "low": 1586.8,
-      "open": 1615.0,
-      "time": "2025-09-18",
-      "volume": 17660
-    },
-    {
       "close": 1598.7,
       "high": 1608.0,
       "low": 1564.0,
@@ -2017,13 +2009,21 @@
       "open": 1629.0,
       "time": "2026-09-25",
       "volume": 14444
+    },
+    {
+      "close": 1628.4,
+      "high": 1634.0,
+      "low": 1604.9,
+      "open": 1628.9,
+      "time": "2026-09-28",
+      "volume": 46655
     }
   ],
   "company_name": "CARE RATINGS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": true,
     "momentum_score": 72,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.22x"
+    "volume_multiplier": "0.72x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 10.8,
-    "change_pct": 0.67,
-    "close": 1627.6,
-    "previous_close": 1616.8,
+    "as_of": "2026-09-28",
+    "change": 0.8,
+    "change_pct": 0.05,
+    "close": 1628.4,
+    "previous_close": 1627.6,
     "type": "EOD_CLOSE",
-    "volume": 14444
+    "volume": 46655
   },
   "range": {
-    "distance_from_high_pct": -11.45,
-    "distance_from_low_pct": 16.87,
+    "distance_from_high_pct": -11.4,
+    "distance_from_low_pct": 16.92,
     "high_52w": 1838.0,
     "history_basis": "52_WEEK",
     "low_52w": 1392.7,
-    "range_position_pct": 52.75
+    "range_position_pct": 52.93
   },
   "risk_model": {
-    "invalidation_floor": 1570.63,
-    "risk_per_share": 89.52,
-    "technical_pivot": 1660.15
+    "invalidation_floor": 1571.41,
+    "risk_per_share": 89.56,
+    "technical_pivot": 1660.97
   },
   "schema_version": "1.0",
   "sector": null,

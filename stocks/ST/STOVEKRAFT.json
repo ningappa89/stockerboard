@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 706.7,
-      "high": 716.2,
-      "low": 697.75,
-      "open": 704.7,
-      "time": "2025-09-18",
-      "volume": 157164
-    },
-    {
       "close": 711.95,
       "high": 720.05,
       "low": 703.0,
@@ -2017,13 +2009,21 @@
       "open": 824.9,
       "time": "2026-09-25",
       "volume": 53691
+    },
+    {
+      "close": 797.15,
+      "high": 824.9,
+      "low": 795.0,
+      "open": 806.0,
+      "time": "2026-09-28",
+      "volume": 74356
     }
   ],
   "company_name": "STOVE KRAFT LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 79,
+    "momentum_score": 76,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.36x"
+    "volume_multiplier": "0.5x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -3.95,
-    "change_pct": -0.48,
-    "close": 814.4,
-    "previous_close": 818.35,
+    "as_of": "2026-09-28",
+    "change": -17.25,
+    "change_pct": -2.12,
+    "close": 797.15,
+    "previous_close": 814.4,
     "type": "EOD_CLOSE",
-    "volume": 53691
+    "volume": 74356
   },
   "range": {
-    "distance_from_high_pct": -7.14,
-    "distance_from_low_pct": 82.17,
+    "distance_from_high_pct": -9.1,
+    "distance_from_low_pct": 78.31,
     "high_52w": 877.0,
     "history_basis": "52_WEEK",
     "low_52w": 447.05,
-    "range_position_pct": 85.44
+    "range_position_pct": 81.43
   },
   "risk_model": {
-    "invalidation_floor": 785.9,
-    "risk_per_share": 44.79,
-    "technical_pivot": 830.69
+    "invalidation_floor": 769.25,
+    "risk_per_share": 43.84,
+    "technical_pivot": 813.09
   },
   "schema_version": "1.0",
   "sector": null,

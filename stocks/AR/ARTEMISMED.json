@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 241.93,
-      "high": 244.9,
-      "low": 239.43,
-      "open": 244.9,
-      "time": "2025-09-18",
-      "volume": 96149
-    },
-    {
       "close": 238.63,
       "high": 245.19,
       "low": 237.67,
@@ -2017,46 +2009,54 @@
       "open": 346.0,
       "time": "2026-09-25",
       "volume": 18980196
+    },
+    {
+      "close": 365.9,
+      "high": 372.0,
+      "low": 350.2,
+      "open": 362.2,
+      "time": "2026-09-28",
+      "volume": 2092323
     }
   ],
   "company_name": "Artemis Medicare Services Limi",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE025R01021",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": false,
+    "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 81,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "14.25x"
+    "momentum_score": 84,
+    "setup_type": "Minervini VCP",
+    "volume_multiplier": "1.46x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 25.0,
-    "change_pct": 7.51,
-    "close": 357.7,
-    "previous_close": 332.7,
+    "as_of": "2026-09-28",
+    "change": 8.2,
+    "change_pct": 2.29,
+    "close": 365.9,
+    "previous_close": 357.7,
     "type": "EOD_CLOSE",
-    "volume": 18980196
+    "volume": 2092323
   },
   "range": {
-    "distance_from_high_pct": -5.57,
-    "distance_from_low_pct": 75.9,
+    "distance_from_high_pct": -3.41,
+    "distance_from_low_pct": 79.94,
     "high_52w": 378.8,
     "history_basis": "52_WEEK",
     "low_52w": 203.35,
-    "range_position_pct": 87.97
+    "range_position_pct": 92.65
   },
   "risk_model": {
-    "invalidation_floor": 345.18,
-    "risk_per_share": 19.67,
-    "technical_pivot": 364.85
+    "invalidation_floor": 353.09,
+    "risk_per_share": 20.13,
+    "technical_pivot": 373.22
   },
   "schema_version": "1.0",
   "sector": null,

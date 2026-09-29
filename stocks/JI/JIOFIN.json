@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 317.35,
-      "high": 317.95,
-      "low": 315.9,
-      "open": 316.3,
-      "time": "2025-09-18",
-      "volume": 9396848
-    },
-    {
       "close": 317.0,
       "high": 321.6,
       "low": 315.8,
@@ -2017,13 +2009,21 @@
       "open": 227.2,
       "time": "2026-09-25",
       "volume": 7741336
+    },
+    {
+      "close": 220.5,
+      "high": 227.0,
+      "low": 218.8,
+      "open": 227.0,
+      "time": "2026-09-28",
+      "volume": 17931553
     }
   ],
   "company_name": "JIO FIN SERVICES LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 45,
+    "momentum_score": 42,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.68x"
+    "volume_multiplier": "1.51x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.2,
-    "change_pct": -0.09,
-    "close": 227.0,
-    "previous_close": 227.2,
+    "as_of": "2026-09-28",
+    "change": -6.5,
+    "change_pct": -2.86,
+    "close": 220.5,
+    "previous_close": 227.0,
     "type": "EOD_CLOSE",
-    "volume": 7741336
+    "volume": 17931553
   },
   "range": {
-    "distance_from_high_pct": -29.42,
-    "distance_from_low_pct": 1.66,
+    "distance_from_high_pct": -31.44,
+    "distance_from_low_pct": 0.78,
     "high_52w": 321.6,
     "history_basis": "52_WEEK",
-    "low_52w": 223.3,
-    "range_position_pct": 3.76
+    "low_52w": 218.8,
+    "range_position_pct": 1.65
   },
   "risk_model": {
-    "invalidation_floor": 219.06,
-    "risk_per_share": 12.48,
-    "technical_pivot": 231.54
+    "invalidation_floor": 212.78,
+    "risk_per_share": 12.13,
+    "technical_pivot": 224.91
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

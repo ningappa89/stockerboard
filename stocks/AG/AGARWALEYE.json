@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 444.05,
-      "high": 444.85,
-      "low": 437.85,
-      "open": 440.85,
-      "time": "2025-09-18",
-      "volume": 34903
-    },
-    {
       "close": 455.05,
       "high": 459.5,
       "low": 438.3,
@@ -2017,13 +2009,21 @@
       "open": 503.0,
       "time": "2026-09-25",
       "volume": 242336
+    },
+    {
+      "close": 503.6,
+      "high": 506.5,
+      "low": 488.65,
+      "open": 499.7,
+      "time": "2026-09-28",
+      "volume": 341212
     }
   ],
   "company_name": "Dr. Agarwal's Health Care Limi",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": true,
     "momentum_score": 72,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.62x"
+    "volume_multiplier": "0.91x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.1,
-    "change_pct": -0.42,
-    "close": 500.0,
-    "previous_close": 502.1,
+    "as_of": "2026-09-28",
+    "change": 3.6,
+    "change_pct": 0.72,
+    "close": 503.6,
+    "previous_close": 500.0,
     "type": "EOD_CLOSE",
-    "volume": 242336
+    "volume": 341212
   },
   "range": {
-    "distance_from_high_pct": -11.97,
-    "distance_from_low_pct": 24.69,
+    "distance_from_high_pct": -11.34,
+    "distance_from_low_pct": 25.59,
     "high_52w": 568.0,
     "history_basis": "52_WEEK",
     "low_52w": 401.0,
-    "range_position_pct": 59.28
+    "range_position_pct": 61.44
   },
   "risk_model": {
-    "invalidation_floor": 482.5,
-    "risk_per_share": 27.5,
-    "technical_pivot": 510.0
+    "invalidation_floor": 485.97,
+    "risk_per_share": 27.7,
+    "technical_pivot": 513.67
   },
   "schema_version": "1.0",
   "sector": null,

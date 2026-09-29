@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 92.39,
-      "high": 94.9,
-      "low": 92.01,
-      "open": 94.35,
-      "time": "2025-09-18",
-      "volume": 13456
-    },
-    {
       "close": 92.81,
       "high": 94.7,
       "low": 91.3,
@@ -2017,13 +2009,21 @@
       "open": 430.05,
       "time": "2026-09-25",
       "volume": 91739
+    },
+    {
+      "close": 411.35,
+      "high": 446.0,
+      "low": 407.1,
+      "open": 446.0,
+      "time": "2026-09-28",
+      "volume": 133826
     }
   ],
   "company_name": "BHAGYANAGAR INDIA LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 76,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.45x"
+    "volume_multiplier": "0.65x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -6.75,
-    "change_pct": -1.56,
-    "close": 425.55,
-    "previous_close": 432.3,
+    "as_of": "2026-09-28",
+    "change": -14.2,
+    "change_pct": -3.34,
+    "close": 411.35,
+    "previous_close": 425.55,
     "type": "EOD_CLOSE",
-    "volume": 91739
+    "volume": 133826
   },
   "range": {
-    "distance_from_high_pct": -9.05,
-    "distance_from_low_pct": 372.83,
+    "distance_from_high_pct": -12.09,
+    "distance_from_low_pct": 357.06,
     "high_52w": 467.9,
     "history_basis": "52_WEEK",
     "low_52w": 90.0,
-    "range_position_pct": 88.79
+    "range_position_pct": 85.04
   },
   "risk_model": {
-    "invalidation_floor": 410.66,
-    "risk_per_share": 23.4,
-    "technical_pivot": 434.06
+    "invalidation_floor": 396.95,
+    "risk_per_share": 22.63,
+    "technical_pivot": 419.58
   },
   "schema_version": "1.0",
   "sector": null,

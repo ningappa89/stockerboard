@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 83.78,
-      "high": 85.48,
-      "low": 83.56,
-      "open": 85.31,
-      "time": "2025-09-18",
-      "volume": 33700
-    },
-    {
       "close": 83.34,
       "high": 84.4,
       "low": 83.0,
@@ -2017,13 +2009,21 @@
       "open": 68.39,
       "time": "2026-09-25",
       "volume": 76122
+    },
+    {
+      "close": 68.1,
+      "high": 68.99,
+      "low": 66.13,
+      "open": 66.5,
+      "time": "2026-09-28",
+      "volume": 191667
     }
   ],
   "company_name": "SATIA INDUSTRIES LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 57,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.43x"
+    "volume_multiplier": "1.08x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.67,
-    "change_pct": -0.99,
-    "close": 67.0,
-    "previous_close": 67.67,
+    "as_of": "2026-09-28",
+    "change": 1.1,
+    "change_pct": 1.64,
+    "close": 68.1,
+    "previous_close": 67.0,
     "type": "EOD_CLOSE",
-    "volume": 76122
+    "volume": 191667
   },
   "range": {
-    "distance_from_high_pct": -21.62,
-    "distance_from_low_pct": 31.89,
-    "high_52w": 85.48,
+    "distance_from_high_pct": -19.31,
+    "distance_from_low_pct": 34.06,
+    "high_52w": 84.4,
     "history_basis": "52_WEEK",
     "low_52w": 50.8,
-    "range_position_pct": 46.71
+    "range_position_pct": 51.49
   },
   "risk_model": {
-    "invalidation_floor": 64.66,
-    "risk_per_share": 3.68,
-    "technical_pivot": 68.34
+    "invalidation_floor": 65.72,
+    "risk_per_share": 3.74,
+    "technical_pivot": 69.46
   },
   "schema_version": "1.0",
   "sector": null,

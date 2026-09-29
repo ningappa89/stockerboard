@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 9661.5,
-      "high": 9750.0,
-      "low": 9625.0,
-      "open": 9685.0,
-      "time": "2025-09-18",
-      "volume": 4496
-    },
-    {
       "close": 9611.0,
       "high": 9750.0,
       "low": 9580.0,
@@ -2017,13 +2009,21 @@
       "open": 8532.0,
       "time": "2026-09-25",
       "volume": 7895
+    },
+    {
+      "close": 8459.0,
+      "high": 8650.0,
+      "low": 8450.0,
+      "open": 8650.0,
+      "time": "2026-09-28",
+      "volume": 5304
     }
   ],
   "company_name": "WENDT (INDIA) LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 73,
+    "momentum_score": 70,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.5x"
+    "volume_multiplier": "0.34x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 120.5,
-    "change_pct": 1.41,
-    "close": 8646.0,
-    "previous_close": 8525.5,
+    "as_of": "2026-09-28",
+    "change": -187.0,
+    "change_pct": -2.16,
+    "close": 8459.0,
+    "previous_close": 8646.0,
     "type": "EOD_CLOSE",
-    "volume": 7895
+    "volume": 5304
   },
   "range": {
-    "distance_from_high_pct": -11.32,
-    "distance_from_low_pct": 48.01,
+    "distance_from_high_pct": -13.24,
+    "distance_from_low_pct": 44.81,
     "high_52w": 9750.0,
     "history_basis": "52_WEEK",
     "low_52w": 5841.5,
-    "range_position_pct": 71.75
+    "range_position_pct": 66.97
   },
   "risk_model": {
-    "invalidation_floor": 8343.39,
-    "risk_per_share": 475.53,
-    "technical_pivot": 8818.92
+    "invalidation_floor": 8162.93,
+    "risk_per_share": 465.25,
+    "technical_pivot": 8628.18
   },
   "schema_version": "1.0",
   "sector": null,

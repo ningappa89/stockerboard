@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2241.5,
-      "high": 2286.0,
-      "low": 2233.34,
-      "open": 2283.34,
-      "time": "2025-09-18",
-      "volume": 20502
-    },
-    {
       "close": 2206.67,
       "high": 2253.0,
       "low": 2200.34,
@@ -2017,13 +2009,21 @@
       "open": 2340.0,
       "time": "2026-09-25",
       "volume": 34703
+    },
+    {
+      "close": 2332.8,
+      "high": 2354.0,
+      "low": 2315.3,
+      "open": 2354.0,
+      "time": "2026-09-28",
+      "volume": 92154
     }
   ],
   "company_name": "ZF COM VE CTR SYS IND LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 56,
+    "momentum_score": 54,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.37x"
+    "volume_multiplier": "0.96x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 8.7,
-    "change_pct": 0.37,
-    "close": 2354.2,
-    "previous_close": 2345.5,
+    "as_of": "2026-09-28",
+    "change": -21.4,
+    "change_pct": -0.91,
+    "close": 2332.8,
+    "previous_close": 2354.2,
     "type": "EOD_CLOSE",
-    "volume": 34703
+    "volume": 92154
   },
   "range": {
-    "distance_from_high_pct": -22.66,
-    "distance_from_low_pct": 14.82,
+    "distance_from_high_pct": -23.36,
+    "distance_from_low_pct": 13.78,
     "high_52w": 3044.0,
     "history_basis": "52_WEEK",
     "low_52w": 2050.34,
-    "range_position_pct": 30.58
+    "range_position_pct": 28.43
   },
   "risk_model": {
-    "invalidation_floor": 2271.8,
-    "risk_per_share": 129.48,
-    "technical_pivot": 2401.28
+    "invalidation_floor": 2251.15,
+    "risk_per_share": 128.31,
+    "technical_pivot": 2379.46
   },
   "schema_version": "1.0",
   "sector": null,

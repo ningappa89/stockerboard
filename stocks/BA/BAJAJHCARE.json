@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 426.8,
-      "high": 438.4,
-      "low": 422.0,
-      "open": 438.0,
-      "time": "2025-09-18",
-      "volume": 151020
-    },
-    {
       "close": 423.65,
       "high": 429.5,
       "low": 421.0,
@@ -2017,13 +2009,21 @@
       "open": 350.9,
       "time": "2026-09-25",
       "volume": 89487
+    },
+    {
+      "close": 336.6,
+      "high": 346.35,
+      "low": 335.0,
+      "open": 346.35,
+      "time": "2026-09-28",
+      "volume": 65708
     }
   ],
   "company_name": "Bajaj Healthcare Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.56x"
+    "volume_multiplier": "0.41x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -6.0,
-    "change_pct": -1.71,
-    "close": 344.15,
-    "previous_close": 350.15,
+    "as_of": "2026-09-28",
+    "change": -7.55,
+    "change_pct": -2.19,
+    "close": 336.6,
+    "previous_close": 344.15,
     "type": "EOD_CLOSE",
-    "volume": 89487
+    "volume": 65708
   },
   "range": {
-    "distance_from_high_pct": -33.29,
-    "distance_from_low_pct": 26.36,
+    "distance_from_high_pct": -34.75,
+    "distance_from_low_pct": 23.59,
     "high_52w": 515.9,
     "history_basis": "52_WEEK",
     "low_52w": 272.35,
-    "range_position_pct": 29.48
+    "range_position_pct": 26.38
   },
   "risk_model": {
-    "invalidation_floor": 332.1,
-    "risk_per_share": 18.93,
-    "technical_pivot": 351.03
+    "invalidation_floor": 324.82,
+    "risk_per_share": 18.51,
+    "technical_pivot": 343.33
   },
   "schema_version": "1.0",
   "sector": null,

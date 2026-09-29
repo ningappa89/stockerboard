@@ -1665,14 +1665,22 @@
       "open": 2093.4,
       "time": "2026-09-25",
       "volume": 10464
+    },
+    {
+      "close": 2040.3,
+      "high": 2100.0,
+      "low": 2020.0,
+      "open": 2080.0,
+      "time": "2026-09-28",
+      "volume": 12981
     }
   ],
   "company_name": "BETA DRUGS LIMITED",
   "history": {
     "first_session": "2025-11-24",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 208
+    "last_session": "2026-09-28",
+    "sessions_available": 209
   },
   "industry": null,
   "isin": "INE351Y01019",
@@ -1680,31 +1688,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 52,
+    "momentum_score": 48,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.52x"
+    "volume_multiplier": "0.65x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 5.3,
-    "change_pct": 0.25,
-    "close": 2098.7,
-    "previous_close": 2093.4,
+    "as_of": "2026-09-28",
+    "change": -58.4,
+    "change_pct": -2.78,
+    "close": 2040.3,
+    "previous_close": 2098.7,
     "type": "EOD_CLOSE",
-    "volume": 10464
+    "volume": 12981
   },
   "range": {
-    "distance_from_high_pct": -25.26,
-    "distance_from_low_pct": 111.97,
+    "distance_from_high_pct": -27.34,
+    "distance_from_low_pct": 106.07,
     "high_52w": 2807.9,
     "history_basis": "52_WEEK",
     "low_52w": 990.1,
-    "range_position_pct": 60.99
+    "range_position_pct": 57.77
   },
   "risk_model": {
-    "invalidation_floor": 2025.25,
-    "risk_per_share": 115.42,
-    "technical_pivot": 2140.67
+    "invalidation_floor": 1968.89,
+    "risk_per_share": 112.22,
+    "technical_pivot": 2081.11
   },
   "schema_version": "1.0",
   "sector": null,

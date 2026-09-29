@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 141.94,
-      "high": 141.95,
-      "low": 136.0,
-      "open": 140.49,
-      "time": "2025-09-18",
-      "volume": 4967
-    },
-    {
       "close": 139.9,
       "high": 142.95,
       "low": 137.55,
@@ -2017,13 +2009,21 @@
       "open": 94.25,
       "time": "2026-09-25",
       "volume": 3558
+    },
+    {
+      "close": 94.64,
+      "high": 97.9,
+      "low": 94.5,
+      "open": 95.4,
+      "time": "2026-09-28",
+      "volume": 4667
     }
   ],
   "company_name": "ANJANI PORTLAND CEMENT LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.54x"
+    "volume_multiplier": "0.74x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.25,
-    "change_pct": 0.26,
-    "close": 95.52,
-    "previous_close": 95.27,
+    "as_of": "2026-09-28",
+    "change": -0.88,
+    "change_pct": -0.92,
+    "close": 94.64,
+    "previous_close": 95.52,
     "type": "EOD_CLOSE",
-    "volume": 3558
+    "volume": 4667
   },
   "range": {
-    "distance_from_high_pct": -35.8,
-    "distance_from_low_pct": 2.49,
+    "distance_from_high_pct": -36.39,
+    "distance_from_low_pct": 1.55,
     "high_52w": 148.78,
     "history_basis": "52_WEEK",
     "low_52w": 93.2,
-    "range_position_pct": 4.17
+    "range_position_pct": 2.59
   },
   "risk_model": {
-    "invalidation_floor": 92.18,
-    "risk_per_share": 5.25,
-    "technical_pivot": 97.43
+    "invalidation_floor": 91.33,
+    "risk_per_share": 5.2,
+    "technical_pivot": 96.53
   },
   "schema_version": "1.0",
   "sector": null,

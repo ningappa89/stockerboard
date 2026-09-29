@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 976.9,
-      "high": 979.65,
-      "low": 969.25,
-      "open": 973.3,
-      "time": "2025-09-18",
-      "volume": 17791598
-    },
-    {
       "close": 966.9,
       "high": 976.7,
       "low": 962.1,
@@ -2017,13 +2009,21 @@
       "open": 723.0,
       "time": "2026-09-25",
       "volume": 19853034
+    },
+    {
+      "close": 719.05,
+      "high": 733.0,
+      "low": 718.1,
+      "open": 731.6,
+      "time": "2026-09-28",
+      "volume": 21675579
     }
   ],
   "company_name": "HDFC BANK LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.63x"
+    "volume_multiplier": "0.68x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 6.7,
-    "change_pct": 0.92,
-    "close": 735.6,
-    "previous_close": 728.9,
+    "as_of": "2026-09-28",
+    "change": -16.55,
+    "change_pct": -2.25,
+    "close": 719.05,
+    "previous_close": 735.6,
     "type": "EOD_CLOSE",
-    "volume": 19853034
+    "volume": 21675579
   },
   "range": {
-    "distance_from_high_pct": -27.92,
-    "distance_from_low_pct": 7.88,
+    "distance_from_high_pct": -29.54,
+    "distance_from_low_pct": 5.45,
     "high_52w": 1020.5,
     "history_basis": "52_WEEK",
     "low_52w": 681.9,
-    "range_position_pct": 15.86
+    "range_position_pct": 10.97
   },
   "risk_model": {
-    "invalidation_floor": 709.85,
-    "risk_per_share": 40.46,
-    "technical_pivot": 750.31
+    "invalidation_floor": 693.88,
+    "risk_per_share": 39.55,
+    "technical_pivot": 733.43
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

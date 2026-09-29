@@ -241,14 +241,22 @@
       "open": 143.0,
       "time": "2026-09-25",
       "volume": 1105790
+    },
+    {
+      "close": 135.36,
+      "high": 139.75,
+      "low": 135.0,
+      "open": 139.75,
+      "time": "2026-09-28",
+      "volume": 1000238
     }
   ],
   "company_name": "LEAP India Limited",
   "history": {
     "first_session": "2026-08-14",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 30
+    "last_session": "2026-09-28",
+    "sessions_available": 31
   },
   "industry": null,
   "isin": "INE00GO01025",
@@ -256,31 +264,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 61,
+    "momentum_score": 57,
     "setup_type": "Liquid Active",
     "volume_multiplier": "0.29x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -3.17,
-    "change_pct": -2.22,
-    "close": 139.92,
-    "previous_close": 143.09,
+    "as_of": "2026-09-28",
+    "change": -4.56,
+    "change_pct": -3.26,
+    "close": 135.36,
+    "previous_close": 139.92,
     "type": "EOD_CLOSE",
-    "volume": 1105790
+    "volume": 1000238
   },
   "range": {
-    "distance_from_high_pct": -18.79,
-    "distance_from_low_pct": 8.84,
+    "distance_from_high_pct": -21.43,
+    "distance_from_low_pct": 5.3,
     "high_52w": 172.29,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 128.55,
-    "range_position_pct": 25.99
+    "range_position_pct": 15.57
   },
   "risk_model": {
-    "invalidation_floor": 135.02,
-    "risk_per_share": 7.7,
-    "technical_pivot": 142.72
+    "invalidation_floor": 130.62,
+    "risk_per_share": 7.45,
+    "technical_pivot": 138.07
   },
   "schema_version": "1.0",
   "sector": null,

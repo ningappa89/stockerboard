@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 740.3,
-      "high": 748.2,
-      "low": 727.9,
-      "open": 747.8,
-      "time": "2025-09-18",
-      "volume": 326017
-    },
-    {
       "close": 744.6,
       "high": 747.65,
       "low": 737.6,
@@ -2017,13 +2009,21 @@
       "open": 800.95,
       "time": "2026-09-25",
       "volume": 346140
+    },
+    {
+      "close": 766.45,
+      "high": 783.4,
+      "low": 760.75,
+      "open": 775.2,
+      "time": "2026-09-28",
+      "volume": 339252
     }
   ],
   "company_name": "Krishna Institute of Medical S",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 76,
+    "momentum_score": 73,
     "setup_type": "Liquid Active",
     "volume_multiplier": "0.72x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -20.3,
-    "change_pct": -2.54,
-    "close": 780.15,
-    "previous_close": 800.45,
+    "as_of": "2026-09-28",
+    "change": -13.7,
+    "change_pct": -1.76,
+    "close": 766.45,
+    "previous_close": 780.15,
     "type": "EOD_CLOSE",
-    "volume": 346140
+    "volume": 339252
   },
   "range": {
-    "distance_from_high_pct": -9.07,
-    "distance_from_low_pct": 35.49,
+    "distance_from_high_pct": -10.67,
+    "distance_from_low_pct": 33.11,
     "high_52w": 858.0,
     "history_basis": "52_WEEK",
     "low_52w": 575.8,
-    "range_position_pct": 72.41
+    "range_position_pct": 67.56
   },
   "risk_model": {
-    "invalidation_floor": 752.84,
-    "risk_per_share": 42.91,
-    "technical_pivot": 795.75
+    "invalidation_floor": 739.62,
+    "risk_per_share": 42.16,
+    "technical_pivot": 781.78
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

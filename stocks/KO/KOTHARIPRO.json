@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 95.42,
-      "high": 99.29,
-      "low": 94.22,
-      "open": 97.79,
-      "time": "2025-09-18",
-      "volume": 130834
-    },
-    {
       "close": 90.56,
       "high": 95.0,
       "low": 90.0,
@@ -2017,13 +2009,21 @@
       "open": 67.13,
       "time": "2026-09-25",
       "volume": 11027
+    },
+    {
+      "close": 66.01,
+      "high": 69.35,
+      "low": 65.15,
+      "open": 69.35,
+      "time": "2026-09-28",
+      "volume": 5845
     }
   ],
   "company_name": "KOTHARI PRODUCTS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 41,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.81x"
+    "volume_multiplier": "0.43x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.84,
-    "change_pct": 1.25,
-    "close": 67.97,
-    "previous_close": 67.13,
+    "as_of": "2026-09-28",
+    "change": -1.96,
+    "change_pct": -2.88,
+    "close": 66.01,
+    "previous_close": 67.97,
     "type": "EOD_CLOSE",
-    "volume": 11027
+    "volume": 5845
   },
   "range": {
-    "distance_from_high_pct": -32.31,
-    "distance_from_low_pct": 17.19,
+    "distance_from_high_pct": -34.27,
+    "distance_from_low_pct": 13.81,
     "high_52w": 100.42,
     "history_basis": "52_WEEK",
     "low_52w": 58.0,
-    "range_position_pct": 23.5
+    "range_position_pct": 18.88
   },
   "risk_model": {
-    "invalidation_floor": 65.59,
-    "risk_per_share": 3.74,
-    "technical_pivot": 69.33
+    "invalidation_floor": 63.7,
+    "risk_per_share": 3.63,
+    "technical_pivot": 67.33
   },
   "schema_version": "1.0",
   "sector": null,

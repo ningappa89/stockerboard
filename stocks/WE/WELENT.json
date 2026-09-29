@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 560.05,
-      "high": 570.0,
-      "low": 544.0,
-      "open": 548.9,
-      "time": "2025-09-18",
-      "volume": 865087
-    },
-    {
       "close": 558.8,
       "high": 570.0,
       "low": 553.3,
@@ -2017,13 +2009,21 @@
       "open": 748.1,
       "time": "2026-09-25",
       "volume": 283394
+    },
+    {
+      "close": 749.5,
+      "high": 762.0,
+      "low": 734.25,
+      "open": 755.5,
+      "time": "2026-09-28",
+      "volume": 586516
     }
   ],
   "company_name": "WELSPUN ENTERPRISES LIMTED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 74,
+    "momentum_score": 73,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.31x"
+    "volume_multiplier": "0.63x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 5.35,
-    "change_pct": 0.71,
-    "close": 754.5,
-    "previous_close": 749.15,
+    "as_of": "2026-09-28",
+    "change": -5.0,
+    "change_pct": -0.66,
+    "close": 749.5,
+    "previous_close": 754.5,
     "type": "EOD_CLOSE",
-    "volume": 283394
+    "volume": 586516
   },
   "range": {
-    "distance_from_high_pct": -10.38,
-    "distance_from_low_pct": 83.13,
+    "distance_from_high_pct": -10.98,
+    "distance_from_low_pct": 81.92,
     "high_52w": 841.9,
     "history_basis": "52_WEEK",
     "low_52w": 412.0,
-    "range_position_pct": 79.67
+    "range_position_pct": 78.51
   },
   "risk_model": {
-    "invalidation_floor": 728.09,
-    "risk_per_share": 41.5,
-    "technical_pivot": 769.59
+    "invalidation_floor": 723.27,
+    "risk_per_share": 41.22,
+    "technical_pivot": 764.49
   },
   "schema_version": "1.0",
   "sector": null,

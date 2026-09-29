@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 565.05,
-      "high": 584.8,
-      "low": 561.1,
-      "open": 570.0,
-      "time": "2025-09-18",
-      "volume": 9742
-    },
-    {
       "close": 554.8,
       "high": 573.5,
       "low": 550.0,
@@ -2017,13 +2009,21 @@
       "open": 655.0,
       "time": "2026-09-25",
       "volume": 4595
+    },
+    {
+      "close": 650.75,
+      "high": 670.0,
+      "low": 636.0,
+      "open": 670.0,
+      "time": "2026-09-28",
+      "volume": 7433
     }
   ],
   "company_name": "Synergy Green Industries Limit",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 78,
+    "momentum_score": 79,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.33x"
+    "volume_multiplier": "0.54x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -4.1,
-    "change_pct": -0.63,
-    "close": 642.5,
-    "previous_close": 646.6,
+    "as_of": "2026-09-28",
+    "change": 8.25,
+    "change_pct": 1.28,
+    "close": 650.75,
+    "previous_close": 642.5,
     "type": "EOD_CLOSE",
-    "volume": 4595
+    "volume": 7433
   },
   "range": {
-    "distance_from_high_pct": -7.94,
-    "distance_from_low_pct": 52.98,
+    "distance_from_high_pct": -6.76,
+    "distance_from_low_pct": 54.94,
     "high_52w": 697.95,
     "history_basis": "52_WEEK",
     "low_52w": 420.0,
-    "range_position_pct": 80.05
+    "range_position_pct": 83.02
   },
   "risk_model": {
-    "invalidation_floor": 620.01,
-    "risk_per_share": 35.34,
-    "technical_pivot": 655.35
+    "invalidation_floor": 627.97,
+    "risk_per_share": 35.79,
+    "technical_pivot": 663.76
   },
   "schema_version": "1.0",
   "sector": null,

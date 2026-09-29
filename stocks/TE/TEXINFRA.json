@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 95.56,
-      "high": 97.02,
-      "low": 94.51,
-      "open": 96.98,
-      "time": "2025-09-18",
-      "volume": 141402
-    },
-    {
       "close": 95.1,
       "high": 97.1,
       "low": 94.5,
@@ -2017,13 +2009,21 @@
       "open": 118.0,
       "time": "2026-09-25",
       "volume": 138397
+    },
+    {
+      "close": 116.56,
+      "high": 118.0,
+      "low": 115.91,
+      "open": 118.0,
+      "time": "2026-09-28",
+      "volume": 55544
     }
   ],
   "company_name": "TEXMACO INFRASTRUCTURE & HOLDI",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 80,
+    "momentum_score": 78,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.36x"
+    "volume_multiplier": "0.14x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.65,
-    "change_pct": -0.55,
-    "close": 118.25,
-    "previous_close": 118.9,
+    "as_of": "2026-09-28",
+    "change": -1.69,
+    "change_pct": -1.43,
+    "close": 116.56,
+    "previous_close": 118.25,
     "type": "EOD_CLOSE",
-    "volume": 138397
+    "volume": 55544
   },
   "range": {
-    "distance_from_high_pct": -6.59,
-    "distance_from_low_pct": 43.33,
+    "distance_from_high_pct": -7.92,
+    "distance_from_low_pct": 41.28,
     "high_52w": 126.59,
     "history_basis": "52_WEEK",
     "low_52w": 82.5,
-    "range_position_pct": 81.08
+    "range_position_pct": 77.25
   },
   "risk_model": {
-    "invalidation_floor": 114.11,
-    "risk_per_share": 6.51,
-    "technical_pivot": 120.62
+    "invalidation_floor": 112.48,
+    "risk_per_share": 6.41,
+    "technical_pivot": 118.89
   },
   "schema_version": "1.0",
   "sector": null,

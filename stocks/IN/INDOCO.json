@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 301.75,
-      "high": 307.5,
-      "low": 299.8,
-      "open": 299.8,
-      "time": "2025-09-18",
-      "volume": 123764
-    },
-    {
       "close": 301.95,
       "high": 312.6,
       "low": 298.35,
@@ -2017,13 +2009,21 @@
       "open": 250.55,
       "time": "2026-09-25",
       "volume": 100085
+    },
+    {
+      "close": 249.06,
+      "high": 255.52,
+      "low": 245.25,
+      "open": 252.55,
+      "time": "2026-09-28",
+      "volume": 113273
     }
   ],
   "company_name": "INDOCO REMEDIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 60,
+    "momentum_score": 57,
     "setup_type": "Liquid Active",
     "volume_multiplier": "0.06x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 4.17,
-    "change_pct": 1.67,
-    "close": 254.46,
-    "previous_close": 250.29,
+    "as_of": "2026-09-28",
+    "change": -5.4,
+    "change_pct": -2.12,
+    "close": 249.06,
+    "previous_close": 254.46,
     "type": "EOD_CLOSE",
-    "volume": 100085
+    "volume": 113273
   },
   "range": {
-    "distance_from_high_pct": -19.82,
-    "distance_from_low_pct": 56.89,
+    "distance_from_high_pct": -21.52,
+    "distance_from_low_pct": 53.56,
     "high_52w": 317.35,
     "history_basis": "52_WEEK",
     "low_52w": 162.19,
-    "range_position_pct": 59.47
+    "range_position_pct": 55.99
   },
   "risk_model": {
-    "invalidation_floor": 245.55,
-    "risk_per_share": 14.0,
-    "technical_pivot": 259.55
+    "invalidation_floor": 240.34,
+    "risk_per_share": 13.7,
+    "technical_pivot": 254.04
   },
   "schema_version": "1.0",
   "sector": null,

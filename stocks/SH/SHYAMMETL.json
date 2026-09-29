@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 915.25,
-      "high": 918.95,
-      "low": 909.0,
-      "open": 914.4,
-      "time": "2025-09-18",
-      "volume": 75439
-    },
-    {
       "close": 908.2,
       "high": 916.95,
       "low": 899.3,
@@ -2017,13 +2009,21 @@
       "open": 1093.0,
       "time": "2026-09-25",
       "volume": 591086
+    },
+    {
+      "close": 1068.7,
+      "high": 1085.3,
+      "low": 1065.2,
+      "open": 1085.0,
+      "time": "2026-09-28",
+      "volume": 424830
     }
   ],
   "company_name": "Shyam Metalics and Energy Limi",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 81,
+    "momentum_score": 79,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.9x"
+    "volume_multiplier": "0.78x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -12.3,
-    "change_pct": -1.12,
-    "close": 1085.6,
-    "previous_close": 1097.9,
+    "as_of": "2026-09-28",
+    "change": -16.9,
+    "change_pct": -1.56,
+    "close": 1068.7,
+    "previous_close": 1085.6,
     "type": "EOD_CLOSE",
-    "volume": 591086
+    "volume": 424830
   },
   "range": {
-    "distance_from_high_pct": -5.44,
-    "distance_from_low_pct": 45.52,
+    "distance_from_high_pct": -6.91,
+    "distance_from_low_pct": 43.26,
     "high_52w": 1148.0,
     "history_basis": "52_WEEK",
     "low_52w": 746.0,
-    "range_position_pct": 84.48
+    "range_position_pct": 80.27
   },
   "risk_model": {
-    "invalidation_floor": 1047.6,
-    "risk_per_share": 59.71,
-    "technical_pivot": 1107.31
+    "invalidation_floor": 1031.3,
+    "risk_per_share": 58.77,
+    "technical_pivot": 1090.07
   },
   "schema_version": "1.0",
   "sector": null,

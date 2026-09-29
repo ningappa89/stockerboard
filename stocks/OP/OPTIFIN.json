@@ -233,46 +233,54 @@
       "open": 14.98,
       "time": "2026-09-25",
       "volume": 42946
+    },
+    {
+      "close": 14.53,
+      "high": 14.99,
+      "low": 14.01,
+      "open": 14.99,
+      "time": "2026-09-28",
+      "volume": 46758
     }
   ],
   "company_name": "Optimus Finance Limited",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE031G01022",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 72,
+    "is_stage2": false,
+    "momentum_score": 68,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.22x"
+    "volume_multiplier": "0.23x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.01,
-    "change_pct": 0.07,
-    "close": 14.99,
-    "previous_close": 14.98,
+    "as_of": "2026-09-28",
+    "change": -0.46,
+    "change_pct": -3.07,
+    "close": 14.53,
+    "previous_close": 14.99,
     "type": "EOD_CLOSE",
-    "volume": 42946
+    "volume": 46758
   },
   "range": {
-    "distance_from_high_pct": -11.82,
-    "distance_from_low_pct": 33.24,
+    "distance_from_high_pct": -14.53,
+    "distance_from_low_pct": 29.16,
     "high_52w": 17.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 11.25,
-    "range_position_pct": 65.04
+    "range_position_pct": 57.04
   },
   "risk_model": {
-    "invalidation_floor": 14.47,
-    "risk_per_share": 0.82,
-    "technical_pivot": 15.29
+    "invalidation_floor": 14.02,
+    "risk_per_share": 0.8,
+    "technical_pivot": 14.82
   },
   "schema_version": "1.0",
   "sector": null,

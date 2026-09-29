@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2626.4,
-      "high": 2727.0,
-      "low": 2570.0,
-      "open": 2619.0,
-      "time": "2025-09-18",
-      "volume": 5290008
-    },
-    {
       "close": 2605.3,
       "high": 2663.0,
       "low": 2596.0,
@@ -2017,13 +2009,21 @@
       "open": 2344.1,
       "time": "2026-09-25",
       "volume": 252777
+    },
+    {
+      "close": 2245.3,
+      "high": 2316.0,
+      "low": 2236.8,
+      "open": 2316.0,
+      "time": "2026-09-28",
+      "volume": 389363
     }
   ],
   "company_name": "Garden Reach Shipbuilders & En",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 44,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.8x"
+    "volume_multiplier": "1.2x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -25.0,
-    "change_pct": -1.07,
-    "close": 2319.0,
-    "previous_close": 2344.0,
+    "as_of": "2026-09-28",
+    "change": -73.7,
+    "change_pct": -3.18,
+    "close": 2245.3,
+    "previous_close": 2319.0,
     "type": "EOD_CLOSE",
-    "volume": 252777
+    "volume": 389363
   },
   "range": {
-    "distance_from_high_pct": -30.55,
-    "distance_from_low_pct": 18.09,
+    "distance_from_high_pct": -32.76,
+    "distance_from_low_pct": 14.34,
     "high_52w": 3339.0,
     "history_basis": "52_WEEK",
     "low_52w": 1963.7,
-    "range_position_pct": 25.83
+    "range_position_pct": 20.48
   },
   "risk_model": {
-    "invalidation_floor": 2237.84,
-    "risk_per_share": 127.54,
-    "technical_pivot": 2365.38
+    "invalidation_floor": 2166.71,
+    "risk_per_share": 123.5,
+    "technical_pivot": 2290.21
   },
   "schema_version": "1.0",
   "sector": null,

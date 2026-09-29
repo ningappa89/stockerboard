@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 389.5,
-      "high": 394.05,
-      "low": 386.1,
-      "open": 392.0,
-      "time": "2025-09-18",
-      "volume": 932890
-    },
-    {
       "close": 382.3,
       "high": 391.35,
       "low": 378.65,
@@ -2017,13 +2009,21 @@
       "open": 181.45,
       "time": "2026-09-25",
       "volume": 151259
+    },
+    {
+      "close": 178.23,
+      "high": 184.25,
+      "low": 177.41,
+      "open": 182.0,
+      "time": "2026-09-28",
+      "volume": 345012
     }
   ],
   "company_name": "EPACK DURABLE LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.4x"
+    "volume_multiplier": "0.98x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.2,
-    "change_pct": 0.11,
-    "close": 180.32,
-    "previous_close": 180.12,
+    "as_of": "2026-09-28",
+    "change": -2.09,
+    "change_pct": -1.16,
+    "close": 178.23,
+    "previous_close": 180.32,
     "type": "EOD_CLOSE",
-    "volume": 151259
+    "volume": 345012
   },
   "range": {
-    "distance_from_high_pct": -54.24,
-    "distance_from_low_pct": 3.02,
-    "high_52w": 394.05,
+    "distance_from_high_pct": -54.46,
+    "distance_from_low_pct": 1.82,
+    "high_52w": 391.35,
     "history_basis": "52_WEEK",
     "low_52w": 175.04,
-    "range_position_pct": 2.41
+    "range_position_pct": 1.47
   },
   "risk_model": {
-    "invalidation_floor": 174.01,
-    "risk_per_share": 9.92,
-    "technical_pivot": 183.93
+    "invalidation_floor": 171.99,
+    "risk_per_share": 9.8,
+    "technical_pivot": 181.79
   },
   "schema_version": "1.0",
   "sector": null,

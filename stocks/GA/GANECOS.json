@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1291.6,
-      "high": 1325.0,
-      "low": 1280.1,
-      "open": 1305.0,
-      "time": "2025-09-18",
-      "volume": 36092
-    },
-    {
       "close": 1277.6,
       "high": 1296.0,
       "low": 1262.6,
@@ -2017,13 +2009,21 @@
       "open": 1009.0,
       "time": "2026-09-25",
       "volume": 48026
+    },
+    {
+      "close": 1019.2,
+      "high": 1036.0,
+      "low": 1011.0,
+      "open": 1028.6,
+      "time": "2026-09-28",
+      "volume": 44994
     }
   ],
   "company_name": "GANESHA ECOSPHERE LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 56,
+    "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.46x"
+    "volume_multiplier": "0.43x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 14.6,
-    "change_pct": 1.44,
-    "close": 1028.6,
-    "previous_close": 1014.0,
+    "as_of": "2026-09-28",
+    "change": -9.4,
+    "change_pct": -0.91,
+    "close": 1019.2,
+    "previous_close": 1028.6,
     "type": "EOD_CLOSE",
-    "volume": 48026
+    "volume": 44994
   },
   "range": {
-    "distance_from_high_pct": -22.37,
-    "distance_from_low_pct": 57.39,
-    "high_52w": 1325.0,
+    "distance_from_high_pct": -21.36,
+    "distance_from_low_pct": 55.95,
+    "high_52w": 1296.0,
     "history_basis": "52_WEEK",
     "low_52w": 653.55,
-    "range_position_pct": 55.86
+    "range_position_pct": 56.91
   },
   "risk_model": {
-    "invalidation_floor": 992.6,
-    "risk_per_share": 56.57,
-    "technical_pivot": 1049.17
+    "invalidation_floor": 983.53,
+    "risk_per_share": 56.05,
+    "technical_pivot": 1039.58
   },
   "schema_version": "1.0",
   "sector": null,

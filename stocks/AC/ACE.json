@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1145.1,
-      "high": 1156.0,
-      "low": 1119.0,
-      "open": 1136.6,
-      "time": "2025-09-18",
-      "volume": 303635
-    },
-    {
       "close": 1150.0,
       "high": 1170.0,
       "low": 1143.2,
@@ -2017,46 +2009,54 @@
       "open": 1242.0,
       "time": "2026-09-25",
       "volume": 184368
+    },
+    {
+      "close": 1212.9,
+      "high": 1226.4,
+      "low": 1197.5,
+      "open": 1226.4,
+      "time": "2026-09-28",
+      "volume": 230428
     }
   ],
   "company_name": "ACTION CONSTRUCTION EQUIPMENT",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE731H01025",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 85,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.53x"
+    "momentum_score": 83,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.65x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -14.4,
-    "change_pct": -1.16,
-    "close": 1226.6,
-    "previous_close": 1241.0,
+    "as_of": "2026-09-28",
+    "change": -13.7,
+    "change_pct": -1.12,
+    "close": 1212.9,
+    "previous_close": 1226.6,
     "type": "EOD_CLOSE",
-    "volume": 184368
+    "volume": 230428
   },
   "range": {
-    "distance_from_high_pct": -3.26,
-    "distance_from_low_pct": 64.62,
+    "distance_from_high_pct": -4.35,
+    "distance_from_low_pct": 62.78,
     "high_52w": 1268.0,
     "history_basis": "52_WEEK",
     "low_52w": 745.1,
-    "range_position_pct": 92.08
+    "range_position_pct": 89.46
   },
   "risk_model": {
-    "invalidation_floor": 1183.67,
-    "risk_per_share": 67.46,
-    "technical_pivot": 1251.13
+    "invalidation_floor": 1170.45,
+    "risk_per_share": 66.71,
+    "technical_pivot": 1237.16
   },
   "schema_version": "1.0",
   "sector": null,

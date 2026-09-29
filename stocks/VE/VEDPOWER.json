@@ -585,14 +585,22 @@
       "open": 32.1,
       "time": "2026-09-25",
       "volume": 14269362
+    },
+    {
+      "close": 32.15,
+      "high": 33.11,
+      "low": 32.11,
+      "open": 33.09,
+      "time": "2026-09-28",
+      "volume": 6021208
     }
   ],
   "company_name": "VEDANTA POWER LIMITED",
   "history": {
     "first_session": "2026-06-15",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 73
+    "last_session": "2026-09-28",
+    "sessions_available": 74
   },
   "industry": null,
   "isin": "INE694L01019",
@@ -602,29 +610,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.18x"
+    "volume_multiplier": "0.51x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.85,
-    "change_pct": 2.65,
-    "close": 32.95,
-    "previous_close": 32.1,
+    "as_of": "2026-09-28",
+    "change": -0.8,
+    "change_pct": -2.43,
+    "close": 32.15,
+    "previous_close": 32.95,
     "type": "EOD_CLOSE",
-    "volume": 14269362
+    "volume": 6021208
   },
   "range": {
-    "distance_from_high_pct": -33.94,
-    "distance_from_low_pct": 8.25,
+    "distance_from_high_pct": -35.55,
+    "distance_from_low_pct": 5.62,
     "high_52w": 49.88,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 30.44,
-    "range_position_pct": 12.91
+    "range_position_pct": 8.8
   },
   "risk_model": {
-    "invalidation_floor": 31.8,
-    "risk_per_share": 1.81,
-    "technical_pivot": 33.61
+    "invalidation_floor": 31.02,
+    "risk_per_share": 1.77,
+    "technical_pivot": 32.79
   },
   "schema_version": "1.0",
   "sector": null,

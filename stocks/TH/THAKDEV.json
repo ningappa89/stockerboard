@@ -745,46 +745,54 @@
       "open": 135.0,
       "time": "2026-09-25",
       "volume": 23
+    },
+    {
+      "close": 141.37,
+      "high": 145.0,
+      "low": 134.99,
+      "open": 134.99,
+      "time": "2026-09-28",
+      "volume": 1757
     }
   ],
   "company_name": "THAKKERS DEVELOPERS LTD.",
   "history": {
     "first_session": "2026-04-21",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 93
+    "last_session": "2026-09-28",
+    "sessions_available": 94
   },
   "industry": null,
   "isin": "INE403F01017",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 64,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.08x"
+    "is_stage2": true,
+    "momentum_score": 70,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "4.56x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 3.55,
-    "change_pct": 2.7,
-    "close": 134.99,
-    "previous_close": 131.44,
+    "as_of": "2026-09-28",
+    "change": 6.38,
+    "change_pct": 4.73,
+    "close": 141.37,
+    "previous_close": 134.99,
     "type": "EOD_CLOSE",
-    "volume": 23
+    "volume": 1757
   },
   "range": {
-    "distance_from_high_pct": -17.19,
-    "distance_from_low_pct": 17.28,
+    "distance_from_high_pct": -13.28,
+    "distance_from_low_pct": 22.82,
     "high_52w": 163.01,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 115.1,
-    "range_position_pct": 41.52
+    "range_position_pct": 54.83
   },
   "risk_model": {
-    "invalidation_floor": 130.27,
-    "risk_per_share": 7.42,
-    "technical_pivot": 137.69
+    "invalidation_floor": 136.42,
+    "risk_per_share": 7.78,
+    "technical_pivot": 144.2
   },
   "schema_version": "1.0",
   "sector": null,

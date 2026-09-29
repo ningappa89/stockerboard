@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 76.06,
-      "high": 77.76,
-      "low": 75.61,
-      "open": 77.4,
-      "time": "2025-09-18",
-      "volume": 69422
-    },
-    {
       "close": 75.57,
       "high": 76.76,
       "low": 75.4,
@@ -2017,13 +2009,21 @@
       "open": 34.05,
       "time": "2026-09-25",
       "volume": 19413
+    },
+    {
+      "close": 33.67,
+      "high": 34.49,
+      "low": 33.12,
+      "open": 34.0,
+      "time": "2026-09-28",
+      "volume": 8685
     }
   ],
   "company_name": "OSWAL AGRO MILLS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.53x"
+    "volume_multiplier": "0.26x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.12,
-    "change_pct": 0.35,
-    "close": 34.0,
-    "previous_close": 33.88,
+    "as_of": "2026-09-28",
+    "change": -0.33,
+    "change_pct": -0.97,
+    "close": 33.67,
+    "previous_close": 34.0,
     "type": "EOD_CLOSE",
-    "volume": 19413
+    "volume": 8685
   },
   "range": {
-    "distance_from_high_pct": -58.02,
-    "distance_from_low_pct": 5.07,
+    "distance_from_high_pct": -58.43,
+    "distance_from_low_pct": 4.05,
     "high_52w": 81.0,
     "history_basis": "52_WEEK",
     "low_52w": 32.36,
-    "range_position_pct": 3.37
+    "range_position_pct": 2.69
   },
   "risk_model": {
-    "invalidation_floor": 32.81,
-    "risk_per_share": 1.87,
-    "technical_pivot": 34.68
+    "invalidation_floor": 32.49,
+    "risk_per_share": 1.85,
+    "technical_pivot": 34.34
   },
   "schema_version": "1.0",
   "sector": null,

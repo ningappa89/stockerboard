@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 68.22,
-      "high": 68.9,
-      "low": 65.03,
-      "open": 65.99,
-      "time": "2025-09-18",
-      "volume": 52247
-    },
-    {
       "close": 68.76,
       "high": 69.1,
       "low": 66.3,
@@ -2017,13 +2009,21 @@
       "open": 142.35,
       "time": "2026-09-25",
       "volume": 227619
+    },
+    {
+      "close": 133.61,
+      "high": 135.45,
+      "low": 131.01,
+      "open": 133.5,
+      "time": "2026-09-28",
+      "volume": 156821
     }
   ],
   "company_name": "GLOBAL EDUCATION LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 82,
+    "momentum_score": 80,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.87x"
+    "volume_multiplier": "0.59x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -5.6,
-    "change_pct": -3.97,
-    "close": 135.4,
-    "previous_close": 141.0,
+    "as_of": "2026-09-28",
+    "change": -1.79,
+    "change_pct": -1.32,
+    "close": 133.61,
+    "previous_close": 135.4,
     "type": "EOD_CLOSE",
-    "volume": 227619
+    "volume": 156821
   },
   "range": {
-    "distance_from_high_pct": -5.31,
-    "distance_from_low_pct": 144.85,
+    "distance_from_high_pct": -6.57,
+    "distance_from_low_pct": 141.61,
     "high_52w": 143.0,
     "history_basis": "52_WEEK",
     "low_52w": 55.3,
-    "range_position_pct": 91.33
+    "range_position_pct": 89.29
   },
   "risk_model": {
-    "invalidation_floor": 130.66,
-    "risk_per_share": 7.45,
-    "technical_pivot": 138.11
+    "invalidation_floor": 128.93,
+    "risk_per_share": 7.35,
+    "technical_pivot": 136.28
   },
   "schema_version": "1.0",
   "sector": null,

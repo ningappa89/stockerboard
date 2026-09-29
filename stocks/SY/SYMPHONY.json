@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 941.75,
-      "high": 953.6,
-      "low": 940.0,
-      "open": 953.25,
-      "time": "2025-09-18",
-      "volume": 43343
-    },
-    {
       "close": 954.2,
       "high": 959.5,
       "low": 941.0,
@@ -2017,13 +2009,21 @@
       "open": 577.1,
       "time": "2026-09-25",
       "volume": 37195
+    },
+    {
+      "close": 585.95,
+      "high": 623.3,
+      "low": 578.05,
+      "open": 591.0,
+      "time": "2026-09-28",
+      "volume": 181193
     }
   ],
   "company_name": "SYMPHONY LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.12x"
+    "volume_multiplier": "0.57x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 12.1,
-    "change_pct": 2.1,
-    "close": 588.8,
-    "previous_close": 576.7,
+    "as_of": "2026-09-28",
+    "change": -2.85,
+    "change_pct": -0.48,
+    "close": 585.95,
+    "previous_close": 588.8,
     "type": "EOD_CLOSE",
-    "volume": 37195
+    "volume": 181193
   },
   "range": {
-    "distance_from_high_pct": -39.33,
-    "distance_from_low_pct": 4.75,
+    "distance_from_high_pct": -39.62,
+    "distance_from_low_pct": 4.24,
     "high_52w": 970.45,
     "history_basis": "52_WEEK",
     "low_52w": 562.1,
-    "range_position_pct": 6.54
+    "range_position_pct": 5.84
   },
   "risk_model": {
-    "invalidation_floor": 568.19,
-    "risk_per_share": 32.39,
-    "technical_pivot": 600.58
+    "invalidation_floor": 565.44,
+    "risk_per_share": 32.23,
+    "technical_pivot": 597.67
   },
   "schema_version": "1.0",
   "sector": null,

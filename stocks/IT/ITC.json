@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 411.55,
-      "high": 413.05,
-      "low": 410.1,
-      "open": 411.35,
-      "time": "2025-09-18",
-      "volume": 15647808
-    },
-    {
       "close": 410.65,
       "high": 412.6,
       "low": 408.95,
@@ -2017,13 +2009,21 @@
       "open": 268.1,
       "time": "2026-09-25",
       "volume": 6240148
+    },
+    {
+      "close": 265.2,
+      "high": 269.3,
+      "low": 265.0,
+      "open": 269.0,
+      "time": "2026-09-28",
+      "volume": 7863377
     }
   ],
   "company_name": "ITC LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Fast Moving Consumer Goods",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.47x"
+    "volume_multiplier": "0.61x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.0,
-    "change_pct": 0.37,
-    "close": 269.0,
-    "previous_close": 268.0,
+    "as_of": "2026-09-28",
+    "change": -3.8,
+    "change_pct": -1.41,
+    "close": 265.2,
+    "previous_close": 269.0,
     "type": "EOD_CLOSE",
-    "volume": 6240148
+    "volume": 7863377
   },
   "range": {
-    "distance_from_high_pct": -36.91,
-    "distance_from_low_pct": 5.28,
+    "distance_from_high_pct": -37.8,
+    "distance_from_low_pct": 3.8,
     "high_52w": 426.4,
     "history_basis": "52_WEEK",
     "low_52w": 255.5,
-    "range_position_pct": 7.9
+    "range_position_pct": 5.68
   },
   "risk_model": {
-    "invalidation_floor": 259.58,
-    "risk_per_share": 14.8,
-    "technical_pivot": 274.38
+    "invalidation_floor": 255.92,
+    "risk_per_share": 14.58,
+    "technical_pivot": 270.5
   },
   "schema_version": "1.0",
   "sector": "Fast Moving Consumer Goods",

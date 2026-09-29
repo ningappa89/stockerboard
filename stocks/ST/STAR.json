@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 875.7,
-      "high": 886.9,
-      "low": 874.0,
-      "open": 881.0,
-      "time": "2025-09-18",
-      "volume": 131209
-    },
-    {
       "close": 871.0,
       "high": 889.9,
       "low": 858.45,
@@ -2017,13 +2009,21 @@
       "open": 1202.8,
       "time": "2026-09-25",
       "volume": 143012
+    },
+    {
+      "close": 1151.4,
+      "high": 1186.0,
+      "low": 1148.2,
+      "open": 1175.8,
+      "time": "2026-09-28",
+      "volume": 115834
     }
   ],
   "company_name": "STRIDES PHARMA SCI LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 80,
+    "momentum_score": 76,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.35x"
+    "volume_multiplier": "0.29x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -17.9,
-    "change_pct": -1.49,
-    "close": 1184.9,
-    "previous_close": 1202.8,
+    "as_of": "2026-09-28",
+    "change": -33.5,
+    "change_pct": -2.83,
+    "close": 1151.4,
+    "previous_close": 1184.9,
     "type": "EOD_CLOSE",
-    "volume": 143012
+    "volume": 115834
   },
   "range": {
-    "distance_from_high_pct": -6.03,
-    "distance_from_low_pct": 54.15,
+    "distance_from_high_pct": -8.68,
+    "distance_from_low_pct": 49.8,
     "high_52w": 1260.9,
     "history_basis": "52_WEEK",
     "low_52w": 768.65,
-    "range_position_pct": 84.56
+    "range_position_pct": 77.76
   },
   "risk_model": {
-    "invalidation_floor": 1143.43,
-    "risk_per_share": 65.17,
-    "technical_pivot": 1208.6
+    "invalidation_floor": 1111.1,
+    "risk_per_share": 63.33,
+    "technical_pivot": 1174.43
   },
   "schema_version": "1.0",
   "sector": null,

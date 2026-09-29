@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 4441.2,
-      "high": 4533.0,
-      "low": 4421.0,
-      "open": 4455.0,
-      "time": "2025-09-18",
-      "volume": 15674
-    },
-    {
       "close": 4427.8,
       "high": 4463.2,
       "low": 4380.1,
@@ -2017,13 +2009,21 @@
       "open": 3525.0,
       "time": "2026-09-25",
       "volume": 4651
+    },
+    {
+      "close": 3552.5,
+      "high": 3596.7,
+      "low": 3506.0,
+      "open": 3526.0,
+      "time": "2026-09-28",
+      "volume": 12522
     }
   ],
   "company_name": "SWARAJ ENGINES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.55x"
+    "volume_multiplier": "1.41x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.9,
-    "change_pct": -0.08,
-    "close": 3545.7,
-    "previous_close": 3548.6,
+    "as_of": "2026-09-28",
+    "change": 6.8,
+    "change_pct": 0.19,
+    "close": 3552.5,
+    "previous_close": 3545.7,
     "type": "EOD_CLOSE",
-    "volume": 4651
+    "volume": 12522
   },
   "range": {
-    "distance_from_high_pct": -21.9,
-    "distance_from_low_pct": 7.4,
+    "distance_from_high_pct": -21.75,
+    "distance_from_low_pct": 7.61,
     "high_52w": 4540.0,
     "history_basis": "52_WEEK",
     "low_52w": 3301.3,
-    "range_position_pct": 19.73
+    "range_position_pct": 20.28
   },
   "risk_model": {
-    "invalidation_floor": 3421.6,
-    "risk_per_share": 195.01,
-    "technical_pivot": 3616.61
+    "invalidation_floor": 3428.16,
+    "risk_per_share": 195.39,
+    "technical_pivot": 3623.55
   },
   "schema_version": "1.0",
   "sector": null,

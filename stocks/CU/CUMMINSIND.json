@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 4101.0,
-      "high": 4168.7,
-      "low": 4092.6,
-      "open": 4137.0,
-      "time": "2025-09-18",
-      "volume": 258901
-    },
-    {
       "close": 4080.4,
       "high": 4122.0,
       "low": 4065.4,
@@ -2017,13 +2009,21 @@
       "open": 4972.0,
       "time": "2026-09-25",
       "volume": 337303
+    },
+    {
+      "close": 4855.0,
+      "high": 4940.0,
+      "low": 4820.0,
+      "open": 4940.0,
+      "time": "2026-09-28",
+      "volume": 469449
     }
   ],
   "company_name": "CUMMINS INDIA LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 61,
+    "momentum_score": 59,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.92x"
+    "volume_multiplier": "1.27x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -28.0,
-    "change_pct": -0.56,
-    "close": 4945.0,
-    "previous_close": 4973.0,
+    "as_of": "2026-09-28",
+    "change": -90.0,
+    "change_pct": -1.82,
+    "close": 4855.0,
+    "previous_close": 4945.0,
     "type": "EOD_CLOSE",
-    "volume": 337303
+    "volume": 469449
   },
   "range": {
-    "distance_from_high_pct": -18.93,
-    "distance_from_low_pct": 29.01,
+    "distance_from_high_pct": -20.41,
+    "distance_from_low_pct": 26.66,
     "high_52w": 6100.0,
     "history_basis": "52_WEEK",
     "low_52w": 3833.0,
-    "range_position_pct": 49.05
+    "range_position_pct": 45.08
   },
   "risk_model": {
-    "invalidation_floor": 4771.93,
-    "risk_per_share": 271.97,
-    "technical_pivot": 5043.9
+    "invalidation_floor": 4685.07,
+    "risk_per_share": 267.03,
+    "technical_pivot": 4952.1
   },
   "schema_version": "1.0",
   "sector": null,

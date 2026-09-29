@@ -553,14 +553,22 @@
       "open": 33.22,
       "time": "2026-09-25",
       "volume": 303378
+    },
+    {
+      "close": 32.0,
+      "high": 33.65,
+      "low": 32.0,
+      "open": 33.12,
+      "time": "2026-09-28",
+      "volume": 437351
     }
   ],
   "company_name": "ONIDA ELECTRONICS LIMITED",
   "history": {
     "first_session": "2026-06-19",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 69
+    "last_session": "2026-09-28",
+    "sessions_available": 70
   },
   "industry": null,
   "isin": "INE831A01028",
@@ -568,31 +576,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 50,
+    "momentum_score": 44,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.54x"
+    "volume_multiplier": "0.79x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.4,
-    "change_pct": 1.2,
-    "close": 33.68,
-    "previous_close": 33.28,
+    "as_of": "2026-09-28",
+    "change": -1.68,
+    "change_pct": -4.99,
+    "close": 32.0,
+    "previous_close": 33.68,
     "type": "EOD_CLOSE",
-    "volume": 303378
+    "volume": 437351
   },
   "range": {
-    "distance_from_high_pct": -26.46,
-    "distance_from_low_pct": 6.51,
+    "distance_from_high_pct": -30.13,
+    "distance_from_low_pct": 1.2,
     "high_52w": 45.8,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 31.62,
-    "range_position_pct": 14.53
+    "range_position_pct": 2.68
   },
   "risk_model": {
-    "invalidation_floor": 32.5,
-    "risk_per_share": 1.85,
-    "technical_pivot": 34.35
+    "invalidation_floor": 30.88,
+    "risk_per_share": 1.76,
+    "technical_pivot": 32.64
   },
   "schema_version": "1.0",
   "sector": null,

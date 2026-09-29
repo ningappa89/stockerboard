@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1201.8,
-      "high": 1218.9,
-      "low": 1192.2,
-      "open": 1208.2,
-      "time": "2025-09-18",
-      "volume": 1213
-    },
-    {
       "close": 1207.2,
       "high": 1213.3,
       "low": 1194.0,
@@ -2017,13 +2009,21 @@
       "open": 1165.2,
       "time": "2026-09-25",
       "volume": 3044
+    },
+    {
+      "close": 1187.9,
+      "high": 1194.0,
+      "low": 1170.0,
+      "open": 1194.0,
+      "time": "2026-09-28",
+      "volume": 1149
     }
   ],
   "company_name": "CHEVIOT CO.LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 69,
+    "is_stage2": true,
+    "momentum_score": 70,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.62x"
+    "volume_multiplier": "0.61x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 16.2,
-    "change_pct": 1.39,
-    "close": 1182.8,
-    "previous_close": 1166.6,
+    "as_of": "2026-09-28",
+    "change": 5.1,
+    "change_pct": 0.43,
+    "close": 1187.9,
+    "previous_close": 1182.8,
     "type": "EOD_CLOSE",
-    "volume": 3044
+    "volume": 1149
   },
   "range": {
-    "distance_from_high_pct": -13.7,
-    "distance_from_low_pct": 31.71,
+    "distance_from_high_pct": -13.32,
+    "distance_from_low_pct": 32.28,
     "high_52w": 1370.5,
     "history_basis": "52_WEEK",
     "low_52w": 898.0,
-    "range_position_pct": 60.28
+    "range_position_pct": 61.35
   },
   "risk_model": {
-    "invalidation_floor": 1141.4,
-    "risk_per_share": 65.06,
-    "technical_pivot": 1206.46
+    "invalidation_floor": 1146.32,
+    "risk_per_share": 65.34,
+    "technical_pivot": 1211.66
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 45.64,
-      "high": 46.15,
-      "low": 43.77,
-      "open": 44.44,
-      "time": "2025-09-18",
-      "volume": 825604
-    },
-    {
       "close": 46.26,
       "high": 46.78,
       "low": 45.58,
@@ -2017,13 +2009,21 @@
       "open": 71.0,
       "time": "2026-09-25",
       "volume": 5644105
+    },
+    {
+      "close": 69.43,
+      "high": 71.95,
+      "low": 68.61,
+      "open": 71.1,
+      "time": "2026-09-28",
+      "volume": 2560171
     }
   ],
   "company_name": "ONE POINT ONE SOLUTIONS LIMITE",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 84,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "1.83x"
+    "momentum_score": 83,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.8x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.29,
-    "change_pct": 0.42,
-    "close": 69.6,
-    "previous_close": 69.31,
+    "as_of": "2026-09-28",
+    "change": -0.17,
+    "change_pct": -0.24,
+    "close": 69.43,
+    "previous_close": 69.6,
     "type": "EOD_CLOSE",
-    "volume": 5644105
+    "volume": 2560171
   },
   "range": {
-    "distance_from_high_pct": -3.87,
-    "distance_from_low_pct": 71.51,
+    "distance_from_high_pct": -4.1,
+    "distance_from_low_pct": 71.09,
     "high_52w": 72.4,
     "history_basis": "52_WEEK",
     "low_52w": 40.58,
-    "range_position_pct": 91.2
+    "range_position_pct": 90.67
   },
   "risk_model": {
-    "invalidation_floor": 67.16,
-    "risk_per_share": 3.83,
-    "technical_pivot": 70.99
+    "invalidation_floor": 67.0,
+    "risk_per_share": 3.82,
+    "technical_pivot": 70.82
   },
   "schema_version": "1.0",
   "sector": null,

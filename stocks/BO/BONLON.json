@@ -1177,14 +1177,22 @@
       "open": 41.32,
       "time": "2026-09-25",
       "volume": 11772
+    },
+    {
+      "close": 40.16,
+      "high": 41.43,
+      "low": 39.82,
+      "open": 41.1,
+      "time": "2026-09-28",
+      "volume": 4124
     }
   ],
   "company_name": "BONLON INDUSTRIES LIMITED",
   "history": {
     "first_session": "2026-02-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 147
+    "last_session": "2026-09-28",
+    "sessions_available": 148
   },
   "industry": null,
   "isin": "INE0B9A01018",
@@ -1192,31 +1200,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.02x"
+    "volume_multiplier": "0.39x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.22,
-    "change_pct": -0.53,
-    "close": 41.1,
-    "previous_close": 41.32,
+    "as_of": "2026-09-28",
+    "change": -0.94,
+    "change_pct": -2.29,
+    "close": 40.16,
+    "previous_close": 41.1,
     "type": "EOD_CLOSE",
-    "volume": 11772
+    "volume": 4124
   },
   "range": {
-    "distance_from_high_pct": -27.89,
-    "distance_from_low_pct": 19.1,
+    "distance_from_high_pct": -29.54,
+    "distance_from_low_pct": 16.37,
     "high_52w": 57.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 34.51,
-    "range_position_pct": 29.3
+    "range_position_pct": 25.12
   },
   "risk_model": {
-    "invalidation_floor": 39.66,
-    "risk_per_share": 2.26,
-    "technical_pivot": 41.92
+    "invalidation_floor": 38.75,
+    "risk_per_share": 2.21,
+    "technical_pivot": 40.96
   },
   "schema_version": "1.0",
   "sector": null,

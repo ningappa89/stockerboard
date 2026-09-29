@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 537.8,
-      "high": 542.5,
-      "low": 533.8,
-      "open": 535.4,
-      "time": "2025-09-18",
-      "volume": 1135518
-    },
-    {
       "close": 545.5,
       "high": 552.0,
       "low": 542.65,
@@ -2017,13 +2009,21 @@
       "open": 510.0,
       "time": "2026-09-25",
       "volume": 1916836
+    },
+    {
+      "close": 495.0,
+      "high": 506.4,
+      "low": 493.05,
+      "open": 506.4,
+      "time": "2026-09-28",
+      "volume": 1583004
     }
   ],
   "company_name": "JSW ENERGY LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 63,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.94x"
+    "volume_multiplier": "0.76x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -3.45,
-    "change_pct": -0.68,
-    "close": 506.55,
-    "previous_close": 510.0,
+    "as_of": "2026-09-28",
+    "change": -11.55,
+    "change_pct": -2.28,
+    "close": 495.0,
+    "previous_close": 506.55,
     "type": "EOD_CLOSE",
-    "volume": 1916836
+    "volume": 1583004
   },
   "range": {
-    "distance_from_high_pct": -17.95,
-    "distance_from_low_pct": 18.42,
+    "distance_from_high_pct": -19.82,
+    "distance_from_low_pct": 15.72,
     "high_52w": 617.35,
     "history_basis": "52_WEEK",
     "low_52w": 427.75,
-    "range_position_pct": 41.56
+    "range_position_pct": 35.47
   },
   "risk_model": {
-    "invalidation_floor": 488.82,
-    "risk_per_share": 27.86,
-    "technical_pivot": 516.68
+    "invalidation_floor": 477.68,
+    "risk_per_share": 27.22,
+    "technical_pivot": 504.9
   },
   "schema_version": "1.0",
   "sector": null,

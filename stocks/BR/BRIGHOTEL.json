@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 84.36,
-      "high": 85.98,
-      "low": 84.2,
-      "open": 85.02,
-      "time": "2025-09-18",
-      "volume": 248994
-    },
-    {
       "close": 84.32,
       "high": 84.99,
       "low": 84.05,
@@ -2017,13 +2009,21 @@
       "open": 56.11,
       "time": "2026-09-25",
       "volume": 71084
+    },
+    {
+      "close": 55.52,
+      "high": 56.59,
+      "low": 55.25,
+      "open": 56.13,
+      "time": "2026-09-28",
+      "volume": 60713
     }
   ],
   "company_name": "BRIGADE HOTEL VENTURE LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.7x"
+    "volume_multiplier": "0.61x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.02,
-    "change_pct": 0.04,
-    "close": 56.13,
-    "previous_close": 56.11,
+    "as_of": "2026-09-28",
+    "change": -0.61,
+    "change_pct": -1.09,
+    "close": 55.52,
+    "previous_close": 56.13,
     "type": "EOD_CLOSE",
-    "volume": 71084
+    "volume": 60713
   },
   "range": {
-    "distance_from_high_pct": -36.06,
-    "distance_from_low_pct": 3.26,
+    "distance_from_high_pct": -36.76,
+    "distance_from_low_pct": 2.13,
     "high_52w": 87.79,
     "history_basis": "52_WEEK",
     "low_52w": 54.36,
-    "range_position_pct": 5.29
+    "range_position_pct": 3.47
   },
   "risk_model": {
-    "invalidation_floor": 54.17,
-    "risk_per_share": 3.08,
-    "technical_pivot": 57.25
+    "invalidation_floor": 53.58,
+    "risk_per_share": 3.05,
+    "technical_pivot": 56.63
   },
   "schema_version": "1.0",
   "sector": null,

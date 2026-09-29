@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 525.5,
-      "high": 533.35,
-      "low": 509.5,
-      "open": 514.55,
-      "time": "2025-09-18",
-      "volume": 141456
-    },
-    {
       "close": 524.45,
       "high": 531.45,
       "low": 522.1,
@@ -2017,13 +2009,21 @@
       "open": 270.85,
       "time": "2026-09-25",
       "volume": 28701
+    },
+    {
+      "close": 258.25,
+      "high": 274.15,
+      "low": 256.6,
+      "open": 265.0,
+      "time": "2026-09-28",
+      "volume": 42852
     }
   ],
   "company_name": "Concord Enviro Systems Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.21x"
+    "volume_multiplier": "0.31x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -4.3,
-    "change_pct": -1.6,
-    "close": 264.45,
-    "previous_close": 268.75,
+    "as_of": "2026-09-28",
+    "change": -6.2,
+    "change_pct": -2.34,
+    "close": 258.25,
+    "previous_close": 264.45,
     "type": "EOD_CLOSE",
-    "volume": 28701
+    "volume": 42852
   },
   "range": {
-    "distance_from_high_pct": -51.02,
-    "distance_from_low_pct": 12.53,
+    "distance_from_high_pct": -52.17,
+    "distance_from_low_pct": 9.89,
     "high_52w": 539.9,
     "history_basis": "52_WEEK",
     "low_52w": 235.0,
-    "range_position_pct": 9.66
+    "range_position_pct": 7.63
   },
   "risk_model": {
-    "invalidation_floor": 255.19,
-    "risk_per_share": 14.55,
-    "technical_pivot": 269.74
+    "invalidation_floor": 249.21,
+    "risk_per_share": 14.21,
+    "technical_pivot": 263.42
   },
   "schema_version": "1.0",
   "sector": null,

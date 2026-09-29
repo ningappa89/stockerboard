@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 196.6,
-      "high": 204.1,
-      "low": 194.0,
-      "open": 198.4,
-      "time": "2025-09-18",
-      "volume": 908460
-    },
-    {
       "close": 202.3,
       "high": 203.5,
       "low": 195.62,
@@ -2017,13 +2009,21 @@
       "open": 223.65,
       "time": "2026-09-25",
       "volume": 174168
+    },
+    {
+      "close": 216.16,
+      "high": 223.07,
+      "low": 215.5,
+      "open": 221.89,
+      "time": "2026-09-28",
+      "volume": 231235
     }
   ],
   "company_name": "GOKUL AGRO RESOURCES LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 68,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.48x"
+    "volume_multiplier": "0.66x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -3.09,
-    "change_pct": -1.37,
-    "close": 221.89,
-    "previous_close": 224.98,
+    "as_of": "2026-09-28",
+    "change": -5.73,
+    "change_pct": -2.58,
+    "close": 216.16,
+    "previous_close": 221.89,
     "type": "EOD_CLOSE",
-    "volume": 174168
+    "volume": 231235
   },
   "range": {
-    "distance_from_high_pct": -14.59,
-    "distance_from_low_pct": 46.95,
+    "distance_from_high_pct": -16.8,
+    "distance_from_low_pct": 43.15,
     "high_52w": 259.8,
     "history_basis": "52_WEEK",
     "low_52w": 151.0,
-    "range_position_pct": 65.16
+    "range_position_pct": 59.89
   },
   "risk_model": {
-    "invalidation_floor": 214.12,
-    "risk_per_share": 12.21,
-    "technical_pivot": 226.33
+    "invalidation_floor": 208.59,
+    "risk_per_share": 11.89,
+    "technical_pivot": 220.48
   },
   "schema_version": "1.0",
   "sector": null,

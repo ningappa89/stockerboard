@@ -889,46 +889,54 @@
       "open": 1033.0,
       "time": "2026-09-25",
       "volume": 64240
+    },
+    {
+      "close": 1069.1,
+      "high": 1104.7,
+      "low": 1047.5,
+      "open": 1104.7,
+      "time": "2026-09-28",
+      "volume": 39471
     }
   ],
   "company_name": "Taal Tech Limited",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE524T01029",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 71,
+    "is_stage2": false,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.75x"
+    "volume_multiplier": "0.46x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 34.9,
-    "change_pct": 3.32,
-    "close": 1085.4,
-    "previous_close": 1050.5,
+    "as_of": "2026-09-28",
+    "change": -16.3,
+    "change_pct": -1.5,
+    "close": 1069.1,
+    "previous_close": 1085.4,
     "type": "EOD_CLOSE",
-    "volume": 64240
+    "volume": 39471
   },
   "range": {
-    "distance_from_high_pct": -12.04,
-    "distance_from_low_pct": 107.45,
+    "distance_from_high_pct": -13.36,
+    "distance_from_low_pct": 104.33,
     "high_52w": 1234.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 523.22,
-    "range_position_pct": 79.09
+    "range_position_pct": 76.8
   },
   "risk_model": {
-    "invalidation_floor": 1047.41,
-    "risk_per_share": 59.7,
-    "technical_pivot": 1107.11
+    "invalidation_floor": 1031.68,
+    "risk_per_share": 58.8,
+    "technical_pivot": 1090.48
   },
   "schema_version": "1.0",
   "sector": null,

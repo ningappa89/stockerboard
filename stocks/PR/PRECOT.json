@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 485.95,
-      "high": 507.9,
-      "low": 463.2,
-      "open": 463.2,
-      "time": "2025-09-18",
-      "volume": 4300
-    },
-    {
       "close": 484.9,
       "high": 497.95,
       "low": 468.2,
@@ -2017,13 +2009,21 @@
       "open": 639.7,
       "time": "2026-09-25",
       "volume": 1851
+    },
+    {
+      "close": 617.8,
+      "high": 660.0,
+      "low": 610.05,
+      "open": 659.6,
+      "time": "2026-09-28",
+      "volume": 6871
     }
   ],
   "company_name": "PRECOT LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 46,
+    "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.48x"
+    "volume_multiplier": "1.74x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 6.25,
-    "change_pct": 0.99,
-    "close": 640.7,
-    "previous_close": 634.45,
+    "as_of": "2026-09-28",
+    "change": -22.9,
+    "change_pct": -3.57,
+    "close": 617.8,
+    "previous_close": 640.7,
     "type": "EOD_CLOSE",
-    "volume": 1851
+    "volume": 6871
   },
   "range": {
-    "distance_from_high_pct": -28.73,
-    "distance_from_low_pct": 113.53,
+    "distance_from_high_pct": -31.28,
+    "distance_from_low_pct": 105.9,
     "high_52w": 899.0,
     "history_basis": "52_WEEK",
     "low_52w": 300.05,
-    "range_position_pct": 56.87
+    "range_position_pct": 53.05
   },
   "risk_model": {
-    "invalidation_floor": 618.28,
-    "risk_per_share": 35.23,
-    "technical_pivot": 653.51
+    "invalidation_floor": 596.18,
+    "risk_per_share": 33.98,
+    "technical_pivot": 630.16
   },
   "schema_version": "1.0",
   "sector": null,

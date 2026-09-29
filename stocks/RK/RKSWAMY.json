@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 157.9,
-      "high": 163.89,
-      "low": 155.58,
-      "open": 155.58,
-      "time": "2025-09-18",
-      "volume": 67660
-    },
-    {
       "close": 155.45,
       "high": 158.71,
       "low": 155.1,
@@ -2017,13 +2009,21 @@
       "open": 90.75,
       "time": "2026-09-25",
       "volume": 24773
+    },
+    {
+      "close": 88.5,
+      "high": 91.83,
+      "low": 88.0,
+      "open": 89.0,
+      "time": "2026-09-28",
+      "volume": 28611
     }
   ],
   "company_name": "R K Swamy Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.84x"
+    "volume_multiplier": "0.99x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -1.13,
-    "change_pct": -1.23,
-    "close": 90.59,
-    "previous_close": 91.72,
+    "as_of": "2026-09-28",
+    "change": -2.09,
+    "change_pct": -2.31,
+    "close": 88.5,
+    "previous_close": 90.59,
     "type": "EOD_CLOSE",
-    "volume": 24773
+    "volume": 28611
   },
   "range": {
-    "distance_from_high_pct": -44.73,
-    "distance_from_low_pct": 34.91,
-    "high_52w": 163.89,
+    "distance_from_high_pct": -44.24,
+    "distance_from_low_pct": 31.79,
+    "high_52w": 158.71,
     "history_basis": "52_WEEK",
     "low_52w": 67.15,
-    "range_position_pct": 24.23
+    "range_position_pct": 23.32
   },
   "risk_model": {
-    "invalidation_floor": 87.42,
-    "risk_per_share": 4.98,
-    "technical_pivot": 92.4
+    "invalidation_floor": 85.4,
+    "risk_per_share": 4.87,
+    "technical_pivot": 90.27
   },
   "schema_version": "1.0",
   "sector": null,

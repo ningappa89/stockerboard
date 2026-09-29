@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 102.9,
-      "high": 104.79,
-      "low": 102.18,
-      "open": 103.22,
-      "time": "2025-09-18",
-      "volume": 58802
-    },
-    {
       "close": 101.66,
       "high": 102.73,
       "low": 101.11,
@@ -2017,13 +2009,21 @@
       "open": 99.99,
       "time": "2026-09-25",
       "volume": 42794
+    },
+    {
+      "close": 97.7,
+      "high": 100.85,
+      "low": 97.11,
+      "open": 100.85,
+      "time": "2026-09-28",
+      "volume": 33426
     }
   ],
   "company_name": "SARLA PERFORMANCE FIBERS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 75,
+    "momentum_score": 72,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.73x"
+    "volume_multiplier": "0.57x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.3,
-    "change_pct": 0.3,
-    "close": 100.29,
-    "previous_close": 99.99,
+    "as_of": "2026-09-28",
+    "change": -2.59,
+    "change_pct": -2.58,
+    "close": 97.7,
+    "previous_close": 100.29,
     "type": "EOD_CLOSE",
-    "volume": 42794
+    "volume": 33426
   },
   "range": {
-    "distance_from_high_pct": -9.65,
-    "distance_from_low_pct": 46.62,
+    "distance_from_high_pct": -11.98,
+    "distance_from_low_pct": 42.84,
     "high_52w": 111.0,
     "history_basis": "52_WEEK",
     "low_52w": 68.4,
-    "range_position_pct": 74.86
+    "range_position_pct": 68.78
   },
   "risk_model": {
-    "invalidation_floor": 96.78,
-    "risk_per_share": 5.52,
-    "technical_pivot": 102.3
+    "invalidation_floor": 94.28,
+    "risk_per_share": 5.37,
+    "technical_pivot": 99.65
   },
   "schema_version": "1.0",
   "sector": null,

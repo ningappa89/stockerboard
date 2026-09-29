@@ -1937,14 +1937,22 @@
       "open": 429.3,
       "time": "2026-09-25",
       "volume": 442258
+    },
+    {
+      "close": 458.15,
+      "high": 465.0,
+      "low": 440.55,
+      "open": 446.0,
+      "time": "2026-09-28",
+      "volume": 648345
     }
   ],
   "company_name": "TRUALT BIOENERGY LIMITED",
   "history": {
     "first_session": "2025-10-03",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 242
+    "last_session": "2026-09-28",
+    "sessions_available": 243
   },
   "industry": null,
   "isin": "INE0MWH01014",
@@ -1952,31 +1960,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 60,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.79x"
+    "momentum_score": 65,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.35x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 12.9,
-    "change_pct": 3.01,
-    "close": 441.9,
-    "previous_close": 429.0,
+    "as_of": "2026-09-28",
+    "change": 16.25,
+    "change_pct": 3.68,
+    "close": 458.15,
+    "previous_close": 441.9,
     "type": "EOD_CLOSE",
-    "volume": 442258
+    "volume": 648345
   },
   "range": {
-    "distance_from_high_pct": -19.51,
-    "distance_from_low_pct": 42.46,
+    "distance_from_high_pct": -16.55,
+    "distance_from_low_pct": 47.7,
     "high_52w": 549.0,
     "history_basis": "52_WEEK",
     "low_52w": 310.2,
-    "range_position_pct": 55.15
+    "range_position_pct": 61.96
   },
   "risk_model": {
-    "invalidation_floor": 426.43,
-    "risk_per_share": 24.31,
-    "technical_pivot": 450.74
+    "invalidation_floor": 442.11,
+    "risk_per_share": 25.2,
+    "technical_pivot": 467.31
   },
   "schema_version": "1.0",
   "sector": null,

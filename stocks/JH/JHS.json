@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 10.6,
-      "high": 11.4,
-      "low": 10.5,
-      "open": 11.4,
-      "time": "2025-09-18",
-      "volume": 244671
-    },
-    {
       "close": 11.16,
       "high": 11.39,
       "low": 10.6,
@@ -2017,13 +2009,21 @@
       "open": 8.06,
       "time": "2026-09-25",
       "volume": 98454
+    },
+    {
+      "close": 8.81,
+      "high": 8.89,
+      "low": 8.3,
+      "open": 8.54,
+      "time": "2026-09-28",
+      "volume": 160235
     }
   ],
   "company_name": "JHS SVENDGAARD LABORATORIES LT",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.05x"
+    "volume_multiplier": "1.69x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.25,
-    "change_pct": 3.06,
-    "close": 8.43,
-    "previous_close": 8.18,
+    "as_of": "2026-09-28",
+    "change": 0.38,
+    "change_pct": 4.51,
+    "close": 8.81,
+    "previous_close": 8.43,
     "type": "EOD_CLOSE",
-    "volume": 98454
+    "volume": 160235
   },
   "range": {
-    "distance_from_high_pct": -39.35,
-    "distance_from_low_pct": 34.66,
+    "distance_from_high_pct": -36.62,
+    "distance_from_low_pct": 40.73,
     "high_52w": 13.9,
     "history_basis": "52_WEEK",
     "low_52w": 6.26,
-    "range_position_pct": 28.4
+    "range_position_pct": 33.38
   },
   "risk_model": {
-    "invalidation_floor": 8.13,
+    "invalidation_floor": 8.5,
     "risk_per_share": 0.5,
-    "technical_pivot": 8.6
+    "technical_pivot": 8.99
   },
   "schema_version": "1.0",
   "sector": null,

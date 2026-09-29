@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 376.75,
-      "high": 392.7,
-      "low": 336.7,
-      "open": 338.0,
-      "time": "2025-09-18",
-      "volume": 18941738
-    },
-    {
       "close": 360.1,
       "high": 368.25,
       "low": 345.15,
@@ -2017,13 +2009,21 @@
       "open": 267.6,
       "time": "2026-09-25",
       "volume": 28275
+    },
+    {
+      "close": 265.4,
+      "high": 270.65,
+      "low": 263.4,
+      "open": 265.2,
+      "time": "2026-09-28",
+      "volume": 39509
     }
   ],
   "company_name": "IRM ENERGY LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
+    "momentum_score": 41,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.47x"
+    "volume_multiplier": "0.67x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.65,
-    "change_pct": 0.24,
-    "close": 268.25,
-    "previous_close": 267.6,
+    "as_of": "2026-09-28",
+    "change": -2.85,
+    "change_pct": -1.06,
+    "close": 265.4,
+    "previous_close": 268.25,
     "type": "EOD_CLOSE",
-    "volume": 28275
+    "volume": 39509
   },
   "range": {
-    "distance_from_high_pct": -31.74,
-    "distance_from_low_pct": 62.18,
+    "distance_from_high_pct": -32.47,
+    "distance_from_low_pct": 60.46,
     "high_52w": 393.0,
     "history_basis": "52_WEEK",
     "low_52w": 165.4,
-    "range_position_pct": 45.19
+    "range_position_pct": 43.94
   },
   "risk_model": {
-    "invalidation_floor": 258.86,
-    "risk_per_share": 14.76,
-    "technical_pivot": 273.62
+    "invalidation_floor": 256.11,
+    "risk_per_share": 14.6,
+    "technical_pivot": 270.71
   },
   "schema_version": "1.0",
   "sector": null,

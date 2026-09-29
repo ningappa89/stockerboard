@@ -233,14 +233,22 @@
       "open": 1439.0,
       "time": "2026-09-25",
       "volume": 393
+    },
+    {
+      "close": 1435.3,
+      "high": 1464.0,
+      "low": 1427.0,
+      "open": 1441.0,
+      "time": "2026-09-28",
+      "volume": 57
     }
   ],
   "company_name": "VOITH PAPER FABRICS IND L",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE285C01015",
@@ -248,31 +256,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 68,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.78x"
+    "volume_multiplier": "0.11x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 33.3,
-    "change_pct": 2.35,
-    "close": 1450.0,
-    "previous_close": 1416.7,
+    "as_of": "2026-09-28",
+    "change": -14.7,
+    "change_pct": -1.01,
+    "close": 1435.3,
+    "previous_close": 1450.0,
     "type": "EOD_CLOSE",
-    "volume": 393
+    "volume": 57
   },
   "range": {
-    "distance_from_high_pct": -14.5,
-    "distance_from_low_pct": 3.55,
+    "distance_from_high_pct": -15.37,
+    "distance_from_low_pct": 2.5,
     "high_52w": 1696.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 1400.3,
-    "range_position_pct": 16.81
+    "range_position_pct": 11.84
   },
   "risk_model": {
-    "invalidation_floor": 1399.25,
-    "risk_per_share": 79.75,
-    "technical_pivot": 1479.0
+    "invalidation_floor": 1385.06,
+    "risk_per_share": 78.95,
+    "technical_pivot": 1464.01
   },
   "schema_version": "1.0",
   "sector": null,

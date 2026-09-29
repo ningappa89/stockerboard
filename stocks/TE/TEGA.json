@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2021.9,
-      "high": 2103.3,
-      "low": 2010.0,
-      "open": 2095.0,
-      "time": "2025-09-18",
-      "volume": 1833872
-    },
-    {
       "close": 2015.1,
       "high": 2053.0,
       "low": 2005.1,
@@ -2017,13 +2009,21 @@
       "open": 2056.0,
       "time": "2026-09-25",
       "volume": 261282
+    },
+    {
+      "close": 2011.5,
+      "high": 2090.0,
+      "low": 2005.1,
+      "open": 2090.0,
+      "time": "2026-09-28",
+      "volume": 267932
     }
   ],
   "company_name": "TEGA INDUSTRIES LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 84,
-    "setup_type": "Minervini VCP",
+    "momentum_score": 78,
+    "setup_type": "Liquid Active",
     "volume_multiplier": "0.31x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 29.6,
-    "change_pct": 1.44,
-    "close": 2091.6,
-    "previous_close": 2062.0,
+    "as_of": "2026-09-28",
+    "change": -80.1,
+    "change_pct": -3.83,
+    "close": 2011.5,
+    "previous_close": 2091.6,
     "type": "EOD_CLOSE",
-    "volume": 261282
+    "volume": 267932
   },
   "range": {
-    "distance_from_high_pct": -3.83,
-    "distance_from_low_pct": 42.0,
+    "distance_from_high_pct": -7.52,
+    "distance_from_low_pct": 36.56,
     "high_52w": 2175.0,
     "history_basis": "52_WEEK",
     "low_52w": 1473.0,
-    "range_position_pct": 88.12
+    "range_position_pct": 76.71
   },
   "risk_model": {
-    "invalidation_floor": 2018.39,
-    "risk_per_share": 115.04,
-    "technical_pivot": 2133.43
+    "invalidation_floor": 1941.1,
+    "risk_per_share": 110.63,
+    "technical_pivot": 2051.73
   },
   "schema_version": "1.0",
   "sector": null,

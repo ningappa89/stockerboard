@@ -233,46 +233,54 @@
       "open": 130.4,
       "time": "2026-09-25",
       "volume": 2875
+    },
+    {
+      "close": 132.52,
+      "high": 139.7,
+      "low": 132.4,
+      "open": 139.7,
+      "time": "2026-09-28",
+      "volume": 429
     }
   ],
   "company_name": "NTC INDUSTRIES LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE920C01017",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 75,
+    "is_stage2": false,
+    "momentum_score": 68,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.12x"
+    "volume_multiplier": "0.17x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.78,
-    "change_pct": 0.56,
-    "close": 139.8,
-    "previous_close": 139.02,
+    "as_of": "2026-09-28",
+    "change": -7.28,
+    "change_pct": -5.21,
+    "close": 132.52,
+    "previous_close": 139.8,
     "type": "EOD_CLOSE",
-    "volume": 2875
+    "volume": 429
   },
   "range": {
-    "distance_from_high_pct": -9.81,
-    "distance_from_low_pct": 10.69,
+    "distance_from_high_pct": -14.5,
+    "distance_from_low_pct": 4.92,
     "high_52w": 155.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 126.3,
-    "range_position_pct": 47.04
+    "range_position_pct": 21.67
   },
   "risk_model": {
-    "invalidation_floor": 134.91,
-    "risk_per_share": 7.69,
-    "technical_pivot": 142.6
+    "invalidation_floor": 127.88,
+    "risk_per_share": 7.29,
+    "technical_pivot": 135.17
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 911.3,
-      "high": 930.0,
-      "low": 844.0,
-      "open": 851.95,
-      "time": "2025-09-18",
-      "volume": 1805045
-    },
-    {
       "close": 910.55,
       "high": 938.95,
       "low": 905.45,
@@ -2017,13 +2009,21 @@
       "open": 996.9,
       "time": "2026-09-25",
       "volume": 127194
+    },
+    {
+      "close": 916.45,
+      "high": 976.65,
+      "low": 905.6,
+      "open": 966.1,
+      "time": "2026-09-28",
+      "volume": 302700
     }
   ],
   "company_name": "NELCO LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
+    "is_stage2": false,
+    "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.38x"
+    "volume_multiplier": "0.89x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -16.55,
-    "change_pct": -1.67,
-    "close": 976.5,
-    "previous_close": 993.05,
+    "as_of": "2026-09-28",
+    "change": -60.05,
+    "change_pct": -6.15,
+    "close": 916.45,
+    "previous_close": 976.5,
     "type": "EOD_CLOSE",
-    "volume": 127194
+    "volume": 302700
   },
   "range": {
-    "distance_from_high_pct": -12.81,
-    "distance_from_low_pct": 95.26,
+    "distance_from_high_pct": -18.17,
+    "distance_from_low_pct": 83.25,
     "high_52w": 1120.0,
     "history_basis": "52_WEEK",
     "low_52w": 500.1,
-    "range_position_pct": 76.85
+    "range_position_pct": 67.16
   },
   "risk_model": {
-    "invalidation_floor": 942.32,
-    "risk_per_share": 53.71,
-    "technical_pivot": 996.03
+    "invalidation_floor": 884.37,
+    "risk_per_share": 50.41,
+    "technical_pivot": 934.78
   },
   "schema_version": "1.0",
   "sector": null,

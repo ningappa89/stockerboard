@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 244.95,
-      "high": 247.02,
-      "low": 242.7,
-      "open": 244.31,
-      "time": "2025-09-18",
-      "volume": 26123
-    },
-    {
       "close": 244.59,
       "high": 247.76,
       "low": 242.9,
@@ -2017,13 +2009,21 @@
       "open": 195.4,
       "time": "2026-09-25",
       "volume": 18417
+    },
+    {
+      "close": 192.71,
+      "high": 199.5,
+      "low": 191.3,
+      "open": 198.7,
+      "time": "2026-09-28",
+      "volume": 12385
     }
   ],
   "company_name": "IFGL REFRACTORIES LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.33x"
+    "volume_multiplier": "0.22x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 3.18,
-    "change_pct": 1.64,
-    "close": 197.45,
-    "previous_close": 194.27,
+    "as_of": "2026-09-28",
+    "change": -4.74,
+    "change_pct": -2.4,
+    "close": 192.71,
+    "previous_close": 197.45,
     "type": "EOD_CLOSE",
-    "volume": 18417
+    "volume": 12385
   },
   "range": {
-    "distance_from_high_pct": -41.58,
-    "distance_from_low_pct": 64.98,
+    "distance_from_high_pct": -42.99,
+    "distance_from_low_pct": 61.02,
     "high_52w": 338.0,
     "history_basis": "52_WEEK",
     "low_52w": 119.68,
-    "range_position_pct": 35.62
+    "range_position_pct": 33.45
   },
   "risk_model": {
-    "invalidation_floor": 190.54,
-    "risk_per_share": 10.86,
-    "technical_pivot": 201.4
+    "invalidation_floor": 185.97,
+    "risk_per_share": 10.59,
+    "technical_pivot": 196.56
   },
   "schema_version": "1.0",
   "sector": null,

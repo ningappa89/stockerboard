@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 635.1,
-      "high": 643.9,
-      "low": 630.2,
-      "open": 643.9,
-      "time": "2025-09-18",
-      "volume": 30384
-    },
-    {
       "close": 660.75,
       "high": 668.0,
       "low": 631.55,
@@ -2017,13 +2009,21 @@
       "open": 408.75,
       "time": "2026-09-25",
       "volume": 24860
+    },
+    {
+      "close": 392.8,
+      "high": 409.9,
+      "low": 391.85,
+      "open": 404.0,
+      "time": "2026-09-28",
+      "volume": 75974
     }
   ],
   "company_name": "MARATHON NEXTGEN REALTY LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.17x"
+    "volume_multiplier": "0.52x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.9,
-    "change_pct": 0.22,
-    "close": 411.7,
-    "previous_close": 410.8,
+    "as_of": "2026-09-28",
+    "change": -18.9,
+    "change_pct": -4.59,
+    "close": 392.8,
+    "previous_close": 411.7,
     "type": "EOD_CLOSE",
-    "volume": 24860
+    "volume": 75974
   },
   "range": {
-    "distance_from_high_pct": -39.93,
-    "distance_from_low_pct": 19.66,
+    "distance_from_high_pct": -42.69,
+    "distance_from_low_pct": 14.17,
     "high_52w": 685.4,
     "history_basis": "52_WEEK",
     "low_52w": 344.05,
-    "range_position_pct": 19.82
+    "range_position_pct": 14.28
   },
   "risk_model": {
-    "invalidation_floor": 397.29,
-    "risk_per_share": 22.64,
-    "technical_pivot": 419.93
+    "invalidation_floor": 379.05,
+    "risk_per_share": 21.61,
+    "technical_pivot": 400.66
   },
   "schema_version": "1.0",
   "sector": null,

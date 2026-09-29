@@ -233,14 +233,22 @@
       "open": 15.06,
       "time": "2026-09-25",
       "volume": 12106
+    },
+    {
+      "close": 13.76,
+      "high": 15.44,
+      "low": 13.62,
+      "open": 15.02,
+      "time": "2026-09-28",
+      "volume": 48874
     }
   ],
   "company_name": "LKP Securities Limited",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE341H01023",
@@ -248,31 +256,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.27x"
+    "momentum_score": 51,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "4.21x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.0,
-    "change_pct": 0.0,
-    "close": 15.02,
+    "as_of": "2026-09-28",
+    "change": -1.26,
+    "change_pct": -8.39,
+    "close": 13.76,
     "previous_close": 15.02,
     "type": "EOD_CLOSE",
-    "volume": 12106
+    "volume": 48874
   },
   "range": {
-    "distance_from_high_pct": -18.5,
-    "distance_from_low_pct": 7.21,
+    "distance_from_high_pct": -25.34,
+    "distance_from_low_pct": 1.03,
     "high_52w": 18.43,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 14.01,
-    "range_position_pct": 22.85
+    "low_52w": 13.62,
+    "range_position_pct": 2.91
   },
   "risk_model": {
-    "invalidation_floor": 14.49,
-    "risk_per_share": 0.83,
-    "technical_pivot": 15.32
+    "invalidation_floor": 13.28,
+    "risk_per_share": 0.76,
+    "technical_pivot": 14.04
   },
   "schema_version": "1.0",
   "sector": null,

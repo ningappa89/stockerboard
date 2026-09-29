@@ -233,46 +233,54 @@
       "open": 365.0,
       "time": "2026-09-25",
       "volume": 502
+    },
+    {
+      "close": 353.05,
+      "high": 371.95,
+      "low": 351.5,
+      "open": 361.35,
+      "time": "2026-09-28",
+      "volume": 139
     }
   ],
   "company_name": "COMPETENT AUTOMOBILES CO.LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE823B01015",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
+    "is_stage2": false,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.35x"
+    "volume_multiplier": "0.1x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.0,
-    "change_pct": 0.0,
-    "close": 365.0,
+    "as_of": "2026-09-28",
+    "change": -11.95,
+    "change_pct": -3.27,
+    "close": 353.05,
     "previous_close": 365.0,
     "type": "EOD_CLOSE",
-    "volume": 502
+    "volume": 139
   },
   "range": {
-    "distance_from_high_pct": -13.1,
-    "distance_from_low_pct": 16.13,
+    "distance_from_high_pct": -15.94,
+    "distance_from_low_pct": 12.33,
     "high_52w": 420.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 314.3,
-    "range_position_pct": 47.97
+    "range_position_pct": 36.66
   },
   "risk_model": {
-    "invalidation_floor": 352.22,
-    "risk_per_share": 20.08,
-    "technical_pivot": 372.3
+    "invalidation_floor": 340.69,
+    "risk_per_share": 19.42,
+    "technical_pivot": 360.11
   },
   "schema_version": "1.0",
   "sector": null,

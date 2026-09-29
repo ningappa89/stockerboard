@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 70.74,
-      "high": 73.98,
-      "low": 70.16,
-      "open": 72.6,
-      "time": "2025-09-18",
-      "volume": 164368
-    },
-    {
       "close": 71.57,
       "high": 72.82,
       "low": 70.11,
@@ -2017,13 +2009,21 @@
       "open": 47.9,
       "time": "2026-09-25",
       "volume": 71075
+    },
+    {
+      "close": 47.44,
+      "high": 48.69,
+      "low": 47.11,
+      "open": 48.6,
+      "time": "2026-09-28",
+      "volume": 26021
     }
   ],
   "company_name": "TARA CHAND INFRA SOLN LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.37x"
+    "volume_multiplier": "0.5x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.35,
-    "change_pct": 5.1,
-    "close": 48.46,
-    "previous_close": 46.11,
+    "as_of": "2026-09-28",
+    "change": -1.02,
+    "change_pct": -2.1,
+    "close": 47.44,
+    "previous_close": 48.46,
     "type": "EOD_CLOSE",
-    "volume": 71075
+    "volume": 26021
   },
   "range": {
-    "distance_from_high_pct": -53.26,
-    "distance_from_low_pct": 7.31,
+    "distance_from_high_pct": -54.24,
+    "distance_from_low_pct": 5.05,
     "high_52w": 103.67,
     "history_basis": "52_WEEK",
     "low_52w": 45.16,
-    "range_position_pct": 5.64
+    "range_position_pct": 3.9
   },
   "risk_model": {
-    "invalidation_floor": 46.76,
-    "risk_per_share": 2.67,
-    "technical_pivot": 49.43
+    "invalidation_floor": 45.78,
+    "risk_per_share": 2.61,
+    "technical_pivot": 48.39
   },
   "schema_version": "1.0",
   "sector": null,

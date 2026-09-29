@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 148.61,
-      "high": 149.76,
-      "low": 146.81,
-      "open": 149.61,
-      "time": "2025-09-18",
-      "volume": 6998033
-    },
-    {
       "close": 149.03,
       "high": 149.85,
       "low": 148.22,
@@ -2017,13 +2009,21 @@
       "open": 111.38,
       "time": "2026-09-25",
       "volume": 2079348
+    },
+    {
+      "close": 111.35,
+      "high": 112.88,
+      "low": 110.94,
+      "open": 112.7,
+      "time": "2026-09-28",
+      "volume": 2050585
     }
   ],
   "company_name": "Indian Energy Exchange Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 45,
+    "momentum_score": 44,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.59x"
+    "volume_multiplier": "0.58x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.5,
-    "change_pct": 1.35,
-    "close": 112.7,
-    "previous_close": 111.2,
+    "as_of": "2026-09-28",
+    "change": -1.35,
+    "change_pct": -1.2,
+    "close": 111.35,
+    "previous_close": 112.7,
     "type": "EOD_CLOSE",
-    "volume": 2079348
+    "volume": 2050585
   },
   "range": {
-    "distance_from_high_pct": -29.68,
-    "distance_from_low_pct": 2.13,
+    "distance_from_high_pct": -30.52,
+    "distance_from_low_pct": 0.91,
     "high_52w": 160.27,
     "history_basis": "52_WEEK",
     "low_52w": 110.35,
-    "range_position_pct": 4.71
+    "range_position_pct": 2.0
   },
   "risk_model": {
-    "invalidation_floor": 108.76,
-    "risk_per_share": 6.19,
-    "technical_pivot": 114.95
+    "invalidation_floor": 107.45,
+    "risk_per_share": 6.13,
+    "technical_pivot": 113.58
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 6980.5,
-      "high": 7092.0,
-      "low": 6929.0,
-      "open": 7092.0,
-      "time": "2025-09-18",
-      "volume": 7128
-    },
-    {
       "close": 7202.5,
       "high": 7302.0,
       "low": 6950.0,
@@ -2017,13 +2009,21 @@
       "open": 12541.0,
       "time": "2026-09-25",
       "volume": 38127
+    },
+    {
+      "close": 13139.0,
+      "high": 13500.0,
+      "low": 13014.0,
+      "open": 13380.0,
+      "time": "2026-09-28",
+      "volume": 44529
     }
   ],
   "company_name": "DYNAMATIC TECHNOLOGIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Capital Goods",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 88,
+    "momentum_score": 85,
     "setup_type": "Pocket Pivot",
-    "volume_multiplier": "1.81x"
+    "volume_multiplier": "1.93x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 602.0,
-    "change_pct": 4.8,
-    "close": 13153.0,
-    "previous_close": 12551.0,
+    "as_of": "2026-09-28",
+    "change": -14.0,
+    "change_pct": -0.11,
+    "close": 13139.0,
+    "previous_close": 13153.0,
     "type": "EOD_CLOSE",
-    "volume": 38127
+    "volume": 44529
   },
   "range": {
-    "distance_from_high_pct": -1.01,
-    "distance_from_low_pct": 95.85,
-    "high_52w": 13287.0,
+    "distance_from_high_pct": -2.67,
+    "distance_from_low_pct": 95.64,
+    "high_52w": 13500.0,
     "history_basis": "52_WEEK",
     "low_52w": 6716.0,
-    "range_position_pct": 97.96
+    "range_position_pct": 94.68
   },
   "risk_model": {
-    "invalidation_floor": 12692.65,
-    "risk_per_share": 723.41,
-    "technical_pivot": 13416.06
+    "invalidation_floor": 12679.14,
+    "risk_per_share": 722.64,
+    "technical_pivot": 13401.78
   },
   "schema_version": "1.0",
   "sector": "Capital Goods",

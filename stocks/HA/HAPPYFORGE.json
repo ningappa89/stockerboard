@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 969.75,
-      "high": 981.45,
-      "low": 958.0,
-      "open": 981.45,
-      "time": "2025-09-18",
-      "volume": 26622
-    },
-    {
       "close": 964.75,
       "high": 970.95,
       "low": 953.75,
@@ -2017,13 +2009,21 @@
       "open": 2084.8,
       "time": "2026-09-25",
       "volume": 37247
+    },
+    {
+      "close": 1996.7,
+      "high": 2069.0,
+      "low": 1981.3,
+      "open": 2059.9,
+      "time": "2026-09-28",
+      "volume": 77145
     }
   ],
   "company_name": "Happy Forgings Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.46x"
+    "volume_multiplier": "0.94x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -21.3,
-    "change_pct": -1.02,
-    "close": 2063.5,
-    "previous_close": 2084.8,
+    "as_of": "2026-09-28",
+    "change": -66.8,
+    "change_pct": -3.24,
+    "close": 1996.7,
+    "previous_close": 2063.5,
     "type": "EOD_CLOSE",
-    "volume": 37247
+    "volume": 77145
   },
   "range": {
-    "distance_from_high_pct": -16.46,
-    "distance_from_low_pct": 132.18,
+    "distance_from_high_pct": -19.16,
+    "distance_from_low_pct": 124.66,
     "high_52w": 2470.0,
     "history_basis": "52_WEEK",
     "low_52w": 888.75,
-    "range_position_pct": 74.29
+    "range_position_pct": 70.07
   },
   "risk_model": {
-    "invalidation_floor": 1991.28,
-    "risk_per_share": 113.49,
-    "technical_pivot": 2104.77
+    "invalidation_floor": 1926.82,
+    "risk_per_share": 109.81,
+    "technical_pivot": 2036.63
   },
   "schema_version": "1.0",
   "sector": null,

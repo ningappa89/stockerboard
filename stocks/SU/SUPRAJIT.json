@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 455.7,
-      "high": 462.45,
-      "low": 453.6,
-      "open": 454.0,
-      "time": "2025-09-18",
-      "volume": 33115
-    },
-    {
       "close": 475.45,
       "high": 482.55,
       "low": 456.95,
@@ -2017,13 +2009,21 @@
       "open": 489.1,
       "time": "2026-09-25",
       "volume": 54422
+    },
+    {
+      "close": 483.6,
+      "high": 487.0,
+      "low": 479.1,
+      "open": 486.0,
+      "time": "2026-09-28",
+      "volume": 40072
     }
   ],
   "company_name": "SUPRAJIT ENGINEERING LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
+    "is_stage2": false,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.58x"
+    "volume_multiplier": "0.44x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.35,
-    "change_pct": 0.28,
-    "close": 488.0,
-    "previous_close": 486.65,
+    "as_of": "2026-09-28",
+    "change": -4.4,
+    "change_pct": -0.9,
+    "close": 483.6,
+    "previous_close": 488.0,
     "type": "EOD_CLOSE",
-    "volume": 54422
+    "volume": 40072
   },
   "range": {
-    "distance_from_high_pct": -12.74,
-    "distance_from_low_pct": 25.14,
+    "distance_from_high_pct": -13.53,
+    "distance_from_low_pct": 24.02,
     "high_52w": 559.25,
     "history_basis": "52_WEEK",
     "low_52w": 389.95,
-    "range_position_pct": 57.91
+    "range_position_pct": 55.32
   },
   "risk_model": {
-    "invalidation_floor": 470.92,
-    "risk_per_share": 26.84,
-    "technical_pivot": 497.76
+    "invalidation_floor": 466.67,
+    "risk_per_share": 26.6,
+    "technical_pivot": 493.27
   },
   "schema_version": "1.0",
   "sector": null,

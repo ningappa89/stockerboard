@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 98.2,
-      "high": 101.2,
-      "low": 97.8,
-      "open": 100.99,
-      "time": "2025-09-18",
-      "volume": 4806
-    },
-    {
       "close": 95.95,
       "high": 99.89,
       "low": 94.0,
@@ -2017,13 +2009,21 @@
       "open": 74.05,
       "time": "2026-09-25",
       "volume": 75725
+    },
+    {
+      "close": 71.35,
+      "high": 72.1,
+      "low": 69.93,
+      "open": 70.53,
+      "time": "2026-09-28",
+      "volume": 175786
     }
   ],
   "company_name": "DJ MEDIAPRINT & LOG LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.61x"
+    "volume_multiplier": "1.44x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.59,
-    "change_pct": -3.48,
-    "close": 71.85,
-    "previous_close": 74.44,
+    "as_of": "2026-09-28",
+    "change": -0.5,
+    "change_pct": -0.7,
+    "close": 71.35,
+    "previous_close": 71.85,
     "type": "EOD_CLOSE",
-    "volume": 75725
+    "volume": 175786
   },
   "range": {
-    "distance_from_high_pct": -42.43,
-    "distance_from_low_pct": 38.17,
+    "distance_from_high_pct": -42.83,
+    "distance_from_low_pct": 37.21,
     "high_52w": 124.8,
     "history_basis": "52_WEEK",
     "low_52w": 52.0,
-    "range_position_pct": 27.27
+    "range_position_pct": 26.58
   },
   "risk_model": {
-    "invalidation_floor": 69.34,
-    "risk_per_share": 3.95,
-    "technical_pivot": 73.29
+    "invalidation_floor": 68.85,
+    "risk_per_share": 3.93,
+    "technical_pivot": 72.78
   },
   "schema_version": "1.0",
   "sector": null,

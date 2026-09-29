@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 384.75,
-      "high": 387.9,
-      "low": 374.55,
-      "open": 379.0,
-      "time": "2025-09-18",
-      "volume": 143091
-    },
-    {
       "close": 382.65,
       "high": 391.0,
       "low": 379.2,
@@ -2017,13 +2009,21 @@
       "open": 603.0,
       "time": "2026-09-25",
       "volume": 137855
+    },
+    {
+      "close": 589.75,
+      "high": 609.7,
+      "low": 585.25,
+      "open": 605.15,
+      "time": "2026-09-28",
+      "volume": 167602
     }
   ],
   "company_name": "SG FINSERVE LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.84x"
+    "volume_multiplier": "1.0x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 8.15,
-    "change_pct": 1.35,
-    "close": 609.7,
-    "previous_close": 601.55,
+    "as_of": "2026-09-28",
+    "change": -19.95,
+    "change_pct": -3.27,
+    "close": 589.75,
+    "previous_close": 609.7,
     "type": "EOD_CLOSE",
-    "volume": 137855
+    "volume": 167602
   },
   "range": {
-    "distance_from_high_pct": -16.19,
-    "distance_from_low_pct": 88.76,
+    "distance_from_high_pct": -18.93,
+    "distance_from_low_pct": 82.59,
     "high_52w": 727.45,
     "history_basis": "52_WEEK",
     "low_52w": 323.0,
-    "range_position_pct": 70.89
+    "range_position_pct": 65.95
   },
   "risk_model": {
-    "invalidation_floor": 588.36,
-    "risk_per_share": 33.53,
-    "technical_pivot": 621.89
+    "invalidation_floor": 569.11,
+    "risk_per_share": 32.43,
+    "technical_pivot": 601.54
   },
   "schema_version": "1.0",
   "sector": null,

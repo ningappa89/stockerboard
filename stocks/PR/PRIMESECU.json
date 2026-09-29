@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 258.2,
-      "high": 263.0,
-      "low": 251.45,
-      "open": 251.45,
-      "time": "2025-09-18",
-      "volume": 59577
-    },
-    {
       "close": 260.7,
       "high": 262.95,
       "low": 254.55,
@@ -2017,13 +2009,21 @@
       "open": 299.65,
       "time": "2026-09-25",
       "volume": 39045
+    },
+    {
+      "close": 301.85,
+      "high": 305.0,
+      "low": 296.05,
+      "open": 305.0,
+      "time": "2026-09-28",
+      "volume": 8733
     }
   ],
   "company_name": "PRIME SECURITIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": true,
     "momentum_score": 79,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.9x"
+    "volume_multiplier": "0.2x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 2.2,
-    "change_pct": 0.73,
-    "close": 301.9,
-    "previous_close": 299.7,
+    "as_of": "2026-09-28",
+    "change": -0.05,
+    "change_pct": -0.02,
+    "close": 301.85,
+    "previous_close": 301.9,
     "type": "EOD_CLOSE",
-    "volume": 39045
+    "volume": 8733
   },
   "range": {
-    "distance_from_high_pct": -7.11,
-    "distance_from_low_pct": 21.73,
+    "distance_from_high_pct": -7.12,
+    "distance_from_low_pct": 21.71,
     "high_52w": 325.0,
     "history_basis": "52_WEEK",
     "low_52w": 248.0,
-    "range_position_pct": 70.0
+    "range_position_pct": 69.94
   },
   "risk_model": {
-    "invalidation_floor": 291.33,
-    "risk_per_share": 16.61,
-    "technical_pivot": 307.94
+    "invalidation_floor": 291.29,
+    "risk_per_share": 16.6,
+    "technical_pivot": 307.89
   },
   "schema_version": "1.0",
   "sector": null,

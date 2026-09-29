@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2069.2,
-      "high": 2075.0,
-      "low": 2045.0,
-      "open": 2066.0,
-      "time": "2025-09-18",
-      "volume": 904666
-    },
-    {
       "close": 2067.3,
       "high": 2077.2,
       "low": 2053.7,
@@ -2017,13 +2009,21 @@
       "open": 1774.0,
       "time": "2026-09-25",
       "volume": 1419352
+    },
+    {
+      "close": 1752.0,
+      "high": 1769.0,
+      "low": 1739.1,
+      "open": 1767.0,
+      "time": "2026-09-28",
+      "volume": 536952
     }
   ],
   "company_name": "BAJAJ FINSERV LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 61,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.11x"
+    "momentum_score": 59,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.79x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 8.7,
-    "change_pct": 0.49,
-    "close": 1771.0,
-    "previous_close": 1762.3,
+    "as_of": "2026-09-28",
+    "change": -19.0,
+    "change_pct": -1.07,
+    "close": 1752.0,
+    "previous_close": 1771.0,
     "type": "EOD_CLOSE",
-    "volume": 1419352
+    "volume": 536952
   },
   "range": {
-    "distance_from_high_pct": -19.32,
-    "distance_from_low_pct": 10.9,
+    "distance_from_high_pct": -20.18,
+    "distance_from_low_pct": 9.71,
     "high_52w": 2195.0,
     "history_basis": "52_WEEK",
     "low_52w": 1597.0,
-    "range_position_pct": 29.1
+    "range_position_pct": 25.92
   },
   "risk_model": {
-    "invalidation_floor": 1709.01,
-    "risk_per_share": 97.41,
-    "technical_pivot": 1806.42
+    "invalidation_floor": 1690.68,
+    "risk_per_share": 96.36,
+    "technical_pivot": 1787.04
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

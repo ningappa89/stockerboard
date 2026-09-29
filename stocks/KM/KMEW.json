@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1253.65,
-      "high": 1287.5,
-      "low": 1224.1,
-      "open": 1255.0,
-      "time": "2025-09-18",
-      "volume": 446304
-    },
-    {
       "close": 1254.65,
       "high": 1269.85,
       "low": 1215.55,
@@ -2017,13 +2009,21 @@
       "open": 2905.0,
       "time": "2026-09-25",
       "volume": 31064
+    },
+    {
+      "close": 2876.9,
+      "high": 2899.9,
+      "low": 2802.0,
+      "open": 2865.0,
+      "time": "2026-09-28",
+      "volume": 55763
     }
   ],
   "company_name": "Knowledge Marine & Engineering",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": true,
     "momentum_score": 75,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.31x"
+    "volume_multiplier": "0.58x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -25.5,
-    "change_pct": -0.88,
-    "close": 2865.1,
-    "previous_close": 2890.6,
+    "as_of": "2026-09-28",
+    "change": 11.8,
+    "change_pct": 0.41,
+    "close": 2876.9,
+    "previous_close": 2865.1,
     "type": "EOD_CLOSE",
-    "volume": 31064
+    "volume": 55763
   },
   "range": {
-    "distance_from_high_pct": -9.76,
-    "distance_from_low_pct": 164.16,
+    "distance_from_high_pct": -9.39,
+    "distance_from_low_pct": 165.25,
     "high_52w": 3175.0,
     "history_basis": "52_WEEK",
     "low_52w": 1084.6,
-    "range_position_pct": 85.18
+    "range_position_pct": 85.74
   },
   "risk_model": {
-    "invalidation_floor": 2764.82,
-    "risk_per_share": 157.58,
-    "technical_pivot": 2922.4
+    "invalidation_floor": 2776.21,
+    "risk_per_share": 158.23,
+    "technical_pivot": 2934.44
   },
   "schema_version": "1.0",
   "sector": null,

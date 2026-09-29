@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 516.25,
-      "high": 527.3,
-      "low": 514.1,
-      "open": 517.25,
-      "time": "2025-09-18",
-      "volume": 720600
-    },
-    {
       "close": 509.75,
       "high": 517.95,
       "low": 508.0,
@@ -2017,13 +2009,21 @@
       "open": 663.0,
       "time": "2026-09-25",
       "volume": 4511284
+    },
+    {
+      "close": 680.7,
+      "high": 705.35,
+      "low": 672.3,
+      "open": 691.0,
+      "time": "2026-09-28",
+      "volume": 1951668
     }
   ],
   "company_name": "BALRAMPUR CHINI MILLS LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 71,
+    "momentum_score": 70,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.04x"
+    "volume_multiplier": "0.45x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 26.4,
-    "change_pct": 4.0,
-    "close": 685.8,
-    "previous_close": 659.4,
+    "as_of": "2026-09-28",
+    "change": -5.1,
+    "change_pct": -0.74,
+    "close": 680.7,
+    "previous_close": 685.8,
     "type": "EOD_CLOSE",
-    "volume": 4511284
+    "volume": 1951668
   },
   "range": {
-    "distance_from_high_pct": -12.18,
-    "distance_from_low_pct": 74.26,
+    "distance_from_high_pct": -12.84,
+    "distance_from_low_pct": 72.96,
     "high_52w": 780.95,
     "history_basis": "52_WEEK",
     "low_52w": 393.55,
-    "range_position_pct": 75.44
+    "range_position_pct": 74.12
   },
   "risk_model": {
-    "invalidation_floor": 661.8,
-    "risk_per_share": 37.72,
-    "technical_pivot": 699.52
+    "invalidation_floor": 656.88,
+    "risk_per_share": 37.43,
+    "technical_pivot": 694.31
   },
   "schema_version": "1.0",
   "sector": null,

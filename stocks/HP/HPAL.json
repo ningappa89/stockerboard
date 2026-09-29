@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 49.4,
-      "high": 49.69,
-      "low": 48.8,
-      "open": 49.45,
-      "time": "2025-09-18",
-      "volume": 107185
-    },
-    {
       "close": 49.38,
       "high": 49.94,
       "low": 49.0,
@@ -2017,13 +2009,21 @@
       "open": 35.05,
       "time": "2026-09-25",
       "volume": 41928
+    },
+    {
+      "close": 34.77,
+      "high": 35.0,
+      "low": 34.51,
+      "open": 34.9,
+      "time": "2026-09-28",
+      "volume": 22321
     }
   ],
   "company_name": "HP Adhesives Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.54x"
+    "volume_multiplier": "0.3x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.64,
-    "change_pct": -1.8,
-    "close": 34.96,
-    "previous_close": 35.6,
+    "as_of": "2026-09-28",
+    "change": -0.19,
+    "change_pct": -0.54,
+    "close": 34.77,
+    "previous_close": 34.96,
     "type": "EOD_CLOSE",
-    "volume": 41928
+    "volume": 22321
   },
   "range": {
-    "distance_from_high_pct": -34.04,
-    "distance_from_low_pct": 31.83,
+    "distance_from_high_pct": -34.4,
+    "distance_from_low_pct": 31.11,
     "high_52w": 53.0,
     "history_basis": "52_WEEK",
     "low_52w": 26.52,
-    "range_position_pct": 31.87
+    "range_position_pct": 31.16
   },
   "risk_model": {
-    "invalidation_floor": 33.74,
+    "invalidation_floor": 33.55,
     "risk_per_share": 1.92,
-    "technical_pivot": 35.66
+    "technical_pivot": 35.47
   },
   "schema_version": "1.0",
   "sector": null,

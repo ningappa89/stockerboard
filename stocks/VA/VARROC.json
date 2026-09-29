@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 628.95,
-      "high": 646.8,
-      "low": 620.15,
-      "open": 645.0,
-      "time": "2025-09-18",
-      "volume": 760265
-    },
-    {
       "close": 633.0,
       "high": 641.5,
       "low": 625.0,
@@ -2017,13 +2009,21 @@
       "open": 830.0,
       "time": "2026-09-25",
       "volume": 85714
+    },
+    {
+      "close": 848.35,
+      "high": 863.8,
+      "low": 821.05,
+      "open": 834.85,
+      "time": "2026-09-28",
+      "volume": 275526
     }
   ],
   "company_name": "Varroc Engineering Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 77,
+    "momentum_score": 79,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.22x"
+    "volume_multiplier": "0.69x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 1.45,
-    "change_pct": 0.17,
-    "close": 834.85,
-    "previous_close": 833.4,
+    "as_of": "2026-09-28",
+    "change": 13.5,
+    "change_pct": 1.62,
+    "close": 848.35,
+    "previous_close": 834.85,
     "type": "EOD_CLOSE",
-    "volume": 85714
+    "volume": 275526
   },
   "range": {
-    "distance_from_high_pct": -8.48,
-    "distance_from_low_pct": 80.7,
+    "distance_from_high_pct": -7.0,
+    "distance_from_low_pct": 83.63,
     "high_52w": 912.2,
     "history_basis": "52_WEEK",
     "low_52w": 462.0,
-    "range_position_pct": 82.82
+    "range_position_pct": 85.82
   },
   "risk_model": {
-    "invalidation_floor": 805.63,
-    "risk_per_share": 45.92,
-    "technical_pivot": 851.55
+    "invalidation_floor": 818.66,
+    "risk_per_share": 46.66,
+    "technical_pivot": 865.32
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 93.92,
-      "high": 95.7,
-      "low": 93.59,
-      "open": 95.7,
-      "time": "2025-09-18",
-      "volume": 11280
-    },
-    {
       "close": 91.32,
       "high": 94.24,
       "low": 90.0,
@@ -2017,13 +2009,21 @@
       "open": 88.79,
       "time": "2026-09-25",
       "volume": 4528
+    },
+    {
+      "close": 87.81,
+      "high": 89.69,
+      "low": 85.5,
+      "open": 88.2,
+      "time": "2026-09-28",
+      "volume": 8631
     }
   ],
   "company_name": "JULLUNDUR MOT AGENCY LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.16x"
+    "volume_multiplier": "0.46x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.27,
-    "change_pct": 0.31,
-    "close": 88.19,
-    "previous_close": 87.92,
+    "as_of": "2026-09-28",
+    "change": -0.38,
+    "change_pct": -0.43,
+    "close": 87.81,
+    "previous_close": 88.19,
     "type": "EOD_CLOSE",
-    "volume": 4528
+    "volume": 8631
   },
   "range": {
-    "distance_from_high_pct": -14.96,
-    "distance_from_low_pct": 25.54,
+    "distance_from_high_pct": -15.32,
+    "distance_from_low_pct": 25.0,
     "high_52w": 103.7,
     "history_basis": "52_WEEK",
     "low_52w": 70.25,
-    "range_position_pct": 53.63
+    "range_position_pct": 52.5
   },
   "risk_model": {
-    "invalidation_floor": 85.1,
-    "risk_per_share": 4.85,
-    "technical_pivot": 89.95
+    "invalidation_floor": 84.74,
+    "risk_per_share": 4.83,
+    "technical_pivot": 89.57
   },
   "schema_version": "1.0",
   "sector": null,

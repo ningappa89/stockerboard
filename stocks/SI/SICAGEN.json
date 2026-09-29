@@ -889,14 +889,22 @@
       "open": 52.88,
       "time": "2026-09-25",
       "volume": 10821
+    },
+    {
+      "close": 52.12,
+      "high": 53.8,
+      "low": 51.55,
+      "open": 52.9,
+      "time": "2026-09-28",
+      "volume": 5699
     }
   ],
   "company_name": "SICAGEN INDIA LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE176J01011",
@@ -904,31 +912,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 47,
+    "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.53x"
+    "volume_multiplier": "0.29x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.77,
-    "change_pct": 1.47,
-    "close": 53.13,
-    "previous_close": 52.36,
+    "as_of": "2026-09-28",
+    "change": -1.01,
+    "change_pct": -1.9,
+    "close": 52.12,
+    "previous_close": 53.13,
     "type": "EOD_CLOSE",
-    "volume": 10821
+    "volume": 5699
   },
   "range": {
-    "distance_from_high_pct": -28.26,
-    "distance_from_low_pct": 14.14,
+    "distance_from_high_pct": -29.62,
+    "distance_from_low_pct": 11.97,
     "high_52w": 74.06,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 46.55,
-    "range_position_pct": 23.92
+    "range_position_pct": 20.25
   },
   "risk_model": {
-    "invalidation_floor": 51.27,
-    "risk_per_share": 2.92,
-    "technical_pivot": 54.19
+    "invalidation_floor": 50.3,
+    "risk_per_share": 2.86,
+    "technical_pivot": 53.16
   },
   "schema_version": "1.0",
   "sector": null,

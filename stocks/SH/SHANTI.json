@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 9.54,
-      "high": 9.9,
-      "low": 9.18,
-      "open": 9.6,
-      "time": "2025-09-18",
-      "volume": 236425
-    },
-    {
       "close": 9.52,
       "high": 9.9,
       "low": 9.41,
@@ -2017,13 +2009,21 @@
       "open": 5.88,
       "time": "2026-09-25",
       "volume": 10428
+    },
+    {
+      "close": 5.67,
+      "high": 5.87,
+      "low": 5.5,
+      "open": 5.5,
+      "time": "2026-09-28",
+      "volume": 13320
     }
   ],
   "company_name": "SHANTI OVERSEAS INDIA LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.24x"
+    "volume_multiplier": "0.31x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.06,
-    "change_pct": 1.07,
-    "close": 5.68,
-    "previous_close": 5.62,
+    "as_of": "2026-09-28",
+    "change": -0.01,
+    "change_pct": -0.18,
+    "close": 5.67,
+    "previous_close": 5.68,
     "type": "EOD_CLOSE",
-    "volume": 10428
+    "volume": 13320
   },
   "range": {
-    "distance_from_high_pct": -53.67,
-    "distance_from_low_pct": 20.85,
+    "distance_from_high_pct": -53.75,
+    "distance_from_low_pct": 20.64,
     "high_52w": 12.26,
     "history_basis": "52_WEEK",
     "low_52w": 4.7,
-    "range_position_pct": 12.96
+    "range_position_pct": 12.83
   },
   "risk_model": {
-    "invalidation_floor": 5.48,
+    "invalidation_floor": 5.47,
     "risk_per_share": 0.5,
-    "technical_pivot": 5.79
+    "technical_pivot": 5.78
   },
   "schema_version": "1.0",
   "sector": null,

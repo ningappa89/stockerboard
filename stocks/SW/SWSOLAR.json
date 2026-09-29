@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 266.7,
-      "high": 270.55,
-      "low": 265.7,
-      "open": 269.5,
-      "time": "2025-09-18",
-      "volume": 1087190
-    },
-    {
       "close": 270.9,
       "high": 272.6,
       "low": 264.5,
@@ -2017,13 +2009,21 @@
       "open": 176.0,
       "time": "2026-09-25",
       "volume": 532217
+    },
+    {
+      "close": 170.74,
+      "high": 175.91,
+      "low": 169.5,
+      "open": 175.52,
+      "time": "2026-09-28",
+      "volume": 902418
     }
   ],
   "company_name": "STRLNG & WIL REN ENE LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.46x"
+    "volume_multiplier": "0.78x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -0.69,
-    "change_pct": -0.39,
-    "close": 176.65,
-    "previous_close": 177.34,
+    "as_of": "2026-09-28",
+    "change": -5.91,
+    "change_pct": -3.35,
+    "close": 170.74,
+    "previous_close": 176.65,
     "type": "EOD_CLOSE",
-    "volume": 532217
+    "volume": 902418
   },
   "range": {
-    "distance_from_high_pct": -35.25,
-    "distance_from_low_pct": 19.36,
+    "distance_from_high_pct": -37.41,
+    "distance_from_low_pct": 15.36,
     "high_52w": 272.8,
     "history_basis": "52_WEEK",
     "low_52w": 148.0,
-    "range_position_pct": 22.96
+    "range_position_pct": 18.22
   },
   "risk_model": {
-    "invalidation_floor": 170.47,
-    "risk_per_share": 9.71,
-    "technical_pivot": 180.18
+    "invalidation_floor": 164.76,
+    "risk_per_share": 9.39,
+    "technical_pivot": 174.15
   },
   "schema_version": "1.0",
   "sector": null,

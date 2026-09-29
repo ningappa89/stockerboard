@@ -889,46 +889,54 @@
       "open": 719.2,
       "time": "2026-09-25",
       "volume": 330363
+    },
+    {
+      "close": 703.65,
+      "high": 733.6,
+      "low": 700.2,
+      "open": 733.6,
+      "time": "2026-09-28",
+      "volume": 345455
     }
   ],
   "company_name": "TIMEX GROUP INDIA LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 111
+    "last_session": "2026-09-28",
+    "sessions_available": 112
   },
   "industry": null,
   "isin": "INE064A01026",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 86,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.45x"
+    "momentum_score": 81,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.47x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 21.25,
-    "change_pct": 2.99,
-    "close": 732.05,
-    "previous_close": 710.8,
+    "as_of": "2026-09-28",
+    "change": -28.4,
+    "change_pct": -3.88,
+    "close": 703.65,
+    "previous_close": 732.05,
     "type": "EOD_CLOSE",
-    "volume": 330363
+    "volume": 345455
   },
   "range": {
-    "distance_from_high_pct": -2.13,
-    "distance_from_low_pct": 134.63,
+    "distance_from_high_pct": -5.93,
+    "distance_from_low_pct": 125.53,
     "high_52w": 748.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 312.0,
-    "range_position_pct": 96.34
+    "range_position_pct": 89.83
   },
   "risk_model": {
-    "invalidation_floor": 706.43,
-    "risk_per_share": 40.26,
-    "technical_pivot": 746.69
+    "invalidation_floor": 679.02,
+    "risk_per_share": 38.7,
+    "technical_pivot": 717.72
   },
   "schema_version": "1.0",
   "sector": null,

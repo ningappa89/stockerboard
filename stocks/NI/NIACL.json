@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 195.95,
-      "high": 198.5,
-      "low": 192.01,
-      "open": 193.75,
-      "time": "2025-09-18",
-      "volume": 1079826
-    },
-    {
       "close": 201.29,
       "high": 202.5,
       "low": 194.39,
@@ -2017,13 +2009,21 @@
       "open": 180.4,
       "time": "2026-09-25",
       "volume": 1637051
+    },
+    {
+      "close": 169.84,
+      "high": 178.4,
+      "low": 168.3,
+      "open": 178.3,
+      "time": "2026-09-28",
+      "volume": 1806851
     }
   ],
   "company_name": "THE NEW INDIA ASSU CO LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 49,
+    "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.12x"
+    "volume_multiplier": "0.13x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -3.8,
-    "change_pct": -2.11,
-    "close": 176.6,
-    "previous_close": 180.4,
+    "as_of": "2026-09-28",
+    "change": -6.76,
+    "change_pct": -3.83,
+    "close": 169.84,
+    "previous_close": 176.6,
     "type": "EOD_CLOSE",
-    "volume": 1637051
+    "volume": 1806851
   },
   "range": {
-    "distance_from_high_pct": -27.21,
-    "distance_from_low_pct": 50.98,
+    "distance_from_high_pct": -29.99,
+    "distance_from_low_pct": 45.2,
     "high_52w": 242.6,
     "history_basis": "52_WEEK",
     "low_52w": 116.97,
-    "range_position_pct": 47.46
+    "range_position_pct": 42.08
   },
   "risk_model": {
-    "invalidation_floor": 170.42,
-    "risk_per_share": 9.71,
-    "technical_pivot": 180.13
+    "invalidation_floor": 163.9,
+    "risk_per_share": 9.34,
+    "technical_pivot": 173.24
   },
   "schema_version": "1.0",
   "sector": null,

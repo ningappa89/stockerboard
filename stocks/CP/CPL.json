@@ -369,14 +369,22 @@
       "open": 62.54,
       "time": "2026-09-25",
       "volume": 26032
+    },
+    {
+      "close": 62.86,
+      "high": 64.58,
+      "low": 61.3,
+      "open": 62.84,
+      "time": "2026-09-28",
+      "volume": 39108
     }
   ],
   "company_name": "CAPTAIN POLYPLAST LIMITED",
   "history": {
     "first_session": "2026-07-23",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 46
+    "last_session": "2026-09-28",
+    "sessions_available": 47
   },
   "industry": null,
   "isin": "INE536P01021",
@@ -384,31 +392,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.29x"
+    "volume_multiplier": "0.46x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 0.69,
-    "change_pct": 1.1,
-    "close": 63.23,
-    "previous_close": 62.54,
+    "as_of": "2026-09-28",
+    "change": -0.37,
+    "change_pct": -0.59,
+    "close": 62.86,
+    "previous_close": 63.23,
     "type": "EOD_CLOSE",
-    "volume": 26032
+    "volume": 39108
   },
   "range": {
-    "distance_from_high_pct": -16.52,
-    "distance_from_low_pct": 2.9,
+    "distance_from_high_pct": -17.01,
+    "distance_from_low_pct": 2.54,
     "high_52w": 75.74,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 61.45,
-    "range_position_pct": 12.46
+    "low_52w": 61.3,
+    "range_position_pct": 10.8
   },
   "risk_model": {
-    "invalidation_floor": 61.02,
-    "risk_per_share": 3.47,
-    "technical_pivot": 64.49
+    "invalidation_floor": 60.66,
+    "risk_per_share": 3.46,
+    "technical_pivot": 64.12
   },
   "schema_version": "1.0",
   "sector": null,

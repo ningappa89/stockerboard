@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1954.7,
-      "high": 1980.0,
-      "low": 1946.1,
-      "open": 1964.9,
-      "time": "2025-09-18",
-      "volume": 29961
-    },
-    {
       "close": 1936.4,
       "high": 1968.9,
       "low": 1928.0,
@@ -2017,13 +2009,21 @@
       "open": 1448.5,
       "time": "2026-09-25",
       "volume": 31881
+    },
+    {
+      "close": 1415.7,
+      "high": 1435.3,
+      "low": 1412.1,
+      "open": 1435.2,
+      "time": "2026-09-28",
+      "volume": 30398
     }
   ],
   "company_name": "The Bombay Burmah Trading Corp",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.15x"
+    "volume_multiplier": "0.17x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.2,
-    "change_pct": -0.15,
-    "close": 1435.2,
-    "previous_close": 1437.4,
+    "as_of": "2026-09-28",
+    "change": -19.5,
+    "change_pct": -1.36,
+    "close": 1415.7,
+    "previous_close": 1435.2,
     "type": "EOD_CLOSE",
-    "volume": 31881
+    "volume": 30398
   },
   "range": {
-    "distance_from_high_pct": -32.78,
-    "distance_from_low_pct": 9.17,
+    "distance_from_high_pct": -33.69,
+    "distance_from_low_pct": 7.69,
     "high_52w": 2135.0,
     "history_basis": "52_WEEK",
     "low_52w": 1314.6,
-    "range_position_pct": 14.7
+    "range_position_pct": 12.32
   },
   "risk_model": {
-    "invalidation_floor": 1384.97,
-    "risk_per_share": 78.93,
-    "technical_pivot": 1463.9
+    "invalidation_floor": 1366.15,
+    "risk_per_share": 77.86,
+    "technical_pivot": 1444.01
   },
   "schema_version": "1.0",
   "sector": null,

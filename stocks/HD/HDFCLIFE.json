@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 784.6,
-      "high": 789.65,
-      "low": 766.2,
-      "open": 766.2,
-      "time": "2025-09-18",
-      "volume": 4824420
-    },
-    {
       "close": 782.2,
       "high": 793.65,
       "low": 780.5,
@@ -2017,13 +2009,21 @@
       "open": 526.9,
       "time": "2026-09-25",
       "volume": 4285606
+    },
+    {
+      "close": 531.6,
+      "high": 534.5,
+      "low": 525.9,
+      "open": 531.0,
+      "time": "2026-09-28",
+      "volume": 2307139
     }
   ],
   "company_name": "HDFC LIFE INSURANCE COMPANY LI",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.94x"
+    "volume_multiplier": "0.5x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 4.1,
-    "change_pct": 0.78,
-    "close": 531.0,
-    "previous_close": 526.9,
+    "as_of": "2026-09-28",
+    "change": 0.6,
+    "change_pct": 0.11,
+    "close": 531.6,
+    "previous_close": 531.0,
     "type": "EOD_CLOSE",
-    "volume": 4285606
+    "volume": 2307139
   },
   "range": {
-    "distance_from_high_pct": -33.37,
-    "distance_from_low_pct": 4.38,
+    "distance_from_high_pct": -33.29,
+    "distance_from_low_pct": 4.5,
     "high_52w": 796.9,
     "history_basis": "52_WEEK",
     "low_52w": 508.7,
-    "range_position_pct": 7.74
+    "range_position_pct": 7.95
   },
   "risk_model": {
-    "invalidation_floor": 512.41,
-    "risk_per_share": 29.21,
-    "technical_pivot": 541.62
+    "invalidation_floor": 512.99,
+    "risk_per_share": 29.24,
+    "technical_pivot": 542.23
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

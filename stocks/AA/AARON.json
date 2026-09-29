@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 198.22,
-      "high": 203.93,
-      "low": 197.85,
-      "open": 203.93,
-      "time": "2025-09-18",
-      "volume": 11700
-    },
-    {
       "close": 200.59,
       "high": 203.0,
       "low": 197.5,
@@ -2017,13 +2009,21 @@
       "open": 118.5,
       "time": "2026-09-25",
       "volume": 28654
+    },
+    {
+      "close": 121.62,
+      "high": 125.0,
+      "low": 120.28,
+      "open": 125.0,
+      "time": "2026-09-28",
+      "volume": 10414
     }
   ],
   "company_name": "AARON INDUSTRIES LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.74x"
+    "volume_multiplier": "0.63x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 7.43,
-    "change_pct": 6.37,
-    "close": 124.11,
-    "previous_close": 116.68,
+    "as_of": "2026-09-28",
+    "change": -2.49,
+    "change_pct": -2.01,
+    "close": 121.62,
+    "previous_close": 124.11,
     "type": "EOD_CLOSE",
-    "volume": 28654
+    "volume": 10414
   },
   "range": {
-    "distance_from_high_pct": -45.57,
-    "distance_from_low_pct": 16.21,
+    "distance_from_high_pct": -46.66,
+    "distance_from_low_pct": 13.88,
     "high_52w": 228.0,
     "history_basis": "52_WEEK",
     "low_52w": 106.8,
-    "range_position_pct": 14.28
+    "range_position_pct": 12.23
   },
   "risk_model": {
-    "invalidation_floor": 119.77,
-    "risk_per_share": 6.82,
-    "technical_pivot": 126.59
+    "invalidation_floor": 117.36,
+    "risk_per_share": 6.69,
+    "technical_pivot": 124.05
   },
   "schema_version": "1.0",
   "sector": null,

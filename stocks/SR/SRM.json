@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 537.2,
-      "high": 575.2,
-      "low": 533.85,
-      "open": 557.0,
-      "time": "2025-09-18",
-      "volume": 1042256
-    },
-    {
       "close": 559.45,
       "high": 575.0,
       "low": 536.85,
@@ -2017,13 +2009,21 @@
       "open": 413.45,
       "time": "2026-09-25",
       "volume": 21282
+    },
+    {
+      "close": 407.35,
+      "high": 414.2,
+      "low": 404.05,
+      "open": 412.1,
+      "time": "2026-09-28",
+      "volume": 37997
     }
   ],
   "company_name": "SRM CONTRACTORS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.31x"
+    "volume_multiplier": "0.6x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -2.75,
-    "change_pct": -0.66,
-    "close": 416.25,
-    "previous_close": 419.0,
+    "as_of": "2026-09-28",
+    "change": -8.9,
+    "change_pct": -2.14,
+    "close": 407.35,
+    "previous_close": 416.25,
     "type": "EOD_CLOSE",
-    "volume": 21282
+    "volume": 37997
   },
   "range": {
-    "distance_from_high_pct": -35.96,
-    "distance_from_low_pct": 15.19,
+    "distance_from_high_pct": -37.33,
+    "distance_from_low_pct": 12.73,
     "high_52w": 649.95,
     "history_basis": "52_WEEK",
     "low_52w": 361.35,
-    "range_position_pct": 19.02
+    "range_position_pct": 15.94
   },
   "risk_model": {
-    "invalidation_floor": 401.68,
-    "risk_per_share": 22.89,
-    "technical_pivot": 424.57
+    "invalidation_floor": 393.09,
+    "risk_per_share": 22.41,
+    "technical_pivot": 415.5
   },
   "schema_version": "1.0",
   "sector": null,

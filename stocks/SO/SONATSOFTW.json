@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 400.5,
-      "high": 421.5,
-      "low": 391.2,
-      "open": 393.0,
-      "time": "2025-09-18",
-      "volume": 11888695
-    },
-    {
       "close": 394.1,
       "high": 400.6,
       "low": 392.0,
@@ -2017,13 +2009,21 @@
       "open": 275.85,
       "time": "2026-09-25",
       "volume": 473878
+    },
+    {
+      "close": 274.05,
+      "high": 279.35,
+      "low": 272.55,
+      "open": 277.35,
+      "time": "2026-09-28",
+      "volume": 261810
     }
   ],
   "company_name": "SONATA SOFTWARE LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Information Technology",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 40,
+    "momentum_score": 42,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.37x"
+    "volume_multiplier": "0.22x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 5.2,
-    "change_pct": 1.89,
-    "close": 279.9,
-    "previous_close": 274.7,
+    "as_of": "2026-09-28",
+    "change": -5.85,
+    "change_pct": -2.09,
+    "close": 274.05,
+    "previous_close": 279.9,
     "type": "EOD_CLOSE",
-    "volume": 473878
+    "volume": 261810
   },
   "range": {
-    "distance_from_high_pct": -33.59,
-    "distance_from_low_pct": 35.12,
-    "high_52w": 421.5,
+    "distance_from_high_pct": -32.0,
+    "distance_from_low_pct": 32.3,
+    "high_52w": 403.0,
     "history_basis": "52_WEEK",
     "low_52w": 207.15,
-    "range_position_pct": 33.94
+    "range_position_pct": 34.16
   },
   "risk_model": {
-    "invalidation_floor": 270.1,
-    "risk_per_share": 15.4,
-    "technical_pivot": 285.5
+    "invalidation_floor": 264.46,
+    "risk_per_share": 15.07,
+    "technical_pivot": 279.53
   },
   "schema_version": "1.0",
   "sector": "Information Technology",

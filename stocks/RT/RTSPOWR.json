@@ -233,46 +233,54 @@
       "open": 90.0,
       "time": "2026-09-25",
       "volume": 14220
+    },
+    {
+      "close": 125.5,
+      "high": 125.5,
+      "low": 116.3,
+      "open": 116.3,
+      "time": "2026-09-28",
+      "volume": 114320
     }
   ],
   "company_name": "RTS POWER CORPORATION LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-25",
-    "sessions_available": 29
+    "last_session": "2026-09-28",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE005C01017",
   "metrics": {
-    "is_breakout": false,
+    "is_breakout": true,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 77,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "4.74x"
+    "momentum_score": 90,
+    "setup_type": "52W High Breakout",
+    "volume_multiplier": "13.33x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 17.43,
-    "change_pct": 20.0,
-    "close": 104.59,
-    "previous_close": 87.16,
+    "as_of": "2026-09-28",
+    "change": 20.91,
+    "change_pct": 19.99,
+    "close": 125.5,
+    "previous_close": 104.59,
     "type": "EOD_CLOSE",
-    "volume": 14220
+    "volume": 114320
   },
   "range": {
-    "distance_from_high_pct": -8.25,
-    "distance_from_low_pct": 51.84,
-    "high_52w": 114.0,
+    "distance_from_high_pct": 0.0,
+    "distance_from_low_pct": 82.2,
+    "high_52w": 125.5,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 68.88,
-    "range_position_pct": 79.14
+    "range_position_pct": 100.0
   },
   "risk_model": {
-    "invalidation_floor": 100.93,
-    "risk_per_share": 5.75,
-    "technical_pivot": 106.68
+    "invalidation_floor": 121.11,
+    "risk_per_share": 5.39,
+    "technical_pivot": 126.5
   },
   "schema_version": "1.0",
   "sector": null,

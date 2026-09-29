@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 202.53,
-      "high": 208.54,
-      "low": 201.05,
-      "open": 205.9,
-      "time": "2025-09-18",
-      "volume": 14399
-    },
-    {
       "close": 199.45,
       "high": 209.08,
       "low": 195.5,
@@ -2017,13 +2009,21 @@
       "open": 134.15,
       "time": "2026-09-25",
       "volume": 46259
+    },
+    {
+      "close": 139.74,
+      "high": 146.98,
+      "low": 137.05,
+      "open": 144.79,
+      "time": "2026-09-28",
+      "volume": 34089
     }
   ],
   "company_name": "Trejhara Solutions Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.4x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.71x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 9.48,
-    "change_pct": 7.01,
-    "close": 144.79,
-    "previous_close": 135.31,
+    "as_of": "2026-09-28",
+    "change": -5.05,
+    "change_pct": -3.49,
+    "close": 139.74,
+    "previous_close": 144.79,
     "type": "EOD_CLOSE",
-    "volume": 46259
+    "volume": 34089
   },
   "range": {
-    "distance_from_high_pct": -49.17,
-    "distance_from_low_pct": 13.06,
+    "distance_from_high_pct": -50.94,
+    "distance_from_low_pct": 9.11,
     "high_52w": 284.85,
     "history_basis": "52_WEEK",
     "low_52w": 128.07,
-    "range_position_pct": 10.66
+    "range_position_pct": 7.44
   },
   "risk_model": {
-    "invalidation_floor": 139.72,
-    "risk_per_share": 7.97,
-    "technical_pivot": 147.69
+    "invalidation_floor": 134.85,
+    "risk_per_share": 7.68,
+    "technical_pivot": 142.53
   },
   "schema_version": "1.0",
   "sector": null,

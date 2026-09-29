@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 246.35,
-      "high": 249.99,
-      "low": 242.16,
-      "open": 249.99,
-      "time": "2025-09-18",
-      "volume": 434091
-    },
-    {
       "close": 250.31,
       "high": 264.5,
       "low": 245.03,
@@ -2017,13 +2009,21 @@
       "open": 179.7,
       "time": "2026-09-25",
       "volume": 1295945
+    },
+    {
+      "close": 182.17,
+      "high": 190.0,
+      "low": 181.5,
+      "open": 185.0,
+      "time": "2026-09-28",
+      "volume": 1179459
     }
   ],
   "company_name": "PENNAR INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.18x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.85x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": 6.15,
-    "change_pct": 3.44,
-    "close": 184.9,
-    "previous_close": 178.75,
+    "as_of": "2026-09-28",
+    "change": -2.73,
+    "change_pct": -1.48,
+    "close": 182.17,
+    "previous_close": 184.9,
     "type": "EOD_CLOSE",
-    "volume": 1295945
+    "volume": 1179459
   },
   "range": {
-    "distance_from_high_pct": -33.94,
-    "distance_from_low_pct": 43.22,
+    "distance_from_high_pct": -34.92,
+    "distance_from_low_pct": 41.11,
     "high_52w": 279.9,
     "history_basis": "52_WEEK",
     "low_52w": 129.1,
-    "range_position_pct": 37.0
+    "range_position_pct": 35.19
   },
   "risk_model": {
-    "invalidation_floor": 178.43,
-    "risk_per_share": 10.17,
-    "technical_pivot": 188.6
+    "invalidation_floor": 175.79,
+    "risk_per_share": 10.02,
+    "technical_pivot": 185.81
   },
   "schema_version": "1.0",
   "sector": null,

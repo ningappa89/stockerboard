@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1229.3,
-      "high": 1236.3,
-      "low": 1218.1,
-      "open": 1220.0,
-      "time": "2025-09-18",
-      "volume": 2608636
-    },
-    {
       "close": 1177.2,
       "high": 1234.7,
       "low": 1163.9,
@@ -2017,13 +2009,21 @@
       "open": 1732.5,
       "time": "2026-09-25",
       "volume": 5174169
+    },
+    {
+      "close": 1635.8,
+      "high": 1678.1,
+      "low": 1625.7,
+      "open": 1668.0,
+      "time": "2026-09-28",
+      "volume": 4017703
     }
   ],
   "company_name": "One 97 Communications Limited",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-25",
+    "last_session": "2026-09-28",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 75,
+    "momentum_score": 72,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.22x"
+    "volume_multiplier": "0.92x"
   },
   "price": {
-    "as_of": "2026-09-25",
-    "change": -61.5,
-    "change_pct": -3.54,
-    "close": 1674.0,
-    "previous_close": 1735.5,
+    "as_of": "2026-09-28",
+    "change": -38.2,
+    "change_pct": -2.28,
+    "close": 1635.8,
+    "previous_close": 1674.0,
     "type": "EOD_CLOSE",
-    "volume": 5174169
+    "volume": 4017703
   },
   "range": {
-    "distance_from_high_pct": -9.78,
-    "distance_from_low_pct": 79.88,
+    "distance_from_high_pct": -11.84,
+    "distance_from_low_pct": 75.78,
     "high_52w": 1855.5,
     "history_basis": "52_WEEK",
     "low_52w": 930.6,
-    "range_position_pct": 80.38
+    "range_position_pct": 76.25
   },
   "risk_model": {
-    "invalidation_floor": 1615.41,
-    "risk_per_share": 92.07,
-    "technical_pivot": 1707.48
+    "invalidation_floor": 1578.55,
+    "risk_per_share": 89.97,
+    "technical_pivot": 1668.52
   },
   "schema_version": "1.0",
   "sector": "Financial Services",
