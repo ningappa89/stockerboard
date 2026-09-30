@@ -14372,7 +14372,7 @@
 
         function loadFundamentalsSnapshot() {
             if (!fundamentalsLoadPromise) {
-                fundamentalsLoadPromise = fetch('./fundamentals.json?v=20260930', {cache: 'no-cache'})
+                fundamentalsLoadPromise = fetch('./fundamentals.json?v=865084ef', {cache: 'no-cache'})
                     .then(response => { if (!response.ok) throw new Error('Fundamentals snapshot unavailable'); return response.json(); })
                     .then(snapshot => {
                         if (snapshot.schema_version !== 1 || !snapshot.stocks || typeof snapshot.stocks !== 'object') throw new Error('Invalid fundamentals snapshot');
