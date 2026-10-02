@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 157.78,
-      "high": 160.98,
-      "low": 157.45,
-      "open": 159.01,
-      "time": "2025-09-19",
-      "volume": 279491
-    },
-    {
-      "close": 156.24,
-      "high": 158.9,
-      "low": 155.7,
-      "open": 158.9,
-      "time": "2025-09-22",
-      "volume": 795371
-    },
-    {
-      "close": 154.36,
-      "high": 156.75,
-      "low": 154.0,
-      "open": 156.11,
-      "time": "2025-09-23",
-      "volume": 341668
-    },
-    {
       "close": 151.92,
       "high": 155.63,
       "low": 150.3,
@@ -2017,13 +1993,37 @@
       "open": 103.76,
       "time": "2026-09-28",
       "volume": 449144
+    },
+    {
+      "close": 102.02,
+      "high": 104.25,
+      "low": 100.62,
+      "open": 103.78,
+      "time": "2026-09-29",
+      "volume": 314706
+    },
+    {
+      "close": 105.92,
+      "high": 107.5,
+      "low": 99.97,
+      "open": 102.0,
+      "time": "2026-09-30",
+      "volume": 488392
+    },
+    {
+      "close": 103.55,
+      "high": 105.52,
+      "low": 101.33,
+      "open": 105.0,
+      "time": "2026-10-01",
+      "volume": 174623
     }
   ],
   "company_name": "Apeejay Surrendra Park Hotels ",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.95x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.95x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.33,
-    "change_pct": -1.27,
-    "close": 103.57,
-    "previous_close": 104.9,
+    "as_of": "2026-10-01",
+    "change": -2.37,
+    "change_pct": -2.24,
+    "close": 103.55,
+    "previous_close": 105.92,
     "type": "EOD_CLOSE",
-    "volume": 449144
+    "volume": 174623
   },
   "range": {
-    "distance_from_high_pct": -35.66,
-    "distance_from_low_pct": 8.91,
-    "high_52w": 160.98,
+    "distance_from_high_pct": -34.61,
+    "distance_from_low_pct": 8.89,
+    "high_52w": 158.36,
     "history_basis": "52_WEEK",
     "low_52w": 95.1,
-    "range_position_pct": 12.86
+    "range_position_pct": 13.36
   },
   "risk_model": {
-    "invalidation_floor": 99.95,
+    "invalidation_floor": 99.93,
     "risk_per_share": 5.69,
-    "technical_pivot": 105.64
+    "technical_pivot": 105.62
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 86.44,
-      "high": 87.6,
-      "low": 85.2,
-      "open": 87.29,
-      "time": "2025-09-19",
-      "volume": 70189
-    },
-    {
-      "close": 82.33,
-      "high": 87.4,
-      "low": 79.92,
-      "open": 86.0,
-      "time": "2025-09-22",
-      "volume": 251677
-    },
-    {
-      "close": 82.09,
-      "high": 84.0,
-      "low": 81.5,
-      "open": 84.0,
-      "time": "2025-09-23",
-      "volume": 66712
-    },
-    {
       "close": 80.81,
       "high": 82.7,
       "low": 80.31,
@@ -2017,13 +1993,37 @@
       "open": 45.89,
       "time": "2026-09-28",
       "volume": 248463
+    },
+    {
+      "close": 46.5,
+      "high": 47.99,
+      "low": 45.1,
+      "open": 46.99,
+      "time": "2026-09-29",
+      "volume": 87265
+    },
+    {
+      "close": 45.59,
+      "high": 46.85,
+      "low": 45.32,
+      "open": 46.78,
+      "time": "2026-09-30",
+      "volume": 37403
+    },
+    {
+      "close": 45.29,
+      "high": 45.9,
+      "low": 44.45,
+      "open": 45.4,
+      "time": "2026-10-01",
+      "volume": 21555
     }
   ],
   "company_name": "BPL LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "4.52x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.4x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 1.43,
-    "change_pct": 3.18,
-    "close": 46.41,
-    "previous_close": 44.98,
+    "as_of": "2026-10-01",
+    "change": -0.3,
+    "change_pct": -0.66,
+    "close": 45.29,
+    "previous_close": 45.59,
     "type": "EOD_CLOSE",
-    "volume": 248463
+    "volume": 21555
   },
   "range": {
-    "distance_from_high_pct": -47.02,
-    "distance_from_low_pct": 23.4,
-    "high_52w": 87.6,
+    "distance_from_high_pct": -45.24,
+    "distance_from_low_pct": 20.42,
+    "high_52w": 82.7,
     "history_basis": "52_WEEK",
     "low_52w": 37.61,
-    "range_position_pct": 17.6
+    "range_position_pct": 17.03
   },
   "risk_model": {
-    "invalidation_floor": 44.79,
-    "risk_per_share": 2.55,
-    "technical_pivot": 47.34
+    "invalidation_floor": 43.7,
+    "risk_per_share": 2.5,
+    "technical_pivot": 46.2
   },
   "schema_version": "1.0",
   "sector": null,

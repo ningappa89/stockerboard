@@ -1369,14 +1369,38 @@
       "open": 32.6,
       "time": "2026-09-28",
       "volume": 13761887
+    },
+    {
+      "close": 33.5,
+      "high": 33.67,
+      "low": 32.32,
+      "open": 32.62,
+      "time": "2026-09-29",
+      "volume": 13101283
+    },
+    {
+      "close": 32.8,
+      "high": 33.55,
+      "low": 32.45,
+      "open": 33.49,
+      "time": "2026-09-30",
+      "volume": 4485549
+    },
+    {
+      "close": 31.75,
+      "high": 32.76,
+      "low": 31.18,
+      "open": 32.75,
+      "time": "2026-10-01",
+      "volume": 4959413
     }
   ],
   "company_name": "BHARAT COKING COAL LIMITED",
   "history": {
     "first_session": "2026-01-19",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 171
+    "last_session": "2026-10-01",
+    "sessions_available": 174
   },
   "industry": null,
   "isin": "INE05XR01022",
@@ -1384,31 +1408,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "3.01x"
+    "momentum_score": 45,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.07x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.48,
-    "change_pct": 1.5,
-    "close": 32.51,
-    "previous_close": 32.03,
+    "as_of": "2026-10-01",
+    "change": -1.05,
+    "change_pct": -3.2,
+    "close": 31.75,
+    "previous_close": 32.8,
     "type": "EOD_CLOSE",
-    "volume": 13761887
+    "volume": 4959413
   },
   "range": {
-    "distance_from_high_pct": -27.9,
-    "distance_from_low_pct": 9.31,
+    "distance_from_high_pct": -29.59,
+    "distance_from_low_pct": 6.76,
     "high_52w": 45.09,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 29.74,
-    "range_position_pct": 18.05
+    "range_position_pct": 13.09
   },
   "risk_model": {
-    "invalidation_floor": 31.37,
-    "risk_per_share": 1.79,
-    "technical_pivot": 33.16
+    "invalidation_floor": 30.64,
+    "risk_per_share": 1.74,
+    "technical_pivot": 32.38
   },
   "schema_version": "1.0",
   "sector": null,

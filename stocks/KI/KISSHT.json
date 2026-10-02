@@ -793,14 +793,38 @@
       "open": 347.0,
       "time": "2026-09-28",
       "volume": 930341
+    },
+    {
+      "close": 358.65,
+      "high": 362.55,
+      "low": 340.05,
+      "open": 345.05,
+      "time": "2026-09-29",
+      "volume": 2096454
+    },
+    {
+      "close": 369.55,
+      "high": 372.0,
+      "low": 352.2,
+      "open": 356.0,
+      "time": "2026-09-30",
+      "volume": 2404648
+    },
+    {
+      "close": 371.15,
+      "high": 386.25,
+      "low": 354.9,
+      "open": 367.7,
+      "time": "2026-10-01",
+      "volume": 3578605
     }
   ],
   "company_name": "ONEMI TECHNOLOGY SOL LTD",
   "history": {
     "first_session": "2026-05-08",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 99
+    "last_session": "2026-10-01",
+    "sessions_available": 102
   },
   "industry": null,
   "isin": "INE12F801023",
@@ -808,31 +832,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 78,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.51x"
+    "momentum_score": 84,
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "1.76x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.5,
-    "change_pct": -1.0,
-    "close": 344.9,
-    "previous_close": 348.4,
+    "as_of": "2026-10-01",
+    "change": 1.6,
+    "change_pct": 0.43,
+    "close": 371.15,
+    "previous_close": 369.55,
     "type": "EOD_CLOSE",
-    "volume": 930341
+    "volume": 3578605
   },
   "range": {
-    "distance_from_high_pct": -7.53,
-    "distance_from_low_pct": 81.53,
-    "high_52w": 373.0,
+    "distance_from_high_pct": -3.91,
+    "distance_from_low_pct": 95.34,
+    "high_52w": 386.25,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 190.0,
-    "range_position_pct": 84.64
+    "range_position_pct": 92.31
   },
   "risk_model": {
-    "invalidation_floor": 332.83,
-    "risk_per_share": 18.97,
-    "technical_pivot": 351.8
+    "invalidation_floor": 358.16,
+    "risk_per_share": 20.41,
+    "technical_pivot": 378.57
   },
   "schema_version": "1.0",
   "sector": null,

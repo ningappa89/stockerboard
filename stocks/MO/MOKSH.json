@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 14.8,
-      "high": 15.05,
-      "low": 14.62,
-      "open": 14.62,
-      "time": "2025-09-19",
-      "volume": 562898
-    },
-    {
-      "close": 14.96,
-      "high": 15.1,
-      "low": 14.61,
-      "open": 14.9,
-      "time": "2025-09-22",
-      "volume": 413503
-    },
-    {
-      "close": 14.91,
-      "high": 14.99,
-      "low": 14.61,
-      "open": 14.7,
-      "time": "2025-09-23",
-      "volume": 364219
-    },
-    {
       "close": 14.54,
       "high": 15.04,
       "low": 14.5,
@@ -2017,13 +1993,37 @@
       "open": 9.88,
       "time": "2026-09-28",
       "volume": 70877
+    },
+    {
+      "close": 9.6,
+      "high": 10.0,
+      "low": 9.51,
+      "open": 10.0,
+      "time": "2026-09-29",
+      "volume": 71208
+    },
+    {
+      "close": 9.51,
+      "high": 9.83,
+      "low": 9.45,
+      "open": 9.55,
+      "time": "2026-09-30",
+      "volume": 34960
+    },
+    {
+      "close": 9.19,
+      "high": 9.78,
+      "low": 9.03,
+      "open": 9.51,
+      "time": "2026-10-01",
+      "volume": 122811
     }
   ],
   "company_name": "MOKSH ORNAMENTS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.59x"
+    "volume_multiplier": "1.05x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.12,
-    "change_pct": -1.21,
-    "close": 9.8,
-    "previous_close": 9.92,
+    "as_of": "2026-10-01",
+    "change": -0.32,
+    "change_pct": -3.36,
+    "close": 9.19,
+    "previous_close": 9.51,
     "type": "EOD_CLOSE",
-    "volume": 70877
+    "volume": 122811
   },
   "range": {
-    "distance_from_high_pct": -41.14,
-    "distance_from_low_pct": 20.84,
+    "distance_from_high_pct": -44.8,
+    "distance_from_low_pct": 13.32,
     "high_52w": 16.65,
     "history_basis": "52_WEEK",
     "low_52w": 8.11,
-    "range_position_pct": 19.79
+    "range_position_pct": 12.65
   },
   "risk_model": {
-    "invalidation_floor": 9.46,
-    "risk_per_share": 0.54,
-    "technical_pivot": 10.0
+    "invalidation_floor": 8.87,
+    "risk_per_share": 0.5,
+    "technical_pivot": 9.37
   },
   "schema_version": "1.0",
   "sector": null,

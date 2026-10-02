@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 543.25,
-      "high": 547.2,
-      "low": 524.0,
-      "open": 529.6,
-      "time": "2025-09-19",
-      "volume": 278808
-    },
-    {
-      "close": 529.9,
-      "high": 548.0,
-      "low": 521.0,
-      "open": 548.0,
-      "time": "2025-09-22",
-      "volume": 115918
-    },
-    {
-      "close": 525.1,
-      "high": 542.35,
-      "low": 523.05,
-      "open": 540.0,
-      "time": "2025-09-23",
-      "volume": 59257
-    },
-    {
       "close": 515.6,
       "high": 528.3,
       "low": 513.75,
@@ -2017,13 +1993,37 @@
       "open": 418.7,
       "time": "2026-09-28",
       "volume": 38815
+    },
+    {
+      "close": 411.55,
+      "high": 417.95,
+      "low": 406.3,
+      "open": 414.9,
+      "time": "2026-09-29",
+      "volume": 50834
+    },
+    {
+      "close": 403.4,
+      "high": 418.5,
+      "low": 401.0,
+      "open": 414.5,
+      "time": "2026-09-30",
+      "volume": 45397
+    },
+    {
+      "close": 398.95,
+      "high": 405.35,
+      "low": 387.05,
+      "open": 402.0,
+      "time": "2026-10-01",
+      "volume": 68004
     }
   ],
   "company_name": "IGARASHI MOTORS INDIA LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 51,
+    "momentum_score": 47,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.05x"
+    "volume_multiplier": "0.09x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -6.6,
-    "change_pct": -1.56,
-    "close": 416.2,
-    "previous_close": 422.8,
+    "as_of": "2026-10-01",
+    "change": -4.45,
+    "change_pct": -1.1,
+    "close": 398.95,
+    "previous_close": 403.4,
     "type": "EOD_CLOSE",
-    "volume": 38815
+    "volume": 68004
   },
   "range": {
-    "distance_from_high_pct": -25.41,
-    "distance_from_low_pct": 53.55,
+    "distance_from_high_pct": -28.5,
+    "distance_from_low_pct": 47.19,
     "high_52w": 558.0,
     "history_basis": "52_WEEK",
     "low_52w": 271.05,
-    "range_position_pct": 50.58
+    "range_position_pct": 44.57
   },
   "risk_model": {
-    "invalidation_floor": 401.63,
-    "risk_per_share": 22.89,
-    "technical_pivot": 424.52
+    "invalidation_floor": 384.99,
+    "risk_per_share": 21.94,
+    "technical_pivot": 406.93
   },
   "schema_version": "1.0",
   "sector": null,

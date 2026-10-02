@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 321.65,
-      "high": 326.3,
-      "low": 320.8,
-      "open": 324.9,
-      "time": "2025-09-19",
-      "volume": 30969
-    },
-    {
-      "close": 317.45,
-      "high": 324.0,
-      "low": 316.6,
-      "open": 324.0,
-      "time": "2025-09-22",
-      "volume": 48533
-    },
-    {
-      "close": 313.85,
-      "high": 318.7,
-      "low": 312.3,
-      "open": 317.45,
-      "time": "2025-09-23",
-      "volume": 18942
-    },
-    {
       "close": 309.05,
       "high": 317.95,
       "low": 308.0,
@@ -2017,13 +1993,37 @@
       "open": 187.9,
       "time": "2026-09-28",
       "volume": 103604
+    },
+    {
+      "close": 178.57,
+      "high": 182.82,
+      "low": 176.1,
+      "open": 180.05,
+      "time": "2026-09-29",
+      "volume": 89075
+    },
+    {
+      "close": 176.53,
+      "high": 183.44,
+      "low": 176.0,
+      "open": 178.57,
+      "time": "2026-09-30",
+      "volume": 40668
+    },
+    {
+      "close": 172.12,
+      "high": 177.39,
+      "low": 169.0,
+      "open": 175.5,
+      "time": "2026-10-01",
+      "volume": 66295
     }
   ],
   "company_name": "Heranba Industries Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.52x"
+    "volume_multiplier": "0.33x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -7.66,
-    "change_pct": -4.08,
-    "close": 179.94,
-    "previous_close": 187.6,
+    "as_of": "2026-10-01",
+    "change": -4.41,
+    "change_pct": -2.5,
+    "close": 172.12,
+    "previous_close": 176.53,
     "type": "EOD_CLOSE",
-    "volume": 103604
+    "volume": 66295
   },
   "range": {
-    "distance_from_high_pct": -44.97,
-    "distance_from_low_pct": 15.81,
+    "distance_from_high_pct": -47.36,
+    "distance_from_low_pct": 10.77,
     "high_52w": 327.0,
     "history_basis": "52_WEEK",
     "low_52w": 155.38,
-    "range_position_pct": 14.31
+    "range_position_pct": 9.75
   },
   "risk_model": {
-    "invalidation_floor": 173.64,
-    "risk_per_share": 9.9,
-    "technical_pivot": 183.54
+    "invalidation_floor": 166.1,
+    "risk_per_share": 9.46,
+    "technical_pivot": 175.56
   },
   "schema_version": "1.0",
   "sector": null,

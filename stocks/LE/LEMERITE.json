@@ -1561,14 +1561,38 @@
       "open": 21.5,
       "time": "2026-09-28",
       "volume": 238132
+    },
+    {
+      "close": 19.95,
+      "high": 20.3,
+      "low": 19.01,
+      "open": 19.15,
+      "time": "2026-09-29",
+      "volume": 618998
+    },
+    {
+      "close": 19.93,
+      "high": 20.38,
+      "low": 19.0,
+      "open": 19.9,
+      "time": "2026-09-30",
+      "volume": 598289
+    },
+    {
+      "close": 19.28,
+      "high": 20.2,
+      "low": 18.94,
+      "open": 20.2,
+      "time": "2026-10-01",
+      "volume": 622057
     }
   ],
   "company_name": "LE MERITE EXPORTS LIMITED",
   "history": {
     "first_session": "2025-12-12",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 195
+    "last_session": "2026-10-01",
+    "sessions_available": 198
   },
   "industry": null,
   "isin": "INE0G1L01025",
@@ -1577,30 +1601,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.04x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.09x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.05,
-    "change_pct": -4.99,
-    "close": 20.01,
-    "previous_close": 21.06,
+    "as_of": "2026-10-01",
+    "change": -0.65,
+    "change_pct": -3.26,
+    "close": 19.28,
+    "previous_close": 19.93,
     "type": "EOD_CLOSE",
-    "volume": 238132
+    "volume": 622057
   },
   "range": {
-    "distance_from_high_pct": -81.4,
-    "distance_from_low_pct": 12.86,
+    "distance_from_high_pct": -82.08,
+    "distance_from_low_pct": 8.74,
     "high_52w": 107.57,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 17.73,
-    "range_position_pct": 2.54
+    "range_position_pct": 1.73
   },
   "risk_model": {
-    "invalidation_floor": 19.31,
-    "risk_per_share": 1.1,
-    "technical_pivot": 20.41
+    "invalidation_floor": 18.61,
+    "risk_per_share": 1.06,
+    "technical_pivot": 19.67
   },
   "schema_version": "1.0",
   "sector": null,

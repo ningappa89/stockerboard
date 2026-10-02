@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 284.65,
-      "high": 287.4,
-      "low": 273.15,
-      "open": 274.0,
-      "time": "2025-09-19",
-      "volume": 5401043
-    },
-    {
-      "close": 278.15,
-      "high": 288.35,
-      "low": 277.0,
-      "open": 286.1,
-      "time": "2025-09-22",
-      "volume": 1874227
-    },
-    {
-      "close": 278.45,
-      "high": 285.95,
-      "low": 277.5,
-      "open": 279.05,
-      "time": "2025-09-23",
-      "volume": 2144927
-    },
-    {
       "close": 277.8,
       "high": 280.85,
       "low": 274.95,
@@ -2017,13 +1993,37 @@
       "open": 156.0,
       "time": "2026-09-28",
       "volume": 770370
+    },
+    {
+      "close": 160.24,
+      "high": 160.5,
+      "low": 152.51,
+      "open": 155.16,
+      "time": "2026-09-29",
+      "volume": 643712
+    },
+    {
+      "close": 162.89,
+      "high": 164.21,
+      "low": 159.51,
+      "open": 160.24,
+      "time": "2026-09-30",
+      "volume": 842850
+    },
+    {
+      "close": 161.9,
+      "high": 163.03,
+      "low": 159.36,
+      "open": 163.0,
+      "time": "2026-10-01",
+      "volume": 665583
     }
   ],
   "company_name": "LE TRAVENUES TECHNOLOGY L",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.53x"
+    "volume_multiplier": "0.49x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.72,
-    "change_pct": -1.1,
-    "close": 155.08,
-    "previous_close": 156.8,
+    "as_of": "2026-10-01",
+    "change": -0.99,
+    "change_pct": -0.61,
+    "close": 161.9,
+    "previous_close": 162.89,
     "type": "EOD_CLOSE",
-    "volume": 770370
+    "volume": 665583
   },
   "range": {
-    "distance_from_high_pct": -54.27,
-    "distance_from_low_pct": 2.52,
+    "distance_from_high_pct": -52.26,
+    "distance_from_low_pct": 7.03,
     "high_52w": 339.15,
     "history_basis": "52_WEEK",
     "low_52w": 151.27,
-    "range_position_pct": 2.03
+    "range_position_pct": 5.66
   },
   "risk_model": {
-    "invalidation_floor": 149.65,
-    "risk_per_share": 8.53,
-    "technical_pivot": 158.18
+    "invalidation_floor": 156.23,
+    "risk_per_share": 8.91,
+    "technical_pivot": 165.14
   },
   "schema_version": "1.0",
   "sector": null,

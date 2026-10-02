@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2985.0,
-      "high": 3015.0,
-      "low": 2969.1,
-      "open": 2978.1,
-      "time": "2025-09-19",
-      "volume": 846040
-    },
-    {
-      "close": 2976.4,
-      "high": 3061.4,
-      "low": 2963.5,
-      "open": 3025.0,
-      "time": "2025-09-22",
-      "volume": 1775858
-    },
-    {
-      "close": 2939.5,
-      "high": 2991.3,
-      "low": 2914.1,
-      "open": 2977.0,
-      "time": "2025-09-23",
-      "volume": 934666
-    },
-    {
       "close": 2940.2,
       "high": 2995.0,
       "low": 2924.0,
@@ -2017,13 +1993,37 @@
       "open": 2195.0,
       "time": "2026-09-28",
       "volume": 650380
+    },
+    {
+      "close": 2087.1,
+      "high": 2137.4,
+      "low": 2087.1,
+      "open": 2136.0,
+      "time": "2026-09-29",
+      "volume": 738710
+    },
+    {
+      "close": 2113.0,
+      "high": 2140.0,
+      "low": 2081.1,
+      "open": 2083.4,
+      "time": "2026-09-30",
+      "volume": 510455
+    },
+    {
+      "close": 2064.0,
+      "high": 2115.6,
+      "low": 2031.2,
+      "open": 2110.0,
+      "time": "2026-10-01",
+      "volume": 648362
     }
   ],
   "company_name": "Mazagon Dock Shipbuilders Limi",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 44,
+    "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.08x"
+    "volume_multiplier": "1.04x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -61.6,
-    "change_pct": -2.8,
-    "close": 2138.0,
-    "previous_close": 2199.6,
+    "as_of": "2026-10-01",
+    "change": -49.0,
+    "change_pct": -2.32,
+    "close": 2064.0,
+    "previous_close": 2113.0,
     "type": "EOD_CLOSE",
-    "volume": 650380
+    "volume": 648362
   },
   "range": {
-    "distance_from_high_pct": -30.16,
-    "distance_from_low_pct": 3.92,
-    "high_52w": 3061.4,
+    "distance_from_high_pct": -31.09,
+    "distance_from_low_pct": 1.61,
+    "high_52w": 2995.0,
     "history_basis": "52_WEEK",
-    "low_52w": 2057.4,
-    "range_position_pct": 8.03
+    "low_52w": 2031.2,
+    "range_position_pct": 3.4
   },
   "risk_model": {
-    "invalidation_floor": 2063.17,
-    "risk_per_share": 117.59,
-    "technical_pivot": 2180.76
+    "invalidation_floor": 1991.76,
+    "risk_per_share": 113.52,
+    "technical_pivot": 2105.28
   },
   "schema_version": "1.0",
   "sector": null,

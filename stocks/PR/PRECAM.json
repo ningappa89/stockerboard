@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 210.32,
-      "high": 218.36,
-      "low": 209.5,
-      "open": 215.0,
-      "time": "2025-09-19",
-      "volume": 653978
-    },
-    {
-      "close": 218.41,
-      "high": 223.2,
-      "low": 209.55,
-      "open": 210.0,
-      "time": "2025-09-22",
-      "volume": 1829238
-    },
-    {
-      "close": 214.7,
-      "high": 222.28,
-      "low": 212.13,
-      "open": 219.8,
-      "time": "2025-09-23",
-      "volume": 635341
-    },
-    {
       "close": 209.31,
       "high": 214.47,
       "low": 207.9,
@@ -2017,13 +1993,37 @@
       "open": 120.79,
       "time": "2026-09-28",
       "volume": 102692
+    },
+    {
+      "close": 117.16,
+      "high": 118.69,
+      "low": 114.01,
+      "open": 115.9,
+      "time": "2026-09-29",
+      "volume": 77134
+    },
+    {
+      "close": 116.78,
+      "high": 120.19,
+      "low": 116.3,
+      "open": 117.65,
+      "time": "2026-09-30",
+      "volume": 78594
+    },
+    {
+      "close": 109.9,
+      "high": 117.85,
+      "low": 108.35,
+      "open": 116.25,
+      "time": "2026-10-01",
+      "volume": 438255
     }
   ],
   "company_name": "Precision Camshafts Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.53x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.19x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.88,
-    "change_pct": -3.22,
-    "close": 116.78,
-    "previous_close": 120.66,
+    "as_of": "2026-10-01",
+    "change": -6.88,
+    "change_pct": -5.89,
+    "close": 109.9,
+    "previous_close": 116.78,
     "type": "EOD_CLOSE",
-    "volume": 102692
+    "volume": 438255
   },
   "range": {
-    "distance_from_high_pct": -47.68,
-    "distance_from_low_pct": 12.31,
-    "high_52w": 223.2,
+    "distance_from_high_pct": -48.76,
+    "distance_from_low_pct": 5.69,
+    "high_52w": 214.47,
     "history_basis": "52_WEEK",
     "low_52w": 103.98,
-    "range_position_pct": 10.74
+    "range_position_pct": 5.36
   },
   "risk_model": {
-    "invalidation_floor": 112.69,
-    "risk_per_share": 6.43,
-    "technical_pivot": 119.12
+    "invalidation_floor": 106.05,
+    "risk_per_share": 6.05,
+    "technical_pivot": 112.1
   },
   "schema_version": "1.0",
   "sector": null,

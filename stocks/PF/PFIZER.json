@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 5107.5,
-      "high": 5190.0,
-      "low": 5095.5,
-      "open": 5179.0,
-      "time": "2025-09-19",
-      "volume": 22146
-    },
-    {
-      "close": 5066.5,
-      "high": 5174.0,
-      "low": 5050.0,
-      "open": 5150.0,
-      "time": "2025-09-22",
-      "volume": 15998
-    },
-    {
-      "close": 5026.0,
-      "high": 5100.5,
-      "low": 5011.0,
-      "open": 5062.0,
-      "time": "2025-09-23",
-      "volume": 13425
-    },
-    {
       "close": 5005.0,
       "high": 5049.5,
       "low": 4975.0,
@@ -2017,13 +1993,37 @@
       "open": 4001.0,
       "time": "2026-09-28",
       "volume": 21087
+    },
+    {
+      "close": 3912.9,
+      "high": 3988.0,
+      "low": 3888.6,
+      "open": 3966.1,
+      "time": "2026-09-29",
+      "volume": 174412
+    },
+    {
+      "close": 3875.3,
+      "high": 3933.8,
+      "low": 3833.5,
+      "open": 3916.0,
+      "time": "2026-09-30",
+      "volume": 39848
+    },
+    {
+      "close": 3858.9,
+      "high": 3894.6,
+      "low": 3792.1,
+      "open": 3894.5,
+      "time": "2026-10-01",
+      "volume": 34585
     }
   ],
   "company_name": "PFIZER LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 46,
+    "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.4x"
+    "volume_multiplier": "0.55x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -32.8,
-    "change_pct": -0.82,
-    "close": 3968.0,
-    "previous_close": 4000.8,
+    "as_of": "2026-10-01",
+    "change": -16.4,
+    "change_pct": -0.42,
+    "close": 3858.9,
+    "previous_close": 3875.3,
     "type": "EOD_CLOSE",
-    "volume": 21087
+    "volume": 34585
   },
   "range": {
-    "distance_from_high_pct": -28.87,
-    "distance_from_low_pct": 0.4,
+    "distance_from_high_pct": -30.83,
+    "distance_from_low_pct": 1.76,
     "high_52w": 5578.5,
     "history_basis": "52_WEEK",
-    "low_52w": 3952.0,
-    "range_position_pct": 0.98
+    "low_52w": 3792.1,
+    "range_position_pct": 3.74
   },
   "risk_model": {
-    "invalidation_floor": 3829.12,
-    "risk_per_share": 218.24,
-    "technical_pivot": 4047.36
+    "invalidation_floor": 3723.84,
+    "risk_per_share": 212.24,
+    "technical_pivot": 3936.08
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

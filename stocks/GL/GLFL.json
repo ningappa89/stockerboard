@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 6.75,
-      "high": 6.85,
-      "low": 6.75,
-      "open": 6.85,
-      "time": "2025-07-24",
-      "volume": 4706
-    },
-    {
-      "close": 6.61,
-      "high": 6.61,
-      "low": 6.61,
-      "open": 6.61,
-      "time": "2025-07-25",
-      "volume": 700
-    },
-    {
-      "close": 6.61,
-      "high": 6.61,
-      "low": 6.27,
-      "open": 6.61,
-      "time": "2025-07-28",
-      "volume": 3622
-    },
-    {
       "close": 6.42,
       "high": 6.89,
       "low": 6.31,
@@ -2017,13 +1993,37 @@
       "open": 5.13,
       "time": "2026-09-28",
       "volume": 18096
+    },
+    {
+      "close": 5.27,
+      "high": 5.27,
+      "low": 5.25,
+      "open": 5.25,
+      "time": "2026-09-29",
+      "volume": 30420
+    },
+    {
+      "close": 5.39,
+      "high": 5.53,
+      "low": 5.1,
+      "open": 5.52,
+      "time": "2026-09-30",
+      "volume": 11947
+    },
+    {
+      "close": 5.49,
+      "high": 5.63,
+      "low": 5.21,
+      "open": 5.63,
+      "time": "2026-10-01",
+      "volume": 3962
     }
   ],
   "company_name": "GUJARAT LEASE FINANCING LTD.",
   "history": {
-    "first_session": "2025-07-24",
+    "first_session": "2025-07-29",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.5x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.46x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.1,
-    "change_pct": -1.95,
-    "close": 5.02,
-    "previous_close": 5.12,
+    "as_of": "2026-10-01",
+    "change": 0.1,
+    "change_pct": 1.86,
+    "close": 5.49,
+    "previous_close": 5.39,
     "type": "EOD_CLOSE",
-    "volume": 18096
+    "volume": 3962
   },
   "range": {
-    "distance_from_high_pct": -46.25,
-    "distance_from_low_pct": 37.16,
+    "distance_from_high_pct": -41.22,
+    "distance_from_low_pct": 50.0,
     "high_52w": 9.34,
     "history_basis": "52_WEEK",
     "low_52w": 3.66,
-    "range_position_pct": 23.94
+    "range_position_pct": 32.22
   },
   "risk_model": {
-    "invalidation_floor": 4.84,
+    "invalidation_floor": 5.3,
     "risk_per_share": 0.5,
-    "technical_pivot": 5.12
+    "technical_pivot": 5.6
   },
   "schema_version": "1.0",
   "sector": null,

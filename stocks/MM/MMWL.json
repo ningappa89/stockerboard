@@ -897,14 +897,38 @@
       "open": 15.09,
       "time": "2026-09-28",
       "volume": 73110
+    },
+    {
+      "close": 14.12,
+      "high": 14.9,
+      "low": 13.99,
+      "open": 14.9,
+      "time": "2026-09-29",
+      "volume": 4355
+    },
+    {
+      "close": 14.82,
+      "high": 14.82,
+      "low": 14.02,
+      "open": 14.82,
+      "time": "2026-09-30",
+      "volume": 28234
+    },
+    {
+      "close": 15.56,
+      "high": 15.56,
+      "low": 15.23,
+      "open": 15.25,
+      "time": "2026-10-01",
+      "volume": 428810
     }
   ],
   "company_name": "MEDIA MATRIX WORLDWIDE L",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 112
+    "last_session": "2026-10-01",
+    "sessions_available": 115
   },
   "industry": null,
   "isin": "INE200D01020",
@@ -912,31 +936,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 71,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.99x"
+    "momentum_score": 80,
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "7.49x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.53,
-    "change_pct": -3.51,
-    "close": 14.56,
-    "previous_close": 15.09,
+    "as_of": "2026-10-01",
+    "change": 0.74,
+    "change_pct": 4.99,
+    "close": 15.56,
+    "previous_close": 14.82,
     "type": "EOD_CLOSE",
-    "volume": 73110
+    "volume": 428810
   },
   "range": {
-    "distance_from_high_pct": -12.13,
-    "distance_from_low_pct": 61.42,
+    "distance_from_high_pct": -6.1,
+    "distance_from_low_pct": 72.51,
     "high_52w": 16.57,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 9.02,
-    "range_position_pct": 73.38
+    "range_position_pct": 86.62
   },
   "risk_model": {
-    "invalidation_floor": 14.05,
-    "risk_per_share": 0.8,
-    "technical_pivot": 14.85
+    "invalidation_floor": 15.02,
+    "risk_per_share": 0.85,
+    "technical_pivot": 15.87
   },
   "schema_version": "1.0",
   "sector": null,

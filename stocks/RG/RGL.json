@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 120.24,
-      "high": 123.01,
-      "low": 119.75,
-      "open": 123.0,
-      "time": "2025-09-19",
-      "volume": 171660
-    },
-    {
-      "close": 120.84,
-      "high": 123.76,
-      "low": 118.21,
-      "open": 119.05,
-      "time": "2025-09-22",
-      "volume": 296454
-    },
-    {
-      "close": 121.04,
-      "high": 121.75,
-      "low": 118.8,
-      "open": 121.26,
-      "time": "2025-09-23",
-      "volume": 179745
-    },
-    {
       "close": 117.98,
       "high": 121.65,
       "low": 117.49,
@@ -2017,13 +1993,37 @@
       "open": 166.77,
       "time": "2026-09-28",
       "volume": 337478
+    },
+    {
+      "close": 164.27,
+      "high": 166.0,
+      "low": 160.56,
+      "open": 163.69,
+      "time": "2026-09-29",
+      "volume": 348391
+    },
+    {
+      "close": 165.02,
+      "high": 167.6,
+      "low": 163.28,
+      "open": 165.9,
+      "time": "2026-09-30",
+      "volume": 340639
+    },
+    {
+      "close": 162.5,
+      "high": 166.87,
+      "low": 160.0,
+      "open": 165.02,
+      "time": "2026-10-01",
+      "volume": 658380
     }
   ],
   "company_name": "RENAISSANCE GLOBAL LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": true,
     "momentum_score": 80,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.29x"
+    "volume_multiplier": "0.58x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.24,
-    "change_pct": -2.53,
-    "close": 163.23,
-    "previous_close": 167.47,
+    "as_of": "2026-10-01",
+    "change": -2.52,
+    "change_pct": -1.53,
+    "close": 162.5,
+    "previous_close": 165.02,
     "type": "EOD_CLOSE",
-    "volume": 337478
+    "volume": 658380
   },
   "range": {
-    "distance_from_high_pct": -6.08,
-    "distance_from_low_pct": 92.04,
+    "distance_from_high_pct": -6.5,
+    "distance_from_low_pct": 91.18,
     "high_52w": 173.8,
     "history_basis": "52_WEEK",
     "low_52w": 85.0,
-    "range_position_pct": 88.1
+    "range_position_pct": 87.27
   },
   "risk_model": {
-    "invalidation_floor": 157.52,
-    "risk_per_share": 8.97,
-    "technical_pivot": 166.49
+    "invalidation_floor": 156.81,
+    "risk_per_share": 8.94,
+    "technical_pivot": 165.75
   },
   "schema_version": "1.0",
   "sector": null,

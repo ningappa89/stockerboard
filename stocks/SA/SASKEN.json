@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1498.0,
-      "high": 1537.0,
-      "low": 1491.0,
-      "open": 1509.0,
-      "time": "2025-09-19",
-      "volume": 17500
-    },
-    {
-      "close": 1500.9,
-      "high": 1520.0,
-      "low": 1480.0,
-      "open": 1498.0,
-      "time": "2025-09-22",
-      "volume": 18687
-    },
-    {
-      "close": 1501.0,
-      "high": 1530.2,
-      "low": 1494.6,
-      "open": 1500.9,
-      "time": "2025-09-23",
-      "volume": 30586
-    },
-    {
       "close": 1441.2,
       "high": 1521.5,
       "low": 1432.5,
@@ -2017,13 +1993,37 @@
       "open": 1700.0,
       "time": "2026-09-28",
       "volume": 17178
+    },
+    {
+      "close": 1658.8,
+      "high": 1690.0,
+      "low": 1611.7,
+      "open": 1681.0,
+      "time": "2026-09-29",
+      "volume": 29675
+    },
+    {
+      "close": 1672.7,
+      "high": 1709.8,
+      "low": 1650.0,
+      "open": 1680.0,
+      "time": "2026-09-30",
+      "volume": 12713
+    },
+    {
+      "close": 1720.5,
+      "high": 1727.0,
+      "low": 1636.4,
+      "open": 1707.8,
+      "time": "2026-10-01",
+      "volume": 33306
     }
   ],
   "company_name": "Sasken Technologies Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.7x"
+    "volume_multiplier": "1.28x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -32.9,
-    "change_pct": -1.95,
-    "close": 1658.2,
-    "previous_close": 1691.1,
+    "as_of": "2026-10-01",
+    "change": 47.8,
+    "change_pct": 2.86,
+    "close": 1720.5,
+    "previous_close": 1672.7,
     "type": "EOD_CLOSE",
-    "volume": 17178
+    "volume": 33306
   },
   "range": {
-    "distance_from_high_pct": -40.36,
-    "distance_from_low_pct": 67.33,
+    "distance_from_high_pct": -38.12,
+    "distance_from_low_pct": 73.61,
     "high_52w": 2780.2,
     "history_basis": "52_WEEK",
     "low_52w": 991.0,
-    "range_position_pct": 37.29
+    "range_position_pct": 40.77
   },
   "risk_model": {
-    "invalidation_floor": 1600.16,
-    "risk_per_share": 91.2,
-    "technical_pivot": 1691.36
+    "invalidation_floor": 1660.28,
+    "risk_per_share": 94.63,
+    "technical_pivot": 1754.91
   },
   "schema_version": "1.0",
   "sector": null,

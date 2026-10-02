@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 219.56,
-      "high": 229.4,
-      "low": 217.05,
-      "open": 228.85,
-      "time": "2025-09-19",
-      "volume": 1739933
-    },
-    {
-      "close": 223.39,
-      "high": 226.37,
-      "low": 220.15,
-      "open": 220.49,
-      "time": "2025-09-22",
-      "volume": 900983
-    },
-    {
-      "close": 234.83,
-      "high": 236.9,
-      "low": 221.7,
-      "open": 224.9,
-      "time": "2025-09-23",
-      "volume": 2295735
-    },
-    {
       "close": 230.13,
       "high": 235.8,
       "low": 229.2,
@@ -2017,13 +1993,37 @@
       "open": 121.75,
       "time": "2026-09-28",
       "volume": 462604
+    },
+    {
+      "close": 118.42,
+      "high": 122.0,
+      "low": 116.7,
+      "open": 119.4,
+      "time": "2026-09-29",
+      "volume": 704241
+    },
+    {
+      "close": 118.77,
+      "high": 120.29,
+      "low": 118.08,
+      "open": 119.38,
+      "time": "2026-09-30",
+      "volume": 189008
+    },
+    {
+      "close": 115.91,
+      "high": 119.53,
+      "low": 114.3,
+      "open": 119.53,
+      "time": "2026-10-01",
+      "volume": 316838
     }
   ],
   "company_name": "ORIENT CEMENT LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.94x"
+    "volume_multiplier": "0.6x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.73,
-    "change_pct": -2.23,
-    "close": 119.43,
-    "previous_close": 122.16,
+    "as_of": "2026-10-01",
+    "change": -2.86,
+    "change_pct": -2.41,
+    "close": 115.91,
+    "previous_close": 118.77,
     "type": "EOD_CLOSE",
-    "volume": 462604
+    "volume": 316838
   },
   "range": {
-    "distance_from_high_pct": -49.67,
-    "distance_from_low_pct": 0.27,
+    "distance_from_high_pct": -51.15,
+    "distance_from_low_pct": 1.41,
     "high_52w": 237.29,
     "history_basis": "52_WEEK",
-    "low_52w": 119.11,
-    "range_position_pct": 0.27
+    "low_52w": 114.3,
+    "range_position_pct": 1.31
   },
   "risk_model": {
-    "invalidation_floor": 115.25,
-    "risk_per_share": 6.57,
-    "technical_pivot": 121.82
+    "invalidation_floor": 111.85,
+    "risk_per_share": 6.38,
+    "technical_pivot": 118.23
   },
   "schema_version": "1.0",
   "sector": null,

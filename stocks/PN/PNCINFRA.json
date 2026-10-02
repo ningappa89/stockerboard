@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 306.65,
-      "high": 310.9,
-      "low": 305.1,
-      "open": 310.45,
-      "time": "2025-09-19",
-      "volume": 441090
-    },
-    {
-      "close": 307.85,
-      "high": 319.7,
-      "low": 306.65,
-      "open": 317.5,
-      "time": "2025-09-22",
-      "volume": 1420128
-    },
-    {
-      "close": 305.9,
-      "high": 309.9,
-      "low": 304.2,
-      "open": 309.9,
-      "time": "2025-09-23",
-      "volume": 221145
-    },
-    {
       "close": 304.55,
       "high": 306.95,
       "low": 303.05,
@@ -2017,13 +1993,37 @@
       "open": 135.96,
       "time": "2026-09-28",
       "volume": 1951752
+    },
+    {
+      "close": 129.8,
+      "high": 132.54,
+      "low": 128.32,
+      "open": 131.25,
+      "time": "2026-09-29",
+      "volume": 1025015
+    },
+    {
+      "close": 133.18,
+      "high": 134.89,
+      "low": 130.05,
+      "open": 130.05,
+      "time": "2026-09-30",
+      "volume": 790721
+    },
+    {
+      "close": 138.16,
+      "high": 139.65,
+      "low": 131.99,
+      "open": 132.0,
+      "time": "2026-10-01",
+      "volume": 1668999
     }
   ],
   "company_name": "PNC Infratech Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.87x"
+    "volume_multiplier": "0.71x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.19,
-    "change_pct": -3.09,
-    "close": 131.26,
-    "previous_close": 135.45,
+    "as_of": "2026-10-01",
+    "change": 4.98,
+    "change_pct": 3.74,
+    "close": 138.16,
+    "previous_close": 133.18,
     "type": "EOD_CLOSE",
-    "volume": 1951752
+    "volume": 1668999
   },
   "range": {
-    "distance_from_high_pct": -58.94,
-    "distance_from_low_pct": 12.77,
-    "high_52w": 319.7,
+    "distance_from_high_pct": -55.58,
+    "distance_from_low_pct": 18.69,
+    "high_52w": 311.0,
     "history_basis": "52_WEEK",
     "low_52w": 116.4,
-    "range_position_pct": 7.31
+    "range_position_pct": 11.18
   },
   "risk_model": {
-    "invalidation_floor": 126.67,
-    "risk_per_share": 7.22,
-    "technical_pivot": 133.89
+    "invalidation_floor": 133.32,
+    "risk_per_share": 7.6,
+    "technical_pivot": 140.92
   },
   "schema_version": "1.0",
   "sector": null,

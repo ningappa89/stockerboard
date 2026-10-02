@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 130.21,
-      "high": 130.68,
-      "low": 129.5,
-      "open": 130.0,
-      "time": "2025-09-19",
-      "volume": 497498
-    },
-    {
-      "close": 129.16,
-      "high": 130.97,
-      "low": 128.08,
-      "open": 130.46,
-      "time": "2025-09-22",
-      "volume": 795940
-    },
-    {
-      "close": 125.78,
-      "high": 129.64,
-      "low": 123.14,
-      "open": 129.0,
-      "time": "2025-09-23",
-      "volume": 1856417
-    },
-    {
       "close": 126.44,
       "high": 128.96,
       "low": 126.3,
@@ -2017,13 +1993,37 @@
       "open": 213.0,
       "time": "2026-09-28",
       "volume": 1466242
+    },
+    {
+      "close": 202.37,
+      "high": 206.06,
+      "low": 201.1,
+      "open": 206.05,
+      "time": "2026-09-29",
+      "volume": 977372
+    },
+    {
+      "close": 203.54,
+      "high": 205.56,
+      "low": 202.05,
+      "open": 202.06,
+      "time": "2026-09-30",
+      "volume": 781971
+    },
+    {
+      "close": 199.71,
+      "high": 203.42,
+      "low": 196.81,
+      "open": 203.42,
+      "time": "2026-10-01",
+      "volume": 842489
     }
   ],
   "company_name": "DCB BANK LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 72,
+    "is_stage2": false,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.85x"
+    "volume_multiplier": "0.58x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -6.63,
-    "change_pct": -3.1,
-    "close": 207.46,
-    "previous_close": 214.09,
+    "as_of": "2026-10-01",
+    "change": -3.83,
+    "change_pct": -1.88,
+    "close": 199.71,
+    "previous_close": 203.54,
     "type": "EOD_CLOSE",
-    "volume": 1466242
+    "volume": 842489
   },
   "range": {
-    "distance_from_high_pct": -11.64,
-    "distance_from_low_pct": 69.49,
+    "distance_from_high_pct": -14.94,
+    "distance_from_low_pct": 63.16,
     "high_52w": 234.8,
     "history_basis": "52_WEEK",
     "low_52w": 122.4,
-    "range_position_pct": 75.68
+    "range_position_pct": 68.78
   },
   "risk_model": {
-    "invalidation_floor": 200.2,
-    "risk_per_share": 11.41,
-    "technical_pivot": 211.61
+    "invalidation_floor": 192.72,
+    "risk_per_share": 10.98,
+    "technical_pivot": 203.7
   },
   "schema_version": "1.0",
   "sector": null,

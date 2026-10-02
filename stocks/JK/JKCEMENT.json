@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 6862.0,
-      "high": 7000.0,
-      "low": 6764.5,
-      "open": 6815.0,
-      "time": "2025-09-19",
-      "volume": 552792
-    },
-    {
-      "close": 6859.5,
-      "high": 6925.0,
-      "low": 6805.0,
-      "open": 6871.0,
-      "time": "2025-09-22",
-      "volume": 38934
-    },
-    {
-      "close": 6850.5,
-      "high": 6922.0,
-      "low": 6803.5,
-      "open": 6859.5,
-      "time": "2025-09-23",
-      "volume": 32013
-    },
-    {
       "close": 6669.5,
       "high": 6846.0,
       "low": 6632.5,
@@ -2017,13 +1993,37 @@
       "open": 4975.0,
       "time": "2026-09-28",
       "volume": 13802
+    },
+    {
+      "close": 4824.5,
+      "high": 4993.5,
+      "low": 4810.5,
+      "open": 4993.5,
+      "time": "2026-09-29",
+      "volume": 29444
+    },
+    {
+      "close": 5076.0,
+      "high": 5117.0,
+      "low": 4848.0,
+      "open": 4848.0,
+      "time": "2026-09-30",
+      "volume": 106778
+    },
+    {
+      "close": 4952.0,
+      "high": 5037.5,
+      "low": 4891.0,
+      "open": 4986.0,
+      "time": "2026-10-01",
+      "volume": 335492
     }
   ],
   "company_name": "J.K.CEMENT LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 47,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.31x"
+    "momentum_score": 48,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "5.55x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -6.5,
-    "change_pct": -0.13,
-    "close": 4993.5,
-    "previous_close": 5000.0,
+    "as_of": "2026-10-01",
+    "change": -124.0,
+    "change_pct": -2.44,
+    "close": 4952.0,
+    "previous_close": 5076.0,
     "type": "EOD_CLOSE",
-    "volume": 13802
+    "volume": 335492
   },
   "range": {
-    "distance_from_high_pct": -28.66,
-    "distance_from_low_pct": 6.89,
-    "high_52w": 7000.0,
+    "distance_from_high_pct": -27.67,
+    "distance_from_low_pct": 6.0,
+    "high_52w": 6846.0,
     "history_basis": "52_WEEK",
     "low_52w": 4671.5,
-    "range_position_pct": 13.83
+    "range_position_pct": 12.9
   },
   "risk_model": {
-    "invalidation_floor": 4818.73,
-    "risk_per_share": 274.64,
-    "technical_pivot": 5093.37
+    "invalidation_floor": 4778.68,
+    "risk_per_share": 272.36,
+    "technical_pivot": 5051.04
   },
   "schema_version": "1.0",
   "sector": null,

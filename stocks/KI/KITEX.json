@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 220.22,
-      "high": 222.0,
-      "low": 214.0,
-      "open": 222.0,
-      "time": "2025-09-19",
-      "volume": 1487794
-    },
-    {
-      "close": 209.83,
-      "high": 219.0,
-      "low": 209.2,
-      "open": 219.0,
-      "time": "2025-09-22",
-      "volume": 1842703
-    },
-    {
-      "close": 206.81,
-      "high": 217.5,
-      "low": 202.5,
-      "open": 214.35,
-      "time": "2025-09-23",
-      "volume": 1385644
-    },
-    {
       "close": 207.35,
       "high": 211.79,
       "low": 205.09,
@@ -2017,13 +1993,37 @@
       "open": 116.59,
       "time": "2026-09-28",
       "volume": 316717
+    },
+    {
+      "close": 115.56,
+      "high": 116.63,
+      "low": 114.36,
+      "open": 115.98,
+      "time": "2026-09-29",
+      "volume": 260341
+    },
+    {
+      "close": 119.55,
+      "high": 121.18,
+      "low": 115.2,
+      "open": 115.51,
+      "time": "2026-09-30",
+      "volume": 552200
+    },
+    {
+      "close": 116.68,
+      "high": 119.89,
+      "low": 114.68,
+      "open": 118.77,
+      "time": "2026-10-01",
+      "volume": 245777
     }
   ],
   "company_name": "KITEX GARMENTS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.86x"
+    "volume_multiplier": "0.64x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.55,
-    "change_pct": -1.32,
-    "close": 116.13,
-    "previous_close": 117.68,
+    "as_of": "2026-10-01",
+    "change": -2.87,
+    "change_pct": -2.4,
+    "close": 116.68,
+    "previous_close": 119.55,
     "type": "EOD_CLOSE",
-    "volume": 316717
+    "volume": 245777
   },
   "range": {
-    "distance_from_high_pct": -50.09,
-    "distance_from_low_pct": 1.43,
+    "distance_from_high_pct": -49.86,
+    "distance_from_low_pct": 2.03,
     "high_52w": 232.7,
     "history_basis": "52_WEEK",
-    "low_52w": 114.49,
-    "range_position_pct": 1.39
+    "low_52w": 114.36,
+    "range_position_pct": 1.96
   },
   "risk_model": {
-    "invalidation_floor": 112.07,
-    "risk_per_share": 6.38,
-    "technical_pivot": 118.45
+    "invalidation_floor": 112.6,
+    "risk_per_share": 6.41,
+    "technical_pivot": 119.01
   },
   "schema_version": "1.0",
   "sector": null,

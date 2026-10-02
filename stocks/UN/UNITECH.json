@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 7.65,
-      "high": 7.66,
-      "low": 7.02,
-      "open": 7.49,
-      "time": "2025-09-19",
-      "volume": 8680757
-    },
-    {
-      "close": 7.35,
-      "high": 7.58,
-      "low": 7.26,
-      "open": 7.54,
-      "time": "2025-09-22",
-      "volume": 4269344
-    },
-    {
-      "close": 7.14,
-      "high": 7.33,
-      "low": 7.1,
-      "open": 7.27,
-      "time": "2025-09-23",
-      "volume": 1937377
-    },
-    {
       "close": 7.11,
       "high": 7.3,
       "low": 7.05,
@@ -2017,13 +1993,37 @@
       "open": 4.1,
       "time": "2026-09-28",
       "volume": 4125053
+    },
+    {
+      "close": 3.92,
+      "high": 4.0,
+      "low": 3.81,
+      "open": 3.95,
+      "time": "2026-09-29",
+      "volume": 3452169
+    },
+    {
+      "close": 3.96,
+      "high": 3.99,
+      "low": 3.9,
+      "open": 3.95,
+      "time": "2026-09-30",
+      "volume": 3132347
+    },
+    {
+      "close": 3.93,
+      "high": 3.99,
+      "low": 3.85,
+      "open": 3.95,
+      "time": "2026-10-01",
+      "volume": 3179973
     }
   ],
   "company_name": "UNITECH LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.61x"
+    "volume_multiplier": "0.47x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.14,
-    "change_pct": -3.42,
-    "close": 3.95,
-    "previous_close": 4.09,
+    "as_of": "2026-10-01",
+    "change": -0.03,
+    "change_pct": -0.76,
+    "close": 3.93,
+    "previous_close": 3.96,
     "type": "EOD_CLOSE",
-    "volume": 4125053
+    "volume": 3179973
   },
   "range": {
-    "distance_from_high_pct": -50.19,
-    "distance_from_low_pct": 27.42,
+    "distance_from_high_pct": -50.44,
+    "distance_from_low_pct": 26.77,
     "high_52w": 7.93,
     "history_basis": "52_WEEK",
     "low_52w": 3.1,
-    "range_position_pct": 17.6
+    "range_position_pct": 17.18
   },
   "risk_model": {
-    "invalidation_floor": 3.81,
+    "invalidation_floor": 3.79,
     "risk_per_share": 0.5,
-    "technical_pivot": 4.03
+    "technical_pivot": 4.01
   },
   "schema_version": "1.0",
   "sector": null,

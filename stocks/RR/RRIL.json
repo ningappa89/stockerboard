@@ -897,14 +897,38 @@
       "open": 15.93,
       "time": "2026-09-28",
       "volume": 17719
+    },
+    {
+      "close": 15.48,
+      "high": 15.66,
+      "low": 15.3,
+      "open": 15.36,
+      "time": "2026-09-29",
+      "volume": 27693
+    },
+    {
+      "close": 15.36,
+      "high": 15.71,
+      "low": 15.17,
+      "open": 15.3,
+      "time": "2026-09-30",
+      "volume": 25713
+    },
+    {
+      "close": 15.11,
+      "high": 15.86,
+      "low": 15.09,
+      "open": 15.42,
+      "time": "2026-10-01",
+      "volume": 11914
     }
   ],
   "company_name": "R R I L LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 112
+    "last_session": "2026-10-01",
+    "sessions_available": 115
   },
   "industry": null,
   "isin": "INE951M01037",
@@ -912,31 +936,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 49,
+    "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.76x"
+    "volume_multiplier": "0.49x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.35,
-    "change_pct": -2.19,
-    "close": 15.66,
-    "previous_close": 16.01,
+    "as_of": "2026-10-01",
+    "change": -0.25,
+    "change_pct": -1.63,
+    "close": 15.11,
+    "previous_close": 15.36,
     "type": "EOD_CLOSE",
-    "volume": 17719
+    "volume": 11914
   },
   "range": {
-    "distance_from_high_pct": -27.16,
-    "distance_from_low_pct": 3.98,
+    "distance_from_high_pct": -29.72,
+    "distance_from_low_pct": 0.33,
     "high_52w": 21.5,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 15.06,
-    "range_position_pct": 9.32
+    "range_position_pct": 0.78
   },
   "risk_model": {
-    "invalidation_floor": 15.11,
-    "risk_per_share": 0.86,
-    "technical_pivot": 15.97
+    "invalidation_floor": 14.58,
+    "risk_per_share": 0.83,
+    "technical_pivot": 15.41
   },
   "schema_version": "1.0",
   "sector": null,

@@ -241,46 +241,70 @@
       "open": 2093.0,
       "time": "2026-09-28",
       "volume": 155526
+    },
+    {
+      "close": 1926.0,
+      "high": 2222.0,
+      "low": 1820.0,
+      "open": 2159.9,
+      "time": "2026-09-29",
+      "volume": 64591
+    },
+    {
+      "close": 1792.8,
+      "high": 1948.0,
+      "low": 1756.4,
+      "open": 1945.0,
+      "time": "2026-09-30",
+      "volume": 15982
+    },
+    {
+      "close": 1720.4,
+      "high": 1822.4,
+      "low": 1667.0,
+      "open": 1815.7,
+      "time": "2026-10-01",
+      "volume": 11114
     }
   ],
   "company_name": "BHARAT PARENTERALS LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE365Y01019",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 81,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "13.89x"
+    "is_stage2": false,
+    "momentum_score": 53,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.72x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 251.8,
-    "change_pct": 13.27,
-    "close": 2149.8,
-    "previous_close": 1898.0,
+    "as_of": "2026-10-01",
+    "change": -72.4,
+    "change_pct": -4.04,
+    "close": 1720.4,
+    "previous_close": 1792.8,
     "type": "EOD_CLOSE",
-    "volume": 155526
+    "volume": 11114
   },
   "range": {
-    "distance_from_high_pct": -5.61,
-    "distance_from_low_pct": 90.97,
+    "distance_from_high_pct": -24.46,
+    "distance_from_low_pct": 52.83,
     "high_52w": 2277.6,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 1125.7,
-    "range_position_pct": 88.91
+    "range_position_pct": 51.63
   },
   "risk_model": {
-    "invalidation_floor": 2074.56,
-    "risk_per_share": 118.24,
-    "technical_pivot": 2192.8
+    "invalidation_floor": 1660.19,
+    "risk_per_share": 94.62,
+    "technical_pivot": 1754.81
   },
   "schema_version": "1.0",
   "sector": null,

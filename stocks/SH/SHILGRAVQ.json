@@ -241,14 +241,38 @@
       "open": 149.0,
       "time": "2026-09-28",
       "volume": 15555
+    },
+    {
+      "close": 139.82,
+      "high": 148.8,
+      "low": 138.0,
+      "open": 143.36,
+      "time": "2026-09-29",
+      "volume": 4090
+    },
+    {
+      "close": 146.05,
+      "high": 149.8,
+      "low": 139.82,
+      "open": 142.0,
+      "time": "2026-09-30",
+      "volume": 3356
+    },
+    {
+      "close": 139.35,
+      "high": 145.9,
+      "low": 137.0,
+      "open": 145.9,
+      "time": "2026-10-01",
+      "volume": 4206
     }
   ],
   "company_name": "SHILP GRAVURES LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE960A01017",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 59,
+    "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.29x"
+    "volume_multiplier": "0.36x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -6.14,
-    "change_pct": -4.11,
-    "close": 143.36,
-    "previous_close": 149.5,
+    "as_of": "2026-10-01",
+    "change": -6.7,
+    "change_pct": -4.59,
+    "close": 139.35,
+    "previous_close": 146.05,
     "type": "EOD_CLOSE",
-    "volume": 15555
+    "volume": 4206
   },
   "range": {
-    "distance_from_high_pct": -20.22,
-    "distance_from_low_pct": 3.88,
+    "distance_from_high_pct": -22.45,
+    "distance_from_low_pct": 1.72,
     "high_52w": 179.7,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 138.0,
-    "range_position_pct": 12.85
+    "low_52w": 137.0,
+    "range_position_pct": 5.5
   },
   "risk_model": {
-    "invalidation_floor": 138.34,
-    "risk_per_share": 7.89,
-    "technical_pivot": 146.23
+    "invalidation_floor": 134.47,
+    "risk_per_share": 7.67,
+    "technical_pivot": 142.14
   },
   "schema_version": "1.0",
   "sector": null,

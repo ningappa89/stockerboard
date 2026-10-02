@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 87.82,
-      "high": 89.22,
-      "low": 87.3,
-      "open": 87.53,
-      "time": "2025-09-19",
-      "volume": 25192808
-    },
-    {
-      "close": 87.73,
-      "high": 88.6,
-      "low": 87.14,
-      "open": 87.8,
-      "time": "2025-09-22",
-      "volume": 10256621
-    },
-    {
-      "close": 86.63,
-      "high": 88.3,
-      "low": 86.29,
-      "open": 87.85,
-      "time": "2025-09-23",
-      "volume": 11788276
-    },
-    {
       "close": 86.29,
       "high": 87.6,
       "low": 85.96,
@@ -2017,13 +1993,37 @@
       "open": 75.6,
       "time": "2026-09-28",
       "volume": 5560492
+    },
+    {
+      "close": 73.32,
+      "high": 74.7,
+      "low": 73.3,
+      "open": 74.05,
+      "time": "2026-09-29",
+      "volume": 11242484
+    },
+    {
+      "close": 72.81,
+      "high": 73.99,
+      "low": 72.8,
+      "open": 73.56,
+      "time": "2026-09-30",
+      "volume": 7849564
+    },
+    {
+      "close": 71.75,
+      "high": 72.9,
+      "low": 70.25,
+      "open": 72.75,
+      "time": "2026-10-01",
+      "volume": 10903143
     }
   ],
   "company_name": "NHPC LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.52x"
+    "volume_multiplier": "1.08x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.5,
-    "change_pct": -1.97,
-    "close": 74.5,
-    "previous_close": 76.0,
+    "as_of": "2026-10-01",
+    "change": -1.06,
+    "change_pct": -1.46,
+    "close": 71.75,
+    "previous_close": 72.81,
     "type": "EOD_CLOSE",
-    "volume": 5560492
+    "volume": 10903143
   },
   "range": {
-    "distance_from_high_pct": -16.5,
-    "distance_from_low_pct": 4.02,
-    "high_52w": 89.22,
+    "distance_from_high_pct": -18.58,
+    "distance_from_low_pct": 2.14,
+    "high_52w": 88.12,
     "history_basis": "52_WEEK",
-    "low_52w": 71.62,
-    "range_position_pct": 16.36
+    "low_52w": 70.25,
+    "range_position_pct": 8.39
   },
   "risk_model": {
-    "invalidation_floor": 71.89,
-    "risk_per_share": 4.1,
-    "technical_pivot": 75.99
+    "invalidation_floor": 69.24,
+    "risk_per_share": 3.95,
+    "technical_pivot": 73.19
   },
   "schema_version": "1.0",
   "sector": null,

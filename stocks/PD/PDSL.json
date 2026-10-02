@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 353.65,
-      "high": 357.5,
-      "low": 346.7,
-      "open": 353.5,
-      "time": "2025-09-19",
-      "volume": 112787
-    },
-    {
-      "close": 346.85,
-      "high": 353.55,
-      "low": 344.15,
-      "open": 350.65,
-      "time": "2025-09-22",
-      "volume": 67801
-    },
-    {
-      "close": 339.65,
-      "high": 350.0,
-      "low": 336.7,
-      "open": 350.0,
-      "time": "2025-09-23",
-      "volume": 49329
-    },
-    {
       "close": 336.75,
       "high": 339.7,
       "low": 332.8,
@@ -2017,13 +1993,37 @@
       "open": 355.0,
       "time": "2026-09-28",
       "volume": 103408
+    },
+    {
+      "close": 348.95,
+      "high": 364.9,
+      "low": 344.15,
+      "open": 349.5,
+      "time": "2026-09-29",
+      "volume": 597046
+    },
+    {
+      "close": 352.3,
+      "high": 357.0,
+      "low": 349.85,
+      "open": 350.0,
+      "time": "2026-09-30",
+      "volume": 61453
+    },
+    {
+      "close": 347.55,
+      "high": 354.95,
+      "low": 344.1,
+      "open": 350.0,
+      "time": "2026-10-01",
+      "volume": 72513
     }
   ],
   "company_name": "PDS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.9x"
+    "volume_multiplier": "0.53x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -8.15,
-    "change_pct": -2.28,
-    "close": 349.5,
-    "previous_close": 357.65,
+    "as_of": "2026-10-01",
+    "change": -4.75,
+    "change_pct": -1.35,
+    "close": 347.55,
+    "previous_close": 352.3,
     "type": "EOD_CLOSE",
-    "volume": 103408
+    "volume": 72513
   },
   "range": {
-    "distance_from_high_pct": -16.49,
-    "distance_from_low_pct": 42.04,
+    "distance_from_high_pct": -16.95,
+    "distance_from_low_pct": 41.25,
     "high_52w": 418.5,
     "history_basis": "52_WEEK",
     "low_52w": 246.05,
-    "range_position_pct": 59.99
+    "range_position_pct": 58.86
   },
   "risk_model": {
-    "invalidation_floor": 337.27,
-    "risk_per_share": 19.22,
-    "technical_pivot": 356.49
+    "invalidation_floor": 335.39,
+    "risk_per_share": 19.11,
+    "technical_pivot": 354.5
   },
   "schema_version": "1.0",
   "sector": null,

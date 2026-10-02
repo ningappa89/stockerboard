@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 91.32,
-      "high": 94.24,
-      "low": 90.0,
-      "open": 92.25,
-      "time": "2025-09-19",
-      "volume": 11490
-    },
-    {
-      "close": 91.79,
-      "high": 94.0,
-      "low": 90.87,
-      "open": 91.32,
-      "time": "2025-09-22",
-      "volume": 7482
-    },
-    {
-      "close": 92.21,
-      "high": 93.96,
-      "low": 90.52,
-      "open": 93.96,
-      "time": "2025-09-23",
-      "volume": 8340
-    },
-    {
       "close": 91.09,
       "high": 93.8,
       "low": 90.5,
@@ -2017,13 +1993,37 @@
       "open": 88.2,
       "time": "2026-09-28",
       "volume": 8631
+    },
+    {
+      "close": 89.34,
+      "high": 90.5,
+      "low": 85.34,
+      "open": 88.97,
+      "time": "2026-09-29",
+      "volume": 7272
+    },
+    {
+      "close": 89.6,
+      "high": 91.34,
+      "low": 87.06,
+      "open": 89.1,
+      "time": "2026-09-30",
+      "volume": 7776
+    },
+    {
+      "close": 87.64,
+      "high": 89.6,
+      "low": 87.2,
+      "open": 89.6,
+      "time": "2026-10-01",
+      "volume": 7446
     }
   ],
   "company_name": "JULLUNDUR MOT AGENCY LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 67,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.46x"
+    "volume_multiplier": "0.41x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.38,
-    "change_pct": -0.43,
-    "close": 87.81,
-    "previous_close": 88.19,
+    "as_of": "2026-10-01",
+    "change": -1.96,
+    "change_pct": -2.19,
+    "close": 87.64,
+    "previous_close": 89.6,
     "type": "EOD_CLOSE",
-    "volume": 8631
+    "volume": 7446
   },
   "range": {
-    "distance_from_high_pct": -15.32,
-    "distance_from_low_pct": 25.0,
+    "distance_from_high_pct": -15.49,
+    "distance_from_low_pct": 24.75,
     "high_52w": 103.7,
     "history_basis": "52_WEEK",
     "low_52w": 70.25,
-    "range_position_pct": 52.5
+    "range_position_pct": 51.99
   },
   "risk_model": {
-    "invalidation_floor": 84.74,
-    "risk_per_share": 4.83,
-    "technical_pivot": 89.57
+    "invalidation_floor": 84.57,
+    "risk_per_share": 4.82,
+    "technical_pivot": 89.39
   },
   "schema_version": "1.0",
   "sector": null,

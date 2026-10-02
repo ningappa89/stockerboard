@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3526.3,
-      "high": 3544.9,
-      "low": 3470.2,
-      "open": 3510.0,
-      "time": "2025-09-19",
-      "volume": 1839809
-    },
-    {
-      "close": 3454.4,
-      "high": 3508.0,
-      "low": 3400.4,
-      "open": 3400.4,
-      "time": "2025-09-22",
-      "volume": 1344861
-    },
-    {
-      "close": 3435.1,
-      "high": 3520.0,
-      "low": 3420.0,
-      "open": 3464.0,
-      "time": "2025-09-23",
-      "volume": 1068121
-    },
-    {
       "close": 3489.9,
       "high": 3579.0,
       "low": 3440.0,
@@ -2017,13 +1993,37 @@
       "open": 2494.9,
       "time": "2026-09-28",
       "volume": 581069
+    },
+    {
+      "close": 2380.0,
+      "high": 2460.0,
+      "low": 2380.0,
+      "open": 2455.0,
+      "time": "2026-09-29",
+      "volume": 724573
+    },
+    {
+      "close": 2374.4,
+      "high": 2401.4,
+      "low": 2364.9,
+      "open": 2390.0,
+      "time": "2026-09-30",
+      "volume": 402951
+    },
+    {
+      "close": 2340.0,
+      "high": 2380.9,
+      "low": 2301.1,
+      "open": 2374.0,
+      "time": "2026-10-01",
+      "volume": 841593
     }
   ],
   "company_name": "Waaree Energies Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.94x"
+    "volume_multiplier": "1.37x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -40.0,
-    "change_pct": -1.6,
-    "close": 2455.0,
-    "previous_close": 2495.0,
+    "as_of": "2026-10-01",
+    "change": -34.4,
+    "change_pct": -1.45,
+    "close": 2340.0,
+    "previous_close": 2374.4,
     "type": "EOD_CLOSE",
-    "volume": 581069
+    "volume": 841593
   },
   "range": {
-    "distance_from_high_pct": -33.98,
-    "distance_from_low_pct": 2.16,
+    "distance_from_high_pct": -37.08,
+    "distance_from_low_pct": 1.69,
     "high_52w": 3718.8,
     "history_basis": "52_WEEK",
-    "low_52w": 2403.0,
-    "range_position_pct": 3.95
+    "low_52w": 2301.1,
+    "range_position_pct": 2.74
   },
   "risk_model": {
-    "invalidation_floor": 2369.07,
-    "risk_per_share": 135.03,
-    "technical_pivot": 2504.1
+    "invalidation_floor": 2258.1,
+    "risk_per_share": 128.7,
+    "technical_pivot": 2386.8
   },
   "schema_version": "1.0",
   "sector": null,

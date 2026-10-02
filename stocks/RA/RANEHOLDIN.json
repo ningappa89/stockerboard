@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1496.2,
-      "high": 1509.6,
-      "low": 1491.1,
-      "open": 1500.4,
-      "time": "2025-09-19",
-      "volume": 8365
-    },
-    {
-      "close": 1504.0,
-      "high": 1513.4,
-      "low": 1443.8,
-      "open": 1496.2,
-      "time": "2025-09-22",
-      "volume": 16318
-    },
-    {
-      "close": 1592.9,
-      "high": 1613.9,
-      "low": 1496.5,
-      "open": 1496.5,
-      "time": "2025-09-23",
-      "volume": 60086
-    },
-    {
       "close": 1677.2,
       "high": 1748.0,
       "low": 1590.0,
@@ -2017,13 +1993,37 @@
       "open": 1580.6,
       "time": "2026-09-28",
       "volume": 18617
+    },
+    {
+      "close": 1541.3,
+      "high": 1575.1,
+      "low": 1531.0,
+      "open": 1565.6,
+      "time": "2026-09-29",
+      "volume": 11509
+    },
+    {
+      "close": 1529.8,
+      "high": 1555.0,
+      "low": 1526.7,
+      "open": 1544.0,
+      "time": "2026-09-30",
+      "volume": 9347
+    },
+    {
+      "close": 1518.7,
+      "high": 1532.5,
+      "low": 1481.3,
+      "open": 1530.1,
+      "time": "2026-10-01",
+      "volume": 7421
     }
   ],
   "company_name": "RANE HOLDINGS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.05x"
+    "volume_multiplier": "0.42x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 3.8,
-    "change_pct": 0.24,
-    "close": 1584.4,
-    "previous_close": 1580.6,
+    "as_of": "2026-10-01",
+    "change": -11.1,
+    "change_pct": -0.73,
+    "close": 1518.7,
+    "previous_close": 1529.8,
     "type": "EOD_CLOSE",
-    "volume": 18617
+    "volume": 7421
   },
   "range": {
-    "distance_from_high_pct": -16.37,
-    "distance_from_low_pct": 61.51,
+    "distance_from_high_pct": -19.84,
+    "distance_from_low_pct": 54.81,
     "high_52w": 1894.5,
     "history_basis": "52_WEEK",
     "low_52w": 981.0,
-    "range_position_pct": 66.05
+    "range_position_pct": 58.86
   },
   "risk_model": {
-    "invalidation_floor": 1528.95,
-    "risk_per_share": 87.14,
-    "technical_pivot": 1616.09
+    "invalidation_floor": 1465.55,
+    "risk_per_share": 83.52,
+    "technical_pivot": 1549.07
   },
   "schema_version": "1.0",
   "sector": null,

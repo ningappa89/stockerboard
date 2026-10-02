@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 172.9,
-      "high": 177.8,
-      "low": 170.5,
-      "open": 172.25,
-      "time": "2025-09-19",
-      "volume": 5690272
-    },
-    {
-      "close": 169.55,
-      "high": 173.5,
-      "low": 169.0,
-      "open": 173.5,
-      "time": "2025-09-22",
-      "volume": 3024745
-    },
-    {
-      "close": 171.03,
-      "high": 171.75,
-      "low": 168.62,
-      "open": 169.99,
-      "time": "2025-09-23",
-      "volume": 2342117
-    },
-    {
       "close": 171.78,
       "high": 173.75,
       "low": 169.53,
@@ -2017,13 +1993,37 @@
       "open": 106.15,
       "time": "2026-09-28",
       "volume": 2501244
+    },
+    {
+      "close": 104.17,
+      "high": 104.7,
+      "low": 102.0,
+      "open": 103.82,
+      "time": "2026-09-29",
+      "volume": 1918428
+    },
+    {
+      "close": 104.25,
+      "high": 105.4,
+      "low": 103.7,
+      "open": 104.2,
+      "time": "2026-09-30",
+      "volume": 2167934
+    },
+    {
+      "close": 107.67,
+      "high": 111.6,
+      "low": 104.25,
+      "open": 104.25,
+      "time": "2026-10-01",
+      "volume": 32197118
     }
   ],
   "company_name": "LEMON TREE HOTELS LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.02x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "8.43x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.33,
-    "change_pct": -2.2,
-    "close": 103.82,
-    "previous_close": 106.15,
+    "as_of": "2026-10-01",
+    "change": 3.42,
+    "change_pct": 3.28,
+    "close": 107.67,
+    "previous_close": 104.25,
     "type": "EOD_CLOSE",
-    "volume": 2501244
+    "volume": 32197118
   },
   "range": {
-    "distance_from_high_pct": -41.61,
-    "distance_from_low_pct": 4.23,
-    "high_52w": 177.8,
+    "distance_from_high_pct": -38.19,
+    "distance_from_low_pct": 8.09,
+    "high_52w": 174.2,
     "history_basis": "52_WEEK",
     "low_52w": 99.61,
-    "range_position_pct": 5.38
+    "range_position_pct": 10.81
   },
   "risk_model": {
-    "invalidation_floor": 100.19,
-    "risk_per_share": 5.71,
-    "technical_pivot": 105.9
+    "invalidation_floor": 103.9,
+    "risk_per_share": 5.92,
+    "technical_pivot": 109.82
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3396.2,
-      "high": 3452.6,
-      "low": 3375.0,
-      "open": 3440.6,
-      "time": "2025-09-19",
-      "volume": 121280
-    },
-    {
-      "close": 3470.6,
-      "high": 3487.0,
-      "low": 3386.2,
-      "open": 3399.0,
-      "time": "2025-09-22",
-      "volume": 150104
-    },
-    {
-      "close": 3474.6,
-      "high": 3585.0,
-      "low": 3461.1,
-      "open": 3499.8,
-      "time": "2025-09-23",
-      "volume": 243917
-    },
-    {
       "close": 3454.9,
       "high": 3509.3,
       "low": 3428.0,
@@ -2017,13 +1993,37 @@
       "open": 3350.0,
       "time": "2026-09-28",
       "volume": 60830
+    },
+    {
+      "close": 3240.0,
+      "high": 3282.6,
+      "low": 3215.9,
+      "open": 3275.1,
+      "time": "2026-09-29",
+      "volume": 45813
+    },
+    {
+      "close": 3264.4,
+      "high": 3320.9,
+      "low": 3242.3,
+      "open": 3242.3,
+      "time": "2026-09-30",
+      "volume": 46666
+    },
+    {
+      "close": 3286.6,
+      "high": 3300.0,
+      "low": 3197.0,
+      "open": 3266.2,
+      "time": "2026-10-01",
+      "volume": 49734
     }
   ],
   "company_name": "CEAT LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 50,
+    "momentum_score": 51,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.03x"
+    "volume_multiplier": "0.88x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -77.5,
-    "change_pct": -2.31,
-    "close": 3274.7,
-    "previous_close": 3352.2,
+    "as_of": "2026-10-01",
+    "change": 22.2,
+    "change_pct": 0.68,
+    "close": 3286.6,
+    "previous_close": 3264.4,
     "type": "EOD_CLOSE",
-    "volume": 60830
+    "volume": 49734
   },
   "range": {
-    "distance_from_high_pct": -26.21,
-    "distance_from_low_pct": 6.97,
+    "distance_from_high_pct": -25.94,
+    "distance_from_low_pct": 7.36,
     "high_52w": 4438.0,
     "history_basis": "52_WEEK",
     "low_52w": 3061.2,
-    "range_position_pct": 15.51
+    "range_position_pct": 16.37
   },
   "risk_model": {
-    "invalidation_floor": 3160.09,
-    "risk_per_share": 180.1,
-    "technical_pivot": 3340.19
+    "invalidation_floor": 3171.57,
+    "risk_per_share": 180.76,
+    "technical_pivot": 3352.33
   },
   "schema_version": "1.0",
   "sector": null,

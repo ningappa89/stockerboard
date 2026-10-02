@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 226.72,
-      "high": 231.5,
-      "low": 226.5,
-      "open": 228.26,
-      "time": "2025-09-19",
-      "volume": 6065
-    },
-    {
-      "close": 227.65,
-      "high": 238.0,
-      "low": 226.9,
-      "open": 226.9,
-      "time": "2025-09-22",
-      "volume": 7866
-    },
-    {
-      "close": 225.54,
-      "high": 228.64,
-      "low": 225.5,
-      "open": 226.48,
-      "time": "2025-09-23",
-      "volume": 3323
-    },
-    {
       "close": 222.71,
       "high": 232.5,
       "low": 222.5,
@@ -2017,13 +1993,37 @@
       "open": 163.4,
       "time": "2026-09-28",
       "volume": 5146
+    },
+    {
+      "close": 170.18,
+      "high": 171.8,
+      "low": 162.0,
+      "open": 169.0,
+      "time": "2026-09-29",
+      "volume": 107852
+    },
+    {
+      "close": 171.57,
+      "high": 174.9,
+      "low": 168.56,
+      "open": 174.9,
+      "time": "2026-09-30",
+      "volume": 2629
+    },
+    {
+      "close": 165.43,
+      "high": 178.0,
+      "low": 164.0,
+      "open": 178.0,
+      "time": "2026-10-01",
+      "volume": 4515
     }
   ],
   "company_name": "AMINES & PLASTICIZERS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.3x"
+    "volume_multiplier": "0.5x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 3.67,
-    "change_pct": 2.25,
-    "close": 166.82,
-    "previous_close": 163.15,
+    "as_of": "2026-10-01",
+    "change": -6.14,
+    "change_pct": -3.58,
+    "close": 165.43,
+    "previous_close": 171.57,
     "type": "EOD_CLOSE",
-    "volume": 5146
+    "volume": 4515
   },
   "range": {
-    "distance_from_high_pct": -33.27,
-    "distance_from_low_pct": 31.35,
+    "distance_from_high_pct": -33.83,
+    "distance_from_low_pct": 30.26,
     "high_52w": 250.0,
     "history_basis": "52_WEEK",
     "low_52w": 127.0,
-    "range_position_pct": 32.37
+    "range_position_pct": 31.24
   },
   "risk_model": {
-    "invalidation_floor": 160.98,
-    "risk_per_share": 9.18,
-    "technical_pivot": 170.16
+    "invalidation_floor": 159.64,
+    "risk_per_share": 9.1,
+    "technical_pivot": 168.74
   },
   "schema_version": "1.0",
   "sector": null,

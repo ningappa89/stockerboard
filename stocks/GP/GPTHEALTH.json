@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 149.91,
-      "high": 154.0,
-      "low": 149.5,
-      "open": 154.0,
-      "time": "2025-09-19",
-      "volume": 396592
-    },
-    {
-      "close": 150.96,
-      "high": 152.5,
-      "low": 149.81,
-      "open": 151.9,
-      "time": "2025-09-22",
-      "volume": 222297
-    },
-    {
-      "close": 149.79,
-      "high": 152.12,
-      "low": 149.48,
-      "open": 150.6,
-      "time": "2025-09-23",
-      "volume": 82490
-    },
-    {
       "close": 148.3,
       "high": 150.56,
       "low": 147.9,
@@ -2017,13 +1993,37 @@
       "open": 160.9,
       "time": "2026-09-28",
       "volume": 156359
+    },
+    {
+      "close": 153.8,
+      "high": 157.2,
+      "low": 153.11,
+      "open": 156.1,
+      "time": "2026-09-29",
+      "volume": 47460
+    },
+    {
+      "close": 150.74,
+      "high": 156.18,
+      "low": 150.0,
+      "open": 153.15,
+      "time": "2026-09-30",
+      "volume": 71224
+    },
+    {
+      "close": 151.47,
+      "high": 153.83,
+      "low": 147.01,
+      "open": 149.0,
+      "time": "2026-10-01",
+      "volume": 125173
     }
   ],
   "company_name": "GPT Healthcare Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 73,
+    "is_stage2": false,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.25x"
+    "volume_multiplier": "0.97x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.17,
-    "change_pct": -3.21,
-    "close": 156.1,
-    "previous_close": 161.27,
+    "as_of": "2026-10-01",
+    "change": 0.73,
+    "change_pct": 0.48,
+    "close": 151.47,
+    "previous_close": 150.74,
     "type": "EOD_CLOSE",
-    "volume": 156359
+    "volume": 125173
   },
   "range": {
-    "distance_from_high_pct": -10.8,
-    "distance_from_low_pct": 35.74,
+    "distance_from_high_pct": -13.45,
+    "distance_from_low_pct": 31.71,
     "high_52w": 175.0,
     "history_basis": "52_WEEK",
     "low_52w": 115.0,
-    "range_position_pct": 68.5
+    "range_position_pct": 60.78
   },
   "risk_model": {
-    "invalidation_floor": 150.64,
-    "risk_per_share": 8.58,
-    "technical_pivot": 159.22
+    "invalidation_floor": 146.17,
+    "risk_per_share": 8.33,
+    "technical_pivot": 154.5
   },
   "schema_version": "1.0",
   "sector": null,

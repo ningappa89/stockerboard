@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 471.2,
-      "high": 498.0,
-      "low": 464.15,
-      "open": 498.0,
-      "time": "2025-09-19",
-      "volume": 7464
-    },
-    {
-      "close": 472.75,
-      "high": 477.8,
-      "low": 458.0,
-      "open": 458.0,
-      "time": "2025-09-22",
-      "volume": 3143
-    },
-    {
-      "close": 469.35,
-      "high": 477.75,
-      "low": 469.0,
-      "open": 472.0,
-      "time": "2025-09-23",
-      "volume": 3346
-    },
-    {
       "close": 470.85,
       "high": 478.0,
       "low": 465.3,
@@ -2017,13 +1993,37 @@
       "open": 400.0,
       "time": "2026-09-28",
       "volume": 2199
+    },
+    {
+      "close": 377.5,
+      "high": 387.6,
+      "low": 370.2,
+      "open": 380.1,
+      "time": "2026-09-29",
+      "volume": 2145
+    },
+    {
+      "close": 381.3,
+      "high": 390.95,
+      "low": 377.4,
+      "open": 377.5,
+      "time": "2026-09-30",
+      "volume": 3953
+    },
+    {
+      "close": 380.8,
+      "high": 384.45,
+      "low": 372.5,
+      "open": 384.45,
+      "time": "2026-10-01",
+      "volume": 1341
     }
   ],
   "company_name": "HINDUSTAN COMPOSITES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.55x"
+    "volume_multiplier": "0.34x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -8.15,
-    "change_pct": -2.1,
-    "close": 379.2,
-    "previous_close": 387.35,
+    "as_of": "2026-10-01",
+    "change": -0.5,
+    "change_pct": -0.13,
+    "close": 380.8,
+    "previous_close": 381.3,
     "type": "EOD_CLOSE",
-    "volume": 2199
+    "volume": 1341
   },
   "range": {
-    "distance_from_high_pct": -31.05,
-    "distance_from_low_pct": 9.25,
+    "distance_from_high_pct": -30.76,
+    "distance_from_low_pct": 9.71,
     "high_52w": 550.0,
     "history_basis": "52_WEEK",
     "low_52w": 347.1,
-    "range_position_pct": 15.82
+    "range_position_pct": 16.61
   },
   "risk_model": {
-    "invalidation_floor": 365.93,
-    "risk_per_share": 20.85,
-    "technical_pivot": 386.78
+    "invalidation_floor": 367.47,
+    "risk_per_share": 20.95,
+    "technical_pivot": 388.42
   },
   "schema_version": "1.0",
   "sector": null,

@@ -1433,14 +1433,38 @@
       "open": 72.2,
       "time": "2026-09-28",
       "volume": 1207760
+    },
+    {
+      "close": 65.64,
+      "high": 69.4,
+      "low": 64.79,
+      "open": 69.4,
+      "time": "2026-09-29",
+      "volume": 2269037
+    },
+    {
+      "close": 66.03,
+      "high": 69.1,
+      "low": 65.15,
+      "open": 65.15,
+      "time": "2026-09-30",
+      "volume": 1174607
+    },
+    {
+      "close": 67.51,
+      "high": 68.36,
+      "low": 65.35,
+      "open": 65.6,
+      "time": "2026-10-01",
+      "volume": 1379737
     }
   ],
   "company_name": "ALGOQUANT FINTECH LIMITED",
   "history": {
     "first_session": "2026-01-06",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 179
+    "last_session": "2026-10-01",
+    "sessions_available": 182
   },
   "industry": null,
   "isin": "INE598D01035",
@@ -1448,31 +1472,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 76,
+    "momentum_score": 72,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.83x"
+    "volume_multiplier": "0.91x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.73,
-    "change_pct": -3.78,
-    "close": 69.55,
-    "previous_close": 72.28,
+    "as_of": "2026-10-01",
+    "change": 1.48,
+    "change_pct": 2.24,
+    "close": 67.51,
+    "previous_close": 66.03,
     "type": "EOD_CLOSE",
-    "volume": 1207760
+    "volume": 1379737
   },
   "range": {
-    "distance_from_high_pct": -8.73,
-    "distance_from_low_pct": 45.5,
+    "distance_from_high_pct": -11.4,
+    "distance_from_low_pct": 41.23,
     "high_52w": 76.2,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 47.8,
-    "range_position_pct": 76.58
+    "range_position_pct": 69.4
   },
   "risk_model": {
-    "invalidation_floor": 67.12,
-    "risk_per_share": 3.82,
-    "technical_pivot": 70.94
+    "invalidation_floor": 65.15,
+    "risk_per_share": 3.71,
+    "technical_pivot": 68.86
   },
   "schema_version": "1.0",
   "sector": null,

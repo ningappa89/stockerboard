@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3042.3,
-      "high": 3060.0,
-      "low": 3025.0,
-      "open": 3060.0,
-      "time": "2025-09-19",
-      "volume": 40360
-    },
-    {
-      "close": 3049.6,
-      "high": 3076.0,
-      "low": 3023.0,
-      "open": 3057.3,
-      "time": "2025-09-22",
-      "volume": 71087
-    },
-    {
-      "close": 3046.1,
-      "high": 3066.5,
-      "low": 3016.6,
-      "open": 3054.0,
-      "time": "2025-09-23",
-      "volume": 58511
-    },
-    {
       "close": 3020.0,
       "high": 3039.0,
       "low": 2991.2,
@@ -2017,13 +1993,37 @@
       "open": 3200.1,
       "time": "2026-09-28",
       "volume": 19209
+    },
+    {
+      "close": 3086.2,
+      "high": 3213.8,
+      "low": 3065.0,
+      "open": 3180.6,
+      "time": "2026-09-29",
+      "volume": 51275
+    },
+    {
+      "close": 3136.0,
+      "high": 3145.0,
+      "low": 3075.0,
+      "open": 3116.6,
+      "time": "2026-09-30",
+      "volume": 76082
+    },
+    {
+      "close": 3098.8,
+      "high": 3122.2,
+      "low": 3083.1,
+      "open": 3112.6,
+      "time": "2026-10-01",
+      "volume": 44275
     }
   ],
   "company_name": "TIMKEN INDIA LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 61,
+    "momentum_score": 58,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.5x"
+    "volume_multiplier": "1.07x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -25.6,
-    "change_pct": -0.8,
-    "close": 3180.5,
-    "previous_close": 3206.1,
+    "as_of": "2026-10-01",
+    "change": -37.2,
+    "change_pct": -1.19,
+    "close": 3098.8,
+    "previous_close": 3136.0,
     "type": "EOD_CLOSE",
-    "volume": 19209
+    "volume": 44275
   },
   "range": {
-    "distance_from_high_pct": -18.97,
-    "distance_from_low_pct": 13.57,
+    "distance_from_high_pct": -21.05,
+    "distance_from_low_pct": 10.65,
     "high_52w": 3925.0,
     "history_basis": "52_WEEK",
     "low_52w": 2800.5,
-    "range_position_pct": 33.79
+    "range_position_pct": 26.53
   },
   "risk_model": {
-    "invalidation_floor": 3069.18,
-    "risk_per_share": 174.93,
-    "technical_pivot": 3244.11
+    "invalidation_floor": 2990.34,
+    "risk_per_share": 170.44,
+    "technical_pivot": 3160.78
   },
   "schema_version": "1.0",
   "sector": null,

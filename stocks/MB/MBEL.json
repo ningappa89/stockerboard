@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 431.2,
-      "high": 434.0,
-      "low": 415.25,
-      "open": 418.2,
-      "time": "2025-09-19",
-      "volume": 378194
-    },
-    {
-      "close": 424.15,
-      "high": 439.85,
-      "low": 422.65,
-      "open": 432.9,
-      "time": "2025-09-22",
-      "volume": 337069
-    },
-    {
-      "close": 419.4,
-      "high": 424.9,
-      "low": 412.5,
-      "open": 424.9,
-      "time": "2025-09-23",
-      "volume": 316536
-    },
-    {
       "close": 411.65,
       "high": 417.85,
       "low": 410.0,
@@ -2017,13 +1993,37 @@
       "open": 258.6,
       "time": "2026-09-28",
       "volume": 65234
+    },
+    {
+      "close": 251.5,
+      "high": 254.95,
+      "low": 245.8,
+      "open": 250.35,
+      "time": "2026-09-29",
+      "volume": 90202
+    },
+    {
+      "close": 249.0,
+      "high": 256.0,
+      "low": 248.0,
+      "open": 254.15,
+      "time": "2026-09-30",
+      "volume": 53598
+    },
+    {
+      "close": 251.75,
+      "high": 254.4,
+      "low": 246.0,
+      "open": 248.18,
+      "time": "2026-10-01",
+      "volume": 116191
     }
   ],
   "company_name": "M AND B ENGINEERING LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.47x"
+    "volume_multiplier": "0.87x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.85,
-    "change_pct": -2.27,
-    "close": 251.85,
-    "previous_close": 257.7,
+    "as_of": "2026-10-01",
+    "change": 2.75,
+    "change_pct": 1.1,
+    "close": 251.75,
+    "previous_close": 249.0,
     "type": "EOD_CLOSE",
-    "volume": 65234
+    "volume": 116191
   },
   "range": {
-    "distance_from_high_pct": -53.0,
-    "distance_from_low_pct": 12.91,
+    "distance_from_high_pct": -53.02,
+    "distance_from_low_pct": 12.87,
     "high_52w": 535.9,
     "history_basis": "52_WEEK",
     "low_52w": 223.05,
-    "range_position_pct": 9.21
+    "range_position_pct": 9.17
   },
   "risk_model": {
-    "invalidation_floor": 243.04,
+    "invalidation_floor": 242.94,
     "risk_per_share": 13.85,
-    "technical_pivot": 256.89
+    "technical_pivot": 256.79
   },
   "schema_version": "1.0",
   "sector": null,

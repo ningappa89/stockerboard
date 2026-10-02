@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 137.43,
-      "high": 139.0,
-      "low": 134.57,
-      "open": 135.85,
-      "time": "2025-09-19",
-      "volume": 90449
-    },
-    {
-      "close": 135.52,
-      "high": 138.99,
-      "low": 134.5,
-      "open": 137.45,
-      "time": "2025-09-22",
-      "volume": 146235
-    },
-    {
-      "close": 139.2,
-      "high": 141.12,
-      "low": 135.52,
-      "open": 135.52,
-      "time": "2025-09-23",
-      "volume": 254055
-    },
-    {
       "close": 135.48,
       "high": 139.2,
       "low": 135.0,
@@ -2017,46 +1993,70 @@
       "open": 170.95,
       "time": "2026-09-28",
       "volume": 1597471
+    },
+    {
+      "close": 172.49,
+      "high": 174.2,
+      "low": 165.41,
+      "open": 170.4,
+      "time": "2026-09-29",
+      "volume": 821432
+    },
+    {
+      "close": 180.13,
+      "high": 184.8,
+      "low": 174.25,
+      "open": 176.0,
+      "time": "2026-09-30",
+      "volume": 1438322
+    },
+    {
+      "close": 172.66,
+      "high": 183.96,
+      "low": 170.05,
+      "open": 178.11,
+      "time": "2026-10-01",
+      "volume": 858946
     }
   ],
   "company_name": "MUKAND LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE304A01026",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 87,
+    "momentum_score": 80,
     "setup_type": "Pocket Pivot",
-    "volume_multiplier": "4.09x"
+    "volume_multiplier": "1.6x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 3.98,
-    "change_pct": 2.38,
-    "close": 171.03,
-    "previous_close": 167.05,
+    "as_of": "2026-10-01",
+    "change": -7.47,
+    "change_pct": -4.15,
+    "close": 172.66,
+    "previous_close": 180.13,
     "type": "EOD_CLOSE",
-    "volume": 1597471
+    "volume": 858946
   },
   "range": {
-    "distance_from_high_pct": -1.68,
-    "distance_from_low_pct": 49.62,
-    "high_52w": 173.95,
+    "distance_from_high_pct": -6.57,
+    "distance_from_low_pct": 51.05,
+    "high_52w": 184.8,
     "history_basis": "52_WEEK",
     "low_52w": 114.31,
-    "range_position_pct": 95.1
+    "range_position_pct": 82.78
   },
   "risk_model": {
-    "invalidation_floor": 165.04,
-    "risk_per_share": 9.41,
-    "technical_pivot": 174.45
+    "invalidation_floor": 166.62,
+    "risk_per_share": 9.49,
+    "technical_pivot": 176.11
   },
   "schema_version": "1.0",
   "sector": null,

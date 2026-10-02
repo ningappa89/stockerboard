@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3688.1,
-      "high": 3794.5,
-      "low": 3670.0,
-      "open": 3794.4,
-      "time": "2025-09-19",
-      "volume": 147028
-    },
-    {
-      "close": 3656.8,
-      "high": 3717.5,
-      "low": 3641.0,
-      "open": 3703.0,
-      "time": "2025-09-22",
-      "volume": 80820
-    },
-    {
-      "close": 3739.1,
-      "high": 3764.9,
-      "low": 3585.0,
-      "open": 3672.0,
-      "time": "2025-09-23",
-      "volume": 199806
-    },
-    {
       "close": 3698.9,
       "high": 3748.0,
       "low": 3652.1,
@@ -2017,13 +1993,37 @@
       "open": 2844.0,
       "time": "2026-09-28",
       "volume": 98486
+    },
+    {
+      "close": 2706.2,
+      "high": 2761.8,
+      "low": 2701.0,
+      "open": 2740.7,
+      "time": "2026-09-29",
+      "volume": 40955
+    },
+    {
+      "close": 2715.2,
+      "high": 2743.4,
+      "low": 2700.1,
+      "open": 2705.0,
+      "time": "2026-09-30",
+      "volume": 45053
+    },
+    {
+      "close": 2667.3,
+      "high": 2701.0,
+      "low": 2550.1,
+      "open": 2700.0,
+      "time": "2026-10-01",
+      "volume": 338525
     }
   ],
   "company_name": "Escorts Kubota Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 43,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.29x"
+    "momentum_score": 40,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "4.16x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -115.0,
-    "change_pct": -4.03,
-    "close": 2740.7,
-    "previous_close": 2855.7,
+    "as_of": "2026-10-01",
+    "change": -47.9,
+    "change_pct": -1.76,
+    "close": 2667.3,
+    "previous_close": 2715.2,
     "type": "EOD_CLOSE",
-    "volume": 98486
+    "volume": 338525
   },
   "range": {
-    "distance_from_high_pct": -31.27,
-    "distance_from_low_pct": 1.51,
+    "distance_from_high_pct": -33.11,
+    "distance_from_low_pct": 4.6,
     "high_52w": 3987.8,
     "history_basis": "52_WEEK",
-    "low_52w": 2700.0,
-    "range_position_pct": 3.16
+    "low_52w": 2550.1,
+    "range_position_pct": 8.15
   },
   "risk_model": {
-    "invalidation_floor": 2644.78,
-    "risk_per_share": 150.73,
-    "technical_pivot": 2795.51
+    "invalidation_floor": 2573.94,
+    "risk_per_share": 146.71,
+    "technical_pivot": 2720.65
   },
   "schema_version": "1.0",
   "sector": null,

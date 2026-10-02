@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2832.0,
-      "high": 2850.0,
-      "low": 2650.0,
-      "open": 2673.4,
-      "time": "2025-09-19",
-      "volume": 74269
-    },
-    {
-      "close": 2810.2,
-      "high": 2900.0,
-      "low": 2785.3,
-      "open": 2832.0,
-      "time": "2025-09-22",
-      "volume": 25502
-    },
-    {
-      "close": 2794.7,
-      "high": 2827.9,
-      "low": 2765.7,
-      "open": 2810.0,
-      "time": "2025-09-23",
-      "volume": 14882
-    },
-    {
       "close": 2878.6,
       "high": 2906.0,
       "low": 2760.7,
@@ -2017,13 +1993,37 @@
       "open": 4775.0,
       "time": "2026-09-28",
       "volume": 62217
+    },
+    {
+      "close": 4920.7,
+      "high": 4995.0,
+      "low": 4460.2,
+      "open": 4530.0,
+      "time": "2026-09-29",
+      "volume": 480139
+    },
+    {
+      "close": 4797.9,
+      "high": 4925.0,
+      "low": 4738.4,
+      "open": 4915.8,
+      "time": "2026-09-30",
+      "volume": 90214
+    },
+    {
+      "close": 4701.7,
+      "high": 4851.0,
+      "low": 4603.2,
+      "open": 4790.1,
+      "time": "2026-10-01",
+      "volume": 79168
     }
   ],
   "company_name": "CENTUM ELECTRONICS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 77,
+    "momentum_score": 81,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.5x"
+    "volume_multiplier": "0.53x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -231.1,
-    "change_pct": -4.81,
-    "close": 4571.2,
-    "previous_close": 4802.3,
+    "as_of": "2026-10-01",
+    "change": -96.2,
+    "change_pct": -2.01,
+    "close": 4701.7,
+    "previous_close": 4797.9,
     "type": "EOD_CLOSE",
-    "volume": 62217
+    "volume": 79168
   },
   "range": {
-    "distance_from_high_pct": -8.57,
-    "distance_from_low_pct": 123.62,
+    "distance_from_high_pct": -5.96,
+    "distance_from_low_pct": 130.0,
     "high_52w": 4999.5,
     "history_basis": "52_WEEK",
     "low_52w": 2044.2,
-    "range_position_pct": 85.51
+    "range_position_pct": 89.92
   },
   "risk_model": {
-    "invalidation_floor": 4411.21,
-    "risk_per_share": 251.41,
-    "technical_pivot": 4662.62
+    "invalidation_floor": 4537.14,
+    "risk_per_share": 258.59,
+    "technical_pivot": 4795.73
   },
   "schema_version": "1.0",
   "sector": null,

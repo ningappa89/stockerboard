@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 773.9,
-      "high": 777.2,
-      "low": 766.7,
-      "open": 774.0,
-      "time": "2025-09-19",
-      "volume": 22314
-    },
-    {
-      "close": 781.45,
-      "high": 789.45,
-      "low": 770.0,
-      "open": 773.9,
-      "time": "2025-09-22",
-      "volume": 31476
-    },
-    {
-      "close": 772.1,
-      "high": 788.7,
-      "low": 770.1,
-      "open": 788.7,
-      "time": "2025-09-23",
-      "volume": 24549
-    },
-    {
       "close": 761.75,
       "high": 775.2,
       "low": 753.25,
@@ -2017,13 +1993,37 @@
       "open": 597.65,
       "time": "2026-09-28",
       "volume": 6315
+    },
+    {
+      "close": 588.9,
+      "high": 600.1,
+      "low": 580.5,
+      "open": 600.1,
+      "time": "2026-09-29",
+      "volume": 13561
+    },
+    {
+      "close": 584.3,
+      "high": 599.2,
+      "low": 581.05,
+      "open": 585.1,
+      "time": "2026-09-30",
+      "volume": 7085
+    },
+    {
+      "close": 568.7,
+      "high": 587.85,
+      "low": 561.05,
+      "open": 581.4,
+      "time": "2026-10-01",
+      "volume": 17552
     }
   ],
   "company_name": "INSECTICIDES (INDIA) LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 53,
+    "momentum_score": 49,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.29x"
+    "volume_multiplier": "0.9x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.15,
-    "change_pct": -0.69,
-    "close": 598.35,
-    "previous_close": 602.5,
+    "as_of": "2026-10-01",
+    "change": -15.6,
+    "change_pct": -2.67,
+    "close": 568.7,
+    "previous_close": 584.3,
     "type": "EOD_CLOSE",
-    "volume": 6315
+    "volume": 17552
   },
   "range": {
-    "distance_from_high_pct": -24.21,
-    "distance_from_low_pct": 15.38,
-    "high_52w": 789.45,
+    "distance_from_high_pct": -26.86,
+    "distance_from_low_pct": 9.66,
+    "high_52w": 777.6,
     "history_basis": "52_WEEK",
     "low_52w": 518.6,
-    "range_position_pct": 29.44
+    "range_position_pct": 19.34
   },
   "risk_model": {
-    "invalidation_floor": 577.41,
-    "risk_per_share": 32.91,
-    "technical_pivot": 610.32
+    "invalidation_floor": 548.8,
+    "risk_per_share": 31.27,
+    "technical_pivot": 580.07
   },
   "schema_version": "1.0",
   "sector": null,

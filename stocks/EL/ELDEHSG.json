@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 799.45,
-      "high": 803.0,
-      "low": 775.0,
-      "open": 782.1,
-      "time": "2025-09-19",
-      "volume": 1697
-    },
-    {
-      "close": 800.1,
-      "high": 810.05,
-      "low": 796.95,
-      "open": 804.7,
-      "time": "2025-09-22",
-      "volume": 2198
-    },
-    {
-      "close": 800.2,
-      "high": 802.0,
-      "low": 784.1,
-      "open": 795.0,
-      "time": "2025-09-23",
-      "volume": 2372
-    },
-    {
       "close": 786.45,
       "high": 807.7,
       "low": 781.15,
@@ -2017,13 +1993,37 @@
       "open": 770.0,
       "time": "2026-09-28",
       "volume": 443
+    },
+    {
+      "close": 751.75,
+      "high": 768.1,
+      "low": 747.0,
+      "open": 768.1,
+      "time": "2026-09-29",
+      "volume": 277
+    },
+    {
+      "close": 751.05,
+      "high": 760.0,
+      "low": 751.0,
+      "open": 751.75,
+      "time": "2026-09-30",
+      "volume": 691
+    },
+    {
+      "close": 782.25,
+      "high": 786.9,
+      "low": 751.05,
+      "open": 761.1,
+      "time": "2026-10-01",
+      "volume": 1460
     }
   ],
   "company_name": "ELDECO HOUSING & INDUSTRIES LT",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.65x"
+    "momentum_score": 52,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.74x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -8.9,
-    "change_pct": -1.16,
-    "close": 756.6,
-    "previous_close": 765.5,
+    "as_of": "2026-10-01",
+    "change": 31.2,
+    "change_pct": 4.15,
+    "close": 782.25,
+    "previous_close": 751.05,
     "type": "EOD_CLOSE",
-    "volume": 443
+    "volume": 1460
   },
   "range": {
-    "distance_from_high_pct": -27.54,
-    "distance_from_low_pct": 7.85,
+    "distance_from_high_pct": -25.08,
+    "distance_from_low_pct": 11.5,
     "high_52w": 1044.1,
     "history_basis": "52_WEEK",
     "low_52w": 701.55,
-    "range_position_pct": 16.07
+    "range_position_pct": 23.56
   },
   "risk_model": {
-    "invalidation_floor": 730.12,
-    "risk_per_share": 41.61,
-    "technical_pivot": 771.73
+    "invalidation_floor": 754.87,
+    "risk_per_share": 43.02,
+    "technical_pivot": 797.89
   },
   "schema_version": "1.0",
   "sector": null,

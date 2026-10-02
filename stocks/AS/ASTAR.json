@@ -793,14 +793,38 @@
       "open": 724.0,
       "time": "2026-09-28",
       "volume": 484
+    },
+    {
+      "close": 685.35,
+      "high": 708.0,
+      "low": 661.4,
+      "open": 708.0,
+      "time": "2026-09-29",
+      "volume": 171
+    },
+    {
+      "close": 679.7,
+      "high": 705.0,
+      "low": 665.0,
+      "open": 700.0,
+      "time": "2026-09-30",
+      "volume": 123
+    },
+    {
+      "close": 664.5,
+      "high": 689.85,
+      "low": 660.0,
+      "open": 660.0,
+      "time": "2026-10-01",
+      "volume": 325
     }
   ],
   "company_name": "ASIAN STAR CO.LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 99
+    "last_session": "2026-10-01",
+    "sessions_available": 102
   },
   "industry": null,
   "isin": "INE194D01017",
@@ -808,31 +832,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.25x"
+    "volume_multiplier": "0.17x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 10.1,
-    "change_pct": 1.45,
-    "close": 708.8,
-    "previous_close": 698.7,
+    "as_of": "2026-10-01",
+    "change": -15.2,
+    "change_pct": -2.24,
+    "close": 664.5,
+    "previous_close": 679.7,
     "type": "EOD_CLOSE",
-    "volume": 484
+    "volume": 325
   },
   "range": {
-    "distance_from_high_pct": -16.42,
-    "distance_from_low_pct": 46.14,
+    "distance_from_high_pct": -21.64,
+    "distance_from_low_pct": 37.01,
     "high_52w": 848.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 485.0,
-    "range_position_pct": 61.65
+    "range_position_pct": 49.45
   },
   "risk_model": {
-    "invalidation_floor": 683.99,
-    "risk_per_share": 38.99,
-    "technical_pivot": 722.98
+    "invalidation_floor": 641.24,
+    "risk_per_share": 36.55,
+    "technical_pivot": 677.79
   },
   "schema_version": "1.0",
   "sector": null,

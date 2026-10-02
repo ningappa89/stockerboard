@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 16.74,
-      "high": 17.45,
-      "low": 16.21,
-      "open": 17.0,
-      "time": "2025-09-19",
-      "volume": 371455
-    },
-    {
-      "close": 17.07,
-      "high": 17.09,
-      "low": 16.78,
-      "open": 16.98,
-      "time": "2025-09-22",
-      "volume": 104754
-    },
-    {
-      "close": 16.93,
-      "high": 17.29,
-      "low": 16.82,
-      "open": 17.08,
-      "time": "2025-09-23",
-      "volume": 58526
-    },
-    {
       "close": 16.81,
       "high": 17.3,
       "low": 16.72,
@@ -2017,13 +1993,37 @@
       "open": 8.48,
       "time": "2026-09-28",
       "volume": 149929
+    },
+    {
+      "close": 8.86,
+      "high": 8.92,
+      "low": 8.48,
+      "open": 8.79,
+      "time": "2026-09-29",
+      "volume": 87824
+    },
+    {
+      "close": 8.69,
+      "high": 9.0,
+      "low": 8.6,
+      "open": 8.7,
+      "time": "2026-09-30",
+      "volume": 115529
+    },
+    {
+      "close": 8.44,
+      "high": 8.84,
+      "low": 8.21,
+      "open": 8.84,
+      "time": "2026-10-01",
+      "volume": 118799
     }
   ],
   "company_name": "INDOWIND ENERGY LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.72x"
+    "volume_multiplier": "1.29x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.24,
-    "change_pct": -2.7,
-    "close": 8.64,
-    "previous_close": 8.88,
+    "as_of": "2026-10-01",
+    "change": -0.25,
+    "change_pct": -2.88,
+    "close": 8.44,
+    "previous_close": 8.69,
     "type": "EOD_CLOSE",
-    "volume": 149929
+    "volume": 118799
   },
   "range": {
-    "distance_from_high_pct": -54.38,
-    "distance_from_low_pct": 23.43,
+    "distance_from_high_pct": -55.44,
+    "distance_from_low_pct": 20.57,
     "high_52w": 18.94,
     "history_basis": "52_WEEK",
     "low_52w": 7.0,
-    "range_position_pct": 13.74
+    "range_position_pct": 12.06
   },
   "risk_model": {
-    "invalidation_floor": 8.34,
+    "invalidation_floor": 8.14,
     "risk_per_share": 0.5,
-    "technical_pivot": 8.81
+    "technical_pivot": 8.61
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 35.59,
-      "high": 36.39,
-      "low": 35.1,
-      "open": 36.39,
-      "time": "2025-09-19",
-      "volume": 56694
-    },
-    {
-      "close": 35.35,
-      "high": 37.0,
-      "low": 35.15,
-      "open": 37.0,
-      "time": "2025-09-22",
-      "volume": 174493
-    },
-    {
-      "close": 34.56,
-      "high": 36.35,
-      "low": 34.01,
-      "open": 35.35,
-      "time": "2025-09-23",
-      "volume": 92551
-    },
-    {
       "close": 33.44,
       "high": 35.93,
       "low": 32.1,
@@ -2017,13 +1993,37 @@
       "open": 14.2,
       "time": "2026-09-28",
       "volume": 7408
+    },
+    {
+      "close": 13.98,
+      "high": 13.98,
+      "low": 13.5,
+      "open": 13.98,
+      "time": "2026-09-29",
+      "volume": 2209
+    },
+    {
+      "close": 13.39,
+      "high": 14.0,
+      "low": 12.6,
+      "open": 14.0,
+      "time": "2026-09-30",
+      "volume": 6380
+    },
+    {
+      "close": 13.49,
+      "high": 13.85,
+      "low": 13.22,
+      "open": 13.5,
+      "time": "2026-10-01",
+      "volume": 725
     }
   ],
   "company_name": "PRUDENTIAL SUGAR CORPORATION L",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.7x"
+    "volume_multiplier": "0.07x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.0,
-    "change_pct": 0.0,
-    "close": 13.93,
-    "previous_close": 13.93,
+    "as_of": "2026-10-01",
+    "change": 0.1,
+    "change_pct": 0.75,
+    "close": 13.49,
+    "previous_close": 13.39,
     "type": "EOD_CLOSE",
-    "volume": 7408
+    "volume": 725
   },
   "range": {
-    "distance_from_high_pct": -62.35,
-    "distance_from_low_pct": 23.71,
-    "high_52w": 37.0,
+    "distance_from_high_pct": -62.45,
+    "distance_from_low_pct": 19.8,
+    "high_52w": 35.93,
     "history_basis": "52_WEEK",
     "low_52w": 11.26,
-    "range_position_pct": 10.37
+    "range_position_pct": 9.04
   },
   "risk_model": {
-    "invalidation_floor": 13.44,
-    "risk_per_share": 0.77,
-    "technical_pivot": 14.21
+    "invalidation_floor": 13.02,
+    "risk_per_share": 0.74,
+    "technical_pivot": 13.76
   },
   "schema_version": "1.0",
   "sector": null,

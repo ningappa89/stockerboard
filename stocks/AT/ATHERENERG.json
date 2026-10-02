@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 584.5,
-      "high": 589.0,
-      "low": 557.1,
-      "open": 560.0,
-      "time": "2025-09-19",
-      "volume": 2683018
-    },
-    {
-      "close": 591.55,
-      "high": 614.4,
-      "low": 580.35,
-      "open": 583.6,
-      "time": "2025-09-22",
-      "volume": 3437632
-    },
-    {
-      "close": 572.6,
-      "high": 594.45,
-      "low": 566.0,
-      "open": 593.9,
-      "time": "2025-09-23",
-      "volume": 1909319
-    },
-    {
       "close": 581.85,
       "high": 592.0,
       "low": 568.5,
@@ -2017,13 +1993,37 @@
       "open": 1495.0,
       "time": "2026-09-28",
       "volume": 3051399
+    },
+    {
+      "close": 1407.0,
+      "high": 1460.2,
+      "low": 1403.8,
+      "open": 1460.2,
+      "time": "2026-09-29",
+      "volume": 5655784
+    },
+    {
+      "close": 1425.0,
+      "high": 1441.0,
+      "low": 1405.0,
+      "open": 1416.5,
+      "time": "2026-09-30",
+      "volume": 3085289
+    },
+    {
+      "close": 1406.1,
+      "high": 1429.1,
+      "low": 1373.6,
+      "open": 1422.0,
+      "time": "2026-10-01",
+      "volume": 4210984
     }
   ],
   "company_name": "Ather Energy Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "1.07x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -42.1,
-    "change_pct": -2.81,
-    "close": 1454.9,
-    "previous_close": 1497.0,
+    "as_of": "2026-10-01",
+    "change": -18.9,
+    "change_pct": -1.33,
+    "close": 1406.1,
+    "previous_close": 1425.0,
     "type": "EOD_CLOSE",
-    "volume": 3051399
+    "volume": 4210984
   },
   "range": {
-    "distance_from_high_pct": -16.58,
-    "distance_from_low_pct": 172.2,
+    "distance_from_high_pct": -19.38,
+    "distance_from_low_pct": 163.07,
     "high_52w": 1744.0,
     "history_basis": "52_WEEK",
     "low_52w": 534.5,
-    "range_position_pct": 76.1
+    "range_position_pct": 72.06
   },
   "risk_model": {
-    "invalidation_floor": 1403.98,
-    "risk_per_share": 80.02,
-    "technical_pivot": 1484.0
+    "invalidation_floor": 1356.89,
+    "risk_per_share": 77.33,
+    "technical_pivot": 1434.22
   },
   "schema_version": "1.0",
   "sector": null,

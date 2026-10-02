@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 5150.5,
-      "high": 5330.0,
-      "low": 5050.0,
-      "open": 5315.0,
-      "time": "2025-09-19",
-      "volume": 92003
-    },
-    {
-      "close": 5103.5,
-      "high": 5191.5,
-      "low": 5031.0,
-      "open": 5191.5,
-      "time": "2025-09-22",
-      "volume": 6055
-    },
-    {
-      "close": 5048.0,
-      "high": 5120.0,
-      "low": 5025.0,
-      "open": 5120.0,
-      "time": "2025-09-23",
-      "volume": 2436
-    },
-    {
       "close": 5005.5,
       "high": 5084.5,
       "low": 4995.0,
@@ -2017,13 +1993,37 @@
       "open": 3964.7,
       "time": "2026-09-28",
       "volume": 8695
+    },
+    {
+      "close": 3867.0,
+      "high": 3971.1,
+      "low": 3813.0,
+      "open": 3971.1,
+      "time": "2026-09-29",
+      "volume": 41560
+    },
+    {
+      "close": 3802.8,
+      "high": 3919.0,
+      "low": 3796.0,
+      "open": 3853.7,
+      "time": "2026-09-30",
+      "volume": 6012
+    },
+    {
+      "close": 3787.2,
+      "high": 3818.0,
+      "low": 3691.0,
+      "open": 3818.0,
+      "time": "2026-10-01",
+      "volume": 9812
     }
   ],
   "company_name": "Sanofi Consumer Healthcare Ind",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 51,
+    "momentum_score": 48,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.82x"
+    "volume_multiplier": "1.37x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 30.9,
-    "change_pct": 0.78,
-    "close": 3976.2,
-    "previous_close": 3945.3,
+    "as_of": "2026-10-01",
+    "change": -15.6,
+    "change_pct": -0.41,
+    "close": 3787.2,
+    "previous_close": 3802.8,
     "type": "EOD_CLOSE",
-    "volume": 8695
+    "volume": 9812
   },
   "range": {
-    "distance_from_high_pct": -25.4,
-    "distance_from_low_pct": 3.68,
-    "high_52w": 5330.0,
+    "distance_from_high_pct": -27.93,
+    "distance_from_low_pct": 2.61,
+    "high_52w": 5255.0,
     "history_basis": "52_WEEK",
-    "low_52w": 3834.9,
-    "range_position_pct": 9.45
+    "low_52w": 3691.0,
+    "range_position_pct": 6.15
   },
   "risk_model": {
-    "invalidation_floor": 3837.03,
-    "risk_per_share": 218.69,
-    "technical_pivot": 4055.72
+    "invalidation_floor": 3654.65,
+    "risk_per_share": 208.29,
+    "technical_pivot": 3862.94
   },
   "schema_version": "1.0",
   "sector": null,

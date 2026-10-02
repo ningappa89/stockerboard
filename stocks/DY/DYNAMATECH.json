@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 7202.5,
-      "high": 7302.0,
-      "low": 6950.0,
-      "open": 6950.0,
-      "time": "2025-09-19",
-      "volume": 15830
-    },
-    {
-      "close": 7179.5,
-      "high": 7545.0,
-      "low": 7153.0,
-      "open": 7203.0,
-      "time": "2025-09-22",
-      "volume": 48444
-    },
-    {
-      "close": 7082.5,
-      "high": 7300.0,
-      "low": 7037.0,
-      "open": 7208.0,
-      "time": "2025-09-23",
-      "volume": 10923
-    },
-    {
       "close": 6936.5,
       "high": 7124.0,
       "low": 6917.0,
@@ -2017,13 +1993,37 @@
       "open": 13380.0,
       "time": "2026-09-28",
       "volume": 44529
+    },
+    {
+      "close": 13065.0,
+      "high": 13149.0,
+      "low": 12723.0,
+      "open": 13049.0,
+      "time": "2026-09-29",
+      "volume": 34803
+    },
+    {
+      "close": 13611.0,
+      "high": 13650.0,
+      "low": 13060.0,
+      "open": 13065.0,
+      "time": "2026-09-30",
+      "volume": 49032
+    },
+    {
+      "close": 13756.0,
+      "high": 13996.0,
+      "low": 13300.0,
+      "open": 13611.0,
+      "time": "2026-10-01",
+      "volume": 42592
     }
   ],
   "company_name": "DYNAMATIC TECHNOLOGIES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Capital Goods",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 85,
+    "momentum_score": 87,
     "setup_type": "Pocket Pivot",
-    "volume_multiplier": "1.93x"
+    "volume_multiplier": "1.58x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -14.0,
-    "change_pct": -0.11,
-    "close": 13139.0,
-    "previous_close": 13153.0,
+    "as_of": "2026-10-01",
+    "change": 145.0,
+    "change_pct": 1.07,
+    "close": 13756.0,
+    "previous_close": 13611.0,
     "type": "EOD_CLOSE",
-    "volume": 44529
+    "volume": 42592
   },
   "range": {
-    "distance_from_high_pct": -2.67,
-    "distance_from_low_pct": 95.64,
-    "high_52w": 13500.0,
+    "distance_from_high_pct": -1.71,
+    "distance_from_low_pct": 104.82,
+    "high_52w": 13996.0,
     "history_basis": "52_WEEK",
     "low_52w": 6716.0,
-    "range_position_pct": 94.68
+    "range_position_pct": 96.7
   },
   "risk_model": {
-    "invalidation_floor": 12679.14,
-    "risk_per_share": 722.64,
-    "technical_pivot": 13401.78
+    "invalidation_floor": 13274.54,
+    "risk_per_share": 756.58,
+    "technical_pivot": 14031.12
   },
   "schema_version": "1.0",
   "sector": "Capital Goods",

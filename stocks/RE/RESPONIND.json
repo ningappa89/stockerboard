@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 196.95,
-      "high": 200.95,
-      "low": 196.1,
-      "open": 200.9,
-      "time": "2025-09-19",
-      "volume": 23248
-    },
-    {
-      "close": 198.3,
-      "high": 198.94,
-      "low": 195.31,
-      "open": 196.6,
-      "time": "2025-09-22",
-      "volume": 15380
-    },
-    {
-      "close": 197.47,
-      "high": 201.9,
-      "low": 196.27,
-      "open": 198.05,
-      "time": "2025-09-23",
-      "volume": 32763
-    },
-    {
       "close": 196.0,
       "high": 199.8,
       "low": 195.48,
@@ -2017,13 +1993,37 @@
       "open": 161.24,
       "time": "2026-09-28",
       "volume": 712573
+    },
+    {
+      "close": 168.09,
+      "high": 172.69,
+      "low": 160.22,
+      "open": 162.4,
+      "time": "2026-09-29",
+      "volume": 1341506
+    },
+    {
+      "close": 165.38,
+      "high": 176.59,
+      "low": 163.35,
+      "open": 168.02,
+      "time": "2026-09-30",
+      "volume": 390374
+    },
+    {
+      "close": 162.59,
+      "high": 166.39,
+      "low": 157.55,
+      "open": 164.5,
+      "time": "2026-10-01",
+      "volume": 272136
     }
   ],
   "company_name": "RESPONSIVE INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 40,
+    "momentum_score": 41,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.22x"
+    "volume_multiplier": "0.08x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.37,
-    "change_pct": 0.23,
-    "close": 161.6,
-    "previous_close": 161.23,
+    "as_of": "2026-10-01",
+    "change": -2.79,
+    "change_pct": -1.69,
+    "close": 162.59,
+    "previous_close": 165.38,
     "type": "EOD_CLOSE",
-    "volume": 712573
+    "volume": 272136
   },
   "range": {
-    "distance_from_high_pct": -32.92,
-    "distance_from_low_pct": 37.83,
+    "distance_from_high_pct": -32.51,
+    "distance_from_low_pct": 38.67,
     "high_52w": 240.9,
     "history_basis": "52_WEEK",
     "low_52w": 117.25,
-    "range_position_pct": 35.87
+    "range_position_pct": 36.67
   },
   "risk_model": {
-    "invalidation_floor": 155.94,
-    "risk_per_share": 8.89,
-    "technical_pivot": 164.83
+    "invalidation_floor": 156.9,
+    "risk_per_share": 8.94,
+    "technical_pivot": 165.84
   },
   "schema_version": "1.0",
   "sector": null,

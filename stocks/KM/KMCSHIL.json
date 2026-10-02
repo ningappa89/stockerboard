@@ -241,14 +241,38 @@
       "open": 155.7,
       "time": "2026-09-28",
       "volume": 1370878
+    },
+    {
+      "close": 161.98,
+      "high": 165.32,
+      "low": 160.0,
+      "open": 165.32,
+      "time": "2026-09-29",
+      "volume": 300278
+    },
+    {
+      "close": 171.14,
+      "high": 175.4,
+      "low": 156.26,
+      "open": 163.98,
+      "time": "2026-09-30",
+      "volume": 2691889
+    },
+    {
+      "close": 171.94,
+      "high": 178.6,
+      "low": 166.95,
+      "open": 172.7,
+      "time": "2026-10-01",
+      "volume": 796289
     }
   ],
   "company_name": "K M C SPECIALITY HOSP I L",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE879K01018",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 79,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.36x"
+    "momentum_score": 84,
+    "setup_type": "Minervini VCP",
+    "volume_multiplier": "0.67x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 9.1,
-    "change_pct": 5.82,
-    "close": 165.33,
-    "previous_close": 156.23,
+    "as_of": "2026-10-01",
+    "change": 0.8,
+    "change_pct": 0.47,
+    "close": 171.94,
+    "previous_close": 171.14,
     "type": "EOD_CLOSE",
-    "volume": 1370878
+    "volume": 796289
   },
   "range": {
-    "distance_from_high_pct": -7.01,
-    "distance_from_low_pct": 28.68,
-    "high_52w": 177.79,
+    "distance_from_high_pct": -3.73,
+    "distance_from_low_pct": 33.83,
+    "high_52w": 178.6,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 128.48,
-    "range_position_pct": 74.73
+    "range_position_pct": 86.71
   },
   "risk_model": {
-    "invalidation_floor": 159.54,
-    "risk_per_share": 9.1,
-    "technical_pivot": 168.64
+    "invalidation_floor": 165.92,
+    "risk_per_share": 9.46,
+    "technical_pivot": 175.38
   },
   "schema_version": "1.0",
   "sector": null,

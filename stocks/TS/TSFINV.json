@@ -1873,14 +1873,38 @@
       "open": 456.85,
       "time": "2026-09-28",
       "volume": 48385
+    },
+    {
+      "close": 421.45,
+      "high": 435.95,
+      "low": 412.6,
+      "open": 434.7,
+      "time": "2026-09-29",
+      "volume": 522272
+    },
+    {
+      "close": 417.15,
+      "high": 434.8,
+      "low": 415.9,
+      "open": 422.0,
+      "time": "2026-09-30",
+      "volume": 59183
+    },
+    {
+      "close": 409.15,
+      "high": 417.0,
+      "low": 402.25,
+      "open": 416.0,
+      "time": "2026-10-01",
+      "volume": 111572
     }
   ],
   "company_name": "TSF INVESTMENTS LIMITED",
   "history": {
     "first_session": "2025-10-16",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 234
+    "last_session": "2026-10-01",
+    "sessions_available": 237
   },
   "industry": null,
   "isin": "INE202Z01029",
@@ -1890,29 +1914,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.59x"
+    "volume_multiplier": "1.02x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -22.15,
-    "change_pct": -4.85,
-    "close": 434.7,
-    "previous_close": 456.85,
+    "as_of": "2026-10-01",
+    "change": -8.0,
+    "change_pct": -1.92,
+    "close": 409.15,
+    "previous_close": 417.15,
     "type": "EOD_CLOSE",
-    "volume": 48385
+    "volume": 111572
   },
   "range": {
-    "distance_from_high_pct": -37.63,
-    "distance_from_low_pct": 31.05,
+    "distance_from_high_pct": -41.3,
+    "distance_from_low_pct": 23.35,
     "high_52w": 697.0,
     "history_basis": "52_WEEK",
     "low_52w": 331.7,
-    "range_position_pct": 28.2
+    "range_position_pct": 21.2
   },
   "risk_model": {
-    "invalidation_floor": 419.49,
-    "risk_per_share": 23.9,
-    "technical_pivot": 443.39
+    "invalidation_floor": 394.83,
+    "risk_per_share": 22.5,
+    "technical_pivot": 417.33
   },
   "schema_version": "1.0",
   "sector": null,

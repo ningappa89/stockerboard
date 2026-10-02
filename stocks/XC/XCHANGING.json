@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 89.35,
-      "high": 90.8,
-      "low": 89.01,
-      "open": 90.7,
-      "time": "2025-09-19",
-      "volume": 80286
-    },
-    {
-      "close": 87.18,
-      "high": 89.99,
-      "low": 86.6,
-      "open": 88.2,
-      "time": "2025-09-22",
-      "volume": 122462
-    },
-    {
-      "close": 87.0,
-      "high": 89.08,
-      "low": 86.83,
-      "open": 87.54,
-      "time": "2025-09-23",
-      "volume": 80185
-    },
-    {
       "close": 86.1,
       "high": 87.48,
       "low": 85.9,
@@ -2017,13 +1993,37 @@
       "open": 62.0,
       "time": "2026-09-28",
       "volume": 72124
+    },
+    {
+      "close": 60.22,
+      "high": 60.89,
+      "low": 59.2,
+      "open": 60.89,
+      "time": "2026-09-29",
+      "volume": 37926
+    },
+    {
+      "close": 61.24,
+      "high": 61.89,
+      "low": 60.05,
+      "open": 61.2,
+      "time": "2026-09-30",
+      "volume": 41413
+    },
+    {
+      "close": 59.73,
+      "high": 61.42,
+      "low": 59.4,
+      "open": 61.0,
+      "time": "2026-10-01",
+      "volume": 58010
     }
   ],
   "company_name": "XCHANGING SOLUTIONS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.68x"
+    "volume_multiplier": "0.54x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.38,
-    "change_pct": -2.25,
-    "close": 60.04,
-    "previous_close": 61.42,
+    "as_of": "2026-10-01",
+    "change": -1.51,
+    "change_pct": -2.47,
+    "close": 59.73,
+    "previous_close": 61.24,
     "type": "EOD_CLOSE",
-    "volume": 72124
+    "volume": 58010
   },
   "range": {
-    "distance_from_high_pct": -41.71,
-    "distance_from_low_pct": 26.4,
+    "distance_from_high_pct": -42.01,
+    "distance_from_low_pct": 25.75,
     "high_52w": 103.0,
     "history_basis": "52_WEEK",
     "low_52w": 47.5,
-    "range_position_pct": 22.59
+    "range_position_pct": 22.04
   },
   "risk_model": {
-    "invalidation_floor": 57.94,
-    "risk_per_share": 3.3,
-    "technical_pivot": 61.24
+    "invalidation_floor": 57.64,
+    "risk_per_share": 3.28,
+    "technical_pivot": 60.92
   },
   "schema_version": "1.0",
   "sector": null,

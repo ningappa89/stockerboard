@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2.82,
-      "high": 2.87,
-      "low": 2.82,
-      "open": 2.87,
-      "time": "2025-09-19",
-      "volume": 726392
-    },
-    {
-      "close": 2.76,
-      "high": 2.76,
-      "low": 2.76,
-      "open": 2.76,
-      "time": "2025-09-22",
-      "volume": 501452
-    },
-    {
-      "close": 2.69,
-      "high": 2.7,
-      "low": 2.69,
-      "open": 2.7,
-      "time": "2025-09-23",
-      "volume": 396863
-    },
-    {
       "close": 2.63,
       "high": 2.68,
       "low": 2.63,
@@ -2017,13 +1993,37 @@
       "open": 0.91,
       "time": "2026-09-28",
       "volume": 319994
+    },
+    {
+      "close": 0.86,
+      "high": 0.91,
+      "low": 0.84,
+      "open": 0.91,
+      "time": "2026-09-29",
+      "volume": 1504717
+    },
+    {
+      "close": 0.86,
+      "high": 0.9,
+      "low": 0.84,
+      "open": 0.88,
+      "time": "2026-09-30",
+      "volume": 1280895
+    },
+    {
+      "close": 0.85,
+      "high": 0.88,
+      "low": 0.83,
+      "open": 0.86,
+      "time": "2026-10-01",
+      "volume": 889780
     }
   ],
   "company_name": "NAVKAR URBANSTRUCTURE LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.39x"
+    "volume_multiplier": "0.98x"
   },
   "price": {
-    "as_of": "2026-09-28",
+    "as_of": "2026-10-01",
     "change": -0.01,
-    "change_pct": -1.12,
-    "close": 0.88,
-    "previous_close": 0.89,
+    "change_pct": -1.16,
+    "close": 0.85,
+    "previous_close": 0.86,
     "type": "EOD_CLOSE",
-    "volume": 319994
+    "volume": 889780
   },
   "range": {
-    "distance_from_high_pct": -69.34,
-    "distance_from_low_pct": 25.71,
-    "high_52w": 2.87,
+    "distance_from_high_pct": -68.28,
+    "distance_from_low_pct": 21.43,
+    "high_52w": 2.68,
     "history_basis": "52_WEEK",
     "low_52w": 0.7,
-    "range_position_pct": 8.29
+    "range_position_pct": 7.58
   },
   "risk_model": {
-    "invalidation_floor": 0.85,
+    "invalidation_floor": 0.82,
     "risk_per_share": 0.5,
-    "technical_pivot": 0.9
+    "technical_pivot": 0.87
   },
   "schema_version": "1.0",
   "sector": null,

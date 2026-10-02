@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 14.81,
-      "high": 15.0,
-      "low": 14.7,
-      "open": 15.0,
-      "time": "2025-09-19",
-      "volume": 52884
-    },
-    {
-      "close": 14.27,
-      "high": 14.95,
-      "low": 14.17,
-      "open": 14.56,
-      "time": "2025-09-22",
-      "volume": 121933
-    },
-    {
-      "close": 14.2,
-      "high": 14.65,
-      "low": 14.13,
-      "open": 14.21,
-      "time": "2025-09-23",
-      "volume": 97289
-    },
-    {
       "close": 14.01,
       "high": 14.53,
       "low": 13.9,
@@ -2017,13 +1993,37 @@
       "open": 8.07,
       "time": "2026-09-28",
       "volume": 17396
+    },
+    {
+      "close": 7.34,
+      "high": 7.71,
+      "low": 7.3,
+      "open": 7.48,
+      "time": "2026-09-29",
+      "volume": 31206
+    },
+    {
+      "close": 7.52,
+      "high": 7.7,
+      "low": 7.17,
+      "open": 7.7,
+      "time": "2026-09-30",
+      "volume": 45283
+    },
+    {
+      "close": 7.45,
+      "high": 7.67,
+      "low": 7.26,
+      "open": 7.26,
+      "time": "2026-10-01",
+      "volume": 19070
     }
   ],
   "company_name": "Pil Italica Lifestyle Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.24x"
+    "volume_multiplier": "0.36x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.12,
-    "change_pct": -1.56,
-    "close": 7.59,
-    "previous_close": 7.71,
+    "as_of": "2026-10-01",
+    "change": -0.07,
+    "change_pct": -0.93,
+    "close": 7.45,
+    "previous_close": 7.52,
     "type": "EOD_CLOSE",
-    "volume": 17396
+    "volume": 19070
   },
   "range": {
-    "distance_from_high_pct": -49.4,
-    "distance_from_low_pct": 22.42,
-    "high_52w": 15.0,
+    "distance_from_high_pct": -48.73,
+    "distance_from_low_pct": 20.16,
+    "high_52w": 14.53,
     "history_basis": "52_WEEK",
     "low_52w": 6.2,
-    "range_position_pct": 15.8
+    "range_position_pct": 15.01
   },
   "risk_model": {
-    "invalidation_floor": 7.32,
+    "invalidation_floor": 7.19,
     "risk_per_share": 0.5,
-    "technical_pivot": 7.74
+    "technical_pivot": 7.6
   },
   "schema_version": "1.0",
   "sector": null,

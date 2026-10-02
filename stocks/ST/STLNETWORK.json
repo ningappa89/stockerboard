@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 29.33,
-      "high": 35.4,
-      "low": 28.56,
-      "open": 31.9,
-      "time": "2025-09-19",
-      "volume": 43510611
-    },
-    {
-      "close": 29.13,
-      "high": 30.25,
-      "low": 28.15,
-      "open": 28.18,
-      "time": "2025-09-22",
-      "volume": 10474659
-    },
-    {
-      "close": 30.54,
-      "high": 31.84,
-      "low": 28.59,
-      "open": 29.38,
-      "time": "2025-09-23",
-      "volume": 12964926
-    },
-    {
       "close": 33.04,
       "high": 33.95,
       "low": 30.41,
@@ -2017,13 +1993,37 @@
       "open": 55.4,
       "time": "2026-09-28",
       "volume": 18589690
+    },
+    {
+      "close": 49.46,
+      "high": 51.09,
+      "low": 49.46,
+      "open": 51.0,
+      "time": "2026-09-29",
+      "volume": 16727248
+    },
+    {
+      "close": 48.97,
+      "high": 51.93,
+      "low": 48.48,
+      "open": 51.93,
+      "time": "2026-09-30",
+      "volume": 26400187
+    },
+    {
+      "close": 47.18,
+      "high": 50.35,
+      "low": 46.53,
+      "open": 48.82,
+      "time": "2026-10-01",
+      "volume": 13627273
     }
   ],
   "company_name": "STL Networks Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 78,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "2.41x"
+    "is_stage2": false,
+    "momentum_score": 65,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.33x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.55,
-    "change_pct": -4.67,
-    "close": 52.06,
-    "previous_close": 54.61,
+    "as_of": "2026-10-01",
+    "change": -1.79,
+    "change_pct": -3.66,
+    "close": 47.18,
+    "previous_close": 48.97,
     "type": "EOD_CLOSE",
-    "volume": 18589690
+    "volume": 13627273
   },
   "range": {
-    "distance_from_high_pct": -7.86,
-    "distance_from_low_pct": 230.54,
+    "distance_from_high_pct": -16.5,
+    "distance_from_low_pct": 199.56,
     "high_52w": 56.5,
     "history_basis": "52_WEEK",
     "low_52w": 15.75,
-    "range_position_pct": 89.1
+    "range_position_pct": 77.13
   },
   "risk_model": {
-    "invalidation_floor": 50.24,
-    "risk_per_share": 2.86,
-    "technical_pivot": 53.1
+    "invalidation_floor": 45.53,
+    "risk_per_share": 2.59,
+    "technical_pivot": 48.12
   },
   "schema_version": "1.0",
   "sector": null,

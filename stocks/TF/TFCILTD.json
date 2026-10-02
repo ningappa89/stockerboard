@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 72.4,
-      "high": 74.0,
-      "low": 71.55,
-      "open": 72.75,
-      "time": "2025-09-19",
-      "volume": 13064428
-    },
-    {
-      "close": 72.1,
-      "high": 72.65,
-      "low": 72.0,
-      "open": 72.0,
-      "time": "2025-09-22",
-      "volume": 3246953
-    },
-    {
-      "close": 72.8,
-      "high": 72.9,
-      "low": 71.85,
-      "open": 72.05,
-      "time": "2025-09-23",
-      "volume": 6276757
-    },
-    {
       "close": 72.9,
       "high": 72.95,
       "low": 72.4,
@@ -2017,13 +1993,37 @@
       "open": 138.0,
       "time": "2026-09-28",
       "volume": 21011736
+    },
+    {
+      "close": 138.92,
+      "high": 141.43,
+      "low": 138.2,
+      "open": 139.68,
+      "time": "2026-09-29",
+      "volume": 18454638
+    },
+    {
+      "close": 141.91,
+      "high": 148.5,
+      "low": 139.1,
+      "open": 139.1,
+      "time": "2026-09-30",
+      "volume": 31904742
+    },
+    {
+      "close": 138.79,
+      "high": 144.7,
+      "low": 137.0,
+      "open": 141.99,
+      "time": "2026-10-01",
+      "volume": 6063974
     }
   ],
   "company_name": "TOURISM FINANCE CORPORATION OF",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 81,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "1.9x"
+    "momentum_score": 80,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.49x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 1.37,
-    "change_pct": 0.99,
-    "close": 139.68,
-    "previous_close": 138.31,
+    "as_of": "2026-10-01",
+    "change": -3.12,
+    "change_pct": -2.2,
+    "close": 138.79,
+    "previous_close": 141.91,
     "type": "EOD_CLOSE",
-    "volume": 21011736
+    "volume": 6063974
   },
   "range": {
-    "distance_from_high_pct": -5.4,
-    "distance_from_low_pct": 173.88,
-    "high_52w": 147.65,
+    "distance_from_high_pct": -6.54,
+    "distance_from_low_pct": 172.14,
+    "high_52w": 148.5,
     "history_basis": "52_WEEK",
     "low_52w": 51.0,
-    "range_position_pct": 91.75
+    "range_position_pct": 90.04
   },
   "risk_model": {
-    "invalidation_floor": 134.79,
-    "risk_per_share": 7.68,
-    "technical_pivot": 142.47
+    "invalidation_floor": 133.93,
+    "risk_per_share": 7.64,
+    "technical_pivot": 141.57
   },
   "schema_version": "1.0",
   "sector": null,

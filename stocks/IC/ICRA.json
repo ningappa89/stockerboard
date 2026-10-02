@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 6630.0,
-      "high": 6689.5,
-      "low": 6580.0,
-      "open": 6580.0,
-      "time": "2025-09-19",
-      "volume": 2251
-    },
-    {
-      "close": 6631.5,
-      "high": 6664.5,
-      "low": 6600.0,
-      "open": 6630.0,
-      "time": "2025-09-22",
-      "volume": 3295
-    },
-    {
-      "close": 6679.5,
-      "high": 6982.0,
-      "low": 6576.0,
-      "open": 6642.5,
-      "time": "2025-09-23",
-      "volume": 11337
-    },
-    {
       "close": 6585.0,
       "high": 6733.0,
       "low": 6560.0,
@@ -2017,13 +1993,37 @@
       "open": 4398.8,
       "time": "2026-09-28",
       "volume": 20932
+    },
+    {
+      "close": 4297.9,
+      "high": 4373.9,
+      "low": 4274.0,
+      "open": 4311.0,
+      "time": "2026-09-29",
+      "volume": 14911
+    },
+    {
+      "close": 4232.0,
+      "high": 4320.0,
+      "low": 4198.2,
+      "open": 4297.9,
+      "time": "2026-09-30",
+      "volume": 71638
+    },
+    {
+      "close": 4318.3,
+      "high": 4346.5,
+      "low": 4205.1,
+      "open": 4232.0,
+      "time": "2026-10-01",
+      "volume": 24641
     }
   ],
   "company_name": "ICRA LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.65x"
+    "volume_multiplier": "0.84x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -67.5,
-    "change_pct": -1.54,
-    "close": 4310.4,
-    "previous_close": 4377.9,
+    "as_of": "2026-10-01",
+    "change": 86.3,
+    "change_pct": 2.04,
+    "close": 4318.3,
+    "previous_close": 4232.0,
     "type": "EOD_CLOSE",
-    "volume": 20932
+    "volume": 24641
   },
   "range": {
-    "distance_from_high_pct": -38.26,
-    "distance_from_low_pct": 0.13,
-    "high_52w": 6982.0,
+    "distance_from_high_pct": -35.86,
+    "distance_from_low_pct": 2.86,
+    "high_52w": 6733.0,
     "history_basis": "52_WEEK",
-    "low_52w": 4305.0,
-    "range_position_pct": 0.2
+    "low_52w": 4198.2,
+    "range_position_pct": 4.74
   },
   "risk_model": {
-    "invalidation_floor": 4159.54,
-    "risk_per_share": 237.07,
-    "technical_pivot": 4396.61
+    "invalidation_floor": 4167.16,
+    "risk_per_share": 237.51,
+    "technical_pivot": 4404.67
   },
   "schema_version": "1.0",
   "sector": null,

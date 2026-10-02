@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 6069.5,
-      "high": 6110.0,
-      "low": 6048.0,
-      "open": 6105.5,
-      "time": "2025-09-19",
-      "volume": 345995
-    },
-    {
-      "close": 6056.5,
-      "high": 6108.0,
-      "low": 6025.0,
-      "open": 6075.0,
-      "time": "2025-09-22",
-      "volume": 394394
-    },
-    {
-      "close": 5934.0,
-      "high": 6069.5,
-      "low": 5927.0,
-      "open": 6066.5,
-      "time": "2025-09-23",
-      "volume": 333112
-    },
-    {
       "close": 5970.5,
       "high": 6050.0,
       "low": 5905.5,
@@ -2017,13 +1993,37 @@
       "open": 4933.0,
       "time": "2026-09-28",
       "volume": 305787
+    },
+    {
+      "close": 4835.0,
+      "high": 4907.5,
+      "low": 4798.0,
+      "open": 4899.0,
+      "time": "2026-09-29",
+      "volume": 524981
+    },
+    {
+      "close": 4830.0,
+      "high": 4830.5,
+      "low": 4758.0,
+      "open": 4830.0,
+      "time": "2026-09-30",
+      "volume": 485651
+    },
+    {
+      "close": 4778.0,
+      "high": 4812.3,
+      "low": 4737.0,
+      "open": 4798.0,
+      "time": "2026-10-01",
+      "volume": 362699
     }
   ],
   "company_name": "BRITANNIA INDUSTRIES LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Fast Moving Consumer Goods",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 57,
+    "momentum_score": 54,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.25x"
+    "volume_multiplier": "1.35x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -22.5,
-    "change_pct": -0.46,
-    "close": 4915.0,
-    "previous_close": 4937.5,
+    "as_of": "2026-10-01",
+    "change": -52.0,
+    "change_pct": -1.08,
+    "close": 4778.0,
+    "previous_close": 4830.0,
     "type": "EOD_CLOSE",
-    "volume": 305787
+    "volume": 362699
   },
   "range": {
-    "distance_from_high_pct": -21.62,
-    "distance_from_low_pct": 0.94,
+    "distance_from_high_pct": -23.81,
+    "distance_from_low_pct": 0.87,
     "high_52w": 6271.0,
     "history_basis": "52_WEEK",
-    "low_52w": 4869.0,
-    "range_position_pct": 3.28
+    "low_52w": 4737.0,
+    "range_position_pct": 2.67
   },
   "risk_model": {
-    "invalidation_floor": 4742.97,
-    "risk_per_share": 270.33,
-    "technical_pivot": 5013.3
+    "invalidation_floor": 4610.77,
+    "risk_per_share": 262.79,
+    "technical_pivot": 4873.56
   },
   "schema_version": "1.0",
   "sector": "Fast Moving Consumer Goods",

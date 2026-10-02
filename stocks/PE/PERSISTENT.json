@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 5506.0,
-      "high": 5593.5,
-      "low": 5476.0,
-      "open": 5550.5,
-      "time": "2025-09-19",
-      "volume": 659556
-    },
-    {
-      "close": 5271.0,
-      "high": 5360.5,
-      "low": 5187.0,
-      "open": 5350.0,
-      "time": "2025-09-22",
-      "volume": 1437841
-    },
-    {
-      "close": 5240.5,
-      "high": 5296.5,
-      "low": 5194.5,
-      "open": 5275.5,
-      "time": "2025-09-23",
-      "volume": 450288
-    },
-    {
       "close": 5191.5,
       "high": 5229.5,
       "low": 5132.0,
@@ -2017,13 +1993,37 @@
       "open": 5372.0,
       "time": "2026-09-28",
       "volume": 335528
+    },
+    {
+      "close": 5162.0,
+      "high": 5348.5,
+      "low": 5162.0,
+      "open": 5328.0,
+      "time": "2026-09-29",
+      "volume": 294063
+    },
+    {
+      "close": 5279.0,
+      "high": 5397.0,
+      "low": 5200.0,
+      "open": 5200.0,
+      "time": "2026-09-30",
+      "volume": 611251
+    },
+    {
+      "close": 5367.0,
+      "high": 5396.0,
+      "low": 5250.5,
+      "open": 5276.0,
+      "time": "2026-10-01",
+      "volume": 506268
     }
   ],
   "company_name": "PERSISTENT SYSTEMS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Information Technology",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.71x"
+    "volume_multiplier": "1.19x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -43.5,
-    "change_pct": -0.81,
-    "close": 5328.5,
-    "previous_close": 5372.0,
+    "as_of": "2026-10-01",
+    "change": 88.0,
+    "change_pct": 1.67,
+    "close": 5367.0,
+    "previous_close": 5279.0,
     "type": "EOD_CLOSE",
-    "volume": 335528
+    "volume": 506268
   },
   "range": {
-    "distance_from_high_pct": -19.25,
-    "distance_from_low_pct": 25.54,
+    "distance_from_high_pct": -18.67,
+    "distance_from_low_pct": 26.45,
     "high_52w": 6599.0,
     "history_basis": "52_WEEK",
     "low_52w": 4244.5,
-    "range_position_pct": 46.04
+    "range_position_pct": 47.67
   },
   "risk_model": {
-    "invalidation_floor": 5142.0,
-    "risk_per_share": 293.07,
-    "technical_pivot": 5435.07
+    "invalidation_floor": 5179.15,
+    "risk_per_share": 295.19,
+    "technical_pivot": 5474.34
   },
   "schema_version": "1.0",
   "sector": "Information Technology",

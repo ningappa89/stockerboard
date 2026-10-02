@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 398.7,
-      "high": 399.8,
-      "low": 395.0,
-      "open": 399.3,
-      "time": "2025-09-19",
-      "volume": 290868
-    },
-    {
-      "close": 391.0,
-      "high": 398.7,
-      "low": 387.7,
-      "open": 398.6,
-      "time": "2025-09-22",
-      "volume": 954627
-    },
-    {
-      "close": 381.7,
-      "high": 392.35,
-      "low": 378.9,
-      "open": 391.0,
-      "time": "2025-09-23",
-      "volume": 547272
-    },
-    {
       "close": 386.5,
       "high": 390.55,
       "low": 378.8,
@@ -2017,13 +1993,37 @@
       "open": 323.2,
       "time": "2026-09-28",
       "volume": 151875
+    },
+    {
+      "close": 303.7,
+      "high": 314.55,
+      "low": 302.05,
+      "open": 314.5,
+      "time": "2026-09-29",
+      "volume": 130348
+    },
+    {
+      "close": 301.85,
+      "high": 309.9,
+      "low": 300.15,
+      "open": 301.1,
+      "time": "2026-09-30",
+      "volume": 337561
+    },
+    {
+      "close": 295.15,
+      "high": 303.0,
+      "low": 290.25,
+      "open": 300.5,
+      "time": "2026-10-01",
+      "volume": 231935
     }
   ],
   "company_name": "INDIA CEMENTS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.81x"
+    "volume_multiplier": "1.24x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -10.7,
-    "change_pct": -3.31,
-    "close": 312.4,
-    "previous_close": 323.1,
+    "as_of": "2026-10-01",
+    "change": -6.7,
+    "change_pct": -2.22,
+    "close": 295.15,
+    "previous_close": 301.85,
     "type": "EOD_CLOSE",
-    "volume": 151875
+    "volume": 231935
   },
   "range": {
-    "distance_from_high_pct": -35.69,
-    "distance_from_low_pct": 0.51,
+    "distance_from_high_pct": -39.24,
+    "distance_from_low_pct": 1.69,
     "high_52w": 485.8,
     "history_basis": "52_WEEK",
-    "low_52w": 310.8,
-    "range_position_pct": 0.91
+    "low_52w": 290.25,
+    "range_position_pct": 2.51
   },
   "risk_model": {
-    "invalidation_floor": 301.47,
-    "risk_per_share": 17.18,
-    "technical_pivot": 318.65
+    "invalidation_floor": 284.82,
+    "risk_per_share": 16.23,
+    "technical_pivot": 301.05
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 274.8,
-      "high": 277.4,
-      "low": 273.0,
-      "open": 275.45,
-      "time": "2025-09-19",
-      "volume": 130939
-    },
-    {
-      "close": 279.0,
-      "high": 280.5,
-      "low": 272.0,
-      "open": 272.0,
-      "time": "2025-09-22",
-      "volume": 143553
-    },
-    {
-      "close": 271.2,
-      "high": 282.0,
-      "low": 270.0,
-      "open": 280.35,
-      "time": "2025-09-23",
-      "volume": 128506
-    },
-    {
       "close": 267.15,
       "high": 272.95,
       "low": 266.15,
@@ -2017,13 +1993,37 @@
       "open": 128.88,
       "time": "2026-09-28",
       "volume": 121176
+    },
+    {
+      "close": 129.23,
+      "high": 130.05,
+      "low": 125.05,
+      "open": 127.65,
+      "time": "2026-09-29",
+      "volume": 175313
+    },
+    {
+      "close": 127.21,
+      "high": 131.06,
+      "low": 126.3,
+      "open": 129.85,
+      "time": "2026-09-30",
+      "volume": 135642
+    },
+    {
+      "close": 128.22,
+      "high": 129.9,
+      "low": 125.01,
+      "open": 127.21,
+      "time": "2026-10-01",
+      "volume": 146312
     }
   ],
   "company_name": "Fino Payments Bank Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.52x"
+    "volume_multiplier": "0.78x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.02,
-    "change_pct": -0.8,
-    "close": 127.23,
-    "previous_close": 128.25,
+    "as_of": "2026-10-01",
+    "change": 1.01,
+    "change_pct": 0.79,
+    "close": 128.22,
+    "previous_close": 127.21,
     "type": "EOD_CLOSE",
-    "volume": 121176
+    "volume": 146312
   },
   "range": {
-    "distance_from_high_pct": -62.47,
-    "distance_from_low_pct": 15.63,
+    "distance_from_high_pct": -62.18,
+    "distance_from_low_pct": 16.53,
     "high_52w": 339.0,
     "history_basis": "52_WEEK",
     "low_52w": 110.03,
-    "range_position_pct": 7.51
+    "range_position_pct": 7.94
   },
   "risk_model": {
-    "invalidation_floor": 122.78,
-    "risk_per_share": 6.99,
-    "technical_pivot": 129.77
+    "invalidation_floor": 123.73,
+    "risk_per_share": 7.05,
+    "technical_pivot": 130.78
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 738.1,
-      "high": 755.45,
-      "low": 727.0,
-      "open": 740.0,
-      "time": "2025-09-19",
-      "volume": 97120
-    },
-    {
-      "close": 736.4,
-      "high": 740.1,
-      "low": 730.5,
-      "open": 730.5,
-      "time": "2025-09-22",
-      "volume": 83688
-    },
-    {
-      "close": 722.6,
-      "high": 742.0,
-      "low": 715.5,
-      "open": 742.0,
-      "time": "2025-09-23",
-      "volume": 168122
-    },
-    {
       "close": 717.0,
       "high": 725.0,
       "low": 712.0,
@@ -2017,13 +1993,37 @@
       "open": 765.2,
       "time": "2026-09-28",
       "volume": 62516
+    },
+    {
+      "close": 760.05,
+      "high": 769.8,
+      "low": 748.65,
+      "open": 766.4,
+      "time": "2026-09-29",
+      "volume": 65456
+    },
+    {
+      "close": 753.7,
+      "high": 784.8,
+      "low": 740.2,
+      "open": 760.05,
+      "time": "2026-09-30",
+      "volume": 170425
+    },
+    {
+      "close": 746.1,
+      "high": 761.15,
+      "low": 736.6,
+      "open": 759.95,
+      "time": "2026-10-01",
+      "volume": 47930
     }
   ],
   "company_name": "V-MART RETAIL LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.81x"
+    "volume_multiplier": "0.59x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 6.4,
-    "change_pct": 0.84,
-    "close": 766.5,
-    "previous_close": 760.1,
+    "as_of": "2026-10-01",
+    "change": -7.6,
+    "change_pct": -1.01,
+    "close": 746.1,
+    "previous_close": 753.7,
     "type": "EOD_CLOSE",
-    "volume": 62516
+    "volume": 47930
   },
   "range": {
-    "distance_from_high_pct": -13.68,
-    "distance_from_low_pct": 67.39,
+    "distance_from_high_pct": -15.98,
+    "distance_from_low_pct": 62.94,
     "high_52w": 888.0,
     "history_basis": "52_WEEK",
     "low_52w": 457.9,
-    "range_position_pct": 71.75
+    "range_position_pct": 67.01
   },
   "risk_model": {
-    "invalidation_floor": 739.67,
-    "risk_per_share": 42.16,
-    "technical_pivot": 781.83
+    "invalidation_floor": 719.99,
+    "risk_per_share": 41.03,
+    "technical_pivot": 761.02
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 172.42,
-      "high": 176.08,
-      "low": 170.25,
-      "open": 171.62,
-      "time": "2025-09-19",
-      "volume": 147930
-    },
-    {
-      "close": 173.04,
-      "high": 176.0,
-      "low": 170.44,
-      "open": 172.0,
-      "time": "2025-09-22",
-      "volume": 128882
-    },
-    {
-      "close": 178.4,
-      "high": 180.35,
-      "low": 170.99,
-      "open": 174.0,
-      "time": "2025-09-23",
-      "volume": 681508
-    },
-    {
       "close": 182.76,
       "high": 184.99,
       "low": 178.1,
@@ -2017,13 +1993,37 @@
       "open": 285.0,
       "time": "2026-09-28",
       "volume": 1132745
+    },
+    {
+      "close": 290.9,
+      "high": 292.3,
+      "low": 275.77,
+      "open": 277.86,
+      "time": "2026-09-29",
+      "volume": 1181235
+    },
+    {
+      "close": 278.32,
+      "high": 295.83,
+      "low": 277.01,
+      "open": 293.8,
+      "time": "2026-09-30",
+      "volume": 487875
+    },
+    {
+      "close": 282.05,
+      "high": 284.4,
+      "low": 264.2,
+      "open": 279.15,
+      "time": "2026-10-01",
+      "volume": 714330
     }
   ],
   "company_name": "KOPRAN LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 82,
+    "momentum_score": 83,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.46x"
+    "volume_multiplier": "0.29x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -6.56,
-    "change_pct": -2.31,
-    "close": 277.97,
-    "previous_close": 284.53,
+    "as_of": "2026-10-01",
+    "change": 3.73,
+    "change_pct": 1.34,
+    "close": 282.05,
+    "previous_close": 278.32,
     "type": "EOD_CLOSE",
-    "volume": 1132745
+    "volume": 714330
   },
   "range": {
-    "distance_from_high_pct": -5.29,
-    "distance_from_low_pct": 159.79,
-    "high_52w": 293.5,
+    "distance_from_high_pct": -4.66,
+    "distance_from_low_pct": 163.6,
+    "high_52w": 295.83,
     "history_basis": "52_WEEK",
     "low_52w": 107.0,
-    "range_position_pct": 91.67
+    "range_position_pct": 92.7
   },
   "risk_model": {
-    "invalidation_floor": 268.24,
-    "risk_per_share": 15.29,
-    "technical_pivot": 283.53
+    "invalidation_floor": 272.18,
+    "risk_per_share": 15.51,
+    "technical_pivot": 287.69
   },
   "schema_version": "1.0",
   "sector": null,

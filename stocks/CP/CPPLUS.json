@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1403.3,
-      "high": 1452.3,
-      "low": 1395.4,
-      "open": 1448.0,
-      "time": "2025-09-19",
-      "volume": 183322
-    },
-    {
-      "close": 1422.2,
-      "high": 1428.3,
-      "low": 1380.2,
-      "open": 1398.9,
-      "time": "2025-09-22",
-      "volume": 368727
-    },
-    {
-      "close": 1394.6,
-      "high": 1433.1,
-      "low": 1384.7,
-      "open": 1429.9,
-      "time": "2025-09-23",
-      "volume": 90727
-    },
-    {
       "close": 1375.4,
       "high": 1395.0,
       "low": 1362.6,
@@ -2017,13 +1993,37 @@
       "open": 3759.9,
       "time": "2026-09-28",
       "volume": 164856
+    },
+    {
+      "close": 3817.6,
+      "high": 3841.9,
+      "low": 3714.1,
+      "open": 3739.0,
+      "time": "2026-09-29",
+      "volume": 224859
+    },
+    {
+      "close": 3846.5,
+      "high": 3950.0,
+      "low": 3766.0,
+      "open": 3840.1,
+      "time": "2026-09-30",
+      "volume": 237687
+    },
+    {
+      "close": 3799.6,
+      "high": 3860.0,
+      "low": 3756.0,
+      "open": 3837.9,
+      "time": "2026-10-01",
+      "volume": 119217
     }
   ],
   "company_name": "Aditya Infotech Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 76,
+    "momentum_score": 79,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.58x"
+    "volume_multiplier": "0.46x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 35.9,
-    "change_pct": 0.97,
-    "close": 3723.4,
-    "previous_close": 3687.5,
+    "as_of": "2026-10-01",
+    "change": -46.9,
+    "change_pct": -1.22,
+    "close": 3799.6,
+    "previous_close": 3846.5,
     "type": "EOD_CLOSE",
-    "volume": 164856
+    "volume": 119217
   },
   "range": {
-    "distance_from_high_pct": -9.05,
-    "distance_from_low_pct": 203.46,
+    "distance_from_high_pct": -7.19,
+    "distance_from_low_pct": 209.67,
     "high_52w": 4094.0,
     "history_basis": "52_WEEK",
     "low_52w": 1227.0,
-    "range_position_pct": 87.07
+    "range_position_pct": 89.73
   },
   "risk_model": {
-    "invalidation_floor": 3593.08,
-    "risk_per_share": 204.79,
-    "technical_pivot": 3797.87
+    "invalidation_floor": 3666.61,
+    "risk_per_share": 208.98,
+    "technical_pivot": 3875.59
   },
   "schema_version": "1.0",
   "sector": null,

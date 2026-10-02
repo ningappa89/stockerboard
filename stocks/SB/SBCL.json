@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 548.0,
-      "high": 556.0,
-      "low": 539.9,
-      "open": 549.3,
-      "time": "2025-09-19",
-      "volume": 68655
-    },
-    {
-      "close": 553.6,
-      "high": 558.65,
-      "low": 540.0,
-      "open": 543.0,
-      "time": "2025-09-22",
-      "volume": 53808
-    },
-    {
-      "close": 564.45,
-      "high": 575.0,
-      "low": 546.55,
-      "open": 553.6,
-      "time": "2025-09-23",
-      "volume": 216631
-    },
-    {
       "close": 562.8,
       "high": 570.0,
       "low": 558.55,
@@ -2017,13 +1993,37 @@
       "open": 1146.6,
       "time": "2026-09-28",
       "volume": 177554
+    },
+    {
+      "close": 1111.3,
+      "high": 1129.3,
+      "low": 1090.8,
+      "open": 1096.8,
+      "time": "2026-09-29",
+      "volume": 154486
+    },
+    {
+      "close": 1071.7,
+      "high": 1148.9,
+      "low": 1060.0,
+      "open": 1140.0,
+      "time": "2026-09-30",
+      "volume": 233735
+    },
+    {
+      "close": 1066.4,
+      "high": 1103.9,
+      "low": 1034.1,
+      "open": 1080.9,
+      "time": "2026-10-01",
+      "volume": 295016
     }
   ],
   "company_name": "SHIVALIK BIMETAL CONTROLS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 76,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.52x"
+    "volume_multiplier": "0.9x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -44.3,
-    "change_pct": -3.84,
-    "close": 1110.2,
-    "previous_close": 1154.5,
+    "as_of": "2026-10-01",
+    "change": -5.3,
+    "change_pct": -0.49,
+    "close": 1066.4,
+    "previous_close": 1071.7,
     "type": "EOD_CLOSE",
-    "volume": 177554
+    "volume": 295016
   },
   "range": {
-    "distance_from_high_pct": -8.68,
-    "distance_from_low_pct": 201.19,
+    "distance_from_high_pct": -12.28,
+    "distance_from_low_pct": 189.31,
     "high_52w": 1215.7,
     "history_basis": "52_WEEK",
     "low_52w": 368.6,
-    "range_position_pct": 87.55
+    "range_position_pct": 82.38
   },
   "risk_model": {
-    "invalidation_floor": 1071.34,
-    "risk_per_share": 61.06,
-    "technical_pivot": 1132.4
+    "invalidation_floor": 1029.08,
+    "risk_per_share": 58.65,
+    "technical_pivot": 1087.73
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1053.6,
-      "high": 1072.1,
-      "low": 1046.9,
-      "open": 1066.8,
-      "time": "2025-09-19",
-      "volume": 12249
-    },
-    {
-      "close": 1029.9,
-      "high": 1049.9,
-      "low": 1025.0,
-      "open": 1049.9,
-      "time": "2025-09-22",
-      "volume": 10586
-    },
-    {
-      "close": 1016.1,
-      "high": 1039.9,
-      "low": 1005.0,
-      "open": 1030.0,
-      "time": "2025-09-23",
-      "volume": 17819
-    },
-    {
       "close": 1008.2,
       "high": 1020.0,
       "low": 1002.0,
@@ -2017,13 +1993,37 @@
       "open": 679.55,
       "time": "2026-09-28",
       "volume": 14417
+    },
+    {
+      "close": 652.55,
+      "high": 661.6,
+      "low": 647.7,
+      "open": 661.6,
+      "time": "2026-09-29",
+      "volume": 22285
+    },
+    {
+      "close": 650.25,
+      "high": 662.9,
+      "low": 647.0,
+      "open": 647.7,
+      "time": "2026-09-30",
+      "volume": 15978
+    },
+    {
+      "close": 646.95,
+      "high": 655.55,
+      "low": 638.05,
+      "open": 650.8,
+      "time": "2026-10-01",
+      "volume": 12071
     }
   ],
   "company_name": "NUCLEUS SOFTWARE EXPORTS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.83x"
+    "volume_multiplier": "0.74x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -18.05,
-    "change_pct": -2.66,
-    "close": 661.5,
-    "previous_close": 679.55,
+    "as_of": "2026-10-01",
+    "change": -3.3,
+    "change_pct": -0.51,
+    "close": 646.95,
+    "previous_close": 650.25,
     "type": "EOD_CLOSE",
-    "volume": 14417
+    "volume": 12071
   },
   "range": {
-    "distance_from_high_pct": -38.3,
-    "distance_from_low_pct": 0.41,
-    "high_52w": 1072.1,
+    "distance_from_high_pct": -39.24,
+    "distance_from_low_pct": 1.39,
+    "high_52w": 1064.8,
     "history_basis": "52_WEEK",
-    "low_52w": 658.8,
-    "range_position_pct": 0.65
+    "low_52w": 638.05,
+    "range_position_pct": 2.09
   },
   "risk_model": {
-    "invalidation_floor": 638.35,
-    "risk_per_share": 36.38,
-    "technical_pivot": 674.73
+    "invalidation_floor": 624.31,
+    "risk_per_share": 35.58,
+    "technical_pivot": 659.89
   },
   "schema_version": "1.0",
   "sector": null,

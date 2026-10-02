@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1.89,
-      "high": 1.92,
-      "low": 1.86,
-      "open": 1.91,
-      "time": "2025-09-19",
-      "volume": 2265198
-    },
-    {
-      "close": 1.9,
-      "high": 1.92,
-      "low": 1.86,
-      "open": 1.9,
-      "time": "2025-09-22",
-      "volume": 2561248
-    },
-    {
-      "close": 1.89,
-      "high": 1.91,
-      "low": 1.88,
-      "open": 1.91,
-      "time": "2025-09-23",
-      "volume": 1131216
-    },
-    {
       "close": 1.88,
       "high": 1.92,
       "low": 1.85,
@@ -2017,13 +1993,37 @@
       "open": 1.04,
       "time": "2026-09-28",
       "volume": 2135410
+    },
+    {
+      "close": 1.0,
+      "high": 1.02,
+      "low": 1.0,
+      "open": 1.01,
+      "time": "2026-09-29",
+      "volume": 1958147
+    },
+    {
+      "close": 1.0,
+      "high": 1.02,
+      "low": 1.0,
+      "open": 1.0,
+      "time": "2026-09-30",
+      "volume": 770450
+    },
+    {
+      "close": 1.0,
+      "high": 1.02,
+      "low": 1.0,
+      "open": 1.0,
+      "time": "2026-10-01",
+      "volume": 1171955
     }
   ],
   "company_name": "INTEGRA ESSENTIA LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.74x"
+    "volume_multiplier": "0.51x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.01,
-    "change_pct": -0.98,
-    "close": 1.01,
-    "previous_close": 1.02,
+    "as_of": "2026-10-01",
+    "change": 0.0,
+    "change_pct": 0.0,
+    "close": 1.0,
+    "previous_close": 1.0,
     "type": "EOD_CLOSE",
-    "volume": 2135410
+    "volume": 1171955
   },
   "range": {
-    "distance_from_high_pct": -51.44,
+    "distance_from_high_pct": -51.92,
     "distance_from_low_pct": 0.0,
     "high_52w": 2.08,
     "history_basis": "52_WEEK",
-    "low_52w": 1.01,
+    "low_52w": 1.0,
     "range_position_pct": 0.0
   },
   "risk_model": {
-    "invalidation_floor": 0.97,
+    "invalidation_floor": 0.96,
     "risk_per_share": 0.5,
-    "technical_pivot": 1.03
+    "technical_pivot": 1.02
   },
   "schema_version": "1.0",
   "sector": null,

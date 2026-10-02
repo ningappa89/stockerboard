@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3650.2,
-      "high": 3689.8,
-      "low": 3650.0,
-      "open": 3677.9,
-      "time": "2025-09-19",
-      "volume": 817
-    },
-    {
-      "close": 3677.0,
-      "high": 3750.0,
-      "low": 3651.0,
-      "open": 3696.9,
-      "time": "2025-09-22",
-      "volume": 890
-    },
-    {
-      "close": 3678.1,
-      "high": 3713.8,
-      "low": 3655.2,
-      "open": 3713.8,
-      "time": "2025-09-23",
-      "volume": 153
-    },
-    {
       "close": 3663.0,
       "high": 3692.9,
       "low": 3650.0,
@@ -2017,13 +1993,37 @@
       "open": 3401.9,
       "time": "2026-09-28",
       "volume": 2059
+    },
+    {
+      "close": 3305.0,
+      "high": 3393.6,
+      "low": 3301.6,
+      "open": 3393.6,
+      "time": "2026-09-29",
+      "volume": 554
+    },
+    {
+      "close": 3300.2,
+      "high": 3329.2,
+      "low": 3245.1,
+      "open": 3245.1,
+      "time": "2026-09-30",
+      "volume": 308
+    },
+    {
+      "close": 3300.5,
+      "high": 3327.0,
+      "low": 3261.0,
+      "open": 3300.2,
+      "time": "2026-10-01",
+      "volume": 1105
     }
   ],
   "company_name": "BANNARI AMMAN SUGARS LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 57,
+    "momentum_score": 54,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.28x"
+    "volume_multiplier": "0.87x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -18.2,
-    "change_pct": -0.53,
-    "close": 3383.7,
-    "previous_close": 3401.9,
+    "as_of": "2026-10-01",
+    "change": 0.3,
+    "change_pct": 0.01,
+    "close": 3300.5,
+    "previous_close": 3300.2,
     "type": "EOD_CLOSE",
-    "volume": 2059
+    "volume": 1105
   },
   "range": {
-    "distance_from_high_pct": -22.0,
-    "distance_from_low_pct": 8.97,
+    "distance_from_high_pct": -23.92,
+    "distance_from_low_pct": 6.29,
     "high_52w": 4338.0,
     "history_basis": "52_WEEK",
     "low_52w": 3105.2,
-    "range_position_pct": 22.59
+    "range_position_pct": 15.84
   },
   "risk_model": {
-    "invalidation_floor": 3265.27,
-    "risk_per_share": 186.1,
-    "technical_pivot": 3451.37
+    "invalidation_floor": 3184.98,
+    "risk_per_share": 181.53,
+    "technical_pivot": 3366.51
   },
   "schema_version": "1.0",
   "sector": null,

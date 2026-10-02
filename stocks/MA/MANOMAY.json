@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 171.95,
-      "high": 173.9,
-      "low": 169.5,
-      "open": 172.01,
-      "time": "2025-09-19",
-      "volume": 2007
-    },
-    {
-      "close": 171.15,
-      "high": 177.95,
-      "low": 170.5,
-      "open": 177.95,
-      "time": "2025-09-22",
-      "volume": 1196
-    },
-    {
-      "close": 170.78,
-      "high": 177.94,
-      "low": 170.05,
-      "open": 170.05,
-      "time": "2025-09-23",
-      "volume": 980
-    },
-    {
       "close": 170.0,
       "high": 175.19,
       "low": 170.0,
@@ -2017,13 +1993,37 @@
       "open": 230.0,
       "time": "2026-09-28",
       "volume": 218432
+    },
+    {
+      "close": 236.46,
+      "high": 238.0,
+      "low": 229.18,
+      "open": 230.9,
+      "time": "2026-09-29",
+      "volume": 363665
+    },
+    {
+      "close": 240.66,
+      "high": 244.9,
+      "low": 234.17,
+      "open": 238.5,
+      "time": "2026-09-30",
+      "volume": 491051
+    },
+    {
+      "close": 240.08,
+      "high": 245.43,
+      "low": 235.3,
+      "open": 245.0,
+      "time": "2026-10-01",
+      "volume": 323589
     }
   ],
   "company_name": "Manomay Tex India Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 71,
+    "momentum_score": 78,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.21x"
+    "volume_multiplier": "1.44x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.54,
+    "as_of": "2026-10-01",
+    "change": -0.58,
     "change_pct": -0.24,
-    "close": 228.58,
-    "previous_close": 229.12,
+    "close": 240.08,
+    "previous_close": 240.66,
     "type": "EOD_CLOSE",
-    "volume": 218432
+    "volume": 323589
   },
   "range": {
-    "distance_from_high_pct": -12.04,
-    "distance_from_low_pct": 42.64,
+    "distance_from_high_pct": -7.62,
+    "distance_from_low_pct": 49.82,
     "high_52w": 259.88,
     "history_basis": "52_WEEK",
     "low_52w": 160.25,
-    "range_position_pct": 68.58
+    "range_position_pct": 80.13
   },
   "risk_model": {
-    "invalidation_floor": 220.58,
-    "risk_per_share": 12.57,
-    "technical_pivot": 233.15
+    "invalidation_floor": 231.68,
+    "risk_per_share": 13.2,
+    "technical_pivot": 244.88
   },
   "schema_version": "1.0",
   "sector": null,

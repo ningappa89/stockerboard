@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 375.8,
-      "high": 377.0,
-      "low": 371.8,
-      "open": 375.0,
-      "time": "2025-09-19",
-      "volume": 522109
-    },
-    {
-      "close": 365.3,
-      "high": 374.5,
-      "low": 362.95,
-      "open": 369.0,
-      "time": "2025-09-22",
-      "volume": 757949
-    },
-    {
-      "close": 361.8,
-      "high": 368.0,
-      "low": 360.1,
-      "open": 366.5,
-      "time": "2025-09-23",
-      "volume": 465956
-    },
-    {
       "close": 356.85,
       "high": 364.4,
       "low": 355.05,
@@ -2017,13 +1993,37 @@
       "open": 260.5,
       "time": "2026-09-28",
       "volume": 400591
+    },
+    {
+      "close": 248.9,
+      "high": 257.0,
+      "low": 248.0,
+      "open": 256.0,
+      "time": "2026-09-29",
+      "volume": 406764
+    },
+    {
+      "close": 255.8,
+      "high": 270.7,
+      "low": 248.9,
+      "open": 248.9,
+      "time": "2026-09-30",
+      "volume": 6657490
+    },
+    {
+      "close": 250.4,
+      "high": 255.0,
+      "low": 247.0,
+      "open": 254.5,
+      "time": "2026-10-01",
+      "volume": 646270
     }
   ],
   "company_name": "FIRSTSOURCE SOLUTIONS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 41,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.16x"
+    "volume_multiplier": "0.23x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.45,
-    "change_pct": -1.33,
-    "close": 256.0,
-    "previous_close": 259.45,
+    "as_of": "2026-10-01",
+    "change": -5.4,
+    "change_pct": -2.11,
+    "close": 250.4,
+    "previous_close": 255.8,
     "type": "EOD_CLOSE",
-    "volume": 400591
+    "volume": 646270
   },
   "range": {
-    "distance_from_high_pct": -32.1,
-    "distance_from_low_pct": 26.73,
-    "high_52w": 377.0,
+    "distance_from_high_pct": -32.64,
+    "distance_from_low_pct": 23.96,
+    "high_52w": 371.75,
     "history_basis": "52_WEEK",
     "low_52w": 202.0,
-    "range_position_pct": 30.86
+    "range_position_pct": 28.51
   },
   "risk_model": {
-    "invalidation_floor": 247.04,
-    "risk_per_share": 14.08,
-    "technical_pivot": 261.12
+    "invalidation_floor": 241.64,
+    "risk_per_share": 13.77,
+    "technical_pivot": 255.41
   },
   "schema_version": "1.0",
   "sector": null,

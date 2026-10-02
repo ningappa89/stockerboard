@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 197.46,
-      "high": 206.0,
-      "low": 196.3,
-      "open": 206.0,
-      "time": "2025-09-19",
-      "volume": 143049
-    },
-    {
-      "close": 195.27,
-      "high": 200.4,
-      "low": 193.51,
-      "open": 197.48,
-      "time": "2025-09-22",
-      "volume": 95388
-    },
-    {
-      "close": 200.41,
-      "high": 203.4,
-      "low": 189.78,
-      "open": 195.1,
-      "time": "2025-09-23",
-      "volume": 167627
-    },
-    {
       "close": 193.42,
       "high": 201.9,
       "low": 192.0,
@@ -2017,13 +1993,37 @@
       "open": 324.5,
       "time": "2026-09-28",
       "volume": 163636
+    },
+    {
+      "close": 321.1,
+      "high": 324.0,
+      "low": 315.65,
+      "open": 322.55,
+      "time": "2026-09-29",
+      "volume": 253804
+    },
+    {
+      "close": 328.6,
+      "high": 332.0,
+      "low": 321.1,
+      "open": 323.0,
+      "time": "2026-09-30",
+      "volume": 445285
+    },
+    {
+      "close": 322.05,
+      "high": 334.8,
+      "low": 318.3,
+      "open": 331.0,
+      "time": "2026-10-01",
+      "volume": 522976
     }
   ],
   "company_name": "BLS E-Services Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 81,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.49x"
+    "momentum_score": 82,
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "1.5x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.9,
-    "change_pct": -1.2,
-    "close": 320.65,
-    "previous_close": 324.55,
+    "as_of": "2026-10-01",
+    "change": -6.55,
+    "change_pct": -1.99,
+    "close": 322.05,
+    "previous_close": 328.6,
     "type": "EOD_CLOSE",
-    "volume": 163636
+    "volume": 522976
   },
   "range": {
-    "distance_from_high_pct": -5.64,
-    "distance_from_low_pct": 157.96,
+    "distance_from_high_pct": -5.22,
+    "distance_from_low_pct": 159.09,
     "high_52w": 339.8,
     "history_basis": "52_WEEK",
     "low_52w": 124.3,
-    "range_position_pct": 91.11
+    "range_position_pct": 91.76
   },
   "risk_model": {
-    "invalidation_floor": 309.43,
-    "risk_per_share": 17.63,
-    "technical_pivot": 327.06
+    "invalidation_floor": 310.78,
+    "risk_per_share": 17.71,
+    "technical_pivot": 328.49
   },
   "schema_version": "1.0",
   "sector": null,

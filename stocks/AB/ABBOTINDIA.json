@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 30365.0,
-      "high": 31055.0,
-      "low": 30130.0,
-      "open": 31000.0,
-      "time": "2025-09-19",
-      "volume": 12743
-    },
-    {
-      "close": 30195.0,
-      "high": 30670.0,
-      "low": 30150.0,
-      "open": 30410.0,
-      "time": "2025-09-22",
-      "volume": 14233
-    },
-    {
-      "close": 30225.0,
-      "high": 30440.0,
-      "low": 30100.0,
-      "open": 30340.0,
-      "time": "2025-09-23",
-      "volume": 5182
-    },
-    {
       "close": 30195.0,
       "high": 30465.0,
       "low": 30090.0,
@@ -2017,13 +1993,37 @@
       "open": 26955.0,
       "time": "2026-09-28",
       "volume": 5515
+    },
+    {
+      "close": 27270.0,
+      "high": 27850.0,
+      "low": 26650.0,
+      "open": 26735.0,
+      "time": "2026-09-29",
+      "volume": 20582
+    },
+    {
+      "close": 27125.0,
+      "high": 27495.0,
+      "low": 27015.0,
+      "open": 27270.0,
+      "time": "2026-09-30",
+      "volume": 5645
+    },
+    {
+      "close": 26840.0,
+      "high": 27330.0,
+      "low": 26435.0,
+      "open": 27145.0,
+      "time": "2026-10-01",
+      "volume": 6879
     }
   ],
   "company_name": "ABBOTT INDIA LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 69,
+    "is_stage2": true,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.68x"
+    "volume_multiplier": "0.8x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -215.0,
-    "change_pct": -0.8,
-    "close": 26740.0,
-    "previous_close": 26955.0,
+    "as_of": "2026-10-01",
+    "change": -285.0,
+    "change_pct": -1.05,
+    "close": 26840.0,
+    "previous_close": 27125.0,
     "type": "EOD_CLOSE",
-    "volume": 5515
+    "volume": 6879
   },
   "range": {
-    "distance_from_high_pct": -13.89,
-    "distance_from_low_pct": 6.39,
-    "high_52w": 31055.0,
+    "distance_from_high_pct": -12.44,
+    "distance_from_low_pct": 6.78,
+    "high_52w": 30655.0,
     "history_basis": "52_WEEK",
     "low_52w": 25135.0,
-    "range_position_pct": 27.11
+    "range_position_pct": 30.89
   },
   "risk_model": {
-    "invalidation_floor": 25804.1,
-    "risk_per_share": 1470.7,
-    "technical_pivot": 27274.8
+    "invalidation_floor": 25900.6,
+    "risk_per_share": 1476.2,
+    "technical_pivot": 27376.8
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

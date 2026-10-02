@@ -1361,14 +1361,38 @@
       "open": 244.9,
       "time": "2026-09-28",
       "volume": 2462
+    },
+    {
+      "close": 241.0,
+      "high": 248.4,
+      "low": 237.05,
+      "open": 248.4,
+      "time": "2026-09-29",
+      "volume": 26808
+    },
+    {
+      "close": 245.75,
+      "high": 258.8,
+      "low": 239.65,
+      "open": 241.35,
+      "time": "2026-09-30",
+      "volume": 318
+    },
+    {
+      "close": 232.73,
+      "high": 258.8,
+      "low": 227.6,
+      "open": 252.0,
+      "time": "2026-10-01",
+      "volume": 1811
     }
   ],
   "company_name": "Halder Venture Limited",
   "history": {
     "first_session": "2026-01-19",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 170
+    "last_session": "2026-10-01",
+    "sessions_available": 173
   },
   "industry": null,
   "isin": "INE115S01010",
@@ -1376,31 +1400,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 56,
+    "momentum_score": 49,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.11x"
+    "volume_multiplier": "0.09x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 5.7,
-    "change_pct": 2.36,
-    "close": 247.15,
-    "previous_close": 241.45,
+    "as_of": "2026-10-01",
+    "change": -13.02,
+    "change_pct": -5.3,
+    "close": 232.73,
+    "previous_close": 245.75,
     "type": "EOD_CLOSE",
-    "volume": 2462
+    "volume": 1811
   },
   "range": {
-    "distance_from_high_pct": -22.52,
-    "distance_from_low_pct": 17.69,
+    "distance_from_high_pct": -27.04,
+    "distance_from_low_pct": 10.82,
     "high_52w": 319.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 210.0,
-    "range_position_pct": 34.08
+    "range_position_pct": 20.85
   },
   "risk_model": {
-    "invalidation_floor": 238.5,
-    "risk_per_share": 13.59,
-    "technical_pivot": 252.09
+    "invalidation_floor": 224.58,
+    "risk_per_share": 12.8,
+    "technical_pivot": 237.38
   },
   "schema_version": "1.0",
   "sector": null,

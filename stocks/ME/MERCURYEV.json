@@ -665,46 +665,70 @@
       "open": 39.62,
       "time": "2026-09-28",
       "volume": 154119
+    },
+    {
+      "close": 38.69,
+      "high": 38.92,
+      "low": 36.27,
+      "open": 38.37,
+      "time": "2026-09-29",
+      "volume": 192944
+    },
+    {
+      "close": 38.17,
+      "high": 39.25,
+      "low": 38.13,
+      "open": 38.18,
+      "time": "2026-09-30",
+      "volume": 65295
+    },
+    {
+      "close": 37.06,
+      "high": 38.8,
+      "low": 36.3,
+      "open": 37.91,
+      "time": "2026-10-01",
+      "volume": 385240
     }
   ],
   "company_name": "MERCURY EV-TECH LIMITED",
   "history": {
     "first_session": "2026-06-02",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 83
+    "last_session": "2026-10-01",
+    "sessions_available": 86
   },
   "industry": null,
   "isin": "INE763M01028",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 72,
+    "is_stage2": false,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.16x"
+    "volume_multiplier": "0.39x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.72,
-    "change_pct": -1.82,
-    "close": 38.93,
-    "previous_close": 39.65,
+    "as_of": "2026-10-01",
+    "change": -1.11,
+    "change_pct": -2.91,
+    "close": 37.06,
+    "previous_close": 38.17,
     "type": "EOD_CLOSE",
-    "volume": 154119
+    "volume": 385240
   },
   "range": {
-    "distance_from_high_pct": -11.62,
-    "distance_from_low_pct": 29.08,
+    "distance_from_high_pct": -15.87,
+    "distance_from_low_pct": 22.88,
     "high_52w": 44.05,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 30.16,
-    "range_position_pct": 63.14
+    "range_position_pct": 49.68
   },
   "risk_model": {
-    "invalidation_floor": 37.57,
-    "risk_per_share": 2.14,
-    "technical_pivot": 39.71
+    "invalidation_floor": 35.76,
+    "risk_per_share": 2.04,
+    "technical_pivot": 37.8
   },
   "schema_version": "1.0",
   "sector": null,

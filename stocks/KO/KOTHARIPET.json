@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 154.07,
-      "high": 156.5,
-      "low": 153.38,
-      "open": 154.3,
-      "time": "2025-09-19",
-      "volume": 48361
-    },
-    {
-      "close": 152.52,
-      "high": 155.75,
-      "low": 151.3,
-      "open": 154.07,
-      "time": "2025-09-22",
-      "volume": 55795
-    },
-    {
-      "close": 149.27,
-      "high": 152.97,
-      "low": 148.0,
-      "open": 152.52,
-      "time": "2025-09-23",
-      "volume": 79734
-    },
-    {
       "close": 147.28,
       "high": 151.65,
       "low": 146.92,
@@ -2017,13 +1993,37 @@
       "open": 134.1,
       "time": "2026-09-28",
       "volume": 25142
+    },
+    {
+      "close": 128.97,
+      "high": 133.84,
+      "low": 127.35,
+      "open": 131.22,
+      "time": "2026-09-29",
+      "volume": 55694
+    },
+    {
+      "close": 129.43,
+      "high": 132.39,
+      "low": 129.0,
+      "open": 130.51,
+      "time": "2026-09-30",
+      "volume": 43927
+    },
+    {
+      "close": 126.58,
+      "high": 130.39,
+      "low": 125.06,
+      "open": 129.1,
+      "time": "2026-10-01",
+      "volume": 44925
     }
   ],
   "company_name": "KOTHARI PETROCHEM LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.26x"
+    "volume_multiplier": "0.46x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.68,
-    "change_pct": -2.01,
-    "close": 130.84,
-    "previous_close": 133.52,
+    "as_of": "2026-10-01",
+    "change": -2.85,
+    "change_pct": -2.2,
+    "close": 126.58,
+    "previous_close": 129.43,
     "type": "EOD_CLOSE",
-    "volume": 25142
+    "volume": 44925
   },
   "range": {
-    "distance_from_high_pct": -16.4,
-    "distance_from_low_pct": 38.09,
-    "high_52w": 156.5,
+    "distance_from_high_pct": -18.58,
+    "distance_from_low_pct": 33.59,
+    "high_52w": 155.47,
     "history_basis": "52_WEEK",
     "low_52w": 94.75,
-    "range_position_pct": 58.45
+    "range_position_pct": 52.42
   },
   "risk_model": {
-    "invalidation_floor": 126.26,
-    "risk_per_share": 7.2,
-    "technical_pivot": 133.46
+    "invalidation_floor": 122.15,
+    "risk_per_share": 6.96,
+    "technical_pivot": 129.11
   },
   "schema_version": "1.0",
   "sector": null,

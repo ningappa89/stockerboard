@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 25.34,
-      "high": 26.8,
-      "low": 25.0,
-      "open": 26.49,
-      "time": "2025-09-19",
-      "volume": 286488
-    },
-    {
-      "close": 25.22,
-      "high": 25.75,
-      "low": 25.1,
-      "open": 25.1,
-      "time": "2025-09-22",
-      "volume": 173130
-    },
-    {
-      "close": 25.79,
-      "high": 26.0,
-      "low": 25.22,
-      "open": 25.34,
-      "time": "2025-09-23",
-      "volume": 133901
-    },
-    {
       "close": 25.65,
       "high": 26.44,
       "low": 25.26,
@@ -2017,13 +1993,37 @@
       "open": 18.52,
       "time": "2026-09-28",
       "volume": 177362
+    },
+    {
+      "close": 18.16,
+      "high": 18.3,
+      "low": 18.0,
+      "open": 18.29,
+      "time": "2026-09-29",
+      "volume": 68265
+    },
+    {
+      "close": 18.62,
+      "high": 19.07,
+      "low": 18.2,
+      "open": 18.2,
+      "time": "2026-09-30",
+      "volume": 121183
+    },
+    {
+      "close": 18.18,
+      "high": 18.79,
+      "low": 18.07,
+      "open": 18.62,
+      "time": "2026-10-01",
+      "volume": 73904
     }
   ],
   "company_name": "CENTURY EXTRUSIONS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.51x"
+    "volume_multiplier": "0.22x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.42,
-    "change_pct": -2.26,
-    "close": 18.14,
-    "previous_close": 18.56,
+    "as_of": "2026-10-01",
+    "change": -0.44,
+    "change_pct": -2.36,
+    "close": 18.18,
+    "previous_close": 18.62,
     "type": "EOD_CLOSE",
-    "volume": 177362
+    "volume": 73904
   },
   "range": {
-    "distance_from_high_pct": -47.8,
-    "distance_from_low_pct": 15.76,
+    "distance_from_high_pct": -47.68,
+    "distance_from_low_pct": 16.02,
     "high_52w": 34.75,
     "history_basis": "52_WEEK",
     "low_52w": 15.67,
-    "range_position_pct": 12.95
+    "range_position_pct": 13.16
   },
   "risk_model": {
-    "invalidation_floor": 17.51,
-    "risk_per_share": 0.99,
-    "technical_pivot": 18.5
+    "invalidation_floor": 17.54,
+    "risk_per_share": 1.0,
+    "technical_pivot": 18.54
   },
   "schema_version": "1.0",
   "sector": null,

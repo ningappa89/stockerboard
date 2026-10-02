@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 835.6,
-      "high": 846.5,
-      "low": 793.0,
-      "open": 802.25,
-      "time": "2025-09-19",
-      "volume": 5403536
-    },
-    {
-      "close": 823.75,
-      "high": 839.8,
-      "low": 807.0,
-      "open": 830.0,
-      "time": "2025-09-22",
-      "volume": 1263195
-    },
-    {
-      "close": 815.1,
-      "high": 838.0,
-      "low": 808.1,
-      "open": 816.0,
-      "time": "2025-09-23",
-      "volume": 702227
-    },
-    {
       "close": 826.15,
       "high": 865.0,
       "low": 807.0,
@@ -2017,13 +1993,37 @@
       "open": 600.15,
       "time": "2026-09-28",
       "volume": 67195
+    },
+    {
+      "close": 595.65,
+      "high": 599.9,
+      "low": 583.3,
+      "open": 592.7,
+      "time": "2026-09-29",
+      "volume": 64135
+    },
+    {
+      "close": 606.3,
+      "high": 617.45,
+      "low": 598.3,
+      "open": 598.3,
+      "time": "2026-09-30",
+      "volume": 110117
+    },
+    {
+      "close": 589.85,
+      "high": 604.0,
+      "low": 584.35,
+      "open": 604.0,
+      "time": "2026-10-01",
+      "volume": 78841
     }
   ],
   "company_name": "BANCO PRODUCTS (INDIA) LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 41,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.75x"
+    "volume_multiplier": "0.89x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.65,
-    "change_pct": -0.94,
-    "close": 594.2,
-    "previous_close": 599.85,
+    "as_of": "2026-10-01",
+    "change": -16.45,
+    "change_pct": -2.71,
+    "close": 589.85,
+    "previous_close": 606.3,
     "type": "EOD_CLOSE",
-    "volume": 67195
+    "volume": 78841
   },
   "range": {
-    "distance_from_high_pct": -32.46,
-    "distance_from_low_pct": 18.37,
+    "distance_from_high_pct": -32.96,
+    "distance_from_low_pct": 17.5,
     "high_52w": 879.8,
     "history_basis": "52_WEEK",
     "low_52w": 502.0,
-    "range_position_pct": 24.4
+    "range_position_pct": 23.25
   },
   "risk_model": {
-    "invalidation_floor": 573.4,
-    "risk_per_share": 32.68,
-    "technical_pivot": 606.08
+    "invalidation_floor": 569.21,
+    "risk_per_share": 32.44,
+    "technical_pivot": 601.65
   },
   "schema_version": "1.0",
   "sector": null,

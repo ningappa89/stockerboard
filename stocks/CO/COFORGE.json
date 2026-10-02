@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1795.3,
-      "high": 1830.0,
-      "low": 1792.1,
-      "open": 1830.0,
-      "time": "2025-09-19",
-      "volume": 1490876
-    },
-    {
-      "close": 1716.9,
-      "high": 1746.6,
-      "low": 1702.2,
-      "open": 1720.0,
-      "time": "2025-09-22",
-      "volume": 2928020
-    },
-    {
-      "close": 1667.9,
-      "high": 1723.2,
-      "low": 1662.2,
-      "open": 1718.0,
-      "time": "2025-09-23",
-      "volume": 2038607
-    },
-    {
       "close": 1623.2,
       "high": 1673.3,
       "low": 1618.0,
@@ -2017,13 +1993,37 @@
       "open": 1786.0,
       "time": "2026-09-28",
       "volume": 1102782
+    },
+    {
+      "close": 1722.0,
+      "high": 1813.8,
+      "low": 1722.0,
+      "open": 1784.0,
+      "time": "2026-09-29",
+      "volume": 1932111
+    },
+    {
+      "close": 1749.1,
+      "high": 1824.4,
+      "low": 1749.1,
+      "open": 1757.6,
+      "time": "2026-09-30",
+      "volume": 3113656
+    },
+    {
+      "close": 1826.0,
+      "high": 1831.0,
+      "low": 1763.6,
+      "open": 1764.8,
+      "time": "2026-10-01",
+      "volume": 3419070
     }
   ],
   "company_name": "COFORGE LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Information Technology",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 71,
+    "momentum_score": 75,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.46x"
+    "volume_multiplier": "1.36x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -11.0,
-    "change_pct": -0.62,
-    "close": 1773.0,
-    "previous_close": 1784.0,
+    "as_of": "2026-10-01",
+    "change": 76.9,
+    "change_pct": 4.4,
+    "close": 1826.0,
+    "previous_close": 1749.1,
     "type": "EOD_CLOSE",
-    "volume": 1102782
+    "volume": 3419070
   },
   "range": {
-    "distance_from_high_pct": -12.28,
-    "distance_from_low_pct": 75.88,
+    "distance_from_high_pct": -9.66,
+    "distance_from_low_pct": 81.13,
     "high_52w": 2021.2,
     "history_basis": "52_WEEK",
     "low_52w": 1008.1,
-    "range_position_pct": 75.5
+    "range_position_pct": 80.73
   },
   "risk_model": {
-    "invalidation_floor": 1710.94,
-    "risk_per_share": 97.52,
-    "technical_pivot": 1808.46
+    "invalidation_floor": 1762.09,
+    "risk_per_share": 100.43,
+    "technical_pivot": 1862.52
   },
   "schema_version": "1.0",
   "sector": "Information Technology",

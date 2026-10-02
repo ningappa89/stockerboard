@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 240.57,
-      "high": 244.0,
-      "low": 234.25,
-      "open": 236.0,
-      "time": "2025-09-19",
-      "volume": 716986
-    },
-    {
-      "close": 265.62,
-      "high": 274.7,
-      "low": 245.0,
-      "open": 245.0,
-      "time": "2025-09-22",
-      "volume": 11752153
-    },
-    {
-      "close": 266.83,
-      "high": 270.86,
-      "low": 257.01,
-      "open": 263.91,
-      "time": "2025-09-23",
-      "volume": 1014842
-    },
-    {
       "close": 258.57,
       "high": 268.07,
       "low": 256.49,
@@ -2017,13 +1993,37 @@
       "open": 146.5,
       "time": "2026-09-28",
       "volume": 66372
+    },
+    {
+      "close": 142.01,
+      "high": 144.4,
+      "low": 141.0,
+      "open": 143.73,
+      "time": "2026-09-29",
+      "volume": 57757
+    },
+    {
+      "close": 138.65,
+      "high": 145.88,
+      "low": 135.0,
+      "open": 142.0,
+      "time": "2026-09-30",
+      "volume": 263673
+    },
+    {
+      "close": 133.55,
+      "high": 138.0,
+      "low": 129.41,
+      "open": 137.53,
+      "time": "2026-10-01",
+      "volume": 213871
     }
   ],
   "company_name": "SHALBY LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.56x"
+    "volume_multiplier": "1.57x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.87,
-    "change_pct": -2.63,
-    "close": 143.25,
-    "previous_close": 147.12,
+    "as_of": "2026-10-01",
+    "change": -5.1,
+    "change_pct": -3.68,
+    "close": 133.55,
+    "previous_close": 138.65,
     "type": "EOD_CLOSE",
-    "volume": 66372
+    "volume": 213871
   },
   "range": {
-    "distance_from_high_pct": -47.85,
-    "distance_from_low_pct": 13.85,
-    "high_52w": 274.7,
+    "distance_from_high_pct": -51.08,
+    "distance_from_low_pct": 6.14,
+    "high_52w": 273.0,
     "history_basis": "52_WEEK",
     "low_52w": 125.82,
-    "range_position_pct": 11.71
+    "range_position_pct": 5.25
   },
   "risk_model": {
-    "invalidation_floor": 138.24,
-    "risk_per_share": 7.88,
-    "technical_pivot": 146.12
+    "invalidation_floor": 128.88,
+    "risk_per_share": 7.34,
+    "technical_pivot": 136.22
   },
   "schema_version": "1.0",
   "sector": null,

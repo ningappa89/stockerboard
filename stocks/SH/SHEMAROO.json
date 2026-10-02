@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 113.31,
-      "high": 114.0,
-      "low": 110.16,
-      "open": 113.0,
-      "time": "2025-09-16",
-      "volume": 49741
-    },
-    {
-      "close": 118.97,
-      "high": 118.97,
-      "low": 111.11,
-      "open": 111.11,
-      "time": "2025-09-17",
-      "volume": 59905
-    },
-    {
-      "close": 116.45,
-      "high": 124.91,
-      "low": 115.2,
-      "open": 124.9,
-      "time": "2025-09-18",
-      "volume": 67463
-    },
-    {
       "close": 114.47,
       "high": 119.22,
       "low": 112.37,
@@ -2017,13 +1993,37 @@
       "open": 128.0,
       "time": "2026-09-28",
       "volume": 30464
+    },
+    {
+      "close": 117.95,
+      "high": 123.0,
+      "low": 116.56,
+      "open": 121.7,
+      "time": "2026-09-29",
+      "volume": 3375
+    },
+    {
+      "close": 117.12,
+      "high": 122.0,
+      "low": 116.55,
+      "open": 118.15,
+      "time": "2026-09-30",
+      "volume": 14665
+    },
+    {
+      "close": 115.21,
+      "high": 118.95,
+      "low": 115.21,
+      "open": 118.5,
+      "time": "2026-10-01",
+      "volume": 5349
     }
   ],
   "company_name": "SHEMAROO ENTERTAINMENT LIMITED",
   "history": {
-    "first_session": "2025-09-16",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 67,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "3.76x"
+    "momentum_score": 60,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.63x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.4,
-    "change_pct": 0.33,
-    "close": 121.65,
-    "previous_close": 121.25,
+    "as_of": "2026-10-01",
+    "change": -1.91,
+    "change_pct": -1.63,
+    "close": 115.21,
+    "previous_close": 117.12,
     "type": "EOD_CLOSE",
-    "volume": 30464
+    "volume": 5349
   },
   "range": {
-    "distance_from_high_pct": -14.93,
-    "distance_from_low_pct": 66.64,
+    "distance_from_high_pct": -19.43,
+    "distance_from_low_pct": 57.82,
     "high_52w": 143.0,
     "history_basis": "52_WEEK",
     "low_52w": 73.0,
-    "range_position_pct": 69.5
+    "range_position_pct": 60.3
   },
   "risk_model": {
-    "invalidation_floor": 117.39,
-    "risk_per_share": 6.69,
-    "technical_pivot": 124.08
+    "invalidation_floor": 111.18,
+    "risk_per_share": 6.33,
+    "technical_pivot": 117.51
   },
   "schema_version": "1.0",
   "sector": null,

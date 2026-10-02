@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 246.75,
-      "high": 255.8,
-      "low": 246.05,
-      "open": 249.0,
-      "time": "2025-09-19",
-      "volume": 1726
-    },
-    {
-      "close": 239.65,
-      "high": 251.2,
-      "low": 237.3,
-      "open": 242.85,
-      "time": "2025-09-22",
-      "volume": 3134
-    },
-    {
-      "close": 238.4,
-      "high": 246.45,
-      "low": 235.0,
-      "open": 246.45,
-      "time": "2025-09-23",
-      "volume": 7056
-    },
-    {
       "close": 235.05,
       "high": 239.95,
       "low": 234.05,
@@ -2017,13 +1993,37 @@
       "open": 221.0,
       "time": "2026-09-28",
       "volume": 1948
+    },
+    {
+      "close": 233.0,
+      "high": 237.6,
+      "low": 225.0,
+      "open": 230.0,
+      "time": "2026-09-29",
+      "volume": 1236
+    },
+    {
+      "close": 242.95,
+      "high": 247.8,
+      "low": 234.7,
+      "open": 247.8,
+      "time": "2026-09-30",
+      "volume": 1823
+    },
+    {
+      "close": 244.05,
+      "high": 246.4,
+      "low": 230.75,
+      "open": 246.4,
+      "time": "2026-10-01",
+      "volume": 984
     }
   ],
   "company_name": "KEYNOTE FINANCIAL SERVICES LIM",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.1x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.96x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.65,
-    "change_pct": -1.61,
-    "close": 223.7,
-    "previous_close": 227.35,
+    "as_of": "2026-10-01",
+    "change": 1.1,
+    "change_pct": 0.45,
+    "close": 244.05,
+    "previous_close": 242.95,
     "type": "EOD_CLOSE",
-    "volume": 1948
+    "volume": 984
   },
   "range": {
-    "distance_from_high_pct": -41.46,
-    "distance_from_low_pct": 1.68,
+    "distance_from_high_pct": -36.13,
+    "distance_from_low_pct": 10.93,
     "high_52w": 382.1,
     "history_basis": "52_WEEK",
     "low_52w": 220.0,
-    "range_position_pct": 2.28
+    "range_position_pct": 14.84
   },
   "risk_model": {
-    "invalidation_floor": 215.87,
-    "risk_per_share": 12.3,
-    "technical_pivot": 228.17
+    "invalidation_floor": 235.51,
+    "risk_per_share": 13.42,
+    "technical_pivot": 248.93
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 206.6,
-      "high": 209.15,
-      "low": 205.6,
-      "open": 207.45,
-      "time": "2025-09-19",
-      "volume": 1613527
-    },
-    {
-      "close": 207.71,
-      "high": 211.26,
-      "low": 206.4,
-      "open": 207.1,
-      "time": "2025-09-22",
-      "volume": 1893719
-    },
-    {
-      "close": 203.7,
-      "high": 208.49,
-      "low": 203.05,
-      "open": 207.54,
-      "time": "2025-09-23",
-      "volume": 1959186
-    },
-    {
       "close": 202.65,
       "high": 206.74,
       "low": 201.7,
@@ -2017,13 +1993,37 @@
       "open": 316.9,
       "time": "2026-09-28",
       "volume": 9838833
+    },
+    {
+      "close": 310.2,
+      "high": 316.8,
+      "low": 304.75,
+      "open": 310.1,
+      "time": "2026-09-29",
+      "volume": 4987436
+    },
+    {
+      "close": 309.6,
+      "high": 315.5,
+      "low": 307.5,
+      "open": 310.75,
+      "time": "2026-09-30",
+      "volume": 3125317
+    },
+    {
+      "close": 312.75,
+      "high": 318.3,
+      "low": 303.05,
+      "open": 308.0,
+      "time": "2026-10-01",
+      "volume": 7911815
     }
   ],
   "company_name": "ENGINEERS INDIA LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 86,
+    "momentum_score": 85,
     "setup_type": "Minervini VCP",
-    "volume_multiplier": "1.09x"
+    "volume_multiplier": "1.26x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.75,
-    "change_pct": -0.55,
-    "close": 313.9,
-    "previous_close": 315.65,
+    "as_of": "2026-10-01",
+    "change": 3.15,
+    "change_pct": 1.02,
+    "close": 312.75,
+    "previous_close": 309.6,
     "type": "EOD_CLOSE",
-    "volume": 9838833
+    "volume": 7911815
   },
   "range": {
-    "distance_from_high_pct": -2.33,
-    "distance_from_low_pct": 91.93,
+    "distance_from_high_pct": -2.69,
+    "distance_from_low_pct": 91.23,
     "high_52w": 321.4,
     "history_basis": "52_WEEK",
     "low_52w": 163.55,
-    "range_position_pct": 95.25
+    "range_position_pct": 94.52
   },
   "risk_model": {
-    "invalidation_floor": 302.91,
-    "risk_per_share": 17.27,
-    "technical_pivot": 320.18
+    "invalidation_floor": 301.8,
+    "risk_per_share": 17.2,
+    "technical_pivot": 319.0
   },
   "schema_version": "1.0",
   "sector": null,

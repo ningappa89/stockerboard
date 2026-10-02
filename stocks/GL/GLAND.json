@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2022.8,
-      "high": 2034.4,
-      "low": 2007.9,
-      "open": 2010.2,
-      "time": "2025-09-19",
-      "volume": 176265
-    },
-    {
-      "close": 2014.8,
-      "high": 2025.0,
-      "low": 1991.1,
-      "open": 2025.0,
-      "time": "2025-09-22",
-      "volume": 173674
-    },
-    {
-      "close": 2017.2,
-      "high": 2055.0,
-      "low": 1988.2,
-      "open": 2023.8,
-      "time": "2025-09-23",
-      "volume": 132401
-    },
-    {
       "close": 1977.8,
       "high": 2028.0,
       "low": 1970.0,
@@ -2017,13 +1993,37 @@
       "open": 2910.0,
       "time": "2026-09-28",
       "volume": 223663
+    },
+    {
+      "close": 2989.7,
+      "high": 3024.0,
+      "low": 2896.6,
+      "open": 2896.6,
+      "time": "2026-09-29",
+      "volume": 876878
+    },
+    {
+      "close": 2899.4,
+      "high": 3007.7,
+      "low": 2872.0,
+      "open": 2990.0,
+      "time": "2026-09-30",
+      "volume": 528548
+    },
+    {
+      "close": 2874.4,
+      "high": 2929.8,
+      "low": 2841.1,
+      "open": 2876.0,
+      "time": "2026-10-01",
+      "volume": 327673
     }
   ],
   "company_name": "Gland Pharma Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 82,
+    "momentum_score": 81,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.37x"
+    "volume_multiplier": "0.52x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -21.2,
-    "change_pct": -0.73,
-    "close": 2896.0,
-    "previous_close": 2917.2,
+    "as_of": "2026-10-01",
+    "change": -25.0,
+    "change_pct": -0.86,
+    "close": 2874.4,
+    "previous_close": 2899.4,
     "type": "EOD_CLOSE",
-    "volume": 223663
+    "volume": 327673
   },
   "range": {
-    "distance_from_high_pct": -4.8,
-    "distance_from_low_pct": 84.04,
+    "distance_from_high_pct": -5.51,
+    "distance_from_low_pct": 82.66,
     "high_52w": 3042.0,
     "history_basis": "52_WEEK",
     "low_52w": 1573.6,
-    "range_position_pct": 90.06
+    "range_position_pct": 88.59
   },
   "risk_model": {
-    "invalidation_floor": 2794.64,
-    "risk_per_share": 159.28,
-    "technical_pivot": 2953.92
+    "invalidation_floor": 2773.8,
+    "risk_per_share": 158.09,
+    "technical_pivot": 2931.89
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 293.8,
-      "high": 300.98,
-      "low": 291.2,
-      "open": 300.98,
-      "time": "2025-09-19",
-      "volume": 3663137
-    },
-    {
-      "close": 294.38,
-      "high": 302.96,
-      "low": 289.74,
-      "open": 294.89,
-      "time": "2025-09-22",
-      "volume": 4753991
-    },
-    {
-      "close": 288.02,
-      "high": 297.48,
-      "low": 284.4,
-      "open": 295.75,
-      "time": "2025-09-23",
-      "volume": 3015854
-    },
-    {
       "close": 276.7,
       "high": 287.75,
       "low": 273.1,
@@ -2017,13 +1993,37 @@
       "open": 200.62,
       "time": "2026-09-28",
       "volume": 793180
+    },
+    {
+      "close": 194.93,
+      "high": 199.18,
+      "low": 192.82,
+      "open": 198.25,
+      "time": "2026-09-29",
+      "volume": 715786
+    },
+    {
+      "close": 196.32,
+      "high": 202.39,
+      "low": 194.95,
+      "open": 194.95,
+      "time": "2026-09-30",
+      "volume": 603060
+    },
+    {
+      "close": 196.23,
+      "high": 201.5,
+      "low": 191.0,
+      "open": 196.0,
+      "time": "2026-10-01",
+      "volume": 992146
     }
   ],
   "company_name": "ONE MOBIKWIK SYSTEMS LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.28x"
+    "volume_multiplier": "0.35x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.56,
-    "change_pct": -0.78,
-    "close": 199.06,
-    "previous_close": 200.62,
+    "as_of": "2026-10-01",
+    "change": -0.09,
+    "change_pct": -0.05,
+    "close": 196.23,
+    "previous_close": 196.32,
     "type": "EOD_CLOSE",
-    "volume": 793180
+    "volume": 992146
   },
   "range": {
-    "distance_from_high_pct": -34.29,
-    "distance_from_low_pct": 31.43,
-    "high_52w": 302.96,
+    "distance_from_high_pct": -33.86,
+    "distance_from_low_pct": 29.56,
+    "high_52w": 296.7,
     "history_basis": "52_WEEK",
     "low_52w": 151.46,
-    "range_position_pct": 31.42
+    "range_position_pct": 30.82
   },
   "risk_model": {
-    "invalidation_floor": 192.09,
-    "risk_per_share": 10.95,
-    "technical_pivot": 203.04
+    "invalidation_floor": 189.36,
+    "risk_per_share": 10.79,
+    "technical_pivot": 200.15
   },
   "schema_version": "1.0",
   "sector": null,

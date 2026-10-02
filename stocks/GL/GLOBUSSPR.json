@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1075.0,
-      "high": 1080.0,
-      "low": 1062.6,
-      "open": 1069.0,
-      "time": "2025-09-19",
-      "volume": 53534
-    },
-    {
-      "close": 1089.5,
-      "high": 1094.6,
-      "low": 1067.2,
-      "open": 1081.9,
-      "time": "2025-09-22",
-      "volume": 63374
-    },
-    {
-      "close": 1088.6,
-      "high": 1099.0,
-      "low": 1074.0,
-      "open": 1091.7,
-      "time": "2025-09-23",
-      "volume": 50054
-    },
-    {
       "close": 1085.8,
       "high": 1092.0,
       "low": 1077.2,
@@ -2017,13 +1993,37 @@
       "open": 832.55,
       "time": "2026-09-28",
       "volume": 39778
+    },
+    {
+      "close": 804.8,
+      "high": 820.05,
+      "low": 801.1,
+      "open": 820.0,
+      "time": "2026-09-29",
+      "volume": 69920
+    },
+    {
+      "close": 786.45,
+      "high": 826.35,
+      "low": 782.6,
+      "open": 804.8,
+      "time": "2026-09-30",
+      "volume": 136954
+    },
+    {
+      "close": 786.9,
+      "high": 794.4,
+      "low": 775.0,
+      "open": 788.6,
+      "time": "2026-10-01",
+      "volume": 55391
     }
   ],
   "company_name": "GLOBUS SPIRITS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.48x"
+    "volume_multiplier": "0.67x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -13.4,
-    "change_pct": -1.61,
-    "close": 819.15,
-    "previous_close": 832.55,
+    "as_of": "2026-10-01",
+    "change": 0.45,
+    "change_pct": 0.06,
+    "close": 786.9,
+    "previous_close": 786.45,
     "type": "EOD_CLOSE",
-    "volume": 39778
+    "volume": 55391
   },
   "range": {
-    "distance_from_high_pct": -34.61,
-    "distance_from_low_pct": 2.39,
+    "distance_from_high_pct": -37.19,
+    "distance_from_low_pct": 1.54,
     "high_52w": 1252.8,
     "history_basis": "52_WEEK",
-    "low_52w": 800.05,
-    "range_position_pct": 4.22
+    "low_52w": 775.0,
+    "range_position_pct": 2.49
   },
   "risk_model": {
-    "invalidation_floor": 790.48,
-    "risk_per_share": 45.05,
-    "technical_pivot": 835.53
+    "invalidation_floor": 759.36,
+    "risk_per_share": 43.28,
+    "technical_pivot": 802.64
   },
   "schema_version": "1.0",
   "sector": null,

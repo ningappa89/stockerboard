@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 52.71,
-      "high": 52.71,
-      "low": 52.71,
-      "open": 52.71,
-      "time": "2025-09-18",
-      "volume": 6059
-    },
-    {
-      "close": 53.76,
-      "high": 53.76,
-      "low": 53.76,
-      "open": 53.76,
-      "time": "2025-09-19",
-      "volume": 4017
-    },
-    {
-      "close": 52.68,
-      "high": 54.8,
-      "low": 52.68,
-      "open": 54.8,
-      "time": "2025-09-22",
-      "volume": 4471
-    },
-    {
       "close": 51.62,
       "high": 51.62,
       "low": 51.62,
@@ -2017,13 +1993,37 @@
       "open": 70.12,
       "time": "2026-09-28",
       "volume": 3033
+    },
+    {
+      "close": 64.9,
+      "high": 68.0,
+      "low": 64.03,
+      "open": 68.0,
+      "time": "2026-09-29",
+      "volume": 3670
+    },
+    {
+      "close": 66.25,
+      "high": 68.12,
+      "low": 61.72,
+      "open": 64.8,
+      "time": "2026-09-30",
+      "volume": 4585
+    },
+    {
+      "close": 69.04,
+      "high": 69.5,
+      "low": 62.95,
+      "open": 64.1,
+      "time": "2026-10-01",
+      "volume": 9225
     }
   ],
   "company_name": "NORBEN TEA & EXPORTS LTD.",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-23",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.9x"
+    "momentum_score": 44,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "3.82x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.5,
-    "change_pct": -4.99,
-    "close": 66.62,
-    "previous_close": 70.12,
+    "as_of": "2026-10-01",
+    "change": 2.79,
+    "change_pct": 4.21,
+    "close": 69.04,
+    "previous_close": 66.25,
     "type": "EOD_CLOSE",
-    "volume": 3033
+    "volume": 9225
   },
   "range": {
-    "distance_from_high_pct": -32.94,
-    "distance_from_low_pct": 40.25,
+    "distance_from_high_pct": -30.51,
+    "distance_from_low_pct": 45.35,
     "high_52w": 99.35,
     "history_basis": "52_WEEK",
     "low_52w": 47.5,
-    "range_position_pct": 36.88
+    "range_position_pct": 41.54
   },
   "risk_model": {
-    "invalidation_floor": 64.29,
-    "risk_per_share": 3.66,
-    "technical_pivot": 67.95
+    "invalidation_floor": 66.62,
+    "risk_per_share": 3.8,
+    "technical_pivot": 70.42
   },
   "schema_version": "1.0",
   "sector": null,

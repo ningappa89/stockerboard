@@ -241,14 +241,38 @@
       "open": 7.23,
       "time": "2026-09-28",
       "volume": 9064
+    },
+    {
+      "close": 7.08,
+      "high": 7.09,
+      "low": 6.8,
+      "open": 6.85,
+      "time": "2026-09-29",
+      "volume": 4156
+    },
+    {
+      "close": 6.97,
+      "high": 7.08,
+      "low": 6.67,
+      "open": 7.07,
+      "time": "2026-09-30",
+      "volume": 6337
+    },
+    {
+      "close": 6.91,
+      "high": 7.11,
+      "low": 6.67,
+      "open": 7.11,
+      "time": "2026-10-01",
+      "volume": 3157
     }
   ],
   "company_name": "ODYSSEY CORPORATION LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE839E01023",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 61,
+    "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.12x"
+    "volume_multiplier": "0.05x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.17,
-    "change_pct": -2.42,
-    "close": 6.86,
-    "previous_close": 7.03,
+    "as_of": "2026-10-01",
+    "change": -0.06,
+    "change_pct": -0.86,
+    "close": 6.91,
+    "previous_close": 6.97,
     "type": "EOD_CLOSE",
-    "volume": 9064
+    "volume": 3157
   },
   "range": {
-    "distance_from_high_pct": -19.1,
-    "distance_from_low_pct": 20.14,
+    "distance_from_high_pct": -18.51,
+    "distance_from_low_pct": 21.02,
     "high_52w": 8.48,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 5.71,
-    "range_position_pct": 41.52
+    "range_position_pct": 43.32
   },
   "risk_model": {
-    "invalidation_floor": 6.62,
+    "invalidation_floor": 6.67,
     "risk_per_share": 0.5,
-    "technical_pivot": 7.0
+    "technical_pivot": 7.05
   },
   "schema_version": "1.0",
   "sector": null,

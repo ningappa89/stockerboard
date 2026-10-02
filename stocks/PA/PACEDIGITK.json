@@ -1937,14 +1937,38 @@
       "open": 166.0,
       "time": "2026-09-28",
       "volume": 548301
+    },
+    {
+      "close": 162.3,
+      "high": 163.35,
+      "low": 158.8,
+      "open": 160.92,
+      "time": "2026-09-29",
+      "volume": 418674
+    },
+    {
+      "close": 159.98,
+      "high": 164.58,
+      "low": 159.2,
+      "open": 161.82,
+      "time": "2026-09-30",
+      "volume": 350071
+    },
+    {
+      "close": 167.35,
+      "high": 177.9,
+      "low": 162.88,
+      "open": 165.99,
+      "time": "2026-10-01",
+      "volume": 22773380
     }
   ],
   "company_name": "Pace Digitek Limited",
   "history": {
     "first_session": "2025-10-06",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 242
+    "last_session": "2026-10-01",
+    "sessions_available": 245
   },
   "industry": null,
   "isin": "INE0S3G01027",
@@ -1952,31 +1976,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 44,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.27x"
+    "momentum_score": 48,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "7.39x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.54,
-    "change_pct": -2.73,
-    "close": 161.81,
-    "previous_close": 166.35,
+    "as_of": "2026-10-01",
+    "change": 7.37,
+    "change_pct": 4.61,
+    "close": 167.35,
+    "previous_close": 159.98,
     "type": "EOD_CLOSE",
-    "volume": 548301
+    "volume": 22773380
   },
   "range": {
-    "distance_from_high_pct": -30.24,
-    "distance_from_low_pct": 15.74,
+    "distance_from_high_pct": -27.85,
+    "distance_from_low_pct": 19.7,
     "high_52w": 231.95,
     "history_basis": "52_WEEK",
     "low_52w": 139.81,
-    "range_position_pct": 23.88
+    "range_position_pct": 29.89
   },
   "risk_model": {
-    "invalidation_floor": 156.15,
-    "risk_per_share": 8.9,
-    "technical_pivot": 165.05
+    "invalidation_floor": 161.49,
+    "risk_per_share": 9.21,
+    "technical_pivot": 170.7
   },
   "schema_version": "1.0",
   "sector": null,

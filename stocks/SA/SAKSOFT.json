@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 220.84,
-      "high": 224.75,
-      "low": 216.41,
-      "open": 220.89,
-      "time": "2025-09-19",
-      "volume": 632122
-    },
-    {
-      "close": 210.9,
-      "high": 217.35,
-      "low": 208.8,
-      "open": 208.8,
-      "time": "2025-09-22",
-      "volume": 527539
-    },
-    {
-      "close": 215.42,
-      "high": 218.9,
-      "low": 210.1,
-      "open": 210.1,
-      "time": "2025-09-23",
-      "volume": 368593
-    },
-    {
       "close": 211.96,
       "high": 216.79,
       "low": 210.75,
@@ -2017,13 +1993,37 @@
       "open": 142.47,
       "time": "2026-09-28",
       "volume": 166026
+    },
+    {
+      "close": 139.78,
+      "high": 142.68,
+      "low": 139.0,
+      "open": 142.5,
+      "time": "2026-09-29",
+      "volume": 179876
+    },
+    {
+      "close": 139.43,
+      "high": 143.67,
+      "low": 136.61,
+      "open": 140.0,
+      "time": "2026-09-30",
+      "volume": 169137
+    },
+    {
+      "close": 139.33,
+      "high": 141.97,
+      "low": 135.09,
+      "open": 139.9,
+      "time": "2026-10-01",
+      "volume": 241189
     }
   ],
   "company_name": "SAKSOFT LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.64x"
+    "volume_multiplier": "0.98x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.29,
-    "change_pct": 0.2,
-    "close": 141.81,
-    "previous_close": 141.52,
+    "as_of": "2026-10-01",
+    "change": -0.1,
+    "change_pct": -0.07,
+    "close": 139.33,
+    "previous_close": 139.43,
     "type": "EOD_CLOSE",
-    "volume": 166026
+    "volume": 241189
   },
   "range": {
-    "distance_from_high_pct": -36.9,
-    "distance_from_low_pct": 31.81,
-    "high_52w": 224.75,
+    "distance_from_high_pct": -37.52,
+    "distance_from_low_pct": 29.5,
+    "high_52w": 222.99,
     "history_basis": "52_WEEK",
     "low_52w": 107.59,
-    "range_position_pct": 29.21
+    "range_position_pct": 27.5
   },
   "risk_model": {
-    "invalidation_floor": 136.85,
-    "risk_per_share": 7.8,
-    "technical_pivot": 144.65
+    "invalidation_floor": 134.45,
+    "risk_per_share": 7.67,
+    "technical_pivot": 142.12
   },
   "schema_version": "1.0",
   "sector": null,

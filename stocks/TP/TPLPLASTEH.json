@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 75.4,
-      "high": 76.58,
-      "low": 75.0,
-      "open": 76.14,
-      "time": "2025-09-19",
-      "volume": 25443
-    },
-    {
-      "close": 75.76,
-      "high": 76.49,
-      "low": 74.9,
-      "open": 75.11,
-      "time": "2025-09-22",
-      "volume": 23226
-    },
-    {
-      "close": 75.04,
-      "high": 76.27,
-      "low": 74.8,
-      "open": 76.0,
-      "time": "2025-09-23",
-      "volume": 12927
-    },
-    {
       "close": 74.01,
       "high": 76.49,
       "low": 74.0,
@@ -2017,13 +1993,37 @@
       "open": 66.4,
       "time": "2026-09-28",
       "volume": 90395
+    },
+    {
+      "close": 65.26,
+      "high": 67.5,
+      "low": 63.15,
+      "open": 64.1,
+      "time": "2026-09-29",
+      "volume": 97097
+    },
+    {
+      "close": 71.14,
+      "high": 78.0,
+      "low": 68.0,
+      "open": 68.67,
+      "time": "2026-09-30",
+      "volume": 2013255
+    },
+    {
+      "close": 68.89,
+      "high": 70.75,
+      "low": 67.83,
+      "open": 69.9,
+      "time": "2026-10-01",
+      "volume": 188764
     }
   ],
   "company_name": "TPL PLASTECH LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 47,
+    "momentum_score": 54,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.7x"
+    "volume_multiplier": "0.84x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.95,
-    "change_pct": -1.44,
-    "close": 64.9,
-    "previous_close": 65.85,
+    "as_of": "2026-10-01",
+    "change": -2.25,
+    "change_pct": -3.16,
+    "close": 68.89,
+    "previous_close": 71.14,
     "type": "EOD_CLOSE",
-    "volume": 90395
+    "volume": 188764
   },
   "range": {
-    "distance_from_high_pct": -28.15,
-    "distance_from_low_pct": 29.77,
+    "distance_from_high_pct": -23.74,
+    "distance_from_low_pct": 37.75,
     "high_52w": 90.33,
     "history_basis": "52_WEEK",
     "low_52w": 50.01,
-    "range_position_pct": 36.93
+    "range_position_pct": 46.83
   },
   "risk_model": {
-    "invalidation_floor": 62.63,
-    "risk_per_share": 3.57,
-    "technical_pivot": 66.2
+    "invalidation_floor": 66.48,
+    "risk_per_share": 3.79,
+    "technical_pivot": 70.27
   },
   "schema_version": "1.0",
   "sector": null,

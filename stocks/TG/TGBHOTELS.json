@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 12.91,
-      "high": 13.19,
-      "low": 12.32,
-      "open": 12.7,
-      "time": "2025-09-19",
-      "volume": 339754
-    },
-    {
-      "close": 12.54,
-      "high": 13.09,
-      "low": 12.28,
-      "open": 12.28,
-      "time": "2025-09-22",
-      "volume": 45152
-    },
-    {
-      "close": 12.56,
-      "high": 12.9,
-      "low": 12.06,
-      "open": 12.8,
-      "time": "2025-09-23",
-      "volume": 36682
-    },
-    {
       "close": 12.39,
       "high": 13.4,
       "low": 12.17,
@@ -2017,13 +1993,37 @@
       "open": 9.85,
       "time": "2026-09-28",
       "volume": 71505
+    },
+    {
+      "close": 9.13,
+      "high": 9.34,
+      "low": 9.09,
+      "open": 9.16,
+      "time": "2026-09-29",
+      "volume": 20980
+    },
+    {
+      "close": 9.6,
+      "high": 10.24,
+      "low": 9.1,
+      "open": 9.48,
+      "time": "2026-09-30",
+      "volume": 33333
+    },
+    {
+      "close": 9.42,
+      "high": 9.8,
+      "low": 9.15,
+      "open": 9.55,
+      "time": "2026-10-01",
+      "volume": 3582
     }
   ],
   "company_name": "TGB BANQUETS&HOTELS LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.42x"
+    "momentum_score": 45,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.13x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.42,
-    "change_pct": -4.38,
-    "close": 9.16,
-    "previous_close": 9.58,
+    "as_of": "2026-10-01",
+    "change": -0.18,
+    "change_pct": -1.88,
+    "close": 9.42,
+    "previous_close": 9.6,
     "type": "EOD_CLOSE",
-    "volume": 71505
+    "volume": 3582
   },
   "range": {
-    "distance_from_high_pct": -31.64,
-    "distance_from_low_pct": 22.13,
+    "distance_from_high_pct": -29.7,
+    "distance_from_low_pct": 25.6,
     "high_52w": 13.4,
     "history_basis": "52_WEEK",
     "low_52w": 7.5,
-    "range_position_pct": 28.14
+    "range_position_pct": 32.54
   },
   "risk_model": {
-    "invalidation_floor": 8.84,
-    "risk_per_share": 0.5,
-    "technical_pivot": 9.34
+    "invalidation_floor": 9.09,
+    "risk_per_share": 0.52,
+    "technical_pivot": 9.61
   },
   "schema_version": "1.0",
   "sector": null,

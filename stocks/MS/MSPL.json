@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 38.13,
-      "high": 39.4,
-      "low": 37.75,
-      "open": 38.0,
-      "time": "2025-09-19",
-      "volume": 1037510
-    },
-    {
-      "close": 37.24,
-      "high": 38.59,
-      "low": 37.0,
-      "open": 38.1,
-      "time": "2025-09-22",
-      "volume": 589235
-    },
-    {
-      "close": 38.24,
-      "high": 38.79,
-      "low": 36.92,
-      "open": 36.92,
-      "time": "2025-09-23",
-      "volume": 1128974
-    },
-    {
       "close": 37.61,
       "high": 38.5,
       "low": 37.51,
@@ -2017,13 +1993,37 @@
       "open": 33.41,
       "time": "2026-09-28",
       "volume": 986058
+    },
+    {
+      "close": 33.55,
+      "high": 34.85,
+      "low": 32.64,
+      "open": 32.76,
+      "time": "2026-09-29",
+      "volume": 1388148
+    },
+    {
+      "close": 33.0,
+      "high": 34.95,
+      "low": 32.83,
+      "open": 33.83,
+      "time": "2026-09-30",
+      "volume": 2560393
+    },
+    {
+      "close": 32.52,
+      "high": 33.31,
+      "low": 31.66,
+      "open": 32.99,
+      "time": "2026-10-01",
+      "volume": 1038333
     }
   ],
   "company_name": "MSP STEEL & POWER LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 47,
+    "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.28x"
+    "volume_multiplier": "1.22x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.74,
-    "change_pct": -2.19,
-    "close": 32.99,
-    "previous_close": 33.73,
+    "as_of": "2026-10-01",
+    "change": -0.48,
+    "change_pct": -1.45,
+    "close": 32.52,
+    "previous_close": 33.0,
     "type": "EOD_CLOSE",
-    "volume": 986058
+    "volume": 1038333
   },
   "range": {
-    "distance_from_high_pct": -28.47,
-    "distance_from_low_pct": 25.68,
+    "distance_from_high_pct": -29.49,
+    "distance_from_low_pct": 23.89,
     "high_52w": 46.12,
     "history_basis": "52_WEEK",
     "low_52w": 26.25,
-    "range_position_pct": 33.92
+    "range_position_pct": 31.56
   },
   "risk_model": {
-    "invalidation_floor": 31.84,
-    "risk_per_share": 1.81,
-    "technical_pivot": 33.65
+    "invalidation_floor": 31.38,
+    "risk_per_share": 1.79,
+    "technical_pivot": 33.17
   },
   "schema_version": "1.0",
   "sector": null,

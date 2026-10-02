@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 29915.0,
-      "high": 30520.0,
-      "low": 29745.0,
-      "open": 30500.0,
-      "time": "2025-09-19",
-      "volume": 5608
-    },
-    {
-      "close": 29975.0,
-      "high": 30135.0,
-      "low": 29725.0,
-      "open": 29830.0,
-      "time": "2025-09-22",
-      "volume": 2008
-    },
-    {
-      "close": 29835.0,
-      "high": 30085.0,
-      "low": 29780.0,
-      "open": 30000.0,
-      "time": "2025-09-23",
-      "volume": 3373
-    },
-    {
       "close": 29375.0,
       "high": 29985.0,
       "low": 29280.0,
@@ -2017,13 +1993,37 @@
       "open": 33965.0,
       "time": "2026-09-28",
       "volume": 1497
+    },
+    {
+      "close": 31890.0,
+      "high": 33400.0,
+      "low": 31600.0,
+      "open": 33200.0,
+      "time": "2026-09-29",
+      "volume": 29335
+    },
+    {
+      "close": 32160.0,
+      "high": 32695.0,
+      "low": 31890.0,
+      "open": 31890.0,
+      "time": "2026-09-30",
+      "volume": 3548
+    },
+    {
+      "close": 30795.0,
+      "high": 31920.0,
+      "low": 30550.0,
+      "open": 31920.0,
+      "time": "2026-10-01",
+      "volume": 6078
     }
   ],
   "company_name": "3M INDIA LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 71,
+    "is_stage2": false,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.36x"
+    "volume_multiplier": "1.12x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -510.0,
-    "change_pct": -1.5,
-    "close": 33415.0,
-    "previous_close": 33925.0,
+    "as_of": "2026-10-01",
+    "change": -1365.0,
+    "change_pct": -4.24,
+    "close": 30795.0,
+    "previous_close": 32160.0,
     "type": "EOD_CLOSE",
-    "volume": 1497
+    "volume": 6078
   },
   "range": {
-    "distance_from_high_pct": -12.14,
-    "distance_from_low_pct": 16.31,
+    "distance_from_high_pct": -19.02,
+    "distance_from_low_pct": 7.19,
     "high_52w": 38030.0,
     "history_basis": "52_WEEK",
     "low_52w": 28730.0,
-    "range_position_pct": 50.38
+    "range_position_pct": 22.2
   },
   "risk_model": {
-    "invalidation_floor": 32245.47,
-    "risk_per_share": 1837.83,
-    "technical_pivot": 34083.3
+    "invalidation_floor": 29717.17,
+    "risk_per_share": 1693.73,
+    "technical_pivot": 31410.9
   },
   "schema_version": "1.0",
   "sector": null,

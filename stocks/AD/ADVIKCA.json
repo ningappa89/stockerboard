@@ -241,14 +241,38 @@
       "open": 0.97,
       "time": "2026-09-28",
       "volume": 152190
+    },
+    {
+      "close": 0.97,
+      "high": 0.99,
+      "low": 0.96,
+      "open": 0.96,
+      "time": "2026-09-29",
+      "volume": 226781
+    },
+    {
+      "close": 1.0,
+      "high": 1.07,
+      "low": 0.86,
+      "open": 0.96,
+      "time": "2026-09-30",
+      "volume": 1451821
+    },
+    {
+      "close": 1.0,
+      "high": 1.04,
+      "low": 0.96,
+      "open": 1.0,
+      "time": "2026-10-01",
+      "volume": 192362
     }
   ],
   "company_name": "Advik Capital Limited",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE178T01024",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 54,
+    "momentum_score": 58,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.38x"
+    "volume_multiplier": "0.48x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.01,
-    "change_pct": -1.02,
-    "close": 0.97,
-    "previous_close": 0.98,
+    "as_of": "2026-10-01",
+    "change": 0.0,
+    "change_pct": 0.0,
+    "close": 1.0,
+    "previous_close": 1.0,
     "type": "EOD_CLOSE",
-    "volume": 152190
+    "volume": 192362
   },
   "range": {
-    "distance_from_high_pct": -23.62,
-    "distance_from_low_pct": 6.59,
+    "distance_from_high_pct": -21.26,
+    "distance_from_low_pct": 16.28,
     "high_52w": 1.27,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 0.91,
-    "range_position_pct": 16.67
+    "low_52w": 0.86,
+    "range_position_pct": 34.15
   },
   "risk_model": {
-    "invalidation_floor": 0.94,
+    "invalidation_floor": 0.96,
     "risk_per_share": 0.5,
-    "technical_pivot": 0.99
+    "technical_pivot": 1.02
   },
   "schema_version": "1.0",
   "sector": null,

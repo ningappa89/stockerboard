@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2524.0,
-      "high": 2579.0,
-      "low": 2466.1,
-      "open": 2495.0,
-      "time": "2025-09-19",
-      "volume": 7965135
-    },
-    {
-      "close": 2629.5,
-      "high": 2659.0,
-      "low": 2522.1,
-      "open": 2535.0,
-      "time": "2025-09-22",
-      "volume": 7022985
-    },
-    {
-      "close": 2676.4,
-      "high": 2695.0,
-      "low": 2593.0,
-      "open": 2642.6,
-      "time": "2025-09-23",
-      "volume": 5610022
-    },
-    {
       "close": 2619.8,
       "high": 2676.0,
       "low": 2614.4,
@@ -2017,13 +1993,37 @@
       "open": 2924.0,
       "time": "2026-09-28",
       "volume": 1259525
+    },
+    {
+      "close": 2972.9,
+      "high": 2972.9,
+      "low": 2793.7,
+      "open": 2834.6,
+      "time": "2026-09-29",
+      "volume": 4062231
+    },
+    {
+      "close": 2903.4,
+      "high": 2957.6,
+      "low": 2880.0,
+      "open": 2910.0,
+      "time": "2026-09-30",
+      "volume": 1663023
+    },
+    {
+      "close": 2816.8,
+      "high": 2903.7,
+      "low": 2772.0,
+      "open": 2900.0,
+      "time": "2026-10-01",
+      "volume": 2100334
     }
   ],
   "company_name": "ADANI ENTERPRISES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Metals & Mining",
@@ -2034,29 +2034,29 @@
     "is_stage2": true,
     "momentum_score": 70,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.61x"
+    "volume_multiplier": "1.37x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -85.4,
-    "change_pct": -2.93,
-    "close": 2831.1,
-    "previous_close": 2916.5,
+    "as_of": "2026-10-01",
+    "change": -86.6,
+    "change_pct": -2.98,
+    "close": 2816.8,
+    "previous_close": 2903.4,
     "type": "EOD_CLOSE",
-    "volume": 1259525
+    "volume": 2100334
   },
   "range": {
-    "distance_from_high_pct": -12.76,
-    "distance_from_low_pct": 61.5,
+    "distance_from_high_pct": -13.2,
+    "distance_from_low_pct": 60.68,
     "high_52w": 3245.0,
     "history_basis": "52_WEEK",
     "low_52w": 1753.0,
-    "range_position_pct": 72.26
+    "range_position_pct": 71.3
   },
   "risk_model": {
-    "invalidation_floor": 2732.01,
-    "risk_per_share": 155.71,
-    "technical_pivot": 2887.72
+    "invalidation_floor": 2718.21,
+    "risk_per_share": 154.93,
+    "technical_pivot": 2873.14
   },
   "schema_version": "1.0",
   "sector": "Metals & Mining",

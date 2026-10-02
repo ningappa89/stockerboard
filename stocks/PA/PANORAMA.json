@@ -241,14 +241,38 @@
       "open": 61.25,
       "time": "2026-09-28",
       "volume": 3225055
+    },
+    {
+      "close": 57.77,
+      "high": 59.3,
+      "low": 52.77,
+      "open": 57.5,
+      "time": "2026-09-29",
+      "volume": 1380319
+    },
+    {
+      "close": 58.29,
+      "high": 62.15,
+      "low": 55.0,
+      "open": 59.0,
+      "time": "2026-09-30",
+      "volume": 1206378
+    },
+    {
+      "close": 60.91,
+      "high": 62.2,
+      "low": 57.01,
+      "open": 57.02,
+      "time": "2026-10-01",
+      "volume": 809424
     }
   ],
   "company_name": "PANORAMA STUDIOS INTERNATIONAL",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE258R01028",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 77,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "4.9x"
+    "momentum_score": 81,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.02x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.21,
-    "change_pct": -2.0,
-    "close": 59.25,
-    "previous_close": 60.46,
+    "as_of": "2026-10-01",
+    "change": 2.62,
+    "change_pct": 4.49,
+    "close": 60.91,
+    "previous_close": 58.29,
     "type": "EOD_CLOSE",
-    "volume": 3225055
+    "volume": 809424
   },
   "range": {
-    "distance_from_high_pct": -8.56,
-    "distance_from_low_pct": 48.12,
+    "distance_from_high_pct": -6.0,
+    "distance_from_low_pct": 52.27,
     "high_52w": 64.8,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 40.0,
-    "range_position_pct": 77.62
+    "range_position_pct": 84.31
   },
   "risk_model": {
-    "invalidation_floor": 57.18,
-    "risk_per_share": 3.26,
-    "technical_pivot": 60.44
+    "invalidation_floor": 58.78,
+    "risk_per_share": 3.35,
+    "technical_pivot": 62.13
   },
   "schema_version": "1.0",
   "sector": null,

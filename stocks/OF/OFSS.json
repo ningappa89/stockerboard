@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 9018.0,
-      "high": 9215.0,
-      "low": 9001.5,
-      "open": 9195.0,
-      "time": "2025-09-19",
-      "volume": 193760
-    },
-    {
-      "close": 9056.5,
-      "high": 9115.5,
-      "low": 8860.5,
-      "open": 8900.0,
-      "time": "2025-09-22",
-      "volume": 145431
-    },
-    {
-      "close": 9104.0,
-      "high": 9211.5,
-      "low": 9035.0,
-      "open": 9098.0,
-      "time": "2025-09-23",
-      "volume": 130689
-    },
-    {
       "close": 9061.5,
       "high": 9108.0,
       "low": 8955.0,
@@ -2017,13 +1993,37 @@
       "open": 10749.0,
       "time": "2026-09-28",
       "volume": 194825
+    },
+    {
+      "close": 10406.0,
+      "high": 10876.0,
+      "low": 10406.0,
+      "open": 10800.0,
+      "time": "2026-09-29",
+      "volume": 181154
+    },
+    {
+      "close": 10630.0,
+      "high": 10869.0,
+      "low": 10500.0,
+      "open": 10525.0,
+      "time": "2026-09-30",
+      "volume": 272759
+    },
+    {
+      "close": 10420.0,
+      "high": 10661.0,
+      "low": 10263.0,
+      "open": 10575.0,
+      "time": "2026-10-01",
+      "volume": 194062
     }
   ],
   "company_name": "ORACLE FINANCIAL SERVICES SOFT",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Information Technology",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.81x"
+    "volume_multiplier": "0.86x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 30.0,
-    "change_pct": 0.28,
-    "close": 10800.0,
-    "previous_close": 10770.0,
+    "as_of": "2026-10-01",
+    "change": -210.0,
+    "change_pct": -1.98,
+    "close": 10420.0,
+    "previous_close": 10630.0,
     "type": "EOD_CLOSE",
-    "volume": 194825
+    "volume": 194062
   },
   "range": {
-    "distance_from_high_pct": -13.88,
-    "distance_from_low_pct": 73.23,
+    "distance_from_high_pct": -16.91,
+    "distance_from_low_pct": 67.13,
     "high_52w": 12540.0,
     "history_basis": "52_WEEK",
     "low_52w": 6234.5,
-    "range_position_pct": 72.41
+    "range_position_pct": 66.38
   },
   "risk_model": {
-    "invalidation_floor": 10422.0,
-    "risk_per_share": 594.0,
-    "technical_pivot": 11016.0
+    "invalidation_floor": 10055.3,
+    "risk_per_share": 573.1,
+    "technical_pivot": 10628.4
   },
   "schema_version": "1.0",
   "sector": "Information Technology",

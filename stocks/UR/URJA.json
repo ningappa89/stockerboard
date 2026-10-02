@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 13.92,
-      "high": 14.45,
-      "low": 13.82,
-      "open": 14.26,
-      "time": "2025-09-19",
-      "volume": 2506711
-    },
-    {
-      "close": 13.83,
-      "high": 14.2,
-      "low": 13.75,
-      "open": 14.0,
-      "time": "2025-09-22",
-      "volume": 1002983
-    },
-    {
-      "close": 13.86,
-      "high": 13.95,
-      "low": 13.73,
-      "open": 13.94,
-      "time": "2025-09-23",
-      "volume": 1095173
-    },
-    {
       "close": 13.56,
       "high": 14.01,
       "low": 13.45,
@@ -2017,13 +1993,37 @@
       "open": 8.66,
       "time": "2026-09-28",
       "volume": 647638
+    },
+    {
+      "close": 8.9,
+      "high": 9.0,
+      "low": 8.55,
+      "open": 8.75,
+      "time": "2026-09-29",
+      "volume": 675563
+    },
+    {
+      "close": 8.77,
+      "high": 8.93,
+      "low": 8.67,
+      "open": 8.88,
+      "time": "2026-09-30",
+      "volume": 428412
+    },
+    {
+      "close": 8.61,
+      "high": 8.89,
+      "low": 8.51,
+      "open": 8.75,
+      "time": "2026-10-01",
+      "volume": 520756
     }
   ],
   "company_name": "URJA GLOBAL LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.13x"
+    "volume_multiplier": "0.94x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.2,
-    "change_pct": -2.23,
-    "close": 8.75,
-    "previous_close": 8.95,
+    "as_of": "2026-10-01",
+    "change": -0.16,
+    "change_pct": -1.82,
+    "close": 8.61,
+    "previous_close": 8.77,
     "type": "EOD_CLOSE",
-    "volume": 647638
+    "volume": 520756
   },
   "range": {
-    "distance_from_high_pct": -39.45,
-    "distance_from_low_pct": 9.38,
-    "high_52w": 14.45,
+    "distance_from_high_pct": -38.54,
+    "distance_from_low_pct": 7.62,
+    "high_52w": 14.01,
     "history_basis": "52_WEEK",
     "low_52w": 8.0,
-    "range_position_pct": 11.63
+    "range_position_pct": 10.15
   },
   "risk_model": {
-    "invalidation_floor": 8.44,
+    "invalidation_floor": 8.31,
     "risk_per_share": 0.5,
-    "technical_pivot": 8.93
+    "technical_pivot": 8.78
   },
   "schema_version": "1.0",
   "sector": null,

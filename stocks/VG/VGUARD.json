@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 374.35,
-      "high": 375.4,
-      "low": 368.05,
-      "open": 368.05,
-      "time": "2025-09-19",
-      "volume": 451134
-    },
-    {
-      "close": 369.8,
-      "high": 374.5,
-      "low": 367.95,
-      "open": 374.5,
-      "time": "2025-09-22",
-      "volume": 89708
-    },
-    {
-      "close": 366.35,
-      "high": 372.5,
-      "low": 365.25,
-      "open": 370.7,
-      "time": "2025-09-23",
-      "volume": 60867
-    },
-    {
       "close": 365.5,
       "high": 366.95,
       "low": 361.1,
@@ -2017,13 +1993,37 @@
       "open": 306.85,
       "time": "2026-09-28",
       "volume": 383502
+    },
+    {
+      "close": 307.05,
+      "high": 310.65,
+      "low": 302.8,
+      "open": 305.4,
+      "time": "2026-09-29",
+      "volume": 269210
+    },
+    {
+      "close": 296.45,
+      "high": 307.75,
+      "low": 295.25,
+      "open": 307.05,
+      "time": "2026-09-30",
+      "volume": 995389
+    },
+    {
+      "close": 294.55,
+      "high": 299.8,
+      "low": 290.15,
+      "open": 297.05,
+      "time": "2026-10-01",
+      "volume": 359135
     }
   ],
   "company_name": "V-GUARD INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Consumer Durables",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 57,
+    "momentum_score": 52,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.75x"
+    "volume_multiplier": "0.85x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 2.9,
-    "change_pct": 0.95,
-    "close": 307.25,
-    "previous_close": 304.35,
+    "as_of": "2026-10-01",
+    "change": -1.9,
+    "change_pct": -0.64,
+    "close": 294.55,
+    "previous_close": 296.45,
     "type": "EOD_CLOSE",
-    "volume": 383502
+    "volume": 359135
   },
   "range": {
-    "distance_from_high_pct": -21.66,
-    "distance_from_low_pct": 6.39,
+    "distance_from_high_pct": -24.9,
+    "distance_from_low_pct": 1.99,
     "high_52w": 392.2,
     "history_basis": "52_WEEK",
     "low_52w": 288.8,
-    "range_position_pct": 17.84
+    "range_position_pct": 5.56
   },
   "risk_model": {
-    "invalidation_floor": 296.5,
-    "risk_per_share": 16.89,
-    "technical_pivot": 313.39
+    "invalidation_floor": 284.24,
+    "risk_per_share": 16.2,
+    "technical_pivot": 300.44
   },
   "schema_version": "1.0",
   "sector": "Consumer Durables",

@@ -241,14 +241,38 @@
       "open": 366.0,
       "time": "2026-09-28",
       "volume": 8487
+    },
+    {
+      "close": 365.6,
+      "high": 368.3,
+      "low": 357.0,
+      "open": 366.9,
+      "time": "2026-09-29",
+      "volume": 4961
+    },
+    {
+      "close": 358.9,
+      "high": 367.4,
+      "low": 355.05,
+      "open": 365.9,
+      "time": "2026-09-30",
+      "volume": 12756
+    },
+    {
+      "close": 358.9,
+      "high": 363.2,
+      "low": 350.05,
+      "open": 358.9,
+      "time": "2026-10-01",
+      "volume": 5267
     }
   ],
   "company_name": "SUNRAKSHAKK INDUSTRIES INDIA L",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE671K01027",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 81,
+    "momentum_score": 80,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.04x"
+    "volume_multiplier": "0.65x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -6.55,
-    "change_pct": -1.79,
-    "close": 359.65,
-    "previous_close": 366.2,
+    "as_of": "2026-10-01",
+    "change": 0.0,
+    "change_pct": 0.0,
+    "close": 358.9,
+    "previous_close": 358.9,
     "type": "EOD_CLOSE",
-    "volume": 8487
+    "volume": 5267
   },
   "range": {
-    "distance_from_high_pct": -5.95,
-    "distance_from_low_pct": 2.73,
+    "distance_from_high_pct": -6.15,
+    "distance_from_low_pct": 2.53,
     "high_52w": 382.4,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 350.1,
-    "range_position_pct": 29.57
+    "low_52w": 350.05,
+    "range_position_pct": 27.36
   },
   "risk_model": {
-    "invalidation_floor": 347.06,
-    "risk_per_share": 19.78,
-    "technical_pivot": 366.84
+    "invalidation_floor": 346.34,
+    "risk_per_share": 19.74,
+    "technical_pivot": 366.08
   },
   "schema_version": "1.0",
   "sector": null,

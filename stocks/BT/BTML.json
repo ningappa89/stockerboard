@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 9.18,
-      "high": 9.59,
-      "low": 9.0,
-      "open": 9.44,
-      "time": "2025-09-19",
-      "volume": 500737
-    },
-    {
-      "close": 9.03,
-      "high": 9.25,
-      "low": 9.02,
-      "open": 9.18,
-      "time": "2025-09-22",
-      "volume": 93183
-    },
-    {
-      "close": 9.16,
-      "high": 9.43,
-      "low": 9.07,
-      "open": 9.43,
-      "time": "2025-09-23",
-      "volume": 92441
-    },
-    {
       "close": 9.08,
       "high": 9.34,
       "low": 9.01,
@@ -2017,13 +1993,37 @@
       "open": 7.44,
       "time": "2026-09-28",
       "volume": 184029
+    },
+    {
+      "close": 7.03,
+      "high": 7.25,
+      "low": 6.96,
+      "open": 7.15,
+      "time": "2026-09-29",
+      "volume": 105273
+    },
+    {
+      "close": 6.97,
+      "high": 7.44,
+      "low": 6.91,
+      "open": 6.91,
+      "time": "2026-09-30",
+      "volume": 91799
+    },
+    {
+      "close": 7.09,
+      "high": 7.25,
+      "low": 6.31,
+      "open": 7.1,
+      "time": "2026-10-01",
+      "volume": 1395797
     }
   ],
   "company_name": "BODHI TREE MULTIMEDIA LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 45,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.31x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.29x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.31,
-    "change_pct": -4.16,
-    "close": 7.15,
-    "previous_close": 7.46,
+    "as_of": "2026-10-01",
+    "change": 0.12,
+    "change_pct": 1.72,
+    "close": 7.09,
+    "previous_close": 6.97,
     "type": "EOD_CLOSE",
-    "volume": 184029
+    "volume": 1395797
   },
   "range": {
-    "distance_from_high_pct": -29.35,
-    "distance_from_low_pct": 41.3,
+    "distance_from_high_pct": -29.94,
+    "distance_from_low_pct": 40.12,
     "high_52w": 10.12,
     "history_basis": "52_WEEK",
     "low_52w": 5.06,
-    "range_position_pct": 41.3
+    "range_position_pct": 40.12
   },
   "risk_model": {
-    "invalidation_floor": 6.9,
+    "invalidation_floor": 6.84,
     "risk_per_share": 0.5,
-    "technical_pivot": 7.29
+    "technical_pivot": 7.23
   },
   "schema_version": "1.0",
   "sector": null,

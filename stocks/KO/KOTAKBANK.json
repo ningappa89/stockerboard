@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 406.2,
-      "high": 410.92,
-      "low": 405.48,
-      "open": 410.92,
-      "time": "2025-09-19",
-      "volume": 22431125
-    },
-    {
-      "close": 404.34,
-      "high": 407.92,
-      "low": 403.48,
-      "open": 406.4,
-      "time": "2025-09-22",
-      "volume": 13229910
-    },
-    {
-      "close": 409.54,
-      "high": 410.62,
-      "low": 401.68,
-      "open": 404.6,
-      "time": "2025-09-23",
-      "volume": 25428240
-    },
-    {
       "close": 406.26,
       "high": 409.62,
       "low": 405.8,
@@ -2017,13 +1993,37 @@
       "open": 402.0,
       "time": "2026-09-28",
       "volume": 15062655
+    },
+    {
+      "close": 406.0,
+      "high": 409.25,
+      "low": 394.7,
+      "open": 401.25,
+      "time": "2026-09-29",
+      "volume": 32613940
+    },
+    {
+      "close": 417.0,
+      "high": 419.15,
+      "low": 405.95,
+      "open": 406.1,
+      "time": "2026-09-30",
+      "volume": 32537029
+    },
+    {
+      "close": 418.35,
+      "high": 435.6,
+      "low": 416.05,
+      "open": 426.0,
+      "time": "2026-10-01",
+      "volume": 76637247
     }
   ],
   "company_name": "KOTAK MAHINDRA BANK LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 72,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.34x"
+    "momentum_score": 78,
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "4.65x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.45,
-    "change_pct": -0.61,
-    "close": 401.55,
-    "previous_close": 404.0,
+    "as_of": "2026-10-01",
+    "change": 1.35,
+    "change_pct": 0.32,
+    "close": 418.35,
+    "previous_close": 417.0,
     "type": "EOD_CLOSE",
-    "volume": 15062655
+    "volume": 76637247
   },
   "range": {
-    "distance_from_high_pct": -11.4,
-    "distance_from_low_pct": 16.22,
+    "distance_from_high_pct": -7.69,
+    "distance_from_low_pct": 21.09,
     "high_52w": 453.2,
     "history_basis": "52_WEEK",
     "low_52w": 345.5,
-    "range_position_pct": 52.04
+    "range_position_pct": 67.64
   },
   "risk_model": {
-    "invalidation_floor": 387.5,
-    "risk_per_share": 22.08,
-    "technical_pivot": 409.58
+    "invalidation_floor": 403.71,
+    "risk_per_share": 23.01,
+    "technical_pivot": 426.72
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

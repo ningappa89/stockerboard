@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 255.88,
-      "high": 257.66,
-      "low": 254.7,
-      "open": 257.0,
-      "time": "2025-09-19",
-      "volume": 10741757
-    },
-    {
-      "close": 250.33,
-      "high": 251.78,
-      "low": 247.21,
-      "open": 248.55,
-      "time": "2025-09-22",
-      "volume": 15784007
-    },
-    {
-      "close": 249.63,
-      "high": 252.0,
-      "low": 248.75,
-      "open": 250.22,
-      "time": "2025-09-23",
-      "volume": 8674114
-    },
-    {
       "close": 244.59,
       "high": 249.12,
       "low": 244.25,
@@ -2017,13 +1993,37 @@
       "open": 164.02,
       "time": "2026-09-28",
       "volume": 10309220
+    },
+    {
+      "close": 156.79,
+      "high": 162.43,
+      "low": 156.79,
+      "open": 161.0,
+      "time": "2026-09-29",
+      "volume": 164453787
+    },
+    {
+      "close": 158.5,
+      "high": 161.73,
+      "low": 157.01,
+      "open": 157.01,
+      "time": "2026-09-30",
+      "volume": 15966068
+    },
+    {
+      "close": 159.35,
+      "high": 160.95,
+      "low": 157.25,
+      "open": 158.61,
+      "time": "2026-10-01",
+      "volume": 18521731
     }
   ],
   "company_name": "WIPRO LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Information Technology",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.96x"
+    "volume_multiplier": "0.98x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.46,
-    "change_pct": -1.5,
-    "close": 161.56,
-    "previous_close": 164.02,
+    "as_of": "2026-10-01",
+    "change": 0.85,
+    "change_pct": 0.54,
+    "close": 159.35,
+    "previous_close": 158.5,
     "type": "EOD_CLOSE",
-    "volume": 10309220
+    "volume": 18521731
   },
   "range": {
-    "distance_from_high_pct": -40.84,
-    "distance_from_low_pct": 0.37,
+    "distance_from_high_pct": -41.65,
+    "distance_from_low_pct": 1.63,
     "high_52w": 273.1,
     "history_basis": "52_WEEK",
-    "low_52w": 160.97,
-    "range_position_pct": 0.53
+    "low_52w": 156.79,
+    "range_position_pct": 2.2
   },
   "risk_model": {
-    "invalidation_floor": 155.91,
-    "risk_per_share": 8.88,
-    "technical_pivot": 164.79
+    "invalidation_floor": 153.77,
+    "risk_per_share": 8.77,
+    "technical_pivot": 162.54
   },
   "schema_version": "1.0",
   "sector": "Information Technology",

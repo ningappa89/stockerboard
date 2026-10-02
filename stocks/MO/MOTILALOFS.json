@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 944.7,
-      "high": 962.0,
-      "low": 921.5,
-      "open": 923.05,
-      "time": "2025-09-19",
-      "volume": 2360368
-    },
-    {
-      "close": 950.3,
-      "high": 962.0,
-      "low": 940.45,
-      "open": 943.45,
-      "time": "2025-09-22",
-      "volume": 766897
-    },
-    {
-      "close": 958.35,
-      "high": 962.0,
-      "low": 943.65,
-      "open": 951.0,
-      "time": "2025-09-23",
-      "volume": 684313
-    },
-    {
       "close": 943.75,
       "high": 966.5,
       "low": 936.55,
@@ -2017,13 +1993,37 @@
       "open": 1028.9,
       "time": "2026-09-28",
       "volume": 709373
+    },
+    {
+      "close": 996.2,
+      "high": 1013.8,
+      "low": 995.5,
+      "open": 1002.0,
+      "time": "2026-09-29",
+      "volume": 873780
+    },
+    {
+      "close": 994.0,
+      "high": 1016.5,
+      "low": 994.0,
+      "open": 999.9,
+      "time": "2026-09-30",
+      "volume": 766759
+    },
+    {
+      "close": 989.9,
+      "high": 996.7,
+      "low": 965.05,
+      "open": 994.0,
+      "time": "2026-10-01",
+      "volume": 1607962
     }
   ],
   "company_name": "MOTILAL OSWAL FINANCIAL SERVIC",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 78,
+    "momentum_score": 75,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.89x"
+    "volume_multiplier": "1.89x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -17.4,
-    "change_pct": -1.69,
-    "close": 1011.6,
-    "previous_close": 1029.0,
+    "as_of": "2026-10-01",
+    "change": -4.1,
+    "change_pct": -0.41,
+    "close": 989.9,
+    "previous_close": 994.0,
     "type": "EOD_CLOSE",
-    "volume": 709373
+    "volume": 1607962
   },
   "range": {
-    "distance_from_high_pct": -7.79,
-    "distance_from_low_pct": 64.51,
+    "distance_from_high_pct": -9.77,
+    "distance_from_low_pct": 60.99,
     "high_52w": 1097.1,
     "history_basis": "52_WEEK",
     "low_52w": 614.9,
-    "range_position_pct": 82.27
+    "range_position_pct": 77.77
   },
   "risk_model": {
-    "invalidation_floor": 976.19,
-    "risk_per_share": 55.64,
-    "technical_pivot": 1031.83
+    "invalidation_floor": 955.25,
+    "risk_per_share": 54.45,
+    "technical_pivot": 1009.7
   },
   "schema_version": "1.0",
   "sector": null,

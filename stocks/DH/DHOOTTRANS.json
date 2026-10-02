@@ -241,46 +241,70 @@
       "open": 1569.0,
       "time": "2026-09-28",
       "volume": 711572
+    },
+    {
+      "close": 1504.6,
+      "high": 1524.9,
+      "low": 1477.7,
+      "open": 1508.9,
+      "time": "2026-09-29",
+      "volume": 617575
+    },
+    {
+      "close": 1488.8,
+      "high": 1518.9,
+      "low": 1480.0,
+      "open": 1505.0,
+      "time": "2026-09-30",
+      "volume": 580685
+    },
+    {
+      "close": 1443.4,
+      "high": 1499.9,
+      "low": 1405.2,
+      "open": 1494.0,
+      "time": "2026-10-01",
+      "volume": 1004650
     }
   ],
   "company_name": "DHOOT TRANSMISSION LTD",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE01NH01023",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
+    "is_stage2": false,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.27x"
+    "volume_multiplier": "0.44x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -56.3,
-    "change_pct": -3.61,
-    "close": 1504.2,
-    "previous_close": 1560.5,
+    "as_of": "2026-10-01",
+    "change": -45.4,
+    "change_pct": -3.05,
+    "close": 1443.4,
+    "previous_close": 1488.8,
     "type": "EOD_CLOSE",
-    "volume": 711572
+    "volume": 1004650
   },
   "range": {
-    "distance_from_high_pct": -13.32,
-    "distance_from_low_pct": 33.0,
+    "distance_from_high_pct": -16.82,
+    "distance_from_low_pct": 27.62,
     "high_52w": 1735.3,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 1131.0,
-    "range_position_pct": 61.76
+    "range_position_pct": 51.7
   },
   "risk_model": {
-    "invalidation_floor": 1451.55,
-    "risk_per_share": 82.73,
-    "technical_pivot": 1534.28
+    "invalidation_floor": 1392.88,
+    "risk_per_share": 79.39,
+    "technical_pivot": 1472.27
   },
   "schema_version": "1.0",
   "sector": null,

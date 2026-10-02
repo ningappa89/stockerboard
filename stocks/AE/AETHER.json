@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 736.1,
-      "high": 739.95,
-      "low": 726.45,
-      "open": 732.25,
-      "time": "2025-09-19",
-      "volume": 93510
-    },
-    {
-      "close": 751.5,
-      "high": 765.9,
-      "low": 732.55,
-      "open": 739.7,
-      "time": "2025-09-22",
-      "volume": 302934
-    },
-    {
-      "close": 740.9,
-      "high": 758.35,
-      "low": 737.45,
-      "open": 751.0,
-      "time": "2025-09-23",
-      "volume": 77629
-    },
-    {
       "close": 736.8,
       "high": 750.0,
       "low": 733.1,
@@ -2017,46 +1993,70 @@
       "open": 1768.0,
       "time": "2026-09-28",
       "volume": 318334
+    },
+    {
+      "close": 1749.9,
+      "high": 1773.7,
+      "low": 1707.0,
+      "open": 1746.9,
+      "time": "2026-09-29",
+      "volume": 521059
+    },
+    {
+      "close": 1699.3,
+      "high": 1758.2,
+      "low": 1685.6,
+      "open": 1758.2,
+      "time": "2026-09-30",
+      "volume": 292457
+    },
+    {
+      "close": 1670.0,
+      "high": 1700.7,
+      "low": 1633.1,
+      "open": 1680.0,
+      "time": "2026-10-01",
+      "volume": 373389
     }
   ],
   "company_name": "AETHER INDUSTRIES LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE0BWX01014",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 85,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "1.16x"
+    "momentum_score": 79,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.24x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -27.8,
-    "change_pct": -1.57,
-    "close": 1739.2,
-    "previous_close": 1767.0,
+    "as_of": "2026-10-01",
+    "change": -29.3,
+    "change_pct": -1.72,
+    "close": 1670.0,
+    "previous_close": 1699.3,
     "type": "EOD_CLOSE",
-    "volume": 318334
+    "volume": 373389
   },
   "range": {
-    "distance_from_high_pct": -3.27,
-    "distance_from_low_pct": 139.41,
+    "distance_from_high_pct": -7.12,
+    "distance_from_low_pct": 129.4,
     "high_52w": 1798.0,
     "history_basis": "52_WEEK",
-    "low_52w": 726.45,
-    "range_position_pct": 94.51
+    "low_52w": 728.0,
+    "range_position_pct": 88.04
   },
   "risk_model": {
-    "invalidation_floor": 1678.33,
-    "risk_per_share": 95.65,
-    "technical_pivot": 1773.98
+    "invalidation_floor": 1611.55,
+    "risk_per_share": 91.85,
+    "technical_pivot": 1703.4
   },
   "schema_version": "1.0",
   "sector": null,

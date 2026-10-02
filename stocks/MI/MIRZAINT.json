@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 42.54,
-      "high": 44.0,
-      "low": 40.41,
-      "open": 41.69,
-      "time": "2025-09-19",
-      "volume": 1069796
-    },
-    {
-      "close": 41.24,
-      "high": 43.29,
-      "low": 41.01,
-      "open": 42.83,
-      "time": "2025-09-22",
-      "volume": 474385
-    },
-    {
-      "close": 40.21,
-      "high": 41.5,
-      "low": 39.6,
-      "open": 41.5,
-      "time": "2025-09-23",
-      "volume": 330146
-    },
-    {
       "close": 39.24,
       "high": 41.35,
       "low": 39.14,
@@ -2017,13 +1993,37 @@
       "open": 29.29,
       "time": "2026-09-28",
       "volume": 86548
+    },
+    {
+      "close": 28.09,
+      "high": 29.0,
+      "low": 28.0,
+      "open": 29.0,
+      "time": "2026-09-29",
+      "volume": 100699
+    },
+    {
+      "close": 27.94,
+      "high": 28.48,
+      "low": 27.9,
+      "open": 28.3,
+      "time": "2026-09-30",
+      "volume": 82196
+    },
+    {
+      "close": 27.65,
+      "high": 28.36,
+      "low": 27.5,
+      "open": 27.7,
+      "time": "2026-10-01",
+      "volume": 57360
     }
   ],
   "company_name": "MIRZA INTERNATIONAL LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.82x"
+    "volume_multiplier": "0.55x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.24,
-    "change_pct": -0.83,
-    "close": 28.68,
-    "previous_close": 28.92,
+    "as_of": "2026-10-01",
+    "change": -0.29,
+    "change_pct": -1.04,
+    "close": 27.65,
+    "previous_close": 27.94,
     "type": "EOD_CLOSE",
-    "volume": 86548
+    "volume": 57360
   },
   "range": {
-    "distance_from_high_pct": -34.82,
-    "distance_from_low_pct": 14.95,
-    "high_52w": 44.0,
+    "distance_from_high_pct": -36.14,
+    "distance_from_low_pct": 10.82,
+    "high_52w": 43.3,
     "history_basis": "52_WEEK",
     "low_52w": 24.95,
-    "range_position_pct": 19.58
+    "range_position_pct": 14.71
   },
   "risk_model": {
-    "invalidation_floor": 27.68,
-    "risk_per_share": 1.57,
-    "technical_pivot": 29.25
+    "invalidation_floor": 26.68,
+    "risk_per_share": 1.52,
+    "technical_pivot": 28.2
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 13778.0,
-      "high": 14017.0,
-      "low": 13256.0,
-      "open": 13394.0,
-      "time": "2025-09-19",
-      "volume": 39426
-    },
-    {
-      "close": 13534.0,
-      "high": 13778.0,
-      "low": 13501.0,
-      "open": 13778.0,
-      "time": "2025-09-22",
-      "volume": 13682
-    },
-    {
-      "close": 13408.0,
-      "high": 13598.0,
-      "low": 13372.0,
-      "open": 13534.0,
-      "time": "2025-09-23",
-      "volume": 8699
-    },
-    {
       "close": 13633.0,
       "high": 13699.0,
       "low": 13338.0,
@@ -2017,13 +1993,37 @@
       "open": 7049.0,
       "time": "2026-09-28",
       "volume": 22679
+    },
+    {
+      "close": 6871.5,
+      "high": 6946.0,
+      "low": 6804.0,
+      "open": 6900.0,
+      "time": "2026-09-29",
+      "volume": 25253
+    },
+    {
+      "close": 6798.5,
+      "high": 6956.5,
+      "low": 6782.0,
+      "open": 6904.0,
+      "time": "2026-09-30",
+      "volume": 44984
+    },
+    {
+      "close": 6639.0,
+      "high": 6798.5,
+      "low": 6579.0,
+      "open": 6798.5,
+      "time": "2026-10-01",
+      "volume": 23880
     }
   ],
   "company_name": "PROCTER & GAMBLE HYGIENE & HEA",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.13x"
+    "volume_multiplier": "1.08x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -149.0,
-    "change_pct": -2.12,
-    "close": 6888.5,
-    "previous_close": 7037.5,
+    "as_of": "2026-10-01",
+    "change": -159.5,
+    "change_pct": -2.35,
+    "close": 6639.0,
+    "previous_close": 6798.5,
     "type": "EOD_CLOSE",
-    "volume": 22679
+    "volume": 23880
   },
   "range": {
-    "distance_from_high_pct": -52.52,
-    "distance_from_low_pct": 0.2,
+    "distance_from_high_pct": -54.24,
+    "distance_from_low_pct": 0.91,
     "high_52w": 14509.0,
     "history_basis": "52_WEEK",
-    "low_52w": 6875.0,
-    "range_position_pct": 0.18
+    "low_52w": 6579.0,
+    "range_position_pct": 0.76
   },
   "risk_model": {
-    "invalidation_floor": 6647.4,
-    "risk_per_share": 378.87,
-    "technical_pivot": 7026.27
+    "invalidation_floor": 6406.64,
+    "risk_per_share": 365.14,
+    "technical_pivot": 6771.78
   },
   "schema_version": "1.0",
   "sector": null,

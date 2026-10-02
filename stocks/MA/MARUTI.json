@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 15864.0,
-      "high": 16060.0,
-      "low": 15811.0,
-      "open": 16000.0,
-      "time": "2025-09-19",
-      "volume": 652443
-    },
-    {
-      "close": 15816.0,
-      "high": 16000.0,
-      "low": 15779.0,
-      "open": 15879.0,
-      "time": "2025-09-22",
-      "volume": 302234
-    },
-    {
-      "close": 16097.0,
-      "high": 16325.0,
-      "low": 16031.0,
-      "open": 16120.0,
-      "time": "2025-09-23",
-      "volume": 873114
-    },
-    {
       "close": 16249.0,
       "high": 16375.0,
       "low": 16063.0,
@@ -2017,13 +1993,37 @@
       "open": 12065.0,
       "time": "2026-09-28",
       "volume": 301830
+    },
+    {
+      "close": 11877.0,
+      "high": 12046.0,
+      "low": 11831.0,
+      "open": 12046.0,
+      "time": "2026-09-29",
+      "volume": 519770
+    },
+    {
+      "close": 11967.0,
+      "high": 12065.0,
+      "low": 11879.0,
+      "open": 11901.0,
+      "time": "2026-09-30",
+      "volume": 430286
+    },
+    {
+      "close": 11386.0,
+      "high": 11907.0,
+      "low": 11305.0,
+      "open": 11900.0,
+      "time": "2026-10-01",
+      "volume": 885820
     }
   ],
   "company_name": "MARUTI SUZUKI INDIA LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Automobile and Auto Components",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 43,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.74x"
+    "momentum_score": 40,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.22x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -57.0,
-    "change_pct": -0.47,
-    "close": 12008.0,
-    "previous_close": 12065.0,
+    "as_of": "2026-10-01",
+    "change": -581.0,
+    "change_pct": -4.86,
+    "close": 11386.0,
+    "previous_close": 11967.0,
     "type": "EOD_CLOSE",
-    "volume": 301830
+    "volume": 885820
   },
   "range": {
-    "distance_from_high_pct": -30.87,
-    "distance_from_low_pct": 0.54,
+    "distance_from_high_pct": -34.45,
+    "distance_from_low_pct": 0.72,
     "high_52w": 17370.0,
     "history_basis": "52_WEEK",
-    "low_52w": 11944.0,
-    "range_position_pct": 1.18
+    "low_52w": 11305.0,
+    "range_position_pct": 1.34
   },
   "risk_model": {
-    "invalidation_floor": 11587.72,
-    "risk_per_share": 660.44,
-    "technical_pivot": 12248.16
+    "invalidation_floor": 10987.49,
+    "risk_per_share": 626.23,
+    "technical_pivot": 11613.72
   },
   "schema_version": "1.0",
   "sector": "Automobile and Auto Components",

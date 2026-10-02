@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2860.2,
-      "high": 2874.9,
-      "low": 2803.5,
-      "open": 2828.9,
-      "time": "2025-09-19",
-      "volume": 269811
-    },
-    {
-      "close": 2814.2,
-      "high": 2902.9,
-      "low": 2800.0,
-      "open": 2860.2,
-      "time": "2025-09-22",
-      "volume": 228891
-    },
-    {
-      "close": 2773.3,
-      "high": 2860.0,
-      "low": 2764.7,
-      "open": 2814.2,
-      "time": "2025-09-23",
-      "volume": 234908
-    },
-    {
       "close": 2737.9,
       "high": 2793.9,
       "low": 2722.6,
@@ -2017,13 +1993,37 @@
       "open": 4418.8,
       "time": "2026-09-28",
       "volume": 310265
+    },
+    {
+      "close": 4221.6,
+      "high": 4298.0,
+      "low": 4190.0,
+      "open": 4287.0,
+      "time": "2026-09-29",
+      "volume": 369866
+    },
+    {
+      "close": 4286.9,
+      "high": 4358.8,
+      "low": 4226.0,
+      "open": 4241.2,
+      "time": "2026-09-30",
+      "volume": 336383
+    },
+    {
+      "close": 4251.3,
+      "high": 4305.2,
+      "low": 4155.3,
+      "open": 4284.0,
+      "time": "2026-10-01",
+      "volume": 305681
     }
   ],
   "company_name": "DATA PATTERNS INDIA LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 68,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.5x"
+    "volume_multiplier": "0.49x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -142.0,
-    "change_pct": -3.21,
-    "close": 4276.8,
-    "previous_close": 4418.8,
+    "as_of": "2026-10-01",
+    "change": -35.6,
+    "change_pct": -0.83,
+    "close": 4251.3,
+    "previous_close": 4286.9,
     "type": "EOD_CLOSE",
-    "volume": 310265
+    "volume": 305681
   },
   "range": {
-    "distance_from_high_pct": -14.46,
-    "distance_from_low_pct": 100.69,
+    "distance_from_high_pct": -14.97,
+    "distance_from_low_pct": 99.5,
     "high_52w": 5000.0,
     "history_basis": "52_WEEK",
     "low_52w": 2131.0,
-    "range_position_pct": 74.79
+    "range_position_pct": 73.9
   },
   "risk_model": {
-    "invalidation_floor": 4127.11,
-    "risk_per_share": 235.23,
-    "technical_pivot": 4362.34
+    "invalidation_floor": 4102.5,
+    "risk_per_share": 233.83,
+    "technical_pivot": 4336.33
   },
   "schema_version": "1.0",
   "sector": null,

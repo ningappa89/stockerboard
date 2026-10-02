@@ -897,14 +897,38 @@
       "open": 430.15,
       "time": "2026-09-28",
       "volume": 607
+    },
+    {
+      "close": 433.3,
+      "high": 446.8,
+      "low": 416.15,
+      "open": 422.2,
+      "time": "2026-09-29",
+      "volume": 2827
+    },
+    {
+      "close": 452.95,
+      "high": 480.0,
+      "low": 433.35,
+      "open": 433.35,
+      "time": "2026-09-30",
+      "volume": 12184
+    },
+    {
+      "close": 435.4,
+      "high": 475.0,
+      "low": 431.3,
+      "open": 462.7,
+      "time": "2026-10-01",
+      "volume": 3732
     }
   ],
   "company_name": "BEEKAY STEEL INDS. LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 112
+    "last_session": "2026-10-01",
+    "sessions_available": 115
   },
   "industry": null,
   "isin": "INE213D01015",
@@ -912,31 +936,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 78,
+    "momentum_score": 76,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.17x"
+    "volume_multiplier": "0.99x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 4.25,
-    "change_pct": 0.99,
-    "close": 434.4,
-    "previous_close": 430.15,
+    "as_of": "2026-10-01",
+    "change": -17.55,
+    "change_pct": -3.87,
+    "close": 435.4,
+    "previous_close": 452.95,
     "type": "EOD_CLOSE",
-    "volume": 607
+    "volume": 3732
   },
   "range": {
-    "distance_from_high_pct": -7.94,
-    "distance_from_low_pct": 22.35,
-    "high_52w": 471.85,
+    "distance_from_high_pct": -9.29,
+    "distance_from_low_pct": 22.63,
+    "high_52w": 480.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 355.05,
-    "range_position_pct": 67.94
+    "range_position_pct": 64.31
   },
   "risk_model": {
-    "invalidation_floor": 419.2,
-    "risk_per_share": 23.89,
-    "technical_pivot": 443.09
+    "invalidation_floor": 420.16,
+    "risk_per_share": 23.95,
+    "technical_pivot": 444.11
   },
   "schema_version": "1.0",
   "sector": null,

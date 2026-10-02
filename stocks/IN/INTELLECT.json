@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1061.15,
-      "high": 1072.4,
-      "low": 1040.0,
-      "open": 1040.0,
-      "time": "2025-09-19",
-      "volume": 488285
-    },
-    {
-      "close": 1072.2,
-      "high": 1104.0,
-      "low": 1051.15,
-      "open": 1057.5,
-      "time": "2025-09-22",
-      "volume": 740337
-    },
-    {
-      "close": 1062.65,
-      "high": 1078.35,
-      "low": 1048.3,
-      "open": 1073.0,
-      "time": "2025-09-23",
-      "volume": 290739
-    },
-    {
       "close": 1029.05,
       "high": 1060.0,
       "low": 1025.25,
@@ -2017,13 +1993,37 @@
       "open": 630.1,
       "time": "2026-09-28",
       "volume": 209648
+    },
+    {
+      "close": 613.25,
+      "high": 629.9,
+      "low": 609.4,
+      "open": 628.6,
+      "time": "2026-09-29",
+      "volume": 262246
+    },
+    {
+      "close": 613.65,
+      "high": 634.2,
+      "low": 609.0,
+      "open": 614.0,
+      "time": "2026-09-30",
+      "volume": 457036
+    },
+    {
+      "close": 610.95,
+      "high": 618.9,
+      "low": 593.2,
+      "open": 612.7,
+      "time": "2026-10-01",
+      "volume": 271796
     }
   ],
   "company_name": "INTELLECT DESIGN ARENA LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Information Technology",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.62x"
+    "volume_multiplier": "0.89x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.5,
-    "change_pct": -0.24,
-    "close": 631.55,
-    "previous_close": 633.05,
+    "as_of": "2026-10-01",
+    "change": -2.7,
+    "change_pct": -0.44,
+    "close": 610.95,
+    "previous_close": 613.65,
     "type": "EOD_CLOSE",
-    "volume": 209648
+    "volume": 271796
   },
   "range": {
-    "distance_from_high_pct": -49.26,
-    "distance_from_low_pct": 6.11,
+    "distance_from_high_pct": -50.91,
+    "distance_from_low_pct": 2.99,
     "high_52w": 1244.6,
     "history_basis": "52_WEEK",
-    "low_52w": 595.2,
-    "range_position_pct": 5.6
+    "low_52w": 593.2,
+    "range_position_pct": 2.72
   },
   "risk_model": {
-    "invalidation_floor": 609.45,
-    "risk_per_share": 34.73,
-    "technical_pivot": 644.18
+    "invalidation_floor": 589.57,
+    "risk_per_share": 33.6,
+    "technical_pivot": 623.17
   },
   "schema_version": "1.0",
   "sector": "Information Technology",

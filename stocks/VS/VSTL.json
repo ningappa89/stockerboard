@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 162.63,
-      "high": 164.0,
-      "low": 160.01,
-      "open": 160.99,
-      "time": "2025-09-19",
-      "volume": 22516
-    },
-    {
-      "close": 161.04,
-      "high": 164.58,
-      "low": 160.26,
-      "open": 163.7,
-      "time": "2025-09-22",
-      "volume": 20444
-    },
-    {
-      "close": 161.94,
-      "high": 163.79,
-      "low": 161.14,
-      "open": 161.99,
-      "time": "2025-09-23",
-      "volume": 11346
-    },
-    {
       "close": 159.24,
       "high": 162.9,
       "low": 158.0,
@@ -2017,13 +1993,37 @@
       "open": 113.76,
       "time": "2026-09-28",
       "volume": 5590
+    },
+    {
+      "close": 110.81,
+      "high": 111.95,
+      "low": 110.05,
+      "open": 111.45,
+      "time": "2026-09-29",
+      "volume": 3440
+    },
+    {
+      "close": 112.09,
+      "high": 114.0,
+      "low": 110.51,
+      "open": 110.9,
+      "time": "2026-09-30",
+      "volume": 5238
+    },
+    {
+      "close": 108.85,
+      "high": 111.9,
+      "low": 108.09,
+      "open": 111.9,
+      "time": "2026-10-01",
+      "volume": 8447
     }
   ],
   "company_name": "VIBHOR STEEL TUBES LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 41,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.46x"
+    "volume_multiplier": "0.82x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.53,
-    "change_pct": -2.22,
-    "close": 111.23,
-    "previous_close": 113.76,
+    "as_of": "2026-10-01",
+    "change": -3.24,
+    "change_pct": -2.89,
+    "close": 108.85,
+    "previous_close": 112.09,
     "type": "EOD_CLOSE",
-    "volume": 5590
+    "volume": 8447
   },
   "range": {
-    "distance_from_high_pct": -32.42,
-    "distance_from_low_pct": 10.35,
-    "high_52w": 164.58,
+    "distance_from_high_pct": -33.18,
+    "distance_from_low_pct": 7.99,
+    "high_52w": 162.9,
     "history_basis": "52_WEEK",
     "low_52w": 100.8,
-    "range_position_pct": 16.35
+    "range_position_pct": 12.96
   },
   "risk_model": {
-    "invalidation_floor": 107.34,
-    "risk_per_share": 6.11,
-    "technical_pivot": 113.45
+    "invalidation_floor": 105.04,
+    "risk_per_share": 5.99,
+    "technical_pivot": 111.03
   },
   "schema_version": "1.0",
   "sector": null,

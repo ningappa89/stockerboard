@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 273.45,
-      "high": 279.3,
-      "low": 267.0,
-      "open": 269.0,
-      "time": "2025-09-19",
-      "volume": 409558
-    },
-    {
-      "close": 270.4,
-      "high": 275.1,
-      "low": 270.05,
-      "open": 275.0,
-      "time": "2025-09-22",
-      "volume": 146237
-    },
-    {
-      "close": 269.65,
-      "high": 271.85,
-      "low": 268.45,
-      "open": 270.6,
-      "time": "2025-09-23",
-      "volume": 116350
-    },
-    {
       "close": 270.05,
       "high": 272.65,
       "low": 268.25,
@@ -2017,13 +1993,37 @@
       "open": 187.18,
       "time": "2026-09-28",
       "volume": 115025
+    },
+    {
+      "close": 178.1,
+      "high": 182.33,
+      "low": 175.2,
+      "open": 182.33,
+      "time": "2026-09-29",
+      "volume": 649952
+    },
+    {
+      "close": 181.96,
+      "high": 183.15,
+      "low": 179.08,
+      "open": 179.67,
+      "time": "2026-09-30",
+      "volume": 123938
+    },
+    {
+      "close": 178.39,
+      "high": 181.33,
+      "low": 175.5,
+      "open": 179.43,
+      "time": "2026-10-01",
+      "volume": 171575
     }
   ],
   "company_name": "Star Cement Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.37x"
+    "volume_multiplier": "0.82x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.19,
-    "change_pct": -2.25,
-    "close": 182.42,
-    "previous_close": 186.61,
+    "as_of": "2026-10-01",
+    "change": -3.57,
+    "change_pct": -1.96,
+    "close": 178.39,
+    "previous_close": 181.96,
     "type": "EOD_CLOSE",
-    "volume": 115025
+    "volume": 171575
   },
   "range": {
-    "distance_from_high_pct": -34.69,
-    "distance_from_low_pct": 1.28,
-    "high_52w": 279.3,
+    "distance_from_high_pct": -34.66,
+    "distance_from_low_pct": 1.82,
+    "high_52w": 273.0,
     "history_basis": "52_WEEK",
-    "low_52w": 180.12,
-    "range_position_pct": 2.32
+    "low_52w": 175.2,
+    "range_position_pct": 3.26
   },
   "risk_model": {
-    "invalidation_floor": 176.04,
-    "risk_per_share": 10.03,
-    "technical_pivot": 186.07
+    "invalidation_floor": 172.15,
+    "risk_per_share": 9.81,
+    "technical_pivot": 181.96
   },
   "schema_version": "1.0",
   "sector": null,

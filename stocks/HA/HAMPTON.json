@@ -241,14 +241,38 @@
       "open": 8.44,
       "time": "2026-09-28",
       "volume": 15674
+    },
+    {
+      "close": 8.0,
+      "high": 8.17,
+      "low": 7.8,
+      "open": 8.17,
+      "time": "2026-09-29",
+      "volume": 11667
+    },
+    {
+      "close": 8.08,
+      "high": 8.38,
+      "low": 7.91,
+      "open": 8.38,
+      "time": "2026-09-30",
+      "volume": 13378
+    },
+    {
+      "close": 8.09,
+      "high": 8.44,
+      "low": 7.67,
+      "open": 7.9,
+      "time": "2026-10-01",
+      "volume": 3750
     }
   ],
   "company_name": "HAMPTON SKY REALTY LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE299D01022",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.11x"
+    "volume_multiplier": "0.03x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.2,
-    "change_pct": -2.47,
-    "close": 7.9,
-    "previous_close": 8.1,
+    "as_of": "2026-10-01",
+    "change": 0.01,
+    "change_pct": 0.12,
+    "close": 8.09,
+    "previous_close": 8.08,
     "type": "EOD_CLOSE",
-    "volume": 15674
+    "volume": 3750
   },
   "range": {
-    "distance_from_high_pct": -18.13,
-    "distance_from_low_pct": 12.7,
+    "distance_from_high_pct": -16.17,
+    "distance_from_low_pct": 15.41,
     "high_52w": 9.65,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 7.01,
-    "range_position_pct": 33.71
+    "range_position_pct": 40.91
   },
   "risk_model": {
-    "invalidation_floor": 7.62,
+    "invalidation_floor": 7.81,
     "risk_per_share": 0.5,
-    "technical_pivot": 8.06
+    "technical_pivot": 8.25
   },
   "schema_version": "1.0",
   "sector": null,

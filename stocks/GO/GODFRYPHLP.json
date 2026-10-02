@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3525.0,
-      "high": 3554.0,
-      "low": 3403.0,
-      "open": 3486.0,
-      "time": "2025-09-19",
-      "volume": 1603514
-    },
-    {
-      "close": 3453.0,
-      "high": 3544.0,
-      "low": 3437.0,
-      "open": 3519.0,
-      "time": "2025-09-22",
-      "volume": 503039
-    },
-    {
-      "close": 3348.0,
-      "high": 3474.0,
-      "low": 3331.0,
-      "open": 3470.0,
-      "time": "2025-09-23",
-      "volume": 669086
-    },
-    {
       "close": 3408.0,
       "high": 3470.0,
       "low": 3354.0,
@@ -2017,13 +1993,37 @@
       "open": 1961.7,
       "time": "2026-09-28",
       "volume": 260451
+    },
+    {
+      "close": 1862.0,
+      "high": 1944.2,
+      "low": 1862.0,
+      "open": 1941.9,
+      "time": "2026-09-29",
+      "volume": 297806
+    },
+    {
+      "close": 1891.8,
+      "high": 1932.0,
+      "low": 1882.1,
+      "open": 1882.5,
+      "time": "2026-09-30",
+      "volume": 240882
+    },
+    {
+      "close": 1849.7,
+      "high": 1913.1,
+      "low": 1830.0,
+      "open": 1891.8,
+      "time": "2026-10-01",
+      "volume": 256983
     }
   ],
   "company_name": "GODFREY PHILLIPS INDIA LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.61x"
+    "volume_multiplier": "1.48x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -38.9,
-    "change_pct": -1.97,
-    "close": 1931.5,
-    "previous_close": 1970.4,
+    "as_of": "2026-10-01",
+    "change": -42.1,
+    "change_pct": -2.23,
+    "close": 1849.7,
+    "previous_close": 1891.8,
     "type": "EOD_CLOSE",
-    "volume": 260451
+    "volume": 256983
   },
   "range": {
-    "distance_from_high_pct": -45.65,
-    "distance_from_low_pct": 5.43,
-    "high_52w": 3554.0,
+    "distance_from_high_pct": -47.75,
+    "distance_from_low_pct": 1.08,
+    "high_52w": 3540.0,
     "history_basis": "52_WEEK",
-    "low_52w": 1832.1,
-    "range_position_pct": 5.77
+    "low_52w": 1830.0,
+    "range_position_pct": 1.15
   },
   "risk_model": {
-    "invalidation_floor": 1863.9,
-    "risk_per_share": 106.23,
-    "technical_pivot": 1970.13
+    "invalidation_floor": 1784.96,
+    "risk_per_share": 101.73,
+    "technical_pivot": 1886.69
   },
   "schema_version": "1.0",
   "sector": null,

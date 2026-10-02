@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 661.1,
-      "high": 673.15,
-      "low": 660.0,
-      "open": 667.0,
-      "time": "2025-09-19",
-      "volume": 153368
-    },
-    {
-      "close": 646.15,
-      "high": 663.45,
-      "low": 641.35,
-      "open": 661.1,
-      "time": "2025-09-22",
-      "volume": 162242
-    },
-    {
-      "close": 642.4,
-      "high": 661.55,
-      "low": 640.0,
-      "open": 642.05,
-      "time": "2025-09-23",
-      "volume": 299397
-    },
-    {
       "close": 633.1,
       "high": 646.65,
       "low": 630.15,
@@ -2017,13 +1993,37 @@
       "open": 506.85,
       "time": "2026-09-28",
       "volume": 359232
+    },
+    {
+      "close": 501.15,
+      "high": 508.15,
+      "low": 483.5,
+      "open": 495.1,
+      "time": "2026-09-29",
+      "volume": 687035
+    },
+    {
+      "close": 496.35,
+      "high": 511.95,
+      "low": 493.5,
+      "open": 505.0,
+      "time": "2026-09-30",
+      "volume": 310853
+    },
+    {
+      "close": 488.95,
+      "high": 496.25,
+      "low": 479.0,
+      "open": 494.0,
+      "time": "2026-10-01",
+      "volume": 375442
     }
   ],
   "company_name": "BALU FORGE INDUSTRIES LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 49,
+    "momentum_score": 48,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.32x"
+    "volume_multiplier": "0.42x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -11.7,
-    "change_pct": -2.31,
-    "close": 495.1,
-    "previous_close": 506.8,
+    "as_of": "2026-10-01",
+    "change": -7.4,
+    "change_pct": -1.49,
+    "close": 488.95,
+    "previous_close": 496.35,
     "type": "EOD_CLOSE",
-    "volume": 359232
+    "volume": 375442
   },
   "range": {
-    "distance_from_high_pct": -26.98,
-    "distance_from_low_pct": 45.17,
+    "distance_from_high_pct": -27.88,
+    "distance_from_low_pct": 43.37,
     "high_52w": 678.0,
     "history_basis": "52_WEEK",
     "low_52w": 341.05,
-    "range_position_pct": 45.72
+    "range_position_pct": 43.89
   },
   "risk_model": {
-    "invalidation_floor": 477.77,
-    "risk_per_share": 27.23,
-    "technical_pivot": 505.0
+    "invalidation_floor": 471.84,
+    "risk_per_share": 26.89,
+    "technical_pivot": 498.73
   },
   "schema_version": "1.0",
   "sector": null,

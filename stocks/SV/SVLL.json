@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 777.0,
-      "high": 785.0,
-      "low": 770.0,
-      "open": 785.0,
-      "time": "2025-09-18",
-      "volume": 405
-    },
-    {
-      "close": 788.6,
-      "high": 800.0,
-      "low": 765.0,
-      "open": 800.0,
-      "time": "2025-09-19",
-      "volume": 1145
-    },
-    {
-      "close": 809.65,
-      "high": 828.0,
-      "low": 804.0,
-      "open": 810.0,
-      "time": "2025-09-22",
-      "volume": 1710
-    },
-    {
       "close": 772.95,
       "high": 817.0,
       "low": 770.0,
@@ -2017,13 +1993,37 @@
       "open": 875.0,
       "time": "2026-09-28",
       "volume": 1758
+    },
+    {
+      "close": 813.35,
+      "high": 828.0,
+      "low": 810.0,
+      "open": 821.35,
+      "time": "2026-09-29",
+      "volume": 39361
+    },
+    {
+      "close": 805.8,
+      "high": 835.05,
+      "low": 805.0,
+      "open": 813.5,
+      "time": "2026-09-30",
+      "volume": 2386
+    },
+    {
+      "close": 786.75,
+      "high": 805.0,
+      "low": 751.0,
+      "open": 751.0,
+      "time": "2026-10-01",
+      "volume": 723
     }
   ],
   "company_name": "SHREE VASU LOGISTICS LTD",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-23",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 77,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.34x"
+    "volume_multiplier": "0.11x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -13.35,
-    "change_pct": -1.6,
-    "close": 821.35,
-    "previous_close": 834.7,
+    "as_of": "2026-10-01",
+    "change": -19.05,
+    "change_pct": -2.36,
+    "close": 786.75,
+    "previous_close": 805.8,
     "type": "EOD_CLOSE",
-    "volume": 1758
+    "volume": 723
   },
   "range": {
-    "distance_from_high_pct": -8.48,
-    "distance_from_low_pct": 84.51,
+    "distance_from_high_pct": -12.33,
+    "distance_from_low_pct": 76.74,
     "high_52w": 897.45,
     "history_basis": "52_WEEK",
     "low_52w": 445.15,
-    "range_position_pct": 83.17
+    "range_position_pct": 75.53
   },
   "risk_model": {
-    "invalidation_floor": 792.6,
-    "risk_per_share": 45.18,
-    "technical_pivot": 837.78
+    "invalidation_floor": 759.21,
+    "risk_per_share": 43.28,
+    "technical_pivot": 802.49
   },
   "schema_version": "1.0",
   "sector": null,

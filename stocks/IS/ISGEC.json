@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 985.2,
-      "high": 997.4,
-      "low": 980.0,
-      "open": 986.0,
-      "time": "2025-09-19",
-      "volume": 50430
-    },
-    {
-      "close": 957.0,
-      "high": 992.65,
-      "low": 948.8,
-      "open": 985.8,
-      "time": "2025-09-22",
-      "volume": 47734
-    },
-    {
-      "close": 944.1,
-      "high": 972.0,
-      "low": 940.0,
-      "open": 964.0,
-      "time": "2025-09-23",
-      "volume": 40255
-    },
-    {
       "close": 945.55,
       "high": 953.4,
       "low": 937.75,
@@ -2017,13 +1993,37 @@
       "open": 890.55,
       "time": "2026-09-28",
       "volume": 103371
+    },
+    {
+      "close": 880.1,
+      "high": 890.0,
+      "low": 872.2,
+      "open": 890.0,
+      "time": "2026-09-29",
+      "volume": 49547
+    },
+    {
+      "close": 883.1,
+      "high": 893.5,
+      "low": 871.2,
+      "open": 880.25,
+      "time": "2026-09-30",
+      "volume": 77493
+    },
+    {
+      "close": 919.7,
+      "high": 929.9,
+      "low": 865.55,
+      "open": 879.6,
+      "time": "2026-10-01",
+      "volume": 203704
     }
   ],
   "company_name": "ISGEC HEAVY ENG LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 59,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.13x"
+    "momentum_score": 63,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.01x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.1,
-    "change_pct": -0.46,
-    "close": 886.45,
-    "previous_close": 890.55,
+    "as_of": "2026-10-01",
+    "change": 36.6,
+    "change_pct": 4.14,
+    "close": 919.7,
+    "previous_close": 883.1,
     "type": "EOD_CLOSE",
-    "volume": 103371
+    "volume": 203704
   },
   "range": {
-    "distance_from_high_pct": -20.42,
-    "distance_from_low_pct": 29.61,
+    "distance_from_high_pct": -17.43,
+    "distance_from_low_pct": 34.47,
     "high_52w": 1113.9,
     "history_basis": "52_WEEK",
     "low_52w": 683.95,
-    "range_position_pct": 47.1
+    "range_position_pct": 54.83
   },
   "risk_model": {
-    "invalidation_floor": 855.42,
-    "risk_per_share": 48.76,
-    "technical_pivot": 904.18
+    "invalidation_floor": 887.51,
+    "risk_per_share": 50.58,
+    "technical_pivot": 938.09
   },
   "schema_version": "1.0",
   "sector": null,

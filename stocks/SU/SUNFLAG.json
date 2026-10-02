@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 263.0,
-      "high": 266.0,
-      "low": 262.1,
-      "open": 264.9,
-      "time": "2025-09-19",
-      "volume": 178474
-    },
-    {
-      "close": 267.2,
-      "high": 268.95,
-      "low": 263.0,
-      "open": 264.95,
-      "time": "2025-09-22",
-      "volume": 248457
-    },
-    {
-      "close": 267.65,
-      "high": 270.0,
-      "low": 265.0,
-      "open": 265.0,
-      "time": "2025-09-23",
-      "volume": 302329
-    },
-    {
       "close": 270.15,
       "high": 273.8,
       "low": 265.2,
@@ -2017,46 +1993,70 @@
       "open": 415.8,
       "time": "2026-09-28",
       "volume": 4467850
+    },
+    {
+      "close": 464.3,
+      "high": 469.0,
+      "low": 435.15,
+      "open": 459.4,
+      "time": "2026-09-29",
+      "volume": 2158845
+    },
+    {
+      "close": 456.05,
+      "high": 471.0,
+      "low": 447.6,
+      "open": 465.0,
+      "time": "2026-09-30",
+      "volume": 624779
+    },
+    {
+      "close": 433.5,
+      "high": 454.8,
+      "low": 433.25,
+      "open": 443.4,
+      "time": "2026-10-01",
+      "volume": 420955
     }
   ],
   "company_name": "SUNFLAG IRON AND STEEL CO",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE947A01014",
   "metrics": {
-    "is_breakout": true,
-    "is_coiled": true,
+    "is_breakout": false,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 89,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "7.7x"
+    "momentum_score": 78,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.59x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 38.55,
-    "change_pct": 9.39,
-    "close": 449.2,
-    "previous_close": 410.65,
+    "as_of": "2026-10-01",
+    "change": -22.55,
+    "change_pct": -4.94,
+    "close": 433.5,
+    "previous_close": 456.05,
     "type": "EOD_CLOSE",
-    "volume": 4467850
+    "volume": 420955
   },
   "range": {
-    "distance_from_high_pct": -0.55,
-    "distance_from_low_pct": 133.78,
-    "high_52w": 451.7,
+    "distance_from_high_pct": -7.96,
+    "distance_from_low_pct": 125.6,
+    "high_52w": 471.0,
     "history_basis": "52_WEEK",
     "low_52w": 192.15,
-    "range_position_pct": 99.04
+    "range_position_pct": 86.55
   },
   "risk_model": {
-    "invalidation_floor": 433.48,
-    "risk_per_share": 19.31,
-    "technical_pivot": 452.79
+    "invalidation_floor": 418.33,
+    "risk_per_share": 23.84,
+    "technical_pivot": 442.17
   },
   "schema_version": "1.0",
   "sector": null,

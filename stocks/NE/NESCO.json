@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1533.2,
-      "high": 1575.3,
-      "low": 1463.1,
-      "open": 1478.7,
-      "time": "2025-09-19",
-      "volume": 95979
-    },
-    {
-      "close": 1500.2,
-      "high": 1533.0,
-      "low": 1494.6,
-      "open": 1533.0,
-      "time": "2025-09-22",
-      "volume": 60122
-    },
-    {
-      "close": 1473.0,
-      "high": 1512.3,
-      "low": 1455.0,
-      "open": 1508.1,
-      "time": "2025-09-23",
-      "volume": 55673
-    },
-    {
       "close": 1437.7,
       "high": 1472.0,
       "low": 1427.3,
@@ -2017,13 +1993,37 @@
       "open": 1070.3,
       "time": "2026-09-28",
       "volume": 101738
+    },
+    {
+      "close": 1040.5,
+      "high": 1082.3,
+      "low": 1030.1,
+      "open": 1082.3,
+      "time": "2026-09-29",
+      "volume": 172385
+    },
+    {
+      "close": 1046.9,
+      "high": 1054.2,
+      "low": 1035.0,
+      "open": 1035.0,
+      "time": "2026-09-30",
+      "volume": 24923
+    },
+    {
+      "close": 1028.2,
+      "high": 1042.0,
+      "low": 1017.6,
+      "open": 1032.3,
+      "time": "2026-10-01",
+      "volume": 38262
     }
   ],
   "company_name": "NESCO LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 43,
+    "momentum_score": 44,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.85x"
+    "volume_multiplier": "0.62x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 16.1,
-    "change_pct": 1.5,
-    "close": 1086.4,
-    "previous_close": 1070.3,
+    "as_of": "2026-10-01",
+    "change": -18.7,
+    "change_pct": -1.79,
+    "close": 1028.2,
+    "previous_close": 1046.9,
     "type": "EOD_CLOSE",
-    "volume": 101738
+    "volume": 38262
   },
   "range": {
-    "distance_from_high_pct": -31.04,
-    "distance_from_low_pct": 9.08,
-    "high_52w": 1575.3,
+    "distance_from_high_pct": -30.15,
+    "distance_from_low_pct": 3.23,
+    "high_52w": 1472.0,
     "history_basis": "52_WEEK",
     "low_52w": 996.0,
-    "range_position_pct": 15.61
+    "range_position_pct": 6.76
   },
   "risk_model": {
-    "invalidation_floor": 1048.38,
-    "risk_per_share": 59.75,
-    "technical_pivot": 1108.13
+    "invalidation_floor": 992.21,
+    "risk_per_share": 56.55,
+    "technical_pivot": 1048.76
   },
   "schema_version": "1.0",
   "sector": null,

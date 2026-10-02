@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 140.3,
-      "high": 141.23,
-      "low": 136.52,
-      "open": 136.8,
-      "time": "2025-09-19",
-      "volume": 23479611
-    },
-    {
-      "close": 138.81,
-      "high": 141.56,
-      "low": 138.33,
-      "open": 140.35,
-      "time": "2025-09-22",
-      "volume": 7478022
-    },
-    {
-      "close": 140.2,
-      "high": 141.34,
-      "low": 137.11,
-      "open": 138.81,
-      "time": "2025-09-23",
-      "volume": 7618679
-    },
-    {
       "close": 139.17,
       "high": 141.63,
       "low": 138.77,
@@ -2017,13 +1993,37 @@
       "open": 178.6,
       "time": "2026-09-28",
       "volume": 8523339
+    },
+    {
+      "close": 166.0,
+      "high": 172.44,
+      "low": 166.0,
+      "open": 172.0,
+      "time": "2026-09-29",
+      "volume": 19452924
+    },
+    {
+      "close": 171.0,
+      "high": 172.6,
+      "low": 169.95,
+      "open": 169.98,
+      "time": "2026-09-30",
+      "volume": 16921657
+    },
+    {
+      "close": 167.59,
+      "high": 172.19,
+      "low": 164.81,
+      "open": 169.69,
+      "time": "2026-10-01",
+      "volume": 7875995
     }
   ],
   "company_name": "UNION BANK OF INDIA",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.15x"
+    "volume_multiplier": "0.94x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -8.45,
-    "change_pct": -4.69,
-    "close": 171.75,
-    "previous_close": 180.2,
+    "as_of": "2026-10-01",
+    "change": -3.41,
+    "change_pct": -1.99,
+    "close": 167.59,
+    "previous_close": 171.0,
     "type": "EOD_CLOSE",
-    "volume": 8523339
+    "volume": 7875995
   },
   "range": {
-    "distance_from_high_pct": -16.42,
-    "distance_from_low_pct": 28.27,
+    "distance_from_high_pct": -18.44,
+    "distance_from_low_pct": 25.16,
     "high_52w": 205.49,
     "history_basis": "52_WEEK",
     "low_52w": 133.9,
-    "range_position_pct": 52.87
+    "range_position_pct": 47.06
   },
   "risk_model": {
-    "invalidation_floor": 165.74,
-    "risk_per_share": 9.45,
-    "technical_pivot": 175.19
+    "invalidation_floor": 161.72,
+    "risk_per_share": 9.22,
+    "technical_pivot": 170.94
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 620.0,
-      "high": 630.95,
-      "low": 606.45,
-      "open": 617.0,
-      "time": "2025-09-19",
-      "volume": 406793
-    },
-    {
-      "close": 651.1,
-      "high": 666.7,
-      "low": 619.25,
-      "open": 623.65,
-      "time": "2025-09-22",
-      "volume": 1473251
-    },
-    {
-      "close": 655.4,
-      "high": 672.3,
-      "low": 645.4,
-      "open": 651.7,
-      "time": "2025-09-23",
-      "volume": 857415
-    },
-    {
       "close": 639.4,
       "high": 658.85,
       "low": 625.65,
@@ -2017,13 +1993,37 @@
       "open": 506.5,
       "time": "2026-09-28",
       "volume": 288640
+    },
+    {
+      "close": 518.8,
+      "high": 524.25,
+      "low": 497.5,
+      "open": 500.1,
+      "time": "2026-09-29",
+      "volume": 439076
+    },
+    {
+      "close": 504.15,
+      "high": 526.6,
+      "low": 502.5,
+      "open": 526.6,
+      "time": "2026-09-30",
+      "volume": 261585
+    },
+    {
+      "close": 489.95,
+      "high": 502.7,
+      "low": 485.35,
+      "open": 502.3,
+      "time": "2026-10-01",
+      "volume": 247497
     }
   ],
   "company_name": "ASHAPURA MINECHEM LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Metals & Mining",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.9x"
+    "volume_multiplier": "0.76x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.9,
-    "change_pct": -0.77,
-    "close": 502.6,
-    "previous_close": 506.5,
+    "as_of": "2026-10-01",
+    "change": -14.2,
+    "change_pct": -2.82,
+    "close": 489.95,
+    "previous_close": 504.15,
     "type": "EOD_CLOSE",
-    "volume": 288640
+    "volume": 247497
   },
   "range": {
-    "distance_from_high_pct": -45.66,
-    "distance_from_low_pct": 10.44,
+    "distance_from_high_pct": -47.03,
+    "distance_from_low_pct": 7.66,
     "high_52w": 924.9,
     "history_basis": "52_WEEK",
     "low_52w": 455.1,
-    "range_position_pct": 10.11
+    "range_position_pct": 7.42
   },
   "risk_model": {
-    "invalidation_floor": 485.01,
-    "risk_per_share": 27.64,
-    "technical_pivot": 512.65
+    "invalidation_floor": 472.8,
+    "risk_per_share": 26.95,
+    "technical_pivot": 499.75
   },
   "schema_version": "1.0",
   "sector": "Metals & Mining",

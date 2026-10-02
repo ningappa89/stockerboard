@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3307.6,
-      "high": 3365.0,
-      "low": 3289.4,
-      "open": 3344.9,
-      "time": "2025-09-19",
-      "volume": 129910
-    },
-    {
-      "close": 3269.8,
-      "high": 3339.0,
-      "low": 3260.0,
-      "open": 3339.0,
-      "time": "2025-09-22",
-      "volume": 33789
-    },
-    {
-      "close": 3358.8,
-      "high": 3398.4,
-      "low": 3298.0,
-      "open": 3322.0,
-      "time": "2025-09-23",
-      "volume": 212678
-    },
-    {
       "close": 3317.2,
       "high": 3375.0,
       "low": 3307.3,
@@ -2017,13 +1993,37 @@
       "open": 3451.9,
       "time": "2026-09-28",
       "volume": 88773
+    },
+    {
+      "close": 3291.0,
+      "high": 3375.9,
+      "low": 3269.1,
+      "open": 3369.0,
+      "time": "2026-09-29",
+      "volume": 164479
+    },
+    {
+      "close": 3392.2,
+      "high": 3424.5,
+      "low": 3276.0,
+      "open": 3280.0,
+      "time": "2026-09-30",
+      "volume": 406098
+    },
+    {
+      "close": 3360.6,
+      "high": 3378.8,
+      "low": 3312.0,
+      "open": 3375.0,
+      "time": "2026-10-01",
+      "volume": 290287
     }
   ],
   "company_name": "THERMAX LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.62x"
+    "volume_multiplier": "1.7x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -61.2,
-    "change_pct": -1.78,
-    "close": 3386.0,
-    "previous_close": 3447.2,
+    "as_of": "2026-10-01",
+    "change": -31.6,
+    "change_pct": -0.93,
+    "close": 3360.6,
+    "previous_close": 3392.2,
     "type": "EOD_CLOSE",
-    "volume": 88773
+    "volume": 290287
   },
   "range": {
-    "distance_from_high_pct": -35.84,
-    "distance_from_low_pct": 23.45,
+    "distance_from_high_pct": -36.33,
+    "distance_from_low_pct": 22.53,
     "high_52w": 5277.8,
     "history_basis": "52_WEEK",
     "low_52w": 2742.7,
-    "range_position_pct": 25.38
+    "range_position_pct": 24.37
   },
   "risk_model": {
-    "invalidation_floor": 3267.49,
-    "risk_per_share": 186.23,
-    "technical_pivot": 3453.72
+    "invalidation_floor": 3242.98,
+    "risk_per_share": 184.83,
+    "technical_pivot": 3427.81
   },
   "schema_version": "1.0",
   "sector": null,

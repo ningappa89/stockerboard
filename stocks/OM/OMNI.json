@@ -1121,14 +1121,38 @@
       "open": 530.0,
       "time": "2026-09-28",
       "volume": 406817
+    },
+    {
+      "close": 560.4,
+      "high": 565.75,
+      "low": 519.05,
+      "open": 526.0,
+      "time": "2026-09-29",
+      "volume": 851262
+    },
+    {
+      "close": 564.05,
+      "high": 580.0,
+      "low": 552.0,
+      "open": 555.0,
+      "time": "2026-09-30",
+      "volume": 1008108
+    },
+    {
+      "close": 608.65,
+      "high": 614.0,
+      "low": 560.0,
+      "open": 560.0,
+      "time": "2026-10-01",
+      "volume": 2667824
     }
   ],
   "company_name": "Omnitech Engineering Limited",
   "history": {
     "first_session": "2026-03-05",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 140
+    "last_session": "2026-10-01",
+    "sessions_available": 143
   },
   "industry": null,
   "isin": "INE0UH301010",
@@ -1136,31 +1160,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 43,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.49x"
+    "momentum_score": 59,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.69x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -8.1,
-    "change_pct": -1.52,
-    "close": 525.85,
-    "previous_close": 533.95,
+    "as_of": "2026-10-01",
+    "change": 44.6,
+    "change_pct": 7.91,
+    "close": 608.65,
+    "previous_close": 564.05,
     "type": "EOD_CLOSE",
-    "volume": 406817
+    "volume": 2667824
   },
   "range": {
-    "distance_from_high_pct": -31.25,
-    "distance_from_low_pct": 198.35,
+    "distance_from_high_pct": -20.42,
+    "distance_from_low_pct": 245.33,
     "high_52w": 764.85,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 176.25,
-    "range_position_pct": 59.4
+    "range_position_pct": 73.46
   },
   "risk_model": {
-    "invalidation_floor": 507.45,
-    "risk_per_share": 28.92,
-    "technical_pivot": 536.37
+    "invalidation_floor": 587.35,
+    "risk_per_share": 33.47,
+    "technical_pivot": 620.82
   },
   "schema_version": "1.0",
   "sector": null,

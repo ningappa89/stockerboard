@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 414.5,
-      "high": 425.1,
-      "low": 413.4,
-      "open": 423.4,
-      "time": "2025-09-19",
-      "volume": 3843720
-    },
-    {
-      "close": 403.85,
-      "high": 416.15,
-      "low": 403.05,
-      "open": 415.15,
-      "time": "2025-09-22",
-      "volume": 2474281
-    },
-    {
-      "close": 403.25,
-      "high": 410.5,
-      "low": 402.6,
-      "open": 404.0,
-      "time": "2025-09-23",
-      "volume": 2101382
-    },
-    {
       "close": 399.6,
       "high": 404.1,
       "low": 397.95,
@@ -2017,13 +1993,37 @@
       "open": 422.0,
       "time": "2026-09-28",
       "volume": 946136
+    },
+    {
+      "close": 407.0,
+      "high": 414.5,
+      "low": 403.15,
+      "open": 411.0,
+      "time": "2026-09-29",
+      "volume": 2034310
+    },
+    {
+      "close": 412.6,
+      "high": 417.5,
+      "low": 407.75,
+      "open": 407.75,
+      "time": "2026-09-30",
+      "volume": 2723921
+    },
+    {
+      "close": 409.45,
+      "high": 417.5,
+      "low": 403.8,
+      "open": 411.6,
+      "time": "2026-10-01",
+      "volume": 2369486
     }
   ],
   "company_name": "EXIDE INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Automobile and Auto Components",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.44x"
+    "volume_multiplier": "1.11x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -11.9,
-    "change_pct": -2.81,
-    "close": 411.75,
-    "previous_close": 423.65,
+    "as_of": "2026-10-01",
+    "change": -3.15,
+    "change_pct": -0.76,
+    "close": 409.45,
+    "previous_close": 412.6,
     "type": "EOD_CLOSE",
-    "volume": 946136
+    "volume": 2369486
   },
   "range": {
-    "distance_from_high_pct": -17.05,
-    "distance_from_low_pct": 43.47,
+    "distance_from_high_pct": -17.52,
+    "distance_from_low_pct": 42.67,
     "high_52w": 496.4,
     "history_basis": "52_WEEK",
     "low_52w": 287.0,
-    "range_position_pct": 59.57
+    "range_position_pct": 58.48
   },
   "risk_model": {
-    "invalidation_floor": 397.34,
-    "risk_per_share": 22.65,
-    "technical_pivot": 419.99
+    "invalidation_floor": 395.12,
+    "risk_per_share": 22.52,
+    "technical_pivot": 417.64
   },
   "schema_version": "1.0",
   "sector": "Automobile and Auto Components",

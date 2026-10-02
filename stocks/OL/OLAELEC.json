@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 57.67,
-      "high": 58.7,
-      "low": 56.5,
-      "open": 57.0,
-      "time": "2025-09-19",
-      "volume": 22137753
-    },
-    {
-      "close": 58.01,
-      "high": 58.29,
-      "low": 56.7,
-      "open": 57.84,
-      "time": "2025-09-22",
-      "volume": 16967487
-    },
-    {
-      "close": 58.24,
-      "high": 59.2,
-      "low": 57.55,
-      "open": 58.1,
-      "time": "2025-09-23",
-      "volume": 16657850
-    },
-    {
       "close": 56.89,
       "high": 58.6,
       "low": 56.53,
@@ -2017,13 +1993,37 @@
       "open": 38.21,
       "time": "2026-09-28",
       "volume": 83934195
+    },
+    {
+      "close": 37.42,
+      "high": 38.48,
+      "low": 36.3,
+      "open": 37.84,
+      "time": "2026-09-29",
+      "volume": 118182493
+    },
+    {
+      "close": 36.92,
+      "high": 38.25,
+      "low": 36.71,
+      "open": 37.51,
+      "time": "2026-09-30",
+      "volume": 57479402
+    },
+    {
+      "close": 37.08,
+      "high": 37.3,
+      "low": 36.33,
+      "open": 36.92,
+      "time": "2026-10-01",
+      "volume": 54910840
     }
   ],
   "company_name": "OLA ELECTRIC MOBILITY LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.81x"
+    "volume_multiplier": "0.55x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.62,
-    "change_pct": -1.61,
-    "close": 37.86,
-    "previous_close": 38.48,
+    "as_of": "2026-10-01",
+    "change": 0.16,
+    "change_pct": 0.43,
+    "close": 37.08,
+    "previous_close": 36.92,
     "type": "EOD_CLOSE",
-    "volume": 83934195
+    "volume": 54910840
   },
   "range": {
-    "distance_from_high_pct": -36.05,
-    "distance_from_low_pct": 70.16,
-    "high_52w": 59.2,
+    "distance_from_high_pct": -36.78,
+    "distance_from_low_pct": 66.65,
+    "high_52w": 58.65,
     "history_basis": "52_WEEK",
     "low_52w": 22.25,
-    "range_position_pct": 42.25
+    "range_position_pct": 40.74
   },
   "risk_model": {
-    "invalidation_floor": 36.53,
-    "risk_per_share": 2.09,
-    "technical_pivot": 38.62
+    "invalidation_floor": 35.78,
+    "risk_per_share": 2.04,
+    "technical_pivot": 37.82
   },
   "schema_version": "1.0",
   "sector": null,

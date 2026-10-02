@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 744.4,
-      "high": 746.95,
-      "low": 736.15,
-      "open": 738.0,
-      "time": "2025-09-19",
-      "volume": 8190278
-    },
-    {
-      "close": 734.3,
-      "high": 748.3,
-      "low": 733.4,
-      "open": 744.4,
-      "time": "2025-09-22",
-      "volume": 1884250
-    },
-    {
-      "close": 755.25,
-      "high": 757.0,
-      "low": 729.05,
-      "open": 735.0,
-      "time": "2025-09-23",
-      "volume": 4501893
-    },
-    {
       "close": 740.75,
       "high": 758.95,
       "low": 738.9,
@@ -2017,13 +1993,37 @@
       "open": 912.2,
       "time": "2026-09-28",
       "volume": 1794894
+    },
+    {
+      "close": 878.0,
+      "high": 908.1,
+      "low": 878.0,
+      "open": 905.1,
+      "time": "2026-09-29",
+      "volume": 3205911
+    },
+    {
+      "close": 901.4,
+      "high": 902.1,
+      "low": 885.0,
+      "open": 885.0,
+      "time": "2026-09-30",
+      "volume": 2428835
+    },
+    {
+      "close": 886.85,
+      "high": 900.75,
+      "low": 880.3,
+      "open": 896.1,
+      "time": "2026-10-01",
+      "volume": 1761249
     }
   ],
   "company_name": "INDUSIND BANK LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.84x"
+    "volume_multiplier": "0.79x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.5,
-    "change_pct": -0.27,
-    "close": 909.7,
-    "previous_close": 912.2,
+    "as_of": "2026-10-01",
+    "change": -14.55,
+    "change_pct": -1.61,
+    "close": 886.85,
+    "previous_close": 901.4,
     "type": "EOD_CLOSE",
-    "volume": 1794894
+    "volume": 1761249
   },
   "range": {
-    "distance_from_high_pct": -15.6,
-    "distance_from_low_pct": 28.02,
+    "distance_from_high_pct": -17.72,
+    "distance_from_low_pct": 24.8,
     "high_52w": 1077.85,
     "history_basis": "52_WEEK",
     "low_52w": 710.6,
-    "range_position_pct": 54.21
+    "range_position_pct": 47.99
   },
   "risk_model": {
-    "invalidation_floor": 877.86,
-    "risk_per_share": 50.03,
-    "technical_pivot": 927.89
+    "invalidation_floor": 855.81,
+    "risk_per_share": 48.78,
+    "technical_pivot": 904.59
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

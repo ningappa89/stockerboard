@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 84.99,
-      "high": 85.79,
-      "low": 82.57,
-      "open": 82.57,
-      "time": "2025-09-19",
-      "volume": 10729
-    },
-    {
-      "close": 87.24,
-      "high": 89.78,
-      "low": 83.01,
-      "open": 84.5,
-      "time": "2025-09-22",
-      "volume": 39798
-    },
-    {
-      "close": 90.44,
-      "high": 91.95,
-      "low": 85.38,
-      "open": 87.62,
-      "time": "2025-09-23",
-      "volume": 53246
-    },
-    {
       "close": 90.92,
       "high": 91.77,
       "low": 88.63,
@@ -2017,13 +1993,37 @@
       "open": 87.55,
       "time": "2026-09-28",
       "volume": 10740
+    },
+    {
+      "close": 88.13,
+      "high": 89.9,
+      "low": 87.62,
+      "open": 88.52,
+      "time": "2026-09-29",
+      "volume": 29030
+    },
+    {
+      "close": 86.96,
+      "high": 89.5,
+      "low": 85.35,
+      "open": 89.44,
+      "time": "2026-09-30",
+      "volume": 22839
+    },
+    {
+      "close": 85.96,
+      "high": 89.0,
+      "low": 85.25,
+      "open": 88.94,
+      "time": "2026-10-01",
+      "volume": 10501
     }
   ],
   "company_name": "CINELINE INDIA LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.21x"
+    "volume_multiplier": "0.2x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.17,
-    "change_pct": -1.31,
-    "close": 88.02,
-    "previous_close": 89.19,
+    "as_of": "2026-10-01",
+    "change": -1.0,
+    "change_pct": -1.15,
+    "close": 85.96,
+    "previous_close": 86.96,
     "type": "EOD_CLOSE",
-    "volume": 10740
+    "volume": 10501
   },
   "range": {
-    "distance_from_high_pct": -15.69,
-    "distance_from_low_pct": 20.0,
+    "distance_from_high_pct": -17.66,
+    "distance_from_low_pct": 17.19,
     "high_52w": 104.4,
     "history_basis": "52_WEEK",
     "low_52w": 73.35,
-    "range_position_pct": 47.25
+    "range_position_pct": 40.61
   },
   "risk_model": {
-    "invalidation_floor": 84.94,
-    "risk_per_share": 4.84,
-    "technical_pivot": 89.78
+    "invalidation_floor": 82.95,
+    "risk_per_share": 4.73,
+    "technical_pivot": 87.68
   },
   "schema_version": "1.0",
   "sector": null,

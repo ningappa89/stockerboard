@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 157.93,
-      "high": 158.95,
-      "low": 157.11,
-      "open": 157.48,
-      "time": "2025-09-19",
-      "volume": 33014
-    },
-    {
-      "close": 156.77,
-      "high": 159.5,
-      "low": 156.05,
-      "open": 158.9,
-      "time": "2025-09-22",
-      "volume": 33581
-    },
-    {
-      "close": 155.11,
-      "high": 157.8,
-      "low": 154.61,
-      "open": 157.34,
-      "time": "2025-09-23",
-      "volume": 49750
-    },
-    {
       "close": 154.19,
       "high": 158.69,
       "low": 153.1,
@@ -2017,13 +1993,37 @@
       "open": 171.2,
       "time": "2026-09-28",
       "volume": 95978
+    },
+    {
+      "close": 165.15,
+      "high": 166.94,
+      "low": 162.0,
+      "open": 165.4,
+      "time": "2026-09-29",
+      "volume": 70194
+    },
+    {
+      "close": 165.86,
+      "high": 168.99,
+      "low": 164.03,
+      "open": 164.03,
+      "time": "2026-09-30",
+      "volume": 44432
+    },
+    {
+      "close": 161.75,
+      "high": 167.65,
+      "low": 158.86,
+      "open": 165.86,
+      "time": "2026-10-01",
+      "volume": 91855
     }
   ],
   "company_name": "GULSHAN POLYOLS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 49,
+    "momentum_score": 46,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.75x"
+    "volume_multiplier": "0.82x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.31,
-    "change_pct": -2.53,
-    "close": 166.05,
-    "previous_close": 170.36,
+    "as_of": "2026-10-01",
+    "change": -4.11,
+    "change_pct": -2.48,
+    "close": 161.75,
+    "previous_close": 165.86,
     "type": "EOD_CLOSE",
-    "volume": 95978
+    "volume": 91855
   },
   "range": {
-    "distance_from_high_pct": -27.05,
-    "distance_from_low_pct": 36.67,
+    "distance_from_high_pct": -28.94,
+    "distance_from_low_pct": 33.13,
     "high_52w": 227.63,
     "history_basis": "52_WEEK",
     "low_52w": 121.5,
-    "range_position_pct": 41.98
+    "range_position_pct": 37.93
   },
   "risk_model": {
-    "invalidation_floor": 160.24,
-    "risk_per_share": 9.13,
-    "technical_pivot": 169.37
+    "invalidation_floor": 156.09,
+    "risk_per_share": 8.9,
+    "technical_pivot": 164.99
   },
   "schema_version": "1.0",
   "sector": null,

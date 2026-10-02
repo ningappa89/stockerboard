@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 11.16,
-      "high": 11.39,
-      "low": 10.6,
-      "open": 10.65,
-      "time": "2025-09-19",
-      "volume": 174067
-    },
-    {
-      "close": 11.22,
-      "high": 11.47,
-      "low": 11.15,
-      "open": 11.37,
-      "time": "2025-09-22",
-      "volume": 182136
-    },
-    {
-      "close": 11.01,
-      "high": 11.45,
-      "low": 10.91,
-      "open": 11.45,
-      "time": "2025-09-23",
-      "volume": 60083
-    },
-    {
       "close": 11.12,
       "high": 11.23,
       "low": 10.85,
@@ -2017,13 +1993,37 @@
       "open": 8.54,
       "time": "2026-09-28",
       "volume": 160235
+    },
+    {
+      "close": 10.38,
+      "high": 10.57,
+      "low": 8.58,
+      "open": 8.99,
+      "time": "2026-09-29",
+      "volume": 2324625
+    },
+    {
+      "close": 12.45,
+      "high": 12.45,
+      "low": 11.0,
+      "open": 11.4,
+      "time": "2026-09-30",
+      "volume": 2836786
+    },
+    {
+      "close": 11.7,
+      "high": 13.69,
+      "low": 11.22,
+      "open": 13.47,
+      "time": "2026-10-01",
+      "volume": 4065094
     }
   ],
   "company_name": "JHS SVENDGAARD LABORATORIES LT",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.69x"
+    "momentum_score": 66,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "7.45x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.38,
-    "change_pct": 4.51,
-    "close": 8.81,
-    "previous_close": 8.43,
+    "as_of": "2026-10-01",
+    "change": -0.75,
+    "change_pct": -6.02,
+    "close": 11.7,
+    "previous_close": 12.45,
     "type": "EOD_CLOSE",
-    "volume": 160235
+    "volume": 4065094
   },
   "range": {
-    "distance_from_high_pct": -36.62,
-    "distance_from_low_pct": 40.73,
+    "distance_from_high_pct": -15.83,
+    "distance_from_low_pct": 86.9,
     "high_52w": 13.9,
     "history_basis": "52_WEEK",
     "low_52w": 6.26,
-    "range_position_pct": 33.38
+    "range_position_pct": 71.2
   },
   "risk_model": {
-    "invalidation_floor": 8.5,
-    "risk_per_share": 0.5,
-    "technical_pivot": 8.99
+    "invalidation_floor": 11.29,
+    "risk_per_share": 0.64,
+    "technical_pivot": 11.93
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1170.2,
-      "high": 1187.1,
-      "low": 1163.1,
-      "open": 1187.0,
-      "time": "2025-09-19",
-      "volume": 24940
-    },
-    {
-      "close": 1143.8,
-      "high": 1174.2,
-      "low": 1140.0,
-      "open": 1169.0,
-      "time": "2025-09-22",
-      "volume": 33336
-    },
-    {
-      "close": 1137.4,
-      "high": 1152.5,
-      "low": 1124.0,
-      "open": 1143.8,
-      "time": "2025-09-23",
-      "volume": 27095
-    },
-    {
       "close": 1155.0,
       "high": 1192.0,
       "low": 1132.0,
@@ -2017,13 +1993,37 @@
       "open": 960.85,
       "time": "2026-09-28",
       "volume": 53140
+    },
+    {
+      "close": 928.2,
+      "high": 941.45,
+      "low": 921.55,
+      "open": 940.0,
+      "time": "2026-09-29",
+      "volume": 39509
+    },
+    {
+      "close": 925.25,
+      "high": 955.05,
+      "low": 918.1,
+      "open": 930.0,
+      "time": "2026-09-30",
+      "volume": 52211
+    },
+    {
+      "close": 927.0,
+      "high": 934.85,
+      "low": 901.0,
+      "open": 911.0,
+      "time": "2026-10-01",
+      "volume": 75762
     }
   ],
   "company_name": "MAITHAN ALLOYS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 56,
+    "momentum_score": 54,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.32x"
+    "volume_multiplier": "0.5x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -16.15,
-    "change_pct": -1.69,
-    "close": 939.0,
-    "previous_close": 955.15,
+    "as_of": "2026-10-01",
+    "change": 1.75,
+    "change_pct": 0.19,
+    "close": 927.0,
+    "previous_close": 925.25,
     "type": "EOD_CLOSE",
-    "volume": 53140
+    "volume": 75762
   },
   "range": {
-    "distance_from_high_pct": -22.4,
-    "distance_from_low_pct": 12.97,
+    "distance_from_high_pct": -23.39,
+    "distance_from_low_pct": 11.53,
     "high_52w": 1210.1,
     "history_basis": "52_WEEK",
     "low_52w": 831.2,
-    "range_position_pct": 28.45
+    "range_position_pct": 25.28
   },
   "risk_model": {
-    "invalidation_floor": 906.13,
-    "risk_per_share": 51.65,
-    "technical_pivot": 957.78
+    "invalidation_floor": 894.55,
+    "risk_per_share": 50.99,
+    "technical_pivot": 945.54
   },
   "schema_version": "1.0",
   "sector": null,

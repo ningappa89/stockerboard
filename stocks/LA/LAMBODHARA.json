@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 136.74,
-      "high": 140.13,
-      "low": 136.16,
-      "open": 138.06,
-      "time": "2025-09-19",
-      "volume": 16228
-    },
-    {
-      "close": 134.54,
-      "high": 138.99,
-      "low": 134.0,
-      "open": 138.0,
-      "time": "2025-09-22",
-      "volume": 26713
-    },
-    {
-      "close": 131.44,
-      "high": 136.59,
-      "low": 130.11,
-      "open": 136.55,
-      "time": "2025-09-23",
-      "volume": 29996
-    },
-    {
       "close": 131.31,
       "high": 133.96,
       "low": 130.35,
@@ -2017,13 +1993,37 @@
       "open": 141.0,
       "time": "2026-09-28",
       "volume": 37259
+    },
+    {
+      "close": 135.41,
+      "high": 137.99,
+      "low": 131.5,
+      "open": 137.79,
+      "time": "2026-09-29",
+      "volume": 14809
+    },
+    {
+      "close": 129.28,
+      "high": 136.45,
+      "low": 128.1,
+      "open": 135.4,
+      "time": "2026-09-30",
+      "volume": 9370
+    },
+    {
+      "close": 128.64,
+      "high": 135.89,
+      "low": 125.66,
+      "open": 130.28,
+      "time": "2026-10-01",
+      "volume": 16329
     }
   ],
   "company_name": "LAMBODHARA TEXTILES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 71,
+    "is_stage2": false,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.55x"
+    "volume_multiplier": "0.24x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -9.38,
-    "change_pct": -6.49,
-    "close": 135.19,
-    "previous_close": 144.57,
+    "as_of": "2026-10-01",
+    "change": -0.64,
+    "change_pct": -0.5,
+    "close": 128.64,
+    "previous_close": 129.28,
     "type": "EOD_CLOSE",
-    "volume": 37259
+    "volume": 16329
   },
   "range": {
-    "distance_from_high_pct": -12.5,
-    "distance_from_low_pct": 65.27,
+    "distance_from_high_pct": -16.74,
+    "distance_from_low_pct": 57.26,
     "high_52w": 154.5,
     "history_basis": "52_WEEK",
     "low_52w": 81.8,
-    "range_position_pct": 73.44
+    "range_position_pct": 64.43
   },
   "risk_model": {
-    "invalidation_floor": 130.46,
-    "risk_per_share": 7.43,
-    "technical_pivot": 137.89
+    "invalidation_floor": 124.14,
+    "risk_per_share": 7.07,
+    "technical_pivot": 131.21
   },
   "schema_version": "1.0",
   "sector": null,

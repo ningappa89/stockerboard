@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 221.7,
-      "high": 228.89,
-      "low": 216.02,
-      "open": 225.29,
-      "time": "2025-09-19",
-      "volume": 21816
-    },
-    {
-      "close": 217.79,
-      "high": 223.5,
-      "low": 214.98,
-      "open": 219.01,
-      "time": "2025-09-22",
-      "volume": 17054
-    },
-    {
-      "close": 218.34,
-      "high": 222.0,
-      "low": 212.44,
-      "open": 218.0,
-      "time": "2025-09-23",
-      "volume": 9958
-    },
-    {
       "close": 214.3,
       "high": 220.0,
       "low": 213.88,
@@ -2017,13 +1993,37 @@
       "open": 252.6,
       "time": "2026-09-28",
       "volume": 8970
+    },
+    {
+      "close": 245.2,
+      "high": 262.0,
+      "low": 243.45,
+      "open": 261.85,
+      "time": "2026-09-29",
+      "volume": 17259
+    },
+    {
+      "close": 249.0,
+      "high": 253.4,
+      "low": 246.45,
+      "open": 249.0,
+      "time": "2026-09-30",
+      "volume": 5949
+    },
+    {
+      "close": 245.55,
+      "high": 253.41,
+      "low": 241.0,
+      "open": 252.97,
+      "time": "2026-10-01",
+      "volume": 12538
     }
   ],
   "company_name": "KANPUR PLASTIPACK LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 72,
+    "momentum_score": 70,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.35x"
+    "volume_multiplier": "0.5x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -6.55,
-    "change_pct": -2.54,
-    "close": 250.9,
-    "previous_close": 257.45,
+    "as_of": "2026-10-01",
+    "change": -3.45,
+    "change_pct": -1.39,
+    "close": 245.55,
+    "previous_close": 249.0,
     "type": "EOD_CLOSE",
-    "volume": 8970
+    "volume": 12538
   },
   "range": {
-    "distance_from_high_pct": -11.39,
-    "distance_from_low_pct": 65.88,
+    "distance_from_high_pct": -13.28,
+    "distance_from_low_pct": 62.35,
     "high_52w": 283.14,
     "history_basis": "52_WEEK",
     "low_52w": 151.25,
-    "range_position_pct": 75.56
+    "range_position_pct": 71.5
   },
   "risk_model": {
-    "invalidation_floor": 242.12,
-    "risk_per_share": 13.8,
-    "technical_pivot": 255.92
+    "invalidation_floor": 236.96,
+    "risk_per_share": 13.5,
+    "technical_pivot": 250.46
   },
   "schema_version": "1.0",
   "sector": null,

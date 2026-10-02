@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 293.0,
-      "high": 298.7,
-      "low": 286.1,
-      "open": 286.1,
-      "time": "2025-09-19",
-      "volume": 710976
-    },
-    {
-      "close": 290.75,
-      "high": 295.8,
-      "low": 285.65,
-      "open": 292.9,
-      "time": "2025-09-22",
-      "volume": 536631
-    },
-    {
-      "close": 290.0,
-      "high": 292.95,
-      "low": 280.0,
-      "open": 290.85,
-      "time": "2025-09-23",
-      "volume": 607780
-    },
-    {
       "close": 284.85,
       "high": 291.0,
       "low": 280.6,
@@ -2017,13 +1993,37 @@
       "open": 799.0,
       "time": "2026-09-28",
       "volume": 976252
+    },
+    {
+      "close": 820.85,
+      "high": 831.85,
+      "low": 795.0,
+      "open": 799.65,
+      "time": "2026-09-29",
+      "volume": 1433357
+    },
+    {
+      "close": 810.7,
+      "high": 838.45,
+      "low": 806.0,
+      "open": 824.95,
+      "time": "2026-09-30",
+      "volume": 695736
+    },
+    {
+      "close": 810.65,
+      "high": 817.9,
+      "low": 776.5,
+      "open": 810.7,
+      "time": "2026-10-01",
+      "volume": 1141277
     }
   ],
   "company_name": "Sky Gold And Diamonds Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 77,
+    "momentum_score": 79,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.18x"
+    "volume_multiplier": "1.38x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 3.4,
-    "change_pct": 0.43,
-    "close": 796.95,
-    "previous_close": 793.55,
+    "as_of": "2026-10-01",
+    "change": -0.05,
+    "change_pct": -0.01,
+    "close": 810.65,
+    "previous_close": 810.7,
     "type": "EOD_CLOSE",
-    "volume": 976252
+    "volume": 1141277
   },
   "range": {
-    "distance_from_high_pct": -8.27,
-    "distance_from_low_pct": 207.7,
+    "distance_from_high_pct": -6.69,
+    "distance_from_low_pct": 212.99,
     "high_52w": 868.8,
     "history_basis": "52_WEEK",
     "low_52w": 259.0,
-    "range_position_pct": 88.22
+    "range_position_pct": 90.46
   },
   "risk_model": {
-    "invalidation_floor": 769.06,
-    "risk_per_share": 43.83,
-    "technical_pivot": 812.89
+    "invalidation_floor": 782.28,
+    "risk_per_share": 44.58,
+    "technical_pivot": 826.86
   },
   "schema_version": "1.0",
   "sector": null,

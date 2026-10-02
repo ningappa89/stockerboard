@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 133.11,
-      "high": 135.5,
-      "low": 132.1,
-      "open": 132.7,
-      "time": "2025-09-19",
-      "volume": 122682
-    },
-    {
-      "close": 132.16,
-      "high": 133.9,
-      "low": 130.56,
-      "open": 131.0,
-      "time": "2025-09-22",
-      "volume": 106032
-    },
-    {
-      "close": 133.56,
-      "high": 134.09,
-      "low": 129.5,
-      "open": 131.7,
-      "time": "2025-09-23",
-      "volume": 86484
-    },
-    {
       "close": 136.23,
       "high": 137.45,
       "low": 134.11,
@@ -2017,13 +1993,37 @@
       "open": 149.12,
       "time": "2026-09-28",
       "volume": 140150
+    },
+    {
+      "close": 144.68,
+      "high": 146.18,
+      "low": 143.33,
+      "open": 145.22,
+      "time": "2026-09-29",
+      "volume": 140702
+    },
+    {
+      "close": 145.16,
+      "high": 147.56,
+      "low": 144.15,
+      "open": 144.68,
+      "time": "2026-09-30",
+      "volume": 143795
+    },
+    {
+      "close": 143.55,
+      "high": 145.25,
+      "low": 141.09,
+      "open": 143.18,
+      "time": "2026-10-01",
+      "volume": 176795
     }
   ],
   "company_name": "SURYODAY SMALL FIN BK LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.65x"
+    "volume_multiplier": "0.91x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.13,
-    "change_pct": -2.77,
-    "close": 144.99,
-    "previous_close": 149.12,
+    "as_of": "2026-10-01",
+    "change": -1.61,
+    "change_pct": -1.11,
+    "close": 143.55,
+    "previous_close": 145.16,
     "type": "EOD_CLOSE",
-    "volume": 140150
+    "volume": 176795
   },
   "range": {
-    "distance_from_high_pct": -33.49,
-    "distance_from_low_pct": 25.63,
+    "distance_from_high_pct": -34.15,
+    "distance_from_low_pct": 24.38,
     "high_52w": 218.0,
     "history_basis": "52_WEEK",
     "low_52w": 115.41,
-    "range_position_pct": 28.83
+    "range_position_pct": 27.43
   },
   "risk_model": {
-    "invalidation_floor": 139.92,
-    "risk_per_share": 7.97,
-    "technical_pivot": 147.89
+    "invalidation_floor": 138.53,
+    "risk_per_share": 7.89,
+    "technical_pivot": 146.42
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 298.08,
-      "high": 300.0,
-      "low": 293.71,
-      "open": 296.7,
-      "time": "2025-09-19",
-      "volume": 163736
-    },
-    {
-      "close": 289.64,
-      "high": 300.0,
-      "low": 288.13,
-      "open": 300.0,
-      "time": "2025-09-22",
-      "volume": 249824
-    },
-    {
-      "close": 288.77,
-      "high": 294.0,
-      "low": 286.24,
-      "open": 294.0,
-      "time": "2025-09-23",
-      "volume": 119577
-    },
-    {
       "close": 283.58,
       "high": 290.2,
       "low": 282.0,
@@ -2017,13 +1993,37 @@
       "open": 445.7,
       "time": "2026-09-28",
       "volume": 254620
+    },
+    {
+      "close": 434.95,
+      "high": 448.55,
+      "low": 433.0,
+      "open": 439.9,
+      "time": "2026-09-29",
+      "volume": 420236
+    },
+    {
+      "close": 460.4,
+      "high": 464.0,
+      "low": 437.0,
+      "open": 437.0,
+      "time": "2026-09-30",
+      "volume": 1020870
+    },
+    {
+      "close": 443.65,
+      "high": 466.7,
+      "low": 435.45,
+      "open": 461.0,
+      "time": "2026-10-01",
+      "volume": 435107
     }
   ],
   "company_name": "INDO COUNT INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 75,
+    "momentum_score": 76,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.36x"
+    "volume_multiplier": "0.76x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.55,
-    "change_pct": -1.25,
-    "close": 440.2,
-    "previous_close": 445.75,
+    "as_of": "2026-10-01",
+    "change": -16.75,
+    "change_pct": -3.64,
+    "close": 443.65,
+    "previous_close": 460.4,
     "type": "EOD_CLOSE",
-    "volume": 254620
+    "volume": 435107
   },
   "range": {
-    "distance_from_high_pct": -9.41,
-    "distance_from_low_pct": 102.95,
+    "distance_from_high_pct": -8.7,
+    "distance_from_low_pct": 104.54,
     "high_52w": 485.95,
     "history_basis": "52_WEEK",
     "low_52w": 216.9,
-    "range_position_pct": 83.0
+    "range_position_pct": 84.28
   },
   "risk_model": {
-    "invalidation_floor": 424.79,
-    "risk_per_share": 24.21,
-    "technical_pivot": 449.0
+    "invalidation_floor": 428.12,
+    "risk_per_share": 24.4,
+    "technical_pivot": 452.52
   },
   "schema_version": "1.0",
   "sector": null,

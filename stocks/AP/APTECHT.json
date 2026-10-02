@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 129.65,
-      "high": 132.5,
-      "low": 129.0,
-      "open": 130.3,
-      "time": "2025-09-19",
-      "volume": 91695
-    },
-    {
-      "close": 128.56,
-      "high": 130.49,
-      "low": 128.1,
-      "open": 129.69,
-      "time": "2025-09-22",
-      "volume": 47509
-    },
-    {
-      "close": 126.67,
-      "high": 129.3,
-      "low": 125.0,
-      "open": 129.3,
-      "time": "2025-09-23",
-      "volume": 87122
-    },
-    {
       "close": 124.24,
       "high": 131.0,
       "low": 123.55,
@@ -2017,13 +1993,37 @@
       "open": 92.25,
       "time": "2026-09-28",
       "volume": 56446
+    },
+    {
+      "close": 88.61,
+      "high": 91.5,
+      "low": 86.99,
+      "open": 91.5,
+      "time": "2026-09-29",
+      "volume": 90136
+    },
+    {
+      "close": 88.26,
+      "high": 90.0,
+      "low": 87.73,
+      "open": 89.49,
+      "time": "2026-09-30",
+      "volume": 53672
+    },
+    {
+      "close": 87.03,
+      "high": 88.97,
+      "low": 85.72,
+      "open": 88.26,
+      "time": "2026-10-01",
+      "volume": 46982
     }
   ],
   "company_name": "APTECH LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.8x"
+    "volume_multiplier": "0.64x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.95,
-    "change_pct": -1.04,
-    "close": 90.27,
-    "previous_close": 91.22,
+    "as_of": "2026-10-01",
+    "change": -1.23,
+    "change_pct": -1.39,
+    "close": 87.03,
+    "previous_close": 88.26,
     "type": "EOD_CLOSE",
-    "volume": 56446
+    "volume": 46982
   },
   "range": {
-    "distance_from_high_pct": -31.87,
-    "distance_from_low_pct": 30.64,
-    "high_52w": 132.5,
+    "distance_from_high_pct": -33.56,
+    "distance_from_low_pct": 25.95,
+    "high_52w": 131.0,
     "history_basis": "52_WEEK",
     "low_52w": 69.1,
-    "range_position_pct": 33.39
+    "range_position_pct": 28.97
   },
   "risk_model": {
-    "invalidation_floor": 87.11,
-    "risk_per_share": 4.97,
-    "technical_pivot": 92.08
+    "invalidation_floor": 83.98,
+    "risk_per_share": 4.79,
+    "technical_pivot": 88.77
   },
   "schema_version": "1.0",
   "sector": null,

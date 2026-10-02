@@ -897,14 +897,38 @@
       "open": 387.0,
       "time": "2026-09-28",
       "volume": 2736
+    },
+    {
+      "close": 391.0,
+      "high": 394.7,
+      "low": 370.0,
+      "open": 380.0,
+      "time": "2026-09-29",
+      "volume": 3227
+    },
+    {
+      "close": 388.05,
+      "high": 394.85,
+      "low": 380.0,
+      "open": 383.05,
+      "time": "2026-09-30",
+      "volume": 929
+    },
+    {
+      "close": 379.8,
+      "high": 380.0,
+      "low": 370.55,
+      "open": 380.0,
+      "time": "2026-10-01",
+      "volume": 5206
     }
   ],
   "company_name": "Kanchi Karpooram Ltd.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 112
+    "last_session": "2026-10-01",
+    "sessions_available": 115
   },
   "industry": null,
   "isin": "INE081G01019",
@@ -913,30 +937,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 62,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.49x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.83x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -10.6,
-    "change_pct": -2.71,
-    "close": 379.9,
-    "previous_close": 390.5,
+    "as_of": "2026-10-01",
+    "change": -8.25,
+    "change_pct": -2.13,
+    "close": 379.8,
+    "previous_close": 388.05,
     "type": "EOD_CLOSE",
-    "volume": 2736
+    "volume": 5206
   },
   "range": {
-    "distance_from_high_pct": -18.01,
-    "distance_from_low_pct": 13.5,
+    "distance_from_high_pct": -18.03,
+    "distance_from_low_pct": 13.47,
     "high_52w": 463.35,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 334.7,
-    "range_position_pct": 35.13
+    "range_position_pct": 35.06
   },
   "risk_model": {
-    "invalidation_floor": 366.6,
-    "risk_per_share": 20.9,
-    "technical_pivot": 387.5
+    "invalidation_floor": 366.51,
+    "risk_per_share": 20.89,
+    "technical_pivot": 387.4
   },
   "schema_version": "1.0",
   "sector": null,

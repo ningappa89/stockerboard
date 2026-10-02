@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 46.6,
-      "high": 48.35,
-      "low": 46.07,
-      "open": 47.1,
-      "time": "2025-09-19",
-      "volume": 78688
-    },
-    {
-      "close": 46.88,
-      "high": 47.8,
-      "low": 46.24,
-      "open": 47.5,
-      "time": "2025-09-22",
-      "volume": 37799
-    },
-    {
-      "close": 46.68,
-      "high": 47.7,
-      "low": 46.5,
-      "open": 47.5,
-      "time": "2025-09-23",
-      "volume": 55584
-    },
-    {
       "close": 46.27,
       "high": 47.49,
       "low": 45.75,
@@ -2017,13 +1993,37 @@
       "open": 75.87,
       "time": "2026-09-28",
       "volume": 225194
+    },
+    {
+      "close": 75.2,
+      "high": 75.5,
+      "low": 71.05,
+      "open": 72.0,
+      "time": "2026-09-29",
+      "volume": 212785
+    },
+    {
+      "close": 72.73,
+      "high": 76.89,
+      "low": 71.87,
+      "open": 76.1,
+      "time": "2026-09-30",
+      "volume": 180671
+    },
+    {
+      "close": 69.64,
+      "high": 73.85,
+      "low": 68.17,
+      "open": 71.51,
+      "time": "2026-10-01",
+      "volume": 243098
     }
   ],
   "company_name": "PASUPATI ACRYLON LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 73,
+    "is_stage2": false,
+    "momentum_score": 68,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.9x"
+    "volume_multiplier": "0.89x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.42,
-    "change_pct": -4.51,
-    "close": 72.45,
-    "previous_close": 75.87,
+    "as_of": "2026-10-01",
+    "change": -3.09,
+    "change_pct": -4.25,
+    "close": 69.64,
+    "previous_close": 72.73,
     "type": "EOD_CLOSE",
-    "volume": 225194
+    "volume": 243098
   },
   "range": {
-    "distance_from_high_pct": -10.87,
-    "distance_from_low_pct": 79.29,
+    "distance_from_high_pct": -14.33,
+    "distance_from_low_pct": 72.33,
     "high_52w": 81.29,
     "history_basis": "52_WEEK",
     "low_52w": 40.41,
-    "range_position_pct": 78.38
+    "range_position_pct": 71.5
   },
   "risk_model": {
-    "invalidation_floor": 69.91,
-    "risk_per_share": 3.99,
-    "technical_pivot": 73.9
+    "invalidation_floor": 67.2,
+    "risk_per_share": 3.83,
+    "technical_pivot": 71.03
   },
   "schema_version": "1.0",
   "sector": null,

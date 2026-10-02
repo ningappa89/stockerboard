@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 222.6,
-      "high": 223.9,
-      "low": 218.56,
-      "open": 221.3,
-      "time": "2025-09-19",
-      "volume": 301480
-    },
-    {
-      "close": 224.22,
-      "high": 228.45,
-      "low": 221.8,
-      "open": 222.6,
-      "time": "2025-09-22",
-      "volume": 504449
-    },
-    {
-      "close": 223.63,
-      "high": 227.0,
-      "low": 222.1,
-      "open": 225.1,
-      "time": "2025-09-23",
-      "volume": 303519
-    },
-    {
       "close": 223.14,
       "high": 225.4,
       "low": 220.82,
@@ -2017,13 +1993,37 @@
       "open": 315.0,
       "time": "2026-09-28",
       "volume": 7374839
+    },
+    {
+      "close": 306.85,
+      "high": 314.99,
+      "low": 296.85,
+      "open": 310.0,
+      "time": "2026-09-29",
+      "volume": 3338239
+    },
+    {
+      "close": 308.6,
+      "high": 321.0,
+      "low": 306.15,
+      "open": 308.0,
+      "time": "2026-09-30",
+      "volume": 3315946
+    },
+    {
+      "close": 303.55,
+      "high": 311.95,
+      "low": 292.1,
+      "open": 309.0,
+      "time": "2026-10-01",
+      "volume": 2237991
     }
   ],
   "company_name": "SHANTI GOLD INTERNATION L",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 79,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "1.72x"
+    "momentum_score": 76,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.5x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -16.91,
-    "change_pct": -5.19,
-    "close": 308.77,
-    "previous_close": 325.68,
+    "as_of": "2026-10-01",
+    "change": -5.05,
+    "change_pct": -1.64,
+    "close": 303.55,
+    "previous_close": 308.6,
     "type": "EOD_CLOSE",
-    "volume": 7374839
+    "volume": 2237991
   },
   "range": {
-    "distance_from_high_pct": -7.3,
-    "distance_from_low_pct": 99.21,
+    "distance_from_high_pct": -8.87,
+    "distance_from_low_pct": 95.84,
     "high_52w": 333.09,
     "history_basis": "52_WEEK",
     "low_52w": 155.0,
-    "range_position_pct": 86.34
+    "range_position_pct": 83.41
   },
   "risk_model": {
-    "invalidation_floor": 297.96,
-    "risk_per_share": 16.99,
-    "technical_pivot": 314.95
+    "invalidation_floor": 292.93,
+    "risk_per_share": 16.69,
+    "technical_pivot": 309.62
   },
   "schema_version": "1.0",
   "sector": null,

@@ -561,14 +561,38 @@
       "open": 33.12,
       "time": "2026-09-28",
       "volume": 437351
+    },
+    {
+      "close": 31.75,
+      "high": 32.65,
+      "low": 31.1,
+      "open": 31.51,
+      "time": "2026-09-29",
+      "volume": 313966
+    },
+    {
+      "close": 32.03,
+      "high": 32.74,
+      "low": 31.5,
+      "open": 31.76,
+      "time": "2026-09-30",
+      "volume": 293561
+    },
+    {
+      "close": 31.34,
+      "high": 33.25,
+      "low": 30.63,
+      "open": 32.0,
+      "time": "2026-10-01",
+      "volume": 396392
     }
   ],
   "company_name": "ONIDA ELECTRONICS LIMITED",
   "history": {
     "first_session": "2026-06-19",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 70
+    "last_session": "2026-10-01",
+    "sessions_available": 73
   },
   "industry": null,
   "isin": "INE831A01028",
@@ -576,31 +600,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 44,
+    "momentum_score": 42,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.79x"
+    "volume_multiplier": "0.7x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.68,
-    "change_pct": -4.99,
-    "close": 32.0,
-    "previous_close": 33.68,
+    "as_of": "2026-10-01",
+    "change": -0.69,
+    "change_pct": -2.15,
+    "close": 31.34,
+    "previous_close": 32.03,
     "type": "EOD_CLOSE",
-    "volume": 437351
+    "volume": 396392
   },
   "range": {
-    "distance_from_high_pct": -30.13,
-    "distance_from_low_pct": 1.2,
+    "distance_from_high_pct": -31.57,
+    "distance_from_low_pct": 2.32,
     "high_52w": 45.8,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 31.62,
-    "range_position_pct": 2.68
+    "low_52w": 30.63,
+    "range_position_pct": 4.68
   },
   "risk_model": {
-    "invalidation_floor": 30.88,
-    "risk_per_share": 1.76,
-    "technical_pivot": 32.64
+    "invalidation_floor": 30.24,
+    "risk_per_share": 1.73,
+    "technical_pivot": 31.97
   },
   "schema_version": "1.0",
   "sector": null,

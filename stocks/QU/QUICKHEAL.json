@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 336.15,
-      "high": 349.75,
-      "low": 326.0,
-      "open": 326.9,
-      "time": "2025-09-19",
-      "volume": 982179
-    },
-    {
-      "close": 328.1,
-      "high": 335.7,
-      "low": 327.0,
-      "open": 335.4,
-      "time": "2025-09-22",
-      "volume": 119747
-    },
-    {
-      "close": 325.75,
-      "high": 330.6,
-      "low": 324.2,
-      "open": 329.1,
-      "time": "2025-09-23",
-      "volume": 102203
-    },
-    {
       "close": 322.05,
       "high": 330.8,
       "low": 319.75,
@@ -2017,13 +1993,37 @@
       "open": 147.05,
       "time": "2026-09-28",
       "volume": 83329
+    },
+    {
+      "close": 145.92,
+      "high": 148.29,
+      "low": 141.7,
+      "open": 143.82,
+      "time": "2026-09-29",
+      "volume": 77600
+    },
+    {
+      "close": 144.49,
+      "high": 149.79,
+      "low": 143.35,
+      "open": 146.0,
+      "time": "2026-09-30",
+      "volume": 78444
+    },
+    {
+      "close": 138.15,
+      "high": 148.0,
+      "low": 137.08,
+      "open": 144.5,
+      "time": "2026-10-01",
+      "volume": 155260
     }
   ],
   "company_name": "QUICK HEAL TECH LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.35x"
+    "volume_multiplier": "0.63x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.64,
-    "change_pct": -2.48,
-    "close": 143.4,
-    "previous_close": 147.04,
+    "as_of": "2026-10-01",
+    "change": -6.34,
+    "change_pct": -4.39,
+    "close": 138.15,
+    "previous_close": 144.49,
     "type": "EOD_CLOSE",
-    "volume": 83329
+    "volume": 155260
   },
   "range": {
-    "distance_from_high_pct": -61.39,
-    "distance_from_low_pct": 14.72,
+    "distance_from_high_pct": -62.8,
+    "distance_from_low_pct": 10.52,
     "high_52w": 371.4,
     "history_basis": "52_WEEK",
     "low_52w": 125.0,
-    "range_position_pct": 7.47
+    "range_position_pct": 5.34
   },
   "risk_model": {
-    "invalidation_floor": 138.38,
-    "risk_per_share": 7.89,
-    "technical_pivot": 146.27
+    "invalidation_floor": 133.31,
+    "risk_per_share": 7.6,
+    "technical_pivot": 140.91
   },
   "schema_version": "1.0",
   "sector": null,

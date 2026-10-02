@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 175.93,
-      "high": 177.94,
-      "low": 175.1,
-      "open": 176.9,
-      "time": "2025-09-19",
-      "volume": 65948
-    },
-    {
-      "close": 172.62,
-      "high": 177.0,
-      "low": 171.2,
-      "open": 175.5,
-      "time": "2025-09-22",
-      "volume": 124822
-    },
-    {
-      "close": 174.25,
-      "high": 175.2,
-      "low": 172.2,
-      "open": 175.2,
-      "time": "2025-09-23",
-      "volume": 35283
-    },
-    {
       "close": 178.56,
       "high": 181.5,
       "low": 173.5,
@@ -2017,13 +1993,37 @@
       "open": 137.97,
       "time": "2026-09-28",
       "volume": 53092
+    },
+    {
+      "close": 133.71,
+      "high": 136.6,
+      "low": 132.63,
+      "open": 136.0,
+      "time": "2026-09-29",
+      "volume": 116666
+    },
+    {
+      "close": 133.87,
+      "high": 135.86,
+      "low": 133.11,
+      "open": 134.3,
+      "time": "2026-09-30",
+      "volume": 80679
+    },
+    {
+      "close": 132.88,
+      "high": 134.42,
+      "low": 131.7,
+      "open": 134.0,
+      "time": "2026-10-01",
+      "volume": 77191
     }
   ],
   "company_name": "GIC HOUSING FINANCE LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 50,
+    "momentum_score": 48,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.69x"
+    "volume_multiplier": "1.03x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.6,
-    "change_pct": -1.17,
-    "close": 135.72,
-    "previous_close": 137.32,
+    "as_of": "2026-10-01",
+    "change": -0.99,
+    "change_pct": -0.74,
+    "close": 132.88,
+    "previous_close": 133.87,
     "type": "EOD_CLOSE",
-    "volume": 53092
+    "volume": 77191
   },
   "range": {
-    "distance_from_high_pct": -26.24,
-    "distance_from_low_pct": 4.36,
+    "distance_from_high_pct": -27.78,
+    "distance_from_low_pct": 2.18,
     "high_52w": 184.0,
     "history_basis": "52_WEEK",
     "low_52w": 130.05,
-    "range_position_pct": 10.51
+    "range_position_pct": 5.25
   },
   "risk_model": {
-    "invalidation_floor": 130.97,
-    "risk_per_share": 7.46,
-    "technical_pivot": 138.43
+    "invalidation_floor": 128.23,
+    "risk_per_share": 7.31,
+    "technical_pivot": 135.54
   },
   "schema_version": "1.0",
   "sector": null,

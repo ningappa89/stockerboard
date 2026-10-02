@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1640.1,
-      "high": 1666.7,
-      "low": 1632.2,
-      "open": 1657.0,
-      "time": "2025-09-19",
-      "volume": 473525
-    },
-    {
-      "close": 1661.4,
-      "high": 1695.0,
-      "low": 1639.0,
-      "open": 1639.2,
-      "time": "2025-09-22",
-      "volume": 939886
-    },
-    {
-      "close": 1671.0,
-      "high": 1714.2,
-      "low": 1651.0,
-      "open": 1663.0,
-      "time": "2025-09-23",
-      "volume": 1193379
-    },
-    {
       "close": 1644.9,
       "high": 1690.0,
       "low": 1635.6,
@@ -2017,13 +1993,37 @@
       "open": 1204.0,
       "time": "2026-09-28",
       "volume": 334384
+    },
+    {
+      "close": 1136.9,
+      "high": 1183.0,
+      "low": 1134.0,
+      "open": 1179.0,
+      "time": "2026-09-29",
+      "volume": 359867
+    },
+    {
+      "close": 1134.2,
+      "high": 1167.0,
+      "low": 1130.0,
+      "open": 1136.0,
+      "time": "2026-09-30",
+      "volume": 391576
+    },
+    {
+      "close": 1096.2,
+      "high": 1128.4,
+      "low": 1076.2,
+      "open": 1128.0,
+      "time": "2026-10-01",
+      "volume": 623533
     }
   ],
   "company_name": "OLECTRA GREENTECH LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.85x"
+    "volume_multiplier": "1.51x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -33.4,
-    "change_pct": -2.77,
-    "close": 1173.8,
-    "previous_close": 1207.2,
+    "as_of": "2026-10-01",
+    "change": -38.0,
+    "change_pct": -3.35,
+    "close": 1096.2,
+    "previous_close": 1134.2,
     "type": "EOD_CLOSE",
-    "volume": 334384
+    "volume": 623533
   },
   "range": {
-    "distance_from_high_pct": -31.52,
-    "distance_from_low_pct": 35.45,
-    "high_52w": 1714.2,
+    "distance_from_high_pct": -35.14,
+    "distance_from_low_pct": 26.49,
+    "high_52w": 1690.0,
     "history_basis": "52_WEEK",
     "low_52w": 866.6,
-    "range_position_pct": 36.24
+    "range_position_pct": 27.88
   },
   "risk_model": {
-    "invalidation_floor": 1132.72,
-    "risk_per_share": 64.56,
-    "technical_pivot": 1197.28
+    "invalidation_floor": 1057.83,
+    "risk_per_share": 60.29,
+    "technical_pivot": 1118.12
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 46.31,
-      "high": 47.13,
-      "low": 46.0,
-      "open": 46.6,
-      "time": "2025-09-19",
-      "volume": 145950
-    },
-    {
-      "close": 46.75,
-      "high": 47.5,
-      "low": 45.12,
-      "open": 45.12,
-      "time": "2025-09-22",
-      "volume": 227460
-    },
-    {
-      "close": 48.3,
-      "high": 49.15,
-      "low": 47.35,
-      "open": 48.0,
-      "time": "2025-09-23",
-      "volume": 332620
-    },
-    {
       "close": 48.04,
       "high": 48.67,
       "low": 48.0,
@@ -2017,13 +1993,37 @@
       "open": 47.0,
       "time": "2026-09-28",
       "volume": 58662
+    },
+    {
+      "close": 43.9,
+      "high": 44.74,
+      "low": 43.07,
+      "open": 44.06,
+      "time": "2026-09-29",
+      "volume": 65048
+    },
+    {
+      "close": 44.25,
+      "high": 45.83,
+      "low": 43.55,
+      "open": 44.5,
+      "time": "2026-09-30",
+      "volume": 48186
+    },
+    {
+      "close": 44.91,
+      "high": 46.5,
+      "low": 44.51,
+      "open": 45.8,
+      "time": "2026-10-01",
+      "volume": 119958
     }
   ],
   "company_name": "SIGMA SOLVE LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 42,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.59x"
+    "volume_multiplier": "1.29x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.87,
-    "change_pct": -1.91,
-    "close": 44.74,
-    "previous_close": 45.61,
+    "as_of": "2026-10-01",
+    "change": 0.66,
+    "change_pct": 1.49,
+    "close": 44.91,
+    "previous_close": 44.25,
     "type": "EOD_CLOSE",
-    "volume": 58662
+    "volume": 119958
   },
   "range": {
-    "distance_from_high_pct": -31.69,
-    "distance_from_low_pct": 26.17,
+    "distance_from_high_pct": -31.44,
+    "distance_from_low_pct": 26.65,
     "high_52w": 65.5,
     "history_basis": "52_WEEK",
     "low_52w": 35.46,
-    "range_position_pct": 30.89
+    "range_position_pct": 31.46
   },
   "risk_model": {
-    "invalidation_floor": 43.17,
-    "risk_per_share": 2.46,
-    "technical_pivot": 45.63
+    "invalidation_floor": 43.34,
+    "risk_per_share": 2.47,
+    "technical_pivot": 45.81
   },
   "schema_version": "1.0",
   "sector": null,

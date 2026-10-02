@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 95.1,
-      "high": 97.1,
-      "low": 94.5,
-      "open": 95.8,
-      "time": "2025-09-19",
-      "volume": 89751
-    },
-    {
-      "close": 94.4,
-      "high": 95.84,
-      "low": 94.0,
-      "open": 95.45,
-      "time": "2025-09-22",
-      "volume": 92593
-    },
-    {
-      "close": 94.64,
-      "high": 95.41,
-      "low": 93.62,
-      "open": 94.01,
-      "time": "2025-09-23",
-      "volume": 57798
-    },
-    {
       "close": 94.46,
       "high": 95.02,
       "low": 93.7,
@@ -2017,13 +1993,37 @@
       "open": 118.0,
       "time": "2026-09-28",
       "volume": 55544
+    },
+    {
+      "close": 115.54,
+      "high": 116.8,
+      "low": 114.71,
+      "open": 116.0,
+      "time": "2026-09-29",
+      "volume": 40220
+    },
+    {
+      "close": 119.41,
+      "high": 125.0,
+      "low": 115.13,
+      "open": 115.13,
+      "time": "2026-09-30",
+      "volume": 649299
+    },
+    {
+      "close": 119.39,
+      "high": 122.71,
+      "low": 116.11,
+      "open": 119.41,
+      "time": "2026-10-01",
+      "volume": 344580
     }
   ],
   "company_name": "TEXMACO INFRASTRUCTURE & HOLDI",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 78,
+    "momentum_score": 81,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.14x"
+    "volume_multiplier": "0.83x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.69,
-    "change_pct": -1.43,
-    "close": 116.56,
-    "previous_close": 118.25,
+    "as_of": "2026-10-01",
+    "change": -0.02,
+    "change_pct": -0.02,
+    "close": 119.39,
+    "previous_close": 119.41,
     "type": "EOD_CLOSE",
-    "volume": 55544
+    "volume": 344580
   },
   "range": {
-    "distance_from_high_pct": -7.92,
-    "distance_from_low_pct": 41.28,
+    "distance_from_high_pct": -5.69,
+    "distance_from_low_pct": 44.72,
     "high_52w": 126.59,
     "history_basis": "52_WEEK",
     "low_52w": 82.5,
-    "range_position_pct": 77.25
+    "range_position_pct": 83.67
   },
   "risk_model": {
-    "invalidation_floor": 112.48,
-    "risk_per_share": 6.41,
-    "technical_pivot": 118.89
+    "invalidation_floor": 115.21,
+    "risk_per_share": 6.57,
+    "technical_pivot": 121.78
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 72.5,
-      "high": 73.25,
-      "low": 72.0,
-      "open": 73.09,
-      "time": "2025-09-19",
-      "volume": 21380
-    },
-    {
-      "close": 73.16,
-      "high": 74.3,
-      "low": 72.05,
-      "open": 72.5,
-      "time": "2025-09-22",
-      "volume": 90950
-    },
-    {
-      "close": 72.59,
-      "high": 73.61,
-      "low": 72.04,
-      "open": 73.16,
-      "time": "2025-09-23",
-      "volume": 127720
-    },
-    {
       "close": 73.89,
       "high": 74.45,
       "low": 72.29,
@@ -2017,13 +1993,37 @@
       "open": 156.65,
       "time": "2026-09-28",
       "volume": 388655
+    },
+    {
+      "close": 140.59,
+      "high": 147.27,
+      "low": 139.26,
+      "open": 145.0,
+      "time": "2026-09-29",
+      "volume": 260831
+    },
+    {
+      "close": 140.49,
+      "high": 144.8,
+      "low": 138.86,
+      "open": 141.5,
+      "time": "2026-09-30",
+      "volume": 261015
+    },
+    {
+      "close": 138.68,
+      "high": 142.5,
+      "low": 136.41,
+      "open": 142.49,
+      "time": "2026-10-01",
+      "volume": 256017
     }
   ],
   "company_name": "SILVER TOUCH TECHNO LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.67x"
+    "volume_multiplier": "0.48x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.99,
-    "change_pct": -1.35,
-    "close": 145.8,
-    "previous_close": 147.79,
+    "as_of": "2026-10-01",
+    "change": -1.81,
+    "change_pct": -1.29,
+    "close": 138.68,
+    "previous_close": 140.49,
     "type": "EOD_CLOSE",
-    "volume": 388655
+    "volume": 256017
   },
   "range": {
-    "distance_from_high_pct": -32.75,
-    "distance_from_low_pct": 115.74,
+    "distance_from_high_pct": -36.03,
+    "distance_from_low_pct": 105.21,
     "high_52w": 216.8,
     "history_basis": "52_WEEK",
     "low_52w": 67.58,
-    "range_position_pct": 52.42
+    "range_position_pct": 47.65
   },
   "risk_model": {
-    "invalidation_floor": 140.7,
-    "risk_per_share": 8.02,
-    "technical_pivot": 148.72
+    "invalidation_floor": 133.83,
+    "risk_per_share": 7.62,
+    "technical_pivot": 141.45
   },
   "schema_version": "1.0",
   "sector": null,

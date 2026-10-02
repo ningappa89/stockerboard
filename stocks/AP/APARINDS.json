@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 8847.0,
-      "high": 8979.0,
-      "low": 8705.5,
-      "open": 8942.0,
-      "time": "2025-09-19",
-      "volume": 60133
-    },
-    {
-      "close": 8715.5,
-      "high": 8916.5,
-      "low": 8700.0,
-      "open": 8800.0,
-      "time": "2025-09-22",
-      "volume": 64446
-    },
-    {
-      "close": 8676.0,
-      "high": 8766.0,
-      "low": 8655.0,
-      "open": 8725.0,
-      "time": "2025-09-23",
-      "volume": 23495
-    },
-    {
       "close": 8758.5,
       "high": 8787.0,
       "low": 8610.0,
@@ -2017,13 +1993,37 @@
       "open": 17750.0,
       "time": "2026-09-28",
       "volume": 128717
+    },
+    {
+      "close": 17803.0,
+      "high": 18062.0,
+      "low": 17150.0,
+      "open": 17337.0,
+      "time": "2026-09-29",
+      "volume": 199491
+    },
+    {
+      "close": 17384.0,
+      "high": 17882.0,
+      "low": 17291.0,
+      "open": 17804.0,
+      "time": "2026-09-30",
+      "volume": 116165
+    },
+    {
+      "close": 17648.0,
+      "high": 17868.0,
+      "low": 16955.0,
+      "open": 17384.0,
+      "time": "2026-10-01",
+      "volume": 138360
     }
   ],
   "company_name": "APAR INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 74,
+    "momentum_score": 77,
     "setup_type": "Liquid Active",
     "volume_multiplier": "1.0x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -513.0,
-    "change_pct": -2.89,
-    "close": 17263.0,
-    "previous_close": 17776.0,
+    "as_of": "2026-10-01",
+    "change": 264.0,
+    "change_pct": 1.52,
+    "close": 17648.0,
+    "previous_close": 17384.0,
     "type": "EOD_CLOSE",
-    "volume": 128717
+    "volume": 138360
   },
   "range": {
-    "distance_from_high_pct": -10.39,
-    "distance_from_low_pct": 153.83,
+    "distance_from_high_pct": -8.39,
+    "distance_from_low_pct": 159.49,
     "high_52w": 19265.0,
     "history_basis": "52_WEEK",
     "low_52w": 6801.0,
-    "range_position_pct": 83.94
+    "range_position_pct": 87.03
   },
   "risk_model": {
-    "invalidation_floor": 16658.79,
-    "risk_per_share": 949.47,
-    "technical_pivot": 17608.26
+    "invalidation_floor": 17030.32,
+    "risk_per_share": 970.64,
+    "technical_pivot": 18000.96
   },
   "schema_version": "1.0",
   "sector": null,

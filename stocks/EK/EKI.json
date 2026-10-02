@@ -241,46 +241,62 @@
       "open": 102.79,
       "time": "2026-09-28",
       "volume": 141967
+    },
+    {
+      "close": 98.57,
+      "high": 100.26,
+      "low": 83.3,
+      "open": 92.7,
+      "time": "2026-09-29",
+      "volume": 318373
+    },
+    {
+      "close": 94.99,
+      "high": 103.88,
+      "low": 94.11,
+      "open": 99.98,
+      "time": "2026-09-30",
+      "volume": 82152
     }
   ],
   "company_name": "EKI ENERGY SERVICES LTD",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-09-30",
+    "sessions_available": 32
   },
   "industry": null,
   "isin": "INE0CPR01018",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 65,
+    "is_stage2": true,
+    "momentum_score": 70,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.52x"
+    "volume_multiplier": "0.73x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -9.84,
-    "change_pct": -9.74,
-    "close": 91.15,
-    "previous_close": 100.99,
+    "as_of": "2026-09-30",
+    "change": -3.58,
+    "change_pct": -3.63,
+    "close": 94.99,
+    "previous_close": 98.57,
     "type": "EOD_CLOSE",
-    "volume": 141967
+    "volume": 82152
   },
   "range": {
-    "distance_from_high_pct": -16.33,
-    "distance_from_low_pct": 36.04,
+    "distance_from_high_pct": -12.81,
+    "distance_from_low_pct": 41.78,
     "high_52w": 108.94,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 67.0,
-    "range_position_pct": 57.58
+    "range_position_pct": 66.74
   },
   "risk_model": {
-    "invalidation_floor": 87.96,
-    "risk_per_share": 5.01,
-    "technical_pivot": 92.97
+    "invalidation_floor": 91.67,
+    "risk_per_share": 5.22,
+    "technical_pivot": 96.89
   },
   "schema_version": "1.0",
   "sector": null,

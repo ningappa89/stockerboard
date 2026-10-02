@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 557.5,
-      "high": 559.9,
-      "low": 546.1,
-      "open": 551.2,
-      "time": "2025-09-19",
-      "volume": 25603
-    },
-    {
-      "close": 557.8,
-      "high": 572.0,
-      "low": 547.0,
-      "open": 560.0,
-      "time": "2025-09-22",
-      "volume": 70559
-    },
-    {
-      "close": 550.85,
-      "high": 563.4,
-      "low": 547.45,
-      "open": 563.4,
-      "time": "2025-09-23",
-      "volume": 12686
-    },
-    {
       "close": 548.95,
       "high": 559.4,
       "low": 543.9,
@@ -2017,13 +1993,37 @@
       "open": 428.9,
       "time": "2026-09-28",
       "volume": 124030
+    },
+    {
+      "close": 418.95,
+      "high": 423.15,
+      "low": 405.55,
+      "open": 417.45,
+      "time": "2026-09-29",
+      "volume": 121522
+    },
+    {
+      "close": 415.0,
+      "high": 426.0,
+      "low": 410.0,
+      "open": 410.0,
+      "time": "2026-09-30",
+      "volume": 26629
+    },
+    {
+      "close": 404.7,
+      "high": 414.5,
+      "low": 384.3,
+      "open": 412.75,
+      "time": "2026-10-01",
+      "volume": 137363
     }
   ],
   "company_name": "SHOPPERS STOP LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 50,
+    "momentum_score": 48,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.32x"
+    "volume_multiplier": "0.34x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.75,
-    "change_pct": -0.41,
-    "close": 421.8,
-    "previous_close": 423.55,
+    "as_of": "2026-10-01",
+    "change": -10.3,
+    "change_pct": -2.48,
+    "close": 404.7,
+    "previous_close": 415.0,
     "type": "EOD_CLOSE",
-    "volume": 124030
+    "volume": 137363
   },
   "range": {
-    "distance_from_high_pct": -26.26,
-    "distance_from_low_pct": 52.85,
-    "high_52w": 572.0,
+    "distance_from_high_pct": -27.65,
+    "distance_from_low_pct": 46.66,
+    "high_52w": 559.4,
     "history_basis": "52_WEEK",
     "low_52w": 275.95,
-    "range_position_pct": 49.27
+    "range_position_pct": 45.42
   },
   "risk_model": {
-    "invalidation_floor": 407.04,
-    "risk_per_share": 23.2,
-    "technical_pivot": 430.24
+    "invalidation_floor": 390.54,
+    "risk_per_share": 22.25,
+    "technical_pivot": 412.79
   },
   "schema_version": "1.0",
   "sector": null,

@@ -897,14 +897,38 @@
       "open": 11779.0,
       "time": "2026-09-28",
       "volume": 123
+    },
+    {
+      "close": 11804.0,
+      "high": 12150.0,
+      "low": 11720.0,
+      "open": 11802.0,
+      "time": "2026-09-29",
+      "volume": 281
+    },
+    {
+      "close": 11796.0,
+      "high": 12050.0,
+      "low": 11750.0,
+      "open": 12050.0,
+      "time": "2026-09-30",
+      "volume": 158
+    },
+    {
+      "close": 11249.0,
+      "high": 11800.0,
+      "low": 11000.0,
+      "open": 11800.0,
+      "time": "2026-10-01",
+      "volume": 297
     }
   ],
   "company_name": "DISA INDIA LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 112
+    "last_session": "2026-10-01",
+    "sessions_available": 115
   },
   "industry": null,
   "isin": "INE131C01011",
@@ -912,31 +936,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 79,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.59x"
+    "volume_multiplier": "1.5x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 199.0,
-    "change_pct": 1.69,
-    "close": 11972.0,
-    "previous_close": 11773.0,
+    "as_of": "2026-10-01",
+    "change": -547.0,
+    "change_pct": -4.64,
+    "close": 11249.0,
+    "previous_close": 11796.0,
     "type": "EOD_CLOSE",
-    "volume": 123
+    "volume": 297
   },
   "range": {
-    "distance_from_high_pct": -6.93,
-    "distance_from_low_pct": 10.33,
+    "distance_from_high_pct": -12.55,
+    "distance_from_low_pct": 3.67,
     "high_52w": 12864.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 10851.0,
-    "range_position_pct": 55.69
+    "range_position_pct": 19.77
   },
   "risk_model": {
-    "invalidation_floor": 11552.98,
-    "risk_per_share": 658.46,
-    "technical_pivot": 12211.44
+    "invalidation_floor": 10855.28,
+    "risk_per_share": 618.7,
+    "technical_pivot": 11473.98
   },
   "schema_version": "1.0",
   "sector": null,

@@ -897,46 +897,70 @@
       "open": 1502.9,
       "time": "2026-09-28",
       "volume": 84310
+    },
+    {
+      "close": 1622.7,
+      "high": 1635.0,
+      "low": 1532.9,
+      "open": 1575.1,
+      "time": "2026-09-29",
+      "volume": 31539
+    },
+    {
+      "close": 1710.4,
+      "high": 1740.0,
+      "low": 1610.5,
+      "open": 1615.1,
+      "time": "2026-09-30",
+      "volume": 67737
+    },
+    {
+      "close": 1646.8,
+      "high": 1734.0,
+      "low": 1617.9,
+      "open": 1690.2,
+      "time": "2026-10-01",
+      "volume": 27802
     }
   ],
   "company_name": "3B BlackBio Dx Limited",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 112
+    "last_session": "2026-10-01",
+    "sessions_available": 115
   },
   "industry": null,
   "isin": "INE994E01018",
   "metrics": {
-    "is_breakout": true,
-    "is_coiled": true,
+    "is_breakout": false,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 88,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "4.06x"
+    "momentum_score": 81,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.33x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 128.6,
-    "change_pct": 8.83,
-    "close": 1584.8,
-    "previous_close": 1456.2,
+    "as_of": "2026-10-01",
+    "change": -63.6,
+    "change_pct": -3.72,
+    "close": 1646.8,
+    "previous_close": 1710.4,
     "type": "EOD_CLOSE",
-    "volume": 84310
+    "volume": 27802
   },
   "range": {
-    "distance_from_high_pct": -0.89,
-    "distance_from_low_pct": 46.06,
-    "high_52w": 1599.0,
+    "distance_from_high_pct": -5.36,
+    "distance_from_low_pct": 51.78,
+    "high_52w": 1740.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 1085.0,
-    "range_position_pct": 97.24
+    "range_position_pct": 85.77
   },
   "risk_model": {
-    "invalidation_floor": 1529.33,
-    "risk_per_share": 68.15,
-    "technical_pivot": 1597.48
+    "invalidation_floor": 1589.16,
+    "risk_per_share": 90.58,
+    "technical_pivot": 1679.74
   },
   "schema_version": "1.0",
   "sector": null,

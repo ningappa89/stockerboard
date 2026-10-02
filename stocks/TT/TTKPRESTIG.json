@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 664.3,
-      "high": 675.4,
-      "low": 660.1,
-      "open": 671.0,
-      "time": "2025-09-19",
-      "volume": 70268
-    },
-    {
-      "close": 656.8,
-      "high": 668.25,
-      "low": 654.3,
-      "open": 667.6,
-      "time": "2025-09-22",
-      "volume": 17376
-    },
-    {
-      "close": 649.35,
-      "high": 659.8,
-      "low": 645.0,
-      "open": 659.75,
-      "time": "2025-09-23",
-      "volume": 19328
-    },
-    {
       "close": 647.4,
       "high": 652.0,
       "low": 642.65,
@@ -2017,13 +1993,37 @@
       "open": 520.05,
       "time": "2026-09-28",
       "volume": 26198
+    },
+    {
+      "close": 533.75,
+      "high": 551.5,
+      "low": 515.35,
+      "open": 515.35,
+      "time": "2026-09-29",
+      "volume": 484427
+    },
+    {
+      "close": 515.85,
+      "high": 536.15,
+      "low": 513.2,
+      "open": 529.5,
+      "time": "2026-09-30",
+      "volume": 51023
+    },
+    {
+      "close": 506.4,
+      "high": 519.75,
+      "low": 497.0,
+      "open": 512.6,
+      "time": "2026-10-01",
+      "volume": 63610
     }
   ],
   "company_name": "TTK PRESTIGE LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.44x"
+    "volume_multiplier": "0.78x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -10.55,
-    "change_pct": -2.01,
-    "close": 513.85,
-    "previous_close": 524.4,
+    "as_of": "2026-10-01",
+    "change": -9.45,
+    "change_pct": -1.83,
+    "close": 506.4,
+    "previous_close": 515.85,
     "type": "EOD_CLOSE",
-    "volume": 26198
+    "volume": 63610
   },
   "range": {
-    "distance_from_high_pct": -33.37,
-    "distance_from_low_pct": 21.48,
+    "distance_from_high_pct": -34.34,
+    "distance_from_low_pct": 19.72,
     "high_52w": 771.2,
     "history_basis": "52_WEEK",
     "low_52w": 423.0,
-    "range_position_pct": 26.09
+    "range_position_pct": 23.95
   },
   "risk_model": {
-    "invalidation_floor": 495.87,
-    "risk_per_share": 28.26,
-    "technical_pivot": 524.13
+    "invalidation_floor": 488.68,
+    "risk_per_share": 27.85,
+    "technical_pivot": 516.53
   },
   "schema_version": "1.0",
   "sector": null,

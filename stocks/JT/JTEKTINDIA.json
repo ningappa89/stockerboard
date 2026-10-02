@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 174.26,
-      "high": 176.3,
-      "low": 172.1,
-      "open": 176.3,
-      "time": "2025-09-19",
-      "volume": 289258
-    },
-    {
-      "close": 182.03,
-      "high": 184.0,
-      "low": 173.0,
-      "open": 174.73,
-      "time": "2025-09-22",
-      "volume": 1406057
-    },
-    {
-      "close": 184.86,
-      "high": 187.95,
-      "low": 178.38,
-      "open": 183.4,
-      "time": "2025-09-23",
-      "volume": 1488605
-    },
-    {
       "close": 174.76,
       "high": 184.5,
       "low": 174.1,
@@ -2017,13 +1993,37 @@
       "open": 118.93,
       "time": "2026-09-28",
       "volume": 52991
+    },
+    {
+      "close": 115.84,
+      "high": 117.76,
+      "low": 114.2,
+      "open": 116.55,
+      "time": "2026-09-29",
+      "volume": 66051
+    },
+    {
+      "close": 116.58,
+      "high": 117.3,
+      "low": 115.84,
+      "open": 115.84,
+      "time": "2026-09-30",
+      "volume": 54853
+    },
+    {
+      "close": 115.84,
+      "high": 117.8,
+      "low": 114.7,
+      "open": 116.8,
+      "time": "2026-10-01",
+      "volume": 131859
     }
   ],
   "company_name": "JTEKT India Ltd",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.35x"
+    "volume_multiplier": "1.15x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.86,
-    "change_pct": -1.58,
-    "close": 116.21,
-    "previous_close": 118.07,
+    "as_of": "2026-10-01",
+    "change": -0.74,
+    "change_pct": -0.63,
+    "close": 115.84,
+    "previous_close": 116.58,
     "type": "EOD_CLOSE",
-    "volume": 52991
+    "volume": 131859
   },
   "range": {
-    "distance_from_high_pct": -38.17,
-    "distance_from_low_pct": 1.21,
-    "high_52w": 187.95,
+    "distance_from_high_pct": -37.21,
+    "distance_from_low_pct": 1.44,
+    "high_52w": 184.5,
     "history_basis": "52_WEEK",
-    "low_52w": 114.82,
-    "range_position_pct": 1.9
+    "low_52w": 114.2,
+    "range_position_pct": 2.33
   },
   "risk_model": {
-    "invalidation_floor": 112.14,
-    "risk_per_share": 6.39,
-    "technical_pivot": 118.53
+    "invalidation_floor": 111.79,
+    "risk_per_share": 6.37,
+    "technical_pivot": 118.16
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 549.25,
-      "high": 550.5,
-      "low": 532.55,
-      "open": 532.8,
-      "time": "2025-09-19",
-      "volume": 847095
-    },
-    {
-      "close": 532.8,
-      "high": 552.1,
-      "low": 531.9,
-      "open": 550.0,
-      "time": "2025-09-22",
-      "volume": 261018
-    },
-    {
-      "close": 534.5,
-      "high": 552.85,
-      "low": 530.05,
-      "open": 532.8,
-      "time": "2025-09-23",
-      "volume": 537326
-    },
-    {
       "close": 579.1,
       "high": 601.65,
       "low": 550.0,
@@ -2017,13 +1993,37 @@
       "open": 678.5,
       "time": "2026-09-28",
       "volume": 126782
+    },
+    {
+      "close": 672.75,
+      "high": 678.25,
+      "low": 661.0,
+      "open": 670.0,
+      "time": "2026-09-29",
+      "volume": 509602
+    },
+    {
+      "close": 692.85,
+      "high": 698.15,
+      "low": 672.75,
+      "open": 672.75,
+      "time": "2026-09-30",
+      "volume": 255045
+    },
+    {
+      "close": 667.35,
+      "high": 694.45,
+      "low": 649.35,
+      "open": 692.0,
+      "time": "2026-10-01",
+      "volume": 497785
     }
   ],
   "company_name": "Minda Corporation Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 71,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.74x"
+    "momentum_score": 70,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.75x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.85,
-    "change_pct": -0.86,
-    "close": 673.0,
-    "previous_close": 678.85,
+    "as_of": "2026-10-01",
+    "change": -25.5,
+    "change_pct": -3.68,
+    "close": 667.35,
+    "previous_close": 692.85,
     "type": "EOD_CLOSE",
-    "volume": 126782
+    "volume": 497785
   },
   "range": {
-    "distance_from_high_pct": -12.48,
-    "distance_from_low_pct": 43.65,
+    "distance_from_high_pct": -13.22,
+    "distance_from_low_pct": 42.44,
     "high_52w": 769.0,
     "history_basis": "52_WEEK",
     "low_52w": 468.5,
-    "range_position_pct": 68.05
+    "range_position_pct": 66.17
   },
   "risk_model": {
-    "invalidation_floor": 649.44,
-    "risk_per_share": 37.02,
-    "technical_pivot": 686.46
+    "invalidation_floor": 643.99,
+    "risk_per_share": 36.71,
+    "technical_pivot": 680.7
   },
   "schema_version": "1.0",
   "sector": null,

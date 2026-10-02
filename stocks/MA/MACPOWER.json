@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 868.3,
-      "high": 895.0,
-      "low": 861.0,
-      "open": 894.0,
-      "time": "2025-09-19",
-      "volume": 10679
-    },
-    {
-      "close": 862.2,
-      "high": 875.6,
-      "low": 843.0,
-      "open": 853.5,
-      "time": "2025-09-22",
-      "volume": 13261
-    },
-    {
-      "close": 869.6,
-      "high": 914.9,
-      "low": 842.5,
-      "open": 842.5,
-      "time": "2025-09-23",
-      "volume": 15025
-    },
-    {
       "close": 870.1,
       "high": 887.0,
       "low": 856.0,
@@ -2017,46 +1993,70 @@
       "open": 2170.0,
       "time": "2026-09-28",
       "volume": 148082
+    },
+    {
+      "close": 2128.1,
+      "high": 2190.0,
+      "low": 2085.3,
+      "open": 2190.0,
+      "time": "2026-09-29",
+      "volume": 55501
+    },
+    {
+      "close": 2096.0,
+      "high": 2183.6,
+      "low": 2080.0,
+      "open": 2165.5,
+      "time": "2026-09-30",
+      "volume": 40395
+    },
+    {
+      "close": 2144.8,
+      "high": 2234.7,
+      "low": 2060.1,
+      "open": 2135.0,
+      "time": "2026-10-01",
+      "volume": 97223
     }
   ],
   "company_name": "MACPOWER CNC MACHINES LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE155Z01011",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 87,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "2.21x"
+    "momentum_score": 83,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.39x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 132.1,
-    "change_pct": 6.4,
-    "close": 2194.6,
-    "previous_close": 2062.5,
+    "as_of": "2026-10-01",
+    "change": 48.8,
+    "change_pct": 2.33,
+    "close": 2144.8,
+    "previous_close": 2096.0,
     "type": "EOD_CLOSE",
-    "volume": 148082
+    "volume": 97223
   },
   "range": {
-    "distance_from_high_pct": -1.41,
-    "distance_from_low_pct": 188.38,
-    "high_52w": 2226.0,
+    "distance_from_high_pct": -4.02,
+    "distance_from_low_pct": 181.84,
+    "high_52w": 2234.7,
     "history_basis": "52_WEEK",
     "low_52w": 761.0,
-    "range_position_pct": 97.86
+    "range_position_pct": 93.9
   },
   "risk_model": {
-    "invalidation_floor": 2117.79,
-    "risk_per_share": 120.7,
-    "technical_pivot": 2238.49
+    "invalidation_floor": 2069.73,
+    "risk_per_share": 117.97,
+    "technical_pivot": 2187.7
   },
   "schema_version": "1.0",
   "sector": null,

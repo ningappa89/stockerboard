@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 15.86,
-      "high": 16.07,
-      "low": 15.8,
-      "open": 16.0,
-      "time": "2025-09-19",
-      "volume": 166048
-    },
-    {
-      "close": 15.75,
-      "high": 16.04,
-      "low": 15.68,
-      "open": 16.04,
-      "time": "2025-09-22",
-      "volume": 88489
-    },
-    {
-      "close": 15.54,
-      "high": 15.87,
-      "low": 15.5,
-      "open": 15.55,
-      "time": "2025-09-23",
-      "volume": 166782
-    },
-    {
       "close": 15.25,
       "high": 15.68,
       "low": 15.15,
@@ -2017,13 +1993,37 @@
       "open": 10.5,
       "time": "2026-09-28",
       "volume": 611495
+    },
+    {
+      "close": 10.11,
+      "high": 10.39,
+      "low": 10.02,
+      "open": 10.39,
+      "time": "2026-09-29",
+      "volume": 112671
+    },
+    {
+      "close": 10.1,
+      "high": 10.35,
+      "low": 10.02,
+      "open": 10.26,
+      "time": "2026-09-30",
+      "volume": 206242
+    },
+    {
+      "close": 10.04,
+      "high": 10.24,
+      "low": 9.86,
+      "open": 10.02,
+      "time": "2026-10-01",
+      "volume": 313156
     }
   ],
   "company_name": "HCL INFOSYSTEMS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.84x"
+    "volume_multiplier": "0.97x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.52,
-    "change_pct": -4.92,
-    "close": 10.05,
-    "previous_close": 10.57,
+    "as_of": "2026-10-01",
+    "change": -0.06,
+    "change_pct": -0.59,
+    "close": 10.04,
+    "previous_close": 10.1,
     "type": "EOD_CLOSE",
-    "volume": 611495
+    "volume": 313156
   },
   "range": {
-    "distance_from_high_pct": -39.09,
-    "distance_from_low_pct": 11.54,
+    "distance_from_high_pct": -39.15,
+    "distance_from_low_pct": 11.43,
     "high_52w": 16.5,
     "history_basis": "52_WEEK",
     "low_52w": 9.01,
-    "range_position_pct": 13.89
+    "range_position_pct": 13.75
   },
   "risk_model": {
-    "invalidation_floor": 9.7,
+    "invalidation_floor": 9.69,
     "risk_per_share": 0.55,
-    "technical_pivot": 10.25
+    "technical_pivot": 10.24
   },
   "schema_version": "1.0",
   "sector": null,

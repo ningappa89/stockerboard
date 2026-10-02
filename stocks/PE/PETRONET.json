@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 278.4,
-      "high": 279.95,
-      "low": 277.7,
-      "open": 279.0,
-      "time": "2025-09-19",
-      "volume": 2714497
-    },
-    {
-      "close": 275.9,
-      "high": 279.75,
-      "low": 275.05,
-      "open": 278.4,
-      "time": "2025-09-22",
-      "volume": 1377739
-    },
-    {
-      "close": 275.95,
-      "high": 277.75,
-      "low": 274.3,
-      "open": 276.05,
-      "time": "2025-09-23",
-      "volume": 940038
-    },
-    {
       "close": 270.95,
       "high": 275.75,
       "low": 270.25,
@@ -2017,13 +1993,37 @@
       "open": 286.95,
       "time": "2026-09-28",
       "volume": 2937411
+    },
+    {
+      "close": 282.95,
+      "high": 288.5,
+      "low": 281.75,
+      "open": 284.7,
+      "time": "2026-09-29",
+      "volume": 2819999
+    },
+    {
+      "close": 284.5,
+      "high": 288.9,
+      "low": 284.0,
+      "open": 285.1,
+      "time": "2026-09-30",
+      "volume": 2419296
+    },
+    {
+      "close": 285.5,
+      "high": 287.5,
+      "low": 283.45,
+      "open": 284.5,
+      "time": "2026-10-01",
+      "volume": 1678508
     }
   ],
   "company_name": "PETRONET LNG LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Oil Gas & Consumable Fuels",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 73,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.85x"
+    "volume_multiplier": "1.01x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 3.35,
-    "change_pct": 1.17,
-    "close": 289.85,
-    "previous_close": 286.5,
+    "as_of": "2026-10-01",
+    "change": 1.0,
+    "change_pct": 0.35,
+    "close": 285.5,
+    "previous_close": 284.5,
     "type": "EOD_CLOSE",
-    "volume": 2937411
+    "volume": 1678508
   },
   "range": {
-    "distance_from_high_pct": -11.2,
-    "distance_from_low_pct": 23.16,
+    "distance_from_high_pct": -12.53,
+    "distance_from_low_pct": 21.31,
     "high_52w": 326.4,
     "history_basis": "52_WEEK",
     "low_52w": 235.35,
-    "range_position_pct": 59.86
+    "range_position_pct": 55.08
   },
   "risk_model": {
-    "invalidation_floor": 279.71,
-    "risk_per_share": 15.94,
-    "technical_pivot": 295.65
+    "invalidation_floor": 275.51,
+    "risk_per_share": 15.7,
+    "technical_pivot": 291.21
   },
   "schema_version": "1.0",
   "sector": "Oil Gas & Consumable Fuels",

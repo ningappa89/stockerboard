@@ -241,14 +241,38 @@
       "open": 149.82,
       "time": "2026-09-28",
       "volume": 736
+    },
+    {
+      "close": 152.0,
+      "high": 152.45,
+      "low": 147.05,
+      "open": 150.7,
+      "time": "2026-09-29",
+      "volume": 456
+    },
+    {
+      "close": 149.0,
+      "high": 152.0,
+      "low": 147.05,
+      "open": 152.0,
+      "time": "2026-09-30",
+      "volume": 342
+    },
+    {
+      "close": 150.0,
+      "high": 150.85,
+      "low": 145.0,
+      "open": 149.0,
+      "time": "2026-10-01",
+      "volume": 1626
     }
   ],
   "company_name": "AMARJOTHI SPINNING MILLS LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE484D01012",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 76,
+    "momentum_score": 75,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.37x"
+    "volume_multiplier": "0.81x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.88,
-    "change_pct": 0.59,
-    "close": 150.7,
-    "previous_close": 149.82,
+    "as_of": "2026-10-01",
+    "change": 1.0,
+    "change_pct": 0.67,
+    "close": 150.0,
+    "previous_close": 149.0,
     "type": "EOD_CLOSE",
-    "volume": 736
+    "volume": 1626
   },
   "range": {
-    "distance_from_high_pct": -9.22,
-    "distance_from_low_pct": 6.39,
+    "distance_from_high_pct": -9.64,
+    "distance_from_low_pct": 5.89,
     "high_52w": 166.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 141.65,
-    "range_position_pct": 37.17
+    "range_position_pct": 34.29
   },
   "risk_model": {
-    "invalidation_floor": 145.43,
-    "risk_per_share": 8.28,
-    "technical_pivot": 153.71
+    "invalidation_floor": 144.75,
+    "risk_per_share": 8.25,
+    "technical_pivot": 153.0
   },
   "schema_version": "1.0",
   "sector": null,

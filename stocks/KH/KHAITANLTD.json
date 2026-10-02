@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 129.19,
-      "high": 133.3,
-      "low": 127.08,
-      "open": 133.3,
-      "time": "2025-09-19",
-      "volume": 4292
-    },
-    {
-      "close": 131.01,
-      "high": 135.64,
-      "low": 130.29,
-      "open": 130.29,
-      "time": "2025-09-22",
-      "volume": 13008
-    },
-    {
-      "close": 124.61,
-      "high": 133.18,
-      "low": 124.45,
-      "open": 129.1,
-      "time": "2025-09-23",
-      "volume": 9060
-    },
-    {
       "close": 126.37,
       "high": 129.89,
       "low": 123.0,
@@ -2017,13 +1993,37 @@
       "open": 145.1,
       "time": "2026-09-28",
       "volume": 605
+    },
+    {
+      "close": 150.01,
+      "high": 153.8,
+      "low": 135.4,
+      "open": 144.0,
+      "time": "2026-09-29",
+      "volume": 4152
+    },
+    {
+      "close": 146.25,
+      "high": 154.79,
+      "low": 146.25,
+      "open": 154.79,
+      "time": "2026-09-30",
+      "volume": 1789
+    },
+    {
+      "close": 147.19,
+      "high": 149.4,
+      "low": 144.0,
+      "open": 147.71,
+      "time": "2026-10-01",
+      "volume": 900
     }
   ],
   "company_name": "KHAITAN (INDIA) LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 63,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.11x"
+    "volume_multiplier": "0.2x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.68,
-    "change_pct": 0.47,
-    "close": 146.69,
-    "previous_close": 146.01,
+    "as_of": "2026-10-01",
+    "change": 0.94,
+    "change_pct": 0.64,
+    "close": 147.19,
+    "previous_close": 146.25,
     "type": "EOD_CLOSE",
-    "volume": 605
+    "volume": 900
   },
   "range": {
-    "distance_from_high_pct": -17.59,
-    "distance_from_low_pct": 72.58,
+    "distance_from_high_pct": -17.31,
+    "distance_from_low_pct": 73.16,
     "high_52w": 178.0,
     "history_basis": "52_WEEK",
     "low_52w": 85.0,
-    "range_position_pct": 66.33
+    "range_position_pct": 66.87
   },
   "risk_model": {
-    "invalidation_floor": 141.56,
-    "risk_per_share": 8.06,
-    "technical_pivot": 149.62
+    "invalidation_floor": 142.04,
+    "risk_per_share": 8.09,
+    "technical_pivot": 150.13
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 430.55,
-      "high": 441.8,
-      "low": 427.0,
-      "open": 435.7,
-      "time": "2025-09-19",
-      "volume": 521750
-    },
-    {
-      "close": 422.55,
-      "high": 439.0,
-      "low": 420.1,
-      "open": 429.75,
-      "time": "2025-09-22",
-      "volume": 525210
-    },
-    {
-      "close": 444.75,
-      "high": 455.35,
-      "low": 424.65,
-      "open": 425.2,
-      "time": "2025-09-23",
-      "volume": 1621626
-    },
-    {
       "close": 443.9,
       "high": 450.0,
       "low": 435.6,
@@ -2017,13 +1993,37 @@
       "open": 342.45,
       "time": "2026-09-28",
       "volume": 74732
+    },
+    {
+      "close": 336.1,
+      "high": 338.0,
+      "low": 328.0,
+      "open": 332.1,
+      "time": "2026-09-29",
+      "volume": 57228
+    },
+    {
+      "close": 332.3,
+      "high": 344.0,
+      "low": 330.0,
+      "open": 337.25,
+      "time": "2026-09-30",
+      "volume": 54237
+    },
+    {
+      "close": 323.85,
+      "high": 332.3,
+      "low": 321.0,
+      "open": 332.3,
+      "time": "2026-10-01",
+      "volume": 71413
     }
   ],
   "company_name": "KIOCL Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.92x"
+    "volume_multiplier": "0.96x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -9.75,
-    "change_pct": -2.86,
-    "close": 331.0,
-    "previous_close": 340.75,
+    "as_of": "2026-10-01",
+    "change": -8.45,
+    "change_pct": -2.54,
+    "close": 323.85,
+    "previous_close": 332.3,
     "type": "EOD_CLOSE",
-    "volume": 74732
+    "volume": 71413
   },
   "range": {
-    "distance_from_high_pct": -47.84,
-    "distance_from_low_pct": 13.88,
+    "distance_from_high_pct": -48.96,
+    "distance_from_low_pct": 11.42,
     "high_52w": 634.55,
     "history_basis": "52_WEEK",
     "low_52w": 290.65,
-    "range_position_pct": 11.73
+    "range_position_pct": 9.65
   },
   "risk_model": {
-    "invalidation_floor": 319.41,
-    "risk_per_share": 18.21,
-    "technical_pivot": 337.62
+    "invalidation_floor": 312.52,
+    "risk_per_share": 17.81,
+    "technical_pivot": 330.33
   },
   "schema_version": "1.0",
   "sector": null,

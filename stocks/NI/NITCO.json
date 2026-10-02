@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 114.18,
-      "high": 117.99,
-      "low": 113.5,
-      "open": 114.6,
-      "time": "2025-09-19",
-      "volume": 496160
-    },
-    {
-      "close": 117.56,
-      "high": 123.59,
-      "low": 114.39,
-      "open": 115.55,
-      "time": "2025-09-22",
-      "volume": 608514
-    },
-    {
-      "close": 116.02,
-      "high": 119.8,
-      "low": 115.55,
-      "open": 117.56,
-      "time": "2025-09-23",
-      "volume": 184013
-    },
-    {
       "close": 115.82,
       "high": 118.6,
       "low": 115.11,
@@ -2017,13 +1993,37 @@
       "open": 87.96,
       "time": "2026-09-28",
       "volume": 247437
+    },
+    {
+      "close": 86.75,
+      "high": 87.5,
+      "low": 82.6,
+      "open": 84.05,
+      "time": "2026-09-29",
+      "volume": 1505725
+    },
+    {
+      "close": 88.12,
+      "high": 89.29,
+      "low": 85.74,
+      "open": 86.01,
+      "time": "2026-09-30",
+      "volume": 905412
+    },
+    {
+      "close": 84.18,
+      "high": 86.97,
+      "low": 83.5,
+      "open": 86.63,
+      "time": "2026-10-01",
+      "volume": 766183
     }
   ],
   "company_name": "NITCO LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
+    "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.5x"
+    "volume_multiplier": "1.28x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.35,
-    "change_pct": -3.81,
-    "close": 84.61,
-    "previous_close": 87.96,
+    "as_of": "2026-10-01",
+    "change": -3.94,
+    "change_pct": -4.47,
+    "close": 84.18,
+    "previous_close": 88.12,
     "type": "EOD_CLOSE",
-    "volume": 247437
+    "volume": 766183
   },
   "range": {
-    "distance_from_high_pct": -31.54,
-    "distance_from_low_pct": 32.2,
-    "high_52w": 123.59,
+    "distance_from_high_pct": -29.85,
+    "distance_from_low_pct": 31.53,
+    "high_52w": 120.0,
     "history_basis": "52_WEEK",
     "low_52w": 64.0,
-    "range_position_pct": 34.59
+    "range_position_pct": 36.04
   },
   "risk_model": {
-    "invalidation_floor": 81.65,
-    "risk_per_share": 4.65,
-    "technical_pivot": 86.3
+    "invalidation_floor": 81.23,
+    "risk_per_share": 4.63,
+    "technical_pivot": 85.86
   },
   "schema_version": "1.0",
   "sector": null,

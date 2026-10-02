@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 95.42,
-      "high": 97.48,
-      "low": 94.72,
-      "open": 96.11,
-      "time": "2025-09-19",
-      "volume": 16231
-    },
-    {
-      "close": 97.06,
-      "high": 99.09,
-      "low": 94.52,
-      "open": 94.52,
-      "time": "2025-09-22",
-      "volume": 34640
-    },
-    {
-      "close": 95.76,
-      "high": 97.99,
-      "low": 95.26,
-      "open": 97.99,
-      "time": "2025-09-23",
-      "volume": 10482
-    },
-    {
       "close": 95.15,
       "high": 96.55,
       "low": 94.88,
@@ -2017,13 +1993,37 @@
       "open": 77.35,
       "time": "2026-09-28",
       "volume": 46060
+    },
+    {
+      "close": 72.52,
+      "high": 75.99,
+      "low": 71.91,
+      "open": 75.99,
+      "time": "2026-09-29",
+      "volume": 40415
+    },
+    {
+      "close": 69.81,
+      "high": 73.89,
+      "low": 68.9,
+      "open": 72.65,
+      "time": "2026-09-30",
+      "volume": 60590
+    },
+    {
+      "close": 66.53,
+      "high": 71.01,
+      "low": 66.32,
+      "open": 71.01,
+      "time": "2026-10-01",
+      "volume": 44496
     }
   ],
   "company_name": "KRITI NUTRIENTS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 50,
+    "momentum_score": 40,
     "setup_type": "Volume Expansion",
-    "volume_multiplier": "4.06x"
+    "volume_multiplier": "2.61x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.95,
-    "change_pct": -2.52,
-    "close": 75.54,
-    "previous_close": 77.49,
+    "as_of": "2026-10-01",
+    "change": -3.28,
+    "change_pct": -4.7,
+    "close": 66.53,
+    "previous_close": 69.81,
     "type": "EOD_CLOSE",
-    "volume": 46060
+    "volume": 44496
   },
   "range": {
-    "distance_from_high_pct": -26.65,
-    "distance_from_low_pct": 47.08,
+    "distance_from_high_pct": -35.4,
+    "distance_from_low_pct": 29.54,
     "high_52w": 102.99,
     "history_basis": "52_WEEK",
     "low_52w": 51.36,
-    "range_position_pct": 46.83
+    "range_position_pct": 29.38
   },
   "risk_model": {
-    "invalidation_floor": 72.9,
-    "risk_per_share": 4.15,
-    "technical_pivot": 77.05
+    "invalidation_floor": 64.2,
+    "risk_per_share": 3.66,
+    "technical_pivot": 67.86
   },
   "schema_version": "1.0",
   "sector": null,

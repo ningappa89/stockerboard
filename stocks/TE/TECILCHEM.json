@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 20.7,
-      "high": 21.2,
-      "low": 20.16,
-      "open": 21.2,
-      "time": "2025-09-15",
-      "volume": 241
-    },
-    {
-      "close": 20.0,
-      "high": 20.0,
-      "low": 19.95,
-      "open": 20.0,
-      "time": "2025-09-16",
-      "volume": 481
-    },
-    {
-      "close": 20.0,
-      "high": 20.5,
-      "low": 19.02,
-      "open": 20.5,
-      "time": "2025-09-17",
-      "volume": 824
-    },
-    {
       "close": 21.0,
       "high": 21.0,
       "low": 19.05,
@@ -2017,13 +1993,37 @@
       "open": 8.85,
       "time": "2026-09-28",
       "volume": 21546
+    },
+    {
+      "close": 9.21,
+      "high": 9.8,
+      "low": 8.92,
+      "open": 9.8,
+      "time": "2026-09-29",
+      "volume": 7526
+    },
+    {
+      "close": 9.02,
+      "high": 9.46,
+      "low": 8.75,
+      "open": 9.2,
+      "time": "2026-09-30",
+      "volume": 6287
+    },
+    {
+      "close": 9.25,
+      "high": 9.3,
+      "low": 9.0,
+      "open": 9.02,
+      "time": "2026-10-01",
+      "volume": 6820
     }
   ],
   "company_name": "TECIL CHEMICALS & HYDRO POWER",
   "history": {
-    "first_session": "2025-09-15",
+    "first_session": "2025-09-18",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.83x"
+    "volume_multiplier": "0.36x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.31,
-    "change_pct": 3.52,
-    "close": 9.12,
-    "previous_close": 8.81,
+    "as_of": "2026-10-01",
+    "change": 0.23,
+    "change_pct": 2.55,
+    "close": 9.25,
+    "previous_close": 9.02,
     "type": "EOD_CLOSE",
-    "volume": 21546
+    "volume": 6820
   },
   "range": {
-    "distance_from_high_pct": -58.7,
-    "distance_from_low_pct": 14.0,
+    "distance_from_high_pct": -58.11,
+    "distance_from_low_pct": 15.62,
     "high_52w": 22.08,
     "history_basis": "52_WEEK",
     "low_52w": 8.0,
-    "range_position_pct": 7.95
+    "range_position_pct": 8.88
   },
   "risk_model": {
-    "invalidation_floor": 8.8,
-    "risk_per_share": 0.5,
-    "technical_pivot": 9.3
+    "invalidation_floor": 8.93,
+    "risk_per_share": 0.51,
+    "technical_pivot": 9.44
   },
   "schema_version": "1.0",
   "sector": null,

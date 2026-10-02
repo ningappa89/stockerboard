@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 30.28,
-      "high": 30.83,
-      "low": 30.0,
-      "open": 30.29,
-      "time": "2025-09-19",
-      "volume": 68263
-    },
-    {
-      "close": 29.94,
-      "high": 30.52,
-      "low": 29.7,
-      "open": 30.28,
-      "time": "2025-09-22",
-      "volume": 22880
-    },
-    {
-      "close": 30.16,
-      "high": 30.34,
-      "low": 29.87,
-      "open": 29.94,
-      "time": "2025-09-23",
-      "volume": 444562
-    },
-    {
       "close": 29.83,
       "high": 30.47,
       "low": 29.7,
@@ -2017,13 +1993,37 @@
       "open": 35.99,
       "time": "2026-09-28",
       "volume": 47731
+    },
+    {
+      "close": 34.71,
+      "high": 35.4,
+      "low": 34.1,
+      "open": 35.4,
+      "time": "2026-09-29",
+      "volume": 34937
+    },
+    {
+      "close": 34.32,
+      "high": 35.22,
+      "low": 34.1,
+      "open": 34.5,
+      "time": "2026-09-30",
+      "volume": 20753
+    },
+    {
+      "close": 33.76,
+      "high": 34.55,
+      "low": 33.0,
+      "open": 34.55,
+      "time": "2026-10-01",
+      "volume": 43425
     }
   ],
   "company_name": "Manaksia Aluminium Company Ltd",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.64x"
+    "volume_multiplier": "0.68x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.24,
-    "change_pct": -3.48,
-    "close": 34.39,
-    "previous_close": 35.63,
+    "as_of": "2026-10-01",
+    "change": -0.56,
+    "change_pct": -1.63,
+    "close": 33.76,
+    "previous_close": 34.32,
     "type": "EOD_CLOSE",
-    "volume": 47731
+    "volume": 43425
   },
   "range": {
-    "distance_from_high_pct": -49.52,
-    "distance_from_low_pct": 58.26,
+    "distance_from_high_pct": -50.44,
+    "distance_from_low_pct": 55.36,
     "high_52w": 68.12,
     "history_basis": "52_WEEK",
     "low_52w": 21.73,
-    "range_position_pct": 27.29
+    "range_position_pct": 25.93
   },
   "risk_model": {
-    "invalidation_floor": 33.19,
-    "risk_per_share": 1.89,
-    "technical_pivot": 35.08
+    "invalidation_floor": 32.58,
+    "risk_per_share": 1.86,
+    "technical_pivot": 34.44
   },
   "schema_version": "1.0",
   "sector": null,

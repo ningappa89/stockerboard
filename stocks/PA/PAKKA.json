@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 165.89,
-      "high": 167.2,
-      "low": 164.75,
-      "open": 165.01,
-      "time": "2025-09-19",
-      "volume": 65240
-    },
-    {
-      "close": 165.46,
-      "high": 170.5,
-      "low": 163.9,
-      "open": 165.0,
-      "time": "2025-09-22",
-      "volume": 165837
-    },
-    {
-      "close": 165.07,
-      "high": 167.2,
-      "low": 162.3,
-      "open": 165.5,
-      "time": "2025-09-23",
-      "volume": 106480
-    },
-    {
       "close": 160.98,
       "high": 164.89,
       "low": 160.4,
@@ -2017,13 +1993,37 @@
       "open": 77.28,
       "time": "2026-09-28",
       "volume": 82400
+    },
+    {
+      "close": 72.83,
+      "high": 73.39,
+      "low": 72.02,
+      "open": 72.7,
+      "time": "2026-09-29",
+      "volume": 97327
+    },
+    {
+      "close": 72.89,
+      "high": 75.2,
+      "low": 72.0,
+      "open": 75.19,
+      "time": "2026-09-30",
+      "volume": 64593
+    },
+    {
+      "close": 72.26,
+      "high": 74.0,
+      "low": 71.55,
+      "open": 73.0,
+      "time": "2026-10-01",
+      "volume": 38359
     }
   ],
   "company_name": "PAKKA LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.74x"
+    "volume_multiplier": "0.34x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.29,
-    "change_pct": -1.72,
-    "close": 73.77,
-    "previous_close": 75.06,
+    "as_of": "2026-10-01",
+    "change": -0.63,
+    "change_pct": -0.86,
+    "close": 72.26,
+    "previous_close": 72.89,
     "type": "EOD_CLOSE",
-    "volume": 82400
+    "volume": 38359
   },
   "range": {
-    "distance_from_high_pct": -56.73,
-    "distance_from_low_pct": 6.76,
-    "high_52w": 170.5,
+    "distance_from_high_pct": -56.18,
+    "distance_from_low_pct": 4.57,
+    "high_52w": 164.89,
     "history_basis": "52_WEEK",
     "low_52w": 69.1,
-    "range_position_pct": 4.61
+    "range_position_pct": 3.3
   },
   "risk_model": {
-    "invalidation_floor": 71.19,
-    "risk_per_share": 4.06,
-    "technical_pivot": 75.25
+    "invalidation_floor": 69.73,
+    "risk_per_share": 3.98,
+    "technical_pivot": 73.71
   },
   "schema_version": "1.0",
   "sector": null,

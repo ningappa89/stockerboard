@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 6.22,
-      "high": 6.4,
-      "low": 5.79,
-      "open": 5.79,
-      "time": "2025-09-08",
-      "volume": 7904
-    },
-    {
-      "close": 6.53,
-      "high": 6.53,
-      "low": 5.9,
-      "open": 5.9,
-      "time": "2025-09-15",
-      "volume": 4797
-    },
-    {
-      "close": 6.53,
-      "high": 6.85,
-      "low": 6.2,
-      "open": 6.52,
-      "time": "2025-09-17",
-      "volume": 8852
-    },
-    {
       "close": 6.32,
       "high": 6.85,
       "low": 6.2,
@@ -2017,13 +1993,37 @@
       "open": 5.2,
       "time": "2026-09-28",
       "volume": 5470
+    },
+    {
+      "close": 5.19,
+      "high": 5.48,
+      "low": 5.06,
+      "open": 5.19,
+      "time": "2026-09-29",
+      "volume": 8965
+    },
+    {
+      "close": 5.38,
+      "high": 5.54,
+      "low": 5.05,
+      "open": 5.29,
+      "time": "2026-09-30",
+      "volume": 21723
+    },
+    {
+      "close": 5.32,
+      "high": 5.55,
+      "low": 5.05,
+      "open": 5.55,
+      "time": "2026-10-01",
+      "volume": 17374
     }
   ],
   "company_name": "INFOMEDIA PRESS LTD.",
   "history": {
-    "first_session": "2025-09-08",
+    "first_session": "2025-09-18",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.37x"
+    "volume_multiplier": "1.08x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.14,
-    "change_pct": -2.64,
-    "close": 5.17,
-    "previous_close": 5.31,
+    "as_of": "2026-10-01",
+    "change": -0.06,
+    "change_pct": -1.12,
+    "close": 5.32,
+    "previous_close": 5.38,
     "type": "EOD_CLOSE",
-    "volume": 5470
+    "volume": 17374
   },
   "range": {
-    "distance_from_high_pct": -35.78,
-    "distance_from_low_pct": 14.89,
+    "distance_from_high_pct": -33.91,
+    "distance_from_low_pct": 18.22,
     "high_52w": 8.05,
     "history_basis": "52_WEEK",
     "low_52w": 4.5,
-    "range_position_pct": 18.87
+    "range_position_pct": 23.1
   },
   "risk_model": {
-    "invalidation_floor": 4.99,
+    "invalidation_floor": 5.13,
     "risk_per_share": 0.5,
-    "technical_pivot": 5.27
+    "technical_pivot": 5.43
   },
   "schema_version": "1.0",
   "sector": null,

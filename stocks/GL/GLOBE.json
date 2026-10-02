@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2.2,
-      "high": 2.21,
-      "low": 2.18,
-      "open": 2.18,
-      "time": "2025-09-19",
-      "volume": 235246
-    },
-    {
-      "close": 2.21,
-      "high": 2.25,
-      "low": 2.18,
-      "open": 2.2,
-      "time": "2025-09-22",
-      "volume": 2793156
-    },
-    {
-      "close": 2.24,
-      "high": 2.25,
-      "low": 2.21,
-      "open": 2.24,
-      "time": "2025-09-23",
-      "volume": 497035
-    },
-    {
       "close": 2.23,
       "high": 2.28,
       "low": 2.21,
@@ -2017,13 +1993,37 @@
       "open": 2.24,
       "time": "2026-09-28",
       "volume": 446562
+    },
+    {
+      "close": 2.14,
+      "high": 2.2,
+      "low": 2.12,
+      "open": 2.2,
+      "time": "2026-09-29",
+      "volume": 601492
+    },
+    {
+      "close": 2.14,
+      "high": 2.18,
+      "low": 2.11,
+      "open": 2.14,
+      "time": "2026-09-30",
+      "volume": 406477
+    },
+    {
+      "close": 2.11,
+      "high": 2.15,
+      "low": 2.01,
+      "open": 2.14,
+      "time": "2026-10-01",
+      "volume": 460701
     }
   ],
   "company_name": "GLOBE ENTERPRISE (I) LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.43x"
+    "volume_multiplier": "0.47x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.04,
-    "change_pct": -1.79,
-    "close": 2.2,
-    "previous_close": 2.24,
+    "as_of": "2026-10-01",
+    "change": -0.03,
+    "change_pct": -1.4,
+    "close": 2.11,
+    "previous_close": 2.14,
     "type": "EOD_CLOSE",
-    "volume": 446562
+    "volume": 460701
   },
   "range": {
-    "distance_from_high_pct": -33.13,
-    "distance_from_low_pct": 25.71,
+    "distance_from_high_pct": -35.87,
+    "distance_from_low_pct": 20.57,
     "high_52w": 3.29,
     "history_basis": "52_WEEK",
     "low_52w": 1.75,
-    "range_position_pct": 29.22
+    "range_position_pct": 23.38
   },
   "risk_model": {
-    "invalidation_floor": 2.12,
+    "invalidation_floor": 2.04,
     "risk_per_share": 0.5,
-    "technical_pivot": 2.24
+    "technical_pivot": 2.15
   },
   "schema_version": "1.0",
   "sector": null,

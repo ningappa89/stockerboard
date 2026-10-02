@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 186.0,
-      "high": 189.0,
-      "low": 185.9,
-      "open": 188.0,
-      "time": "2025-09-19",
-      "volume": 1315
-    },
-    {
-      "close": 183.26,
-      "high": 188.9,
-      "low": 181.57,
-      "open": 186.0,
-      "time": "2025-09-22",
-      "volume": 4539
-    },
-    {
-      "close": 183.65,
-      "high": 186.6,
-      "low": 183.0,
-      "open": 186.01,
-      "time": "2025-09-23",
-      "volume": 1048
-    },
-    {
       "close": 183.43,
       "high": 187.65,
       "low": 182.37,
@@ -2017,13 +1993,37 @@
       "open": 150.4,
       "time": "2026-09-28",
       "volume": 449
+    },
+    {
+      "close": 151.39,
+      "high": 154.0,
+      "low": 149.2,
+      "open": 151.97,
+      "time": "2026-09-29",
+      "volume": 774
+    },
+    {
+      "close": 148.97,
+      "high": 151.4,
+      "low": 147.25,
+      "open": 151.39,
+      "time": "2026-09-30",
+      "volume": 716
+    },
+    {
+      "close": 146.92,
+      "high": 148.98,
+      "low": 144.1,
+      "open": 148.98,
+      "time": "2026-10-01",
+      "volume": 4852
     }
   ],
   "company_name": "HISAR METAL IND. LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.29x"
+    "momentum_score": 54,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "3.56x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.92,
-    "change_pct": -0.6,
-    "close": 151.96,
-    "previous_close": 152.88,
+    "as_of": "2026-10-01",
+    "change": -2.05,
+    "change_pct": -1.38,
+    "close": 146.92,
+    "previous_close": 148.97,
     "type": "EOD_CLOSE",
-    "volume": 449
+    "volume": 4852
   },
   "range": {
-    "distance_from_high_pct": -21.02,
-    "distance_from_low_pct": 21.58,
+    "distance_from_high_pct": -23.64,
+    "distance_from_low_pct": 17.55,
     "high_52w": 192.4,
     "history_basis": "52_WEEK",
     "low_52w": 124.99,
-    "range_position_pct": 40.01
+    "range_position_pct": 32.53
   },
   "risk_model": {
-    "invalidation_floor": 146.64,
-    "risk_per_share": 8.36,
-    "technical_pivot": 155.0
+    "invalidation_floor": 141.78,
+    "risk_per_share": 8.08,
+    "technical_pivot": 149.86
   },
   "schema_version": "1.0",
   "sector": null,

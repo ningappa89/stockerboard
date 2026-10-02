@@ -1145,14 +1145,38 @@
       "open": 4098.9,
       "time": "2026-09-28",
       "volume": 408185
+    },
+    {
+      "close": 3936.0,
+      "high": 4183.6,
+      "low": 3936.0,
+      "open": 4091.4,
+      "time": "2026-09-29",
+      "volume": 1014142
+    },
+    {
+      "close": 4045.0,
+      "high": 4138.0,
+      "low": 3979.9,
+      "open": 3979.9,
+      "time": "2026-09-30",
+      "volume": 463734
+    },
+    {
+      "close": 4007.0,
+      "high": 4079.4,
+      "low": 3945.5,
+      "open": 4001.7,
+      "time": "2026-10-01",
+      "volume": 479221
     }
   ],
   "company_name": "LTM LIMITED",
   "history": {
     "first_session": "2026-02-27",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 143
+    "last_session": "2026-10-01",
+    "sessions_available": 146
   },
   "industry": null,
   "isin": "INE214T01019",
@@ -1160,31 +1184,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.04x"
+    "volume_multiplier": "1.07x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 8.4,
-    "change_pct": 0.21,
-    "close": 4091.4,
-    "previous_close": 4083.0,
+    "as_of": "2026-10-01",
+    "change": -38.0,
+    "change_pct": -0.94,
+    "close": 4007.0,
+    "previous_close": 4045.0,
     "type": "EOD_CLOSE",
-    "volume": 408185
+    "volume": 479221
   },
   "range": {
-    "distance_from_high_pct": -15.64,
-    "distance_from_low_pct": 15.97,
+    "distance_from_high_pct": -17.38,
+    "distance_from_low_pct": 13.58,
     "high_52w": 4850.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 3528.0,
-    "range_position_pct": 42.62
+    "range_position_pct": 36.23
   },
   "risk_model": {
-    "invalidation_floor": 3948.2,
-    "risk_per_share": 225.03,
-    "technical_pivot": 4173.23
+    "invalidation_floor": 3866.75,
+    "risk_per_share": 220.39,
+    "technical_pivot": 4087.14
   },
   "schema_version": "1.0",
   "sector": null,

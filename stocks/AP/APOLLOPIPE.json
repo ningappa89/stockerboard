@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 403.8,
-      "high": 406.1,
-      "low": 397.0,
-      "open": 400.65,
-      "time": "2025-09-19",
-      "volume": 62716
-    },
-    {
-      "close": 396.35,
-      "high": 405.2,
-      "low": 394.45,
-      "open": 399.0,
-      "time": "2025-09-22",
-      "volume": 68930
-    },
-    {
-      "close": 389.5,
-      "high": 399.0,
-      "low": 387.95,
-      "open": 398.0,
-      "time": "2025-09-23",
-      "volume": 78313
-    },
-    {
       "close": 378.4,
       "high": 391.0,
       "low": 375.75,
@@ -2017,13 +1993,37 @@
       "open": 511.0,
       "time": "2026-09-28",
       "volume": 321445
+    },
+    {
+      "close": 513.7,
+      "high": 530.0,
+      "low": 511.1,
+      "open": 521.2,
+      "time": "2026-09-29",
+      "volume": 305274
+    },
+    {
+      "close": 507.85,
+      "high": 525.0,
+      "low": 505.0,
+      "open": 516.9,
+      "time": "2026-09-30",
+      "volume": 166142
+    },
+    {
+      "close": 512.6,
+      "high": 524.0,
+      "low": 500.2,
+      "open": 507.85,
+      "time": "2026-10-01",
+      "volume": 140005
     }
   ],
   "company_name": "APOLLO PIPES LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 56,
+    "momentum_score": 54,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.5x"
+    "volume_multiplier": "0.66x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 9.75,
-    "change_pct": 1.91,
-    "close": 521.2,
-    "previous_close": 511.45,
+    "as_of": "2026-10-01",
+    "change": 4.75,
+    "change_pct": 0.94,
+    "close": 512.6,
+    "previous_close": 507.85,
     "type": "EOD_CLOSE",
-    "volume": 321445
+    "volume": 140005
   },
   "range": {
-    "distance_from_high_pct": -22.07,
-    "distance_from_low_pct": 106.74,
+    "distance_from_high_pct": -23.36,
+    "distance_from_low_pct": 103.33,
     "high_52w": 668.8,
     "history_basis": "52_WEEK",
     "low_52w": 252.1,
-    "range_position_pct": 64.58
+    "range_position_pct": 62.51
   },
   "risk_model": {
-    "invalidation_floor": 502.96,
-    "risk_per_share": 28.66,
-    "technical_pivot": 531.62
+    "invalidation_floor": 494.66,
+    "risk_per_share": 28.19,
+    "technical_pivot": 522.85
   },
   "schema_version": "1.0",
   "sector": null,

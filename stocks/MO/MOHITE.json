@@ -241,14 +241,38 @@
       "open": 2.42,
       "time": "2026-09-28",
       "volume": 18783
+    },
+    {
+      "close": 2.53,
+      "high": 2.54,
+      "low": 2.37,
+      "open": 2.46,
+      "time": "2026-09-29",
+      "volume": 25190
+    },
+    {
+      "close": 2.52,
+      "high": 2.6,
+      "low": 2.25,
+      "open": 2.53,
+      "time": "2026-09-30",
+      "volume": 151942
+    },
+    {
+      "close": 2.49,
+      "high": 2.59,
+      "low": 2.4,
+      "open": 2.53,
+      "time": "2026-10-01",
+      "volume": 63921
     }
   ],
   "company_name": "MOHITE INDUSTRIES LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE154B01023",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 49,
+    "momentum_score": 53,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.2x"
+    "volume_multiplier": "0.75x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.03,
-    "change_pct": 1.27,
-    "close": 2.4,
-    "previous_close": 2.37,
+    "as_of": "2026-10-01",
+    "change": -0.03,
+    "change_pct": -1.19,
+    "close": 2.49,
+    "previous_close": 2.52,
     "type": "EOD_CLOSE",
-    "volume": 18783
+    "volume": 63921
   },
   "range": {
-    "distance_from_high_pct": -27.27,
-    "distance_from_low_pct": 11.63,
+    "distance_from_high_pct": -24.55,
+    "distance_from_low_pct": 15.81,
     "high_52w": 3.3,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 2.15,
-    "range_position_pct": 21.74
+    "range_position_pct": 29.57
   },
   "risk_model": {
-    "invalidation_floor": 2.32,
+    "invalidation_floor": 2.4,
     "risk_per_share": 0.5,
-    "technical_pivot": 2.45
+    "technical_pivot": 2.54
   },
   "schema_version": "1.0",
   "sector": null,

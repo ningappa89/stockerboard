@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 202.61,
-      "high": 203.9,
-      "low": 202.26,
-      "open": 202.76,
-      "time": "2025-09-19",
-      "volume": 907218
-    },
-    {
-      "close": 202.79,
-      "high": 205.33,
-      "low": 201.77,
-      "open": 202.7,
-      "time": "2025-09-22",
-      "volume": 1481029
-    },
-    {
-      "close": 203.17,
-      "high": 204.9,
-      "low": 202.01,
-      "open": 202.77,
-      "time": "2025-09-23",
-      "volume": 1021736
-    },
-    {
       "close": 202.74,
       "high": 203.75,
       "low": 200.54,
@@ -2017,46 +1993,70 @@
       "open": 201.9,
       "time": "2026-09-28",
       "volume": 4886805
+    },
+    {
+      "close": 199.83,
+      "high": 202.8,
+      "low": 198.1,
+      "open": 200.2,
+      "time": "2026-09-29",
+      "volume": 5827158
+    },
+    {
+      "close": 200.52,
+      "high": 202.75,
+      "low": 199.83,
+      "open": 199.83,
+      "time": "2026-09-30",
+      "volume": 2564891
+    },
+    {
+      "close": 199.04,
+      "high": 201.09,
+      "low": 196.5,
+      "open": 200.31,
+      "time": "2026-10-01",
+      "volume": 2825230
     }
   ],
   "company_name": "CASTROL INDIA LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Oil Gas & Consumable Fuels",
   "isin": "INE172A01027",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 85,
+    "momentum_score": 84,
     "setup_type": "Minervini VCP",
-    "volume_multiplier": "1.42x"
+    "volume_multiplier": "0.74x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.63,
-    "change_pct": -0.31,
-    "close": 201.04,
-    "previous_close": 201.67,
+    "as_of": "2026-10-01",
+    "change": -1.48,
+    "change_pct": -0.74,
+    "close": 199.04,
+    "previous_close": 200.52,
     "type": "EOD_CLOSE",
-    "volume": 4886805
+    "volume": 2825230
   },
   "range": {
-    "distance_from_high_pct": -2.97,
-    "distance_from_low_pct": 18.19,
+    "distance_from_high_pct": -3.94,
+    "distance_from_low_pct": 17.01,
     "high_52w": 207.2,
     "history_basis": "52_WEEK",
     "low_52w": 170.1,
-    "range_position_pct": 83.4
+    "range_position_pct": 78.01
   },
   "risk_model": {
-    "invalidation_floor": 194.0,
-    "risk_per_share": 11.06,
-    "technical_pivot": 205.06
+    "invalidation_floor": 192.07,
+    "risk_per_share": 10.95,
+    "technical_pivot": 203.02
   },
   "schema_version": "1.0",
   "sector": "Oil Gas & Consumable Fuels",

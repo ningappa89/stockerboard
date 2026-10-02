@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 897.9,
-      "high": 903.7,
-      "low": 886.0,
-      "open": 894.8,
-      "time": "2025-09-19",
-      "volume": 94671
-    },
-    {
-      "close": 876.35,
-      "high": 904.9,
-      "low": 872.95,
-      "open": 903.6,
-      "time": "2025-09-22",
-      "volume": 94811
-    },
-    {
-      "close": 860.6,
-      "high": 876.0,
-      "low": 850.5,
-      "open": 876.0,
-      "time": "2025-09-23",
-      "volume": 303118
-    },
-    {
       "close": 854.7,
       "high": 866.95,
       "low": 846.2,
@@ -2017,13 +1993,37 @@
       "open": 741.15,
       "time": "2026-09-28",
       "volume": 140897
+    },
+    {
+      "close": 721.45,
+      "high": 737.15,
+      "low": 716.0,
+      "open": 721.0,
+      "time": "2026-09-29",
+      "volume": 120611
+    },
+    {
+      "close": 723.5,
+      "high": 734.85,
+      "low": 719.15,
+      "open": 719.15,
+      "time": "2026-09-30",
+      "volume": 58845
+    },
+    {
+      "close": 709.2,
+      "high": 720.3,
+      "low": 697.6,
+      "open": 720.0,
+      "time": "2026-10-01",
+      "volume": 128905
     }
   ],
   "company_name": "Sharda Cropchem Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.31x"
+    "volume_multiplier": "1.23x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -20.5,
-    "change_pct": -2.73,
-    "close": 729.1,
-    "previous_close": 749.6,
+    "as_of": "2026-10-01",
+    "change": -14.3,
+    "change_pct": -1.98,
+    "close": 709.2,
+    "previous_close": 723.5,
     "type": "EOD_CLOSE",
-    "volume": 140897
+    "volume": 128905
   },
   "range": {
-    "distance_from_high_pct": -43.79,
-    "distance_from_low_pct": 0.29,
+    "distance_from_high_pct": -45.32,
+    "distance_from_low_pct": 1.66,
     "high_52w": 1297.0,
     "history_basis": "52_WEEK",
-    "low_52w": 727.0,
-    "range_position_pct": 0.37
+    "low_52w": 697.6,
+    "range_position_pct": 1.94
   },
   "risk_model": {
-    "invalidation_floor": 703.58,
-    "risk_per_share": 40.1,
-    "technical_pivot": 743.68
+    "invalidation_floor": 684.38,
+    "risk_per_share": 39.0,
+    "technical_pivot": 723.38
   },
   "schema_version": "1.0",
   "sector": null,

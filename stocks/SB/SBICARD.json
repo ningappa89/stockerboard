@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 871.65,
-      "high": 897.2,
-      "low": 869.5,
-      "open": 888.0,
-      "time": "2025-09-19",
-      "volume": 1121241
-    },
-    {
-      "close": 869.05,
-      "high": 878.0,
-      "low": 864.4,
-      "open": 870.0,
-      "time": "2025-09-22",
-      "volume": 1042879
-    },
-    {
-      "close": 870.3,
-      "high": 874.85,
-      "low": 864.0,
-      "open": 874.5,
-      "time": "2025-09-23",
-      "volume": 520336
-    },
-    {
       "close": 884.75,
       "high": 887.8,
       "low": 870.75,
@@ -2017,13 +1993,37 @@
       "open": 608.55,
       "time": "2026-09-28",
       "volume": 1388562
+    },
+    {
+      "close": 581.0,
+      "high": 594.0,
+      "low": 581.0,
+      "open": 593.05,
+      "time": "2026-09-29",
+      "volume": 1392600
+    },
+    {
+      "close": 578.05,
+      "high": 591.25,
+      "low": 578.05,
+      "open": 585.15,
+      "time": "2026-09-30",
+      "volume": 582328
+    },
+    {
+      "close": 563.2,
+      "high": 582.5,
+      "low": 560.15,
+      "open": 579.05,
+      "time": "2026-10-01",
+      "volume": 962872
     }
   ],
   "company_name": "SBI CARDS AND PAYMENT SERVICES",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.45x"
+    "volume_multiplier": "0.59x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -20.2,
-    "change_pct": -3.3,
-    "close": 591.0,
-    "previous_close": 611.2,
+    "as_of": "2026-10-01",
+    "change": -14.85,
+    "change_pct": -2.57,
+    "close": 563.2,
+    "previous_close": 578.05,
     "type": "EOD_CLOSE",
-    "volume": 1388562
+    "volume": 962872
   },
   "range": {
-    "distance_from_high_pct": -38.76,
-    "distance_from_low_pct": 4.52,
+    "distance_from_high_pct": -41.64,
+    "distance_from_low_pct": 0.54,
     "high_52w": 965.0,
     "history_basis": "52_WEEK",
-    "low_52w": 565.45,
-    "range_position_pct": 6.39
+    "low_52w": 560.15,
+    "range_position_pct": 0.75
   },
   "risk_model": {
-    "invalidation_floor": 570.31,
-    "risk_per_share": 32.51,
-    "technical_pivot": 602.82
+    "invalidation_floor": 543.49,
+    "risk_per_share": 30.97,
+    "technical_pivot": 574.46
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

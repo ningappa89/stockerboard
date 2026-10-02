@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 38.55,
-      "high": 38.65,
-      "low": 37.83,
-      "open": 38.11,
-      "time": "2025-09-19",
-      "volume": 503927
-    },
-    {
-      "close": 37.52,
-      "high": 38.6,
-      "low": 37.0,
-      "open": 38.55,
-      "time": "2025-09-22",
-      "volume": 627363
-    },
-    {
-      "close": 37.01,
-      "high": 37.85,
-      "low": 36.4,
-      "open": 37.4,
-      "time": "2025-09-23",
-      "volume": 495474
-    },
-    {
       "close": 37.05,
       "high": 37.47,
       "low": 36.96,
@@ -2017,13 +1993,37 @@
       "open": 26.37,
       "time": "2026-09-28",
       "volume": 39757233
+    },
+    {
+      "close": 28.0,
+      "high": 28.99,
+      "low": 26.41,
+      "open": 27.04,
+      "time": "2026-09-29",
+      "volume": 4112305
+    },
+    {
+      "close": 29.08,
+      "high": 29.49,
+      "low": 27.65,
+      "open": 28.0,
+      "time": "2026-09-30",
+      "volume": 2963292
+    },
+    {
+      "close": 28.81,
+      "high": 30.21,
+      "low": 28.15,
+      "open": 29.5,
+      "time": "2026-10-01",
+      "volume": 1867391
     }
   ],
   "company_name": "PTC INDIA FINANCIAL SERVICES L",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "16.13x"
+    "momentum_score": 46,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.66x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.75,
-    "change_pct": 2.84,
-    "close": 27.12,
-    "previous_close": 26.37,
+    "as_of": "2026-10-01",
+    "change": -0.27,
+    "change_pct": -0.93,
+    "close": 28.81,
+    "previous_close": 29.08,
     "type": "EOD_CLOSE",
-    "volume": 39757233
+    "volume": 1867391
   },
   "range": {
-    "distance_from_high_pct": -33.04,
-    "distance_from_low_pct": 13.71,
+    "distance_from_high_pct": -28.86,
+    "distance_from_low_pct": 20.8,
     "high_52w": 40.5,
     "history_basis": "52_WEEK",
     "low_52w": 23.85,
-    "range_position_pct": 19.64
+    "range_position_pct": 29.79
   },
   "risk_model": {
-    "invalidation_floor": 26.17,
-    "risk_per_share": 1.49,
-    "technical_pivot": 27.66
+    "invalidation_floor": 27.8,
+    "risk_per_share": 1.59,
+    "technical_pivot": 29.39
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 16.03,
-      "high": 16.22,
-      "low": 15.8,
-      "open": 15.98,
-      "time": "2025-09-19",
-      "volume": 1004905
-    },
-    {
-      "close": 16.0,
-      "high": 16.5,
-      "low": 15.95,
-      "open": 16.04,
-      "time": "2025-09-22",
-      "volume": 622933
-    },
-    {
-      "close": 16.07,
-      "high": 16.41,
-      "low": 16.0,
-      "open": 16.0,
-      "time": "2025-09-23",
-      "volume": 333349
-    },
-    {
       "close": 17.03,
       "high": 17.19,
       "low": 16.06,
@@ -2017,13 +1993,37 @@
       "open": 11.29,
       "time": "2026-09-28",
       "volume": 777545
+    },
+    {
+      "close": 11.16,
+      "high": 11.35,
+      "low": 10.88,
+      "open": 11.1,
+      "time": "2026-09-29",
+      "volume": 584546
+    },
+    {
+      "close": 11.19,
+      "high": 11.64,
+      "low": 11.11,
+      "open": 11.27,
+      "time": "2026-09-30",
+      "volume": 471707
+    },
+    {
+      "close": 11.22,
+      "high": 11.34,
+      "low": 10.85,
+      "open": 11.34,
+      "time": "2026-10-01",
+      "volume": 559126
     }
   ],
   "company_name": "NILA SPACES LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.5x"
+    "volume_multiplier": "0.39x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.06,
-    "change_pct": -0.54,
-    "close": 11.0,
-    "previous_close": 11.06,
+    "as_of": "2026-10-01",
+    "change": 0.03,
+    "change_pct": 0.27,
+    "close": 11.22,
+    "previous_close": 11.19,
     "type": "EOD_CLOSE",
-    "volume": 777545
+    "volume": 559126
   },
   "range": {
-    "distance_from_high_pct": -46.26,
-    "distance_from_low_pct": 0.92,
+    "distance_from_high_pct": -45.19,
+    "distance_from_low_pct": 3.41,
     "high_52w": 20.47,
     "history_basis": "52_WEEK",
-    "low_52w": 10.9,
-    "range_position_pct": 1.04
+    "low_52w": 10.85,
+    "range_position_pct": 3.85
   },
   "risk_model": {
-    "invalidation_floor": 10.62,
-    "risk_per_share": 0.6,
-    "technical_pivot": 11.22
+    "invalidation_floor": 10.83,
+    "risk_per_share": 0.61,
+    "technical_pivot": 11.44
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 306.0,
-      "high": 315.0,
-      "low": 302.0,
-      "open": 307.0,
-      "time": "2025-09-19",
-      "volume": 107839
-    },
-    {
-      "close": 309.0,
-      "high": 316.0,
-      "low": 301.0,
-      "open": 301.0,
-      "time": "2025-09-22",
-      "volume": 115899
-    },
-    {
-      "close": 309.55,
-      "high": 314.5,
-      "low": 306.65,
-      "open": 309.3,
-      "time": "2025-09-23",
-      "volume": 72546
-    },
-    {
       "close": 307.15,
       "high": 311.95,
       "low": 303.5,
@@ -2017,13 +1993,37 @@
       "open": 248.2,
       "time": "2026-09-28",
       "volume": 73641
+    },
+    {
+      "close": 242.85,
+      "high": 245.75,
+      "low": 237.3,
+      "open": 241.15,
+      "time": "2026-09-29",
+      "volume": 67083
+    },
+    {
+      "close": 245.5,
+      "high": 255.0,
+      "low": 241.0,
+      "open": 242.9,
+      "time": "2026-09-30",
+      "volume": 73280
+    },
+    {
+      "close": 245.01,
+      "high": 253.0,
+      "low": 234.8,
+      "open": 245.7,
+      "time": "2026-10-01",
+      "volume": 700626
     }
   ],
   "company_name": "SIMPLEX INFRASTRUCTURES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 53,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.68x"
+    "momentum_score": 55,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "5.44x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -9.6,
-    "change_pct": -3.83,
-    "close": 241.1,
-    "previous_close": 250.7,
+    "as_of": "2026-10-01",
+    "change": -0.49,
+    "change_pct": -0.2,
+    "close": 245.01,
+    "previous_close": 245.5,
     "type": "EOD_CLOSE",
-    "volume": 73641
+    "volume": 700626
   },
   "range": {
-    "distance_from_high_pct": -24.18,
-    "distance_from_low_pct": 75.99,
+    "distance_from_high_pct": -22.95,
+    "distance_from_low_pct": 78.84,
     "high_52w": 318.0,
     "history_basis": "52_WEEK",
     "low_52w": 137.0,
-    "range_position_pct": 57.51
+    "range_position_pct": 59.67
   },
   "risk_model": {
-    "invalidation_floor": 232.66,
-    "risk_per_share": 13.26,
-    "technical_pivot": 245.92
+    "invalidation_floor": 236.43,
+    "risk_per_share": 13.48,
+    "technical_pivot": 249.91
   },
   "schema_version": "1.0",
   "sector": null,

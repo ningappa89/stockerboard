@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1031.55,
-      "high": 1049.0,
-      "low": 992.0,
-      "open": 995.45,
-      "time": "2025-09-19",
-      "volume": 23270
-    },
-    {
-      "close": 1013.95,
-      "high": 1035.0,
-      "low": 1005.0,
-      "open": 1035.0,
-      "time": "2025-09-22",
-      "volume": 7191
-    },
-    {
-      "close": 1015.45,
-      "high": 1019.3,
-      "low": 996.0,
-      "open": 1019.3,
-      "time": "2025-09-23",
-      "volume": 10139
-    },
-    {
       "close": 1008.35,
       "high": 1020.0,
       "low": 995.0,
@@ -2017,13 +1993,37 @@
       "open": 1630.0,
       "time": "2026-09-28",
       "volume": 34159
+    },
+    {
+      "close": 1612.0,
+      "high": 1631.0,
+      "low": 1592.2,
+      "open": 1620.3,
+      "time": "2026-09-29",
+      "volume": 30103
+    },
+    {
+      "close": 1591.8,
+      "high": 1625.1,
+      "low": 1585.2,
+      "open": 1625.1,
+      "time": "2026-09-30",
+      "volume": 15859
+    },
+    {
+      "close": 1570.4,
+      "high": 1634.0,
+      "low": 1540.0,
+      "open": 1591.8,
+      "time": "2026-10-01",
+      "volume": 29732
     }
   ],
   "company_name": "ADOR WELDING LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 76,
+    "momentum_score": 73,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.79x"
+    "volume_multiplier": "1.0x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -27.2,
-    "change_pct": -1.66,
-    "close": 1611.7,
-    "previous_close": 1638.9,
+    "as_of": "2026-10-01",
+    "change": -21.4,
+    "change_pct": -1.34,
+    "close": 1570.4,
+    "previous_close": 1591.8,
     "type": "EOD_CLOSE",
-    "volume": 34159
+    "volume": 29732
   },
   "range": {
-    "distance_from_high_pct": -8.76,
-    "distance_from_low_pct": 90.06,
+    "distance_from_high_pct": -11.1,
+    "distance_from_low_pct": 85.19,
     "high_52w": 1766.4,
     "history_basis": "52_WEEK",
     "low_52w": 848.0,
-    "range_position_pct": 83.16
+    "range_position_pct": 78.66
   },
   "risk_model": {
-    "invalidation_floor": 1555.29,
-    "risk_per_share": 88.64,
-    "technical_pivot": 1643.93
+    "invalidation_floor": 1515.44,
+    "risk_per_share": 86.37,
+    "technical_pivot": 1601.81
   },
   "schema_version": "1.0",
   "sector": null,

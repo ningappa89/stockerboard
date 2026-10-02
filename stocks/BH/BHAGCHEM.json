@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 257.05,
-      "high": 261.0,
-      "low": 253.05,
-      "open": 253.05,
-      "time": "2025-09-19",
-      "volume": 55510
-    },
-    {
-      "close": 256.9,
-      "high": 260.0,
-      "low": 253.25,
-      "open": 253.25,
-      "time": "2025-09-22",
-      "volume": 35737
-    },
-    {
-      "close": 256.9,
-      "high": 258.3,
-      "low": 255.0,
-      "open": 257.65,
-      "time": "2025-09-23",
-      "volume": 34609
-    },
-    {
       "close": 255.25,
       "high": 258.35,
       "low": 255.0,
@@ -2017,13 +1993,37 @@
       "open": 244.0,
       "time": "2026-09-28",
       "volume": 63546
+    },
+    {
+      "close": 240.25,
+      "high": 243.1,
+      "low": 237.9,
+      "open": 241.45,
+      "time": "2026-09-29",
+      "volume": 63799
+    },
+    {
+      "close": 238.55,
+      "high": 242.75,
+      "low": 235.05,
+      "open": 240.0,
+      "time": "2026-09-30",
+      "volume": 78136
+    },
+    {
+      "close": 236.15,
+      "high": 238.5,
+      "low": 228.0,
+      "open": 237.5,
+      "time": "2026-10-01",
+      "volume": 139794
     }
   ],
   "company_name": "BHAGIRADHA CHEMICALS & INDUSTR",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 54,
+    "momentum_score": 51,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.88x"
+    "volume_multiplier": "1.94x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.5,
-    "change_pct": -1.83,
-    "close": 241.1,
-    "previous_close": 245.6,
+    "as_of": "2026-10-01",
+    "change": -2.4,
+    "change_pct": -1.01,
+    "close": 236.15,
+    "previous_close": 238.55,
     "type": "EOD_CLOSE",
-    "volume": 63546
+    "volume": 139794
   },
   "range": {
-    "distance_from_high_pct": -23.92,
-    "distance_from_low_pct": 41.32,
+    "distance_from_high_pct": -25.48,
+    "distance_from_low_pct": 38.42,
     "high_52w": 316.9,
     "history_basis": "52_WEEK",
     "low_52w": 170.6,
-    "range_position_pct": 48.19
+    "range_position_pct": 44.81
   },
   "risk_model": {
-    "invalidation_floor": 232.66,
-    "risk_per_share": 13.26,
-    "technical_pivot": 245.92
+    "invalidation_floor": 227.88,
+    "risk_per_share": 12.99,
+    "technical_pivot": 240.87
   },
   "schema_version": "1.0",
   "sector": null,

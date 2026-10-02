@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2993.8,
-      "high": 3012.8,
-      "low": 2971.0,
-      "open": 3002.2,
-      "time": "2025-09-19",
-      "volume": 229066
-    },
-    {
-      "close": 2852.4,
-      "high": 2924.9,
-      "low": 2817.0,
-      "open": 2919.1,
-      "time": "2025-09-22",
-      "volume": 778252
-    },
-    {
-      "close": 2766.6,
-      "high": 2840.0,
-      "low": 2753.4,
-      "open": 2840.0,
-      "time": "2025-09-23",
-      "volume": 845283
-    },
-    {
       "close": 2740.9,
       "high": 2751.8,
       "low": 2704.3,
@@ -2017,13 +1993,37 @@
       "open": 2241.3,
       "time": "2026-09-28",
       "volume": 310054
+    },
+    {
+      "close": 2154.4,
+      "high": 2238.9,
+      "low": 2154.4,
+      "open": 2238.0,
+      "time": "2026-09-29",
+      "volume": 420858
+    },
+    {
+      "close": 2154.4,
+      "high": 2252.6,
+      "low": 2144.8,
+      "open": 2164.5,
+      "time": "2026-09-30",
+      "volume": 701536
+    },
+    {
+      "close": 2250.2,
+      "high": 2265.0,
+      "low": 2160.1,
+      "open": 2160.1,
+      "time": "2026-10-01",
+      "volume": 1178274
     }
   ],
   "company_name": "MPHASIS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Information Technology",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 51,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.75x"
+    "momentum_score": 53,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.82x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 3.5,
-    "change_pct": 0.16,
-    "close": 2237.5,
-    "previous_close": 2234.0,
+    "as_of": "2026-10-01",
+    "change": 95.8,
+    "change_pct": 4.45,
+    "close": 2250.2,
+    "previous_close": 2154.4,
     "type": "EOD_CLOSE",
-    "volume": 310054
+    "volume": 1178274
   },
   "range": {
-    "distance_from_high_pct": -25.73,
-    "distance_from_low_pct": 11.15,
-    "high_52w": 3012.8,
+    "distance_from_high_pct": -24.36,
+    "distance_from_low_pct": 11.78,
+    "high_52w": 2975.0,
     "history_basis": "52_WEEK",
     "low_52w": 2013.0,
-    "range_position_pct": 22.45
+    "range_position_pct": 24.66
   },
   "risk_model": {
-    "invalidation_floor": 2159.19,
-    "risk_per_share": 123.06,
-    "technical_pivot": 2282.25
+    "invalidation_floor": 2171.44,
+    "risk_per_share": 123.76,
+    "technical_pivot": 2295.2
   },
   "schema_version": "1.0",
   "sector": "Information Technology",

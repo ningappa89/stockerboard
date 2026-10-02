@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 427.45,
-      "high": 450.0,
-      "low": 425.2,
-      "open": 450.0,
-      "time": "2025-09-19",
-      "volume": 243094
-    },
-    {
-      "close": 408.75,
-      "high": 432.0,
-      "low": 407.0,
-      "open": 427.45,
-      "time": "2025-09-22",
-      "volume": 297265
-    },
-    {
-      "close": 407.05,
-      "high": 416.0,
-      "low": 405.0,
-      "open": 416.0,
-      "time": "2025-09-23",
-      "volume": 156935
-    },
-    {
       "close": 407.35,
       "high": 409.0,
       "low": 403.15,
@@ -2017,13 +1993,37 @@
       "open": 374.6,
       "time": "2026-09-28",
       "volume": 47469
+    },
+    {
+      "close": 375.25,
+      "high": 380.0,
+      "low": 362.05,
+      "open": 366.45,
+      "time": "2026-09-29",
+      "volume": 64320
+    },
+    {
+      "close": 366.0,
+      "high": 379.6,
+      "low": 364.0,
+      "open": 375.2,
+      "time": "2026-09-30",
+      "volume": 50560
+    },
+    {
+      "close": 359.05,
+      "high": 364.95,
+      "low": 350.05,
+      "open": 362.0,
+      "time": "2026-10-01",
+      "volume": 65446
     }
   ],
   "company_name": "PANACEA BIOTEC LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.44x"
+    "volume_multiplier": "0.72x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -6.15,
-    "change_pct": -1.65,
-    "close": 366.45,
-    "previous_close": 372.6,
+    "as_of": "2026-10-01",
+    "change": -6.95,
+    "change_pct": -1.9,
+    "close": 359.05,
+    "previous_close": 366.0,
     "type": "EOD_CLOSE",
-    "volume": 47469
+    "volume": 65446
   },
   "range": {
-    "distance_from_high_pct": -43.36,
-    "distance_from_low_pct": 25.32,
+    "distance_from_high_pct": -44.51,
+    "distance_from_low_pct": 22.79,
     "high_52w": 647.0,
     "history_basis": "52_WEEK",
     "low_52w": 292.4,
-    "range_position_pct": 20.88
+    "range_position_pct": 18.8
   },
   "risk_model": {
-    "invalidation_floor": 353.62,
-    "risk_per_share": 20.16,
-    "technical_pivot": 373.78
+    "invalidation_floor": 346.48,
+    "risk_per_share": 19.75,
+    "technical_pivot": 366.23
   },
   "schema_version": "1.0",
   "sector": null,

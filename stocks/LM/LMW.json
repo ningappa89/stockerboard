@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 15201.0,
-      "high": 15400.0,
-      "low": 15051.0,
-      "open": 15400.0,
-      "time": "2025-09-19",
-      "volume": 8157
-    },
-    {
-      "close": 15600.0,
-      "high": 15669.0,
-      "low": 15035.0,
-      "open": 15390.0,
-      "time": "2025-09-22",
-      "volume": 8208
-    },
-    {
-      "close": 15623.0,
-      "high": 15698.0,
-      "low": 15475.0,
-      "open": 15533.0,
-      "time": "2025-09-23",
-      "volume": 3204
-    },
-    {
       "close": 15496.0,
       "high": 15748.0,
       "low": 15420.0,
@@ -2017,13 +1993,37 @@
       "open": 17176.0,
       "time": "2026-09-28",
       "volume": 3440
+    },
+    {
+      "close": 16957.0,
+      "high": 17111.0,
+      "low": 16761.0,
+      "open": 16967.0,
+      "time": "2026-09-29",
+      "volume": 2629
+    },
+    {
+      "close": 16862.0,
+      "high": 17054.0,
+      "low": 16800.0,
+      "open": 16961.0,
+      "time": "2026-09-30",
+      "volume": 1450
+    },
+    {
+      "close": 16548.0,
+      "high": 16862.0,
+      "low": 16257.0,
+      "open": 16862.0,
+      "time": "2026-10-01",
+      "volume": 3047
     }
   ],
   "company_name": "LMW Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.62x"
+    "volume_multiplier": "0.71x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -167.0,
-    "change_pct": -0.97,
-    "close": 16966.0,
-    "previous_close": 17133.0,
+    "as_of": "2026-10-01",
+    "change": -314.0,
+    "change_pct": -1.86,
+    "close": 16548.0,
+    "previous_close": 16862.0,
     "type": "EOD_CLOSE",
-    "volume": 3440
+    "volume": 3047
   },
   "range": {
-    "distance_from_high_pct": -15.81,
-    "distance_from_low_pct": 42.33,
+    "distance_from_high_pct": -17.88,
+    "distance_from_low_pct": 38.83,
     "high_52w": 20151.0,
     "history_basis": "52_WEEK",
     "low_52w": 11920.0,
-    "range_position_pct": 61.3
+    "range_position_pct": 56.23
   },
   "risk_model": {
-    "invalidation_floor": 16372.19,
-    "risk_per_share": 933.13,
-    "technical_pivot": 17305.32
+    "invalidation_floor": 15968.82,
+    "risk_per_share": 910.14,
+    "technical_pivot": 16878.96
   },
   "schema_version": "1.0",
   "sector": null,

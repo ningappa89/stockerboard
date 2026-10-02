@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1255.5,
-      "high": 1286.0,
-      "low": 1241.0,
-      "open": 1241.0,
-      "time": "2025-09-19",
-      "volume": 192007
-    },
-    {
-      "close": 1267.2,
-      "high": 1294.4,
-      "low": 1255.5,
-      "open": 1270.0,
-      "time": "2025-09-22",
-      "volume": 109469
-    },
-    {
-      "close": 1292.9,
-      "high": 1345.8,
-      "low": 1277.8,
-      "open": 1295.0,
-      "time": "2025-09-23",
-      "volume": 725623
-    },
-    {
       "close": 1262.9,
       "high": 1300.9,
       "low": 1255.1,
@@ -2017,13 +1993,37 @@
       "open": 2530.4,
       "time": "2026-09-28",
       "volume": 140717
+    },
+    {
+      "close": 2523.2,
+      "high": 2546.5,
+      "low": 2440.3,
+      "open": 2459.8,
+      "time": "2026-09-29",
+      "volume": 240700
+    },
+    {
+      "close": 2518.6,
+      "high": 2537.0,
+      "low": 2477.0,
+      "open": 2530.0,
+      "time": "2026-09-30",
+      "volume": 254650
+    },
+    {
+      "close": 2518.2,
+      "high": 2571.5,
+      "low": 2465.0,
+      "open": 2524.0,
+      "time": "2026-10-01",
+      "volume": 377828
     }
   ],
   "company_name": "R R KABEL LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 63,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.24x"
+    "volume_multiplier": "0.74x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -68.5,
-    "change_pct": -2.71,
-    "close": 2459.8,
-    "previous_close": 2528.3,
+    "as_of": "2026-10-01",
+    "change": -0.4,
+    "change_pct": -0.02,
+    "close": 2518.2,
+    "previous_close": 2518.6,
     "type": "EOD_CLOSE",
-    "volume": 140717
+    "volume": 377828
   },
   "range": {
-    "distance_from_high_pct": -17.56,
-    "distance_from_low_pct": 108.18,
+    "distance_from_high_pct": -15.6,
+    "distance_from_low_pct": 113.12,
     "high_52w": 2983.8,
     "history_basis": "52_WEEK",
     "low_52w": 1181.6,
-    "range_position_pct": 70.92
+    "range_position_pct": 74.16
   },
   "risk_model": {
-    "invalidation_floor": 2373.71,
-    "risk_per_share": 135.29,
-    "technical_pivot": 2509.0
+    "invalidation_floor": 2430.06,
+    "risk_per_share": 138.5,
+    "technical_pivot": 2568.56
   },
   "schema_version": "1.0",
   "sector": null,

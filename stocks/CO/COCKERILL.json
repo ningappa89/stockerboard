@@ -897,14 +897,38 @@
       "open": 7900.0,
       "time": "2026-09-28",
       "volume": 3628
+    },
+    {
+      "close": 7883.0,
+      "high": 7999.5,
+      "low": 7681.0,
+      "open": 7860.0,
+      "time": "2026-09-29",
+      "volume": 3946
+    },
+    {
+      "close": 7966.5,
+      "high": 8029.0,
+      "low": 7840.5,
+      "open": 7905.5,
+      "time": "2026-09-30",
+      "volume": 3420
+    },
+    {
+      "close": 7989.0,
+      "high": 8080.0,
+      "low": 7748.5,
+      "open": 7975.0,
+      "time": "2026-10-01",
+      "volume": 3473
     }
   ],
   "company_name": "JOHN COCKERILL INDIA LIMITED",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 112
+    "last_session": "2026-10-01",
+    "sessions_available": 115
   },
   "industry": null,
   "isin": "INE515A01019",
@@ -912,31 +936,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 47,
+    "momentum_score": 50,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.51x"
+    "volume_multiplier": "0.53x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -131.5,
-    "change_pct": -1.65,
-    "close": 7824.5,
-    "previous_close": 7956.0,
+    "as_of": "2026-10-01",
+    "change": 22.5,
+    "change_pct": 0.28,
+    "close": 7989.0,
+    "previous_close": 7966.5,
     "type": "EOD_CLOSE",
-    "volume": 3628
+    "volume": 3473
   },
   "range": {
-    "distance_from_high_pct": -28.03,
-    "distance_from_low_pct": 57.91,
+    "distance_from_high_pct": -26.51,
+    "distance_from_low_pct": 61.23,
     "high_52w": 10871.5,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 4955.0,
-    "range_position_pct": 48.5
+    "range_position_pct": 51.28
   },
   "risk_model": {
-    "invalidation_floor": 7550.64,
-    "risk_per_share": 430.35,
-    "technical_pivot": 7980.99
+    "invalidation_floor": 7709.38,
+    "risk_per_share": 439.4,
+    "technical_pivot": 8148.78
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2544.6,
-      "high": 2560.1,
-      "low": 2527.5,
-      "open": 2540.0,
-      "time": "2025-09-19",
-      "volume": 75435
-    },
-    {
-      "close": 2539.2,
-      "high": 2558.7,
-      "low": 2532.0,
-      "open": 2557.4,
-      "time": "2025-09-22",
-      "volume": 92964
-    },
-    {
-      "close": 2544.9,
-      "high": 2578.8,
-      "low": 2529.0,
-      "open": 2539.0,
-      "time": "2025-09-23",
-      "volume": 42742
-    },
-    {
       "close": 2531.2,
       "high": 2549.0,
       "low": 2515.5,
@@ -2017,13 +1993,37 @@
       "open": 3546.0,
       "time": "2026-09-28",
       "volume": 97333
+    },
+    {
+      "close": 3557.5,
+      "high": 3589.0,
+      "low": 3500.0,
+      "open": 3524.9,
+      "time": "2026-09-29",
+      "volume": 85009
+    },
+    {
+      "close": 3620.8,
+      "high": 3758.9,
+      "low": 3567.1,
+      "open": 3570.0,
+      "time": "2026-09-30",
+      "volume": 344068
+    },
+    {
+      "close": 3581.0,
+      "high": 3602.4,
+      "low": 3489.6,
+      "open": 3588.0,
+      "time": "2026-10-01",
+      "volume": 75759
     }
   ],
   "company_name": "AJANTA PHARMA LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 79,
+    "momentum_score": 81,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.22x"
+    "volume_multiplier": "0.82x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -22.6,
-    "change_pct": -0.64,
-    "close": 3525.2,
-    "previous_close": 3547.8,
+    "as_of": "2026-10-01",
+    "change": -39.8,
+    "change_pct": -1.1,
+    "close": 3581.0,
+    "previous_close": 3620.8,
     "type": "EOD_CLOSE",
-    "volume": 97333
+    "volume": 75759
   },
   "range": {
-    "distance_from_high_pct": -7.13,
-    "distance_from_low_pct": 51.3,
+    "distance_from_high_pct": -5.66,
+    "distance_from_low_pct": 53.7,
     "high_52w": 3796.0,
     "history_basis": "52_WEEK",
     "low_52w": 2329.9,
-    "range_position_pct": 81.53
+    "range_position_pct": 85.34
   },
   "risk_model": {
-    "invalidation_floor": 3401.82,
-    "risk_per_share": 193.88,
-    "technical_pivot": 3595.7
+    "invalidation_floor": 3455.66,
+    "risk_per_share": 196.96,
+    "technical_pivot": 3652.62
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

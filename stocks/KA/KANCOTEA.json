@@ -241,14 +241,38 @@
       "open": 55.55,
       "time": "2026-09-28",
       "volume": 2
+    },
+    {
+      "close": 54.55,
+      "high": 54.9,
+      "low": 53.9,
+      "open": 54.9,
+      "time": "2026-09-29",
+      "volume": 142
+    },
+    {
+      "close": 53.9,
+      "high": 54.89,
+      "low": 50.53,
+      "open": 54.89,
+      "time": "2026-09-30",
+      "volume": 52
+    },
+    {
+      "close": 53.0,
+      "high": 53.5,
+      "low": 51.95,
+      "open": 53.5,
+      "time": "2026-10-01",
+      "volume": 183
     }
   ],
   "company_name": "KANCO TEA & INDS. LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE398L01017",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 79,
+    "momentum_score": 75,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.01x"
+    "volume_multiplier": "0.8x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.55,
-    "change_pct": 1.02,
-    "close": 54.55,
-    "previous_close": 54.0,
+    "as_of": "2026-10-01",
+    "change": -0.9,
+    "change_pct": -1.67,
+    "close": 53.0,
+    "previous_close": 53.9,
     "type": "EOD_CLOSE",
-    "volume": 2
+    "volume": 183
   },
   "range": {
-    "distance_from_high_pct": -7.07,
-    "distance_from_low_pct": 18.07,
+    "distance_from_high_pct": -9.71,
+    "distance_from_low_pct": 14.72,
     "high_52w": 58.7,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 46.2,
-    "range_position_pct": 66.8
+    "range_position_pct": 54.4
   },
   "risk_model": {
-    "invalidation_floor": 52.64,
-    "risk_per_share": 3.0,
-    "technical_pivot": 55.64
+    "invalidation_floor": 51.14,
+    "risk_per_share": 2.92,
+    "technical_pivot": 54.06
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 954.2,
-      "high": 959.5,
-      "low": 941.0,
-      "open": 951.75,
-      "time": "2025-09-19",
-      "volume": 69572
-    },
-    {
-      "close": 937.85,
-      "high": 958.2,
-      "low": 937.0,
-      "open": 958.0,
-      "time": "2025-09-22",
-      "volume": 40596
-    },
-    {
-      "close": 922.25,
-      "high": 938.7,
-      "low": 919.0,
-      "open": 938.0,
-      "time": "2025-09-23",
-      "volume": 81910
-    },
-    {
       "close": 917.8,
       "high": 922.9,
       "low": 915.25,
@@ -2017,13 +1993,37 @@
       "open": 591.0,
       "time": "2026-09-28",
       "volume": 181193
+    },
+    {
+      "close": 580.4,
+      "high": 589.85,
+      "low": 574.6,
+      "open": 586.0,
+      "time": "2026-09-29",
+      "volume": 41970
+    },
+    {
+      "close": 582.45,
+      "high": 590.0,
+      "low": 576.1,
+      "open": 580.15,
+      "time": "2026-09-30",
+      "volume": 18960
+    },
+    {
+      "close": 571.7,
+      "high": 583.0,
+      "low": 565.2,
+      "open": 581.35,
+      "time": "2026-10-01",
+      "volume": 41980
     }
   ],
   "company_name": "SYMPHONY LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.57x"
+    "volume_multiplier": "0.13x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.85,
-    "change_pct": -0.48,
-    "close": 585.95,
-    "previous_close": 588.8,
+    "as_of": "2026-10-01",
+    "change": -10.75,
+    "change_pct": -1.85,
+    "close": 571.7,
+    "previous_close": 582.45,
     "type": "EOD_CLOSE",
-    "volume": 181193
+    "volume": 41980
   },
   "range": {
-    "distance_from_high_pct": -39.62,
-    "distance_from_low_pct": 4.24,
+    "distance_from_high_pct": -41.09,
+    "distance_from_low_pct": 1.71,
     "high_52w": 970.45,
     "history_basis": "52_WEEK",
     "low_52w": 562.1,
-    "range_position_pct": 5.84
+    "range_position_pct": 2.35
   },
   "risk_model": {
-    "invalidation_floor": 565.44,
-    "risk_per_share": 32.23,
-    "technical_pivot": 597.67
+    "invalidation_floor": 551.69,
+    "risk_per_share": 31.44,
+    "technical_pivot": 583.13
   },
   "schema_version": "1.0",
   "sector": null,

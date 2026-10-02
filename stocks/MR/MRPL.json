@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 129.81,
-      "high": 132.2,
-      "low": 129.5,
-      "open": 131.1,
-      "time": "2025-09-19",
-      "volume": 1201776
-    },
-    {
-      "close": 129.88,
-      "high": 132.61,
-      "low": 129.03,
-      "open": 129.76,
-      "time": "2025-09-22",
-      "volume": 1665608
-    },
-    {
-      "close": 129.11,
-      "high": 130.71,
-      "low": 128.6,
-      "open": 130.5,
-      "time": "2025-09-23",
-      "volume": 695274
-    },
-    {
       "close": 127.46,
       "high": 129.79,
       "low": 127.13,
@@ -2017,13 +1993,37 @@
       "open": 164.5,
       "time": "2026-09-28",
       "volume": 21758950
+    },
+    {
+      "close": 171.65,
+      "high": 177.49,
+      "low": 168.06,
+      "open": 169.5,
+      "time": "2026-09-29",
+      "volume": 15901075
+    },
+    {
+      "close": 169.29,
+      "high": 180.8,
+      "low": 162.5,
+      "open": 172.5,
+      "time": "2026-09-30",
+      "volume": 30852898
+    },
+    {
+      "close": 164.76,
+      "high": 168.2,
+      "low": 161.5,
+      "open": 167.27,
+      "time": "2026-10-01",
+      "volume": 12948377
     }
   ],
   "company_name": "MRPL",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 59,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.05x"
+    "momentum_score": 56,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.06x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 5.2,
-    "change_pct": 3.16,
-    "close": 169.8,
-    "previous_close": 164.6,
+    "as_of": "2026-10-01",
+    "change": -4.53,
+    "change_pct": -2.68,
+    "close": 164.76,
+    "previous_close": 169.29,
     "type": "EOD_CLOSE",
-    "volume": 21758950
+    "volume": 12948377
   },
   "range": {
-    "distance_from_high_pct": -20.02,
-    "distance_from_low_pct": 34.66,
+    "distance_from_high_pct": -22.4,
+    "distance_from_low_pct": 30.66,
     "high_52w": 212.31,
     "history_basis": "52_WEEK",
     "low_52w": 126.1,
-    "range_position_pct": 50.69
+    "range_position_pct": 44.84
   },
   "risk_model": {
-    "invalidation_floor": 163.86,
-    "risk_per_share": 9.34,
-    "technical_pivot": 173.2
+    "invalidation_floor": 158.99,
+    "risk_per_share": 9.07,
+    "technical_pivot": 168.06
   },
   "schema_version": "1.0",
   "sector": null,

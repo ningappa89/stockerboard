@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 27.78,
-      "high": 27.98,
-      "low": 26.63,
-      "open": 27.2,
-      "time": "2025-09-19",
-      "volume": 114560
-    },
-    {
-      "close": 28.93,
-      "high": 29.14,
-      "low": 27.8,
-      "open": 27.98,
-      "time": "2025-09-22",
-      "volume": 255535
-    },
-    {
-      "close": 30.31,
-      "high": 30.37,
-      "low": 29.51,
-      "open": 29.56,
-      "time": "2025-09-23",
-      "volume": 605070
-    },
-    {
       "close": 31.83,
       "high": 31.83,
       "low": 30.6,
@@ -2017,13 +1993,37 @@
       "open": 12.55,
       "time": "2026-09-28",
       "volume": 2699322
+    },
+    {
+      "close": 11.2,
+      "high": 11.5,
+      "low": 11.06,
+      "open": 11.28,
+      "time": "2026-09-29",
+      "volume": 655070
+    },
+    {
+      "close": 10.92,
+      "high": 11.66,
+      "low": 10.71,
+      "open": 11.45,
+      "time": "2026-09-30",
+      "volume": 833546
+    },
+    {
+      "close": 10.38,
+      "high": 10.91,
+      "low": 10.38,
+      "open": 10.71,
+      "time": "2026-10-01",
+      "volume": 781688
     }
   ],
   "company_name": "SUMEET IND LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.84x"
+    "volume_multiplier": "0.63x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.59,
-    "change_pct": -4.84,
-    "close": 11.59,
-    "previous_close": 12.18,
+    "as_of": "2026-10-01",
+    "change": -0.54,
+    "change_pct": -4.95,
+    "close": 10.38,
+    "previous_close": 10.92,
     "type": "EOD_CLOSE",
-    "volume": 2699322
+    "volume": 781688
   },
   "range": {
-    "distance_from_high_pct": -71.38,
-    "distance_from_low_pct": 25.16,
+    "distance_from_high_pct": -74.37,
+    "distance_from_low_pct": 12.1,
     "high_52w": 40.5,
     "history_basis": "52_WEEK",
     "low_52w": 9.26,
-    "range_position_pct": 7.46
+    "range_position_pct": 3.59
   },
   "risk_model": {
-    "invalidation_floor": 11.18,
-    "risk_per_share": 0.64,
-    "technical_pivot": 11.82
+    "invalidation_floor": 10.02,
+    "risk_per_share": 0.57,
+    "technical_pivot": 10.59
   },
   "schema_version": "1.0",
   "sector": null,

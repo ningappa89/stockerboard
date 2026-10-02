@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3325.9,
-      "high": 3346.8,
-      "low": 3308.5,
-      "open": 3337.9,
-      "time": "2025-09-19",
-      "volume": 431619
-    },
-    {
-      "close": 3243.5,
-      "high": 3335.0,
-      "low": 3235.8,
-      "open": 3335.0,
-      "time": "2025-09-22",
-      "volume": 292028
-    },
-    {
-      "close": 3240.4,
-      "high": 3272.9,
-      "low": 3225.5,
-      "open": 3243.5,
-      "time": "2025-09-23",
-      "volume": 204819
-    },
-    {
       "close": 3201.0,
       "high": 3244.4,
       "low": 3193.9,
@@ -2017,13 +1993,37 @@
       "open": 3860.2,
       "time": "2026-09-28",
       "volume": 180360
+    },
+    {
+      "close": 3710.0,
+      "high": 3814.6,
+      "low": 3710.0,
+      "open": 3769.6,
+      "time": "2026-09-29",
+      "volume": 344496
+    },
+    {
+      "close": 3725.6,
+      "high": 3789.1,
+      "low": 3720.0,
+      "open": 3721.1,
+      "time": "2026-09-30",
+      "volume": 183302
+    },
+    {
+      "close": 3804.0,
+      "high": 3804.0,
+      "low": 3709.5,
+      "open": 3725.7,
+      "time": "2026-10-01",
+      "volume": 243713
     }
   ],
   "company_name": "SIEMENS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 76,
+    "momentum_score": 77,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.68x"
+    "volume_multiplier": "0.93x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -91.5,
-    "change_pct": -2.36,
-    "close": 3785.5,
-    "previous_close": 3877.0,
+    "as_of": "2026-10-01",
+    "change": 78.4,
+    "change_pct": 2.1,
+    "close": 3804.0,
+    "previous_close": 3725.6,
     "type": "EOD_CLOSE",
-    "volume": 180360
+    "volume": 243713
   },
   "range": {
-    "distance_from_high_pct": -8.77,
-    "distance_from_low_pct": 33.95,
+    "distance_from_high_pct": -8.32,
+    "distance_from_low_pct": 34.61,
     "high_52w": 4149.4,
     "history_basis": "52_WEEK",
     "low_52w": 2826.0,
-    "range_position_pct": 72.5
+    "range_position_pct": 73.9
   },
   "risk_model": {
-    "invalidation_floor": 3653.01,
-    "risk_per_share": 208.2,
-    "technical_pivot": 3861.21
+    "invalidation_floor": 3670.86,
+    "risk_per_share": 209.22,
+    "technical_pivot": 3880.08
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 51.64,
-      "high": 51.81,
-      "low": 51.0,
-      "open": 51.56,
-      "time": "2025-09-19",
-      "volume": 404402
-    },
-    {
-      "close": 51.69,
-      "high": 53.47,
-      "low": 51.5,
-      "open": 51.75,
-      "time": "2025-09-22",
-      "volume": 1262476
-    },
-    {
-      "close": 51.35,
-      "high": 52.0,
-      "low": 51.22,
-      "open": 51.75,
-      "time": "2025-09-23",
-      "volume": 366233
-    },
-    {
       "close": 51.77,
       "high": 52.95,
       "low": 51.31,
@@ -2017,13 +1993,37 @@
       "open": 37.0,
       "time": "2026-09-28",
       "volume": 247980
+    },
+    {
+      "close": 36.69,
+      "high": 36.91,
+      "low": 36.4,
+      "open": 36.9,
+      "time": "2026-09-29",
+      "volume": 179920
+    },
+    {
+      "close": 36.86,
+      "high": 37.34,
+      "low": 36.6,
+      "open": 36.69,
+      "time": "2026-09-30",
+      "volume": 117368
+    },
+    {
+      "close": 36.65,
+      "high": 37.06,
+      "low": 36.3,
+      "open": 36.89,
+      "time": "2026-10-01",
+      "volume": 196994
     }
   ],
   "company_name": "SHIPPING CORP OF ILA LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.88x"
+    "volume_multiplier": "0.7x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.24,
-    "change_pct": -0.65,
-    "close": 36.9,
-    "previous_close": 37.14,
+    "as_of": "2026-10-01",
+    "change": -0.21,
+    "change_pct": -0.57,
+    "close": 36.65,
+    "previous_close": 36.86,
     "type": "EOD_CLOSE",
-    "volume": 247980
+    "volume": 196994
   },
   "range": {
-    "distance_from_high_pct": -32.91,
-    "distance_from_low_pct": 7.58,
+    "distance_from_high_pct": -33.36,
+    "distance_from_low_pct": 6.85,
     "high_52w": 55.0,
     "history_basis": "52_WEEK",
     "low_52w": 34.3,
-    "range_position_pct": 12.56
+    "range_position_pct": 11.35
   },
   "risk_model": {
-    "invalidation_floor": 35.61,
-    "risk_per_share": 2.03,
-    "technical_pivot": 37.64
+    "invalidation_floor": 35.37,
+    "risk_per_share": 2.01,
+    "technical_pivot": 37.38
   },
   "schema_version": "1.0",
   "sector": null,

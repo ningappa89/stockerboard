@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 269.0,
-      "high": 272.3,
-      "low": 268.5,
-      "open": 271.85,
-      "time": "2025-09-19",
-      "volume": 115306
-    },
-    {
-      "close": 267.6,
-      "high": 270.0,
-      "low": 267.1,
-      "open": 269.0,
-      "time": "2025-09-22",
-      "volume": 112736
-    },
-    {
-      "close": 266.5,
-      "high": 268.5,
-      "low": 266.05,
-      "open": 267.1,
-      "time": "2025-09-23",
-      "volume": 87765
-    },
-    {
       "close": 264.6,
       "high": 267.3,
       "low": 264.3,
@@ -2017,13 +1993,37 @@
       "open": 205.4,
       "time": "2026-09-28",
       "volume": 90130
+    },
+    {
+      "close": 202.96,
+      "high": 204.8,
+      "low": 202.05,
+      "open": 204.68,
+      "time": "2026-09-29",
+      "volume": 92063
+    },
+    {
+      "close": 203.16,
+      "high": 204.4,
+      "low": 202.4,
+      "open": 203.0,
+      "time": "2026-09-30",
+      "volume": 81303
+    },
+    {
+      "close": 201.14,
+      "high": 204.17,
+      "low": 200.1,
+      "open": 203.3,
+      "time": "2026-10-01",
+      "volume": 142755
     }
   ],
   "company_name": "VST INDUSTRIES LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 46,
+    "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.81x"
+    "volume_multiplier": "1.27x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.54,
-    "change_pct": -0.26,
-    "close": 204.0,
-    "previous_close": 204.54,
+    "as_of": "2026-10-01",
+    "change": -2.02,
+    "change_pct": -0.99,
+    "close": 201.14,
+    "previous_close": 203.16,
     "type": "EOD_CLOSE",
-    "volume": 90130
+    "volume": 142755
   },
   "range": {
-    "distance_from_high_pct": -28.87,
-    "distance_from_low_pct": 2.0,
+    "distance_from_high_pct": -29.86,
+    "distance_from_low_pct": 0.57,
     "high_52w": 286.78,
     "history_basis": "52_WEEK",
     "low_52w": 200.0,
-    "range_position_pct": 4.61
+    "range_position_pct": 1.31
   },
   "risk_model": {
-    "invalidation_floor": 196.86,
-    "risk_per_share": 11.22,
-    "technical_pivot": 208.08
+    "invalidation_floor": 194.1,
+    "risk_per_share": 11.06,
+    "technical_pivot": 205.16
   },
   "schema_version": "1.0",
   "sector": null,

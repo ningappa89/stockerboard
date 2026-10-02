@@ -897,14 +897,38 @@
       "open": 2238.1,
       "time": "2026-09-28",
       "volume": 1443
+    },
+    {
+      "close": 2241.1,
+      "high": 2284.8,
+      "low": 2217.8,
+      "open": 2217.9,
+      "time": "2026-09-29",
+      "volume": 5222
+    },
+    {
+      "close": 2286.8,
+      "high": 2304.9,
+      "low": 2251.9,
+      "open": 2256.0,
+      "time": "2026-09-30",
+      "volume": 3772
+    },
+    {
+      "close": 2263.0,
+      "high": 2300.0,
+      "low": 2230.0,
+      "open": 2252.0,
+      "time": "2026-10-01",
+      "volume": 2071
     }
   ],
   "company_name": "KAMA HOLDINGS LIMITED",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 112
+    "last_session": "2026-10-01",
+    "sessions_available": 115
   },
   "industry": null,
   "isin": "INE411F01010",
@@ -912,31 +936,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.3x"
+    "volume_multiplier": "0.44x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -34.5,
-    "change_pct": -1.54,
-    "close": 2203.6,
-    "previous_close": 2238.1,
+    "as_of": "2026-10-01",
+    "change": -23.8,
+    "change_pct": -1.04,
+    "close": 2263.0,
+    "previous_close": 2286.8,
     "type": "EOD_CLOSE",
-    "volume": 1443
+    "volume": 2071
   },
   "range": {
-    "distance_from_high_pct": -20.84,
-    "distance_from_low_pct": 1.44,
+    "distance_from_high_pct": -18.71,
+    "distance_from_low_pct": 4.18,
     "high_52w": 2783.9,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 2172.3,
-    "range_position_pct": 5.12
+    "range_position_pct": 14.83
   },
   "risk_model": {
-    "invalidation_floor": 2126.47,
-    "risk_per_share": 121.2,
-    "technical_pivot": 2247.67
+    "invalidation_floor": 2183.8,
+    "risk_per_share": 124.46,
+    "technical_pivot": 2308.26
   },
   "schema_version": "1.0",
   "sector": null,

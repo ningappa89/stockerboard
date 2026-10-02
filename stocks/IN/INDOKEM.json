@@ -241,14 +241,38 @@
       "open": 601.35,
       "time": "2026-09-28",
       "volume": 4289
+    },
+    {
+      "close": 617.0,
+      "high": 626.35,
+      "low": 595.0,
+      "open": 607.0,
+      "time": "2026-09-29",
+      "volume": 5978
+    },
+    {
+      "close": 600.45,
+      "high": 625.0,
+      "low": 595.2,
+      "open": 625.0,
+      "time": "2026-09-30",
+      "volume": 4030
+    },
+    {
+      "close": 603.7,
+      "high": 609.9,
+      "low": 590.0,
+      "open": 602.7,
+      "time": "2026-10-01",
+      "volume": 5070
     }
   ],
   "company_name": "INDOKEM LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE716F01012",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 76,
+    "momentum_score": 75,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.68x"
+    "volume_multiplier": "0.76x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.25,
-    "change_pct": -0.69,
-    "close": 609.0,
-    "previous_close": 613.25,
+    "as_of": "2026-10-01",
+    "change": 3.25,
+    "change_pct": 0.54,
+    "close": 603.7,
+    "previous_close": 600.45,
     "type": "EOD_CLOSE",
-    "volume": 4289
+    "volume": 5070
   },
   "range": {
-    "distance_from_high_pct": -8.83,
-    "distance_from_low_pct": 9.73,
+    "distance_from_high_pct": -9.63,
+    "distance_from_low_pct": 8.77,
     "high_52w": 668.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 555.0,
-    "range_position_pct": 47.79
+    "range_position_pct": 43.1
   },
   "risk_model": {
-    "invalidation_floor": 587.68,
-    "risk_per_share": 33.5,
-    "technical_pivot": 621.18
+    "invalidation_floor": 582.57,
+    "risk_per_share": 33.2,
+    "technical_pivot": 615.77
   },
   "schema_version": "1.0",
   "sector": null,

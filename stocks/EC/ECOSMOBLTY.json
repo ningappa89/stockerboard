@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 287.4,
-      "high": 290.0,
-      "low": 286.35,
-      "open": 287.0,
-      "time": "2025-09-19",
-      "volume": 60121
-    },
-    {
-      "close": 285.65,
-      "high": 291.0,
-      "low": 283.0,
-      "open": 287.3,
-      "time": "2025-09-22",
-      "volume": 81060
-    },
-    {
-      "close": 276.65,
-      "high": 285.65,
-      "low": 275.2,
-      "open": 285.6,
-      "time": "2025-09-23",
-      "volume": 52395
-    },
-    {
       "close": 270.95,
       "high": 277.4,
       "low": 269.0,
@@ -2017,13 +1993,37 @@
       "open": 107.05,
       "time": "2026-09-28",
       "volume": 83709
+    },
+    {
+      "close": 105.07,
+      "high": 107.3,
+      "low": 104.1,
+      "open": 107.3,
+      "time": "2026-09-29",
+      "volume": 47947
+    },
+    {
+      "close": 104.73,
+      "high": 107.01,
+      "low": 104.1,
+      "open": 106.58,
+      "time": "2026-09-30",
+      "volume": 35333
+    },
+    {
+      "close": 105.01,
+      "high": 106.5,
+      "low": 102.0,
+      "open": 106.5,
+      "time": "2026-10-01",
+      "volume": 40431
     }
   ],
   "company_name": "ECOS (INDIA) MOB & HOSP L",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.08x"
+    "volume_multiplier": "0.78x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.06,
-    "change_pct": -1.9,
-    "close": 106.36,
-    "previous_close": 108.42,
+    "as_of": "2026-10-01",
+    "change": 0.28,
+    "change_pct": 0.27,
+    "close": 105.01,
+    "previous_close": 104.73,
     "type": "EOD_CLOSE",
-    "volume": 83709
+    "volume": 40431
   },
   "range": {
-    "distance_from_high_pct": -63.45,
-    "distance_from_low_pct": 2.33,
-    "high_52w": 291.0,
+    "distance_from_high_pct": -62.14,
+    "distance_from_low_pct": 2.95,
+    "high_52w": 277.4,
     "history_basis": "52_WEEK",
-    "low_52w": 103.94,
-    "range_position_pct": 1.29
+    "low_52w": 102.0,
+    "range_position_pct": 1.72
   },
   "risk_model": {
-    "invalidation_floor": 102.64,
-    "risk_per_share": 5.85,
-    "technical_pivot": 108.49
+    "invalidation_floor": 101.33,
+    "risk_per_share": 5.78,
+    "technical_pivot": 107.11
   },
   "schema_version": "1.0",
   "sector": null,

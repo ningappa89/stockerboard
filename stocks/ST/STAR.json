@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 871.0,
-      "high": 889.9,
-      "low": 858.45,
-      "open": 880.0,
-      "time": "2025-09-19",
-      "volume": 232523
-    },
-    {
-      "close": 856.25,
-      "high": 880.0,
-      "low": 852.2,
-      "open": 880.0,
-      "time": "2025-09-22",
-      "volume": 129861
-    },
-    {
-      "close": 854.1,
-      "high": 863.0,
-      "low": 841.0,
-      "open": 860.0,
-      "time": "2025-09-23",
-      "volume": 209529
-    },
-    {
       "close": 845.7,
       "high": 856.45,
       "low": 838.5,
@@ -2017,13 +1993,37 @@
       "open": 1175.8,
       "time": "2026-09-28",
       "volume": 115834
+    },
+    {
+      "close": 1172.6,
+      "high": 1182.5,
+      "low": 1131.0,
+      "open": 1143.1,
+      "time": "2026-09-29",
+      "volume": 229635
+    },
+    {
+      "close": 1120.0,
+      "high": 1174.5,
+      "low": 1110.0,
+      "open": 1167.0,
+      "time": "2026-09-30",
+      "volume": 447494
+    },
+    {
+      "close": 1084.8,
+      "high": 1122.0,
+      "low": 1076.0,
+      "open": 1108.4,
+      "time": "2026-10-01",
+      "volume": 340843
     }
   ],
   "company_name": "STRIDES PHARMA SCI LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 76,
+    "is_stage2": false,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.29x"
+    "volume_multiplier": "0.86x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -33.5,
-    "change_pct": -2.83,
-    "close": 1151.4,
-    "previous_close": 1184.9,
+    "as_of": "2026-10-01",
+    "change": -35.2,
+    "change_pct": -3.14,
+    "close": 1084.8,
+    "previous_close": 1120.0,
     "type": "EOD_CLOSE",
-    "volume": 115834
+    "volume": 340843
   },
   "range": {
-    "distance_from_high_pct": -8.68,
-    "distance_from_low_pct": 49.8,
+    "distance_from_high_pct": -13.97,
+    "distance_from_low_pct": 41.13,
     "high_52w": 1260.9,
     "history_basis": "52_WEEK",
     "low_52w": 768.65,
-    "range_position_pct": 77.76
+    "range_position_pct": 64.23
   },
   "risk_model": {
-    "invalidation_floor": 1111.1,
-    "risk_per_share": 63.33,
-    "technical_pivot": 1174.43
+    "invalidation_floor": 1046.83,
+    "risk_per_share": 59.67,
+    "technical_pivot": 1106.5
   },
   "schema_version": "1.0",
   "sector": null,

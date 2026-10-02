@@ -241,14 +241,38 @@
       "open": 2.29,
       "time": "2026-09-28",
       "volume": 56530
+    },
+    {
+      "close": 2.33,
+      "high": 2.42,
+      "low": 2.25,
+      "open": 2.3,
+      "time": "2026-09-29",
+      "volume": 27251
+    },
+    {
+      "close": 2.38,
+      "high": 2.43,
+      "low": 2.22,
+      "open": 2.28,
+      "time": "2026-09-30",
+      "volume": 78563
+    },
+    {
+      "close": 2.27,
+      "high": 2.49,
+      "low": 2.27,
+      "open": 2.49,
+      "time": "2026-10-01",
+      "volume": 91325
     }
   ],
   "company_name": "SGL RESOURCES LIMITED",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE967B01028",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 68,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.97x"
+    "volume_multiplier": "1.47x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.04,
-    "change_pct": -1.67,
-    "close": 2.35,
-    "previous_close": 2.39,
+    "as_of": "2026-10-01",
+    "change": -0.11,
+    "change_pct": -4.62,
+    "close": 2.27,
+    "previous_close": 2.38,
     "type": "EOD_CLOSE",
-    "volume": 56530
+    "volume": 91325
   },
   "range": {
-    "distance_from_high_pct": -14.23,
-    "distance_from_low_pct": 3.98,
+    "distance_from_high_pct": -17.15,
+    "distance_from_low_pct": 2.25,
     "high_52w": 2.74,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 2.26,
-    "range_position_pct": 18.75
+    "low_52w": 2.22,
+    "range_position_pct": 9.62
   },
   "risk_model": {
-    "invalidation_floor": 2.27,
+    "invalidation_floor": 2.19,
     "risk_per_share": 0.5,
-    "technical_pivot": 2.4
+    "technical_pivot": 2.32
   },
   "schema_version": "1.0",
   "sector": null,

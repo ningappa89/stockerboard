@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 137.93,
-      "high": 139.9,
-      "low": 137.65,
-      "open": 139.85,
-      "time": "2025-09-19",
-      "volume": 412580
-    },
-    {
-      "close": 138.55,
-      "high": 139.65,
-      "low": 137.7,
-      "open": 138.6,
-      "time": "2025-09-22",
-      "volume": 457830
-    },
-    {
-      "close": 137.73,
-      "high": 138.97,
-      "low": 137.3,
-      "open": 138.97,
-      "time": "2025-09-23",
-      "volume": 277560
-    },
-    {
       "close": 137.69,
       "high": 138.6,
       "low": 136.98,
@@ -2017,13 +1993,37 @@
       "open": 197.87,
       "time": "2026-09-28",
       "volume": 3173757
+    },
+    {
+      "close": 190.58,
+      "high": 196.81,
+      "low": 189.15,
+      "open": 194.0,
+      "time": "2026-09-29",
+      "volume": 2165701
+    },
+    {
+      "close": 190.09,
+      "high": 193.99,
+      "low": 188.25,
+      "open": 192.11,
+      "time": "2026-09-30",
+      "volume": 1052365
+    },
+    {
+      "close": 196.36,
+      "high": 197.25,
+      "low": 186.9,
+      "open": 191.0,
+      "time": "2026-10-01",
+      "volume": 5245978
     }
   ],
   "company_name": "Rolex Rings Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 86,
+    "momentum_score": 88,
     "setup_type": "Pocket Pivot",
-    "volume_multiplier": "1.74x"
+    "volume_multiplier": "2.54x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.9,
-    "change_pct": -0.97,
-    "close": 193.45,
-    "previous_close": 195.35,
+    "as_of": "2026-10-01",
+    "change": 6.27,
+    "change_pct": 3.3,
+    "close": 196.36,
+    "previous_close": 190.09,
     "type": "EOD_CLOSE",
-    "volume": 3173757
+    "volume": 5245978
   },
   "range": {
-    "distance_from_high_pct": -2.52,
-    "distance_from_low_pct": 93.86,
+    "distance_from_high_pct": -1.05,
+    "distance_from_low_pct": 96.77,
     "high_52w": 198.45,
     "history_basis": "52_WEEK",
     "low_52w": 99.79,
-    "range_position_pct": 94.93
+    "range_position_pct": 97.88
   },
   "risk_model": {
-    "invalidation_floor": 186.68,
-    "risk_per_share": 10.64,
-    "technical_pivot": 197.32
+    "invalidation_floor": 189.49,
+    "risk_per_share": 10.8,
+    "technical_pivot": 200.29
   },
   "schema_version": "1.0",
   "sector": null,

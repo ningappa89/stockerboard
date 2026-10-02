@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 523.0,
-      "high": 527.0,
-      "low": 515.0,
-      "open": 519.8,
-      "time": "2025-09-19",
-      "volume": 163329
-    },
-    {
-      "close": 509.65,
-      "high": 534.9,
-      "low": 502.25,
-      "open": 527.0,
-      "time": "2025-09-22",
-      "volume": 224302
-    },
-    {
-      "close": 531.45,
-      "high": 540.0,
-      "low": 511.0,
-      "open": 512.3,
-      "time": "2025-09-23",
-      "volume": 390068
-    },
-    {
       "close": 518.35,
       "high": 534.7,
       "low": 515.35,
@@ -2017,13 +1993,37 @@
       "open": 437.5,
       "time": "2026-09-28",
       "volume": 171932
+    },
+    {
+      "close": 434.65,
+      "high": 436.95,
+      "low": 406.2,
+      "open": 419.05,
+      "time": "2026-09-29",
+      "volume": 256043
+    },
+    {
+      "close": 439.4,
+      "high": 456.35,
+      "low": 436.15,
+      "open": 440.0,
+      "time": "2026-09-30",
+      "volume": 124676
+    },
+    {
+      "close": 442.05,
+      "high": 455.45,
+      "low": 430.05,
+      "open": 448.45,
+      "time": "2026-10-01",
+      "volume": 219734
     }
   ],
   "company_name": "HLE GLASCOAT LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.35x"
+    "volume_multiplier": "0.43x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -21.75,
-    "change_pct": -4.93,
-    "close": 419.35,
-    "previous_close": 441.1,
+    "as_of": "2026-10-01",
+    "change": 2.65,
+    "change_pct": 0.6,
+    "close": 442.05,
+    "previous_close": 439.4,
     "type": "EOD_CLOSE",
-    "volume": 171932
+    "volume": 219734
   },
   "range": {
-    "distance_from_high_pct": -36.65,
-    "distance_from_low_pct": 67.74,
+    "distance_from_high_pct": -33.22,
+    "distance_from_low_pct": 76.82,
     "high_52w": 661.95,
     "history_basis": "52_WEEK",
     "low_52w": 250.0,
-    "range_position_pct": 41.11
+    "range_position_pct": 46.62
   },
   "risk_model": {
-    "invalidation_floor": 404.67,
-    "risk_per_share": 23.07,
-    "technical_pivot": 427.74
+    "invalidation_floor": 426.58,
+    "risk_per_share": 24.31,
+    "technical_pivot": 450.89
   },
   "schema_version": "1.0",
   "sector": null,

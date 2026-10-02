@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 57.79,
-      "high": 59.69,
-      "low": 57.79,
-      "open": 59.0,
-      "time": "2025-09-19",
-      "volume": 1059436
-    },
-    {
-      "close": 59.88,
-      "high": 60.44,
-      "low": 54.9,
-      "open": 54.9,
-      "time": "2025-09-22",
-      "volume": 1823405
-    },
-    {
-      "close": 56.88,
-      "high": 58.9,
-      "low": 56.88,
-      "open": 58.5,
-      "time": "2025-09-23",
-      "volume": 713918
-    },
-    {
       "close": 54.03,
       "high": 56.99,
       "low": 54.03,
@@ -2017,13 +1993,37 @@
       "open": 35.99,
       "time": "2026-09-28",
       "volume": 124018
+    },
+    {
+      "close": 36.12,
+      "high": 36.31,
+      "low": 35.59,
+      "open": 36.31,
+      "time": "2026-09-29",
+      "volume": 23115
+    },
+    {
+      "close": 36.07,
+      "high": 36.56,
+      "low": 35.71,
+      "open": 36.12,
+      "time": "2026-09-30",
+      "volume": 41456
+    },
+    {
+      "close": 36.28,
+      "high": 36.95,
+      "low": 35.14,
+      "open": 35.77,
+      "time": "2026-10-01",
+      "volume": 79144
     }
   ],
   "company_name": "DEV ACCELERATOR LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.9x"
+    "volume_multiplier": "0.68x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.16,
-    "change_pct": 0.44,
-    "close": 36.13,
-    "previous_close": 35.97,
+    "as_of": "2026-10-01",
+    "change": 0.21,
+    "change_pct": 0.58,
+    "close": 36.28,
+    "previous_close": 36.07,
     "type": "EOD_CLOSE",
-    "volume": 124018
+    "volume": 79144
   },
   "range": {
-    "distance_from_high_pct": -40.22,
-    "distance_from_low_pct": 20.63,
-    "high_52w": 60.44,
+    "distance_from_high_pct": -36.34,
+    "distance_from_low_pct": 21.14,
+    "high_52w": 56.99,
     "history_basis": "52_WEEK",
     "low_52w": 29.95,
-    "range_position_pct": 20.27
+    "range_position_pct": 23.41
   },
   "risk_model": {
-    "invalidation_floor": 34.87,
-    "risk_per_share": 1.98,
-    "technical_pivot": 36.85
+    "invalidation_floor": 35.01,
+    "risk_per_share": 2.0,
+    "technical_pivot": 37.01
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 216.26,
-      "high": 216.95,
-      "low": 213.6,
-      "open": 214.02,
-      "time": "2025-09-19",
-      "volume": 220378
-    },
-    {
-      "close": 214.75,
-      "high": 218.6,
-      "low": 214.36,
-      "open": 216.26,
-      "time": "2025-09-22",
-      "volume": 239129
-    },
-    {
-      "close": 211.15,
-      "high": 215.28,
-      "low": 210.6,
-      "open": 215.0,
-      "time": "2025-09-23",
-      "volume": 268332
-    },
-    {
       "close": 211.89,
       "high": 212.4,
       "low": 209.58,
@@ -2017,13 +1993,37 @@
       "open": 164.16,
       "time": "2026-09-28",
       "volume": 52440
+    },
+    {
+      "close": 161.59,
+      "high": 162.47,
+      "low": 160.11,
+      "open": 162.3,
+      "time": "2026-09-29",
+      "volume": 73371
+    },
+    {
+      "close": 161.16,
+      "high": 165.65,
+      "low": 161.0,
+      "open": 161.0,
+      "time": "2026-09-30",
+      "volume": 90994
+    },
+    {
+      "close": 159.3,
+      "high": 161.26,
+      "low": 158.1,
+      "open": 161.16,
+      "time": "2026-10-01",
+      "volume": 116563
     }
   ],
   "company_name": "BALMER LAWRIE AND COMPANY LIMI",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 51,
+    "momentum_score": 52,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.37x"
+    "volume_multiplier": "0.89x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.68,
-    "change_pct": -1.02,
-    "close": 162.48,
-    "previous_close": 164.16,
+    "as_of": "2026-10-01",
+    "change": -1.86,
+    "change_pct": -1.15,
+    "close": 159.3,
+    "previous_close": 161.16,
     "type": "EOD_CLOSE",
-    "volume": 52440
+    "volume": 116563
   },
   "range": {
-    "distance_from_high_pct": -25.67,
-    "distance_from_low_pct": 9.52,
-    "high_52w": 218.6,
+    "distance_from_high_pct": -25.13,
+    "distance_from_low_pct": 7.37,
+    "high_52w": 212.76,
     "history_basis": "52_WEEK",
     "low_52w": 148.36,
-    "range_position_pct": 20.1
+    "range_position_pct": 16.99
   },
   "risk_model": {
-    "invalidation_floor": 156.79,
-    "risk_per_share": 8.94,
-    "technical_pivot": 165.73
+    "invalidation_floor": 153.72,
+    "risk_per_share": 8.77,
+    "technical_pivot": 162.49
   },
   "schema_version": "1.0",
   "sector": null,

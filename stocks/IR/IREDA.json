@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 160.87,
-      "high": 161.2,
-      "low": 154.11,
-      "open": 155.51,
-      "time": "2025-09-19",
-      "volume": 26176765
-    },
-    {
-      "close": 159.06,
-      "high": 163.35,
-      "low": 158.3,
-      "open": 160.85,
-      "time": "2025-09-22",
-      "volume": 14677794
-    },
-    {
-      "close": 155.64,
-      "high": 159.81,
-      "low": 155.0,
-      "open": 159.3,
-      "time": "2025-09-23",
-      "volume": 8095947
-    },
-    {
       "close": 152.68,
       "high": 156.3,
       "low": 152.2,
@@ -2017,13 +1993,37 @@
       "open": 113.26,
       "time": "2026-09-28",
       "volume": 17078712
+    },
+    {
+      "close": 111.0,
+      "high": 116.54,
+      "low": 111.0,
+      "open": 114.82,
+      "time": "2026-09-29",
+      "volume": 8686276
+    },
+    {
+      "close": 111.68,
+      "high": 113.84,
+      "low": 111.37,
+      "open": 111.7,
+      "time": "2026-09-30",
+      "volume": 3872732
+    },
+    {
+      "close": 111.0,
+      "high": 111.86,
+      "low": 108.53,
+      "open": 111.5,
+      "time": "2026-10-01",
+      "volume": 5290233
     }
   ],
   "company_name": "Indian Renewable Energy Develo",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 45,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "3.79x"
+    "momentum_score": 44,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.1x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 1.6,
-    "change_pct": 1.41,
-    "close": 114.82,
-    "previous_close": 113.22,
+    "as_of": "2026-10-01",
+    "change": -0.68,
+    "change_pct": -0.61,
+    "close": 111.0,
+    "previous_close": 111.68,
     "type": "EOD_CLOSE",
-    "volume": 17078712
+    "volume": 5290233
   },
   "range": {
-    "distance_from_high_pct": -29.71,
-    "distance_from_low_pct": 6.91,
-    "high_52w": 163.35,
+    "distance_from_high_pct": -30.06,
+    "distance_from_low_pct": 3.35,
+    "high_52w": 158.7,
     "history_basis": "52_WEEK",
     "low_52w": 107.4,
-    "range_position_pct": 13.26
+    "range_position_pct": 7.02
   },
   "risk_model": {
-    "invalidation_floor": 110.8,
-    "risk_per_share": 6.32,
-    "technical_pivot": 117.12
+    "invalidation_floor": 107.11,
+    "risk_per_share": 6.11,
+    "technical_pivot": 113.22
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 718.7,
-      "high": 724.0,
-      "low": 711.25,
-      "open": 719.65,
-      "time": "2025-09-19",
-      "volume": 3207374
-    },
-    {
-      "close": 706.05,
-      "high": 719.9,
-      "low": 703.85,
-      "open": 719.9,
-      "time": "2025-09-22",
-      "volume": 1519343
-    },
-    {
-      "close": 731.65,
-      "high": 734.05,
-      "low": 708.9,
-      "open": 710.0,
-      "time": "2025-09-23",
-      "volume": 5080969
-    },
-    {
       "close": 736.15,
       "high": 743.4,
       "low": 727.4,
@@ -2017,13 +1993,37 @@
       "open": 1015.2,
       "time": "2026-09-28",
       "volume": 1347711
+    },
+    {
+      "close": 1005.2,
+      "high": 1005.2,
+      "low": 984.5,
+      "open": 990.0,
+      "time": "2026-09-29",
+      "volume": 1870471
+    },
+    {
+      "close": 1010.3,
+      "high": 1015.1,
+      "low": 995.2,
+      "open": 1001.9,
+      "time": "2026-09-30",
+      "volume": 1358165
+    },
+    {
+      "close": 987.0,
+      "high": 1009.0,
+      "low": 974.2,
+      "open": 1009.0,
+      "time": "2026-10-01",
+      "volume": 2487890
     }
   ],
   "company_name": "AU Small Finance Bank Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
+    "is_stage2": false,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.11x"
+    "volume_multiplier": "1.87x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -22.7,
-    "change_pct": -2.23,
-    "close": 995.3,
-    "previous_close": 1018.0,
+    "as_of": "2026-10-01",
+    "change": -23.3,
+    "change_pct": -2.31,
+    "close": 987.0,
+    "previous_close": 1010.3,
     "type": "EOD_CLOSE",
-    "volume": 1347711
+    "volume": 2487890
   },
   "range": {
-    "distance_from_high_pct": -13.01,
-    "distance_from_low_pct": 41.41,
+    "distance_from_high_pct": -13.73,
+    "distance_from_low_pct": 37.26,
     "high_52w": 1144.1,
     "history_basis": "52_WEEK",
-    "low_52w": 703.85,
-    "range_position_pct": 66.2
+    "low_52w": 719.05,
+    "range_position_pct": 63.04
   },
   "risk_model": {
-    "invalidation_floor": 960.46,
-    "risk_per_share": 54.75,
-    "technical_pivot": 1015.21
+    "invalidation_floor": 952.45,
+    "risk_per_share": 54.29,
+    "technical_pivot": 1006.74
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

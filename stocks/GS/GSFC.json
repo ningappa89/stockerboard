@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 211.04,
-      "high": 211.75,
-      "low": 207.99,
-      "open": 210.4,
-      "time": "2025-09-19",
-      "volume": 1030083
-    },
-    {
-      "close": 205.6,
-      "high": 211.0,
-      "low": 205.2,
-      "open": 211.0,
-      "time": "2025-09-22",
-      "volume": 812472
-    },
-    {
-      "close": 203.04,
-      "high": 206.58,
-      "low": 202.1,
-      "open": 205.5,
-      "time": "2025-09-23",
-      "volume": 826771
-    },
-    {
       "close": 202.14,
       "high": 204.2,
       "low": 201.25,
@@ -2017,13 +1993,37 @@
       "open": 156.85,
       "time": "2026-09-28",
       "volume": 683059
+    },
+    {
+      "close": 151.65,
+      "high": 153.12,
+      "low": 151.0,
+      "open": 153.04,
+      "time": "2026-09-29",
+      "volume": 493454
+    },
+    {
+      "close": 150.79,
+      "high": 154.0,
+      "low": 150.25,
+      "open": 152.41,
+      "time": "2026-09-30",
+      "volume": 768508
+    },
+    {
+      "close": 146.9,
+      "high": 150.25,
+      "low": 145.2,
+      "open": 150.25,
+      "time": "2026-10-01",
+      "volume": 1070806
     }
   ],
   "company_name": "GUJ STATE FERT & CHEM LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 47,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.65x"
+    "volume_multiplier": "1.02x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.76,
-    "change_pct": -2.4,
-    "close": 153.04,
-    "previous_close": 156.8,
+    "as_of": "2026-10-01",
+    "change": -3.89,
+    "change_pct": -2.58,
+    "close": 146.9,
+    "previous_close": 150.79,
     "type": "EOD_CLOSE",
-    "volume": 683059
+    "volume": 1070806
   },
   "range": {
-    "distance_from_high_pct": -27.73,
-    "distance_from_low_pct": 10.24,
-    "high_52w": 211.75,
+    "distance_from_high_pct": -28.06,
+    "distance_from_low_pct": 5.81,
+    "high_52w": 204.2,
     "history_basis": "52_WEEK",
     "low_52w": 138.83,
-    "range_position_pct": 19.49
+    "range_position_pct": 12.35
   },
   "risk_model": {
-    "invalidation_floor": 147.68,
-    "risk_per_share": 8.42,
-    "technical_pivot": 156.1
+    "invalidation_floor": 141.76,
+    "risk_per_share": 8.08,
+    "technical_pivot": 149.84
   },
   "schema_version": "1.0",
   "sector": null,

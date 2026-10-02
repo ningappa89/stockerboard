@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 346.25,
-      "high": 351.65,
-      "low": 343.85,
-      "open": 350.5,
-      "time": "2025-09-19",
-      "volume": 49063
-    },
-    {
-      "close": 348.75,
-      "high": 362.75,
-      "low": 344.3,
-      "open": 347.65,
-      "time": "2025-09-22",
-      "volume": 92648
-    },
-    {
-      "close": 347.55,
-      "high": 356.0,
-      "low": 346.5,
-      "open": 349.7,
-      "time": "2025-09-23",
-      "volume": 46778
-    },
-    {
       "close": 334.55,
       "high": 351.3,
       "low": 330.6,
@@ -2017,13 +1993,37 @@
       "open": 472.5,
       "time": "2026-09-28",
       "volume": 49986
+    },
+    {
+      "close": 466.15,
+      "high": 473.6,
+      "low": 453.5,
+      "open": 461.0,
+      "time": "2026-09-29",
+      "volume": 52250
+    },
+    {
+      "close": 461.6,
+      "high": 470.75,
+      "low": 458.5,
+      "open": 465.0,
+      "time": "2026-09-30",
+      "volume": 36265
+    },
+    {
+      "close": 453.55,
+      "high": 461.8,
+      "low": 441.8,
+      "open": 461.75,
+      "time": "2026-10-01",
+      "volume": 58422
     }
   ],
   "company_name": "RAJRATAN GLOBAL WIRE LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.37x"
+    "volume_multiplier": "0.44x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -11.55,
-    "change_pct": -2.44,
-    "close": 460.95,
-    "previous_close": 472.5,
+    "as_of": "2026-10-01",
+    "change": -8.05,
+    "change_pct": -1.74,
+    "close": 453.55,
+    "previous_close": 461.6,
     "type": "EOD_CLOSE",
-    "volume": 49986
+    "volume": 58422
   },
   "range": {
-    "distance_from_high_pct": -18.26,
-    "distance_from_low_pct": 50.86,
+    "distance_from_high_pct": -19.58,
+    "distance_from_low_pct": 48.44,
     "high_52w": 563.95,
     "history_basis": "52_WEEK",
     "low_52w": 305.55,
-    "range_position_pct": 60.14
+    "range_position_pct": 57.28
   },
   "risk_model": {
-    "invalidation_floor": 444.82,
-    "risk_per_share": 25.35,
-    "technical_pivot": 470.17
+    "invalidation_floor": 437.68,
+    "risk_per_share": 24.94,
+    "technical_pivot": 462.62
   },
   "schema_version": "1.0",
   "sector": null,

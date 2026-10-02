@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 4871.8,
-      "high": 4966.0,
-      "low": 4850.1,
-      "open": 4928.4,
-      "time": "2025-09-19",
-      "volume": 8352
-    },
-    {
-      "close": 4842.5,
-      "high": 4958.8,
-      "low": 4812.2,
-      "open": 4900.4,
-      "time": "2025-09-22",
-      "volume": 9165
-    },
-    {
-      "close": 5128.6,
-      "high": 5247.0,
-      "low": 4812.5,
-      "open": 4846.0,
-      "time": "2025-09-23",
-      "volume": 97178
-    },
-    {
       "close": 4994.4,
       "high": 5198.0,
       "low": 4975.6,
@@ -2017,13 +1993,37 @@
       "open": 3753.0,
       "time": "2026-09-28",
       "volume": 4393
+    },
+    {
+      "close": 3673.3,
+      "high": 3749.9,
+      "low": 3586.2,
+      "open": 3667.6,
+      "time": "2026-09-29",
+      "volume": 8027
+    },
+    {
+      "close": 3651.5,
+      "high": 3743.8,
+      "low": 3626.0,
+      "open": 3700.0,
+      "time": "2026-09-30",
+      "volume": 5117
+    },
+    {
+      "close": 3538.6,
+      "high": 3681.0,
+      "low": 3500.0,
+      "open": 3680.0,
+      "time": "2026-10-01",
+      "volume": 11663
     }
   ],
   "company_name": "ORISSA MINERALS DEVELOPMENT CO",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.56x"
+    "volume_multiplier": "1.48x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -67.1,
-    "change_pct": -1.8,
-    "close": 3667.6,
-    "previous_close": 3734.7,
+    "as_of": "2026-10-01",
+    "change": -112.9,
+    "change_pct": -3.09,
+    "close": 3538.6,
+    "previous_close": 3651.5,
     "type": "EOD_CLOSE",
-    "volume": 4393
+    "volume": 11663
   },
   "range": {
-    "distance_from_high_pct": -40.26,
-    "distance_from_low_pct": 18.29,
+    "distance_from_high_pct": -42.36,
+    "distance_from_low_pct": 14.13,
     "high_52w": 6138.9,
     "history_basis": "52_WEEK",
     "low_52w": 3100.5,
-    "range_position_pct": 18.66
+    "range_position_pct": 14.42
   },
   "risk_model": {
-    "invalidation_floor": 3539.23,
-    "risk_per_share": 201.72,
-    "technical_pivot": 3740.95
+    "invalidation_floor": 3414.75,
+    "risk_per_share": 194.62,
+    "technical_pivot": 3609.37
   },
   "schema_version": "1.0",
   "sector": null,

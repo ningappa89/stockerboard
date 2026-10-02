@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1126.8,
-      "high": 1132.6,
-      "low": 1114.4,
-      "open": 1128.5,
-      "time": "2025-09-19",
-      "volume": 1438338
-    },
-    {
-      "close": 1130.1,
-      "high": 1136.8,
-      "low": 1119.9,
-      "open": 1120.0,
-      "time": "2025-09-22",
-      "volume": 701996
-    },
-    {
-      "close": 1128.5,
-      "high": 1134.6,
-      "low": 1118.4,
-      "open": 1131.0,
-      "time": "2025-09-23",
-      "volume": 1082761
-    },
-    {
       "close": 1140.1,
       "high": 1147.1,
       "low": 1118.4,
@@ -2017,13 +1993,37 @@
       "open": 983.2,
       "time": "2026-09-28",
       "volume": 1307916
+    },
+    {
+      "close": 967.7,
+      "high": 969.0,
+      "low": 953.9,
+      "open": 961.7,
+      "time": "2026-09-29",
+      "volume": 2410899
+    },
+    {
+      "close": 949.5,
+      "high": 968.1,
+      "low": 949.5,
+      "open": 966.0,
+      "time": "2026-09-30",
+      "volume": 1708408
+    },
+    {
+      "close": 957.0,
+      "high": 964.8,
+      "low": 945.0,
+      "open": 952.0,
+      "time": "2026-10-01",
+      "volume": 1829307
     }
   ],
   "company_name": "TATA CONSUMER PRODUCT LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Fast Moving Consumer Goods",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 52,
+    "momentum_score": 51,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.12x"
+    "volume_multiplier": "1.44x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -23.2,
-    "change_pct": -2.36,
-    "close": 960.0,
-    "previous_close": 983.2,
+    "as_of": "2026-10-01",
+    "change": 7.5,
+    "change_pct": 0.79,
+    "close": 957.0,
+    "previous_close": 949.5,
     "type": "EOD_CLOSE",
-    "volume": 1307916
+    "volume": 1829307
   },
   "range": {
-    "distance_from_high_pct": -25.16,
-    "distance_from_low_pct": 0.47,
+    "distance_from_high_pct": -25.39,
+    "distance_from_low_pct": 1.27,
     "high_52w": 1282.7,
     "history_basis": "52_WEEK",
-    "low_52w": 955.5,
-    "range_position_pct": 1.38
+    "low_52w": 945.0,
+    "range_position_pct": 3.55
   },
   "risk_model": {
-    "invalidation_floor": 926.4,
-    "risk_per_share": 52.8,
-    "technical_pivot": 979.2
+    "invalidation_floor": 923.5,
+    "risk_per_share": 52.64,
+    "technical_pivot": 976.14
   },
   "schema_version": "1.0",
   "sector": "Fast Moving Consumer Goods",

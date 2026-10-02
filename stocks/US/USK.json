@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 31.51,
-      "high": 32.0,
-      "low": 31.21,
-      "open": 31.81,
-      "time": "2025-09-19",
-      "volume": 57840
-    },
-    {
-      "close": 34.36,
-      "high": 35.0,
-      "low": 31.51,
-      "open": 31.51,
-      "time": "2025-09-22",
-      "volume": 537009
-    },
-    {
-      "close": 33.25,
-      "high": 35.17,
-      "low": 33.1,
-      "open": 35.17,
-      "time": "2025-09-23",
-      "volume": 77864
-    },
-    {
       "close": 32.03,
       "high": 33.25,
       "low": 31.52,
@@ -2017,13 +1993,37 @@
       "open": 19.85,
       "time": "2026-09-28",
       "volume": 40086
+    },
+    {
+      "close": 19.57,
+      "high": 20.21,
+      "low": 19.06,
+      "open": 19.7,
+      "time": "2026-09-29",
+      "volume": 21138
+    },
+    {
+      "close": 19.14,
+      "high": 20.3,
+      "low": 18.3,
+      "open": 20.3,
+      "time": "2026-09-30",
+      "volume": 35344
+    },
+    {
+      "close": 18.39,
+      "high": 19.5,
+      "low": 17.77,
+      "open": 19.3,
+      "time": "2026-10-01",
+      "volume": 51053
     }
   ],
   "company_name": "UDAYSHIVAKUMAR INFRA LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.97x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.11x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.55,
-    "change_pct": -2.77,
-    "close": 19.31,
-    "previous_close": 19.86,
+    "as_of": "2026-10-01",
+    "change": -0.75,
+    "change_pct": -3.92,
+    "close": 18.39,
+    "previous_close": 19.14,
     "type": "EOD_CLOSE",
-    "volume": 40086
+    "volume": 51053
   },
   "range": {
-    "distance_from_high_pct": -45.1,
-    "distance_from_low_pct": 2.17,
-    "high_52w": 35.17,
+    "distance_from_high_pct": -44.69,
+    "distance_from_low_pct": 3.49,
+    "high_52w": 33.25,
     "history_basis": "52_WEEK",
-    "low_52w": 18.9,
-    "range_position_pct": 2.52
+    "low_52w": 17.77,
+    "range_position_pct": 4.01
   },
   "risk_model": {
-    "invalidation_floor": 18.63,
-    "risk_per_share": 1.07,
-    "technical_pivot": 19.7
+    "invalidation_floor": 17.75,
+    "risk_per_share": 1.01,
+    "technical_pivot": 18.76
   },
   "schema_version": "1.0",
   "sector": null,

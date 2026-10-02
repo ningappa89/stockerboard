@@ -241,14 +241,38 @@
       "open": 139.7,
       "time": "2026-09-28",
       "volume": 429
+    },
+    {
+      "close": 136.46,
+      "high": 138.8,
+      "low": 130.0,
+      "open": 132.52,
+      "time": "2026-09-29",
+      "volume": 519
+    },
+    {
+      "close": 134.54,
+      "high": 138.0,
+      "low": 132.5,
+      "open": 135.7,
+      "time": "2026-09-30",
+      "volume": 769
+    },
+    {
+      "close": 129.51,
+      "high": 137.8,
+      "low": 126.62,
+      "open": 130.0,
+      "time": "2026-10-01",
+      "volume": 738
     }
   ],
   "company_name": "NTC INDUSTRIES LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE920C01017",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 68,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.17x"
+    "volume_multiplier": "0.38x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -7.28,
-    "change_pct": -5.21,
-    "close": 132.52,
-    "previous_close": 139.8,
+    "as_of": "2026-10-01",
+    "change": -5.03,
+    "change_pct": -3.74,
+    "close": 129.51,
+    "previous_close": 134.54,
     "type": "EOD_CLOSE",
-    "volume": 429
+    "volume": 738
   },
   "range": {
-    "distance_from_high_pct": -14.5,
-    "distance_from_low_pct": 4.92,
+    "distance_from_high_pct": -16.45,
+    "distance_from_low_pct": 2.54,
     "high_52w": 155.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 126.3,
-    "range_position_pct": 21.67
+    "range_position_pct": 11.18
   },
   "risk_model": {
-    "invalidation_floor": 127.88,
-    "risk_per_share": 7.29,
-    "technical_pivot": 135.17
+    "invalidation_floor": 124.98,
+    "risk_per_share": 7.12,
+    "technical_pivot": 132.1
   },
   "schema_version": "1.0",
   "sector": null,

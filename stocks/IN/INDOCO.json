@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 301.95,
-      "high": 312.6,
-      "low": 298.35,
-      "open": 301.75,
-      "time": "2025-09-19",
-      "volume": 337917
-    },
-    {
-      "close": 298.7,
-      "high": 306.0,
-      "low": 298.2,
-      "open": 301.95,
-      "time": "2025-09-22",
-      "volume": 62693
-    },
-    {
-      "close": 301.9,
-      "high": 305.9,
-      "low": 298.25,
-      "open": 299.9,
-      "time": "2025-09-23",
-      "volume": 70020
-    },
-    {
       "close": 302.45,
       "high": 309.0,
       "low": 301.0,
@@ -2017,13 +1993,37 @@
       "open": 252.55,
       "time": "2026-09-28",
       "volume": 113273
+    },
+    {
+      "close": 269.15,
+      "high": 284.77,
+      "low": 249.2,
+      "open": 249.8,
+      "time": "2026-09-29",
+      "volume": 19854651
+    },
+    {
+      "close": 261.67,
+      "high": 274.87,
+      "low": 255.35,
+      "open": 270.52,
+      "time": "2026-09-30",
+      "volume": 1088133
+    },
+    {
+      "close": 251.75,
+      "high": 257.7,
+      "low": 245.3,
+      "open": 256.0,
+      "time": "2026-10-01",
+      "volume": 291376
     }
   ],
   "company_name": "INDOCO REMEDIES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 57,
+    "momentum_score": 58,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.06x"
+    "volume_multiplier": "0.16x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.4,
-    "change_pct": -2.12,
-    "close": 249.06,
-    "previous_close": 254.46,
+    "as_of": "2026-10-01",
+    "change": -9.92,
+    "change_pct": -3.79,
+    "close": 251.75,
+    "previous_close": 261.67,
     "type": "EOD_CLOSE",
-    "volume": 113273
+    "volume": 291376
   },
   "range": {
-    "distance_from_high_pct": -21.52,
-    "distance_from_low_pct": 53.56,
+    "distance_from_high_pct": -20.67,
+    "distance_from_low_pct": 55.22,
     "high_52w": 317.35,
     "history_basis": "52_WEEK",
     "low_52w": 162.19,
-    "range_position_pct": 55.99
+    "range_position_pct": 57.72
   },
   "risk_model": {
-    "invalidation_floor": 240.34,
-    "risk_per_share": 13.7,
-    "technical_pivot": 254.04
+    "invalidation_floor": 242.94,
+    "risk_per_share": 13.85,
+    "technical_pivot": 256.79
   },
   "schema_version": "1.0",
   "sector": null,

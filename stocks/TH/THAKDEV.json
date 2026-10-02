@@ -753,46 +753,70 @@
       "open": 134.99,
       "time": "2026-09-28",
       "volume": 1757
+    },
+    {
+      "close": 135.0,
+      "high": 137.0,
+      "low": 135.0,
+      "open": 135.0,
+      "time": "2026-09-29",
+      "volume": 21
+    },
+    {
+      "close": 135.0,
+      "high": 135.0,
+      "low": 135.0,
+      "open": 135.0,
+      "time": "2026-09-30",
+      "volume": 223
+    },
+    {
+      "close": 128.74,
+      "high": 140.0,
+      "low": 128.56,
+      "open": 140.0,
+      "time": "2026-10-01",
+      "volume": 154
     }
   ],
   "company_name": "THAKKERS DEVELOPERS LTD.",
   "history": {
     "first_session": "2026-04-21",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 94
+    "last_session": "2026-10-01",
+    "sessions_available": 97
   },
   "industry": null,
   "isin": "INE403F01017",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "4.56x"
+    "is_stage2": false,
+    "momentum_score": 58,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.39x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 6.38,
-    "change_pct": 4.73,
-    "close": 141.37,
-    "previous_close": 134.99,
+    "as_of": "2026-10-01",
+    "change": -6.26,
+    "change_pct": -4.64,
+    "close": 128.74,
+    "previous_close": 135.0,
     "type": "EOD_CLOSE",
-    "volume": 1757
+    "volume": 154
   },
   "range": {
-    "distance_from_high_pct": -13.28,
-    "distance_from_low_pct": 22.82,
+    "distance_from_high_pct": -21.02,
+    "distance_from_low_pct": 11.85,
     "high_52w": 163.01,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 115.1,
-    "range_position_pct": 54.83
+    "range_position_pct": 28.47
   },
   "risk_model": {
-    "invalidation_floor": 136.42,
-    "risk_per_share": 7.78,
-    "technical_pivot": 144.2
+    "invalidation_floor": 124.23,
+    "risk_per_share": 7.08,
+    "technical_pivot": 131.31
   },
   "schema_version": "1.0",
   "sector": null,

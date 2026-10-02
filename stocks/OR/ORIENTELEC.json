@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 203.66,
-      "high": 206.98,
-      "low": 202.23,
-      "open": 205.75,
-      "time": "2025-09-19",
-      "volume": 416794
-    },
-    {
-      "close": 206.67,
-      "high": 207.53,
-      "low": 203.05,
-      "open": 203.05,
-      "time": "2025-09-22",
-      "volume": 133637
-    },
-    {
-      "close": 204.81,
-      "high": 207.5,
-      "low": 203.7,
-      "open": 207.4,
-      "time": "2025-09-23",
-      "volume": 89709
-    },
-    {
       "close": 203.34,
       "high": 205.55,
       "low": 203.06,
@@ -2017,13 +1993,37 @@
       "open": 161.1,
       "time": "2026-09-28",
       "volume": 166211
+    },
+    {
+      "close": 156.62,
+      "high": 165.0,
+      "low": 155.0,
+      "open": 160.78,
+      "time": "2026-09-29",
+      "volume": 300753
+    },
+    {
+      "close": 158.11,
+      "high": 159.46,
+      "low": 156.6,
+      "open": 156.9,
+      "time": "2026-09-30",
+      "volume": 128698
+    },
+    {
+      "close": 154.46,
+      "high": 159.0,
+      "low": 152.07,
+      "open": 156.51,
+      "time": "2026-10-01",
+      "volume": 187771
     }
   ],
   "company_name": "Orient Electric Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 50,
+    "momentum_score": 46,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.33x"
+    "volume_multiplier": "1.39x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.26,
-    "change_pct": -1.39,
-    "close": 160.0,
-    "previous_close": 162.26,
+    "as_of": "2026-10-01",
+    "change": -3.65,
+    "change_pct": -2.31,
+    "close": 154.46,
+    "previous_close": 158.11,
     "type": "EOD_CLOSE",
-    "volume": 166211
+    "volume": 187771
   },
   "range": {
-    "distance_from_high_pct": -26.44,
-    "distance_from_low_pct": 7.35,
+    "distance_from_high_pct": -28.99,
+    "distance_from_low_pct": 3.63,
     "high_52w": 217.51,
     "history_basis": "52_WEEK",
     "low_52w": 149.05,
-    "range_position_pct": 15.99
+    "range_position_pct": 7.9
   },
   "risk_model": {
-    "invalidation_floor": 154.4,
-    "risk_per_share": 8.8,
-    "technical_pivot": 163.2
+    "invalidation_floor": 149.05,
+    "risk_per_share": 8.5,
+    "technical_pivot": 157.55
   },
   "schema_version": "1.0",
   "sector": null,

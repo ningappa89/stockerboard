@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 31.05,
-      "high": 31.39,
-      "low": 30.25,
-      "open": 30.35,
-      "time": "2025-09-19",
-      "volume": 20452385
-    },
-    {
-      "close": 30.7,
-      "high": 31.37,
-      "low": 30.61,
-      "open": 31.09,
-      "time": "2025-09-22",
-      "volume": 10347070
-    },
-    {
-      "close": 30.69,
-      "high": 30.94,
-      "low": 30.25,
-      "open": 30.94,
-      "time": "2025-09-23",
-      "volume": 8419311
-    },
-    {
       "close": 30.5,
       "high": 31.52,
       "low": 30.3,
@@ -2017,13 +1993,37 @@
       "open": 23.87,
       "time": "2026-09-28",
       "volume": 3548489
+    },
+    {
+      "close": 23.05,
+      "high": 23.45,
+      "low": 22.97,
+      "open": 23.4,
+      "time": "2026-09-29",
+      "volume": 4035725
+    },
+    {
+      "close": 23.28,
+      "high": 23.5,
+      "low": 23.05,
+      "open": 23.05,
+      "time": "2026-09-30",
+      "volume": 2802505
+    },
+    {
+      "close": 22.93,
+      "high": 23.35,
+      "low": 22.81,
+      "open": 23.22,
+      "time": "2026-10-01",
+      "volume": 3788182
     }
   ],
   "company_name": "UCO BANK",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.9x"
+    "volume_multiplier": "1.0x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.57,
-    "change_pct": -2.38,
-    "close": 23.33,
-    "previous_close": 23.9,
+    "as_of": "2026-10-01",
+    "change": -0.35,
+    "change_pct": -1.5,
+    "close": 22.93,
+    "previous_close": 23.28,
     "type": "EOD_CLOSE",
-    "volume": 3548489
+    "volume": 3788182
   },
   "range": {
-    "distance_from_high_pct": -31.78,
-    "distance_from_low_pct": 5.0,
+    "distance_from_high_pct": -32.95,
+    "distance_from_low_pct": 3.2,
     "high_52w": 34.2,
     "history_basis": "52_WEEK",
     "low_52w": 22.22,
-    "range_position_pct": 9.27
+    "range_position_pct": 5.93
   },
   "risk_model": {
-    "invalidation_floor": 22.51,
-    "risk_per_share": 1.29,
-    "technical_pivot": 23.8
+    "invalidation_floor": 22.13,
+    "risk_per_share": 1.26,
+    "technical_pivot": 23.39
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 736.6,
-      "high": 739.0,
-      "low": 733.2,
-      "open": 735.4,
-      "time": "2025-09-19",
-      "volume": 1021813
-    },
-    {
-      "close": 727.1,
-      "high": 736.95,
-      "low": 724.9,
-      "open": 735.4,
-      "time": "2025-09-22",
-      "volume": 721501
-    },
-    {
-      "close": 722.6,
-      "high": 730.0,
-      "low": 721.0,
-      "open": 727.15,
-      "time": "2025-09-23",
-      "volume": 571765
-    },
-    {
       "close": 715.45,
       "high": 724.85,
       "low": 714.0,
@@ -2017,13 +1993,37 @@
       "open": 458.7,
       "time": "2026-09-28",
       "volume": 368467
+    },
+    {
+      "close": 452.55,
+      "high": 456.0,
+      "low": 448.55,
+      "open": 454.0,
+      "time": "2026-09-29",
+      "volume": 645641
+    },
+    {
+      "close": 455.4,
+      "high": 467.35,
+      "low": 452.55,
+      "open": 452.55,
+      "time": "2026-09-30",
+      "volume": 829734
+    },
+    {
+      "close": 454.1,
+      "high": 466.25,
+      "low": 446.8,
+      "open": 454.8,
+      "time": "2026-10-01",
+      "volume": 1528758
     }
   ],
   "company_name": "Indian Railway Catering and To",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.56x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.19x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.2,
-    "change_pct": -1.13,
-    "close": 453.5,
-    "previous_close": 458.7,
+    "as_of": "2026-10-01",
+    "change": -1.3,
+    "change_pct": -0.29,
+    "close": 454.1,
+    "previous_close": 455.4,
     "type": "EOD_CLOSE",
-    "volume": 368467
+    "volume": 1528758
   },
   "range": {
-    "distance_from_high_pct": -38.63,
-    "distance_from_low_pct": 1.57,
-    "high_52w": 739.0,
+    "distance_from_high_pct": -38.28,
+    "distance_from_low_pct": 1.7,
+    "high_52w": 735.75,
     "history_basis": "52_WEEK",
     "low_52w": 446.5,
-    "range_position_pct": 2.39
+    "range_position_pct": 2.63
   },
   "risk_model": {
-    "invalidation_floor": 437.63,
-    "risk_per_share": 24.94,
-    "technical_pivot": 462.57
+    "invalidation_floor": 438.21,
+    "risk_per_share": 24.97,
+    "technical_pivot": 463.18
   },
   "schema_version": "1.0",
   "sector": null,

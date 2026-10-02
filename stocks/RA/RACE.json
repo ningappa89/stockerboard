@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 233.07,
-      "high": 241.99,
-      "low": 228.91,
-      "open": 232.01,
-      "time": "2025-09-19",
-      "volume": 4923
-    },
-    {
-      "close": 236.2,
-      "high": 240.7,
-      "low": 230.0,
-      "open": 231.0,
-      "time": "2025-09-22",
-      "volume": 131838
-    },
-    {
-      "close": 233.96,
-      "high": 246.0,
-      "low": 232.35,
-      "open": 246.0,
-      "time": "2025-09-23",
-      "volume": 26657
-    },
-    {
       "close": 228.35,
       "high": 238.17,
       "low": 226.05,
@@ -2017,13 +1993,37 @@
       "open": 118.01,
       "time": "2026-09-28",
       "volume": 104606
+    },
+    {
+      "close": 119.85,
+      "high": 123.13,
+      "low": 117.9,
+      "open": 121.7,
+      "time": "2026-09-29",
+      "volume": 49879
+    },
+    {
+      "close": 118.02,
+      "high": 124.0,
+      "low": 118.0,
+      "open": 124.0,
+      "time": "2026-09-30",
+      "volume": 26073
+    },
+    {
+      "close": 113.18,
+      "high": 120.5,
+      "low": 110.34,
+      "open": 120.0,
+      "time": "2026-10-01",
+      "volume": 97878
     }
   ],
   "company_name": "RACE ECO CHAIN LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.99x"
+    "volume_multiplier": "0.87x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 3.8,
-    "change_pct": 3.22,
-    "close": 121.7,
-    "previous_close": 117.9,
+    "as_of": "2026-10-01",
+    "change": -4.84,
+    "change_pct": -4.1,
+    "close": 113.18,
+    "previous_close": 118.02,
     "type": "EOD_CLOSE",
-    "volume": 104606
+    "volume": 97878
   },
   "range": {
-    "distance_from_high_pct": -50.53,
-    "distance_from_low_pct": 44.69,
-    "high_52w": 246.0,
+    "distance_from_high_pct": -52.84,
+    "distance_from_low_pct": 34.56,
+    "high_52w": 240.0,
     "history_basis": "52_WEEK",
     "low_52w": 84.11,
-    "range_position_pct": 23.22
+    "range_position_pct": 18.65
   },
   "risk_model": {
-    "invalidation_floor": 117.44,
-    "risk_per_share": 6.69,
-    "technical_pivot": 124.13
+    "invalidation_floor": 109.22,
+    "risk_per_share": 6.22,
+    "technical_pivot": 115.44
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 873.75,
-      "high": 879.0,
-      "low": 866.3,
-      "open": 867.5,
-      "time": "2025-09-19",
-      "volume": 28961
-    },
-    {
-      "close": 890.0,
-      "high": 893.75,
-      "low": 864.6,
-      "open": 869.0,
-      "time": "2025-09-22",
-      "volume": 34651
-    },
-    {
-      "close": 875.55,
-      "high": 885.75,
-      "low": 868.05,
-      "open": 881.1,
-      "time": "2025-09-23",
-      "volume": 19445
-    },
-    {
       "close": 862.05,
       "high": 875.5,
       "low": 860.0,
@@ -2017,13 +1993,37 @@
       "open": 848.0,
       "time": "2026-09-28",
       "volume": 50604
+    },
+    {
+      "close": 833.85,
+      "high": 848.0,
+      "low": 828.0,
+      "open": 848.0,
+      "time": "2026-09-29",
+      "volume": 25190
+    },
+    {
+      "close": 850.5,
+      "high": 873.9,
+      "low": 835.0,
+      "open": 837.05,
+      "time": "2026-09-30",
+      "volume": 40383
+    },
+    {
+      "close": 829.85,
+      "high": 846.25,
+      "low": 816.05,
+      "open": 846.25,
+      "time": "2026-10-01",
+      "volume": 19862
     }
   ],
   "company_name": "RPSG VENTURES LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 47,
+    "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.67x"
+    "volume_multiplier": "0.64x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 4.75,
-    "change_pct": 0.57,
-    "close": 842.05,
-    "previous_close": 837.3,
+    "as_of": "2026-10-01",
+    "change": -20.65,
+    "change_pct": -2.43,
+    "close": 829.85,
+    "previous_close": 850.5,
     "type": "EOD_CLOSE",
-    "volume": 50604
+    "volume": 19862
   },
   "range": {
-    "distance_from_high_pct": -28.58,
-    "distance_from_low_pct": 52.57,
+    "distance_from_high_pct": -29.61,
+    "distance_from_low_pct": 50.36,
     "high_52w": 1179.0,
     "history_basis": "52_WEEK",
     "low_52w": 551.9,
-    "range_position_pct": 46.27
+    "range_position_pct": 44.32
   },
   "risk_model": {
-    "invalidation_floor": 812.58,
-    "risk_per_share": 46.31,
-    "technical_pivot": 858.89
+    "invalidation_floor": 800.81,
+    "risk_per_share": 45.64,
+    "technical_pivot": 846.45
   },
   "schema_version": "1.0",
   "sector": null,

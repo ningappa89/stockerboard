@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 358.25,
-      "high": 363.5,
-      "low": 355.0,
-      "open": 363.5,
-      "time": "2025-09-19",
-      "volume": 71105
-    },
-    {
-      "close": 360.5,
-      "high": 368.9,
-      "low": 358.25,
-      "open": 359.0,
-      "time": "2025-09-22",
-      "volume": 124961
-    },
-    {
-      "close": 354.55,
-      "high": 363.3,
-      "low": 351.8,
-      "open": 362.75,
-      "time": "2025-09-23",
-      "volume": 98499
-    },
-    {
       "close": 354.1,
       "high": 357.8,
       "low": 352.8,
@@ -2017,13 +1993,37 @@
       "open": 200.7,
       "time": "2026-09-28",
       "volume": 201611
+    },
+    {
+      "close": 194.49,
+      "high": 196.82,
+      "low": 192.85,
+      "open": 195.92,
+      "time": "2026-09-29",
+      "volume": 55373
+    },
+    {
+      "close": 194.25,
+      "high": 197.07,
+      "low": 192.85,
+      "open": 195.9,
+      "time": "2026-09-30",
+      "volume": 48568
+    },
+    {
+      "close": 194.85,
+      "high": 199.49,
+      "low": 192.0,
+      "open": 194.5,
+      "time": "2026-10-01",
+      "volume": 153366
     }
   ],
   "company_name": "MAHINDRA HOLIDAYS & RESORTS IN",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.53x"
+    "volume_multiplier": "1.21x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.08,
-    "change_pct": -2.04,
-    "close": 195.92,
-    "previous_close": 200.0,
+    "as_of": "2026-10-01",
+    "change": 0.6,
+    "change_pct": 0.31,
+    "close": 194.85,
+    "previous_close": 194.25,
     "type": "EOD_CLOSE",
-    "volume": 201611
+    "volume": 153366
   },
   "range": {
-    "distance_from_high_pct": -46.89,
-    "distance_from_low_pct": 4.1,
-    "high_52w": 368.9,
+    "distance_from_high_pct": -46.46,
+    "distance_from_low_pct": 3.53,
+    "high_52w": 363.95,
     "history_basis": "52_WEEK",
     "low_52w": 188.21,
-    "range_position_pct": 4.27
+    "range_position_pct": 3.78
   },
   "risk_model": {
-    "invalidation_floor": 189.06,
-    "risk_per_share": 10.78,
-    "technical_pivot": 199.84
+    "invalidation_floor": 188.03,
+    "risk_per_share": 10.72,
+    "technical_pivot": 198.75
   },
   "schema_version": "1.0",
   "sector": null,

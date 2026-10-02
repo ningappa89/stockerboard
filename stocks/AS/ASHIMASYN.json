@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 24.51,
-      "high": 26.0,
-      "low": 23.58,
-      "open": 23.99,
-      "time": "2025-09-19",
-      "volume": 401801
-    },
-    {
-      "close": 23.68,
-      "high": 24.7,
-      "low": 23.61,
-      "open": 24.51,
-      "time": "2025-09-22",
-      "volume": 131134
-    },
-    {
-      "close": 23.5,
-      "high": 24.38,
-      "low": 23.25,
-      "open": 23.51,
-      "time": "2025-09-23",
-      "volume": 131404
-    },
-    {
       "close": 23.47,
       "high": 24.09,
       "low": 23.35,
@@ -2017,13 +1993,37 @@
       "open": 16.3,
       "time": "2026-09-28",
       "volume": 37541
+    },
+    {
+      "close": 16.08,
+      "high": 16.2,
+      "low": 15.81,
+      "open": 15.85,
+      "time": "2026-09-29",
+      "volume": 42495
+    },
+    {
+      "close": 15.98,
+      "high": 16.2,
+      "low": 15.91,
+      "open": 16.15,
+      "time": "2026-09-30",
+      "volume": 37084
+    },
+    {
+      "close": 15.31,
+      "high": 16.0,
+      "low": 15.1,
+      "open": 15.9,
+      "time": "2026-10-01",
+      "volume": 158547
     }
   ],
   "company_name": "ASHIMA LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.45x"
+    "volume_multiplier": "1.85x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.11,
-    "change_pct": -0.69,
-    "close": 15.85,
-    "previous_close": 15.96,
+    "as_of": "2026-10-01",
+    "change": -0.67,
+    "change_pct": -4.19,
+    "close": 15.31,
+    "previous_close": 15.98,
     "type": "EOD_CLOSE",
-    "volume": 37541
+    "volume": 158547
   },
   "range": {
-    "distance_from_high_pct": -39.04,
-    "distance_from_low_pct": 37.83,
-    "high_52w": 26.0,
+    "distance_from_high_pct": -36.45,
+    "distance_from_low_pct": 33.13,
+    "high_52w": 24.09,
     "history_basis": "52_WEEK",
     "low_52w": 11.5,
-    "range_position_pct": 30.0
+    "range_position_pct": 30.26
   },
   "risk_model": {
-    "invalidation_floor": 15.3,
-    "risk_per_share": 0.87,
-    "technical_pivot": 16.17
+    "invalidation_floor": 14.77,
+    "risk_per_share": 0.85,
+    "technical_pivot": 15.62
   },
   "schema_version": "1.0",
   "sector": null,

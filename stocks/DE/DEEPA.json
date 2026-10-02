@@ -113,46 +113,70 @@
       "open": 212.9,
       "time": "2026-09-28",
       "volume": 13094617
+    },
+    {
+      "close": 188.89,
+      "high": 203.35,
+      "low": 185.25,
+      "open": 198.9,
+      "time": "2026-09-29",
+      "volume": 4117606
+    },
+    {
+      "close": 195.48,
+      "high": 199.9,
+      "low": 189.74,
+      "open": 191.8,
+      "time": "2026-09-30",
+      "volume": 2948558
+    },
+    {
+      "close": 192.17,
+      "high": 199.9,
+      "low": 187.78,
+      "open": 192.89,
+      "time": "2026-10-01",
+      "volume": 1918965
     }
   ],
   "company_name": "Deepa Jewellers Limited",
   "history": {
     "first_session": "2026-09-08",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 14
+    "last_session": "2026-10-01",
+    "sessions_available": 17
   },
   "industry": null,
   "isin": "INE1M2N01020",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 76,
+    "is_stage2": false,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.4x"
+    "volume_multiplier": "0.23x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -10.58,
-    "change_pct": -4.96,
-    "close": 202.54,
-    "previous_close": 213.12,
+    "as_of": "2026-10-01",
+    "change": -3.31,
+    "change_pct": -1.69,
+    "close": 192.17,
+    "previous_close": 195.48,
     "type": "EOD_CLOSE",
-    "volume": 13094617
+    "volume": 1918965
   },
   "range": {
-    "distance_from_high_pct": -8.77,
-    "distance_from_low_pct": 22.91,
+    "distance_from_high_pct": -13.44,
+    "distance_from_low_pct": 16.62,
     "high_52w": 222.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 164.79,
-    "range_position_pct": 65.98
+    "range_position_pct": 47.86
   },
   "risk_model": {
-    "invalidation_floor": 195.45,
-    "risk_per_share": 11.14,
-    "technical_pivot": 206.59
+    "invalidation_floor": 185.44,
+    "risk_per_share": 10.57,
+    "technical_pivot": 196.01
   },
   "schema_version": "1.0",
   "sector": null,

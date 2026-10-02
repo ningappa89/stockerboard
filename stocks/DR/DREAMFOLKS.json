@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 118.28,
-      "high": 118.28,
-      "low": 118.28,
-      "open": 118.28,
-      "time": "2025-09-19",
-      "volume": 94872
-    },
-    {
-      "close": 112.36,
-      "high": 112.36,
-      "low": 112.36,
-      "open": 112.36,
-      "time": "2025-09-22",
-      "volume": 64192
-    },
-    {
-      "close": 106.74,
-      "high": 106.74,
-      "low": 106.74,
-      "open": 106.74,
-      "time": "2025-09-23",
-      "volume": 120917
-    },
-    {
       "close": 112.07,
       "high": 112.07,
       "low": 101.4,
@@ -2017,13 +1993,37 @@
       "open": 64.57,
       "time": "2026-09-28",
       "volume": 51969
+    },
+    {
+      "close": 61.91,
+      "high": 62.59,
+      "low": 61.3,
+      "open": 62.23,
+      "time": "2026-09-29",
+      "volume": 29459
+    },
+    {
+      "close": 61.66,
+      "high": 62.89,
+      "low": 61.5,
+      "open": 62.19,
+      "time": "2026-09-30",
+      "volume": 28888
+    },
+    {
+      "close": 61.5,
+      "high": 64.42,
+      "low": 60.81,
+      "open": 61.66,
+      "time": "2026-10-01",
+      "volume": 71170
     }
   ],
   "company_name": "DREAMFOLKS SERVICES LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.06x"
+    "volume_multiplier": "1.39x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.28,
-    "change_pct": -2.02,
-    "close": 62.03,
-    "previous_close": 63.31,
+    "as_of": "2026-10-01",
+    "change": -0.16,
+    "change_pct": -0.26,
+    "close": 61.5,
+    "previous_close": 61.66,
     "type": "EOD_CLOSE",
-    "volume": 51969
+    "volume": 71170
   },
   "range": {
-    "distance_from_high_pct": -61.23,
-    "distance_from_low_pct": 10.77,
+    "distance_from_high_pct": -61.56,
+    "distance_from_low_pct": 9.82,
     "high_52w": 160.0,
     "history_basis": "52_WEEK",
     "low_52w": 56.0,
-    "range_position_pct": 5.8
+    "range_position_pct": 5.29
   },
   "risk_model": {
-    "invalidation_floor": 59.86,
-    "risk_per_share": 3.41,
-    "technical_pivot": 63.27
+    "invalidation_floor": 59.35,
+    "risk_per_share": 3.38,
+    "technical_pivot": 62.73
   },
   "schema_version": "1.0",
   "sector": null,

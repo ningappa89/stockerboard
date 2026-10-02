@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 8.5,
-      "high": 9.1,
-      "low": 8.48,
-      "open": 9.1,
-      "time": "2025-09-19",
-      "volume": 2225424
-    },
-    {
-      "close": 8.46,
-      "high": 8.62,
-      "low": 8.44,
-      "open": 8.51,
-      "time": "2025-09-22",
-      "volume": 626369
-    },
-    {
-      "close": 8.28,
-      "high": 8.47,
-      "low": 8.25,
-      "open": 8.46,
-      "time": "2025-09-23",
-      "volume": 670789
-    },
-    {
       "close": 8.29,
       "high": 8.35,
       "low": 8.25,
@@ -2017,13 +1993,37 @@
       "open": 5.55,
       "time": "2026-09-28",
       "volume": 309490
+    },
+    {
+      "close": 5.26,
+      "high": 5.43,
+      "low": 5.24,
+      "open": 5.43,
+      "time": "2026-09-29",
+      "volume": 206295
+    },
+    {
+      "close": 5.26,
+      "high": 5.37,
+      "low": 5.26,
+      "open": 5.27,
+      "time": "2026-09-30",
+      "volume": 190214
+    },
+    {
+      "close": 5.18,
+      "high": 5.29,
+      "low": 5.1,
+      "open": 5.25,
+      "time": "2026-10-01",
+      "volume": 156177
     }
   ],
   "company_name": "VISHWARAJ SUGAR IND LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.72x"
+    "volume_multiplier": "0.44x"
   },
   "price": {
-    "as_of": "2026-09-28",
+    "as_of": "2026-10-01",
     "change": -0.08,
-    "change_pct": -1.46,
-    "close": 5.4,
-    "previous_close": 5.48,
+    "change_pct": -1.52,
+    "close": 5.18,
+    "previous_close": 5.26,
     "type": "EOD_CLOSE",
-    "volume": 309490
+    "volume": 156177
   },
   "range": {
-    "distance_from_high_pct": -40.66,
-    "distance_from_low_pct": 30.43,
-    "high_52w": 9.1,
+    "distance_from_high_pct": -39.06,
+    "distance_from_low_pct": 25.12,
+    "high_52w": 8.5,
     "history_basis": "52_WEEK",
     "low_52w": 4.14,
-    "range_position_pct": 25.4
+    "range_position_pct": 23.85
   },
   "risk_model": {
-    "invalidation_floor": 5.21,
+    "invalidation_floor": 5.0,
     "risk_per_share": 0.5,
-    "technical_pivot": 5.51
+    "technical_pivot": 5.28
   },
   "schema_version": "1.0",
   "sector": null,

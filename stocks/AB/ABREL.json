@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1886.7,
-      "high": 1932.9,
-      "low": 1870.1,
-      "open": 1903.5,
-      "time": "2025-09-19",
-      "volume": 120142
-    },
-    {
-      "close": 1893.7,
-      "high": 1918.0,
-      "low": 1875.0,
-      "open": 1883.1,
-      "time": "2025-09-22",
-      "volume": 67386
-    },
-    {
-      "close": 1846.9,
-      "high": 1907.4,
-      "low": 1820.1,
-      "open": 1895.0,
-      "time": "2025-09-23",
-      "volume": 76095
-    },
-    {
       "close": 1845.1,
       "high": 1863.3,
       "low": 1823.0,
@@ -2017,13 +1993,37 @@
       "open": 1230.9,
       "time": "2026-09-28",
       "volume": 335640
+    },
+    {
+      "close": 1160.6,
+      "high": 1194.7,
+      "low": 1155.6,
+      "open": 1192.1,
+      "time": "2026-09-29",
+      "volume": 170053
+    },
+    {
+      "close": 1130.7,
+      "high": 1183.0,
+      "low": 1122.1,
+      "open": 1169.9,
+      "time": "2026-09-30",
+      "volume": 276535
+    },
+    {
+      "close": 1100.5,
+      "high": 1136.4,
+      "low": 1072.4,
+      "open": 1136.4,
+      "time": "2026-10-01",
+      "volume": 435320
     }
   ],
   "company_name": "ADITYA BIRLA REAL EST LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.94x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.23x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -39.4,
-    "change_pct": -3.2,
-    "close": 1191.5,
-    "previous_close": 1230.9,
+    "as_of": "2026-10-01",
+    "change": -30.2,
+    "change_pct": -2.67,
+    "close": 1100.5,
+    "previous_close": 1130.7,
     "type": "EOD_CLOSE",
-    "volume": 335640
+    "volume": 435320
   },
   "range": {
-    "distance_from_high_pct": -38.36,
-    "distance_from_low_pct": 10.31,
-    "high_52w": 1932.9,
+    "distance_from_high_pct": -42.5,
+    "distance_from_low_pct": 2.62,
+    "high_52w": 1914.0,
     "history_basis": "52_WEEK",
-    "low_52w": 1080.1,
-    "range_position_pct": 13.06
+    "low_52w": 1072.4,
+    "range_position_pct": 3.34
   },
   "risk_model": {
-    "invalidation_floor": 1149.8,
-    "risk_per_share": 65.53,
-    "technical_pivot": 1215.33
+    "invalidation_floor": 1061.98,
+    "risk_per_share": 60.53,
+    "technical_pivot": 1122.51
   },
   "schema_version": "1.0",
   "sector": null,

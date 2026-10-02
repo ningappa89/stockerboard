@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 521.15,
-      "high": 526.2,
-      "low": 519.45,
-      "open": 522.9,
-      "time": "2025-09-19",
-      "volume": 96399
-    },
-    {
-      "close": 530.85,
-      "high": 534.3,
-      "low": 516.55,
-      "open": 521.0,
-      "time": "2025-09-22",
-      "volume": 334843
-    },
-    {
-      "close": 517.55,
-      "high": 534.0,
-      "low": 516.4,
-      "open": 534.0,
-      "time": "2025-09-23",
-      "volume": 123817
-    },
-    {
       "close": 510.15,
       "high": 519.6,
       "low": 508.65,
@@ -2017,13 +1993,37 @@
       "open": 743.8,
       "time": "2026-09-28",
       "volume": 141919
+    },
+    {
+      "close": 713.05,
+      "high": 719.95,
+      "low": 705.5,
+      "open": 711.95,
+      "time": "2026-09-29",
+      "volume": 158293
+    },
+    {
+      "close": 714.75,
+      "high": 733.05,
+      "low": 712.2,
+      "open": 715.0,
+      "time": "2026-09-30",
+      "volume": 219386
+    },
+    {
+      "close": 705.8,
+      "high": 717.75,
+      "low": 690.25,
+      "open": 715.5,
+      "time": "2026-10-01",
+      "volume": 208381
     }
   ],
   "company_name": "MSTC Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 72,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.44x"
+    "volume_multiplier": "0.7x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -30.4,
-    "change_pct": -4.1,
-    "close": 710.4,
-    "previous_close": 740.8,
+    "as_of": "2026-10-01",
+    "change": -8.95,
+    "change_pct": -1.25,
+    "close": 705.8,
+    "previous_close": 714.75,
     "type": "EOD_CLOSE",
-    "volume": 141919
+    "volume": 208381
   },
   "range": {
-    "distance_from_high_pct": -11.75,
-    "distance_from_low_pct": 96.16,
+    "distance_from_high_pct": -12.32,
+    "distance_from_low_pct": 94.89,
     "high_52w": 805.0,
     "history_basis": "52_WEEK",
     "low_52w": 362.15,
-    "range_position_pct": 78.64
+    "range_position_pct": 77.6
   },
   "risk_model": {
-    "invalidation_floor": 685.54,
-    "risk_per_share": 39.07,
-    "technical_pivot": 724.61
+    "invalidation_floor": 681.1,
+    "risk_per_share": 38.82,
+    "technical_pivot": 719.92
   },
   "schema_version": "1.0",
   "sector": null,

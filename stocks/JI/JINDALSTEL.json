@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1046.0,
-      "high": 1049.95,
-      "low": 1036.0,
-      "open": 1048.0,
-      "time": "2025-09-19",
-      "volume": 943974
-    },
-    {
-      "close": 1032.45,
-      "high": 1051.6,
-      "low": 1029.6,
-      "open": 1045.5,
-      "time": "2025-09-22",
-      "volume": 685776
-    },
-    {
-      "close": 1062.7,
-      "high": 1069.7,
-      "low": 1028.05,
-      "open": 1035.0,
-      "time": "2025-09-23",
-      "volume": 1889834
-    },
-    {
       "close": 1052.65,
       "high": 1065.75,
       "low": 1046.05,
@@ -2017,13 +1993,37 @@
       "open": 1160.0,
       "time": "2026-09-28",
       "volume": 713950
+    },
+    {
+      "close": 1130.0,
+      "high": 1149.0,
+      "low": 1126.9,
+      "open": 1137.5,
+      "time": "2026-09-29",
+      "volume": 760609
+    },
+    {
+      "close": 1134.9,
+      "high": 1144.3,
+      "low": 1124.6,
+      "open": 1130.0,
+      "time": "2026-09-30",
+      "volume": 1535849
+    },
+    {
+      "close": 1100.5,
+      "high": 1132.7,
+      "low": 1079.0,
+      "open": 1130.5,
+      "time": "2026-10-01",
+      "volume": 862948
     }
   ],
   "company_name": "JINDAL STEEL LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Metals & Mining",
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
+    "is_stage2": false,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.01x"
+    "volume_multiplier": "1.13x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -25.2,
-    "change_pct": -2.16,
-    "close": 1139.6,
-    "previous_close": 1164.8,
+    "as_of": "2026-10-01",
+    "change": -34.4,
+    "change_pct": -3.03,
+    "close": 1100.5,
+    "previous_close": 1134.9,
     "type": "EOD_CLOSE",
-    "volume": 713950
+    "volume": 862948
   },
   "range": {
-    "distance_from_high_pct": -12.75,
-    "distance_from_low_pct": 16.63,
+    "distance_from_high_pct": -15.75,
+    "distance_from_low_pct": 12.63,
     "high_52w": 1306.2,
     "history_basis": "52_WEEK",
     "low_52w": 977.1,
-    "range_position_pct": 49.38
+    "range_position_pct": 37.5
   },
   "risk_model": {
-    "invalidation_floor": 1099.71,
-    "risk_per_share": 62.68,
-    "technical_pivot": 1162.39
+    "invalidation_floor": 1061.98,
+    "risk_per_share": 60.53,
+    "technical_pivot": 1122.51
   },
   "schema_version": "1.0",
   "sector": "Metals & Mining",

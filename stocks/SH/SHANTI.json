@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 9.52,
-      "high": 9.9,
-      "low": 9.41,
-      "open": 9.9,
-      "time": "2025-09-19",
-      "volume": 56966
-    },
-    {
-      "close": 9.4,
-      "high": 9.87,
-      "low": 9.31,
-      "open": 9.31,
-      "time": "2025-09-22",
-      "volume": 130430
-    },
-    {
-      "close": 9.42,
-      "high": 9.7,
-      "low": 9.16,
-      "open": 9.7,
-      "time": "2025-09-23",
-      "volume": 98404
-    },
-    {
       "close": 9.42,
       "high": 9.66,
       "low": 9.3,
@@ -2017,13 +1993,37 @@
       "open": 5.5,
       "time": "2026-09-28",
       "volume": 13320
+    },
+    {
+      "close": 5.57,
+      "high": 5.95,
+      "low": 5.26,
+      "open": 5.67,
+      "time": "2026-09-29",
+      "volume": 47911
+    },
+    {
+      "close": 5.49,
+      "high": 5.83,
+      "low": 5.3,
+      "open": 5.57,
+      "time": "2026-09-30",
+      "volume": 46100
+    },
+    {
+      "close": 5.5,
+      "high": 5.74,
+      "low": 5.31,
+      "open": 5.49,
+      "time": "2026-10-01",
+      "volume": 29909
     }
   ],
   "company_name": "SHANTI OVERSEAS INDIA LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.31x"
+    "volume_multiplier": "0.71x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.01,
-    "change_pct": -0.18,
-    "close": 5.67,
-    "previous_close": 5.68,
+    "as_of": "2026-10-01",
+    "change": 0.01,
+    "change_pct": 0.18,
+    "close": 5.5,
+    "previous_close": 5.49,
     "type": "EOD_CLOSE",
-    "volume": 13320
+    "volume": 29909
   },
   "range": {
-    "distance_from_high_pct": -53.75,
-    "distance_from_low_pct": 20.64,
+    "distance_from_high_pct": -55.14,
+    "distance_from_low_pct": 17.02,
     "high_52w": 12.26,
     "history_basis": "52_WEEK",
     "low_52w": 4.7,
-    "range_position_pct": 12.83
+    "range_position_pct": 10.58
   },
   "risk_model": {
-    "invalidation_floor": 5.47,
+    "invalidation_floor": 5.31,
     "risk_per_share": 0.5,
-    "technical_pivot": 5.78
+    "technical_pivot": 5.61
   },
   "schema_version": "1.0",
   "sector": null,

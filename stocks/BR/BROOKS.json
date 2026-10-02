@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 149.37,
-      "high": 156.99,
-      "low": 148.3,
-      "open": 156.99,
-      "time": "2025-09-19",
-      "volume": 15888
-    },
-    {
-      "close": 147.08,
-      "high": 153.99,
-      "low": 145.0,
-      "open": 145.0,
-      "time": "2025-09-22",
-      "volume": 29378
-    },
-    {
-      "close": 145.92,
-      "high": 152.39,
-      "low": 145.51,
-      "open": 149.0,
-      "time": "2025-09-23",
-      "volume": 18605
-    },
-    {
       "close": 145.42,
       "high": 148.48,
       "low": 145.1,
@@ -2017,13 +1993,37 @@
       "open": 58.99,
       "time": "2026-09-28",
       "volume": 58423
+    },
+    {
+      "close": 56.51,
+      "high": 57.94,
+      "low": 55.65,
+      "open": 57.11,
+      "time": "2026-09-29",
+      "volume": 26984
+    },
+    {
+      "close": 55.8,
+      "high": 57.61,
+      "low": 55.02,
+      "open": 56.8,
+      "time": "2026-09-30",
+      "volume": 46499
+    },
+    {
+      "close": 54.8,
+      "high": 57.0,
+      "low": 52.97,
+      "open": 55.52,
+      "time": "2026-10-01",
+      "volume": 34254
     }
   ],
   "company_name": "BROOKS LABORATORIES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.47x"
+    "volume_multiplier": "0.83x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.46,
-    "change_pct": -4.17,
-    "close": 56.55,
-    "previous_close": 59.01,
+    "as_of": "2026-10-01",
+    "change": -1.0,
+    "change_pct": -1.79,
+    "close": 54.8,
+    "previous_close": 55.8,
     "type": "EOD_CLOSE",
-    "volume": 58423
+    "volume": 34254
   },
   "range": {
-    "distance_from_high_pct": -63.98,
-    "distance_from_low_pct": 55.79,
-    "high_52w": 156.99,
+    "distance_from_high_pct": -63.09,
+    "distance_from_low_pct": 50.96,
+    "high_52w": 148.48,
     "history_basis": "52_WEEK",
     "low_52w": 36.3,
-    "range_position_pct": 16.78
+    "range_position_pct": 16.49
   },
   "risk_model": {
-    "invalidation_floor": 54.57,
-    "risk_per_share": 3.11,
-    "technical_pivot": 57.68
+    "invalidation_floor": 52.88,
+    "risk_per_share": 3.02,
+    "technical_pivot": 55.9
   },
   "schema_version": "1.0",
   "sector": null,

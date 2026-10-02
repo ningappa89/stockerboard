@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2.58,
-      "high": 2.61,
-      "low": 2.57,
-      "open": 2.59,
-      "time": "2025-09-19",
-      "volume": 980514
-    },
-    {
-      "close": 2.58,
-      "high": 2.61,
-      "low": 2.57,
-      "open": 2.57,
-      "time": "2025-09-22",
-      "volume": 1442765
-    },
-    {
-      "close": 2.58,
-      "high": 2.6,
-      "low": 2.56,
-      "open": 2.58,
-      "time": "2025-09-23",
-      "volume": 1004090
-    },
-    {
       "close": 2.55,
       "high": 2.6,
       "low": 2.55,
@@ -2017,13 +1993,37 @@
       "open": 1.67,
       "time": "2026-09-28",
       "volume": 863913
+    },
+    {
+      "close": 1.55,
+      "high": 1.61,
+      "low": 1.53,
+      "open": 1.61,
+      "time": "2026-09-29",
+      "volume": 1090164
+    },
+    {
+      "close": 1.56,
+      "high": 1.58,
+      "low": 1.52,
+      "open": 1.57,
+      "time": "2026-09-30",
+      "volume": 797045
+    },
+    {
+      "close": 1.54,
+      "high": 1.58,
+      "low": 1.5,
+      "open": 1.56,
+      "time": "2026-10-01",
+      "volume": 1283553
     }
   ],
   "company_name": "SAKUMA EXPORTS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.87x"
+    "volume_multiplier": "1.27x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.06,
-    "change_pct": -3.59,
-    "close": 1.61,
-    "previous_close": 1.67,
+    "as_of": "2026-10-01",
+    "change": -0.02,
+    "change_pct": -1.28,
+    "close": 1.54,
+    "previous_close": 1.56,
     "type": "EOD_CLOSE",
-    "volume": 863913
+    "volume": 1283553
   },
   "range": {
-    "distance_from_high_pct": -48.06,
-    "distance_from_low_pct": 46.36,
+    "distance_from_high_pct": -50.32,
+    "distance_from_low_pct": 40.0,
     "high_52w": 3.1,
     "history_basis": "52_WEEK",
     "low_52w": 1.1,
-    "range_position_pct": 25.5
+    "range_position_pct": 22.0
   },
   "risk_model": {
-    "invalidation_floor": 1.55,
+    "invalidation_floor": 1.49,
     "risk_per_share": 0.5,
-    "technical_pivot": 1.64
+    "technical_pivot": 1.57
   },
   "schema_version": "1.0",
   "sector": null,

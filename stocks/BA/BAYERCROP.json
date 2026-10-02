@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 5347.0,
-      "high": 5489.0,
-      "low": 5179.0,
-      "open": 5200.0,
-      "time": "2025-09-19",
-      "volume": 168651
-    },
-    {
-      "close": 5245.0,
-      "high": 5346.0,
-      "low": 5218.0,
-      "open": 5346.0,
-      "time": "2025-09-22",
-      "volume": 18880
-    },
-    {
-      "close": 5072.0,
-      "high": 5250.5,
-      "low": 5048.0,
-      "open": 5250.0,
-      "time": "2025-09-23",
-      "volume": 34850
-    },
-    {
       "close": 5033.5,
       "high": 5095.5,
       "low": 4991.0,
@@ -2017,13 +1993,37 @@
       "open": 3714.9,
       "time": "2026-09-28",
       "volume": 55292
+    },
+    {
+      "close": 3602.7,
+      "high": 3669.6,
+      "low": 3575.0,
+      "open": 3648.0,
+      "time": "2026-09-29",
+      "volume": 148960
+    },
+    {
+      "close": 3627.6,
+      "high": 3665.8,
+      "low": 3615.0,
+      "open": 3615.0,
+      "time": "2026-09-30",
+      "volume": 21117
+    },
+    {
+      "close": 3554.2,
+      "high": 3620.0,
+      "low": 3513.0,
+      "open": 3620.0,
+      "time": "2026-10-01",
+      "volume": 22516
     }
   ],
   "company_name": "BAYER CROPSCIENCE LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Chemicals",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 40,
+    "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.94x"
+    "volume_multiplier": "0.65x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -45.8,
-    "change_pct": -1.23,
-    "close": 3671.8,
-    "previous_close": 3717.6,
+    "as_of": "2026-10-01",
+    "change": -73.4,
+    "change_pct": -2.02,
+    "close": 3554.2,
+    "previous_close": 3627.6,
     "type": "EOD_CLOSE",
-    "volume": 55292
+    "volume": 22516
   },
   "range": {
-    "distance_from_high_pct": -33.11,
-    "distance_from_low_pct": 0.6,
-    "high_52w": 5489.0,
+    "distance_from_high_pct": -30.99,
+    "distance_from_low_pct": 1.17,
+    "high_52w": 5149.9,
     "history_basis": "52_WEEK",
-    "low_52w": 3650.0,
-    "range_position_pct": 1.19
+    "low_52w": 3513.0,
+    "range_position_pct": 2.52
   },
   "risk_model": {
-    "invalidation_floor": 3543.29,
-    "risk_per_share": 201.95,
-    "technical_pivot": 3745.24
+    "invalidation_floor": 3429.8,
+    "risk_per_share": 195.48,
+    "technical_pivot": 3625.28
   },
   "schema_version": "1.0",
   "sector": "Chemicals",

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 77.05,
-      "high": 78.6,
-      "low": 76.8,
-      "open": 78.6,
-      "time": "2025-09-19",
-      "volume": 101747
-    },
-    {
-      "close": 76.58,
-      "high": 77.29,
-      "low": 76.0,
-      "open": 76.1,
-      "time": "2025-09-22",
-      "volume": 111992
-    },
-    {
-      "close": 76.24,
-      "high": 77.29,
-      "low": 76.02,
-      "open": 76.59,
-      "time": "2025-09-23",
-      "volume": 74860
-    },
-    {
       "close": 75.57,
       "high": 76.6,
       "low": 75.4,
@@ -2017,13 +1993,37 @@
       "open": 97.4,
       "time": "2026-09-28",
       "volume": 345913
+    },
+    {
+      "close": 94.4,
+      "high": 96.83,
+      "low": 92.7,
+      "open": 95.13,
+      "time": "2026-09-29",
+      "volume": 214302
+    },
+    {
+      "close": 93.15,
+      "high": 95.95,
+      "low": 92.7,
+      "open": 94.4,
+      "time": "2026-09-30",
+      "volume": 186327
+    },
+    {
+      "close": 91.06,
+      "high": 93.06,
+      "low": 90.0,
+      "open": 92.6,
+      "time": "2026-10-01",
+      "volume": 308635
     }
   ],
   "company_name": "ANDHRA SUGARS LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 73,
+    "is_stage2": false,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.8x"
+    "volume_multiplier": "0.83x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.28,
-    "change_pct": -0.29,
-    "close": 95.13,
-    "previous_close": 95.41,
+    "as_of": "2026-10-01",
+    "change": -2.09,
+    "change_pct": -2.24,
+    "close": 91.06,
+    "previous_close": 93.15,
     "type": "EOD_CLOSE",
-    "volume": 345913
+    "volume": 308635
   },
   "range": {
-    "distance_from_high_pct": -11.28,
-    "distance_from_low_pct": 43.05,
+    "distance_from_high_pct": -15.08,
+    "distance_from_low_pct": 36.93,
     "high_52w": 107.23,
     "history_basis": "52_WEEK",
     "low_52w": 66.5,
-    "range_position_pct": 70.29
+    "range_position_pct": 60.3
   },
   "risk_model": {
-    "invalidation_floor": 91.8,
-    "risk_per_share": 5.23,
-    "technical_pivot": 97.03
+    "invalidation_floor": 87.87,
+    "risk_per_share": 5.01,
+    "technical_pivot": 92.88
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 42.39,
-      "high": 43.6,
-      "low": 42.2,
-      "open": 43.6,
-      "time": "2025-09-19",
-      "volume": 588593
-    },
-    {
-      "close": 41.53,
-      "high": 42.65,
-      "low": 41.19,
-      "open": 42.39,
-      "time": "2025-09-22",
-      "volume": 395099
-    },
-    {
-      "close": 41.64,
-      "high": 42.08,
-      "low": 41.21,
-      "open": 41.99,
-      "time": "2025-09-23",
-      "volume": 227260
-    },
-    {
       "close": 42.85,
       "high": 43.9,
       "low": 41.3,
@@ -2017,13 +1993,37 @@
       "open": 45.49,
       "time": "2026-09-28",
       "volume": 2791461
+    },
+    {
+      "close": 43.33,
+      "high": 43.89,
+      "low": 42.65,
+      "open": 43.19,
+      "time": "2026-09-29",
+      "volume": 1233809
+    },
+    {
+      "close": 42.66,
+      "high": 44.55,
+      "low": 42.45,
+      "open": 43.8,
+      "time": "2026-09-30",
+      "volume": 1342472
+    },
+    {
+      "close": 41.96,
+      "high": 42.48,
+      "low": 41.0,
+      "open": 42.45,
+      "time": "2026-10-01",
+      "volume": 1083964
     }
   ],
   "company_name": "DWARIKESH SUGAR INDUSTRIES LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.89x"
+    "volume_multiplier": "0.43x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.64,
-    "change_pct": -3.64,
-    "close": 43.37,
-    "previous_close": 45.01,
+    "as_of": "2026-10-01",
+    "change": -0.7,
+    "change_pct": -1.64,
+    "close": 41.96,
+    "previous_close": 42.66,
     "type": "EOD_CLOSE",
-    "volume": 2791461
+    "volume": 1083964
   },
   "range": {
-    "distance_from_high_pct": -27.6,
-    "distance_from_low_pct": 34.98,
+    "distance_from_high_pct": -29.95,
+    "distance_from_low_pct": 30.59,
     "high_52w": 59.9,
     "history_basis": "52_WEEK",
     "low_52w": 32.13,
-    "range_position_pct": 40.48
+    "range_position_pct": 35.4
   },
   "risk_model": {
-    "invalidation_floor": 41.85,
-    "risk_per_share": 2.39,
-    "technical_pivot": 44.24
+    "invalidation_floor": 40.49,
+    "risk_per_share": 2.31,
+    "technical_pivot": 42.8
   },
   "schema_version": "1.0",
   "sector": null,

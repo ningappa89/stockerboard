@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 5541.5,
-      "high": 5575.5,
-      "low": 5481.0,
-      "open": 5486.0,
-      "time": "2025-09-19",
-      "volume": 383661
-    },
-    {
-      "close": 5495.0,
-      "high": 5559.0,
-      "low": 5467.0,
-      "open": 5559.0,
-      "time": "2025-09-22",
-      "volume": 382463
-    },
-    {
-      "close": 5544.5,
-      "high": 5577.5,
-      "low": 5500.0,
-      "open": 5549.0,
-      "time": "2025-09-23",
-      "volume": 240178
-    },
-    {
       "close": 5576.0,
       "high": 5586.5,
       "low": 5531.5,
@@ -2017,13 +1993,37 @@
       "open": 5254.0,
       "time": "2026-09-28",
       "volume": 101714
+    },
+    {
+      "close": 5250.0,
+      "high": 5306.5,
+      "low": 5152.0,
+      "open": 5166.5,
+      "time": "2026-09-29",
+      "volume": 244410
+    },
+    {
+      "close": 5163.5,
+      "high": 5276.5,
+      "low": 5135.0,
+      "open": 5249.5,
+      "time": "2026-09-30",
+      "volume": 146577
+    },
+    {
+      "close": 5220.0,
+      "high": 5220.0,
+      "low": 5110.0,
+      "open": 5150.0,
+      "time": "2026-10-01",
+      "volume": 291015
     }
   ],
   "company_name": "Alkem Laboratories Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 70,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.7x"
+    "volume_multiplier": "1.83x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -99.0,
-    "change_pct": -1.88,
-    "close": 5175.0,
-    "previous_close": 5274.0,
+    "as_of": "2026-10-01",
+    "change": 56.5,
+    "change_pct": 1.09,
+    "close": 5220.0,
+    "previous_close": 5163.5,
     "type": "EOD_CLOSE",
-    "volume": 101714
+    "volume": 291015
   },
   "range": {
-    "distance_from_high_pct": -12.78,
-    "distance_from_low_pct": 2.45,
+    "distance_from_high_pct": -12.02,
+    "distance_from_low_pct": 3.35,
     "high_52w": 5933.5,
     "history_basis": "52_WEEK",
     "low_52w": 5051.0,
-    "range_position_pct": 14.05
+    "range_position_pct": 19.15
   },
   "risk_model": {
-    "invalidation_floor": 4993.88,
-    "risk_per_share": 284.62,
-    "technical_pivot": 5278.5
+    "invalidation_floor": 5037.3,
+    "risk_per_share": 287.1,
+    "technical_pivot": 5324.4
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

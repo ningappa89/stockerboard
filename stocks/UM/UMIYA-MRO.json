@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 82.55,
-      "high": 84.17,
-      "low": 81.6,
-      "open": 84.17,
-      "time": "2025-09-19",
-      "volume": 14246
-    },
-    {
-      "close": 81.87,
-      "high": 83.5,
-      "low": 81.5,
-      "open": 82.55,
-      "time": "2025-09-22",
-      "volume": 11649
-    },
-    {
-      "close": 80.37,
-      "high": 82.9,
-      "low": 79.8,
-      "open": 82.9,
-      "time": "2025-09-23",
-      "volume": 16679
-    },
-    {
       "close": 85.05,
       "high": 88.9,
       "low": 80.55,
@@ -2017,13 +1993,37 @@
       "open": 97.86,
       "time": "2026-09-28",
       "volume": 5452
+    },
+    {
+      "close": 94.8,
+      "high": 97.9,
+      "low": 94.42,
+      "open": 97.46,
+      "time": "2026-09-29",
+      "volume": 9754
+    },
+    {
+      "close": 93.16,
+      "high": 95.94,
+      "low": 92.01,
+      "open": 94.0,
+      "time": "2026-09-30",
+      "volume": 21344
+    },
+    {
+      "close": 91.76,
+      "high": 93.97,
+      "low": 91.1,
+      "open": 93.55,
+      "time": "2026-10-01",
+      "volume": 20020
     }
   ],
   "company_name": "UMIYA BUILDCON LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 71,
+    "is_stage2": false,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.17x"
+    "volume_multiplier": "0.77x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.29,
-    "change_pct": 0.3,
-    "close": 97.54,
-    "previous_close": 97.25,
+    "as_of": "2026-10-01",
+    "change": -1.4,
+    "change_pct": -1.5,
+    "close": 91.76,
+    "previous_close": 93.16,
     "type": "EOD_CLOSE",
-    "volume": 5452
+    "volume": 20020
   },
   "range": {
-    "distance_from_high_pct": -12.05,
-    "distance_from_low_pct": 39.34,
+    "distance_from_high_pct": -17.26,
+    "distance_from_low_pct": 31.09,
     "high_52w": 110.9,
     "history_basis": "52_WEEK",
     "low_52w": 70.0,
-    "range_position_pct": 67.33
+    "range_position_pct": 53.2
   },
   "risk_model": {
-    "invalidation_floor": 94.13,
-    "risk_per_share": 5.36,
-    "technical_pivot": 99.49
+    "invalidation_floor": 88.55,
+    "risk_per_share": 5.05,
+    "technical_pivot": 93.6
   },
   "schema_version": "1.0",
   "sector": null,

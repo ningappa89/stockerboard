@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 139.2,
-      "high": 140.0,
-      "low": 136.02,
-      "open": 138.8,
-      "time": "2025-09-19",
-      "volume": 88640
-    },
-    {
-      "close": 145.45,
-      "high": 146.6,
-      "low": 137.66,
-      "open": 140.8,
-      "time": "2025-09-22",
-      "volume": 216463
-    },
-    {
-      "close": 145.51,
-      "high": 150.5,
-      "low": 142.0,
-      "open": 146.73,
-      "time": "2025-09-23",
-      "volume": 291502
-    },
-    {
       "close": 142.39,
       "high": 146.51,
       "low": 141.35,
@@ -2017,13 +1993,37 @@
       "open": 131.4,
       "time": "2026-09-28",
       "volume": 752268
+    },
+    {
+      "close": 127.29,
+      "high": 128.59,
+      "low": 125.13,
+      "open": 125.54,
+      "time": "2026-09-29",
+      "volume": 216998
+    },
+    {
+      "close": 126.98,
+      "high": 129.19,
+      "low": 126.0,
+      "open": 126.28,
+      "time": "2026-09-30",
+      "volume": 218743
+    },
+    {
+      "close": 126.59,
+      "high": 127.5,
+      "low": 124.5,
+      "open": 126.1,
+      "time": "2026-10-01",
+      "volume": 539492
     }
   ],
   "company_name": "Manaksia Coated Metals & Indus",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.43x"
+    "volume_multiplier": "1.05x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.37,
-    "change_pct": -3.36,
-    "close": 125.54,
-    "previous_close": 129.91,
+    "as_of": "2026-10-01",
+    "change": -0.39,
+    "change_pct": -0.31,
+    "close": 126.59,
+    "previous_close": 126.98,
     "type": "EOD_CLOSE",
-    "volume": 752268
+    "volume": 539492
   },
   "range": {
-    "distance_from_high_pct": -31.33,
-    "distance_from_low_pct": 33.27,
+    "distance_from_high_pct": -30.76,
+    "distance_from_low_pct": 34.38,
     "high_52w": 182.82,
     "history_basis": "52_WEEK",
     "low_52w": 94.2,
-    "range_position_pct": 35.36
+    "range_position_pct": 36.55
   },
   "risk_model": {
-    "invalidation_floor": 121.15,
-    "risk_per_share": 6.9,
-    "technical_pivot": 128.05
+    "invalidation_floor": 122.16,
+    "risk_per_share": 6.96,
+    "technical_pivot": 129.12
   },
   "schema_version": "1.0",
   "sector": null,

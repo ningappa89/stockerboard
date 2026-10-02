@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 56.88,
-      "high": 57.78,
-      "low": 56.71,
-      "open": 57.45,
-      "time": "2025-09-19",
-      "volume": 115241
-    },
-    {
-      "close": 56.69,
-      "high": 57.4,
-      "low": 56.52,
-      "open": 56.88,
-      "time": "2025-09-22",
-      "volume": 83686
-    },
-    {
-      "close": 56.2,
-      "high": 57.15,
-      "low": 55.8,
-      "open": 57.0,
-      "time": "2025-09-23",
-      "volume": 59016
-    },
-    {
       "close": 55.64,
       "high": 56.39,
       "low": 55.5,
@@ -2017,13 +1993,37 @@
       "open": 28.5,
       "time": "2026-09-28",
       "volume": 17383
+    },
+    {
+      "close": 27.4,
+      "high": 27.99,
+      "low": 27.06,
+      "open": 27.41,
+      "time": "2026-09-29",
+      "volume": 21309
+    },
+    {
+      "close": 26.71,
+      "high": 27.59,
+      "low": 26.5,
+      "open": 27.4,
+      "time": "2026-09-30",
+      "volume": 37693
+    },
+    {
+      "close": 26.24,
+      "high": 27.0,
+      "low": 25.99,
+      "open": 27.0,
+      "time": "2026-10-01",
+      "volume": 37655
     }
   ],
   "company_name": "Spencer's Retail Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.48x"
+    "volume_multiplier": "1.07x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.66,
-    "change_pct": -2.35,
-    "close": 27.41,
-    "previous_close": 28.07,
+    "as_of": "2026-10-01",
+    "change": -0.47,
+    "change_pct": -1.76,
+    "close": 26.24,
+    "previous_close": 26.71,
     "type": "EOD_CLOSE",
-    "volume": 17383
+    "volume": 37655
   },
   "range": {
-    "distance_from_high_pct": -55.36,
-    "distance_from_low_pct": 12.43,
+    "distance_from_high_pct": -57.26,
+    "distance_from_low_pct": 7.63,
     "high_52w": 61.4,
     "history_basis": "52_WEEK",
     "low_52w": 24.38,
-    "range_position_pct": 8.18
+    "range_position_pct": 5.02
   },
   "risk_model": {
-    "invalidation_floor": 26.45,
-    "risk_per_share": 1.51,
-    "technical_pivot": 27.96
+    "invalidation_floor": 25.32,
+    "risk_per_share": 1.44,
+    "technical_pivot": 26.76
   },
   "schema_version": "1.0",
   "sector": null,

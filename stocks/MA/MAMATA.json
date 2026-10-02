@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 499.4,
-      "high": 515.0,
-      "low": 483.15,
-      "open": 484.5,
-      "time": "2025-09-19",
-      "volume": 6086038
-    },
-    {
-      "close": 480.0,
-      "high": 498.0,
-      "low": 476.05,
-      "open": 498.0,
-      "time": "2025-09-22",
-      "volume": 558182
-    },
-    {
-      "close": 491.6,
-      "high": 502.9,
-      "low": 470.5,
-      "open": 480.0,
-      "time": "2025-09-23",
-      "volume": 1156339
-    },
-    {
       "close": 493.65,
       "high": 502.5,
       "low": 484.55,
@@ -2017,13 +1993,37 @@
       "open": 413.3,
       "time": "2026-09-28",
       "volume": 616273
+    },
+    {
+      "close": 399.5,
+      "high": 407.95,
+      "low": 392.0,
+      "open": 400.0,
+      "time": "2026-09-29",
+      "volume": 54563
+    },
+    {
+      "close": 398.8,
+      "high": 412.15,
+      "low": 396.0,
+      "open": 406.0,
+      "time": "2026-09-30",
+      "volume": 29583
+    },
+    {
+      "close": 399.9,
+      "high": 404.9,
+      "low": 389.3,
+      "open": 399.6,
+      "time": "2026-10-01",
+      "volume": 63090
     }
   ],
   "company_name": "MAMATA MACHINERY LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 56,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "7.02x"
+    "momentum_score": 57,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.71x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -10.7,
-    "change_pct": -2.6,
-    "close": 401.2,
-    "previous_close": 411.9,
+    "as_of": "2026-10-01",
+    "change": 1.1,
+    "change_pct": 0.28,
+    "close": 399.9,
+    "previous_close": 398.8,
     "type": "EOD_CLOSE",
-    "volume": 616273
+    "volume": 63090
   },
   "range": {
-    "distance_from_high_pct": -22.1,
-    "distance_from_low_pct": 35.08,
-    "high_52w": 515.0,
+    "distance_from_high_pct": -21.59,
+    "distance_from_low_pct": 34.65,
+    "high_52w": 510.0,
     "history_basis": "52_WEEK",
     "low_52w": 297.0,
-    "range_position_pct": 47.8
+    "range_position_pct": 48.31
   },
   "risk_model": {
-    "invalidation_floor": 387.16,
-    "risk_per_share": 22.06,
-    "technical_pivot": 409.22
+    "invalidation_floor": 385.9,
+    "risk_per_share": 22.0,
+    "technical_pivot": 407.9
   },
   "schema_version": "1.0",
   "sector": null,

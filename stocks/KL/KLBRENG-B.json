@@ -897,14 +897,38 @@
       "open": 524.5,
       "time": "2026-09-28",
       "volume": 176312
+    },
+    {
+      "close": 525.55,
+      "high": 532.0,
+      "low": 500.5,
+      "open": 515.0,
+      "time": "2026-09-29",
+      "volume": 393122
+    },
+    {
+      "close": 523.95,
+      "high": 534.55,
+      "low": 521.55,
+      "open": 527.9,
+      "time": "2026-09-30",
+      "volume": 206790
+    },
+    {
+      "close": 523.95,
+      "high": 529.95,
+      "low": 509.85,
+      "open": 528.0,
+      "time": "2026-10-01",
+      "volume": 193647
     }
   ],
   "company_name": "KILBURN ENGINEERING LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 112
+    "last_session": "2026-10-01",
+    "sessions_available": 115
   },
   "industry": null,
   "isin": "INE338F01015",
@@ -912,31 +936,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 81,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.5x"
+    "momentum_score": 84,
+    "setup_type": "Minervini VCP",
+    "volume_multiplier": "0.58x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -7.35,
-    "change_pct": -1.41,
-    "close": 514.4,
-    "previous_close": 521.75,
+    "as_of": "2026-10-01",
+    "change": 0.0,
+    "change_pct": 0.0,
+    "close": 523.95,
+    "previous_close": 523.95,
     "type": "EOD_CLOSE",
-    "volume": 176312
+    "volume": 193647
   },
   "range": {
-    "distance_from_high_pct": -5.59,
-    "distance_from_low_pct": 54.75,
+    "distance_from_high_pct": -3.84,
+    "distance_from_low_pct": 57.63,
     "high_52w": 544.85,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 332.4,
-    "range_position_pct": 85.67
+    "range_position_pct": 90.16
   },
   "risk_model": {
-    "invalidation_floor": 496.4,
-    "risk_per_share": 28.29,
-    "technical_pivot": 524.69
+    "invalidation_floor": 505.61,
+    "risk_per_share": 28.82,
+    "technical_pivot": 534.43
   },
   "schema_version": "1.0",
   "sector": null,

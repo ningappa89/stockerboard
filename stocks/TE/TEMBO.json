@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 61.16,
-      "high": 62.28,
-      "low": 59.95,
-      "open": 61.7,
-      "time": "2025-09-19",
-      "volume": 423140
-    },
-    {
-      "close": 60.18,
-      "high": 61.66,
-      "low": 59.2,
-      "open": 61.1,
-      "time": "2025-09-22",
-      "volume": 793020
-    },
-    {
-      "close": 59.06,
-      "high": 60.95,
-      "low": 58.99,
-      "open": 60.01,
-      "time": "2025-09-23",
-      "volume": 292680
-    },
-    {
       "close": 59.55,
       "high": 60.2,
       "low": 58.85,
@@ -2017,13 +1993,37 @@
       "open": 58.75,
       "time": "2026-09-28",
       "volume": 1014268
+    },
+    {
+      "close": 57.99,
+      "high": 58.51,
+      "low": 57.0,
+      "open": 57.75,
+      "time": "2026-09-29",
+      "volume": 680807
+    },
+    {
+      "close": 57.67,
+      "high": 58.56,
+      "low": 57.05,
+      "open": 58.0,
+      "time": "2026-09-30",
+      "volume": 736216
+    },
+    {
+      "close": 57.16,
+      "high": 58.56,
+      "low": 56.25,
+      "open": 57.67,
+      "time": "2026-10-01",
+      "volume": 955699
     }
   ],
   "company_name": "TEMBO GLOBAL IND LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 43,
+    "momentum_score": 42,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.51x"
+    "volume_multiplier": "0.54x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.53,
-    "change_pct": -0.91,
-    "close": 57.75,
-    "previous_close": 58.28,
+    "as_of": "2026-10-01",
+    "change": -0.51,
+    "change_pct": -0.88,
+    "close": 57.16,
+    "previous_close": 57.67,
     "type": "EOD_CLOSE",
-    "volume": 1014268
+    "volume": 955699
   },
   "range": {
-    "distance_from_high_pct": -31.0,
-    "distance_from_low_pct": 33.25,
+    "distance_from_high_pct": -31.71,
+    "distance_from_low_pct": 31.89,
     "high_52w": 83.7,
     "history_basis": "52_WEEK",
     "low_52w": 43.34,
-    "range_position_pct": 35.7
+    "range_position_pct": 34.24
   },
   "risk_model": {
-    "invalidation_floor": 55.73,
-    "risk_per_share": 3.18,
-    "technical_pivot": 58.91
+    "invalidation_floor": 55.16,
+    "risk_per_share": 3.14,
+    "technical_pivot": 58.3
   },
   "schema_version": "1.0",
   "sector": null,

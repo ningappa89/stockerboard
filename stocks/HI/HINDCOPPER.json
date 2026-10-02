@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 282.86,
-      "high": 284.47,
-      "low": 276.25,
-      "open": 279.0,
-      "time": "2025-09-19",
-      "volume": 4970912
-    },
-    {
-      "close": 296.57,
-      "high": 305.4,
-      "low": 282.0,
-      "open": 283.24,
-      "time": "2025-09-22",
-      "volume": 35446549
-    },
-    {
-      "close": 307.43,
-      "high": 312.0,
-      "low": 293.4,
-      "open": 298.1,
-      "time": "2025-09-23",
-      "volume": 28399927
-    },
-    {
       "close": 308.71,
       "high": 313.9,
       "low": 305.52,
@@ -2017,13 +1993,37 @@
       "open": 484.65,
       "time": "2026-09-28",
       "volume": 6075956
+    },
+    {
+      "close": 474.35,
+      "high": 479.95,
+      "low": 470.0,
+      "open": 475.55,
+      "time": "2026-09-29",
+      "volume": 9198111
+    },
+    {
+      "close": 472.65,
+      "high": 481.7,
+      "low": 471.5,
+      "open": 477.0,
+      "time": "2026-09-30",
+      "volume": 5881618
+    },
+    {
+      "close": 462.15,
+      "high": 471.2,
+      "low": 450.0,
+      "open": 469.85,
+      "time": "2026-10-01",
+      "volume": 6827265
     }
   ],
   "company_name": "HINDUSTAN COPPER LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Metals & Mining",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.74x"
+    "volume_multiplier": "0.87x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -15.05,
-    "change_pct": -3.04,
-    "close": 479.6,
-    "previous_close": 494.65,
+    "as_of": "2026-10-01",
+    "change": -10.5,
+    "change_pct": -2.22,
+    "close": 462.15,
+    "previous_close": 472.65,
     "type": "EOD_CLOSE",
-    "volume": 6075956
+    "volume": 6827265
   },
   "range": {
-    "distance_from_high_pct": -36.9,
-    "distance_from_low_pct": 73.61,
+    "distance_from_high_pct": -39.19,
+    "distance_from_low_pct": 51.27,
     "high_52w": 760.05,
     "history_basis": "52_WEEK",
-    "low_52w": 276.25,
-    "range_position_pct": 42.03
+    "low_52w": 305.52,
+    "range_position_pct": 34.46
   },
   "risk_model": {
-    "invalidation_floor": 462.81,
-    "risk_per_share": 26.38,
-    "technical_pivot": 489.19
+    "invalidation_floor": 445.97,
+    "risk_per_share": 25.42,
+    "technical_pivot": 471.39
   },
   "schema_version": "1.0",
   "sector": "Metals & Mining",

@@ -1585,46 +1585,70 @@
       "open": 208.7,
       "time": "2026-09-28",
       "volume": 2151
+    },
+    {
+      "close": 199.92,
+      "high": 205.98,
+      "low": 195.3,
+      "open": 205.98,
+      "time": "2026-09-29",
+      "volume": 4172
+    },
+    {
+      "close": 198.13,
+      "high": 204.9,
+      "low": 192.0,
+      "open": 204.9,
+      "time": "2026-09-30",
+      "volume": 3274
+    },
+    {
+      "close": 200.5,
+      "high": 201.0,
+      "low": 195.07,
+      "open": 201.0,
+      "time": "2026-10-01",
+      "volume": 3523
     }
   ],
   "company_name": "KN AGRI RESOURCES LIMITED",
   "history": {
     "first_session": "2025-12-09",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 198
+    "last_session": "2026-10-01",
+    "sessions_available": 201
   },
   "industry": null,
   "isin": "INE0KNW01016",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 71,
+    "is_stage2": false,
+    "momentum_score": 68,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.26x"
+    "volume_multiplier": "0.45x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.29,
-    "change_pct": 0.14,
-    "close": 205.05,
-    "previous_close": 204.76,
+    "as_of": "2026-10-01",
+    "change": 2.37,
+    "change_pct": 1.2,
+    "close": 200.5,
+    "previous_close": 198.13,
     "type": "EOD_CLOSE",
-    "volume": 2151
+    "volume": 3523
   },
   "range": {
-    "distance_from_high_pct": -12.33,
-    "distance_from_low_pct": 38.27,
+    "distance_from_high_pct": -14.28,
+    "distance_from_low_pct": 35.2,
     "high_52w": 233.9,
-    "history_basis": "AVAILABLE_HISTORY",
+    "history_basis": "52_WEEK",
     "low_52w": 148.3,
-    "range_position_pct": 66.3
+    "range_position_pct": 60.98
   },
   "risk_model": {
-    "invalidation_floor": 197.87,
-    "risk_per_share": 11.28,
-    "technical_pivot": 209.15
+    "invalidation_floor": 193.48,
+    "risk_per_share": 11.03,
+    "technical_pivot": 204.51
   },
   "schema_version": "1.0",
   "sector": null,

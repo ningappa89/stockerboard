@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 475.65,
-      "high": 484.0,
-      "low": 474.0,
-      "open": 482.0,
-      "time": "2025-09-19",
-      "volume": 13086
-    },
-    {
-      "close": 470.55,
-      "high": 479.95,
-      "low": 468.1,
-      "open": 474.5,
-      "time": "2025-09-22",
-      "volume": 20257
-    },
-    {
-      "close": 463.25,
-      "high": 474.95,
-      "low": 455.4,
-      "open": 473.65,
-      "time": "2025-09-23",
-      "volume": 34317
-    },
-    {
       "close": 462.5,
       "high": 466.0,
       "low": 456.4,
@@ -2017,13 +1993,37 @@
       "open": 410.8,
       "time": "2026-09-28",
       "volume": 81065
+    },
+    {
+      "close": 411.35,
+      "high": 419.55,
+      "low": 401.7,
+      "open": 411.0,
+      "time": "2026-09-29",
+      "volume": 66902
+    },
+    {
+      "close": 403.45,
+      "high": 423.0,
+      "low": 400.0,
+      "open": 414.8,
+      "time": "2026-09-30",
+      "volume": 45380
+    },
+    {
+      "close": 394.05,
+      "high": 403.45,
+      "low": 373.55,
+      "open": 399.0,
+      "time": "2026-10-01",
+      "volume": 99182
     }
   ],
   "company_name": "Shivalik Rasayan Ltd.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.57x"
+    "volume_multiplier": "0.68x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.5,
-    "change_pct": -0.12,
-    "close": 407.95,
-    "previous_close": 408.45,
+    "as_of": "2026-10-01",
+    "change": -9.4,
+    "change_pct": -2.33,
+    "close": 394.05,
+    "previous_close": 403.45,
     "type": "EOD_CLOSE",
-    "volume": 81065
+    "volume": 99182
   },
   "range": {
-    "distance_from_high_pct": -15.71,
-    "distance_from_low_pct": 97.65,
-    "high_52w": 484.0,
+    "distance_from_high_pct": -16.34,
+    "distance_from_low_pct": 90.92,
+    "high_52w": 471.0,
     "history_basis": "52_WEEK",
     "low_52w": 206.4,
-    "range_position_pct": 72.6
+    "range_position_pct": 70.92
   },
   "risk_model": {
-    "invalidation_floor": 393.67,
-    "risk_per_share": 22.44,
-    "technical_pivot": 416.11
+    "invalidation_floor": 380.26,
+    "risk_per_share": 21.67,
+    "technical_pivot": 401.93
   },
   "schema_version": "1.0",
   "sector": null,

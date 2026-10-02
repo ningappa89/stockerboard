@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1066.3,
-      "high": 1102.0,
-      "low": 1060.1,
-      "open": 1094.0,
-      "time": "2025-09-19",
-      "volume": 314081
-    },
-    {
-      "close": 1074.5,
-      "high": 1078.0,
-      "low": 1058.0,
-      "open": 1060.0,
-      "time": "2025-09-22",
-      "volume": 169290
-    },
-    {
-      "close": 1067.1,
-      "high": 1076.0,
-      "low": 1057.0,
-      "open": 1074.5,
-      "time": "2025-09-23",
-      "volume": 113061
-    },
-    {
       "close": 1073.3,
       "high": 1078.0,
       "low": 1063.4,
@@ -2017,13 +1993,37 @@
       "open": 706.0,
       "time": "2026-09-28",
       "volume": 344029
+    },
+    {
+      "close": 696.25,
+      "high": 708.5,
+      "low": 690.05,
+      "open": 708.5,
+      "time": "2026-09-29",
+      "volume": 275246
+    },
+    {
+      "close": 685.9,
+      "high": 708.0,
+      "low": 681.0,
+      "open": 696.0,
+      "time": "2026-09-30",
+      "volume": 467662
+    },
+    {
+      "close": 674.55,
+      "high": 685.35,
+      "low": 672.3,
+      "open": 682.0,
+      "time": "2026-10-01",
+      "volume": 341622
     }
   ],
   "company_name": "EID PARRY INDIA LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Chemicals",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.91x"
+    "volume_multiplier": "0.98x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 1.7,
-    "change_pct": 0.24,
-    "close": 706.45,
-    "previous_close": 704.75,
+    "as_of": "2026-10-01",
+    "change": -11.35,
+    "change_pct": -1.65,
+    "close": 674.55,
+    "previous_close": 685.9,
     "type": "EOD_CLOSE",
-    "volume": 344029
+    "volume": 341622
   },
   "range": {
-    "distance_from_high_pct": -36.81,
-    "distance_from_low_pct": 3.47,
+    "distance_from_high_pct": -39.66,
+    "distance_from_low_pct": 0.33,
     "high_52w": 1118.0,
     "history_basis": "52_WEEK",
-    "low_52w": 682.75,
-    "range_position_pct": 5.45
+    "low_52w": 672.3,
+    "range_position_pct": 0.5
   },
   "risk_model": {
-    "invalidation_floor": 681.72,
-    "risk_per_share": 38.86,
-    "technical_pivot": 720.58
+    "invalidation_floor": 650.94,
+    "risk_per_share": 37.1,
+    "technical_pivot": 688.04
   },
   "schema_version": "1.0",
   "sector": "Chemicals",

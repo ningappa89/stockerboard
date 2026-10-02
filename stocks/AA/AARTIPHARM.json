@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 930.2,
-      "high": 940.5,
-      "low": 895.0,
-      "open": 899.0,
-      "time": "2025-09-19",
-      "volume": 3107758
-    },
-    {
-      "close": 900.0,
-      "high": 924.6,
-      "low": 894.05,
-      "open": 924.6,
-      "time": "2025-09-22",
-      "volume": 250006
-    },
-    {
-      "close": 871.65,
-      "high": 903.9,
-      "low": 868.0,
-      "open": 900.0,
-      "time": "2025-09-23",
-      "volume": 173830
-    },
-    {
       "close": 857.6,
       "high": 876.15,
       "low": 854.1,
@@ -2017,46 +1993,70 @@
       "open": 940.0,
       "time": "2026-09-28",
       "volume": 528118
+    },
+    {
+      "close": 972.8,
+      "high": 985.05,
+      "low": 906.2,
+      "open": 912.0,
+      "time": "2026-09-29",
+      "volume": 812673
+    },
+    {
+      "close": 953.75,
+      "high": 1002.4,
+      "low": 943.0,
+      "open": 983.5,
+      "time": "2026-09-30",
+      "volume": 951362
+    },
+    {
+      "close": 968.5,
+      "high": 984.85,
+      "low": 921.75,
+      "open": 953.0,
+      "time": "2026-10-01",
+      "volume": 658749
     }
   ],
   "company_name": "Aarti Pharmalabs Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE0LRU01027",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": false,
+    "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 82,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.65x"
+    "momentum_score": 84,
+    "setup_type": "Minervini VCP",
+    "volume_multiplier": "0.76x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -25.55,
-    "change_pct": -2.72,
-    "close": 914.0,
-    "previous_close": 939.55,
+    "as_of": "2026-10-01",
+    "change": 14.75,
+    "change_pct": 1.55,
+    "close": 968.5,
+    "previous_close": 953.75,
     "type": "EOD_CLOSE",
-    "volume": 528118
+    "volume": 658749
   },
   "range": {
-    "distance_from_high_pct": -4.99,
-    "distance_from_low_pct": 56.24,
-    "high_52w": 962.0,
+    "distance_from_high_pct": -3.38,
+    "distance_from_low_pct": 65.56,
+    "high_52w": 1002.4,
     "history_basis": "52_WEEK",
     "low_52w": 585.0,
-    "range_position_pct": 87.27
+    "range_position_pct": 91.88
   },
   "risk_model": {
-    "invalidation_floor": 882.01,
-    "risk_per_share": 50.27,
-    "technical_pivot": 932.28
+    "invalidation_floor": 934.6,
+    "risk_per_share": 53.27,
+    "technical_pivot": 987.87
   },
   "schema_version": "1.0",
   "sector": null,

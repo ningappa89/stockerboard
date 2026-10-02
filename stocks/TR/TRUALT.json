@@ -1945,14 +1945,38 @@
       "open": 446.0,
       "time": "2026-09-28",
       "volume": 648345
+    },
+    {
+      "close": 458.4,
+      "high": 464.0,
+      "low": 452.7,
+      "open": 459.9,
+      "time": "2026-09-29",
+      "volume": 258126
+    },
+    {
+      "close": 468.65,
+      "high": 472.5,
+      "low": 447.05,
+      "open": 458.4,
+      "time": "2026-09-30",
+      "volume": 396825
+    },
+    {
+      "close": 444.3,
+      "high": 469.9,
+      "low": 439.8,
+      "open": 469.9,
+      "time": "2026-10-01",
+      "volume": 290950
     }
   ],
   "company_name": "TRUALT BIOENERGY LIMITED",
   "history": {
     "first_session": "2025-10-03",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 243
+    "last_session": "2026-10-01",
+    "sessions_available": 246
   },
   "industry": null,
   "isin": "INE0MWH01014",
@@ -1960,31 +1984,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.35x"
+    "momentum_score": 61,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.97x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 16.25,
-    "change_pct": 3.68,
-    "close": 458.15,
-    "previous_close": 441.9,
+    "as_of": "2026-10-01",
+    "change": -24.35,
+    "change_pct": -5.2,
+    "close": 444.3,
+    "previous_close": 468.65,
     "type": "EOD_CLOSE",
-    "volume": 648345
+    "volume": 290950
   },
   "range": {
-    "distance_from_high_pct": -16.55,
-    "distance_from_low_pct": 47.7,
+    "distance_from_high_pct": -19.07,
+    "distance_from_low_pct": 43.23,
     "high_52w": 549.0,
     "history_basis": "52_WEEK",
     "low_52w": 310.2,
-    "range_position_pct": 61.96
+    "range_position_pct": 56.16
   },
   "risk_model": {
-    "invalidation_floor": 442.11,
-    "risk_per_share": 25.2,
-    "technical_pivot": 467.31
+    "invalidation_floor": 428.75,
+    "risk_per_share": 24.44,
+    "technical_pivot": 453.19
   },
   "schema_version": "1.0",
   "sector": null,

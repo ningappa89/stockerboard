@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 74.26,
-      "high": 74.78,
-      "low": 73.88,
-      "open": 74.7,
-      "time": "2025-09-19",
-      "volume": 419297
-    },
-    {
-      "close": 73.56,
-      "high": 75.0,
-      "low": 73.49,
-      "open": 74.26,
-      "time": "2025-09-22",
-      "volume": 658654
-    },
-    {
-      "close": 73.5,
-      "high": 74.62,
-      "low": 73.11,
-      "open": 73.89,
-      "time": "2025-09-23",
-      "volume": 336062
-    },
-    {
       "close": 72.85,
       "high": 73.68,
       "low": 72.5,
@@ -2017,13 +1993,37 @@
       "open": 49.13,
       "time": "2026-09-28",
       "volume": 1385706
+    },
+    {
+      "close": 45.98,
+      "high": 47.01,
+      "low": 45.72,
+      "open": 47.0,
+      "time": "2026-09-29",
+      "volume": 1027636
+    },
+    {
+      "close": 45.62,
+      "high": 47.17,
+      "low": 45.31,
+      "open": 46.05,
+      "time": "2026-09-30",
+      "volume": 928628
+    },
+    {
+      "close": 44.62,
+      "high": 45.61,
+      "low": 43.68,
+      "open": 45.61,
+      "time": "2026-10-01",
+      "volume": 1389318
     }
   ],
   "company_name": "DCW LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "0.68x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.91,
-    "change_pct": -3.92,
-    "close": 46.81,
-    "previous_close": 48.72,
+    "as_of": "2026-10-01",
+    "change": -1.0,
+    "change_pct": -2.19,
+    "close": 44.62,
+    "previous_close": 45.62,
     "type": "EOD_CLOSE",
-    "volume": 1385706
+    "volume": 1389318
   },
   "range": {
-    "distance_from_high_pct": -37.59,
-    "distance_from_low_pct": 26.14,
-    "high_52w": 75.0,
+    "distance_from_high_pct": -39.44,
+    "distance_from_low_pct": 20.24,
+    "high_52w": 73.68,
     "history_basis": "52_WEEK",
     "low_52w": 37.11,
-    "range_position_pct": 25.6
+    "range_position_pct": 20.54
   },
   "risk_model": {
-    "invalidation_floor": 45.17,
-    "risk_per_share": 2.58,
-    "technical_pivot": 47.75
+    "invalidation_floor": 43.06,
+    "risk_per_share": 2.45,
+    "technical_pivot": 45.51
   },
   "schema_version": "1.0",
   "sector": null,

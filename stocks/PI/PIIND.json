@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3731.2,
-      "high": 3769.2,
-      "low": 3708.0,
-      "open": 3728.2,
-      "time": "2025-09-19",
-      "volume": 569442
-    },
-    {
-      "close": 3668.9,
-      "high": 3745.0,
-      "low": 3661.2,
-      "open": 3745.0,
-      "time": "2025-09-22",
-      "volume": 133893
-    },
-    {
-      "close": 3625.8,
-      "high": 3681.0,
-      "low": 3592.8,
-      "open": 3668.9,
-      "time": "2025-09-23",
-      "volume": 184263
-    },
-    {
       "close": 3629.0,
       "high": 3644.8,
       "low": 3593.0,
@@ -2017,13 +1993,37 @@
       "open": 2398.4,
       "time": "2026-09-28",
       "volume": 113053
+    },
+    {
+      "close": 2288.8,
+      "high": 2339.0,
+      "low": 2288.8,
+      "open": 2327.5,
+      "time": "2026-09-29",
+      "volume": 186578
+    },
+    {
+      "close": 2310.0,
+      "high": 2322.8,
+      "low": 2270.0,
+      "open": 2290.0,
+      "time": "2026-09-30",
+      "volume": 174009
+    },
+    {
+      "close": 2236.0,
+      "high": 2302.4,
+      "low": 2220.0,
+      "open": 2302.4,
+      "time": "2026-10-01",
+      "volume": 125263
     }
   ],
   "company_name": "P.I.INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Chemicals",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.4x"
+    "volume_multiplier": "0.45x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -51.0,
-    "change_pct": -2.12,
-    "close": 2349.0,
-    "previous_close": 2400.0,
+    "as_of": "2026-10-01",
+    "change": -74.0,
+    "change_pct": -3.2,
+    "close": 2236.0,
+    "previous_close": 2310.0,
     "type": "EOD_CLOSE",
-    "volume": 113053
+    "volume": 125263
   },
   "range": {
-    "distance_from_high_pct": -38.71,
-    "distance_from_low_pct": 7.21,
+    "distance_from_high_pct": -41.66,
+    "distance_from_low_pct": 2.05,
     "high_52w": 3832.9,
     "history_basis": "52_WEEK",
     "low_52w": 2191.0,
-    "range_position_pct": 9.62
+    "range_position_pct": 2.74
   },
   "risk_model": {
-    "invalidation_floor": 2266.78,
-    "risk_per_share": 129.2,
-    "technical_pivot": 2395.98
+    "invalidation_floor": 2157.74,
+    "risk_per_share": 122.98,
+    "technical_pivot": 2280.72
   },
   "schema_version": "1.0",
   "sector": "Chemicals",

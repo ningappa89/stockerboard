@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 347.9,
-      "high": 354.0,
-      "low": 347.1,
-      "open": 352.45,
-      "time": "2025-09-19",
-      "volume": 100823
-    },
-    {
-      "close": 354.1,
-      "high": 359.0,
-      "low": 345.8,
-      "open": 347.9,
-      "time": "2025-09-22",
-      "volume": 207608
-    },
-    {
-      "close": 347.75,
-      "high": 355.45,
-      "low": 347.2,
-      "open": 355.4,
-      "time": "2025-09-23",
-      "volume": 54118
-    },
-    {
       "close": 340.65,
       "high": 349.8,
       "low": 336.4,
@@ -2017,13 +1993,37 @@
       "open": 490.45,
       "time": "2026-09-28",
       "volume": 295542
+    },
+    {
+      "close": 478.25,
+      "high": 484.5,
+      "low": 459.8,
+      "open": 476.25,
+      "time": "2026-09-29",
+      "volume": 249852
+    },
+    {
+      "close": 471.85,
+      "high": 482.45,
+      "low": 463.0,
+      "open": 479.1,
+      "time": "2026-09-30",
+      "volume": 211572
+    },
+    {
+      "close": 466.75,
+      "high": 473.0,
+      "low": 451.25,
+      "open": 472.85,
+      "time": "2026-10-01",
+      "volume": 229027
     }
   ],
   "company_name": "ASIAN ENERGY SERVICES LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "0.52x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -13.6,
-    "change_pct": -2.79,
-    "close": 474.15,
-    "previous_close": 487.75,
+    "as_of": "2026-10-01",
+    "change": -5.1,
+    "change_pct": -1.08,
+    "close": 466.75,
+    "previous_close": 471.85,
     "type": "EOD_CLOSE",
-    "volume": 295542
+    "volume": 229027
   },
   "range": {
-    "distance_from_high_pct": -16.18,
-    "distance_from_low_pct": 106.15,
+    "distance_from_high_pct": -17.49,
+    "distance_from_low_pct": 102.93,
     "high_52w": 565.7,
     "history_basis": "52_WEEK",
     "low_52w": 230.0,
-    "range_position_pct": 72.73
+    "range_position_pct": 70.52
   },
   "risk_model": {
-    "invalidation_floor": 457.55,
-    "risk_per_share": 26.08,
-    "technical_pivot": 483.63
+    "invalidation_floor": 450.41,
+    "risk_per_share": 25.68,
+    "technical_pivot": 476.09
   },
   "schema_version": "1.0",
   "sector": null,

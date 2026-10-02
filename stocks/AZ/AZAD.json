@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1665.7,
-      "high": 1705.0,
-      "low": 1633.1,
-      "open": 1645.0,
-      "time": "2025-09-19",
-      "volume": 1565192
-    },
-    {
-      "close": 1634.7,
-      "high": 1685.1,
-      "low": 1629.3,
-      "open": 1675.0,
-      "time": "2025-09-22",
-      "volume": 161514
-    },
-    {
-      "close": 1614.1,
-      "high": 1634.7,
-      "low": 1601.7,
-      "open": 1632.0,
-      "time": "2025-09-23",
-      "volume": 87623
-    },
-    {
       "close": 1616.2,
       "high": 1626.2,
       "low": 1600.2,
@@ -2017,13 +1993,37 @@
       "open": 2740.0,
       "time": "2026-09-28",
       "volume": 439192
+    },
+    {
+      "close": 2914.2,
+      "high": 2998.0,
+      "low": 2751.1,
+      "open": 2779.0,
+      "time": "2026-09-29",
+      "volume": 5323693
+    },
+    {
+      "close": 2963.2,
+      "high": 3127.9,
+      "low": 2875.6,
+      "open": 2941.0,
+      "time": "2026-09-30",
+      "volume": 5708538
+    },
+    {
+      "close": 2860.9,
+      "high": 2982.0,
+      "low": 2825.1,
+      "open": 2982.0,
+      "time": "2026-10-01",
+      "volume": 1334621
     }
   ],
   "company_name": "Azad Engineering Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 76,
+    "momentum_score": 77,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.15x"
+    "volume_multiplier": "1.44x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.8,
-    "change_pct": -0.18,
-    "close": 2723.2,
-    "previous_close": 2728.0,
+    "as_of": "2026-10-01",
+    "change": -102.3,
+    "change_pct": -3.45,
+    "close": 2860.9,
+    "previous_close": 2963.2,
     "type": "EOD_CLOSE",
-    "volume": 439192
+    "volume": 1334621
   },
   "range": {
-    "distance_from_high_pct": -8.82,
-    "distance_from_low_pct": 100.24,
-    "high_52w": 2986.6,
+    "distance_from_high_pct": -8.54,
+    "distance_from_low_pct": 110.36,
+    "high_52w": 3127.9,
     "history_basis": "52_WEEK",
     "low_52w": 1360.0,
-    "range_position_pct": 83.81
+    "range_position_pct": 84.9
   },
   "risk_model": {
-    "invalidation_floor": 2627.89,
-    "risk_per_share": 149.77,
-    "technical_pivot": 2777.66
+    "invalidation_floor": 2760.77,
+    "risk_per_share": 157.35,
+    "technical_pivot": 2918.12
   },
   "schema_version": "1.0",
   "sector": null,

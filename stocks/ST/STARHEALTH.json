@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 449.5,
-      "high": 457.3,
-      "low": 445.55,
-      "open": 448.0,
-      "time": "2025-09-19",
-      "volume": 1342269
-    },
-    {
-      "close": 448.7,
-      "high": 454.95,
-      "low": 447.8,
-      "open": 450.0,
-      "time": "2025-09-22",
-      "volume": 336977
-    },
-    {
-      "close": 450.85,
-      "high": 452.25,
-      "low": 447.55,
-      "open": 448.7,
-      "time": "2025-09-23",
-      "volume": 309690
-    },
-    {
       "close": 456.3,
       "high": 460.85,
       "low": 449.0,
@@ -2017,13 +1993,37 @@
       "open": 550.8,
       "time": "2026-09-28",
       "volume": 369082
+    },
+    {
+      "close": 538.1,
+      "high": 561.65,
+      "low": 535.9,
+      "open": 550.0,
+      "time": "2026-09-29",
+      "volume": 631624
+    },
+    {
+      "close": 534.65,
+      "high": 542.8,
+      "low": 531.35,
+      "open": 538.1,
+      "time": "2026-09-30",
+      "volume": 240982
+    },
+    {
+      "close": 537.7,
+      "high": 543.0,
+      "low": 523.05,
+      "open": 536.45,
+      "time": "2026-10-01",
+      "volume": 1268853
     }
   ],
   "company_name": "Star Health and Allied Insuran",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 72,
+    "is_stage2": false,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.36x"
+    "volume_multiplier": "1.17x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.65,
-    "change_pct": -1.01,
-    "close": 552.5,
-    "previous_close": 558.15,
+    "as_of": "2026-10-01",
+    "change": 3.05,
+    "change_pct": 0.57,
+    "close": 537.7,
+    "previous_close": 534.65,
     "type": "EOD_CLOSE",
-    "volume": 369082
+    "volume": 1268853
   },
   "range": {
-    "distance_from_high_pct": -11.59,
-    "distance_from_low_pct": 32.64,
+    "distance_from_high_pct": -13.95,
+    "distance_from_low_pct": 29.08,
     "high_52w": 624.9,
     "history_basis": "52_WEEK",
     "low_52w": 416.55,
-    "range_position_pct": 65.25
+    "range_position_pct": 58.15
   },
   "risk_model": {
-    "invalidation_floor": 533.16,
-    "risk_per_share": 30.39,
-    "technical_pivot": 563.55
+    "invalidation_floor": 518.88,
+    "risk_per_share": 29.57,
+    "technical_pivot": 548.45
   },
   "schema_version": "1.0",
   "sector": null,

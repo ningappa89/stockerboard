@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 168.62,
-      "high": 172.9,
-      "low": 168.0,
-      "open": 172.9,
-      "time": "2025-09-19",
-      "volume": 260089
-    },
-    {
-      "close": 168.66,
-      "high": 169.5,
-      "low": 167.3,
-      "open": 168.0,
-      "time": "2025-09-22",
-      "volume": 140181
-    },
-    {
-      "close": 167.98,
-      "high": 170.29,
-      "low": 167.3,
-      "open": 170.29,
-      "time": "2025-09-23",
-      "volume": 107922
-    },
-    {
       "close": 167.94,
       "high": 172.8,
       "low": 166.95,
@@ -2017,13 +1993,37 @@
       "open": 82.02,
       "time": "2026-09-28",
       "volume": 232002
+    },
+    {
+      "close": 81.07,
+      "high": 82.19,
+      "low": 79.2,
+      "open": 80.53,
+      "time": "2026-09-29",
+      "volume": 434421
+    },
+    {
+      "close": 83.68,
+      "high": 84.56,
+      "low": 81.15,
+      "open": 81.67,
+      "time": "2026-09-30",
+      "volume": 277232
+    },
+    {
+      "close": 82.35,
+      "high": 83.44,
+      "low": 80.8,
+      "open": 82.86,
+      "time": "2026-10-01",
+      "volume": 149035
     }
   ],
   "company_name": "UGRO CAPITAL LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.33x"
+    "volume_multiplier": "0.77x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.73,
-    "change_pct": -2.11,
-    "close": 80.29,
-    "previous_close": 82.02,
+    "as_of": "2026-10-01",
+    "change": -1.33,
+    "change_pct": -1.59,
+    "close": 82.35,
+    "previous_close": 83.68,
     "type": "EOD_CLOSE",
-    "volume": 232002
+    "volume": 149035
   },
   "range": {
-    "distance_from_high_pct": -58.29,
-    "distance_from_low_pct": 0.21,
+    "distance_from_high_pct": -57.22,
+    "distance_from_low_pct": 3.98,
     "high_52w": 192.5,
     "history_basis": "52_WEEK",
-    "low_52w": 80.12,
-    "range_position_pct": 0.15
+    "low_52w": 79.2,
+    "range_position_pct": 2.78
   },
   "risk_model": {
-    "invalidation_floor": 77.48,
-    "risk_per_share": 4.42,
-    "technical_pivot": 81.9
+    "invalidation_floor": 79.47,
+    "risk_per_share": 4.53,
+    "technical_pivot": 84.0
   },
   "schema_version": "1.0",
   "sector": null,

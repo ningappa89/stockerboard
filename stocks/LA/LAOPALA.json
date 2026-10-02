@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 252.17,
-      "high": 253.9,
-      "low": 250.11,
-      "open": 252.1,
-      "time": "2025-09-19",
-      "volume": 72465
-    },
-    {
-      "close": 250.02,
-      "high": 252.0,
-      "low": 245.85,
-      "open": 245.85,
-      "time": "2025-09-22",
-      "volume": 48569
-    },
-    {
-      "close": 252.78,
-      "high": 259.7,
-      "low": 248.47,
-      "open": 250.1,
-      "time": "2025-09-23",
-      "volume": 139008
-    },
-    {
       "close": 251.18,
       "high": 258.0,
       "low": 250.1,
@@ -2017,13 +1993,37 @@
       "open": 160.56,
       "time": "2026-09-28",
       "volume": 227868
+    },
+    {
+      "close": 156.71,
+      "high": 157.99,
+      "low": 153.01,
+      "open": 156.0,
+      "time": "2026-09-29",
+      "volume": 79146
+    },
+    {
+      "close": 156.18,
+      "high": 158.69,
+      "low": 155.31,
+      "open": 156.8,
+      "time": "2026-09-30",
+      "volume": 57031
+    },
+    {
+      "close": 156.11,
+      "high": 158.4,
+      "low": 153.45,
+      "open": 156.18,
+      "time": "2026-10-01",
+      "volume": 104311
     }
   ],
   "company_name": "LA OPALA RG LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.52x"
+    "volume_multiplier": "0.71x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.9,
-    "change_pct": -3.05,
-    "close": 155.88,
-    "previous_close": 160.78,
+    "as_of": "2026-10-01",
+    "change": -0.07,
+    "change_pct": -0.04,
+    "close": 156.11,
+    "previous_close": 156.18,
     "type": "EOD_CLOSE",
-    "volume": 227868
+    "volume": 104311
   },
   "range": {
-    "distance_from_high_pct": -39.98,
-    "distance_from_low_pct": 0.57,
-    "high_52w": 259.7,
+    "distance_from_high_pct": -39.49,
+    "distance_from_low_pct": 2.03,
+    "high_52w": 258.0,
     "history_basis": "52_WEEK",
-    "low_52w": 155.0,
-    "range_position_pct": 0.84
+    "low_52w": 153.01,
+    "range_position_pct": 2.95
   },
   "risk_model": {
-    "invalidation_floor": 150.42,
+    "invalidation_floor": 150.65,
     "risk_per_share": 8.58,
-    "technical_pivot": 159.0
+    "technical_pivot": 159.23
   },
   "schema_version": "1.0",
   "sector": null,

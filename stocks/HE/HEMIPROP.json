@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 170.48,
-      "high": 172.4,
-      "low": 168.7,
-      "open": 170.19,
-      "time": "2025-09-19",
-      "volume": 634012
-    },
-    {
-      "close": 174.94,
-      "high": 179.0,
-      "low": 170.2,
-      "open": 171.25,
-      "time": "2025-09-22",
-      "volume": 2264301
-    },
-    {
-      "close": 173.93,
-      "high": 177.0,
-      "low": 171.62,
-      "open": 175.5,
-      "time": "2025-09-23",
-      "volume": 778807
-    },
-    {
       "close": 168.33,
       "high": 174.35,
       "low": 167.32,
@@ -2017,13 +1993,37 @@
       "open": 120.49,
       "time": "2026-09-28",
       "volume": 370669
+    },
+    {
+      "close": 114.94,
+      "high": 115.95,
+      "low": 113.11,
+      "open": 115.9,
+      "time": "2026-09-29",
+      "volume": 747785
+    },
+    {
+      "close": 114.07,
+      "high": 117.09,
+      "low": 113.63,
+      "open": 115.95,
+      "time": "2026-09-30",
+      "volume": 198593
+    },
+    {
+      "close": 111.5,
+      "high": 114.07,
+      "low": 109.81,
+      "open": 114.05,
+      "time": "2026-10-01",
+      "volume": 750373
     }
   ],
   "company_name": "HEMISPHERE PROP IND LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.46x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.43x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.41,
-    "change_pct": -3.66,
-    "close": 115.95,
-    "previous_close": 120.36,
+    "as_of": "2026-10-01",
+    "change": -2.57,
+    "change_pct": -2.25,
+    "close": 111.5,
+    "previous_close": 114.07,
     "type": "EOD_CLOSE",
-    "volume": 370669
+    "volume": 750373
   },
   "range": {
-    "distance_from_high_pct": -39.19,
-    "distance_from_low_pct": 4.27,
+    "distance_from_high_pct": -41.53,
+    "distance_from_low_pct": 1.54,
     "high_52w": 190.69,
     "history_basis": "52_WEEK",
-    "low_52w": 111.2,
-    "range_position_pct": 5.98
+    "low_52w": 109.81,
+    "range_position_pct": 2.09
   },
   "risk_model": {
-    "invalidation_floor": 111.89,
-    "risk_per_share": 6.38,
-    "technical_pivot": 118.27
+    "invalidation_floor": 107.6,
+    "risk_per_share": 6.13,
+    "technical_pivot": 113.73
   },
   "schema_version": "1.0",
   "sector": null,

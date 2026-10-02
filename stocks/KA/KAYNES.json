@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 7151.5,
-      "high": 7344.5,
-      "low": 6882.0,
-      "open": 7225.0,
-      "time": "2025-09-19",
-      "volume": 1246689
-    },
-    {
-      "close": 7083.5,
-      "high": 7270.0,
-      "low": 7067.0,
-      "open": 7100.0,
-      "time": "2025-09-22",
-      "volume": 355487
-    },
-    {
-      "close": 7242.0,
-      "high": 7299.0,
-      "low": 7100.0,
-      "open": 7100.0,
-      "time": "2025-09-23",
-      "volume": 433904
-    },
-    {
       "close": 7454.0,
       "high": 7527.0,
       "low": 7224.0,
@@ -2017,13 +1993,37 @@
       "open": 3623.8,
       "time": "2026-09-28",
       "volume": 983180
+    },
+    {
+      "close": 3511.5,
+      "high": 3707.2,
+      "low": 3500.0,
+      "open": 3650.0,
+      "time": "2026-09-29",
+      "volume": 1474271
+    },
+    {
+      "close": 3501.0,
+      "high": 3611.0,
+      "low": 3501.0,
+      "open": 3520.4,
+      "time": "2026-09-30",
+      "volume": 720015
+    },
+    {
+      "close": 3399.0,
+      "high": 3549.6,
+      "low": 3337.2,
+      "open": 3510.0,
+      "time": "2026-10-01",
+      "volume": 964281
     }
   ],
   "company_name": "KAYNES TECHNOLOGY IND LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.86x"
+    "volume_multiplier": "0.88x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 8.0,
-    "change_pct": 0.22,
-    "close": 3658.0,
-    "previous_close": 3650.0,
+    "as_of": "2026-10-01",
+    "change": -102.0,
+    "change_pct": -2.91,
+    "close": 3399.0,
+    "previous_close": 3501.0,
     "type": "EOD_CLOSE",
-    "volume": 983180
+    "volume": 964281
   },
   "range": {
-    "distance_from_high_pct": -52.52,
-    "distance_from_low_pct": 22.14,
+    "distance_from_high_pct": -55.89,
+    "distance_from_low_pct": 13.49,
     "high_52w": 7705.0,
     "history_basis": "52_WEEK",
     "low_52w": 2995.0,
-    "range_position_pct": 14.08
+    "range_position_pct": 8.58
   },
   "risk_model": {
-    "invalidation_floor": 3529.97,
-    "risk_per_share": 201.19,
-    "technical_pivot": 3731.16
+    "invalidation_floor": 3280.03,
+    "risk_per_share": 186.95,
+    "technical_pivot": 3466.98
   },
   "schema_version": "1.0",
   "sector": null,

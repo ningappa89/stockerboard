@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1030.7,
-      "high": 1071.0,
-      "low": 1003.0,
-      "open": 1025.0,
-      "time": "2025-09-19",
-      "volume": 17650332
-    },
-    {
-      "close": 1152.15,
-      "high": 1177.55,
-      "low": 1035.85,
-      "open": 1040.0,
-      "time": "2025-09-22",
-      "volume": 37416287
-    },
-    {
-      "close": 1131.45,
-      "high": 1177.3,
-      "low": 1120.8,
-      "open": 1164.0,
-      "time": "2025-09-23",
-      "volume": 14163567
-    },
-    {
       "close": 1095.25,
       "high": 1141.7,
       "low": 1090.45,
@@ -2017,13 +1993,37 @@
       "open": 1290.4,
       "time": "2026-09-28",
       "volume": 1819424
+    },
+    {
+      "close": 1260.0,
+      "high": 1260.0,
+      "low": 1223.6,
+      "open": 1235.0,
+      "time": "2026-09-29",
+      "volume": 1615165
+    },
+    {
+      "close": 1278.0,
+      "high": 1284.8,
+      "low": 1250.4,
+      "open": 1250.4,
+      "time": "2026-09-30",
+      "volume": 1452231
+    },
+    {
+      "close": 1276.1,
+      "high": 1298.0,
+      "low": 1260.3,
+      "open": 1274.1,
+      "time": "2026-10-01",
+      "volume": 6355094
     }
   ],
   "company_name": "Adani Green Energy Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 53,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.25x"
+    "momentum_score": 57,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "4.36x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -61.6,
-    "change_pct": -4.75,
-    "close": 1235.0,
-    "previous_close": 1296.6,
+    "as_of": "2026-10-01",
+    "change": -1.9,
+    "change_pct": -0.15,
+    "close": 1276.1,
+    "previous_close": 1278.0,
     "type": "EOD_CLOSE",
-    "volume": 1819424
+    "volume": 6355094
   },
   "range": {
-    "distance_from_high_pct": -24.3,
-    "distance_from_low_pct": 61.44,
+    "distance_from_high_pct": -21.78,
+    "distance_from_low_pct": 66.81,
     "high_52w": 1631.5,
     "history_basis": "52_WEEK",
     "low_52w": 765.0,
-    "range_position_pct": 54.24
+    "range_position_pct": 58.98
   },
   "risk_model": {
-    "invalidation_floor": 1191.77,
-    "risk_per_share": 67.93,
-    "technical_pivot": 1259.7
+    "invalidation_floor": 1231.44,
+    "risk_per_share": 70.18,
+    "technical_pivot": 1301.62
   },
   "schema_version": "1.0",
   "sector": null,

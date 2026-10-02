@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 943.05,
-      "high": 946.45,
-      "low": 930.5,
-      "open": 944.5,
-      "time": "2025-09-19",
-      "volume": 26358
-    },
-    {
-      "close": 959.3,
-      "high": 974.0,
-      "low": 935.1,
-      "open": 953.0,
-      "time": "2025-09-22",
-      "volume": 37797
-    },
-    {
-      "close": 947.95,
-      "high": 962.55,
-      "low": 945.0,
-      "open": 962.0,
-      "time": "2025-09-23",
-      "volume": 11922
-    },
-    {
       "close": 935.35,
       "high": 961.4,
       "low": 930.0,
@@ -2017,13 +1993,37 @@
       "open": 1719.0,
       "time": "2026-09-28",
       "volume": 29302
+    },
+    {
+      "close": 1653.2,
+      "high": 1686.8,
+      "low": 1644.0,
+      "open": 1684.2,
+      "time": "2026-09-29",
+      "volume": 46114
+    },
+    {
+      "close": 1641.6,
+      "high": 1739.7,
+      "low": 1609.7,
+      "open": 1685.0,
+      "time": "2026-09-30",
+      "volume": 71134
+    },
+    {
+      "close": 1594.7,
+      "high": 1652.5,
+      "low": 1559.2,
+      "open": 1617.8,
+      "time": "2026-10-01",
+      "volume": 102750
     }
   ],
   "company_name": "SEAMEC LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 76,
+    "is_stage2": false,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.41x"
+    "volume_multiplier": "1.49x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -27.9,
-    "change_pct": -1.63,
-    "close": 1684.3,
-    "previous_close": 1712.2,
+    "as_of": "2026-10-01",
+    "change": -46.9,
+    "change_pct": -2.86,
+    "close": 1594.7,
+    "previous_close": 1641.6,
     "type": "EOD_CLOSE",
-    "volume": 29302
+    "volume": 102750
   },
   "range": {
-    "distance_from_high_pct": -8.91,
-    "distance_from_low_pct": 118.24,
+    "distance_from_high_pct": -13.75,
+    "distance_from_low_pct": 106.63,
     "high_52w": 1849.0,
     "history_basis": "52_WEEK",
     "low_52w": 771.75,
-    "range_position_pct": 84.71
+    "range_position_pct": 76.39
   },
   "risk_model": {
-    "invalidation_floor": 1625.35,
-    "risk_per_share": 92.64,
-    "technical_pivot": 1717.99
+    "invalidation_floor": 1538.89,
+    "risk_per_share": 87.7,
+    "technical_pivot": 1626.59
   },
   "schema_version": "1.0",
   "sector": null,

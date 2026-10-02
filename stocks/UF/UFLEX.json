@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 553.55,
-      "high": 556.1,
-      "low": 551.55,
-      "open": 553.7,
-      "time": "2025-09-19",
-      "volume": 12289
-    },
-    {
-      "close": 550.0,
-      "high": 556.4,
-      "low": 549.0,
-      "open": 553.0,
-      "time": "2025-09-22",
-      "volume": 16810
-    },
-    {
-      "close": 549.6,
-      "high": 555.4,
-      "low": 548.0,
-      "open": 551.0,
-      "time": "2025-09-23",
-      "volume": 5671
-    },
-    {
       "close": 546.7,
       "high": 554.45,
       "low": 542.0,
@@ -2017,13 +1993,37 @@
       "open": 669.0,
       "time": "2026-09-28",
       "volume": 116083
+    },
+    {
+      "close": 647.7,
+      "high": 660.9,
+      "low": 636.8,
+      "open": 640.15,
+      "time": "2026-09-29",
+      "volume": 162208
+    },
+    {
+      "close": 657.85,
+      "high": 671.0,
+      "low": 652.0,
+      "open": 656.0,
+      "time": "2026-09-30",
+      "volume": 159191
+    },
+    {
+      "close": 649.85,
+      "high": 664.85,
+      "low": 640.2,
+      "open": 663.9,
+      "time": "2026-10-01",
+      "volume": 150979
     }
   ],
   "company_name": "UFLEX LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 73,
+    "momentum_score": 74,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.39x"
+    "volume_multiplier": "0.87x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -22.25,
-    "change_pct": -3.35,
-    "close": 641.95,
-    "previous_close": 664.2,
+    "as_of": "2026-10-01",
+    "change": -8.0,
+    "change_pct": -1.22,
+    "close": 649.85,
+    "previous_close": 657.85,
     "type": "EOD_CLOSE",
-    "volume": 116083
+    "volume": 150979
   },
   "range": {
-    "distance_from_high_pct": -11.27,
-    "distance_from_low_pct": 94.53,
+    "distance_from_high_pct": -10.18,
+    "distance_from_low_pct": 96.92,
     "high_52w": 723.5,
     "history_basis": "52_WEEK",
     "low_52w": 330.0,
-    "range_position_pct": 79.28
+    "range_position_pct": 81.28
   },
   "risk_model": {
-    "invalidation_floor": 619.48,
-    "risk_per_share": 35.31,
-    "technical_pivot": 654.79
+    "invalidation_floor": 627.11,
+    "risk_per_share": 35.74,
+    "technical_pivot": 662.85
   },
   "schema_version": "1.0",
   "sector": null,

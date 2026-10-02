@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 533.8,
-      "high": 536.8,
-      "low": 518.0,
-      "open": 521.7,
-      "time": "2025-09-19",
-      "volume": 1119920
-    },
-    {
-      "close": 535.9,
-      "high": 546.0,
-      "low": 526.1,
-      "open": 536.45,
-      "time": "2025-09-22",
-      "volume": 1443362
-    },
-    {
-      "close": 536.25,
-      "high": 552.0,
-      "low": 528.0,
-      "open": 538.4,
-      "time": "2025-09-23",
-      "volume": 1849452
-    },
-    {
       "close": 524.2,
       "high": 538.4,
       "low": 521.0,
@@ -2017,13 +1993,37 @@
       "open": 276.0,
       "time": "2026-09-28",
       "volume": 669415
+    },
+    {
+      "close": 272.85,
+      "high": 275.85,
+      "low": 266.6,
+      "open": 272.0,
+      "time": "2026-09-29",
+      "volume": 1066716
+    },
+    {
+      "close": 270.1,
+      "high": 278.0,
+      "low": 268.0,
+      "open": 274.85,
+      "time": "2026-09-30",
+      "volume": 783795
+    },
+    {
+      "close": 280.8,
+      "high": 298.6,
+      "low": 271.1,
+      "open": 271.1,
+      "time": "2026-10-01",
+      "volume": 57280414
     }
   ],
   "company_name": "TRANS & RECTI. LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.47x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "15.53x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -7.2,
-    "change_pct": -2.59,
-    "close": 270.45,
-    "previous_close": 277.65,
+    "as_of": "2026-10-01",
+    "change": 10.7,
+    "change_pct": 3.96,
+    "close": 280.8,
+    "previous_close": 270.1,
     "type": "EOD_CLOSE",
-    "volume": 669415
+    "volume": 57280414
   },
   "range": {
-    "distance_from_high_pct": -51.01,
-    "distance_from_low_pct": 20.71,
-    "high_52w": 552.0,
+    "distance_from_high_pct": -47.85,
+    "distance_from_low_pct": 25.33,
+    "high_52w": 538.4,
     "history_basis": "52_WEEK",
     "low_52w": 224.05,
-    "range_position_pct": 14.15
+    "range_position_pct": 18.05
   },
   "risk_model": {
-    "invalidation_floor": 260.98,
-    "risk_per_share": 14.88,
-    "technical_pivot": 275.86
+    "invalidation_floor": 270.97,
+    "risk_per_share": 15.45,
+    "technical_pivot": 286.42
   },
   "schema_version": "1.0",
   "sector": null,

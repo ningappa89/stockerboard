@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 116.04,
-      "high": 116.72,
-      "low": 114.77,
-      "open": 116.2,
-      "time": "2025-09-19",
-      "volume": 66167
-    },
-    {
-      "close": 115.58,
-      "high": 117.9,
-      "low": 114.54,
-      "open": 116.04,
-      "time": "2025-09-22",
-      "volume": 101922
-    },
-    {
-      "close": 115.08,
-      "high": 116.8,
-      "low": 114.81,
-      "open": 115.5,
-      "time": "2025-09-23",
-      "volume": 36897
-    },
-    {
       "close": 113.28,
       "high": 115.1,
       "low": 112.71,
@@ -2017,13 +1993,37 @@
       "open": 88.2,
       "time": "2026-09-28",
       "volume": 30052
+    },
+    {
+      "close": 84.55,
+      "high": 85.82,
+      "low": 83.0,
+      "open": 85.13,
+      "time": "2026-09-29",
+      "volume": 44511
+    },
+    {
+      "close": 101.22,
+      "high": 101.46,
+      "low": 87.19,
+      "open": 90.0,
+      "time": "2026-09-30",
+      "volume": 3656608
+    },
+    {
+      "close": 95.52,
+      "high": 104.8,
+      "low": 94.22,
+      "open": 102.0,
+      "time": "2026-10-01",
+      "volume": 807322
     }
   ],
   "company_name": "ESTER INDUSTRIES LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.52x"
+    "momentum_score": 48,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "3.01x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.91,
-    "change_pct": -1.06,
-    "close": 85.23,
-    "previous_close": 86.14,
+    "as_of": "2026-10-01",
+    "change": -5.7,
+    "change_pct": -5.63,
+    "close": 95.52,
+    "previous_close": 101.22,
     "type": "EOD_CLOSE",
-    "volume": 30052
+    "volume": 807322
   },
   "range": {
-    "distance_from_high_pct": -35.65,
-    "distance_from_low_pct": 24.33,
+    "distance_from_high_pct": -27.88,
+    "distance_from_low_pct": 39.34,
     "high_52w": 132.45,
     "history_basis": "52_WEEK",
     "low_52w": 68.55,
-    "range_position_pct": 26.1
+    "range_position_pct": 42.21
   },
   "risk_model": {
-    "invalidation_floor": 82.25,
-    "risk_per_share": 4.68,
-    "technical_pivot": 86.93
+    "invalidation_floor": 92.18,
+    "risk_per_share": 5.25,
+    "technical_pivot": 97.43
   },
   "schema_version": "1.0",
   "sector": null,

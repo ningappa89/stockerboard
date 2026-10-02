@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 110.07,
-      "high": 112.88,
-      "low": 109.0,
-      "open": 111.8,
-      "time": "2025-09-19",
-      "volume": 109068
-    },
-    {
-      "close": 108.54,
-      "high": 111.19,
-      "low": 107.64,
-      "open": 108.06,
-      "time": "2025-09-22",
-      "volume": 112282
-    },
-    {
-      "close": 107.64,
-      "high": 109.32,
-      "low": 107.0,
-      "open": 108.21,
-      "time": "2025-09-23",
-      "volume": 66934
-    },
-    {
       "close": 106.33,
       "high": 109.0,
       "low": 105.23,
@@ -2017,13 +1993,37 @@
       "open": 56.25,
       "time": "2026-09-28",
       "volume": 135998
+    },
+    {
+      "close": 54.1,
+      "high": 54.49,
+      "low": 53.4,
+      "open": 53.4,
+      "time": "2026-09-29",
+      "volume": 93956
+    },
+    {
+      "close": 54.53,
+      "high": 55.5,
+      "low": 53.55,
+      "open": 53.94,
+      "time": "2026-09-30",
+      "volume": 54035
+    },
+    {
+      "close": 53.37,
+      "high": 55.0,
+      "low": 52.45,
+      "open": 54.53,
+      "time": "2026-10-01",
+      "volume": 70178
     }
   ],
   "company_name": "SAURASHTRA CEMENT LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.46x"
+    "volume_multiplier": "0.74x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.37,
-    "change_pct": -4.25,
-    "close": 53.35,
-    "previous_close": 55.72,
+    "as_of": "2026-10-01",
+    "change": -1.16,
+    "change_pct": -2.13,
+    "close": 53.37,
+    "previous_close": 54.53,
     "type": "EOD_CLOSE",
-    "volume": 135998
+    "volume": 70178
   },
   "range": {
-    "distance_from_high_pct": -52.74,
-    "distance_from_low_pct": 11.96,
-    "high_52w": 112.88,
+    "distance_from_high_pct": -52.45,
+    "distance_from_low_pct": 12.0,
+    "high_52w": 112.25,
     "history_basis": "52_WEEK",
     "low_52w": 47.65,
-    "range_position_pct": 8.74
+    "range_position_pct": 8.85
   },
   "risk_model": {
-    "invalidation_floor": 51.48,
+    "invalidation_floor": 51.5,
     "risk_per_share": 2.94,
-    "technical_pivot": 54.42
+    "technical_pivot": 54.44
   },
   "schema_version": "1.0",
   "sector": null,

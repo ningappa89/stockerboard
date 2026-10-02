@@ -241,46 +241,70 @@
       "open": 1172.5,
       "time": "2026-09-28",
       "volume": 3467
+    },
+    {
+      "close": 1087.5,
+      "high": 1139.0,
+      "low": 1080.0,
+      "open": 1134.9,
+      "time": "2026-09-29",
+      "volume": 3514
+    },
+    {
+      "close": 1054.0,
+      "high": 1114.6,
+      "low": 1034.8,
+      "open": 1094.8,
+      "time": "2026-09-30",
+      "volume": 15883
+    },
+    {
+      "close": 1059.0,
+      "high": 1074.0,
+      "low": 1025.7,
+      "open": 1054.0,
+      "time": "2026-10-01",
+      "volume": 3157
     }
   ],
   "company_name": "SUNSHIELD CHEMICALS LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE199E01014",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
+    "is_stage2": false,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.02x"
+    "volume_multiplier": "0.76x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -18.9,
-    "change_pct": -1.67,
-    "close": 1113.5,
-    "previous_close": 1132.4,
+    "as_of": "2026-10-01",
+    "change": 5.0,
+    "change_pct": 0.47,
+    "close": 1059.0,
+    "previous_close": 1054.0,
     "type": "EOD_CLOSE",
-    "volume": 3467
+    "volume": 3157
   },
   "range": {
-    "distance_from_high_pct": -13.33,
-    "distance_from_low_pct": 0.81,
+    "distance_from_high_pct": -17.57,
+    "distance_from_low_pct": 3.25,
     "high_52w": 1284.8,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 1104.5,
-    "range_position_pct": 4.99
+    "low_52w": 1025.7,
+    "range_position_pct": 12.85
   },
   "risk_model": {
-    "invalidation_floor": 1074.53,
-    "risk_per_share": 61.24,
-    "technical_pivot": 1135.77
+    "invalidation_floor": 1021.93,
+    "risk_per_share": 58.25,
+    "technical_pivot": 1080.18
   },
   "schema_version": "1.0",
   "sector": null,

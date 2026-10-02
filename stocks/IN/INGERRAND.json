@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3966.0,
-      "high": 3983.5,
-      "low": 3929.6,
-      "open": 3952.2,
-      "time": "2025-09-19",
-      "volume": 4527
-    },
-    {
-      "close": 3970.2,
-      "high": 3990.0,
-      "low": 3937.0,
-      "open": 3980.0,
-      "time": "2025-09-22",
-      "volume": 7136
-    },
-    {
-      "close": 4001.9,
-      "high": 4025.0,
-      "low": 3950.5,
-      "open": 3958.9,
-      "time": "2025-09-23",
-      "volume": 7173
-    },
-    {
       "close": 3978.2,
       "high": 3999.8,
       "low": 3906.1,
@@ -2017,13 +1993,37 @@
       "open": 4226.2,
       "time": "2026-09-28",
       "volume": 11589
+    },
+    {
+      "close": 4195.0,
+      "high": 4238.6,
+      "low": 4180.0,
+      "open": 4226.8,
+      "time": "2026-09-29",
+      "volume": 5857
+    },
+    {
+      "close": 4144.0,
+      "high": 4237.3,
+      "low": 4077.0,
+      "open": 4195.0,
+      "time": "2026-09-30",
+      "volume": 28231
+    },
+    {
+      "close": 4158.8,
+      "high": 4175.0,
+      "low": 4075.7,
+      "open": 4136.0,
+      "time": "2026-10-01",
+      "volume": 12216
     }
   ],
   "company_name": "INGERSOLL-RAND INDIA LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 67,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.44x"
+    "volume_multiplier": "0.58x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -6.8,
-    "change_pct": -0.16,
-    "close": 4226.8,
-    "previous_close": 4233.6,
+    "as_of": "2026-10-01",
+    "change": 14.8,
+    "change_pct": 0.36,
+    "close": 4158.8,
+    "previous_close": 4144.0,
     "type": "EOD_CLOSE",
-    "volume": 11589
+    "volume": 12216
   },
   "range": {
-    "distance_from_high_pct": -14.7,
-    "distance_from_low_pct": 37.98,
+    "distance_from_high_pct": -16.07,
+    "distance_from_low_pct": 35.76,
     "high_52w": 4955.0,
     "history_basis": "52_WEEK",
     "low_52w": 3063.3,
-    "range_position_pct": 61.51
+    "range_position_pct": 57.91
   },
   "risk_model": {
-    "invalidation_floor": 4078.86,
-    "risk_per_share": 232.48,
-    "technical_pivot": 4311.34
+    "invalidation_floor": 4013.24,
+    "risk_per_share": 228.74,
+    "technical_pivot": 4241.98
   },
   "schema_version": "1.0",
   "sector": null,

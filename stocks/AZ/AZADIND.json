@@ -241,46 +241,70 @@
       "open": 88.0,
       "time": "2026-09-28",
       "volume": 76822
+    },
+    {
+      "close": 80.62,
+      "high": 85.4,
+      "low": 79.0,
+      "open": 82.55,
+      "time": "2026-09-29",
+      "volume": 122844
+    },
+    {
+      "close": 84.6,
+      "high": 88.1,
+      "low": 80.01,
+      "open": 80.84,
+      "time": "2026-09-30",
+      "volume": 77601
+    },
+    {
+      "close": 85.95,
+      "high": 88.89,
+      "low": 84.98,
+      "open": 85.01,
+      "time": "2026-10-01",
+      "volume": 233540
     }
   ],
   "company_name": "AZAD INDIA MOBILITY LIMITED",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE566M01017",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 64,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.91x"
+    "is_stage2": true,
+    "momentum_score": 70,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "4.13x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.73,
-    "change_pct": -5.43,
-    "close": 82.3,
-    "previous_close": 87.03,
+    "as_of": "2026-10-01",
+    "change": 1.35,
+    "change_pct": 1.6,
+    "close": 85.95,
+    "previous_close": 84.6,
     "type": "EOD_CLOSE",
-    "volume": 76822
+    "volume": 233540
   },
   "range": {
-    "distance_from_high_pct": -16.86,
-    "distance_from_low_pct": 16.89,
+    "distance_from_high_pct": -13.17,
+    "distance_from_low_pct": 22.07,
     "high_52w": 98.99,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 70.41,
-    "range_position_pct": 41.6
+    "range_position_pct": 54.37
   },
   "risk_model": {
-    "invalidation_floor": 79.42,
-    "risk_per_share": 4.53,
-    "technical_pivot": 83.95
+    "invalidation_floor": 82.94,
+    "risk_per_share": 4.73,
+    "technical_pivot": 87.67
   },
   "schema_version": "1.0",
   "sector": null,

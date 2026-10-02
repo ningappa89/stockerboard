@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1354.2,
-      "high": 1379.0,
-      "low": 1350.0,
-      "open": 1372.3,
-      "time": "2025-09-19",
-      "volume": 345441
-    },
-    {
-      "close": 1329.3,
-      "high": 1358.8,
-      "low": 1325.0,
-      "open": 1354.2,
-      "time": "2025-09-22",
-      "volume": 142839
-    },
-    {
-      "close": 1321.7,
-      "high": 1338.4,
-      "low": 1311.5,
-      "open": 1335.6,
-      "time": "2025-09-23",
-      "volume": 88197
-    },
-    {
       "close": 1320.6,
       "high": 1329.0,
       "low": 1307.0,
@@ -2017,13 +1993,37 @@
       "open": 1490.0,
       "time": "2026-09-28",
       "volume": 116663
+    },
+    {
+      "close": 1415.1,
+      "high": 1452.5,
+      "low": 1402.0,
+      "open": 1440.8,
+      "time": "2026-09-29",
+      "volume": 205609
+    },
+    {
+      "close": 1365.0,
+      "high": 1429.1,
+      "low": 1352.4,
+      "open": 1426.7,
+      "time": "2026-09-30",
+      "volume": 457701
+    },
+    {
+      "close": 1357.3,
+      "high": 1386.1,
+      "low": 1336.2,
+      "open": 1356.9,
+      "time": "2026-10-01",
+      "volume": 363086
     }
   ],
   "company_name": "Global Health Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 79,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.46x"
+    "volume_multiplier": "1.37x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -62.0,
-    "change_pct": -4.15,
-    "close": 1433.4,
-    "previous_close": 1495.4,
+    "as_of": "2026-10-01",
+    "change": -7.7,
+    "change_pct": -0.56,
+    "close": 1357.3,
+    "previous_close": 1365.0,
     "type": "EOD_CLOSE",
-    "volume": 116663
+    "volume": 363086
   },
   "range": {
-    "distance_from_high_pct": -7.16,
-    "distance_from_low_pct": 49.94,
+    "distance_from_high_pct": -12.09,
+    "distance_from_low_pct": 41.98,
     "high_52w": 1544.0,
     "history_basis": "52_WEEK",
     "low_52w": 956.0,
-    "range_position_pct": 81.19
+    "range_position_pct": 68.25
   },
   "risk_model": {
-    "invalidation_floor": 1383.23,
-    "risk_per_share": 78.84,
-    "technical_pivot": 1462.07
+    "invalidation_floor": 1309.79,
+    "risk_per_share": 74.66,
+    "technical_pivot": 1384.45
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

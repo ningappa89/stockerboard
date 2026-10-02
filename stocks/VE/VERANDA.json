@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 220.07,
-      "high": 227.0,
-      "low": 214.63,
-      "open": 224.14,
-      "time": "2025-09-19",
-      "volume": 319605
-    },
-    {
-      "close": 216.4,
-      "high": 225.75,
-      "low": 214.0,
-      "open": 224.9,
-      "time": "2025-09-22",
-      "volume": 338440
-    },
-    {
-      "close": 217.98,
-      "high": 222.59,
-      "low": 215.0,
-      "open": 216.4,
-      "time": "2025-09-23",
-      "volume": 438083
-    },
-    {
       "close": 218.12,
       "high": 224.0,
       "low": 215.76,
@@ -2017,13 +1993,37 @@
       "open": 232.9,
       "time": "2026-09-28",
       "volume": 433989
+    },
+    {
+      "close": 223.31,
+      "high": 239.91,
+      "low": 220.0,
+      "open": 239.86,
+      "time": "2026-09-29",
+      "volume": 2104745
+    },
+    {
+      "close": 220.75,
+      "high": 224.95,
+      "low": 216.9,
+      "open": 223.0,
+      "time": "2026-09-30",
+      "volume": 1426488
+    },
+    {
+      "close": 213.8,
+      "high": 228.08,
+      "low": 212.2,
+      "open": 222.8,
+      "time": "2026-10-01",
+      "volume": 522323
     }
   ],
   "company_name": "Veranda Learning Solutions Lim",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 71,
+    "is_stage2": false,
+    "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.4x"
+    "volume_multiplier": "1.17x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 5.43,
-    "change_pct": 2.33,
-    "close": 238.02,
-    "previous_close": 232.59,
+    "as_of": "2026-10-01",
+    "change": -6.95,
+    "change_pct": -3.15,
+    "close": 213.8,
+    "previous_close": 220.75,
     "type": "EOD_CLOSE",
-    "volume": 433989
+    "volume": 522323
   },
   "range": {
-    "distance_from_high_pct": -12.65,
-    "distance_from_low_pct": 83.06,
+    "distance_from_high_pct": -21.54,
+    "distance_from_low_pct": 64.44,
     "high_52w": 272.5,
     "history_basis": "52_WEEK",
     "low_52w": 130.02,
-    "range_position_pct": 75.8
+    "range_position_pct": 58.8
   },
   "risk_model": {
-    "invalidation_floor": 229.69,
-    "risk_per_share": 13.09,
-    "technical_pivot": 242.78
+    "invalidation_floor": 206.32,
+    "risk_per_share": 11.76,
+    "technical_pivot": 218.08
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 964.65,
-      "high": 970.0,
-      "low": 938.25,
-      "open": 939.0,
-      "time": "2025-09-19",
-      "volume": 352026
-    },
-    {
-      "close": 965.0,
-      "high": 976.8,
-      "low": 954.0,
-      "open": 975.0,
-      "time": "2025-09-22",
-      "volume": 199617
-    },
-    {
-      "close": 953.5,
-      "high": 971.1,
-      "low": 950.95,
-      "open": 969.15,
-      "time": "2025-09-23",
-      "volume": 101433
-    },
-    {
       "close": 973.0,
       "high": 984.2,
       "low": 950.0,
@@ -2017,13 +1993,37 @@
       "open": 2138.1,
       "time": "2026-09-28",
       "volume": 388047
+    },
+    {
+      "close": 2402.0,
+      "high": 2444.0,
+      "low": 2124.3,
+      "open": 2141.2,
+      "time": "2026-09-29",
+      "volume": 5298949
+    },
+    {
+      "close": 2304.2,
+      "high": 2360.0,
+      "low": 2241.3,
+      "open": 2358.0,
+      "time": "2026-09-30",
+      "volume": 1822978
+    },
+    {
+      "close": 2242.7,
+      "high": 2319.0,
+      "low": 2211.6,
+      "open": 2310.7,
+      "time": "2026-10-01",
+      "volume": 719348
     }
   ],
   "company_name": "KIRLOSKAR OIL ENG LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.88x"
+    "volume_multiplier": "0.93x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 4.0,
-    "change_pct": 0.19,
-    "close": 2141.2,
-    "previous_close": 2137.2,
+    "as_of": "2026-10-01",
+    "change": -61.5,
+    "change_pct": -2.67,
+    "close": 2242.7,
+    "previous_close": 2304.2,
     "type": "EOD_CLOSE",
-    "volume": 388047
+    "volume": 719348
   },
   "range": {
-    "distance_from_high_pct": -21.28,
-    "distance_from_low_pct": 147.38,
+    "distance_from_high_pct": -17.55,
+    "distance_from_low_pct": 159.11,
     "high_52w": 2720.0,
     "history_basis": "52_WEEK",
     "low_52w": 865.55,
-    "range_position_pct": 68.79
+    "range_position_pct": 74.26
   },
   "risk_model": {
-    "invalidation_floor": 2066.26,
-    "risk_per_share": 117.76,
-    "technical_pivot": 2184.02
+    "invalidation_floor": 2164.21,
+    "risk_per_share": 123.34,
+    "technical_pivot": 2287.55
   },
   "schema_version": "1.0",
   "sector": null,

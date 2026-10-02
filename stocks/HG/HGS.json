@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 531.0,
-      "high": 535.0,
-      "low": 524.8,
-      "open": 530.0,
-      "time": "2025-09-19",
-      "volume": 19148
-    },
-    {
-      "close": 522.9,
-      "high": 530.0,
-      "low": 520.0,
-      "open": 525.0,
-      "time": "2025-09-22",
-      "volume": 12360
-    },
-    {
-      "close": 517.7,
-      "high": 526.4,
-      "low": 516.65,
-      "open": 522.9,
-      "time": "2025-09-23",
-      "volume": 13834
-    },
-    {
       "close": 516.8,
       "high": 522.2,
       "low": 515.0,
@@ -2017,13 +1993,37 @@
       "open": 378.0,
       "time": "2026-09-28",
       "volume": 8424
+    },
+    {
+      "close": 366.05,
+      "high": 373.4,
+      "low": 363.65,
+      "open": 368.1,
+      "time": "2026-09-29",
+      "volume": 8101
+    },
+    {
+      "close": 370.05,
+      "high": 375.9,
+      "low": 364.95,
+      "open": 365.0,
+      "time": "2026-09-30",
+      "volume": 14795
+    },
+    {
+      "close": 367.05,
+      "high": 375.25,
+      "low": 363.0,
+      "open": 374.95,
+      "time": "2026-10-01",
+      "volume": 9114
     }
   ],
   "company_name": "HINDUJA GLOBAL SOLS. LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
+    "momentum_score": 41,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.55x"
+    "volume_multiplier": "0.64x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.25,
-    "change_pct": -1.13,
-    "close": 372.35,
-    "previous_close": 376.6,
+    "as_of": "2026-10-01",
+    "change": -3.0,
+    "change_pct": -0.81,
+    "close": 367.05,
+    "previous_close": 370.05,
     "type": "EOD_CLOSE",
-    "volume": 8424
+    "volume": 9114
   },
   "range": {
-    "distance_from_high_pct": -31.68,
-    "distance_from_low_pct": 8.86,
+    "distance_from_high_pct": -32.65,
+    "distance_from_low_pct": 7.31,
     "high_52w": 545.0,
     "history_basis": "52_WEEK",
     "low_52w": 342.05,
-    "range_position_pct": 14.93
+    "range_position_pct": 12.32
   },
   "risk_model": {
-    "invalidation_floor": 359.32,
-    "risk_per_share": 20.48,
-    "technical_pivot": 379.8
+    "invalidation_floor": 354.2,
+    "risk_per_share": 20.19,
+    "technical_pivot": 374.39
   },
   "schema_version": "1.0",
   "sector": null,

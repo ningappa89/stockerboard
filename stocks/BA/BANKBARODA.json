@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 252.08,
-      "high": 254.4,
-      "low": 249.0,
-      "open": 249.5,
-      "time": "2025-09-19",
-      "volume": 16173486
-    },
-    {
-      "close": 251.14,
-      "high": 254.69,
-      "low": 250.01,
-      "open": 252.0,
-      "time": "2025-09-22",
-      "volume": 8447174
-    },
-    {
-      "close": 253.23,
-      "high": 254.45,
-      "low": 249.14,
-      "open": 251.14,
-      "time": "2025-09-23",
-      "volume": 10937835
-    },
-    {
       "close": 254.37,
       "high": 258.5,
       "low": 253.61,
@@ -2017,13 +1993,37 @@
       "open": 234.99,
       "time": "2026-09-28",
       "volume": 7031453
+    },
+    {
+      "close": 227.68,
+      "high": 230.57,
+      "low": 223.82,
+      "open": 227.5,
+      "time": "2026-09-29",
+      "volume": 7198395
+    },
+    {
+      "close": 230.55,
+      "high": 235.7,
+      "low": 230.29,
+      "open": 230.4,
+      "time": "2026-09-30",
+      "volume": 10920670
+    },
+    {
+      "close": 230.82,
+      "high": 233.99,
+      "low": 229.52,
+      "open": 230.0,
+      "time": "2026-10-01",
+      "volume": 9034271
     }
   ],
   "company_name": "BANK OF BARODA",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 44,
+    "momentum_score": 46,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.98x"
+    "volume_multiplier": "1.31x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -7.76,
-    "change_pct": -3.3,
-    "close": 227.5,
-    "previous_close": 235.26,
+    "as_of": "2026-10-01",
+    "change": 0.27,
+    "change_pct": 0.12,
+    "close": 230.82,
+    "previous_close": 230.55,
     "type": "EOD_CLOSE",
-    "volume": 7031453
+    "volume": 9034271
   },
   "range": {
-    "distance_from_high_pct": -30.11,
-    "distance_from_low_pct": 0.0,
+    "distance_from_high_pct": -29.09,
+    "distance_from_low_pct": 3.13,
     "high_52w": 325.5,
     "history_basis": "52_WEEK",
-    "low_52w": 227.5,
-    "range_position_pct": 0.0
+    "low_52w": 223.82,
+    "range_position_pct": 6.88
   },
   "risk_model": {
-    "invalidation_floor": 219.54,
-    "risk_per_share": 12.51,
-    "technical_pivot": 232.05
+    "invalidation_floor": 222.74,
+    "risk_per_share": 12.7,
+    "technical_pivot": 235.44
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

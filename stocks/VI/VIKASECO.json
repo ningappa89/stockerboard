@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2.09,
-      "high": 2.11,
-      "low": 2.07,
-      "open": 2.09,
-      "time": "2025-09-19",
-      "volume": 4845391
-    },
-    {
-      "close": 2.07,
-      "high": 2.11,
-      "low": 2.06,
-      "open": 2.11,
-      "time": "2025-09-22",
-      "volume": 3048922
-    },
-    {
-      "close": 2.05,
-      "high": 2.09,
-      "low": 2.05,
-      "open": 2.07,
-      "time": "2025-09-23",
-      "volume": 2582586
-    },
-    {
       "close": 2.04,
       "high": 2.07,
       "low": 2.03,
@@ -2017,13 +1993,37 @@
       "open": 1.05,
       "time": "2026-09-28",
       "volume": 1619424
+    },
+    {
+      "close": 1.02,
+      "high": 1.04,
+      "low": 1.01,
+      "open": 1.03,
+      "time": "2026-09-29",
+      "volume": 2234550
+    },
+    {
+      "close": 1.03,
+      "high": 1.05,
+      "low": 1.02,
+      "open": 1.02,
+      "time": "2026-09-30",
+      "volume": 1096252
+    },
+    {
+      "close": 1.01,
+      "high": 1.03,
+      "low": 1.01,
+      "open": 1.03,
+      "time": "2026-10-01",
+      "volume": 1556275
     }
   ],
   "company_name": "Vikas EcoTech Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.02x"
+    "volume_multiplier": "0.95x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.01,
-    "change_pct": -0.96,
-    "close": 1.03,
-    "previous_close": 1.04,
+    "as_of": "2026-10-01",
+    "change": -0.02,
+    "change_pct": -1.94,
+    "close": 1.01,
+    "previous_close": 1.03,
     "type": "EOD_CLOSE",
-    "volume": 1619424
+    "volume": 1556275
   },
   "range": {
-    "distance_from_high_pct": -51.18,
-    "distance_from_low_pct": 4.04,
-    "high_52w": 2.11,
+    "distance_from_high_pct": -51.21,
+    "distance_from_low_pct": 2.02,
+    "high_52w": 2.07,
     "history_basis": "52_WEEK",
     "low_52w": 0.99,
-    "range_position_pct": 3.57
+    "range_position_pct": 1.85
   },
   "risk_model": {
-    "invalidation_floor": 0.99,
+    "invalidation_floor": 0.97,
     "risk_per_share": 0.5,
-    "technical_pivot": 1.05
+    "technical_pivot": 1.03
   },
   "schema_version": "1.0",
   "sector": null,

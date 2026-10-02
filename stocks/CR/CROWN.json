@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 166.8,
-      "high": 172.55,
-      "low": 165.42,
-      "open": 171.03,
-      "time": "2025-09-19",
-      "volume": 14486
-    },
-    {
-      "close": 165.86,
-      "high": 169.5,
-      "low": 163.0,
-      "open": 166.8,
-      "time": "2025-09-22",
-      "volume": 29290
-    },
-    {
-      "close": 161.74,
-      "high": 168.7,
-      "low": 160.05,
-      "open": 168.7,
-      "time": "2025-09-23",
-      "volume": 24837
-    },
-    {
       "close": 160.52,
       "high": 163.2,
       "low": 159.0,
@@ -2017,13 +1993,37 @@
       "open": 122.0,
       "time": "2026-09-28",
       "volume": 24588
+    },
+    {
+      "close": 115.73,
+      "high": 118.0,
+      "low": 113.81,
+      "open": 115.99,
+      "time": "2026-09-29",
+      "volume": 18332
+    },
+    {
+      "close": 115.27,
+      "high": 116.99,
+      "low": 114.59,
+      "open": 116.8,
+      "time": "2026-09-30",
+      "volume": 17028
+    },
+    {
+      "close": 111.53,
+      "high": 116.0,
+      "low": 108.6,
+      "open": 116.0,
+      "time": "2026-10-01",
+      "volume": 14808
     }
   ],
   "company_name": "CROWN LIFTERS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 40,
+    "momentum_score": 42,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.61x"
+    "volume_multiplier": "0.39x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.64,
-    "change_pct": -4.73,
-    "close": 113.72,
-    "previous_close": 119.36,
+    "as_of": "2026-10-01",
+    "change": -3.74,
+    "change_pct": -3.24,
+    "close": 111.53,
+    "previous_close": 115.27,
     "type": "EOD_CLOSE",
-    "volume": 24588
+    "volume": 14808
   },
   "range": {
-    "distance_from_high_pct": -34.09,
-    "distance_from_low_pct": 13.6,
-    "high_52w": 172.55,
+    "distance_from_high_pct": -31.94,
+    "distance_from_low_pct": 11.41,
+    "high_52w": 163.86,
     "history_basis": "52_WEEK",
     "low_52w": 100.11,
-    "range_position_pct": 18.79
+    "range_position_pct": 17.91
   },
   "risk_model": {
-    "invalidation_floor": 109.74,
-    "risk_per_share": 6.25,
-    "technical_pivot": 115.99
+    "invalidation_floor": 107.63,
+    "risk_per_share": 6.13,
+    "technical_pivot": 113.76
   },
   "schema_version": "1.0",
   "sector": null,

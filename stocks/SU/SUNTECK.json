@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 450.05,
-      "high": 453.65,
-      "low": 445.25,
-      "open": 451.0,
-      "time": "2025-09-19",
-      "volume": 195280
-    },
-    {
-      "close": 445.85,
-      "high": 459.0,
-      "low": 444.5,
-      "open": 453.9,
-      "time": "2025-09-22",
-      "volume": 243811
-    },
-    {
-      "close": 439.1,
-      "high": 446.3,
-      "low": 437.15,
-      "open": 446.2,
-      "time": "2025-09-23",
-      "volume": 114821
-    },
-    {
       "close": 427.55,
       "high": 439.9,
       "low": 426.0,
@@ -2017,13 +1993,37 @@
       "open": 281.0,
       "time": "2026-09-28",
       "volume": 163885
+    },
+    {
+      "close": 280.3,
+      "high": 285.45,
+      "low": 268.55,
+      "open": 276.0,
+      "time": "2026-09-29",
+      "volume": 327510
+    },
+    {
+      "close": 277.4,
+      "high": 284.0,
+      "low": 276.0,
+      "open": 278.6,
+      "time": "2026-09-30",
+      "volume": 67009
+    },
+    {
+      "close": 279.45,
+      "high": 281.6,
+      "low": 270.8,
+      "open": 277.0,
+      "time": "2026-10-01",
+      "volume": 137778
     }
   ],
   "company_name": "SUNTECK REALTY LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.43x"
+    "volume_multiplier": "1.13x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -6.25,
-    "change_pct": -2.21,
-    "close": 276.75,
-    "previous_close": 283.0,
+    "as_of": "2026-10-01",
+    "change": 2.05,
+    "change_pct": 0.74,
+    "close": 279.45,
+    "previous_close": 277.4,
     "type": "EOD_CLOSE",
-    "volume": 163885
+    "volume": 137778
   },
   "range": {
-    "distance_from_high_pct": -41.43,
-    "distance_from_low_pct": 2.22,
+    "distance_from_high_pct": -40.86,
+    "distance_from_low_pct": 4.06,
     "high_52w": 472.5,
     "history_basis": "52_WEEK",
-    "low_52w": 270.75,
-    "range_position_pct": 2.97
+    "low_52w": 268.55,
+    "range_position_pct": 5.34
   },
   "risk_model": {
-    "invalidation_floor": 267.06,
-    "risk_per_share": 15.23,
-    "technical_pivot": 282.29
+    "invalidation_floor": 269.67,
+    "risk_per_share": 15.37,
+    "technical_pivot": 285.04
   },
   "schema_version": "1.0",
   "sector": null,

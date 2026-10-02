@@ -897,14 +897,38 @@
       "open": 68.08,
       "time": "2026-09-28",
       "volume": 660
+    },
+    {
+      "close": 73.98,
+      "high": 75.9,
+      "low": 69.02,
+      "open": 75.0,
+      "time": "2026-09-29",
+      "volume": 3398
+    },
+    {
+      "close": 71.63,
+      "high": 74.53,
+      "low": 69.11,
+      "open": 74.53,
+      "time": "2026-09-30",
+      "volume": 200
+    },
+    {
+      "close": 65.11,
+      "high": 69.56,
+      "low": 60.26,
+      "open": 65.26,
+      "time": "2026-10-01",
+      "volume": 1078
     }
   ],
   "company_name": "HB ESTATE DEVELOPERS LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 112
+    "last_session": "2026-10-01",
+    "sessions_available": 115
   },
   "industry": null,
   "isin": "INE640B01021",
@@ -912,31 +936,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 51,
+    "momentum_score": 41,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.09x"
+    "volume_multiplier": "1.51x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 3.46,
-    "change_pct": 5.09,
-    "close": 71.5,
-    "previous_close": 68.04,
+    "as_of": "2026-10-01",
+    "change": -6.52,
+    "change_pct": -9.1,
+    "close": 65.11,
+    "previous_close": 71.63,
     "type": "EOD_CLOSE",
-    "volume": 660
+    "volume": 1078
   },
   "range": {
-    "distance_from_high_pct": -25.44,
-    "distance_from_low_pct": 18.16,
+    "distance_from_high_pct": -32.11,
+    "distance_from_low_pct": 8.05,
     "high_52w": 95.9,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 60.51,
-    "range_position_pct": 31.05
+    "low_52w": 60.26,
+    "range_position_pct": 13.61
   },
   "risk_model": {
-    "invalidation_floor": 69.0,
-    "risk_per_share": 3.93,
-    "technical_pivot": 72.93
+    "invalidation_floor": 62.83,
+    "risk_per_share": 3.58,
+    "technical_pivot": 66.41
   },
   "schema_version": "1.0",
   "sector": null,

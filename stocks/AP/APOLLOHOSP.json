@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 7806.5,
-      "high": 7876.5,
-      "low": 7798.5,
-      "open": 7850.5,
-      "time": "2025-09-19",
-      "volume": 207129
-    },
-    {
-      "close": 7739.0,
-      "high": 7796.5,
-      "low": 7611.5,
-      "open": 7611.5,
-      "time": "2025-09-22",
-      "volume": 302818
-    },
-    {
-      "close": 7684.0,
-      "high": 7749.0,
-      "low": 7664.5,
-      "open": 7725.0,
-      "time": "2025-09-23",
-      "volume": 443181
-    },
-    {
       "close": 7643.5,
       "high": 7730.0,
       "low": 7634.5,
@@ -2017,46 +1993,70 @@
       "open": 8889.0,
       "time": "2026-09-28",
       "volume": 429429
+    },
+    {
+      "close": 8659.0,
+      "high": 8906.0,
+      "low": 8657.5,
+      "open": 8885.0,
+      "time": "2026-09-29",
+      "volume": 609210
+    },
+    {
+      "close": 8165.5,
+      "high": 8659.0,
+      "low": 8053.0,
+      "open": 8582.0,
+      "time": "2026-09-30",
+      "volume": 2108531
+    },
+    {
+      "close": 8133.5,
+      "high": 8135.0,
+      "low": 7910.0,
+      "open": 8090.0,
+      "time": "2026-10-01",
+      "volume": 939105
     }
   ],
   "company_name": "APOLLO HOSPITALS ENTERPRISE LT",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Healthcare",
   "isin": "INE437A01024",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 86,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "1.42x"
+    "momentum_score": 74,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.09x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -29.0,
-    "change_pct": -0.33,
-    "close": 8860.0,
-    "previous_close": 8889.0,
+    "as_of": "2026-10-01",
+    "change": -32.0,
+    "change_pct": -0.39,
+    "close": 8133.5,
+    "previous_close": 8165.5,
     "type": "EOD_CLOSE",
-    "volume": 429429
+    "volume": 939105
   },
   "range": {
-    "distance_from_high_pct": -2.32,
-    "distance_from_low_pct": 32.31,
+    "distance_from_high_pct": -10.33,
+    "distance_from_low_pct": 21.46,
     "high_52w": 9070.5,
     "history_basis": "52_WEEK",
     "low_52w": 6696.5,
-    "range_position_pct": 91.13
+    "range_position_pct": 60.53
   },
   "risk_model": {
-    "invalidation_floor": 8549.9,
-    "risk_per_share": 487.3,
-    "technical_pivot": 9037.2
+    "invalidation_floor": 7848.83,
+    "risk_per_share": 447.34,
+    "technical_pivot": 8296.17
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

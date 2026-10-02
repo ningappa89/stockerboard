@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1772.8,
-      "high": 1798.2,
-      "low": 1752.0,
-      "open": 1794.5,
-      "time": "2025-09-19",
-      "volume": 1192184
-    },
-    {
-      "close": 1739.3,
-      "high": 1778.0,
-      "low": 1731.0,
-      "open": 1777.9,
-      "time": "2025-09-22",
-      "volume": 220456
-    },
-    {
-      "close": 1733.2,
-      "high": 1758.8,
-      "low": 1726.1,
-      "open": 1747.5,
-      "time": "2025-09-23",
-      "volume": 181344
-    },
-    {
       "close": 1721.2,
       "high": 1742.5,
       "low": 1714.9,
@@ -2017,13 +1993,37 @@
       "open": 1861.2,
       "time": "2026-09-28",
       "volume": 142536
+    },
+    {
+      "close": 1789.9,
+      "high": 1863.0,
+      "low": 1761.0,
+      "open": 1820.1,
+      "time": "2026-09-29",
+      "volume": 966399
+    },
+    {
+      "close": 1791.4,
+      "high": 1813.7,
+      "low": 1730.1,
+      "open": 1776.0,
+      "time": "2026-09-30",
+      "volume": 341005
+    },
+    {
+      "close": 1741.4,
+      "high": 1774.9,
+      "low": 1714.1,
+      "open": 1774.9,
+      "time": "2026-10-01",
+      "volume": 258740
     }
   ],
   "company_name": "NARAYANA HRUDAYALAYA LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
+    "is_stage2": false,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.77x"
+    "volume_multiplier": "1.16x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -41.3,
-    "change_pct": -2.22,
-    "close": 1820.1,
-    "previous_close": 1861.4,
+    "as_of": "2026-10-01",
+    "change": -50.0,
+    "change_pct": -2.79,
+    "close": 1741.4,
+    "previous_close": 1791.4,
     "type": "EOD_CLOSE",
-    "volume": 142536
+    "volume": 258740
   },
   "range": {
-    "distance_from_high_pct": -13.05,
-    "distance_from_low_pct": 14.54,
+    "distance_from_high_pct": -16.81,
+    "distance_from_low_pct": 9.59,
     "high_52w": 2093.3,
     "history_basis": "52_WEEK",
     "low_52w": 1589.0,
-    "range_position_pct": 45.83
+    "range_position_pct": 30.22
   },
   "risk_model": {
-    "invalidation_floor": 1756.4,
-    "risk_per_share": 100.1,
-    "technical_pivot": 1856.5
+    "invalidation_floor": 1680.45,
+    "risk_per_share": 95.78,
+    "technical_pivot": 1776.23
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

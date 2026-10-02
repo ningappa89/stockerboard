@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 239.82,
-      "high": 241.5,
-      "low": 236.1,
-      "open": 238.55,
-      "time": "2025-09-19",
-      "volume": 1861800
-    },
-    {
-      "close": 238.9,
-      "high": 244.35,
-      "low": 237.47,
-      "open": 240.3,
-      "time": "2025-09-22",
-      "volume": 2693598
-    },
-    {
-      "close": 226.75,
-      "high": 249.15,
-      "low": 222.2,
-      "open": 246.0,
-      "time": "2025-09-23",
-      "volume": 1803460
-    },
-    {
       "close": 219.0,
       "high": 231.4,
       "low": 214.1,
@@ -2017,13 +1993,37 @@
       "open": 181.0,
       "time": "2026-09-28",
       "volume": 3582524
+    },
+    {
+      "close": 183.92,
+      "high": 185.9,
+      "low": 180.94,
+      "open": 183.25,
+      "time": "2026-09-29",
+      "volume": 4160921
+    },
+    {
+      "close": 182.36,
+      "high": 188.4,
+      "low": 181.41,
+      "open": 183.75,
+      "time": "2026-09-30",
+      "volume": 3950098
+    },
+    {
+      "close": 179.68,
+      "high": 182.29,
+      "low": 176.3,
+      "open": 181.15,
+      "time": "2026-10-01",
+      "volume": 2060984
     }
   ],
   "company_name": "TIME TECHNOPLAST LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 50,
+    "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.41x"
+    "volume_multiplier": "0.82x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 2.22,
-    "change_pct": 1.23,
-    "close": 183.44,
-    "previous_close": 181.22,
+    "as_of": "2026-10-01",
+    "change": -2.68,
+    "change_pct": -1.47,
+    "close": 179.68,
+    "previous_close": 182.36,
     "type": "EOD_CLOSE",
-    "volume": 3582524
+    "volume": 2060984
   },
   "range": {
-    "distance_from_high_pct": -26.37,
-    "distance_from_low_pct": 19.12,
-    "high_52w": 249.15,
+    "distance_from_high_pct": -22.35,
+    "distance_from_low_pct": 16.68,
+    "high_52w": 231.4,
     "history_basis": "52_WEEK",
     "low_52w": 154.0,
-    "range_position_pct": 30.94
+    "range_position_pct": 33.18
   },
   "risk_model": {
-    "invalidation_floor": 177.02,
-    "risk_per_share": 10.09,
-    "technical_pivot": 187.11
+    "invalidation_floor": 173.39,
+    "risk_per_share": 9.88,
+    "technical_pivot": 183.27
   },
   "schema_version": "1.0",
   "sector": null,

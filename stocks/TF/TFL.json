@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 16.49,
-      "high": 17.01,
-      "low": 15.75,
-      "open": 15.82,
-      "time": "2025-09-19",
-      "volume": 20415
-    },
-    {
-      "close": 15.78,
-      "high": 17.0,
-      "low": 15.67,
-      "open": 17.0,
-      "time": "2025-09-22",
-      "volume": 10975
-    },
-    {
-      "close": 15.83,
-      "high": 16.2,
-      "low": 15.06,
-      "open": 15.7,
-      "time": "2025-09-23",
-      "volume": 19321
-    },
-    {
       "close": 15.15,
       "high": 15.99,
       "low": 15.05,
@@ -2017,13 +1993,37 @@
       "open": 11.75,
       "time": "2026-09-28",
       "volume": 754
+    },
+    {
+      "close": 11.64,
+      "high": 11.89,
+      "low": 11.47,
+      "open": 11.65,
+      "time": "2026-09-29",
+      "volume": 2822
+    },
+    {
+      "close": 11.63,
+      "high": 12.19,
+      "low": 11.62,
+      "open": 11.89,
+      "time": "2026-09-30",
+      "volume": 2612
+    },
+    {
+      "close": 11.82,
+      "high": 12.39,
+      "low": 10.8,
+      "open": 11.64,
+      "time": "2026-10-01",
+      "volume": 6820
     }
   ],
   "company_name": "TRANSWARRANTY FINANCE LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.1x"
+    "volume_multiplier": "0.99x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.09,
-    "change_pct": -0.77,
-    "close": 11.67,
-    "previous_close": 11.76,
+    "as_of": "2026-10-01",
+    "change": 0.19,
+    "change_pct": 1.63,
+    "close": 11.82,
+    "previous_close": 11.63,
     "type": "EOD_CLOSE",
-    "volume": 754
+    "volume": 6820
   },
   "range": {
-    "distance_from_high_pct": -36.92,
-    "distance_from_low_pct": 14.3,
+    "distance_from_high_pct": -36.11,
+    "distance_from_low_pct": 15.77,
     "high_52w": 18.5,
     "history_basis": "52_WEEK",
     "low_52w": 10.21,
-    "range_position_pct": 17.61
+    "range_position_pct": 19.42
   },
   "risk_model": {
-    "invalidation_floor": 11.26,
-    "risk_per_share": 0.64,
-    "technical_pivot": 11.9
+    "invalidation_floor": 11.41,
+    "risk_per_share": 0.65,
+    "technical_pivot": 12.06
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 298.91,
-      "high": 303.75,
-      "low": 296.55,
-      "open": 302.4,
-      "time": "2025-09-19",
-      "volume": 917889
-    },
-    {
-      "close": 288.79,
-      "high": 298.88,
-      "low": 287.33,
-      "open": 298.88,
-      "time": "2025-09-22",
-      "volume": 635287
-    },
-    {
-      "close": 285.34,
-      "high": 292.58,
-      "low": 283.5,
-      "open": 290.25,
-      "time": "2025-09-23",
-      "volume": 601081
-    },
-    {
       "close": 284.74,
       "high": 288.08,
       "low": 281.4,
@@ -2017,13 +1993,37 @@
       "open": 322.05,
       "time": "2026-09-28",
       "volume": 612243
+    },
+    {
+      "close": 322.85,
+      "high": 330.9,
+      "low": 310.0,
+      "open": 312.6,
+      "time": "2026-09-29",
+      "volume": 931591
+    },
+    {
+      "close": 313.45,
+      "high": 327.45,
+      "low": 311.15,
+      "open": 323.0,
+      "time": "2026-09-30",
+      "volume": 331778
+    },
+    {
+      "close": 310.8,
+      "high": 316.55,
+      "low": 302.4,
+      "open": 312.5,
+      "time": "2026-10-01",
+      "volume": 423092
     }
   ],
   "company_name": "GOLDIAM INTERNATIONAL LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.36x"
+    "volume_multiplier": "0.9x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -12.45,
-    "change_pct": -3.83,
-    "close": 312.6,
-    "previous_close": 325.05,
+    "as_of": "2026-10-01",
+    "change": -2.65,
+    "change_pct": -0.85,
+    "close": 310.8,
+    "previous_close": 313.45,
     "type": "EOD_CLOSE",
-    "volume": 612243
+    "volume": 423092
   },
   "range": {
-    "distance_from_high_pct": -21.5,
-    "distance_from_low_pct": 57.28,
+    "distance_from_high_pct": -21.95,
+    "distance_from_low_pct": 56.38,
     "high_52w": 398.2,
     "history_basis": "52_WEEK",
     "low_52w": 198.75,
-    "range_position_pct": 57.08
+    "range_position_pct": 56.18
   },
   "risk_model": {
-    "invalidation_floor": 301.66,
-    "risk_per_share": 17.19,
-    "technical_pivot": 318.85
+    "invalidation_floor": 299.92,
+    "risk_per_share": 17.1,
+    "technical_pivot": 317.02
   },
   "schema_version": "1.0",
   "sector": null,

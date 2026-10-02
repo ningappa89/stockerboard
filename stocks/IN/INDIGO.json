@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 5679.0,
-      "high": 5758.0,
-      "low": 5648.5,
-      "open": 5758.0,
-      "time": "2025-09-19",
-      "volume": 750086
-    },
-    {
-      "close": 5747.5,
-      "high": 5769.0,
-      "low": 5682.0,
-      "open": 5698.5,
-      "time": "2025-09-22",
-      "volume": 449815
-    },
-    {
-      "close": 5732.0,
-      "high": 5812.5,
-      "low": 5716.0,
-      "open": 5765.0,
-      "time": "2025-09-23",
-      "volume": 662077
-    },
-    {
       "close": 5686.0,
       "high": 5757.5,
       "low": 5663.0,
@@ -2017,13 +1993,37 @@
       "open": 4933.0,
       "time": "2026-09-28",
       "volume": 547789
+    },
+    {
+      "close": 4872.0,
+      "high": 4898.0,
+      "low": 4851.0,
+      "open": 4870.0,
+      "time": "2026-09-29",
+      "volume": 409270
+    },
+    {
+      "close": 4984.0,
+      "high": 5021.5,
+      "low": 4893.5,
+      "open": 4915.5,
+      "time": "2026-09-30",
+      "volume": 624800
+    },
+    {
+      "close": 4929.9,
+      "high": 5016.2,
+      "low": 4878.0,
+      "open": 4936.0,
+      "time": "2026-10-01",
+      "volume": 592514
     }
   ],
   "company_name": "INTERGLOBE AVIATION LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.84x"
+    "volume_multiplier": "1.0x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -65.5,
-    "change_pct": -1.33,
-    "close": 4874.5,
-    "previous_close": 4940.0,
+    "as_of": "2026-10-01",
+    "change": -54.1,
+    "change_pct": -1.09,
+    "close": 4929.9,
+    "previous_close": 4984.0,
     "type": "EOD_CLOSE",
-    "volume": 547789
+    "volume": 592514
   },
   "range": {
-    "distance_from_high_pct": -18.35,
-    "distance_from_low_pct": 25.14,
+    "distance_from_high_pct": -17.42,
+    "distance_from_low_pct": 26.56,
     "high_52w": 5970.0,
     "history_basis": "52_WEEK",
     "low_52w": 3895.2,
-    "range_position_pct": 47.2
+    "range_position_pct": 49.87
   },
   "risk_model": {
-    "invalidation_floor": 4703.89,
-    "risk_per_share": 268.1,
-    "technical_pivot": 4971.99
+    "invalidation_floor": 4757.35,
+    "risk_per_share": 271.15,
+    "technical_pivot": 5028.5
   },
   "schema_version": "1.0",
   "sector": null,

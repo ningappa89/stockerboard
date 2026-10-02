@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 663.3,
-      "high": 667.0,
-      "low": 655.4,
-      "open": 657.5,
-      "time": "2025-09-19",
-      "volume": 5288
-    },
-    {
-      "close": 665.55,
-      "high": 672.0,
-      "low": 650.0,
-      "open": 650.8,
-      "time": "2025-09-22",
-      "volume": 6056
-    },
-    {
-      "close": 660.85,
-      "high": 678.4,
-      "low": 656.4,
-      "open": 665.0,
-      "time": "2025-09-23",
-      "volume": 5163
-    },
-    {
       "close": 672.3,
       "high": 674.5,
       "low": 650.05,
@@ -2017,13 +1993,37 @@
       "open": 1141.1,
       "time": "2026-09-28",
       "volume": 376368
+    },
+    {
+      "close": 1212.9,
+      "high": 1249.0,
+      "low": 1200.0,
+      "open": 1220.0,
+      "time": "2026-09-29",
+      "volume": 143797
+    },
+    {
+      "close": 1181.8,
+      "high": 1283.1,
+      "low": 1166.3,
+      "open": 1220.0,
+      "time": "2026-09-30",
+      "volume": 161440
+    },
+    {
+      "close": 1136.4,
+      "high": 1184.9,
+      "low": 1112.5,
+      "open": 1171.3,
+      "time": "2026-10-01",
+      "volume": 129545
     }
   ],
   "company_name": "DIVGI TORQTRANSFER SYSTEMS LIM",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 77,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.42x"
+    "is_stage2": false,
+    "momentum_score": 68,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.96x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 64.0,
-    "change_pct": 5.54,
-    "close": 1218.6,
-    "previous_close": 1154.6,
+    "as_of": "2026-10-01",
+    "change": -45.4,
+    "change_pct": -3.84,
+    "close": 1136.4,
+    "previous_close": 1181.8,
     "type": "EOD_CLOSE",
-    "volume": 376368
+    "volume": 129545
   },
   "range": {
-    "distance_from_high_pct": -8.36,
-    "distance_from_low_pct": 112.41,
+    "distance_from_high_pct": -14.54,
+    "distance_from_low_pct": 98.08,
     "high_52w": 1329.8,
     "history_basis": "52_WEEK",
     "low_52w": 573.7,
-    "range_position_pct": 85.29
+    "range_position_pct": 74.42
   },
   "risk_model": {
-    "invalidation_floor": 1175.95,
-    "risk_per_share": 67.02,
-    "technical_pivot": 1242.97
+    "invalidation_floor": 1096.63,
+    "risk_per_share": 62.5,
+    "technical_pivot": 1159.13
   },
   "schema_version": "1.0",
   "sector": null,

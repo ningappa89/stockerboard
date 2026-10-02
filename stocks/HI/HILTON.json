@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 53.88,
-      "high": 55.65,
-      "low": 53.5,
-      "open": 54.05,
-      "time": "2025-09-19",
-      "volume": 53039
-    },
-    {
-      "close": 51.67,
-      "high": 54.39,
-      "low": 51.5,
-      "open": 54.2,
-      "time": "2025-09-22",
-      "volume": 379162
-    },
-    {
-      "close": 52.24,
-      "high": 53.27,
-      "low": 51.75,
-      "open": 52.98,
-      "time": "2025-09-23",
-      "volume": 97448
-    },
-    {
       "close": 51.75,
       "high": 53.25,
       "low": 51.5,
@@ -2017,13 +1993,37 @@
       "open": 17.45,
       "time": "2026-09-28",
       "volume": 79606
+    },
+    {
+      "close": 16.45,
+      "high": 17.28,
+      "low": 16.26,
+      "open": 16.56,
+      "time": "2026-09-29",
+      "volume": 183520
+    },
+    {
+      "close": 16.34,
+      "high": 16.9,
+      "low": 16.06,
+      "open": 16.3,
+      "time": "2026-09-30",
+      "volume": 93970
+    },
+    {
+      "close": 16.86,
+      "high": 17.15,
+      "low": 16.15,
+      "open": 16.65,
+      "time": "2026-10-01",
+      "volume": 144115
     }
   ],
   "company_name": "HILTON METAL FORGING LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.69x"
+    "volume_multiplier": "1.21x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.07,
-    "change_pct": -0.42,
-    "close": 16.78,
-    "previous_close": 16.85,
+    "as_of": "2026-10-01",
+    "change": 0.52,
+    "change_pct": 3.18,
+    "close": 16.86,
+    "previous_close": 16.34,
     "type": "EOD_CLOSE",
-    "volume": 79606
+    "volume": 144115
   },
   "range": {
-    "distance_from_high_pct": -69.85,
-    "distance_from_low_pct": 24.94,
-    "high_52w": 55.65,
+    "distance_from_high_pct": -68.34,
+    "distance_from_low_pct": 25.54,
+    "high_52w": 53.25,
     "history_basis": "52_WEEK",
     "low_52w": 13.43,
-    "range_position_pct": 7.93
+    "range_position_pct": 8.61
   },
   "risk_model": {
-    "invalidation_floor": 16.19,
+    "invalidation_floor": 16.27,
     "risk_per_share": 0.93,
-    "technical_pivot": 17.12
+    "technical_pivot": 17.2
   },
   "schema_version": "1.0",
   "sector": null,

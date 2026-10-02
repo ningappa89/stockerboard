@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1590.9,
-      "high": 1601.3,
-      "low": 1563.3,
-      "open": 1568.5,
-      "time": "2025-09-19",
-      "volume": 2436924
-    },
-    {
-      "close": 1630.0,
-      "high": 1644.2,
-      "low": 1586.5,
-      "open": 1586.5,
-      "time": "2025-09-22",
-      "volume": 2983892
-    },
-    {
-      "close": 1623.8,
-      "high": 1643.7,
-      "low": 1610.1,
-      "open": 1629.9,
-      "time": "2025-09-23",
-      "volume": 1724892
-    },
-    {
       "close": 1630.2,
       "high": 1640.0,
       "low": 1611.0,
@@ -2017,13 +1993,37 @@
       "open": 1655.0,
       "time": "2026-09-28",
       "volume": 1194338
+    },
+    {
+      "close": 1627.3,
+      "high": 1644.0,
+      "low": 1600.2,
+      "open": 1620.0,
+      "time": "2026-09-29",
+      "volume": 1489025
+    },
+    {
+      "close": 1620.0,
+      "high": 1642.1,
+      "low": 1600.1,
+      "open": 1637.2,
+      "time": "2026-09-30",
+      "volume": 1860436
+    },
+    {
+      "close": 1580.0,
+      "high": 1619.7,
+      "low": 1563.2,
+      "open": 1619.7,
+      "time": "2026-10-01",
+      "volume": 1699959
     }
   ],
   "company_name": "CHOLAMANDALAM IN & FIN CO",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.79x"
+    "volume_multiplier": "1.09x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -28.5,
-    "change_pct": -1.71,
-    "close": 1634.2,
-    "previous_close": 1662.7,
+    "as_of": "2026-10-01",
+    "change": -40.0,
+    "change_pct": -2.47,
+    "close": 1580.0,
+    "previous_close": 1620.0,
     "type": "EOD_CLOSE",
-    "volume": 1194338
+    "volume": 1699959
   },
   "range": {
-    "distance_from_high_pct": -16.3,
-    "distance_from_low_pct": 25.77,
+    "distance_from_high_pct": -19.08,
+    "distance_from_low_pct": 21.59,
     "high_52w": 1952.5,
     "history_basis": "52_WEEK",
     "low_52w": 1299.4,
-    "range_position_pct": 51.26
+    "range_position_pct": 42.96
   },
   "risk_model": {
-    "invalidation_floor": 1577.0,
-    "risk_per_share": 89.88,
-    "technical_pivot": 1666.88
+    "invalidation_floor": 1524.7,
+    "risk_per_share": 86.9,
+    "technical_pivot": 1611.6
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

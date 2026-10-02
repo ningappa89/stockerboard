@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1841.7,
-      "high": 1846.9,
-      "low": 1821.8,
-      "open": 1828.0,
-      "time": "2025-09-19",
-      "volume": 1633208
-    },
-    {
-      "close": 1857.7,
-      "high": 1879.7,
-      "low": 1852.8,
-      "open": 1855.0,
-      "time": "2025-09-22",
-      "volume": 1003774
-    },
-    {
-      "close": 1819.4,
-      "high": 1865.7,
-      "low": 1815.4,
-      "open": 1865.0,
-      "time": "2025-09-23",
-      "volume": 737343
-    },
-    {
       "close": 1817.1,
       "high": 1825.4,
       "low": 1806.0,
@@ -2017,13 +1993,37 @@
       "open": 1742.0,
       "time": "2026-09-28",
       "volume": 1337514
+    },
+    {
+      "close": 1735.0,
+      "high": 1746.0,
+      "low": 1711.0,
+      "open": 1731.6,
+      "time": "2026-09-29",
+      "volume": 1598671
+    },
+    {
+      "close": 1696.4,
+      "high": 1729.5,
+      "low": 1681.0,
+      "open": 1724.0,
+      "time": "2026-09-30",
+      "volume": 1813203
+    },
+    {
+      "close": 1721.6,
+      "high": 1730.3,
+      "low": 1674.8,
+      "open": 1676.3,
+      "time": "2026-10-01",
+      "volume": 3329860
     }
   ],
   "company_name": "SBI LIFE INSURANCE CO LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 61,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.31x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.66x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -13.9,
-    "change_pct": -0.8,
-    "close": 1728.1,
-    "previous_close": 1742.0,
+    "as_of": "2026-10-01",
+    "change": 25.2,
+    "change_pct": 1.49,
+    "close": 1721.6,
+    "previous_close": 1696.4,
     "type": "EOD_CLOSE",
-    "volume": 1337514
+    "volume": 3329860
   },
   "range": {
-    "distance_from_high_pct": -18.94,
-    "distance_from_low_pct": 4.55,
+    "distance_from_high_pct": -19.25,
+    "distance_from_low_pct": 4.16,
     "high_52w": 2132.0,
     "history_basis": "52_WEEK",
     "low_52w": 1652.9,
-    "range_position_pct": 15.7
+    "range_position_pct": 14.34
   },
   "risk_model": {
-    "invalidation_floor": 1667.62,
-    "risk_per_share": 95.04,
-    "technical_pivot": 1762.66
+    "invalidation_floor": 1661.34,
+    "risk_per_share": 94.69,
+    "technical_pivot": 1756.03
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

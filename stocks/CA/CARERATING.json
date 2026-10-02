@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1598.7,
-      "high": 1608.0,
-      "low": 1564.0,
-      "open": 1608.0,
-      "time": "2025-09-19",
-      "volume": 34605
-    },
-    {
-      "close": 1578.9,
-      "high": 1606.9,
-      "low": 1573.0,
-      "open": 1598.7,
-      "time": "2025-09-22",
-      "volume": 22669
-    },
-    {
-      "close": 1552.6,
-      "high": 1581.3,
-      "low": 1545.1,
-      "open": 1580.0,
-      "time": "2025-09-23",
-      "volume": 24425
-    },
-    {
       "close": 1530.5,
       "high": 1556.7,
       "low": 1527.1,
@@ -2017,13 +1993,37 @@
       "open": 1628.9,
       "time": "2026-09-28",
       "volume": 46655
+    },
+    {
+      "close": 1637.8,
+      "high": 1647.6,
+      "low": 1603.4,
+      "open": 1627.9,
+      "time": "2026-09-29",
+      "volume": 70064
+    },
+    {
+      "close": 1616.7,
+      "high": 1652.8,
+      "low": 1611.0,
+      "open": 1637.0,
+      "time": "2026-09-30",
+      "volume": 51390
+    },
+    {
+      "close": 1602.7,
+      "high": 1622.0,
+      "low": 1581.1,
+      "open": 1616.7,
+      "time": "2026-10-01",
+      "volume": 42470
     }
   ],
   "company_name": "CARE RATINGS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 72,
+    "momentum_score": 70,
     "setup_type": "Liquid Active",
     "volume_multiplier": "0.72x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.8,
-    "change_pct": 0.05,
-    "close": 1628.4,
-    "previous_close": 1627.6,
+    "as_of": "2026-10-01",
+    "change": -14.0,
+    "change_pct": -0.87,
+    "close": 1602.7,
+    "previous_close": 1616.7,
     "type": "EOD_CLOSE",
-    "volume": 46655
+    "volume": 42470
   },
   "range": {
-    "distance_from_high_pct": -11.4,
-    "distance_from_low_pct": 16.92,
+    "distance_from_high_pct": -12.8,
+    "distance_from_low_pct": 15.08,
     "high_52w": 1838.0,
     "history_basis": "52_WEEK",
     "low_52w": 1392.7,
-    "range_position_pct": 52.93
+    "range_position_pct": 47.16
   },
   "risk_model": {
-    "invalidation_floor": 1571.41,
-    "risk_per_share": 89.56,
-    "technical_pivot": 1660.97
+    "invalidation_floor": 1546.61,
+    "risk_per_share": 88.14,
+    "technical_pivot": 1634.75
   },
   "schema_version": "1.0",
   "sector": null,

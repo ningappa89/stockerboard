@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 60.4,
-      "high": 60.61,
-      "low": 59.06,
-      "open": 59.25,
-      "time": "2025-09-19",
-      "volume": 84643232
-    },
-    {
-      "close": 59.93,
-      "high": 60.97,
-      "low": 59.67,
-      "open": 60.4,
-      "time": "2025-09-22",
-      "volume": 62077740
-    },
-    {
-      "close": 58.75,
-      "high": 60.13,
-      "low": 58.63,
-      "open": 60.0,
-      "time": "2025-09-23",
-      "volume": 43152416
-    },
-    {
       "close": 57.5,
       "high": 58.88,
       "low": 57.36,
@@ -2017,13 +1993,37 @@
       "open": 40.8,
       "time": "2026-09-28",
       "volume": 67390402
+    },
+    {
+      "close": 39.5,
+      "high": 39.87,
+      "low": 38.9,
+      "open": 39.66,
+      "time": "2026-09-29",
+      "volume": 61795397
+    },
+    {
+      "close": 39.49,
+      "high": 39.99,
+      "low": 39.2,
+      "open": 39.51,
+      "time": "2026-09-30",
+      "volume": 47026942
+    },
+    {
+      "close": 38.91,
+      "high": 39.63,
+      "low": 38.4,
+      "open": 39.49,
+      "time": "2026-10-01",
+      "volume": 53247107
     }
   ],
   "company_name": "SUZLON ENERGY LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.26x"
+    "volume_multiplier": "0.99x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.14,
-    "change_pct": -2.79,
-    "close": 39.66,
-    "previous_close": 40.8,
+    "as_of": "2026-10-01",
+    "change": -0.58,
+    "change_pct": -1.47,
+    "close": 38.91,
+    "previous_close": 39.49,
     "type": "EOD_CLOSE",
-    "volume": 67390402
+    "volume": 53247107
   },
   "range": {
-    "distance_from_high_pct": -35.51,
-    "distance_from_low_pct": 3.85,
+    "distance_from_high_pct": -36.73,
+    "distance_from_low_pct": 1.89,
     "high_52w": 61.5,
     "history_basis": "52_WEEK",
     "low_52w": 38.19,
-    "range_position_pct": 6.31
+    "range_position_pct": 3.09
   },
   "risk_model": {
-    "invalidation_floor": 38.27,
-    "risk_per_share": 2.18,
-    "technical_pivot": 40.45
+    "invalidation_floor": 37.55,
+    "risk_per_share": 2.14,
+    "technical_pivot": 39.69
   },
   "schema_version": "1.0",
   "sector": null,

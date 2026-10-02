@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 235.44,
-      "high": 238.6,
-      "low": 234.0,
-      "open": 237.4,
-      "time": "2025-09-19",
-      "volume": 10503
-    },
-    {
-      "close": 233.88,
-      "high": 236.5,
-      "low": 231.25,
-      "open": 236.39,
-      "time": "2025-09-22",
-      "volume": 15928
-    },
-    {
-      "close": 232.37,
-      "high": 235.9,
-      "low": 231.8,
-      "open": 235.9,
-      "time": "2025-09-23",
-      "volume": 10346
-    },
-    {
       "close": 229.8,
       "high": 235.9,
       "low": 228.3,
@@ -2017,46 +1993,70 @@
       "open": 492.1,
       "time": "2026-09-28",
       "volume": 95953
+    },
+    {
+      "close": 491.8,
+      "high": 510.65,
+      "low": 485.0,
+      "open": 510.6,
+      "time": "2026-09-29",
+      "volume": 22908
+    },
+    {
+      "close": 499.75,
+      "high": 509.7,
+      "low": 495.9,
+      "open": 495.9,
+      "time": "2026-09-30",
+      "volume": 15683
+    },
+    {
+      "close": 499.65,
+      "high": 515.95,
+      "low": 486.35,
+      "open": 501.2,
+      "time": "2026-10-01",
+      "volume": 24508
     }
   ],
   "company_name": "RUBY MILLS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE301D01026",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 86,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "2.33x"
+    "momentum_score": 83,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.56x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 18.75,
-    "change_pct": 3.81,
-    "close": 510.6,
-    "previous_close": 491.85,
+    "as_of": "2026-10-01",
+    "change": -0.1,
+    "change_pct": -0.02,
+    "close": 499.65,
+    "previous_close": 499.75,
     "type": "EOD_CLOSE",
-    "volume": 95953
+    "volume": 24508
   },
   "range": {
-    "distance_from_high_pct": -2.18,
-    "distance_from_low_pct": 202.09,
+    "distance_from_high_pct": -4.28,
+    "distance_from_low_pct": 195.62,
     "high_52w": 522.0,
     "history_basis": "52_WEEK",
     "low_52w": 169.02,
-    "range_position_pct": 96.77
+    "range_position_pct": 93.67
   },
   "risk_model": {
-    "invalidation_floor": 492.73,
-    "risk_per_share": 28.08,
-    "technical_pivot": 520.81
+    "invalidation_floor": 482.16,
+    "risk_per_share": 27.48,
+    "technical_pivot": 509.64
   },
   "schema_version": "1.0",
   "sector": null,

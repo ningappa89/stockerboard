@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 381.85,
-      "high": 389.2,
-      "low": 380.2,
-      "open": 384.3,
-      "time": "2025-09-19",
-      "volume": 19188
-    },
-    {
-      "close": 378.55,
-      "high": 386.8,
-      "low": 376.0,
-      "open": 382.15,
-      "time": "2025-09-22",
-      "volume": 20962
-    },
-    {
-      "close": 378.0,
-      "high": 380.6,
-      "low": 376.65,
-      "open": 378.0,
-      "time": "2025-09-23",
-      "volume": 8812
-    },
-    {
       "close": 375.45,
       "high": 384.25,
       "low": 374.5,
@@ -2017,13 +1993,37 @@
       "open": 359.85,
       "time": "2026-09-28",
       "volume": 22558
+    },
+    {
+      "close": 355.8,
+      "high": 358.0,
+      "low": 345.35,
+      "open": 350.35,
+      "time": "2026-09-29",
+      "volume": 66941
+    },
+    {
+      "close": 352.8,
+      "high": 362.8,
+      "low": 350.3,
+      "open": 352.15,
+      "time": "2026-09-30",
+      "volume": 25759
+    },
+    {
+      "close": 346.1,
+      "high": 354.5,
+      "low": 337.85,
+      "open": 354.5,
+      "time": "2026-10-01",
+      "volume": 33765
     }
   ],
   "company_name": "INDIAN HUME PIPE CO.LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 61,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.37x"
+    "volume_multiplier": "0.57x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -7.1,
-    "change_pct": -1.99,
-    "close": 350.35,
-    "previous_close": 357.45,
+    "as_of": "2026-10-01",
+    "change": -6.7,
+    "change_pct": -1.9,
+    "close": 346.1,
+    "previous_close": 352.8,
     "type": "EOD_CLOSE",
-    "volume": 22558
+    "volume": 33765
   },
   "range": {
-    "distance_from_high_pct": -18.9,
-    "distance_from_low_pct": 25.21,
+    "distance_from_high_pct": -19.88,
+    "distance_from_low_pct": 23.7,
     "high_52w": 432.0,
     "history_basis": "52_WEEK",
     "low_52w": 279.8,
-    "range_position_pct": 46.35
+    "range_position_pct": 43.56
   },
   "risk_model": {
-    "invalidation_floor": 338.09,
-    "risk_per_share": 19.27,
-    "technical_pivot": 357.36
+    "invalidation_floor": 333.99,
+    "risk_per_share": 19.03,
+    "technical_pivot": 353.02
   },
   "schema_version": "1.0",
   "sector": null,

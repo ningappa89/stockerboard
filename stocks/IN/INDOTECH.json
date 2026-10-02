@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1819.2,
-      "high": 1850.0,
-      "low": 1757.0,
-      "open": 1780.0,
-      "time": "2025-09-19",
-      "volume": 19956
-    },
-    {
-      "close": 1774.8,
-      "high": 1847.0,
-      "low": 1752.1,
-      "open": 1835.0,
-      "time": "2025-09-22",
-      "volume": 11657
-    },
-    {
-      "close": 1781.8,
-      "high": 1789.9,
-      "low": 1750.5,
-      "open": 1778.0,
-      "time": "2025-09-23",
-      "volume": 12127
-    },
-    {
       "close": 1766.6,
       "high": 1798.6,
       "low": 1758.0,
@@ -2017,13 +1993,37 @@
       "open": 3171.0,
       "time": "2026-09-28",
       "volume": 12503
+    },
+    {
+      "close": 3186.2,
+      "high": 3270.0,
+      "low": 3079.9,
+      "open": 3225.0,
+      "time": "2026-09-29",
+      "volume": 17139
+    },
+    {
+      "close": 3188.2,
+      "high": 3275.0,
+      "low": 3161.2,
+      "open": 3267.0,
+      "time": "2026-09-30",
+      "volume": 8311
+    },
+    {
+      "close": 3347.6,
+      "high": 3347.6,
+      "low": 3141.0,
+      "open": 3204.3,
+      "time": "2026-10-01",
+      "volume": 50433
     }
   ],
   "company_name": "INDO TECH TRANSFORM LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 56,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.77x"
+    "momentum_score": 64,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.9x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -44.0,
-    "change_pct": -1.38,
-    "close": 3133.7,
-    "previous_close": 3177.7,
+    "as_of": "2026-10-01",
+    "change": 159.4,
+    "change_pct": 5.0,
+    "close": 3347.6,
+    "previous_close": 3188.2,
     "type": "EOD_CLOSE",
-    "volume": 12503
+    "volume": 50433
   },
   "range": {
-    "distance_from_high_pct": -22.24,
-    "distance_from_low_pct": 184.88,
+    "distance_from_high_pct": -16.93,
+    "distance_from_low_pct": 204.33,
     "high_52w": 4030.0,
     "history_basis": "52_WEEK",
     "low_52w": 1100.0,
-    "range_position_pct": 69.41
+    "range_position_pct": 76.71
   },
   "risk_model": {
-    "invalidation_floor": 3024.02,
-    "risk_per_share": 172.35,
-    "technical_pivot": 3196.37
+    "invalidation_floor": 3230.43,
+    "risk_per_share": 184.12,
+    "technical_pivot": 3414.55
   },
   "schema_version": "1.0",
   "sector": null,

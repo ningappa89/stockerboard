@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1082.25,
-      "high": 1098.9,
-      "low": 1023.05,
-      "open": 1067.2,
-      "time": "2025-09-19",
-      "volume": 26243
-    },
-    {
-      "close": 1066.35,
-      "high": 1132.25,
-      "low": 1031.0,
-      "open": 1098.9,
-      "time": "2025-09-22",
-      "volume": 31529
-    },
-    {
-      "close": 1105.15,
-      "high": 1119.0,
-      "low": 1048.05,
-      "open": 1071.95,
-      "time": "2025-09-23",
-      "volume": 22703
-    },
-    {
       "close": 1089.5,
       "high": 1122.0,
       "low": 1081.05,
@@ -2017,13 +1993,37 @@
       "open": 850.0,
       "time": "2026-09-28",
       "volume": 69918
+    },
+    {
+      "close": 778.35,
+      "high": 806.65,
+      "low": 775.0,
+      "open": 806.6,
+      "time": "2026-09-29",
+      "volume": 11981
+    },
+    {
+      "close": 774.25,
+      "high": 790.85,
+      "low": 768.7,
+      "open": 785.05,
+      "time": "2026-09-30",
+      "volume": 8860
+    },
+    {
+      "close": 743.6,
+      "high": 774.25,
+      "low": 717.05,
+      "open": 774.25,
+      "time": "2026-10-01",
+      "volume": 17615
     }
   ],
   "company_name": "ELECTROTHERM (I) LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.76x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.68x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -66.7,
-    "change_pct": -7.64,
-    "close": 806.65,
-    "previous_close": 873.35,
+    "as_of": "2026-10-01",
+    "change": -30.65,
+    "change_pct": -3.96,
+    "close": 743.6,
+    "previous_close": 774.25,
     "type": "EOD_CLOSE",
-    "volume": 69918
+    "volume": 17615
   },
   "range": {
-    "distance_from_high_pct": -36.83,
-    "distance_from_low_pct": 46.4,
+    "distance_from_high_pct": -41.77,
+    "distance_from_low_pct": 34.95,
     "high_52w": 1277.0,
     "history_basis": "52_WEEK",
     "low_52w": 551.0,
-    "range_position_pct": 35.21
+    "range_position_pct": 26.53
   },
   "risk_model": {
-    "invalidation_floor": 778.42,
-    "risk_per_share": 44.36,
-    "technical_pivot": 822.78
+    "invalidation_floor": 717.57,
+    "risk_per_share": 40.9,
+    "technical_pivot": 758.47
   },
   "schema_version": "1.0",
   "sector": null,

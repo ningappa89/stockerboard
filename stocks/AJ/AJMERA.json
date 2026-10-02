@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 42.12,
-      "high": 42.4,
-      "low": 39.68,
-      "open": 40.24,
-      "time": "2025-09-19",
-      "volume": 6318600
-    },
-    {
-      "close": 41.13,
-      "high": 43.55,
-      "low": 40.92,
-      "open": 42.4,
-      "time": "2025-09-22",
-      "volume": 10045650
-    },
-    {
-      "close": 42.95,
-      "high": 43.16,
-      "low": 41.08,
-      "open": 41.28,
-      "time": "2025-09-23",
-      "volume": 3535200
-    },
-    {
       "close": 41.49,
       "high": 43.33,
       "low": 41.08,
@@ -2017,13 +1993,37 @@
       "open": 119.8,
       "time": "2026-09-28",
       "volume": 289904
+    },
+    {
+      "close": 120.16,
+      "high": 121.0,
+      "low": 114.61,
+      "open": 118.74,
+      "time": "2026-09-29",
+      "volume": 237553
+    },
+    {
+      "close": 118.74,
+      "high": 121.09,
+      "low": 117.45,
+      "open": 120.15,
+      "time": "2026-09-30",
+      "volume": 165082
+    },
+    {
+      "close": 119.6,
+      "high": 120.25,
+      "low": 115.35,
+      "open": 116.61,
+      "time": "2026-10-01",
+      "volume": 255968
     }
   ],
   "company_name": "AJMERA REALTY & INFRA INDIA LT",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.89x"
+    "volume_multiplier": "0.79x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.2,
-    "change_pct": -0.99,
-    "close": 119.62,
-    "previous_close": 120.82,
+    "as_of": "2026-10-01",
+    "change": 0.86,
+    "change_pct": 0.72,
+    "close": 119.6,
+    "previous_close": 118.74,
     "type": "EOD_CLOSE",
-    "volume": 289904
+    "volume": 255968
   },
   "range": {
-    "distance_from_high_pct": -36.24,
-    "distance_from_low_pct": 237.24,
+    "distance_from_high_pct": -36.25,
+    "distance_from_low_pct": 237.19,
     "high_52w": 187.6,
     "history_basis": "52_WEEK",
     "low_52w": 35.47,
-    "range_position_pct": 55.31
+    "range_position_pct": 55.3
   },
   "risk_model": {
-    "invalidation_floor": 115.43,
+    "invalidation_floor": 115.41,
     "risk_per_share": 6.58,
-    "technical_pivot": 122.01
+    "technical_pivot": 121.99
   },
   "schema_version": "1.0",
   "sector": null,

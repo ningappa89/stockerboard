@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1363.4,
-      "high": 1385.0,
-      "low": 1348.0,
-      "open": 1385.0,
-      "time": "2025-09-19",
-      "volume": 203611
-    },
-    {
-      "close": 1360.6,
-      "high": 1393.0,
-      "low": 1353.1,
-      "open": 1363.0,
-      "time": "2025-09-22",
-      "volume": 122729
-    },
-    {
-      "close": 1357.5,
-      "high": 1365.2,
-      "low": 1341.5,
-      "open": 1351.0,
-      "time": "2025-09-23",
-      "volume": 96592
-    },
-    {
       "close": 1391.2,
       "high": 1398.0,
       "low": 1354.2,
@@ -2017,13 +1993,37 @@
       "open": 1294.0,
       "time": "2026-09-28",
       "volume": 184340
+    },
+    {
+      "close": 1216.3,
+      "high": 1255.6,
+      "low": 1209.1,
+      "open": 1255.0,
+      "time": "2026-09-29",
+      "volume": 368535
+    },
+    {
+      "close": 1272.0,
+      "high": 1278.8,
+      "low": 1220.2,
+      "open": 1220.2,
+      "time": "2026-09-30",
+      "volume": 364278
+    },
+    {
+      "close": 1239.0,
+      "high": 1268.0,
+      "low": 1224.6,
+      "open": 1268.0,
+      "time": "2026-10-01",
+      "volume": 343285
     }
   ],
   "company_name": "CreditAccess Grameen Ltd.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 55,
+    "momentum_score": 53,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.96x"
+    "volume_multiplier": "1.9x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -43.6,
-    "change_pct": -3.36,
-    "close": 1255.2,
-    "previous_close": 1298.8,
+    "as_of": "2026-10-01",
+    "change": -33.0,
+    "change_pct": -2.59,
+    "close": 1239.0,
+    "previous_close": 1272.0,
     "type": "EOD_CLOSE",
-    "volume": 184340
+    "volume": 343285
   },
   "range": {
-    "distance_from_high_pct": -23.18,
-    "distance_from_low_pct": 12.78,
+    "distance_from_high_pct": -24.17,
+    "distance_from_low_pct": 11.32,
     "high_52w": 1634.0,
     "history_basis": "52_WEEK",
     "low_52w": 1113.0,
-    "range_position_pct": 27.29
+    "range_position_pct": 24.18
   },
   "risk_model": {
-    "invalidation_floor": 1211.27,
-    "risk_per_share": 69.03,
-    "technical_pivot": 1280.3
+    "invalidation_floor": 1195.63,
+    "risk_per_share": 68.15,
+    "technical_pivot": 1263.78
   },
   "schema_version": "1.0",
   "sector": null,

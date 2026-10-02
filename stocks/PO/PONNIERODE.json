@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 294.45,
-      "high": 298.4,
-      "low": 294.0,
-      "open": 297.0,
-      "time": "2025-09-19",
-      "volume": 5675
-    },
-    {
-      "close": 290.7,
-      "high": 296.65,
-      "low": 287.05,
-      "open": 294.0,
-      "time": "2025-09-22",
-      "volume": 8320
-    },
-    {
-      "close": 292.05,
-      "high": 304.8,
-      "low": 288.0,
-      "open": 290.0,
-      "time": "2025-09-23",
-      "volume": 21282
-    },
-    {
       "close": 288.45,
       "high": 293.4,
       "low": 288.0,
@@ -2017,13 +1993,37 @@
       "open": 400.8,
       "time": "2026-09-28",
       "volume": 53905
+    },
+    {
+      "close": 384.15,
+      "high": 392.0,
+      "low": 382.0,
+      "open": 391.05,
+      "time": "2026-09-29",
+      "volume": 14553
+    },
+    {
+      "close": 372.2,
+      "high": 394.2,
+      "low": 370.05,
+      "open": 382.3,
+      "time": "2026-09-30",
+      "volume": 21766
+    },
+    {
+      "close": 372.35,
+      "high": 380.0,
+      "low": 358.9,
+      "open": 379.0,
+      "time": "2026-10-01",
+      "volume": 39422
     }
   ],
   "company_name": "PONNIE SUGARS (ERODE) LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 68,
+    "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.33x"
+    "volume_multiplier": "1.06x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -9.8,
-    "change_pct": -2.45,
-    "close": 390.0,
-    "previous_close": 399.8,
+    "as_of": "2026-10-01",
+    "change": 0.15,
+    "change_pct": 0.04,
+    "close": 372.35,
+    "previous_close": 372.2,
     "type": "EOD_CLOSE",
-    "volume": 53905
+    "volume": 39422
   },
   "range": {
-    "distance_from_high_pct": -14.29,
-    "distance_from_low_pct": 54.52,
+    "distance_from_high_pct": -18.16,
+    "distance_from_low_pct": 47.52,
     "high_52w": 455.0,
     "history_basis": "52_WEEK",
     "low_52w": 252.4,
-    "range_position_pct": 67.92
+    "range_position_pct": 59.21
   },
   "risk_model": {
-    "invalidation_floor": 376.35,
-    "risk_per_share": 21.45,
-    "technical_pivot": 397.8
+    "invalidation_floor": 359.32,
+    "risk_per_share": 20.48,
+    "technical_pivot": 379.8
   },
   "schema_version": "1.0",
   "sector": null,

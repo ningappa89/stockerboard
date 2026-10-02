@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 155.34,
-      "high": 155.5,
-      "low": 153.81,
-      "open": 155.49,
-      "time": "2025-09-19",
-      "volume": 171227
-    },
-    {
-      "close": 154.83,
-      "high": 155.5,
-      "low": 152.42,
-      "open": 152.42,
-      "time": "2025-09-22",
-      "volume": 279230
-    },
-    {
-      "close": 154.64,
-      "high": 155.5,
-      "low": 153.1,
-      "open": 155.4,
-      "time": "2025-09-23",
-      "volume": 256836
-    },
-    {
       "close": 153.26,
       "high": 155.22,
       "low": 152.69,
@@ -2017,13 +1993,37 @@
       "open": 288.2,
       "time": "2026-09-28",
       "volume": 1051174
+    },
+    {
+      "close": 261.95,
+      "high": 282.85,
+      "low": 258.25,
+      "open": 281.9,
+      "time": "2026-09-29",
+      "volume": 1255588
+    },
+    {
+      "close": 269.7,
+      "high": 279.15,
+      "low": 265.0,
+      "open": 267.65,
+      "time": "2026-09-30",
+      "volume": 610951
+    },
+    {
+      "close": 262.4,
+      "high": 270.05,
+      "low": 259.0,
+      "open": 270.0,
+      "time": "2026-10-01",
+      "volume": 318865
     }
   ],
   "company_name": "Commercial Syn Bags Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 73,
+    "is_stage2": false,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.52x"
+    "volume_multiplier": "0.45x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.0,
-    "change_pct": -0.71,
-    "close": 280.85,
-    "previous_close": 282.85,
+    "as_of": "2026-10-01",
+    "change": -7.3,
+    "change_pct": -2.71,
+    "close": 262.4,
+    "previous_close": 269.7,
     "type": "EOD_CLOSE",
-    "volume": 1051174
+    "volume": 318865
   },
   "range": {
-    "distance_from_high_pct": -10.95,
-    "distance_from_low_pct": 105.84,
+    "distance_from_high_pct": -16.8,
+    "distance_from_low_pct": 92.32,
     "high_52w": 315.4,
     "history_basis": "52_WEEK",
     "low_52w": 136.44,
-    "range_position_pct": 80.69
+    "range_position_pct": 70.38
   },
   "risk_model": {
-    "invalidation_floor": 271.02,
-    "risk_per_share": 15.45,
-    "technical_pivot": 286.47
+    "invalidation_floor": 253.22,
+    "risk_per_share": 14.43,
+    "technical_pivot": 267.65
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 31.38,
-      "high": 32.39,
-      "low": 31.1,
-      "open": 31.3,
-      "time": "2025-09-19",
-      "volume": 28949
-    },
-    {
-      "close": 31.25,
-      "high": 33.0,
-      "low": 30.5,
-      "open": 31.54,
-      "time": "2025-09-22",
-      "volume": 32148
-    },
-    {
-      "close": 31.64,
-      "high": 32.75,
-      "low": 31.04,
-      "open": 31.73,
-      "time": "2025-09-23",
-      "volume": 13668
-    },
-    {
       "close": 30.56,
       "high": 31.61,
       "low": 30.5,
@@ -2017,13 +1993,37 @@
       "open": 25.04,
       "time": "2026-09-28",
       "volume": 1163
+    },
+    {
+      "close": 25.32,
+      "high": 25.5,
+      "low": 24.5,
+      "open": 24.55,
+      "time": "2026-09-29",
+      "volume": 5273
+    },
+    {
+      "close": 24.94,
+      "high": 25.83,
+      "low": 24.6,
+      "open": 25.83,
+      "time": "2026-09-30",
+      "volume": 4302
+    },
+    {
+      "close": 24.95,
+      "high": 25.29,
+      "low": 24.28,
+      "open": 25.18,
+      "time": "2026-10-01",
+      "volume": 1157
     }
   ],
   "company_name": "AKASH INFRA-PROJECTS LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 47,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.31x"
+    "volume_multiplier": "0.33x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.02,
-    "change_pct": -0.08,
-    "close": 25.02,
-    "previous_close": 25.04,
+    "as_of": "2026-10-01",
+    "change": 0.01,
+    "change_pct": 0.04,
+    "close": 24.95,
+    "previous_close": 24.94,
     "type": "EOD_CLOSE",
-    "volume": 1163
+    "volume": 1157
   },
   "range": {
-    "distance_from_high_pct": -27.98,
-    "distance_from_low_pct": 9.74,
+    "distance_from_high_pct": -28.18,
+    "distance_from_low_pct": 9.43,
     "high_52w": 34.74,
     "history_basis": "52_WEEK",
     "low_52w": 22.8,
-    "range_position_pct": 18.59
+    "range_position_pct": 18.01
   },
   "risk_model": {
-    "invalidation_floor": 24.14,
-    "risk_per_share": 1.38,
-    "technical_pivot": 25.52
+    "invalidation_floor": 24.08,
+    "risk_per_share": 1.37,
+    "technical_pivot": 25.45
   },
   "schema_version": "1.0",
   "sector": null,

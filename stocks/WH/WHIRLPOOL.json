@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1337.8,
-      "high": 1345.6,
-      "low": 1325.0,
-      "open": 1345.0,
-      "time": "2025-09-19",
-      "volume": 155436
-    },
-    {
-      "close": 1329.2,
-      "high": 1354.0,
-      "low": 1322.1,
-      "open": 1341.8,
-      "time": "2025-09-22",
-      "volume": 79924
-    },
-    {
-      "close": 1320.9,
-      "high": 1341.4,
-      "low": 1314.1,
-      "open": 1337.5,
-      "time": "2025-09-23",
-      "volume": 81756
-    },
-    {
       "close": 1296.0,
       "high": 1329.1,
       "low": 1290.0,
@@ -2017,13 +1993,37 @@
       "open": 910.0,
       "time": "2026-09-28",
       "volume": 4140030
+    },
+    {
+      "close": 888.2,
+      "high": 912.55,
+      "low": 873.0,
+      "open": 912.55,
+      "time": "2026-09-29",
+      "volume": 1761949
+    },
+    {
+      "close": 890.25,
+      "high": 942.8,
+      "low": 862.25,
+      "open": 879.3,
+      "time": "2026-09-30",
+      "volume": 3226987
+    },
+    {
+      "close": 861.65,
+      "high": 897.1,
+      "low": 852.5,
+      "open": 880.0,
+      "time": "2026-10-01",
+      "volume": 1044003
     }
   ],
   "company_name": "WHIRLPOOL OF INDIA LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Consumer Durables",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.5x"
+    "volume_multiplier": "0.34x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.8,
-    "change_pct": -0.2,
-    "close": 917.1,
-    "previous_close": 918.9,
+    "as_of": "2026-10-01",
+    "change": -28.6,
+    "change_pct": -3.21,
+    "close": 861.65,
+    "previous_close": 890.25,
     "type": "EOD_CLOSE",
-    "volume": 4140030
+    "volume": 1044003
   },
   "range": {
-    "distance_from_high_pct": -36.18,
-    "distance_from_low_pct": 29.9,
+    "distance_from_high_pct": -40.04,
+    "distance_from_low_pct": 22.05,
     "high_52w": 1437.0,
     "history_basis": "52_WEEK",
     "low_52w": 706.0,
-    "range_position_pct": 28.88
+    "range_position_pct": 21.29
   },
   "risk_model": {
-    "invalidation_floor": 885.0,
-    "risk_per_share": 50.44,
-    "technical_pivot": 935.44
+    "invalidation_floor": 831.49,
+    "risk_per_share": 47.39,
+    "technical_pivot": 878.88
   },
   "schema_version": "1.0",
   "sector": "Consumer Durables",

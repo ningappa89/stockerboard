@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 240.01,
-      "high": 241.7,
-      "low": 239.5,
-      "open": 240.35,
-      "time": "2025-09-19",
-      "volume": 157537
-    },
-    {
-      "close": 240.31,
-      "high": 253.7,
-      "low": 239.05,
-      "open": 242.5,
-      "time": "2025-09-22",
-      "volume": 750542
-    },
-    {
-      "close": 236.39,
-      "high": 243.8,
-      "low": 235.0,
-      "open": 241.6,
-      "time": "2025-09-23",
-      "volume": 133177
-    },
-    {
       "close": 235.86,
       "high": 241.1,
       "low": 234.85,
@@ -2017,13 +1993,37 @@
       "open": 240.7,
       "time": "2026-09-28",
       "volume": 93608
+    },
+    {
+      "close": 235.7,
+      "high": 238.95,
+      "low": 231.1,
+      "open": 238.85,
+      "time": "2026-09-29",
+      "volume": 78853
+    },
+    {
+      "close": 237.35,
+      "high": 243.0,
+      "low": 234.7,
+      "open": 236.7,
+      "time": "2026-09-30",
+      "volume": 87980
+    },
+    {
+      "close": 232.72,
+      "high": 235.3,
+      "low": 227.81,
+      "open": 235.3,
+      "time": "2026-10-01",
+      "volume": 94577
     }
   ],
   "company_name": "HUHTAMAKI INDIA LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 46,
+    "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.42x"
+    "volume_multiplier": "0.46x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -9.05,
-    "change_pct": -3.72,
-    "close": 234.2,
-    "previous_close": 243.25,
+    "as_of": "2026-10-01",
+    "change": -4.63,
+    "change_pct": -1.95,
+    "close": 232.72,
+    "previous_close": 237.35,
     "type": "EOD_CLOSE",
-    "volume": 93608
+    "volume": 94577
   },
   "range": {
-    "distance_from_high_pct": -29.03,
-    "distance_from_low_pct": 57.6,
+    "distance_from_high_pct": -29.48,
+    "distance_from_low_pct": 56.61,
     "high_52w": 330.0,
     "history_basis": "52_WEEK",
     "low_52w": 148.6,
-    "range_position_pct": 47.19
+    "range_position_pct": 46.37
   },
   "risk_model": {
-    "invalidation_floor": 226.0,
-    "risk_per_share": 12.88,
-    "technical_pivot": 238.88
+    "invalidation_floor": 224.57,
+    "risk_per_share": 12.8,
+    "technical_pivot": 237.37
   },
   "schema_version": "1.0",
   "sector": null,

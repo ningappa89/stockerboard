@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 8971.5,
-      "high": 9063.5,
-      "low": 8950.5,
-      "open": 9050.0,
-      "time": "2025-09-19",
-      "volume": 467648
-    },
-    {
-      "close": 9054.5,
-      "high": 9195.0,
-      "low": 8959.5,
-      "open": 8971.5,
-      "time": "2025-09-22",
-      "volume": 525239
-    },
-    {
-      "close": 8984.5,
-      "high": 9225.0,
-      "low": 8950.0,
-      "open": 9079.0,
-      "time": "2025-09-23",
-      "volume": 451186
-    },
-    {
       "close": 8839.0,
       "high": 8999.0,
       "low": 8804.0,
@@ -2017,13 +1993,37 @@
       "open": 11250.0,
       "time": "2026-09-28",
       "volume": 241334
+    },
+    {
+      "close": 10811.0,
+      "high": 11020.0,
+      "low": 10805.0,
+      "open": 11016.0,
+      "time": "2026-09-29",
+      "volume": 527929
+    },
+    {
+      "close": 10874.0,
+      "high": 10953.0,
+      "low": 10779.0,
+      "open": 10779.0,
+      "time": "2026-09-30",
+      "volume": 313712
+    },
+    {
+      "close": 10045.0,
+      "high": 10714.0,
+      "low": 9900.0,
+      "open": 10701.0,
+      "time": "2026-10-01",
+      "volume": 1491300
     }
   ],
   "company_name": "BAJAJ AUTO LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Automobile and Auto Components",
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 72,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.14x"
+    "is_stage2": false,
+    "momentum_score": 60,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "5.53x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -257.0,
-    "change_pct": -2.28,
-    "close": 11024.0,
-    "previous_close": 11281.0,
+    "as_of": "2026-10-01",
+    "change": -829.0,
+    "change_pct": -7.62,
+    "close": 10045.0,
+    "previous_close": 10874.0,
     "type": "EOD_CLOSE",
-    "volume": 241334
+    "volume": 1491300
   },
   "range": {
-    "distance_from_high_pct": -11.6,
-    "distance_from_low_pct": 29.82,
+    "distance_from_high_pct": -19.45,
+    "distance_from_low_pct": 18.29,
     "high_52w": 12470.0,
     "history_basis": "52_WEEK",
     "low_52w": 8491.5,
-    "range_position_pct": 63.65
+    "range_position_pct": 39.05
   },
   "risk_model": {
-    "invalidation_floor": 10638.16,
-    "risk_per_share": 606.32,
-    "technical_pivot": 11244.48
+    "invalidation_floor": 9693.42,
+    "risk_per_share": 552.48,
+    "technical_pivot": 10245.9
   },
   "schema_version": "1.0",
   "sector": "Automobile and Auto Components",

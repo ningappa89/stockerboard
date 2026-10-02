@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 165.49,
-      "high": 169.87,
-      "low": 164.3,
-      "open": 164.3,
-      "time": "2025-09-19",
-      "volume": 11773
-    },
-    {
-      "close": 163.94,
-      "high": 169.12,
-      "low": 162.22,
-      "open": 166.0,
-      "time": "2025-09-22",
-      "volume": 5186
-    },
-    {
-      "close": 164.87,
-      "high": 167.35,
-      "low": 163.94,
-      "open": 163.94,
-      "time": "2025-09-23",
-      "volume": 5521
-    },
-    {
       "close": 163.16,
       "high": 166.99,
       "low": 160.5,
@@ -2017,13 +1993,37 @@
       "open": 119.1,
       "time": "2026-09-28",
       "volume": 2824
+    },
+    {
+      "close": 118.16,
+      "high": 121.9,
+      "low": 117.01,
+      "open": 120.79,
+      "time": "2026-09-29",
+      "volume": 2047
+    },
+    {
+      "close": 118.28,
+      "high": 121.49,
+      "low": 117.5,
+      "open": 118.16,
+      "time": "2026-09-30",
+      "volume": 909
+    },
+    {
+      "close": 118.2,
+      "high": 121.5,
+      "low": 115.05,
+      "open": 121.5,
+      "time": "2026-10-01",
+      "volume": 3194
     }
   ],
   "company_name": "BSL LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.45x"
+    "volume_multiplier": "0.5x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.15,
-    "change_pct": -1.78,
-    "close": 118.49,
-    "previous_close": 120.64,
+    "as_of": "2026-10-01",
+    "change": -0.08,
+    "change_pct": -0.07,
+    "close": 118.2,
+    "previous_close": 118.28,
     "type": "EOD_CLOSE",
-    "volume": 2824
+    "volume": 3194
   },
   "range": {
-    "distance_from_high_pct": -42.2,
-    "distance_from_low_pct": 20.91,
+    "distance_from_high_pct": -42.34,
+    "distance_from_low_pct": 20.61,
     "high_52w": 205.0,
     "history_basis": "52_WEEK",
     "low_52w": 98.0,
-    "range_position_pct": 19.15
+    "range_position_pct": 18.88
   },
   "risk_model": {
-    "invalidation_floor": 114.34,
-    "risk_per_share": 6.52,
-    "technical_pivot": 120.86
+    "invalidation_floor": 114.06,
+    "risk_per_share": 6.5,
+    "technical_pivot": 120.56
   },
   "schema_version": "1.0",
   "sector": null,

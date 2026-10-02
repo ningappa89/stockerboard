@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 13315.0,
-      "high": 13501.0,
-      "low": 13180.0,
-      "open": 13500.0,
-      "time": "2025-09-18",
-      "volume": 8778
-    },
-    {
-      "close": 13421.0,
-      "high": 13490.0,
-      "low": 13232.0,
-      "open": 13315.0,
-      "time": "2025-09-19",
-      "volume": 6624
-    },
-    {
-      "close": 13428.0,
-      "high": 13750.0,
-      "low": 13308.0,
-      "open": 13500.0,
-      "time": "2025-09-22",
-      "volume": 8928
-    },
-    {
       "close": 13077.0,
       "high": 13617.0,
       "low": 13052.0,
@@ -2017,13 +1993,37 @@
       "open": 12522.0,
       "time": "2026-09-28",
       "volume": 3166
+    },
+    {
+      "close": 12298.0,
+      "high": 12497.0,
+      "low": 12050.0,
+      "open": 12436.0,
+      "time": "2026-09-29",
+      "volume": 10491
+    },
+    {
+      "close": 12107.0,
+      "high": 12450.0,
+      "low": 12045.0,
+      "open": 12300.0,
+      "time": "2026-09-30",
+      "volume": 8540
+    },
+    {
+      "close": 11886.0,
+      "high": 12117.0,
+      "low": 11661.0,
+      "open": 12116.0,
+      "time": "2026-10-01",
+      "volume": 21777
     }
   ],
   "company_name": "TVS HOLDINGS LIMITED",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-23",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 54,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.4x"
+    "momentum_score": 49,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.4x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -165.0,
-    "change_pct": -1.31,
-    "close": 12436.0,
-    "previous_close": 12601.0,
+    "as_of": "2026-10-01",
+    "change": -221.0,
+    "change_pct": -1.83,
+    "close": 11886.0,
+    "previous_close": 12107.0,
     "type": "EOD_CLOSE",
-    "volume": 3166
+    "volume": 21777
   },
   "range": {
-    "distance_from_high_pct": -23.69,
-    "distance_from_low_pct": 2.06,
+    "distance_from_high_pct": -27.07,
+    "distance_from_low_pct": 1.93,
     "high_52w": 16297.0,
     "history_basis": "52_WEEK",
-    "low_52w": 12185.0,
-    "range_position_pct": 6.1
+    "low_52w": 11661.0,
+    "range_position_pct": 4.85
   },
   "risk_model": {
-    "invalidation_floor": 12000.74,
-    "risk_per_share": 683.98,
-    "technical_pivot": 12684.72
+    "invalidation_floor": 11469.99,
+    "risk_per_share": 653.73,
+    "technical_pivot": 12123.72
   },
   "schema_version": "1.0",
   "sector": null,

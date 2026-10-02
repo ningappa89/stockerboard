@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 413.05,
-      "high": 416.0,
-      "low": 408.2,
-      "open": 408.6,
-      "time": "2025-09-19",
-      "volume": 4587363
-    },
-    {
-      "close": 412.75,
-      "high": 417.35,
-      "low": 409.8,
-      "open": 413.05,
-      "time": "2025-09-22",
-      "volume": 2571485
-    },
-    {
-      "close": 424.3,
-      "high": 425.25,
-      "low": 413.0,
-      "open": 413.0,
-      "time": "2025-09-23",
-      "volume": 4865287
-    },
-    {
       "close": 424.9,
       "high": 431.0,
       "low": 422.75,
@@ -2017,13 +1993,37 @@
       "open": 349.0,
       "time": "2026-09-28",
       "volume": 4062685
+    },
+    {
+      "close": 349.2,
+      "high": 349.35,
+      "low": 337.2,
+      "open": 340.7,
+      "time": "2026-09-29",
+      "volume": 4074720
+    },
+    {
+      "close": 350.35,
+      "high": 357.4,
+      "low": 350.35,
+      "open": 351.2,
+      "time": "2026-09-30",
+      "volume": 2520543
+    },
+    {
+      "close": 345.0,
+      "high": 352.8,
+      "low": 344.0,
+      "open": 351.15,
+      "time": "2026-10-01",
+      "volume": 5754484
     }
   ],
   "company_name": "HINDUSTAN PETROLEUM CORP",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Oil Gas & Consumable Fuels",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 41,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.0x"
+    "volume_multiplier": "1.51x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -8.55,
-    "change_pct": -2.44,
-    "close": 342.45,
-    "previous_close": 351.0,
+    "as_of": "2026-10-01",
+    "change": -5.35,
+    "change_pct": -1.53,
+    "close": 345.0,
+    "previous_close": 350.35,
     "type": "EOD_CLOSE",
-    "volume": 4062685
+    "volume": 5754484
   },
   "range": {
-    "distance_from_high_pct": -32.65,
-    "distance_from_low_pct": 8.3,
+    "distance_from_high_pct": -32.15,
+    "distance_from_low_pct": 9.11,
     "high_52w": 508.45,
     "history_basis": "52_WEEK",
     "low_52w": 316.2,
-    "range_position_pct": 13.65
+    "range_position_pct": 14.98
   },
   "risk_model": {
-    "invalidation_floor": 330.46,
-    "risk_per_share": 18.84,
-    "technical_pivot": 349.3
+    "invalidation_floor": 332.93,
+    "risk_per_share": 18.97,
+    "technical_pivot": 351.9
   },
   "schema_version": "1.0",
   "sector": "Oil Gas & Consumable Fuels",

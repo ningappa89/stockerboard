@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 87.55,
-      "high": 90.9,
-      "low": 86.07,
-      "open": 86.5,
-      "time": "2025-09-19",
-      "volume": 34484
-    },
-    {
-      "close": 87.05,
-      "high": 91.68,
-      "low": 85.5,
-      "open": 85.5,
-      "time": "2025-09-22",
-      "volume": 25264
-    },
-    {
-      "close": 86.24,
-      "high": 88.8,
-      "low": 86.0,
-      "open": 87.06,
-      "time": "2025-09-23",
-      "volume": 14198
-    },
-    {
       "close": 84.56,
       "high": 87.41,
       "low": 83.2,
@@ -2017,13 +1993,37 @@
       "open": 74.99,
       "time": "2026-09-28",
       "volume": 1174
+    },
+    {
+      "close": 72.02,
+      "high": 73.99,
+      "low": 71.12,
+      "open": 73.99,
+      "time": "2026-09-29",
+      "volume": 12935
+    },
+    {
+      "close": 72.24,
+      "high": 74.9,
+      "low": 72.02,
+      "open": 72.15,
+      "time": "2026-09-30",
+      "volume": 1580
+    },
+    {
+      "close": 71.9,
+      "high": 75.78,
+      "low": 71.5,
+      "open": 75.78,
+      "time": "2026-10-01",
+      "volume": 1327
     }
   ],
   "company_name": "LAGNAM SPINTEX LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 54,
+    "momentum_score": 52,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.17x"
+    "volume_multiplier": "0.2x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.97,
-    "change_pct": -2.63,
-    "close": 73.02,
-    "previous_close": 74.99,
+    "as_of": "2026-10-01",
+    "change": -0.34,
+    "change_pct": -0.47,
+    "close": 71.9,
+    "previous_close": 72.24,
     "type": "EOD_CLOSE",
-    "volume": 1174
+    "volume": 1327
   },
   "range": {
-    "distance_from_high_pct": -23.86,
-    "distance_from_low_pct": 24.61,
+    "distance_from_high_pct": -25.03,
+    "distance_from_low_pct": 22.7,
     "high_52w": 95.9,
     "history_basis": "52_WEEK",
     "low_52w": 58.6,
-    "range_position_pct": 38.66
+    "range_position_pct": 35.66
   },
   "risk_model": {
-    "invalidation_floor": 70.46,
-    "risk_per_share": 4.02,
-    "technical_pivot": 74.48
+    "invalidation_floor": 69.38,
+    "risk_per_share": 3.96,
+    "technical_pivot": 73.34
   },
   "schema_version": "1.0",
   "sector": null,

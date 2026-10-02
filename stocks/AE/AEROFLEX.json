@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 189.28,
-      "high": 194.1,
-      "low": 188.01,
-      "open": 189.99,
-      "time": "2025-09-19",
-      "volume": 637481
-    },
-    {
-      "close": 192.39,
-      "high": 198.75,
-      "low": 186.57,
-      "open": 188.5,
-      "time": "2025-09-22",
-      "volume": 1610811
-    },
-    {
-      "close": 192.74,
-      "high": 194.99,
-      "low": 191.37,
-      "open": 192.99,
-      "time": "2025-09-23",
-      "volume": 573573
-    },
-    {
       "close": 185.81,
       "high": 193.4,
       "low": 184.99,
@@ -2017,13 +1993,37 @@
       "open": 524.25,
       "time": "2026-09-28",
       "volume": 752491
+    },
+    {
+      "close": 539.6,
+      "high": 543.65,
+      "low": 508.1,
+      "open": 511.3,
+      "time": "2026-09-29",
+      "volume": 1421036
+    },
+    {
+      "close": 536.6,
+      "high": 553.5,
+      "low": 527.55,
+      "open": 539.6,
+      "time": "2026-09-30",
+      "volume": 981031
+    },
+    {
+      "close": 521.35,
+      "high": 540.0,
+      "low": 511.25,
+      "open": 540.0,
+      "time": "2026-10-01",
+      "volume": 1183839
     }
   ],
   "company_name": "AEROFLEX INDUSTRIES LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 71,
+    "momentum_score": 73,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.54x"
+    "volume_multiplier": "0.9x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -12.3,
-    "change_pct": -2.34,
-    "close": 513.4,
-    "previous_close": 525.7,
+    "as_of": "2026-10-01",
+    "change": -15.25,
+    "change_pct": -2.84,
+    "close": 521.35,
+    "previous_close": 536.6,
     "type": "EOD_CLOSE",
-    "volume": 752491
+    "volume": 1183839
   },
   "range": {
-    "distance_from_high_pct": -12.11,
-    "distance_from_low_pct": 224.94,
+    "distance_from_high_pct": -10.75,
+    "distance_from_low_pct": 229.97,
     "high_52w": 584.15,
     "history_basis": "52_WEEK",
     "low_52w": 158.0,
-    "range_position_pct": 83.4
+    "range_position_pct": 85.26
   },
   "risk_model": {
-    "invalidation_floor": 495.43,
-    "risk_per_share": 28.24,
-    "technical_pivot": 523.67
+    "invalidation_floor": 503.1,
+    "risk_per_share": 28.68,
+    "technical_pivot": 531.78
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 457.45,
-      "high": 465.0,
-      "low": 453.0,
-      "open": 458.7,
-      "time": "2025-09-19",
-      "volume": 2906
-    },
-    {
-      "close": 460.15,
-      "high": 470.0,
-      "low": 452.65,
-      "open": 459.15,
-      "time": "2025-09-22",
-      "volume": 6706
-    },
-    {
-      "close": 458.05,
-      "high": 466.45,
-      "low": 455.15,
-      "open": 456.0,
-      "time": "2025-09-23",
-      "volume": 1478
-    },
-    {
       "close": 444.0,
       "high": 460.5,
       "low": 442.5,
@@ -2017,13 +1993,37 @@
       "open": 346.0,
       "time": "2026-09-28",
       "volume": 26667
+    },
+    {
+      "close": 339.55,
+      "high": 369.4,
+      "low": 335.1,
+      "open": 345.0,
+      "time": "2026-09-29",
+      "volume": 38117
+    },
+    {
+      "close": 318.25,
+      "high": 348.95,
+      "low": 306.35,
+      "open": 348.95,
+      "time": "2026-09-30",
+      "volume": 24583
+    },
+    {
+      "close": 315.4,
+      "high": 319.9,
+      "low": 311.0,
+      "open": 318.25,
+      "time": "2026-10-01",
+      "volume": 2857
     }
   ],
   "company_name": "Tips Films Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 43,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "6.07x"
+    "momentum_score": 40,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.39x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -9.65,
-    "change_pct": -2.83,
-    "close": 331.8,
-    "previous_close": 341.45,
+    "as_of": "2026-10-01",
+    "change": -2.85,
+    "change_pct": -0.9,
+    "close": 315.4,
+    "previous_close": 318.25,
     "type": "EOD_CLOSE",
-    "volume": 26667
+    "volume": 2857
   },
   "range": {
-    "distance_from_high_pct": -30.77,
-    "distance_from_low_pct": 19.89,
+    "distance_from_high_pct": -34.19,
+    "distance_from_low_pct": 13.97,
     "high_52w": 479.25,
     "history_basis": "52_WEEK",
     "low_52w": 276.75,
-    "range_position_pct": 27.19
+    "range_position_pct": 19.09
   },
   "risk_model": {
-    "invalidation_floor": 320.19,
-    "risk_per_share": 18.25,
-    "technical_pivot": 338.44
+    "invalidation_floor": 304.36,
+    "risk_per_share": 17.35,
+    "technical_pivot": 321.71
   },
   "schema_version": "1.0",
   "sector": null,

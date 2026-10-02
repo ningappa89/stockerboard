@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 4404.0,
-      "high": 4566.0,
-      "low": 4385.0,
-      "open": 4566.0,
-      "time": "2025-09-19",
-      "volume": 2196
-    },
-    {
-      "close": 4487.5,
-      "high": 4624.2,
-      "low": 4351.0,
-      "open": 4624.2,
-      "time": "2025-09-22",
-      "volume": 2880
-    },
-    {
-      "close": 4382.7,
-      "high": 4540.0,
-      "low": 4360.0,
-      "open": 4540.0,
-      "time": "2025-09-23",
-      "volume": 1135
-    },
-    {
       "close": 4262.8,
       "high": 4478.4,
       "low": 4245.0,
@@ -2017,13 +1993,37 @@
       "open": 6195.5,
       "time": "2026-09-28",
       "volume": 10603
+    },
+    {
+      "close": 6524.5,
+      "high": 6594.5,
+      "low": 6376.5,
+      "open": 6384.0,
+      "time": "2026-09-29",
+      "volume": 22165
+    },
+    {
+      "close": 6482.5,
+      "high": 6601.0,
+      "low": 6380.5,
+      "open": 6550.0,
+      "time": "2026-09-30",
+      "volume": 19393
+    },
+    {
+      "close": 6586.5,
+      "high": 6628.0,
+      "low": 6357.5,
+      "open": 6482.5,
+      "time": "2026-10-01",
+      "volume": 16414
     }
   ],
   "company_name": "KINGFA SCI & TEC IND LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": true,
     "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 88,
+    "momentum_score": 89,
     "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.69x"
+    "volume_multiplier": "0.96x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 146.5,
-    "change_pct": 2.35,
-    "close": 6384.0,
-    "previous_close": 6237.5,
+    "as_of": "2026-10-01",
+    "change": 104.0,
+    "change_pct": 1.6,
+    "close": 6586.5,
+    "previous_close": 6482.5,
     "type": "EOD_CLOSE",
-    "volume": 10603
+    "volume": 16414
   },
   "range": {
-    "distance_from_high_pct": -0.79,
-    "distance_from_low_pct": 74.91,
-    "high_52w": 6435.0,
+    "distance_from_high_pct": -0.63,
+    "distance_from_low_pct": 80.46,
+    "high_52w": 6628.0,
     "history_basis": "52_WEEK",
     "low_52w": 3649.9,
-    "range_position_pct": 98.17
+    "range_position_pct": 98.61
   },
   "risk_model": {
-    "invalidation_floor": 6160.56,
-    "risk_per_share": 274.51,
-    "technical_pivot": 6435.07
+    "invalidation_floor": 6355.97,
+    "risk_per_share": 283.22,
+    "technical_pivot": 6639.19
   },
   "schema_version": "1.0",
   "sector": null,

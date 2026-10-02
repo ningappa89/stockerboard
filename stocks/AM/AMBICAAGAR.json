@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 26.96,
-      "high": 27.6,
-      "low": 26.86,
-      "open": 27.6,
-      "time": "2025-09-19",
-      "volume": 6051
-    },
-    {
-      "close": 25.41,
-      "high": 27.69,
-      "low": 24.4,
-      "open": 26.97,
-      "time": "2025-09-22",
-      "volume": 154540
-    },
-    {
-      "close": 25.62,
-      "high": 25.89,
-      "low": 24.5,
-      "open": 25.7,
-      "time": "2025-09-23",
-      "volume": 32875
-    },
-    {
       "close": 25.79,
       "high": 25.89,
       "low": 25.48,
@@ -2017,13 +1993,37 @@
       "open": 25.45,
       "time": "2026-09-28",
       "volume": 6057
+    },
+    {
+      "close": 24.37,
+      "high": 24.88,
+      "low": 24.11,
+      "open": 24.88,
+      "time": "2026-09-29",
+      "volume": 3594
+    },
+    {
+      "close": 24.4,
+      "high": 25.12,
+      "low": 24.14,
+      "open": 24.5,
+      "time": "2026-09-30",
+      "volume": 13549
+    },
+    {
+      "close": 23.89,
+      "high": 24.93,
+      "low": 23.67,
+      "open": 24.93,
+      "time": "2026-10-01",
+      "volume": 2450
     }
   ],
   "company_name": "AMBICA AGARBATHIES & AROMA IND",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.11x"
+    "volume_multiplier": "0.04x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.34,
-    "change_pct": -1.35,
-    "close": 24.88,
-    "previous_close": 25.22,
+    "as_of": "2026-10-01",
+    "change": -0.51,
+    "change_pct": -2.09,
+    "close": 23.89,
+    "previous_close": 24.4,
     "type": "EOD_CLOSE",
-    "volume": 6057
+    "volume": 2450
   },
   "range": {
-    "distance_from_high_pct": -16.17,
-    "distance_from_low_pct": 24.4,
+    "distance_from_high_pct": -19.51,
+    "distance_from_low_pct": 19.45,
     "high_52w": 29.68,
     "history_basis": "52_WEEK",
     "low_52w": 20.0,
-    "range_position_pct": 50.41
+    "range_position_pct": 40.19
   },
   "risk_model": {
-    "invalidation_floor": 24.01,
-    "risk_per_share": 1.37,
-    "technical_pivot": 25.38
+    "invalidation_floor": 23.05,
+    "risk_per_share": 1.32,
+    "technical_pivot": 24.37
   },
   "schema_version": "1.0",
   "sector": null,

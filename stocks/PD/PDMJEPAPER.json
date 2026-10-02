@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 127.32,
-      "high": 130.0,
-      "low": 123.84,
-      "open": 125.0,
-      "time": "2025-09-19",
-      "volume": 111481
-    },
-    {
-      "close": 128.5,
-      "high": 130.0,
-      "low": 125.5,
-      "open": 127.32,
-      "time": "2025-09-22",
-      "volume": 168016
-    },
-    {
-      "close": 126.66,
-      "high": 128.86,
-      "low": 125.9,
-      "open": 128.85,
-      "time": "2025-09-23",
-      "volume": 61007
-    },
-    {
       "close": 123.8,
       "high": 126.4,
       "low": 122.5,
@@ -2017,13 +1993,37 @@
       "open": 95.23,
       "time": "2026-09-28",
       "volume": 153447
+    },
+    {
+      "close": 94.67,
+      "high": 96.0,
+      "low": 90.86,
+      "open": 94.16,
+      "time": "2026-09-29",
+      "volume": 172693
+    },
+    {
+      "close": 97.22,
+      "high": 99.8,
+      "low": 94.0,
+      "open": 94.5,
+      "time": "2026-09-30",
+      "volume": 344257
+    },
+    {
+      "close": 95.56,
+      "high": 98.68,
+      "low": 94.5,
+      "open": 95.9,
+      "time": "2026-10-01",
+      "volume": 205004
     }
   ],
   "company_name": "Pudumjee Paper Products Limite",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 52,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.24x"
+    "volume_multiplier": "0.33x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.69,
-    "change_pct": -0.73,
-    "close": 93.78,
-    "previous_close": 94.47,
+    "as_of": "2026-10-01",
+    "change": -1.66,
+    "change_pct": -1.71,
+    "close": 95.56,
+    "previous_close": 97.22,
     "type": "EOD_CLOSE",
-    "volume": 153447
+    "volume": 205004
   },
   "range": {
-    "distance_from_high_pct": -27.86,
-    "distance_from_low_pct": 44.28,
-    "high_52w": 130.0,
+    "distance_from_high_pct": -24.86,
+    "distance_from_low_pct": 47.02,
+    "high_52w": 127.18,
     "history_basis": "52_WEEK",
     "low_52w": 65.0,
-    "range_position_pct": 44.28
+    "range_position_pct": 49.15
   },
   "risk_model": {
-    "invalidation_floor": 90.5,
-    "risk_per_share": 5.16,
-    "technical_pivot": 95.66
+    "invalidation_floor": 92.22,
+    "risk_per_share": 5.25,
+    "technical_pivot": 97.47
   },
   "schema_version": "1.0",
   "sector": null,

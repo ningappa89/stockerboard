@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 4369.9,
-      "high": 4400.0,
-      "low": 4245.1,
-      "open": 4275.2,
-      "time": "2025-09-19",
-      "volume": 18377
-    },
-    {
-      "close": 4274.8,
-      "high": 4497.6,
-      "low": 4250.0,
-      "open": 4348.1,
-      "time": "2025-09-22",
-      "volume": 17776
-    },
-    {
-      "close": 4597.4,
-      "high": 4637.6,
-      "low": 4286.0,
-      "open": 4286.0,
-      "time": "2025-09-23",
-      "volume": 84410
-    },
-    {
       "close": 4712.8,
       "high": 4783.8,
       "low": 4568.1,
@@ -2017,13 +1993,37 @@
       "open": 5750.0,
       "time": "2026-09-28",
       "volume": 9100
+    },
+    {
+      "close": 5691.5,
+      "high": 5861.5,
+      "low": 5607.0,
+      "open": 5651.0,
+      "time": "2026-09-29",
+      "volume": 25442
+    },
+    {
+      "close": 5568.5,
+      "high": 5750.0,
+      "low": 5523.0,
+      "open": 5650.0,
+      "time": "2026-09-30",
+      "volume": 12677
+    },
+    {
+      "close": 5550.0,
+      "high": 5600.0,
+      "low": 5357.0,
+      "open": 5510.0,
+      "time": "2026-10-01",
+      "volume": 16937
     }
   ],
   "company_name": "LUMAX INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.51x"
+    "volume_multiplier": "1.19x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -93.0,
-    "change_pct": -1.61,
-    "close": 5676.0,
-    "previous_close": 5769.0,
+    "as_of": "2026-10-01",
+    "change": -18.5,
+    "change_pct": -0.33,
+    "close": 5550.0,
+    "previous_close": 5568.5,
     "type": "EOD_CLOSE",
-    "volume": 9100
+    "volume": 16937
   },
   "range": {
-    "distance_from_high_pct": -18.15,
-    "distance_from_low_pct": 33.71,
+    "distance_from_high_pct": -19.97,
+    "distance_from_low_pct": 23.88,
     "high_52w": 6934.5,
     "history_basis": "52_WEEK",
-    "low_52w": 4245.1,
-    "range_position_pct": 53.21
+    "low_52w": 4480.0,
+    "range_position_pct": 43.59
   },
   "risk_model": {
-    "invalidation_floor": 5477.34,
-    "risk_per_share": 312.18,
-    "technical_pivot": 5789.52
+    "invalidation_floor": 5355.75,
+    "risk_per_share": 305.25,
+    "technical_pivot": 5661.0
   },
   "schema_version": "1.0",
   "sector": null,

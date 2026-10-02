@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 5231.0,
-      "high": 5320.0,
-      "low": 5122.5,
-      "open": 5281.5,
-      "time": "2025-09-19",
-      "volume": 17782
-    },
-    {
-      "close": 5186.0,
-      "high": 5272.0,
-      "low": 5146.0,
-      "open": 5231.0,
-      "time": "2025-09-22",
-      "volume": 6643
-    },
-    {
-      "close": 5135.0,
-      "high": 5214.0,
-      "low": 5122.0,
-      "open": 5186.0,
-      "time": "2025-09-23",
-      "volume": 4915
-    },
-    {
       "close": 5087.5,
       "high": 5170.0,
       "low": 5075.5,
@@ -2017,13 +1993,37 @@
       "open": 4473.3,
       "time": "2026-09-28",
       "volume": 14681
+    },
+    {
+      "close": 4427.4,
+      "high": 4488.0,
+      "low": 4232.2,
+      "open": 4285.8,
+      "time": "2026-09-29",
+      "volume": 9068
+    },
+    {
+      "close": 4390.0,
+      "high": 4421.1,
+      "low": 4311.3,
+      "open": 4398.5,
+      "time": "2026-09-30",
+      "volume": 7416
+    },
+    {
+      "close": 4339.8,
+      "high": 4630.0,
+      "low": 4260.0,
+      "open": 4350.0,
+      "time": "2026-10-01",
+      "volume": 47446
     }
   ],
   "company_name": "V.S.T.TILLERS TRACTORS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 41,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.47x"
+    "momentum_score": 42,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "4.09x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -166.0,
-    "change_pct": -3.71,
-    "close": 4307.3,
-    "previous_close": 4473.3,
+    "as_of": "2026-10-01",
+    "change": -50.2,
+    "change_pct": -1.14,
+    "close": 4339.8,
+    "previous_close": 4390.0,
     "type": "EOD_CLOSE",
-    "volume": 14681
+    "volume": 47446
   },
   "range": {
-    "distance_from_high_pct": -32.42,
-    "distance_from_low_pct": 9.05,
+    "distance_from_high_pct": -31.91,
+    "distance_from_low_pct": 9.87,
     "high_52w": 6374.0,
     "history_basis": "52_WEEK",
     "low_52w": 3950.0,
-    "range_position_pct": 14.74
+    "range_position_pct": 16.08
   },
   "risk_model": {
-    "invalidation_floor": 4156.54,
-    "risk_per_share": 236.91,
-    "technical_pivot": 4393.45
+    "invalidation_floor": 4187.91,
+    "risk_per_share": 238.69,
+    "technical_pivot": 4426.6
   },
   "schema_version": "1.0",
   "sector": null,

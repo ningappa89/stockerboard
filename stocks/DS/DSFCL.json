@@ -1209,14 +1209,30 @@
       "open": 29.55,
       "time": "2026-09-28",
       "volume": 58458
+    },
+    {
+      "close": 29.1,
+      "high": 30.98,
+      "low": 28.98,
+      "open": 30.51,
+      "time": "2026-09-29",
+      "volume": 97473
+    },
+    {
+      "close": 28.94,
+      "high": 29.8,
+      "low": 28.19,
+      "open": 29.17,
+      "time": "2026-09-30",
+      "volume": 45090
     }
   ],
   "company_name": "DCM SHRIRAM FINE CHEM LTD",
   "history": {
     "first_session": "2026-02-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 151
+    "last_session": "2026-09-30",
+    "sessions_available": 153
   },
   "industry": null,
   "isin": "INE0OFM01015",
@@ -1226,29 +1242,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.8x"
+    "volume_multiplier": "0.58x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.59,
-    "change_pct": -1.9,
-    "close": 30.5,
-    "previous_close": 31.09,
+    "as_of": "2026-09-30",
+    "change": -0.16,
+    "change_pct": -0.55,
+    "close": 28.94,
+    "previous_close": 29.1,
     "type": "EOD_CLOSE",
-    "volume": 58458
+    "volume": 45090
   },
   "range": {
-    "distance_from_high_pct": -41.9,
-    "distance_from_low_pct": 76.5,
+    "distance_from_high_pct": -44.88,
+    "distance_from_low_pct": 67.48,
     "high_52w": 52.5,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 17.28,
-    "range_position_pct": 37.54
+    "range_position_pct": 33.11
   },
   "risk_model": {
-    "invalidation_floor": 29.43,
-    "risk_per_share": 1.68,
-    "technical_pivot": 31.11
+    "invalidation_floor": 27.93,
+    "risk_per_share": 1.59,
+    "technical_pivot": 29.52
   },
   "schema_version": "1.0",
   "sector": null,

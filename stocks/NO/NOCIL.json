@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 181.2,
-      "high": 184.12,
-      "low": 178.2,
-      "open": 182.6,
-      "time": "2025-09-19",
-      "volume": 532260
-    },
-    {
-      "close": 181.23,
-      "high": 183.4,
-      "low": 180.0,
-      "open": 181.2,
-      "time": "2025-09-22",
-      "volume": 289254
-    },
-    {
-      "close": 182.19,
-      "high": 183.04,
-      "low": 180.7,
-      "open": 182.4,
-      "time": "2025-09-23",
-      "volume": 601769
-    },
-    {
       "close": 181.02,
       "high": 183.29,
       "low": 180.71,
@@ -2017,13 +1993,37 @@
       "open": 188.05,
       "time": "2026-09-28",
       "volume": 1513112
+    },
+    {
+      "close": 169.31,
+      "high": 175.0,
+      "low": 166.64,
+      "open": 175.0,
+      "time": "2026-09-29",
+      "volume": 2487591
+    },
+    {
+      "close": 171.11,
+      "high": 175.9,
+      "low": 170.1,
+      "open": 170.24,
+      "time": "2026-09-30",
+      "volume": 1017979
+    },
+    {
+      "close": 168.85,
+      "high": 173.49,
+      "low": 163.8,
+      "open": 171.0,
+      "time": "2026-10-01",
+      "volume": 1286680
     }
   ],
   "company_name": "NOCIL LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
+    "momentum_score": 59,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.67x"
+    "volume_multiplier": "0.54x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -13.24,
-    "change_pct": -7.03,
-    "close": 175.17,
-    "previous_close": 188.41,
+    "as_of": "2026-10-01",
+    "change": -2.26,
+    "change_pct": -1.32,
+    "close": 168.85,
+    "previous_close": 171.11,
     "type": "EOD_CLOSE",
-    "volume": 1513112
+    "volume": 1286680
   },
   "range": {
-    "distance_from_high_pct": -17.06,
-    "distance_from_low_pct": 39.79,
+    "distance_from_high_pct": -20.05,
+    "distance_from_low_pct": 34.75,
     "high_52w": 211.2,
     "history_basis": "52_WEEK",
     "low_52w": 125.31,
-    "range_position_pct": 58.05
+    "range_position_pct": 50.69
   },
   "risk_model": {
-    "invalidation_floor": 169.04,
-    "risk_per_share": 9.63,
-    "technical_pivot": 178.67
+    "invalidation_floor": 162.94,
+    "risk_per_share": 9.29,
+    "technical_pivot": 172.23
   },
   "schema_version": "1.0",
   "sector": null,

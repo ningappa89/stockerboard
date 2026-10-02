@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 178.64,
-      "high": 180.8,
-      "low": 174.51,
-      "open": 176.61,
-      "time": "2025-09-19",
-      "volume": 1886333
-    },
-    {
-      "close": 175.51,
-      "high": 182.8,
-      "low": 175.01,
-      "open": 179.72,
-      "time": "2025-09-22",
-      "volume": 1398589
-    },
-    {
-      "close": 175.12,
-      "high": 176.89,
-      "low": 174.0,
-      "open": 175.51,
-      "time": "2025-09-23",
-      "volume": 912027
-    },
-    {
       "close": 177.01,
       "high": 181.79,
       "low": 175.0,
@@ -2017,13 +1993,37 @@
       "open": 134.73,
       "time": "2026-09-28",
       "volume": 3775990
+    },
+    {
+      "close": 130.72,
+      "high": 133.3,
+      "low": 126.56,
+      "open": 131.0,
+      "time": "2026-09-29",
+      "volume": 2134376
+    },
+    {
+      "close": 130.29,
+      "high": 132.7,
+      "low": 129.0,
+      "open": 130.68,
+      "time": "2026-09-30",
+      "volume": 1090016
+    },
+    {
+      "close": 127.07,
+      "high": 129.85,
+      "low": 125.35,
+      "open": 129.85,
+      "time": "2026-10-01",
+      "volume": 1020731
     }
   ],
   "company_name": "DEVYANI INTERNATIONAL LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 47,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.15x"
+    "momentum_score": 44,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.6x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.93,
-    "change_pct": -2.91,
-    "close": 131.09,
-    "previous_close": 135.02,
+    "as_of": "2026-10-01",
+    "change": -3.22,
+    "change_pct": -2.47,
+    "close": 127.07,
+    "previous_close": 130.29,
     "type": "EOD_CLOSE",
-    "volume": 3775990
+    "volume": 1020731
   },
   "range": {
-    "distance_from_high_pct": -28.29,
-    "distance_from_low_pct": 43.19,
-    "high_52w": 182.8,
+    "distance_from_high_pct": -30.1,
+    "distance_from_low_pct": 38.8,
+    "high_52w": 181.79,
     "history_basis": "52_WEEK",
     "low_52w": 91.55,
-    "range_position_pct": 43.33
+    "range_position_pct": 39.36
   },
   "risk_model": {
-    "invalidation_floor": 126.5,
-    "risk_per_share": 7.21,
-    "technical_pivot": 133.71
+    "invalidation_floor": 122.62,
+    "risk_per_share": 6.99,
+    "technical_pivot": 129.61
   },
   "schema_version": "1.0",
   "sector": null,

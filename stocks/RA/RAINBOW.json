@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1418.9,
-      "high": 1452.1,
-      "low": 1415.0,
-      "open": 1451.9,
-      "time": "2025-09-19",
-      "volume": 134306
-    },
-    {
-      "close": 1409.5,
-      "high": 1419.0,
-      "low": 1395.0,
-      "open": 1418.8,
-      "time": "2025-09-22",
-      "volume": 100894
-    },
-    {
-      "close": 1413.8,
-      "high": 1419.0,
-      "low": 1393.0,
-      "open": 1416.2,
-      "time": "2025-09-23",
-      "volume": 173220
-    },
-    {
       "close": 1392.1,
       "high": 1417.5,
       "low": 1390.0,
@@ -2017,13 +1993,37 @@
       "open": 1374.2,
       "time": "2026-09-28",
       "volume": 145801
+    },
+    {
+      "close": 1367.8,
+      "high": 1385.7,
+      "low": 1351.1,
+      "open": 1374.8,
+      "time": "2026-09-29",
+      "volume": 229899
+    },
+    {
+      "close": 1314.3,
+      "high": 1383.0,
+      "low": 1305.1,
+      "open": 1360.8,
+      "time": "2026-09-30",
+      "volume": 363556
+    },
+    {
+      "close": 1279.8,
+      "high": 1306.4,
+      "low": 1266.2,
+      "open": 1304.3,
+      "time": "2026-10-01",
+      "volume": 219253
     }
   ],
   "company_name": "Rainbow Children's Medicare Li",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 67,
+    "momentum_score": 59,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.25x"
+    "volume_multiplier": "1.54x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.6,
-    "change_pct": -0.12,
-    "close": 1372.6,
-    "previous_close": 1374.2,
+    "as_of": "2026-10-01",
+    "change": -34.5,
+    "change_pct": -2.62,
+    "close": 1279.8,
+    "previous_close": 1314.3,
     "type": "EOD_CLOSE",
-    "volume": 145801
+    "volume": 219253
   },
   "range": {
-    "distance_from_high_pct": -14.75,
-    "distance_from_low_pct": 26.62,
+    "distance_from_high_pct": -20.51,
+    "distance_from_low_pct": 18.06,
     "high_52w": 1610.0,
     "history_basis": "52_WEEK",
     "low_52w": 1084.0,
-    "range_position_pct": 54.87
+    "range_position_pct": 37.22
   },
   "risk_model": {
-    "invalidation_floor": 1324.56,
-    "risk_per_share": 75.49,
-    "technical_pivot": 1400.05
+    "invalidation_floor": 1235.01,
+    "risk_per_share": 70.39,
+    "technical_pivot": 1305.4
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

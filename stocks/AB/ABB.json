@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 5436.9,
-      "high": 5464.7,
-      "low": 5418.0,
-      "open": 5458.8,
-      "time": "2025-09-19",
-      "volume": 272034
-    },
-    {
-      "close": 5362.8,
-      "high": 5455.3,
-      "low": 5341.0,
-      "open": 5430.0,
-      "time": "2025-09-22",
-      "volume": 155891
-    },
-    {
-      "close": 5298.7,
-      "high": 5375.4,
-      "low": 5285.0,
-      "open": 5360.2,
-      "time": "2025-09-23",
-      "volume": 167342
-    },
-    {
       "close": 5237.3,
       "high": 5349.8,
       "low": 5223.6,
@@ -2017,13 +1993,37 @@
       "open": 7038.0,
       "time": "2026-09-28",
       "volume": 209202
+    },
+    {
+      "close": 6660.5,
+      "high": 6953.0,
+      "low": 6660.5,
+      "open": 6950.0,
+      "time": "2026-09-29",
+      "volume": 213768
+    },
+    {
+      "close": 6776.0,
+      "high": 6927.5,
+      "low": 6771.0,
+      "open": 6801.0,
+      "time": "2026-09-30",
+      "volume": 229223
+    },
+    {
+      "close": 6900.0,
+      "high": 6947.5,
+      "low": 6735.0,
+      "open": 6780.0,
+      "time": "2026-10-01",
+      "volume": 240835
     }
   ],
   "company_name": "ABB INDIA LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 71,
+    "momentum_score": 70,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.16x"
+    "volume_multiplier": "1.32x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -80.0,
-    "change_pct": -1.13,
-    "close": 6972.5,
-    "previous_close": 7052.5,
+    "as_of": "2026-10-01",
+    "change": 124.0,
+    "change_pct": 1.83,
+    "close": 6900.0,
+    "previous_close": 6776.0,
     "type": "EOD_CLOSE",
-    "volume": 209202
+    "volume": 240835
   },
   "range": {
-    "distance_from_high_pct": -12.01,
-    "distance_from_low_pct": 50.35,
+    "distance_from_high_pct": -12.93,
+    "distance_from_low_pct": 48.79,
     "high_52w": 7924.5,
     "history_basis": "52_WEEK",
     "low_52w": 4637.5,
-    "range_position_pct": 71.04
+    "range_position_pct": 68.83
   },
   "risk_model": {
-    "invalidation_floor": 6728.46,
-    "risk_per_share": 383.49,
-    "technical_pivot": 7111.95
+    "invalidation_floor": 6658.5,
+    "risk_per_share": 379.5,
+    "technical_pivot": 7038.0
   },
   "schema_version": "1.0",
   "sector": null,

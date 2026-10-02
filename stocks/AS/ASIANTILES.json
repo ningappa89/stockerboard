@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 62.95,
-      "high": 64.95,
-      "low": 62.0,
-      "open": 63.0,
-      "time": "2025-09-19",
-      "volume": 280235
-    },
-    {
-      "close": 63.21,
-      "high": 65.7,
-      "low": 61.01,
-      "open": 65.7,
-      "time": "2025-09-22",
-      "volume": 495581
-    },
-    {
-      "close": 62.16,
-      "high": 63.95,
-      "low": 61.4,
-      "open": 63.72,
-      "time": "2025-09-23",
-      "volume": 296807
-    },
-    {
       "close": 61.1,
       "high": 63.3,
       "low": 60.5,
@@ -2017,13 +1993,37 @@
       "open": 50.65,
       "time": "2026-09-28",
       "volume": 662074
+    },
+    {
+      "close": 50.1,
+      "high": 50.6,
+      "low": 49.22,
+      "open": 50.0,
+      "time": "2026-09-29",
+      "volume": 2959007
+    },
+    {
+      "close": 49.68,
+      "high": 51.0,
+      "low": 49.26,
+      "open": 51.0,
+      "time": "2026-09-30",
+      "volume": 1065834
+    },
+    {
+      "close": 47.95,
+      "high": 49.55,
+      "low": 47.5,
+      "open": 49.44,
+      "time": "2026-10-01",
+      "volume": 1282482
     }
   ],
   "company_name": "ASIAN GRANITO INDIA LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.2x"
+    "volume_multiplier": "0.49x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.53,
-    "change_pct": -1.05,
-    "close": 50.16,
-    "previous_close": 50.69,
+    "as_of": "2026-10-01",
+    "change": -1.73,
+    "change_pct": -3.48,
+    "close": 47.95,
+    "previous_close": 49.68,
     "type": "EOD_CLOSE",
-    "volume": 662074
+    "volume": 1282482
   },
   "range": {
-    "distance_from_high_pct": -36.55,
-    "distance_from_low_pct": 18.02,
+    "distance_from_high_pct": -39.35,
+    "distance_from_low_pct": 12.82,
     "high_52w": 79.06,
     "history_basis": "52_WEEK",
     "low_52w": 42.5,
-    "range_position_pct": 20.95
+    "range_position_pct": 14.91
   },
   "risk_model": {
-    "invalidation_floor": 48.4,
-    "risk_per_share": 2.76,
-    "technical_pivot": 51.16
+    "invalidation_floor": 46.27,
+    "risk_per_share": 2.64,
+    "technical_pivot": 48.91
   },
   "schema_version": "1.0",
   "sector": null,

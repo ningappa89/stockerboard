@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 849.0,
-      "high": 860.0,
-      "low": 840.45,
-      "open": 859.35,
-      "time": "2025-09-19",
-      "volume": 10865
-    },
-    {
-      "close": 867.9,
-      "high": 873.8,
-      "low": 844.8,
-      "open": 853.8,
-      "time": "2025-09-22",
-      "volume": 20702
-    },
-    {
-      "close": 918.9,
-      "high": 935.0,
-      "low": 860.8,
-      "open": 872.5,
-      "time": "2025-09-23",
-      "volume": 32941
-    },
-    {
       "close": 884.45,
       "high": 922.05,
       "low": 876.5,
@@ -2017,13 +1993,37 @@
       "open": 730.0,
       "time": "2026-09-28",
       "volume": 33306
+    },
+    {
+      "close": 724.85,
+      "high": 740.0,
+      "low": 702.05,
+      "open": 714.0,
+      "time": "2026-09-29",
+      "volume": 64416
+    },
+    {
+      "close": 869.8,
+      "high": 869.8,
+      "low": 726.05,
+      "open": 730.15,
+      "time": "2026-09-30",
+      "volume": 953310
+    },
+    {
+      "close": 871.95,
+      "high": 891.4,
+      "low": 846.9,
+      "open": 869.75,
+      "time": "2026-10-01",
+      "volume": 864818
     }
   ],
   "company_name": "ALICON CASTALLOY LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 45,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.98x"
+    "momentum_score": 67,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "6.94x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -13.2,
-    "change_pct": -1.81,
-    "close": 716.85,
-    "previous_close": 730.05,
+    "as_of": "2026-10-01",
+    "change": 2.15,
+    "change_pct": 0.25,
+    "close": 871.95,
+    "previous_close": 869.8,
     "type": "EOD_CLOSE",
-    "volume": 33306
+    "volume": 864818
   },
   "range": {
-    "distance_from_high_pct": -29.86,
-    "distance_from_low_pct": 23.59,
+    "distance_from_high_pct": -14.68,
+    "distance_from_low_pct": 50.34,
     "high_52w": 1022.0,
     "history_basis": "52_WEEK",
     "low_52w": 580.0,
-    "range_position_pct": 30.96
+    "range_position_pct": 66.05
   },
   "risk_model": {
-    "invalidation_floor": 691.76,
-    "risk_per_share": 39.43,
-    "technical_pivot": 731.19
+    "invalidation_floor": 841.43,
+    "risk_per_share": 47.96,
+    "technical_pivot": 889.39
   },
   "schema_version": "1.0",
   "sector": null,

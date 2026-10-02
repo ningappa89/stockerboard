@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 411.6,
-      "high": 414.7,
-      "low": 409.0,
-      "open": 409.85,
-      "time": "2025-09-19",
-      "volume": 12863
-    },
-    {
-      "close": 405.55,
-      "high": 413.2,
-      "low": 404.7,
-      "open": 412.55,
-      "time": "2025-09-22",
-      "volume": 25231
-    },
-    {
-      "close": 404.7,
-      "high": 407.7,
-      "low": 401.1,
-      "open": 407.7,
-      "time": "2025-09-23",
-      "volume": 11629
-    },
-    {
       "close": 403.65,
       "high": 406.2,
       "low": 402.65,
@@ -2017,13 +1993,37 @@
       "open": 710.2,
       "time": "2026-09-28",
       "volume": 185315
+    },
+    {
+      "close": 717.0,
+      "high": 721.0,
+      "low": 694.1,
+      "open": 703.5,
+      "time": "2026-09-29",
+      "volume": 192685
+    },
+    {
+      "close": 718.8,
+      "high": 860.4,
+      "low": 711.4,
+      "open": 860.4,
+      "time": "2026-09-30",
+      "volume": 2590903
+    },
+    {
+      "close": 729.5,
+      "high": 734.6,
+      "low": 704.2,
+      "open": 718.0,
+      "time": "2026-10-01",
+      "volume": 296616
     }
   ],
   "company_name": "SAVITA OIL TECHNOLO. LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 63,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.15x"
+    "volume_multiplier": "0.58x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -13.9,
-    "change_pct": -1.95,
-    "close": 699.3,
-    "previous_close": 713.2,
+    "as_of": "2026-10-01",
+    "change": 10.7,
+    "change_pct": 1.49,
+    "close": 729.5,
+    "previous_close": 718.8,
     "type": "EOD_CLOSE",
-    "volume": 185315
+    "volume": 296616
   },
   "range": {
-    "distance_from_high_pct": -17.74,
-    "distance_from_low_pct": 144.68,
-    "high_52w": 850.1,
+    "distance_from_high_pct": -15.21,
+    "distance_from_low_pct": 155.25,
+    "high_52w": 860.4,
     "history_basis": "52_WEEK",
     "low_52w": 285.8,
-    "range_position_pct": 73.28
+    "range_position_pct": 77.22
   },
   "risk_model": {
-    "invalidation_floor": 674.82,
-    "risk_per_share": 38.47,
-    "technical_pivot": 713.29
+    "invalidation_floor": 703.97,
+    "risk_per_share": 40.12,
+    "technical_pivot": 744.09
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 153.63,
-      "high": 159.29,
-      "low": 150.91,
-      "open": 151.3,
-      "time": "2025-09-19",
-      "volume": 233229
-    },
-    {
-      "close": 151.58,
-      "high": 156.29,
-      "low": 151.05,
-      "open": 155.29,
-      "time": "2025-09-22",
-      "volume": 17100
-    },
-    {
-      "close": 153.04,
-      "high": 154.18,
-      "low": 150.25,
-      "open": 152.89,
-      "time": "2025-09-23",
-      "volume": 7716
-    },
-    {
       "close": 156.51,
       "high": 158.35,
       "low": 152.85,
@@ -2017,13 +1993,37 @@
       "open": 95.99,
       "time": "2026-09-28",
       "volume": 5037
+    },
+    {
+      "close": 90.53,
+      "high": 94.86,
+      "low": 90.0,
+      "open": 93.0,
+      "time": "2026-09-29",
+      "volume": 9698
+    },
+    {
+      "close": 93.45,
+      "high": 94.74,
+      "low": 91.25,
+      "open": 92.34,
+      "time": "2026-09-30",
+      "volume": 3646
+    },
+    {
+      "close": 90.33,
+      "high": 94.8,
+      "low": 90.0,
+      "open": 92.25,
+      "time": "2026-10-01",
+      "volume": 3064
     }
   ],
   "company_name": "THE INVESTMENT TRUST OF INDIA ",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.85x"
+    "volume_multiplier": "0.5x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.49,
-    "change_pct": -1.59,
-    "close": 92.37,
-    "previous_close": 93.86,
+    "as_of": "2026-10-01",
+    "change": -3.12,
+    "change_pct": -3.34,
+    "close": 90.33,
+    "previous_close": 93.45,
     "type": "EOD_CLOSE",
-    "volume": 5037
+    "volume": 3064
   },
   "range": {
-    "distance_from_high_pct": -42.01,
-    "distance_from_low_pct": 3.79,
-    "high_52w": 159.29,
+    "distance_from_high_pct": -42.96,
+    "distance_from_low_pct": 1.49,
+    "high_52w": 158.35,
     "history_basis": "52_WEEK",
     "low_52w": 89.0,
-    "range_position_pct": 4.79
+    "range_position_pct": 1.92
   },
   "risk_model": {
-    "invalidation_floor": 89.14,
-    "risk_per_share": 5.08,
-    "technical_pivot": 94.22
+    "invalidation_floor": 87.17,
+    "risk_per_share": 4.97,
+    "technical_pivot": 92.14
   },
   "schema_version": "1.0",
   "sector": null,

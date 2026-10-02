@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 194.58,
-      "high": 198.0,
-      "low": 191.01,
-      "open": 191.01,
-      "time": "2025-09-19",
-      "volume": 3715
-    },
-    {
-      "close": 194.0,
-      "high": 197.11,
-      "low": 193.55,
-      "open": 195.96,
-      "time": "2025-09-22",
-      "volume": 10337
-    },
-    {
-      "close": 195.13,
-      "high": 197.1,
-      "low": 192.02,
-      "open": 194.07,
-      "time": "2025-09-23",
-      "volume": 14282
-    },
-    {
       "close": 195.11,
       "high": 196.99,
       "low": 194.8,
@@ -2017,13 +1993,37 @@
       "open": 290.0,
       "time": "2026-09-28",
       "volume": 52091
+    },
+    {
+      "close": 285.95,
+      "high": 299.0,
+      "low": 276.15,
+      "open": 292.0,
+      "time": "2026-09-29",
+      "volume": 214490
+    },
+    {
+      "close": 292.15,
+      "high": 300.25,
+      "low": 290.05,
+      "open": 292.35,
+      "time": "2026-09-30",
+      "volume": 44125
+    },
+    {
+      "close": 279.95,
+      "high": 295.9,
+      "low": 271.65,
+      "open": 293.15,
+      "time": "2026-10-01",
+      "volume": 157272
     }
   ],
   "company_name": "AYM Syntex Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 72,
+    "is_stage2": false,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.23x"
+    "volume_multiplier": "1.45x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.8,
-    "change_pct": -0.95,
-    "close": 291.15,
-    "previous_close": 293.95,
+    "as_of": "2026-10-01",
+    "change": -12.2,
+    "change_pct": -4.18,
+    "close": 279.95,
+    "previous_close": 292.15,
     "type": "EOD_CLOSE",
-    "volume": 52091
+    "volume": 157272
   },
   "range": {
-    "distance_from_high_pct": -11.77,
-    "distance_from_low_pct": 105.72,
+    "distance_from_high_pct": -15.17,
+    "distance_from_low_pct": 97.8,
     "high_52w": 330.0,
     "history_basis": "52_WEEK",
     "low_52w": 141.53,
-    "range_position_pct": 79.39
+    "range_position_pct": 73.44
   },
   "risk_model": {
-    "invalidation_floor": 280.96,
-    "risk_per_share": 16.01,
-    "technical_pivot": 296.97
+    "invalidation_floor": 270.15,
+    "risk_per_share": 15.4,
+    "technical_pivot": 285.55
   },
   "schema_version": "1.0",
   "sector": null,

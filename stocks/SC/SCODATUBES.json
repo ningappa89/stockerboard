@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 176.23,
-      "high": 178.0,
-      "low": 175.44,
-      "open": 175.44,
-      "time": "2025-09-19",
-      "volume": 98389
-    },
-    {
-      "close": 180.22,
-      "high": 185.07,
-      "low": 174.11,
-      "open": 176.23,
-      "time": "2025-09-22",
-      "volume": 522786
-    },
-    {
-      "close": 176.64,
-      "high": 181.42,
-      "low": 174.8,
-      "open": 180.98,
-      "time": "2025-09-23",
-      "volume": 266962
-    },
-    {
       "close": 176.7,
       "high": 180.0,
       "low": 174.5,
@@ -2017,13 +1993,37 @@
       "open": 137.6,
       "time": "2026-09-28",
       "volume": 414826
+    },
+    {
+      "close": 130.14,
+      "high": 132.47,
+      "low": 128.7,
+      "open": 130.02,
+      "time": "2026-09-29",
+      "volume": 241476
+    },
+    {
+      "close": 124.87,
+      "high": 127.9,
+      "low": 124.03,
+      "open": 127.75,
+      "time": "2026-09-30",
+      "volume": 553569
+    },
+    {
+      "close": 123.0,
+      "high": 124.78,
+      "low": 119.4,
+      "open": 124.78,
+      "time": "2026-10-01",
+      "volume": 599705
     }
   ],
   "company_name": "Scoda Tubes Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 45,
+    "momentum_score": 41,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.16x"
+    "volume_multiplier": "1.46x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -6.08,
-    "change_pct": -4.45,
-    "close": 130.53,
-    "previous_close": 136.61,
+    "as_of": "2026-10-01",
+    "change": -1.87,
+    "change_pct": -1.5,
+    "close": 123.0,
+    "previous_close": 124.87,
     "type": "EOD_CLOSE",
-    "volume": 414826
+    "volume": 599705
   },
   "range": {
-    "distance_from_high_pct": -29.47,
-    "distance_from_low_pct": 18.66,
-    "high_52w": 185.07,
+    "distance_from_high_pct": -32.22,
+    "distance_from_low_pct": 11.82,
+    "high_52w": 181.48,
     "history_basis": "52_WEEK",
     "low_52w": 110.0,
-    "range_position_pct": 27.35
+    "range_position_pct": 18.19
   },
   "risk_model": {
-    "invalidation_floor": 125.96,
-    "risk_per_share": 7.18,
-    "technical_pivot": 133.14
+    "invalidation_floor": 118.69,
+    "risk_per_share": 6.77,
+    "technical_pivot": 125.46
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1328.5,
-      "high": 1345.0,
-      "low": 1316.7,
-      "open": 1335.0,
-      "time": "2025-09-19",
-      "volume": 216705
-    },
-    {
-      "close": 1313.3,
-      "high": 1338.5,
-      "low": 1307.0,
-      "open": 1335.9,
-      "time": "2025-09-22",
-      "volume": 210063
-    },
-    {
-      "close": 1318.0,
-      "high": 1325.0,
-      "low": 1306.1,
-      "open": 1310.0,
-      "time": "2025-09-23",
-      "volume": 156488
-    },
-    {
       "close": 1302.8,
       "high": 1328.0,
       "low": 1301.0,
@@ -2017,13 +1993,37 @@
       "open": 1834.9,
       "time": "2026-09-28",
       "volume": 289529
+    },
+    {
+      "close": 1902.2,
+      "high": 1908.1,
+      "low": 1822.7,
+      "open": 1840.3,
+      "time": "2026-09-29",
+      "volume": 459165
+    },
+    {
+      "close": 1884.0,
+      "high": 1918.8,
+      "low": 1870.0,
+      "open": 1902.5,
+      "time": "2026-09-30",
+      "volume": 333292
+    },
+    {
+      "close": 1776.8,
+      "high": 1883.8,
+      "low": 1767.0,
+      "open": 1878.5,
+      "time": "2026-10-01",
+      "volume": 982427
     }
   ],
   "company_name": "LLOYDS METALS AND ENERGY LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Metals & Mining",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.85x"
+    "momentum_score": 65,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.62x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.7,
-    "change_pct": -0.09,
-    "close": 1836.3,
-    "previous_close": 1838.0,
+    "as_of": "2026-10-01",
+    "change": -107.2,
+    "change_pct": -5.69,
+    "close": 1776.8,
+    "previous_close": 1884.0,
     "type": "EOD_CLOSE",
-    "volume": 289529
+    "volume": 982427
   },
   "range": {
-    "distance_from_high_pct": -13.59,
-    "distance_from_low_pct": 76.08,
+    "distance_from_high_pct": -16.39,
+    "distance_from_low_pct": 70.37,
     "high_52w": 2125.0,
     "history_basis": "52_WEEK",
     "low_52w": 1042.9,
-    "range_position_pct": 73.32
+    "range_position_pct": 67.82
   },
   "risk_model": {
-    "invalidation_floor": 1772.03,
-    "risk_per_share": 101.0,
-    "technical_pivot": 1873.03
+    "invalidation_floor": 1714.61,
+    "risk_per_share": 97.73,
+    "technical_pivot": 1812.34
   },
   "schema_version": "1.0",
   "sector": "Metals & Mining",

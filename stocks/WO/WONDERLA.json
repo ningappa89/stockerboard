@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 640.9,
-      "high": 645.0,
-      "low": 639.0,
-      "open": 645.0,
-      "time": "2025-09-19",
-      "volume": 16917
-    },
-    {
-      "close": 639.75,
-      "high": 645.95,
-      "low": 637.0,
-      "open": 645.6,
-      "time": "2025-09-22",
-      "volume": 13607
-    },
-    {
-      "close": 630.0,
-      "high": 639.3,
-      "low": 627.0,
-      "open": 638.0,
-      "time": "2025-09-23",
-      "volume": 24699
-    },
-    {
       "close": 623.95,
       "high": 632.0,
       "low": 619.95,
@@ -2017,13 +1993,37 @@
       "open": 508.05,
       "time": "2026-09-28",
       "volume": 48343
+    },
+    {
+      "close": 501.45,
+      "high": 504.95,
+      "low": 491.25,
+      "open": 504.0,
+      "time": "2026-09-29",
+      "volume": 43971
+    },
+    {
+      "close": 500.3,
+      "high": 506.4,
+      "low": 498.0,
+      "open": 498.0,
+      "time": "2026-09-30",
+      "volume": 25602
+    },
+    {
+      "close": 495.1,
+      "high": 501.9,
+      "low": 488.0,
+      "open": 498.0,
+      "time": "2026-10-01",
+      "volume": 79594
     }
   ],
   "company_name": "WONDERLA HOLIDAYS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.92x"
+    "volume_multiplier": "1.59x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.6,
-    "change_pct": -0.9,
-    "close": 505.55,
-    "previous_close": 510.15,
+    "as_of": "2026-10-01",
+    "change": -5.2,
+    "change_pct": -1.04,
+    "close": 495.1,
+    "previous_close": 500.3,
     "type": "EOD_CLOSE",
-    "volume": 48343
+    "volume": 79594
   },
   "range": {
-    "distance_from_high_pct": -21.74,
-    "distance_from_low_pct": 11.11,
-    "high_52w": 645.95,
+    "distance_from_high_pct": -21.66,
+    "distance_from_low_pct": 8.81,
+    "high_52w": 632.0,
     "history_basis": "52_WEEK",
     "low_52w": 455.0,
-    "range_position_pct": 26.47
+    "range_position_pct": 22.66
   },
   "risk_model": {
-    "invalidation_floor": 487.86,
-    "risk_per_share": 27.8,
-    "technical_pivot": 515.66
+    "invalidation_floor": 477.77,
+    "risk_per_share": 27.23,
+    "technical_pivot": 505.0
   },
   "schema_version": "1.0",
   "sector": null,

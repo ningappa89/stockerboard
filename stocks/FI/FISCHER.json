@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 113.6,
-      "high": 115.0,
-      "low": 111.7,
-      "open": 113.9,
-      "time": "2025-09-19",
-      "volume": 166519
-    },
-    {
-      "close": 112.9,
-      "high": 114.7,
-      "low": 111.5,
-      "open": 114.7,
-      "time": "2025-09-22",
-      "volume": 144079
-    },
-    {
-      "close": 115.0,
-      "high": 118.5,
-      "low": 112.0,
-      "open": 112.5,
-      "time": "2025-09-23",
-      "volume": 703496
-    },
-    {
       "close": 117.0,
       "high": 124.7,
       "low": 114.0,
@@ -2017,13 +1993,37 @@
       "open": 35.18,
       "time": "2026-09-28",
       "volume": 782768
+    },
+    {
+      "close": 33.68,
+      "high": 35.5,
+      "low": 32.85,
+      "open": 34.9,
+      "time": "2026-09-29",
+      "volume": 1344456
+    },
+    {
+      "close": 33.55,
+      "high": 34.7,
+      "low": 33.35,
+      "open": 33.68,
+      "time": "2026-09-30",
+      "volume": 284295
+    },
+    {
+      "close": 33.46,
+      "high": 34.39,
+      "low": 32.61,
+      "open": 34.39,
+      "time": "2026-10-01",
+      "volume": 220491
     }
   ],
   "company_name": "FISCHER MEDICAL VENTURES LIMIT",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.75x"
+    "volume_multiplier": "0.22x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.21,
-    "change_pct": -0.61,
-    "close": 34.08,
-    "previous_close": 34.29,
+    "as_of": "2026-10-01",
+    "change": -0.09,
+    "change_pct": -0.27,
+    "close": 33.46,
+    "previous_close": 33.55,
     "type": "EOD_CLOSE",
-    "volume": 782768
+    "volume": 220491
   },
   "range": {
-    "distance_from_high_pct": -72.67,
-    "distance_from_low_pct": 9.76,
+    "distance_from_high_pct": -73.17,
+    "distance_from_low_pct": 7.76,
     "high_52w": 124.7,
     "history_basis": "52_WEEK",
     "low_52w": 31.05,
-    "range_position_pct": 3.24
+    "range_position_pct": 2.57
   },
   "risk_model": {
-    "invalidation_floor": 32.89,
-    "risk_per_share": 1.87,
-    "technical_pivot": 34.76
+    "invalidation_floor": 32.29,
+    "risk_per_share": 1.84,
+    "technical_pivot": 34.13
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1378.7,
-      "high": 1388.5,
-      "low": 1365.1,
-      "open": 1382.0,
-      "time": "2025-09-19",
-      "volume": 18754
-    },
-    {
-      "close": 1438.4,
-      "high": 1458.0,
-      "low": 1402.3,
-      "open": 1407.7,
-      "time": "2025-09-22",
-      "volume": 269960
-    },
-    {
-      "close": 1441.9,
-      "high": 1465.0,
-      "low": 1428.1,
-      "open": 1436.0,
-      "time": "2025-09-23",
-      "volume": 69323
-    },
-    {
       "close": 1400.9,
       "high": 1442.6,
       "low": 1392.5,
@@ -2017,13 +1993,37 @@
       "open": 1743.9,
       "time": "2026-09-28",
       "volume": 30315
+    },
+    {
+      "close": 1730.1,
+      "high": 1742.5,
+      "low": 1699.8,
+      "open": 1730.4,
+      "time": "2026-09-29",
+      "volume": 26837
+    },
+    {
+      "close": 1730.1,
+      "high": 1761.0,
+      "low": 1729.1,
+      "open": 1736.6,
+      "time": "2026-09-30",
+      "volume": 9738
+    },
+    {
+      "close": 1711.1,
+      "high": 1738.7,
+      "low": 1681.0,
+      "open": 1736.6,
+      "time": "2026-10-01",
+      "volume": 50389
     }
   ],
   "company_name": "L.G.BALAKRISHNAN & BROS.LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.16x"
+    "volume_multiplier": "1.89x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.7,
-    "change_pct": -0.27,
-    "close": 1730.6,
-    "previous_close": 1735.3,
+    "as_of": "2026-10-01",
+    "change": -19.0,
+    "change_pct": -1.1,
+    "close": 1711.1,
+    "previous_close": 1730.1,
     "type": "EOD_CLOSE",
-    "volume": 30315
+    "volume": 50389
   },
   "range": {
-    "distance_from_high_pct": -15.5,
-    "distance_from_low_pct": 31.61,
+    "distance_from_high_pct": -16.45,
+    "distance_from_low_pct": 30.13,
     "high_52w": 2048.0,
     "history_basis": "52_WEEK",
     "low_52w": 1314.9,
-    "range_position_pct": 56.7
+    "range_position_pct": 54.04
   },
   "risk_model": {
-    "invalidation_floor": 1670.03,
-    "risk_per_share": 95.18,
-    "technical_pivot": 1765.21
+    "invalidation_floor": 1651.21,
+    "risk_per_share": 94.11,
+    "technical_pivot": 1745.32
   },
   "schema_version": "1.0",
   "sector": null,

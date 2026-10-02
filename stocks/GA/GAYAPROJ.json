@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 6.56,
-      "high": 6.56,
-      "low": 6.56,
-      "open": 6.56,
-      "time": "2025-03-06",
-      "volume": 11419
-    },
-    {
-      "close": 6.88,
-      "high": 6.88,
-      "low": 6.88,
-      "open": 6.88,
-      "time": "2025-03-07",
-      "volume": 31356
-    },
-    {
-      "close": 6.69,
-      "high": 7.22,
-      "low": 6.6,
-      "open": 7.15,
-      "time": "2025-03-10",
-      "volume": 256926
-    },
-    {
       "close": 6.87,
       "high": 7.0,
       "low": 6.35,
@@ -2017,13 +1993,37 @@
       "open": 23.2,
       "time": "2026-09-28",
       "volume": 887945
+    },
+    {
+      "close": 22.44,
+      "high": 22.89,
+      "low": 21.51,
+      "open": 22.23,
+      "time": "2026-09-29",
+      "volume": 541787
+    },
+    {
+      "close": 22.68,
+      "high": 23.44,
+      "low": 22.14,
+      "open": 22.5,
+      "time": "2026-09-30",
+      "volume": 652974
+    },
+    {
+      "close": 22.44,
+      "high": 23.37,
+      "low": 21.75,
+      "open": 22.8,
+      "time": "2026-10-01",
+      "volume": 442009
     }
   ],
   "company_name": "GAYATRI PROJECTS LTD",
   "history": {
-    "first_session": "2025-03-06",
+    "first_session": "2025-03-11",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 60,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.65x"
+    "volume_multiplier": "0.32x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.95,
-    "change_pct": -4.15,
-    "close": 21.96,
-    "previous_close": 22.91,
+    "as_of": "2026-10-01",
+    "change": -0.24,
+    "change_pct": -1.06,
+    "close": 22.44,
+    "previous_close": 22.68,
     "type": "EOD_CLOSE",
-    "volume": 887945
+    "volume": 442009
   },
   "range": {
-    "distance_from_high_pct": -19.65,
-    "distance_from_low_pct": 292.14,
+    "distance_from_high_pct": -17.89,
+    "distance_from_low_pct": 300.71,
     "high_52w": 27.33,
     "history_basis": "52_WEEK",
     "low_52w": 5.6,
-    "range_position_pct": 75.29
+    "range_position_pct": 77.5
   },
   "risk_model": {
-    "invalidation_floor": 21.19,
-    "risk_per_share": 1.21,
-    "technical_pivot": 22.4
+    "invalidation_floor": 21.65,
+    "risk_per_share": 1.24,
+    "technical_pivot": 22.89
   },
   "schema_version": "1.0",
   "sector": null,

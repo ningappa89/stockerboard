@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2182.6,
-      "high": 2212.0,
-      "low": 2180.0,
-      "open": 2200.0,
-      "time": "2025-09-19",
-      "volume": 2777471
-    },
-    {
-      "close": 2156.2,
-      "high": 2196.0,
-      "low": 2150.0,
-      "open": 2175.0,
-      "time": "2025-09-22",
-      "volume": 2789419
-    },
-    {
-      "close": 2122.2,
-      "high": 2160.0,
-      "low": 2086.4,
-      "open": 2157.0,
-      "time": "2025-09-23",
-      "volume": 4932424
-    },
-    {
       "close": 2076.4,
       "high": 2135.0,
       "low": 2060.0,
@@ -2017,13 +1993,37 @@
       "open": 3180.0,
       "time": "2026-09-28",
       "volume": 3931632
+    },
+    {
+      "close": 3200.0,
+      "high": 3200.0,
+      "low": 3100.0,
+      "open": 3100.0,
+      "time": "2026-09-29",
+      "volume": 30101047
+    },
+    {
+      "close": 3092.0,
+      "high": 3149.0,
+      "low": 3075.0,
+      "open": 3138.9,
+      "time": "2026-09-30",
+      "volume": 6411793
+    },
+    {
+      "close": 3046.0,
+      "high": 3139.0,
+      "low": 3000.0,
+      "open": 3089.9,
+      "time": "2026-10-01",
+      "volume": 6273089
     }
   ],
   "company_name": "BSE LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 44,
+    "momentum_score": 42,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.91x"
+    "volume_multiplier": "1.11x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -94.0,
-    "change_pct": -2.95,
-    "close": 3097.5,
-    "previous_close": 3191.5,
+    "as_of": "2026-10-01",
+    "change": -46.0,
+    "change_pct": -1.49,
+    "close": 3046.0,
+    "previous_close": 3092.0,
     "type": "EOD_CLOSE",
-    "volume": 3931632
+    "volume": 6273089
   },
   "range": {
-    "distance_from_high_pct": -30.34,
-    "distance_from_low_pct": 53.23,
+    "distance_from_high_pct": -31.5,
+    "distance_from_low_pct": 50.68,
     "high_52w": 4446.8,
     "history_basis": "52_WEEK",
     "low_52w": 2021.5,
-    "range_position_pct": 44.37
+    "range_position_pct": 42.24
   },
   "risk_model": {
-    "invalidation_floor": 2989.09,
-    "risk_per_share": 170.36,
-    "technical_pivot": 3159.45
+    "invalidation_floor": 2939.39,
+    "risk_per_share": 167.53,
+    "technical_pivot": 3106.92
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

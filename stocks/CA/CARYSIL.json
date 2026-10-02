@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 917.55,
-      "high": 928.85,
-      "low": 911.0,
-      "open": 914.15,
-      "time": "2025-09-19",
-      "volume": 76238
-    },
-    {
-      "close": 896.7,
-      "high": 923.9,
-      "low": 891.25,
-      "open": 923.9,
-      "time": "2025-09-22",
-      "volume": 125535
-    },
-    {
-      "close": 885.35,
-      "high": 905.4,
-      "low": 882.5,
-      "open": 891.25,
-      "time": "2025-09-23",
-      "volume": 64037
-    },
-    {
       "close": 880.4,
       "high": 892.9,
       "low": 869.8,
@@ -2017,13 +1993,37 @@
       "open": 1064.1,
       "time": "2026-09-28",
       "volume": 74140
+    },
+    {
+      "close": 1056.5,
+      "high": 1072.0,
+      "low": 1016.1,
+      "open": 1038.0,
+      "time": "2026-09-29",
+      "volume": 92819
+    },
+    {
+      "close": 1036.1,
+      "high": 1060.4,
+      "low": 1020.0,
+      "open": 1046.1,
+      "time": "2026-09-30",
+      "volume": 149256
+    },
+    {
+      "close": 1044.8,
+      "high": 1054.8,
+      "low": 995.7,
+      "open": 1036.1,
+      "time": "2026-10-01",
+      "volume": 320062
     }
   ],
   "company_name": "CARYSIL LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 61,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.83x"
+    "momentum_score": 62,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.9x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -26.1,
-    "change_pct": -2.45,
-    "close": 1038.3,
-    "previous_close": 1064.4,
+    "as_of": "2026-10-01",
+    "change": 8.7,
+    "change_pct": 0.84,
+    "close": 1044.8,
+    "previous_close": 1036.1,
     "type": "EOD_CLOSE",
-    "volume": 74140
+    "volume": 320062
   },
   "range": {
-    "distance_from_high_pct": -18.94,
-    "distance_from_low_pct": 41.82,
+    "distance_from_high_pct": -18.43,
+    "distance_from_low_pct": 42.71,
     "high_52w": 1280.9,
     "history_basis": "52_WEEK",
     "low_52w": 732.1,
-    "range_position_pct": 55.79
+    "range_position_pct": 56.98
   },
   "risk_model": {
-    "invalidation_floor": 1001.96,
-    "risk_per_share": 57.11,
-    "technical_pivot": 1059.07
+    "invalidation_floor": 1008.23,
+    "risk_per_share": 57.47,
+    "technical_pivot": 1065.7
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 87.54,
-      "high": 91.5,
-      "low": 87.21,
-      "open": 91.5,
-      "time": "2025-09-19",
-      "volume": 3744
-    },
-    {
-      "close": 86.38,
-      "high": 89.86,
-      "low": 84.2,
-      "open": 84.2,
-      "time": "2025-09-22",
-      "volume": 13922
-    },
-    {
-      "close": 86.21,
-      "high": 89.6,
-      "low": 86.0,
-      "open": 87.29,
-      "time": "2025-09-23",
-      "volume": 5868
-    },
-    {
       "close": 85.61,
       "high": 89.4,
       "low": 85.0,
@@ -2017,13 +1993,37 @@
       "open": 59.0,
       "time": "2026-09-28",
       "volume": 983
+    },
+    {
+      "close": 57.07,
+      "high": 58.6,
+      "low": 55.35,
+      "open": 57.98,
+      "time": "2026-09-29",
+      "volume": 2389
+    },
+    {
+      "close": 57.19,
+      "high": 58.5,
+      "low": 57.01,
+      "open": 57.2,
+      "time": "2026-09-30",
+      "volume": 2227
+    },
+    {
+      "close": 54.08,
+      "high": 59.3,
+      "low": 53.03,
+      "open": 59.0,
+      "time": "2026-10-01",
+      "volume": 7561
     }
   ],
   "company_name": "DELTA MANUFACTURING LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.32x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.28x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.29,
-    "change_pct": -2.26,
-    "close": 55.87,
-    "previous_close": 57.16,
+    "as_of": "2026-10-01",
+    "change": -3.11,
+    "change_pct": -5.44,
+    "close": 54.08,
+    "previous_close": 57.19,
     "type": "EOD_CLOSE",
-    "volume": 983
+    "volume": 7561
   },
   "range": {
-    "distance_from_high_pct": -38.94,
-    "distance_from_low_pct": 22.76,
-    "high_52w": 91.5,
+    "distance_from_high_pct": -39.51,
+    "distance_from_low_pct": 18.83,
+    "high_52w": 89.4,
     "history_basis": "52_WEEK",
     "low_52w": 45.51,
-    "range_position_pct": 22.53
+    "range_position_pct": 19.53
   },
   "risk_model": {
-    "invalidation_floor": 53.91,
-    "risk_per_share": 3.08,
-    "technical_pivot": 56.99
+    "invalidation_floor": 52.19,
+    "risk_per_share": 2.97,
+    "technical_pivot": 55.16
   },
   "schema_version": "1.0",
   "sector": null,

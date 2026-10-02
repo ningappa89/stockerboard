@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 5762.0,
-      "high": 5917.5,
-      "low": 5739.0,
-      "open": 5861.0,
-      "time": "2025-09-19",
-      "volume": 17804
-    },
-    {
-      "close": 5783.0,
-      "high": 5846.5,
-      "low": 5759.0,
-      "open": 5762.0,
-      "time": "2025-09-22",
-      "volume": 12488
-    },
-    {
-      "close": 5755.0,
-      "high": 6050.0,
-      "low": 5720.0,
-      "open": 6050.0,
-      "time": "2025-09-23",
-      "volume": 33575
-    },
-    {
       "close": 5775.5,
       "high": 5796.0,
       "low": 5734.5,
@@ -2017,13 +1993,37 @@
       "open": 4725.0,
       "time": "2026-09-28",
       "volume": 6178
+    },
+    {
+      "close": 4576.0,
+      "high": 4751.9,
+      "low": 4523.0,
+      "open": 4747.2,
+      "time": "2026-09-29",
+      "volume": 88233
+    },
+    {
+      "close": 4629.0,
+      "high": 4654.2,
+      "low": 4539.3,
+      "open": 4574.9,
+      "time": "2026-09-30",
+      "volume": 14406
+    },
+    {
+      "close": 4496.8,
+      "high": 4793.8,
+      "low": 4460.0,
+      "open": 4713.9,
+      "time": "2026-10-01",
+      "volume": 51320
     }
   ],
   "company_name": "BLUE DART EXPRESS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 41,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.73x"
+    "momentum_score": 40,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "3.94x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 3.1,
-    "change_pct": 0.07,
-    "close": 4749.6,
-    "previous_close": 4746.5,
+    "as_of": "2026-10-01",
+    "change": -132.2,
+    "change_pct": -2.86,
+    "close": 4496.8,
+    "previous_close": 4629.0,
     "type": "EOD_CLOSE",
-    "volume": 6178
+    "volume": 51320
   },
   "range": {
-    "distance_from_high_pct": -32.5,
-    "distance_from_low_pct": 2.62,
+    "distance_from_high_pct": -36.09,
+    "distance_from_low_pct": 0.83,
     "high_52w": 7036.0,
     "history_basis": "52_WEEK",
-    "low_52w": 4628.5,
-    "range_position_pct": 5.03
+    "low_52w": 4460.0,
+    "range_position_pct": 1.43
   },
   "risk_model": {
-    "invalidation_floor": 4583.36,
-    "risk_per_share": 261.23,
-    "technical_pivot": 4844.59
+    "invalidation_floor": 4339.41,
+    "risk_per_share": 247.33,
+    "technical_pivot": 4586.74
   },
   "schema_version": "1.0",
   "sector": null,

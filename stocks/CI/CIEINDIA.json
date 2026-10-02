@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 435.6,
-      "high": 442.5,
-      "low": 427.8,
-      "open": 432.5,
-      "time": "2025-09-19",
-      "volume": 397857
-    },
-    {
-      "close": 443.35,
-      "high": 448.5,
-      "low": 433.05,
-      "open": 435.6,
-      "time": "2025-09-22",
-      "volume": 446799
-    },
-    {
-      "close": 429.5,
-      "high": 447.6,
-      "low": 427.3,
-      "open": 445.9,
-      "time": "2025-09-23",
-      "volume": 277261
-    },
-    {
       "close": 436.7,
       "high": 444.7,
       "low": 426.45,
@@ -2017,13 +1993,37 @@
       "open": 392.8,
       "time": "2026-09-28",
       "volume": 172421
+    },
+    {
+      "close": 376.45,
+      "high": 384.8,
+      "low": 374.8,
+      "open": 384.8,
+      "time": "2026-09-29",
+      "volume": 206872
+    },
+    {
+      "close": 386.3,
+      "high": 390.0,
+      "low": 378.05,
+      "open": 379.0,
+      "time": "2026-09-30",
+      "volume": 288927
+    },
+    {
+      "close": 376.35,
+      "high": 383.15,
+      "low": 370.85,
+      "open": 383.15,
+      "time": "2026-10-01",
+      "volume": 259700
     }
   ],
   "company_name": "CIE AUTOMOTIVE INDIA LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 49,
+    "momentum_score": 47,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.66x"
+    "volume_multiplier": "0.99x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -7.45,
-    "change_pct": -1.91,
-    "close": 383.35,
-    "previous_close": 390.8,
+    "as_of": "2026-10-01",
+    "change": -9.95,
+    "change_pct": -2.58,
+    "close": 376.35,
+    "previous_close": 386.3,
     "type": "EOD_CLOSE",
-    "volume": 172421
+    "volume": 259700
   },
   "range": {
-    "distance_from_high_pct": -27.12,
-    "distance_from_low_pct": 4.48,
+    "distance_from_high_pct": -28.45,
+    "distance_from_low_pct": 2.58,
     "high_52w": 526.0,
     "history_basis": "52_WEEK",
     "low_52w": 366.9,
-    "range_position_pct": 10.34
+    "range_position_pct": 5.94
   },
   "risk_model": {
-    "invalidation_floor": 369.93,
-    "risk_per_share": 21.09,
-    "technical_pivot": 391.02
+    "invalidation_floor": 363.18,
+    "risk_per_share": 20.7,
+    "technical_pivot": 383.88
   },
   "schema_version": "1.0",
   "sector": null,

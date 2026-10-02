@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 107.86,
-      "high": 108.9,
-      "low": 107.0,
-      "open": 107.7,
-      "time": "2025-09-19",
-      "volume": 1155968
-    },
-    {
-      "close": 104.73,
-      "high": 107.96,
-      "low": 104.3,
-      "open": 107.5,
-      "time": "2025-09-22",
-      "volume": 1347216
-    },
-    {
-      "close": 107.31,
-      "high": 109.69,
-      "low": 104.45,
-      "open": 105.0,
-      "time": "2025-09-23",
-      "volume": 4025369
-    },
-    {
       "close": 105.22,
       "high": 107.13,
       "low": 104.81,
@@ -2017,13 +1993,37 @@
       "open": 138.2,
       "time": "2026-09-28",
       "volume": 3679842
+    },
+    {
+      "close": 136.27,
+      "high": 139.4,
+      "low": 134.91,
+      "open": 139.4,
+      "time": "2026-09-29",
+      "volume": 1537760
+    },
+    {
+      "close": 136.35,
+      "high": 141.75,
+      "low": 135.7,
+      "open": 136.35,
+      "time": "2026-09-30",
+      "volume": 2575110
+    },
+    {
+      "close": 131.66,
+      "high": 136.4,
+      "low": 128.41,
+      "open": 136.35,
+      "time": "2026-10-01",
+      "volume": 1577845
     }
   ],
   "company_name": "JAMNA AUTO INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 77,
+    "is_stage2": false,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.24x"
+    "volume_multiplier": "0.51x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 1.48,
-    "change_pct": 1.07,
-    "close": 139.68,
-    "previous_close": 138.2,
+    "as_of": "2026-10-01",
+    "change": -4.69,
+    "change_pct": -3.44,
+    "close": 131.66,
+    "previous_close": 136.35,
     "type": "EOD_CLOSE",
-    "volume": 3679842
+    "volume": 1577845
   },
   "range": {
-    "distance_from_high_pct": -8.47,
-    "distance_from_low_pct": 55.65,
+    "distance_from_high_pct": -13.72,
+    "distance_from_low_pct": 46.71,
     "high_52w": 152.6,
     "history_basis": "52_WEEK",
     "low_52w": 89.74,
-    "range_position_pct": 79.45
+    "range_position_pct": 66.69
   },
   "risk_model": {
-    "invalidation_floor": 134.79,
-    "risk_per_share": 7.68,
-    "technical_pivot": 142.47
+    "invalidation_floor": 127.05,
+    "risk_per_share": 7.24,
+    "technical_pivot": 134.29
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 27.58,
-      "high": 28.79,
-      "low": 26.52,
-      "open": 28.79,
-      "time": "2025-09-19",
-      "volume": 4471
-    },
-    {
-      "close": 27.71,
-      "high": 28.04,
-      "low": 27.02,
-      "open": 28.02,
-      "time": "2025-09-22",
-      "volume": 7762
-    },
-    {
-      "close": 27.3,
-      "high": 28.14,
-      "low": 26.61,
-      "open": 28.14,
-      "time": "2025-09-23",
-      "volume": 3728
-    },
-    {
       "close": 27.04,
       "high": 28.25,
       "low": 27.0,
@@ -2017,13 +1993,37 @@
       "open": 27.1,
       "time": "2026-09-28",
       "volume": 5962
+    },
+    {
+      "close": 26.05,
+      "high": 27.5,
+      "low": 25.5,
+      "open": 25.5,
+      "time": "2026-09-29",
+      "volume": 3154
+    },
+    {
+      "close": 26.03,
+      "high": 28.0,
+      "low": 25.2,
+      "open": 26.05,
+      "time": "2026-09-30",
+      "volume": 3598
+    },
+    {
+      "close": 25.34,
+      "high": 27.2,
+      "low": 24.56,
+      "open": 26.03,
+      "time": "2026-10-01",
+      "volume": 9411
     }
   ],
   "company_name": "NAGREEKA CAP & INFR.LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.2x"
+    "volume_multiplier": "0.31x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.74,
-    "change_pct": -6.2,
-    "close": 26.32,
-    "previous_close": 28.06,
+    "as_of": "2026-10-01",
+    "change": -0.69,
+    "change_pct": -2.65,
+    "close": 25.34,
+    "previous_close": 26.03,
     "type": "EOD_CLOSE",
-    "volume": 5962
+    "volume": 9411
   },
   "range": {
-    "distance_from_high_pct": -38.43,
-    "distance_from_low_pct": 36.37,
+    "distance_from_high_pct": -40.73,
+    "distance_from_low_pct": 31.3,
     "high_52w": 42.75,
     "history_basis": "52_WEEK",
     "low_52w": 19.3,
-    "range_position_pct": 29.94
+    "range_position_pct": 25.76
   },
   "risk_model": {
-    "invalidation_floor": 25.4,
-    "risk_per_share": 1.45,
-    "technical_pivot": 26.85
+    "invalidation_floor": 24.45,
+    "risk_per_share": 1.4,
+    "technical_pivot": 25.85
   },
   "schema_version": "1.0",
   "sector": null,

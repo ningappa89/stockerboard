@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 75.22,
-      "high": 75.99,
-      "low": 74.72,
-      "open": 75.49,
-      "time": "2025-09-19",
-      "volume": 14297
-    },
-    {
-      "close": 75.23,
-      "high": 75.69,
-      "low": 74.91,
-      "open": 75.49,
-      "time": "2025-09-22",
-      "volume": 21500
-    },
-    {
-      "close": 75.87,
-      "high": 76.4,
-      "low": 74.31,
-      "open": 75.29,
-      "time": "2025-09-23",
-      "volume": 40105
-    },
-    {
       "close": 74.53,
       "high": 76.19,
       "low": 74.04,
@@ -2017,13 +1993,37 @@
       "open": 141.94,
       "time": "2026-09-28",
       "volume": 114414
+    },
+    {
+      "close": 134.89,
+      "high": 138.1,
+      "low": 132.0,
+      "open": 137.55,
+      "time": "2026-09-29",
+      "volume": 123508
+    },
+    {
+      "close": 137.97,
+      "high": 140.98,
+      "low": 134.68,
+      "open": 134.99,
+      "time": "2026-09-30",
+      "volume": 87891
+    },
+    {
+      "close": 137.02,
+      "high": 138.94,
+      "low": 132.1,
+      "open": 138.94,
+      "time": "2026-10-01",
+      "volume": 129941
     }
   ],
   "company_name": "ZIM Laboratories Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": true,
     "momentum_score": 82,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.73x"
+    "volume_multiplier": "0.97x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.93,
-    "change_pct": -0.67,
-    "close": 137.55,
-    "previous_close": 138.48,
+    "as_of": "2026-10-01",
+    "change": -0.95,
+    "change_pct": -0.69,
+    "close": 137.02,
+    "previous_close": 137.97,
     "type": "EOD_CLOSE",
-    "volume": 114414
+    "volume": 129941
   },
   "range": {
-    "distance_from_high_pct": -4.8,
-    "distance_from_low_pct": 131.92,
+    "distance_from_high_pct": -5.17,
+    "distance_from_low_pct": 131.02,
     "high_52w": 144.49,
     "history_basis": "52_WEEK",
     "low_52w": 59.31,
-    "range_position_pct": 91.85
+    "range_position_pct": 91.23
   },
   "risk_model": {
-    "invalidation_floor": 132.74,
-    "risk_per_share": 7.56,
-    "technical_pivot": 140.3
+    "invalidation_floor": 132.22,
+    "risk_per_share": 7.54,
+    "technical_pivot": 139.76
   },
   "schema_version": "1.0",
   "sector": null,

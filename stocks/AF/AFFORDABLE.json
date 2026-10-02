@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 255.55,
-      "high": 265.65,
-      "low": 253.0,
-      "open": 257.6,
-      "time": "2025-09-19",
-      "volume": 216751
-    },
-    {
-      "close": 249.75,
-      "high": 259.8,
-      "low": 248.4,
-      "open": 259.8,
-      "time": "2025-09-22",
-      "volume": 96867
-    },
-    {
-      "close": 249.5,
-      "high": 254.5,
-      "low": 246.0,
-      "open": 254.5,
-      "time": "2025-09-23",
-      "volume": 381820
-    },
-    {
       "close": 255.15,
       "high": 264.0,
       "low": 252.0,
@@ -2017,13 +1993,37 @@
       "open": 179.2,
       "time": "2026-09-28",
       "volume": 16239
+    },
+    {
+      "close": 173.52,
+      "high": 175.4,
+      "low": 165.12,
+      "open": 165.12,
+      "time": "2026-09-29",
+      "volume": 15470
+    },
+    {
+      "close": 171.1,
+      "high": 176.85,
+      "low": 168.0,
+      "open": 176.2,
+      "time": "2026-09-30",
+      "volume": 23394
+    },
+    {
+      "close": 168.11,
+      "high": 175.4,
+      "low": 165.0,
+      "open": 172.0,
+      "time": "2026-10-01",
+      "volume": 15039
     }
   ],
   "company_name": "Affordable Robotic & Automatio",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.72x"
+    "volume_multiplier": "0.64x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -7.51,
-    "change_pct": -4.21,
-    "close": 170.74,
-    "previous_close": 178.25,
+    "as_of": "2026-10-01",
+    "change": -2.99,
+    "change_pct": -1.75,
+    "close": 168.11,
+    "previous_close": 171.1,
     "type": "EOD_CLOSE",
-    "volume": 16239
+    "volume": 15039
   },
   "range": {
-    "distance_from_high_pct": -42.51,
-    "distance_from_low_pct": 42.63,
+    "distance_from_high_pct": -43.4,
+    "distance_from_low_pct": 40.43,
     "high_52w": 297.0,
     "history_basis": "52_WEEK",
     "low_52w": 119.71,
-    "range_position_pct": 28.78
+    "range_position_pct": 27.3
   },
   "risk_model": {
-    "invalidation_floor": 164.76,
-    "risk_per_share": 9.39,
-    "technical_pivot": 174.15
+    "invalidation_floor": 162.23,
+    "risk_per_share": 9.24,
+    "technical_pivot": 171.47
   },
   "schema_version": "1.0",
   "sector": null,

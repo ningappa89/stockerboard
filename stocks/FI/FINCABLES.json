@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 830.85,
-      "high": 847.65,
-      "low": 829.05,
-      "open": 844.9,
-      "time": "2025-09-19",
-      "volume": 331080
-    },
-    {
-      "close": 835.45,
-      "high": 844.4,
-      "low": 830.0,
-      "open": 830.95,
-      "time": "2025-09-22",
-      "volume": 190619
-    },
-    {
-      "close": 826.6,
-      "high": 840.2,
-      "low": 820.5,
-      "open": 835.8,
-      "time": "2025-09-23",
-      "volume": 347466
-    },
-    {
       "close": 826.8,
       "high": 830.1,
       "low": 821.05,
@@ -2017,46 +1993,70 @@
       "open": 1460.9,
       "time": "2026-09-28",
       "volume": 431897
+    },
+    {
+      "close": 1435.5,
+      "high": 1459.8,
+      "low": 1396.4,
+      "open": 1408.1,
+      "time": "2026-09-29",
+      "volume": 769597
+    },
+    {
+      "close": 1450.3,
+      "high": 1472.4,
+      "low": 1432.0,
+      "open": 1432.0,
+      "time": "2026-09-30",
+      "volume": 452990
+    },
+    {
+      "close": 1458.8,
+      "high": 1477.5,
+      "low": 1428.9,
+      "open": 1448.2,
+      "time": "2026-10-01",
+      "volume": 598654
     }
   ],
   "company_name": "FINOLEX CABLES LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE235A01022",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": false,
+    "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 81,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.33x"
+    "momentum_score": 86,
+    "setup_type": "Minervini VCP",
+    "volume_multiplier": "0.47x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -52.8,
-    "change_pct": -3.61,
-    "close": 1408.1,
-    "previous_close": 1460.9,
+    "as_of": "2026-10-01",
+    "change": 8.5,
+    "change_pct": 0.59,
+    "close": 1458.8,
+    "previous_close": 1450.3,
     "type": "EOD_CLOSE",
-    "volume": 431897
+    "volume": 598654
   },
   "range": {
-    "distance_from_high_pct": -6.0,
-    "distance_from_low_pct": 100.93,
+    "distance_from_high_pct": -2.62,
+    "distance_from_low_pct": 108.16,
     "high_52w": 1498.0,
     "history_basis": "52_WEEK",
     "low_52w": 700.8,
-    "range_position_pct": 88.72
+    "range_position_pct": 95.08
   },
   "risk_model": {
-    "invalidation_floor": 1358.82,
-    "risk_per_share": 77.44,
-    "technical_pivot": 1436.26
+    "invalidation_floor": 1407.74,
+    "risk_per_share": 80.24,
+    "technical_pivot": 1487.98
   },
   "schema_version": "1.0",
   "sector": null,

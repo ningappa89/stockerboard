@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 65.49,
-      "high": 68.4,
-      "low": 65.02,
-      "open": 68.4,
-      "time": "2025-09-19",
-      "volume": 15058
-    },
-    {
-      "close": 64.71,
-      "high": 65.9,
-      "low": 64.15,
-      "open": 65.0,
-      "time": "2025-09-22",
-      "volume": 7787
-    },
-    {
-      "close": 64.84,
-      "high": 65.98,
-      "low": 64.05,
-      "open": 64.8,
-      "time": "2025-09-23",
-      "volume": 6562
-    },
-    {
       "close": 65.36,
       "high": 66.6,
       "low": 64.5,
@@ -2017,13 +1993,37 @@
       "open": 57.28,
       "time": "2026-09-28",
       "volume": 2180
+    },
+    {
+      "close": 56.63,
+      "high": 57.56,
+      "low": 56.11,
+      "open": 57.0,
+      "time": "2026-09-29",
+      "volume": 770
+    },
+    {
+      "close": 58.8,
+      "high": 60.4,
+      "low": 58.0,
+      "open": 58.85,
+      "time": "2026-09-30",
+      "volume": 6614
+    },
+    {
+      "close": 56.07,
+      "high": 58.8,
+      "low": 55.75,
+      "open": 58.8,
+      "time": "2026-10-01",
+      "volume": 3228
     }
   ],
   "company_name": "SURYALAKSHMI COT MIL LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 63,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.34x"
+    "volume_multiplier": "0.92x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.5,
-    "change_pct": -0.88,
-    "close": 56.5,
-    "previous_close": 57.0,
+    "as_of": "2026-10-01",
+    "change": -2.73,
+    "change_pct": -4.64,
+    "close": 56.07,
+    "previous_close": 58.8,
     "type": "EOD_CLOSE",
-    "volume": 2180
+    "volume": 3228
   },
   "range": {
-    "distance_from_high_pct": -17.4,
-    "distance_from_low_pct": 31.4,
-    "high_52w": 68.4,
+    "distance_from_high_pct": -17.18,
+    "distance_from_low_pct": 30.4,
+    "high_52w": 67.7,
     "history_basis": "52_WEEK",
     "low_52w": 43.0,
-    "range_position_pct": 53.15
+    "range_position_pct": 52.91
   },
   "risk_model": {
-    "invalidation_floor": 54.52,
-    "risk_per_share": 3.11,
-    "technical_pivot": 57.63
+    "invalidation_floor": 54.11,
+    "risk_per_share": 3.08,
+    "technical_pivot": 57.19
   },
   "schema_version": "1.0",
   "sector": null,

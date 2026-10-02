@@ -241,14 +241,38 @@
       "open": 0.83,
       "time": "2026-09-28",
       "volume": 1282866
+    },
+    {
+      "close": 0.74,
+      "high": 0.77,
+      "low": 0.74,
+      "open": 0.75,
+      "time": "2026-09-29",
+      "volume": 1663494
+    },
+    {
+      "close": 0.72,
+      "high": 0.75,
+      "low": 0.71,
+      "open": 0.72,
+      "time": "2026-09-30",
+      "volume": 2003449
+    },
+    {
+      "close": 0.69,
+      "high": 0.75,
+      "low": 0.69,
+      "open": 0.75,
+      "time": "2026-10-01",
+      "volume": 408079
     }
   ],
   "company_name": "TOYAM SPORTS LIMITED",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE457P01020",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 52,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.02x"
+    "volume_multiplier": "0.28x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.04,
-    "change_pct": -4.94,
-    "close": 0.77,
-    "previous_close": 0.81,
+    "as_of": "2026-10-01",
+    "change": -0.03,
+    "change_pct": -4.17,
+    "close": 0.69,
+    "previous_close": 0.72,
     "type": "EOD_CLOSE",
-    "volume": 1282866
+    "volume": 408079
   },
   "range": {
-    "distance_from_high_pct": -16.3,
-    "distance_from_low_pct": 28.33,
+    "distance_from_high_pct": -25.0,
+    "distance_from_low_pct": 15.0,
     "high_52w": 0.92,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 0.6,
-    "range_position_pct": 53.12
+    "range_position_pct": 28.12
   },
   "risk_model": {
-    "invalidation_floor": 0.74,
+    "invalidation_floor": 0.67,
     "risk_per_share": 0.5,
-    "technical_pivot": 0.79
+    "technical_pivot": 0.7
   },
   "schema_version": "1.0",
   "sector": null,

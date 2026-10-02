@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 358.55,
-      "high": 359.8,
-      "low": 352.5,
-      "open": 356.0,
-      "time": "2025-09-19",
-      "volume": 18450
-    },
-    {
-      "close": 358.05,
-      "high": 359.0,
-      "low": 352.05,
-      "open": 359.0,
-      "time": "2025-09-22",
-      "volume": 9812
-    },
-    {
-      "close": 358.3,
-      "high": 360.15,
-      "low": 354.1,
-      "open": 355.7,
-      "time": "2025-09-23",
-      "volume": 6121
-    },
-    {
       "close": 357.25,
       "high": 359.35,
       "low": 354.05,
@@ -2017,13 +1993,37 @@
       "open": 289.75,
       "time": "2026-09-28",
       "volume": 9785
+    },
+    {
+      "close": 287.65,
+      "high": 289.0,
+      "low": 276.45,
+      "open": 282.1,
+      "time": "2026-09-29",
+      "volume": 15774
+    },
+    {
+      "close": 282.95,
+      "high": 291.45,
+      "low": 282.1,
+      "open": 288.0,
+      "time": "2026-09-30",
+      "volume": 8519
+    },
+    {
+      "close": 278.7,
+      "high": 282.15,
+      "low": 274.45,
+      "open": 278.75,
+      "time": "2026-10-01",
+      "volume": 12290
     }
   ],
   "company_name": "Dhunseri Ventures Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 51,
+    "momentum_score": 49,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.68x"
+    "volume_multiplier": "0.89x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -7.85,
-    "change_pct": -2.71,
-    "close": 281.9,
-    "previous_close": 289.75,
+    "as_of": "2026-10-01",
+    "change": -4.25,
+    "change_pct": -1.5,
+    "close": 278.7,
+    "previous_close": 282.95,
     "type": "EOD_CLOSE",
-    "volume": 9785
+    "volume": 12290
   },
   "range": {
-    "distance_from_high_pct": -25.93,
-    "distance_from_low_pct": 50.76,
+    "distance_from_high_pct": -26.77,
+    "distance_from_low_pct": 49.05,
     "high_52w": 380.6,
     "history_basis": "52_WEEK",
     "low_52w": 186.99,
-    "range_position_pct": 49.02
+    "range_position_pct": 47.37
   },
   "risk_model": {
-    "invalidation_floor": 272.03,
-    "risk_per_share": 15.51,
-    "technical_pivot": 287.54
+    "invalidation_floor": 268.95,
+    "risk_per_share": 15.32,
+    "technical_pivot": 284.27
   },
   "schema_version": "1.0",
   "sector": null,

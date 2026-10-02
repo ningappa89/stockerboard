@@ -897,14 +897,38 @@
       "open": 6.63,
       "time": "2026-09-28",
       "volume": 3901800
+    },
+    {
+      "close": 6.73,
+      "high": 7.15,
+      "low": 6.38,
+      "open": 7.04,
+      "time": "2026-09-29",
+      "volume": 827066
+    },
+    {
+      "close": 6.36,
+      "high": 7.24,
+      "low": 6.02,
+      "open": 6.94,
+      "time": "2026-09-30",
+      "volume": 1331887
+    },
+    {
+      "close": 6.23,
+      "high": 6.41,
+      "low": 6.09,
+      "open": 6.35,
+      "time": "2026-10-01",
+      "volume": 135064
     }
   ],
   "company_name": "COMFORT INTECH LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 112
+    "last_session": "2026-10-01",
+    "sessions_available": 115
   },
   "industry": null,
   "isin": "INE819A01049",
@@ -912,31 +936,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 57,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "9.77x"
+    "momentum_score": 41,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.28x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.7,
-    "change_pct": 10.75,
-    "close": 7.21,
-    "previous_close": 6.51,
+    "as_of": "2026-10-01",
+    "change": -0.13,
+    "change_pct": -2.04,
+    "close": 6.23,
+    "previous_close": 6.36,
     "type": "EOD_CLOSE",
-    "volume": 3901800
+    "volume": 135064
   },
   "range": {
-    "distance_from_high_pct": -21.55,
-    "distance_from_low_pct": 38.39,
+    "distance_from_high_pct": -32.21,
+    "distance_from_low_pct": 19.58,
     "high_52w": 9.19,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 5.21,
-    "range_position_pct": 50.25
+    "range_position_pct": 25.63
   },
   "risk_model": {
-    "invalidation_floor": 6.96,
+    "invalidation_floor": 6.01,
     "risk_per_share": 0.5,
-    "technical_pivot": 7.35
+    "technical_pivot": 6.35
   },
   "schema_version": "1.0",
   "sector": null,

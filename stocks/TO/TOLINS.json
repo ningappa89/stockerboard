@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 186.26,
-      "high": 193.33,
-      "low": 184.52,
-      "open": 193.33,
-      "time": "2025-09-19",
-      "volume": 319740
-    },
-    {
-      "close": 192.37,
-      "high": 194.59,
-      "low": 184.01,
-      "open": 185.35,
-      "time": "2025-09-22",
-      "volume": 638848
-    },
-    {
-      "close": 188.35,
-      "high": 193.84,
-      "low": 185.0,
-      "open": 193.33,
-      "time": "2025-09-23",
-      "volume": 368365
-    },
-    {
       "close": 195.64,
       "high": 201.0,
       "low": 187.98,
@@ -2017,13 +1993,37 @@
       "open": 87.52,
       "time": "2026-09-28",
       "volume": 28721
+    },
+    {
+      "close": 86.21,
+      "high": 86.99,
+      "low": 85.0,
+      "open": 86.2,
+      "time": "2026-09-29",
+      "volume": 36061
+    },
+    {
+      "close": 85.86,
+      "high": 88.49,
+      "low": 85.01,
+      "open": 86.15,
+      "time": "2026-09-30",
+      "volume": 41099
+    },
+    {
+      "close": 84.59,
+      "high": 87.17,
+      "low": 84.0,
+      "open": 87.17,
+      "time": "2026-10-01",
+      "volume": 47501
     }
   ],
   "company_name": "Tolins Tyres Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.77x"
+    "volume_multiplier": "1.29x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.2,
-    "change_pct": -1.36,
-    "close": 86.91,
-    "previous_close": 88.11,
+    "as_of": "2026-10-01",
+    "change": -1.27,
+    "change_pct": -1.48,
+    "close": 84.59,
+    "previous_close": 85.86,
     "type": "EOD_CLOSE",
-    "volume": 28721
+    "volume": 47501
   },
   "range": {
-    "distance_from_high_pct": -56.76,
-    "distance_from_low_pct": 4.66,
+    "distance_from_high_pct": -57.92,
+    "distance_from_low_pct": 1.87,
     "high_52w": 201.0,
     "history_basis": "52_WEEK",
     "low_52w": 83.04,
-    "range_position_pct": 3.28
+    "range_position_pct": 1.31
   },
   "risk_model": {
-    "invalidation_floor": 83.87,
-    "risk_per_share": 4.78,
-    "technical_pivot": 88.65
+    "invalidation_floor": 81.63,
+    "risk_per_share": 4.65,
+    "technical_pivot": 86.28
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 29.85,
-      "high": 29.96,
-      "low": 29.5,
-      "open": 29.59,
-      "time": "2025-09-19",
-      "volume": 8282367
-    },
-    {
-      "close": 29.55,
-      "high": 29.96,
-      "low": 29.48,
-      "open": 29.8,
-      "time": "2025-09-22",
-      "volume": 6071923
-    },
-    {
-      "close": 29.96,
-      "high": 30.3,
-      "low": 29.33,
-      "open": 29.54,
-      "time": "2025-09-23",
-      "volume": 14567291
-    },
-    {
       "close": 29.88,
       "high": 30.25,
       "low": 29.81,
@@ -2017,13 +1993,37 @@
       "open": 49.9,
       "time": "2026-09-28",
       "volume": 15576178
+    },
+    {
+      "close": 48.71,
+      "high": 49.41,
+      "low": 47.85,
+      "open": 48.54,
+      "time": "2026-09-29",
+      "volume": 10559473
+    },
+    {
+      "close": 48.24,
+      "high": 49.67,
+      "low": 48.0,
+      "open": 48.9,
+      "time": "2026-09-30",
+      "volume": 15754423
+    },
+    {
+      "close": 47.44,
+      "high": 48.25,
+      "low": 46.8,
+      "open": 47.89,
+      "time": "2026-10-01",
+      "volume": 12229088
     }
   ],
   "company_name": "SOUTH INDIAN BANK LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 83,
+    "momentum_score": 80,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.15x"
+    "volume_multiplier": "0.88x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.31,
-    "change_pct": -2.62,
-    "close": 48.64,
-    "previous_close": 49.95,
+    "as_of": "2026-10-01",
+    "change": -0.8,
+    "change_pct": -1.66,
+    "close": 47.44,
+    "previous_close": 48.24,
     "type": "EOD_CLOSE",
-    "volume": 15576178
+    "volume": 12229088
   },
   "range": {
-    "distance_from_high_pct": -4.03,
-    "distance_from_low_pct": 70.67,
+    "distance_from_high_pct": -6.39,
+    "distance_from_low_pct": 66.46,
     "high_52w": 50.68,
     "history_basis": "52_WEEK",
     "low_52w": 28.5,
-    "range_position_pct": 90.8
+    "range_position_pct": 85.39
   },
   "risk_model": {
-    "invalidation_floor": 46.94,
-    "risk_per_share": 2.67,
-    "technical_pivot": 49.61
+    "invalidation_floor": 45.78,
+    "risk_per_share": 2.61,
+    "technical_pivot": 48.39
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 989.15,
-      "high": 998.0,
-      "low": 959.15,
-      "open": 963.0,
-      "time": "2025-09-19",
-      "volume": 40577
-    },
-    {
-      "close": 956.55,
-      "high": 991.1,
-      "low": 952.25,
-      "open": 991.0,
-      "time": "2025-09-22",
-      "volume": 22865
-    },
-    {
-      "close": 959.85,
-      "high": 970.8,
-      "low": 945.0,
-      "open": 951.15,
-      "time": "2025-09-23",
-      "volume": 33983
-    },
-    {
       "close": 990.8,
       "high": 1006.0,
       "low": 949.5,
@@ -2017,13 +1993,37 @@
       "open": 399.9,
       "time": "2026-09-28",
       "volume": 25149
+    },
+    {
+      "close": 391.2,
+      "high": 400.0,
+      "low": 389.1,
+      "open": 398.35,
+      "time": "2026-09-29",
+      "volume": 24191
+    },
+    {
+      "close": 391.95,
+      "high": 398.9,
+      "low": 390.0,
+      "open": 394.0,
+      "time": "2026-09-30",
+      "volume": 12498
+    },
+    {
+      "close": 386.0,
+      "high": 398.9,
+      "low": 377.6,
+      "open": 395.0,
+      "time": "2026-10-01",
+      "volume": 28169
     }
   ],
   "company_name": "AGARWAL INDUSTRIAL CORPORATION",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "0.75x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.75,
-    "change_pct": -0.19,
-    "close": 397.15,
-    "previous_close": 397.9,
+    "as_of": "2026-10-01",
+    "change": -5.95,
+    "change_pct": -1.52,
+    "close": 386.0,
+    "previous_close": 391.95,
     "type": "EOD_CLOSE",
-    "volume": 25149
+    "volume": 28169
   },
   "range": {
-    "distance_from_high_pct": -60.52,
-    "distance_from_low_pct": 10.32,
+    "distance_from_high_pct": -61.63,
+    "distance_from_low_pct": 7.22,
     "high_52w": 1006.0,
     "history_basis": "52_WEEK",
     "low_52w": 360.0,
-    "range_position_pct": 5.75
+    "range_position_pct": 4.02
   },
   "risk_model": {
-    "invalidation_floor": 383.25,
-    "risk_per_share": 21.84,
-    "technical_pivot": 405.09
+    "invalidation_floor": 372.49,
+    "risk_per_share": 21.23,
+    "technical_pivot": 393.72
   },
   "schema_version": "1.0",
   "sector": null,

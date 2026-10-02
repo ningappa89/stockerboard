@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 53.42,
-      "high": 53.42,
-      "low": 53.42,
-      "open": 53.42,
-      "time": "2025-09-19",
-      "volume": 23274
-    },
-    {
-      "close": 56.09,
-      "high": 56.09,
-      "low": 56.09,
-      "open": 56.09,
-      "time": "2025-09-22",
-      "volume": 35376
-    },
-    {
-      "close": 53.28,
-      "high": 54.4,
-      "low": 53.28,
-      "open": 54.4,
-      "time": "2025-09-23",
-      "volume": 62793
-    },
-    {
       "close": 50.61,
       "high": 50.61,
       "low": 50.61,
@@ -2017,13 +1993,37 @@
       "open": 20.63,
       "time": "2026-09-28",
       "volume": 14090
+    },
+    {
+      "close": 21.41,
+      "high": 21.9,
+      "low": 20.5,
+      "open": 20.8,
+      "time": "2026-09-29",
+      "volume": 29726
+    },
+    {
+      "close": 21.35,
+      "high": 22.04,
+      "low": 21.11,
+      "open": 21.11,
+      "time": "2026-09-30",
+      "volume": 8003
+    },
+    {
+      "close": 21.11,
+      "high": 21.6,
+      "low": 20.53,
+      "open": 21.6,
+      "time": "2026-10-01",
+      "volume": 11756
     }
   ],
   "company_name": "Odigma Consultancy Solutions L",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.68x"
+    "volume_multiplier": "0.58x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.13,
-    "change_pct": -0.62,
-    "close": 20.87,
-    "previous_close": 21.0,
+    "as_of": "2026-10-01",
+    "change": -0.24,
+    "change_pct": -1.12,
+    "close": 21.11,
+    "previous_close": 21.35,
     "type": "EOD_CLOSE",
-    "volume": 14090
+    "volume": 11756
   },
   "range": {
-    "distance_from_high_pct": -62.79,
-    "distance_from_low_pct": 4.35,
-    "high_52w": 56.09,
+    "distance_from_high_pct": -58.29,
+    "distance_from_low_pct": 5.55,
+    "high_52w": 50.61,
     "history_basis": "52_WEEK",
     "low_52w": 20.0,
-    "range_position_pct": 2.41
+    "range_position_pct": 3.63
   },
   "risk_model": {
-    "invalidation_floor": 20.14,
-    "risk_per_share": 1.15,
-    "technical_pivot": 21.29
+    "invalidation_floor": 20.37,
+    "risk_per_share": 1.16,
+    "technical_pivot": 21.53
   },
   "schema_version": "1.0",
   "sector": null,

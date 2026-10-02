@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 47.86,
-      "high": 48.3,
-      "low": 47.27,
-      "open": 48.3,
-      "time": "2025-09-19",
-      "volume": 13804
-    },
-    {
-      "close": 48.15,
-      "high": 48.51,
-      "low": 47.58,
-      "open": 48.0,
-      "time": "2025-09-22",
-      "volume": 26292
-    },
-    {
-      "close": 47.84,
-      "high": 48.9,
-      "low": 47.55,
-      "open": 48.9,
-      "time": "2025-09-23",
-      "volume": 20387
-    },
-    {
       "close": 46.92,
       "high": 48.3,
       "low": 46.45,
@@ -2017,13 +1993,37 @@
       "open": 59.36,
       "time": "2026-09-28",
       "volume": 27578
+    },
+    {
+      "close": 57.64,
+      "high": 58.79,
+      "low": 57.06,
+      "open": 58.02,
+      "time": "2026-09-29",
+      "volume": 44594
+    },
+    {
+      "close": 56.74,
+      "high": 59.63,
+      "low": 56.58,
+      "open": 58.0,
+      "time": "2026-09-30",
+      "volume": 56806
+    },
+    {
+      "close": 54.64,
+      "high": 58.15,
+      "low": 53.45,
+      "open": 58.15,
+      "time": "2026-10-01",
+      "volume": 92121
     }
   ],
   "company_name": "M TEK COPPER LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.37x"
+    "volume_multiplier": "1.19x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.76,
-    "change_pct": -1.28,
-    "close": 58.6,
-    "previous_close": 59.36,
+    "as_of": "2026-10-01",
+    "change": -2.1,
+    "change_pct": -3.7,
+    "close": 54.64,
+    "previous_close": 56.74,
     "type": "EOD_CLOSE",
-    "volume": 27578
+    "volume": 92121
   },
   "range": {
-    "distance_from_high_pct": -37.12,
-    "distance_from_low_pct": 39.52,
+    "distance_from_high_pct": -41.37,
+    "distance_from_low_pct": 30.1,
     "high_52w": 93.2,
     "history_basis": "52_WEEK",
     "low_52w": 42.0,
-    "range_position_pct": 32.42
+    "range_position_pct": 24.69
   },
   "risk_model": {
-    "invalidation_floor": 56.55,
-    "risk_per_share": 3.22,
-    "technical_pivot": 59.77
+    "invalidation_floor": 52.73,
+    "risk_per_share": 3.0,
+    "technical_pivot": 55.73
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 8286.5,
-      "high": 8334.0,
-      "low": 8243.5,
-      "open": 8250.0,
-      "time": "2025-09-19",
-      "volume": 186818
-    },
-    {
-      "close": 8310.5,
-      "high": 8359.5,
-      "low": 8167.0,
-      "open": 8320.0,
-      "time": "2025-09-22",
-      "volume": 202703
-    },
-    {
-      "close": 8300.5,
-      "high": 8345.0,
-      "low": 8222.5,
-      "open": 8265.0,
-      "time": "2025-09-23",
-      "volume": 243736
-    },
-    {
       "close": 8410.0,
       "high": 8420.0,
       "low": 8230.0,
@@ -2017,13 +1993,37 @@
       "open": 7001.5,
       "time": "2026-09-28",
       "volume": 124117
+    },
+    {
+      "close": 6606.5,
+      "high": 7001.0,
+      "low": 6606.5,
+      "open": 6915.5,
+      "time": "2026-09-29",
+      "volume": 286219
+    },
+    {
+      "close": 6672.5,
+      "high": 6786.0,
+      "low": 6617.0,
+      "open": 6639.0,
+      "time": "2026-09-30",
+      "volume": 224400
+    },
+    {
+      "close": 6500.0,
+      "high": 6737.5,
+      "low": 6431.0,
+      "open": 6658.0,
+      "time": "2026-10-01",
+      "volume": 133557
     }
   ],
   "company_name": "Amber Enterprises India Limite",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Consumer Durables",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 56,
+    "momentum_score": 48,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.12x"
+    "volume_multiplier": "1.08x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 30.0,
-    "change_pct": 0.43,
-    "close": 6990.0,
-    "previous_close": 6960.0,
+    "as_of": "2026-10-01",
+    "change": -172.5,
+    "change_pct": -2.59,
+    "close": 6500.0,
+    "previous_close": 6672.5,
     "type": "EOD_CLOSE",
-    "volume": 124117
+    "volume": 133557
   },
   "range": {
-    "distance_from_high_pct": -22.11,
-    "distance_from_low_pct": 29.43,
+    "distance_from_high_pct": -27.57,
+    "distance_from_low_pct": 20.36,
     "high_52w": 8974.0,
     "history_basis": "52_WEEK",
     "low_52w": 5400.5,
-    "range_position_pct": 44.48
+    "range_position_pct": 30.77
   },
   "risk_model": {
-    "invalidation_floor": 6745.35,
-    "risk_per_share": 384.45,
-    "technical_pivot": 7129.8
+    "invalidation_floor": 6272.5,
+    "risk_per_share": 357.5,
+    "technical_pivot": 6630.0
   },
   "schema_version": "1.0",
   "sector": "Consumer Durables",

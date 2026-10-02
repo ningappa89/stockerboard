@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 18.56,
-      "high": 18.56,
-      "low": 17.91,
-      "open": 18.0,
-      "time": "2025-09-19",
-      "volume": 104049
-    },
-    {
-      "close": 18.2,
-      "high": 18.87,
-      "low": 18.18,
-      "open": 18.87,
-      "time": "2025-09-22",
-      "volume": 97258
-    },
-    {
-      "close": 18.0,
-      "high": 18.1,
-      "low": 18.0,
-      "open": 18.1,
-      "time": "2025-09-23",
-      "volume": 54173
-    },
-    {
       "close": 18.25,
       "high": 18.25,
       "low": 17.64,
@@ -2017,13 +1993,37 @@
       "open": 14.4,
       "time": "2026-09-28",
       "volume": 105726
+    },
+    {
+      "close": 14.51,
+      "high": 14.66,
+      "low": 14.29,
+      "open": 14.29,
+      "time": "2026-09-29",
+      "volume": 150724
+    },
+    {
+      "close": 14.93,
+      "high": 15.15,
+      "low": 14.36,
+      "open": 14.5,
+      "time": "2026-09-30",
+      "volume": 277855
+    },
+    {
+      "close": 14.38,
+      "high": 15.15,
+      "low": 14.19,
+      "open": 14.53,
+      "time": "2026-10-01",
+      "volume": 378693
     }
   ],
   "company_name": "A2Z INFRA ENGINEERING LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 53,
+    "momentum_score": 51,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "1.98x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.06,
-    "change_pct": -0.41,
-    "close": 14.66,
-    "previous_close": 14.72,
+    "as_of": "2026-10-01",
+    "change": -0.55,
+    "change_pct": -3.68,
+    "close": 14.38,
+    "previous_close": 14.93,
     "type": "EOD_CLOSE",
-    "volume": 105726
+    "volume": 378693
   },
   "range": {
-    "distance_from_high_pct": -24.39,
-    "distance_from_low_pct": 22.17,
+    "distance_from_high_pct": -25.84,
+    "distance_from_low_pct": 19.83,
     "high_52w": 19.39,
     "history_basis": "52_WEEK",
     "low_52w": 12.0,
-    "range_position_pct": 35.99
+    "range_position_pct": 32.21
   },
   "risk_model": {
-    "invalidation_floor": 14.15,
-    "risk_per_share": 0.8,
-    "technical_pivot": 14.95
+    "invalidation_floor": 13.88,
+    "risk_per_share": 0.79,
+    "technical_pivot": 14.67
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 801.35,
-      "high": 805.0,
-      "low": 786.0,
-      "open": 799.55,
-      "time": "2025-09-19",
-      "volume": 142639
-    },
-    {
-      "close": 774.2,
-      "high": 823.85,
-      "low": 770.05,
-      "open": 804.0,
-      "time": "2025-09-22",
-      "volume": 156234
-    },
-    {
-      "close": 761.55,
-      "high": 775.4,
-      "low": 754.4,
-      "open": 770.0,
-      "time": "2025-09-23",
-      "volume": 48103
-    },
-    {
       "close": 751.8,
       "high": 784.4,
       "low": 741.1,
@@ -2017,13 +1993,37 @@
       "open": 1497.6,
       "time": "2026-09-28",
       "volume": 85584
+    },
+    {
+      "close": 1468.4,
+      "high": 1479.9,
+      "low": 1404.4,
+      "open": 1427.1,
+      "time": "2026-09-29",
+      "volume": 81266
+    },
+    {
+      "close": 1443.0,
+      "high": 1484.0,
+      "low": 1433.3,
+      "open": 1470.0,
+      "time": "2026-09-30",
+      "volume": 41248
+    },
+    {
+      "close": 1451.3,
+      "high": 1462.0,
+      "low": 1400.0,
+      "open": 1447.8,
+      "time": "2026-10-01",
+      "volume": 81588
     }
   ],
   "company_name": "UNIVERSAL CABLES LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 60,
+    "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.66x"
+    "volume_multiplier": "0.67x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -66.9,
-    "change_pct": -4.48,
-    "close": 1427.1,
-    "previous_close": 1494.0,
+    "as_of": "2026-10-01",
+    "change": 8.3,
+    "change_pct": 0.58,
+    "close": 1451.3,
+    "previous_close": 1443.0,
     "type": "EOD_CLOSE",
-    "volume": 85584
+    "volume": 81588
   },
   "range": {
-    "distance_from_high_pct": -19.6,
-    "distance_from_low_pct": 147.76,
+    "distance_from_high_pct": -18.23,
+    "distance_from_low_pct": 151.96,
     "high_52w": 1774.9,
     "history_basis": "52_WEEK",
     "low_52w": 576.0,
-    "range_position_pct": 70.99
+    "range_position_pct": 73.01
   },
   "risk_model": {
-    "invalidation_floor": 1377.15,
-    "risk_per_share": 78.49,
-    "technical_pivot": 1455.64
+    "invalidation_floor": 1400.5,
+    "risk_per_share": 79.83,
+    "technical_pivot": 1480.33
   },
   "schema_version": "1.0",
   "sector": null,

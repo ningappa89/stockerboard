@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 204.35,
-      "high": 207.28,
-      "low": 203.04,
-      "open": 207.0,
-      "time": "2025-09-19",
-      "volume": 737093
-    },
-    {
-      "close": 196.72,
-      "high": 204.39,
-      "low": 196.0,
-      "open": 203.72,
-      "time": "2025-09-22",
-      "volume": 1244189
-    },
-    {
-      "close": 200.16,
-      "high": 201.0,
-      "low": 197.4,
-      "open": 197.4,
-      "time": "2025-09-23",
-      "volume": 590357
-    },
-    {
       "close": 193.28,
       "high": 200.1,
       "low": 189.21,
@@ -2017,13 +1993,37 @@
       "open": 180.23,
       "time": "2026-09-28",
       "volume": 360896
+    },
+    {
+      "close": 176.56,
+      "high": 178.8,
+      "low": 174.07,
+      "open": 178.8,
+      "time": "2026-09-29",
+      "volume": 301597
+    },
+    {
+      "close": 174.67,
+      "high": 179.2,
+      "low": 173.8,
+      "open": 178.4,
+      "time": "2026-09-30",
+      "volume": 213498
+    },
+    {
+      "close": 172.18,
+      "high": 175.99,
+      "low": 168.62,
+      "open": 172.9,
+      "time": "2026-10-01",
+      "volume": 334071
     }
   ],
   "company_name": "GARUDA CONSTRUCT N ENG L",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 47,
+    "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.32x"
+    "volume_multiplier": "0.31x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 1.94,
-    "change_pct": 1.1,
-    "close": 178.81,
-    "previous_close": 176.87,
+    "as_of": "2026-10-01",
+    "change": -2.49,
+    "change_pct": -1.43,
+    "close": 172.18,
+    "previous_close": 174.67,
     "type": "EOD_CLOSE",
-    "volume": 360896
+    "volume": 334071
   },
   "range": {
-    "distance_from_high_pct": -28.28,
-    "distance_from_low_pct": 37.55,
+    "distance_from_high_pct": -30.93,
+    "distance_from_low_pct": 32.45,
     "high_52w": 249.3,
     "history_basis": "52_WEEK",
     "low_52w": 130.0,
-    "range_position_pct": 40.91
+    "range_position_pct": 35.36
   },
   "risk_model": {
-    "invalidation_floor": 172.55,
-    "risk_per_share": 9.84,
-    "technical_pivot": 182.39
+    "invalidation_floor": 166.15,
+    "risk_per_share": 9.47,
+    "technical_pivot": 175.62
   },
   "schema_version": "1.0",
   "sector": null,

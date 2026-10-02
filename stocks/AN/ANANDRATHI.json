@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1521.0,
-      "high": 1540.5,
-      "low": 1507.8,
-      "open": 1532.5,
-      "time": "2025-09-19",
-      "volume": 205174
-    },
-    {
-      "close": 1516.5,
-      "high": 1545.0,
-      "low": 1510.05,
-      "open": 1521.0,
-      "time": "2025-09-22",
-      "volume": 138300
-    },
-    {
-      "close": 1486.5,
-      "high": 1523.0,
-      "low": 1475.75,
-      "open": 1523.0,
-      "time": "2025-09-23",
-      "volume": 156416
-    },
-    {
       "close": 1441.2,
       "high": 1488.75,
       "low": 1425.05,
@@ -2017,13 +1993,37 @@
       "open": 2145.1,
       "time": "2026-09-28",
       "volume": 394039
+    },
+    {
+      "close": 2100.6,
+      "high": 2168.9,
+      "low": 2077.3,
+      "open": 2150.0,
+      "time": "2026-09-29",
+      "volume": 1341769
+    },
+    {
+      "close": 2120.0,
+      "high": 2127.6,
+      "low": 2072.0,
+      "open": 2111.1,
+      "time": "2026-09-30",
+      "volume": 552945
+    },
+    {
+      "close": 2117.5,
+      "high": 2130.7,
+      "low": 2086.0,
+      "open": 2100.0,
+      "time": "2026-10-01",
+      "volume": 284498
     }
   ],
   "company_name": "ANAND RATHI WEALTH LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 81,
+    "momentum_score": 80,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.36x"
+    "volume_multiplier": "0.8x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 19.4,
-    "change_pct": 0.91,
-    "close": 2146.2,
-    "previous_close": 2126.8,
+    "as_of": "2026-10-01",
+    "change": -2.5,
+    "change_pct": -0.12,
+    "close": 2117.5,
+    "previous_close": 2120.0,
     "type": "EOD_CLOSE",
-    "volume": 394039
+    "volume": 284498
   },
   "range": {
-    "distance_from_high_pct": -5.39,
-    "distance_from_low_pct": 58.53,
+    "distance_from_high_pct": -6.65,
+    "distance_from_low_pct": 56.41,
     "high_52w": 2268.4,
     "history_basis": "52_WEEK",
     "low_52w": 1353.85,
-    "range_position_pct": 86.64
+    "range_position_pct": 83.5
   },
   "risk_model": {
-    "invalidation_floor": 2071.08,
-    "risk_per_share": 118.04,
-    "technical_pivot": 2189.12
+    "invalidation_floor": 2043.39,
+    "risk_per_share": 116.46,
+    "technical_pivot": 2159.85
   },
   "schema_version": "1.0",
   "sector": null,

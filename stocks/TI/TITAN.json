@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3467.2,
-      "high": 3511.3,
-      "low": 3460.0,
-      "open": 3504.0,
-      "time": "2025-09-19",
-      "volume": 2337255
-    },
-    {
-      "close": 3457.5,
-      "high": 3477.0,
-      "low": 3440.0,
-      "open": 3458.2,
-      "time": "2025-09-22",
-      "volume": 817833
-    },
-    {
-      "close": 3439.2,
-      "high": 3465.3,
-      "low": 3405.0,
-      "open": 3465.2,
-      "time": "2025-09-23",
-      "volume": 1144975
-    },
-    {
       "close": 3418.3,
       "high": 3437.4,
       "low": 3411.0,
@@ -2017,13 +1993,37 @@
       "open": 4881.0,
       "time": "2026-09-28",
       "volume": 632938
+    },
+    {
+      "close": 4675.0,
+      "high": 4818.5,
+      "low": 4675.0,
+      "open": 4808.0,
+      "time": "2026-09-29",
+      "volume": 1188414
+    },
+    {
+      "close": 4587.0,
+      "high": 4698.0,
+      "low": 4587.0,
+      "open": 4683.0,
+      "time": "2026-09-30",
+      "volume": 927060
+    },
+    {
+      "close": 4515.7,
+      "high": 4621.8,
+      "low": 4491.0,
+      "open": 4574.9,
+      "time": "2026-10-01",
+      "volume": 694098
     }
   ],
   "company_name": "TITAN COMPANY LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Consumer Durables",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 79,
+    "momentum_score": 70,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.09x"
+    "volume_multiplier": "1.11x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -64.5,
-    "change_pct": -1.32,
-    "close": 4819.5,
-    "previous_close": 4884.0,
+    "as_of": "2026-10-01",
+    "change": -71.3,
+    "change_pct": -1.55,
+    "close": 4515.7,
+    "previous_close": 4587.0,
     "type": "EOD_CLOSE",
-    "volume": 632938
+    "volume": 694098
   },
   "range": {
-    "distance_from_high_pct": -7.08,
-    "distance_from_low_pct": 45.91,
+    "distance_from_high_pct": -12.94,
+    "distance_from_low_pct": 36.71,
     "high_52w": 5186.7,
     "history_basis": "52_WEEK",
     "low_52w": 3303.1,
-    "range_position_pct": 80.51
+    "range_position_pct": 64.38
   },
   "risk_model": {
-    "invalidation_floor": 4650.82,
-    "risk_per_share": 265.07,
-    "technical_pivot": 4915.89
+    "invalidation_floor": 4357.65,
+    "risk_per_share": 248.36,
+    "technical_pivot": 4606.01
   },
   "schema_version": "1.0",
   "sector": "Consumer Durables",

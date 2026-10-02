@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 160.46,
-      "high": 169.0,
-      "low": 159.6,
-      "open": 163.94,
-      "time": "2025-09-19",
-      "volume": 138216
-    },
-    {
-      "close": 158.02,
-      "high": 162.8,
-      "low": 157.0,
-      "open": 157.55,
-      "time": "2025-09-22",
-      "volume": 55300
-    },
-    {
-      "close": 156.24,
-      "high": 158.81,
-      "low": 155.0,
-      "open": 158.01,
-      "time": "2025-09-23",
-      "volume": 102307
-    },
-    {
       "close": 164.05,
       "high": 164.05,
       "low": 155.0,
@@ -2017,13 +1993,37 @@
       "open": 100.47,
       "time": "2026-09-28",
       "volume": 102154
+    },
+    {
+      "close": 96.92,
+      "high": 98.99,
+      "low": 94.9,
+      "open": 95.9,
+      "time": "2026-09-29",
+      "volume": 41941
+    },
+    {
+      "close": 96.34,
+      "high": 98.71,
+      "low": 95.5,
+      "open": 96.7,
+      "time": "2026-09-30",
+      "volume": 34714
+    },
+    {
+      "close": 93.87,
+      "high": 97.3,
+      "low": 92.26,
+      "open": 96.0,
+      "time": "2026-10-01",
+      "volume": 40347
     }
   ],
   "company_name": "Power & Instrumentation (Gujar",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.53x"
+    "volume_multiplier": "0.59x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.47,
-    "change_pct": -4.45,
-    "close": 96.0,
-    "previous_close": 100.47,
+    "as_of": "2026-10-01",
+    "change": -2.47,
+    "change_pct": -2.56,
+    "close": 93.87,
+    "previous_close": 96.34,
     "type": "EOD_CLOSE",
-    "volume": 102154
+    "volume": 40347
   },
   "range": {
-    "distance_from_high_pct": -49.39,
-    "distance_from_low_pct": 9.03,
+    "distance_from_high_pct": -50.52,
+    "distance_from_low_pct": 6.61,
     "high_52w": 189.7,
     "history_basis": "52_WEEK",
     "low_52w": 88.05,
-    "range_position_pct": 7.82
+    "range_position_pct": 5.73
   },
   "risk_model": {
-    "invalidation_floor": 92.64,
-    "risk_per_share": 5.28,
-    "technical_pivot": 97.92
+    "invalidation_floor": 90.58,
+    "risk_per_share": 5.17,
+    "technical_pivot": 95.75
   },
   "schema_version": "1.0",
   "sector": null,

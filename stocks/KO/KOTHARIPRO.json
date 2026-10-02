@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 90.56,
-      "high": 95.0,
-      "low": 90.0,
-      "open": 95.0,
-      "time": "2025-09-19",
-      "volume": 96004
-    },
-    {
-      "close": 90.45,
-      "high": 93.98,
-      "low": 90.05,
-      "open": 90.5,
-      "time": "2025-09-22",
-      "volume": 40978
-    },
-    {
-      "close": 89.74,
-      "high": 92.91,
-      "low": 88.4,
-      "open": 91.9,
-      "time": "2025-09-23",
-      "volume": 35823
-    },
-    {
       "close": 87.24,
       "high": 92.49,
       "low": 86.4,
@@ -2017,13 +1993,37 @@
       "open": 69.35,
       "time": "2026-09-28",
       "volume": 5845
+    },
+    {
+      "close": 65.09,
+      "high": 66.64,
+      "low": 64.6,
+      "open": 64.6,
+      "time": "2026-09-29",
+      "volume": 3197
+    },
+    {
+      "close": 65.35,
+      "high": 66.5,
+      "low": 65.0,
+      "open": 66.5,
+      "time": "2026-09-30",
+      "volume": 4794
+    },
+    {
+      "close": 63.77,
+      "high": 65.44,
+      "low": 63.25,
+      "open": 65.35,
+      "time": "2026-10-01",
+      "volume": 6914
     }
   ],
   "company_name": "KOTHARI PRODUCTS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.43x"
+    "volume_multiplier": "0.53x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.96,
-    "change_pct": -2.88,
-    "close": 66.01,
-    "previous_close": 67.97,
+    "as_of": "2026-10-01",
+    "change": -1.58,
+    "change_pct": -2.42,
+    "close": 63.77,
+    "previous_close": 65.35,
     "type": "EOD_CLOSE",
-    "volume": 5845
+    "volume": 6914
   },
   "range": {
-    "distance_from_high_pct": -34.27,
-    "distance_from_low_pct": 13.81,
+    "distance_from_high_pct": -36.5,
+    "distance_from_low_pct": 9.95,
     "high_52w": 100.42,
     "history_basis": "52_WEEK",
     "low_52w": 58.0,
-    "range_position_pct": 18.88
+    "range_position_pct": 13.6
   },
   "risk_model": {
-    "invalidation_floor": 63.7,
-    "risk_per_share": 3.63,
-    "technical_pivot": 67.33
+    "invalidation_floor": 61.54,
+    "risk_per_share": 3.51,
+    "technical_pivot": 65.05
   },
   "schema_version": "1.0",
   "sector": null,

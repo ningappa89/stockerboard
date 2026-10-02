@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 24.96,
-      "high": 25.8,
-      "low": 24.55,
-      "open": 25.8,
-      "time": "2025-09-19",
-      "volume": 250697
-    },
-    {
-      "close": 24.29,
-      "high": 24.88,
-      "low": 24.18,
-      "open": 24.88,
-      "time": "2025-09-22",
-      "volume": 74649
-    },
-    {
-      "close": 24.11,
-      "high": 24.58,
-      "low": 23.55,
-      "open": 24.47,
-      "time": "2025-09-23",
-      "volume": 83251
-    },
-    {
       "close": 24.43,
       "high": 24.6,
       "low": 23.8,
@@ -2017,13 +1993,37 @@
       "open": 24.77,
       "time": "2026-09-28",
       "volume": 47958
+    },
+    {
+      "close": 21.76,
+      "high": 23.0,
+      "low": 21.4,
+      "open": 23.0,
+      "time": "2026-09-29",
+      "volume": 64641
+    },
+    {
+      "close": 21.18,
+      "high": 22.88,
+      "low": 21.0,
+      "open": 22.88,
+      "time": "2026-09-30",
+      "volume": 46147
+    },
+    {
+      "close": 20.09,
+      "high": 21.47,
+      "low": 19.8,
+      "open": 21.2,
+      "time": "2026-10-01",
+      "volume": 78026
     }
   ],
   "company_name": "PRAJAY ENGINEERS SYNDICATE LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 41,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.36x"
+    "volume_multiplier": "0.87x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.84,
-    "change_pct": -3.54,
-    "close": 22.86,
-    "previous_close": 23.7,
+    "as_of": "2026-10-01",
+    "change": -1.09,
+    "change_pct": -5.15,
+    "close": 20.09,
+    "previous_close": 21.18,
     "type": "EOD_CLOSE",
-    "volume": 47958
+    "volume": 78026
   },
   "range": {
-    "distance_from_high_pct": -32.53,
-    "distance_from_low_pct": 34.47,
+    "distance_from_high_pct": -40.7,
+    "distance_from_low_pct": 18.18,
     "high_52w": 33.88,
     "history_basis": "52_WEEK",
     "low_52w": 17.0,
-    "range_position_pct": 34.72
+    "range_position_pct": 18.31
   },
   "risk_model": {
-    "invalidation_floor": 22.06,
-    "risk_per_share": 1.26,
-    "technical_pivot": 23.32
+    "invalidation_floor": 19.39,
+    "risk_per_share": 1.1,
+    "technical_pivot": 20.49
   },
   "schema_version": "1.0",
   "sector": null,

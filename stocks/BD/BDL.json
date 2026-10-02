@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1631.6,
-      "high": 1644.1,
-      "low": 1606.1,
-      "open": 1609.0,
-      "time": "2025-09-19",
-      "volume": 2081434
-    },
-    {
-      "close": 1627.7,
-      "high": 1654.0,
-      "low": 1613.1,
-      "open": 1630.0,
-      "time": "2025-09-22",
-      "volume": 1575867
-    },
-    {
-      "close": 1595.4,
-      "high": 1633.5,
-      "low": 1570.9,
-      "open": 1625.0,
-      "time": "2025-09-23",
-      "volume": 1691145
-    },
-    {
       "close": 1566.4,
       "high": 1605.1,
       "low": 1556.0,
@@ -2017,13 +1993,37 @@
       "open": 1140.0,
       "time": "2026-09-28",
       "volume": 1314080
+    },
+    {
+      "close": 1085.1,
+      "high": 1117.0,
+      "low": 1085.1,
+      "open": 1112.7,
+      "time": "2026-09-29",
+      "volume": 1081355
+    },
+    {
+      "close": 1110.1,
+      "high": 1127.6,
+      "low": 1091.0,
+      "open": 1091.0,
+      "time": "2026-09-30",
+      "volume": 1193043
+    },
+    {
+      "close": 1087.9,
+      "high": 1115.7,
+      "low": 1071.2,
+      "open": 1103.0,
+      "time": "2026-10-01",
+      "volume": 928850
     }
   ],
   "company_name": "BHARAT DYNAMICS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 41,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.23x"
+    "volume_multiplier": "0.85x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -25.0,
-    "change_pct": -2.19,
-    "close": 1115.0,
-    "previous_close": 1140.0,
+    "as_of": "2026-10-01",
+    "change": -22.2,
+    "change_pct": -2.0,
+    "close": 1087.9,
+    "previous_close": 1110.1,
     "type": "EOD_CLOSE",
-    "volume": 1314080
+    "volume": 928850
   },
   "range": {
-    "distance_from_high_pct": -32.59,
-    "distance_from_low_pct": 2.67,
-    "high_52w": 1654.0,
+    "distance_from_high_pct": -33.4,
+    "distance_from_low_pct": 1.56,
+    "high_52w": 1633.4,
     "history_basis": "52_WEEK",
-    "low_52w": 1086.0,
-    "range_position_pct": 5.11
+    "low_52w": 1071.2,
+    "range_position_pct": 2.97
   },
   "risk_model": {
-    "invalidation_floor": 1075.97,
-    "risk_per_share": 61.33,
-    "technical_pivot": 1137.3
+    "invalidation_floor": 1049.82,
+    "risk_per_share": 59.84,
+    "technical_pivot": 1109.66
   },
   "schema_version": "1.0",
   "sector": null,

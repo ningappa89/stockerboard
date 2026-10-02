@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 376.5,
-      "high": 380.3,
-      "low": 374.0,
-      "open": 375.6,
-      "time": "2025-09-19",
-      "volume": 107719
-    },
-    {
-      "close": 369.5,
-      "high": 378.5,
-      "low": 368.2,
-      "open": 377.7,
-      "time": "2025-09-22",
-      "volume": 108988
-    },
-    {
-      "close": 369.55,
-      "high": 376.8,
-      "low": 366.1,
-      "open": 368.0,
-      "time": "2025-09-23",
-      "volume": 109970
-    },
-    {
       "close": 366.7,
       "high": 374.7,
       "low": 366.0,
@@ -2017,13 +1993,37 @@
       "open": 345.0,
       "time": "2026-09-28",
       "volume": 82568
+    },
+    {
+      "close": 343.65,
+      "high": 345.0,
+      "low": 339.05,
+      "open": 344.0,
+      "time": "2026-09-29",
+      "volume": 53494
+    },
+    {
+      "close": 341.7,
+      "high": 346.25,
+      "low": 340.0,
+      "open": 345.0,
+      "time": "2026-09-30",
+      "volume": 51214
+    },
+    {
+      "close": 337.75,
+      "high": 342.0,
+      "low": 332.4,
+      "open": 341.05,
+      "time": "2026-10-01",
+      "volume": 69261
     }
   ],
   "company_name": "REPCO HOME FINANCE LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 54,
+    "momentum_score": 51,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.05x"
+    "volume_multiplier": "0.89x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.95,
-    "change_pct": -0.27,
-    "close": 346.75,
-    "previous_close": 347.7,
+    "as_of": "2026-10-01",
+    "change": -3.95,
+    "change_pct": -1.16,
+    "close": 337.75,
+    "previous_close": 341.7,
     "type": "EOD_CLOSE",
-    "volume": 82568
+    "volume": 69261
   },
   "range": {
-    "distance_from_high_pct": -23.94,
-    "distance_from_low_pct": 3.94,
+    "distance_from_high_pct": -25.92,
+    "distance_from_low_pct": 1.61,
     "high_52w": 455.9,
     "history_basis": "52_WEEK",
-    "low_52w": 333.6,
-    "range_position_pct": 10.75
+    "low_52w": 332.4,
+    "range_position_pct": 4.33
   },
   "risk_model": {
-    "invalidation_floor": 334.61,
-    "risk_per_share": 19.08,
-    "technical_pivot": 353.69
+    "invalidation_floor": 325.93,
+    "risk_per_share": 18.57,
+    "technical_pivot": 344.5
   },
   "schema_version": "1.0",
   "sector": null,

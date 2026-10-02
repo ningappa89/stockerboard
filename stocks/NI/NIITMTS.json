@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 326.65,
-      "high": 339.4,
-      "low": 325.05,
-      "open": 339.4,
-      "time": "2025-09-19",
-      "volume": 211356
-    },
-    {
-      "close": 320.95,
-      "high": 325.65,
-      "low": 316.95,
-      "open": 317.1,
-      "time": "2025-09-22",
-      "volume": 436037
-    },
-    {
-      "close": 329.05,
-      "high": 332.2,
-      "low": 320.0,
-      "open": 324.2,
-      "time": "2025-09-23",
-      "volume": 137076
-    },
-    {
       "close": 327.55,
       "high": 331.95,
       "low": 325.0,
@@ -2017,13 +1993,37 @@
       "open": 212.1,
       "time": "2026-09-28",
       "volume": 107682
+    },
+    {
+      "close": 204.96,
+      "high": 209.98,
+      "low": 202.72,
+      "open": 206.07,
+      "time": "2026-09-29",
+      "volume": 58070
+    },
+    {
+      "close": 204.51,
+      "high": 208.8,
+      "low": 203.02,
+      "open": 206.67,
+      "time": "2026-09-30",
+      "volume": 94153
+    },
+    {
+      "close": 191.08,
+      "high": 207.69,
+      "low": 185.0,
+      "open": 204.51,
+      "time": "2026-10-01",
+      "volume": 870142
     }
   ],
   "company_name": "NIIT LEARNING SYSTEMS LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.52x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "3.65x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -6.69,
-    "change_pct": -3.15,
-    "close": 205.39,
-    "previous_close": 212.08,
+    "as_of": "2026-10-01",
+    "change": -13.43,
+    "change_pct": -6.57,
+    "close": 191.08,
+    "previous_close": 204.51,
     "type": "EOD_CLOSE",
-    "volume": 107682
+    "volume": 870142
   },
   "range": {
-    "distance_from_high_pct": -53.73,
-    "distance_from_low_pct": 1.03,
+    "distance_from_high_pct": -56.95,
+    "distance_from_low_pct": 3.29,
     "high_52w": 443.9,
     "history_basis": "52_WEEK",
-    "low_52w": 203.3,
-    "range_position_pct": 0.87
+    "low_52w": 185.0,
+    "range_position_pct": 2.35
   },
   "risk_model": {
-    "invalidation_floor": 198.2,
-    "risk_per_share": 11.3,
-    "technical_pivot": 209.5
+    "invalidation_floor": 184.39,
+    "risk_per_share": 10.51,
+    "technical_pivot": 194.9
   },
   "schema_version": "1.0",
   "sector": null,

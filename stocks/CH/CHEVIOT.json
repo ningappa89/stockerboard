@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1207.2,
-      "high": 1213.3,
-      "low": 1194.0,
-      "open": 1194.0,
-      "time": "2025-09-19",
-      "volume": 965
-    },
-    {
-      "close": 1192.0,
-      "high": 1207.2,
-      "low": 1185.9,
-      "open": 1207.2,
-      "time": "2025-09-22",
-      "volume": 1824
-    },
-    {
-      "close": 1179.6,
-      "high": 1196.1,
-      "low": 1172.2,
-      "open": 1192.0,
-      "time": "2025-09-23",
-      "volume": 1405
-    },
-    {
       "close": 1172.5,
       "high": 1186.0,
       "low": 1170.1,
@@ -2017,13 +1993,37 @@
       "open": 1194.0,
       "time": "2026-09-28",
       "volume": 1149
+    },
+    {
+      "close": 1176.0,
+      "high": 1193.9,
+      "low": 1171.0,
+      "open": 1175.5,
+      "time": "2026-09-29",
+      "volume": 620
+    },
+    {
+      "close": 1183.2,
+      "high": 1199.9,
+      "low": 1175.4,
+      "open": 1194.9,
+      "time": "2026-09-30",
+      "volume": 642
+    },
+    {
+      "close": 1167.0,
+      "high": 1197.5,
+      "low": 1166.1,
+      "open": 1180.6,
+      "time": "2026-10-01",
+      "volume": 1374
     }
   ],
   "company_name": "CHEVIOT CO.LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
+    "is_stage2": false,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.61x"
+    "volume_multiplier": "0.72x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 5.1,
-    "change_pct": 0.43,
-    "close": 1187.9,
-    "previous_close": 1182.8,
+    "as_of": "2026-10-01",
+    "change": -16.2,
+    "change_pct": -1.37,
+    "close": 1167.0,
+    "previous_close": 1183.2,
     "type": "EOD_CLOSE",
-    "volume": 1149
+    "volume": 1374
   },
   "range": {
-    "distance_from_high_pct": -13.32,
-    "distance_from_low_pct": 32.28,
+    "distance_from_high_pct": -14.85,
+    "distance_from_low_pct": 29.96,
     "high_52w": 1370.5,
     "history_basis": "52_WEEK",
     "low_52w": 898.0,
-    "range_position_pct": 61.35
+    "range_position_pct": 56.93
   },
   "risk_model": {
-    "invalidation_floor": 1146.32,
-    "risk_per_share": 65.34,
-    "technical_pivot": 1211.66
+    "invalidation_floor": 1126.15,
+    "risk_per_share": 64.19,
+    "technical_pivot": 1190.34
   },
   "schema_version": "1.0",
   "sector": null,

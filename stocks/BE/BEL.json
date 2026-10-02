@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 408.9,
-      "high": 413.45,
-      "low": 408.25,
-      "open": 409.0,
-      "time": "2025-09-19",
-      "volume": 16150731
-    },
-    {
-      "close": 406.4,
-      "high": 411.4,
-      "low": 405.35,
-      "open": 409.8,
-      "time": "2025-09-22",
-      "volume": 10884230
-    },
-    {
-      "close": 404.45,
-      "high": 407.7,
-      "low": 402.3,
-      "open": 406.4,
-      "time": "2025-09-23",
-      "volume": 11906108
-    },
-    {
       "close": 395.45,
       "high": 404.95,
       "low": 395.0,
@@ -2017,13 +1993,37 @@
       "open": 393.45,
       "time": "2026-09-28",
       "volume": 11661372
+    },
+    {
+      "close": 387.75,
+      "high": 388.0,
+      "low": 382.2,
+      "open": 385.5,
+      "time": "2026-09-29",
+      "volume": 13517154
+    },
+    {
+      "close": 388.3,
+      "high": 391.0,
+      "low": 385.0,
+      "open": 386.4,
+      "time": "2026-09-30",
+      "volume": 9671143
+    },
+    {
+      "close": 383.1,
+      "high": 386.15,
+      "low": 378.65,
+      "open": 385.2,
+      "time": "2026-10-01",
+      "volume": 10250149
     }
   ],
   "company_name": "BHARAT ELECTRONICS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.18x"
+    "volume_multiplier": "1.02x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -8.05,
-    "change_pct": -2.05,
-    "close": 385.5,
-    "previous_close": 393.55,
+    "as_of": "2026-10-01",
+    "change": -5.2,
+    "change_pct": -1.34,
+    "close": 383.1,
+    "previous_close": 388.3,
     "type": "EOD_CLOSE",
-    "volume": 11661372
+    "volume": 10250149
   },
   "range": {
-    "distance_from_high_pct": -18.58,
-    "distance_from_low_pct": 1.33,
+    "distance_from_high_pct": -19.08,
+    "distance_from_low_pct": 1.18,
     "high_52w": 473.45,
     "history_basis": "52_WEEK",
-    "low_52w": 380.45,
-    "range_position_pct": 5.43
+    "low_52w": 378.65,
+    "range_position_pct": 4.69
   },
   "risk_model": {
-    "invalidation_floor": 372.01,
-    "risk_per_share": 21.2,
-    "technical_pivot": 393.21
+    "invalidation_floor": 369.69,
+    "risk_per_share": 21.07,
+    "technical_pivot": 390.76
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 287.2,
-      "high": 291.9,
-      "low": 286.0,
-      "open": 289.35,
-      "time": "2025-09-19",
-      "volume": 332515
-    },
-    {
-      "close": 278.25,
-      "high": 289.45,
-      "low": 275.1,
-      "open": 287.2,
-      "time": "2025-09-22",
-      "volume": 381005
-    },
-    {
-      "close": 298.45,
-      "high": 307.0,
-      "low": 276.35,
-      "open": 278.8,
-      "time": "2025-09-23",
-      "volume": 2893765
-    },
-    {
       "close": 290.95,
       "high": 298.2,
       "low": 289.9,
@@ -2017,13 +1993,37 @@
       "open": 346.15,
       "time": "2026-09-28",
       "volume": 741465
+    },
+    {
+      "close": 344.95,
+      "high": 347.45,
+      "low": 343.55,
+      "open": 343.55,
+      "time": "2026-09-29",
+      "volume": 460188
+    },
+    {
+      "close": 346.0,
+      "high": 349.8,
+      "low": 343.7,
+      "open": 343.7,
+      "time": "2026-09-30",
+      "volume": 1333723
+    },
+    {
+      "close": 345.6,
+      "high": 346.5,
+      "low": 342.5,
+      "open": 343.1,
+      "time": "2026-10-01",
+      "volume": 654711
     }
   ],
   "company_name": "IIFL CAPITAL SERVICES LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.27x"
+    "volume_multiplier": "1.05x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.0,
-    "change_pct": -0.87,
-    "close": 343.7,
-    "previous_close": 346.7,
+    "as_of": "2026-10-01",
+    "change": -0.4,
+    "change_pct": -0.12,
+    "close": 345.6,
+    "previous_close": 346.0,
     "type": "EOD_CLOSE",
-    "volume": 741465
+    "volume": 654711
   },
   "range": {
-    "distance_from_high_pct": -16.44,
-    "distance_from_low_pct": 42.97,
+    "distance_from_high_pct": -15.97,
+    "distance_from_low_pct": 43.76,
     "high_52w": 411.3,
     "history_basis": "52_WEEK",
     "low_52w": 240.4,
-    "range_position_pct": 60.44
+    "range_position_pct": 61.56
   },
   "risk_model": {
-    "invalidation_floor": 331.67,
-    "risk_per_share": 18.9,
-    "technical_pivot": 350.57
+    "invalidation_floor": 333.5,
+    "risk_per_share": 19.01,
+    "technical_pivot": 352.51
   },
   "schema_version": "1.0",
   "sector": null,

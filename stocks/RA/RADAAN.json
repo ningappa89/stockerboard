@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3.59,
-      "high": 3.8,
-      "low": 3.52,
-      "open": 3.66,
-      "time": "2025-09-19",
-      "volume": 29402
-    },
-    {
-      "close": 3.57,
-      "high": 3.69,
-      "low": 3.56,
-      "open": 3.6,
-      "time": "2025-09-22",
-      "volume": 37230
-    },
-    {
-      "close": 3.58,
-      "high": 3.67,
-      "low": 3.57,
-      "open": 3.57,
-      "time": "2025-09-23",
-      "volume": 6773
-    },
-    {
       "close": 3.42,
       "high": 3.65,
       "low": 3.4,
@@ -2017,13 +1993,37 @@
       "open": 3.0,
       "time": "2026-09-28",
       "volume": 84822
+    },
+    {
+      "close": 2.96,
+      "high": 3.09,
+      "low": 2.9,
+      "open": 3.02,
+      "time": "2026-09-29",
+      "volume": 22851
+    },
+    {
+      "close": 3.0,
+      "high": 3.07,
+      "low": 2.91,
+      "open": 2.96,
+      "time": "2026-09-30",
+      "volume": 28286
+    },
+    {
+      "close": 2.98,
+      "high": 3.07,
+      "low": 2.92,
+      "open": 3.07,
+      "time": "2026-10-01",
+      "volume": 15462
     }
   ],
   "company_name": "RADAAN MEDIAWORKS (I) LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 53,
+    "momentum_score": 52,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.15x"
+    "volume_multiplier": "0.23x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.03,
-    "change_pct": 1.0,
-    "close": 3.02,
-    "previous_close": 2.99,
+    "as_of": "2026-10-01",
+    "change": -0.02,
+    "change_pct": -0.67,
+    "close": 2.98,
+    "previous_close": 3.0,
     "type": "EOD_CLOSE",
-    "volume": 84822
+    "volume": 15462
   },
   "range": {
-    "distance_from_high_pct": -24.31,
-    "distance_from_low_pct": 28.51,
+    "distance_from_high_pct": -25.31,
+    "distance_from_low_pct": 26.81,
     "high_52w": 3.99,
     "history_basis": "52_WEEK",
     "low_52w": 2.35,
-    "range_position_pct": 40.85
+    "range_position_pct": 38.41
   },
   "risk_model": {
-    "invalidation_floor": 2.91,
+    "invalidation_floor": 2.88,
     "risk_per_share": 0.5,
-    "technical_pivot": 3.08
+    "technical_pivot": 3.04
   },
   "schema_version": "1.0",
   "sector": null,

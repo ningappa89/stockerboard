@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 18.08,
-      "high": 21.0,
-      "low": 17.9,
-      "open": 18.54,
-      "time": "2025-09-19",
-      "volume": 2286417
-    },
-    {
-      "close": 17.84,
-      "high": 18.48,
-      "low": 17.81,
-      "open": 17.85,
-      "time": "2025-09-22",
-      "volume": 59686
-    },
-    {
-      "close": 17.82,
-      "high": 18.05,
-      "low": 17.71,
-      "open": 17.8,
-      "time": "2025-09-23",
-      "volume": 24265
-    },
-    {
       "close": 17.87,
       "high": 18.1,
       "low": 17.6,
@@ -2017,13 +1993,37 @@
       "open": 15.81,
       "time": "2026-09-28",
       "volume": 23628
+    },
+    {
+      "close": 15.15,
+      "high": 16.1,
+      "low": 15.0,
+      "open": 15.98,
+      "time": "2026-09-29",
+      "volume": 31273
+    },
+    {
+      "close": 15.18,
+      "high": 15.68,
+      "low": 15.0,
+      "open": 15.0,
+      "time": "2026-09-30",
+      "volume": 15455
+    },
+    {
+      "close": 14.53,
+      "high": 15.58,
+      "low": 14.4,
+      "open": 15.01,
+      "time": "2026-10-01",
+      "volume": 45837
     }
   ],
   "company_name": "Ashoka Metcast Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 49,
+    "momentum_score": 52,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.13x"
+    "volume_multiplier": "0.25x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.3,
-    "change_pct": -1.91,
-    "close": 15.37,
-    "previous_close": 15.67,
+    "as_of": "2026-10-01",
+    "change": -0.65,
+    "change_pct": -4.28,
+    "close": 14.53,
+    "previous_close": 15.18,
     "type": "EOD_CLOSE",
-    "volume": 23628
+    "volume": 45837
   },
   "range": {
-    "distance_from_high_pct": -26.81,
-    "distance_from_low_pct": 26.71,
-    "high_52w": 21.0,
+    "distance_from_high_pct": -25.1,
+    "distance_from_low_pct": 19.79,
+    "high_52w": 19.4,
     "history_basis": "52_WEEK",
     "low_52w": 12.13,
-    "range_position_pct": 36.53
+    "range_position_pct": 33.01
   },
   "risk_model": {
-    "invalidation_floor": 14.83,
-    "risk_per_share": 0.85,
-    "technical_pivot": 15.68
+    "invalidation_floor": 14.02,
+    "risk_per_share": 0.8,
+    "technical_pivot": 14.82
   },
   "schema_version": "1.0",
   "sector": null,

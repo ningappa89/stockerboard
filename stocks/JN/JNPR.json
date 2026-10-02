@@ -297,14 +297,38 @@
       "open": 267.55,
       "time": "2026-09-28",
       "volume": 1111652
+    },
+    {
+      "close": 272.3,
+      "high": 275.0,
+      "low": 263.25,
+      "open": 265.0,
+      "time": "2026-09-29",
+      "volume": 899121
+    },
+    {
+      "close": 273.3,
+      "high": 282.75,
+      "low": 269.85,
+      "open": 270.5,
+      "time": "2026-09-30",
+      "volume": 1056639
+    },
+    {
+      "close": 268.25,
+      "high": 276.15,
+      "low": 263.0,
+      "open": 273.3,
+      "time": "2026-10-01",
+      "volume": 469197
     }
   ],
   "company_name": "Juniper Green Energy Limited",
   "history": {
     "first_session": "2026-08-06",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 37
+    "last_session": "2026-10-01",
+    "sessions_available": 40
   },
   "industry": null,
   "isin": "INE05C901015",
@@ -312,31 +336,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 83,
+    "momentum_score": 82,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.47x"
+    "volume_multiplier": "0.62x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 3.9,
-    "change_pct": 1.47,
-    "close": 269.95,
-    "previous_close": 266.05,
+    "as_of": "2026-10-01",
+    "change": -5.05,
+    "change_pct": -1.85,
+    "close": 268.25,
+    "previous_close": 273.3,
     "type": "EOD_CLOSE",
-    "volume": 1111652
+    "volume": 469197
   },
   "range": {
-    "distance_from_high_pct": -4.27,
-    "distance_from_low_pct": 16.3,
-    "high_52w": 282.0,
+    "distance_from_high_pct": -5.13,
+    "distance_from_low_pct": 15.57,
+    "high_52w": 282.75,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 232.11,
-    "range_position_pct": 75.85
+    "range_position_pct": 71.37
   },
   "risk_model": {
-    "invalidation_floor": 260.5,
-    "risk_per_share": 14.85,
-    "technical_pivot": 275.35
+    "invalidation_floor": 258.86,
+    "risk_per_share": 14.76,
+    "technical_pivot": 273.62
   },
   "schema_version": "1.0",
   "sector": null,

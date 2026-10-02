@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 224.75,
-      "high": 228.19,
-      "low": 218.7,
-      "open": 220.61,
-      "time": "2025-09-19",
-      "volume": 208334
-    },
-    {
-      "close": 223.38,
-      "high": 229.7,
-      "low": 221.0,
-      "open": 227.0,
-      "time": "2025-09-22",
-      "volume": 134594
-    },
-    {
-      "close": 224.61,
-      "high": 234.0,
-      "low": 223.0,
-      "open": 224.45,
-      "time": "2025-09-23",
-      "volume": 528737
-    },
-    {
       "close": 224.83,
       "high": 232.0,
       "low": 218.0,
@@ -2017,13 +1993,37 @@
       "open": 88.0,
       "time": "2026-09-28",
       "volume": 65304
+    },
+    {
+      "close": 86.65,
+      "high": 86.98,
+      "low": 85.21,
+      "open": 86.62,
+      "time": "2026-09-29",
+      "volume": 57766
+    },
+    {
+      "close": 86.3,
+      "high": 88.38,
+      "low": 86.02,
+      "open": 88.38,
+      "time": "2026-09-30",
+      "volume": 57220
+    },
+    {
+      "close": 79.73,
+      "high": 86.9,
+      "low": 78.31,
+      "open": 86.9,
+      "time": "2026-10-01",
+      "volume": 424406
     }
   ],
   "company_name": "Elin Electronics Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.41x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.82x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.28,
-    "change_pct": -1.45,
-    "close": 87.29,
-    "previous_close": 88.57,
+    "as_of": "2026-10-01",
+    "change": -6.57,
+    "change_pct": -7.61,
+    "close": 79.73,
+    "previous_close": 86.3,
     "type": "EOD_CLOSE",
-    "volume": 65304
+    "volume": 424406
   },
   "range": {
-    "distance_from_high_pct": -62.7,
-    "distance_from_low_pct": 3.95,
-    "high_52w": 234.0,
+    "distance_from_high_pct": -65.63,
+    "distance_from_low_pct": 1.81,
+    "high_52w": 232.0,
     "history_basis": "52_WEEK",
-    "low_52w": 83.97,
-    "range_position_pct": 2.21
+    "low_52w": 78.31,
+    "range_position_pct": 0.92
   },
   "risk_model": {
-    "invalidation_floor": 84.23,
-    "risk_per_share": 4.81,
-    "technical_pivot": 89.04
+    "invalidation_floor": 76.94,
+    "risk_per_share": 4.38,
+    "technical_pivot": 81.32
   },
   "schema_version": "1.0",
   "sector": null,

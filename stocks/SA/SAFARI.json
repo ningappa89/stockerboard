@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2273.0,
-      "high": 2285.0,
-      "low": 2232.0,
-      "open": 2250.1,
-      "time": "2025-09-19",
-      "volume": 23603
-    },
-    {
-      "close": 2252.2,
-      "high": 2270.0,
-      "low": 2225.6,
-      "open": 2270.0,
-      "time": "2025-09-22",
-      "volume": 23914
-    },
-    {
-      "close": 2204.0,
-      "high": 2250.2,
-      "low": 2191.0,
-      "open": 2249.4,
-      "time": "2025-09-23",
-      "volume": 12278
-    },
-    {
       "close": 2212.8,
       "high": 2228.0,
       "low": 2176.5,
@@ -2017,13 +1993,37 @@
       "open": 1464.0,
       "time": "2026-09-28",
       "volume": 23256
+    },
+    {
+      "close": 1430.9,
+      "high": 1464.5,
+      "low": 1412.5,
+      "open": 1464.5,
+      "time": "2026-09-29",
+      "volume": 31021
+    },
+    {
+      "close": 1429.6,
+      "high": 1439.9,
+      "low": 1418.1,
+      "open": 1439.9,
+      "time": "2026-09-30",
+      "volume": 58651
+    },
+    {
+      "close": 1378.8,
+      "high": 1433.7,
+      "low": 1368.0,
+      "open": 1429.6,
+      "time": "2026-10-01",
+      "volume": 29387
     }
   ],
   "company_name": "SAFARI IND (INDIA) LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.59x"
+    "volume_multiplier": "0.73x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -11.0,
-    "change_pct": -0.75,
-    "close": 1453.2,
-    "previous_close": 1464.2,
+    "as_of": "2026-10-01",
+    "change": -50.8,
+    "change_pct": -3.55,
+    "close": 1378.8,
+    "previous_close": 1429.6,
     "type": "EOD_CLOSE",
-    "volume": 23256
+    "volume": 29387
   },
   "range": {
-    "distance_from_high_pct": -42.04,
-    "distance_from_low_pct": 6.61,
+    "distance_from_high_pct": -45.0,
+    "distance_from_low_pct": 1.15,
     "high_52w": 2507.1,
     "history_basis": "52_WEEK",
     "low_52w": 1363.1,
-    "range_position_pct": 7.88
+    "range_position_pct": 1.37
   },
   "risk_model": {
-    "invalidation_floor": 1402.34,
-    "risk_per_share": 79.92,
-    "technical_pivot": 1482.26
+    "invalidation_floor": 1330.54,
+    "risk_per_share": 75.84,
+    "technical_pivot": 1406.38
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 95.95,
-      "high": 99.89,
-      "low": 94.0,
-      "open": 97.0,
-      "time": "2025-09-19",
-      "volume": 16815
-    },
-    {
-      "close": 97.76,
-      "high": 99.4,
-      "low": 95.61,
-      "open": 99.4,
-      "time": "2025-09-22",
-      "volume": 18195
-    },
-    {
-      "close": 97.46,
-      "high": 99.9,
-      "low": 95.99,
-      "open": 99.9,
-      "time": "2025-09-23",
-      "volume": 10003
-    },
-    {
       "close": 99.32,
       "high": 99.58,
       "low": 96.25,
@@ -2017,13 +1993,37 @@
       "open": 70.53,
       "time": "2026-09-28",
       "volume": 175786
+    },
+    {
+      "close": 71.62,
+      "high": 72.79,
+      "low": 70.2,
+      "open": 70.63,
+      "time": "2026-09-29",
+      "volume": 40710
+    },
+    {
+      "close": 71.82,
+      "high": 72.9,
+      "low": 70.91,
+      "open": 70.91,
+      "time": "2026-09-30",
+      "volume": 96040
+    },
+    {
+      "close": 72.61,
+      "high": 73.1,
+      "low": 71.13,
+      "open": 72.15,
+      "time": "2026-10-01",
+      "volume": 76710
     }
   ],
   "company_name": "DJ MEDIAPRINT & LOG LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.44x"
+    "volume_multiplier": "0.68x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.5,
-    "change_pct": -0.7,
-    "close": 71.35,
-    "previous_close": 71.85,
+    "as_of": "2026-10-01",
+    "change": 0.79,
+    "change_pct": 1.1,
+    "close": 72.61,
+    "previous_close": 71.82,
     "type": "EOD_CLOSE",
-    "volume": 175786
+    "volume": 76710
   },
   "range": {
-    "distance_from_high_pct": -42.83,
-    "distance_from_low_pct": 37.21,
+    "distance_from_high_pct": -41.82,
+    "distance_from_low_pct": 39.63,
     "high_52w": 124.8,
     "history_basis": "52_WEEK",
     "low_52w": 52.0,
-    "range_position_pct": 26.58
+    "range_position_pct": 28.31
   },
   "risk_model": {
-    "invalidation_floor": 68.85,
-    "risk_per_share": 3.93,
-    "technical_pivot": 72.78
+    "invalidation_floor": 70.07,
+    "risk_per_share": 3.99,
+    "technical_pivot": 74.06
   },
   "schema_version": "1.0",
   "sector": null,

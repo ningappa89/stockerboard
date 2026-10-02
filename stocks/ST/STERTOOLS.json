@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 343.7,
-      "high": 355.0,
-      "low": 340.3,
-      "open": 347.4,
-      "time": "2025-09-16",
-      "volume": 144379
-    },
-    {
-      "close": 341.5,
-      "high": 346.7,
-      "low": 340.1,
-      "open": 344.9,
-      "time": "2025-09-17",
-      "volume": 55656
-    },
-    {
-      "close": 338.35,
-      "high": 344.1,
-      "low": 335.1,
-      "open": 341.8,
-      "time": "2025-09-18",
-      "volume": 40980
-    },
-    {
       "close": 340.75,
       "high": 344.4,
       "low": 335.8,
@@ -2017,13 +1993,37 @@
       "open": 240.0,
       "time": "2026-09-28",
       "volume": 50109
+    },
+    {
+      "close": 221.24,
+      "high": 226.0,
+      "low": 215.28,
+      "open": 226.0,
+      "time": "2026-09-29",
+      "volume": 27442
+    },
+    {
+      "close": 218.31,
+      "high": 229.8,
+      "low": 215.0,
+      "open": 221.98,
+      "time": "2026-09-30",
+      "volume": 18805
+    },
+    {
+      "close": 224.28,
+      "high": 234.9,
+      "low": 215.0,
+      "open": 221.0,
+      "time": "2026-10-01",
+      "volume": 121325
     }
   ],
   "company_name": "STERLING TOOLS LTD.",
   "history": {
-    "first_session": "2025-09-16",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Volume Expansion",
-    "volume_multiplier": "3.06x"
+    "volume_multiplier": "5.3x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 1.11,
-    "change_pct": 0.5,
-    "close": 224.13,
-    "previous_close": 223.02,
+    "as_of": "2026-10-01",
+    "change": 5.97,
+    "change_pct": 2.73,
+    "close": 224.28,
+    "previous_close": 218.31,
     "type": "EOD_CLOSE",
-    "volume": 50109
+    "volume": 121325
   },
   "range": {
-    "distance_from_high_pct": -36.86,
-    "distance_from_low_pct": 44.6,
-    "high_52w": 355.0,
+    "distance_from_high_pct": -34.88,
+    "distance_from_low_pct": 44.7,
+    "high_52w": 344.4,
     "history_basis": "52_WEEK",
     "low_52w": 155.0,
-    "range_position_pct": 34.56
+    "range_position_pct": 36.58
   },
   "risk_model": {
-    "invalidation_floor": 216.29,
-    "risk_per_share": 12.32,
-    "technical_pivot": 228.61
+    "invalidation_floor": 216.43,
+    "risk_per_share": 12.34,
+    "technical_pivot": 228.77
   },
   "schema_version": "1.0",
   "sector": null,

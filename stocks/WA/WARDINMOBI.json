@@ -241,14 +241,38 @@
       "open": 5.64,
       "time": "2026-09-28",
       "volume": 213653
+    },
+    {
+      "close": 5.49,
+      "high": 5.54,
+      "low": 5.16,
+      "open": 5.54,
+      "time": "2026-09-29",
+      "volume": 314645
+    },
+    {
+      "close": 5.45,
+      "high": 5.64,
+      "low": 5.41,
+      "open": 5.64,
+      "time": "2026-09-30",
+      "volume": 275407
+    },
+    {
+      "close": 5.31,
+      "high": 5.51,
+      "low": 5.25,
+      "open": 5.51,
+      "time": "2026-10-01",
+      "volume": 253655
     }
   ],
   "company_name": "WARDWIZARD INNOVATIONS AND MOB",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE945P01024",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 56,
+    "momentum_score": 53,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.76x"
+    "volume_multiplier": "0.93x"
   },
   "price": {
-    "as_of": "2026-09-28",
+    "as_of": "2026-10-01",
     "change": -0.14,
-    "change_pct": -2.51,
-    "close": 5.43,
-    "previous_close": 5.57,
+    "change_pct": -2.57,
+    "close": 5.31,
+    "previous_close": 5.45,
     "type": "EOD_CLOSE",
-    "volume": 213653
+    "volume": 253655
   },
   "range": {
-    "distance_from_high_pct": -22.32,
-    "distance_from_low_pct": 15.78,
+    "distance_from_high_pct": -24.03,
+    "distance_from_low_pct": 13.22,
     "high_52w": 6.99,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 4.69,
-    "range_position_pct": 32.17
+    "range_position_pct": 26.96
   },
   "risk_model": {
-    "invalidation_floor": 5.24,
+    "invalidation_floor": 5.12,
     "risk_per_share": 0.5,
-    "technical_pivot": 5.54
+    "technical_pivot": 5.42
   },
   "schema_version": "1.0",
   "sector": null,

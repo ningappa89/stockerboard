@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 51.45,
-      "high": 52.21,
-      "low": 51.14,
-      "open": 51.85,
-      "time": "2025-09-19",
-      "volume": 53781
-    },
-    {
-      "close": 51.27,
-      "high": 51.65,
-      "low": 50.82,
-      "open": 51.21,
-      "time": "2025-09-22",
-      "volume": 47359
-    },
-    {
-      "close": 51.86,
-      "high": 52.39,
-      "low": 50.43,
-      "open": 51.97,
-      "time": "2025-09-23",
-      "volume": 77243
-    },
-    {
       "close": 50.7,
       "high": 52.19,
       "low": 50.41,
@@ -2017,13 +1993,37 @@
       "open": 25.01,
       "time": "2026-09-28",
       "volume": 13039
+    },
+    {
+      "close": 25.43,
+      "high": 25.94,
+      "low": 24.51,
+      "open": 25.0,
+      "time": "2026-09-29",
+      "volume": 24908
+    },
+    {
+      "close": 25.2,
+      "high": 26.44,
+      "low": 24.67,
+      "open": 24.67,
+      "time": "2026-09-30",
+      "volume": 36875
+    },
+    {
+      "close": 25.2,
+      "high": 25.72,
+      "low": 24.6,
+      "open": 25.72,
+      "time": "2026-10-01",
+      "volume": 15952
     }
   ],
   "company_name": "SHREE TIRUPATI BALAJEE AGRO TR",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.51x"
+    "volume_multiplier": "0.59x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.32,
-    "change_pct": -1.25,
-    "close": 25.25,
-    "previous_close": 25.57,
+    "as_of": "2026-10-01",
+    "change": 0.0,
+    "change_pct": 0.0,
+    "close": 25.2,
+    "previous_close": 25.2,
     "type": "EOD_CLOSE",
-    "volume": 13039
+    "volume": 15952
   },
   "range": {
-    "distance_from_high_pct": -53.65,
-    "distance_from_low_pct": 19.67,
+    "distance_from_high_pct": -53.74,
+    "distance_from_low_pct": 19.43,
     "high_52w": 54.48,
     "history_basis": "52_WEEK",
     "low_52w": 21.1,
-    "range_position_pct": 12.43
+    "range_position_pct": 12.28
   },
   "risk_model": {
-    "invalidation_floor": 24.37,
+    "invalidation_floor": 24.32,
     "risk_per_share": 1.38,
-    "technical_pivot": 25.75
+    "technical_pivot": 25.7
   },
   "schema_version": "1.0",
   "sector": null,

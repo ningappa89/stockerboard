@@ -417,46 +417,70 @@
       "open": 188.03,
       "time": "2026-09-28",
       "volume": 596771
+    },
+    {
+      "close": 188.08,
+      "high": 191.0,
+      "low": 182.75,
+      "open": 186.21,
+      "time": "2026-09-29",
+      "volume": 588043
+    },
+    {
+      "close": 184.1,
+      "high": 197.9,
+      "low": 183.11,
+      "open": 190.0,
+      "time": "2026-09-30",
+      "volume": 2667403
+    },
+    {
+      "close": 176.97,
+      "high": 186.0,
+      "low": 172.89,
+      "open": 184.9,
+      "time": "2026-10-01",
+      "volume": 747746
     }
   ],
   "company_name": "RIR POWER ELECTRONICS LIMITED",
   "history": {
     "first_session": "2026-07-16",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 52
+    "last_session": "2026-10-01",
+    "sessions_available": 55
   },
   "industry": null,
   "isin": "INE302D01024",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
+    "is_stage2": false,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.16x"
+    "volume_multiplier": "0.19x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.8,
-    "change_pct": -0.96,
-    "close": 186.21,
-    "previous_close": 188.01,
+    "as_of": "2026-10-01",
+    "change": -7.13,
+    "change_pct": -3.87,
+    "close": 176.97,
+    "previous_close": 184.1,
     "type": "EOD_CLOSE",
-    "volume": 596771
+    "volume": 747746
   },
   "range": {
-    "distance_from_high_pct": -12.96,
-    "distance_from_low_pct": 20.92,
+    "distance_from_high_pct": -17.28,
+    "distance_from_low_pct": 14.92,
     "high_52w": 213.94,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 154.0,
-    "range_position_pct": 53.74
+    "range_position_pct": 38.32
   },
   "risk_model": {
-    "invalidation_floor": 179.69,
-    "risk_per_share": 10.24,
-    "technical_pivot": 189.93
+    "invalidation_floor": 170.78,
+    "risk_per_share": 9.73,
+    "technical_pivot": 180.51
   },
   "schema_version": "1.0",
   "sector": null,

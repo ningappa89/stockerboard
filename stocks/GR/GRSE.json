@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2605.3,
-      "high": 2663.0,
-      "low": 2596.0,
-      "open": 2634.7,
-      "time": "2025-09-19",
-      "volume": 1784478
-    },
-    {
-      "close": 2668.4,
-      "high": 2760.0,
-      "low": 2655.0,
-      "open": 2695.0,
-      "time": "2025-09-22",
-      "volume": 3371327
-    },
-    {
-      "close": 2680.8,
-      "high": 2695.0,
-      "low": 2620.0,
-      "open": 2681.0,
-      "time": "2025-09-23",
-      "volume": 1515851
-    },
-    {
       "close": 2714.8,
       "high": 2745.0,
       "low": 2661.0,
@@ -2017,13 +1993,37 @@
       "open": 2316.0,
       "time": "2026-09-28",
       "volume": 389363
+    },
+    {
+      "close": 2206.1,
+      "high": 2242.7,
+      "low": 2191.9,
+      "open": 2234.0,
+      "time": "2026-09-29",
+      "volume": 428953
+    },
+    {
+      "close": 2181.9,
+      "high": 2235.1,
+      "low": 2175.0,
+      "open": 2215.0,
+      "time": "2026-09-30",
+      "volume": 377318
+    },
+    {
+      "close": 2111.1,
+      "high": 2173.0,
+      "low": 2077.0,
+      "open": 2170.0,
+      "time": "2026-10-01",
+      "volume": 571755
     }
   ],
   "company_name": "Garden Reach Shipbuilders & En",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.2x"
+    "volume_multiplier": "1.66x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -73.7,
-    "change_pct": -3.18,
-    "close": 2245.3,
-    "previous_close": 2319.0,
+    "as_of": "2026-10-01",
+    "change": -70.8,
+    "change_pct": -3.24,
+    "close": 2111.1,
+    "previous_close": 2181.9,
     "type": "EOD_CLOSE",
-    "volume": 389363
+    "volume": 571755
   },
   "range": {
-    "distance_from_high_pct": -32.76,
-    "distance_from_low_pct": 14.34,
+    "distance_from_high_pct": -36.77,
+    "distance_from_low_pct": 7.51,
     "high_52w": 3339.0,
     "history_basis": "52_WEEK",
     "low_52w": 1963.7,
-    "range_position_pct": 20.48
+    "range_position_pct": 10.72
   },
   "risk_model": {
-    "invalidation_floor": 2166.71,
-    "risk_per_share": 123.5,
-    "technical_pivot": 2290.21
+    "invalidation_floor": 2037.21,
+    "risk_per_share": 116.11,
+    "technical_pivot": 2153.32
   },
   "schema_version": "1.0",
   "sector": null,

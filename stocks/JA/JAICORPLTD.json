@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 158.67,
-      "high": 160.4,
-      "low": 157.12,
-      "open": 158.85,
-      "time": "2025-09-19",
-      "volume": 948040
-    },
-    {
-      "close": 156.25,
-      "high": 159.29,
-      "low": 155.35,
-      "open": 158.0,
-      "time": "2025-09-22",
-      "volume": 887844
-    },
-    {
-      "close": 157.62,
-      "high": 160.8,
-      "low": 153.04,
-      "open": 156.1,
-      "time": "2025-09-23",
-      "volume": 2064904
-    },
-    {
       "close": 152.46,
       "high": 157.4,
       "low": 150.7,
@@ -2017,13 +1993,37 @@
       "open": 94.89,
       "time": "2026-09-28",
       "volume": 214066
+    },
+    {
+      "close": 91.8,
+      "high": 92.49,
+      "low": 89.64,
+      "open": 92.49,
+      "time": "2026-09-29",
+      "volume": 253730
+    },
+    {
+      "close": 91.69,
+      "high": 93.63,
+      "low": 91.3,
+      "open": 91.8,
+      "time": "2026-09-30",
+      "volume": 201178
+    },
+    {
+      "close": 89.54,
+      "high": 91.4,
+      "low": 87.6,
+      "open": 91.4,
+      "time": "2026-10-01",
+      "volume": 304700
     }
   ],
   "company_name": "JAI CORP LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.77x"
+    "volume_multiplier": "1.11x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.25,
-    "change_pct": -2.38,
-    "close": 92.18,
-    "previous_close": 94.43,
+    "as_of": "2026-10-01",
+    "change": -2.15,
+    "change_pct": -2.34,
+    "close": 89.54,
+    "previous_close": 91.69,
     "type": "EOD_CLOSE",
-    "volume": 214066
+    "volume": 304700
   },
   "range": {
-    "distance_from_high_pct": -46.84,
-    "distance_from_low_pct": 4.75,
+    "distance_from_high_pct": -48.36,
+    "distance_from_low_pct": 2.21,
     "high_52w": 173.4,
     "history_basis": "52_WEEK",
-    "low_52w": 88.0,
-    "range_position_pct": 4.89
+    "low_52w": 87.6,
+    "range_position_pct": 2.26
   },
   "risk_model": {
-    "invalidation_floor": 88.95,
-    "risk_per_share": 5.07,
-    "technical_pivot": 94.02
+    "invalidation_floor": 86.41,
+    "risk_per_share": 4.92,
+    "technical_pivot": 91.33
   },
   "schema_version": "1.0",
   "sector": null,

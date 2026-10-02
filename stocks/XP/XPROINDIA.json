@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1128.4,
-      "high": 1149.9,
-      "low": 1115.4,
-      "open": 1149.9,
-      "time": "2025-09-19",
-      "volume": 64682
-    },
-    {
-      "close": 1215.9,
-      "high": 1279.0,
-      "low": 1120.0,
-      "open": 1132.9,
-      "time": "2025-09-22",
-      "volume": 236146
-    },
-    {
-      "close": 1191.0,
-      "high": 1231.9,
-      "low": 1185.0,
-      "open": 1220.9,
-      "time": "2025-09-23",
-      "volume": 42135
-    },
-    {
       "close": 1199.8,
       "high": 1241.0,
       "low": 1181.0,
@@ -2017,13 +1993,37 @@
       "open": 1206.7,
       "time": "2026-09-28",
       "volume": 40786
+    },
+    {
+      "close": 1160.4,
+      "high": 1170.0,
+      "low": 1121.2,
+      "open": 1142.2,
+      "time": "2026-09-29",
+      "volume": 43568
+    },
+    {
+      "close": 1161.9,
+      "high": 1181.9,
+      "low": 1145.5,
+      "open": 1170.0,
+      "time": "2026-09-30",
+      "volume": 28334
+    },
+    {
+      "close": 1136.2,
+      "high": 1168.6,
+      "low": 1115.0,
+      "open": 1161.9,
+      "time": "2026-10-01",
+      "volume": 42823
     }
   ],
   "company_name": "XPRO INDIA LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 48,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.26x"
+    "volume_multiplier": "0.51x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -54.9,
-    "change_pct": -4.59,
-    "close": 1142.2,
-    "previous_close": 1197.1,
+    "as_of": "2026-10-01",
+    "change": -25.7,
+    "change_pct": -2.21,
+    "close": 1136.2,
+    "previous_close": 1161.9,
     "type": "EOD_CLOSE",
-    "volume": 40786
+    "volume": 42823
   },
   "range": {
-    "distance_from_high_pct": -27.47,
-    "distance_from_low_pct": 44.94,
+    "distance_from_high_pct": -27.85,
+    "distance_from_low_pct": 44.18,
     "high_52w": 1574.8,
     "history_basis": "52_WEEK",
     "low_52w": 788.05,
-    "range_position_pct": 45.01
+    "range_position_pct": 44.25
   },
   "risk_model": {
-    "invalidation_floor": 1102.22,
-    "risk_per_share": 62.82,
-    "technical_pivot": 1165.04
+    "invalidation_floor": 1096.43,
+    "risk_per_share": 62.49,
+    "technical_pivot": 1158.92
   },
   "schema_version": "1.0",
   "sector": null,

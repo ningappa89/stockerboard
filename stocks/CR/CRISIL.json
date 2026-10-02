@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 4985.8,
-      "high": 5046.4,
-      "low": 4960.1,
-      "open": 5024.1,
-      "time": "2025-09-19",
-      "volume": 23750
-    },
-    {
-      "close": 4951.4,
-      "high": 4997.0,
-      "low": 4940.0,
-      "open": 4985.8,
-      "time": "2025-09-22",
-      "volume": 12734
-    },
-    {
-      "close": 4851.0,
-      "high": 4963.8,
-      "low": 4845.8,
-      "open": 4951.0,
-      "time": "2025-09-23",
-      "volume": 25840
-    },
-    {
       "close": 4766.8,
       "high": 4917.9,
       "low": 4756.1,
@@ -2017,13 +1993,37 @@
       "open": 4500.5,
       "time": "2026-09-28",
       "volume": 135575
+    },
+    {
+      "close": 4464.1,
+      "high": 4640.2,
+      "low": 4437.1,
+      "open": 4640.2,
+      "time": "2026-09-29",
+      "volume": 36620
+    },
+    {
+      "close": 4450.8,
+      "high": 4519.0,
+      "low": 4416.0,
+      "open": 4464.8,
+      "time": "2026-09-30",
+      "volume": 36918
+    },
+    {
+      "close": 4428.6,
+      "high": 4465.5,
+      "low": 4345.0,
+      "open": 4425.0,
+      "time": "2026-10-01",
+      "volume": 32314
     }
   ],
   "company_name": "CRISIL LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 77,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.36x"
+    "momentum_score": 71,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.62x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 130.6,
-    "change_pct": 2.89,
-    "close": 4650.6,
-    "previous_close": 4520.0,
+    "as_of": "2026-10-01",
+    "change": -22.2,
+    "change_pct": -0.5,
+    "close": 4428.6,
+    "previous_close": 4450.8,
     "type": "EOD_CLOSE",
-    "volume": 135575
+    "volume": 32314
   },
   "range": {
-    "distance_from_high_pct": -8.18,
-    "distance_from_low_pct": 26.17,
+    "distance_from_high_pct": -12.56,
+    "distance_from_low_pct": 20.15,
     "high_52w": 5064.9,
     "history_basis": "52_WEEK",
     "low_52w": 3686.0,
-    "range_position_pct": 69.95
+    "range_position_pct": 53.85
   },
   "risk_model": {
-    "invalidation_floor": 4487.83,
-    "risk_per_share": 255.78,
-    "technical_pivot": 4743.61
+    "invalidation_floor": 4273.6,
+    "risk_per_share": 243.57,
+    "technical_pivot": 4517.17
   },
   "schema_version": "1.0",
   "sector": null,

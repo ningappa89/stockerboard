@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1173.0,
-      "high": 1179.5,
-      "low": 1151.1,
-      "open": 1151.1,
-      "time": "2025-09-19",
-      "volume": 4632
-    },
-    {
-      "close": 1168.2,
-      "high": 1186.8,
-      "low": 1151.0,
-      "open": 1151.0,
-      "time": "2025-09-22",
-      "volume": 5747
-    },
-    {
-      "close": 1143.9,
-      "high": 1168.9,
-      "low": 1139.0,
-      "open": 1167.7,
-      "time": "2025-09-23",
-      "volume": 5230
-    },
-    {
       "close": 1135.8,
       "high": 1150.2,
       "low": 1132.3,
@@ -2017,13 +1993,37 @@
       "open": 928.0,
       "time": "2026-09-28",
       "volume": 12794
+    },
+    {
+      "close": 924.8,
+      "high": 942.8,
+      "low": 917.1,
+      "open": 942.8,
+      "time": "2026-09-29",
+      "volume": 23883
+    },
+    {
+      "close": 945.2,
+      "high": 957.7,
+      "low": 925.3,
+      "open": 925.3,
+      "time": "2026-09-30",
+      "volume": 33101
+    },
+    {
+      "close": 921.8,
+      "high": 950.9,
+      "low": 906.1,
+      "open": 946.0,
+      "time": "2026-10-01",
+      "volume": 15400
     }
   ],
   "company_name": "EXCEL INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 56,
+    "momentum_score": 54,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.37x"
+    "volume_multiplier": "1.31x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 13.9,
-    "change_pct": 1.5,
-    "close": 942.8,
-    "previous_close": 928.9,
+    "as_of": "2026-10-01",
+    "change": -23.4,
+    "change_pct": -2.48,
+    "close": 921.8,
+    "previous_close": 945.2,
     "type": "EOD_CLOSE",
-    "volume": 12794
+    "volume": 15400
   },
   "range": {
-    "distance_from_high_pct": -22.08,
-    "distance_from_low_pct": 17.84,
+    "distance_from_high_pct": -23.82,
+    "distance_from_low_pct": 15.22,
     "high_52w": 1210.0,
     "history_basis": "52_WEEK",
     "low_52w": 800.05,
-    "range_position_pct": 34.82
+    "range_position_pct": 29.7
   },
   "risk_model": {
-    "invalidation_floor": 909.8,
-    "risk_per_share": 51.86,
-    "technical_pivot": 961.66
+    "invalidation_floor": 889.54,
+    "risk_per_share": 50.7,
+    "technical_pivot": 940.24
   },
   "schema_version": "1.0",
   "sector": null,

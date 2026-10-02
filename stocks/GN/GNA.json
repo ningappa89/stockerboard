@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 316.75,
-      "high": 322.45,
-      "low": 313.25,
-      "open": 322.45,
-      "time": "2025-09-19",
-      "volume": 42318
-    },
-    {
-      "close": 319.1,
-      "high": 324.8,
-      "low": 317.05,
-      "open": 319.0,
-      "time": "2025-09-22",
-      "volume": 45258
-    },
-    {
-      "close": 328.3,
-      "high": 332.0,
-      "low": 315.25,
-      "open": 322.0,
-      "time": "2025-09-23",
-      "volume": 95786
-    },
-    {
       "close": 322.65,
       "high": 332.9,
       "low": 320.05,
@@ -2017,13 +1993,37 @@
       "open": 617.65,
       "time": "2026-09-28",
       "volume": 539198
+    },
+    {
+      "close": 593.75,
+      "high": 600.0,
+      "low": 575.4,
+      "open": 597.0,
+      "time": "2026-09-29",
+      "volume": 499013
+    },
+    {
+      "close": 598.35,
+      "high": 612.0,
+      "low": 585.65,
+      "open": 599.0,
+      "time": "2026-09-30",
+      "volume": 510171
+    },
+    {
+      "close": 580.7,
+      "high": 598.3,
+      "low": 569.0,
+      "open": 597.05,
+      "time": "2026-10-01",
+      "volume": 351960
     }
   ],
   "company_name": "GNA AXLES LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 77,
+    "momentum_score": 74,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.62x"
+    "volume_multiplier": "0.39x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -22.95,
-    "change_pct": -3.72,
-    "close": 594.7,
-    "previous_close": 617.65,
+    "as_of": "2026-10-01",
+    "change": -17.65,
+    "change_pct": -2.95,
+    "close": 580.7,
+    "previous_close": 598.35,
     "type": "EOD_CLOSE",
-    "volume": 539198
+    "volume": 351960
   },
   "range": {
-    "distance_from_high_pct": -8.23,
-    "distance_from_low_pct": 101.59,
+    "distance_from_high_pct": -10.39,
+    "distance_from_low_pct": 96.85,
     "high_52w": 648.0,
     "history_basis": "52_WEEK",
     "low_52w": 295.0,
-    "range_position_pct": 84.9
+    "range_position_pct": 80.93
   },
   "risk_model": {
-    "invalidation_floor": 573.89,
-    "risk_per_share": 32.7,
-    "technical_pivot": 606.59
+    "invalidation_floor": 560.38,
+    "risk_per_share": 31.93,
+    "technical_pivot": 592.31
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 143.07,
-      "high": 146.7,
-      "low": 142.6,
-      "open": 145.0,
-      "time": "2025-09-16",
-      "volume": 73201
-    },
-    {
-      "close": 142.9,
-      "high": 145.0,
-      "low": 141.87,
-      "open": 143.15,
-      "time": "2025-09-17",
-      "volume": 98340
-    },
-    {
-      "close": 143.65,
-      "high": 144.7,
-      "low": 142.89,
-      "open": 143.2,
-      "time": "2025-09-18",
-      "volume": 69927
-    },
-    {
       "close": 143.71,
       "high": 147.0,
       "low": 143.06,
@@ -2017,13 +1993,37 @@
       "open": 139.0,
       "time": "2026-09-28",
       "volume": 1045793
+    },
+    {
+      "close": 145.45,
+      "high": 149.6,
+      "low": 137.65,
+      "open": 140.0,
+      "time": "2026-09-29",
+      "volume": 626536
+    },
+    {
+      "close": 142.07,
+      "high": 148.0,
+      "low": 138.35,
+      "open": 145.61,
+      "time": "2026-09-30",
+      "volume": 208080
+    },
+    {
+      "close": 136.52,
+      "high": 146.0,
+      "low": 133.45,
+      "open": 145.0,
+      "time": "2026-10-01",
+      "volume": 293231
     }
   ],
   "company_name": "INDO AMINES LTD.",
   "history": {
-    "first_session": "2025-09-16",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 75,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "10.7x"
+    "momentum_score": 74,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.96x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 2.67,
-    "change_pct": 1.98,
-    "close": 137.47,
-    "previous_close": 134.8,
+    "as_of": "2026-10-01",
+    "change": -5.55,
+    "change_pct": -3.91,
+    "close": 136.52,
+    "previous_close": 142.07,
     "type": "EOD_CLOSE",
-    "volume": 1045793
+    "volume": 293231
   },
   "range": {
-    "distance_from_high_pct": -9.94,
-    "distance_from_low_pct": 67.85,
+    "distance_from_high_pct": -10.57,
+    "distance_from_low_pct": 66.69,
     "high_52w": 152.65,
     "history_basis": "52_WEEK",
     "low_52w": 81.9,
-    "range_position_pct": 78.54
+    "range_position_pct": 77.2
   },
   "risk_model": {
-    "invalidation_floor": 132.66,
-    "risk_per_share": 7.56,
-    "technical_pivot": 140.22
+    "invalidation_floor": 131.74,
+    "risk_per_share": 7.51,
+    "technical_pivot": 139.25
   },
   "schema_version": "1.0",
   "sector": null,

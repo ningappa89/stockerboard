@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2485.0,
-      "high": 2557.5,
-      "low": 2480.25,
-      "open": 2509.25,
-      "time": "2025-09-19",
-      "volume": 13024
-    },
-    {
-      "close": 2501.5,
-      "high": 2507.25,
-      "low": 2436.0,
-      "open": 2485.0,
-      "time": "2025-09-22",
-      "volume": 9556
-    },
-    {
-      "close": 2510.5,
-      "high": 2550.0,
-      "low": 2475.5,
-      "open": 2496.5,
-      "time": "2025-09-23",
-      "volume": 11452
-    },
-    {
       "close": 2515.75,
       "high": 2538.5,
       "low": 2502.5,
@@ -2017,13 +1993,37 @@
       "open": 1102.2,
       "time": "2026-09-28",
       "volume": 26011
+    },
+    {
+      "close": 1005.7,
+      "high": 1055.0,
+      "low": 1000.0,
+      "open": 1049.7,
+      "time": "2026-09-29",
+      "volume": 66905
+    },
+    {
+      "close": 1003.9,
+      "high": 1030.0,
+      "low": 998.5,
+      "open": 1008.1,
+      "time": "2026-09-30",
+      "volume": 28003
+    },
+    {
+      "close": 998.6,
+      "high": 1010.1,
+      "low": 977.4,
+      "open": 1003.9,
+      "time": "2026-10-01",
+      "volume": 17142
     }
   ],
   "company_name": "BHARAT RASAYAN LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.42x"
+    "volume_multiplier": "0.79x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -50.6,
-    "change_pct": -4.61,
-    "close": 1046.2,
-    "previous_close": 1096.8,
+    "as_of": "2026-10-01",
+    "change": -5.3,
+    "change_pct": -0.53,
+    "close": 998.6,
+    "previous_close": 1003.9,
     "type": "EOD_CLOSE",
-    "volume": 26011
+    "volume": 17142
   },
   "range": {
-    "distance_from_high_pct": -64.98,
-    "distance_from_low_pct": 1.79,
+    "distance_from_high_pct": -66.57,
+    "distance_from_low_pct": 2.17,
     "high_52w": 2987.5,
     "history_basis": "52_WEEK",
-    "low_52w": 1027.8,
-    "range_position_pct": 0.94
+    "low_52w": 977.4,
+    "range_position_pct": 1.05
   },
   "risk_model": {
-    "invalidation_floor": 1009.58,
-    "risk_per_share": 57.54,
-    "technical_pivot": 1067.12
+    "invalidation_floor": 963.65,
+    "risk_per_share": 54.92,
+    "technical_pivot": 1018.57
   },
   "schema_version": "1.0",
   "sector": null,

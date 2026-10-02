@@ -201,46 +201,62 @@
       "open": 127.0,
       "time": "2026-09-28",
       "volume": 100
+    },
+    {
+      "close": 126.0,
+      "high": 126.0,
+      "low": 126.0,
+      "open": 126.0,
+      "time": "2026-09-30",
+      "volume": 56
+    },
+    {
+      "close": 128.8,
+      "high": 128.8,
+      "low": 125.0,
+      "open": 125.0,
+      "time": "2026-10-01",
+      "volume": 713
     }
   ],
   "company_name": "MUKESH BABU FINANC SER L",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 25
+    "last_session": "2026-10-01",
+    "sessions_available": 27
   },
   "industry": null,
   "isin": "INE596B01017",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 69,
+    "is_stage2": true,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.0x"
+    "volume_multiplier": "0.03x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.5,
-    "change_pct": -3.42,
-    "close": 127.0,
-    "previous_close": 131.5,
+    "as_of": "2026-10-01",
+    "change": 2.8,
+    "change_pct": 2.22,
+    "close": 128.8,
+    "previous_close": 126.0,
     "type": "EOD_CLOSE",
-    "volume": 100
+    "volume": 713
   },
   "range": {
-    "distance_from_high_pct": -13.69,
-    "distance_from_low_pct": 1.6,
+    "distance_from_high_pct": -12.47,
+    "distance_from_low_pct": 3.04,
     "high_52w": 147.15,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 125.0,
-    "range_position_pct": 9.03
+    "range_position_pct": 17.16
   },
   "risk_model": {
-    "invalidation_floor": 122.55,
-    "risk_per_share": 6.99,
-    "technical_pivot": 129.54
+    "invalidation_floor": 124.29,
+    "risk_per_share": 7.09,
+    "technical_pivot": 131.38
   },
   "schema_version": "1.0",
   "sector": null,

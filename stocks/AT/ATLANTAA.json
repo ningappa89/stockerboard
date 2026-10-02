@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 41.31,
-      "high": 42.5,
-      "low": 40.51,
-      "open": 41.3,
-      "time": "2025-09-19",
-      "volume": 164869
-    },
-    {
-      "close": 41.48,
-      "high": 42.79,
-      "low": 40.75,
-      "open": 41.85,
-      "time": "2025-09-22",
-      "volume": 164052
-    },
-    {
-      "close": 41.04,
-      "high": 42.35,
-      "low": 40.4,
-      "open": 41.08,
-      "time": "2025-09-23",
-      "volume": 110858
-    },
-    {
       "close": 41.15,
       "high": 43.43,
       "low": 40.51,
@@ -2017,13 +1993,37 @@
       "open": 35.9,
       "time": "2026-09-28",
       "volume": 15329
+    },
+    {
+      "close": 36.69,
+      "high": 39.0,
+      "low": 35.15,
+      "open": 35.7,
+      "time": "2026-09-29",
+      "volume": 336131
+    },
+    {
+      "close": 37.25,
+      "high": 38.0,
+      "low": 36.0,
+      "open": 36.7,
+      "time": "2026-09-30",
+      "volume": 154317
+    },
+    {
+      "close": 35.71,
+      "high": 37.98,
+      "low": 35.2,
+      "open": 37.0,
+      "time": "2026-10-01",
+      "volume": 448047
     }
   ],
   "company_name": "ATLANTAA LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.42x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "6.38x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.41,
-    "change_pct": -1.15,
-    "close": 35.32,
-    "previous_close": 35.73,
+    "as_of": "2026-10-01",
+    "change": -1.54,
+    "change_pct": -4.13,
+    "close": 35.71,
+    "previous_close": 37.25,
     "type": "EOD_CLOSE",
-    "volume": 15329
+    "volume": 448047
   },
   "range": {
-    "distance_from_high_pct": -51.87,
-    "distance_from_low_pct": 12.06,
+    "distance_from_high_pct": -51.34,
+    "distance_from_low_pct": 13.29,
     "high_52w": 73.39,
     "history_basis": "52_WEEK",
     "low_52w": 31.52,
-    "range_position_pct": 9.08
+    "range_position_pct": 10.01
   },
   "risk_model": {
-    "invalidation_floor": 34.08,
-    "risk_per_share": 1.95,
-    "technical_pivot": 36.03
+    "invalidation_floor": 34.46,
+    "risk_per_share": 1.96,
+    "technical_pivot": 36.42
   },
   "schema_version": "1.0",
   "sector": null,

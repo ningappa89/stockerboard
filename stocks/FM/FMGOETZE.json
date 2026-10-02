@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 551.7,
-      "high": 557.95,
-      "low": 549.15,
-      "open": 554.0,
-      "time": "2025-09-19",
-      "volume": 19730
-    },
-    {
-      "close": 553.25,
-      "high": 560.0,
-      "low": 543.0,
-      "open": 545.0,
-      "time": "2025-09-22",
-      "volume": 56491
-    },
-    {
-      "close": 550.5,
-      "high": 564.85,
-      "low": 545.0,
-      "open": 556.95,
-      "time": "2025-09-23",
-      "volume": 28889
-    },
-    {
       "close": 547.85,
       "high": 554.8,
       "low": 545.1,
@@ -2017,13 +1993,37 @@
       "open": 480.1,
       "time": "2026-09-28",
       "volume": 165148
+    },
+    {
+      "close": 460.1,
+      "high": 462.2,
+      "low": 452.55,
+      "open": 458.65,
+      "time": "2026-09-29",
+      "volume": 99572
+    },
+    {
+      "close": 445.65,
+      "high": 469.0,
+      "low": 442.1,
+      "open": 460.1,
+      "time": "2026-09-30",
+      "volume": 268118
+    },
+    {
+      "close": 444.25,
+      "high": 451.45,
+      "low": 433.3,
+      "open": 442.0,
+      "time": "2026-10-01",
+      "volume": 212350
     }
   ],
   "company_name": "FEDERAL-MOGUL GOETZE (INDIA) L",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 47,
+    "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.16x"
+    "volume_multiplier": "0.48x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -23.95,
-    "change_pct": -4.96,
-    "close": 458.65,
-    "previous_close": 482.6,
+    "as_of": "2026-10-01",
+    "change": -1.4,
+    "change_pct": -0.31,
+    "close": 444.25,
+    "previous_close": 445.65,
     "type": "EOD_CLOSE",
-    "volume": 165148
+    "volume": 212350
   },
   "range": {
-    "distance_from_high_pct": -28.46,
-    "distance_from_low_pct": 28.11,
+    "distance_from_high_pct": -30.71,
+    "distance_from_low_pct": 24.09,
     "high_52w": 641.1,
     "history_basis": "52_WEEK",
     "low_52w": 358.0,
-    "range_position_pct": 35.55
+    "range_position_pct": 30.47
   },
   "risk_model": {
-    "invalidation_floor": 442.6,
-    "risk_per_share": 25.22,
-    "technical_pivot": 467.82
+    "invalidation_floor": 428.7,
+    "risk_per_share": 24.43,
+    "technical_pivot": 453.13
   },
   "schema_version": "1.0",
   "sector": null,

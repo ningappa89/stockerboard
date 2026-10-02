@@ -241,14 +241,38 @@
       "open": 4.12,
       "time": "2026-09-28",
       "volume": 70411
+    },
+    {
+      "close": 3.97,
+      "high": 4.09,
+      "low": 3.9,
+      "open": 3.91,
+      "time": "2026-09-29",
+      "volume": 59326
+    },
+    {
+      "close": 3.98,
+      "high": 4.1,
+      "low": 3.91,
+      "open": 3.91,
+      "time": "2026-09-30",
+      "volume": 17934
+    },
+    {
+      "close": 4.02,
+      "high": 4.08,
+      "low": 3.92,
+      "open": 3.92,
+      "time": "2026-10-01",
+      "volume": 10656
     }
   ],
   "company_name": "DHATRE UDYOG LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE715T01031",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 54,
+    "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.32x"
+    "volume_multiplier": "0.2x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.17,
-    "change_pct": -4.12,
-    "close": 3.96,
-    "previous_close": 4.13,
+    "as_of": "2026-10-01",
+    "change": 0.04,
+    "change_pct": 1.01,
+    "close": 4.02,
+    "previous_close": 3.98,
     "type": "EOD_CLOSE",
-    "volume": 70411
+    "volume": 10656
   },
   "range": {
-    "distance_from_high_pct": -23.4,
-    "distance_from_low_pct": 7.9,
+    "distance_from_high_pct": -22.24,
+    "distance_from_low_pct": 9.54,
     "high_52w": 5.17,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 3.67,
-    "range_position_pct": 19.33
+    "range_position_pct": 23.33
   },
   "risk_model": {
-    "invalidation_floor": 3.82,
+    "invalidation_floor": 3.88,
     "risk_per_share": 0.5,
-    "technical_pivot": 4.04
+    "technical_pivot": 4.1
   },
   "schema_version": "1.0",
   "sector": null,

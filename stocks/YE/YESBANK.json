@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 21.17,
-      "high": 21.39,
-      "low": 21.0,
-      "open": 21.07,
-      "time": "2025-09-19",
-      "volume": 116051178
-    },
-    {
-      "close": 21.21,
-      "high": 21.63,
-      "low": 21.18,
-      "open": 21.24,
-      "time": "2025-09-22",
-      "volume": 111736439
-    },
-    {
-      "close": 21.38,
-      "high": 21.45,
-      "low": 21.1,
-      "open": 21.2,
-      "time": "2025-09-23",
-      "volume": 82429015
-    },
-    {
       "close": 21.19,
       "high": 21.55,
       "low": 21.15,
@@ -2017,13 +1993,37 @@
       "open": 22.38,
       "time": "2026-09-28",
       "volume": 122415681
+    },
+    {
+      "close": 20.71,
+      "high": 21.33,
+      "low": 20.71,
+      "open": 21.18,
+      "time": "2026-09-29",
+      "volume": 137347987
+    },
+    {
+      "close": 20.95,
+      "high": 21.4,
+      "low": 20.85,
+      "open": 20.98,
+      "time": "2026-09-30",
+      "volume": 94081938
+    },
+    {
+      "close": 20.75,
+      "high": 21.17,
+      "low": 20.51,
+      "open": 20.95,
+      "time": "2026-10-01",
+      "volume": 80611659
     }
   ],
   "company_name": "YES BANK LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 63,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.6x"
+    "volume_multiplier": "0.99x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.32,
-    "change_pct": -5.87,
-    "close": 21.18,
-    "previous_close": 22.5,
+    "as_of": "2026-10-01",
+    "change": -0.2,
+    "change_pct": -0.95,
+    "close": 20.75,
+    "previous_close": 20.95,
     "type": "EOD_CLOSE",
-    "volume": 122415681
+    "volume": 80611659
   },
   "range": {
-    "distance_from_high_pct": -17.84,
-    "distance_from_low_pct": 23.14,
+    "distance_from_high_pct": -19.51,
+    "distance_from_low_pct": 20.64,
     "high_52w": 25.78,
     "history_basis": "52_WEEK",
     "low_52w": 17.2,
-    "range_position_pct": 46.39
+    "range_position_pct": 41.38
   },
   "risk_model": {
-    "invalidation_floor": 20.44,
-    "risk_per_share": 1.16,
-    "technical_pivot": 21.6
+    "invalidation_floor": 20.02,
+    "risk_per_share": 1.14,
+    "technical_pivot": 21.16
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

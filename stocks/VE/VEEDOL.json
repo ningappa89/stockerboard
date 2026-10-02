@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1982.6,
-      "high": 2035.0,
-      "low": 1935.0,
-      "open": 1970.0,
-      "time": "2025-09-19",
-      "volume": 67680
-    },
-    {
-      "close": 1976.8,
-      "high": 2004.9,
-      "low": 1962.0,
-      "open": 2004.9,
-      "time": "2025-09-22",
-      "volume": 28794
-    },
-    {
-      "close": 1923.7,
-      "high": 1992.9,
-      "low": 1910.2,
-      "open": 1976.8,
-      "time": "2025-09-23",
-      "volume": 23818
-    },
-    {
       "close": 1894.0,
       "high": 1931.0,
       "low": 1880.0,
@@ -2017,13 +1993,37 @@
       "open": 1390.0,
       "time": "2026-09-28",
       "volume": 10896
+    },
+    {
+      "close": 1356.5,
+      "high": 1366.1,
+      "low": 1352.0,
+      "open": 1364.1,
+      "time": "2026-09-29",
+      "volume": 6638
+    },
+    {
+      "close": 1373.3,
+      "high": 1380.7,
+      "low": 1344.1,
+      "open": 1344.1,
+      "time": "2026-09-30",
+      "volume": 8913
+    },
+    {
+      "close": 1356.6,
+      "high": 1373.3,
+      "low": 1338.0,
+      "open": 1372.9,
+      "time": "2026-10-01",
+      "volume": 9354
     }
   ],
   "company_name": "VEEDOL CORPORATION LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 40,
+    "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.23x"
+    "volume_multiplier": "1.08x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -29.3,
-    "change_pct": -2.1,
-    "close": 1364.1,
-    "previous_close": 1393.4,
+    "as_of": "2026-10-01",
+    "change": -16.7,
+    "change_pct": -1.22,
+    "close": 1356.6,
+    "previous_close": 1373.3,
     "type": "EOD_CLOSE",
-    "volume": 10896
+    "volume": 9354
   },
   "range": {
-    "distance_from_high_pct": -32.97,
-    "distance_from_low_pct": 10.17,
-    "high_52w": 2035.0,
+    "distance_from_high_pct": -30.92,
+    "distance_from_low_pct": 9.56,
+    "high_52w": 1963.8,
     "history_basis": "52_WEEK",
     "low_52w": 1238.2,
-    "range_position_pct": 15.8
+    "range_position_pct": 16.32
   },
   "risk_model": {
-    "invalidation_floor": 1316.36,
-    "risk_per_share": 75.02,
-    "technical_pivot": 1391.38
+    "invalidation_floor": 1309.12,
+    "risk_per_share": 74.61,
+    "technical_pivot": 1383.73
   },
   "schema_version": "1.0",
   "sector": null,

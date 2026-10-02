@@ -1897,14 +1897,38 @@
       "open": 69.35,
       "time": "2026-09-28",
       "volume": 82614
+    },
+    {
+      "close": 64.73,
+      "high": 66.29,
+      "low": 63.0,
+      "open": 64.8,
+      "time": "2026-09-29",
+      "volume": 35195
+    },
+    {
+      "close": 64.05,
+      "high": 66.28,
+      "low": 63.5,
+      "open": 63.5,
+      "time": "2026-09-30",
+      "volume": 39842
+    },
+    {
+      "close": 63.11,
+      "high": 67.9,
+      "low": 62.12,
+      "open": 64.98,
+      "time": "2026-10-01",
+      "volume": 65923
     }
   ],
   "company_name": "VARVEE GLOBAL LIMITED",
   "history": {
     "first_session": "2025-10-13",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 237
+    "last_session": "2026-10-01",
+    "sessions_available": 240
   },
   "industry": null,
   "isin": "INE273D01027",
@@ -1912,31 +1936,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 53,
+    "momentum_score": 51,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.32x"
+    "volume_multiplier": "0.25x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.02,
-    "change_pct": -4.49,
-    "close": 64.26,
-    "previous_close": 67.28,
+    "as_of": "2026-10-01",
+    "change": -0.94,
+    "change_pct": -1.47,
+    "close": 63.11,
+    "previous_close": 64.05,
     "type": "EOD_CLOSE",
-    "volume": 82614
+    "volume": 65923
   },
   "range": {
-    "distance_from_high_pct": -24.18,
-    "distance_from_low_pct": 47.05,
+    "distance_from_high_pct": -25.53,
+    "distance_from_low_pct": 44.42,
     "high_52w": 84.75,
     "history_basis": "52_WEEK",
     "low_52w": 43.7,
-    "range_position_pct": 50.09
+    "range_position_pct": 47.28
   },
   "risk_model": {
-    "invalidation_floor": 62.01,
-    "risk_per_share": 3.54,
-    "technical_pivot": 65.55
+    "invalidation_floor": 60.9,
+    "risk_per_share": 3.47,
+    "technical_pivot": 64.37
   },
   "schema_version": "1.0",
   "sector": null,

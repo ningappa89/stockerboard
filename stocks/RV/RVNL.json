@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 363.45,
-      "high": 367.7,
-      "low": 361.15,
-      "open": 361.9,
-      "time": "2025-09-19",
-      "volume": 6433354
-    },
-    {
-      "close": 358.9,
-      "high": 368.0,
-      "low": 357.2,
-      "open": 362.45,
-      "time": "2025-09-22",
-      "volume": 5537194
-    },
-    {
-      "close": 357.6,
-      "high": 365.0,
-      "low": 354.55,
-      "open": 362.0,
-      "time": "2025-09-23",
-      "volume": 6674464
-    },
-    {
       "close": 347.65,
       "high": 356.95,
       "low": 347.0,
@@ -2017,13 +1993,37 @@
       "open": 206.06,
       "time": "2026-09-28",
       "volume": 2550019
+    },
+    {
+      "close": 197.9,
+      "high": 202.0,
+      "low": 195.32,
+      "open": 202.0,
+      "time": "2026-09-29",
+      "volume": 7345733
+    },
+    {
+      "close": 201.76,
+      "high": 209.65,
+      "low": 198.25,
+      "open": 198.7,
+      "time": "2026-09-30",
+      "volume": 17689293
+    },
+    {
+      "close": 197.0,
+      "high": 202.45,
+      "low": 194.05,
+      "open": 201.5,
+      "time": "2026-10-01",
+      "volume": 6247340
     }
   ],
   "company_name": "Rail Vikas Nigam Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.56x"
+    "volume_multiplier": "1.12x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.25,
-    "change_pct": -2.05,
-    "close": 202.75,
-    "previous_close": 207.0,
+    "as_of": "2026-10-01",
+    "change": -4.76,
+    "change_pct": -2.36,
+    "close": 197.0,
+    "previous_close": 201.76,
     "type": "EOD_CLOSE",
-    "volume": 2550019
+    "volume": 6247340
   },
   "range": {
-    "distance_from_high_pct": -49.4,
-    "distance_from_low_pct": 3.89,
+    "distance_from_high_pct": -50.84,
+    "distance_from_low_pct": 1.52,
     "high_52w": 400.7,
     "history_basis": "52_WEEK",
-    "low_52w": 195.15,
-    "range_position_pct": 3.7
+    "low_52w": 194.05,
+    "range_position_pct": 1.43
   },
   "risk_model": {
-    "invalidation_floor": 195.65,
-    "risk_per_share": 11.16,
-    "technical_pivot": 206.81
+    "invalidation_floor": 190.1,
+    "risk_per_share": 10.84,
+    "technical_pivot": 200.94
   },
   "schema_version": "1.0",
   "sector": null,

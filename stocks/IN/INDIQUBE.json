@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 237.92,
-      "high": 239.4,
-      "low": 228.32,
-      "open": 229.4,
-      "time": "2025-09-19",
-      "volume": 770596
-    },
-    {
-      "close": 233.16,
-      "high": 243.8,
-      "low": 232.01,
-      "open": 238.0,
-      "time": "2025-09-22",
-      "volume": 771157
-    },
-    {
-      "close": 237.4,
-      "high": 240.0,
-      "low": 233.1,
-      "open": 233.4,
-      "time": "2025-09-23",
-      "volume": 648719
-    },
-    {
       "close": 232.1,
       "high": 241.0,
       "low": 226.6,
@@ -2017,13 +1993,37 @@
       "open": 198.93,
       "time": "2026-09-28",
       "volume": 33774
+    },
+    {
+      "close": 196.14,
+      "high": 199.8,
+      "low": 193.23,
+      "open": 199.8,
+      "time": "2026-09-29",
+      "volume": 57862
+    },
+    {
+      "close": 196.38,
+      "high": 199.48,
+      "low": 192.66,
+      "open": 197.54,
+      "time": "2026-09-30",
+      "volume": 19857
+    },
+    {
+      "close": 197.49,
+      "high": 200.0,
+      "low": 191.15,
+      "open": 195.0,
+      "time": "2026-10-01",
+      "volume": 25992
     }
   ],
   "company_name": "INDIQUBE SPACES LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.59x"
+    "volume_multiplier": "0.54x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.5,
-    "change_pct": 0.25,
-    "close": 199.44,
-    "previous_close": 198.94,
+    "as_of": "2026-10-01",
+    "change": 1.11,
+    "change_pct": 0.57,
+    "close": 197.49,
+    "previous_close": 196.38,
     "type": "EOD_CLOSE",
-    "volume": 33774
+    "volume": 25992
   },
   "range": {
-    "distance_from_high_pct": -18.2,
-    "distance_from_low_pct": 52.07,
-    "high_52w": 243.8,
+    "distance_from_high_pct": -18.05,
+    "distance_from_low_pct": 50.58,
+    "high_52w": 241.0,
     "history_basis": "52_WEEK",
     "low_52w": 131.15,
-    "range_position_pct": 60.62
+    "range_position_pct": 60.39
   },
   "risk_model": {
-    "invalidation_floor": 192.46,
-    "risk_per_share": 10.97,
-    "technical_pivot": 203.43
+    "invalidation_floor": 190.58,
+    "risk_per_share": 10.86,
+    "technical_pivot": 201.44
   },
   "schema_version": "1.0",
   "sector": null,

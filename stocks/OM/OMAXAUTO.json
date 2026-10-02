@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 149.21,
-      "high": 152.0,
-      "low": 142.12,
-      "open": 144.65,
-      "time": "2025-09-19",
-      "volume": 49705
-    },
-    {
-      "close": 151.14,
-      "high": 156.67,
-      "low": 148.51,
-      "open": 149.99,
-      "time": "2025-09-22",
-      "volume": 103446
-    },
-    {
-      "close": 151.48,
-      "high": 154.99,
-      "low": 148.25,
-      "open": 151.0,
-      "time": "2025-09-23",
-      "volume": 29676
-    },
-    {
       "close": 144.39,
       "high": 151.48,
       "low": 144.01,
@@ -2017,13 +1993,37 @@
       "open": 202.0,
       "time": "2026-09-28",
       "volume": 107657
+    },
+    {
+      "close": 198.48,
+      "high": 208.0,
+      "low": 196.36,
+      "open": 197.12,
+      "time": "2026-09-29",
+      "volume": 70700
+    },
+    {
+      "close": 200.32,
+      "high": 207.5,
+      "low": 198.02,
+      "open": 200.0,
+      "time": "2026-09-30",
+      "volume": 53737
+    },
+    {
+      "close": 201.14,
+      "high": 205.0,
+      "low": 190.81,
+      "open": 200.32,
+      "time": "2026-10-01",
+      "volume": 92836
     }
   ],
   "company_name": "OMAX AUTOS LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 54,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.23x"
+    "volume_multiplier": "1.07x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.31,
-    "change_pct": 0.15,
-    "close": 200.55,
-    "previous_close": 200.24,
+    "as_of": "2026-10-01",
+    "change": 0.82,
+    "change_pct": 0.41,
+    "close": 201.14,
+    "previous_close": 200.32,
     "type": "EOD_CLOSE",
-    "volume": 107657
+    "volume": 92836
   },
   "range": {
-    "distance_from_high_pct": -23.86,
-    "distance_from_low_pct": 137.34,
+    "distance_from_high_pct": -23.64,
+    "distance_from_low_pct": 138.04,
     "high_52w": 263.4,
     "history_basis": "52_WEEK",
     "low_52w": 84.5,
-    "range_position_pct": 64.87
+    "range_position_pct": 65.2
   },
   "risk_model": {
-    "invalidation_floor": 193.53,
-    "risk_per_share": 11.03,
-    "technical_pivot": 204.56
+    "invalidation_floor": 194.1,
+    "risk_per_share": 11.06,
+    "technical_pivot": 205.16
   },
   "schema_version": "1.0",
   "sector": null,

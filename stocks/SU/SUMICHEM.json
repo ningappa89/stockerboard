@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 601.8,
-      "high": 617.45,
-      "low": 555.8,
-      "open": 564.55,
-      "time": "2025-09-19",
-      "volume": 1612602
-    },
-    {
-      "close": 582.2,
-      "high": 605.0,
-      "low": 580.0,
-      "open": 601.8,
-      "time": "2025-09-22",
-      "volume": 377511
-    },
-    {
-      "close": 567.2,
-      "high": 582.15,
-      "low": 563.55,
-      "open": 580.1,
-      "time": "2025-09-23",
-      "volume": 310930
-    },
-    {
       "close": 563.2,
       "high": 569.9,
       "low": 561.0,
@@ -2017,13 +1993,37 @@
       "open": 446.6,
       "time": "2026-09-28",
       "volume": 221463
+    },
+    {
+      "close": 431.15,
+      "high": 435.1,
+      "low": 424.6,
+      "open": 435.0,
+      "time": "2026-09-29",
+      "volume": 221398
+    },
+    {
+      "close": 433.25,
+      "high": 445.9,
+      "low": 430.0,
+      "open": 430.0,
+      "time": "2026-09-30",
+      "volume": 261894
+    },
+    {
+      "close": 417.6,
+      "high": 432.15,
+      "low": 408.2,
+      "open": 426.25,
+      "time": "2026-10-01",
+      "volume": 886386
     }
   ],
   "company_name": "SUMITOMO CHEMICAL INDIA LIMITE",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Chemicals",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 45,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.81x"
+    "momentum_score": 49,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.75x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -12.6,
-    "change_pct": -2.82,
-    "close": 433.75,
-    "previous_close": 446.35,
+    "as_of": "2026-10-01",
+    "change": -15.65,
+    "change_pct": -3.61,
+    "close": 417.6,
+    "previous_close": 433.25,
     "type": "EOD_CLOSE",
-    "volume": 221463
+    "volume": 886386
   },
   "range": {
-    "distance_from_high_pct": -29.75,
-    "distance_from_low_pct": 19.62,
-    "high_52w": 617.45,
+    "distance_from_high_pct": -27.0,
+    "distance_from_low_pct": 15.17,
+    "high_52w": 572.05,
     "history_basis": "52_WEEK",
     "low_52w": 362.6,
-    "range_position_pct": 27.92
+    "range_position_pct": 26.26
   },
   "risk_model": {
-    "invalidation_floor": 418.57,
-    "risk_per_share": 23.86,
-    "technical_pivot": 442.43
+    "invalidation_floor": 402.98,
+    "risk_per_share": 22.97,
+    "technical_pivot": 425.95
   },
   "schema_version": "1.0",
   "sector": "Chemicals",

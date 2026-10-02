@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 26.43,
-      "high": 26.8,
-      "low": 24.25,
-      "open": 26.8,
-      "time": "2025-09-19",
-      "volume": 3845
-    },
-    {
-      "close": 26.5,
-      "high": 27.67,
-      "low": 25.5,
-      "open": 27.67,
-      "time": "2025-09-22",
-      "volume": 820
-    },
-    {
-      "close": 25.37,
-      "high": 27.45,
-      "low": 25.25,
-      "open": 25.97,
-      "time": "2025-09-23",
-      "volume": 1665
-    },
-    {
       "close": 26.24,
       "high": 26.63,
       "low": 24.16,
@@ -2017,13 +1993,37 @@
       "open": 26.01,
       "time": "2026-09-28",
       "volume": 34609
+    },
+    {
+      "close": 29.66,
+      "high": 29.66,
+      "low": 29.66,
+      "open": 29.66,
+      "time": "2026-09-29",
+      "volume": 14074
+    },
+    {
+      "close": 32.62,
+      "high": 32.62,
+      "low": 32.62,
+      "open": 32.62,
+      "time": "2026-09-30",
+      "volume": 3654
+    },
+    {
+      "close": 35.88,
+      "high": 35.88,
+      "low": 35.88,
+      "open": 35.88,
+      "time": "2026-10-01",
+      "volume": 8844
     }
   ],
   "company_name": "G-TEC JAINX EDUCATION LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 45,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "4.63x"
+    "is_stage2": true,
+    "momentum_score": 80,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.05x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.45,
-    "change_pct": 1.7,
-    "close": 26.97,
-    "previous_close": 26.52,
+    "as_of": "2026-10-01",
+    "change": 3.26,
+    "change_pct": 9.99,
+    "close": 35.88,
+    "previous_close": 32.62,
     "type": "EOD_CLOSE",
-    "volume": 34609
+    "volume": 8844
   },
   "range": {
-    "distance_from_high_pct": -29.67,
-    "distance_from_low_pct": 73.55,
+    "distance_from_high_pct": -6.44,
+    "distance_from_low_pct": 130.89,
     "high_52w": 38.35,
     "history_basis": "52_WEEK",
     "low_52w": 15.54,
-    "range_position_pct": 50.11
+    "range_position_pct": 89.17
   },
   "risk_model": {
-    "invalidation_floor": 26.03,
-    "risk_per_share": 1.48,
-    "technical_pivot": 27.51
+    "invalidation_floor": 34.62,
+    "risk_per_share": 1.98,
+    "technical_pivot": 36.6
   },
   "schema_version": "1.0",
   "sector": null,

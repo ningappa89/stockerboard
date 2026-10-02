@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 48.04,
-      "high": 48.25,
-      "low": 46.57,
-      "open": 47.55,
-      "time": "2025-09-19",
-      "volume": 20855537
-    },
-    {
-      "close": 48.83,
-      "high": 49.37,
-      "low": 47.7,
-      "open": 47.89,
-      "time": "2025-09-22",
-      "volume": 23188693
-    },
-    {
-      "close": 47.84,
-      "high": 49.03,
-      "low": 47.61,
-      "open": 48.99,
-      "time": "2025-09-23",
-      "volume": 10414579
-    },
-    {
       "close": 46.46,
       "high": 47.99,
       "low": 46.31,
@@ -2017,13 +1993,37 @@
       "open": 20.5,
       "time": "2026-09-28",
       "volume": 15330993
+    },
+    {
+      "close": 19.77,
+      "high": 20.15,
+      "low": 19.45,
+      "open": 19.9,
+      "time": "2026-09-29",
+      "volume": 32861231
+    },
+    {
+      "close": 19.69,
+      "high": 20.39,
+      "low": 19.63,
+      "open": 19.77,
+      "time": "2026-09-30",
+      "volume": 19097261
+    },
+    {
+      "close": 19.41,
+      "high": 19.99,
+      "low": 19.09,
+      "open": 19.65,
+      "time": "2026-10-01",
+      "volume": 28326462
     }
   ],
   "company_name": "RELIANCE POWER LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.83x"
+    "volume_multiplier": "1.38x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.61,
-    "change_pct": -2.97,
-    "close": 19.96,
-    "previous_close": 20.57,
+    "as_of": "2026-10-01",
+    "change": -0.28,
+    "change_pct": -1.42,
+    "close": 19.41,
+    "previous_close": 19.69,
     "type": "EOD_CLOSE",
-    "volume": 15330993
+    "volume": 28326462
   },
   "range": {
-    "distance_from_high_pct": -60.65,
-    "distance_from_low_pct": 0.81,
+    "distance_from_high_pct": -61.74,
+    "distance_from_low_pct": 1.68,
     "high_52w": 50.73,
     "history_basis": "52_WEEK",
-    "low_52w": 19.8,
-    "range_position_pct": 0.52
+    "low_52w": 19.09,
+    "range_position_pct": 1.01
   },
   "risk_model": {
-    "invalidation_floor": 19.26,
-    "risk_per_share": 1.1,
-    "technical_pivot": 20.36
+    "invalidation_floor": 18.73,
+    "risk_per_share": 1.07,
+    "technical_pivot": 19.8
   },
   "schema_version": "1.0",
   "sector": null,

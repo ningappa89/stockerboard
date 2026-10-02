@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 574.75,
-      "high": 585.0,
-      "low": 572.0,
-      "open": 582.0,
-      "time": "2025-09-19",
-      "volume": 86520
-    },
-    {
-      "close": 579.85,
-      "high": 589.0,
-      "low": 575.15,
-      "open": 576.1,
-      "time": "2025-09-22",
-      "volume": 151426
-    },
-    {
-      "close": 577.95,
-      "high": 582.65,
-      "low": 571.3,
-      "open": 579.85,
-      "time": "2025-09-23",
-      "volume": 111993
-    },
-    {
       "close": 570.3,
       "high": 577.0,
       "low": 568.15,
@@ -2017,13 +1993,37 @@
       "open": 351.0,
       "time": "2026-09-28",
       "volume": 167167
+    },
+    {
+      "close": 337.5,
+      "high": 342.5,
+      "low": 334.6,
+      "open": 340.0,
+      "time": "2026-09-29",
+      "volume": 106018
+    },
+    {
+      "close": 337.2,
+      "high": 345.5,
+      "low": 335.2,
+      "open": 340.5,
+      "time": "2026-09-30",
+      "volume": 113345
+    },
+    {
+      "close": 331.55,
+      "high": 338.0,
+      "low": 324.65,
+      "open": 338.0,
+      "time": "2026-10-01",
+      "volume": 157212
     }
   ],
   "company_name": "EMS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.27x"
+    "volume_multiplier": "0.77x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -12.35,
-    "change_pct": -3.48,
-    "close": 342.55,
-    "previous_close": 354.9,
+    "as_of": "2026-10-01",
+    "change": -5.65,
+    "change_pct": -1.68,
+    "close": 331.55,
+    "previous_close": 337.2,
     "type": "EOD_CLOSE",
-    "volume": 167167
+    "volume": 157212
   },
   "range": {
-    "distance_from_high_pct": -41.84,
-    "distance_from_low_pct": 33.78,
-    "high_52w": 589.0,
+    "distance_from_high_pct": -42.54,
+    "distance_from_low_pct": 29.49,
+    "high_52w": 577.0,
     "history_basis": "52_WEEK",
     "low_52w": 256.05,
-    "range_position_pct": 25.98
+    "range_position_pct": 23.52
   },
   "risk_model": {
-    "invalidation_floor": 330.56,
-    "risk_per_share": 18.84,
-    "technical_pivot": 349.4
+    "invalidation_floor": 319.95,
+    "risk_per_share": 18.23,
+    "technical_pivot": 338.18
   },
   "schema_version": "1.0",
   "sector": null,

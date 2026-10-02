@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 55.53,
-      "high": 58.79,
-      "low": 54.78,
-      "open": 57.5,
-      "time": "2025-09-18",
-      "volume": 141201
-    },
-    {
-      "close": 56.23,
-      "high": 56.5,
-      "low": 55.49,
-      "open": 55.5,
-      "time": "2025-09-19",
-      "volume": 13601
-    },
-    {
-      "close": 57.26,
-      "high": 59.0,
-      "low": 54.32,
-      "open": 57.8,
-      "time": "2025-09-22",
-      "volume": 67074
-    },
-    {
       "close": 56.11,
       "high": 57.88,
       "low": 55.7,
@@ -2017,13 +1993,37 @@
       "open": 22.23,
       "time": "2026-09-28",
       "volume": 2161
+    },
+    {
+      "close": 20.89,
+      "high": 20.9,
+      "low": 20.33,
+      "open": 20.9,
+      "time": "2026-09-29",
+      "volume": 12631
+    },
+    {
+      "close": 20.08,
+      "high": 21.89,
+      "low": 19.96,
+      "open": 20.87,
+      "time": "2026-09-30",
+      "volume": 8040
+    },
+    {
+      "close": 19.74,
+      "high": 20.9,
+      "low": 19.46,
+      "open": 20.9,
+      "time": "2026-10-01",
+      "volume": 5994
     }
   ],
   "company_name": "Dhruv Consultancy Services Lim",
   "history": {
-    "first_session": "2025-09-18",
+    "first_session": "2025-09-23",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.34x"
+    "volume_multiplier": "0.88x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.1,
-    "change_pct": -0.47,
-    "close": 21.4,
-    "previous_close": 21.5,
+    "as_of": "2026-10-01",
+    "change": -0.34,
+    "change_pct": -1.69,
+    "close": 19.74,
+    "previous_close": 20.08,
     "type": "EOD_CLOSE",
-    "volume": 2161
+    "volume": 5994
   },
   "range": {
-    "distance_from_high_pct": -63.73,
-    "distance_from_low_pct": 4.39,
-    "high_52w": 59.0,
+    "distance_from_high_pct": -65.91,
+    "distance_from_low_pct": 1.44,
+    "high_52w": 57.9,
     "history_basis": "52_WEEK",
-    "low_52w": 20.5,
-    "range_position_pct": 2.34
+    "low_52w": 19.46,
+    "range_position_pct": 0.73
   },
   "risk_model": {
-    "invalidation_floor": 20.65,
-    "risk_per_share": 1.18,
-    "technical_pivot": 21.83
+    "invalidation_floor": 19.05,
+    "risk_per_share": 1.08,
+    "technical_pivot": 20.13
   },
   "schema_version": "1.0",
   "sector": null,

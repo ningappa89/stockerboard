@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1427.8,
-      "high": 1460.0,
-      "low": 1425.0,
-      "open": 1447.8,
-      "time": "2025-09-19",
-      "volume": 8069167
-    },
-    {
-      "close": 1444.2,
-      "high": 1461.7,
-      "low": 1425.0,
-      "open": 1433.0,
-      "time": "2025-09-22",
-      "volume": 5490489
-    },
-    {
-      "close": 1441.6,
-      "high": 1455.0,
-      "low": 1423.1,
-      "open": 1453.0,
-      "time": "2025-09-23",
-      "volume": 2550337
-    },
-    {
       "close": 1431.6,
       "high": 1452.4,
       "low": 1429.1,
@@ -2017,13 +1993,37 @@
       "open": 1788.0,
       "time": "2026-09-28",
       "volume": 1262576
+    },
+    {
+      "close": 1822.0,
+      "high": 1822.0,
+      "low": 1738.4,
+      "open": 1755.2,
+      "time": "2026-09-29",
+      "volume": 4214197
+    },
+    {
+      "close": 1798.3,
+      "high": 1803.2,
+      "low": 1775.4,
+      "open": 1793.5,
+      "time": "2026-09-30",
+      "volume": 3199507
+    },
+    {
+      "close": 1737.8,
+      "high": 1786.0,
+      "low": 1716.0,
+      "open": 1786.0,
+      "time": "2026-10-01",
+      "volume": 2157928
     }
   ],
   "company_name": "ADANI PORTS AND SPECIAL ECONOM",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 78,
+    "momentum_score": 77,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.52x"
+    "volume_multiplier": "1.02x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -44.3,
-    "change_pct": -2.48,
-    "close": 1743.7,
-    "previous_close": 1788.0,
+    "as_of": "2026-10-01",
+    "change": -60.5,
+    "change_pct": -3.36,
+    "close": 1737.8,
+    "previous_close": 1798.3,
     "type": "EOD_CLOSE",
-    "volume": 1262576
+    "volume": 2157928
   },
   "range": {
-    "distance_from_high_pct": -7.79,
-    "distance_from_low_pct": 34.96,
+    "distance_from_high_pct": -8.11,
+    "distance_from_low_pct": 34.5,
     "high_52w": 1891.1,
     "history_basis": "52_WEEK",
     "low_52w": 1292.0,
-    "range_position_pct": 75.4
+    "range_position_pct": 74.41
   },
   "risk_model": {
-    "invalidation_floor": 1682.67,
-    "risk_per_share": 95.9,
-    "technical_pivot": 1778.57
+    "invalidation_floor": 1676.98,
+    "risk_per_share": 95.58,
+    "technical_pivot": 1772.56
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 107.44,
-      "high": 108.3,
-      "low": 106.4,
-      "open": 107.87,
-      "time": "2025-09-19",
-      "volume": 2510558
-    },
-    {
-      "close": 109.33,
-      "high": 110.1,
-      "low": 106.8,
-      "open": 107.3,
-      "time": "2025-09-22",
-      "volume": 1842988
-    },
-    {
-      "close": 111.66,
-      "high": 113.4,
-      "low": 109.99,
-      "open": 111.16,
-      "time": "2025-09-23",
-      "volume": 3922296
-    },
-    {
       "close": 112.14,
       "high": 112.89,
       "low": 110.08,
@@ -2017,13 +1993,37 @@
       "open": 89.0,
       "time": "2026-09-28",
       "volume": 944832
+    },
+    {
+      "close": 84.46,
+      "high": 88.3,
+      "low": 83.61,
+      "open": 86.78,
+      "time": "2026-09-29",
+      "volume": 5969074
+    },
+    {
+      "close": 85.48,
+      "high": 86.36,
+      "low": 84.7,
+      "open": 85.4,
+      "time": "2026-09-30",
+      "volume": 642934
+    },
+    {
+      "close": 84.19,
+      "high": 85.4,
+      "low": 83.05,
+      "open": 84.68,
+      "time": "2026-10-01",
+      "volume": 1235866
     }
   ],
   "company_name": "SBFC Finance Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 45,
+    "momentum_score": 42,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.59x"
+    "volume_multiplier": "1.03x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.04,
-    "change_pct": -2.3,
-    "close": 86.82,
-    "previous_close": 88.86,
+    "as_of": "2026-10-01",
+    "change": -1.29,
+    "change_pct": -1.51,
+    "close": 84.19,
+    "previous_close": 85.48,
     "type": "EOD_CLOSE",
-    "volume": 944832
+    "volume": 1235866
   },
   "range": {
-    "distance_from_high_pct": -29.41,
-    "distance_from_low_pct": 9.07,
+    "distance_from_high_pct": -31.55,
+    "distance_from_low_pct": 5.77,
     "high_52w": 123.0,
     "history_basis": "52_WEEK",
     "low_52w": 79.6,
-    "range_position_pct": 16.64
+    "range_position_pct": 10.58
   },
   "risk_model": {
-    "invalidation_floor": 83.78,
-    "risk_per_share": 4.78,
-    "technical_pivot": 88.56
+    "invalidation_floor": 81.24,
+    "risk_per_share": 4.63,
+    "technical_pivot": 85.87
   },
   "schema_version": "1.0",
   "sector": null,

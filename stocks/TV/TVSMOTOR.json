@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3529.4,
-      "high": 3546.0,
-      "low": 3515.7,
-      "open": 3544.1,
-      "time": "2025-09-19",
-      "volume": 469027
-    },
-    {
-      "close": 3525.6,
-      "high": 3569.5,
-      "low": 3520.9,
-      "open": 3537.0,
-      "time": "2025-09-22",
-      "volume": 364825
-    },
-    {
-      "close": 3512.7,
-      "high": 3599.9,
-      "low": 3496.4,
-      "open": 3538.8,
-      "time": "2025-09-23",
-      "volume": 491046
-    },
-    {
       "close": 3453.0,
       "high": 3515.4,
       "low": 3443.3,
@@ -2017,13 +1993,37 @@
       "open": 4140.0,
       "time": "2026-09-28",
       "volume": 574256
+    },
+    {
+      "close": 4091.1,
+      "high": 4149.0,
+      "low": 4037.2,
+      "open": 4075.0,
+      "time": "2026-09-29",
+      "volume": 765737
+    },
+    {
+      "close": 4106.0,
+      "high": 4174.7,
+      "low": 4084.1,
+      "open": 4100.0,
+      "time": "2026-09-30",
+      "volume": 605529
+    },
+    {
+      "close": 4021.0,
+      "high": 4100.0,
+      "low": 3930.1,
+      "open": 4090.0,
+      "time": "2026-10-01",
+      "volume": 1234692
     }
   ],
   "company_name": "TVS MOTOR COMPANY  LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Automobile and Auto Components",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 76,
+    "momentum_score": 74,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.72x"
+    "volume_multiplier": "1.82x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -62.3,
-    "change_pct": -1.5,
-    "close": 4095.0,
-    "previous_close": 4157.3,
+    "as_of": "2026-10-01",
+    "change": -85.0,
+    "change_pct": -2.07,
+    "close": 4021.0,
+    "previous_close": 4106.0,
     "type": "EOD_CLOSE",
-    "volume": 574256
+    "volume": 1234692
   },
   "range": {
-    "distance_from_high_pct": -8.69,
-    "distance_from_low_pct": 26.86,
+    "distance_from_high_pct": -10.34,
+    "distance_from_low_pct": 24.57,
     "high_52w": 4484.5,
     "history_basis": "52_WEEK",
     "low_52w": 3228.0,
-    "range_position_pct": 69.0
+    "range_position_pct": 63.11
   },
   "risk_model": {
-    "invalidation_floor": 3951.67,
-    "risk_per_share": 225.23,
-    "technical_pivot": 4176.9
+    "invalidation_floor": 3880.26,
+    "risk_per_share": 221.16,
+    "technical_pivot": 4101.42
   },
   "schema_version": "1.0",
   "sector": "Automobile and Auto Components",

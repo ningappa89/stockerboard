@@ -241,46 +241,70 @@
       "open": 42.85,
       "time": "2026-09-28",
       "volume": 13314
+    },
+    {
+      "close": 41.29,
+      "high": 43.9,
+      "low": 38.0,
+      "open": 38.6,
+      "time": "2026-09-29",
+      "volume": 13331
+    },
+    {
+      "close": 39.96,
+      "high": 41.94,
+      "low": 39.1,
+      "open": 41.29,
+      "time": "2026-09-30",
+      "volume": 3258
+    },
+    {
+      "close": 38.44,
+      "high": 40.0,
+      "low": 38.0,
+      "open": 38.03,
+      "time": "2026-10-01",
+      "volume": 7288
     }
   ],
   "company_name": "SWARNSARITA JEWELS INDIA LIMIT",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE967A01012",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 71,
+    "is_stage2": false,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.33x"
+    "volume_multiplier": "0.18x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.5,
-    "change_pct": -3.6,
-    "close": 40.18,
-    "previous_close": 41.68,
+    "as_of": "2026-10-01",
+    "change": -1.52,
+    "change_pct": -3.8,
+    "close": 38.44,
+    "previous_close": 39.96,
     "type": "EOD_CLOSE",
-    "volume": 13314
+    "volume": 7288
   },
   "range": {
-    "distance_from_high_pct": -12.08,
-    "distance_from_low_pct": 25.56,
+    "distance_from_high_pct": -15.89,
+    "distance_from_low_pct": 20.12,
     "high_52w": 45.7,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 32.0,
-    "range_position_pct": 59.71
+    "range_position_pct": 47.01
   },
   "risk_model": {
-    "invalidation_floor": 38.77,
-    "risk_per_share": 2.21,
-    "technical_pivot": 40.98
+    "invalidation_floor": 37.09,
+    "risk_per_share": 2.12,
+    "technical_pivot": 39.21
   },
   "schema_version": "1.0",
   "sector": null,

@@ -241,14 +241,38 @@
       "open": 10224.0,
       "time": "2026-09-28",
       "volume": 122
+    },
+    {
+      "close": 10215.0,
+      "high": 10500.0,
+      "low": 10067.0,
+      "open": 10399.0,
+      "time": "2026-09-29",
+      "volume": 166
+    },
+    {
+      "close": 10215.0,
+      "high": 10288.0,
+      "low": 10200.0,
+      "open": 10205.0,
+      "time": "2026-09-30",
+      "volume": 24
+    },
+    {
+      "close": 10249.0,
+      "high": 10249.0,
+      "low": 10195.0,
+      "open": 10202.0,
+      "time": "2026-10-01",
+      "volume": 82
     }
   ],
   "company_name": "BENARES HOTELS LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE664D01019",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 72,
+    "momentum_score": 73,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.9x"
+    "volume_multiplier": "0.6x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -74.0,
-    "change_pct": -0.72,
-    "close": 10150.0,
-    "previous_close": 10224.0,
+    "as_of": "2026-10-01",
+    "change": 34.0,
+    "change_pct": 0.33,
+    "close": 10249.0,
+    "previous_close": 10215.0,
     "type": "EOD_CLOSE",
-    "volume": 122
+    "volume": 82
   },
   "range": {
-    "distance_from_high_pct": -11.73,
-    "distance_from_low_pct": 1.86,
+    "distance_from_high_pct": -10.87,
+    "distance_from_low_pct": 2.85,
     "high_52w": 11499.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 9965.0,
-    "range_position_pct": 12.06
+    "range_position_pct": 18.51
   },
   "risk_model": {
-    "invalidation_floor": 9794.75,
-    "risk_per_share": 558.25,
-    "technical_pivot": 10353.0
+    "invalidation_floor": 9890.28,
+    "risk_per_share": 563.7,
+    "technical_pivot": 10453.98
   },
   "schema_version": "1.0",
   "sector": null,

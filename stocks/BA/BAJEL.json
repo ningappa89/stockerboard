@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 224.57,
-      "high": 226.69,
-      "low": 214.22,
-      "open": 216.0,
-      "time": "2025-09-19",
-      "volume": 940036
-    },
-    {
-      "close": 215.85,
-      "high": 224.52,
-      "low": 214.5,
-      "open": 224.52,
-      "time": "2025-09-22",
-      "volume": 284102
-    },
-    {
-      "close": 213.41,
-      "high": 217.89,
-      "low": 212.7,
-      "open": 216.0,
-      "time": "2025-09-23",
-      "volume": 135737
-    },
-    {
       "close": 212.12,
       "high": 216.9,
       "low": 210.53,
@@ -2017,13 +1993,37 @@
       "open": 171.39,
       "time": "2026-09-28",
       "volume": 75012
+    },
+    {
+      "close": 170.2,
+      "high": 171.6,
+      "low": 166.62,
+      "open": 169.01,
+      "time": "2026-09-29",
+      "volume": 153241
+    },
+    {
+      "close": 164.9,
+      "high": 172.56,
+      "low": 163.5,
+      "open": 168.93,
+      "time": "2026-09-30",
+      "volume": 199105
+    },
+    {
+      "close": 163.63,
+      "high": 165.39,
+      "low": 159.0,
+      "open": 164.9,
+      "time": "2026-10-01",
+      "volume": 151355
     }
   ],
   "company_name": "Bajel Projects Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 52,
+    "momentum_score": 51,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.46x"
+    "volume_multiplier": "0.97x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.67,
-    "change_pct": -2.12,
-    "close": 169.47,
-    "previous_close": 173.14,
+    "as_of": "2026-10-01",
+    "change": -1.27,
+    "change_pct": -0.77,
+    "close": 163.63,
+    "previous_close": 164.9,
     "type": "EOD_CLOSE",
-    "volume": 75012
+    "volume": 151355
   },
   "range": {
-    "distance_from_high_pct": -25.24,
-    "distance_from_low_pct": 25.44,
-    "high_52w": 226.69,
+    "distance_from_high_pct": -25.5,
+    "distance_from_low_pct": 21.12,
+    "high_52w": 219.64,
     "history_basis": "52_WEEK",
     "low_52w": 135.1,
-    "range_position_pct": 37.53
+    "range_position_pct": 33.75
   },
   "risk_model": {
-    "invalidation_floor": 163.54,
-    "risk_per_share": 9.32,
-    "technical_pivot": 172.86
+    "invalidation_floor": 157.9,
+    "risk_per_share": 9.0,
+    "technical_pivot": 166.9
   },
   "schema_version": "1.0",
   "sector": null,

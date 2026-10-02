@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 65.96,
-      "high": 69.0,
-      "low": 65.5,
-      "open": 65.52,
-      "time": "2025-09-11",
-      "volume": 1789
-    },
-    {
-      "close": 72.55,
-      "high": 72.55,
-      "low": 63.1,
-      "open": 64.64,
-      "time": "2025-09-12",
-      "volume": 35310
-    },
-    {
-      "close": 79.8,
-      "high": 79.8,
-      "low": 74.86,
-      "open": 74.86,
-      "time": "2025-09-15",
-      "volume": 23614
-    },
-    {
       "close": 81.82,
       "high": 87.78,
       "low": 81.0,
@@ -2017,13 +1993,37 @@
       "open": 59.75,
       "time": "2026-09-28",
       "volume": 888
+    },
+    {
+      "close": 61.99,
+      "high": 62.0,
+      "low": 57.0,
+      "open": 60.9,
+      "time": "2026-09-29",
+      "volume": 527
+    },
+    {
+      "close": 58.2,
+      "high": 63.7,
+      "low": 56.11,
+      "open": 63.7,
+      "time": "2026-09-30",
+      "volume": 317
+    },
+    {
+      "close": 59.96,
+      "high": 62.94,
+      "low": 53.6,
+      "open": 58.2,
+      "time": "2026-10-01",
+      "volume": 2305
     }
   ],
   "company_name": "N.K.INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-11",
+    "first_session": "2025-09-16",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 44,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.87x"
+    "momentum_score": 42,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.58x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.71,
-    "change_pct": 1.18,
-    "close": 61.07,
-    "previous_close": 60.36,
+    "as_of": "2026-10-01",
+    "change": 1.76,
+    "change_pct": 3.02,
+    "close": 59.96,
+    "previous_close": 58.2,
     "type": "EOD_CLOSE",
-    "volume": 888
+    "volume": 2305
   },
   "range": {
-    "distance_from_high_pct": -30.43,
-    "distance_from_low_pct": 22.98,
+    "distance_from_high_pct": -31.69,
+    "distance_from_low_pct": 20.74,
     "high_52w": 87.78,
     "history_basis": "52_WEEK",
     "low_52w": 49.66,
-    "range_position_pct": 29.93
+    "range_position_pct": 27.02
   },
   "risk_model": {
-    "invalidation_floor": 58.93,
-    "risk_per_share": 3.36,
-    "technical_pivot": 62.29
+    "invalidation_floor": 57.86,
+    "risk_per_share": 3.3,
+    "technical_pivot": 61.16
   },
   "schema_version": "1.0",
   "sector": null,

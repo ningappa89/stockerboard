@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 839.7,
-      "high": 847.8,
-      "low": 836.1,
-      "open": 845.0,
-      "time": "2025-09-19",
-      "volume": 80818
-    },
-    {
-      "close": 827.65,
-      "high": 845.4,
-      "low": 824.3,
-      "open": 839.7,
-      "time": "2025-09-22",
-      "volume": 97367
-    },
-    {
-      "close": 862.1,
-      "high": 874.4,
-      "low": 838.0,
-      "open": 838.0,
-      "time": "2025-09-23",
-      "volume": 539803
-    },
-    {
       "close": 908.1,
       "high": 913.95,
       "low": 856.9,
@@ -2017,13 +1993,37 @@
       "open": 798.0,
       "time": "2026-09-28",
       "volume": 141280
+    },
+    {
+      "close": 792.9,
+      "high": 808.4,
+      "low": 781.1,
+      "open": 804.8,
+      "time": "2026-09-29",
+      "volume": 100537
+    },
+    {
+      "close": 804.4,
+      "high": 816.0,
+      "low": 790.05,
+      "open": 791.9,
+      "time": "2026-09-30",
+      "volume": 112338
+    },
+    {
+      "close": 790.8,
+      "high": 802.35,
+      "low": 776.45,
+      "open": 795.5,
+      "time": "2026-10-01",
+      "volume": 124574
     }
   ],
   "company_name": "AGI GREENPAC LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 68,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "0.59x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 1.45,
-    "change_pct": 0.18,
-    "close": 804.8,
-    "previous_close": 803.35,
+    "as_of": "2026-10-01",
+    "change": -13.6,
+    "change_pct": -1.69,
+    "close": 790.8,
+    "previous_close": 804.4,
     "type": "EOD_CLOSE",
-    "volume": 141280
+    "volume": 124574
   },
   "range": {
-    "distance_from_high_pct": -14.29,
-    "distance_from_low_pct": 73.08,
+    "distance_from_high_pct": -15.78,
+    "distance_from_low_pct": 70.06,
     "high_52w": 939.0,
     "history_basis": "52_WEEK",
     "low_52w": 465.0,
-    "range_position_pct": 71.69
+    "range_position_pct": 68.73
   },
   "risk_model": {
-    "invalidation_floor": 776.63,
-    "risk_per_share": 44.27,
-    "technical_pivot": 820.9
+    "invalidation_floor": 763.12,
+    "risk_per_share": 43.5,
+    "technical_pivot": 806.62
   },
   "schema_version": "1.0",
   "sector": null,

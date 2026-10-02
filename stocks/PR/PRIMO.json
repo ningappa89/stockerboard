@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 25.82,
-      "high": 26.27,
-      "low": 25.65,
-      "open": 26.27,
-      "time": "2025-09-19",
-      "volume": 78639
-    },
-    {
-      "close": 25.94,
-      "high": 26.37,
-      "low": 25.52,
-      "open": 25.56,
-      "time": "2025-09-22",
-      "volume": 84700
-    },
-    {
-      "close": 25.71,
-      "high": 25.99,
-      "low": 25.43,
-      "open": 25.99,
-      "time": "2025-09-23",
-      "volume": 37346
-    },
-    {
       "close": 25.4,
       "high": 25.91,
       "low": 25.32,
@@ -2017,13 +1993,37 @@
       "open": 26.0,
       "time": "2026-09-28",
       "volume": 4154950
+    },
+    {
+      "close": 27.38,
+      "high": 29.12,
+      "low": 25.94,
+      "open": 28.99,
+      "time": "2026-09-29",
+      "volume": 1302676
+    },
+    {
+      "close": 26.64,
+      "high": 28.0,
+      "low": 26.4,
+      "open": 27.9,
+      "time": "2026-09-30",
+      "volume": 448253
+    },
+    {
+      "close": 25.41,
+      "high": 26.96,
+      "low": 24.67,
+      "open": 26.96,
+      "time": "2026-10-01",
+      "volume": 449481
     }
   ],
   "company_name": "Primo Chemicals Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 81,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "9.06x"
+    "is_stage2": false,
+    "momentum_score": 67,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.81x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 2.85,
-    "change_pct": 11.27,
-    "close": 28.13,
-    "previous_close": 25.28,
+    "as_of": "2026-10-01",
+    "change": -1.23,
+    "change_pct": -4.62,
+    "close": 25.41,
+    "previous_close": 26.64,
     "type": "EOD_CLOSE",
-    "volume": 4154950
+    "volume": 449481
   },
   "range": {
-    "distance_from_high_pct": -5.6,
-    "distance_from_low_pct": 74.72,
+    "distance_from_high_pct": -14.73,
+    "distance_from_low_pct": 57.83,
     "high_52w": 29.8,
     "history_basis": "52_WEEK",
     "low_52w": 16.1,
-    "range_position_pct": 87.81
+    "range_position_pct": 67.96
   },
   "risk_model": {
-    "invalidation_floor": 27.15,
-    "risk_per_share": 1.54,
-    "technical_pivot": 28.69
+    "invalidation_floor": 24.52,
+    "risk_per_share": 1.4,
+    "technical_pivot": 25.92
   },
   "schema_version": "1.0",
   "sector": null,

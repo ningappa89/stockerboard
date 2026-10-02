@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 224.45,
-      "high": 227.67,
-      "low": 215.5,
-      "open": 215.6,
-      "time": "2025-09-19",
-      "volume": 184600
-    },
-    {
-      "close": 232.3,
-      "high": 235.67,
-      "low": 220.1,
-      "open": 222.2,
-      "time": "2025-09-22",
-      "volume": 402132
-    },
-    {
-      "close": 224.82,
-      "high": 234.45,
-      "low": 224.15,
-      "open": 233.4,
-      "time": "2025-09-23",
-      "volume": 177465
-    },
-    {
       "close": 221.81,
       "high": 227.58,
       "low": 220.42,
@@ -2017,13 +1993,37 @@
       "open": 335.0,
       "time": "2026-09-28",
       "volume": 374676
+    },
+    {
+      "close": 324.75,
+      "high": 331.8,
+      "low": 320.0,
+      "open": 321.6,
+      "time": "2026-09-29",
+      "volume": 1068199
+    },
+    {
+      "close": 320.2,
+      "high": 328.5,
+      "low": 315.6,
+      "open": 326.0,
+      "time": "2026-09-30",
+      "volume": 402663
+    },
+    {
+      "close": 308.3,
+      "high": 319.35,
+      "low": 301.1,
+      "open": 319.0,
+      "time": "2026-10-01",
+      "volume": 713418
     }
   ],
   "company_name": "SUVEN LIFE SCIENCES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 59,
+    "momentum_score": 54,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.62x"
+    "volume_multiplier": "1.28x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -13.35,
-    "change_pct": -3.99,
-    "close": 321.65,
-    "previous_close": 335.0,
+    "as_of": "2026-10-01",
+    "change": -11.9,
+    "change_pct": -3.72,
+    "close": 308.3,
+    "previous_close": 320.2,
     "type": "EOD_CLOSE",
-    "volume": 374676
+    "volume": 713418
   },
   "range": {
-    "distance_from_high_pct": -20.26,
-    "distance_from_low_pct": 159.17,
+    "distance_from_high_pct": -23.57,
+    "distance_from_low_pct": 148.41,
     "high_52w": 403.35,
     "history_basis": "52_WEEK",
     "low_52w": 124.11,
-    "range_position_pct": 70.74
+    "range_position_pct": 65.96
   },
   "risk_model": {
-    "invalidation_floor": 310.39,
-    "risk_per_share": 17.69,
-    "technical_pivot": 328.08
+    "invalidation_floor": 297.51,
+    "risk_per_share": 16.96,
+    "technical_pivot": 314.47
   },
   "schema_version": "1.0",
   "sector": null,

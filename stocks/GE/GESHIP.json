@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1054.4,
-      "high": 1064.8,
-      "low": 1047.55,
-      "open": 1058.0,
-      "time": "2025-09-19",
-      "volume": 676543
-    },
-    {
-      "close": 1047.85,
-      "high": 1087.5,
-      "low": 1041.75,
-      "open": 1062.9,
-      "time": "2025-09-22",
-      "volume": 828207
-    },
-    {
-      "close": 1042.0,
-      "high": 1060.0,
-      "low": 1035.0,
-      "open": 1052.0,
-      "time": "2025-09-23",
-      "volume": 452648
-    },
-    {
       "close": 1028.95,
       "high": 1055.5,
       "low": 1016.05,
@@ -2017,13 +1993,37 @@
       "open": 1515.0,
       "time": "2026-09-28",
       "volume": 3277779
+    },
+    {
+      "close": 1537.8,
+      "high": 1582.0,
+      "low": 1526.1,
+      "open": 1533.4,
+      "time": "2026-09-29",
+      "volume": 2264928
+    },
+    {
+      "close": 1560.0,
+      "high": 1583.0,
+      "low": 1538.0,
+      "open": 1538.0,
+      "time": "2026-09-30",
+      "volume": 938291
+    },
+    {
+      "close": 1530.6,
+      "high": 1554.2,
+      "low": 1518.0,
+      "open": 1548.0,
+      "time": "2026-10-01",
+      "volume": 574389
     }
   ],
   "company_name": "GREAT EASTERN SHIPPING CO.LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 67,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "3.39x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.56x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 36.2,
-    "change_pct": 2.42,
-    "close": 1533.4,
-    "previous_close": 1497.2,
+    "as_of": "2026-10-01",
+    "change": -29.4,
+    "change_pct": -1.88,
+    "close": 1530.6,
+    "previous_close": 1560.0,
     "type": "EOD_CLOSE",
-    "volume": 3277779
+    "volume": 574389
   },
   "range": {
-    "distance_from_high_pct": -14.72,
-    "distance_from_low_pct": 57.9,
+    "distance_from_high_pct": -14.87,
+    "distance_from_low_pct": 57.62,
     "high_52w": 1798.0,
     "history_basis": "52_WEEK",
     "low_52w": 971.1,
-    "range_position_pct": 68.0
+    "range_position_pct": 67.66
   },
   "risk_model": {
-    "invalidation_floor": 1479.73,
-    "risk_per_share": 84.34,
-    "technical_pivot": 1564.07
+    "invalidation_floor": 1477.03,
+    "risk_per_share": 84.18,
+    "technical_pivot": 1561.21
   },
   "schema_version": "1.0",
   "sector": null,

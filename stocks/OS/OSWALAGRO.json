@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 75.57,
-      "high": 76.76,
-      "low": 75.4,
-      "open": 76.1,
-      "time": "2025-09-19",
-      "volume": 58775
-    },
-    {
-      "close": 74.87,
-      "high": 76.25,
-      "low": 74.7,
-      "open": 75.15,
-      "time": "2025-09-22",
-      "volume": 56009
-    },
-    {
-      "close": 74.37,
-      "high": 75.84,
-      "low": 74.01,
-      "open": 75.84,
-      "time": "2025-09-23",
-      "volume": 57559
-    },
-    {
       "close": 74.51,
       "high": 75.35,
       "low": 74.3,
@@ -2017,13 +1993,37 @@
       "open": 34.0,
       "time": "2026-09-28",
       "volume": 8685
+    },
+    {
+      "close": 34.9,
+      "high": 35.5,
+      "low": 33.01,
+      "open": 33.01,
+      "time": "2026-09-29",
+      "volume": 136463
+    },
+    {
+      "close": 33.95,
+      "high": 34.97,
+      "low": 33.7,
+      "open": 34.75,
+      "time": "2026-09-30",
+      "volume": 89147
+    },
+    {
+      "close": 33.11,
+      "high": 34.96,
+      "low": 32.7,
+      "open": 34.55,
+      "time": "2026-10-01",
+      "volume": 17403
     }
   ],
   "company_name": "OSWAL AGRO MILLS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.26x"
+    "volume_multiplier": "0.45x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.33,
-    "change_pct": -0.97,
-    "close": 33.67,
-    "previous_close": 34.0,
+    "as_of": "2026-10-01",
+    "change": -0.84,
+    "change_pct": -2.47,
+    "close": 33.11,
+    "previous_close": 33.95,
     "type": "EOD_CLOSE",
-    "volume": 8685
+    "volume": 17403
   },
   "range": {
-    "distance_from_high_pct": -58.43,
-    "distance_from_low_pct": 4.05,
+    "distance_from_high_pct": -59.12,
+    "distance_from_low_pct": 2.32,
     "high_52w": 81.0,
     "history_basis": "52_WEEK",
     "low_52w": 32.36,
-    "range_position_pct": 2.69
+    "range_position_pct": 1.54
   },
   "risk_model": {
-    "invalidation_floor": 32.49,
-    "risk_per_share": 1.85,
-    "technical_pivot": 34.34
+    "invalidation_floor": 31.95,
+    "risk_per_share": 1.82,
+    "technical_pivot": 33.77
   },
   "schema_version": "1.0",
   "sector": null,

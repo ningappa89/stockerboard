@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 92.11,
-      "high": 93.15,
-      "low": 89.31,
-      "open": 90.2,
-      "time": "2025-09-19",
-      "volume": 15265494
-    },
-    {
-      "close": 93.48,
-      "high": 94.95,
-      "low": 91.18,
-      "open": 92.11,
-      "time": "2025-09-22",
-      "volume": 16606924
-    },
-    {
-      "close": 92.03,
-      "high": 93.43,
-      "low": 90.85,
-      "open": 93.21,
-      "time": "2025-09-23",
-      "volume": 6807741
-    },
-    {
       "close": 91.13,
       "high": 92.74,
       "low": 90.6,
@@ -2017,13 +1993,37 @@
       "open": 49.24,
       "time": "2026-09-28",
       "volume": 3614922
+    },
+    {
+      "close": 46.24,
+      "high": 47.72,
+      "low": 46.0,
+      "open": 47.59,
+      "time": "2026-09-29",
+      "volume": 12856547
+    },
+    {
+      "close": 46.32,
+      "high": 47.29,
+      "low": 45.97,
+      "open": 46.6,
+      "time": "2026-09-30",
+      "volume": 3805401
+    },
+    {
+      "close": 44.53,
+      "high": 46.5,
+      "low": 44.04,
+      "open": 46.2,
+      "time": "2026-10-01",
+      "volume": 5512411
     }
   ],
   "company_name": "Aditya Birla Fashion and Retai",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.8x"
+    "volume_multiplier": "1.11x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.55,
-    "change_pct": -3.15,
-    "close": 47.59,
-    "previous_close": 49.14,
+    "as_of": "2026-10-01",
+    "change": -1.79,
+    "change_pct": -3.86,
+    "close": 44.53,
+    "previous_close": 46.32,
     "type": "EOD_CLOSE",
-    "volume": 3614922
+    "volume": 5512411
   },
   "range": {
-    "distance_from_high_pct": -49.88,
-    "distance_from_low_pct": 0.72,
-    "high_52w": 94.95,
+    "distance_from_high_pct": -51.98,
+    "distance_from_low_pct": 1.11,
+    "high_52w": 92.74,
     "history_basis": "52_WEEK",
-    "low_52w": 47.25,
-    "range_position_pct": 0.71
+    "low_52w": 44.04,
+    "range_position_pct": 1.01
   },
   "risk_model": {
-    "invalidation_floor": 45.92,
-    "risk_per_share": 2.62,
-    "technical_pivot": 48.54
+    "invalidation_floor": 42.97,
+    "risk_per_share": 2.45,
+    "technical_pivot": 45.42
   },
   "schema_version": "1.0",
   "sector": null,

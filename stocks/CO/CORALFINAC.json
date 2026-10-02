@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 46.2,
-      "high": 48.0,
-      "low": 46.0,
-      "open": 47.3,
-      "time": "2025-09-19",
-      "volume": 21314
-    },
-    {
-      "close": 45.13,
-      "high": 46.49,
-      "low": 45.1,
-      "open": 46.0,
-      "time": "2025-09-22",
-      "volume": 16765
-    },
-    {
-      "close": 44.67,
-      "high": 45.89,
-      "low": 44.55,
-      "open": 44.92,
-      "time": "2025-09-23",
-      "volume": 17160
-    },
-    {
       "close": 44.75,
       "high": 45.63,
       "low": 44.41,
@@ -2017,13 +1993,37 @@
       "open": 31.3,
       "time": "2026-09-28",
       "volume": 7736
+    },
+    {
+      "close": 32.17,
+      "high": 32.85,
+      "low": 31.06,
+      "open": 31.98,
+      "time": "2026-09-29",
+      "volume": 28066
+    },
+    {
+      "close": 31.55,
+      "high": 32.77,
+      "low": 31.43,
+      "open": 32.77,
+      "time": "2026-09-30",
+      "volume": 10305
+    },
+    {
+      "close": 31.25,
+      "high": 31.99,
+      "low": 30.85,
+      "open": 31.7,
+      "time": "2026-10-01",
+      "volume": 13756
     }
   ],
   "company_name": "CORAL INDIA FINANCE & HOUSING",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.58x"
+    "volume_multiplier": "1.04x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.35,
-    "change_pct": -1.1,
-    "close": 31.42,
-    "previous_close": 31.77,
+    "as_of": "2026-10-01",
+    "change": -0.3,
+    "change_pct": -0.95,
+    "close": 31.25,
+    "previous_close": 31.55,
     "type": "EOD_CLOSE",
-    "volume": 7736
+    "volume": 13756
   },
   "range": {
-    "distance_from_high_pct": -34.54,
-    "distance_from_low_pct": 25.63,
-    "high_52w": 48.0,
+    "distance_from_high_pct": -33.78,
+    "distance_from_low_pct": 24.95,
+    "high_52w": 47.19,
     "history_basis": "52_WEEK",
     "low_52w": 25.01,
-    "range_position_pct": 27.88
+    "range_position_pct": 28.13
   },
   "risk_model": {
-    "invalidation_floor": 30.32,
-    "risk_per_share": 1.73,
-    "technical_pivot": 32.05
+    "invalidation_floor": 30.16,
+    "risk_per_share": 1.72,
+    "technical_pivot": 31.88
   },
   "schema_version": "1.0",
   "sector": null,

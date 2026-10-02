@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 243.62,
-      "high": 247.77,
-      "low": 243.04,
-      "open": 246.5,
-      "time": "2025-09-19",
-      "volume": 3704175
-    },
-    {
-      "close": 242.4,
-      "high": 245.79,
-      "low": 241.82,
-      "open": 242.39,
-      "time": "2025-09-22",
-      "volume": 4006232
-    },
-    {
-      "close": 237.71,
-      "high": 243.56,
-      "low": 237.1,
-      "open": 243.1,
-      "time": "2025-09-23",
-      "volume": 2661574
-    },
-    {
       "close": 237.05,
       "high": 239.99,
       "low": 236.0,
@@ -2017,13 +1993,37 @@
       "open": 332.1,
       "time": "2026-09-28",
       "volume": 3504134
+    },
+    {
+      "close": 327.35,
+      "high": 329.8,
+      "low": 319.25,
+      "open": 325.5,
+      "time": "2026-09-29",
+      "volume": 4395026
+    },
+    {
+      "close": 320.0,
+      "high": 330.55,
+      "low": 320.0,
+      "open": 327.0,
+      "time": "2026-09-30",
+      "volume": 3980003
+    },
+    {
+      "close": 324.95,
+      "high": 324.95,
+      "low": 316.0,
+      "open": 317.0,
+      "time": "2026-10-01",
+      "volume": 7907193
     }
   ],
   "company_name": "FSN E-Commerce Ventures Limite",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": true,
     "momentum_score": 79,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.86x"
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "2.02x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -8.2,
-    "change_pct": -2.46,
-    "close": 325.5,
-    "previous_close": 333.7,
+    "as_of": "2026-10-01",
+    "change": 4.95,
+    "change_pct": 1.55,
+    "close": 324.95,
+    "previous_close": 320.0,
     "type": "EOD_CLOSE",
-    "volume": 3504134
+    "volume": 7907193
   },
   "range": {
-    "distance_from_high_pct": -6.88,
-    "distance_from_low_pct": 42.83,
+    "distance_from_high_pct": -7.04,
+    "distance_from_low_pct": 42.58,
     "high_52w": 349.55,
     "history_basis": "52_WEEK",
     "low_52w": 227.9,
-    "range_position_pct": 80.23
+    "range_position_pct": 79.78
   },
   "risk_model": {
-    "invalidation_floor": 314.11,
-    "risk_per_share": 17.9,
-    "technical_pivot": 332.01
+    "invalidation_floor": 313.58,
+    "risk_per_share": 17.87,
+    "technical_pivot": 331.45
   },
   "schema_version": "1.0",
   "sector": null,

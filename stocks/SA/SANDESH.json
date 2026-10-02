@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1199.3,
-      "high": 1215.0,
-      "low": 1194.6,
-      "open": 1212.9,
-      "time": "2025-09-19",
-      "volume": 523
-    },
-    {
-      "close": 1193.3,
-      "high": 1207.4,
-      "low": 1176.1,
-      "open": 1176.1,
-      "time": "2025-09-22",
-      "volume": 399
-    },
-    {
-      "close": 1199.7,
-      "high": 1211.9,
-      "low": 1171.9,
-      "open": 1191.0,
-      "time": "2025-09-23",
-      "volume": 613
-    },
-    {
       "close": 1206.6,
       "high": 1239.9,
       "low": 1180.3,
@@ -2017,13 +1993,37 @@
       "open": 1034.4,
       "time": "2026-09-28",
       "volume": 563
+    },
+    {
+      "close": 1029.6,
+      "high": 1049.4,
+      "low": 1001.0,
+      "open": 1020.1,
+      "time": "2026-09-29",
+      "volume": 218
+    },
+    {
+      "close": 999.3,
+      "high": 1037.4,
+      "low": 990.6,
+      "open": 1023.1,
+      "time": "2026-09-30",
+      "volume": 1002
+    },
+    {
+      "close": 990.05,
+      "high": 1000.4,
+      "low": 980.1,
+      "open": 1000.4,
+      "time": "2026-10-01",
+      "volume": 302
     }
   ],
   "company_name": "SANDESH LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 61,
+    "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.57x"
+    "volume_multiplier": "0.44x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -6.5,
-    "change_pct": -0.63,
-    "close": 1027.9,
-    "previous_close": 1034.4,
+    "as_of": "2026-10-01",
+    "change": -9.25,
+    "change_pct": -0.93,
+    "close": 990.05,
+    "previous_close": 999.3,
     "type": "EOD_CLOSE",
-    "volume": 563
+    "volume": 302
   },
   "range": {
-    "distance_from_high_pct": -19.06,
-    "distance_from_low_pct": 26.74,
+    "distance_from_high_pct": -22.04,
+    "distance_from_low_pct": 22.08,
     "high_52w": 1270.0,
     "history_basis": "52_WEEK",
     "low_52w": 811.0,
-    "range_position_pct": 47.25
+    "range_position_pct": 39.01
   },
   "risk_model": {
-    "invalidation_floor": 991.92,
-    "risk_per_share": 56.54,
-    "technical_pivot": 1048.46
+    "invalidation_floor": 955.4,
+    "risk_per_share": 54.45,
+    "technical_pivot": 1009.85
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 611.7,
-      "high": 624.8,
-      "low": 610.0,
-      "open": 623.25,
-      "time": "2025-09-19",
-      "volume": 175967
-    },
-    {
-      "close": 618.05,
-      "high": 622.9,
-      "low": 611.9,
-      "open": 612.0,
-      "time": "2025-09-22",
-      "volume": 126101
-    },
-    {
-      "close": 611.95,
-      "high": 619.0,
-      "low": 609.25,
-      "open": 619.0,
-      "time": "2025-09-23",
-      "volume": 72657
-    },
-    {
       "close": 597.85,
       "high": 611.95,
       "low": 596.2,
@@ -2017,13 +1993,37 @@
       "open": 338.45,
       "time": "2026-09-28",
       "volume": 232646
+    },
+    {
+      "close": 333.35,
+      "high": 336.5,
+      "low": 325.6,
+      "open": 332.6,
+      "time": "2026-09-29",
+      "volume": 213489
+    },
+    {
+      "close": 325.55,
+      "high": 337.55,
+      "low": 324.1,
+      "open": 330.0,
+      "time": "2026-09-30",
+      "volume": 174282
+    },
+    {
+      "close": 323.1,
+      "high": 327.5,
+      "low": 314.0,
+      "open": 325.0,
+      "time": "2026-10-01",
+      "volume": 260574
     }
   ],
   "company_name": "CELLO WORLD LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.71x"
+    "volume_multiplier": "0.78x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.9,
-    "change_pct": -1.74,
-    "close": 332.6,
-    "previous_close": 338.5,
+    "as_of": "2026-10-01",
+    "change": -2.45,
+    "change_pct": -0.75,
+    "close": 323.1,
+    "previous_close": 325.55,
     "type": "EOD_CLOSE",
-    "volume": 232646
+    "volume": 260574
   },
   "range": {
-    "distance_from_high_pct": -50.64,
-    "distance_from_low_pct": 5.72,
+    "distance_from_high_pct": -52.05,
+    "distance_from_low_pct": 2.9,
     "high_52w": 673.8,
     "history_basis": "52_WEEK",
-    "low_52w": 314.6,
-    "range_position_pct": 5.01
+    "low_52w": 314.0,
+    "range_position_pct": 2.53
   },
   "risk_model": {
-    "invalidation_floor": 320.96,
-    "risk_per_share": 18.29,
-    "technical_pivot": 339.25
+    "invalidation_floor": 311.79,
+    "risk_per_share": 17.77,
+    "technical_pivot": 329.56
   },
   "schema_version": "1.0",
   "sector": null,

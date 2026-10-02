@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 13.9,
-      "high": 14.18,
-      "low": 13.68,
-      "open": 14.18,
-      "time": "2025-09-19",
-      "volume": 6136
-    },
-    {
-      "close": 13.84,
-      "high": 14.39,
-      "low": 13.69,
-      "open": 13.9,
-      "time": "2025-09-22",
-      "volume": 8838
-    },
-    {
-      "close": 13.95,
-      "high": 15.22,
-      "low": 13.83,
-      "open": 13.83,
-      "time": "2025-09-23",
-      "volume": 8848
-    },
-    {
       "close": 13.94,
       "high": 14.25,
       "low": 13.65,
@@ -2017,13 +1993,37 @@
       "open": 10.3,
       "time": "2026-09-28",
       "volume": 677
+    },
+    {
+      "close": 10.64,
+      "high": 11.32,
+      "low": 10.27,
+      "open": 10.27,
+      "time": "2026-09-29",
+      "volume": 5574
+    },
+    {
+      "close": 10.31,
+      "high": 11.15,
+      "low": 10.11,
+      "open": 10.64,
+      "time": "2026-09-30",
+      "volume": 16320
+    },
+    {
+      "close": 10.57,
+      "high": 10.67,
+      "low": 9.85,
+      "open": 10.31,
+      "time": "2026-10-01",
+      "volume": 1715
     }
   ],
   "company_name": "GLOBALE TESSILE LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 45,
+    "momentum_score": 42,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.16x"
+    "volume_multiplier": "0.34x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.21,
-    "change_pct": 1.98,
-    "close": 10.8,
-    "previous_close": 10.59,
+    "as_of": "2026-10-01",
+    "change": 0.26,
+    "change_pct": 2.52,
+    "close": 10.57,
+    "previous_close": 10.31,
     "type": "EOD_CLOSE",
-    "volume": 677
+    "volume": 1715
   },
   "range": {
-    "distance_from_high_pct": -29.87,
-    "distance_from_low_pct": 17.39,
+    "distance_from_high_pct": -31.36,
+    "distance_from_low_pct": 14.89,
     "high_52w": 15.4,
     "history_basis": "52_WEEK",
     "low_52w": 9.2,
-    "range_position_pct": 25.81
+    "range_position_pct": 22.1
   },
   "risk_model": {
-    "invalidation_floor": 10.42,
-    "risk_per_share": 0.6,
-    "technical_pivot": 11.02
+    "invalidation_floor": 10.2,
+    "risk_per_share": 0.58,
+    "technical_pivot": 10.78
   },
   "schema_version": "1.0",
   "sector": null,

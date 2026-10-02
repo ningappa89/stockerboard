@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 21.8,
-      "high": 22.05,
-      "low": 21.62,
-      "open": 22.04,
-      "time": "2025-09-19",
-      "volume": 21366986
-    },
-    {
-      "close": 21.73,
-      "high": 21.98,
-      "low": 21.65,
-      "open": 21.8,
-      "time": "2025-09-22",
-      "volume": 10330118
-    },
-    {
-      "close": 21.56,
-      "high": 21.79,
-      "low": 21.45,
-      "open": 21.68,
-      "time": "2025-09-23",
-      "volume": 8727384
-    },
-    {
       "close": 21.2,
       "high": 21.69,
       "low": 21.16,
@@ -2017,13 +1993,37 @@
       "open": 17.6,
       "time": "2026-09-28",
       "volume": 13407269
+    },
+    {
+      "close": 16.98,
+      "high": 17.12,
+      "low": 16.75,
+      "open": 17.12,
+      "time": "2026-09-29",
+      "volume": 14681424
+    },
+    {
+      "close": 17.49,
+      "high": 17.57,
+      "low": 16.92,
+      "open": 16.98,
+      "time": "2026-09-30",
+      "volume": 15971102
+    },
+    {
+      "close": 17.0,
+      "high": 17.2,
+      "low": 16.82,
+      "open": 17.2,
+      "time": "2026-10-01",
+      "volume": 10838420
     }
   ],
   "company_name": "IRB INFRASTRUCTURE DEVELOPERS",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 47,
+    "momentum_score": 46,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.67x"
+    "volume_multiplier": "0.63x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.54,
-    "change_pct": -3.05,
-    "close": 17.14,
-    "previous_close": 17.68,
+    "as_of": "2026-10-01",
+    "change": -0.49,
+    "change_pct": -2.8,
+    "close": 17.0,
+    "previous_close": 17.49,
     "type": "EOD_CLOSE",
-    "volume": 13407269
+    "volume": 10838420
   },
   "range": {
-    "distance_from_high_pct": -28.43,
-    "distance_from_low_pct": 0.41,
+    "distance_from_high_pct": -29.02,
+    "distance_from_low_pct": 1.49,
     "high_52w": 23.95,
     "history_basis": "52_WEEK",
-    "low_52w": 17.07,
-    "range_position_pct": 1.02
+    "low_52w": 16.75,
+    "range_position_pct": 3.47
   },
   "risk_model": {
-    "invalidation_floor": 16.54,
-    "risk_per_share": 0.94,
-    "technical_pivot": 17.48
+    "invalidation_floor": 16.41,
+    "risk_per_share": 0.93,
+    "technical_pivot": 17.34
   },
   "schema_version": "1.0",
   "sector": null,

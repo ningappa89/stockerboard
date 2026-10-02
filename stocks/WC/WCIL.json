@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 144.34,
-      "high": 145.83,
-      "low": 141.57,
-      "open": 143.0,
-      "time": "2025-09-19",
-      "volume": 609757
-    },
-    {
-      "close": 144.87,
-      "high": 147.29,
-      "low": 142.0,
-      "open": 144.34,
-      "time": "2025-09-22",
-      "volume": 829095
-    },
-    {
-      "close": 142.69,
-      "high": 146.97,
-      "low": 142.3,
-      "open": 144.97,
-      "time": "2025-09-23",
-      "volume": 498288
-    },
-    {
       "close": 139.02,
       "high": 143.2,
       "low": 138.1,
@@ -2017,13 +1993,37 @@
       "open": 94.77,
       "time": "2026-09-28",
       "volume": 163956
+    },
+    {
+      "close": 94.91,
+      "high": 95.5,
+      "low": 89.51,
+      "open": 92.2,
+      "time": "2026-09-29",
+      "volume": 231054
+    },
+    {
+      "close": 93.16,
+      "high": 96.5,
+      "low": 93.0,
+      "open": 95.0,
+      "time": "2026-09-30",
+      "volume": 165294
+    },
+    {
+      "close": 93.01,
+      "high": 93.73,
+      "low": 91.51,
+      "open": 92.2,
+      "time": "2026-10-01",
+      "volume": 72195
     }
   ],
   "company_name": "Western Carriers (India) Limit",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.84x"
+    "volume_multiplier": "0.34x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.02,
-    "change_pct": -2.13,
-    "close": 92.75,
-    "previous_close": 94.77,
+    "as_of": "2026-10-01",
+    "change": -0.15,
+    "change_pct": -0.16,
+    "close": 93.01,
+    "previous_close": 93.16,
     "type": "EOD_CLOSE",
-    "volume": 163956
+    "volume": 72195
   },
   "range": {
-    "distance_from_high_pct": -37.03,
-    "distance_from_low_pct": 20.42,
-    "high_52w": 147.29,
+    "distance_from_high_pct": -36.66,
+    "distance_from_low_pct": 20.76,
+    "high_52w": 146.84,
     "history_basis": "52_WEEK",
     "low_52w": 77.02,
-    "range_position_pct": 22.39
+    "range_position_pct": 22.9
   },
   "risk_model": {
-    "invalidation_floor": 89.5,
-    "risk_per_share": 5.11,
-    "technical_pivot": 94.61
+    "invalidation_floor": 89.75,
+    "risk_per_share": 5.12,
+    "technical_pivot": 94.87
   },
   "schema_version": "1.0",
   "sector": null,

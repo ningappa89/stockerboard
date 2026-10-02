@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 565.8,
-      "high": 578.75,
-      "low": 564.15,
-      "open": 573.4,
-      "time": "2025-09-19",
-      "volume": 310447
-    },
-    {
-      "close": 559.45,
-      "high": 578.9,
-      "low": 555.1,
-      "open": 565.0,
-      "time": "2025-09-22",
-      "volume": 307759
-    },
-    {
-      "close": 555.15,
-      "high": 562.7,
-      "low": 543.0,
-      "open": 560.45,
-      "time": "2025-09-23",
-      "volume": 240166
-    },
-    {
       "close": 534.4,
       "high": 585.0,
       "low": 525.5,
@@ -2017,13 +1993,37 @@
       "open": 412.0,
       "time": "2026-09-28",
       "volume": 258357
+    },
+    {
+      "close": 410.9,
+      "high": 412.8,
+      "low": 400.1,
+      "open": 406.3,
+      "time": "2026-09-29",
+      "volume": 103780
+    },
+    {
+      "close": 406.2,
+      "high": 416.0,
+      "low": 403.1,
+      "open": 410.45,
+      "time": "2026-09-30",
+      "volume": 63814
+    },
+    {
+      "close": 399.1,
+      "high": 407.6,
+      "low": 396.55,
+      "open": 406.2,
+      "time": "2026-10-01",
+      "volume": 134401
     }
   ],
   "company_name": "Dilip Buildcon Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 44,
+    "momentum_score": 42,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.49x"
+    "volume_multiplier": "0.25x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.55,
-    "change_pct": -1.35,
-    "close": 406.9,
-    "previous_close": 412.45,
+    "as_of": "2026-10-01",
+    "change": -7.1,
+    "change_pct": -1.75,
+    "close": 399.1,
+    "previous_close": 406.2,
     "type": "EOD_CLOSE",
-    "volume": 258357
+    "volume": 134401
   },
   "range": {
-    "distance_from_high_pct": -30.44,
-    "distance_from_low_pct": 6.64,
+    "distance_from_high_pct": -31.78,
+    "distance_from_low_pct": 4.6,
     "high_52w": 585.0,
     "history_basis": "52_WEEK",
     "low_52w": 381.55,
-    "range_position_pct": 12.46
+    "range_position_pct": 8.63
   },
   "risk_model": {
-    "invalidation_floor": 392.66,
-    "risk_per_share": 22.38,
-    "technical_pivot": 415.04
+    "invalidation_floor": 385.13,
+    "risk_per_share": 21.95,
+    "technical_pivot": 407.08
   },
   "schema_version": "1.0",
   "sector": null,

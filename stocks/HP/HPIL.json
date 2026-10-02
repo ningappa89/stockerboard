@@ -3,22 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 135.73,
-      "high": 138.39,
-      "low": 132.6,
-      "open": 136.7,
-      "time": "2025-09-19",
-      "volume": 4578
-    },
-    {
-      "close": 132.52,
-      "high": 140.94,
-      "low": 130.58,
-      "open": 136.45,
-      "time": "2025-09-22",
-      "volume": 17182
-    },
-    {
       "close": 131.91,
       "high": 136.99,
       "low": 131.0,
@@ -2017,13 +2001,29 @@
       "open": 115.4,
       "time": "2026-09-28",
       "volume": 6
+    },
+    {
+      "close": 115.37,
+      "high": 117.0,
+      "low": 114.2,
+      "open": 117.0,
+      "time": "2026-09-29",
+      "volume": 363
+    },
+    {
+      "close": 114.44,
+      "high": 114.89,
+      "low": 112.0,
+      "open": 114.5,
+      "time": "2026-10-01",
+      "volume": 163
     }
   ],
   "company_name": "HINDPRAKASH INDUSTRIES LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-23",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 52,
+    "momentum_score": 51,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.01x"
+    "volume_multiplier": "0.29x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.0,
-    "change_pct": 0.0,
-    "close": 115.4,
-    "previous_close": 115.4,
+    "as_of": "2026-10-01",
+    "change": -0.93,
+    "change_pct": -0.81,
+    "close": 114.44,
+    "previous_close": 115.37,
     "type": "EOD_CLOSE",
-    "volume": 6
+    "volume": 163
   },
   "range": {
-    "distance_from_high_pct": -25.28,
-    "distance_from_low_pct": 7.85,
+    "distance_from_high_pct": -25.9,
+    "distance_from_low_pct": 6.95,
     "high_52w": 154.45,
     "history_basis": "52_WEEK",
     "low_52w": 107.0,
-    "range_position_pct": 17.7
+    "range_position_pct": 15.68
   },
   "risk_model": {
-    "invalidation_floor": 111.36,
-    "risk_per_share": 6.35,
-    "technical_pivot": 117.71
+    "invalidation_floor": 110.43,
+    "risk_per_share": 6.3,
+    "technical_pivot": 116.73
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 26.83,
-      "high": 27.49,
-      "low": 26.0,
-      "open": 26.25,
-      "time": "2025-09-19",
-      "volume": 276750
-    },
-    {
-      "close": 26.12,
-      "high": 26.83,
-      "low": 26.1,
-      "open": 26.83,
-      "time": "2025-09-22",
-      "volume": 60977
-    },
-    {
-      "close": 25.7,
-      "high": 26.68,
-      "low": 25.33,
-      "open": 26.68,
-      "time": "2025-09-23",
-      "volume": 102349
-    },
-    {
       "close": 25.38,
       "high": 25.92,
       "low": 25.28,
@@ -2017,13 +1993,37 @@
       "open": 17.19,
       "time": "2026-09-28",
       "volume": 93046
+    },
+    {
+      "close": 16.4,
+      "high": 16.88,
+      "low": 16.0,
+      "open": 16.88,
+      "time": "2026-09-29",
+      "volume": 52427
+    },
+    {
+      "close": 16.18,
+      "high": 16.85,
+      "low": 16.06,
+      "open": 16.4,
+      "time": "2026-09-30",
+      "volume": 22565
+    },
+    {
+      "close": 15.6,
+      "high": 16.34,
+      "low": 15.45,
+      "open": 16.05,
+      "time": "2026-10-01",
+      "volume": 69908
     }
   ],
   "company_name": "AIRAN LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "0.45x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.34,
-    "change_pct": -2.0,
-    "close": 16.69,
-    "previous_close": 17.03,
+    "as_of": "2026-10-01",
+    "change": -0.58,
+    "change_pct": -3.58,
+    "close": 15.6,
+    "previous_close": 16.18,
     "type": "EOD_CLOSE",
-    "volume": 93046
+    "volume": 69908
   },
   "range": {
-    "distance_from_high_pct": -39.29,
-    "distance_from_low_pct": 32.15,
-    "high_52w": 27.49,
+    "distance_from_high_pct": -41.33,
+    "distance_from_low_pct": 23.52,
+    "high_52w": 26.59,
     "history_basis": "52_WEEK",
     "low_52w": 12.63,
-    "range_position_pct": 27.32
+    "range_position_pct": 21.28
   },
   "risk_model": {
-    "invalidation_floor": 16.11,
-    "risk_per_share": 0.91,
-    "technical_pivot": 17.02
+    "invalidation_floor": 15.05,
+    "risk_per_share": 0.86,
+    "technical_pivot": 15.91
   },
   "schema_version": "1.0",
   "sector": null,

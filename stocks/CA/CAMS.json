@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 820.18,
-      "high": 829.4,
-      "low": 814.42,
-      "open": 819.0,
-      "time": "2025-09-19",
-      "volume": 2288510
-    },
-    {
-      "close": 802.8,
-      "high": 823.2,
-      "low": 800.4,
-      "open": 820.18,
-      "time": "2025-09-22",
-      "volume": 1474410
-    },
-    {
-      "close": 797.22,
-      "high": 808.36,
-      "low": 792.92,
-      "open": 802.8,
-      "time": "2025-09-23",
-      "volume": 1053770
-    },
-    {
       "close": 776.62,
       "high": 797.46,
       "low": 775.18,
@@ -2017,13 +1993,37 @@
       "open": 709.2,
       "time": "2026-09-28",
       "volume": 826842
+    },
+    {
+      "close": 666.0,
+      "high": 689.95,
+      "low": 665.05,
+      "open": 685.0,
+      "time": "2026-09-29",
+      "volume": 2128456
+    },
+    {
+      "close": 671.0,
+      "high": 679.95,
+      "low": 666.0,
+      "open": 666.6,
+      "time": "2026-09-30",
+      "volume": 1798467
+    },
+    {
+      "close": 677.25,
+      "high": 682.0,
+      "low": 665.45,
+      "open": 671.0,
+      "time": "2026-10-01",
+      "volume": 1577224
     }
   ],
   "company_name": "Computer Age Management Servic",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.69x"
+    "volume_multiplier": "1.34x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -15.8,
-    "change_pct": -2.23,
-    "close": 691.55,
-    "previous_close": 707.35,
+    "as_of": "2026-10-01",
+    "change": 6.25,
+    "change_pct": 0.93,
+    "close": 677.25,
+    "previous_close": 671.0,
     "type": "EOD_CLOSE",
-    "volume": 826842
+    "volume": 1577224
   },
   "range": {
-    "distance_from_high_pct": -18.15,
-    "distance_from_low_pct": 13.11,
+    "distance_from_high_pct": -19.84,
+    "distance_from_low_pct": 10.77,
     "high_52w": 844.9,
     "history_basis": "52_WEEK",
     "low_52w": 611.4,
-    "range_position_pct": 34.33
+    "range_position_pct": 28.2
   },
   "risk_model": {
-    "invalidation_floor": 667.35,
-    "risk_per_share": 38.03,
-    "technical_pivot": 705.38
+    "invalidation_floor": 653.55,
+    "risk_per_share": 37.24,
+    "technical_pivot": 690.79
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

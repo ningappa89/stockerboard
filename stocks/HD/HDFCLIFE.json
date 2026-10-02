@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 782.2,
-      "high": 793.65,
-      "low": 780.5,
-      "open": 786.8,
-      "time": "2025-09-19",
-      "volume": 3634175
-    },
-    {
-      "close": 787.8,
-      "high": 796.9,
-      "low": 783.5,
-      "open": 786.8,
-      "time": "2025-09-22",
-      "volume": 1976223
-    },
-    {
-      "close": 775.05,
-      "high": 791.5,
-      "low": 774.0,
-      "open": 787.45,
-      "time": "2025-09-23",
-      "volume": 2220802
-    },
-    {
       "close": 770.25,
       "high": 775.6,
       "low": 768.05,
@@ -2017,13 +1993,37 @@
       "open": 531.0,
       "time": "2026-09-28",
       "volume": 2307139
+    },
+    {
+      "close": 523.55,
+      "high": 528.35,
+      "low": 518.6,
+      "open": 526.2,
+      "time": "2026-09-29",
+      "volume": 7693601
+    },
+    {
+      "close": 521.2,
+      "high": 521.2,
+      "low": 513.4,
+      "open": 516.6,
+      "time": "2026-09-30",
+      "volume": 5062593
+    },
+    {
+      "close": 534.2,
+      "high": 538.9,
+      "low": 517.4,
+      "open": 518.0,
+      "time": "2026-10-01",
+      "volume": 4008935
     }
   ],
   "company_name": "HDFC LIFE INSURANCE COMPANY LI",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 40,
+    "momentum_score": 41,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.5x"
+    "volume_multiplier": "0.8x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.6,
-    "change_pct": 0.11,
-    "close": 531.6,
-    "previous_close": 531.0,
+    "as_of": "2026-10-01",
+    "change": 13.0,
+    "change_pct": 2.49,
+    "close": 534.2,
+    "previous_close": 521.2,
     "type": "EOD_CLOSE",
-    "volume": 2307139
+    "volume": 4008935
   },
   "range": {
-    "distance_from_high_pct": -33.29,
-    "distance_from_low_pct": 4.5,
-    "high_52w": 796.9,
+    "distance_from_high_pct": -32.25,
+    "distance_from_low_pct": 5.01,
+    "high_52w": 788.5,
     "history_basis": "52_WEEK",
     "low_52w": 508.7,
-    "range_position_pct": 7.95
+    "range_position_pct": 9.11
   },
   "risk_model": {
-    "invalidation_floor": 512.99,
-    "risk_per_share": 29.24,
-    "technical_pivot": 542.23
+    "invalidation_floor": 515.5,
+    "risk_per_share": 29.38,
+    "technical_pivot": 544.88
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

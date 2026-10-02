@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 158.93,
-      "high": 159.56,
-      "low": 154.62,
-      "open": 155.62,
-      "time": "2025-09-19",
-      "volume": 3718711
-    },
-    {
-      "close": 154.66,
-      "high": 158.93,
-      "low": 154.15,
-      "open": 158.37,
-      "time": "2025-09-22",
-      "volume": 1454737
-    },
-    {
-      "close": 153.76,
-      "high": 156.25,
-      "low": 153.26,
-      "open": 155.09,
-      "time": "2025-09-23",
-      "volume": 1464569
-    },
-    {
       "close": 158.31,
       "high": 159.3,
       "low": 154.31,
@@ -2017,13 +1993,37 @@
       "open": 224.7,
       "time": "2026-09-28",
       "volume": 4824507
+    },
+    {
+      "close": 214.91,
+      "high": 217.48,
+      "low": 210.69,
+      "open": 217.16,
+      "time": "2026-09-29",
+      "volume": 1556485
+    },
+    {
+      "close": 226.05,
+      "high": 229.0,
+      "low": 214.91,
+      "open": 216.75,
+      "time": "2026-09-30",
+      "volume": 8157697
+    },
+    {
+      "close": 230.04,
+      "high": 232.0,
+      "low": 221.67,
+      "open": 223.5,
+      "time": "2026-10-01",
+      "volume": 4776469
     }
   ],
   "company_name": "CITY UNION BANK LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 70,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.96x"
+    "momentum_score": 78,
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "1.78x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -9.58,
-    "change_pct": -4.25,
-    "close": 215.99,
-    "previous_close": 225.57,
+    "as_of": "2026-10-01",
+    "change": 3.99,
+    "change_pct": 1.77,
+    "close": 230.04,
+    "previous_close": 226.05,
     "type": "EOD_CLOSE",
-    "volume": 4824507
+    "volume": 4776469
   },
   "range": {
-    "distance_from_high_pct": -13.2,
-    "distance_from_low_pct": 40.93,
+    "distance_from_high_pct": -7.56,
+    "distance_from_low_pct": 49.32,
     "high_52w": 248.85,
     "history_basis": "52_WEEK",
-    "low_52w": 153.26,
-    "range_position_pct": 65.62
+    "low_52w": 154.06,
+    "range_position_pct": 80.16
   },
   "risk_model": {
-    "invalidation_floor": 208.43,
-    "risk_per_share": 11.88,
-    "technical_pivot": 220.31
+    "invalidation_floor": 221.99,
+    "risk_per_share": 12.65,
+    "technical_pivot": 234.64
   },
   "schema_version": "1.0",
   "sector": null,

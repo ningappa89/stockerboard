@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 143.28,
-      "high": 149.27,
-      "low": 141.15,
-      "open": 144.45,
-      "time": "2025-09-19",
-      "volume": 810769
-    },
-    {
-      "close": 141.01,
-      "high": 143.86,
-      "low": 140.7,
-      "open": 143.28,
-      "time": "2025-09-22",
-      "volume": 176637
-    },
-    {
-      "close": 139.39,
-      "high": 141.94,
-      "low": 138.91,
-      "open": 141.7,
-      "time": "2025-09-23",
-      "volume": 238223
-    },
-    {
       "close": 137.21,
       "high": 139.86,
       "low": 136.57,
@@ -2017,13 +1993,37 @@
       "open": 209.0,
       "time": "2026-09-28",
       "volume": 1280826
+    },
+    {
+      "close": 208.85,
+      "high": 211.0,
+      "low": 203.3,
+      "open": 204.5,
+      "time": "2026-09-29",
+      "volume": 1452486
+    },
+    {
+      "close": 197.19,
+      "high": 210.65,
+      "low": 196.0,
+      "open": 208.85,
+      "time": "2026-09-30",
+      "volume": 1366000
+    },
+    {
+      "close": 194.13,
+      "high": 197.89,
+      "low": 189.01,
+      "open": 197.19,
+      "time": "2026-10-01",
+      "volume": 1071707
     }
   ],
   "company_name": "SUN PHARMA ADV.RES.CO.LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 45,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.18x"
+    "volume_multiplier": "1.07x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -6.2,
-    "change_pct": -2.97,
-    "close": 202.85,
-    "previous_close": 209.05,
+    "as_of": "2026-10-01",
+    "change": -3.06,
+    "change_pct": -1.55,
+    "close": 194.13,
+    "previous_close": 197.19,
     "type": "EOD_CLOSE",
-    "volume": 1280826
+    "volume": 1071707
   },
   "range": {
-    "distance_from_high_pct": -29.81,
-    "distance_from_low_pct": 87.82,
+    "distance_from_high_pct": -32.83,
+    "distance_from_low_pct": 79.75,
     "high_52w": 289.0,
     "history_basis": "52_WEEK",
     "low_52w": 108.0,
-    "range_position_pct": 52.4
+    "range_position_pct": 47.59
   },
   "risk_model": {
-    "invalidation_floor": 195.75,
-    "risk_per_share": 11.16,
-    "technical_pivot": 206.91
+    "invalidation_floor": 187.34,
+    "risk_per_share": 10.67,
+    "technical_pivot": 198.01
   },
   "schema_version": "1.0",
   "sector": null,

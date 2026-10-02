@@ -225,14 +225,38 @@
       "open": 7704.0,
       "time": "2026-09-28",
       "volume": 18
+    },
+    {
+      "close": 7620.0,
+      "high": 7799.5,
+      "low": 7500.5,
+      "open": 7600.0,
+      "time": "2026-09-29",
+      "volume": 65
+    },
+    {
+      "close": 7632.5,
+      "high": 7874.0,
+      "low": 7620.0,
+      "open": 7650.0,
+      "time": "2026-09-30",
+      "volume": 38
+    },
+    {
+      "close": 7819.5,
+      "high": 7839.0,
+      "low": 7526.0,
+      "open": 7620.0,
+      "time": "2026-10-01",
+      "volume": 11
     }
   ],
   "company_name": "LAKSHMI MILLS COMPANY LTD.",
   "history": {
     "first_session": "2026-08-18",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 28
+    "last_session": "2026-10-01",
+    "sessions_available": 31
   },
   "industry": null,
   "isin": "INE938C01019",
@@ -240,31 +264,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 75,
+    "momentum_score": 77,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.5x"
+    "volume_multiplier": "0.28x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -39.5,
-    "change_pct": -0.51,
-    "close": 7689.5,
-    "previous_close": 7729.0,
+    "as_of": "2026-10-01",
+    "change": 187.0,
+    "change_pct": 2.45,
+    "close": 7819.5,
+    "previous_close": 7632.5,
     "type": "EOD_CLOSE",
-    "volume": 18
+    "volume": 11
   },
   "range": {
-    "distance_from_high_pct": -9.59,
-    "distance_from_low_pct": 1.98,
+    "distance_from_high_pct": -8.06,
+    "distance_from_low_pct": 4.25,
     "high_52w": 8505.0,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 7540.0,
-    "range_position_pct": 15.49
+    "low_52w": 7500.5,
+    "range_position_pct": 31.76
   },
   "risk_model": {
-    "invalidation_floor": 7420.37,
-    "risk_per_share": 422.92,
-    "technical_pivot": 7843.29
+    "invalidation_floor": 7545.82,
+    "risk_per_share": 430.07,
+    "technical_pivot": 7975.89
   },
   "schema_version": "1.0",
   "sector": null,

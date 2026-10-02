@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 18589.0,
-      "high": 19422.0,
-      "low": 18079.0,
-      "open": 18941.0,
-      "time": "2025-09-19",
-      "volume": 364042
-    },
-    {
-      "close": 18196.0,
-      "high": 18670.0,
-      "low": 18110.0,
-      "open": 18589.0,
-      "time": "2025-09-22",
-      "volume": 65478
-    },
-    {
-      "close": 18111.0,
-      "high": 18399.0,
-      "low": 17850.0,
-      "open": 18200.0,
-      "time": "2025-09-23",
-      "volume": 68311
-    },
-    {
       "close": 18041.0,
       "high": 18426.0,
       "low": 17961.0,
@@ -2017,13 +1993,37 @@
       "open": 17321.0,
       "time": "2026-09-28",
       "volume": 62439
+    },
+    {
+      "close": 16905.0,
+      "high": 17146.0,
+      "low": 16761.0,
+      "open": 17100.0,
+      "time": "2026-09-29",
+      "volume": 82027
+    },
+    {
+      "close": 17054.0,
+      "high": 17435.0,
+      "low": 17000.0,
+      "open": 17000.0,
+      "time": "2026-09-30",
+      "volume": 56785
+    },
+    {
+      "close": 16800.0,
+      "high": 17389.0,
+      "low": 16531.0,
+      "open": 17300.0,
+      "time": "2026-10-01",
+      "volume": 117482
     }
   ],
   "company_name": "FORCE MOTORS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.86x"
+    "volume_multiplier": "1.72x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -288.0,
-    "change_pct": -1.66,
-    "close": 17100.0,
-    "previous_close": 17388.0,
+    "as_of": "2026-10-01",
+    "change": -254.0,
+    "change_pct": -1.49,
+    "close": 16800.0,
+    "previous_close": 17054.0,
     "type": "EOD_CLOSE",
-    "volume": 62439
+    "volume": 117482
   },
   "range": {
-    "distance_from_high_pct": -35.35,
-    "distance_from_low_pct": 14.68,
+    "distance_from_high_pct": -36.48,
+    "distance_from_low_pct": 12.67,
     "high_52w": 26450.0,
     "history_basis": "52_WEEK",
     "low_52w": 14911.0,
-    "range_position_pct": 18.97
+    "range_position_pct": 16.37
   },
   "risk_model": {
-    "invalidation_floor": 16501.5,
-    "risk_per_share": 940.5,
-    "technical_pivot": 17442.0
+    "invalidation_floor": 16212.0,
+    "risk_per_share": 924.0,
+    "technical_pivot": 17136.0
   },
   "schema_version": "1.0",
   "sector": null,

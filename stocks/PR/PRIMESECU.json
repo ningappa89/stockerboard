@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 260.7,
-      "high": 262.95,
-      "low": 254.55,
-      "open": 257.0,
-      "time": "2025-09-19",
-      "volume": 55683
-    },
-    {
-      "close": 254.95,
-      "high": 266.9,
-      "low": 252.0,
-      "open": 259.0,
-      "time": "2025-09-22",
-      "volume": 39079
-    },
-    {
-      "close": 258.25,
-      "high": 261.7,
-      "low": 248.0,
-      "open": 253.75,
-      "time": "2025-09-23",
-      "volume": 63456
-    },
-    {
       "close": 261.25,
       "high": 263.9,
       "low": 254.6,
@@ -2017,13 +1993,37 @@
       "open": 305.0,
       "time": "2026-09-28",
       "volume": 8733
+    },
+    {
+      "close": 302.5,
+      "high": 304.5,
+      "low": 293.05,
+      "open": 298.95,
+      "time": "2026-09-29",
+      "volume": 18619
+    },
+    {
+      "close": 298.45,
+      "high": 302.9,
+      "low": 291.1,
+      "open": 300.25,
+      "time": "2026-09-30",
+      "volume": 5435
+    },
+    {
+      "close": 301.5,
+      "high": 304.85,
+      "low": 290.55,
+      "open": 291.0,
+      "time": "2026-10-01",
+      "volume": 43023
     }
   ],
   "company_name": "PRIME SECURITIES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": true,
     "momentum_score": 79,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.2x"
+    "volume_multiplier": "1.11x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.05,
-    "change_pct": -0.02,
-    "close": 301.85,
-    "previous_close": 301.9,
+    "as_of": "2026-10-01",
+    "change": 3.05,
+    "change_pct": 1.02,
+    "close": 301.5,
+    "previous_close": 298.45,
     "type": "EOD_CLOSE",
-    "volume": 8733
+    "volume": 43023
   },
   "range": {
-    "distance_from_high_pct": -7.12,
-    "distance_from_low_pct": 21.71,
+    "distance_from_high_pct": -7.23,
+    "distance_from_low_pct": 19.12,
     "high_52w": 325.0,
     "history_basis": "52_WEEK",
-    "low_52w": 248.0,
-    "range_position_pct": 69.94
+    "low_52w": 253.1,
+    "range_position_pct": 67.32
   },
   "risk_model": {
-    "invalidation_floor": 291.29,
-    "risk_per_share": 16.6,
-    "technical_pivot": 307.89
+    "invalidation_floor": 290.95,
+    "risk_per_share": 16.58,
+    "technical_pivot": 307.53
   },
   "schema_version": "1.0",
   "sector": null,

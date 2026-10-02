@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1006.5,
-      "high": 1014.0,
-      "low": 951.9,
-      "open": 962.6,
-      "time": "2025-09-19",
-      "volume": 271997
-    },
-    {
-      "close": 1015.25,
-      "high": 1030.0,
-      "low": 987.0,
-      "open": 1000.0,
-      "time": "2025-09-22",
-      "volume": 97909
-    },
-    {
-      "close": 1010.75,
-      "high": 1022.0,
-      "low": 995.0,
-      "open": 1015.25,
-      "time": "2025-09-23",
-      "volume": 47076
-    },
-    {
       "close": 993.9,
       "high": 1014.9,
       "low": 990.35,
@@ -2017,13 +1993,37 @@
       "open": 1171.4,
       "time": "2026-09-28",
       "volume": 71436
+    },
+    {
+      "close": 1131.4,
+      "high": 1152.2,
+      "low": 1115.7,
+      "open": 1136.0,
+      "time": "2026-09-29",
+      "volume": 51812
+    },
+    {
+      "close": 1139.5,
+      "high": 1154.8,
+      "low": 1131.3,
+      "open": 1132.0,
+      "time": "2026-09-30",
+      "volume": 35903
+    },
+    {
+      "close": 1123.8,
+      "high": 1139.4,
+      "low": 1092.2,
+      "open": 1136.6,
+      "time": "2026-10-01",
+      "volume": 63727
     }
   ],
   "company_name": "PITTI ENGINEERING LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 78,
+    "momentum_score": 77,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.38x"
+    "volume_multiplier": "0.36x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -25.6,
-    "change_pct": -2.2,
-    "close": 1136.8,
-    "previous_close": 1162.4,
+    "as_of": "2026-10-01",
+    "change": -15.7,
+    "change_pct": -1.38,
+    "close": 1123.8,
+    "previous_close": 1139.5,
     "type": "EOD_CLOSE",
-    "volume": 71436
+    "volume": 63727
   },
   "range": {
-    "distance_from_high_pct": -7.43,
-    "distance_from_low_pct": 68.41,
+    "distance_from_high_pct": -8.49,
+    "distance_from_low_pct": 66.49,
     "high_52w": 1228.0,
     "history_basis": "52_WEEK",
     "low_52w": 675.0,
-    "range_position_pct": 83.51
+    "range_position_pct": 81.16
   },
   "risk_model": {
-    "invalidation_floor": 1097.01,
-    "risk_per_share": 62.53,
-    "technical_pivot": 1159.54
+    "invalidation_floor": 1084.47,
+    "risk_per_share": 61.81,
+    "technical_pivot": 1146.28
   },
   "schema_version": "1.0",
   "sector": null,

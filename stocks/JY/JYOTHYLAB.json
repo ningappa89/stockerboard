@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 322.5,
-      "high": 325.45,
-      "low": 321.6,
-      "open": 325.0,
-      "time": "2025-09-19",
-      "volume": 483948
-    },
-    {
-      "close": 322.7,
-      "high": 324.9,
-      "low": 320.5,
-      "open": 323.9,
-      "time": "2025-09-22",
-      "volume": 353340
-    },
-    {
-      "close": 320.3,
-      "high": 322.6,
-      "low": 320.0,
-      "open": 322.6,
-      "time": "2025-09-23",
-      "volume": 212799
-    },
-    {
       "close": 318.85,
       "high": 320.3,
       "low": 317.3,
@@ -2017,13 +1993,37 @@
       "open": 191.6,
       "time": "2026-09-28",
       "volume": 330391
+    },
+    {
+      "close": 184.26,
+      "high": 189.75,
+      "low": 184.0,
+      "open": 189.5,
+      "time": "2026-09-29",
+      "volume": 469986
+    },
+    {
+      "close": 186.7,
+      "high": 187.48,
+      "low": 183.29,
+      "open": 184.6,
+      "time": "2026-09-30",
+      "volume": 398247
+    },
+    {
+      "close": 182.91,
+      "high": 186.66,
+      "low": 180.01,
+      "open": 186.66,
+      "time": "2026-10-01",
+      "volume": 392204
     }
   ],
   "company_name": "JYOTHY LABS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.33x"
+    "volume_multiplier": "0.68x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.41,
-    "change_pct": -0.74,
-    "close": 189.66,
-    "previous_close": 191.07,
+    "as_of": "2026-10-01",
+    "change": -3.79,
+    "change_pct": -2.03,
+    "close": 182.91,
+    "previous_close": 186.7,
     "type": "EOD_CLOSE",
-    "volume": 330391
+    "volume": 392204
   },
   "range": {
-    "distance_from_high_pct": -41.72,
-    "distance_from_low_pct": 0.83,
-    "high_52w": 325.45,
+    "distance_from_high_pct": -43.72,
+    "distance_from_low_pct": 1.61,
+    "high_52w": 325.0,
     "history_basis": "52_WEEK",
-    "low_52w": 188.1,
-    "range_position_pct": 1.14
+    "low_52w": 180.01,
+    "range_position_pct": 2.0
   },
   "risk_model": {
-    "invalidation_floor": 183.02,
-    "risk_per_share": 10.43,
-    "technical_pivot": 193.45
+    "invalidation_floor": 176.51,
+    "risk_per_share": 10.06,
+    "technical_pivot": 186.57
   },
   "schema_version": "1.0",
   "sector": null,

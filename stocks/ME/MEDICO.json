@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 38.7,
-      "high": 39.08,
-      "low": 38.59,
-      "open": 39.08,
-      "time": "2025-09-19",
-      "volume": 86265
-    },
-    {
-      "close": 43.23,
-      "high": 43.85,
-      "low": 38.45,
-      "open": 38.7,
-      "time": "2025-09-22",
-      "volume": 1295152
-    },
-    {
-      "close": 45.8,
-      "high": 46.5,
-      "low": 43.23,
-      "open": 43.25,
-      "time": "2025-09-23",
-      "volume": 1299811
-    },
-    {
       "close": 47.99,
       "high": 48.74,
       "low": 46.03,
@@ -2017,13 +1993,37 @@
       "open": 26.2,
       "time": "2026-09-28",
       "volume": 3562547
+    },
+    {
+      "close": 21.84,
+      "high": 23.69,
+      "low": 20.47,
+      "open": 22.51,
+      "time": "2026-09-29",
+      "volume": 1914068
+    },
+    {
+      "close": 21.53,
+      "high": 23.64,
+      "low": 21.17,
+      "open": 22.4,
+      "time": "2026-09-30",
+      "volume": 1169517
+    },
+    {
+      "close": 21.86,
+      "high": 22.49,
+      "low": 21.02,
+      "open": 21.84,
+      "time": "2026-10-01",
+      "volume": 361586
     }
   ],
   "company_name": "MEDICO REMEDIES LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "4.59x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.43x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.7,
-    "change_pct": -14.23,
-    "close": 22.3,
-    "previous_close": 26.0,
+    "as_of": "2026-10-01",
+    "change": 0.33,
+    "change_pct": 1.53,
+    "close": 21.86,
+    "previous_close": 21.53,
     "type": "EOD_CLOSE",
-    "volume": 3562547
+    "volume": 361586
   },
   "range": {
-    "distance_from_high_pct": -60.79,
-    "distance_from_low_pct": 6.75,
+    "distance_from_high_pct": -61.57,
+    "distance_from_low_pct": 6.79,
     "high_52w": 56.88,
     "history_basis": "52_WEEK",
-    "low_52w": 20.89,
-    "range_position_pct": 3.92
+    "low_52w": 20.47,
+    "range_position_pct": 3.82
   },
   "risk_model": {
-    "invalidation_floor": 21.52,
-    "risk_per_share": 1.23,
-    "technical_pivot": 22.75
+    "invalidation_floor": 21.09,
+    "risk_per_share": 1.21,
+    "technical_pivot": 22.3
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 13.74,
-      "high": 13.9,
-      "low": 13.53,
-      "open": 13.61,
-      "time": "2025-09-19",
-      "volume": 121060
-    },
-    {
-      "close": 13.19,
-      "high": 13.89,
-      "low": 13.1,
-      "open": 13.79,
-      "time": "2025-09-22",
-      "volume": 397473
-    },
-    {
-      "close": 13.24,
-      "high": 13.38,
-      "low": 13.01,
-      "open": 13.19,
-      "time": "2025-09-23",
-      "volume": 109954
-    },
-    {
       "close": 12.89,
       "high": 13.35,
       "low": 12.7,
@@ -2017,13 +1993,37 @@
       "open": 7.46,
       "time": "2026-09-28",
       "volume": 251664
+    },
+    {
+      "close": 6.93,
+      "high": 7.19,
+      "low": 6.9,
+      "open": 7.19,
+      "time": "2026-09-29",
+      "volume": 369279
+    },
+    {
+      "close": 7.15,
+      "high": 7.27,
+      "low": 7.09,
+      "open": 7.1,
+      "time": "2026-09-30",
+      "volume": 138349
+    },
+    {
+      "close": 6.8,
+      "high": 7.1,
+      "low": 6.8,
+      "open": 6.99,
+      "time": "2026-10-01",
+      "volume": 443913
     }
   ],
   "company_name": "SADBHAV ENGINEERING LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.93x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.18x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.27,
-    "change_pct": -3.62,
-    "close": 7.19,
-    "previous_close": 7.46,
+    "as_of": "2026-10-01",
+    "change": -0.35,
+    "change_pct": -4.9,
+    "close": 6.8,
+    "previous_close": 7.15,
     "type": "EOD_CLOSE",
-    "volume": 251664
+    "volume": 443913
   },
   "range": {
-    "distance_from_high_pct": -51.09,
-    "distance_from_low_pct": 18.84,
+    "distance_from_high_pct": -53.74,
+    "distance_from_low_pct": 12.4,
     "high_52w": 14.7,
     "history_basis": "52_WEEK",
     "low_52w": 6.05,
-    "range_position_pct": 13.18
+    "range_position_pct": 8.67
   },
   "risk_model": {
-    "invalidation_floor": 6.94,
+    "invalidation_floor": 6.56,
     "risk_per_share": 0.5,
-    "technical_pivot": 7.33
+    "technical_pivot": 6.94
   },
   "schema_version": "1.0",
   "sector": null,

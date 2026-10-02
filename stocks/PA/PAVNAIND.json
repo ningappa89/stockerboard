@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 39.1,
-      "high": 42.0,
-      "low": 38.55,
-      "open": 42.0,
-      "time": "2025-09-19",
-      "volume": 182212
-    },
-    {
-      "close": 36.8,
-      "high": 39.5,
-      "low": 36.5,
-      "open": 39.1,
-      "time": "2025-09-22",
-      "volume": 132591
-    },
-    {
-      "close": 39.8,
-      "high": 42.5,
-      "low": 36.5,
-      "open": 36.6,
-      "time": "2025-09-23",
-      "volume": 1175505
-    },
-    {
       "close": 37.95,
       "high": 39.85,
       "low": 37.7,
@@ -2017,13 +1993,37 @@
       "open": 15.16,
       "time": "2026-09-28",
       "volume": 61983
+    },
+    {
+      "close": 15.77,
+      "high": 16.0,
+      "low": 15.05,
+      "open": 15.31,
+      "time": "2026-09-29",
+      "volume": 28866
+    },
+    {
+      "close": 15.46,
+      "high": 16.1,
+      "low": 15.34,
+      "open": 15.34,
+      "time": "2026-09-30",
+      "volume": 40169
+    },
+    {
+      "close": 15.36,
+      "high": 15.82,
+      "low": 15.11,
+      "open": 15.82,
+      "time": "2026-10-01",
+      "volume": 29071
     }
   ],
   "company_name": "Pavna Industries Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.56x"
+    "volume_multiplier": "0.28x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.07,
-    "change_pct": 0.45,
-    "close": 15.53,
+    "as_of": "2026-10-01",
+    "change": -0.1,
+    "change_pct": -0.65,
+    "close": 15.36,
     "previous_close": 15.46,
     "type": "EOD_CLOSE",
-    "volume": 61983
+    "volume": 29071
   },
   "range": {
-    "distance_from_high_pct": -63.46,
-    "distance_from_low_pct": 10.06,
-    "high_52w": 42.5,
+    "distance_from_high_pct": -63.69,
+    "distance_from_low_pct": 8.86,
+    "high_52w": 42.3,
     "history_basis": "52_WEEK",
     "low_52w": 14.11,
-    "range_position_pct": 5.0
+    "range_position_pct": 4.43
   },
   "risk_model": {
-    "invalidation_floor": 14.99,
+    "invalidation_floor": 14.82,
     "risk_per_share": 0.85,
-    "technical_pivot": 15.84
+    "technical_pivot": 15.67
   },
   "schema_version": "1.0",
   "sector": null,

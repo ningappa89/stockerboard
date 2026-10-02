@@ -809,14 +809,38 @@
       "open": 975.0,
       "time": "2026-09-28",
       "volume": 43
+    },
+    {
+      "close": 996.8,
+      "high": 1085.0,
+      "low": 975.0,
+      "open": 999.0,
+      "time": "2026-09-29",
+      "volume": 18
+    },
+    {
+      "close": 954.3,
+      "high": 997.0,
+      "low": 910.0,
+      "open": 997.0,
+      "time": "2026-09-30",
+      "volume": 218
+    },
+    {
+      "close": 935.0,
+      "high": 970.0,
+      "low": 900.1,
+      "open": 970.0,
+      "time": "2026-10-01",
+      "volume": 215
     }
   ],
   "company_name": "THACKER & CO.LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 101
+    "last_session": "2026-10-01",
+    "sessions_available": 104
   },
   "industry": null,
   "isin": "INE077P01034",
@@ -825,30 +849,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.44x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "4.56x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.0,
-    "change_pct": 0.0,
-    "close": 975.0,
-    "previous_close": 975.0,
+    "as_of": "2026-10-01",
+    "change": -19.3,
+    "change_pct": -2.02,
+    "close": 935.0,
+    "previous_close": 954.3,
     "type": "EOD_CLOSE",
-    "volume": 43
+    "volume": 215
   },
   "range": {
-    "distance_from_high_pct": -42.3,
-    "distance_from_low_pct": 2.74,
+    "distance_from_high_pct": -44.67,
+    "distance_from_low_pct": 3.88,
     "high_52w": 1689.9,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 949.0,
-    "range_position_pct": 3.51
+    "low_52w": 900.1,
+    "range_position_pct": 4.42
   },
   "risk_model": {
-    "invalidation_floor": 940.88,
-    "risk_per_share": 53.62,
-    "technical_pivot": 994.5
+    "invalidation_floor": 902.27,
+    "risk_per_share": 51.43,
+    "technical_pivot": 953.7
   },
   "schema_version": "1.0",
   "sector": null,

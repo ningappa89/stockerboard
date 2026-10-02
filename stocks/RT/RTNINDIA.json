@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 56.8,
-      "high": 57.43,
-      "low": 56.51,
-      "open": 56.89,
-      "time": "2025-09-19",
-      "volume": 2449093
-    },
-    {
-      "close": 55.77,
-      "high": 57.25,
-      "low": 55.5,
-      "open": 56.8,
-      "time": "2025-09-22",
-      "volume": 2305053
-    },
-    {
-      "close": 55.15,
-      "high": 56.24,
-      "low": 54.92,
-      "open": 55.98,
-      "time": "2025-09-23",
-      "volume": 2604891
-    },
-    {
       "close": 54.15,
       "high": 55.37,
       "low": 54.01,
@@ -2017,13 +1993,37 @@
       "open": 26.91,
       "time": "2026-09-28",
       "volume": 934636
+    },
+    {
+      "close": 25.66,
+      "high": 26.35,
+      "low": 25.25,
+      "open": 26.29,
+      "time": "2026-09-29",
+      "volume": 3231261
+    },
+    {
+      "close": 26.06,
+      "high": 27.58,
+      "low": 25.45,
+      "open": 26.0,
+      "time": "2026-09-30",
+      "volume": 5394562
+    },
+    {
+      "close": 25.32,
+      "high": 26.0,
+      "low": 25.0,
+      "open": 26.0,
+      "time": "2026-10-01",
+      "volume": 1283688
     }
   ],
   "company_name": "RATTANINDIA ENTERPRISES LIMITE",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.54x"
+    "volume_multiplier": "0.63x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.76,
-    "change_pct": -2.82,
-    "close": 26.2,
-    "previous_close": 26.96,
+    "as_of": "2026-10-01",
+    "change": -0.74,
+    "change_pct": -2.84,
+    "close": 25.32,
+    "previous_close": 26.06,
     "type": "EOD_CLOSE",
-    "volume": 934636
+    "volume": 1283688
   },
   "range": {
-    "distance_from_high_pct": -54.38,
-    "distance_from_low_pct": 7.38,
-    "high_52w": 57.43,
+    "distance_from_high_pct": -54.27,
+    "distance_from_low_pct": 3.77,
+    "high_52w": 55.37,
     "history_basis": "52_WEEK",
     "low_52w": 24.4,
-    "range_position_pct": 5.45
+    "range_position_pct": 2.97
   },
   "risk_model": {
-    "invalidation_floor": 25.28,
-    "risk_per_share": 1.44,
-    "technical_pivot": 26.72
+    "invalidation_floor": 24.43,
+    "risk_per_share": 1.4,
+    "technical_pivot": 25.83
   },
   "schema_version": "1.0",
   "sector": null,

@@ -897,14 +897,38 @@
       "open": 395.35,
       "time": "2026-09-28",
       "volume": 731
+    },
+    {
+      "close": 398.3,
+      "high": 403.8,
+      "low": 396.8,
+      "open": 396.8,
+      "time": "2026-09-29",
+      "volume": 279
+    },
+    {
+      "close": 400.85,
+      "high": 405.0,
+      "low": 398.05,
+      "open": 398.3,
+      "time": "2026-09-30",
+      "volume": 806
+    },
+    {
+      "close": 399.95,
+      "high": 401.0,
+      "low": 393.0,
+      "open": 401.0,
+      "time": "2026-10-01",
+      "volume": 185
     }
   ],
   "company_name": "PREMCO GLOBAL LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 112
+    "last_session": "2026-10-01",
+    "sessions_available": 115
   },
   "industry": null,
   "isin": "INE001E01012",
@@ -912,31 +936,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.95x"
+    "volume_multiplier": "0.26x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.05,
-    "change_pct": 0.01,
-    "close": 395.4,
-    "previous_close": 395.35,
+    "as_of": "2026-10-01",
+    "change": -0.9,
+    "change_pct": -0.22,
+    "close": 399.95,
+    "previous_close": 400.85,
     "type": "EOD_CLOSE",
-    "volume": 731
+    "volume": 185
   },
   "range": {
-    "distance_from_high_pct": -18.46,
-    "distance_from_low_pct": 11.38,
+    "distance_from_high_pct": -17.52,
+    "distance_from_low_pct": 12.66,
     "high_52w": 484.9,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 355.0,
-    "range_position_pct": 31.1
+    "range_position_pct": 34.6
   },
   "risk_model": {
-    "invalidation_floor": 381.56,
-    "risk_per_share": 21.75,
-    "technical_pivot": 403.31
+    "invalidation_floor": 385.95,
+    "risk_per_share": 22.0,
+    "technical_pivot": 407.95
   },
   "schema_version": "1.0",
   "sector": null,

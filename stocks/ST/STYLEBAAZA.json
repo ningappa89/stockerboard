@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 367.2,
-      "high": 373.0,
-      "low": 362.85,
-      "open": 370.5,
-      "time": "2025-09-19",
-      "volume": 131032
-    },
-    {
-      "close": 366.45,
-      "high": 370.85,
-      "low": 364.0,
-      "open": 368.9,
-      "time": "2025-09-22",
-      "volume": 166004
-    },
-    {
-      "close": 368.8,
-      "high": 370.8,
-      "low": 356.45,
-      "open": 366.0,
-      "time": "2025-09-23",
-      "volume": 259107
-    },
-    {
       "close": 362.25,
       "high": 374.55,
       "low": 359.05,
@@ -2017,13 +1993,37 @@
       "open": 383.8,
       "time": "2026-09-28",
       "volume": 4429305
+    },
+    {
+      "close": 405.0,
+      "high": 407.95,
+      "low": 385.0,
+      "open": 395.15,
+      "time": "2026-09-29",
+      "volume": 2149007
+    },
+    {
+      "close": 384.75,
+      "high": 409.0,
+      "low": 384.75,
+      "open": 409.0,
+      "time": "2026-09-30",
+      "volume": 1886372
+    },
+    {
+      "close": 368.35,
+      "high": 391.1,
+      "low": 365.55,
+      "open": 391.0,
+      "time": "2026-10-01",
+      "volume": 1627432
     }
   ],
   "company_name": "Baazar Style Retail Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 72,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "3.95x"
+    "is_stage2": false,
+    "momentum_score": 63,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.26x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 18.7,
-    "change_pct": 4.98,
-    "close": 394.5,
-    "previous_close": 375.8,
+    "as_of": "2026-10-01",
+    "change": -16.4,
+    "change_pct": -4.26,
+    "close": 368.35,
+    "previous_close": 384.75,
     "type": "EOD_CLOSE",
-    "volume": 4429305
+    "volume": 1627432
   },
   "range": {
-    "distance_from_high_pct": -11.76,
-    "distance_from_low_pct": 71.56,
+    "distance_from_high_pct": -17.61,
+    "distance_from_low_pct": 60.19,
     "high_52w": 447.1,
     "history_basis": "52_WEEK",
     "low_52w": 229.95,
-    "range_position_pct": 75.78
+    "range_position_pct": 63.73
   },
   "risk_model": {
-    "invalidation_floor": 380.69,
-    "risk_per_share": 21.7,
-    "technical_pivot": 402.39
+    "invalidation_floor": 355.46,
+    "risk_per_share": 20.26,
+    "technical_pivot": 375.72
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 711.95,
-      "high": 720.05,
-      "low": 703.0,
-      "open": 703.0,
-      "time": "2025-09-19",
-      "volume": 110285
-    },
-    {
-      "close": 713.6,
-      "high": 721.3,
-      "low": 705.65,
-      "open": 707.0,
-      "time": "2025-09-22",
-      "volume": 72731
-    },
-    {
-      "close": 711.4,
-      "high": 724.0,
-      "low": 707.9,
-      "open": 713.6,
-      "time": "2025-09-23",
-      "volume": 44676
-    },
-    {
       "close": 700.1,
       "high": 722.6,
       "low": 690.2,
@@ -2017,13 +1993,37 @@
       "open": 806.0,
       "time": "2026-09-28",
       "volume": 74356
+    },
+    {
+      "close": 813.65,
+      "high": 820.1,
+      "low": 795.0,
+      "open": 796.0,
+      "time": "2026-09-29",
+      "volume": 55896
+    },
+    {
+      "close": 794.95,
+      "high": 823.8,
+      "low": 791.1,
+      "open": 809.6,
+      "time": "2026-09-30",
+      "volume": 70280
+    },
+    {
+      "close": 809.15,
+      "high": 816.7,
+      "low": 787.05,
+      "open": 796.0,
+      "time": "2026-10-01",
+      "volume": 170167
     }
   ],
   "company_name": "STOVE KRAFT LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 76,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.5x"
+    "momentum_score": 78,
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "1.59x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -17.25,
-    "change_pct": -2.12,
-    "close": 797.15,
-    "previous_close": 814.4,
+    "as_of": "2026-10-01",
+    "change": 14.2,
+    "change_pct": 1.79,
+    "close": 809.15,
+    "previous_close": 794.95,
     "type": "EOD_CLOSE",
-    "volume": 74356
+    "volume": 170167
   },
   "range": {
-    "distance_from_high_pct": -9.1,
-    "distance_from_low_pct": 78.31,
+    "distance_from_high_pct": -7.74,
+    "distance_from_low_pct": 81.0,
     "high_52w": 877.0,
     "history_basis": "52_WEEK",
     "low_52w": 447.05,
-    "range_position_pct": 81.43
+    "range_position_pct": 84.22
   },
   "risk_model": {
-    "invalidation_floor": 769.25,
-    "risk_per_share": 43.84,
-    "technical_pivot": 813.09
+    "invalidation_floor": 780.83,
+    "risk_per_share": 44.5,
+    "technical_pivot": 825.33
   },
   "schema_version": "1.0",
   "sector": null,

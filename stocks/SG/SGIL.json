@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 554.8,
-      "high": 573.5,
-      "low": 550.0,
-      "open": 565.25,
-      "time": "2025-09-19",
-      "volume": 12132
-    },
-    {
-      "close": 563.55,
-      "high": 566.45,
-      "low": 550.1,
-      "open": 551.0,
-      "time": "2025-09-22",
-      "volume": 7235
-    },
-    {
-      "close": 557.1,
-      "high": 562.85,
-      "low": 551.2,
-      "open": 557.9,
-      "time": "2025-09-23",
-      "volume": 7061
-    },
-    {
       "close": 556.45,
       "high": 561.95,
       "low": 548.0,
@@ -2017,13 +1993,37 @@
       "open": 670.0,
       "time": "2026-09-28",
       "volume": 7433
+    },
+    {
+      "close": 657.35,
+      "high": 669.45,
+      "low": 634.8,
+      "open": 656.7,
+      "time": "2026-09-29",
+      "volume": 10083
+    },
+    {
+      "close": 666.2,
+      "high": 669.0,
+      "low": 633.3,
+      "open": 633.3,
+      "time": "2026-09-30",
+      "volume": 4759
+    },
+    {
+      "close": 613.85,
+      "high": 657.95,
+      "low": 602.1,
+      "open": 640.05,
+      "time": "2026-10-01",
+      "volume": 18436
     }
   ],
   "company_name": "Synergy Green Industries Limit",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 79,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.54x"
+    "volume_multiplier": "1.29x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 8.25,
-    "change_pct": 1.28,
-    "close": 650.75,
-    "previous_close": 642.5,
+    "as_of": "2026-10-01",
+    "change": -52.35,
+    "change_pct": -7.86,
+    "close": 613.85,
+    "previous_close": 666.2,
     "type": "EOD_CLOSE",
-    "volume": 7433
+    "volume": 18436
   },
   "range": {
-    "distance_from_high_pct": -6.76,
-    "distance_from_low_pct": 54.94,
+    "distance_from_high_pct": -12.05,
+    "distance_from_low_pct": 46.15,
     "high_52w": 697.95,
     "history_basis": "52_WEEK",
     "low_52w": 420.0,
-    "range_position_pct": 83.02
+    "range_position_pct": 69.74
   },
   "risk_model": {
-    "invalidation_floor": 627.97,
-    "risk_per_share": 35.79,
-    "technical_pivot": 663.76
+    "invalidation_floor": 592.37,
+    "risk_per_share": 33.76,
+    "technical_pivot": 626.13
   },
   "schema_version": "1.0",
   "sector": null,

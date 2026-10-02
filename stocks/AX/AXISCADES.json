@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1683.8,
-      "high": 1750.0,
-      "low": 1671.2,
-      "open": 1671.2,
-      "time": "2025-09-19",
-      "volume": 186994
-    },
-    {
-      "close": 1764.4,
-      "high": 1767.9,
-      "low": 1669.9,
-      "open": 1708.8,
-      "time": "2025-09-22",
-      "volume": 275514
-    },
-    {
-      "close": 1684.2,
-      "high": 1779.2,
-      "low": 1676.2,
-      "open": 1773.3,
-      "time": "2025-09-23",
-      "volume": 191000
-    },
-    {
       "close": 1683.2,
       "high": 1719.0,
       "low": 1617.9,
@@ -2017,46 +1993,70 @@
       "open": 1890.5,
       "time": "2026-09-28",
       "volume": 278673
+    },
+    {
+      "close": 2067.4,
+      "high": 2067.4,
+      "low": 1970.8,
+      "open": 2034.0,
+      "time": "2026-09-29",
+      "volume": 793589
+    },
+    {
+      "close": 2231.2,
+      "high": 2274.1,
+      "low": 2070.0,
+      "open": 2070.0,
+      "time": "2026-09-30",
+      "volume": 1248290
+    },
+    {
+      "close": 2307.3,
+      "high": 2349.6,
+      "low": 2160.3,
+      "open": 2226.1,
+      "time": "2026-10-01",
+      "volume": 681040
     }
   ],
   "company_name": "AXISCADES TECHNOLOGIES LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE555B01013",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 67,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.24x"
+    "is_coiled": true,
+    "is_stage2": true,
+    "momentum_score": 87,
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "2.11x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -12.6,
-    "change_pct": -0.67,
-    "close": 1879.5,
-    "previous_close": 1892.1,
+    "as_of": "2026-10-01",
+    "change": 76.1,
+    "change_pct": 3.41,
+    "close": 2307.3,
+    "previous_close": 2231.2,
     "type": "EOD_CLOSE",
-    "volume": 278673
+    "volume": 681040
   },
   "range": {
-    "distance_from_high_pct": -14.99,
-    "distance_from_low_pct": 76.76,
-    "high_52w": 2211.0,
+    "distance_from_high_pct": -1.8,
+    "distance_from_low_pct": 116.99,
+    "high_52w": 2349.6,
     "history_basis": "52_WEEK",
     "low_52w": 1063.3,
-    "range_position_pct": 71.12
+    "range_position_pct": 96.71
   },
   "risk_model": {
-    "invalidation_floor": 1813.72,
-    "risk_per_share": 103.37,
-    "technical_pivot": 1917.09
+    "invalidation_floor": 2226.54,
+    "risk_per_share": 126.91,
+    "technical_pivot": 2353.45
   },
   "schema_version": "1.0",
   "sector": null,

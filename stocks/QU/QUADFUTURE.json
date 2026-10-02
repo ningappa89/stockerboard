@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 432.6,
-      "high": 441.0,
-      "low": 430.4,
-      "open": 436.0,
-      "time": "2025-09-19",
-      "volume": 171754
-    },
-    {
-      "close": 426.05,
-      "high": 435.95,
-      "low": 424.5,
-      "open": 431.0,
-      "time": "2025-09-22",
-      "volume": 140557
-    },
-    {
-      "close": 421.9,
-      "high": 431.75,
-      "low": 420.1,
-      "open": 426.7,
-      "time": "2025-09-23",
-      "volume": 121773
-    },
-    {
       "close": 417.7,
       "high": 426.0,
       "low": 416.0,
@@ -2017,13 +1993,37 @@
       "open": 537.0,
       "time": "2026-09-28",
       "volume": 1323802
+    },
+    {
+      "close": 542.15,
+      "high": 554.0,
+      "low": 521.1,
+      "open": 535.0,
+      "time": "2026-09-29",
+      "volume": 682032
+    },
+    {
+      "close": 547.45,
+      "high": 567.2,
+      "low": 540.3,
+      "open": 545.6,
+      "time": "2026-09-30",
+      "volume": 852162
+    },
+    {
+      "close": 531.4,
+      "high": 549.3,
+      "low": 520.2,
+      "open": 546.0,
+      "time": "2026-10-01",
+      "volume": 403649
     }
   ],
   "company_name": "Quadrant Future Tek Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 81,
+    "momentum_score": 80,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.91x"
+    "volume_multiplier": "0.27x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -16.0,
-    "change_pct": -2.92,
-    "close": 531.5,
-    "previous_close": 547.5,
+    "as_of": "2026-10-01",
+    "change": -16.05,
+    "change_pct": -2.93,
+    "close": 531.4,
+    "previous_close": 547.45,
     "type": "EOD_CLOSE",
-    "volume": 1323802
+    "volume": 403649
   },
   "range": {
-    "distance_from_high_pct": -5.91,
-    "distance_from_low_pct": 113.84,
-    "high_52w": 564.9,
+    "distance_from_high_pct": -6.31,
+    "distance_from_low_pct": 113.8,
+    "high_52w": 567.2,
     "history_basis": "52_WEEK",
     "low_52w": 248.55,
-    "range_position_pct": 89.44
+    "range_position_pct": 88.77
   },
   "risk_model": {
-    "invalidation_floor": 512.9,
+    "invalidation_floor": 512.8,
     "risk_per_share": 29.23,
-    "technical_pivot": 542.13
+    "technical_pivot": 542.03
   },
   "schema_version": "1.0",
   "sector": null,

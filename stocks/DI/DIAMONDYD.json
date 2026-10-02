@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1035.85,
-      "high": 1065.95,
-      "low": 1020.35,
-      "open": 1028.0,
-      "time": "2025-09-19",
-      "volume": 153996
-    },
-    {
-      "close": 1016.95,
-      "high": 1046.5,
-      "low": 1009.95,
-      "open": 1028.0,
-      "time": "2025-09-22",
-      "volume": 58180
-    },
-    {
-      "close": 1004.5,
-      "high": 1018.95,
-      "low": 998.0,
-      "open": 1016.0,
-      "time": "2025-09-23",
-      "volume": 39756
-    },
-    {
       "close": 1034.55,
       "high": 1038.0,
       "low": 995.95,
@@ -2017,13 +1993,37 @@
       "open": 1060.0,
       "time": "2026-09-28",
       "volume": 19609
+    },
+    {
+      "close": 1051.1,
+      "high": 1069.3,
+      "low": 1037.7,
+      "open": 1069.3,
+      "time": "2026-09-29",
+      "volume": 28880
+    },
+    {
+      "close": 1108.5,
+      "high": 1124.9,
+      "low": 1056.2,
+      "open": 1061.0,
+      "time": "2026-09-30",
+      "volume": 164680
+    },
+    {
+      "close": 1073.0,
+      "high": 1107.0,
+      "low": 1041.5,
+      "open": 1100.0,
+      "time": "2026-10-01",
+      "volume": 24504
     }
   ],
   "company_name": "PRATAAP SNACKS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 68,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.58x"
+    "volume_multiplier": "1.17x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.8,
-    "change_pct": -0.45,
-    "close": 1066.2,
-    "previous_close": 1071.0,
+    "as_of": "2026-10-01",
+    "change": -35.5,
+    "change_pct": -3.2,
+    "close": 1073.0,
+    "previous_close": 1108.5,
     "type": "EOD_CLOSE",
-    "volume": 19609
+    "volume": 24504
   },
   "range": {
-    "distance_from_high_pct": -14.36,
-    "distance_from_low_pct": 24.14,
+    "distance_from_high_pct": -13.82,
+    "distance_from_low_pct": 24.93,
     "high_52w": 1245.0,
     "history_basis": "52_WEEK",
     "low_52w": 858.9,
-    "range_position_pct": 53.69
+    "range_position_pct": 55.45
   },
   "risk_model": {
-    "invalidation_floor": 1028.88,
-    "risk_per_share": 58.64,
-    "technical_pivot": 1087.52
+    "invalidation_floor": 1035.44,
+    "risk_per_share": 59.02,
+    "technical_pivot": 1094.46
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 91.78,
-      "high": 93.05,
-      "low": 91.16,
-      "open": 92.5,
-      "time": "2025-09-19",
-      "volume": 29863
-    },
-    {
-      "close": 91.48,
-      "high": 93.24,
-      "low": 91.1,
-      "open": 91.7,
-      "time": "2025-09-22",
-      "volume": 15520
-    },
-    {
-      "close": 91.93,
-      "high": 92.43,
-      "low": 91.0,
-      "open": 91.0,
-      "time": "2025-09-23",
-      "volume": 14143
-    },
-    {
       "close": 91.37,
       "high": 93.0,
       "low": 91.05,
@@ -2017,13 +1993,37 @@
       "open": 150.0,
       "time": "2026-09-28",
       "volume": 798917
+    },
+    {
+      "close": 145.05,
+      "high": 147.65,
+      "low": 141.7,
+      "open": 146.5,
+      "time": "2026-09-29",
+      "volume": 302819
+    },
+    {
+      "close": 145.01,
+      "high": 150.79,
+      "low": 143.55,
+      "open": 143.55,
+      "time": "2026-09-30",
+      "volume": 253411
+    },
+    {
+      "close": 138.84,
+      "high": 144.99,
+      "low": 135.0,
+      "open": 143.0,
+      "time": "2026-10-01",
+      "volume": 169840
     }
   ],
   "company_name": "MAWANA SUGARS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 73,
+    "is_stage2": false,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.93x"
+    "volume_multiplier": "0.47x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.74,
-    "change_pct": -2.5,
-    "close": 145.9,
-    "previous_close": 149.64,
+    "as_of": "2026-10-01",
+    "change": -6.17,
+    "change_pct": -4.25,
+    "close": 138.84,
+    "previous_close": 145.01,
     "type": "EOD_CLOSE",
-    "volume": 798917
+    "volume": 169840
   },
   "range": {
-    "distance_from_high_pct": -11.04,
-    "distance_from_low_pct": 94.33,
+    "distance_from_high_pct": -15.34,
+    "distance_from_low_pct": 84.92,
     "high_52w": 164.0,
     "history_basis": "52_WEEK",
     "low_52w": 75.08,
-    "range_position_pct": 79.64
+    "range_position_pct": 71.7
   },
   "risk_model": {
-    "invalidation_floor": 140.79,
-    "risk_per_share": 8.03,
-    "technical_pivot": 148.82
+    "invalidation_floor": 133.98,
+    "risk_per_share": 7.64,
+    "technical_pivot": 141.62
   },
   "schema_version": "1.0",
   "sector": null,

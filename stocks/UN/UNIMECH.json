@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1102.8,
-      "high": 1118.0,
-      "low": 1085.8,
-      "open": 1097.1,
-      "time": "2025-09-19",
-      "volume": 45596
-    },
-    {
-      "close": 1064.1,
-      "high": 1119.8,
-      "low": 1059.6,
-      "open": 1119.8,
-      "time": "2025-09-22",
-      "volume": 75441
-    },
-    {
-      "close": 1047.1,
-      "high": 1090.2,
-      "low": 1042.0,
-      "open": 1067.0,
-      "time": "2025-09-23",
-      "volume": 62701
-    },
-    {
       "close": 1037.2,
       "high": 1055.0,
       "low": 1033.0,
@@ -2017,13 +1993,37 @@
       "open": 1672.8,
       "time": "2026-09-28",
       "volume": 154746
+    },
+    {
+      "close": 1675.0,
+      "high": 1710.0,
+      "low": 1591.6,
+      "open": 1622.0,
+      "time": "2026-09-29",
+      "volume": 595622
+    },
+    {
+      "close": 1724.0,
+      "high": 1753.9,
+      "low": 1705.1,
+      "open": 1721.0,
+      "time": "2026-09-30",
+      "volume": 274093
+    },
+    {
+      "close": 1773.0,
+      "high": 1779.8,
+      "low": 1693.2,
+      "open": 1723.9,
+      "time": "2026-10-01",
+      "volume": 403902
     }
   ],
   "company_name": "Unimech Aerospace and Manufact",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 69,
+    "is_stage2": true,
+    "momentum_score": 82,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.49x"
+    "volume_multiplier": "1.15x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -48.9,
-    "change_pct": -2.94,
-    "close": 1616.2,
-    "previous_close": 1665.1,
+    "as_of": "2026-10-01",
+    "change": 49.0,
+    "change_pct": 2.84,
+    "close": 1773.0,
+    "previous_close": 1724.0,
     "type": "EOD_CLOSE",
-    "volume": 154746
+    "volume": 403902
   },
   "range": {
-    "distance_from_high_pct": -13.49,
-    "distance_from_low_pct": 132.55,
+    "distance_from_high_pct": -5.1,
+    "distance_from_low_pct": 155.11,
     "high_52w": 1868.2,
     "history_basis": "52_WEEK",
     "low_52w": 695.0,
-    "range_position_pct": 78.52
+    "range_position_pct": 91.89
   },
   "risk_model": {
-    "invalidation_floor": 1559.63,
-    "risk_per_share": 88.89,
-    "technical_pivot": 1648.52
+    "invalidation_floor": 1710.94,
+    "risk_per_share": 97.52,
+    "technical_pivot": 1808.46
   },
   "schema_version": "1.0",
   "sector": null,

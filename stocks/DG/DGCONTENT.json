@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 35.91,
-      "high": 36.79,
-      "low": 35.58,
-      "open": 36.79,
-      "time": "2025-09-19",
-      "volume": 51410
-    },
-    {
-      "close": 35.84,
-      "high": 36.44,
-      "low": 35.3,
-      "open": 35.97,
-      "time": "2025-09-22",
-      "volume": 12112
-    },
-    {
-      "close": 35.14,
-      "high": 35.89,
-      "low": 34.5,
-      "open": 35.11,
-      "time": "2025-09-23",
-      "volume": 22481
-    },
-    {
       "close": 35.63,
       "high": 35.89,
       "low": 34.65,
@@ -2017,13 +1993,37 @@
       "open": 23.66,
       "time": "2026-09-28",
       "volume": 39742
+    },
+    {
+      "close": 25.24,
+      "high": 25.95,
+      "low": 23.23,
+      "open": 24.4,
+      "time": "2026-09-29",
+      "volume": 126064
+    },
+    {
+      "close": 25.43,
+      "high": 26.75,
+      "low": 24.75,
+      "open": 25.5,
+      "time": "2026-09-30",
+      "volume": 84649
+    },
+    {
+      "close": 25.43,
+      "high": 26.75,
+      "low": 24.5,
+      "open": 25.75,
+      "time": "2026-10-01",
+      "volume": 92788
     }
   ],
   "company_name": "Digicontent Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.35x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "3.92x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.53,
-    "change_pct": -2.22,
-    "close": 23.37,
-    "previous_close": 23.9,
+    "as_of": "2026-10-01",
+    "change": 0.0,
+    "change_pct": 0.0,
+    "close": 25.43,
+    "previous_close": 25.43,
     "type": "EOD_CLOSE",
-    "volume": 39742
+    "volume": 92788
   },
   "range": {
-    "distance_from_high_pct": -40.94,
-    "distance_from_low_pct": 8.14,
+    "distance_from_high_pct": -35.73,
+    "distance_from_low_pct": 17.68,
     "high_52w": 39.57,
     "history_basis": "52_WEEK",
     "low_52w": 21.61,
-    "range_position_pct": 9.8
+    "range_position_pct": 21.27
   },
   "risk_model": {
-    "invalidation_floor": 22.55,
-    "risk_per_share": 1.29,
-    "technical_pivot": 23.84
+    "invalidation_floor": 24.54,
+    "risk_per_share": 1.4,
+    "technical_pivot": 25.94
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 15.08,
-      "high": 15.1,
-      "low": 14.92,
-      "open": 15.0,
-      "time": "2025-09-19",
-      "volume": 1481207
-    },
-    {
-      "close": 14.86,
-      "high": 15.12,
-      "low": 14.8,
-      "open": 15.08,
-      "time": "2025-09-22",
-      "volume": 1224750
-    },
-    {
-      "close": 14.75,
-      "high": 14.9,
-      "low": 14.7,
-      "open": 14.87,
-      "time": "2025-09-23",
-      "volume": 1649408
-    },
-    {
       "close": 14.47,
       "high": 14.78,
       "low": 14.41,
@@ -2017,13 +1993,37 @@
       "open": 9.93,
       "time": "2026-09-28",
       "volume": 6072196
+    },
+    {
+      "close": 9.49,
+      "high": 10.88,
+      "low": 9.21,
+      "open": 9.35,
+      "time": "2026-09-29",
+      "volume": 2799216
+    },
+    {
+      "close": 9.45,
+      "high": 9.64,
+      "low": 9.41,
+      "open": 9.5,
+      "time": "2026-09-30",
+      "volume": 1655209
+    },
+    {
+      "close": 9.32,
+      "high": 9.41,
+      "low": 9.1,
+      "open": 9.38,
+      "time": "2026-10-01",
+      "volume": 1551707
     }
   ],
   "company_name": "HATHWAY CABLE & DATACOM LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Media Entertainment & Publication",
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "3.93x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.96x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.56,
-    "change_pct": -5.64,
-    "close": 9.37,
-    "previous_close": 9.93,
+    "as_of": "2026-10-01",
+    "change": -0.13,
+    "change_pct": -1.38,
+    "close": 9.32,
+    "previous_close": 9.45,
     "type": "EOD_CLOSE",
-    "volume": 6072196
+    "volume": 1551707
   },
   "range": {
-    "distance_from_high_pct": -38.03,
-    "distance_from_low_pct": 6.96,
-    "high_52w": 15.12,
+    "distance_from_high_pct": -36.94,
+    "distance_from_low_pct": 6.39,
+    "high_52w": 14.78,
     "history_basis": "52_WEEK",
     "low_52w": 8.76,
-    "range_position_pct": 9.59
+    "range_position_pct": 9.3
   },
   "risk_model": {
-    "invalidation_floor": 9.04,
+    "invalidation_floor": 8.99,
     "risk_per_share": 0.52,
-    "technical_pivot": 9.56
+    "technical_pivot": 9.51
   },
   "schema_version": "1.0",
   "sector": "Media Entertainment & Publication",

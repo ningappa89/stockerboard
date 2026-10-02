@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 48.46,
-      "high": 49.0,
-      "low": 47.86,
-      "open": 49.0,
-      "time": "2025-09-19",
-      "volume": 6797063
-    },
-    {
-      "close": 47.58,
-      "high": 48.4,
-      "low": 47.5,
-      "open": 48.01,
-      "time": "2025-09-22",
-      "volume": 4752090
-    },
-    {
-      "close": 48.01,
-      "high": 48.52,
-      "low": 47.42,
-      "open": 47.88,
-      "time": "2025-09-23",
-      "volume": 9956959
-    },
-    {
       "close": 47.17,
       "high": 49.5,
       "low": 46.93,
@@ -2017,13 +1993,37 @@
       "open": 34.22,
       "time": "2026-09-28",
       "volume": 14877991
+    },
+    {
+      "close": 34.36,
+      "high": 34.87,
+      "low": 33.93,
+      "open": 34.8,
+      "time": "2026-09-29",
+      "volume": 8000741
+    },
+    {
+      "close": 34.07,
+      "high": 34.83,
+      "low": 34.0,
+      "open": 34.2,
+      "time": "2026-09-30",
+      "volume": 6241303
+    },
+    {
+      "close": 33.53,
+      "high": 33.98,
+      "low": 33.07,
+      "open": 33.9,
+      "time": "2026-10-01",
+      "volume": 16228437
     }
   ],
   "company_name": "Motherson Sumi Wiring India Li",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.31x"
+    "volume_multiplier": "1.39x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.51,
-    "change_pct": 1.49,
-    "close": 34.8,
-    "previous_close": 34.29,
+    "as_of": "2026-10-01",
+    "change": -0.54,
+    "change_pct": -1.58,
+    "close": 33.53,
+    "previous_close": 34.07,
     "type": "EOD_CLOSE",
-    "volume": 14877991
+    "volume": 16228437
   },
   "range": {
-    "distance_from_high_pct": -35.06,
-    "distance_from_low_pct": 2.93,
+    "distance_from_high_pct": -37.43,
+    "distance_from_low_pct": 1.39,
     "high_52w": 53.59,
     "history_basis": "52_WEEK",
-    "low_52w": 33.81,
-    "range_position_pct": 5.01
+    "low_52w": 33.07,
+    "range_position_pct": 2.24
   },
   "risk_model": {
-    "invalidation_floor": 33.58,
-    "risk_per_share": 1.92,
-    "technical_pivot": 35.5
+    "invalidation_floor": 32.36,
+    "risk_per_share": 1.84,
+    "technical_pivot": 34.2
   },
   "schema_version": "1.0",
   "sector": null,

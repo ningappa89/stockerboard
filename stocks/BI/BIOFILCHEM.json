@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 43.26,
-      "high": 44.2,
-      "low": 43.0,
-      "open": 43.64,
-      "time": "2025-09-19",
-      "volume": 6521
-    },
-    {
-      "close": 42.87,
-      "high": 43.5,
-      "low": 42.3,
-      "open": 43.01,
-      "time": "2025-09-22",
-      "volume": 7447
-    },
-    {
-      "close": 43.55,
-      "high": 44.85,
-      "low": 42.15,
-      "open": 42.27,
-      "time": "2025-09-23",
-      "volume": 21946
-    },
-    {
       "close": 42.67,
       "high": 43.92,
       "low": 42.55,
@@ -2017,13 +1993,37 @@
       "open": 32.15,
       "time": "2026-09-28",
       "volume": 7424
+    },
+    {
+      "close": 31.52,
+      "high": 31.99,
+      "low": 31.3,
+      "open": 31.36,
+      "time": "2026-09-29",
+      "volume": 8360
+    },
+    {
+      "close": 30.38,
+      "high": 31.81,
+      "low": 29.6,
+      "open": 30.51,
+      "time": "2026-09-30",
+      "volume": 18556
+    },
+    {
+      "close": 29.31,
+      "high": 30.73,
+      "low": 29.01,
+      "open": 30.4,
+      "time": "2026-10-01",
+      "volume": 15611
     }
   ],
   "company_name": "BIOFIL CHEMICALS & PHARMACEUTI",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.14x"
+    "volume_multiplier": "0.29x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.93,
-    "change_pct": -2.87,
-    "close": 31.51,
-    "previous_close": 32.44,
+    "as_of": "2026-10-01",
+    "change": -1.07,
+    "change_pct": -3.52,
+    "close": 29.31,
+    "previous_close": 30.38,
     "type": "EOD_CLOSE",
-    "volume": 7424
+    "volume": 15611
   },
   "range": {
-    "distance_from_high_pct": -32.0,
-    "distance_from_low_pct": 23.09,
+    "distance_from_high_pct": -36.75,
+    "distance_from_low_pct": 14.49,
     "high_52w": 46.34,
     "history_basis": "52_WEEK",
     "low_52w": 25.6,
-    "range_position_pct": 28.5
+    "range_position_pct": 17.89
   },
   "risk_model": {
-    "invalidation_floor": 30.41,
-    "risk_per_share": 1.73,
-    "technical_pivot": 32.14
+    "invalidation_floor": 28.28,
+    "risk_per_share": 1.62,
+    "technical_pivot": 29.9
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1319.7,
-      "high": 1328.0,
-      "low": 1307.2,
-      "open": 1312.6,
-      "time": "2025-09-19",
-      "volume": 975913
-    },
-    {
-      "close": 1312.7,
-      "high": 1348.3,
-      "low": 1307.2,
-      "open": 1327.4,
-      "time": "2025-09-22",
-      "volume": 923548
-    },
-    {
-      "close": 1317.1,
-      "high": 1336.1,
-      "low": 1313.5,
-      "open": 1319.3,
-      "time": "2025-09-23",
-      "volume": 1015364
-    },
-    {
       "close": 1308.8,
       "high": 1326.4,
       "low": 1301.4,
@@ -2017,13 +1993,37 @@
       "open": 1211.5,
       "time": "2026-09-28",
       "volume": 605484
+    },
+    {
+      "close": 1162.0,
+      "high": 1179.0,
+      "low": 1149.5,
+      "open": 1173.3,
+      "time": "2026-09-29",
+      "volume": 546120
+    },
+    {
+      "close": 1170.0,
+      "high": 1184.1,
+      "low": 1159.1,
+      "open": 1159.1,
+      "time": "2026-09-30",
+      "volume": 527106
+    },
+    {
+      "close": 1111.0,
+      "high": 1170.0,
+      "low": 1099.1,
+      "open": 1170.0,
+      "time": "2026-10-01",
+      "volume": 788650
     }
   ],
   "company_name": "UNO MINDA LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Automobile and Auto Components",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 67,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.97x"
+    "volume_multiplier": "1.44x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -45.0,
-    "change_pct": -3.69,
-    "close": 1173.0,
-    "previous_close": 1218.0,
+    "as_of": "2026-10-01",
+    "change": -59.0,
+    "change_pct": -5.04,
+    "close": 1111.0,
+    "previous_close": 1170.0,
     "type": "EOD_CLOSE",
-    "volume": 605484
+    "volume": 788650
   },
   "range": {
-    "distance_from_high_pct": -15.12,
-    "distance_from_low_pct": 18.01,
+    "distance_from_high_pct": -19.61,
+    "distance_from_low_pct": 11.77,
     "high_52w": 1382.0,
     "history_basis": "52_WEEK",
     "low_52w": 994.0,
-    "range_position_pct": 46.13
+    "range_position_pct": 30.15
   },
   "risk_model": {
-    "invalidation_floor": 1131.94,
-    "risk_per_share": 64.52,
-    "technical_pivot": 1196.46
+    "invalidation_floor": 1072.12,
+    "risk_per_share": 61.1,
+    "technical_pivot": 1133.22
   },
   "schema_version": "1.0",
   "sector": "Automobile and Auto Components",

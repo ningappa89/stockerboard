@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 343.7,
-      "high": 344.9,
-      "low": 336.5,
-      "open": 341.9,
-      "time": "2025-09-19",
-      "volume": 5803
-    },
-    {
-      "close": 346.45,
-      "high": 350.0,
-      "low": 333.5,
-      "open": 333.5,
-      "time": "2025-09-22",
-      "volume": 20303
-    },
-    {
-      "close": 363.75,
-      "high": 363.75,
-      "low": 336.25,
-      "open": 336.25,
-      "time": "2025-09-23",
-      "volume": 61288
-    },
-    {
       "close": 367.8,
       "high": 378.2,
       "low": 360.0,
@@ -2017,13 +1993,37 @@
       "open": 1136.0,
       "time": "2026-09-28",
       "volume": 99939
+    },
+    {
+      "close": 1121.85,
+      "high": 1129.0,
+      "low": 1081.65,
+      "open": 1087.0,
+      "time": "2026-09-29",
+      "volume": 47204
+    },
+    {
+      "close": 1093.05,
+      "high": 1143.8,
+      "low": 1082.0,
+      "open": 1116.4,
+      "time": "2026-09-30",
+      "volume": 58262
+    },
+    {
+      "close": 1075.0,
+      "high": 1108.0,
+      "low": 1042.5,
+      "open": 1080.2,
+      "time": "2026-10-01",
+      "volume": 97461
     }
   ],
   "company_name": "SAKAR HEALTHCARE LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 72,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.44x"
+    "volume_multiplier": "0.64x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -46.2,
-    "change_pct": -4.07,
-    "close": 1089.65,
-    "previous_close": 1135.85,
+    "as_of": "2026-10-01",
+    "change": -18.05,
+    "change_pct": -1.65,
+    "close": 1075.0,
+    "previous_close": 1093.05,
     "type": "EOD_CLOSE",
-    "volume": 99939
+    "volume": 97461
   },
   "range": {
-    "distance_from_high_pct": -11.4,
-    "distance_from_low_pct": 226.73,
+    "distance_from_high_pct": -12.59,
+    "distance_from_low_pct": 211.14,
     "high_52w": 1229.85,
     "history_basis": "52_WEEK",
-    "low_52w": 333.5,
-    "range_position_pct": 84.36
+    "low_52w": 345.5,
+    "range_position_pct": 82.49
   },
   "risk_model": {
-    "invalidation_floor": 1051.51,
-    "risk_per_share": 59.93,
-    "technical_pivot": 1111.44
+    "invalidation_floor": 1037.38,
+    "risk_per_share": 59.12,
+    "technical_pivot": 1096.5
   },
   "schema_version": "1.0",
   "sector": null,

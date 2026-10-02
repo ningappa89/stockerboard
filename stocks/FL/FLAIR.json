@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 320.7,
-      "high": 327.95,
-      "low": 319.4,
-      "open": 325.5,
-      "time": "2025-09-19",
-      "volume": 53699
-    },
-    {
-      "close": 315.85,
-      "high": 324.8,
-      "low": 310.0,
-      "open": 321.45,
-      "time": "2025-09-22",
-      "volume": 71203
-    },
-    {
-      "close": 317.55,
-      "high": 322.8,
-      "low": 312.2,
-      "open": 317.05,
-      "time": "2025-09-23",
-      "volume": 49591
-    },
-    {
       "close": 317.8,
       "high": 324.0,
       "low": 315.0,
@@ -2017,13 +1993,37 @@
       "open": 236.59,
       "time": "2026-09-28",
       "volume": 53565
+    },
+    {
+      "close": 230.38,
+      "high": 237.95,
+      "low": 230.0,
+      "open": 234.46,
+      "time": "2026-09-29",
+      "volume": 105035
+    },
+    {
+      "close": 229.32,
+      "high": 232.87,
+      "low": 228.51,
+      "open": 232.0,
+      "time": "2026-09-30",
+      "volume": 67611
+    },
+    {
+      "close": 226.57,
+      "high": 231.0,
+      "low": 216.82,
+      "open": 230.98,
+      "time": "2026-10-01",
+      "volume": 126030
     }
   ],
   "company_name": "Flair Writing Industries Limit",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.52x"
+    "volume_multiplier": "1.14x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.52,
-    "change_pct": -1.06,
-    "close": 235.06,
-    "previous_close": 237.58,
+    "as_of": "2026-10-01",
+    "change": -2.75,
+    "change_pct": -1.2,
+    "close": 226.57,
+    "previous_close": 229.32,
     "type": "EOD_CLOSE",
-    "volume": 53565
+    "volume": 126030
   },
   "range": {
-    "distance_from_high_pct": -31.87,
-    "distance_from_low_pct": 3.1,
+    "distance_from_high_pct": -34.33,
+    "distance_from_low_pct": 4.5,
     "high_52w": 345.0,
     "history_basis": "52_WEEK",
-    "low_52w": 228.0,
-    "range_position_pct": 6.03
+    "low_52w": 216.82,
+    "range_position_pct": 7.61
   },
   "risk_model": {
-    "invalidation_floor": 226.83,
-    "risk_per_share": 12.93,
-    "technical_pivot": 239.76
+    "invalidation_floor": 218.64,
+    "risk_per_share": 12.46,
+    "technical_pivot": 231.1
   },
   "schema_version": "1.0",
   "sector": null,

@@ -1497,46 +1497,70 @@
       "open": 1841.2,
       "time": "2026-09-28",
       "volume": 62663
+    },
+    {
+      "close": 1934.4,
+      "high": 1964.9,
+      "low": 1780.0,
+      "open": 1795.0,
+      "time": "2026-09-29",
+      "volume": 201421
+    },
+    {
+      "close": 1876.7,
+      "high": 1979.0,
+      "low": 1851.2,
+      "open": 1950.1,
+      "time": "2026-09-30",
+      "volume": 72922
+    },
+    {
+      "close": 1967.2,
+      "high": 1985.0,
+      "low": 1846.9,
+      "open": 1885.0,
+      "time": "2026-10-01",
+      "volume": 127667
     }
   ],
   "company_name": "BOSCH HOME COMFORT INDIA LIMIT",
   "history": {
     "first_session": "2025-12-24",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 187
+    "last_session": "2026-10-01",
+    "sessions_available": 190
   },
   "industry": null,
   "isin": "INE782A01015",
   "metrics": {
-    "is_breakout": false,
-    "is_coiled": false,
+    "is_breakout": true,
+    "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 82,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.4x"
+    "momentum_score": 88,
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "2.2x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -9.2,
-    "change_pct": -0.51,
-    "close": 1802.4,
-    "previous_close": 1811.6,
+    "as_of": "2026-10-01",
+    "change": 90.5,
+    "change_pct": 4.82,
+    "close": 1967.2,
+    "previous_close": 1876.7,
     "type": "EOD_CLOSE",
-    "volume": 62663
+    "volume": 127667
   },
   "range": {
-    "distance_from_high_pct": -4.7,
-    "distance_from_low_pct": 76.48,
-    "high_52w": 1891.3,
+    "distance_from_high_pct": -0.9,
+    "distance_from_low_pct": 92.62,
+    "high_52w": 1985.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 1021.3,
-    "range_position_pct": 89.78
+    "range_position_pct": 98.15
   },
   "risk_model": {
-    "invalidation_floor": 1739.32,
-    "risk_per_share": 99.13,
-    "technical_pivot": 1838.45
+    "invalidation_floor": 1898.35,
+    "risk_per_share": 84.59,
+    "technical_pivot": 1982.94
   },
   "schema_version": "1.0",
   "sector": null,

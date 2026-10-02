@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 247.34,
-      "high": 254.01,
-      "low": 246.0,
-      "open": 254.01,
-      "time": "2025-09-19",
-      "volume": 549070
-    },
-    {
-      "close": 250.7,
-      "high": 254.8,
-      "low": 245.61,
-      "open": 248.12,
-      "time": "2025-09-22",
-      "volume": 339787
-    },
-    {
-      "close": 247.16,
-      "high": 251.55,
-      "low": 245.6,
-      "open": 249.75,
-      "time": "2025-09-23",
-      "volume": 171792
-    },
-    {
       "close": 245.31,
       "high": 247.99,
       "low": 243.9,
@@ -2017,13 +1993,37 @@
       "open": 204.5,
       "time": "2026-09-28",
       "volume": 311518
+    },
+    {
+      "close": 202.89,
+      "high": 204.49,
+      "low": 198.16,
+      "open": 199.0,
+      "time": "2026-09-29",
+      "volume": 268287
+    },
+    {
+      "close": 204.32,
+      "high": 209.38,
+      "low": 203.25,
+      "open": 203.25,
+      "time": "2026-09-30",
+      "volume": 184844
+    },
+    {
+      "close": 203.53,
+      "high": 205.78,
+      "low": 196.88,
+      "open": 203.25,
+      "time": "2026-10-01",
+      "volume": 254791
     }
   ],
   "company_name": "VAIBHAV GLOBAL LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
+    "momentum_score": 44,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.51x"
+    "volume_multiplier": "1.22x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -6.66,
-    "change_pct": -3.23,
-    "close": 199.72,
-    "previous_close": 206.38,
+    "as_of": "2026-10-01",
+    "change": -0.79,
+    "change_pct": -0.39,
+    "close": 203.53,
+    "previous_close": 204.32,
     "type": "EOD_CLOSE",
-    "volume": 311518
+    "volume": 254791
   },
   "range": {
-    "distance_from_high_pct": -31.89,
-    "distance_from_low_pct": 14.7,
+    "distance_from_high_pct": -30.6,
+    "distance_from_low_pct": 16.88,
     "high_52w": 293.25,
     "history_basis": "52_WEEK",
     "low_52w": 174.13,
-    "range_position_pct": 21.48
+    "range_position_pct": 24.68
   },
   "risk_model": {
-    "invalidation_floor": 192.73,
-    "risk_per_share": 10.98,
-    "technical_pivot": 203.71
+    "invalidation_floor": 196.41,
+    "risk_per_share": 11.19,
+    "technical_pivot": 207.6
   },
   "schema_version": "1.0",
   "sector": null,

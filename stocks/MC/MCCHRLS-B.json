@@ -897,14 +897,38 @@
       "open": 688.0,
       "time": "2026-09-28",
       "volume": 59
+    },
+    {
+      "close": 695.35,
+      "high": 702.0,
+      "low": 655.0,
+      "open": 702.0,
+      "time": "2026-09-29",
+      "volume": 848
+    },
+    {
+      "close": 689.85,
+      "high": 704.0,
+      "low": 660.0,
+      "open": 704.0,
+      "time": "2026-09-30",
+      "volume": 68
+    },
+    {
+      "close": 690.0,
+      "high": 695.0,
+      "low": 665.0,
+      "open": 689.85,
+      "time": "2026-10-01",
+      "volume": 27
     }
   ],
   "company_name": "MAC CHARLES (INDIA) LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 112
+    "last_session": "2026-10-01",
+    "sessions_available": 115
   },
   "industry": null,
   "isin": "INE435D01014",
@@ -912,31 +936,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 67,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.03x"
+    "volume_multiplier": "0.01x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.1,
-    "change_pct": -0.46,
-    "close": 677.9,
-    "previous_close": 681.0,
+    "as_of": "2026-10-01",
+    "change": 0.15,
+    "change_pct": 0.02,
+    "close": 690.0,
+    "previous_close": 689.85,
     "type": "EOD_CLOSE",
-    "volume": 59
+    "volume": 27
   },
   "range": {
-    "distance_from_high_pct": -15.16,
-    "distance_from_low_pct": 16.88,
+    "distance_from_high_pct": -13.64,
+    "distance_from_low_pct": 18.97,
     "high_52w": 799.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 580.0,
-    "range_position_pct": 44.7
+    "range_position_pct": 50.23
   },
   "risk_model": {
-    "invalidation_floor": 654.17,
-    "risk_per_share": 37.29,
-    "technical_pivot": 691.46
+    "invalidation_floor": 665.85,
+    "risk_per_share": 37.95,
+    "technical_pivot": 703.8
   },
   "schema_version": "1.0",
   "sector": null,

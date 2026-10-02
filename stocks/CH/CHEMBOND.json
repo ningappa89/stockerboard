@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 179.49,
-      "high": 185.16,
-      "low": 178.02,
-      "open": 182.8,
-      "time": "2025-09-19",
-      "volume": 8479
-    },
-    {
-      "close": 183.62,
-      "high": 188.3,
-      "low": 176.7,
-      "open": 180.0,
-      "time": "2025-09-22",
-      "volume": 27100
-    },
-    {
-      "close": 179.2,
-      "high": 184.4,
-      "low": 178.0,
-      "open": 182.0,
-      "time": "2025-09-23",
-      "volume": 8423
-    },
-    {
       "close": 177.86,
       "high": 184.0,
       "low": 176.0,
@@ -2017,13 +1993,37 @@
       "open": 199.0,
       "time": "2026-09-28",
       "volume": 9431
+    },
+    {
+      "close": 182.87,
+      "high": 194.0,
+      "low": 182.0,
+      "open": 194.0,
+      "time": "2026-09-29",
+      "volume": 11920
+    },
+    {
+      "close": 182.73,
+      "high": 189.44,
+      "low": 181.62,
+      "open": 182.5,
+      "time": "2026-09-30",
+      "volume": 12149
+    },
+    {
+      "close": 177.64,
+      "high": 183.01,
+      "low": 176.0,
+      "open": 182.76,
+      "time": "2026-10-01",
+      "volume": 8226
     }
   ],
   "company_name": "Chembond Material Technologies",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 60,
+    "momentum_score": 52,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.27x"
+    "volume_multiplier": "0.24x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.56,
-    "change_pct": -1.33,
-    "close": 189.43,
-    "previous_close": 191.99,
+    "as_of": "2026-10-01",
+    "change": -5.09,
+    "change_pct": -2.79,
+    "close": 177.64,
+    "previous_close": 182.73,
     "type": "EOD_CLOSE",
-    "volume": 9431
+    "volume": 8226
   },
   "range": {
-    "distance_from_high_pct": -20.0,
-    "distance_from_low_pct": 80.15,
+    "distance_from_high_pct": -24.98,
+    "distance_from_low_pct": 68.94,
     "high_52w": 236.8,
     "history_basis": "52_WEEK",
     "low_52w": 105.15,
-    "range_position_pct": 64.02
+    "range_position_pct": 55.06
   },
   "risk_model": {
-    "invalidation_floor": 182.8,
-    "risk_per_share": 10.42,
-    "technical_pivot": 193.22
+    "invalidation_floor": 171.42,
+    "risk_per_share": 9.77,
+    "technical_pivot": 181.19
   },
   "schema_version": "1.0",
   "sector": null,

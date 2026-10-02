@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 680.85,
-      "high": 703.0,
-      "low": 676.5,
-      "open": 700.4,
-      "time": "2025-09-19",
-      "volume": 208286
-    },
-    {
-      "close": 679.9,
-      "high": 692.5,
-      "low": 676.8,
-      "open": 680.0,
-      "time": "2025-09-22",
-      "volume": 84584
-    },
-    {
-      "close": 678.1,
-      "high": 684.95,
-      "low": 676.7,
-      "open": 682.6,
-      "time": "2025-09-23",
-      "volume": 65770
-    },
-    {
       "close": 689.4,
       "high": 701.0,
       "low": 675.0,
@@ -2017,13 +1993,37 @@
       "open": 640.0,
       "time": "2026-09-28",
       "volume": 112029
+    },
+    {
+      "close": 631.5,
+      "high": 638.95,
+      "low": 616.95,
+      "open": 630.0,
+      "time": "2026-09-29",
+      "volume": 150092
+    },
+    {
+      "close": 634.1,
+      "high": 645.1,
+      "low": 630.0,
+      "open": 637.3,
+      "time": "2026-09-30",
+      "volume": 76853
+    },
+    {
+      "close": 616.65,
+      "high": 637.8,
+      "low": 613.9,
+      "open": 634.1,
+      "time": "2026-10-01",
+      "volume": 197639
     }
   ],
   "company_name": "SHEELA FOAM LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 53,
+    "momentum_score": 51,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.37x"
+    "volume_multiplier": "0.66x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.3,
-    "change_pct": -0.84,
-    "close": 629.3,
-    "previous_close": 634.6,
+    "as_of": "2026-10-01",
+    "change": -17.45,
+    "change_pct": -2.75,
+    "close": 616.65,
+    "previous_close": 634.1,
     "type": "EOD_CLOSE",
-    "volume": 112029
+    "volume": 197639
   },
   "range": {
-    "distance_from_high_pct": -24.4,
-    "distance_from_low_pct": 37.76,
+    "distance_from_high_pct": -25.92,
+    "distance_from_low_pct": 34.99,
     "high_52w": 832.45,
     "history_basis": "52_WEEK",
     "low_52w": 456.8,
-    "range_position_pct": 45.92
+    "range_position_pct": 42.55
   },
   "risk_model": {
-    "invalidation_floor": 607.27,
-    "risk_per_share": 34.62,
-    "technical_pivot": 641.89
+    "invalidation_floor": 595.07,
+    "risk_per_share": 33.91,
+    "technical_pivot": 628.98
   },
   "schema_version": "1.0",
   "sector": null,

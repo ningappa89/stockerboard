@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 250.31,
-      "high": 264.5,
-      "low": 245.03,
-      "open": 246.35,
-      "time": "2025-09-19",
-      "volume": 2929521
-    },
-    {
-      "close": 245.75,
-      "high": 251.58,
-      "low": 245.1,
-      "open": 250.9,
-      "time": "2025-09-22",
-      "volume": 426540
-    },
-    {
-      "close": 244.78,
-      "high": 246.3,
-      "low": 240.12,
-      "open": 245.01,
-      "time": "2025-09-23",
-      "volume": 723803
-    },
-    {
       "close": 242.01,
       "high": 245.8,
       "low": 241.0,
@@ -2017,13 +1993,37 @@
       "open": 185.0,
       "time": "2026-09-28",
       "volume": 1179459
+    },
+    {
+      "close": 180.28,
+      "high": 184.9,
+      "low": 178.56,
+      "open": 183.47,
+      "time": "2026-09-29",
+      "volume": 775949
+    },
+    {
+      "close": 184.0,
+      "high": 187.25,
+      "low": 182.1,
+      "open": 183.0,
+      "time": "2026-09-30",
+      "volume": 783073
+    },
+    {
+      "close": 173.62,
+      "high": 184.5,
+      "low": 172.0,
+      "open": 184.3,
+      "time": "2026-10-01",
+      "volume": 1220227
     }
   ],
   "company_name": "PENNAR INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.85x"
+    "volume_multiplier": "1.73x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.73,
-    "change_pct": -1.48,
-    "close": 182.17,
-    "previous_close": 184.9,
+    "as_of": "2026-10-01",
+    "change": -10.38,
+    "change_pct": -5.64,
+    "close": 173.62,
+    "previous_close": 184.0,
     "type": "EOD_CLOSE",
-    "volume": 1179459
+    "volume": 1220227
   },
   "range": {
-    "distance_from_high_pct": -34.92,
-    "distance_from_low_pct": 41.11,
+    "distance_from_high_pct": -37.97,
+    "distance_from_low_pct": 34.48,
     "high_52w": 279.9,
     "history_basis": "52_WEEK",
     "low_52w": 129.1,
-    "range_position_pct": 35.19
+    "range_position_pct": 29.52
   },
   "risk_model": {
-    "invalidation_floor": 175.79,
-    "risk_per_share": 10.02,
-    "technical_pivot": 185.81
+    "invalidation_floor": 167.54,
+    "risk_per_share": 9.55,
+    "technical_pivot": 177.09
   },
   "schema_version": "1.0",
   "sector": null,

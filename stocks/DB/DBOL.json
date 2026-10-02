@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 85.31,
-      "high": 85.6,
-      "low": 84.0,
-      "open": 85.07,
-      "time": "2025-09-19",
-      "volume": 41740
-    },
-    {
-      "close": 83.22,
-      "high": 85.94,
-      "low": 82.91,
-      "open": 85.94,
-      "time": "2025-09-22",
-      "volume": 83871
-    },
-    {
-      "close": 81.4,
-      "high": 84.0,
-      "low": 80.85,
-      "open": 84.0,
-      "time": "2025-09-23",
-      "volume": 82008
-    },
-    {
       "close": 81.16,
       "high": 83.63,
       "low": 80.49,
@@ -2017,13 +1993,37 @@
       "open": 123.8,
       "time": "2026-09-28",
       "volume": 385520
+    },
+    {
+      "close": 124.49,
+      "high": 126.25,
+      "low": 119.76,
+      "open": 124.0,
+      "time": "2026-09-29",
+      "volume": 275265
+    },
+    {
+      "close": 126.1,
+      "high": 129.89,
+      "low": 124.29,
+      "open": 124.49,
+      "time": "2026-09-30",
+      "volume": 321088
+    },
+    {
+      "close": 120.91,
+      "high": 126.1,
+      "low": 117.7,
+      "open": 126.1,
+      "time": "2026-10-01",
+      "volume": 216394
     }
   ],
   "company_name": "DHAMPUR BIO ORGANICS LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 72,
+    "momentum_score": 70,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.81x"
+    "volume_multiplier": "1.05x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.52,
-    "change_pct": 0.43,
-    "close": 122.77,
-    "previous_close": 122.25,
+    "as_of": "2026-10-01",
+    "change": -5.19,
+    "change_pct": -4.12,
+    "close": 120.91,
+    "previous_close": 126.1,
     "type": "EOD_CLOSE",
-    "volume": 385520
+    "volume": 216394
   },
   "range": {
-    "distance_from_high_pct": -11.68,
-    "distance_from_low_pct": 77.93,
+    "distance_from_high_pct": -13.01,
+    "distance_from_low_pct": 75.23,
     "high_52w": 139.0,
     "history_basis": "52_WEEK",
     "low_52w": 69.0,
-    "range_position_pct": 76.81
+    "range_position_pct": 74.16
   },
   "risk_model": {
-    "invalidation_floor": 118.47,
-    "risk_per_share": 6.76,
-    "technical_pivot": 125.23
+    "invalidation_floor": 116.68,
+    "risk_per_share": 6.65,
+    "technical_pivot": 123.33
   },
   "schema_version": "1.0",
   "sector": null,

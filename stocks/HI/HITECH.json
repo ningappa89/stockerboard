@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 121.39,
-      "high": 122.0,
-      "low": 117.9,
-      "open": 118.0,
-      "time": "2025-09-19",
-      "volume": 5484666
-    },
-    {
-      "close": 122.59,
-      "high": 127.5,
-      "low": 120.63,
-      "open": 121.7,
-      "time": "2025-09-22",
-      "volume": 7345663
-    },
-    {
-      "close": 122.09,
-      "high": 123.48,
-      "low": 120.6,
-      "open": 122.6,
-      "time": "2025-09-23",
-      "volume": 3304889
-    },
-    {
       "close": 120.39,
       "high": 122.3,
       "low": 118.81,
@@ -2017,13 +1993,37 @@
       "open": 73.65,
       "time": "2026-09-28",
       "volume": 413027
+    },
+    {
+      "close": 73.19,
+      "high": 73.95,
+      "low": 70.74,
+      "open": 73.25,
+      "time": "2026-09-29",
+      "volume": 540643
+    },
+    {
+      "close": 72.61,
+      "high": 74.35,
+      "low": 72.3,
+      "open": 73.0,
+      "time": "2026-09-30",
+      "volume": 332376
+    },
+    {
+      "close": 71.42,
+      "high": 72.53,
+      "low": 69.86,
+      "open": 72.5,
+      "time": "2026-10-01",
+      "volume": 517898
     }
   ],
   "company_name": "HI-TECH PIPES LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.52x"
+    "volume_multiplier": "0.69x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.26,
-    "change_pct": -0.35,
-    "close": 73.34,
-    "previous_close": 73.6,
+    "as_of": "2026-10-01",
+    "change": -1.19,
+    "change_pct": -1.64,
+    "close": 71.42,
+    "previous_close": 72.61,
     "type": "EOD_CLOSE",
-    "volume": 413027
+    "volume": 517898
   },
   "range": {
-    "distance_from_high_pct": -42.48,
-    "distance_from_low_pct": 4.56,
-    "high_52w": 127.5,
+    "distance_from_high_pct": -42.31,
+    "distance_from_low_pct": 2.23,
+    "high_52w": 123.8,
     "history_basis": "52_WEEK",
-    "low_52w": 70.14,
-    "range_position_pct": 5.58
+    "low_52w": 69.86,
+    "range_position_pct": 2.89
   },
   "risk_model": {
-    "invalidation_floor": 70.77,
-    "risk_per_share": 4.04,
-    "technical_pivot": 74.81
+    "invalidation_floor": 68.92,
+    "risk_per_share": 3.93,
+    "technical_pivot": 72.85
   },
   "schema_version": "1.0",
   "sector": null,

@@ -241,14 +241,38 @@
       "open": 441.3,
       "time": "2026-09-28",
       "volume": 2020
+    },
+    {
+      "close": 443.65,
+      "high": 450.0,
+      "low": 427.5,
+      "open": 439.75,
+      "time": "2026-09-29",
+      "volume": 4989
+    },
+    {
+      "close": 440.8,
+      "high": 447.5,
+      "low": 438.2,
+      "open": 447.5,
+      "time": "2026-09-30",
+      "volume": 5897
+    },
+    {
+      "close": 435.45,
+      "high": 444.0,
+      "low": 434.15,
+      "open": 436.25,
+      "time": "2026-10-01",
+      "volume": 2288
     }
   ],
   "company_name": "AXTEL INDUSTRIES LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE767C01012",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 83,
+    "momentum_score": 82,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.25x"
+    "volume_multiplier": "0.28x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -6.35,
-    "change_pct": -1.42,
-    "close": 439.75,
-    "previous_close": 446.1,
+    "as_of": "2026-10-01",
+    "change": -5.35,
+    "change_pct": -1.21,
+    "close": 435.45,
+    "previous_close": 440.8,
     "type": "EOD_CLOSE",
-    "volume": 2020
+    "volume": 2288
   },
   "range": {
-    "distance_from_high_pct": -4.38,
-    "distance_from_low_pct": 14.22,
+    "distance_from_high_pct": -5.32,
+    "distance_from_low_pct": 13.1,
     "high_52w": 459.9,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 385.0,
-    "range_position_pct": 73.1
+    "range_position_pct": 67.36
   },
   "risk_model": {
-    "invalidation_floor": 424.36,
-    "risk_per_share": 24.19,
-    "technical_pivot": 448.55
+    "invalidation_floor": 420.21,
+    "risk_per_share": 23.95,
+    "technical_pivot": 444.16
   },
   "schema_version": "1.0",
   "sector": null,

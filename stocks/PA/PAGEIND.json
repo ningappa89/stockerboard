@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 43570.0,
-      "high": 44485.0,
-      "low": 43490.0,
-      "open": 44300.0,
-      "time": "2025-09-19",
-      "volume": 43916
-    },
-    {
-      "close": 43405.0,
-      "high": 43825.0,
-      "low": 43300.0,
-      "open": 43550.0,
-      "time": "2025-09-22",
-      "volume": 18035
-    },
-    {
-      "close": 42780.0,
-      "high": 43595.0,
-      "low": 42600.0,
-      "open": 43595.0,
-      "time": "2025-09-23",
-      "volume": 19571
-    },
-    {
       "close": 42405.0,
       "high": 42995.0,
       "low": 42305.0,
@@ -2017,13 +1993,37 @@
       "open": 37350.0,
       "time": "2026-09-28",
       "volume": 15742
+    },
+    {
+      "close": 36580.0,
+      "high": 37400.0,
+      "low": 36580.0,
+      "open": 37130.0,
+      "time": "2026-09-29",
+      "volume": 25120
+    },
+    {
+      "close": 36385.0,
+      "high": 37150.0,
+      "low": 36210.0,
+      "open": 36695.0,
+      "time": "2026-09-30",
+      "volume": 83553
+    },
+    {
+      "close": 36660.0,
+      "high": 37135.0,
+      "low": 36055.0,
+      "open": 36485.0,
+      "time": "2026-10-01",
+      "volume": 40495
     }
   ],
   "company_name": "PAGE INDUSTRIES LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.78x"
+    "volume_multiplier": "1.65x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -195.0,
-    "change_pct": -0.52,
-    "close": 37500.0,
-    "previous_close": 37695.0,
+    "as_of": "2026-10-01",
+    "change": 275.0,
+    "change_pct": 0.76,
+    "close": 36660.0,
+    "previous_close": 36385.0,
     "type": "EOD_CLOSE",
-    "volume": 15742
+    "volume": 40495
   },
   "range": {
-    "distance_from_high_pct": -15.7,
-    "distance_from_low_pct": 25.82,
-    "high_52w": 44485.0,
+    "distance_from_high_pct": -16.41,
+    "distance_from_low_pct": 23.0,
+    "high_52w": 43855.0,
     "history_basis": "52_WEEK",
     "low_52w": 29805.0,
-    "range_position_pct": 52.42
+    "range_position_pct": 48.79
   },
   "risk_model": {
-    "invalidation_floor": 36187.5,
-    "risk_per_share": 2062.5,
-    "technical_pivot": 38250.0
+    "invalidation_floor": 35376.9,
+    "risk_per_share": 2016.3,
+    "technical_pivot": 37393.2
   },
   "schema_version": "1.0",
   "sector": null,

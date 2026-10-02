@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1719.6,
-      "high": 1725.0,
-      "low": 1687.9,
-      "open": 1706.0,
-      "time": "2025-09-19",
-      "volume": 22988
-    },
-    {
-      "close": 1692.9,
-      "high": 1735.0,
-      "low": 1685.1,
-      "open": 1711.0,
-      "time": "2025-09-22",
-      "volume": 13524
-    },
-    {
-      "close": 1684.8,
-      "high": 1704.6,
-      "low": 1675.0,
-      "open": 1690.0,
-      "time": "2025-09-23",
-      "volume": 8110
-    },
-    {
       "close": 1690.4,
       "high": 1694.8,
       "low": 1655.1,
@@ -2017,13 +1993,37 @@
       "open": 4250.1,
       "time": "2026-09-28",
       "volume": 27243
+    },
+    {
+      "close": 4061.3,
+      "high": 4117.5,
+      "low": 3965.0,
+      "open": 4100.0,
+      "time": "2026-09-29",
+      "volume": 21869
+    },
+    {
+      "close": 4005.4,
+      "high": 4098.0,
+      "low": 3975.8,
+      "open": 4081.7,
+      "time": "2026-09-30",
+      "volume": 16391
+    },
+    {
+      "close": 4036.0,
+      "high": 4133.3,
+      "low": 3942.0,
+      "open": 3945.0,
+      "time": "2026-10-01",
+      "volume": 22593
     }
   ],
   "company_name": "YASHO INDUSTRIES LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 63,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.74x"
+    "volume_multiplier": "0.61x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -116.2,
-    "change_pct": -2.74,
-    "close": 4117.9,
-    "previous_close": 4234.1,
+    "as_of": "2026-10-01",
+    "change": 30.6,
+    "change_pct": 0.76,
+    "close": 4036.0,
+    "previous_close": 4005.4,
     "type": "EOD_CLOSE",
-    "volume": 27243
+    "volume": 22593
   },
   "range": {
-    "distance_from_high_pct": -17.54,
-    "distance_from_low_pct": 264.42,
+    "distance_from_high_pct": -19.18,
+    "distance_from_low_pct": 257.17,
     "high_52w": 4994.0,
     "history_basis": "52_WEEK",
     "low_52w": 1130.0,
-    "range_position_pct": 77.33
+    "range_position_pct": 75.21
   },
   "risk_model": {
-    "invalidation_floor": 3973.77,
-    "risk_per_share": 226.49,
-    "technical_pivot": 4200.26
+    "invalidation_floor": 3894.74,
+    "risk_per_share": 221.98,
+    "technical_pivot": 4116.72
   },
   "schema_version": "1.0",
   "sector": null,

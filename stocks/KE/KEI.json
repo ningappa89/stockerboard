@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 4200.0,
-      "high": 4235.0,
-      "low": 4135.4,
-      "open": 4175.0,
-      "time": "2025-09-19",
-      "volume": 361152
-    },
-    {
-      "close": 4131.4,
-      "high": 4224.6,
-      "low": 4115.0,
-      "open": 4224.6,
-      "time": "2025-09-22",
-      "volume": 182799
-    },
-    {
-      "close": 4190.3,
-      "high": 4210.1,
-      "low": 4055.0,
-      "open": 4131.4,
-      "time": "2025-09-23",
-      "volume": 522204
-    },
-    {
       "close": 4079.3,
       "high": 4170.0,
       "low": 4063.1,
@@ -2017,13 +1993,37 @@
       "open": 4653.0,
       "time": "2026-09-28",
       "volume": 219657
+    },
+    {
+      "close": 4461.0,
+      "high": 4521.0,
+      "low": 4457.5,
+      "open": 4500.0,
+      "time": "2026-09-29",
+      "volume": 622806
+    },
+    {
+      "close": 4455.0,
+      "high": 4536.5,
+      "low": 4450.0,
+      "open": 4504.5,
+      "time": "2026-09-30",
+      "volume": 182773
+    },
+    {
+      "close": 4502.0,
+      "high": 4558.0,
+      "low": 4424.2,
+      "open": 4455.0,
+      "time": "2026-10-01",
+      "volume": 320912
     }
   ],
   "company_name": "KEI INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 54,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.34x"
+    "volume_multiplier": "0.51x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -157.5,
-    "change_pct": -3.37,
-    "close": 4516.0,
-    "previous_close": 4673.5,
+    "as_of": "2026-10-01",
+    "change": 47.0,
+    "change_pct": 1.05,
+    "close": 4502.0,
+    "previous_close": 4455.0,
     "type": "EOD_CLOSE",
-    "volume": 219657
+    "volume": 320912
   },
   "range": {
-    "distance_from_high_pct": -23.44,
-    "distance_from_low_pct": 21.11,
+    "distance_from_high_pct": -23.68,
+    "distance_from_low_pct": 20.74,
     "high_52w": 5899.0,
     "history_basis": "52_WEEK",
     "low_52w": 3728.7,
-    "range_position_pct": 36.28
+    "range_position_pct": 35.63
   },
   "risk_model": {
-    "invalidation_floor": 4357.94,
-    "risk_per_share": 248.38,
-    "technical_pivot": 4606.32
+    "invalidation_floor": 4344.43,
+    "risk_per_share": 247.61,
+    "technical_pivot": 4592.04
   },
   "schema_version": "1.0",
   "sector": null,

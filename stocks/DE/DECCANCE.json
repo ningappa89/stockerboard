@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1121.0,
-      "high": 1128.4,
-      "low": 1100.0,
-      "open": 1113.4,
-      "time": "2025-09-19",
-      "volume": 54832
-    },
-    {
-      "close": 1130.3,
-      "high": 1150.6,
-      "low": 1115.8,
-      "open": 1130.0,
-      "time": "2025-09-22",
-      "volume": 139325
-    },
-    {
-      "close": 1097.3,
-      "high": 1142.9,
-      "low": 1085.7,
-      "open": 1135.4,
-      "time": "2025-09-23",
-      "volume": 106658
-    },
-    {
       "close": 1139.8,
       "high": 1149.7,
       "low": 1095.0,
@@ -2017,13 +1993,37 @@
       "open": 553.55,
       "time": "2026-09-28",
       "volume": 5876
+    },
+    {
+      "close": 540.1,
+      "high": 551.9,
+      "low": 535.0,
+      "open": 542.55,
+      "time": "2026-09-29",
+      "volume": 9821
+    },
+    {
+      "close": 566.5,
+      "high": 587.45,
+      "low": 537.85,
+      "open": 550.0,
+      "time": "2026-09-30",
+      "volume": 102837
+    },
+    {
+      "close": 548.95,
+      "high": 566.0,
+      "low": 537.25,
+      "open": 566.0,
+      "time": "2026-10-01",
+      "volume": 15070
     }
   ],
   "company_name": "DECCAN CEMENTS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.18x"
+    "volume_multiplier": "0.41x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -11.0,
-    "change_pct": -1.99,
-    "close": 542.55,
-    "previous_close": 553.55,
+    "as_of": "2026-10-01",
+    "change": -17.55,
+    "change_pct": -3.1,
+    "close": 548.95,
+    "previous_close": 566.5,
     "type": "EOD_CLOSE",
-    "volume": 5876
+    "volume": 15070
   },
   "range": {
-    "distance_from_high_pct": -53.15,
-    "distance_from_low_pct": 3.34,
+    "distance_from_high_pct": -52.59,
+    "distance_from_low_pct": 4.56,
     "high_52w": 1158.0,
     "history_basis": "52_WEEK",
     "low_52w": 525.0,
-    "range_position_pct": 2.77
+    "range_position_pct": 3.78
   },
   "risk_model": {
-    "invalidation_floor": 523.56,
-    "risk_per_share": 29.84,
-    "technical_pivot": 553.4
+    "invalidation_floor": 529.74,
+    "risk_per_share": 30.19,
+    "technical_pivot": 559.93
   },
   "schema_version": "1.0",
   "sector": null,

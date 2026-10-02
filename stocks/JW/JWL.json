@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 339.75,
-      "high": 345.5,
-      "low": 338.4,
-      "open": 344.8,
-      "time": "2025-09-19",
-      "volume": 1012272
-    },
-    {
-      "close": 333.9,
-      "high": 342.8,
-      "low": 333.2,
-      "open": 339.75,
-      "time": "2025-09-22",
-      "volume": 832273
-    },
-    {
-      "close": 331.05,
-      "high": 337.9,
-      "low": 330.0,
-      "open": 334.45,
-      "time": "2025-09-23",
-      "volume": 771503
-    },
-    {
       "close": 327.3,
       "high": 332.3,
       "low": 325.9,
@@ -2017,13 +1993,37 @@
       "open": 226.73,
       "time": "2026-09-28",
       "volume": 627764
+    },
+    {
+      "close": 219.82,
+      "high": 223.71,
+      "low": 218.45,
+      "open": 223.71,
+      "time": "2026-09-29",
+      "volume": 627200
+    },
+    {
+      "close": 233.12,
+      "high": 244.8,
+      "low": 220.59,
+      "open": 221.5,
+      "time": "2026-09-30",
+      "volume": 24061117
+    },
+    {
+      "close": 223.93,
+      "high": 229.95,
+      "low": 220.36,
+      "open": 229.51,
+      "time": "2026-10-01",
+      "volume": 2250251
     }
   ],
   "company_name": "JUPITER WAGONS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.92x"
+    "volume_multiplier": "1.17x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.5,
-    "change_pct": -1.98,
-    "close": 222.23,
-    "previous_close": 226.73,
+    "as_of": "2026-10-01",
+    "change": -9.19,
+    "change_pct": -3.94,
+    "close": 223.93,
+    "previous_close": 233.12,
     "type": "EOD_CLOSE",
-    "volume": 627764
+    "volume": 2250251
   },
   "range": {
-    "distance_from_high_pct": -37.97,
-    "distance_from_low_pct": 0.17,
+    "distance_from_high_pct": -37.49,
+    "distance_from_low_pct": 2.51,
     "high_52w": 358.25,
     "history_basis": "52_WEEK",
-    "low_52w": 221.85,
-    "range_position_pct": 0.28
+    "low_52w": 218.45,
+    "range_position_pct": 3.92
   },
   "risk_model": {
-    "invalidation_floor": 214.45,
-    "risk_per_share": 12.22,
-    "technical_pivot": 226.67
+    "invalidation_floor": 216.09,
+    "risk_per_share": 12.32,
+    "technical_pivot": 228.41
   },
   "schema_version": "1.0",
   "sector": null,

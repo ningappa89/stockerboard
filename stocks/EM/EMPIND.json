@@ -241,14 +241,38 @@
       "open": 1040.0,
       "time": "2026-09-28",
       "volume": 1269
+    },
+    {
+      "close": 1046.2,
+      "high": 1053.8,
+      "low": 1032.1,
+      "open": 1032.1,
+      "time": "2026-09-29",
+      "volume": 631
+    },
+    {
+      "close": 1057.1,
+      "high": 1066.0,
+      "low": 1052.0,
+      "open": 1052.0,
+      "time": "2026-09-30",
+      "volume": 2549
+    },
+    {
+      "close": 1059.2,
+      "high": 1077.3,
+      "low": 1046.1,
+      "open": 1057.3,
+      "time": "2026-10-01",
+      "volume": 1377
     }
   ],
   "company_name": "EMPIRE INDUSTRIES LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE515H01014",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.24x"
+    "volume_multiplier": "0.3x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 4.0,
-    "change_pct": 0.39,
-    "close": 1041.4,
-    "previous_close": 1037.4,
+    "as_of": "2026-10-01",
+    "change": 2.1,
+    "change_pct": 0.2,
+    "close": 1059.2,
+    "previous_close": 1057.1,
     "type": "EOD_CLOSE",
-    "volume": 1269
+    "volume": 1377
   },
   "range": {
-    "distance_from_high_pct": -16.55,
-    "distance_from_low_pct": 3.92,
+    "distance_from_high_pct": -15.13,
+    "distance_from_low_pct": 5.7,
     "high_52w": 1248.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 1002.1,
-    "range_position_pct": 15.98
+    "range_position_pct": 23.22
   },
   "risk_model": {
-    "invalidation_floor": 1004.95,
-    "risk_per_share": 57.28,
-    "technical_pivot": 1062.23
+    "invalidation_floor": 1022.13,
+    "risk_per_share": 58.25,
+    "technical_pivot": 1080.38
   },
   "schema_version": "1.0",
   "sector": null,

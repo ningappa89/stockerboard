@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 840.55,
-      "high": 845.0,
-      "low": 832.75,
-      "open": 841.65,
-      "time": "2025-09-19",
-      "volume": 147663
-    },
-    {
-      "close": 820.05,
-      "high": 843.35,
-      "low": 807.0,
-      "open": 840.55,
-      "time": "2025-09-22",
-      "volume": 157890
-    },
-    {
-      "close": 808.15,
-      "high": 827.95,
-      "low": 803.05,
-      "open": 819.25,
-      "time": "2025-09-23",
-      "volume": 90077
-    },
-    {
       "close": 789.15,
       "high": 813.25,
       "low": 780.1,
@@ -2017,13 +1993,37 @@
       "open": 654.9,
       "time": "2026-09-28",
       "volume": 113837
+    },
+    {
+      "close": 654.0,
+      "high": 657.55,
+      "low": 652.0,
+      "open": 656.0,
+      "time": "2026-09-29",
+      "volume": 90377
+    },
+    {
+      "close": 654.9,
+      "high": 661.75,
+      "low": 654.5,
+      "open": 659.0,
+      "time": "2026-09-30",
+      "volume": 70747
+    },
+    {
+      "close": 654.3,
+      "high": 658.45,
+      "low": 642.6,
+      "open": 652.15,
+      "time": "2026-10-01",
+      "volume": 134611
     }
   ],
   "company_name": "Medplus Health Services Limite",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.12x"
+    "volume_multiplier": "1.27x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.9,
-    "change_pct": -0.29,
-    "close": 653.0,
+    "as_of": "2026-10-01",
+    "change": -0.6,
+    "change_pct": -0.09,
+    "close": 654.3,
     "previous_close": 654.9,
     "type": "EOD_CLOSE",
-    "volume": 113837
+    "volume": 134611
   },
   "range": {
-    "distance_from_high_pct": -36.12,
-    "distance_from_low_pct": 1.24,
+    "distance_from_high_pct": -35.99,
+    "distance_from_low_pct": 1.82,
     "high_52w": 1022.2,
     "history_basis": "52_WEEK",
-    "low_52w": 645.0,
-    "range_position_pct": 2.12
+    "low_52w": 642.6,
+    "range_position_pct": 3.08
   },
   "risk_model": {
-    "invalidation_floor": 630.14,
-    "risk_per_share": 35.92,
-    "technical_pivot": 666.06
+    "invalidation_floor": 631.4,
+    "risk_per_share": 35.99,
+    "technical_pivot": 667.39
   },
   "schema_version": "1.0",
   "sector": null,

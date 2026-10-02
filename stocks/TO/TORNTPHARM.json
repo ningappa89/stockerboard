@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3629.2,
-      "high": 3639.9,
-      "low": 3572.5,
-      "open": 3586.4,
-      "time": "2025-09-19",
-      "volume": 314125
-    },
-    {
-      "close": 3655.9,
-      "high": 3675.0,
-      "low": 3613.8,
-      "open": 3629.1,
-      "time": "2025-09-22",
-      "volume": 440659
-    },
-    {
-      "close": 3651.5,
-      "high": 3689.2,
-      "low": 3640.5,
-      "open": 3678.8,
-      "time": "2025-09-23",
-      "volume": 421379
-    },
-    {
       "close": 3614.6,
       "high": 3680.0,
       "low": 3606.2,
@@ -2017,13 +1993,37 @@
       "open": 4980.0,
       "time": "2026-09-28",
       "volume": 402847
+    },
+    {
+      "close": 4894.0,
+      "high": 4948.0,
+      "low": 4833.5,
+      "open": 4884.5,
+      "time": "2026-09-29",
+      "volume": 725626
+    },
+    {
+      "close": 4800.0,
+      "high": 4935.0,
+      "low": 4786.0,
+      "open": 4935.0,
+      "time": "2026-09-30",
+      "volume": 397999
+    },
+    {
+      "close": 4767.3,
+      "high": 4810.5,
+      "low": 4717.3,
+      "open": 4800.0,
+      "time": "2026-10-01",
+      "volume": 357701
     }
   ],
   "company_name": "TORRENT PHARMACEUTICALS L",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 79,
+    "momentum_score": 76,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.18x"
+    "volume_multiplier": "1.0x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -119.5,
-    "change_pct": -2.4,
-    "close": 4869.0,
-    "previous_close": 4988.5,
+    "as_of": "2026-10-01",
+    "change": -32.7,
+    "change_pct": -0.68,
+    "close": 4767.3,
+    "previous_close": 4800.0,
     "type": "EOD_CLOSE",
-    "volume": 402847
+    "volume": 357701
   },
   "range": {
-    "distance_from_high_pct": -7.26,
-    "distance_from_low_pct": 39.89,
+    "distance_from_high_pct": -9.19,
+    "distance_from_low_pct": 36.97,
     "high_52w": 5250.0,
     "history_basis": "52_WEEK",
     "low_52w": 3480.6,
-    "range_position_pct": 78.47
+    "range_position_pct": 72.72
   },
   "risk_model": {
-    "invalidation_floor": 4698.59,
-    "risk_per_share": 267.79,
-    "technical_pivot": 4966.38
+    "invalidation_floor": 4600.44,
+    "risk_per_share": 262.21,
+    "technical_pivot": 4862.65
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

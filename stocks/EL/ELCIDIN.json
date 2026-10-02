@@ -897,14 +897,38 @@
       "open": 103805.0,
       "time": "2026-09-28",
       "volume": 7
+    },
+    {
+      "close": 102665.0,
+      "high": 103500.0,
+      "low": 101500.0,
+      "open": 103500.0,
+      "time": "2026-09-29",
+      "volume": 6
+    },
+    {
+      "close": 102665.0,
+      "high": 103000.0,
+      "low": 102665.0,
+      "open": 103000.0,
+      "time": "2026-09-30",
+      "volume": 2
+    },
+    {
+      "close": 102155.0,
+      "high": 102665.0,
+      "low": 101110.0,
+      "open": 102665.0,
+      "time": "2026-10-01",
+      "volume": 7
     }
   ],
   "company_name": "ELCID INVESTMENTS LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 112
+    "last_session": "2026-10-01",
+    "sessions_available": 115
   },
   "industry": null,
   "isin": "INE927X01018",
@@ -912,31 +936,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 53,
+    "momentum_score": 51,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.76x"
+    "volume_multiplier": "0.75x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -300.0,
-    "change_pct": -0.29,
-    "close": 103500.0,
-    "previous_close": 103800.0,
+    "as_of": "2026-10-01",
+    "change": -510.0,
+    "change_pct": -0.5,
+    "close": 102155.0,
+    "previous_close": 102665.0,
     "type": "EOD_CLOSE",
     "volume": 7
   },
   "range": {
-    "distance_from_high_pct": -24.45,
-    "distance_from_low_pct": 1.26,
+    "distance_from_high_pct": -25.43,
+    "distance_from_low_pct": 1.03,
     "high_52w": 137000.0,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 102210.0,
-    "range_position_pct": 3.71
+    "low_52w": 101110.0,
+    "range_position_pct": 2.91
   },
   "risk_model": {
-    "invalidation_floor": 99877.5,
-    "risk_per_share": 5692.5,
-    "technical_pivot": 105570.0
+    "invalidation_floor": 98579.57,
+    "risk_per_share": 5618.53,
+    "technical_pivot": 104198.1
   },
   "schema_version": "1.0",
   "sector": null,

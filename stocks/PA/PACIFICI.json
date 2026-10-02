@@ -241,14 +241,38 @@
       "open": 142.0,
       "time": "2026-09-28",
       "volume": 215
+    },
+    {
+      "close": 132.96,
+      "high": 135.0,
+      "low": 130.2,
+      "open": 135.0,
+      "time": "2026-09-29",
+      "volume": 59
+    },
+    {
+      "close": 134.5,
+      "high": 135.0,
+      "low": 134.5,
+      "open": 135.0,
+      "time": "2026-09-30",
+      "volume": 286
+    },
+    {
+      "close": 135.99,
+      "high": 140.0,
+      "low": 130.01,
+      "open": 140.0,
+      "time": "2026-10-01",
+      "volume": 538
     }
   ],
   "company_name": "PACIFIC INDUSTRIES LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE883C01025",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.29x"
+    "volume_multiplier": "0.73x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -6.8,
-    "change_pct": -4.79,
-    "close": 135.14,
-    "previous_close": 141.94,
+    "as_of": "2026-10-01",
+    "change": 1.49,
+    "change_pct": 1.11,
+    "close": 135.99,
+    "previous_close": 134.5,
     "type": "EOD_CLOSE",
-    "volume": 215
+    "volume": 538
   },
   "range": {
-    "distance_from_high_pct": -15.54,
-    "distance_from_low_pct": 21.58,
+    "distance_from_high_pct": -15.01,
+    "distance_from_low_pct": 22.35,
     "high_52w": 160.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 111.15,
-    "range_position_pct": 49.11
+    "range_position_pct": 50.85
   },
   "risk_model": {
-    "invalidation_floor": 130.41,
-    "risk_per_share": 7.43,
-    "technical_pivot": 137.84
+    "invalidation_floor": 131.23,
+    "risk_per_share": 7.48,
+    "technical_pivot": 138.71
   },
   "schema_version": "1.0",
   "sector": null,

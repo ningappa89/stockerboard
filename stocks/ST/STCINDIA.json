@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 123.55,
-      "high": 124.95,
-      "low": 120.89,
-      "open": 120.89,
-      "time": "2025-09-19",
-      "volume": 17528
-    },
-    {
-      "close": 139.2,
-      "high": 148.26,
-      "low": 128.91,
-      "open": 134.5,
-      "time": "2025-09-22",
-      "volume": 2361760
-    },
-    {
-      "close": 132.71,
-      "high": 140.49,
-      "low": 132.0,
-      "open": 140.49,
-      "time": "2025-09-23",
-      "volume": 141977
-    },
-    {
       "close": 129.12,
       "high": 134.64,
       "low": 128.11,
@@ -2017,13 +1993,37 @@
       "open": 108.49,
       "time": "2026-09-28",
       "volume": 12115
+    },
+    {
+      "close": 106.98,
+      "high": 107.95,
+      "low": 105.0,
+      "open": 107.7,
+      "time": "2026-09-29",
+      "volume": 12618
+    },
+    {
+      "close": 109.14,
+      "high": 112.0,
+      "low": 108.1,
+      "open": 108.99,
+      "time": "2026-09-30",
+      "volume": 20049
+    },
+    {
+      "close": 105.96,
+      "high": 110.0,
+      "low": 105.1,
+      "open": 110.0,
+      "time": "2026-10-01",
+      "volume": 11515
     }
   ],
   "company_name": "THE STATE TRADING CORPN",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 46,
+    "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.71x"
+    "volume_multiplier": "0.75x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.44,
-    "change_pct": -2.23,
-    "close": 106.91,
-    "previous_close": 109.35,
+    "as_of": "2026-10-01",
+    "change": -3.18,
+    "change_pct": -2.91,
+    "close": 105.96,
+    "previous_close": 109.14,
     "type": "EOD_CLOSE",
-    "volume": 12115
+    "volume": 11515
   },
   "range": {
-    "distance_from_high_pct": -29.06,
-    "distance_from_low_pct": 10.17,
+    "distance_from_high_pct": -29.69,
+    "distance_from_low_pct": 9.19,
     "high_52w": 150.7,
     "history_basis": "52_WEEK",
     "low_52w": 97.04,
-    "range_position_pct": 18.39
+    "range_position_pct": 16.62
   },
   "risk_model": {
-    "invalidation_floor": 103.17,
-    "risk_per_share": 5.88,
-    "technical_pivot": 109.05
+    "invalidation_floor": 102.25,
+    "risk_per_share": 5.83,
+    "technical_pivot": 108.08
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 22.25,
-      "high": 22.42,
-      "low": 22.12,
-      "open": 22.4,
-      "time": "2025-09-19",
-      "volume": 1121159
-    },
-    {
-      "close": 21.94,
-      "high": 22.45,
-      "low": 21.86,
-      "open": 22.25,
-      "time": "2025-09-22",
-      "volume": 1043440
-    },
-    {
-      "close": 21.7,
-      "high": 22.09,
-      "low": 21.63,
-      "open": 21.94,
-      "time": "2025-09-23",
-      "volume": 614679
-    },
-    {
       "close": 21.86,
       "high": 22.2,
       "low": 21.54,
@@ -2017,13 +1993,37 @@
       "open": 13.99,
       "time": "2026-09-28",
       "volume": 3298049
+    },
+    {
+      "close": 13.91,
+      "high": 14.0,
+      "low": 13.26,
+      "open": 13.56,
+      "time": "2026-09-29",
+      "volume": 5856546
+    },
+    {
+      "close": 13.76,
+      "high": 14.0,
+      "low": 13.68,
+      "open": 13.97,
+      "time": "2026-09-30",
+      "volume": 4363721
+    },
+    {
+      "close": 13.43,
+      "high": 13.79,
+      "low": 13.22,
+      "open": 13.79,
+      "time": "2026-10-01",
+      "volume": 3995033
     }
   ],
   "company_name": "UTKARSH SMALL FINANCE BANK LIM",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.2x"
+    "volume_multiplier": "0.25x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.21,
-    "change_pct": -1.52,
-    "close": 13.59,
-    "previous_close": 13.8,
+    "as_of": "2026-10-01",
+    "change": -0.33,
+    "change_pct": -2.4,
+    "close": 13.43,
+    "previous_close": 13.76,
     "type": "EOD_CLOSE",
-    "volume": 3298049
+    "volume": 3995033
   },
   "range": {
-    "distance_from_high_pct": -41.67,
-    "distance_from_low_pct": 34.29,
+    "distance_from_high_pct": -42.36,
+    "distance_from_low_pct": 32.71,
     "high_52w": 23.3,
     "history_basis": "52_WEEK",
     "low_52w": 10.12,
-    "range_position_pct": 26.33
+    "range_position_pct": 25.11
   },
   "risk_model": {
-    "invalidation_floor": 13.11,
-    "risk_per_share": 0.75,
-    "technical_pivot": 13.86
+    "invalidation_floor": 12.96,
+    "risk_per_share": 0.74,
+    "technical_pivot": 13.7
   },
   "schema_version": "1.0",
   "sector": null,

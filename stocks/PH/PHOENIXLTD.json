@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1629.8,
-      "high": 1638.1,
-      "low": 1617.0,
-      "open": 1629.0,
-      "time": "2025-09-19",
-      "volume": 721967
-    },
-    {
-      "close": 1638.3,
-      "high": 1655.0,
-      "low": 1625.0,
-      "open": 1639.6,
-      "time": "2025-09-22",
-      "volume": 594622
-    },
-    {
-      "close": 1626.5,
-      "high": 1646.9,
-      "low": 1614.5,
-      "open": 1646.9,
-      "time": "2025-09-23",
-      "volume": 466468
-    },
-    {
       "close": 1577.7,
       "high": 1620.0,
       "low": 1570.9,
@@ -2017,13 +1993,37 @@
       "open": 1973.1,
       "time": "2026-09-28",
       "volume": 154647
+    },
+    {
+      "close": 1929.0,
+      "high": 1957.3,
+      "low": 1916.7,
+      "open": 1946.3,
+      "time": "2026-09-29",
+      "volume": 381228
+    },
+    {
+      "close": 1935.0,
+      "high": 1963.4,
+      "low": 1916.2,
+      "open": 1940.4,
+      "time": "2026-09-30",
+      "volume": 421345
+    },
+    {
+      "close": 1930.0,
+      "high": 1963.1,
+      "low": 1911.8,
+      "open": 1935.0,
+      "time": "2026-10-01",
+      "volume": 555494
     }
   ],
   "company_name": "THE PHOENIX MILLS LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Realty",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 74,
+    "momentum_score": 73,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.36x"
+    "volume_multiplier": "1.36x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -26.2,
-    "change_pct": -1.32,
-    "close": 1952.2,
-    "previous_close": 1978.4,
+    "as_of": "2026-10-01",
+    "change": -5.0,
+    "change_pct": -0.26,
+    "close": 1930.0,
+    "previous_close": 1935.0,
     "type": "EOD_CLOSE",
-    "volume": 154647
+    "volume": 555494
   },
   "range": {
-    "distance_from_high_pct": -10.03,
-    "distance_from_low_pct": 33.2,
+    "distance_from_high_pct": -11.05,
+    "distance_from_low_pct": 31.69,
     "high_52w": 2169.8,
     "history_basis": "52_WEEK",
     "low_52w": 1465.6,
-    "range_position_pct": 69.1
+    "range_position_pct": 65.95
   },
   "risk_model": {
-    "invalidation_floor": 1883.87,
-    "risk_per_share": 107.37,
-    "technical_pivot": 1991.24
+    "invalidation_floor": 1862.45,
+    "risk_per_share": 106.15,
+    "technical_pivot": 1968.6
   },
   "schema_version": "1.0",
   "sector": "Realty",

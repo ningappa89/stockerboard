@@ -449,14 +449,38 @@
       "open": 165.47,
       "time": "2026-09-28",
       "volume": 190361
+    },
+    {
+      "close": 156.36,
+      "high": 164.59,
+      "low": 153.41,
+      "open": 159.68,
+      "time": "2026-09-29",
+      "volume": 257670
+    },
+    {
+      "close": 159.16,
+      "high": 166.0,
+      "low": 154.18,
+      "open": 154.18,
+      "time": "2026-09-30",
+      "volume": 146651
+    },
+    {
+      "close": 156.79,
+      "high": 163.51,
+      "low": 155.05,
+      "open": 163.21,
+      "time": "2026-10-01",
+      "volume": 160086
     }
   ],
   "company_name": "GYFTR LIMITED",
   "history": {
     "first_session": "2026-07-10",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 56
+    "last_session": "2026-10-01",
+    "sessions_available": 59
   },
   "industry": null,
   "isin": "INE724A01017",
@@ -464,31 +488,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.97x"
+    "momentum_score": 61,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.11x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.05,
-    "change_pct": -2.44,
-    "close": 162.25,
-    "previous_close": 166.3,
+    "as_of": "2026-10-01",
+    "change": -2.37,
+    "change_pct": -1.49,
+    "close": 156.79,
+    "previous_close": 159.16,
     "type": "EOD_CLOSE",
-    "volume": 190361
+    "volume": 160086
   },
   "range": {
-    "distance_from_high_pct": -16.32,
-    "distance_from_low_pct": 16.15,
+    "distance_from_high_pct": -19.14,
+    "distance_from_low_pct": 12.24,
     "high_52w": 193.9,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 139.69,
-    "range_position_pct": 41.62
+    "range_position_pct": 31.54
   },
   "risk_model": {
-    "invalidation_floor": 156.57,
-    "risk_per_share": 8.93,
-    "technical_pivot": 165.5
+    "invalidation_floor": 151.3,
+    "risk_per_share": 8.63,
+    "technical_pivot": 159.93
   },
   "schema_version": "1.0",
   "sector": null,

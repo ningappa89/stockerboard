@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 328.82,
-      "high": 338.18,
-      "low": 314.0,
-      "open": 318.09,
-      "time": "2025-09-19",
-      "volume": 867769
-    },
-    {
-      "close": 329.95,
-      "high": 344.55,
-      "low": 321.55,
-      "open": 323.64,
-      "time": "2025-09-22",
-      "volume": 880520
-    },
-    {
-      "close": 334.36,
-      "high": 349.36,
-      "low": 327.95,
-      "open": 330.77,
-      "time": "2025-09-23",
-      "volume": 1183648
-    },
-    {
       "close": 331.14,
       "high": 341.82,
       "low": 327.27,
@@ -2017,13 +1993,37 @@
       "open": 234.31,
       "time": "2026-09-28",
       "volume": 69753
+    },
+    {
+      "close": 231.5,
+      "high": 234.76,
+      "low": 228.26,
+      "open": 233.81,
+      "time": "2026-09-29",
+      "volume": 81882
+    },
+    {
+      "close": 231.53,
+      "high": 239.0,
+      "low": 230.76,
+      "open": 231.5,
+      "time": "2026-09-30",
+      "volume": 89355
+    },
+    {
+      "close": 229.25,
+      "high": 232.37,
+      "low": 225.36,
+      "open": 231.53,
+      "time": "2026-10-01",
+      "volume": 78325
     }
   ],
   "company_name": "Orient Technologies Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.13x"
+    "volume_multiplier": "0.14x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.49,
-    "change_pct": -1.47,
-    "close": 233.81,
-    "previous_close": 237.3,
+    "as_of": "2026-10-01",
+    "change": -2.28,
+    "change_pct": -0.98,
+    "close": 229.25,
+    "previous_close": 231.53,
     "type": "EOD_CLOSE",
-    "volume": 69753
+    "volume": 78325
   },
   "range": {
-    "distance_from_high_pct": -49.9,
-    "distance_from_low_pct": 5.89,
+    "distance_from_high_pct": -50.88,
+    "distance_from_low_pct": 3.83,
     "high_52w": 466.73,
     "history_basis": "52_WEEK",
     "low_52w": 220.8,
-    "range_position_pct": 5.29
+    "range_position_pct": 3.44
   },
   "risk_model": {
-    "invalidation_floor": 225.63,
-    "risk_per_share": 12.86,
-    "technical_pivot": 238.49
+    "invalidation_floor": 221.23,
+    "risk_per_share": 12.61,
+    "technical_pivot": 233.84
   },
   "schema_version": "1.0",
   "sector": null,

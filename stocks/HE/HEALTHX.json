@@ -833,14 +833,38 @@
       "open": 286.0,
       "time": "2026-09-28",
       "volume": 7226
+    },
+    {
+      "close": 285.05,
+      "high": 291.0,
+      "low": 275.0,
+      "open": 287.0,
+      "time": "2026-09-29",
+      "volume": 19728
+    },
+    {
+      "close": 285.05,
+      "high": 290.9,
+      "low": 283.6,
+      "open": 290.9,
+      "time": "2026-09-30",
+      "volume": 741
+    },
+    {
+      "close": 273.0,
+      "high": 290.0,
+      "low": 270.2,
+      "open": 290.0,
+      "time": "2026-10-01",
+      "volume": 5260
     }
   ],
   "company_name": "HEALTH X PLATFORM LIMITED",
   "history": {
     "first_session": "2026-04-30",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 104
+    "last_session": "2026-10-01",
+    "sessions_available": 107
   },
   "industry": null,
   "isin": "INE019J01013",
@@ -848,31 +872,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
+    "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.42x"
+    "volume_multiplier": "0.88x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.5,
-    "change_pct": -1.21,
-    "close": 285.15,
-    "previous_close": 288.65,
+    "as_of": "2026-10-01",
+    "change": -12.05,
+    "change_pct": -4.23,
+    "close": 273.0,
+    "previous_close": 285.05,
     "type": "EOD_CLOSE",
-    "volume": 7226
+    "volume": 5260
   },
   "range": {
-    "distance_from_high_pct": -18.03,
-    "distance_from_low_pct": 6.0,
+    "distance_from_high_pct": -21.52,
+    "distance_from_low_pct": 1.49,
     "high_52w": 347.85,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 269.0,
-    "range_position_pct": 20.48
+    "range_position_pct": 5.07
   },
   "risk_model": {
-    "invalidation_floor": 275.17,
-    "risk_per_share": 15.68,
-    "technical_pivot": 290.85
+    "invalidation_floor": 263.44,
+    "risk_per_share": 15.02,
+    "technical_pivot": 278.46
   },
   "schema_version": "1.0",
   "sector": null,

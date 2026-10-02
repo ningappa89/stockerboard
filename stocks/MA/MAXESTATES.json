@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 469.0,
-      "high": 476.85,
-      "low": 459.6,
-      "open": 464.5,
-      "time": "2025-09-19",
-      "volume": 180486
-    },
-    {
-      "close": 472.8,
-      "high": 476.0,
-      "low": 466.25,
-      "open": 474.0,
-      "time": "2025-09-22",
-      "volume": 109541
-    },
-    {
-      "close": 456.1,
-      "high": 473.5,
-      "low": 452.55,
-      "open": 471.0,
-      "time": "2025-09-23",
-      "volume": 90403
-    },
-    {
       "close": 456.55,
       "high": 459.55,
       "low": 445.45,
@@ -2017,13 +1993,37 @@
       "open": 590.85,
       "time": "2026-09-28",
       "volume": 91772
+    },
+    {
+      "close": 569.25,
+      "high": 576.95,
+      "low": 559.4,
+      "open": 574.9,
+      "time": "2026-09-29",
+      "volume": 80560
+    },
+    {
+      "close": 587.1,
+      "high": 594.5,
+      "low": 565.5,
+      "open": 569.25,
+      "time": "2026-09-30",
+      "volume": 107816
+    },
+    {
+      "close": 566.25,
+      "high": 585.8,
+      "low": 551.6,
+      "open": 582.0,
+      "time": "2026-10-01",
+      "volume": 96922
     }
   ],
   "company_name": "Max Estates Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 71,
+    "momentum_score": 70,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.38x"
+    "volume_multiplier": "0.51x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -22.8,
-    "change_pct": -3.83,
-    "close": 571.85,
-    "previous_close": 594.65,
+    "as_of": "2026-10-01",
+    "change": -20.85,
+    "change_pct": -3.55,
+    "close": 566.25,
+    "previous_close": 587.1,
     "type": "EOD_CLOSE",
-    "volume": 91772
+    "volume": 96922
   },
   "range": {
-    "distance_from_high_pct": -12.4,
-    "distance_from_low_pct": 87.22,
+    "distance_from_high_pct": -13.26,
+    "distance_from_low_pct": 85.38,
     "high_52w": 652.8,
     "history_basis": "52_WEEK",
     "low_52w": 305.45,
-    "range_position_pct": 76.69
+    "range_position_pct": 75.08
   },
   "risk_model": {
-    "invalidation_floor": 551.84,
-    "risk_per_share": 31.45,
-    "technical_pivot": 583.29
+    "invalidation_floor": 546.43,
+    "risk_per_share": 31.15,
+    "technical_pivot": 577.58
   },
   "schema_version": "1.0",
   "sector": null,

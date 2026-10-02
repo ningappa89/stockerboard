@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 86.04,
-      "high": 87.39,
-      "low": 84.7,
-      "open": 85.8,
-      "time": "2025-09-19",
-      "volume": 750285
-    },
-    {
-      "close": 85.21,
-      "high": 86.64,
-      "low": 85.0,
-      "open": 86.04,
-      "time": "2025-09-22",
-      "volume": 435695
-    },
-    {
-      "close": 84.5,
-      "high": 86.1,
-      "low": 84.02,
-      "open": 84.4,
-      "time": "2025-09-23",
-      "volume": 574315
-    },
-    {
       "close": 83.97,
       "high": 85.44,
       "low": 83.6,
@@ -2017,13 +1993,37 @@
       "open": 168.8,
       "time": "2026-09-28",
       "volume": 569002
+    },
+    {
+      "close": 166.84,
+      "high": 170.5,
+      "low": 164.02,
+      "open": 166.0,
+      "time": "2026-09-29",
+      "volume": 1701743
+    },
+    {
+      "close": 170.63,
+      "high": 173.5,
+      "low": 167.0,
+      "open": 167.0,
+      "time": "2026-09-30",
+      "volume": 1417308
+    },
+    {
+      "close": 165.83,
+      "high": 172.0,
+      "low": 163.27,
+      "open": 170.63,
+      "time": "2026-10-01",
+      "volume": 867077
     }
   ],
   "company_name": "MADHYA BHARAT AGRO P. LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 83,
+    "momentum_score": 82,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.61x"
+    "volume_multiplier": "0.84x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.66,
-    "change_pct": -0.99,
-    "close": 166.81,
-    "previous_close": 168.47,
+    "as_of": "2026-10-01",
+    "change": -4.8,
+    "change_pct": -2.81,
+    "close": 165.83,
+    "previous_close": 170.63,
     "type": "EOD_CLOSE",
-    "volume": 569002
+    "volume": 867077
   },
   "range": {
-    "distance_from_high_pct": -4.65,
-    "distance_from_low_pct": 123.52,
+    "distance_from_high_pct": -5.21,
+    "distance_from_low_pct": 122.2,
     "high_52w": 174.94,
     "history_basis": "52_WEEK",
     "low_52w": 74.63,
-    "range_position_pct": 91.9
+    "range_position_pct": 90.92
   },
   "risk_model": {
-    "invalidation_floor": 160.97,
-    "risk_per_share": 9.18,
-    "technical_pivot": 170.15
+    "invalidation_floor": 160.03,
+    "risk_per_share": 9.12,
+    "technical_pivot": 169.15
   },
   "schema_version": "1.0",
   "sector": null,

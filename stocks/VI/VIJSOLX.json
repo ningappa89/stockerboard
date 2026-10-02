@@ -233,46 +233,70 @@
       "open": 656.8,
       "time": "2026-09-28",
       "volume": 40
+    },
+    {
+      "close": 649.3,
+      "high": 650.0,
+      "low": 636.9,
+      "open": 636.9,
+      "time": "2026-09-29",
+      "volume": 11
+    },
+    {
+      "close": 625.1,
+      "high": 647.0,
+      "low": 622.45,
+      "open": 628.65,
+      "time": "2026-09-30",
+      "volume": 232
+    },
+    {
+      "close": 623.3,
+      "high": 645.0,
+      "low": 623.3,
+      "open": 626.0,
+      "time": "2026-10-01",
+      "volume": 1064
     }
   ],
   "company_name": "VIJAY SOLVEX LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 29
+    "last_session": "2026-10-01",
+    "sessions_available": 32
   },
   "industry": null,
   "isin": "INE362D01010",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 72,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.08x"
+    "is_stage2": false,
+    "momentum_score": 69,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.2x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.05,
-    "change_pct": 0.01,
-    "close": 636.1,
-    "previous_close": 636.05,
+    "as_of": "2026-10-01",
+    "change": -1.8,
+    "change_pct": -0.29,
+    "close": 623.3,
+    "previous_close": 625.1,
     "type": "EOD_CLOSE",
-    "volume": 40
+    "volume": 1064
   },
   "range": {
-    "distance_from_high_pct": -11.64,
-    "distance_from_low_pct": 4.28,
+    "distance_from_high_pct": -13.42,
+    "distance_from_low_pct": 2.18,
     "high_52w": 719.9,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 610.0,
-    "range_position_pct": 23.75
+    "range_position_pct": 12.1
   },
   "risk_model": {
-    "invalidation_floor": 613.84,
-    "risk_per_share": 34.98,
-    "technical_pivot": 648.82
+    "invalidation_floor": 601.48,
+    "risk_per_share": 34.29,
+    "technical_pivot": 635.77
   },
   "schema_version": "1.0",
   "sector": null,

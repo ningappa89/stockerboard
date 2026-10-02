@@ -241,46 +241,70 @@
       "open": 183.7,
       "time": "2026-09-28",
       "volume": 7569
+    },
+    {
+      "close": 177.99,
+      "high": 180.9,
+      "low": 176.0,
+      "open": 179.9,
+      "time": "2026-09-29",
+      "volume": 5760
+    },
+    {
+      "close": 177.81,
+      "high": 180.38,
+      "low": 177.0,
+      "open": 178.99,
+      "time": "2026-09-30",
+      "volume": 4570
+    },
+    {
+      "close": 174.84,
+      "high": 179.98,
+      "low": 174.0,
+      "open": 179.98,
+      "time": "2026-10-01",
+      "volume": 6272
     }
   ],
   "company_name": "KSE LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE953E01022",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 71,
+    "is_stage2": false,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.61x"
+    "volume_multiplier": "0.57x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.44,
-    "change_pct": -0.8,
-    "close": 179.32,
-    "previous_close": 180.76,
+    "as_of": "2026-10-01",
+    "change": -2.97,
+    "change_pct": -1.67,
+    "close": 174.84,
+    "previous_close": 177.81,
     "type": "EOD_CLOSE",
-    "volume": 7569
+    "volume": 6272
   },
   "range": {
-    "distance_from_high_pct": -12.53,
-    "distance_from_low_pct": 3.47,
+    "distance_from_high_pct": -14.71,
+    "distance_from_low_pct": 0.88,
     "high_52w": 205.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 173.31,
-    "range_position_pct": 18.96
+    "range_position_pct": 4.83
   },
   "risk_model": {
-    "invalidation_floor": 173.04,
-    "risk_per_share": 9.87,
-    "technical_pivot": 182.91
+    "invalidation_floor": 168.72,
+    "risk_per_share": 9.62,
+    "technical_pivot": 178.34
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 261.71,
-      "high": 263.9,
-      "low": 258.0,
-      "open": 259.18,
-      "time": "2025-09-19",
-      "volume": 2492503
-    },
-    {
-      "close": 263.58,
-      "high": 273.15,
-      "low": 260.0,
-      "open": 265.0,
-      "time": "2025-09-22",
-      "volume": 7898372
-    },
-    {
-      "close": 268.34,
-      "high": 274.6,
-      "low": 263.0,
-      "open": 264.7,
-      "time": "2025-09-23",
-      "volume": 8855832
-    },
-    {
       "close": 266.24,
       "high": 278.0,
       "low": 265.1,
@@ -2017,13 +1993,37 @@
       "open": 228.28,
       "time": "2026-09-28",
       "volume": 1263135
+    },
+    {
+      "close": 221.35,
+      "high": 225.6,
+      "low": 220.1,
+      "open": 225.6,
+      "time": "2026-09-29",
+      "volume": 1239698
+    },
+    {
+      "close": 222.34,
+      "high": 226.0,
+      "low": 221.0,
+      "open": 223.05,
+      "time": "2026-09-30",
+      "volume": 919919
+    },
+    {
+      "close": 215.67,
+      "high": 222.08,
+      "low": 210.42,
+      "open": 221.05,
+      "time": "2026-10-01",
+      "volume": 2042248
     }
   ],
   "company_name": "GODAWARI POWER & ISPAT LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 45,
+    "momentum_score": 41,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.83x"
+    "volume_multiplier": "1.42x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.96,
-    "change_pct": -1.73,
-    "close": 225.46,
-    "previous_close": 229.42,
+    "as_of": "2026-10-01",
+    "change": -6.67,
+    "change_pct": -3.0,
+    "close": 215.67,
+    "previous_close": 222.34,
     "type": "EOD_CLOSE",
-    "volume": 1263135
+    "volume": 2042248
   },
   "range": {
-    "distance_from_high_pct": -29.54,
-    "distance_from_low_pct": 1.92,
+    "distance_from_high_pct": -32.6,
+    "distance_from_low_pct": 2.5,
     "high_52w": 320.0,
     "history_basis": "52_WEEK",
-    "low_52w": 221.21,
-    "range_position_pct": 4.3
+    "low_52w": 210.42,
+    "range_position_pct": 4.79
   },
   "risk_model": {
-    "invalidation_floor": 217.57,
-    "risk_per_share": 12.4,
-    "technical_pivot": 229.97
+    "invalidation_floor": 208.12,
+    "risk_per_share": 11.86,
+    "technical_pivot": 219.98
   },
   "schema_version": "1.0",
   "sector": null,

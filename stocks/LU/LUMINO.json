@@ -137,14 +137,38 @@
       "open": 105.5,
       "time": "2026-09-28",
       "volume": 4543583
+    },
+    {
+      "close": 104.4,
+      "high": 106.45,
+      "low": 103.53,
+      "open": 104.61,
+      "time": "2026-09-29",
+      "volume": 3576565
+    },
+    {
+      "close": 102.46,
+      "high": 106.19,
+      "low": 101.7,
+      "open": 104.4,
+      "time": "2026-09-30",
+      "volume": 3888707
+    },
+    {
+      "close": 96.48,
+      "high": 103.6,
+      "low": 94.5,
+      "open": 102.46,
+      "time": "2026-10-01",
+      "volume": 11824903
     }
   ],
   "company_name": "Lumino Industries Limited",
   "history": {
     "first_session": "2026-09-03",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 17
+    "last_session": "2026-10-01",
+    "sessions_available": 20
   },
   "industry": null,
   "isin": "INE185Q01025",
@@ -152,31 +176,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 68,
+    "momentum_score": 58,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.14x"
+    "volume_multiplier": "0.4x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.47,
-    "change_pct": -0.45,
-    "close": 104.79,
-    "previous_close": 105.26,
+    "as_of": "2026-10-01",
+    "change": -5.98,
+    "change_pct": -5.84,
+    "close": 96.48,
+    "previous_close": 102.46,
     "type": "EOD_CLOSE",
-    "volume": 4543583
+    "volume": 11824903
   },
   "range": {
-    "distance_from_high_pct": -14.11,
-    "distance_from_low_pct": 6.87,
+    "distance_from_high_pct": -20.92,
+    "distance_from_low_pct": 2.1,
     "high_52w": 122.0,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 98.05,
-    "range_position_pct": 28.14
+    "low_52w": 94.5,
+    "range_position_pct": 7.2
   },
   "risk_model": {
-    "invalidation_floor": 101.12,
-    "risk_per_share": 5.77,
-    "technical_pivot": 106.89
+    "invalidation_floor": 93.1,
+    "risk_per_share": 5.31,
+    "technical_pivot": 98.41
   },
   "schema_version": "1.0",
   "sector": null,

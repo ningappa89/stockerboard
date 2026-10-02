@@ -1993,14 +1993,38 @@
       "open": 46.48,
       "time": "2026-09-28",
       "volume": 64007
+    },
+    {
+      "close": 48.99,
+      "high": 49.99,
+      "low": 48.02,
+      "open": 48.02,
+      "time": "2026-09-29",
+      "volume": 105910
+    },
+    {
+      "close": 49.12,
+      "high": 49.9,
+      "low": 49.0,
+      "open": 49.15,
+      "time": "2026-09-30",
+      "volume": 74544
+    },
+    {
+      "close": 46.65,
+      "high": 50.5,
+      "low": 46.11,
+      "open": 49.12,
+      "time": "2026-10-01",
+      "volume": 162379
     }
   ],
   "company_name": "VMS TMT LIMITED",
   "history": {
     "first_session": "2025-09-24",
-    "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 249
+    "has_full_52w_history": true,
+    "last_session": "2026-10-01",
+    "sessions_available": 252
   },
   "industry": null,
   "isin": "INE0SJA01013",
@@ -2009,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.94x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.26x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 1.77,
-    "change_pct": 3.81,
-    "close": 48.25,
-    "previous_close": 46.48,
+    "as_of": "2026-10-01",
+    "change": -2.47,
+    "change_pct": -5.03,
+    "close": 46.65,
+    "previous_close": 49.12,
     "type": "EOD_CLOSE",
-    "volume": 64007
+    "volume": 162379
   },
   "range": {
-    "distance_from_high_pct": -54.05,
-    "distance_from_low_pct": 44.03,
+    "distance_from_high_pct": -55.57,
+    "distance_from_low_pct": 39.25,
     "high_52w": 105.0,
     "history_basis": "52_WEEK",
     "low_52w": 33.5,
-    "range_position_pct": 20.63
+    "range_position_pct": 18.39
   },
   "risk_model": {
-    "invalidation_floor": 46.56,
-    "risk_per_share": 2.66,
-    "technical_pivot": 49.22
+    "invalidation_floor": 45.02,
+    "risk_per_share": 2.56,
+    "technical_pivot": 47.58
   },
   "schema_version": "1.0",
   "sector": null,

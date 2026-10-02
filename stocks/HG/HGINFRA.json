@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1004.8,
-      "high": 1022.7,
-      "low": 998.45,
-      "open": 1022.7,
-      "time": "2025-09-19",
-      "volume": 148579
-    },
-    {
-      "close": 998.2,
-      "high": 1014.0,
-      "low": 990.9,
-      "open": 1004.75,
-      "time": "2025-09-22",
-      "volume": 127565
-    },
-    {
-      "close": 992.85,
-      "high": 1014.0,
-      "low": 990.0,
-      "open": 1008.2,
-      "time": "2025-09-23",
-      "volume": 62989
-    },
-    {
       "close": 975.15,
       "high": 996.8,
       "low": 973.15,
@@ -2017,13 +1993,37 @@
       "open": 454.9,
       "time": "2026-09-28",
       "volume": 135545
+    },
+    {
+      "close": 438.25,
+      "high": 448.0,
+      "low": 435.0,
+      "open": 444.0,
+      "time": "2026-09-29",
+      "volume": 173913
+    },
+    {
+      "close": 432.75,
+      "high": 442.55,
+      "low": 431.0,
+      "open": 439.55,
+      "time": "2026-09-30",
+      "volume": 125949
+    },
+    {
+      "close": 419.9,
+      "high": 433.8,
+      "low": 409.0,
+      "open": 433.0,
+      "time": "2026-10-01",
+      "volume": 248381
     }
   ],
   "company_name": "H.G.INFRA ENGINEERING LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.18x"
+    "volume_multiplier": "0.33x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -8.55,
-    "change_pct": -1.89,
-    "close": 444.55,
-    "previous_close": 453.1,
+    "as_of": "2026-10-01",
+    "change": -12.85,
+    "change_pct": -2.97,
+    "close": 419.9,
+    "previous_close": 432.75,
     "type": "EOD_CLOSE",
-    "volume": 135545
+    "volume": 248381
   },
   "range": {
-    "distance_from_high_pct": -56.53,
-    "distance_from_low_pct": 3.5,
-    "high_52w": 1022.7,
+    "distance_from_high_pct": -57.88,
+    "distance_from_low_pct": 2.67,
+    "high_52w": 996.8,
     "history_basis": "52_WEEK",
-    "low_52w": 429.5,
-    "range_position_pct": 2.54
+    "low_52w": 409.0,
+    "range_position_pct": 1.85
   },
   "risk_model": {
-    "invalidation_floor": 428.99,
-    "risk_per_share": 24.45,
-    "technical_pivot": 453.44
+    "invalidation_floor": 405.2,
+    "risk_per_share": 23.1,
+    "technical_pivot": 428.3
   },
   "schema_version": "1.0",
   "sector": null,

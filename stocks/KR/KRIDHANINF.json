@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3.91,
-      "high": 3.98,
-      "low": 3.81,
-      "open": 3.98,
-      "time": "2025-09-19",
-      "volume": 18744
-    },
-    {
-      "close": 3.86,
-      "high": 3.98,
-      "low": 3.82,
-      "open": 3.82,
-      "time": "2025-09-22",
-      "volume": 29616
-    },
-    {
-      "close": 3.78,
-      "high": 3.98,
-      "low": 3.66,
-      "open": 3.98,
-      "time": "2025-09-23",
-      "volume": 141971
-    },
-    {
       "close": 3.82,
       "high": 3.87,
       "low": 3.8,
@@ -2017,13 +1993,37 @@
       "open": 1.79,
       "time": "2026-09-28",
       "volume": 87551
+    },
+    {
+      "close": 1.88,
+      "high": 1.9,
+      "low": 1.83,
+      "open": 1.9,
+      "time": "2026-09-29",
+      "volume": 17885
+    },
+    {
+      "close": 1.88,
+      "high": 1.97,
+      "low": 1.85,
+      "open": 1.89,
+      "time": "2026-09-30",
+      "volume": 56032
+    },
+    {
+      "close": 1.85,
+      "high": 1.96,
+      "low": 1.84,
+      "open": 1.89,
+      "time": "2026-10-01",
+      "volume": 104582
     }
   ],
   "company_name": "KRIDHAN INFRA LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.64x"
+    "volume_multiplier": "1.8x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.03,
-    "change_pct": 1.61,
-    "close": 1.89,
-    "previous_close": 1.86,
+    "as_of": "2026-10-01",
+    "change": -0.03,
+    "change_pct": -1.6,
+    "close": 1.85,
+    "previous_close": 1.88,
     "type": "EOD_CLOSE",
-    "volume": 87551
+    "volume": 104582
   },
   "range": {
-    "distance_from_high_pct": -60.46,
-    "distance_from_low_pct": 5.59,
+    "distance_from_high_pct": -61.3,
+    "distance_from_low_pct": 3.35,
     "high_52w": 4.78,
     "history_basis": "52_WEEK",
     "low_52w": 1.79,
-    "range_position_pct": 3.34
+    "range_position_pct": 2.01
   },
   "risk_model": {
-    "invalidation_floor": 1.82,
+    "invalidation_floor": 1.79,
     "risk_per_share": 0.5,
-    "technical_pivot": 1.93
+    "technical_pivot": 1.89
   },
   "schema_version": "1.0",
   "sector": null,

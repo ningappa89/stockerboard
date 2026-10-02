@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 46.87,
-      "high": 47.3,
-      "low": 45.0,
-      "open": 47.3,
-      "time": "2025-09-19",
-      "volume": 1177248
-    },
-    {
-      "close": 46.49,
-      "high": 47.87,
-      "low": 46.25,
-      "open": 47.0,
-      "time": "2025-09-22",
-      "volume": 285129
-    },
-    {
-      "close": 47.49,
-      "high": 48.6,
-      "low": 44.16,
-      "open": 44.16,
-      "time": "2025-09-23",
-      "volume": 1065615
-    },
-    {
       "close": 47.06,
       "high": 49.54,
       "low": 46.0,
@@ -2017,13 +1993,37 @@
       "open": 89.42,
       "time": "2026-09-28",
       "volume": 1424657
+    },
+    {
+      "close": 88.16,
+      "high": 90.48,
+      "low": 87.35,
+      "open": 88.29,
+      "time": "2026-09-29",
+      "volume": 1365354
+    },
+    {
+      "close": 89.19,
+      "high": 91.0,
+      "low": 88.05,
+      "open": 88.05,
+      "time": "2026-09-30",
+      "volume": 916404
+    },
+    {
+      "close": 87.25,
+      "high": 89.89,
+      "low": 86.05,
+      "open": 89.0,
+      "time": "2026-10-01",
+      "volume": 1211274
     }
   ],
   "company_name": "ARFIN INDIA LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.07x"
+    "volume_multiplier": "0.89x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.83,
-    "change_pct": -2.03,
-    "close": 88.48,
-    "previous_close": 90.31,
+    "as_of": "2026-10-01",
+    "change": -1.94,
+    "change_pct": -2.18,
+    "close": 87.25,
+    "previous_close": 89.19,
     "type": "EOD_CLOSE",
-    "volume": 1424657
+    "volume": 1211274
   },
   "range": {
-    "distance_from_high_pct": -16.69,
-    "distance_from_low_pct": 100.36,
+    "distance_from_high_pct": -17.84,
+    "distance_from_low_pct": 93.2,
     "high_52w": 106.2,
     "history_basis": "52_WEEK",
-    "low_52w": 44.16,
-    "range_position_pct": 71.44
+    "low_52w": 45.16,
+    "range_position_pct": 68.95
   },
   "risk_model": {
-    "invalidation_floor": 85.38,
-    "risk_per_share": 4.87,
-    "technical_pivot": 90.25
+    "invalidation_floor": 84.2,
+    "risk_per_share": 4.8,
+    "technical_pivot": 89.0
   },
   "schema_version": "1.0",
   "sector": null,

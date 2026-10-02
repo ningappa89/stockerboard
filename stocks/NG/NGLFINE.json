@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1412.9,
-      "high": 1439.0,
-      "low": 1343.4,
-      "open": 1370.6,
-      "time": "2025-09-19",
-      "volume": 5694
-    },
-    {
-      "close": 1423.0,
-      "high": 1445.9,
-      "low": 1403.5,
-      "open": 1403.5,
-      "time": "2025-09-22",
-      "volume": 2318
-    },
-    {
-      "close": 1455.2,
-      "high": 1480.0,
-      "low": 1394.8,
-      "open": 1423.0,
-      "time": "2025-09-23",
-      "volume": 1771
-    },
-    {
       "close": 1442.8,
       "high": 1484.0,
       "low": 1432.0,
@@ -2017,13 +1993,37 @@
       "open": 2906.1,
       "time": "2026-09-28",
       "volume": 10634
+    },
+    {
+      "close": 2870.9,
+      "high": 2948.0,
+      "low": 2715.1,
+      "open": 2736.0,
+      "time": "2026-09-29",
+      "volume": 22597
+    },
+    {
+      "close": 2909.5,
+      "high": 2944.7,
+      "low": 2823.1,
+      "open": 2893.9,
+      "time": "2026-09-30",
+      "volume": 4054
+    },
+    {
+      "close": 2924.0,
+      "high": 2972.0,
+      "low": 2851.0,
+      "open": 2885.7,
+      "time": "2026-10-01",
+      "volume": 15235
     }
   ],
   "company_name": "NGL FINE-CHEM LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 53,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.86x"
+    "volume_multiplier": "1.22x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -176.1,
-    "change_pct": -6.06,
-    "close": 2730.0,
-    "previous_close": 2906.1,
+    "as_of": "2026-10-01",
+    "change": 14.5,
+    "change_pct": 0.5,
+    "close": 2924.0,
+    "previous_close": 2909.5,
     "type": "EOD_CLOSE",
-    "volume": 10634
+    "volume": 15235
   },
   "range": {
-    "distance_from_high_pct": -24.21,
-    "distance_from_low_pct": 114.79,
+    "distance_from_high_pct": -18.82,
+    "distance_from_low_pct": 130.06,
     "high_52w": 3602.0,
     "history_basis": "52_WEEK",
     "low_52w": 1271.0,
-    "range_position_pct": 62.59
+    "range_position_pct": 70.91
   },
   "risk_model": {
-    "invalidation_floor": 2634.45,
-    "risk_per_share": 150.15,
-    "technical_pivot": 2784.6
+    "invalidation_floor": 2821.66,
+    "risk_per_share": 160.82,
+    "technical_pivot": 2982.48
   },
   "schema_version": "1.0",
   "sector": null,

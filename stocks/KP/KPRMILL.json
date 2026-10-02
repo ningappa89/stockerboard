@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1133.45,
-      "high": 1144.0,
-      "low": 1094.7,
-      "open": 1120.0,
-      "time": "2025-09-19",
-      "volume": 625451
-    },
-    {
-      "close": 1138.4,
-      "high": 1145.0,
-      "low": 1102.95,
-      "open": 1131.55,
-      "time": "2025-09-22",
-      "volume": 251165
-    },
-    {
-      "close": 1119.3,
-      "high": 1131.7,
-      "low": 1103.9,
-      "open": 1127.05,
-      "time": "2025-09-23",
-      "volume": 196376
-    },
-    {
       "close": 1102.7,
       "high": 1117.95,
       "low": 1098.0,
@@ -2017,13 +1993,37 @@
       "open": 1106.3,
       "time": "2026-09-28",
       "volume": 85203
+    },
+    {
+      "close": 1081.5,
+      "high": 1102.9,
+      "low": 1066.3,
+      "open": 1099.8,
+      "time": "2026-09-29",
+      "volume": 160547
+    },
+    {
+      "close": 1103.3,
+      "high": 1113.3,
+      "low": 1076.4,
+      "open": 1081.5,
+      "time": "2026-09-30",
+      "volume": 165794
+    },
+    {
+      "close": 1071.0,
+      "high": 1099.1,
+      "low": 1057.5,
+      "open": 1091.8,
+      "time": "2026-10-01",
+      "volume": 104769
     }
   ],
   "company_name": "K.P.R.MILL LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 63,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.36x"
+    "volume_multiplier": "0.56x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.2,
-    "change_pct": -0.47,
-    "close": 1101.2,
-    "previous_close": 1106.4,
+    "as_of": "2026-10-01",
+    "change": -32.3,
+    "change_pct": -2.93,
+    "close": 1071.0,
+    "previous_close": 1103.3,
     "type": "EOD_CLOSE",
-    "volume": 85203
+    "volume": 104769
   },
   "range": {
-    "distance_from_high_pct": -17.45,
-    "distance_from_low_pct": 38.32,
+    "distance_from_high_pct": -19.72,
+    "distance_from_low_pct": 34.53,
     "high_52w": 1334.0,
     "history_basis": "52_WEEK",
     "low_52w": 796.1,
-    "range_position_pct": 56.72
+    "range_position_pct": 51.11
   },
   "risk_model": {
-    "invalidation_floor": 1062.66,
-    "risk_per_share": 60.56,
-    "technical_pivot": 1123.22
+    "invalidation_floor": 1033.51,
+    "risk_per_share": 58.91,
+    "technical_pivot": 1092.42
   },
   "schema_version": "1.0",
   "sector": null,

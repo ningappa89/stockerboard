@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1029.9,
-      "high": 1055.8,
-      "low": 1017.4,
-      "open": 1050.3,
-      "time": "2025-09-19",
-      "volume": 223143
-    },
-    {
-      "close": 1009.8,
-      "high": 1037.3,
-      "low": 1005.6,
-      "open": 1035.3,
-      "time": "2025-09-22",
-      "volume": 126309
-    },
-    {
-      "close": 1025.1,
-      "high": 1028.6,
-      "low": 1006.0,
-      "open": 1015.8,
-      "time": "2025-09-23",
-      "volume": 155343
-    },
-    {
       "close": 1011.9,
       "high": 1031.1,
       "low": 1008.4,
@@ -2017,13 +1993,37 @@
       "open": 872.0,
       "time": "2026-09-28",
       "volume": 69472
+    },
+    {
+      "close": 840.75,
+      "high": 893.95,
+      "low": 830.2,
+      "open": 861.5,
+      "time": "2026-09-29",
+      "volume": 1019411
+    },
+    {
+      "close": 845.2,
+      "high": 861.95,
+      "low": 831.0,
+      "open": 849.9,
+      "time": "2026-09-30",
+      "volume": 132305
+    },
+    {
+      "close": 830.25,
+      "high": 845.6,
+      "low": 818.0,
+      "open": 845.0,
+      "time": "2026-10-01",
+      "volume": 142586
     }
   ],
   "company_name": "Chalet Hotels Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 63,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.4x"
+    "volume_multiplier": "0.82x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -12.4,
-    "change_pct": -1.41,
-    "close": 868.95,
-    "previous_close": 881.35,
+    "as_of": "2026-10-01",
+    "change": -14.95,
+    "change_pct": -1.77,
+    "close": 830.25,
+    "previous_close": 845.2,
     "type": "EOD_CLOSE",
-    "volume": 69472
+    "volume": 142586
   },
   "range": {
-    "distance_from_high_pct": -17.7,
-    "distance_from_low_pct": 25.69,
-    "high_52w": 1055.8,
+    "distance_from_high_pct": -19.48,
+    "distance_from_low_pct": 20.09,
+    "high_52w": 1031.1,
     "history_basis": "52_WEEK",
     "low_52w": 691.35,
-    "range_position_pct": 48.73
+    "range_position_pct": 40.88
   },
   "risk_model": {
-    "invalidation_floor": 838.54,
-    "risk_per_share": 47.79,
-    "technical_pivot": 886.33
+    "invalidation_floor": 801.19,
+    "risk_per_share": 45.67,
+    "technical_pivot": 846.86
   },
   "schema_version": "1.0",
   "sector": null,

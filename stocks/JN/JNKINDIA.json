@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 298.1,
-      "high": 309.0,
-      "low": 295.0,
-      "open": 303.35,
-      "time": "2025-09-19",
-      "volume": 46802
-    },
-    {
-      "close": 299.45,
-      "high": 304.1,
-      "low": 295.5,
-      "open": 304.1,
-      "time": "2025-09-22",
-      "volume": 23477
-    },
-    {
-      "close": 296.75,
-      "high": 301.65,
-      "low": 296.2,
-      "open": 299.45,
-      "time": "2025-09-23",
-      "volume": 15509
-    },
-    {
       "close": 290.1,
       "high": 299.5,
       "low": 289.0,
@@ -2017,13 +1993,37 @@
       "open": 419.0,
       "time": "2026-09-28",
       "volume": 127377
+    },
+    {
+      "close": 451.75,
+      "high": 464.0,
+      "low": 413.7,
+      "open": 422.85,
+      "time": "2026-09-29",
+      "volume": 713779
+    },
+    {
+      "close": 438.2,
+      "high": 462.9,
+      "low": 434.8,
+      "open": 459.95,
+      "time": "2026-09-30",
+      "volume": 239632
+    },
+    {
+      "close": 432.7,
+      "high": 441.6,
+      "low": 416.5,
+      "open": 440.0,
+      "time": "2026-10-01",
+      "volume": 180043
     }
   ],
   "company_name": "JNK India Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 52,
+    "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.21x"
+    "volume_multiplier": "1.2x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.4,
-    "change_pct": -0.1,
-    "close": 420.0,
-    "previous_close": 420.4,
+    "as_of": "2026-10-01",
+    "change": -5.5,
+    "change_pct": -1.26,
+    "close": 432.7,
+    "previous_close": 438.2,
     "type": "EOD_CLOSE",
-    "volume": 127377
+    "volume": 180043
   },
   "range": {
-    "distance_from_high_pct": -24.73,
-    "distance_from_low_pct": 109.04,
+    "distance_from_high_pct": -22.46,
+    "distance_from_low_pct": 115.36,
     "high_52w": 558.0,
     "history_basis": "52_WEEK",
     "low_52w": 200.92,
-    "range_position_pct": 61.35
+    "range_position_pct": 64.91
   },
   "risk_model": {
-    "invalidation_floor": 405.3,
-    "risk_per_share": 23.1,
-    "technical_pivot": 428.4
+    "invalidation_floor": 417.56,
+    "risk_per_share": 23.79,
+    "technical_pivot": 441.35
   },
   "schema_version": "1.0",
   "sector": null,

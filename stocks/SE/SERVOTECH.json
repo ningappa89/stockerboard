@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 131.18,
-      "high": 132.4,
-      "low": 130.01,
-      "open": 132.27,
-      "time": "2025-09-19",
-      "volume": 364800
-    },
-    {
-      "close": 131.06,
-      "high": 131.99,
-      "low": 130.01,
-      "open": 130.54,
-      "time": "2025-09-22",
-      "volume": 389649
-    },
-    {
-      "close": 129.58,
-      "high": 132.44,
-      "low": 129.0,
-      "open": 132.44,
-      "time": "2025-09-23",
-      "volume": 361515
-    },
-    {
       "close": 127.19,
       "high": 129.6,
       "low": 127.0,
@@ -2017,13 +1993,37 @@
       "open": 70.25,
       "time": "2026-09-28",
       "volume": 650379
+    },
+    {
+      "close": 71.34,
+      "high": 74.0,
+      "low": 69.76,
+      "open": 72.75,
+      "time": "2026-09-29",
+      "volume": 811420
+    },
+    {
+      "close": 70.25,
+      "high": 72.19,
+      "low": 70.04,
+      "open": 71.1,
+      "time": "2026-09-30",
+      "volume": 364902
+    },
+    {
+      "close": 69.2,
+      "high": 71.39,
+      "low": 68.0,
+      "open": 70.15,
+      "time": "2026-10-01",
+      "volume": 577923
     }
   ],
   "company_name": "SERVOTECH REN POW SYS LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.56x"
+    "volume_multiplier": "1.25x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 1.58,
-    "change_pct": 2.23,
-    "close": 72.34,
-    "previous_close": 70.76,
+    "as_of": "2026-10-01",
+    "change": -1.05,
+    "change_pct": -1.49,
+    "close": 69.2,
+    "previous_close": 70.25,
     "type": "EOD_CLOSE",
-    "volume": 650379
+    "volume": 577923
   },
   "range": {
-    "distance_from_high_pct": -48.88,
-    "distance_from_low_pct": 25.79,
+    "distance_from_high_pct": -51.1,
+    "distance_from_low_pct": 20.33,
     "high_52w": 141.5,
     "history_basis": "52_WEEK",
     "low_52w": 57.51,
-    "range_position_pct": 17.66
+    "range_position_pct": 13.92
   },
   "risk_model": {
-    "invalidation_floor": 69.81,
-    "risk_per_share": 3.98,
-    "technical_pivot": 73.79
+    "invalidation_floor": 66.78,
+    "risk_per_share": 3.8,
+    "technical_pivot": 70.58
   },
   "schema_version": "1.0",
   "sector": null,

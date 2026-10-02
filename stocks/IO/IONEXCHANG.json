@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 424.55,
-      "high": 426.0,
-      "low": 420.55,
-      "open": 423.8,
-      "time": "2025-09-19",
-      "volume": 296064
-    },
-    {
-      "close": 429.4,
-      "high": 436.9,
-      "low": 420.7,
-      "open": 425.0,
-      "time": "2025-09-22",
-      "volume": 297171
-    },
-    {
-      "close": 424.9,
-      "high": 431.0,
-      "low": 422.6,
-      "open": 430.0,
-      "time": "2025-09-23",
-      "volume": 121867
-    },
-    {
       "close": 421.35,
       "high": 426.25,
       "low": 420.05,
@@ -2017,13 +1993,37 @@
       "open": 419.85,
       "time": "2026-09-28",
       "volume": 239259
+    },
+    {
+      "close": 410.2,
+      "high": 424.05,
+      "low": 406.35,
+      "open": 420.4,
+      "time": "2026-09-29",
+      "volume": 190265
+    },
+    {
+      "close": 411.15,
+      "high": 414.5,
+      "low": 403.6,
+      "open": 411.9,
+      "time": "2026-09-30",
+      "volume": 230496
+    },
+    {
+      "close": 406.4,
+      "high": 413.5,
+      "low": 393.95,
+      "open": 413.5,
+      "time": "2026-10-01",
+      "volume": 219266
     }
   ],
   "company_name": "ION EXCHANGE (INDIA) LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
+    "is_stage2": false,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.37x"
+    "volume_multiplier": "0.34x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 2.75,
-    "change_pct": 0.65,
-    "close": 422.9,
-    "previous_close": 420.15,
+    "as_of": "2026-10-01",
+    "change": -4.75,
+    "change_pct": -1.16,
+    "close": 406.4,
+    "previous_close": 411.15,
     "type": "EOD_CLOSE",
-    "volume": 239259
+    "volume": 219266
   },
   "range": {
-    "distance_from_high_pct": -12.98,
-    "distance_from_low_pct": 35.24,
+    "distance_from_high_pct": -16.38,
+    "distance_from_low_pct": 29.96,
     "high_52w": 486.0,
     "history_basis": "52_WEEK",
     "low_52w": 312.7,
-    "range_position_pct": 63.59
+    "range_position_pct": 54.07
   },
   "risk_model": {
-    "invalidation_floor": 408.1,
-    "risk_per_share": 23.26,
-    "technical_pivot": 431.36
+    "invalidation_floor": 392.18,
+    "risk_per_share": 22.35,
+    "technical_pivot": 414.53
   },
   "schema_version": "1.0",
   "sector": null,

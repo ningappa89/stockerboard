@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 175.2,
-      "high": 179.0,
-      "low": 169.99,
-      "open": 171.25,
-      "time": "2025-09-19",
-      "volume": 827131
-    },
-    {
-      "close": 174.29,
-      "high": 176.4,
-      "low": 170.5,
-      "open": 175.49,
-      "time": "2025-09-22",
-      "volume": 421659
-    },
-    {
-      "close": 172.37,
-      "high": 175.8,
-      "low": 171.0,
-      "open": 175.8,
-      "time": "2025-09-23",
-      "volume": 253800
-    },
-    {
       "close": 166.78,
       "high": 172.6,
       "low": 165.91,
@@ -2017,13 +1993,37 @@
       "open": 130.32,
       "time": "2026-09-28",
       "volume": 214141
+    },
+    {
+      "close": 127.02,
+      "high": 128.92,
+      "low": 125.33,
+      "open": 127.24,
+      "time": "2026-09-29",
+      "volume": 308230
+    },
+    {
+      "close": 125.96,
+      "high": 128.29,
+      "low": 125.26,
+      "open": 128.0,
+      "time": "2026-09-30",
+      "volume": 140774
+    },
+    {
+      "close": 125.58,
+      "high": 127.21,
+      "low": 123.65,
+      "open": 126.38,
+      "time": "2026-10-01",
+      "volume": 360964
     }
   ],
   "company_name": "TARC LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 41,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.38x"
+    "volume_multiplier": "0.7x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.83,
-    "change_pct": -2.19,
-    "close": 126.53,
-    "previous_close": 129.36,
+    "as_of": "2026-10-01",
+    "change": -0.38,
+    "change_pct": -0.3,
+    "close": 125.58,
+    "previous_close": 125.96,
     "type": "EOD_CLOSE",
-    "volume": 214141
+    "volume": 360964
   },
   "range": {
-    "distance_from_high_pct": -32.08,
-    "distance_from_low_pct": 15.98,
+    "distance_from_high_pct": -32.59,
+    "distance_from_low_pct": 15.11,
     "high_52w": 186.3,
     "history_basis": "52_WEEK",
     "low_52w": 109.1,
-    "range_position_pct": 22.58
+    "range_position_pct": 21.35
   },
   "risk_model": {
-    "invalidation_floor": 122.1,
-    "risk_per_share": 6.96,
-    "technical_pivot": 129.06
+    "invalidation_floor": 121.18,
+    "risk_per_share": 6.91,
+    "technical_pivot": 128.09
   },
   "schema_version": "1.0",
   "sector": null,

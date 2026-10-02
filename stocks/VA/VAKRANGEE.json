@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 8.95,
-      "high": 9.45,
-      "low": 8.88,
-      "open": 9.35,
-      "time": "2025-09-19",
-      "volume": 26087880
-    },
-    {
-      "close": 8.74,
-      "high": 8.82,
-      "low": 8.69,
-      "open": 8.76,
-      "time": "2025-09-22",
-      "volume": 4882889
-    },
-    {
-      "close": 8.53,
-      "high": 8.73,
-      "low": 8.48,
-      "open": 8.73,
-      "time": "2025-09-23",
-      "volume": 4006914
-    },
-    {
       "close": 8.41,
       "high": 8.64,
       "low": 8.38,
@@ -2017,13 +1993,37 @@
       "open": 5.27,
       "time": "2026-09-28",
       "volume": 1085217
+    },
+    {
+      "close": 5.18,
+      "high": 5.27,
+      "low": 5.08,
+      "open": 5.27,
+      "time": "2026-09-29",
+      "volume": 869571
+    },
+    {
+      "close": 5.14,
+      "high": 5.24,
+      "low": 5.05,
+      "open": 5.15,
+      "time": "2026-09-30",
+      "volume": 1066328
+    },
+    {
+      "close": 5.12,
+      "high": 5.16,
+      "low": 5.07,
+      "open": 5.13,
+      "time": "2026-10-01",
+      "volume": 839936
     }
   ],
   "company_name": "VAKRANGEE LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.95x"
+    "volume_multiplier": "0.74x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.09,
-    "change_pct": -1.71,
-    "close": 5.18,
-    "previous_close": 5.27,
+    "as_of": "2026-10-01",
+    "change": -0.02,
+    "change_pct": -0.39,
+    "close": 5.12,
+    "previous_close": 5.14,
     "type": "EOD_CLOSE",
-    "volume": 1085217
+    "volume": 839936
   },
   "range": {
-    "distance_from_high_pct": -46.27,
-    "distance_from_low_pct": 12.36,
+    "distance_from_high_pct": -46.89,
+    "distance_from_low_pct": 11.06,
     "high_52w": 9.64,
     "history_basis": "52_WEEK",
     "low_52w": 4.61,
-    "range_position_pct": 11.33
+    "range_position_pct": 10.14
   },
   "risk_model": {
-    "invalidation_floor": 5.0,
+    "invalidation_floor": 4.94,
     "risk_per_share": 0.5,
-    "technical_pivot": 5.28
+    "technical_pivot": 5.22
   },
   "schema_version": "1.0",
   "sector": null,

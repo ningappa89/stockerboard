@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 305.1,
-      "high": 315.0,
-      "low": 303.0,
-      "open": 311.0,
-      "time": "2025-09-19",
-      "volume": 13712
-    },
-    {
-      "close": 316.1,
-      "high": 321.0,
-      "low": 301.0,
-      "open": 309.0,
-      "time": "2025-09-22",
-      "volume": 18832
-    },
-    {
-      "close": 379.3,
-      "high": 379.3,
-      "low": 310.95,
-      "open": 319.8,
-      "time": "2025-09-23",
-      "volume": 308949
-    },
-    {
       "close": 397.4,
       "high": 449.0,
       "low": 394.2,
@@ -2017,13 +1993,37 @@
       "open": 147.05,
       "time": "2026-09-28",
       "volume": 22888
+    },
+    {
+      "close": 139.25,
+      "high": 146.0,
+      "low": 138.0,
+      "open": 146.0,
+      "time": "2026-09-29",
+      "volume": 24778
+    },
+    {
+      "close": 140.66,
+      "high": 145.77,
+      "low": 136.5,
+      "open": 144.9,
+      "time": "2026-09-30",
+      "volume": 6718
+    },
+    {
+      "close": 140.41,
+      "high": 145.32,
+      "low": 137.42,
+      "open": 139.95,
+      "time": "2026-10-01",
+      "volume": 7732
     }
   ],
   "company_name": "BRAND CONCEPTS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.91x"
+    "volume_multiplier": "0.63x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.14,
-    "change_pct": -1.44,
-    "close": 146.02,
-    "previous_close": 148.16,
+    "as_of": "2026-10-01",
+    "change": -0.25,
+    "change_pct": -0.18,
+    "close": 140.41,
+    "previous_close": 140.66,
     "type": "EOD_CLOSE",
-    "volume": 22888
+    "volume": 7732
   },
   "range": {
-    "distance_from_high_pct": -67.48,
-    "distance_from_low_pct": 1.94,
+    "distance_from_high_pct": -68.73,
+    "distance_from_low_pct": 2.86,
     "high_52w": 449.0,
     "history_basis": "52_WEEK",
-    "low_52w": 143.24,
-    "range_position_pct": 0.91
+    "low_52w": 136.5,
+    "range_position_pct": 1.25
   },
   "risk_model": {
-    "invalidation_floor": 140.91,
-    "risk_per_share": 8.03,
-    "technical_pivot": 148.94
+    "invalidation_floor": 135.5,
+    "risk_per_share": 7.72,
+    "technical_pivot": 143.22
   },
   "schema_version": "1.0",
   "sector": null,

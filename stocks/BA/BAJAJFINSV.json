@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2067.3,
-      "high": 2077.2,
-      "low": 2053.7,
-      "open": 2069.0,
-      "time": "2025-09-19",
-      "volume": 1973991
-    },
-    {
-      "close": 2069.5,
-      "high": 2082.0,
-      "low": 2062.3,
-      "open": 2067.3,
-      "time": "2025-09-22",
-      "volume": 633360
-    },
-    {
-      "close": 2084.4,
-      "high": 2092.0,
-      "low": 2068.0,
-      "open": 2068.0,
-      "time": "2025-09-23",
-      "volume": 1177350
-    },
-    {
       "close": 2069.2,
       "high": 2088.8,
       "low": 2062.9,
@@ -2017,13 +1993,37 @@
       "open": 1767.0,
       "time": "2026-09-28",
       "volume": 536952
+    },
+    {
+      "close": 1742.4,
+      "high": 1758.8,
+      "low": 1730.0,
+      "open": 1758.8,
+      "time": "2026-09-29",
+      "volume": 858895
+    },
+    {
+      "close": 1731.0,
+      "high": 1748.0,
+      "low": 1702.1,
+      "open": 1742.4,
+      "time": "2026-09-30",
+      "volume": 1086211
+    },
+    {
+      "close": 1732.6,
+      "high": 1734.9,
+      "low": 1703.4,
+      "open": 1723.0,
+      "time": "2026-10-01",
+      "volume": 2292234
     }
   ],
   "company_name": "BAJAJ FINSERV LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 59,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.79x"
+    "momentum_score": 58,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.95x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -19.0,
-    "change_pct": -1.07,
-    "close": 1752.0,
-    "previous_close": 1771.0,
+    "as_of": "2026-10-01",
+    "change": 1.6,
+    "change_pct": 0.09,
+    "close": 1732.6,
+    "previous_close": 1731.0,
     "type": "EOD_CLOSE",
-    "volume": 536952
+    "volume": 2292234
   },
   "range": {
-    "distance_from_high_pct": -20.18,
-    "distance_from_low_pct": 9.71,
+    "distance_from_high_pct": -21.07,
+    "distance_from_low_pct": 8.49,
     "high_52w": 2195.0,
     "history_basis": "52_WEEK",
     "low_52w": 1597.0,
-    "range_position_pct": 25.92
+    "range_position_pct": 22.68
   },
   "risk_model": {
-    "invalidation_floor": 1690.68,
-    "risk_per_share": 96.36,
-    "technical_pivot": 1787.04
+    "invalidation_floor": 1671.96,
+    "risk_per_share": 95.29,
+    "technical_pivot": 1767.25
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

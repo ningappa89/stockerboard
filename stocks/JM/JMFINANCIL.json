@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 171.6,
-      "high": 176.35,
-      "low": 171.0,
-      "open": 176.13,
-      "time": "2025-09-19",
-      "volume": 4264145
-    },
-    {
-      "close": 171.25,
-      "high": 174.41,
-      "low": 167.63,
-      "open": 170.1,
-      "time": "2025-09-22",
-      "volume": 5397972
-    },
-    {
-      "close": 172.65,
-      "high": 176.0,
-      "low": 171.41,
-      "open": 172.07,
-      "time": "2025-09-23",
-      "volume": 4742146
-    },
-    {
       "close": 171.24,
       "high": 173.61,
       "low": 170.15,
@@ -2017,13 +1993,37 @@
       "open": 126.6,
       "time": "2026-09-28",
       "volume": 2219125
+    },
+    {
+      "close": 125.78,
+      "high": 126.7,
+      "low": 123.19,
+      "open": 124.1,
+      "time": "2026-09-29",
+      "volume": 2566558
+    },
+    {
+      "close": 129.02,
+      "high": 129.65,
+      "low": 125.25,
+      "open": 125.25,
+      "time": "2026-09-30",
+      "volume": 2299895
+    },
+    {
+      "close": 123.4,
+      "high": 128.8,
+      "low": 122.44,
+      "open": 128.8,
+      "time": "2026-10-01",
+      "volume": 1953202
     }
   ],
   "company_name": "JM FINANCIAL LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
+    "momentum_score": 41,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.88x"
+    "volume_multiplier": "0.77x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.43,
-    "change_pct": -1.9,
-    "close": 125.25,
-    "previous_close": 127.68,
+    "as_of": "2026-10-01",
+    "change": -5.62,
+    "change_pct": -4.36,
+    "close": 123.4,
+    "previous_close": 129.02,
     "type": "EOD_CLOSE",
-    "volume": 2219125
+    "volume": 1953202
   },
   "range": {
-    "distance_from_high_pct": -31.37,
-    "distance_from_low_pct": 11.83,
+    "distance_from_high_pct": -32.38,
+    "distance_from_low_pct": 10.18,
     "high_52w": 182.5,
     "history_basis": "52_WEEK",
     "low_52w": 112.0,
-    "range_position_pct": 18.79
+    "range_position_pct": 16.17
   },
   "risk_model": {
-    "invalidation_floor": 120.87,
-    "risk_per_share": 6.88,
-    "technical_pivot": 127.75
+    "invalidation_floor": 119.08,
+    "risk_per_share": 6.79,
+    "technical_pivot": 125.87
   },
   "schema_version": "1.0",
   "sector": null,

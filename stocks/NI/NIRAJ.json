@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 46.85,
-      "high": 48.26,
-      "low": 46.25,
-      "open": 47.01,
-      "time": "2025-09-19",
-      "volume": 31650
-    },
-    {
-      "close": 46.11,
-      "high": 48.09,
-      "low": 45.27,
-      "open": 46.78,
-      "time": "2025-09-22",
-      "volume": 44482
-    },
-    {
-      "close": 45.79,
-      "high": 46.76,
-      "low": 45.63,
-      "open": 46.76,
-      "time": "2025-09-23",
-      "volume": 11084
-    },
-    {
       "close": 46.84,
       "high": 47.58,
       "low": 45.51,
@@ -2017,13 +1993,37 @@
       "open": 29.4,
       "time": "2026-09-28",
       "volume": 7949
+    },
+    {
+      "close": 28.36,
+      "high": 28.9,
+      "low": 27.8,
+      "open": 28.46,
+      "time": "2026-09-29",
+      "volume": 81568
+    },
+    {
+      "close": 27.66,
+      "high": 28.95,
+      "low": 27.25,
+      "open": 27.7,
+      "time": "2026-09-30",
+      "volume": 66899
+    },
+    {
+      "close": 27.74,
+      "high": 28.4,
+      "low": 27.11,
+      "open": 28.4,
+      "time": "2026-10-01",
+      "volume": 2960
     }
   ],
   "company_name": "NIRAJ CEMENT STRUCTURALS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.28x"
+    "volume_multiplier": "0.09x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.21,
-    "change_pct": -0.75,
-    "close": 27.9,
-    "previous_close": 28.11,
+    "as_of": "2026-10-01",
+    "change": 0.08,
+    "change_pct": 0.29,
+    "close": 27.74,
+    "previous_close": 27.66,
     "type": "EOD_CLOSE",
-    "volume": 7949
+    "volume": 2960
   },
   "range": {
-    "distance_from_high_pct": -43.06,
-    "distance_from_low_pct": 38.46,
+    "distance_from_high_pct": -43.39,
+    "distance_from_low_pct": 37.67,
     "high_52w": 49.0,
     "history_basis": "52_WEEK",
     "low_52w": 20.15,
-    "range_position_pct": 26.86
+    "range_position_pct": 26.31
   },
   "risk_model": {
-    "invalidation_floor": 26.92,
-    "risk_per_share": 1.54,
-    "technical_pivot": 28.46
+    "invalidation_floor": 26.77,
+    "risk_per_share": 1.52,
+    "technical_pivot": 28.29
   },
   "schema_version": "1.0",
   "sector": null,

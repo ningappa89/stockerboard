@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 178.56,
-      "high": 181.05,
-      "low": 176.7,
-      "open": 179.99,
-      "time": "2025-09-19",
-      "volume": 2759
-    },
-    {
-      "close": 176.78,
-      "high": 180.99,
-      "low": 175.0,
-      "open": 180.99,
-      "time": "2025-09-22",
-      "volume": 5144
-    },
-    {
-      "close": 177.68,
-      "high": 179.79,
-      "low": 176.56,
-      "open": 179.0,
-      "time": "2025-09-23",
-      "volume": 2146
-    },
-    {
       "close": 176.88,
       "high": 182.7,
       "low": 175.0,
@@ -2017,13 +1993,37 @@
       "open": 159.96,
       "time": "2026-09-28",
       "volume": 1656
+    },
+    {
+      "close": 155.3,
+      "high": 158.68,
+      "low": 155.1,
+      "open": 155.16,
+      "time": "2026-09-29",
+      "volume": 5566
+    },
+    {
+      "close": 156.85,
+      "high": 158.88,
+      "low": 155.03,
+      "open": 158.88,
+      "time": "2026-09-30",
+      "volume": 843
+    },
+    {
+      "close": 154.96,
+      "high": 159.4,
+      "low": 153.5,
+      "open": 159.4,
+      "time": "2026-10-01",
+      "volume": 5701
     }
   ],
   "company_name": "HEXA TRADEX LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 67,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.97x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.56x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.35,
-    "change_pct": -1.49,
-    "close": 155.0,
-    "previous_close": 157.35,
+    "as_of": "2026-10-01",
+    "change": -1.89,
+    "change_pct": -1.2,
+    "close": 154.96,
+    "previous_close": 156.85,
     "type": "EOD_CLOSE",
-    "volume": 1656
+    "volume": 5701
   },
   "range": {
-    "distance_from_high_pct": -15.16,
-    "distance_from_low_pct": 5.26,
+    "distance_from_high_pct": -15.18,
+    "distance_from_low_pct": 5.23,
     "high_52w": 182.7,
     "history_basis": "52_WEEK",
     "low_52w": 147.26,
-    "range_position_pct": 21.84
+    "range_position_pct": 21.73
   },
   "risk_model": {
-    "invalidation_floor": 149.57,
-    "risk_per_share": 8.53,
-    "technical_pivot": 158.1
+    "invalidation_floor": 149.54,
+    "risk_per_share": 8.52,
+    "technical_pivot": 158.06
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 545.5,
-      "high": 552.0,
-      "low": 542.65,
-      "open": 551.0,
-      "time": "2025-09-19",
-      "volume": 4396075
-    },
-    {
-      "close": 542.95,
-      "high": 549.45,
-      "low": 539.35,
-      "open": 547.0,
-      "time": "2025-09-22",
-      "volume": 1883318
-    },
-    {
-      "close": 543.85,
-      "high": 555.5,
-      "low": 541.1,
-      "open": 542.5,
-      "time": "2025-09-23",
-      "volume": 3398352
-    },
-    {
       "close": 535.15,
       "high": 551.0,
       "low": 533.25,
@@ -2017,13 +1993,37 @@
       "open": 506.4,
       "time": "2026-09-28",
       "volume": 1583004
+    },
+    {
+      "close": 501.15,
+      "high": 501.15,
+      "low": 489.1,
+      "open": 495.0,
+      "time": "2026-09-29",
+      "volume": 1639218
+    },
+    {
+      "close": 494.7,
+      "high": 500.45,
+      "low": 489.5,
+      "open": 498.0,
+      "time": "2026-09-30",
+      "volume": 1797485
+    },
+    {
+      "close": 485.0,
+      "high": 493.0,
+      "low": 475.1,
+      "open": 493.0,
+      "time": "2026-10-01",
+      "volume": 1851516
     }
   ],
   "company_name": "JSW ENERGY LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 60,
+    "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.76x"
+    "volume_multiplier": "1.06x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -11.55,
-    "change_pct": -2.28,
-    "close": 495.0,
-    "previous_close": 506.55,
+    "as_of": "2026-10-01",
+    "change": -9.7,
+    "change_pct": -1.96,
+    "close": 485.0,
+    "previous_close": 494.7,
     "type": "EOD_CLOSE",
-    "volume": 1583004
+    "volume": 1851516
   },
   "range": {
-    "distance_from_high_pct": -19.82,
-    "distance_from_low_pct": 15.72,
+    "distance_from_high_pct": -21.44,
+    "distance_from_low_pct": 13.38,
     "high_52w": 617.35,
     "history_basis": "52_WEEK",
     "low_52w": 427.75,
-    "range_position_pct": 35.47
+    "range_position_pct": 30.2
   },
   "risk_model": {
-    "invalidation_floor": 477.68,
-    "risk_per_share": 27.22,
-    "technical_pivot": 504.9
+    "invalidation_floor": 468.02,
+    "risk_per_share": 26.68,
+    "technical_pivot": 494.7
   },
   "schema_version": "1.0",
   "sector": null,

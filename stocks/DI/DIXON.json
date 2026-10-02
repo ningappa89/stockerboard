@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 18177.0,
-      "high": 18400.0,
-      "low": 18130.0,
-      "open": 18331.0,
-      "time": "2025-09-19",
-      "volume": 208525
-    },
-    {
-      "close": 18082.0,
-      "high": 18315.0,
-      "low": 18058.0,
-      "open": 18158.0,
-      "time": "2025-09-22",
-      "volume": 107464
-    },
-    {
-      "close": 18130.0,
-      "high": 18170.0,
-      "low": 17998.0,
-      "open": 18150.0,
-      "time": "2025-09-23",
-      "volume": 132042
-    },
-    {
       "close": 18161.0,
       "high": 18189.0,
       "low": 18030.0,
@@ -2017,13 +1993,37 @@
       "open": 13325.0,
       "time": "2026-09-28",
       "volume": 571209
+    },
+    {
+      "close": 13250.0,
+      "high": 13686.0,
+      "low": 13250.0,
+      "open": 13640.0,
+      "time": "2026-09-29",
+      "volume": 305508
+    },
+    {
+      "close": 13100.0,
+      "high": 13425.0,
+      "low": 13100.0,
+      "open": 13300.0,
+      "time": "2026-09-30",
+      "volume": 273569
+    },
+    {
+      "close": 12700.0,
+      "high": 13290.0,
+      "low": 12651.0,
+      "open": 13151.0,
+      "time": "2026-10-01",
+      "volume": 258830
     }
   ],
   "company_name": "Dixon Technologies (India) Lim",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Consumer Durables",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 50,
+    "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.73x"
+    "volume_multiplier": "0.76x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 250.0,
-    "change_pct": 1.87,
-    "close": 13640.0,
-    "previous_close": 13390.0,
+    "as_of": "2026-10-01",
+    "change": -400.0,
+    "change_pct": -3.05,
+    "close": 12700.0,
+    "previous_close": 13100.0,
     "type": "EOD_CLOSE",
-    "volume": 571209
+    "volume": 258830
   },
   "range": {
-    "distance_from_high_pct": -26.15,
-    "distance_from_low_pct": 42.08,
+    "distance_from_high_pct": -31.24,
+    "distance_from_low_pct": 32.29,
     "high_52w": 18471.0,
     "history_basis": "52_WEEK",
     "low_52w": 9600.0,
-    "range_position_pct": 45.54
+    "range_position_pct": 34.95
   },
   "risk_model": {
-    "invalidation_floor": 13162.6,
-    "risk_per_share": 750.2,
-    "technical_pivot": 13912.8
+    "invalidation_floor": 12255.5,
+    "risk_per_share": 698.5,
+    "technical_pivot": 12954.0
   },
   "schema_version": "1.0",
   "sector": "Consumer Durables",

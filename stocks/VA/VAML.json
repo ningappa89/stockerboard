@@ -593,14 +593,38 @@
       "open": 426.6,
       "time": "2026-09-28",
       "volume": 2814025
+    },
+    {
+      "close": 434.45,
+      "high": 479.0,
+      "low": 416.55,
+      "open": 420.15,
+      "time": "2026-09-29",
+      "volume": 56303173
+    },
+    {
+      "close": 412.9,
+      "high": 433.75,
+      "low": 410.5,
+      "open": 431.0,
+      "time": "2026-09-30",
+      "volume": 13904115
+    },
+    {
+      "close": 402.75,
+      "high": 413.85,
+      "low": 398.75,
+      "open": 412.0,
+      "time": "2026-10-01",
+      "volume": 6985636
     }
   ],
   "company_name": "VEDANTA ALUMINIUM METAL L",
   "history": {
     "first_session": "2026-06-15",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 74
+    "last_session": "2026-10-01",
+    "sessions_available": 77
   },
   "industry": null,
   "isin": "INE1CDF01017",
@@ -608,31 +632,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 57,
+    "momentum_score": 52,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.4x"
+    "volume_multiplier": "0.73x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -6.7,
-    "change_pct": -1.57,
-    "close": 420.05,
-    "previous_close": 426.75,
+    "as_of": "2026-10-01",
+    "change": -10.15,
+    "change_pct": -2.46,
+    "close": 402.75,
+    "previous_close": 412.9,
     "type": "EOD_CLOSE",
-    "volume": 2814025
+    "volume": 6985636
   },
   "range": {
-    "distance_from_high_pct": -21.78,
-    "distance_from_low_pct": 4.71,
+    "distance_from_high_pct": -25.0,
+    "distance_from_low_pct": 1.0,
     "high_52w": 537.0,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 401.15,
-    "range_position_pct": 13.91
+    "low_52w": 398.75,
+    "range_position_pct": 2.89
   },
   "risk_model": {
-    "invalidation_floor": 405.35,
-    "risk_per_share": 23.1,
-    "technical_pivot": 428.45
+    "invalidation_floor": 388.65,
+    "risk_per_share": 22.16,
+    "technical_pivot": 410.81
   },
   "schema_version": "1.0",
   "sector": null,

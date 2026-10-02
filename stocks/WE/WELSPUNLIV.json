@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 124.41,
-      "high": 127.39,
-      "low": 123.1,
-      "open": 127.3,
-      "time": "2025-09-19",
-      "volume": 2574225
-    },
-    {
-      "close": 123.39,
-      "high": 125.2,
-      "low": 122.61,
-      "open": 124.0,
-      "time": "2025-09-22",
-      "volume": 1535123
-    },
-    {
-      "close": 121.97,
-      "high": 123.39,
-      "low": 121.12,
-      "open": 123.39,
-      "time": "2025-09-23",
-      "volume": 1128734
-    },
-    {
       "close": 122.19,
       "high": 122.98,
       "low": 121.02,
@@ -2017,13 +1993,37 @@
       "open": 224.9,
       "time": "2026-09-28",
       "volume": 4159923
+    },
+    {
+      "close": 225.21,
+      "high": 228.5,
+      "low": 222.62,
+      "open": 226.21,
+      "time": "2026-09-29",
+      "volume": 1833544
+    },
+    {
+      "close": 227.33,
+      "high": 232.49,
+      "low": 225.01,
+      "open": 225.45,
+      "time": "2026-09-30",
+      "volume": 3089710
+    },
+    {
+      "close": 239.17,
+      "high": 244.89,
+      "low": 226.2,
+      "open": 226.7,
+      "time": "2026-10-01",
+      "volume": 22516675
     }
   ],
   "company_name": "WELSPUN LIVING LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": true,
     "is_stage2": true,
     "momentum_score": 86,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.89x"
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "4.16x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 3.27,
-    "change_pct": 1.46,
-    "close": 227.95,
-    "previous_close": 224.68,
+    "as_of": "2026-10-01",
+    "change": 11.84,
+    "change_pct": 5.21,
+    "close": 239.17,
+    "previous_close": 227.33,
     "type": "EOD_CLOSE",
-    "volume": 4159923
+    "volume": 22516675
   },
   "range": {
-    "distance_from_high_pct": -2.17,
-    "distance_from_low_pct": 112.84,
-    "high_52w": 233.0,
+    "distance_from_high_pct": -2.34,
+    "distance_from_low_pct": 123.31,
+    "high_52w": 244.89,
     "history_basis": "52_WEEK",
     "low_52w": 107.1,
-    "range_position_pct": 95.99
+    "range_position_pct": 95.85
   },
   "risk_model": {
-    "invalidation_floor": 219.97,
-    "risk_per_share": 12.54,
-    "technical_pivot": 232.51
+    "invalidation_floor": 230.8,
+    "risk_per_share": 13.15,
+    "technical_pivot": 243.95
   },
   "schema_version": "1.0",
   "sector": null,

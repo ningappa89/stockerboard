@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3592.1,
-      "high": 3636.7,
-      "low": 3584.5,
-      "open": 3601.0,
-      "time": "2025-09-19",
-      "volume": 4018342
-    },
-    {
-      "close": 3584.8,
-      "high": 3616.6,
-      "low": 3569.3,
-      "open": 3600.0,
-      "time": "2025-09-22",
-      "volume": 1664133
-    },
-    {
-      "close": 3614.6,
-      "high": 3679.2,
-      "low": 3606.8,
-      "open": 3610.0,
-      "time": "2025-09-23",
-      "volume": 2523224
-    },
-    {
       "close": 3574.9,
       "high": 3626.3,
       "low": 3568.0,
@@ -2017,13 +1993,37 @@
       "open": 3017.3,
       "time": "2026-09-28",
       "volume": 2078624
+    },
+    {
+      "close": 2947.8,
+      "high": 2991.0,
+      "low": 2947.8,
+      "open": 2986.0,
+      "time": "2026-09-29",
+      "volume": 3270487
+    },
+    {
+      "close": 2950.0,
+      "high": 2986.0,
+      "low": 2925.0,
+      "open": 2925.0,
+      "time": "2026-09-30",
+      "volume": 2332540
+    },
+    {
+      "close": 2860.0,
+      "high": 2927.4,
+      "low": 2812.0,
+      "open": 2926.0,
+      "time": "2026-10-01",
+      "volume": 5453321
     }
   ],
   "company_name": "MAHINDRA & MAHINDRA LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Automobile and Auto Components",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 57,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.03x"
+    "momentum_score": 51,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.52x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -40.0,
-    "change_pct": -1.32,
-    "close": 2995.0,
-    "previous_close": 3035.0,
+    "as_of": "2026-10-01",
+    "change": -90.0,
+    "change_pct": -3.05,
+    "close": 2860.0,
+    "previous_close": 2950.0,
     "type": "EOD_CLOSE",
-    "volume": 2078624
+    "volume": 5453321
   },
   "range": {
-    "distance_from_high_pct": -22.0,
-    "distance_from_low_pct": 3.42,
+    "distance_from_high_pct": -25.52,
+    "distance_from_low_pct": 1.71,
     "high_52w": 3839.9,
     "history_basis": "52_WEEK",
-    "low_52w": 2896.0,
-    "range_position_pct": 10.49
+    "low_52w": 2812.0,
+    "range_position_pct": 4.67
   },
   "risk_model": {
-    "invalidation_floor": 2890.17,
-    "risk_per_share": 164.73,
-    "technical_pivot": 3054.9
+    "invalidation_floor": 2759.9,
+    "risk_per_share": 157.3,
+    "technical_pivot": 2917.2
   },
   "schema_version": "1.0",
   "sector": "Automobile and Auto Components",

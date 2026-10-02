@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 7549.0,
-      "high": 7568.0,
-      "low": 7424.0,
-      "open": 7440.5,
-      "time": "2025-09-19",
-      "volume": 370166
-    },
-    {
-      "close": 7657.0,
-      "high": 7714.0,
-      "low": 7505.0,
-      "open": 7549.0,
-      "time": "2025-09-22",
-      "volume": 415876
-    },
-    {
-      "close": 7620.0,
-      "high": 7697.0,
-      "low": 7561.5,
-      "open": 7650.0,
-      "time": "2025-09-23",
-      "volume": 317133
-    },
-    {
       "close": 7532.5,
       "high": 7623.5,
       "low": 7505.0,
@@ -2017,13 +1993,37 @@
       "open": 8400.0,
       "time": "2026-09-28",
       "volume": 274844
+    },
+    {
+      "close": 8102.5,
+      "high": 8256.0,
+      "low": 8102.5,
+      "open": 8195.0,
+      "time": "2026-09-29",
+      "volume": 1645809
+    },
+    {
+      "close": 8026.0,
+      "high": 8177.0,
+      "low": 8026.0,
+      "open": 8102.5,
+      "time": "2026-09-30",
+      "volume": 494724
+    },
+    {
+      "close": 7990.0,
+      "high": 8131.0,
+      "low": 7883.0,
+      "open": 8030.0,
+      "time": "2026-10-01",
+      "volume": 463691
     }
   ],
   "company_name": "POLYCAB INDIA LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 61,
+    "momentum_score": 58,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.69x"
+    "volume_multiplier": "1.02x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -217.5,
-    "change_pct": -2.59,
-    "close": 8191.0,
-    "previous_close": 8408.5,
+    "as_of": "2026-10-01",
+    "change": -36.0,
+    "change_pct": -0.45,
+    "close": 7990.0,
+    "previous_close": 8026.0,
     "type": "EOD_CLOSE",
-    "volume": 274844
+    "volume": 463691
   },
   "range": {
-    "distance_from_high_pct": -19.11,
-    "distance_from_low_pct": 22.93,
+    "distance_from_high_pct": -21.09,
+    "distance_from_low_pct": 19.92,
     "high_52w": 10126.0,
     "history_basis": "52_WEEK",
     "low_52w": 6663.0,
-    "range_position_pct": 44.12
+    "range_position_pct": 38.32
   },
   "risk_model": {
-    "invalidation_floor": 7904.31,
-    "risk_per_share": 450.51,
-    "technical_pivot": 8354.82
+    "invalidation_floor": 7710.35,
+    "risk_per_share": 439.45,
+    "technical_pivot": 8149.8
   },
   "schema_version": "1.0",
   "sector": null,

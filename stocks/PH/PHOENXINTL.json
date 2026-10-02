@@ -241,14 +241,38 @@
       "open": 29.0,
       "time": "2026-09-28",
       "volume": 10285
+    },
+    {
+      "close": 28.05,
+      "high": 29.3,
+      "low": 27.8,
+      "open": 29.3,
+      "time": "2026-09-29",
+      "volume": 2269
+    },
+    {
+      "close": 28.71,
+      "high": 29.55,
+      "low": 28.16,
+      "open": 28.4,
+      "time": "2026-09-30",
+      "volume": 3924
+    },
+    {
+      "close": 28.15,
+      "high": 28.71,
+      "low": 28.0,
+      "open": 28.71,
+      "time": "2026-10-01",
+      "volume": 2283
     }
   ],
   "company_name": "PHOENIX INTERNATIONAL LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE245B01011",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 63,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "3.68x"
+    "momentum_score": 58,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.76x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.62,
-    "change_pct": 2.16,
-    "close": 29.3,
-    "previous_close": 28.68,
+    "as_of": "2026-10-01",
+    "change": -0.56,
+    "change_pct": -1.95,
+    "close": 28.15,
+    "previous_close": 28.71,
     "type": "EOD_CLOSE",
-    "volume": 10285
+    "volume": 2283
   },
   "range": {
-    "distance_from_high_pct": -17.79,
-    "distance_from_low_pct": 6.55,
+    "distance_from_high_pct": -21.02,
+    "distance_from_low_pct": 2.36,
     "high_52w": 35.64,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 27.5,
-    "range_position_pct": 22.11
+    "range_position_pct": 7.99
   },
   "risk_model": {
-    "invalidation_floor": 28.27,
-    "risk_per_share": 1.62,
-    "technical_pivot": 29.89
+    "invalidation_floor": 27.16,
+    "risk_per_share": 1.55,
+    "technical_pivot": 28.71
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2551.4,
-      "high": 2588.0,
-      "low": 2514.0,
-      "open": 2574.2,
-      "time": "2025-09-19",
-      "volume": 250
-    },
-    {
-      "close": 2550.6,
-      "high": 2611.7,
-      "low": 2510.1,
-      "open": 2510.1,
-      "time": "2025-09-22",
-      "volume": 149
-    },
-    {
-      "close": 2514.8,
-      "high": 2550.6,
-      "low": 2503.0,
-      "open": 2550.6,
-      "time": "2025-09-23",
-      "volume": 109
-    },
-    {
       "close": 2521.2,
       "high": 2626.9,
       "low": 2511.0,
@@ -2017,13 +1993,37 @@
       "open": 1952.6,
       "time": "2026-09-28",
       "volume": 100
+    },
+    {
+      "close": 1876.6,
+      "high": 1966.0,
+      "low": 1860.0,
+      "open": 1965.2,
+      "time": "2026-09-29",
+      "volume": 239
+    },
+    {
+      "close": 1897.5,
+      "high": 1916.9,
+      "low": 1863.1,
+      "open": 1900.3,
+      "time": "2026-09-30",
+      "volume": 352
+    },
+    {
+      "close": 1857.9,
+      "high": 1885.0,
+      "low": 1854.9,
+      "open": 1882.3,
+      "time": "2026-10-01",
+      "volume": 80
     }
   ],
   "company_name": "N.B.I. IND. FIN. CO. LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.03x"
+    "volume_multiplier": "0.02x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 21.8,
-    "change_pct": 1.13,
-    "close": 1948.2,
-    "previous_close": 1926.4,
+    "as_of": "2026-10-01",
+    "change": -39.6,
+    "change_pct": -2.09,
+    "close": 1857.9,
+    "previous_close": 1897.5,
     "type": "EOD_CLOSE",
-    "volume": 100
+    "volume": 80
   },
   "range": {
-    "distance_from_high_pct": -34.86,
-    "distance_from_low_pct": 26.59,
+    "distance_from_high_pct": -37.88,
+    "distance_from_low_pct": 20.72,
     "high_52w": 2991.0,
     "history_basis": "52_WEEK",
     "low_52w": 1539.0,
-    "range_position_pct": 28.18
+    "range_position_pct": 21.96
   },
   "risk_model": {
-    "invalidation_floor": 1880.01,
-    "risk_per_share": 107.15,
-    "technical_pivot": 1987.16
+    "invalidation_floor": 1792.87,
+    "risk_per_share": 102.19,
+    "technical_pivot": 1895.06
   },
   "schema_version": "1.0",
   "sector": null,

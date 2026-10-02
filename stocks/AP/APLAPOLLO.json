@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1691.1,
-      "high": 1699.0,
-      "low": 1668.2,
-      "open": 1690.0,
-      "time": "2025-09-19",
-      "volume": 694289
-    },
-    {
-      "close": 1679.3,
-      "high": 1697.5,
-      "low": 1672.3,
-      "open": 1683.0,
-      "time": "2025-09-22",
-      "volume": 261846
-    },
-    {
-      "close": 1683.0,
-      "high": 1694.9,
-      "low": 1665.2,
-      "open": 1676.0,
-      "time": "2025-09-23",
-      "volume": 433903
-    },
-    {
       "close": 1676.2,
       "high": 1691.6,
       "low": 1671.5,
@@ -2017,13 +1993,37 @@
       "open": 2210.2,
       "time": "2026-09-28",
       "volume": 319967
+    },
+    {
+      "close": 2188.6,
+      "high": 2217.8,
+      "low": 2172.1,
+      "open": 2191.9,
+      "time": "2026-09-29",
+      "volume": 639577
+    },
+    {
+      "close": 2190.1,
+      "high": 2224.5,
+      "low": 2181.6,
+      "open": 2201.9,
+      "time": "2026-09-30",
+      "volume": 587352
+    },
+    {
+      "close": 2115.7,
+      "high": 2196.8,
+      "low": 2059.5,
+      "open": 2187.2,
+      "time": "2026-10-01",
+      "volume": 1615913
     }
   ],
   "company_name": "APL APOLLO TUBES LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Capital Goods",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 83,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.49x"
+    "momentum_score": 77,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.4x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -17.7,
-    "change_pct": -0.8,
-    "close": 2197.0,
-    "previous_close": 2214.7,
+    "as_of": "2026-10-01",
+    "change": -74.4,
+    "change_pct": -3.4,
+    "close": 2115.7,
+    "previous_close": 2190.1,
     "type": "EOD_CLOSE",
-    "volume": 319967
+    "volume": 1615913
   },
   "range": {
-    "distance_from_high_pct": -4.54,
-    "distance_from_low_pct": 32.89,
+    "distance_from_high_pct": -8.07,
+    "distance_from_low_pct": 27.97,
     "high_52w": 2301.4,
     "history_basis": "52_WEEK",
     "low_52w": 1653.3,
-    "range_position_pct": 83.89
+    "range_position_pct": 71.35
   },
   "risk_model": {
-    "invalidation_floor": 2120.11,
-    "risk_per_share": 120.83,
-    "technical_pivot": 2240.94
+    "invalidation_floor": 2041.65,
+    "risk_per_share": 116.36,
+    "technical_pivot": 2158.01
   },
   "schema_version": "1.0",
   "sector": "Capital Goods",

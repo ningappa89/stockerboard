@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2928.25,
-      "high": 2950.0,
-      "low": 2920.5,
-      "open": 2934.0,
-      "time": "2025-09-19",
-      "volume": 709726
-    },
-    {
-      "close": 2913.75,
-      "high": 2952.5,
-      "low": 2905.0,
-      "open": 2937.5,
-      "time": "2025-09-22",
-      "volume": 318136
-    },
-    {
-      "close": 2941.75,
-      "high": 2951.75,
-      "low": 2905.5,
-      "open": 2915.0,
-      "time": "2025-09-23",
-      "volume": 635528
-    },
-    {
       "close": 2895.0,
       "high": 2950.0,
       "low": 2871.0,
@@ -2017,13 +1993,37 @@
       "open": 2362.0,
       "time": "2026-09-28",
       "volume": 877414
+    },
+    {
+      "close": 2223.3,
+      "high": 2303.0,
+      "low": 2223.3,
+      "open": 2286.1,
+      "time": "2026-09-29",
+      "volume": 1311015
+    },
+    {
+      "close": 2280.7,
+      "high": 2314.0,
+      "low": 2252.6,
+      "open": 2255.0,
+      "time": "2026-09-30",
+      "volume": 908968
+    },
+    {
+      "close": 2308.1,
+      "high": 2321.1,
+      "low": 2269.7,
+      "open": 2282.0,
+      "time": "2026-10-01",
+      "volume": 1134071
     }
   ],
   "company_name": "HDFC Asset Management Company ",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.4x"
+    "volume_multiplier": "1.73x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -75.7,
-    "change_pct": -3.18,
-    "close": 2302.3,
-    "previous_close": 2378.0,
+    "as_of": "2026-10-01",
+    "change": 27.4,
+    "change_pct": 1.2,
+    "close": 2308.1,
+    "previous_close": 2280.7,
     "type": "EOD_CLOSE",
-    "volume": 877414
+    "volume": 1134071
   },
   "range": {
-    "distance_from_high_pct": -22.41,
-    "distance_from_low_pct": 4.38,
+    "distance_from_high_pct": -22.21,
+    "distance_from_low_pct": 4.65,
     "high_52w": 2967.25,
     "history_basis": "52_WEEK",
     "low_52w": 2205.6,
-    "range_position_pct": 12.7
+    "range_position_pct": 13.46
   },
   "risk_model": {
-    "invalidation_floor": 2221.72,
-    "risk_per_share": 126.63,
-    "technical_pivot": 2348.35
+    "invalidation_floor": 2227.32,
+    "risk_per_share": 126.94,
+    "technical_pivot": 2354.26
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

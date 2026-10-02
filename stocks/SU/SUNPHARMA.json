@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1656.0,
-      "high": 1668.1,
-      "low": 1643.1,
-      "open": 1648.6,
-      "time": "2025-09-19",
-      "volume": 3191406
-    },
-    {
-      "close": 1644.0,
-      "high": 1657.9,
-      "low": 1635.3,
-      "open": 1650.0,
-      "time": "2025-09-22",
-      "volume": 1785320
-    },
-    {
-      "close": 1631.2,
-      "high": 1644.0,
-      "low": 1625.1,
-      "open": 1643.2,
-      "time": "2025-09-23",
-      "volume": 1967731
-    },
-    {
       "close": 1627.1,
       "high": 1635.9,
       "low": 1625.0,
@@ -2017,13 +1993,37 @@
       "open": 1844.0,
       "time": "2026-09-28",
       "volume": 947719
+    },
+    {
+      "close": 1865.0,
+      "high": 1865.0,
+      "low": 1836.6,
+      "open": 1853.9,
+      "time": "2026-09-29",
+      "volume": 3083083
+    },
+    {
+      "close": 1816.6,
+      "high": 1863.6,
+      "low": 1814.2,
+      "open": 1861.3,
+      "time": "2026-09-30",
+      "volume": 2401495
+    },
+    {
+      "close": 1801.0,
+      "high": 1828.7,
+      "low": 1792.6,
+      "open": 1815.0,
+      "time": "2026-10-01",
+      "volume": 2314700
     }
   ],
   "company_name": "SUN PHARMACEUTICAL INDUSTRIES",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 74,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.61x"
+    "volume_multiplier": "1.46x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -14.2,
-    "change_pct": -0.77,
-    "close": 1838.0,
-    "previous_close": 1852.2,
+    "as_of": "2026-10-01",
+    "change": -15.6,
+    "change_pct": -0.86,
+    "close": 1801.0,
+    "previous_close": 1816.6,
     "type": "EOD_CLOSE",
-    "volume": 947719
+    "volume": 2314700
   },
   "range": {
-    "distance_from_high_pct": -10.21,
-    "distance_from_low_pct": 18.73,
+    "distance_from_high_pct": -12.01,
+    "distance_from_low_pct": 16.34,
     "high_52w": 2046.9,
     "history_basis": "52_WEEK",
     "low_52w": 1548.0,
-    "range_position_pct": 58.13
+    "range_position_pct": 50.71
   },
   "risk_model": {
-    "invalidation_floor": 1773.67,
-    "risk_per_share": 101.09,
-    "technical_pivot": 1874.76
+    "invalidation_floor": 1737.96,
+    "risk_per_share": 99.06,
+    "technical_pivot": 1837.02
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

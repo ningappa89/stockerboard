@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1670.6,
-      "high": 1677.8,
-      "low": 1646.0,
-      "open": 1649.9,
-      "time": "2025-09-19",
-      "volume": 289604
-    },
-    {
-      "close": 1679.3,
-      "high": 1704.0,
-      "low": 1653.7,
-      "open": 1658.6,
-      "time": "2025-09-22",
-      "volume": 338357
-    },
-    {
-      "close": 1655.4,
-      "high": 1686.0,
-      "low": 1653.1,
-      "open": 1679.3,
-      "time": "2025-09-23",
-      "volume": 58773
-    },
-    {
       "close": 1669.9,
       "high": 1677.0,
       "low": 1648.6,
@@ -2017,13 +1993,37 @@
       "open": 1256.0,
       "time": "2026-09-28",
       "volume": 88608
+    },
+    {
+      "close": 1248.4,
+      "high": 1282.4,
+      "low": 1233.6,
+      "open": 1277.1,
+      "time": "2026-09-29",
+      "volume": 63420
+    },
+    {
+      "close": 1211.9,
+      "high": 1250.8,
+      "low": 1206.0,
+      "open": 1240.0,
+      "time": "2026-09-30",
+      "volume": 80671
+    },
+    {
+      "close": 1190.9,
+      "high": 1211.0,
+      "low": 1167.2,
+      "open": 1207.0,
+      "time": "2026-10-01",
+      "volume": 280168
     }
   ],
   "company_name": "AAVAS Financiers Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.82x"
+    "momentum_score": 40,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.89x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 14.7,
-    "change_pct": 1.16,
-    "close": 1282.4,
-    "previous_close": 1267.7,
+    "as_of": "2026-10-01",
+    "change": -21.0,
+    "change_pct": -1.73,
+    "close": 1190.9,
+    "previous_close": 1211.9,
     "type": "EOD_CLOSE",
-    "volume": 88608
+    "volume": 280168
   },
   "range": {
-    "distance_from_high_pct": -27.63,
-    "distance_from_low_pct": 20.94,
+    "distance_from_high_pct": -32.79,
+    "distance_from_low_pct": 12.31,
     "high_52w": 1771.9,
     "history_basis": "52_WEEK",
     "low_52w": 1060.4,
-    "range_position_pct": 31.2
+    "range_position_pct": 18.34
   },
   "risk_model": {
-    "invalidation_floor": 1237.52,
-    "risk_per_share": 70.53,
-    "technical_pivot": 1308.05
+    "invalidation_floor": 1149.22,
+    "risk_per_share": 65.5,
+    "technical_pivot": 1214.72
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 40.06,
-      "high": 40.1,
-      "low": 39.79,
-      "open": 39.8,
-      "time": "2025-09-19",
-      "volume": 28093
-    },
-    {
-      "close": 39.94,
-      "high": 40.15,
-      "low": 39.82,
-      "open": 40.1,
-      "time": "2025-09-22",
-      "volume": 27805
-    },
-    {
-      "close": 40.41,
-      "high": 40.7,
-      "low": 39.81,
-      "open": 39.99,
-      "time": "2025-09-23",
-      "volume": 92647
-    },
-    {
       "close": 40.42,
       "high": 40.59,
       "low": 40.2,
@@ -2017,13 +1993,37 @@
       "open": 38.25,
       "time": "2026-09-28",
       "volume": 35756
+    },
+    {
+      "close": 38.2,
+      "high": 38.84,
+      "low": 37.03,
+      "open": 37.99,
+      "time": "2026-09-29",
+      "volume": 28735
+    },
+    {
+      "close": 37.87,
+      "high": 38.5,
+      "low": 37.6,
+      "open": 38.25,
+      "time": "2026-09-30",
+      "volume": 40263
+    },
+    {
+      "close": 37.87,
+      "high": 38.24,
+      "low": 37.61,
+      "open": 37.99,
+      "time": "2026-10-01",
+      "volume": 23708
     }
   ],
   "company_name": "PTL ENTERPRISES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.07x"
+    "volume_multiplier": "0.7x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.34,
-    "change_pct": -0.89,
-    "close": 37.9,
-    "previous_close": 38.24,
+    "as_of": "2026-10-01",
+    "change": 0.0,
+    "change_pct": 0.0,
+    "close": 37.87,
+    "previous_close": 37.87,
     "type": "EOD_CLOSE",
-    "volume": 35756
+    "volume": 23708
   },
   "range": {
-    "distance_from_high_pct": -13.41,
-    "distance_from_low_pct": 4.99,
+    "distance_from_high_pct": -13.48,
+    "distance_from_low_pct": 4.9,
     "high_52w": 43.77,
     "history_basis": "52_WEEK",
     "low_52w": 36.1,
-    "range_position_pct": 23.47
+    "range_position_pct": 23.08
   },
   "risk_model": {
-    "invalidation_floor": 36.57,
+    "invalidation_floor": 36.54,
     "risk_per_share": 2.09,
-    "technical_pivot": 38.66
+    "technical_pivot": 38.63
   },
   "schema_version": "1.0",
   "sector": null,

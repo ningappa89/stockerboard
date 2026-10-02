@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 827.55,
-      "high": 840.0,
-      "low": 803.45,
-      "open": 811.85,
-      "time": "2025-09-19",
-      "volume": 1556820
-    },
-    {
-      "close": 815.65,
-      "high": 837.0,
-      "low": 812.05,
-      "open": 829.8,
-      "time": "2025-09-22",
-      "volume": 832345
-    },
-    {
-      "close": 817.9,
-      "high": 836.0,
-      "low": 814.2,
-      "open": 818.0,
-      "time": "2025-09-23",
-      "volume": 737589
-    },
-    {
       "close": 858.4,
       "high": 866.5,
       "low": 816.0,
@@ -2017,46 +1993,70 @@
       "open": 1733.3,
       "time": "2026-09-28",
       "volume": 1859395
+    },
+    {
+      "close": 1692.6,
+      "high": 1746.4,
+      "low": 1685.0,
+      "open": 1745.0,
+      "time": "2026-09-29",
+      "volume": 1111808
+    },
+    {
+      "close": 1782.9,
+      "high": 1820.0,
+      "low": 1686.0,
+      "open": 1686.0,
+      "time": "2026-09-30",
+      "volume": 3788979
+    },
+    {
+      "close": 1717.9,
+      "high": 1822.6,
+      "low": 1710.1,
+      "open": 1782.9,
+      "time": "2026-10-01",
+      "volume": 1874242
     }
   ],
   "company_name": "Syrma SGS Technology Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE0DYJ01015",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 85,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.66x"
+    "momentum_score": 81,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.63x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 13.8,
-    "change_pct": 0.8,
-    "close": 1746.4,
-    "previous_close": 1732.6,
+    "as_of": "2026-10-01",
+    "change": -65.0,
+    "change_pct": -3.65,
+    "close": 1717.9,
+    "previous_close": 1782.9,
     "type": "EOD_CLOSE",
-    "volume": 1859395
+    "volume": 1874242
   },
   "range": {
-    "distance_from_high_pct": -3.19,
-    "distance_from_low_pct": 175.24,
-    "high_52w": 1803.9,
+    "distance_from_high_pct": -5.74,
+    "distance_from_low_pct": 170.75,
+    "high_52w": 1822.6,
     "history_basis": "52_WEEK",
     "low_52w": 634.5,
-    "range_position_pct": 95.08
+    "range_position_pct": 91.19
   },
   "risk_model": {
-    "invalidation_floor": 1685.28,
-    "risk_per_share": 96.05,
-    "technical_pivot": 1781.33
+    "invalidation_floor": 1657.77,
+    "risk_per_share": 94.49,
+    "technical_pivot": 1752.26
   },
   "schema_version": "1.0",
   "sector": null,

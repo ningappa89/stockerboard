@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 209.52,
-      "high": 212.84,
-      "low": 205.73,
-      "open": 207.8,
-      "time": "2025-09-19",
-      "volume": 174452
-    },
-    {
-      "close": 203.51,
-      "high": 209.5,
-      "low": 202.41,
-      "open": 209.5,
-      "time": "2025-09-22",
-      "volume": 87425
-    },
-    {
-      "close": 203.03,
-      "high": 205.1,
-      "low": 200.91,
-      "open": 204.45,
-      "time": "2025-09-23",
-      "volume": 65506
-    },
-    {
       "close": 206.35,
       "high": 207.59,
       "low": 201.57,
@@ -2017,13 +1993,37 @@
       "open": 135.6,
       "time": "2026-09-28",
       "volume": 109412
+    },
+    {
+      "close": 132.39,
+      "high": 133.57,
+      "low": 130.0,
+      "open": 132.98,
+      "time": "2026-09-29",
+      "volume": 100141
+    },
+    {
+      "close": 130.52,
+      "high": 133.88,
+      "low": 130.0,
+      "open": 132.1,
+      "time": "2026-09-30",
+      "volume": 90771
+    },
+    {
+      "close": 130.58,
+      "high": 134.99,
+      "low": 129.0,
+      "open": 130.52,
+      "time": "2026-10-01",
+      "volume": 187383
     }
   ],
   "company_name": "RUPA & COMPANY LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.05x"
+    "volume_multiplier": "1.68x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.32,
-    "change_pct": -2.44,
-    "close": 132.75,
-    "previous_close": 136.07,
+    "as_of": "2026-10-01",
+    "change": 0.06,
+    "change_pct": 0.05,
+    "close": 130.58,
+    "previous_close": 130.52,
     "type": "EOD_CLOSE",
-    "volume": 109412
+    "volume": 187383
   },
   "range": {
-    "distance_from_high_pct": -37.63,
-    "distance_from_low_pct": 21.55,
-    "high_52w": 212.84,
+    "distance_from_high_pct": -37.79,
+    "distance_from_low_pct": 19.57,
+    "high_52w": 209.9,
     "history_basis": "52_WEEK",
     "low_52w": 109.21,
-    "range_position_pct": 22.72
+    "range_position_pct": 21.22
   },
   "risk_model": {
-    "invalidation_floor": 128.1,
-    "risk_per_share": 7.31,
-    "technical_pivot": 135.41
+    "invalidation_floor": 126.01,
+    "risk_per_share": 7.18,
+    "technical_pivot": 133.19
   },
   "schema_version": "1.0",
   "sector": null,

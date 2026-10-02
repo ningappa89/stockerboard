@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 7121.0,
-      "high": 7200.0,
-      "low": 7110.0,
-      "open": 7196.0,
-      "time": "2025-09-19",
-      "volume": 2618
-    },
-    {
-      "close": 7068.0,
-      "high": 7132.0,
-      "low": 7040.0,
-      "open": 7106.0,
-      "time": "2025-09-22",
-      "volume": 4686
-    },
-    {
-      "close": 7092.5,
-      "high": 7151.0,
-      "low": 7020.5,
-      "open": 7151.0,
-      "time": "2025-09-23",
-      "volume": 3479
-    },
-    {
       "close": 7553.5,
       "high": 7740.0,
       "low": 7050.0,
@@ -2017,13 +1993,37 @@
       "open": 5495.0,
       "time": "2026-09-28",
       "volume": 6793
+    },
+    {
+      "close": 5350.0,
+      "high": 5400.0,
+      "low": 5340.0,
+      "open": 5350.5,
+      "time": "2026-09-29",
+      "volume": 1228
+    },
+    {
+      "close": 5324.0,
+      "high": 5439.5,
+      "low": 5312.0,
+      "open": 5374.0,
+      "time": "2026-09-30",
+      "volume": 940
+    },
+    {
+      "close": 5163.5,
+      "high": 5375.0,
+      "low": 5105.0,
+      "open": 5325.0,
+      "time": "2026-10-01",
+      "volume": 2211
     }
   ],
   "company_name": "NALWA SONS INVESTMENT LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "3.4x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.12x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -69.5,
-    "change_pct": -1.27,
-    "close": 5398.5,
-    "previous_close": 5468.0,
+    "as_of": "2026-10-01",
+    "change": -160.5,
+    "change_pct": -3.01,
+    "close": 5163.5,
+    "previous_close": 5324.0,
     "type": "EOD_CLOSE",
-    "volume": 6793
+    "volume": 2211
   },
   "range": {
-    "distance_from_high_pct": -38.16,
-    "distance_from_low_pct": 14.86,
+    "distance_from_high_pct": -40.85,
+    "distance_from_low_pct": 9.86,
     "high_52w": 8730.0,
     "history_basis": "52_WEEK",
     "low_52w": 4700.0,
-    "range_position_pct": 17.33
+    "range_position_pct": 11.5
   },
   "risk_model": {
-    "invalidation_floor": 5209.55,
-    "risk_per_share": 296.92,
-    "technical_pivot": 5506.47
+    "invalidation_floor": 4982.78,
+    "risk_per_share": 283.99,
+    "technical_pivot": 5266.77
   },
   "schema_version": "1.0",
   "sector": null,

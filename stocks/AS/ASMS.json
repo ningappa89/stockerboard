@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 15.85,
-      "high": 16.07,
-      "low": 15.35,
-      "open": 15.35,
-      "time": "2025-09-19",
-      "volume": 416322
-    },
-    {
-      "close": 15.4,
-      "high": 16.0,
-      "low": 15.11,
-      "open": 16.0,
-      "time": "2025-09-22",
-      "volume": 317784
-    },
-    {
-      "close": 15.02,
-      "high": 15.65,
-      "low": 14.7,
-      "open": 15.15,
-      "time": "2025-09-23",
-      "volume": 208607
-    },
-    {
       "close": 14.95,
       "high": 15.44,
       "low": 14.56,
@@ -2017,13 +1993,37 @@
       "open": 6.54,
       "time": "2026-09-28",
       "volume": 188836
+    },
+    {
+      "close": 6.08,
+      "high": 6.49,
+      "low": 5.1,
+      "open": 6.49,
+      "time": "2026-09-29",
+      "volume": 524327
+    },
+    {
+      "close": 6.06,
+      "high": 6.49,
+      "low": 5.81,
+      "open": 6.2,
+      "time": "2026-09-30",
+      "volume": 557356
+    },
+    {
+      "close": 5.92,
+      "high": 6.12,
+      "low": 5.84,
+      "open": 6.02,
+      "time": "2026-10-01",
+      "volume": 174867
     }
   ],
   "company_name": "Avio Smart Market Stack Limite",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.89x"
+    "volume_multiplier": "0.79x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.05,
-    "change_pct": -0.78,
-    "close": 6.33,
-    "previous_close": 6.38,
+    "as_of": "2026-10-01",
+    "change": -0.14,
+    "change_pct": -2.31,
+    "close": 5.92,
+    "previous_close": 6.06,
     "type": "EOD_CLOSE",
-    "volume": 188836
+    "volume": 174867
   },
   "range": {
-    "distance_from_high_pct": -62.1,
-    "distance_from_low_pct": 1.44,
+    "distance_from_high_pct": -64.55,
+    "distance_from_low_pct": 16.08,
     "high_52w": 16.7,
     "history_basis": "52_WEEK",
-    "low_52w": 6.24,
-    "range_position_pct": 0.86
+    "low_52w": 5.1,
+    "range_position_pct": 7.07
   },
   "risk_model": {
-    "invalidation_floor": 6.11,
+    "invalidation_floor": 5.71,
     "risk_per_share": 0.5,
-    "technical_pivot": 6.46
+    "technical_pivot": 6.04
   },
   "schema_version": "1.0",
   "sector": null,

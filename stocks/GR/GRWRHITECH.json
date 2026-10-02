@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3386.9,
-      "high": 3410.5,
-      "low": 3325.5,
-      "open": 3359.0,
-      "time": "2025-09-19",
-      "volume": 23182
-    },
-    {
-      "close": 3304.2,
-      "high": 3410.0,
-      "low": 3290.1,
-      "open": 3386.9,
-      "time": "2025-09-22",
-      "volume": 29204
-    },
-    {
-      "close": 3176.6,
-      "high": 3309.6,
-      "low": 3160.0,
-      "open": 3303.0,
-      "time": "2025-09-23",
-      "volume": 50009
-    },
-    {
       "close": 3166.2,
       "high": 3255.3,
       "low": 3151.7,
@@ -2017,13 +1993,37 @@
       "open": 6609.5,
       "time": "2026-09-28",
       "volume": 33997
+    },
+    {
+      "close": 7016.5,
+      "high": 7048.0,
+      "low": 6555.0,
+      "open": 6665.5,
+      "time": "2026-09-29",
+      "volume": 70353
+    },
+    {
+      "close": 7015.5,
+      "high": 7159.0,
+      "low": 6937.0,
+      "open": 7072.0,
+      "time": "2026-09-30",
+      "volume": 84631
+    },
+    {
+      "close": 6925.5,
+      "high": 7037.5,
+      "low": 6787.5,
+      "open": 7015.5,
+      "time": "2026-10-01",
+      "volume": 29548
     }
   ],
   "company_name": "GARWARE HI-TECH FILMS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 64,
+    "is_stage2": true,
+    "momentum_score": 70,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.59x"
+    "volume_multiplier": "0.48x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 13.5,
-    "change_pct": 0.2,
-    "close": 6653.5,
-    "previous_close": 6640.0,
+    "as_of": "2026-10-01",
+    "change": -90.0,
+    "change_pct": -1.28,
+    "close": 6925.5,
+    "previous_close": 7015.5,
     "type": "EOD_CLOSE",
-    "volume": 33997
+    "volume": 29548
   },
   "range": {
-    "distance_from_high_pct": -16.73,
-    "distance_from_low_pct": 147.28,
+    "distance_from_high_pct": -13.32,
+    "distance_from_low_pct": 157.39,
     "high_52w": 7990.0,
     "history_basis": "52_WEEK",
     "low_52w": 2690.7,
-    "range_position_pct": 74.78
+    "range_position_pct": 79.91
   },
   "risk_model": {
-    "invalidation_floor": 6420.63,
-    "risk_per_share": 365.94,
-    "technical_pivot": 6786.57
+    "invalidation_floor": 6683.11,
+    "risk_per_share": 380.9,
+    "technical_pivot": 7064.01
   },
   "schema_version": "1.0",
   "sector": null,

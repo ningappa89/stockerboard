@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1376.1,
-      "high": 1388.0,
-      "low": 1371.2,
-      "open": 1388.0,
-      "time": "2025-09-19",
-      "volume": 1100226
-    },
-    {
-      "close": 1417.7,
-      "high": 1426.0,
-      "low": 1365.2,
-      "open": 1370.0,
-      "time": "2025-09-22",
-      "volume": 2045289
-    },
-    {
-      "close": 1393.9,
-      "high": 1433.6,
-      "low": 1389.0,
-      "open": 1422.8,
-      "time": "2025-09-23",
-      "volume": 1526034
-    },
-    {
       "close": 1385.3,
       "high": 1405.6,
       "low": 1375.0,
@@ -2017,13 +1993,37 @@
       "open": 1250.8,
       "time": "2026-09-28",
       "volume": 1070424
+    },
+    {
+      "close": 1245.0,
+      "high": 1251.3,
+      "low": 1232.3,
+      "open": 1238.1,
+      "time": "2026-09-29",
+      "volume": 1242585
+    },
+    {
+      "close": 1219.5,
+      "high": 1246.0,
+      "low": 1204.5,
+      "open": 1235.0,
+      "time": "2026-09-30",
+      "volume": 1589054
+    },
+    {
+      "close": 1200.0,
+      "high": 1221.2,
+      "low": 1180.3,
+      "open": 1215.1,
+      "time": "2026-10-01",
+      "volume": 2219568
     }
   ],
   "company_name": "INFO EDGE (INDIA) LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 71,
+    "is_stage2": false,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.79x"
+    "volume_multiplier": "1.65x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.9,
-    "change_pct": -0.07,
-    "close": 1253.9,
-    "previous_close": 1254.8,
+    "as_of": "2026-10-01",
+    "change": -19.5,
+    "change_pct": -1.6,
+    "close": 1200.0,
+    "previous_close": 1219.5,
     "type": "EOD_CLOSE",
-    "volume": 1070424
+    "volume": 2219568
   },
   "range": {
-    "distance_from_high_pct": -12.53,
-    "distance_from_low_pct": 38.05,
-    "high_52w": 1433.6,
+    "distance_from_high_pct": -15.49,
+    "distance_from_low_pct": 32.11,
+    "high_52w": 1419.9,
     "history_basis": "52_WEEK",
     "low_52w": 908.3,
-    "range_position_pct": 65.79
+    "range_position_pct": 57.02
   },
   "risk_model": {
-    "invalidation_floor": 1210.01,
-    "risk_per_share": 68.97,
-    "technical_pivot": 1278.98
+    "invalidation_floor": 1158.0,
+    "risk_per_share": 66.0,
+    "technical_pivot": 1224.0
   },
   "schema_version": "1.0",
   "sector": null,

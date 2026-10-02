@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 13.18,
-      "high": 13.88,
-      "low": 13.0,
-      "open": 13.52,
-      "time": "2025-07-29",
-      "volume": 2009
-    },
-    {
-      "close": 13.82,
-      "high": 13.83,
-      "low": 12.7,
-      "open": 13.24,
-      "time": "2025-07-30",
-      "volume": 15060
-    },
-    {
-      "close": 14.4,
-      "high": 14.5,
-      "low": 13.83,
-      "open": 13.83,
-      "time": "2025-07-31",
-      "volume": 1010
-    },
-    {
       "close": 13.77,
       "high": 15.11,
       "low": 13.75,
@@ -2017,13 +1993,37 @@
       "open": 12.9,
       "time": "2026-09-28",
       "volume": 2600
+    },
+    {
+      "close": 13.0,
+      "high": 14.1,
+      "low": 12.5,
+      "open": 13.1,
+      "time": "2026-09-29",
+      "volume": 2224
+    },
+    {
+      "close": 14.3,
+      "high": 14.3,
+      "low": 11.75,
+      "open": 12.85,
+      "time": "2026-09-30",
+      "volume": 4554
+    },
+    {
+      "close": 15.73,
+      "high": 15.73,
+      "low": 15.5,
+      "open": 15.5,
+      "time": "2026-10-01",
+      "volume": 30574
     }
   ],
   "company_name": "EUROTEX INDUSTRIES & EXPORTS L",
   "history": {
-    "first_session": "2025-07-29",
+    "first_session": "2025-08-01",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.32x"
+    "volume_multiplier": "10.47x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.66,
-    "change_pct": 5.38,
-    "close": 12.92,
-    "previous_close": 12.26,
+    "as_of": "2026-10-01",
+    "change": 1.43,
+    "change_pct": 10.0,
+    "close": 15.73,
+    "previous_close": 14.3,
     "type": "EOD_CLOSE",
-    "volume": 2600
+    "volume": 30574
   },
   "range": {
-    "distance_from_high_pct": -45.71,
-    "distance_from_low_pct": 15.77,
+    "distance_from_high_pct": -33.91,
+    "distance_from_low_pct": 40.95,
     "high_52w": 23.8,
     "history_basis": "52_WEEK",
     "low_52w": 11.16,
-    "range_position_pct": 13.92
+    "range_position_pct": 36.16
   },
   "risk_model": {
-    "invalidation_floor": 12.47,
-    "risk_per_share": 0.71,
-    "technical_pivot": 13.18
+    "invalidation_floor": 15.18,
+    "risk_per_share": 0.86,
+    "technical_pivot": 16.04
   },
   "schema_version": "1.0",
   "sector": null,

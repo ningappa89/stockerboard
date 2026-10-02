@@ -1833,14 +1833,38 @@
       "open": 929.5,
       "time": "2026-09-28",
       "volume": 42567
+    },
+    {
+      "close": 877.0,
+      "high": 901.1,
+      "low": 869.0,
+      "open": 895.1,
+      "time": "2026-09-29",
+      "volume": 60800
+    },
+    {
+      "close": 895.0,
+      "high": 919.0,
+      "low": 878.0,
+      "open": 884.9,
+      "time": "2026-09-30",
+      "volume": 74483
+    },
+    {
+      "close": 904.15,
+      "high": 930.0,
+      "low": 860.0,
+      "open": 903.2,
+      "time": "2026-10-01",
+      "volume": 35185
     }
   ],
   "company_name": "MIDWEST LIMITED",
   "history": {
     "first_session": "2025-10-24",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 229
+    "last_session": "2026-10-01",
+    "sessions_available": 232
   },
   "industry": null,
   "isin": "INE0XAD01024",
@@ -1850,29 +1874,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.32x"
+    "volume_multiplier": "0.98x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -29.6,
-    "change_pct": -3.18,
-    "close": 899.9,
-    "previous_close": 929.5,
+    "as_of": "2026-10-01",
+    "change": 9.15,
+    "change_pct": 1.02,
+    "close": 904.15,
+    "previous_close": 895.0,
     "type": "EOD_CLOSE",
-    "volume": 42567
+    "volume": 35185
   },
   "range": {
-    "distance_from_high_pct": -51.62,
-    "distance_from_low_pct": 0.85,
+    "distance_from_high_pct": -51.39,
+    "distance_from_low_pct": 5.13,
     "high_52w": 1859.9,
     "history_basis": "52_WEEK",
-    "low_52w": 892.3,
-    "range_position_pct": 0.79
+    "low_52w": 860.0,
+    "range_position_pct": 4.42
   },
   "risk_model": {
-    "invalidation_floor": 868.4,
-    "risk_per_share": 49.5,
-    "technical_pivot": 917.9
+    "invalidation_floor": 872.5,
+    "risk_per_share": 49.73,
+    "technical_pivot": 922.23
   },
   "schema_version": "1.0",
   "sector": null,

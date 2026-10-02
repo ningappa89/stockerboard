@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 653.5,
-      "high": 669.95,
-      "low": 651.0,
-      "open": 659.0,
-      "time": "2025-09-19",
-      "volume": 10386
-    },
-    {
-      "close": 646.75,
-      "high": 669.7,
-      "low": 640.0,
-      "open": 669.7,
-      "time": "2025-09-22",
-      "volume": 14312
-    },
-    {
-      "close": 656.0,
-      "high": 668.0,
-      "low": 646.7,
-      "open": 649.35,
-      "time": "2025-09-23",
-      "volume": 19861
-    },
-    {
       "close": 643.25,
       "high": 655.65,
       "low": 640.05,
@@ -2017,13 +1993,37 @@
       "open": 634.55,
       "time": "2026-09-28",
       "volume": 8467
+    },
+    {
+      "close": 619.75,
+      "high": 624.0,
+      "low": 612.0,
+      "open": 621.4,
+      "time": "2026-09-29",
+      "volume": 3889
+    },
+    {
+      "close": 626.2,
+      "high": 635.0,
+      "low": 616.25,
+      "open": 624.0,
+      "time": "2026-09-30",
+      "volume": 8802
+    },
+    {
+      "close": 610.2,
+      "high": 626.2,
+      "low": 602.25,
+      "open": 626.2,
+      "time": "2026-10-01",
+      "volume": 5346
     }
   ],
   "company_name": "KRYSTAL INTEGRATED SER L",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 73,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.24x"
+    "volume_multiplier": "0.19x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -9.9,
-    "change_pct": -1.57,
-    "close": 621.65,
-    "previous_close": 631.55,
+    "as_of": "2026-10-01",
+    "change": -16.0,
+    "change_pct": -2.56,
+    "close": 610.2,
+    "previous_close": 626.2,
     "type": "EOD_CLOSE",
-    "volume": 8467
+    "volume": 5346
   },
   "range": {
-    "distance_from_high_pct": -10.8,
-    "distance_from_low_pct": 24.33,
+    "distance_from_high_pct": -12.44,
+    "distance_from_low_pct": 22.04,
     "high_52w": 696.9,
     "history_basis": "52_WEEK",
     "low_52w": 500.0,
-    "range_position_pct": 61.78
+    "range_position_pct": 55.97
   },
   "risk_model": {
-    "invalidation_floor": 599.89,
-    "risk_per_share": 34.19,
-    "technical_pivot": 634.08
+    "invalidation_floor": 588.84,
+    "risk_per_share": 33.56,
+    "technical_pivot": 622.4
   },
   "schema_version": "1.0",
   "sector": null,

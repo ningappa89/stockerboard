@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 572.05,
-      "high": 586.9,
-      "low": 547.25,
-      "open": 552.1,
-      "time": "2025-09-19",
-      "volume": 15704829
-    },
-    {
-      "close": 565.15,
-      "high": 588.0,
-      "low": 560.0,
-      "open": 572.3,
-      "time": "2025-09-22",
-      "volume": 5523233
-    },
-    {
-      "close": 627.4,
-      "high": 642.0,
-      "low": 565.55,
-      "open": 569.5,
-      "time": "2025-09-23",
-      "volume": 53264312
-    },
-    {
       "close": 606.2,
       "high": 631.45,
       "low": 603.0,
@@ -2017,13 +1993,37 @@
       "open": 535.15,
       "time": "2026-09-28",
       "volume": 726751
+    },
+    {
+      "close": 513.2,
+      "high": 521.8,
+      "low": 510.05,
+      "open": 521.0,
+      "time": "2026-09-29",
+      "volume": 728657
+    },
+    {
+      "close": 507.7,
+      "high": 524.4,
+      "low": 506.0,
+      "open": 515.0,
+      "time": "2026-09-30",
+      "volume": 688502
+    },
+    {
+      "close": 487.65,
+      "high": 505.75,
+      "low": 479.8,
+      "open": 505.4,
+      "time": "2026-10-01",
+      "volume": 1342310
     }
   ],
   "company_name": "GUJARAT MINERAL DEVELOPMENT CO",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 41,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.76x"
+    "volume_multiplier": "1.34x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -15.75,
-    "change_pct": -2.93,
-    "close": 522.25,
-    "previous_close": 538.0,
+    "as_of": "2026-10-01",
+    "change": -20.05,
+    "change_pct": -3.95,
+    "close": 487.65,
+    "previous_close": 507.7,
     "type": "EOD_CLOSE",
-    "volume": 726751
+    "volume": 1342310
   },
   "range": {
-    "distance_from_high_pct": -32.34,
-    "distance_from_low_pct": 11.97,
+    "distance_from_high_pct": -36.82,
+    "distance_from_low_pct": 4.56,
     "high_52w": 771.9,
     "history_basis": "52_WEEK",
     "low_52w": 466.4,
-    "range_position_pct": 18.28
+    "range_position_pct": 6.96
   },
   "risk_model": {
-    "invalidation_floor": 503.97,
-    "risk_per_share": 28.73,
-    "technical_pivot": 532.7
+    "invalidation_floor": 470.58,
+    "risk_per_share": 26.82,
+    "technical_pivot": 497.4
   },
   "schema_version": "1.0",
   "sector": null,

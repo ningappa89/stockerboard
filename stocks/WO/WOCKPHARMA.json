@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1505.7,
-      "high": 1533.3,
-      "low": 1495.0,
-      "open": 1528.9,
-      "time": "2025-09-19",
-      "volume": 263781
-    },
-    {
-      "close": 1481.1,
-      "high": 1512.0,
-      "low": 1475.1,
-      "open": 1505.7,
-      "time": "2025-09-22",
-      "volume": 193193
-    },
-    {
-      "close": 1476.9,
-      "high": 1494.0,
-      "low": 1474.7,
-      "open": 1482.5,
-      "time": "2025-09-23",
-      "volume": 133355
-    },
-    {
       "close": 1490.1,
       "high": 1509.4,
       "low": 1455.5,
@@ -2017,13 +1993,37 @@
       "open": 2267.0,
       "time": "2026-09-28",
       "volume": 649952
+    },
+    {
+      "close": 2194.2,
+      "high": 2255.0,
+      "low": 2148.0,
+      "open": 2199.0,
+      "time": "2026-09-29",
+      "volume": 1274737
+    },
+    {
+      "close": 2116.3,
+      "high": 2213.6,
+      "low": 2106.2,
+      "open": 2201.1,
+      "time": "2026-09-30",
+      "volume": 823461
+    },
+    {
+      "close": 2083.9,
+      "high": 2124.0,
+      "low": 2035.6,
+      "open": 2110.0,
+      "time": "2026-10-01",
+      "volume": 784540
     }
   ],
   "company_name": "WOCKHARDT LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 75,
+    "is_stage2": false,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.47x"
+    "volume_multiplier": "0.55x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -78.0,
-    "change_pct": -3.44,
-    "close": 2187.6,
-    "previous_close": 2265.6,
+    "as_of": "2026-10-01",
+    "change": -32.4,
+    "change_pct": -1.53,
+    "close": 2083.9,
+    "previous_close": 2116.3,
     "type": "EOD_CLOSE",
-    "volume": 649952
+    "volume": 784540
   },
   "range": {
-    "distance_from_high_pct": -9.69,
-    "distance_from_low_pct": 101.31,
+    "distance_from_high_pct": -13.97,
+    "distance_from_low_pct": 91.76,
     "high_52w": 2422.3,
     "history_basis": "52_WEEK",
     "low_52w": 1086.7,
-    "range_position_pct": 82.43
+    "range_position_pct": 74.66
   },
   "risk_model": {
-    "invalidation_floor": 2111.03,
-    "risk_per_share": 120.32,
-    "technical_pivot": 2231.35
+    "invalidation_floor": 2010.96,
+    "risk_per_share": 114.62,
+    "technical_pivot": 2125.58
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

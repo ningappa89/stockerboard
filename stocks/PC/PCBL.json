@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 413.55,
-      "high": 425.95,
-      "low": 384.2,
-      "open": 388.1,
-      "time": "2025-09-19",
-      "volume": 6521648
-    },
-    {
-      "close": 403.2,
-      "high": 409.15,
-      "low": 400.45,
-      "open": 405.0,
-      "time": "2025-09-22",
-      "volume": 1152856
-    },
-    {
-      "close": 392.6,
-      "high": 403.65,
-      "low": 391.35,
-      "open": 401.0,
-      "time": "2025-09-23",
-      "volume": 826275
-    },
-    {
       "close": 389.7,
       "high": 393.9,
       "low": 388.7,
@@ -2017,13 +1993,37 @@
       "open": 338.15,
       "time": "2026-09-28",
       "volume": 905372
+    },
+    {
+      "close": 330.45,
+      "high": 334.9,
+      "low": 328.55,
+      "open": 330.5,
+      "time": "2026-09-29",
+      "volume": 671406
+    },
+    {
+      "close": 331.1,
+      "high": 339.8,
+      "low": 330.15,
+      "open": 330.45,
+      "time": "2026-09-30",
+      "volume": 1026589
+    },
+    {
+      "close": 321.5,
+      "high": 331.65,
+      "low": 315.75,
+      "open": 330.0,
+      "time": "2026-10-01",
+      "volume": 878765
     }
   ],
   "company_name": "PCBL CHEMICAL LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Chemicals",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 57,
+    "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.51x"
+    "volume_multiplier": "0.49x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -7.05,
-    "change_pct": -2.08,
-    "close": 332.55,
-    "previous_close": 339.6,
+    "as_of": "2026-10-01",
+    "change": -9.6,
+    "change_pct": -2.9,
+    "close": 321.5,
+    "previous_close": 331.1,
     "type": "EOD_CLOSE",
-    "volume": 905372
+    "volume": 878765
   },
   "range": {
-    "distance_from_high_pct": -21.93,
-    "distance_from_low_pct": 46.82,
-    "high_52w": 425.95,
+    "distance_from_high_pct": -18.4,
+    "distance_from_low_pct": 41.94,
+    "high_52w": 394.0,
     "history_basis": "52_WEEK",
     "low_52w": 226.5,
-    "range_position_pct": 53.17
+    "range_position_pct": 56.72
   },
   "risk_model": {
-    "invalidation_floor": 320.91,
-    "risk_per_share": 18.29,
-    "technical_pivot": 339.2
+    "invalidation_floor": 310.25,
+    "risk_per_share": 17.68,
+    "technical_pivot": 327.93
   },
   "schema_version": "1.0",
   "sector": "Chemicals",

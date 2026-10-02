@@ -233,14 +233,38 @@
       "open": 95.0,
       "time": "2026-09-28",
       "volume": 3846
+    },
+    {
+      "close": 85.96,
+      "high": 92.0,
+      "low": 78.65,
+      "open": 88.57,
+      "time": "2026-09-29",
+      "volume": 4740
+    },
+    {
+      "close": 87.75,
+      "high": 95.4,
+      "low": 86.0,
+      "open": 87.43,
+      "time": "2026-09-30",
+      "volume": 9005
+    },
+    {
+      "close": 85.13,
+      "high": 88.35,
+      "low": 84.01,
+      "open": 88.35,
+      "time": "2026-10-01",
+      "volume": 531
     }
   ],
   "company_name": "ANSAL BUILDWELL LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 29
+    "last_session": "2026-10-01",
+    "sessions_available": 32
   },
   "industry": null,
   "isin": "INE030C01015",
@@ -248,31 +272,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 58,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.25x"
+    "volume_multiplier": "0.04x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.31,
-    "change_pct": -4.55,
-    "close": 90.38,
-    "previous_close": 94.69,
+    "as_of": "2026-10-01",
+    "change": -2.62,
+    "change_pct": -2.99,
+    "close": 85.13,
+    "previous_close": 87.75,
     "type": "EOD_CLOSE",
-    "volume": 3846
+    "volume": 531
   },
   "range": {
-    "distance_from_high_pct": -15.93,
-    "distance_from_low_pct": 27.94,
+    "distance_from_high_pct": -20.81,
+    "distance_from_low_pct": 20.51,
     "high_52w": 107.5,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 70.64,
-    "range_position_pct": 53.55
+    "range_position_pct": 39.31
   },
   "risk_model": {
-    "invalidation_floor": 87.22,
-    "risk_per_share": 4.97,
-    "technical_pivot": 92.19
+    "invalidation_floor": 82.15,
+    "risk_per_share": 4.68,
+    "technical_pivot": 86.83
   },
   "schema_version": "1.0",
   "sector": null,

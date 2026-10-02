@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2440.9,
-      "high": 2463.2,
-      "low": 2374.6,
-      "open": 2411.0,
-      "time": "2025-09-19",
-      "volume": 16822
-    },
-    {
-      "close": 2404.0,
-      "high": 2459.2,
-      "low": 2395.1,
-      "open": 2440.9,
-      "time": "2025-09-22",
-      "volume": 5172
-    },
-    {
-      "close": 2404.3,
-      "high": 2432.1,
-      "low": 2383.0,
-      "open": 2419.0,
-      "time": "2025-09-23",
-      "volume": 11119
-    },
-    {
       "close": 2394.4,
       "high": 2430.1,
       "low": 2383.1,
@@ -2017,13 +1993,37 @@
       "open": 3055.0,
       "time": "2026-09-28",
       "volume": 46167
+    },
+    {
+      "close": 3089.2,
+      "high": 3125.0,
+      "low": 2926.3,
+      "open": 2935.0,
+      "time": "2026-09-29",
+      "volume": 96080
+    },
+    {
+      "close": 3037.1,
+      "high": 3112.8,
+      "low": 2986.0,
+      "open": 3103.6,
+      "time": "2026-09-30",
+      "volume": 46586
+    },
+    {
+      "close": 2930.7,
+      "high": 3037.1,
+      "low": 2874.9,
+      "open": 3036.5,
+      "time": "2026-10-01",
+      "volume": 36208
     }
   ],
   "company_name": "RPG LIFE SCIENCES LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 81,
+    "momentum_score": 80,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.34x"
+    "volume_multiplier": "0.87x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -95.5,
-    "change_pct": -3.13,
-    "close": 2955.1,
-    "previous_close": 3050.6,
+    "as_of": "2026-10-01",
+    "change": -106.4,
+    "change_pct": -3.5,
+    "close": 2930.7,
+    "previous_close": 3037.1,
     "type": "EOD_CLOSE",
-    "volume": 46167
+    "volume": 36208
   },
   "range": {
-    "distance_from_high_pct": -5.52,
-    "distance_from_low_pct": 70.52,
+    "distance_from_high_pct": -6.3,
+    "distance_from_low_pct": 69.11,
     "high_52w": 3127.8,
     "history_basis": "52_WEEK",
     "low_52w": 1733.0,
-    "range_position_pct": 87.62
+    "range_position_pct": 85.87
   },
   "risk_model": {
-    "invalidation_floor": 2851.67,
-    "risk_per_share": 162.53,
-    "technical_pivot": 3014.2
+    "invalidation_floor": 2828.13,
+    "risk_per_share": 161.18,
+    "technical_pivot": 2989.31
   },
   "schema_version": "1.0",
   "sector": null,

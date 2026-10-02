@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 241.19,
-      "high": 247.89,
-      "low": 238.65,
-      "open": 246.0,
-      "time": "2025-09-19",
-      "volume": 120278
-    },
-    {
-      "close": 238.69,
-      "high": 241.88,
-      "low": 236.6,
-      "open": 238.72,
-      "time": "2025-09-22",
-      "volume": 86689
-    },
-    {
-      "close": 241.36,
-      "high": 242.0,
-      "low": 237.6,
-      "open": 239.65,
-      "time": "2025-09-23",
-      "volume": 53640
-    },
-    {
       "close": 240.38,
       "high": 242.6,
       "low": 239.21,
@@ -2017,13 +1993,37 @@
       "open": 230.74,
       "time": "2026-09-28",
       "volume": 53337
+    },
+    {
+      "close": 222.85,
+      "high": 228.63,
+      "low": 221.0,
+      "open": 228.63,
+      "time": "2026-09-29",
+      "volume": 23060
+    },
+    {
+      "close": 234.29,
+      "high": 243.82,
+      "low": 220.24,
+      "open": 221.13,
+      "time": "2026-09-30",
+      "volume": 271910
+    },
+    {
+      "close": 225.62,
+      "high": 234.48,
+      "low": 215.0,
+      "open": 233.0,
+      "time": "2026-10-01",
+      "volume": 84998
     }
   ],
   "company_name": "LIKHITHA INFRASTRUC LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.41x"
+    "volume_multiplier": "0.59x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.6,
-    "change_pct": -0.69,
-    "close": 228.63,
-    "previous_close": 230.23,
+    "as_of": "2026-10-01",
+    "change": -8.67,
+    "change_pct": -3.7,
+    "close": 225.62,
+    "previous_close": 234.29,
     "type": "EOD_CLOSE",
-    "volume": 53337
+    "volume": 84998
   },
   "range": {
-    "distance_from_high_pct": -15.94,
-    "distance_from_low_pct": 73.93,
+    "distance_from_high_pct": -17.05,
+    "distance_from_low_pct": 71.64,
     "high_52w": 272.0,
     "history_basis": "52_WEEK",
     "low_52w": 131.45,
-    "range_position_pct": 69.14
+    "range_position_pct": 67.0
   },
   "risk_model": {
-    "invalidation_floor": 220.63,
-    "risk_per_share": 12.57,
-    "technical_pivot": 233.2
+    "invalidation_floor": 217.72,
+    "risk_per_share": 12.41,
+    "technical_pivot": 230.13
   },
   "schema_version": "1.0",
   "sector": null,

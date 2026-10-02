@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 684.35,
-      "high": 688.45,
-      "low": 678.1,
-      "open": 684.85,
-      "time": "2025-09-19",
-      "volume": 84235
-    },
-    {
-      "close": 680.65,
-      "high": 686.95,
-      "low": 677.05,
-      "open": 680.0,
-      "time": "2025-09-22",
-      "volume": 82285
-    },
-    {
-      "close": 674.1,
-      "high": 683.55,
-      "low": 673.0,
-      "open": 678.1,
-      "time": "2025-09-23",
-      "volume": 53050
-    },
-    {
       "close": 660.25,
       "high": 677.05,
       "low": 658.0,
@@ -2017,13 +1993,37 @@
       "open": 658.0,
       "time": "2026-09-28",
       "volume": 447539
+    },
+    {
+      "close": 627.15,
+      "high": 651.0,
+      "low": 621.1,
+      "open": 650.2,
+      "time": "2026-09-29",
+      "volume": 487802
+    },
+    {
+      "close": 596.5,
+      "high": 637.6,
+      "low": 592.1,
+      "open": 628.5,
+      "time": "2026-09-30",
+      "volume": 713583
+    },
+    {
+      "close": 580.0,
+      "high": 603.35,
+      "low": 566.0,
+      "open": 595.4,
+      "time": "2026-10-01",
+      "volume": 702179
     }
   ],
   "company_name": "EMUDHRA LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 80,
+    "is_stage2": false,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.2x"
+    "volume_multiplier": "0.3x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.2,
-    "change_pct": -0.64,
-    "close": 649.25,
-    "previous_close": 653.45,
+    "as_of": "2026-10-01",
+    "change": -16.5,
+    "change_pct": -2.77,
+    "close": 580.0,
+    "previous_close": 596.5,
     "type": "EOD_CLOSE",
-    "volume": 447539
+    "volume": 702179
   },
   "range": {
-    "distance_from_high_pct": -6.03,
-    "distance_from_low_pct": 78.1,
+    "distance_from_high_pct": -16.05,
+    "distance_from_low_pct": 59.1,
     "high_52w": 690.9,
     "history_basis": "52_WEEK",
     "low_52w": 364.55,
-    "range_position_pct": 87.24
+    "range_position_pct": 66.02
   },
   "risk_model": {
-    "invalidation_floor": 626.53,
-    "risk_per_share": 35.71,
-    "technical_pivot": 662.24
+    "invalidation_floor": 559.7,
+    "risk_per_share": 31.9,
+    "technical_pivot": 591.6
   },
   "schema_version": "1.0",
   "sector": null,

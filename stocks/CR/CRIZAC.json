@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 343.9,
-      "high": 353.35,
-      "low": 341.6,
-      "open": 353.0,
-      "time": "2025-09-19",
-      "volume": 462450
-    },
-    {
-      "close": 316.25,
-      "high": 343.15,
-      "low": 312.65,
-      "open": 343.0,
-      "time": "2025-09-22",
-      "volume": 2609441
-    },
-    {
-      "close": 316.8,
-      "high": 327.4,
-      "low": 315.5,
-      "open": 318.55,
-      "time": "2025-09-23",
-      "volume": 1081186
-    },
-    {
       "close": 308.95,
       "high": 318.0,
       "low": 307.9,
@@ -2017,13 +1993,37 @@
       "open": 184.0,
       "time": "2026-09-28",
       "volume": 97897
+    },
+    {
+      "close": 169.08,
+      "high": 177.0,
+      "low": 168.0,
+      "open": 177.0,
+      "time": "2026-09-29",
+      "volume": 428888
+    },
+    {
+      "close": 170.12,
+      "high": 173.39,
+      "low": 168.9,
+      "open": 170.6,
+      "time": "2026-09-30",
+      "volume": 100955
+    },
+    {
+      "close": 166.89,
+      "high": 171.68,
+      "low": 164.59,
+      "open": 171.68,
+      "time": "2026-10-01",
+      "volume": 188899
     }
   ],
   "company_name": "CRIZAC LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.27x"
+    "volume_multiplier": "0.54x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.65,
-    "change_pct": -3.09,
-    "close": 177.14,
-    "previous_close": 182.79,
+    "as_of": "2026-10-01",
+    "change": -3.23,
+    "change_pct": -1.9,
+    "close": 166.89,
+    "previous_close": 170.12,
     "type": "EOD_CLOSE",
-    "volume": 97897
+    "volume": 188899
   },
   "range": {
-    "distance_from_high_pct": -49.87,
-    "distance_from_low_pct": 10.75,
-    "high_52w": 353.35,
+    "distance_from_high_pct": -49.88,
+    "distance_from_low_pct": 4.34,
+    "high_52w": 333.0,
     "history_basis": "52_WEEK",
     "low_52w": 159.95,
-    "range_position_pct": 8.89
+    "range_position_pct": 4.01
   },
   "risk_model": {
-    "invalidation_floor": 170.94,
-    "risk_per_share": 9.74,
-    "technical_pivot": 180.68
+    "invalidation_floor": 161.05,
+    "risk_per_share": 9.18,
+    "technical_pivot": 170.23
   },
   "schema_version": "1.0",
   "sector": null,

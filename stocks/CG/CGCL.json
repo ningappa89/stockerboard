@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 190.66,
-      "high": 195.0,
-      "low": 184.1,
-      "open": 186.29,
-      "time": "2025-09-19",
-      "volume": 10744677
-    },
-    {
-      "close": 193.35,
-      "high": 194.4,
-      "low": 189.16,
-      "open": 191.0,
-      "time": "2025-09-22",
-      "volume": 2190107
-    },
-    {
-      "close": 193.2,
-      "high": 198.4,
-      "low": 189.24,
-      "open": 194.4,
-      "time": "2025-09-23",
-      "volume": 3100576
-    },
-    {
       "close": 192.61,
       "high": 196.0,
       "low": 191.9,
@@ -2017,13 +1993,37 @@
       "open": 253.45,
       "time": "2026-09-28",
       "volume": 2049335
+    },
+    {
+      "close": 246.9,
+      "high": 249.95,
+      "low": 244.55,
+      "open": 248.6,
+      "time": "2026-09-29",
+      "volume": 1745741
+    },
+    {
+      "close": 247.45,
+      "high": 252.75,
+      "low": 246.5,
+      "open": 249.3,
+      "time": "2026-09-30",
+      "volume": 1406907
+    },
+    {
+      "close": 249.23,
+      "high": 253.0,
+      "low": 244.06,
+      "open": 245.0,
+      "time": "2026-10-01",
+      "volume": 2812833
     }
   ],
   "company_name": "CAPRI GLOBAL CAPITAL LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 69,
+    "is_stage2": true,
+    "momentum_score": 70,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.48x"
+    "volume_multiplier": "0.7x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.8,
-    "change_pct": -1.89,
-    "close": 248.9,
-    "previous_close": 253.7,
+    "as_of": "2026-10-01",
+    "change": 1.78,
+    "change_pct": 0.72,
+    "close": 249.23,
+    "previous_close": 247.45,
     "type": "EOD_CLOSE",
-    "volume": 2049335
+    "volume": 2812833
   },
   "range": {
-    "distance_from_high_pct": -13.41,
-    "distance_from_low_pct": 64.73,
+    "distance_from_high_pct": -13.3,
+    "distance_from_low_pct": 64.94,
     "high_52w": 287.45,
     "history_basis": "52_WEEK",
     "low_52w": 151.1,
-    "range_position_pct": 71.73
+    "range_position_pct": 71.97
   },
   "risk_model": {
-    "invalidation_floor": 240.19,
-    "risk_per_share": 13.69,
-    "technical_pivot": 253.88
+    "invalidation_floor": 240.51,
+    "risk_per_share": 13.7,
+    "technical_pivot": 254.21
   },
   "schema_version": "1.0",
   "sector": null,

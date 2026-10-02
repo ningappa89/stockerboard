@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 886.05,
-      "high": 897.0,
-      "low": 869.75,
-      "open": 882.95,
-      "time": "2025-09-19",
-      "volume": 164449
-    },
-    {
-      "close": 899.3,
-      "high": 903.9,
-      "low": 882.05,
-      "open": 886.0,
-      "time": "2025-09-22",
-      "volume": 154721
-    },
-    {
-      "close": 899.85,
-      "high": 913.95,
-      "low": 893.55,
-      "open": 900.15,
-      "time": "2025-09-23",
-      "volume": 91287
-    },
-    {
       "close": 919.3,
       "high": 924.0,
       "low": 898.85,
@@ -2017,13 +1993,37 @@
       "open": 1038.0,
       "time": "2026-09-28",
       "volume": 79845
+    },
+    {
+      "close": 1006.2,
+      "high": 1036.3,
+      "low": 1000.0,
+      "open": 1030.0,
+      "time": "2026-09-29",
+      "volume": 125455
+    },
+    {
+      "close": 1019.5,
+      "high": 1031.0,
+      "low": 991.4,
+      "open": 1002.0,
+      "time": "2026-09-30",
+      "volume": 146634
+    },
+    {
+      "close": 1056.6,
+      "high": 1070.0,
+      "low": 996.6,
+      "open": 1013.1,
+      "time": "2026-10-01",
+      "volume": 405128
     }
   ],
   "company_name": "CCL PRODUCTS (INDIA) LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.54x"
+    "momentum_score": 67,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.58x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -12.8,
-    "change_pct": -1.23,
-    "close": 1031.6,
-    "previous_close": 1044.4,
+    "as_of": "2026-10-01",
+    "change": 37.1,
+    "change_pct": 3.64,
+    "close": 1056.6,
+    "previous_close": 1019.5,
     "type": "EOD_CLOSE",
-    "volume": 79845
+    "volume": 405128
   },
   "range": {
-    "distance_from_high_pct": -16.95,
-    "distance_from_low_pct": 26.5,
+    "distance_from_high_pct": -14.94,
+    "distance_from_low_pct": 29.56,
     "high_52w": 1242.2,
     "history_basis": "52_WEEK",
     "low_52w": 815.5,
-    "range_position_pct": 50.64
+    "range_position_pct": 56.5
   },
   "risk_model": {
-    "invalidation_floor": 995.49,
-    "risk_per_share": 56.74,
-    "technical_pivot": 1052.23
+    "invalidation_floor": 1019.62,
+    "risk_per_share": 58.11,
+    "technical_pivot": 1077.73
   },
   "schema_version": "1.0",
   "sector": null,

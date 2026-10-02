@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 654.95,
-      "high": 666.0,
-      "low": 652.5,
-      "open": 666.0,
-      "time": "2025-09-19",
-      "volume": 361
-    },
-    {
-      "close": 648.3,
-      "high": 666.0,
-      "low": 647.1,
-      "open": 666.0,
-      "time": "2025-09-22",
-      "volume": 822
-    },
-    {
-      "close": 655.55,
-      "high": 666.0,
-      "low": 650.05,
-      "open": 655.9,
-      "time": "2025-09-23",
-      "volume": 1459
-    },
-    {
       "close": 665.6,
       "high": 671.55,
       "low": 656.1,
@@ -2017,13 +1993,37 @@
       "open": 566.9,
       "time": "2026-09-28",
       "volume": 1243
+    },
+    {
+      "close": 539.25,
+      "high": 559.9,
+      "low": 536.2,
+      "open": 559.9,
+      "time": "2026-09-29",
+      "volume": 1121
+    },
+    {
+      "close": 546.1,
+      "high": 553.9,
+      "low": 545.4,
+      "open": 553.9,
+      "time": "2026-09-30",
+      "volume": 238
+    },
+    {
+      "close": 539.0,
+      "high": 555.0,
+      "low": 537.2,
+      "open": 546.1,
+      "time": "2026-10-01",
+      "volume": 581
     }
   ],
   "company_name": "Gloster Ltd",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 46,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.98x"
+    "volume_multiplier": "0.47x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -7.2,
+    "as_of": "2026-10-01",
+    "change": -7.1,
     "change_pct": -1.3,
-    "close": 545.5,
-    "previous_close": 552.7,
+    "close": 539.0,
+    "previous_close": 546.1,
     "type": "EOD_CLOSE",
-    "volume": 1243
+    "volume": 581
   },
   "range": {
-    "distance_from_high_pct": -27.89,
-    "distance_from_low_pct": 10.2,
+    "distance_from_high_pct": -28.75,
+    "distance_from_low_pct": 8.89,
     "high_52w": 756.45,
     "history_basis": "52_WEEK",
     "low_52w": 495.0,
-    "range_position_pct": 19.32
+    "range_position_pct": 16.83
   },
   "risk_model": {
-    "invalidation_floor": 526.41,
-    "risk_per_share": 30.0,
-    "technical_pivot": 556.41
+    "invalidation_floor": 520.13,
+    "risk_per_share": 29.65,
+    "technical_pivot": 549.78
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1584.1,
-      "high": 1599.0,
-      "low": 1566.4,
-      "open": 1572.0,
-      "time": "2025-09-19",
-      "volume": 46158
-    },
-    {
-      "close": 1559.9,
-      "high": 1603.2,
-      "low": 1551.3,
-      "open": 1600.0,
-      "time": "2025-09-22",
-      "volume": 23759
-    },
-    {
-      "close": 1542.1,
-      "high": 1568.4,
-      "low": 1534.6,
-      "open": 1548.8,
-      "time": "2025-09-23",
-      "volume": 17471
-    },
-    {
       "close": 1536.4,
       "high": 1554.5,
       "low": 1527.3,
@@ -2017,13 +1993,37 @@
       "open": 2395.2,
       "time": "2026-09-28",
       "volume": 175449
+    },
+    {
+      "close": 2435.3,
+      "high": 2458.5,
+      "low": 2370.0,
+      "open": 2388.1,
+      "time": "2026-09-29",
+      "volume": 157182
+    },
+    {
+      "close": 2451.6,
+      "high": 2480.0,
+      "low": 2403.0,
+      "open": 2445.3,
+      "time": "2026-09-30",
+      "volume": 147004
+    },
+    {
+      "close": 2407.1,
+      "high": 2474.5,
+      "low": 2359.2,
+      "open": 2451.6,
+      "time": "2026-10-01",
+      "volume": 103868
     }
   ],
   "company_name": "Neogen Chemicals Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 83,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.79x"
+    "momentum_score": 84,
+    "setup_type": "Minervini VCP",
+    "volume_multiplier": "0.45x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 11.1,
-    "change_pct": 0.47,
-    "close": 2396.3,
-    "previous_close": 2385.2,
+    "as_of": "2026-10-01",
+    "change": -44.5,
+    "change_pct": -1.82,
+    "close": 2407.1,
+    "previous_close": 2451.6,
     "type": "EOD_CLOSE",
-    "volume": 175449
+    "volume": 103868
   },
   "range": {
-    "distance_from_high_pct": -4.14,
-    "distance_from_low_pct": 147.88,
+    "distance_from_high_pct": -3.7,
+    "distance_from_low_pct": 149.0,
     "high_52w": 2499.7,
     "history_basis": "52_WEEK",
     "low_52w": 966.7,
-    "range_position_pct": 93.26
+    "range_position_pct": 93.96
   },
   "risk_model": {
-    "invalidation_floor": 2312.43,
-    "risk_per_share": 131.8,
-    "technical_pivot": 2444.23
+    "invalidation_floor": 2322.85,
+    "risk_per_share": 132.39,
+    "technical_pivot": 2455.24
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1713.0,
-      "high": 1744.2,
-      "low": 1705.0,
-      "open": 1724.0,
-      "time": "2025-09-19",
-      "volume": 45826
-    },
-    {
-      "close": 1694.9,
-      "high": 1753.0,
-      "low": 1686.0,
-      "open": 1723.0,
-      "time": "2025-09-22",
-      "volume": 29187
-    },
-    {
-      "close": 1729.0,
-      "high": 1739.9,
-      "low": 1694.0,
-      "open": 1694.0,
-      "time": "2025-09-23",
-      "volume": 20647
-    },
-    {
       "close": 1730.5,
       "high": 1740.0,
       "low": 1705.0,
@@ -2017,13 +1993,37 @@
       "open": 3375.0,
       "time": "2026-09-28",
       "volume": 51893
+    },
+    {
+      "close": 3336.4,
+      "high": 3410.0,
+      "low": 3252.1,
+      "open": 3281.3,
+      "time": "2026-09-29",
+      "volume": 99369
+    },
+    {
+      "close": 3308.7,
+      "high": 3348.0,
+      "low": 3287.7,
+      "open": 3317.2,
+      "time": "2026-09-30",
+      "volume": 14001
+    },
+    {
+      "close": 3219.9,
+      "high": 3317.8,
+      "low": 3158.1,
+      "open": 3308.2,
+      "time": "2026-10-01",
+      "volume": 52489
     }
   ],
   "company_name": "STYLAM INDUSTRIES LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
+    "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.19x"
+    "volume_multiplier": "1.16x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -88.1,
-    "change_pct": -2.61,
-    "close": 3281.3,
-    "previous_close": 3369.4,
+    "as_of": "2026-10-01",
+    "change": -88.8,
+    "change_pct": -2.68,
+    "close": 3219.9,
+    "previous_close": 3308.7,
     "type": "EOD_CLOSE",
-    "volume": 51893
+    "volume": 52489
   },
   "range": {
-    "distance_from_high_pct": -20.93,
-    "distance_from_low_pct": 102.42,
+    "distance_from_high_pct": -22.41,
+    "distance_from_low_pct": 98.64,
     "high_52w": 4150.0,
     "history_basis": "52_WEEK",
     "low_52w": 1621.0,
-    "range_position_pct": 65.65
+    "range_position_pct": 63.22
   },
   "risk_model": {
-    "invalidation_floor": 3166.45,
-    "risk_per_share": 180.48,
-    "technical_pivot": 3346.93
+    "invalidation_floor": 3107.2,
+    "risk_per_share": 177.1,
+    "technical_pivot": 3284.3
   },
   "schema_version": "1.0",
   "sector": null,

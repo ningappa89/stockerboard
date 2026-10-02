@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 187.81,
-      "high": 190.4,
-      "low": 187.26,
-      "open": 188.9,
-      "time": "2025-09-19",
-      "volume": 170065
-    },
-    {
-      "close": 190.22,
-      "high": 194.85,
-      "low": 187.81,
-      "open": 187.81,
-      "time": "2025-09-22",
-      "volume": 597477
-    },
-    {
-      "close": 190.33,
-      "high": 192.0,
-      "low": 187.25,
-      "open": 190.5,
-      "time": "2025-09-23",
-      "volume": 315444
-    },
-    {
       "close": 187.52,
       "high": 190.68,
       "low": 187.0,
@@ -2017,13 +1993,37 @@
       "open": 185.51,
       "time": "2026-09-28",
       "volume": 388632
+    },
+    {
+      "close": 181.56,
+      "high": 184.94,
+      "low": 179.17,
+      "open": 183.0,
+      "time": "2026-09-29",
+      "volume": 251494
+    },
+    {
+      "close": 179.68,
+      "high": 184.05,
+      "low": 178.5,
+      "open": 182.0,
+      "time": "2026-09-30",
+      "volume": 195771
+    },
+    {
+      "close": 174.83,
+      "high": 181.4,
+      "low": 171.0,
+      "open": 179.0,
+      "time": "2026-10-01",
+      "volume": 825175
     }
   ],
   "company_name": "GUJ IND POW CO. LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.79x"
+    "volume_multiplier": "1.97x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.62,
-    "change_pct": -1.95,
-    "close": 182.22,
-    "previous_close": 185.84,
+    "as_of": "2026-10-01",
+    "change": -4.85,
+    "change_pct": -2.7,
+    "close": 174.83,
+    "previous_close": 179.68,
     "type": "EOD_CLOSE",
-    "volume": 388632
+    "volume": 825175
   },
   "range": {
-    "distance_from_high_pct": -13.93,
-    "distance_from_low_pct": 51.98,
+    "distance_from_high_pct": -17.42,
+    "distance_from_low_pct": 45.81,
     "high_52w": 211.71,
     "history_basis": "52_WEEK",
     "low_52w": 119.9,
-    "range_position_pct": 67.88
+    "range_position_pct": 59.83
   },
   "risk_model": {
-    "invalidation_floor": 175.84,
-    "risk_per_share": 10.02,
-    "technical_pivot": 185.86
+    "invalidation_floor": 168.71,
+    "risk_per_share": 9.62,
+    "technical_pivot": 178.33
   },
   "schema_version": "1.0",
   "sector": null,

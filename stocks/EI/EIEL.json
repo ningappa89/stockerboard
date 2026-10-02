@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 264.39,
-      "high": 266.59,
-      "low": 258.5,
-      "open": 260.5,
-      "time": "2025-09-19",
-      "volume": 2056844
-    },
-    {
-      "close": 271.52,
-      "high": 276.1,
-      "low": 261.63,
-      "open": 264.9,
-      "time": "2025-09-22",
-      "volume": 5939551
-    },
-    {
-      "close": 266.99,
-      "high": 272.25,
-      "low": 263.5,
-      "open": 272.0,
-      "time": "2025-09-23",
-      "volume": 1969365
-    },
-    {
       "close": 254.5,
       "high": 266.17,
       "low": 253.22,
@@ -2017,13 +1993,37 @@
       "open": 197.77,
       "time": "2026-09-28",
       "volume": 431126
+    },
+    {
+      "close": 191.48,
+      "high": 193.35,
+      "low": 188.6,
+      "open": 192.68,
+      "time": "2026-09-29",
+      "volume": 453947
+    },
+    {
+      "close": 189.62,
+      "high": 195.66,
+      "low": 188.0,
+      "open": 193.05,
+      "time": "2026-09-30",
+      "volume": 435975
+    },
+    {
+      "close": 184.0,
+      "high": 192.0,
+      "low": 182.95,
+      "open": 188.8,
+      "time": "2026-10-01",
+      "volume": 775964
     }
   ],
   "company_name": "ENVIRO INFRA ENGINEERS L",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 44,
+    "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.27x"
+    "volume_multiplier": "0.49x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.85,
-    "change_pct": -2.94,
-    "close": 193.0,
-    "previous_close": 198.85,
+    "as_of": "2026-10-01",
+    "change": -5.62,
+    "change_pct": -2.96,
+    "close": 184.0,
+    "previous_close": 189.62,
     "type": "EOD_CLOSE",
-    "volume": 431126
+    "volume": 775964
   },
   "range": {
-    "distance_from_high_pct": -30.1,
-    "distance_from_low_pct": 43.27,
-    "high_52w": 276.1,
+    "distance_from_high_pct": -30.87,
+    "distance_from_low_pct": 36.59,
+    "high_52w": 266.17,
     "history_basis": "52_WEEK",
     "low_52w": 134.71,
-    "range_position_pct": 41.23
+    "range_position_pct": 37.49
   },
   "risk_model": {
-    "invalidation_floor": 186.25,
-    "risk_per_share": 10.61,
-    "technical_pivot": 196.86
+    "invalidation_floor": 177.56,
+    "risk_per_share": 10.12,
+    "technical_pivot": 187.68
   },
   "schema_version": "1.0",
   "sector": null,

@@ -1921,14 +1921,38 @@
       "open": 705.2,
       "time": "2026-09-28",
       "volume": 38106
+    },
+    {
+      "close": 688.55,
+      "high": 698.6,
+      "low": 678.8,
+      "open": 695.45,
+      "time": "2026-09-29",
+      "volume": 38674
+    },
+    {
+      "close": 678.85,
+      "high": 704.7,
+      "low": 675.05,
+      "open": 694.7,
+      "time": "2026-09-30",
+      "volume": 27975
+    },
+    {
+      "close": 670.95,
+      "high": 680.0,
+      "low": 655.0,
+      "open": 677.5,
+      "time": "2026-10-01",
+      "volume": 24793
     }
   ],
   "company_name": "SOLEX ENERGY LIMITED",
   "history": {
     "first_session": "2025-10-08",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 240
+    "last_session": "2026-10-01",
+    "sessions_available": 243
   },
   "industry": null,
   "isin": "INE880Y01017",
@@ -1938,29 +1962,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.39x"
+    "volume_multiplier": "0.25x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -9.75,
-    "change_pct": -1.38,
-    "close": 695.45,
-    "previous_close": 705.2,
+    "as_of": "2026-10-01",
+    "change": -7.9,
+    "change_pct": -1.16,
+    "close": 670.95,
+    "previous_close": 678.85,
     "type": "EOD_CLOSE",
-    "volume": 38106
+    "volume": 24793
   },
   "range": {
-    "distance_from_high_pct": -64.96,
-    "distance_from_low_pct": 6.8,
+    "distance_from_high_pct": -66.2,
+    "distance_from_low_pct": 3.03,
     "high_52w": 1985.0,
     "history_basis": "52_WEEK",
     "low_52w": 651.2,
-    "range_position_pct": 3.32
+    "range_position_pct": 1.48
   },
   "risk_model": {
-    "invalidation_floor": 671.11,
-    "risk_per_share": 38.25,
-    "technical_pivot": 709.36
+    "invalidation_floor": 647.47,
+    "risk_per_share": 36.9,
+    "technical_pivot": 684.37
   },
   "schema_version": "1.0",
   "sector": null,

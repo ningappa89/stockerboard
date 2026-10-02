@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 857.75,
-      "high": 862.0,
-      "low": 842.5,
-      "open": 850.5,
-      "time": "2025-09-19",
-      "volume": 342091
-    },
-    {
-      "close": 810.3,
-      "high": 842.15,
-      "low": 807.4,
-      "open": 837.45,
-      "time": "2025-09-22",
-      "volume": 709698
-    },
-    {
-      "close": 808.1,
-      "high": 820.0,
-      "low": 805.9,
-      "open": 811.8,
-      "time": "2025-09-23",
-      "volume": 270098
-    },
-    {
       "close": 808.0,
       "high": 813.75,
       "low": 801.4,
@@ -2017,13 +1993,37 @@
       "open": 434.9,
       "time": "2026-09-28",
       "volume": 2452523
+    },
+    {
+      "close": 429.0,
+      "high": 438.9,
+      "low": 427.5,
+      "open": 436.9,
+      "time": "2026-09-29",
+      "volume": 677413
+    },
+    {
+      "close": 422.1,
+      "high": 438.95,
+      "low": 420.15,
+      "open": 429.4,
+      "time": "2026-09-30",
+      "volume": 994997
+    },
+    {
+      "close": 434.35,
+      "high": 438.0,
+      "low": 421.05,
+      "open": 422.5,
+      "time": "2026-10-01",
+      "volume": 1843893
     }
   ],
   "company_name": "ZENSAR TECHNOLOGIES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Information Technology",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.69x"
+    "volume_multiplier": "0.51x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 1.8,
-    "change_pct": 0.41,
-    "close": 436.7,
-    "previous_close": 434.9,
+    "as_of": "2026-10-01",
+    "change": 12.25,
+    "change_pct": 2.9,
+    "close": 434.35,
+    "previous_close": 422.1,
     "type": "EOD_CLOSE",
-    "volume": 2452523
+    "volume": 1843893
   },
   "range": {
-    "distance_from_high_pct": -49.34,
-    "distance_from_low_pct": 4.94,
-    "high_52w": 862.0,
+    "distance_from_high_pct": -47.16,
+    "distance_from_low_pct": 4.37,
+    "high_52w": 822.0,
     "history_basis": "52_WEEK",
     "low_52w": 416.15,
-    "range_position_pct": 4.61
+    "range_position_pct": 4.48
   },
   "risk_model": {
-    "invalidation_floor": 421.42,
-    "risk_per_share": 24.01,
-    "technical_pivot": 445.43
+    "invalidation_floor": 419.15,
+    "risk_per_share": 23.89,
+    "technical_pivot": 443.04
   },
   "schema_version": "1.0",
   "sector": "Information Technology",

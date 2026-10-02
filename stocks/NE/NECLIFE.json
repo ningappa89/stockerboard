@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 15.98,
-      "high": 15.98,
-      "low": 15.98,
-      "open": 15.98,
-      "time": "2025-09-19",
-      "volume": 118354
-    },
-    {
-      "close": 15.66,
-      "high": 15.66,
-      "low": 15.66,
-      "open": 15.66,
-      "time": "2025-09-22",
-      "volume": 68588
-    },
-    {
-      "close": 15.34,
-      "high": 15.34,
-      "low": 15.34,
-      "open": 15.34,
-      "time": "2025-09-23",
-      "volume": 21687
-    },
-    {
       "close": 15.03,
       "high": 15.03,
       "low": 15.03,
@@ -2017,13 +1993,37 @@
       "open": 10.65,
       "time": "2026-09-28",
       "volume": 76851
+    },
+    {
+      "close": 10.71,
+      "high": 11.08,
+      "low": 10.63,
+      "open": 10.63,
+      "time": "2026-09-29",
+      "volume": 93379
+    },
+    {
+      "close": 10.5,
+      "high": 10.95,
+      "low": 10.3,
+      "open": 10.7,
+      "time": "2026-09-30",
+      "volume": 126810
+    },
+    {
+      "close": 10.23,
+      "high": 10.85,
+      "low": 10.17,
+      "open": 10.63,
+      "time": "2026-10-01",
+      "volume": 140521
     }
   ],
   "company_name": "NECTAR LIFESCIENCES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.48x"
+    "volume_multiplier": "1.02x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.12,
-    "change_pct": -1.11,
-    "close": 10.72,
-    "previous_close": 10.84,
+    "as_of": "2026-10-01",
+    "change": -0.27,
+    "change_pct": -2.57,
+    "close": 10.23,
+    "previous_close": 10.5,
     "type": "EOD_CLOSE",
-    "volume": 76851
+    "volume": 140521
   },
   "range": {
-    "distance_from_high_pct": -52.14,
-    "distance_from_low_pct": 15.27,
+    "distance_from_high_pct": -54.33,
+    "distance_from_low_pct": 10.0,
     "high_52w": 22.4,
     "history_basis": "52_WEEK",
     "low_52w": 9.3,
-    "range_position_pct": 10.84
+    "range_position_pct": 7.1
   },
   "risk_model": {
-    "invalidation_floor": 10.34,
-    "risk_per_share": 0.59,
-    "technical_pivot": 10.93
+    "invalidation_floor": 9.87,
+    "risk_per_share": 0.56,
+    "technical_pivot": 10.43
   },
   "schema_version": "1.0",
   "sector": null,

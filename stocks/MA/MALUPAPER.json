@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 41.83,
-      "high": 42.4,
-      "low": 39.55,
-      "open": 41.5,
-      "time": "2025-09-19",
-      "volume": 75908
-    },
-    {
-      "close": 40.49,
-      "high": 42.39,
-      "low": 40.27,
-      "open": 41.84,
-      "time": "2025-09-22",
-      "volume": 69106
-    },
-    {
-      "close": 39.72,
-      "high": 40.97,
-      "low": 39.65,
-      "open": 40.1,
-      "time": "2025-09-23",
-      "volume": 16918
-    },
-    {
       "close": 39.27,
       "high": 41.27,
       "low": 39.0,
@@ -2017,13 +1993,37 @@
       "open": 32.5,
       "time": "2026-09-28",
       "volume": 1775
+    },
+    {
+      "close": 31.68,
+      "high": 32.29,
+      "low": 31.25,
+      "open": 31.7,
+      "time": "2026-09-29",
+      "volume": 6545
+    },
+    {
+      "close": 31.47,
+      "high": 32.59,
+      "low": 31.45,
+      "open": 32.3,
+      "time": "2026-09-30",
+      "volume": 12910
+    },
+    {
+      "close": 31.04,
+      "high": 31.5,
+      "low": 30.47,
+      "open": 31.45,
+      "time": "2026-10-01",
+      "volume": 7568
     }
   ],
   "company_name": "MALU PAPER MILLS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.06x"
+    "volume_multiplier": "0.26x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.69,
-    "change_pct": -2.12,
-    "close": 31.9,
-    "previous_close": 32.59,
+    "as_of": "2026-10-01",
+    "change": -0.43,
+    "change_pct": -1.37,
+    "close": 31.04,
+    "previous_close": 31.47,
     "type": "EOD_CLOSE",
-    "volume": 1775
+    "volume": 7568
   },
   "range": {
-    "distance_from_high_pct": -27.68,
-    "distance_from_low_pct": 18.15,
+    "distance_from_high_pct": -29.63,
+    "distance_from_low_pct": 14.96,
     "high_52w": 44.11,
     "history_basis": "52_WEEK",
     "low_52w": 27.0,
-    "range_position_pct": 28.64
+    "range_position_pct": 23.61
   },
   "risk_model": {
-    "invalidation_floor": 30.78,
-    "risk_per_share": 1.76,
-    "technical_pivot": 32.54
+    "invalidation_floor": 29.95,
+    "risk_per_share": 1.71,
+    "technical_pivot": 31.66
   },
   "schema_version": "1.0",
   "sector": null,

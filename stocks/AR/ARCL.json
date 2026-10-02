@@ -241,14 +241,38 @@
       "open": 244.0,
       "time": "2026-09-28",
       "volume": 593
+    },
+    {
+      "close": 233.0,
+      "high": 241.89,
+      "low": 231.5,
+      "open": 240.25,
+      "time": "2026-09-29",
+      "volume": 4370
+    },
+    {
+      "close": 241.9,
+      "high": 242.0,
+      "low": 232.95,
+      "open": 233.0,
+      "time": "2026-09-30",
+      "volume": 351
+    },
+    {
+      "close": 229.81,
+      "high": 245.0,
+      "low": 229.81,
+      "open": 236.0,
+      "time": "2026-10-01",
+      "volume": 7120
     }
   ],
   "company_name": "ARCL Organics Ltd",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE372M01010",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
+    "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.2x"
+    "volume_multiplier": "1.99x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.54,
-    "change_pct": -1.44,
-    "close": 241.99,
-    "previous_close": 245.53,
+    "as_of": "2026-10-01",
+    "change": -12.09,
+    "change_pct": -5.0,
+    "close": 229.81,
+    "previous_close": 241.9,
     "type": "EOD_CLOSE",
-    "volume": 593
+    "volume": 7120
   },
   "range": {
-    "distance_from_high_pct": -13.79,
-    "distance_from_low_pct": 11.57,
+    "distance_from_high_pct": -18.13,
+    "distance_from_low_pct": 5.96,
     "high_52w": 280.7,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 216.89,
-    "range_position_pct": 39.34
+    "range_position_pct": 20.25
   },
   "risk_model": {
-    "invalidation_floor": 233.52,
-    "risk_per_share": 13.31,
-    "technical_pivot": 246.83
+    "invalidation_floor": 221.77,
+    "risk_per_share": 12.64,
+    "technical_pivot": 234.41
   },
   "schema_version": "1.0",
   "sector": null,

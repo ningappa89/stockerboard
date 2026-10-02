@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1639.6,
-      "high": 1691.0,
-      "low": 1626.4,
-      "open": 1642.5,
-      "time": "2025-09-19",
-      "volume": 431938
-    },
-    {
-      "close": 1640.3,
-      "high": 1657.9,
-      "low": 1621.2,
-      "open": 1636.1,
-      "time": "2025-09-22",
-      "volume": 78776
-    },
-    {
-      "close": 1634.9,
-      "high": 1649.4,
-      "low": 1630.0,
-      "open": 1644.1,
-      "time": "2025-09-23",
-      "volume": 38744
-    },
-    {
       "close": 1626.9,
       "high": 1644.4,
       "low": 1620.0,
@@ -2017,13 +1993,37 @@
       "open": 1258.0,
       "time": "2026-09-28",
       "volume": 31386
+    },
+    {
+      "close": 1219.3,
+      "high": 1293.0,
+      "low": 1180.1,
+      "open": 1231.0,
+      "time": "2026-09-29",
+      "volume": 859869
+    },
+    {
+      "close": 1191.9,
+      "high": 1226.3,
+      "low": 1180.8,
+      "open": 1225.3,
+      "time": "2026-09-30",
+      "volume": 97144
+    },
+    {
+      "close": 1189.8,
+      "high": 1200.0,
+      "low": 1162.9,
+      "open": 1181.3,
+      "time": "2026-10-01",
+      "volume": 88725
     }
   ],
   "company_name": "ERIS LIFESCIENCES LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 46,
+    "momentum_score": 42,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.57x"
+    "volume_multiplier": "0.95x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -22.6,
-    "change_pct": -1.8,
-    "close": 1236.3,
-    "previous_close": 1258.9,
+    "as_of": "2026-10-01",
+    "change": -2.1,
+    "change_pct": -0.18,
+    "close": 1189.8,
+    "previous_close": 1191.9,
     "type": "EOD_CLOSE",
-    "volume": 31386
+    "volume": 88725
   },
   "range": {
-    "distance_from_high_pct": -28.95,
-    "distance_from_low_pct": 3.02,
+    "distance_from_high_pct": -31.62,
+    "distance_from_low_pct": 2.31,
     "high_52w": 1740.0,
     "history_basis": "52_WEEK",
-    "low_52w": 1200.0,
-    "range_position_pct": 6.72
+    "low_52w": 1162.9,
+    "range_position_pct": 4.66
   },
   "risk_model": {
-    "invalidation_floor": 1193.03,
-    "risk_per_share": 68.0,
-    "technical_pivot": 1261.03
+    "invalidation_floor": 1148.16,
+    "risk_per_share": 65.44,
+    "technical_pivot": 1213.6
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 217.18,
-      "high": 218.93,
-      "low": 215.37,
-      "open": 218.93,
-      "time": "2025-09-19",
-      "volume": 1248987
-    },
-    {
-      "close": 212.85,
-      "high": 217.17,
-      "low": 212.2,
-      "open": 216.9,
-      "time": "2025-09-22",
-      "volume": 999292
-    },
-    {
-      "close": 213.43,
-      "high": 215.0,
-      "low": 212.0,
-      "open": 212.76,
-      "time": "2025-09-23",
-      "volume": 618439
-    },
-    {
       "close": 212.29,
       "high": 216.9,
       "low": 211.6,
@@ -2017,13 +1993,37 @@
       "open": 326.45,
       "time": "2026-09-28",
       "volume": 850213
+    },
+    {
+      "close": 318.15,
+      "high": 325.4,
+      "low": 312.7,
+      "open": 320.75,
+      "time": "2026-09-29",
+      "volume": 2868750
+    },
+    {
+      "close": 324.8,
+      "high": 327.0,
+      "low": 311.4,
+      "open": 318.1,
+      "time": "2026-09-30",
+      "volume": 3398416
+    },
+    {
+      "close": 325.3,
+      "high": 328.7,
+      "low": 320.9,
+      "open": 323.7,
+      "time": "2026-10-01",
+      "volume": 3073268
     }
   ],
   "company_name": "KARUR VYSYA BANK LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 74,
+    "momentum_score": 76,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.56x"
+    "volume_multiplier": "1.73x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -7.2,
-    "change_pct": -2.2,
-    "close": 320.75,
-    "previous_close": 327.95,
+    "as_of": "2026-10-01",
+    "change": 0.5,
+    "change_pct": 0.15,
+    "close": 325.3,
+    "previous_close": 324.8,
     "type": "EOD_CLOSE",
-    "volume": 850213
+    "volume": 3073268
   },
   "range": {
-    "distance_from_high_pct": -10.57,
-    "distance_from_low_pct": 56.62,
+    "distance_from_high_pct": -9.3,
+    "distance_from_low_pct": 58.84,
     "high_52w": 358.65,
     "history_basis": "52_WEEK",
     "low_52w": 204.8,
-    "range_position_pct": 75.37
+    "range_position_pct": 78.32
   },
   "risk_model": {
-    "invalidation_floor": 309.52,
-    "risk_per_share": 17.65,
-    "technical_pivot": 327.17
+    "invalidation_floor": 313.91,
+    "risk_per_share": 17.9,
+    "technical_pivot": 331.81
   },
   "schema_version": "1.0",
   "sector": null,

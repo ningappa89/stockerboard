@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 83.34,
-      "high": 84.4,
-      "low": 83.0,
-      "open": 83.75,
-      "time": "2025-09-19",
-      "volume": 36030
-    },
-    {
-      "close": 82.75,
-      "high": 83.74,
-      "low": 82.12,
-      "open": 83.34,
-      "time": "2025-09-22",
-      "volume": 50939
-    },
-    {
-      "close": 81.65,
-      "high": 83.4,
-      "low": 80.49,
-      "open": 82.6,
-      "time": "2025-09-23",
-      "volume": 74489
-    },
-    {
       "close": 80.68,
       "high": 82.53,
       "low": 80.5,
@@ -2017,13 +1993,37 @@
       "open": 66.5,
       "time": "2026-09-28",
       "volume": 191667
+    },
+    {
+      "close": 68.48,
+      "high": 69.0,
+      "low": 66.96,
+      "open": 68.1,
+      "time": "2026-09-29",
+      "volume": 127525
+    },
+    {
+      "close": 69.7,
+      "high": 71.26,
+      "low": 68.7,
+      "open": 68.7,
+      "time": "2026-09-30",
+      "volume": 198881
+    },
+    {
+      "close": 68.34,
+      "high": 69.89,
+      "low": 67.5,
+      "open": 69.7,
+      "time": "2026-10-01",
+      "volume": 125480
     }
   ],
   "company_name": "SATIA INDUSTRIES LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 61,
+    "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.08x"
+    "volume_multiplier": "0.66x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 1.1,
-    "change_pct": 1.64,
-    "close": 68.1,
-    "previous_close": 67.0,
+    "as_of": "2026-10-01",
+    "change": -1.36,
+    "change_pct": -1.95,
+    "close": 68.34,
+    "previous_close": 69.7,
     "type": "EOD_CLOSE",
-    "volume": 191667
+    "volume": 125480
   },
   "range": {
-    "distance_from_high_pct": -19.31,
-    "distance_from_low_pct": 34.06,
-    "high_52w": 84.4,
+    "distance_from_high_pct": -18.45,
+    "distance_from_low_pct": 34.53,
+    "high_52w": 83.8,
     "history_basis": "52_WEEK",
     "low_52w": 50.8,
-    "range_position_pct": 51.49
+    "range_position_pct": 53.15
   },
   "risk_model": {
-    "invalidation_floor": 65.72,
-    "risk_per_share": 3.74,
-    "technical_pivot": 69.46
+    "invalidation_floor": 65.95,
+    "risk_per_share": 3.76,
+    "technical_pivot": 69.71
   },
   "schema_version": "1.0",
   "sector": null,

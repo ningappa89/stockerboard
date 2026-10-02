@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 977.1,
-      "high": 992.0,
-      "low": 975.3,
-      "open": 992.0,
-      "time": "2025-09-19",
-      "volume": 11193
-    },
-    {
-      "close": 966.2,
-      "high": 983.8,
-      "low": 963.0,
-      "open": 983.8,
-      "time": "2025-09-22",
-      "volume": 19140
-    },
-    {
-      "close": 949.95,
-      "high": 970.0,
-      "low": 948.0,
-      "open": 964.0,
-      "time": "2025-09-23",
-      "volume": 23925
-    },
-    {
       "close": 930.75,
       "high": 959.9,
       "low": 928.0,
@@ -2017,13 +1993,37 @@
       "open": 1035.0,
       "time": "2026-09-28",
       "volume": 18485
+    },
+    {
+      "close": 993.0,
+      "high": 1024.1,
+      "low": 986.0,
+      "open": 1023.9,
+      "time": "2026-09-29",
+      "volume": 27471
+    },
+    {
+      "close": 983.2,
+      "high": 1023.5,
+      "low": 981.1,
+      "open": 1023.5,
+      "time": "2026-09-30",
+      "volume": 22519
+    },
+    {
+      "close": 948.75,
+      "high": 983.95,
+      "low": 941.05,
+      "open": 983.0,
+      "time": "2026-10-01",
+      "volume": 28151
     }
   ],
   "company_name": "DYNACONS SYS & SOLN LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.66x"
+    "volume_multiplier": "1.03x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -9.9,
-    "change_pct": -0.97,
-    "close": 1011.3,
-    "previous_close": 1021.2,
+    "as_of": "2026-10-01",
+    "change": -34.45,
+    "change_pct": -3.5,
+    "close": 948.75,
+    "previous_close": 983.2,
     "type": "EOD_CLOSE",
-    "volume": 18485
+    "volume": 28151
   },
   "range": {
-    "distance_from_high_pct": -47.46,
-    "distance_from_low_pct": 29.49,
+    "distance_from_high_pct": -50.71,
+    "distance_from_low_pct": 21.48,
     "high_52w": 1924.8,
     "history_basis": "52_WEEK",
     "low_52w": 781.0,
-    "range_position_pct": 20.13
+    "range_position_pct": 14.67
   },
   "risk_model": {
-    "invalidation_floor": 975.9,
-    "risk_per_share": 55.63,
-    "technical_pivot": 1031.53
+    "invalidation_floor": 915.54,
+    "risk_per_share": 52.19,
+    "technical_pivot": 967.73
   },
   "schema_version": "1.0",
   "sector": null,

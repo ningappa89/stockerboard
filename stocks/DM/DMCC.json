@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 315.05,
-      "high": 321.8,
-      "low": 311.0,
-      "open": 315.0,
-      "time": "2025-09-19",
-      "volume": 61300
-    },
-    {
-      "close": 313.1,
-      "high": 315.9,
-      "low": 307.6,
-      "open": 315.05,
-      "time": "2025-09-22",
-      "volume": 35190
-    },
-    {
-      "close": 312.9,
-      "high": 315.7,
-      "low": 307.6,
-      "open": 314.8,
-      "time": "2025-09-23",
-      "volume": 16018
-    },
-    {
       "close": 310.9,
       "high": 320.0,
       "low": 308.1,
@@ -2017,13 +1993,37 @@
       "open": 307.0,
       "time": "2026-09-28",
       "volume": 144945
+    },
+    {
+      "close": 314.45,
+      "high": 319.9,
+      "low": 300.0,
+      "open": 305.45,
+      "time": "2026-09-29",
+      "volume": 263536
+    },
+    {
+      "close": 311.7,
+      "high": 324.0,
+      "low": 308.35,
+      "open": 317.0,
+      "time": "2026-09-30",
+      "volume": 250289
+    },
+    {
+      "close": 308.7,
+      "high": 319.0,
+      "low": 300.55,
+      "open": 313.3,
+      "time": "2026-10-01",
+      "volume": 197626
     }
   ],
   "company_name": "DMCC SPECIALITY CHEMICALS LIMI",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 76,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.8x"
+    "momentum_score": 79,
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "1.83x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.55,
-    "change_pct": -0.84,
-    "close": 302.8,
-    "previous_close": 305.35,
+    "as_of": "2026-10-01",
+    "change": -3.0,
+    "change_pct": -0.96,
+    "close": 308.7,
+    "previous_close": 311.7,
     "type": "EOD_CLOSE",
-    "volume": 144945
+    "volume": 197626
   },
   "range": {
-    "distance_from_high_pct": -9.04,
-    "distance_from_low_pct": 58.24,
+    "distance_from_high_pct": -7.27,
+    "distance_from_low_pct": 61.33,
     "high_52w": 332.9,
     "history_basis": "52_WEEK",
     "low_52w": 191.35,
-    "range_position_pct": 78.74
+    "range_position_pct": 82.9
   },
   "risk_model": {
-    "invalidation_floor": 292.2,
-    "risk_per_share": 16.66,
-    "technical_pivot": 308.86
+    "invalidation_floor": 297.9,
+    "risk_per_share": 16.97,
+    "technical_pivot": 314.87
   },
   "schema_version": "1.0",
   "sector": null,

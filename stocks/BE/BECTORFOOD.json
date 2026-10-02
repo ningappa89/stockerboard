@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 275.2,
-      "high": 277.4,
-      "low": 271.66,
-      "open": 275.96,
-      "time": "2025-09-19",
-      "volume": 514450
-    },
-    {
-      "close": 272.7,
-      "high": 276.76,
-      "low": 272.0,
-      "open": 276.56,
-      "time": "2025-09-22",
-      "volume": 295990
-    },
-    {
-      "close": 271.5,
-      "high": 274.9,
-      "low": 270.1,
-      "open": 274.9,
-      "time": "2025-09-23",
-      "volume": 244525
-    },
-    {
       "close": 268.12,
       "high": 271.98,
       "low": 267.08,
@@ -2017,13 +1993,37 @@
       "open": 215.0,
       "time": "2026-09-28",
       "volume": 502149
+    },
+    {
+      "close": 208.7,
+      "high": 212.94,
+      "low": 207.39,
+      "open": 211.47,
+      "time": "2026-09-29",
+      "volume": 454443
+    },
+    {
+      "close": 206.74,
+      "high": 211.6,
+      "low": 205.3,
+      "open": 209.9,
+      "time": "2026-09-30",
+      "volume": 816875
+    },
+    {
+      "close": 213.03,
+      "high": 216.14,
+      "low": 205.03,
+      "open": 205.5,
+      "time": "2026-10-01",
+      "volume": 1664376
     }
   ],
   "company_name": "Mrs. Bectors Food Specialities",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 53,
+    "momentum_score": 54,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.41x"
+    "volume_multiplier": "1.49x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.06,
-    "change_pct": -1.88,
-    "close": 211.52,
-    "previous_close": 215.58,
+    "as_of": "2026-10-01",
+    "change": 6.29,
+    "change_pct": 3.04,
+    "close": 213.03,
+    "previous_close": 206.74,
     "type": "EOD_CLOSE",
-    "volume": 502149
+    "volume": 1664376
   },
   "range": {
-    "distance_from_high_pct": -24.43,
-    "distance_from_low_pct": 28.19,
+    "distance_from_high_pct": -23.89,
+    "distance_from_low_pct": 29.11,
     "high_52w": 279.9,
     "history_basis": "52_WEEK",
     "low_52w": 165.0,
-    "range_position_pct": 40.49
+    "range_position_pct": 41.8
   },
   "risk_model": {
-    "invalidation_floor": 204.12,
-    "risk_per_share": 11.63,
-    "technical_pivot": 215.75
+    "invalidation_floor": 205.57,
+    "risk_per_share": 11.72,
+    "technical_pivot": 217.29
   },
   "schema_version": "1.0",
   "sector": null,

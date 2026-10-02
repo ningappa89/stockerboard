@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 13.2,
-      "high": 13.4,
-      "low": 12.97,
-      "open": 13.0,
-      "time": "2025-09-19",
-      "volume": 1391547
-    },
-    {
-      "close": 12.87,
-      "high": 13.34,
-      "low": 12.83,
-      "open": 13.2,
-      "time": "2025-09-22",
-      "volume": 1129238
-    },
-    {
-      "close": 12.72,
-      "high": 12.99,
-      "low": 12.67,
-      "open": 12.84,
-      "time": "2025-09-23",
-      "volume": 811776
-    },
-    {
       "close": 12.45,
       "high": 12.8,
       "low": 12.4,
@@ -2017,13 +1993,37 @@
       "open": 21.42,
       "time": "2026-09-28",
       "volume": 10752314
+    },
+    {
+      "close": 20.35,
+      "high": 20.65,
+      "low": 19.73,
+      "open": 20.31,
+      "time": "2026-09-29",
+      "volume": 8281592
+    },
+    {
+      "close": 19.73,
+      "high": 20.89,
+      "low": 19.6,
+      "open": 20.6,
+      "time": "2026-09-30",
+      "volume": 10266212
+    },
+    {
+      "close": 19.34,
+      "high": 19.9,
+      "low": 18.46,
+      "open": 19.7,
+      "time": "2026-10-01",
+      "volume": 10635459
     }
   ],
   "company_name": "SUBEX LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 73,
+    "is_stage2": false,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.7x"
+    "volume_multiplier": "0.65x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.08,
-    "change_pct": -5.04,
-    "close": 20.33,
-    "previous_close": 21.41,
+    "as_of": "2026-10-01",
+    "change": -0.39,
+    "change_pct": -1.98,
+    "close": 19.34,
+    "previous_close": 19.73,
     "type": "EOD_CLOSE",
-    "volume": 10752314
+    "volume": 10635459
   },
   "range": {
-    "distance_from_high_pct": -10.83,
-    "distance_from_low_pct": 207.56,
+    "distance_from_high_pct": -15.18,
+    "distance_from_low_pct": 192.59,
     "high_52w": 22.8,
     "history_basis": "52_WEEK",
     "low_52w": 6.61,
-    "range_position_pct": 84.74
+    "range_position_pct": 78.63
   },
   "risk_model": {
-    "invalidation_floor": 19.62,
-    "risk_per_share": 1.12,
-    "technical_pivot": 20.74
+    "invalidation_floor": 18.66,
+    "risk_per_share": 1.07,
+    "technical_pivot": 19.73
   },
   "schema_version": "1.0",
   "sector": null,

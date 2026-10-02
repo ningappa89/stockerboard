@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 141.93,
-      "high": 143.75,
-      "low": 140.12,
-      "open": 141.25,
-      "time": "2025-09-19",
-      "volume": 100592
-    },
-    {
-      "close": 128.78,
-      "high": 140.0,
-      "low": 128.0,
-      "open": 140.0,
-      "time": "2025-09-22",
-      "volume": 562548
-    },
-    {
-      "close": 133.45,
-      "high": 134.5,
-      "low": 130.96,
-      "open": 132.25,
-      "time": "2025-09-23",
-      "volume": 232460
-    },
-    {
       "close": 129.74,
       "high": 135.24,
       "low": 128.75,
@@ -2017,13 +1993,37 @@
       "open": 145.96,
       "time": "2026-09-28",
       "volume": 125448
+    },
+    {
+      "close": 143.78,
+      "high": 146.38,
+      "low": 142.25,
+      "open": 144.0,
+      "time": "2026-09-29",
+      "volume": 135403
+    },
+    {
+      "close": 143.5,
+      "high": 145.38,
+      "low": 143.01,
+      "open": 143.25,
+      "time": "2026-09-30",
+      "volume": 118611
+    },
+    {
+      "close": 143.58,
+      "high": 149.94,
+      "low": 141.79,
+      "open": 141.79,
+      "time": "2026-10-01",
+      "volume": 237666
     }
   ],
   "company_name": "InfoBeans Technologies Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.42x"
+    "volume_multiplier": "1.23x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.13,
-    "change_pct": -1.45,
-    "close": 144.42,
-    "previous_close": 146.55,
+    "as_of": "2026-10-01",
+    "change": 0.08,
+    "change_pct": 0.06,
+    "close": 143.58,
+    "previous_close": 143.5,
     "type": "EOD_CLOSE",
-    "volume": 125448
+    "volume": 237666
   },
   "range": {
-    "distance_from_high_pct": -43.91,
-    "distance_from_low_pct": 23.97,
+    "distance_from_high_pct": -44.24,
+    "distance_from_low_pct": 23.24,
     "high_52w": 257.5,
     "history_basis": "52_WEEK",
     "low_52w": 116.5,
-    "range_position_pct": 19.8
+    "range_position_pct": 19.21
   },
   "risk_model": {
-    "invalidation_floor": 139.37,
-    "risk_per_share": 7.94,
-    "technical_pivot": 147.31
+    "invalidation_floor": 138.55,
+    "risk_per_share": 7.9,
+    "technical_pivot": 146.45
   },
   "schema_version": "1.0",
   "sector": null,

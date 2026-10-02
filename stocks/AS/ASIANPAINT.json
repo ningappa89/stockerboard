@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2481.7,
-      "high": 2509.5,
-      "low": 2468.5,
-      "open": 2475.0,
-      "time": "2025-09-19",
-      "volume": 3731525
-    },
-    {
-      "close": 2482.7,
-      "high": 2503.0,
-      "low": 2474.1,
-      "open": 2494.1,
-      "time": "2025-09-22",
-      "volume": 872806
-    },
-    {
-      "close": 2446.9,
-      "high": 2483.8,
-      "low": 2428.0,
-      "open": 2472.1,
-      "time": "2025-09-23",
-      "volume": 1332111
-    },
-    {
       "close": 2457.2,
       "high": 2475.0,
       "low": 2443.2,
@@ -2017,13 +1993,37 @@
       "open": 2437.9,
       "time": "2026-09-28",
       "volume": 1097754
+    },
+    {
+      "close": 2415.0,
+      "high": 2425.3,
+      "low": 2381.0,
+      "open": 2417.5,
+      "time": "2026-09-29",
+      "volume": 909789
+    },
+    {
+      "close": 2402.6,
+      "high": 2430.5,
+      "low": 2390.0,
+      "open": 2410.0,
+      "time": "2026-09-30",
+      "volume": 553695
+    },
+    {
+      "close": 2407.0,
+      "high": 2420.0,
+      "low": 2377.0,
+      "open": 2391.0,
+      "time": "2026-10-01",
+      "volume": 1005836
     }
   ],
   "company_name": "ASIAN PAINTS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 61,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.88x"
+    "volume_multiplier": "1.8x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -24.0,
-    "change_pct": -0.98,
-    "close": 2420.0,
-    "previous_close": 2444.0,
+    "as_of": "2026-10-01",
+    "change": 4.4,
+    "change_pct": 0.18,
+    "close": 2407.0,
+    "previous_close": 2402.6,
     "type": "EOD_CLOSE",
-    "volume": 1097754
+    "volume": 1005836
   },
   "range": {
-    "distance_from_high_pct": -18.95,
-    "distance_from_low_pct": 14.42,
+    "distance_from_high_pct": -19.38,
+    "distance_from_low_pct": 13.81,
     "high_52w": 2985.7,
     "history_basis": "52_WEEK",
     "low_52w": 2115.0,
-    "range_position_pct": 35.03
+    "range_position_pct": 33.54
   },
   "risk_model": {
-    "invalidation_floor": 2335.3,
-    "risk_per_share": 133.1,
-    "technical_pivot": 2468.4
+    "invalidation_floor": 2322.76,
+    "risk_per_share": 132.38,
+    "technical_pivot": 2455.14
   },
   "schema_version": "1.0",
   "sector": null,

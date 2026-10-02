@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 4.13,
-      "high": 4.24,
-      "low": 4.05,
-      "open": 4.13,
-      "time": "2025-09-19",
-      "volume": 92483
-    },
-    {
-      "close": 4.13,
-      "high": 4.2,
-      "low": 4.13,
-      "open": 4.13,
-      "time": "2025-09-22",
-      "volume": 39200
-    },
-    {
-      "close": 4.11,
-      "high": 4.19,
-      "low": 4.05,
-      "open": 4.06,
-      "time": "2025-09-23",
-      "volume": 36425
-    },
-    {
       "close": 4.08,
       "high": 4.19,
       "low": 3.96,
@@ -2017,13 +1993,37 @@
       "open": 2.23,
       "time": "2026-09-28",
       "volume": 80732
+    },
+    {
+      "close": 2.09,
+      "high": 2.26,
+      "low": 2.02,
+      "open": 2.2,
+      "time": "2026-09-29",
+      "volume": 169861
+    },
+    {
+      "close": 2.09,
+      "high": 2.21,
+      "low": 2.04,
+      "open": 2.1,
+      "time": "2026-09-30",
+      "volume": 104823
+    },
+    {
+      "close": 2.07,
+      "high": 2.14,
+      "low": 2.01,
+      "open": 2.14,
+      "time": "2026-10-01",
+      "volume": 96333
     }
   ],
   "company_name": "Suvidhaa Infoserve Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.32x"
+    "volume_multiplier": "0.39x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.0,
-    "change_pct": 0.0,
-    "close": 2.21,
-    "previous_close": 2.21,
+    "as_of": "2026-10-01",
+    "change": -0.02,
+    "change_pct": -0.96,
+    "close": 2.07,
+    "previous_close": 2.09,
     "type": "EOD_CLOSE",
-    "volume": 80732
+    "volume": 96333
   },
   "range": {
-    "distance_from_high_pct": -48.0,
-    "distance_from_low_pct": 24.86,
+    "distance_from_high_pct": -51.29,
+    "distance_from_low_pct": 16.95,
     "high_52w": 4.25,
     "history_basis": "52_WEEK",
     "low_52w": 1.77,
-    "range_position_pct": 17.74
+    "range_position_pct": 12.1
   },
   "risk_model": {
-    "invalidation_floor": 2.13,
+    "invalidation_floor": 2.0,
     "risk_per_share": 0.5,
-    "technical_pivot": 2.25
+    "technical_pivot": 2.11
   },
   "schema_version": "1.0",
   "sector": null,

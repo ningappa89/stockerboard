@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 350.7,
-      "high": 354.0,
-      "low": 340.0,
-      "open": 343.95,
-      "time": "2025-09-19",
-      "volume": 13053
-    },
-    {
-      "close": 352.15,
-      "high": 355.95,
-      "low": 348.1,
-      "open": 355.95,
-      "time": "2025-09-22",
-      "volume": 9207
-    },
-    {
-      "close": 347.2,
-      "high": 352.65,
-      "low": 345.7,
-      "open": 352.65,
-      "time": "2025-09-23",
-      "volume": 3081
-    },
-    {
       "close": 340.65,
       "high": 352.4,
       "low": 338.35,
@@ -2017,46 +1993,70 @@
       "open": 533.45,
       "time": "2026-09-28",
       "volume": 99966
+    },
+    {
+      "close": 541.85,
+      "high": 555.0,
+      "low": 530.2,
+      "open": 555.0,
+      "time": "2026-09-29",
+      "volume": 18459
+    },
+    {
+      "close": 533.25,
+      "high": 553.0,
+      "low": 527.2,
+      "open": 542.0,
+      "time": "2026-09-30",
+      "volume": 15746
+    },
+    {
+      "close": 532.2,
+      "high": 549.0,
+      "low": 510.8,
+      "open": 531.45,
+      "time": "2026-10-01",
+      "volume": 64420
     }
   ],
   "company_name": "ORIENTAL AROMATICS LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE959C01023",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 85,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "1.36x"
+    "momentum_score": 80,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.97x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 19.5,
-    "change_pct": 3.65,
-    "close": 553.15,
-    "previous_close": 533.65,
+    "as_of": "2026-10-01",
+    "change": -1.05,
+    "change_pct": -0.2,
+    "close": 532.2,
+    "previous_close": 533.25,
     "type": "EOD_CLOSE",
-    "volume": 99966
+    "volume": 64420
   },
   "range": {
-    "distance_from_high_pct": -2.96,
-    "distance_from_low_pct": 142.61,
+    "distance_from_high_pct": -6.63,
+    "distance_from_low_pct": 133.42,
     "high_52w": 570.0,
     "history_basis": "52_WEEK",
     "low_52w": 228.0,
-    "range_position_pct": 95.07
+    "range_position_pct": 88.95
   },
   "risk_model": {
-    "invalidation_floor": 533.79,
-    "risk_per_share": 30.42,
-    "technical_pivot": 564.21
+    "invalidation_floor": 513.57,
+    "risk_per_share": 29.27,
+    "technical_pivot": 542.84
   },
   "schema_version": "1.0",
   "sector": null,

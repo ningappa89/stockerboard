@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 594.5,
-      "high": 598.0,
-      "low": 590.45,
-      "open": 593.0,
-      "time": "2025-09-19",
-      "volume": 57069
-    },
-    {
-      "close": 594.55,
-      "high": 597.2,
-      "low": 585.0,
-      "open": 594.0,
-      "time": "2025-09-22",
-      "volume": 64225
-    },
-    {
-      "close": 586.2,
-      "high": 594.55,
-      "low": 584.4,
-      "open": 594.55,
-      "time": "2025-09-23",
-      "volume": 26707
-    },
-    {
       "close": 580.6,
       "high": 589.0,
       "low": 579.0,
@@ -2017,13 +1993,37 @@
       "open": 629.15,
       "time": "2026-09-28",
       "volume": 53476
+    },
+    {
+      "close": 627.15,
+      "high": 645.0,
+      "low": 604.7,
+      "open": 606.4,
+      "time": "2026-09-29",
+      "volume": 251288
+    },
+    {
+      "close": 618.85,
+      "high": 626.9,
+      "low": 612.2,
+      "open": 621.0,
+      "time": "2026-09-30",
+      "volume": 58668
+    },
+    {
+      "close": 603.6,
+      "high": 615.0,
+      "low": 590.0,
+      "open": 611.1,
+      "time": "2026-10-01",
+      "volume": 66105
     }
   ],
   "company_name": "GUJARAT ALKALIES & CHEM",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 51,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.47x"
+    "volume_multiplier": "0.57x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -24.7,
-    "change_pct": -3.92,
-    "close": 606.2,
-    "previous_close": 630.9,
+    "as_of": "2026-10-01",
+    "change": -15.25,
+    "change_pct": -2.46,
+    "close": 603.6,
+    "previous_close": 618.85,
     "type": "EOD_CLOSE",
-    "volume": 53476
+    "volume": 66105
   },
   "range": {
-    "distance_from_high_pct": -25.62,
-    "distance_from_low_pct": 48.16,
+    "distance_from_high_pct": -25.94,
+    "distance_from_low_pct": 47.53,
     "high_52w": 815.0,
     "history_basis": "52_WEEK",
     "low_52w": 409.15,
-    "range_position_pct": 48.55
+    "range_position_pct": 47.91
   },
   "risk_model": {
-    "invalidation_floor": 584.98,
-    "risk_per_share": 33.34,
-    "technical_pivot": 618.32
+    "invalidation_floor": 582.47,
+    "risk_per_share": 33.2,
+    "technical_pivot": 615.67
   },
   "schema_version": "1.0",
   "sector": null,

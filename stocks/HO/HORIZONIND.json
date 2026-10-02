@@ -201,14 +201,38 @@
       "open": 50.25,
       "time": "2026-09-28",
       "volume": 5041297
+    },
+    {
+      "close": 51.02,
+      "high": 52.15,
+      "low": 50.61,
+      "open": 51.69,
+      "time": "2026-09-29",
+      "volume": 2934473
+    },
+    {
+      "close": 50.28,
+      "high": 51.0,
+      "low": 50.07,
+      "open": 50.6,
+      "time": "2026-09-30",
+      "volume": 1962971
+    },
+    {
+      "close": 48.65,
+      "high": 50.31,
+      "low": 48.11,
+      "open": 50.1,
+      "time": "2026-10-01",
+      "volume": 4049133
     }
   ],
   "company_name": "HORIZON INDUSTRIAL PRKS L",
   "history": {
     "first_session": "2026-08-24",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 25
+    "last_session": "2026-10-01",
+    "sessions_available": 28
   },
   "industry": null,
   "isin": "INE685T01010",
@@ -216,31 +240,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 68,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.15x"
+    "volume_multiplier": "1.13x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 1.27,
-    "change_pct": 2.51,
-    "close": 51.79,
-    "previous_close": 50.52,
+    "as_of": "2026-10-01",
+    "change": -1.63,
+    "change_pct": -3.24,
+    "close": 48.65,
+    "previous_close": 50.28,
     "type": "EOD_CLOSE",
-    "volume": 5041297
+    "volume": 4049133
   },
   "range": {
-    "distance_from_high_pct": -14.04,
-    "distance_from_low_pct": 3.58,
+    "distance_from_high_pct": -19.25,
+    "distance_from_low_pct": 1.12,
     "high_52w": 60.25,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 50.0,
-    "range_position_pct": 17.46
+    "low_52w": 48.11,
+    "range_position_pct": 4.45
   },
   "risk_model": {
-    "invalidation_floor": 49.98,
-    "risk_per_share": 2.85,
-    "technical_pivot": 52.83
+    "invalidation_floor": 46.95,
+    "risk_per_share": 2.67,
+    "technical_pivot": 49.62
   },
   "schema_version": "1.0",
   "sector": null,

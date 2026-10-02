@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 19.19,
-      "high": 19.39,
-      "low": 19.06,
-      "open": 19.2,
-      "time": "2025-09-19",
-      "volume": 1402273
-    },
-    {
-      "close": 19.12,
-      "high": 19.4,
-      "low": 19.05,
-      "open": 19.35,
-      "time": "2025-09-22",
-      "volume": 988633
-    },
-    {
-      "close": 18.81,
-      "high": 19.2,
-      "low": 18.68,
-      "open": 19.12,
-      "time": "2025-09-23",
-      "volume": 1309384
-    },
-    {
       "close": 18.75,
       "high": 18.95,
       "low": 18.52,
@@ -2017,13 +1993,37 @@
       "open": 18.0,
       "time": "2026-09-28",
       "volume": 45802394
+    },
+    {
+      "close": 17.62,
+      "high": 18.2,
+      "low": 17.5,
+      "open": 18.08,
+      "time": "2026-09-29",
+      "volume": 38419101
+    },
+    {
+      "close": 18.0,
+      "high": 18.28,
+      "low": 17.52,
+      "open": 17.62,
+      "time": "2026-09-30",
+      "volume": 39407577
+    },
+    {
+      "close": 17.88,
+      "high": 18.3,
+      "low": 17.47,
+      "open": 18.0,
+      "time": "2026-10-01",
+      "volume": 28260057
     }
   ],
   "company_name": "Motisons Jewellers Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 76,
+    "momentum_score": 75,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.67x"
+    "volume_multiplier": "0.4x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.19,
-    "change_pct": 1.06,
-    "close": 18.04,
-    "previous_close": 17.85,
+    "as_of": "2026-10-01",
+    "change": -0.12,
+    "change_pct": -0.67,
+    "close": 17.88,
+    "previous_close": 18.0,
     "type": "EOD_CLOSE",
-    "volume": 45802394
+    "volume": 28260057
   },
   "range": {
-    "distance_from_high_pct": -8.8,
-    "distance_from_low_pct": 69.87,
+    "distance_from_high_pct": -9.61,
+    "distance_from_low_pct": 68.36,
     "high_52w": 19.78,
     "history_basis": "52_WEEK",
     "low_52w": 10.62,
-    "range_position_pct": 81.0
+    "range_position_pct": 79.26
   },
   "risk_model": {
-    "invalidation_floor": 17.41,
+    "invalidation_floor": 17.25,
     "risk_per_share": 0.99,
-    "technical_pivot": 18.4
+    "technical_pivot": 18.24
   },
   "schema_version": "1.0",
   "sector": null,

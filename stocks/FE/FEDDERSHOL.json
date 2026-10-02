@@ -897,46 +897,70 @@
       "open": 63.54,
       "time": "2026-09-28",
       "volume": 3142774
+    },
+    {
+      "close": 60.69,
+      "high": 64.08,
+      "low": 59.11,
+      "open": 62.97,
+      "time": "2026-09-29",
+      "volume": 3808343
+    },
+    {
+      "close": 61.51,
+      "high": 62.6,
+      "low": 61.0,
+      "open": 61.0,
+      "time": "2026-09-30",
+      "volume": 2131447
+    },
+    {
+      "close": 63.63,
+      "high": 67.62,
+      "low": 61.2,
+      "open": 62.27,
+      "time": "2026-10-01",
+      "volume": 61090409
     }
   ],
   "company_name": "FEDDERS HOLDING LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 112
+    "last_session": "2026-10-01",
+    "sessions_available": 115
   },
   "industry": null,
   "isin": "INE417D01020",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 67,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.36x"
+    "is_stage2": true,
+    "momentum_score": 71,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "5.17x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.42,
-    "change_pct": -0.67,
-    "close": 61.89,
-    "previous_close": 62.31,
+    "as_of": "2026-10-01",
+    "change": 2.12,
+    "change_pct": 3.45,
+    "close": 63.63,
+    "previous_close": 61.51,
     "type": "EOD_CLOSE",
-    "volume": 3142774
+    "volume": 61090409
   },
   "range": {
-    "distance_from_high_pct": -14.95,
-    "distance_from_low_pct": 93.04,
+    "distance_from_high_pct": -12.56,
+    "distance_from_low_pct": 98.47,
     "high_52w": 72.77,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 32.06,
-    "range_position_pct": 73.27
+    "range_position_pct": 77.55
   },
   "risk_model": {
-    "invalidation_floor": 59.72,
-    "risk_per_share": 3.41,
-    "technical_pivot": 63.13
+    "invalidation_floor": 61.4,
+    "risk_per_share": 3.5,
+    "technical_pivot": 64.9
   },
   "schema_version": "1.0",
   "sector": null,

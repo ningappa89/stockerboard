@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 573.3,
-      "high": 583.4,
-      "low": 557.0,
-      "open": 557.0,
-      "time": "2025-09-19",
-      "volume": 1141122
-    },
-    {
-      "close": 572.85,
-      "high": 578.95,
-      "low": 556.1,
-      "open": 576.4,
-      "time": "2025-09-22",
-      "volume": 654440
-    },
-    {
-      "close": 559.45,
-      "high": 568.75,
-      "low": 547.0,
-      "open": 565.0,
-      "time": "2025-09-23",
-      "volume": 573443
-    },
-    {
       "close": 578.95,
       "high": 587.0,
       "low": 560.2,
@@ -2017,13 +1993,37 @@
       "open": 619.5,
       "time": "2026-09-28",
       "volume": 79663
+    },
+    {
+      "close": 585.8,
+      "high": 597.5,
+      "low": 584.0,
+      "open": 597.5,
+      "time": "2026-09-29",
+      "volume": 91169
+    },
+    {
+      "close": 594.35,
+      "high": 599.8,
+      "low": 576.3,
+      "open": 591.0,
+      "time": "2026-09-30",
+      "volume": 107338
+    },
+    {
+      "close": 572.3,
+      "high": 597.7,
+      "low": 560.9,
+      "open": 597.7,
+      "time": "2026-10-01",
+      "volume": 241841
     }
   ],
   "company_name": "Aditya Vision Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.38x"
+    "volume_multiplier": "1.17x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -24.35,
-    "change_pct": -3.93,
-    "close": 595.15,
-    "previous_close": 619.5,
+    "as_of": "2026-10-01",
+    "change": -22.05,
+    "change_pct": -3.71,
+    "close": 572.3,
+    "previous_close": 594.35,
     "type": "EOD_CLOSE",
-    "volume": 79663
+    "volume": 241841
   },
   "range": {
-    "distance_from_high_pct": -15.58,
-    "distance_from_low_pct": 36.33,
+    "distance_from_high_pct": -18.82,
+    "distance_from_low_pct": 31.1,
     "high_52w": 705.0,
     "history_basis": "52_WEEK",
     "low_52w": 436.55,
-    "range_position_pct": 59.08
+    "range_position_pct": 50.57
   },
   "risk_model": {
-    "invalidation_floor": 574.32,
-    "risk_per_share": 32.73,
-    "technical_pivot": 607.05
+    "invalidation_floor": 552.27,
+    "risk_per_share": 31.48,
+    "technical_pivot": 583.75
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 324.95,
-      "high": 334.2,
-      "low": 318.15,
-      "open": 329.8,
-      "time": "2025-09-19",
-      "volume": 46236
-    },
-    {
-      "close": 330.2,
-      "high": 341.15,
-      "low": 317.2,
-      "open": 320.0,
-      "time": "2025-09-22",
-      "volume": 91431
-    },
-    {
-      "close": 339.85,
-      "high": 346.7,
-      "low": 331.05,
-      "open": 345.0,
-      "time": "2025-09-23",
-      "volume": 131338
-    },
-    {
       "close": 326.65,
       "high": 349.7,
       "low": 324.0,
@@ -2017,13 +1993,37 @@
       "open": 395.0,
       "time": "2026-09-28",
       "volume": 10253
+    },
+    {
+      "close": 361.35,
+      "high": 373.5,
+      "low": 356.0,
+      "open": 373.5,
+      "time": "2026-09-29",
+      "volume": 8278
+    },
+    {
+      "close": 354.8,
+      "high": 369.0,
+      "low": 339.3,
+      "open": 365.0,
+      "time": "2026-09-30",
+      "volume": 28570
+    },
+    {
+      "close": 348.1,
+      "high": 357.0,
+      "low": 340.0,
+      "open": 357.0,
+      "time": "2026-10-01",
+      "volume": 32017
     }
   ],
   "company_name": "ASIAN HOTELS (NORTH) LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 71,
+    "is_stage2": false,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.12x"
+    "volume_multiplier": "1.11x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -22.35,
-    "change_pct": -5.67,
-    "close": 372.0,
-    "previous_close": 394.35,
+    "as_of": "2026-10-01",
+    "change": -6.7,
+    "change_pct": -1.89,
+    "close": 348.1,
+    "previous_close": 354.8,
     "type": "EOD_CLOSE",
-    "volume": 10253
+    "volume": 32017
   },
   "range": {
-    "distance_from_high_pct": -12.22,
-    "distance_from_low_pct": 50.3,
+    "distance_from_high_pct": -17.86,
+    "distance_from_low_pct": 40.65,
     "high_52w": 423.8,
     "history_basis": "52_WEEK",
     "low_52w": 247.5,
-    "range_position_pct": 70.62
+    "range_position_pct": 57.06
   },
   "risk_model": {
-    "invalidation_floor": 358.98,
-    "risk_per_share": 20.46,
-    "technical_pivot": 379.44
+    "invalidation_floor": 335.92,
+    "risk_per_share": 19.14,
+    "technical_pivot": 355.06
   },
   "schema_version": "1.0",
   "sector": null,

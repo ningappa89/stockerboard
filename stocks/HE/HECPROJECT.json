@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 143.94,
-      "high": 148.7,
-      "low": 141.87,
-      "open": 141.87,
-      "time": "2025-09-19",
-      "volume": 5060
-    },
-    {
-      "close": 138.5,
-      "high": 144.89,
-      "low": 137.63,
-      "open": 143.94,
-      "time": "2025-09-22",
-      "volume": 9718
-    },
-    {
-      "close": 145.42,
-      "high": 145.42,
-      "low": 139.21,
-      "open": 142.0,
-      "time": "2025-09-23",
-      "volume": 15545
-    },
-    {
       "close": 142.19,
       "high": 148.97,
       "low": 141.0,
@@ -2017,13 +1993,37 @@
       "open": 115.48,
       "time": "2026-09-28",
       "volume": 6675
+    },
+    {
+      "close": 114.82,
+      "high": 116.0,
+      "low": 110.5,
+      "open": 112.55,
+      "time": "2026-09-29",
+      "volume": 7066
+    },
+    {
+      "close": 113.0,
+      "high": 115.8,
+      "low": 112.0,
+      "open": 115.8,
+      "time": "2026-09-30",
+      "volume": 385
+    },
+    {
+      "close": 111.86,
+      "high": 115.0,
+      "low": 111.0,
+      "open": 111.0,
+      "time": "2026-10-01",
+      "volume": 4772
     }
   ],
   "company_name": "HEC INFRA PROJECTS LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 45,
+    "momentum_score": 44,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.47x"
+    "volume_multiplier": "0.35x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.62,
-    "change_pct": -2.27,
-    "close": 112.86,
-    "previous_close": 115.48,
+    "as_of": "2026-10-01",
+    "change": -1.14,
+    "change_pct": -1.01,
+    "close": 111.86,
+    "previous_close": 113.0,
     "type": "EOD_CLOSE",
-    "volume": 6675
+    "volume": 4772
   },
   "range": {
-    "distance_from_high_pct": -29.68,
-    "distance_from_low_pct": 22.54,
+    "distance_from_high_pct": -30.31,
+    "distance_from_low_pct": 21.45,
     "high_52w": 160.5,
     "history_basis": "52_WEEK",
     "low_52w": 92.1,
-    "range_position_pct": 30.35
+    "range_position_pct": 28.89
   },
   "risk_model": {
-    "invalidation_floor": 108.91,
-    "risk_per_share": 6.21,
-    "technical_pivot": 115.12
+    "invalidation_floor": 107.94,
+    "risk_per_share": 6.16,
+    "technical_pivot": 114.1
   },
   "schema_version": "1.0",
   "sector": null,

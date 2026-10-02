@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1424.1,
-      "high": 1438.7,
-      "low": 1411.0,
-      "open": 1430.5,
-      "time": "2025-09-19",
-      "volume": 10884
-    },
-    {
-      "close": 1437.1,
-      "high": 1449.0,
-      "low": 1410.2,
-      "open": 1424.1,
-      "time": "2025-09-22",
-      "volume": 14816
-    },
-    {
-      "close": 1439.8,
-      "high": 1444.6,
-      "low": 1422.1,
-      "open": 1437.1,
-      "time": "2025-09-23",
-      "volume": 9395
-    },
-    {
       "close": 1450.0,
       "high": 1485.0,
       "low": 1435.1,
@@ -2017,13 +1993,37 @@
       "open": 1733.0,
       "time": "2026-09-28",
       "volume": 7437
+    },
+    {
+      "close": 1728.1,
+      "high": 1750.0,
+      "low": 1714.1,
+      "open": 1714.1,
+      "time": "2026-09-29",
+      "volume": 10656
+    },
+    {
+      "close": 1726.9,
+      "high": 1762.0,
+      "low": 1725.0,
+      "open": 1732.3,
+      "time": "2026-09-30",
+      "volume": 4070
+    },
+    {
+      "close": 1809.3,
+      "high": 1893.0,
+      "low": 1725.0,
+      "open": 1726.9,
+      "time": "2026-10-01",
+      "volume": 1455118
     }
   ],
   "company_name": "PIX TRANSMISSIONS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 63,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.74x"
+    "momentum_score": 69,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "17.74x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -10.0,
-    "change_pct": -0.58,
-    "close": 1724.8,
-    "previous_close": 1734.8,
+    "as_of": "2026-10-01",
+    "change": 82.4,
+    "change_pct": 4.77,
+    "close": 1809.3,
+    "previous_close": 1726.9,
     "type": "EOD_CLOSE",
-    "volume": 7437
+    "volume": 1455118
   },
   "range": {
-    "distance_from_high_pct": -17.43,
-    "distance_from_low_pct": 37.76,
+    "distance_from_high_pct": -13.39,
+    "distance_from_low_pct": 44.51,
     "high_52w": 2089.0,
     "history_basis": "52_WEEK",
     "low_52w": 1252.0,
-    "range_position_pct": 56.49
+    "range_position_pct": 66.58
   },
   "risk_model": {
-    "invalidation_floor": 1664.43,
-    "risk_per_share": 94.87,
-    "technical_pivot": 1759.3
+    "invalidation_floor": 1745.97,
+    "risk_per_share": 99.52,
+    "technical_pivot": 1845.49
   },
   "schema_version": "1.0",
   "sector": null,

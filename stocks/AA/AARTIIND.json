@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 393.2,
-      "high": 395.3,
-      "low": 390.45,
-      "open": 392.3,
-      "time": "2025-09-19",
-      "volume": 579074
-    },
-    {
-      "close": 389.6,
-      "high": 395.25,
-      "low": 388.0,
-      "open": 394.0,
-      "time": "2025-09-22",
-      "volume": 510700
-    },
-    {
-      "close": 386.55,
-      "high": 391.2,
-      "low": 385.0,
-      "open": 388.05,
-      "time": "2025-09-23",
-      "volume": 437684
-    },
-    {
       "close": 383.35,
       "high": 389.0,
       "low": 381.0,
@@ -2017,13 +1993,37 @@
       "open": 485.6,
       "time": "2026-09-28",
       "volume": 270786
+    },
+    {
+      "close": 469.9,
+      "high": 482.9,
+      "low": 468.0,
+      "open": 475.0,
+      "time": "2026-09-29",
+      "volume": 392844
+    },
+    {
+      "close": 475.7,
+      "high": 489.95,
+      "low": 471.4,
+      "open": 472.0,
+      "time": "2026-09-30",
+      "volume": 723013
+    },
+    {
+      "close": 465.1,
+      "high": 480.0,
+      "low": 459.75,
+      "open": 475.7,
+      "time": "2026-10-01",
+      "volume": 486186
     }
   ],
   "company_name": "AARTI INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Chemicals",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.49x"
+    "volume_multiplier": "0.92x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -12.65,
-    "change_pct": -2.59,
-    "close": 476.6,
-    "previous_close": 489.25,
+    "as_of": "2026-10-01",
+    "change": -10.6,
+    "change_pct": -2.23,
+    "close": 465.1,
+    "previous_close": 475.7,
     "type": "EOD_CLOSE",
-    "volume": 270786
+    "volume": 486186
   },
   "range": {
-    "distance_from_high_pct": -13.62,
-    "distance_from_low_pct": 40.99,
+    "distance_from_high_pct": -15.7,
+    "distance_from_low_pct": 37.58,
     "high_52w": 551.75,
     "history_basis": "52_WEEK",
     "low_52w": 338.05,
-    "range_position_pct": 64.83
+    "range_position_pct": 59.45
   },
   "risk_model": {
-    "invalidation_floor": 459.92,
-    "risk_per_share": 26.21,
-    "technical_pivot": 486.13
+    "invalidation_floor": 448.82,
+    "risk_per_share": 25.58,
+    "technical_pivot": 474.4
   },
   "schema_version": "1.0",
   "sector": "Chemicals",

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 139.6,
-      "high": 141.45,
-      "low": 138.0,
-      "open": 140.01,
-      "time": "2025-09-19",
-      "volume": 3279
-    },
-    {
-      "close": 137.71,
-      "high": 140.93,
-      "low": 137.0,
-      "open": 139.6,
-      "time": "2025-09-22",
-      "volume": 7772
-    },
-    {
-      "close": 139.08,
-      "high": 141.06,
-      "low": 136.01,
-      "open": 136.01,
-      "time": "2025-09-23",
-      "volume": 12878
-    },
-    {
       "close": 139.46,
       "high": 143.25,
       "low": 138.2,
@@ -2017,13 +1993,37 @@
       "open": 98.9,
       "time": "2026-09-28",
       "volume": 3768
+    },
+    {
+      "close": 93.19,
+      "high": 95.4,
+      "low": 92.5,
+      "open": 95.0,
+      "time": "2026-09-29",
+      "volume": 2513
+    },
+    {
+      "close": 91.17,
+      "high": 97.2,
+      "low": 90.5,
+      "open": 97.2,
+      "time": "2026-09-30",
+      "volume": 6729
+    },
+    {
+      "close": 89.96,
+      "high": 94.6,
+      "low": 89.0,
+      "open": 92.0,
+      "time": "2026-10-01",
+      "volume": 4536
     }
   ],
   "company_name": "AGRI-TECH (INDIA) LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.39x"
+    "volume_multiplier": "1.68x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.04,
-    "change_pct": -2.12,
-    "close": 93.99,
-    "previous_close": 96.03,
+    "as_of": "2026-10-01",
+    "change": -1.21,
+    "change_pct": -1.33,
+    "close": 89.96,
+    "previous_close": 91.17,
     "type": "EOD_CLOSE",
-    "volume": 3768
+    "volume": 4536
   },
   "range": {
-    "distance_from_high_pct": -49.79,
-    "distance_from_low_pct": 1.59,
+    "distance_from_high_pct": -51.94,
+    "distance_from_low_pct": 1.08,
     "high_52w": 187.19,
     "history_basis": "52_WEEK",
-    "low_52w": 92.52,
-    "range_position_pct": 1.55
+    "low_52w": 89.0,
+    "range_position_pct": 0.98
   },
   "risk_model": {
-    "invalidation_floor": 90.7,
-    "risk_per_share": 5.17,
-    "technical_pivot": 95.87
+    "invalidation_floor": 86.81,
+    "risk_per_share": 4.95,
+    "technical_pivot": 91.76
   },
   "schema_version": "1.0",
   "sector": null,

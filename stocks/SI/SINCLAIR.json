@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 107.72,
-      "high": 109.0,
-      "low": 103.76,
-      "open": 104.94,
-      "time": "2025-09-19",
-      "volume": 106303
-    },
-    {
-      "close": 105.84,
-      "high": 110.0,
-      "low": 105.0,
-      "open": 110.0,
-      "time": "2025-09-22",
-      "volume": 198920
-    },
-    {
-      "close": 102.72,
-      "high": 108.05,
-      "low": 102.22,
-      "open": 104.8,
-      "time": "2025-09-23",
-      "volume": 186322
-    },
-    {
       "close": 97.79,
       "high": 103.51,
       "low": 96.95,
@@ -2017,13 +1993,37 @@
       "open": 80.27,
       "time": "2026-09-28",
       "volume": 10223
+    },
+    {
+      "close": 77.43,
+      "high": 79.15,
+      "low": 77.0,
+      "open": 78.5,
+      "time": "2026-09-29",
+      "volume": 15996
+    },
+    {
+      "close": 78.63,
+      "high": 79.65,
+      "low": 76.51,
+      "open": 77.04,
+      "time": "2026-09-30",
+      "volume": 7388
+    },
+    {
+      "close": 76.71,
+      "high": 80.5,
+      "low": 76.55,
+      "open": 80.0,
+      "time": "2026-10-01",
+      "volume": 16873
     }
   ],
   "company_name": "SINCLAIRS HOTELS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 47,
+    "momentum_score": 51,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.29x"
+    "volume_multiplier": "0.53x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.49,
-    "change_pct": -0.62,
-    "close": 78.47,
-    "previous_close": 78.96,
+    "as_of": "2026-10-01",
+    "change": -1.92,
+    "change_pct": -2.44,
+    "close": 76.71,
+    "previous_close": 78.63,
     "type": "EOD_CLOSE",
-    "volume": 10223
+    "volume": 16873
   },
   "range": {
-    "distance_from_high_pct": -28.66,
-    "distance_from_low_pct": 14.02,
-    "high_52w": 110.0,
+    "distance_from_high_pct": -25.89,
+    "distance_from_low_pct": 11.46,
+    "high_52w": 103.51,
     "history_basis": "52_WEEK",
     "low_52w": 68.82,
-    "range_position_pct": 23.43
+    "range_position_pct": 22.74
   },
   "risk_model": {
-    "invalidation_floor": 75.72,
-    "risk_per_share": 4.32,
-    "technical_pivot": 80.04
+    "invalidation_floor": 74.03,
+    "risk_per_share": 4.21,
+    "technical_pivot": 78.24
   },
   "schema_version": "1.0",
   "sector": null,

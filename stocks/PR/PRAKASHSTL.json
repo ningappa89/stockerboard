@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 5.65,
-      "high": 5.71,
-      "low": 5.6,
-      "open": 5.65,
-      "time": "2025-09-19",
-      "volume": 198990
-    },
-    {
-      "close": 5.6,
-      "high": 5.78,
-      "low": 5.46,
-      "open": 5.66,
-      "time": "2025-09-22",
-      "volume": 165776
-    },
-    {
-      "close": 5.58,
-      "high": 5.7,
-      "low": 5.52,
-      "open": 5.6,
-      "time": "2025-09-23",
-      "volume": 119140
-    },
-    {
       "close": 5.59,
       "high": 5.69,
       "low": 5.58,
@@ -2017,13 +1993,37 @@
       "open": 3.62,
       "time": "2026-09-28",
       "volume": 80219
+    },
+    {
+      "close": 3.59,
+      "high": 3.64,
+      "low": 3.46,
+      "open": 3.64,
+      "time": "2026-09-29",
+      "volume": 76849
+    },
+    {
+      "close": 3.59,
+      "high": 3.64,
+      "low": 3.55,
+      "open": 3.64,
+      "time": "2026-09-30",
+      "volume": 86867
+    },
+    {
+      "close": 3.56,
+      "high": 3.62,
+      "low": 3.51,
+      "open": 3.62,
+      "time": "2026-10-01",
+      "volume": 120526
     }
   ],
   "company_name": "PRAKASH STEELAGE LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.64x"
+    "volume_multiplier": "0.95x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.01,
-    "change_pct": -0.28,
-    "close": 3.61,
-    "previous_close": 3.62,
+    "as_of": "2026-10-01",
+    "change": -0.03,
+    "change_pct": -0.84,
+    "close": 3.56,
+    "previous_close": 3.59,
     "type": "EOD_CLOSE",
-    "volume": 80219
+    "volume": 120526
   },
   "range": {
-    "distance_from_high_pct": -45.05,
-    "distance_from_low_pct": 3.74,
+    "distance_from_high_pct": -45.81,
+    "distance_from_low_pct": 2.89,
     "high_52w": 6.57,
     "history_basis": "52_WEEK",
-    "low_52w": 3.48,
-    "range_position_pct": 4.21
+    "low_52w": 3.46,
+    "range_position_pct": 3.22
   },
   "risk_model": {
-    "invalidation_floor": 3.48,
+    "invalidation_floor": 3.44,
     "risk_per_share": 0.5,
-    "technical_pivot": 3.68
+    "technical_pivot": 3.63
   },
   "schema_version": "1.0",
   "sector": null,

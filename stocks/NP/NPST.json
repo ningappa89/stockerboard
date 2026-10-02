@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2062.2,
-      "high": 2105.0,
-      "low": 1992.7,
-      "open": 2068.6,
-      "time": "2025-09-19",
-      "volume": 24427
-    },
-    {
-      "close": 1960.4,
-      "high": 2088.0,
-      "low": 1951.2,
-      "open": 2087.0,
-      "time": "2025-09-22",
-      "volume": 42713
-    },
-    {
-      "close": 1971.0,
-      "high": 2040.9,
-      "low": 1960.0,
-      "open": 1961.3,
-      "time": "2025-09-23",
-      "volume": 17561
-    },
-    {
       "close": 1941.5,
       "high": 1988.4,
       "low": 1906.2,
@@ -2017,13 +1993,37 @@
       "open": 1812.6,
       "time": "2026-09-28",
       "volume": 110142
+    },
+    {
+      "close": 1653.0,
+      "high": 1662.6,
+      "low": 1524.0,
+      "open": 1634.4,
+      "time": "2026-09-29",
+      "volume": 122885
+    },
+    {
+      "close": 1764.8,
+      "high": 1800.0,
+      "low": 1641.0,
+      "open": 1663.5,
+      "time": "2026-09-30",
+      "volume": 117252
+    },
+    {
+      "close": 1766.5,
+      "high": 1789.0,
+      "low": 1694.2,
+      "open": 1760.0,
+      "time": "2026-10-01",
+      "volume": 65044
     }
   ],
   "company_name": "NETWORK PEOPLE SRV TECH L",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 56,
+    "momentum_score": 68,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.48x"
+    "volume_multiplier": "0.27x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -161.3,
-    "change_pct": -8.98,
-    "close": 1635.0,
-    "previous_close": 1796.3,
+    "as_of": "2026-10-01",
+    "change": 1.7,
+    "change_pct": 0.1,
+    "close": 1766.5,
+    "previous_close": 1764.8,
     "type": "EOD_CLOSE",
-    "volume": 110142
+    "volume": 65044
   },
   "range": {
-    "distance_from_high_pct": -22.33,
-    "distance_from_low_pct": 93.13,
-    "high_52w": 2105.0,
+    "distance_from_high_pct": -14.16,
+    "distance_from_low_pct": 108.66,
+    "high_52w": 2058.0,
     "history_basis": "52_WEEK",
     "low_52w": 846.6,
-    "range_position_pct": 62.65
+    "range_position_pct": 75.94
   },
   "risk_model": {
-    "invalidation_floor": 1577.77,
-    "risk_per_share": 89.93,
-    "technical_pivot": 1667.7
+    "invalidation_floor": 1704.67,
+    "risk_per_share": 97.16,
+    "technical_pivot": 1801.83
   },
   "schema_version": "1.0",
   "sector": null,

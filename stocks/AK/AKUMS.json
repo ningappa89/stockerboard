@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 476.5,
-      "high": 479.6,
-      "low": 472.15,
-      "open": 477.0,
-      "time": "2025-09-19",
-      "volume": 84736
-    },
-    {
-      "close": 475.25,
-      "high": 484.0,
-      "low": 471.15,
-      "open": 476.5,
-      "time": "2025-09-22",
-      "volume": 197569
-    },
-    {
-      "close": 470.65,
-      "high": 476.85,
-      "low": 467.0,
-      "open": 474.5,
-      "time": "2025-09-23",
-      "volume": 112280
-    },
-    {
       "close": 466.0,
       "high": 471.95,
       "low": 464.7,
@@ -2017,46 +1993,70 @@
       "open": 819.55,
       "time": "2026-09-28",
       "volume": 157385
+    },
+    {
+      "close": 819.55,
+      "high": 828.0,
+      "low": 800.0,
+      "open": 800.0,
+      "time": "2026-09-29",
+      "volume": 179399
+    },
+    {
+      "close": 818.5,
+      "high": 828.2,
+      "low": 811.1,
+      "open": 828.2,
+      "time": "2026-09-30",
+      "volume": 196569
+    },
+    {
+      "close": 813.1,
+      "high": 828.2,
+      "low": 802.2,
+      "open": 815.0,
+      "time": "2026-10-01",
+      "volume": 191282
     }
   ],
   "company_name": "Akums Drugs and Pharmaceutical",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE09XN01023",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": false,
+    "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 83,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.47x"
+    "momentum_score": 85,
+    "setup_type": "Minervini VCP",
+    "volume_multiplier": "0.65x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -19.6,
-    "change_pct": -2.39,
-    "close": 799.95,
-    "previous_close": 819.55,
+    "as_of": "2026-10-01",
+    "change": -5.4,
+    "change_pct": -0.66,
+    "close": 813.1,
+    "previous_close": 818.5,
     "type": "EOD_CLOSE",
-    "volume": 157385
+    "volume": 191282
   },
   "range": {
-    "distance_from_high_pct": -4.63,
-    "distance_from_low_pct": 95.44,
+    "distance_from_high_pct": -3.06,
+    "distance_from_low_pct": 98.66,
     "high_52w": 838.8,
     "history_basis": "52_WEEK",
     "low_52w": 409.3,
-    "range_position_pct": 90.95
+    "range_position_pct": 94.02
   },
   "risk_model": {
-    "invalidation_floor": 771.95,
-    "risk_per_share": 44.0,
-    "technical_pivot": 815.95
+    "invalidation_floor": 784.64,
+    "risk_per_share": 44.72,
+    "technical_pivot": 829.36
   },
   "schema_version": "1.0",
   "sector": null,

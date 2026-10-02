@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1285.2,
-      "high": 1309.8,
-      "low": 1280.9,
-      "open": 1305.0,
-      "time": "2025-09-19",
-      "volume": 714104
-    },
-    {
-      "close": 1262.4,
-      "high": 1271.0,
-      "low": 1250.0,
-      "open": 1257.0,
-      "time": "2025-09-22",
-      "volume": 761244
-    },
-    {
-      "close": 1249.7,
-      "high": 1275.0,
-      "low": 1246.6,
-      "open": 1262.4,
-      "time": "2025-09-23",
-      "volume": 1018057
-    },
-    {
       "close": 1240.6,
       "high": 1249.7,
       "low": 1238.0,
@@ -2017,13 +1993,37 @@
       "open": 519.0,
       "time": "2026-09-28",
       "volume": 896865
+    },
+    {
+      "close": 519.7,
+      "high": 519.7,
+      "low": 495.5,
+      "open": 510.25,
+      "time": "2026-09-29",
+      "volume": 3351279
+    },
+    {
+      "close": 499.1,
+      "high": 518.0,
+      "low": 499.1,
+      "open": 510.95,
+      "time": "2026-09-30",
+      "volume": 1625467
+    },
+    {
+      "close": 492.0,
+      "high": 509.4,
+      "low": 484.5,
+      "open": 502.9,
+      "time": "2026-10-01",
+      "volume": 1989750
     }
   ],
   "company_name": "KPIT Technologies Ltd",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Information Technology",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "1.21x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -10.4,
-    "change_pct": -2.0,
-    "close": 509.0,
-    "previous_close": 519.4,
+    "as_of": "2026-10-01",
+    "change": -7.1,
+    "change_pct": -1.42,
+    "close": 492.0,
+    "previous_close": 499.1,
     "type": "EOD_CLOSE",
-    "volume": 896865
+    "volume": 1989750
   },
   "range": {
-    "distance_from_high_pct": -61.14,
-    "distance_from_low_pct": 0.59,
-    "high_52w": 1309.8,
+    "distance_from_high_pct": -61.71,
+    "distance_from_low_pct": 1.55,
+    "high_52w": 1284.9,
     "history_basis": "52_WEEK",
-    "low_52w": 506.0,
-    "range_position_pct": 0.37
+    "low_52w": 484.5,
+    "range_position_pct": 0.94
   },
   "risk_model": {
-    "invalidation_floor": 491.19,
-    "risk_per_share": 27.99,
-    "technical_pivot": 519.18
+    "invalidation_floor": 474.78,
+    "risk_per_share": 27.06,
+    "technical_pivot": 501.84
   },
   "schema_version": "1.0",
   "sector": "Information Technology",

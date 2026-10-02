@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 739.3,
-      "high": 744.0,
-      "low": 728.9,
-      "open": 731.1,
-      "time": "2025-09-19",
-      "volume": 56297
-    },
-    {
-      "close": 727.05,
-      "high": 743.2,
-      "low": 722.1,
-      "open": 743.2,
-      "time": "2025-09-22",
-      "volume": 34310
-    },
-    {
-      "close": 712.55,
-      "high": 729.25,
-      "low": 707.0,
-      "open": 727.0,
-      "time": "2025-09-23",
-      "volume": 29403
-    },
-    {
       "close": 706.15,
       "high": 713.75,
       "low": 703.0,
@@ -2017,13 +1993,37 @@
       "open": 314.0,
       "time": "2026-09-28",
       "volume": 53196
+    },
+    {
+      "close": 304.3,
+      "high": 312.7,
+      "low": 301.0,
+      "open": 305.7,
+      "time": "2026-09-29",
+      "volume": 74604
+    },
+    {
+      "close": 300.75,
+      "high": 311.0,
+      "low": 298.5,
+      "open": 306.9,
+      "time": "2026-09-30",
+      "volume": 74451
+    },
+    {
+      "close": 294.95,
+      "high": 303.9,
+      "low": 289.45,
+      "open": 299.0,
+      "time": "2026-10-01",
+      "volume": 121488
     }
   ],
   "company_name": "Go Fashion (India) Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.69x"
+    "volume_multiplier": "1.57x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -12.55,
-    "change_pct": -3.95,
-    "close": 304.8,
-    "previous_close": 317.35,
+    "as_of": "2026-10-01",
+    "change": -5.8,
+    "change_pct": -1.93,
+    "close": 294.95,
+    "previous_close": 300.75,
     "type": "EOD_CLOSE",
-    "volume": 53196
+    "volume": 121488
   },
   "range": {
-    "distance_from_high_pct": -59.03,
-    "distance_from_low_pct": 28.58,
-    "high_52w": 744.0,
+    "distance_from_high_pct": -58.77,
+    "distance_from_low_pct": 24.43,
+    "high_52w": 715.45,
     "history_basis": "52_WEEK",
     "low_52w": 237.05,
-    "range_position_pct": 13.36
+    "range_position_pct": 12.1
   },
   "risk_model": {
-    "invalidation_floor": 294.13,
-    "risk_per_share": 16.77,
-    "technical_pivot": 310.9
+    "invalidation_floor": 284.63,
+    "risk_per_share": 16.22,
+    "technical_pivot": 300.85
   },
   "schema_version": "1.0",
   "sector": null,

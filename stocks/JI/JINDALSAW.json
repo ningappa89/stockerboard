@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 212.48,
-      "high": 213.11,
-      "low": 207.25,
-      "open": 209.25,
-      "time": "2025-09-19",
-      "volume": 4225365
-    },
-    {
-      "close": 210.22,
-      "high": 213.3,
-      "low": 208.85,
-      "open": 213.0,
-      "time": "2025-09-22",
-      "volume": 1900199
-    },
-    {
-      "close": 215.28,
-      "high": 216.9,
-      "low": 207.81,
-      "open": 211.2,
-      "time": "2025-09-23",
-      "volume": 4102500
-    },
-    {
       "close": 217.32,
       "high": 224.7,
       "low": 213.17,
@@ -2017,13 +1993,37 @@
       "open": 282.55,
       "time": "2026-09-28",
       "volume": 1099233
+    },
+    {
+      "close": 277.7,
+      "high": 279.9,
+      "low": 272.3,
+      "open": 277.6,
+      "time": "2026-09-29",
+      "volume": 904937
+    },
+    {
+      "close": 277.7,
+      "high": 282.05,
+      "low": 274.35,
+      "open": 277.3,
+      "time": "2026-09-30",
+      "volume": 1224272
+    },
+    {
+      "close": 270.3,
+      "high": 274.8,
+      "low": 260.6,
+      "open": 274.7,
+      "time": "2026-10-01",
+      "volume": 2164459
     }
   ],
   "company_name": "JINDAL SAW LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.57x"
+    "volume_multiplier": "1.27x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -9.35,
-    "change_pct": -3.27,
-    "close": 276.15,
-    "previous_close": 285.5,
+    "as_of": "2026-10-01",
+    "change": -7.4,
+    "change_pct": -2.66,
+    "close": 270.3,
+    "previous_close": 277.7,
     "type": "EOD_CLOSE",
-    "volume": 1099233
+    "volume": 2164459
   },
   "range": {
-    "distance_from_high_pct": -13.7,
-    "distance_from_low_pct": 80.49,
+    "distance_from_high_pct": -15.53,
+    "distance_from_low_pct": 76.67,
     "high_52w": 320.0,
     "history_basis": "52_WEEK",
     "low_52w": 153.0,
-    "range_position_pct": 73.74
+    "range_position_pct": 70.24
   },
   "risk_model": {
-    "invalidation_floor": 266.48,
-    "risk_per_share": 15.19,
-    "technical_pivot": 281.67
+    "invalidation_floor": 260.84,
+    "risk_per_share": 14.87,
+    "technical_pivot": 275.71
   },
   "schema_version": "1.0",
   "sector": null,

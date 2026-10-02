@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1324.5,
-      "high": 1348.9,
-      "low": 1315.0,
-      "open": 1348.9,
-      "time": "2025-09-19",
-      "volume": 43161
-    },
-    {
-      "close": 1357.0,
-      "high": 1379.8,
-      "low": 1313.8,
-      "open": 1315.0,
-      "time": "2025-09-22",
-      "volume": 61335
-    },
-    {
-      "close": 1387.2,
-      "high": 1414.9,
-      "low": 1369.7,
-      "open": 1369.7,
-      "time": "2025-09-23",
-      "volume": 74313
-    },
-    {
       "close": 1346.6,
       "high": 1391.0,
       "low": 1341.0,
@@ -2017,13 +1993,37 @@
       "open": 1260.0,
       "time": "2026-09-28",
       "volume": 39680
+    },
+    {
+      "close": 1238.5,
+      "high": 1265.4,
+      "low": 1226.8,
+      "open": 1237.4,
+      "time": "2026-09-29",
+      "volume": 37110
+    },
+    {
+      "close": 1236.4,
+      "high": 1262.1,
+      "low": 1230.5,
+      "open": 1251.0,
+      "time": "2026-09-30",
+      "volume": 44693
+    },
+    {
+      "close": 1234.5,
+      "high": 1240.0,
+      "low": 1198.0,
+      "open": 1235.9,
+      "time": "2026-10-01",
+      "volume": 51473
     }
   ],
   "company_name": "NIBE LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.75x"
+    "volume_multiplier": "0.92x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -24.0,
-    "change_pct": -1.9,
-    "close": 1237.4,
-    "previous_close": 1261.4,
+    "as_of": "2026-10-01",
+    "change": -1.9,
+    "change_pct": -0.15,
+    "close": 1234.5,
+    "previous_close": 1236.4,
     "type": "EOD_CLOSE",
-    "volume": 39680
+    "volume": 51473
   },
   "range": {
-    "distance_from_high_pct": -33.04,
-    "distance_from_low_pct": 52.84,
+    "distance_from_high_pct": -33.2,
+    "distance_from_low_pct": 52.48,
     "high_52w": 1848.0,
     "history_basis": "52_WEEK",
     "low_52w": 809.6,
-    "range_position_pct": 41.2
+    "range_position_pct": 40.92
   },
   "risk_model": {
-    "invalidation_floor": 1194.09,
-    "risk_per_share": 68.06,
-    "technical_pivot": 1262.15
+    "invalidation_floor": 1191.29,
+    "risk_per_share": 67.9,
+    "technical_pivot": 1259.19
   },
   "schema_version": "1.0",
   "sector": null,

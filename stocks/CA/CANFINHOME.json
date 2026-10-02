@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 773.8,
-      "high": 782.1,
-      "low": 771.0,
-      "open": 778.0,
-      "time": "2025-09-19",
-      "volume": 158742
-    },
-    {
-      "close": 771.4,
-      "high": 781.75,
-      "low": 768.4,
-      "open": 770.0,
-      "time": "2025-09-22",
-      "volume": 84209
-    },
-    {
-      "close": 780.3,
-      "high": 785.0,
-      "low": 759.35,
-      "open": 770.0,
-      "time": "2025-09-23",
-      "volume": 166824
-    },
-    {
       "close": 777.75,
       "high": 791.95,
       "low": 772.0,
@@ -2017,13 +1993,37 @@
       "open": 753.3,
       "time": "2026-09-28",
       "volume": 105181
+    },
+    {
+      "close": 731.7,
+      "high": 743.75,
+      "low": 730.0,
+      "open": 737.6,
+      "time": "2026-09-29",
+      "volume": 182975
+    },
+    {
+      "close": 719.2,
+      "high": 739.8,
+      "low": 715.0,
+      "open": 733.0,
+      "time": "2026-09-30",
+      "volume": 235321
+    },
+    {
+      "close": 711.0,
+      "high": 723.05,
+      "low": 700.0,
+      "open": 719.2,
+      "time": "2026-10-01",
+      "volume": 417879
     }
   ],
   "company_name": "CAN FIN HOMES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 53,
+    "momentum_score": 49,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.38x"
+    "volume_multiplier": "1.5x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -15.65,
-    "change_pct": -2.08,
-    "close": 737.6,
-    "previous_close": 753.25,
+    "as_of": "2026-10-01",
+    "change": -8.2,
+    "change_pct": -1.14,
+    "close": 711.0,
+    "previous_close": 719.2,
     "type": "EOD_CLOSE",
-    "volume": 105181
+    "volume": 417879
   },
   "range": {
-    "distance_from_high_pct": -24.08,
-    "distance_from_low_pct": 0.35,
+    "distance_from_high_pct": -26.81,
+    "distance_from_low_pct": 1.57,
     "high_52w": 971.5,
     "history_basis": "52_WEEK",
-    "low_52w": 735.0,
-    "range_position_pct": 1.1
+    "low_52w": 700.0,
+    "range_position_pct": 4.05
   },
   "risk_model": {
-    "invalidation_floor": 711.78,
-    "risk_per_share": 40.57,
-    "technical_pivot": 752.35
+    "invalidation_floor": 686.12,
+    "risk_per_share": 39.1,
+    "technical_pivot": 725.22
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

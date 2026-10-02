@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 472.75,
-      "high": 480.0,
-      "low": 462.65,
-      "open": 465.0,
-      "time": "2025-09-19",
-      "volume": 1555710
-    },
-    {
-      "close": 456.65,
-      "high": 473.3,
-      "low": 452.3,
-      "open": 472.6,
-      "time": "2025-09-22",
-      "volume": 902803
-    },
-    {
-      "close": 429.9,
-      "high": 459.0,
-      "low": 421.6,
-      "open": 459.0,
-      "time": "2025-09-23",
-      "volume": 2373426
-    },
-    {
       "close": 432.25,
       "high": 433.95,
       "low": 421.0,
@@ -2017,13 +1993,37 @@
       "open": 422.0,
       "time": "2026-09-28",
       "volume": 439195
+    },
+    {
+      "close": 402.8,
+      "high": 413.8,
+      "low": 401.2,
+      "open": 407.0,
+      "time": "2026-09-29",
+      "volume": 351308
+    },
+    {
+      "close": 400.4,
+      "high": 409.4,
+      "low": 399.0,
+      "open": 405.65,
+      "time": "2026-09-30",
+      "volume": 356756
+    },
+    {
+      "close": 399.15,
+      "high": 402.75,
+      "low": 389.1,
+      "open": 399.0,
+      "time": "2026-10-01",
+      "volume": 813144
     }
   ],
   "company_name": "LT FOODS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
+    "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.89x"
+    "volume_multiplier": "1.74x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -13.85,
-    "change_pct": -3.28,
-    "close": 408.5,
-    "previous_close": 422.35,
+    "as_of": "2026-10-01",
+    "change": -1.25,
+    "change_pct": -0.31,
+    "close": 399.15,
+    "previous_close": 400.4,
     "type": "EOD_CLOSE",
-    "volume": 439195
+    "volume": 813144
   },
   "range": {
-    "distance_from_high_pct": -16.75,
-    "distance_from_low_pct": 22.62,
+    "distance_from_high_pct": -18.66,
+    "distance_from_low_pct": 19.81,
     "high_52w": 490.7,
     "history_basis": "52_WEEK",
     "low_52w": 333.15,
-    "range_position_pct": 47.83
+    "range_position_pct": 41.89
   },
   "risk_model": {
-    "invalidation_floor": 394.2,
-    "risk_per_share": 22.47,
-    "technical_pivot": 416.67
+    "invalidation_floor": 385.18,
+    "risk_per_share": 21.95,
+    "technical_pivot": 407.13
   },
   "schema_version": "1.0",
   "sector": null,

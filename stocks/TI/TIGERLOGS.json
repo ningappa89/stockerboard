@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 50.48,
-      "high": 54.9,
-      "low": 50.0,
-      "open": 52.04,
-      "time": "2025-09-19",
-      "volume": 585743
-    },
-    {
-      "close": 46.23,
-      "high": 51.79,
-      "low": 45.22,
-      "open": 50.73,
-      "time": "2025-09-22",
-      "volume": 442344
-    },
-    {
-      "close": 52.04,
-      "high": 54.37,
-      "low": 46.26,
-      "open": 46.5,
-      "time": "2025-09-23",
-      "volume": 1433032
-    },
-    {
       "close": 50.19,
       "high": 51.51,
       "low": 49.97,
@@ -2017,13 +1993,37 @@
       "open": 26.01,
       "time": "2026-09-28",
       "volume": 80603
+    },
+    {
+      "close": 26.17,
+      "high": 27.16,
+      "low": 25.8,
+      "open": 27.16,
+      "time": "2026-09-29",
+      "volume": 80402
+    },
+    {
+      "close": 26.25,
+      "high": 27.0,
+      "low": 25.8,
+      "open": 26.94,
+      "time": "2026-09-30",
+      "volume": 123268
+    },
+    {
+      "close": 25.69,
+      "high": 26.0,
+      "low": 24.8,
+      "open": 25.85,
+      "time": "2026-10-01",
+      "volume": 90744
     }
   ],
   "company_name": "TIGER LOGISTICS (INDIA) LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.96x"
+    "volume_multiplier": "1.0x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.07,
-    "change_pct": 0.27,
-    "close": 26.4,
-    "previous_close": 26.33,
+    "as_of": "2026-10-01",
+    "change": -0.56,
+    "change_pct": -2.13,
+    "close": 25.69,
+    "previous_close": 26.25,
     "type": "EOD_CLOSE",
-    "volume": 80603
+    "volume": 90744
   },
   "range": {
-    "distance_from_high_pct": -51.91,
-    "distance_from_low_pct": 15.28,
-    "high_52w": 54.9,
+    "distance_from_high_pct": -50.13,
+    "distance_from_low_pct": 12.18,
+    "high_52w": 51.51,
     "history_basis": "52_WEEK",
     "low_52w": 22.9,
-    "range_position_pct": 10.94
+    "range_position_pct": 9.75
   },
   "risk_model": {
-    "invalidation_floor": 25.48,
-    "risk_per_share": 1.45,
-    "technical_pivot": 26.93
+    "invalidation_floor": 24.79,
+    "risk_per_share": 1.41,
+    "technical_pivot": 26.2
   },
   "schema_version": "1.0",
   "sector": null,

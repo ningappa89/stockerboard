@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 34.81,
-      "high": 36.37,
-      "low": 34.5,
-      "open": 36.0,
-      "time": "2025-09-19",
-      "volume": 6877
-    },
-    {
-      "close": 35.06,
-      "high": 36.41,
-      "low": 33.06,
-      "open": 35.15,
-      "time": "2025-09-22",
-      "volume": 19491
-    },
-    {
-      "close": 34.74,
-      "high": 34.89,
-      "low": 33.74,
-      "open": 34.21,
-      "time": "2025-09-23",
-      "volume": 9652
-    },
-    {
       "close": 33.24,
       "high": 35.98,
       "low": 33.1,
@@ -2017,13 +1993,37 @@
       "open": 16.5,
       "time": "2026-09-28",
       "volume": 3744
+    },
+    {
+      "close": 17.4,
+      "high": 17.5,
+      "low": 15.7,
+      "open": 16.98,
+      "time": "2026-09-29",
+      "volume": 27003
+    },
+    {
+      "close": 17.65,
+      "high": 18.5,
+      "low": 16.4,
+      "open": 17.4,
+      "time": "2026-09-30",
+      "volume": 10929
+    },
+    {
+      "close": 18.09,
+      "high": 18.8,
+      "low": 17.48,
+      "open": 17.75,
+      "time": "2026-10-01",
+      "volume": 16348
     }
   ],
   "company_name": "PRITISH NANDY COMMUNICATI",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.16x"
+    "volume_multiplier": "0.72x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.21,
-    "change_pct": -1.24,
-    "close": 16.68,
-    "previous_close": 16.89,
+    "as_of": "2026-10-01",
+    "change": 0.44,
+    "change_pct": 2.49,
+    "close": 18.09,
+    "previous_close": 17.65,
     "type": "EOD_CLOSE",
-    "volume": 3744
+    "volume": 16348
   },
   "range": {
-    "distance_from_high_pct": -54.19,
-    "distance_from_low_pct": 6.11,
-    "high_52w": 36.41,
+    "distance_from_high_pct": -49.72,
+    "distance_from_low_pct": 15.22,
+    "high_52w": 35.98,
     "history_basis": "52_WEEK",
-    "low_52w": 15.72,
-    "range_position_pct": 4.64
+    "low_52w": 15.7,
+    "range_position_pct": 11.79
   },
   "risk_model": {
-    "invalidation_floor": 16.1,
-    "risk_per_share": 0.91,
-    "technical_pivot": 17.01
+    "invalidation_floor": 17.46,
+    "risk_per_share": 0.99,
+    "technical_pivot": 18.45
   },
   "schema_version": "1.0",
   "sector": null,

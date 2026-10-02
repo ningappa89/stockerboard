@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 733.15,
-      "high": 746.5,
-      "low": 720.0,
-      "open": 721.9,
-      "time": "2025-09-19",
-      "volume": 830942
-    },
-    {
-      "close": 711.6,
-      "high": 724.05,
-      "low": 709.75,
-      "open": 721.1,
-      "time": "2025-09-22",
-      "volume": 356956
-    },
-    {
-      "close": 688.4,
-      "high": 715.0,
-      "low": 685.2,
-      "open": 715.0,
-      "time": "2025-09-23",
-      "volume": 427447
-    },
-    {
       "close": 682.25,
       "high": 688.4,
       "low": 673.2,
@@ -2017,13 +1993,37 @@
       "open": 753.1,
       "time": "2026-09-28",
       "volume": 145610
+    },
+    {
+      "close": 747.5,
+      "high": 754.6,
+      "low": 730.1,
+      "open": 740.9,
+      "time": "2026-09-29",
+      "volume": 628946
+    },
+    {
+      "close": 717.8,
+      "high": 759.1,
+      "low": 715.0,
+      "open": 751.0,
+      "time": "2026-09-30",
+      "volume": 468691
+    },
+    {
+      "close": 711.55,
+      "high": 724.85,
+      "low": 700.0,
+      "open": 713.25,
+      "time": "2026-10-01",
+      "volume": 325188
     }
   ],
   "company_name": "AVANTI FEEDS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.5x"
+    "volume_multiplier": "1.04x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -11.65,
-    "change_pct": -1.55,
-    "close": 741.5,
-    "previous_close": 753.15,
+    "as_of": "2026-10-01",
+    "change": -6.25,
+    "change_pct": -0.87,
+    "close": 711.55,
+    "previous_close": 717.8,
     "type": "EOD_CLOSE",
-    "volume": 145610
+    "volume": 325188
   },
   "range": {
-    "distance_from_high_pct": -53.48,
-    "distance_from_low_pct": 17.39,
+    "distance_from_high_pct": -55.36,
+    "distance_from_low_pct": 12.65,
     "high_52w": 1593.8,
     "history_basis": "52_WEEK",
     "low_52w": 631.65,
-    "range_position_pct": 11.42
+    "range_position_pct": 8.3
   },
   "risk_model": {
-    "invalidation_floor": 715.55,
-    "risk_per_share": 40.78,
-    "technical_pivot": 756.33
+    "invalidation_floor": 686.65,
+    "risk_per_share": 39.13,
+    "technical_pivot": 725.78
   },
   "schema_version": "1.0",
   "sector": null,

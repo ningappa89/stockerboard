@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 579.6,
-      "high": 605.55,
-      "low": 576.9,
-      "open": 604.0,
-      "time": "2025-09-19",
-      "volume": 827160
-    },
-    {
-      "close": 582.45,
-      "high": 591.5,
-      "low": 580.8,
-      "open": 583.2,
-      "time": "2025-09-22",
-      "volume": 232438
-    },
-    {
-      "close": 576.55,
-      "high": 585.9,
-      "low": 574.55,
-      "open": 585.9,
-      "time": "2025-09-23",
-      "volume": 660408
-    },
-    {
       "close": 577.65,
       "high": 581.9,
       "low": 572.6,
@@ -2017,13 +1993,37 @@
       "open": 388.0,
       "time": "2026-09-28",
       "volume": 2032711
+    },
+    {
+      "close": 381.05,
+      "high": 388.6,
+      "low": 376.75,
+      "open": 388.6,
+      "time": "2026-09-29",
+      "volume": 2619527
+    },
+    {
+      "close": 379.05,
+      "high": 384.5,
+      "low": 375.6,
+      "open": 382.5,
+      "time": "2026-09-30",
+      "volume": 1943040
+    },
+    {
+      "close": 372.65,
+      "high": 377.35,
+      "low": 370.2,
+      "open": 376.1,
+      "time": "2026-10-01",
+      "volume": 2237638
     }
   ],
   "company_name": "EMAMI LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Fast Moving Consumer Goods",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.77x"
+    "volume_multiplier": "0.82x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.5,
-    "change_pct": -0.13,
-    "close": 388.75,
-    "previous_close": 389.25,
+    "as_of": "2026-10-01",
+    "change": -6.4,
+    "change_pct": -1.69,
+    "close": 372.65,
+    "previous_close": 379.05,
     "type": "EOD_CLOSE",
-    "volume": 2032711
+    "volume": 2237638
   },
   "range": {
-    "distance_from_high_pct": -35.8,
-    "distance_from_low_pct": 7.64,
-    "high_52w": 605.55,
+    "distance_from_high_pct": -35.96,
+    "distance_from_low_pct": 3.18,
+    "high_52w": 581.9,
     "history_basis": "52_WEEK",
     "low_52w": 361.15,
-    "range_position_pct": 11.29
+    "range_position_pct": 5.21
   },
   "risk_model": {
-    "invalidation_floor": 375.14,
-    "risk_per_share": 21.39,
-    "technical_pivot": 396.53
+    "invalidation_floor": 359.61,
+    "risk_per_share": 20.49,
+    "technical_pivot": 380.1
   },
   "schema_version": "1.0",
   "sector": "Fast Moving Consumer Goods",

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 6200.0,
-      "high": 6280.0,
-      "low": 6156.5,
-      "open": 6187.0,
-      "time": "2025-09-19",
-      "volume": 734989
-    },
-    {
-      "close": 6092.5,
-      "high": 6201.0,
-      "low": 6081.0,
-      "open": 6200.0,
-      "time": "2025-09-22",
-      "volume": 290634
-    },
-    {
-      "close": 6051.0,
-      "high": 6128.0,
-      "low": 6006.5,
-      "open": 6092.5,
-      "time": "2025-09-23",
-      "volume": 264356
-    },
-    {
       "close": 5984.0,
       "high": 6078.5,
       "low": 5965.0,
@@ -2017,46 +1993,70 @@
       "open": 9600.0,
       "time": "2026-09-28",
       "volume": 380253
+    },
+    {
+      "close": 9431.0,
+      "high": 9610.5,
+      "low": 9431.0,
+      "open": 9562.0,
+      "time": "2026-09-29",
+      "volume": 652089
+    },
+    {
+      "close": 9291.5,
+      "high": 9505.0,
+      "low": 9275.0,
+      "open": 9499.5,
+      "time": "2026-09-30",
+      "volume": 541269
+    },
+    {
+      "close": 9249.0,
+      "high": 9318.0,
+      "low": 9078.0,
+      "open": 9277.0,
+      "time": "2026-10-01",
+      "volume": 567310
     }
   ],
   "company_name": "DIVI S LABORATORIES LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Healthcare",
   "isin": "INE361B01024",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 87,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.76x"
+    "momentum_score": 82,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.12x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -69.5,
-    "change_pct": -0.72,
-    "close": 9550.0,
-    "previous_close": 9619.5,
+    "as_of": "2026-10-01",
+    "change": -42.5,
+    "change_pct": -0.46,
+    "close": 9249.0,
+    "previous_close": 9291.5,
     "type": "EOD_CLOSE",
-    "volume": 380253
+    "volume": 567310
   },
   "range": {
-    "distance_from_high_pct": -1.95,
-    "distance_from_low_pct": 69.43,
+    "distance_from_high_pct": -5.04,
+    "distance_from_low_pct": 64.09,
     "high_52w": 9740.0,
     "history_basis": "52_WEEK",
     "low_52w": 5636.5,
-    "range_position_pct": 95.37
+    "range_position_pct": 88.03
   },
   "risk_model": {
-    "invalidation_floor": 9215.75,
-    "risk_per_share": 525.25,
-    "technical_pivot": 9741.0
+    "invalidation_floor": 8925.28,
+    "risk_per_share": 508.7,
+    "technical_pivot": 9433.98
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

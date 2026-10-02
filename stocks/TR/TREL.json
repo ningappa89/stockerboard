@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 32.29,
-      "high": 32.48,
-      "low": 32.2,
-      "open": 32.35,
-      "time": "2025-09-19",
-      "volume": 72602
-    },
-    {
-      "close": 32.31,
-      "high": 32.75,
-      "low": 32.1,
-      "open": 32.42,
-      "time": "2025-09-22",
-      "volume": 97940
-    },
-    {
-      "close": 32.5,
-      "high": 33.51,
-      "low": 32.17,
-      "open": 32.31,
-      "time": "2025-09-23",
-      "volume": 204442
-    },
-    {
       "close": 32.12,
       "high": 32.49,
       "low": 32.0,
@@ -2017,13 +1993,37 @@
       "open": 28.8,
       "time": "2026-09-28",
       "volume": 143807
+    },
+    {
+      "close": 28.4,
+      "high": 28.94,
+      "low": 27.7,
+      "open": 28.89,
+      "time": "2026-09-29",
+      "volume": 112132
+    },
+    {
+      "close": 28.89,
+      "high": 29.9,
+      "low": 27.87,
+      "open": 28.8,
+      "time": "2026-09-30",
+      "volume": 205678
+    },
+    {
+      "close": 27.29,
+      "high": 29.47,
+      "low": 26.37,
+      "open": 29.15,
+      "time": "2026-10-01",
+      "volume": 135689
     }
   ],
   "company_name": "Transindia Real Estate Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.67x"
+    "volume_multiplier": "0.61x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.57,
-    "change_pct": 2.01,
-    "close": 28.89,
-    "previous_close": 28.32,
+    "as_of": "2026-10-01",
+    "change": -1.6,
+    "change_pct": -5.54,
+    "close": 27.29,
+    "previous_close": 28.89,
     "type": "EOD_CLOSE",
-    "volume": 143807
+    "volume": 135689
   },
   "range": {
-    "distance_from_high_pct": -13.79,
-    "distance_from_low_pct": 34.56,
-    "high_52w": 33.51,
+    "distance_from_high_pct": -16.13,
+    "distance_from_low_pct": 27.11,
+    "high_52w": 32.54,
     "history_basis": "52_WEEK",
     "low_52w": 21.47,
-    "range_position_pct": 61.63
+    "range_position_pct": 52.57
   },
   "risk_model": {
-    "invalidation_floor": 27.88,
-    "risk_per_share": 1.59,
-    "technical_pivot": 29.47
+    "invalidation_floor": 26.33,
+    "risk_per_share": 1.51,
+    "technical_pivot": 27.84
   },
   "schema_version": "1.0",
   "sector": null,

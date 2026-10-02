@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 374.3,
-      "high": 375.75,
-      "low": 370.8,
-      "open": 374.15,
-      "time": "2025-09-19",
-      "volume": 25755
-    },
-    {
-      "close": 371.55,
-      "high": 374.65,
-      "low": 369.0,
-      "open": 372.0,
-      "time": "2025-09-22",
-      "volume": 42666
-    },
-    {
-      "close": 366.7,
-      "high": 372.25,
-      "low": 366.0,
-      "open": 372.0,
-      "time": "2025-09-23",
-      "volume": 28347
-    },
-    {
       "close": 363.4,
       "high": 370.9,
       "low": 360.25,
@@ -2017,13 +1993,37 @@
       "open": 431.0,
       "time": "2026-09-28",
       "volume": 523693
+    },
+    {
+      "close": 412.2,
+      "high": 419.3,
+      "low": 406.25,
+      "open": 414.9,
+      "time": "2026-09-29",
+      "volume": 170040
+    },
+    {
+      "close": 408.8,
+      "high": 424.9,
+      "low": 405.65,
+      "open": 416.0,
+      "time": "2026-09-30",
+      "volume": 130282
+    },
+    {
+      "close": 396.7,
+      "high": 409.65,
+      "low": 391.4,
+      "open": 408.8,
+      "time": "2026-10-01",
+      "volume": 146859
     }
   ],
   "company_name": "DALMIA BHARAT SUG IN LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 59,
+    "momentum_score": 54,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.73x"
+    "volume_multiplier": "0.6x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -13.95,
-    "change_pct": -3.25,
-    "close": 414.8,
-    "previous_close": 428.75,
+    "as_of": "2026-10-01",
+    "change": -12.1,
+    "change_pct": -2.96,
+    "close": 396.7,
+    "previous_close": 408.8,
     "type": "EOD_CLOSE",
-    "volume": 523693
+    "volume": 146859
   },
   "range": {
-    "distance_from_high_pct": -20.23,
-    "distance_from_low_pct": 58.68,
+    "distance_from_high_pct": -23.71,
+    "distance_from_low_pct": 51.76,
     "high_52w": 520.0,
     "history_basis": "52_WEEK",
     "low_52w": 261.4,
-    "range_position_pct": 59.32
+    "range_position_pct": 52.32
   },
   "risk_model": {
-    "invalidation_floor": 400.28,
-    "risk_per_share": 22.82,
-    "technical_pivot": 423.1
+    "invalidation_floor": 382.82,
+    "risk_per_share": 21.81,
+    "technical_pivot": 404.63
   },
   "schema_version": "1.0",
   "sector": null,

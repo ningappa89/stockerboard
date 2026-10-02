@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 661.1,
-      "high": 665.0,
-      "low": 652.15,
-      "open": 658.9,
-      "time": "2025-09-19",
-      "volume": 35593
-    },
-    {
-      "close": 692.8,
-      "high": 723.0,
-      "low": 662.0,
-      "open": 662.0,
-      "time": "2025-09-22",
-      "volume": 469438
-    },
-    {
-      "close": 694.85,
-      "high": 703.3,
-      "low": 689.45,
-      "open": 695.2,
-      "time": "2025-09-23",
-      "volume": 71738
-    },
-    {
       "close": 678.2,
       "high": 698.75,
       "low": 673.0,
@@ -2017,13 +1993,37 @@
       "open": 979.7,
       "time": "2026-09-28",
       "volume": 120105
+    },
+    {
+      "close": 932.9,
+      "high": 952.0,
+      "low": 925.1,
+      "open": 941.0,
+      "time": "2026-09-29",
+      "volume": 86237
+    },
+    {
+      "close": 920.2,
+      "high": 954.6,
+      "low": 912.0,
+      "open": 939.4,
+      "time": "2026-09-30",
+      "volume": 61117
+    },
+    {
+      "close": 895.2,
+      "high": 929.4,
+      "low": 881.0,
+      "open": 917.5,
+      "time": "2026-10-01",
+      "volume": 91115
     }
   ],
   "company_name": "DREDGING CORP OF INDIA",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 49,
+    "momentum_score": 44,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.47x"
+    "volume_multiplier": "1.16x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -43.4,
-    "change_pct": -4.41,
-    "close": 941.4,
-    "previous_close": 984.8,
+    "as_of": "2026-10-01",
+    "change": -25.0,
+    "change_pct": -2.72,
+    "close": 895.2,
+    "previous_close": 920.2,
     "type": "EOD_CLOSE",
-    "volume": 120105
+    "volume": 91115
   },
   "range": {
-    "distance_from_high_pct": -26.8,
-    "distance_from_low_pct": 74.98,
+    "distance_from_high_pct": -30.39,
+    "distance_from_low_pct": 66.39,
     "high_52w": 1286.0,
     "history_basis": "52_WEEK",
     "low_52w": 538.0,
-    "range_position_pct": 53.93
+    "range_position_pct": 47.75
   },
   "risk_model": {
-    "invalidation_floor": 908.45,
-    "risk_per_share": 51.78,
-    "technical_pivot": 960.23
+    "invalidation_floor": 863.87,
+    "risk_per_share": 49.23,
+    "technical_pivot": 913.1
   },
   "schema_version": "1.0",
   "sector": null,

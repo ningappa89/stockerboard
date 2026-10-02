@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 23.91,
-      "high": 24.2,
-      "low": 22.36,
-      "open": 23.88,
-      "time": "2025-09-19",
-      "volume": 280424
-    },
-    {
-      "close": 23.15,
-      "high": 24.34,
-      "low": 23.0,
-      "open": 24.34,
-      "time": "2025-09-22",
-      "volume": 226543
-    },
-    {
-      "close": 22.89,
-      "high": 23.63,
-      "low": 22.6,
-      "open": 23.05,
-      "time": "2025-09-23",
-      "volume": 269218
-    },
-    {
       "close": 22.11,
       "high": 23.29,
       "low": 21.85,
@@ -2017,13 +1993,37 @@
       "open": 16.1,
       "time": "2026-09-28",
       "volume": 66366
+    },
+    {
+      "close": 15.87,
+      "high": 16.0,
+      "low": 15.52,
+      "open": 15.89,
+      "time": "2026-09-29",
+      "volume": 28165
+    },
+    {
+      "close": 15.84,
+      "high": 16.2,
+      "low": 15.81,
+      "open": 16.2,
+      "time": "2026-09-30",
+      "volume": 15359
+    },
+    {
+      "close": 15.98,
+      "high": 16.3,
+      "low": 15.75,
+      "open": 16.3,
+      "time": "2026-10-01",
+      "volume": 29325
     }
   ],
   "company_name": "SURANA TELECOM AND POWER LIMIT",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.32x"
+    "volume_multiplier": "0.62x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.2,
-    "change_pct": -1.26,
-    "close": 15.72,
-    "previous_close": 15.92,
+    "as_of": "2026-10-01",
+    "change": 0.14,
+    "change_pct": 0.88,
+    "close": 15.98,
+    "previous_close": 15.84,
     "type": "EOD_CLOSE",
-    "volume": 66366
+    "volume": 29325
   },
   "range": {
-    "distance_from_high_pct": -35.41,
-    "distance_from_low_pct": 1.42,
-    "high_52w": 24.34,
+    "distance_from_high_pct": -33.75,
+    "distance_from_low_pct": 3.1,
+    "high_52w": 24.12,
     "history_basis": "52_WEEK",
     "low_52w": 15.5,
-    "range_position_pct": 2.49
+    "range_position_pct": 5.57
   },
   "risk_model": {
-    "invalidation_floor": 15.17,
-    "risk_per_share": 0.86,
-    "technical_pivot": 16.03
+    "invalidation_floor": 15.42,
+    "risk_per_share": 0.88,
+    "technical_pivot": 16.3
   },
   "schema_version": "1.0",
   "sector": null,

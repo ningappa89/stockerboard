@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 673.85,
-      "high": 715.0,
-      "low": 656.0,
-      "open": 711.8,
-      "time": "2025-09-19",
-      "volume": 2085693
-    },
-    {
-      "close": 685.4,
-      "high": 693.95,
-      "low": 673.45,
-      "open": 684.25,
-      "time": "2025-09-22",
-      "volume": 291535
-    },
-    {
-      "close": 671.95,
-      "high": 687.6,
-      "low": 666.05,
-      "open": 685.4,
-      "time": "2025-09-23",
-      "volume": 228885
-    },
-    {
       "close": 662.7,
       "high": 671.7,
       "low": 660.0,
@@ -2017,13 +1993,37 @@
       "open": 664.0,
       "time": "2026-09-28",
       "volume": 658767
+    },
+    {
+      "close": 639.1,
+      "high": 657.2,
+      "low": 635.2,
+      "open": 657.1,
+      "time": "2026-09-29",
+      "volume": 250387
+    },
+    {
+      "close": 653.2,
+      "high": 677.4,
+      "low": 639.5,
+      "open": 639.5,
+      "time": "2026-09-30",
+      "volume": 605507
+    },
+    {
+      "close": 638.0,
+      "high": 653.0,
+      "low": 626.3,
+      "open": 653.0,
+      "time": "2026-10-01",
+      "volume": 244199
     }
   ],
   "company_name": "JUBILANT INGREVIA LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 63,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.04x"
+    "momentum_score": 60,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.8x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.3,
-    "change_pct": -0.2,
-    "close": 654.8,
-    "previous_close": 656.1,
+    "as_of": "2026-10-01",
+    "change": -15.2,
+    "change_pct": -2.33,
+    "close": 638.0,
+    "previous_close": 653.2,
     "type": "EOD_CLOSE",
-    "volume": 658767
+    "volume": 244199
   },
   "range": {
-    "distance_from_high_pct": -17.64,
-    "distance_from_low_pct": 21.87,
+    "distance_from_high_pct": -19.75,
+    "distance_from_low_pct": 18.74,
     "high_52w": 795.0,
     "history_basis": "52_WEEK",
     "low_52w": 537.3,
-    "range_position_pct": 45.6
+    "range_position_pct": 39.08
   },
   "risk_model": {
-    "invalidation_floor": 631.88,
-    "risk_per_share": 36.02,
-    "technical_pivot": 667.9
+    "invalidation_floor": 615.67,
+    "risk_per_share": 35.09,
+    "technical_pivot": 650.76
   },
   "schema_version": "1.0",
   "sector": null,

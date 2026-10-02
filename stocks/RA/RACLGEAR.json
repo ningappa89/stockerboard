@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 908.05,
-      "high": 933.95,
-      "low": 900.1,
-      "open": 921.0,
-      "time": "2025-09-19",
-      "volume": 5823
-    },
-    {
-      "close": 914.35,
-      "high": 921.95,
-      "low": 909.3,
-      "open": 911.0,
-      "time": "2025-09-22",
-      "volume": 2814
-    },
-    {
-      "close": 942.35,
-      "high": 947.85,
-      "low": 911.45,
-      "open": 924.0,
-      "time": "2025-09-23",
-      "volume": 13320
-    },
-    {
       "close": 924.05,
       "high": 940.1,
       "low": 922.55,
@@ -2017,13 +1993,37 @@
       "open": 1696.0,
       "time": "2026-09-28",
       "volume": 29357
+    },
+    {
+      "close": 1588.6,
+      "high": 1626.0,
+      "low": 1535.3,
+      "open": 1606.6,
+      "time": "2026-09-29",
+      "volume": 42673
+    },
+    {
+      "close": 1594.8,
+      "high": 1616.8,
+      "low": 1570.2,
+      "open": 1581.4,
+      "time": "2026-09-30",
+      "volume": 32646
+    },
+    {
+      "close": 1538.2,
+      "high": 1594.8,
+      "low": 1505.0,
+      "open": 1587.9,
+      "time": "2026-10-01",
+      "volume": 34375
     }
   ],
   "company_name": "RACL Geartech Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 59,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.24x"
+    "volume_multiplier": "0.28x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -73.4,
-    "change_pct": -4.35,
-    "close": 1613.1,
-    "previous_close": 1686.5,
+    "as_of": "2026-10-01",
+    "change": -56.6,
+    "change_pct": -3.55,
+    "close": 1538.2,
+    "previous_close": 1594.8,
     "type": "EOD_CLOSE",
-    "volume": 29357
+    "volume": 34375
   },
   "range": {
-    "distance_from_high_pct": -16.32,
-    "distance_from_low_pct": 79.21,
+    "distance_from_high_pct": -20.21,
+    "distance_from_low_pct": 66.87,
     "high_52w": 1927.7,
     "history_basis": "52_WEEK",
-    "low_52w": 900.1,
-    "range_position_pct": 69.38
+    "low_52w": 921.8,
+    "range_position_pct": 61.28
   },
   "risk_model": {
-    "invalidation_floor": 1556.64,
-    "risk_per_share": 88.72,
-    "technical_pivot": 1645.36
+    "invalidation_floor": 1484.36,
+    "risk_per_share": 84.6,
+    "technical_pivot": 1568.96
   },
   "schema_version": "1.0",
   "sector": null,

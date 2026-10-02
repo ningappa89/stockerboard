@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 148.5,
-      "high": 149.95,
-      "low": 146.73,
-      "open": 146.99,
-      "time": "2025-09-19",
-      "volume": 14995288
-    },
-    {
-      "close": 148.3,
-      "high": 149.1,
-      "low": 147.26,
-      "open": 148.5,
-      "time": "2025-09-22",
-      "volume": 9720233
-    },
-    {
-      "close": 148.24,
-      "high": 149.14,
-      "low": 147.55,
-      "open": 148.09,
-      "time": "2025-09-23",
-      "volume": 7296186
-    },
-    {
       "close": 146.77,
       "high": 148.89,
       "low": 146.51,
@@ -2017,13 +1993,37 @@
       "open": 135.02,
       "time": "2026-09-28",
       "volume": 5538248
+    },
+    {
+      "close": 131.33,
+      "high": 134.31,
+      "low": 131.02,
+      "open": 133.32,
+      "time": "2026-09-29",
+      "volume": 10116269
+    },
+    {
+      "close": 134.93,
+      "high": 135.99,
+      "low": 133.14,
+      "open": 133.3,
+      "time": "2026-09-30",
+      "volume": 9545086
+    },
+    {
+      "close": 131.34,
+      "high": 134.1,
+      "low": 131.2,
+      "open": 134.0,
+      "time": "2026-10-01",
+      "volume": 12239747
     }
   ],
   "company_name": "INDIAN OIL CORPORATION LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Oil Gas & Consumable Fuels",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 45,
+    "momentum_score": 44,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.7x"
+    "volume_multiplier": "1.55x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.38,
-    "change_pct": -1.75,
-    "close": 133.32,
-    "previous_close": 135.7,
+    "as_of": "2026-10-01",
+    "change": -3.59,
+    "change_pct": -2.66,
+    "close": 131.34,
+    "previous_close": 134.93,
     "type": "EOD_CLOSE",
-    "volume": 5538248
+    "volume": 12239747
   },
   "range": {
-    "distance_from_high_pct": -29.45,
-    "distance_from_low_pct": 2.38,
+    "distance_from_high_pct": -30.49,
+    "distance_from_low_pct": 0.86,
     "high_52w": 188.96,
     "history_basis": "52_WEEK",
     "low_52w": 130.22,
-    "range_position_pct": 5.28
+    "range_position_pct": 1.91
   },
   "risk_model": {
-    "invalidation_floor": 128.65,
-    "risk_per_share": 7.34,
-    "technical_pivot": 135.99
+    "invalidation_floor": 126.74,
+    "risk_per_share": 7.23,
+    "technical_pivot": 133.97
   },
   "schema_version": "1.0",
   "sector": "Oil Gas & Consumable Fuels",

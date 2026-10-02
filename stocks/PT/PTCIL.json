@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 14942.0,
-      "high": 15540.0,
-      "low": 14759.0,
-      "open": 15518.0,
-      "time": "2025-09-19",
-      "volume": 36509
-    },
-    {
-      "close": 15211.0,
-      "high": 15400.0,
-      "low": 14805.0,
-      "open": 14942.0,
-      "time": "2025-09-22",
-      "volume": 19922
-    },
-    {
-      "close": 15221.0,
-      "high": 15364.0,
-      "low": 15079.0,
-      "open": 15211.0,
-      "time": "2025-09-23",
-      "volume": 9543
-    },
-    {
       "close": 15203.0,
       "high": 15304.0,
       "low": 15150.0,
@@ -2017,13 +1993,37 @@
       "open": 21820.0,
       "time": "2026-09-28",
       "volume": 8445
+    },
+    {
+      "close": 22535.0,
+      "high": 22690.0,
+      "low": 21555.0,
+      "open": 21685.0,
+      "time": "2026-09-29",
+      "volume": 19622
+    },
+    {
+      "close": 22190.0,
+      "high": 23245.0,
+      "low": 22035.0,
+      "open": 22535.0,
+      "time": "2026-09-30",
+      "volume": 20719
+    },
+    {
+      "close": 22025.0,
+      "high": 22435.0,
+      "low": 21720.0,
+      "open": 22195.0,
+      "time": "2026-10-01",
+      "volume": 14332
     }
   ],
   "company_name": "PTC Industries Ltd.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 74,
+    "momentum_score": 76,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.26x"
+    "volume_multiplier": "0.53x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -125.0,
-    "change_pct": -0.57,
-    "close": 21685.0,
-    "previous_close": 21810.0,
+    "as_of": "2026-10-01",
+    "change": -165.0,
+    "change_pct": -0.74,
+    "close": 22025.0,
+    "previous_close": 22190.0,
     "type": "EOD_CLOSE",
-    "volume": 8445
+    "volume": 14332
   },
   "range": {
-    "distance_from_high_pct": -10.11,
-    "distance_from_low_pct": 49.56,
+    "distance_from_high_pct": -8.7,
+    "distance_from_low_pct": 51.91,
     "high_52w": 24125.0,
     "history_basis": "52_WEEK",
     "low_52w": 14499.0,
-    "range_position_pct": 74.65
+    "range_position_pct": 78.18
   },
   "risk_model": {
-    "invalidation_floor": 20926.02,
-    "risk_per_share": 1192.68,
-    "technical_pivot": 22118.7
+    "invalidation_floor": 21254.12,
+    "risk_per_share": 1211.38,
+    "technical_pivot": 22465.5
   },
   "schema_version": "1.0",
   "sector": null,

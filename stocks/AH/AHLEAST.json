@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 151.34,
-      "high": 152.55,
-      "low": 148.22,
-      "open": 151.66,
-      "time": "2025-09-19",
-      "volume": 4013
-    },
-    {
-      "close": 153.04,
-      "high": 154.97,
-      "low": 148.01,
-      "open": 150.48,
-      "time": "2025-09-22",
-      "volume": 4640
-    },
-    {
-      "close": 153.9,
-      "high": 156.89,
-      "low": 149.71,
-      "open": 154.69,
-      "time": "2025-09-23",
-      "volume": 2050
-    },
-    {
       "close": 153.05,
       "high": 154.9,
       "low": 151.1,
@@ -2017,13 +1993,37 @@
       "open": 135.8,
       "time": "2026-09-28",
       "volume": 104
+    },
+    {
+      "close": 134.54,
+      "high": 137.39,
+      "low": 134.25,
+      "open": 134.4,
+      "time": "2026-09-29",
+      "volume": 251
+    },
+    {
+      "close": 134.44,
+      "high": 135.53,
+      "low": 134.25,
+      "open": 135.0,
+      "time": "2026-09-30",
+      "volume": 200
+    },
+    {
+      "close": 136.0,
+      "high": 136.0,
+      "low": 134.0,
+      "open": 134.0,
+      "time": "2026-10-01",
+      "volume": 133
     }
   ],
   "company_name": "ASIAN HOTELS (EAST) LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.04x"
+    "volume_multiplier": "0.06x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.28,
-    "change_pct": -0.93,
-    "close": 136.14,
-    "previous_close": 137.42,
+    "as_of": "2026-10-01",
+    "change": 1.56,
+    "change_pct": 1.16,
+    "close": 136.0,
+    "previous_close": 134.44,
     "type": "EOD_CLOSE",
-    "volume": 104
+    "volume": 133
   },
   "range": {
-    "distance_from_high_pct": -22.34,
-    "distance_from_low_pct": 6.99,
+    "distance_from_high_pct": -22.42,
+    "distance_from_low_pct": 6.88,
     "high_52w": 175.3,
     "history_basis": "52_WEEK",
     "low_52w": 127.25,
-    "range_position_pct": 18.5
+    "range_position_pct": 18.21
   },
   "risk_model": {
-    "invalidation_floor": 131.38,
+    "invalidation_floor": 131.24,
     "risk_per_share": 7.48,
-    "technical_pivot": 138.86
+    "technical_pivot": 138.72
   },
   "schema_version": "1.0",
   "sector": null,

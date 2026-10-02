@@ -241,14 +241,38 @@
       "open": 949.0,
       "time": "2026-09-28",
       "volume": 1732
+    },
+    {
+      "close": 924.0,
+      "high": 954.0,
+      "low": 919.1,
+      "open": 926.1,
+      "time": "2026-09-29",
+      "volume": 2829
+    },
+    {
+      "close": 914.6,
+      "high": 944.0,
+      "low": 911.2,
+      "open": 930.0,
+      "time": "2026-09-30",
+      "volume": 2329
+    },
+    {
+      "close": 915.25,
+      "high": 944.8,
+      "low": 910.0,
+      "open": 925.1,
+      "time": "2026-10-01",
+      "volume": 3262
     }
   ],
   "company_name": "JENBURKT PHARMACEUTICALS LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE354A01013",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.04x"
+    "volume_multiplier": "1.71x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -21.9,
-    "change_pct": -2.31,
-    "close": 926.1,
-    "previous_close": 948.0,
+    "as_of": "2026-10-01",
+    "change": 0.65,
+    "change_pct": 0.07,
+    "close": 915.25,
+    "previous_close": 914.6,
     "type": "EOD_CLOSE",
-    "volume": 1732
+    "volume": 3262
   },
   "range": {
-    "distance_from_high_pct": -13.76,
-    "distance_from_low_pct": 1.65,
+    "distance_from_high_pct": -14.77,
+    "distance_from_low_pct": 0.58,
     "high_52w": 1073.9,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 911.1,
-    "range_position_pct": 9.21
+    "low_52w": 910.0,
+    "range_position_pct": 3.2
   },
   "risk_model": {
-    "invalidation_floor": 893.69,
-    "risk_per_share": 50.93,
-    "technical_pivot": 944.62
+    "invalidation_floor": 883.22,
+    "risk_per_share": 50.34,
+    "technical_pivot": 933.56
   },
   "schema_version": "1.0",
   "sector": null,

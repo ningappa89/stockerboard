@@ -897,14 +897,38 @@
       "open": 8074.5,
       "time": "2026-09-28",
       "volume": 31652
+    },
+    {
+      "close": 7904.0,
+      "high": 8085.0,
+      "low": 7851.0,
+      "open": 8085.0,
+      "time": "2026-09-29",
+      "volume": 3390
+    },
+    {
+      "close": 8007.5,
+      "high": 8050.5,
+      "low": 7828.5,
+      "open": 7904.0,
+      "time": "2026-09-30",
+      "volume": 1137
+    },
+    {
+      "close": 8026.0,
+      "high": 8061.0,
+      "low": 7890.0,
+      "open": 7946.5,
+      "time": "2026-10-01",
+      "volume": 955
     }
   ],
   "company_name": "HAWKINS COOKERS LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 112
+    "last_session": "2026-10-01",
+    "sessions_available": 115
   },
   "industry": null,
   "isin": "INE979B01015",
@@ -912,31 +936,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "9.5x"
+    "momentum_score": 65,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.27x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 35.0,
-    "change_pct": 0.43,
-    "close": 8082.5,
-    "previous_close": 8047.5,
+    "as_of": "2026-10-01",
+    "change": 18.5,
+    "change_pct": 0.23,
+    "close": 8026.0,
+    "previous_close": 8007.5,
     "type": "EOD_CLOSE",
-    "volume": 31652
+    "volume": 955
   },
   "range": {
-    "distance_from_high_pct": -15.81,
-    "distance_from_low_pct": 13.69,
+    "distance_from_high_pct": -16.4,
+    "distance_from_low_pct": 12.9,
     "high_52w": 9600.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 7109.0,
-    "range_position_pct": 39.08
+    "range_position_pct": 36.81
   },
   "risk_model": {
-    "invalidation_floor": 7799.61,
-    "risk_per_share": 444.54,
-    "technical_pivot": 8244.15
+    "invalidation_floor": 7745.09,
+    "risk_per_share": 441.43,
+    "technical_pivot": 8186.52
   },
   "schema_version": "1.0",
   "sector": null,

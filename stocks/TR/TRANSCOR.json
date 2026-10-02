@@ -241,14 +241,38 @@
       "open": 25.0,
       "time": "2026-09-28",
       "volume": 1343
+    },
+    {
+      "close": 23.85,
+      "high": 24.9,
+      "low": 23.52,
+      "open": 24.39,
+      "time": "2026-09-29",
+      "volume": 6605
+    },
+    {
+      "close": 24.22,
+      "high": 25.0,
+      "low": 23.52,
+      "open": 23.74,
+      "time": "2026-09-30",
+      "volume": 10425
+    },
+    {
+      "close": 24.18,
+      "high": 24.68,
+      "low": 21.0,
+      "open": 24.22,
+      "time": "2026-10-01",
+      "volume": 4834
     }
   ],
   "company_name": "TRANSCORP INTERNATIONAL LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE330E01023",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.38x"
+    "volume_multiplier": "1.19x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.34,
-    "change_pct": 1.41,
-    "close": 24.39,
-    "previous_close": 24.05,
+    "as_of": "2026-10-01",
+    "change": -0.04,
+    "change_pct": -0.17,
+    "close": 24.18,
+    "previous_close": 24.22,
     "type": "EOD_CLOSE",
-    "volume": 1343
+    "volume": 4834
   },
   "range": {
-    "distance_from_high_pct": -15.9,
-    "distance_from_low_pct": 16.14,
+    "distance_from_high_pct": -16.62,
+    "distance_from_low_pct": 15.14,
     "high_52w": 29.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 21.0,
-    "range_position_pct": 42.38
+    "range_position_pct": 39.75
   },
   "risk_model": {
-    "invalidation_floor": 23.54,
-    "risk_per_share": 1.34,
-    "technical_pivot": 24.88
+    "invalidation_floor": 23.33,
+    "risk_per_share": 1.33,
+    "technical_pivot": 24.66
   },
   "schema_version": "1.0",
   "sector": null,

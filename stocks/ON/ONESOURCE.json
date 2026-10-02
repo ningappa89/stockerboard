@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1840.9,
-      "high": 1872.8,
-      "low": 1823.0,
-      "open": 1872.8,
-      "time": "2025-09-19",
-      "volume": 579166
-    },
-    {
-      "close": 1801.9,
-      "high": 1840.0,
-      "low": 1790.1,
-      "open": 1840.0,
-      "time": "2025-09-22",
-      "volume": 80936
-    },
-    {
-      "close": 1781.8,
-      "high": 1809.9,
-      "low": 1767.5,
-      "open": 1809.9,
-      "time": "2025-09-23",
-      "volume": 40958
-    },
-    {
       "close": 1752.8,
       "high": 1787.7,
       "low": 1744.9,
@@ -2017,13 +1993,37 @@
       "open": 1602.6,
       "time": "2026-09-28",
       "volume": 262280
+    },
+    {
+      "close": 1583.3,
+      "high": 1605.0,
+      "low": 1562.7,
+      "open": 1570.0,
+      "time": "2026-09-29",
+      "volume": 463289
+    },
+    {
+      "close": 1521.6,
+      "high": 1600.0,
+      "low": 1506.1,
+      "open": 1587.0,
+      "time": "2026-09-30",
+      "volume": 194917
+    },
+    {
+      "close": 1508.0,
+      "high": 1542.2,
+      "low": 1433.6,
+      "open": 1516.0,
+      "time": "2026-10-01",
+      "volume": 608709
     }
   ],
   "company_name": "Onesource Specialty Pharma Lim",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
+    "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.7x"
+    "volume_multiplier": "1.44x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -36.8,
-    "change_pct": -2.3,
-    "close": 1565.8,
-    "previous_close": 1602.6,
+    "as_of": "2026-10-01",
+    "change": -13.6,
+    "change_pct": -0.89,
+    "close": 1508.0,
+    "previous_close": 1521.6,
     "type": "EOD_CLOSE",
-    "volume": 262280
+    "volume": 608709
   },
   "range": {
-    "distance_from_high_pct": -18.66,
-    "distance_from_low_pct": 48.14,
+    "distance_from_high_pct": -21.66,
+    "distance_from_low_pct": 42.67,
     "high_52w": 1925.0,
     "history_basis": "52_WEEK",
     "low_52w": 1057.0,
-    "range_position_pct": 58.62
+    "range_position_pct": 51.96
   },
   "risk_model": {
-    "invalidation_floor": 1511.0,
-    "risk_per_share": 86.12,
-    "technical_pivot": 1597.12
+    "invalidation_floor": 1455.22,
+    "risk_per_share": 82.94,
+    "technical_pivot": 1538.16
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

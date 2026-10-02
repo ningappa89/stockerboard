@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 748.05,
-      "high": 752.75,
-      "low": 732.5,
-      "open": 738.0,
-      "time": "2025-09-19",
-      "volume": 469701
-    },
-    {
-      "close": 734.25,
-      "high": 759.95,
-      "low": 730.0,
-      "open": 746.05,
-      "time": "2025-09-22",
-      "volume": 485725
-    },
-    {
-      "close": 713.0,
-      "high": 736.6,
-      "low": 711.55,
-      "open": 735.75,
-      "time": "2025-09-23",
-      "volume": 517247
-    },
-    {
       "close": 709.3,
       "high": 722.0,
       "low": 704.5,
@@ -2017,13 +1993,37 @@
       "open": 1320.9,
       "time": "2026-09-28",
       "volume": 626024
+    },
+    {
+      "close": 1325.0,
+      "high": 1336.9,
+      "low": 1288.1,
+      "open": 1315.0,
+      "time": "2026-09-29",
+      "volume": 699385
+    },
+    {
+      "close": 1311.0,
+      "high": 1346.0,
+      "low": 1303.0,
+      "open": 1325.0,
+      "time": "2026-09-30",
+      "volume": 529254
+    },
+    {
+      "close": 1276.0,
+      "high": 1315.0,
+      "low": 1255.0,
+      "open": 1308.0,
+      "time": "2026-10-01",
+      "volume": 562208
     }
   ],
   "company_name": "Paras Defence and Space Techno",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.65x"
+    "volume_multiplier": "0.62x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -6.0,
-    "change_pct": -0.45,
-    "close": 1315.0,
-    "previous_close": 1321.0,
+    "as_of": "2026-10-01",
+    "change": -35.0,
+    "change_pct": -2.67,
+    "close": 1276.0,
+    "previous_close": 1311.0,
     "type": "EOD_CLOSE",
-    "volume": 626024
+    "volume": 562208
   },
   "range": {
-    "distance_from_high_pct": -17.03,
-    "distance_from_low_pct": 126.53,
+    "distance_from_high_pct": -19.5,
+    "distance_from_low_pct": 119.81,
     "high_52w": 1585.0,
     "history_basis": "52_WEEK",
     "low_52w": 580.5,
-    "range_position_pct": 73.12
+    "range_position_pct": 69.24
   },
   "risk_model": {
-    "invalidation_floor": 1268.97,
-    "risk_per_share": 72.33,
-    "technical_pivot": 1341.3
+    "invalidation_floor": 1231.34,
+    "risk_per_share": 70.18,
+    "technical_pivot": 1301.52
   },
   "schema_version": "1.0",
   "sector": null,

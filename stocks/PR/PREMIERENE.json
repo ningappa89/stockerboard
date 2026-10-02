@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1051.3,
-      "high": 1065.0,
-      "low": 1044.0,
-      "open": 1053.0,
-      "time": "2025-09-19",
-      "volume": 2285424
-    },
-    {
-      "close": 1027.0,
-      "high": 1048.0,
-      "low": 1022.55,
-      "open": 1040.0,
-      "time": "2025-09-22",
-      "volume": 410275
-    },
-    {
-      "close": 1012.35,
-      "high": 1025.8,
-      "low": 1003.7,
-      "open": 1025.8,
-      "time": "2025-09-23",
-      "volume": 585032
-    },
-    {
       "close": 1044.7,
       "high": 1066.9,
       "low": 1008.8,
@@ -2017,13 +1993,37 @@
       "open": 892.0,
       "time": "2026-09-28",
       "volume": 1041474
+    },
+    {
+      "close": 870.0,
+      "high": 917.6,
+      "low": 853.6,
+      "open": 906.0,
+      "time": "2026-09-29",
+      "volume": 3053623
+    },
+    {
+      "close": 870.1,
+      "high": 883.0,
+      "low": 865.2,
+      "open": 868.3,
+      "time": "2026-09-30",
+      "volume": 1144007
+    },
+    {
+      "close": 878.05,
+      "high": 888.4,
+      "low": 860.1,
+      "open": 871.0,
+      "time": "2026-10-01",
+      "volume": 1259157
     }
   ],
   "company_name": "Premier Energies Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 59,
+    "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.93x"
+    "volume_multiplier": "1.0x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 9.6,
-    "change_pct": 1.07,
-    "close": 906.0,
-    "previous_close": 896.4,
+    "as_of": "2026-10-01",
+    "change": 7.95,
+    "change_pct": 0.91,
+    "close": 878.05,
+    "previous_close": 870.1,
     "type": "EOD_CLOSE",
-    "volume": 1041474
+    "volume": 1259157
   },
   "range": {
-    "distance_from_high_pct": -20.11,
-    "distance_from_low_pct": 35.85,
+    "distance_from_high_pct": -22.57,
+    "distance_from_low_pct": 31.66,
     "high_52w": 1134.0,
     "history_basis": "52_WEEK",
     "low_52w": 666.9,
-    "range_position_pct": 51.19
+    "range_position_pct": 45.2
   },
   "risk_model": {
-    "invalidation_floor": 874.29,
-    "risk_per_share": 49.83,
-    "technical_pivot": 924.12
+    "invalidation_floor": 847.32,
+    "risk_per_share": 48.29,
+    "technical_pivot": 895.61
   },
   "schema_version": "1.0",
   "sector": null,

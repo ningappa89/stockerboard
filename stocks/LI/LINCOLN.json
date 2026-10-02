@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 555.0,
-      "high": 558.8,
-      "low": 552.2,
-      "open": 554.0,
-      "time": "2025-09-19",
-      "volume": 22732
-    },
-    {
-      "close": 550.45,
-      "high": 561.6,
-      "low": 549.5,
-      "open": 555.0,
-      "time": "2025-09-22",
-      "volume": 34357
-    },
-    {
-      "close": 548.0,
-      "high": 553.95,
-      "low": 547.0,
-      "open": 552.0,
-      "time": "2025-09-23",
-      "volume": 23829
-    },
-    {
       "close": 545.6,
       "high": 552.9,
       "low": 545.0,
@@ -2017,13 +1993,37 @@
       "open": 591.1,
       "time": "2026-09-28",
       "volume": 20643
+    },
+    {
+      "close": 584.3,
+      "high": 595.9,
+      "low": 582.0,
+      "open": 583.0,
+      "time": "2026-09-29",
+      "volume": 15006
+    },
+    {
+      "close": 585.65,
+      "high": 593.4,
+      "low": 584.0,
+      "open": 590.0,
+      "time": "2026-09-30",
+      "volume": 19291
+    },
+    {
+      "close": 582.05,
+      "high": 585.65,
+      "low": 572.25,
+      "open": 584.0,
+      "time": "2026-10-01",
+      "volume": 61905
     }
   ],
   "company_name": "LINCOLN PHARMACEUTICALS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 53,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.58x"
+    "volume_multiplier": "1.79x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -9.15,
-    "change_pct": -1.55,
-    "close": 581.85,
-    "previous_close": 591.0,
+    "as_of": "2026-10-01",
+    "change": -3.6,
+    "change_pct": -0.61,
+    "close": 582.05,
+    "previous_close": 585.65,
     "type": "EOD_CLOSE",
-    "volume": 20643
+    "volume": 61905
   },
   "range": {
-    "distance_from_high_pct": -24.44,
-    "distance_from_low_pct": 32.24,
+    "distance_from_high_pct": -24.41,
+    "distance_from_low_pct": 32.28,
     "high_52w": 770.0,
     "history_basis": "52_WEEK",
     "low_52w": 440.0,
-    "range_position_pct": 42.98
+    "range_position_pct": 43.05
   },
   "risk_model": {
-    "invalidation_floor": 561.49,
-    "risk_per_share": 32.0,
-    "technical_pivot": 593.49
+    "invalidation_floor": 561.68,
+    "risk_per_share": 32.01,
+    "technical_pivot": 593.69
   },
   "schema_version": "1.0",
   "sector": null,

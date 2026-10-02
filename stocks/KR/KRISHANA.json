@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 109.38,
-      "high": 112.13,
-      "low": 108.5,
-      "open": 111.96,
-      "time": "2025-09-19",
-      "volume": 378180
-    },
-    {
-      "close": 107.9,
-      "high": 109.89,
-      "low": 107.4,
-      "open": 109.38,
-      "time": "2025-09-22",
-      "volume": 466920
-    },
-    {
-      "close": 107.02,
-      "high": 109.2,
-      "low": 106.2,
-      "open": 107.61,
-      "time": "2025-09-23",
-      "volume": 380840
-    },
-    {
       "close": 108.01,
       "high": 108.92,
       "low": 105.2,
@@ -2017,13 +1993,37 @@
       "open": 187.24,
       "time": "2026-09-28",
       "volume": 613298
+    },
+    {
+      "close": 185.19,
+      "high": 186.99,
+      "low": 183.5,
+      "open": 186.99,
+      "time": "2026-09-29",
+      "volume": 331174
+    },
+    {
+      "close": 188.23,
+      "high": 193.0,
+      "low": 185.19,
+      "open": 186.0,
+      "time": "2026-09-30",
+      "volume": 1098163
+    },
+    {
+      "close": 184.59,
+      "high": 188.1,
+      "low": 179.0,
+      "open": 186.9,
+      "time": "2026-10-01",
+      "volume": 1805453
     }
   ],
   "company_name": "KRISHANA PHOSCHEM LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 75,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.99x"
+    "momentum_score": 74,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.49x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.82,
-    "change_pct": -0.44,
-    "close": 186.42,
-    "previous_close": 187.24,
+    "as_of": "2026-10-01",
+    "change": -3.64,
+    "change_pct": -1.93,
+    "close": 184.59,
+    "previous_close": 188.23,
     "type": "EOD_CLOSE",
-    "volume": 613298
+    "volume": 1805453
   },
   "range": {
-    "distance_from_high_pct": -9.68,
-    "distance_from_low_pct": 116.26,
+    "distance_from_high_pct": -10.56,
+    "distance_from_low_pct": 114.14,
     "high_52w": 206.39,
     "history_basis": "52_WEEK",
     "low_52w": 86.2,
-    "range_position_pct": 83.38
+    "range_position_pct": 81.86
   },
   "risk_model": {
-    "invalidation_floor": 179.9,
-    "risk_per_share": 10.25,
-    "technical_pivot": 190.15
+    "invalidation_floor": 178.13,
+    "risk_per_share": 10.15,
+    "technical_pivot": 188.28
   },
   "schema_version": "1.0",
   "sector": null,

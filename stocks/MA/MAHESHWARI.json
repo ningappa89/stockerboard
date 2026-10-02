@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 59.95,
-      "high": 61.18,
-      "low": 59.22,
-      "open": 60.0,
-      "time": "2025-09-19",
-      "volume": 182294
-    },
-    {
-      "close": 59.52,
-      "high": 60.4,
-      "low": 58.85,
-      "open": 59.76,
-      "time": "2025-09-22",
-      "volume": 7696
-    },
-    {
-      "close": 59.04,
-      "high": 59.8,
-      "low": 59.0,
-      "open": 59.76,
-      "time": "2025-09-23",
-      "volume": 2385
-    },
-    {
       "close": 59.0,
       "high": 60.68,
       "low": 58.0,
@@ -2017,13 +1993,37 @@
       "open": 74.49,
       "time": "2026-09-28",
       "volume": 10397
+    },
+    {
+      "close": 73.53,
+      "high": 74.5,
+      "low": 70.8,
+      "open": 72.0,
+      "time": "2026-09-29",
+      "volume": 15307
+    },
+    {
+      "close": 73.43,
+      "high": 74.0,
+      "low": 73.05,
+      "open": 74.0,
+      "time": "2026-09-30",
+      "volume": 13129
+    },
+    {
+      "close": 69.95,
+      "high": 75.68,
+      "low": 69.5,
+      "open": 75.68,
+      "time": "2026-10-01",
+      "volume": 11065
     }
   ],
   "company_name": "MAHESHWARI LOGISTICS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 79,
+    "momentum_score": 76,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.23x"
+    "volume_multiplier": "1.38x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.79,
-    "change_pct": -2.44,
-    "close": 71.61,
-    "previous_close": 73.4,
+    "as_of": "2026-10-01",
+    "change": -3.48,
+    "change_pct": -4.74,
+    "close": 69.95,
+    "previous_close": 73.43,
     "type": "EOD_CLOSE",
-    "volume": 10397
+    "volume": 11065
   },
   "range": {
-    "distance_from_high_pct": -6.77,
-    "distance_from_low_pct": 83.43,
+    "distance_from_high_pct": -8.93,
+    "distance_from_low_pct": 79.18,
     "high_52w": 76.81,
     "history_basis": "52_WEEK",
     "low_52w": 39.04,
-    "range_position_pct": 86.23
+    "range_position_pct": 81.84
   },
   "risk_model": {
-    "invalidation_floor": 69.1,
-    "risk_per_share": 3.94,
-    "technical_pivot": 73.04
+    "invalidation_floor": 67.5,
+    "risk_per_share": 3.85,
+    "technical_pivot": 71.35
   },
   "schema_version": "1.0",
   "sector": null,

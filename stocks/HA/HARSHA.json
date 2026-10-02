@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 423.9,
-      "high": 428.0,
-      "low": 416.0,
-      "open": 416.0,
-      "time": "2025-09-19",
-      "volume": 63120
-    },
-    {
-      "close": 421.3,
-      "high": 428.9,
-      "low": 420.25,
-      "open": 428.9,
-      "time": "2025-09-22",
-      "volume": 17964
-    },
-    {
-      "close": 421.8,
-      "high": 424.0,
-      "low": 416.5,
-      "open": 417.5,
-      "time": "2025-09-23",
-      "volume": 32312
-    },
-    {
       "close": 413.25,
       "high": 423.95,
       "low": 412.0,
@@ -2017,13 +1993,37 @@
       "open": 465.0,
       "time": "2026-09-28",
       "volume": 196133
+    },
+    {
+      "close": 465.05,
+      "high": 469.7,
+      "low": 455.0,
+      "open": 468.0,
+      "time": "2026-09-29",
+      "volume": 89042
+    },
+    {
+      "close": 470.3,
+      "high": 474.0,
+      "low": 460.8,
+      "open": 465.05,
+      "time": "2026-09-30",
+      "volume": 95299
+    },
+    {
+      "close": 474.5,
+      "high": 484.8,
+      "low": 454.7,
+      "open": 472.05,
+      "time": "2026-10-01",
+      "volume": 401993
     }
   ],
   "company_name": "Harsha Engineers International",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": true,
     "is_stage2": true,
     "momentum_score": 86,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.95x"
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "2.19x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 3.5,
-    "change_pct": 0.76,
-    "close": 465.55,
-    "previous_close": 462.05,
+    "as_of": "2026-10-01",
+    "change": 4.2,
+    "change_pct": 0.89,
+    "close": 474.5,
+    "previous_close": 470.3,
     "type": "EOD_CLOSE",
-    "volume": 196133
+    "volume": 401993
   },
   "range": {
-    "distance_from_high_pct": -2.36,
-    "distance_from_low_pct": 48.6,
-    "high_52w": 476.8,
+    "distance_from_high_pct": -2.12,
+    "distance_from_low_pct": 51.45,
+    "high_52w": 484.8,
     "history_basis": "52_WEEK",
     "low_52w": 313.3,
-    "range_position_pct": 93.12
+    "range_position_pct": 93.99
   },
   "risk_model": {
-    "invalidation_floor": 449.26,
-    "risk_per_share": 25.6,
-    "technical_pivot": 474.86
+    "invalidation_floor": 457.89,
+    "risk_per_share": 26.1,
+    "technical_pivot": 483.99
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 405.6,
-      "high": 416.4,
-      "low": 398.1,
-      "open": 416.4,
-      "time": "2025-09-19",
-      "volume": 98523
-    },
-    {
-      "close": 406.75,
-      "high": 411.9,
-      "low": 396.0,
-      "open": 396.0,
-      "time": "2025-09-22",
-      "volume": 47457
-    },
-    {
-      "close": 403.4,
-      "high": 411.7,
-      "low": 397.3,
-      "open": 406.1,
-      "time": "2025-09-23",
-      "volume": 159826
-    },
-    {
       "close": 404.0,
       "high": 409.4,
       "low": 399.0,
@@ -2017,13 +1993,37 @@
       "open": 245.0,
       "time": "2026-09-28",
       "volume": 8552
+    },
+    {
+      "close": 230.25,
+      "high": 236.0,
+      "low": 228.25,
+      "open": 236.0,
+      "time": "2026-09-29",
+      "volume": 1353
+    },
+    {
+      "close": 222.85,
+      "high": 231.6,
+      "low": 221.35,
+      "open": 230.0,
+      "time": "2026-09-30",
+      "volume": 1653
+    },
+    {
+      "close": 216.63,
+      "high": 230.95,
+      "low": 210.82,
+      "open": 225.2,
+      "time": "2026-10-01",
+      "volume": 6122
     }
   ],
   "company_name": "ARIHANT SUPERSTRUCTURES LIMITE",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.79x"
+    "volume_multiplier": "0.58x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -6.45,
-    "change_pct": -2.66,
-    "close": 236.25,
-    "previous_close": 242.7,
+    "as_of": "2026-10-01",
+    "change": -6.22,
+    "change_pct": -2.79,
+    "close": 216.63,
+    "previous_close": 222.85,
     "type": "EOD_CLOSE",
-    "volume": 8552
+    "volume": 6122
   },
   "range": {
-    "distance_from_high_pct": -49.19,
-    "distance_from_low_pct": 25.13,
+    "distance_from_high_pct": -53.41,
+    "distance_from_low_pct": 14.74,
     "high_52w": 465.0,
     "history_basis": "52_WEEK",
     "low_52w": 188.8,
-    "range_position_pct": 17.18
+    "range_position_pct": 10.08
   },
   "risk_model": {
-    "invalidation_floor": 227.98,
-    "risk_per_share": 12.99,
-    "technical_pivot": 240.97
+    "invalidation_floor": 209.05,
+    "risk_per_share": 11.91,
+    "technical_pivot": 220.96
   },
   "schema_version": "1.0",
   "sector": null,

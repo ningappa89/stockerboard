@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 99.72,
-      "high": 100.2,
-      "low": 97.47,
-      "open": 99.8,
-      "time": "2025-09-19",
-      "volume": 13243
-    },
-    {
-      "close": 99.65,
-      "high": 100.65,
-      "low": 99.0,
-      "open": 99.73,
-      "time": "2025-09-22",
-      "volume": 5998
-    },
-    {
-      "close": 99.72,
-      "high": 101.88,
-      "low": 98.36,
-      "open": 99.01,
-      "time": "2025-09-23",
-      "volume": 17631
-    },
-    {
       "close": 98.75,
       "high": 100.04,
       "low": 98.5,
@@ -2017,13 +1993,37 @@
       "open": 76.0,
       "time": "2026-09-28",
       "volume": 2575
+    },
+    {
+      "close": 75.0,
+      "high": 75.8,
+      "low": 75.0,
+      "open": 75.1,
+      "time": "2026-09-29",
+      "volume": 1394
+    },
+    {
+      "close": 74.0,
+      "high": 77.6,
+      "low": 73.41,
+      "open": 75.01,
+      "time": "2026-09-30",
+      "volume": 18795
+    },
+    {
+      "close": 72.83,
+      "high": 74.0,
+      "low": 72.02,
+      "open": 74.0,
+      "time": "2026-10-01",
+      "volume": 1935
     }
   ],
   "company_name": "DCM LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 44,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.17x"
+    "volume_multiplier": "0.15x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.1,
-    "change_pct": 0.13,
-    "close": 75.1,
-    "previous_close": 75.0,
+    "as_of": "2026-10-01",
+    "change": -1.17,
+    "change_pct": -1.58,
+    "close": 72.83,
+    "previous_close": 74.0,
     "type": "EOD_CLOSE",
-    "volume": 2575
+    "volume": 1935
   },
   "range": {
-    "distance_from_high_pct": -28.0,
-    "distance_from_low_pct": 36.55,
+    "distance_from_high_pct": -30.17,
+    "distance_from_low_pct": 32.42,
     "high_52w": 104.3,
     "history_basis": "52_WEEK",
     "low_52w": 55.0,
-    "range_position_pct": 40.77
+    "range_position_pct": 36.17
   },
   "risk_model": {
-    "invalidation_floor": 72.47,
-    "risk_per_share": 4.13,
-    "technical_pivot": 76.6
+    "invalidation_floor": 70.28,
+    "risk_per_share": 4.01,
+    "technical_pivot": 74.29
   },
   "schema_version": "1.0",
   "sector": null,

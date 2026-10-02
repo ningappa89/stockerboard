@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 776.45,
-      "high": 795.0,
-      "low": 771.05,
-      "open": 789.6,
-      "time": "2025-09-19",
-      "volume": 293515
-    },
-    {
-      "close": 774.25,
-      "high": 788.65,
-      "low": 771.0,
-      "open": 777.45,
-      "time": "2025-09-22",
-      "volume": 252843
-    },
-    {
-      "close": 784.55,
-      "high": 792.65,
-      "low": 777.0,
-      "open": 780.0,
-      "time": "2025-09-23",
-      "volume": 420462
-    },
-    {
       "close": 784.95,
       "high": 796.35,
       "low": 777.2,
@@ -2017,13 +1993,37 @@
       "open": 1122.4,
       "time": "2026-09-28",
       "volume": 325159
+    },
+    {
+      "close": 1108.0,
+      "high": 1117.5,
+      "low": 1085.0,
+      "open": 1091.0,
+      "time": "2026-09-29",
+      "volume": 309227
+    },
+    {
+      "close": 1032.5,
+      "high": 1106.0,
+      "low": 1020.0,
+      "open": 1100.0,
+      "time": "2026-09-30",
+      "volume": 875912
+    },
+    {
+      "close": 1033.7,
+      "high": 1059.0,
+      "low": 1012.0,
+      "open": 1012.0,
+      "time": "2026-10-01",
+      "volume": 508885
     }
   ],
   "company_name": "YATHARTH HOSPITAL & TRAUMA CAR",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 79,
+    "momentum_score": 70,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.39x"
+    "volume_multiplier": "0.59x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -21.0,
-    "change_pct": -1.87,
-    "close": 1100.4,
-    "previous_close": 1121.4,
+    "as_of": "2026-10-01",
+    "change": 1.2,
+    "change_pct": 0.12,
+    "close": 1033.7,
+    "previous_close": 1032.5,
     "type": "EOD_CLOSE",
-    "volume": 325159
+    "volume": 508885
   },
   "range": {
-    "distance_from_high_pct": -7.06,
-    "distance_from_low_pct": 104.44,
+    "distance_from_high_pct": -12.69,
+    "distance_from_low_pct": 92.05,
     "high_52w": 1184.0,
     "history_basis": "52_WEEK",
     "low_52w": 538.25,
-    "range_position_pct": 87.05
+    "range_position_pct": 76.72
   },
   "risk_model": {
-    "invalidation_floor": 1061.89,
-    "risk_per_share": 60.52,
-    "technical_pivot": 1122.41
+    "invalidation_floor": 997.52,
+    "risk_per_share": 56.85,
+    "technical_pivot": 1054.37
   },
   "schema_version": "1.0",
   "sector": null,

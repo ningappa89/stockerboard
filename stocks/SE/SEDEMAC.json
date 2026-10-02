@@ -1089,46 +1089,70 @@
       "open": 3445.0,
       "time": "2026-09-28",
       "volume": 659236
+    },
+    {
+      "close": 3485.6,
+      "high": 3596.0,
+      "low": 3450.6,
+      "open": 3523.9,
+      "time": "2026-09-29",
+      "volume": 437207
+    },
+    {
+      "close": 3494.5,
+      "high": 3587.0,
+      "low": 3460.8,
+      "open": 3499.0,
+      "time": "2026-09-30",
+      "volume": 178976
+    },
+    {
+      "close": 3432.8,
+      "high": 3524.9,
+      "low": 3328.0,
+      "open": 3495.0,
+      "time": "2026-10-01",
+      "volume": 134911
     }
   ],
   "company_name": "SEDEMAC MECHATRONICS LIMITED",
   "history": {
     "first_session": "2026-03-11",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 136
+    "last_session": "2026-10-01",
+    "sessions_available": 139
   },
   "industry": null,
   "isin": "INE00XB01019",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 88,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "2.46x"
+    "momentum_score": 83,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.54x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 102.9,
-    "change_pct": 2.99,
-    "close": 3547.8,
-    "previous_close": 3444.9,
+    "as_of": "2026-10-01",
+    "change": -61.7,
+    "change_pct": -1.77,
+    "close": 3432.8,
+    "previous_close": 3494.5,
     "type": "EOD_CLOSE",
-    "volume": 659236
+    "volume": 134911
   },
   "range": {
-    "distance_from_high_pct": -1.31,
-    "distance_from_low_pct": 151.07,
-    "high_52w": 3595.0,
+    "distance_from_high_pct": -4.54,
+    "distance_from_low_pct": 142.93,
+    "high_52w": 3596.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 1413.1,
-    "range_position_pct": 97.84
+    "range_position_pct": 92.52
   },
   "risk_model": {
-    "invalidation_floor": 3423.63,
-    "risk_per_share": 195.13,
-    "technical_pivot": 3618.76
+    "invalidation_floor": 3312.65,
+    "risk_per_share": 188.81,
+    "technical_pivot": 3501.46
   },
   "schema_version": "1.0",
   "sector": null,

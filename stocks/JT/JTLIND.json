@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 76.79,
-      "high": 78.51,
-      "low": 76.51,
-      "open": 78.0,
-      "time": "2025-09-19",
-      "volume": 1252080
-    },
-    {
-      "close": 75.52,
-      "high": 77.0,
-      "low": 75.5,
-      "open": 76.84,
-      "time": "2025-09-22",
-      "volume": 810561
-    },
-    {
-      "close": 74.8,
-      "high": 75.0,
-      "low": 72.95,
-      "open": 75.0,
-      "time": "2025-09-23",
-      "volume": 2183286
-    },
-    {
       "close": 72.95,
       "high": 75.3,
       "low": 72.5,
@@ -2017,13 +1993,37 @@
       "open": 91.05,
       "time": "2026-09-28",
       "volume": 5922644
+    },
+    {
+      "close": 88.88,
+      "high": 90.5,
+      "low": 85.98,
+      "open": 88.5,
+      "time": "2026-09-29",
+      "volume": 2186784
+    },
+    {
+      "close": 88.28,
+      "high": 91.11,
+      "low": 87.8,
+      "open": 88.99,
+      "time": "2026-09-30",
+      "volume": 1732287
+    },
+    {
+      "close": 86.23,
+      "high": 88.4,
+      "low": 83.27,
+      "open": 88.4,
+      "time": "2026-10-01",
+      "volume": 2529585
     }
   ],
   "company_name": "JTL INDUSTRIES LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 80,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "1.61x"
+    "momentum_score": 77,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.86x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.29,
-    "change_pct": -3.61,
-    "close": 87.87,
-    "previous_close": 91.16,
+    "as_of": "2026-10-01",
+    "change": -2.05,
+    "change_pct": -2.32,
+    "close": 86.23,
+    "previous_close": 88.28,
     "type": "EOD_CLOSE",
-    "volume": 5922644
+    "volume": 2529585
   },
   "range": {
-    "distance_from_high_pct": -6.52,
-    "distance_from_low_pct": 118.31,
+    "distance_from_high_pct": -8.27,
+    "distance_from_low_pct": 114.24,
     "high_52w": 94.0,
     "history_basis": "52_WEEK",
     "low_52w": 40.25,
-    "range_position_pct": 88.6
+    "range_position_pct": 85.54
   },
   "risk_model": {
-    "invalidation_floor": 84.79,
-    "risk_per_share": 4.84,
-    "technical_pivot": 89.63
+    "invalidation_floor": 83.21,
+    "risk_per_share": 4.74,
+    "technical_pivot": 87.95
   },
   "schema_version": "1.0",
   "sector": null,

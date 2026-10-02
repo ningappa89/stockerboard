@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 498.9,
-      "high": 500.65,
-      "low": 494.2,
-      "open": 496.0,
-      "time": "2025-09-19",
-      "volume": 11472
-    },
-    {
-      "close": 492.3,
-      "high": 505.0,
-      "low": 487.6,
-      "open": 497.9,
-      "time": "2025-09-22",
-      "volume": 12541
-    },
-    {
-      "close": 562.2,
-      "high": 578.0,
-      "low": 492.85,
-      "open": 496.75,
-      "time": "2025-09-23",
-      "volume": 1246964
-    },
-    {
       "close": 567.9,
       "high": 597.85,
       "low": 540.1,
@@ -2017,13 +1993,37 @@
       "open": 438.5,
       "time": "2026-09-28",
       "volume": 7416
+    },
+    {
+      "close": 428.0,
+      "high": 434.45,
+      "low": 424.05,
+      "open": 429.0,
+      "time": "2026-09-29",
+      "volume": 8484
+    },
+    {
+      "close": 433.5,
+      "high": 439.85,
+      "low": 430.0,
+      "open": 430.0,
+      "time": "2026-09-30",
+      "volume": 7089
+    },
+    {
+      "close": 426.9,
+      "high": 433.4,
+      "low": 420.3,
+      "open": 430.5,
+      "time": "2026-10-01",
+      "volume": 9400
     }
   ],
   "company_name": "AUTOMOTIVE STAMPINGS & ASSEMBL",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.55x"
+    "volume_multiplier": "0.81x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -9.3,
-    "change_pct": -2.12,
-    "close": 429.2,
-    "previous_close": 438.5,
+    "as_of": "2026-10-01",
+    "change": -6.6,
+    "change_pct": -1.52,
+    "close": 426.9,
+    "previous_close": 433.5,
     "type": "EOD_CLOSE",
-    "volume": 7416
+    "volume": 9400
   },
   "range": {
-    "distance_from_high_pct": -34.44,
-    "distance_from_low_pct": 14.61,
+    "distance_from_high_pct": -34.79,
+    "distance_from_low_pct": 13.99,
     "high_52w": 654.65,
     "history_basis": "52_WEEK",
     "low_52w": 374.5,
-    "range_position_pct": 19.53
+    "range_position_pct": 18.7
   },
   "risk_model": {
-    "invalidation_floor": 414.18,
-    "risk_per_share": 23.6,
-    "technical_pivot": 437.78
+    "invalidation_floor": 411.96,
+    "risk_per_share": 23.48,
+    "technical_pivot": 435.44
   },
   "schema_version": "1.0",
   "sector": null,

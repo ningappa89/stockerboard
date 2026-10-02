@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 17.91,
-      "high": 18.06,
-      "low": 17.66,
-      "open": 18.06,
-      "time": "2025-09-19",
-      "volume": 1016652
-    },
-    {
-      "close": 17.54,
-      "high": 17.91,
-      "low": 17.5,
-      "open": 17.91,
-      "time": "2025-09-22",
-      "volume": 1154759
-    },
-    {
-      "close": 17.37,
-      "high": 17.9,
-      "low": 17.3,
-      "open": 17.53,
-      "time": "2025-09-23",
-      "volume": 735330
-    },
-    {
       "close": 17.16,
       "high": 17.45,
       "low": 17.07,
@@ -2017,13 +1993,37 @@
       "open": 20.17,
       "time": "2026-09-28",
       "volume": 82454897
+    },
+    {
+      "close": 26.18,
+      "high": 26.64,
+      "low": 22.03,
+      "open": 22.46,
+      "time": "2026-09-29",
+      "volume": 237186557
+    },
+    {
+      "close": 25.08,
+      "high": 27.49,
+      "low": 24.5,
+      "open": 27.49,
+      "time": "2026-09-30",
+      "volume": 99577808
+    },
+    {
+      "close": 23.96,
+      "high": 25.1,
+      "low": 22.68,
+      "open": 25.1,
+      "time": "2026-10-01",
+      "volume": 44387615
     }
   ],
   "company_name": "SYNCOM FORMULATIONS (INDIA) LT",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 82,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "5.42x"
+    "momentum_score": 70,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.42x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 2.15,
-    "change_pct": 10.72,
-    "close": 22.2,
-    "previous_close": 20.05,
+    "as_of": "2026-10-01",
+    "change": -1.12,
+    "change_pct": -4.47,
+    "close": 23.96,
+    "previous_close": 25.08,
     "type": "EOD_CLOSE",
-    "volume": 82454897
+    "volume": 44387615
   },
   "range": {
-    "distance_from_high_pct": -5.21,
-    "distance_from_low_pct": 117.43,
-    "high_52w": 23.42,
+    "distance_from_high_pct": -12.84,
+    "distance_from_low_pct": 134.67,
+    "high_52w": 27.49,
     "history_basis": "52_WEEK",
     "low_52w": 10.21,
-    "range_position_pct": 90.76
+    "range_position_pct": 79.57
   },
   "risk_model": {
-    "invalidation_floor": 21.42,
-    "risk_per_share": 1.22,
-    "technical_pivot": 22.64
+    "invalidation_floor": 23.12,
+    "risk_per_share": 1.32,
+    "technical_pivot": 24.44
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 474.3,
-      "high": 479.0,
-      "low": 471.05,
-      "open": 475.15,
-      "time": "2025-09-19",
-      "volume": 79904
-    },
-    {
-      "close": 463.2,
-      "high": 473.0,
-      "low": 461.35,
-      "open": 466.3,
-      "time": "2025-09-22",
-      "volume": 180193
-    },
-    {
-      "close": 461.95,
-      "high": 466.95,
-      "low": 460.2,
-      "open": 462.5,
-      "time": "2025-09-23",
-      "volume": 110793
-    },
-    {
       "close": 457.7,
       "high": 467.55,
       "low": 457.05,
@@ -2017,13 +1993,37 @@
       "open": 366.8,
       "time": "2026-09-28",
       "volume": 211930
+    },
+    {
+      "close": 354.8,
+      "high": 363.15,
+      "low": 352.0,
+      "open": 360.0,
+      "time": "2026-09-29",
+      "volume": 406266
+    },
+    {
+      "close": 348.95,
+      "high": 358.95,
+      "low": 340.2,
+      "open": 355.0,
+      "time": "2026-09-30",
+      "volume": 390892
+    },
+    {
+      "close": 338.6,
+      "high": 346.25,
+      "low": 335.5,
+      "open": 345.0,
+      "time": "2026-10-01",
+      "volume": 320580
     }
   ],
   "company_name": "INDRAPRASTHA MEDICAL CORP.LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.0x"
+    "volume_multiplier": "1.39x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.7,
-    "change_pct": -1.56,
-    "close": 360.0,
-    "previous_close": 365.7,
+    "as_of": "2026-10-01",
+    "change": -10.35,
+    "change_pct": -2.97,
+    "close": 338.6,
+    "previous_close": 348.95,
     "type": "EOD_CLOSE",
-    "volume": 211930
+    "volume": 320580
   },
   "range": {
-    "distance_from_high_pct": -43.82,
-    "distance_from_low_pct": 5.26,
+    "distance_from_high_pct": -47.16,
+    "distance_from_low_pct": 0.92,
     "high_52w": 640.85,
     "history_basis": "52_WEEK",
-    "low_52w": 342.0,
-    "range_position_pct": 6.02
+    "low_52w": 335.5,
+    "range_position_pct": 1.02
   },
   "risk_model": {
-    "invalidation_floor": 347.4,
-    "risk_per_share": 19.8,
-    "technical_pivot": 367.2
+    "invalidation_floor": 326.75,
+    "risk_per_share": 18.62,
+    "technical_pivot": 345.37
   },
   "schema_version": "1.0",
   "sector": null,

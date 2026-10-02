@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 652.3,
-      "high": 657.7,
-      "low": 645.9,
-      "open": 646.0,
-      "time": "2025-09-19",
-      "volume": 123153
-    },
-    {
-      "close": 640.25,
-      "high": 668.5,
-      "low": 638.85,
-      "open": 665.35,
-      "time": "2025-09-22",
-      "volume": 118385
-    },
-    {
-      "close": 632.05,
-      "high": 642.8,
-      "low": 628.25,
-      "open": 640.25,
-      "time": "2025-09-23",
-      "volume": 85669
-    },
-    {
       "close": 627.35,
       "high": 636.5,
       "low": 623.6,
@@ -2017,13 +1993,37 @@
       "open": 473.55,
       "time": "2026-09-28",
       "volume": 42047
+    },
+    {
+      "close": 451.4,
+      "high": 462.25,
+      "low": 450.0,
+      "open": 461.9,
+      "time": "2026-09-29",
+      "volume": 54972
+    },
+    {
+      "close": 463.3,
+      "high": 471.0,
+      "low": 452.0,
+      "open": 452.5,
+      "time": "2026-09-30",
+      "volume": 98451
+    },
+    {
+      "close": 461.85,
+      "high": 465.75,
+      "low": 442.0,
+      "open": 457.9,
+      "time": "2026-10-01",
+      "volume": 85893
     }
   ],
   "company_name": "J.KUMAR INFRAPROJECTS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
+    "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.9x"
+    "volume_multiplier": "1.76x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -12.3,
-    "change_pct": -2.6,
-    "close": 461.25,
-    "previous_close": 473.55,
+    "as_of": "2026-10-01",
+    "change": -1.45,
+    "change_pct": -0.31,
+    "close": 461.85,
+    "previous_close": 463.3,
     "type": "EOD_CLOSE",
-    "volume": 42047
+    "volume": 85893
   },
   "range": {
-    "distance_from_high_pct": -31.36,
-    "distance_from_low_pct": 8.53,
+    "distance_from_high_pct": -31.27,
+    "distance_from_low_pct": 8.67,
     "high_52w": 672.0,
     "history_basis": "52_WEEK",
     "low_52w": 425.0,
-    "range_position_pct": 14.68
+    "range_position_pct": 14.92
   },
   "risk_model": {
-    "invalidation_floor": 445.11,
-    "risk_per_share": 25.37,
-    "technical_pivot": 470.48
+    "invalidation_floor": 445.69,
+    "risk_per_share": 25.4,
+    "technical_pivot": 471.09
   },
   "schema_version": "1.0",
   "sector": null,

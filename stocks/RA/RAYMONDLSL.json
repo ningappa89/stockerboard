@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1270.8,
-      "high": 1319.6,
-      "low": 1249.4,
-      "open": 1312.5,
-      "time": "2025-09-19",
-      "volume": 114684
-    },
-    {
-      "close": 1252.7,
-      "high": 1284.9,
-      "low": 1241.0,
-      "open": 1279.9,
-      "time": "2025-09-22",
-      "volume": 106943
-    },
-    {
-      "close": 1267.2,
-      "high": 1291.9,
-      "low": 1227.3,
-      "open": 1248.0,
-      "time": "2025-09-23",
-      "volume": 136973
-    },
-    {
       "close": 1263.6,
       "high": 1292.0,
       "low": 1242.6,
@@ -2017,13 +1993,37 @@
       "open": 686.0,
       "time": "2026-09-28",
       "volume": 219826
+    },
+    {
+      "close": 660.55,
+      "high": 672.15,
+      "low": 654.0,
+      "open": 672.15,
+      "time": "2026-09-29",
+      "volume": 136756
+    },
+    {
+      "close": 642.05,
+      "high": 669.25,
+      "low": 638.2,
+      "open": 664.45,
+      "time": "2026-09-30",
+      "volume": 195234
+    },
+    {
+      "close": 627.7,
+      "high": 640.8,
+      "low": 615.0,
+      "open": 639.7,
+      "time": "2026-10-01",
+      "volume": 198109
     }
   ],
   "company_name": "Raymond Lifestyle Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.54x"
+    "volume_multiplier": "0.51x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -15.6,
-    "change_pct": -2.27,
-    "close": 672.0,
-    "previous_close": 687.6,
+    "as_of": "2026-10-01",
+    "change": -14.35,
+    "change_pct": -2.24,
+    "close": 627.7,
+    "previous_close": 642.05,
     "type": "EOD_CLOSE",
-    "volume": 219826
+    "volume": 198109
   },
   "range": {
-    "distance_from_high_pct": -49.08,
-    "distance_from_low_pct": 6.96,
-    "high_52w": 1319.6,
+    "distance_from_high_pct": -51.42,
+    "distance_from_low_pct": 2.07,
+    "high_52w": 1292.0,
     "history_basis": "52_WEEK",
-    "low_52w": 628.25,
-    "range_position_pct": 6.33
+    "low_52w": 615.0,
+    "range_position_pct": 1.88
   },
   "risk_model": {
-    "invalidation_floor": 648.48,
-    "risk_per_share": 36.96,
-    "technical_pivot": 685.44
+    "invalidation_floor": 605.73,
+    "risk_per_share": 34.52,
+    "technical_pivot": 640.25
   },
   "schema_version": "1.0",
   "sector": null,

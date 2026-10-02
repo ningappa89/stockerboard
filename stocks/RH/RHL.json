@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 259.35,
-      "high": 269.0,
-      "low": 250.4,
-      "open": 255.0,
-      "time": "2025-09-19",
-      "volume": 13230
-    },
-    {
-      "close": 264.5,
-      "high": 266.95,
-      "low": 252.0,
-      "open": 252.0,
-      "time": "2025-09-22",
-      "volume": 10270
-    },
-    {
-      "close": 255.05,
-      "high": 270.0,
-      "low": 254.1,
-      "open": 270.0,
-      "time": "2025-09-23",
-      "volume": 12078
-    },
-    {
       "close": 252.25,
       "high": 264.9,
       "low": 251.1,
@@ -2017,13 +1993,37 @@
       "open": 170.56,
       "time": "2026-09-28",
       "volume": 29821
+    },
+    {
+      "close": 164.99,
+      "high": 165.0,
+      "low": 162.99,
+      "open": 164.9,
+      "time": "2026-09-29",
+      "volume": 1539
+    },
+    {
+      "close": 165.18,
+      "high": 169.9,
+      "low": 164.99,
+      "open": 165.5,
+      "time": "2026-09-30",
+      "volume": 501
+    },
+    {
+      "close": 162.92,
+      "high": 165.99,
+      "low": 160.3,
+      "open": 165.0,
+      "time": "2026-10-01",
+      "volume": 2514
     }
   ],
   "company_name": "ROBUST HOTELS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "6.14x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.58x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -7.51,
-    "change_pct": -4.38,
-    "close": 163.9,
-    "previous_close": 171.41,
+    "as_of": "2026-10-01",
+    "change": -2.26,
+    "change_pct": -1.37,
+    "close": 162.92,
+    "previous_close": 165.18,
     "type": "EOD_CLOSE",
-    "volume": 29821
+    "volume": 2514
   },
   "range": {
-    "distance_from_high_pct": -40.16,
-    "distance_from_low_pct": 1.81,
+    "distance_from_high_pct": -40.52,
+    "distance_from_low_pct": 1.63,
     "high_52w": 273.9,
     "history_basis": "52_WEEK",
-    "low_52w": 160.98,
-    "range_position_pct": 2.59
+    "low_52w": 160.3,
+    "range_position_pct": 2.31
   },
   "risk_model": {
-    "invalidation_floor": 158.16,
-    "risk_per_share": 9.02,
-    "technical_pivot": 167.18
+    "invalidation_floor": 157.22,
+    "risk_per_share": 8.96,
+    "technical_pivot": 166.18
   },
   "schema_version": "1.0",
   "sector": null,

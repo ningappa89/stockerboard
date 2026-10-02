@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1038.2,
-      "high": 1050.5,
-      "low": 1033.7,
-      "open": 1043.7,
-      "time": "2025-09-19",
-      "volume": 169755
-    },
-    {
-      "close": 1030.2,
-      "high": 1056.0,
-      "low": 1027.2,
-      "open": 1038.2,
-      "time": "2025-09-22",
-      "volume": 50758
-    },
-    {
-      "close": 1030.1,
-      "high": 1047.0,
-      "low": 1022.3,
-      "open": 1035.6,
-      "time": "2025-09-23",
-      "volume": 65521
-    },
-    {
       "close": 1020.8,
       "high": 1044.7,
       "low": 1019.1,
@@ -2017,13 +1993,37 @@
       "open": 1178.9,
       "time": "2026-09-28",
       "volume": 78217
+    },
+    {
+      "close": 1143.2,
+      "high": 1170.9,
+      "low": 1132.8,
+      "open": 1169.8,
+      "time": "2026-09-29",
+      "volume": 696456
+    },
+    {
+      "close": 1139.3,
+      "high": 1159.0,
+      "low": 1135.0,
+      "open": 1146.4,
+      "time": "2026-09-30",
+      "volume": 74514
+    },
+    {
+      "close": 1123.6,
+      "high": 1142.9,
+      "low": 1106.1,
+      "open": 1139.3,
+      "time": "2026-10-01",
+      "volume": 145775
     }
   ],
   "company_name": "SUNDRAM FASTENERS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.31x"
+    "volume_multiplier": "0.52x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -12.3,
-    "change_pct": -1.04,
-    "close": 1166.6,
-    "previous_close": 1178.9,
+    "as_of": "2026-10-01",
+    "change": -15.7,
+    "change_pct": -1.38,
+    "close": 1123.6,
+    "previous_close": 1139.3,
     "type": "EOD_CLOSE",
-    "volume": 78217
+    "volume": 145775
   },
   "range": {
-    "distance_from_high_pct": -13.41,
-    "distance_from_low_pct": 59.79,
+    "distance_from_high_pct": -16.6,
+    "distance_from_low_pct": 53.9,
     "high_52w": 1347.2,
     "history_basis": "52_WEEK",
     "low_52w": 730.1,
-    "range_position_pct": 70.73
+    "range_position_pct": 63.77
   },
   "risk_model": {
-    "invalidation_floor": 1125.77,
-    "risk_per_share": 64.16,
-    "technical_pivot": 1189.93
+    "invalidation_floor": 1084.27,
+    "risk_per_share": 61.8,
+    "technical_pivot": 1146.07
   },
   "schema_version": "1.0",
   "sector": null,

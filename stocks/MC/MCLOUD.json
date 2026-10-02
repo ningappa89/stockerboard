@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 82.64,
-      "high": 84.3,
-      "low": 80.6,
-      "open": 82.79,
-      "time": "2025-09-19",
-      "volume": 7132913
-    },
-    {
-      "close": 83.77,
-      "high": 84.17,
-      "low": 81.4,
-      "open": 82.0,
-      "time": "2025-09-22",
-      "volume": 3169796
-    },
-    {
-      "close": 85.12,
-      "high": 87.0,
-      "low": 82.76,
-      "open": 83.76,
-      "time": "2025-09-23",
-      "volume": 6754615
-    },
-    {
       "close": 83.3,
       "high": 86.02,
       "low": 80.73,
@@ -2017,13 +1993,37 @@
       "open": 24.92,
       "time": "2026-09-28",
       "volume": 641144
+    },
+    {
+      "close": 25.12,
+      "high": 26.2,
+      "low": 23.52,
+      "open": 23.96,
+      "time": "2026-09-29",
+      "volume": 10129306
+    },
+    {
+      "close": 25.06,
+      "high": 25.79,
+      "low": 24.9,
+      "open": 25.43,
+      "time": "2026-09-30",
+      "volume": 2323995
+    },
+    {
+      "close": 24.25,
+      "high": 25.0,
+      "low": 24.0,
+      "open": 25.0,
+      "time": "2026-10-01",
+      "volume": 969374
     }
   ],
   "company_name": "MAGELLANIC CLOUD LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.5x"
+    "volume_multiplier": "0.6x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.49,
-    "change_pct": -2.0,
-    "close": 23.95,
-    "previous_close": 24.44,
+    "as_of": "2026-10-01",
+    "change": -0.81,
+    "change_pct": -3.23,
+    "close": 24.25,
+    "previous_close": 25.06,
     "type": "EOD_CLOSE",
-    "volume": 641144
+    "volume": 969374
   },
   "range": {
-    "distance_from_high_pct": -72.47,
-    "distance_from_low_pct": 23.45,
-    "high_52w": 87.0,
+    "distance_from_high_pct": -71.81,
+    "distance_from_low_pct": 25.0,
+    "high_52w": 86.02,
     "history_basis": "52_WEEK",
     "low_52w": 19.4,
-    "range_position_pct": 6.73
+    "range_position_pct": 7.28
   },
   "risk_model": {
-    "invalidation_floor": 23.11,
-    "risk_per_share": 1.32,
-    "technical_pivot": 24.43
+    "invalidation_floor": 23.4,
+    "risk_per_share": 1.33,
+    "technical_pivot": 24.73
   },
   "schema_version": "1.0",
   "sector": null,

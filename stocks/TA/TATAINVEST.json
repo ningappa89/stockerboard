@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 733.35,
-      "high": 750.0,
-      "low": 727.75,
-      "open": 750.0,
-      "time": "2025-09-19",
-      "volume": 1205690
-    },
-    {
-      "close": 728.1,
-      "high": 748.6,
-      "low": 720.2,
-      "open": 733.35,
-      "time": "2025-09-22",
-      "volume": 1284660
-    },
-    {
-      "close": 813.8,
-      "high": 823.8,
-      "low": 728.15,
-      "open": 738.8,
-      "time": "2025-09-23",
-      "volume": 17283710
-    },
-    {
       "close": 886.35,
       "high": 909.95,
       "low": 820.1,
@@ -2017,13 +1993,37 @@
       "open": 650.0,
       "time": "2026-09-28",
       "volume": 499514
+    },
+    {
+      "close": 625.45,
+      "high": 637.0,
+      "low": 621.1,
+      "open": 635.0,
+      "time": "2026-09-29",
+      "volume": 508671
+    },
+    {
+      "close": 620.05,
+      "high": 636.0,
+      "low": 616.15,
+      "open": 630.0,
+      "time": "2026-09-30",
+      "volume": 313002
+    },
+    {
+      "close": 615.05,
+      "high": 617.45,
+      "low": 604.0,
+      "open": 615.1,
+      "time": "2026-10-01",
+      "volume": 283865
     }
   ],
   "company_name": "TATA INVESTMENT CORP LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.21x"
+    "volume_multiplier": "0.12x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -7.15,
-    "change_pct": -1.1,
-    "close": 644.45,
-    "previous_close": 651.6,
+    "as_of": "2026-10-01",
+    "change": -5.0,
+    "change_pct": -0.81,
+    "close": 615.05,
+    "previous_close": 620.05,
     "type": "EOD_CLOSE",
-    "volume": 499514
+    "volume": 283865
   },
   "range": {
-    "distance_from_high_pct": -45.6,
-    "distance_from_low_pct": 19.6,
+    "distance_from_high_pct": -48.08,
+    "distance_from_low_pct": 14.14,
     "high_52w": 1184.7,
     "history_basis": "52_WEEK",
     "low_52w": 538.85,
-    "range_position_pct": 16.35
+    "range_position_pct": 11.8
   },
   "risk_model": {
-    "invalidation_floor": 621.89,
-    "risk_per_share": 35.45,
-    "technical_pivot": 657.34
+    "invalidation_floor": 593.52,
+    "risk_per_share": 33.83,
+    "technical_pivot": 627.35
   },
   "schema_version": "1.0",
   "sector": null,

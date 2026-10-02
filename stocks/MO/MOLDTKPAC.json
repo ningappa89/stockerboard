@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 826.7,
-      "high": 834.3,
-      "low": 818.55,
-      "open": 826.4,
-      "time": "2025-09-19",
-      "volume": 25939
-    },
-    {
-      "close": 812.8,
-      "high": 833.3,
-      "low": 807.0,
-      "open": 833.3,
-      "time": "2025-09-22",
-      "volume": 44649
-    },
-    {
-      "close": 801.2,
-      "high": 829.8,
-      "low": 798.25,
-      "open": 812.85,
-      "time": "2025-09-23",
-      "volume": 83828
-    },
-    {
       "close": 784.5,
       "high": 801.0,
       "low": 778.85,
@@ -2017,13 +1993,37 @@
       "open": 668.0,
       "time": "2026-09-28",
       "volume": 41940
+    },
+    {
+      "close": 642.95,
+      "high": 653.05,
+      "low": 637.0,
+      "open": 650.0,
+      "time": "2026-09-29",
+      "volume": 52648
+    },
+    {
+      "close": 660.6,
+      "high": 668.25,
+      "low": 643.0,
+      "open": 643.0,
+      "time": "2026-09-30",
+      "volume": 39184
+    },
+    {
+      "close": 658.85,
+      "high": 665.2,
+      "low": 648.8,
+      "open": 660.6,
+      "time": "2026-10-01",
+      "volume": 94944
     }
   ],
   "company_name": "MOLD-TEK PACKAGING LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 56,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.94x"
+    "momentum_score": 61,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.17x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -20.45,
-    "change_pct": -3.05,
-    "close": 649.4,
-    "previous_close": 669.85,
+    "as_of": "2026-10-01",
+    "change": -1.75,
+    "change_pct": -0.26,
+    "close": 658.85,
+    "previous_close": 660.6,
     "type": "EOD_CLOSE",
-    "volume": 41940
+    "volume": 94944
   },
   "range": {
-    "distance_from_high_pct": -22.16,
-    "distance_from_low_pct": 39.69,
-    "high_52w": 834.3,
+    "distance_from_high_pct": -19.16,
+    "distance_from_low_pct": 41.72,
+    "high_52w": 815.0,
     "history_basis": "52_WEEK",
     "low_52w": 464.9,
-    "range_position_pct": 49.95
+    "range_position_pct": 55.4
   },
   "risk_model": {
-    "invalidation_floor": 626.67,
-    "risk_per_share": 35.72,
-    "technical_pivot": 662.39
+    "invalidation_floor": 635.79,
+    "risk_per_share": 36.24,
+    "technical_pivot": 672.03
   },
   "schema_version": "1.0",
   "sector": null,

@@ -241,14 +241,38 @@
       "open": 564.65,
       "time": "2026-09-28",
       "volume": 11427
+    },
+    {
+      "close": 534.15,
+      "high": 551.0,
+      "low": 525.0,
+      "open": 551.0,
+      "time": "2026-09-29",
+      "volume": 7975
+    },
+    {
+      "close": 527.9,
+      "high": 552.75,
+      "low": 520.0,
+      "open": 535.0,
+      "time": "2026-09-30",
+      "volume": 6160
+    },
+    {
+      "close": 525.4,
+      "high": 546.95,
+      "low": 510.65,
+      "open": 546.95,
+      "time": "2026-10-01",
+      "volume": 7766
     }
   ],
   "company_name": "ONE GLOBAL SERVICE PROVIDER LI",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE670O01013",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 80,
+    "momentum_score": 75,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.62x"
+    "volume_multiplier": "0.46x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 6.2,
-    "change_pct": 1.15,
-    "close": 544.95,
-    "previous_close": 538.75,
+    "as_of": "2026-10-01",
+    "change": -2.5,
+    "change_pct": -0.47,
+    "close": 525.4,
+    "previous_close": 527.9,
     "type": "EOD_CLOSE",
-    "volume": 11427
+    "volume": 7766
   },
   "range": {
-    "distance_from_high_pct": -6.04,
-    "distance_from_low_pct": 10.31,
+    "distance_from_high_pct": -9.41,
+    "distance_from_low_pct": 6.36,
     "high_52w": 580.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 494.0,
-    "range_position_pct": 59.24
+    "range_position_pct": 36.51
   },
   "risk_model": {
-    "invalidation_floor": 525.88,
-    "risk_per_share": 29.97,
-    "technical_pivot": 555.85
+    "invalidation_floor": 507.01,
+    "risk_per_share": 28.9,
+    "technical_pivot": 535.91
   },
   "schema_version": "1.0",
   "sector": null,

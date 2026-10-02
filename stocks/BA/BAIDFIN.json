@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 11.29,
-      "high": 11.46,
-      "low": 11.15,
-      "open": 11.39,
-      "time": "2025-09-19",
-      "volume": 99335
-    },
-    {
-      "close": 11.26,
-      "high": 11.48,
-      "low": 11.16,
-      "open": 11.48,
-      "time": "2025-09-22",
-      "volume": 71795
-    },
-    {
-      "close": 11.2,
-      "high": 11.44,
-      "low": 11.15,
-      "open": 11.31,
-      "time": "2025-09-23",
-      "volume": 78340
-    },
-    {
       "close": 11.14,
       "high": 11.32,
       "low": 10.93,
@@ -2017,13 +1993,37 @@
       "open": 10.45,
       "time": "2026-09-28",
       "volume": 107527
+    },
+    {
+      "close": 10.45,
+      "high": 11.2,
+      "low": 10.39,
+      "open": 10.61,
+      "time": "2026-09-29",
+      "volume": 77641
+    },
+    {
+      "close": 10.38,
+      "high": 10.7,
+      "low": 10.26,
+      "open": 10.26,
+      "time": "2026-09-30",
+      "volume": 74200
+    },
+    {
+      "close": 10.31,
+      "high": 10.5,
+      "low": 10.15,
+      "open": 10.38,
+      "time": "2026-10-01",
+      "volume": 42200
     }
   ],
   "company_name": "BAID FINSERV LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
+    "momentum_score": 59,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "0.24x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.08,
-    "change_pct": -0.75,
-    "close": 10.61,
-    "previous_close": 10.69,
+    "as_of": "2026-10-01",
+    "change": -0.07,
+    "change_pct": -0.67,
+    "close": 10.31,
+    "previous_close": 10.38,
     "type": "EOD_CLOSE",
-    "volume": 107527
+    "volume": 42200
   },
   "range": {
-    "distance_from_high_pct": -18.26,
-    "distance_from_low_pct": 20.57,
+    "distance_from_high_pct": -20.57,
+    "distance_from_low_pct": 17.16,
     "high_52w": 12.98,
     "history_basis": "52_WEEK",
     "low_52w": 8.8,
-    "range_position_pct": 43.3
+    "range_position_pct": 36.12
   },
   "risk_model": {
-    "invalidation_floor": 10.24,
-    "risk_per_share": 0.58,
-    "technical_pivot": 10.82
+    "invalidation_floor": 9.95,
+    "risk_per_share": 0.57,
+    "technical_pivot": 10.52
   },
   "schema_version": "1.0",
   "sector": null,

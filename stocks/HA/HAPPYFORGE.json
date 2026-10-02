@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 964.75,
-      "high": 970.95,
-      "low": 953.75,
-      "open": 969.75,
-      "time": "2025-09-19",
-      "volume": 25175
-    },
-    {
-      "close": 972.6,
-      "high": 975.4,
-      "low": 961.1,
-      "open": 961.1,
-      "time": "2025-09-22",
-      "volume": 42279
-    },
-    {
-      "close": 973.85,
-      "high": 981.9,
-      "low": 962.95,
-      "open": 979.1,
-      "time": "2025-09-23",
-      "volume": 41281
-    },
-    {
       "close": 971.2,
       "high": 978.0,
       "low": 964.0,
@@ -2017,13 +1993,37 @@
       "open": 2059.9,
       "time": "2026-09-28",
       "volume": 77145
+    },
+    {
+      "close": 2074.8,
+      "high": 2096.5,
+      "low": 1961.0,
+      "open": 1995.2,
+      "time": "2026-09-29",
+      "volume": 193351
+    },
+    {
+      "close": 2067.2,
+      "high": 2107.0,
+      "low": 2050.0,
+      "open": 2079.0,
+      "time": "2026-09-30",
+      "volume": 57822
+    },
+    {
+      "close": 2003.7,
+      "high": 2099.3,
+      "low": 1991.0,
+      "open": 2079.8,
+      "time": "2026-10-01",
+      "volume": 100454
     }
   ],
   "company_name": "Happy Forgings Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.94x"
+    "volume_multiplier": "1.32x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -66.8,
-    "change_pct": -3.24,
-    "close": 1996.7,
-    "previous_close": 2063.5,
+    "as_of": "2026-10-01",
+    "change": -63.5,
+    "change_pct": -3.07,
+    "close": 2003.7,
+    "previous_close": 2067.2,
     "type": "EOD_CLOSE",
-    "volume": 77145
+    "volume": 100454
   },
   "range": {
-    "distance_from_high_pct": -19.16,
-    "distance_from_low_pct": 124.66,
+    "distance_from_high_pct": -18.88,
+    "distance_from_low_pct": 125.45,
     "high_52w": 2470.0,
     "history_basis": "52_WEEK",
     "low_52w": 888.75,
-    "range_position_pct": 70.07
+    "range_position_pct": 70.51
   },
   "risk_model": {
-    "invalidation_floor": 1926.82,
-    "risk_per_share": 109.81,
-    "technical_pivot": 2036.63
+    "invalidation_floor": 1933.57,
+    "risk_per_share": 110.2,
+    "technical_pivot": 2043.77
   },
   "schema_version": "1.0",
   "sector": null,

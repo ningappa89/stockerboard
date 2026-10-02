@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 14.99,
-      "high": 15.65,
-      "low": 14.94,
-      "open": 14.94,
-      "time": "2025-09-19",
-      "volume": 8873
-    },
-    {
-      "close": 17.86,
-      "high": 17.98,
-      "low": 14.5,
-      "open": 16.0,
-      "time": "2025-09-22",
-      "volume": 294521
-    },
-    {
-      "close": 18.11,
-      "high": 20.79,
-      "low": 17.55,
-      "open": 18.8,
-      "time": "2025-09-23",
-      "volume": 2213006
-    },
-    {
       "close": 16.64,
       "high": 17.99,
       "low": 16.2,
@@ -2017,13 +1993,37 @@
       "open": 9.64,
       "time": "2026-09-28",
       "volume": 10634
+    },
+    {
+      "close": 9.35,
+      "high": 9.55,
+      "low": 8.85,
+      "open": 9.55,
+      "time": "2026-09-29",
+      "volume": 13277
+    },
+    {
+      "close": 8.56,
+      "high": 9.43,
+      "low": 8.42,
+      "open": 9.43,
+      "time": "2026-09-30",
+      "volume": 84208
+    },
+    {
+      "close": 8.5,
+      "high": 8.8,
+      "low": 8.49,
+      "open": 8.56,
+      "time": "2026-10-01",
+      "volume": 13676
     }
   ],
   "company_name": "STL GLOBAL LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.74x"
+    "volume_multiplier": "0.71x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.09,
-    "change_pct": 1.0,
-    "close": 9.12,
-    "previous_close": 9.03,
+    "as_of": "2026-10-01",
+    "change": -0.06,
+    "change_pct": -0.7,
+    "close": 8.5,
+    "previous_close": 8.56,
     "type": "EOD_CLOSE",
-    "volume": 10634
+    "volume": 13676
   },
   "range": {
-    "distance_from_high_pct": -56.13,
-    "distance_from_low_pct": 8.57,
-    "high_52w": 20.79,
+    "distance_from_high_pct": -52.75,
+    "distance_from_low_pct": 1.19,
+    "high_52w": 17.99,
     "history_basis": "52_WEEK",
     "low_52w": 8.4,
-    "range_position_pct": 5.81
+    "range_position_pct": 1.04
   },
   "risk_model": {
-    "invalidation_floor": 8.8,
+    "invalidation_floor": 8.2,
     "risk_per_share": 0.5,
-    "technical_pivot": 9.3
+    "technical_pivot": 8.67
   },
   "schema_version": "1.0",
   "sector": null,

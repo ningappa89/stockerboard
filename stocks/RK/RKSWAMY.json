@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 155.45,
-      "high": 158.71,
-      "low": 155.1,
-      "open": 158.71,
-      "time": "2025-09-19",
-      "volume": 32455
-    },
-    {
-      "close": 157.08,
-      "high": 158.5,
-      "low": 154.0,
-      "open": 154.68,
-      "time": "2025-09-22",
-      "volume": 30890
-    },
-    {
-      "close": 154.7,
-      "high": 158.02,
-      "low": 154.0,
-      "open": 158.0,
-      "time": "2025-09-23",
-      "volume": 66871
-    },
-    {
       "close": 154.91,
       "high": 157.9,
       "low": 153.08,
@@ -2017,13 +1993,37 @@
       "open": 89.0,
       "time": "2026-09-28",
       "volume": 28611
+    },
+    {
+      "close": 89.48,
+      "high": 93.41,
+      "low": 87.01,
+      "open": 89.93,
+      "time": "2026-09-29",
+      "volume": 25503
+    },
+    {
+      "close": 90.09,
+      "high": 92.87,
+      "low": 87.51,
+      "open": 92.87,
+      "time": "2026-09-30",
+      "volume": 20350
+    },
+    {
+      "close": 86.46,
+      "high": 90.09,
+      "low": 86.02,
+      "open": 90.09,
+      "time": "2026-10-01",
+      "volume": 28240
     }
   ],
   "company_name": "R K Swamy Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.99x"
+    "volume_multiplier": "1.08x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.09,
-    "change_pct": -2.31,
-    "close": 88.5,
-    "previous_close": 90.59,
+    "as_of": "2026-10-01",
+    "change": -3.63,
+    "change_pct": -4.03,
+    "close": 86.46,
+    "previous_close": 90.09,
     "type": "EOD_CLOSE",
-    "volume": 28611
+    "volume": 28240
   },
   "range": {
-    "distance_from_high_pct": -44.24,
-    "distance_from_low_pct": 31.79,
-    "high_52w": 158.71,
+    "distance_from_high_pct": -45.24,
+    "distance_from_low_pct": 28.76,
+    "high_52w": 157.9,
     "history_basis": "52_WEEK",
     "low_52w": 67.15,
-    "range_position_pct": 23.32
+    "range_position_pct": 21.28
   },
   "risk_model": {
-    "invalidation_floor": 85.4,
-    "risk_per_share": 4.87,
-    "technical_pivot": 90.27
+    "invalidation_floor": 83.43,
+    "risk_per_share": 4.76,
+    "technical_pivot": 88.19
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2937.2,
-      "high": 2958.9,
-      "low": 2928.1,
-      "open": 2937.5,
-      "time": "2025-09-19",
-      "volume": 254678
-    },
-    {
-      "close": 2914.0,
-      "high": 2958.5,
-      "low": 2901.6,
-      "open": 2937.0,
-      "time": "2025-09-22",
-      "volume": 149602
-    },
-    {
-      "close": 2903.2,
-      "high": 2936.5,
-      "low": 2866.1,
-      "open": 2919.0,
-      "time": "2025-09-23",
-      "volume": 256230
-    },
-    {
       "close": 2907.1,
       "high": 2916.0,
       "low": 2882.6,
@@ -2017,13 +1993,37 @@
       "open": 2527.3,
       "time": "2026-09-28",
       "volume": 183054
+    },
+    {
+      "close": 2420.1,
+      "high": 2498.7,
+      "low": 2417.9,
+      "open": 2491.8,
+      "time": "2026-09-29",
+      "volume": 290746
+    },
+    {
+      "close": 2472.5,
+      "high": 2502.1,
+      "low": 2450.3,
+      "open": 2450.3,
+      "time": "2026-09-30",
+      "volume": 292029
+    },
+    {
+      "close": 2486.2,
+      "high": 2494.9,
+      "low": 2431.7,
+      "open": 2472.5,
+      "time": "2026-10-01",
+      "volume": 352530
     }
   ],
   "company_name": "SRF LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Chemicals",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.87x"
+    "volume_multiplier": "1.53x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -48.5,
-    "change_pct": -1.91,
-    "close": 2491.5,
-    "previous_close": 2540.0,
+    "as_of": "2026-10-01",
+    "change": 13.7,
+    "change_pct": 0.55,
+    "close": 2486.2,
+    "previous_close": 2472.5,
     "type": "EOD_CLOSE",
-    "volume": 183054
+    "volume": 352530
   },
   "range": {
-    "distance_from_high_pct": -22.38,
-    "distance_from_low_pct": 5.8,
+    "distance_from_high_pct": -22.55,
+    "distance_from_low_pct": 5.57,
     "high_52w": 3210.0,
     "history_basis": "52_WEEK",
     "low_52w": 2355.0,
-    "range_position_pct": 15.96
+    "range_position_pct": 15.35
   },
   "risk_model": {
-    "invalidation_floor": 2404.3,
-    "risk_per_share": 137.03,
-    "technical_pivot": 2541.33
+    "invalidation_floor": 2399.18,
+    "risk_per_share": 136.74,
+    "technical_pivot": 2535.92
   },
   "schema_version": "1.0",
   "sector": "Chemicals",

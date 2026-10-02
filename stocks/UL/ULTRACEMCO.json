@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 12508.0,
-      "high": 12644.0,
-      "low": 12484.0,
-      "open": 12602.0,
-      "time": "2025-09-19",
-      "volume": 571670
-    },
-    {
-      "close": 12650.0,
-      "high": 12706.0,
-      "low": 12542.0,
-      "open": 12547.0,
-      "time": "2025-09-22",
-      "volume": 499548
-    },
-    {
-      "close": 12401.0,
-      "high": 12698.0,
-      "low": 12361.0,
-      "open": 12650.0,
-      "time": "2025-09-23",
-      "volume": 403638
-    },
-    {
       "close": 12214.0,
       "high": 12448.0,
       "low": 12200.0,
@@ -2017,13 +1993,37 @@
       "open": 11155.0,
       "time": "2026-09-28",
       "volume": 331811
+    },
+    {
+      "close": 10829.0,
+      "high": 11027.0,
+      "low": 10826.0,
+      "open": 11010.0,
+      "time": "2026-09-29",
+      "volume": 514924
+    },
+    {
+      "close": 10956.0,
+      "high": 10971.0,
+      "low": 10800.0,
+      "open": 10829.0,
+      "time": "2026-09-30",
+      "volume": 257558
+    },
+    {
+      "close": 10710.0,
+      "high": 10879.0,
+      "low": 10612.0,
+      "open": 10810.0,
+      "time": "2026-10-01",
+      "volume": 570684
     }
   ],
   "company_name": "ULTRATECH CEMENT LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.23x"
+    "volume_multiplier": "1.91x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -130.0,
-    "change_pct": -1.17,
-    "close": 11025.0,
-    "previous_close": 11155.0,
+    "as_of": "2026-10-01",
+    "change": -246.0,
+    "change_pct": -2.25,
+    "close": 10710.0,
+    "previous_close": 10956.0,
     "type": "EOD_CLOSE",
-    "volume": 331811
+    "volume": 570684
   },
   "range": {
-    "distance_from_high_pct": -15.9,
-    "distance_from_low_pct": 6.78,
+    "distance_from_high_pct": -18.31,
+    "distance_from_low_pct": 3.73,
     "high_52w": 13110.0,
     "history_basis": "52_WEEK",
     "low_52w": 10325.0,
-    "range_position_pct": 25.13
+    "range_position_pct": 13.82
   },
   "risk_model": {
-    "invalidation_floor": 10639.12,
-    "risk_per_share": 606.38,
-    "technical_pivot": 11245.5
+    "invalidation_floor": 10335.15,
+    "risk_per_share": 589.05,
+    "technical_pivot": 10924.2
   },
   "schema_version": "1.0",
   "sector": null,

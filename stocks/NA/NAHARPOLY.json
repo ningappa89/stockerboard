@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 290.3,
-      "high": 294.0,
-      "low": 289.5,
-      "open": 293.35,
-      "time": "2025-09-19",
-      "volume": 6136
-    },
-    {
-      "close": 291.65,
-      "high": 298.8,
-      "low": 290.05,
-      "open": 290.3,
-      "time": "2025-09-22",
-      "volume": 14911
-    },
-    {
-      "close": 292.85,
-      "high": 298.95,
-      "low": 289.85,
-      "open": 292.0,
-      "time": "2025-09-23",
-      "volume": 12900
-    },
-    {
       "close": 306.6,
       "high": 309.8,
       "low": 291.5,
@@ -2017,13 +1993,37 @@
       "open": 229.9,
       "time": "2026-09-28",
       "volume": 8751
+    },
+    {
+      "close": 230.27,
+      "high": 235.0,
+      "low": 221.11,
+      "open": 224.94,
+      "time": "2026-09-29",
+      "volume": 3674
+    },
+    {
+      "close": 225.27,
+      "high": 232.97,
+      "low": 224.05,
+      "open": 232.97,
+      "time": "2026-09-30",
+      "volume": 3942
+    },
+    {
+      "close": 225.64,
+      "high": 230.0,
+      "low": 217.02,
+      "open": 228.79,
+      "time": "2026-10-01",
+      "volume": 6510
     }
   ],
   "company_name": "NAHAR POLYFILMS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.17x"
+    "volume_multiplier": "0.97x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.83,
-    "change_pct": -2.56,
-    "close": 221.85,
-    "previous_close": 227.68,
+    "as_of": "2026-10-01",
+    "change": 0.37,
+    "change_pct": 0.16,
+    "close": 225.64,
+    "previous_close": 225.27,
     "type": "EOD_CLOSE",
-    "volume": 8751
+    "volume": 6510
   },
   "range": {
-    "distance_from_high_pct": -34.52,
-    "distance_from_low_pct": 10.92,
+    "distance_from_high_pct": -33.4,
+    "distance_from_low_pct": 12.82,
     "high_52w": 338.8,
     "history_basis": "52_WEEK",
     "low_52w": 200.0,
-    "range_position_pct": 15.74
+    "range_position_pct": 18.47
   },
   "risk_model": {
-    "invalidation_floor": 214.09,
-    "risk_per_share": 12.2,
-    "technical_pivot": 226.29
+    "invalidation_floor": 217.74,
+    "risk_per_share": 12.41,
+    "technical_pivot": 230.15
   },
   "schema_version": "1.0",
   "sector": null,

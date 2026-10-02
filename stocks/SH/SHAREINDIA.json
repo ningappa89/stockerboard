@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 142.26,
-      "high": 144.68,
-      "low": 141.83,
-      "open": 144.51,
-      "time": "2025-09-19",
-      "volume": 277932
-    },
-    {
-      "close": 141.37,
-      "high": 143.79,
-      "low": 141.0,
-      "open": 142.26,
-      "time": "2025-09-22",
-      "volume": 292403
-    },
-    {
-      "close": 141.08,
-      "high": 143.16,
-      "low": 140.5,
-      "open": 142.5,
-      "time": "2025-09-23",
-      "volume": 269080
-    },
-    {
       "close": 138.3,
       "high": 141.6,
       "low": 138.01,
@@ -2017,13 +1993,37 @@
       "open": 209.7,
       "time": "2026-09-28",
       "volume": 894901
+    },
+    {
+      "close": 205.68,
+      "high": 213.12,
+      "low": 202.22,
+      "open": 206.1,
+      "time": "2026-09-29",
+      "volume": 1274403
+    },
+    {
+      "close": 205.01,
+      "high": 208.9,
+      "low": 202.5,
+      "open": 206.58,
+      "time": "2026-09-30",
+      "volume": 703869
+    },
+    {
+      "close": 205.09,
+      "high": 209.31,
+      "low": 199.12,
+      "open": 202.5,
+      "time": "2026-10-01",
+      "volume": 1139127
     }
   ],
   "company_name": "SHARE IND. SECURITIES LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 72,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.1x"
+    "volume_multiplier": "0.13x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.52,
-    "change_pct": -1.68,
-    "close": 206.1,
-    "previous_close": 209.62,
+    "as_of": "2026-10-01",
+    "change": 0.08,
+    "change_pct": 0.04,
+    "close": 205.09,
+    "previous_close": 205.01,
     "type": "EOD_CLOSE",
-    "volume": 894901
+    "volume": 1139127
   },
   "range": {
-    "distance_from_high_pct": -11.68,
-    "distance_from_low_pct": 78.66,
+    "distance_from_high_pct": -12.11,
+    "distance_from_low_pct": 77.78,
     "high_52w": 233.35,
     "history_basis": "52_WEEK",
     "low_52w": 115.36,
-    "range_position_pct": 76.9
+    "range_position_pct": 76.05
   },
   "risk_model": {
-    "invalidation_floor": 198.89,
-    "risk_per_share": 11.33,
-    "technical_pivot": 210.22
+    "invalidation_floor": 197.91,
+    "risk_per_share": 11.28,
+    "technical_pivot": 209.19
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 29880.0,
-      "high": 30145.0,
-      "low": 29685.0,
-      "open": 30145.0,
-      "time": "2025-09-19",
-      "volume": 62728
-    },
-    {
-      "close": 29705.0,
-      "high": 30000.0,
-      "low": 29650.0,
-      "open": 30000.0,
-      "time": "2025-09-22",
-      "volume": 42575
-    },
-    {
-      "close": 29790.0,
-      "high": 30115.0,
-      "low": 29690.0,
-      "open": 29895.0,
-      "time": "2025-09-23",
-      "volume": 33031
-    },
-    {
       "close": 29650.0,
       "high": 30000.0,
       "low": 29555.0,
@@ -2017,13 +1993,37 @@
       "open": 22305.0,
       "time": "2026-09-28",
       "volume": 17002
+    },
+    {
+      "close": 21900.0,
+      "high": 22360.0,
+      "low": 21550.0,
+      "open": 22170.0,
+      "time": "2026-09-29",
+      "volume": 450209
+    },
+    {
+      "close": 22345.0,
+      "high": 22400.0,
+      "low": 21900.0,
+      "open": 21900.0,
+      "time": "2026-09-30",
+      "volume": 20963
+    },
+    {
+      "close": 21900.0,
+      "high": 22275.0,
+      "low": 21355.0,
+      "open": 22250.0,
+      "time": "2026-10-01",
+      "volume": 59306
     }
   ],
   "company_name": "SHREE CEMENT LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 49,
+    "momentum_score": 48,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.93x"
+    "volume_multiplier": "1.4x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -350.0,
-    "change_pct": -1.55,
-    "close": 22170.0,
-    "previous_close": 22520.0,
+    "as_of": "2026-10-01",
+    "change": -445.0,
+    "change_pct": -1.99,
+    "close": 21900.0,
+    "previous_close": 22345.0,
     "type": "EOD_CLOSE",
-    "volume": 17002
+    "volume": 59306
   },
   "range": {
-    "distance_from_high_pct": -26.8,
-    "distance_from_low_pct": 2.33,
+    "distance_from_high_pct": -27.69,
+    "distance_from_low_pct": 2.55,
     "high_52w": 30285.0,
     "history_basis": "52_WEEK",
-    "low_52w": 21665.0,
-    "range_position_pct": 5.86
+    "low_52w": 21355.0,
+    "range_position_pct": 6.1
   },
   "risk_model": {
-    "invalidation_floor": 21394.05,
-    "risk_per_share": 1219.35,
-    "technical_pivot": 22613.4
+    "invalidation_floor": 21133.5,
+    "risk_per_share": 1204.5,
+    "technical_pivot": 22338.0
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1979.0,
-      "high": 1999.9,
-      "low": 1958.9,
-      "open": 1964.7,
-      "time": "2025-09-19",
-      "volume": 6117
-    },
-    {
-      "close": 1986.4,
-      "high": 1999.9,
-      "low": 1956.2,
-      "open": 1980.6,
-      "time": "2025-09-22",
-      "volume": 7400
-    },
-    {
-      "close": 1979.8,
-      "high": 1993.9,
-      "low": 1970.2,
-      "open": 1980.6,
-      "time": "2025-09-23",
-      "volume": 3155
-    },
-    {
       "close": 1991.5,
       "high": 2012.4,
       "low": 1965.0,
@@ -2017,13 +1993,37 @@
       "open": 1438.8,
       "time": "2026-09-28",
       "volume": 21222
+    },
+    {
+      "close": 1406.0,
+      "high": 1442.8,
+      "low": 1390.0,
+      "open": 1441.0,
+      "time": "2026-09-29",
+      "volume": 7707
+    },
+    {
+      "close": 1400.1,
+      "high": 1426.5,
+      "low": 1394.1,
+      "open": 1406.0,
+      "time": "2026-09-30",
+      "volume": 6563
+    },
+    {
+      "close": 1391.2,
+      "high": 1415.8,
+      "low": 1350.0,
+      "open": 1399.9,
+      "time": "2026-10-01",
+      "volume": 7041
     }
   ],
   "company_name": "BIRLANU LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 47,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.45x"
+    "momentum_score": 43,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.79x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 2.2,
-    "change_pct": 0.15,
-    "close": 1441.0,
-    "previous_close": 1438.8,
+    "as_of": "2026-10-01",
+    "change": -8.9,
+    "change_pct": -0.64,
+    "close": 1391.2,
+    "previous_close": 1400.1,
     "type": "EOD_CLOSE",
-    "volume": 21222
+    "volume": 7041
   },
   "range": {
-    "distance_from_high_pct": -28.39,
-    "distance_from_low_pct": 21.08,
+    "distance_from_high_pct": -30.87,
+    "distance_from_low_pct": 16.9,
     "high_52w": 2012.4,
     "history_basis": "52_WEEK",
     "low_52w": 1190.1,
-    "range_position_pct": 30.51
+    "range_position_pct": 24.46
   },
   "risk_model": {
-    "invalidation_floor": 1390.57,
-    "risk_per_share": 79.25,
-    "technical_pivot": 1469.82
+    "invalidation_floor": 1342.51,
+    "risk_per_share": 76.51,
+    "technical_pivot": 1419.02
   },
   "schema_version": "1.0",
   "sector": null,

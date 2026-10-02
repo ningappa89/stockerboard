@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 161.12,
-      "high": 163.5,
-      "low": 158.5,
-      "open": 160.4,
-      "time": "2025-09-19",
-      "volume": 1803214
-    },
-    {
-      "close": 154.85,
-      "high": 163.3,
-      "low": 154.0,
-      "open": 161.12,
-      "time": "2025-09-22",
-      "volume": 1313858
-    },
-    {
-      "close": 157.8,
-      "high": 159.0,
-      "low": 153.57,
-      "open": 155.8,
-      "time": "2025-09-23",
-      "volume": 919654
-    },
-    {
       "close": 153.99,
       "high": 157.63,
       "low": 152.25,
@@ -2017,13 +1993,37 @@
       "open": 121.0,
       "time": "2026-09-28",
       "volume": 333312
+    },
+    {
+      "close": 117.48,
+      "high": 119.91,
+      "low": 115.33,
+      "open": 119.91,
+      "time": "2026-09-29",
+      "volume": 1234073
+    },
+    {
+      "close": 117.6,
+      "high": 119.2,
+      "low": 116.5,
+      "open": 118.0,
+      "time": "2026-09-30",
+      "volume": 211189
+    },
+    {
+      "close": 115.29,
+      "high": 117.6,
+      "low": 114.1,
+      "open": 117.6,
+      "time": "2026-10-01",
+      "volume": 257321
     }
   ],
   "company_name": "REDTAPE LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 50,
+    "momentum_score": 48,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.15x"
+    "volume_multiplier": "0.12x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.08,
-    "change_pct": -0.89,
-    "close": 119.97,
-    "previous_close": 121.05,
+    "as_of": "2026-10-01",
+    "change": -2.31,
+    "change_pct": -1.96,
+    "close": 115.29,
+    "previous_close": 117.6,
     "type": "EOD_CLOSE",
-    "volume": 333312
+    "volume": 257321
   },
   "range": {
-    "distance_from_high_pct": -26.62,
-    "distance_from_low_pct": 11.57,
-    "high_52w": 163.5,
+    "distance_from_high_pct": -27.49,
+    "distance_from_low_pct": 7.22,
+    "high_52w": 158.99,
     "history_basis": "52_WEEK",
     "low_52w": 107.53,
-    "range_position_pct": 22.23
+    "range_position_pct": 15.08
   },
   "risk_model": {
-    "invalidation_floor": 115.77,
-    "risk_per_share": 6.6,
-    "technical_pivot": 122.37
+    "invalidation_floor": 111.25,
+    "risk_per_share": 6.35,
+    "technical_pivot": 117.6
   },
   "schema_version": "1.0",
   "sector": null,

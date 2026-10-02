@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 564.65,
-      "high": 567.0,
-      "low": 560.05,
-      "open": 564.4,
-      "time": "2025-09-19",
-      "volume": 180631
-    },
-    {
-      "close": 554.05,
-      "high": 568.85,
-      "low": 551.55,
-      "open": 567.0,
-      "time": "2025-09-22",
-      "volume": 209103
-    },
-    {
-      "close": 547.65,
-      "high": 561.25,
-      "low": 543.25,
-      "open": 556.25,
-      "time": "2025-09-23",
-      "volume": 193177
-    },
-    {
       "close": 550.75,
       "high": 552.0,
       "low": 542.45,
@@ -2017,13 +1993,37 @@
       "open": 412.8,
       "time": "2026-09-28",
       "volume": 98851
+    },
+    {
+      "close": 410.15,
+      "high": 413.5,
+      "low": 390.55,
+      "open": 411.0,
+      "time": "2026-09-29",
+      "volume": 413765
+    },
+    {
+      "close": 387.45,
+      "high": 411.35,
+      "low": 386.0,
+      "open": 407.1,
+      "time": "2026-09-30",
+      "volume": 332564
+    },
+    {
+      "close": 379.7,
+      "high": 386.95,
+      "low": 373.35,
+      "open": 385.0,
+      "time": "2026-10-01",
+      "volume": 227031
     }
   ],
   "company_name": "Arvind Fashions Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 49,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.52x"
+    "volume_multiplier": "1.07x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.45,
-    "change_pct": -0.83,
-    "close": 413.75,
-    "previous_close": 417.2,
+    "as_of": "2026-10-01",
+    "change": -7.75,
+    "change_pct": -2.0,
+    "close": 379.7,
+    "previous_close": 387.45,
     "type": "EOD_CLOSE",
-    "volume": 98851
+    "volume": 227031
   },
   "range": {
-    "distance_from_high_pct": -27.28,
-    "distance_from_low_pct": 12.98,
+    "distance_from_high_pct": -33.27,
+    "distance_from_low_pct": 3.69,
     "high_52w": 569.0,
     "history_basis": "52_WEEK",
     "low_52w": 366.2,
-    "range_position_pct": 23.45
+    "range_position_pct": 6.66
   },
   "risk_model": {
-    "invalidation_floor": 399.27,
-    "risk_per_share": 22.76,
-    "technical_pivot": 422.03
+    "invalidation_floor": 366.41,
+    "risk_per_share": 20.88,
+    "technical_pivot": 387.29
   },
   "schema_version": "1.0",
   "sector": null,

@@ -241,14 +241,38 @@
       "open": 672.0,
       "time": "2026-09-28",
       "volume": 29985
+    },
+    {
+      "close": 682.1,
+      "high": 690.0,
+      "low": 654.05,
+      "open": 659.8,
+      "time": "2026-09-29",
+      "volume": 5117
+    },
+    {
+      "close": 684.5,
+      "high": 700.0,
+      "low": 671.3,
+      "open": 671.3,
+      "time": "2026-09-30",
+      "volume": 6607
+    },
+    {
+      "close": 702.4,
+      "high": 705.0,
+      "low": 690.2,
+      "open": 690.85,
+      "time": "2026-10-01",
+      "volume": 9548
     }
   ],
   "company_name": "AMAL LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE841D01013",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 61,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.45x"
+    "momentum_score": 68,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.8x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -8.85,
-    "change_pct": -1.31,
-    "close": 665.55,
-    "previous_close": 674.4,
+    "as_of": "2026-10-01",
+    "change": 17.9,
+    "change_pct": 2.62,
+    "close": 702.4,
+    "previous_close": 684.5,
     "type": "EOD_CLOSE",
-    "volume": 29985
+    "volume": 9548
   },
   "range": {
-    "distance_from_high_pct": -19.03,
-    "distance_from_low_pct": 4.64,
+    "distance_from_high_pct": -14.55,
+    "distance_from_low_pct": 10.43,
     "high_52w": 822.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 636.05,
-    "range_position_pct": 15.86
+    "range_position_pct": 35.68
   },
   "risk_model": {
-    "invalidation_floor": 642.26,
-    "risk_per_share": 36.6,
-    "technical_pivot": 678.86
+    "invalidation_floor": 677.82,
+    "risk_per_share": 38.63,
+    "technical_pivot": 716.45
   },
   "schema_version": "1.0",
   "sector": null,

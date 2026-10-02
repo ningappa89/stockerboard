@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 915.05,
-      "high": 928.7,
-      "low": 909.8,
-      "open": 915.5,
-      "time": "2025-09-19",
-      "volume": 41334
-    },
-    {
-      "close": 939.8,
-      "high": 962.9,
-      "low": 910.05,
-      "open": 915.05,
-      "time": "2025-09-22",
-      "volume": 85149
-    },
-    {
-      "close": 916.55,
-      "high": 942.85,
-      "low": 915.4,
-      "open": 939.0,
-      "time": "2025-09-23",
-      "volume": 38387
-    },
-    {
       "close": 900.0,
       "high": 924.85,
       "low": 891.0,
@@ -2017,13 +1993,37 @@
       "open": 846.3,
       "time": "2026-09-28",
       "volume": 56362
+    },
+    {
+      "close": 834.8,
+      "high": 862.0,
+      "low": 825.2,
+      "open": 844.0,
+      "time": "2026-09-29",
+      "volume": 39721
+    },
+    {
+      "close": 845.6,
+      "high": 875.75,
+      "low": 837.5,
+      "open": 856.0,
+      "time": "2026-09-30",
+      "volume": 43706
+    },
+    {
+      "close": 826.85,
+      "high": 843.85,
+      "low": 815.05,
+      "open": 843.85,
+      "time": "2026-10-01",
+      "volume": 30642
     }
   ],
   "company_name": "Cosmo First Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.79x"
+    "volume_multiplier": "0.67x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -6.65,
-    "change_pct": -0.78,
-    "close": 842.75,
-    "previous_close": 849.4,
+    "as_of": "2026-10-01",
+    "change": -18.75,
+    "change_pct": -2.22,
+    "close": 826.85,
+    "previous_close": 845.6,
     "type": "EOD_CLOSE",
-    "volume": 56362
+    "volume": 30642
   },
   "range": {
-    "distance_from_high_pct": -15.39,
-    "distance_from_low_pct": 50.28,
+    "distance_from_high_pct": -16.98,
+    "distance_from_low_pct": 47.44,
     "high_52w": 996.0,
     "history_basis": "52_WEEK",
     "low_52w": 560.8,
-    "range_position_pct": 64.79
+    "range_position_pct": 61.13
   },
   "risk_model": {
-    "invalidation_floor": 813.25,
-    "risk_per_share": 46.36,
-    "technical_pivot": 859.61
+    "invalidation_floor": 797.91,
+    "risk_per_share": 45.48,
+    "technical_pivot": 843.39
   },
   "schema_version": "1.0",
   "sector": null,

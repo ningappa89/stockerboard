@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 539.15,
-      "high": 542.0,
-      "low": 530.3,
-      "open": 538.6,
-      "time": "2025-09-19",
-      "volume": 339996
-    },
-    {
-      "close": 527.55,
-      "high": 539.95,
-      "low": 523.5,
-      "open": 539.15,
-      "time": "2025-09-22",
-      "volume": 429493
-    },
-    {
-      "close": 535.35,
-      "high": 538.5,
-      "low": 522.55,
-      "open": 529.9,
-      "time": "2025-09-23",
-      "volume": 379297
-    },
-    {
       "close": 539.85,
       "high": 547.8,
       "low": 531.05,
@@ -2017,13 +1993,37 @@
       "open": 439.15,
       "time": "2026-09-28",
       "volume": 161832
+    },
+    {
+      "close": 432.5,
+      "high": 443.95,
+      "low": 427.3,
+      "open": 435.1,
+      "time": "2026-09-29",
+      "volume": 376339
+    },
+    {
+      "close": 436.0,
+      "high": 438.0,
+      "low": 427.55,
+      "open": 432.5,
+      "time": "2026-09-30",
+      "volume": 338639
+    },
+    {
+      "close": 448.4,
+      "high": 452.7,
+      "low": 432.05,
+      "open": 438.0,
+      "time": "2026-10-01",
+      "volume": 620361
     }
   ],
   "company_name": "AADHAR HOUSING FINANCE L",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 56,
+    "momentum_score": 59,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.47x"
+    "volume_multiplier": "1.65x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -7.55,
-    "change_pct": -1.7,
-    "close": 436.95,
-    "previous_close": 444.5,
+    "as_of": "2026-10-01",
+    "change": 12.4,
+    "change_pct": 2.84,
+    "close": 448.4,
+    "previous_close": 436.0,
     "type": "EOD_CLOSE",
-    "volume": 161832
+    "volume": 620361
   },
   "range": {
-    "distance_from_high_pct": -22.39,
-    "distance_from_low_pct": 1.58,
+    "distance_from_high_pct": -20.36,
+    "distance_from_low_pct": 4.94,
     "high_52w": 563.0,
     "history_basis": "52_WEEK",
-    "low_52w": 430.15,
-    "range_position_pct": 5.12
+    "low_52w": 427.3,
+    "range_position_pct": 15.55
   },
   "risk_model": {
-    "invalidation_floor": 421.66,
-    "risk_per_share": 24.03,
-    "technical_pivot": 445.69
+    "invalidation_floor": 432.71,
+    "risk_per_share": 24.66,
+    "technical_pivot": 457.37
   },
   "schema_version": "1.0",
   "sector": null,

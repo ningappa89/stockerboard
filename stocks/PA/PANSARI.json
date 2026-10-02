@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 273.65,
-      "high": 275.0,
-      "low": 265.15,
-      "open": 271.9,
-      "time": "2025-09-16",
-      "volume": 1764
-    },
-    {
-      "close": 276.0,
-      "high": 276.0,
-      "low": 263.6,
-      "open": 268.8,
-      "time": "2025-09-17",
-      "volume": 931
-    },
-    {
-      "close": 268.6,
-      "high": 276.0,
-      "low": 268.35,
-      "open": 276.0,
-      "time": "2025-09-18",
-      "volume": 356
-    },
-    {
       "close": 273.45,
       "high": 274.95,
       "low": 263.0,
@@ -2017,13 +1993,37 @@
       "open": 288.0,
       "time": "2026-09-28",
       "volume": 721
+    },
+    {
+      "close": 274.55,
+      "high": 283.0,
+      "low": 271.0,
+      "open": 273.15,
+      "time": "2026-09-29",
+      "volume": 528
+    },
+    {
+      "close": 274.0,
+      "high": 275.0,
+      "low": 270.0,
+      "open": 274.65,
+      "time": "2026-09-30",
+      "volume": 804
+    },
+    {
+      "close": 260.0,
+      "high": 274.0,
+      "low": 260.0,
+      "open": 274.0,
+      "time": "2026-10-01",
+      "volume": 110
     }
   ],
   "company_name": "PANSARI DEVELOPERS LTD",
   "history": {
-    "first_session": "2025-09-16",
+    "first_session": "2025-09-19",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 51,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.85x"
+    "volume_multiplier": "0.15x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.95,
-    "change_pct": -0.33,
-    "close": 289.0,
-    "previous_close": 289.95,
+    "as_of": "2026-10-01",
+    "change": -14.0,
+    "change_pct": -5.11,
+    "close": 260.0,
+    "previous_close": 274.0,
     "type": "EOD_CLOSE",
-    "volume": 721
+    "volume": 110
   },
   "range": {
-    "distance_from_high_pct": -25.69,
-    "distance_from_low_pct": 23.87,
+    "distance_from_high_pct": -33.14,
+    "distance_from_low_pct": 11.44,
     "high_52w": 388.9,
     "history_basis": "52_WEEK",
     "low_52w": 233.3,
-    "range_position_pct": 35.8
+    "range_position_pct": 17.16
   },
   "risk_model": {
-    "invalidation_floor": 278.88,
-    "risk_per_share": 15.9,
-    "technical_pivot": 294.78
+    "invalidation_floor": 250.9,
+    "risk_per_share": 14.3,
+    "technical_pivot": 265.2
   },
   "schema_version": "1.0",
   "sector": null,

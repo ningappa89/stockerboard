@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 409.1,
-      "high": 410.45,
-      "low": 407.0,
-      "open": 407.0,
-      "time": "2025-09-19",
-      "volume": 4772377
-    },
-    {
-      "close": 408.85,
-      "high": 411.7,
-      "low": 407.1,
-      "open": 408.0,
-      "time": "2025-09-22",
-      "volume": 3096650
-    },
-    {
-      "close": 412.9,
-      "high": 415.0,
-      "low": 409.1,
-      "open": 409.1,
-      "time": "2025-09-23",
-      "volume": 4410834
-    },
-    {
       "close": 410.7,
       "high": 414.75,
       "low": 409.6,
@@ -2017,13 +1993,37 @@
       "open": 338.3,
       "time": "2026-09-28",
       "volume": 10003097
+    },
+    {
+      "close": 324.1,
+      "high": 330.6,
+      "low": 320.8,
+      "open": 330.25,
+      "time": "2026-09-29",
+      "volume": 13111275
+    },
+    {
+      "close": 325.5,
+      "high": 332.5,
+      "low": 325.0,
+      "open": 325.85,
+      "time": "2026-09-30",
+      "volume": 9986223
+    },
+    {
+      "close": 318.0,
+      "high": 326.5,
+      "low": 313.35,
+      "open": 325.85,
+      "time": "2026-10-01",
+      "volume": 9777829
     }
   ],
   "company_name": "POWER FIN CORP LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 41,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.12x"
+    "volume_multiplier": "1.09x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -8.0,
-    "change_pct": -2.37,
-    "close": 330.0,
-    "previous_close": 338.0,
+    "as_of": "2026-10-01",
+    "change": -7.5,
+    "change_pct": -2.3,
+    "close": 318.0,
+    "previous_close": 325.5,
     "type": "EOD_CLOSE",
-    "volume": 10003097
+    "volume": 9777829
   },
   "range": {
-    "distance_from_high_pct": -32.17,
-    "distance_from_low_pct": 0.29,
+    "distance_from_high_pct": -34.64,
+    "distance_from_low_pct": 1.48,
     "high_52w": 486.5,
     "history_basis": "52_WEEK",
-    "low_52w": 329.05,
-    "range_position_pct": 0.6
+    "low_52w": 313.35,
+    "range_position_pct": 2.69
   },
   "risk_model": {
-    "invalidation_floor": 318.45,
-    "risk_per_share": 18.15,
-    "technical_pivot": 336.6
+    "invalidation_floor": 306.87,
+    "risk_per_share": 17.49,
+    "technical_pivot": 324.36
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1.6,
-      "high": 1.61,
-      "low": 1.58,
-      "open": 1.6,
-      "time": "2025-09-19",
-      "volume": 772473
-    },
-    {
-      "close": 1.59,
-      "high": 1.63,
-      "low": 1.59,
-      "open": 1.61,
-      "time": "2025-09-22",
-      "volume": 482278
-    },
-    {
-      "close": 1.6,
-      "high": 1.62,
-      "low": 1.56,
-      "open": 1.56,
-      "time": "2025-09-23",
-      "volume": 389820
-    },
-    {
       "close": 1.62,
       "high": 1.69,
       "low": 1.58,
@@ -2017,13 +1993,37 @@
       "open": 0.72,
       "time": "2026-09-28",
       "volume": 1274918
+    },
+    {
+      "close": 0.72,
+      "high": 0.73,
+      "low": 0.71,
+      "open": 0.72,
+      "time": "2026-09-29",
+      "volume": 626550
+    },
+    {
+      "close": 0.72,
+      "high": 0.73,
+      "low": 0.72,
+      "open": 0.73,
+      "time": "2026-09-30",
+      "volume": 528176
+    },
+    {
+      "close": 0.7,
+      "high": 0.73,
+      "low": 0.68,
+      "open": 0.73,
+      "time": "2026-10-01",
+      "volume": 1038530
     }
   ],
   "company_name": "MITTAL LIFE STYLE LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.51x"
+    "volume_multiplier": "0.41x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.0,
-    "change_pct": 0.0,
-    "close": 0.71,
-    "previous_close": 0.71,
+    "as_of": "2026-10-01",
+    "change": -0.02,
+    "change_pct": -2.78,
+    "close": 0.7,
+    "previous_close": 0.72,
     "type": "EOD_CLOSE",
-    "volume": 1274918
+    "volume": 1038530
   },
   "range": {
-    "distance_from_high_pct": -57.99,
-    "distance_from_low_pct": 1.43,
+    "distance_from_high_pct": -58.58,
+    "distance_from_low_pct": 2.94,
     "high_52w": 1.69,
     "history_basis": "52_WEEK",
-    "low_52w": 0.7,
-    "range_position_pct": 1.01
+    "low_52w": 0.68,
+    "range_position_pct": 1.98
   },
   "risk_model": {
-    "invalidation_floor": 0.69,
+    "invalidation_floor": 0.68,
     "risk_per_share": 0.5,
-    "technical_pivot": 0.72
+    "technical_pivot": 0.71
   },
   "schema_version": "1.0",
   "sector": null,

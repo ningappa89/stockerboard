@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 462.15,
-      "high": 465.95,
-      "low": 457.3,
-      "open": 459.9,
-      "time": "2025-09-19",
-      "volume": 41117
-    },
-    {
-      "close": 457.2,
-      "high": 464.8,
-      "low": 455.2,
-      "open": 461.9,
-      "time": "2025-09-22",
-      "volume": 25883
-    },
-    {
-      "close": 455.6,
-      "high": 466.0,
-      "low": 451.5,
-      "open": 458.5,
-      "time": "2025-09-23",
-      "volume": 82006
-    },
-    {
       "close": 478.6,
       "high": 484.0,
       "low": 453.6,
@@ -2017,13 +1993,37 @@
       "open": 570.1,
       "time": "2026-09-28",
       "volume": 117486
+    },
+    {
+      "close": 582.7,
+      "high": 585.4,
+      "low": 568.85,
+      "open": 579.2,
+      "time": "2026-09-29",
+      "volume": 68787
+    },
+    {
+      "close": 585.9,
+      "high": 599.95,
+      "low": 583.0,
+      "open": 583.0,
+      "time": "2026-09-30",
+      "volume": 133185
+    },
+    {
+      "close": 563.85,
+      "high": 591.15,
+      "low": 550.0,
+      "open": 590.0,
+      "time": "2026-10-01",
+      "volume": 194894
     }
   ],
   "company_name": "Sandhar Technologies Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 53,
+    "momentum_score": 50,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.87x"
+    "volume_multiplier": "1.56x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 2.55,
-    "change_pct": 0.44,
-    "close": 576.55,
-    "previous_close": 574.0,
+    "as_of": "2026-10-01",
+    "change": -22.05,
+    "change_pct": -3.76,
+    "close": 563.85,
+    "previous_close": 585.9,
     "type": "EOD_CLOSE",
-    "volume": 117486
+    "volume": 194894
   },
   "range": {
-    "distance_from_high_pct": -24.46,
-    "distance_from_low_pct": 35.98,
+    "distance_from_high_pct": -26.12,
+    "distance_from_low_pct": 32.98,
     "high_52w": 763.2,
     "history_basis": "52_WEEK",
     "low_52w": 424.0,
-    "range_position_pct": 44.97
+    "range_position_pct": 41.23
   },
   "risk_model": {
-    "invalidation_floor": 556.37,
-    "risk_per_share": 31.71,
-    "technical_pivot": 588.08
+    "invalidation_floor": 544.12,
+    "risk_per_share": 31.01,
+    "technical_pivot": 575.13
   },
   "schema_version": "1.0",
   "sector": null,

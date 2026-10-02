@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 139.58,
-      "high": 141.35,
-      "low": 138.1,
-      "open": 140.77,
-      "time": "2025-09-19",
-      "volume": 110666
-    },
-    {
-      "close": 138.91,
-      "high": 140.05,
-      "low": 138.1,
-      "open": 138.7,
-      "time": "2025-09-22",
-      "volume": 59794
-    },
-    {
-      "close": 137.89,
-      "high": 140.7,
-      "low": 136.9,
-      "open": 140.7,
-      "time": "2025-09-23",
-      "volume": 94618
-    },
-    {
       "close": 136.36,
       "high": 138.99,
       "low": 135.8,
@@ -2017,13 +1993,37 @@
       "open": 137.2,
       "time": "2026-09-28",
       "volume": 148229
+    },
+    {
+      "close": 136.52,
+      "high": 140.89,
+      "low": 136.5,
+      "open": 137.11,
+      "time": "2026-09-29",
+      "volume": 206749
+    },
+    {
+      "close": 136.84,
+      "high": 138.95,
+      "low": 136.0,
+      "open": 137.6,
+      "time": "2026-09-30",
+      "volume": 93564
+    },
+    {
+      "close": 139.01,
+      "high": 139.7,
+      "low": 136.0,
+      "open": 137.3,
+      "time": "2026-10-01",
+      "volume": 229896
     }
   ],
   "company_name": "MANBA FINANCE LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 74,
+    "momentum_score": 75,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.96x"
+    "volume_multiplier": "1.34x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.67,
-    "change_pct": -1.2,
-    "close": 137.68,
-    "previous_close": 139.35,
+    "as_of": "2026-10-01",
+    "change": 2.17,
+    "change_pct": 1.59,
+    "close": 139.01,
+    "previous_close": 136.84,
     "type": "EOD_CLOSE",
-    "volume": 148229
+    "volume": 229896
   },
   "range": {
-    "distance_from_high_pct": -10.6,
-    "distance_from_low_pct": 40.49,
+    "distance_from_high_pct": -9.73,
+    "distance_from_low_pct": 41.85,
     "high_52w": 154.0,
     "history_basis": "52_WEEK",
     "low_52w": 98.0,
-    "range_position_pct": 70.86
+    "range_position_pct": 73.23
   },
   "risk_model": {
-    "invalidation_floor": 132.86,
-    "risk_per_share": 7.57,
-    "technical_pivot": 140.43
+    "invalidation_floor": 134.14,
+    "risk_per_share": 7.65,
+    "technical_pivot": 141.79
   },
   "schema_version": "1.0",
   "sector": null,

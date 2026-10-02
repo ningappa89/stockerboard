@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 113.3,
-      "high": 114.3,
-      "low": 111.86,
-      "open": 112.5,
-      "time": "2025-09-19",
-      "volume": 27593935
-    },
-    {
-      "close": 113.04,
-      "high": 115.0,
-      "low": 112.7,
-      "open": 113.29,
-      "time": "2025-09-22",
-      "volume": 16831733
-    },
-    {
-      "close": 113.43,
-      "high": 114.09,
-      "low": 112.43,
-      "open": 113.09,
-      "time": "2025-09-23",
-      "volume": 12673502
-    },
-    {
       "close": 111.01,
       "high": 114.49,
       "low": 110.61,
@@ -2017,13 +1993,37 @@
       "open": 116.55,
       "time": "2026-09-28",
       "volume": 14250157
+    },
+    {
+      "close": 111.75,
+      "high": 113.98,
+      "low": 110.56,
+      "open": 112.55,
+      "time": "2026-09-29",
+      "volume": 25885049
+    },
+    {
+      "close": 113.06,
+      "high": 114.9,
+      "low": 111.8,
+      "open": 111.8,
+      "time": "2026-09-30",
+      "volume": 15255055
+    },
+    {
+      "close": 109.57,
+      "high": 113.38,
+      "low": 109.37,
+      "open": 113.06,
+      "time": "2026-10-01",
+      "volume": 11365686
     }
   ],
   "company_name": "PUNJAB NATIONAL BANK",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.08x"
+    "volume_multiplier": "0.85x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.0,
-    "change_pct": -3.43,
-    "close": 112.6,
-    "previous_close": 116.6,
+    "as_of": "2026-10-01",
+    "change": -3.49,
+    "change_pct": -3.09,
+    "close": 109.57,
+    "previous_close": 113.06,
     "type": "EOD_CLOSE",
-    "volume": 14250157
+    "volume": 11365686
   },
   "range": {
-    "distance_from_high_pct": -16.69,
-    "distance_from_low_pct": 14.31,
+    "distance_from_high_pct": -18.93,
+    "distance_from_low_pct": 11.24,
     "high_52w": 135.15,
     "history_basis": "52_WEEK",
     "low_52w": 98.5,
-    "range_position_pct": 38.47
+    "range_position_pct": 30.2
   },
   "risk_model": {
-    "invalidation_floor": 108.66,
-    "risk_per_share": 6.19,
-    "technical_pivot": 114.85
+    "invalidation_floor": 105.74,
+    "risk_per_share": 6.02,
+    "technical_pivot": 111.76
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

@@ -241,14 +241,38 @@
       "open": 1780.0,
       "time": "2026-09-28",
       "volume": 686
+    },
+    {
+      "close": 1633.5,
+      "high": 1696.9,
+      "low": 1619.9,
+      "open": 1684.0,
+      "time": "2026-09-29",
+      "volume": 2291
+    },
+    {
+      "close": 1638.0,
+      "high": 1674.9,
+      "low": 1630.0,
+      "open": 1630.0,
+      "time": "2026-09-30",
+      "volume": 339
+    },
+    {
+      "close": 1622.7,
+      "high": 1649.8,
+      "low": 1605.0,
+      "open": 1636.0,
+      "time": "2026-10-01",
+      "volume": 696
     }
   ],
   "company_name": "AUTOMOBILE CORPN OF GOA L",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE451C01013",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
     "volume_multiplier": "0.79x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -41.9,
-    "change_pct": -2.41,
-    "close": 1695.9,
-    "previous_close": 1737.8,
+    "as_of": "2026-10-01",
+    "change": -15.3,
+    "change_pct": -0.93,
+    "close": 1622.7,
+    "previous_close": 1638.0,
     "type": "EOD_CLOSE",
-    "volume": 686
+    "volume": 696
   },
   "range": {
-    "distance_from_high_pct": -13.56,
-    "distance_from_low_pct": 0.77,
+    "distance_from_high_pct": -17.29,
+    "distance_from_low_pct": 1.1,
     "high_52w": 1961.9,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 1683.0,
-    "range_position_pct": 4.63
+    "low_52w": 1605.0,
+    "range_position_pct": 4.96
   },
   "risk_model": {
-    "invalidation_floor": 1636.54,
-    "risk_per_share": 93.28,
-    "technical_pivot": 1729.82
+    "invalidation_floor": 1565.91,
+    "risk_per_share": 89.24,
+    "technical_pivot": 1655.15
   },
   "schema_version": "1.0",
   "sector": null,

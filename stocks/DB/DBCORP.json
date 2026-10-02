@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 277.25,
-      "high": 281.8,
-      "low": 275.4,
-      "open": 281.8,
-      "time": "2025-09-19",
-      "volume": 33909
-    },
-    {
-      "close": 274.3,
-      "high": 278.6,
-      "low": 272.0,
-      "open": 278.6,
-      "time": "2025-09-22",
-      "volume": 51201
-    },
-    {
-      "close": 273.6,
-      "high": 278.7,
-      "low": 272.05,
-      "open": 274.35,
-      "time": "2025-09-23",
-      "volume": 36039
-    },
-    {
       "close": 267.15,
       "high": 278.65,
       "low": 266.0,
@@ -2017,13 +1993,37 @@
       "open": 182.61,
       "time": "2026-09-28",
       "volume": 41285
+    },
+    {
+      "close": 175.73,
+      "high": 179.88,
+      "low": 174.72,
+      "open": 178.0,
+      "time": "2026-09-29",
+      "volume": 102069
+    },
+    {
+      "close": 175.38,
+      "high": 181.6,
+      "low": 174.01,
+      "open": 177.02,
+      "time": "2026-09-30",
+      "volume": 195863
+    },
+    {
+      "close": 172.52,
+      "high": 178.7,
+      "low": 169.81,
+      "open": 175.38,
+      "time": "2026-10-01",
+      "volume": 101816
     }
   ],
   "company_name": "D B CORP LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Media Entertainment & Publication",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.64x"
+    "volume_multiplier": "1.36x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.16,
-    "change_pct": -1.74,
-    "close": 178.55,
-    "previous_close": 181.71,
+    "as_of": "2026-10-01",
+    "change": -2.86,
+    "change_pct": -1.63,
+    "close": 172.52,
+    "previous_close": 175.38,
     "type": "EOD_CLOSE",
-    "volume": 41285
+    "volume": 101816
   },
   "range": {
-    "distance_from_high_pct": -36.64,
-    "distance_from_low_pct": 0.3,
-    "high_52w": 281.8,
+    "distance_from_high_pct": -38.51,
+    "distance_from_low_pct": 1.6,
+    "high_52w": 280.55,
     "history_basis": "52_WEEK",
-    "low_52w": 178.01,
-    "range_position_pct": 0.52
+    "low_52w": 169.81,
+    "range_position_pct": 2.45
   },
   "risk_model": {
-    "invalidation_floor": 172.3,
-    "risk_per_share": 9.82,
-    "technical_pivot": 182.12
+    "invalidation_floor": 166.48,
+    "risk_per_share": 9.49,
+    "technical_pivot": 175.97
   },
   "schema_version": "1.0",
   "sector": "Media Entertainment & Publication",

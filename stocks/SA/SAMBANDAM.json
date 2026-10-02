@@ -217,14 +217,38 @@
       "open": 110.0,
       "time": "2026-09-28",
       "volume": 696
+    },
+    {
+      "close": 109.98,
+      "high": 110.15,
+      "low": 105.0,
+      "open": 106.24,
+      "time": "2026-09-29",
+      "volume": 212
+    },
+    {
+      "close": 111.4,
+      "high": 114.7,
+      "low": 105.1,
+      "open": 109.98,
+      "time": "2026-09-30",
+      "volume": 576
+    },
+    {
+      "close": 107.1,
+      "high": 111.0,
+      "low": 107.1,
+      "open": 111.0,
+      "time": "2026-10-01",
+      "volume": 19
     }
   ],
   "company_name": "SAMBANDAM SPINNING MILLS LTD.",
   "history": {
     "first_session": "2026-08-19",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 27
+    "last_session": "2026-10-01",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE304D01012",
@@ -234,29 +258,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.13x"
+    "volume_multiplier": "0.03x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.59,
-    "change_pct": -5.0,
-    "close": 106.24,
-    "previous_close": 111.83,
+    "as_of": "2026-10-01",
+    "change": -4.3,
+    "change_pct": -3.86,
+    "close": 107.1,
+    "previous_close": 111.4,
     "type": "EOD_CLOSE",
-    "volume": 696
+    "volume": 19
   },
   "range": {
-    "distance_from_high_pct": -34.38,
-    "distance_from_low_pct": 8.74,
+    "distance_from_high_pct": -33.85,
+    "distance_from_low_pct": 9.62,
     "high_52w": 161.9,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 97.7,
-    "range_position_pct": 13.3
+    "range_position_pct": 14.64
   },
   "risk_model": {
-    "invalidation_floor": 102.52,
-    "risk_per_share": 5.84,
-    "technical_pivot": 108.36
+    "invalidation_floor": 103.35,
+    "risk_per_share": 5.89,
+    "technical_pivot": 109.24
   },
   "schema_version": "1.0",
   "sector": null,

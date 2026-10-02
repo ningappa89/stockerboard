@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 137.51,
-      "high": 140.91,
-      "low": 137.0,
-      "open": 138.3,
-      "time": "2025-09-19",
-      "volume": 31999
-    },
-    {
-      "close": 138.68,
-      "high": 142.0,
-      "low": 136.0,
-      "open": 136.0,
-      "time": "2025-09-22",
-      "volume": 50635
-    },
-    {
-      "close": 148.11,
-      "high": 152.0,
-      "low": 141.45,
-      "open": 143.0,
-      "time": "2025-09-23",
-      "volume": 611980
-    },
-    {
       "close": 145.41,
       "high": 148.17,
       "low": 142.1,
@@ -2017,13 +1993,37 @@
       "open": 100.0,
       "time": "2026-09-28",
       "volume": 24606
+    },
+    {
+      "close": 97.01,
+      "high": 102.5,
+      "low": 95.23,
+      "open": 97.2,
+      "time": "2026-09-29",
+      "volume": 24960
+    },
+    {
+      "close": 95.5,
+      "high": 99.96,
+      "low": 95.0,
+      "open": 95.02,
+      "time": "2026-09-30",
+      "volume": 15961
+    },
+    {
+      "close": 89.86,
+      "high": 100.0,
+      "low": 88.61,
+      "open": 98.5,
+      "time": "2026-10-01",
+      "volume": 89730
     }
   ],
   "company_name": "POPULAR VEHICLES N SER L",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.01x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "3.34x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.01,
-    "change_pct": -1.02,
-    "close": 97.66,
-    "previous_close": 98.67,
+    "as_of": "2026-10-01",
+    "change": -5.64,
+    "change_pct": -5.91,
+    "close": 89.86,
+    "previous_close": 95.5,
     "type": "EOD_CLOSE",
-    "volume": 24606
+    "volume": 89730
   },
   "range": {
-    "distance_from_high_pct": -40.09,
-    "distance_from_low_pct": 18.51,
+    "distance_from_high_pct": -44.87,
+    "distance_from_low_pct": 9.04,
     "high_52w": 163.0,
     "history_basis": "52_WEEK",
     "low_52w": 82.41,
-    "range_position_pct": 18.92
+    "range_position_pct": 9.24
   },
   "risk_model": {
-    "invalidation_floor": 94.24,
-    "risk_per_share": 5.37,
-    "technical_pivot": 99.61
+    "invalidation_floor": 86.71,
+    "risk_per_share": 4.95,
+    "technical_pivot": 91.66
   },
   "schema_version": "1.0",
   "sector": null,

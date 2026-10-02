@@ -1521,46 +1521,70 @@
       "open": 3170.1,
       "time": "2026-09-28",
       "volume": 166130
+    },
+    {
+      "close": 3233.0,
+      "high": 3265.0,
+      "low": 3167.0,
+      "open": 3220.0,
+      "time": "2026-09-29",
+      "volume": 769671
+    },
+    {
+      "close": 3136.7,
+      "high": 3249.0,
+      "low": 3107.4,
+      "open": 3249.0,
+      "time": "2026-09-30",
+      "volume": 372808
+    },
+    {
+      "close": 3084.4,
+      "high": 3121.1,
+      "low": 3055.0,
+      "open": 3121.0,
+      "time": "2026-10-01",
+      "volume": 524043
     }
   ],
   "company_name": "ICICI PRUDENTIAL AMC LTD",
   "history": {
     "first_session": "2025-12-19",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 190
+    "last_session": "2026-10-01",
+    "sessions_available": 193
   },
   "industry": null,
   "isin": "INE346A01027",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 73,
+    "is_stage2": false,
+    "momentum_score": 68,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.37x"
+    "volume_multiplier": "1.27x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 29.9,
-    "change_pct": 0.94,
-    "close": 3214.5,
-    "previous_close": 3184.6,
+    "as_of": "2026-10-01",
+    "change": -52.3,
+    "change_pct": -1.67,
+    "close": 3084.4,
+    "previous_close": 3136.7,
     "type": "EOD_CLOSE",
-    "volume": 166130
+    "volume": 524043
   },
   "range": {
-    "distance_from_high_pct": -10.98,
-    "distance_from_low_pct": 27.06,
+    "distance_from_high_pct": -14.58,
+    "distance_from_low_pct": 21.91,
     "high_52w": 3611.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 2530.0,
-    "range_position_pct": 63.32
+    "range_position_pct": 51.29
   },
   "risk_model": {
-    "invalidation_floor": 3101.99,
-    "risk_per_share": 176.8,
-    "technical_pivot": 3278.79
+    "invalidation_floor": 2976.45,
+    "risk_per_share": 169.64,
+    "technical_pivot": 3146.09
   },
   "schema_version": "1.0",
   "sector": null,

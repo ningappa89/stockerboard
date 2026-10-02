@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1736.8,
-      "high": 1744.2,
-      "low": 1709.8,
-      "open": 1717.4,
-      "time": "2025-09-19",
-      "volume": 29766
-    },
-    {
-      "close": 1696.5,
-      "high": 1737.4,
-      "low": 1685.0,
-      "open": 1737.4,
-      "time": "2025-09-22",
-      "volume": 29632
-    },
-    {
-      "close": 1712.4,
-      "high": 1719.0,
-      "low": 1695.0,
-      "open": 1705.0,
-      "time": "2025-09-23",
-      "volume": 22837
-    },
-    {
       "close": 1719.8,
       "high": 1724.9,
       "low": 1698.0,
@@ -2017,13 +1993,37 @@
       "open": 1206.4,
       "time": "2026-09-28",
       "volume": 26786
+    },
+    {
+      "close": 1174.3,
+      "high": 1210.9,
+      "low": 1172.4,
+      "open": 1195.0,
+      "time": "2026-09-29",
+      "volume": 67018
+    },
+    {
+      "close": 1168.3,
+      "high": 1192.8,
+      "low": 1165.0,
+      "open": 1182.0,
+      "time": "2026-09-30",
+      "volume": 45076
+    },
+    {
+      "close": 1208.1,
+      "high": 1221.0,
+      "low": 1143.6,
+      "open": 1173.5,
+      "time": "2026-10-01",
+      "volume": 60315
     }
   ],
   "company_name": "VINATI ORGANICS LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.44x"
+    "volume_multiplier": "0.93x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -15.4,
-    "change_pct": -1.28,
-    "close": 1191.0,
-    "previous_close": 1206.4,
+    "as_of": "2026-10-01",
+    "change": 39.8,
+    "change_pct": 3.41,
+    "close": 1208.1,
+    "previous_close": 1168.3,
     "type": "EOD_CLOSE",
-    "volume": 26786
+    "volume": 60315
   },
   "range": {
-    "distance_from_high_pct": -35.62,
-    "distance_from_low_pct": 0.08,
+    "distance_from_high_pct": -34.69,
+    "distance_from_low_pct": 5.64,
     "high_52w": 1849.9,
     "history_basis": "52_WEEK",
-    "low_52w": 1190.0,
-    "range_position_pct": 0.15
+    "low_52w": 1143.6,
+    "range_position_pct": 9.13
   },
   "risk_model": {
-    "invalidation_floor": 1149.32,
-    "risk_per_share": 65.5,
-    "technical_pivot": 1214.82
+    "invalidation_floor": 1165.82,
+    "risk_per_share": 66.44,
+    "technical_pivot": 1232.26
   },
   "schema_version": "1.0",
   "sector": null,

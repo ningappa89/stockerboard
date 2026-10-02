@@ -969,14 +969,38 @@
       "open": 193.04,
       "time": "2026-09-28",
       "volume": 30246
+    },
+    {
+      "close": 194.12,
+      "high": 198.8,
+      "low": 188.82,
+      "open": 194.95,
+      "time": "2026-09-29",
+      "volume": 22967
+    },
+    {
+      "close": 192.19,
+      "high": 198.3,
+      "low": 184.42,
+      "open": 192.08,
+      "time": "2026-09-30",
+      "volume": 34060
+    },
+    {
+      "close": 189.45,
+      "high": 195.8,
+      "low": 182.59,
+      "open": 195.11,
+      "time": "2026-10-01",
+      "volume": 41570
     }
   ],
   "company_name": "NIMBUS PROJECTS LIMITED",
   "history": {
     "first_session": "2026-04-06",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 121
+    "last_session": "2026-10-01",
+    "sessions_available": 124
   },
   "industry": null,
   "isin": "INE875B01015",
@@ -984,31 +1008,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 68,
+    "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.81x"
+    "volume_multiplier": "1.76x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 1.68,
-    "change_pct": 0.85,
-    "close": 198.75,
-    "previous_close": 197.07,
+    "as_of": "2026-10-01",
+    "change": -2.74,
+    "change_pct": -1.43,
+    "close": 189.45,
+    "previous_close": 192.19,
     "type": "EOD_CLOSE",
-    "volume": 30246
+    "volume": 41570
   },
   "range": {
-    "distance_from_high_pct": -14.05,
-    "distance_from_low_pct": 40.92,
+    "distance_from_high_pct": -18.07,
+    "distance_from_low_pct": 34.32,
     "high_52w": 231.23,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 141.04,
-    "range_position_pct": 63.99
+    "range_position_pct": 53.68
   },
   "risk_model": {
-    "invalidation_floor": 191.79,
-    "risk_per_share": 10.93,
-    "technical_pivot": 202.72
+    "invalidation_floor": 182.82,
+    "risk_per_share": 10.42,
+    "technical_pivot": 193.24
   },
   "schema_version": "1.0",
   "sector": null,

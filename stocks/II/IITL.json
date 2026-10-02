@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 186.52,
-      "high": 189.06,
-      "low": 180.6,
-      "open": 180.6,
-      "time": "2025-09-19",
-      "volume": 29106
-    },
-    {
-      "close": 182.66,
-      "high": 188.9,
-      "low": 178.43,
-      "open": 188.8,
-      "time": "2025-09-22",
-      "volume": 10071
-    },
-    {
-      "close": 181.87,
-      "high": 184.39,
-      "low": 180.67,
-      "open": 180.67,
-      "time": "2025-09-23",
-      "volume": 705
-    },
-    {
       "close": 182.48,
       "high": 188.0,
       "low": 180.43,
@@ -2017,13 +1993,37 @@
       "open": 138.0,
       "time": "2026-09-28",
       "volume": 97686
+    },
+    {
+      "close": 125.64,
+      "high": 132.85,
+      "low": 123.85,
+      "open": 132.85,
+      "time": "2026-09-29",
+      "volume": 111438
+    },
+    {
+      "close": 133.26,
+      "high": 139.25,
+      "low": 127.52,
+      "open": 127.69,
+      "time": "2026-09-30",
+      "volume": 113106
+    },
+    {
+      "close": 132.56,
+      "high": 139.85,
+      "low": 128.25,
+      "open": 133.0,
+      "time": "2026-10-01",
+      "volume": 91702
     }
   ],
   "company_name": "INDUSTRIAL INV TRUST LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.86x"
+    "volume_multiplier": "0.8x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.69,
-    "change_pct": -4.15,
-    "close": 131.58,
-    "previous_close": 137.27,
+    "as_of": "2026-10-01",
+    "change": -0.7,
+    "change_pct": -0.53,
+    "close": 132.56,
+    "previous_close": 133.26,
     "type": "EOD_CLOSE",
-    "volume": 97686
+    "volume": 91702
   },
   "range": {
-    "distance_from_high_pct": -39.08,
-    "distance_from_low_pct": 21.83,
+    "distance_from_high_pct": -38.63,
+    "distance_from_low_pct": 22.74,
     "high_52w": 216.0,
     "history_basis": "52_WEEK",
     "low_52w": 108.0,
-    "range_position_pct": 21.83
+    "range_position_pct": 22.74
   },
   "risk_model": {
-    "invalidation_floor": 126.97,
-    "risk_per_share": 7.24,
-    "technical_pivot": 134.21
+    "invalidation_floor": 127.92,
+    "risk_per_share": 7.29,
+    "technical_pivot": 135.21
   },
   "schema_version": "1.0",
   "sector": null,

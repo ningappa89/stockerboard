@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 41.73,
-      "high": 42.0,
-      "low": 41.56,
-      "open": 42.0,
-      "time": "2025-09-19",
-      "volume": 16622
-    },
-    {
-      "close": 41.4,
-      "high": 42.18,
-      "low": 41.23,
-      "open": 41.5,
-      "time": "2025-09-22",
-      "volume": 18496
-    },
-    {
-      "close": 40.76,
-      "high": 42.24,
-      "low": 40.7,
-      "open": 41.85,
-      "time": "2025-09-23",
-      "volume": 34987
-    },
-    {
       "close": 40.58,
       "high": 40.71,
       "low": 40.33,
@@ -2017,13 +1993,37 @@
       "open": 31.75,
       "time": "2026-09-28",
       "volume": 81728
+    },
+    {
+      "close": 30.58,
+      "high": 31.46,
+      "low": 30.01,
+      "open": 31.46,
+      "time": "2026-09-29",
+      "volume": 21238
+    },
+    {
+      "close": 28.87,
+      "high": 31.78,
+      "low": 28.5,
+      "open": 30.66,
+      "time": "2026-09-30",
+      "volume": 201576
+    },
+    {
+      "close": 27.73,
+      "high": 29.1,
+      "low": 27.05,
+      "open": 28.96,
+      "time": "2026-10-01",
+      "volume": 83235
     }
   ],
   "company_name": "RAJSHREE SUGARS & CHEMICALS LT",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.14x"
+    "volume_multiplier": "1.07x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.97,
-    "change_pct": -3.05,
-    "close": 30.84,
-    "previous_close": 31.81,
+    "as_of": "2026-10-01",
+    "change": -1.14,
+    "change_pct": -3.95,
+    "close": 27.73,
+    "previous_close": 28.87,
     "type": "EOD_CLOSE",
-    "volume": 81728
+    "volume": 83235
   },
   "range": {
-    "distance_from_high_pct": -27.4,
-    "distance_from_low_pct": 25.11,
+    "distance_from_high_pct": -34.72,
+    "distance_from_low_pct": 12.49,
     "high_52w": 42.48,
     "history_basis": "52_WEEK",
     "low_52w": 24.65,
-    "range_position_pct": 34.72
+    "range_position_pct": 17.27
   },
   "risk_model": {
-    "invalidation_floor": 29.76,
-    "risk_per_share": 1.7,
-    "technical_pivot": 31.46
+    "invalidation_floor": 26.76,
+    "risk_per_share": 1.52,
+    "technical_pivot": 28.28
   },
   "schema_version": "1.0",
   "sector": null,

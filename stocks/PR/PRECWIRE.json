@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 182.36,
-      "high": 186.9,
-      "low": 181.5,
-      "open": 182.5,
-      "time": "2025-09-19",
-      "volume": 130290
-    },
-    {
-      "close": 180.81,
-      "high": 184.94,
-      "low": 180.33,
-      "open": 183.09,
-      "time": "2025-09-22",
-      "volume": 86117
-    },
-    {
-      "close": 180.11,
-      "high": 183.0,
-      "low": 179.52,
-      "open": 180.85,
-      "time": "2025-09-23",
-      "volume": 128861
-    },
-    {
       "close": 189.31,
       "high": 198.96,
       "low": 180.0,
@@ -2017,13 +1993,37 @@
       "open": 500.0,
       "time": "2026-09-28",
       "volume": 492667
+    },
+    {
+      "close": 500.15,
+      "high": 513.7,
+      "low": 476.55,
+      "open": 480.0,
+      "time": "2026-09-29",
+      "volume": 1563376
+    },
+    {
+      "close": 492.45,
+      "high": 509.0,
+      "low": 490.25,
+      "open": 497.5,
+      "time": "2026-09-30",
+      "volume": 310956
+    },
+    {
+      "close": 501.4,
+      "high": 508.2,
+      "low": 484.1,
+      "open": 491.85,
+      "time": "2026-10-01",
+      "volume": 696872
     }
   ],
   "company_name": "PRECISION WIRES INDIA LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 77,
+    "momentum_score": 83,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.64x"
+    "volume_multiplier": "1.03x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -21.95,
-    "change_pct": -4.37,
-    "close": 480.65,
-    "previous_close": 502.6,
+    "as_of": "2026-10-01",
+    "change": 8.95,
+    "change_pct": 1.82,
+    "close": 501.4,
+    "previous_close": 492.45,
     "type": "EOD_CLOSE",
-    "volume": 492667
+    "volume": 696872
   },
   "range": {
-    "distance_from_high_pct": -8.43,
-    "distance_from_low_pct": 167.74,
+    "distance_from_high_pct": -4.48,
+    "distance_from_low_pct": 178.56,
     "high_52w": 524.9,
     "history_basis": "52_WEEK",
-    "low_52w": 179.52,
-    "range_position_pct": 87.19
+    "low_52w": 180.0,
+    "range_position_pct": 93.19
   },
   "risk_model": {
-    "invalidation_floor": 463.83,
-    "risk_per_share": 26.43,
-    "technical_pivot": 490.26
+    "invalidation_floor": 483.85,
+    "risk_per_share": 27.58,
+    "technical_pivot": 511.43
   },
   "schema_version": "1.0",
   "sector": null,

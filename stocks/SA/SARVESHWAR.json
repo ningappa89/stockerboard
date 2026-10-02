@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 6.58,
-      "high": 6.64,
-      "low": 6.1,
-      "open": 6.25,
-      "time": "2025-09-19",
-      "volume": 44582176
-    },
-    {
-      "close": 6.63,
-      "high": 6.83,
-      "low": 6.53,
-      "open": 6.57,
-      "time": "2025-09-22",
-      "volume": 25700466
-    },
-    {
-      "close": 6.44,
-      "high": 6.71,
-      "low": 6.43,
-      "open": 6.67,
-      "time": "2025-09-23",
-      "volume": 23293275
-    },
-    {
       "close": 6.3,
       "high": 6.52,
       "low": 6.27,
@@ -2017,13 +1993,37 @@
       "open": 3.59,
       "time": "2026-09-28",
       "volume": 1786986
+    },
+    {
+      "close": 3.44,
+      "high": 3.59,
+      "low": 3.4,
+      "open": 3.55,
+      "time": "2026-09-29",
+      "volume": 1542269
+    },
+    {
+      "close": 3.49,
+      "high": 3.56,
+      "low": 3.45,
+      "open": 3.45,
+      "time": "2026-09-30",
+      "volume": 1207657
+    },
+    {
+      "close": 3.44,
+      "high": 3.69,
+      "low": 3.41,
+      "open": 3.52,
+      "time": "2026-10-01",
+      "volume": 1535950
     }
   ],
   "company_name": "SARVESHWAR FOODS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.59x"
+    "volume_multiplier": "0.49x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.04,
-    "change_pct": -1.13,
-    "close": 3.49,
-    "previous_close": 3.53,
+    "as_of": "2026-10-01",
+    "change": -0.05,
+    "change_pct": -1.43,
+    "close": 3.44,
+    "previous_close": 3.49,
     "type": "EOD_CLOSE",
-    "volume": 1786986
+    "volume": 1535950
   },
   "range": {
-    "distance_from_high_pct": -48.9,
-    "distance_from_low_pct": 39.6,
-    "high_52w": 6.83,
+    "distance_from_high_pct": -48.19,
+    "distance_from_low_pct": 37.6,
+    "high_52w": 6.64,
     "history_basis": "52_WEEK",
     "low_52w": 2.5,
-    "range_position_pct": 22.86
+    "range_position_pct": 22.71
   },
   "risk_model": {
-    "invalidation_floor": 3.37,
+    "invalidation_floor": 3.32,
     "risk_per_share": 0.5,
-    "technical_pivot": 3.56
+    "technical_pivot": 3.51
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 181.65,
-      "high": 182.05,
-      "low": 180.5,
-      "open": 181.1,
-      "time": "2025-09-19",
-      "volume": 6567199
-    },
-    {
-      "close": 180.95,
-      "high": 182.36,
-      "low": 179.85,
-      "open": 181.6,
-      "time": "2025-09-22",
-      "volume": 5333007
-    },
-    {
-      "close": 178.66,
-      "high": 181.7,
-      "low": 178.15,
-      "open": 181.1,
-      "time": "2025-09-23",
-      "volume": 6368313
-    },
-    {
       "close": 175.91,
       "high": 179.0,
       "low": 175.66,
@@ -2017,13 +1993,37 @@
       "open": 172.7,
       "time": "2026-09-28",
       "volume": 11202821
+    },
+    {
+      "close": 170.04,
+      "high": 173.26,
+      "low": 168.43,
+      "open": 172.34,
+      "time": "2026-09-29",
+      "volume": 12119087
+    },
+    {
+      "close": 170.55,
+      "high": 172.99,
+      "low": 170.21,
+      "open": 170.62,
+      "time": "2026-09-30",
+      "volume": 12187561
+    },
+    {
+      "close": 171.22,
+      "high": 171.89,
+      "low": 168.55,
+      "open": 170.6,
+      "time": "2026-10-01",
+      "volume": 6882008
     }
   ],
   "company_name": "GAIL (INDIA) LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Oil Gas & Consumable Fuels",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 78,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "1.77x"
+    "momentum_score": 77,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.05x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.25,
-    "change_pct": -0.14,
-    "close": 172.45,
-    "previous_close": 172.7,
+    "as_of": "2026-10-01",
+    "change": 0.67,
+    "change_pct": 0.39,
+    "close": 171.22,
+    "previous_close": 170.55,
     "type": "EOD_CLOSE",
-    "volume": 11202821
+    "volume": 6882008
   },
   "range": {
-    "distance_from_high_pct": -7.72,
-    "distance_from_low_pct": 28.35,
+    "distance_from_high_pct": -8.37,
+    "distance_from_low_pct": 27.43,
     "high_52w": 186.87,
     "history_basis": "52_WEEK",
     "low_52w": 134.36,
-    "range_position_pct": 72.54
+    "range_position_pct": 70.2
   },
   "risk_model": {
-    "invalidation_floor": 166.41,
-    "risk_per_share": 9.49,
-    "technical_pivot": 175.9
+    "invalidation_floor": 165.23,
+    "risk_per_share": 9.41,
+    "technical_pivot": 174.64
   },
   "schema_version": "1.0",
   "sector": "Oil Gas & Consumable Fuels",

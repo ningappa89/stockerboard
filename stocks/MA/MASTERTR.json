@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 142.4,
-      "high": 144.19,
-      "low": 141.61,
-      "open": 142.92,
-      "time": "2025-09-19",
-      "volume": 100994
-    },
-    {
-      "close": 141.5,
-      "high": 146.5,
-      "low": 138.15,
-      "open": 145.69,
-      "time": "2025-09-22",
-      "volume": 1568426
-    },
-    {
-      "close": 141.15,
-      "high": 144.35,
-      "low": 139.01,
-      "open": 141.98,
-      "time": "2025-09-23",
-      "volume": 1089462
-    },
-    {
       "close": 137.97,
       "high": 143.54,
       "low": 136.53,
@@ -2017,13 +1993,37 @@
       "open": 84.8,
       "time": "2026-09-28",
       "volume": 137320
+    },
+    {
+      "close": 83.11,
+      "high": 83.66,
+      "low": 81.95,
+      "open": 82.5,
+      "time": "2026-09-29",
+      "volume": 120809
+    },
+    {
+      "close": 82.14,
+      "high": 84.14,
+      "low": 81.55,
+      "open": 83.72,
+      "time": "2026-09-30",
+      "volume": 223611
+    },
+    {
+      "close": 81.66,
+      "high": 82.9,
+      "low": 80.3,
+      "open": 82.01,
+      "time": "2026-10-01",
+      "volume": 184334
     }
   ],
   "company_name": "MASTER TRUST LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.14x"
+    "volume_multiplier": "0.18x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.74,
-    "change_pct": -2.05,
-    "close": 83.13,
-    "previous_close": 84.87,
+    "as_of": "2026-10-01",
+    "change": -0.48,
+    "change_pct": -0.58,
+    "close": 81.66,
+    "previous_close": 82.14,
     "type": "EOD_CLOSE",
-    "volume": 137320
+    "volume": 184334
   },
   "range": {
-    "distance_from_high_pct": -49.47,
-    "distance_from_low_pct": 49.51,
+    "distance_from_high_pct": -50.36,
+    "distance_from_low_pct": 46.87,
     "high_52w": 164.5,
     "history_basis": "52_WEEK",
     "low_52w": 55.6,
-    "range_position_pct": 25.28
+    "range_position_pct": 23.93
   },
   "risk_model": {
-    "invalidation_floor": 80.22,
-    "risk_per_share": 4.57,
-    "technical_pivot": 84.79
+    "invalidation_floor": 78.8,
+    "risk_per_share": 4.49,
+    "technical_pivot": 83.29
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 181.31,
-      "high": 187.9,
-      "low": 180.52,
-      "open": 185.5,
-      "time": "2025-09-19",
-      "volume": 37757
-    },
-    {
-      "close": 177.55,
-      "high": 187.39,
-      "low": 176.0,
-      "open": 180.8,
-      "time": "2025-09-22",
-      "volume": 13108
-    },
-    {
-      "close": 175.35,
-      "high": 184.44,
-      "low": 172.01,
-      "open": 178.0,
-      "time": "2025-09-23",
-      "volume": 12177
-    },
-    {
       "close": 167.89,
       "high": 175.5,
       "low": 165.8,
@@ -2017,13 +1993,37 @@
       "open": 166.0,
       "time": "2026-09-28",
       "volume": 3797
+    },
+    {
+      "close": 159.9,
+      "high": 164.87,
+      "low": 159.0,
+      "open": 160.77,
+      "time": "2026-09-29",
+      "volume": 1609
+    },
+    {
+      "close": 160.05,
+      "high": 164.49,
+      "low": 159.22,
+      "open": 161.7,
+      "time": "2026-09-30",
+      "volume": 3513
+    },
+    {
+      "close": 154.66,
+      "high": 162.94,
+      "low": 151.06,
+      "open": 162.94,
+      "time": "2026-10-01",
+      "volume": 6988
     }
   ],
   "company_name": "SUPERHOUSE LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 67,
+    "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.39x"
+    "volume_multiplier": "0.72x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.94,
-    "change_pct": -2.39,
-    "close": 160.77,
-    "previous_close": 164.71,
+    "as_of": "2026-10-01",
+    "change": -5.39,
+    "change_pct": -3.37,
+    "close": 154.66,
+    "previous_close": 160.05,
     "type": "EOD_CLOSE",
-    "volume": 3797
+    "volume": 6988
   },
   "range": {
-    "distance_from_high_pct": -14.94,
-    "distance_from_low_pct": 25.06,
+    "distance_from_high_pct": -18.17,
+    "distance_from_low_pct": 20.31,
     "high_52w": 189.0,
     "history_basis": "52_WEEK",
     "low_52w": 128.55,
-    "range_position_pct": 53.3
+    "range_position_pct": 43.19
   },
   "risk_model": {
-    "invalidation_floor": 155.14,
-    "risk_per_share": 8.85,
-    "technical_pivot": 163.99
+    "invalidation_floor": 149.25,
+    "risk_per_share": 8.5,
+    "technical_pivot": 157.75
   },
   "schema_version": "1.0",
   "sector": null,

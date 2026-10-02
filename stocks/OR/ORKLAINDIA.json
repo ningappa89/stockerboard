@@ -1769,14 +1769,38 @@
       "open": 554.9,
       "time": "2026-09-28",
       "volume": 52237
+    },
+    {
+      "close": 540.05,
+      "high": 550.75,
+      "low": 530.15,
+      "open": 550.1,
+      "time": "2026-09-29",
+      "volume": 191761
+    },
+    {
+      "close": 543.0,
+      "high": 547.0,
+      "low": 540.1,
+      "open": 540.15,
+      "time": "2026-09-30",
+      "volume": 47004
+    },
+    {
+      "close": 537.2,
+      "high": 542.75,
+      "low": 530.05,
+      "open": 540.15,
+      "time": "2026-10-01",
+      "volume": 93795
     }
   ],
   "company_name": "ORKLA INDIA LIMITED",
   "history": {
     "first_session": "2025-11-06",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 221
+    "last_session": "2026-10-01",
+    "sessions_available": 224
   },
   "industry": null,
   "isin": "INE16NZ01023",
@@ -1784,31 +1808,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 49,
+    "momentum_score": 46,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.62x"
+    "volume_multiplier": "1.25x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.65,
-    "change_pct": -0.3,
-    "close": 554.3,
-    "previous_close": 555.95,
+    "as_of": "2026-10-01",
+    "change": -5.8,
+    "change_pct": -1.07,
+    "close": 537.2,
+    "previous_close": 543.0,
     "type": "EOD_CLOSE",
-    "volume": 52237
+    "volume": 93795
   },
   "range": {
-    "distance_from_high_pct": -27.07,
-    "distance_from_low_pct": 3.95,
+    "distance_from_high_pct": -29.32,
+    "distance_from_low_pct": 1.35,
     "high_52w": 760.0,
     "history_basis": "52_WEEK",
-    "low_52w": 533.25,
-    "range_position_pct": 9.28
+    "low_52w": 530.05,
+    "range_position_pct": 3.11
   },
   "risk_model": {
-    "invalidation_floor": 534.9,
-    "risk_per_share": 30.49,
-    "technical_pivot": 565.39
+    "invalidation_floor": 518.4,
+    "risk_per_share": 29.54,
+    "technical_pivot": 547.94
   },
   "schema_version": "1.0",
   "sector": null,

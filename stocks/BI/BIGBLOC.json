@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 56.72,
-      "high": 58.1,
-      "low": 56.1,
-      "open": 57.2,
-      "time": "2025-09-19",
-      "volume": 62580
-    },
-    {
-      "close": 57.77,
-      "high": 60.78,
-      "low": 56.67,
-      "open": 56.72,
-      "time": "2025-09-22",
-      "volume": 312697
-    },
-    {
-      "close": 57.49,
-      "high": 58.16,
-      "low": 56.56,
-      "open": 58.16,
-      "time": "2025-09-23",
-      "volume": 100220
-    },
-    {
       "close": 57.41,
       "high": 58.0,
       "low": 57.15,
@@ -2017,13 +1993,37 @@
       "open": 40.01,
       "time": "2026-09-28",
       "volume": 27505
+    },
+    {
+      "close": 38.64,
+      "high": 40.4,
+      "low": 38.2,
+      "open": 38.68,
+      "time": "2026-09-29",
+      "volume": 26802
+    },
+    {
+      "close": 39.79,
+      "high": 40.0,
+      "low": 38.8,
+      "open": 39.77,
+      "time": "2026-09-30",
+      "volume": 23838
+    },
+    {
+      "close": 38.78,
+      "high": 39.93,
+      "low": 36.8,
+      "open": 39.05,
+      "time": "2026-10-01",
+      "volume": 63041
     }
   ],
   "company_name": "Bigbloc Construction Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.71x"
+    "volume_multiplier": "1.67x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.64,
-    "change_pct": -1.6,
-    "close": 39.37,
-    "previous_close": 40.01,
+    "as_of": "2026-10-01",
+    "change": -1.01,
+    "change_pct": -2.54,
+    "close": 38.78,
+    "previous_close": 39.79,
     "type": "EOD_CLOSE",
-    "volume": 27505
+    "volume": 63041
   },
   "range": {
-    "distance_from_high_pct": -50.79,
-    "distance_from_low_pct": 3.61,
+    "distance_from_high_pct": -51.52,
+    "distance_from_low_pct": 5.38,
     "high_52w": 80.0,
     "history_basis": "52_WEEK",
-    "low_52w": 38.0,
-    "range_position_pct": 3.26
+    "low_52w": 36.8,
+    "range_position_pct": 4.58
   },
   "risk_model": {
-    "invalidation_floor": 37.99,
-    "risk_per_share": 2.17,
-    "technical_pivot": 40.16
+    "invalidation_floor": 37.42,
+    "risk_per_share": 2.14,
+    "technical_pivot": 39.56
   },
   "schema_version": "1.0",
   "sector": null,

@@ -897,14 +897,38 @@
       "open": 6085.0,
       "time": "2026-09-28",
       "volume": 4394
+    },
+    {
+      "close": 6013.5,
+      "high": 6079.5,
+      "low": 5974.0,
+      "open": 6079.5,
+      "time": "2026-09-29",
+      "volume": 3341
+    },
+    {
+      "close": 6007.0,
+      "high": 6075.5,
+      "low": 5981.0,
+      "open": 6013.5,
+      "time": "2026-09-30",
+      "volume": 3797
+    },
+    {
+      "close": 5993.5,
+      "high": 6050.0,
+      "low": 5848.0,
+      "open": 6027.0,
+      "time": "2026-10-01",
+      "volume": 10377
     }
   ],
   "company_name": "KOVAI MEDICAL CENTER & HOSPITA",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 112
+    "last_session": "2026-10-01",
+    "sessions_available": 115
   },
   "industry": null,
   "isin": "INE177F01017",
@@ -912,31 +936,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 80,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.93x"
+    "momentum_score": 79,
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "2.09x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -65.5,
-    "change_pct": -1.08,
-    "close": 6025.0,
-    "previous_close": 6090.5,
+    "as_of": "2026-10-01",
+    "change": -13.5,
+    "change_pct": -0.22,
+    "close": 5993.5,
+    "previous_close": 6007.0,
     "type": "EOD_CLOSE",
-    "volume": 4394
+    "volume": 10377
   },
   "range": {
-    "distance_from_high_pct": -6.5,
-    "distance_from_low_pct": 14.21,
+    "distance_from_high_pct": -6.99,
+    "distance_from_low_pct": 13.61,
     "high_52w": 6444.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 5275.5,
-    "range_position_pct": 64.14
+    "range_position_pct": 61.45
   },
   "risk_model": {
-    "invalidation_floor": 5814.12,
-    "risk_per_share": 331.38,
-    "technical_pivot": 6145.5
+    "invalidation_floor": 5783.73,
+    "risk_per_share": 329.64,
+    "technical_pivot": 6113.37
   },
   "schema_version": "1.0",
   "sector": null,

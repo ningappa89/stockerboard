@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 29.26,
-      "high": 29.8,
-      "low": 28.52,
-      "open": 29.11,
-      "time": "2025-09-19",
-      "volume": 99047
-    },
-    {
-      "close": 28.29,
-      "high": 29.88,
-      "low": 28.17,
-      "open": 28.17,
-      "time": "2025-09-22",
-      "volume": 17993
-    },
-    {
-      "close": 28.94,
-      "high": 29.05,
-      "low": 28.27,
-      "open": 28.32,
-      "time": "2025-09-23",
-      "volume": 20634
-    },
-    {
       "close": 28.71,
       "high": 29.15,
       "low": 28.25,
@@ -2017,13 +1993,37 @@
       "open": 13.12,
       "time": "2026-09-28",
       "volume": 22028
+    },
+    {
+      "close": 11.82,
+      "high": 12.44,
+      "low": 11.32,
+      "open": 12.44,
+      "time": "2026-09-29",
+      "volume": 25447
+    },
+    {
+      "close": 11.76,
+      "high": 12.38,
+      "low": 11.51,
+      "open": 11.82,
+      "time": "2026-09-30",
+      "volume": 15553
+    },
+    {
+      "close": 10.56,
+      "high": 11.97,
+      "low": 9.58,
+      "open": 11.97,
+      "time": "2026-10-01",
+      "volume": 173028
     }
   ],
   "company_name": "LEXUS GRANITO (INDIA) LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.68x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "6.12x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.0,
-    "change_pct": 0.0,
-    "close": 12.18,
-    "previous_close": 12.18,
+    "as_of": "2026-10-01",
+    "change": -1.2,
+    "change_pct": -10.2,
+    "close": 10.56,
+    "previous_close": 11.76,
     "type": "EOD_CLOSE",
-    "volume": 22028
+    "volume": 173028
   },
   "range": {
-    "distance_from_high_pct": -68.97,
-    "distance_from_low_pct": 1.33,
+    "distance_from_high_pct": -73.1,
+    "distance_from_low_pct": 10.23,
     "high_52w": 39.25,
     "history_basis": "52_WEEK",
-    "low_52w": 12.02,
-    "range_position_pct": 0.59
+    "low_52w": 9.58,
+    "range_position_pct": 3.3
   },
   "risk_model": {
-    "invalidation_floor": 11.75,
-    "risk_per_share": 0.67,
-    "technical_pivot": 12.42
+    "invalidation_floor": 10.19,
+    "risk_per_share": 0.58,
+    "technical_pivot": 10.77
   },
   "schema_version": "1.0",
   "sector": null,

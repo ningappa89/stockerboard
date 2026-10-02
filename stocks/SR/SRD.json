@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 74.64,
-      "high": 75.44,
-      "low": 71.9,
-      "open": 72.45,
-      "time": "2025-09-19",
-      "volume": 48184
-    },
-    {
-      "close": 72.61,
-      "high": 75.45,
-      "low": 70.9,
-      "open": 75.45,
-      "time": "2025-09-22",
-      "volume": 25094
-    },
-    {
-      "close": 71.7,
-      "high": 73.02,
-      "low": 68.97,
-      "open": 72.69,
-      "time": "2025-09-23",
-      "volume": 62007
-    },
-    {
       "close": 71.94,
       "high": 72.5,
       "low": 69.6,
@@ -2017,13 +1993,37 @@
       "open": 39.19,
       "time": "2026-09-28",
       "volume": 13752
+    },
+    {
+      "close": 38.78,
+      "high": 39.5,
+      "low": 37.98,
+      "open": 39.05,
+      "time": "2026-09-29",
+      "volume": 27031
+    },
+    {
+      "close": 38.54,
+      "high": 39.74,
+      "low": 37.95,
+      "open": 39.4,
+      "time": "2026-09-30",
+      "volume": 52650
+    },
+    {
+      "close": 38.08,
+      "high": 38.88,
+      "low": 38.01,
+      "open": 38.01,
+      "time": "2026-10-01",
+      "volume": 3040
     }
   ],
   "company_name": "SHANKAR LAL RAMPAL LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.41x"
+    "volume_multiplier": "0.09x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.16,
-    "change_pct": -0.41,
-    "close": 39.03,
-    "previous_close": 39.19,
+    "as_of": "2026-10-01",
+    "change": -0.46,
+    "change_pct": -1.19,
+    "close": 38.08,
+    "previous_close": 38.54,
     "type": "EOD_CLOSE",
-    "volume": 13752
+    "volume": 3040
   },
   "range": {
-    "distance_from_high_pct": -48.5,
-    "distance_from_low_pct": 8.42,
+    "distance_from_high_pct": -49.76,
+    "distance_from_low_pct": 5.78,
     "high_52w": 75.79,
     "history_basis": "52_WEEK",
     "low_52w": 36.0,
-    "range_position_pct": 7.61
+    "range_position_pct": 5.23
   },
   "risk_model": {
-    "invalidation_floor": 37.66,
-    "risk_per_share": 2.15,
-    "technical_pivot": 39.81
+    "invalidation_floor": 36.75,
+    "risk_per_share": 2.09,
+    "technical_pivot": 38.84
   },
   "schema_version": "1.0",
   "sector": null,

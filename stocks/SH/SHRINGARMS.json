@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 189.62,
-      "high": 192.3,
-      "low": 187.62,
-      "open": 189.39,
-      "time": "2025-09-19",
-      "volume": 3233366
-    },
-    {
-      "close": 191.07,
-      "high": 198.3,
-      "low": 189.1,
-      "open": 190.5,
-      "time": "2025-09-22",
-      "volume": 5796410
-    },
-    {
-      "close": 191.67,
-      "high": 193.79,
-      "low": 189.35,
-      "open": 191.8,
-      "time": "2025-09-23",
-      "volume": 2430170
-    },
-    {
       "close": 189.63,
       "high": 193.0,
       "low": 187.17,
@@ -2017,13 +1993,37 @@
       "open": 215.05,
       "time": "2026-09-28",
       "volume": 962367
+    },
+    {
+      "close": 215.91,
+      "high": 221.4,
+      "low": 214.5,
+      "open": 219.78,
+      "time": "2026-09-29",
+      "volume": 319671
+    },
+    {
+      "close": 224.6,
+      "high": 231.0,
+      "low": 216.79,
+      "open": 216.85,
+      "time": "2026-09-30",
+      "volume": 2130481
+    },
+    {
+      "close": 221.31,
+      "high": 228.0,
+      "low": 216.41,
+      "open": 224.8,
+      "time": "2026-10-01",
+      "volume": 1103142
     }
   ],
   "company_name": "SHRINGAR HOUSE OF MANGALSUTRA ",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
+    "momentum_score": 64,
     "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.61x"
+    "volume_multiplier": "2.25x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 3.98,
-    "change_pct": 1.86,
-    "close": 218.04,
-    "previous_close": 214.06,
+    "as_of": "2026-10-01",
+    "change": -3.29,
+    "change_pct": -1.46,
+    "close": 221.31,
+    "previous_close": 224.6,
     "type": "EOD_CLOSE",
-    "volume": 962367
+    "volume": 1103142
   },
   "range": {
-    "distance_from_high_pct": -18.18,
-    "distance_from_low_pct": 31.35,
+    "distance_from_high_pct": -16.96,
+    "distance_from_low_pct": 33.32,
     "high_52w": 266.5,
     "history_basis": "52_WEEK",
     "low_52w": 166.0,
-    "range_position_pct": 51.78
+    "range_position_pct": 55.03
   },
   "risk_model": {
-    "invalidation_floor": 210.41,
-    "risk_per_share": 11.99,
-    "technical_pivot": 222.4
+    "invalidation_floor": 213.56,
+    "risk_per_share": 12.18,
+    "technical_pivot": 225.74
   },
   "schema_version": "1.0",
   "sector": null,

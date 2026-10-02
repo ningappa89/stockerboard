@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1610.3,
-      "high": 1621.4,
-      "low": 1587.0,
-      "open": 1600.0,
-      "time": "2025-09-19",
-      "volume": 4384320
-    },
-    {
-      "close": 1597.9,
-      "high": 1625.1,
-      "low": 1590.1,
-      "open": 1609.8,
-      "time": "2025-09-22",
-      "volume": 1887210
-    },
-    {
-      "close": 1607.7,
-      "high": 1612.0,
-      "low": 1574.0,
-      "open": 1597.9,
-      "time": "2025-09-23",
-      "volume": 1609060
-    },
-    {
       "close": 1591.1,
       "high": 1623.6,
       "low": 1584.5,
@@ -2017,13 +1993,37 @@
       "open": 3310.0,
       "time": "2026-09-28",
       "volume": 1090601
+    },
+    {
+      "close": 3232.0,
+      "high": 3344.0,
+      "low": 3232.0,
+      "open": 3248.0,
+      "time": "2026-09-29",
+      "volume": 2094968
+    },
+    {
+      "close": 3300.4,
+      "high": 3345.0,
+      "low": 3255.0,
+      "open": 3280.1,
+      "time": "2026-09-30",
+      "volume": 2066935
+    },
+    {
+      "close": 3204.0,
+      "high": 3331.3,
+      "low": 3193.6,
+      "open": 3300.0,
+      "time": "2026-10-01",
+      "volume": 2002629
     }
   ],
   "company_name": "MULTI COMMODITY EXCHANGE OF IN",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 80,
+    "momentum_score": 78,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.55x"
+    "volume_multiplier": "1.02x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -61.4,
-    "change_pct": -1.85,
-    "close": 3263.5,
-    "previous_close": 3324.9,
+    "as_of": "2026-10-01",
+    "change": -96.4,
+    "change_pct": -2.92,
+    "close": 3204.0,
+    "previous_close": 3300.4,
     "type": "EOD_CLOSE",
-    "volume": 1090601
+    "volume": 2002629
   },
   "range": {
-    "distance_from_high_pct": -6.26,
-    "distance_from_low_pct": 111.22,
+    "distance_from_high_pct": -7.97,
+    "distance_from_low_pct": 107.37,
     "high_52w": 3481.4,
     "history_basis": "52_WEEK",
     "low_52w": 1545.1,
-    "range_position_pct": 88.75
+    "range_position_pct": 85.67
   },
   "risk_model": {
-    "invalidation_floor": 3149.28,
-    "risk_per_share": 179.49,
-    "technical_pivot": 3328.77
+    "invalidation_floor": 3091.86,
+    "risk_per_share": 176.22,
+    "technical_pivot": 3268.08
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

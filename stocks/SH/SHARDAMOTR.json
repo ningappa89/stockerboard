@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1070.8,
-      "high": 1081.0,
-      "low": 1058.0,
-      "open": 1058.0,
-      "time": "2025-09-19",
-      "volume": 38224
-    },
-    {
-      "close": 1086.8,
-      "high": 1134.4,
-      "low": 1066.5,
-      "open": 1071.0,
-      "time": "2025-09-22",
-      "volume": 226094
-    },
-    {
-      "close": 1133.8,
-      "high": 1146.0,
-      "low": 1082.2,
-      "open": 1092.0,
-      "time": "2025-09-23",
-      "volume": 202817
-    },
-    {
       "close": 1124.9,
       "high": 1153.7,
       "low": 1115.0,
@@ -2017,13 +1993,37 @@
       "open": 950.0,
       "time": "2026-09-28",
       "volume": 62487
+    },
+    {
+      "close": 971.25,
+      "high": 976.5,
+      "low": 931.0,
+      "open": 948.0,
+      "time": "2026-09-29",
+      "volume": 50632
+    },
+    {
+      "close": 956.95,
+      "high": 986.85,
+      "low": 953.05,
+      "open": 964.75,
+      "time": "2026-09-30",
+      "volume": 37174
+    },
+    {
+      "close": 928.8,
+      "high": 977.0,
+      "low": 916.65,
+      "open": 962.8,
+      "time": "2026-10-01",
+      "volume": 56275
     }
   ],
   "company_name": "SHARDA MOTOR INDUSTRIES LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 59,
+    "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.81x"
+    "volume_multiplier": "0.7x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -11.25,
-    "change_pct": -1.18,
-    "close": 945.1,
-    "previous_close": 956.35,
+    "as_of": "2026-10-01",
+    "change": -28.15,
+    "change_pct": -2.94,
+    "close": 928.8,
+    "previous_close": 956.95,
     "type": "EOD_CLOSE",
-    "volume": 62487
+    "volume": 56275
   },
   "range": {
-    "distance_from_high_pct": -20.57,
-    "distance_from_low_pct": 35.01,
+    "distance_from_high_pct": -21.94,
+    "distance_from_low_pct": 32.69,
     "high_52w": 1189.9,
     "history_basis": "52_WEEK",
     "low_52w": 700.0,
-    "range_position_pct": 50.03
+    "range_position_pct": 46.7
   },
   "risk_model": {
-    "invalidation_floor": 912.02,
-    "risk_per_share": 51.98,
-    "technical_pivot": 964.0
+    "invalidation_floor": 896.29,
+    "risk_per_share": 51.09,
+    "technical_pivot": 947.38
   },
   "schema_version": "1.0",
   "sector": null,

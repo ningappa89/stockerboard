@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1078.0,
-      "high": 1098.6,
-      "low": 1069.0,
-      "open": 1090.0,
-      "time": "2025-09-19",
-      "volume": 170419
-    },
-    {
-      "close": 1081.3,
-      "high": 1090.3,
-      "low": 1069.4,
-      "open": 1075.6,
-      "time": "2025-09-22",
-      "volume": 110902
-    },
-    {
-      "close": 1093.2,
-      "high": 1115.0,
-      "low": 1076.0,
-      "open": 1076.0,
-      "time": "2025-09-23",
-      "volume": 874487
-    },
-    {
       "close": 1110.4,
       "high": 1119.9,
       "low": 1088.1,
@@ -2017,13 +1993,37 @@
       "open": 1198.0,
       "time": "2026-09-28",
       "volume": 194981
+    },
+    {
+      "close": 1177.8,
+      "high": 1196.5,
+      "low": 1165.0,
+      "open": 1187.2,
+      "time": "2026-09-29",
+      "volume": 192300
+    },
+    {
+      "close": 1181.0,
+      "high": 1188.5,
+      "low": 1169.0,
+      "open": 1181.0,
+      "time": "2026-09-30",
+      "volume": 133965
+    },
+    {
+      "close": 1163.7,
+      "high": 1187.3,
+      "low": 1151.5,
+      "open": 1181.0,
+      "time": "2026-10-01",
+      "volume": 224878
     }
   ],
   "company_name": "ANUPAM RASAYAN INDIA LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Chemicals",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.33x"
+    "volume_multiplier": "0.39x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.3,
-    "change_pct": -0.44,
-    "close": 1187.1,
-    "previous_close": 1192.4,
+    "as_of": "2026-10-01",
+    "change": -17.3,
+    "change_pct": -1.46,
+    "close": 1163.7,
+    "previous_close": 1181.0,
     "type": "EOD_CLOSE",
-    "volume": 194981
+    "volume": 224878
   },
   "range": {
-    "distance_from_high_pct": -16.11,
-    "distance_from_low_pct": 13.58,
+    "distance_from_high_pct": -17.76,
+    "distance_from_low_pct": 11.34,
     "high_52w": 1415.0,
     "history_basis": "52_WEEK",
     "low_52w": 1045.2,
-    "range_position_pct": 38.37
+    "range_position_pct": 32.04
   },
   "risk_model": {
-    "invalidation_floor": 1145.55,
-    "risk_per_share": 65.29,
-    "technical_pivot": 1210.84
+    "invalidation_floor": 1122.97,
+    "risk_per_share": 64.0,
+    "technical_pivot": 1186.97
   },
   "schema_version": "1.0",
   "sector": "Chemicals",

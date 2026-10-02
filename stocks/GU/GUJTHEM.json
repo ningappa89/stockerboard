@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 386.3,
-      "high": 387.9,
-      "low": 381.1,
-      "open": 384.9,
-      "time": "2025-09-19",
-      "volume": 75525
-    },
-    {
-      "close": 410.95,
-      "high": 424.9,
-      "low": 384.9,
-      "open": 385.7,
-      "time": "2025-09-22",
-      "volume": 1587957
-    },
-    {
-      "close": 409.4,
-      "high": 419.95,
-      "low": 405.5,
-      "open": 411.8,
-      "time": "2025-09-23",
-      "volume": 154257
-    },
-    {
       "close": 411.65,
       "high": 414.1,
       "low": 396.9,
@@ -2017,13 +1993,37 @@
       "open": 414.4,
       "time": "2026-09-28",
       "volume": 211072
+    },
+    {
+      "close": 406.5,
+      "high": 410.0,
+      "low": 392.6,
+      "open": 395.4,
+      "time": "2026-09-29",
+      "volume": 166047
+    },
+    {
+      "close": 387.6,
+      "high": 408.6,
+      "low": 386.5,
+      "open": 404.1,
+      "time": "2026-09-30",
+      "volume": 187350
+    },
+    {
+      "close": 381.8,
+      "high": 395.0,
+      "low": 368.6,
+      "open": 385.0,
+      "time": "2026-10-01",
+      "volume": 397655
     }
   ],
   "company_name": "GUJARAT THEMIS BIOSYN LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
+    "momentum_score": 59,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.29x"
+    "volume_multiplier": "0.65x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -19.45,
-    "change_pct": -4.66,
-    "close": 397.55,
-    "previous_close": 417.0,
+    "as_of": "2026-10-01",
+    "change": -5.8,
+    "change_pct": -1.5,
+    "close": 381.8,
+    "previous_close": 387.6,
     "type": "EOD_CLOSE",
-    "volume": 211072
+    "volume": 397655
   },
   "range": {
-    "distance_from_high_pct": -17.0,
-    "distance_from_low_pct": 76.65,
+    "distance_from_high_pct": -20.29,
+    "distance_from_low_pct": 69.65,
     "high_52w": 479.0,
     "history_basis": "52_WEEK",
     "low_52w": 225.05,
-    "range_position_pct": 67.93
+    "range_position_pct": 61.72
   },
   "risk_model": {
-    "invalidation_floor": 383.64,
-    "risk_per_share": 21.86,
-    "technical_pivot": 405.5
+    "invalidation_floor": 368.44,
+    "risk_per_share": 21.0,
+    "technical_pivot": 389.44
   },
   "schema_version": "1.0",
   "sector": null,

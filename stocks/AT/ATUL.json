@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 6341.0,
-      "high": 6569.5,
-      "low": 6291.0,
-      "open": 6549.0,
-      "time": "2025-09-19",
-      "volume": 34058
-    },
-    {
-      "close": 6257.0,
-      "high": 6353.5,
-      "low": 6200.5,
-      "open": 6310.0,
-      "time": "2025-09-22",
-      "volume": 18420
-    },
-    {
-      "close": 6259.0,
-      "high": 6310.0,
-      "low": 6230.0,
-      "open": 6260.0,
-      "time": "2025-09-23",
-      "volume": 11954
-    },
-    {
       "close": 6264.0,
       "high": 6306.0,
       "low": 6212.5,
@@ -2017,13 +1993,37 @@
       "open": 6070.0,
       "time": "2026-09-28",
       "volume": 22706
+    },
+    {
+      "close": 5982.5,
+      "high": 6086.5,
+      "low": 5950.0,
+      "open": 5975.0,
+      "time": "2026-09-29",
+      "volume": 30980
+    },
+    {
+      "close": 5915.5,
+      "high": 6064.5,
+      "low": 5881.0,
+      "open": 5980.0,
+      "time": "2026-09-30",
+      "volume": 61199
+    },
+    {
+      "close": 5861.0,
+      "high": 5944.5,
+      "low": 5798.0,
+      "open": 5910.0,
+      "time": "2026-10-01",
+      "volume": 22403
     }
   ],
   "company_name": "ATUL LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Chemicals",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.84x"
+    "volume_multiplier": "0.76x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -79.5,
-    "change_pct": -1.31,
-    "close": 5991.0,
-    "previous_close": 6070.5,
+    "as_of": "2026-10-01",
+    "change": -54.5,
+    "change_pct": -0.92,
+    "close": 5861.0,
+    "previous_close": 5915.5,
     "type": "EOD_CLOSE",
-    "volume": 22706
+    "volume": 22403
   },
   "range": {
-    "distance_from_high_pct": -16.56,
-    "distance_from_low_pct": 7.74,
+    "distance_from_high_pct": -18.37,
+    "distance_from_low_pct": 5.4,
     "high_52w": 7180.0,
     "history_basis": "52_WEEK",
     "low_52w": 5560.5,
-    "range_position_pct": 26.58
+    "range_position_pct": 18.56
   },
   "risk_model": {
-    "invalidation_floor": 5781.31,
-    "risk_per_share": 329.51,
-    "technical_pivot": 6110.82
+    "invalidation_floor": 5655.86,
+    "risk_per_share": 322.36,
+    "technical_pivot": 5978.22
   },
   "schema_version": "1.0",
   "sector": "Chemicals",

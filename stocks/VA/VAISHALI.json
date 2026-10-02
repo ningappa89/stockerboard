@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 12.11,
-      "high": 12.47,
-      "low": 12.06,
-      "open": 12.28,
-      "time": "2025-09-19",
-      "volume": 526640
-    },
-    {
-      "close": 12.11,
-      "high": 12.34,
-      "low": 12.01,
-      "open": 12.11,
-      "time": "2025-09-22",
-      "volume": 72736
-    },
-    {
-      "close": 11.97,
-      "high": 12.23,
-      "low": 11.92,
-      "open": 12.23,
-      "time": "2025-09-23",
-      "volume": 122561
-    },
-    {
       "close": 11.99,
       "high": 12.08,
       "low": 11.94,
@@ -2017,13 +1993,37 @@
       "open": 8.62,
       "time": "2026-09-28",
       "volume": 67874
+    },
+    {
+      "close": 8.39,
+      "high": 8.94,
+      "low": 8.33,
+      "open": 8.6,
+      "time": "2026-09-29",
+      "volume": 239530
+    },
+    {
+      "close": 8.35,
+      "high": 8.99,
+      "low": 8.31,
+      "open": 8.75,
+      "time": "2026-09-30",
+      "volume": 199730
+    },
+    {
+      "close": 8.38,
+      "high": 8.52,
+      "low": 8.38,
+      "open": 8.49,
+      "time": "2026-10-01",
+      "volume": 226659
     }
   ],
   "company_name": "VAISHALI PHARMA LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
+    "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.41x"
+    "volume_multiplier": "1.24x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.12,
-    "change_pct": -1.39,
-    "close": 8.5,
-    "previous_close": 8.62,
+    "as_of": "2026-10-01",
+    "change": 0.03,
+    "change_pct": 0.36,
+    "close": 8.38,
+    "previous_close": 8.35,
     "type": "EOD_CLOSE",
-    "volume": 67874
+    "volume": 226659
   },
   "range": {
-    "distance_from_high_pct": -31.84,
-    "distance_from_low_pct": 78.95,
-    "high_52w": 12.47,
+    "distance_from_high_pct": -31.31,
+    "distance_from_low_pct": 76.42,
+    "high_52w": 12.2,
     "history_basis": "52_WEEK",
     "low_52w": 4.75,
-    "range_position_pct": 48.58
+    "range_position_pct": 48.72
   },
   "risk_model": {
-    "invalidation_floor": 8.2,
+    "invalidation_floor": 8.09,
     "risk_per_share": 0.5,
-    "technical_pivot": 8.67
+    "technical_pivot": 8.55
   },
   "schema_version": "1.0",
   "sector": null,

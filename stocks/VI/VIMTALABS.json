@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 825.05,
-      "high": 851.0,
-      "low": 789.0,
-      "open": 794.5,
-      "time": "2025-09-19",
-      "volume": 4733762
-    },
-    {
-      "close": 764.2,
-      "high": 828.35,
-      "low": 751.6,
-      "open": 828.35,
-      "time": "2025-09-22",
-      "volume": 1755391
-    },
-    {
-      "close": 750.45,
-      "high": 770.7,
-      "low": 738.5,
-      "open": 765.0,
-      "time": "2025-09-23",
-      "volume": 1138524
-    },
-    {
       "close": 731.9,
       "high": 750.0,
       "low": 725.6,
@@ -2017,13 +1993,37 @@
       "open": 595.1,
       "time": "2026-09-28",
       "volume": 79991
+    },
+    {
+      "close": 591.4,
+      "high": 599.0,
+      "low": 583.05,
+      "open": 585.0,
+      "time": "2026-09-29",
+      "volume": 171430
+    },
+    {
+      "close": 600.3,
+      "high": 620.0,
+      "low": 596.0,
+      "open": 596.0,
+      "time": "2026-09-30",
+      "volume": 220346
+    },
+    {
+      "close": 584.35,
+      "high": 598.85,
+      "low": 575.1,
+      "open": 598.85,
+      "time": "2026-10-01",
+      "volume": 118361
     }
   ],
   "company_name": "VIMTA LABS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 43,
+    "momentum_score": 53,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.27x"
+    "volume_multiplier": "0.72x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -13.95,
-    "change_pct": -2.33,
-    "close": 585.35,
-    "previous_close": 599.3,
+    "as_of": "2026-10-01",
+    "change": -15.95,
+    "change_pct": -2.66,
+    "close": 584.35,
+    "previous_close": 600.3,
     "type": "EOD_CLOSE",
-    "volume": 79991
+    "volume": 118361
   },
   "range": {
-    "distance_from_high_pct": -31.22,
-    "distance_from_low_pct": 55.66,
-    "high_52w": 851.0,
+    "distance_from_high_pct": -24.6,
+    "distance_from_low_pct": 55.39,
+    "high_52w": 775.0,
     "history_basis": "52_WEEK",
     "low_52w": 376.05,
-    "range_position_pct": 44.07
+    "range_position_pct": 52.21
   },
   "risk_model": {
-    "invalidation_floor": 564.86,
-    "risk_per_share": 32.2,
-    "technical_pivot": 597.06
+    "invalidation_floor": 563.9,
+    "risk_per_share": 32.14,
+    "technical_pivot": 596.04
   },
   "schema_version": "1.0",
   "sector": null,

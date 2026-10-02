@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1540.2,
-      "high": 1551.3,
-      "low": 1520.1,
-      "open": 1544.6,
-      "time": "2025-09-19",
-      "volume": 12988129
-    },
-    {
-      "close": 1499.5,
-      "high": 1514.7,
-      "low": 1482.0,
-      "open": 1482.7,
-      "time": "2025-09-22",
-      "volume": 15655204
-    },
-    {
-      "close": 1497.5,
-      "high": 1513.0,
-      "low": 1493.0,
-      "open": 1493.0,
-      "time": "2025-09-23",
-      "volume": 9832164
-    },
-    {
       "close": 1494.6,
       "high": 1496.7,
       "low": 1482.7,
@@ -2017,13 +1993,37 @@
       "open": 1002.0,
       "time": "2026-09-28",
       "volume": 8567672
+    },
+    {
+      "close": 1015.4,
+      "high": 1015.4,
+      "low": 980.4,
+      "open": 1002.6,
+      "time": "2026-09-29",
+      "volume": 12992711
+    },
+    {
+      "close": 994.1,
+      "high": 1024.0,
+      "low": 992.2,
+      "open": 1004.0,
+      "time": "2026-09-30",
+      "volume": 13508984
+    },
+    {
+      "close": 1035.0,
+      "high": 1035.0,
+      "low": 999.15,
+      "open": 1010.0,
+      "time": "2026-10-01",
+      "volume": 15166446
     }
   ],
   "company_name": "INFOSYS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Information Technology",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.95x"
+    "volume_multiplier": "1.59x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 3.0,
-    "change_pct": 0.3,
-    "close": 1003.2,
-    "previous_close": 1000.2,
+    "as_of": "2026-10-01",
+    "change": 40.9,
+    "change_pct": 4.11,
+    "close": 1035.0,
+    "previous_close": 994.1,
     "type": "EOD_CLOSE",
-    "volume": 8567672
+    "volume": 15166446
   },
   "range": {
-    "distance_from_high_pct": -41.94,
-    "distance_from_low_pct": 2.12,
+    "distance_from_high_pct": -40.1,
+    "distance_from_low_pct": 5.57,
     "high_52w": 1728.0,
     "history_basis": "52_WEEK",
-    "low_52w": 982.4,
-    "range_position_pct": 2.79
+    "low_52w": 980.4,
+    "range_position_pct": 7.3
   },
   "risk_model": {
-    "invalidation_floor": 968.09,
-    "risk_per_share": 55.17,
-    "technical_pivot": 1023.26
+    "invalidation_floor": 998.77,
+    "risk_per_share": 56.93,
+    "technical_pivot": 1055.7
   },
   "schema_version": "1.0",
   "sector": "Information Technology",

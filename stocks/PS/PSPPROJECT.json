@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 783.75,
-      "high": 804.0,
-      "low": 781.0,
-      "open": 793.0,
-      "time": "2025-09-19",
-      "volume": 94281
-    },
-    {
-      "close": 767.4,
-      "high": 797.0,
-      "low": 762.0,
-      "open": 797.0,
-      "time": "2025-09-22",
-      "volume": 88641
-    },
-    {
-      "close": 783.2,
-      "high": 792.0,
-      "low": 756.35,
-      "open": 760.4,
-      "time": "2025-09-23",
-      "volume": 121606
-    },
-    {
       "close": 779.3,
       "high": 786.0,
       "low": 772.15,
@@ -2017,13 +1993,37 @@
       "open": 806.65,
       "time": "2026-09-28",
       "volume": 74336
+    },
+    {
+      "close": 782.65,
+      "high": 793.5,
+      "low": 772.1,
+      "open": 778.0,
+      "time": "2026-09-29",
+      "volume": 68855
+    },
+    {
+      "close": 767.0,
+      "high": 803.9,
+      "low": 763.95,
+      "open": 787.0,
+      "time": "2026-09-30",
+      "volume": 62418
+    },
+    {
+      "close": 747.1,
+      "high": 770.4,
+      "low": 731.05,
+      "open": 767.0,
+      "time": "2026-10-01",
+      "volume": 75324
     }
   ],
   "company_name": "PSP Projects Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.38x"
+    "volume_multiplier": "1.33x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -27.55,
-    "change_pct": -3.42,
-    "close": 779.1,
-    "previous_close": 806.65,
+    "as_of": "2026-10-01",
+    "change": -19.9,
+    "change_pct": -2.59,
+    "close": 747.1,
+    "previous_close": 767.0,
     "type": "EOD_CLOSE",
-    "volume": 74336
+    "volume": 75324
   },
   "range": {
-    "distance_from_high_pct": -31.84,
-    "distance_from_low_pct": 36.88,
+    "distance_from_high_pct": -34.64,
+    "distance_from_low_pct": 31.25,
     "high_52w": 1143.0,
     "history_basis": "52_WEEK",
     "low_52w": 569.2,
-    "range_position_pct": 36.58
+    "range_position_pct": 31.0
   },
   "risk_model": {
-    "invalidation_floor": 751.83,
-    "risk_per_share": 42.85,
-    "technical_pivot": 794.68
+    "invalidation_floor": 720.95,
+    "risk_per_share": 41.09,
+    "technical_pivot": 762.04
   },
   "schema_version": "1.0",
   "sector": null,

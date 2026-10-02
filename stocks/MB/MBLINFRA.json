@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 46.08,
-      "high": 47.4,
-      "low": 45.8,
-      "open": 46.55,
-      "time": "2025-09-19",
-      "volume": 87624
-    },
-    {
-      "close": 44.93,
-      "high": 47.15,
-      "low": 44.46,
-      "open": 46.8,
-      "time": "2025-09-22",
-      "volume": 118197
-    },
-    {
-      "close": 43.99,
-      "high": 45.2,
-      "low": 43.7,
-      "open": 44.84,
-      "time": "2025-09-23",
-      "volume": 228507
-    },
-    {
       "close": 44.45,
       "high": 46.39,
       "low": 44.03,
@@ -2017,13 +1993,37 @@
       "open": 21.12,
       "time": "2026-09-28",
       "volume": 46168
+    },
+    {
+      "close": 21.77,
+      "high": 21.84,
+      "low": 20.71,
+      "open": 20.8,
+      "time": "2026-09-29",
+      "volume": 141641
+    },
+    {
+      "close": 22.85,
+      "high": 22.85,
+      "low": 21.96,
+      "open": 22.5,
+      "time": "2026-09-30",
+      "volume": 53197
+    },
+    {
+      "close": 23.11,
+      "high": 23.95,
+      "low": 22.22,
+      "open": 22.85,
+      "time": "2026-10-01",
+      "volume": 94794
     }
   ],
   "company_name": "MBL INFRASTRUCTURE LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.2x"
+    "volume_multiplier": "1.94x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.32,
-    "change_pct": -1.52,
-    "close": 20.8,
-    "previous_close": 21.12,
+    "as_of": "2026-10-01",
+    "change": 0.26,
+    "change_pct": 1.14,
+    "close": 23.11,
+    "previous_close": 22.85,
     "type": "EOD_CLOSE",
-    "volume": 46168
+    "volume": 94794
   },
   "range": {
-    "distance_from_high_pct": -56.12,
-    "distance_from_low_pct": 13.23,
-    "high_52w": 47.4,
+    "distance_from_high_pct": -50.18,
+    "distance_from_low_pct": 25.8,
+    "high_52w": 46.39,
     "history_basis": "52_WEEK",
     "low_52w": 18.37,
-    "range_position_pct": 8.37
+    "range_position_pct": 16.92
   },
   "risk_model": {
-    "invalidation_floor": 20.07,
-    "risk_per_share": 1.15,
-    "technical_pivot": 21.22
+    "invalidation_floor": 22.3,
+    "risk_per_share": 1.27,
+    "technical_pivot": 23.57
   },
   "schema_version": "1.0",
   "sector": null,

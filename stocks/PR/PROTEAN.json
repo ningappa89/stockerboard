@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 905.85,
-      "high": 917.0,
-      "low": 902.0,
-      "open": 917.0,
-      "time": "2025-09-19",
-      "volume": 203412
-    },
-    {
-      "close": 883.95,
-      "high": 903.9,
-      "low": 882.0,
-      "open": 901.0,
-      "time": "2025-09-22",
-      "volume": 346846
-    },
-    {
-      "close": 893.85,
-      "high": 901.75,
-      "low": 882.0,
-      "open": 890.8,
-      "time": "2025-09-23",
-      "volume": 294200
-    },
-    {
       "close": 906.5,
       "high": 939.8,
       "low": 893.6,
@@ -2017,13 +1993,37 @@
       "open": 690.7,
       "time": "2026-09-28",
       "volume": 2689437
+    },
+    {
+      "close": 666.65,
+      "high": 699.4,
+      "low": 661.35,
+      "open": 690.0,
+      "time": "2026-09-29",
+      "volume": 859577
+    },
+    {
+      "close": 659.3,
+      "high": 684.4,
+      "low": 651.65,
+      "open": 666.65,
+      "time": "2026-09-30",
+      "volume": 574562
+    },
+    {
+      "close": 639.75,
+      "high": 677.95,
+      "low": 630.85,
+      "open": 657.6,
+      "time": "2026-10-01",
+      "volume": 610264
     }
   ],
   "company_name": "Protean eGov Technologies Limi",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 50,
+    "momentum_score": 42,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.45x"
+    "volume_multiplier": "0.32x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.8,
-    "change_pct": 0.12,
-    "close": 691.5,
-    "previous_close": 690.7,
+    "as_of": "2026-10-01",
+    "change": -19.55,
+    "change_pct": -2.97,
+    "close": 639.75,
+    "previous_close": 659.3,
     "type": "EOD_CLOSE",
-    "volume": 2689437
+    "volume": 610264
   },
   "range": {
-    "distance_from_high_pct": -26.42,
-    "distance_from_low_pct": 55.74,
+    "distance_from_high_pct": -31.93,
+    "distance_from_low_pct": 44.09,
     "high_52w": 939.8,
     "history_basis": "52_WEEK",
     "low_52w": 444.0,
-    "range_position_pct": 49.92
+    "range_position_pct": 39.48
   },
   "risk_model": {
-    "invalidation_floor": 667.3,
-    "risk_per_share": 38.03,
-    "technical_pivot": 705.33
+    "invalidation_floor": 617.36,
+    "risk_per_share": 35.18,
+    "technical_pivot": 652.54
   },
   "schema_version": "1.0",
   "sector": null,

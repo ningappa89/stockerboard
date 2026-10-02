@@ -249,46 +249,70 @@
       "open": 56.7,
       "time": "2026-09-28",
       "volume": 15642105
+    },
+    {
+      "close": 60.3,
+      "high": 62.49,
+      "low": 59.0,
+      "open": 60.25,
+      "time": "2026-09-29",
+      "volume": 8970388
+    },
+    {
+      "close": 62.09,
+      "high": 63.36,
+      "low": 60.77,
+      "open": 60.96,
+      "time": "2026-09-30",
+      "volume": 6037718
+    },
+    {
+      "close": 61.8,
+      "high": 65.4,
+      "low": 61.0,
+      "open": 62.0,
+      "time": "2026-10-01",
+      "volume": 7563030
     }
   ],
   "company_name": "Shukra Pharmaceuticals Limited",
   "history": {
     "first_session": "2026-08-14",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 31
+    "last_session": "2026-10-01",
+    "sessions_available": 34
   },
   "industry": null,
   "isin": "INE551C01044",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 87,
+    "momentum_score": 81,
     "setup_type": "Pocket Pivot",
-    "volume_multiplier": "4.18x"
+    "volume_multiplier": "1.66x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 3.5,
-    "change_pct": 6.26,
-    "close": 59.43,
-    "previous_close": 55.93,
+    "as_of": "2026-10-01",
+    "change": -0.29,
+    "change_pct": -0.47,
+    "close": 61.8,
+    "previous_close": 62.09,
     "type": "EOD_CLOSE",
-    "volume": 15642105
+    "volume": 7563030
   },
   "range": {
-    "distance_from_high_pct": -1.75,
-    "distance_from_low_pct": 48.35,
-    "high_52w": 60.49,
+    "distance_from_high_pct": -5.5,
+    "distance_from_low_pct": 54.27,
+    "high_52w": 65.4,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 40.06,
-    "range_position_pct": 94.81
+    "range_position_pct": 85.79
   },
   "risk_model": {
-    "invalidation_floor": 57.35,
-    "risk_per_share": 3.27,
-    "technical_pivot": 60.62
+    "invalidation_floor": 59.64,
+    "risk_per_share": 3.4,
+    "technical_pivot": 63.04
   },
   "schema_version": "1.0",
   "sector": null,

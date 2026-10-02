@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 22.01,
-      "high": 22.14,
-      "low": 21.76,
-      "open": 22.08,
-      "time": "2025-09-19",
-      "volume": 5152641
-    },
-    {
-      "close": 21.59,
-      "high": 22.01,
-      "low": 21.46,
-      "open": 22.01,
-      "time": "2025-09-22",
-      "volume": 4161105
-    },
-    {
-      "close": 21.24,
-      "high": 21.61,
-      "low": 20.96,
-      "open": 21.45,
-      "time": "2025-09-23",
-      "volume": 5111206
-    },
-    {
       "close": 20.83,
       "high": 21.5,
       "low": 20.76,
@@ -2017,13 +1993,37 @@
       "open": 20.75,
       "time": "2026-09-28",
       "volume": 13924733
+    },
+    {
+      "close": 19.98,
+      "high": 20.4,
+      "low": 19.83,
+      "open": 20.32,
+      "time": "2026-09-29",
+      "volume": 11722083
+    },
+    {
+      "close": 19.54,
+      "high": 20.51,
+      "low": 19.41,
+      "open": 20.09,
+      "time": "2026-09-30",
+      "volume": 12481018
+    },
+    {
+      "close": 19.19,
+      "high": 19.54,
+      "low": 18.8,
+      "open": 19.5,
+      "time": "2026-10-01",
+      "volume": 10262513
     }
   ],
   "company_name": "BAJAJ HINDUSTHAN SUGAR LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 57,
+    "momentum_score": 50,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.52x"
+    "volume_multiplier": "0.51x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.33,
-    "change_pct": -1.59,
-    "close": 20.45,
-    "previous_close": 20.78,
+    "as_of": "2026-10-01",
+    "change": -0.35,
+    "change_pct": -1.79,
+    "close": 19.19,
+    "previous_close": 19.54,
     "type": "EOD_CLOSE",
-    "volume": 13924733
+    "volume": 10262513
   },
   "range": {
-    "distance_from_high_pct": -21.35,
-    "distance_from_low_pct": 37.71,
+    "distance_from_high_pct": -26.19,
+    "distance_from_low_pct": 29.23,
     "high_52w": 26.0,
     "history_basis": "52_WEEK",
     "low_52w": 14.85,
-    "range_position_pct": 50.22
+    "range_position_pct": 38.92
   },
   "risk_model": {
-    "invalidation_floor": 19.73,
-    "risk_per_share": 1.13,
-    "technical_pivot": 20.86
+    "invalidation_floor": 18.52,
+    "risk_per_share": 1.05,
+    "technical_pivot": 19.57
   },
   "schema_version": "1.0",
   "sector": null,

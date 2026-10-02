@@ -201,46 +201,70 @@
       "open": 365.9,
       "time": "2026-09-28",
       "volume": 7423508
+    },
+    {
+      "close": 375.0,
+      "high": 375.0,
+      "low": 357.35,
+      "open": 358.0,
+      "time": "2026-09-29",
+      "volume": 6239745
+    },
+    {
+      "close": 381.9,
+      "high": 393.75,
+      "low": 375.5,
+      "open": 384.0,
+      "time": "2026-09-30",
+      "volume": 6734536
+    },
+    {
+      "close": 387.85,
+      "high": 395.0,
+      "low": 367.3,
+      "open": 386.05,
+      "time": "2026-10-01",
+      "volume": 7022551
     }
   ],
   "company_name": "LALITHAA JEWELLERY MART L",
   "history": {
     "first_session": "2026-08-24",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 25
+    "last_session": "2026-10-01",
+    "sessions_available": 28
   },
   "industry": null,
   "isin": "INE0K9O01026",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": false,
+    "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 77,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.67x"
+    "momentum_score": 87,
+    "setup_type": "Minervini VCP",
+    "volume_multiplier": "0.74x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -9.2,
-    "change_pct": -2.51,
-    "close": 357.15,
-    "previous_close": 366.35,
+    "as_of": "2026-10-01",
+    "change": 5.95,
+    "change_pct": 1.56,
+    "close": 387.85,
+    "previous_close": 381.9,
     "type": "EOD_CLOSE",
-    "volume": 7423508
+    "volume": 7022551
   },
   "range": {
-    "distance_from_high_pct": -8.19,
-    "distance_from_low_pct": 48.6,
-    "high_52w": 389.0,
+    "distance_from_high_pct": -1.81,
+    "distance_from_low_pct": 61.37,
+    "high_52w": 395.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 240.35,
-    "range_position_pct": 78.57
+    "range_position_pct": 95.38
   },
   "risk_model": {
-    "invalidation_floor": 344.65,
-    "risk_per_share": 19.64,
-    "technical_pivot": 364.29
+    "invalidation_floor": 374.28,
+    "risk_per_share": 21.33,
+    "technical_pivot": 395.61
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1119.2,
-      "high": 1138.0,
-      "low": 1116.9,
-      "open": 1130.0,
-      "time": "2025-09-19",
-      "volume": 958952
-    },
-    {
-      "close": 1117.4,
-      "high": 1127.0,
-      "low": 1110.0,
-      "open": 1120.1,
-      "time": "2025-09-22",
-      "volume": 1491052
-    },
-    {
-      "close": 1109.9,
-      "high": 1124.0,
-      "low": 1099.2,
-      "open": 1112.0,
-      "time": "2025-09-23",
-      "volume": 1396979
-    },
-    {
       "close": 1090.9,
       "high": 1112.6,
       "low": 1088.8,
@@ -2017,46 +1993,70 @@
       "open": 1712.0,
       "time": "2026-09-28",
       "volume": 657590
+    },
+    {
+      "close": 1697.7,
+      "high": 1713.7,
+      "low": 1690.7,
+      "open": 1697.0,
+      "time": "2026-09-29",
+      "volume": 1159038
+    },
+    {
+      "close": 1672.0,
+      "high": 1707.2,
+      "low": 1649.3,
+      "open": 1696.0,
+      "time": "2026-09-30",
+      "volume": 1138610
+    },
+    {
+      "close": 1676.8,
+      "high": 1700.7,
+      "low": 1654.2,
+      "open": 1677.9,
+      "time": "2026-10-01",
+      "volume": 1074057
     }
   ],
   "company_name": "AUROBINDO PHARMA LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Healthcare",
   "isin": "INE406A01037",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 86,
+    "momentum_score": 84,
     "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.79x"
+    "volume_multiplier": "1.33x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -14.5,
-    "change_pct": -0.85,
-    "close": 1697.5,
-    "previous_close": 1712.0,
+    "as_of": "2026-10-01",
+    "change": 4.8,
+    "change_pct": 0.29,
+    "close": 1676.8,
+    "previous_close": 1672.0,
     "type": "EOD_CLOSE",
-    "volume": 657590
+    "volume": 1074057
   },
   "range": {
-    "distance_from_high_pct": -2.44,
-    "distance_from_low_pct": 59.12,
+    "distance_from_high_pct": -3.63,
+    "distance_from_low_pct": 57.18,
     "high_52w": 1740.0,
     "history_basis": "52_WEEK",
     "low_52w": 1066.8,
-    "range_position_pct": 93.69
+    "range_position_pct": 90.61
   },
   "risk_model": {
-    "invalidation_floor": 1638.09,
-    "risk_per_share": 93.36,
-    "technical_pivot": 1731.45
+    "invalidation_floor": 1618.11,
+    "risk_per_share": 92.23,
+    "technical_pivot": 1710.34
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 105.61,
-      "high": 106.09,
-      "low": 104.09,
-      "open": 104.75,
-      "time": "2025-09-19",
-      "volume": 2383159
-    },
-    {
-      "close": 104.28,
-      "high": 106.29,
-      "low": 103.73,
-      "open": 105.71,
-      "time": "2025-09-22",
-      "volume": 1520919
-    },
-    {
-      "close": 105.29,
-      "high": 105.87,
-      "low": 102.84,
-      "open": 104.3,
-      "time": "2025-09-23",
-      "volume": 2216599
-    },
-    {
       "close": 104.35,
       "high": 106.95,
       "low": 104.1,
@@ -2017,13 +1993,37 @@
       "open": 145.51,
       "time": "2026-09-28",
       "volume": 1442913
+    },
+    {
+      "close": 138.52,
+      "high": 143.64,
+      "low": 138.0,
+      "open": 142.63,
+      "time": "2026-09-29",
+      "volume": 2354937
+    },
+    {
+      "close": 138.65,
+      "high": 142.26,
+      "low": 138.0,
+      "open": 139.0,
+      "time": "2026-09-30",
+      "volume": 1592541
+    },
+    {
+      "close": 139.98,
+      "high": 143.06,
+      "low": 136.8,
+      "open": 138.4,
+      "time": "2026-10-01",
+      "volume": 3955477
     }
   ],
   "company_name": "JAMMU & KASHMIR BANK LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 45,
+    "momentum_score": 44,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.75x"
+    "volume_multiplier": "1.99x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.85,
-    "change_pct": -2.64,
-    "close": 142.25,
-    "previous_close": 146.1,
+    "as_of": "2026-10-01",
+    "change": 1.33,
+    "change_pct": 0.96,
+    "close": 139.98,
+    "previous_close": 138.65,
     "type": "EOD_CLOSE",
-    "volume": 1442913
+    "volume": 3955477
   },
   "range": {
-    "distance_from_high_pct": -29.49,
-    "distance_from_low_pct": 46.12,
+    "distance_from_high_pct": -30.62,
+    "distance_from_low_pct": 43.79,
     "high_52w": 201.75,
     "history_basis": "52_WEEK",
     "low_52w": 97.35,
-    "range_position_pct": 43.01
+    "range_position_pct": 40.83
   },
   "risk_model": {
-    "invalidation_floor": 137.27,
-    "risk_per_share": 7.82,
-    "technical_pivot": 145.09
+    "invalidation_floor": 135.08,
+    "risk_per_share": 7.7,
+    "technical_pivot": 142.78
   },
   "schema_version": "1.0",
   "sector": null,

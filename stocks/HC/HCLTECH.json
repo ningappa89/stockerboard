@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1467.4,
-      "high": 1493.8,
-      "low": 1464.0,
-      "open": 1493.8,
-      "time": "2025-09-19",
-      "volume": 3197957
-    },
-    {
-      "close": 1439.9,
-      "high": 1449.2,
-      "low": 1415.0,
-      "open": 1423.0,
-      "time": "2025-09-22",
-      "volume": 4457129
-    },
-    {
-      "close": 1429.8,
-      "high": 1444.2,
-      "low": 1420.4,
-      "open": 1444.2,
-      "time": "2025-09-23",
-      "volume": 3106480
-    },
-    {
       "close": 1442.3,
       "high": 1444.7,
       "low": 1420.0,
@@ -2017,13 +1993,37 @@
       "open": 1252.0,
       "time": "2026-09-28",
       "volume": 2272247
+    },
+    {
+      "close": 1222.0,
+      "high": 1261.0,
+      "low": 1222.0,
+      "open": 1252.6,
+      "time": "2026-09-29",
+      "volume": 5604932
+    },
+    {
+      "close": 1230.0,
+      "high": 1256.4,
+      "low": 1224.8,
+      "open": 1229.0,
+      "time": "2026-09-30",
+      "volume": 4242658
+    },
+    {
+      "close": 1243.1,
+      "high": 1256.0,
+      "low": 1228.9,
+      "open": 1230.0,
+      "time": "2026-10-01",
+      "volume": 3430282
     }
   ],
   "company_name": "HCL TECHNOLOGIES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Information Technology",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 45,
+    "momentum_score": 44,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.93x"
+    "volume_multiplier": "1.31x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.4,
-    "change_pct": -0.43,
-    "close": 1252.6,
-    "previous_close": 1258.0,
+    "as_of": "2026-10-01",
+    "change": 13.1,
+    "change_pct": 1.07,
+    "close": 1243.1,
+    "previous_close": 1230.0,
     "type": "EOD_CLOSE",
-    "volume": 2272247
+    "volume": 3430282
   },
   "range": {
-    "distance_from_high_pct": -29.63,
-    "distance_from_low_pct": 21.61,
+    "distance_from_high_pct": -30.17,
+    "distance_from_low_pct": 20.69,
     "high_52w": 1780.1,
     "history_basis": "52_WEEK",
     "low_52w": 1030.0,
-    "range_position_pct": 29.68
+    "range_position_pct": 28.41
   },
   "risk_model": {
-    "invalidation_floor": 1208.76,
-    "risk_per_share": 68.89,
-    "technical_pivot": 1277.65
+    "invalidation_floor": 1199.59,
+    "risk_per_share": 68.37,
+    "technical_pivot": 1267.96
   },
   "schema_version": "1.0",
   "sector": "Information Technology",

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 13206.0,
-      "high": 13520.0,
-      "low": 13152.0,
-      "open": 13469.0,
-      "time": "2025-09-19",
-      "volume": 95999
-    },
-    {
-      "close": 13279.0,
-      "high": 13419.0,
-      "low": 13142.0,
-      "open": 13209.0,
-      "time": "2025-09-22",
-      "volume": 29040
-    },
-    {
-      "close": 13265.0,
-      "high": 13345.0,
-      "low": 13175.0,
-      "open": 13328.0,
-      "time": "2025-09-23",
-      "volume": 28684
-    },
-    {
       "close": 13203.0,
       "high": 13290.0,
       "low": 13152.0,
@@ -2017,13 +1993,37 @@
       "open": 10925.0,
       "time": "2026-09-28",
       "volume": 31440
+    },
+    {
+      "close": 10600.0,
+      "high": 10873.0,
+      "low": 10600.0,
+      "open": 10730.0,
+      "time": "2026-09-29",
+      "volume": 65092
+    },
+    {
+      "close": 10788.0,
+      "high": 10805.0,
+      "low": 10655.0,
+      "open": 10686.0,
+      "time": "2026-09-30",
+      "volume": 40117
+    },
+    {
+      "close": 10666.0,
+      "high": 10775.0,
+      "low": 10415.0,
+      "open": 10775.0,
+      "time": "2026-10-01",
+      "volume": 39942
     }
   ],
   "company_name": "BAJAJ HOLDINGS & INVS LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 59,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.72x"
+    "volume_multiplier": "0.9x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -140.0,
-    "change_pct": -1.28,
-    "close": 10800.0,
-    "previous_close": 10940.0,
+    "as_of": "2026-10-01",
+    "change": -122.0,
+    "change_pct": -1.13,
+    "close": 10666.0,
+    "previous_close": 10788.0,
     "type": "EOD_CLOSE",
-    "volume": 31440
+    "volume": 39942
   },
   "range": {
-    "distance_from_high_pct": -20.12,
-    "distance_from_low_pct": 25.76,
-    "high_52w": 13520.0,
+    "distance_from_high_pct": -19.74,
+    "distance_from_low_pct": 24.2,
+    "high_52w": 13290.0,
     "history_basis": "52_WEEK",
     "low_52w": 8588.0,
-    "range_position_pct": 44.85
+    "range_position_pct": 44.19
   },
   "risk_model": {
-    "invalidation_floor": 10422.0,
-    "risk_per_share": 594.0,
-    "technical_pivot": 11016.0
+    "invalidation_floor": 10292.69,
+    "risk_per_share": 586.63,
+    "technical_pivot": 10879.32
   },
   "schema_version": "1.0",
   "sector": null,

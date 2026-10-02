@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 40.1,
-      "high": 40.1,
-      "low": 40.09,
-      "open": 40.1,
-      "time": "2025-09-19",
-      "volume": 224481
-    },
-    {
-      "close": 42.1,
-      "high": 42.1,
-      "low": 40.1,
-      "open": 40.1,
-      "time": "2025-09-22",
-      "volume": 90584
-    },
-    {
-      "close": 44.2,
-      "high": 44.2,
-      "low": 43.99,
-      "open": 44.2,
-      "time": "2025-09-23",
-      "volume": 124967
-    },
-    {
       "close": 46.41,
       "high": 46.41,
       "low": 46.41,
@@ -2017,13 +1993,37 @@
       "open": 47.25,
       "time": "2026-09-28",
       "volume": 54846
+    },
+    {
+      "close": 46.87,
+      "high": 47.1,
+      "low": 45.0,
+      "open": 46.23,
+      "time": "2026-09-29",
+      "volume": 136680
+    },
+    {
+      "close": 47.47,
+      "high": 47.56,
+      "low": 46.26,
+      "open": 46.93,
+      "time": "2026-09-30",
+      "volume": 555562
+    },
+    {
+      "close": 47.05,
+      "high": 48.0,
+      "low": 46.5,
+      "open": 48.0,
+      "time": "2026-10-01",
+      "volume": 98775
     }
   ],
   "company_name": "United Polyfab Gujarat Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 72,
+    "momentum_score": 77,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.22x"
+    "volume_multiplier": "0.36x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.53,
-    "change_pct": -3.27,
-    "close": 45.28,
-    "previous_close": 46.81,
+    "as_of": "2026-10-01",
+    "change": -0.42,
+    "change_pct": -0.88,
+    "close": 47.05,
+    "previous_close": 47.47,
     "type": "EOD_CLOSE",
-    "volume": 54846
+    "volume": 98775
   },
   "range": {
-    "distance_from_high_pct": -11.49,
-    "distance_from_low_pct": 119.81,
+    "distance_from_high_pct": -8.03,
+    "distance_from_low_pct": 128.4,
     "high_52w": 51.16,
     "history_basis": "52_WEEK",
     "low_52w": 20.6,
-    "range_position_pct": 80.76
+    "range_position_pct": 86.55
   },
   "risk_model": {
-    "invalidation_floor": 43.7,
-    "risk_per_share": 2.49,
-    "technical_pivot": 46.19
+    "invalidation_floor": 45.4,
+    "risk_per_share": 2.59,
+    "technical_pivot": 47.99
   },
   "schema_version": "1.0",
   "sector": null,

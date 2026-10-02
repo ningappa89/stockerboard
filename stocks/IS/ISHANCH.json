@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 58.8,
-      "high": 60.5,
-      "low": 58.5,
-      "open": 59.5,
-      "time": "2025-09-19",
-      "volume": 3815
-    },
-    {
-      "close": 60.27,
-      "high": 60.7,
-      "low": 58.8,
-      "open": 58.8,
-      "time": "2025-09-22",
-      "volume": 4252
-    },
-    {
-      "close": 62.2,
-      "high": 62.65,
-      "low": 60.0,
-      "open": 61.0,
-      "time": "2025-09-23",
-      "volume": 126188
-    },
-    {
       "close": 61.83,
       "high": 62.65,
       "low": 60.0,
@@ -2017,13 +1993,37 @@
       "open": 50.22,
       "time": "2026-09-28",
       "volume": 4229
+    },
+    {
+      "close": 47.35,
+      "high": 50.81,
+      "low": 46.5,
+      "open": 48.05,
+      "time": "2026-09-29",
+      "volume": 19242
+    },
+    {
+      "close": 47.82,
+      "high": 49.69,
+      "low": 46.26,
+      "open": 47.35,
+      "time": "2026-09-30",
+      "volume": 48457
+    },
+    {
+      "close": 47.3,
+      "high": 48.98,
+      "low": 46.2,
+      "open": 48.02,
+      "time": "2026-10-01",
+      "volume": 16306
     }
   ],
   "company_name": "Ishan Dyes and Chemicals Limit",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.09x"
+    "volume_multiplier": "0.36x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.15,
-    "change_pct": -0.3,
-    "close": 50.07,
-    "previous_close": 50.22,
+    "as_of": "2026-10-01",
+    "change": -0.52,
+    "change_pct": -1.09,
+    "close": 47.3,
+    "previous_close": 47.82,
     "type": "EOD_CLOSE",
-    "volume": 4229
+    "volume": 16306
   },
   "range": {
-    "distance_from_high_pct": -39.94,
-    "distance_from_low_pct": 20.04,
+    "distance_from_high_pct": -43.26,
+    "distance_from_low_pct": 13.4,
     "high_52w": 83.37,
     "history_basis": "52_WEEK",
     "low_52w": 41.71,
-    "range_position_pct": 20.07
+    "range_position_pct": 13.42
   },
   "risk_model": {
-    "invalidation_floor": 48.32,
-    "risk_per_share": 2.75,
-    "technical_pivot": 51.07
+    "invalidation_floor": 45.64,
+    "risk_per_share": 2.61,
+    "technical_pivot": 48.25
   },
   "schema_version": "1.0",
   "sector": null,

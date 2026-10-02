@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 17.32,
-      "high": 17.65,
-      "low": 16.86,
-      "open": 17.3,
-      "time": "2025-09-19",
-      "volume": 127136
-    },
-    {
-      "close": 17.03,
-      "high": 17.68,
-      "low": 16.85,
-      "open": 17.68,
-      "time": "2025-09-22",
-      "volume": 53931
-    },
-    {
-      "close": 16.99,
-      "high": 17.3,
-      "low": 16.9,
-      "open": 17.3,
-      "time": "2025-09-23",
-      "volume": 55010
-    },
-    {
       "close": 17.0,
       "high": 17.37,
       "low": 16.8,
@@ -2017,13 +1993,37 @@
       "open": 13.15,
       "time": "2026-09-28",
       "volume": 23613
+    },
+    {
+      "close": 12.9,
+      "high": 13.17,
+      "low": 12.71,
+      "open": 12.89,
+      "time": "2026-09-29",
+      "volume": 4917
+    },
+    {
+      "close": 13.0,
+      "high": 13.2,
+      "low": 12.9,
+      "open": 12.9,
+      "time": "2026-09-30",
+      "volume": 12278
+    },
+    {
+      "close": 12.99,
+      "high": 13.3,
+      "low": 12.76,
+      "open": 12.76,
+      "time": "2026-10-01",
+      "volume": 34934
     }
   ],
   "company_name": "COUNTRY CLUB HOSPITALITY AND H",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 46,
+    "momentum_score": 48,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.85x"
+    "volume_multiplier": "1.26x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.31,
-    "change_pct": -2.36,
-    "close": 12.83,
-    "previous_close": 13.14,
+    "as_of": "2026-10-01",
+    "change": -0.01,
+    "change_pct": -0.08,
+    "close": 12.99,
+    "previous_close": 13.0,
     "type": "EOD_CLOSE",
-    "volume": 23613
+    "volume": 34934
   },
   "range": {
-    "distance_from_high_pct": -28.72,
-    "distance_from_low_pct": 27.92,
+    "distance_from_high_pct": -27.83,
+    "distance_from_low_pct": 29.51,
     "high_52w": 18.0,
     "history_basis": "52_WEEK",
     "low_52w": 10.03,
-    "range_position_pct": 35.13
+    "range_position_pct": 37.14
   },
   "risk_model": {
-    "invalidation_floor": 12.38,
+    "invalidation_floor": 12.54,
     "risk_per_share": 0.71,
-    "technical_pivot": 13.09
+    "technical_pivot": 13.25
   },
   "schema_version": "1.0",
   "sector": null,

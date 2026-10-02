@@ -897,46 +897,70 @@
       "open": 470.0,
       "time": "2026-09-28",
       "volume": 2216498
+    },
+    {
+      "close": 551.35,
+      "high": 575.1,
+      "low": 496.4,
+      "open": 501.0,
+      "time": "2026-09-29",
+      "volume": 3374367
+    },
+    {
+      "close": 549.7,
+      "high": 564.9,
+      "low": 528.7,
+      "open": 538.0,
+      "time": "2026-09-30",
+      "volume": 521926
+    },
+    {
+      "close": 553.25,
+      "high": 570.8,
+      "low": 538.7,
+      "open": 546.0,
+      "time": "2026-10-01",
+      "volume": 433950
     }
   ],
   "company_name": "FERMENTA BIOTECH LIMITED",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 112
+    "last_session": "2026-10-01",
+    "sessions_available": 115
   },
   "industry": null,
   "isin": "INE225B01021",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 63,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "10.26x"
+    "is_stage2": true,
+    "momentum_score": 82,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.04x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 10.9,
-    "change_pct": 2.33,
-    "close": 479.3,
-    "previous_close": 468.4,
+    "as_of": "2026-10-01",
+    "change": 3.55,
+    "change_pct": 0.65,
+    "close": 553.25,
+    "previous_close": 549.7,
     "type": "EOD_CLOSE",
-    "volume": 2216498
+    "volume": 433950
   },
   "range": {
-    "distance_from_high_pct": -17.43,
-    "distance_from_low_pct": 92.61,
+    "distance_from_high_pct": -4.69,
+    "distance_from_low_pct": 122.32,
     "high_52w": 580.45,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 248.85,
-    "range_position_pct": 69.5
+    "range_position_pct": 91.8
   },
   "risk_model": {
-    "invalidation_floor": 462.52,
-    "risk_per_share": 26.37,
-    "technical_pivot": 488.89
+    "invalidation_floor": 533.89,
+    "risk_per_share": 30.43,
+    "technical_pivot": 564.32
   },
   "schema_version": "1.0",
   "sector": null,

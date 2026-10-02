@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 149.77,
-      "high": 155.38,
-      "low": 149.0,
-      "open": 155.38,
-      "time": "2025-09-19",
-      "volume": 1273468
-    },
-    {
-      "close": 146.69,
-      "high": 150.55,
-      "low": 146.4,
-      "open": 149.9,
-      "time": "2025-09-22",
-      "volume": 711278
-    },
-    {
-      "close": 149.08,
-      "high": 149.35,
-      "low": 146.37,
-      "open": 146.69,
-      "time": "2025-09-23",
-      "volume": 1519019
-    },
-    {
       "close": 150.8,
       "high": 152.0,
       "low": 148.15,
@@ -2017,13 +1993,37 @@
       "open": 184.98,
       "time": "2026-09-28",
       "volume": 872679
+    },
+    {
+      "close": 182.56,
+      "high": 184.0,
+      "low": 174.68,
+      "open": 179.0,
+      "time": "2026-09-29",
+      "volume": 1354650
+    },
+    {
+      "close": 179.96,
+      "high": 187.3,
+      "low": 179.0,
+      "open": 182.5,
+      "time": "2026-09-30",
+      "volume": 817945
+    },
+    {
+      "close": 178.95,
+      "high": 182.39,
+      "low": 173.63,
+      "open": 179.5,
+      "time": "2026-10-01",
+      "volume": 1031758
     }
   ],
   "company_name": "VINTAGE COFFEE N BVRGS L",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 81,
+    "momentum_score": 80,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.31x"
+    "volume_multiplier": "0.5x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.18,
-    "change_pct": -2.27,
-    "close": 179.97,
-    "previous_close": 184.15,
+    "as_of": "2026-10-01",
+    "change": -1.01,
+    "change_pct": -0.56,
+    "close": 178.95,
+    "previous_close": 179.96,
     "type": "EOD_CLOSE",
-    "volume": 872679
+    "volume": 1031758
   },
   "range": {
-    "distance_from_high_pct": -5.95,
-    "distance_from_low_pct": 49.68,
+    "distance_from_high_pct": -6.48,
+    "distance_from_low_pct": 48.83,
     "high_52w": 191.35,
     "history_basis": "52_WEEK",
     "low_52w": 120.24,
-    "range_position_pct": 84.0
+    "range_position_pct": 82.56
   },
   "risk_model": {
-    "invalidation_floor": 173.67,
-    "risk_per_share": 9.9,
-    "technical_pivot": 183.57
+    "invalidation_floor": 172.69,
+    "risk_per_share": 9.84,
+    "technical_pivot": 182.53
   },
   "schema_version": "1.0",
   "sector": null,

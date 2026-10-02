@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 260.27,
-      "high": 263.55,
-      "low": 254.5,
-      "open": 254.5,
-      "time": "2025-09-19",
-      "volume": 2358303
-    },
-    {
-      "close": 264.25,
-      "high": 266.0,
-      "low": 258.05,
-      "open": 260.05,
-      "time": "2025-09-22",
-      "volume": 2407995
-    },
-    {
-      "close": 276.09,
-      "high": 277.45,
-      "low": 260.11,
-      "open": 265.5,
-      "time": "2025-09-23",
-      "volume": 9772198
-    },
-    {
       "close": 280.35,
       "high": 284.75,
       "low": 275.0,
@@ -2017,13 +1993,37 @@
       "open": 261.65,
       "time": "2026-09-28",
       "volume": 677193
+    },
+    {
+      "close": 255.75,
+      "high": 260.8,
+      "low": 251.2,
+      "open": 256.85,
+      "time": "2026-09-29",
+      "volume": 2549158
+    },
+    {
+      "close": 261.7,
+      "high": 263.5,
+      "low": 255.4,
+      "open": 258.55,
+      "time": "2026-09-30",
+      "volume": 1940444
+    },
+    {
+      "close": 253.2,
+      "high": 261.25,
+      "low": 251.85,
+      "open": 261.2,
+      "time": "2026-10-01",
+      "volume": 1597038
     }
   ],
   "company_name": "NLC INDIA LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.44x"
+    "volume_multiplier": "1.02x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.85,
-    "change_pct": -2.23,
-    "close": 256.7,
-    "previous_close": 262.55,
+    "as_of": "2026-10-01",
+    "change": -8.5,
+    "change_pct": -3.25,
+    "close": 253.2,
+    "previous_close": 261.7,
     "type": "EOD_CLOSE",
-    "volume": 677193
+    "volume": 1597038
   },
   "range": {
-    "distance_from_high_pct": -33.81,
-    "distance_from_low_pct": 11.61,
+    "distance_from_high_pct": -34.71,
+    "distance_from_low_pct": 10.09,
     "high_52w": 387.8,
     "history_basis": "52_WEEK",
     "low_52w": 230.0,
-    "range_position_pct": 16.92
+    "range_position_pct": 14.7
   },
   "risk_model": {
-    "invalidation_floor": 247.72,
-    "risk_per_share": 14.11,
-    "technical_pivot": 261.83
+    "invalidation_floor": 244.34,
+    "risk_per_share": 13.92,
+    "technical_pivot": 258.26
   },
   "schema_version": "1.0",
   "sector": null,

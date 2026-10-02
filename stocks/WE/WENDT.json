@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 9611.0,
-      "high": 9750.0,
-      "low": 9580.0,
-      "open": 9750.0,
-      "time": "2025-09-19",
-      "volume": 8482
-    },
-    {
-      "close": 9456.0,
-      "high": 9674.5,
-      "low": 9415.0,
-      "open": 9621.0,
-      "time": "2025-09-22",
-      "volume": 9204
-    },
-    {
-      "close": 9422.0,
-      "high": 9499.5,
-      "low": 9364.0,
-      "open": 9470.0,
-      "time": "2025-09-23",
-      "volume": 9207
-    },
-    {
       "close": 9267.5,
       "high": 9438.5,
       "low": 9231.0,
@@ -2017,13 +1993,37 @@
       "open": 8650.0,
       "time": "2026-09-28",
       "volume": 5304
+    },
+    {
+      "close": 8395.0,
+      "high": 8651.0,
+      "low": 8340.0,
+      "open": 8490.5,
+      "time": "2026-09-29",
+      "volume": 8552
+    },
+    {
+      "close": 8351.5,
+      "high": 8599.0,
+      "low": 8270.0,
+      "open": 8371.0,
+      "time": "2026-09-30",
+      "volume": 6714
+    },
+    {
+      "close": 8116.0,
+      "high": 8350.0,
+      "low": 7950.0,
+      "open": 8350.0,
+      "time": "2026-10-01",
+      "volume": 14731
     }
   ],
   "company_name": "WENDT (INDIA) LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
+    "is_stage2": false,
+    "momentum_score": 68,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.34x"
+    "volume_multiplier": "0.9x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -187.0,
-    "change_pct": -2.16,
-    "close": 8459.0,
-    "previous_close": 8646.0,
+    "as_of": "2026-10-01",
+    "change": -235.5,
+    "change_pct": -2.82,
+    "close": 8116.0,
+    "previous_close": 8351.5,
     "type": "EOD_CLOSE",
-    "volume": 5304
+    "volume": 14731
   },
   "range": {
-    "distance_from_high_pct": -13.24,
-    "distance_from_low_pct": 44.81,
-    "high_52w": 9750.0,
+    "distance_from_high_pct": -14.01,
+    "distance_from_low_pct": 38.94,
+    "high_52w": 9438.5,
     "history_basis": "52_WEEK",
     "low_52w": 5841.5,
-    "range_position_pct": 66.97
+    "range_position_pct": 63.23
   },
   "risk_model": {
-    "invalidation_floor": 8162.93,
-    "risk_per_share": 465.25,
-    "technical_pivot": 8628.18
+    "invalidation_floor": 7831.94,
+    "risk_per_share": 446.38,
+    "technical_pivot": 8278.32
   },
   "schema_version": "1.0",
   "sector": null,

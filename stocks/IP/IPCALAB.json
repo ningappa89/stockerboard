@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1441.0,
-      "high": 1506.9,
-      "low": 1333.8,
-      "open": 1345.8,
-      "time": "2025-09-19",
-      "volume": 995320
-    },
-    {
-      "close": 1399.3,
-      "high": 1421.7,
-      "low": 1383.1,
-      "open": 1406.0,
-      "time": "2025-09-22",
-      "volume": 222708
-    },
-    {
-      "close": 1395.2,
-      "high": 1404.9,
-      "low": 1367.1,
-      "open": 1400.8,
-      "time": "2025-09-23",
-      "volume": 202440
-    },
-    {
       "close": 1348.4,
       "high": 1388.2,
       "low": 1337.8,
@@ -2017,13 +1993,37 @@
       "open": 1956.0,
       "time": "2026-09-28",
       "volume": 170123
+    },
+    {
+      "close": 1938.1,
+      "high": 1980.0,
+      "low": 1919.7,
+      "open": 1919.7,
+      "time": "2026-09-29",
+      "volume": 246042
+    },
+    {
+      "close": 1927.0,
+      "high": 1984.9,
+      "low": 1916.4,
+      "open": 1950.3,
+      "time": "2026-09-30",
+      "volume": 312460
+    },
+    {
+      "close": 1943.2,
+      "high": 1966.8,
+      "low": 1880.8,
+      "open": 1929.9,
+      "time": "2026-10-01",
+      "volume": 323967
     }
   ],
   "company_name": "IPCA LABORATORIES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 81,
+    "momentum_score": 83,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.72x"
+    "volume_multiplier": "1.33x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -51.5,
-    "change_pct": -2.61,
-    "close": 1919.3,
-    "previous_close": 1970.8,
+    "as_of": "2026-10-01",
+    "change": 16.2,
+    "change_pct": 0.84,
+    "close": 1943.2,
+    "previous_close": 1927.0,
     "type": "EOD_CLOSE",
-    "volume": 170123
+    "volume": 323967
   },
   "range": {
-    "distance_from_high_pct": -5.82,
-    "distance_from_low_pct": 53.35,
+    "distance_from_high_pct": -4.65,
+    "distance_from_low_pct": 55.26,
     "high_52w": 2038.0,
     "history_basis": "52_WEEK",
     "low_52w": 1251.6,
-    "range_position_pct": 84.91
+    "range_position_pct": 87.95
   },
   "risk_model": {
-    "invalidation_floor": 1852.12,
-    "risk_per_share": 105.57,
-    "technical_pivot": 1957.69
+    "invalidation_floor": 1875.19,
+    "risk_per_share": 106.87,
+    "technical_pivot": 1982.06
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

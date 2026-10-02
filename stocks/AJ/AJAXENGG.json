@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 675.8,
-      "high": 684.0,
-      "low": 670.4,
-      "open": 683.0,
-      "time": "2025-09-19",
-      "volume": 56474
-    },
-    {
-      "close": 658.45,
-      "high": 675.0,
-      "low": 655.1,
-      "open": 675.0,
-      "time": "2025-09-22",
-      "volume": 161582
-    },
-    {
-      "close": 656.5,
-      "high": 669.0,
-      "low": 655.0,
-      "open": 656.05,
-      "time": "2025-09-23",
-      "volume": 61112
-    },
-    {
       "close": 650.45,
       "high": 661.9,
       "low": 649.5,
@@ -2017,13 +1993,37 @@
       "open": 614.0,
       "time": "2026-09-28",
       "volume": 174202
+    },
+    {
+      "close": 591.65,
+      "high": 602.5,
+      "low": 578.95,
+      "open": 600.0,
+      "time": "2026-09-29",
+      "volume": 88197
+    },
+    {
+      "close": 587.0,
+      "high": 597.0,
+      "low": 586.0,
+      "open": 591.65,
+      "time": "2026-09-30",
+      "volume": 41369
+    },
+    {
+      "close": 586.4,
+      "high": 600.45,
+      "low": 576.7,
+      "open": 587.0,
+      "time": "2026-10-01",
+      "volume": 76581
     }
   ],
   "company_name": "AJAX Engineering Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.05x"
+    "volume_multiplier": "0.45x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -17.85,
-    "change_pct": -2.94,
-    "close": 589.9,
-    "previous_close": 607.75,
+    "as_of": "2026-10-01",
+    "change": -0.6,
+    "change_pct": -0.1,
+    "close": 586.4,
+    "previous_close": 587.0,
     "type": "EOD_CLOSE",
-    "volume": 174202
+    "volume": 76581
   },
   "range": {
-    "distance_from_high_pct": -15.43,
-    "distance_from_low_pct": 49.42,
+    "distance_from_high_pct": -15.93,
+    "distance_from_low_pct": 48.53,
     "high_52w": 697.55,
     "history_basis": "52_WEEK",
     "low_52w": 394.8,
-    "range_position_pct": 64.44
+    "range_position_pct": 63.29
   },
   "risk_model": {
-    "invalidation_floor": 569.25,
-    "risk_per_share": 32.45,
-    "technical_pivot": 601.7
+    "invalidation_floor": 565.88,
+    "risk_per_share": 32.25,
+    "technical_pivot": 598.13
   },
   "schema_version": "1.0",
   "sector": null,

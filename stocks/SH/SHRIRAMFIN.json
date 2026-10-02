@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 633.2,
-      "high": 637.3,
-      "low": 627.1,
-      "open": 630.0,
-      "time": "2025-09-19",
-      "volume": 6415748
-    },
-    {
-      "close": 627.85,
-      "high": 638.0,
-      "low": 625.45,
-      "open": 638.0,
-      "time": "2025-09-22",
-      "volume": 2712596
-    },
-    {
-      "close": 628.8,
-      "high": 634.4,
-      "low": 624.5,
-      "open": 628.0,
-      "time": "2025-09-23",
-      "volume": 3586451
-    },
-    {
       "close": 625.15,
       "high": 630.0,
       "low": 620.3,
@@ -2017,13 +1993,37 @@
       "open": 990.0,
       "time": "2026-09-28",
       "volume": 4953660
+    },
+    {
+      "close": 971.5,
+      "high": 986.2,
+      "low": 967.9,
+      "open": 975.0,
+      "time": "2026-09-29",
+      "volume": 6176420
+    },
+    {
+      "close": 982.7,
+      "high": 987.0,
+      "low": 965.1,
+      "open": 972.2,
+      "time": "2026-09-30",
+      "volume": 5552495
+    },
+    {
+      "close": 945.0,
+      "high": 975.0,
+      "low": 936.0,
+      "open": 973.5,
+      "time": "2026-10-01",
+      "volume": 5599670
     }
   ],
   "company_name": "SHRIRAM FINANCE LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.16x"
+    "volume_multiplier": "1.32x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -17.8,
-    "change_pct": -1.79,
-    "close": 976.3,
-    "previous_close": 994.1,
+    "as_of": "2026-10-01",
+    "change": -37.7,
+    "change_pct": -3.84,
+    "close": 945.0,
+    "previous_close": 982.7,
     "type": "EOD_CLOSE",
-    "volume": 4953660
+    "volume": 5599670
   },
   "range": {
-    "distance_from_high_pct": -15.38,
-    "distance_from_low_pct": 61.87,
+    "distance_from_high_pct": -18.09,
+    "distance_from_low_pct": 56.68,
     "high_52w": 1153.7,
     "history_basis": "52_WEEK",
     "low_52w": 603.15,
-    "range_position_pct": 67.78
+    "range_position_pct": 62.09
   },
   "risk_model": {
-    "invalidation_floor": 942.13,
-    "risk_per_share": 53.7,
-    "technical_pivot": 995.83
+    "invalidation_floor": 911.92,
+    "risk_per_share": 51.98,
+    "technical_pivot": 963.9
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

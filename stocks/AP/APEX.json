@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 246.59,
-      "high": 251.8,
-      "low": 245.2,
-      "open": 249.55,
-      "time": "2025-09-19",
-      "volume": 76999
-    },
-    {
-      "close": 240.46,
-      "high": 245.0,
-      "low": 238.0,
-      "open": 245.0,
-      "time": "2025-09-22",
-      "volume": 125695
-    },
-    {
-      "close": 235.4,
-      "high": 241.8,
-      "low": 234.11,
-      "open": 241.8,
-      "time": "2025-09-23",
-      "volume": 56423
-    },
-    {
       "close": 230.7,
       "high": 237.19,
       "low": 229.05,
@@ -2017,13 +1993,37 @@
       "open": 345.25,
       "time": "2026-09-28",
       "volume": 99907
+    },
+    {
+      "close": 343.1,
+      "high": 348.4,
+      "low": 334.5,
+      "open": 338.65,
+      "time": "2026-09-29",
+      "volume": 112135
+    },
+    {
+      "close": 336.5,
+      "high": 348.3,
+      "low": 335.0,
+      "open": 343.1,
+      "time": "2026-09-30",
+      "volume": 66125
+    },
+    {
+      "close": 326.3,
+      "high": 341.95,
+      "low": 320.3,
+      "open": 338.2,
+      "time": "2026-10-01",
+      "volume": 123991
     }
   ],
   "company_name": "Apex Frozen Foods Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.84x"
+    "volume_multiplier": "1.1x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -8.95,
-    "change_pct": -2.57,
-    "close": 338.65,
-    "previous_close": 347.6,
+    "as_of": "2026-10-01",
+    "change": -10.2,
+    "change_pct": -3.03,
+    "close": 326.3,
+    "previous_close": 336.5,
     "type": "EOD_CLOSE",
-    "volume": 99907
+    "volume": 123991
   },
   "range": {
-    "distance_from_high_pct": -34.18,
-    "distance_from_low_pct": 54.03,
+    "distance_from_high_pct": -36.58,
+    "distance_from_low_pct": 48.41,
     "high_52w": 514.5,
     "history_basis": "52_WEEK",
     "low_52w": 219.86,
-    "range_position_pct": 40.32
+    "range_position_pct": 36.13
   },
   "risk_model": {
-    "invalidation_floor": 326.8,
-    "risk_per_share": 18.62,
-    "technical_pivot": 345.42
+    "invalidation_floor": 314.88,
+    "risk_per_share": 17.95,
+    "technical_pivot": 332.83
   },
   "schema_version": "1.0",
   "sector": null,

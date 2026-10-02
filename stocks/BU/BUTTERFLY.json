@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 697.6,
-      "high": 705.0,
-      "low": 696.5,
-      "open": 702.0,
-      "time": "2025-09-19",
-      "volume": 4548
-    },
-    {
-      "close": 710.55,
-      "high": 714.8,
-      "low": 690.15,
-      "open": 700.4,
-      "time": "2025-09-22",
-      "volume": 16700
-    },
-    {
-      "close": 713.2,
-      "high": 720.0,
-      "low": 710.0,
-      "open": 710.6,
-      "time": "2025-09-23",
-      "volume": 9576
-    },
-    {
       "close": 721.65,
       "high": 726.0,
       "low": 706.45,
@@ -2017,13 +1993,37 @@
       "open": 561.0,
       "time": "2026-09-28",
       "volume": 11936
+    },
+    {
+      "close": 561.25,
+      "high": 567.4,
+      "low": 559.5,
+      "open": 563.0,
+      "time": "2026-09-29",
+      "volume": 7600
+    },
+    {
+      "close": 552.75,
+      "high": 565.35,
+      "low": 551.55,
+      "open": 564.3,
+      "time": "2026-09-30",
+      "volume": 12112
+    },
+    {
+      "close": 550.5,
+      "high": 569.95,
+      "low": 522.25,
+      "open": 558.0,
+      "time": "2026-10-01",
+      "volume": 36497
     }
   ],
   "company_name": "BUTTERFLY GANDHIMATHI APPLIANC",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "1.77x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.65,
-    "change_pct": -0.47,
-    "close": 564.05,
-    "previous_close": 566.7,
+    "as_of": "2026-10-01",
+    "change": -2.25,
+    "change_pct": -0.41,
+    "close": 550.5,
+    "previous_close": 552.75,
     "type": "EOD_CLOSE",
-    "volume": 11936
+    "volume": 36497
   },
   "range": {
-    "distance_from_high_pct": -31.53,
-    "distance_from_low_pct": 0.77,
+    "distance_from_high_pct": -33.18,
+    "distance_from_low_pct": 5.41,
     "high_52w": 823.85,
     "history_basis": "52_WEEK",
-    "low_52w": 559.75,
-    "range_position_pct": 1.63
+    "low_52w": 522.25,
+    "range_position_pct": 9.37
   },
   "risk_model": {
-    "invalidation_floor": 544.31,
-    "risk_per_share": 31.02,
-    "technical_pivot": 575.33
+    "invalidation_floor": 531.23,
+    "risk_per_share": 30.28,
+    "technical_pivot": 561.51
   },
   "schema_version": "1.0",
   "sector": null,

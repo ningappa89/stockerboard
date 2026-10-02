@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1996.2,
-      "high": 2070.0,
-      "low": 1980.0,
-      "open": 2066.0,
-      "time": "2025-09-19",
-      "volume": 179945
-    },
-    {
-      "close": 1956.2,
-      "high": 2001.9,
-      "low": 1943.5,
-      "open": 2000.0,
-      "time": "2025-09-22",
-      "volume": 119730
-    },
-    {
-      "close": 1952.9,
-      "high": 1964.8,
-      "low": 1931.6,
-      "open": 1956.2,
-      "time": "2025-09-23",
-      "volume": 74268
-    },
-    {
       "close": 1983.1,
       "high": 1998.5,
       "low": 1942.0,
@@ -2017,13 +1993,37 @@
       "open": 1724.4,
       "time": "2026-09-28",
       "volume": 216866
+    },
+    {
+      "close": 1644.7,
+      "high": 1668.5,
+      "low": 1626.8,
+      "open": 1636.7,
+      "time": "2026-09-29",
+      "volume": 168312
+    },
+    {
+      "close": 1673.8,
+      "high": 1684.5,
+      "low": 1625.8,
+      "open": 1639.9,
+      "time": "2026-09-30",
+      "volume": 118032
+    },
+    {
+      "close": 1638.1,
+      "high": 1662.2,
+      "low": 1620.1,
+      "open": 1662.1,
+      "time": "2026-10-01",
+      "volume": 91694
     }
   ],
   "company_name": "POLY MEDICURE LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.41x"
+    "volume_multiplier": "0.82x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -87.7,
-    "change_pct": -5.09,
-    "close": 1636.7,
-    "previous_close": 1724.4,
+    "as_of": "2026-10-01",
+    "change": -35.7,
+    "change_pct": -2.13,
+    "close": 1638.1,
+    "previous_close": 1673.8,
     "type": "EOD_CLOSE",
-    "volume": 216866
+    "volume": 91694
   },
   "range": {
-    "distance_from_high_pct": -21.85,
-    "distance_from_low_pct": 38.47,
+    "distance_from_high_pct": -21.78,
+    "distance_from_low_pct": 38.59,
     "high_52w": 2094.3,
     "history_basis": "52_WEEK",
     "low_52w": 1182.0,
-    "range_position_pct": 49.84
+    "range_position_pct": 49.99
   },
   "risk_model": {
-    "invalidation_floor": 1579.42,
-    "risk_per_share": 90.01,
-    "technical_pivot": 1669.43
+    "invalidation_floor": 1580.77,
+    "risk_per_share": 90.09,
+    "technical_pivot": 1670.86
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

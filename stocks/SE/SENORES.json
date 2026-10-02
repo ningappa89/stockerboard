@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 712.3,
-      "high": 722.7,
-      "low": 705.2,
-      "open": 717.4,
-      "time": "2025-09-19",
-      "volume": 177648
-    },
-    {
-      "close": 706.4,
-      "high": 714.7,
-      "low": 701.0,
-      "open": 712.0,
-      "time": "2025-09-22",
-      "volume": 209317
-    },
-    {
-      "close": 717.2,
-      "high": 734.3,
-      "low": 703.0,
-      "open": 703.2,
-      "time": "2025-09-23",
-      "volume": 381389
-    },
-    {
       "close": 703.1,
       "high": 722.75,
       "low": 699.4,
@@ -2017,13 +1993,37 @@
       "open": 1349.8,
       "time": "2026-09-28",
       "volume": 122013
+    },
+    {
+      "close": 1403.7,
+      "high": 1435.0,
+      "low": 1352.5,
+      "open": 1352.5,
+      "time": "2026-09-29",
+      "volume": 506799
+    },
+    {
+      "close": 1385.8,
+      "high": 1413.0,
+      "low": 1370.0,
+      "open": 1403.7,
+      "time": "2026-09-30",
+      "volume": 268540
+    },
+    {
+      "close": 1349.6,
+      "high": 1398.0,
+      "low": 1319.4,
+      "open": 1387.0,
+      "time": "2026-10-01",
+      "volume": 363714
     }
   ],
   "company_name": "SENORES PHARMACEUTICALS LIMITE",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.52x"
+    "volume_multiplier": "1.51x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.4,
-    "change_pct": -0.25,
-    "close": 1351.8,
-    "previous_close": 1355.2,
+    "as_of": "2026-10-01",
+    "change": -36.2,
+    "change_pct": -2.61,
+    "close": 1349.6,
+    "previous_close": 1385.8,
     "type": "EOD_CLOSE",
-    "volume": 122013
+    "volume": 363714
   },
   "range": {
-    "distance_from_high_pct": -15.46,
-    "distance_from_low_pct": 104.06,
+    "distance_from_high_pct": -15.6,
+    "distance_from_low_pct": 103.73,
     "high_52w": 1599.0,
     "history_basis": "52_WEEK",
     "low_52w": 662.45,
-    "range_position_pct": 73.61
+    "range_position_pct": 73.37
   },
   "risk_model": {
-    "invalidation_floor": 1304.49,
-    "risk_per_share": 74.35,
-    "technical_pivot": 1378.84
+    "invalidation_floor": 1302.36,
+    "risk_per_share": 74.23,
+    "technical_pivot": 1376.59
   },
   "schema_version": "1.0",
   "sector": null,

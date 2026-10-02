@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 104.89,
-      "high": 107.92,
-      "low": 100.0,
-      "open": 100.0,
-      "time": "2025-09-19",
-      "volume": 5027
-    },
-    {
-      "close": 110.13,
-      "high": 110.13,
-      "low": 106.0,
-      "open": 108.49,
-      "time": "2025-09-22",
-      "volume": 55047
-    },
-    {
-      "close": 108.31,
-      "high": 110.13,
-      "low": 107.1,
-      "open": 110.13,
-      "time": "2025-09-23",
-      "volume": 13383
-    },
-    {
       "close": 106.01,
       "high": 112.0,
       "low": 104.13,
@@ -2017,13 +1993,37 @@
       "open": 81.29,
       "time": "2026-09-28",
       "volume": 35228
+    },
+    {
+      "close": 77.83,
+      "high": 82.4,
+      "low": 76.16,
+      "open": 82.4,
+      "time": "2026-09-29",
+      "volume": 32183
+    },
+    {
+      "close": 73.9,
+      "high": 84.75,
+      "low": 73.15,
+      "open": 84.75,
+      "time": "2026-09-30",
+      "volume": 95895
+    },
+    {
+      "close": 66.94,
+      "high": 75.9,
+      "low": 65.5,
+      "open": 75.9,
+      "time": "2026-10-01",
+      "volume": 282079
     }
   ],
   "company_name": "SUPREME INFRASTRUCTURE INDIA L",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 46,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.76x"
+    "momentum_score": 40,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "4.57x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.57,
-    "change_pct": -1.93,
-    "close": 79.72,
-    "previous_close": 81.29,
+    "as_of": "2026-10-01",
+    "change": -6.96,
+    "change_pct": -9.42,
+    "close": 66.94,
+    "previous_close": 73.9,
     "type": "EOD_CLOSE",
-    "volume": 35228
+    "volume": 282079
   },
   "range": {
-    "distance_from_high_pct": -28.82,
-    "distance_from_low_pct": 37.19,
+    "distance_from_high_pct": -40.23,
+    "distance_from_low_pct": 15.2,
     "high_52w": 112.0,
     "history_basis": "52_WEEK",
     "low_52w": 58.11,
-    "range_position_pct": 40.1
+    "range_position_pct": 16.39
   },
   "risk_model": {
-    "invalidation_floor": 76.93,
-    "risk_per_share": 4.38,
-    "technical_pivot": 81.31
+    "invalidation_floor": 64.6,
+    "risk_per_share": 3.68,
+    "technical_pivot": 68.28
   },
   "schema_version": "1.0",
   "sector": null,

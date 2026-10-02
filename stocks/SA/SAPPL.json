@@ -889,46 +889,70 @@
       "open": 276.9,
       "time": "2026-09-28",
       "volume": 8496
+    },
+    {
+      "close": 293.55,
+      "high": 298.0,
+      "low": 276.0,
+      "open": 293.0,
+      "time": "2026-09-29",
+      "volume": 2179
+    },
+    {
+      "close": 300.1,
+      "high": 305.0,
+      "low": 280.0,
+      "open": 296.0,
+      "time": "2026-09-30",
+      "volume": 6609
+    },
+    {
+      "close": 308.5,
+      "high": 314.9,
+      "low": 298.2,
+      "open": 305.0,
+      "time": "2026-10-01",
+      "volume": 12198
     }
   ],
   "company_name": "Shree Ajit Pulp And Paper Ltd.",
   "history": {
     "first_session": "2026-04-21",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 111
+    "last_session": "2026-10-01",
+    "sessions_available": 114
   },
   "industry": null,
   "isin": "INE185C01017",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 65,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "5.41x"
+    "is_stage2": true,
+    "momentum_score": 78,
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "5.05x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 3.05,
-    "change_pct": 1.1,
-    "close": 279.95,
-    "previous_close": 276.9,
+    "as_of": "2026-10-01",
+    "change": 8.4,
+    "change_pct": 2.8,
+    "close": 308.5,
+    "previous_close": 300.1,
     "type": "EOD_CLOSE",
-    "volume": 8496
+    "volume": 12198
   },
   "range": {
-    "distance_from_high_pct": -16.26,
-    "distance_from_low_pct": 11.09,
+    "distance_from_high_pct": -7.72,
+    "distance_from_low_pct": 22.42,
     "high_52w": 334.3,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 252.0,
-    "range_position_pct": 33.96
+    "range_position_pct": 68.65
   },
   "risk_model": {
-    "invalidation_floor": 270.15,
-    "risk_per_share": 15.4,
-    "technical_pivot": 285.55
+    "invalidation_floor": 297.7,
+    "risk_per_share": 16.97,
+    "technical_pivot": 314.67
   },
   "schema_version": "1.0",
   "sector": null,

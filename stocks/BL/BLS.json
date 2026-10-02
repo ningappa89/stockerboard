@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 365.35,
-      "high": 369.0,
-      "low": 364.2,
-      "open": 369.0,
-      "time": "2025-09-19",
-      "volume": 677863
-    },
-    {
-      "close": 361.05,
-      "high": 364.0,
-      "low": 360.25,
-      "open": 360.9,
-      "time": "2025-09-22",
-      "volume": 816422
-    },
-    {
-      "close": 360.0,
-      "high": 362.9,
-      "low": 352.4,
-      "open": 361.05,
-      "time": "2025-09-23",
-      "volume": 1001935
-    },
-    {
       "close": 355.95,
       "high": 361.25,
       "low": 354.5,
@@ -2017,13 +1993,37 @@
       "open": 223.5,
       "time": "2026-09-28",
       "volume": 486201
+    },
+    {
+      "close": 219.55,
+      "high": 224.6,
+      "low": 218.0,
+      "open": 221.6,
+      "time": "2026-09-29",
+      "volume": 784993
+    },
+    {
+      "close": 218.26,
+      "high": 223.93,
+      "low": 217.23,
+      "open": 219.55,
+      "time": "2026-09-30",
+      "volume": 602312
+    },
+    {
+      "close": 216.51,
+      "high": 219.8,
+      "low": 212.0,
+      "open": 217.0,
+      "time": "2026-10-01",
+      "volume": 803646
     }
   ],
   "company_name": "BLS INTL SERVS LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.55x"
+    "volume_multiplier": "1.03x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.04,
-    "change_pct": -1.36,
-    "close": 221.22,
-    "previous_close": 224.26,
+    "as_of": "2026-10-01",
+    "change": -1.75,
+    "change_pct": -0.8,
+    "close": 216.51,
+    "previous_close": 218.26,
     "type": "EOD_CLOSE",
-    "volume": 486201
+    "volume": 803646
   },
   "range": {
-    "distance_from_high_pct": -40.05,
-    "distance_from_low_pct": 1.06,
-    "high_52w": 369.0,
+    "distance_from_high_pct": -40.07,
+    "distance_from_low_pct": 2.13,
+    "high_52w": 361.25,
     "history_basis": "52_WEEK",
-    "low_52w": 218.9,
-    "range_position_pct": 1.55
+    "low_52w": 212.0,
+    "range_position_pct": 3.02
   },
   "risk_model": {
-    "invalidation_floor": 213.48,
-    "risk_per_share": 12.16,
-    "technical_pivot": 225.64
+    "invalidation_floor": 208.93,
+    "risk_per_share": 11.91,
+    "technical_pivot": 220.84
   },
   "schema_version": "1.0",
   "sector": null,

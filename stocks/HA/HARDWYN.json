@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 9.66,
-      "high": 9.74,
-      "low": 9.51,
-      "open": 9.74,
-      "time": "2025-09-19",
-      "volume": 133568
-    },
-    {
-      "close": 9.49,
-      "high": 9.74,
-      "low": 9.46,
-      "open": 9.7,
-      "time": "2025-09-22",
-      "volume": 317769
-    },
-    {
-      "close": 9.58,
-      "high": 9.64,
-      "low": 9.46,
-      "open": 9.64,
-      "time": "2025-09-23",
-      "volume": 115842
-    },
-    {
       "close": 9.44,
       "high": 9.58,
       "low": 9.32,
@@ -2017,13 +1993,37 @@
       "open": 9.5,
       "time": "2026-09-28",
       "volume": 313648
+    },
+    {
+      "close": 9.26,
+      "high": 9.43,
+      "low": 9.18,
+      "open": 9.26,
+      "time": "2026-09-29",
+      "volume": 220896
+    },
+    {
+      "close": 9.21,
+      "high": 9.39,
+      "low": 9.11,
+      "open": 9.33,
+      "time": "2026-09-30",
+      "volume": 302662
+    },
+    {
+      "close": 9.19,
+      "high": 9.29,
+      "low": 8.85,
+      "open": 9.19,
+      "time": "2026-10-01",
+      "volume": 573580
     }
   ],
   "company_name": "HARDWYN INDIA LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.25x"
+    "volume_multiplier": "0.62x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.04,
-    "change_pct": -0.43,
-    "close": 9.23,
-    "previous_close": 9.27,
+    "as_of": "2026-10-01",
+    "change": -0.02,
+    "change_pct": -0.22,
+    "close": 9.19,
+    "previous_close": 9.21,
     "type": "EOD_CLOSE",
-    "volume": 313648
+    "volume": 573580
   },
   "range": {
-    "distance_from_high_pct": -54.31,
-    "distance_from_low_pct": 21.29,
+    "distance_from_high_pct": -54.5,
+    "distance_from_low_pct": 20.76,
     "high_52w": 20.2,
     "history_basis": "52_WEEK",
     "low_52w": 7.61,
-    "range_position_pct": 12.87
+    "range_position_pct": 12.55
   },
   "risk_model": {
-    "invalidation_floor": 8.91,
+    "invalidation_floor": 8.87,
     "risk_per_share": 0.5,
-    "technical_pivot": 9.41
+    "technical_pivot": 9.37
   },
   "schema_version": "1.0",
   "sector": null,

@@ -1921,14 +1921,38 @@
       "open": 123.2,
       "time": "2026-09-28",
       "volume": 359371
+    },
+    {
+      "close": 120.19,
+      "high": 123.78,
+      "low": 119.51,
+      "open": 123.77,
+      "time": "2026-09-29",
+      "volume": 115011
+    },
+    {
+      "close": 121.19,
+      "high": 125.45,
+      "low": 120.0,
+      "open": 120.19,
+      "time": "2026-09-30",
+      "volume": 261919
+    },
+    {
+      "close": 116.75,
+      "high": 121.58,
+      "low": 115.56,
+      "open": 121.19,
+      "time": "2026-10-01",
+      "volume": 704242
     }
   ],
   "company_name": "Advance Agrolife Limited",
   "history": {
     "first_session": "2025-10-08",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 240
+    "last_session": "2026-10-01",
+    "sessions_available": 243
   },
   "industry": null,
   "isin": "INE1B0W01010",
@@ -1936,31 +1960,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.69x"
+    "momentum_score": 53,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.96x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.62,
-    "change_pct": -1.32,
-    "close": 121.5,
-    "previous_close": 123.12,
+    "as_of": "2026-10-01",
+    "change": -4.44,
+    "change_pct": -3.66,
+    "close": 116.75,
+    "previous_close": 121.19,
     "type": "EOD_CLOSE",
-    "volume": 359371
+    "volume": 704242
   },
   "range": {
-    "distance_from_high_pct": -21.1,
-    "distance_from_low_pct": 44.47,
+    "distance_from_high_pct": -24.19,
+    "distance_from_low_pct": 38.82,
     "high_52w": 154.0,
     "history_basis": "52_WEEK",
     "low_52w": 84.1,
-    "range_position_pct": 53.51
+    "range_position_pct": 46.71
   },
   "risk_model": {
-    "invalidation_floor": 117.25,
-    "risk_per_share": 6.68,
-    "technical_pivot": 123.93
+    "invalidation_floor": 112.66,
+    "risk_per_share": 6.43,
+    "technical_pivot": 119.09
   },
   "schema_version": "1.0",
   "sector": null,

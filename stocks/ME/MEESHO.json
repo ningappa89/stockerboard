@@ -1577,14 +1577,38 @@
       "open": 217.06,
       "time": "2026-09-28",
       "volume": 15872109
+    },
+    {
+      "close": 223.21,
+      "high": 226.41,
+      "low": 211.77,
+      "open": 216.83,
+      "time": "2026-09-29",
+      "volume": 31046538
+    },
+    {
+      "close": 227.75,
+      "high": 230.68,
+      "low": 219.19,
+      "open": 223.0,
+      "time": "2026-09-30",
+      "volume": 15536460
+    },
+    {
+      "close": 218.69,
+      "high": 226.65,
+      "low": 217.3,
+      "open": 224.75,
+      "time": "2026-10-01",
+      "volume": 6218981
     }
   ],
   "company_name": "MEESHO LIMITED",
   "history": {
     "first_session": "2025-12-10",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 197
+    "last_session": "2026-10-01",
+    "sessions_available": 200
   },
   "industry": null,
   "isin": "INE0VDM01015",
@@ -1592,31 +1616,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 67,
+    "momentum_score": 68,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.62x"
+    "volume_multiplier": "0.24x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.23,
-    "change_pct": -0.11,
-    "close": 216.83,
-    "previous_close": 217.06,
+    "as_of": "2026-10-01",
+    "change": -9.06,
+    "change_pct": -3.98,
+    "close": 218.69,
+    "previous_close": 227.75,
     "type": "EOD_CLOSE",
-    "volume": 15872109
+    "volume": 6218981
   },
   "range": {
-    "distance_from_high_pct": -14.77,
-    "distance_from_low_pct": 72.69,
+    "distance_from_high_pct": -14.04,
+    "distance_from_low_pct": 74.17,
     "high_52w": 254.4,
-    "history_basis": "AVAILABLE_HISTORY",
+    "history_basis": "52_WEEK",
     "low_52w": 125.56,
-    "range_position_pct": 70.84
+    "range_position_pct": 72.28
   },
   "risk_model": {
-    "invalidation_floor": 209.24,
-    "risk_per_share": 11.93,
-    "technical_pivot": 221.17
+    "invalidation_floor": 211.04,
+    "risk_per_share": 12.02,
+    "technical_pivot": 223.06
   },
   "schema_version": "1.0",
   "sector": null,

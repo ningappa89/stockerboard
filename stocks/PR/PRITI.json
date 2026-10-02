@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 75.26,
-      "high": 78.96,
-      "low": 74.97,
-      "open": 78.28,
-      "time": "2025-09-19",
-      "volume": 25207
-    },
-    {
-      "close": 74.79,
-      "high": 76.99,
-      "low": 74.67,
-      "open": 76.99,
-      "time": "2025-09-22",
-      "volume": 18224
-    },
-    {
-      "close": 74.61,
-      "high": 76.49,
-      "low": 73.01,
-      "open": 76.49,
-      "time": "2025-09-23",
-      "volume": 18766
-    },
-    {
       "close": 73.54,
       "high": 75.48,
       "low": 73.22,
@@ -2017,13 +1993,37 @@
       "open": 32.6,
       "time": "2026-09-28",
       "volume": 29594
+    },
+    {
+      "close": 32.14,
+      "high": 32.48,
+      "low": 30.5,
+      "open": 32.0,
+      "time": "2026-09-29",
+      "volume": 6072
+    },
+    {
+      "close": 32.71,
+      "high": 32.98,
+      "low": 32.0,
+      "open": 32.98,
+      "time": "2026-09-30",
+      "volume": 5984
+    },
+    {
+      "close": 32.79,
+      "high": 33.0,
+      "low": 30.65,
+      "open": 31.5,
+      "time": "2026-10-01",
+      "volume": 30728
     }
   ],
   "company_name": "PRITI INTERNATIONAL LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Volume Expansion",
-    "volume_multiplier": "3.95x"
+    "volume_multiplier": "3.4x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.45,
-    "change_pct": -7.25,
-    "close": 31.33,
-    "previous_close": 33.78,
+    "as_of": "2026-10-01",
+    "change": 0.08,
+    "change_pct": 0.24,
+    "close": 32.79,
+    "previous_close": 32.71,
     "type": "EOD_CLOSE",
-    "volume": 29594
+    "volume": 30728
   },
   "range": {
-    "distance_from_high_pct": -63.14,
-    "distance_from_low_pct": 1.75,
+    "distance_from_high_pct": -61.42,
+    "distance_from_low_pct": 7.51,
     "high_52w": 85.0,
     "history_basis": "52_WEEK",
-    "low_52w": 30.79,
-    "range_position_pct": 1.0
+    "low_52w": 30.5,
+    "range_position_pct": 4.2
   },
   "risk_model": {
-    "invalidation_floor": 30.23,
-    "risk_per_share": 1.73,
-    "technical_pivot": 31.96
+    "invalidation_floor": 31.64,
+    "risk_per_share": 1.81,
+    "technical_pivot": 33.45
   },
   "schema_version": "1.0",
   "sector": null,

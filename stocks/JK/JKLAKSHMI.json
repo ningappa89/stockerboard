@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 895.25,
-      "high": 904.5,
-      "low": 889.7,
-      "open": 897.65,
-      "time": "2025-09-19",
-      "volume": 93737
-    },
-    {
-      "close": 888.45,
-      "high": 908.8,
-      "low": 885.0,
-      "open": 895.3,
-      "time": "2025-09-22",
-      "volume": 109680
-    },
-    {
-      "close": 879.75,
-      "high": 907.65,
-      "low": 876.05,
-      "open": 907.65,
-      "time": "2025-09-23",
-      "volume": 206506
-    },
-    {
       "close": 862.85,
       "high": 884.0,
       "low": 861.2,
@@ -2017,13 +1993,37 @@
       "open": 510.0,
       "time": "2026-09-28",
       "volume": 119319
+    },
+    {
+      "close": 490.15,
+      "high": 493.45,
+      "low": 482.05,
+      "open": 493.45,
+      "time": "2026-09-29",
+      "volume": 450744
+    },
+    {
+      "close": 492.3,
+      "high": 498.75,
+      "low": 488.1,
+      "open": 490.05,
+      "time": "2026-09-30",
+      "volume": 104189
+    },
+    {
+      "close": 476.6,
+      "high": 491.15,
+      "low": 471.6,
+      "open": 490.0,
+      "time": "2026-10-01",
+      "volume": 290321
     }
   ],
   "company_name": "JK LAKSHMI CEMENT LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.91x"
+    "volume_multiplier": "1.94x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -15.55,
-    "change_pct": -3.05,
-    "close": 494.8,
-    "previous_close": 510.35,
+    "as_of": "2026-10-01",
+    "change": -15.7,
+    "change_pct": -3.19,
+    "close": 476.6,
+    "previous_close": 492.3,
     "type": "EOD_CLOSE",
-    "volume": 119319
+    "volume": 290321
   },
   "range": {
-    "distance_from_high_pct": -45.55,
-    "distance_from_low_pct": 0.72,
-    "high_52w": 908.8,
+    "distance_from_high_pct": -46.14,
+    "distance_from_low_pct": 1.06,
+    "high_52w": 884.95,
     "history_basis": "52_WEEK",
-    "low_52w": 491.25,
-    "range_position_pct": 0.85
+    "low_52w": 471.6,
+    "range_position_pct": 1.21
   },
   "risk_model": {
-    "invalidation_floor": 477.48,
-    "risk_per_share": 27.22,
-    "technical_pivot": 504.7
+    "invalidation_floor": 459.92,
+    "risk_per_share": 26.21,
+    "technical_pivot": 486.13
   },
   "schema_version": "1.0",
   "sector": null,

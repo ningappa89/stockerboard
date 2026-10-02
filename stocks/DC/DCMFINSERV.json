@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 6.0,
-      "high": 6.09,
-      "low": 5.75,
-      "open": 5.91,
-      "time": "2025-09-19",
-      "volume": 7008
-    },
-    {
-      "close": 5.83,
-      "high": 6.0,
-      "low": 5.7,
-      "open": 6.0,
-      "time": "2025-09-22",
-      "volume": 33539
-    },
-    {
-      "close": 5.73,
-      "high": 5.95,
-      "low": 5.67,
-      "open": 5.81,
-      "time": "2025-09-23",
-      "volume": 28287
-    },
-    {
       "close": 5.81,
       "high": 5.85,
       "low": 5.63,
@@ -2017,13 +1993,37 @@
       "open": 5.15,
       "time": "2026-09-28",
       "volume": 3712
+    },
+    {
+      "close": 4.93,
+      "high": 5.2,
+      "low": 4.88,
+      "open": 5.2,
+      "time": "2026-09-29",
+      "volume": 11982
+    },
+    {
+      "close": 5.07,
+      "high": 5.15,
+      "low": 4.85,
+      "open": 4.93,
+      "time": "2026-09-30",
+      "volume": 23478
+    },
+    {
+      "close": 5.07,
+      "high": 5.19,
+      "low": 4.74,
+      "open": 5.19,
+      "time": "2026-10-01",
+      "volume": 4145
     }
   ],
   "company_name": "DCM FINANCIAL SERVICES LT",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.35x"
+    "volume_multiplier": "0.36x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.04,
-    "change_pct": 0.8,
-    "close": 5.06,
-    "previous_close": 5.02,
+    "as_of": "2026-10-01",
+    "change": 0.0,
+    "change_pct": 0.0,
+    "close": 5.07,
+    "previous_close": 5.07,
     "type": "EOD_CLOSE",
-    "volume": 3712
+    "volume": 4145
   },
   "range": {
-    "distance_from_high_pct": -40.82,
-    "distance_from_low_pct": 36.76,
+    "distance_from_high_pct": -40.7,
+    "distance_from_low_pct": 37.03,
     "high_52w": 8.55,
     "history_basis": "52_WEEK",
     "low_52w": 3.7,
-    "range_position_pct": 28.04
+    "range_position_pct": 28.25
   },
   "risk_model": {
-    "invalidation_floor": 4.88,
+    "invalidation_floor": 4.89,
     "risk_per_share": 0.5,
-    "technical_pivot": 5.16
+    "technical_pivot": 5.17
   },
   "schema_version": "1.0",
   "sector": null,

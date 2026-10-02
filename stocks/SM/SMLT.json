@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 107.96,
-      "high": 109.94,
-      "low": 106.6,
-      "open": 108.35,
-      "time": "2025-09-19",
-      "volume": 6881
-    },
-    {
-      "close": 108.27,
-      "high": 116.0,
-      "low": 103.15,
-      "open": 110.85,
-      "time": "2025-09-22",
-      "volume": 19430
-    },
-    {
-      "close": 109.2,
-      "high": 110.7,
-      "low": 107.07,
-      "open": 109.26,
-      "time": "2025-09-23",
-      "volume": 7664
-    },
-    {
       "close": 106.76,
       "high": 110.0,
       "low": 106.17,
@@ -2017,13 +1993,37 @@
       "open": 63.0,
       "time": "2026-09-28",
       "volume": 6485
+    },
+    {
+      "close": 59.31,
+      "high": 60.9,
+      "low": 58.23,
+      "open": 60.9,
+      "time": "2026-09-29",
+      "volume": 1905
+    },
+    {
+      "close": 61.82,
+      "high": 63.4,
+      "low": 59.0,
+      "open": 63.4,
+      "time": "2026-09-30",
+      "volume": 11905
+    },
+    {
+      "close": 74.18,
+      "high": 74.18,
+      "low": 66.0,
+      "open": 67.0,
+      "time": "2026-10-01",
+      "volume": 112524
     }
   ],
   "company_name": "SARTHAK METALS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.91x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "9.26x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.54,
-    "change_pct": -0.91,
-    "close": 58.81,
-    "previous_close": 59.35,
+    "as_of": "2026-10-01",
+    "change": 12.36,
+    "change_pct": 19.99,
+    "close": 74.18,
+    "previous_close": 61.82,
     "type": "EOD_CLOSE",
-    "volume": 6485
+    "volume": 112524
   },
   "range": {
-    "distance_from_high_pct": -51.4,
-    "distance_from_low_pct": 3.89,
+    "distance_from_high_pct": -38.69,
+    "distance_from_low_pct": 31.04,
     "high_52w": 121.0,
     "history_basis": "52_WEEK",
     "low_52w": 56.61,
-    "range_position_pct": 3.42
+    "range_position_pct": 27.29
   },
   "risk_model": {
-    "invalidation_floor": 56.75,
-    "risk_per_share": 3.24,
-    "technical_pivot": 59.99
+    "invalidation_floor": 71.58,
+    "risk_per_share": 4.08,
+    "technical_pivot": 75.66
   },
   "schema_version": "1.0",
   "sector": null,

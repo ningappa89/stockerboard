@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 731.35,
-      "high": 735.0,
-      "low": 722.15,
-      "open": 728.0,
-      "time": "2025-09-19",
-      "volume": 89223
-    },
-    {
-      "close": 734.85,
-      "high": 738.65,
-      "low": 725.35,
-      "open": 735.0,
-      "time": "2025-09-22",
-      "volume": 94618
-    },
-    {
-      "close": 722.85,
-      "high": 740.0,
-      "low": 720.05,
-      "open": 740.0,
-      "time": "2025-09-23",
-      "volume": 83887
-    },
-    {
       "close": 714.95,
       "high": 724.7,
       "low": 711.05,
@@ -2017,13 +1993,37 @@
       "open": 659.55,
       "time": "2026-09-28",
       "volume": 107453
+    },
+    {
+      "close": 631.7,
+      "high": 643.15,
+      "low": 626.7,
+      "open": 640.1,
+      "time": "2026-09-29",
+      "volume": 96669
+    },
+    {
+      "close": 623.55,
+      "high": 641.45,
+      "low": 620.95,
+      "open": 629.0,
+      "time": "2026-09-30",
+      "volume": 114004
+    },
+    {
+      "close": 631.9,
+      "high": 635.0,
+      "low": 620.0,
+      "open": 623.0,
+      "time": "2026-10-01",
+      "volume": 137009
     }
   ],
   "company_name": "Godrej Agrovet Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": true,
     "momentum_score": 70,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.12x"
+    "volume_multiplier": "0.56x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -15.3,
-    "change_pct": -2.33,
-    "close": 642.5,
-    "previous_close": 657.8,
+    "as_of": "2026-10-01",
+    "change": 8.35,
+    "change_pct": 1.34,
+    "close": 631.9,
+    "previous_close": 623.55,
     "type": "EOD_CLOSE",
-    "volume": 107453
+    "volume": 137009
   },
   "range": {
-    "distance_from_high_pct": -13.18,
-    "distance_from_low_pct": 26.95,
-    "high_52w": 740.0,
+    "distance_from_high_pct": -13.08,
+    "distance_from_low_pct": 24.86,
+    "high_52w": 727.0,
     "history_basis": "52_WEEK",
     "low_52w": 506.1,
-    "range_position_pct": 58.32
+    "range_position_pct": 56.95
   },
   "risk_model": {
-    "invalidation_floor": 620.01,
-    "risk_per_share": 35.34,
-    "technical_pivot": 655.35
+    "invalidation_floor": 609.78,
+    "risk_per_share": 34.76,
+    "technical_pivot": 644.54
   },
   "schema_version": "1.0",
   "sector": null,

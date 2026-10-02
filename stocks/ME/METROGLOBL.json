@@ -897,14 +897,38 @@
       "open": 127.0,
       "time": "2026-09-28",
       "volume": 611
+    },
+    {
+      "close": 131.9,
+      "high": 132.0,
+      "low": 127.1,
+      "open": 131.99,
+      "time": "2026-09-29",
+      "volume": 461
+    },
+    {
+      "close": 133.9,
+      "high": 134.8,
+      "low": 131.0,
+      "open": 131.99,
+      "time": "2026-09-30",
+      "volume": 513
+    },
+    {
+      "close": 131.52,
+      "high": 133.89,
+      "low": 130.0,
+      "open": 133.89,
+      "time": "2026-10-01",
+      "volume": 208
     }
   ],
   "company_name": "METROGLOBAL LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 112
+    "last_session": "2026-10-01",
+    "sessions_available": 115
   },
   "industry": null,
   "isin": "INE085D01033",
@@ -912,31 +936,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
+    "momentum_score": 59,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.55x"
+    "volume_multiplier": "0.22x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 2.4,
-    "change_pct": 1.88,
-    "close": 130.0,
-    "previous_close": 127.6,
+    "as_of": "2026-10-01",
+    "change": -2.38,
+    "change_pct": -1.78,
+    "close": 131.52,
+    "previous_close": 133.9,
     "type": "EOD_CLOSE",
-    "volume": 611
+    "volume": 208
   },
   "range": {
-    "distance_from_high_pct": -21.21,
-    "distance_from_low_pct": 18.18,
+    "distance_from_high_pct": -20.29,
+    "distance_from_low_pct": 19.56,
     "high_52w": 165.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 110.0,
-    "range_position_pct": 36.36
+    "range_position_pct": 39.13
   },
   "risk_model": {
-    "invalidation_floor": 125.45,
-    "risk_per_share": 7.15,
-    "technical_pivot": 132.6
+    "invalidation_floor": 126.92,
+    "risk_per_share": 7.23,
+    "technical_pivot": 134.15
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1080.8,
-      "high": 1104.0,
-      "low": 1075.0,
-      "open": 1102.3,
-      "time": "2025-09-19",
-      "volume": 857322
-    },
-    {
-      "close": 1050.4,
-      "high": 1087.0,
-      "low": 1042.2,
-      "open": 1071.0,
-      "time": "2025-09-22",
-      "volume": 798208
-    },
-    {
-      "close": 1019.6,
-      "high": 1053.3,
-      "low": 1015.4,
-      "open": 1048.0,
-      "time": "2025-09-23",
-      "volume": 1808589
-    },
-    {
       "close": 1026.5,
       "high": 1033.0,
       "low": 1005.1,
@@ -2017,13 +1993,37 @@
       "open": 1067.0,
       "time": "2026-09-28",
       "volume": 575628
+    },
+    {
+      "close": 1029.2,
+      "high": 1052.1,
+      "low": 1019.4,
+      "open": 1040.0,
+      "time": "2026-09-29",
+      "volume": 2488489
+    },
+    {
+      "close": 1030.0,
+      "high": 1047.0,
+      "low": 1029.0,
+      "open": 1029.2,
+      "time": "2026-09-30",
+      "volume": 1348986
+    },
+    {
+      "close": 1040.0,
+      "high": 1043.0,
+      "low": 1008.0,
+      "open": 1027.9,
+      "time": "2026-10-01",
+      "volume": 1213803
     }
   ],
   "company_name": "360 ONE WAM LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "1.22x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -28.0,
-    "change_pct": -2.61,
-    "close": 1045.0,
-    "previous_close": 1073.0,
+    "as_of": "2026-10-01",
+    "change": 10.0,
+    "change_pct": 0.97,
+    "close": 1040.0,
+    "previous_close": 1030.0,
     "type": "EOD_CLOSE",
-    "volume": 575628
+    "volume": 1213803
   },
   "range": {
-    "distance_from_high_pct": -15.47,
-    "distance_from_low_pct": 15.34,
+    "distance_from_high_pct": -15.87,
+    "distance_from_low_pct": 14.78,
     "high_52w": 1236.2,
     "history_basis": "52_WEEK",
     "low_52w": 906.05,
-    "range_position_pct": 42.09
+    "range_position_pct": 40.57
   },
   "risk_model": {
-    "invalidation_floor": 1008.42,
-    "risk_per_share": 57.48,
-    "technical_pivot": 1065.9
+    "invalidation_floor": 1003.6,
+    "risk_per_share": 57.2,
+    "technical_pivot": 1060.8
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

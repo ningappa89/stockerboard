@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 443.1,
-      "high": 449.45,
-      "low": 428.55,
-      "open": 432.45,
-      "time": "2025-09-19",
-      "volume": 678332
-    },
-    {
-      "close": 439.4,
-      "high": 448.15,
-      "low": 436.55,
-      "open": 438.0,
-      "time": "2025-09-22",
-      "volume": 368425
-    },
-    {
-      "close": 452.7,
-      "high": 458.4,
-      "low": 438.1,
-      "open": 440.0,
-      "time": "2025-09-23",
-      "volume": 609140
-    },
-    {
       "close": 436.6,
       "high": 455.35,
       "low": 434.2,
@@ -2017,13 +1993,37 @@
       "open": 1020.0,
       "time": "2026-09-28",
       "volume": 1294722
+    },
+    {
+      "close": 959.6,
+      "high": 970.2,
+      "low": 900.15,
+      "open": 950.1,
+      "time": "2026-09-29",
+      "volume": 1000872
+    },
+    {
+      "close": 907.35,
+      "high": 992.95,
+      "low": 898.25,
+      "open": 962.0,
+      "time": "2026-09-30",
+      "volume": 1072563
+    },
+    {
+      "close": 921.55,
+      "high": 930.5,
+      "low": 868.4,
+      "open": 907.05,
+      "time": "2026-10-01",
+      "volume": 998005
     }
   ],
   "company_name": "MAN INDUSTRIES (I) LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 77,
+    "momentum_score": 72,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.64x"
+    "volume_multiplier": "0.47x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -67.0,
-    "change_pct": -6.57,
-    "close": 953.35,
-    "previous_close": 1020.35,
+    "as_of": "2026-10-01",
+    "change": 14.2,
+    "change_pct": 1.56,
+    "close": 921.55,
+    "previous_close": 907.35,
     "type": "EOD_CLOSE",
-    "volume": 1294722
+    "volume": 998005
   },
   "range": {
-    "distance_from_high_pct": -8.31,
-    "distance_from_low_pct": 215.63,
+    "distance_from_high_pct": -11.36,
+    "distance_from_low_pct": 205.1,
     "high_52w": 1039.7,
     "history_basis": "52_WEEK",
     "low_52w": 302.05,
-    "range_position_pct": 88.29
+    "range_position_pct": 83.98
   },
   "risk_model": {
-    "invalidation_floor": 919.98,
-    "risk_per_share": 52.44,
-    "technical_pivot": 972.42
+    "invalidation_floor": 889.3,
+    "risk_per_share": 50.68,
+    "technical_pivot": 939.98
   },
   "schema_version": "1.0",
   "sector": null,

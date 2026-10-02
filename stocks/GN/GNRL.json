@@ -897,14 +897,38 @@
       "open": 101.3,
       "time": "2026-09-28",
       "volume": 1631909
+    },
+    {
+      "close": 98.16,
+      "high": 99.12,
+      "low": 96.9,
+      "open": 99.12,
+      "time": "2026-09-29",
+      "volume": 76012
+    },
+    {
+      "close": 98.26,
+      "high": 99.9,
+      "low": 97.0,
+      "open": 98.9,
+      "time": "2026-09-30",
+      "volume": 854365
+    },
+    {
+      "close": 97.18,
+      "high": 98.99,
+      "low": 95.96,
+      "open": 98.5,
+      "time": "2026-10-01",
+      "volume": 663394
     }
   ],
   "company_name": "GUJARAT NATURAL RESOURCES LIMI",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 112
+    "last_session": "2026-10-01",
+    "sessions_available": 115
   },
   "industry": null,
   "isin": "INE207H01018",
@@ -912,31 +936,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "3.21x"
+    "momentum_score": 60,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.15x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.72,
-    "change_pct": -1.72,
-    "close": 98.46,
-    "previous_close": 100.18,
+    "as_of": "2026-10-01",
+    "change": -1.08,
+    "change_pct": -1.1,
+    "close": 97.18,
+    "previous_close": 98.26,
     "type": "EOD_CLOSE",
-    "volume": 1631909
+    "volume": 663394
   },
   "range": {
-    "distance_from_high_pct": -18.56,
-    "distance_from_low_pct": 18.34,
+    "distance_from_high_pct": -19.62,
+    "distance_from_low_pct": 16.8,
     "high_52w": 120.9,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 83.2,
-    "range_position_pct": 40.48
+    "range_position_pct": 37.08
   },
   "risk_model": {
-    "invalidation_floor": 95.01,
-    "risk_per_share": 5.42,
-    "technical_pivot": 100.43
+    "invalidation_floor": 93.78,
+    "risk_per_share": 5.34,
+    "technical_pivot": 99.12
   },
   "schema_version": "1.0",
   "sector": null,

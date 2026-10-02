@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 8.66,
-      "high": 8.79,
-      "low": 8.51,
-      "open": 8.55,
-      "time": "2025-09-19",
-      "volume": 46811
-    },
-    {
-      "close": 8.88,
-      "high": 9.25,
-      "low": 8.62,
-      "open": 8.84,
-      "time": "2025-09-22",
-      "volume": 256592
-    },
-    {
-      "close": 8.87,
-      "high": 9.0,
-      "low": 8.66,
-      "open": 9.0,
-      "time": "2025-09-23",
-      "volume": 85921
-    },
-    {
       "close": 8.62,
       "high": 8.95,
       "low": 8.52,
@@ -2017,13 +1993,37 @@
       "open": 6.12,
       "time": "2026-09-28",
       "volume": 16625
+    },
+    {
+      "close": 6.01,
+      "high": 6.05,
+      "low": 5.92,
+      "open": 5.99,
+      "time": "2026-09-29",
+      "volume": 192865
+    },
+    {
+      "close": 5.99,
+      "high": 6.02,
+      "low": 5.9,
+      "open": 6.01,
+      "time": "2026-09-30",
+      "volume": 80434
+    },
+    {
+      "close": 5.88,
+      "high": 6.12,
+      "low": 5.41,
+      "open": 5.99,
+      "time": "2026-10-01",
+      "volume": 76812
     }
   ],
   "company_name": "MUSIC BROADCAST LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.24x"
+    "volume_multiplier": "1.15x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.06,
-    "change_pct": -0.99,
-    "close": 5.99,
-    "previous_close": 6.05,
+    "as_of": "2026-10-01",
+    "change": -0.11,
+    "change_pct": -1.84,
+    "close": 5.88,
+    "previous_close": 5.99,
     "type": "EOD_CLOSE",
-    "volume": 16625
+    "volume": 76812
   },
   "range": {
-    "distance_from_high_pct": -35.24,
-    "distance_from_low_pct": 33.11,
-    "high_52w": 9.25,
+    "distance_from_high_pct": -34.3,
+    "distance_from_low_pct": 30.67,
+    "high_52w": 8.95,
     "history_basis": "52_WEEK",
     "low_52w": 4.5,
-    "range_position_pct": 31.37
+    "range_position_pct": 31.01
   },
   "risk_model": {
-    "invalidation_floor": 5.78,
+    "invalidation_floor": 5.67,
     "risk_per_share": 0.5,
-    "technical_pivot": 6.11
+    "technical_pivot": 6.0
   },
   "schema_version": "1.0",
   "sector": null,

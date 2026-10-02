@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 117.76,
-      "high": 119.35,
-      "low": 117.01,
-      "open": 119.0,
-      "time": "2025-09-19",
-      "volume": 279035
-    },
-    {
-      "close": 116.28,
-      "high": 118.22,
-      "low": 116.0,
-      "open": 117.77,
-      "time": "2025-09-22",
-      "volume": 277311
-    },
-    {
-      "close": 115.32,
-      "high": 116.94,
-      "low": 115.01,
-      "open": 116.15,
-      "time": "2025-09-23",
-      "volume": 222999
-    },
-    {
       "close": 113.67,
       "high": 115.54,
       "low": 113.56,
@@ -2017,13 +1993,37 @@
       "open": 72.0,
       "time": "2026-09-28",
       "volume": 226314
+    },
+    {
+      "close": 69.28,
+      "high": 70.19,
+      "low": 68.51,
+      "open": 69.01,
+      "time": "2026-09-29",
+      "volume": 40683
+    },
+    {
+      "close": 72.31,
+      "high": 74.0,
+      "low": 68.75,
+      "open": 68.75,
+      "time": "2026-09-30",
+      "volume": 123298
+    },
+    {
+      "close": 70.24,
+      "high": 72.18,
+      "low": 69.5,
+      "open": 72.0,
+      "time": "2026-10-01",
+      "volume": 60635
     }
   ],
   "company_name": "Credo Brands Marketing Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.79x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.78x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.65,
-    "change_pct": -3.67,
-    "close": 69.49,
-    "previous_close": 72.14,
+    "as_of": "2026-10-01",
+    "change": -2.07,
+    "change_pct": -2.86,
+    "close": 70.24,
+    "previous_close": 72.31,
     "type": "EOD_CLOSE",
-    "volume": 226314
+    "volume": 60635
   },
   "range": {
-    "distance_from_high_pct": -41.78,
-    "distance_from_low_pct": 10.2,
-    "high_52w": 119.35,
+    "distance_from_high_pct": -39.87,
+    "distance_from_low_pct": 11.39,
+    "high_52w": 116.82,
     "history_basis": "52_WEEK",
     "low_52w": 63.06,
-    "range_position_pct": 11.42
+    "range_position_pct": 13.36
   },
   "risk_model": {
-    "invalidation_floor": 67.06,
-    "risk_per_share": 3.82,
-    "technical_pivot": 70.88
+    "invalidation_floor": 67.78,
+    "risk_per_share": 3.86,
+    "technical_pivot": 71.64
   },
   "schema_version": "1.0",
   "sector": null,

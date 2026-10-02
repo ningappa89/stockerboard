@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 379.3,
-      "high": 385.0,
-      "low": 377.3,
-      "open": 378.8,
-      "time": "2025-09-19",
-      "volume": 40327
-    },
-    {
-      "close": 373.55,
-      "high": 378.9,
-      "low": 372.0,
-      "open": 378.9,
-      "time": "2025-09-22",
-      "volume": 37228
-    },
-    {
-      "close": 369.6,
-      "high": 377.0,
-      "low": 367.85,
-      "open": 374.0,
-      "time": "2025-09-23",
-      "volume": 78020
-    },
-    {
       "close": 369.5,
       "high": 373.2,
       "low": 368.65,
@@ -2017,13 +1993,37 @@
       "open": 270.45,
       "time": "2026-09-28",
       "volume": 46477
+    },
+    {
+      "close": 280.25,
+      "high": 282.95,
+      "low": 265.5,
+      "open": 265.5,
+      "time": "2026-09-29",
+      "volume": 218402
+    },
+    {
+      "close": 277.25,
+      "high": 285.9,
+      "low": 276.0,
+      "open": 278.2,
+      "time": "2026-09-30",
+      "volume": 210742
+    },
+    {
+      "close": 272.1,
+      "high": 276.55,
+      "low": 267.0,
+      "open": 276.45,
+      "time": "2026-10-01",
+      "volume": 150981
     }
   ],
   "company_name": "Dollar Industries Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 42,
+    "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.62x"
+    "volume_multiplier": "1.61x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.95,
-    "change_pct": -0.35,
-    "close": 269.5,
-    "previous_close": 270.45,
+    "as_of": "2026-10-01",
+    "change": -5.15,
+    "change_pct": -1.86,
+    "close": 272.1,
+    "previous_close": 277.25,
     "type": "EOD_CLOSE",
-    "volume": 46477
+    "volume": 150981
   },
   "range": {
-    "distance_from_high_pct": -31.94,
-    "distance_from_low_pct": 22.22,
+    "distance_from_high_pct": -31.29,
+    "distance_from_low_pct": 23.4,
     "high_52w": 396.0,
     "history_basis": "52_WEEK",
     "low_52w": 220.5,
-    "range_position_pct": 27.92
+    "range_position_pct": 29.4
   },
   "risk_model": {
-    "invalidation_floor": 260.07,
-    "risk_per_share": 14.82,
-    "technical_pivot": 274.89
+    "invalidation_floor": 262.58,
+    "risk_per_share": 14.96,
+    "technical_pivot": 277.54
   },
   "schema_version": "1.0",
   "sector": null,

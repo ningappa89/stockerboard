@@ -249,14 +249,38 @@
       "open": 139.75,
       "time": "2026-09-28",
       "volume": 1000238
+    },
+    {
+      "close": 137.44,
+      "high": 139.6,
+      "low": 133.94,
+      "open": 135.0,
+      "time": "2026-09-29",
+      "volume": 1202434
+    },
+    {
+      "close": 137.78,
+      "high": 142.4,
+      "low": 136.51,
+      "open": 137.44,
+      "time": "2026-09-30",
+      "volume": 814776
+    },
+    {
+      "close": 137.03,
+      "high": 138.03,
+      "low": 133.7,
+      "open": 138.02,
+      "time": "2026-10-01",
+      "volume": 1240296
     }
   ],
   "company_name": "LEAP India Limited",
   "history": {
     "first_session": "2026-08-14",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 31
+    "last_session": "2026-10-01",
+    "sessions_available": 34
   },
   "industry": null,
   "isin": "INE00GO01025",
@@ -264,31 +288,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 57,
+    "momentum_score": 59,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.29x"
+    "volume_multiplier": "0.5x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.56,
-    "change_pct": -3.26,
-    "close": 135.36,
-    "previous_close": 139.92,
+    "as_of": "2026-10-01",
+    "change": -0.75,
+    "change_pct": -0.54,
+    "close": 137.03,
+    "previous_close": 137.78,
     "type": "EOD_CLOSE",
-    "volume": 1000238
+    "volume": 1240296
   },
   "range": {
-    "distance_from_high_pct": -21.43,
-    "distance_from_low_pct": 5.3,
+    "distance_from_high_pct": -20.47,
+    "distance_from_low_pct": 6.6,
     "high_52w": 172.29,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 128.55,
-    "range_position_pct": 15.57
+    "range_position_pct": 19.39
   },
   "risk_model": {
-    "invalidation_floor": 130.62,
-    "risk_per_share": 7.45,
-    "technical_pivot": 138.07
+    "invalidation_floor": 132.23,
+    "risk_per_share": 7.54,
+    "technical_pivot": 139.77
   },
   "schema_version": "1.0",
   "sector": null,

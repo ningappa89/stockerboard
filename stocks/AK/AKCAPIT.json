@@ -897,14 +897,38 @@
       "open": 1744.5,
       "time": "2026-09-28",
       "volume": 1355
+    },
+    {
+      "close": 1728.1,
+      "high": 1772.0,
+      "low": 1706.0,
+      "open": 1746.5,
+      "time": "2026-09-29",
+      "volume": 728
+    },
+    {
+      "close": 1706.3,
+      "high": 1751.9,
+      "low": 1704.1,
+      "open": 1745.3,
+      "time": "2026-09-30",
+      "volume": 305
+    },
+    {
+      "close": 1714.1,
+      "high": 1757.9,
+      "low": 1675.6,
+      "open": 1757.9,
+      "time": "2026-10-01",
+      "volume": 660
     }
   ],
   "company_name": "A.K.CAPITAL SERVICES LTD.",
   "history": {
     "first_session": "2026-04-20",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 112
+    "last_session": "2026-10-01",
+    "sessions_available": 115
   },
   "industry": null,
   "isin": "INE701G01012",
@@ -912,31 +936,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 80,
+    "momentum_score": 77,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.16x"
+    "volume_multiplier": "0.63x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 4.0,
-    "change_pct": 0.23,
-    "close": 1758.0,
-    "previous_close": 1754.0,
+    "as_of": "2026-10-01",
+    "change": 7.8,
+    "change_pct": 0.46,
+    "close": 1714.1,
+    "previous_close": 1706.3,
     "type": "EOD_CLOSE",
-    "volume": 1355
+    "volume": 660
   },
   "range": {
-    "distance_from_high_pct": -6.24,
-    "distance_from_low_pct": 18.39,
+    "distance_from_high_pct": -8.58,
+    "distance_from_low_pct": 15.44,
     "high_52w": 1875.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 1484.9,
-    "range_position_pct": 70.01
+    "range_position_pct": 58.75
   },
   "risk_model": {
-    "invalidation_floor": 1696.47,
-    "risk_per_share": 96.69,
-    "technical_pivot": 1793.16
+    "invalidation_floor": 1654.11,
+    "risk_per_share": 94.27,
+    "technical_pivot": 1748.38
   },
   "schema_version": "1.0",
   "sector": null,

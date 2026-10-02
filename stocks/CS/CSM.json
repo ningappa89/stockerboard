@@ -497,14 +497,38 @@
       "open": 102.8,
       "time": "2026-09-28",
       "volume": 94703
+    },
+    {
+      "close": 98.16,
+      "high": 99.97,
+      "low": 95.21,
+      "open": 98.69,
+      "time": "2026-09-29",
+      "volume": 100639
+    },
+    {
+      "close": 98.17,
+      "high": 104.0,
+      "low": 97.0,
+      "open": 100.0,
+      "time": "2026-09-30",
+      "volume": 132729
+    },
+    {
+      "close": 94.25,
+      "high": 102.0,
+      "low": 93.0,
+      "open": 102.0,
+      "time": "2026-10-01",
+      "volume": 165688
     }
   ],
   "company_name": "CSM TECHNOLOGIES LIMITED",
   "history": {
     "first_session": "2026-07-02",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 62
+    "last_session": "2026-10-01",
+    "sessions_available": 65
   },
   "industry": null,
   "isin": "INE0ZK601013",
@@ -512,31 +536,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 68,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.08x"
+    "volume_multiplier": "0.13x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.04,
-    "change_pct": -3.95,
-    "close": 98.31,
-    "previous_close": 102.35,
+    "as_of": "2026-10-01",
+    "change": -3.92,
+    "change_pct": -3.99,
+    "close": 94.25,
+    "previous_close": 98.17,
     "type": "EOD_CLOSE",
-    "volume": 94703
+    "volume": 165688
   },
   "range": {
-    "distance_from_high_pct": -14.44,
-    "distance_from_low_pct": 28.91,
+    "distance_from_high_pct": -17.97,
+    "distance_from_low_pct": 23.59,
     "high_52w": 114.9,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 76.26,
-    "range_position_pct": 57.07
+    "range_position_pct": 46.56
   },
   "risk_model": {
-    "invalidation_floor": 94.87,
-    "risk_per_share": 5.41,
-    "technical_pivot": 100.28
+    "invalidation_floor": 90.95,
+    "risk_per_share": 5.19,
+    "technical_pivot": 96.14
   },
   "schema_version": "1.0",
   "sector": null,

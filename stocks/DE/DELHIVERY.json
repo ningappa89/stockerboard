@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 478.8,
-      "high": 484.0,
-      "low": 474.05,
-      "open": 483.8,
-      "time": "2025-09-19",
-      "volume": 1573435
-    },
-    {
-      "close": 467.9,
-      "high": 478.55,
-      "low": 466.25,
-      "open": 478.0,
-      "time": "2025-09-22",
-      "volume": 1559712
-    },
-    {
-      "close": 459.05,
-      "high": 468.95,
-      "low": 457.0,
-      "open": 467.85,
-      "time": "2025-09-23",
-      "volume": 1903827
-    },
-    {
       "close": 456.0,
       "high": 464.7,
       "low": 453.5,
@@ -2017,13 +1993,37 @@
       "open": 421.3,
       "time": "2026-09-28",
       "volume": 4477983
+    },
+    {
+      "close": 417.4,
+      "high": 418.3,
+      "low": 405.25,
+      "open": 409.0,
+      "time": "2026-09-29",
+      "volume": 5622866
+    },
+    {
+      "close": 409.7,
+      "high": 418.35,
+      "low": 400.35,
+      "open": 418.35,
+      "time": "2026-09-30",
+      "volume": 5573038
+    },
+    {
+      "close": 400.0,
+      "high": 408.65,
+      "low": 397.0,
+      "open": 408.0,
+      "time": "2026-10-01",
+      "volume": 1371538
     }
   ],
   "company_name": "Delhivery Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 56,
+    "momentum_score": 54,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.86x"
+    "volume_multiplier": "0.49x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -15.2,
-    "change_pct": -3.6,
-    "close": 407.5,
-    "previous_close": 422.7,
+    "as_of": "2026-10-01",
+    "change": -9.7,
+    "change_pct": -2.37,
+    "close": 400.0,
+    "previous_close": 409.7,
     "type": "EOD_CLOSE",
-    "volume": 4477983
+    "volume": 1371538
   },
   "range": {
-    "distance_from_high_pct": -22.23,
-    "distance_from_low_pct": 8.83,
+    "distance_from_high_pct": -23.66,
+    "distance_from_low_pct": 6.82,
     "high_52w": 524.0,
     "history_basis": "52_WEEK",
     "low_52w": 374.45,
-    "range_position_pct": 22.1
+    "range_position_pct": 17.08
   },
   "risk_model": {
-    "invalidation_floor": 393.24,
-    "risk_per_share": 22.41,
-    "technical_pivot": 415.65
+    "invalidation_floor": 386.0,
+    "risk_per_share": 22.0,
+    "technical_pivot": 408.0
   },
   "schema_version": "1.0",
   "sector": null,

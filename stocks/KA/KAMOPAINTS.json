@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 9.19,
-      "high": 9.29,
-      "low": 9.1,
-      "open": 9.1,
-      "time": "2025-09-19",
-      "volume": 561233
-    },
-    {
-      "close": 9.13,
-      "high": 9.29,
-      "low": 9.1,
-      "open": 9.19,
-      "time": "2025-09-22",
-      "volume": 578528
-    },
-    {
-      "close": 9.07,
-      "high": 9.2,
-      "low": 9.04,
-      "open": 9.13,
-      "time": "2025-09-23",
-      "volume": 484047
-    },
-    {
       "close": 9.08,
       "high": 9.14,
       "low": 9.0,
@@ -2017,13 +1993,37 @@
       "open": 4.29,
       "time": "2026-09-28",
       "volume": 274443
+    },
+    {
+      "close": 4.1,
+      "high": 4.18,
+      "low": 4.06,
+      "open": 4.18,
+      "time": "2026-09-29",
+      "volume": 158679
+    },
+    {
+      "close": 4.14,
+      "high": 4.24,
+      "low": 4.05,
+      "open": 4.11,
+      "time": "2026-09-30",
+      "volume": 250787
+    },
+    {
+      "close": 4.1,
+      "high": 4.2,
+      "low": 4.06,
+      "open": 4.2,
+      "time": "2026-10-01",
+      "volume": 98248
     }
   ],
   "company_name": "KAMDHENU VENTURES LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.13x"
+    "volume_multiplier": "0.41x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.07,
-    "change_pct": -1.67,
-    "close": 4.12,
-    "previous_close": 4.19,
+    "as_of": "2026-10-01",
+    "change": -0.04,
+    "change_pct": -0.97,
+    "close": 4.1,
+    "previous_close": 4.14,
     "type": "EOD_CLOSE",
-    "volume": 274443
+    "volume": 98248
   },
   "range": {
-    "distance_from_high_pct": -55.65,
-    "distance_from_low_pct": 14.44,
-    "high_52w": 9.29,
+    "distance_from_high_pct": -55.39,
+    "distance_from_low_pct": 13.89,
+    "high_52w": 9.19,
     "history_basis": "52_WEEK",
     "low_52w": 3.6,
-    "range_position_pct": 9.14
+    "range_position_pct": 8.94
   },
   "risk_model": {
-    "invalidation_floor": 3.98,
+    "invalidation_floor": 3.96,
     "risk_per_share": 0.5,
-    "technical_pivot": 4.2
+    "technical_pivot": 4.18
   },
   "schema_version": "1.0",
   "sector": null,

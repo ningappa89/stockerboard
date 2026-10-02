@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2522.7,
-      "high": 2550.0,
-      "low": 2490.0,
-      "open": 2500.6,
-      "time": "2025-09-19",
-      "volume": 160221
-    },
-    {
-      "close": 2536.0,
-      "high": 2545.0,
-      "low": 2479.9,
-      "open": 2525.0,
-      "time": "2025-09-22",
-      "volume": 83835
-    },
-    {
-      "close": 2496.5,
-      "high": 2551.8,
-      "low": 2475.3,
-      "open": 2540.0,
-      "time": "2025-09-23",
-      "volume": 68337
-    },
-    {
       "close": 2416.3,
       "high": 2489.2,
       "low": 2400.5,
@@ -2017,13 +1993,37 @@
       "open": 2177.0,
       "time": "2026-09-28",
       "volume": 74316
+    },
+    {
+      "close": 2126.2,
+      "high": 2162.8,
+      "low": 2115.8,
+      "open": 2151.3,
+      "time": "2026-09-29",
+      "volume": 142506
+    },
+    {
+      "close": 2117.0,
+      "high": 2155.0,
+      "low": 2105.7,
+      "open": 2121.6,
+      "time": "2026-09-30",
+      "volume": 119706
+    },
+    {
+      "close": 2083.5,
+      "high": 2108.0,
+      "low": 2048.9,
+      "open": 2101.0,
+      "time": "2026-10-01",
+      "volume": 326468
     }
   ],
   "company_name": "BALKRISHNA INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 56,
+    "momentum_score": 52,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.1x"
+    "volume_multiplier": "1.34x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -31.5,
-    "change_pct": -1.44,
-    "close": 2153.8,
-    "previous_close": 2185.3,
+    "as_of": "2026-10-01",
+    "change": -33.5,
+    "change_pct": -1.58,
+    "close": 2083.5,
+    "previous_close": 2117.0,
     "type": "EOD_CLOSE",
-    "volume": 74316
+    "volume": 326468
   },
   "range": {
-    "distance_from_high_pct": -22.39,
-    "distance_from_low_pct": 9.33,
+    "distance_from_high_pct": -24.92,
+    "distance_from_low_pct": 5.76,
     "high_52w": 2775.0,
     "history_basis": "52_WEEK",
     "low_52w": 1970.0,
-    "range_position_pct": 22.83
+    "range_position_pct": 14.1
   },
   "risk_model": {
-    "invalidation_floor": 2078.42,
-    "risk_per_share": 118.46,
-    "technical_pivot": 2196.88
+    "invalidation_floor": 2010.58,
+    "risk_per_share": 114.59,
+    "technical_pivot": 2125.17
   },
   "schema_version": "1.0",
   "sector": null,

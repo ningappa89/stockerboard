@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 602.55,
-      "high": 609.45,
-      "low": 601.15,
-      "open": 607.8,
-      "time": "2025-09-19",
-      "volume": 1210911
-    },
-    {
-      "close": 609.5,
-      "high": 615.3,
-      "low": 603.05,
-      "open": 604.85,
-      "time": "2025-09-22",
-      "volume": 786924
-    },
-    {
-      "close": 600.85,
-      "high": 610.3,
-      "low": 599.4,
-      "open": 609.5,
-      "time": "2025-09-23",
-      "volume": 420953
-    },
-    {
       "close": 596.65,
       "high": 602.6,
       "low": 594.15,
@@ -2017,13 +1993,37 @@
       "open": 458.6,
       "time": "2026-09-28",
       "volume": 1352420
+    },
+    {
+      "close": 444.55,
+      "high": 455.45,
+      "low": 442.95,
+      "open": 452.05,
+      "time": "2026-09-29",
+      "volume": 2919254
+    },
+    {
+      "close": 443.8,
+      "high": 450.0,
+      "low": 442.4,
+      "open": 448.0,
+      "time": "2026-09-30",
+      "volume": 839768
+    },
+    {
+      "close": 448.05,
+      "high": 450.55,
+      "low": 441.8,
+      "open": 443.8,
+      "time": "2026-10-01",
+      "volume": 1267559
     }
   ],
   "company_name": "ICICI PRU LIFE INS CO LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Financial Services",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.78x"
+    "volume_multiplier": "0.77x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.3,
-    "change_pct": -0.93,
-    "close": 458.7,
-    "previous_close": 463.0,
+    "as_of": "2026-10-01",
+    "change": 4.25,
+    "change_pct": 0.96,
+    "close": 448.05,
+    "previous_close": 443.8,
     "type": "EOD_CLOSE",
-    "volume": 1352420
+    "volume": 1267559
   },
   "range": {
-    "distance_from_high_pct": -35.1,
-    "distance_from_low_pct": 3.0,
+    "distance_from_high_pct": -36.61,
+    "distance_from_low_pct": 1.41,
     "high_52w": 706.8,
     "history_basis": "52_WEEK",
-    "low_52w": 445.35,
-    "range_position_pct": 5.11
+    "low_52w": 441.8,
+    "range_position_pct": 2.36
   },
   "risk_model": {
-    "invalidation_floor": 442.65,
-    "risk_per_share": 25.22,
-    "technical_pivot": 467.87
+    "invalidation_floor": 432.37,
+    "risk_per_share": 24.64,
+    "technical_pivot": 457.01
   },
   "schema_version": "1.0",
   "sector": "Financial Services",

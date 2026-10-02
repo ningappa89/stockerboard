@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 395.45,
-      "high": 404.0,
-      "low": 394.0,
-      "open": 404.0,
-      "time": "2025-09-19",
-      "volume": 748332
-    },
-    {
-      "close": 389.75,
-      "high": 400.2,
-      "low": 388.0,
-      "open": 395.4,
-      "time": "2025-09-22",
-      "volume": 551163
-    },
-    {
-      "close": 371.65,
-      "high": 392.45,
-      "low": 369.45,
-      "open": 391.0,
-      "time": "2025-09-23",
-      "volume": 1346439
-    },
-    {
       "close": 367.05,
       "high": 377.6,
       "low": 365.2,
@@ -2017,13 +1993,37 @@
       "open": 398.65,
       "time": "2026-09-28",
       "volume": 307046
+    },
+    {
+      "close": 386.2,
+      "high": 390.0,
+      "low": 379.25,
+      "open": 382.0,
+      "time": "2026-09-29",
+      "volume": 320487
+    },
+    {
+      "close": 381.6,
+      "high": 393.7,
+      "low": 379.5,
+      "open": 386.3,
+      "time": "2026-09-30",
+      "volume": 243341
+    },
+    {
+      "close": 375.9,
+      "high": 381.7,
+      "low": 366.0,
+      "open": 381.6,
+      "time": "2026-10-01",
+      "volume": 470715
     }
   ],
   "company_name": "KRBL LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.68x"
+    "volume_multiplier": "1.13x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -15.7,
-    "change_pct": -3.94,
-    "close": 382.95,
-    "previous_close": 398.65,
+    "as_of": "2026-10-01",
+    "change": -5.7,
+    "change_pct": -1.49,
+    "close": 375.9,
+    "previous_close": 381.6,
     "type": "EOD_CLOSE",
-    "volume": 307046
+    "volume": 470715
   },
   "range": {
-    "distance_from_high_pct": -15.43,
-    "distance_from_low_pct": 39.43,
+    "distance_from_high_pct": -16.98,
+    "distance_from_low_pct": 36.87,
     "high_52w": 452.8,
     "history_basis": "52_WEEK",
     "low_52w": 274.65,
-    "range_position_pct": 60.79
+    "range_position_pct": 56.83
   },
   "risk_model": {
-    "invalidation_floor": 369.55,
-    "risk_per_share": 21.06,
-    "technical_pivot": 390.61
+    "invalidation_floor": 362.74,
+    "risk_per_share": 20.68,
+    "technical_pivot": 383.42
   },
   "schema_version": "1.0",
   "sector": null,

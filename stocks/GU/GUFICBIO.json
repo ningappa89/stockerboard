@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 369.95,
-      "high": 372.0,
-      "low": 360.8,
-      "open": 364.4,
-      "time": "2025-09-19",
-      "volume": 62198
-    },
-    {
-      "close": 367.55,
-      "high": 373.5,
-      "low": 364.15,
-      "open": 365.3,
-      "time": "2025-09-22",
-      "volume": 53890
-    },
-    {
-      "close": 371.6,
-      "high": 372.55,
-      "low": 361.0,
-      "open": 368.5,
-      "time": "2025-09-23",
-      "volume": 42637
-    },
-    {
       "close": 367.9,
       "high": 374.6,
       "low": 367.2,
@@ -2017,13 +1993,37 @@
       "open": 424.55,
       "time": "2026-09-28",
       "volume": 58238
+    },
+    {
+      "close": 436.5,
+      "high": 445.0,
+      "low": 416.35,
+      "open": 421.0,
+      "time": "2026-09-29",
+      "volume": 146625
+    },
+    {
+      "close": 432.0,
+      "high": 452.0,
+      "low": 429.0,
+      "open": 438.8,
+      "time": "2026-09-30",
+      "volume": 150453
+    },
+    {
+      "close": 418.4,
+      "high": 428.8,
+      "low": 400.0,
+      "open": 425.0,
+      "time": "2026-10-01",
+      "volume": 218739
     }
   ],
   "company_name": "GUFIC BIOSCIENCES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": true,
     "momentum_score": 74,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.47x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.17x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.35,
-    "change_pct": -0.79,
-    "close": 420.4,
-    "previous_close": 423.75,
+    "as_of": "2026-10-01",
+    "change": -13.6,
+    "change_pct": -3.15,
+    "close": 418.4,
+    "previous_close": 432.0,
     "type": "EOD_CLOSE",
-    "volume": 58238
+    "volume": 218739
   },
   "range": {
-    "distance_from_high_pct": -10.13,
-    "distance_from_low_pct": 56.87,
+    "distance_from_high_pct": -10.56,
+    "distance_from_low_pct": 56.12,
     "high_52w": 467.8,
     "history_basis": "52_WEEK",
     "low_52w": 268.0,
-    "range_position_pct": 76.28
+    "range_position_pct": 75.28
   },
   "risk_model": {
-    "invalidation_floor": 405.69,
-    "risk_per_share": 23.12,
-    "technical_pivot": 428.81
+    "invalidation_floor": 403.76,
+    "risk_per_share": 23.01,
+    "technical_pivot": 426.77
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 47.65,
-      "high": 48.8,
-      "low": 47.42,
-      "open": 48.0,
-      "time": "2025-09-19",
-      "volume": 768567
-    },
-    {
-      "close": 46.95,
-      "high": 48.01,
-      "low": 46.6,
-      "open": 47.74,
-      "time": "2025-09-22",
-      "volume": 1319839
-    },
-    {
-      "close": 46.74,
-      "high": 47.51,
-      "low": 46.25,
-      "open": 47.18,
-      "time": "2025-09-23",
-      "volume": 721204
-    },
-    {
       "close": 46.69,
       "high": 47.7,
       "low": 46.55,
@@ -2017,13 +1993,37 @@
       "open": 88.27,
       "time": "2026-09-28",
       "volume": 2014979
+    },
+    {
+      "close": 87.19,
+      "high": 88.72,
+      "low": 84.66,
+      "open": 86.0,
+      "time": "2026-09-29",
+      "volume": 1929278
+    },
+    {
+      "close": 88.13,
+      "high": 89.55,
+      "low": 86.52,
+      "open": 87.0,
+      "time": "2026-09-30",
+      "volume": 1829935
+    },
+    {
+      "close": 86.05,
+      "high": 88.13,
+      "low": 83.32,
+      "open": 87.9,
+      "time": "2026-10-01",
+      "volume": 2851230
     }
   ],
   "company_name": "CONFIDENCE PETRO IND LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 77,
+    "momentum_score": 78,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.49x"
+    "volume_multiplier": "0.73x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.63,
-    "change_pct": -2.98,
-    "close": 85.65,
-    "previous_close": 88.28,
+    "as_of": "2026-10-01",
+    "change": -2.08,
+    "change_pct": -2.36,
+    "close": 86.05,
+    "previous_close": 88.13,
     "type": "EOD_CLOSE",
-    "volume": 2014979
+    "volume": 2851230
   },
   "range": {
-    "distance_from_high_pct": -8.1,
-    "distance_from_low_pct": 205.24,
+    "distance_from_high_pct": -7.67,
+    "distance_from_low_pct": 206.66,
     "high_52w": 93.2,
     "history_basis": "52_WEEK",
     "low_52w": 28.06,
-    "range_position_pct": 88.41
+    "range_position_pct": 89.02
   },
   "risk_model": {
-    "invalidation_floor": 82.65,
-    "risk_per_share": 4.71,
-    "technical_pivot": 87.36
+    "invalidation_floor": 83.04,
+    "risk_per_share": 4.73,
+    "technical_pivot": 87.77
   },
   "schema_version": "1.0",
   "sector": null,

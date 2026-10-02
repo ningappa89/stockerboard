@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 818.5,
-      "high": 825.0,
-      "low": 810.0,
-      "open": 816.3,
-      "time": "2025-09-19",
-      "volume": 48690
-    },
-    {
-      "close": 801.8,
-      "high": 818.95,
-      "low": 799.6,
-      "open": 814.0,
-      "time": "2025-09-22",
-      "volume": 54893
-    },
-    {
-      "close": 801.25,
-      "high": 814.5,
-      "low": 797.55,
-      "open": 811.8,
-      "time": "2025-09-23",
-      "volume": 37246
-    },
-    {
       "close": 801.8,
       "high": 806.45,
       "low": 795.0,
@@ -2017,13 +1993,37 @@
       "open": 536.05,
       "time": "2026-09-28",
       "volume": 26255
+    },
+    {
+      "close": 535.65,
+      "high": 544.45,
+      "low": 530.15,
+      "open": 537.15,
+      "time": "2026-09-29",
+      "volume": 36625
+    },
+    {
+      "close": 536.4,
+      "high": 546.0,
+      "low": 530.35,
+      "open": 535.7,
+      "time": "2026-09-30",
+      "volume": 18504
+    },
+    {
+      "close": 530.9,
+      "high": 537.5,
+      "low": 520.05,
+      "open": 535.9,
+      "time": "2026-10-01",
+      "volume": 37128
     }
   ],
   "company_name": "SALZER ELECTRONICS LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.58x"
+    "volume_multiplier": "0.89x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.7,
-    "change_pct": -1.05,
-    "close": 535.55,
-    "previous_close": 541.25,
+    "as_of": "2026-10-01",
+    "change": -5.5,
+    "change_pct": -1.03,
+    "close": 530.9,
+    "previous_close": 536.4,
     "type": "EOD_CLOSE",
-    "volume": 26255
+    "volume": 37128
   },
   "range": {
-    "distance_from_high_pct": -43.77,
-    "distance_from_low_pct": 9.56,
+    "distance_from_high_pct": -44.26,
+    "distance_from_low_pct": 8.61,
     "high_52w": 952.5,
     "history_basis": "52_WEEK",
     "low_52w": 488.8,
-    "range_position_pct": 10.08
+    "range_position_pct": 9.08
   },
   "risk_model": {
-    "invalidation_floor": 516.81,
-    "risk_per_share": 29.45,
-    "technical_pivot": 546.26
+    "invalidation_floor": 512.32,
+    "risk_per_share": 29.2,
+    "technical_pivot": 541.52
   },
   "schema_version": "1.0",
   "sector": null,

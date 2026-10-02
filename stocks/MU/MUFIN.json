@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 89.58,
-      "high": 91.83,
-      "low": 89.1,
-      "open": 91.64,
-      "time": "2025-09-19",
-      "volume": 89799
-    },
-    {
-      "close": 86.15,
-      "high": 89.42,
-      "low": 85.51,
-      "open": 89.39,
-      "time": "2025-09-22",
-      "volume": 357460
-    },
-    {
-      "close": 87.1,
-      "high": 87.84,
-      "low": 86.09,
-      "open": 86.09,
-      "time": "2025-09-23",
-      "volume": 155071
-    },
-    {
       "close": 88.38,
       "high": 89.39,
       "low": 86.8,
@@ -2017,13 +1993,37 @@
       "open": 133.2,
       "time": "2026-09-28",
       "volume": 478600
+    },
+    {
+      "close": 132.15,
+      "high": 133.99,
+      "low": 127.9,
+      "open": 129.5,
+      "time": "2026-09-29",
+      "volume": 2236803
+    },
+    {
+      "close": 131.51,
+      "high": 133.65,
+      "low": 130.01,
+      "open": 131.97,
+      "time": "2026-09-30",
+      "volume": 589751
+    },
+    {
+      "close": 130.59,
+      "high": 131.72,
+      "low": 127.53,
+      "open": 130.8,
+      "time": "2026-10-01",
+      "volume": 699328
     }
   ],
   "company_name": "MUFIN GREEN FINANCE LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 77,
+    "momentum_score": 78,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.8x"
+    "volume_multiplier": "1.01x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.86,
-    "change_pct": -2.15,
-    "close": 130.16,
-    "previous_close": 133.02,
+    "as_of": "2026-10-01",
+    "change": -0.92,
+    "change_pct": -0.7,
+    "close": 130.59,
+    "previous_close": 131.51,
     "type": "EOD_CLOSE",
-    "volume": 478600
+    "volume": 699328
   },
   "range": {
-    "distance_from_high_pct": -8.01,
-    "distance_from_low_pct": 52.9,
+    "distance_from_high_pct": -7.71,
+    "distance_from_low_pct": 53.4,
     "high_52w": 141.5,
     "history_basis": "52_WEEK",
     "low_52w": 85.13,
-    "range_position_pct": 79.88
+    "range_position_pct": 80.65
   },
   "risk_model": {
-    "invalidation_floor": 125.6,
-    "risk_per_share": 7.16,
-    "technical_pivot": 132.76
+    "invalidation_floor": 126.02,
+    "risk_per_share": 7.18,
+    "technical_pivot": 133.2
   },
   "schema_version": "1.0",
   "sector": null,

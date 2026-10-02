@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 147.0,
-      "high": 147.99,
-      "low": 144.87,
-      "open": 146.43,
-      "time": "2025-09-19",
-      "volume": 121467
-    },
-    {
-      "close": 144.48,
-      "high": 146.9,
-      "low": 143.36,
-      "open": 146.9,
-      "time": "2025-09-22",
-      "volume": 114342
-    },
-    {
-      "close": 143.82,
-      "high": 145.5,
-      "low": 143.1,
-      "open": 144.99,
-      "time": "2025-09-23",
-      "volume": 111518
-    },
-    {
       "close": 143.86,
       "high": 145.66,
       "low": 143.5,
@@ -2017,13 +1993,37 @@
       "open": 237.91,
       "time": "2026-09-28",
       "volume": 331802
+    },
+    {
+      "close": 237.69,
+      "high": 244.0,
+      "low": 231.56,
+      "open": 235.5,
+      "time": "2026-09-29",
+      "volume": 386081
+    },
+    {
+      "close": 232.2,
+      "high": 239.3,
+      "low": 230.15,
+      "open": 239.3,
+      "time": "2026-09-30",
+      "volume": 386106
+    },
+    {
+      "close": 227.47,
+      "high": 231.62,
+      "low": 224.1,
+      "open": 230.01,
+      "time": "2026-10-01",
+      "volume": 233798
     }
   ],
   "company_name": "SATIN CREDIT NET LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 68,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.58x"
+    "volume_multiplier": "1.03x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.25,
-    "change_pct": -0.95,
-    "close": 234.4,
-    "previous_close": 236.65,
+    "as_of": "2026-10-01",
+    "change": -4.73,
+    "change_pct": -2.04,
+    "close": 227.47,
+    "previous_close": 232.2,
     "type": "EOD_CLOSE",
-    "volume": 331802
+    "volume": 233798
   },
   "range": {
-    "distance_from_high_pct": -14.5,
-    "distance_from_low_pct": 72.59,
+    "distance_from_high_pct": -17.02,
+    "distance_from_low_pct": 67.49,
     "high_52w": 274.14,
     "history_basis": "52_WEEK",
     "low_52w": 135.81,
-    "range_position_pct": 71.27
+    "range_position_pct": 66.26
   },
   "risk_model": {
-    "invalidation_floor": 226.2,
-    "risk_per_share": 12.89,
-    "technical_pivot": 239.09
+    "invalidation_floor": 219.51,
+    "risk_per_share": 12.51,
+    "technical_pivot": 232.02
   },
   "schema_version": "1.0",
   "sector": null,

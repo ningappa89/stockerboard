@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 397.4,
-      "high": 400.2,
-      "low": 396.4,
-      "open": 397.05,
-      "time": "2025-09-19",
-      "volume": 14701
-    },
-    {
-      "close": 393.3,
-      "high": 398.8,
-      "low": 392.0,
-      "open": 398.8,
-      "time": "2025-09-22",
-      "volume": 21345
-    },
-    {
-      "close": 390.25,
-      "high": 395.85,
-      "low": 387.55,
-      "open": 393.25,
-      "time": "2025-09-23",
-      "volume": 22130
-    },
-    {
       "close": 387.6,
       "high": 393.0,
       "low": 384.05,
@@ -2017,13 +1993,37 @@
       "open": 294.8,
       "time": "2026-09-28",
       "volume": 12242
+    },
+    {
+      "close": 292.35,
+      "high": 294.35,
+      "low": 286.0,
+      "open": 289.0,
+      "time": "2026-09-29",
+      "volume": 11583
+    },
+    {
+      "close": 297.15,
+      "high": 302.35,
+      "low": 289.2,
+      "open": 293.9,
+      "time": "2026-09-30",
+      "volume": 18403
+    },
+    {
+      "close": 296.1,
+      "high": 300.6,
+      "low": 289.0,
+      "open": 289.0,
+      "time": "2026-10-01",
+      "volume": 13263
     }
   ],
   "company_name": "EIH ASSOCIATED HOTELS LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 47,
+    "momentum_score": 50,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.66x"
+    "volume_multiplier": "0.8x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.3,
-    "change_pct": -1.46,
-    "close": 290.0,
-    "previous_close": 294.3,
+    "as_of": "2026-10-01",
+    "change": -1.05,
+    "change_pct": -0.35,
+    "close": 296.1,
+    "previous_close": 297.15,
     "type": "EOD_CLOSE",
-    "volume": 12242
+    "volume": 13263
   },
   "range": {
-    "distance_from_high_pct": -28.12,
-    "distance_from_low_pct": 8.76,
+    "distance_from_high_pct": -26.61,
+    "distance_from_low_pct": 11.04,
     "high_52w": 403.45,
     "history_basis": "52_WEEK",
     "low_52w": 266.65,
-    "range_position_pct": 17.07
+    "range_position_pct": 21.53
   },
   "risk_model": {
-    "invalidation_floor": 279.85,
-    "risk_per_share": 15.95,
-    "technical_pivot": 295.8
+    "invalidation_floor": 285.74,
+    "risk_per_share": 16.28,
+    "technical_pivot": 302.02
   },
   "schema_version": "1.0",
   "sector": null,

@@ -241,14 +241,38 @@
       "open": 11.62,
       "time": "2026-09-28",
       "volume": 198626
+    },
+    {
+      "close": 11.41,
+      "high": 11.95,
+      "low": 10.68,
+      "open": 11.41,
+      "time": "2026-09-29",
+      "volume": 178590
+    },
+    {
+      "close": 11.45,
+      "high": 11.79,
+      "low": 11.31,
+      "open": 11.64,
+      "time": "2026-09-30",
+      "volume": 136799
+    },
+    {
+      "close": 11.05,
+      "high": 11.69,
+      "low": 11.0,
+      "open": 11.69,
+      "time": "2026-10-01",
+      "volume": 244904
     }
   ],
   "company_name": "LANCER CONTAINER LINES L",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 30
+    "last_session": "2026-10-01",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE359U01028",
@@ -256,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.38x"
+    "volume_multiplier": "0.81x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.0,
-    "change_pct": 0.0,
-    "close": 11.62,
-    "previous_close": 11.62,
+    "as_of": "2026-10-01",
+    "change": -0.4,
+    "change_pct": -3.49,
+    "close": 11.05,
+    "previous_close": 11.45,
     "type": "EOD_CLOSE",
-    "volume": 198626
+    "volume": 244904
   },
   "range": {
-    "distance_from_high_pct": -15.8,
-    "distance_from_low_pct": 15.05,
+    "distance_from_high_pct": -19.93,
+    "distance_from_low_pct": 9.41,
     "high_52w": 13.8,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 10.1,
-    "range_position_pct": 41.08
+    "range_position_pct": 25.68
   },
   "risk_model": {
-    "invalidation_floor": 11.21,
-    "risk_per_share": 0.64,
-    "technical_pivot": 11.85
+    "invalidation_floor": 10.66,
+    "risk_per_share": 0.61,
+    "technical_pivot": 11.27
   },
   "schema_version": "1.0",
   "sector": null,

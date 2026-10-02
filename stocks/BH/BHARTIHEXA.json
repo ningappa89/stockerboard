@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1714.7,
-      "high": 1725.7,
-      "low": 1691.5,
-      "open": 1711.0,
-      "time": "2025-09-19",
-      "volume": 195700
-    },
-    {
-      "close": 1690.4,
-      "high": 1710.6,
-      "low": 1678.0,
-      "open": 1695.0,
-      "time": "2025-09-22",
-      "volume": 293933
-    },
-    {
-      "close": 1710.0,
-      "high": 1714.0,
-      "low": 1685.3,
-      "open": 1690.2,
-      "time": "2025-09-23",
-      "volume": 144812
-    },
-    {
       "close": 1687.6,
       "high": 1717.7,
       "low": 1682.6,
@@ -2017,13 +1993,37 @@
       "open": 1475.2,
       "time": "2026-09-28",
       "volume": 85873
+    },
+    {
+      "close": 1409.4,
+      "high": 1432.4,
+      "low": 1398.0,
+      "open": 1429.7,
+      "time": "2026-09-29",
+      "volume": 171619
+    },
+    {
+      "close": 1424.5,
+      "high": 1438.0,
+      "low": 1401.0,
+      "open": 1409.4,
+      "time": "2026-09-30",
+      "volume": 102458
+    },
+    {
+      "close": 1379.2,
+      "high": 1407.6,
+      "low": 1365.6,
+      "open": 1404.0,
+      "time": "2026-10-01",
+      "volume": 116666
     }
   ],
   "company_name": "Bharti Hexacom Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Telecommunication",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 49,
+    "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.08x"
+    "volume_multiplier": "1.28x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -55.3,
-    "change_pct": -3.73,
-    "close": 1426.5,
-    "previous_close": 1481.8,
+    "as_of": "2026-10-01",
+    "change": -45.3,
+    "change_pct": -3.18,
+    "close": 1379.2,
+    "previous_close": 1424.5,
     "type": "EOD_CLOSE",
-    "volume": 85873
+    "volume": 116666
   },
   "range": {
-    "distance_from_high_pct": -27.06,
-    "distance_from_low_pct": 0.32,
+    "distance_from_high_pct": -29.47,
+    "distance_from_low_pct": 1.0,
     "high_52w": 1955.6,
     "history_basis": "52_WEEK",
-    "low_52w": 1422.0,
-    "range_position_pct": 0.84
+    "low_52w": 1365.6,
+    "range_position_pct": 2.31
   },
   "risk_model": {
-    "invalidation_floor": 1376.57,
-    "risk_per_share": 78.46,
-    "technical_pivot": 1455.03
+    "invalidation_floor": 1330.93,
+    "risk_per_share": 75.85,
+    "technical_pivot": 1406.78
   },
   "schema_version": "1.0",
   "sector": "Telecommunication",

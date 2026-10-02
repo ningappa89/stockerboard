@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 769.25,
-      "high": 777.0,
-      "low": 750.9,
-      "open": 758.8,
-      "time": "2025-09-19",
-      "volume": 146033
-    },
-    {
-      "close": 779.25,
-      "high": 787.7,
-      "low": 763.85,
-      "open": 787.7,
-      "time": "2025-09-22",
-      "volume": 192881
-    },
-    {
-      "close": 767.3,
-      "high": 789.0,
-      "low": 753.0,
-      "open": 789.0,
-      "time": "2025-09-23",
-      "volume": 124913
-    },
-    {
       "close": 755.45,
       "high": 786.0,
       "low": 750.2,
@@ -2017,13 +1993,37 @@
       "open": 575.0,
       "time": "2026-09-28",
       "volume": 29803
+    },
+    {
+      "close": 559.85,
+      "high": 563.4,
+      "low": 548.8,
+      "open": 556.0,
+      "time": "2026-09-29",
+      "volume": 20278
+    },
+    {
+      "close": 558.4,
+      "high": 574.55,
+      "low": 557.0,
+      "open": 559.0,
+      "time": "2026-09-30",
+      "volume": 9729
+    },
+    {
+      "close": 552.2,
+      "high": 564.85,
+      "low": 548.0,
+      "open": 564.85,
+      "time": "2026-10-01",
+      "volume": 26555
     }
   ],
   "company_name": "Ventive Hospitality Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 45,
+    "momentum_score": 44,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.87x"
+    "volume_multiplier": "0.77x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -6.15,
-    "change_pct": -1.09,
-    "close": 558.9,
-    "previous_close": 565.05,
+    "as_of": "2026-10-01",
+    "change": -6.2,
+    "change_pct": -1.11,
+    "close": 552.2,
+    "previous_close": 558.4,
     "type": "EOD_CLOSE",
-    "volume": 29803
+    "volume": 26555
   },
   "range": {
-    "distance_from_high_pct": -29.61,
-    "distance_from_low_pct": 3.0,
+    "distance_from_high_pct": -30.45,
+    "distance_from_low_pct": 1.77,
     "high_52w": 793.95,
     "history_basis": "52_WEEK",
     "low_52w": 542.6,
-    "range_position_pct": 6.48
+    "range_position_pct": 3.82
   },
   "risk_model": {
-    "invalidation_floor": 539.34,
-    "risk_per_share": 30.74,
-    "technical_pivot": 570.08
+    "invalidation_floor": 532.87,
+    "risk_per_share": 30.37,
+    "technical_pivot": 563.24
   },
   "schema_version": "1.0",
   "sector": null,

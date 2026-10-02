@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 104.39,
-      "high": 106.5,
-      "low": 104.0,
-      "open": 106.5,
-      "time": "2025-09-19",
-      "volume": 5904
-    },
-    {
-      "close": 103.45,
-      "high": 106.57,
-      "low": 102.1,
-      "open": 104.0,
-      "time": "2025-09-22",
-      "volume": 10783
-    },
-    {
-      "close": 103.4,
-      "high": 105.45,
-      "low": 102.16,
-      "open": 104.69,
-      "time": "2025-09-23",
-      "volume": 8190
-    },
-    {
       "close": 101.76,
       "high": 103.92,
       "low": 101.2,
@@ -2017,13 +1993,37 @@
       "open": 70.27,
       "time": "2026-09-28",
       "volume": 1706
+    },
+    {
+      "close": 68.23,
+      "high": 69.99,
+      "low": 68.01,
+      "open": 68.05,
+      "time": "2026-09-29",
+      "volume": 1648
+    },
+    {
+      "close": 69.03,
+      "high": 70.55,
+      "low": 68.23,
+      "open": 68.23,
+      "time": "2026-09-30",
+      "volume": 9810
+    },
+    {
+      "close": 66.71,
+      "high": 68.71,
+      "low": 66.32,
+      "open": 68.71,
+      "time": "2026-10-01",
+      "volume": 1851
     }
   ],
   "company_name": "ZODIAC CLOTHING CO. LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2037,26 +2037,26 @@
     "volume_multiplier": "0.49x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -1.27,
-    "change_pct": -1.81,
-    "close": 69.0,
-    "previous_close": 70.27,
+    "as_of": "2026-10-01",
+    "change": -2.32,
+    "change_pct": -3.36,
+    "close": 66.71,
+    "previous_close": 69.03,
     "type": "EOD_CLOSE",
-    "volume": 1706
+    "volume": 1851
   },
   "range": {
-    "distance_from_high_pct": -35.25,
-    "distance_from_low_pct": 17.95,
-    "high_52w": 106.57,
+    "distance_from_high_pct": -35.86,
+    "distance_from_low_pct": 14.03,
+    "high_52w": 104.0,
     "history_basis": "52_WEEK",
     "low_52w": 58.5,
-    "range_position_pct": 21.84
+    "range_position_pct": 18.04
   },
   "risk_model": {
-    "invalidation_floor": 66.58,
-    "risk_per_share": 3.8,
-    "technical_pivot": 70.38
+    "invalidation_floor": 64.38,
+    "risk_per_share": 3.66,
+    "technical_pivot": 68.04
   },
   "schema_version": "1.0",
   "sector": null,

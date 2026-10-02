@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1242.2,
-      "high": 1255.0,
-      "low": 1237.1,
-      "open": 1255.0,
-      "time": "2025-09-19",
-      "volume": 337406
-    },
-    {
-      "close": 1194.8,
-      "high": 1227.0,
-      "low": 1191.2,
-      "open": 1225.0,
-      "time": "2025-09-22",
-      "volume": 1085448
-    },
-    {
-      "close": 1197.6,
-      "high": 1207.2,
-      "low": 1185.5,
-      "open": 1197.9,
-      "time": "2025-09-23",
-      "volume": 337789
-    },
-    {
       "close": 1180.6,
       "high": 1199.6,
       "low": 1178.2,
@@ -2017,13 +1993,37 @@
       "open": 1095.8,
       "time": "2026-09-28",
       "volume": 246850
+    },
+    {
+      "close": 1055.3,
+      "high": 1093.5,
+      "low": 1044.0,
+      "open": 1075.0,
+      "time": "2026-09-29",
+      "volume": 481634
+    },
+    {
+      "close": 1100.7,
+      "high": 1138.0,
+      "low": 1050.1,
+      "open": 1055.3,
+      "time": "2026-09-30",
+      "volume": 2323228
+    },
+    {
+      "close": 1104.6,
+      "high": 1112.2,
+      "low": 1068.0,
+      "open": 1100.0,
+      "time": "2026-10-01",
+      "volume": 594962
     }
   ],
   "company_name": "CYIENT LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Information Technology",
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 69,
+    "is_stage2": true,
+    "momentum_score": 75,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.43x"
+    "volume_multiplier": "1.22x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -12.4,
-    "change_pct": -1.13,
-    "close": 1082.3,
-    "previous_close": 1094.7,
+    "as_of": "2026-10-01",
+    "change": 3.9,
+    "change_pct": 0.35,
+    "close": 1104.6,
+    "previous_close": 1100.7,
     "type": "EOD_CLOSE",
-    "volume": 246850
+    "volume": 594962
   },
   "range": {
-    "distance_from_high_pct": -13.76,
-    "distance_from_low_pct": 44.25,
-    "high_52w": 1255.0,
+    "distance_from_high_pct": -9.61,
+    "distance_from_low_pct": 47.22,
+    "high_52w": 1222.0,
     "history_basis": "52_WEEK",
     "low_52w": 750.3,
-    "range_position_pct": 65.78
+    "range_position_pct": 75.11
   },
   "risk_model": {
-    "invalidation_floor": 1044.42,
-    "risk_per_share": 59.53,
-    "technical_pivot": 1103.95
+    "invalidation_floor": 1065.94,
+    "risk_per_share": 60.75,
+    "technical_pivot": 1126.69
   },
   "schema_version": "1.0",
   "sector": "Information Technology",

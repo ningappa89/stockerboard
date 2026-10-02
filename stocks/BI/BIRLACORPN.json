@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1298.9,
-      "high": 1307.7,
-      "low": 1281.2,
-      "open": 1283.9,
-      "time": "2025-09-19",
-      "volume": 58811
-    },
-    {
-      "close": 1301.9,
-      "high": 1321.1,
-      "low": 1287.0,
-      "open": 1295.1,
-      "time": "2025-09-22",
-      "volume": 121695
-    },
-    {
-      "close": 1299.2,
-      "high": 1320.0,
-      "low": 1295.0,
-      "open": 1319.8,
-      "time": "2025-09-23",
-      "volume": 89153
-    },
-    {
       "close": 1282.9,
       "high": 1304.4,
       "low": 1275.6,
@@ -2017,13 +1993,37 @@
       "open": 850.7,
       "time": "2026-09-28",
       "volume": 26947
+    },
+    {
+      "close": 849.9,
+      "high": 853.7,
+      "low": 828.35,
+      "open": 836.0,
+      "time": "2026-09-29",
+      "volume": 57453
+    },
+    {
+      "close": 840.05,
+      "high": 857.8,
+      "low": 839.0,
+      "open": 850.0,
+      "time": "2026-09-30",
+      "volume": 20629
+    },
+    {
+      "close": 828.95,
+      "high": 841.5,
+      "low": 815.0,
+      "open": 840.0,
+      "time": "2026-10-01",
+      "volume": 82178
     }
   ],
   "company_name": "BIRLA CORPORATION LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.49x"
+    "volume_multiplier": "1.52x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -11.2,
+    "as_of": "2026-10-01",
+    "change": -11.1,
     "change_pct": -1.32,
-    "close": 839.1,
-    "previous_close": 850.3,
+    "close": 828.95,
+    "previous_close": 840.05,
     "type": "EOD_CLOSE",
-    "volume": 26947
+    "volume": 82178
   },
   "range": {
-    "distance_from_high_pct": -37.66,
-    "distance_from_low_pct": 9.03,
+    "distance_from_high_pct": -38.42,
+    "distance_from_low_pct": 7.71,
     "high_52w": 1346.1,
     "history_basis": "52_WEEK",
     "low_52w": 769.6,
-    "range_position_pct": 12.06
+    "range_position_pct": 10.29
   },
   "risk_model": {
-    "invalidation_floor": 809.73,
-    "risk_per_share": 46.15,
-    "technical_pivot": 855.88
+    "invalidation_floor": 799.94,
+    "risk_per_share": 45.59,
+    "technical_pivot": 845.53
   },
   "schema_version": "1.0",
   "sector": null,

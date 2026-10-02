@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 269.76,
-      "high": 271.4,
-      "low": 258.0,
-      "open": 261.3,
-      "time": "2025-09-19",
-      "volume": 8666415
-    },
-    {
-      "close": 260.29,
-      "high": 274.7,
-      "low": 258.61,
-      "open": 268.51,
-      "time": "2025-09-22",
-      "volume": 6643354
-    },
-    {
-      "close": 252.67,
-      "high": 262.4,
-      "low": 248.4,
-      "open": 260.99,
-      "time": "2025-09-23",
-      "volume": 5103036
-    },
-    {
       "close": 247.1,
       "high": 255.88,
       "low": 246.0,
@@ -2017,13 +1993,37 @@
       "open": 204.07,
       "time": "2026-09-28",
       "volume": 922437
+    },
+    {
+      "close": 198.47,
+      "high": 201.49,
+      "low": 195.3,
+      "open": 199.61,
+      "time": "2026-09-29",
+      "volume": 1162679
+    },
+    {
+      "close": 201.25,
+      "high": 205.49,
+      "low": 199.04,
+      "open": 199.04,
+      "time": "2026-09-30",
+      "volume": 1416715
+    },
+    {
+      "close": 198.03,
+      "high": 202.43,
+      "low": 194.08,
+      "open": 201.0,
+      "time": "2026-10-01",
+      "volume": 1364614
     }
   ],
   "company_name": "MOSCHIP TECHNOLOGIES LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 44,
+    "momentum_score": 42,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.62x"
+    "volume_multiplier": "0.99x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.86,
-    "change_pct": -1.89,
-    "close": 200.21,
-    "previous_close": 204.07,
+    "as_of": "2026-10-01",
+    "change": -3.22,
+    "change_pct": -1.6,
+    "close": 198.03,
+    "previous_close": 201.25,
     "type": "EOD_CLOSE",
-    "volume": 922437
+    "volume": 1364614
   },
   "range": {
-    "distance_from_high_pct": -30.59,
-    "distance_from_low_pct": 36.38,
+    "distance_from_high_pct": -31.35,
+    "distance_from_low_pct": 34.9,
     "high_52w": 288.45,
     "history_basis": "52_WEEK",
     "low_52w": 146.8,
-    "range_position_pct": 37.71
+    "range_position_pct": 36.17
   },
   "risk_model": {
-    "invalidation_floor": 193.2,
-    "risk_per_share": 11.01,
-    "technical_pivot": 204.21
+    "invalidation_floor": 191.1,
+    "risk_per_share": 10.89,
+    "technical_pivot": 201.99
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 12.52,
-      "high": 12.74,
-      "low": 12.37,
-      "open": 12.44,
-      "time": "2025-09-19",
-      "volume": 3112820
-    },
-    {
-      "close": 12.44,
-      "high": 13.26,
-      "low": 12.39,
-      "open": 12.57,
-      "time": "2025-09-22",
-      "volume": 8349658
-    },
-    {
-      "close": 12.39,
-      "high": 12.54,
-      "low": 12.31,
-      "open": 12.5,
-      "time": "2025-09-23",
-      "volume": 2345087
-    },
-    {
       "close": 12.21,
       "high": 12.39,
       "low": 12.14,
@@ -2017,13 +1993,37 @@
       "open": 7.53,
       "time": "2026-09-28",
       "volume": 791762
+    },
+    {
+      "close": 7.18,
+      "high": 7.3,
+      "low": 7.01,
+      "open": 7.29,
+      "time": "2026-09-29",
+      "volume": 936126
+    },
+    {
+      "close": 7.21,
+      "high": 7.37,
+      "low": 7.17,
+      "open": 7.2,
+      "time": "2026-09-30",
+      "volume": 587340
+    },
+    {
+      "close": 7.2,
+      "high": 7.33,
+      "low": 7.05,
+      "open": 7.33,
+      "time": "2026-10-01",
+      "volume": 764827
     }
   ],
   "company_name": "ZEE MEDIA CORPORATION LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.42x"
+    "volume_multiplier": "0.51x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.23,
-    "change_pct": -3.06,
-    "close": 7.29,
-    "previous_close": 7.52,
+    "as_of": "2026-10-01",
+    "change": -0.01,
+    "change_pct": -0.14,
+    "close": 7.2,
+    "previous_close": 7.21,
     "type": "EOD_CLOSE",
-    "volume": 791762
+    "volume": 764827
   },
   "range": {
-    "distance_from_high_pct": -45.02,
-    "distance_from_low_pct": 9.62,
-    "high_52w": 13.26,
+    "distance_from_high_pct": -41.89,
+    "distance_from_low_pct": 8.27,
+    "high_52w": 12.39,
     "history_basis": "52_WEEK",
     "low_52w": 6.65,
-    "range_position_pct": 9.68
+    "range_position_pct": 9.58
   },
   "risk_model": {
-    "invalidation_floor": 7.03,
+    "invalidation_floor": 6.95,
     "risk_per_share": 0.5,
-    "technical_pivot": 7.44
+    "technical_pivot": 7.34
   },
   "schema_version": "1.0",
   "sector": null,

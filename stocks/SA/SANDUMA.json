@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 159.33,
-      "high": 161.57,
-      "low": 157.75,
-      "open": 158.28,
-      "time": "2025-09-19",
-      "volume": 1546881
-    },
-    {
-      "close": 160.05,
-      "high": 168.5,
-      "low": 158.75,
-      "open": 162.9,
-      "time": "2025-09-22",
-      "volume": 679054
-    },
-    {
-      "close": 158.75,
-      "high": 160.0,
-      "low": 156.3,
-      "open": 159.0,
-      "time": "2025-09-23",
-      "volume": 520089
-    },
-    {
       "close": 170.45,
       "high": 174.45,
       "low": 156.3,
@@ -2017,13 +1993,37 @@
       "open": 186.09,
       "time": "2026-09-28",
       "volume": 530234
+    },
+    {
+      "close": 182.69,
+      "high": 184.0,
+      "low": 178.53,
+      "open": 181.9,
+      "time": "2026-09-29",
+      "volume": 448066
+    },
+    {
+      "close": 182.18,
+      "high": 184.69,
+      "low": 181.0,
+      "open": 181.27,
+      "time": "2026-09-30",
+      "volume": 268845
+    },
+    {
+      "close": 177.67,
+      "high": 182.85,
+      "low": 175.0,
+      "open": 181.0,
+      "time": "2026-10-01",
+      "volume": 662436
     }
   ],
   "company_name": "SANDUR MANGANESE & IRON ORES L",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.05x"
+    "volume_multiplier": "1.27x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.28,
-    "change_pct": -1.77,
-    "close": 181.51,
-    "previous_close": 184.79,
+    "as_of": "2026-10-01",
+    "change": -4.51,
+    "change_pct": -2.48,
+    "close": 177.67,
+    "previous_close": 182.18,
     "type": "EOD_CLOSE",
-    "volume": 530234
+    "volume": 662436
   },
   "range": {
-    "distance_from_high_pct": -33.51,
-    "distance_from_low_pct": 16.13,
+    "distance_from_high_pct": -34.92,
+    "distance_from_low_pct": 13.67,
     "high_52w": 273.0,
     "history_basis": "52_WEEK",
     "low_52w": 156.3,
-    "range_position_pct": 21.6
+    "range_position_pct": 18.31
   },
   "risk_model": {
-    "invalidation_floor": 175.16,
-    "risk_per_share": 9.98,
-    "technical_pivot": 185.14
+    "invalidation_floor": 171.45,
+    "risk_per_share": 9.77,
+    "technical_pivot": 181.22
   },
   "schema_version": "1.0",
   "sector": null,

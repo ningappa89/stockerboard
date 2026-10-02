@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 526.85,
-      "high": 543.3,
-      "low": 511.6,
-      "open": 535.3,
-      "time": "2025-09-19",
-      "volume": 67328
-    },
-    {
-      "close": 521.45,
-      "high": 534.2,
-      "low": 520.0,
-      "open": 526.0,
-      "time": "2025-09-22",
-      "volume": 27882
-    },
-    {
-      "close": 511.4,
-      "high": 524.45,
-      "low": 507.4,
-      "open": 515.0,
-      "time": "2025-09-23",
-      "volume": 21985
-    },
-    {
       "close": 490.5,
       "high": 514.4,
       "low": 486.0,
@@ -2017,13 +1993,37 @@
       "open": 434.15,
       "time": "2026-09-28",
       "volume": 11495
+    },
+    {
+      "close": 422.2,
+      "high": 429.75,
+      "low": 418.0,
+      "open": 427.25,
+      "time": "2026-09-29",
+      "volume": 9297
+    },
+    {
+      "close": 442.15,
+      "high": 462.2,
+      "low": 420.0,
+      "open": 428.0,
+      "time": "2026-09-30",
+      "volume": 402154
+    },
+    {
+      "close": 433.05,
+      "high": 444.1,
+      "low": 425.05,
+      "open": 440.0,
+      "time": "2026-10-01",
+      "volume": 23619
     }
   ],
   "company_name": "FAZE THREE LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.67x"
+    "volume_multiplier": "0.65x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -6.8,
-    "change_pct": -1.57,
-    "close": 427.25,
-    "previous_close": 434.05,
+    "as_of": "2026-10-01",
+    "change": -9.1,
+    "change_pct": -2.06,
+    "close": 433.05,
+    "previous_close": 442.15,
     "type": "EOD_CLOSE",
-    "volume": 11495
+    "volume": 23619
   },
   "range": {
-    "distance_from_high_pct": -34.27,
-    "distance_from_low_pct": 32.65,
+    "distance_from_high_pct": -33.38,
+    "distance_from_low_pct": 34.45,
     "high_52w": 650.05,
     "history_basis": "52_WEEK",
     "low_52w": 322.1,
-    "range_position_pct": 32.06
+    "range_position_pct": 33.83
   },
   "risk_model": {
-    "invalidation_floor": 412.3,
-    "risk_per_share": 23.5,
-    "technical_pivot": 435.8
+    "invalidation_floor": 417.89,
+    "risk_per_share": 23.82,
+    "technical_pivot": 441.71
   },
   "schema_version": "1.0",
   "sector": null,

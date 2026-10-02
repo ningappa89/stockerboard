@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 461.65,
-      "high": 475.0,
-      "low": 442.9,
-      "open": 454.05,
-      "time": "2025-09-19",
-      "volume": 2154882
-    },
-    {
-      "close": 459.2,
-      "high": 465.0,
-      "low": 455.5,
-      "open": 462.8,
-      "time": "2025-09-22",
-      "volume": 724340
-    },
-    {
-      "close": 455.35,
-      "high": 460.0,
-      "low": 452.1,
-      "open": 459.2,
-      "time": "2025-09-23",
-      "volume": 280274
-    },
-    {
       "close": 456.6,
       "high": 459.7,
       "low": 452.15,
@@ -2017,13 +1993,37 @@
       "open": 252.5,
       "time": "2026-09-28",
       "volume": 783149
+    },
+    {
+      "close": 245.1,
+      "high": 253.05,
+      "low": 244.9,
+      "open": 253.0,
+      "time": "2026-09-29",
+      "volume": 562757
+    },
+    {
+      "close": 247.8,
+      "high": 250.05,
+      "low": 246.5,
+      "open": 246.5,
+      "time": "2026-09-30",
+      "volume": 370681
+    },
+    {
+      "close": 242.39,
+      "high": 248.01,
+      "low": 240.25,
+      "open": 247.98,
+      "time": "2026-10-01",
+      "volume": 428586
     }
   ],
   "company_name": "Afcons Infrastructure Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.27x"
+    "volume_multiplier": "0.15x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.85,
-    "change_pct": -0.34,
-    "close": 251.65,
-    "previous_close": 252.5,
+    "as_of": "2026-10-01",
+    "change": -5.41,
+    "change_pct": -2.18,
+    "close": 242.39,
+    "previous_close": 247.8,
     "type": "EOD_CLOSE",
-    "volume": 783149
+    "volume": 428586
   },
   "range": {
-    "distance_from_high_pct": -47.51,
-    "distance_from_low_pct": 11.67,
+    "distance_from_high_pct": -49.44,
+    "distance_from_low_pct": 7.56,
     "high_52w": 479.4,
     "history_basis": "52_WEEK",
     "low_52w": 225.35,
-    "range_position_pct": 10.35
+    "range_position_pct": 6.71
   },
   "risk_model": {
-    "invalidation_floor": 242.84,
-    "risk_per_share": 13.84,
-    "technical_pivot": 256.68
+    "invalidation_floor": 233.91,
+    "risk_per_share": 13.33,
+    "technical_pivot": 247.24
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 324.75,
-      "high": 327.0,
-      "low": 320.3,
-      "open": 322.95,
-      "time": "2025-09-19",
-      "volume": 179100
-    },
-    {
-      "close": 321.8,
-      "high": 324.0,
-      "low": 315.95,
-      "open": 320.0,
-      "time": "2025-09-22",
-      "volume": 247098
-    },
-    {
-      "close": 315.45,
-      "high": 321.7,
-      "low": 314.1,
-      "open": 320.0,
-      "time": "2025-09-23",
-      "volume": 143398
-    },
-    {
       "close": 306.2,
       "high": 317.45,
       "low": 304.55,
@@ -2017,13 +1993,37 @@
       "open": 160.93,
       "time": "2026-09-28",
       "volume": 387702
+    },
+    {
+      "close": 152.39,
+      "high": 157.29,
+      "low": 150.0,
+      "open": 155.01,
+      "time": "2026-09-29",
+      "volume": 355416
+    },
+    {
+      "close": 151.39,
+      "high": 155.83,
+      "low": 150.74,
+      "open": 152.7,
+      "time": "2026-09-30",
+      "volume": 243364
+    },
+    {
+      "close": 146.26,
+      "high": 151.74,
+      "low": 143.12,
+      "open": 151.74,
+      "time": "2026-10-01",
+      "volume": 463985
     }
   ],
   "company_name": "THIRUMALAI CHEMICALS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.74x"
+    "volume_multiplier": "0.99x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.89,
-    "change_pct": -3.66,
-    "close": 155.04,
-    "previous_close": 160.93,
+    "as_of": "2026-10-01",
+    "change": -5.13,
+    "change_pct": -3.39,
+    "close": 146.26,
+    "previous_close": 151.39,
     "type": "EOD_CLOSE",
-    "volume": 387702
+    "volume": 463985
   },
   "range": {
-    "distance_from_high_pct": -52.59,
-    "distance_from_low_pct": 8.04,
-    "high_52w": 327.0,
+    "distance_from_high_pct": -53.93,
+    "distance_from_low_pct": 2.19,
+    "high_52w": 317.45,
     "history_basis": "52_WEEK",
-    "low_52w": 143.5,
-    "range_position_pct": 6.29
+    "low_52w": 143.12,
+    "range_position_pct": 1.8
   },
   "risk_model": {
-    "invalidation_floor": 149.61,
-    "risk_per_share": 8.53,
-    "technical_pivot": 158.14
+    "invalidation_floor": 141.14,
+    "risk_per_share": 8.05,
+    "technical_pivot": 149.19
   },
   "schema_version": "1.0",
   "sector": null,

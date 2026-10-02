@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 502.95,
-      "high": 506.85,
-      "low": 482.0,
-      "open": 499.25,
-      "time": "2025-09-19",
-      "volume": 194031
-    },
-    {
-      "close": 491.95,
-      "high": 511.0,
-      "low": 491.0,
-      "open": 503.0,
-      "time": "2025-09-22",
-      "volume": 28072
-    },
-    {
-      "close": 494.7,
-      "high": 499.35,
-      "low": 492.55,
-      "open": 499.35,
-      "time": "2025-09-23",
-      "volume": 4885
-    },
-    {
       "close": 490.85,
       "high": 498.95,
       "low": 489.15,
@@ -2017,13 +1993,37 @@
       "open": 546.2,
       "time": "2026-09-28",
       "volume": 117693
+    },
+    {
+      "close": 568.4,
+      "high": 608.0,
+      "low": 530.0,
+      "open": 537.0,
+      "time": "2026-09-29",
+      "volume": 4127586
+    },
+    {
+      "close": 545.5,
+      "high": 579.2,
+      "low": 542.1,
+      "open": 569.0,
+      "time": "2026-09-30",
+      "volume": 217861
+    },
+    {
+      "close": 535.05,
+      "high": 548.9,
+      "low": 523.05,
+      "open": 542.5,
+      "time": "2026-10-01",
+      "volume": 102131
     }
   ],
   "company_name": "UNICHEM LABORATORIES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 57,
+    "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.96x"
+    "volume_multiplier": "0.33x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -13.3,
-    "change_pct": -2.42,
-    "close": 536.4,
-    "previous_close": 549.7,
+    "as_of": "2026-10-01",
+    "change": -10.45,
+    "change_pct": -1.92,
+    "close": 535.05,
+    "previous_close": 545.5,
     "type": "EOD_CLOSE",
-    "volume": 117693
+    "volume": 102131
   },
   "range": {
-    "distance_from_high_pct": -21.94,
-    "distance_from_low_pct": 92.81,
+    "distance_from_high_pct": -22.14,
+    "distance_from_low_pct": 92.33,
     "high_52w": 687.2,
     "history_basis": "52_WEEK",
     "low_52w": 278.2,
-    "range_position_pct": 63.13
+    "range_position_pct": 62.8
   },
   "risk_model": {
-    "invalidation_floor": 517.63,
-    "risk_per_share": 29.5,
-    "technical_pivot": 547.13
+    "invalidation_floor": 516.32,
+    "risk_per_share": 29.43,
+    "technical_pivot": 545.75
   },
   "schema_version": "1.0",
   "sector": null,

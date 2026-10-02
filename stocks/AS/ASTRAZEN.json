@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 8934.5,
-      "high": 9145.0,
-      "low": 8890.0,
-      "open": 9091.0,
-      "time": "2025-09-19",
-      "volume": 29821
-    },
-    {
-      "close": 8858.0,
-      "high": 9080.5,
-      "low": 8822.5,
-      "open": 8988.5,
-      "time": "2025-09-22",
-      "volume": 10580
-    },
-    {
-      "close": 8761.0,
-      "high": 8884.0,
-      "low": 8692.0,
-      "open": 8865.0,
-      "time": "2025-09-23",
-      "volume": 6649
-    },
-    {
       "close": 8808.0,
       "high": 8829.0,
       "low": 8711.5,
@@ -2017,13 +1993,37 @@
       "open": 6477.0,
       "time": "2026-09-28",
       "volume": 10121
+    },
+    {
+      "close": 6254.5,
+      "high": 6355.0,
+      "low": 6195.5,
+      "open": 6235.0,
+      "time": "2026-09-29",
+      "volume": 8506
+    },
+    {
+      "close": 6186.0,
+      "high": 6289.0,
+      "low": 6120.5,
+      "open": 6210.0,
+      "time": "2026-09-30",
+      "volume": 56730
+    },
+    {
+      "close": 6031.0,
+      "high": 6172.0,
+      "low": 5986.0,
+      "open": 6153.5,
+      "time": "2026-10-01",
+      "volume": 11473
     }
   ],
   "company_name": "ASTRAZENECA PHARMA IND LT",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Healthcare",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.64x"
+    "volume_multiplier": "1.28x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -225.0,
-    "change_pct": -3.46,
-    "close": 6280.0,
-    "previous_close": 6505.0,
+    "as_of": "2026-10-01",
+    "change": -155.0,
+    "change_pct": -2.51,
+    "close": 6031.0,
+    "previous_close": 6186.0,
     "type": "EOD_CLOSE",
-    "volume": 10121
+    "volume": 11473
   },
   "range": {
-    "distance_from_high_pct": -36.24,
-    "distance_from_low_pct": 0.29,
+    "distance_from_high_pct": -38.77,
+    "distance_from_low_pct": 0.75,
     "high_52w": 9849.5,
     "history_basis": "52_WEEK",
-    "low_52w": 6262.0,
-    "range_position_pct": 0.5
+    "low_52w": 5986.0,
+    "range_position_pct": 1.16
   },
   "risk_model": {
-    "invalidation_floor": 6060.2,
-    "risk_per_share": 345.4,
-    "technical_pivot": 6405.6
+    "invalidation_floor": 5819.91,
+    "risk_per_share": 331.71,
+    "technical_pivot": 6151.62
   },
   "schema_version": "1.0",
   "sector": "Healthcare",

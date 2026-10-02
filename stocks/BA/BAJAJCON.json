@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 255.49,
-      "high": 263.44,
-      "low": 254.0,
-      "open": 259.0,
-      "time": "2025-09-19",
-      "volume": 1446442
-    },
-    {
-      "close": 257.65,
-      "high": 263.5,
-      "low": 255.27,
-      "open": 256.0,
-      "time": "2025-09-22",
-      "volume": 1192312
-    },
-    {
-      "close": 253.84,
-      "high": 259.58,
-      "low": 252.35,
-      "open": 257.5,
-      "time": "2025-09-23",
-      "volume": 605160
-    },
-    {
       "close": 246.44,
       "high": 251.0,
       "low": 232.1,
@@ -2017,13 +1993,37 @@
       "open": 501.0,
       "time": "2026-09-28",
       "volume": 416106
+    },
+    {
+      "close": 493.0,
+      "high": 499.8,
+      "low": 474.55,
+      "open": 480.05,
+      "time": "2026-09-29",
+      "volume": 996143
+    },
+    {
+      "close": 495.55,
+      "high": 503.9,
+      "low": 493.45,
+      "open": 499.0,
+      "time": "2026-09-30",
+      "volume": 260252
+    },
+    {
+      "close": 497.05,
+      "high": 502.6,
+      "low": 487.0,
+      "open": 495.0,
+      "time": "2026-10-01",
+      "volume": 519447
     }
   ],
   "company_name": "BAJAJ CONSUMER CARE LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 44,
+    "momentum_score": 47,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.48x"
+    "volume_multiplier": "0.7x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -19.45,
-    "change_pct": -3.89,
-    "close": 480.05,
-    "previous_close": 499.5,
+    "as_of": "2026-10-01",
+    "change": 1.5,
+    "change_pct": 0.3,
+    "close": 497.05,
+    "previous_close": 495.55,
     "type": "EOD_CLOSE",
-    "volume": 416106
+    "volume": 519447
   },
   "range": {
-    "distance_from_high_pct": -30.63,
-    "distance_from_low_pct": 106.83,
+    "distance_from_high_pct": -28.17,
+    "distance_from_low_pct": 114.15,
     "high_52w": 692.0,
     "history_basis": "52_WEEK",
     "low_52w": 232.1,
-    "range_position_pct": 53.91
+    "range_position_pct": 57.61
   },
   "risk_model": {
-    "invalidation_floor": 463.25,
-    "risk_per_share": 26.4,
-    "technical_pivot": 489.65
+    "invalidation_floor": 479.65,
+    "risk_per_share": 27.34,
+    "technical_pivot": 506.99
   },
   "schema_version": "1.0",
   "sector": null,

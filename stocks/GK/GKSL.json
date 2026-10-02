@@ -1473,14 +1473,38 @@
       "open": 179.44,
       "time": "2026-09-28",
       "volume": 307001
+    },
+    {
+      "close": 175.89,
+      "high": 178.0,
+      "low": 172.11,
+      "open": 175.4,
+      "time": "2026-09-29",
+      "volume": 627188
+    },
+    {
+      "close": 179.05,
+      "high": 184.4,
+      "low": 176.38,
+      "open": 177.52,
+      "time": "2026-09-30",
+      "volume": 537362
+    },
+    {
+      "close": 194.27,
+      "high": 209.8,
+      "low": 180.0,
+      "open": 180.1,
+      "time": "2026-10-01",
+      "volume": 34935174
     }
   ],
   "company_name": "GUJARAT KIDNEY N SUP SP L",
   "history": {
     "first_session": "2025-12-30",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 184
+    "last_session": "2026-10-01",
+    "sessions_available": 187
   },
   "industry": null,
   "isin": "INE0V0W01025",
@@ -1488,31 +1512,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 80,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.43x"
+    "momentum_score": 78,
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "15.17x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.19,
-    "change_pct": -1.79,
-    "close": 174.83,
-    "previous_close": 178.02,
+    "as_of": "2026-10-01",
+    "change": 15.22,
+    "change_pct": 8.5,
+    "close": 194.27,
+    "previous_close": 179.05,
     "type": "EOD_CLOSE",
-    "volume": 307001
+    "volume": 34935174
   },
   "range": {
-    "distance_from_high_pct": -6.5,
-    "distance_from_low_pct": 77.75,
-    "high_52w": 186.99,
+    "distance_from_high_pct": -7.4,
+    "distance_from_low_pct": 97.51,
+    "high_52w": 209.8,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 98.36,
-    "range_position_pct": 86.28
+    "range_position_pct": 86.06
   },
   "risk_model": {
-    "invalidation_floor": 168.71,
-    "risk_per_share": 9.62,
-    "technical_pivot": 178.33
+    "invalidation_floor": 187.47,
+    "risk_per_share": 10.69,
+    "technical_pivot": 198.16
   },
   "schema_version": "1.0",
   "sector": null,

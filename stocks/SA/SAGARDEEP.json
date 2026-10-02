@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 26.78,
-      "high": 27.5,
-      "low": 26.71,
-      "open": 27.28,
-      "time": "2025-09-19",
-      "volume": 11919
-    },
-    {
-      "close": 26.53,
-      "high": 27.29,
-      "low": 26.36,
-      "open": 26.78,
-      "time": "2025-09-22",
-      "volume": 8408
-    },
-    {
-      "close": 26.66,
-      "high": 26.98,
-      "low": 26.16,
-      "open": 26.54,
-      "time": "2025-09-23",
-      "volume": 6858
-    },
-    {
       "close": 26.03,
       "high": 27.19,
       "low": 25.76,
@@ -2017,13 +1993,37 @@
       "open": 23.65,
       "time": "2026-09-28",
       "volume": 8880
+    },
+    {
+      "close": 23.44,
+      "high": 23.6,
+      "low": 22.76,
+      "open": 23.18,
+      "time": "2026-09-29",
+      "volume": 6760
+    },
+    {
+      "close": 23.13,
+      "high": 23.98,
+      "low": 22.83,
+      "open": 23.98,
+      "time": "2026-09-30",
+      "volume": 8443
+    },
+    {
+      "close": 22.52,
+      "high": 23.66,
+      "low": 22.05,
+      "open": 23.01,
+      "time": "2026-10-01",
+      "volume": 10991
     }
   ],
   "company_name": "SAGARDEEP ALLOYS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 50,
+    "momentum_score": 47,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.57x"
+    "volume_multiplier": "1.75x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.1,
-    "change_pct": 0.43,
-    "close": 23.29,
-    "previous_close": 23.19,
+    "as_of": "2026-10-01",
+    "change": -0.61,
+    "change_pct": -2.64,
+    "close": 22.52,
+    "previous_close": 23.13,
     "type": "EOD_CLOSE",
-    "volume": 8880
+    "volume": 10991
   },
   "range": {
-    "distance_from_high_pct": -26.02,
-    "distance_from_low_pct": 11.92,
+    "distance_from_high_pct": -28.46,
+    "distance_from_low_pct": 8.22,
     "high_52w": 31.48,
     "history_basis": "52_WEEK",
     "low_52w": 20.81,
-    "range_position_pct": 23.24
+    "range_position_pct": 16.03
   },
   "risk_model": {
-    "invalidation_floor": 22.47,
-    "risk_per_share": 1.29,
-    "technical_pivot": 23.76
+    "invalidation_floor": 21.73,
+    "risk_per_share": 1.24,
+    "technical_pivot": 22.97
   },
   "schema_version": "1.0",
   "sector": null,

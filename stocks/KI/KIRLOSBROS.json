@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2054.6,
-      "high": 2083.2,
-      "low": 2044.0,
-      "open": 2076.0,
-      "time": "2025-09-19",
-      "volume": 72778
-    },
-    {
-      "close": 2018.0,
-      "high": 2105.0,
-      "low": 2009.2,
-      "open": 2054.0,
-      "time": "2025-09-22",
-      "volume": 99989
-    },
-    {
-      "close": 1985.2,
-      "high": 2031.1,
-      "low": 1976.9,
-      "open": 2023.7,
-      "time": "2025-09-23",
-      "volume": 34423
-    },
-    {
       "close": 1982.1,
       "high": 2008.0,
       "low": 1970.7,
@@ -2017,13 +1993,37 @@
       "open": 1780.6,
       "time": "2026-09-28",
       "volume": 27047
+    },
+    {
+      "close": 1848.3,
+      "high": 1936.1,
+      "low": 1714.1,
+      "open": 1732.3,
+      "time": "2026-09-29",
+      "volume": 457358
+    },
+    {
+      "close": 1774.9,
+      "high": 1847.5,
+      "low": 1745.0,
+      "open": 1828.0,
+      "time": "2026-09-30",
+      "volume": 321866
+    },
+    {
+      "close": 1767.6,
+      "high": 1777.0,
+      "low": 1738.7,
+      "open": 1770.0,
+      "time": "2026-10-01",
+      "volume": 131484
     }
   ],
   "company_name": "KIRLOSKAR BROTHERS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.91x"
+    "volume_multiplier": "1.86x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -39.6,
-    "change_pct": -2.23,
-    "close": 1732.3,
-    "previous_close": 1771.9,
+    "as_of": "2026-10-01",
+    "change": -7.3,
+    "change_pct": -0.41,
+    "close": 1767.6,
+    "previous_close": 1774.9,
     "type": "EOD_CLOSE",
-    "volume": 27047
+    "volume": 131484
   },
   "range": {
-    "distance_from_high_pct": -20.87,
-    "distance_from_low_pct": 29.76,
+    "distance_from_high_pct": -19.26,
+    "distance_from_low_pct": 32.4,
     "high_52w": 2189.2,
     "history_basis": "52_WEEK",
     "low_52w": 1335.0,
-    "range_position_pct": 46.51
+    "range_position_pct": 50.64
   },
   "risk_model": {
-    "invalidation_floor": 1671.67,
-    "risk_per_share": 95.28,
-    "technical_pivot": 1766.95
+    "invalidation_floor": 1705.73,
+    "risk_per_share": 97.22,
+    "technical_pivot": 1802.95
   },
   "schema_version": "1.0",
   "sector": null,

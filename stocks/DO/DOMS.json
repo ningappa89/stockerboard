@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2622.3,
-      "high": 2636.7,
-      "low": 2575.0,
-      "open": 2588.0,
-      "time": "2025-09-19",
-      "volume": 37002
-    },
-    {
-      "close": 2622.6,
-      "high": 2640.0,
-      "low": 2600.0,
-      "open": 2629.9,
-      "time": "2025-09-22",
-      "volume": 34106
-    },
-    {
-      "close": 2614.0,
-      "high": 2625.0,
-      "low": 2600.0,
-      "open": 2624.0,
-      "time": "2025-09-23",
-      "volume": 16440
-    },
-    {
       "close": 2613.0,
       "high": 2638.6,
       "low": 2596.1,
@@ -2017,13 +1993,37 @@
       "open": 2083.9,
       "time": "2026-09-28",
       "volume": 31057
+    },
+    {
+      "close": 2052.4,
+      "high": 2083.0,
+      "low": 2020.0,
+      "open": 2040.2,
+      "time": "2026-09-29",
+      "volume": 56107
+    },
+    {
+      "close": 2107.0,
+      "high": 2122.0,
+      "low": 2044.1,
+      "open": 2056.4,
+      "time": "2026-09-30",
+      "volume": 46672
+    },
+    {
+      "close": 2097.5,
+      "high": 2110.0,
+      "low": 2075.0,
+      "open": 2094.6,
+      "time": "2026-10-01",
+      "volume": 19783
     }
   ],
   "company_name": "DOMS Industries Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 51,
+    "momentum_score": 54,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.76x"
+    "volume_multiplier": "0.56x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -36.5,
-    "change_pct": -1.75,
-    "close": 2046.5,
-    "previous_close": 2083.0,
+    "as_of": "2026-10-01",
+    "change": -9.5,
+    "change_pct": -0.45,
+    "close": 2097.5,
+    "previous_close": 2107.0,
     "type": "EOD_CLOSE",
-    "volume": 31057
+    "volume": 19783
   },
   "range": {
-    "distance_from_high_pct": -25.72,
-    "distance_from_low_pct": 1.12,
+    "distance_from_high_pct": -23.87,
+    "distance_from_low_pct": 3.84,
     "high_52w": 2755.0,
     "history_basis": "52_WEEK",
-    "low_52w": 2023.9,
-    "range_position_pct": 3.09
+    "low_52w": 2020.0,
+    "range_position_pct": 10.54
   },
   "risk_model": {
-    "invalidation_floor": 1974.87,
-    "risk_per_share": 112.56,
-    "technical_pivot": 2087.43
+    "invalidation_floor": 2024.09,
+    "risk_per_share": 115.36,
+    "technical_pivot": 2139.45
   },
   "schema_version": "1.0",
   "sector": null,

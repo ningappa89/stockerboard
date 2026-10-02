@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 13.45,
-      "high": 13.79,
-      "low": 12.62,
-      "open": 13.3,
-      "time": "2025-09-19",
-      "volume": 19604010
-    },
-    {
-      "close": 14.01,
-      "high": 14.77,
-      "low": 13.05,
-      "open": 13.43,
-      "time": "2025-09-22",
-      "volume": 12522060
-    },
-    {
-      "close": 14.06,
-      "high": 14.29,
-      "low": 13.5,
-      "open": 14.1,
-      "time": "2025-09-23",
-      "volume": 6111600
-    },
-    {
       "close": 14.02,
       "high": 14.5,
       "low": 13.74,
@@ -2017,46 +1993,70 @@
       "open": 32.25,
       "time": "2026-09-28",
       "volume": 23572265
+    },
+    {
+      "close": 36.39,
+      "high": 36.39,
+      "low": 35.5,
+      "open": 36.39,
+      "time": "2026-09-29",
+      "volume": 9537815
+    },
+    {
+      "close": 34.58,
+      "high": 37.24,
+      "low": 34.58,
+      "open": 37.17,
+      "time": "2026-09-30",
+      "volume": 18707312
+    },
+    {
+      "close": 32.86,
+      "high": 32.86,
+      "low": 32.86,
+      "open": 32.86,
+      "time": "2026-10-01",
+      "volume": 1444357
     }
   ],
   "company_name": "ANLON HEALTHCARE LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE0Y8W01025",
   "metrics": {
-    "is_breakout": true,
+    "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 90,
-    "setup_type": "52W High Breakout",
-    "volume_multiplier": "0.43x"
+    "momentum_score": 72,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.03x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 3.15,
-    "change_pct": 10.0,
-    "close": 34.66,
-    "previous_close": 31.51,
+    "as_of": "2026-10-01",
+    "change": -1.72,
+    "change_pct": -4.97,
+    "close": 32.86,
+    "previous_close": 34.58,
     "type": "EOD_CLOSE",
-    "volume": 23572265
+    "volume": 1444357
   },
   "range": {
-    "distance_from_high_pct": 0.0,
-    "distance_from_low_pct": 234.23,
-    "high_52w": 34.66,
+    "distance_from_high_pct": -11.76,
+    "distance_from_low_pct": 216.88,
+    "high_52w": 37.24,
     "history_basis": "52_WEEK",
     "low_52w": 10.37,
-    "range_position_pct": 100.0
+    "range_position_pct": 83.7
   },
   "risk_model": {
-    "invalidation_floor": 33.45,
-    "risk_per_share": 1.49,
-    "technical_pivot": 34.94
+    "invalidation_floor": 31.71,
+    "risk_per_share": 1.81,
+    "technical_pivot": 33.52
   },
   "schema_version": "1.0",
   "sector": null,

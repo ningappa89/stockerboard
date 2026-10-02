@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 251.85,
-      "high": 256.89,
-      "low": 251.0,
-      "open": 253.9,
-      "time": "2025-09-19",
-      "volume": 2583718
-    },
-    {
-      "close": 253.0,
-      "high": 254.95,
-      "low": 249.42,
-      "open": 252.05,
-      "time": "2025-09-22",
-      "volume": 714329
-    },
-    {
-      "close": 246.21,
-      "high": 253.47,
-      "low": 245.1,
-      "open": 253.2,
-      "time": "2025-09-23",
-      "volume": 873562
-    },
-    {
       "close": 245.28,
       "high": 248.8,
       "low": 243.56,
@@ -2017,13 +1993,37 @@
       "open": 181.52,
       "time": "2026-09-28",
       "volume": 151243
+    },
+    {
+      "close": 181.33,
+      "high": 182.59,
+      "low": 173.6,
+      "open": 178.06,
+      "time": "2026-09-29",
+      "volume": 670486
+    },
+    {
+      "close": 177.99,
+      "high": 183.54,
+      "low": 177.1,
+      "open": 182.9,
+      "time": "2026-09-30",
+      "volume": 178729
+    },
+    {
+      "close": 175.27,
+      "high": 178.0,
+      "low": 173.13,
+      "open": 178.0,
+      "time": "2026-10-01",
+      "volume": 242728
     }
   ],
   "company_name": "KANSAI NEROLAC PAINTS LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.5x"
+    "volume_multiplier": "0.74x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.15,
-    "change_pct": -1.74,
-    "close": 177.48,
-    "previous_close": 180.63,
+    "as_of": "2026-10-01",
+    "change": -2.72,
+    "change_pct": -1.53,
+    "close": 175.27,
+    "previous_close": 177.99,
     "type": "EOD_CLOSE",
-    "volume": 151243
+    "volume": 242728
   },
   "range": {
-    "distance_from_high_pct": -32.77,
-    "distance_from_low_pct": 12.39,
+    "distance_from_high_pct": -33.61,
+    "distance_from_low_pct": 10.99,
     "high_52w": 264.0,
     "history_basis": "52_WEEK",
     "low_52w": 157.91,
-    "range_position_pct": 18.45
+    "range_position_pct": 16.36
   },
   "risk_model": {
-    "invalidation_floor": 171.27,
-    "risk_per_share": 9.76,
-    "technical_pivot": 181.03
+    "invalidation_floor": 169.14,
+    "risk_per_share": 9.64,
+    "technical_pivot": 178.78
   },
   "schema_version": "1.0",
   "sector": null,

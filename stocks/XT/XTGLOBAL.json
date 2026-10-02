@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 41.3,
-      "high": 43.7,
-      "low": 40.61,
-      "open": 43.7,
-      "time": "2025-09-19",
-      "volume": 61777
-    },
-    {
-      "close": 44.61,
-      "high": 45.45,
-      "low": 38.39,
-      "open": 40.01,
-      "time": "2025-09-22",
-      "volume": 432438
-    },
-    {
-      "close": 42.3,
-      "high": 45.89,
-      "low": 41.4,
-      "open": 44.79,
-      "time": "2025-09-23",
-      "volume": 309460
-    },
-    {
       "close": 40.4,
       "high": 42.62,
       "low": 40.11,
@@ -2017,13 +1993,37 @@
       "open": 30.14,
       "time": "2026-09-28",
       "volume": 114401
+    },
+    {
+      "close": 29.43,
+      "high": 31.0,
+      "low": 29.0,
+      "open": 29.0,
+      "time": "2026-09-29",
+      "volume": 25775
+    },
+    {
+      "close": 29.19,
+      "high": 30.29,
+      "low": 28.8,
+      "open": 30.29,
+      "time": "2026-09-30",
+      "volume": 29401
+    },
+    {
+      "close": 28.69,
+      "high": 29.6,
+      "low": 28.11,
+      "open": 29.6,
+      "time": "2026-10-01",
+      "volume": 19992
     }
   ],
   "company_name": "XTGLOBAL INFOTECH LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.76x"
+    "volume_multiplier": "0.33x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.53,
-    "change_pct": -1.8,
-    "close": 28.91,
-    "previous_close": 29.44,
+    "as_of": "2026-10-01",
+    "change": -0.5,
+    "change_pct": -1.71,
+    "close": 28.69,
+    "previous_close": 29.19,
     "type": "EOD_CLOSE",
-    "volume": 114401
+    "volume": 19992
   },
   "range": {
-    "distance_from_high_pct": -37.0,
-    "distance_from_low_pct": 14.72,
-    "high_52w": 45.89,
+    "distance_from_high_pct": -34.35,
+    "distance_from_low_pct": 13.85,
+    "high_52w": 43.7,
     "history_basis": "52_WEEK",
     "low_52w": 25.2,
-    "range_position_pct": 17.93
+    "range_position_pct": 18.86
   },
   "risk_model": {
-    "invalidation_floor": 27.9,
-    "risk_per_share": 1.59,
-    "technical_pivot": 29.49
+    "invalidation_floor": 27.69,
+    "risk_per_share": 1.57,
+    "technical_pivot": 29.26
   },
   "schema_version": "1.0",
   "sector": null,

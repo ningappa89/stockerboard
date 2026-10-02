@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 104.23,
-      "high": 107.72,
-      "low": 103.7,
-      "open": 105.72,
-      "time": "2025-09-19",
-      "volume": 9650
-    },
-    {
-      "close": 105.21,
-      "high": 113.0,
-      "low": 104.95,
-      "open": 105.85,
-      "time": "2025-09-22",
-      "volume": 40870
-    },
-    {
-      "close": 107.85,
-      "high": 110.67,
-      "low": 104.21,
-      "open": 106.73,
-      "time": "2025-09-23",
-      "volume": 19583
-    },
-    {
       "close": 103.85,
       "high": 110.44,
       "low": 102.6,
@@ -2017,13 +1993,37 @@
       "open": 106.26,
       "time": "2026-09-28",
       "volume": 25618
+    },
+    {
+      "close": 101.98,
+      "high": 107.69,
+      "low": 101.07,
+      "open": 107.69,
+      "time": "2026-09-29",
+      "volume": 10384
+    },
+    {
+      "close": 103.5,
+      "high": 104.99,
+      "low": 99.52,
+      "open": 101.11,
+      "time": "2026-09-30",
+      "volume": 33170
+    },
+    {
+      "close": 101.79,
+      "high": 106.85,
+      "low": 100.01,
+      "open": 104.49,
+      "time": "2026-10-01",
+      "volume": 27789
     }
   ],
   "company_name": "ARCHIDPLY INDUSTRIES LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 63,
+    "momentum_score": 62,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.42x"
+    "volume_multiplier": "1.52x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.5,
-    "change_pct": -3.29,
-    "close": 102.76,
-    "previous_close": 106.26,
+    "as_of": "2026-10-01",
+    "change": -1.71,
+    "change_pct": -1.65,
+    "close": 101.79,
+    "previous_close": 103.5,
     "type": "EOD_CLOSE",
-    "volume": 25618
+    "volume": 27789
   },
   "range": {
-    "distance_from_high_pct": -17.65,
-    "distance_from_low_pct": 71.27,
+    "distance_from_high_pct": -18.42,
+    "distance_from_low_pct": 69.65,
     "high_52w": 124.78,
     "history_basis": "52_WEEK",
     "low_52w": 60.0,
-    "range_position_pct": 66.01
+    "range_position_pct": 64.51
   },
   "risk_model": {
-    "invalidation_floor": 99.16,
-    "risk_per_share": 5.66,
-    "technical_pivot": 104.82
+    "invalidation_floor": 98.23,
+    "risk_per_share": 5.6,
+    "technical_pivot": 103.83
   },
   "schema_version": "1.0",
   "sector": null,

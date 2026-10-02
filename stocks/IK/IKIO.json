@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 228.12,
-      "high": 235.88,
-      "low": 219.1,
-      "open": 219.8,
-      "time": "2025-09-19",
-      "volume": 983011
-    },
-    {
-      "close": 223.12,
-      "high": 228.68,
-      "low": 221.8,
-      "open": 227.8,
-      "time": "2025-09-22",
-      "volume": 84124
-    },
-    {
-      "close": 223.83,
-      "high": 227.6,
-      "low": 222.89,
-      "open": 227.6,
-      "time": "2025-09-23",
-      "volume": 93640
-    },
-    {
       "close": 220.87,
       "high": 224.32,
       "low": 220.2,
@@ -2017,13 +1993,37 @@
       "open": 206.6,
       "time": "2026-09-28",
       "volume": 113100
+    },
+    {
+      "close": 197.3,
+      "high": 200.34,
+      "low": 194.31,
+      "open": 199.4,
+      "time": "2026-09-29",
+      "volume": 153590
+    },
+    {
+      "close": 196.85,
+      "high": 204.38,
+      "low": 195.22,
+      "open": 198.75,
+      "time": "2026-09-30",
+      "volume": 144490
+    },
+    {
+      "close": 190.96,
+      "high": 199.85,
+      "low": 186.77,
+      "open": 196.85,
+      "time": "2026-10-01",
+      "volume": 133638
     }
   ],
   "company_name": "IKIO Technologies Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 59,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.18x"
+    "volume_multiplier": "0.24x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -5.81,
-    "change_pct": -2.83,
-    "close": 199.62,
-    "previous_close": 205.43,
+    "as_of": "2026-10-01",
+    "change": -5.89,
+    "change_pct": -2.99,
+    "close": 190.96,
+    "previous_close": 196.85,
     "type": "EOD_CLOSE",
-    "volume": 113100
+    "volume": 133638
   },
   "range": {
-    "distance_from_high_pct": -16.41,
-    "distance_from_low_pct": 92.81,
+    "distance_from_high_pct": -20.03,
+    "distance_from_low_pct": 84.45,
     "high_52w": 238.8,
     "history_basis": "52_WEEK",
     "low_52w": 103.53,
-    "range_position_pct": 71.04
+    "range_position_pct": 64.63
   },
   "risk_model": {
-    "invalidation_floor": 192.63,
-    "risk_per_share": 10.98,
-    "technical_pivot": 203.61
+    "invalidation_floor": 184.28,
+    "risk_per_share": 10.5,
+    "technical_pivot": 194.78
   },
   "schema_version": "1.0",
   "sector": null,

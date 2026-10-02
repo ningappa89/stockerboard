@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 57.23,
-      "high": 57.8,
-      "low": 56.1,
-      "open": 56.97,
-      "time": "2025-09-19",
-      "volume": 42982
-    },
-    {
-      "close": 56.75,
-      "high": 57.22,
-      "low": 56.0,
-      "open": 57.22,
-      "time": "2025-09-22",
-      "volume": 35031
-    },
-    {
-      "close": 56.7,
-      "high": 57.7,
-      "low": 55.52,
-      "open": 57.57,
-      "time": "2025-09-23",
-      "volume": 52765
-    },
-    {
       "close": 56.22,
       "high": 57.69,
       "low": 56.0,
@@ -2017,13 +1993,37 @@
       "open": 38.45,
       "time": "2026-09-28",
       "volume": 31976
+    },
+    {
+      "close": 38.04,
+      "high": 38.87,
+      "low": 37.5,
+      "open": 37.5,
+      "time": "2026-09-29",
+      "volume": 16749
+    },
+    {
+      "close": 37.62,
+      "high": 38.58,
+      "low": 37.4,
+      "open": 38.04,
+      "time": "2026-09-30",
+      "volume": 3327
+    },
+    {
+      "close": 37.02,
+      "high": 38.75,
+      "low": 36.1,
+      "open": 38.27,
+      "time": "2026-10-01",
+      "volume": 30216
     }
   ],
   "company_name": "AMJ LAND HOLDINGS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Volume Expansion",
-    "volume_multiplier": "3.62x"
+    "volume_multiplier": "2.98x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.35,
-    "change_pct": 0.93,
-    "close": 38.05,
-    "previous_close": 37.7,
+    "as_of": "2026-10-01",
+    "change": -0.6,
+    "change_pct": -1.59,
+    "close": 37.02,
+    "previous_close": 37.62,
     "type": "EOD_CLOSE",
-    "volume": 31976
+    "volume": 30216
   },
   "range": {
-    "distance_from_high_pct": -34.17,
-    "distance_from_low_pct": 25.58,
-    "high_52w": 57.8,
+    "distance_from_high_pct": -35.83,
+    "distance_from_low_pct": 22.18,
+    "high_52w": 57.69,
     "history_basis": "52_WEEK",
     "low_52w": 30.3,
-    "range_position_pct": 28.18
+    "range_position_pct": 24.53
   },
   "risk_model": {
-    "invalidation_floor": 36.72,
-    "risk_per_share": 2.09,
-    "technical_pivot": 38.81
+    "invalidation_floor": 35.72,
+    "risk_per_share": 2.04,
+    "technical_pivot": 37.76
   },
   "schema_version": "1.0",
   "sector": null,

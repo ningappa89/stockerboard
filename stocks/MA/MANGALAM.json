@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 76.13,
-      "high": 76.98,
-      "low": 75.03,
-      "open": 76.25,
-      "time": "2025-09-19",
-      "volume": 26736
-    },
-    {
-      "close": 75.05,
-      "high": 77.6,
-      "low": 74.81,
-      "open": 76.13,
-      "time": "2025-09-22",
-      "volume": 26794
-    },
-    {
-      "close": 74.78,
-      "high": 76.79,
-      "low": 74.15,
-      "open": 76.79,
-      "time": "2025-09-23",
-      "volume": 10987
-    },
-    {
       "close": 74.27,
       "high": 75.55,
       "low": 74.0,
@@ -2017,13 +1993,37 @@
       "open": 32.34,
       "time": "2026-09-28",
       "volume": 35269
+    },
+    {
+      "close": 31.39,
+      "high": 32.19,
+      "low": 30.11,
+      "open": 30.5,
+      "time": "2026-09-29",
+      "volume": 30962
+    },
+    {
+      "close": 30.74,
+      "high": 31.93,
+      "low": 29.51,
+      "open": 31.39,
+      "time": "2026-09-30",
+      "volume": 42421
+    },
+    {
+      "close": 29.15,
+      "high": 30.89,
+      "low": 28.85,
+      "open": 30.6,
+      "time": "2026-10-01",
+      "volume": 34164
     }
   ],
   "company_name": "MANGALAM DRUGS & ORGANICS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.45x"
+    "volume_multiplier": "0.43x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.93,
-    "change_pct": -2.92,
-    "close": 30.9,
-    "previous_close": 31.83,
+    "as_of": "2026-10-01",
+    "change": -1.59,
+    "change_pct": -5.17,
+    "close": 29.15,
+    "previous_close": 30.74,
     "type": "EOD_CLOSE",
-    "volume": 35269
+    "volume": 34164
   },
   "range": {
-    "distance_from_high_pct": -60.18,
-    "distance_from_low_pct": 35.53,
-    "high_52w": 77.6,
+    "distance_from_high_pct": -61.42,
+    "distance_from_low_pct": 27.85,
+    "high_52w": 75.55,
     "history_basis": "52_WEEK",
     "low_52w": 22.8,
-    "range_position_pct": 14.78
+    "range_position_pct": 12.04
   },
   "risk_model": {
-    "invalidation_floor": 29.82,
-    "risk_per_share": 1.7,
-    "technical_pivot": 31.52
+    "invalidation_floor": 28.13,
+    "risk_per_share": 1.6,
+    "technical_pivot": 29.73
   },
   "schema_version": "1.0",
   "sector": null,

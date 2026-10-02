@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 85.93,
-      "high": 87.12,
-      "low": 83.86,
-      "open": 85.8,
-      "time": "2025-09-19",
-      "volume": 443052
-    },
-    {
-      "close": 84.41,
-      "high": 87.7,
-      "low": 83.75,
-      "open": 85.94,
-      "time": "2025-09-22",
-      "volume": 357819
-    },
-    {
-      "close": 83.17,
-      "high": 85.38,
-      "low": 82.7,
-      "open": 84.0,
-      "time": "2025-09-23",
-      "volume": 188183
-    },
-    {
       "close": 80.65,
       "high": 83.6,
       "low": 80.21,
@@ -2017,13 +1993,37 @@
       "open": 145.12,
       "time": "2026-09-28",
       "volume": 690632
+    },
+    {
+      "close": 143.11,
+      "high": 152.5,
+      "low": 142.0,
+      "open": 149.0,
+      "time": "2026-09-29",
+      "volume": 351924
+    },
+    {
+      "close": 141.74,
+      "high": 147.8,
+      "low": 140.1,
+      "open": 145.8,
+      "time": "2026-09-30",
+      "volume": 149662
+    },
+    {
+      "close": 147.82,
+      "high": 149.0,
+      "low": 139.01,
+      "open": 141.74,
+      "time": "2026-10-01",
+      "volume": 346713
     }
   ],
   "company_name": "Bluspring Enterprises Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 87,
+    "momentum_score": 85,
     "setup_type": "Minervini VCP",
-    "volume_multiplier": "1.25x"
+    "volume_multiplier": "0.67x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 4.32,
-    "change_pct": 2.98,
-    "close": 149.44,
-    "previous_close": 145.12,
+    "as_of": "2026-10-01",
+    "change": 6.08,
+    "change_pct": 4.29,
+    "close": 147.82,
+    "previous_close": 141.74,
     "type": "EOD_CLOSE",
-    "volume": 690632
+    "volume": 346713
   },
   "range": {
-    "distance_from_high_pct": -1.62,
-    "distance_from_low_pct": 239.79,
-    "high_52w": 151.9,
+    "distance_from_high_pct": -3.07,
+    "distance_from_low_pct": 236.11,
+    "high_52w": 152.5,
     "history_basis": "52_WEEK",
     "low_52w": 43.98,
-    "range_position_pct": 97.72
+    "range_position_pct": 95.69
   },
   "risk_model": {
-    "invalidation_floor": 144.21,
-    "risk_per_share": 8.22,
-    "technical_pivot": 152.43
+    "invalidation_floor": 142.65,
+    "risk_per_share": 8.13,
+    "technical_pivot": 150.78
   },
   "schema_version": "1.0",
   "sector": null,

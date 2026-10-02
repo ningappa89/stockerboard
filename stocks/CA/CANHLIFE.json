@@ -1865,46 +1865,70 @@
       "open": 150.7,
       "time": "2026-09-28",
       "volume": 621483
+    },
+    {
+      "close": 149.62,
+      "high": 152.49,
+      "low": 144.55,
+      "open": 146.55,
+      "time": "2026-09-29",
+      "volume": 1474938
+    },
+    {
+      "close": 148.51,
+      "high": 149.87,
+      "low": 147.15,
+      "open": 149.87,
+      "time": "2026-09-30",
+      "volume": 225185
+    },
+    {
+      "close": 143.85,
+      "high": 148.0,
+      "low": 141.91,
+      "open": 147.9,
+      "time": "2026-10-01",
+      "volume": 451047
     }
   ],
   "company_name": "Canara HSBC Life Insurance Com",
   "history": {
     "first_session": "2025-10-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 233
+    "last_session": "2026-10-01",
+    "sessions_available": 236
   },
   "industry": null,
   "isin": "INE01TY01017",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 72,
+    "is_stage2": false,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.54x"
+    "volume_multiplier": "0.52x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.92,
-    "change_pct": -1.94,
-    "close": 147.78,
-    "previous_close": 150.7,
+    "as_of": "2026-10-01",
+    "change": -4.66,
+    "change_pct": -3.14,
+    "close": 143.85,
+    "previous_close": 148.51,
     "type": "EOD_CLOSE",
-    "volume": 621483
+    "volume": 451047
   },
   "range": {
-    "distance_from_high_pct": -11.34,
-    "distance_from_low_pct": 39.42,
+    "distance_from_high_pct": -13.7,
+    "distance_from_low_pct": 35.71,
     "high_52w": 166.69,
     "history_basis": "52_WEEK",
     "low_52w": 106.0,
-    "range_position_pct": 68.84
+    "range_position_pct": 62.37
   },
   "risk_model": {
-    "invalidation_floor": 142.61,
-    "risk_per_share": 8.13,
-    "technical_pivot": 150.74
+    "invalidation_floor": 138.82,
+    "risk_per_share": 7.91,
+    "technical_pivot": 146.73
   },
   "schema_version": "1.0",
   "sector": null,

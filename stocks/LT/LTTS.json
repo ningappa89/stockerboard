@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 4345.4,
-      "high": 4414.4,
-      "low": 4328.2,
-      "open": 4395.0,
-      "time": "2025-09-19",
-      "volume": 53493
-    },
-    {
-      "close": 4192.2,
-      "high": 4295.8,
-      "low": 4040.0,
-      "open": 4269.9,
-      "time": "2025-09-22",
-      "volume": 113444
-    },
-    {
-      "close": 4190.0,
-      "high": 4220.0,
-      "low": 4165.3,
-      "open": 4212.4,
-      "time": "2025-09-23",
-      "volume": 49064
-    },
-    {
       "close": 4183.1,
       "high": 4218.9,
       "low": 4170.5,
@@ -2017,13 +1993,37 @@
       "open": 3221.0,
       "time": "2026-09-28",
       "volume": 35810
+    },
+    {
+      "close": 3081.6,
+      "high": 3227.3,
+      "low": 3051.8,
+      "open": 3211.6,
+      "time": "2026-09-29",
+      "volume": 114793
+    },
+    {
+      "close": 3228.6,
+      "high": 3254.9,
+      "low": 3100.0,
+      "open": 3100.0,
+      "time": "2026-09-30",
+      "volume": 146167
+    },
+    {
+      "close": 3267.8,
+      "high": 3280.0,
+      "low": 3165.0,
+      "open": 3199.1,
+      "time": "2026-10-01",
+      "volume": 80220
     }
   ],
   "company_name": "L&T TECHNOLOGY SER. LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Information Technology",
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 41,
+    "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.45x"
+    "volume_multiplier": "1.37x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 5.5,
-    "change_pct": 0.17,
-    "close": 3211.6,
-    "previous_close": 3206.1,
+    "as_of": "2026-10-01",
+    "change": 39.2,
+    "change_pct": 1.21,
+    "close": 3267.8,
+    "previous_close": 3228.6,
     "type": "EOD_CLOSE",
-    "volume": 35810
+    "volume": 80220
   },
   "range": {
-    "distance_from_high_pct": -32.04,
-    "distance_from_low_pct": 6.7,
+    "distance_from_high_pct": -30.85,
+    "distance_from_low_pct": 8.56,
     "high_52w": 4726.0,
     "history_basis": "52_WEEK",
     "low_52w": 3010.0,
-    "range_position_pct": 11.75
+    "range_position_pct": 15.02
   },
   "risk_model": {
-    "invalidation_floor": 3099.19,
-    "risk_per_share": 176.64,
-    "technical_pivot": 3275.83
+    "invalidation_floor": 3153.43,
+    "risk_per_share": 179.73,
+    "technical_pivot": 3333.16
   },
   "schema_version": "1.0",
   "sector": "Information Technology",

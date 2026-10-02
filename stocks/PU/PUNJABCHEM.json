@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1298.8,
-      "high": 1331.0,
-      "low": 1263.6,
-      "open": 1278.0,
-      "time": "2025-09-19",
-      "volume": 39176
-    },
-    {
-      "close": 1287.3,
-      "high": 1344.9,
-      "low": 1254.6,
-      "open": 1310.0,
-      "time": "2025-09-22",
-      "volume": 36545
-    },
-    {
-      "close": 1277.8,
-      "high": 1299.8,
-      "low": 1261.2,
-      "open": 1299.8,
-      "time": "2025-09-23",
-      "volume": 11953
-    },
-    {
       "close": 1241.1,
       "high": 1288.0,
       "low": 1229.6,
@@ -2017,13 +1993,37 @@
       "open": 1071.6,
       "time": "2026-09-28",
       "volume": 4987
+    },
+    {
+      "close": 1035.8,
+      "high": 1078.9,
+      "low": 1024.4,
+      "open": 1078.9,
+      "time": "2026-09-29",
+      "volume": 3891
+    },
+    {
+      "close": 1054.5,
+      "high": 1059.8,
+      "low": 1025.9,
+      "open": 1025.9,
+      "time": "2026-09-30",
+      "volume": 2439
+    },
+    {
+      "close": 1040.9,
+      "high": 1053.9,
+      "low": 1009.2,
+      "open": 1044.9,
+      "time": "2026-10-01",
+      "volume": 6287
     }
   ],
   "company_name": "PUNJAB CHEMICALS AND CROP PROT",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 43,
+    "momentum_score": 41,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.15x"
+    "volume_multiplier": "1.43x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -23.0,
-    "change_pct": -2.13,
-    "close": 1054.6,
-    "previous_close": 1077.6,
+    "as_of": "2026-10-01",
+    "change": -13.6,
+    "change_pct": -1.29,
+    "close": 1040.9,
+    "previous_close": 1054.5,
     "type": "EOD_CLOSE",
-    "volume": 4987
+    "volume": 6287
   },
   "range": {
-    "distance_from_high_pct": -31.25,
-    "distance_from_low_pct": 20.31,
+    "distance_from_high_pct": -32.14,
+    "distance_from_low_pct": 18.74,
     "high_52w": 1533.9,
     "history_basis": "52_WEEK",
     "low_52w": 876.6,
-    "range_position_pct": 27.08
+    "range_position_pct": 25.0
   },
   "risk_model": {
-    "invalidation_floor": 1017.69,
-    "risk_per_share": 58.0,
-    "technical_pivot": 1075.69
+    "invalidation_floor": 1004.47,
+    "risk_per_share": 57.25,
+    "technical_pivot": 1061.72
   },
   "schema_version": "1.0",
   "sector": null,

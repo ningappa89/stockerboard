@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1457.3,
-      "high": 1462.0,
-      "low": 1441.6,
-      "open": 1454.3,
-      "time": "2025-09-19",
-      "volume": 233209
-    },
-    {
-      "close": 1453.6,
-      "high": 1472.0,
-      "low": 1445.0,
-      "open": 1455.1,
-      "time": "2025-09-22",
-      "volume": 130157
-    },
-    {
-      "close": 1518.6,
-      "high": 1547.9,
-      "low": 1443.0,
-      "open": 1451.7,
-      "time": "2025-09-23",
-      "volume": 703222
-    },
-    {
       "close": 1580.3,
       "high": 1597.8,
       "low": 1512.0,
@@ -2017,13 +1993,37 @@
       "open": 1367.0,
       "time": "2026-09-28",
       "volume": 106981
+    },
+    {
+      "close": 1308.9,
+      "high": 1349.2,
+      "low": 1296.0,
+      "open": 1349.0,
+      "time": "2026-09-29",
+      "volume": 171551
+    },
+    {
+      "close": 1351.0,
+      "high": 1387.4,
+      "low": 1305.1,
+      "open": 1305.1,
+      "time": "2026-09-30",
+      "volume": 520150
+    },
+    {
+      "close": 1300.9,
+      "high": 1350.0,
+      "low": 1286.0,
+      "open": 1350.0,
+      "time": "2026-10-01",
+      "volume": 226222
     }
   ],
   "company_name": "DEEPAK FERTILISERS & PETROCHEM",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 60,
+    "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.42x"
+    "volume_multiplier": "0.9x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -13.3,
-    "change_pct": -0.98,
-    "close": 1350.5,
-    "previous_close": 1363.8,
+    "as_of": "2026-10-01",
+    "change": -50.1,
+    "change_pct": -3.71,
+    "close": 1300.9,
+    "previous_close": 1351.0,
     "type": "EOD_CLOSE",
-    "volume": 106981
+    "volume": 226222
   },
   "range": {
-    "distance_from_high_pct": -19.66,
-    "distance_from_low_pct": 55.87,
+    "distance_from_high_pct": -22.61,
+    "distance_from_low_pct": 50.15,
     "high_52w": 1681.0,
     "history_basis": "52_WEEK",
     "low_52w": 866.4,
-    "range_position_pct": 59.43
+    "range_position_pct": 53.34
   },
   "risk_model": {
-    "invalidation_floor": 1303.23,
-    "risk_per_share": 74.28,
-    "technical_pivot": 1377.51
+    "invalidation_floor": 1255.37,
+    "risk_per_share": 71.55,
+    "technical_pivot": 1326.92
   },
   "schema_version": "1.0",
   "sector": null,

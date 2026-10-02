@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 37215.0,
-      "high": 37890.0,
-      "low": 37000.0,
-      "open": 37820.0,
-      "time": "2025-09-19",
-      "volume": 3872
-    },
-    {
-      "close": 36930.0,
-      "high": 37635.0,
-      "low": 36860.0,
-      "open": 37450.0,
-      "time": "2025-09-22",
-      "volume": 2584
-    },
-    {
-      "close": 36805.0,
-      "high": 37280.0,
-      "low": 36530.0,
-      "open": 37245.0,
-      "time": "2025-09-23",
-      "volume": 2275
-    },
-    {
       "close": 36570.0,
       "high": 37030.0,
       "low": 36500.0,
@@ -2017,13 +1993,37 @@
       "open": 33830.0,
       "time": "2026-09-28",
       "volume": 2223
+    },
+    {
+      "close": 33980.0,
+      "high": 35470.0,
+      "low": 33505.0,
+      "open": 33660.0,
+      "time": "2026-09-29",
+      "volume": 27480
+    },
+    {
+      "close": 33460.0,
+      "high": 34240.0,
+      "low": 33360.0,
+      "open": 33980.0,
+      "time": "2026-09-30",
+      "volume": 1786
+    },
+    {
+      "close": 33470.0,
+      "high": 33760.0,
+      "low": 33025.0,
+      "open": 33105.0,
+      "time": "2026-10-01",
+      "volume": 8388
     }
   ],
   "company_name": "HONEYWELL AUTOMATION IND",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.63x"
+    "volume_multiplier": "1.85x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -10.0,
-    "change_pct": -0.03,
-    "close": 33855.0,
-    "previous_close": 33865.0,
+    "as_of": "2026-10-01",
+    "change": 10.0,
+    "change_pct": 0.03,
+    "close": 33470.0,
+    "previous_close": 33460.0,
     "type": "EOD_CLOSE",
-    "volume": 2223
+    "volume": 8388
   },
   "range": {
-    "distance_from_high_pct": -18.41,
-    "distance_from_low_pct": 29.12,
+    "distance_from_high_pct": -19.34,
+    "distance_from_low_pct": 27.65,
     "high_52w": 41495.0,
     "history_basis": "52_WEEK",
     "low_52w": 26220.0,
-    "range_position_pct": 49.98
+    "range_position_pct": 47.46
   },
   "risk_model": {
-    "invalidation_floor": 32670.08,
-    "risk_per_share": 1862.02,
-    "technical_pivot": 34532.1
+    "invalidation_floor": 32298.55,
+    "risk_per_share": 1840.85,
+    "technical_pivot": 34139.4
   },
   "schema_version": "1.0",
   "sector": null,

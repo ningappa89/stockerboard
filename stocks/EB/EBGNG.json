@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 377.9,
-      "high": 394.3,
-      "low": 376.5,
-      "open": 387.0,
-      "time": "2025-09-19",
-      "volume": 416588
-    },
-    {
-      "close": 376.35,
-      "high": 386.7,
-      "low": 372.05,
-      "open": 380.7,
-      "time": "2025-09-22",
-      "volume": 396494
-    },
-    {
-      "close": 373.15,
-      "high": 379.95,
-      "low": 367.2,
-      "open": 378.75,
-      "time": "2025-09-23",
-      "volume": 336234
-    },
-    {
       "close": 362.45,
       "high": 372.55,
       "low": 361.0,
@@ -2017,46 +1993,70 @@
       "open": 672.8,
       "time": "2026-09-28",
       "volume": 598831
+    },
+    {
+      "close": 674.8,
+      "high": 690.95,
+      "low": 666.1,
+      "open": 672.05,
+      "time": "2026-09-29",
+      "volume": 544371
+    },
+    {
+      "close": 686.75,
+      "high": 711.45,
+      "low": 684.9,
+      "open": 700.05,
+      "time": "2026-09-30",
+      "volume": 906069
+    },
+    {
+      "close": 704.7,
+      "high": 713.0,
+      "low": 670.0,
+      "open": 686.0,
+      "time": "2026-10-01",
+      "volume": 892168
     }
   ],
   "company_name": "GNG Electronics Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
   "isin": "INE18JU01028",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": false,
+    "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 78,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.63x"
+    "momentum_score": 84,
+    "setup_type": "Minervini VCP",
+    "volume_multiplier": "1.0x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 3.15,
-    "change_pct": 0.47,
-    "close": 672.15,
-    "previous_close": 669.0,
+    "as_of": "2026-10-01",
+    "change": 17.95,
+    "change_pct": 2.61,
+    "close": 704.7,
+    "previous_close": 686.75,
     "type": "EOD_CLOSE",
-    "volume": 598831
+    "volume": 892168
   },
   "range": {
-    "distance_from_high_pct": -7.92,
-    "distance_from_low_pct": 181.23,
+    "distance_from_high_pct": -3.47,
+    "distance_from_low_pct": 194.85,
     "high_52w": 730.0,
     "history_basis": "52_WEEK",
     "low_52w": 239.0,
-    "range_position_pct": 88.22
+    "range_position_pct": 94.85
   },
   "risk_model": {
-    "invalidation_floor": 648.62,
-    "risk_per_share": 36.97,
-    "technical_pivot": 685.59
+    "invalidation_floor": 680.04,
+    "risk_per_share": 38.75,
+    "technical_pivot": 718.79
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 46.77,
-      "high": 47.26,
-      "low": 45.84,
-      "open": 46.39,
-      "time": "2025-09-19",
-      "volume": 133668
-    },
-    {
-      "close": 47.01,
-      "high": 47.71,
-      "low": 46.81,
-      "open": 47.71,
-      "time": "2025-09-22",
-      "volume": 65094
-    },
-    {
-      "close": 44.84,
-      "high": 47.71,
-      "low": 44.53,
-      "open": 47.6,
-      "time": "2025-09-23",
-      "volume": 227257
-    },
-    {
       "close": 44.96,
       "high": 45.95,
       "low": 44.82,
@@ -2017,13 +1993,37 @@
       "open": 23.27,
       "time": "2026-09-28",
       "volume": 48102
+    },
+    {
+      "close": 23.02,
+      "high": 23.45,
+      "low": 22.05,
+      "open": 22.39,
+      "time": "2026-09-29",
+      "volume": 18116
+    },
+    {
+      "close": 22.78,
+      "high": 23.4,
+      "low": 22.55,
+      "open": 23.4,
+      "time": "2026-09-30",
+      "volume": 11994
+    },
+    {
+      "close": 22.34,
+      "high": 23.19,
+      "low": 22.2,
+      "open": 23.19,
+      "time": "2026-10-01",
+      "volume": 20508
     }
   ],
   "company_name": "BALAXI PHARMA LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.8x"
+    "volume_multiplier": "0.45x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.43,
-    "change_pct": -1.88,
-    "close": 22.39,
-    "previous_close": 22.82,
+    "as_of": "2026-10-01",
+    "change": -0.44,
+    "change_pct": -1.93,
+    "close": 22.34,
+    "previous_close": 22.78,
     "type": "EOD_CLOSE",
-    "volume": 48102
+    "volume": 20508
   },
   "range": {
-    "distance_from_high_pct": -53.07,
-    "distance_from_low_pct": 47.3,
-    "high_52w": 47.71,
+    "distance_from_high_pct": -51.38,
+    "distance_from_low_pct": 46.97,
+    "high_52w": 45.95,
     "history_basis": "52_WEEK",
     "low_52w": 15.2,
-    "range_position_pct": 22.12
+    "range_position_pct": 23.22
   },
   "risk_model": {
-    "invalidation_floor": 21.61,
+    "invalidation_floor": 21.56,
     "risk_per_share": 1.23,
-    "technical_pivot": 22.84
+    "technical_pivot": 22.79
   },
   "schema_version": "1.0",
   "sector": null,

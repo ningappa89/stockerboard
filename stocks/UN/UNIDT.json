@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 203.27,
-      "high": 204.2,
-      "low": 201.64,
-      "open": 204.2,
-      "time": "2025-09-19",
-      "volume": 3967
-    },
-    {
-      "close": 205.19,
-      "high": 207.99,
-      "low": 201.71,
-      "open": 205.8,
-      "time": "2025-09-22",
-      "volume": 10298
-    },
-    {
-      "close": 202.83,
-      "high": 205.5,
-      "low": 202.6,
-      "open": 205.5,
-      "time": "2025-09-23",
-      "volume": 4644
-    },
-    {
       "close": 202.15,
       "high": 204.8,
       "low": 201.3,
@@ -2017,13 +1993,37 @@
       "open": 247.4,
       "time": "2026-09-28",
       "volume": 45792
+    },
+    {
+      "close": 229.83,
+      "high": 234.59,
+      "low": 222.68,
+      "open": 229.31,
+      "time": "2026-09-29",
+      "volume": 29891
+    },
+    {
+      "close": 222.06,
+      "high": 236.0,
+      "low": 220.5,
+      "open": 231.0,
+      "time": "2026-09-30",
+      "volume": 43999
+    },
+    {
+      "close": 239.65,
+      "high": 257.8,
+      "low": 211.2,
+      "open": 225.0,
+      "time": "2026-10-01",
+      "volume": 130454
     }
   ],
   "company_name": "UNITED DRILLING TOOLS LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 66,
+    "is_stage2": true,
+    "momentum_score": 72,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "1.51x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -12.4,
-    "change_pct": -5.13,
-    "close": 229.31,
-    "previous_close": 241.71,
+    "as_of": "2026-10-01",
+    "change": 17.59,
+    "change_pct": 7.92,
+    "close": 239.65,
+    "previous_close": 222.06,
     "type": "EOD_CLOSE",
-    "volume": 45792
+    "volume": 130454
   },
   "range": {
-    "distance_from_high_pct": -15.69,
-    "distance_from_low_pct": 57.06,
+    "distance_from_high_pct": -11.89,
+    "distance_from_low_pct": 64.14,
     "high_52w": 272.0,
     "history_basis": "52_WEEK",
     "low_52w": 146.0,
-    "range_position_pct": 66.12
+    "range_position_pct": 74.33
   },
   "risk_model": {
-    "invalidation_floor": 221.28,
-    "risk_per_share": 12.62,
-    "technical_pivot": 233.9
+    "invalidation_floor": 231.26,
+    "risk_per_share": 13.18,
+    "technical_pivot": 244.44
   },
   "schema_version": "1.0",
   "sector": null,

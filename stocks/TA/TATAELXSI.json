@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 5722.5,
-      "high": 5753.0,
-      "low": 5690.0,
-      "open": 5735.0,
-      "time": "2025-09-19",
-      "volume": 155191
-    },
-    {
-      "close": 5607.0,
-      "high": 5699.5,
-      "low": 5565.0,
-      "open": 5699.5,
-      "time": "2025-09-22",
-      "volume": 188343
-    },
-    {
-      "close": 5555.5,
-      "high": 5640.0,
-      "low": 5501.0,
-      "open": 5595.0,
-      "time": "2025-09-23",
-      "volume": 136231
-    },
-    {
       "close": 5504.5,
       "high": 5581.0,
       "low": 5492.0,
@@ -2017,13 +1993,37 @@
       "open": 3190.0,
       "time": "2026-09-28",
       "volume": 162425
+    },
+    {
+      "close": 3211.7,
+      "high": 3211.7,
+      "low": 3106.1,
+      "open": 3190.0,
+      "time": "2026-09-29",
+      "volume": 522063
+    },
+    {
+      "close": 3088.9,
+      "high": 3203.0,
+      "low": 3085.0,
+      "open": 3150.0,
+      "time": "2026-09-30",
+      "volume": 356864
+    },
+    {
+      "close": 3092.8,
+      "high": 3164.4,
+      "low": 3046.2,
+      "open": 3099.9,
+      "time": "2026-10-01",
+      "volume": 333513
     }
   ],
   "company_name": "TATA ELXSI LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Information Technology",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.77x"
+    "volume_multiplier": "1.35x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 4.1,
+    "as_of": "2026-10-01",
+    "change": 3.9,
     "change_pct": 0.13,
-    "close": 3191.0,
-    "previous_close": 3186.9,
+    "close": 3092.8,
+    "previous_close": 3088.9,
     "type": "EOD_CLOSE",
-    "volume": 162425
+    "volume": 333513
   },
   "range": {
-    "distance_from_high_pct": -46.37,
-    "distance_from_low_pct": 1.49,
+    "distance_from_high_pct": -48.02,
+    "distance_from_low_pct": 1.53,
     "high_52w": 5950.0,
     "history_basis": "52_WEEK",
-    "low_52w": 3144.0,
-    "range_position_pct": 1.67
+    "low_52w": 3046.2,
+    "range_position_pct": 1.6
   },
   "risk_model": {
-    "invalidation_floor": 3079.32,
-    "risk_per_share": 175.5,
-    "technical_pivot": 3254.82
+    "invalidation_floor": 2984.55,
+    "risk_per_share": 170.11,
+    "technical_pivot": 3154.66
   },
   "schema_version": "1.0",
   "sector": "Information Technology",

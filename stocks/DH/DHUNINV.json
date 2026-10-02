@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1434.3,
-      "high": 1462.1,
-      "low": 1430.1,
-      "open": 1462.1,
-      "time": "2025-09-19",
-      "volume": 476
-    },
-    {
-      "close": 1420.3,
-      "high": 1438.9,
-      "low": 1418.0,
-      "open": 1438.9,
-      "time": "2025-09-22",
-      "volume": 848
-    },
-    {
-      "close": 1409.1,
-      "high": 1442.2,
-      "low": 1400.0,
-      "open": 1431.2,
-      "time": "2025-09-23",
-      "volume": 803
-    },
-    {
       "close": 1424.5,
       "high": 1459.9,
       "low": 1412.0,
@@ -2017,13 +1993,37 @@
       "open": 981.0,
       "time": "2026-09-28",
       "volume": 291
+    },
+    {
+      "close": 972.35,
+      "high": 991.0,
+      "low": 951.0,
+      "open": 970.0,
+      "time": "2026-09-29",
+      "volume": 256
+    },
+    {
+      "close": 955.65,
+      "high": 991.0,
+      "low": 950.0,
+      "open": 989.7,
+      "time": "2026-09-30",
+      "volume": 621
+    },
+    {
+      "close": 967.3,
+      "high": 979.8,
+      "low": 950.0,
+      "open": 979.8,
+      "time": "2026-10-01",
+      "volume": 244
     }
   ],
   "company_name": "DHUNSERI INVESTMENTS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.42x"
+    "volume_multiplier": "0.5x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -14.3,
-    "change_pct": -1.46,
-    "close": 968.5,
-    "previous_close": 982.8,
+    "as_of": "2026-10-01",
+    "change": 11.65,
+    "change_pct": 1.22,
+    "close": 967.3,
+    "previous_close": 955.65,
     "type": "EOD_CLOSE",
-    "volume": 291
+    "volume": 244
   },
   "range": {
-    "distance_from_high_pct": -38.43,
-    "distance_from_low_pct": 45.18,
+    "distance_from_high_pct": -38.51,
+    "distance_from_low_pct": 45.0,
     "high_52w": 1573.1,
     "history_basis": "52_WEEK",
     "low_52w": 667.1,
-    "range_position_pct": 33.27
+    "range_position_pct": 33.13
   },
   "risk_model": {
-    "invalidation_floor": 934.6,
-    "risk_per_share": 53.27,
-    "technical_pivot": 987.87
+    "invalidation_floor": 933.44,
+    "risk_per_share": 53.21,
+    "technical_pivot": 986.65
   },
   "schema_version": "1.0",
   "sector": null,

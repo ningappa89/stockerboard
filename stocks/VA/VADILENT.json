@@ -225,14 +225,38 @@
       "open": 10280.0,
       "time": "2026-09-28",
       "volume": 18
+    },
+    {
+      "close": 10200.0,
+      "high": 10200.0,
+      "low": 10200.0,
+      "open": 10200.0,
+      "time": "2026-09-29",
+      "volume": 2
+    },
+    {
+      "close": 10151.0,
+      "high": 10200.0,
+      "low": 10151.0,
+      "open": 10200.0,
+      "time": "2026-09-30",
+      "volume": 5
+    },
+    {
+      "close": 9910.0,
+      "high": 10050.0,
+      "low": 9910.0,
+      "open": 10050.0,
+      "time": "2026-10-01",
+      "volume": 86
     }
   ],
   "company_name": "VADILAL ENTERPRISES LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 28
+    "last_session": "2026-10-01",
+    "sessions_available": 31
   },
   "industry": null,
   "isin": "INE693D01018",
@@ -240,31 +264,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 61,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.39x"
+    "momentum_score": 57,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.14x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -64.0,
-    "change_pct": -0.62,
-    "close": 10201.0,
-    "previous_close": 10265.0,
+    "as_of": "2026-10-01",
+    "change": -241.0,
+    "change_pct": -2.37,
+    "close": 9910.0,
+    "previous_close": 10151.0,
     "type": "EOD_CLOSE",
-    "volume": 18
+    "volume": 86
   },
   "range": {
-    "distance_from_high_pct": -19.03,
-    "distance_from_low_pct": 8.51,
+    "distance_from_high_pct": -21.34,
+    "distance_from_low_pct": 5.41,
     "high_52w": 12598.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 9401.0,
-    "range_position_pct": 25.02
+    "range_position_pct": 15.92
   },
   "risk_model": {
-    "invalidation_floor": 9843.97,
-    "risk_per_share": 561.05,
-    "technical_pivot": 10405.02
+    "invalidation_floor": 9563.15,
+    "risk_per_share": 545.05,
+    "technical_pivot": 10108.2
   },
   "schema_version": "1.0",
   "sector": null,

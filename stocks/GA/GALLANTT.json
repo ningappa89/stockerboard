@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 661.5,
-      "high": 669.25,
-      "low": 659.4,
-      "open": 662.0,
-      "time": "2025-09-19",
-      "volume": 95839
-    },
-    {
-      "close": 671.2,
-      "high": 699.0,
-      "low": 648.85,
-      "open": 661.5,
-      "time": "2025-09-22",
-      "volume": 421676
-    },
-    {
-      "close": 664.3,
-      "high": 673.85,
-      "low": 658.2,
-      "open": 671.0,
-      "time": "2025-09-23",
-      "volume": 134206
-    },
-    {
       "close": 663.7,
       "high": 688.45,
       "low": 661.05,
@@ -2017,13 +1993,37 @@
       "open": 539.1,
       "time": "2026-09-28",
       "volume": 33004
+    },
+    {
+      "close": 539.1,
+      "high": 547.0,
+      "low": 527.55,
+      "open": 540.9,
+      "time": "2026-09-29",
+      "volume": 53198
+    },
+    {
+      "close": 537.5,
+      "high": 551.0,
+      "low": 535.2,
+      "open": 551.0,
+      "time": "2026-09-30",
+      "volume": 51095
+    },
+    {
+      "close": 530.15,
+      "high": 538.45,
+      "low": 522.15,
+      "open": 536.9,
+      "time": "2026-10-01",
+      "volume": 48279
     }
   ],
   "company_name": "GALLANTT ISPAT LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.34x"
+    "volume_multiplier": "0.5x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -8.55,
-    "change_pct": -1.57,
-    "close": 536.55,
-    "previous_close": 545.1,
+    "as_of": "2026-10-01",
+    "change": -7.35,
+    "change_pct": -1.37,
+    "close": 530.15,
+    "previous_close": 537.5,
     "type": "EOD_CLOSE",
-    "volume": 33004
+    "volume": 48279
   },
   "range": {
-    "distance_from_high_pct": -43.4,
-    "distance_from_low_pct": 8.12,
+    "distance_from_high_pct": -44.08,
+    "distance_from_low_pct": 6.83,
     "high_52w": 948.0,
     "history_basis": "52_WEEK",
     "low_52w": 496.25,
-    "range_position_pct": 8.92
+    "range_position_pct": 7.5
   },
   "risk_model": {
-    "invalidation_floor": 517.77,
-    "risk_per_share": 29.51,
-    "technical_pivot": 547.28
+    "invalidation_floor": 511.59,
+    "risk_per_share": 29.16,
+    "technical_pivot": 540.75
   },
   "schema_version": "1.0",
   "sector": null,

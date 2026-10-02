@@ -1289,14 +1289,38 @@
       "open": 15.93,
       "time": "2026-09-28",
       "volume": 6856447
+    },
+    {
+      "close": 15.36,
+      "high": 15.6,
+      "low": 14.96,
+      "open": 15.4,
+      "time": "2026-09-29",
+      "volume": 11575582
+    },
+    {
+      "close": 15.12,
+      "high": 15.52,
+      "low": 15.08,
+      "open": 15.31,
+      "time": "2026-09-30",
+      "volume": 7376759
+    },
+    {
+      "close": 15.28,
+      "high": 15.37,
+      "low": 14.94,
+      "open": 15.0,
+      "time": "2026-10-01",
+      "volume": 13286633
     }
   ],
   "company_name": "AVENUESAI LIMITED",
   "history": {
     "first_session": "2026-02-03",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 161
+    "last_session": "2026-10-01",
+    "sessions_available": 164
   },
   "industry": null,
   "isin": "INE483S01020",
@@ -1304,31 +1328,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
+    "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.43x"
+    "volume_multiplier": "0.85x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.48,
-    "change_pct": -3.02,
-    "close": 15.41,
-    "previous_close": 15.89,
+    "as_of": "2026-10-01",
+    "change": 0.16,
+    "change_pct": 1.06,
+    "close": 15.28,
+    "previous_close": 15.12,
     "type": "EOD_CLOSE",
-    "volume": 6856447
+    "volume": 13286633
   },
   "range": {
-    "distance_from_high_pct": -20.69,
-    "distance_from_low_pct": 19.27,
+    "distance_from_high_pct": -21.36,
+    "distance_from_low_pct": 18.27,
     "high_52w": 19.43,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 12.92,
-    "range_position_pct": 38.25
+    "range_position_pct": 36.25
   },
   "risk_model": {
-    "invalidation_floor": 14.87,
-    "risk_per_share": 0.85,
-    "technical_pivot": 15.72
+    "invalidation_floor": 14.75,
+    "risk_per_share": 0.84,
+    "technical_pivot": 15.59
   },
   "schema_version": "1.0",
   "sector": null,

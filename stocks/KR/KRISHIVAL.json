@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 470.6,
-      "high": 471.0,
-      "low": 470.0,
-      "open": 470.9,
-      "time": "2025-09-19",
-      "volume": 9385
-    },
-    {
-      "close": 468.35,
-      "high": 470.6,
-      "low": 468.35,
-      "open": 470.6,
-      "time": "2025-09-22",
-      "volume": 9997
-    },
-    {
-      "close": 466.3,
-      "high": 468.0,
-      "low": 466.3,
-      "open": 468.0,
-      "time": "2025-09-23",
-      "volume": 9623
-    },
-    {
       "close": 460.0,
       "high": 464.0,
       "low": 459.0,
@@ -2017,13 +1993,37 @@
       "open": 415.0,
       "time": "2026-09-28",
       "volume": 211393
+    },
+    {
+      "close": 403.95,
+      "high": 415.0,
+      "low": 400.25,
+      "open": 414.0,
+      "time": "2026-09-29",
+      "volume": 18076
+    },
+    {
+      "close": 401.85,
+      "high": 415.25,
+      "low": 400.25,
+      "open": 414.0,
+      "time": "2026-09-30",
+      "volume": 15013
+    },
+    {
+      "close": 394.5,
+      "high": 407.0,
+      "low": 392.0,
+      "open": 405.0,
+      "time": "2026-10-01",
+      "volume": 10666
     }
   ],
   "company_name": "KRISHIVAL FOODS LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "8.36x"
+    "momentum_score": 56,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.41x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 0.25,
-    "change_pct": 0.06,
-    "close": 413.65,
-    "previous_close": 413.4,
+    "as_of": "2026-10-01",
+    "change": -7.35,
+    "change_pct": -1.83,
+    "close": 394.5,
+    "previous_close": 401.85,
     "type": "EOD_CLOSE",
-    "volume": 211393
+    "volume": 10666
   },
   "range": {
-    "distance_from_high_pct": -18.57,
-    "distance_from_low_pct": 46.53,
+    "distance_from_high_pct": -22.34,
+    "distance_from_low_pct": 39.74,
     "high_52w": 508.0,
     "history_basis": "52_WEEK",
     "low_52w": 282.3,
-    "range_position_pct": 58.2
+    "range_position_pct": 49.71
   },
   "risk_model": {
-    "invalidation_floor": 399.17,
-    "risk_per_share": 22.75,
-    "technical_pivot": 421.92
+    "invalidation_floor": 380.69,
+    "risk_per_share": 21.7,
+    "technical_pivot": 402.39
   },
   "schema_version": "1.0",
   "sector": null,

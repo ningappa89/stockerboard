@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2.53,
-      "high": 2.58,
-      "low": 2.51,
-      "open": 2.52,
-      "time": "2025-09-19",
-      "volume": 60364
-    },
-    {
-      "close": 2.46,
-      "high": 2.57,
-      "low": 2.4,
-      "open": 2.55,
-      "time": "2025-09-22",
-      "volume": 184700
-    },
-    {
-      "close": 2.47,
-      "high": 2.56,
-      "low": 2.46,
-      "open": 2.49,
-      "time": "2025-09-23",
-      "volume": 115292
-    },
-    {
       "close": 2.46,
       "high": 2.5,
       "low": 2.41,
@@ -2017,13 +1993,37 @@
       "open": 2.1,
       "time": "2026-09-28",
       "volume": 139046
+    },
+    {
+      "close": 2.07,
+      "high": 2.09,
+      "low": 2.03,
+      "open": 2.03,
+      "time": "2026-09-29",
+      "volume": 106545
+    },
+    {
+      "close": 2.07,
+      "high": 2.12,
+      "low": 2.04,
+      "open": 2.09,
+      "time": "2026-09-30",
+      "volume": 45657
+    },
+    {
+      "close": 2.02,
+      "high": 2.08,
+      "low": 2.0,
+      "open": 2.05,
+      "time": "2026-10-01",
+      "volume": 42137
     }
   ],
   "company_name": "PARAS PETROFILS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.11x"
+    "volume_multiplier": "0.4x"
   },
   "price": {
-    "as_of": "2026-09-28",
+    "as_of": "2026-10-01",
     "change": -0.05,
-    "change_pct": -2.4,
-    "close": 2.03,
-    "previous_close": 2.08,
+    "change_pct": -2.42,
+    "close": 2.02,
+    "previous_close": 2.07,
     "type": "EOD_CLOSE",
-    "volume": 139046
+    "volume": 42137
   },
   "range": {
-    "distance_from_high_pct": -37.15,
-    "distance_from_low_pct": 32.68,
+    "distance_from_high_pct": -37.46,
+    "distance_from_low_pct": 32.03,
     "high_52w": 3.23,
     "history_basis": "52_WEEK",
     "low_52w": 1.53,
-    "range_position_pct": 29.41
+    "range_position_pct": 28.82
   },
   "risk_model": {
-    "invalidation_floor": 1.96,
+    "invalidation_floor": 1.95,
     "risk_per_share": 0.5,
-    "technical_pivot": 2.07
+    "technical_pivot": 2.06
   },
   "schema_version": "1.0",
   "sector": null,

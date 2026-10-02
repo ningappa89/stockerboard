@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 777.7,
-      "high": 790.25,
-      "low": 772.95,
-      "open": 784.8,
-      "time": "2025-09-19",
-      "volume": 4131716
-    },
-    {
-      "close": 773.75,
-      "high": 787.5,
-      "low": 771.0,
-      "open": 777.7,
-      "time": "2025-09-22",
-      "volume": 1647107
-    },
-    {
-      "close": 759.4,
-      "high": 775.7,
-      "low": 756.1,
-      "open": 774.05,
-      "time": "2025-09-23",
-      "volume": 3258299
-    },
-    {
       "close": 733.65,
       "high": 761.2,
       "low": 731.0,
@@ -2017,13 +1993,37 @@
       "open": 680.0,
       "time": "2026-09-28",
       "volume": 2765032
+    },
+    {
+      "close": 653.0,
+      "high": 675.0,
+      "low": 653.0,
+      "open": 660.5,
+      "time": "2026-09-29",
+      "volume": 4736174
+    },
+    {
+      "close": 674.0,
+      "high": 674.0,
+      "low": 653.0,
+      "open": 665.05,
+      "time": "2026-09-30",
+      "volume": 5830044
+    },
+    {
+      "close": 658.4,
+      "high": 671.1,
+      "low": 650.55,
+      "open": 664.5,
+      "time": "2026-10-01",
+      "volume": 6264045
     }
   ],
   "company_name": "DLF LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": "Realty",
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.72x"
+    "volume_multiplier": "1.5x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -19.45,
-    "change_pct": -2.85,
-    "close": 663.55,
-    "previous_close": 683.0,
+    "as_of": "2026-10-01",
+    "change": -15.6,
+    "change_pct": -2.31,
+    "close": 658.4,
+    "previous_close": 674.0,
     "type": "EOD_CLOSE",
-    "volume": 2765032
+    "volume": 6264045
   },
   "range": {
-    "distance_from_high_pct": -16.03,
-    "distance_from_low_pct": 35.58,
-    "high_52w": 790.25,
+    "distance_from_high_pct": -16.29,
+    "distance_from_low_pct": 34.53,
+    "high_52w": 786.5,
     "history_basis": "52_WEEK",
     "low_52w": 489.4,
-    "range_position_pct": 57.89
+    "range_position_pct": 56.88
   },
   "risk_model": {
-    "invalidation_floor": 640.33,
-    "risk_per_share": 36.49,
-    "technical_pivot": 676.82
+    "invalidation_floor": 635.36,
+    "risk_per_share": 36.21,
+    "technical_pivot": 671.57
   },
   "schema_version": "1.0",
   "sector": "Realty",

@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 237.17,
-      "high": 241.35,
-      "low": 233.71,
-      "open": 233.94,
-      "time": "2025-09-19",
-      "volume": 14496280
-    },
-    {
-      "close": 239.6,
-      "high": 242.43,
-      "low": 236.41,
-      "open": 237.09,
-      "time": "2025-09-22",
-      "volume": 7227055
-    },
-    {
-      "close": 238.73,
-      "high": 240.83,
-      "low": 236.6,
-      "open": 239.6,
-      "time": "2025-09-23",
-      "volume": 6141305
-    },
-    {
       "close": 236.01,
       "high": 239.17,
       "low": 234.74,
@@ -2017,13 +1993,37 @@
       "open": 416.85,
       "time": "2026-09-28",
       "volume": 7754932
+    },
+    {
+      "close": 413.35,
+      "high": 414.9,
+      "low": 402.6,
+      "open": 410.3,
+      "time": "2026-09-29",
+      "volume": 6607415
+    },
+    {
+      "close": 415.5,
+      "high": 421.8,
+      "low": 411.7,
+      "open": 415.1,
+      "time": "2026-09-30",
+      "volume": 8153812
+    },
+    {
+      "close": 421.0,
+      "high": 428.15,
+      "low": 411.35,
+      "open": 413.75,
+      "time": "2026-10-01",
+      "volume": 12669050
     }
   ],
   "company_name": "BHARAT HEAVY ELECTRICALS LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 78,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.22x"
+    "momentum_score": 81,
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "1.91x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -7.05,
-    "change_pct": -1.68,
-    "close": 411.9,
-    "previous_close": 418.95,
+    "as_of": "2026-10-01",
+    "change": 5.5,
+    "change_pct": 1.32,
+    "close": 421.0,
+    "previous_close": 415.5,
     "type": "EOD_CLOSE",
-    "volume": 7754932
+    "volume": 12669050
   },
   "range": {
-    "distance_from_high_pct": -7.75,
-    "distance_from_low_pct": 79.45,
+    "distance_from_high_pct": -5.71,
+    "distance_from_low_pct": 83.41,
     "high_52w": 446.5,
     "history_basis": "52_WEEK",
     "low_52w": 229.54,
-    "range_position_pct": 84.05
+    "range_position_pct": 88.25
   },
   "risk_model": {
-    "invalidation_floor": 397.48,
-    "risk_per_share": 22.66,
-    "technical_pivot": 420.14
+    "invalidation_floor": 406.26,
+    "risk_per_share": 23.16,
+    "technical_pivot": 429.42
   },
   "schema_version": "1.0",
   "sector": null,

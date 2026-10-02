@@ -3,52 +3,148 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
+      "close": 132.0,
+      "high": 165.1,
+      "low": 132.0,
+      "open": 165.0,
+      "time": "2026-09-15",
+      "volume": 41828214
+    },
+    {
+      "close": 106.81,
+      "high": 123.7,
+      "low": 105.6,
+      "open": 121.0,
+      "time": "2026-09-16",
+      "volume": 19882781
+    },
+    {
+      "close": 111.16,
+      "high": 117.0,
+      "low": 109.0,
+      "open": 110.0,
+      "time": "2026-09-17",
+      "volume": 13666426
+    },
+    {
+      "close": 107.55,
+      "high": 111.59,
+      "low": 106.08,
+      "open": 110.51,
+      "time": "2026-09-18",
+      "volume": 5313844
+    },
+    {
+      "close": 105.25,
+      "high": 109.48,
+      "low": 104.05,
+      "open": 107.98,
+      "time": "2026-09-21",
+      "volume": 4031316
+    },
+    {
+      "close": 102.87,
+      "high": 106.07,
+      "low": 101.89,
+      "open": 105.98,
+      "time": "2026-09-22",
+      "volume": 2894567
+    },
+    {
+      "close": 105.85,
+      "high": 109.39,
+      "low": 103.13,
+      "open": 104.0,
+      "time": "2026-09-23",
+      "volume": 5998749
+    },
+    {
+      "close": 100.19,
+      "high": 105.0,
+      "low": 99.55,
+      "open": 104.0,
+      "time": "2026-09-24",
+      "volume": 2925323
+    },
+    {
+      "close": 100.64,
+      "high": 102.49,
+      "low": 98.36,
+      "open": 100.0,
+      "time": "2026-09-25",
+      "volume": 2484193
+    },
+    {
       "close": 101.39,
       "high": 103.4,
       "low": 96.49,
       "open": 100.5,
       "time": "2026-09-28",
       "volume": 4417062
+    },
+    {
+      "close": 100.18,
+      "high": 102.38,
+      "low": 98.78,
+      "open": 101.39,
+      "time": "2026-09-29",
+      "volume": 1894008
+    },
+    {
+      "close": 100.1,
+      "high": 103.15,
+      "low": 97.25,
+      "open": 101.5,
+      "time": "2026-09-30",
+      "volume": 2087332
+    },
+    {
+      "close": 97.21,
+      "high": 100.24,
+      "low": 96.21,
+      "open": 99.3,
+      "time": "2026-10-01",
+      "volume": 1294606
     }
   ],
   "company_name": "Pranav Constructions Limited",
   "history": {
-    "first_session": "2026-09-28",
+    "first_session": "2026-09-15",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 1
+    "last_session": "2026-10-01",
+    "sessions_available": 13
   },
   "industry": null,
   "isin": "INE0H4201019",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
-    "is_stage2": true,
-    "momentum_score": 87,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "1.0x"
+    "is_coiled": false,
+    "is_stage2": false,
+    "momentum_score": 40,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.15x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": null,
-    "change_pct": null,
-    "close": 101.39,
-    "previous_close": null,
+    "as_of": "2026-10-01",
+    "change": -2.89,
+    "change_pct": -2.89,
+    "close": 97.21,
+    "previous_close": 100.1,
     "type": "EOD_CLOSE",
-    "volume": 4417062
+    "volume": 1294606
   },
   "range": {
-    "distance_from_high_pct": -1.94,
-    "distance_from_low_pct": 5.08,
-    "high_52w": 103.4,
+    "distance_from_high_pct": -41.12,
+    "distance_from_low_pct": 1.04,
+    "high_52w": 165.1,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 96.49,
-    "range_position_pct": 70.91
+    "low_52w": 96.21,
+    "range_position_pct": 1.45
   },
   "risk_model": {
-    "invalidation_floor": 97.84,
-    "risk_per_share": 5.58,
-    "technical_pivot": 103.42
+    "invalidation_floor": 93.81,
+    "risk_per_share": 5.34,
+    "technical_pivot": 99.15
   },
   "schema_version": "1.0",
   "sector": null,

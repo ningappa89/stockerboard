@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 13.01,
-      "high": 13.79,
-      "low": 12.76,
-      "open": 13.28,
-      "time": "2025-09-19",
-      "volume": 27070
-    },
-    {
-      "close": 12.72,
-      "high": 13.44,
-      "low": 12.5,
-      "open": 12.5,
-      "time": "2025-09-22",
-      "volume": 36924
-    },
-    {
-      "close": 12.64,
-      "high": 13.17,
-      "low": 12.47,
-      "open": 12.5,
-      "time": "2025-09-23",
-      "volume": 35863
-    },
-    {
       "close": 12.16,
       "high": 12.64,
       "low": 12.02,
@@ -2017,13 +1993,37 @@
       "open": 9.99,
       "time": "2026-09-28",
       "volume": 172414
+    },
+    {
+      "close": 14.26,
+      "high": 14.26,
+      "low": 13.11,
+      "open": 13.5,
+      "time": "2026-09-29",
+      "volume": 510371
+    },
+    {
+      "close": 12.84,
+      "high": 13.2,
+      "low": 12.84,
+      "open": 13.11,
+      "time": "2026-09-30",
+      "volume": 217122
+    },
+    {
+      "close": 11.56,
+      "high": 11.56,
+      "low": 11.56,
+      "open": 11.56,
+      "time": "2026-10-01",
+      "volume": 37038
     }
   ],
   "company_name": "TAMILNADU TELECOMMUNICATI",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 53,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "4.7x"
+    "momentum_score": 50,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.52x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 1.98,
-    "change_pct": 19.98,
-    "close": 11.89,
-    "previous_close": 9.91,
+    "as_of": "2026-10-01",
+    "change": -1.28,
+    "change_pct": -9.97,
+    "close": 11.56,
+    "previous_close": 12.84,
     "type": "EOD_CLOSE",
-    "volume": 172414
+    "volume": 37038
   },
   "range": {
-    "distance_from_high_pct": -24.46,
-    "distance_from_low_pct": 52.24,
+    "distance_from_high_pct": -26.56,
+    "distance_from_low_pct": 48.02,
     "high_52w": 15.74,
     "history_basis": "52_WEEK",
     "low_52w": 7.81,
-    "range_position_pct": 51.45
+    "range_position_pct": 47.29
   },
   "risk_model": {
-    "invalidation_floor": 11.47,
-    "risk_per_share": 0.66,
-    "technical_pivot": 12.13
+    "invalidation_floor": 11.16,
+    "risk_per_share": 0.63,
+    "technical_pivot": 11.79
   },
   "schema_version": "1.0",
   "sector": null,

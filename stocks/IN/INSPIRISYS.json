@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 94.99,
-      "high": 97.32,
-      "low": 94.0,
-      "open": 97.32,
-      "time": "2025-09-19",
-      "volume": 14220
-    },
-    {
-      "close": 95.9,
-      "high": 96.74,
-      "low": 94.0,
-      "open": 95.0,
-      "time": "2025-09-22",
-      "volume": 4113
-    },
-    {
-      "close": 93.73,
-      "high": 96.23,
-      "low": 93.0,
-      "open": 95.9,
-      "time": "2025-09-23",
-      "volume": 4435
-    },
-    {
       "close": 91.85,
       "high": 95.9,
       "low": 91.0,
@@ -2017,13 +1993,37 @@
       "open": 92.0,
       "time": "2026-09-28",
       "volume": 12501
+    },
+    {
+      "close": 85.92,
+      "high": 87.99,
+      "low": 84.51,
+      "open": 85.49,
+      "time": "2026-09-29",
+      "volume": 5984
+    },
+    {
+      "close": 87.16,
+      "high": 90.0,
+      "low": 84.22,
+      "open": 84.22,
+      "time": "2026-09-30",
+      "volume": 5963
+    },
+    {
+      "close": 83.83,
+      "high": 87.98,
+      "low": 83.0,
+      "open": 87.0,
+      "time": "2026-10-01",
+      "volume": 5889
     }
   ],
   "company_name": "INSPIRISYS SOLUTIONS LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.38x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.13x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -3.49,
-    "change_pct": -3.94,
-    "close": 84.99,
-    "previous_close": 88.48,
+    "as_of": "2026-10-01",
+    "change": -3.33,
+    "change_pct": -3.82,
+    "close": 83.83,
+    "previous_close": 87.16,
     "type": "EOD_CLOSE",
-    "volume": 12501
+    "volume": 5889
   },
   "range": {
-    "distance_from_high_pct": -36.53,
-    "distance_from_low_pct": 21.55,
+    "distance_from_high_pct": -37.39,
+    "distance_from_low_pct": 19.89,
     "high_52w": 133.9,
     "history_basis": "52_WEEK",
     "low_52w": 69.92,
-    "range_position_pct": 23.55
+    "range_position_pct": 21.74
   },
   "risk_model": {
-    "invalidation_floor": 82.02,
-    "risk_per_share": 4.67,
-    "technical_pivot": 86.69
+    "invalidation_floor": 80.9,
+    "risk_per_share": 4.61,
+    "technical_pivot": 85.51
   },
   "schema_version": "1.0",
   "sector": null,

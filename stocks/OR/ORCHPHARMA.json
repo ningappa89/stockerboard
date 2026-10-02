@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 788.45,
-      "high": 788.45,
-      "low": 718.1,
-      "open": 726.2,
-      "time": "2025-09-19",
-      "volume": 1199808
-    },
-    {
-      "close": 766.35,
-      "high": 793.95,
-      "low": 752.1,
-      "open": 788.25,
-      "time": "2025-09-22",
-      "volume": 253547
-    },
-    {
-      "close": 754.05,
-      "high": 766.4,
-      "low": 751.0,
-      "open": 766.35,
-      "time": "2025-09-23",
-      "volume": 58496
-    },
-    {
       "close": 738.3,
       "high": 754.55,
       "low": 735.4,
@@ -2017,13 +1993,37 @@
       "open": 1064.9,
       "time": "2026-09-28",
       "volume": 60169
+    },
+    {
+      "close": 1014.9,
+      "high": 1040.9,
+      "low": 991.6,
+      "open": 1023.4,
+      "time": "2026-09-29",
+      "volume": 146800
+    },
+    {
+      "close": 997.0,
+      "high": 1034.4,
+      "low": 990.0,
+      "open": 1014.9,
+      "time": "2026-09-30",
+      "volume": 58886
+    },
+    {
+      "close": 990.0,
+      "high": 1012.15,
+      "low": 964.65,
+      "open": 997.65,
+      "time": "2026-10-01",
+      "volume": 92412
     }
   ],
   "company_name": "ORCHID PHARMA LIMITED",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 74,
+    "is_stage2": false,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.51x"
+    "volume_multiplier": "0.73x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -41.5,
-    "change_pct": -3.9,
-    "close": 1023.4,
-    "previous_close": 1064.9,
+    "as_of": "2026-10-01",
+    "change": -7.0,
+    "change_pct": -0.7,
+    "close": 990.0,
+    "previous_close": 997.0,
     "type": "EOD_CLOSE",
-    "volume": 60169
+    "volume": 92412
   },
   "range": {
-    "distance_from_high_pct": -10.5,
-    "distance_from_low_pct": 113.21,
+    "distance_from_high_pct": -13.42,
+    "distance_from_low_pct": 106.25,
     "high_52w": 1143.5,
     "history_basis": "52_WEEK",
     "low_52w": 480.0,
-    "range_position_pct": 81.9
+    "range_position_pct": 76.87
   },
   "risk_model": {
-    "invalidation_floor": 987.58,
-    "risk_per_share": 56.29,
-    "technical_pivot": 1043.87
+    "invalidation_floor": 955.35,
+    "risk_per_share": 54.45,
+    "technical_pivot": 1009.8
   },
   "schema_version": "1.0",
   "sector": null,

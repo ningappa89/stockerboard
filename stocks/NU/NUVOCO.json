@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 447.45,
-      "high": 450.2,
-      "low": 443.05,
-      "open": 448.45,
-      "time": "2025-09-19",
-      "volume": 152639
-    },
-    {
-      "close": 447.3,
-      "high": 453.25,
-      "low": 446.9,
-      "open": 447.45,
-      "time": "2025-09-22",
-      "volume": 149625
-    },
-    {
-      "close": 445.9,
-      "high": 450.05,
-      "low": 443.8,
-      "open": 449.7,
-      "time": "2025-09-23",
-      "volume": 110042
-    },
-    {
       "close": 450.6,
       "high": 452.5,
       "low": 438.6,
@@ -2017,13 +1993,37 @@
       "open": 335.4,
       "time": "2026-09-28",
       "volume": 220322
+    },
+    {
+      "close": 330.2,
+      "high": 337.0,
+      "low": 321.5,
+      "open": 327.0,
+      "time": "2026-09-29",
+      "volume": 442330
+    },
+    {
+      "close": 337.8,
+      "high": 344.05,
+      "low": 331.0,
+      "open": 333.15,
+      "time": "2026-09-30",
+      "volume": 197279
+    },
+    {
+      "close": 322.1,
+      "high": 336.7,
+      "low": 316.5,
+      "open": 332.0,
+      "time": "2026-10-01",
+      "volume": 1125207
     }
   ],
   "company_name": "Nuvoco Vistas Corporation Limi",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 47,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.54x"
+    "momentum_score": 46,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.67x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -9.6,
-    "change_pct": -2.86,
-    "close": 325.85,
-    "previous_close": 335.45,
+    "as_of": "2026-10-01",
+    "change": -15.7,
+    "change_pct": -4.65,
+    "close": 322.1,
+    "previous_close": 337.8,
     "type": "EOD_CLOSE",
-    "volume": 220322
+    "volume": 1125207
   },
   "range": {
-    "distance_from_high_pct": -28.11,
-    "distance_from_low_pct": 17.95,
-    "high_52w": 453.25,
+    "distance_from_high_pct": -28.88,
+    "distance_from_low_pct": 16.6,
+    "high_52w": 452.9,
     "history_basis": "52_WEEK",
     "low_52w": 276.25,
-    "range_position_pct": 28.02
+    "range_position_pct": 25.96
   },
   "risk_model": {
-    "invalidation_floor": 314.45,
-    "risk_per_share": 17.92,
-    "technical_pivot": 332.37
+    "invalidation_floor": 310.83,
+    "risk_per_share": 17.71,
+    "technical_pivot": 328.54
   },
   "schema_version": "1.0",
   "sector": null,

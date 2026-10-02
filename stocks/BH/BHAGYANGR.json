@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 92.81,
-      "high": 94.7,
-      "low": 91.3,
-      "open": 94.7,
-      "time": "2025-09-19",
-      "volume": 4370
-    },
-    {
-      "close": 91.63,
-      "high": 93.39,
-      "low": 90.1,
-      "open": 93.39,
-      "time": "2025-09-22",
-      "volume": 11332
-    },
-    {
-      "close": 92.2,
-      "high": 92.95,
-      "low": 90.0,
-      "open": 91.75,
-      "time": "2025-09-23",
-      "volume": 14548
-    },
-    {
       "close": 91.06,
       "high": 94.99,
       "low": 90.1,
@@ -2017,13 +1993,37 @@
       "open": 446.0,
       "time": "2026-09-28",
       "volume": 133826
+    },
+    {
+      "close": 408.1,
+      "high": 412.5,
+      "low": 397.15,
+      "open": 404.05,
+      "time": "2026-09-29",
+      "volume": 89524
+    },
+    {
+      "close": 411.15,
+      "high": 422.0,
+      "low": 400.05,
+      "open": 405.0,
+      "time": "2026-09-30",
+      "volume": 87639
+    },
+    {
+      "close": 402.65,
+      "high": 415.0,
+      "low": 391.1,
+      "open": 412.7,
+      "time": "2026-10-01",
+      "volume": 140359
     }
   ],
   "company_name": "BHAGYANAGAR INDIA LTD.",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 71,
+    "is_stage2": false,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.65x"
+    "volume_multiplier": "0.68x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -14.2,
-    "change_pct": -3.34,
-    "close": 411.35,
-    "previous_close": 425.55,
+    "as_of": "2026-10-01",
+    "change": -8.5,
+    "change_pct": -2.07,
+    "close": 402.65,
+    "previous_close": 411.15,
     "type": "EOD_CLOSE",
-    "volume": 133826
+    "volume": 140359
   },
   "range": {
-    "distance_from_high_pct": -12.09,
-    "distance_from_low_pct": 357.06,
+    "distance_from_high_pct": -13.95,
+    "distance_from_low_pct": 346.89,
     "high_52w": 467.9,
     "history_basis": "52_WEEK",
-    "low_52w": 90.0,
-    "range_position_pct": 85.04
+    "low_52w": 90.1,
+    "range_position_pct": 82.73
   },
   "risk_model": {
-    "invalidation_floor": 396.95,
-    "risk_per_share": 22.63,
-    "technical_pivot": 419.58
+    "invalidation_floor": 388.56,
+    "risk_per_share": 22.14,
+    "technical_pivot": 410.7
   },
   "schema_version": "1.0",
   "sector": null,

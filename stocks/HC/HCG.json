@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 647.45,
-      "high": 660.7,
-      "low": 644.1,
-      "open": 651.7,
-      "time": "2025-09-19",
-      "volume": 137142
-    },
-    {
-      "close": 650.65,
-      "high": 655.5,
-      "low": 644.0,
-      "open": 645.9,
-      "time": "2025-09-22",
-      "volume": 274427
-    },
-    {
-      "close": 659.65,
-      "high": 663.1,
-      "low": 648.1,
-      "open": 661.0,
-      "time": "2025-09-23",
-      "volume": 253270
-    },
-    {
       "close": 650.55,
       "high": 664.2,
       "low": 648.15,
@@ -2017,13 +1993,37 @@
       "open": 703.3,
       "time": "2026-09-28",
       "volume": 57603
+    },
+    {
+      "close": 703.6,
+      "high": 708.0,
+      "low": 684.0,
+      "open": 695.45,
+      "time": "2026-09-29",
+      "volume": 113331
+    },
+    {
+      "close": 666.05,
+      "high": 710.0,
+      "low": 660.5,
+      "open": 703.6,
+      "time": "2026-09-30",
+      "volume": 204434
+    },
+    {
+      "close": 668.75,
+      "high": 675.0,
+      "low": 656.05,
+      "open": 666.05,
+      "time": "2026-10-01",
+      "volume": 108392
     }
   ],
   "company_name": "HealthCare Global Enterprises ",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 68,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.39x"
+    "volume_multiplier": "0.79x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -7.45,
-    "change_pct": -1.07,
-    "close": 691.2,
-    "previous_close": 698.65,
+    "as_of": "2026-10-01",
+    "change": 2.7,
+    "change_pct": 0.41,
+    "close": 668.75,
+    "previous_close": 666.05,
     "type": "EOD_CLOSE",
-    "volume": 57603
+    "volume": 108392
   },
   "range": {
-    "distance_from_high_pct": -14.1,
-    "distance_from_low_pct": 34.66,
+    "distance_from_high_pct": -16.89,
+    "distance_from_low_pct": 30.28,
     "high_52w": 804.65,
     "history_basis": "52_WEEK",
     "low_52w": 513.3,
-    "range_position_pct": 61.06
+    "range_position_pct": 53.36
   },
   "risk_model": {
-    "invalidation_floor": 667.01,
-    "risk_per_share": 38.01,
-    "technical_pivot": 705.02
+    "invalidation_floor": 645.34,
+    "risk_per_share": 36.78,
+    "technical_pivot": 682.12
   },
   "schema_version": "1.0",
   "sector": null,

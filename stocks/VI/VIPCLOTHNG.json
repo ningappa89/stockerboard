@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 40.56,
-      "high": 40.94,
-      "low": 38.0,
-      "open": 38.0,
-      "time": "2025-09-19",
-      "volume": 1703678
-    },
-    {
-      "close": 40.11,
-      "high": 41.2,
-      "low": 39.2,
-      "open": 41.2,
-      "time": "2025-09-22",
-      "volume": 849796
-    },
-    {
-      "close": 39.14,
-      "high": 40.51,
-      "low": 39.0,
-      "open": 40.11,
-      "time": "2025-09-23",
-      "volume": 222606
-    },
-    {
       "close": 38.95,
       "high": 41.19,
       "low": 38.31,
@@ -2017,13 +1993,37 @@
       "open": 21.7,
       "time": "2026-09-28",
       "volume": 17110
+    },
+    {
+      "close": 20.44,
+      "high": 21.8,
+      "low": 20.21,
+      "open": 21.78,
+      "time": "2026-09-29",
+      "volume": 34950
+    },
+    {
+      "close": 20.51,
+      "high": 21.4,
+      "low": 20.41,
+      "open": 20.44,
+      "time": "2026-09-30",
+      "volume": 12182
+    },
+    {
+      "close": 20.11,
+      "high": 20.79,
+      "low": 19.7,
+      "open": 20.5,
+      "time": "2026-10-01",
+      "volume": 34037
     }
   ],
   "company_name": "VIP Clothing Limited",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.22x"
+    "volume_multiplier": "0.47x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.54,
-    "change_pct": -2.5,
-    "close": 21.09,
-    "previous_close": 21.63,
+    "as_of": "2026-10-01",
+    "change": -0.4,
+    "change_pct": -1.95,
+    "close": 20.11,
+    "previous_close": 20.51,
     "type": "EOD_CLOSE",
-    "volume": 17110
+    "volume": 34037
   },
   "range": {
-    "distance_from_high_pct": -48.81,
-    "distance_from_low_pct": 50.11,
-    "high_52w": 41.2,
+    "distance_from_high_pct": -51.18,
+    "distance_from_low_pct": 43.13,
+    "high_52w": 41.19,
     "history_basis": "52_WEEK",
     "low_52w": 14.05,
-    "range_position_pct": 25.93
+    "range_position_pct": 22.33
   },
   "risk_model": {
-    "invalidation_floor": 20.35,
-    "risk_per_share": 1.16,
-    "technical_pivot": 21.51
+    "invalidation_floor": 19.41,
+    "risk_per_share": 1.1,
+    "technical_pivot": 20.51
   },
   "schema_version": "1.0",
   "sector": null,

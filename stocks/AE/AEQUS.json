@@ -1577,14 +1577,38 @@
       "open": 259.0,
       "time": "2026-09-28",
       "volume": 33667541
+    },
+    {
+      "close": 271.63,
+      "high": 273.0,
+      "low": 249.03,
+      "open": 260.0,
+      "time": "2026-09-29",
+      "volume": 11417115
+    },
+    {
+      "close": 279.48,
+      "high": 285.95,
+      "low": 273.21,
+      "open": 274.64,
+      "time": "2026-09-30",
+      "volume": 11216835
+    },
+    {
+      "close": 275.05,
+      "high": 284.75,
+      "low": 269.95,
+      "open": 281.0,
+      "time": "2026-10-01",
+      "volume": 5756074
     }
   ],
   "company_name": "Aequs Limited",
   "history": {
     "first_session": "2025-12-10",
     "has_full_52w_history": false,
-    "last_session": "2026-09-28",
-    "sessions_available": 197
+    "last_session": "2026-10-01",
+    "sessions_available": 200
   },
   "industry": null,
   "isin": "INE947N01017",
@@ -1592,31 +1616,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 82,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "8.62x"
+    "momentum_score": 84,
+    "setup_type": "Minervini VCP",
+    "volume_multiplier": "1.14x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": 14.05,
-    "change_pct": 5.71,
-    "close": 260.1,
-    "previous_close": 246.05,
+    "as_of": "2026-10-01",
+    "change": -4.43,
+    "change_pct": -1.59,
+    "close": 275.05,
+    "previous_close": 279.48,
     "type": "EOD_CLOSE",
-    "volume": 33667541
+    "volume": 5756074
   },
   "range": {
-    "distance_from_high_pct": -5.21,
-    "distance_from_low_pct": 129.57,
-    "high_52w": 274.39,
-    "history_basis": "AVAILABLE_HISTORY",
+    "distance_from_high_pct": -3.81,
+    "distance_from_low_pct": 142.76,
+    "high_52w": 285.95,
+    "history_basis": "52_WEEK",
     "low_52w": 113.3,
-    "range_position_pct": 91.13
+    "range_position_pct": 93.69
   },
   "risk_model": {
-    "invalidation_floor": 251.0,
-    "risk_per_share": 14.3,
-    "technical_pivot": 265.3
+    "invalidation_floor": 265.42,
+    "risk_per_share": 15.13,
+    "technical_pivot": 280.55
   },
   "schema_version": "1.0",
   "sector": null,

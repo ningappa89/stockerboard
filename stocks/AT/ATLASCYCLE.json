@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 124.14,
-      "high": 124.14,
-      "low": 117.0,
-      "open": 117.0,
-      "time": "2025-09-19",
-      "volume": 21721
-    },
-    {
-      "close": 127.49,
-      "high": 130.0,
-      "low": 122.26,
-      "open": 130.0,
-      "time": "2025-09-22",
-      "volume": 16591
-    },
-    {
-      "close": 127.99,
-      "high": 130.0,
-      "low": 124.25,
-      "open": 128.0,
-      "time": "2025-09-23",
-      "volume": 11431
-    },
-    {
       "close": 125.15,
       "high": 129.99,
       "low": 124.5,
@@ -2017,13 +1993,37 @@
       "open": 96.21,
       "time": "2026-09-28",
       "volume": 10881
+    },
+    {
+      "close": 94.86,
+      "high": 100.0,
+      "low": 91.66,
+      "open": 93.0,
+      "time": "2026-09-29",
+      "volume": 40780
+    },
+    {
+      "close": 93.53,
+      "high": 97.0,
+      "low": 93.05,
+      "open": 95.0,
+      "time": "2026-09-30",
+      "volume": 4894
+    },
+    {
+      "close": 91.74,
+      "high": 95.68,
+      "low": 90.7,
+      "open": 93.54,
+      "time": "2026-10-01",
+      "volume": 10125
     }
   ],
   "company_name": "ATLAS CYCLE (HARYANA) LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.12x"
+    "volume_multiplier": "0.11x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -2.89,
-    "change_pct": -3.06,
-    "close": 91.43,
-    "previous_close": 94.32,
+    "as_of": "2026-10-01",
+    "change": -1.79,
+    "change_pct": -1.91,
+    "close": 91.74,
+    "previous_close": 93.53,
     "type": "EOD_CLOSE",
-    "volume": 10881
+    "volume": 10125
   },
   "range": {
-    "distance_from_high_pct": -29.67,
-    "distance_from_low_pct": 20.07,
-    "high_52w": 130.0,
+    "distance_from_high_pct": -29.43,
+    "distance_from_low_pct": 20.47,
+    "high_52w": 129.99,
     "history_basis": "52_WEEK",
     "low_52w": 76.15,
-    "range_position_pct": 28.38
+    "range_position_pct": 28.96
   },
   "risk_model": {
-    "invalidation_floor": 88.23,
-    "risk_per_share": 5.03,
-    "technical_pivot": 93.26
+    "invalidation_floor": 88.53,
+    "risk_per_share": 5.04,
+    "technical_pivot": 93.57
   },
   "schema_version": "1.0",
   "sector": null,

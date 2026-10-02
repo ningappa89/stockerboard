@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 187.91,
-      "high": 191.6,
-      "low": 187.21,
-      "open": 189.0,
-      "time": "2025-09-19",
-      "volume": 27040
-    },
-    {
-      "close": 191.35,
-      "high": 192.9,
-      "low": 187.21,
-      "open": 188.18,
-      "time": "2025-09-22",
-      "volume": 29912
-    },
-    {
-      "close": 189.78,
-      "high": 191.88,
-      "low": 187.35,
-      "open": 191.88,
-      "time": "2025-09-23",
-      "volume": 24061
-    },
-    {
       "close": 188.79,
       "high": 190.35,
       "low": 187.51,
@@ -2017,13 +1993,37 @@
       "open": 220.15,
       "time": "2026-09-28",
       "volume": 130047
+    },
+    {
+      "close": 217.36,
+      "high": 220.0,
+      "low": 213.82,
+      "open": 216.0,
+      "time": "2026-09-29",
+      "volume": 150144
+    },
+    {
+      "close": 220.73,
+      "high": 224.9,
+      "low": 215.19,
+      "open": 215.19,
+      "time": "2026-09-30",
+      "volume": 132906
+    },
+    {
+      "close": 218.97,
+      "high": 224.4,
+      "low": 216.2,
+      "open": 218.9,
+      "time": "2026-10-01",
+      "volume": 98616
     }
   ],
   "company_name": "MANGAL CREDIT N FINCORP L",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 53,
+    "momentum_score": 54,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.18x"
+    "volume_multiplier": "0.87x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -4.53,
-    "change_pct": -2.04,
-    "close": 217.4,
-    "previous_close": 221.93,
+    "as_of": "2026-10-01",
+    "change": -1.76,
+    "change_pct": -0.8,
+    "close": 218.97,
+    "previous_close": 220.73,
     "type": "EOD_CLOSE",
-    "volume": 130047
+    "volume": 98616
   },
   "range": {
-    "distance_from_high_pct": -24.32,
-    "distance_from_low_pct": 42.97,
+    "distance_from_high_pct": -23.78,
+    "distance_from_low_pct": 44.0,
     "high_52w": 287.27,
     "history_basis": "52_WEEK",
     "low_52w": 152.06,
-    "range_position_pct": 48.32
+    "range_position_pct": 49.49
   },
   "risk_model": {
-    "invalidation_floor": 209.79,
-    "risk_per_share": 11.96,
-    "technical_pivot": 221.75
+    "invalidation_floor": 211.31,
+    "risk_per_share": 12.04,
+    "technical_pivot": 223.35
   },
   "schema_version": "1.0",
   "sector": null,

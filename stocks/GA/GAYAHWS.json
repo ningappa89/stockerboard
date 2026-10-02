@@ -3,30 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2.83,
-      "high": 2.83,
-      "low": 2.83,
-      "open": 2.83,
-      "time": "2025-09-19",
-      "volume": 163483
-    },
-    {
-      "close": 2.97,
-      "high": 2.97,
-      "low": 2.97,
-      "open": 2.97,
-      "time": "2025-09-22",
-      "volume": 139546
-    },
-    {
-      "close": 3.11,
-      "high": 3.11,
-      "low": 3.11,
-      "open": 3.11,
-      "time": "2025-09-23",
-      "volume": 302322
-    },
-    {
       "close": 3.26,
       "high": 3.26,
       "low": 3.26,
@@ -2017,13 +1993,37 @@
       "open": 1.88,
       "time": "2026-09-28",
       "volume": 191409
+    },
+    {
+      "close": 1.84,
+      "high": 1.85,
+      "low": 1.75,
+      "open": 1.84,
+      "time": "2026-09-29",
+      "volume": 120182
+    },
+    {
+      "close": 1.76,
+      "high": 1.84,
+      "low": 1.72,
+      "open": 1.84,
+      "time": "2026-09-30",
+      "volume": 312692
+    },
+    {
+      "close": 1.72,
+      "high": 1.8,
+      "low": 1.71,
+      "open": 1.8,
+      "time": "2026-10-01",
+      "volume": 163710
     }
   ],
   "company_name": "GAYATRI HIGHWAYS LTD",
   "history": {
-    "first_session": "2025-09-19",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-09-28",
+    "last_session": "2026-10-01",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.75x"
+    "volume_multiplier": "0.88x"
   },
   "price": {
-    "as_of": "2026-09-28",
-    "change": -0.01,
-    "change_pct": -0.54,
-    "close": 1.84,
-    "previous_close": 1.85,
+    "as_of": "2026-10-01",
+    "change": -0.04,
+    "change_pct": -2.27,
+    "close": 1.72,
+    "previous_close": 1.76,
     "type": "EOD_CLOSE",
-    "volume": 191409
+    "volume": 163710
   },
   "range": {
-    "distance_from_high_pct": -61.34,
-    "distance_from_low_pct": 6.98,
+    "distance_from_high_pct": -63.87,
+    "distance_from_low_pct": 0.58,
     "high_52w": 4.76,
     "history_basis": "52_WEEK",
-    "low_52w": 1.72,
-    "range_position_pct": 3.95
+    "low_52w": 1.71,
+    "range_position_pct": 0.33
   },
   "risk_model": {
-    "invalidation_floor": 1.78,
+    "invalidation_floor": 1.66,
     "risk_per_share": 0.5,
-    "technical_pivot": 1.88
+    "technical_pivot": 1.75
   },
   "schema_version": "1.0",
   "sector": null,
