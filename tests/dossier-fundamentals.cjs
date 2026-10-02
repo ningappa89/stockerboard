@@ -4,7 +4,7 @@ const vm = require('node:vm');
 const path = require('node:path');
 const html = fs.readFileSync(path.join(__dirname, '..', 'index.html'), 'utf8');
 const elements = new Map();
-const context = vm.createContext({fundamentalsSnapshot: {}, URL, APP_DATA: {market_screener: [], fundamental_leaders: []}, document: {createElement(){return {};},createTextNode(text){return text;},getElementById(id) {if (!elements.has(id)) elements.set(id, {replaceChildren(){},append(){}}); return elements.get(id);}}});
+const context = vm.createContext({fundamentalsSnapshot: {}, URL, APP_DATA: {market_screener: [], fundamental_leaders: []}, document: {createElement(){return {style:{}};},createTextNode(text){return text;},getElementById(id) {if (!elements.has(id)) elements.set(id, {style:{},replaceChildren(){},append(){}}); return elements.get(id);}}});
 for (const name of ['numericMetric', 'formatMetric', 'readDossierFundamentals', 'renderDossierFundamentals', 'normalizeDossierJson']) {
  const start = html.indexOf('        function ' + name + '(');
  const end = html.indexOf('\n        }', start) + '\n        }'.length;
