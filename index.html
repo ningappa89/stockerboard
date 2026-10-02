@@ -18432,13 +18432,11 @@
             provenance.replaceChildren();
             const metadata = stock.fundamentals_metadata;
             if (metadata) {
-                const source = document.createElement('a');
-                try {
-                    const url = new URL(metadata.source_url);
-                    if (url.protocol === 'https:' && url.hostname === 'www.screener.in') { source.href = url.href; source.target = '_blank'; source.rel = 'noopener noreferrer'; }
-                } catch (_) {}
-                source.textContent = metadata.source || 'Fundamentals source';
-                provenance.append(source, document.createTextNode(' · Standalone · Retrieved ' + String(metadata.retrieved_at || '').slice(0, 10) + (metadata.pb_basis ? ' · P/B = source price ÷ book value' : '')));
+                const source = document.createElement('span');
+                source.style.fontWeight = '600';
+                source.textContent = 'Reported Financials';
+                const asOfDate = String(metadata.as_of || metadata.retrieved_at || '').slice(0, 10);
+                provenance.append(source, document.createTextNode(' · Standalone' + (asOfDate ? ' · As of ' + asOfDate : '')));
             }
             const notice = document.getElementById('dossierFundamentalsNotice');
             notice.hidden = available === 4;
