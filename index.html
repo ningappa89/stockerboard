@@ -3,8 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stockerboard | Systematic Equity &amp; Risk Terminal</title>
-    <meta name="description" content="Institutional-grade quantitative systematic equity terminal for Indian markets. Daily EOD Action Radar, Bhavcopy verified screeners, What-If shock simulations, and capital governance.">
+    <title>Indian Stocks, Company Financials &amp; Research | Stockerboard</title>
+    <meta name="description" content="Find Indian companies and explore price, market cap, revenue, profit, financial health and valuation with clear dates and data coverage. Advanced market tools are available in Pro.">
+    <link rel="canonical" href="https://stockerboard.com/">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Stockerboard">
+    <meta property="og:title" content="Indian Stocks, Company Financials &amp; Research | Stockerboard">
+    <meta property="og:description" content="Find Indian companies and understand their financials, valuation and price with clear data coverage.">
+    <meta property="og:url" content="https://stockerboard.com/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Indian Stocks, Company Financials &amp; Research | Stockerboard">
+    <meta name="twitter:description" content="Explore Indian company financials, valuation and price with clear data coverage.">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Stockerboard","url":"https://stockerboard.com/","description":"Indian company research and market tools"}</script>
     <!-- Progressive Web App (PWA) Manifest & Meta -->
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#16A34A">
@@ -13,6 +24,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script defer src="scripts/investor-v1.js"></script>
     <!-- Google Analytics 4 (GA4) Telemetry Engine (Ad-Blocker Safe) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-STOCKERBOARD"></script>
     <script>
@@ -3941,6 +3953,10 @@
             font-size: 0.88rem;
             color: var(--text-primary);
         }
+        .drop-asof {
+            font-size: 0.68rem;
+            color: var(--text-secondary);
+        }
         .drop-dist {
             font-size: 0.7rem;
             color: var(--text-muted);
@@ -4810,6 +4826,7 @@
             #tab-screener .filter-row-bottom > div { gap: 8px !important; }
         }
 </style>
+<link rel="stylesheet" href="scripts/investor-v1.css">
 </head>
 <body>
     <div class="container">
@@ -4891,8 +4908,8 @@
             <!-- Refined Hero Studio -->
             <div class="fresher-hero-studio">
                 <h1 class="fresher-hero-heading" style="margin-bottom: 8px;">
-                    <span class="fresher-hero-lead" style="font-size: 3.4rem; font-weight: 800; letter-spacing: -0.035em;">Find <span style="color: #15803D;">Indian stocks</span> worth investigating<span style="color: #F43F5E;">.</span></span>
-                    <span class="fresher-hero-subline" style="font-size: 1.25rem; font-weight: 500; color: var(--text-secondary); margin-top: 6px;">Screen NSE stocks using momentum, quality, valuation and price strength.</span>
+                    <span class="fresher-hero-lead" style="font-size: 3.4rem; font-weight: 800; letter-spacing: -0.035em;">Explore <span style="color: #15803D;">Indian companies</span> with clarity<span style="color: #F43F5E;">.</span></span>
+                    <span class="fresher-hero-subline" style="font-size: 1.25rem; font-weight: 500; color: var(--text-secondary); margin-top: 6px;">Search stocks and compare price, profitability and valuation at a glance.</span>
                 </h1>
 
                 <!-- FAANG-Grade Omnibar (Perplexity / Raycast elevation) -->
@@ -4922,13 +4939,13 @@
                 </div>
 
                 <!-- Quick Screens — map to canonical screener presets -->
-                <div class="fresher-quickscreen-wrap" style="display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap; margin: 18px auto 4px auto;">
-                    <button class="fresher-qs-btn" id="qs-btn-breakout" onclick="applyQuickScreen('BREAKOUT', this)" title="Stocks at or within 0.5% of their 52-week high">Breakouts</button>
-                    <button class="fresher-qs-btn" id="qs-btn-near52" onclick="applyQuickScreen('COILED', this)" title="Stocks within 3% of 52-week high, coiling before next move">Near 52W High</button>
-                    <button class="fresher-qs-btn" id="qs-btn-momentum" onclick="applyQuickScreen('MOMENTUM', this)" title="Stocks with momentum score ≥ 85/100">Momentum</button>
-                    <button class="fresher-qs-btn" id="qs-btn-quality" onclick="applyQuickScreen('HIGH_ROE', this)" title="Stocks with Return on Equity ≥ 15%">Quality</button>
-                    <button class="fresher-qs-btn" id="qs-btn-value" onclick="applyQuickScreen('VALUE_PE', this)" title="Stocks with P/E ≤ 25">Value</button>
+                <div class="fresher-quickscreen-wrap" aria-label="Quick stock screens" style="display: flex; align-items: center; justify-content: center; gap: 8px; flex-wrap: wrap; margin: 18px auto 4px auto;">
+                    <button class="fresher-qs-btn" id="qs-btn-quality" onclick="applyQuickScreen('HIGH_ROE', this)" title="Return on equity of at least 15%; excludes unavailable ROE">ROE ≥15%</button>
+                    <button class="fresher-qs-btn" id="qs-btn-value" onclick="applyQuickScreen('VALUE_PE', this)" title="Positive price-to-earnings ratio of 25 or less; excludes unavailable P/E">P/E ≤25</button>
+                    <button class="fresher-qs-btn" id="qs-btn-near52" onclick="applyQuickScreen('COILED', this)" title="Within 3% of the 52-week high, but below its immediate breakout range">Near 52-week high</button>
+                    <button class="fresher-qs-btn" id="qs-btn-breakout" onclick="applyQuickScreen('BREAKOUT', this)" title="At or within 0.5% of the 52-week high">At 52-week high</button>
                 </div>
+                <p class="investor-quick-help">Each screen uses one stated rule. Explore the company before drawing a conclusion.</p>
 
                 </div>
 
@@ -5237,13 +5254,24 @@
                     </div>
                     <div style="display: flex; align-items: center; gap: 14px; flex-wrap: wrap;">
                         <div class="screener-status-text">
-                            Showing <strong id="screenerVisibleStart" style="color: #60A5FA;">1</strong>–<strong id="screenerVisibleEnd" style="color: #60A5FA;">100</strong> of <strong id="screenerVisibleCount">350</strong> scrips &nbsp;<span id="screenerPageLabel" style="color: var(--text-muted); font-size: 0.78rem;"></span>
+                            Showing <strong id="screenerVisibleStart">1</strong>–<strong id="screenerVisibleEnd">24</strong> of <strong id="screenerVisibleCount">2524</strong> <span id="screenerPopulationLabel">companies</span> &nbsp;<span id="screenerPageLabel" style="color: var(--text-muted); font-size: 0.78rem;"></span>
                         </div>
                         <!-- Quick Pagination Controls (Top) -->
                         <div class="screener-pagination top-pager" id="screenerTopPagination"></div>
                     </div>
                 </div>
             </div>
+
+            <p id="investorDataNote" class="investor-data-note" role="note"></p>
+            <details class="investor-metric-help">
+                <summary>How to read P/E and ROE</summary>
+                <div class="investor-metric-help-body">
+                    <p><strong>P/E</strong> compares share price with earnings per share. A lower number alone does not establish that a stock is inexpensive; losses can make the ratio unavailable.</p>
+                    <p><strong>ROE</strong> compares profit with shareholders' equity. Debt, one-off gains, and industry differences can change its meaning.</p>
+                    <p><strong>— means unavailable.</strong> The current ratio snapshot has P/E for 453 and ROE for 471 of the 2,524 companies. Missing ratios are excluded from P/E and ROE filters.</p>
+                    <p>Open a company to see each measure's source, scope and date before comparing stocks.</p>
+                </div>
+            </details>
 
             <div class="table-card">
                 <div class="table-responsive">
@@ -10170,6 +10198,7 @@
                     </table>
                 </div>
             </div>
+            <div id="investorStockCards" class="investor-stock-cards" aria-label="Stock results"></div>
             <!-- Screener Pagination Bar -->
             <div class="screener-pagination" id="screenerPagination"></div>
         <!-- Empty state: shown when no stocks match filters -->
@@ -13714,7 +13743,7 @@
                         <span class="dossier-quality-badge" id="dossierBadge">NSE Core Listed</span>
                     </div>
                     <div style="font-size: 0.74rem; color: var(--text-muted); display: flex; align-items: center; gap: 6px;">
-                        <span>📅 NSE EOD Settled</span>
+                        <span id="dossierPriceAsOf">📅 Price date unavailable</span>
                         <span>•</span>
                         <span>🛡️ Independent Quantitative Research</span>
                     </div>
@@ -13725,6 +13754,7 @@
                     <div class="dossier-price-block">
                         <div class="dossier-cmp-val" id="dossierCmp">₹0.00</div>
                         <div class="dossier-change-pill" id="dossierChange" style="background: rgba(16, 185, 129, 0.12); color: #10B981;">+0.00%</div>
+                        <div class="dossier-market-cap" id="dossierMarketCap">Market cap —</div>
                     </div>
                     <div class="dossier-spectrum-wrap">
                         <div style="display: flex; justify-content: space-between; font-size: 0.72rem; color: var(--text-muted); font-weight: 600;">
@@ -13758,7 +13788,7 @@
                         <span style="font-size: 0.8rem;">🔥</span>
                     </div>
                     <div class="dossier-bento-val mono" id="dossierMomVal" style="color: var(--accent-emerald);">85/100</div>
-                    <div class="dossier-bento-sub">Outperforming broader market</div>
+                    <div class="dossier-bento-sub" id="dossierMomSub">Price momentum measure</div>
                 </div>
                 <div class="dossier-bento-card">
                     <div class="dossier-bento-lbl">
@@ -13822,7 +13852,7 @@
             <div class="dossier-chart-card">
                 <div class="dossier-chart-header">
                     <div class="dossier-chart-title">
-                        <span>📈 Institutional Candlestick &amp; Volume Studio</span>
+                        <span>📈 Price trend</span>
                         <span style="font-size: 0.68rem; padding: 2px 6px; background: rgba(59, 130, 246, 0.15); color: #60A5FA; border-radius: 4px; font-weight: 600;">TradingView™ Engine</span>
                     </div>
                     <div style="font-size: 0.74rem; color: var(--text-muted);">
@@ -13845,21 +13875,24 @@
                     <p id="dossierFundamentalsNotice" role="status" style="font-size:0.85rem;color:var(--text-secondary);line-height:1.5;margin:12px 0;"></p>
                     <table class="dossier-metrics-table">
                         <tbody>
-                            <tr><td>P/E Ratio</td><td id="dossierTblPE">—</td></tr>
-                            <tr><td>Price to Book (P/B)</td><td id="dossierTblPB">—</td></tr>
-                            <tr><td>Return on Equity (ROE)</td><td id="dossierTblROE">—</td></tr>
-                            <tr><td>Return on Capital Employed (ROCE)</td><td id="dossierTblROCE">—</td></tr>
-                            <tr><td>52-Week High</td><td id="dossierTblHigh">₹0.00</td></tr>
-                            <tr><td>52-Week Low</td><td id="dossierTblLow">₹0.00</td></tr>
-                            <tr><td>Sector Classification</td><td id="dossierTblSector">Diversified</td></tr>
+                            <tr class="dossier-contract-row"><td>P/E Ratio</td><td id="dossierTblPE">—</td></tr>
+                            <tr class="dossier-contract-row"><td>Price to Book (P/B)</td><td id="dossierTblPB">—</td></tr>
+                            <tr class="dossier-contract-row"><td>Return on Equity (ROE)</td><td id="dossierTblROE">—</td></tr>
+                            <tr class="dossier-contract-row"><td>Return on Capital Employed (ROCE)</td><td id="dossierTblROCE">—</td></tr>
+                            <tr class="dossier-contract-row"><td>52-Week High</td><td id="dossierTblHigh">₹0.00</td></tr>
+                            <tr class="dossier-contract-row"><td>52-Week Low</td><td id="dossierTblLow">₹0.00</td></tr>
+                            <tr class="dossier-contract-row"><td>Sector Classification</td><td id="dossierTblSector">Diversified</td></tr>
+                            <tr><td>Net debt</td><td id="dossierTblNetDebt">—</td></tr>
+                            <tr><td>Working capital</td><td id="dossierTblWorkingCapital">—</td></tr>
+                            <tr><td>Book value</td><td id="dossierTblBookValue">—</td></tr>
                         </tbody>
                     </table>
                 </div>
 
                 <div class="dossier-section-card">
                     <div class="dossier-sec-title">
-                        <span>🏢 Sector Peer Benchmark &amp; Outperformer Pulse</span>
-                        <span style="font-size: 0.72rem; color: var(--text-muted);">Relative Strength</span>
+                        <span>🏢 Other screened stocks in this sector</span>
+                        <span style="font-size: 0.72rem; color: var(--text-muted);">For context, not a peer ranking</span>
                     </div>
                     <div id="dossierPeersContainer">
                         <!-- Populated dynamically via JS -->
@@ -14366,26 +14399,50 @@
         let fundamentalsSnapshot = {};
         let fundamentalsLoadPromise;
         let fundamentalsLoaded = false;
+        let researchPreviewSnapshot = {};
 
         function loadFundamentalsSnapshot() {
             if (!fundamentalsLoadPromise) {
-                fundamentalsLoadPromise = fetch('./fundamentals.json?v=cb1834f8', {cache: 'no-cache'})
-                    .then(response => { if (!response.ok) throw new Error('Fundamentals snapshot unavailable'); return response.json(); })
-                    .then(snapshot => {
-                        if (snapshot.schema_version !== 1 || !snapshot.stocks || typeof snapshot.stocks !== 'object') throw new Error('Invalid fundamentals snapshot');
-                        fundamentalsSnapshot = snapshot.stocks;
-                        for (const pool of Object.values(APP_DATA)) {
-                            if (!Array.isArray(pool)) continue;
-                            for (const stock of pool) {
-                                if (!stock || typeof stock !== 'object' || !stock.symbol) continue;
-                                const ratios = fundamentalsSnapshot[stock.symbol];
-                                if (!ratios) continue;
-                                Object.assign(stock, readDossierFundamentals(ratios), {fundamentals_metadata: ratios});
-                                stock.pe_raw = stock.pe; stock.roe_raw = stock.roe;
+                const loadResearch = () => {
+                    return fetch('./research/current.json', {cache: 'no-cache'})
+                        .then(response => { if (!response.ok) throw new Error('Certified research release unavailable'); return response.json(); })
+                        .then(async pointer => {
+                            const localPreview = ['localhost', '127.0.0.1', '[::1]'].includes(location.hostname);
+                            if (pointer.schema_version !== 1 || !(pointer.status === 'CERTIFIED_ACTIVE' || (localPreview && pointer.status === 'PREVIEW')) || !/^RESEARCH_v1_[A-Za-z0-9_]+$/.test(pointer.release_id)) throw new Error('Invalid research pointer');
+                            const response = await fetch(`./research/releases/${pointer.release_id}/ratios_index.json`, {cache: 'no-cache'});
+                            if (!response.ok) throw new Error('Research ratio index unavailable');
+                            const snapshot = await response.json();
+                            if (snapshot.schema_version !== 1 || snapshot.release_id !== pointer.release_id || !snapshot.stocks || typeof snapshot.stocks !== 'object') throw new Error('Invalid research ratio index');
+                            const parsed = Object.fromEntries(Object.entries(snapshot.stocks).map(([symbol, fields]) => {
+                                const available = key => fields[key] && fields[key].status === 'AVAILABLE' ? fields[key].value : null;
+                                const pe = fields.pe || {};
+                                return [symbol, {
+                                    pe: available('pe'), pb: available('pb'), roe: available('roe'), roce: available('roce'),
+                                    scope: pe.scope || null, retrieved_at: pe.as_of || null,
+                                    source: pe.source === 'INTERNAL_GOLD_CALCULATED' ? 'Stockerboard Fundamental Gold' : 'Official filing',
+                                    research_release_id: pointer.release_id, metric_status: fields
+                                }];
+                            }));
+                            researchPreviewSnapshot = parsed;
+                            fundamentalsSnapshot = parsed;
+                            for (const pool of Object.values(APP_DATA)) {
+                                if (!Array.isArray(pool)) continue;
+                                for (const stock of pool) {
+                                    if (!stock || typeof stock !== 'object' || !stock.symbol) continue;
+                                    const ratios = fundamentalsSnapshot[stock.symbol];
+                                    if (!ratios) continue;
+                                    Object.assign(stock, readDossierFundamentals(ratios), {fundamentals_metadata: ratios});
+                                    stock.pe_raw = stock.pe; stock.roe_raw = stock.roe;
+                                }
                             }
-                        }
+                        });
+                };
+
+                fundamentalsLoadPromise = loadResearch()
+                    .catch(err => {
+                        // Fail closed: zero competitor fallback
+                        fundamentalsSnapshot = {};
                     })
-                    .catch(error => { console.warn(error.message); })
                     .finally(() => { fundamentalsLoaded = true; });
             }
             return fundamentalsLoadPromise;
@@ -14412,6 +14469,113 @@
         function setupLabel(stock) {
             return [[stock.is_confluence, 'CONFLUENCE'], [stock.is_vcp, 'VCP'], [stock.is_pocket_pivot, 'PIVOT'], [stock.is_stage2, 'STAGE 2']].filter(x => x[0]).map(x => x[1]).slice(0, 2).join(' · ') || '—';
         }
+        let screenerTemplateRow = null;
+        let screenerPopulationMode = null;
+        let investorUniverseStocks = new Map();
+        let dossierFinancialIndex = {};
+
+        async function loadDossierFinancialIndex() {
+            try {
+                const response = await fetch('./stocks/financial_index_v1.json', {cache: 'no-cache'});
+                if (!response.ok) throw new Error('financial index unavailable');
+                const index = await response.json();
+                if (index.schema_version !== 1 || index.source !== 'certified_public_dossier_v2' ||
+                    index.canonical_count !== canonicalUniverse.length ||
+                    canonicalUniverse.some(row => !Object.prototype.hasOwnProperty.call(index.stocks, row[0]))) {
+                    throw new Error('financial index does not match canonical universe');
+                }
+                dossierFinancialIndex = index.stocks;
+            } catch (error) {
+                // Keep company search usable. Ratios fail closed instead of using
+                // an older snapshot that can disagree with the public dossier.
+                dossierFinancialIndex = {};
+                console.warn('[Stockerboard] Certified Fresher ratios unavailable:', error.message);
+            }
+        }
+
+        function setScreenerPopulation(mode) {
+            if (!screenerTemplateRow || screenerPopulationMode === mode) return;
+            const table = document.getElementById('screenerTable');
+            const tbody = table.tBodies[0];
+            if (mode === 'fresher') {
+                investorUniverseStocks = new Map((canonicalUniverse || []).map(entry => {
+                    const [symbol, company_name, cmp, dist_52w_pct, momentum_score, sector] = entry;
+                    const ratios = dossierFinancialIndex[symbol] || {};
+                    return [symbol, {
+                        symbol, company_name, cmp, dist_52w_pct, momentum_score, sector: sector || '',
+                        pe: numericMetric(ratios.pe), pb: numericMetric(ratios.pb),
+                        roe: numericMetric(ratios.roe), roce: numericMetric(ratios.roce),
+                        fundamentals_metadata: Object.keys(ratios).length ? {source: 'Certified public company dossier', pe_price_as_of: ratios.pe_price_as_of, roe_period_end: ratios.roe_period_end} : null,
+                        ratio_price_as_of: ratios.pe_price_as_of || null,
+                        roe_period_end: ratios.roe_period_end || null,
+                        price_as_of: canonicalUniverseAsOf
+                    }];
+                }));
+                window.investorUniverseStocks = investorUniverseStocks;
+            }
+            const stocks = mode === 'fresher'
+                ? investorUniverseStocks
+                : new Map((APP_DATA.market_screener || []).map(stock => [stock.symbol, stock]));
+            const fragment = document.createDocumentFragment();
+            const orderedStocks = [...stocks.values()];
+            const publishedRanks = new Map(orderedStocks.map((stock, index) => [stock.symbol, index]));
+            if (mode === 'fresher') orderedStocks.sort((a, b) => {
+                const coverage = stock => Number(numericMetric(stock.pe) !== null) + Number(numericMetric(stock.roe) !== null);
+                return coverage(b) - coverage(a) || a.company_name.localeCompare(b.company_name) || a.symbol.localeCompare(b.symbol);
+            });
+            orderedStocks.forEach(stock => {
+                const row = screenerTemplateRow.cloneNode(true);
+                row.dataset.sym = stock.symbol;
+                row.dataset.name = stock.company_name || stock.symbol;
+                row.dataset.publishedRank = String(publishedRanks.get(stock.symbol));
+                row.dataset.technicalSample = mode === 'fresher' ? '0' : '1';
+                row.removeAttribute('onclick');
+                row.onclick = () => openStockDrawer(stock.symbol);
+                const star = row.querySelector('.star-btn');
+                star.dataset.sym = stock.symbol;
+                star.removeAttribute('onclick');
+                star.onclick = event => { event.stopPropagation(); toggleWatchlist(stock.symbol, star); };
+                row.cells[3].removeAttribute('onclick');
+                Object.assign(row.dataset, {
+                    dist: numericMetric(stock.dist_52w_pct) ?? '', mom: numericMetric(stock.momentum_score) ?? '',
+                    volmult: numericMetric(stock.volume_multiplier) ?? '', roe: numericMetric(stock.roe) ?? '',
+                    pe: numericMetric(stock.pe) ?? '', sec: stock.sector || '',
+                    vcp: stock.is_vcp ? '1' : '0', pivot: stock.is_pocket_pivot ? '1' : '0',
+                    stage2: stock.is_stage2 ? '1' : '0', confluence: stock.is_confluence ? '1' : '0'
+                });
+                row.cells[1].replaceChildren();
+                const name = document.createElement('strong'); name.textContent = stock.company_name || stock.symbol;
+                const secondary = document.createElement('small'); secondary.textContent = stock.symbol + (stock.sector ? ' · ' + stock.sector : ' · Sector unavailable');
+                row.cells[1].append(name, secondary);
+                row.cells[2].textContent = stock.symbol;
+                row.cells[3].textContent = setupLabel(stock);
+                row.cells[3].className = 'screen-setup';
+                row.cells[4].textContent = stock.sector || '—';
+                row.cells[5].textContent = numericMetric(stock.cmp) === null ? '—' : '₹' + formatMetric(stock.cmp);
+                row.cells[6].textContent = formatMetric(stock.high_52w);
+                if (mode === 'fresher') row.cells[7].textContent = '—';
+                else row.cells[7].innerHTML = positionMarkup(stock);
+                row.cells[8].textContent = stock.volume || '—';
+                row.cells[9].textContent = formatMetric(stock.volume_multiplier, '×');
+                row.cells[10].textContent = formatMetric(stock.pe);
+                row.cells[11].textContent = formatMetric(stock.roe, '%');
+                row.tabIndex = 0;
+                row.setAttribute('aria-label', 'Open ' + stock.symbol);
+                row.addEventListener('keydown', event => {
+                    if (event.target === row && (event.key === 'Enter' || event.key === ' ')) {
+                        event.preventDefault(); openStockDrawer(stock.symbol);
+                    }
+                });
+                fragment.append(row);
+            });
+            tbody.replaceChildren(fragment);
+            screenerPopulationMode = mode;
+            const populationLabel = document.getElementById('screenerPopulationLabel');
+            if (populationLabel) populationLabel.textContent = mode === 'fresher' ? 'companies in the canonical universe' : 'technical snapshot stocks';
+            const sort = document.getElementById('investorSort');
+            if (sort) sort.value = mode === 'fresher' ? 'coverage_desc' : 'published';
+            updateWatchlistUI();
+        }
         function placeSharedScreener(mode) {
             const screener = document.getElementById('tab-screener');
             if (!screener) return;
@@ -14422,6 +14586,7 @@
             document.body.classList.toggle('screen-fresher', mode === 'fresher');
             if (mode === 'fresher') document.querySelector('.fresher-hero-studio').after(screener);
             else document.getElementById('screenerHomeAnchor').after(screener);
+            if (screenerTemplateRow) setScreenerPopulation(mode);
         }
         function syncScreenButtons() {
             document.querySelectorAll('.fresher-qs-btn, .screener-preset-btn').forEach(b => {
@@ -14451,53 +14616,30 @@
         }
         async function initializeScreeningUI() {
             await loadFundamentalsSnapshot();
+            await loadCanonicalUniverse();
+            await loadDossierFinancialIndex();
             const table = document.getElementById('screenerTable');
-            const stocks = new Map((APP_DATA.market_screener || []).map(s => [s.symbol, s]));
             const tbody = table.tBodies[0];
-            const template = tbody.rows[0].cloneNode(true);
-            const rows = new Map(Array.from(tbody.rows, row => [row.dataset.sym, row]));
-            tbody.replaceChildren();
-            stocks.forEach(stock => {
-                const row = rows.get(stock.symbol) || template.cloneNode(true);
-                row.dataset.sym = stock.symbol; row.dataset.name = stock.company_name || stock.symbol;
-                row.removeAttribute('onclick'); row.onclick = () => openStockDrawer(stock.symbol);
-                const star = row.querySelector('.star-btn');
-                star.dataset.sym = stock.symbol; star.removeAttribute('onclick');
-                star.onclick = event => { event.stopPropagation(); toggleWatchlist(stock.symbol, star); };
-                row.cells[3].removeAttribute('onclick');
-                tbody.append(row);
-                // The generated HTML snapshot can lag APP_DATA: filtering and display share its values.
-                Object.assign(row.dataset, {dist: stock.dist_52w_pct ?? '', mom: stock.momentum_score ?? '', volmult: numericMetric(stock.volume_multiplier) ?? '', roe: numericMetric(stock.roe) ?? '', pe: numericMetric(stock.pe) ?? '', sec: stock.sector || '', vcp: stock.is_vcp ? '1' : '0', pivot: stock.is_pocket_pivot ? '1' : '0', stage2: stock.is_stage2 ? '1' : '0', confluence: stock.is_confluence ? '1' : '0'});
-                const cells = row.cells;
-                cells[1].textContent = '';
-                const strong = document.createElement('strong'); strong.textContent = stock.symbol;
-                const name = document.createElement('small'); name.textContent = stock.company_name;
-                cells[1].append(strong, name);
-                cells[2].textContent = stock.symbol; cells[4].textContent = stock.sector || '—'; cells[6].textContent = formatMetric(stock.high_52w); cells[8].textContent = stock.volume || '—';
-                cells[3].textContent = setupLabel(stock); cells[3].className = 'screen-setup';
-                cells[5].textContent = numericMetric(stock.cmp) === null ? '—' : '₹' + formatMetric(stock.cmp);
-                cells[7].innerHTML = positionMarkup(stock);
-                cells[9].textContent = formatMetric(stock.volume_multiplier, '×');
-                cells[9].title = 'Volume: ' + (stock.volume || '—');
-                cells[10].textContent = formatMetric(stock.pe); cells[11].textContent = formatMetric(stock.roe, '%');
-                row.tabIndex = 0;
-                row.setAttribute('aria-label', 'Open ' + stock.symbol);
-                row.addEventListener('keydown', e => { if (e.target === row && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); openStockDrawer(stock.symbol); } });
-            });
+            screenerTemplateRow = tbody.rows[0].cloneNode(true);
             const headers = table.tHead.rows[0].cells;
             headers[1].firstChild.textContent = 'Company '; headers[3].textContent = 'Setup'; headers[5].firstChild.textContent = 'Price '; headers[9].firstChild.textContent = 'Volume '; headers[7].firstChild.textContent = '52W ';
+            headers[10].firstChild.textContent = 'P/E '; headers[11].firstChild.textContent = 'ROE ';
             document.querySelectorAll('.star-btn[data-sym]').forEach(b => b.setAttribute('aria-label', 'Toggle watchlist for ' + b.dataset.sym));
             const bar = document.querySelector('.screener-filter-bar');
             const details = document.createElement('details'); details.id = 'screenAdvanced'; details.ontoggle = toggleAdvancedFilters;
             const summary = document.createElement('summary'); summary.textContent = 'Advanced Filters'; summary.setAttribute('aria-label', 'Advanced Filters'); details.append(summary);
             details.append(bar.querySelector('.filter-row-top'), document.getElementById('powerSlidersPanel'));
             bar.append(details);
-            const sort = document.createElement('select'); sort.className = 'sector-select'; sort.setAttribute('aria-label', 'Sort results');
-            sort.innerHTML = '<option value="">Sort</option><option value="1">Company</option><option value="5">Price</option><option value="7">52W Position</option><option value="9">Volume</option><option value="11">ROE</option>';
-            sort.onchange = () => { if (sort.value) sortTable('screenerTable', Number(sort.value)); };
+            const sort = document.createElement('select'); sort.className = 'sector-select'; sort.id = 'investorSort'; sort.setAttribute('aria-label', 'Sort results');
+            sort.innerHTML = '<option value="coverage_desc">Ratios available first</option><option value="published">Published order</option><option value="company_asc">Company A–Z</option><option value="price_desc">Price high to low</option><option value="price_asc">Price low to high</option><option value="pe_asc">P/E low to high</option><option value="roe_desc">ROE high to low</option><option value="manual" disabled hidden>Table heading order</option>';
+            sort.onchange = () => { if (window.sortInvestorResults) window.sortInvestorResults(sort.value); };
             bar.querySelector('.filter-row-bottom').append(sort);
-            document.querySelectorAll('[data-market-session]').forEach(el => el.textContent = 'Data as of ' + (getMarketSessionDate() || '—'));
-            updateWatchlistUI(); syncScreenButtons(); applyScreenerFilters();
+            const sectorSelect = document.getElementById('screenerSectorSelect');
+            if (![...sectorSelect.options].some(option => option.value === '__missing__')) sectorSelect.add(new Option('Sector unavailable', '__missing__'));
+            if (window.setupInvestorFilters) window.setupInvestorFilters();
+            document.querySelectorAll('[data-market-session]').forEach(el => el.textContent = 'Universe prices as of ' + (APP_DATA.universe_as_of || '—'));
+            setScreenerPopulation(document.body.classList.contains('screen-fresher') ? 'fresher' : 'intermediate');
+            syncScreenButtons(); applyScreenerFilters();
         }
         document.addEventListener('DOMContentLoaded', initializeScreeningUI);
 
@@ -14639,7 +14781,11 @@
             });
 
             rows.forEach(r => tbody.appendChild(r));
-            if (tableId === 'screenerTable') screenerFilteredRows = rows.filter(r => screenerFilteredRows.includes(r));
+            if (tableId === 'screenerTable') {
+                screenerFilteredRows = rows.filter(r => screenerFilteredRows.includes(r));
+                const sortSelect = document.getElementById('investorSort');
+                if (sortSelect) sortSelect.value = 'manual';
+            }
 
             // Re-render pagination if this is the screener table
             if (tableId === 'screenerTable') {
@@ -15873,7 +16019,7 @@
         }
 
         // ── Screener Pagination State ──
-        const SCREENER_PAGE_SIZE = 100;
+        const SCREENER_PAGE_SIZE = 24;
         let screenerCurrentPage = 1;
         let screenerFilteredRows = []; // holds DOM row refs for the current filtered set
 
@@ -15922,8 +16068,8 @@
                 const matchesRoe  = minRoe <= 0 || roe >= minRoe;
                 const matchesPe   = maxPe >= 80 || (pe > 0 && pe <= maxPe);
 
-                const matchesSector = (selectedSector === 'ALL') || (sec === selectedSector);
-                const matchesQuery  = !query || row.innerText.toLowerCase().includes(query);
+                const matchesSector = selectedSector === 'ALL' || (selectedSector === '__missing__' ? !sec : sec === selectedSector);
+                const matchesQuery  = !query || row.textContent.toLowerCase().includes(query);
 
                 return matchesPresets && matchesDist && matchesVol && matchesRoe && matchesPe && matchesSector && matchesQuery;
             });
@@ -15932,6 +16078,7 @@
             screenerCurrentPage = 1;
             renderScreenerPage();
             renderActiveFilterTags(selectedSector);
+            if (window.syncInvestorFilterUrl) window.syncInvestorFilterUrl();
         }
 
         function renderScreenerPage() {
@@ -15981,6 +16128,7 @@
 
             // Render pagination buttons on both top and bottom
             renderScreenerPagination(totalPages);
+            if (window.renderInvestorV1Cards) window.renderInvestorV1Cards(screenerFilteredRows.slice(startIdx, endIdx));
         }
 
         function renderScreenerPagination(totalPages) {
@@ -16049,8 +16197,8 @@
                     'CONFLUENCE': '⭐ Confluence Leaders',
                     'MOMENTUM': '🔥 Momentum > 85',
                     'VOL_SURGE': '🌊 Vol Surge > 1.5x',
-                    'HIGH_ROE': '💎 ROE > 15%',
-                    'VALUE_PE': '🏷️ P/E < 25'
+                    'HIGH_ROE': 'ROE ≥ 15%',
+                    'VALUE_PE': 'P/E ≤ 25'
                 };
                 activeScreenerPresets.forEach(preset => {
                     const label = presetNames[preset] || preset;
@@ -16059,7 +16207,7 @@
             }
 
             if (selectedSector && selectedSector !== 'ALL') {
-                tags.push(`<span class="active-tag-pill">Sector: ${selectedSector} <span class="remove-tag" onclick="clearSectorFilter()">✕</span></span>`);
+                tags.push(`<span class="active-tag-pill">Sector: ${selectedSector === '__missing__' ? 'Unavailable' : selectedSector} <span class="remove-tag" onclick="clearSectorFilter()">✕</span></span>`);
             }
 
             const dist = parseFloat(document.getElementById('sliderDist')?.value ?? '-20');
@@ -16109,17 +16257,14 @@
         }
 
         function copyFilteredTradingViewWatchlist() {
-            const table = document.getElementById('screenerTable');
-            if (!table) return;
-            const visibleRows = Array.from(table.querySelectorAll('tbody tr')).filter(r => r.style.display !== 'none');
-            if (!visibleRows.length) {
+            if (!screenerFilteredRows.length) {
                 showToast('No stocks matching current filters');
                 return;
             }
-            const symbols = visibleRows.map(r => `NSE:${r.dataset.sym}`).join(',');
+            const symbols = screenerFilteredRows.map(r => `NSE:${r.dataset.sym}`).join(',');
             navigator.clipboard.writeText(symbols).then(() => {
-                showToast(`Copied ${visibleRows.length} filtered symbols for TradingView!`);
-                trackEvent('tradingview_copy_clicked', { count: visibleRows.length, preset: activeScreenerPreset });
+                showToast(`Copied ${screenerFilteredRows.length} filtered symbols for TradingView!`);
+                trackEvent('tradingview_copy_clicked', { count: screenerFilteredRows.length, preset: activeScreenerPreset });
             }).catch(() => {
                 showToast('Clipboard access denied');
             });
@@ -17870,10 +18015,11 @@
             const results = searchStocksFuzzy(val);
 
             if (results.length === 0) {
+                const safeQuery = String(val).replace(/[&<>"']/g, ch => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[ch]));
                 listEl.innerHTML = `
                     <div style="padding: 18px; text-align: center; color: var(--text-muted); font-size: 0.85rem;">
                         <div style="font-size: 1.4rem; margin-bottom: 6px;">🔍</div>
-                        <strong>No direct matches for "${val}"</strong>
+                        <strong>No direct matches for "${safeQuery}"</strong>
                         <div style="font-size: 0.76rem; margin-top: 4px; color: var(--text-secondary);">
                             Try searching by parent group (e.g. <em>Tata, Adani, SBI, HDFC</em>) or ticker.
                         </div>
@@ -17899,8 +18045,9 @@
                             <span class="drop-name">${s.name} • <span style="color:var(--text-muted);">${s.sector}</span></span>
                         </div>
                         <div class="drop-meta-right">
-                            <span class="drop-cmp">₹${s.cmp > 0 ? s.cmp.toLocaleString() : '—'}</span>
-                            <span class="drop-dist">${s.dist >= 0 ? 'At 52W High' : s.dist.toFixed(1) + '% from 52W'}</span>
+                            <span class="drop-cmp">${s.cmp > 0 ? '₹' + s.cmp.toLocaleString('en-IN') : 'Price unavailable'}</span>
+                            <span class="drop-asof">Price as of ${canonicalUniverseAsOf || APP_DATA.universe_as_of || 'date unavailable'}</span>
+                            <span class="drop-dist">${s.dist === null ? '52W unavailable' : (s.dist >= 0 ? 'At 52W High' : s.dist.toFixed(1) + '% from 52W')}</span>
                         </div>
                     </div>
                 `;
@@ -18332,15 +18479,14 @@
                 const rowName = row[1] || cleanSym;
                 const rich = screenerMap.get(cleanSym);
 
-                const hasRichDist = !!rich && rich.dist_52w_pct !== undefined && rich.dist_52w_pct !== null;
                 const hasRowDist = row[3] !== null && row[3] !== undefined;
 
-                const sector = rich?.sector || row[5] || 'NSE Equities';
-                const cmp = parseFloat(rich?.cmp) || (row[2] !== null && row[2] !== undefined ? Number(row[2]) : 0) || 0;
-                const dist = parseFloat(rich?.dist_52w_pct) || (hasRowDist ? Number(row[3]) : 0) || 0;
-                const mom = parseInt(rich?.momentum_score) || (row[4] ? Number(row[4]) : (rich ? 75 : 60));
-                const isBreakout = (hasRichDist || hasRowDist) && Math.abs(dist) <= 1.0;
-                const isCoiled = (hasRichDist || hasRowDist) && dist >= -3.5 && dist < -0.5;
+                const sector = row[5] || rich?.sector || 'Sector unavailable';
+                const cmp = row[2] !== null && row[2] !== undefined ? Number(row[2]) : (numericMetric(rich?.cmp) || 0);
+                const dist = hasRowDist ? Number(row[3]) : null;
+                const mom = row[4] !== null && row[4] !== undefined ? Number(row[4]) : null;
+                const isBreakout = dist !== null && Math.abs(dist) <= 1.0;
+                const isCoiled = dist !== null && dist >= -3.5 && dist < -0.5;
                 const isStage2 = !!rich?.stage2;
 
                 const name = rich?.company_name || rowName;
@@ -18415,8 +18561,10 @@
         function readDossierFundamentals(primary = {}, fallback = {}) {
             const result = {};
             for (const key of ['pe', 'pb', 'roe', 'roce']) {
-                const value = numericMetric(primary?.[key]);
-                result[key] = value === null ? numericMetric(fallback?.[key]) : value;
+                // An explicit null in the certified public Dossier means
+                // unavailable; a secondary preview must not override it.
+                result[key] = Object.prototype.hasOwnProperty.call(primary, key)
+                    ? numericMetric(primary[key]) : numericMetric(fallback?.[key]);
             }
             return result;
         }
@@ -18434,22 +18582,31 @@
             if (metadata) {
                 const source = document.createElement('span');
                 source.style.fontWeight = '600';
-                source.textContent = 'Reported Financials';
-                const asOfDate = String(metadata.as_of || metadata.retrieved_at || '').slice(0, 10);
-                provenance.append(source, document.createTextNode(' · Standalone' + (asOfDate ? ' · As of ' + asOfDate : '')));
+                source.textContent = 'Ratio source: ' + (metadata.source || 'Stockerboard Fundamental Gold');
+                const scope = metadata.scope ? String(metadata.scope).toLowerCase() : 'official';
+                const retrieved = String(metadata.retrieved_at || '').slice(0, 10);
+                provenance.append(source, document.createTextNode(' · ' + scope + (retrieved ? ' · As of ' + retrieved : '')));
+            } else {
+                const source = document.createElement('span');
+                source.style.fontWeight = '600';
+                source.textContent = 'Ratio source: Certified public company dossier';
+                provenance.append(source, document.createTextNode(' · Reporting periods and scope vary by measure'));
             }
             const notice = document.getElementById('dossierFundamentalsNotice');
             notice.hidden = available === 4;
             notice.textContent = available === 0
-                ? 'P/E, P/B, ROE and ROCE are not included in the available data for this stock. Price history and sector information are shown below; missing ratios are not zero.'
+                ? 'P/E, P/B, ROE and ROCE are unavailable for this stock in the current release. Missing values are displayed as —.'
                 : 'Some ratios are not included in the available data for this stock. An em dash indicates an unavailable value.';
         }
 
         function normalizeDossierJson(json, cleanSym) {
             if (!json) return null;
             const canonical = [...(APP_DATA.market_screener || []), ...(APP_DATA.fundamental_leaders || [])].find(stock => stock.symbol === cleanSym);
-            const metadata = fundamentalsSnapshot[cleanSym] || json.fundamentals_metadata || canonical?.fundamentals_metadata;
-            const fundamentals = readDossierFundamentals(fundamentalsSnapshot[cleanSym] || json.fundamentals || json, canonical);
+            const metadata = ['pe', 'pb', 'roe', 'roce'].some(key => Object.prototype.hasOwnProperty.call(json, key))
+                ? null : (fundamentalsSnapshot[cleanSym] || researchPreviewSnapshot[cleanSym] || null);
+            // Certified public Dossier V2 values take precedence. The research
+            // snapshot can fill a genuinely missing field without recalculation.
+            const fundamentals = readDossierFundamentals(json, fundamentalsSnapshot[cleanSym] || researchPreviewSnapshot[cleanSym] || {});
             const price = json.price || {};
             const range = json.range || {};
             const metrics = json.metrics || {};
@@ -18457,17 +18614,17 @@
             const candles = json.candles || [];
             
             const cmp = parseFloat(price.close) || 0;
-            const high_52w = parseFloat(range.high_52w) || (cmp > 0 ? cmp * 1.15 : 0);
-            const low_52w = parseFloat(range.low_52w) || (cmp > 0 ? cmp * 0.72 : 0);
+            const high_52w = numericMetric(range.high_52w);
+            const low_52w = numericMetric(range.low_52w);
             const dist_52w = typeof range.distance_from_high_pct === 'number' ? 
                 range.distance_from_high_pct : 
-                (high_52w > 0 ? ((cmp - high_52w) / high_52w) * 100 : 0);
+                (high_52w > 0 && cmp > 0 ? ((cmp - high_52w) / high_52w) * 100 : null);
 
-            const mom = parseInt(metrics.momentum_score) || 60;
-            const volMul = metrics.volume_multiplier || '1.1x';
-            const isBreakout = !!metrics.is_breakout || (dist_52w >= -1.0 && dist_52w <= 0.5);
-            const isCoiled = !!metrics.is_coiled || (dist_52w >= -3.5 && dist_52w < -1.0);
-            const isStage2 = !!metrics.is_stage2 || (cmp > low_52w * 1.25);
+            const mom = numericMetric(metrics.momentum_score);
+            const volMul = metrics.volume_multiplier || null;
+            const isBreakout = !!metrics.is_breakout || (dist_52w !== null && dist_52w >= -1.0 && dist_52w <= 0.5);
+            const isCoiled = !!metrics.is_coiled || (dist_52w !== null && dist_52w >= -3.5 && dist_52w < -1.0);
+            const isStage2 = !!metrics.is_stage2;
 
             const pivot = parseFloat(risk.technical_pivot) || 0;
             const floor = parseFloat(risk.invalidation_floor) || 0;
@@ -18478,8 +18635,9 @@
                 company_name: json.company_name || cleanSym,
                 sector: json.sector || json.industry || 'NSE Equities',
                 cmp: cmp,
+                price_as_of: price.as_of || null,
                 change: parseFloat(price.change) || 0,
-                change_pct: parseFloat(price.change_pct) || 0,
+                change_pct: numericMetric(price.change_pct),
                 high_52w: high_52w,
                 low_52w: low_52w,
                 dist_52w_pct: dist_52w,
@@ -18495,14 +18653,37 @@
                 isScreenerQualified: true,
                 ...fundamentals,
                 fundamentals_metadata: metadata,
+                ratios_status: json.ratios_status || {},
+                dossier_provenance: json.v2_canonical || null,
+                market_cap_crore: numericMetric(json.market_cap_crore),
+                revenue_crore: numericMetric(json.revenue_crore),
+                pat_crore: numericMetric(json.pat_crore),
+                eps: numericMetric(json.eps),
+                net_margin_pct: numericMetric(json.net_margin_pct),
+                net_worth_crore: numericMetric(json.net_worth_crore),
+                total_debt_crore: numericMetric(json.total_debt_crore),
+                net_debt: numericMetric(json.net_debt),
+                working_capital: numericMetric(json.working_capital),
+                book_value: numericMetric(json.book_value),
+                bvps: numericMetric(json.bvps),
+                debt_to_equity: numericMetric(json.debt_to_equity),
+                current_ratio: numericMetric(json.current_ratio),
+                industry: json.industry || null,
+                fundamental_gold: json.fundamental_gold || null,
                 source: 'static_dossier'
             };
+        }
+
+        function canonicalDossierSymbol(symbol) {
+            const normalized = String(symbol).replace(/NSE:|BSE:|\.NS|\.BO/gi, '').trim().toUpperCase();
+            // The archived ZOMATO dossier and current ETERNAL dossier share ISIN INE758T01015.
+            return normalized === 'ZOMATO' ? 'ETERNAL' : normalized;
         }
 
         async function preloadDossier(symbol) {
             await loadFundamentalsSnapshot();
             if (!symbol) return;
-            const cleanSym = String(symbol).replace(/NSE:|BSE:|\.NS|\.BO/gi, '').trim().toUpperCase();
+            const cleanSym = canonicalDossierSymbol(symbol);
             if (dossierCache.has(cleanSym)) return;
             
             const shard = getDossierShard(cleanSym);
@@ -18520,6 +18701,7 @@
 
         async function fetchDossierData(cleanSym, signal) {
             await loadFundamentalsSnapshot();
+            cleanSym = canonicalDossierSymbol(cleanSym);
             if (dossierCache.has(cleanSym)) {
                 return dossierCache.get(cleanSym);
             }
@@ -18531,38 +18713,6 @@
                 ...(APP_DATA.fundamental_leaders || [])
             ];
             const direct = pool.find(p => p && p.symbol && p.symbol.replace(/NSE:|BSE:|\.NS|\.BO/gi, '').trim().toUpperCase() === cleanSym);
-            if (direct && direct.candles && direct.candles.length > 0) {
-                const norm = {
-                    symbol: cleanSym,
-                    company_name: direct.company_name || cleanSym,
-                    sector: direct.sector || 'NSE Equities',
-                    cmp: parseFloat(direct.cmp) || 0,
-                    change: parseFloat(direct.change) || 0,
-                    change_pct: parseFloat(direct.change_pct) || 0,
-                    high_52w: parseFloat(direct.high_52w) || 0,
-                    low_52w: parseFloat(direct.low_52w) || 0,
-                    dist_52w_pct: parseFloat(direct.dist_52w_pct) || 0,
-                    momentum_score: parseInt(direct.momentum_score) || 75,
-                    volume_multiplier: direct.volume_multiplier || '1.1x',
-                    is_breakout: Math.abs(parseFloat(direct.dist_52w_pct) || 0) <= 1.0,
-                    is_coiled: (parseFloat(direct.dist_52w_pct) >= -3.5 && parseFloat(direct.dist_52w_pct) < -0.5),
-                    is_stage2: !!direct.stage2,
-                    technical_pivot: parseFloat(direct.technical_pivot) || 0,
-                    invalidation_floor: parseFloat(direct.invalidation_floor) || 0,
-                    risk_per_share: parseFloat(direct.risk_per_share) || 0,
-                    candles: direct.candles || [],
-                    isScreenerQualified: true,
-                    pe: direct.pe,
-                    pb: direct.pb,
-                    roe: direct.roe,
-                    roce: direct.roce,
-                    fundamentals_metadata: direct.fundamentals_metadata,
-                    richData: direct
-                };
-                putInDossierCache(cleanSym, norm);
-                return norm;
-            }
-
             try {
                 const shard = getDossierShard(cleanSym);
                 const version = getMarketSessionDate();
@@ -18570,10 +18720,7 @@
                 if (resp.ok) {
                     const json = await resp.json();
                     const norm = normalizeDossierJson(json, cleanSym);
-                    if (direct) {
-                        norm.richData = direct;
-                        Object.assign(norm, readDossierFundamentals(norm, direct));
-                    }
+                    if (direct) norm.richData = direct;
                     putInDossierCache(cleanSym, norm);
                     return norm;
                 }
@@ -18587,13 +18734,15 @@
                 company_name: direct.company_name || cleanSym,
                 sector: direct.sector || 'NSE Equities',
                 cmp: parseFloat(direct.cmp) || 0,
+                price_as_of: getMarketSessionDate(),
                 high_52w: parseFloat(direct.high_52w) || 0,
                 low_52w: parseFloat(direct.low_52w) || 0,
-                dist_52w_pct: parseFloat(direct.dist_52w_pct) || 0,
-                momentum_score: parseInt(direct.momentum_score) || 70,
+                dist_52w_pct: numericMetric(direct.dist_52w_pct),
+                momentum_score: numericMetric(direct.momentum_score),
+                volume_multiplier: direct.volume_multiplier || null,
                 candles: [],
-                ...readDossierFundamentals(fundamentalsSnapshot[cleanSym] || direct),
-                fundamentals_metadata: fundamentalsSnapshot[cleanSym] || direct.fundamentals_metadata,
+                ...readDossierFundamentals(fundamentalsSnapshot[cleanSym] || researchPreviewSnapshot[cleanSym] || {}),
+                fundamentals_metadata: fundamentalsSnapshot[cleanSym] || researchPreviewSnapshot[cleanSym] || null,
                 richData: direct
             } : null;
         }
@@ -18601,7 +18750,7 @@
         async function openStockDossier(symbol, updateHistory) {
             if (updateHistory === undefined) updateHistory = true;
             if (!symbol) return;
-            const cleanSym = String(symbol).replace(/NSE:|BSE:|\.NS|\.BO/gi, '').trim().toUpperCase();
+            const cleanSym = canonicalDossierSymbol(symbol);
 
             // 1. Concurrency Guard: Abort any pending in-flight request
             if (activeDossierAbortController) {
@@ -18636,6 +18785,10 @@
             setTxt('dossierSym', cleanSym);
             setTxt('dossierName', searchMeta ? searchMeta.name : (cleanSym + ' Limited'));
             setTxt('dossierSector', searchMeta?.sector || 'NSE Equities');
+            setTxt('dossierMarketCap', 'Market cap —');
+            const summaryGrid = document.getElementById('investorSummaryGrid');
+            if (summaryGrid) summaryGrid.replaceChildren();
+            if (window.activateInvestorDossierTab) window.activateInvestorDossierTab('overview');
 
             // 4. Shimmer Skeleton State while fetching
             const isCached = dossierCache.has(cleanSym);
@@ -18671,21 +18824,20 @@
                 const snapEntry = fundamentalsSnapshot ? fundamentalsSnapshot[cleanSym] : null;
                 const snapFundamentals = snapEntry ? readDossierFundamentals(snapEntry) : {};
                 const metaCmp = searchMeta ? (parseFloat(searchMeta.cmp) || 0) : 0;
-                const metaDist = searchMeta ? (parseFloat(searchMeta.dist) || -2.0) : -2.0;
-                // Estimate 52W range from CMP + dist-from-high when the shard is absent.
-                const estHigh = metaCmp > 0 ? metaCmp / (1 + metaDist / 100) : 0;
-                const estLow  = estHigh > 0 ? estHigh * 0.72 : 0;
+                const metaDist = numericMetric(searchMeta?.dist);
                 stockData = {
                     symbol: cleanSym,
                     company_name: searchMeta ? searchMeta.name : cleanSym,
                     sector: searchMeta?.sector || 'NSE Equities Universe',
                     cmp: metaCmp,
+                    price_as_of: APP_DATA.universe_as_of || null,
                     change: 0,
-                    change_pct: 0,
-                    high_52w: estHigh,
-                    low_52w: estLow,
+                    change_pct: null,
+                    high_52w: null,
+                    low_52w: null,
                     dist_52w_pct: metaDist,
-                    momentum_score: searchMeta ? (parseInt(searchMeta.momentum) || 50) : 50,
+                    momentum_score: numericMetric(searchMeta?.momentum),
+                    volume_multiplier: null,
                     is_breakout: searchMeta ? !!searchMeta.isBreakout : false,
                     is_coiled: searchMeta ? !!searchMeta.isCoiled : false,
                     is_stage2: searchMeta ? !!searchMeta.isStage2 : false,
@@ -18699,25 +18851,26 @@
 
             // 6. Populate Verified Metrics
             const cmp = stockData.cmp || 0;
-            setTxt('dossierCmp', cmp > 0 ? '₹' + cmp.toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2}) : 'Live Quote on NSE');
+            setTxt('dossierCmp', cmp > 0 ? '₹' + cmp.toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2}) : 'Price unavailable');
+            setTxt('dossierPriceAsOf', stockData.price_as_of ? '📅 Price as of ' + stockData.price_as_of : '📅 Price date unavailable');
 
             const changeEl = document.getElementById('dossierChange');
             if (changeEl) {
-                if (cmp > 0) {
-                    const chg = stockData.change_pct || 0;
+                if (cmp > 0 && numericMetric(stockData.change_pct) !== null) {
+                    const chg = stockData.change_pct;
                     changeEl.innerText = (chg >= 0 ? '▲ +' : '▼ ') + chg.toFixed(2) + '% (EOD Settled)';
                     changeEl.style.background = chg >= 0 ? 'rgba(16, 185, 129, 0.12)' : 'rgba(244, 63, 94, 0.12)';
                     changeEl.style.color = chg >= 0 ? '#10B981' : '#F43F5E';
                 } else {
-                    changeEl.innerText = 'Listed Equity';
+                    changeEl.innerText = 'Change unavailable';
                     changeEl.style.background = 'rgba(59, 130, 246, 0.12)';
                     changeEl.style.color = '#38BDF8';
                 }
             }
 
             // 52W Spectrum
-            const low = stockData.low_52w || (cmp > 0 ? cmp * 0.72 : 0);
-            const high = stockData.high_52w || (cmp > 0 ? cmp * 1.15 : 0);
+            const low = numericMetric(stockData.low_52w);
+            const high = numericMetric(stockData.high_52w);
             setTxt('dossierLow', low > 0 ? '₹' + low.toLocaleString('en-IN') : '—');
             setTxt('dossierHigh', high > 0 ? '₹' + high.toLocaleString('en-IN') : '—');
 
@@ -18726,15 +18879,18 @@
                 pct = Math.min(100, Math.max(0, ((cmp - low) / (high - low)) * 100));
             }
             const pinEl = document.getElementById('dossierPin');
-            if (pinEl) pinEl.style.left = pct + '%';
+            if (pinEl) {
+                pinEl.style.display = high > low && cmp > 0 ? '' : 'none';
+                pinEl.style.left = pct + '%';
+            }
 
-            const distVal = typeof stockData.dist_52w_pct === 'number' ? stockData.dist_52w_pct : 0;
-            setTxt('dossierDist52w', distVal >= -0.5 ? 'At 52-Week High' : distVal.toFixed(1) + '% from 52W Peak');
+            const distVal = numericMetric(stockData.dist_52w_pct);
+            setTxt('dossierDist52w', distVal === null ? '52-week range unavailable' : (distVal >= -0.5 ? 'At 52-Week High' : distVal.toFixed(1) + '% from 52W Peak'));
 
             // Quality Badge
             const badgeEl = document.getElementById('dossierBadge');
             if (badgeEl) {
-                badgeEl.innerText = '⭐ Quantitative Dossier Verified';
+                badgeEl.innerText = 'Public company dossier';
                 badgeEl.className = 'dossier-quality-badge';
             }
 
@@ -18754,13 +18910,14 @@
                 if (regimeVal) regimeVal.style.color = 'var(--accent-emerald)';
                 setTxt('dossierRegimeSub', 'Institutional Uptrend Template');
             } else {
-                setTxt('dossierRegimeVal', '📊 Core Holding');
+                setTxt('dossierRegimeVal', 'Setup unclassified');
                 if (regimeVal) regimeVal.style.color = 'var(--text-primary)';
-                setTxt('dossierRegimeSub', 'NSE Listed Scrip');
+                setTxt('dossierRegimeSub', 'No verified setup in this snapshot');
             }
 
-            setTxt('dossierMomVal', (stockData.momentum_score || 60) + '/100');
-            setTxt('dossierVolVal', stockData.volume_multiplier || '1.1x');
+            setTxt('dossierMomVal', numericMetric(stockData.momentum_score) === null ? '—' : stockData.momentum_score + '/100');
+            setTxt('dossierMomSub', numericMetric(stockData.momentum_score) === null ? 'Momentum unavailable' : 'Price momentum measure');
+            setTxt('dossierVolVal', stockData.volume_multiplier || '—');
 
             const hasPe = numericMetric(stockData.pe) !== null;
             const hasRoe = numericMetric(stockData.roe) !== null;
@@ -18794,8 +18951,8 @@
                     patternBadge.innerText = '⚡ Minervini Volatility Contraction Base';
                     patternBadge.className = 'drop-reason-pill drop-reason-blue';
                 } else if (cmp > 0) {
-                    patternBadge.innerText = '🟢 Stage 2 Moving Average Support Floor';
-                    patternBadge.className = 'drop-reason-pill drop-reason-green';
+                    patternBadge.innerText = 'No verified technical pattern';
+                    patternBadge.className = 'drop-reason-pill drop-reason-blue';
                 } else {
                     patternBadge.innerText = '✦ Verified NSE Scrip (Broad Market)';
                     patternBadge.className = 'drop-reason-pill drop-reason-blue';
@@ -18806,7 +18963,8 @@
 
             // Fundamentals Table
             renderDossierFundamentals(stockData);
-            setTxt('dossierTblHigh', low > 0 ? '₹' + high.toLocaleString('en-IN') : '—');
+            if (window.renderInvestorCompanySummary) window.renderInvestorCompanySummary(stockData);
+            setTxt('dossierTblHigh', high > 0 ? '₹' + high.toLocaleString('en-IN') : '—');
             setTxt('dossierTblLow', low > 0 ? '₹' + low.toLocaleString('en-IN') : '—');
             setTxt('dossierTblSector', stockData.sector || 'NSE Equities');
 
@@ -19018,37 +19176,39 @@
         function renderDossierPeers(sector, currentSym) {
             const peersContainer = document.getElementById('dossierPeersContainer');
             if (!peersContainer) return;
-
-            const allQualified = [
-                ...(APP_DATA.market_screener || []),
-                ...(APP_DATA.breakouts || []),
-                ...(APP_DATA.consolidations || [])
-            ];
-
-            let peers = allQualified.filter(s => s && s.symbol !== currentSym && s.sector === sector && sector !== 'NSE Equities' && sector !== 'NSE Equities Universe').slice(0, 4);
-
-            if (peers.length === 0) {
-                // Fallback to top market leaders
-                peers = allQualified.filter(s => s && s.symbol !== currentSym).slice(0, 4);
-            }
-
-            if (peers.length === 0) {
-                peersContainer.innerHTML = '<div style="color:var(--text-muted); font-size:0.8rem; padding:12px 0;">No active momentum peers qualified today.</div>';
+            peersContainer.replaceChildren();
+            if (!sector || sector === 'NSE Equities' || sector === 'NSE Equities Universe') {
+                peersContainer.textContent = 'Peer comparison unavailable: no published sector for this company.';
                 return;
             }
-
-            peersContainer.innerHTML = peers.map(p => `
-                <div style="display:flex; align-items:center; justify-content:space-between; padding:8px 0; border-bottom:1px solid var(--border-subtle); cursor:pointer;" onclick="openStockDossier('${p.symbol}')">
-                    <div>
-                        <strong style="font-family:var(--font-mono); color:var(--text-primary); font-size:0.88rem;">${p.symbol}</strong>
-                        <span style="font-size:0.75rem; color:var(--text-secondary); margin-left:6px;">${p.company_name || p.symbol}</span>
-                    </div>
-                    <div style="text-align:right;">
-                        <span style="font-family:var(--font-mono); font-size:0.84rem; color:var(--text-primary);">₹${p.cmp || '—'}</span>
-                        <span class="drop-reason-pill drop-reason-blue" style="margin-left:6px; font-size:0.65rem;">Mom ${p.momentum_score || 80}</span>
-                    </div>
-                </div>
-            `).join('');
+            const peerPool = investorUniverseStocks.size ? [...investorUniverseStocks.values()] : (APP_DATA.market_screener || []);
+            const peers = peerPool
+                .filter(stock => stock.symbol !== currentSym && stock.sector === sector)
+                .sort((a, b) => a.company_name.localeCompare(b.company_name))
+                .slice(0, 4);
+            if (!peers.length) {
+                peersContainer.textContent = 'No other companies with this published sector in the current universe.';
+                return;
+            }
+            const note = document.createElement('p');
+            note.className = 'dossier-peers-note';
+            note.textContent = `Same published sector: ${sector}. Showing the first four alphabetically; these are not valuation matches.`;
+            peersContainer.append(note);
+            peers.forEach(peer => {
+                const button = document.createElement('button');
+                button.type = 'button';
+                button.className = 'dossier-peer-row';
+                button.setAttribute('aria-label', 'View ' + (peer.company_name || peer.symbol));
+                button.onclick = () => openStockDossier(peer.symbol);
+                const identity = document.createElement('span');
+                const ticker = document.createElement('strong'); ticker.textContent = peer.symbol;
+                const name = document.createElement('small'); name.textContent = peer.company_name || peer.symbol;
+                identity.append(ticker, name);
+                const price = document.createElement('span');
+                price.textContent = numericMetric(peer.cmp) === null ? '—' : '₹' + formatMetric(peer.cmp);
+                button.append(identity, price);
+                peersContainer.append(button);
+            });
         }
 
         // Watchlist Integration for Dossier
