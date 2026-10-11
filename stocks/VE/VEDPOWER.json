@@ -1,664 +1,432 @@
 {
-  "analytics_reason": null,
-  "analytics_status": "AVAILABLE",
-  "candles": [
-    {
-      "close": 40.94,
-      "high": 43.89,
-      "low": 39.71,
-      "open": 41.8,
-      "time": "2026-06-15",
-      "volume": 83622072
-    },
-    {
-      "close": 40.0,
-      "high": 42.98,
-      "low": 39.0,
-      "open": 39.72,
-      "time": "2026-06-16",
-      "volume": 118608009
-    },
-    {
-      "close": 42.0,
-      "high": 42.0,
-      "low": 39.0,
-      "open": 39.0,
-      "time": "2026-06-17",
-      "volume": 66063988
-    },
-    {
-      "close": 40.53,
-      "high": 43.5,
-      "low": 40.25,
-      "open": 42.1,
-      "time": "2026-06-18",
-      "volume": 117590862
-    },
-    {
-      "close": 41.03,
-      "high": 42.25,
-      "low": 39.2,
-      "open": 40.4,
-      "time": "2026-06-19",
-      "volume": 38488201
-    },
-    {
-      "close": 43.08,
-      "high": 43.08,
-      "low": 41.55,
-      "open": 42.0,
-      "time": "2026-06-22",
-      "volume": 30870704
-    },
-    {
-      "close": 44.07,
-      "high": 45.23,
-      "low": 43.5,
-      "open": 45.23,
-      "time": "2026-06-23",
-      "volume": 46659213
-    },
-    {
-      "close": 43.61,
-      "high": 44.39,
-      "low": 42.32,
-      "open": 43.55,
-      "time": "2026-06-24",
-      "volume": 32833224
-    },
-    {
-      "close": 42.42,
-      "high": 43.6,
-      "low": 41.5,
-      "open": 43.5,
-      "time": "2026-06-25",
-      "volume": 19993411
-    },
-    {
-      "close": 41.3,
-      "high": 42.85,
-      "low": 41.0,
-      "open": 42.5,
-      "time": "2026-06-29",
-      "volume": 25015835
-    },
-    {
-      "close": 40.28,
-      "high": 42.3,
-      "low": 39.41,
-      "open": 40.8,
-      "time": "2026-06-30",
-      "volume": 47764781
-    },
-    {
-      "close": 44.21,
-      "high": 47.24,
-      "low": 39.84,
-      "open": 40.39,
-      "time": "2026-07-01",
-      "volume": 208285426
-    },
-    {
-      "close": 48.64,
-      "high": 49.49,
-      "low": 44.58,
-      "open": 44.8,
-      "time": "2026-07-02",
-      "volume": 180663243
-    },
-    {
-      "close": 45.71,
-      "high": 49.88,
-      "low": 44.5,
-      "open": 49.0,
-      "time": "2026-07-03",
-      "volume": 158538274
-    },
-    {
-      "close": 43.01,
-      "high": 46.31,
-      "low": 42.71,
-      "open": 45.49,
-      "time": "2026-07-06",
-      "volume": 55423682
-    },
-    {
-      "close": 41.82,
-      "high": 43.2,
-      "low": 41.44,
-      "open": 43.0,
-      "time": "2026-07-07",
-      "volume": 34850256
-    },
-    {
-      "close": 40.74,
-      "high": 43.2,
-      "low": 40.52,
-      "open": 41.36,
-      "time": "2026-07-08",
-      "volume": 67057540
-    },
-    {
-      "close": 41.18,
-      "high": 42.03,
-      "low": 40.32,
-      "open": 41.7,
-      "time": "2026-07-09",
-      "volume": 36325807
-    },
-    {
-      "close": 41.83,
-      "high": 42.76,
-      "low": 41.11,
-      "open": 41.5,
-      "time": "2026-07-10",
-      "volume": 44361003
-    },
-    {
-      "close": 41.43,
-      "high": 42.49,
-      "low": 41.11,
-      "open": 41.5,
-      "time": "2026-07-13",
-      "volume": 36357613
-    },
-    {
-      "close": 40.04,
-      "high": 41.41,
-      "low": 40.0,
-      "open": 41.41,
-      "time": "2026-07-14",
-      "volume": 30277448
-    },
-    {
-      "close": 39.18,
-      "high": 40.72,
-      "low": 39.1,
-      "open": 40.3,
-      "time": "2026-07-15",
-      "volume": 26638228
-    },
-    {
-      "close": 39.33,
-      "high": 40.05,
-      "low": 39.06,
-      "open": 39.23,
-      "time": "2026-07-16",
-      "volume": 17604386
-    },
-    {
-      "close": 37.9,
-      "high": 39.45,
-      "low": 37.1,
-      "open": 39.33,
-      "time": "2026-07-17",
-      "volume": 37963969
-    },
-    {
-      "close": 38.31,
-      "high": 38.55,
-      "low": 37.22,
-      "open": 38.0,
-      "time": "2026-07-20",
-      "volume": 21099591
-    },
-    {
-      "close": 37.79,
-      "high": 38.47,
-      "low": 37.64,
-      "open": 38.41,
-      "time": "2026-07-21",
-      "volume": 10110519
-    },
-    {
-      "close": 35.38,
-      "high": 37.7,
-      "low": 35.2,
-      "open": 37.7,
-      "time": "2026-07-22",
-      "volume": 28104044
-    },
-    {
-      "close": 34.65,
-      "high": 36.14,
-      "low": 34.45,
-      "open": 35.2,
-      "time": "2026-07-23",
-      "volume": 20779854
-    },
-    {
-      "close": 35.01,
-      "high": 35.42,
-      "low": 33.88,
-      "open": 34.54,
-      "time": "2026-07-24",
-      "volume": 20588022
-    },
-    {
-      "close": 36.97,
-      "high": 37.43,
-      "low": 35.41,
-      "open": 35.74,
-      "time": "2026-07-27",
-      "volume": 23415598
-    },
-    {
-      "close": 35.66,
-      "high": 37.19,
-      "low": 35.45,
-      "open": 37.19,
-      "time": "2026-07-28",
-      "volume": 15136629
-    },
-    {
-      "close": 35.32,
-      "high": 36.26,
-      "low": 34.7,
-      "open": 36.0,
-      "time": "2026-07-29",
-      "volume": 16950302
-    },
-    {
-      "close": 33.82,
-      "high": 35.17,
-      "low": 33.66,
-      "open": 34.5,
-      "time": "2026-07-30",
-      "volume": 32094523
-    },
-    {
-      "close": 34.52,
-      "high": 35.54,
-      "low": 33.06,
-      "open": 34.0,
-      "time": "2026-07-31",
-      "volume": 31142945
-    },
-    {
-      "close": 35.2,
-      "high": 35.64,
-      "low": 34.45,
-      "open": 34.9,
-      "time": "2026-08-03",
-      "volume": 18829447
-    },
-    {
-      "close": 35.62,
-      "high": 36.48,
-      "low": 34.91,
-      "open": 35.1,
-      "time": "2026-08-04",
-      "volume": 31685114
-    },
-    {
-      "close": 35.47,
-      "high": 36.8,
-      "low": 35.2,
-      "open": 36.1,
-      "time": "2026-08-05",
-      "volume": 24311532
-    },
-    {
-      "close": 35.78,
-      "high": 36.15,
-      "low": 35.45,
-      "open": 35.6,
-      "time": "2026-08-06",
-      "volume": 13299378
-    },
-    {
-      "close": 35.46,
-      "high": 36.35,
-      "low": 35.3,
-      "open": 35.7,
-      "time": "2026-08-07",
-      "volume": 15005706
-    },
-    {
-      "close": 36.5,
-      "high": 37.71,
-      "low": 34.95,
-      "open": 35.46,
-      "time": "2026-08-10",
-      "volume": 68918280
-    },
-    {
-      "close": 36.61,
-      "high": 37.68,
-      "low": 36.0,
-      "open": 36.7,
-      "time": "2026-08-11",
-      "volume": 49965525
-    },
-    {
-      "close": 36.75,
-      "high": 37.15,
-      "low": 36.36,
-      "open": 36.5,
-      "time": "2026-08-12",
-      "volume": 22883820
-    },
-    {
-      "close": 36.88,
-      "high": 37.1,
-      "low": 36.52,
-      "open": 36.9,
-      "time": "2026-08-13",
-      "volume": 16618372
-    },
-    {
-      "close": 36.54,
-      "high": 37.02,
-      "low": 36.38,
-      "open": 36.72,
-      "time": "2026-08-14",
-      "volume": 10410449
-    },
-    {
-      "close": 36.59,
-      "high": 36.98,
-      "low": 36.08,
-      "open": 36.5,
-      "time": "2026-08-17",
-      "volume": 9962371
-    },
-    {
-      "close": 36.18,
-      "high": 37.14,
-      "low": 36.13,
-      "open": 36.49,
-      "time": "2026-08-18",
-      "volume": 17816221
-    },
-    {
-      "close": 35.87,
-      "high": 36.27,
-      "low": 35.73,
-      "open": 36.19,
-      "time": "2026-08-19",
-      "volume": 9691147
-    },
-    {
-      "close": 36.04,
-      "high": 36.4,
-      "low": 35.65,
-      "open": 36.09,
-      "time": "2026-08-20",
-      "volume": 14747662
-    },
-    {
-      "close": 36.3,
-      "high": 36.72,
-      "low": 35.85,
-      "open": 36.1,
-      "time": "2026-08-21",
-      "volume": 13542613
-    },
-    {
-      "close": 36.3,
-      "high": 37.3,
-      "low": 36.14,
-      "open": 36.5,
-      "time": "2026-08-24",
-      "volume": 20320133
-    },
-    {
-      "close": 36.93,
-      "high": 37.07,
-      "low": 36.07,
-      "open": 36.35,
-      "time": "2026-08-25",
-      "volume": 12513028
-    },
-    {
-      "close": 37.49,
-      "high": 37.69,
-      "low": 36.84,
-      "open": 36.94,
-      "time": "2026-08-26",
-      "volume": 20656004
-    },
-    {
-      "close": 37.5,
-      "high": 38.35,
-      "low": 37.25,
-      "open": 37.6,
-      "time": "2026-08-27",
-      "volume": 19385875
-    },
-    {
-      "close": 36.64,
-      "high": 37.75,
-      "low": 36.51,
-      "open": 37.65,
-      "time": "2026-08-28",
-      "volume": 13250516
-    },
-    {
-      "close": 35.18,
-      "high": 36.64,
-      "low": 35.1,
-      "open": 36.64,
-      "time": "2026-08-31",
-      "volume": 17247572
-    },
-    {
-      "close": 34.83,
-      "high": 35.48,
-      "low": 34.56,
-      "open": 35.4,
-      "time": "2026-09-01",
-      "volume": 8570993
-    },
-    {
-      "close": 34.72,
-      "high": 35.07,
-      "low": 34.22,
-      "open": 34.75,
-      "time": "2026-09-02",
-      "volume": 9127321
-    },
-    {
-      "close": 34.29,
-      "high": 35.1,
-      "low": 34.2,
-      "open": 34.9,
-      "time": "2026-09-03",
-      "volume": 11033569
-    },
-    {
-      "close": 34.2,
-      "high": 34.59,
-      "low": 34.13,
-      "open": 34.37,
-      "time": "2026-09-04",
-      "volume": 12242508
-    },
-    {
-      "close": 34.12,
-      "high": 34.54,
-      "low": 33.75,
-      "open": 34.2,
-      "time": "2026-09-07",
-      "volume": 12155109
-    },
-    {
-      "close": 34.28,
-      "high": 34.82,
-      "low": 34.15,
-      "open": 34.3,
-      "time": "2026-09-08",
-      "volume": 8548535
-    },
-    {
-      "close": 34.28,
-      "high": 34.75,
-      "low": 34.02,
-      "open": 34.34,
-      "time": "2026-09-09",
-      "volume": 8453812
-    },
-    {
-      "close": 33.96,
-      "high": 34.5,
-      "low": 33.81,
-      "open": 34.39,
-      "time": "2026-09-10",
-      "volume": 10913217
-    },
-    {
-      "close": 33.62,
-      "high": 33.94,
-      "low": 33.34,
-      "open": 33.8,
-      "time": "2026-09-11",
-      "volume": 5964281
-    },
-    {
-      "close": 31.68,
-      "high": 33.55,
-      "low": 31.56,
-      "open": 33.51,
-      "time": "2026-09-15",
-      "volume": 15567840
-    },
-    {
-      "close": 31.0,
-      "high": 31.8,
-      "low": 30.78,
-      "open": 31.5,
-      "time": "2026-09-16",
-      "volume": 13474724
-    },
-    {
-      "close": 31.01,
-      "high": 31.33,
-      "low": 30.76,
-      "open": 30.95,
-      "time": "2026-09-17",
-      "volume": 7700949
-    },
-    {
-      "close": 31.17,
-      "high": 31.6,
-      "low": 30.44,
-      "open": 31.19,
-      "time": "2026-09-18",
-      "volume": 12482165
-    },
-    {
-      "close": 30.78,
-      "high": 31.25,
-      "low": 30.7,
-      "open": 31.17,
-      "time": "2026-09-21",
-      "volume": 5959497
-    },
-    {
-      "close": 31.07,
-      "high": 31.61,
-      "low": 30.77,
-      "open": 30.86,
-      "time": "2026-09-22",
-      "volume": 18011957
-    },
-    {
-      "close": 32.98,
-      "high": 33.44,
-      "low": 31.28,
-      "open": 31.29,
-      "time": "2026-09-23",
-      "volume": 28255830
-    },
-    {
-      "close": 32.1,
-      "high": 32.85,
-      "low": 31.9,
-      "open": 32.85,
-      "time": "2026-09-24",
-      "volume": 9200935
-    },
-    {
-      "close": 32.95,
-      "high": 33.1,
-      "low": 31.53,
-      "open": 32.1,
-      "time": "2026-09-25",
-      "volume": 14269362
-    },
-    {
-      "close": 32.15,
-      "high": 33.11,
-      "low": 32.11,
-      "open": 33.09,
-      "time": "2026-09-28",
-      "volume": 6021208
-    },
-    {
-      "close": 34.25,
-      "high": 34.8,
-      "low": 31.8,
-      "open": 32.17,
-      "time": "2026-09-29",
-      "volume": 35097382
-    },
-    {
-      "close": 32.84,
-      "high": 34.3,
-      "low": 32.7,
-      "open": 34.25,
-      "time": "2026-09-30",
-      "volume": 17056090
-    },
-    {
-      "close": 32.77,
-      "high": 33.0,
-      "low": 31.95,
-      "open": 32.91,
-      "time": "2026-10-01",
-      "volume": 18705111
-    }
-  ],
+  "symbol": "VEDPOWER",
   "company_name": "VEDANTA POWER LIMITED",
-  "history": {
-    "first_session": "2026-06-15",
-    "has_full_52w_history": false,
-    "last_session": "2026-10-01",
-    "sessions_available": 77
-  },
-  "industry": null,
-  "isin": "INE694L01019",
-  "metrics": {
-    "is_breakout": false,
-    "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.38x"
-  },
+  "sector": "EQUITY",
+  "industry": "EQ",
+  "isin": null,
+  "canonical_company_id": "CMP_VEDPOWER",
   "price": {
-    "as_of": "2026-10-01",
-    "change": -0.07,
-    "change_pct": -0.21,
-    "close": 32.77,
-    "previous_close": 32.84,
+    "as_of": "2026-10-09",
+    "close": 31.59,
     "type": "EOD_CLOSE",
-    "volume": 18705111
+    "value": 31.59,
+    "change": 0,
+    "change_pct": null
   },
-  "range": {
-    "distance_from_high_pct": -34.3,
-    "distance_from_low_pct": 7.65,
-    "high_52w": 49.88,
-    "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 30.44,
-    "range_position_pct": 11.99
+  "cmp": 31.59,
+  "price_as_of": "2026-10-09",
+  "pe": null,
+  "pb": 6.3768,
+  "roe": null,
+  "roce": null,
+  "debt_to_equity": null,
+  "current_ratio": null,
+  "market_cap": 123529158720.63,
+  "market_cap_crore": 12352.92,
+  "revenue": null,
+  "revenue_crore": null,
+  "pat": null,
+  "pat_crore": null,
+  "eps": null,
+  "net_margin_pct": -16.2255,
+  "net_worth": null,
+  "net_worth_crore": null,
+  "total_debt": null,
+  "total_debt_crore": null,
+  "net_debt": null,
+  "working_capital": null,
+  "book_value": null,
+  "bvps": null,
+  "ratios_status": {
+    "pe": {
+      "status": "UNAVAILABLE",
+      "reason": "MISSING_EPS"
+    },
+    "pb": {
+      "status": "AVAILABLE",
+      "reason": "OK"
+    },
+    "roe": {
+      "status": "UNAVAILABLE",
+      "reason": "UNSUPPORTED_ATTRIBUTION_SEMANTICS"
+    },
+    "roce": {
+      "status": "PENDING_LAYER",
+      "reason": "UNSUPPORTED_INPUT_CONTRACT"
+    },
+    "debt_to_equity": {
+      "status": "UNAVAILABLE",
+      "reason": "MISSING_TOTAL_DEBT"
+    },
+    "current_ratio": {
+      "status": "UNAVAILABLE",
+      "reason": "MISSING_CURRENT_ASSETS"
+    }
   },
-  "risk_model": {
-    "invalidation_floor": 31.62,
-    "risk_per_share": 1.81,
-    "technical_pivot": 33.43
+  "candles": [],
+  "range": {},
+  "metrics": {},
+  "risk_model": {},
+  "analytics_status": "AVAILABLE",
+  "analytics_reason": null,
+  "v2_canonical": {
+    "analytics_reason": null,
+    "analytics_status": "AVAILABLE",
+    "balance_sheet": {
+      "BOOK_VALUE": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "BOOK_VALUE",
+        "lineage_ref": "MET_CMP_VEDPOWER_2026-06-30_CONSOLIDATED_BOOK_VALUE",
+        "reason": "MISSING_NET_WORTH",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      },
+      "BVPS": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "INR_PER_SHARE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "BOOK_VALUE_PER_SHARE",
+        "lineage_ref": "MET_CMP_VEDPOWER_2026-06-30_CONSOLIDATED_BOOK_VALUE_PER_SHARE",
+        "reason": "MISSING_NET_WORTH",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR_PER_SHARE",
+        "value": null
+      },
+      "CAPITAL_EMPLOYED": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "CAPITAL_EMPLOYED",
+        "lineage_ref": "MET_CMP_VEDPOWER_2026-06-30_CONSOLIDATED_CAPITAL_EMPLOYED",
+        "reason": "MISSING_INPUT",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      },
+      "NET_DEBT": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "NET_DEBT",
+        "lineage_ref": "MET_CMP_VEDPOWER_2026-06-30_CONSOLIDATED_NET_DEBT",
+        "reason": "MISSING_DEBT_COMPONENT",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      },
+      "NET_WORTH": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "NET_WORTH",
+        "lineage_ref": "MET_CMP_VEDPOWER_2026-06-30_CONSOLIDATED_NET_WORTH",
+        "reason": "MISSING_NET_WORTH",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      },
+      "TOTAL_DEBT": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "TOTAL_DEBT",
+        "lineage_ref": "MET_CMP_VEDPOWER_2026-06-30_CONSOLIDATED_TOTAL_DEBT",
+        "reason": "MISSING_DEBT_COMPONENT",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      },
+      "WORKING_CAPITAL": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "WORKING_CAPITAL",
+        "lineage_ref": "MET_CMP_VEDPOWER_2026-06-30_CONSOLIDATED_WORKING_CAPITAL",
+        "reason": "MISSING_CURRENT_ASSETS",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      }
+    },
+    "business_performance": {
+      "EPS_BASIC_TTM": {
+        "contract_version": "FUNDAMENTAL_GOLD_V1.0.0",
+        "display_unit": "INR_PER_SHARE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "EPS_BASIC_TTM",
+        "lineage_ref": "2466e7a843a281452954268abda7279f",
+        "reason": "INSUFFICIENT_TTM_HISTORY",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FUNDAMENTAL_GOLD",
+        "source_release": "FGV1_b7d3352a52309b06_ddc7eeba3fb281c7",
+        "status": "UNAVAILABLE",
+        "unit": "INR_PER_SHARE",
+        "value": null
+      },
+      "NET_MARGIN_PCT": {
+        "contract_version": "FUNDAMENTAL_GOLD_V1.0.0",
+        "display_unit": "PERCENT",
+        "display_value": -16.23,
+        "financial_period_end": "2026-06-30",
+        "key": "NET_MARGIN_PCT",
+        "lineage_ref": "205a7078dbd263e02866c0ce04e6665c",
+        "reason": "OK",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FUNDAMENTAL_GOLD",
+        "source_release": "FGV1_b7d3352a52309b06_ddc7eeba3fb281c7",
+        "status": "AVAILABLE",
+        "unit": "PERCENT",
+        "value": -16.2255
+      },
+      "PAT_TTM": {
+        "contract_version": "FUNDAMENTAL_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "PAT_TTM",
+        "lineage_ref": "c4ec905503e8105973de87afaf64061b",
+        "reason": "INSUFFICIENT_TTM_HISTORY",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FUNDAMENTAL_GOLD",
+        "source_release": "FGV1_b7d3352a52309b06_ddc7eeba3fb281c7",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      },
+      "REVENUE_TTM": {
+        "contract_version": "FUNDAMENTAL_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "REVENUE_TTM",
+        "lineage_ref": "7b73e16577df7e988d3bad8025030aca",
+        "reason": "INSUFFICIENT_TTM_HISTORY",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FUNDAMENTAL_GOLD",
+        "source_release": "FGV1_b7d3352a52309b06_ddc7eeba3fb281c7",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      }
+    },
+    "company": {
+      "canonical_company_id": "CMP_VEDPOWER",
+      "company_name": "VEDANTA POWER LIMITED",
+      "industry": "EQ",
+      "isin": null,
+      "sector": "EQUITY",
+      "symbol": "VEDPOWER"
+    },
+    "company_name": "VEDANTA POWER LIMITED",
+    "industry": "EQ",
+    "isin": null,
+    "market": {
+      "market_cap": {
+        "contract_version": "VALUATION_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": 12352.92,
+        "key": "MARKET_CAP",
+        "lineage_ref": "EVAL_SESS_CMP_VEDPOWER_2026-10-09_MARKET_CAP",
+        "price_as_of": "2026-10-09",
+        "reason": "OK",
+        "scope": "COMPANY",
+        "snapshot_as_of": "2026-10-09",
+        "source_layer": "VALUATION_GOLD",
+        "source_release": "VALUATION_GOLD_v1_b691b5af1886f65a_595cc0e3c4504939",
+        "status": "AVAILABLE",
+        "unit": "INR",
+        "value": 123529158720.63
+      },
+      "price": {
+        "contract_version": "OHLC_V1",
+        "display_unit": "INR",
+        "display_value": 31.59,
+        "key": "PRICE",
+        "lineage_ref": "VEDPOWER.NS_2026-10-09",
+        "price_as_of": "2026-10-09",
+        "reason": "OK",
+        "scope": null,
+        "source_layer": "OHLC",
+        "source_release": "OHLC_PROD_20261009",
+        "status": "AVAILABLE",
+        "unit": "INR",
+        "value": 31.59
+      },
+      "price_as_of": "2026-10-09"
+    },
+    "metadata": {
+      "contract_sha256": "cb5efe2f8e08dfcee51a8c6e3cb6b0945cd7e3b9fae7146a65fcfaf667b07d34",
+      "dossier_contract": "DOSSIER_V2_SHADOW_1.0.0",
+      "freshness_triad": {
+        "actual_latest_ohlc_session": "2026-10-09",
+        "expected_latest_completed_session": "2026-10-09",
+        "valuation_gold_price_as_of": "2026-10-09"
+      },
+      "governance": {
+        "emergency_transport_mirror": "SAMCO",
+        "primary_market_source": "NSE",
+        "screener_production_dependency": "ZERO",
+        "third_party_computed_fundamentals_allowed": "NO",
+        "third_party_computed_market_data_allowed": "NO"
+      },
+      "manifest_sha256": "2988f0162255c6c39f6f621a4a48c57862bc222ba53f0987d3196c1f2d438626",
+      "source_releases": {
+        "balance_sheet_gold": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "financial_ratios_gold": "FR_GOLD_v1_0_2_08949b3ab5a81a8d_57110ce1fd86c839",
+        "fundamental_gold": "FGV1_b7d3352a52309b06_ddc7eeba3fb281c7",
+        "ohlc": "OHLC_PROD_20261009",
+        "share_ledger": "SHARE_LEDGER_v1_a04e3f1d4cd6aab8_2f200c3225b283de",
+        "valuation_gold": "VALUATION_GOLD_v1_b691b5af1886f65a_595cc0e3c4504939"
+      }
+    },
+    "price": 31.59,
+    "ratios": {
+      "CURRENT_RATIO": {
+        "contract_version": "FINANCIAL_RATIOS_GOLD_V1.0.2",
+        "display_unit": "RATIO",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "CURRENT_RATIO",
+        "lineage_ref": "RATIO_MET_CMP_VEDPOWER_2026-06-30_CONSOLIDATED_CURRENT_RATIO",
+        "reason": "MISSING_CURRENT_ASSETS",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FINANCIAL_RATIOS_GOLD",
+        "source_release": "FR_GOLD_v1_0_2_08949b3ab5a81a8d_57110ce1fd86c839",
+        "status": "UNAVAILABLE",
+        "unit": "RATIO",
+        "value": null
+      },
+      "DEBT_TO_EQUITY": {
+        "contract_version": "FINANCIAL_RATIOS_GOLD_V1.0.2",
+        "display_unit": "RATIO",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "DEBT_TO_EQUITY",
+        "lineage_ref": "RATIO_MET_CMP_VEDPOWER_2026-06-30_CONSOLIDATED_DEBT_TO_EQUITY",
+        "reason": "MISSING_TOTAL_DEBT",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FINANCIAL_RATIOS_GOLD",
+        "source_release": "FR_GOLD_v1_0_2_08949b3ab5a81a8d_57110ce1fd86c839",
+        "status": "UNAVAILABLE",
+        "unit": "RATIO",
+        "value": null
+      },
+      "ROCE": {
+        "contract_version": "FINANCIAL_RATIOS_GOLD_V1.0.2",
+        "display_unit": "PERCENT",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "ROCE",
+        "lineage_ref": "RATIO_MET_CMP_VEDPOWER_2026-06-30_CONSOLIDATED_ROCE",
+        "reason": "UNSUPPORTED_INPUT_CONTRACT",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FINANCIAL_RATIOS_GOLD",
+        "source_release": "FR_GOLD_v1_0_2_08949b3ab5a81a8d_57110ce1fd86c839",
+        "status": "PENDING_LAYER",
+        "unit": "PERCENT",
+        "value": null
+      },
+      "ROE": {
+        "contract_version": "FINANCIAL_RATIOS_GOLD_V1.0.2",
+        "display_unit": "PERCENT",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "ROE",
+        "lineage_ref": "RATIO_MET_CMP_VEDPOWER_2026-06-30_CONSOLIDATED_ROE",
+        "reason": "UNSUPPORTED_ATTRIBUTION_SEMANTICS",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FINANCIAL_RATIOS_GOLD",
+        "source_release": "FR_GOLD_v1_0_2_08949b3ab5a81a8d_57110ce1fd86c839",
+        "status": "UNAVAILABLE",
+        "unit": "PERCENT",
+        "value": null
+      }
+    },
+    "schema_version": "2.0.0-shadow",
+    "sector": "EQUITY",
+    "symbol": "VEDPOWER",
+    "valuation": {
+      "MARKET_CAP": {
+        "contract_version": "VALUATION_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": 12352.92,
+        "key": "MARKET_CAP",
+        "lineage_ref": "EVAL_SESS_CMP_VEDPOWER_2026-10-09_MARKET_CAP",
+        "price_as_of": "2026-10-09",
+        "reason": "OK",
+        "scope": "COMPANY",
+        "snapshot_as_of": "2026-10-09",
+        "source_layer": "VALUATION_GOLD",
+        "source_release": "VALUATION_GOLD_v1_b691b5af1886f65a_595cc0e3c4504939",
+        "status": "AVAILABLE",
+        "unit": "INR",
+        "value": 123529158720.63
+      },
+      "P_B": {
+        "contract_version": "VALUATION_GOLD_V1.0.0",
+        "display_unit": "RATIO",
+        "display_value": 6.38,
+        "key": "P_B",
+        "lineage_ref": "EVAL_SESS_CMP_VEDPOWER_2026-10-09_P_B",
+        "price_as_of": "2026-10-09",
+        "reason": "OK",
+        "scope": "CONSOLIDATED",
+        "snapshot_as_of": "2026-10-09",
+        "source_layer": "VALUATION_GOLD",
+        "source_release": "VALUATION_GOLD_v1_b691b5af1886f65a_595cc0e3c4504939",
+        "status": "AVAILABLE",
+        "unit": "RATIO",
+        "value": 6.3768
+      },
+      "P_E": {
+        "contract_version": "VALUATION_GOLD_V1.0.0",
+        "display_unit": "RATIO",
+        "display_value": null,
+        "key": "P_E",
+        "lineage_ref": "EVAL_SESS_CMP_VEDPOWER_2026-10-09_P_E",
+        "price_as_of": "2026-10-09",
+        "reason": "MISSING_EPS",
+        "scope": "CONSOLIDATED",
+        "snapshot_as_of": "2026-10-09",
+        "source_layer": "VALUATION_GOLD",
+        "source_release": "VALUATION_GOLD_v1_b691b5af1886f65a_595cc0e3c4504939",
+        "status": "UNAVAILABLE",
+        "unit": "RATIO",
+        "value": null
+      }
+    }
   },
-  "schema_version": "1.0",
-  "sector": null,
-  "symbol": "VEDPOWER"
+  "adapter_version": "DOSSIER_V2_COMPAT_ADAPTER_1.0.0"
 }

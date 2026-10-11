@@ -1,224 +1,417 @@
 {
-  "analytics_reason": null,
-  "analytics_status": "AVAILABLE",
-  "candles": [
-    {
-      "close": 96.0,
-      "high": 96.03,
-      "low": 96.0,
-      "open": 96.03,
-      "time": "2026-08-17",
-      "volume": 1058
-    },
-    {
-      "close": 96.06,
-      "high": 99.0,
-      "low": 96.06,
-      "open": 99.0,
-      "time": "2026-08-18",
-      "volume": 522
-    },
-    {
-      "close": 96.07,
-      "high": 96.07,
-      "low": 96.07,
-      "open": 96.07,
-      "time": "2026-08-20",
-      "volume": 15
-    },
-    {
-      "close": 96.08,
-      "high": 97.03,
-      "low": 96.07,
-      "open": 97.03,
-      "time": "2026-08-21",
-      "volume": 14
-    },
-    {
-      "close": 94.0,
-      "high": 96.08,
-      "low": 94.0,
-      "open": 96.08,
-      "time": "2026-08-26",
-      "volume": 50
-    },
-    {
-      "close": 94.5,
-      "high": 95.0,
-      "low": 94.0,
-      "open": 94.0,
-      "time": "2026-08-28",
-      "volume": 50
-    },
-    {
-      "close": 97.0,
-      "high": 97.0,
-      "low": 97.0,
-      "open": 97.0,
-      "time": "2026-08-31",
-      "volume": 2005
-    },
-    {
-      "close": 97.2,
-      "high": 97.2,
-      "low": 97.2,
-      "open": 97.2,
-      "time": "2026-09-02",
-      "volume": 3
-    },
-    {
-      "close": 102.0,
-      "high": 102.0,
-      "low": 102.0,
-      "open": 102.0,
-      "time": "2026-09-03",
-      "volume": 105
-    },
-    {
-      "close": 107.1,
-      "high": 107.1,
-      "low": 107.1,
-      "open": 107.1,
-      "time": "2026-09-04",
-      "volume": 1
-    },
-    {
-      "close": 108.0,
-      "high": 111.38,
-      "low": 107.63,
-      "open": 111.38,
-      "time": "2026-09-07",
-      "volume": 179
-    },
-    {
-      "close": 103.0,
-      "high": 103.0,
-      "low": 103.0,
-      "open": 103.0,
-      "time": "2026-09-08",
-      "volume": 25
-    },
-    {
-      "close": 103.0,
-      "high": 103.0,
-      "low": 103.0,
-      "open": 103.0,
-      "time": "2026-09-09",
-      "volume": 36
-    },
-    {
-      "close": 103.0,
-      "high": 103.0,
-      "low": 103.0,
-      "open": 103.0,
-      "time": "2026-09-10",
-      "volume": 51
-    },
-    {
-      "close": 102.0,
-      "high": 102.0,
-      "low": 102.0,
-      "open": 102.0,
-      "time": "2026-09-16",
-      "volume": 4
-    },
-    {
-      "close": 98.0,
-      "high": 98.0,
-      "low": 98.0,
-      "open": 98.0,
-      "time": "2026-09-21",
-      "volume": 684
-    },
-    {
-      "close": 100.0,
-      "high": 100.0,
-      "low": 93.1,
-      "open": 93.1,
-      "time": "2026-09-22",
-      "volume": 462
-    },
-    {
-      "close": 95.05,
-      "high": 100.0,
-      "low": 95.05,
-      "open": 100.0,
-      "time": "2026-09-23",
-      "volume": 31
-    },
-    {
-      "close": 95.3,
-      "high": 99.0,
-      "low": 95.3,
-      "open": 99.0,
-      "time": "2026-09-24",
-      "volume": 212
-    },
-    {
-      "close": 99.9,
-      "high": 100.0,
-      "low": 99.9,
-      "open": 100.0,
-      "time": "2026-09-25",
-      "volume": 6
-    },
-    {
-      "close": 95.0,
-      "high": 99.9,
-      "low": 95.0,
-      "open": 99.9,
-      "time": "2026-09-28",
-      "volume": 953
-    },
-    {
-      "close": 95.52,
-      "high": 99.75,
-      "low": 94.1,
-      "open": 94.1,
-      "time": "2026-10-01",
-      "volume": 4200
-    }
-  ],
+  "symbol": "VASUPRADA",
   "company_name": "SHRI VASUPRADA PLANTATIONS LIM",
-  "history": {
-    "first_session": "2026-08-17",
-    "has_full_52w_history": false,
-    "last_session": "2026-10-01",
-    "sessions_available": 22
-  },
-  "industry": null,
-  "isin": "INE574G01013",
-  "metrics": {
-    "is_breakout": false,
-    "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 68,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "9.24x"
-  },
+  "sector": "EQUITY",
+  "industry": "EQ",
+  "isin": null,
+  "canonical_company_id": "CMP_VASUPRADA",
   "price": {
-    "as_of": "2026-10-01",
-    "change": 0.52,
-    "change_pct": 0.55,
-    "close": 95.52,
-    "previous_close": 95.0,
+    "as_of": "2026-10-09",
+    "close": 99.5,
     "type": "EOD_CLOSE",
-    "volume": 4200
+    "value": 99.5,
+    "change": 0,
+    "change_pct": null
   },
-  "range": {
-    "distance_from_high_pct": -14.24,
-    "distance_from_low_pct": 2.6,
-    "high_52w": 111.38,
-    "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 93.1,
-    "range_position_pct": 13.24
+  "cmp": 99.5,
+  "price_as_of": "2026-10-09",
+  "pe": null,
+  "pb": null,
+  "roe": null,
+  "roce": null,
+  "debt_to_equity": null,
+  "current_ratio": null,
+  "market_cap": 824297999.0,
+  "market_cap_crore": 82.43,
+  "revenue": null,
+  "revenue_crore": null,
+  "pat": null,
+  "pat_crore": null,
+  "eps": null,
+  "net_margin_pct": null,
+  "net_worth": null,
+  "net_worth_crore": null,
+  "total_debt": null,
+  "total_debt_crore": null,
+  "net_debt": null,
+  "working_capital": null,
+  "book_value": null,
+  "bvps": null,
+  "ratios_status": {
+    "pe": {
+      "status": "UNAVAILABLE",
+      "reason": "MISSING_EPS"
+    },
+    "pb": {
+      "status": "UNAVAILABLE",
+      "reason": "MISSING_BOOK_VALUE"
+    },
+    "roe": {
+      "status": "UNAVAILABLE",
+      "reason": "COMPANY_NOT_IN_FINANCIAL_RATIOS_GOLD"
+    },
+    "roce": {
+      "status": "UNAVAILABLE",
+      "reason": "COMPANY_NOT_IN_FINANCIAL_RATIOS_GOLD"
+    },
+    "debt_to_equity": {
+      "status": "UNAVAILABLE",
+      "reason": "COMPANY_NOT_IN_FINANCIAL_RATIOS_GOLD"
+    },
+    "current_ratio": {
+      "status": "UNAVAILABLE",
+      "reason": "COMPANY_NOT_IN_FINANCIAL_RATIOS_GOLD"
+    }
   },
-  "risk_model": {
-    "invalidation_floor": 92.18,
-    "risk_per_share": 5.25,
-    "technical_pivot": 97.43
+  "candles": [],
+  "range": {},
+  "metrics": {},
+  "risk_model": {},
+  "analytics_status": "AVAILABLE",
+  "analytics_reason": null,
+  "v2_canonical": {
+    "analytics_reason": null,
+    "analytics_status": "AVAILABLE",
+    "balance_sheet": {
+      "BOOK_VALUE": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "key": "BOOK_VALUE",
+        "lineage_ref": null,
+        "reason": "COMPANY_NOT_IN_BALANCE_SHEET_GOLD",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      },
+      "BVPS": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "INR_PER_SHARE",
+        "display_value": null,
+        "key": "BOOK_VALUE_PER_SHARE",
+        "lineage_ref": null,
+        "reason": "COMPANY_NOT_IN_BALANCE_SHEET_GOLD",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR_PER_SHARE",
+        "value": null
+      },
+      "CAPITAL_EMPLOYED": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "key": "CAPITAL_EMPLOYED",
+        "lineage_ref": null,
+        "reason": "COMPANY_NOT_IN_BALANCE_SHEET_GOLD",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      },
+      "NET_DEBT": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "key": "NET_DEBT",
+        "lineage_ref": null,
+        "reason": "COMPANY_NOT_IN_BALANCE_SHEET_GOLD",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      },
+      "NET_WORTH": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "key": "NET_WORTH",
+        "lineage_ref": null,
+        "reason": "COMPANY_NOT_IN_BALANCE_SHEET_GOLD",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      },
+      "TOTAL_DEBT": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "key": "TOTAL_DEBT",
+        "lineage_ref": null,
+        "reason": "COMPANY_NOT_IN_BALANCE_SHEET_GOLD",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      },
+      "WORKING_CAPITAL": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "key": "WORKING_CAPITAL",
+        "lineage_ref": null,
+        "reason": "COMPANY_NOT_IN_BALANCE_SHEET_GOLD",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      }
+    },
+    "business_performance": {
+      "EPS_BASIC_TTM": {
+        "contract_version": "FUNDAMENTAL_GOLD_V1.0.0",
+        "display_unit": "INR_PER_SHARE",
+        "display_value": null,
+        "key": "EPS_BASIC_TTM",
+        "lineage_ref": null,
+        "reason": "UNSUPPORTED_BY_FUNDAMENTAL_GOLD_V1",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FUNDAMENTAL_GOLD",
+        "source_release": "FGV1_b7d3352a52309b06_ddc7eeba3fb281c7",
+        "status": "UNAVAILABLE",
+        "unit": "INR_PER_SHARE",
+        "value": null
+      },
+      "NET_MARGIN_PCT": {
+        "contract_version": "FUNDAMENTAL_GOLD_V1.0.0",
+        "display_unit": "PERCENT",
+        "display_value": null,
+        "key": "NET_MARGIN_PCT",
+        "lineage_ref": null,
+        "reason": "UNSUPPORTED_BY_FUNDAMENTAL_GOLD_V1",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FUNDAMENTAL_GOLD",
+        "source_release": "FGV1_b7d3352a52309b06_ddc7eeba3fb281c7",
+        "status": "UNAVAILABLE",
+        "unit": "PERCENT",
+        "value": null
+      },
+      "PAT_TTM": {
+        "contract_version": "FUNDAMENTAL_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "key": "PAT_TTM",
+        "lineage_ref": null,
+        "reason": "UNSUPPORTED_BY_FUNDAMENTAL_GOLD_V1",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FUNDAMENTAL_GOLD",
+        "source_release": "FGV1_b7d3352a52309b06_ddc7eeba3fb281c7",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      },
+      "REVENUE_TTM": {
+        "contract_version": "FUNDAMENTAL_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "key": "REVENUE_TTM",
+        "lineage_ref": null,
+        "reason": "UNSUPPORTED_BY_FUNDAMENTAL_GOLD_V1",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FUNDAMENTAL_GOLD",
+        "source_release": "FGV1_b7d3352a52309b06_ddc7eeba3fb281c7",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      }
+    },
+    "company": {
+      "canonical_company_id": "CMP_VASUPRADA",
+      "company_name": "SHRI VASUPRADA PLANTATIONS LIM",
+      "industry": "EQ",
+      "isin": null,
+      "sector": "EQUITY",
+      "symbol": "VASUPRADA"
+    },
+    "company_name": "SHRI VASUPRADA PLANTATIONS LIM",
+    "industry": "EQ",
+    "isin": null,
+    "market": {
+      "market_cap": {
+        "contract_version": "VALUATION_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": 82.43,
+        "key": "MARKET_CAP",
+        "lineage_ref": "EVAL_SESS_CMP_VASUPRADA_2026-10-09_MARKET_CAP",
+        "price_as_of": "2026-10-09",
+        "reason": "OK",
+        "scope": "COMPANY",
+        "snapshot_as_of": "2026-10-09",
+        "source_layer": "VALUATION_GOLD",
+        "source_release": "VALUATION_GOLD_v1_b691b5af1886f65a_595cc0e3c4504939",
+        "status": "AVAILABLE",
+        "unit": "INR",
+        "value": 824297999.0
+      },
+      "price": {
+        "contract_version": "OHLC_V1",
+        "display_unit": "INR",
+        "display_value": 99.5,
+        "key": "PRICE",
+        "lineage_ref": "VASUPRADA.NS_2026-10-09",
+        "price_as_of": "2026-10-09",
+        "reason": "OK",
+        "scope": null,
+        "source_layer": "OHLC",
+        "source_release": "OHLC_PROD_20261009",
+        "status": "AVAILABLE",
+        "unit": "INR",
+        "value": 99.5
+      },
+      "price_as_of": "2026-10-09"
+    },
+    "metadata": {
+      "contract_sha256": "cb5efe2f8e08dfcee51a8c6e3cb6b0945cd7e3b9fae7146a65fcfaf667b07d34",
+      "dossier_contract": "DOSSIER_V2_SHADOW_1.0.0",
+      "freshness_triad": {
+        "actual_latest_ohlc_session": "2026-10-09",
+        "expected_latest_completed_session": "2026-10-09",
+        "valuation_gold_price_as_of": "2026-10-09"
+      },
+      "governance": {
+        "emergency_transport_mirror": "SAMCO",
+        "primary_market_source": "NSE",
+        "screener_production_dependency": "ZERO",
+        "third_party_computed_fundamentals_allowed": "NO",
+        "third_party_computed_market_data_allowed": "NO"
+      },
+      "manifest_sha256": "2988f0162255c6c39f6f621a4a48c57862bc222ba53f0987d3196c1f2d438626",
+      "source_releases": {
+        "balance_sheet_gold": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "financial_ratios_gold": "FR_GOLD_v1_0_2_08949b3ab5a81a8d_57110ce1fd86c839",
+        "fundamental_gold": "FGV1_b7d3352a52309b06_ddc7eeba3fb281c7",
+        "ohlc": "OHLC_PROD_20261009",
+        "share_ledger": "SHARE_LEDGER_v1_a04e3f1d4cd6aab8_2f200c3225b283de",
+        "valuation_gold": "VALUATION_GOLD_v1_b691b5af1886f65a_595cc0e3c4504939"
+      }
+    },
+    "price": 99.5,
+    "ratios": {
+      "CURRENT_RATIO": {
+        "contract_version": "FINANCIAL_RATIOS_GOLD_V1.0.2",
+        "display_unit": "RATIO",
+        "display_value": null,
+        "key": "CURRENT_RATIO",
+        "lineage_ref": null,
+        "reason": "COMPANY_NOT_IN_FINANCIAL_RATIOS_GOLD",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FINANCIAL_RATIOS_GOLD",
+        "source_release": "FR_GOLD_v1_0_2_08949b3ab5a81a8d_57110ce1fd86c839",
+        "status": "UNAVAILABLE",
+        "unit": "RATIO",
+        "value": null
+      },
+      "DEBT_TO_EQUITY": {
+        "contract_version": "FINANCIAL_RATIOS_GOLD_V1.0.2",
+        "display_unit": "RATIO",
+        "display_value": null,
+        "key": "DEBT_TO_EQUITY",
+        "lineage_ref": null,
+        "reason": "COMPANY_NOT_IN_FINANCIAL_RATIOS_GOLD",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FINANCIAL_RATIOS_GOLD",
+        "source_release": "FR_GOLD_v1_0_2_08949b3ab5a81a8d_57110ce1fd86c839",
+        "status": "UNAVAILABLE",
+        "unit": "RATIO",
+        "value": null
+      },
+      "ROCE": {
+        "contract_version": "FINANCIAL_RATIOS_GOLD_V1.0.2",
+        "display_unit": "PERCENT",
+        "display_value": null,
+        "key": "ROCE",
+        "lineage_ref": null,
+        "reason": "COMPANY_NOT_IN_FINANCIAL_RATIOS_GOLD",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FINANCIAL_RATIOS_GOLD",
+        "source_release": "FR_GOLD_v1_0_2_08949b3ab5a81a8d_57110ce1fd86c839",
+        "status": "UNAVAILABLE",
+        "unit": "PERCENT",
+        "value": null
+      },
+      "ROE": {
+        "contract_version": "FINANCIAL_RATIOS_GOLD_V1.0.2",
+        "display_unit": "PERCENT",
+        "display_value": null,
+        "key": "ROE",
+        "lineage_ref": null,
+        "reason": "COMPANY_NOT_IN_FINANCIAL_RATIOS_GOLD",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FINANCIAL_RATIOS_GOLD",
+        "source_release": "FR_GOLD_v1_0_2_08949b3ab5a81a8d_57110ce1fd86c839",
+        "status": "UNAVAILABLE",
+        "unit": "PERCENT",
+        "value": null
+      }
+    },
+    "schema_version": "2.0.0-shadow",
+    "sector": "EQUITY",
+    "symbol": "VASUPRADA",
+    "valuation": {
+      "MARKET_CAP": {
+        "contract_version": "VALUATION_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": 82.43,
+        "key": "MARKET_CAP",
+        "lineage_ref": "EVAL_SESS_CMP_VASUPRADA_2026-10-09_MARKET_CAP",
+        "price_as_of": "2026-10-09",
+        "reason": "OK",
+        "scope": "COMPANY",
+        "snapshot_as_of": "2026-10-09",
+        "source_layer": "VALUATION_GOLD",
+        "source_release": "VALUATION_GOLD_v1_b691b5af1886f65a_595cc0e3c4504939",
+        "status": "AVAILABLE",
+        "unit": "INR",
+        "value": 824297999.0
+      },
+      "P_B": {
+        "contract_version": "VALUATION_GOLD_V1.0.0",
+        "display_unit": "RATIO",
+        "display_value": null,
+        "key": "P_B",
+        "lineage_ref": "EVAL_SESS_CMP_VASUPRADA_2026-10-09_P_B",
+        "price_as_of": "2026-10-09",
+        "reason": "MISSING_BOOK_VALUE",
+        "scope": "CONSOLIDATED",
+        "snapshot_as_of": "2026-10-09",
+        "source_layer": "VALUATION_GOLD",
+        "source_release": "VALUATION_GOLD_v1_b691b5af1886f65a_595cc0e3c4504939",
+        "status": "UNAVAILABLE",
+        "unit": "RATIO",
+        "value": null
+      },
+      "P_E": {
+        "contract_version": "VALUATION_GOLD_V1.0.0",
+        "display_unit": "RATIO",
+        "display_value": null,
+        "key": "P_E",
+        "lineage_ref": "EVAL_SESS_CMP_VASUPRADA_2026-10-09_P_E",
+        "price_as_of": "2026-10-09",
+        "reason": "MISSING_EPS",
+        "scope": "CONSOLIDATED",
+        "snapshot_as_of": "2026-10-09",
+        "source_layer": "VALUATION_GOLD",
+        "source_release": "VALUATION_GOLD_v1_b691b5af1886f65a_595cc0e3c4504939",
+        "status": "UNAVAILABLE",
+        "unit": "RATIO",
+        "value": null
+      }
+    }
   },
-  "schema_version": "1.0",
-  "sector": null,
-  "symbol": "VASUPRADA"
+  "adapter_version": "DOSSIER_V2_COMPAT_ADAPTER_1.0.0"
 }

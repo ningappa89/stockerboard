@@ -1,224 +1,432 @@
 {
-  "analytics_reason": null,
-  "analytics_status": "AVAILABLE",
-  "candles": [
-    {
-      "close": 1097.7,
-      "high": 1180.0,
-      "low": 934.2,
-      "open": 988.0,
-      "time": "2026-09-01",
-      "volume": 30102923
-    },
-    {
-      "close": 1092.8,
-      "high": 1161.0,
-      "low": 1085.1,
-      "open": 1110.0,
-      "time": "2026-09-02",
-      "volume": 7998317
-    },
-    {
-      "close": 1076.85,
-      "high": 1126.75,
-      "low": 1068.55,
-      "open": 1115.05,
-      "time": "2026-09-03",
-      "volume": 1921139
-    },
-    {
-      "close": 1078.25,
-      "high": 1099.7,
-      "low": 1056.0,
-      "open": 1085.05,
-      "time": "2026-09-04",
-      "volume": 1509878
-    },
-    {
-      "close": 1098.7,
-      "high": 1141.0,
-      "low": 1068.0,
-      "open": 1068.0,
-      "time": "2026-09-07",
-      "volume": 3088018
-    },
-    {
-      "close": 1094.1,
-      "high": 1108.6,
-      "low": 1071.1,
-      "open": 1105.0,
-      "time": "2026-09-08",
-      "volume": 556915
-    },
-    {
-      "close": 1133.7,
-      "high": 1161.65,
-      "low": 1076.2,
-      "open": 1095.0,
-      "time": "2026-09-09",
-      "volume": 3521358
-    },
-    {
-      "close": 1138.95,
-      "high": 1193.7,
-      "low": 1115.35,
-      "open": 1142.0,
-      "time": "2026-09-10",
-      "volume": 2805864
-    },
-    {
-      "close": 1133.45,
-      "high": 1148.0,
-      "low": 1105.0,
-      "open": 1128.0,
-      "time": "2026-09-11",
-      "volume": 1010520
-    },
-    {
-      "close": 1080.1,
-      "high": 1174.9,
-      "low": 1070.05,
-      "open": 1133.5,
-      "time": "2026-09-15",
-      "volume": 1313080
-    },
-    {
-      "close": 1042.8,
-      "high": 1087.9,
-      "low": 1021.55,
-      "open": 1085.0,
-      "time": "2026-09-16",
-      "volume": 766135
-    },
-    {
-      "close": 1045.6,
-      "high": 1057.0,
-      "low": 1020.6,
-      "open": 1040.0,
-      "time": "2026-09-17",
-      "volume": 496349
-    },
-    {
-      "close": 1095.1,
-      "high": 1106.9,
-      "low": 1048.0,
-      "open": 1050.0,
-      "time": "2026-09-18",
-      "volume": 1099366
-    },
-    {
-      "close": 1156.05,
-      "high": 1171.0,
-      "low": 1104.7,
-      "open": 1104.7,
-      "time": "2026-09-21",
-      "volume": 1302847
-    },
-    {
-      "close": 1120.9,
-      "high": 1188.0,
-      "low": 1095.0,
-      "open": 1099.0,
-      "time": "2026-09-22",
-      "volume": 2182137
-    },
-    {
-      "close": 1062.0,
-      "high": 1128.2,
-      "low": 1051.65,
-      "open": 1127.0,
-      "time": "2026-09-23",
-      "volume": 1444410
-    },
-    {
-      "close": 1024.05,
-      "high": 1078.2,
-      "low": 1015.1,
-      "open": 1061.05,
-      "time": "2026-09-24",
-      "volume": 546818
-    },
-    {
-      "close": 1003.35,
-      "high": 1027.85,
-      "low": 985.5,
-      "open": 1023.0,
-      "time": "2026-09-25",
-      "volume": 675920
-    },
-    {
-      "close": 1055.75,
-      "high": 1074.95,
-      "low": 1001.0,
-      "open": 1001.05,
-      "time": "2026-09-28",
-      "volume": 1700556
-    },
-    {
-      "close": 1144.2,
-      "high": 1149.85,
-      "low": 1045.05,
-      "open": 1051.0,
-      "time": "2026-09-29",
-      "volume": 2887817
-    },
-    {
-      "close": 1176.75,
-      "high": 1196.8,
-      "low": 1138.2,
-      "open": 1158.0,
-      "time": "2026-09-30",
-      "volume": 2016189
-    },
-    {
-      "close": 1198.0,
-      "high": 1246.0,
-      "low": 1161.1,
-      "open": 1194.0,
-      "time": "2026-10-01",
-      "volume": 3713662
-    }
-  ],
+  "symbol": "SYMBIOTEC",
   "company_name": "Symbiotec Pharmalab Limited",
-  "history": {
-    "first_session": "2026-09-01",
-    "has_full_52w_history": false,
-    "last_session": "2026-10-01",
-    "sessions_available": 22
-  },
-  "industry": null,
-  "isin": "INE899I01028",
-  "metrics": {
-    "is_breakout": false,
-    "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 84,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "2.15x"
-  },
+  "sector": "EQUITY",
+  "industry": "EQ",
+  "isin": null,
+  "canonical_company_id": "CMP_SYMBIOTEC",
   "price": {
-    "as_of": "2026-10-01",
-    "change": 21.25,
-    "change_pct": 1.81,
-    "close": 1198.0,
-    "previous_close": 1176.75,
+    "as_of": "2026-10-09",
+    "close": 1087.5,
     "type": "EOD_CLOSE",
-    "volume": 3713662
+    "value": 1087.5,
+    "change": 0,
+    "change_pct": null
   },
-  "range": {
-    "distance_from_high_pct": -3.85,
-    "distance_from_low_pct": 28.24,
-    "high_52w": 1246.0,
-    "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 934.2,
-    "range_position_pct": 84.61
+  "cmp": 1087.5,
+  "price_as_of": "2026-10-09",
+  "pe": null,
+  "pb": null,
+  "roe": null,
+  "roce": null,
+  "debt_to_equity": null,
+  "current_ratio": null,
+  "market_cap": 69878521800.0,
+  "market_cap_crore": 6987.85,
+  "revenue": null,
+  "revenue_crore": null,
+  "pat": null,
+  "pat_crore": null,
+  "eps": null,
+  "net_margin_pct": 6.4456,
+  "net_worth": null,
+  "net_worth_crore": null,
+  "total_debt": null,
+  "total_debt_crore": null,
+  "net_debt": null,
+  "working_capital": null,
+  "book_value": null,
+  "bvps": null,
+  "ratios_status": {
+    "pe": {
+      "status": "UNAVAILABLE",
+      "reason": "MISSING_EPS"
+    },
+    "pb": {
+      "status": "UNAVAILABLE",
+      "reason": "MISSING_BOOK_VALUE"
+    },
+    "roe": {
+      "status": "UNAVAILABLE",
+      "reason": "UNSUPPORTED_ATTRIBUTION_SEMANTICS"
+    },
+    "roce": {
+      "status": "PENDING_LAYER",
+      "reason": "UNSUPPORTED_INPUT_CONTRACT"
+    },
+    "debt_to_equity": {
+      "status": "UNAVAILABLE",
+      "reason": "MISSING_TOTAL_DEBT"
+    },
+    "current_ratio": {
+      "status": "UNAVAILABLE",
+      "reason": "MISSING_CURRENT_ASSETS"
+    }
   },
-  "risk_model": {
-    "invalidation_floor": 1156.07,
-    "risk_per_share": 65.89,
-    "technical_pivot": 1221.96
+  "candles": [],
+  "range": {},
+  "metrics": {},
+  "risk_model": {},
+  "analytics_status": "AVAILABLE",
+  "analytics_reason": null,
+  "v2_canonical": {
+    "analytics_reason": null,
+    "analytics_status": "AVAILABLE",
+    "balance_sheet": {
+      "BOOK_VALUE": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "BOOK_VALUE",
+        "lineage_ref": "MET_CMP_SYMBIOTEC_2026-06-30_CONSOLIDATED_BOOK_VALUE",
+        "reason": "MISSING_NET_WORTH",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      },
+      "BVPS": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "INR_PER_SHARE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "BOOK_VALUE_PER_SHARE",
+        "lineage_ref": "MET_CMP_SYMBIOTEC_2026-06-30_CONSOLIDATED_BOOK_VALUE_PER_SHARE",
+        "reason": "MISSING_NET_WORTH",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR_PER_SHARE",
+        "value": null
+      },
+      "CAPITAL_EMPLOYED": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "CAPITAL_EMPLOYED",
+        "lineage_ref": "MET_CMP_SYMBIOTEC_2026-06-30_CONSOLIDATED_CAPITAL_EMPLOYED",
+        "reason": "MISSING_INPUT",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      },
+      "NET_DEBT": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "NET_DEBT",
+        "lineage_ref": "MET_CMP_SYMBIOTEC_2026-06-30_CONSOLIDATED_NET_DEBT",
+        "reason": "MISSING_DEBT_COMPONENT",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      },
+      "NET_WORTH": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "NET_WORTH",
+        "lineage_ref": "MET_CMP_SYMBIOTEC_2026-06-30_CONSOLIDATED_NET_WORTH",
+        "reason": "MISSING_NET_WORTH",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      },
+      "TOTAL_DEBT": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "TOTAL_DEBT",
+        "lineage_ref": "MET_CMP_SYMBIOTEC_2026-06-30_CONSOLIDATED_TOTAL_DEBT",
+        "reason": "MISSING_DEBT_COMPONENT",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      },
+      "WORKING_CAPITAL": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "WORKING_CAPITAL",
+        "lineage_ref": "MET_CMP_SYMBIOTEC_2026-06-30_CONSOLIDATED_WORKING_CAPITAL",
+        "reason": "MISSING_CURRENT_ASSETS",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      }
+    },
+    "business_performance": {
+      "EPS_BASIC_TTM": {
+        "contract_version": "FUNDAMENTAL_GOLD_V1.0.0",
+        "display_unit": "INR_PER_SHARE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "EPS_BASIC_TTM",
+        "lineage_ref": "b8e31f1fb4456be9893df013ad761ec1",
+        "reason": "INSUFFICIENT_TTM_HISTORY",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FUNDAMENTAL_GOLD",
+        "source_release": "FGV1_b7d3352a52309b06_ddc7eeba3fb281c7",
+        "status": "UNAVAILABLE",
+        "unit": "INR_PER_SHARE",
+        "value": null
+      },
+      "NET_MARGIN_PCT": {
+        "contract_version": "FUNDAMENTAL_GOLD_V1.0.0",
+        "display_unit": "PERCENT",
+        "display_value": 6.45,
+        "financial_period_end": "2026-06-30",
+        "key": "NET_MARGIN_PCT",
+        "lineage_ref": "fd76872e65699295de2236d1f03373e2",
+        "reason": "OK",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FUNDAMENTAL_GOLD",
+        "source_release": "FGV1_b7d3352a52309b06_ddc7eeba3fb281c7",
+        "status": "AVAILABLE",
+        "unit": "PERCENT",
+        "value": 6.4456
+      },
+      "PAT_TTM": {
+        "contract_version": "FUNDAMENTAL_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "PAT_TTM",
+        "lineage_ref": "b9d08556c3e65262e1410ed75f76bb49",
+        "reason": "INSUFFICIENT_TTM_HISTORY",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FUNDAMENTAL_GOLD",
+        "source_release": "FGV1_b7d3352a52309b06_ddc7eeba3fb281c7",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      },
+      "REVENUE_TTM": {
+        "contract_version": "FUNDAMENTAL_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "REVENUE_TTM",
+        "lineage_ref": "2b9998b7b9af791e46340085311c1584",
+        "reason": "INSUFFICIENT_TTM_HISTORY",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FUNDAMENTAL_GOLD",
+        "source_release": "FGV1_b7d3352a52309b06_ddc7eeba3fb281c7",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      }
+    },
+    "company": {
+      "canonical_company_id": "CMP_SYMBIOTEC",
+      "company_name": "Symbiotec Pharmalab Limited",
+      "industry": "EQ",
+      "isin": null,
+      "sector": "EQUITY",
+      "symbol": "SYMBIOTEC"
+    },
+    "company_name": "Symbiotec Pharmalab Limited",
+    "industry": "EQ",
+    "isin": null,
+    "market": {
+      "market_cap": {
+        "contract_version": "VALUATION_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": 6987.85,
+        "key": "MARKET_CAP",
+        "lineage_ref": "EVAL_SESS_CMP_SYMBIOTEC_2026-10-09_MARKET_CAP",
+        "price_as_of": "2026-10-09",
+        "reason": "OK",
+        "scope": "COMPANY",
+        "snapshot_as_of": "2026-10-09",
+        "source_layer": "VALUATION_GOLD",
+        "source_release": "VALUATION_GOLD_v1_b691b5af1886f65a_595cc0e3c4504939",
+        "status": "AVAILABLE",
+        "unit": "INR",
+        "value": 69878521800.0
+      },
+      "price": {
+        "contract_version": "OHLC_V1",
+        "display_unit": "INR",
+        "display_value": 1087.5,
+        "key": "PRICE",
+        "lineage_ref": "SYMBIOTEC.NS_2026-10-09",
+        "price_as_of": "2026-10-09",
+        "reason": "OK",
+        "scope": null,
+        "source_layer": "OHLC",
+        "source_release": "OHLC_PROD_20261009",
+        "status": "AVAILABLE",
+        "unit": "INR",
+        "value": 1087.5
+      },
+      "price_as_of": "2026-10-09"
+    },
+    "metadata": {
+      "contract_sha256": "cb5efe2f8e08dfcee51a8c6e3cb6b0945cd7e3b9fae7146a65fcfaf667b07d34",
+      "dossier_contract": "DOSSIER_V2_SHADOW_1.0.0",
+      "freshness_triad": {
+        "actual_latest_ohlc_session": "2026-10-09",
+        "expected_latest_completed_session": "2026-10-09",
+        "valuation_gold_price_as_of": "2026-10-09"
+      },
+      "governance": {
+        "emergency_transport_mirror": "SAMCO",
+        "primary_market_source": "NSE",
+        "screener_production_dependency": "ZERO",
+        "third_party_computed_fundamentals_allowed": "NO",
+        "third_party_computed_market_data_allowed": "NO"
+      },
+      "manifest_sha256": "2988f0162255c6c39f6f621a4a48c57862bc222ba53f0987d3196c1f2d438626",
+      "source_releases": {
+        "balance_sheet_gold": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "financial_ratios_gold": "FR_GOLD_v1_0_2_08949b3ab5a81a8d_57110ce1fd86c839",
+        "fundamental_gold": "FGV1_b7d3352a52309b06_ddc7eeba3fb281c7",
+        "ohlc": "OHLC_PROD_20261009",
+        "share_ledger": "SHARE_LEDGER_v1_a04e3f1d4cd6aab8_2f200c3225b283de",
+        "valuation_gold": "VALUATION_GOLD_v1_b691b5af1886f65a_595cc0e3c4504939"
+      }
+    },
+    "price": 1087.5,
+    "ratios": {
+      "CURRENT_RATIO": {
+        "contract_version": "FINANCIAL_RATIOS_GOLD_V1.0.2",
+        "display_unit": "RATIO",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "CURRENT_RATIO",
+        "lineage_ref": "RATIO_MET_CMP_SYMBIOTEC_2026-06-30_CONSOLIDATED_CURRENT_RATIO",
+        "reason": "MISSING_CURRENT_ASSETS",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FINANCIAL_RATIOS_GOLD",
+        "source_release": "FR_GOLD_v1_0_2_08949b3ab5a81a8d_57110ce1fd86c839",
+        "status": "UNAVAILABLE",
+        "unit": "RATIO",
+        "value": null
+      },
+      "DEBT_TO_EQUITY": {
+        "contract_version": "FINANCIAL_RATIOS_GOLD_V1.0.2",
+        "display_unit": "RATIO",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "DEBT_TO_EQUITY",
+        "lineage_ref": "RATIO_MET_CMP_SYMBIOTEC_2026-06-30_CONSOLIDATED_DEBT_TO_EQUITY",
+        "reason": "MISSING_TOTAL_DEBT",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FINANCIAL_RATIOS_GOLD",
+        "source_release": "FR_GOLD_v1_0_2_08949b3ab5a81a8d_57110ce1fd86c839",
+        "status": "UNAVAILABLE",
+        "unit": "RATIO",
+        "value": null
+      },
+      "ROCE": {
+        "contract_version": "FINANCIAL_RATIOS_GOLD_V1.0.2",
+        "display_unit": "PERCENT",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "ROCE",
+        "lineage_ref": "RATIO_MET_CMP_SYMBIOTEC_2026-06-30_CONSOLIDATED_ROCE",
+        "reason": "UNSUPPORTED_INPUT_CONTRACT",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FINANCIAL_RATIOS_GOLD",
+        "source_release": "FR_GOLD_v1_0_2_08949b3ab5a81a8d_57110ce1fd86c839",
+        "status": "PENDING_LAYER",
+        "unit": "PERCENT",
+        "value": null
+      },
+      "ROE": {
+        "contract_version": "FINANCIAL_RATIOS_GOLD_V1.0.2",
+        "display_unit": "PERCENT",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "ROE",
+        "lineage_ref": "RATIO_MET_CMP_SYMBIOTEC_2026-06-30_CONSOLIDATED_ROE",
+        "reason": "UNSUPPORTED_ATTRIBUTION_SEMANTICS",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FINANCIAL_RATIOS_GOLD",
+        "source_release": "FR_GOLD_v1_0_2_08949b3ab5a81a8d_57110ce1fd86c839",
+        "status": "UNAVAILABLE",
+        "unit": "PERCENT",
+        "value": null
+      }
+    },
+    "schema_version": "2.0.0-shadow",
+    "sector": "EQUITY",
+    "symbol": "SYMBIOTEC",
+    "valuation": {
+      "MARKET_CAP": {
+        "contract_version": "VALUATION_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": 6987.85,
+        "key": "MARKET_CAP",
+        "lineage_ref": "EVAL_SESS_CMP_SYMBIOTEC_2026-10-09_MARKET_CAP",
+        "price_as_of": "2026-10-09",
+        "reason": "OK",
+        "scope": "COMPANY",
+        "snapshot_as_of": "2026-10-09",
+        "source_layer": "VALUATION_GOLD",
+        "source_release": "VALUATION_GOLD_v1_b691b5af1886f65a_595cc0e3c4504939",
+        "status": "AVAILABLE",
+        "unit": "INR",
+        "value": 69878521800.0
+      },
+      "P_B": {
+        "contract_version": "VALUATION_GOLD_V1.0.0",
+        "display_unit": "RATIO",
+        "display_value": null,
+        "key": "P_B",
+        "lineage_ref": "EVAL_SESS_CMP_SYMBIOTEC_2026-10-09_P_B",
+        "price_as_of": "2026-10-09",
+        "reason": "MISSING_BOOK_VALUE",
+        "scope": "CONSOLIDATED",
+        "snapshot_as_of": "2026-10-09",
+        "source_layer": "VALUATION_GOLD",
+        "source_release": "VALUATION_GOLD_v1_b691b5af1886f65a_595cc0e3c4504939",
+        "status": "UNAVAILABLE",
+        "unit": "RATIO",
+        "value": null
+      },
+      "P_E": {
+        "contract_version": "VALUATION_GOLD_V1.0.0",
+        "display_unit": "RATIO",
+        "display_value": null,
+        "key": "P_E",
+        "lineage_ref": "EVAL_SESS_CMP_SYMBIOTEC_2026-10-09_P_E",
+        "price_as_of": "2026-10-09",
+        "reason": "MISSING_EPS",
+        "scope": "CONSOLIDATED",
+        "snapshot_as_of": "2026-10-09",
+        "source_layer": "VALUATION_GOLD",
+        "source_release": "VALUATION_GOLD_v1_b691b5af1886f65a_595cc0e3c4504939",
+        "status": "UNAVAILABLE",
+        "unit": "RATIO",
+        "value": null
+      }
+    }
   },
-  "schema_version": "1.0",
-  "sector": null,
-  "symbol": "SYMBIOTEC"
+  "adapter_version": "DOSSIER_V2_COMPAT_ADAPTER_1.0.0"
 }

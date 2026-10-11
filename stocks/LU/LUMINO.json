@@ -1,208 +1,432 @@
 {
-  "analytics_reason": null,
-  "analytics_status": "AVAILABLE",
-  "candles": [
-    {
-      "close": 110.32,
-      "high": 118.99,
-      "low": 106.54,
-      "open": 110.0,
-      "time": "2026-09-03",
-      "volume": 178315729
-    },
-    {
-      "close": 114.5,
-      "high": 122.0,
-      "low": 111.22,
-      "open": 112.4,
-      "time": "2026-09-04",
-      "volume": 139069849
-    },
-    {
-      "close": 114.82,
-      "high": 121.0,
-      "low": 114.4,
-      "open": 116.75,
-      "time": "2026-09-07",
-      "volume": 44559124
-    },
-    {
-      "close": 108.12,
-      "high": 118.0,
-      "low": 107.2,
-      "open": 116.23,
-      "time": "2026-09-08",
-      "volume": 21758832
-    },
-    {
-      "close": 106.32,
-      "high": 110.25,
-      "low": 105.41,
-      "open": 109.6,
-      "time": "2026-09-09",
-      "volume": 20414218
-    },
-    {
-      "close": 107.93,
-      "high": 110.75,
-      "low": 102.5,
-      "open": 106.49,
-      "time": "2026-09-10",
-      "volume": 19091007
-    },
-    {
-      "close": 108.81,
-      "high": 112.8,
-      "low": 105.65,
-      "open": 106.0,
-      "time": "2026-09-11",
-      "volume": 22447623
-    },
-    {
-      "close": 103.16,
-      "high": 110.64,
-      "low": 100.62,
-      "open": 109.7,
-      "time": "2026-09-15",
-      "volume": 7645621
-    },
-    {
-      "close": 100.29,
-      "high": 102.99,
-      "low": 98.05,
-      "open": 102.99,
-      "time": "2026-09-16",
-      "volume": 9172632
-    },
-    {
-      "close": 107.14,
-      "high": 108.6,
-      "low": 98.51,
-      "open": 100.1,
-      "time": "2026-09-17",
-      "volume": 20758824
-    },
-    {
-      "close": 111.52,
-      "high": 112.9,
-      "low": 107.2,
-      "open": 109.4,
-      "time": "2026-09-18",
-      "volume": 21880189
-    },
-    {
-      "close": 113.36,
-      "high": 115.0,
-      "low": 110.56,
-      "open": 112.19,
-      "time": "2026-09-21",
-      "volume": 15597333
-    },
-    {
-      "close": 108.27,
-      "high": 116.64,
-      "low": 106.56,
-      "open": 112.98,
-      "time": "2026-09-22",
-      "volume": 22815313
-    },
-    {
-      "close": 109.9,
-      "high": 111.96,
-      "low": 106.6,
-      "open": 109.1,
-      "time": "2026-09-23",
-      "volume": 13801506
-    },
-    {
-      "close": 107.22,
-      "high": 110.44,
-      "low": 106.5,
-      "open": 108.53,
-      "time": "2026-09-24",
-      "volume": 5968222
-    },
-    {
-      "close": 105.26,
-      "high": 108.51,
-      "low": 104.0,
-      "open": 107.8,
-      "time": "2026-09-25",
-      "volume": 4053465
-    },
-    {
-      "close": 104.79,
-      "high": 107.98,
-      "low": 103.56,
-      "open": 105.5,
-      "time": "2026-09-28",
-      "volume": 4543583
-    },
-    {
-      "close": 104.4,
-      "high": 106.45,
-      "low": 103.53,
-      "open": 104.61,
-      "time": "2026-09-29",
-      "volume": 3576565
-    },
-    {
-      "close": 102.46,
-      "high": 106.19,
-      "low": 101.7,
-      "open": 104.4,
-      "time": "2026-09-30",
-      "volume": 3888707
-    },
-    {
-      "close": 96.48,
-      "high": 103.6,
-      "low": 94.5,
-      "open": 102.46,
-      "time": "2026-10-01",
-      "volume": 11824903
-    }
-  ],
+  "symbol": "LUMINO",
   "company_name": "Lumino Industries Limited",
-  "history": {
-    "first_session": "2026-09-03",
-    "has_full_52w_history": false,
-    "last_session": "2026-10-01",
-    "sessions_available": 20
-  },
-  "industry": null,
-  "isin": "INE185Q01025",
-  "metrics": {
-    "is_breakout": false,
-    "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 58,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.4x"
-  },
+  "sector": "EQUITY",
+  "industry": "EQ",
+  "isin": null,
+  "canonical_company_id": "CMP_LUMINO",
   "price": {
-    "as_of": "2026-10-01",
-    "change": -5.98,
-    "change_pct": -5.84,
-    "close": 96.48,
-    "previous_close": 102.46,
+    "as_of": "2026-10-09",
+    "close": 101.17,
     "type": "EOD_CLOSE",
-    "volume": 11824903
+    "value": 101.17,
+    "change": 0,
+    "change_pct": null
   },
-  "range": {
-    "distance_from_high_pct": -20.92,
-    "distance_from_low_pct": 2.1,
-    "high_52w": 122.0,
-    "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 94.5,
-    "range_position_pct": 7.2
+  "cmp": 101.17,
+  "price_as_of": "2026-10-09",
+  "pe": null,
+  "pb": null,
+  "roe": null,
+  "roce": null,
+  "debt_to_equity": null,
+  "current_ratio": null,
+  "market_cap": 30811698334.85,
+  "market_cap_crore": 3081.17,
+  "revenue": null,
+  "revenue_crore": null,
+  "pat": null,
+  "pat_crore": null,
+  "eps": null,
+  "net_margin_pct": 7.7042,
+  "net_worth": null,
+  "net_worth_crore": null,
+  "total_debt": null,
+  "total_debt_crore": null,
+  "net_debt": null,
+  "working_capital": null,
+  "book_value": null,
+  "bvps": null,
+  "ratios_status": {
+    "pe": {
+      "status": "UNAVAILABLE",
+      "reason": "MISSING_EPS"
+    },
+    "pb": {
+      "status": "UNAVAILABLE",
+      "reason": "MISSING_BOOK_VALUE"
+    },
+    "roe": {
+      "status": "UNAVAILABLE",
+      "reason": "UNSUPPORTED_ATTRIBUTION_SEMANTICS"
+    },
+    "roce": {
+      "status": "PENDING_LAYER",
+      "reason": "UNSUPPORTED_INPUT_CONTRACT"
+    },
+    "debt_to_equity": {
+      "status": "UNAVAILABLE",
+      "reason": "MISSING_TOTAL_DEBT"
+    },
+    "current_ratio": {
+      "status": "UNAVAILABLE",
+      "reason": "MISSING_CURRENT_ASSETS"
+    }
   },
-  "risk_model": {
-    "invalidation_floor": 93.1,
-    "risk_per_share": 5.31,
-    "technical_pivot": 98.41
+  "candles": [],
+  "range": {},
+  "metrics": {},
+  "risk_model": {},
+  "analytics_status": "AVAILABLE",
+  "analytics_reason": null,
+  "v2_canonical": {
+    "analytics_reason": null,
+    "analytics_status": "AVAILABLE",
+    "balance_sheet": {
+      "BOOK_VALUE": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "BOOK_VALUE",
+        "lineage_ref": "MET_CMP_LUMINO_2026-06-30_CONSOLIDATED_BOOK_VALUE",
+        "reason": "MISSING_NET_WORTH",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      },
+      "BVPS": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "INR_PER_SHARE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "BOOK_VALUE_PER_SHARE",
+        "lineage_ref": "MET_CMP_LUMINO_2026-06-30_CONSOLIDATED_BOOK_VALUE_PER_SHARE",
+        "reason": "MISSING_NET_WORTH",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR_PER_SHARE",
+        "value": null
+      },
+      "CAPITAL_EMPLOYED": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "CAPITAL_EMPLOYED",
+        "lineage_ref": "MET_CMP_LUMINO_2026-06-30_CONSOLIDATED_CAPITAL_EMPLOYED",
+        "reason": "MISSING_INPUT",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      },
+      "NET_DEBT": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "NET_DEBT",
+        "lineage_ref": "MET_CMP_LUMINO_2026-06-30_CONSOLIDATED_NET_DEBT",
+        "reason": "MISSING_DEBT_COMPONENT",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      },
+      "NET_WORTH": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "NET_WORTH",
+        "lineage_ref": "MET_CMP_LUMINO_2026-06-30_CONSOLIDATED_NET_WORTH",
+        "reason": "MISSING_NET_WORTH",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      },
+      "TOTAL_DEBT": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "TOTAL_DEBT",
+        "lineage_ref": "MET_CMP_LUMINO_2026-06-30_CONSOLIDATED_TOTAL_DEBT",
+        "reason": "MISSING_DEBT_COMPONENT",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      },
+      "WORKING_CAPITAL": {
+        "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "WORKING_CAPITAL",
+        "lineage_ref": "MET_CMP_LUMINO_2026-06-30_CONSOLIDATED_WORKING_CAPITAL",
+        "reason": "MISSING_CURRENT_ASSETS",
+        "scope": "CONSOLIDATED",
+        "source_layer": "BALANCE_SHEET_GOLD",
+        "source_release": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      }
+    },
+    "business_performance": {
+      "EPS_BASIC_TTM": {
+        "contract_version": "FUNDAMENTAL_GOLD_V1.0.0",
+        "display_unit": "INR_PER_SHARE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "EPS_BASIC_TTM",
+        "lineage_ref": "4dc458c91cc2ad0c76c4bc689d06235d",
+        "reason": "INSUFFICIENT_TTM_HISTORY",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FUNDAMENTAL_GOLD",
+        "source_release": "FGV1_b7d3352a52309b06_ddc7eeba3fb281c7",
+        "status": "UNAVAILABLE",
+        "unit": "INR_PER_SHARE",
+        "value": null
+      },
+      "NET_MARGIN_PCT": {
+        "contract_version": "FUNDAMENTAL_GOLD_V1.0.0",
+        "display_unit": "PERCENT",
+        "display_value": 7.7,
+        "financial_period_end": "2026-06-30",
+        "key": "NET_MARGIN_PCT",
+        "lineage_ref": "d649c0a4415881952646f2774f8746e8",
+        "reason": "OK",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FUNDAMENTAL_GOLD",
+        "source_release": "FGV1_b7d3352a52309b06_ddc7eeba3fb281c7",
+        "status": "AVAILABLE",
+        "unit": "PERCENT",
+        "value": 7.7042
+      },
+      "PAT_TTM": {
+        "contract_version": "FUNDAMENTAL_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "PAT_TTM",
+        "lineage_ref": "7693a13af18701f7dc19ff8c11c9f451",
+        "reason": "INSUFFICIENT_TTM_HISTORY",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FUNDAMENTAL_GOLD",
+        "source_release": "FGV1_b7d3352a52309b06_ddc7eeba3fb281c7",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      },
+      "REVENUE_TTM": {
+        "contract_version": "FUNDAMENTAL_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "REVENUE_TTM",
+        "lineage_ref": "3381b1dda2823c118366c5dec14ca9a4",
+        "reason": "INSUFFICIENT_TTM_HISTORY",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FUNDAMENTAL_GOLD",
+        "source_release": "FGV1_b7d3352a52309b06_ddc7eeba3fb281c7",
+        "status": "UNAVAILABLE",
+        "unit": "INR",
+        "value": null
+      }
+    },
+    "company": {
+      "canonical_company_id": "CMP_LUMINO",
+      "company_name": "Lumino Industries Limited",
+      "industry": "EQ",
+      "isin": null,
+      "sector": "EQUITY",
+      "symbol": "LUMINO"
+    },
+    "company_name": "Lumino Industries Limited",
+    "industry": "EQ",
+    "isin": null,
+    "market": {
+      "market_cap": {
+        "contract_version": "VALUATION_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": 3081.17,
+        "key": "MARKET_CAP",
+        "lineage_ref": "EVAL_SESS_CMP_LUMINO_2026-10-09_MARKET_CAP",
+        "price_as_of": "2026-10-09",
+        "reason": "OK",
+        "scope": "COMPANY",
+        "snapshot_as_of": "2026-10-09",
+        "source_layer": "VALUATION_GOLD",
+        "source_release": "VALUATION_GOLD_v1_b691b5af1886f65a_595cc0e3c4504939",
+        "status": "AVAILABLE",
+        "unit": "INR",
+        "value": 30811698334.85
+      },
+      "price": {
+        "contract_version": "OHLC_V1",
+        "display_unit": "INR",
+        "display_value": 101.17,
+        "key": "PRICE",
+        "lineage_ref": "LUMINO.NS_2026-10-09",
+        "price_as_of": "2026-10-09",
+        "reason": "OK",
+        "scope": null,
+        "source_layer": "OHLC",
+        "source_release": "OHLC_PROD_20261009",
+        "status": "AVAILABLE",
+        "unit": "INR",
+        "value": 101.17
+      },
+      "price_as_of": "2026-10-09"
+    },
+    "metadata": {
+      "contract_sha256": "cb5efe2f8e08dfcee51a8c6e3cb6b0945cd7e3b9fae7146a65fcfaf667b07d34",
+      "dossier_contract": "DOSSIER_V2_SHADOW_1.0.0",
+      "freshness_triad": {
+        "actual_latest_ohlc_session": "2026-10-09",
+        "expected_latest_completed_session": "2026-10-09",
+        "valuation_gold_price_as_of": "2026-10-09"
+      },
+      "governance": {
+        "emergency_transport_mirror": "SAMCO",
+        "primary_market_source": "NSE",
+        "screener_production_dependency": "ZERO",
+        "third_party_computed_fundamentals_allowed": "NO",
+        "third_party_computed_market_data_allowed": "NO"
+      },
+      "manifest_sha256": "2988f0162255c6c39f6f621a4a48c57862bc222ba53f0987d3196c1f2d438626",
+      "source_releases": {
+        "balance_sheet_gold": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
+        "financial_ratios_gold": "FR_GOLD_v1_0_2_08949b3ab5a81a8d_57110ce1fd86c839",
+        "fundamental_gold": "FGV1_b7d3352a52309b06_ddc7eeba3fb281c7",
+        "ohlc": "OHLC_PROD_20261009",
+        "share_ledger": "SHARE_LEDGER_v1_a04e3f1d4cd6aab8_2f200c3225b283de",
+        "valuation_gold": "VALUATION_GOLD_v1_b691b5af1886f65a_595cc0e3c4504939"
+      }
+    },
+    "price": 101.17,
+    "ratios": {
+      "CURRENT_RATIO": {
+        "contract_version": "FINANCIAL_RATIOS_GOLD_V1.0.2",
+        "display_unit": "RATIO",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "CURRENT_RATIO",
+        "lineage_ref": "RATIO_MET_CMP_LUMINO_2026-06-30_CONSOLIDATED_CURRENT_RATIO",
+        "reason": "MISSING_CURRENT_ASSETS",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FINANCIAL_RATIOS_GOLD",
+        "source_release": "FR_GOLD_v1_0_2_08949b3ab5a81a8d_57110ce1fd86c839",
+        "status": "UNAVAILABLE",
+        "unit": "RATIO",
+        "value": null
+      },
+      "DEBT_TO_EQUITY": {
+        "contract_version": "FINANCIAL_RATIOS_GOLD_V1.0.2",
+        "display_unit": "RATIO",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "DEBT_TO_EQUITY",
+        "lineage_ref": "RATIO_MET_CMP_LUMINO_2026-06-30_CONSOLIDATED_DEBT_TO_EQUITY",
+        "reason": "MISSING_TOTAL_DEBT",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FINANCIAL_RATIOS_GOLD",
+        "source_release": "FR_GOLD_v1_0_2_08949b3ab5a81a8d_57110ce1fd86c839",
+        "status": "UNAVAILABLE",
+        "unit": "RATIO",
+        "value": null
+      },
+      "ROCE": {
+        "contract_version": "FINANCIAL_RATIOS_GOLD_V1.0.2",
+        "display_unit": "PERCENT",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "ROCE",
+        "lineage_ref": "RATIO_MET_CMP_LUMINO_2026-06-30_CONSOLIDATED_ROCE",
+        "reason": "UNSUPPORTED_INPUT_CONTRACT",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FINANCIAL_RATIOS_GOLD",
+        "source_release": "FR_GOLD_v1_0_2_08949b3ab5a81a8d_57110ce1fd86c839",
+        "status": "PENDING_LAYER",
+        "unit": "PERCENT",
+        "value": null
+      },
+      "ROE": {
+        "contract_version": "FINANCIAL_RATIOS_GOLD_V1.0.2",
+        "display_unit": "PERCENT",
+        "display_value": null,
+        "financial_period_end": "2026-06-30",
+        "key": "ROE",
+        "lineage_ref": "RATIO_MET_CMP_LUMINO_2026-06-30_CONSOLIDATED_ROE",
+        "reason": "UNSUPPORTED_ATTRIBUTION_SEMANTICS",
+        "scope": "CONSOLIDATED",
+        "source_layer": "FINANCIAL_RATIOS_GOLD",
+        "source_release": "FR_GOLD_v1_0_2_08949b3ab5a81a8d_57110ce1fd86c839",
+        "status": "UNAVAILABLE",
+        "unit": "PERCENT",
+        "value": null
+      }
+    },
+    "schema_version": "2.0.0-shadow",
+    "sector": "EQUITY",
+    "symbol": "LUMINO",
+    "valuation": {
+      "MARKET_CAP": {
+        "contract_version": "VALUATION_GOLD_V1.0.0",
+        "display_unit": "CRORE",
+        "display_value": 3081.17,
+        "key": "MARKET_CAP",
+        "lineage_ref": "EVAL_SESS_CMP_LUMINO_2026-10-09_MARKET_CAP",
+        "price_as_of": "2026-10-09",
+        "reason": "OK",
+        "scope": "COMPANY",
+        "snapshot_as_of": "2026-10-09",
+        "source_layer": "VALUATION_GOLD",
+        "source_release": "VALUATION_GOLD_v1_b691b5af1886f65a_595cc0e3c4504939",
+        "status": "AVAILABLE",
+        "unit": "INR",
+        "value": 30811698334.85
+      },
+      "P_B": {
+        "contract_version": "VALUATION_GOLD_V1.0.0",
+        "display_unit": "RATIO",
+        "display_value": null,
+        "key": "P_B",
+        "lineage_ref": "EVAL_SESS_CMP_LUMINO_2026-10-09_P_B",
+        "price_as_of": "2026-10-09",
+        "reason": "MISSING_BOOK_VALUE",
+        "scope": "CONSOLIDATED",
+        "snapshot_as_of": "2026-10-09",
+        "source_layer": "VALUATION_GOLD",
+        "source_release": "VALUATION_GOLD_v1_b691b5af1886f65a_595cc0e3c4504939",
+        "status": "UNAVAILABLE",
+        "unit": "RATIO",
+        "value": null
+      },
+      "P_E": {
+        "contract_version": "VALUATION_GOLD_V1.0.0",
+        "display_unit": "RATIO",
+        "display_value": null,
+        "key": "P_E",
+        "lineage_ref": "EVAL_SESS_CMP_LUMINO_2026-10-09_P_E",
+        "price_as_of": "2026-10-09",
+        "reason": "MISSING_EPS",
+        "scope": "CONSOLIDATED",
+        "snapshot_as_of": "2026-10-09",
+        "source_layer": "VALUATION_GOLD",
+        "source_release": "VALUATION_GOLD_v1_b691b5af1886f65a_595cc0e3c4504939",
+        "status": "UNAVAILABLE",
+        "unit": "RATIO",
+        "value": null
+      }
+    }
   },
-  "schema_version": "1.0",
-  "sector": null,
-  "symbol": "LUMINO"
+  "adapter_version": "DOSSIER_V2_COMPAT_ADAPTER_1.0.0"
 }
