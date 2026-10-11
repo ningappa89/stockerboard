@@ -283,6 +283,20 @@
         .metric-name {
             color: var(--text-secondary);
         }
+        .metric-name small {
+            display: block;
+            color: var(--text-muted);
+            font-size: 0.75rem;
+        }
+        .coverage-notice:not(:empty) {
+            margin: 0 0 24px;
+            padding: 14px 16px;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            color: var(--text-secondary);
+            background: var(--surface);
+        }
+        .coverage-notice:empty { display: none; }
         .metric-value {
             font-weight: 600;
             color: var(--text-primary);
@@ -427,6 +441,8 @@
             </div>
         </section>
 
+        <p class="coverage-notice">{{ coverage_notice }}</p>
+
         <!-- Key Snapshot -->
         <section class="grid-cards" aria-label="Key Snapshot">
             <div class="card">
@@ -476,23 +492,23 @@
         <section class="section-box">
             <h2>Financial Health</h2>
             <div class="metric-row">
-                <span class="metric-name">Net Worth</span>
+                <span class="metric-name">Net Worth <small>{{ health.net_worth_crore.period_note }}</small></span>
                 <span class="metric-value">{{ health.net_worth_crore.formatted_value }}</span>
             </div>
             <div class="metric-row">
-                <span class="metric-name">Total Debt</span>
+                <span class="metric-name">Total Debt <small>{{ health.total_debt_crore.period_note }}</small></span>
                 <span class="metric-value">{{ health.total_debt_crore.formatted_value }}</span>
             </div>
             <div class="metric-row">
-                <span class="metric-name">Net Debt</span>
+                <span class="metric-name">Net Debt <small>{{ health.net_debt_crore.period_note }}</small></span>
                 <span class="metric-value">{{ health.net_debt_crore.formatted_value }}</span>
             </div>
             <div class="metric-row">
-                <span class="metric-name">Debt to Equity</span>
+                <span class="metric-name">Debt to Equity <small>{{ health.debt_to_equity.period_note }}</small></span>
                 <span class="metric-value">{{ health.debt_to_equity.formatted_value }}</span>
             </div>
             <div class="metric-row">
-                <span class="metric-name">Current Ratio</span>
+                <span class="metric-name">Current Ratio <small>{{ health.current_ratio.period_note }}</small></span>
                 <span class="metric-value">{{ health.current_ratio.formatted_value }}</span>
             </div>
         </section>
@@ -517,7 +533,7 @@
                 <span class="metric-value">{{ valuation.pb.formatted_value }}</span>
             </div>
             <div class="metric-row">
-                <span class="metric-name">Book Value Per Share (BVPS)</span>
+                <span class="metric-name">Book Value Per Share (BVPS) <small>{{ valuation.bvps.period_note }}</small></span>
                 <span class="metric-value">{{ valuation.bvps.formatted_value }}</span>
             </div>
         </section>
@@ -565,7 +581,7 @@
                     <span>{{ freshness.price_as_of or 'Official EOD' }}</span>
                 </div>
                 <div class="trust-item">
-                    <strong>Financial Period</strong>
+                    <strong>Earnings Period</strong>
                     <span>{{ freshness.financial_period_end or 'Latest Annual/TTM' }}</span>
                 </div>
                 <div class="trust-item">
@@ -574,7 +590,7 @@
                 </div>
                 <div class="trust-item">
                     <strong>Data Basis</strong>
-                    <span>Official exchange filings via Stockerboard Dossier V2</span>
+                    <span>Certified Dossier V2 and reported Balance Sheet / Financial Ratios Gold; each available balance sheet metric shows its date.</span>
                 </div>
             </div>
         </section>

@@ -283,6 +283,20 @@
         .metric-name {
             color: var(--text-secondary);
         }
+        .metric-name small {
+            display: block;
+            color: var(--text-muted);
+            font-size: 0.75rem;
+        }
+        .coverage-notice:not(:empty) {
+            margin: 0 0 24px;
+            padding: 14px 16px;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            color: var(--text-secondary);
+            background: var(--surface);
+        }
+        .coverage-notice:empty { display: none; }
         .metric-value {
             font-weight: 600;
             color: var(--text-primary);
@@ -427,6 +441,8 @@
             </div>
         </section>
 
+        <p class="coverage-notice"></p>
+
         <!-- Key Snapshot -->
         <section class="grid-cards" aria-label="Key Snapshot">
             <div class="card">
@@ -476,24 +492,24 @@
         <section class="section-box">
             <h2>Financial Health</h2>
             <div class="metric-row">
-                <span class="metric-name">Net Worth</span>
-                <span class="metric-value">— Not available</span>
+                <span class="metric-name">Net Worth <small>Reported 31 Mar 2026 · Balance Sheet Gold</small></span>
+                <span class="metric-value">₹93,297.0 Cr</span>
             </div>
             <div class="metric-row">
-                <span class="metric-name">Total Debt</span>
-                <span class="metric-value">— Not available</span>
+                <span class="metric-name">Total Debt <small>Reported 31 Mar 2026 · Balance Sheet Gold</small></span>
+                <span class="metric-value">₹0.00 Cr</span>
             </div>
             <div class="metric-row">
-                <span class="metric-name">Net Debt</span>
-                <span class="metric-value">— Not available</span>
+                <span class="metric-name">Net Debt <small>Reported 31 Mar 2026 · Balance Sheet Gold</small></span>
+                <span class="metric-value">₹-22,201.0 Cr</span>
             </div>
             <div class="metric-row">
-                <span class="metric-name">Debt to Equity</span>
-                <span class="metric-value">— Not available</span>
+                <span class="metric-name">Debt to Equity <small>Reported 31 Mar 2026 · Financial Ratios Gold</small></span>
+                <span class="metric-value">0.00x</span>
             </div>
             <div class="metric-row">
-                <span class="metric-name">Current Ratio</span>
-                <span class="metric-value">— Not available</span>
+                <span class="metric-name">Current Ratio <small>Reported 31 Mar 2026 · Financial Ratios Gold</small></span>
+                <span class="metric-value">1.98x</span>
             </div>
         </section>
 
@@ -517,8 +533,8 @@
                 <span class="metric-value">4.45x</span>
             </div>
             <div class="metric-row">
-                <span class="metric-name">Book Value Per Share (BVPS)</span>
-                <span class="metric-value">— Not available</span>
+                <span class="metric-name">Book Value Per Share (BVPS) <small>Reported 31 Mar 2026 · Balance Sheet Gold</small></span>
+                <span class="metric-value">₹230.06</span>
             </div>
         </section>
 
@@ -565,7 +581,7 @@
                     <span>2026-10-09</span>
                 </div>
                 <div class="trust-item">
-                    <strong>Financial Period</strong>
+                    <strong>Earnings Period</strong>
                     <span>2026-06-30</span>
                 </div>
                 <div class="trust-item">
@@ -574,7 +590,7 @@
                 </div>
                 <div class="trust-item">
                     <strong>Data Basis</strong>
-                    <span>Official exchange filings via Stockerboard Dossier V2</span>
+                    <span>Certified Dossier V2 and reported Balance Sheet / Financial Ratios Gold; each available balance sheet metric shows its date.</span>
                 </div>
             </div>
         </section>

@@ -23,6 +23,7 @@ TEMPLATES_DIR = ROOT / "templates"
 TEMPLATE_PATH = TEMPLATES_DIR / "company-page.html"
 SLUG_REGISTRY_PATH = ROOT / "company_slug_registry_v1.json"
 SITEMAP_PATH = ROOT / "sitemap.xml"
+ASOF_INDEX_PATH = STOCKS_DIR / "pilot_asof_financials_v1.json"
 
 
 def format_date_str(date_str: str | None) -> str:
@@ -63,7 +64,8 @@ def format_percent(val: float | int | None) -> str:
     return f"{val:.1f}%"
 
 
-def build_view_model(company_meta: dict, dossier: dict, u_map: dict | None = None) -> dict:
+def build_view_model(company_meta: dict, dossier: dict, u_map: dict | None = None,
+                     asof_company: dict | None = None) -> dict:
     symbol = company_meta["symbol"]
     slug = company_meta["canonical_slug"]
     display_name = company_meta["display_name"]
@@ -87,16 +89,35 @@ def build_view_model(company_meta: dict, dossier: dict, u_map: dict | None = Non
     financial_period = rev_item.get("financial_period_end") or "2026-06-30"
     scope = rev_item.get("scope") or "CONSOLIDATED"
 
+    def reported(item: dict | None, key: str) -> dict:
+        """Use a certified earlier Gold observation only for a missing current observation."""
+        item = item or {}
+        if item.get("status") != "UNAVAILABLE":
+            return item
+        if item.get("reason") in ("DOMAIN_NOT_APPLICABLE", "NOT_APPLICABLE", "UNSUPPORTED_INPUT_CONTRACT"):
+            return item
+        row = (asof_company or {}).get("metrics", {}).get(key)
+        if not row or row["period_end"] > financial_period or row["period_end"] == item.get("financial_period_end"):
+            return item
+        result = dict(item)
+        result.update(value=row["value"], status="AVAILABLE", reason="OK",
+                      financial_period_end=row["period_end"], lineage_ref=row["lineage_ref"],
+                      source_layer=("BALANCE_SHEET_GOLD" if row["source"] == "balance_sheet" else "FINANCIAL_RATIOS_GOLD"),
+                      source_release=row["source_release"])
+        if row["unit"] == "INR":
+            result["display_value"] = row["value"] / 10_000_000
+        return result
+
     # Helper for ratio values and statuses
     def get_metric(item_dict: dict, top_val: Any, formatter, unit_type: str) -> dict:
         status = item_dict.get("status") if item_dict else None
         reason = item_dict.get("reason") if item_dict else None
 
         # Prefer certified top_val (e.g. revenue_crore) or display_value before raw unscaled value
-        if top_val is not None:
-            val_raw = top_val
-        elif item_dict and item_dict.get("display_value") is not None:
+        if unit_type == "CRORE" and item_dict and item_dict.get("display_value") is not None:
             val_raw = item_dict.get("display_value")
+        elif top_val is not None:
+            val_raw = top_val
         elif item_dict and item_dict.get("value") is not None:
             val_raw = item_dict.get("value")
             # If unit is raw INR and unit_type is CRORE, scale to crores
@@ -142,7 +163,10 @@ def build_view_model(company_meta: dict, dossier: dict, u_map: dict | None = Non
             "formatted_value": formatted,
             "card_val": card_val,
             "status": canonical_status,
-            "status_label": status_label
+            "status_label": status_label,
+            "period_note": (f"Reported {format_date_str(item_dict.get('financial_period_end'))} · "
+                            f"{str(item_dict.get('source_layer', 'Dossier V2')).replace('_', ' ').title()}"
+                            if item_dict and item_dict.get("financial_period_end") and canonical_status == "AVAILABLE" else "")
         }
 
     # Market Cap
@@ -179,11 +203,11 @@ def build_view_model(company_meta: dict, dossier: dict, u_map: dict | None = Non
             "net_margin_pct": get_metric(biz.get("NET_MARGIN_PCT"), dossier.get("net_margin_pct"), format_percent, "PERCENT")
         },
         "health": {
-            "net_worth_crore": get_metric(bs.get("NET_WORTH"), dossier.get("net_worth_crore"), format_crore, "CRORE"),
-            "total_debt_crore": get_metric(bs.get("TOTAL_DEBT"), dossier.get("total_debt_crore"), format_crore, "CRORE"),
-            "net_debt_crore": get_metric(bs.get("NET_DEBT"), dossier.get("net_debt"), format_crore, "CRORE"),
-            "debt_to_equity": get_metric(ratios.get("DEBT_TO_EQUITY"), dossier.get("debt_to_equity"), format_ratio, "RATIO"),
-            "current_ratio": get_metric(ratios.get("CURRENT_RATIO"), dossier.get("current_ratio"), format_ratio, "RATIO")
+            "net_worth_crore": get_metric(reported(bs.get("NET_WORTH"), "NET_WORTH"), dossier.get("net_worth_crore"), format_crore, "CRORE"),
+            "total_debt_crore": get_metric(reported(bs.get("TOTAL_DEBT"), "TOTAL_DEBT"), dossier.get("total_debt_crore"), format_crore, "CRORE"),
+            "net_debt_crore": get_metric(reported(bs.get("NET_DEBT"), "NET_DEBT"), dossier.get("net_debt"), format_crore, "CRORE"),
+            "debt_to_equity": get_metric(reported(ratios.get("DEBT_TO_EQUITY"), "DEBT_TO_EQUITY"), dossier.get("debt_to_equity"), format_ratio, "RATIO"),
+            "current_ratio": get_metric(reported(ratios.get("CURRENT_RATIO"), "CURRENT_RATIO"), dossier.get("current_ratio"), format_ratio, "RATIO")
         },
         "returns": {
             "roe": get_metric(ratios.get("ROE"), dossier.get("roe"), format_percent, "PERCENT"),
@@ -192,7 +216,7 @@ def build_view_model(company_meta: dict, dossier: dict, u_map: dict | None = Non
         "valuation": {
             "pe": get_metric(val.get("P_E"), dossier.get("pe"), format_ratio, "RATIO"),
             "pb": get_metric(val.get("P_B"), dossier.get("pb"), format_ratio, "RATIO"),
-            "bvps": get_metric(bs.get("BVPS"), dossier.get("bvps"), format_currency, "INR")
+            "bvps": get_metric(reported(bs.get("BVPS"), "BOOK_VALUE_PER_SHARE"), dossier.get("bvps"), format_currency, "INR")
         },
         "freshness": {
             "price_as_of": price_as_of,
@@ -212,6 +236,13 @@ def build_view_model(company_meta: dict, dossier: dict, u_map: dict | None = Non
         "meta_description": f"Explore {display_name} share price, market cap, revenue, profit, ROE, P/E, P/B and financial health using Stockerboard exchange-filing-based data.",
         "canonical_url": canonical_url
     }
+    financial_groups = ("business", "health", "returns", "valuation")
+    available_financials = sum(metric["status"] == "AVAILABLE" for group in financial_groups
+                               for metric in vm[group].values())
+    vm["coverage_notice"] = (
+        "This company has a current price and market value, but this certified release has no eligible financial statement or ratio values. The blanks below are data coverage gaps."
+        if available_financials == 0 else ""
+    )
     return vm
 
 
@@ -255,6 +286,14 @@ def generate_pilot_pages(check_only: bool = False) -> tuple[dict, list[str]]:
     pilot_companies = [c for c in registry["companies"] if c.get("status") == "ACTIVE_PILOT"]
     if len(pilot_companies) != 20:
         raise ValueError(f"Expected 20 pilot companies, found {len(pilot_companies)}")
+    asof_index = json.loads(ASOF_INDEX_PATH.read_text(encoding="utf-8"))
+    if asof_index.get("contract") != "PILOT_ASOF_FINANCIALS_V1":
+        raise ValueError("Unrecognized as-of financial index")
+    dossier_pointer = json.loads((ROOT.parent / "data" / "dossiers" / "dossier_current.json").read_text(encoding="utf-8"))
+    if asof_index.get("dossier_release_id") != dossier_pointer.get("release_id"):
+        raise ValueError("As-of index was built for a different Dossier release")
+    if set(asof_index["companies"]) != {c["symbol"] for c in pilot_companies}:
+        raise ValueError("As-of index does not match pilot cohort")
 
     # Load sector taxonomy from universe_index.json if present
     u_map = {}
@@ -280,7 +319,17 @@ def generate_pilot_pages(check_only: bool = False) -> tuple[dict, list[str]]:
             raise FileNotFoundError(f"Missing dossier for {sym}: {dossier_file}")
 
         dossier = json.loads(dossier_file.read_text(encoding="utf-8"))
-        vm = build_view_model(comp, dossier, u_map=u_map)
+        asof_company = asof_index["companies"][sym]
+        v2_company = dossier.get("v2_canonical", {}).get("company", {})
+        period = dossier.get("v2_canonical", {}).get("business_performance", {}).get("REVENUE_TTM", {})
+        if (asof_company["company_id"] != v2_company.get("canonical_company_id") or
+            asof_company["as_of"] != period.get("financial_period_end") or
+            asof_company["scope"] != period.get("scope")):
+            raise ValueError(f"As-of index identity/period mismatch for {sym}")
+        asof_company = dict(asof_company)
+        asof_company["metrics"] = {key: dict(value, source_release=asof_index["sources"][value["source"]]["release_id"])
+                                   for key, value in asof_company["metrics"].items()}
+        vm = build_view_model(comp, dossier, u_map=u_map, asof_company=asof_company)
         html_content = render_template(template_str, vm)
 
         # Enforce LF endings and UTF-8 encoding

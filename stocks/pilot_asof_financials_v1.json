@@ -1,0 +1,844 @@
+{
+  "companies": {
+    "ASIANPAINT": {
+      "as_of": "2026-06-30",
+      "company_id": "CMP_ASIANPAINT",
+      "metrics": {
+        "BOOK_VALUE_PER_SHARE": {
+          "lineage_ref": "MET_CMP_ASIANPAINT_2026-03-31_CONSOLIDATED_BOOK_VALUE_PER_SHARE",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR_PER_SHARE",
+          "value": 229.51449877715
+        },
+        "CURRENT_RATIO": {
+          "lineage_ref": "RATIO_MET_CMP_ASIANPAINT_2026-03-31_CONSOLIDATED_CURRENT_RATIO",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 2.2091
+        },
+        "DEBT_TO_EQUITY": {
+          "lineage_ref": "RATIO_MET_CMP_ASIANPAINT_2026-03-31_CONSOLIDATED_DEBT_TO_EQUITY",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 0.1042
+        },
+        "NET_DEBT": {
+          "lineage_ref": "MET_CMP_ASIANPAINT_2026-03-31_CONSOLIDATED_NET_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 16204300000.0
+        },
+        "NET_WORTH": {
+          "lineage_ref": "MET_CMP_ASIANPAINT_2026-03-31_CONSOLIDATED_NET_WORTH",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 220149800000.0
+        },
+        "TOTAL_DEBT": {
+          "lineage_ref": "MET_CMP_ASIANPAINT_2026-03-31_CONSOLIDATED_TOTAL_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 22932600000.0
+        }
+      },
+      "scope": "CONSOLIDATED"
+    },
+    "BAJFINANCE": {
+      "as_of": "2026-06-30",
+      "company_id": "CMP_BAJFINANCE",
+      "metrics": {
+        "BOOK_VALUE_PER_SHARE": {
+          "lineage_ref": "MET_CMP_BAJFINANCE_2026-03-31_CONSOLIDATED_BOOK_VALUE_PER_SHARE",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR_PER_SHARE",
+          "value": 188.0046298857313
+        },
+        "NET_WORTH": {
+          "lineage_ref": "MET_CMP_BAJFINANCE_2026-03-31_CONSOLIDATED_NET_WORTH",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 1169855400000.0
+        }
+      },
+      "scope": "CONSOLIDATED"
+    },
+    "BHARTIARTL": {
+      "as_of": "2026-06-30",
+      "company_id": "CMP_BHARTIARTL",
+      "metrics": {
+        "BOOK_VALUE_PER_SHARE": {
+          "lineage_ref": "MET_CMP_BHARTIARTL_2026-03-31_CONSOLIDATED_BOOK_VALUE_PER_SHARE",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR_PER_SHARE",
+          "value": 321.61506809841296
+        },
+        "CURRENT_RATIO": {
+          "lineage_ref": "RATIO_MET_CMP_BHARTIARTL_2026-03-31_CONSOLIDATED_CURRENT_RATIO",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 0.5166
+        },
+        "DEBT_TO_EQUITY": {
+          "lineage_ref": "RATIO_MET_CMP_BHARTIARTL_2026-03-31_CONSOLIDATED_DEBT_TO_EQUITY",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 0.6209
+        },
+        "NET_DEBT": {
+          "lineage_ref": "MET_CMP_BHARTIARTL_2026-03-31_CONSOLIDATED_NET_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 1079492000000.0
+        },
+        "NET_WORTH": {
+          "lineage_ref": "MET_CMP_BHARTIARTL_2026-03-31_CONSOLIDATED_NET_WORTH",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 1959634000000.0
+        },
+        "TOTAL_DEBT": {
+          "lineage_ref": "MET_CMP_BHARTIARTL_2026-03-31_CONSOLIDATED_TOTAL_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 1216714000000.0
+        }
+      },
+      "scope": "CONSOLIDATED"
+    },
+    "ETERNAL": {
+      "as_of": "2026-06-30",
+      "company_id": "CMP_ETERNAL",
+      "metrics": {
+        "BOOK_VALUE_PER_SHARE": {
+          "lineage_ref": "MET_CMP_ETERNAL_2026-03-31_CONSOLIDATED_BOOK_VALUE_PER_SHARE",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR_PER_SHARE",
+          "value": 32.09520683026017
+        },
+        "CURRENT_RATIO": {
+          "lineage_ref": "RATIO_MET_CMP_ETERNAL_2026-03-31_CONSOLIDATED_CURRENT_RATIO",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 2.768
+        },
+        "DEBT_TO_EQUITY": {
+          "lineage_ref": "RATIO_MET_CMP_ETERNAL_2026-03-31_CONSOLIDATED_DEBT_TO_EQUITY",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 0.0
+        },
+        "NET_DEBT": {
+          "lineage_ref": "MET_CMP_ETERNAL_2026-03-31_CONSOLIDATED_NET_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": -9960000000.0
+        },
+        "NET_WORTH": {
+          "lineage_ref": "MET_CMP_ETERNAL_2026-03-31_CONSOLIDATED_NET_WORTH",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 309730000000.0
+        },
+        "TOTAL_DEBT": {
+          "lineage_ref": "MET_CMP_ETERNAL_2026-03-31_CONSOLIDATED_TOTAL_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 0.0
+        }
+      },
+      "scope": "CONSOLIDATED"
+    },
+    "HDFCBANK": {
+      "as_of": "2026-06-30",
+      "company_id": "CMP_HDFCBANK",
+      "metrics": {
+        "BOOK_VALUE_PER_SHARE": {
+          "lineage_ref": "MET_CMP_HDFCBANK_2026-03-31_CONSOLIDATED_BOOK_VALUE_PER_SHARE",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR_PER_SHARE",
+          "value": 377.80341482160225
+        },
+        "NET_WORTH": {
+          "lineage_ref": "MET_CMP_HDFCBANK_2026-03-31_CONSOLIDATED_NET_WORTH",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 5815143600000.0
+        }
+      },
+      "scope": "CONSOLIDATED"
+    },
+    "HDFCLIFE": {
+      "as_of": "2024-09-30",
+      "company_id": "CMP_HDFCLIFE",
+      "metrics": {},
+      "scope": "CONSOLIDATED"
+    },
+    "HINDUNILVR": {
+      "as_of": "2026-06-30",
+      "company_id": "CMP_HINDUNILVR",
+      "metrics": {
+        "BOOK_VALUE_PER_SHARE": {
+          "lineage_ref": "MET_CMP_HINDUNILVR_2026-03-31_CONSOLIDATED_BOOK_VALUE_PER_SHARE",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR_PER_SHARE",
+          "value": 208.5809595592546
+        },
+        "CURRENT_RATIO": {
+          "lineage_ref": "RATIO_MET_CMP_HINDUNILVR_2026-03-31_CONSOLIDATED_CURRENT_RATIO",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 1.2224
+        },
+        "DEBT_TO_EQUITY": {
+          "lineage_ref": "RATIO_MET_CMP_HINDUNILVR_2026-03-31_CONSOLIDATED_DEBT_TO_EQUITY",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 0.0
+        },
+        "NET_DEBT": {
+          "lineage_ref": "MET_CMP_HINDUNILVR_2026-03-31_CONSOLIDATED_NET_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": -25830000000.0
+        },
+        "NET_WORTH": {
+          "lineage_ref": "MET_CMP_HINDUNILVR_2026-03-31_CONSOLIDATED_NET_WORTH",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 490080000000.0
+        },
+        "TOTAL_DEBT": {
+          "lineage_ref": "MET_CMP_HINDUNILVR_2026-03-31_CONSOLIDATED_TOTAL_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 0.0
+        }
+      },
+      "scope": "CONSOLIDATED"
+    },
+    "ICICIBANK": {
+      "as_of": "2026-06-30",
+      "company_id": "CMP_ICICIBANK",
+      "metrics": {
+        "BOOK_VALUE_PER_SHARE": {
+          "lineage_ref": "MET_CMP_ICICIBANK_2026-03-31_CONSOLIDATED_BOOK_VALUE_PER_SHARE",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR_PER_SHARE",
+          "value": 530.2091509384115
+        },
+        "NET_WORTH": {
+          "lineage_ref": "MET_CMP_ICICIBANK_2026-03-31_CONSOLIDATED_NET_WORTH",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 3795713700000.0
+        }
+      },
+      "scope": "CONSOLIDATED"
+    },
+    "INFY": {
+      "as_of": "2026-06-30",
+      "company_id": "CMP_INFY",
+      "metrics": {
+        "BOOK_VALUE_PER_SHARE": {
+          "lineage_ref": "MET_CMP_INFY_2026-03-31_CONSOLIDATED_BOOK_VALUE_PER_SHARE",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR_PER_SHARE",
+          "value": 230.05672468642257
+        },
+        "CURRENT_RATIO": {
+          "lineage_ref": "RATIO_MET_CMP_INFY_2026-03-31_CONSOLIDATED_CURRENT_RATIO",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 1.9779
+        },
+        "DEBT_TO_EQUITY": {
+          "lineage_ref": "RATIO_MET_CMP_INFY_2026-03-31_CONSOLIDATED_DEBT_TO_EQUITY",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 0.0
+        },
+        "NET_DEBT": {
+          "lineage_ref": "MET_CMP_INFY_2026-03-31_CONSOLIDATED_NET_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": -222010000000.0
+        },
+        "NET_WORTH": {
+          "lineage_ref": "MET_CMP_INFY_2026-03-31_CONSOLIDATED_NET_WORTH",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 932970000000.0
+        },
+        "TOTAL_DEBT": {
+          "lineage_ref": "MET_CMP_INFY_2026-03-31_CONSOLIDATED_TOTAL_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 0.0
+        }
+      },
+      "scope": "CONSOLIDATED"
+    },
+    "ITC": {
+      "as_of": "2026-06-30",
+      "company_id": "CMP_ITC",
+      "metrics": {
+        "BOOK_VALUE_PER_SHARE": {
+          "lineage_ref": "MET_CMP_ITC_2026-03-31_CONSOLIDATED_BOOK_VALUE_PER_SHARE",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR_PER_SHARE",
+          "value": 58.162411891582366
+        },
+        "CURRENT_RATIO": {
+          "lineage_ref": "RATIO_MET_CMP_ITC_2026-03-31_CONSOLIDATED_CURRENT_RATIO",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 3.0387
+        },
+        "DEBT_TO_EQUITY": {
+          "lineage_ref": "RATIO_MET_CMP_ITC_2026-03-31_CONSOLIDATED_DEBT_TO_EQUITY",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 0.03
+        },
+        "NET_DEBT": {
+          "lineage_ref": "MET_CMP_ITC_2026-03-31_CONSOLIDATED_NET_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 15427600000.0
+        },
+        "NET_WORTH": {
+          "lineage_ref": "MET_CMP_ITC_2026-03-31_CONSOLIDATED_NET_WORTH",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 728730200000.0
+        },
+        "TOTAL_DEBT": {
+          "lineage_ref": "MET_CMP_ITC_2026-03-31_CONSOLIDATED_TOTAL_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 21862200000.0
+        }
+      },
+      "scope": "CONSOLIDATED"
+    },
+    "LT": {
+      "as_of": "2026-06-30",
+      "company_id": "CMP_LT",
+      "metrics": {
+        "BOOK_VALUE_PER_SHARE": {
+          "lineage_ref": "MET_CMP_LT_2026-03-31_CONSOLIDATED_BOOK_VALUE_PER_SHARE",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR_PER_SHARE",
+          "value": 934.3514305483841
+        },
+        "CURRENT_RATIO": {
+          "lineage_ref": "RATIO_MET_CMP_LT_2026-03-31_CONSOLIDATED_CURRENT_RATIO",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 1.254
+        },
+        "DEBT_TO_EQUITY": {
+          "lineage_ref": "RATIO_MET_CMP_LT_2026-03-31_CONSOLIDATED_DEBT_TO_EQUITY",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 0.9467
+        },
+        "NET_DEBT": {
+          "lineage_ref": "MET_CMP_LT_2026-03-31_CONSOLIDATED_NET_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 1062917800000.0
+        },
+        "NET_WORTH": {
+          "lineage_ref": "MET_CMP_LT_2026-03-31_CONSOLIDATED_NET_WORTH",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 1285304600000.0
+        },
+        "TOTAL_DEBT": {
+          "lineage_ref": "MET_CMP_LT_2026-03-31_CONSOLIDATED_TOTAL_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 1216830200000.0
+        }
+      },
+      "scope": "CONSOLIDATED"
+    },
+    "M&M": {
+      "as_of": "2026-06-30",
+      "company_id": "CMP_M&M",
+      "metrics": {
+        "BOOK_VALUE_PER_SHARE": {
+          "lineage_ref": "MET_CMP_M&M_2026-03-31_CONSOLIDATED_BOOK_VALUE_PER_SHARE",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR_PER_SHARE",
+          "value": 880.4862201059816
+        },
+        "CURRENT_RATIO": {
+          "lineage_ref": "RATIO_MET_CMP_M&M_2026-03-31_CONSOLIDATED_CURRENT_RATIO",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 1.266
+        },
+        "DEBT_TO_EQUITY": {
+          "lineage_ref": "RATIO_MET_CMP_M&M_2026-03-31_CONSOLIDATED_DEBT_TO_EQUITY",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 1.1838
+        },
+        "NET_DEBT": {
+          "lineage_ref": "MET_CMP_M&M_2026-03-31_CONSOLIDATED_NET_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 1253222600000.0
+        },
+        "NET_WORTH": {
+          "lineage_ref": "MET_CMP_M&M_2026-03-31_CONSOLIDATED_NET_WORTH",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 1094910000000.0
+        },
+        "TOTAL_DEBT": {
+          "lineage_ref": "MET_CMP_M&M_2026-03-31_CONSOLIDATED_TOTAL_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 1296145000000.0
+        }
+      },
+      "scope": "CONSOLIDATED"
+    },
+    "MARUTI": {
+      "as_of": "2026-06-30",
+      "company_id": "CMP_MARUTI",
+      "metrics": {
+        "BOOK_VALUE_PER_SHARE": {
+          "lineage_ref": "MET_CMP_MARUTI_2026-03-31_CONSOLIDATED_BOOK_VALUE_PER_SHARE",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR_PER_SHARE",
+          "value": 3408.2513586545892
+        },
+        "CURRENT_RATIO": {
+          "lineage_ref": "RATIO_MET_CMP_MARUTI_2026-03-31_CONSOLIDATED_CURRENT_RATIO",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 1.0679
+        },
+        "DEBT_TO_EQUITY": {
+          "lineage_ref": "RATIO_MET_CMP_MARUTI_2026-03-31_CONSOLIDATED_DEBT_TO_EQUITY",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 0.0
+        },
+        "NET_DEBT": {
+          "lineage_ref": "MET_CMP_MARUTI_2026-03-31_CONSOLIDATED_NET_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": -669000000.0
+        },
+        "NET_WORTH": {
+          "lineage_ref": "MET_CMP_MARUTI_2026-03-31_CONSOLIDATED_NET_WORTH",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 1071563000000.0
+        },
+        "TOTAL_DEBT": {
+          "lineage_ref": "MET_CMP_MARUTI_2026-03-31_CONSOLIDATED_TOTAL_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 0.0
+        }
+      },
+      "scope": "CONSOLIDATED"
+    },
+    "NTPC": {
+      "as_of": "2026-06-30",
+      "company_id": "CMP_NTPC",
+      "metrics": {
+        "BOOK_VALUE_PER_SHARE": {
+          "lineage_ref": "MET_CMP_NTPC_2026-03-31_CONSOLIDATED_BOOK_VALUE_PER_SHARE",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR_PER_SHARE",
+          "value": 217.7584100370553
+        },
+        "CURRENT_RATIO": {
+          "lineage_ref": "RATIO_MET_CMP_NTPC_2026-03-31_CONSOLIDATED_CURRENT_RATIO",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 0.8239
+        },
+        "DEBT_TO_EQUITY": {
+          "lineage_ref": "RATIO_MET_CMP_NTPC_2026-03-31_CONSOLIDATED_DEBT_TO_EQUITY",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 1.2657
+        },
+        "NET_DEBT": {
+          "lineage_ref": "MET_CMP_NTPC_2026-03-31_CONSOLIDATED_NET_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 2638365700000.0
+        },
+        "NET_WORTH": {
+          "lineage_ref": "MET_CMP_NTPC_2026-03-31_CONSOLIDATED_NET_WORTH",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 2111530600000.0
+        },
+        "TOTAL_DEBT": {
+          "lineage_ref": "MET_CMP_NTPC_2026-03-31_CONSOLIDATED_TOTAL_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 2672582000000.0
+        }
+      },
+      "scope": "CONSOLIDATED"
+    },
+    "POWERGRID": {
+      "as_of": "2026-06-30",
+      "company_id": "CMP_POWERGRID",
+      "metrics": {
+        "BOOK_VALUE_PER_SHARE": {
+          "lineage_ref": "MET_CMP_POWERGRID_2026-03-31_CONSOLIDATED_BOOK_VALUE_PER_SHARE",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR_PER_SHARE",
+          "value": 108.05107061404225
+        },
+        "CURRENT_RATIO": {
+          "lineage_ref": "RATIO_MET_CMP_POWERGRID_2026-03-31_CONSOLIDATED_CURRENT_RATIO",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 0.5988
+        },
+        "DEBT_TO_EQUITY": {
+          "lineage_ref": "RATIO_MET_CMP_POWERGRID_2026-03-31_CONSOLIDATED_DEBT_TO_EQUITY",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 1.4728
+        },
+        "NET_DEBT": {
+          "lineage_ref": "MET_CMP_POWERGRID_2026-03-31_CONSOLIDATED_NET_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 1427283900000.0
+        },
+        "NET_WORTH": {
+          "lineage_ref": "MET_CMP_POWERGRID_2026-03-31_CONSOLIDATED_NET_WORTH",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 1004940200000.0
+        },
+        "TOTAL_DEBT": {
+          "lineage_ref": "MET_CMP_POWERGRID_2026-03-31_CONSOLIDATED_TOTAL_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 1480090100000.0
+        }
+      },
+      "scope": "CONSOLIDATED"
+    },
+    "RELIANCE": {
+      "as_of": "2026-06-30",
+      "company_id": "CMP_RELIANCE",
+      "metrics": {
+        "BOOK_VALUE_PER_SHARE": {
+          "lineage_ref": "MET_CMP_RELIANCE_2026-03-31_CONSOLIDATED_BOOK_VALUE_PER_SHARE",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR_PER_SHARE",
+          "value": 802.4150717820694
+        },
+        "CURRENT_RATIO": {
+          "lineage_ref": "RATIO_MET_CMP_RELIANCE_2026-03-31_CONSOLIDATED_CURRENT_RATIO",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 1.0979
+        },
+        "DEBT_TO_EQUITY": {
+          "lineage_ref": "RATIO_MET_CMP_RELIANCE_2026-03-31_CONSOLIDATED_DEBT_TO_EQUITY",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 0.3448
+        },
+        "NET_DEBT": {
+          "lineage_ref": "MET_CMP_RELIANCE_2026-03-31_CONSOLIDATED_NET_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 2284440000000.0
+        },
+        "NET_WORTH": {
+          "lineage_ref": "MET_CMP_RELIANCE_2026-03-31_CONSOLIDATED_NET_WORTH",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 10858660000000.0
+        },
+        "TOTAL_DEBT": {
+          "lineage_ref": "MET_CMP_RELIANCE_2026-03-31_CONSOLIDATED_TOTAL_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 3744210000000.0
+        }
+      },
+      "scope": "CONSOLIDATED"
+    },
+    "SBIN": {
+      "as_of": "2026-06-30",
+      "company_id": "CMP_SBIN",
+      "metrics": {
+        "BOOK_VALUE_PER_SHARE": {
+          "lineage_ref": "MET_CMP_SBIN_2026-03-31_CONSOLIDATED_BOOK_VALUE_PER_SHARE",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR_PER_SHARE",
+          "value": 666.1516894954161
+        },
+        "NET_WORTH": {
+          "lineage_ref": "MET_CMP_SBIN_2026-03-31_CONSOLIDATED_NET_WORTH",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 6148991500000.0
+        }
+      },
+      "scope": "CONSOLIDATED"
+    },
+    "SUNPHARMA": {
+      "as_of": "2026-06-30",
+      "company_id": "CMP_SUNPHARMA",
+      "metrics": {
+        "BOOK_VALUE_PER_SHARE": {
+          "lineage_ref": "MET_CMP_SUNPHARMA_2026-03-31_CONSOLIDATED_BOOK_VALUE_PER_SHARE",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR_PER_SHARE",
+          "value": 349.5957882029286
+        },
+        "CURRENT_RATIO": {
+          "lineage_ref": "RATIO_MET_CMP_SUNPHARMA_2026-03-31_CONSOLIDATED_CURRENT_RATIO",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 2.8229
+        },
+        "DEBT_TO_EQUITY": {
+          "lineage_ref": "RATIO_MET_CMP_SUNPHARMA_2026-03-31_CONSOLIDATED_DEBT_TO_EQUITY",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 0.0487
+        },
+        "NET_DEBT": {
+          "lineage_ref": "MET_CMP_SUNPHARMA_2026-03-31_CONSOLIDATED_NET_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": -56889000000.0
+        },
+        "NET_WORTH": {
+          "lineage_ref": "MET_CMP_SUNPHARMA_2026-03-31_CONSOLIDATED_NET_WORTH",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 838797400000.0
+        },
+        "TOTAL_DEBT": {
+          "lineage_ref": "MET_CMP_SUNPHARMA_2026-03-31_CONSOLIDATED_TOTAL_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 40816100000.0
+        }
+      },
+      "scope": "CONSOLIDATED"
+    },
+    "TATASTEEL": {
+      "as_of": "2026-06-30",
+      "company_id": "CMP_TATASTEEL",
+      "metrics": {
+        "BOOK_VALUE_PER_SHARE": {
+          "lineage_ref": "MET_CMP_TATASTEEL_2026-03-31_CONSOLIDATED_BOOK_VALUE_PER_SHARE",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR_PER_SHARE",
+          "value": 83.13391606267206
+        },
+        "CURRENT_RATIO": {
+          "lineage_ref": "RATIO_MET_CMP_TATASTEEL_2026-03-31_CONSOLIDATED_CURRENT_RATIO",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 0.7456
+        },
+        "DEBT_TO_EQUITY": {
+          "lineage_ref": "RATIO_MET_CMP_TATASTEEL_2026-03-31_CONSOLIDATED_DEBT_TO_EQUITY",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 0.8902
+        },
+        "NET_DEBT": {
+          "lineage_ref": "MET_CMP_TATASTEEL_2026-03-31_CONSOLIDATED_NET_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 834967300000.0
+        },
+        "NET_WORTH": {
+          "lineage_ref": "MET_CMP_TATASTEEL_2026-03-31_CONSOLIDATED_NET_WORTH",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 1037804500000.0
+        },
+        "TOTAL_DEBT": {
+          "lineage_ref": "MET_CMP_TATASTEEL_2026-03-31_CONSOLIDATED_TOTAL_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 923816800000.0
+        }
+      },
+      "scope": "CONSOLIDATED"
+    },
+    "TCS": {
+      "as_of": "2026-06-30",
+      "company_id": "CMP_TCS",
+      "metrics": {
+        "BOOK_VALUE_PER_SHARE": {
+          "lineage_ref": "MET_CMP_TCS_2026-03-31_CONSOLIDATED_BOOK_VALUE_PER_SHARE",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR_PER_SHARE",
+          "value": 299.8213820431969
+        },
+        "CURRENT_RATIO": {
+          "lineage_ref": "RATIO_MET_CMP_TCS_2026-03-31_CONSOLIDATED_CURRENT_RATIO",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 2.2278
+        },
+        "DEBT_TO_EQUITY": {
+          "lineage_ref": "RATIO_MET_CMP_TCS_2026-03-31_CONSOLIDATED_DEBT_TO_EQUITY",
+          "period_end": "2026-03-31",
+          "source": "ratios",
+          "unit": "RATIO",
+          "value": 0.0
+        },
+        "NET_DEBT": {
+          "lineage_ref": "MET_CMP_TCS_2026-03-31_CONSOLIDATED_NET_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": -64170000000.0
+        },
+        "NET_WORTH": {
+          "lineage_ref": "MET_CMP_TCS_2026-03-31_CONSOLIDATED_NET_WORTH",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 1084780000000.0
+        },
+        "TOTAL_DEBT": {
+          "lineage_ref": "MET_CMP_TCS_2026-03-31_CONSOLIDATED_TOTAL_DEBT",
+          "period_end": "2026-03-31",
+          "source": "balance_sheet",
+          "unit": "INR",
+          "value": 0.0
+        }
+      },
+      "scope": "CONSOLIDATED"
+    }
+  },
+  "contract": "PILOT_ASOF_FINANCIALS_V1",
+  "dossier_release_id": "DOSSIER_V2_2988f0162255c6c3_480b3a7f4ecc2012",
+  "max_age_days": 400,
+  "sources": {
+    "balance_sheet": {
+      "contract_version": "BALANCE_SHEET_GOLD_V1.0.0",
+      "physical_db_sha256": "2832e72981044fd62f74022ddf9558b3d5d628c1b575a8e1832a4d7e866a191e",
+      "release_id": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e"
+    },
+    "ratios": {
+      "contract_version": "FINANCIAL_RATIOS_GOLD_V1.0.2",
+      "physical_db_sha256": "c9c1e151b2895311e2b9beb908c5214b933c4633819df5d2db7a71b38fc815c9",
+      "release_id": "FR_GOLD_v1_0_2_08949b3ab5a81a8d_57110ce1fd86c839"
+    }
+  }
+}
