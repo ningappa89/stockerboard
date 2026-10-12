@@ -227,6 +227,15 @@
             font-size: 0.875rem;
             color: var(--text-muted);
         }
+        .hero-range { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--border); }
+        .hero-range-heading, .hero-range-bounds { display: flex; justify-content: space-between; gap: 12px; }
+        .hero-range-heading { font-size: .82rem; color: var(--text-secondary); font-weight: 600; }
+        .hero-range-track { height: 8px; border-radius: 10px; background: var(--surface-elevated); margin: 14px 7px 10px; position: relative; }
+        .hero-range-pin { position: absolute; top: 50%; width: 15px; height: 15px; border-radius: 50%; background: var(--accent);
+            border: 3px solid var(--surface); box-shadow: 0 0 0 2px var(--accent); transform: translate(-50%, -50%); }
+        .hero-range-bounds { font-size: .82rem; color: var(--text-muted); }
+        .hero-range-bounds strong { color: var(--text-primary); font-weight: 600; }
+        .hero-range-note { margin-top: 9px; font-size: .76rem; color: var(--text-muted); }
         .grid-cards {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -456,6 +465,15 @@
             <div class="price-section">
                 <div class="cmp-val">{{ price.formatted_value }}</div>
                 <div class="price-date">Price as of {{ price.formatted_date }}</div>
+            </div>
+            <div class="hero-range" aria-label="{{ market_range.title }}">
+                <div class="hero-range-heading"><span>{{ market_range.title }}</span><span>{{ market_range.distance }}</span></div>
+                <div class="hero-range-track"><span class="hero-range-pin" style="left:{{ market_range.position_pct }}%"></span></div>
+                <div class="hero-range-bounds">
+                    <span>{{ market_range.low_label }}: <strong>{{ market_range.low }}</strong></span>
+                    <span>{{ market_range.high_label }}: <strong>{{ market_range.high }}</strong></span>
+                </div>
+                <p class="hero-range-note">{{ market_range.note }}</p>
             </div>
         </section>
 

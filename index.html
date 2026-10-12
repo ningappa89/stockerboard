@@ -4459,8 +4459,9 @@
         .dossier-spectrum-bounds {
             display: flex;
             justify-content: space-between;
-            font-size: 0.74rem;
-            color: var(--text-muted);
+            gap: 12px;
+            font-size: 0.82rem;
+            color: var(--text-secondary);
             font-family: var(--font-mono);
         }
 
@@ -13758,17 +13759,18 @@
                         <div class="dossier-market-cap" id="dossierMarketCap">Market cap —</div>
                     </div>
                     <div class="dossier-spectrum-wrap">
-                        <div style="display: flex; justify-content: space-between; font-size: 0.72rem; color: var(--text-muted); font-weight: 600;">
-                            <span>52-Week Price Spectrum</span>
-                            <span id="dossierDist52w">-0.0% from 52W High</span>
+                        <div style="display: flex; justify-content: space-between; gap: 12px; font-size: 0.82rem; color: var(--text-secondary); font-weight: 600;">
+                            <span id="dossierSpectrumTitle">52-Week Price Spectrum</span>
+                            <span id="dossierDist52w">Loading range…</span>
                         </div>
                         <div class="dossier-spectrum-track">
                             <div class="dossier-spectrum-pin" id="dossierPin" style="left: 50%;"></div>
                         </div>
                         <div class="dossier-spectrum-bounds">
-                            <span>52W Low: <strong id="dossierLow" style="color:var(--text-primary);">₹0.00</strong></span>
-                            <span>52W High: <strong id="dossierHigh" style="color:var(--text-primary);">₹0.00</strong></span>
+                            <span><span id="dossierLowLabel">52W Low</span>: <strong id="dossierLow" style="color:var(--text-primary);">—</strong></span>
+                            <span><span id="dossierHighLabel">52W High</span>: <strong id="dossierHigh" style="color:var(--text-primary);">—</strong></span>
                         </div>
+                        <div id="dossierSpectrumNote" style="margin-top:6px;font-size:.76rem;color:var(--text-secondary);"></div>
                     </div>
                 </div>
             </div>
@@ -13880,8 +13882,8 @@
                             <tr class="dossier-contract-row"><td>Price to Book (P/B)</td><td id="dossierTblPB">—</td></tr>
                             <tr class="dossier-contract-row"><td>Return on Equity (ROE)</td><td id="dossierTblROE">—</td></tr>
                             <tr class="dossier-contract-row"><td>Return on Capital Employed (ROCE)</td><td id="dossierTblROCE">—</td></tr>
-                            <tr class="dossier-contract-row"><td>52-Week High</td><td id="dossierTblHigh">₹0.00</td></tr>
-                            <tr class="dossier-contract-row"><td>52-Week Low</td><td id="dossierTblLow">₹0.00</td></tr>
+                            <tr class="dossier-contract-row"><td id="dossierTblHighLabel">52-Week High</td><td id="dossierTblHigh">—</td></tr>
+                            <tr class="dossier-contract-row"><td id="dossierTblLowLabel">52-Week Low</td><td id="dossierTblLow">—</td></tr>
                             <tr class="dossier-contract-row"><td>Sector Classification</td><td id="dossierTblSector">Diversified</td></tr>
                             <tr><td>Net debt</td><td id="dossierTblNetDebt">—</td></tr>
                             <tr><td>Working capital</td><td id="dossierTblWorkingCapital">—</td></tr>
@@ -18625,6 +18627,37 @@
             return stock;
         }
 
+        let priceRangeIndexPromise;
+        function loadPriceRangeIndex() {
+            if (!priceRangeIndexPromise) {
+                priceRangeIndexPromise = fetch('./stocks/price_range_index_v1.json', {cache: 'no-cache'})
+                    .then(response => response.ok ? response.json() : null)
+                    .then(data => data?.contract === 'PRICE_RANGE_INDEX_V1' &&
+                        data.canonical_count === canonicalUniverse.length && Object.keys(data.stocks || {}).length === data.canonical_count ? data : null)
+                    .catch(() => null);
+            }
+            return priceRangeIndexPromise;
+        }
+
+        function applyPriceRange(stock, json, symbol, index) {
+            const source = index?.stocks?.[symbol];
+            const existing = json?.range || {};
+            if (!source || source.status !== 'AVAILABLE' ||
+                (existing.high_52w != null && existing.low_52w != null) ||
+                source.price_as_of !== stock.price_as_of ||
+                Math.abs(Number(source.reference_close) - stock.cmp) > 0.011 ||
+                !(source.low > 0 && source.low <= stock.cmp && stock.cmp <= source.high)) return stock;
+            stock.low_52w = source.low;
+            stock.high_52w = source.high;
+            stock.dist_52w_pct = source.distance_from_high_pct;
+            stock.price_range_meta = source;
+            if (source.coverage === 'FULL_YEAR') {
+                stock.is_breakout = stock.is_breakout || source.distance_from_high_pct >= -1.0;
+                stock.is_coiled = stock.is_coiled || (source.distance_from_high_pct >= -3.5 && source.distance_from_high_pct < -1.0);
+            }
+            return stock;
+        }
+
         function renderDossierFundamentals(stock) {
             const values = readDossierFundamentals(stock);
             const available = Object.values(values).filter(value => value !== null).length;
@@ -18737,8 +18770,9 @@
         }
 
         async function preloadDossier(symbol) {
-            await loadFundamentalsSnapshot();
-            const asOfIndex = await loadPilotAsOfIndex();
+            const [, asOfIndex, rangeIndex] = await Promise.all([
+                loadFundamentalsSnapshot(), loadPilotAsOfIndex(), loadPriceRangeIndex()
+            ]);
             if (!symbol) return;
             const cleanSym = canonicalDossierSymbol(symbol);
             if (dossierCache.has(cleanSym)) return;
@@ -18749,7 +18783,9 @@
                 .then(r => r.ok ? r.json() : null)
                 .then(json => {
                     if (json) {
-                        const norm = applyPilotAsOfFinancials(normalizeDossierJson(json, cleanSym), json, cleanSym, asOfIndex);
+                        const norm = applyPriceRange(
+                            applyPilotAsOfFinancials(normalizeDossierJson(json, cleanSym), json, cleanSym, asOfIndex),
+                            json, cleanSym, rangeIndex);
                         putInDossierCache(cleanSym, norm);
                     }
                 })
@@ -18757,8 +18793,9 @@
         }
 
         async function fetchDossierData(cleanSym, signal) {
-            await loadFundamentalsSnapshot();
-            const asOfIndex = await loadPilotAsOfIndex();
+            const [, asOfIndex, rangeIndex] = await Promise.all([
+                loadFundamentalsSnapshot(), loadPilotAsOfIndex(), loadPriceRangeIndex()
+            ]);
             cleanSym = canonicalDossierSymbol(cleanSym);
             if (dossierCache.has(cleanSym)) {
                 return dossierCache.get(cleanSym);
@@ -18777,7 +18814,9 @@
                 const resp = await fetch(`./stocks/${shard}/${cleanSym}.json?v=${version}`, { signal });
                 if (resp.ok) {
                     const json = await resp.json();
-                    const norm = applyPilotAsOfFinancials(normalizeDossierJson(json, cleanSym), json, cleanSym, asOfIndex);
+                    const norm = applyPriceRange(
+                        applyPilotAsOfFinancials(normalizeDossierJson(json, cleanSym), json, cleanSym, asOfIndex),
+                        json, cleanSym, rangeIndex);
                     if (direct) norm.richData = direct;
                     putInDossierCache(cleanSym, norm);
                     return norm;
@@ -18838,6 +18877,12 @@
             const setTxt = (id, val) => { const el = document.getElementById(id); if (el) el.innerText = val; };
 
             renderDossierFundamentals({symbol: cleanSym});
+            for (const id of ['dossierLow', 'dossierHigh', 'dossierTblLow', 'dossierTblHigh']) setTxt(id, '—');
+            setTxt('dossierDist52w', 'Loading range…');
+            setTxt('dossierSpectrumNote', '');
+            setTxt('dossierSpectrumTitle', '52-Week Price Spectrum');
+            const loadingPin = document.getElementById('dossierPin');
+            if (loadingPin) loadingPin.style.display = 'none';
             document.getElementById('dossierFundamentalsStatus').textContent = 'Loading ratios…';
             document.getElementById('dossierFundamentalsNotice').hidden = true;
             setTxt('dossierSym', cleanSym);
@@ -18929,21 +18974,36 @@
             // 52W Spectrum
             const low = numericMetric(stockData.low_52w);
             const high = numericMetric(stockData.high_52w);
-            setTxt('dossierLow', low > 0 ? '₹' + low.toLocaleString('en-IN') : '—');
-            setTxt('dossierHigh', high > 0 ? '₹' + high.toLocaleString('en-IN') : '—');
+            const validRange = low > 0 && high >= low && cmp >= low && cmp <= high;
+            const rangeMeta = stockData.price_range_meta;
+            const partialRange = validRange && rangeMeta?.coverage === 'PARTIAL_HISTORY';
+            const rangeMoney = value => '₹' + value.toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+            setTxt('dossierSpectrumTitle', partialRange ? 'Available Price History' : '52-Week Price Spectrum');
+            setTxt('dossierLowLabel', partialRange ? 'Observed Low' : '52W Low');
+            setTxt('dossierHighLabel', partialRange ? 'Observed High' : '52W High');
+            setTxt('dossierTblLowLabel', partialRange ? 'Observed Low' : '52-Week Low');
+            setTxt('dossierTblHighLabel', partialRange ? 'Observed High' : '52-Week High');
+            setTxt('dossierLow', validRange ? rangeMoney(low) : '—');
+            setTxt('dossierHigh', validRange ? rangeMoney(high) : '—');
+            setTxt('dossierSpectrumNote', validRange && rangeMeta ?
+                (partialRange ? `History since ${rangeMeta.first_observation} · ${rangeMeta.session_count} trading sessions` :
+                    `${rangeMeta.session_count} trading sessions · daily high/low through ${rangeMeta.price_as_of}`) :
+                (validRange ? '' : 'Verified daily price range unavailable'));
 
             let pct = 50;
-            if (high > low && cmp > 0) {
+            if (validRange && high > low) {
                 pct = Math.min(100, Math.max(0, ((cmp - low) / (high - low)) * 100));
             }
             const pinEl = document.getElementById('dossierPin');
             if (pinEl) {
-                pinEl.style.display = high > low && cmp > 0 ? '' : 'none';
+                pinEl.style.display = validRange ? '' : 'none';
                 pinEl.style.left = pct + '%';
             }
 
-            const distVal = numericMetric(stockData.dist_52w_pct);
-            setTxt('dossierDist52w', distVal === null ? '52-week range unavailable' : (distVal >= -0.5 ? 'At 52-Week High' : distVal.toFixed(1) + '% from 52W Peak'));
+            const distVal = validRange ? numericMetric(stockData.dist_52w_pct) : null;
+            setTxt('dossierDist52w', distVal === null ? 'Range unavailable' :
+                (distVal >= -0.5 ? (partialRange ? 'At observed high' : 'At 52-week high') :
+                    Math.abs(distVal).toFixed(1) + '% below ' + (partialRange ? 'observed high' : '52-week high')));
 
             // Quality Badge
             const badgeEl = document.getElementById('dossierBadge');
@@ -19022,8 +19082,8 @@
             // Fundamentals Table
             renderDossierFundamentals(stockData);
             if (window.renderInvestorCompanySummary) window.renderInvestorCompanySummary(stockData);
-            setTxt('dossierTblHigh', high > 0 ? '₹' + high.toLocaleString('en-IN') : '—');
-            setTxt('dossierTblLow', low > 0 ? '₹' + low.toLocaleString('en-IN') : '—');
+            setTxt('dossierTblHigh', validRange ? rangeMoney(high) : '—');
+            setTxt('dossierTblLow', validRange ? rangeMoney(low) : '—');
             setTxt('dossierTblSector', stockData.sector || 'NSE Equities');
 
             renderDossierPeers(stockData.sector, cleanSym);

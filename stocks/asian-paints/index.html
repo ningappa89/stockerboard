@@ -227,6 +227,15 @@
             font-size: 0.875rem;
             color: var(--text-muted);
         }
+        .hero-range { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--border); }
+        .hero-range-heading, .hero-range-bounds { display: flex; justify-content: space-between; gap: 12px; }
+        .hero-range-heading { font-size: .82rem; color: var(--text-secondary); font-weight: 600; }
+        .hero-range-track { height: 8px; border-radius: 10px; background: var(--surface-elevated); margin: 14px 7px 10px; position: relative; }
+        .hero-range-pin { position: absolute; top: 50%; width: 15px; height: 15px; border-radius: 50%; background: var(--accent);
+            border: 3px solid var(--surface); box-shadow: 0 0 0 2px var(--accent); transform: translate(-50%, -50%); }
+        .hero-range-bounds { font-size: .82rem; color: var(--text-muted); }
+        .hero-range-bounds strong { color: var(--text-primary); font-weight: 600; }
+        .hero-range-note { margin-top: 9px; font-size: .76rem; color: var(--text-muted); }
         .grid-cards {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -456,6 +465,15 @@
             <div class="price-section">
                 <div class="cmp-val">₹2,339.10</div>
                 <div class="price-date">Price as of 9 Oct 2026</div>
+            </div>
+            <div class="hero-range" aria-label="52-Week Price Spectrum">
+                <div class="hero-range-heading"><span>52-Week Price Spectrum</span><span>21.7% below high</span></div>
+                <div class="hero-range-track"><span class="hero-range-pin" style="left:75.7%"></span></div>
+                <div class="hero-range-bounds">
+                    <span>52W Low: <strong>₹325.43</strong></span>
+                    <span>52W High: <strong>₹2,985.70</strong></span>
+                </div>
+                <p class="hero-range-note">248 trading sessions · daily high/low through 9 Oct 2026</p>
             </div>
         </section>
 

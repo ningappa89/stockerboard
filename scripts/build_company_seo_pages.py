@@ -24,6 +24,7 @@ TEMPLATE_PATH = TEMPLATES_DIR / "company-page.html"
 SLUG_REGISTRY_PATH = ROOT / "company_slug_registry_v1.json"
 SITEMAP_PATH = ROOT / "sitemap.xml"
 ASOF_INDEX_PATH = STOCKS_DIR / "pilot_asof_financials_v1.json"
+PRICE_RANGE_INDEX_PATH = STOCKS_DIR / "price_range_index_v1.json"
 
 
 def format_date_str(date_str: str | None) -> str:
@@ -65,7 +66,7 @@ def format_percent(val: float | int | None) -> str:
 
 
 def build_view_model(company_meta: dict, dossier: dict, u_map: dict | None = None,
-                     asof_company: dict | None = None) -> dict:
+                     asof_company: dict | None = None, range_row: dict | None = None) -> dict:
     symbol = company_meta["symbol"]
     slug = company_meta["canonical_slug"]
     display_name = company_meta["display_name"]
@@ -192,6 +193,18 @@ def build_view_model(company_meta: dict, dossier: dict, u_map: dict | None = Non
             "formatted_value": format_currency(price_val),
             "formatted_date": format_date_str(price_as_of)
         },
+        "market_range": {
+            "title": "52-Week Price Spectrum" if range_row["coverage"] == "FULL_YEAR" else "Available Price History",
+            "low_label": "52W Low" if range_row["coverage"] == "FULL_YEAR" else "Observed Low",
+            "high_label": "52W High" if range_row["coverage"] == "FULL_YEAR" else "Observed High",
+            "low": format_currency(range_row["low"]),
+            "high": format_currency(range_row["high"]),
+            "position_pct": round(100 * (price_val - range_row["low"]) / (range_row["high"] - range_row["low"]), 1) if range_row["high"] > range_row["low"] else 50,
+            "distance": f"{abs(range_row['distance_from_high_pct']):.1f}% below high",
+            "note": (f"{range_row['session_count']} trading sessions · daily high/low through {format_date_str(range_row['price_as_of'])}"
+                     if range_row["coverage"] == "FULL_YEAR" else
+                     f"History since {format_date_str(range_row['first_observation'])} · {range_row['session_count']} trading sessions"),
+        },
         "size": {
             "market_cap_crore": mcap_crore,
             "formatted_value": format_crore(mcap_crore)
@@ -287,11 +300,14 @@ def generate_pilot_pages(check_only: bool = False) -> tuple[dict, list[str]]:
     if len(pilot_companies) != 20:
         raise ValueError(f"Expected 20 pilot companies, found {len(pilot_companies)}")
     asof_index = json.loads(ASOF_INDEX_PATH.read_text(encoding="utf-8"))
+    price_range_index = json.loads(PRICE_RANGE_INDEX_PATH.read_text(encoding="utf-8"))
     if asof_index.get("contract") != "PILOT_ASOF_FINANCIALS_V1":
         raise ValueError("Unrecognized as-of financial index")
     dossier_pointer = json.loads((ROOT.parent / "data" / "dossiers" / "dossier_current.json").read_text(encoding="utf-8"))
     if asof_index.get("dossier_release_id") != dossier_pointer.get("release_id"):
         raise ValueError("As-of index was built for a different Dossier release")
+    if price_range_index.get("contract") != "PRICE_RANGE_INDEX_V1" or price_range_index.get("dossier_release_id") != dossier_pointer.get("release_id"):
+        raise ValueError("Price range index does not match promoted Dossier release")
     if set(asof_index["companies"]) != {c["symbol"] for c in pilot_companies}:
         raise ValueError("As-of index does not match pilot cohort")
 
@@ -319,6 +335,12 @@ def generate_pilot_pages(check_only: bool = False) -> tuple[dict, list[str]]:
             raise FileNotFoundError(f"Missing dossier for {sym}: {dossier_file}")
 
         dossier = json.loads(dossier_file.read_text(encoding="utf-8"))
+        range_row = price_range_index["stocks"].get(sym)
+        price = dossier.get("price") or {}
+        if (not range_row or range_row.get("status") != "AVAILABLE" or
+            range_row.get("price_as_of") != price.get("as_of") or
+            abs(range_row.get("reference_close", 0) - (price.get("close") or 0)) > 0.011):
+            raise ValueError(f"Price range does not match dossier price for {sym}")
         asof_company = asof_index["companies"][sym]
         v2_company = dossier.get("v2_canonical", {}).get("company", {})
         period = dossier.get("v2_canonical", {}).get("business_performance", {}).get("REVENUE_TTM", {})
@@ -329,7 +351,7 @@ def generate_pilot_pages(check_only: bool = False) -> tuple[dict, list[str]]:
         asof_company = dict(asof_company)
         asof_company["metrics"] = {key: dict(value, source_release=asof_index["sources"][value["source"]]["release_id"])
                                    for key, value in asof_company["metrics"].items()}
-        vm = build_view_model(comp, dossier, u_map=u_map, asof_company=asof_company)
+        vm = build_view_model(comp, dossier, u_map=u_map, asof_company=asof_company, range_row=range_row)
         html_content = render_template(template_str, vm)
 
         # Enforce LF endings and UTF-8 encoding
