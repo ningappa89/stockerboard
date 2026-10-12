@@ -23,8 +23,6 @@ TEMPLATES_DIR = ROOT / "templates"
 TEMPLATE_PATH = TEMPLATES_DIR / "company-page.html"
 SLUG_REGISTRY_PATH = ROOT / "company_slug_registry_v1.json"
 SITEMAP_PATH = ROOT / "sitemap.xml"
-ASOF_INDEX_PATH = STOCKS_DIR / "pilot_asof_financials_v1.json"
-PRICE_RANGE_INDEX_PATH = STOCKS_DIR / "price_range_index_v1.json"
 
 
 def format_date_str(date_str: str | None) -> str:
@@ -66,7 +64,7 @@ def format_percent(val: float | int | None) -> str:
 
 
 def build_view_model(company_meta: dict, dossier: dict, u_map: dict | None = None,
-                     asof_company: dict | None = None, range_row: dict | None = None) -> dict:
+                     range_row: dict | None = None) -> dict:
     symbol = company_meta["symbol"]
     slug = company_meta["canonical_slug"]
     display_name = company_meta["display_name"]
@@ -89,25 +87,6 @@ def build_view_model(company_meta: dict, dossier: dict, u_map: dict | None = Non
     rev_item = biz.get("REVENUE_TTM") or {}
     financial_period = rev_item.get("financial_period_end") or "2026-06-30"
     scope = rev_item.get("scope") or "CONSOLIDATED"
-
-    def reported(item: dict | None, key: str) -> dict:
-        """Use a certified earlier Gold observation only for a missing current observation."""
-        item = item or {}
-        if item.get("status") != "UNAVAILABLE":
-            return item
-        if item.get("reason") in ("DOMAIN_NOT_APPLICABLE", "NOT_APPLICABLE", "UNSUPPORTED_INPUT_CONTRACT"):
-            return item
-        row = (asof_company or {}).get("metrics", {}).get(key)
-        if not row or row["period_end"] > financial_period or row["period_end"] == item.get("financial_period_end"):
-            return item
-        result = dict(item)
-        result.update(value=row["value"], status="AVAILABLE", reason="OK",
-                      financial_period_end=row["period_end"], lineage_ref=row["lineage_ref"],
-                      source_layer=("BALANCE_SHEET_GOLD" if row["source"] == "balance_sheet" else "FINANCIAL_RATIOS_GOLD"),
-                      source_release=row["source_release"])
-        if row["unit"] == "INR":
-            result["display_value"] = row["value"] / 10_000_000
-        return result
 
     # Helper for ratio values and statuses
     def get_metric(item_dict: dict, top_val: Any, formatter, unit_type: str) -> dict:
@@ -216,11 +195,11 @@ def build_view_model(company_meta: dict, dossier: dict, u_map: dict | None = Non
             "net_margin_pct": get_metric(biz.get("NET_MARGIN_PCT"), dossier.get("net_margin_pct"), format_percent, "PERCENT")
         },
         "health": {
-            "net_worth_crore": get_metric(reported(bs.get("NET_WORTH"), "NET_WORTH"), dossier.get("net_worth_crore"), format_crore, "CRORE"),
-            "total_debt_crore": get_metric(reported(bs.get("TOTAL_DEBT"), "TOTAL_DEBT"), dossier.get("total_debt_crore"), format_crore, "CRORE"),
-            "net_debt_crore": get_metric(reported(bs.get("NET_DEBT"), "NET_DEBT"), dossier.get("net_debt"), format_crore, "CRORE"),
-            "debt_to_equity": get_metric(reported(ratios.get("DEBT_TO_EQUITY"), "DEBT_TO_EQUITY"), dossier.get("debt_to_equity"), format_ratio, "RATIO"),
-            "current_ratio": get_metric(reported(ratios.get("CURRENT_RATIO"), "CURRENT_RATIO"), dossier.get("current_ratio"), format_ratio, "RATIO")
+            "net_worth_crore": get_metric(bs.get("NET_WORTH"), dossier.get("net_worth_crore"), format_crore, "CRORE"),
+            "total_debt_crore": get_metric(bs.get("TOTAL_DEBT"), dossier.get("total_debt_crore"), format_crore, "CRORE"),
+            "net_debt_crore": get_metric(bs.get("NET_DEBT"), dossier.get("net_debt"), format_crore, "CRORE"),
+            "debt_to_equity": get_metric(ratios.get("DEBT_TO_EQUITY"), dossier.get("debt_to_equity"), format_ratio, "RATIO"),
+            "current_ratio": get_metric(ratios.get("CURRENT_RATIO"), dossier.get("current_ratio"), format_ratio, "RATIO")
         },
         "returns": {
             "roe": get_metric(ratios.get("ROE"), dossier.get("roe"), format_percent, "PERCENT"),
@@ -229,7 +208,7 @@ def build_view_model(company_meta: dict, dossier: dict, u_map: dict | None = Non
         "valuation": {
             "pe": get_metric(val.get("P_E"), dossier.get("pe"), format_ratio, "RATIO"),
             "pb": get_metric(val.get("P_B"), dossier.get("pb"), format_ratio, "RATIO"),
-            "bvps": get_metric(reported(bs.get("BVPS"), "BOOK_VALUE_PER_SHARE"), dossier.get("bvps"), format_currency, "INR")
+            "bvps": get_metric(bs.get("BVPS"), dossier.get("bvps"), format_currency, "INR")
         },
         "freshness": {
             "price_as_of": price_as_of,
@@ -290,7 +269,8 @@ def render_template(template_str: str, vm: dict) -> str:
     return output
 
 
-def generate_pilot_pages(check_only: bool = False) -> tuple[dict, list[str]]:
+def generate_pilot_pages(check_only: bool = False, *, stocks_dir: Path = STOCKS_DIR,
+                         sitemap_path: Path = SITEMAP_PATH) -> tuple[dict, list[str]]:
     if not SLUG_REGISTRY_PATH.exists():
         raise FileNotFoundError(f"Missing registry: {SLUG_REGISTRY_PATH}")
     registry = json.loads(SLUG_REGISTRY_PATH.read_text(encoding="utf-8"))
@@ -299,21 +279,15 @@ def generate_pilot_pages(check_only: bool = False) -> tuple[dict, list[str]]:
     pilot_companies = [c for c in registry["companies"] if c.get("status") == "ACTIVE_PILOT"]
     if len(pilot_companies) != 20:
         raise ValueError(f"Expected 20 pilot companies, found {len(pilot_companies)}")
-    asof_index = json.loads(ASOF_INDEX_PATH.read_text(encoding="utf-8"))
-    price_range_index = json.loads(PRICE_RANGE_INDEX_PATH.read_text(encoding="utf-8"))
-    if asof_index.get("contract") != "PILOT_ASOF_FINANCIALS_V1":
-        raise ValueError("Unrecognized as-of financial index")
-    dossier_pointer = json.loads((ROOT.parent / "data" / "dossiers" / "dossier_current.json").read_text(encoding="utf-8"))
-    if asof_index.get("dossier_release_id") != dossier_pointer.get("release_id"):
-        raise ValueError("As-of index was built for a different Dossier release")
-    if price_range_index.get("contract") != "PRICE_RANGE_INDEX_V1" or price_range_index.get("dossier_release_id") != dossier_pointer.get("release_id"):
+    price_range_index = json.loads((stocks_dir / "price_range_index_v1.json").read_text(encoding="utf-8"))
+    public_manifest = json.loads((stocks_dir / "manifest.json").read_text(encoding="utf-8"))
+    dossier_release_id = public_manifest["source_dossier_release_id"]
+    if price_range_index.get("contract") != "PRICE_RANGE_INDEX_V1" or price_range_index.get("dossier_release_id") != dossier_release_id:
         raise ValueError("Price range index does not match promoted Dossier release")
-    if set(asof_index["companies"]) != {c["symbol"] for c in pilot_companies}:
-        raise ValueError("As-of index does not match pilot cohort")
 
     # Load sector taxonomy from universe_index.json if present
     u_map = {}
-    universe_path = STOCKS_DIR / "universe_index.json"
+    universe_path = stocks_dir / "universe_index.json"
     if universe_path.exists():
         try:
             u_data = json.loads(universe_path.read_text(encoding="utf-8"))
@@ -330,7 +304,7 @@ def generate_pilot_pages(check_only: bool = False) -> tuple[dict, list[str]]:
         sym = comp["symbol"]
         slug = comp["canonical_slug"]
         shard = "".join(c if c.isalnum() and c.isascii() else "_" for c in sym[:2]).ljust(2, "_")
-        dossier_file = STOCKS_DIR / shard / f"{sym}.json"
+        dossier_file = stocks_dir / shard / f"{sym}.json"
         if not dossier_file.exists():
             raise FileNotFoundError(f"Missing dossier for {sym}: {dossier_file}")
 
@@ -341,24 +315,14 @@ def generate_pilot_pages(check_only: bool = False) -> tuple[dict, list[str]]:
             range_row.get("price_as_of") != price.get("as_of") or
             abs(range_row.get("reference_close", 0) - (price.get("close") or 0)) > 0.011):
             raise ValueError(f"Price range does not match dossier price for {sym}")
-        asof_company = asof_index["companies"][sym]
-        v2_company = dossier.get("v2_canonical", {}).get("company", {})
-        period = dossier.get("v2_canonical", {}).get("business_performance", {}).get("REVENUE_TTM", {})
-        if (asof_company["company_id"] != v2_company.get("canonical_company_id") or
-            asof_company["as_of"] != period.get("financial_period_end") or
-            asof_company["scope"] != period.get("scope")):
-            raise ValueError(f"As-of index identity/period mismatch for {sym}")
-        asof_company = dict(asof_company)
-        asof_company["metrics"] = {key: dict(value, source_release=asof_index["sources"][value["source"]]["release_id"])
-                                   for key, value in asof_company["metrics"].items()}
-        vm = build_view_model(comp, dossier, u_map=u_map, asof_company=asof_company, range_row=range_row)
+        vm = build_view_model(comp, dossier, u_map=u_map, range_row=range_row)
         html_content = render_template(template_str, vm)
 
         # Enforce LF endings and UTF-8 encoding
         html_bytes = html_content.replace("\r\n", "\n").encode("utf-8")
         html_sha256 = hashlib.sha256(html_bytes).hexdigest()
 
-        target_dir = STOCKS_DIR / slug
+        target_dir = stocks_dir / slug
         target_file = target_dir / "index.html"
         canonical_urls.append(vm["canonical_url"])
 
@@ -399,7 +363,7 @@ def generate_pilot_pages(check_only: bool = False) -> tuple[dict, list[str]]:
     sitemap_content = "\n".join(sitemap_lines)
 
     if not check_only:
-        SITEMAP_PATH.write_text(sitemap_content, encoding="utf-8")
+        sitemap_path.write_text(sitemap_content, encoding="utf-8")
 
     manifest = {
         "checkpoint": "5D.0A.1",
@@ -415,19 +379,25 @@ def generate_pilot_pages(check_only: bool = False) -> tuple[dict, list[str]]:
 def main() -> int:
     parser = argparse.ArgumentParser(description="Build 20-company SEO pilot pages.")
     parser.add_argument("--check", action="store_true", help="Validate existing files without modifying them.")
+    parser.add_argument("--stocks-dir", type=Path, default=STOCKS_DIR)
+    parser.add_argument("--sitemap-path", type=Path, default=SITEMAP_PATH)
+    parser.add_argument("--pages-only", action="store_true", help="Skip the public Stocks directory builder for isolated candidates.")
     args = parser.parse_args()
 
-    manifest, urls = generate_pilot_pages(check_only=args.check)
+    manifest, urls = generate_pilot_pages(
+        check_only=args.check, stocks_dir=args.stocks_dir, sitemap_path=args.sitemap_path
+    )
 
     # Automatically build or check stocks directory
-    sys.path.insert(0, str(ROOT))
-    from scripts.build_stocks_directory import build_directory
-    build_directory(check_only=args.check)
+    if not args.pages_only:
+        sys.path.insert(0, str(ROOT))
+        from scripts.build_stocks_directory import build_directory
+        build_directory(check_only=args.check)
 
     if args.check:
         print(f"PASS: All {manifest['pilot_count']} pilot SEO pages and Stocks directory match certified sources.")
     else:
-        manifest_path = ROOT / "pilot_seo_manifest_v1.json"
+        manifest_path = (args.stocks_dir.parent if args.pages_only else ROOT) / "pilot_seo_manifest_v1.json"
         manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
         print(f"SUCCESS: Generated {manifest['pilot_count']} pilot SEO pages + stocks directory + updated sitemap.")
     return 0

@@ -7,16 +7,24 @@ Usage: python scripts/build_dossier_financial_index.py [--check]
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "stocks" / "financial_index_v1.json"
-RATIOS = ("pe", "pb", "roe", "roce")
+RATIOS = ("pe", "pb", "roe", "roce", "debt_to_equity", "current_ratio")
 
 
-def build() -> dict:
-    universe = json.loads((ROOT / "stocks" / "universe_index.json").read_text(encoding="utf-8"))
+def build(stocks_dir: Path = ROOT / "stocks") -> dict:
+    stocks_dir = Path(stocks_dir)
+    manifest_path = stocks_dir / "manifest.json"
+    manifest_bytes = manifest_path.read_bytes()
+    manifest = json.loads(manifest_bytes)
+    release_id = manifest.get("source_dossier_release_id")
+    if not release_id or manifest.get("canonical_universe_count") != 2524:
+        raise ValueError("public stocks manifest is not tied to a complete Dossier release")
+    universe = json.loads((stocks_dir / "universe_index.json").read_text(encoding="utf-8"))
     if universe["count"] != 2524 or len(universe["stocks"]) != 2524:
         raise ValueError("canonical universe count changed")
     stocks: dict[str, dict] = {}
@@ -26,7 +34,7 @@ def build() -> dict:
         if symbol in stocks:
             raise ValueError(f"duplicate symbol: {symbol}")
         shard = "".join(ch if ch.isalnum() and ch.isascii() else "_" for ch in symbol[:2]).ljust(2, "_")
-        dossier = json.loads((ROOT / "stocks" / shard / f"{symbol}.json").read_text(encoding="utf-8"))
+        dossier = json.loads((stocks_dir / shard / f"{symbol}.json").read_text(encoding="utf-8"))
         if dossier["symbol"] != symbol:
             raise ValueError(f"dossier identity mismatch: {symbol}")
         values = {}
@@ -38,16 +46,30 @@ def build() -> dict:
             values[key] = value
             if value is not None:
                 coverage[key] += 1
-        for key, source_key in (("market_cap", "market_cap_crore"), ("debt_to_equity", "debt_to_equity")):
+        for key, source_key in (("market_cap", "market_cap_crore"),):
             if dossier[source_key] is not None:
                 coverage[key] += 1
+        values["market_cap_crore"] = dossier["market_cap_crore"]
+        for key in ("net_worth_crore", "total_debt_crore"):
+            values[key] = dossier[key]
         canonical = dossier.get("v2_canonical") or {}
         values["pe_price_as_of"] = (canonical.get("valuation", {}).get("P_E") or {}).get("price_as_of")
         values["roe_period_end"] = (canonical.get("ratios", {}).get("ROE") or {}).get("financial_period_end")
+        for key, canonical_key, section in (
+            ("debt_to_equity", "DEBT_TO_EQUITY", "ratios"),
+            ("current_ratio", "CURRENT_RATIO", "ratios"),
+            ("net_worth", "NET_WORTH", "balance_sheet"),
+            ("total_debt", "TOTAL_DEBT", "balance_sheet"),
+        ):
+            envelope = (canonical.get(section) or {}).get(canonical_key) or {}
+            values[f"{key}_source_period"] = envelope.get("source_period") or envelope.get("financial_period_end")
+            values[f"{key}_effective_as_of"] = envelope.get("effective_as_of")
         stocks[symbol] = values
     return {
         "schema_version": 1,
         "source": "certified_public_dossier_v2",
+        "source_dossier_release_id": release_id,
+        "public_manifest_sha256": hashlib.sha256(manifest_bytes).hexdigest(),
         "canonical_count": len(stocks),
         "coverage": coverage,
         "stocks": stocks,
@@ -57,13 +79,15 @@ def build() -> dict:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--check", action="store_true")
+    parser.add_argument("--stocks-dir", type=Path, default=ROOT / "stocks")
+    parser.add_argument("--output", type=Path, default=OUTPUT)
     args = parser.parse_args()
-    rendered = json.dumps(build(), ensure_ascii=False, separators=(",", ":")) + "\n"
+    rendered = json.dumps(build(args.stocks_dir), ensure_ascii=False, separators=(",", ":")) + "\n"
     if args.check:
-        if not OUTPUT.exists() or OUTPUT.read_text(encoding="utf-8") != rendered:
-            raise SystemExit("STALE: stocks/financial_index_v1.json")
+        if not args.output.exists() or args.output.read_text(encoding="utf-8") != rendered:
+            raise SystemExit(f"STALE: {args.output}")
     else:
-        OUTPUT.write_text(rendered, encoding="utf-8")
+        args.output.write_text(rendered, encoding="utf-8")
     print("PASS: compact financial index matches all 2,524 certified public dossiers")
     return 0
 

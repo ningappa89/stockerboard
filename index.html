@@ -18659,57 +18659,6 @@
             return result;
         }
 
-        let pilotAsOfIndexPromise;
-        function loadPilotAsOfIndex() {
-            if (!pilotAsOfIndexPromise) {
-                pilotAsOfIndexPromise = fetch('./stocks/pilot_asof_financials_v1.json', {cache: 'no-cache'})
-                    .then(response => response.ok ? response.json() : null)
-                    .then(data => data?.contract === 'PILOT_ASOF_FINANCIALS_V1' ? data : null)
-                    .catch(() => null);
-            }
-            return pilotAsOfIndexPromise;
-        }
-
-        function applyPilotAsOfFinancials(stock, json, symbol, index) {
-            const company = index?.companies?.[symbol];
-            const v2 = json?.v2_canonical;
-            const period = v2?.business_performance?.REVENUE_TTM;
-            if (!company || company.company_id !== v2?.company?.canonical_company_id ||
-                company.as_of !== period?.financial_period_end || company.scope !== period?.scope) return stock;
-            const fields = {
-                NET_WORTH: ['net_worth_crore', 'balance_sheet', 'NET_WORTH'],
-                TOTAL_DEBT: ['total_debt_crore', 'balance_sheet', 'TOTAL_DEBT'],
-                NET_DEBT: ['net_debt', 'balance_sheet', 'NET_DEBT'],
-                BOOK_VALUE_PER_SHARE: ['bvps', 'balance_sheet', 'BVPS'],
-                DEBT_TO_EQUITY: ['debt_to_equity', 'ratios', 'DEBT_TO_EQUITY'],
-                CURRENT_RATIO: ['current_ratio', 'ratios', 'CURRENT_RATIO']
-            };
-            const provenance = structuredClone(v2);
-            let enriched = false;
-            for (const [key, [field, section, dossierKey]] of Object.entries(fields)) {
-                const source = company.metrics?.[key];
-                const current = v2?.[section]?.[dossierKey];
-                if (!source || stock[field] !== null || current?.status !== 'UNAVAILABLE' ||
-                    ['DOMAIN_NOT_APPLICABLE', 'NOT_APPLICABLE', 'UNSUPPORTED_INPUT_CONTRACT'].includes(current?.reason) ||
-                    source.period_end >= company.as_of || source.period_end === current?.financial_period_end ||
-                    source.source !== (section === 'ratios' ? 'ratios' : 'balance_sheet')) continue;
-                const amount = Number(source.value);
-                if (!Number.isFinite(amount)) continue;
-                stock[field] = source.unit === 'INR' ? amount / 10000000 : amount;
-                provenance[section][dossierKey] = {
-                    ...current, value: amount, display_value: stock[field], status: 'AVAILABLE', reason: 'OK',
-                    financial_period_end: source.period_end, source_layer: section === 'ratios' ? 'FINANCIAL_RATIOS_GOLD' : 'BALANCE_SHEET_GOLD',
-                    source_release: index.sources?.[source.source]?.release_id, lineage_ref: source.lineage_ref
-                };
-                enriched = true;
-            }
-            if (enriched) {
-                stock.dossier_provenance = provenance;
-                stock.asof_financials_note = 'Some financial-health measures use the latest certified earlier reporting period; see each measure’s report date.';
-            }
-            return stock;
-        }
-
         let priceRangeIndexPromise;
         function loadPriceRangeIndex() {
             if (!priceRangeIndexPromise) {
@@ -18853,8 +18802,8 @@
         }
 
         async function preloadDossier(symbol) {
-            const [, asOfIndex, rangeIndex] = await Promise.all([
-                loadFundamentalsSnapshot(), loadPilotAsOfIndex(), loadPriceRangeIndex()
+            const [, rangeIndex] = await Promise.all([
+                loadFundamentalsSnapshot(), loadPriceRangeIndex()
             ]);
             if (!symbol) return;
             const cleanSym = canonicalDossierSymbol(symbol);
@@ -18867,7 +18816,7 @@
                 .then(json => {
                     if (json) {
                         const norm = applyPriceRange(
-                            applyPilotAsOfFinancials(normalizeDossierJson(json, cleanSym), json, cleanSym, asOfIndex),
+                            normalizeDossierJson(json, cleanSym),
                             json, cleanSym, rangeIndex);
                         putInDossierCache(cleanSym, norm);
                     }
@@ -18876,8 +18825,8 @@
         }
 
         async function fetchDossierData(cleanSym, signal) {
-            const [, asOfIndex, rangeIndex] = await Promise.all([
-                loadFundamentalsSnapshot(), loadPilotAsOfIndex(), loadPriceRangeIndex()
+            const [, rangeIndex] = await Promise.all([
+                loadFundamentalsSnapshot(), loadPriceRangeIndex()
             ]);
             cleanSym = canonicalDossierSymbol(cleanSym);
             if (dossierCache.has(cleanSym)) {
@@ -18898,7 +18847,7 @@
                 if (resp.ok) {
                     const json = await resp.json();
                     const norm = applyPriceRange(
-                        applyPilotAsOfFinancials(normalizeDossierJson(json, cleanSym), json, cleanSym, asOfIndex),
+                        normalizeDossierJson(json, cleanSym),
                         json, cleanSym, rangeIndex);
                     if (direct) norm.richData = direct;
                     putInDossierCache(cleanSym, norm);

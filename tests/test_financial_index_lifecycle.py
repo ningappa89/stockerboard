@@ -32,6 +32,9 @@ def test_coverage_and_duplicates():
     assert fin["source"] == "certified_public_dossier_v2"
     assert fin["canonical_count"] == 2524
     assert len(fin["stocks"]) == 2524
+    public_manifest = json.loads((STOCKS_DIR / "manifest.json").read_text(encoding="utf-8"))
+    assert fin["source_dossier_release_id"] == public_manifest["source_dossier_release_id"]
+    assert fin["public_manifest_sha256"] == hashlib.sha256((STOCKS_DIR / "manifest.json").read_bytes()).hexdigest()
 
     symbols = [row[0] for row in universe["stocks"]]
     assert len(symbols) == len(set(symbols)), "Duplicate symbols in universe"
@@ -54,6 +57,8 @@ def test_parity_and_nulls():
         assert entry["pb"] == dossier.get("pb"), f"PB mismatch {sym}"
         assert entry["roe"] == dossier.get("roe"), f"ROE mismatch {sym}"
         assert entry["roce"] == dossier.get("roce"), f"ROCE mismatch {sym}"
+        for key in ("debt_to_equity", "current_ratio", "market_cap_crore", "net_worth_crore", "total_debt_crore"):
+            assert entry[key] == dossier.get(key), f"{key} mismatch {sym}"
         
         # Null preservation: ensure nulls are None, not 0 or "N/A"
         for k in ["pe", "pb", "roe", "roce"]:
