@@ -4251,7 +4251,76 @@
             gap: 4px;
         }
 
-        /* Bottom Bridge Banner */
+        /* About section sits with the legal footer, after the application content. */
+        .about-section {
+            max-width: 1120px;
+            margin: 48px auto 24px;
+            padding: clamp(24px, 4vw, 40px);
+            border: 1px solid var(--border-subtle);
+            border-radius: 20px;
+            background: var(--bg-surface);
+        }
+        .about-section h2 {
+            margin: 0 0 10px;
+            color: var(--text-primary);
+            font-size: clamp(1.35rem, 2.3vw, 1.8rem);
+            letter-spacing: -0.025em;
+            line-height: 1.25;
+        }
+        .about-section-intro {
+            max-width: 680px;
+            margin: 0 0 26px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+        .about-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 16px;
+            align-items: stretch;
+        }
+        .about-card {
+            min-width: 0;
+            padding: clamp(18px, 2.5vw, 26px);
+            border: 1px solid var(--border-subtle);
+            border-radius: 14px;
+            background: var(--bg-primary);
+        }
+        .about-card h3 {
+            margin: 0 0 12px;
+            color: var(--text-secondary);
+            font-size: 0.73rem;
+            font-weight: 800;
+            letter-spacing: 0.09em;
+            text-transform: uppercase;
+        }
+        .about-card p {
+            margin: 0;
+            color: var(--text-primary);
+            font-size: 1rem;
+            font-weight: 600;
+            line-height: 1.55;
+        }
+        .about-principles {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 14px;
+            margin-top: 18px;
+        }
+        .about-principles p {
+            min-width: 0;
+            margin: 0;
+            color: var(--text-secondary);
+            font-size: 0.83rem;
+            line-height: 1.5;
+        }
+        .about-principles strong { color: var(--text-primary); }
+        @media (max-width: 680px) {
+            .about-section { margin: 36px auto 20px; padding: 20px; }
+            .about-grid, .about-principles { grid-template-columns: 1fr; }
+            .about-principles { gap: 10px; }
+        }
+
         .fresher-bridge-banner {
             background: linear-gradient(135deg, rgba(2, 132, 199, 0.04) 0%, rgba(109, 40, 217, 0.04) 100%);
             border: 1px dashed rgba(2, 132, 199, 0.25);
@@ -14266,6 +14335,26 @@
             <span id="toastMsg">Action completed successfully</span>
         </div>
 
+        <section class="about-section" id="about-stockerboard" aria-labelledby="about-stockerboard-heading">
+            <h2 id="about-stockerboard-heading">Why Stockerboard exists</h2>
+            <p class="about-section-intro">Company research should be easier to understand and easier to check. These principles guide what we publish and how we present it.</p>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>Our vision</h3>
+                    <p>Make Indian company research clear and accessible to every investor.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Our mission</h3>
+                    <p>Turn reported financials and market data into dated, understandable views that help people investigate companies and make informed decisions.</p>
+                </div>
+            </div>
+            <div class="about-principles" aria-label="Research principles">
+                <p><strong>Clarity.</strong> Explain measures in plain language.</p>
+                <p><strong>Traceability.</strong> Show the period, scope and source when available.</p>
+                <p><strong>Honest gaps.</strong> Show missing data as unavailable, never as zero.</p>
+            </div>
+        </section>
+
         <!-- SEBI Compliance Box -->
         <div class="compliance-box">
             <strong>🛡️ Statutory Disclosure & Disclaimer:</strong><br>
@@ -14281,6 +14370,7 @@
             <div style="margin-bottom: 10px;">
                 <a href="/stocks/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; font-weight: 500; margin: 0 10px;">Stocks Directory</a>
                 <a href="javascript:void(0)" onclick="openFresherPlaybookModal()" style="color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; font-weight: 500; margin: 0 10px;">Learn</a>
+                <a href="#about-stockerboard" style="color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; font-weight: 500; margin: 0 10px;">About</a>
             </div>
             © 2026 Stockerboard. All rights reserved. • Compiled from official public records of NSE India &amp; BSE India.
         </footer>
@@ -14401,7 +14491,6 @@
                 }
             } catch(e) {}
         }
-
 
         let fundamentalsSnapshot = {};
         let fundamentalsLoadPromise;
@@ -16905,6 +16994,14 @@
         function openTvImportModal() {
             document.getElementById('tvImportModal').classList.add('active');
             document.getElementById('tvImportInput').focus();
+        }
+
+
+        function openFresherPlaybookModal() {
+            switchUserMode('intermediate');
+            const button = document.getElementById('tabBtnPlaybook');
+            if (button) switchTab('tab-playbook', button);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
         function closeTvImportModal() {
