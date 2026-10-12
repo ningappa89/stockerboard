@@ -4251,74 +4251,63 @@
             gap: 4px;
         }
 
-        /* About section sits with the legal footer, after the application content. */
+        /* Editorial purpose statement, immediately before disclosures and footer. */
         .about-section {
             max-width: 1120px;
-            margin: 48px auto 24px;
-            padding: clamp(24px, 4vw, 40px);
-            border: 1px solid var(--border-subtle);
-            border-radius: 20px;
-            background: var(--bg-surface);
+            margin: 64px auto 32px;
+            padding: 34px 0 0;
+            border-top: 1px solid var(--border-subtle);
+            display: grid;
+            grid-template-columns: minmax(180px, 0.32fr) minmax(0, 1fr);
+            gap: clamp(28px, 5vw, 76px);
         }
         .about-section h2 {
-            margin: 0 0 10px;
+            margin: 0;
             color: var(--text-primary);
-            font-size: clamp(1.35rem, 2.3vw, 1.8rem);
-            letter-spacing: -0.025em;
-            line-height: 1.25;
+            font-size: clamp(1.25rem, 2vw, 1.6rem);
+            letter-spacing: -0.03em;
+            line-height: 1.3;
         }
-        .about-section-intro {
-            max-width: 680px;
-            margin: 0 0 26px;
-            color: var(--text-secondary);
-            line-height: 1.6;
-        }
-        .about-grid {
-            display: grid;
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 16px;
-            align-items: stretch;
-        }
-        .about-card {
-            min-width: 0;
-            padding: clamp(18px, 2.5vw, 26px);
-            border: 1px solid var(--border-subtle);
-            border-radius: 14px;
-            background: var(--bg-primary);
-        }
-        .about-card h3 {
-            margin: 0 0 12px;
-            color: var(--text-secondary);
-            font-size: 0.73rem;
+        .about-section-eyebrow {
+            display: block;
+            margin-bottom: 9px;
+            color: var(--text-muted);
+            font-size: 0.69rem;
             font-weight: 800;
-            letter-spacing: 0.09em;
+            letter-spacing: 0.11em;
             text-transform: uppercase;
         }
-        .about-card p {
+        .about-statement {
+            display: grid;
+            grid-template-columns: 96px minmax(0, 1fr);
+            gap: clamp(14px, 2vw, 28px);
+            align-items: start;
+            padding: 0 0 27px;
+        }
+        .about-statement + .about-statement {
+            border-top: 1px solid var(--border-subtle);
+            padding-top: 27px;
+        }
+        .about-statement:last-child { padding-bottom: 0; }
+        .about-statement h3 {
+            margin: 4px 0 0;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            font-weight: 700;
+        }
+        .about-statement p {
             margin: 0;
             color: var(--text-primary);
-            font-size: 1rem;
+            font-size: clamp(1rem, 1.5vw, 1.17rem);
             font-weight: 600;
+            letter-spacing: -0.012em;
             line-height: 1.55;
         }
-        .about-principles {
-            display: grid;
-            grid-template-columns: repeat(3, minmax(0, 1fr));
-            gap: 14px;
-            margin-top: 18px;
-        }
-        .about-principles p {
-            min-width: 0;
-            margin: 0;
-            color: var(--text-secondary);
-            font-size: 0.83rem;
-            line-height: 1.5;
-        }
-        .about-principles strong { color: var(--text-primary); }
         @media (max-width: 680px) {
-            .about-section { margin: 36px auto 20px; padding: 20px; }
-            .about-grid, .about-principles { grid-template-columns: 1fr; }
-            .about-principles { gap: 10px; }
+            .about-section { grid-template-columns: 1fr; gap: 26px; margin: 48px auto 24px; padding-top: 26px; }
+            .about-statement { grid-template-columns: 1fr; gap: 8px; padding-bottom: 22px; }
+            .about-statement + .about-statement { padding-top: 22px; }
+            .about-statement h3 { margin: 0; }
         }
 
         .fresher-bridge-banner {
@@ -14336,22 +14325,19 @@
         </div>
 
         <section class="about-section" id="about-stockerboard" aria-labelledby="about-stockerboard-heading">
-            <h2 id="about-stockerboard-heading">Why Stockerboard exists</h2>
-            <p class="about-section-intro">Company research should be easier to understand and easier to check. These principles guide what we publish and how we present it.</p>
-            <div class="about-grid">
-                <div class="about-card">
-                    <h3>Our vision</h3>
-                    <p>Make Indian company research clear and accessible to every investor.</p>
-                </div>
-                <div class="about-card">
-                    <h3>Our mission</h3>
-                    <p>Turn reported financials and market data into dated, understandable views that help people investigate companies and make informed decisions.</p>
-                </div>
+            <div>
+                <span class="about-section-eyebrow">About Stockerboard</span>
+                <h2 id="about-stockerboard-heading">What guides us</h2>
             </div>
-            <div class="about-principles" aria-label="Research principles">
-                <p><strong>Clarity.</strong> Explain measures in plain language.</p>
-                <p><strong>Traceability.</strong> Show the period, scope and source when available.</p>
-                <p><strong>Honest gaps.</strong> Show missing data as unavailable, never as zero.</p>
+            <div>
+                <div class="about-statement">
+                    <h3>Vision</h3>
+                    <p>Make understanding Indian companies and stocks simple, transparent, and accessible to everyone.</p>
+                </div>
+                <div class="about-statement">
+                    <h3>Mission</h3>
+                    <p>Turn complex financial and market data into clear, trustworthy, beginner-friendly insights that help investors investigate companies and make better-informed decisions.</p>
+                </div>
             </div>
         </section>
 
