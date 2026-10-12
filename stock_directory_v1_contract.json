@@ -1,0 +1,31 @@
+{
+  "contract_name": "STOCK_DIRECTORY_V1_CONTRACT",
+  "contract_version": "1.0.0",
+  "schema": "StocksDirectoryV1",
+  "entry_schema": "StockDirectoryEntryV1",
+  "entry_fields": {
+    "canonical_company_id": { "type": "string", "required": true },
+    "symbol": { "type": "string", "required": true },
+    "company_name": { "type": "string", "required": true },
+    "canonical_slug": { "type": "string", "required": true },
+    "canonical_url": { "type": "string", "format": "uri", "required": true },
+    "sector": { "type": "string", "required": true },
+    "price": { "type": ["number", "null"], "required": true },
+    "price_formatted": { "type": "string", "required": true },
+    "price_status": { "type": "string", "enum": ["AVAILABLE", "UNAVAILABLE"], "required": true },
+    "price_as_of": { "type": ["string", "null"], "format": "date", "required": true },
+    "market_cap": { "type": ["number", "null"], "required": true },
+    "market_cap_formatted": { "type": "string", "required": true },
+    "market_cap_status": { "type": "string", "enum": ["AVAILABLE", "UNAVAILABLE"], "required": true }
+  },
+  "constraints": {
+    "zero_frontend_calculations": true,
+    "fail_closed_missing_values": true,
+    "deterministic_sorting": "company_name_asc",
+    "featured_canonical_links": "/stocks/{canonical_slug}/",
+    "other_company_links": "/#stock/{canonical_symbol}",
+    "browse_population": "stocks/universe_index.json canonical universe",
+    "featured_population": "20 ACTIVE_PILOT companies from company_slug_registry_v1.json",
+    "search_population": "all canonical universe companies"
+  }
+}

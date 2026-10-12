@@ -4844,6 +4844,7 @@
                     </div>
                 </div>
                 <div class="header-nav-links" style="display: inline-flex; align-items: center; gap: 24px; margin-left: 24px; margin-right: auto;">
+                    <a href="/stocks/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.92rem; font-weight: 500; transition: color 0.15s ease;">Stocks</a>
                     <a href="javascript:void(0)" onclick="openFresherPlaybookModal()" style="color: var(--text-secondary); text-decoration: none; font-size: 0.92rem; font-weight: 500; transition: color 0.15s ease;">Learn</a>
                     <a href="javascript:void(0)" onclick="switchUserMode('pro')" style="color: var(--text-secondary); text-decoration: none; font-size: 0.92rem; font-weight: 500; transition: color 0.15s ease;">Explore</a>
                 </div>
@@ -14275,7 +14276,11 @@
                     ✦ INDEPENDENT EQUITY RESEARCH • ZERO-ADVISORY • Independent Quantitative Research
                 </span>
             </div>
-            © 2026 Stockerboard. All rights reserved. • Compiled from official public records of NSE India & BSE India.
+            <div style="margin-bottom: 10px;">
+                <a href="/stocks/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; font-weight: 500; margin: 0 10px;">Stocks Directory</a>
+                <a href="javascript:void(0)" onclick="openFresherPlaybookModal()" style="color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; font-weight: 500; margin: 0 10px;">Learn</a>
+            </div>
+            © 2026 Stockerboard. All rights reserved. • Compiled from official public records of NSE India &amp; BSE India.
         </footer>
     </div>
 
@@ -18569,6 +18574,57 @@
             return result;
         }
 
+        let pilotAsOfIndexPromise;
+        function loadPilotAsOfIndex() {
+            if (!pilotAsOfIndexPromise) {
+                pilotAsOfIndexPromise = fetch('./stocks/pilot_asof_financials_v1.json', {cache: 'no-cache'})
+                    .then(response => response.ok ? response.json() : null)
+                    .then(data => data?.contract === 'PILOT_ASOF_FINANCIALS_V1' ? data : null)
+                    .catch(() => null);
+            }
+            return pilotAsOfIndexPromise;
+        }
+
+        function applyPilotAsOfFinancials(stock, json, symbol, index) {
+            const company = index?.companies?.[symbol];
+            const v2 = json?.v2_canonical;
+            const period = v2?.business_performance?.REVENUE_TTM;
+            if (!company || company.company_id !== v2?.company?.canonical_company_id ||
+                company.as_of !== period?.financial_period_end || company.scope !== period?.scope) return stock;
+            const fields = {
+                NET_WORTH: ['net_worth_crore', 'balance_sheet', 'NET_WORTH'],
+                TOTAL_DEBT: ['total_debt_crore', 'balance_sheet', 'TOTAL_DEBT'],
+                NET_DEBT: ['net_debt', 'balance_sheet', 'NET_DEBT'],
+                BOOK_VALUE_PER_SHARE: ['bvps', 'balance_sheet', 'BVPS'],
+                DEBT_TO_EQUITY: ['debt_to_equity', 'ratios', 'DEBT_TO_EQUITY'],
+                CURRENT_RATIO: ['current_ratio', 'ratios', 'CURRENT_RATIO']
+            };
+            const provenance = structuredClone(v2);
+            let enriched = false;
+            for (const [key, [field, section, dossierKey]] of Object.entries(fields)) {
+                const source = company.metrics?.[key];
+                const current = v2?.[section]?.[dossierKey];
+                if (!source || stock[field] !== null || current?.status !== 'UNAVAILABLE' ||
+                    ['DOMAIN_NOT_APPLICABLE', 'NOT_APPLICABLE', 'UNSUPPORTED_INPUT_CONTRACT'].includes(current?.reason) ||
+                    source.period_end >= company.as_of || source.period_end === current?.financial_period_end ||
+                    source.source !== (section === 'ratios' ? 'ratios' : 'balance_sheet')) continue;
+                const amount = Number(source.value);
+                if (!Number.isFinite(amount)) continue;
+                stock[field] = source.unit === 'INR' ? amount / 10000000 : amount;
+                provenance[section][dossierKey] = {
+                    ...current, value: amount, display_value: stock[field], status: 'AVAILABLE', reason: 'OK',
+                    financial_period_end: source.period_end, source_layer: section === 'ratios' ? 'FINANCIAL_RATIOS_GOLD' : 'BALANCE_SHEET_GOLD',
+                    source_release: index.sources?.[source.source]?.release_id, lineage_ref: source.lineage_ref
+                };
+                enriched = true;
+            }
+            if (enriched) {
+                stock.dossier_provenance = provenance;
+                stock.asof_financials_note = 'Some financial-health measures use the latest certified earlier reporting period; see each measure’s report date.';
+            }
+            return stock;
+        }
+
         function renderDossierFundamentals(stock) {
             const values = readDossierFundamentals(stock);
             const available = Object.values(values).filter(value => value !== null).length;
@@ -18682,6 +18738,7 @@
 
         async function preloadDossier(symbol) {
             await loadFundamentalsSnapshot();
+            const asOfIndex = await loadPilotAsOfIndex();
             if (!symbol) return;
             const cleanSym = canonicalDossierSymbol(symbol);
             if (dossierCache.has(cleanSym)) return;
@@ -18692,7 +18749,7 @@
                 .then(r => r.ok ? r.json() : null)
                 .then(json => {
                     if (json) {
-                        const norm = normalizeDossierJson(json, cleanSym);
+                        const norm = applyPilotAsOfFinancials(normalizeDossierJson(json, cleanSym), json, cleanSym, asOfIndex);
                         putInDossierCache(cleanSym, norm);
                     }
                 })
@@ -18701,6 +18758,7 @@
 
         async function fetchDossierData(cleanSym, signal) {
             await loadFundamentalsSnapshot();
+            const asOfIndex = await loadPilotAsOfIndex();
             cleanSym = canonicalDossierSymbol(cleanSym);
             if (dossierCache.has(cleanSym)) {
                 return dossierCache.get(cleanSym);
@@ -18719,7 +18777,7 @@
                 const resp = await fetch(`./stocks/${shard}/${cleanSym}.json?v=${version}`, { signal });
                 if (resp.ok) {
                     const json = await resp.json();
-                    const norm = normalizeDossierJson(json, cleanSym);
+                    const norm = applyPilotAsOfFinancials(normalizeDossierJson(json, cleanSym), json, cleanSym, asOfIndex);
                     if (direct) norm.richData = direct;
                     putInDossierCache(cleanSym, norm);
                     return norm;

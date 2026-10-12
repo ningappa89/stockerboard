@@ -257,7 +257,8 @@
         if (!grid || !source) return;
         const status = stock.ratios_status || {};
         const provenance = stock.dossier_provenance || {};
-        source.textContent = 'Financial values come from the certified public company dossier. Dates and scope are shown by section where published. An em dash means unavailable, not zero.';
+        source.textContent = 'Financial values come from the certified public company dossier. Dates and scope are shown by section where published. An em dash means unavailable, not zero.' +
+            (stock.asof_financials_note ? ' ' + stock.asof_financials_note : '');
         grid.replaceChildren(
             summaryGroup('Business', [
                 ['Revenue', formatted(stock.revenue_crore, {prefix: '₹', suffix: ' Cr', digits: 0})],

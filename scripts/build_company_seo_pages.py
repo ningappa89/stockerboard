@@ -308,7 +308,7 @@ def generate_pilot_pages(check_only: bool = False) -> tuple[dict, list[str]]:
             pass
 
     manifest_entries = []
-    canonical_urls = ["https://stockerboard.com/"]
+    canonical_urls = ["https://stockerboard.com/", "https://stockerboard.com/stocks/"]
 
     for comp in pilot_companies:
         sym = comp["symbol"]
@@ -370,7 +370,8 @@ def generate_pilot_pages(check_only: bool = False) -> tuple[dict, list[str]]:
         sitemap_lines.append(f"    <loc>{u}</loc>")
         sitemap_lines.append(f"    <lastmod>{today_str}</lastmod>")
         sitemap_lines.append("    <changefreq>weekly</changefreq>")
-        sitemap_lines.append("    <priority>1.0</priority>" if u == "https://stockerboard.com/" else "    <priority>0.8</priority>")
+        priority = "1.0" if u == "https://stockerboard.com/" else ("0.9" if u == "https://stockerboard.com/stocks/" else "0.8")
+        sitemap_lines.append(f"    <priority>{priority}</priority>")
         sitemap_lines.append("  </url>")
     sitemap_lines.append("</urlset>\n")
     sitemap_content = "\n".join(sitemap_lines)
@@ -379,7 +380,7 @@ def generate_pilot_pages(check_only: bool = False) -> tuple[dict, list[str]]:
         SITEMAP_PATH.write_text(sitemap_content, encoding="utf-8")
 
     manifest = {
-        "checkpoint": "5D.0A",
+        "checkpoint": "5D.0A.1",
         "pilot_count": len(manifest_entries),
         "generated_timestamp": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "pages": manifest_entries,
@@ -395,12 +396,18 @@ def main() -> int:
     args = parser.parse_args()
 
     manifest, urls = generate_pilot_pages(check_only=args.check)
+
+    # Automatically build or check stocks directory
+    sys.path.insert(0, str(ROOT))
+    from scripts.build_stocks_directory import build_directory
+    build_directory(check_only=args.check)
+
     if args.check:
-        print(f"PASS: All {manifest['pilot_count']} pilot SEO pages match certified Dossier sources.")
+        print(f"PASS: All {manifest['pilot_count']} pilot SEO pages and Stocks directory match certified sources.")
     else:
         manifest_path = ROOT / "pilot_seo_manifest_v1.json"
         manifest_path.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
-        print(f"SUCCESS: Generated {manifest['pilot_count']} pilot SEO pages + updated sitemap.")
+        print(f"SUCCESS: Generated {manifest['pilot_count']} pilot SEO pages + stocks directory + updated sitemap.")
     return 0
 
 
