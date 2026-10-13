@@ -5328,7 +5328,7 @@
                 <div class="investor-metric-help-body">
                     <p><strong>P/E</strong> compares share price with earnings per share. A lower number alone does not establish that a stock is inexpensive; losses can make the ratio unavailable.</p>
                     <p><strong>ROE</strong> compares profit with shareholders' equity. Debt, one-off gains, and industry differences can change its meaning.</p>
-                    <p><strong>— means unavailable.</strong> The current ratio snapshot has P/E for 453 and ROE for 471 of the 2,524 companies. Missing ratios are excluded from P/E and ROE filters.</p>
+                    <p id="investorRatioCoverage"><strong>— means unavailable.</strong> Ratio coverage appears when the certified financial index loads. Missing ratios are excluded from P/E and ROE filters.</p>
                     <p>Open a company to see each measure's source, scope and date before comparing stocks.</p>
                 </div>
             </details>
@@ -14495,6 +14495,7 @@
             return n === null ? '—' : n.toLocaleString('en-IN', {maximumFractionDigits: 2}) + suffix;
         }
         function formatCertifiedRatio(value, metadata, suffix = '') {
+            if (window.dossierFinancialIndexLoadState?.ok === false) return 'Data failed to load';
             if (metadata?.status === 'AVAILABLE' && numericMetric(value) !== null) return formatMetric(value, suffix);
             if (metadata?.status === 'NOT_APPLICABLE') return 'Not applicable for this company type';
             if (metadata?.status === 'PENDING_LAYER') return 'Not available yet';
@@ -14516,6 +14517,7 @@
         let screenerPopulationMode = null;
         let investorUniverseStocks = new Map();
         let dossierFinancialIndex = {};
+        window.dossierFinancialIndexLoadState = {ok: null};
 
         async function loadDossierFinancialIndex() {
             try {
@@ -14528,10 +14530,16 @@
                     throw new Error('financial index does not match canonical universe');
                 }
                 dossierFinancialIndex = index.stocks;
+                window.dossierFinancialIndexLoadState = {ok: true, coverage: index.coverage};
+                const coverage = document.getElementById('investorRatioCoverage');
+                if (coverage) coverage.textContent = `The certified ratio index has P/E for ${index.coverage.pe.toLocaleString('en-IN')} and ROE for ${index.coverage.roe.toLocaleString('en-IN')} of ${index.canonical_count.toLocaleString('en-IN')} companies. Missing ratios are excluded from P/E and ROE filters.`;
             } catch (error) {
                 // Keep company search usable. Ratios fail closed instead of using
                 // an older snapshot that can disagree with the public dossier.
                 dossierFinancialIndex = {};
+                window.dossierFinancialIndexLoadState = {ok: false, fileOrigin: location.protocol === 'file:'};
+                const coverage = document.getElementById('investorRatioCoverage');
+                if (coverage) coverage.textContent = 'Company ratios could not load. These are load errors, not certified unavailable values.';
                 console.warn('[Stockerboard] Certified Fresher ratios unavailable:', error.message);
             }
         }

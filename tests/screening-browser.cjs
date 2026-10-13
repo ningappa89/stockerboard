@@ -26,6 +26,16 @@ console.log('regressions', await ev(`(async () => {
  check('missing values',formatMetric(null)==='—' && formatMetric(undefined)==='—' && formatMetric('N/A')==='—' && formatMetric(0)==='0');
  check('52W positions',[10,15,19,20].every((cmp,i)=>stockPosition({cmp,low_52w:10,high_52w:20})===[0,50,90,100][i]) && stockPosition({cmp:10,high_52w:20})===null);
  check('canonical beginner population',investorUniverseStocks.size===2524&&document.querySelectorAll('#screenerTable tbody tr').length===2524);
+ check('financial index loaded with certified coverage',window.dossierFinancialIndexLoadState?.ok===true&&window.dossierFinancialIndexLoadState.coverage.pe===1635&&window.dossierFinancialIndexLoadState.coverage.roe===5);
+ check('first company shows available P/E',document.querySelector('#screenerTable tbody tr[data-sym="20MICRONS"]')?.cells[10]?.textContent==='10.22');
+ check('coverage help reflects loaded index',document.getElementById('investorRatioCoverage').textContent.includes('1,635')&&document.getElementById('investorRatioCoverage').textContent.includes('ROE for 5'));
+ const savedIndexState=window.dossierFinancialIndexLoadState;
+ window.dossierFinancialIndexLoadState={ok:false,fileOrigin:true};
+ check('index failure cannot look like certified missing data',formatCertifiedRatio(null,null)==='Data failed to load');
+ renderInvestorV1Cards([...document.querySelectorAll('#screenerTable tbody tr')].slice(0,1));
+ check('file-origin failure has actionable warning',document.getElementById('investorDataNote').classList.contains('investor-data-error')&&document.querySelector('#investorDataNote a')?.href==='https://stockerboard.com/');
+ window.dossierFinancialIndexLoadState=savedIndexState;
+ renderInvestorV1Cards([...document.querySelectorAll('#screenerTable tbody tr')].slice(0,24));
  const hdfcHomeRow=document.querySelector('#screenerTable tbody tr[data-sym="HDFCBANK"]');
  check('Home preserves certified missing-ratio status',hdfcHomeRow?.cells[10]?.textContent==='— Not available'&&hdfcHomeRow?.cells[11]?.textContent==='— Not available');
  check('sort order initialized',document.getElementById('investorSort').value==='coverage_desc');

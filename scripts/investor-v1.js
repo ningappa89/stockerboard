@@ -14,8 +14,23 @@
         if (!note || typeof APP_DATA === 'undefined') return;
         if (document.body.classList.contains('screen-fresher')) {
             const count = window.investorUniverseStocks?.size || (APP_DATA.universe || []).length;
-            note.textContent = `${count.toLocaleString('en-IN')} companies in the canonical universe · Price session ${APP_DATA.universe_as_of || 'unavailable'} · Ratios have their own report dates. Missing ratios show their certified availability status.`;
+            const loadState = window.dossierFinancialIndexLoadState;
+            note.classList.toggle('investor-data-error', loadState?.ok === false);
+            if (loadState?.ok === false) {
+                note.textContent = `${count.toLocaleString('en-IN')} companies are listed, but P/E and ROE could not load. The ratio cells show a loading error, not missing company data. `;
+                if (loadState.fileOrigin) {
+                    note.append(document.createTextNode('Local file pages cannot reliably load the financial index. '));
+                    const link = element('a', '', 'Open the live Stockerboard site');
+                    link.href = 'https://stockerboard.com/';
+                    note.append(link, document.createTextNode(' instead.'));
+                } else {
+                    note.append(document.createTextNode('Please reload the page.'));
+                }
+            } else {
+                note.textContent = `${count.toLocaleString('en-IN')} companies in the canonical universe · Price session ${APP_DATA.universe_as_of || 'unavailable'} · Ratios have their own report dates. Missing ratios show their certified availability status.`;
+            }
         } else {
+            note.classList.remove('investor-data-error');
             note.textContent = `${(APP_DATA.market_screener || []).length} technical snapshot stocks · Price session ${APP_DATA.session_date || 'unavailable'} · Missing values appear as —.`;
         }
     }

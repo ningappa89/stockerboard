@@ -29,6 +29,9 @@
     line-height: 1.45;
 }
 #investorDataNote::before { content: "ⓘ"; color: var(--investor-positive); font-weight: 700; margin-right: 8px; }
+#investorDataNote.investor-data-error { border-color: #d97706; background: #fff7ed; color: #7c2d12; }
+#investorDataNote.investor-data-error::before { content: "⚠"; color: #b45309; }
+#investorDataNote.investor-data-error a { color: inherit; font-weight: 700; text-decoration: underline; }
 .investor-data-coverage { display: none; margin: -6px 0 14px; color: var(--text-secondary); font-size: .78rem; }
 .screen-fresher .investor-data-coverage { display: block; }
 .investor-data-coverage summary { width: fit-content; cursor: pointer; color: var(--investor-positive); font-weight: 700; padding: 5px 0; }
