@@ -59,6 +59,12 @@ def test_parity_and_nulls():
         assert entry["roce"] == dossier.get("roce"), f"ROCE mismatch {sym}"
         for key in ("debt_to_equity", "current_ratio", "market_cap_crore", "net_worth_crore", "total_debt_crore"):
             assert entry[key] == dossier.get(key), f"{key} mismatch {sym}"
+        for key in ("pe", "pb", "roe", "roce", "debt_to_equity", "current_ratio"):
+            status = entry["ratio_status"][key]
+            canonical = dossier["ratios_status"][key]
+            assert status["status"] == canonical["status"], f"{key} status mismatch {sym}"
+            assert status["reason"] == canonical["reason"], f"{key} reason mismatch {sym}"
+            assert (entry[key] is not None) == (status["status"] == "AVAILABLE"), f"{key} value/status mismatch {sym}"
         
         # Null preservation: ensure nulls are None, not 0 or "N/A"
         for k in ["pe", "pb", "roe", "roce"]:

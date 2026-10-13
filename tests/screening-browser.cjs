@@ -26,6 +26,8 @@ console.log('regressions', await ev(`(async () => {
  check('missing values',formatMetric(null)==='—' && formatMetric(undefined)==='—' && formatMetric('N/A')==='—' && formatMetric(0)==='0');
  check('52W positions',[10,15,19,20].every((cmp,i)=>stockPosition({cmp,low_52w:10,high_52w:20})===[0,50,90,100][i]) && stockPosition({cmp:10,high_52w:20})===null);
  check('canonical beginner population',investorUniverseStocks.size===2524&&document.querySelectorAll('#screenerTable tbody tr').length===2524);
+ const hdfcHomeRow=document.querySelector('#screenerTable tbody tr[data-sym="HDFCBANK"]');
+ check('Home preserves certified missing-ratio status',hdfcHomeRow?.cells[10]?.textContent==='— Not available'&&hdfcHomeRow?.cells[11]?.textContent==='— Not available');
  check('sort order initialized',document.getElementById('investorSort').value==='coverage_desc');
  check('search quote uses canonical price date',searchStocksFuzzy('HDFCBANK')[0].stock.cmp===721.2);
  const predicates={BREAKOUT:s=>s.dist_52w_pct!==null&&s.dist_52w_pct>=-.5,COILED:s=>s.dist_52w_pct!==null&&s.dist_52w_pct>=-3&&s.dist_52w_pct<-.05,MOMENTUM:s=>s.momentum_score!==null&&s.momentum_score>=85,HIGH_ROE:s=>parseFloat(s.roe)>=15,VALUE_PE:s=>parseFloat(s.pe)>0&&parseFloat(s.pe)<=25,VCP:s=>s.is_vcp,POCKET_PIVOT:s=>s.is_pocket_pivot,STAGE2:s=>s.is_stage2,CONFLUENCE:s=>s.is_confluence,VOL_SURGE:s=>parseFloat(s.volume_multiplier)>=1.5};
@@ -56,6 +58,18 @@ console.log('regressions', await ev(`(async () => {
  const before=getWatchlist().includes(row.dataset.sym);row.querySelector('.star-btn').click();check('watch star stays in results',!document.getElementById('drawerOverlay').classList.contains('open'));check('watch persistence',getWatchlist().includes(row.dataset.sym)!==before);row.querySelector('.star-btn').click();
  const theme=document.documentElement.dataset.theme;toggleTheme();check('theme toggle',document.documentElement.dataset.theme!==theme);toggleTheme();
  const stock=await fetchDossierData('RELIANCE');check('dossier on demand',stock&&stock.symbol==='RELIANCE');
+ const proTimex=(APP_DATA.fundamental_leaders||[]).find(s=>s.symbol==='TIMEX');
+ check('Pro source contains an independent TIMEX ratio',proTimex?.pe===80.8);
+ dossierCache.delete('TIMEX');
+ const originalFetch=window.fetch;
+ try {
+  window.fetch=(input,...args)=>String(input).includes('/TI/TIMEX.json')?Promise.resolve({ok:false}):originalFetch(input,...args);
+  const missingShard=await fetchDossierData('TIMEX');
+  check('missing Dossier shard cannot inherit Pro ratios',missingShard?.pe===null&&missingShard?.pb===null&&missingShard?.roe===null&&missingShard?.roce===null&&missingShard?.ratios_status?.pe?.status==='UNAVAILABLE');
+  await openStockDossier('TIMEX');
+  check('missing Dossier renders ratios unavailable',document.getElementById('dossierTblPE').textContent==='— Not available'&&!document.getElementById('investorSummaryGrid').textContent.includes('80.8'));
+  closeStockDossier();
+ } finally {window.fetch=originalFetch;}
  await openStockDossier('HDFCBANK'); check('HDFCBANK dossier fails closed on uncertified metrics',document.getElementById('dossierFundamentalsStatus').textContent==='Partial ratio coverage' && document.getElementById('dossierTblPE').textContent==='— Not available' && document.getElementById('dossierTblPB').textContent==='1.87' && document.getElementById('dossierTblROE').textContent==='— Not available' && document.getElementById('dossierTblROCE').textContent==='Not applicable for this company type'); check('company price uses dated dossier shard',(document.getElementById('dossierCmp').textContent==='₹707.25'||document.getElementById('dossierCmp').textContent==='₹721.20')&&(document.getElementById('dossierPriceAsOf').textContent.includes('2026-10-09')||document.getElementById('dossierPriceAsOf').textContent.includes('2026-10-01'))); check('company order and reported growth',document.getElementById('investorDossierTabs').nextElementSibling.id==='investorCompanySummary'&&document.getElementById('investorSummaryGrid').innerText.includes('Revenue')&&document.getElementById('investorCompanyAdvanced').hidden);check('canonical same-sector peers',(document.querySelectorAll('#dossierPeersContainer .dossier-peer-row').length===4&&document.querySelector('#dossierPeersContainer .dossier-peers-note')?.textContent.includes('Financial Services'))||document.getElementById('dossierPeersContainer').textContent.includes('published sector')); closeStockDossier();
  check('ratio provenance cites Stockerboard or official source and zero competitor link',(document.getElementById('dossierFundamentalsSource').textContent.includes('Certified public company dossier') || document.getElementById('dossierFundamentalsSource').textContent.includes('Official filing')) && !document.querySelector('#dossierFundamentalsSource a') && !document.querySelector('a[href*="screener.in"]'));
  await openStockDossier('ZOMATO');check('same-ISIN legacy symbol resolves to canonical company',activeDossierSymbol==='ETERNAL'&&document.getElementById('dossierSym').textContent==='ETERNAL');closeStockDossier();

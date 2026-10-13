@@ -14,7 +14,7 @@
         if (!note || typeof APP_DATA === 'undefined') return;
         if (document.body.classList.contains('screen-fresher')) {
             const count = window.investorUniverseStocks?.size || (APP_DATA.universe || []).length;
-            note.textContent = `${count.toLocaleString('en-IN')} companies in the canonical universe · Price session ${APP_DATA.universe_as_of || 'unavailable'} · Ratios have their own report dates. Missing values appear as —.`;
+            note.textContent = `${count.toLocaleString('en-IN')} companies in the canonical universe · Price session ${APP_DATA.universe_as_of || 'unavailable'} · Ratios have their own report dates. Missing ratios show their certified availability status.`;
         } else {
             note.textContent = `${(APP_DATA.market_screener || []).length} technical snapshot stocks · Price session ${APP_DATA.session_date || 'unavailable'} · Missing values appear as —.`;
         }
@@ -90,9 +90,11 @@
             price.title = `Price as of ${stock.price_as_of || APP_DATA.universe_as_of || 'date unavailable'}`;
             const values = element('dl', 'investor-card-metrics');
             const pe = row.cells[10].textContent.trim();
+            const peAvailable = stock.ratio_status?.pe?.status === 'AVAILABLE' ||
+                (!stock.ratio_status && number(stock.pe) !== null);
             values.append(
-                metric('P/E', !pe || pe === '—' || pe === 'N/A' ? '—' : `${pe}x`, stock.ratio_price_as_of ? `Price ${stock.ratio_price_as_of}` : null),
-                metric('ROE', row.cells[11].textContent.trim(), stock.roe_period_end ? `Period ${stock.roe_period_end}` : null)
+                metric('P/E', peAvailable ? `${pe}x` : pe, peAvailable && stock.ratio_price_as_of ? `Price ${stock.ratio_price_as_of}` : null),
+                metric('ROE', row.cells[11].textContent.trim(), stock.ratio_status?.roe?.status === 'AVAILABLE' && stock.roe_period_end ? `Period ${stock.roe_period_end}` : null)
             );
             const open = element('button', 'investor-card-open', 'View company →');
             open.type = 'button';
@@ -149,11 +151,6 @@
         }
         if (status === 'UNAVAILABLE') {
             return '— Not available';
-        }
-        if (parsed !== null && !status) {
-            const digits = options.digits ?? 1;
-            const amount = Math.abs(parsed).toLocaleString('en-IN', {minimumFractionDigits: 0, maximumFractionDigits: digits});
-            return `${parsed < 0 ? '−' : ''}${options.prefix || ''}${amount}${options.suffix || ''}`;
         }
         return '— Not available';
     }

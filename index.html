@@ -14494,6 +14494,12 @@
             const n = numericMetric(value);
             return n === null ? '—' : n.toLocaleString('en-IN', {maximumFractionDigits: 2}) + suffix;
         }
+        function formatCertifiedRatio(value, metadata, suffix = '') {
+            if (metadata?.status === 'AVAILABLE' && numericMetric(value) !== null) return formatMetric(value, suffix);
+            if (metadata?.status === 'NOT_APPLICABLE') return 'Not applicable for this company type';
+            if (metadata?.status === 'PENDING_LAYER') return 'Not available yet';
+            return '— Not available';
+        }
         function stockPosition(stock) {
             const low = numericMetric(stock.low_52w), high = numericMetric(stock.high_52w), price = numericMetric(stock.cmp);
             return low !== null && high > low && price !== null ? Math.max(0, Math.min(100, (price - low) / (high - low) * 100)) : null;
@@ -14542,6 +14548,7 @@
                         symbol, company_name, cmp, dist_52w_pct, momentum_score, sector: sector || '',
                         pe: numericMetric(ratios.pe), pb: numericMetric(ratios.pb),
                         roe: numericMetric(ratios.roe), roce: numericMetric(ratios.roce),
+                        ratio_status: ratios.ratio_status || {},
                         fundamentals_metadata: Object.keys(ratios).length ? {source: 'Certified public company dossier', pe_price_as_of: ratios.pe_price_as_of, roe_period_end: ratios.roe_period_end} : null,
                         ratio_price_as_of: ratios.pe_price_as_of || null,
                         roe_period_end: ratios.roe_period_end || null,
@@ -14594,8 +14601,12 @@
                 else row.cells[7].innerHTML = positionMarkup(stock);
                 row.cells[8].textContent = stock.volume || '—';
                 row.cells[9].textContent = formatMetric(stock.volume_multiplier, '×');
-                row.cells[10].textContent = formatMetric(stock.pe);
-                row.cells[11].textContent = formatMetric(stock.roe, '%');
+                row.cells[10].textContent = mode === 'fresher'
+                    ? formatCertifiedRatio(stock.pe, stock.ratio_status?.pe)
+                    : formatMetric(stock.pe);
+                row.cells[11].textContent = mode === 'fresher'
+                    ? formatCertifiedRatio(stock.roe, stock.ratio_status?.roe, '%')
+                    : formatMetric(stock.roe, '%');
                 row.tabIndex = 0;
                 row.setAttribute('aria-label', 'Open ' + stock.symbol);
                 row.addEventListener('keydown', event => {
@@ -18836,7 +18847,18 @@
                 momentum_score: numericMetric(direct.momentum_score),
                 volume_multiplier: direct.volume_multiplier || null,
                 candles: [],
-                ...readDossierFundamentals(direct),
+                // A missing certified shard must never inherit ratios from
+                // the separate Pro screener population.
+                pe: null,
+                pb: null,
+                roe: null,
+                roce: null,
+                ratios_status: {
+                    pe: {status: 'UNAVAILABLE', reason: 'DOSSIER_UNAVAILABLE'},
+                    pb: {status: 'UNAVAILABLE', reason: 'DOSSIER_UNAVAILABLE'},
+                    roe: {status: 'UNAVAILABLE', reason: 'DOSSIER_UNAVAILABLE'},
+                    roce: {status: 'UNAVAILABLE', reason: 'DOSSIER_UNAVAILABLE'}
+                },
                 fundamentals_metadata: null,
                 richData: direct
             } : null;

@@ -38,21 +38,43 @@ def build(stocks_dir: Path = ROOT / "stocks") -> dict:
         if dossier["symbol"] != symbol:
             raise ValueError(f"dossier identity mismatch: {symbol}")
         values = {}
+        ratio_status = {}
+        canonical = dossier.get("v2_canonical") or {}
         for key in RATIOS:
             value = dossier[key]
             status = dossier["ratios_status"][key]["status"]
             if value is not None and status != "AVAILABLE":
                 raise ValueError(f"published ratio status mismatch: {symbol} {key}")
+            if value is None and status == "AVAILABLE":
+                raise ValueError(f"available ratio has no value: {symbol} {key}")
             values[key] = value
+            section, canonical_key = ({
+                "pe": ("valuation", "P_E"), "pb": ("valuation", "P_B"),
+                "roe": ("ratios", "ROE"), "roce": ("ratios", "ROCE"),
+                "debt_to_equity": ("ratios", "DEBT_TO_EQUITY"),
+                "current_ratio": ("ratios", "CURRENT_RATIO"),
+            })[key]
+            envelope = (canonical.get(section) or {}).get(canonical_key) or {}
+            if (status != envelope.get("status") or
+                    dossier["ratios_status"][key]["reason"] != envelope.get("reason") or
+                    value != envelope.get("value")):
+                raise ValueError(f"ratio envelope mismatch: {symbol} {key}")
+            ratio_status[key] = {
+                "status": status,
+                "reason": envelope.get("reason"),
+                "scope": envelope.get("scope"),
+                "source_period": envelope.get("source_period") or envelope.get("financial_period_end"),
+                "effective_as_of": envelope.get("effective_as_of"),
+            }
             if value is not None:
                 coverage[key] += 1
+        values["ratio_status"] = ratio_status
         for key, source_key in (("market_cap", "market_cap_crore"),):
             if dossier[source_key] is not None:
                 coverage[key] += 1
         values["market_cap_crore"] = dossier["market_cap_crore"]
         for key in ("net_worth_crore", "total_debt_crore"):
             values[key] = dossier[key]
-        canonical = dossier.get("v2_canonical") or {}
         values["pe_price_as_of"] = (canonical.get("valuation", {}).get("P_E") or {}).get("price_as_of")
         values["roe_period_end"] = (canonical.get("ratios", {}).get("ROE") or {}).get("financial_period_end")
         for key, canonical_key, section in (
