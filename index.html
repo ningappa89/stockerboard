@@ -14478,56 +14478,11 @@
             } catch(e) {}
         }
 
-        let fundamentalsSnapshot = {};
-        let fundamentalsLoadPromise;
-        let fundamentalsLoaded = false;
-        let researchPreviewSnapshot = {};
-
+        // Checkpoint P0.1A: Zero research fallback. Dossier V2 is the sole financial authority.
+        const fundamentalsSnapshot = {};
+        const researchPreviewSnapshot = {};
         function loadFundamentalsSnapshot() {
-            if (!fundamentalsLoadPromise) {
-                const loadResearch = () => {
-                    return fetch('./research/current.json', {cache: 'no-cache'})
-                        .then(response => { if (!response.ok) throw new Error('Certified research release unavailable'); return response.json(); })
-                        .then(async pointer => {
-                            const localPreview = ['localhost', '127.0.0.1', '[::1]'].includes(location.hostname);
-                            if (pointer.schema_version !== 1 || !(pointer.status === 'CERTIFIED_ACTIVE' || (localPreview && pointer.status === 'PREVIEW')) || !/^RESEARCH_v1_[A-Za-z0-9_]+$/.test(pointer.release_id)) throw new Error('Invalid research pointer');
-                            const response = await fetch(`./research/releases/${pointer.release_id}/ratios_index.json`, {cache: 'no-cache'});
-                            if (!response.ok) throw new Error('Research ratio index unavailable');
-                            const snapshot = await response.json();
-                            if (snapshot.schema_version !== 1 || snapshot.release_id !== pointer.release_id || !snapshot.stocks || typeof snapshot.stocks !== 'object') throw new Error('Invalid research ratio index');
-                            const parsed = Object.fromEntries(Object.entries(snapshot.stocks).map(([symbol, fields]) => {
-                                const available = key => fields[key] && fields[key].status === 'AVAILABLE' ? fields[key].value : null;
-                                const pe = fields.pe || {};
-                                return [symbol, {
-                                    pe: available('pe'), pb: available('pb'), roe: available('roe'), roce: available('roce'),
-                                    scope: pe.scope || null, retrieved_at: pe.as_of || null,
-                                    source: pe.source === 'INTERNAL_GOLD_CALCULATED' ? 'Stockerboard Fundamental Gold' : 'Official filing',
-                                    research_release_id: pointer.release_id, metric_status: fields
-                                }];
-                            }));
-                            researchPreviewSnapshot = parsed;
-                            fundamentalsSnapshot = parsed;
-                            for (const pool of Object.values(APP_DATA)) {
-                                if (!Array.isArray(pool)) continue;
-                                for (const stock of pool) {
-                                    if (!stock || typeof stock !== 'object' || !stock.symbol) continue;
-                                    const ratios = fundamentalsSnapshot[stock.symbol];
-                                    if (!ratios) continue;
-                                    Object.assign(stock, readDossierFundamentals(ratios), {fundamentals_metadata: ratios});
-                                    stock.pe_raw = stock.pe; stock.roe_raw = stock.roe;
-                                }
-                            }
-                        });
-                };
-
-                fundamentalsLoadPromise = loadResearch()
-                    .catch(err => {
-                        // Fail closed: zero competitor fallback
-                        fundamentalsSnapshot = {};
-                    })
-                    .finally(() => { fundamentalsLoaded = true; });
-            }
-            return fundamentalsLoadPromise;
+            return Promise.resolve({});
         }
 
         function numericMetric(value) {
@@ -15574,7 +15529,6 @@
                 };
             }
 
-            if (fundamentalsSnapshot[cleanSym]) Object.assign(stock, readDossierFundamentals(fundamentalsSnapshot[cleanSym]), {fundamentals_metadata: fundamentalsSnapshot[cleanSym]});
             currentDrawerSym = cleanSym;
             const setTxt = (id, val) => { const el = document.getElementById(id); if (el) el.innerText = val; };
 
@@ -18648,13 +18602,11 @@
             dossierCache.set(symbol, data);
         }
 
-        function readDossierFundamentals(primary = {}, fallback = {}) {
+        function readDossierFundamentals(primary = {}) {
             const result = {};
             for (const key of ['pe', 'pb', 'roe', 'roce']) {
-                // An explicit null in the certified public Dossier means
-                // unavailable; a secondary preview must not override it.
                 result[key] = Object.prototype.hasOwnProperty.call(primary, key)
-                    ? numericMetric(primary[key]) : numericMetric(fallback?.[key]);
+                    ? numericMetric(primary[key]) : null;
             }
             return result;
         }
@@ -18692,42 +18644,60 @@
 
         function renderDossierFundamentals(stock) {
             const values = readDossierFundamentals(stock);
-            const available = Object.values(values).filter(value => value !== null).length;
+            const statuses = stock?.ratios_status || {};
+            const provenance = stock?.dossier_provenance || {};
+            const v2Ratios = provenance.ratios || {};
+            const v2Val = provenance.valuation || {};
+
+            const meta = {
+                pe: statuses.pe || v2Val.P_E,
+                pb: statuses.pb || v2Val.P_B,
+                roe: statuses.roe || v2Ratios.ROE,
+                roce: statuses.roce || v2Ratios.ROCE
+            };
+
             for (const [key, id] of Object.entries({pe: 'PE', pb: 'PB', roe: 'ROE', roce: 'ROCE'})) {
-                document.getElementById('dossierTbl' + id).textContent = formatMetric(values[key], key === 'roe' || key === 'roce' ? '%' : '');
+                const el = document.getElementById('dossierTbl' + id);
+                if (!el) continue;
+                const metricStatus = meta[key];
+                const status = metricStatus?.status;
+                const reason = metricStatus?.reason;
+                const val = values[key];
+
+                if (status === 'AVAILABLE' && val !== null) {
+                    el.textContent = formatMetric(val, key === 'roe' || key === 'roce' ? '%' : '');
+                } else if (status === 'NOT_APPLICABLE' || reason === 'NOT_APPLICABLE' || reason === 'DOMAIN_NOT_APPLICABLE') {
+                    el.textContent = 'Not applicable for this company type';
+                } else if (status === 'PENDING_LAYER' || reason === 'UNSUPPORTED_INPUT_CONTRACT') {
+                    el.textContent = 'Not available yet';
+                } else if (status === 'UNAVAILABLE') {
+                    el.textContent = '— Not available';
+                } else {
+                    el.textContent = '— Not available';
+                }
             }
+
+            const available = Object.entries(meta).filter(([k, st]) => st?.status === 'AVAILABLE' && values[k] !== null).length;
             document.getElementById('dossierFundamentalsStatus').textContent = available === 4 ? 'Stock-specific ratios' : available ? 'Partial ratio coverage' : 'Ratios unavailable';
-            const provenance = document.getElementById('dossierFundamentalsSource');
-            provenance.replaceChildren();
-            const metadata = stock.fundamentals_metadata;
-            if (metadata) {
-                const source = document.createElement('span');
-                source.style.fontWeight = '600';
-                source.textContent = 'Ratio source: ' + (metadata.source || 'Stockerboard Fundamental Gold');
-                const scope = metadata.scope ? String(metadata.scope).toLowerCase() : 'official';
-                const retrieved = String(metadata.retrieved_at || '').slice(0, 10);
-                provenance.append(source, document.createTextNode(' · ' + scope + (retrieved ? ' · As of ' + retrieved : '')));
-            } else {
-                const source = document.createElement('span');
-                source.style.fontWeight = '600';
-                source.textContent = 'Ratio source: Certified public company dossier';
-                provenance.append(source, document.createTextNode(' · Reporting periods and scope vary by measure'));
-            }
+            const provenanceEl = document.getElementById('dossierFundamentalsSource');
+            provenanceEl.replaceChildren();
+            const source = document.createElement('span');
+            source.style.fontWeight = '600';
+            source.textContent = 'Ratio source: Certified public company dossier';
+            provenanceEl.append(source, document.createTextNode(' · Reporting periods and scope vary by measure'));
             const notice = document.getElementById('dossierFundamentalsNotice');
             notice.hidden = available === 4;
             notice.textContent = available === 0
-                ? 'P/E, P/B, ROE and ROCE are unavailable for this stock in the current release. Missing values are displayed as —.'
-                : 'Some ratios are not included in the available data for this stock. An em dash indicates an unavailable value.';
+                ? 'P/E, P/B, ROE and ROCE are unavailable for this stock in the current release. Missing values are displayed as — Not available.'
+                : 'Some ratios are not included in the available data for this stock. Missing values are displayed with certified status semantics.';
         }
 
         function normalizeDossierJson(json, cleanSym) {
             if (!json) return null;
             const canonical = [...(APP_DATA.market_screener || []), ...(APP_DATA.fundamental_leaders || [])].find(stock => stock.symbol === cleanSym);
-            const metadata = ['pe', 'pb', 'roe', 'roce'].some(key => Object.prototype.hasOwnProperty.call(json, key))
-                ? null : (fundamentalsSnapshot[cleanSym] || researchPreviewSnapshot[cleanSym] || null);
-            // Certified public Dossier V2 values take precedence. The research
-            // snapshot can fill a genuinely missing field without recalculation.
-            const fundamentals = readDossierFundamentals(json, fundamentalsSnapshot[cleanSym] || researchPreviewSnapshot[cleanSym] || {});
+            const metadata = null;
+            // Checkpoint P0.1A: Certified Dossier V2 is the sole financial authority. Zero alternate truth paths.
+            const fundamentals = readDossierFundamentals(json);
             const price = json.price || {};
             const range = json.range || {};
             const metrics = json.metrics || {};
@@ -18802,9 +18772,7 @@
         }
 
         async function preloadDossier(symbol) {
-            const [, rangeIndex] = await Promise.all([
-                loadFundamentalsSnapshot(), loadPriceRangeIndex()
-            ]);
+            const rangeIndex = await loadPriceRangeIndex();
             if (!symbol) return;
             const cleanSym = canonicalDossierSymbol(symbol);
             if (dossierCache.has(cleanSym)) return;
@@ -18825,9 +18793,7 @@
         }
 
         async function fetchDossierData(cleanSym, signal) {
-            const [, rangeIndex] = await Promise.all([
-                loadFundamentalsSnapshot(), loadPriceRangeIndex()
-            ]);
+            const rangeIndex = await loadPriceRangeIndex();
             cleanSym = canonicalDossierSymbol(cleanSym);
             if (dossierCache.has(cleanSym)) {
                 return dossierCache.get(cleanSym);
@@ -18870,8 +18836,8 @@
                 momentum_score: numericMetric(direct.momentum_score),
                 volume_multiplier: direct.volume_multiplier || null,
                 candles: [],
-                ...readDossierFundamentals(fundamentalsSnapshot[cleanSym] || researchPreviewSnapshot[cleanSym] || {}),
-                fundamentals_metadata: fundamentalsSnapshot[cleanSym] || researchPreviewSnapshot[cleanSym] || null,
+                ...readDossierFundamentals(direct),
+                fundamentals_metadata: null,
                 richData: direct
             } : null;
         }
@@ -18954,10 +18920,7 @@
             if (activeDossierSymbol !== cleanSym) return;
 
             if (!stockData) {
-                // Pull fundamentals from the prebuilt snapshot (1806 stocks) for any
-                // stock that has no dossier shard file and is not in the screener pool.
-                const snapEntry = fundamentalsSnapshot ? fundamentalsSnapshot[cleanSym] : null;
-                const snapFundamentals = snapEntry ? readDossierFundamentals(snapEntry) : {};
+                const snapFundamentals = {};
                 const metaCmp = searchMeta ? (parseFloat(searchMeta.cmp) || 0) : 0;
                 const metaDist = numericMetric(searchMeta?.dist);
                 stockData = {
@@ -18978,7 +18941,7 @@
                     is_stage2: searchMeta ? !!searchMeta.isStage2 : false,
                     candles: [],
                     ...snapFundamentals,
-                    fundamentals_metadata: snapEntry || null
+                    fundamentals_metadata: null
                 };
             }
 

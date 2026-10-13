@@ -131,12 +131,35 @@
         return 'Not available in this release';
     }
 
-    function formatted(value, options = {}) {
+    function formatSemanticValue(value, statusObj, options = {}) {
+        const status = statusObj?.status;
+        const reason = statusObj?.reason;
         const parsed = number(value);
-        if (parsed === null) return '—';
-        const digits = options.digits ?? 1;
-        const amount = Math.abs(parsed).toLocaleString('en-IN', {minimumFractionDigits: 0, maximumFractionDigits: digits});
-        return `${parsed < 0 ? '−' : ''}${options.prefix || ''}${amount}${options.suffix || ''}`;
+
+        if (status === 'AVAILABLE' && parsed !== null) {
+            const digits = options.digits ?? 1;
+            const amount = Math.abs(parsed).toLocaleString('en-IN', {minimumFractionDigits: 0, maximumFractionDigits: digits});
+            return `${parsed < 0 ? '−' : ''}${options.prefix || ''}${amount}${options.suffix || ''}`;
+        }
+        if (status === 'NOT_APPLICABLE' || reason === 'NOT_APPLICABLE' || reason === 'DOMAIN_NOT_APPLICABLE') {
+            return 'Not applicable for this company type';
+        }
+        if (status === 'PENDING_LAYER' || reason === 'UNSUPPORTED_INPUT_CONTRACT') {
+            return 'Not available yet';
+        }
+        if (status === 'UNAVAILABLE') {
+            return '— Not available';
+        }
+        if (parsed !== null && !status) {
+            const digits = options.digits ?? 1;
+            const amount = Math.abs(parsed).toLocaleString('en-IN', {minimumFractionDigits: 0, maximumFractionDigits: digits});
+            return `${parsed < 0 ? '−' : ''}${options.prefix || ''}${amount}${options.suffix || ''}`;
+        }
+        return '— Not available';
+    }
+
+    function formatted(value, options = {}) {
+        return formatSemanticValue(value, null, options);
     }
 
     function summaryMetric(label, value, status) {
@@ -160,7 +183,12 @@
         } else {
             row.append(header, element('dd', '', value));
         }
-        if (value === '—') row.append(element('p', 'investor-metric-status', missingReason(status)));
+        if (value === '— Not available' && status) {
+            const reasonText = missingReason(status);
+            if (reasonText && reasonText !== 'Not available in this release' && reasonText !== 'Not available') {
+                row.append(element('p', 'investor-metric-status', reasonText));
+            }
+        }
         return row;
     }
 
@@ -257,36 +285,43 @@
         if (!grid || !source) return;
         const status = stock.ratios_status || {};
         const provenance = stock.dossier_provenance || {};
-        source.textContent = 'Financial values come from the certified public company dossier. Dates and scope are shown by section where published. An em dash means unavailable, not zero.' +
-            (stock.asof_financials_note ? ' ' + stock.asof_financials_note : '');
+        const biz = provenance.business_performance || {};
+        const bs = provenance.balance_sheet || {};
+        const rat = provenance.ratios || {};
+        const val = provenance.valuation || {};
+
+        source.textContent = 'Financial values come from the certified public company dossier. Dates and scope are shown by section where published. Status semantics are certified across all financial measures.';
         grid.replaceChildren(
             summaryGroup('Business', [
-                ['Revenue', formatted(stock.revenue_crore, {prefix: '₹', suffix: ' Cr', digits: 0})],
-                ['Profit', formatted(stock.pat_crore, {prefix: '₹', suffix: ' Cr', digits: 0})],
-                ['EPS', formatted(stock.eps, {prefix: '₹', digits: 2})],
-                ['Net margin', formatted(stock.net_margin_pct, {suffix: '%', digits: 1})]
-            ], reportingContext(provenance.business_performance?.REVENUE_TTM)),
+                ['Revenue', formatSemanticValue(stock.revenue_crore, biz.REVENUE_TTM, {prefix: '₹', suffix: ' Cr', digits: 0}), biz.REVENUE_TTM],
+                ['Profit', formatSemanticValue(stock.pat_crore, biz.PAT_TTM, {prefix: '₹', suffix: ' Cr', digits: 0}), biz.PAT_TTM],
+                ['EPS', formatSemanticValue(stock.eps, biz.EPS_BASIC_TTM, {prefix: '₹', digits: 2}), biz.EPS_BASIC_TTM],
+                ['Net margin', formatSemanticValue(stock.net_margin_pct, biz.NET_MARGIN_PCT, {suffix: '%', digits: 1}), biz.NET_MARGIN_PCT]
+            ], reportingContext(biz.REVENUE_TTM)),
             summaryGroup('Financial health', [
-                ['Net worth', formatted(stock.net_worth_crore, {prefix: '₹', suffix: ' Cr', digits: 0})],
-                ['Total debt', formatted(stock.total_debt_crore, {prefix: '₹', suffix: ' Cr', digits: 0})],
-                ['Debt / equity', formatted(stock.debt_to_equity, {suffix: 'x', digits: 2}), status.debt_to_equity],
-                ['Current ratio', formatted(stock.current_ratio, {suffix: 'x', digits: 2}), status.current_ratio]
-            ], reportingContext(provenance.balance_sheet?.NET_WORTH)),
+                ['Net worth', formatSemanticValue(stock.net_worth_crore, bs.NET_WORTH, {prefix: '₹', suffix: ' Cr', digits: 0}), bs.NET_WORTH],
+                ['Total debt', formatSemanticValue(stock.total_debt_crore, bs.TOTAL_DEBT, {prefix: '₹', suffix: ' Cr', digits: 0}), bs.TOTAL_DEBT],
+                ['Debt / equity', formatSemanticValue(stock.debt_to_equity, status.debt_to_equity || rat.DEBT_TO_EQUITY, {suffix: 'x', digits: 2}), status.debt_to_equity || rat.DEBT_TO_EQUITY],
+                ['Current ratio', formatSemanticValue(stock.current_ratio, status.current_ratio || rat.CURRENT_RATIO, {suffix: 'x', digits: 2}), status.current_ratio || rat.CURRENT_RATIO]
+            ], reportingContext(bs.NET_WORTH)),
             summaryGroup('Returns', [
-                ['ROE', formatted(stock.roe, {suffix: '%', digits: 1}), status.roe],
-                ['ROCE', formatted(stock.roce, {suffix: '%', digits: 1}), status.roce]
-            ], reportingContext(provenance.ratios?.ROE)),
+                ['ROE', formatSemanticValue(stock.roe, status.roe || rat.ROE, {suffix: '%', digits: 1}), status.roe || rat.ROE],
+                ['ROCE', formatSemanticValue(stock.roce, status.roce || rat.ROCE, {suffix: '%', digits: 1}), status.roce || rat.ROCE]
+            ], reportingContext(rat.ROE)),
             summaryGroup('Valuation', [
-                ['P/E', formatted(stock.pe, {suffix: 'x', digits: 1}), status.pe],
-                ['P/B', formatted(stock.pb, {suffix: 'x', digits: 2}), status.pb],
-                ['Book value / share', formatted(stock.bvps, {prefix: '₹', digits: 2})]
-            ], `Price as of ${provenance.valuation?.P_E?.price_as_of || stock.price_as_of || 'date unavailable'}`)
+                ['P/E', formatSemanticValue(stock.pe, status.pe || val.P_E, {suffix: 'x', digits: 1}), status.pe || val.P_E],
+                ['P/B', formatSemanticValue(stock.pb, status.pb || val.P_B, {suffix: 'x', digits: 2}), status.pb || val.P_B],
+                ['Book value / share', formatSemanticValue(stock.bvps, bs.BVPS, {prefix: '₹', digits: 2}), bs.BVPS]
+            ], `Price as of ${val.P_E?.price_as_of || stock.price_as_of || 'date unavailable'}`)
         );
         const marketCap = document.getElementById('dossierMarketCap');
-        if (marketCap) marketCap.textContent = `Market cap ${formatted(stock.market_cap_crore, {prefix: '₹', suffix: ' Cr', digits: 0})}`;
+        if (marketCap) {
+            const mcapVal = formatSemanticValue(stock.market_cap_crore, val.MARKET_CAP, {prefix: '₹', suffix: ' Cr', digits: 0});
+            marketCap.textContent = mcapVal === '— Not available' ? 'Market cap — Not available' : `Market cap ${mcapVal}`;
+        }
         for (const [id, metric] of [['dossierTblNetDebt', 'NET_DEBT'], ['dossierTblWorkingCapital', 'WORKING_CAPITAL'], ['dossierTblBookValue', 'BOOK_VALUE']]) {
             const target = document.getElementById(id);
-            if (target) target.textContent = formatted(provenance.balance_sheet?.[metric]?.display_value, {prefix: '₹', suffix: ' Cr', digits: 0});
+            if (target) target.textContent = formatSemanticValue(bs[metric]?.display_value, bs[metric], {prefix: '₹', suffix: ' Cr', digits: 0});
         }
         if (window.activateInvestorDossierTab) window.activateInvestorDossierTab('overview');
     };
