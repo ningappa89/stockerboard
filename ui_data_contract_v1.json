@@ -1,85 +1,85 @@
 {
   "dates": {
     "fundamentals_source_as_of": "2026-10-09",
-    "pro_market_session": "2026-09-22",
-    "universe_as_of": "2026-10-01"
+    "pro_market_session": "2026-10-16",
+    "universe_as_of": "2026-10-16"
   },
   "metrics": {
     "debt_to_equity": {
-      "covered": 2050,
+      "covered": 2049,
       "definition": "Published Dossier V2 debt/equity where applicable; not a beginner filter.",
       "enabled": false,
-      "population": 2524,
+      "population": 2535,
       "source": "certified_public_dossier_v2"
     },
     "market_cap": {
-      "covered": 2524,
+      "covered": 2520,
       "definition": "Published Dossier V2 market capitalization in crore; shown on the company page.",
       "enabled": false,
-      "population": 2524,
+      "population": 2535,
       "source": "certified_public_dossier_v2"
     },
     "pb": {
-      "covered": 2132,
+      "covered": 2131,
       "definition": "Published Dossier V2 price to book.",
       "enabled": true,
-      "population": 2524,
+      "population": 2535,
       "source": "certified_public_dossier_v2"
     },
     "pe": {
       "covered": 1635,
       "definition": "Published Dossier V2 P/E; its valuation price date can differ from the list quote date.",
       "enabled": true,
-      "population": 2524,
+      "population": 2535,
       "source": "certified_public_dossier_v2"
     },
     "price": {
-      "covered": 2524,
+      "covered": 2535,
       "definition": "Last price in INR on the canonical universe date; not a live quote.",
       "enabled": true,
-      "population": 2524,
+      "population": 2535,
       "source": "canonical_universe"
     },
     "return_1y": {
       "covered": 0,
       "definition": "One-year return needs an approved adjusted-price and corporate-action contract.",
       "enabled": false,
-      "population": 2524,
+      "population": 2535,
       "source": "unavailable"
     },
     "revenue_yoy": {
       "covered": 0,
       "definition": "Quarterly revenue growth is not exposed as a certified public Dossier V2 field.",
       "enabled": false,
-      "population": 2524,
+      "population": 2535,
       "source": "unavailable_in_public_dossier"
     },
     "roce": {
       "covered": 0,
       "definition": "Published Dossier V2 return on capital employed; unavailable values stay null.",
       "enabled": false,
-      "population": 2524,
+      "population": 2535,
       "source": "certified_public_dossier_v2"
     },
     "roe": {
       "covered": 1173,
       "definition": "Published Dossier V2 return on equity; period end varies by company.",
       "enabled": true,
-      "population": 2524,
+      "population": 2535,
       "source": "certified_public_dossier_v2"
     },
     "sales_growth_3y": {
       "covered": 0,
       "definition": "Three-year sales growth needs comparable annual periods and scope.",
       "enabled": false,
-      "population": 2524,
+      "population": 2535,
       "source": "unavailable"
     },
     "sector": {
       "covered": 246,
       "definition": "Published sector label; unavailable when absent.",
       "enabled": true,
-      "population": 2524,
+      "population": 2535,
       "source": "canonical_universe"
     }
   },
@@ -94,14 +94,14 @@
     }
   ],
   "population": {
-    "canonical_universe_count": 2524,
+    "canonical_universe_count": 2535,
     "claim_full_universe": true,
-    "count": 2524,
+    "count": 2535,
     "name": "canonical_universe"
   },
   "ready_for_full_v1_release": false,
   "release_gates": {
-    "canonical_population_reconciled": true,
+    "canonical_population_reconciled": false,
     "dossier_aliases_resolved": true,
     "full_plan_metric_contracts_present": false,
     "universe_price_date_present": true

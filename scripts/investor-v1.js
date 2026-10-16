@@ -27,7 +27,7 @@
                     note.append(document.createTextNode('Please reload the page.'));
                 }
             } else {
-                note.textContent = `${count.toLocaleString('en-IN')} companies in the canonical universe · Price session ${APP_DATA.universe_as_of || 'unavailable'} · Ratios have their own report dates. Missing ratios show their certified availability status.`;
+                note.textContent = `${count.toLocaleString('en-IN')} companies in the canonical universe · Market snapshot ${APP_DATA.universe_as_of || 'unavailable'} · Individual last-traded dates may be earlier. Ratios use their own certified report dates.`;
             }
         } else {
             note.classList.remove('investor-data-error');
@@ -513,7 +513,7 @@
         filterDialog.id = 'investorFilterDialog';
         const title = element('h2', '', 'Filter stocks');
         title.id = 'investorFilterTitle';
-        const intro = element('p', 'investor-filter-intro', 'Filter the 2,524-company canonical universe. Unavailable values do not pass a selected financial rule.');
+        const intro = element('p', 'investor-filter-intro', `Filter the ${(APP_DATA.universe || []).length.toLocaleString('en-IN')}-company canonical universe. Unavailable values do not pass a selected financial rule.`);
         intro.id = 'investorFilterIntro';
         filterDialog.setAttribute('aria-labelledby', title.id);
         filterDialog.setAttribute('aria-describedby', intro.id);

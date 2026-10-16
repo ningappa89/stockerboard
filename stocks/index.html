@@ -467,8 +467,8 @@
 
         <section class="hero-section">
             <h1>Explore Indian stocks</h1>
-            <p class="dir-intro">Find a company across our 2,524-stock universe. Open its research view, or explore the featured company pages below.</p>
-            <p class="dir-context">Universe snapshot: 2026-10-01 · Pro screens a selected set of stocks separately.</p>
+            <p class="dir-intro">Find a company across our 2,535-stock universe. Open its research view, or explore the featured company pages below.</p>
+            <p class="dir-context">Universe snapshot: 2026-10-16 · Pro screens a selected set of stocks separately.</p>
         </section>
 
         <!-- Search Filter -->
@@ -479,7 +479,7 @@
                     <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                 </svg>
             </span>
-            <input type="search" id="dirSearchInput" class="search-input" placeholder="Search all 2,524 companies by name or symbol" aria-label="Search all companies" autocomplete="off">
+            <input type="search" id="dirSearchInput" class="search-input" placeholder="Search all 2,535 companies by name or symbol" aria-label="Search all companies" autocomplete="off">
         </div>
         <a class="dir-jump" href="#browseSection">Browse all companies ↓</a>
 
@@ -866,7 +866,7 @@
             priceEl.textContent = Number.isFinite(shownPrice) ? '₹' + shownPrice.toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2}) : 'Price unavailable';
             const routeEl = document.createElement('div');
             routeEl.className = 'dir-route-note';
-            routeEl.textContent = `Price ${featured?.price_as_of || '2026-10-01'} · ${featured ? 'Company page' : 'Research view'}`;
+            routeEl.textContent = `Price ${featured?.price_as_of || '2026-10-16'} · ${featured ? 'Company page' : 'Research view'}`;
             metrics.append(priceEl, routeEl);
             const arrow = document.createElement('div');
             arrow.className = 'dir-arrow';
@@ -908,11 +908,11 @@
 
         searchInput.addEventListener('input', filterDirectory);
         loadMore.addEventListener('click', appendPage);
-        fetch('/stocks/universe_index.json', {cache: 'no-cache'}).then(response => {
+        fetch('/stocks/market_universe_index_v1.json', {cache: 'no-cache'}).then(response => {
             if (!response.ok) throw new Error('Universe unavailable');
             return response.json();
         }).then(data => {
-            if (!Array.isArray(data.stocks) || data.stocks.length !== data.count || data.count !== 2524) throw new Error('Universe mismatch');
+            if (!Array.isArray(data.stocks) || data.stocks.length !== data.count || data.count !== 2535) throw new Error('Universe mismatch');
             universe = data.stocks;
             filterDirectory();
         }).catch(() => {
