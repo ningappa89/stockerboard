@@ -78,7 +78,7 @@ def build_contract() -> dict:
         if not shard.is_dir():
             continue
         for file in shard.glob("*.json"):
-            if file.stem in symbols:
+            if file.stem in symbols or file.stem in financial["stocks"]:
                 continue
             dossier = json.loads(file.read_text(encoding="utf-8"))
             isin = dossier.get("isin")
@@ -99,6 +99,7 @@ def build_contract() -> dict:
         "outside_universe_dossiers": sorted(aliases, key=lambda item: item["symbol"]),
         "release_gates": gates,
         "ready_for_full_v1_release": all(gates.values()),
+        "source_dossier_release_id": financial["source_dossier_release_id"],
     }
 
 
