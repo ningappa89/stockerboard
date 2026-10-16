@@ -6,12 +6,29 @@ No financial value is calculated or changed by this script.
 from __future__ import annotations
 
 import argparse
+import copy
 import json
 import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "ui_data_contract_v1.json"
+
+
+def build(template: dict, financial_index: dict) -> dict:
+    """Bind a staged UI contract to the exact certified Dossier projection."""
+    if financial_index.get("canonical_count") != 2524 or not financial_index.get("source_dossier_release_id"):
+        raise ValueError("Incomplete staged Dossier financial index")
+    contract = copy.deepcopy(template)
+    contract["source_dossier_release_id"] = financial_index["source_dossier_release_id"]
+    for key, covered in financial_index["coverage"].items():
+        metric = contract.get("metrics", {}).get(key)
+        if metric and metric.get("source") == "certified_public_dossier_v2":
+            metric["covered"] = covered
+    contract.setdefault("release_gates", {})["canonical_population_reconciled"] = (
+        len(financial_index["stocks"]) == 2524)
+    contract["ready_for_full_v1_release"] = all(contract["release_gates"].values())
+    return contract
 
 
 def build_contract() -> dict:

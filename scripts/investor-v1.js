@@ -131,6 +131,7 @@
         'P/E': 'Share price compared with earnings per share. A lower P/E alone does not make a stock inexpensive.',
         'P/B': 'Market price compared with accounting book value per share. Compare with the company’s business and sector.',
         'ROE': 'Profit relative to shareholders’ equity. Debt and one-off gains can affect it.',
+        'Standalone ROE (FY26)': 'Profit relative to shareholders’ equity for parent company standalone operations in FY26 (for companies without subsidiaries).',
         'ROCE': 'Profit relative to capital employed. This measure is unavailable until its inputs are certified.',
         'Debt / equity': 'Borrowings compared with shareholders’ equity. The figure is not directly comparable across all sectors.',
         'Current ratio': 'Current assets divided by current liabilities. This presentation is not applicable to some financial companies.'
@@ -318,8 +319,9 @@
             ], reportingContext(bs.NET_WORTH)),
             summaryGroup('Returns', [
                 ['ROE', formatSemanticValue(stock.roe, status.roe || rat.ROE, {suffix: '%', digits: 1}), status.roe || rat.ROE],
+                ...(stock.standalone_roe != null ? [['Standalone ROE (FY26)', formatSemanticValue(stock.standalone_roe, {status: 'AVAILABLE'}, {suffix: '%', digits: 1}), {status: 'AVAILABLE'}]] : []),
                 ['ROCE', formatSemanticValue(stock.roce, status.roce || rat.ROCE, {suffix: '%', digits: 1}), status.roce || rat.ROCE]
-            ], reportingContext(rat.ROE)),
+            ], reportingContext(stock.roe != null ? rat.ROE : (stock.standalone_roe != null ? {financial_period_end: stock.standalone_roe_period_end, scope: 'STANDALONE'} : rat.ROE))),
             summaryGroup('Valuation', [
                 ['P/E', formatSemanticValue(stock.pe, status.pe || val.P_E, {suffix: 'x', digits: 1}), status.pe || val.P_E],
                 ['P/B', formatSemanticValue(stock.pb, status.pb || val.P_B, {suffix: 'x', digits: 2}), status.pb || val.P_B],

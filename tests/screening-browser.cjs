@@ -1,4 +1,5 @@
 const fs=require('fs'); const path=require('path'); const os=require('os'); const root=path.resolve(__dirname,'..'); const output=fs.mkdtempSync(path.join(os.tmpdir(),'stockerboard-screen-'));  const cp=require('child_process'); const chrome=cp.spawn(process.env.CHROME_PATH || 'C:/Program Files/Google/Chrome/Application/chrome.exe',['--headless=new','--disable-extensions','--remote-debugging-port=9236','--user-data-dir='+path.join(output,'chrome'),'--no-first-run','http://127.0.0.1:8096/'],{windowsHide:true}); const server=cp.spawn('python',['-m','http.server','8096','--bind','127.0.0.1'],{cwd:root,windowsHide:true});
+const expectedRoeCoverage=JSON.parse(fs.readFileSync(path.join(root,'stocks/financial_index_v1.json'),'utf8')).coverage.roe;
 (async()=>{
 let targetTab;
 for(let attempt=0;attempt<60;attempt++){
@@ -26,9 +27,9 @@ console.log('regressions', await ev(`(async () => {
  check('missing values',formatMetric(null)==='—' && formatMetric(undefined)==='—' && formatMetric('N/A')==='—' && formatMetric(0)==='0');
  check('52W positions',[10,15,19,20].every((cmp,i)=>stockPosition({cmp,low_52w:10,high_52w:20})===[0,50,90,100][i]) && stockPosition({cmp:10,high_52w:20})===null);
  check('canonical beginner population',investorUniverseStocks.size===2524&&document.querySelectorAll('#screenerTable tbody tr').length===2524);
- check('financial index loaded with certified coverage',window.dossierFinancialIndexLoadState?.ok===true&&window.dossierFinancialIndexLoadState.coverage.pe===1635&&window.dossierFinancialIndexLoadState.coverage.roe===5);
+ check('financial index loaded with certified coverage',window.dossierFinancialIndexLoadState?.ok===true&&window.dossierFinancialIndexLoadState.coverage.pe===1635&&window.dossierFinancialIndexLoadState.coverage.roe===${expectedRoeCoverage});
  check('first company shows available P/E',document.querySelector('#screenerTable tbody tr[data-sym="20MICRONS"]')?.cells[10]?.textContent==='10.22');
- check('coverage help reflects loaded index',document.getElementById('investorRatioCoverage').textContent.includes('1,635')&&document.getElementById('investorRatioCoverage').textContent.includes('ROE for 5'));
+ check('coverage help reflects loaded index',document.getElementById('investorRatioCoverage').textContent.includes('1,635')&&document.getElementById('investorRatioCoverage').textContent.includes('ROE for ${expectedRoeCoverage.toLocaleString('en-IN')}'));
  const savedIndexState=window.dossierFinancialIndexLoadState;
  window.dossierFinancialIndexLoadState={ok:false,fileOrigin:true};
  check('index failure cannot look like certified missing data',formatCertifiedRatio(null,null)==='Data failed to load');

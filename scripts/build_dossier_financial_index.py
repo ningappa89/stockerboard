@@ -77,6 +77,8 @@ def build(stocks_dir: Path = ROOT / "stocks") -> dict:
             values[key] = dossier[key]
         values["pe_price_as_of"] = (canonical.get("valuation", {}).get("P_E") or {}).get("price_as_of")
         values["roe_period_end"] = (canonical.get("ratios", {}).get("ROE") or {}).get("financial_period_end")
+        values["standalone_roe"] = dossier.get("standalone_roe")
+        values["standalone_roe_period_end"] = dossier.get("standalone_roe_period_end")
         for key, canonical_key, section in (
             ("debt_to_equity", "DEBT_TO_EQUITY", "ratios"),
             ("current_ratio", "CURRENT_RATIO", "ratios"),

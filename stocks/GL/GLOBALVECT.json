@@ -17,7 +17,9 @@
   "price_as_of": "2026-10-09",
   "pe": null,
   "pb": null,
-  "roe": null,
+  "roe": -490.735,
+  "standalone_roe": null,
+  "standalone_roe_period_end": null,
   "roce": null,
   "debt_to_equity": 23.4225,
   "current_ratio": 0.4524,
@@ -47,8 +49,8 @@
       "reason": "NON_POSITIVE_BOOK_VALUE"
     },
     "roe": {
-      "status": "UNAVAILABLE",
-      "reason": "MISSING_AVERAGE_NET_WORTH"
+      "status": "AVAILABLE",
+      "reason": "OK"
     },
     "roce": {
       "status": "PENDING_LAYER",
@@ -301,8 +303,8 @@
       "price_as_of": "2026-10-09"
     },
     "metadata": {
-      "contract_sha256": "344a4635e1d86c4412050463f3b418b03e46b1c16fbf818dfc211f7619d08bca",
-      "dossier_contract": "DOSSIER_V2_PIT_1.1.0",
+      "contract_sha256": "3e9e7b9cd7aecdcb6b13b32edc9f65b2b714ca7fc401db80640c311954f115fa",
+      "dossier_contract": "DOSSIER_V2_FY26_ROE_1.0.0",
       "freshness_triad": {
         "actual_latest_ohlc_session": "2026-10-09",
         "expected_latest_completed_session": "2026-10-09",
@@ -315,7 +317,7 @@
         "third_party_computed_fundamentals_allowed": "NO",
         "third_party_computed_market_data_allowed": "NO"
       },
-      "manifest_sha256": "0929d4c513784336c94e6feedccba14fa927b8aa6151cb9b5253dbe8413d64c3",
+      "manifest_sha256": "5a06131ce2759ed542ed0bef13544918dd094f87ecee9b3ca3cba772331434f8",
       "point_in_time_policy": {
         "cross_scope_fallback": "PROHIBITED",
         "effective_as_of": "fundamental_gold_latest_financial_period_end",
@@ -333,6 +335,7 @@
         "balance_sheet_gold": "BS_GOLD_v1_4655b06b2d7481f1_dc7bd5fe995380e",
         "financial_ratios_gold": "FR_GOLD_v1_0_2_08949b3ab5a81a8d_57110ce1fd86c839",
         "fundamental_gold": "FGV1_b7d3352a52309b06_ddc7eeba3fb281c7",
+        "fy26_roe_gold": "FY26_ROE_1c3945c90433fae2138265be",
         "ohlc": "OHLC_PROD_20261009",
         "share_ledger": "SHARE_LEDGER_v1_a04e3f1d4cd6aab8_2f200c3225b283de",
         "valuation_gold": "VALUATION_GOLD_v1_b691b5af1886f65a_595cc0e3c4504939"
@@ -390,19 +393,21 @@
         "value": null
       },
       "ROE": {
-        "contract_version": "FINANCIAL_RATIOS_GOLD_V1.0.2",
+        "contract_version": "FY26_ROE_GOLD_V1.0.0",
         "display_unit": "PERCENT",
-        "display_value": null,
-        "financial_period_end": "2026-06-30",
+        "display_value": -490.74,
+        "effective_as_of": "2026-06-30",
+        "financial_period_end": "2026-03-31",
         "key": "ROE",
-        "lineage_ref": "RATIO_MET_CMP_GLOBALVECT_2026-06-30_STANDALONE_ROE",
-        "reason": "MISSING_AVERAGE_NET_WORTH",
+        "lineage_ref": "FY26_ROE_MET_CMP_GLOBALVECT_2026-03-31_STANDALONE",
+        "reason": "OK",
         "scope": "STANDALONE",
-        "source_layer": "FINANCIAL_RATIOS_GOLD",
-        "source_release": "FR_GOLD_v1_0_2_08949b3ab5a81a8d_57110ce1fd86c839",
-        "status": "UNAVAILABLE",
+        "source_layer": "FY26_ROE_GOLD",
+        "source_period": "2026-03-31",
+        "source_release": "FY26_ROE_1c3945c90433fae2138265be",
+        "status": "AVAILABLE",
         "unit": "PERCENT",
-        "value": null
+        "value": -490.735
       }
     },
     "schema_version": "2.0.0-shadow",

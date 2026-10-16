@@ -6,7 +6,7 @@
   },
   "metrics": {
     "debt_to_equity": {
-      "covered": 56,
+      "covered": 2050,
       "definition": "Published Dossier V2 debt/equity where applicable; not a beginner filter.",
       "enabled": false,
       "population": 2524,
@@ -62,7 +62,7 @@
       "source": "certified_public_dossier_v2"
     },
     "roe": {
-      "covered": 5,
+      "covered": 1173,
       "definition": "Published Dossier V2 return on equity; period end varies by company.",
       "enabled": true,
       "population": 2524,
@@ -106,5 +106,6 @@
     "full_plan_metric_contracts_present": false,
     "universe_price_date_present": true
   },
-  "schema_version": 1
+  "schema_version": 1,
+  "source_dossier_release_id": "DOSSIER_V2_ROE_5a06131ce2759ed5_79f4ad1c11c4d707"
 }
