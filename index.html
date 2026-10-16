@@ -14534,7 +14534,10 @@
                 dossierFinancialIndexReleaseId = index.source_dossier_release_id;
                 window.dossierFinancialIndexLoadState = {ok: true, coverage: index.coverage};
                 const coverage = document.getElementById('investorRatioCoverage');
-                if (coverage) coverage.textContent = `The certified ratio index has P/E for ${index.coverage.pe.toLocaleString('en-IN')} and ROE for ${index.coverage.roe.toLocaleString('en-IN')} of ${index.canonical_count.toLocaleString('en-IN')} companies. Missing ratios are excluded from P/E and ROE filters.`;
+                if (coverage) {
+                    const standaloneCount = Object.values(index.stocks).filter(row => row.standalone_roe != null).length;
+                    coverage.textContent = `The certified ratio index has P/E for ${index.coverage.pe.toLocaleString('en-IN')} and main ROE for ${index.coverage.roe.toLocaleString('en-IN')} of ${index.canonical_count.toLocaleString('en-IN')} companies. ${standaloneCount.toLocaleString('en-IN')} more have separately labelled standalone FY26 ROE. Missing main ratios are excluded from P/E and ROE filters.`;
+                }
             } catch (error) {
                 // Keep company search usable. Ratios fail closed instead of using
                 // an older snapshot that can disagree with the public dossier.
@@ -14558,7 +14561,7 @@
                     return [symbol, {
                         symbol, company_name, cmp, dist_52w_pct, momentum_score, sector: sector || '',
                         pe: numericMetric(ratios.pe), pb: numericMetric(ratios.pb),
-                        roe: numericMetric(ratios.roe), roce: numericMetric(ratios.roce),
+                        roe: numericMetric(ratios.roe), standalone_roe: numericMetric(ratios.standalone_roe), roce: numericMetric(ratios.roce),
                         ratio_status: ratios.ratio_status || {},
                         fundamentals_metadata: Object.keys(ratios).length ? {source: 'Certified public company dossier', pe_price_as_of: ratios.pe_price_as_of, roe_period_end: ratios.roe_period_end} : null,
                         ratio_price_as_of: ratios.pe_price_as_of || null,
@@ -14618,6 +14621,10 @@
                 row.cells[11].textContent = mode === 'fresher'
                     ? formatCertifiedRatio(stock.roe, stock.ratio_status?.roe, '%')
                     : formatMetric(stock.roe, '%');
+                if (mode === 'fresher' && numericMetric(stock.roe) === null && numericMetric(stock.standalone_roe) !== null) {
+                    row.cells[11].textContent = `${formatMetric(stock.standalone_roe, '%')} · standalone FY26`;
+                    row.cells[11].title = 'Standalone FY26 ROE; the company’s main reporting scope differs.';
+                }
                 row.tabIndex = 0;
                 row.setAttribute('aria-label', 'Open ' + stock.symbol);
                 row.addEventListener('keydown', event => {
