@@ -13,7 +13,7 @@
         (function() {
             try {
                 const savedTheme = localStorage.getItem('stockerboard_theme');
-                const theme = savedTheme ? savedTheme : 'dark';
+                const theme = savedTheme ? savedTheme : 'light';
                 document.documentElement.setAttribute('data-theme', theme);
             } catch(e) {}
         })();
@@ -451,7 +451,7 @@
             <nav class="header-nav" aria-label="Main Navigation">
                 <a href="/" class="nav-link">Screener</a>
                 <a href="/stocks/" class="nav-link active">Stocks</a>
-                <a href="/#pro" class="nav-link">Pro</a>
+                <a href="/?mode=pro" class="nav-link">Pro</a>
             </nav>
         </div>
         <button type="button" class="theme-toggle-btn" onclick="toggleTheme()" aria-label="Toggle visual theme">🌓 Theme</button>
@@ -809,7 +809,7 @@
         <div style="margin-top: 8px;">
             <a href="/">Screener</a>
             <a href="/stocks/">Stocks</a>
-            <a href="/#pro">Pro</a>
+            <a href="/?mode=pro">Pro</a>
         </div>
     </footer>
 
