@@ -24,7 +24,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-    <script defer src="scripts/investor-v1.js"></script>
+    <script defer src="scripts/investor-v1.js?v=FY26_ROE_1c3945c90433fae2138265be"></script>
     <!-- Google Analytics 4 (GA4) Telemetry Engine (Ad-Blocker Safe) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-STOCKERBOARD"></script>
     <script>
@@ -14517,6 +14517,7 @@
         let screenerPopulationMode = null;
         let investorUniverseStocks = new Map();
         let dossierFinancialIndex = {};
+        let dossierFinancialIndexReleaseId = null;
         window.dossierFinancialIndexLoadState = {ok: null};
 
         async function loadDossierFinancialIndex() {
@@ -14530,6 +14531,7 @@
                     throw new Error('financial index does not match canonical universe');
                 }
                 dossierFinancialIndex = index.stocks;
+                dossierFinancialIndexReleaseId = index.source_dossier_release_id;
                 window.dossierFinancialIndexLoadState = {ok: true, coverage: index.coverage};
                 const coverage = document.getElementById('investorRatioCoverage');
                 if (coverage) coverage.textContent = `The certified ratio index has P/E for ${index.coverage.pe.toLocaleString('en-IN')} and ROE for ${index.coverage.roe.toLocaleString('en-IN')} of ${index.canonical_count.toLocaleString('en-IN')} companies. Missing ratios are excluded from P/E and ROE filters.`;
@@ -14537,6 +14539,7 @@
                 // Keep company search usable. Ratios fail closed instead of using
                 // an older snapshot that can disagree with the public dossier.
                 dossierFinancialIndex = {};
+                dossierFinancialIndexReleaseId = null;
                 window.dossierFinancialIndexLoadState = {ok: false, fileOrigin: location.protocol === 'file:'};
                 const coverage = document.getElementById('investorRatioCoverage');
                 if (coverage) coverage.textContent = 'Company ratios could not load. These are load errors, not certified unavailable values.';
@@ -18797,7 +18800,7 @@
             if (dossierCache.has(cleanSym)) return;
             
             const shard = getDossierShard(cleanSym);
-            const version = getMarketSessionDate();
+            const version = dossierFinancialIndexReleaseId || getMarketSessionDate();
             fetch(`./stocks/${shard}/${cleanSym}.json?v=${version}`)
                 .then(r => r.ok ? r.json() : null)
                 .then(json => {
@@ -18827,7 +18830,7 @@
             const direct = pool.find(p => p && p.symbol && p.symbol.replace(/NSE:|BSE:|\.NS|\.BO/gi, '').trim().toUpperCase() === cleanSym);
             try {
                 const shard = getDossierShard(cleanSym);
-                const version = getMarketSessionDate();
+                const version = dossierFinancialIndexReleaseId || getMarketSessionDate();
                 const resp = await fetch(`./stocks/${shard}/${cleanSym}.json?v=${version}`, { signal });
                 if (resp.ok) {
                     const json = await resp.json();
