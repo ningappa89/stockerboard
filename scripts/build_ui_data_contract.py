@@ -17,7 +17,7 @@ OUT = ROOT / "ui_data_contract_v1.json"
 
 def build(template: dict, financial_index: dict) -> dict:
     """Bind a staged UI contract to the exact certified Dossier projection."""
-    if financial_index.get("canonical_count") != 2524 or not financial_index.get("source_dossier_release_id"):
+    if financial_index.get("canonical_count") != len(financial_index.get("stocks", {})) or not financial_index.get("source_dossier_release_id"):
         raise ValueError("Incomplete staged Dossier financial index")
     contract = copy.deepcopy(template)
     contract["source_dossier_release_id"] = financial_index["source_dossier_release_id"]
@@ -26,18 +26,19 @@ def build(template: dict, financial_index: dict) -> dict:
         if metric and metric.get("source") == "certified_public_dossier_v2":
             metric["covered"] = covered
     contract.setdefault("release_gates", {})["canonical_population_reconciled"] = (
-        len(financial_index["stocks"]) == 2524)
+        len(financial_index["stocks"]) == contract["population"]["count"])
     contract["ready_for_full_v1_release"] = all(contract["release_gates"].values())
     return contract
 
 
 def build_contract() -> dict:
-    universe = json.loads((ROOT / "stocks/universe_index.json").read_text(encoding="utf-8"))
+    market_path = ROOT / "stocks/market_universe_index_v1.json"
+    universe = json.loads((market_path if market_path.exists() else ROOT / "stocks/universe_index.json").read_text(encoding="utf-8"))
     financial = json.loads((ROOT / "stocks/financial_index_v1.json").read_text(encoding="utf-8"))
     count = universe["count"]
     symbols = {row[0] for row in universe["stocks"]}
-    if count != 2524 or len(symbols) != count or financial["canonical_count"] != count or set(financial["stocks"]) != symbols:
-        raise ValueError("financial index and canonical universe differ")
+    if len(symbols) != count or financial["canonical_count"] != len(financial["stocks"]):
+        raise ValueError("financial or market universe identity is invalid")
     html = (ROOT / "index.html").read_text(encoding="utf-8")
     pro_date = re.search(r'"session_date"\s*:\s*"(\d{4}-\d{2}-\d{2})"', html)
     if not pro_date:
@@ -47,7 +48,10 @@ def build_contract() -> dict:
     def field(source: str, covered: int, definition: str, enabled: bool = True) -> dict:
         return {"source": source, "covered": covered, "population": count, "definition": definition, "enabled": enabled and covered > 0}
 
-    cov = financial["coverage"]
+    financial_rows = {symbol: row for symbol, row in financial["stocks"].items() if symbol in symbols}
+    cov = {key: sum(row.get("market_cap_crore" if key == "market_cap" else key) is not None
+                    for row in financial_rows.values())
+           for key in financial["coverage"]}
     metrics = {
         "price": field("canonical_universe", sum(row[2] is not None for row in universe["stocks"]), "Last price in INR on the canonical universe date; not a live quote."),
         "sector": field("canonical_universe", sum(bool(row[5]) for row in universe["stocks"]), "Published sector label; unavailable when absent."),
@@ -65,7 +69,7 @@ def build_contract() -> dict:
     # Only actual published non-canonical shard files are classified as aliases.
     aliases = []
     canonical_isins = {}
-    for symbol in symbols:
+    for symbol in financial["stocks"]:
         shard = re.sub(r"[^A-Z0-9]", "_", symbol[:2]).ljust(2, "_")
         dossier = json.loads((ROOT / "stocks" / shard / f"{symbol}.json").read_text(encoding="utf-8"))
         if dossier.get("isin"):

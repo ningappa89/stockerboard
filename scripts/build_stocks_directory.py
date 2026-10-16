@@ -24,6 +24,7 @@ TEMPLATE_PATH = TEMPLATES_DIR / "stocks-directory.html"
 SLUG_REGISTRY_PATH = ROOT / "company_slug_registry_v1.json"
 TARGET_HTML_PATH = STOCKS_DIR / "index.html"
 DIRECTORY_VIEW_MODEL_PATH = STOCKS_DIR / "stocks_directory_v1.json"
+MARKET_UNIVERSE_INDEX_PATH = STOCKS_DIR / "market_universe_index_v1.json"
 
 
 def format_currency(val: float | int | None) -> str:
@@ -108,7 +109,8 @@ def render_card_html(entry: dict) -> str:
             </a>"""
 
 
-def build_directory(check_only: bool = False) -> tuple[dict, str]:
+def build_directory(check_only: bool = False, universe_path: Path | None = None,
+                    output_dir: Path | None = None) -> tuple[dict, str]:
     if not SLUG_REGISTRY_PATH.exists():
         raise FileNotFoundError(f"Missing registry: {SLUG_REGISTRY_PATH}")
     registry = json.loads(SLUG_REGISTRY_PATH.read_text(encoding="utf-8"))
@@ -120,7 +122,10 @@ def build_directory(check_only: bool = False) -> tuple[dict, str]:
 
     # The same canonical universe drives home search and this browse page.
     u_map = {}
-    universe_path = STOCKS_DIR / "universe_index.json"
+    universe_path = Path(universe_path or (MARKET_UNIVERSE_INDEX_PATH if MARKET_UNIVERSE_INDEX_PATH.exists()
+                                           else STOCKS_DIR / "universe_index.json"))
+    target_html_path = Path(output_dir) / "index.html" if output_dir else TARGET_HTML_PATH
+    view_model_path = Path(output_dir) / "stocks_directory_v1.json" if output_dir else DIRECTORY_VIEW_MODEL_PATH
     u_data = json.loads(universe_path.read_text(encoding="utf-8"))
     universe_rows = u_data["stocks"]
     if len(universe_rows) != u_data["count"] or len({row[0] for row in universe_rows}) != u_data["count"]:
@@ -175,9 +180,9 @@ def build_directory(check_only: bool = False) -> tuple[dict, str]:
     }
 
     if check_only:
-        if not TARGET_HTML_PATH.exists():
-            raise FileNotFoundError(f"Target directory file missing: {TARGET_HTML_PATH}")
-        existing_bytes = TARGET_HTML_PATH.read_bytes().replace(b"\r\n", b"\n")
+        if not target_html_path.exists():
+            raise FileNotFoundError(f"Target directory file missing: {target_html_path}")
+        existing_bytes = target_html_path.read_bytes().replace(b"\r\n", b"\n")
         existing_sha = hashlib.sha256(existing_bytes).hexdigest()
         if existing_sha != html_sha:
             raise ValueError(f"Directory drift detected! Existing: {existing_sha}, Generated: {html_sha}")
@@ -185,10 +190,10 @@ def build_directory(check_only: bool = False) -> tuple[dict, str]:
         return view_model, html_sha
 
     # Write files atomically
-    TARGET_HTML_PATH.parent.mkdir(parents=True, exist_ok=True)
-    TARGET_HTML_PATH.write_bytes(html_bytes)
-    DIRECTORY_VIEW_MODEL_PATH.write_text(json.dumps(view_model, indent=2), encoding="utf-8")
-    print(f"Generated stocks directory at {TARGET_HTML_PATH} (SHA-256: {html_sha})")
+    target_html_path.parent.mkdir(parents=True, exist_ok=True)
+    target_html_path.write_bytes(html_bytes)
+    view_model_path.write_text(json.dumps(view_model, indent=2), encoding="utf-8")
+    print(f"Generated stocks directory at {target_html_path} (SHA-256: {html_sha})")
     return view_model, html_sha
 
 

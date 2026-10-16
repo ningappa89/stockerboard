@@ -609,7 +609,7 @@
 
         searchInput.addEventListener('input', filterDirectory);
         loadMore.addEventListener('click', appendPage);
-        fetch('/stocks/universe_index.json', {cache: 'no-cache'}).then(response => {
+        fetch('/stocks/market_universe_index_v1.json', {cache: 'no-cache'}).then(response => {
             if (!response.ok) throw new Error('Universe unavailable');
             return response.json();
         }).then(data => {
