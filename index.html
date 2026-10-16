@@ -18392,6 +18392,10 @@
                     switchUserMode(userPreference);
                 }
             }
+            if (hash === '#tab-stockme-analysis') {
+                switchTab('tab-stockme-analysis', document.getElementById('tabBtnStockMe'));
+                requestAnimationFrame(() => document.getElementById('tab-stockme-analysis')?.scrollIntoView({ block: 'start' }));
+            }
         });
 
     
@@ -19385,7 +19389,11 @@
         // Wire SPA Hash Navigation (Back / Forward button support)
         window.addEventListener('hashchange', () => {
             const hash = window.location.hash;
-            if (hash.startsWith('#stock/')) {
+            if (hash === '#tab-stockme-analysis') {
+                switchUserMode('intermediate');
+                switchTab('tab-stockme-analysis', document.getElementById('tabBtnStockMe'));
+                document.getElementById('tab-stockme-analysis')?.scrollIntoView({ block: 'start' });
+            } else if (hash.startsWith('#stock/')) {
                 const sym = hash.replace('#stock/', '').trim();
                 if (sym) openStockDossier(sym, false);
             } else if (!hash || hash === '#' || hash === '#/') {
