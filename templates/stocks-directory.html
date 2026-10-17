@@ -449,9 +449,10 @@
                 <span class="logo-badge">Research</span>
             </a>
             <nav class="header-nav" aria-label="Main Navigation">
-                <a href="/" class="nav-link">Screener</a>
+                <a href="/" class="nav-link">Home</a>
                 <a href="/stocks/" class="nav-link active">Stocks</a>
-                <a href="/?mode=pro" class="nav-link">Pro</a>
+                <a href="/#tab-playbook" class="nav-link">Learn</a>
+                <a href="/?mode=pro" class="nav-link">Pro research</a>
             </nav>
         </div>
         <button type="button" class="theme-toggle-btn" onclick="toggleTheme()" aria-label="Toggle visual theme">🌓 Theme</button>
@@ -505,14 +506,7 @@
         </div>
     </main>
 
-    <footer class="footer">
-        <p>Stockerboard · Exchange-filing based financial intelligence</p>
-        <div style="margin-top: 8px;">
-            <a href="/">Screener</a>
-            <a href="/stocks/">Stocks</a>
-            <a href="/?mode=pro">Pro</a>
-        </div>
-    </footer>
+    {{ footer_html }}
 
     <script>
         function toggleTheme() {
@@ -563,11 +557,11 @@
             metrics.className = 'dir-metrics';
             const priceEl = document.createElement('div');
             priceEl.className = 'dir-price';
-            const shownPrice = featured ? featured.price : price;
+            const shownPrice = price;
             priceEl.textContent = Number.isFinite(shownPrice) ? '₹' + shownPrice.toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2}) : 'Price unavailable';
             const routeEl = document.createElement('div');
             routeEl.className = 'dir-route-note';
-            routeEl.textContent = `Price ${featured?.price_as_of || '{{ universe_as_of }}'} · ${featured ? 'Company page' : 'Research view'}`;
+            routeEl.textContent = `Price ${row[6] || '{{ universe_as_of }}'} · ${featured ? 'Company page' : 'Research view'}`;
             metrics.append(priceEl, routeEl);
             const arrow = document.createElement('div');
             arrow.className = 'dir-arrow';
@@ -615,6 +609,14 @@
         }).then(data => {
             if (!Array.isArray(data.stocks) || data.stocks.length !== data.count || data.count !== {{ total_count_raw }}) throw new Error('Universe mismatch');
             universe = data.stocks;
+            universe.forEach(row => {
+                const card = document.querySelector(`#dirList .dir-card[data-symbol="${CSS.escape(row[0])}"]`);
+                if (!card || !Number.isFinite(row[2])) return;
+                const price = card.querySelector('.dir-price');
+                const date = card.querySelector('.dir-route-note');
+                if (price) price.textContent = '₹' + row[2].toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+                if (date) date.textContent = `Price ${row[6] || data.as_of} · Company page`;
+            });
             filterDirectory();
         }).catch(() => {
             countBadge.textContent = 'Browse unavailable';

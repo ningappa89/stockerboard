@@ -53,7 +53,7 @@ context.fixtureReliance = JSON.parse(fs.readFileSync(path.join(__dirname, '../st
 evaluate('renderDossierFundamentals(normalizeDossierJson(fixtureReliance,"RELIANCE"))');
 assert.equal(elements.get('dossierTblPE').textContent, '21.19', 'RELIANCE PE AVAILABLE');
 assert.equal(elements.get('dossierTblPB').textContent, '1.46', 'RELIANCE PB AVAILABLE');
-assert.equal(elements.get('dossierTblROE').textContent, '— Not available', 'RELIANCE ROE UNAVAILABLE must render "— Not available"');
+assert.equal(elements.get('dossierTblROE').textContent, '7.71%', 'RELIANCE ROE AVAILABLE must render canonical value');
 assert.equal(elements.get('dossierTblROCE').textContent, 'Not available yet', 'RELIANCE ROCE PENDING_LAYER must render "Not available yet"');
 console.log('PASS: RELIANCE certified status semantics (PENDING_LAYER and AVAILABLE)');
 

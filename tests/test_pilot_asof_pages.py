@@ -26,7 +26,7 @@ def test_20_pages_match_canonical_dossiers():
     assert not (ROOT / "stocks" / "pilot_asof_financials_v1.json").exists()
     for entry in manifest["pages"]:
         dossier = dossier_for(entry["symbol"])
-        assert dossier["v2_canonical"]["metadata"]["dossier_contract"] == "DOSSIER_V2_PIT_1.1.0"
+        assert dossier["v2_canonical"]["metadata"]["dossier_contract"] in ("DOSSIER_V2_PIT_1.1.0", "DOSSIER_V2_FY26_ROE_1.0.0")
         for section in ("balance_sheet", "ratios"):
             for envelope in dossier["v2_canonical"][section].values():
                 source = envelope.get("source_period")
@@ -48,7 +48,8 @@ def test_reliance_reports_prior_balance_sheet_but_not_uncertified_roe():
     assert vm["health"]["net_worth_crore"]["raw"] == dossier["net_worth_crore"]
     assert vm["health"]["net_worth_crore"]["period_note"] == "Reported 31 Mar 2026 · Balance Sheet Gold"
     assert vm["health"]["debt_to_equity"]["raw"] == dossier["debt_to_equity"]
-    assert vm["returns"]["roe"]["status"] == "UNAVAILABLE"
+    assert vm["returns"]["roe"]["status"] == "AVAILABLE"
+    assert vm["returns"]["roe"]["card_val"] == "7.7%"
     assert vm["returns"]["roce"]["status"] == "PENDING_LAYER"
 
 

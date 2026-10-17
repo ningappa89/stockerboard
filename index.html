@@ -4989,7 +4989,7 @@
                                 <span>🇮🇳 DPDP Act (2023) Consent: Verified</span>
                             </div>
                             <button class="dropdown-btn-signout" onclick="signOutUser()">🚪 Sign Out</button>
-                            <button class="dropdown-btn-danger" onclick="deleteUserCloudData()">🗑️ Delete Account &amp; Cloud Data</button>
+                            <button class="dropdown-btn-danger" onclick="deleteUserCloudData()">🗑️ Delete Stockerboard Data</button>
                         </div>
                     </div>
                 </div>
@@ -14334,20 +14334,287 @@
             <strong>1. SEBI Regulatory Status & Non-Advisory Notice:</strong> Stockerboard (stockerboard.com) is a self-directed educational computational research and quantitative analytics platform. Neither Stockerboard nor its operators are registered as Research Analysts under the SEBI (Research Analysts) Regulations, 2014, nor as Investment Advisers under the SEBI (Investment Advisers) Regulations, 2013. All quantitative screeners, technical chart overlays, strategy tags (e.g. Minervini VCP, Pocket Pivot, Stage 2), and behavioral decision journals are algorithmic and mathematical in nature. Nothing on this platform constitutes an offer, solicitation, or recommendation to buy, sell, or hold any security, or financial product. We do not run paid advisory groups, Telegram/WhatsApp tip channels, or portfolio management services.<br><br><strong>2. Mandatory SEBI Standard Risk Warning:</strong> <em>Investment in securities market are subject to market risks. Read all the related documents carefully before investing.</em> Educational research only, independent computational platform, and certification from NISM in no way guarantee performance of the intermediary or provide any assurance of returns to investors.<br><br><strong>3. Exchange Data Attribution & Limitations (NSE & BSE India):</strong> All equity quotes, bhavcopy settlement prices, volume surges, and corporate actions are derived from publicly accessible, official End-of-Day (EOD) Bhavcopy publications and regulatory corporate filings published by the National Stock Exchange of India Limited (NSE) and BSE Limited (BSE). Stockerboard does not provide real-time, low-latency, or streaming tick data; all metrics are calculated on an EOD closing basis. 'NSE', 'NIFTY 50', 'BSE', and 'SENSEX' are registered trademarks of their respective exchanges. Stockerboard is an independent computational research engine and is not endorsed by, sponsored by, or affiliated with NSE or BSE.<br><br><strong>4. Government of India DPDP Act (2023) & IT Act (2000) Data Privacy:</strong> In strict compliance with the Digital Personal Data Protection Act (DPDP), 2023, Stockerboard implements a Zero-Server, Local-First client architecture. Your trade flight recordings and watchlists remain securely on your device storage (localStorage). We do not collect or store brokerage trading credentials or personal bank records. Users have complete unilateral rights to instant data erasure via the 'Clear Data' utilities.
         </div>
 
-        <footer>
-            <div style="margin-bottom: 14px;">
-                <span class="platform-compliance-badge" style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #15803D; background: rgba(22, 163, 74, 0.08); border: 1px solid rgba(22, 163, 74, 0.22); padding: 5px 16px; border-radius: 9999px;">
-                    ✦ INDEPENDENT EQUITY RESEARCH • ZERO-ADVISORY • Independent Quantitative Research
-                </span>
+<!-- Stockerboard Global Footer Component (Single Source of Truth) -->
+<footer class="sb-global-footer" id="sbGlobalFooter">
+    <div class="sb-footer-container">
+        <div class="sb-footer-main">
+            <!-- Brand & Contact Column -->
+            <div class="sb-footer-brand">
+                <a href="/" class="sb-footer-logo" title="Stockerboard Home">
+                    <span class="sb-footer-logo-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <rect x="3" y="12" width="4" height="9" rx="1.5" fill="#3B82F6"/>
+                            <rect x="10" y="7" width="4" height="14" rx="1.5" fill="#15803D"/>
+                            <rect x="17" y="3" width="4" height="18" rx="1.5" fill="#16A34A"/>
+                        </svg>
+                    </span>
+                    <span class="sb-footer-logo-text">Stockerboard</span>
+                </a>
+                <p class="sb-footer-tagline">Understand before you invest.</p>
+                <div class="sb-footer-contact">
+                    <a href="mailto:community@stockerboard.com" class="sb-footer-email" aria-label="Email Stockerboard Community">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <rect x="2" y="4" width="20" height="16" rx="2"/>
+                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                        </svg>
+                        <span>community@stockerboard.com</span>
+                    </a>
+                </div>
+                <!-- Social Channels (Only channels with verified official profiles are shown) -->
+                <div class="sb-footer-socials" id="sbFooterSocials">
+                    <!-- Configured channels render here. Unconfigured channels remain omitted. -->
+                </div>
             </div>
-            <div style="margin-bottom: 10px;">
-                <a href="/" onclick="event.preventDefault(); switchUserMode('fresher'); window.scrollTo({top:0, behavior:'smooth'})" style="color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; font-weight: 500; margin: 0 10px;">Home</a>
-                <a href="/stocks/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; font-weight: 500; margin: 0 10px;">Stocks</a>
-                <a href="/learn/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; font-weight: 500; margin: 0 10px;">Learn</a>
-                <a href="/?mode=pro" onclick="event.preventDefault(); switchUserMode('intermediate')" style="color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; font-weight: 500; margin: 0 10px;">Pro research</a>
+
+            <!-- Navigation Links Columns -->
+            <div class="sb-footer-nav-grid">
+                <!-- PRODUCT -->
+                <div class="sb-footer-col">
+                    <h4 class="sb-footer-heading">PRODUCT</h4>
+                    <ul class="sb-footer-links">
+                        <li><a href="/">Screener</a></li>
+                        <li><a href="/stocks/">Companies</a></li>
+                    </ul>
+                </div>
+
+                <!-- LEARN -->
+                <div class="sb-footer-col">
+                    <h4 class="sb-footer-heading">LEARN</h4>
+                    <ul class="sb-footer-links">
+                        <li><a href="/methodology/">Methodology</a></li>
+                        <li><a href="/data-sources/">Data Sources</a></li>
+                    </ul>
+                </div>
+
+                <!-- COMPANY -->
+                <div class="sb-footer-col">
+                    <h4 class="sb-footer-heading">COMPANY</h4>
+                    <ul class="sb-footer-links">
+                        <li><a href="/about/">About</a></li>
+                        <li><a href="/contact/">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- LEGAL -->
+                <div class="sb-footer-col">
+                    <h4 class="sb-footer-heading">LEGAL</h4>
+                    <ul class="sb-footer-links">
+                        <li><a href="/disclaimer/">Disclaimer</a></li>
+                        <li><a href="/privacy/">Privacy</a></li>
+                        <li><a href="/terms/">Terms</a></li>
+                    </ul>
+                </div>
             </div>
-            © 2026 Stockerboard. All rights reserved. • Compiled from official public records of NSE India &amp; BSE India.
-        </footer>
+        </div>
+
+        <!-- Sub-Footer / Copyright Row -->
+        <div class="sb-footer-bottom">
+            <span class="sb-footer-sub-tagline">Stockerboard — Understand before you invest.</span>
+            <span class="sb-footer-copyright">© 2026 Stockerboard. All rights reserved.</span>
+        </div>
+    </div>
+</footer>
+
+<style>
+/* Stockerboard Global Footer Styles */
+.sb-global-footer {
+    width: 100%;
+    margin-top: 64px;
+    border-top: 1px solid var(--border-subtle, #E2E8F0);
+    background: transparent;
+    color: var(--text-primary, #0F172A);
+    font-family: var(--font-sans, 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif);
+    font-size: 0.88rem;
+    line-height: 1.5;
+    transition: border-color 0.2s ease;
+}
+
+.sb-footer-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 48px 24px 32px 24px;
+}
+
+.sb-footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 48px;
+    margin-bottom: 36px;
+    flex-wrap: wrap;
+}
+
+/* Brand Area */
+.sb-footer-brand {
+    flex: 1 1 280px;
+    max-width: 360px;
+}
+
+.sb-footer-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--text-primary, #0F172A);
+    margin-bottom: 8px;
+}
+
+.sb-footer-logo-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sb-footer-logo-text {
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: var(--text-primary, #0F172A);
+}
+
+.sb-footer-tagline {
+    font-size: 0.875rem;
+    color: var(--text-secondary, #475569);
+    margin-bottom: 14px;
+    line-height: 1.4;
+}
+
+.sb-footer-contact {
+    margin-bottom: 16px;
+}
+
+.sb-footer-email {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-secondary, #475569);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: color 0.15s ease;
+}
+
+.sb-footer-email:hover {
+    color: var(--brand-green, #15803D);
+}
+
+.sb-footer-socials {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 14px;
+}
+
+.sb-footer-social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted, #94A3B8);
+    transition: color 0.15s ease, transform 0.15s ease;
+    text-decoration: none;
+}
+
+.sb-footer-social-link:hover {
+    color: var(--brand-green, #15803D);
+    transform: translateY(-1px);
+}
+
+/* Navigation Columns */
+.sb-footer-nav-grid {
+    display: flex;
+    gap: 56px;
+    flex: 2 1 540px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.sb-footer-col {
+    min-width: 100px;
+}
+
+.sb-footer-heading {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted, #94A3B8);
+    margin-bottom: 14px;
+}
+
+.sb-footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sb-footer-links a {
+    color: var(--text-secondary, #475569);
+    text-decoration: none;
+    font-size: 0.86rem;
+    font-weight: 500;
+    transition: color 0.15s ease;
+}
+
+.sb-footer-links a:hover {
+    color: var(--brand-green, #15803D);
+}
+
+/* Sub-Footer Row */
+.sb-footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    border-top: 1px solid var(--border-subtle, #E2E8F0);
+    font-size: 0.81rem;
+    color: var(--text-muted, #94A3B8);
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.sb-footer-sub-tagline {
+    font-weight: 500;
+    color: var(--text-secondary, #475569);
+}
+
+.sb-footer-copyright {
+    color: var(--text-muted, #94A3B8);
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+    .sb-footer-container {
+        padding: 40px 20px 24px 20px;
+    }
+    .sb-footer-main {
+        flex-direction: column;
+        gap: 32px;
+    }
+    .sb-footer-nav-grid {
+        justify-content: space-between;
+        width: 100%;
+        gap: 32px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sb-footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sb-footer-nav-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+}
+</style>
+
     </div>
 
     <!-- TradingView Watchlist Import Modal -->
@@ -16766,17 +17033,18 @@
         }
 
         function deleteUserCloudData() {
-            if (!confirm('Are you sure? This will delete your synced watchlist and account data in accordance with DPDP regulations.')) return;
+            const confirmMsg = "Delete Stockerboard data?\n\nThis will remove your synced Stockerboard data, clear Stockerboard data stored in this browser, and sign you out.\n\nYour Google/Firebase authentication identity is not deleted by this action.";
+            if (!confirm(confirmMsg)) return;
             if (firestoreDb && currentAuthUser) {
                 firestoreDb.collection('users').doc(currentAuthUser.uid).delete()
                     .then(() => {
                         saveWatchlist([]);
                         signOutUser();
-                        showToast('Cloud account data successfully deleted');
+                        showToast('Stockerboard data successfully deleted');
                     });
             } else {
                 saveWatchlist([]);
-                showToast('Local watchlist deleted');
+                showToast('Local Stockerboard data deleted');
             }
         }
 

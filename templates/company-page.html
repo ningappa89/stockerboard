@@ -100,7 +100,7 @@
             --border-card: #E5E7EB;
             --text-primary: #0F172A;
             --text-secondary: #475569;
-            --text-muted: #94A3B8;
+            --text-muted: #64748B;
             --brand-green: #15803D;
             --brand-green-light: #16A34A;
             --accent: #16A34A;
@@ -309,6 +309,7 @@
             background: var(--surface);
         }
         .coverage-notice:empty { display: none; }
+        .price-basis-note { margin: 12px 0 20px; color: var(--text-secondary); font-size: .8rem; line-height: 1.5; }
         .metric-value {
             font-weight: 600;
             color: var(--text-primary);
@@ -435,9 +436,10 @@
                 <span class="logo-badge">Research</span>
             </a>
             <nav class="header-nav" aria-label="Main Navigation">
-                <a href="/">Screener</a>
+                <a href="/">Home</a>
                 <a href="/stocks/">Stocks</a>
-                <a href="/?mode=pro">Pro</a>
+                <a href="/#tab-playbook">Learn</a>
+                <a href="/?mode=pro">Pro research</a>
             </nav>
         </div>
         <button type="button" class="theme-toggle-btn" onclick="toggleTheme()" aria-label="Toggle visual theme">🌓 Theme</button>
@@ -463,8 +465,8 @@
                 {{ identity.sector or 'Unclassified' }} · {{ identity.industry or 'General' }}
             </div>
             <div class="price-section">
-                <div class="cmp-val">{{ price.formatted_value }}</div>
-                <div class="price-date">Price as of {{ price.formatted_date }}</div>
+                <div class="cmp-val" id="companyMarketPrice">{{ price.formatted_value }}</div>
+                <div class="price-date" id="companyMarketDate" data-as-of="{{ price.as_of }}">Price as of {{ price.formatted_date }}</div>
             </div>
             <div class="hero-range" aria-label="{{ market_range.title }}">
                 <div class="hero-range-heading"><span>{{ market_range.title }}</span><span>{{ market_range.distance }}</span></div>
@@ -478,6 +480,11 @@
         </section>
 
         <p class="coverage-notice">{{ coverage_notice }}</p>
+        <div class="data-provenance-strip" style="display:flex;flex-wrap:wrap;gap:6px 16px;margin:8px 0 14px;padding:10px 14px;border:1px solid var(--border);border-radius:10px;background:var(--surface-elevated);font-size:.78rem;line-height:1.45;color:var(--text-secondary);">
+            <span class="prov-item"><strong style="color:var(--text-primary);font-weight:650;">Market Price:</strong> {{ price.formatted_value }} ({{ price.formatted_date }})</span>
+            <span class="prov-divider" style="color:var(--text-muted);">&middot;</span>
+            <span class="prov-item"><strong style="color:var(--text-primary);font-weight:650;">Financials:</strong> {{ freshness.financial_period_end or 'Latest' }} &middot; {{ freshness.consolidation_scope }}</span>
+        </div>
 
         <!-- Key Snapshot -->
         <section class="grid-cards" aria-label="Key Snapshot">
@@ -632,14 +639,7 @@
         </section>
     </main>
 
-    <footer>
-        <p>© Stockerboard. Factual financial information derived from certified exchange filings. Not investment advice.</p>
-        <div style="margin-top: 8px;">
-            <a href="/" style="color: var(--text-secondary); text-decoration: none; margin: 0 10px;">Screener</a>
-            <a href="/stocks/" style="color: var(--text-secondary); text-decoration: none; margin: 0 10px;">Stocks</a>
-            <a href="/?mode=pro" style="color: var(--text-secondary); text-decoration: none; margin: 0 10px;">Pro</a>
-        </div>
-    </footer>
+    {{ footer_html }}
 
     <script>
         function toggleTheme() {
@@ -653,6 +653,21 @@
             const saved = localStorage.getItem('stockerboard_theme');
             if (saved) document.documentElement.setAttribute('data-theme', saved);
         })();
+        // Keep the market quote current independently of the certified financial cohort.
+        fetch('/stocks/market_universe_index_v1.json', {cache: 'no-cache'})
+            .then(response => { if (!response.ok) throw new Error('Market index unavailable'); return response.json(); })
+            .then(data => {
+                const row = data.stocks?.find(item => item[0] === '{{ identity.symbol }}');
+                const dateEl = document.getElementById('companyMarketDate');
+                if (!row || !Number.isFinite(row[2]) || !row[6] || row[6] <= dateEl.dataset.asOf) return;
+                document.getElementById('companyMarketPrice').textContent = '₹' + row[2].toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+                dateEl.textContent = 'Price as of ' + new Date(row[6] + 'T00:00:00').toLocaleDateString('en-IN', {day: 'numeric', month: 'short', year: 'numeric'});
+                dateEl.dataset.asOf = row[6];
+                const rangeStatus = document.querySelector('.hero-range-heading span:last-child');
+                if (rangeStatus) rangeStatus.textContent = 'Earlier range snapshot';
+                const rangeNote = document.querySelector('.hero-range-note');
+                if (rangeNote && !rangeNote.textContent.includes('Latest price shown above')) rangeNote.textContent += ' · Latest price shown above; range position is from the earlier snapshot.';
+            }).catch(() => {});
     </script>
 </body>
 </html>

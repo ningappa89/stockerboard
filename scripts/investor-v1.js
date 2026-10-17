@@ -121,6 +121,134 @@
         container.replaceChildren(fragment);
     };
 
+    window.renderProMobileCards = function (rows) {
+        const container = document.getElementById('proMobileCards');
+        if (!container) return;
+        const watched = new Set(typeof getWatchlist === 'function' ? getWatchlist() : []);
+        const fragment = document.createDocumentFragment();
+
+        for (const row of rows) {
+            const sym = row.dataset.sym;
+            if (!sym) continue;
+            const name = row.dataset.name || sym;
+            const sec = row.dataset.sec || 'General';
+            const dist = parseFloat(row.dataset.dist || '0');
+            const mom = row.dataset.mom || '—';
+            const volmult = row.dataset.volmult || '—';
+            const roe = row.dataset.roe;
+            const pe = row.dataset.pe;
+
+            const price = row.cells[5]?.textContent.trim() || '—';
+            const high52 = row.cells[6]?.textContent.trim() || '—';
+            const distStr = row.cells[7]?.textContent.trim() || (dist >= 0 ? `+${dist.toFixed(1)}%` : `${dist.toFixed(1)}%`);
+
+            let regime = 'Consolidation';
+            let regimeClass = 'regime-consolidation';
+            if (row.dataset.confluence === '1') {
+                regime = 'Multi-Confluence';
+                regimeClass = 'regime-confluence';
+            } else if (row.dataset.stage2 === '1') {
+                regime = 'Stage 2 Pullback';
+                regimeClass = 'regime-stage2';
+            } else if (row.dataset.pivot === '1') {
+                regime = 'Pocket Pivot';
+                regimeClass = 'regime-pivot';
+            } else if (row.dataset.vcp === '1') {
+                regime = 'Minervini VCP';
+                regimeClass = 'regime-vcp';
+            } else if (dist >= -0.5) {
+                regime = '52W Breakout';
+                regimeClass = 'regime-breakout';
+            } else if (dist >= -3.0) {
+                regime = 'Coiled (<3%)';
+                regimeClass = 'regime-coiled';
+            }
+
+            const peDisplay = (pe && pe !== '-1.0' && pe !== '-999') ? `${parseFloat(pe).toFixed(1)}x` : '—';
+            const roeDisplay = (roe && roe !== '-1.0' && roe !== '-999') ? `${parseFloat(roe).toFixed(1)}%` : '—';
+
+            const card = element('div', 'pro-stock-card');
+            card.dataset.symbol = sym;
+
+            const hdr = element('div', 'pro-card-header');
+            const ident = element('div', 'pro-card-identity');
+            ident.append(
+                element('span', 'pro-card-symbol', sym),
+                element('span', 'pro-card-name', name),
+                element('span', 'pro-card-sector', sec)
+            );
+
+            const star = element('button', 'pro-watchlist-btn', watched.has(sym) ? '★' : '☆');
+            star.type = 'button';
+            star.setAttribute('aria-label', `${watched.has(sym) ? 'Remove' : 'Add'} ${sym} to watchlist`);
+            star.setAttribute('aria-pressed', String(watched.has(sym)));
+            star.onclick = (e) => {
+                e.stopPropagation();
+                if (typeof toggleWatchlist === 'function') toggleWatchlist(sym, star);
+                const isW = typeof getWatchlist === 'function' && getWatchlist().includes(sym);
+                star.textContent = isW ? '★' : '☆';
+                star.setAttribute('aria-pressed', String(isW));
+            };
+            hdr.append(ident, star);
+
+            const mainMetric = element('div', 'pro-card-main-metric');
+            const priceBlock = element('div', 'pro-price-block');
+            priceBlock.append(
+                element('span', 'pro-price', price),
+                element('span', `pro-change ${dist >= -1.0 ? 'badge-up' : 'badge-flat'}`, distStr)
+            );
+
+            const highBlock = element('div', 'pro-high-dist-block');
+            highBlock.append(
+                element('span', 'pro-high-val', distStr),
+                element('span', 'pro-high-lbl', 'from 52W High')
+            );
+            mainMetric.append(priceBlock, highBlock);
+
+            const hls = element('div', 'pro-card-highlights');
+            const hlMom = element('div', 'pro-hl-item');
+            hlMom.append(
+                element('span', 'hl-lbl', 'Momentum Strength'),
+                element('span', 'hl-val score-high', `${mom} / 100`)
+            );
+            const hlRegime = element('div', 'pro-hl-item');
+            hlRegime.append(
+                element('span', 'hl-lbl', 'Setup Regime'),
+                element('span', `hl-val ${regimeClass}`, regime)
+            );
+            hls.append(hlMom, hlRegime);
+
+            const details = element('details', 'pro-card-expandable');
+            const summary = element('summary', 'pro-expand-trigger', 'View Volume, P/E & ROE');
+            const content = element('div', 'pro-expanded-content');
+
+            const rowVol = element('div', 'detail-row');
+            rowVol.append(element('span', '', 'Volume Surge:'), element('strong', '', `${volmult}x`));
+
+            const rowHigh = element('div', 'detail-row');
+            rowHigh.append(element('span', '', '52W High:'), element('strong', '', high52));
+
+            const rowVal = element('div', 'detail-row');
+            rowVal.append(element('span', '', 'P/E / ROE:'), element('strong', '', `${peDisplay} / ${roeDisplay}`));
+
+            const link = element('a', 'pro-dossier-link', 'Open Full Analysis & Chart ➔');
+            link.href = `#stock/${sym}`;
+            link.onclick = (e) => {
+                e.preventDefault();
+                if (typeof openStockDrawer === 'function') openStockDrawer(sym);
+                else if (typeof openStockDossier === 'function') openStockDossier(sym);
+            };
+
+            content.append(rowVol, rowHigh, rowVal, link);
+            details.append(summary, content);
+
+            card.append(hdr, mainMetric, hls, details);
+            fragment.append(card);
+        }
+
+        container.replaceChildren(fragment);
+    };
+
     function number(value) {
         if (value === null || value === undefined || value === '' || value === 'N/A') return null;
         const parsed = Number(value);

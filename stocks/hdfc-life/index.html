@@ -100,7 +100,7 @@
             --border-card: #E5E7EB;
             --text-primary: #0F172A;
             --text-secondary: #475569;
-            --text-muted: #94A3B8;
+            --text-muted: #64748B;
             --brand-green: #15803D;
             --brand-green-light: #16A34A;
             --accent: #16A34A;
@@ -309,6 +309,7 @@
             background: var(--surface);
         }
         .coverage-notice:empty { display: none; }
+        .price-basis-note { margin: 12px 0 20px; color: var(--text-secondary); font-size: .8rem; line-height: 1.5; }
         .metric-value {
             font-weight: 600;
             color: var(--text-primary);
@@ -435,9 +436,10 @@
                 <span class="logo-badge">Research</span>
             </a>
             <nav class="header-nav" aria-label="Main Navigation">
-                <a href="/">Screener</a>
+                <a href="/">Home</a>
                 <a href="/stocks/">Stocks</a>
-                <a href="/?mode=pro">Pro</a>
+                <a href="/#tab-playbook">Learn</a>
+                <a href="/?mode=pro">Pro research</a>
             </nav>
         </div>
         <button type="button" class="theme-toggle-btn" onclick="toggleTheme()" aria-label="Toggle visual theme">🌓 Theme</button>
@@ -463,21 +465,26 @@
                 Financial Services · NSE Listed Equity
             </div>
             <div class="price-section">
-                <div class="cmp-val">₹556.65</div>
-                <div class="price-date">Price as of 9 Oct 2026</div>
+                <div class="cmp-val" id="companyMarketPrice">₹553.00</div>
+                <div class="price-date" id="companyMarketDate" data-as-of="2026-10-16">Price as of 16 Oct 2026</div>
             </div>
             <div class="hero-range" aria-label="52-Week Price Spectrum">
-                <div class="hero-range-heading"><span>52-Week Price Spectrum</span><span>29.4% below high</span></div>
+                <div class="hero-range-heading"><span>52-Week Price Spectrum</span><span>Earlier range snapshot</span></div>
                 <div class="hero-range-track"><span class="hero-range-pin" style="left:17.1%"></span></div>
                 <div class="hero-range-bounds">
                     <span>52W Low: <strong>₹508.70</strong></span>
                     <span>52W High: <strong>₹788.50</strong></span>
                 </div>
-                <p class="hero-range-note">246 trading sessions · daily high/low through 9 Oct 2026</p>
+                <p class="hero-range-note">52-week range through 9 Oct 2026; latest price shown above. Range position reflects the earlier snapshot.</p>
             </div>
         </section>
 
         <p class="coverage-notice">This company has a current price and market value, but this certified release has no eligible financial statement or ratio values. The blanks below are data coverage gaps.</p>
+        <div class="data-provenance-strip" style="display:flex;flex-wrap:wrap;gap:6px 16px;margin:8px 0 14px;padding:10px 14px;border:1px solid var(--border);border-radius:10px;background:var(--surface-elevated);font-size:.78rem;line-height:1.45;color:var(--text-secondary);">
+            <span class="prov-item"><strong style="color:var(--text-primary);font-weight:650;">Market Price:</strong> ₹553.00 (16 Oct 2026)</span>
+            <span class="prov-divider" style="color:var(--text-muted);">&middot;</span>
+            <span class="prov-item"><strong style="color:var(--text-primary);font-weight:650;">Financials:</strong> 2024-09-30 &middot; CONSOLIDATED</span>
+        </div>
 
         <!-- Key Snapshot -->
         <section class="grid-cards" aria-label="Key Snapshot">
@@ -614,7 +621,7 @@
             <div class="trust-grid">
                 <div class="trust-item">
                     <strong>Price Session</strong>
-                    <span>2026-10-09</span>
+                    <span>2026-10-16</span>
                 </div>
                 <div class="trust-item">
                     <strong>Earnings Period</strong>
@@ -632,14 +639,287 @@
         </section>
     </main>
 
-    <footer>
-        <p>© Stockerboard. Factual financial information derived from certified exchange filings. Not investment advice.</p>
-        <div style="margin-top: 8px;">
-            <a href="/" style="color: var(--text-secondary); text-decoration: none; margin: 0 10px;">Screener</a>
-            <a href="/stocks/" style="color: var(--text-secondary); text-decoration: none; margin: 0 10px;">Stocks</a>
-            <a href="/?mode=pro" style="color: var(--text-secondary); text-decoration: none; margin: 0 10px;">Pro</a>
+    <!-- Stockerboard Global Footer Component (Single Source of Truth) -->
+<footer class="sb-global-footer" id="sbGlobalFooter">
+    <div class="sb-footer-container">
+        <div class="sb-footer-main">
+            <!-- Brand & Contact Column -->
+            <div class="sb-footer-brand">
+                <a href="/" class="sb-footer-logo" title="Stockerboard Home">
+                    <span class="sb-footer-logo-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <rect x="3" y="12" width="4" height="9" rx="1.5" fill="#3B82F6"/>
+                            <rect x="10" y="7" width="4" height="14" rx="1.5" fill="#15803D"/>
+                            <rect x="17" y="3" width="4" height="18" rx="1.5" fill="#16A34A"/>
+                        </svg>
+                    </span>
+                    <span class="sb-footer-logo-text">Stockerboard</span>
+                </a>
+                <p class="sb-footer-tagline">Understand before you invest.</p>
+                <div class="sb-footer-contact">
+                    <a href="mailto:community@stockerboard.com" class="sb-footer-email" aria-label="Email Stockerboard Community">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <rect x="2" y="4" width="20" height="16" rx="2"/>
+                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                        </svg>
+                        <span>community@stockerboard.com</span>
+                    </a>
+                </div>
+                <!-- Social Channels (Only channels with verified official profiles are shown) -->
+                <div class="sb-footer-socials" id="sbFooterSocials">
+                    <!-- Configured channels render here. Unconfigured channels remain omitted. -->
+                </div>
+            </div>
+
+            <!-- Navigation Links Columns -->
+            <div class="sb-footer-nav-grid">
+                <!-- PRODUCT -->
+                <div class="sb-footer-col">
+                    <h4 class="sb-footer-heading">PRODUCT</h4>
+                    <ul class="sb-footer-links">
+                        <li><a href="/">Screener</a></li>
+                        <li><a href="/stocks/">Companies</a></li>
+                    </ul>
+                </div>
+
+                <!-- LEARN -->
+                <div class="sb-footer-col">
+                    <h4 class="sb-footer-heading">LEARN</h4>
+                    <ul class="sb-footer-links">
+                        <li><a href="/methodology/">Methodology</a></li>
+                        <li><a href="/data-sources/">Data Sources</a></li>
+                    </ul>
+                </div>
+
+                <!-- COMPANY -->
+                <div class="sb-footer-col">
+                    <h4 class="sb-footer-heading">COMPANY</h4>
+                    <ul class="sb-footer-links">
+                        <li><a href="/about/">About</a></li>
+                        <li><a href="/contact/">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- LEGAL -->
+                <div class="sb-footer-col">
+                    <h4 class="sb-footer-heading">LEGAL</h4>
+                    <ul class="sb-footer-links">
+                        <li><a href="/disclaimer/">Disclaimer</a></li>
+                        <li><a href="/privacy/">Privacy</a></li>
+                        <li><a href="/terms/">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </footer>
+
+        <!-- Sub-Footer / Copyright Row -->
+        <div class="sb-footer-bottom">
+            <span class="sb-footer-sub-tagline">Stockerboard — Understand before you invest.</span>
+            <span class="sb-footer-copyright">© 2026 Stockerboard. All rights reserved.</span>
+        </div>
+    </div>
+</footer>
+
+<style>
+/* Stockerboard Global Footer Styles */
+.sb-global-footer {
+    width: 100%;
+    margin-top: 64px;
+    border-top: 1px solid var(--border-subtle, #E2E8F0);
+    background: transparent;
+    color: var(--text-primary, #0F172A);
+    font-family: var(--font-sans, 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif);
+    font-size: 0.88rem;
+    line-height: 1.5;
+    transition: border-color 0.2s ease;
+}
+
+.sb-footer-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 48px 24px 32px 24px;
+}
+
+.sb-footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 48px;
+    margin-bottom: 36px;
+    flex-wrap: wrap;
+}
+
+/* Brand Area */
+.sb-footer-brand {
+    flex: 1 1 280px;
+    max-width: 360px;
+}
+
+.sb-footer-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--text-primary, #0F172A);
+    margin-bottom: 8px;
+}
+
+.sb-footer-logo-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sb-footer-logo-text {
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: var(--text-primary, #0F172A);
+}
+
+.sb-footer-tagline {
+    font-size: 0.875rem;
+    color: var(--text-secondary, #475569);
+    margin-bottom: 14px;
+    line-height: 1.4;
+}
+
+.sb-footer-contact {
+    margin-bottom: 16px;
+}
+
+.sb-footer-email {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-secondary, #475569);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: color 0.15s ease;
+}
+
+.sb-footer-email:hover {
+    color: var(--brand-green, #15803D);
+}
+
+.sb-footer-socials {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 14px;
+}
+
+.sb-footer-social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted, #94A3B8);
+    transition: color 0.15s ease, transform 0.15s ease;
+    text-decoration: none;
+}
+
+.sb-footer-social-link:hover {
+    color: var(--brand-green, #15803D);
+    transform: translateY(-1px);
+}
+
+/* Navigation Columns */
+.sb-footer-nav-grid {
+    display: flex;
+    gap: 56px;
+    flex: 2 1 540px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.sb-footer-col {
+    min-width: 100px;
+}
+
+.sb-footer-heading {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted, #94A3B8);
+    margin-bottom: 14px;
+}
+
+.sb-footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sb-footer-links a {
+    color: var(--text-secondary, #475569);
+    text-decoration: none;
+    font-size: 0.86rem;
+    font-weight: 500;
+    transition: color 0.15s ease;
+}
+
+.sb-footer-links a:hover {
+    color: var(--brand-green, #15803D);
+}
+
+/* Sub-Footer Row */
+.sb-footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    border-top: 1px solid var(--border-subtle, #E2E8F0);
+    font-size: 0.81rem;
+    color: var(--text-muted, #94A3B8);
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.sb-footer-sub-tagline {
+    font-weight: 500;
+    color: var(--text-secondary, #475569);
+}
+
+.sb-footer-copyright {
+    color: var(--text-muted, #94A3B8);
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+    .sb-footer-container {
+        padding: 40px 20px 24px 20px;
+    }
+    .sb-footer-main {
+        flex-direction: column;
+        gap: 32px;
+    }
+    .sb-footer-nav-grid {
+        justify-content: space-between;
+        width: 100%;
+        gap: 32px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sb-footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sb-footer-nav-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+}
+</style>
+
 
     <script>
         function toggleTheme() {
@@ -653,6 +933,21 @@
             const saved = localStorage.getItem('stockerboard_theme');
             if (saved) document.documentElement.setAttribute('data-theme', saved);
         })();
+        // Keep the market quote current independently of the certified financial cohort.
+        fetch('/stocks/market_universe_index_v1.json', {cache: 'no-cache'})
+            .then(response => { if (!response.ok) throw new Error('Market index unavailable'); return response.json(); })
+            .then(data => {
+                const row = data.stocks?.find(item => item[0] === 'HDFCLIFE');
+                const dateEl = document.getElementById('companyMarketDate');
+                if (!row || !Number.isFinite(row[2]) || !row[6] || row[6] <= dateEl.dataset.asOf) return;
+                document.getElementById('companyMarketPrice').textContent = '₹' + row[2].toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+                dateEl.textContent = 'Price as of ' + new Date(row[6] + 'T00:00:00').toLocaleDateString('en-IN', {day: 'numeric', month: 'short', year: 'numeric'});
+                dateEl.dataset.asOf = row[6];
+                const rangeStatus = document.querySelector('.hero-range-heading span:last-child');
+                if (rangeStatus) rangeStatus.textContent = 'Earlier range snapshot';
+                const rangeNote = document.querySelector('.hero-range-note');
+                if (rangeNote && !rangeNote.textContent.includes('Latest price shown above')) rangeNote.textContent += ' · Latest price shown above; range position is from the earlier snapshot.';
+            }).catch(() => {});
     </script>
 </body>
 </html>

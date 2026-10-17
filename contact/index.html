@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Stockerboard</title>
+    <meta name="description" content="Found incorrect data? Have a product suggestion? Something difficult to understand? Contact Stockerboard at community@stockerboard.com.">
+    <link rel="canonical" href="https://stockerboard.com/contact/">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Stockerboard">
+    <meta property="og:title" content="Contact | Stockerboard">
+    <meta property="og:description" content="Found incorrect data? Have a product suggestion? Something difficult to understand? Contact Stockerboard at community@stockerboard.com.">
+    <meta property="og:url" content="https://stockerboard.com/contact/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Contact | Stockerboard">
+    <meta name="twitter:description" content="Found incorrect data? Have a product suggestion? Something difficult to understand? Contact Stockerboard at community@stockerboard.com.">
+    
+    <!-- Structured Data Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Contact",
+      "url": "https://stockerboard.com/contact/",
+      "description": "Found incorrect data? Have a product suggestion? Something difficult to understand? Contact Stockerboard at community@stockerboard.com.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Stockerboard",
+        "url": "https://stockerboard.com/",
+        "logo": "https://stockerboard.com/favicon.svg",
+        "email": "community@stockerboard.com"
+      }
+    }
+    </script>
+
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Anti-flicker Theme Initializer -->
+    <script>
+        (function() {
+            try {
+                const savedTheme = localStorage.getItem('stockerboard_theme');
+                const theme = savedTheme ? savedTheme : 'light';
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch(e) {}
+        })();
+    </script>
+
+    <!-- Google Analytics 4 (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-STOCKERBOARD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-STOCKERBOARD', { send_page_view: true });
+    </script>
+
+    <style>
+        :root {
+            --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+            --brand-green: #15803D;
+            --brand-green-hover: #166534;
+            --brand-green-light: #16A34A;
+            --accent-emerald: #16A34A;
+            --accent-coral: #F43F5E;
+            --transition-smooth: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        [data-theme="dark"] {
+            --bg-primary: #080C14;
+            --bg-surface: #0E1420;
+            --bg-surface-elevated: #151D2C;
+            --border-subtle: rgba(255, 255, 255, 0.08);
+            --border-card: rgba(255, 255, 255, 0.06);
+            --text-primary: #F8FAFC;
+            --text-secondary: #94A3B8;
+            --text-muted: #64748B;
+            --card-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+            --theme-toggle-bg: #151D2C;
+            --theme-toggle-border: rgba(255, 255, 255, 0.14);
+        }
+
+        [data-theme="light"] {
+            --bg-primary: #FCFDFD;
+            --bg-surface: #FFFFFF;
+            --bg-surface-elevated: #F8FAFC;
+            --border-subtle: #E2E8F0;
+            --border-card: #E5E7EB;
+            --text-primary: #0F172A;
+            --text-secondary: #475569;
+            --text-muted: #94A3B8;
+            --card-shadow: 0 1px 3px rgba(15, 23, 42, 0.03), 0 10px 25px -5px rgba(15, 23, 42, 0.05);
+            --theme-toggle-bg: #FFFFFF;
+            --theme-toggle-border: #CBD5E1;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background-color: var(--bg-primary);
+            background-image: 
+                radial-gradient(circle at 12% 18%, rgba(22, 163, 74, 0.05) 0%, transparent 45%),
+                radial-gradient(circle at 88% 82%, rgba(244, 63, 94, 0.03) 0%, transparent 45%);
+            background-attachment: fixed;
+            color: var(--text-primary);
+            font-family: var(--font-sans);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+
+        .page-wrapper {
+            max-width: 1240px;
+            margin: 0 auto;
+            padding: 28px 24px 60px 24px;
+        }
+
+        /* Header Navigation */
+        .top-nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border-subtle);
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .brand-unit {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: var(--text-primary);
+        }
+
+        .brand-emblem {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            background: linear-gradient(135deg, #15803D, #16A34A);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .brand-name {
+            font-size: 1.15rem;
+            font-weight: 800;
+            letter-spacing: -0.01em;
+            color: var(--text-primary);
+        }
+
+        .header-nav-links {
+            display: inline-flex;
+            align-items: center;
+            gap: 24px;
+            margin-left: 32px;
+            margin-right: auto;
+        }
+
+        .header-nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.92rem;
+            font-weight: 500;
+            transition: color 0.15s ease;
+        }
+
+        .header-nav-links a:hover,
+        .header-nav-links a.active {
+            color: var(--brand-green);
+        }
+
+        .nav-right-controls {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .theme-toggle-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            background: var(--theme-toggle-bg);
+            color: var(--text-primary);
+            border: 1px solid var(--theme-toggle-border);
+            border-radius: 9999px;
+            padding: 6px 14px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            user-select: none;
+        }
+
+        .theme-toggle-btn:hover {
+            border-color: var(--brand-green);
+            transform: translateY(-1px);
+        }
+
+        .btn-home-return {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--bg-surface-elevated);
+            color: var(--text-primary);
+            border: 1px solid var(--border-subtle);
+            border-radius: 9999px;
+            padding: 6px 14px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            text-decoration: none;
+            transition: var(--transition-smooth);
+        }
+
+        .btn-home-return:hover {
+            border-color: var(--brand-green);
+            color: var(--brand-green);
+        }
+
+        /* Breadcrumb Navigation */
+        .breadcrumb-nav {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            margin-bottom: 24px;
+        }
+
+        .breadcrumb-nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.15s ease;
+        }
+
+        .breadcrumb-nav a:hover {
+            color: var(--brand-green);
+        }
+
+        .breadcrumb-sep {
+            color: var(--text-muted);
+            font-size: 0.75rem;
+        }
+
+        /* Informational Reading Container */
+        .content-container {
+            max-width: 860px;
+            margin: 0 auto;
+        }
+
+        .page-header {
+            margin-bottom: 36px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .page-eyebrow {
+            display: inline-block;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--brand-green);
+            margin-bottom: 8px;
+        }
+
+        .page-title {
+            font-size: 2.1rem;
+            font-weight: 800;
+            line-height: 1.25;
+            letter-spacing: -0.02em;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+        }
+
+        .page-summary {
+            font-size: 1.05rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 16px;
+        }
+
+        .page-meta-row {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        /* Typography & Content Formatting */
+        .prose {
+            color: var(--text-primary);
+            font-size: 0.98rem;
+            line-height: 1.7;
+        }
+
+        .prose h2 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+            color: var(--text-primary);
+            margin: 36px 0 14px 0;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .prose h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin: 24px 0 10px 0;
+        }
+
+        .prose p {
+            margin-bottom: 18px;
+            color: var(--text-secondary);
+        }
+
+        .prose ul, .prose ol {
+            margin: 0 0 20px 24px;
+            color: var(--text-secondary);
+        }
+
+        .prose li {
+            margin-bottom: 8px;
+        }
+
+        .prose strong {
+            color: var(--text-primary);
+        }
+
+        .prose code {
+            font-family: var(--font-mono);
+            font-size: 0.88em;
+            background: var(--bg-surface-elevated);
+            border: 1px solid var(--border-subtle);
+            border-radius: 4px;
+            padding: 2px 6px;
+            color: var(--text-primary);
+        }
+
+        /* Metric & Detail Cards */
+        .metric-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 22px 24px;
+            margin-bottom: 22px;
+            box-shadow: var(--card-shadow);
+        }
+
+        .metric-header {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .metric-title {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .metric-badge {
+            font-size: 0.72rem;
+            font-weight: 700;
+            padding: 3px 10px;
+            border-radius: 9999px;
+            background: rgba(22, 163, 74, 0.1);
+            color: var(--brand-green);
+            border: 1px solid rgba(22, 163, 74, 0.2);
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+
+        .metric-formula {
+            background: var(--bg-surface-elevated);
+            border-left: 3px solid var(--brand-green);
+            border-radius: 0 6px 6px 0;
+            padding: 10px 14px;
+            font-family: var(--font-mono);
+            font-size: 0.86rem;
+            color: var(--text-primary);
+            margin: 12px 0;
+            overflow-x: auto;
+        }
+
+        /* Info Alert Callouts */
+        .info-callout {
+            background: rgba(59, 130, 246, 0.05);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            border-radius: 10px;
+            padding: 16px 20px;
+            margin: 22px 0;
+            font-size: 0.92rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .info-callout strong {
+            color: var(--text-primary);
+        }
+
+        /* Tables */
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+            margin: 24px 0;
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.88rem;
+            text-align: left;
+        }
+
+        .data-table th {
+            background: var(--bg-surface-elevated);
+            padding: 12px 16px;
+            font-weight: 700;
+            color: var(--text-primary);
+            border-bottom: 1px solid var(--border-subtle);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+
+        .data-table td {
+            padding: 14px 16px;
+            border-bottom: 1px solid var(--border-subtle);
+            color: var(--text-secondary);
+        }
+
+        .data-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        @media (max-width: 768px) {
+            .page-title {
+                font-size: 1.7rem;
+            }
+            .header-nav-links {
+                display: none;
+            }
+            .metric-card {
+                padding: 16px 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page-wrapper">
+        <!-- Header -->
+        <header>
+            <nav class="top-nav" aria-label="Global Navigation">
+                <a href="/" class="brand-unit" title="Return to Stockerboard Home">
+                    <div class="brand-emblem">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                            <path d="M3 17L9 11L13 15L21 7" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M15 7H21V13" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <span class="brand-name">STOCKERBOARD</span>
+                </a>
+
+                <div class="header-nav-links">
+                    <a href="/">Home</a>
+                    <a href="/stocks/">Stocks</a>
+                    <a href="/learn/">Learn</a>
+                    <a href="/?mode=pro">Pro research</a>
+                </div>
+
+                <div class="nav-right-controls">
+                    <button class="theme-toggle-btn" id="themeToggleBtn" onclick="toggleTheme()" title="Toggle Light/Dark Theme">
+                        <span id="themeToggleIcon">🌙</span>
+                        <span id="themeToggleText">Theme</span>
+                    </button>
+                    <a href="/" class="btn-home-return">← Back to Screener</a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Main Reading Container -->
+        <main class="content-container">
+            <!-- Breadcrumbs -->
+            <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+                <a href="/">Home</a>
+                <span class="breadcrumb-sep">/</span>
+                <span>Company</span>
+                <span class="breadcrumb-sep">/</span>
+                <span aria-current="page">Contact</span>
+            </nav>
+
+            <!-- Page Header -->
+            <header class="page-header">
+                <span class="page-eyebrow">GET IN TOUCH</span>
+                <h1 class="page-title">Talk to Stockerboard</h1>
+                <p class="page-summary">We actively welcome user feedback, bug reports, and data audit queries. Connect directly with the Stockerboard research and engineering maintainers.</p>
+                <div class="page-meta-row">
+                    <span>Effective: October 2026</span>
+                    <span>•</span>
+                    <span>Stockerboard Trust &amp; Transparency Architecture</span>
+                </div>
+            </header>
+
+            <!-- Prose Content -->
+            <article class="prose">
+                
+<h2>Direct Community Contact</h2>
+<p>
+    Whether you discovered an anomaly in our data tables, have a suggestion for improving interface clarity, or have a question regarding our calculation methodology, we want to hear from you.
+</p>
+
+<div class="metric-card" style="margin-top: 24px;">
+    <div class="metric-header">
+        <span class="metric-title">Primary Contact Email</span>
+        <span class="metric-badge">Official Communication</span>
+    </div>
+    <p style="font-size: 1.15rem; font-weight: 700; margin: 12px 0;">
+        <a href="mailto:community@stockerboard.com" style="color: var(--brand-green); text-decoration: none;">
+            ✉ community@stockerboard.com
+        </a>
+    </p>
+    <p style="color: var(--text-secondary); margin: 0;">
+        Emails are monitored and reviewed directly by our engineering and product development maintainers.
+    </p>
+</div>
+
+<h2>How to Categorize Your Email</h2>
+<p>To help us address your note quickly, please include one of the following topics in your subject line:</p>
+
+<h3>1. Data Correction / Audit Query</h3>
+<p>
+    If you spot an unexpected figure, missing corporate action, or reporting-date discrepancy:
+</p>
+<ul>
+    <li>Mention the NSE trading symbol (e.g. <code>RELIANCE</code>, <code>TCS</code>).</li>
+    <li>Specify the metric in question (e.g., P/E, 52-Week Range, Market Cap).</li>
+    <li>Provide any reference corporate filing link or exchange notice if available.</li>
+</ul>
+
+<h3>2. Product Feedback &amp; Suggestions</h3>
+<p>
+    Have an idea to make financial exploration clearer? We appreciate feedback on screener controls, mobile usability, table navigation, and educational explainers.
+</p>
+
+<h3>3. General Inquiries</h3>
+<p>
+    For technical inquiries, collaboration, or questions about our platform architecture.
+</p>
+
+            </article>
+        </main>
+
+        <!-- Global Reusable Footer Partial Injection -->
+        <!-- Stockerboard Global Footer Component (Single Source of Truth) -->
+<footer class="sb-global-footer" id="sbGlobalFooter">
+    <div class="sb-footer-container">
+        <div class="sb-footer-main">
+            <!-- Brand & Contact Column -->
+            <div class="sb-footer-brand">
+                <a href="/" class="sb-footer-logo" title="Stockerboard Home">
+                    <span class="sb-footer-logo-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <rect x="3" y="12" width="4" height="9" rx="1.5" fill="#3B82F6"/>
+                            <rect x="10" y="7" width="4" height="14" rx="1.5" fill="#15803D"/>
+                            <rect x="17" y="3" width="4" height="18" rx="1.5" fill="#16A34A"/>
+                        </svg>
+                    </span>
+                    <span class="sb-footer-logo-text">Stockerboard</span>
+                </a>
+                <p class="sb-footer-tagline">Understand before you invest.</p>
+                <div class="sb-footer-contact">
+                    <a href="mailto:community@stockerboard.com" class="sb-footer-email" aria-label="Email Stockerboard Community">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <rect x="2" y="4" width="20" height="16" rx="2"/>
+                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                        </svg>
+                        <span>community@stockerboard.com</span>
+                    </a>
+                </div>
+                <!-- Social Channels (Only channels with verified official profiles are shown) -->
+                <div class="sb-footer-socials" id="sbFooterSocials">
+                    <!-- Configured channels render here. Unconfigured channels remain omitted. -->
+                </div>
+            </div>
+
+            <!-- Navigation Links Columns -->
+            <div class="sb-footer-nav-grid">
+                <!-- PRODUCT -->
+                <div class="sb-footer-col">
+                    <h4 class="sb-footer-heading">PRODUCT</h4>
+                    <ul class="sb-footer-links">
+                        <li><a href="/">Screener</a></li>
+                        <li><a href="/stocks/">Companies</a></li>
+                    </ul>
+                </div>
+
+                <!-- LEARN -->
+                <div class="sb-footer-col">
+                    <h4 class="sb-footer-heading">LEARN</h4>
+                    <ul class="sb-footer-links">
+                        <li><a href="/methodology/">Methodology</a></li>
+                        <li><a href="/data-sources/">Data Sources</a></li>
+                    </ul>
+                </div>
+
+                <!-- COMPANY -->
+                <div class="sb-footer-col">
+                    <h4 class="sb-footer-heading">COMPANY</h4>
+                    <ul class="sb-footer-links">
+                        <li><a href="/about/">About</a></li>
+                        <li><a href="/contact/">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- LEGAL -->
+                <div class="sb-footer-col">
+                    <h4 class="sb-footer-heading">LEGAL</h4>
+                    <ul class="sb-footer-links">
+                        <li><a href="/disclaimer/">Disclaimer</a></li>
+                        <li><a href="/privacy/">Privacy</a></li>
+                        <li><a href="/terms/">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sub-Footer / Copyright Row -->
+        <div class="sb-footer-bottom">
+            <span class="sb-footer-sub-tagline">Stockerboard — Understand before you invest.</span>
+            <span class="sb-footer-copyright">© 2026 Stockerboard. All rights reserved.</span>
+        </div>
+    </div>
+</footer>
+
+<style>
+/* Stockerboard Global Footer Styles */
+.sb-global-footer {
+    width: 100%;
+    margin-top: 64px;
+    border-top: 1px solid var(--border-subtle, #E2E8F0);
+    background: transparent;
+    color: var(--text-primary, #0F172A);
+    font-family: var(--font-sans, 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif);
+    font-size: 0.88rem;
+    line-height: 1.5;
+    transition: border-color 0.2s ease;
+}
+
+.sb-footer-container {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 48px 24px 32px 24px;
+}
+
+.sb-footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 48px;
+    margin-bottom: 36px;
+    flex-wrap: wrap;
+}
+
+/* Brand Area */
+.sb-footer-brand {
+    flex: 1 1 280px;
+    max-width: 360px;
+}
+
+.sb-footer-logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--text-primary, #0F172A);
+    margin-bottom: 8px;
+}
+
+.sb-footer-logo-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sb-footer-logo-text {
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: var(--text-primary, #0F172A);
+}
+
+.sb-footer-tagline {
+    font-size: 0.875rem;
+    color: var(--text-secondary, #475569);
+    margin-bottom: 14px;
+    line-height: 1.4;
+}
+
+.sb-footer-contact {
+    margin-bottom: 16px;
+}
+
+.sb-footer-email {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-secondary, #475569);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: color 0.15s ease;
+}
+
+.sb-footer-email:hover {
+    color: var(--brand-green, #15803D);
+}
+
+.sb-footer-socials {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 14px;
+}
+
+.sb-footer-social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted, #94A3B8);
+    transition: color 0.15s ease, transform 0.15s ease;
+    text-decoration: none;
+}
+
+.sb-footer-social-link:hover {
+    color: var(--brand-green, #15803D);
+    transform: translateY(-1px);
+}
+
+/* Navigation Columns */
+.sb-footer-nav-grid {
+    display: flex;
+    gap: 56px;
+    flex: 2 1 540px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.sb-footer-col {
+    min-width: 100px;
+}
+
+.sb-footer-heading {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted, #94A3B8);
+    margin-bottom: 14px;
+}
+
+.sb-footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sb-footer-links a {
+    color: var(--text-secondary, #475569);
+    text-decoration: none;
+    font-size: 0.86rem;
+    font-weight: 500;
+    transition: color 0.15s ease;
+}
+
+.sb-footer-links a:hover {
+    color: var(--brand-green, #15803D);
+}
+
+/* Sub-Footer Row */
+.sb-footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    border-top: 1px solid var(--border-subtle, #E2E8F0);
+    font-size: 0.81rem;
+    color: var(--text-muted, #94A3B8);
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.sb-footer-sub-tagline {
+    font-weight: 500;
+    color: var(--text-secondary, #475569);
+}
+
+.sb-footer-copyright {
+    color: var(--text-muted, #94A3B8);
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+    .sb-footer-container {
+        padding: 40px 20px 24px 20px;
+    }
+    .sb-footer-main {
+        flex-direction: column;
+        gap: 32px;
+    }
+    .sb-footer-nav-grid {
+        justify-content: space-between;
+        width: 100%;
+        gap: 32px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sb-footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sb-footer-nav-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+}
+</style>
+
+    </div>
+
+    <!-- Theme Toggle Script -->
+    <script>
+        function toggleTheme() {
+            const html = document.documentElement;
+            const current = html.getAttribute('data-theme') || 'light';
+            const next = current === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', next);
+            try {
+                localStorage.setItem('stockerboard_theme', next);
+            } catch(e) {}
+            syncThemeIcon(next);
+        }
+
+        function syncThemeIcon(theme) {
+            const icon = document.getElementById('themeToggleIcon');
+            const text = document.getElementById('themeToggleText');
+            if (icon && text) {
+                if (theme === 'dark') {
+                    icon.textContent = '☀️';
+                    text.textContent = 'Light';
+                } else {
+                    icon.textContent = '🌙';
+                    text.textContent = 'Dark';
+                }
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const current = document.documentElement.getAttribute('data-theme') || 'light';
+            syncThemeIcon(current);
+        });
+    </script>
+</body>
+</html>

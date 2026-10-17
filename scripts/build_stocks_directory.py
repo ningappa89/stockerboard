@@ -23,6 +23,7 @@ TEMPLATES_DIR = ROOT / "templates"
 TEMPLATE_PATH = TEMPLATES_DIR / "stocks-directory.html"
 SLUG_REGISTRY_PATH = ROOT / "company_slug_registry_v1.json"
 TARGET_HTML_PATH = STOCKS_DIR / "index.html"
+FOOTER_PATH = TEMPLATES_DIR / "partials" / "footer.html"
 DIRECTORY_VIEW_MODEL_PATH = STOCKS_DIR / "stocks_directory_v1.json"
 MARKET_UNIVERSE_INDEX_PATH = STOCKS_DIR / "market_universe_index_v1.json"
 
@@ -43,7 +44,8 @@ def format_mcap(val: float | int | None) -> str:
     return f"Market Cap ₹{val:,.2f} Cr"
 
 
-def build_directory_entry(comp_meta: dict, dossier: dict, u_map: dict) -> dict:
+def build_directory_entry(comp_meta: dict, dossier: dict, u_map: dict,
+                          market_row: list | None = None) -> dict:
     sym = comp_meta["symbol"]
     slug = comp_meta["canonical_slug"]
     name = comp_meta["display_name"]
@@ -53,6 +55,9 @@ def build_directory_entry(comp_meta: dict, dossier: dict, u_map: dict) -> dict:
     price_obj = dossier.get("price") or {}
     price_val = price_obj.get("value") or price_obj.get("close") or dossier.get("cmp")
     price_as_of = price_obj.get("as_of") or dossier.get("price_as_of")
+    if market_row and len(market_row) > 6 and market_row[6] and market_row[6] >= str(price_as_of or ""):
+        price_val = market_row[2]
+        price_as_of = market_row[6]
 
     # Sector
     sector = u_map.get(sym, {}).get("sector") or dossier.get("sector") or "Sector unavailable"
@@ -92,7 +97,7 @@ def build_directory_entry(comp_meta: dict, dossier: dict, u_map: dict) -> dict:
 
 def render_card_html(entry: dict) -> str:
     escaped = {key: html.escape(str(value), quote=True) for key, value in entry.items()}
-    return f"""            <a href="/stocks/{escaped['canonical_slug']}/" class="dir-card">
+    return f"""            <a href="/stocks/{escaped['canonical_slug']}/" class="dir-card" data-symbol="{escaped['symbol']}">
                 <div class="dir-info">
                     <div class="dir-name-row">
                         <span class="dir-name">{escaped['company_name']}</span>
@@ -130,6 +135,7 @@ def build_directory(check_only: bool = False, universe_path: Path | None = None,
     universe_rows = u_data["stocks"]
     if len(universe_rows) != u_data["count"] or len({row[0] for row in universe_rows}) != u_data["count"]:
         raise ValueError("Canonical universe count or symbols are inconsistent")
+    market_rows = {row[0]: row for row in universe_rows}
     for row in universe_rows:
         if len(row) > 5 and row[5]:
             u_map[row[0]] = {"sector": row[5]}
@@ -142,7 +148,7 @@ def build_directory(check_only: bool = False, universe_path: Path | None = None,
         if not dossier_file.exists():
             raise FileNotFoundError(f"Missing dossier for {sym}: {dossier_file}")
         dossier = json.loads(dossier_file.read_text(encoding="utf-8"))
-        entry = build_directory_entry(comp, dossier, u_map)
+        entry = build_directory_entry(comp, dossier, u_map, market_rows.get(sym))
         entries.append(entry)
 
     # Deterministic alphabetical ordering by company_name
@@ -163,6 +169,8 @@ def build_directory(check_only: bool = False, universe_path: Path | None = None,
                                       "price": e["price"], "price_as_of": e["price_as_of"]} for e in entries}
     html_content = html_content.replace("{{ featured_routes_json }}", json.dumps(featured_routes, ensure_ascii=False, sort_keys=True).replace("<", "\\u003c"))
     html_content = html_content.replace("{{ directory_cards }}", cards_html)
+    footer_str = FOOTER_PATH.read_text(encoding="utf-8") if FOOTER_PATH.exists() else ""
+    html_content = html_content.replace("{{ footer_html }}", footer_str)
 
     # Standardize LF endings and UTF-8
     html_bytes = html_content.replace("\r\n", "\n").encode("utf-8")

@@ -23,6 +23,7 @@ TEMPLATES_DIR = ROOT / "templates"
 TEMPLATE_PATH = TEMPLATES_DIR / "company-page.html"
 SLUG_REGISTRY_PATH = ROOT / "company_slug_registry_v1.json"
 SITEMAP_PATH = ROOT / "sitemap.xml"
+FOOTER_PATH = TEMPLATES_DIR / "partials" / "footer.html"
 
 
 def format_date_str(date_str: str | None) -> str:
@@ -280,6 +281,13 @@ def generate_pilot_pages(check_only: bool = False, *, stocks_dir: Path = STOCKS_
     if len(pilot_companies) != 20:
         raise ValueError(f"Expected 20 pilot companies, found {len(pilot_companies)}")
     price_range_index = json.loads((stocks_dir / "price_range_index_v1.json").read_text(encoding="utf-8"))
+    market_index_path = stocks_dir / "market_universe_index_v1.json"
+    market_rows = {}
+    if market_index_path.exists():
+        market_index = json.loads(market_index_path.read_text(encoding="utf-8"))
+        if len(market_index.get("stocks", [])) != market_index.get("count"):
+            raise ValueError("Market universe index count mismatch")
+        market_rows = {row[0]: row for row in market_index["stocks"]}
     public_manifest = json.loads((stocks_dir / "manifest.json").read_text(encoding="utf-8"))
     dossier_release_id = public_manifest["source_dossier_release_id"]
     if price_range_index.get("contract") != "PRICE_RANGE_INDEX_V1" or price_range_index.get("dossier_release_id") != dossier_release_id:
@@ -297,8 +305,27 @@ def generate_pilot_pages(check_only: bool = False, *, stocks_dir: Path = STOCKS_
         except Exception:
             pass
 
+    learn_concepts_dir = ROOT / "content" / "learn" / "concepts"
+    learn_concept_urls = [
+        f"https://stockerboard.com/learn/{p.stem}/"
+        for p in sorted(learn_concepts_dir.glob("*.json"))
+    ] if learn_concepts_dir.exists() else []
+
+    canonical_urls = [
+        "https://stockerboard.com/",
+        "https://stockerboard.com/stocks/",
+        "https://stockerboard.com/learn/",
+        *learn_concept_urls,
+        "https://stockerboard.com/methodology/",
+        "https://stockerboard.com/data-sources/",
+        "https://stockerboard.com/about/",
+        "https://stockerboard.com/contact/",
+        "https://stockerboard.com/disclaimer/",
+        "https://stockerboard.com/privacy/",
+        "https://stockerboard.com/terms/",
+    ]
+    footer_str = FOOTER_PATH.read_text(encoding="utf-8") if FOOTER_PATH.exists() else ""
     manifest_entries = []
-    canonical_urls = ["https://stockerboard.com/", "https://stockerboard.com/stocks/"]
 
     for comp in pilot_companies:
         sym = comp["symbol"]
@@ -316,6 +343,19 @@ def generate_pilot_pages(check_only: bool = False, *, stocks_dir: Path = STOCKS_
             abs(range_row.get("reference_close", 0) - (price.get("close") or 0)) > 0.011):
             raise ValueError(f"Price range does not match dossier price for {sym}")
         vm = build_view_model(comp, dossier, u_map=u_map, range_row=range_row)
+        vm["footer_html"] = footer_str
+        market_row = market_rows.get(sym)
+        if market_row and len(market_row) > 6 and market_row[6] and market_row[6] >= str(vm["price"]["as_of"] or ""):
+            vm["price"].update(value=market_row[2], as_of=market_row[6],
+                               formatted_value=format_currency(market_row[2]),
+                               formatted_date=format_date_str(market_row[6]))
+            vm["freshness"]["price_as_of"] = market_row[6]
+            if market_row[6] != range_row["price_as_of"]:
+                vm["market_range"]["distance"] = "Earlier range snapshot"
+                vm["market_range"]["note"] = (
+                    f"52-week range through {format_date_str(range_row['price_as_of'])}; "
+                    "latest price shown above. Range position reflects the earlier snapshot."
+                )
         html_content = render_template(template_str, vm)
 
         # Enforce LF endings and UTF-8 encoding
@@ -355,9 +395,6 @@ def generate_pilot_pages(check_only: bool = False, *, stocks_dir: Path = STOCKS_
         sitemap_lines.append("  <url>")
         sitemap_lines.append(f"    <loc>{u}</loc>")
         sitemap_lines.append(f"    <lastmod>{today_str}</lastmod>")
-        sitemap_lines.append("    <changefreq>weekly</changefreq>")
-        priority = "1.0" if u == "https://stockerboard.com/" else ("0.9" if u == "https://stockerboard.com/stocks/" else "0.8")
-        sitemap_lines.append(f"    <priority>{priority}</priority>")
         sitemap_lines.append("  </url>")
     sitemap_lines.append("</urlset>\n")
     sitemap_content = "\n".join(sitemap_lines)
