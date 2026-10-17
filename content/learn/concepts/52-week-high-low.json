@@ -62,7 +62,9 @@
         "Inspect Valuation Multiples: Compare current P/E and P/B with historical averages—do not assume 52W low means cheap.",
         "Verify History Basis: Check if the security has full 52-week coverage (200+ sessions) or an available-history basis (new listing).",
         "Confirm Corporate Action Continuity: Ensure historical peaks reflect split/bonus adjustments rather than unadjusted raw trades."
-      ]
+      ],
+      "higher_title": "Near the 52-Week High",
+      "lower_title": "Near the 52-Week Low"
     },
     "common_mistakes": [
       {
@@ -95,11 +97,16 @@
     ],
     "cyclical_nuances": "Distance from 52-Week High (dist_52w) measures drawdown percentage from the highest price: ((CMP - 52W_High) ÷ 52W_High) × 100. In momentum screening, stocks holding within 5% to 15% of their 52-week highs during broader market corrections often exhibit institutional relative strength.",
     "accounting_adjustments": "Price Position vs Intrinsic Valuation: A stock at ₹500 near its 52W high of ₹520 with ₹50 EPS trades at a modest 10x P/E. Meanwhile, another stock at ₹100 near its 52W low of ₹95 with ₹1 EPS trades at an expensive 100x P/E. Price position tells you where price is; financial ratios tell you what you are paying.",
-    "stockme_provenance_note": "Stockerboard sources 52-week price range data from point-in-time-aware StockMe-certified data lineage (PRICE_RANGE_INDEX_V1). The observation window strictly aligns with certified company dossier price dates (e.g. 2026-10-09), ensuring zero mismatch between listed quotes and historical range boundaries."
+    "stockme_provenance_note": "Stockerboard sources 52-week price range data from point-in-time-aware StockMe-certified data lineage (PRICE_RANGE_INDEX_V1). The observation window strictly aligns with certified company dossier price dates (e.g. 2026-10-09), ensuring zero mismatch between listed quotes and historical range boundaries.",
+    "summary_title": "Partial Histories, Corporate Actions & Range Interpretation"
   },
   "metric_binding": {
     "metric_key": "range_52w_position",
-    "sample_symbols": ["INFY", "ALMONDZ", "WAAREEINDO"]
+    "sample_symbols": [
+      "INFY",
+      "ALMONDZ",
+      "WAAREEINDO"
+    ]
   },
   "prerequisites": [
     "what-is-a-stock",

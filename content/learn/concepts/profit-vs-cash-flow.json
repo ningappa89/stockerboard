@@ -65,7 +65,9 @@
         "Compare Multi-Year Cumulative Totals: Over 3 to 5 years, do cumulative operating cash flows roughly track cumulative accounting profits?",
         "Check Reporting Scope Parity: Always compare Standalone Profit with Standalone Cash Flow, or Consolidated Profit with Consolidated Cash Flow—never mix scopes.",
         "Verify Accounting Period: Ensure the cash flow period (FY or TTM) exactly matches the profit reporting period."
-      ]
+      ],
+      "higher_title": "When Cash Flow Exceeds Profit",
+      "lower_title": "When Profit Exceeds Cash Flow"
     },
     "common_mistakes": [
       {
@@ -102,11 +104,16 @@
     ],
     "cyclical_nuances": "Multi-Year Cash Conversion: Persistent divergence between earnings and cash is a critical research signal. If PAT rises from ₹100 Cr → ₹130 Cr → ₹170 Cr over three years while CFO declines from ₹95 Cr → ₹80 Cr → ₹55 Cr, investors must investigate whether customers are delaying payments, inventory is becoming obsolete, or revenue recognition is aggressive.",
     "accounting_adjustments": "Working Capital Dynamics: Receivables increase = cash tied up waiting for customers. Inventory increase = cash tied up in manufactured or purchased goods. Payables increase = cash preserved by delaying supplier payments. None of these movements are universally good or bad—growth requires working capital investment, whereas bloated inventory can precede markdowns.",
-    "stockme_provenance_note": "Stockerboard displays published Net Profit (PAT TTM) from certified FUNDAMENTAL_GOLD_V1 contracts alongside Operating Cash Flow. When official cash flow statements are pending ingestion for the matching period and scope, Stockerboard displays '—' rather than fabricating estimates. Zero is never coerced for missing financial data."
+    "stockme_provenance_note": "Stockerboard displays published Net Profit (PAT TTM) from certified FUNDAMENTAL_GOLD_V1 contracts alongside Operating Cash Flow. When official cash flow statements are pending ingestion for the matching period and scope, Stockerboard displays '—' rather than fabricating estimates. Zero is never coerced for missing financial data.",
+    "summary_title": "Working Capital, Capex & Non-Cash Effects"
   },
   "metric_binding": {
     "metric_key": "profit_vs_cfo",
-    "sample_symbols": ["INFY", "TCS", "ABFRL"]
+    "sample_symbols": [
+      "INFY",
+      "TCS",
+      "ABFRL"
+    ]
   },
   "prerequisites": [
     "what-is-a-stock",

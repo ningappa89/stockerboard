@@ -53,7 +53,9 @@
         "Compare with Direct Peers: Is this P/E higher or lower than competitors operating with similar capital requirements?",
         "Inspect Earnings Trajectory: Are earnings growing consistently, or was the latest profit boosted by a one-off asset sale?",
         "Evaluate Balance Sheet Health: Does high debt threaten future earnings after debt service?"
-      ]
+      ],
+      "higher_title": "When P/E Is Higher",
+      "lower_title": "When P/E Is Lower"
     },
     "common_mistakes": [
       {
@@ -73,11 +75,16 @@
     ],
     "cyclical_nuances": "During commodity booms, steel companies may trade at 5x P/E because the market knows windfall margins cannot last. When commodity prices normalize, earnings collapse and the 'cheap' 5x P/E vanishes.",
     "accounting_adjustments": "Always verify whether the 'E' in P/E includes extraordinary income, government subsidies, or fair-value mark-to-market gains that will not repeat next quarter.",
-    "stockme_provenance_note": "Stockerboard applies point-in-time-aware StockMe-certified data lineage sourced from company financial disclosures. Valuation metrics reflect the exact financial period scope (Consolidated where subsidiaries exist). Missing trailing earnings are never coerced or filled with estimates."
+    "stockme_provenance_note": "Stockerboard applies point-in-time-aware StockMe-certified data lineage sourced from company financial disclosures. Valuation metrics reflect the exact financial period scope (Consolidated where subsidiaries exist). Missing trailing earnings are never coerced or filled with estimates.",
+    "summary_title": "Cyclicals, Negative Earnings & Multiple Nuances"
   },
   "metric_binding": {
     "metric_key": "pe_ratio",
-    "sample_symbols": ["INFY", "TCS", "ABFRL"]
+    "sample_symbols": [
+      "INFY",
+      "TCS",
+      "ABFRL"
+    ]
   },
   "prerequisites": [
     "profit",

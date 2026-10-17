@@ -64,7 +64,9 @@
         "Compare with Current Market Price: Always compute P/E (Price ÷ EPS) to see how much the market is charging for each rupee of earnings.",
         "Inspect Trailing 12-Month (TTM) vs Quarterly: Stockerboard uses TTM EPS (sum of 4 rolling quarters) to smooth out quarterly seasonality.",
         "Verify Accounting Scope: Ensure EPS uses Consolidated earnings when analyzing companies with operating subsidiaries."
-      ]
+      ],
+      "higher_title": "When EPS Rises",
+      "lower_title": "When EPS Falls"
     },
     "common_mistakes": [
       {
@@ -101,11 +103,16 @@
     ],
     "cyclical_nuances": "Cyclical Peak EPS Traps: In cyclical industries (steel, shipping, semiconductors), EPS can surge 500% at the peak of an economic cycle when commodity prices spike. Beginner investors seeing a sudden jump to ₹100 EPS often assume that earnings are permanent, buying right before profits normalize back to ₹20 EPS.",
     "accounting_adjustments": "One-Off Income and Normalized EPS: Reported Net Profit may include non-recurring gains such as selling a subsidiary or property. If a company with normal profit of ₹100 Cr records an ₹80 Cr land sale, reported EPS spikes by 80%. Astute researchers strip out one-time exceptional items to assess sustainable operating earnings.",
-    "stockme_provenance_note": "Conceptually in financial accounting, Basic EPS ≈ Profit attributable to equity holders ÷ Weighted-average equity shares across the reporting period. In Stockerboard's published implementation, Trailing Basic EPS (EPS_BASIC_TTM) is sourced from certified FUNDAMENTAL_GOLD_V1 contracts using the production method: SUM_OF_4_SEQUENTIAL_QUARTERLY_BASIC_EPS (Q1 Basic EPS + Q2 Basic EPS + Q3 Basic EPS + Q4 Basic EPS across four sequential quarters). This published metric serves as the authoritative denominator in Stockerboard's certified Valuation Gold Engine for P/E computation."
+    "stockme_provenance_note": "Conceptually in financial accounting, Basic EPS ≈ Profit attributable to equity holders ÷ Weighted-average equity shares across the reporting period. In Stockerboard's published implementation, Trailing Basic EPS (EPS_BASIC_TTM) is sourced from certified FUNDAMENTAL_GOLD_V1 contracts using the production method: SUM_OF_4_SEQUENTIAL_QUARTERLY_BASIC_EPS (Q1 Basic EPS + Q2 Basic EPS + Q3 Basic EPS + Q4 Basic EPS across four sequential quarters). This published metric serves as the authoritative denominator in Stockerboard's certified Valuation Gold Engine for P/E computation.",
+    "summary_title": "Dilution, Share Changes & EPS Interpretation"
   },
   "metric_binding": {
     "metric_key": "eps_basic_ttm",
-    "sample_symbols": ["INFY", "TCS", "ABFRL"]
+    "sample_symbols": [
+      "INFY",
+      "TCS",
+      "ABFRL"
+    ]
   },
   "prerequisites": [
     "what-is-a-stock",

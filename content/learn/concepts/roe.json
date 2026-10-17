@@ -57,7 +57,9 @@
         "Inspect the Debt Multiplier: Is ROE high because the business is productive, or because high debt has shrunk equity?",
         "Verify Consistency: Has the company sustained this ROE across 3 to 5 years, or was it a one-year windfall?",
         "Compare Sector Economics: Compare software with software, manufacturing with manufacturing. Asset-light firms naturally generate higher ROE than capital-heavy utilities."
-      ]
+      ],
+      "higher_title": "When ROE Is Higher",
+      "lower_title": "When ROE Is Lower"
     },
     "common_mistakes": [
       {
@@ -90,11 +92,16 @@
     ],
     "cyclical_nuances": "DuPont 3-Way Decomposition: ROE = Net Profit Margin (Profit ÷ Revenue) × Asset Turnover (Revenue ÷ Assets) × Financial Leverage (Assets ÷ Equity). This reveals whether ROE is driven by genuine operating profitability, capital velocity, or balance-sheet leverage.",
     "accounting_adjustments": "ROE vs ROCE: While ROE focuses strictly on equity shareholders' capital, ROCE (Return on Capital Employed) evaluates total capital (Equity + Debt). ROCE provides a vital check when a company appears artificially attractive on ROE due to heavy debt leverage.",
-    "stockme_provenance_note": "Stockerboard computes annual ROE from point-in-time-aware StockMe-certified data lineage. It requires certified beginning and ending balance sheets for identical consolidation scope. Standalone and consolidated metrics are never commingled, and missing data is never filled with coerced estimates."
+    "stockme_provenance_note": "Stockerboard computes annual ROE from point-in-time-aware StockMe-certified data lineage. It requires certified beginning and ending balance sheets for identical consolidation scope. Standalone and consolidated metrics are never commingled, and missing data is never filled with coerced estimates.",
+    "summary_title": "Financial Leverage, Negative Equity & ROE Nuances"
   },
   "metric_binding": {
     "metric_key": "roe_percent",
-    "sample_symbols": ["INFY", "TCS", "ALOKINDS"]
+    "sample_symbols": [
+      "INFY",
+      "TCS",
+      "ALOKINDS"
+    ]
   },
   "prerequisites": [
     "profit",

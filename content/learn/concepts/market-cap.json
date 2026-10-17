@@ -62,7 +62,9 @@
         "Market Cap vs Business Financials: Large Market Cap does not mean largest revenue, largest profit, or most assets. Financial statements report quarterly business performance; market prices move every trading day.",
         "Market Cap ≠ Cash in the Bank: A ₹1 lakh crore Market Cap represents equity valuation by market investors, not cash sitting in a bank account.",
         "Market Cap vs Enterprise Value: Market Cap reflects equity value. Full corporate economic valuation can also consider debt, cash, and other obligations (Enterprise Value)."
-      ]
+      ],
+      "higher_title": "Larger Market Capitalisation",
+      "lower_title": "Smaller Market Capitalisation"
     },
     "common_mistakes": [
       {
@@ -108,7 +110,8 @@
     ],
     "cyclical_nuances": "Market Cap Fluctuations vs Economic Scale: Because share prices change continuously throughout every trading session, Market Cap fluctuates every day even when underlying business operations have not reported any change. A company's market cap can double in a bull market and halve in a bear market while its factories, employees, and quarterly revenue remain identical.",
     "accounting_adjustments": "Denominators & Denomination Bases: Financial calculations distinguish between total shares outstanding, basic weighted average shares, and fully diluted shares (which include convertible bonds, options, and warrants). Stockerboard uses the governed Share Ledger shares outstanding for canonical Market Cap.",
-    "stockme_provenance_note": "Stockerboard sources canonical Market Capitalisation (MARKET_CAP) from certified VALUATION_GOLD_V1 contracts using the governed formula: round(price * shares, 4) where price is the EOD close from OHLC and shares is shares_outstanding from share_ledger_v1 share_states effective on price_as_of. Under VALUATION_GOLD_V1.0.0, both price and shares must be strictly positive (price > 0, shares > 0); MARKET_CAP = 0 is not a valid published state, and any non-positive source state fails closed to UNAVAILABLE. Display values are published in Crore (market_cap_crore). Learn displays published snapshot values directly without independent production recalculation (MARKET_CAP_CALCULATED_INSIDE_LEARN: NO)."
+    "stockme_provenance_note": "Stockerboard sources canonical Market Capitalisation (MARKET_CAP) from certified VALUATION_GOLD_V1 contracts using the governed formula: round(price * shares, 4) where price is the EOD close from OHLC and shares is shares_outstanding from share_ledger_v1 share_states effective on price_as_of. Under VALUATION_GOLD_V1.0.0, both price and shares must be strictly positive (price > 0, shares > 0); MARKET_CAP = 0 is not a valid published state, and any non-positive source state fails closed to UNAVAILABLE. Display values are published in Crore (market_cap_crore). Learn displays published snapshot values directly without independent production recalculation (MARKET_CAP_CALCULATED_INSIDE_LEARN: NO).",
+    "summary_title": "Share Count, Security Classes & Capital Changes"
   },
   "metric_binding": {
     "metric_key": "market_cap",

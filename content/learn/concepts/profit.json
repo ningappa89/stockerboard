@@ -69,7 +69,9 @@
         "Inspect Net Profit Margin: (Net Profit ÷ Revenue) × 100 shows what percentage of each rupee earned is actually retained.",
         "Verify Profit vs Operating Cash Flow: Check whether accounting profit translates into actual cash collections (see Profit vs Cash Flow lesson).",
         "Confirm Accounting Scope: Always compare Consolidated Profit with Consolidated Revenue when subsidiaries exist."
-      ]
+      ],
+      "higher_title": "When Profit Improves",
+      "lower_title": "When Profit Declines"
     },
     "common_mistakes": [
       {
@@ -110,11 +112,16 @@
     ],
     "cyclical_nuances": "Cyclical Profit Swings: Commodity producers (steel, aluminium, sugar) often report massive profits during global price spikes (e.g. ₹800 Cr), only to collapse to net losses (e.g. -₹50 Cr) during down-cycles. Peak profit must never be mistaken for perpetual earning power.",
     "accounting_adjustments": "EBITDA vs Operating Cash Flow vs PAT: Operating Profit before D&A (EBITDA) measures operational scale before capital intensity. Profit After Tax (PAT) measures final bottom-line owner earnings. Neither metric measures cash flow—cash flow tracks actual bank movements after working capital changes and capex.",
-    "stockme_provenance_note": "Stockerboard sources canonical Trailing Net Profit (PAT_TTM) and Trailing Revenue (REVENUE_TTM) from certified FUNDAMENTAL_GOLD_V1 contracts, summing the reported 4 sequential rolling quarters. When paired, strict period and scope parity is enforced (REVENUE_PERIOD == PAT_PERIOD and REVENUE_SCOPE == PAT_SCOPE)."
+    "stockme_provenance_note": "Stockerboard sources canonical Trailing Net Profit (PAT_TTM) and Trailing Revenue (REVENUE_TTM) from certified FUNDAMENTAL_GOLD_V1 contracts, summing the reported 4 sequential rolling quarters. When paired, strict period and scope parity is enforced (REVENUE_PERIOD == PAT_PERIOD and REVENUE_SCOPE == PAT_SCOPE).",
+    "summary_title": "Operating Leverage, Exceptional Items & Loss Handling"
   },
   "metric_binding": {
     "metric_key": "profit_pat",
-    "sample_symbols": ["INFY", "ABFRL", "3MINDIA"]
+    "sample_symbols": [
+      "INFY",
+      "ABFRL",
+      "3MINDIA"
+    ]
   },
   "prerequisites": [
     "what-is-a-stock",

@@ -1444,6 +1444,181 @@ class TestLearnIntegrity(unittest.TestCase):
         self.assertIn('href="/learn/52-week-high-low/"', pe_html)
         self.assertIn('href="/learn/eps/"', pe_html)
 
+    # =========================================================================
+    # PRODUCTION REMEDIATION MILESTONE REGRESSION SUITE (Tests 77-86)
+    # =========================================================================
+
+    def test_77_cross_lesson_cmp_matches_current_certified_dossier(self):
+        """Test 1: Cross-Lesson CMP Authority.
+        Read the current INFY dossier dynamically. Extract canonical CMP.
+        Verify same published CMP wherever the same snapshot is shown in:
+        - Share Price
+        - Market Cap
+        - EPS
+        - P/E
+        Do NOT assert a fixed rupee value.
+        """
+        infy_dossier = json.loads((STOCKS_DIR / "IN" / "INFY.json").read_text(encoding="utf-8"))
+        price_obj = infy_dossier.get("price") if isinstance(infy_dossier.get("price"), dict) else {}
+        canonical_cmp = price_obj.get("value") or price_obj.get("close") or infy_dossier.get("cmp")
+        self.assertIsNotNone(canonical_cmp)
+        expected_cmp_str = f"₹{canonical_cmp:,.2f}"
+
+        for slug in ["share-price", "market-cap", "eps", "pe-ratio"]:
+            page_html = (LEARN_DIR / slug / "index.html").read_text(encoding="utf-8")
+            self.assertIn(expected_cmp_str, page_html, f"Page {slug} must display current canonical CMP {expected_cmp_str}")
+
+    def test_78_eps_and_pe_pages_use_same_canonical_eps(self):
+        """Test 2: EPS Cross-Lesson Parity.
+        Read current canonical EPS_BASIC_TTM.
+        Verify EPS page and P/E page display that same governed value.
+        """
+        infy_dossier = json.loads((STOCKS_DIR / "IN" / "INFY.json").read_text(encoding="utf-8"))
+        bp_eps = infy_dossier.get("v2_canonical", {}).get("business_performance", {}).get("EPS_BASIC_TTM", {})
+        canonical_eps = infy_dossier.get("eps")
+        if canonical_eps is None and bp_eps.get("display_value") is not None:
+            canonical_eps = bp_eps.get("display_value")
+        self.assertIsNotNone(canonical_eps)
+        expected_eps_str = f"₹{canonical_eps:.2f}"
+
+        eps_html = (LEARN_DIR / "eps" / "index.html").read_text(encoding="utf-8")
+        pe_html = (LEARN_DIR / "pe-ratio" / "index.html").read_text(encoding="utf-8")
+        self.assertIn(expected_eps_str, eps_html, "EPS lesson must display canonical Basic EPS TTM")
+        self.assertIn(expected_eps_str, pe_html, "P/E lesson must display same canonical Basic EPS TTM")
+
+    def test_79_pe_page_uses_canonical_published_pe(self):
+        """Test 3: P/E Canonical Parity.
+        Read canonical published P/E.
+        Verify P/E page renders it with no synthetic calculation.
+        """
+        infy_dossier = json.loads((STOCKS_DIR / "IN" / "INFY.json").read_text(encoding="utf-8"))
+        val_pe = infy_dossier.get("v2_canonical", {}).get("valuation", {}).get("P_E", {})
+        canonical_pe = infy_dossier.get("pe")
+        if canonical_pe is None and val_pe.get("value") is not None:
+            canonical_pe = val_pe.get("value")
+        self.assertIsNotNone(canonical_pe)
+        expected_pe_str = f"{canonical_pe:.2f}x"
+
+        pe_html = (LEARN_DIR / "pe-ratio" / "index.html").read_text(encoding="utf-8")
+        self.assertIn(expected_pe_str, pe_html, "P/E page must display canonical published P/E multiple")
+
+    def test_80_pe_renderer_does_not_derive_eps_from_cmp_div_pe(self):
+        """Test 4: No Backwards EPS Calculation.
+        Static semantic audit: verify build_learn_pages.py does NOT derive EPS from cmp / pe.
+        """
+        builder_code = (ROOT / "scripts" / "build_learn_pages.py").read_text(encoding="utf-8")
+        self.assertNotIn("cmp / pe", builder_code)
+        self.assertNotIn("cmp / pe_raw", builder_code)
+        self.assertNotIn("uni.get(\"cmp\") / pe", builder_code)
+
+    def test_81_concept_specific_template_headings(self):
+        """Test 5: Concept-Specific Template Headings.
+        Verify 'When P/E Is Higher' appears only in the P/E lesson.
+        Verify appropriate concept titles on all 9 other lessons.
+        Verify P/E-specific advanced summary wording does not leak into unrelated pages.
+        """
+        pe_leak_heading = "When P/E is Higher"
+        pe_leak_lower = "When P/E is Lower"
+        pe_leak_adv = "Cyclicals, Negative Earnings & Accounting Adjustments"
+
+        all_slugs = [
+            "what-is-a-stock", "share-price", "market-cap", "revenue",
+            "profit", "eps", "pe-ratio", "roe", "profit-vs-cash-flow", "52-week-high-low"
+        ]
+
+        expected_titles = {
+            "what-is-a-stock": ("Shareholder Rights & Potential Benefits", "Shareholder Risks & Limitations", "Capital Structure, Dilution & Legal Form"),
+            "share-price": ("When Share Price Rises", "When Share Price Falls", "Order Books, Trading Sessions & Price Formation"),
+            "market-cap": ("Larger Market Capitalisation", "Smaller Market Capitalisation", "Share Count, Security Classes & Capital Changes"),
+            "revenue": ("When Revenue Expands", "When Revenue Contracts", "Revenue Recognition, Timing & Seasonality"),
+            "profit": ("When Profit Improves", "When Profit Declines", "Operating Leverage, Exceptional Items & Loss Handling"),
+            "eps": ("When EPS Rises", "When EPS Falls", "Dilution, Share Changes & EPS Interpretation"),
+            "pe-ratio": ("When P/E Is Higher", "When P/E Is Lower", "Cyclicals, Negative Earnings & Multiple Nuances"),
+            "roe": ("When ROE Is Higher", "When ROE Is Lower", "Financial Leverage, Negative Equity & ROE Nuances"),
+            "profit-vs-cash-flow": ("When Cash Flow Exceeds Profit", "When Profit Exceeds Cash Flow", "Working Capital, Capex & Non-Cash Effects"),
+            "52-week-high-low": ("Near the 52-Week High", "Near the 52-Week Low", "Partial Histories, Corporate Actions & Range Interpretation"),
+        }
+
+        for slug in all_slugs:
+            html = (LEARN_DIR / slug / "index.html").read_text(encoding="utf-8")
+            if slug != "pe-ratio":
+                self.assertNotIn(pe_leak_heading, html, f"Page {slug} must not leak P/E higher title")
+                self.assertNotIn(pe_leak_lower, html, f"Page {slug} must not leak P/E lower title")
+                self.assertNotIn(pe_leak_adv, html, f"Page {slug} must not leak P/E advanced summary title")
+            
+            exp_higher, exp_lower, exp_adv = expected_titles[slug]
+            self.assertIn(exp_higher, html, f"Page {slug} must contain concept-specific higher title '{exp_higher}'")
+            self.assertIn(exp_lower, html, f"Page {slug} must contain concept-specific lower title '{exp_lower}'")
+            self.assertIn(exp_adv, html, f"Page {slug} must contain concept-specific advanced title '{exp_adv}'")
+
+    def test_82_52w_contract_wording_preserved(self):
+        """Test 6: 52W Contract Wording Preserved.
+        Verify the 52-week lesson does not introduce wording suggesting an 'unadjusted series'
+        which would contradict the governed corporate-action-adjusted historical price policy.
+        """
+        html = (LEARN_DIR / "52-week-high-low" / "index.html").read_text(encoding="utf-8")
+        concept_json = (CONCEPTS_DIR / "52-week-high-low.json").read_text(encoding="utf-8")
+        self.assertNotIn("unadjusted series", html.lower(), "52W lesson must not contradict adjusted contract with 'unadjusted series'")
+        self.assertNotIn("unadjusted series", concept_json.lower(), "52W concept must not contradict adjusted contract with 'unadjusted series'")
+
+    def test_83_profit_margin_hidden_when_pat_or_revenue_unavailable(self):
+        """Test 7: Profit Margin Fail Closed.
+        When Revenue or PAT is unavailable, Net Profit Margin must fail closed to '—'.
+        """
+        from scripts.build_learn_pages import render_live_stock_card
+        
+        # Test missing revenue
+        mock_fin_no_rev = {"MISSING_REV": {"revenue_crore": None, "pat_crore": 100.0, "net_margin_pct": 10.0}}
+        rendered_no_rev = render_live_stock_card("MISSING_REV", mock_fin_no_rev, {}, {}, "profit_pat")
+        self.assertIn('<div class="live-metric-title">Net Profit Margin</div>', rendered_no_rev)
+        self.assertIn('<div class="live-metric-val">—</div>', rendered_no_rev)
+        
+        # Test missing PAT
+        mock_fin_no_pat = {"MISSING_PAT": {"revenue_crore": 1000.0, "pat_crore": None, "net_margin_pct": 10.0}}
+        rendered_no_pat = render_live_stock_card("MISSING_PAT", mock_fin_no_pat, {}, {}, "profit_pat")
+        self.assertIn('<div class="live-metric-title">Net Profit Margin</div>', rendered_no_pat)
+        self.assertIn('<div class="live-metric-val">—</div>', rendered_no_pat)
+        self.assertIn("🔴 Profit Unavailable", rendered_no_pat)
+
+    def test_84_share_price_worked_example_no_premature_pe(self):
+        """Test 8: Share Price No Premature P/E.
+        Verify Share Price worked example teaches only Share Price × Shares Outstanding → Market Cap
+        and contains no P/E formula or calculation steps.
+        """
+        concept_data = json.loads((CONCEPTS_DIR / "share-price.json").read_text(encoding="utf-8"))
+        worked_example = concept_data["detailed_explanation"]["worked_example"]
+        
+        steps_text = " ".join(worked_example.get("calculation_steps", []))
+        self.assertIn("Market Cap", steps_text)
+        self.assertIn("Shares Outstanding", steps_text)
+        self.assertNotIn("P/E =", steps_text)
+        self.assertNotIn("Price / EPS", steps_text)
+        self.assertNotIn("Price-to-Earnings", steps_text)
+
+    def test_85_no_broken_curriculum_paths_or_links(self):
+        """Test 9: No Broken Curriculum Paths.
+        Verify generated learn/index.html contains neither 'ALL CURRICULUM PATHS' nor '/learn/start-here/'.
+        """
+        hub_html = (LEARN_DIR / "index.html").read_text(encoding="utf-8")
+        self.assertNotIn("ALL CURRICULUM PATHS", hub_html)
+        self.assertNotIn("/learn/start-here/", hub_html)
+        
+        # Also verify no lesson page contains /learn/start-here/
+        for slug in ["what-is-a-stock", "share-price", "market-cap", "revenue", "profit", "eps", "pe-ratio", "roe", "profit-vs-cash-flow", "52-week-high-low"]:
+            page_html = (LEARN_DIR / slug / "index.html").read_text(encoding="utf-8")
+            self.assertNotIn("/learn/start-here/", page_html, f"Page {slug} must not contain dead /learn/start-here/ link")
+
+    def test_86_no_production_mock_fallback(self):
+        """Test 10: No Production Mock Fallback.
+        Verify production rendering does not silently load mock fixtures when a certified dossier is missing.
+        """
+        from scripts.build_learn_pages import render_live_stock_card
+        
+        # Calling without explicit test mocks on a non-existent symbol must fail closed with Dossier Unavailable
+        rendered = render_live_stock_card("NON_EXISTENT_SECURITY", {}, {}, {}, "pe_ratio")
+        self.assertIn("🔴 Dossier Unavailable", rendered)
+        self.assertIn("Certified public dossier unavailable for NON_EXISTENT_SECURITY", rendered)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -67,7 +67,9 @@
         "Organic vs Acquisition Growth: Did revenue grow from internal sales expansion, or from buying another company?",
         "Compare Revenue vs Profit Growth: Is bottom-line profit expanding faster than top-line sales, or are rising costs squeezing margins?",
         "Inspect Industry Presentation: Banks, NBFCs and other financial companies present income differently from manufacturing or retail businesses. Their published top-line measure may include interest and other financial income rather than conventional product sales, so it should be interpreted using the company's reporting structure."
-      ]
+      ],
+      "higher_title": "When Revenue Expands",
+      "lower_title": "When Revenue Contracts"
     },
     "common_mistakes": [
       {
@@ -109,11 +111,16 @@
     ],
     "cyclical_nuances": "Cyclical Peak Revenue Traps: Commodity producers (steel, aluminium, petrochemicals) often experience revenue surges of 100% to 200% when global commodity prices spike. Beginner investors mistake peak cyclical revenue for permanent business scale right before commodity prices normalize.",
     "accounting_adjustments": "Seasonality & Trailing 12-Month (TTM) Aggregation: A single strong quarter (e.g. festive retail in Q3) does not represent the annual run rate. Stockerboard uses TTM Revenue (sum of 4 sequential quarters) to smooth seasonal fluctuations while providing a recent 12-month baseline.",
-    "stockme_provenance_note": "Stockerboard sources canonical Trailing Revenue (REVENUE_TTM) from certified FUNDAMENTAL_GOLD_V1 contracts using the production method: SUM_OF_4_SEQUENTIAL_QUARTERLY_REVENUE (sum_4q_rolling across four sequential quarters). When displayed alongside Net Profit (PAT_TTM), strict period and scope parity is enforced (REVENUE_PERIOD == PAT_PERIOD and REVENUE_SCOPE == PAT_SCOPE). The governed Stockerboard contract contains a negative published Revenue value for this case. Learn preserves the published value rather than coercing it to zero or hiding it."
+    "stockme_provenance_note": "Stockerboard sources canonical Trailing Revenue (REVENUE_TTM) from certified FUNDAMENTAL_GOLD_V1 contracts using the production method: SUM_OF_4_SEQUENTIAL_QUARTERLY_REVENUE (sum_4q_rolling across four sequential quarters). When displayed alongside Net Profit (PAT_TTM), strict period and scope parity is enforced (REVENUE_PERIOD == PAT_PERIOD and REVENUE_SCOPE == PAT_SCOPE). The governed Stockerboard contract contains a negative published Revenue value for this case. Learn preserves the published value rather than coercing it to zero or hiding it.",
+    "summary_title": "Revenue Recognition, Timing & Seasonality"
   },
   "metric_binding": {
     "metric_key": "revenue_ttm",
-    "sample_symbols": ["INFY", "ABFRL", "3MINDIA"]
+    "sample_symbols": [
+      "INFY",
+      "ABFRL",
+      "3MINDIA"
+    ]
   },
   "prerequisites": [
     "what-is-a-stock"

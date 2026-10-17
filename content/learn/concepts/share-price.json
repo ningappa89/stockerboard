@@ -33,20 +33,20 @@
       }
     ],
     "worked_example": {
-      "company_name": "Company A vs Company B (Share Price vs Valuation Misconception)",
+      "company_name": "Company A vs Company B (Share Price vs Market Capitalisation)",
       "inputs": {
-        "company_a": "Share Price: ₹50.00 | Shares: 200.00 Cr shares | Annual PAT: ₹500.00 Cr (EPS: ₹2.50)",
-        "company_b": "Share Price: ₹2,000.00 | Shares: 2.00 Cr shares | Annual PAT: ₹800.00 Cr (EPS: ₹400.00)"
+        "company_a": "Share Price: ₹50.00 | Shares Outstanding: 200.00 Cr shares",
+        "company_b": "Share Price: ₹2,000.00 | Shares Outstanding: 2.00 Cr shares"
       },
       "calculation_steps": [
-        "Step 1: Compare Nominal Share Prices = Company A is ₹50.00; Company B is ₹2,000.00 (Company B looks 'expensive' nominally)",
-        "Step 2: Compute Market Capitalisation = Company A: ₹50.00 × 200 Cr = ₹10,000.00 Cr | Company B: ₹2,000.00 × 2 Cr = ₹4,000.00 Cr",
-        "Step 3: Compare P/E Valuation Multiples = Company A P/E: ₹50 / ₹2.50 = 20.0x | Company B P/E: ₹2,000 / ₹400 = 5.0x",
-        "Step 4: Analyze Cheapness = Company B is valued at only 5.0x earnings despite its ₹2,000 price tag, whereas Company A trades at 20.0x earnings despite its ₹50 price tag.",
-        "Step 5: Lesson = Nominal share price alone tells you nothing about whether a business is cheap, expensive, or small."
+        "Step 1: Compare Nominal Share Prices = Company A is ₹50.00; Company B is ₹2,000.00 (Company B has a 40× higher nominal share price)",
+        "Step 2: Calculate Market Cap for Company A = ₹50.00 Share Price × 200.00 Cr Shares Outstanding = ₹10,000.00 Cr total equity market value",
+        "Step 3: Calculate Market Cap for Company B = ₹2,000.00 Share Price × 2.00 Cr Shares Outstanding = ₹4,000.00 Cr total equity market value",
+        "Step 4: Compare Total Equity Value = Company A has a 2.5× larger equity market value than Company B, despite having a much lower per-share price",
+        "Step 5: Lesson = Company B has a 40× higher nominal share price, yet Company A has a 2.5× larger equity market value. Share price and Market Cap still do not tell us whether a stock is cheap or expensive relative to its earnings; we will learn that later in P/E."
       ],
-      "result": "Company A (₹50.00 Price, 20.0x P/E, ₹10,000 Cr MCap) vs Company B (₹2,000.00 Price, 5.0x P/E, ₹4,000 Cr MCap)",
-      "plain_interpretation": "A ₹50 stock is NOT automatically cheaper than a ₹2,000 stock. Company A has a tiny share price but a huge share count (₹10,000 Cr market value) and trades at a higher valuation multiple (20x P/E). Company B has a high share price but is a smaller company (₹4,000 Cr market value) trading at a cheaper valuation multiple (5x P/E)."
+      "result": "Company A (₹50.00 Price, ₹10,000.00 Cr MCap) vs Company B (₹2,000.00 Price, ₹4,000.00 Cr MCap)",
+      "plain_interpretation": "Company B has a 40× higher nominal share price. Yet Company A has a 2.5× larger equity market value. Nominal share price alone tells you only the cost of one slice, not total company size or valuation."
     },
     "interpretation_guide": {
       "what_higher_suggests": [
@@ -63,7 +63,9 @@
         "Bonus Shares: Bonus share issuance increases share count and proportionately reduces per-share market price; it does not create free economic wealth.",
         "Face Value vs Market Price: In India, shares carry a nominal Face Value (e.g. ₹10, ₹2, ₹1) representing historical accounting capital. Market Price (e.g. ₹1,250) reflects current traded market value on the exchange. Face value is not a benchmark for cheapness.",
         "Price vs Business Performance: Over short periods, market sentiment and macro flows can cause share prices to diverge from underlying business performance (prices can rise when business is flat, or fall when business is improving)."
-      ]
+      ],
+      "higher_title": "When Share Price Rises",
+      "lower_title": "When Share Price Falls"
     },
     "common_mistakes": [
       {
@@ -109,7 +111,8 @@
     ],
     "cyclical_nuances": "Short-Term Sentiment vs Long-Term Fundamentals: In the short run, share prices fluctuate based on market sentiment, news headlines, and liquidity flows. Over multi-year horizons, market prices tend to reflect underlying business earnings power and return on capital.",
     "accounting_adjustments": "Corporate Action Price Adjustments: Historical chart series are adjusted for stock splits and bonus issues so that past price levels remain economically comparable with post-action share counts. Stockerboard preserves governed session close semantics and Share Ledger states.",
-    "stockme_provenance_note": "Stockerboard sources canonical Share Price data from certified NSE EOD OHLC records (price_as_of, e.g. 2026-10-09) published in public dossiers and financial indices. Learn displays published snapshot closing prices directly without independent production recalculation (SHARE_PRICE_CALCULATED_INSIDE_LEARN: NO). Terminology strictly uses Published Snapshot / Latest Published Closing Price, avoiding false claims of real-time exchange streaming."
+    "stockme_provenance_note": "Stockerboard sources canonical Share Price data from certified NSE EOD OHLC records (price_as_of, e.g. 2026-10-09) published in public dossiers and financial indices. Learn displays published snapshot closing prices directly without independent production recalculation (SHARE_PRICE_CALCULATED_INSIDE_LEARN: NO). Terminology strictly uses Published Snapshot / Latest Published Closing Price, avoiding false claims of real-time exchange streaming.",
+    "summary_title": "Order Books, Trading Sessions & Price Formation"
   },
   "metric_binding": {
     "metric_key": "share_price",
