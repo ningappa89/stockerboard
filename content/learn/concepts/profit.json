@@ -1,0 +1,165 @@
+{
+  "id": "profit",
+  "slug": "profit",
+  "title": "Profit: What Does a Company Actually Earn?",
+  "short_title": "Profit (Net Profit / PAT)",
+  "category": "financial-literacy",
+  "difficulty": "Foundations",
+  "estimated_read_min": 6,
+  "simple_explanation": {
+    "hero_headline": "What remains after a business generates sales revenue and pays all operating costs, interest, and taxes.",
+    "core_intuition": "Revenue is the total amount of money customers pay for goods or services. Profit is what actually remains after paying the direct costs of goods, employee salaries, warehouse rent, loan interest, and government taxes. A company with ₹100 Crore in sales that incurs ₹120 Crore in expenses does not make money—it records a net loss of ₹20 Crore. Revenue measures business size; profit measures business earnings.",
+    "real_world_analogy": "Imagine running the Stockerboard Tea Shop. In one month, you collect ₹1,00,000 from selling chai and biscuits (Revenue). But you must pay ₹45,000 for milk, tea leaves, and sugar (Direct Costs), ₹30,000 for shop rent and staff wages (Operating Costs), and ₹10,000 for loan interest and municipal taxes. What remains in your pocket at the end of the month is ₹15,000 (Net Profit). Your sales were ₹1,00,000, but your profit was only ₹15,000. Revenue is NOT profit.",
+    "key_takeaway": "Revenue tells you how much business a company conducted. Profit tells you what remained after paying all costs. Never confuse top-line sales with bottom-line earnings, and never assume large revenue guarantees positive profit."
+  },
+  "detailed_explanation": {
+    "formula_plain": "Net Profit (Profit After Tax) = Revenue - Cost of Goods Sold - Operating Expenses - Depreciation - Interest - Taxes",
+    "formula_variables": [
+      {
+        "name": "Revenue from Operations (Top-Line)",
+        "description": "Total gross income earned from selling goods and delivering core services before deducting any expenses."
+      },
+      {
+        "name": "Operating Expenses (Opex)",
+        "description": "Ongoing operational costs including employee salaries, administrative expenses, marketing, rent, and depreciation."
+      },
+      {
+        "name": "Financing & Tax Obligations",
+        "description": "Interest paid to lenders on borrowings, plus corporate income taxes assessed by statutory authorities."
+      },
+      {
+        "name": "Profit After Tax (PAT)",
+        "description": "Profit After Tax (PAT) is the accounting profit remaining after the relevant costs, operating expenses, interest, other applicable items and taxes for the published reporting scope."
+      }
+    ],
+    "worked_example": {
+      "company_name": "Stockerboard Tea & Spices Ltd. (Simplified Educational Example)",
+      "inputs": {
+        "revenue": "₹100.00 Cr",
+        "cogs": "-₹40.00 Cr (Raw tea leaves, packaging, processing)",
+        "opex": "-₹30.00 Cr (Salaries, logistics, marketing, depreciation)",
+        "interest": "-₹5.00 Cr (Bank loan interest)",
+        "taxes": "-₹5.00 Cr (Corporate income tax)"
+      },
+      "calculation_steps": [
+        "Step 1: Start with Top-Line Revenue = ₹100.00 Cr",
+        "Step 2: Deduct Direct Product Costs (-₹40.00 Cr) = ₹60.00 Cr Gross Profit (60.0% Gross Margin)",
+        "Step 3: Deduct Operating Expenses & Depreciation (-₹30.00 Cr) = ₹30.00 Cr Operating Profit / EBIT (30.0% Operating Margin)",
+        "Step 4: Deduct Financing Interest (-₹5.00 Cr) = ₹25.00 Cr Profit Before Tax (PBT)",
+        "Step 5: Deduct Corporate Income Tax (-₹5.00 Cr) = ₹20.00 Cr Net Profit / Profit After Tax (PAT)"
+      ],
+      "result": "Net Profit (PAT): ₹20.00 Cr | Net Profit Margin: 20.00% (on ₹100.00 Cr Revenue)",
+      "plain_interpretation": "Stockerboard Tea & Spices converted ₹100.00 Cr in gross customer sales into ₹20.00 Cr of final bottom-line accounting earnings (a 20.00% Net Profit Margin). The remaining ₹80.00 Cr was consumed by raw materials, wages, logistics, depreciation, interest, and taxes. This is a simplified teaching example illustrating the sequential profit ladder."
+    },
+    "interpretation_guide": {
+      "what_higher_suggests": [
+        "Strong Pricing Power & Cost Efficiency: High conversion of sales into profit allows companies to retain substantial earnings to reinvest or pay dividends.",
+        "Operational Leverage: Fixed costs (factories, software platforms) remain steady while sales expand, causing profit to grow substantially faster than revenue.",
+        "Sustainable Margins: Consistent double-digit net profit margins across multi-year cycles indicate structural competitive advantages.",
+        "Higher absolute profit does NOT mean a better investment: a ₹1,000 Cr profit company trading at 80x P/E can be vastly more overpriced than a ₹100 Cr profit company trading at 10x P/E."
+      ],
+      "what_lower_suggests": [
+        "Cost Inflation or Price Wars: Rising raw material costs, heavy promotional discounting, or aggressive competition shrinking profit margins.",
+        "High Debt Burden: Heavy interest expenses consuming operating profits before bottom-line earnings can reach equity owners.",
+        "Net Losses (Negative Profit): When expenses exceed revenue, profit is negative (e.g. -₹20 Cr). Negative profit represents genuine financial loss, not missing data.",
+        "Revenue Expanding While Profit Falls: Expanding sales volume by selling goods below true cost or spending excessively on customer acquisition."
+      ],
+      "contextual_checks": [
+        "Compare Revenue vs Profit Growth: Is profit growing because sales are expanding healthily, or solely because of one-off cost cuts?",
+        "Inspect Net Profit Margin: (Net Profit ÷ Revenue) × 100 shows what percentage of each rupee earned is actually retained.",
+        "Verify Profit vs Operating Cash Flow: Check whether accounting profit translates into actual cash collections (see Profit vs Cash Flow lesson).",
+        "Confirm Accounting Scope: Always compare Consolidated Profit with Consolidated Revenue when subsidiaries exist."
+      ]
+    },
+    "common_mistakes": [
+      {
+        "fallacy": "Revenue equals profit.",
+        "reality": "Revenue is gross sales before expenses. Profit is what remains after deducting all operating costs, interest, depreciation, and taxes."
+      },
+      {
+        "fallacy": "A company reporting high profit must have lots of cash sitting in its bank account.",
+        "reality": "Profit follows accrual accounting rules, recognizing income before cash arrives. Cash can be tied up in unpaid invoices (receivables) or factory capex."
+      },
+      {
+        "fallacy": "A company with higher absolute profit is automatically a superior investment.",
+        "reality": "Company scale, number of shares, capital invested, debt obligations, and market price dictate investment value. A ₹1,000 Cr profit giant may be overvalued relative to a ₹100 Cr mid-cap."
+      },
+      {
+        "fallacy": "Growing revenue guarantees growing profit.",
+        "reality": "If input costs, logistics, or interest rise faster than sales, a company's revenue can surge while its bottom-line profit crashes."
+      },
+      {
+        "fallacy": "One unusually profitable year represents normal sustainable earnings.",
+        "reality": "Non-recurring gains (such as selling land or a division) or cyclical commodity spikes can temporarily inflate one year's reported profit."
+      },
+      {
+        "fallacy": "EBITDA equals actual cash flow.",
+        "reality": "EBITDA ignores taxes, interest payments, working capital swings, and capital expenditures. It is an operating proxy, NOT cash flow."
+      },
+      {
+        "fallacy": "A negative profit figure means data is missing or corrupted.",
+        "reality": "Negative profit represents an accounting net loss. Stockerboard preserves net losses with a minus sign rather than hiding them or setting them to zero."
+      }
+    ]
+  },
+  "advanced_explanation": {
+    "edge_cases": [
+      "The Profit Ladder Layers: (1) Gross Profit = Revenue - Direct Costs; (2) Operating Profit (EBIT) = Gross Profit - Operating Expenses; (3) Profit Before Tax (PBT) = Operating Profit - Interest; (4) Profit After Tax (PAT) is the accounting profit remaining after the relevant costs, operating expenses, interest, other applicable items and taxes for the published reporting scope. Note that Gross Profit is meaningful for manufacturing and retail, but less applicable to banks and financial institutions.",
+      "Revenue Growing While Profit Collapses: If revenue grows from ₹100 Cr to ₹130 Cr (+30%) while PAT falls from ₹10 Cr to ₹6 Cr (-40%), it signals severe margin compression—often caused by raw material inflation, discounting, or soaring interest expenses.",
+      "One-Off Non-Operating Gains: Reported PAT can spike artificially if a company sells a piece of land or settles a lawsuit. Astute investors strip out exceptional items to evaluate core repeatable operating earnings."
+    ],
+    "cyclical_nuances": "Cyclical Profit Swings: Commodity producers (steel, aluminium, sugar) often report massive profits during global price spikes (e.g. ₹800 Cr), only to collapse to net losses (e.g. -₹50 Cr) during down-cycles. Peak profit must never be mistaken for perpetual earning power.",
+    "accounting_adjustments": "EBITDA vs Operating Cash Flow vs PAT: Operating Profit before D&A (EBITDA) measures operational scale before capital intensity. Profit After Tax (PAT) measures final bottom-line owner earnings. Neither metric measures cash flow—cash flow tracks actual bank movements after working capital changes and capex.",
+    "stockme_provenance_note": "Stockerboard sources canonical Trailing Net Profit (PAT_TTM) and Trailing Revenue (REVENUE_TTM) from certified FUNDAMENTAL_GOLD_V1 contracts, summing the reported 4 sequential rolling quarters. When paired, strict period and scope parity is enforced (REVENUE_PERIOD == PAT_PERIOD and REVENUE_SCOPE == PAT_SCOPE)."
+  },
+  "metric_binding": {
+    "metric_key": "profit_pat",
+    "sample_symbols": ["INFY", "ABFRL", "3MINDIA"]
+  },
+  "prerequisites": [
+    "what-is-a-stock",
+    "revenue"
+  ],
+  "next_concept": "eps",
+  "related_concepts": [
+    "revenue",
+    "eps",
+    "pe-ratio",
+    "roe",
+    "profit-vs-cash-flow",
+    "share-price"
+  ],
+  "quiz": {
+    "calculation_question": {
+      "question": "A retail company generates total Revenue of ₹100.00 Cr and incurs ₹85.00 Cr in total relevant operating costs, depreciation, interest, and taxes. What is its simplified Net Profit?",
+      "options": [
+        "₹5.00 Cr",
+        "₹15.00 Cr",
+        "₹85.00 Cr",
+        "₹100.00 Cr"
+      ],
+      "correct_index": 1,
+      "explanation": "Simplified Net Profit = Total Revenue (₹100.00 Cr) - Total Relevant Expenses (₹85.00 Cr) = ₹15.00 Cr. Profit is the bottom-line residual remaining after all operating, financing, and tax expenses are deducted from sales."
+    },
+    "reasoning_question": {
+      "question": "A company's revenue surged from ₹100.00 Cr to ₹140.00 Cr, but its Net Profit declined from ₹10.00 Cr to ₹6.00 Cr over the same period. What can an investor conclude?",
+      "options": [
+        "The company is definitely performing better because higher revenue is all that matters.",
+        "Revenue growth guarantees that future profits will soon rebound to record highs.",
+        "Not enough information to assume business health — operating expenses or input costs rose faster than sales, squeezing profit margins and requiring deeper investigation.",
+        "The stock price must collapse to zero immediately."
+      ],
+      "correct_index": 2,
+      "explanation": "Expanding revenue does not guarantee expanding profits. When expenses, raw materials, or financing costs grow faster than top-line sales, profit margins shrink. Investors must investigate cost structures, competitive pricing pressure, and interest burdens before evaluating business health."
+    }
+  },
+  "governance": {
+    "content_version": "1.0.0",
+    "canonical_profit_metric": "PAT_TTM",
+    "profit_ttm_method": "SUM_OF_4_SEQUENTIAL_QUARTERLY_PAT",
+    "contract_version": "FUNDAMENTAL_GOLD_V1.0.0",
+    "review_status": "APPROVED",
+    "reviewed_by": "Antigravity Financial Architecture",
+    "last_updated": "2026-10-17"
+  }
+}

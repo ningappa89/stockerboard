@@ -1,0 +1,146 @@
+{
+  "id": "52-week-high-low",
+  "slug": "52-week-high-low",
+  "title": "52-Week Range & Price Position",
+  "short_title": "52-Week Range",
+  "category": "valuation",
+  "difficulty": "Beginner → Intermediate",
+  "estimated_read_min": 6,
+  "simple_explanation": {
+    "hero_headline": "Where a stock's current price sits relative to its highest and lowest observed trading levels over the past year.",
+    "core_intuition": "The 52-week price range maps where the current market price sits relative to its recent trading history. A stock trading near its 52-week low is not automatically cheap, and a stock trading near its 52-week high is not automatically expensive. Range reveals historical price context, not business valuation.",
+    "real_world_analogy": "Imagine an apartment in your city that was listed between ₹60 Lakh (its lowest offer) and ₹1 Crore (its highest offer) over the last 12 months. Today it is offered at ₹85 Lakh. That tells you the price sits closer to the top of its recent asking history. But it does not tell you if ₹85 Lakh is a bargain or an overpriced trap—you must inspect the building quality, neighbourhood developments, and structural condition first.",
+    "key_takeaway": "52-week range tells us WHERE price is relative to recent history. It does not tell us WHY it is there, whether it is undervalued, or what will happen next. Never confuse price position with valuation."
+  },
+  "detailed_explanation": {
+    "formula_plain": "Range Position (%) = ((Current Price - Range Low) ÷ (Range High - Range Low)) × 100",
+    "formula_variables": [
+      {
+        "name": "Current Market Price (CMP)",
+        "description": "The latest closing traded price per share on the exchange for the published snapshot date."
+      },
+      {
+        "name": "52-Week High",
+        "description": "The highest eligible daily traded price observed during the rolling 365-calendar-day observation window."
+      },
+      {
+        "name": "52-Week Low",
+        "description": "The lowest eligible daily traded price observed during the rolling 365-calendar-day observation window."
+      }
+    ],
+    "worked_example": {
+      "company_name": "Stockerboard Motors Ltd. (Fictional)",
+      "inputs": {
+        "52w_low": "₹600.00",
+        "52w_high": "₹1,000.00",
+        "current_price": "₹850.00"
+      },
+      "calculation_steps": [
+        "Step 1: Calculate Total Range = ₹1,000.00 - ₹600.00 = ₹400.00",
+        "Step 2: Calculate Gain from Low = ₹850.00 - ₹600.00 = ₹250.00",
+        "Step 3: Compute Range Position = (₹250.00 ÷ ₹400.00) × 100 = 62.50%",
+        "Step 4: Compute Distance from High = ((₹850.00 - ₹1,000.00) ÷ ₹1,000.00) × 100 = -15.00%"
+      ],
+      "result": "Range Position: 62.50% | Distance from High: -15.00%",
+      "plain_interpretation": "The current price sits 62.50% of the way from its 52-week low to its 52-week high, and is approximately 15.00% below its 52-week peak. This position alone does not tell you whether the stock is attractive or overvalued."
+    },
+    "interpretation_guide": {
+      "what_higher_suggests": [
+        "The company may be experiencing expanding business profits, order book growth, or positive market re-rating.",
+        "Strong demand and sustained buying interest from market participants across recent sessions.",
+        "Sector tailwinds or macro economic conditions favouring the industry.",
+        "Near high is not an automatic sell signal: high-quality compounding businesses often trade near 52-week highs for multi-year periods."
+      ],
+      "what_lower_suggests": [
+        "The company may face deteriorating earnings, competitive disruption, or rising debt burdens.",
+        "Unresolved governance issues, regulatory penalties, or cyclical sector down-cycles.",
+        "Near low is not an automatic buy signal: a 'cheap-looking' stock near 52-week lows can continue dropping if underlying business fundamentals collapse (the classic 'value trap').",
+        "Temporary market-wide panics or liquidity sell-offs that create potential research candidates."
+      ],
+      "contextual_checks": [
+        "Check Fundamental Trajectory: Are revenues and profits growing, or are earnings collapsing while debt rises?",
+        "Inspect Valuation Multiples: Compare current P/E and P/B with historical averages—do not assume 52W low means cheap.",
+        "Verify History Basis: Check if the security has full 52-week coverage (200+ sessions) or an available-history basis (new listing).",
+        "Confirm Corporate Action Continuity: Ensure historical peaks reflect split/bonus adjustments rather than unadjusted raw trades."
+      ]
+    },
+    "common_mistakes": [
+      {
+        "fallacy": "A stock near its 52-week low is cheap and due for a rebound.",
+        "reality": "A stock near its 52-week low may be suffering structural business decay or terminal insolvency. Price can keep falling; low price does not equal low valuation."
+      },
+      {
+        "fallacy": "A stock near its 52-week high is expensive and too late to buy.",
+        "reality": "Leading companies in strong earnings cycles regularly break out to new 52-week highs as quarterly profits compound. Valuation is determined by fundamentals, not distance from historical highs."
+      },
+      {
+        "fallacy": "A 52-week range always spans exactly 252 sessions.",
+        "reality": "Newly listed securities (IPOs) or restructured entities have shorter trading history. StockMe labels these as PARTIAL_HISTORY with the exact session count without fabricating data."
+      },
+      {
+        "fallacy": "Raw historical exchange prices can always be compared directly.",
+        "reality": "Stock splits, bonus issues, and demergers alter the economic share price. Unadjusted historical prices create false 50%–90% price drops that misrepresent economic reality."
+      },
+      {
+        "fallacy": "Range position of 0% means strong buy and 100% means strong sell.",
+        "reality": "Range position is an observational locator (where price sits relative to recent history), not a trading recommendation or mechanical trading system."
+      }
+    ]
+  },
+  "advanced_explanation": {
+    "edge_cases": [
+      "Short History / New Listings: When an IPO or newly listed company has traded for less than a full year (e.g. 143 sessions), StockMe preserves the exact available history without fabricating 252 sessions. The range is transparently marked as PARTIAL_HISTORY.",
+      "Corporate Action Continuity: Stock splits, bonus shares, and rights issues change share counts. Historical highs and lows are calculated over corporate-action-adjusted series so that a 10:1 split does not make an old ₹1,000 price appear as a 90% crash against today's ₹100 price.",
+      "Zero Clamping Invariance: Because closing price is mathematically bounded by the observed high and low of the session series (Low <= Close <= High), the Range Position naturally sits between 0.00% and 100.00%. Clean adjusted data removes the need for heuristic artificial clamping."
+    ],
+    "cyclical_nuances": "Distance from 52-Week High (dist_52w) measures drawdown percentage from the highest price: ((CMP - 52W_High) ÷ 52W_High) × 100. In momentum screening, stocks holding within 5% to 15% of their 52-week highs during broader market corrections often exhibit institutional relative strength.",
+    "accounting_adjustments": "Price Position vs Intrinsic Valuation: A stock at ₹500 near its 52W high of ₹520 with ₹50 EPS trades at a modest 10x P/E. Meanwhile, another stock at ₹100 near its 52W low of ₹95 with ₹1 EPS trades at an expensive 100x P/E. Price position tells you where price is; financial ratios tell you what you are paying.",
+    "stockme_provenance_note": "Stockerboard sources 52-week price range data from point-in-time-aware StockMe-certified data lineage (PRICE_RANGE_INDEX_V1). The observation window strictly aligns with certified company dossier price dates (e.g. 2026-10-09), ensuring zero mismatch between listed quotes and historical range boundaries."
+  },
+  "metric_binding": {
+    "metric_key": "range_52w_position",
+    "sample_symbols": ["INFY", "ALMONDZ", "WAAREEINDO"]
+  },
+  "prerequisites": [
+    "what-is-a-stock",
+    "share-price"
+  ],
+  "next_concept": "profit-vs-cash-flow",
+  "related_concepts": [
+    "pe-ratio",
+    "roe",
+    "share-price",
+    "market-cap",
+    "compare-companies"
+  ],
+  "quiz": {
+    "calculation_question": {
+      "question": "A stock has an observed range low of ₹600.00, a range high of ₹1,000.00, and is currently trading at ₹800.00. Where does the current price sit in its 52-week range?",
+      "options": [
+        "25.00%",
+        "50.00%",
+        "75.00%",
+        "80.00%"
+      ],
+      "correct_index": 1,
+      "explanation": "Range Position = ((Current Price - Range Low) ÷ (Range High - Range Low)) × 100 = ((₹800.00 - ₹600.00) ÷ (₹1,000.00 - ₹600.00)) × 100 = (₹200.00 ÷ ₹400.00) × 100 = 50.00%. The stock sits exactly 50% of the way through its observed range."
+    },
+    "reasoning_question": {
+      "question": "A stock is currently trading 45% below its 52-week high. What can an investor definitively conclude about this company?",
+      "options": [
+        "The company is undervalued and represents a bargain buying opportunity.",
+        "The stock is oversold and must rebound back toward its previous high.",
+        "The company is low quality and should be avoided.",
+        "Not enough information to determine without investigating business fundamentals, earnings, debt, and valuation."
+      ],
+      "correct_index": 3,
+      "explanation": "Price position alone reveals only where the stock trades relative to recent historical trades, not why it is there or whether its intrinsic value is higher or lower. A 45% decline could stem from collapsing earnings, rising debt, loss of key customers, or general market sentiment. Comprehensive fundamental research is always required before forming an investment thesis."
+    }
+  },
+  "governance": {
+    "content_version": "1.0.0",
+    "review_status": "APPROVED",
+    "reviewed_by": "Antigravity Financial Architecture",
+    "last_updated": "2026-10-17"
+  }
+}

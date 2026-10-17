@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stockerboard Learn — Financial &amp; Market Literacy from First Principles</title>
+    <meta name="description" content="Learn investing with real Indian companies. Understand the concept, see the numbers from certified exchange data, investigate companies, and form your own independent conclusions.">
+    <link rel="canonical" href="https://stockerboard.com/learn/">
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+    
+    <script>
+        (function() {
+            try {
+                const savedTheme = localStorage.getItem('stockerboard_theme');
+                const theme = savedTheme ? savedTheme : 'light';
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch(e) {}
+        })();
+    </script>
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Stockerboard">
+    <meta property="og:title" content="Stockerboard Learn — Financial &amp; Market Literacy">
+    <meta property="og:description" content="Learn investing with real Indian companies. Understand concepts, inspect certified data, and form independent conclusions.">
+    <meta property="og:url" content="https://stockerboard.com/learn/">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "WebPage",
+                "@id": "https://stockerboard.com/learn/",
+                "url": "https://stockerboard.com/learn/",
+                "name": "Stockerboard Learn",
+                "description": "Financial & market literacy from first principles using certified Indian market data.",
+                "breadcrumb": { "@id": "https://stockerboard.com/learn/#breadcrumb" }
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": "https://stockerboard.com/learn/#breadcrumb",
+                "itemListElement": [
+                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://stockerboard.com/" },
+                    { "@type": "ListItem", "position": 2, "name": "Learn", "item": "https://stockerboard.com/learn/" }
+                ]
+            }
+        ]
+    }
+    </script>
+    
+    <style>
+        :root, [data-theme="dark"] {
+            --bg: #080C14;
+            --surface: #0E1420;
+            --surface-elevated: #151D2C;
+            --surface-card: rgba(21, 29, 44, 0.7);
+            --border: rgba(255, 255, 255, 0.08);
+            --text-primary: #F8FAFC;
+            --text-secondary: #94A3B8;
+            --text-muted: #64748B;
+            --brand-green: #15803D;
+            --brand-green-light: #16A34A;
+            --emerald: #10B981;
+            --coral: #F43F5E;
+            --blue: #3B82F6;
+            --font: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            --card-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+        }
+        [data-theme="light"] {
+            --bg: #FCFDFD;
+            --surface: #FFFFFF;
+            --surface-elevated: #F8FAFC;
+            --surface-card: #FFFFFF;
+            --border: #E2E8F0;
+            --text-primary: #0F172A;
+            --text-secondary: #475569;
+            --text-muted: #64748B;
+            --brand-green: #15803D;
+            --brand-green-light: #16A34A;
+            --emerald: #10B981;
+            --coral: #F43F5E;
+            --blue: #2563EB;
+            --card-shadow: 0 1px 3px rgba(15, 23, 42, 0.04), 0 8px 20px -4px rgba(15, 23, 42, 0.06);
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: var(--font);
+            background-color: var(--bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding-bottom: 80px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 14px 24px;
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .header-left { display: flex; align-items: center; gap: 28px; }
+        .logo { font-size: 1.25rem; font-weight: 700; color: var(--text-primary); text-decoration: none; display: flex; align-items: center; gap: 8px; }
+        .logo-dot { width: 10px; height: 10px; background: var(--emerald); border-radius: 50%; }
+        .header-nav { display: inline-flex; align-items: center; gap: 20px; }
+        .header-nav a { color: var(--text-secondary); text-decoration: none; font-size: .92rem; font-weight: 500; }
+        .header-nav a:hover, .header-nav a.active { color: var(--emerald); }
+        .theme-btn { background: transparent; border: 1px solid var(--border); border-radius: 8px; padding: 6px 12px; cursor: pointer; color: var(--text-primary); font-size: .85rem; }
+        
+        .container { max-width: 960px; margin: 0 auto; padding: 36px 20px; }
+        
+        .learn-hero {
+            text-align: center;
+            padding: 30px 20px 48px;
+        }
+        .hero-lead-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--emerald);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.82rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+        .hero-title {
+            font-size: 2.8rem;
+            font-weight: 800;
+            letter-spacing: -0.035em;
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+        .hero-sub {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            max-width: 680px;
+            margin: 0 auto 28px;
+        }
+        .hero-actions {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        .btn-primary {
+            background: var(--brand-green);
+            color: #FFFFFF;
+            padding: 10px 22px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 0.94rem;
+            transition: background 0.15s ease;
+        }
+        .btn-primary:hover { background: var(--brand-green-light); }
+        .btn-secondary {
+            background: var(--surface-elevated);
+            color: var(--text-primary);
+            border: 1px solid var(--border);
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.94rem;
+        }
+        
+        /* Paths Grid */
+        .section-label {
+            font-size: 0.78rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--text-muted);
+            font-weight: 800;
+            margin-bottom: 18px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .paths-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 18px;
+            margin-bottom: 48px;
+        }
+        .path-card {
+            background: var(--surface-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 22px;
+            box-shadow: var(--card-shadow);
+            transition: transform 0.15s ease, border-color 0.15s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .path-card:hover {
+            transform: translateY(-2px);
+            border-color: rgba(16, 185, 129, 0.4);
+        }
+        .path-num { font-size: 0.75rem; font-weight: 800; color: var(--emerald); font-family: monospace; margin-bottom: 6px; }
+        .path-title { font-size: 1.15rem; font-weight: 700; margin-bottom: 6px; }
+        .path-sub { font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 12px; }
+        .path-desc { font-size: 0.84rem; color: var(--text-muted); line-height: 1.5; margin-bottom: 16px; flex-grow: 1; }
+        .path-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid var(--border);
+            padding-top: 12px;
+            font-size: 0.82rem;
+        }
+        .path-link { color: var(--emerald); font-weight: 700; text-decoration: none; }
+        
+        /* Foundations Sequence Track */
+        .foundations-hero-card {
+            background: var(--surface-card);
+            border: 2px solid rgba(16, 185, 129, 0.35);
+            border-radius: 14px;
+            padding: 28px;
+            margin-bottom: 40px;
+            box-shadow: var(--card-shadow);
+        }
+        .foundations-chain-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 12px;
+            margin-top: 18px;
+        }
+        .chain-step {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 12px 14px;
+            background: var(--surface-elevated);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            text-decoration: none;
+            color: var(--text-primary);
+            transition: all 0.15s ease;
+        }
+        .chain-step:hover {
+            border-color: var(--emerald);
+            transform: translateY(-1px);
+        }
+        .chain-num {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--emerald);
+            font-size: 0.8rem;
+            font-weight: 800;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        .chain-title { font-size: 0.95rem; font-weight: 700; margin-bottom: 2px; color: var(--text-primary); }
+        .chain-desc { font-size: 0.8rem; color: var(--text-secondary); line-height: 1.35; }
+
+        /* Secondary Modules */
+        .secondary-section {
+            margin-bottom: 44px;
+        }
+        .secondary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 16px;
+        }
+        .secondary-card {
+            background: var(--surface-card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 18px;
+            text-decoration: none;
+            color: var(--text-primary);
+            transition: border-color 0.15s ease, transform 0.15s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .secondary-card:hover {
+            border-color: var(--blue);
+            transform: translateY(-2px);
+        }
+        
+        @media (max-width: 600px) {
+            .hero-title { font-size: 2.1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-left">
+            <a href="/" class="logo">
+                <span class="logo-dot"></span>
+                <span>Stockerboard</span>
+            </a>
+            <nav class="header-nav">
+                <a href="/">Home</a>
+                <a href="/stocks/">Stocks</a>
+                <a href="/learn/" class="active">Learn</a>
+                <a href="/?mode=pro">Pro research</a>
+            </nav>
+        </div>
+        <div>
+            <button class="theme-btn" onclick="toggleTheme()" id="themeBtn">
+                <span id="themeIcon">🌙</span>
+                <span id="themeText">Theme</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <div class="learn-hero">
+            <div class="hero-lead-pill">
+                <span>🎓 Stockerboard Foundations</span>
+            </div>
+            <h1 class="hero-title">
+                Learn investing with <span style="color: var(--brand-green);">real companies</span>.
+            </h1>
+            <p class="hero-sub">
+                Understand the concept. See the numbers from certified exchange data. Investigate companies with zero hype. Form your own conclusions.
+            </p>
+            <div class="hero-actions">
+                <a href="/learn/what-is-a-stock/" class="btn-primary">
+                    Start Here: What Is a Stock? (Step 1) →
+                </a>
+                <a href="#foundationsSection" class="btn-secondary">
+                    View 7 Foundations Lessons ↓
+                </a>
+            </div>
+        </div>
+
+        <!-- START HERE — FOUNDATIONS (1–7) Primary Track -->
+        <section class="foundations-hero-card" id="foundationsSection">
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 12px; margin-bottom: 8px;">
+                <div>
+                    <span class="pilot-tag" style="background: rgba(16, 185, 129, 0.15); color: var(--emerald);">🟢 START HERE • FOUNDATIONS</span>
+                    <h2 style="font-size: 1.45rem; font-weight: 800; margin-top: 8px; color: var(--text-primary);">
+                        The 7 Core Steps from Ownership to Valuation
+                    </h2>
+                    <p style="font-size: 0.88rem; color: var(--text-secondary); max-width: 680px; margin-top: 4px;">
+                        Follow this sequential first-principles journey to understand how stocks work before evaluating individual companies.
+                    </p>
+                </div>
+                <a href="/learn/what-is-a-stock/" class="btn-primary" style="padding: 8px 16px; font-size: 0.86rem; align-self: center;">
+                    Begin Step 1 →
+                </a>
+            </div>
+
+            <div class="foundations-chain-grid">
+                <a href="/learn/what-is-a-stock/" class="chain-step">
+                    <span class="chain-num">1</span>
+                    <div>
+                        <div class="chain-title">What Is a Stock?</div>
+                        <div class="chain-desc">Understand equity ownership in a company</div>
+                    </div>
+                </a>
+                <a href="/learn/share-price/" class="chain-step">
+                    <span class="chain-num">2</span>
+                    <div>
+                        <div class="chain-title">Share Price</div>
+                        <div class="chain-desc">Why does one share cost what it costs?</div>
+                    </div>
+                </a>
+                <a href="/learn/market-cap/" class="chain-step">
+                    <span class="chain-num">3</span>
+                    <div>
+                        <div class="chain-title">Market Capitalisation</div>
+                        <div class="chain-desc">What is the company worth in the market?</div>
+                    </div>
+                </a>
+                <a href="/learn/revenue/" class="chain-step">
+                    <span class="chain-num">4</span>
+                    <div>
+                        <div class="chain-title">Revenue (Top Line)</div>
+                        <div class="chain-desc">How much business is the company doing?</div>
+                    </div>
+                </a>
+                <a href="/learn/profit/" class="chain-step">
+                    <span class="chain-num">5</span>
+                    <div>
+                        <div class="chain-title">Profit (Bottom Line)</div>
+                        <div class="chain-desc">What does the company actually earn after expenses?</div>
+                    </div>
+                </a>
+                <a href="/learn/eps/" class="chain-step">
+                    <span class="chain-num">6</span>
+                    <div>
+                        <div class="chain-title">EPS (Earnings Per Share)</div>
+                        <div class="chain-desc">How much net profit belongs to each share?</div>
+                    </div>
+                </a>
+                <a href="/learn/pe-ratio/" class="chain-step" style="grid-column: 1 / -1;">
+                    <span class="chain-num">7</span>
+                    <div>
+                        <div class="chain-title">P/E Ratio (Price-to-Earnings Multiple)</div>
+                        <div class="chain-desc">How many rupees investors pay for ₹1 of annual earnings</div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Secondary Learning Tracks -->
+        <section class="secondary-section">
+            <div class="section-label">
+                <span>UNDERSTAND THE BUSINESS QUALITY</span>
+            </div>
+            <div class="secondary-grid">
+                <a href="/learn/roe/" class="secondary-card">
+                    <div>
+                        <span style="font-size: 0.72rem; font-weight: 800; color: var(--emerald);">CAPITAL EFFICIENCY</span>
+                        <h4 style="font-size: 1.05rem; font-weight: 700; margin: 4px 0 6px;">ROE (Return on Equity)</h4>
+                        <p style="font-size: 0.82rem; color: var(--text-secondary);">How efficiently management deploys shareholder capital to generate net earnings.</p>
+                    </div>
+                    <span style="font-size: 0.82rem; color: var(--emerald); font-weight: 600; margin-top: 10px;">Explore ROE →</span>
+                </a>
+                <a href="/learn/profit-vs-cash-flow/" class="secondary-card">
+                    <div>
+                        <span style="font-size: 0.72rem; font-weight: 800; color: var(--emerald);">EARNINGS QUALITY</span>
+                        <h4 style="font-size: 1.05rem; font-weight: 700; margin: 4px 0 6px;">Profit vs Cash Flow</h4>
+                        <p style="font-size: 0.82rem; color: var(--text-secondary);">Why accrual accounting profit (PAT) and real bank cash flows (CFO) can differ significantly.</p>
+                    </div>
+                    <span style="font-size: 0.82rem; color: var(--emerald); font-weight: 600; margin-top: 10px;">Explore Cash Flow →</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="secondary-section">
+            <div class="section-label">
+                <span>UNDERSTAND PRICE CONTEXT</span>
+            </div>
+            <div class="secondary-grid">
+                <a href="/learn/52-week-high-low/" class="secondary-card">
+                    <div>
+                        <span style="font-size: 0.72rem; font-weight: 800; color: var(--blue);">PRICE POSITIONING</span>
+                        <h4 style="font-size: 1.05rem; font-weight: 700; margin: 4px 0 6px;">52-Week High &amp; Low Ranges</h4>
+                        <p style="font-size: 0.82rem; color: var(--text-secondary);">Contextualize current share price against historical 1-year boundaries without assuming extremes are automatic bargains.</p>
+                    </div>
+                    <span style="font-size: 0.82rem; color: var(--blue); font-weight: 600; margin-top: 10px;">Explore 52W Range →</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Full Curriculum Tracks -->
+        <div id="pathsSection">
+            <div class="section-label">
+                <span>ALL CURRICULUM PATHS</span>
+            </div>
+            
+            <div class="paths-grid">
+                {{ path_cards_html }}
+            </div>
+        </div>
+
+    </main>
+
+    <script>
+        function toggleTheme() {
+            const current = document.documentElement.getAttribute('data-theme') || 'light';
+            const next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.setItem('stockerboard_theme', next);
+            updateThemeBtn(next);
+        }
+        function updateThemeBtn(theme) {
+            const icon = document.getElementById('themeIcon');
+            const txt = document.getElementById('themeText');
+            if (icon && txt) {
+                icon.textContent = theme === 'dark' ? '☀️' : '🌙';
+                txt.textContent = theme === 'dark' ? 'Light' : 'Dark';
+            }
+        }
+        (function() {
+            const current = document.documentElement.getAttribute('data-theme') || 'light';
+            updateThemeBtn(current);
+        })();
+    </script>
+</body>
+</html>

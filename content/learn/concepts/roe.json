@@ -1,0 +1,140 @@
+{
+  "id": "roe",
+  "slug": "roe",
+  "title": "ROE: Return on Equity & Capital Efficiency",
+  "short_title": "ROE",
+  "category": "valuation",
+  "difficulty": "Beginner → Intermediate",
+  "estimated_read_min": 7,
+  "simple_explanation": {
+    "hero_headline": "How much profit a company generates relative to the shareholders' capital invested in the business.",
+    "core_intuition": "Return on Equity (ROE) measures how efficiently a company's management turns shareholders' equity into annual profits. For roughly every ₹100 of shareholder equity, it shows how many rupees of net profit the business generated over the period. It measures internal accounting return on equity, which is distinct from an investor's stock-market share price return.",
+    "real_world_analogy": "Imagine Stockerboard Coffee Ltd. operates with ₹100 Cr of shareholders' equity and generates ₹20 Cr in net profit for the year. Its ROE is ₹20 Cr ÷ ₹100 Cr = 20%. This means the company generated ₹20 of accounting profit for every ₹100 of shareholder capital supporting the business. A 20% ROE does not mean your stock price will rise 20%—it simply tells you how productively capital was used inside the firm.",
+    "key_takeaway": "ROE measures internal accounting profitability per rupee of equity capital, not guaranteed stock-market gains. Never interpret ROE in isolation."
+  },
+  "detailed_explanation": {
+    "formula_plain": "ROE (%) = (Annual Net Profit Attributable to Owners ÷ Average Shareholders' Equity) × 100",
+    "formula_variables": [
+      {
+        "name": "Net Profit Attributable to Owners",
+        "description": "Annual profit after tax and minority interests belonging to equity owners for the certified fiscal year."
+      },
+      {
+        "name": "Average Shareholders' Equity (Net Worth)",
+        "description": "The average of beginning and ending shareholder net worth: (Beginning Equity + Ending Equity) ÷ 2. Averaging aligns profits earned across the full fiscal year with capital deployed throughout the year."
+      }
+    ],
+    "worked_example": {
+      "company_name": "Stockerboard Foods Ltd. (Fictional)",
+      "inputs": {
+        "beginning_equity": "₹90.00 Cr",
+        "ending_equity": "₹110.00 Cr",
+        "annual_profit": "₹25.00 Cr"
+      },
+      "calculation_steps": [
+        "Step 1: Compute Average Equity = (₹90.00 Cr + ₹110.00 Cr) ÷ 2 = ₹100.00 Cr",
+        "Step 2: Identify Annual Owner Profit = ₹25.00 Cr",
+        "Step 3: Calculate ROE = (₹25.00 Cr ÷ ₹100.00 Cr) × 100 = 25.00%"
+      ],
+      "result": "25.00%",
+      "plain_interpretation": "For every ₹100 of average equity capital, the business generated ₹25 of profit during the fiscal year. Is 25% automatically excellent? No—one must investigate whether that return was driven by operating efficiency or high debt leverage."
+    },
+    "interpretation_guide": {
+      "what_higher_suggests": [
+        "Strong operating profitability and high asset utilization.",
+        "Asset-light business model with low reinvestment capital requirements.",
+        "Financial leverage effect: using debt to support assets, leaving a smaller equity denominator.",
+        "Share buybacks or accumulated losses that have artificially shrunk the equity base.",
+        "One-off extraordinary gains that temporarily inflate the numerator."
+      ],
+      "what_lower_suggests": [
+        "Capital-intensive business requiring large plant and machinery to generate earnings.",
+        "Subdued operating margins or competitive price pressure.",
+        "Recent large equity dilution (e.g. QIP, rights issue) where new capital has not yet generated productive earnings.",
+        "Cyclical downturn or heavy initial gestation period on new capital projects."
+      ],
+      "contextual_checks": [
+        "Inspect the Debt Multiplier: Is ROE high because the business is productive, or because high debt has shrunk equity?",
+        "Verify Consistency: Has the company sustained this ROE across 3 to 5 years, or was it a one-year windfall?",
+        "Compare Sector Economics: Compare software with software, manufacturing with manufacturing. Asset-light firms naturally generate higher ROE than capital-heavy utilities."
+      ]
+    },
+    "common_mistakes": [
+      {
+        "fallacy": "A higher ROE always means a superior company.",
+        "reality": "A company can manufacture a 35% ROE simply by borrowing heavily or shrinking its equity through losses and buybacks. Solvency, leverage, and earnings durability must be examined."
+      },
+      {
+        "fallacy": "A 20% ROE means my stock investment will deliver a 20% annual return.",
+        "reality": "ROE is an internal corporate accounting ratio (Net Income ÷ Equity). Stock market return depends on the price multiple you pay, dividend distributions, and valuation expansion."
+      },
+      {
+        "fallacy": "I can directly compare ROE across any two companies in the market.",
+        "reality": "Capital requirements differ structurally across industries. An IT services business naturally requires far less equity than an electric utility or steel mill."
+      },
+      {
+        "fallacy": "A single year of 30% ROE proves management excellence.",
+        "reality": "A single year can be distorted by one-off asset sales, tax credits, or cyclical windfalls. Long-term capital compounding requires multi-year consistency."
+      },
+      {
+        "fallacy": "High debt with high ROE is automatically bad.",
+        "reality": "Moderate, manageable debt at low interest rates can be prudent capital allocation for stable cash-flow generators. Debt magnifies both upside and downside risk; it requires risk evaluation, not a blanket verdict."
+      }
+    ]
+  },
+  "advanced_explanation": {
+    "edge_cases": [
+      "Negative Equity: When past accumulated losses wipe out net worth, equity becomes negative. Mathematical ROE becomes economically meaningless. Stockerboard marks this as '—' with the certified reason NEGATIVE_EQUITY.",
+      "Near-Zero Equity: A company with ₹1 Cr equity and ₹5 Cr profit produces a 500% ROE. This extreme percentage reflects denominator shrinkage, not exceptional operational compounding.",
+      "Attribution Semantics: In consolidated groups with subsidiaries, ROE must use Profit Attributable to Owners divided by Owner Net Worth, strictly excluding non-controlling minority interest."
+    ],
+    "cyclical_nuances": "DuPont 3-Way Decomposition: ROE = Net Profit Margin (Profit ÷ Revenue) × Asset Turnover (Revenue ÷ Assets) × Financial Leverage (Assets ÷ Equity). This reveals whether ROE is driven by genuine operating profitability, capital velocity, or balance-sheet leverage.",
+    "accounting_adjustments": "ROE vs ROCE: While ROE focuses strictly on equity shareholders' capital, ROCE (Return on Capital Employed) evaluates total capital (Equity + Debt). ROCE provides a vital check when a company appears artificially attractive on ROE due to heavy debt leverage.",
+    "stockme_provenance_note": "Stockerboard computes annual ROE from point-in-time-aware StockMe-certified data lineage. It requires certified beginning and ending balance sheets for identical consolidation scope. Standalone and consolidated metrics are never commingled, and missing data is never filled with coerced estimates."
+  },
+  "metric_binding": {
+    "metric_key": "roe_percent",
+    "sample_symbols": ["INFY", "TCS", "ALOKINDS"]
+  },
+  "prerequisites": [
+    "profit",
+    "what-is-a-stock"
+  ],
+  "next_concept": "52-week-high-low",
+  "related_concepts": [
+    "pe-ratio",
+    "profit",
+    "debt-to-equity",
+    "compare-companies"
+  ],
+  "quiz": {
+    "calculation_question": {
+      "question": "A company earns ₹24 Cr in net owner profit for the fiscal year. Its average shareholder net worth across the year was ₹120 Cr. What is its Return on Equity (ROE)?",
+      "options": [
+        "12.00%",
+        "20.00%",
+        "24.00%",
+        "50.00%"
+      ],
+      "correct_index": 1,
+      "explanation": "ROE = (Annual Profit ÷ Average Equity) × 100 = (₹24 Cr ÷ ₹120 Cr) × 100 = 20.00%. The company generated ₹20 of accounting profit for every ₹100 of average equity capital."
+    },
+    "reasoning_question": {
+      "question": "Company A has an ROE of 22% with almost no debt. Company B has an ROE of 31% supported by very high debt leverage. Which company represents the superior business?",
+      "options": [
+        "Company A, because debt is always harmful.",
+        "Company B, because a 31% ROE is higher than 22%.",
+        "Not enough information to determine without evaluating debt serviceability, margins, and capital stability.",
+        "Neither company is investable."
+      ],
+      "correct_index": 2,
+      "explanation": "A higher ROE alone never determines business quality. Company B's higher ROE may be an artifact of high financial leverage that increases downside solvency risk, while Company A's unleveraged 22% may reflect superior operating margins. Contextual balance-sheet investigation is always required."
+    }
+  },
+  "governance": {
+    "content_version": "1.0.0",
+    "review_status": "APPROVED",
+    "reviewed_by": "Antigravity Financial Architecture",
+    "last_updated": "2026-10-17"
+  }
+}

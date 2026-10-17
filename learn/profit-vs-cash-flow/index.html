@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profit vs Cash Flow: Why Earnings and Cash Can Differ | Stockerboard Learn</title>
+    <meta name="description" content="Understand Profit vs Cash Flow: Why Earnings and Cash Can Differ with simple real-world analogy, formula, worked example, and StockMe-certified snapshot data.">
+    <link rel="canonical" href="https://stockerboard.com/learn/profit-vs-cash-flow/">
+    <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
+    
+    <!-- Anti-flicker Theme Sync -->
+    <script>
+        (function() {
+            try {
+                const savedTheme = localStorage.getItem('stockerboard_theme');
+                const theme = savedTheme ? savedTheme : 'light';
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch(e) {}
+        })();
+    </script>
+    
+    <!-- Open Graph / Twitter Meta -->
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Stockerboard">
+    <meta property="og:title" content="Profit vs Cash Flow: Why Earnings and Cash Can Differ | Stockerboard Learn">
+    <meta property="og:description" content="Understand Profit vs Cash Flow: Why Earnings and Cash Can Differ with simple real-world analogy, formula, worked example, and StockMe-certified snapshot data.">
+    <meta property="og:url" content="https://stockerboard.com/learn/profit-vs-cash-flow/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Profit vs Cash Flow: Why Earnings and Cash Can Differ | Stockerboard Learn">
+    <meta name="twitter:description" content="Understand Profit vs Cash Flow: Why Earnings and Cash Can Differ with simple real-world analogy, formula, worked example, and StockMe-certified snapshot data.">
+    
+    <!-- Structured Data (LearningResource + BreadcrumbList) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "LearningResource",
+                "@id": "https://stockerboard.com/learn/profit-vs-cash-flow/",
+                "name": "Profit vs Cash Flow: Why Earnings and Cash Can Differ",
+                "description": "Understand Profit vs Cash Flow: Why Earnings and Cash Can Differ with simple real-world analogy, formula, worked example, and StockMe-certified snapshot data.",
+                "educationalLevel": "Beginner → Intermediate",
+                "learningResourceType": "Concept Lesson",
+                "timeRequired": "PT6M",
+                "breadcrumb": {
+                    "@id": "https://stockerboard.com/learn/profit-vs-cash-flow/#breadcrumb"
+                }
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": "https://stockerboard.com/learn/profit-vs-cash-flow/#breadcrumb",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://stockerboard.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Learn",
+                        "item": "https://stockerboard.com/learn/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Profit vs Cash Flow",
+                        "item": "https://stockerboard.com/learn/profit-vs-cash-flow/"
+                    }
+                ]
+            }
+        ]
+    }
+    </script>
+    
+    <style>
+        :root, [data-theme="dark"] {
+            --bg: #080C14;
+            --surface: #0E1420;
+            --surface-elevated: #151D2C;
+            --surface-card: rgba(21, 29, 44, 0.7);
+            --border: rgba(255, 255, 255, 0.08);
+            --border-subtle: rgba(255, 255, 255, 0.05);
+            --text-primary: #F8FAFC;
+            --text-secondary: #94A3B8;
+            --text-muted: #64748B;
+            --brand-green: #15803D;
+            --brand-green-light: #16A34A;
+            --emerald: #10B981;
+            --coral: #F43F5E;
+            --amber: #F59E0B;
+            --blue: #3B82F6;
+            --purple: #8B5CF6;
+            --font: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+            --card-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+        }
+        [data-theme="light"] {
+            --bg: #FCFDFD;
+            --surface: #FFFFFF;
+            --surface-elevated: #F8FAFC;
+            --surface-card: #FFFFFF;
+            --border: #E2E8F0;
+            --border-subtle: #F1F5F9;
+            --text-primary: #0F172A;
+            --text-secondary: #475569;
+            --text-muted: #64748B;
+            --brand-green: #15803D;
+            --brand-green-light: #16A34A;
+            --emerald: #10B981;
+            --coral: #F43F5E;
+            --amber: #D97706;
+            --blue: #2563EB;
+            --purple: #7C3AED;
+            --card-shadow: 0 1px 3px rgba(15, 23, 42, 0.04), 0 8px 20px -4px rgba(15, 23, 42, 0.06);
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: var(--font);
+            background-color: var(--bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding-bottom: 80px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 14px 24px;
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .header-left { display: flex; align-items: center; gap: 28px; }
+        .logo {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .logo-dot { width: 10px; height: 10px; background: var(--emerald); border-radius: 50%; }
+        .header-nav { display: inline-flex; align-items: center; gap: 20px; }
+        .header-nav a { color: var(--text-secondary); text-decoration: none; font-size: .92rem; font-weight: 500; transition: color 0.15s ease; }
+        .header-nav a:hover, .header-nav a.active { color: var(--emerald); }
+        .theme-btn {
+            background: transparent;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 6px 12px;
+            cursor: pointer;
+            color: var(--text-primary);
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: .85rem;
+        }
+        
+        /* Container */
+        .lesson-container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 24px 20px;
+        }
+        
+        /* Breadcrumbs */
+        .breadcrumbs {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .breadcrumbs a { color: var(--text-secondary); text-decoration: none; }
+        .breadcrumbs a:hover { color: var(--emerald); }
+        .breadcrumbs .sep { opacity: 0.5; }
+        .breadcrumbs .curr { color: var(--text-primary); font-weight: 600; }
+        
+        /* Sticky Depth Switcher */
+        .depth-switcher-wrap {
+            position: sticky;
+            top: 61px;
+            z-index: 90;
+            background: var(--surface);
+            padding: 10px 14px;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+            backdrop-filter: blur(8px);
+        }
+        .depth-chips {
+            display: flex;
+            gap: 6px;
+        }
+        .depth-btn {
+            background: transparent;
+            border: 1px solid transparent;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+        .depth-btn.active {
+            background: var(--surface-elevated);
+            color: var(--emerald);
+            border-color: rgba(16, 185, 129, 0.3);
+        }
+        .depth-meta {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        /* Hero Section */
+        .lesson-hero {
+            margin-bottom: 32px;
+        }
+        .hero-badges {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        .badge {
+            font-size: 0.74rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 4px 9px;
+            border-radius: 4px;
+            letter-spacing: 0.04em;
+        }
+        .badge-cat { background: rgba(59, 130, 246, 0.12); color: var(--blue); }
+        .badge-diff { background: rgba(16, 185, 129, 0.12); color: var(--emerald); }
+        .lesson-title {
+            font-size: 2.2rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            line-height: 1.25;
+            margin-bottom: 12px;
+        }
+        .lesson-headline {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            font-weight: 400;
+            line-height: 1.5;
+        }
+        
+        /* Section Cards */
+        .lesson-section {
+            background: var(--surface-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: var(--card-shadow);
+        }
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+        .section-title {
+            font-size: 1.18rem;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+        }
+        .section-icon { font-size: 1.2rem; }
+        
+        /* Analogy Box */
+        .analogy-card {
+            background: rgba(16, 185, 129, 0.05);
+            border-left: 3px solid var(--emerald);
+            padding: 16px 18px;
+            border-radius: 0 8px 8px 0;
+            margin: 16px 0;
+            font-size: 0.94rem;
+            color: var(--text-primary);
+        }
+        .takeaway-pill {
+            display: inline-block;
+            background: rgba(59, 130, 246, 0.08);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            color: var(--blue);
+            font-size: 0.84rem;
+            font-weight: 600;
+            padding: 8px 14px;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+        
+        /* Formula Card */
+        .formula-box {
+            background: var(--surface-elevated);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 18px;
+            text-align: center;
+            font-family: var(--font-mono);
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--emerald);
+            margin: 16px 0;
+        }
+        .formula-vars {
+            list-style: none;
+            margin-top: 14px;
+        }
+        .formula-vars li {
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: baseline;
+            gap: 8px;
+        }
+        .formula-vars strong { color: var(--text-primary); min-width: 140px; }
+        
+        /* Worked Example */
+        .worked-example-card {
+            background: var(--surface-elevated);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 18px;
+            margin: 14px 0;
+        }
+        .example-steps {
+            list-style: none;
+            margin: 12px 0;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+        .example-steps li { margin-bottom: 6px; }
+        .example-result {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            padding-top: 10px;
+            border-top: 1px solid var(--border);
+            margin-top: 10px;
+        }
+        
+        /* Live Stockerboard Data Slot */
+        .live-slot-card {
+            background: rgba(59, 130, 246, 0.04);
+            border: 1px solid rgba(59, 130, 246, 0.25);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 18px 0;
+        }
+        .live-slot-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 14px;
+        }
+        .live-badge-sync {
+            font-size: 0.75rem;
+            font-weight: 700;
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--emerald);
+            padding: 3px 8px;
+            border-radius: 4px;
+        }
+        .live-grid-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .live-metric-item {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 10px 14px;
+        }
+        .live-metric-title { font-size: 0.74rem; color: var(--text-muted); text-transform: uppercase; font-weight: 600; margin-bottom: 4px; }
+        .live-metric-val { font-size: 1.15rem; font-weight: 800; font-family: var(--font-mono); color: var(--text-primary); }
+        .live-slot-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            border-top: 1px solid rgba(59, 130, 246, 0.15);
+            padding-top: 12px;
+        }
+        .live-cta-btn {
+            background: var(--brand-green);
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 0.82rem;
+            font-weight: 600;
+            padding: 6px 14px;
+            border-radius: 6px;
+            transition: background 0.15s ease;
+        }
+        .live-cta-btn:hover { background: var(--brand-green-light); }
+        
+        /* Checklist */
+        .check-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin: 14px 0;
+        }
+        .check-box {
+            background: var(--surface-elevated);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 14px;
+        }
+        .check-box h4 { font-size: 0.9rem; margin-bottom: 8px; font-weight: 700; }
+        .check-box ul { list-style: none; font-size: 0.84rem; color: var(--text-secondary); }
+        .check-box li { margin-bottom: 6px; position: relative; padding-left: 14px; }
+        .check-box li::before { content: "•"; position: absolute; left: 0; color: var(--emerald); font-weight: bold; }
+        
+        /* Mistakes */
+        .mistake-card {
+            background: rgba(244, 63, 94, 0.04);
+            border: 1px solid rgba(244, 63, 94, 0.18);
+            border-radius: 8px;
+            padding: 14px 18px;
+            margin-bottom: 12px;
+        }
+        .mistake-fallacy { color: var(--coral); font-weight: 700; font-size: 0.9rem; margin-bottom: 4px; }
+        .mistake-reality { color: var(--text-secondary); font-size: 0.86rem; }
+        
+        /* Quiz */
+        .quiz-card {
+            background: var(--surface-elevated);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 18px;
+            margin-bottom: 16px;
+        }
+        .quiz-q { font-weight: 700; font-size: 0.94rem; margin-bottom: 12px; }
+        .quiz-opts { display: flex; flex-direction: column; gap: 8px; }
+        .quiz-opt-btn {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 14px;
+            border-radius: 6px;
+            font-size: 0.86rem;
+            color: var(--text-primary);
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+        .quiz-opt-btn:hover { border-color: var(--emerald); }
+        .quiz-opt-btn.correct { background: rgba(16, 185, 129, 0.15); border-color: var(--emerald); color: var(--emerald); font-weight: 700; }
+        .quiz-opt-btn.incorrect { background: rgba(244, 63, 94, 0.15); border-color: var(--coral); color: var(--coral); }
+        .quiz-feedback {
+            margin-top: 10px;
+            padding: 10px 14px;
+            border-radius: 6px;
+            font-size: 0.84rem;
+            display: none;
+        }
+        .quiz-feedback.show { display: block; }
+        .quiz-feedback.good { background: rgba(16, 185, 129, 0.1); color: var(--emerald); }
+        .quiz-feedback.bad { background: rgba(244, 63, 94, 0.1); color: var(--coral); }
+        
+        /* Collapsible Advanced */
+        details.advanced-details {
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            background: var(--surface-elevated);
+            margin-top: 14px;
+        }
+        details.advanced-details summary {
+            padding: 14px 18px;
+            font-weight: 700;
+            font-size: 0.94rem;
+            cursor: pointer;
+            user-select: none;
+            color: var(--purple);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .advanced-body {
+            padding: 0 18px 18px 18px;
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+            border-top: 1px solid var(--border);
+            margin-top: 8px;
+            padding-top: 14px;
+        }
+        
+        /* Level-Adapted Action Block */
+        .lesson-action-block {
+            margin: 28px 0;
+        }
+        .action-card {
+            background: rgba(16, 185, 129, 0.05);
+            border: 1px solid rgba(16, 185, 129, 0.25);
+            border-radius: 12px;
+            padding: 22px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+        .action-tag {
+            font-size: 0.72rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--emerald);
+        }
+        .action-title {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            margin: 4px 0;
+        }
+        .action-desc {
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+        }
+        .action-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 4px;
+        }
+        .btn-action {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            padding: 8px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.15s ease;
+        }
+        .btn-action.primary {
+            background: var(--brand-green);
+            color: #FFFFFF;
+        }
+        .btn-action.primary:hover {
+            background: var(--brand-green-light);
+        }
+        .btn-action.secondary {
+            background: var(--surface-elevated);
+            color: var(--text-primary);
+            border: 1px solid var(--border);
+        }
+        .btn-action.secondary:hover {
+            border-color: var(--emerald);
+        }
+
+        /* Navigation & Next */
+        .lesson-nav-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-top: 36px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+        }
+        .nav-prev-box, .nav-next-box {
+            display: flex;
+            flex-direction: column;
+        }
+        .nav-label { font-size: 0.74rem; text-transform: uppercase; color: var(--text-muted); font-weight: 700; margin-bottom: 4px; }
+        .nav-link {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .nav-link:hover { color: var(--emerald); }
+        
+        @media (max-width: 720px) {
+            .check-grid { grid-template-columns: 1fr; }
+            .lesson-title { font-size: 1.7rem; }
+            .header { padding: 12px 16px; }
+            .depth-switcher-wrap { flex-direction: column; align-items: flex-start; gap: 8px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="header-left">
+            <a href="/" class="logo">
+                <span class="logo-dot"></span>
+                <span>Stockerboard</span>
+            </a>
+            <nav class="header-nav">
+                <a href="/">Home</a>
+                <a href="/stocks/">Stocks</a>
+                <a href="/learn/" class="active">Learn</a>
+                <a href="/?mode=pro">Pro research</a>
+            </nav>
+        </div>
+        <div>
+            <button class="theme-btn" onclick="toggleTheme()" id="themeBtn">
+                <span id="themeIcon">🌙</span>
+                <span id="themeText">Theme</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="lesson-container">
+        
+        <!-- Breadcrumbs -->
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="sep">/</span>
+            <a href="/learn/">Learn</a>
+            <span class="sep">/</span>
+            <a href="/learn/start-here/">Start Here</a>
+            <span class="sep">/</span>
+            <span class="curr">Profit vs Cash Flow</span>
+        </nav>
+
+        <!-- Sticky Progressive Depth Switcher -->
+        <div class="depth-switcher-wrap" id="depthBar">
+            <div class="depth-chips">
+                <button class="depth-btn active" id="btnDepthSimple" onclick="switchLessonDepth('simple')">⚡ Quick (~2 min)</button>
+                <button class="depth-btn" id="btnDepthDeeper" onclick="switchLessonDepth('deeper')">📘 Understand (~5 min)</button>
+                <button class="depth-btn" id="btnDepthAdvanced" onclick="switchLessonDepth('advanced')">🔬 Deep Dive (10+ min)</button>
+            </div>
+            <div class="depth-meta">
+                <span>⏱️ 6 min read</span>
+                <span>•</span>
+                <span>Track: Beginner → Intermediate</span>
+            </div>
+        </div>
+
+        <!-- 01: Concept Hero -->
+        <header class="lesson-hero">
+            <div class="hero-badges">
+                <span class="badge badge-cat">financial-literacy</span>
+                <span class="badge badge-diff">Beginner → Intermediate</span>
+            </div>
+            <h1 class="lesson-title">Profit vs Cash Flow: Why Earnings and Cash Can Differ</h1>
+            <p class="lesson-headline">Why a business can report accounting profits without generating the same amount of cash in its bank account.</p>
+        </header>
+
+        <!-- 02: Simple Explanation & Analogy -->
+        <section class="lesson-section depth-block depth-simple active" id="sectionIntuition">
+            <div class="section-header">
+                <span class="section-icon">💡</span>
+                <h2 class="section-title">Core Intuition</h2>
+            </div>
+            <p style="font-size: 0.98rem; color: var(--text-primary); margin-bottom: 14px;">
+                Profit measures economic performance under accounting rules using accrual accounting, where revenue and expenses are recorded when earned or incurred. Operating cash flow tracks the actual movement of cash into and out of the business during that same period. A company can be profitable on paper while consuming cash to fund inventory or customer credit. Neither number should be interpreted alone.
+            </p>
+            
+            <div class="analogy-card">
+                <strong>Everyday Analogy:</strong>
+                <p style="margin-top: 6px;">Imagine Stockerboard Furniture Ltd. sells a handcrafted dining table today for ₹10,000. Under accounting rules, it records ₹10,000 in revenue today because the sale is complete. But the customer pays ₹4,000 today and the remaining ₹6,000 next month. Revenue is ₹10,000, but cash received today is only ₹4,000. Accounting revenue and cash timing are related, but they do not have to be equal.</p>
+            </div>
+
+            <div class="takeaway-pill">
+                📌 Key Takeaway: Profit tells you what the business earned under accounting rules. Operating cash flow shows how that accounting profit translated into actual cash movements. Never assume positive profit equals positive cash flow.
+            </div>
+        </section>
+
+        <!-- 03: Formula & Worked Fictional Example -->
+        <section class="lesson-section depth-block depth-deeper active" id="sectionFormula">
+            <div class="section-header">
+                <span class="section-icon">🧮</span>
+                <h2 class="section-title">The Formula &amp; How It Works</h2>
+            </div>
+            <p style="font-size: 0.92rem; color: var(--text-secondary);">
+                Stockerboard computes valuation metrics strictly from certified trailing reports. Here is the mathematical formula:
+            </p>
+
+            <div class="formula-box">
+                Operating Cash Flow ≈ Net Profit + Non-Cash Expenses (Depreciation) - Working Capital Increases (Receivables & Inventory) + Working Capital Decreases (Payables)
+            </div>
+
+            <ul class="formula-vars">
+                <li><strong>Net Profit / Profit After Tax (PAT):</strong> <span>Accounting profit after deducting all operating costs, interest, depreciation, and taxes from revenue under accrual accounting.</span></li>
+<li><strong>Non-Cash Expenses (Depreciation & Amortisation):</strong> <span>Accounting charges that reduce reported profit to reflect asset wear and tear over time, but do not involve a cash payment in the current period.</span></li>
+<li><strong>Working Capital Movements:</strong> <span>Changes in operating assets and liabilities: cash tied up in unpaid customer bills (Trade Receivables) and unsold stock (Inventory), offset by supplier credit (Trade Payables).</span></li>
+
+            </ul>
+
+            <div class="worked-example-card">
+                <h3 style="font-size: 0.96rem; font-weight: 700; margin-bottom: 8px;">
+                    Worked Example: Stockerboard Foods Ltd. (Simplified Educational Example)
+                </h3>
+                <ul class="example-steps">
+                    <li>Step 1: Start with Accounting Net Profit = ₹20.00 Cr</li>
+<li>Step 2: Add Non-Cash Depreciation (no cash left the bank) = ₹20.00 + ₹5.00 = ₹25.00 Cr</li>
+<li>Step 3: Subtract Increase in Trade Receivables (sales made on credit where cash has not arrived) = ₹25.00 - ₹8.00 = ₹17.00 Cr</li>
+<li>Step 4: Subtract Increase in Inventory (cash spent on raw materials and finished goods not yet sold) = ₹17.00 - ₹4.00 = ₹13.00 Cr</li>
+<li>Step 5: Add Increase in Trade Payables (supplier bills delayed, preserving cash temporarily) = ₹13.00 + ₹2.00 = ₹15.00 Cr</li>
+
+                </ul>
+                <div class="example-result">
+                    <span style="font-size: 0.85rem; color: var(--text-muted);">Result:</span>
+                    <strong style="font-family: var(--font-mono); color: var(--emerald); font-size: 1.15rem;">Simplified Operating Cash Flow: ₹15.00 Cr (vs Net Profit of ₹20.00 Cr)</strong>
+                    <span style="font-size: 0.82rem; color: var(--text-secondary);">(Stockerboard Foods earned ₹20.00 Cr in accounting profit, but actual cash generated from operations was ₹15.00 Cr. The ₹5.00 Cr difference is explained by non-cash depreciation (+₹5 Cr) offset by net cash absorbed into expanding customer credit and warehouse inventory (-₹10 Cr net working capital outflow). This is a simplified teaching example, not a complete statutory cash-flow statement.)</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 04: Real Stockerboard Data Slot (Rule D) -->
+        <section class="lesson-section depth-block depth-deeper active" id="sectionLiveStock">
+            <div class="section-header">
+                <span class="section-icon">⚡</span>
+                <h2 class="section-title">See It in a Real Company</h2>
+            </div>
+            <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 12px;">
+                Learn never invents numbers. Below are current observations directly from the canonical Stockerboard dataset for sample companies:
+            </p>
+
+            
+        <div class="live-slot-card snapshot-card">
+            <div class="live-slot-header">
+                <div>
+                    <strong style="font-size: 1.05rem; color: var(--text-primary);">INFOSYS LIMITED</strong>
+                    <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted); margin-left: 6px;">(INFY)</span>
+                </div>
+                <span class="live-badge-sync snapshot-badge" style="background: rgba(245, 158, 11, 0.15); color: #F59E0B;">🟡 Cash Flow Pending Layer</span>
+            </div>
+            
+            <div class="live-grid-metrics">
+                <div class="live-metric-item">
+                    <div class="live-metric-title">Trailing Net Profit (PAT TTM)</div>
+                    <div class="live-metric-val" style="color: var(--emerald);">₹30,325.00 Cr</div>
+                </div>
+                <div class="live-metric-item">
+                    <div class="live-metric-title">Operating Cash Flow (CFO)</div>
+                    <div class="live-metric-val" style="color: var(--text-muted);">—</div>
+                </div>
+            </div>
+            
+            <div class="live-slot-footer">
+                <span>📅 Period: <strong>2026-06-30 (TTM)</strong> • Scope: <strong>CONSOLIDATED</strong> • Status: <strong>Comparable cash-flow data unavailable</strong> • Source: <strong>Stockerboard Published Snapshot</strong></span>
+                <a href="/stocks/infosys/" class="live-cta-btn" target="_blank" rel="noopener">
+                    Inspect INFY Dossier →
+                </a>
+            </div>
+        </div>
+        
+        <div class="live-slot-card snapshot-card">
+            <div class="live-slot-header">
+                <div>
+                    <strong style="font-size: 1.05rem; color: var(--text-primary);">TATA CONSULTANCY SERV LT</strong>
+                    <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted); margin-left: 6px;">(TCS)</span>
+                </div>
+                <span class="live-badge-sync snapshot-badge" style="background: rgba(245, 158, 11, 0.15); color: #F59E0B;">🟡 Cash Flow Pending Layer</span>
+            </div>
+            
+            <div class="live-grid-metrics">
+                <div class="live-metric-item">
+                    <div class="live-metric-title">Trailing Net Profit (PAT TTM)</div>
+                    <div class="live-metric-val" style="color: var(--emerald);">₹50,055.00 Cr</div>
+                </div>
+                <div class="live-metric-item">
+                    <div class="live-metric-title">Operating Cash Flow (CFO)</div>
+                    <div class="live-metric-val" style="color: var(--text-muted);">—</div>
+                </div>
+            </div>
+            
+            <div class="live-slot-footer">
+                <span>📅 Period: <strong>2026-06-30 (TTM)</strong> • Scope: <strong>CONSOLIDATED</strong> • Status: <strong>Comparable cash-flow data unavailable</strong> • Source: <strong>Stockerboard Published Snapshot</strong></span>
+                <a href="/stocks/tcs/" class="live-cta-btn" target="_blank" rel="noopener">
+                    Inspect TCS Dossier →
+                </a>
+            </div>
+        </div>
+        
+        <div class="live-slot-card snapshot-card">
+            <div class="live-slot-header">
+                <div>
+                    <strong style="font-size: 1.05rem; color: var(--text-primary);">Aditya Birla Fashion and Retai</strong>
+                    <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted); margin-left: 6px;">(ABFRL)</span>
+                </div>
+                <span class="live-badge-sync snapshot-badge" style="background: rgba(245, 158, 11, 0.15); color: #F59E0B;">🟡 Cash Flow Pending Layer</span>
+            </div>
+            
+            <div class="live-grid-metrics">
+                <div class="live-metric-item">
+                    <div class="live-metric-title">Trailing Net Profit (PAT TTM)</div>
+                    <div class="live-metric-val" style="color: var(--coral);">-₹844.93 Cr</div>
+                </div>
+                <div class="live-metric-item">
+                    <div class="live-metric-title">Operating Cash Flow (CFO)</div>
+                    <div class="live-metric-val" style="color: var(--text-muted);">—</div>
+                </div>
+            </div>
+            
+            <div class="live-slot-footer">
+                <span>📅 Period: <strong>2026-06-30 (TTM)</strong> • Scope: <strong>CONSOLIDATED</strong> • Status: <strong>Comparable cash-flow data unavailable</strong> • Source: <strong>Stockerboard Published Snapshot</strong></span>
+                <a href="/stocks/abfrl/" class="live-cta-btn" target="_blank" rel="noopener">
+                    Inspect ABFRL Dossier →
+                </a>
+            </div>
+        </div>
+        
+
+            <p style="font-size: 0.78rem; color: var(--text-muted); margin-top: 10px;">
+                🔒 <strong>Data Provenance Notice:</strong> Stockerboard applies point-in-time-aware data lineage sourced from published company filings. Metric values match company dossiers and the screener exactly. Missing metrics render '—' rather than coerced or estimated numbers.
+            </p>
+        </section>
+
+        <!-- 05: How to Interpret It -->
+        <section class="lesson-section depth-block depth-deeper active" id="sectionInterpret">
+            <div class="section-header">
+                <span class="section-icon">🔍</span>
+                <h2 class="section-title">How Do I Interpret It?</h2>
+            </div>
+            <p style="font-size: 0.9rem; color: var(--text-secondary);">
+                Stockerboard adheres to <strong>Education, Not Recommendations</strong>. A higher or lower number is not automatically good or bad—it guides your investigation:
+            </p>
+
+            <div class="check-grid">
+                <div class="check-box">
+                    <h4 style="color: var(--blue);">When P/E is Higher:</h4>
+                    <ul>
+                        <li>Positive Profit & Positive CFO (Case A): Demonstrates healthy operational alignment where earnings translate steadily into realized cash flows.</li>
+<li>Significant Non-Cash Depreciation: Capital-intensive businesses (power plants, telecom infrastructure, manufacturing) frequently report CFO substantially higher than Net Profit because large non-cash depreciation charges reduce profit without consuming cash.</li>
+<li>Working Capital Inflows: Aggressive collection of customer receivables or efficient just-in-time inventory reduction can temporarily boost CFO above net profit.</li>
+<li>CFO higher than PAT is not automatically 'excellent': it can reflect delayed supplier payments or declining reinvestment in inventory.</li>
+
+                    </ul>
+                </div>
+                <div class="check-box">
+                    <h4 style="color: var(--amber);">When P/E is Lower:</h4>
+                    <ul>
+                        <li>Positive Profit & Negative/Lower CFO (Case B): Requires investigation into working capital—often cash is tied up in expanding trade receivables or unsold inventory during rapid sales growth.</li>
+<li>Negative CFO does NOT automatically prove fraud: growing businesses frequently consume cash to finance working capital before customer collections occur.</li>
+<li>Aggressive Revenue Recognition: If profit expands year after year while customer receivables multiply and cash collections languish, it signals potential collection risks.</li>
+<li>Negative Profit & Positive CFO (Case C): Heavy non-cash write-downs, restructuring charges, or working-capital release can produce positive operating cash despite accounting net losses.</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div style="margin-top: 14px; background: var(--surface-elevated); padding: 14px; border-radius: 8px; border: 1px solid var(--border);">
+                <h4 style="font-size: 0.88rem; margin-bottom: 6px; color: var(--text-primary);">Always Ask These 3 Questions Before Deciding:</h4>
+                <ul style="list-style: none; font-size: 0.84rem; color: var(--text-secondary);">
+                    <li style='margin-bottom: 6px;'>• Inspect Working Capital Trajectory: Are Trade Receivables and Inventory growing substantially faster than sales revenue?</li>
+<li style='margin-bottom: 6px;'>• Compare Multi-Year Cumulative Totals: Over 3 to 5 years, do cumulative operating cash flows roughly track cumulative accounting profits?</li>
+<li style='margin-bottom: 6px;'>• Check Reporting Scope Parity: Always compare Standalone Profit with Standalone Cash Flow, or Consolidated Profit with Consolidated Cash Flow—never mix scopes.</li>
+<li style='margin-bottom: 6px;'>• Verify Accounting Period: Ensure the cash flow period (FY or TTM) exactly matches the profit reporting period.</li>
+
+                </ul>
+            </div>
+        </section>
+
+        <!-- 06: What Can Fool Me? (Common Mistakes) -->
+        <section class="lesson-section depth-block depth-deeper active" id="sectionMistakes">
+            <div class="section-header">
+                <span class="section-icon">⚠️</span>
+                <h2 class="section-title">What Can Fool Me? (Common Traps)</h2>
+            </div>
+            
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: Net profit equals cash earned by the business.</div>
+            <div class="mistake-reality">✓ Reality: Profit is calculated under accrual accounting. Revenue is recorded when earned and expenses when incurred, regardless of when cash enters or leaves the bank.</div>
+        </div>
+        
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: Positive accounting profit guarantees that operating cash flow will be positive.</div>
+            <div class="mistake-reality">✓ Reality: A profitable business can experience negative cash flow if cash is heavily tied up in customer credit (receivables) or warehouse inventory.</div>
+        </div>
+        
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: Negative operating cash flow proves that a company is committing accounting fraud.</div>
+            <div class="mistake-reality">✓ Reality: Negative cash flow is a signal to investigate, not a conclusion. Fast-growing companies, seasonal businesses, and cyclical producers frequently absorb operating cash during expansion cycles.</div>
+        </div>
+        
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: Operating cash flow greater than Net Profit is always a sign of superior quality.</div>
+            <div class="mistake-reality">✓ Reality: High depreciation, delayed supplier payments (stretched payables), or depleting inventory reserves can inflate CFO above profit without improving underlying economics.</div>
+        </div>
+        
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: Cash flow means the balance sitting in the company's bank account.</div>
+            <div class="mistake-reality">✓ Reality: Operating cash flow measures cash generated or consumed by core operations during a specific period. It is not the total bank balance, which also reflects loan drawdowns, capital expenditures, and dividends.</div>
+        </div>
+        
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: Inspecting one single year of profit and cash flow is sufficient.</div>
+            <div class="mistake-reality">✓ Reality: Single-year working capital swings are normal. Multi-year cumulative trends provide far more reliable insight into whether earnings convert into real cash.</div>
+        </div>
+        
+        </section>
+
+        <!-- 07: Interactive Concept Quiz -->
+        <section class="lesson-section depth-block depth-deeper active" id="sectionQuiz">
+            <div class="section-header">
+                <span class="section-icon">📝</span>
+                <h2 class="section-title">Check Your Understanding</h2>
+            </div>
+            
+            <!-- Quiz 1: Calculation -->
+            <div class="quiz-card" id="quizCard1">
+                <div class="quiz-q">Q1 (Calculation): A company reports Net Profit of ₹20.00 Cr, non-cash Depreciation of +₹5.00 Cr, and an Increase in Trade Receivables of -₹10.00 Cr. Ignoring other working-capital items, what is its simplified Operating Cash Flow?</div>
+                <div class="quiz-opts" id="quizOpts1">
+                    <button class="quiz-opt-btn" onclick="answerQuiz(1, 0, this)">₹5.00 Cr</button>
+<button class="quiz-opt-btn" onclick="answerQuiz(1, 1, this)">₹15.00 Cr</button>
+<button class="quiz-opt-btn" onclick="answerQuiz(1, 2, this)">₹25.00 Cr</button>
+<button class="quiz-opt-btn" onclick="answerQuiz(1, 3, this)">₹35.00 Cr</button>
+
+                </div>
+                <div class="quiz-feedback" id="quizFeedback1"></div>
+            </div>
+
+            <!-- Quiz 2: Reasoning -->
+            <div class="quiz-card" id="quizCard2">
+                <div class="quiz-q">Q2 (Reasoning): A manufacturing company reports Net Profit of ₹100.00 Cr, but its Operating Cash Flow is -₹20.00 Cr. What should an investor conclude?</div>
+                <div class="quiz-opts" id="quizOpts2">
+                    <button class="quiz-opt-btn" onclick="answerQuiz(2, 0, this)">The company is committing accounting fraud and the financial statements are fake.</button>
+<button class="quiz-opt-btn" onclick="answerQuiz(2, 1, this)">The stock price must collapse immediately.</button>
+<button class="quiz-opt-btn" onclick="answerQuiz(2, 2, this)">Not enough information to conclude — Cash conversion deserves further investigation into inventory build-up, customer receivables, and business growth phase.</button>
+<button class="quiz-opt-btn" onclick="answerQuiz(2, 3, this)">Accounting profit is completely meaningless and should always be ignored.</button>
+
+                </div>
+                <div class="quiz-feedback" id="quizFeedback2"></div>
+            </div>
+        </section>
+
+        <!-- 08: Advanced Deep Dive (Collapsible) -->
+        <section class="lesson-section depth-block depth-advanced" id="sectionAdvanced">
+            <div class="section-header">
+                <span class="section-icon">🔬</span>
+                <h2 class="section-title">Advanced Methodology &amp; Edge Cases</h2>
+            </div>
+            
+            <details class="advanced-details" open>
+                <summary>
+                    <span>Cyclicals, Negative Earnings &amp; Accounting Adjustments</span>
+                    <span style="font-size: 0.76rem; opacity: 0.7;">▾ Expand</span>
+                </summary>
+                <div class="advanced-body">
+                    <p style="margin-bottom: 10px;"><strong>Edge Cases:</strong></p>
+                    <ul style="margin-left: 20px; margin-bottom: 14px;">
+                        <li>The Four-Quadrant Framework: In Case A (Profit+/CFO+), verify sustainability and capex needs. In Case B (Profit+/CFO-), investigate receivables aging and inventory build-up. In Case C (Profit-/CFO+), look for heavy depreciation or non-cash impairments. In Case D (Profit-/CFO-), check balance sheet liquidity and debt runway.</li>
+<li>The Three Cash Flow Sections: The statutory Cash Flow Statement separates (1) Operating Activities (core business cash generation), (2) Investing Activities (purchase of plant, machinery, capex, and acquisitions), and (3) Financing Activities (debt issuance/repayment, dividends, and equity issuance).</li>
+<li>Free Cash Flow (FCF) Introduction: Free Cash Flow represents operating cash flow minus capital expenditures (Capex). FCF is the cash left over after maintaining and expanding the physical asset base. A dedicated FCF lesson will cover this metric in depth later in the curriculum.</li>
+
+                    </ul>
+                    <p style="margin-bottom: 10px;"><strong>Cyclical Peak Paradox:</strong> Multi-Year Cash Conversion: Persistent divergence between earnings and cash is a critical research signal. If PAT rises from ₹100 Cr → ₹130 Cr → ₹170 Cr over three years while CFO declines from ₹95 Cr → ₹80 Cr → ₹55 Cr, investors must investigate whether customers are delaying payments, inventory is becoming obsolete, or revenue recognition is aggressive.</p>
+                    <p style="margin-bottom: 10px;"><strong>Earnings Quality Checks:</strong> Working Capital Dynamics: Receivables increase = cash tied up waiting for customers. Inventory increase = cash tied up in manufactured or purchased goods. Payables increase = cash preserved by delaying supplier payments. None of these movements are universally good or bad—growth requires working capital investment, whereas bloated inventory can precede markdowns.</p>
+                    <div style="margin-top: 14px; padding: 12px; background: rgba(139, 92, 246, 0.06); border-radius: 6px; border-left: 3px solid var(--purple);">
+                        <strong>Stockerboard Data Provenance:</strong> Stockerboard displays published Net Profit (PAT TTM) from certified FUNDAMENTAL_GOLD_V1 contracts alongside Operating Cash Flow. When official cash flow statements are pending ingestion for the matching period and scope, Stockerboard displays '—' rather than fabricating estimates. Zero is never coerced for missing financial data.
+                    </div>
+                </div>
+            </details>
+        </section>
+
+        
+
+        <!-- Practical Application Action Block -->
+        <section class="lesson-action-block">
+            <div class="action-card">
+                <div>
+                    <span class="action-tag">PRACTICAL APPLICATION</span>
+                    <h3 class="action-title">Put It Into Practice</h3>
+                    <p class="action-desc">Explore qualifying companies in the screener and compare evidence against industry benchmarks.</p>
+                </div>
+                <div class="action-buttons">
+                    <a href="/?mode=pro" class="btn-action primary">⚡ Explore Matching Companies →</a>
+<a href="/stocks/" class="btn-action secondary">📊 Compare Evidence →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 09: Navigation & Next Lesson -->
+        <footer class="lesson-nav-bar">
+            
+        <div class="nav-prev-box">
+            <span class="nav-label">Previous Lesson</span>
+            <a href="/learn/52-week-high-low/" class="nav-link">← 52-Week Range &amp; Price Position</a>
+        </div>
+        
+            
+        <div class="nav-next-box" style="text-align: right;">
+            <span class="nav-label">Next Lesson</span>
+            <a href="/learn/eps/" class="nav-link">EPS: Earnings Per Share Explained →</a>
+        </div>
+        
+        </footer>
+
+    </main>
+
+    <!-- Interactive Client Engine -->
+    <script>
+        // Theme Toggle Handler
+        function toggleTheme() {
+            const current = document.documentElement.getAttribute('data-theme') || 'light';
+            const next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.setItem('stockerboard_theme', next);
+            updateThemeBtn(next);
+        }
+        function updateThemeBtn(theme) {
+            const icon = document.getElementById('themeIcon');
+            const txt = document.getElementById('themeText');
+            if (icon && txt) {
+                icon.textContent = theme === 'dark' ? '☀️' : '🌙';
+                txt.textContent = theme === 'dark' ? 'Light' : 'Dark';
+            }
+        }
+        (function() {
+            const current = document.documentElement.getAttribute('data-theme') || 'light';
+            updateThemeBtn(current);
+        })();
+
+        // Progressive Depth Switcher
+        function switchLessonDepth(depth) {
+            document.querySelectorAll('.depth-btn').forEach(btn => btn.classList.remove('active'));
+            if (depth === 'simple') {
+                document.getElementById('btnDepthSimple').classList.add('active');
+                document.getElementById('sectionIntuition').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            } else if (depth === 'deeper') {
+                document.getElementById('btnDepthDeeper').classList.add('active');
+                document.getElementById('sectionFormula').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            } else if (depth === 'advanced') {
+                document.getElementById('btnDepthAdvanced').classList.add('active');
+                document.getElementById('sectionAdvanced').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+
+        // Quiz Evaluation Engine
+        const quizData = {
+            q1: {
+                correct: 1,
+                explanation: "Simplified Operating Cash Flow = Net Profit (₹20.00 Cr) + Depreciation (+₹5.00 Cr) - Increase in Receivables (-₹10.00 Cr) = ₹25.00 Cr - ₹10.00 Cr = ₹15.00 Cr. Depreciation is added back because no cash left the business, while uncollected credit sales reduce current cash inflow."
+            },
+            q2: {
+                correct: 2,
+                explanation: "Divergence between accounting profit and operating cash flow is a research signal to investigate, not an automatic proof of fraud. The company may be investing heavily in working capital to support rapid sales growth, experiencing seasonal timing mismatches, or extending customer credit. Careful inspection of balance sheet receivables and inventory is required before drawing conclusions."
+            }
+        };
+
+        function answerQuiz(qNum, selectedIdx, btnElem) {
+            const data = quizData['q' + qNum];
+            const optsContainer = document.getElementById('quizOpts' + qNum);
+            const feedbackBox = document.getElementById('quizFeedback' + qNum);
+            
+            // Disable other buttons in this quiz
+            optsContainer.querySelectorAll('.quiz-opt-btn').forEach((b, idx) => {
+                b.disabled = true;
+                if (idx === data.correct) {
+                    b.classList.add('correct');
+                } else if (idx === selectedIdx) {
+                    b.classList.add('incorrect');
+                }
+            });
+
+            feedbackBox.classList.add('show');
+            if (selectedIdx === data.correct) {
+                feedbackBox.className = 'quiz-feedback show good';
+                feedbackBox.innerHTML = '<strong>✓ Correct!</strong> ' + data.explanation;
+            } else {
+                feedbackBox.className = 'quiz-feedback show bad';
+                feedbackBox.innerHTML = '<strong>✕ Not quite.</strong> ' + data.explanation;
+            }
+        }
+    </script>
+</body>
+</html>

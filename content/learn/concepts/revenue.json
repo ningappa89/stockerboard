@@ -1,0 +1,163 @@
+{
+  "id": "revenue",
+  "slug": "revenue",
+  "title": "Revenue: How Much Business Is the Company Doing?",
+  "short_title": "Revenue (Top-Line Sales)",
+  "category": "financial-literacy",
+  "difficulty": "Foundations",
+  "estimated_read_min": 6,
+  "simple_explanation": {
+    "hero_headline": "Revenue is the amount a company recognizes from selling products or providing services during the reporting period, before deducting the relevant expenses.",
+    "core_intuition": "Revenue is the amount a company recognizes from selling products or providing services during the reporting period, before deducting the relevant expenses. Revenue is often called the **top line** because it appears near the top of the income statement. When customers buy goods or subscribe to services, the business records sales revenue. Revenue ≠ Profit and Revenue ≠ Cash Collected. Earning ₹100 Crore in revenue does NOT mean making ₹100 Crore in profit, nor does it mean ₹100 Crore in cash was collected today under accrual accounting—the business must still pay for raw materials, staff salaries, warehouse rent, loan interest, and government taxes. Revenue measures how much business was recognized; profit measures what actually remained.",
+    "real_world_analogy": "Imagine running the Stockerboard Tea Shop. In one month, you deliver 1,000 cups of special masala chai at an agreed price of ₹20 per cup. Your recognized sales revenue is ₹20,000 (1,000 × ₹20). But that ₹20,000 is NOT your profit—you must still pay for tea leaves, milk, spices, shop rent, and electricity. Nor does it mean ₹20,000 in cash is sitting in the cash drawer immediately if regular office customers pay on monthly credit. Revenue measures recognized business before expenses and cash collection.",
+    "key_takeaway": "Revenue is top-line sales. Profit is bottom-line earnings after expenses. High revenue does not guarantee high profit, and expanding revenue does not guarantee business health. Never confuse sales with profit."
+  },
+  "detailed_explanation": {
+    "formula_plain": "Revenue = Units Sold × Average Selling Price (or Total Invoiced Sales of Goods and Operating Services)",
+    "formula_variables": [
+      {
+        "name": "Units Sold / Service Volume",
+        "description": "The quantity of physical goods delivered, software subscriptions active, or client billable hours completed during the period."
+      },
+      {
+        "name": "Average Selling Price (ASP)",
+        "description": "The weighted average price realized per unit of product or service sold after standard trade discounts."
+      },
+      {
+        "name": "Sales Returns & Allowances",
+        "description": "Customer refunds, returned goods, or price adjustments deducted from gross sales to arrive at reported net revenue."
+      },
+      {
+        "name": "Revenue from Operations (Top-Line)",
+        "description": "Gross top-line sales earned from delivering core products and services before deducting operating costs, interest, or taxes."
+      }
+    ],
+    "worked_example": {
+      "company_name": "Stockerboard Tea & Spices Ltd. (Simplified Educational Example)",
+      "inputs": {
+        "units_sold": "1,000 units",
+        "unit_price": "₹500.00 per unit",
+        "total_expenses": "-₹4,00,000.00 (COGS, salaries, rent, taxes)"
+      },
+      "calculation_steps": [
+        "Step 1: Compute Top-Line Revenue = 1,000 units × ₹500.00 = ₹5,00,000.00",
+        "Step 2: Identify Operating Costs & Deductions = -₹4,00,000.00",
+        "Step 3: Compute Net Profit = ₹5,00,000.00 Revenue - ₹4,00,000.00 Expenses = ₹1,00,000.00",
+        "Step 4: Compare Revenue vs Profit = ₹5,00,000.00 Revenue converted into ₹1,00,000.00 Profit (20.0% conversion)",
+        "Step 5: Distinguish from Cash Inflow = Revenue is recognized upon delivery under accrual accounting; cash collected today may be higher or lower depending on customer credit terms (see Profit vs Cash Flow)."
+      ],
+      "result": "Revenue: ₹5,00,000.00 | Total Expenses: ₹4,00,000.00 | Net Profit: ₹1,00,000.00 (20.00% Margin)",
+      "plain_interpretation": "Stockerboard Tea & Spices generated ₹5,00,000.00 in top-line customer sales. After paying ₹4,00,000.00 in product costs, rent, wages, and taxes, ₹1,00,000.00 remained as bottom-line profit. Top-line sales of ₹5,00,000.00 did NOT equal ₹5,00,000.00 in owner earnings."
+    },
+    "interpretation_guide": {
+      "what_higher_suggests": [
+        "Expanding Customer Demand & Market Share: More customers purchasing products or services across domestic and export markets.",
+        "Pricing Power: The company can raise selling prices without losing customer volume, expanding top-line revenue organically.",
+        "Geographic or Product Line Expansion: Launching into new cities, opening retail stores, or introducing adjacent product lines.",
+        "Higher revenue is NOT automatically better: a ₹10,000 Cr revenue company with razor-thin margins can be vastly more fragile than a ₹2,000 Cr company with high pricing power and durable cash flow."
+      ],
+      "what_lower_suggests": [
+        "Customer Demand Contraction: Falling customer orders, loss of market share to competitors, or obsolescence of legacy products.",
+        "Price Discounting: Squeezed selling prices due to aggressive price wars in the sector.",
+        "Cyclical Downturn: Capital-intensive or commodity industries experiencing temporary demand collapses.",
+        "Voluntary Pruning: Management exiting low-margin, unprofitable business contracts to focus on higher-margin core operations."
+      ],
+      "contextual_checks": [
+        "Price vs Volume Growth: Did revenue increase because the business sold more units, or solely because prices were raised?",
+        "Organic vs Acquisition Growth: Did revenue grow from internal sales expansion, or from buying another company?",
+        "Compare Revenue vs Profit Growth: Is bottom-line profit expanding faster than top-line sales, or are rising costs squeezing margins?",
+        "Inspect Industry Presentation: Banks, NBFCs and other financial companies present income differently from manufacturing or retail businesses. Their published top-line measure may include interest and other financial income rather than conventional product sales, so it should be interpreted using the company's reporting structure."
+      ]
+    },
+    "common_mistakes": [
+      {
+        "fallacy": "Revenue equals profit.",
+        "reality": "Revenue is gross sales before expenses. Profit is what remains after deducting all product costs, salaries, rent, interest, depreciation, and taxes."
+      },
+      {
+        "fallacy": "Revenue equals cash collected in the bank today.",
+        "reality": "Under accrual accounting, revenue is recognized when goods or services are delivered, even if the customer pays on credit 60 days later."
+      },
+      {
+        "fallacy": "A company with higher revenue is automatically a better investment than one with lower revenue.",
+        "reality": "Investment quality depends on margins, return on capital, debt obligations, and valuation multiples. A ₹1,000 Cr revenue firm can be far more profitable than a ₹10,000 Cr low-margin giant."
+      },
+      {
+        "fallacy": "Revenue growth always means more units were sold to customers.",
+        "reality": "Revenue can grow solely from price inflation, currency depreciation, or acquiring another company even while unit volume shrinks."
+      },
+      {
+        "fallacy": "Growing revenue guarantees growing profit.",
+        "reality": "If raw material inflation, employee wages, or interest rise faster than sales, a company's revenue can surge while bottom-line profit collapses."
+      },
+      {
+        "fallacy": "One quarter tells the entire annual story.",
+        "reality": "Seasonal businesses (e.g. retailers during festival quarters, air conditioner makers in summer) have uneven sales across the year."
+      },
+      {
+        "fallacy": "Revenue is perfectly comparable across every sector using the same metric.",
+        "reality": "Banks, NBFCs and other financial companies present income differently from manufacturing or retail businesses. Their published top-line measure may include interest and other financial income rather than conventional product sales, so it should be interpreted using the company's reporting structure."
+      }
+    ]
+  },
+  "advanced_explanation": {
+    "edge_cases": [
+      "Price vs Volume Growth Dynamics: If Company A grows revenue from ₹1,000 Cr to ₹1,200 Cr (+20%) by selling 20% more units at stable prices, it demonstrates growing market adoption. If Company B grows revenue by 20% solely by raising prices while unit volume drops 10%, it signals pricing power but customer volume vulnerability.",
+      "Acquisition-Driven Revenue vs Organic Growth: A company with ₹1,000 Cr revenue that acquires a competitor with ₹500 Cr revenue reports ₹1,500 Cr combined revenue (+50%). Investors must separate external acquired revenue from organic internal growth.",
+      "Orders and Bookings vs Recognized Revenue: In construction, defense, and enterprise software, signing a ₹1,000 Cr contract does not create ₹1,000 Cr revenue immediately. Revenue is recognized progressively as project milestones are completed or subscription periods elapse.",
+      "Sector Revenue Presentation: Manufacturing and consumer firms report 'Revenue from Operations' (gross product sales). Software companies report recurring subscription ARR. Banks, NBFCs and other financial companies present income differently from manufacturing or retail businesses. Their published top-line measure may include interest and other financial income rather than conventional product sales, so it should be interpreted using the company's reporting structure."
+    ],
+    "cyclical_nuances": "Cyclical Peak Revenue Traps: Commodity producers (steel, aluminium, petrochemicals) often experience revenue surges of 100% to 200% when global commodity prices spike. Beginner investors mistake peak cyclical revenue for permanent business scale right before commodity prices normalize.",
+    "accounting_adjustments": "Seasonality & Trailing 12-Month (TTM) Aggregation: A single strong quarter (e.g. festive retail in Q3) does not represent the annual run rate. Stockerboard uses TTM Revenue (sum of 4 sequential quarters) to smooth seasonal fluctuations while providing a recent 12-month baseline.",
+    "stockme_provenance_note": "Stockerboard sources canonical Trailing Revenue (REVENUE_TTM) from certified FUNDAMENTAL_GOLD_V1 contracts using the production method: SUM_OF_4_SEQUENTIAL_QUARTERLY_REVENUE (sum_4q_rolling across four sequential quarters). When displayed alongside Net Profit (PAT_TTM), strict period and scope parity is enforced (REVENUE_PERIOD == PAT_PERIOD and REVENUE_SCOPE == PAT_SCOPE). The governed Stockerboard contract contains a negative published Revenue value for this case. Learn preserves the published value rather than coercing it to zero or hiding it."
+  },
+  "metric_binding": {
+    "metric_key": "revenue_ttm",
+    "sample_symbols": ["INFY", "ABFRL", "3MINDIA"]
+  },
+  "prerequisites": [
+    "what-is-a-stock"
+  ],
+  "next_concept": "profit",
+  "related_concepts": [
+    "profit",
+    "profit-vs-cash-flow",
+    "eps",
+    "pe-ratio",
+    "roe",
+    "market-cap"
+  ],
+  "quiz": {
+    "calculation_question": {
+      "question": "A business sells 1,000 units of its product at an average selling price of ₹500.00 per unit. What is its top-line sales Revenue?",
+      "options": [
+        "₹50,000.00",
+        "₹5,00,000.00",
+        "₹50,00,000.00",
+        "Cannot calculate without knowing costs"
+      ],
+      "correct_index": 1,
+      "explanation": "Revenue = Units Sold × Average Selling Price = 1,000 units × ₹500.00 = ₹5,00,000.00. Revenue is the gross top-line amount earned from selling goods before deducting operating costs or taxes. Simplified educational example."
+    },
+    "reasoning_question": {
+      "question": "A company reports that its annual sales Revenue grew by 30%, but its Net Profit fell by 20% over the same year. What should an investor conclude?",
+      "options": [
+        "The business definitely improved because top-line revenue growth is all that matters.",
+        "Revenue growth guarantees that future profits will soon rebound to record highs.",
+        "Not enough information to assume business health — operating expenses or raw material costs rose faster than sales, squeezing margins and requiring deeper investigation.",
+        "The stock price must immediately collapse to zero."
+      ],
+      "correct_index": 2,
+      "explanation": "Expanding revenue does not guarantee expanding profits. When expenses, input costs, logistics, or financing burdens grow faster than top-line sales, profit margins shrink. Investors must investigate cost structures, competitive pricing pressure, and interest burdens before evaluating business health."
+    }
+  },
+  "governance": {
+    "content_version": "1.0.0",
+    "canonical_revenue_metric": "REVENUE_TTM",
+    "revenue_ttm_method": "SUM_OF_4_SEQUENTIAL_QUARTERLY_REVENUE",
+    "contract_version": "FUNDAMENTAL_GOLD_V1.0.0",
+    "review_status": "APPROVED",
+    "reviewed_by": "Antigravity Financial Architecture",
+    "last_updated": "2026-10-17"
+  }
+}

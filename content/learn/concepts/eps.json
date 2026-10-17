@@ -1,0 +1,155 @@
+{
+  "id": "eps",
+  "slug": "eps",
+  "title": "EPS: Earnings Per Share Explained",
+  "short_title": "EPS (Earnings Per Share)",
+  "category": "financial-literacy",
+  "difficulty": "Beginner → Intermediate",
+  "estimated_read_min": 6,
+  "simple_explanation": {
+    "hero_headline": "How much of a company's total accounting profit corresponds to each individual share of stock.",
+    "core_intuition": "A company earns profit at the corporate level. Earnings Per Share (EPS) divides that corporate net profit across the total number of shares, establishing how much profit corresponds to one share. EPS is the essential bridge connecting company profitability to individual share prices, providing the earnings denominator used to calculate the P/E ratio. Higher EPS does not automatically mean a better or cheaper company.",
+    "real_world_analogy": "Imagine Stockerboard Foods Ltd. earns an annual net profit of ₹100 Crore. If the company has 10 Crore equity shares outstanding, each share represents ₹10 of earnings (₹100 Cr ÷ 10 Cr shares = ₹10 EPS). This does NOT mean shareholders receive ₹10 in cash—the company may reinvest that profit into new warehouses or keep it in the bank. EPS is an accounting allocation of earnings, NOT a cash dividend payout.",
+    "key_takeaway": "Profit tells you how much the business earned in total. EPS tells you how much profit corresponds to each share. Never confuse EPS with cash dividends, and never assume higher EPS automatically indicates a superior investment."
+  },
+  "detailed_explanation": {
+    "formula_plain": "Basic EPS = Profit After Tax (PAT) Attributable to Equity Owners ÷ Weighted Average Number of Equity Shares Outstanding",
+    "formula_variables": [
+      {
+        "name": "Profit After Tax (PAT)",
+        "description": "Accounting net profit attributable to equity shareholders after deducting all operating costs, interest, depreciation, minority interest, and taxes."
+      },
+      {
+        "name": "Weighted Average Number of Shares",
+        "description": "The time-weighted number of equity shares outstanding during the period (under Ind AS 33 / AS 20), accounting for share issuances, buybacks, and splits."
+      },
+      {
+        "name": "Current Market Price (CMP)",
+        "description": "The latest exchange trading price per share, used alongside EPS to compute the Price-to-Earnings (P/E) multiple: P/E = CMP ÷ EPS."
+      }
+    ],
+    "worked_example": {
+      "company_name": "Stockerboard Foods Ltd. (Simplified Educational Example)",
+      "inputs": {
+        "annual_profit": "₹120.00 Cr",
+        "shares_outstanding": "12.00 Cr shares",
+        "share_price": "₹200.00",
+        "dividend_per_share": "₹3.00"
+      },
+      "calculation_steps": [
+        "Step 1: Identify Net Profit Attributable to Equity Owners = ₹120.00 Cr",
+        "Step 2: Identify Weighted Average Number of Shares = 12.00 Cr shares",
+        "Step 3: Compute Basic EPS = ₹120.00 Cr ÷ 12.00 Cr shares = ₹10.00 per share",
+        "Step 4: Connect to Market Price (P/E) = ₹200.00 CMP ÷ ₹10.00 EPS = 20.00x P/E",
+        "Step 5: Distinguish from Dividend = The company distributed ₹3.00 per share as dividend. The remaining ₹7.00 per share of accounting earnings was not distributed as dividend. That does NOT mean ₹7.00 cash per share simply remained in the company's bank account. Accounting earnings and cash movement are fundamentally different (see Profit vs Cash Flow)."
+      ],
+      "result": "Basic EPS: ₹10.00 per share | Implied P/E: 20.00x | Dividend Distributed: ₹3.00 per share | Undistributed Accounting Earnings: ₹7.00 per share",
+      "plain_interpretation": "Stockerboard Foods generated ₹10.00 of accounting profit for every share of stock. An investor paying ₹200.00 per share is paying 20 times trailing earnings (20x P/E). The company distributed ₹3.00 per share as dividend, while the remaining accounting earnings were not distributed as dividend. Crucially, this does NOT mean ₹7.00 cash per share simply remained in the company's bank account, because accounting earnings and cash movement are fundamentally different."
+    },
+    "interpretation_guide": {
+      "what_higher_suggests": [
+        "Genuine Business Growth: Rising EPS driven by expanding revenues and expanding net profit margins across stable share counts.",
+        "Share Buybacks: When a company repurchases and cancels its own shares, total profit is divided among fewer shares, raising EPS even if net profit remains flat.",
+        "Operational Efficiency: Lower cost of goods sold, reduced interest expenses from debt pay-down, or operating leverage.",
+        "Higher EPS is NOT automatically better: a ₹500 stock with ₹10 EPS (50x P/E) is substantially more expensive than a ₹50 stock with ₹5 EPS (10x P/E)."
+      ],
+      "what_lower_suggests": [
+        "Business Contraction: Falling sales, competitive margin compression, or rising operating expenses reducing overall profit.",
+        "Equity Dilution: Issuing new shares to raise capital, fund acquisitions, or grant employee stock options increases the share count, spreading profit thinner.",
+        "Cyclical Downturn: Capital-intensive or commodity businesses (metals, chemicals) often experience severe profit swings that temporarily crush EPS.",
+        "Non-Cash Restructuring Charges: One-time asset write-downs or impairments reduce accounting profit and EPS without representing current operating trends."
+      ],
+      "contextual_checks": [
+        "Check Profit vs Share Count: Did EPS rise because company profit grew, or simply because shares were repurchased?",
+        "Compare with Current Market Price: Always compute P/E (Price ÷ EPS) to see how much the market is charging for each rupee of earnings.",
+        "Inspect Trailing 12-Month (TTM) vs Quarterly: Stockerboard uses TTM EPS (sum of 4 rolling quarters) to smooth out quarterly seasonality.",
+        "Verify Accounting Scope: Ensure EPS uses Consolidated earnings when analyzing companies with operating subsidiaries."
+      ]
+    },
+    "common_mistakes": [
+      {
+        "fallacy": "EPS is the cash dividend I will receive in my bank account.",
+        "reality": "EPS is an accounting metric showing earnings attributable per share. Dividends are discretionary cash payouts decided by the board; a company with ₹50 EPS might pay ₹0 in dividends and reinvest 100% of its earnings."
+      },
+      {
+        "fallacy": "A company with higher EPS is always a better investment than one with lower EPS.",
+        "reality": "EPS depends entirely on arbitrary share counts. Company A earning ₹100 Cr with 1 Cr shares has ₹100 EPS. Company B earning ₹10,000 Cr with 1,000 Cr shares has ₹10 EPS. Company B is 100 times larger; EPS size alone reveals nothing about valuation or quality."
+      },
+      {
+        "fallacy": "EPS growth always proves that the underlying business is selling more and growing profits.",
+        "reality": "A company can grow EPS while business profits stagnate or shrink by aggressively buying back shares. Always inspect whether net profit in rupees grew alongside per-share EPS."
+      },
+      {
+        "fallacy": "Negative EPS means financial data is missing or corrupted.",
+        "reality": "Negative EPS is a genuine accounting reality representing a net loss per share. Stockerboard preserves negative EPS with a negative sign rather than hiding it or setting it to zero."
+      },
+      {
+        "fallacy": "A 2-for-1 stock split cuts my earnings in half.",
+        "reality": "A 2-for-1 stock split doubles your number of shares while halving EPS. Your proportional economic share of total company profits remains 100% unchanged."
+      },
+      {
+        "fallacy": "EPS of ₹50 means the stock is cheap if its share price is ₹1,000.",
+        "reality": "A stock trading at ₹1,000 with ₹50 EPS trades at 20x P/E. Whether 20x is cheap depends on business growth, capital efficiency (ROE), sector peers, and earnings sustainability."
+      }
+    ]
+  },
+  "advanced_explanation": {
+    "edge_cases": [
+      "Basic vs Diluted EPS: Basic EPS uses the weighted-average number of shares actually outstanding. Diluted EPS calculates per-share earnings assuming all potentially dilutive convertible bonds, warrants, and employee stock options were converted into shares. If dilution is significant, Diluted EPS will be lower than Basic EPS.",
+      "The Buyback & Dilution Mechanism: If a company earns ₹100 Cr and buys back 20% of its shares (reducing count from 10 Cr to 8 Cr), EPS jumps from ₹10.00 to ₹12.50 (+25%) with zero business growth. Conversely, issuing 2 Cr new shares drops EPS from ₹10.00 to ₹8.33 (-17%).",
+      "Corporate Actions and Historical Restatement: Under Ind AS 33, when a stock undergoes a bonus issue or stock split, historical EPS across all previous comparative periods must be retroactively restated so prior years remain economically comparable with today's per-share figures."
+    ],
+    "cyclical_nuances": "Cyclical Peak EPS Traps: In cyclical industries (steel, shipping, semiconductors), EPS can surge 500% at the peak of an economic cycle when commodity prices spike. Beginner investors seeing a sudden jump to ₹100 EPS often assume that earnings are permanent, buying right before profits normalize back to ₹20 EPS.",
+    "accounting_adjustments": "One-Off Income and Normalized EPS: Reported Net Profit may include non-recurring gains such as selling a subsidiary or property. If a company with normal profit of ₹100 Cr records an ₹80 Cr land sale, reported EPS spikes by 80%. Astute researchers strip out one-time exceptional items to assess sustainable operating earnings.",
+    "stockme_provenance_note": "Conceptually in financial accounting, Basic EPS ≈ Profit attributable to equity holders ÷ Weighted-average equity shares across the reporting period. In Stockerboard's published implementation, Trailing Basic EPS (EPS_BASIC_TTM) is sourced from certified FUNDAMENTAL_GOLD_V1 contracts using the production method: SUM_OF_4_SEQUENTIAL_QUARTERLY_BASIC_EPS (Q1 Basic EPS + Q2 Basic EPS + Q3 Basic EPS + Q4 Basic EPS across four sequential quarters). This published metric serves as the authoritative denominator in Stockerboard's certified Valuation Gold Engine for P/E computation."
+  },
+  "metric_binding": {
+    "metric_key": "eps_basic_ttm",
+    "sample_symbols": ["INFY", "TCS", "ABFRL"]
+  },
+  "prerequisites": [
+    "what-is-a-stock",
+    "profit"
+  ],
+  "next_concept": "pe-ratio",
+  "related_concepts": [
+    "profit",
+    "pe-ratio",
+    "roe",
+    "profit-vs-cash-flow",
+    "share-price",
+    "market-cap"
+  ],
+  "quiz": {
+    "calculation_question": {
+      "question": "A company reports annual Net Profit of ₹120.00 Cr and has 12.00 Cr relevant equity shares outstanding. What is its Basic EPS?",
+      "options": [
+        "₹5.00 per share",
+        "₹10.00 per share",
+        "₹12.00 per share",
+        "₹120.00 per share"
+      ],
+      "correct_index": 1,
+      "explanation": "Basic EPS = Profit After Tax (PAT) ÷ Number of Shares = ₹120.00 Cr ÷ 12.00 Cr shares = ₹10.00 per share. Each share represents ₹10.00 of accounting profit earned by the business during the year."
+    },
+    "reasoning_question": {
+      "question": "A company's annual profit stayed exactly flat at ₹100.00 Cr, but its share count fell from 10.00 Cr to 8.00 Cr due to share buybacks, causing EPS to rise from ₹10.00 to ₹12.50. What can an investor conclude?",
+      "options": [
+        "Company sales revenue must have doubled.",
+        "The board increased the cash dividend by 25%.",
+        "Not enough information to conclude business growth — EPS rose because the same corporate profit was distributed across fewer shares.",
+        "The company is automatically a superior investment compared to its competitors."
+      ],
+      "correct_index": 2,
+      "explanation": "EPS is a ratio of earnings to share count. When shares are repurchased, the denominator shrinks, which mathematically increases EPS even if the underlying business experienced zero growth in revenue or net profit. Investors must always investigate whether EPS expansion was driven by operational growth, capital allocation (buybacks), or accounting changes."
+    }
+  },
+  "governance": {
+    "content_version": "1.0.0",
+    "canonical_metric": "EPS_BASIC_TTM",
+    "eps_ttm_method": "SUM_OF_4_SEQUENTIAL_QUARTERLY_BASIC_EPS",
+    "review_status": "APPROVED",
+    "reviewed_by": "Antigravity Financial Architecture",
+    "last_updated": "2026-10-17"
+  }
+}

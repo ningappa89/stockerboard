@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Is a Stock? Understanding Ownership in a Company | Stockerboard Learn</title>
+    <meta name="description" content="Understand What Is a Stock? Understanding Ownership in a Company with simple real-world analogy, formula, worked example, and StockMe-certified snapshot data.">
+    <link rel="canonical" href="https://stockerboard.com/learn/what-is-a-stock/">
+    <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
+    
+    <!-- Anti-flicker Theme Sync -->
+    <script>
+        (function() {
+            try {
+                const savedTheme = localStorage.getItem('stockerboard_theme');
+                const theme = savedTheme ? savedTheme : 'light';
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch(e) {}
+        })();
+    </script>
+    
+    <!-- Open Graph / Twitter Meta -->
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Stockerboard">
+    <meta property="og:title" content="What Is a Stock? Understanding Ownership in a Company | Stockerboard Learn">
+    <meta property="og:description" content="Understand What Is a Stock? Understanding Ownership in a Company with simple real-world analogy, formula, worked example, and StockMe-certified snapshot data.">
+    <meta property="og:url" content="https://stockerboard.com/learn/what-is-a-stock/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="What Is a Stock? Understanding Ownership in a Company | Stockerboard Learn">
+    <meta name="twitter:description" content="Understand What Is a Stock? Understanding Ownership in a Company with simple real-world analogy, formula, worked example, and StockMe-certified snapshot data.">
+    
+    <!-- Structured Data (LearningResource + BreadcrumbList) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "LearningResource",
+                "@id": "https://stockerboard.com/learn/what-is-a-stock/",
+                "name": "What Is a Stock? Understanding Ownership in a Company",
+                "description": "Understand What Is a Stock? Understanding Ownership in a Company with simple real-world analogy, formula, worked example, and StockMe-certified snapshot data.",
+                "educationalLevel": "Foundations",
+                "learningResourceType": "Concept Lesson",
+                "timeRequired": "PT3M",
+                "breadcrumb": {
+                    "@id": "https://stockerboard.com/learn/what-is-a-stock/#breadcrumb"
+                }
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": "https://stockerboard.com/learn/what-is-a-stock/#breadcrumb",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://stockerboard.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Learn",
+                        "item": "https://stockerboard.com/learn/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "What Is a Stock?",
+                        "item": "https://stockerboard.com/learn/what-is-a-stock/"
+                    }
+                ]
+            }
+        ]
+    }
+    </script>
+    
+    <style>
+        :root, [data-theme="dark"] {
+            --bg: #080C14;
+            --surface: #0E1420;
+            --surface-elevated: #151D2C;
+            --surface-card: rgba(21, 29, 44, 0.7);
+            --border: rgba(255, 255, 255, 0.08);
+            --border-subtle: rgba(255, 255, 255, 0.05);
+            --text-primary: #F8FAFC;
+            --text-secondary: #94A3B8;
+            --text-muted: #64748B;
+            --brand-green: #15803D;
+            --brand-green-light: #16A34A;
+            --emerald: #10B981;
+            --coral: #F43F5E;
+            --amber: #F59E0B;
+            --blue: #3B82F6;
+            --purple: #8B5CF6;
+            --font: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+            --card-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+        }
+        [data-theme="light"] {
+            --bg: #FCFDFD;
+            --surface: #FFFFFF;
+            --surface-elevated: #F8FAFC;
+            --surface-card: #FFFFFF;
+            --border: #E2E8F0;
+            --border-subtle: #F1F5F9;
+            --text-primary: #0F172A;
+            --text-secondary: #475569;
+            --text-muted: #64748B;
+            --brand-green: #15803D;
+            --brand-green-light: #16A34A;
+            --emerald: #10B981;
+            --coral: #F43F5E;
+            --amber: #D97706;
+            --blue: #2563EB;
+            --purple: #7C3AED;
+            --card-shadow: 0 1px 3px rgba(15, 23, 42, 0.04), 0 8px 20px -4px rgba(15, 23, 42, 0.06);
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: var(--font);
+            background-color: var(--bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding-bottom: 80px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 14px 24px;
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .header-left { display: flex; align-items: center; gap: 28px; }
+        .logo {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .logo-dot { width: 10px; height: 10px; background: var(--emerald); border-radius: 50%; }
+        .header-nav { display: inline-flex; align-items: center; gap: 20px; }
+        .header-nav a { color: var(--text-secondary); text-decoration: none; font-size: .92rem; font-weight: 500; transition: color 0.15s ease; }
+        .header-nav a:hover, .header-nav a.active { color: var(--emerald); }
+        .theme-btn {
+            background: transparent;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 6px 12px;
+            cursor: pointer;
+            color: var(--text-primary);
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: .85rem;
+        }
+        
+        /* Container */
+        .lesson-container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 24px 20px;
+        }
+        
+        /* Breadcrumbs */
+        .breadcrumbs {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .breadcrumbs a { color: var(--text-secondary); text-decoration: none; }
+        .breadcrumbs a:hover { color: var(--emerald); }
+        .breadcrumbs .sep { opacity: 0.5; }
+        .breadcrumbs .curr { color: var(--text-primary); font-weight: 600; }
+        
+        /* Sticky Depth Switcher */
+        .depth-switcher-wrap {
+            position: sticky;
+            top: 61px;
+            z-index: 90;
+            background: var(--surface);
+            padding: 10px 14px;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+            backdrop-filter: blur(8px);
+        }
+        .depth-chips {
+            display: flex;
+            gap: 6px;
+        }
+        .depth-btn {
+            background: transparent;
+            border: 1px solid transparent;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+        .depth-btn.active {
+            background: var(--surface-elevated);
+            color: var(--emerald);
+            border-color: rgba(16, 185, 129, 0.3);
+        }
+        .depth-meta {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        /* Hero Section */
+        .lesson-hero {
+            margin-bottom: 32px;
+        }
+        .hero-badges {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        .badge {
+            font-size: 0.74rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 4px 9px;
+            border-radius: 4px;
+            letter-spacing: 0.04em;
+        }
+        .badge-cat { background: rgba(59, 130, 246, 0.12); color: var(--blue); }
+        .badge-diff { background: rgba(16, 185, 129, 0.12); color: var(--emerald); }
+        .lesson-title {
+            font-size: 2.2rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            line-height: 1.25;
+            margin-bottom: 12px;
+        }
+        .lesson-headline {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            font-weight: 400;
+            line-height: 1.5;
+        }
+        
+        /* Section Cards */
+        .lesson-section {
+            background: var(--surface-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: var(--card-shadow);
+        }
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+        .section-title {
+            font-size: 1.18rem;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+        }
+        .section-icon { font-size: 1.2rem; }
+        
+        /* Analogy Box */
+        .analogy-card {
+            background: rgba(16, 185, 129, 0.05);
+            border-left: 3px solid var(--emerald);
+            padding: 16px 18px;
+            border-radius: 0 8px 8px 0;
+            margin: 16px 0;
+            font-size: 0.94rem;
+            color: var(--text-primary);
+        }
+        .takeaway-pill {
+            display: inline-block;
+            background: rgba(59, 130, 246, 0.08);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            color: var(--blue);
+            font-size: 0.84rem;
+            font-weight: 600;
+            padding: 8px 14px;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+        
+        /* Formula Card */
+        .formula-box {
+            background: var(--surface-elevated);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 18px;
+            text-align: center;
+            font-family: var(--font-mono);
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--emerald);
+            margin: 16px 0;
+        }
+        .formula-vars {
+            list-style: none;
+            margin-top: 14px;
+        }
+        .formula-vars li {
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: baseline;
+            gap: 8px;
+        }
+        .formula-vars strong { color: var(--text-primary); min-width: 140px; }
+        
+        /* Worked Example */
+        .worked-example-card {
+            background: var(--surface-elevated);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 18px;
+            margin: 14px 0;
+        }
+        .example-steps {
+            list-style: none;
+            margin: 12px 0;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+        .example-steps li { margin-bottom: 6px; }
+        .example-result {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            padding-top: 10px;
+            border-top: 1px solid var(--border);
+            margin-top: 10px;
+        }
+        
+        /* Live Stockerboard Data Slot */
+        .live-slot-card {
+            background: rgba(59, 130, 246, 0.04);
+            border: 1px solid rgba(59, 130, 246, 0.25);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 18px 0;
+        }
+        .live-slot-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 14px;
+        }
+        .live-badge-sync {
+            font-size: 0.75rem;
+            font-weight: 700;
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--emerald);
+            padding: 3px 8px;
+            border-radius: 4px;
+        }
+        .live-grid-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .live-metric-item {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 10px 14px;
+        }
+        .live-metric-title { font-size: 0.74rem; color: var(--text-muted); text-transform: uppercase; font-weight: 600; margin-bottom: 4px; }
+        .live-metric-val { font-size: 1.15rem; font-weight: 800; font-family: var(--font-mono); color: var(--text-primary); }
+        .live-slot-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            border-top: 1px solid rgba(59, 130, 246, 0.15);
+            padding-top: 12px;
+        }
+        .live-cta-btn {
+            background: var(--brand-green);
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 0.82rem;
+            font-weight: 600;
+            padding: 6px 14px;
+            border-radius: 6px;
+            transition: background 0.15s ease;
+        }
+        .live-cta-btn:hover { background: var(--brand-green-light); }
+        
+        /* Checklist */
+        .check-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin: 14px 0;
+        }
+        .check-box {
+            background: var(--surface-elevated);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 14px;
+        }
+        .check-box h4 { font-size: 0.9rem; margin-bottom: 8px; font-weight: 700; }
+        .check-box ul { list-style: none; font-size: 0.84rem; color: var(--text-secondary); }
+        .check-box li { margin-bottom: 6px; position: relative; padding-left: 14px; }
+        .check-box li::before { content: "•"; position: absolute; left: 0; color: var(--emerald); font-weight: bold; }
+        
+        /* Mistakes */
+        .mistake-card {
+            background: rgba(244, 63, 94, 0.04);
+            border: 1px solid rgba(244, 63, 94, 0.18);
+            border-radius: 8px;
+            padding: 14px 18px;
+            margin-bottom: 12px;
+        }
+        .mistake-fallacy { color: var(--coral); font-weight: 700; font-size: 0.9rem; margin-bottom: 4px; }
+        .mistake-reality { color: var(--text-secondary); font-size: 0.86rem; }
+        
+        /* Quiz */
+        .quiz-card {
+            background: var(--surface-elevated);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 18px;
+            margin-bottom: 16px;
+        }
+        .quiz-q { font-weight: 700; font-size: 0.94rem; margin-bottom: 12px; }
+        .quiz-opts { display: flex; flex-direction: column; gap: 8px; }
+        .quiz-opt-btn {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 14px;
+            border-radius: 6px;
+            font-size: 0.86rem;
+            color: var(--text-primary);
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+        .quiz-opt-btn:hover { border-color: var(--emerald); }
+        .quiz-opt-btn.correct { background: rgba(16, 185, 129, 0.15); border-color: var(--emerald); color: var(--emerald); font-weight: 700; }
+        .quiz-opt-btn.incorrect { background: rgba(244, 63, 94, 0.15); border-color: var(--coral); color: var(--coral); }
+        .quiz-feedback {
+            margin-top: 10px;
+            padding: 10px 14px;
+            border-radius: 6px;
+            font-size: 0.84rem;
+            display: none;
+        }
+        .quiz-feedback.show { display: block; }
+        .quiz-feedback.good { background: rgba(16, 185, 129, 0.1); color: var(--emerald); }
+        .quiz-feedback.bad { background: rgba(244, 63, 94, 0.1); color: var(--coral); }
+        
+        /* Collapsible Advanced */
+        details.advanced-details {
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            background: var(--surface-elevated);
+            margin-top: 14px;
+        }
+        details.advanced-details summary {
+            padding: 14px 18px;
+            font-weight: 700;
+            font-size: 0.94rem;
+            cursor: pointer;
+            user-select: none;
+            color: var(--purple);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .advanced-body {
+            padding: 0 18px 18px 18px;
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+            border-top: 1px solid var(--border);
+            margin-top: 8px;
+            padding-top: 14px;
+        }
+        
+        /* Level-Adapted Action Block */
+        .lesson-action-block {
+            margin: 28px 0;
+        }
+        .action-card {
+            background: rgba(16, 185, 129, 0.05);
+            border: 1px solid rgba(16, 185, 129, 0.25);
+            border-radius: 12px;
+            padding: 22px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+        .action-tag {
+            font-size: 0.72rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--emerald);
+        }
+        .action-title {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            margin: 4px 0;
+        }
+        .action-desc {
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+        }
+        .action-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 4px;
+        }
+        .btn-action {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            padding: 8px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.15s ease;
+        }
+        .btn-action.primary {
+            background: var(--brand-green);
+            color: #FFFFFF;
+        }
+        .btn-action.primary:hover {
+            background: var(--brand-green-light);
+        }
+        .btn-action.secondary {
+            background: var(--surface-elevated);
+            color: var(--text-primary);
+            border: 1px solid var(--border);
+        }
+        .btn-action.secondary:hover {
+            border-color: var(--emerald);
+        }
+
+        /* Navigation & Next */
+        .lesson-nav-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-top: 36px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+        }
+        .nav-prev-box, .nav-next-box {
+            display: flex;
+            flex-direction: column;
+        }
+        .nav-label { font-size: 0.74rem; text-transform: uppercase; color: var(--text-muted); font-weight: 700; margin-bottom: 4px; }
+        .nav-link {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .nav-link:hover { color: var(--emerald); }
+        
+        @media (max-width: 720px) {
+            .check-grid { grid-template-columns: 1fr; }
+            .lesson-title { font-size: 1.7rem; }
+            .header { padding: 12px 16px; }
+            .depth-switcher-wrap { flex-direction: column; align-items: flex-start; gap: 8px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="header-left">
+            <a href="/" class="logo">
+                <span class="logo-dot"></span>
+                <span>Stockerboard</span>
+            </a>
+            <nav class="header-nav">
+                <a href="/">Home</a>
+                <a href="/stocks/">Stocks</a>
+                <a href="/learn/" class="active">Learn</a>
+                <a href="/?mode=pro">Pro research</a>
+            </nav>
+        </div>
+        <div>
+            <button class="theme-btn" onclick="toggleTheme()" id="themeBtn">
+                <span id="themeIcon">🌙</span>
+                <span id="themeText">Theme</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="lesson-container">
+        
+        <!-- Breadcrumbs -->
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="sep">/</span>
+            <a href="/learn/">Learn</a>
+            <span class="sep">/</span>
+            <a href="/learn/start-here/">Start Here</a>
+            <span class="sep">/</span>
+            <span class="curr">What Is a Stock?</span>
+        </nav>
+
+        <!-- Sticky Progressive Depth Switcher -->
+        <div class="depth-switcher-wrap" id="depthBar">
+            <div class="depth-chips">
+                <button class="depth-btn active" id="btnDepthSimple" onclick="switchLessonDepth('simple')">⚡ Quick (~2 min)</button>
+                <button class="depth-btn" id="btnDepthDeeper" onclick="switchLessonDepth('deeper')">📘 Understand (~5 min)</button>
+                <button class="depth-btn" id="btnDepthAdvanced" onclick="switchLessonDepth('advanced')">🔬 Deep Dive (10+ min)</button>
+            </div>
+            <div class="depth-meta">
+                <span>⏱️ 3 min read</span>
+                <span>•</span>
+                <span>Track: Foundations</span>
+            </div>
+        </div>
+
+        <!-- 01: Concept Hero -->
+        <header class="lesson-hero">
+            <div class="hero-badges">
+                <span class="badge badge-cat">financial-literacy</span>
+                <span class="badge badge-diff">Foundations</span>
+            </div>
+            <h1 class="lesson-title">What Is a Stock? Understanding Ownership in a Company</h1>
+            <p class="lesson-headline">A stock represents fractional ownership of a real business.</p>
+        </header>
+
+        <!-- 02: Simple Explanation & Analogy -->
+        <section class="lesson-section depth-block depth-simple active" id="sectionIntuition">
+            <div class="section-header">
+                <span class="section-icon">💡</span>
+                <h2 class="section-title">Core Intuition</h2>
+            </div>
+            <p style="font-size: 0.98rem; color: var(--text-primary); margin-bottom: 14px;">
+                When a company forms and grows, its equity ownership is divided into units called shares. Buying a share makes you a co-owner (shareholder) of that corporation, giving you a proportional economic claim on its future earnings and equity value.
+            </p>
+            
+            <div class="analogy-card">
+                <strong>Everyday Analogy:</strong>
+                <p style="margin-top: 6px;">Imagine four friends opening a neighbourhood bakery costing ₹4,00,000. They divide ownership into 100 equal shares (each initially worth ₹4,000). If you buy 10 shares, you own 10% of the bakery. If the bakery prospers and doubles its profits, your 10% ownership becomes more valuable; if it fails, you risk losing what you put in.</p>
+            </div>
+
+            <div class="takeaway-pill">
+                📌 Key Takeaway: Stocks are units of corporate ownership, not lottery tickets or loans. Your financial return comes from the business's operational success and how other investors value its future earnings.
+            </div>
+        </section>
+
+        <!-- 03: Formula & Worked Fictional Example -->
+        <section class="lesson-section depth-block depth-deeper active" id="sectionFormula">
+            <div class="section-header">
+                <span class="section-icon">🧮</span>
+                <h2 class="section-title">The Formula &amp; How It Works</h2>
+            </div>
+            <p style="font-size: 0.92rem; color: var(--text-secondary);">
+                Stockerboard computes valuation metrics strictly from certified trailing reports. Here is the mathematical formula:
+            </p>
+
+            <div class="formula-box">
+                Ownership Percentage (%) = (Shares Owned / Total Shares Outstanding) × 100
+            </div>
+
+            <ul class="formula-vars">
+                <li><strong>Shares Owned:</strong> <span>The exact number of equity shares held in your demat account.</span></li>
+<li><strong>Total Shares Outstanding:</strong> <span>The total number of equity shares currently issued by the corporation and held by all shareholders.</span></li>
+<li><strong>Ownership Percentage:</strong> <span>Your proportional fractional stake in the corporation's equity.</span></li>
+
+            </ul>
+
+            <div class="worked-example-card">
+                <h3 style="font-size: 0.96rem; font-weight: 700; margin-bottom: 8px;">
+                    Worked Example: Stockerboard Tea Company (Simplified Educational Example)
+                </h3>
+                <ul class="example-steps">
+                    <li>Step 1: Identify Total Equity Units = The company's total equity is divided into 100 equal shares.</li>
+<li>Step 2: Identify Shares Held = You hold 5 shares in your portfolio.</li>
+<li>Step 3: Compute Proportional Ownership = 5 shares ÷ 100 total shares = 0.05 or 5.0% ownership of the company's equity.</li>
+<li>Step 4: Proportional Economic Claim = If the company distributes its ₹10,000 profit as a dividend, your 5% stake entitles you to ₹500 (₹5 per share).</li>
+<li>Step 5: Lesson = A share is an ownership interest in a real business, conferring a proportional economic claim on its equity and distributed profits.</li>
+
+                </ul>
+                <div class="example-result">
+                    <span style="font-size: 0.85rem; color: var(--text-muted);">Result:</span>
+                    <strong style="font-family: var(--font-mono); color: var(--emerald); font-size: 1.15rem;">5 Shares out of 100 = 5.0% Equity Ownership</strong>
+                    <span style="font-size: 0.82rem; color: var(--text-secondary);">(In this simplified educational example, you own 5% of the company's equity. You participate in the business's economic journey—its expansion, profits, and market value—proportionally to your share count.)</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 04: Real Stockerboard Data Slot (Rule D) -->
+        <section class="lesson-section depth-block depth-deeper active" id="sectionLiveStock">
+            <div class="section-header">
+                <span class="section-icon">⚡</span>
+                <h2 class="section-title">See It in a Real Company</h2>
+            </div>
+            <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 12px;">
+                Learn never invents numbers. Below are current observations directly from the canonical Stockerboard dataset for sample companies:
+            </p>
+
+            
+        <div class="live-slot-card snapshot-card">
+            <div class="live-slot-header">
+                <div>
+                    <strong style="font-size: 1.05rem; color: var(--text-primary);">INFOSYS LIMITED</strong>
+                    <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted); margin-left: 6px;">(INFY)</span>
+                </div>
+                <span class="live-badge-sync snapshot-badge" style="background: rgba(16, 185, 129, 0.15); color: #10B981;">🟢 Published Snapshot</span>
+            </div>
+            
+            <div class="live-grid-metrics">
+                <div class="live-metric-item">
+                    <div class="live-metric-title">Exchange &amp; Series</div>
+                    <div class="live-metric-val" style="font-size: 1rem;">NSE (EQ)</div>
+                </div>
+                <div class="live-metric-item">
+                    <div class="live-metric-title">Published Share Price</div>
+                    <div class="live-metric-val" style="color: var(--text-primary);">₹1,023.40</div>
+                </div>
+                <div class="live-metric-item">
+                    <div class="live-metric-title">Security ISIN</div>
+                    <div class="live-metric-val" style="font-size: 0.95rem; font-family: var(--font-mono);">INE009A01021</div>
+                </div>
+            </div>
+            
+            <div class="live-slot-footer" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+                <span>📅 Price As Of: <strong>2026-10-09</strong> • Contract: <strong>Stockerboard Certified Public Dossier V2</strong> • Source: <strong>Published Snapshot</strong></span>
+                <div style="display: flex; gap: 8px;">
+                    <a href="/stocks/infosys/" class="live-cta-btn" target="_blank" rel="noopener">
+                        Inspect INFY Dossier →
+                    </a>
+                    <a href="/learn/share-price/" class="live-cta-btn" style="background: var(--surface-elevated); border: 1px solid var(--border); color: var(--text-primary);">
+                        Understand Share Price →
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+
+            <p style="font-size: 0.78rem; color: var(--text-muted); margin-top: 10px;">
+                🔒 <strong>Data Provenance Notice:</strong> Stockerboard applies point-in-time-aware data lineage sourced from published company filings. Metric values match company dossiers and the screener exactly. Missing metrics render '—' rather than coerced or estimated numbers.
+            </p>
+        </section>
+
+        <!-- 05: How to Interpret It -->
+        <section class="lesson-section depth-block depth-deeper active" id="sectionInterpret">
+            <div class="section-header">
+                <span class="section-icon">🔍</span>
+                <h2 class="section-title">How Do I Interpret It?</h2>
+            </div>
+            <p style="font-size: 0.9rem; color: var(--text-secondary);">
+                Stockerboard adheres to <strong>Education, Not Recommendations</strong>. A higher or lower number is not automatically good or bad—it guides your investigation:
+            </p>
+
+            <div class="check-grid">
+                <div class="check-box">
+                    <h4 style="color: var(--blue);">When P/E is Higher:</h4>
+                    <ul>
+                        <li>Shareholder Rights: As a co-owner, you participate in company meetings, vote on major corporate resolutions where applicable, and share in surplus capital upon liquidation.</li>
+<li>Long-Term Wealth Participation: Historically, equity ownership has allowed individuals to participate in the long-term compounding of productive commercial businesses.</li>
+
+                    </ul>
+                </div>
+                <div class="check-box">
+                    <h4 style="color: var(--amber);">When P/E is Lower:</h4>
+                    <ul>
+                        <li>Subordinated Economic Claim: Shareholders hold a residual claim. In financial distress, lenders and creditors are paid first before equity holders receive anything.</li>
+<li>No Guaranteed Returns: Unlike bank fixed deposits or bonds, companies have no legal obligation to pay dividends or return your invested principal.</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div style="margin-top: 14px; background: var(--surface-elevated); padding: 14px; border-radius: 8px; border: 1px solid var(--border);">
+                <h4 style="font-size: 0.88rem; margin-bottom: 6px; color: var(--text-primary);">Always Ask These 3 Questions Before Deciding:</h4>
+                <ul style="list-style: none; font-size: 0.84rem; color: var(--text-secondary);">
+                    <li style='margin-bottom: 6px;'>• Primary vs Secondary Market: In the primary market, securities are issued or offered to investors (proceeds go to the company in a fresh issue or to selling shareholders in an Offer for Sale). In the secondary market, existing investors trade with other investors through the exchange, and the company does not receive the buyer's purchase consideration.</li>
+<li style='margin-bottom: 6px;'>• Total Shares Outstanding: Never evaluate the significance of your share count without knowing the total shares issued by the corporation.</li>
+<li style='margin-bottom: 6px;'>• Business Health Over Ticker Tapes: A share is ultimately worth only what the underlying commercial business can produce in cash flows and economic value.</li>
+
+                </ul>
+            </div>
+        </section>
+
+        <!-- 06: What Can Fool Me? (Common Mistakes) -->
+        <section class="lesson-section depth-block depth-deeper active" id="sectionMistakes">
+            <div class="section-header">
+                <span class="section-icon">⚠️</span>
+                <h2 class="section-title">What Can Fool Me? (Common Traps)</h2>
+            </div>
+            
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: Buying a share means lending money to the company.</div>
+            <div class="mistake-reality">✓ Reality: A share represents equity ownership, not debt. Lenders receive fixed interest and contract repayments, while shareholders are co-owners whose returns depend on business success.</div>
+        </div>
+        
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: Buying a stock on NSE means the company receives my money directly.</div>
+            <div class="mistake-reality">✓ Reality: Existing investors buy and sell listed shares with other investors through the exchange. In a normal secondary-market trade between investors, the company does not receive the buyer's purchase consideration.</div>
+        </div>
+        
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: Owning shares means I directly own company physical assets (like factory machines or chairs).</div>
+            <div class="mistake-reality">✓ Reality: The corporation legally owns its physical assets. Shareholders own an equity interest in the corporate entity itself.</div>
+        </div>
+        
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: Dividends are guaranteed periodic payments like fixed deposit interest.</div>
+            <div class="mistake-reality">✓ Reality: Dividends are optional distributions declared at the discretion of the company's board of directors based on profits and capital requirements.</div>
+        </div>
+        
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: A good company means its share price must rise immediately.</div>
+            <div class="mistake-reality">✓ Reality: Market prices reflect investor expectations and valuation multiples. A strong business can experience a declining share price if its valuation was unrealistically high.</div>
+        </div>
+        
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: A low-priced share means a smaller company or a cheap bargain.</div>
+            <div class="mistake-reality">✓ Reality: Nominal share price depends on share count. A company with a ₹20 share price and 1,000 Cr shares is far larger than a company with a ₹2,000 price and 1 Cr shares.</div>
+        </div>
+        
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: A stock split creates free economic wealth for shareholders.</div>
+            <div class="mistake-reality">✓ Reality: A 2:1 stock split doubles your share count while halving the per-share price; your proportional ownership and aggregate equity value remain approximately identical.</div>
+        </div>
+        
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: Owning 500 shares automatically means you own a significant percentage of the business.</div>
+            <div class="mistake-reality">✓ Reality: Ownership percentage depends entirely on total shares outstanding. In a company with 500 Cr shares, 500 shares represents a tiny fractional interest.</div>
+        </div>
+        
+        </section>
+
+        <!-- 07: Interactive Concept Quiz -->
+        <section class="lesson-section depth-block depth-deeper active" id="sectionQuiz">
+            <div class="section-header">
+                <span class="section-icon">📝</span>
+                <h2 class="section-title">Check Your Understanding</h2>
+            </div>
+            
+            <!-- Quiz 1: Calculation -->
+            <div class="quiz-card" id="quizCard1">
+                <div class="quiz-q">Q1 (Calculation): A company has 100 total shares outstanding. You own 5 shares. In this simplified educational example, what percentage of the company's equity do you own?</div>
+                <div class="quiz-opts" id="quizOpts1">
+                    <button class="quiz-opt-btn" onclick="answerQuiz(1, 0, this)">1.0%</button>
+<button class="quiz-opt-btn" onclick="answerQuiz(1, 1, this)">5.0%</button>
+<button class="quiz-opt-btn" onclick="answerQuiz(1, 2, this)">10.0%</button>
+<button class="quiz-opt-btn" onclick="answerQuiz(1, 3, this)">50.0%</button>
+
+                </div>
+                <div class="quiz-feedback" id="quizFeedback1"></div>
+            </div>
+
+            <!-- Quiz 2: Reasoning -->
+            <div class="quiz-card" id="quizCard2">
+                <div class="quiz-q">Q2 (Reasoning): When you buy shares of a listed company from another investor on the stock exchange (NSE), who normally receives your purchase money?</div>
+                <div class="quiz-opts" id="quizOpts2">
+                    <button class="quiz-opt-btn" onclick="answerQuiz(2, 0, this)">The company directly into its bank account</button>
+<button class="quiz-opt-btn" onclick="answerQuiz(2, 1, this)">The selling investor who owned the shares</button>
+<button class="quiz-opt-btn" onclick="answerQuiz(2, 2, this)">The stock exchange regulatory reserve fund</button>
+<button class="quiz-opt-btn" onclick="answerQuiz(2, 3, this)">The company's employees and management</button>
+
+                </div>
+                <div class="quiz-feedback" id="quizFeedback2"></div>
+            </div>
+        </section>
+
+        <!-- 08: Advanced Deep Dive (Collapsible) -->
+        <section class="lesson-section depth-block depth-advanced" id="sectionAdvanced">
+            <div class="section-header">
+                <span class="section-icon">🔬</span>
+                <h2 class="section-title">Advanced Methodology &amp; Edge Cases</h2>
+            </div>
+            
+            <details class="advanced-details" open>
+                <summary>
+                    <span>Cyclicals, Negative Earnings &amp; Accounting Adjustments</span>
+                    <span style="font-size: 0.76rem; opacity: 0.7;">▾ Expand</span>
+                </summary>
+                <div class="advanced-body">
+                    <p style="margin-bottom: 10px;"><strong>Edge Cases:</strong></p>
+                    <ul style="margin-left: 20px; margin-bottom: 14px;">
+                        <li>Primary Market vs Secondary Market: In the primary market, securities are issued or offered to investors. In a fresh issue, proceeds go to the company. In an IPO that includes an Offer for Sale, proceeds for that portion go to the selling shareholders. In a rights issue of new shares, subscription proceeds generally go to the company. In the secondary market, existing investors buy and sell listed shares with other investors through the exchange. In a normal secondary-market trade between investors, the company does not receive the buyer's purchase consideration.</li>
+<li>Limited Liability for Equity Holders: Shareholders in public corporations generally have limited liability: in the event of corporate bankruptcy, an ordinary shareholder cannot be held personally liable for company debts beyond their invested capital.</li>
+<li>Dilution from Fresh Equity Issuances: When a company issues new shares (e.g. employee stock options or secondary offerings), existing shareholders experience dilution: their share count stays constant, but their percentage ownership of the total equity decreases.</li>
+<li>Residual Economic Claim: In corporate finance hierarchy, bondholders, suppliers, and employees have senior claims. Equity holders receive the residual earnings after all statutory obligations, operating costs, and debt service are satisfied.</li>
+
+                    </ul>
+                    <p style="margin-bottom: 10px;"><strong>Cyclical Peak Paradox:</strong> Ownership Through Business Cycles: In economic expansions, business revenues and profit margins expand, generating rising returns for equity holders. In recessions, operating leverage can compress net profits rapidly, demonstrating why equity ownership carries business risk.</p>
+                    <p style="margin-bottom: 10px;"><strong>Earnings Quality Checks:</strong> Legal Capital vs Market Capital: A share's Face Value (e.g. ₹5 or ₹10) is a nominal accounting figure on the corporate balance sheet. The Market Price represents the price at which buyers and sellers currently transact one share in the secondary market.</p>
+                    <div style="margin-top: 14px; padding: 12px; background: rgba(139, 92, 246, 0.06); border-radius: 6px; border-left: 3px solid var(--purple);">
+                        <strong>Stockerboard Data Provenance:</strong> Stockerboard Learn presents stock ownership education to anchor beginners before they analyze financial multiples. Real listed company examples display published snapshot data directly from certified public dossiers without fabricated ownership percentages.
+                    </div>
+                </div>
+            </details>
+        </section>
+
+        
+
+        <!-- Practical Application Action Block -->
+        <section class="lesson-action-block">
+            <div class="action-card">
+                <div>
+                    <span class="action-tag">PRACTICAL APPLICATION</span>
+                    <h3 class="action-title">Apply What You Learned</h3>
+                    <p class="action-desc">Verify this concept with published StockMe-certified snapshot data across Indian companies or compare two industry peers.</p>
+                </div>
+                <div class="action-buttons">
+                    <a href="/stocks/" class="btn-action primary">🔍 See This Metric on Real Stocks →</a>
+<a href="/stocks/?compare=INFY,TCS" class="btn-action secondary">⚖️ Compare 2 Companies →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 09: Navigation & Next Lesson -->
+        <footer class="lesson-nav-bar">
+            
+        <div class="nav-prev-box">
+            <span class="nav-label">Curriculum Track</span>
+            <a href="/learn/" class="nav-link">← Foundations Hub</a>
+        </div>
+        
+            
+        <div class="nav-next-box" style="text-align: right;">
+            <span class="nav-label">Next Lesson</span>
+            <a href="/learn/share-price/" class="nav-link">Share Price: Why Does One Share Cost What It Costs? →</a>
+        </div>
+        
+        </footer>
+
+    </main>
+
+    <!-- Interactive Client Engine -->
+    <script>
+        // Theme Toggle Handler
+        function toggleTheme() {
+            const current = document.documentElement.getAttribute('data-theme') || 'light';
+            const next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.setItem('stockerboard_theme', next);
+            updateThemeBtn(next);
+        }
+        function updateThemeBtn(theme) {
+            const icon = document.getElementById('themeIcon');
+            const txt = document.getElementById('themeText');
+            if (icon && txt) {
+                icon.textContent = theme === 'dark' ? '☀️' : '🌙';
+                txt.textContent = theme === 'dark' ? 'Light' : 'Dark';
+            }
+        }
+        (function() {
+            const current = document.documentElement.getAttribute('data-theme') || 'light';
+            updateThemeBtn(current);
+        })();
+
+        // Progressive Depth Switcher
+        function switchLessonDepth(depth) {
+            document.querySelectorAll('.depth-btn').forEach(btn => btn.classList.remove('active'));
+            if (depth === 'simple') {
+                document.getElementById('btnDepthSimple').classList.add('active');
+                document.getElementById('sectionIntuition').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            } else if (depth === 'deeper') {
+                document.getElementById('btnDepthDeeper').classList.add('active');
+                document.getElementById('sectionFormula').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            } else if (depth === 'advanced') {
+                document.getElementById('btnDepthAdvanced').classList.add('active');
+                document.getElementById('sectionAdvanced').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+
+        // Quiz Evaluation Engine
+        const quizData = {
+            q1: {
+                correct: 1,
+                explanation: "5 shares ÷ 100 total shares = 0.05 or 5.0% ownership of the company's equity. (Simplified educational example)."
+            },
+            q2: {
+                correct: 1,
+                explanation: "In the secondary market, investors trade existing shares with each other through the exchange matching engine. The purchase money goes to the selling investor, not the company."
+            }
+        };
+
+        function answerQuiz(qNum, selectedIdx, btnElem) {
+            const data = quizData['q' + qNum];
+            const optsContainer = document.getElementById('quizOpts' + qNum);
+            const feedbackBox = document.getElementById('quizFeedback' + qNum);
+            
+            // Disable other buttons in this quiz
+            optsContainer.querySelectorAll('.quiz-opt-btn').forEach((b, idx) => {
+                b.disabled = true;
+                if (idx === data.correct) {
+                    b.classList.add('correct');
+                } else if (idx === selectedIdx) {
+                    b.classList.add('incorrect');
+                }
+            });
+
+            feedbackBox.classList.add('show');
+            if (selectedIdx === data.correct) {
+                feedbackBox.className = 'quiz-feedback show good';
+                feedbackBox.innerHTML = '<strong>✓ Correct!</strong> ' + data.explanation;
+            } else {
+                feedbackBox.className = 'quiz-feedback show bad';
+                feedbackBox.innerHTML = '<strong>✕ Not quite.</strong> ' + data.explanation;
+            }
+        }
+    </script>
+</body>
+</html>

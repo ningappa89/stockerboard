@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROE: Return on Equity & Capital Efficiency | Stockerboard Learn</title>
+    <meta name="description" content="Understand ROE: Return on Equity & Capital Efficiency with simple real-world analogy, formula, worked example, and StockMe-certified snapshot data.">
+    <link rel="canonical" href="https://stockerboard.com/learn/roe/">
+    <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
+    
+    <!-- Anti-flicker Theme Sync -->
+    <script>
+        (function() {
+            try {
+                const savedTheme = localStorage.getItem('stockerboard_theme');
+                const theme = savedTheme ? savedTheme : 'light';
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch(e) {}
+        })();
+    </script>
+    
+    <!-- Open Graph / Twitter Meta -->
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Stockerboard">
+    <meta property="og:title" content="ROE: Return on Equity & Capital Efficiency | Stockerboard Learn">
+    <meta property="og:description" content="Understand ROE: Return on Equity & Capital Efficiency with simple real-world analogy, formula, worked example, and StockMe-certified snapshot data.">
+    <meta property="og:url" content="https://stockerboard.com/learn/roe/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="ROE: Return on Equity & Capital Efficiency | Stockerboard Learn">
+    <meta name="twitter:description" content="Understand ROE: Return on Equity & Capital Efficiency with simple real-world analogy, formula, worked example, and StockMe-certified snapshot data.">
+    
+    <!-- Structured Data (LearningResource + BreadcrumbList) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "LearningResource",
+                "@id": "https://stockerboard.com/learn/roe/",
+                "name": "ROE: Return on Equity & Capital Efficiency",
+                "description": "Understand ROE: Return on Equity & Capital Efficiency with simple real-world analogy, formula, worked example, and StockMe-certified snapshot data.",
+                "educationalLevel": "Beginner → Intermediate",
+                "learningResourceType": "Concept Lesson",
+                "timeRequired": "PT7M",
+                "breadcrumb": {
+                    "@id": "https://stockerboard.com/learn/roe/#breadcrumb"
+                }
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": "https://stockerboard.com/learn/roe/#breadcrumb",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://stockerboard.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Learn",
+                        "item": "https://stockerboard.com/learn/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "ROE",
+                        "item": "https://stockerboard.com/learn/roe/"
+                    }
+                ]
+            }
+        ]
+    }
+    </script>
+    
+    <style>
+        :root, [data-theme="dark"] {
+            --bg: #080C14;
+            --surface: #0E1420;
+            --surface-elevated: #151D2C;
+            --surface-card: rgba(21, 29, 44, 0.7);
+            --border: rgba(255, 255, 255, 0.08);
+            --border-subtle: rgba(255, 255, 255, 0.05);
+            --text-primary: #F8FAFC;
+            --text-secondary: #94A3B8;
+            --text-muted: #64748B;
+            --brand-green: #15803D;
+            --brand-green-light: #16A34A;
+            --emerald: #10B981;
+            --coral: #F43F5E;
+            --amber: #F59E0B;
+            --blue: #3B82F6;
+            --purple: #8B5CF6;
+            --font: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+            --card-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+        }
+        [data-theme="light"] {
+            --bg: #FCFDFD;
+            --surface: #FFFFFF;
+            --surface-elevated: #F8FAFC;
+            --surface-card: #FFFFFF;
+            --border: #E2E8F0;
+            --border-subtle: #F1F5F9;
+            --text-primary: #0F172A;
+            --text-secondary: #475569;
+            --text-muted: #64748B;
+            --brand-green: #15803D;
+            --brand-green-light: #16A34A;
+            --emerald: #10B981;
+            --coral: #F43F5E;
+            --amber: #D97706;
+            --blue: #2563EB;
+            --purple: #7C3AED;
+            --card-shadow: 0 1px 3px rgba(15, 23, 42, 0.04), 0 8px 20px -4px rgba(15, 23, 42, 0.06);
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: var(--font);
+            background-color: var(--bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding-bottom: 80px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 14px 24px;
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .header-left { display: flex; align-items: center; gap: 28px; }
+        .logo {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .logo-dot { width: 10px; height: 10px; background: var(--emerald); border-radius: 50%; }
+        .header-nav { display: inline-flex; align-items: center; gap: 20px; }
+        .header-nav a { color: var(--text-secondary); text-decoration: none; font-size: .92rem; font-weight: 500; transition: color 0.15s ease; }
+        .header-nav a:hover, .header-nav a.active { color: var(--emerald); }
+        .theme-btn {
+            background: transparent;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 6px 12px;
+            cursor: pointer;
+            color: var(--text-primary);
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: .85rem;
+        }
+        
+        /* Container */
+        .lesson-container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 24px 20px;
+        }
+        
+        /* Breadcrumbs */
+        .breadcrumbs {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .breadcrumbs a { color: var(--text-secondary); text-decoration: none; }
+        .breadcrumbs a:hover { color: var(--emerald); }
+        .breadcrumbs .sep { opacity: 0.5; }
+        .breadcrumbs .curr { color: var(--text-primary); font-weight: 600; }
+        
+        /* Sticky Depth Switcher */
+        .depth-switcher-wrap {
+            position: sticky;
+            top: 61px;
+            z-index: 90;
+            background: var(--surface);
+            padding: 10px 14px;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+            backdrop-filter: blur(8px);
+        }
+        .depth-chips {
+            display: flex;
+            gap: 6px;
+        }
+        .depth-btn {
+            background: transparent;
+            border: 1px solid transparent;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+        .depth-btn.active {
+            background: var(--surface-elevated);
+            color: var(--emerald);
+            border-color: rgba(16, 185, 129, 0.3);
+        }
+        .depth-meta {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        /* Hero Section */
+        .lesson-hero {
+            margin-bottom: 32px;
+        }
+        .hero-badges {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        .badge {
+            font-size: 0.74rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 4px 9px;
+            border-radius: 4px;
+            letter-spacing: 0.04em;
+        }
+        .badge-cat { background: rgba(59, 130, 246, 0.12); color: var(--blue); }
+        .badge-diff { background: rgba(16, 185, 129, 0.12); color: var(--emerald); }
+        .lesson-title {
+            font-size: 2.2rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            line-height: 1.25;
+            margin-bottom: 12px;
+        }
+        .lesson-headline {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            font-weight: 400;
+            line-height: 1.5;
+        }
+        
+        /* Section Cards */
+        .lesson-section {
+            background: var(--surface-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: var(--card-shadow);
+        }
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+        .section-title {
+            font-size: 1.18rem;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+        }
+        .section-icon { font-size: 1.2rem; }
+        
+        /* Analogy Box */
+        .analogy-card {
+            background: rgba(16, 185, 129, 0.05);
+            border-left: 3px solid var(--emerald);
+            padding: 16px 18px;
+            border-radius: 0 8px 8px 0;
+            margin: 16px 0;
+            font-size: 0.94rem;
+            color: var(--text-primary);
+        }
+        .takeaway-pill {
+            display: inline-block;
+            background: rgba(59, 130, 246, 0.08);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            color: var(--blue);
+            font-size: 0.84rem;
+            font-weight: 600;
+            padding: 8px 14px;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+        
+        /* Formula Card */
+        .formula-box {
+            background: var(--surface-elevated);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 18px;
+            text-align: center;
+            font-family: var(--font-mono);
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--emerald);
+            margin: 16px 0;
+        }
+        .formula-vars {
+            list-style: none;
+            margin-top: 14px;
+        }
+        .formula-vars li {
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: baseline;
+            gap: 8px;
+        }
+        .formula-vars strong { color: var(--text-primary); min-width: 140px; }
+        
+        /* Worked Example */
+        .worked-example-card {
+            background: var(--surface-elevated);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 18px;
+            margin: 14px 0;
+        }
+        .example-steps {
+            list-style: none;
+            margin: 12px 0;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+        .example-steps li { margin-bottom: 6px; }
+        .example-result {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            padding-top: 10px;
+            border-top: 1px solid var(--border);
+            margin-top: 10px;
+        }
+        
+        /* Live Stockerboard Data Slot */
+        .live-slot-card {
+            background: rgba(59, 130, 246, 0.04);
+            border: 1px solid rgba(59, 130, 246, 0.25);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 18px 0;
+        }
+        .live-slot-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 14px;
+        }
+        .live-badge-sync {
+            font-size: 0.75rem;
+            font-weight: 700;
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--emerald);
+            padding: 3px 8px;
+            border-radius: 4px;
+        }
+        .live-grid-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .live-metric-item {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 10px 14px;
+        }
+        .live-metric-title { font-size: 0.74rem; color: var(--text-muted); text-transform: uppercase; font-weight: 600; margin-bottom: 4px; }
+        .live-metric-val { font-size: 1.15rem; font-weight: 800; font-family: var(--font-mono); color: var(--text-primary); }
+        .live-slot-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            border-top: 1px solid rgba(59, 130, 246, 0.15);
+            padding-top: 12px;
+        }
+        .live-cta-btn {
+            background: var(--brand-green);
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 0.82rem;
+            font-weight: 600;
+            padding: 6px 14px;
+            border-radius: 6px;
+            transition: background 0.15s ease;
+        }
+        .live-cta-btn:hover { background: var(--brand-green-light); }
+        
+        /* Checklist */
+        .check-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin: 14px 0;
+        }
+        .check-box {
+            background: var(--surface-elevated);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 14px;
+        }
+        .check-box h4 { font-size: 0.9rem; margin-bottom: 8px; font-weight: 700; }
+        .check-box ul { list-style: none; font-size: 0.84rem; color: var(--text-secondary); }
+        .check-box li { margin-bottom: 6px; position: relative; padding-left: 14px; }
+        .check-box li::before { content: "•"; position: absolute; left: 0; color: var(--emerald); font-weight: bold; }
+        
+        /* Mistakes */
+        .mistake-card {
+            background: rgba(244, 63, 94, 0.04);
+            border: 1px solid rgba(244, 63, 94, 0.18);
+            border-radius: 8px;
+            padding: 14px 18px;
+            margin-bottom: 12px;
+        }
+        .mistake-fallacy { color: var(--coral); font-weight: 700; font-size: 0.9rem; margin-bottom: 4px; }
+        .mistake-reality { color: var(--text-secondary); font-size: 0.86rem; }
+        
+        /* Quiz */
+        .quiz-card {
+            background: var(--surface-elevated);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 18px;
+            margin-bottom: 16px;
+        }
+        .quiz-q { font-weight: 700; font-size: 0.94rem; margin-bottom: 12px; }
+        .quiz-opts { display: flex; flex-direction: column; gap: 8px; }
+        .quiz-opt-btn {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 14px;
+            border-radius: 6px;
+            font-size: 0.86rem;
+            color: var(--text-primary);
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+        .quiz-opt-btn:hover { border-color: var(--emerald); }
+        .quiz-opt-btn.correct { background: rgba(16, 185, 129, 0.15); border-color: var(--emerald); color: var(--emerald); font-weight: 700; }
+        .quiz-opt-btn.incorrect { background: rgba(244, 63, 94, 0.15); border-color: var(--coral); color: var(--coral); }
+        .quiz-feedback {
+            margin-top: 10px;
+            padding: 10px 14px;
+            border-radius: 6px;
+            font-size: 0.84rem;
+            display: none;
+        }
+        .quiz-feedback.show { display: block; }
+        .quiz-feedback.good { background: rgba(16, 185, 129, 0.1); color: var(--emerald); }
+        .quiz-feedback.bad { background: rgba(244, 63, 94, 0.1); color: var(--coral); }
+        
+        /* Collapsible Advanced */
+        details.advanced-details {
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            background: var(--surface-elevated);
+            margin-top: 14px;
+        }
+        details.advanced-details summary {
+            padding: 14px 18px;
+            font-weight: 700;
+            font-size: 0.94rem;
+            cursor: pointer;
+            user-select: none;
+            color: var(--purple);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .advanced-body {
+            padding: 0 18px 18px 18px;
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+            border-top: 1px solid var(--border);
+            margin-top: 8px;
+            padding-top: 14px;
+        }
+        
+        /* Level-Adapted Action Block */
+        .lesson-action-block {
+            margin: 28px 0;
+        }
+        .action-card {
+            background: rgba(16, 185, 129, 0.05);
+            border: 1px solid rgba(16, 185, 129, 0.25);
+            border-radius: 12px;
+            padding: 22px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+        .action-tag {
+            font-size: 0.72rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--emerald);
+        }
+        .action-title {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            margin: 4px 0;
+        }
+        .action-desc {
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+        }
+        .action-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 4px;
+        }
+        .btn-action {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            padding: 8px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.15s ease;
+        }
+        .btn-action.primary {
+            background: var(--brand-green);
+            color: #FFFFFF;
+        }
+        .btn-action.primary:hover {
+            background: var(--brand-green-light);
+        }
+        .btn-action.secondary {
+            background: var(--surface-elevated);
+            color: var(--text-primary);
+            border: 1px solid var(--border);
+        }
+        .btn-action.secondary:hover {
+            border-color: var(--emerald);
+        }
+
+        /* Navigation & Next */
+        .lesson-nav-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-top: 36px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+        }
+        .nav-prev-box, .nav-next-box {
+            display: flex;
+            flex-direction: column;
+        }
+        .nav-label { font-size: 0.74rem; text-transform: uppercase; color: var(--text-muted); font-weight: 700; margin-bottom: 4px; }
+        .nav-link {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .nav-link:hover { color: var(--emerald); }
+        
+        @media (max-width: 720px) {
+            .check-grid { grid-template-columns: 1fr; }
+            .lesson-title { font-size: 1.7rem; }
+            .header { padding: 12px 16px; }
+            .depth-switcher-wrap { flex-direction: column; align-items: flex-start; gap: 8px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="header-left">
+            <a href="/" class="logo">
+                <span class="logo-dot"></span>
+                <span>Stockerboard</span>
+            </a>
+            <nav class="header-nav">
+                <a href="/">Home</a>
+                <a href="/stocks/">Stocks</a>
+                <a href="/learn/" class="active">Learn</a>
+                <a href="/?mode=pro">Pro research</a>
+            </nav>
+        </div>
+        <div>
+            <button class="theme-btn" onclick="toggleTheme()" id="themeBtn">
+                <span id="themeIcon">🌙</span>
+                <span id="themeText">Theme</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="lesson-container">
+        
+        <!-- Breadcrumbs -->
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="sep">/</span>
+            <a href="/learn/">Learn</a>
+            <span class="sep">/</span>
+            <a href="/learn/start-here/">Start Here</a>
+            <span class="sep">/</span>
+            <span class="curr">ROE</span>
+        </nav>
+
+        <!-- Sticky Progressive Depth Switcher -->
+        <div class="depth-switcher-wrap" id="depthBar">
+            <div class="depth-chips">
+                <button class="depth-btn active" id="btnDepthSimple" onclick="switchLessonDepth('simple')">⚡ Quick (~2 min)</button>
+                <button class="depth-btn" id="btnDepthDeeper" onclick="switchLessonDepth('deeper')">📘 Understand (~5 min)</button>
+                <button class="depth-btn" id="btnDepthAdvanced" onclick="switchLessonDepth('advanced')">🔬 Deep Dive (10+ min)</button>
+            </div>
+            <div class="depth-meta">
+                <span>⏱️ 7 min read</span>
+                <span>•</span>
+                <span>Track: Beginner → Intermediate</span>
+            </div>
+        </div>
+
+        <!-- 01: Concept Hero -->
+        <header class="lesson-hero">
+            <div class="hero-badges">
+                <span class="badge badge-cat">valuation</span>
+                <span class="badge badge-diff">Beginner → Intermediate</span>
+            </div>
+            <h1 class="lesson-title">ROE: Return on Equity & Capital Efficiency</h1>
+            <p class="lesson-headline">How much profit a company generates relative to the shareholders' capital invested in the business.</p>
+        </header>
+
+        <!-- 02: Simple Explanation & Analogy -->
+        <section class="lesson-section depth-block depth-simple active" id="sectionIntuition">
+            <div class="section-header">
+                <span class="section-icon">💡</span>
+                <h2 class="section-title">Core Intuition</h2>
+            </div>
+            <p style="font-size: 0.98rem; color: var(--text-primary); margin-bottom: 14px;">
+                Return on Equity (ROE) measures how efficiently a company's management turns shareholders' equity into annual profits. For roughly every ₹100 of shareholder equity, it shows how many rupees of net profit the business generated over the period. It measures internal accounting return on equity, which is distinct from an investor's stock-market share price return.
+            </p>
+            
+            <div class="analogy-card">
+                <strong>Everyday Analogy:</strong>
+                <p style="margin-top: 6px;">Imagine Stockerboard Coffee Ltd. operates with ₹100 Cr of shareholders' equity and generates ₹20 Cr in net profit for the year. Its ROE is ₹20 Cr ÷ ₹100 Cr = 20%. This means the company generated ₹20 of accounting profit for every ₹100 of shareholder capital supporting the business. A 20% ROE does not mean your stock price will rise 20%—it simply tells you how productively capital was used inside the firm.</p>
+            </div>
+
+            <div class="takeaway-pill">
+                📌 Key Takeaway: ROE measures internal accounting profitability per rupee of equity capital, not guaranteed stock-market gains. Never interpret ROE in isolation.
+            </div>
+        </section>
+
+        <!-- 03: Formula & Worked Fictional Example -->
+        <section class="lesson-section depth-block depth-deeper active" id="sectionFormula">
+            <div class="section-header">
+                <span class="section-icon">🧮</span>
+                <h2 class="section-title">The Formula &amp; How It Works</h2>
+            </div>
+            <p style="font-size: 0.92rem; color: var(--text-secondary);">
+                Stockerboard computes valuation metrics strictly from certified trailing reports. Here is the mathematical formula:
+            </p>
+
+            <div class="formula-box">
+                ROE (%) = (Annual Net Profit Attributable to Owners ÷ Average Shareholders' Equity) × 100
+            </div>
+
+            <ul class="formula-vars">
+                <li><strong>Net Profit Attributable to Owners:</strong> <span>Annual profit after tax and minority interests belonging to equity owners for the certified fiscal year.</span></li>
+<li><strong>Average Shareholders' Equity (Net Worth):</strong> <span>The average of beginning and ending shareholder net worth: (Beginning Equity + Ending Equity) ÷ 2. Averaging aligns profits earned across the full fiscal year with capital deployed throughout the year.</span></li>
+
+            </ul>
+
+            <div class="worked-example-card">
+                <h3 style="font-size: 0.96rem; font-weight: 700; margin-bottom: 8px;">
+                    Worked Example: Stockerboard Foods Ltd. (Fictional)
+                </h3>
+                <ul class="example-steps">
+                    <li>Step 1: Compute Average Equity = (₹90.00 Cr + ₹110.00 Cr) ÷ 2 = ₹100.00 Cr</li>
+<li>Step 2: Identify Annual Owner Profit = ₹25.00 Cr</li>
+<li>Step 3: Calculate ROE = (₹25.00 Cr ÷ ₹100.00 Cr) × 100 = 25.00%</li>
+
+                </ul>
+                <div class="example-result">
+                    <span style="font-size: 0.85rem; color: var(--text-muted);">Result:</span>
+                    <strong style="font-family: var(--font-mono); color: var(--emerald); font-size: 1.15rem;">25.00%</strong>
+                    <span style="font-size: 0.82rem; color: var(--text-secondary);">(For every ₹100 of average equity capital, the business generated ₹25 of profit during the fiscal year. Is 25% automatically excellent? No—one must investigate whether that return was driven by operating efficiency or high debt leverage.)</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 04: Real Stockerboard Data Slot (Rule D) -->
+        <section class="lesson-section depth-block depth-deeper active" id="sectionLiveStock">
+            <div class="section-header">
+                <span class="section-icon">⚡</span>
+                <h2 class="section-title">See It in a Real Company</h2>
+            </div>
+            <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 12px;">
+                Learn never invents numbers. Below are current observations directly from the canonical Stockerboard dataset for sample companies:
+            </p>
+
+            
+        <div class="live-slot-card snapshot-card">
+            <div class="live-slot-header">
+                <div>
+                    <strong style="font-size: 1.05rem; color: var(--text-primary);">INFOSYS LIMITED</strong>
+                    <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted); margin-left: 6px;">(INFY)</span>
+                </div>
+                <span class="live-badge-sync snapshot-badge" style="background: rgba(16, 185, 129, 0.15); color: #10B981;">🟢 Published Snapshot</span>
+            </div>
+            
+            <div class="live-grid-metrics">
+                <div class="live-metric-item">
+                    <div class="live-metric-title">Shareholders' Equity</div>
+                    <div class="live-metric-val">₹93,297.00 Cr</div>
+                </div>
+                <div class="live-metric-item">
+                    <div class="live-metric-title">StockMe-Certified ROE</div>
+                    <div class="live-metric-val" style="color: var(--emerald);">+31.07%</div>
+                </div>
+                <div class="live-metric-item">
+                    <div class="live-metric-title">Debt-to-Equity (Leverage)</div>
+                    <div class="live-metric-val">0.00x</div>
+                </div>
+            </div>
+            
+            <div class="live-slot-footer">
+                <span>📅 Fiscal Year: <strong>2026-03-31</strong> • Filing As-Of: <strong>2026-06-30</strong> • Scope: <strong>CONSOLIDATED</strong> • Source: <strong>Stockerboard Published Snapshot</strong></span>
+                <a href="/stocks/infosys/" class="live-cta-btn" target="_blank" rel="noopener">
+                    Inspect INFY Dossier →
+                </a>
+            </div>
+        </div>
+        
+        <div class="live-slot-card snapshot-card">
+            <div class="live-slot-header">
+                <div>
+                    <strong style="font-size: 1.05rem; color: var(--text-primary);">TATA CONSULTANCY SERV LT</strong>
+                    <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted); margin-left: 6px;">(TCS)</span>
+                </div>
+                <span class="live-badge-sync snapshot-badge" style="background: rgba(16, 185, 129, 0.15); color: #10B981;">🟢 Published Snapshot</span>
+            </div>
+            
+            <div class="live-grid-metrics">
+                <div class="live-metric-item">
+                    <div class="live-metric-title">Shareholders' Equity</div>
+                    <div class="live-metric-val">₹108,478.00 Cr</div>
+                </div>
+                <div class="live-metric-item">
+                    <div class="live-metric-title">StockMe-Certified ROE</div>
+                    <div class="live-metric-val" style="color: var(--emerald);">+48.19%</div>
+                </div>
+                <div class="live-metric-item">
+                    <div class="live-metric-title">Debt-to-Equity (Leverage)</div>
+                    <div class="live-metric-val">0.00x</div>
+                </div>
+            </div>
+            
+            <div class="live-slot-footer">
+                <span>📅 Fiscal Year: <strong>2026-03-31</strong> • Filing As-Of: <strong>2026-06-30</strong> • Scope: <strong>CONSOLIDATED</strong> • Source: <strong>Stockerboard Published Snapshot</strong></span>
+                <a href="/stocks/tcs/" class="live-cta-btn" target="_blank" rel="noopener">
+                    Inspect TCS Dossier →
+                </a>
+            </div>
+        </div>
+        
+        <div class="live-slot-card snapshot-card">
+            <div class="live-slot-header">
+                <div>
+                    <strong style="font-size: 1.05rem; color: var(--text-primary);">ALOK INDUSTRIES LTD.</strong>
+                    <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted); margin-left: 6px;">(ALOKINDS)</span>
+                </div>
+                <span class="live-badge-sync snapshot-badge" style="background: rgba(244, 63, 94, 0.15); color: #F43F5E;">🔴 Negative Equity</span>
+            </div>
+            
+            <div class="live-grid-metrics">
+                <div class="live-metric-item">
+                    <div class="live-metric-title">Shareholders' Equity</div>
+                    <div class="live-metric-val">₹-21,527.79 Cr</div>
+                </div>
+                <div class="live-metric-item">
+                    <div class="live-metric-title">StockMe-Certified ROE</div>
+                    <div class="live-metric-val" style="color: var(--text-muted);">—</div>
+                </div>
+                <div class="live-metric-item">
+                    <div class="live-metric-title">Debt-to-Equity (Leverage)</div>
+                    <div class="live-metric-val">—</div>
+                </div>
+            </div>
+            
+            <div class="live-slot-footer">
+                <span>📅 Fiscal Year: <strong>2026-06-30</strong> • Filing As-Of: <strong>None</strong> • Scope: <strong>CONSOLIDATED</strong> • Source: <strong>Stockerboard Published Snapshot</strong></span>
+                <a href="/stocks/alokinds/" class="live-cta-btn" target="_blank" rel="noopener">
+                    Inspect ALOKINDS Dossier →
+                </a>
+            </div>
+        </div>
+        
+
+            <p style="font-size: 0.78rem; color: var(--text-muted); margin-top: 10px;">
+                🔒 <strong>Data Provenance Notice:</strong> Stockerboard applies point-in-time-aware data lineage sourced from published company filings. Metric values match company dossiers and the screener exactly. Missing metrics render '—' rather than coerced or estimated numbers.
+            </p>
+        </section>
+
+        <!-- 05: How to Interpret It -->
+        <section class="lesson-section depth-block depth-deeper active" id="sectionInterpret">
+            <div class="section-header">
+                <span class="section-icon">🔍</span>
+                <h2 class="section-title">How Do I Interpret It?</h2>
+            </div>
+            <p style="font-size: 0.9rem; color: var(--text-secondary);">
+                Stockerboard adheres to <strong>Education, Not Recommendations</strong>. A higher or lower number is not automatically good or bad—it guides your investigation:
+            </p>
+
+            <div class="check-grid">
+                <div class="check-box">
+                    <h4 style="color: var(--blue);">When P/E is Higher:</h4>
+                    <ul>
+                        <li>Strong operating profitability and high asset utilization.</li>
+<li>Asset-light business model with low reinvestment capital requirements.</li>
+<li>Financial leverage effect: using debt to support assets, leaving a smaller equity denominator.</li>
+<li>Share buybacks or accumulated losses that have artificially shrunk the equity base.</li>
+<li>One-off extraordinary gains that temporarily inflate the numerator.</li>
+
+                    </ul>
+                </div>
+                <div class="check-box">
+                    <h4 style="color: var(--amber);">When P/E is Lower:</h4>
+                    <ul>
+                        <li>Capital-intensive business requiring large plant and machinery to generate earnings.</li>
+<li>Subdued operating margins or competitive price pressure.</li>
+<li>Recent large equity dilution (e.g. QIP, rights issue) where new capital has not yet generated productive earnings.</li>
+<li>Cyclical downturn or heavy initial gestation period on new capital projects.</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div style="margin-top: 14px; background: var(--surface-elevated); padding: 14px; border-radius: 8px; border: 1px solid var(--border);">
+                <h4 style="font-size: 0.88rem; margin-bottom: 6px; color: var(--text-primary);">Always Ask These 3 Questions Before Deciding:</h4>
+                <ul style="list-style: none; font-size: 0.84rem; color: var(--text-secondary);">
+                    <li style='margin-bottom: 6px;'>• Inspect the Debt Multiplier: Is ROE high because the business is productive, or because high debt has shrunk equity?</li>
+<li style='margin-bottom: 6px;'>• Verify Consistency: Has the company sustained this ROE across 3 to 5 years, or was it a one-year windfall?</li>
+<li style='margin-bottom: 6px;'>• Compare Sector Economics: Compare software with software, manufacturing with manufacturing. Asset-light firms naturally generate higher ROE than capital-heavy utilities.</li>
+
+                </ul>
+            </div>
+        </section>
+
+        <!-- 06: What Can Fool Me? (Common Mistakes) -->
+        <section class="lesson-section depth-block depth-deeper active" id="sectionMistakes">
+            <div class="section-header">
+                <span class="section-icon">⚠️</span>
+                <h2 class="section-title">What Can Fool Me? (Common Traps)</h2>
+            </div>
+            
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: A higher ROE always means a superior company.</div>
+            <div class="mistake-reality">✓ Reality: A company can manufacture a 35% ROE simply by borrowing heavily or shrinking its equity through losses and buybacks. Solvency, leverage, and earnings durability must be examined.</div>
+        </div>
+        
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: A 20% ROE means my stock investment will deliver a 20% annual return.</div>
+            <div class="mistake-reality">✓ Reality: ROE is an internal corporate accounting ratio (Net Income ÷ Equity). Stock market return depends on the price multiple you pay, dividend distributions, and valuation expansion.</div>
+        </div>
+        
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: I can directly compare ROE across any two companies in the market.</div>
+            <div class="mistake-reality">✓ Reality: Capital requirements differ structurally across industries. An IT services business naturally requires far less equity than an electric utility or steel mill.</div>
+        </div>
+        
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: A single year of 30% ROE proves management excellence.</div>
+            <div class="mistake-reality">✓ Reality: A single year can be distorted by one-off asset sales, tax credits, or cyclical windfalls. Long-term capital compounding requires multi-year consistency.</div>
+        </div>
+        
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: High debt with high ROE is automatically bad.</div>
+            <div class="mistake-reality">✓ Reality: Moderate, manageable debt at low interest rates can be prudent capital allocation for stable cash-flow generators. Debt magnifies both upside and downside risk; it requires risk evaluation, not a blanket verdict.</div>
+        </div>
+        
+        </section>
+
+        <!-- 07: Interactive Concept Quiz -->
+        <section class="lesson-section depth-block depth-deeper active" id="sectionQuiz">
+            <div class="section-header">
+                <span class="section-icon">📝</span>
+                <h2 class="section-title">Check Your Understanding</h2>
+            </div>
+            
+            <!-- Quiz 1: Calculation -->
+            <div class="quiz-card" id="quizCard1">
+                <div class="quiz-q">Q1 (Calculation): A company earns ₹24 Cr in net owner profit for the fiscal year. Its average shareholder net worth across the year was ₹120 Cr. What is its Return on Equity (ROE)?</div>
+                <div class="quiz-opts" id="quizOpts1">
+                    <button class="quiz-opt-btn" onclick="answerQuiz(1, 0, this)">12.00%</button>
+<button class="quiz-opt-btn" onclick="answerQuiz(1, 1, this)">20.00%</button>
+<button class="quiz-opt-btn" onclick="answerQuiz(1, 2, this)">24.00%</button>
+<button class="quiz-opt-btn" onclick="answerQuiz(1, 3, this)">50.00%</button>
+
+                </div>
+                <div class="quiz-feedback" id="quizFeedback1"></div>
+            </div>
+
+            <!-- Quiz 2: Reasoning -->
+            <div class="quiz-card" id="quizCard2">
+                <div class="quiz-q">Q2 (Reasoning): Company A has an ROE of 22% with almost no debt. Company B has an ROE of 31% supported by very high debt leverage. Which company represents the superior business?</div>
+                <div class="quiz-opts" id="quizOpts2">
+                    <button class="quiz-opt-btn" onclick="answerQuiz(2, 0, this)">Company A, because debt is always harmful.</button>
+<button class="quiz-opt-btn" onclick="answerQuiz(2, 1, this)">Company B, because a 31% ROE is higher than 22%.</button>
+<button class="quiz-opt-btn" onclick="answerQuiz(2, 2, this)">Not enough information to determine without evaluating debt serviceability, margins, and capital stability.</button>
+<button class="quiz-opt-btn" onclick="answerQuiz(2, 3, this)">Neither company is investable.</button>
+
+                </div>
+                <div class="quiz-feedback" id="quizFeedback2"></div>
+            </div>
+        </section>
+
+        <!-- 08: Advanced Deep Dive (Collapsible) -->
+        <section class="lesson-section depth-block depth-advanced" id="sectionAdvanced">
+            <div class="section-header">
+                <span class="section-icon">🔬</span>
+                <h2 class="section-title">Advanced Methodology &amp; Edge Cases</h2>
+            </div>
+            
+            <details class="advanced-details" open>
+                <summary>
+                    <span>Cyclicals, Negative Earnings &amp; Accounting Adjustments</span>
+                    <span style="font-size: 0.76rem; opacity: 0.7;">▾ Expand</span>
+                </summary>
+                <div class="advanced-body">
+                    <p style="margin-bottom: 10px;"><strong>Edge Cases:</strong></p>
+                    <ul style="margin-left: 20px; margin-bottom: 14px;">
+                        <li>Negative Equity: When past accumulated losses wipe out net worth, equity becomes negative. Mathematical ROE becomes economically meaningless. Stockerboard marks this as '—' with the certified reason NEGATIVE_EQUITY.</li>
+<li>Near-Zero Equity: A company with ₹1 Cr equity and ₹5 Cr profit produces a 500% ROE. This extreme percentage reflects denominator shrinkage, not exceptional operational compounding.</li>
+<li>Attribution Semantics: In consolidated groups with subsidiaries, ROE must use Profit Attributable to Owners divided by Owner Net Worth, strictly excluding non-controlling minority interest.</li>
+
+                    </ul>
+                    <p style="margin-bottom: 10px;"><strong>Cyclical Peak Paradox:</strong> DuPont 3-Way Decomposition: ROE = Net Profit Margin (Profit ÷ Revenue) × Asset Turnover (Revenue ÷ Assets) × Financial Leverage (Assets ÷ Equity). This reveals whether ROE is driven by genuine operating profitability, capital velocity, or balance-sheet leverage.</p>
+                    <p style="margin-bottom: 10px;"><strong>Earnings Quality Checks:</strong> ROE vs ROCE: While ROE focuses strictly on equity shareholders' capital, ROCE (Return on Capital Employed) evaluates total capital (Equity + Debt). ROCE provides a vital check when a company appears artificially attractive on ROE due to heavy debt leverage.</p>
+                    <div style="margin-top: 14px; padding: 12px; background: rgba(139, 92, 246, 0.06); border-radius: 6px; border-left: 3px solid var(--purple);">
+                        <strong>Stockerboard Data Provenance:</strong> Stockerboard computes annual ROE from point-in-time-aware StockMe-certified data lineage. It requires certified beginning and ending balance sheets for identical consolidation scope. Standalone and consolidated metrics are never commingled, and missing data is never filled with coerced estimates.
+                    </div>
+                </div>
+            </details>
+        </section>
+
+        
+
+        <!-- Practical Application Action Block -->
+        <section class="lesson-action-block">
+            <div class="action-card">
+                <div>
+                    <span class="action-tag">PRACTICAL APPLICATION</span>
+                    <h3 class="action-title">Put It Into Practice</h3>
+                    <p class="action-desc">Explore qualifying companies in the screener and compare evidence against industry benchmarks.</p>
+                </div>
+                <div class="action-buttons">
+                    <a href="/?mode=pro" class="btn-action primary">⚡ Explore Matching Companies →</a>
+<a href="/stocks/" class="btn-action secondary">📊 Compare Evidence →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 09: Navigation & Next Lesson -->
+        <footer class="lesson-nav-bar">
+            
+        <div class="nav-prev-box">
+            <span class="nav-label">Previous Lesson</span>
+            <a href="/learn/pe-ratio/" class="nav-link">← P/E Ratio (Price-to-Earnings)</a>
+        </div>
+        
+            
+        <div class="nav-next-box" style="text-align: right;">
+            <span class="nav-label">Next Lesson</span>
+            <a href="/learn/52-week-high-low/" class="nav-link">52-Week Range &amp; Price Position →</a>
+        </div>
+        
+        </footer>
+
+    </main>
+
+    <!-- Interactive Client Engine -->
+    <script>
+        // Theme Toggle Handler
+        function toggleTheme() {
+            const current = document.documentElement.getAttribute('data-theme') || 'light';
+            const next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.setItem('stockerboard_theme', next);
+            updateThemeBtn(next);
+        }
+        function updateThemeBtn(theme) {
+            const icon = document.getElementById('themeIcon');
+            const txt = document.getElementById('themeText');
+            if (icon && txt) {
+                icon.textContent = theme === 'dark' ? '☀️' : '🌙';
+                txt.textContent = theme === 'dark' ? 'Light' : 'Dark';
+            }
+        }
+        (function() {
+            const current = document.documentElement.getAttribute('data-theme') || 'light';
+            updateThemeBtn(current);
+        })();
+
+        // Progressive Depth Switcher
+        function switchLessonDepth(depth) {
+            document.querySelectorAll('.depth-btn').forEach(btn => btn.classList.remove('active'));
+            if (depth === 'simple') {
+                document.getElementById('btnDepthSimple').classList.add('active');
+                document.getElementById('sectionIntuition').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            } else if (depth === 'deeper') {
+                document.getElementById('btnDepthDeeper').classList.add('active');
+                document.getElementById('sectionFormula').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            } else if (depth === 'advanced') {
+                document.getElementById('btnDepthAdvanced').classList.add('active');
+                document.getElementById('sectionAdvanced').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+
+        // Quiz Evaluation Engine
+        const quizData = {
+            q1: {
+                correct: 1,
+                explanation: "ROE = (Annual Profit ÷ Average Equity) × 100 = (₹24 Cr ÷ ₹120 Cr) × 100 = 20.00%. The company generated ₹20 of accounting profit for every ₹100 of average equity capital."
+            },
+            q2: {
+                correct: 2,
+                explanation: "A higher ROE alone never determines business quality. Company B's higher ROE may be an artifact of high financial leverage that increases downside solvency risk, while Company A's unleveraged 22% may reflect superior operating margins. Contextual balance-sheet investigation is always required."
+            }
+        };
+
+        function answerQuiz(qNum, selectedIdx, btnElem) {
+            const data = quizData['q' + qNum];
+            const optsContainer = document.getElementById('quizOpts' + qNum);
+            const feedbackBox = document.getElementById('quizFeedback' + qNum);
+            
+            // Disable other buttons in this quiz
+            optsContainer.querySelectorAll('.quiz-opt-btn').forEach((b, idx) => {
+                b.disabled = true;
+                if (idx === data.correct) {
+                    b.classList.add('correct');
+                } else if (idx === selectedIdx) {
+                    b.classList.add('incorrect');
+                }
+            });
+
+            feedbackBox.classList.add('show');
+            if (selectedIdx === data.correct) {
+                feedbackBox.className = 'quiz-feedback show good';
+                feedbackBox.innerHTML = '<strong>✓ Correct!</strong> ' + data.explanation;
+            } else {
+                feedbackBox.className = 'quiz-feedback show bad';
+                feedbackBox.innerHTML = '<strong>✕ Not quite.</strong> ' + data.explanation;
+            }
+        }
+    </script>
+</body>
+</html>

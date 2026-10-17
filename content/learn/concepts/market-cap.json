@@ -1,0 +1,166 @@
+{
+  "id": "market-cap",
+  "slug": "market-cap",
+  "title": "Market Capitalisation: What Is the Company Worth in the Stock Market?",
+  "short_title": "Market Cap",
+  "category": "financial-literacy",
+  "difficulty": "Foundations",
+  "estimated_read_min": 6,
+  "simple_explanation": {
+    "hero_headline": "Market Capitalisation represents the stock market value of a company's equity based on its market price and the relevant number of shares used by the published metric.",
+    "core_intuition": "Share Price × Shares = Market Capitalisation. Market Cap represents the market value of the company's equity based on its market price and the relevant number of shares. It is one way to describe company size in market-value terms. It does NOT represent physical business size, total enterprise value, or cash in the bank. The single biggest beginner misconception is believing that a low share price (like ₹50) means a company is 'small' or 'cheap', or that a high share price (like ₹2,000) means a company is 'large' or 'expensive'. Share price alone tells you almost nothing about total company size. Company A with shares at ₹100 and 100 Crore shares has a Market Cap of ₹10,000 Crore, while Company B with shares at ₹2,000 and 2 Crore shares has a Market Cap of only ₹4,000 Crore. Higher share price does NOT mean bigger company, and low share price does NOT mean cheap company. Low Share Price ≠ Cheap Company. High Share Price ≠ Large Company. High Market Cap ≠ Overvalued. Low Market Cap ≠ Undervalued. Market Cap ≠ Cash in Bank.",
+    "real_world_analogy": "Imagine two pizzas of identical size. Pizza A is sliced into 10 large slices sold for ₹100 each (total value = 10 × ₹100 = ₹1,000). Pizza B is sliced into 100 small bite-sized pieces sold for ₹10 each (total value = 100 × ₹10 = ₹1,000). A single slice of Pizza B costs only ₹10, but it is NOT a cheaper overall pizza—you just get a smaller slice of ownership. In the stock market, share price is simply the price of one single slice. Market Capitalisation tells you the total value of the entire pizza.",
+    "key_takeaway": "Market Cap measures the stock market value of a company's total equity (Share Price × Shares). Never evaluate company size or cheapness using share price alone. Low share price does not mean cheap, and high Market Cap does not mean the company has that cash in the bank."
+  },
+  "detailed_explanation": {
+    "formula_plain": "Market Capitalisation = Current Share Price × Total Number of Shares",
+    "formula_variables": [
+      {
+        "name": "Share Price (P)",
+        "description": "The current market price of one individual equity share on the exchange (e.g. Current Market Price / CMP)."
+      },
+      {
+        "name": "Total Shares (N)",
+        "description": "The total number of equity shares issued and outstanding representing equity ownership."
+      },
+      {
+        "name": "Market Capitalisation (MCap)",
+        "description": "The total aggregate value assigned to all equity shares by the stock market at the prevailing price."
+      }
+    ],
+    "worked_example": {
+      "company_name": "Company A vs Company B (Simplified Educational Comparison)",
+      "inputs": {
+        "company_a": "Share Price: ₹100.00 | Shares Outstanding: 100.00 Cr shares",
+        "company_b": "Share Price: ₹2,000.00 | Shares Outstanding: 2.00 Cr shares"
+      },
+      "calculation_steps": [
+        "Step 1: Compute Company A Market Cap = ₹100.00 × 100.00 Cr shares = ₹10,000.00 Cr",
+        "Step 2: Compute Company B Market Cap = ₹2,000.00 × 2.00 Cr shares = ₹4,000.00 Cr",
+        "Step 3: Compare Share Prices = Company B has a 20x higher share price (₹2,000.00 vs ₹100.00)",
+        "Step 4: Compare Total Market Size = Company A is 2.5x larger in equity value (₹10,000.00 Cr vs ₹4,000.00 Cr)",
+        "Step 5: Lesson = Share price alone tells you nothing about company size or valuation without knowing the number of shares."
+      ],
+      "result": "Company A Market Cap: ₹10,000.00 Cr | Company B Market Cap: ₹4,000.00 Cr",
+      "plain_interpretation": "Company B trades at ₹2,000.00 per share while Company A trades at ₹100.00. Yet Company A is 2.5 times larger because it has 100 Crore shares compared to Company B's 2 Crore shares. Higher share price does not equal a larger company."
+    },
+    "interpretation_guide": {
+      "what_higher_suggests": [
+        "Larger Equity Market Scale: Higher total valuation placed on the company's equity by stock market participants.",
+        "Institutional Liquidity: Large-cap companies typically have greater daily trading volume, enabling institutional investors and mutual funds to enter and exit positions with lower market impact.",
+        "Market Capitalisation groupings: Companies are often grouped into large-cap, mid-cap, and small-cap categories based on Market Capitalisation or formal market-ranking methodologies.",
+        "High Market Cap is NOT a valuation conclusion: A large market cap does not mean the stock is overvalued or cheap; valuation requires comparing equity price to earnings, cash flows, and assets."
+      ],
+      "what_lower_suggests": [
+        "Smaller Market Value Scale: Lower total equity valuation, frequently found in emerging, regional, or niche businesses.",
+        "Potential Growth Runway or Volatility: Smaller market-cap companies may offer faster percentage expansion potential, but typically experience greater price volatility and liquidity constraints during market stress.",
+        "Low Market Cap is NOT undervalued: A low market cap simply indicates smaller market equity scale, not that the stock is a bargain."
+      ],
+      "contextual_checks": [
+        "Share Count Matters: Two companies can both trade at ₹100.00, but if one has 100 Cr shares and the other has 10 Cr shares, their Market Caps are ₹10,000 Cr and ₹1,000 Cr respectively.",
+        "Stock Split Mechanics: In a 2:1 stock split, a ₹1,000 share price halves to ₹500 while shares double from 10 Cr to 20 Cr. Total Market Cap remains approximately unchanged at ₹10,000 Cr (ignoring market movements). The company did not become cheaper.",
+        "Market Cap vs Business Financials: Large Market Cap does not mean largest revenue, largest profit, or most assets. Financial statements report quarterly business performance; market prices move every trading day.",
+        "Market Cap ≠ Cash in the Bank: A ₹1 lakh crore Market Cap represents equity valuation by market investors, not cash sitting in a bank account.",
+        "Market Cap vs Enterprise Value: Market Cap reflects equity value. Full corporate economic valuation can also consider debt, cash, and other obligations (Enterprise Value)."
+      ]
+    },
+    "common_mistakes": [
+      {
+        "fallacy": "A ₹50 stock is cheaper than a ₹2,000 stock.",
+        "reality": "Share price alone does not tell company valuation or size. Valuation depends on earnings and assets per share, and company size depends on total Market Cap."
+      },
+      {
+        "fallacy": "Higher share price means a bigger company.",
+        "reality": "Company size in the stock market depends on Share Price × Shares. A ₹100 stock with 100 Cr shares is bigger than a ₹2,000 stock with 2 Cr shares."
+      },
+      {
+        "fallacy": "Market Cap is cash in the company's bank.",
+        "reality": "Market Cap is a stock market equity valuation based on share price and shares, not cash or bank deposits."
+      },
+      {
+        "fallacy": "High Market Cap means the stock is overvalued.",
+        "reality": "Market Cap reflects company size in the equity market. Valuation requires comparing market price to earnings (P/E), book value, or cash flow."
+      },
+      {
+        "fallacy": "Low Market Cap means the stock is undervalued.",
+        "reality": "A smaller market valuation does not establish that a business is cheap; many small-cap companies have low earnings or structural risks."
+      },
+      {
+        "fallacy": "A stock split makes the company cheaper.",
+        "reality": "In a stock split, share price and share count adjust in exact inverse proportion; total company economic equity value does not change."
+      },
+      {
+        "fallacy": "Market Cap never changes unless earnings change.",
+        "reality": "Earnings update in quarterly financial statements, but share price moves continuously during every trading session, changing Market Cap daily."
+      },
+      {
+        "fallacy": "Market Cap equals total enterprise value.",
+        "reality": "Market Cap measures equity value only. Total corporate value must also account for debt liabilities, cash balances, and other financial claims."
+      }
+    ]
+  },
+  "advanced_explanation": {
+    "edge_cases": [
+      "Date Alignment & Basis Consistency: Market Cap requires pairing a price as-of date with the corresponding share ledger basis. Stockerboard pairs EOD close with effective shares outstanding on that date to prevent distorted valuations across corporate-action dates.",
+      "Free-Float Market Cap vs Full Market Cap: Full Market Cap includes all issued shares outstanding. Free-Float Market Cap considers only the shares actively available for public trading, excluding promoter lock-ins, strategic government holdings, and insider trusts (commonly used by benchmark index weightings).",
+      "Market Cap vs Enterprise Value (EV): Market Cap measures the market value of equity. Enterprise Value (EV) provides a broader capital-structure measure by adding total debt and deducting cash equivalents.",
+      "Corporate Action Adjustments: Stock splits, bonus issues, and rights offerings alter share count and per-share price simultaneously. Learn preserves governed corporate-action semantics rather than independently reconstructing share counts on the page."
+    ],
+    "cyclical_nuances": "Market Cap Fluctuations vs Economic Scale: Because share prices change continuously throughout every trading session, Market Cap fluctuates every day even when underlying business operations have not reported any change. A company's market cap can double in a bull market and halve in a bear market while its factories, employees, and quarterly revenue remain identical.",
+    "accounting_adjustments": "Denominators & Denomination Bases: Financial calculations distinguish between total shares outstanding, basic weighted average shares, and fully diluted shares (which include convertible bonds, options, and warrants). Stockerboard uses the governed Share Ledger shares outstanding for canonical Market Cap.",
+    "stockme_provenance_note": "Stockerboard sources canonical Market Capitalisation (MARKET_CAP) from certified VALUATION_GOLD_V1 contracts using the governed formula: round(price * shares, 4) where price is the EOD close from OHLC and shares is shares_outstanding from share_ledger_v1 share_states effective on price_as_of. Under VALUATION_GOLD_V1.0.0, both price and shares must be strictly positive (price > 0, shares > 0); MARKET_CAP = 0 is not a valid published state, and any non-positive source state fails closed to UNAVAILABLE. Display values are published in Crore (market_cap_crore). Learn displays published snapshot values directly without independent production recalculation (MARKET_CAP_CALCULATED_INSIDE_LEARN: NO)."
+  },
+  "metric_binding": {
+    "metric_key": "market_cap",
+    "sample_symbols": [
+      "INFY",
+      "ABFRL",
+      "20MICRONS"
+    ]
+  },
+  "prerequisites": [
+    "what-is-a-stock",
+    "share-price"
+  ],
+  "next_concept": "revenue",
+  "related_concepts": [
+    "share-price",
+    "revenue",
+    "profit",
+    "eps",
+    "pe-ratio",
+    "roe"
+  ],
+  "quiz": {
+    "calculation_question": {
+      "question": "Company A has a Share Price of ₹200.00 and 50.00 Crore shares outstanding. What is its Market Capitalisation?",
+      "options": [
+        "₹250.00 Cr",
+        "₹1,000.00 Cr",
+        "₹10,000.00 Cr",
+        "₹20,000.00 Cr"
+      ],
+      "correct_index": 2,
+      "explanation": "Market Cap = Share Price × Shares Outstanding = ₹200.00 × 50.00 Cr = ₹10,000.00 Cr. Simplified educational calculation."
+    },
+    "reasoning_question": {
+      "question": "Company A has a Share Price of ₹100.00, while Company B has a Share Price of ₹2,000.00. Which company is larger by Market Capitalisation?",
+      "options": [
+        "Company A is definitely larger",
+        "Company B is definitely larger because ₹2,000 is higher than ₹100",
+        "Both companies are exactly equal in size",
+        "Not enough information — cannot determine without share-count information"
+      ],
+      "correct_index": 3,
+      "explanation": "Share price alone tells us almost nothing about total company size. Company A could have 100 Crore shares (₹10,000 Cr Market Cap) while Company B has only 1 Crore shares (₹2,000 Cr Market Cap). Total equity size requires both share price and the number of shares."
+    }
+  },
+  "governance": {
+    "content_version": "1.0.0",
+    "canonical_market_cap_metric": "MARKET_CAP",
+    "valuation_gold_contract": "VALUATION_GOLD_V1.0.0",
+    "review_status": "APPROVED",
+    "reviewed_by": "Antigravity Financial Architecture",
+    "last_updated": "2026-10-17"
+  }
+}

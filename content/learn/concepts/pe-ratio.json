@@ -1,0 +1,123 @@
+{
+  "id": "pe-ratio",
+  "slug": "pe-ratio",
+  "title": "P/E Ratio (Price-to-Earnings)",
+  "short_title": "P/E Ratio",
+  "category": "valuation",
+  "difficulty": "Beginner → Intermediate",
+  "estimated_read_min": 6,
+  "simple_explanation": {
+    "hero_headline": "How much the market currently pays for ₹1 of annual company earnings.",
+    "core_intuition": "The Price-to-Earnings (P/E) ratio compares a company's current share price to its annual earnings per share (EPS). It indicates that the market is currently pricing the company at ₹X for every ₹1 of current annual EPS. While you can loosely think of this as the price investors place on today's earnings stream, it is not a literal payback-period calculation, because business earnings can grow, shrink, or disappear over time.",
+    "real_world_analogy": "Imagine your neighbourhood bakery generates ₹5,00,000 in net profit each year. If the owner offers to sell you the entire bakery for ₹50,00,000, you are paying 10 times current annual earnings (a P/E multiple of 10x). If someone else asks ₹1,50,00,000 for the same bakery, that is a multiple of 30x. Neither price is automatically right or wrong—it depends on whether the bakery can expand profits or is losing customers. Paying 10x does not guarantee you recover your capital in 10 years, because profits will fluctuate.",
+    "key_takeaway": "P/E measures price relative to earnings, not whether a stock is a bargain or overvalued."
+  },
+  "detailed_explanation": {
+    "formula_plain": "P/E Ratio = Current Market Price (CMP) ÷ Earnings Per Share (EPS)",
+    "formula_variables": [
+      {
+        "name": "Current Market Price (CMP)",
+        "description": "The latest traded price per share on the exchange (NSE/BSE)."
+      },
+      {
+        "name": "Earnings Per Share (EPS)",
+        "description": "Trailing 12-month net profit attributable to equity shareholders divided by the total number of equity shares."
+      }
+    ],
+    "worked_example": {
+      "company_name": "Stockerboard Coffee Ltd. (Fictional)",
+      "inputs": {
+        "share_price": "₹500.00",
+        "trailing_eps": "₹20.00"
+      },
+      "calculation_steps": [
+        "Step 1: Identify the current share price = ₹500.00",
+        "Step 2: Identify the trailing annual earnings per share = ₹20.00",
+        "Step 3: Divide Share Price by EPS: ₹500.00 ÷ ₹20.00 = 25.00x"
+      ],
+      "result": "25.00x",
+      "plain_interpretation": "Investors are currently paying ₹25 for every ₹1 of annual profit that Stockerboard Coffee Ltd. generates."
+    },
+    "interpretation_guide": {
+      "what_higher_suggests": [
+        "The market expects substantial future profit growth.",
+        "Investors perceive the business as high quality, stable, or recession-resilient.",
+        "Earnings may have temporarily collapsed during an economic down-cycle, artificially elevating the ratio."
+      ],
+      "what_lower_suggests": [
+        "The market anticipates earnings deceleration, margin erosion, or heightened business risks.",
+        "The company operates in a mature, capital-intensive, or cyclical sector.",
+        "The stock may be neglected by institutions despite stable fundamentals."
+      ],
+      "contextual_checks": [
+        "Compare with Direct Peers: Is this P/E higher or lower than competitors operating with similar capital requirements?",
+        "Inspect Earnings Trajectory: Are earnings growing consistently, or was the latest profit boosted by a one-off asset sale?",
+        "Evaluate Balance Sheet Health: Does high debt threaten future earnings after debt service?"
+      ]
+    },
+    "common_mistakes": [
+      {
+        "fallacy": "A stock with a P/E of 10 is automatically cheap, and a stock with a P/E of 40 is expensive.",
+        "reality": "A low P/E can be a 'value trap' where a company's profits are in structural decline or cyclical peak. Conversely, high-quality compounders with high ROE often maintain premium multiples for decades because they reinvest capital profitably."
+      },
+      {
+        "fallacy": "P/E tells me if a company is financially safe.",
+        "reality": "P/E measures valuation, not financial stability. A company with a low P/E can still be burdened with dangerous debt or negative operating cash flows."
+      }
+    ]
+  },
+  "advanced_explanation": {
+    "edge_cases": [
+      "Negative Earnings: When a company reports a net loss, EPS is negative. P/E becomes mathematically negative and economically meaningless. Stockerboard marks this as '—' rather than a negative number.",
+      "Cyclical Peaks: Commodity companies (steel, chemicals) often show their lowest P/E at the top of the economic cycle when earnings peak, and highest P/E at cycle troughs."
+    ],
+    "cyclical_nuances": "During commodity booms, steel companies may trade at 5x P/E because the market knows windfall margins cannot last. When commodity prices normalize, earnings collapse and the 'cheap' 5x P/E vanishes.",
+    "accounting_adjustments": "Always verify whether the 'E' in P/E includes extraordinary income, government subsidies, or fair-value mark-to-market gains that will not repeat next quarter.",
+    "stockme_provenance_note": "Stockerboard applies point-in-time-aware StockMe-certified data lineage sourced from company financial disclosures. Valuation metrics reflect the exact financial period scope (Consolidated where subsidiaries exist). Missing trailing earnings are never coerced or filled with estimates."
+  },
+  "metric_binding": {
+    "metric_key": "pe_ratio",
+    "sample_symbols": ["INFY", "TCS", "ABFRL"]
+  },
+  "prerequisites": [
+    "profit",
+    "eps"
+  ],
+  "next_concept": "roe",
+  "related_concepts": [
+    "eps",
+    "roe",
+    "market-cap",
+    "compare-companies"
+  ],
+  "quiz": {
+    "calculation_question": {
+      "question": "A company's shares are trading at ₹600 on the NSE. Its certified annual EPS is ₹30. What is its P/E ratio?",
+      "options": [
+        "10.00x",
+        "15.00x",
+        "20.00x",
+        "30.00x"
+      ],
+      "correct_index": 2,
+      "explanation": "P/E = Share Price ÷ EPS. ₹600 ÷ ₹30 = 20.00x. Investors pay ₹20 for every ₹1 of current annual profit."
+    },
+    "reasoning_question": {
+      "question": "Company A trades at a P/E of 15x. Company B trades at a P/E of 35x. Which company is the better investment?",
+      "options": [
+        "Company A, because a lower P/E means it is cheaper.",
+        "Company B, because a higher P/E means investors believe in its growth.",
+        "Not enough information to determine.",
+        "Neither, both should be avoided."
+      ],
+      "correct_index": 2,
+      "explanation": "A lower or higher P/E ratio alone never establishes whether a company is an attractive investment. You must investigate earnings stability, growth prospects, ROE, debt leverage, and competitive quality before forming a view."
+    }
+  },
+  "governance": {
+    "content_version": "1.0.0",
+    "review_status": "APPROVED",
+    "reviewed_by": "Antigravity Financial Architecture",
+    "last_updated": "2026-10-17"
+  }
+}

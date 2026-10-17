@@ -1,0 +1,152 @@
+{
+  "id": "profit-vs-cash-flow",
+  "slug": "profit-vs-cash-flow",
+  "title": "Profit vs Cash Flow: Why Earnings and Cash Can Differ",
+  "short_title": "Profit vs Cash Flow",
+  "category": "financial-literacy",
+  "difficulty": "Beginner → Intermediate",
+  "estimated_read_min": 6,
+  "simple_explanation": {
+    "hero_headline": "Why a business can report accounting profits without generating the same amount of cash in its bank account.",
+    "core_intuition": "Profit measures economic performance under accounting rules using accrual accounting, where revenue and expenses are recorded when earned or incurred. Operating cash flow tracks the actual movement of cash into and out of the business during that same period. A company can be profitable on paper while consuming cash to fund inventory or customer credit. Neither number should be interpreted alone.",
+    "real_world_analogy": "Imagine Stockerboard Furniture Ltd. sells a handcrafted dining table today for ₹10,000. Under accounting rules, it records ₹10,000 in revenue today because the sale is complete. But the customer pays ₹4,000 today and the remaining ₹6,000 next month. Revenue is ₹10,000, but cash received today is only ₹4,000. Accounting revenue and cash timing are related, but they do not have to be equal.",
+    "key_takeaway": "Profit tells you what the business earned under accounting rules. Operating cash flow shows how that accounting profit translated into actual cash movements. Never assume positive profit equals positive cash flow."
+  },
+  "detailed_explanation": {
+    "formula_plain": "Operating Cash Flow ≈ Net Profit + Non-Cash Expenses (Depreciation) - Working Capital Increases (Receivables & Inventory) + Working Capital Decreases (Payables)",
+    "formula_variables": [
+      {
+        "name": "Net Profit / Profit After Tax (PAT)",
+        "description": "Accounting profit after deducting all operating costs, interest, depreciation, and taxes from revenue under accrual accounting."
+      },
+      {
+        "name": "Non-Cash Expenses (Depreciation & Amortisation)",
+        "description": "Accounting charges that reduce reported profit to reflect asset wear and tear over time, but do not involve a cash payment in the current period."
+      },
+      {
+        "name": "Working Capital Movements",
+        "description": "Changes in operating assets and liabilities: cash tied up in unpaid customer bills (Trade Receivables) and unsold stock (Inventory), offset by supplier credit (Trade Payables)."
+      }
+    ],
+    "worked_example": {
+      "company_name": "Stockerboard Foods Ltd. (Simplified Educational Example)",
+      "inputs": {
+        "net_profit": "₹20.00 Cr",
+        "depreciation": "+₹5.00 Cr",
+        "receivables_change": "-₹8.00 Cr (Increase in unpaid sales)",
+        "inventory_change": "-₹4.00 Cr (Increase in stored goods)",
+        "payables_change": "+₹2.00 Cr (Increase in supplier credit)"
+      },
+      "calculation_steps": [
+        "Step 1: Start with Accounting Net Profit = ₹20.00 Cr",
+        "Step 2: Add Non-Cash Depreciation (no cash left the bank) = ₹20.00 + ₹5.00 = ₹25.00 Cr",
+        "Step 3: Subtract Increase in Trade Receivables (sales made on credit where cash has not arrived) = ₹25.00 - ₹8.00 = ₹17.00 Cr",
+        "Step 4: Subtract Increase in Inventory (cash spent on raw materials and finished goods not yet sold) = ₹17.00 - ₹4.00 = ₹13.00 Cr",
+        "Step 5: Add Increase in Trade Payables (supplier bills delayed, preserving cash temporarily) = ₹13.00 + ₹2.00 = ₹15.00 Cr"
+      ],
+      "result": "Simplified Operating Cash Flow: ₹15.00 Cr (vs Net Profit of ₹20.00 Cr)",
+      "plain_interpretation": "Stockerboard Foods earned ₹20.00 Cr in accounting profit, but actual cash generated from operations was ₹15.00 Cr. The ₹5.00 Cr difference is explained by non-cash depreciation (+₹5 Cr) offset by net cash absorbed into expanding customer credit and warehouse inventory (-₹10 Cr net working capital outflow). This is a simplified teaching example, not a complete statutory cash-flow statement."
+    },
+    "interpretation_guide": {
+      "what_higher_suggests": [
+        "Positive Profit & Positive CFO (Case A): Demonstrates healthy operational alignment where earnings translate steadily into realized cash flows.",
+        "Significant Non-Cash Depreciation: Capital-intensive businesses (power plants, telecom infrastructure, manufacturing) frequently report CFO substantially higher than Net Profit because large non-cash depreciation charges reduce profit without consuming cash.",
+        "Working Capital Inflows: Aggressive collection of customer receivables or efficient just-in-time inventory reduction can temporarily boost CFO above net profit.",
+        "CFO higher than PAT is not automatically 'excellent': it can reflect delayed supplier payments or declining reinvestment in inventory."
+      ],
+      "what_lower_suggests": [
+        "Positive Profit & Negative/Lower CFO (Case B): Requires investigation into working capital—often cash is tied up in expanding trade receivables or unsold inventory during rapid sales growth.",
+        "Negative CFO does NOT automatically prove fraud: growing businesses frequently consume cash to finance working capital before customer collections occur.",
+        "Aggressive Revenue Recognition: If profit expands year after year while customer receivables multiply and cash collections languish, it signals potential collection risks.",
+        "Negative Profit & Positive CFO (Case C): Heavy non-cash write-downs, restructuring charges, or working-capital release can produce positive operating cash despite accounting net losses."
+      ],
+      "contextual_checks": [
+        "Inspect Working Capital Trajectory: Are Trade Receivables and Inventory growing substantially faster than sales revenue?",
+        "Compare Multi-Year Cumulative Totals: Over 3 to 5 years, do cumulative operating cash flows roughly track cumulative accounting profits?",
+        "Check Reporting Scope Parity: Always compare Standalone Profit with Standalone Cash Flow, or Consolidated Profit with Consolidated Cash Flow—never mix scopes.",
+        "Verify Accounting Period: Ensure the cash flow period (FY or TTM) exactly matches the profit reporting period."
+      ]
+    },
+    "common_mistakes": [
+      {
+        "fallacy": "Net profit equals cash earned by the business.",
+        "reality": "Profit is calculated under accrual accounting. Revenue is recorded when earned and expenses when incurred, regardless of when cash enters or leaves the bank."
+      },
+      {
+        "fallacy": "Positive accounting profit guarantees that operating cash flow will be positive.",
+        "reality": "A profitable business can experience negative cash flow if cash is heavily tied up in customer credit (receivables) or warehouse inventory."
+      },
+      {
+        "fallacy": "Negative operating cash flow proves that a company is committing accounting fraud.",
+        "reality": "Negative cash flow is a signal to investigate, not a conclusion. Fast-growing companies, seasonal businesses, and cyclical producers frequently absorb operating cash during expansion cycles."
+      },
+      {
+        "fallacy": "Operating cash flow greater than Net Profit is always a sign of superior quality.",
+        "reality": "High depreciation, delayed supplier payments (stretched payables), or depleting inventory reserves can inflate CFO above profit without improving underlying economics."
+      },
+      {
+        "fallacy": "Cash flow means the balance sitting in the company's bank account.",
+        "reality": "Operating cash flow measures cash generated or consumed by core operations during a specific period. It is not the total bank balance, which also reflects loan drawdowns, capital expenditures, and dividends."
+      },
+      {
+        "fallacy": "Inspecting one single year of profit and cash flow is sufficient.",
+        "reality": "Single-year working capital swings are normal. Multi-year cumulative trends provide far more reliable insight into whether earnings convert into real cash."
+      }
+    ]
+  },
+  "advanced_explanation": {
+    "edge_cases": [
+      "The Four-Quadrant Framework: In Case A (Profit+/CFO+), verify sustainability and capex needs. In Case B (Profit+/CFO-), investigate receivables aging and inventory build-up. In Case C (Profit-/CFO+), look for heavy depreciation or non-cash impairments. In Case D (Profit-/CFO-), check balance sheet liquidity and debt runway.",
+      "The Three Cash Flow Sections: The statutory Cash Flow Statement separates (1) Operating Activities (core business cash generation), (2) Investing Activities (purchase of plant, machinery, capex, and acquisitions), and (3) Financing Activities (debt issuance/repayment, dividends, and equity issuance).",
+      "Free Cash Flow (FCF) Introduction: Free Cash Flow represents operating cash flow minus capital expenditures (Capex). FCF is the cash left over after maintaining and expanding the physical asset base. A dedicated FCF lesson will cover this metric in depth later in the curriculum."
+    ],
+    "cyclical_nuances": "Multi-Year Cash Conversion: Persistent divergence between earnings and cash is a critical research signal. If PAT rises from ₹100 Cr → ₹130 Cr → ₹170 Cr over three years while CFO declines from ₹95 Cr → ₹80 Cr → ₹55 Cr, investors must investigate whether customers are delaying payments, inventory is becoming obsolete, or revenue recognition is aggressive.",
+    "accounting_adjustments": "Working Capital Dynamics: Receivables increase = cash tied up waiting for customers. Inventory increase = cash tied up in manufactured or purchased goods. Payables increase = cash preserved by delaying supplier payments. None of these movements are universally good or bad—growth requires working capital investment, whereas bloated inventory can precede markdowns.",
+    "stockme_provenance_note": "Stockerboard displays published Net Profit (PAT TTM) from certified FUNDAMENTAL_GOLD_V1 contracts alongside Operating Cash Flow. When official cash flow statements are pending ingestion for the matching period and scope, Stockerboard displays '—' rather than fabricating estimates. Zero is never coerced for missing financial data."
+  },
+  "metric_binding": {
+    "metric_key": "profit_vs_cfo",
+    "sample_symbols": ["INFY", "TCS", "ABFRL"]
+  },
+  "prerequisites": [
+    "what-is-a-stock",
+    "revenue"
+  ],
+  "next_concept": "eps",
+  "related_concepts": [
+    "pe-ratio",
+    "roe",
+    "52-week-high-low",
+    "revenue"
+  ],
+  "quiz": {
+    "calculation_question": {
+      "question": "A company reports Net Profit of ₹20.00 Cr, non-cash Depreciation of +₹5.00 Cr, and an Increase in Trade Receivables of -₹10.00 Cr. Ignoring other working-capital items, what is its simplified Operating Cash Flow?",
+      "options": [
+        "₹5.00 Cr",
+        "₹15.00 Cr",
+        "₹25.00 Cr",
+        "₹35.00 Cr"
+      ],
+      "correct_index": 1,
+      "explanation": "Simplified Operating Cash Flow = Net Profit (₹20.00 Cr) + Depreciation (+₹5.00 Cr) - Increase in Receivables (-₹10.00 Cr) = ₹25.00 Cr - ₹10.00 Cr = ₹15.00 Cr. Depreciation is added back because no cash left the business, while uncollected credit sales reduce current cash inflow."
+    },
+    "reasoning_question": {
+      "question": "A manufacturing company reports Net Profit of ₹100.00 Cr, but its Operating Cash Flow is -₹20.00 Cr. What should an investor conclude?",
+      "options": [
+        "The company is committing accounting fraud and the financial statements are fake.",
+        "The stock price must collapse immediately.",
+        "Not enough information to conclude — Cash conversion deserves further investigation into inventory build-up, customer receivables, and business growth phase.",
+        "Accounting profit is completely meaningless and should always be ignored."
+      ],
+      "correct_index": 2,
+      "explanation": "Divergence between accounting profit and operating cash flow is a research signal to investigate, not an automatic proof of fraud. The company may be investing heavily in working capital to support rapid sales growth, experiencing seasonal timing mismatches, or extending customer credit. Careful inspection of balance sheet receivables and inventory is required before drawing conclusions."
+    }
+  },
+  "governance": {
+    "content_version": "1.0.0",
+    "review_status": "APPROVED",
+    "reviewed_by": "Antigravity Financial Architecture",
+    "last_updated": "2026-10-17"
+  }
+}

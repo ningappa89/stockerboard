@@ -4938,14 +4938,15 @@
                     </div>
                 </div>
                 <div class="header-nav-links" style="display: inline-flex; align-items: center; gap: 24px; margin-left: 24px; margin-right: auto;">
+                    <a href="/" onclick="event.preventDefault(); switchUserMode('fresher'); window.scrollTo({top:0, behavior:'smooth'})" style="color: var(--text-secondary); text-decoration: none; font-size: 0.92rem; font-weight: 500; transition: color 0.15s ease;">Home</a>
                     <a href="/stocks/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.92rem; font-weight: 500; transition: color 0.15s ease;">Stocks</a>
-                    <a href="javascript:void(0)" onclick="openFresherPlaybookModal()" style="color: var(--text-secondary); text-decoration: none; font-size: 0.92rem; font-weight: 500; transition: color 0.15s ease;">Learn</a>
-                    <a href="javascript:void(0)" onclick="switchUserMode('pro')" style="color: var(--text-secondary); text-decoration: none; font-size: 0.92rem; font-weight: 500; transition: color 0.15s ease;">Explore</a>
+                    <a href="/learn/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.92rem; font-weight: 500; transition: color 0.15s ease;">Learn</a>
+                    <a href="/?mode=pro" onclick="event.preventDefault(); switchUserMode('intermediate')" style="color: var(--text-secondary); text-decoration: none; font-size: 0.92rem; font-weight: 500; transition: color 0.15s ease;">Pro research</a>
                 </div>
 
-                <div class="nav-market-pulse" id="navMarketPulse" title="NSE Settled EOD • Balanced Regime • 55 Leaders Advancing">
+                <div class="nav-market-pulse" id="navMarketPulse" title="NSE Settled EOD • Balanced Market • 19 of 350 stocks near yearly highs">
                     <span class="pulse-live-dot"></span>
-                    <span class="pulse-regime-title">Balanced Regime</span>
+                    <span class="pulse-regime-title">Balanced Market</span>
                 </div>
 
                 <div class="nav-right-controls" style="display: flex; align-items: center; gap: 10px;">
@@ -5121,40 +5122,32 @@
         <!-- ========================================================= -->
         <div id="intermediateTerminal" class="mode-view" style="display: none;">
             <!-- Terminal Hero Banner -->
-            <div class="hero-eyebrow">
-                <span class="eyebrow-accent"></span>
-                <span>PRO MARKET RESEARCH</span>
-            </div>
-            <h1 class="hero-title">
-                <span class="title-primary">Stockerboard</span>
-                <span class="title-slash">/</span>
-                <span class="title-highlight">Market insights</span>
-            </h1>
-            <div class="hero-meta-row">
-                <div class="meta-capsule-group">
-                    <button class="hero-chip" onclick="switchUserMode('fresher')" style="cursor: pointer; background: rgba(56, 189, 248, 0.12); border: 1px solid rgba(56, 189, 248, 0.35); color: #38BDF8; font-weight: 700;">
-                        ← Back to home
-                    </button>
-                    <span class="hero-chip chip-edition">Edition #42</span>
-                    <span class="hero-chip"><span data-market-session></span></span>
-                    <span class="hero-chip chip-compliance">Independent research · For learning</span>
+            <header class="pro-terminal-header">
+                <div>
+                    <div class="hero-chip-row">
+                        <span class="hero-chip chip-pro">Institutional Terminal</span>
+                        <span class="hero-chip chip-session" id="chipMarketSession">Market session 2026-10-16</span>
+                        <button class="hero-chip" onclick="switchUserMode('fresher')" style="cursor: pointer; background: rgba(16, 185, 129, 0.1); border-color: rgba(16, 185, 129, 0.3); color: #10B981;">
+                            ← Back to Simple Mode
+                        </button>
+                    </div>
+                    <h2 class="terminal-title">Stock Screener &amp; Market Intelligence</h2>
+                    <div class="hero-subtext">
+                        Explore market activity, screened stocks, and company fundamentals in one place.
+                    </div>
                 </div>
-                <div class="hero-subtext">
-                    Explore market activity, screened stocks, and company fundamentals in one place.
-                </div>
-            </div>
-        </header>
+            </header>
 
         <!-- Bento Grid -->
         <div class="bento-grid">
 <div class="bento-card card-macro" style="position: relative;">
 <div class="card-label">
-<span>Market snapshot</span>
+<span>Near-High Breadth</span>
 <span class="status-pill-subtle" style="font-size: 0.68rem; padding: 2px 6px; border-color: #F59E0B; color: #F59E0B;">Balanced</span>
 </div>
 <div style="display: flex; align-items: baseline; gap: 8px; margin: 4px 0;">
 <div class="card-val mono" style="font-size: 1.5rem; color: var(--text-primary);">5.4%</div>
-<span style="font-size: 0.76rem; color: var(--text-muted); font-weight: 600;">within 3% of the yearly high</span>
+<span style="font-size: 0.76rem; color: var(--text-muted); font-weight: 600;">19 of 350 stocks within 3% of 52W High</span>
 </div>
 <div class="breadth-track" style="margin: 8px 0 6px;">
 <div class="breadth-fill" style="width: 5.4%;"></div>
@@ -5166,20 +5159,24 @@
 </div>
 <div class="bento-card card-breakouts">
 <div class="card-label">
-<span>New yearly highs</span>
+<span>New 52W Highs</span>
 <span style="font-size: 0.8rem;">🚀</span>
 </div>
 <div class="card-val mono" style="color: var(--accent-blue);">3 <span style="font-size: 0.85rem; color: var(--text-muted); font-family: var(--font-sans); font-weight:600;">stocks</span></div>
-<div class="card-sub">Average momentum score: <strong>94/100</strong></div>
+<div class="card-sub">Price strength: <strong>94 / 100</strong> <span class="metric-plain-subtitle">Calculated from 20D vs 50D velocity</span></div>
 </div>
 <div class="bento-card card-consolidations">
 <div class="card-label">
-<span>Close to yearly highs</span>
+<span>Near 52W Highs</span>
 <span style="font-size: 0.8rem;">⚡</span>
 </div>
 <div class="card-val mono" style="color: #8B5CF6;">18 <span style="font-size: 0.85rem; color: var(--text-muted); font-family: var(--font-sans); font-weight:600;">stocks</span></div>
-<div class="card-sub">Less than 3% below their yearly high</div>
+<div class="card-sub">Base formations within 3% of yearly high</div>
 </div>
+</div>
+<details class="pro-more-context">
+<summary>📊 View Full Market Breadth &amp; Outliers <span>Sector leadership and return on equity</span></summary>
+<div class="bento-grid pro-more-grid">
 <div class="bento-card card-sector">
 <div class="card-label">
 <span>Strongest sector this week</span>
@@ -5197,6 +5194,7 @@
 <div class="card-sub">Highest certified ROE in this screen</div>
 </div>
 </div>
+</details>
 
         <!-- Action & Utilities Toolbar --><!-- Action & Utilities Toolbar -->
         <div class="action-toolbar">
@@ -5210,7 +5208,7 @@
                     <span style="background:rgba(255,255,255,0.22); padding:1px 6px; border-radius:4px; font-size:0.75rem;" id="tvCopyCount">350</span>
                 </button>
                 <button class="btn-csv-action" onclick="exportActiveTableCSV()">
-                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                         <polyline points="7 10 12 15 17 10"></polyline>
                         <line x1="12" y1="15" x2="12" y2="3"></line>
@@ -5226,44 +5224,50 @@
         </div>
 
         <!-- Navigation Tabs --><!-- Navigation Tabs -->
-        <div class="tab-bar">
-            <button class="tab-btn active" id="tabBtnScreener" onclick="switchTab('tab-screener', this)">
+        <nav class="pro-section-nav" aria-label="Pro research sections">
+            <button type="button" class="active" data-pro-section="market" onclick="showProGroup('market')">Market screens</button>
+            <button type="button" data-pro-section="stockme" onclick="showProGroup('stockme')">StockMe analysis</button>
+            <button type="button" data-pro-section="research" onclick="showProGroup('research')">Learn &amp; research</button>
+            <button type="button" data-pro-section="workspace" onclick="showProGroup('workspace')">My workspace</button>
+        </nav>
+        <div class="tab-bar" data-active-group="market" aria-label="Views in selected Pro section">
+            <button class="tab-btn active" data-pro-group="market" id="tabBtnScreener" onclick="switchTab('tab-screener', this)">
                 🔍 Market Explorer <span class="tab-counter">350</span>
             </button>
-            <button class="tab-btn" id="tabBtnStockMe" onclick="switchTab('tab-stockme-analysis', this)">
+            <button class="tab-btn" data-pro-group="stockme" id="tabBtnStockMe" onclick="switchTab('tab-stockme-analysis', this)">
                 📈 StockerBoard Analysis <span class="tab-counter">15</span>
             </button>
-            <button class="tab-btn" id="tabBtnBreakouts" onclick="switchTab('tab-breakouts', this)">
-                🚀 New yearly highs <span class="tab-counter">3</span>
+            <button class="tab-btn" data-pro-group="market" id="tabBtnBreakouts" onclick="switchTab('tab-breakouts', this)">
+                🚀 New 52W Highs <span class="tab-counter">3</span>
             </button>
-            <button class="tab-btn" id="tabBtnConsolidations" onclick="switchTab('tab-consolidations', this)">
-                ⚡ Near yearly highs <span class="tab-counter">18</span>
+            <button class="tab-btn" data-pro-group="market" id="tabBtnConsolidations" onclick="switchTab('tab-consolidations', this)">
+                ⚡ Near 52W Highs <span class="tab-counter">18</span>
             </button>
-            <button class="tab-btn" id="tabBtnSectors" onclick="switchTab('tab-sectors', this)">
-                📊 Sectors <span class="tab-counter">13</span>
+            <button class="tab-btn" data-pro-group="market" id="tabBtnSectors" onclick="switchTab('tab-sectors', this)">
+                📊 Sector Heatmap <span class="tab-counter">13</span>
             </button>
-            <button class="tab-btn" id="tabBtnFundamentals" onclick="switchTab('tab-fundamentals', this)">
-                💎 Financial leaders <span class="tab-counter">15</span>
+            <button class="tab-btn" data-pro-group="research" id="tabBtnFundamentals" onclick="switchTab('tab-fundamentals', this)">
+                💎 Financial Leaders <span class="tab-counter">15</span>
             </button>
-            <button class="tab-btn" onclick="switchTab('tab-playbook', this)" id="tabBtnPlaybook">
+            <button class="tab-btn" data-pro-group="research" onclick="switchTab('tab-playbook', this)" id="tabBtnPlaybook">
                 🎓 Trader Playbook
             </button>
-            <button class="tab-btn" id="tabBtnActions" onclick="switchTab('tab-actions', this)">
+            <button class="tab-btn" data-pro-group="research" id="tabBtnActions" onclick="switchTab('tab-actions', this)">
                 📅 Corporate Actions <span class="tab-counter">15</span>
             </button>
-            <button class="tab-btn" id="tabBtnJournal" onclick="switchTab('tab-journal', this)">
+            <button class="tab-btn" data-pro-group="workspace" id="tabBtnJournal" onclick="switchTab('tab-journal', this)">
                 📓 Decision Journal <span class="tab-counter" id="journalTabCount">0</span>
             </button>
-            <button class="tab-btn" onclick="switchTab('tab-watchlist', this)" id="tabBtnWatchlist">
+            <button class="tab-btn" data-pro-group="workspace" onclick="switchTab('tab-watchlist', this)" id="tabBtnWatchlist">
                 ⭐ My Watchlist <span class="tab-counter" id="watchlistCount">0</span>
             </button>
-            <button class="tab-btn" onclick="switchTab('tab-radar', this)" id="tabBtnRadar">
+            <button class="tab-btn" data-pro-group="workspace" onclick="switchTab('tab-radar', this)" id="tabBtnRadar">
                 🧠 Edge Matrix & Leaks
             </button>
-            <button class="tab-btn" onclick="switchTab('tab-exitladder', this)" id="tabBtnLadder">
+            <button class="tab-btn" data-pro-group="workspace" onclick="switchTab('tab-exitladder', this)" id="tabBtnLadder">
                 ⚡ 3:30 PM Action Radar & Ladder
             </button>
-            <button class="tab-btn" onclick="switchTab('tab-riskshield', this)" id="tabBtnShield">
+            <button class="tab-btn" data-pro-group="workspace" onclick="switchTab('tab-riskshield', this)" id="tabBtnShield">
                 🛡️ Risk Shield & What-If Sandbox
             </button>
         </div>
@@ -10296,6 +10300,7 @@
                 </div>
             </div>
             <div id="investorStockCards" class="investor-stock-cards" aria-label="Stock results"></div>
+            <div id="proMobileCards" class="pro-mobile-cards" aria-label="Mobile Pro stock cards"></div>
             <!-- Screener Pagination Bar -->
             <div class="screener-pagination" id="screenerPagination"></div>
         <!-- Empty state: shown when no stocks match filters -->
@@ -14336,9 +14341,10 @@
                 </span>
             </div>
             <div style="margin-bottom: 10px;">
-                <a href="/stocks/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; font-weight: 500; margin: 0 10px;">Stocks Directory</a>
-                <a href="javascript:void(0)" onclick="openFresherPlaybookModal()" style="color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; font-weight: 500; margin: 0 10px;">Learn</a>
-                <a href="#about-stockerboard" style="color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; font-weight: 500; margin: 0 10px;">About</a>
+                <a href="/" onclick="event.preventDefault(); switchUserMode('fresher'); window.scrollTo({top:0, behavior:'smooth'})" style="color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; font-weight: 500; margin: 0 10px;">Home</a>
+                <a href="/stocks/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; font-weight: 500; margin: 0 10px;">Stocks</a>
+                <a href="/learn/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; font-weight: 500; margin: 0 10px;">Learn</a>
+                <a href="/?mode=pro" onclick="event.preventDefault(); switchUserMode('intermediate')" style="color: var(--text-secondary); text-decoration: none; font-size: 0.85rem; font-weight: 500; margin: 0 10px;">Pro research</a>
             </div>
             © 2026 Stockerboard. All rights reserved. • Compiled from official public records of NSE India &amp; BSE India.
         </footer>
@@ -14764,6 +14770,21 @@
 
 
         // 1. Tab Switching
+        function showProGroup(group, openFirst = true) {
+            const bar = document.querySelector('#intermediateTerminal .tab-bar');
+            if (!bar) return;
+            bar.dataset.activeGroup = group;
+            document.querySelectorAll('.pro-section-nav button').forEach(button => {
+                const selected = button.dataset.proSection === group;
+                button.classList.toggle('active', selected);
+                button.setAttribute('aria-current', selected ? 'true' : 'false');
+            });
+            if (openFirst) {
+                const first = bar.querySelector(`.tab-btn[data-pro-group="${group}"]`);
+                if (first) switchTab(first.getAttribute('onclick').match(/'([^']+)'/)[1], first);
+            }
+        }
+
         function switchTab(tabId, btn) {
             document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
             document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
@@ -14772,8 +14793,9 @@
             if (btn) btn.classList.add('active');
             else {
                 const matchedBtn = document.querySelector(`.tab-btn[onclick*="${tabId}"]`);
-                if (matchedBtn) matchedBtn.classList.add('active');
+                if (matchedBtn) { matchedBtn.classList.add('active'); btn = matchedBtn; }
             }
+            if (btn?.dataset.proGroup) showProGroup(btn.dataset.proGroup, false);
             if (tabId === 'tab-watchlist') renderWatchlistTable();
             if (tabId === 'tab-journal') updateJournalUI();
             if (tabId === 'tab-radar') refreshRadar();
@@ -16201,6 +16223,7 @@
             // Render pagination buttons on both top and bottom
             renderScreenerPagination(totalPages);
             if (window.renderInvestorV1Cards) window.renderInvestorV1Cards(screenerFilteredRows.slice(startIdx, endIdx));
+            if (window.renderProMobileCards) window.renderProMobileCards(screenerFilteredRows.slice(startIdx, endIdx));
         }
 
         function renderScreenerPagination(totalPages) {
@@ -16973,11 +16996,13 @@
         }
 
 
-        function openFresherPlaybookModal() {
+        function openFresherPlaybookModal(event) {
+            if (event) event.preventDefault();
             switchUserMode('intermediate');
             const button = document.getElementById('tabBtnPlaybook');
             if (button) switchTab('tab-playbook', button);
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+            const panel = document.getElementById('tab-playbook');
+            if (panel) requestAnimationFrame(() => panel.scrollIntoView({ block: 'start', behavior: 'smooth' }));
         }
 
         function closeTvImportModal() {
@@ -18432,6 +18457,9 @@
             if (hash === '#tab-stockme-analysis') {
                 switchTab('tab-stockme-analysis', document.getElementById('tabBtnStockMe'));
                 requestAnimationFrame(() => document.getElementById('tab-stockme-analysis')?.scrollIntoView({ block: 'start' }));
+            } else if (hash === '#tab-playbook') {
+                switchTab('tab-playbook', document.getElementById('tabBtnPlaybook'));
+                requestAnimationFrame(() => document.getElementById('tab-playbook')?.scrollIntoView({ block: 'start' }));
             }
         });
 
@@ -19430,6 +19458,8 @@
                 switchUserMode('intermediate');
                 switchTab('tab-stockme-analysis', document.getElementById('tabBtnStockMe'));
                 document.getElementById('tab-stockme-analysis')?.scrollIntoView({ block: 'start' });
+            } else if (hash === '#tab-playbook') {
+                openFresherPlaybookModal();
             } else if (hash.startsWith('#stock/')) {
                 const sym = hash.replace('#stock/', '').trim();
                 if (sym) openStockDossier(sym, false);

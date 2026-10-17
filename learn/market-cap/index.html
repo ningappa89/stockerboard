@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Capitalisation: What Is the Company Worth in the Stock Market? | Stockerboard Learn</title>
+    <meta name="description" content="Understand Market Capitalisation: What Is the Company Worth in the Stock Market? with simple real-world analogy, formula, worked example, and StockMe-certified snapshot data.">
+    <link rel="canonical" href="https://stockerboard.com/learn/market-cap/">
+    <link rel="icon" type="image/svg+xml" href="../../favicon.svg">
+    
+    <!-- Anti-flicker Theme Sync -->
+    <script>
+        (function() {
+            try {
+                const savedTheme = localStorage.getItem('stockerboard_theme');
+                const theme = savedTheme ? savedTheme : 'light';
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch(e) {}
+        })();
+    </script>
+    
+    <!-- Open Graph / Twitter Meta -->
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Stockerboard">
+    <meta property="og:title" content="Market Capitalisation: What Is the Company Worth in the Stock Market? | Stockerboard Learn">
+    <meta property="og:description" content="Understand Market Capitalisation: What Is the Company Worth in the Stock Market? with simple real-world analogy, formula, worked example, and StockMe-certified snapshot data.">
+    <meta property="og:url" content="https://stockerboard.com/learn/market-cap/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Market Capitalisation: What Is the Company Worth in the Stock Market? | Stockerboard Learn">
+    <meta name="twitter:description" content="Understand Market Capitalisation: What Is the Company Worth in the Stock Market? with simple real-world analogy, formula, worked example, and StockMe-certified snapshot data.">
+    
+    <!-- Structured Data (LearningResource + BreadcrumbList) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "LearningResource",
+                "@id": "https://stockerboard.com/learn/market-cap/",
+                "name": "Market Capitalisation: What Is the Company Worth in the Stock Market?",
+                "description": "Understand Market Capitalisation: What Is the Company Worth in the Stock Market? with simple real-world analogy, formula, worked example, and StockMe-certified snapshot data.",
+                "educationalLevel": "Foundations",
+                "learningResourceType": "Concept Lesson",
+                "timeRequired": "PT6M",
+                "breadcrumb": {
+                    "@id": "https://stockerboard.com/learn/market-cap/#breadcrumb"
+                }
+            },
+            {
+                "@type": "BreadcrumbList",
+                "@id": "https://stockerboard.com/learn/market-cap/#breadcrumb",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://stockerboard.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Learn",
+                        "item": "https://stockerboard.com/learn/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Market Cap",
+                        "item": "https://stockerboard.com/learn/market-cap/"
+                    }
+                ]
+            }
+        ]
+    }
+    </script>
+    
+    <style>
+        :root, [data-theme="dark"] {
+            --bg: #080C14;
+            --surface: #0E1420;
+            --surface-elevated: #151D2C;
+            --surface-card: rgba(21, 29, 44, 0.7);
+            --border: rgba(255, 255, 255, 0.08);
+            --border-subtle: rgba(255, 255, 255, 0.05);
+            --text-primary: #F8FAFC;
+            --text-secondary: #94A3B8;
+            --text-muted: #64748B;
+            --brand-green: #15803D;
+            --brand-green-light: #16A34A;
+            --emerald: #10B981;
+            --coral: #F43F5E;
+            --amber: #F59E0B;
+            --blue: #3B82F6;
+            --purple: #8B5CF6;
+            --font: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+            --card-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+        }
+        [data-theme="light"] {
+            --bg: #FCFDFD;
+            --surface: #FFFFFF;
+            --surface-elevated: #F8FAFC;
+            --surface-card: #FFFFFF;
+            --border: #E2E8F0;
+            --border-subtle: #F1F5F9;
+            --text-primary: #0F172A;
+            --text-secondary: #475569;
+            --text-muted: #64748B;
+            --brand-green: #15803D;
+            --brand-green-light: #16A34A;
+            --emerald: #10B981;
+            --coral: #F43F5E;
+            --amber: #D97706;
+            --blue: #2563EB;
+            --purple: #7C3AED;
+            --card-shadow: 0 1px 3px rgba(15, 23, 42, 0.04), 0 8px 20px -4px rgba(15, 23, 42, 0.06);
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: var(--font);
+            background-color: var(--bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding-bottom: 80px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 14px 24px;
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .header-left { display: flex; align-items: center; gap: 28px; }
+        .logo {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .logo-dot { width: 10px; height: 10px; background: var(--emerald); border-radius: 50%; }
+        .header-nav { display: inline-flex; align-items: center; gap: 20px; }
+        .header-nav a { color: var(--text-secondary); text-decoration: none; font-size: .92rem; font-weight: 500; transition: color 0.15s ease; }
+        .header-nav a:hover, .header-nav a.active { color: var(--emerald); }
+        .theme-btn {
+            background: transparent;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 6px 12px;
+            cursor: pointer;
+            color: var(--text-primary);
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: .85rem;
+        }
+        
+        /* Container */
+        .lesson-container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 24px 20px;
+        }
+        
+        /* Breadcrumbs */
+        .breadcrumbs {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 20px;
+        }
+        .breadcrumbs a { color: var(--text-secondary); text-decoration: none; }
+        .breadcrumbs a:hover { color: var(--emerald); }
+        .breadcrumbs .sep { opacity: 0.5; }
+        .breadcrumbs .curr { color: var(--text-primary); font-weight: 600; }
+        
+        /* Sticky Depth Switcher */
+        .depth-switcher-wrap {
+            position: sticky;
+            top: 61px;
+            z-index: 90;
+            background: var(--surface);
+            padding: 10px 14px;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+            backdrop-filter: blur(8px);
+        }
+        .depth-chips {
+            display: flex;
+            gap: 6px;
+        }
+        .depth-btn {
+            background: transparent;
+            border: 1px solid transparent;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+        .depth-btn.active {
+            background: var(--surface-elevated);
+            color: var(--emerald);
+            border-color: rgba(16, 185, 129, 0.3);
+        }
+        .depth-meta {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        /* Hero Section */
+        .lesson-hero {
+            margin-bottom: 32px;
+        }
+        .hero-badges {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        .badge {
+            font-size: 0.74rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 4px 9px;
+            border-radius: 4px;
+            letter-spacing: 0.04em;
+        }
+        .badge-cat { background: rgba(59, 130, 246, 0.12); color: var(--blue); }
+        .badge-diff { background: rgba(16, 185, 129, 0.12); color: var(--emerald); }
+        .lesson-title {
+            font-size: 2.2rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            line-height: 1.25;
+            margin-bottom: 12px;
+        }
+        .lesson-headline {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            font-weight: 400;
+            line-height: 1.5;
+        }
+        
+        /* Section Cards */
+        .lesson-section {
+            background: var(--surface-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: var(--card-shadow);
+        }
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+        .section-title {
+            font-size: 1.18rem;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+        }
+        .section-icon { font-size: 1.2rem; }
+        
+        /* Analogy Box */
+        .analogy-card {
+            background: rgba(16, 185, 129, 0.05);
+            border-left: 3px solid var(--emerald);
+            padding: 16px 18px;
+            border-radius: 0 8px 8px 0;
+            margin: 16px 0;
+            font-size: 0.94rem;
+            color: var(--text-primary);
+        }
+        .takeaway-pill {
+            display: inline-block;
+            background: rgba(59, 130, 246, 0.08);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            color: var(--blue);
+            font-size: 0.84rem;
+            font-weight: 600;
+            padding: 8px 14px;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+        
+        /* Formula Card */
+        .formula-box {
+            background: var(--surface-elevated);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 18px;
+            text-align: center;
+            font-family: var(--font-mono);
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--emerald);
+            margin: 16px 0;
+        }
+        .formula-vars {
+            list-style: none;
+            margin-top: 14px;
+        }
+        .formula-vars li {
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: baseline;
+            gap: 8px;
+        }
+        .formula-vars strong { color: var(--text-primary); min-width: 140px; }
+        
+        /* Worked Example */
+        .worked-example-card {
+            background: var(--surface-elevated);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 18px;
+            margin: 14px 0;
+        }
+        .example-steps {
+            list-style: none;
+            margin: 12px 0;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+        .example-steps li { margin-bottom: 6px; }
+        .example-result {
+            display: flex;
+            align-items: baseline;
+            gap: 12px;
+            padding-top: 10px;
+            border-top: 1px solid var(--border);
+            margin-top: 10px;
+        }
+        
+        /* Live Stockerboard Data Slot */
+        .live-slot-card {
+            background: rgba(59, 130, 246, 0.04);
+            border: 1px solid rgba(59, 130, 246, 0.25);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 18px 0;
+        }
+        .live-slot-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 14px;
+        }
+        .live-badge-sync {
+            font-size: 0.75rem;
+            font-weight: 700;
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--emerald);
+            padding: 3px 8px;
+            border-radius: 4px;
+        }
+        .live-grid-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .live-metric-item {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 10px 14px;
+        }
+        .live-metric-title { font-size: 0.74rem; color: var(--text-muted); text-transform: uppercase; font-weight: 600; margin-bottom: 4px; }
+        .live-metric-val { font-size: 1.15rem; font-weight: 800; font-family: var(--font-mono); color: var(--text-primary); }
+        .live-slot-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            border-top: 1px solid rgba(59, 130, 246, 0.15);
+            padding-top: 12px;
+        }
+        .live-cta-btn {
+            background: var(--brand-green);
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 0.82rem;
+            font-weight: 600;
+            padding: 6px 14px;
+            border-radius: 6px;
+            transition: background 0.15s ease;
+        }
+        .live-cta-btn:hover { background: var(--brand-green-light); }
+        
+        /* Checklist */
+        .check-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin: 14px 0;
+        }
+        .check-box {
+            background: var(--surface-elevated);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 14px;
+        }
+        .check-box h4 { font-size: 0.9rem; margin-bottom: 8px; font-weight: 700; }
+        .check-box ul { list-style: none; font-size: 0.84rem; color: var(--text-secondary); }
+        .check-box li { margin-bottom: 6px; position: relative; padding-left: 14px; }
+        .check-box li::before { content: "•"; position: absolute; left: 0; color: var(--emerald); font-weight: bold; }
+        
+        /* Mistakes */
+        .mistake-card {
+            background: rgba(244, 63, 94, 0.04);
+            border: 1px solid rgba(244, 63, 94, 0.18);
+            border-radius: 8px;
+            padding: 14px 18px;
+            margin-bottom: 12px;
+        }
+        .mistake-fallacy { color: var(--coral); font-weight: 700; font-size: 0.9rem; margin-bottom: 4px; }
+        .mistake-reality { color: var(--text-secondary); font-size: 0.86rem; }
+        
+        /* Quiz */
+        .quiz-card {
+            background: var(--surface-elevated);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 18px;
+            margin-bottom: 16px;
+        }
+        .quiz-q { font-weight: 700; font-size: 0.94rem; margin-bottom: 12px; }
+        .quiz-opts { display: flex; flex-direction: column; gap: 8px; }
+        .quiz-opt-btn {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 14px;
+            border-radius: 6px;
+            font-size: 0.86rem;
+            color: var(--text-primary);
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.15s ease;
+        }
+        .quiz-opt-btn:hover { border-color: var(--emerald); }
+        .quiz-opt-btn.correct { background: rgba(16, 185, 129, 0.15); border-color: var(--emerald); color: var(--emerald); font-weight: 700; }
+        .quiz-opt-btn.incorrect { background: rgba(244, 63, 94, 0.15); border-color: var(--coral); color: var(--coral); }
+        .quiz-feedback {
+            margin-top: 10px;
+            padding: 10px 14px;
+            border-radius: 6px;
+            font-size: 0.84rem;
+            display: none;
+        }
+        .quiz-feedback.show { display: block; }
+        .quiz-feedback.good { background: rgba(16, 185, 129, 0.1); color: var(--emerald); }
+        .quiz-feedback.bad { background: rgba(244, 63, 94, 0.1); color: var(--coral); }
+        
+        /* Collapsible Advanced */
+        details.advanced-details {
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            background: var(--surface-elevated);
+            margin-top: 14px;
+        }
+        details.advanced-details summary {
+            padding: 14px 18px;
+            font-weight: 700;
+            font-size: 0.94rem;
+            cursor: pointer;
+            user-select: none;
+            color: var(--purple);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .advanced-body {
+            padding: 0 18px 18px 18px;
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+            border-top: 1px solid var(--border);
+            margin-top: 8px;
+            padding-top: 14px;
+        }
+        
+        /* Level-Adapted Action Block */
+        .lesson-action-block {
+            margin: 28px 0;
+        }
+        .action-card {
+            background: rgba(16, 185, 129, 0.05);
+            border: 1px solid rgba(16, 185, 129, 0.25);
+            border-radius: 12px;
+            padding: 22px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+        .action-tag {
+            font-size: 0.72rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--emerald);
+        }
+        .action-title {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            margin: 4px 0;
+        }
+        .action-desc {
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+        }
+        .action-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 4px;
+        }
+        .btn-action {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            padding: 8px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.15s ease;
+        }
+        .btn-action.primary {
+            background: var(--brand-green);
+            color: #FFFFFF;
+        }
+        .btn-action.primary:hover {
+            background: var(--brand-green-light);
+        }
+        .btn-action.secondary {
+            background: var(--surface-elevated);
+            color: var(--text-primary);
+            border: 1px solid var(--border);
+        }
+        .btn-action.secondary:hover {
+            border-color: var(--emerald);
+        }
+
+        /* Navigation & Next */
+        .lesson-nav-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-top: 36px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+        }
+        .nav-prev-box, .nav-next-box {
+            display: flex;
+            flex-direction: column;
+        }
+        .nav-label { font-size: 0.74rem; text-transform: uppercase; color: var(--text-muted); font-weight: 700; margin-bottom: 4px; }
+        .nav-link {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .nav-link:hover { color: var(--emerald); }
+        
+        @media (max-width: 720px) {
+            .check-grid { grid-template-columns: 1fr; }
+            .lesson-title { font-size: 1.7rem; }
+            .header { padding: 12px 16px; }
+            .depth-switcher-wrap { flex-direction: column; align-items: flex-start; gap: 8px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="header-left">
+            <a href="/" class="logo">
+                <span class="logo-dot"></span>
+                <span>Stockerboard</span>
+            </a>
+            <nav class="header-nav">
+                <a href="/">Home</a>
+                <a href="/stocks/">Stocks</a>
+                <a href="/learn/" class="active">Learn</a>
+                <a href="/?mode=pro">Pro research</a>
+            </nav>
+        </div>
+        <div>
+            <button class="theme-btn" onclick="toggleTheme()" id="themeBtn">
+                <span id="themeIcon">🌙</span>
+                <span id="themeText">Theme</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="lesson-container">
+        
+        <!-- Breadcrumbs -->
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="sep">/</span>
+            <a href="/learn/">Learn</a>
+            <span class="sep">/</span>
+            <a href="/learn/start-here/">Start Here</a>
+            <span class="sep">/</span>
+            <span class="curr">Market Cap</span>
+        </nav>
+
+        <!-- Sticky Progressive Depth Switcher -->
+        <div class="depth-switcher-wrap" id="depthBar">
+            <div class="depth-chips">
+                <button class="depth-btn active" id="btnDepthSimple" onclick="switchLessonDepth('simple')">⚡ Quick (~2 min)</button>
+                <button class="depth-btn" id="btnDepthDeeper" onclick="switchLessonDepth('deeper')">📘 Understand (~5 min)</button>
+                <button class="depth-btn" id="btnDepthAdvanced" onclick="switchLessonDepth('advanced')">🔬 Deep Dive (10+ min)</button>
+            </div>
+            <div class="depth-meta">
+                <span>⏱️ 6 min read</span>
+                <span>•</span>
+                <span>Track: Foundations</span>
+            </div>
+        </div>
+
+        <!-- 01: Concept Hero -->
+        <header class="lesson-hero">
+            <div class="hero-badges">
+                <span class="badge badge-cat">financial-literacy</span>
+                <span class="badge badge-diff">Foundations</span>
+            </div>
+            <h1 class="lesson-title">Market Capitalisation: What Is the Company Worth in the Stock Market?</h1>
+            <p class="lesson-headline">Market Capitalisation represents the stock market value of a company's equity based on its market price and the relevant number of shares used by the published metric.</p>
+        </header>
+
+        <!-- 02: Simple Explanation & Analogy -->
+        <section class="lesson-section depth-block depth-simple active" id="sectionIntuition">
+            <div class="section-header">
+                <span class="section-icon">💡</span>
+                <h2 class="section-title">Core Intuition</h2>
+            </div>
+            <p style="font-size: 0.98rem; color: var(--text-primary); margin-bottom: 14px;">
+                Share Price × Shares = Market Capitalisation. Market Cap represents the market value of the company's equity based on its market price and the relevant number of shares. It is one way to describe company size in market-value terms. It does NOT represent physical business size, total enterprise value, or cash in the bank. The single biggest beginner misconception is believing that a low share price (like ₹50) means a company is 'small' or 'cheap', or that a high share price (like ₹2,000) means a company is 'large' or 'expensive'. Share price alone tells you almost nothing about total company size. Company A with shares at ₹100 and 100 Crore shares has a Market Cap of ₹10,000 Crore, while Company B with shares at ₹2,000 and 2 Crore shares has a Market Cap of only ₹4,000 Crore. Higher share price does NOT mean bigger company, and low share price does NOT mean cheap company. Low Share Price ≠ Cheap Company. High Share Price ≠ Large Company. High Market Cap ≠ Overvalued. Low Market Cap ≠ Undervalued. Market Cap ≠ Cash in Bank.
+            </p>
+            
+            <div class="analogy-card">
+                <strong>Everyday Analogy:</strong>
+                <p style="margin-top: 6px;">Imagine two pizzas of identical size. Pizza A is sliced into 10 large slices sold for ₹100 each (total value = 10 × ₹100 = ₹1,000). Pizza B is sliced into 100 small bite-sized pieces sold for ₹10 each (total value = 100 × ₹10 = ₹1,000). A single slice of Pizza B costs only ₹10, but it is NOT a cheaper overall pizza—you just get a smaller slice of ownership. In the stock market, share price is simply the price of one single slice. Market Capitalisation tells you the total value of the entire pizza.</p>
+            </div>
+
+            <div class="takeaway-pill">
+                📌 Key Takeaway: Market Cap measures the stock market value of a company's total equity (Share Price × Shares). Never evaluate company size or cheapness using share price alone. Low share price does not mean cheap, and high Market Cap does not mean the company has that cash in the bank.
+            </div>
+        </section>
+
+        <!-- 03: Formula & Worked Fictional Example -->
+        <section class="lesson-section depth-block depth-deeper active" id="sectionFormula">
+            <div class="section-header">
+                <span class="section-icon">🧮</span>
+                <h2 class="section-title">The Formula &amp; How It Works</h2>
+            </div>
+            <p style="font-size: 0.92rem; color: var(--text-secondary);">
+                Stockerboard computes valuation metrics strictly from certified trailing reports. Here is the mathematical formula:
+            </p>
+
+            <div class="formula-box">
+                Market Capitalisation = Current Share Price × Total Number of Shares
+            </div>
+
+            <ul class="formula-vars">
+                <li><strong>Share Price (P):</strong> <span>The current market price of one individual equity share on the exchange (e.g. Current Market Price / CMP).</span></li>
+<li><strong>Total Shares (N):</strong> <span>The total number of equity shares issued and outstanding representing equity ownership.</span></li>
+<li><strong>Market Capitalisation (MCap):</strong> <span>The total aggregate value assigned to all equity shares by the stock market at the prevailing price.</span></li>
+
+            </ul>
+
+            <div class="worked-example-card">
+                <h3 style="font-size: 0.96rem; font-weight: 700; margin-bottom: 8px;">
+                    Worked Example: Company A vs Company B (Simplified Educational Comparison)
+                </h3>
+                <ul class="example-steps">
+                    <li>Step 1: Compute Company A Market Cap = ₹100.00 × 100.00 Cr shares = ₹10,000.00 Cr</li>
+<li>Step 2: Compute Company B Market Cap = ₹2,000.00 × 2.00 Cr shares = ₹4,000.00 Cr</li>
+<li>Step 3: Compare Share Prices = Company B has a 20x higher share price (₹2,000.00 vs ₹100.00)</li>
+<li>Step 4: Compare Total Market Size = Company A is 2.5x larger in equity value (₹10,000.00 Cr vs ₹4,000.00 Cr)</li>
+<li>Step 5: Lesson = Share price alone tells you nothing about company size or valuation without knowing the number of shares.</li>
+
+                </ul>
+                <div class="example-result">
+                    <span style="font-size: 0.85rem; color: var(--text-muted);">Result:</span>
+                    <strong style="font-family: var(--font-mono); color: var(--emerald); font-size: 1.15rem;">Company A Market Cap: ₹10,000.00 Cr | Company B Market Cap: ₹4,000.00 Cr</strong>
+                    <span style="font-size: 0.82rem; color: var(--text-secondary);">(Company B trades at ₹2,000.00 per share while Company A trades at ₹100.00. Yet Company A is 2.5 times larger because it has 100 Crore shares compared to Company B's 2 Crore shares. Higher share price does not equal a larger company.)</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 04: Real Stockerboard Data Slot (Rule D) -->
+        <section class="lesson-section depth-block depth-deeper active" id="sectionLiveStock">
+            <div class="section-header">
+                <span class="section-icon">⚡</span>
+                <h2 class="section-title">See It in a Real Company</h2>
+            </div>
+            <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 12px;">
+                Learn never invents numbers. Below are current observations directly from the canonical Stockerboard dataset for sample companies:
+            </p>
+
+            
+        <div class="live-slot-card snapshot-card">
+            <div class="live-slot-header">
+                <div>
+                    <strong style="font-size: 1.05rem; color: var(--text-primary);">INFOSYS LIMITED</strong>
+                    <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted); margin-left: 6px;">(INFY)</span>
+                </div>
+                <span class="live-badge-sync snapshot-badge" style="background: rgba(16, 185, 129, 0.15); color: #10B981;">🟢 Published Snapshot</span>
+            </div>
+            
+            <div class="live-grid-metrics">
+                <div class="live-metric-item">
+                    <div class="live-metric-title">Market Quote (CMP)</div>
+                    <div class="live-metric-val">₹1,035.00</div>
+                </div>
+                <div class="live-metric-item">
+                    <div class="live-metric-title">Published Market Cap</div>
+                    <div class="live-metric-val" style="color: var(--text-primary);">₹415,219.57 Cr</div>
+                </div>
+                <div class="live-metric-item">
+                    <div class="live-metric-title">Shares Basis</div>
+                    <div class="live-metric-val" style="font-size: 1rem;">Shares Outstanding</div>
+                </div>
+            </div>
+            
+            <div class="live-slot-footer" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+                <span>📅 Price As Of: <strong>2026-10-09</strong> • Lineage: <strong>StockMe VALUATION_GOLD_V1.0.0</strong> • Source: <strong>Stockerboard Published Snapshot</strong></span>
+                <div style="display: flex; gap: 8px;">
+                    <a href="/stocks/infosys/" class="live-cta-btn" target="_blank" rel="noopener">
+                        Inspect INFY Dossier →
+                    </a>
+                    <a href="/learn/revenue/" class="live-cta-btn" style="background: var(--surface-elevated); border: 1px solid var(--border); color: var(--text-primary);">
+                        Understand Revenue →
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="live-slot-card snapshot-card">
+            <div class="live-slot-header">
+                <div>
+                    <strong style="font-size: 1.05rem; color: var(--text-primary);">Aditya Birla Fashion and Retai</strong>
+                    <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted); margin-left: 6px;">(ABFRL)</span>
+                </div>
+                <span class="live-badge-sync snapshot-badge" style="background: rgba(16, 185, 129, 0.15); color: #10B981;">🟢 Published Snapshot</span>
+            </div>
+            
+            <div class="live-grid-metrics">
+                <div class="live-metric-item">
+                    <div class="live-metric-title">Market Quote (CMP)</div>
+                    <div class="live-metric-val">₹44.53</div>
+                </div>
+                <div class="live-metric-item">
+                    <div class="live-metric-title">Published Market Cap</div>
+                    <div class="live-metric-val" style="color: var(--text-primary);">₹5,327.53 Cr</div>
+                </div>
+                <div class="live-metric-item">
+                    <div class="live-metric-title">Shares Basis</div>
+                    <div class="live-metric-val" style="font-size: 1rem;">Shares Outstanding</div>
+                </div>
+            </div>
+            
+            <div class="live-slot-footer" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+                <span>📅 Price As Of: <strong>2026-10-09</strong> • Lineage: <strong>StockMe VALUATION_GOLD_V1.0.0</strong> • Source: <strong>Stockerboard Published Snapshot</strong></span>
+                <div style="display: flex; gap: 8px;">
+                    <a href="/stocks/abfrl/" class="live-cta-btn" target="_blank" rel="noopener">
+                        Inspect ABFRL Dossier →
+                    </a>
+                    <a href="/learn/revenue/" class="live-cta-btn" style="background: var(--surface-elevated); border: 1px solid var(--border); color: var(--text-primary);">
+                        Understand Revenue →
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="live-slot-card snapshot-card">
+            <div class="live-slot-header">
+                <div>
+                    <strong style="font-size: 1.05rem; color: var(--text-primary);">20 MICRONS LTD.</strong>
+                    <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted); margin-left: 6px;">(20MICRONS)</span>
+                </div>
+                <span class="live-badge-sync snapshot-badge" style="background: rgba(16, 185, 129, 0.15); color: #10B981;">🟢 Published Snapshot</span>
+            </div>
+            
+            <div class="live-grid-metrics">
+                <div class="live-metric-item">
+                    <div class="live-metric-title">Market Quote (CMP)</div>
+                    <div class="live-metric-val">₹207.26</div>
+                </div>
+                <div class="live-metric-item">
+                    <div class="live-metric-title">Published Market Cap</div>
+                    <div class="live-metric-val" style="color: var(--text-primary);">₹692.04 Cr</div>
+                </div>
+                <div class="live-metric-item">
+                    <div class="live-metric-title">Shares Basis</div>
+                    <div class="live-metric-val" style="font-size: 1rem;">Shares Outstanding</div>
+                </div>
+            </div>
+            
+            <div class="live-slot-footer" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+                <span>📅 Price As Of: <strong>2026-10-09</strong> • Lineage: <strong>StockMe VALUATION_GOLD_V1.0.0</strong> • Source: <strong>Stockerboard Published Snapshot</strong></span>
+                <div style="display: flex; gap: 8px;">
+                    <a href="/stocks/20microns/" class="live-cta-btn" target="_blank" rel="noopener">
+                        Inspect 20MICRONS Dossier →
+                    </a>
+                    <a href="/learn/revenue/" class="live-cta-btn" style="background: var(--surface-elevated); border: 1px solid var(--border); color: var(--text-primary);">
+                        Understand Revenue →
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+
+            <p style="font-size: 0.78rem; color: var(--text-muted); margin-top: 10px;">
+                🔒 <strong>Data Provenance Notice:</strong> Stockerboard applies point-in-time-aware data lineage sourced from published company filings. Metric values match company dossiers and the screener exactly. Missing metrics render '—' rather than coerced or estimated numbers.
+            </p>
+        </section>
+
+        <!-- 05: How to Interpret It -->
+        <section class="lesson-section depth-block depth-deeper active" id="sectionInterpret">
+            <div class="section-header">
+                <span class="section-icon">🔍</span>
+                <h2 class="section-title">How Do I Interpret It?</h2>
+            </div>
+            <p style="font-size: 0.9rem; color: var(--text-secondary);">
+                Stockerboard adheres to <strong>Education, Not Recommendations</strong>. A higher or lower number is not automatically good or bad—it guides your investigation:
+            </p>
+
+            <div class="check-grid">
+                <div class="check-box">
+                    <h4 style="color: var(--blue);">When P/E is Higher:</h4>
+                    <ul>
+                        <li>Larger Equity Market Scale: Higher total valuation placed on the company's equity by stock market participants.</li>
+<li>Institutional Liquidity: Large-cap companies typically have greater daily trading volume, enabling institutional investors and mutual funds to enter and exit positions with lower market impact.</li>
+<li>Market Capitalisation groupings: Companies are often grouped into large-cap, mid-cap, and small-cap categories based on Market Capitalisation or formal market-ranking methodologies.</li>
+<li>High Market Cap is NOT a valuation conclusion: A large market cap does not mean the stock is overvalued or cheap; valuation requires comparing equity price to earnings, cash flows, and assets.</li>
+
+                    </ul>
+                </div>
+                <div class="check-box">
+                    <h4 style="color: var(--amber);">When P/E is Lower:</h4>
+                    <ul>
+                        <li>Smaller Market Value Scale: Lower total equity valuation, frequently found in emerging, regional, or niche businesses.</li>
+<li>Potential Growth Runway or Volatility: Smaller market-cap companies may offer faster percentage expansion potential, but typically experience greater price volatility and liquidity constraints during market stress.</li>
+<li>Low Market Cap is NOT undervalued: A low market cap simply indicates smaller market equity scale, not that the stock is a bargain.</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div style="margin-top: 14px; background: var(--surface-elevated); padding: 14px; border-radius: 8px; border: 1px solid var(--border);">
+                <h4 style="font-size: 0.88rem; margin-bottom: 6px; color: var(--text-primary);">Always Ask These 3 Questions Before Deciding:</h4>
+                <ul style="list-style: none; font-size: 0.84rem; color: var(--text-secondary);">
+                    <li style='margin-bottom: 6px;'>• Share Count Matters: Two companies can both trade at ₹100.00, but if one has 100 Cr shares and the other has 10 Cr shares, their Market Caps are ₹10,000 Cr and ₹1,000 Cr respectively.</li>
+<li style='margin-bottom: 6px;'>• Stock Split Mechanics: In a 2:1 stock split, a ₹1,000 share price halves to ₹500 while shares double from 10 Cr to 20 Cr. Total Market Cap remains approximately unchanged at ₹10,000 Cr (ignoring market movements). The company did not become cheaper.</li>
+<li style='margin-bottom: 6px;'>• Market Cap vs Business Financials: Large Market Cap does not mean largest revenue, largest profit, or most assets. Financial statements report quarterly business performance; market prices move every trading day.</li>
+<li style='margin-bottom: 6px;'>• Market Cap ≠ Cash in the Bank: A ₹1 lakh crore Market Cap represents equity valuation by market investors, not cash sitting in a bank account.</li>
+<li style='margin-bottom: 6px;'>• Market Cap vs Enterprise Value: Market Cap reflects equity value. Full corporate economic valuation can also consider debt, cash, and other obligations (Enterprise Value).</li>
+
+                </ul>
+            </div>
+        </section>
+
+        <!-- 06: What Can Fool Me? (Common Mistakes) -->
+        <section class="lesson-section depth-block depth-deeper active" id="sectionMistakes">
+            <div class="section-header">
+                <span class="section-icon">⚠️</span>
+                <h2 class="section-title">What Can Fool Me? (Common Traps)</h2>
+            </div>
+            
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: A ₹50 stock is cheaper than a ₹2,000 stock.</div>
+            <div class="mistake-reality">✓ Reality: Share price alone does not tell company valuation or size. Valuation depends on earnings and assets per share, and company size depends on total Market Cap.</div>
+        </div>
+        
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: Higher share price means a bigger company.</div>
+            <div class="mistake-reality">✓ Reality: Company size in the stock market depends on Share Price × Shares. A ₹100 stock with 100 Cr shares is bigger than a ₹2,000 stock with 2 Cr shares.</div>
+        </div>
+        
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: Market Cap is cash in the company's bank.</div>
+            <div class="mistake-reality">✓ Reality: Market Cap is a stock market equity valuation based on share price and shares, not cash or bank deposits.</div>
+        </div>
+        
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: High Market Cap means the stock is overvalued.</div>
+            <div class="mistake-reality">✓ Reality: Market Cap reflects company size in the equity market. Valuation requires comparing market price to earnings (P/E), book value, or cash flow.</div>
+        </div>
+        
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: Low Market Cap means the stock is undervalued.</div>
+            <div class="mistake-reality">✓ Reality: A smaller market valuation does not establish that a business is cheap; many small-cap companies have low earnings or structural risks.</div>
+        </div>
+        
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: A stock split makes the company cheaper.</div>
+            <div class="mistake-reality">✓ Reality: In a stock split, share price and share count adjust in exact inverse proportion; total company economic equity value does not change.</div>
+        </div>
+        
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: Market Cap never changes unless earnings change.</div>
+            <div class="mistake-reality">✓ Reality: Earnings update in quarterly financial statements, but share price moves continuously during every trading session, changing Market Cap daily.</div>
+        </div>
+        
+        <div class="mistake-card">
+            <div class="mistake-fallacy">✕ Fallacy: Market Cap equals total enterprise value.</div>
+            <div class="mistake-reality">✓ Reality: Market Cap measures equity value only. Total corporate value must also account for debt liabilities, cash balances, and other financial claims.</div>
+        </div>
+        
+        </section>
+
+        <!-- 07: Interactive Concept Quiz -->
+        <section class="lesson-section depth-block depth-deeper active" id="sectionQuiz">
+            <div class="section-header">
+                <span class="section-icon">📝</span>
+                <h2 class="section-title">Check Your Understanding</h2>
+            </div>
+            
+            <!-- Quiz 1: Calculation -->
+            <div class="quiz-card" id="quizCard1">
+                <div class="quiz-q">Q1 (Calculation): Company A has a Share Price of ₹200.00 and 50.00 Crore shares outstanding. What is its Market Capitalisation?</div>
+                <div class="quiz-opts" id="quizOpts1">
+                    <button class="quiz-opt-btn" onclick="answerQuiz(1, 0, this)">₹250.00 Cr</button>
+<button class="quiz-opt-btn" onclick="answerQuiz(1, 1, this)">₹1,000.00 Cr</button>
+<button class="quiz-opt-btn" onclick="answerQuiz(1, 2, this)">₹10,000.00 Cr</button>
+<button class="quiz-opt-btn" onclick="answerQuiz(1, 3, this)">₹20,000.00 Cr</button>
+
+                </div>
+                <div class="quiz-feedback" id="quizFeedback1"></div>
+            </div>
+
+            <!-- Quiz 2: Reasoning -->
+            <div class="quiz-card" id="quizCard2">
+                <div class="quiz-q">Q2 (Reasoning): Company A has a Share Price of ₹100.00, while Company B has a Share Price of ₹2,000.00. Which company is larger by Market Capitalisation?</div>
+                <div class="quiz-opts" id="quizOpts2">
+                    <button class="quiz-opt-btn" onclick="answerQuiz(2, 0, this)">Company A is definitely larger</button>
+<button class="quiz-opt-btn" onclick="answerQuiz(2, 1, this)">Company B is definitely larger because ₹2,000 is higher than ₹100</button>
+<button class="quiz-opt-btn" onclick="answerQuiz(2, 2, this)">Both companies are exactly equal in size</button>
+<button class="quiz-opt-btn" onclick="answerQuiz(2, 3, this)">Not enough information — cannot determine without share-count information</button>
+
+                </div>
+                <div class="quiz-feedback" id="quizFeedback2"></div>
+            </div>
+        </section>
+
+        <!-- 08: Advanced Deep Dive (Collapsible) -->
+        <section class="lesson-section depth-block depth-advanced" id="sectionAdvanced">
+            <div class="section-header">
+                <span class="section-icon">🔬</span>
+                <h2 class="section-title">Advanced Methodology &amp; Edge Cases</h2>
+            </div>
+            
+            <details class="advanced-details" open>
+                <summary>
+                    <span>Cyclicals, Negative Earnings &amp; Accounting Adjustments</span>
+                    <span style="font-size: 0.76rem; opacity: 0.7;">▾ Expand</span>
+                </summary>
+                <div class="advanced-body">
+                    <p style="margin-bottom: 10px;"><strong>Edge Cases:</strong></p>
+                    <ul style="margin-left: 20px; margin-bottom: 14px;">
+                        <li>Date Alignment & Basis Consistency: Market Cap requires pairing a price as-of date with the corresponding share ledger basis. Stockerboard pairs EOD close with effective shares outstanding on that date to prevent distorted valuations across corporate-action dates.</li>
+<li>Free-Float Market Cap vs Full Market Cap: Full Market Cap includes all issued shares outstanding. Free-Float Market Cap considers only the shares actively available for public trading, excluding promoter lock-ins, strategic government holdings, and insider trusts (commonly used by benchmark index weightings).</li>
+<li>Market Cap vs Enterprise Value (EV): Market Cap measures the market value of equity. Enterprise Value (EV) provides a broader capital-structure measure by adding total debt and deducting cash equivalents.</li>
+<li>Corporate Action Adjustments: Stock splits, bonus issues, and rights offerings alter share count and per-share price simultaneously. Learn preserves governed corporate-action semantics rather than independently reconstructing share counts on the page.</li>
+
+                    </ul>
+                    <p style="margin-bottom: 10px;"><strong>Cyclical Peak Paradox:</strong> Market Cap Fluctuations vs Economic Scale: Because share prices change continuously throughout every trading session, Market Cap fluctuates every day even when underlying business operations have not reported any change. A company's market cap can double in a bull market and halve in a bear market while its factories, employees, and quarterly revenue remain identical.</p>
+                    <p style="margin-bottom: 10px;"><strong>Earnings Quality Checks:</strong> Denominators & Denomination Bases: Financial calculations distinguish between total shares outstanding, basic weighted average shares, and fully diluted shares (which include convertible bonds, options, and warrants). Stockerboard uses the governed Share Ledger shares outstanding for canonical Market Cap.</p>
+                    <div style="margin-top: 14px; padding: 12px; background: rgba(139, 92, 246, 0.06); border-radius: 6px; border-left: 3px solid var(--purple);">
+                        <strong>Stockerboard Data Provenance:</strong> Stockerboard sources canonical Market Capitalisation (MARKET_CAP) from certified VALUATION_GOLD_V1 contracts using the governed formula: round(price * shares, 4) where price is the EOD close from OHLC and shares is shares_outstanding from share_ledger_v1 share_states effective on price_as_of. Under VALUATION_GOLD_V1.0.0, both price and shares must be strictly positive (price > 0, shares > 0); MARKET_CAP = 0 is not a valid published state, and any non-positive source state fails closed to UNAVAILABLE. Display values are published in Crore (market_cap_crore). Learn displays published snapshot values directly without independent production recalculation (MARKET_CAP_CALCULATED_INSIDE_LEARN: NO).
+                    </div>
+                </div>
+            </details>
+        </section>
+
+        
+
+        <!-- Practical Application Action Block -->
+        <section class="lesson-action-block">
+            <div class="action-card">
+                <div>
+                    <span class="action-tag">PRACTICAL APPLICATION</span>
+                    <h3 class="action-title">Apply What You Learned</h3>
+                    <p class="action-desc">Verify this concept with published StockMe-certified snapshot data across Indian companies or compare two industry peers.</p>
+                </div>
+                <div class="action-buttons">
+                    <a href="/stocks/" class="btn-action primary">🔍 See This Metric on Real Stocks →</a>
+<a href="/stocks/?compare=INFY,TCS" class="btn-action secondary">⚖️ Compare 2 Companies →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 09: Navigation & Next Lesson -->
+        <footer class="lesson-nav-bar">
+            
+        <div class="nav-prev-box">
+            <span class="nav-label">Previous Lesson</span>
+            <a href="/learn/share-price/" class="nav-link">← Share Price: Why Does One Share Cost What It Costs?</a>
+        </div>
+        
+            
+        <div class="nav-next-box" style="text-align: right;">
+            <span class="nav-label">Next Lesson</span>
+            <a href="/learn/revenue/" class="nav-link">Revenue: How Much Business Is the Company Doing? →</a>
+        </div>
+        
+        </footer>
+
+    </main>
+
+    <!-- Interactive Client Engine -->
+    <script>
+        // Theme Toggle Handler
+        function toggleTheme() {
+            const current = document.documentElement.getAttribute('data-theme') || 'light';
+            const next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.setItem('stockerboard_theme', next);
+            updateThemeBtn(next);
+        }
+        function updateThemeBtn(theme) {
+            const icon = document.getElementById('themeIcon');
+            const txt = document.getElementById('themeText');
+            if (icon && txt) {
+                icon.textContent = theme === 'dark' ? '☀️' : '🌙';
+                txt.textContent = theme === 'dark' ? 'Light' : 'Dark';
+            }
+        }
+        (function() {
+            const current = document.documentElement.getAttribute('data-theme') || 'light';
+            updateThemeBtn(current);
+        })();
+
+        // Progressive Depth Switcher
+        function switchLessonDepth(depth) {
+            document.querySelectorAll('.depth-btn').forEach(btn => btn.classList.remove('active'));
+            if (depth === 'simple') {
+                document.getElementById('btnDepthSimple').classList.add('active');
+                document.getElementById('sectionIntuition').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            } else if (depth === 'deeper') {
+                document.getElementById('btnDepthDeeper').classList.add('active');
+                document.getElementById('sectionFormula').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            } else if (depth === 'advanced') {
+                document.getElementById('btnDepthAdvanced').classList.add('active');
+                document.getElementById('sectionAdvanced').scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+
+        // Quiz Evaluation Engine
+        const quizData = {
+            q1: {
+                correct: 2,
+                explanation: "Market Cap = Share Price × Shares Outstanding = ₹200.00 × 50.00 Cr = ₹10,000.00 Cr. Simplified educational calculation."
+            },
+            q2: {
+                correct: 3,
+                explanation: "Share price alone tells us almost nothing about total company size. Company A could have 100 Crore shares (₹10,000 Cr Market Cap) while Company B has only 1 Crore shares (₹2,000 Cr Market Cap). Total equity size requires both share price and the number of shares."
+            }
+        };
+
+        function answerQuiz(qNum, selectedIdx, btnElem) {
+            const data = quizData['q' + qNum];
+            const optsContainer = document.getElementById('quizOpts' + qNum);
+            const feedbackBox = document.getElementById('quizFeedback' + qNum);
+            
+            // Disable other buttons in this quiz
+            optsContainer.querySelectorAll('.quiz-opt-btn').forEach((b, idx) => {
+                b.disabled = true;
+                if (idx === data.correct) {
+                    b.classList.add('correct');
+                } else if (idx === selectedIdx) {
+                    b.classList.add('incorrect');
+                }
+            });
+
+            feedbackBox.classList.add('show');
+            if (selectedIdx === data.correct) {
+                feedbackBox.className = 'quiz-feedback show good';
+                feedbackBox.innerHTML = '<strong>✓ Correct!</strong> ' + data.explanation;
+            } else {
+                feedbackBox.className = 'quiz-feedback show bad';
+                feedbackBox.innerHTML = '<strong>✕ Not quite.</strong> ' + data.explanation;
+            }
+        }
+    </script>
+</body>
+</html>

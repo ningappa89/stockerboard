@@ -1,0 +1,167 @@
+{
+  "id": "share-price",
+  "slug": "share-price",
+  "title": "Share Price: Why Does One Share Cost What It Costs?",
+  "short_title": "Share Price",
+  "category": "financial-literacy",
+  "difficulty": "Foundations",
+  "estimated_read_min": 6,
+  "simple_explanation": {
+    "hero_headline": "Share Price is the market price of one share at a particular point in time, established when buyers and sellers agree to trade on the exchange.",
+    "core_intuition": "Share Price is what it costs to buy a single unit of ownership in a company. However, a ₹50 share price does NOT mean the company is cheap or small, and a ₹2,000 share price does NOT mean the company is expensive or large. Share Price tells you only the price of one single slice of the business—total company size depends on Share Price × Shares (Market Capitalisation). Share Price ≠ Company Size. Share Price ≠ Company Value. Share Price ≠ Intrinsic Value. Low Share Price ≠ Cheap Stock. High Share Price ≠ Expensive Stock.",
+    "real_world_analogy": "Imagine two chocolate bars of identical total weight and quality. Brand A is sold as one single large bar for ₹500. Brand B is divided into 5 mini-bars sold for ₹100 each. Buying one mini-bar of Brand B costs only ₹100, but Brand B is NOT a cheaper chocolate—you just purchased a smaller portion. In the stock market, share price is simply the price of one individual slice of ownership. To know what the entire company is worth in the market, you must multiply the share price by the total number of shares.",
+    "key_takeaway": "Share Price is the price of one share, set by buyers and sellers transacting on the exchange. Never evaluate whether a stock is cheap or how big a company is from share price alone. Always connect Share Price with Share Count to understand Market Capitalisation."
+  },
+  "detailed_explanation": {
+    "formula_plain": "Share Price = Price of One Equity Share Established by Completed Market Orders on the Exchange",
+    "formula_variables": [
+      {
+        "name": "Buyer Bid",
+        "description": "The highest price a buyer is currently willing to pay for one share."
+      },
+      {
+        "name": "Seller Ask",
+        "description": "The lowest price a seller is currently willing to accept to part with one share."
+      },
+      {
+        "name": "Traded Price (Execution)",
+        "description": "The agreed transaction price when a buyer and seller order match on the exchange."
+      },
+      {
+        "name": "Closing Price (EOD)",
+        "description": "The canonical NSE EOD closing value used by Stockerboard's governed data contract for that trading session."
+      }
+    ],
+    "worked_example": {
+      "company_name": "Company A vs Company B (Share Price vs Valuation Misconception)",
+      "inputs": {
+        "company_a": "Share Price: ₹50.00 | Shares: 200.00 Cr shares | Annual PAT: ₹500.00 Cr (EPS: ₹2.50)",
+        "company_b": "Share Price: ₹2,000.00 | Shares: 2.00 Cr shares | Annual PAT: ₹800.00 Cr (EPS: ₹400.00)"
+      },
+      "calculation_steps": [
+        "Step 1: Compare Nominal Share Prices = Company A is ₹50.00; Company B is ₹2,000.00 (Company B looks 'expensive' nominally)",
+        "Step 2: Compute Market Capitalisation = Company A: ₹50.00 × 200 Cr = ₹10,000.00 Cr | Company B: ₹2,000.00 × 2 Cr = ₹4,000.00 Cr",
+        "Step 3: Compare P/E Valuation Multiples = Company A P/E: ₹50 / ₹2.50 = 20.0x | Company B P/E: ₹2,000 / ₹400 = 5.0x",
+        "Step 4: Analyze Cheapness = Company B is valued at only 5.0x earnings despite its ₹2,000 price tag, whereas Company A trades at 20.0x earnings despite its ₹50 price tag.",
+        "Step 5: Lesson = Nominal share price alone tells you nothing about whether a business is cheap, expensive, or small."
+      ],
+      "result": "Company A (₹50.00 Price, 20.0x P/E, ₹10,000 Cr MCap) vs Company B (₹2,000.00 Price, 5.0x P/E, ₹4,000 Cr MCap)",
+      "plain_interpretation": "A ₹50 stock is NOT automatically cheaper than a ₹2,000 stock. Company A has a tiny share price but a huge share count (₹10,000 Cr market value) and trades at a higher valuation multiple (20x P/E). Company B has a high share price but is a smaller company (₹4,000 Cr market value) trading at a cheaper valuation multiple (5x P/E)."
+    },
+    "interpretation_guide": {
+      "what_higher_suggests": [
+        "Higher Nominal Unit Price: The price of one unit of equity ownership is nominally higher, often reflecting historical earnings accumulation, share buybacks, or absence of recent stock splits.",
+        "Higher share price does NOT mean a bigger or more expensive company: Company size requires multiplying price by shares outstanding (Market Cap), and valuation requires comparing price to earnings (P/E) or cash flows."
+      ],
+      "what_lower_suggests": [
+        "Lower Nominal Unit Price: The price of one unit of equity ownership is nominally lower, frequently resulting from historical stock splits, bonus share issuances, or large initial share counts.",
+        "Lower share price does NOT mean a bargain: A ₹10 stock can be vastly overvalued if the company has huge debt and negative earnings, while a ₹2,500 stock can be undervalued."
+      ],
+      "contextual_checks": [
+        "Percentage Change vs Rupee Move: A ₹10 increase on a ₹100 stock is a +10.0% gain. The same ₹10 increase on a ₹1,000 stock is only a +1.0% gain. Percentage change reflects real economic return, not absolute rupees.",
+        "Stock Split Mechanics: When a stock undergoes a 2:1 split, a ₹1,000 share price halves to ₹500 while shares double. Total company equity value remains approximately unchanged; the company did not become cheaper.",
+        "Bonus Shares: Bonus share issuance increases share count and proportionately reduces per-share market price; it does not create free economic wealth.",
+        "Face Value vs Market Price: In India, shares carry a nominal Face Value (e.g. ₹10, ₹2, ₹1) representing historical accounting capital. Market Price (e.g. ₹1,250) reflects current traded market value on the exchange. Face value is not a benchmark for cheapness.",
+        "Price vs Business Performance: Over short periods, market sentiment and macro flows can cause share prices to diverge from underlying business performance (prices can rise when business is flat, or fall when business is improving)."
+      ]
+    },
+    "common_mistakes": [
+      {
+        "fallacy": "A ₹20 stock is cheaper than a ₹2,000 stock.",
+        "reality": "Nominal share price alone does not determine valuation. Valuation depends on earnings and assets per share, while total equity size depends on Market Cap."
+      },
+      {
+        "fallacy": "Higher share price means a bigger company.",
+        "reality": "Company size in the stock market depends on Share Price × Shares. A ₹100 stock with 100 Cr shares is bigger than a ₹2,000 stock with 2 Cr shares."
+      },
+      {
+        "fallacy": "Market price equals true intrinsic value.",
+        "reality": "Market price is the observable price at which trades occur today; intrinsic value is an investor's estimate of underlying economic worth."
+      },
+      {
+        "fallacy": "A stock split makes the business cheaper.",
+        "reality": "Per-share price and share count adjust in exact inverse proportion; the business itself does not become cheaper."
+      },
+      {
+        "fallacy": "Bonus shares create free wealth.",
+        "reality": "Issuing bonus shares increases the number of slices but does not increase the size of the company; market price adjusts proportionately."
+      },
+      {
+        "fallacy": "Share Price is the total company value.",
+        "reality": "Share price is the price of only one single share. Total equity value is Market Capitalisation (Share Price × Shares)."
+      },
+      {
+        "fallacy": "Every price movement has one clear reason.",
+        "reality": "Multiple buyer and seller expectations, liquidity needs, institutional flows, and macro news act simultaneously; often there is no single clear cause."
+      },
+      {
+        "fallacy": "Price falling means the business definitely deteriorated.",
+        "reality": "Market price and short-term business performance often diverge due to market sentiment, valuation adjustments, or liquidity cycles."
+      }
+    ]
+  },
+  "advanced_explanation": {
+    "edge_cases": [
+      "Last Traded Price (LTP) vs Published Closing Price: Intraday Last Traded Price (LTP) reflects the most recent single transaction during market hours. The EOD closing price represents the canonical session closing value under Stockerboard's governed data contract.",
+      "Price Gaps Across Sessions: When significant information emerges overnight or over a weekend (such as earnings results or global regulatory changes), the opening price on the next trading day can gap significantly above or below the previous closing price.",
+      "Liquidity & Bid-Ask Spreads: In heavily traded large-cap stocks, dense order books keep the bid-ask spread narrow (often a few paise). In illiquid stocks, wider spreads mean individual market orders can move the traded price substantially.",
+      "Price Bands & Circuit Controls: Indian stock exchanges apply circuit limits and price bands to securities to prevent disorderly price moves during extreme volatility sessions."
+    ],
+    "cyclical_nuances": "Short-Term Sentiment vs Long-Term Fundamentals: In the short run, share prices fluctuate based on market sentiment, news headlines, and liquidity flows. Over multi-year horizons, market prices tend to reflect underlying business earnings power and return on capital.",
+    "accounting_adjustments": "Corporate Action Price Adjustments: Historical chart series are adjusted for stock splits and bonus issues so that past price levels remain economically comparable with post-action share counts. Stockerboard preserves governed session close semantics and Share Ledger states.",
+    "stockme_provenance_note": "Stockerboard sources canonical Share Price data from certified NSE EOD OHLC records (price_as_of, e.g. 2026-10-09) published in public dossiers and financial indices. Learn displays published snapshot closing prices directly without independent production recalculation (SHARE_PRICE_CALCULATED_INSIDE_LEARN: NO). Terminology strictly uses Published Snapshot / Latest Published Closing Price, avoiding false claims of real-time exchange streaming."
+  },
+  "metric_binding": {
+    "metric_key": "share_price",
+    "sample_symbols": [
+      "INFY",
+      "ABFRL",
+      "20MICRONS"
+    ]
+  },
+  "prerequisites": [
+    "what-is-a-stock"
+  ],
+  "next_concept": "market-cap",
+  "related_concepts": [
+    "market-cap",
+    "revenue",
+    "profit",
+    "eps",
+    "pe-ratio",
+    "52-week-high-low"
+  ],
+  "quiz": {
+    "calculation_question": {
+      "question": "Company A has a Share Price of ₹100.00 and 20.00 Crore shares outstanding. What is its Market Capitalisation?",
+      "options": [
+        "₹100.00 Cr",
+        "₹200.00 Cr",
+        "₹2,000.00 Cr",
+        "₹20,000.00 Cr"
+      ],
+      "correct_index": 2,
+      "explanation": "Market Cap = Share Price × Shares Outstanding = ₹100.00 × 20.00 Cr shares = ₹2,000.00 Cr. Simplified educational calculation."
+    },
+    "reasoning_question": {
+      "question": "Company A trades at a Share Price of ₹50.00, while Company B trades at a Share Price of ₹2,000.00. Which stock is cheaper?",
+      "options": [
+        "Company A is definitely cheaper because ₹50 is much lower than ₹2,000",
+        "Company B is definitely cheaper because high-priced stocks have better management",
+        "They cost exactly the same because all stock prices are arbitrary",
+        "Not enough information — cannot determine valuation from share price alone"
+      ],
+      "correct_index": 3,
+      "explanation": "Nominal share price alone tells you nothing about whether a company's stock is cheap or expensive. Valuation requires comparing market price to fundamentals like earnings per share (P/E), book value, or cash flow."
+    }
+  },
+  "governance": {
+    "content_version": "1.0.0",
+    "canonical_price_metric": "EOD_CLOSE",
+    "exchange": "NSE",
+    "series": "EQ",
+    "review_status": "APPROVED",
+    "reviewed_by": "Antigravity Financial Architecture",
+    "last_updated": "2026-10-17"
+  }
+}
