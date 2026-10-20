@@ -97,14 +97,22 @@
       "open": 258.0,
       "time": "2026-10-16",
       "volume": 913506
+    },
+    {
+      "close": 263.65,
+      "high": 265.0,
+      "low": 251.0,
+      "open": 257.85,
+      "time": "2026-10-19",
+      "volume": 498254
     }
   ],
   "company_name": "ArMee Infotech Limited",
   "history": {
     "first_session": "2026-09-30",
     "has_full_52w_history": false,
-    "last_session": "2026-10-16",
-    "sessions_available": 12
+    "last_session": "2026-10-19",
+    "sessions_available": 13
   },
   "industry": null,
   "isin": "INE0TWE01016",
@@ -112,31 +120,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 44,
+    "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.4x"
+    "volume_multiplier": "0.23x"
   },
   "price": {
-    "as_of": "2026-10-16",
-    "change": 3.15,
-    "change_pct": 1.22,
-    "close": 260.55,
-    "previous_close": 257.4,
+    "as_of": "2026-10-19",
+    "change": 3.1,
+    "change_pct": 1.19,
+    "close": 263.65,
+    "previous_close": 260.55,
     "type": "EOD_CLOSE",
-    "volume": 913506
+    "volume": 498254
   },
   "range": {
-    "distance_from_high_pct": -30.52,
-    "distance_from_low_pct": 10.61,
+    "distance_from_high_pct": -29.69,
+    "distance_from_low_pct": 11.93,
     "high_52w": 375.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 235.55,
-    "range_position_pct": 17.93
+    "range_position_pct": 20.15
   },
   "risk_model": {
-    "invalidation_floor": 251.43,
-    "risk_per_share": 14.33,
-    "technical_pivot": 265.76
+    "invalidation_floor": 254.42,
+    "risk_per_share": 14.5,
+    "technical_pivot": 268.92
   },
   "schema_version": "1.0",
   "sector": null,

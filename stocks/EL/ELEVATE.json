@@ -97,14 +97,22 @@
       "open": 313.15,
       "time": "2026-10-16",
       "volume": 682976
+    },
+    {
+      "close": 313.9,
+      "high": 324.45,
+      "low": 308.1,
+      "open": 317.55,
+      "time": "2026-10-19",
+      "volume": 1075029
     }
   ],
   "company_name": "Elevate Campuses Limited",
   "history": {
     "first_session": "2026-09-30",
     "has_full_52w_history": false,
-    "last_session": "2026-10-16",
-    "sessions_available": 12
+    "last_session": "2026-10-19",
+    "sessions_available": 13
   },
   "industry": null,
   "isin": "INE147X01013",
@@ -112,31 +120,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 68,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.12x"
+    "volume_multiplier": "0.2x"
   },
   "price": {
-    "as_of": "2026-10-16",
-    "change": 7.45,
-    "change_pct": 2.38,
-    "close": 320.5,
-    "previous_close": 313.05,
+    "as_of": "2026-10-19",
+    "change": -6.6,
+    "change_pct": -2.06,
+    "close": 313.9,
+    "previous_close": 320.5,
     "type": "EOD_CLOSE",
-    "volume": 682976
+    "volume": 1075029
   },
   "range": {
-    "distance_from_high_pct": -14.02,
-    "distance_from_low_pct": 10.48,
+    "distance_from_high_pct": -15.79,
+    "distance_from_low_pct": 8.2,
     "high_52w": 372.75,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 290.1,
-    "range_position_pct": 36.78
+    "range_position_pct": 28.8
   },
   "risk_model": {
-    "invalidation_floor": 309.28,
-    "risk_per_share": 17.63,
-    "technical_pivot": 326.91
+    "invalidation_floor": 302.91,
+    "risk_per_share": 17.27,
+    "technical_pivot": 320.18
   },
   "schema_version": "1.0",
   "sector": null,

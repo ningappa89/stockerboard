@@ -81,14 +81,22 @@
       "open": 253.2,
       "time": "2026-10-16",
       "volume": 341164
+    },
+    {
+      "close": 248.65,
+      "high": 259.8,
+      "low": 246.5,
+      "open": 258.1,
+      "time": "2026-10-19",
+      "volume": 157484
     }
   ],
   "company_name": "Runwal Enterprises Limited",
   "history": {
     "first_session": "2026-10-05",
     "has_full_52w_history": false,
-    "last_session": "2026-10-16",
-    "sessions_available": 10
+    "last_session": "2026-10-19",
+    "sessions_available": 11
   },
   "industry": null,
   "isin": "INE804W01029",
@@ -96,31 +104,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 61,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.18x"
+    "volume_multiplier": "0.09x"
   },
   "price": {
-    "as_of": "2026-10-16",
-    "change": 3.45,
-    "change_pct": 1.36,
-    "close": 257.9,
-    "previous_close": 254.45,
+    "as_of": "2026-10-19",
+    "change": -9.25,
+    "change_pct": -3.59,
+    "close": 248.65,
+    "previous_close": 257.9,
     "type": "EOD_CLOSE",
-    "volume": 341164
+    "volume": 157484
   },
   "range": {
-    "distance_from_high_pct": -16.2,
-    "distance_from_low_pct": 4.82,
+    "distance_from_high_pct": -19.2,
+    "distance_from_low_pct": 1.06,
     "high_52w": 307.75,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 246.05,
-    "range_position_pct": 19.21
+    "range_position_pct": 4.21
   },
   "risk_model": {
-    "invalidation_floor": 248.87,
-    "risk_per_share": 14.19,
-    "technical_pivot": 263.06
+    "invalidation_floor": 239.95,
+    "risk_per_share": 13.67,
+    "technical_pivot": 253.62
   },
   "schema_version": "1.0",
   "sector": null,
