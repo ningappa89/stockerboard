@@ -414,10 +414,13 @@
         }
         @media (max-width: 640px) {
             .header { padding: 12px 14px; gap: 10px; }
-            .header-left { flex: 1; min-width: 0; gap: 8px; justify-content: space-between; }
+            .header { flex-wrap: wrap; }
+            .header-left { flex-wrap: wrap; flex: 1; min-width: 0; gap: 8px; justify-content: space-between; }
             .logo { font-size: .98rem; }
             .logo-badge { display: none; }
-            .header-nav { gap: 9px; }
+            .header-nav { gap: 12px; flex-wrap: wrap; }
+            .hero-title-row, .price-section { flex-wrap: wrap; }
+            .breadcrumb { flex-wrap: wrap; }
             .header-nav a { font-size: .8rem; }
             .theme-toggle-btn { font-size: 0; width: 34px; height: 34px; padding: 0; flex: none; }
             .theme-toggle-btn::before { content: '🌓'; font-size: 16px; }
@@ -427,23 +430,11 @@
             .container { padding: 16px 12px; }
         }
     </style>
+<link rel="stylesheet" href="/scripts/site-shell.css">
+<script defer src="/scripts/site-shell.js"></script>
 </head>
 <body>
-    <header class="header">
-        <div class="header-left">
-            <a href="/" class="logo">
-                <span>Stockerboard</span>
-                <span class="logo-badge">Research</span>
-            </a>
-            <nav class="header-nav" aria-label="Main Navigation">
-                <a href="/">Home</a>
-                <a href="/stocks/">Stocks</a>
-                <a href="/#tab-playbook">Learn</a>
-                <a href="/?mode=pro">Pro research</a>
-            </nav>
-        </div>
-        <button type="button" class="theme-toggle-btn" onclick="toggleTheme()" aria-label="Toggle visual theme">🌓 Theme</button>
-    </header>
+    {{ header_html }}
 
     <main class="container">
         <!-- Breadcrumb Navigation -->
@@ -481,10 +472,34 @@
 
         <p class="coverage-notice">{{ coverage_notice }}</p>
         <div class="data-provenance-strip" style="display:flex;flex-wrap:wrap;gap:6px 16px;margin:8px 0 14px;padding:10px 14px;border:1px solid var(--border);border-radius:10px;background:var(--surface-elevated);font-size:.78rem;line-height:1.45;color:var(--text-secondary);">
-            <span class="prov-item"><strong style="color:var(--text-primary);font-weight:650;">Market Price:</strong> {{ price.formatted_value }} ({{ price.formatted_date }})</span>
+            <span class="prov-item"><strong style="color:var(--text-primary);font-weight:650;">Market Price:</strong> <span id="companyMarketQuote">{{ price.formatted_value }} ({{ price.formatted_date }})</span></span>
             <span class="prov-divider" style="color:var(--text-muted);">&middot;</span>
             <span class="prov-item"><strong style="color:var(--text-primary);font-weight:650;">Financials:</strong> {{ freshness.financial_period_end or 'Latest' }} &middot; {{ freshness.consolidation_scope }}</span>
         </div>
+
+        <!-- Business Focus & Profile (Company Identity & Enrichment V2) -->
+        <section class="section-box" id="business-profile-section" aria-label="Business Focus & Profile" style="margin-bottom:20px;">
+            <div style="display:flex;align-items:center;gap:14px;margin-bottom:12px;">
+                <div class="company-logo-slot" data-symbol="{{ identity.symbol }}" style="width:48px;height:48px;border-radius:8px;background:var(--surface-elevated);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;overflow:hidden;flex-shrink:0;">
+                    {{ company_logo_html }}
+                </div>
+                <div>
+                    <h2 style="font-size:1.1rem;margin:0;color:var(--text-primary);font-weight:700;">Business Focus & Profile</h2>
+                    <div style="font-size:0.8rem;color:var(--text-muted);margin-top:2px;">
+                        {{ identity.symbol }} · {{ identity.sector or 'Unclassified' }} / {{ identity.industry or 'General' }}
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top:14px;">
+                <div style="font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.04em;color:var(--text-muted);margin-bottom:4px;">What the company does</div>
+                <p style="font-size:0.92rem;line-height:1.55;color:var(--text-secondary);margin:0 0 14px 0;">
+                    {{ profile_summary }}
+                </p>
+            </div>
+
+            <div style="margin-top:16px;padding-top:12px;border-top:1px solid var(--border);font-size:.85rem;">{{ company_website_html }}</div>
+        </section>
 
         <!-- Key Snapshot -->
         <section class="grid-cards" aria-label="Key Snapshot">
@@ -663,10 +678,11 @@
                 document.getElementById('companyMarketPrice').textContent = '₹' + row[2].toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2});
                 dateEl.textContent = 'Price as of ' + new Date(row[6] + 'T00:00:00').toLocaleDateString('en-IN', {day: 'numeric', month: 'short', year: 'numeric'});
                 dateEl.dataset.asOf = row[6];
+                document.getElementById('companyMarketQuote').textContent = document.getElementById('companyMarketPrice').textContent + ' (' + dateEl.textContent.replace('Price as of ', '') + ')';
                 const rangeStatus = document.querySelector('.hero-range-heading span:last-child');
                 if (rangeStatus) rangeStatus.textContent = 'Earlier range snapshot';
                 const rangeNote = document.querySelector('.hero-range-note');
-                if (rangeNote && !rangeNote.textContent.includes('Latest price shown above')) rangeNote.textContent += ' · Latest price shown above; range position is from the earlier snapshot.';
+                if (rangeNote) rangeNote.textContent = 'Range through {{ market_range.as_of_date }}; latest price shown above. Range position reflects the earlier snapshot.';
             }).catch(() => {});
     </script>
 </body>

@@ -5030,30 +5030,21 @@
         }
 </style>
 <link rel="stylesheet" href="scripts/investor-v1.css">
+<link rel="stylesheet" href="scripts/pro-theme.css">
+<link rel="stylesheet" href="/scripts/site-shell.css">
+<script defer src="/scripts/site-shell.js"></script>
+<script defer src="scripts/pro-ui.js"></script>
 </head>
 <body>
     <div class="container">
         <header class="terminal-hero">
             <div class="top-nav">
-                                <div class="brand-unit" onclick="switchUserMode('fresher'); window.scrollTo({top:0, behavior:'smooth'})" style="cursor: pointer;" title="Return to Stockerboard Home">
-                    <div class="brand-emblem">
-                        <svg width="34" height="34" viewBox="0 0 100 100" fill="none" role="img" aria-label="Stockerboard">
-                            <rect width="100" height="100" rx="25" fill="#134e35"/>
-                            <rect x="18" y="23" width="62" height="13" rx="6.5" fill="#FFFFFF"/>
-                            <rect x="18" y="43.5" width="44" height="13" rx="6.5" fill="#FFFFFF"/>
-                            <circle cx="75" cy="50" r="8" fill="#F05A3E"/>
-                            <rect x="18" y="64" width="32" height="13" rx="6.5" fill="#FFFFFF"/>
-                        </svg>
-                    </div>
-                    <div class="brand-text-block">
-                        <span class="brand-name" style="letter-spacing: -0.01em; font-weight: 800;">STOCKERBOARD</span>
-                    </div>
-                </div>
-                <div class="header-nav-links" style="display: inline-flex; align-items: center; gap: 24px; margin-left: 24px; margin-right: auto;">
-                    <a href="/" onclick="event.preventDefault(); switchUserMode('fresher'); window.scrollTo({top:0, behavior:'smooth'})" style="color: var(--text-secondary); text-decoration: none; font-size: 0.92rem; font-weight: 500; transition: color 0.15s ease;">Home</a>
-                    <a href="/stocks/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.92rem; font-weight: 500; transition: color 0.15s ease;">Stocks</a>
-                    <a href="/learn/" style="color: var(--text-secondary); text-decoration: none; font-size: 0.92rem; font-weight: 500; transition: color 0.15s ease;">Learn</a>
-                    <a href="/?mode=pro" onclick="event.preventDefault(); switchUserMode('intermediate')" style="color: var(--text-secondary); text-decoration: none; font-size: 0.92rem; font-weight: 500; transition: color 0.15s ease;">Pro research</a>
+                                <a class="brand-unit" href="/" aria-label="Stockerboard home"><span class="brand-emblem"><img src="/assets/logo.svg" alt="" width="34" height="34"></span><span class="brand-name">STOCKERBOARD</span></a>
+                <div role="navigation" aria-label="Main navigation" class="header-nav-links" style="display: inline-flex; align-items: center; gap: 24px; margin-left: 24px; margin-right: auto;">
+                    <a href="/" data-nav-section="home" style="color: var(--text-secondary); text-decoration: none; font-size: 0.92rem; font-weight: 500; transition: color 0.15s ease;">Home</a>
+                    <a href="/stocks/" data-nav-section="stocks" style="color: var(--text-secondary); text-decoration: none; font-size: 0.92rem; font-weight: 500; transition: color 0.15s ease;">Stocks</a>
+                    <a href="/learn/" data-nav-section="learn" style="color: var(--text-secondary); text-decoration: none; font-size: 0.92rem; font-weight: 500; transition: color 0.15s ease;">Learn</a>
+                    <a href="/?mode=pro" data-nav-section="pro" style="color: var(--text-secondary); text-decoration: none; font-size: 0.92rem; font-weight: 500; transition: color 0.15s ease;">Pro research</a>
                 </div>
 
                 <div class="nav-market-pulse" id="navMarketPulse" title="NSE Settled EOD • Balanced Market • 19 of 350 stocks near yearly highs">
@@ -5238,7 +5229,7 @@
                 <div>
                     <div class="hero-chip-row">
                         <span class="hero-chip chip-pro">Institutional Terminal</span>
-                        <span class="hero-chip chip-session" id="chipMarketSession">Market session 2026-10-16</span>
+                        <span class="hero-chip chip-session" id="chipMarketSession">Market session 2026-10-19</span>
                         <button class="hero-chip" onclick="switchUserMode('fresher')" style="cursor: pointer; background: rgba(16, 185, 129, 0.1); border-color: rgba(16, 185, 129, 0.3); color: #10B981;">
                             ← Back to Simple Mode
                         </button>
@@ -10615,9 +10606,9 @@
         <div id="tab-sectors" class="tab-content">
             <div class="table-card">
                 <div class="table-header-bar">
-                    <div class="table-title">📊 Sector Rotation &amp; Capital Flow Intelligence</div>
+                    <div class="table-title">Sector performance</div>
                     <div class="sector-view-controls">
-                        <button class="sector-view-btn active" id="btnViewTreemap" onclick="switchSectorView('treemap')">▦ Interactive Treemap</button>
+                        <button class="sector-view-btn active" id="btnViewTreemap" onclick="switchSectorView('treemap')">▦ Stock Heat Map</button>
                         <button class="sector-view-btn" id="btnViewBarometer" onclick="switchSectorView('barometer')">📶 Momentum Barometer</button>
                         <button class="sector-view-btn" id="btnViewCards" onclick="switchSectorView('cards')">☰ Detailed Cards</button>
                     </div>
@@ -13391,7 +13382,7 @@
                         <div class="whatif-input-pane">
                             <div style="font-weight:700; font-size:0.86rem; border-bottom:1px solid var(--border-subtle); padding-bottom:8px; margin-bottom:4px; display:flex; justify-content:space-between; align-items:center;">
                                 <span>Candidate Parameters</span>
-                                <span style="font-size:0.72rem; color:var(--text-muted);">Client-Side Math</span>
+                                <span style="font-size:0.72rem; color:var(--text-muted);">Scenario inputs</span>
                             </div>
 
                             <div class="whatif-field">
@@ -13472,10 +13463,10 @@
                                 </div>
                             </div>
 
-                            <!-- Historical Shock Scenarios Box -->
+                            <!-- Illustrative Shock Scenarios Box -->
                             <div style="background:var(--bg-surface-elevated); border:1px solid var(--border-subtle); border-radius:8px; padding:12px;">
                                 <div style="font-size:0.76rem; font-weight:700; color:var(--text-secondary); text-transform:uppercase; margin-bottom:8px; display:flex; justify-content:space-between;">
-                                    <span>Historical Shock Scenarios</span>
+                                    <span>Illustrative Shock Scenarios</span>
                                     <span>Simulated Portfolio Loss</span>
                                 </div>
                                 <div style="display:flex; flex-direction:column; gap:6px;">
@@ -13828,7 +13819,6 @@
                         <span id="dossierWebsiteText">www.example.com</span>
                         <span aria-hidden="true" style="font-size: 0.85em; margin-left:1px;">↗</span>
                     </a>
-                    <span id="dossierWebsiteSourceBadge" style="margin-left: auto; font-size: 0.68rem; padding: 2px 7px; border-radius: 4px; background: rgba(21, 128, 61, 0.08); border: 1px solid rgba(21, 128, 61, 0.15); color: var(--accent-emerald, #16A34A); font-weight: 600; letter-spacing: 0.03em; flex-shrink:0;">Official</span>
                 </div>
 
                 <div class="dossier-quote-grid">
@@ -14835,7 +14825,8 @@
                     const peCount = currentFinancials.filter(row => row.pe != null).length;
                     const roeCount = currentFinancials.filter(row => row.roe != null).length;
                     const standaloneCount = currentFinancials.filter(row => row.standalone_roe != null).length;
-                    coverage.textContent = `Certified dossier ratios cover ${coveredSymbols.length.toLocaleString('en-IN')} of ${canonicalUniverse.length.toLocaleString('en-IN')} current companies: P/E for ${peCount.toLocaleString('en-IN')} and main ROE for ${roeCount.toLocaleString('en-IN')}. ${standaloneCount.toLocaleString('en-IN')} have separately labelled standalone FY26 ROE. Ratios update when a financial dossier is certified.`;
+                    const certifiedCount = currentFinancials.filter(row => row.coverage_basis !== 'MARKET_ONLY').length;
+                    coverage.textContent = `Certified financial dossiers cover ${certifiedCount.toLocaleString('en-IN')} of ${canonicalUniverse.length.toLocaleString('en-IN')} current companies: P/E for ${peCount.toLocaleString('en-IN')} and main ROE for ${roeCount.toLocaleString('en-IN')}. ${standaloneCount.toLocaleString('en-IN')} have separately labelled standalone FY26 ROE. The remaining ${(canonicalUniverse.length - certifiedCount).toLocaleString('en-IN')} companies have market data with financials pending. Ratios update when a financial dossier is certified.`;
                 }
             } catch (error) {
                 // Keep company search usable. Ratios fail closed instead of using
@@ -15003,6 +14994,8 @@
             if (![...sectorSelect.options].some(option => option.value === '__missing__')) sectorSelect.add(new Option('Sector unavailable', '__missing__'));
             if (window.setupInvestorFilters) window.setupInvestorFilters();
             document.querySelectorAll('[data-market-session]').forEach(el => el.textContent = 'Pro prices as of ' + (APP_DATA.session_date || '—'));
+            const chipSession = document.getElementById('chipMarketSession');
+            if (chipSession && APP_DATA.session_date) chipSession.textContent = 'Market session ' + APP_DATA.session_date;
             setScreenerPopulation(document.body.classList.contains('screen-fresher') ? 'fresher' : 'intermediate');
             syncScreenButtons(); applyScreenerFilters();
         }
@@ -15114,6 +15107,12 @@
         // 2. Client-Side Instant Filtering
         function filterActiveTable() {
             const query = document.getElementById('tableSearch').value.toLowerCase().trim();
+            if (document.getElementById('tab-sectors')?.classList.contains('active')) {
+                document.getElementById('heatmapSearchInput').value = query;
+                filterHeatmapBySearch(query);
+                window.StockerboardPro?.updateSearchStatus();
+                return;
+            }
             const activeTab = document.querySelector('.tab-content.active');
             if (!activeTab) return;
 
@@ -15245,6 +15244,14 @@
 
         // 4. TradingView Watchlist Copier
         function copyTradingViewTickers() {
+            if (window.StockerboardPro) {
+                const symbols = window.StockerboardPro.symbols();
+                if (!symbols.length) { showToast('No stock symbols in this view.'); return; }
+                navigator.clipboard.writeText(symbols.map(symbol => 'NSE:' + symbol).join(','))
+                    .then(() => showToast(`Copied ${symbols.length} symbols from this view.`))
+                    .catch(() => showToast('Clipboard access denied.'));
+                return;
+            }
             const activeTab = document.querySelector('.tab-content.active');
             let tickersToCopy = [];
             if (activeTab && activeTab.id === 'tab-stockme-analysis') {
@@ -15279,12 +15286,14 @@
         function exportActiveTableCSV() {
             const activeTab = document.querySelector('.tab-content.active');
             if (!activeTab) return;
+            if (activeTab.id === 'tab-sectors' && window.StockerboardPro) { window.StockerboardPro.exportHeatmapCSV(); return; }
             const table = activeTab.querySelector('table');
-            if (!table) return;
+            if (!table) { showToast('This view has no downloadable table.'); return; }
 
             let csv = [];
             const rows = table.querySelectorAll('tr');
             rows.forEach(row => {
+                if (row.style.display === 'none') return;
                 const cols = row.querySelectorAll('th, td');
                 let rowData = [];
                 cols.forEach((col, idx) => {
@@ -15586,6 +15595,7 @@
 
         // Sector View Switching (Treemap vs Barometer vs Cards)
         function switchSectorView(mode) {
+            if (window.StockerboardPro) window.StockerboardPro.setSectorView(mode);
             const treemap = document.getElementById('sectorTreemapView');
             const deck = document.getElementById('treemapControlDeck');
             const barometer = document.getElementById('sectorBarometerView');
@@ -15608,6 +15618,7 @@
         let activeHeatmapMetric = 'return';
 
         function setHeatmapMetric(metricKey, btn) {
+            if (window.StockerboardPro) { activeHeatmapMetric = metricKey; window.StockerboardPro.setMetric(metricKey, true); return; }
             activeHeatmapMetric = metricKey;
             document.querySelectorAll('.metric-btn').forEach(b => b.classList.remove('active'));
             if (btn) btn.classList.add('active');
@@ -15780,7 +15791,10 @@
                         break;
                     }
                 }
-                if (!matched) sectorSelect.value = 'ALL';
+                if (!matched) {
+                    const option = document.createElement('option'); option.value = sectorName; option.textContent = sectorName;
+                    sectorSelect.append(option); sectorSelect.value = sectorName;
+                }
             }
 
             activeScreenerPreset = 'ALL';
@@ -16394,6 +16408,7 @@
         }
 
         function runPlaybookCalculator() {
+            if (window.StockerboardPro && !window.StockerboardPro.validatePlaybook()) return;
             const equity = parseFloat(document.getElementById('calcEquity')?.value) || 500000;
             const riskPct = parseFloat(document.getElementById('calcRiskPct')?.value) || 1.0;
             const entry = parseFloat(document.getElementById('calcEntry')?.value) || 1250;
@@ -16529,6 +16544,7 @@
             renderScreenerPagination(totalPages);
             if (window.renderInvestorV1Cards) window.renderInvestorV1Cards(screenerFilteredRows.slice(startIdx, endIdx));
             if (window.renderProMobileCards) window.renderProMobileCards(screenerFilteredRows.slice(startIdx, endIdx));
+            window.StockerboardPro?.syncToolbar();
         }
 
         function renderScreenerPagination(totalPages) {
@@ -17866,6 +17882,7 @@
         }
 
         function runWhatIfSimulation() {
+            if (window.StockerboardPro && !window.StockerboardPro.validateSandbox()) return;
             const sym = document.getElementById('whatifStockSelect')?.value || '';
             const stock = getStockBySymbol(sym);
             const entry = parseFloat(document.getElementById('whatifEntry')?.value) || (stock ? stock.cmp : 100);
@@ -18559,6 +18576,10 @@
 
         // Mode Switcher Engine
         function switchUserMode(mode) {
+            const modeUrl = new URL(window.location.href);
+            if (mode === 'fresher') modeUrl.searchParams.delete('mode');
+            else modeUrl.searchParams.set('mode', 'pro');
+            history.replaceState(history.state, '', modeUrl.pathname + modeUrl.search + modeUrl.hash);
             placeSharedScreener(mode);
             const btnFresher = document.getElementById('btnModeFresher');
             const btnPro = document.getElementById('btnModePro');
@@ -18588,6 +18609,7 @@
                 // Re-calculate visible tables
                 applyScreenerFilters();
             }
+            window.StockerboardShell?.updateNavigation();
             trackEvent('mode_switched', { mode: mode });
         }
 
@@ -18752,13 +18774,7 @@
             } else if (urlParams.get('mode') === 'fresher') {
                 switchUserMode('fresher');
             } else {
-                // By default, visiting the root homepage https://stockerboard.com/ lands on the FAANG Fresher Mode
-                const userPreference = localStorage.getItem('stockerboard_mode_v2');
-                if (!userPreference) {
-                    switchUserMode('fresher');
-                } else {
-                    switchUserMode(userPreference);
-                }
+                switchUserMode('fresher');
             }
             if (hash === '#tab-stockme-analysis') {
                 switchTab('tab-stockme-analysis', document.getElementById('tabBtnStockMe'));
@@ -18991,7 +19007,7 @@
                 priceRangeIndexPromise = fetch('./stocks/price_range_index_v1.json', {cache: 'no-cache'})
                     .then(response => response.ok ? response.json() : null)
                     .then(data => data?.contract === 'PRICE_RANGE_INDEX_V1' &&
-                        data.canonical_count === canonicalUniverse.length && Object.keys(data.stocks || {}).length === data.canonical_count ? data : null)
+                        Object.keys(data.stocks || {}).length === data.canonical_count ? data : null)
                     .catch(() => null);
             }
             return priceRangeIndexPromise;
@@ -19000,6 +19016,14 @@
         function applyPriceRange(stock, json, symbol, index) {
             const source = index?.stocks?.[symbol];
             const existing = json?.range || {};
+            if (existing.high_52w != null && existing.low_52w != null && json.history) {
+                stock.price_range_meta = {
+                    coverage: json.history.has_full_52w_history ? 'FULL_YEAR' : 'PARTIAL_HISTORY',
+                    first_observation: json.history.first_session,
+                    session_count: json.history.sessions_available,
+                    price_as_of: json.history.last_session
+                };
+            }
             if (!source || source.status !== 'AVAILABLE' ||
                 (existing.high_52w != null && existing.low_52w != null) ||
                 source.price_as_of !== stock.price_as_of ||
@@ -19165,7 +19189,6 @@
             const strip = document.getElementById('dossierWebContactStrip');
             const webLink = document.getElementById('dossierWebsiteLink');
             const webText = document.getElementById('dossierWebsiteText');
-            const webBadge = document.getElementById('dossierWebsiteSourceBadge');
 
             if (!strip) return;
 
@@ -19178,21 +19201,6 @@
                 webText.textContent = w.domain || w.url.replace(/^https?:\/\//i, '');
                 webLink.setAttribute('aria-label', `Visit official website for ${cleanSym}: ${w.url}`);
 
-                let srcLabel = 'Official';
-                if (w.source === 'NSE_COMPANY_DIRECTORY') {
-                    srcLabel = 'NSE';
-                } else if (w.source === 'OFFICIAL_ISSUER_DISCLOSURE') {
-                    srcLabel = 'Filing';
-                } else if (w.source === 'THIRD_PARTY_AGREED') {
-                    srcLabel = 'Screener & Yahoo';
-                } else if (w.source === 'SCREENER') {
-                    srcLabel = 'Screener';
-                } else if (w.source === 'YFINANCE') {
-                    srcLabel = 'Yahoo Finance';
-                } else if (w.source === 'THIRD_PARTY_LISTED') {
-                    srcLabel = 'Third-party';
-                }
-                if (webBadge) webBadge.textContent = srcLabel;
                 strip.style.display = 'flex';
             } else {
                 strip.style.display = 'none';
@@ -19559,7 +19567,7 @@
             switchUserMode(savedMode);
 
             if (updateHistory) {
-                history.pushState({ view: 'home' }, '', window.location.pathname);
+                history.pushState({ view: 'home' }, '', window.location.pathname + window.location.search);
             }
         }
 

@@ -18,6 +18,11 @@ import os
 import re
 from pathlib import Path
 
+try:
+    from .site_shell import render_header
+except ImportError:
+    from site_shell import render_header
+
 ROOT = Path(__file__).resolve().parents[1]
 TEMPLATES_DIR = ROOT / "templates"
 PARTIALS_DIR = TEMPLATES_DIR / "partials"
@@ -607,7 +612,7 @@ PAGES = [
 
 
 def render_page(p: dict) -> str:
-    html = page_template
+    html = page_template.replace("{{ header_html }}", render_header(""))
     html = html.replace("{{ page_title }}", p["page_title"])
     html = html.replace("{{ meta_description }}", p["meta_description"])
     html = html.replace("{{ canonical_url }}", p["canonical_url"])

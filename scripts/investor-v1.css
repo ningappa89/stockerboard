@@ -65,7 +65,7 @@ details:focus-visible {
 .pro-mobile-cards { display: none; }
 
 @media (max-width: 768px) {
-    #intermediateTerminal .table-card { display: none !important; }
+    #intermediateTerminal #tab-screener .table-card { display: none !important; }
     body:not(.screen-fresher) .pro-mobile-cards { display: grid; grid-template-columns: 1fr; gap: 12px; }
     .screen-fresher .pro-mobile-cards { display: none !important; }
     body:not(.screen-fresher) #investorStockCards { display: none !important; }

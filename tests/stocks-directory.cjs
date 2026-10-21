@@ -1,0 +1,15 @@
+const assert = require('node:assert/strict');
+const {selectRows} = require('../scripts/stocks-directory.js');
+const rows=[['ETERNAL','Eternal',320,null,null,'Consumer'],['LT','Larsen & Toubro',3500,null,null,'Industrials'],['INFY','Infosys',1500,null,null,'Technology'],['NONE','Unknown',null,null,null,null]];
+const featured={ETERNAL:{aliases:['Zomato']},LT:{aliases:['L&T']}};
+const filter=(overrides={})=>selectRows(rows,{query:'',sector:'',sort:'name',scope:'all',...overrides},featured).map(row=>row[0]);
+assert.deepEqual(filter({query:'zomato'}),['ETERNAL']);
+assert.deepEqual(filter({query:'L&T'}),['LT']);
+assert.deepEqual(filter({sector:'Technology'}),['INFY']);
+assert.deepEqual(filter({sector:'__unknown'}),['NONE']);
+assert.deepEqual(filter({scope:'featured'}),['ETERNAL','LT']);
+assert.deepEqual(filter({sort:'price-desc'}),['LT','INFY','ETERNAL','NONE']);
+assert.deepEqual(filter({sort:'price-asc'}),['ETERNAL','INFY','LT','NONE']);
+assert.deepEqual(filter({query:'no-such-company'}),[]);
+assert.equal(rows[0][0],'ETERNAL');
+console.log('Stocks directory: 9 behavior checks passed');

@@ -605,30 +605,32 @@
             .depth-switcher-wrap { flex-direction: column; align-items: flex-start; gap: 8px; }
         }
     </style>
+<link rel="stylesheet" href="/scripts/site-shell.css">
+<script defer src="/scripts/site-shell.js"></script>
+<link rel="stylesheet" href="/scripts/learn-ui.css">
+<script defer src="/scripts/learn-ui.js"></script>
 </head>
-<body>
+<body class="sb-learn-page">
 
     <!-- Header Navigation -->
-    <header class="header">
-        <div class="header-left">
-            <a href="/" class="logo">
-                <span class="logo-dot"></span>
-                <span>Stockerboard</span>
-            </a>
-            <nav class="header-nav">
-                <a href="/">Home</a>
-                <a href="/stocks/">Stocks</a>
-                <a href="/learn/" class="active">Learn</a>
-                <a href="/?mode=pro">Pro research</a>
-            </nav>
-        </div>
-        <div>
-            <button class="theme-btn" onclick="toggleTheme()" id="themeBtn">
-                <span id="themeIcon">🌙</span>
-                <span id="themeText">Theme</span>
-            </button>
-        </div>
-    </header>
+    <header class="sb-site-header">
+    <div class="sb-site-header-inner">
+        <a href="/" class="sb-site-brand" aria-label="Stockerboard home">
+            <img src="/assets/logo.svg" width="34" height="34" alt="">
+            <span>STOCKERBOARD</span>
+        </a>
+        <nav class="sb-site-nav" aria-label="Main navigation">
+            <a href="/" data-nav-section="home">Home</a>
+            <a href="/stocks/" data-nav-section="stocks">Stocks</a>
+            <a href="/learn/" data-nav-section="learn" aria-current="page">Learn</a>
+            <a href="/?mode=pro" data-nav-section="pro">Pro research</a>
+        </nav>
+        <button type="button" class="sb-site-theme" data-site-theme aria-label="Switch to dark theme">
+            <span data-site-theme-icon aria-hidden="true">◐</span><span data-site-theme-text>Theme</span>
+        </button>
+    </div>
+</header>
+
 
     <main class="lesson-container">
         

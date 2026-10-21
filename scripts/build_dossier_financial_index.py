@@ -16,16 +16,55 @@ OUTPUT = ROOT / "stocks" / "financial_index_v1.json"
 RATIOS = ("pe", "pb", "roe", "roce", "debt_to_equity", "current_ratio")
 
 
+def reconcile_market_population(index: dict, market: dict) -> dict:
+    """Project certified rows onto the current market cohort without inventing ratios."""
+    import copy
+    result = copy.deepcopy(index)
+    certified = {**result.get("outside_market_stocks", {}), **result["stocks"]}
+    certified = {symbol: row for symbol, row in certified.items()
+                 if row.get("coverage_basis") != "MARKET_ONLY"}
+    rows = market["stocks"]
+    symbols = [row[0] for row in rows]
+    if len(symbols) != len(set(symbols)) or len(symbols) != market["count"]:
+        raise ValueError("Market population count or identity is invalid")
+    projected = {}
+    for row in rows:
+        symbol = row[0]
+        if symbol in certified:
+            projected[symbol] = certified[symbol]
+            projected[symbol]["coverage_basis"] = "CERTIFIED_DOSSIER"
+        else:
+            projected[symbol] = {
+                **{key: None for key in (*RATIOS, "market_cap_crore", "net_worth_crore", "total_debt_crore")},
+                "coverage_basis": "MARKET_ONLY",
+                "ratio_status": {key: {"status": "UNAVAILABLE", "reason": "DOSSIER_UNAVAILABLE",
+                                      "scope": None, "source_period": None, "effective_as_of": None}
+                                 for key in RATIOS},
+            }
+    result["stocks"] = projected
+    result["outside_market_stocks"] = {symbol: certified[symbol] for symbol in sorted(set(certified) - set(symbols))}
+    result["canonical_count"] = len(projected)
+    result["certified_dossier_count"] = len(certified)
+    result["population_basis"] = "CURRENT_MARKET_UNIVERSE"
+    result["market_as_of"] = market["as_of"]
+    result["market_only_symbols"] = sorted(symbol for symbol, row in projected.items()
+                                          if row["coverage_basis"] == "MARKET_ONLY")
+    result["coverage"] = {key: sum(row.get("market_cap_crore" if key == "market_cap" else key) is not None
+                                   for row in projected.values())
+                          for key in (*RATIOS, "market_cap")}
+    return result
+
+
 def build(stocks_dir: Path = ROOT / "stocks") -> dict:
     stocks_dir = Path(stocks_dir)
     manifest_path = stocks_dir / "manifest.json"
     manifest_bytes = manifest_path.read_bytes()
     manifest = json.loads(manifest_bytes)
     release_id = manifest.get("source_dossier_release_id")
-    if not release_id or manifest.get("canonical_universe_count") != 2524:
+    if not release_id or not isinstance(manifest.get("canonical_universe_count"), int):
         raise ValueError("public stocks manifest is not tied to a complete Dossier release")
     universe = json.loads((stocks_dir / "universe_index.json").read_text(encoding="utf-8"))
-    if universe["count"] != 2524 or len(universe["stocks"]) != 2524:
+    if universe["count"] != manifest["canonical_universe_count"] or len(universe["stocks"]) != universe["count"]:
         raise ValueError("canonical universe count changed")
     stocks: dict[str, dict] = {}
     coverage = {key: 0 for key in (*RATIOS, "market_cap", "debt_to_equity")}
@@ -89,7 +128,7 @@ def build(stocks_dir: Path = ROOT / "stocks") -> dict:
             values[f"{key}_source_period"] = envelope.get("source_period") or envelope.get("financial_period_end")
             values[f"{key}_effective_as_of"] = envelope.get("effective_as_of")
         stocks[symbol] = values
-    return {
+    result = {
         "schema_version": 1,
         "source": "certified_public_dossier_v2",
         "source_dossier_release_id": release_id,
@@ -98,6 +137,8 @@ def build(stocks_dir: Path = ROOT / "stocks") -> dict:
         "coverage": coverage,
         "stocks": stocks,
     }
+    market_path = stocks_dir / "market_universe_index_v1.json"
+    return reconcile_market_population(result, json.loads(market_path.read_text(encoding="utf-8"))) if market_path.exists() else result
 
 
 def main() -> int:
@@ -112,7 +153,7 @@ def main() -> int:
             raise SystemExit(f"STALE: {args.output}")
     else:
         args.output.write_text(rendered, encoding="utf-8")
-    print("PASS: compact financial index matches all 2,524 certified public dossiers")
+    print("PASS: financial index reconciles certified dossiers with the current market population")
     return 0
 
 

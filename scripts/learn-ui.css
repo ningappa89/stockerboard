@@ -1,0 +1,71 @@
+/* Learn uses the same emerald and quiet surfaces as Stockerboard research. */
+.sb-learn-page { --learn-accent:#166534; --learn-soft:#eaf4ed; --learn-line:#dce6df; --learn-panel:#fff; --learn-canvas:#f5f9f6; --learn-ink:#17291f; --learn-muted:#52675b; --emerald:var(--learn-accent); --brand-green:var(--learn-accent); --blue:var(--learn-accent); background:var(--learn-canvas); color:var(--learn-ink); }
+[data-theme="dark"] .sb-learn-page { --learn-accent:#9be6b2; --learn-soft:#1a3627; --learn-line:#2d4336; --learn-panel:#111f18; --learn-canvas:#0b1510; --learn-ink:#eef7f1; --learn-muted:#b4c9bc; --text-primary:var(--learn-ink); --text-secondary:var(--learn-muted); --text-muted:var(--learn-muted); }
+.sb-learn-page .container { max-width:1120px; padding:28px 24px; }
+.sb-learn-page .learn-hero { text-align:left; padding:8px 0 26px; margin-bottom:0; }
+.sb-learn-page .hero-lead-pill { background:var(--learn-soft); color:var(--learn-accent); font-size:.75rem; font-weight:700; padding:6px 10px; border-radius:6px; }
+.sb-learn-page .hero-title { font-size:clamp(2rem,3.6vw,2.75rem); max-width:100%; line-height:1.15; letter-spacing:-.045em; margin:14px 0; }
+.sb-learn-page .hero-sub { margin:0; max-width:720px; font-size:1rem; line-height:1.8; color:var(--learn-muted); }
+.sb-learn-page .hero-actions { justify-content:flex-start; gap:10px; margin-top:24px; }
+.sb-learn-page .btn-primary { background:var(--learn-accent); color:var(--learn-panel); border:1px solid transparent; border-radius:8px; padding:12px 16px; font-size:.85rem; font-weight:700; }
+[data-theme="dark"] .sb-learn-page .btn-primary { color:#102819; }
+.sb-learn-page .btn-secondary { color:var(--learn-ink); background:var(--learn-panel); border:1px solid var(--learn-line); border-radius:8px; padding:12px 16px; font-size:.85rem; }
+.learn-orientation { display:flex; flex-wrap:wrap; gap:10px 24px; margin:22px 0 0; color:var(--learn-muted); font-size:.78rem; }
+.learn-orientation span { display:inline-flex; gap:6px; align-items:center; }
+.learn-orientation strong { color:var(--learn-accent); }
+.learn-browser { border-top:1px solid var(--learn-line); padding:25px 0; margin:0 0 10px; }
+.learn-browser-top { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px; }
+.learn-browser h2 { font-size:1.15rem; color:var(--learn-ink); letter-spacing:-.025em; }
+.learn-search-label { display:flex; flex-direction:column; gap:5px; font-size:.7rem; font-weight:650; color:var(--learn-muted); width:min(100%,340px); }
+.learn-search-label input { width:100%; min-height:44px; border:1px solid var(--learn-line); border-radius:9px; padding:10px 13px; background:var(--learn-panel); color:var(--learn-ink); font:inherit; font-size:.84rem; }
+.learn-filter-row { display:flex; flex-wrap:wrap; gap:7px; margin-top:16px; }
+.learn-filter-row button { min-height:38px; border:1px solid var(--learn-line); background:var(--learn-panel); color:var(--learn-muted); border-radius:7px; padding:8px 12px; font:inherit; font-size:.76rem; font-weight:650; cursor:pointer; }
+.learn-filter-row button[aria-pressed="true"] { background:var(--learn-soft); color:var(--learn-accent); border-color:var(--learn-accent); }
+.learn-search-status { color:var(--learn-muted); font-size:.75rem; margin-top:12px; }
+.learn-no-results { margin:14px 0; padding:20px; background:var(--learn-panel); border:1px solid var(--learn-line); border-radius:12px; color:var(--learn-ink); font-size:.9rem; }
+.sb-learn-page [hidden] { display:none !important; }
+.sb-learn-page .foundations-hero-card { background:var(--learn-panel); border:1px solid var(--learn-line); border-radius:16px; box-shadow:0 3px 16px #173d2410; padding:26px; }
+.sb-learn-page .pilot-tag { color:var(--learn-accent) !important; background:var(--learn-soft) !important; border-radius:5px; padding:4px 8px; font-weight:700; font-size:.7rem; }
+.sb-learn-page .foundations-chain-grid { gap:12px; margin-top:22px; }
+.sb-learn-page .chain-step { background:var(--learn-panel); border:1px solid var(--learn-line); padding:17px 14px; min-height:106px; border-radius:10px; align-items:flex-start; gap:12px; box-shadow:none; }
+.sb-learn-page .chain-step:hover { background:var(--learn-soft); border-color:var(--learn-accent); transform:translateY(-2px); }
+.sb-learn-page .chain-num { background:var(--learn-soft); color:var(--learn-accent); width:30px; height:30px; flex:none; font-size:.85rem; border:0; }
+.sb-learn-page .chain-title { color:var(--learn-ink); font-size:.85rem; font-weight:750; }
+.sb-learn-page .chain-desc { font-size:.76rem; line-height:1.65; color:var(--learn-muted); margin-top:5px; }
+.sb-learn-page .section-label { color:var(--learn-muted); letter-spacing:.07em; font-size:.72rem; margin:30px 0 14px; }
+.sb-learn-page .secondary-card { background:var(--learn-panel); border:1px solid var(--learn-line); box-shadow:none; border-radius:12px; padding:22px; min-height:176px; }
+.sb-learn-page .secondary-card:hover { border-color:var(--learn-accent); background:var(--learn-soft); }
+.sb-learn-page .lesson-container { max-width:960px; padding:28px 24px 50px; }
+.sb-learn-page .lesson-hero { padding:26px 0; margin-bottom:12px; }
+.sb-learn-page .lesson-title { font-size:clamp(1.8rem,4vw,2.75rem); letter-spacing:-.04em; line-height:1.2; color:var(--learn-ink); }
+.sb-learn-page .lesson-section { background:var(--learn-panel); border:1px solid var(--learn-line); border-radius:14px; box-shadow:none; padding:26px; margin-bottom:20px; line-height:1.8; }
+.sb-learn-page .section-title { font-size:1.13rem; color:var(--learn-ink); letter-spacing:-.02em; }
+.sb-learn-page .depth-switcher-wrap { background:var(--learn-canvas); border:1px solid var(--learn-line); border-radius:11px; padding:10px; gap:10px; box-shadow:none; }
+.sb-learn-page .depth-btn { color:var(--learn-muted); min-height:38px; font-size:.78rem; border-radius:7px; }
+.sb-learn-page .depth-btn.active { background:var(--learn-soft); color:var(--learn-accent); }
+.sb-learn-page :is(.analogy-card,.takeaway-pill,.quiz-card,.live-stock-card,.formula-box) { border-color:var(--learn-line); border-radius:10px; box-shadow:none; }
+.sb-learn-page .quiz-opt-btn { min-height:46px; background:var(--learn-panel); color:var(--learn-ink); border-color:var(--learn-line); border-radius:8px; padding:12px 14px; }
+.sb-learn-page .quiz-opt-btn.correct,.sb-learn-page .quiz-feedback.good { color:var(--learn-accent); background:var(--learn-soft); }
+.sb-learn-page .quiz-opt-btn.incorrect,.sb-learn-page .quiz-feedback.bad { color:#a12644; background:#fcecf0; }
+[data-theme="dark"] .sb-learn-page .quiz-opt-btn.incorrect,[data-theme="dark"] .sb-learn-page .quiz-feedback.bad { color:#ffb3c4; background:#401d29; }
+.sb-learn-page :is(a,button,input):focus-visible { outline:3px solid var(--learn-accent); outline-offset:3px; }
+.sb-learn-page :is(.lesson-nav-bar,.breadcrumbs) { flex-wrap:wrap; gap:12px; }
+@media(max-width:700px) {
+ .sb-learn-page :is(.container,.lesson-container) { padding:24px 16px; }
+ .sb-learn-page .learn-hero { padding-top:0; }
+ .sb-learn-page .hero-actions { align-items:stretch; flex-direction:column; }
+ .sb-learn-page .hero-actions a { text-align:center; }
+ .sb-learn-page .foundations-chain-grid { grid-template-columns:1fr; }
+ .sb-learn-page :is(.foundations-hero-card,.lesson-section) { padding:18px; }
+ .sb-learn-page .chain-step { min-height:88px; }
+ .sb-learn-page .secondary-grid { grid-template-columns:1fr; }
+ .sb-learn-page .depth-switcher-wrap { position:static; align-items:stretch; }
+ .sb-learn-page .depth-chips { display:grid; grid-template-columns:1fr; width:100%; }
+ .learn-search-label { width:100%; }
+}
+@media(prefers-reduced-motion:reduce) { .sb-learn-page * { scroll-behavior:auto !important; transition:none !important; } }
+.sb-learn-page .depth-switcher-wrap { top:12px; }
+.sb-learn-page .lesson-section { scroll-margin-top:100px; }
+.sb-learn-page .takeaway-pill { background:var(--learn-soft); color:var(--learn-accent); border:1px solid var(--learn-line); }
+.sb-learn-page .formula-box { overflow-wrap:anywhere; }
+@media(max-width:700px) { .sb-learn-page .lesson-section { scroll-margin-top:16px; } }

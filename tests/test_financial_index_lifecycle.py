@@ -30,8 +30,10 @@ def test_coverage_and_duplicates():
     fin = json.loads(FIN_IDX.read_text(encoding="utf-8"))
     assert fin["schema_version"] == 1
     assert fin["source"] == "certified_public_dossier_v2"
-    assert fin["canonical_count"] == 2524
-    assert len(fin["stocks"]) == 2524
+    market = json.loads((STOCKS_DIR / "market_universe_index_v1.json").read_text(encoding="utf-8"))
+    assert fin["canonical_count"] == market["count"]
+    assert set(fin["stocks"]) == {row[0] for row in market["stocks"]}
+    assert fin["certified_dossier_count"] == universe["count"]
     public_manifest = json.loads((STOCKS_DIR / "manifest.json").read_text(encoding="utf-8"))
     assert fin["source_dossier_release_id"] == public_manifest["source_dossier_release_id"]
     assert fin["public_manifest_sha256"] == hashlib.sha256((STOCKS_DIR / "manifest.json").read_bytes()).hexdigest()
@@ -39,7 +41,7 @@ def test_coverage_and_duplicates():
     symbols = [row[0] for row in universe["stocks"]]
     assert len(symbols) == len(set(symbols)), "Duplicate symbols in universe"
     for s in symbols:
-        assert s in fin["stocks"], f"Missing {s} in financial index"
+        assert s in {**fin.get("outside_market_stocks", {}), **fin["stocks"]}, f"Missing {s} in financial index"
 
 
 def test_parity_and_nulls():
@@ -50,7 +52,7 @@ def test_parity_and_nulls():
         sym = row[0]
         shard = "".join(c if c.isalnum() and c.isascii() else "_" for c in sym[:2]).ljust(2, "_")
         dossier = json.loads((STOCKS_DIR / shard / f"{sym}.json").read_text(encoding="utf-8"))
-        entry = fin["stocks"][sym]
+        entry = {**fin.get("outside_market_stocks", {}), **fin["stocks"]}[sym]
         
         # Parity
         assert entry["pe"] == dossier.get("pe"), f"PE mismatch {sym}"
@@ -87,3 +89,33 @@ if __name__ == "__main__":
     test_determinism()
     print("[PASS] Deterministic builder validation passed")
     print("ALL FINANCIAL INDEX LIFECYCLE TESTS PASS")
+
+
+def test_market_only_entries_are_explicit_and_dossiers_exist():
+    fin = json.loads(FIN_IDX.read_text(encoding="utf-8"))
+    market = json.loads((STOCKS_DIR / "market_universe_index_v1.json").read_text(encoding="utf-8"))
+    rows = {row[0]: row for row in market["stocks"]}
+    for symbol in fin["market_only_symbols"]:
+        entry = fin["stocks"][symbol]
+        assert entry["coverage_basis"] == "MARKET_ONLY"
+        assert all(entry[key] is None for key in ("pe", "pb", "roe", "roce", "market_cap_crore"))
+        assert all(status["status"] == "UNAVAILABLE" for status in entry["ratio_status"].values())
+        dossier = json.loads((STOCKS_DIR / symbol[:2] / f"{symbol}.json").read_text(encoding="utf-8"))
+        assert dossier["symbol"] == symbol
+        assert dossier["price"]["close"] == rows[symbol][2]
+        assert dossier["price"]["as_of"] == rows[symbol][6]
+
+
+def test_reconciliation_survives_population_changes_without_losing_certified_rows():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("financial_builder", ROOT / "scripts/build_dossier_financial_index.py")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    initial = {"stocks": {"OLD": {"pe": 12.5}}, "coverage": {}}
+    first = module.reconcile_market_population(initial, {"count": 1, "as_of": "2026-10-19", "stocks": [["NEW"]]})
+    assert first["stocks"]["NEW"]["pe"] is None
+    assert first["outside_market_stocks"]["OLD"]["pe"] == 12.5
+    second = module.reconcile_market_population(first, {"count": 1, "as_of": "2026-10-20", "stocks": [["OLD"]]})
+    assert second["stocks"]["OLD"]["pe"] == 12.5
+    assert second["market_only_symbols"] == []
+    assert "NEW" not in second["outside_market_stocks"]

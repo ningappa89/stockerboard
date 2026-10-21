@@ -1,8 +1,30 @@
 {
   "dates": {
-    "fundamentals_source_as_of": "2026-10-09",
+    "fundamentals_source_as_of": "2026-10-16",
     "pro_market_session": "2026-10-19",
     "universe_as_of": "2026-10-19"
+  },
+  "dossier_coverage": {
+    "current_certified_count": 2519,
+    "market_only_symbols": [
+      "ACEVECTOR",
+      "AONESTEELS",
+      "ARMEE",
+      "ELEVATE",
+      "GERMAN",
+      "HEROMOTORS",
+      "MANIKA",
+      "MOMSBELIEF",
+      "MONEYVIEW",
+      "ORIENTCABL",
+      "PARIN",
+      "PRIORITY",
+      "RUNWALENTR",
+      "SSRETAIL",
+      "VARMORA",
+      "VEEGALAND"
+    ],
+    "outside_current_market_count": 5
   },
   "metrics": {
     "debt_to_equity": {
@@ -85,6 +107,36 @@
   },
   "outside_universe_dossiers": [
     {
+      "canonical_symbols_with_same_isin": [],
+      "classification": "OUTSIDE_CURRENT_MARKET",
+      "isin": "INE523B01011",
+      "symbol": "AKSHOPTFBR"
+    },
+    {
+      "canonical_symbols_with_same_isin": [],
+      "classification": "OUTSIDE_CURRENT_MARKET",
+      "isin": "INE646X01014",
+      "symbol": "ASTRON"
+    },
+    {
+      "canonical_symbols_with_same_isin": [],
+      "classification": "OUTSIDE_CURRENT_MARKET",
+      "isin": "INE454M01024",
+      "symbol": "NAGAFERT"
+    },
+    {
+      "canonical_symbols_with_same_isin": [],
+      "classification": "OUTSIDE_CURRENT_MARKET",
+      "isin": "INE561H01026",
+      "symbol": "PARSVNATH"
+    },
+    {
+      "canonical_symbols_with_same_isin": [],
+      "classification": "OUTSIDE_CURRENT_MARKET",
+      "isin": null,
+      "symbol": "VIVIMEDLAB"
+    },
+    {
       "canonical_symbols_with_same_isin": [
         "ETERNAL"
       ],
@@ -101,7 +153,8 @@
   },
   "ready_for_full_v1_release": false,
   "release_gates": {
-    "canonical_population_reconciled": false,
+    "canonical_population_reconciled": true,
+    "certified_financial_dossiers_complete": false,
     "dossier_aliases_resolved": true,
     "full_plan_metric_contracts_present": false,
     "universe_price_date_present": true

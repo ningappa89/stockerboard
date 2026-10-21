@@ -19,7 +19,7 @@ const context = vm.createContext({
     }
 });
 
-for (const name of ['numericMetric', 'formatMetric', 'readDossierFundamentals', 'renderDossierFundamentals', 'normalizeDossierJson']) {
+for (const name of ['numericMetric', 'formatMetric', 'readDossierFundamentals', 'renderDossierFundamentals', 'normalizeDossierJson', 'applyPriceRange']) {
     const start = html.indexOf('        function ' + name + '(');
     const end = html.indexOf('\n        }', start) + '\n        }'.length;
     assert.ok(start >= 0 && end > start, name);
@@ -85,6 +85,14 @@ console.log('PASS: Failure injection proof: secondary / research snapshots canno
 // Test Suite 6: Static Source Guards
 assert.equal(html.includes('./research/current.json'), false, 'index.html must NOT reference ./research/current.json');
 assert.equal(html.includes('ratios_index.json'), false, 'index.html must NOT reference ratios_index.json');
-assert.equal(fs.existsSync(path.join(__dirname, '../fundamentals.json')), false, 'fundamentals.json must not exist in repo');
+assert.equal(html.includes('./fundamentals.json'), false, 'public ratios must not fetch the separate fundamentals snapshot');
 assert.equal(fs.existsSync(path.join(__dirname, '../pilot_asof_financials_v1.json')), false, 'pilot_asof_financials_v1.json must not exist in repo');
 console.log('PASS: Static source guards: 0 research network endpoints, 0 pilot overrides');
+
+const shortHistory = evaluate(`applyPriceRange({cmp:24.04,price_as_of:'2026-10-19'},
+    {range:{high_52w:33.27,low_52w:23.37},history:{has_full_52w_history:false,
+    first_session:'2026-10-05',last_session:'2026-10-19',sessions_available:11}},'ACEVECTOR',null)`);
+assert.equal(shortHistory.price_range_meta.coverage, 'PARTIAL_HISTORY');
+assert.equal(shortHistory.price_range_meta.session_count, 11);
+assert.equal(shortHistory.price_range_meta.first_observation, '2026-10-05');
+console.log('PASS: new listings retain short-history metadata without a financial dossier');

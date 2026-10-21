@@ -440,23 +440,12 @@
             .dir-arrow { display: none; }
         }
     </style>
+<link rel="stylesheet" href="/scripts/site-shell.css">
+<script defer src="/scripts/site-shell.js"></script>
+<link rel="stylesheet" href="/scripts/stocks-directory.css">
 </head>
-<body>
-    <header class="header">
-        <div class="header-left">
-            <a href="/" class="logo">
-                <span>Stockerboard</span>
-                <span class="logo-badge">Research</span>
-            </a>
-            <nav class="header-nav" aria-label="Main Navigation">
-                <a href="/" class="nav-link">Home</a>
-                <a href="/stocks/" class="nav-link active">Stocks</a>
-                <a href="/#tab-playbook" class="nav-link">Learn</a>
-                <a href="/?mode=pro" class="nav-link">Pro research</a>
-            </nav>
-        </div>
-        <button type="button" class="theme-toggle-btn" onclick="toggleTheme()" aria-label="Toggle visual theme">🌓 Theme</button>
-    </header>
+<body class="sb-stocks-page" data-directory-view="grid">
+    {{ header_html }}
 
     <main class="container">
         <!-- Breadcrumb Navigation -->
@@ -467,22 +456,35 @@
         </nav>
 
         <section class="hero-section">
-            <h1>Explore Indian stocks</h1>
-            <p class="dir-intro">Find a company across our {{ total_count }}-stock universe. Open its research view, or explore the featured company pages below.</p>
-            <p class="dir-context">Universe snapshot: {{ universe_as_of }} · Pro screens a selected set of stocks separately.</p>
+            <div><span class="directory-eyebrow">Company directory</span><h1>Explore Indian companies.</h1>
+            <p class="dir-intro">A clearer view of {{ total_count }} listed companies. Find a business, compare its latest close, and open the details that matter.</p></div>
+            <div class="directory-snapshot"><span>Market snapshot</span><strong>{{ universe_as_of }}</strong><span>End-of-day prices · Not live</span></div>
         </section>
 
-        <!-- Search Filter -->
-        <div class="search-box-wrap">
-            <span class="search-icon" aria-hidden="true">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="11" cy="11" r="8"></circle>
-                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                </svg>
-            </span>
-            <input type="search" id="dirSearchInput" class="search-input" placeholder="Search all {{ total_count }} companies by name or symbol" aria-label="Search all companies" autocomplete="off">
+        <section class="directory-controls" aria-label="Find and filter companies">
+            <div class="directory-filters">
+                <label class="directory-field" for="dirSearchInput">Company or symbol
+                    <span class="search-box-wrap"><span class="search-icon" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 5 5"></path></svg></span>
+                    <input type="search" id="dirSearchInput" class="search-input" placeholder="Search name or symbol, e.g. Infosys" aria-label="Search all companies" autocomplete="off"></span>
+                </label>
+                <label class="directory-field" for="dirSector">Sector<select id="dirSector" class="directory-select"><option value="">All sectors</option></select></label>
+                <label class="directory-field" for="dirSort">Sort by<select id="dirSort" class="directory-select"><option value="name">Company A–Z</option><option value="price-desc">Price: high to low</option><option value="price-asc">Price: low to high</option></select></label>
+            </div>
+            <div class="directory-controls-bottom">
+                <div class="directory-scope" role="group" aria-label="Company collection">
+                    <button type="button" data-directory-scope="all" aria-pressed="true">All companies <span>{{ total_count }}</span></button>
+                    <button type="button" data-directory-scope="featured" aria-pressed="false">Featured <span>{{ featured_count }}</span></button>
+                </div>
+                <button type="button" class="directory-clear" id="dirClearFilters" hidden>Clear filters</button>
+            </div>
+        </section>
+        <div class="directory-results-bar">
+            <p id="dirResultsStatus" class="directory-results-status" role="status" aria-live="polite">Loading company directory…</p>
+            <div class="directory-view" role="group" aria-label="Directory layout">
+                <button type="button" data-directory-view-button="grid" aria-pressed="true">▦ Grid</button>
+                <button type="button" data-directory-view-button="compact" aria-pressed="false">☰ Compact</button>
+            </div>
         </div>
-        <a class="dir-jump" href="#browseSection">Browse all companies ↓</a>
 
         <section id="featuredSection" class="dir-section" aria-labelledby="featuredHeading">
             <div class="dir-header-row"><h2 id="featuredHeading">Featured company pages</h2><span class="dir-count-badge">{{ featured_count }} companies</span></div>
@@ -495,135 +497,21 @@
         <section id="browseSection" class="dir-section" aria-labelledby="browseHeading">
             <div class="dir-header-row"><h2 id="browseHeading">All companies</h2><span id="dirCountBadge" class="dir-count-badge">Loading…</span></div>
             <p id="browseNote" class="dir-section-note">Browse the rest of the universe. Featured companies appear above.</p>
-            <div id="browseList" class="dir-list" aria-live="polite"></div>
+            <div id="browseList" class="dir-list"></div>
             <button id="dirLoadMore" class="dir-load-more" type="button" hidden>Show more companies</button>
         </section>
 
         <!-- Empty State -->
-        <div id="dirEmptyState" class="dir-empty" style="display: none;">
+        <div id="dirEmptyState" class="dir-empty" hidden>
             <h3>No companies found</h3>
-            <p>Try another company name or symbol.</p>
+            <p>Try another company name, sector, or symbol.</p><button id="dirEmptyClear" type="button" class="directory-clear">Clear all filters</button>
         </div>
     </main>
 
     {{ footer_html }}
 
-    <script>
-        function toggleTheme() {
-            const html = document.documentElement;
-            const current = html.getAttribute('data-theme') || 'dark';
-            const next = current === 'dark' ? 'light' : 'dark';
-            html.setAttribute('data-theme', next);
-            try {
-                localStorage.setItem('stockerboard_theme', next);
-            } catch(e) {}
-        }
-
-        const featuredRoutes = {{ featured_routes_json }};
-        const searchInput = document.getElementById('dirSearchInput');
-        const browseList = document.getElementById('browseList');
-        const browseNote = document.getElementById('browseNote');
-        const countBadge = document.getElementById('dirCountBadge');
-        const loadMore = document.getElementById('dirLoadMore');
-        const emptyState = document.getElementById('dirEmptyState');
-        let universe = [];
-        let visibleRows = [];
-        let displayed = 0;
-        const pageSize = 40;
-        const normalize = value => String(value || '').toLocaleLowerCase('en-IN').replace(/[^a-z0-9]+/g, ' ').trim();
-
-        function makeCard(row) {
-            const [symbol, name, price, , , sector] = row;
-            const featured = featuredRoutes[symbol];
-            const card = document.createElement('a');
-            card.className = 'dir-card';
-            card.href = featured ? '/stocks/' + encodeURIComponent(featured.slug) + '/' : '/#stock/' + encodeURIComponent(symbol);
-            const info = document.createElement('div');
-            info.className = 'dir-info';
-            const title = document.createElement('div');
-            title.className = 'dir-name-row';
-            const nameEl = document.createElement('span');
-            nameEl.className = 'dir-name';
-            nameEl.textContent = featured?.name || name || symbol;
-            const symbolEl = document.createElement('span');
-            symbolEl.className = 'dir-symbol';
-            symbolEl.textContent = symbol;
-            title.append(nameEl, symbolEl);
-            const sectorEl = document.createElement('div');
-            sectorEl.className = 'dir-sector';
-            sectorEl.textContent = featured?.sector || sector || 'Sector unavailable';
-            info.append(title, sectorEl);
-            const metrics = document.createElement('div');
-            metrics.className = 'dir-metrics';
-            const priceEl = document.createElement('div');
-            priceEl.className = 'dir-price';
-            const shownPrice = price;
-            priceEl.textContent = Number.isFinite(shownPrice) ? '₹' + shownPrice.toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2}) : 'Price unavailable';
-            const routeEl = document.createElement('div');
-            routeEl.className = 'dir-route-note';
-            routeEl.textContent = `Price ${row[6] || '{{ universe_as_of }}'} · ${featured ? 'Company page' : 'Research view'}`;
-            metrics.append(priceEl, routeEl);
-            const arrow = document.createElement('div');
-            arrow.className = 'dir-arrow';
-            arrow.setAttribute('aria-hidden', 'true');
-            arrow.textContent = '→';
-            card.append(info, metrics, arrow);
-            return card;
-        }
-
-        function appendPage() {
-            const fragment = document.createDocumentFragment();
-            visibleRows.slice(displayed, displayed + pageSize).forEach(row => fragment.append(makeCard(row)));
-            browseList.append(fragment);
-            displayed = Math.min(displayed + pageSize, visibleRows.length);
-            loadMore.hidden = displayed >= visibleRows.length;
-            loadMore.textContent = `Show more companies (${displayed.toLocaleString('en-IN')} of ${visibleRows.length.toLocaleString('en-IN')})`;
-        }
-
-        function filterDirectory() {
-            const q = normalize(searchInput.value);
-            document.getElementById('featuredSection').hidden = Boolean(q);
-            const matches = q ? universe.filter(row => {
-                const featured = featuredRoutes[row[0]];
-                return normalize(row[0]).includes(q) || normalize(row[1]).includes(q) ||
-                    (featured?.aliases || []).some(alias => normalize(alias).includes(q));
-            }) : universe.filter(row => !featuredRoutes[row[0]]);
-            visibleRows = q ? matches.sort((a, b) => {
-                const score = row => normalize(row[0]) === q ? 0 : normalize(row[0]).startsWith(q) ? 1 : normalize(row[1]).startsWith(q) ? 2 : 3;
-                return score(a) - score(b) || String(a[1]).localeCompare(String(b[1]));
-            }) : matches;
-            browseList.replaceChildren();
-            displayed = 0;
-            emptyState.style.display = visibleRows.length ? 'none' : 'block';
-            countBadge.textContent = visibleRows.length.toLocaleString('en-IN') + (visibleRows.length === 1 ? ' company' : ' companies');
-            document.getElementById('browseHeading').textContent = q ? 'Search results' : 'All companies';
-            browseNote.textContent = q ? 'Results across the full canonical universe. Featured stocks open their company page; others open the research view.' : 'Browse the rest of the universe. Featured companies appear above.';
-            appendPage();
-        }
-
-        searchInput.addEventListener('input', filterDirectory);
-        loadMore.addEventListener('click', appendPage);
-        fetch('/stocks/market_universe_index_v1.json', {cache: 'no-cache'}).then(response => {
-            if (!response.ok) throw new Error('Universe unavailable');
-            return response.json();
-        }).then(data => {
-            if (!Array.isArray(data.stocks) || data.stocks.length !== data.count || data.count !== {{ total_count_raw }}) throw new Error('Universe mismatch');
-            universe = data.stocks;
-            universe.forEach(row => {
-                const card = document.querySelector(`#dirList .dir-card[data-symbol="${CSS.escape(row[0])}"]`);
-                if (!card || !Number.isFinite(row[2])) return;
-                const price = card.querySelector('.dir-price');
-                const date = card.querySelector('.dir-route-note');
-                if (price) price.textContent = '₹' + row[2].toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2});
-                if (date) date.textContent = `Price ${row[6] || data.as_of} · Company page`;
-            });
-            filterDirectory();
-        }).catch(() => {
-            countBadge.textContent = 'Browse unavailable';
-            browseNote.textContent = 'The complete company list is temporarily unavailable. Featured company pages remain accessible above.';
-            loadMore.hidden = true;
-        });
-    </script>
+    <script id="directoryConfig" type="application/json">{"featured": {{ featured_routes_json }}, "count": {{ total_count_raw }}, "asOf": "{{ universe_as_of }}"}</script>
+    <script defer src="/scripts/stocks-directory.js"></script>
 </body>
 </html>
 

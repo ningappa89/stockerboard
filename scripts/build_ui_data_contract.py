@@ -83,11 +83,12 @@ def build_contract() -> dict:
             dossier = json.loads(file.read_text(encoding="utf-8"))
             isin = dossier.get("isin")
             matches = sorted(canonical_isins.get(isin, []))
-            aliases.append({"symbol": file.stem, "isin": isin, "canonical_symbols_with_same_isin": matches, "classification": "SAME_ISIN_ALIAS" if len(matches) == 1 else "UNRESOLVED"})
+            aliases.append({"symbol": file.stem, "isin": isin, "canonical_symbols_with_same_isin": matches, "classification": "OUTSIDE_CURRENT_MARKET" if file.stem in financial.get("outside_market_stocks", {}) else ("SAME_ISIN_ALIAS" if len(matches) == 1 else "UNRESOLVED")})
 
     gates = {
         "canonical_population_reconciled": set(financial["stocks"]) == symbols,
-        "dossier_aliases_resolved": all(item["classification"] == "SAME_ISIN_ALIAS" for item in aliases),
+        "certified_financial_dossiers_complete": not financial.get("market_only_symbols", []),
+        "dossier_aliases_resolved": all(item["classification"] in ("SAME_ISIN_ALIAS", "OUTSIDE_CURRENT_MARKET") for item in aliases),
         "universe_price_date_present": bool(universe["as_of"]) and metrics["price"]["covered"] == count,
         "full_plan_metric_contracts_present": all(metrics[key]["enabled"] for key in ("market_cap", "return_1y", "sales_growth_3y", "debt_to_equity")),
     }
@@ -96,6 +97,7 @@ def build_contract() -> dict:
         "population": {"name": "canonical_universe", "count": count, "canonical_universe_count": count, "claim_full_universe": True},
         "dates": {"pro_market_session": pro_date.group(1), "universe_as_of": universe["as_of"], "fundamentals_source_as_of": manifest["source_as_of"]},
         "metrics": metrics,
+        "dossier_coverage": {"current_certified_count": len(financial_rows) - len(financial.get("market_only_symbols", [])), "market_only_symbols": financial.get("market_only_symbols", []), "outside_current_market_count": len(financial.get("outside_market_stocks", {}))},
         "outside_universe_dossiers": sorted(aliases, key=lambda item: item["symbol"]),
         "release_gates": gates,
         "ready_for_full_v1_release": all(gates.values()),

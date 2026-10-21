@@ -1,0 +1,16 @@
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const vm=require('node:vm');
+const path=require('node:path');
+const ctx=vm.createContext({window:{},document:{readyState:'loading',addEventListener(){}},URLSearchParams});
+vm.runInContext(fs.readFileSync(path.join(__dirname,'../scripts/site-shell.js'),'utf8'),ctx);
+const section=ctx.window.StockerboardShell.sectionForLocation;
+assert.equal(section('/',''),'home');
+assert.equal(section('/','?mode=pro'),'pro');
+assert.equal(section('/stocks/','?mode=pro'),'stocks');
+assert.equal(section('/stocks/asian-paints/',''),'stocks');
+assert.equal(section('/learn/pe-ratio/',''),'learn');
+assert.equal(section('/about/',''),null);
+assert.equal(section('/about/','?mode=pro'),null);
+for(const name of ['site-shell.js','learn-ui.js'])new vm.Script(fs.readFileSync(path.join(__dirname,'../scripts',name),'utf8'));
+console.log('PASS: shared navigation selects the correct section and preserves same-origin routes');

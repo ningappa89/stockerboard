@@ -440,23 +440,29 @@
             .dir-arrow { display: none; }
         }
     </style>
+<link rel="stylesheet" href="/scripts/site-shell.css">
+<script defer src="/scripts/site-shell.js"></script>
+<link rel="stylesheet" href="/scripts/stocks-directory.css">
 </head>
-<body>
-    <header class="header">
-        <div class="header-left">
-            <a href="/" class="logo">
-                <span>Stockerboard</span>
-                <span class="logo-badge">Research</span>
-            </a>
-            <nav class="header-nav" aria-label="Main Navigation">
-                <a href="/" class="nav-link">Home</a>
-                <a href="/stocks/" class="nav-link active">Stocks</a>
-                <a href="/#tab-playbook" class="nav-link">Learn</a>
-                <a href="/?mode=pro" class="nav-link">Pro research</a>
-            </nav>
-        </div>
-        <button type="button" class="theme-toggle-btn" onclick="toggleTheme()" aria-label="Toggle visual theme">🌓 Theme</button>
-    </header>
+<body class="sb-stocks-page" data-directory-view="grid">
+    <header class="sb-site-header">
+    <div class="sb-site-header-inner">
+        <a href="/" class="sb-site-brand" aria-label="Stockerboard home">
+            <img src="/assets/logo.svg" width="34" height="34" alt="">
+            <span>STOCKERBOARD</span>
+        </a>
+        <nav class="sb-site-nav" aria-label="Main navigation">
+            <a href="/" data-nav-section="home">Home</a>
+            <a href="/stocks/" data-nav-section="stocks" aria-current="page">Stocks</a>
+            <a href="/learn/" data-nav-section="learn">Learn</a>
+            <a href="/?mode=pro" data-nav-section="pro">Pro research</a>
+        </nav>
+        <button type="button" class="sb-site-theme" data-site-theme aria-label="Switch to dark theme">
+            <span data-site-theme-icon aria-hidden="true">◐</span><span data-site-theme-text>Theme</span>
+        </button>
+    </div>
+</header>
+
 
     <main class="container">
         <!-- Breadcrumb Navigation -->
@@ -467,326 +473,339 @@
         </nav>
 
         <section class="hero-section">
-            <h1>Explore Indian stocks</h1>
-            <p class="dir-intro">Find a company across our 2,535-stock universe. Open its research view, or explore the featured company pages below.</p>
-            <p class="dir-context">Universe snapshot: 2026-10-19 · Pro screens a selected set of stocks separately.</p>
+            <div><span class="directory-eyebrow">Company directory</span><h1>Explore Indian companies.</h1>
+            <p class="dir-intro">A clearer view of 2,535 listed companies. Find a business, compare its latest close, and open the details that matter.</p></div>
+            <div class="directory-snapshot"><span>Market snapshot</span><strong>2026-10-19</strong><span>End-of-day prices · Not live</span></div>
         </section>
 
-        <!-- Search Filter -->
-        <div class="search-box-wrap">
-            <span class="search-icon" aria-hidden="true">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="11" cy="11" r="8"></circle>
-                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                </svg>
-            </span>
-            <input type="search" id="dirSearchInput" class="search-input" placeholder="Search all 2,535 companies by name or symbol" aria-label="Search all companies" autocomplete="off">
+        <section class="directory-controls" aria-label="Find and filter companies">
+            <div class="directory-filters">
+                <label class="directory-field" for="dirSearchInput">Company or symbol
+                    <span class="search-box-wrap"><span class="search-icon" aria-hidden="true"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 5 5"></path></svg></span>
+                    <input type="search" id="dirSearchInput" class="search-input" placeholder="Search name or symbol, e.g. Infosys" aria-label="Search all companies" autocomplete="off"></span>
+                </label>
+                <label class="directory-field" for="dirSector">Sector<select id="dirSector" class="directory-select"><option value="">All sectors</option></select></label>
+                <label class="directory-field" for="dirSort">Sort by<select id="dirSort" class="directory-select"><option value="name">Company A–Z</option><option value="price-desc">Price: high to low</option><option value="price-asc">Price: low to high</option></select></label>
+            </div>
+            <div class="directory-controls-bottom">
+                <div class="directory-scope" role="group" aria-label="Company collection">
+                    <button type="button" data-directory-scope="all" aria-pressed="true">All companies <span>2,535</span></button>
+                    <button type="button" data-directory-scope="featured" aria-pressed="false">Featured <span>20</span></button>
+                </div>
+                <button type="button" class="directory-clear" id="dirClearFilters" hidden>Clear filters</button>
+            </div>
+        </section>
+        <div class="directory-results-bar">
+            <p id="dirResultsStatus" class="directory-results-status" role="status" aria-live="polite">Loading company directory…</p>
+            <div class="directory-view" role="group" aria-label="Directory layout">
+                <button type="button" data-directory-view-button="grid" aria-pressed="true">▦ Grid</button>
+                <button type="button" data-directory-view-button="compact" aria-pressed="false">☰ Compact</button>
+            </div>
         </div>
-        <a class="dir-jump" href="#browseSection">Browse all companies ↓</a>
 
         <section id="featuredSection" class="dir-section" aria-labelledby="featuredHeading">
             <div class="dir-header-row"><h2 id="featuredHeading">Featured company pages</h2><span class="dir-count-badge">20 companies</span></div>
             <p class="dir-section-note">In-depth pages with share price, reported financials, and source context.</p>
             <div id="dirList" class="dir-list">
             <a href="/stocks/asian-paints/" class="dir-card" data-symbol="ASIANPAINT">
-                <div class="dir-info">
-                    <div class="dir-name-row">
-                        <span class="dir-name">Asian Paints Limited</span>
+                <div class="dir-company-top">
+                    <span class="dir-company-logo" data-symbol="ASIANPAINT" aria-hidden="true">AS</span>
+                    <div class="dir-info"><div class="dir-name-row">
+                        <span class="dir-name" title="Asian Paints Limited">Asian Paints Limited</span>
                         <span class="dir-symbol">ASIANPAINT</span>
-                    </div>
-                    <div class="dir-sector">Sector unavailable</div>
+                    </div></div>
                 </div>
-                <div class="dir-metrics">
-                    <div class="dir-price">₹2,330.70</div>
-                    <div class="dir-mcap">Market Cap ₹224,366 Cr</div>
-                    <div class="dir-route-note">Price 2026-10-19</div>
+                <div class="dir-sector">Sector unavailable</div>
+                <div class="dir-metrics"><span class="dir-price-label">Last close</span>
+                    <span class="dir-price">₹2,330.70</span>
+                    <span class="dir-route-note">2026-10-19</span>
                 </div>
-                <div class="dir-arrow" aria-hidden="true">→</div>
+                <div class="dir-card-footer"><span>Company details</span><span class="dir-arrow" aria-hidden="true">↗</span></div>
             </a>
             <a href="/stocks/bajaj-finance/" class="dir-card" data-symbol="BAJFINANCE">
-                <div class="dir-info">
-                    <div class="dir-name-row">
-                        <span class="dir-name">Bajaj Finance Limited</span>
+                <div class="dir-company-top">
+                    <span class="dir-company-logo" data-symbol="BAJFINANCE" aria-hidden="true">BA</span>
+                    <div class="dir-info"><div class="dir-name-row">
+                        <span class="dir-name" title="Bajaj Finance Limited">Bajaj Finance Limited</span>
                         <span class="dir-symbol">BAJFINANCE</span>
-                    </div>
-                    <div class="dir-sector">Financial Services</div>
+                    </div></div>
                 </div>
-                <div class="dir-metrics">
-                    <div class="dir-price">₹957.35</div>
-                    <div class="dir-mcap">Market Cap ₹597,692 Cr</div>
-                    <div class="dir-route-note">Price 2026-10-19</div>
+                <div class="dir-sector">Financial Services</div>
+                <div class="dir-metrics"><span class="dir-price-label">Last close</span>
+                    <span class="dir-price">₹957.35</span>
+                    <span class="dir-route-note">2026-10-19</span>
                 </div>
-                <div class="dir-arrow" aria-hidden="true">→</div>
+                <div class="dir-card-footer"><span>Company details</span><span class="dir-arrow" aria-hidden="true">↗</span></div>
             </a>
             <a href="/stocks/bharti-airtel/" class="dir-card" data-symbol="BHARTIARTL">
-                <div class="dir-info">
-                    <div class="dir-name-row">
-                        <span class="dir-name">Bharti Airtel Limited</span>
+                <div class="dir-company-top">
+                    <span class="dir-company-logo" data-symbol="BHARTIARTL" aria-hidden="true">BH</span>
+                    <div class="dir-info"><div class="dir-name-row">
+                        <span class="dir-name" title="Bharti Airtel Limited">Bharti Airtel Limited</span>
                         <span class="dir-symbol">BHARTIARTL</span>
-                    </div>
-                    <div class="dir-sector">Sector unavailable</div>
+                    </div></div>
                 </div>
-                <div class="dir-metrics">
-                    <div class="dir-price">₹1,875.20</div>
-                    <div class="dir-mcap">Market Cap ₹1,099,898 Cr</div>
-                    <div class="dir-route-note">Price 2026-10-19</div>
+                <div class="dir-sector">Sector unavailable</div>
+                <div class="dir-metrics"><span class="dir-price-label">Last close</span>
+                    <span class="dir-price">₹1,875.20</span>
+                    <span class="dir-route-note">2026-10-19</span>
                 </div>
-                <div class="dir-arrow" aria-hidden="true">→</div>
+                <div class="dir-card-footer"><span>Company details</span><span class="dir-arrow" aria-hidden="true">↗</span></div>
             </a>
             <a href="/stocks/eternal/" class="dir-card" data-symbol="ETERNAL">
-                <div class="dir-info">
-                    <div class="dir-name-row">
-                        <span class="dir-name">Eternal Limited (formerly Zomato)</span>
+                <div class="dir-company-top">
+                    <span class="dir-company-logo" data-symbol="ETERNAL" aria-hidden="true">ET</span>
+                    <div class="dir-info"><div class="dir-name-row">
+                        <span class="dir-name" title="Eternal Limited (formerly Zomato)">Eternal Limited (formerly Zomato)</span>
                         <span class="dir-symbol">ETERNAL</span>
-                    </div>
-                    <div class="dir-sector">Sector unavailable</div>
+                    </div></div>
                 </div>
-                <div class="dir-metrics">
-                    <div class="dir-price">₹320.20</div>
-                    <div class="dir-mcap">Market Cap ₹312,141 Cr</div>
-                    <div class="dir-route-note">Price 2026-10-19</div>
+                <div class="dir-sector">Sector unavailable</div>
+                <div class="dir-metrics"><span class="dir-price-label">Last close</span>
+                    <span class="dir-price">₹320.20</span>
+                    <span class="dir-route-note">2026-10-19</span>
                 </div>
-                <div class="dir-arrow" aria-hidden="true">→</div>
+                <div class="dir-card-footer"><span>Company details</span><span class="dir-arrow" aria-hidden="true">↗</span></div>
             </a>
             <a href="/stocks/hdfc-bank/" class="dir-card" data-symbol="HDFCBANK">
-                <div class="dir-info">
-                    <div class="dir-name-row">
-                        <span class="dir-name">HDFC Bank Limited</span>
+                <div class="dir-company-top">
+                    <span class="dir-company-logo" data-symbol="HDFCBANK" aria-hidden="true">HD</span>
+                    <div class="dir-info"><div class="dir-name-row">
+                        <span class="dir-name" title="HDFC Bank Limited">HDFC Bank Limited</span>
                         <span class="dir-symbol">HDFCBANK</span>
-                    </div>
-                    <div class="dir-sector">Financial Services</div>
+                    </div></div>
                 </div>
-                <div class="dir-metrics">
-                    <div class="dir-price">₹712.00</div>
-                    <div class="dir-mcap">Market Cap ₹1,089,222 Cr</div>
-                    <div class="dir-route-note">Price 2026-10-19</div>
+                <div class="dir-sector">Financial Services</div>
+                <div class="dir-metrics"><span class="dir-price-label">Last close</span>
+                    <span class="dir-price">₹712.00</span>
+                    <span class="dir-route-note">2026-10-19</span>
                 </div>
-                <div class="dir-arrow" aria-hidden="true">→</div>
+                <div class="dir-card-footer"><span>Company details</span><span class="dir-arrow" aria-hidden="true">↗</span></div>
             </a>
             <a href="/stocks/hdfc-life/" class="dir-card" data-symbol="HDFCLIFE">
-                <div class="dir-info">
-                    <div class="dir-name-row">
-                        <span class="dir-name">HDFC Life Insurance Company Limited</span>
+                <div class="dir-company-top">
+                    <span class="dir-company-logo" data-symbol="HDFCLIFE" aria-hidden="true">HD</span>
+                    <div class="dir-info"><div class="dir-name-row">
+                        <span class="dir-name" title="HDFC Life Insurance Company Limited">HDFC Life Insurance Company Limited</span>
                         <span class="dir-symbol">HDFCLIFE</span>
-                    </div>
-                    <div class="dir-sector">Financial Services</div>
+                    </div></div>
                 </div>
-                <div class="dir-metrics">
-                    <div class="dir-price">₹545.50</div>
-                    <div class="dir-mcap">Market Cap ₹120,122 Cr</div>
-                    <div class="dir-route-note">Price 2026-10-19</div>
+                <div class="dir-sector">Financial Services</div>
+                <div class="dir-metrics"><span class="dir-price-label">Last close</span>
+                    <span class="dir-price">₹545.50</span>
+                    <span class="dir-route-note">2026-10-19</span>
                 </div>
-                <div class="dir-arrow" aria-hidden="true">→</div>
+                <div class="dir-card-footer"><span>Company details</span><span class="dir-arrow" aria-hidden="true">↗</span></div>
             </a>
             <a href="/stocks/hindustan-unilever/" class="dir-card" data-symbol="HINDUNILVR">
-                <div class="dir-info">
-                    <div class="dir-name-row">
-                        <span class="dir-name">Hindustan Unilever Limited</span>
+                <div class="dir-company-top">
+                    <span class="dir-company-logo" data-symbol="HINDUNILVR" aria-hidden="true">HI</span>
+                    <div class="dir-info"><div class="dir-name-row">
+                        <span class="dir-name" title="Hindustan Unilever Limited">Hindustan Unilever Limited</span>
                         <span class="dir-symbol">HINDUNILVR</span>
-                    </div>
-                    <div class="dir-sector">Fast Moving Consumer Goods</div>
+                    </div></div>
                 </div>
-                <div class="dir-metrics">
-                    <div class="dir-price">₹1,853.20</div>
-                    <div class="dir-mcap">Market Cap ₹436,249 Cr</div>
-                    <div class="dir-route-note">Price 2026-10-19</div>
+                <div class="dir-sector">Fast Moving Consumer Goods</div>
+                <div class="dir-metrics"><span class="dir-price-label">Last close</span>
+                    <span class="dir-price">₹1,853.20</span>
+                    <span class="dir-route-note">2026-10-19</span>
                 </div>
-                <div class="dir-arrow" aria-hidden="true">→</div>
+                <div class="dir-card-footer"><span>Company details</span><span class="dir-arrow" aria-hidden="true">↗</span></div>
             </a>
             <a href="/stocks/icici-bank/" class="dir-card" data-symbol="ICICIBANK">
-                <div class="dir-info">
-                    <div class="dir-name-row">
-                        <span class="dir-name">ICICI Bank Limited</span>
+                <div class="dir-company-top">
+                    <span class="dir-company-logo" data-symbol="ICICIBANK" aria-hidden="true">IC</span>
+                    <div class="dir-info"><div class="dir-name-row">
+                        <span class="dir-name" title="ICICI Bank Limited">ICICI Bank Limited</span>
                         <span class="dir-symbol">ICICIBANK</span>
-                    </div>
-                    <div class="dir-sector">Financial Services</div>
+                    </div></div>
                 </div>
-                <div class="dir-metrics">
-                    <div class="dir-price">₹1,381.00</div>
-                    <div class="dir-mcap">Market Cap ₹972,010 Cr</div>
-                    <div class="dir-route-note">Price 2026-10-19</div>
+                <div class="dir-sector">Financial Services</div>
+                <div class="dir-metrics"><span class="dir-price-label">Last close</span>
+                    <span class="dir-price">₹1,381.00</span>
+                    <span class="dir-route-note">2026-10-19</span>
                 </div>
-                <div class="dir-arrow" aria-hidden="true">→</div>
+                <div class="dir-card-footer"><span>Company details</span><span class="dir-arrow" aria-hidden="true">↗</span></div>
             </a>
             <a href="/stocks/itc/" class="dir-card" data-symbol="ITC">
-                <div class="dir-info">
-                    <div class="dir-name-row">
-                        <span class="dir-name">ITC Limited</span>
+                <div class="dir-company-top">
+                    <span class="dir-company-logo" data-symbol="ITC" aria-hidden="true">IT</span>
+                    <div class="dir-info"><div class="dir-name-row">
+                        <span class="dir-name" title="ITC Limited">ITC Limited</span>
                         <span class="dir-symbol">ITC</span>
-                    </div>
-                    <div class="dir-sector">Fast Moving Consumer Goods</div>
+                    </div></div>
                 </div>
-                <div class="dir-metrics">
-                    <div class="dir-price">₹260.80</div>
-                    <div class="dir-mcap">Market Cap ₹333,284 Cr</div>
-                    <div class="dir-route-note">Price 2026-10-19</div>
+                <div class="dir-sector">Fast Moving Consumer Goods</div>
+                <div class="dir-metrics"><span class="dir-price-label">Last close</span>
+                    <span class="dir-price">₹260.80</span>
+                    <span class="dir-route-note">2026-10-19</span>
                 </div>
-                <div class="dir-arrow" aria-hidden="true">→</div>
+                <div class="dir-card-footer"><span>Company details</span><span class="dir-arrow" aria-hidden="true">↗</span></div>
             </a>
             <a href="/stocks/infosys/" class="dir-card" data-symbol="INFY">
-                <div class="dir-info">
-                    <div class="dir-name-row">
-                        <span class="dir-name">Infosys Limited</span>
+                <div class="dir-company-top">
+                    <span class="dir-company-logo" data-symbol="INFY" aria-hidden="true">IN</span>
+                    <div class="dir-info"><div class="dir-name-row">
+                        <span class="dir-name" title="Infosys Limited">Infosys Limited</span>
                         <span class="dir-symbol">INFY</span>
-                    </div>
-                    <div class="dir-sector">Information Technology</div>
+                    </div></div>
                 </div>
-                <div class="dir-metrics">
-                    <div class="dir-price">₹1,130.70</div>
-                    <div class="dir-mcap">Market Cap ₹415,220 Cr</div>
-                    <div class="dir-route-note">Price 2026-10-19</div>
+                <div class="dir-sector">Information Technology</div>
+                <div class="dir-metrics"><span class="dir-price-label">Last close</span>
+                    <span class="dir-price">₹1,130.70</span>
+                    <span class="dir-route-note">2026-10-19</span>
                 </div>
-                <div class="dir-arrow" aria-hidden="true">→</div>
+                <div class="dir-card-footer"><span>Company details</span><span class="dir-arrow" aria-hidden="true">↗</span></div>
             </a>
             <a href="/stocks/larsen-toubro/" class="dir-card" data-symbol="LT">
-                <div class="dir-info">
-                    <div class="dir-name-row">
-                        <span class="dir-name">Larsen &amp; Toubro Limited</span>
+                <div class="dir-company-top">
+                    <span class="dir-company-logo" data-symbol="LT" aria-hidden="true">LA</span>
+                    <div class="dir-info"><div class="dir-name-row">
+                        <span class="dir-name" title="Larsen &amp; Toubro Limited">Larsen &amp; Toubro Limited</span>
                         <span class="dir-symbol">LT</span>
-                    </div>
-                    <div class="dir-sector">Sector unavailable</div>
+                    </div></div>
                 </div>
-                <div class="dir-metrics">
-                    <div class="dir-price">₹3,661.90</div>
-                    <div class="dir-mcap">Market Cap ₹509,474 Cr</div>
-                    <div class="dir-route-note">Price 2026-10-19</div>
+                <div class="dir-sector">Sector unavailable</div>
+                <div class="dir-metrics"><span class="dir-price-label">Last close</span>
+                    <span class="dir-price">₹3,661.90</span>
+                    <span class="dir-route-note">2026-10-19</span>
                 </div>
-                <div class="dir-arrow" aria-hidden="true">→</div>
+                <div class="dir-card-footer"><span>Company details</span><span class="dir-arrow" aria-hidden="true">↗</span></div>
             </a>
             <a href="/stocks/mahindra-mahindra/" class="dir-card" data-symbol="M&amp;M">
-                <div class="dir-info">
-                    <div class="dir-name-row">
-                        <span class="dir-name">Mahindra &amp; Mahindra Limited</span>
+                <div class="dir-company-top">
+                    <span class="dir-company-logo" data-symbol="M&amp;M" aria-hidden="true">MA</span>
+                    <div class="dir-info"><div class="dir-name-row">
+                        <span class="dir-name" title="Mahindra &amp; Mahindra Limited">Mahindra &amp; Mahindra Limited</span>
                         <span class="dir-symbol">M&amp;M</span>
-                    </div>
-                    <div class="dir-sector">Automobile and Auto Components</div>
+                    </div></div>
                 </div>
-                <div class="dir-metrics">
-                    <div class="dir-price">₹2,907.00</div>
-                    <div class="dir-mcap">Market Cap ₹347,716 Cr</div>
-                    <div class="dir-route-note">Price 2026-10-19</div>
+                <div class="dir-sector">Automobile and Auto Components</div>
+                <div class="dir-metrics"><span class="dir-price-label">Last close</span>
+                    <span class="dir-price">₹2,907.00</span>
+                    <span class="dir-route-note">2026-10-19</span>
                 </div>
-                <div class="dir-arrow" aria-hidden="true">→</div>
+                <div class="dir-card-footer"><span>Company details</span><span class="dir-arrow" aria-hidden="true">↗</span></div>
             </a>
             <a href="/stocks/maruti-suzuki/" class="dir-card" data-symbol="MARUTI">
-                <div class="dir-info">
-                    <div class="dir-name-row">
-                        <span class="dir-name">Maruti Suzuki India Limited</span>
+                <div class="dir-company-top">
+                    <span class="dir-company-logo" data-symbol="MARUTI" aria-hidden="true">MA</span>
+                    <div class="dir-info"><div class="dir-name-row">
+                        <span class="dir-name" title="Maruti Suzuki India Limited">Maruti Suzuki India Limited</span>
                         <span class="dir-symbol">MARUTI</span>
-                    </div>
-                    <div class="dir-sector">Automobile and Auto Components</div>
+                    </div></div>
                 </div>
-                <div class="dir-metrics">
-                    <div class="dir-price">₹11,475.00</div>
-                    <div class="dir-mcap">Market Cap ₹359,048 Cr</div>
-                    <div class="dir-route-note">Price 2026-10-19</div>
+                <div class="dir-sector">Automobile and Auto Components</div>
+                <div class="dir-metrics"><span class="dir-price-label">Last close</span>
+                    <span class="dir-price">₹11,475.00</span>
+                    <span class="dir-route-note">2026-10-19</span>
                 </div>
-                <div class="dir-arrow" aria-hidden="true">→</div>
+                <div class="dir-card-footer"><span>Company details</span><span class="dir-arrow" aria-hidden="true">↗</span></div>
             </a>
             <a href="/stocks/ntpc/" class="dir-card" data-symbol="NTPC">
-                <div class="dir-info">
-                    <div class="dir-name-row">
-                        <span class="dir-name">NTPC Limited</span>
+                <div class="dir-company-top">
+                    <span class="dir-company-logo" data-symbol="NTPC" aria-hidden="true">NT</span>
+                    <div class="dir-info"><div class="dir-name-row">
+                        <span class="dir-name" title="NTPC Limited">NTPC Limited</span>
                         <span class="dir-symbol">NTPC</span>
-                    </div>
-                    <div class="dir-sector">Sector unavailable</div>
+                    </div></div>
                 </div>
-                <div class="dir-metrics">
-                    <div class="dir-price">₹309.00</div>
-                    <div class="dir-mcap">Market Cap ₹302,536 Cr</div>
-                    <div class="dir-route-note">Price 2026-10-19</div>
+                <div class="dir-sector">Sector unavailable</div>
+                <div class="dir-metrics"><span class="dir-price-label">Last close</span>
+                    <span class="dir-price">₹309.00</span>
+                    <span class="dir-route-note">2026-10-19</span>
                 </div>
-                <div class="dir-arrow" aria-hidden="true">→</div>
+                <div class="dir-card-footer"><span>Company details</span><span class="dir-arrow" aria-hidden="true">↗</span></div>
             </a>
             <a href="/stocks/power-grid/" class="dir-card" data-symbol="POWERGRID">
-                <div class="dir-info">
-                    <div class="dir-name-row">
-                        <span class="dir-name">Power Grid Corporation of India Limited</span>
+                <div class="dir-company-top">
+                    <span class="dir-company-logo" data-symbol="POWERGRID" aria-hidden="true">PO</span>
+                    <div class="dir-info"><div class="dir-name-row">
+                        <span class="dir-name" title="Power Grid Corporation of India Limited">Power Grid Corporation of India Limited</span>
                         <span class="dir-symbol">POWERGRID</span>
-                    </div>
-                    <div class="dir-sector">Sector unavailable</div>
+                    </div></div>
                 </div>
-                <div class="dir-metrics">
-                    <div class="dir-price">₹250.35</div>
-                    <div class="dir-mcap">Market Cap ₹231,725 Cr</div>
-                    <div class="dir-route-note">Price 2026-10-19</div>
+                <div class="dir-sector">Sector unavailable</div>
+                <div class="dir-metrics"><span class="dir-price-label">Last close</span>
+                    <span class="dir-price">₹250.35</span>
+                    <span class="dir-route-note">2026-10-19</span>
                 </div>
-                <div class="dir-arrow" aria-hidden="true">→</div>
+                <div class="dir-card-footer"><span>Company details</span><span class="dir-arrow" aria-hidden="true">↗</span></div>
             </a>
             <a href="/stocks/reliance/" class="dir-card" data-symbol="RELIANCE">
-                <div class="dir-info">
-                    <div class="dir-name-row">
-                        <span class="dir-name">Reliance Industries Limited</span>
+                <div class="dir-company-top">
+                    <span class="dir-company-logo" data-symbol="RELIANCE" aria-hidden="true">RE</span>
+                    <div class="dir-info"><div class="dir-name-row">
+                        <span class="dir-name" title="Reliance Industries Limited">Reliance Industries Limited</span>
                         <span class="dir-symbol">RELIANCE</span>
-                    </div>
-                    <div class="dir-sector">Oil Gas &amp; Consumable Fuels</div>
+                    </div></div>
                 </div>
-                <div class="dir-metrics">
-                    <div class="dir-price">₹1,202.00</div>
-                    <div class="dir-mcap">Market Cap ₹1,583,713 Cr</div>
-                    <div class="dir-route-note">Price 2026-10-19</div>
+                <div class="dir-sector">Oil Gas &amp; Consumable Fuels</div>
+                <div class="dir-metrics"><span class="dir-price-label">Last close</span>
+                    <span class="dir-price">₹1,202.00</span>
+                    <span class="dir-route-note">2026-10-19</span>
                 </div>
-                <div class="dir-arrow" aria-hidden="true">→</div>
+                <div class="dir-card-footer"><span>Company details</span><span class="dir-arrow" aria-hidden="true">↗</span></div>
             </a>
             <a href="/stocks/state-bank-of-india/" class="dir-card" data-symbol="SBIN">
-                <div class="dir-info">
-                    <div class="dir-name-row">
-                        <span class="dir-name">State Bank of India</span>
+                <div class="dir-company-top">
+                    <span class="dir-company-logo" data-symbol="SBIN" aria-hidden="true">ST</span>
+                    <div class="dir-info"><div class="dir-name-row">
+                        <span class="dir-name" title="State Bank of India">State Bank of India</span>
                         <span class="dir-symbol">SBIN</span>
-                    </div>
-                    <div class="dir-sector">Financial Services</div>
+                    </div></div>
                 </div>
-                <div class="dir-metrics">
-                    <div class="dir-price">₹973.70</div>
-                    <div class="dir-mcap">Market Cap ₹885,309 Cr</div>
-                    <div class="dir-route-note">Price 2026-10-19</div>
+                <div class="dir-sector">Financial Services</div>
+                <div class="dir-metrics"><span class="dir-price-label">Last close</span>
+                    <span class="dir-price">₹973.70</span>
+                    <span class="dir-route-note">2026-10-19</span>
                 </div>
-                <div class="dir-arrow" aria-hidden="true">→</div>
+                <div class="dir-card-footer"><span>Company details</span><span class="dir-arrow" aria-hidden="true">↗</span></div>
             </a>
             <a href="/stocks/sun-pharma/" class="dir-card" data-symbol="SUNPHARMA">
-                <div class="dir-info">
-                    <div class="dir-name-row">
-                        <span class="dir-name">Sun Pharmaceutical Industries Limited</span>
+                <div class="dir-company-top">
+                    <span class="dir-company-logo" data-symbol="SUNPHARMA" aria-hidden="true">SU</span>
+                    <div class="dir-info"><div class="dir-name-row">
+                        <span class="dir-name" title="Sun Pharmaceutical Industries Limited">Sun Pharmaceutical Industries Limited</span>
                         <span class="dir-symbol">SUNPHARMA</span>
-                    </div>
-                    <div class="dir-sector">Healthcare</div>
+                    </div></div>
                 </div>
-                <div class="dir-metrics">
-                    <div class="dir-price">₹1,743.00</div>
-                    <div class="dir-mcap">Market Cap ₹422,283 Cr</div>
-                    <div class="dir-route-note">Price 2026-10-19</div>
+                <div class="dir-sector">Healthcare</div>
+                <div class="dir-metrics"><span class="dir-price-label">Last close</span>
+                    <span class="dir-price">₹1,743.00</span>
+                    <span class="dir-route-note">2026-10-19</span>
                 </div>
-                <div class="dir-arrow" aria-hidden="true">→</div>
+                <div class="dir-card-footer"><span>Company details</span><span class="dir-arrow" aria-hidden="true">↗</span></div>
             </a>
             <a href="/stocks/tcs/" class="dir-card" data-symbol="TCS">
-                <div class="dir-info">
-                    <div class="dir-name-row">
-                        <span class="dir-name">Tata Consultancy Services Limited</span>
+                <div class="dir-company-top">
+                    <span class="dir-company-logo" data-symbol="TCS" aria-hidden="true">TA</span>
+                    <div class="dir-info"><div class="dir-name-row">
+                        <span class="dir-name" title="Tata Consultancy Services Limited">Tata Consultancy Services Limited</span>
                         <span class="dir-symbol">TCS</span>
-                    </div>
-                    <div class="dir-sector">Information Technology</div>
+                    </div></div>
                 </div>
-                <div class="dir-metrics">
-                    <div class="dir-price">₹2,460.90</div>
-                    <div class="dir-mcap">Market Cap ₹780,060 Cr</div>
-                    <div class="dir-route-note">Price 2026-10-19</div>
+                <div class="dir-sector">Information Technology</div>
+                <div class="dir-metrics"><span class="dir-price-label">Last close</span>
+                    <span class="dir-price">₹2,460.90</span>
+                    <span class="dir-route-note">2026-10-19</span>
                 </div>
-                <div class="dir-arrow" aria-hidden="true">→</div>
+                <div class="dir-card-footer"><span>Company details</span><span class="dir-arrow" aria-hidden="true">↗</span></div>
             </a>
             <a href="/stocks/tata-steel/" class="dir-card" data-symbol="TATASTEEL">
-                <div class="dir-info">
-                    <div class="dir-name-row">
-                        <span class="dir-name">Tata Steel Limited</span>
+                <div class="dir-company-top">
+                    <span class="dir-company-logo" data-symbol="TATASTEEL" aria-hidden="true">TA</span>
+                    <div class="dir-info"><div class="dir-name-row">
+                        <span class="dir-name" title="Tata Steel Limited">Tata Steel Limited</span>
                         <span class="dir-symbol">TATASTEEL</span>
-                    </div>
-                    <div class="dir-sector">Metals &amp; Mining</div>
+                    </div></div>
                 </div>
-                <div class="dir-metrics">
-                    <div class="dir-price">₹174.04</div>
-                    <div class="dir-mcap">Market Cap ₹216,964 Cr</div>
-                    <div class="dir-route-note">Price 2026-10-19</div>
+                <div class="dir-sector">Metals &amp; Mining</div>
+                <div class="dir-metrics"><span class="dir-price-label">Last close</span>
+                    <span class="dir-price">₹174.04</span>
+                    <span class="dir-route-note">2026-10-19</span>
                 </div>
-                <div class="dir-arrow" aria-hidden="true">→</div>
+                <div class="dir-card-footer"><span>Company details</span><span class="dir-arrow" aria-hidden="true">↗</span></div>
             </a>
             </div>
         </section>
@@ -794,14 +813,14 @@
         <section id="browseSection" class="dir-section" aria-labelledby="browseHeading">
             <div class="dir-header-row"><h2 id="browseHeading">All companies</h2><span id="dirCountBadge" class="dir-count-badge">Loading…</span></div>
             <p id="browseNote" class="dir-section-note">Browse the rest of the universe. Featured companies appear above.</p>
-            <div id="browseList" class="dir-list" aria-live="polite"></div>
+            <div id="browseList" class="dir-list"></div>
             <button id="dirLoadMore" class="dir-load-more" type="button" hidden>Show more companies</button>
         </section>
 
         <!-- Empty State -->
-        <div id="dirEmptyState" class="dir-empty" style="display: none;">
+        <div id="dirEmptyState" class="dir-empty" hidden>
             <h3>No companies found</h3>
-            <p>Try another company name or symbol.</p>
+            <p>Try another company name, sector, or symbol.</p><button id="dirEmptyClear" type="button" class="directory-clear">Clear all filters</button>
         </div>
     </main>
 
@@ -1089,122 +1108,8 @@
 </style>
 
 
-    <script>
-        function toggleTheme() {
-            const html = document.documentElement;
-            const current = html.getAttribute('data-theme') || 'dark';
-            const next = current === 'dark' ? 'light' : 'dark';
-            html.setAttribute('data-theme', next);
-            try {
-                localStorage.setItem('stockerboard_theme', next);
-            } catch(e) {}
-        }
-
-        const featuredRoutes = {"ASIANPAINT": {"aliases": ["asianpaints"], "name": "Asian Paints Limited", "price": 2330.7, "price_as_of": "2026-10-19", "sector": "Sector unavailable", "slug": "asian-paints"}, "BAJFINANCE": {"aliases": ["bajajfinance"], "name": "Bajaj Finance Limited", "price": 957.35, "price_as_of": "2026-10-19", "sector": "Financial Services", "slug": "bajaj-finance"}, "BHARTIARTL": {"aliases": ["airtel"], "name": "Bharti Airtel Limited", "price": 1875.2, "price_as_of": "2026-10-19", "sector": "Sector unavailable", "slug": "bharti-airtel"}, "ETERNAL": {"aliases": ["zomato"], "name": "Eternal Limited (formerly Zomato)", "price": 320.2, "price_as_of": "2026-10-19", "sector": "Sector unavailable", "slug": "eternal"}, "HDFCBANK": {"aliases": ["hdfcbank", "hdfc"], "name": "HDFC Bank Limited", "price": 712.0, "price_as_of": "2026-10-19", "sector": "Financial Services", "slug": "hdfc-bank"}, "HDFCLIFE": {"aliases": ["hdfclife"], "name": "HDFC Life Insurance Company Limited", "price": 545.5, "price_as_of": "2026-10-19", "sector": "Financial Services", "slug": "hdfc-life"}, "HINDUNILVR": {"aliases": ["hul"], "name": "Hindustan Unilever Limited", "price": 1853.2, "price_as_of": "2026-10-19", "sector": "Fast Moving Consumer Goods", "slug": "hindustan-unilever"}, "ICICIBANK": {"aliases": ["icicibank", "icici"], "name": "ICICI Bank Limited", "price": 1381.0, "price_as_of": "2026-10-19", "sector": "Financial Services", "slug": "icici-bank"}, "INFY": {"aliases": ["infy"], "name": "Infosys Limited", "price": 1130.7, "price_as_of": "2026-10-19", "sector": "Information Technology", "slug": "infosys"}, "ITC": {"aliases": [], "name": "ITC Limited", "price": 260.8, "price_as_of": "2026-10-19", "sector": "Fast Moving Consumer Goods", "slug": "itc"}, "LT": {"aliases": ["lt", "l-and-t"], "name": "Larsen & Toubro Limited", "price": 3661.9, "price_as_of": "2026-10-19", "sector": "Sector unavailable", "slug": "larsen-toubro"}, "M&M": {"aliases": ["mm", "m-and-m"], "name": "Mahindra & Mahindra Limited", "price": 2907.0, "price_as_of": "2026-10-19", "sector": "Automobile and Auto Components", "slug": "mahindra-mahindra"}, "MARUTI": {"aliases": ["maruti"], "name": "Maruti Suzuki India Limited", "price": 11475.0, "price_as_of": "2026-10-19", "sector": "Automobile and Auto Components", "slug": "maruti-suzuki"}, "NTPC": {"aliases": [], "name": "NTPC Limited", "price": 309.0, "price_as_of": "2026-10-19", "sector": "Sector unavailable", "slug": "ntpc"}, "POWERGRID": {"aliases": ["powergrid"], "name": "Power Grid Corporation of India Limited", "price": 250.35, "price_as_of": "2026-10-19", "sector": "Sector unavailable", "slug": "power-grid"}, "RELIANCE": {"aliases": ["ril"], "name": "Reliance Industries Limited", "price": 1202.0, "price_as_of": "2026-10-19", "sector": "Oil Gas & Consumable Fuels", "slug": "reliance"}, "SBIN": {"aliases": ["sbin", "sbi"], "name": "State Bank of India", "price": 973.7, "price_as_of": "2026-10-19", "sector": "Financial Services", "slug": "state-bank-of-india"}, "SUNPHARMA": {"aliases": ["sunpharma"], "name": "Sun Pharmaceutical Industries Limited", "price": 1743.0, "price_as_of": "2026-10-19", "sector": "Healthcare", "slug": "sun-pharma"}, "TATASTEEL": {"aliases": ["tatasteel"], "name": "Tata Steel Limited", "price": 174.04, "price_as_of": "2026-10-19", "sector": "Metals & Mining", "slug": "tata-steel"}, "TCS": {"aliases": ["tata-consultancy-services"], "name": "Tata Consultancy Services Limited", "price": 2460.9, "price_as_of": "2026-10-19", "sector": "Information Technology", "slug": "tcs"}};
-        const searchInput = document.getElementById('dirSearchInput');
-        const browseList = document.getElementById('browseList');
-        const browseNote = document.getElementById('browseNote');
-        const countBadge = document.getElementById('dirCountBadge');
-        const loadMore = document.getElementById('dirLoadMore');
-        const emptyState = document.getElementById('dirEmptyState');
-        let universe = [];
-        let visibleRows = [];
-        let displayed = 0;
-        const pageSize = 40;
-        const normalize = value => String(value || '').toLocaleLowerCase('en-IN').replace(/[^a-z0-9]+/g, ' ').trim();
-
-        function makeCard(row) {
-            const [symbol, name, price, , , sector] = row;
-            const featured = featuredRoutes[symbol];
-            const card = document.createElement('a');
-            card.className = 'dir-card';
-            card.href = featured ? '/stocks/' + encodeURIComponent(featured.slug) + '/' : '/#stock/' + encodeURIComponent(symbol);
-            const info = document.createElement('div');
-            info.className = 'dir-info';
-            const title = document.createElement('div');
-            title.className = 'dir-name-row';
-            const nameEl = document.createElement('span');
-            nameEl.className = 'dir-name';
-            nameEl.textContent = featured?.name || name || symbol;
-            const symbolEl = document.createElement('span');
-            symbolEl.className = 'dir-symbol';
-            symbolEl.textContent = symbol;
-            title.append(nameEl, symbolEl);
-            const sectorEl = document.createElement('div');
-            sectorEl.className = 'dir-sector';
-            sectorEl.textContent = featured?.sector || sector || 'Sector unavailable';
-            info.append(title, sectorEl);
-            const metrics = document.createElement('div');
-            metrics.className = 'dir-metrics';
-            const priceEl = document.createElement('div');
-            priceEl.className = 'dir-price';
-            const shownPrice = price;
-            priceEl.textContent = Number.isFinite(shownPrice) ? '₹' + shownPrice.toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2}) : 'Price unavailable';
-            const routeEl = document.createElement('div');
-            routeEl.className = 'dir-route-note';
-            routeEl.textContent = `Price ${row[6] || '2026-10-19'} · ${featured ? 'Company page' : 'Research view'}`;
-            metrics.append(priceEl, routeEl);
-            const arrow = document.createElement('div');
-            arrow.className = 'dir-arrow';
-            arrow.setAttribute('aria-hidden', 'true');
-            arrow.textContent = '→';
-            card.append(info, metrics, arrow);
-            return card;
-        }
-
-        function appendPage() {
-            const fragment = document.createDocumentFragment();
-            visibleRows.slice(displayed, displayed + pageSize).forEach(row => fragment.append(makeCard(row)));
-            browseList.append(fragment);
-            displayed = Math.min(displayed + pageSize, visibleRows.length);
-            loadMore.hidden = displayed >= visibleRows.length;
-            loadMore.textContent = `Show more companies (${displayed.toLocaleString('en-IN')} of ${visibleRows.length.toLocaleString('en-IN')})`;
-        }
-
-        function filterDirectory() {
-            const q = normalize(searchInput.value);
-            document.getElementById('featuredSection').hidden = Boolean(q);
-            const matches = q ? universe.filter(row => {
-                const featured = featuredRoutes[row[0]];
-                return normalize(row[0]).includes(q) || normalize(row[1]).includes(q) ||
-                    (featured?.aliases || []).some(alias => normalize(alias).includes(q));
-            }) : universe.filter(row => !featuredRoutes[row[0]]);
-            visibleRows = q ? matches.sort((a, b) => {
-                const score = row => normalize(row[0]) === q ? 0 : normalize(row[0]).startsWith(q) ? 1 : normalize(row[1]).startsWith(q) ? 2 : 3;
-                return score(a) - score(b) || String(a[1]).localeCompare(String(b[1]));
-            }) : matches;
-            browseList.replaceChildren();
-            displayed = 0;
-            emptyState.style.display = visibleRows.length ? 'none' : 'block';
-            countBadge.textContent = visibleRows.length.toLocaleString('en-IN') + (visibleRows.length === 1 ? ' company' : ' companies');
-            document.getElementById('browseHeading').textContent = q ? 'Search results' : 'All companies';
-            browseNote.textContent = q ? 'Results across the full canonical universe. Featured stocks open their company page; others open the research view.' : 'Browse the rest of the universe. Featured companies appear above.';
-            appendPage();
-        }
-
-        searchInput.addEventListener('input', filterDirectory);
-        loadMore.addEventListener('click', appendPage);
-        fetch('/stocks/market_universe_index_v1.json', {cache: 'no-cache'}).then(response => {
-            if (!response.ok) throw new Error('Universe unavailable');
-            return response.json();
-        }).then(data => {
-            if (!Array.isArray(data.stocks) || data.stocks.length !== data.count || data.count !== 2535) throw new Error('Universe mismatch');
-            universe = data.stocks;
-            universe.forEach(row => {
-                const card = document.querySelector(`#dirList .dir-card[data-symbol="${CSS.escape(row[0])}"]`);
-                if (!card || !Number.isFinite(row[2])) return;
-                const price = card.querySelector('.dir-price');
-                const date = card.querySelector('.dir-route-note');
-                if (price) price.textContent = '₹' + row[2].toLocaleString('en-IN', {minimumFractionDigits: 2, maximumFractionDigits: 2});
-                if (date) date.textContent = `Price ${row[6] || data.as_of} · Company page`;
-            });
-            filterDirectory();
-        }).catch(() => {
-            countBadge.textContent = 'Browse unavailable';
-            browseNote.textContent = 'The complete company list is temporarily unavailable. Featured company pages remain accessible above.';
-            loadMore.hidden = true;
-        });
-    </script>
+    <script id="directoryConfig" type="application/json">{"featured": {"ASIANPAINT": {"aliases": ["asianpaints"], "name": "Asian Paints Limited", "price": 2330.7, "price_as_of": "2026-10-19", "sector": "Sector unavailable", "slug": "asian-paints"}, "BAJFINANCE": {"aliases": ["bajajfinance"], "name": "Bajaj Finance Limited", "price": 957.35, "price_as_of": "2026-10-19", "sector": "Financial Services", "slug": "bajaj-finance"}, "BHARTIARTL": {"aliases": ["airtel"], "name": "Bharti Airtel Limited", "price": 1875.2, "price_as_of": "2026-10-19", "sector": "Sector unavailable", "slug": "bharti-airtel"}, "ETERNAL": {"aliases": ["zomato"], "name": "Eternal Limited (formerly Zomato)", "price": 320.2, "price_as_of": "2026-10-19", "sector": "Sector unavailable", "slug": "eternal"}, "HDFCBANK": {"aliases": ["hdfcbank", "hdfc"], "name": "HDFC Bank Limited", "price": 712.0, "price_as_of": "2026-10-19", "sector": "Financial Services", "slug": "hdfc-bank"}, "HDFCLIFE": {"aliases": ["hdfclife"], "name": "HDFC Life Insurance Company Limited", "price": 545.5, "price_as_of": "2026-10-19", "sector": "Financial Services", "slug": "hdfc-life"}, "HINDUNILVR": {"aliases": ["hul"], "name": "Hindustan Unilever Limited", "price": 1853.2, "price_as_of": "2026-10-19", "sector": "Fast Moving Consumer Goods", "slug": "hindustan-unilever"}, "ICICIBANK": {"aliases": ["icicibank", "icici"], "name": "ICICI Bank Limited", "price": 1381.0, "price_as_of": "2026-10-19", "sector": "Financial Services", "slug": "icici-bank"}, "INFY": {"aliases": ["infy"], "name": "Infosys Limited", "price": 1130.7, "price_as_of": "2026-10-19", "sector": "Information Technology", "slug": "infosys"}, "ITC": {"aliases": [], "name": "ITC Limited", "price": 260.8, "price_as_of": "2026-10-19", "sector": "Fast Moving Consumer Goods", "slug": "itc"}, "LT": {"aliases": ["lt", "l-and-t"], "name": "Larsen & Toubro Limited", "price": 3661.9, "price_as_of": "2026-10-19", "sector": "Sector unavailable", "slug": "larsen-toubro"}, "M&M": {"aliases": ["mm", "m-and-m"], "name": "Mahindra & Mahindra Limited", "price": 2907.0, "price_as_of": "2026-10-19", "sector": "Automobile and Auto Components", "slug": "mahindra-mahindra"}, "MARUTI": {"aliases": ["maruti"], "name": "Maruti Suzuki India Limited", "price": 11475.0, "price_as_of": "2026-10-19", "sector": "Automobile and Auto Components", "slug": "maruti-suzuki"}, "NTPC": {"aliases": [], "name": "NTPC Limited", "price": 309.0, "price_as_of": "2026-10-19", "sector": "Sector unavailable", "slug": "ntpc"}, "POWERGRID": {"aliases": ["powergrid"], "name": "Power Grid Corporation of India Limited", "price": 250.35, "price_as_of": "2026-10-19", "sector": "Sector unavailable", "slug": "power-grid"}, "RELIANCE": {"aliases": ["ril"], "name": "Reliance Industries Limited", "price": 1202.0, "price_as_of": "2026-10-19", "sector": "Oil Gas & Consumable Fuels", "slug": "reliance"}, "SBIN": {"aliases": ["sbin", "sbi"], "name": "State Bank of India", "price": 973.7, "price_as_of": "2026-10-19", "sector": "Financial Services", "slug": "state-bank-of-india"}, "SUNPHARMA": {"aliases": ["sunpharma"], "name": "Sun Pharmaceutical Industries Limited", "price": 1743.0, "price_as_of": "2026-10-19", "sector": "Healthcare", "slug": "sun-pharma"}, "TATASTEEL": {"aliases": ["tatasteel"], "name": "Tata Steel Limited", "price": 174.04, "price_as_of": "2026-10-19", "sector": "Metals & Mining", "slug": "tata-steel"}, "TCS": {"aliases": ["tata-consultancy-services"], "name": "Tata Consultancy Services Limited", "price": 2460.9, "price_as_of": "2026-10-19", "sector": "Information Technology", "slug": "tcs"}}, "count": 2535, "asOf": "2026-10-19"}</script>
+    <script defer src="/scripts/stocks-directory.js"></script>
 </body>
 </html>
 

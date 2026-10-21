@@ -12,10 +12,16 @@ from __future__ import annotations
 import argparse
 import datetime
 import hashlib
+import html
 import json
 import re
 import sys
 from pathlib import Path
+
+try:
+    from .site_shell import render_header
+except ImportError:
+    from site_shell import render_header
 
 ROOT = Path(__file__).resolve().parents[1]
 STOCKS_DIR = ROOT / "stocks"
@@ -174,6 +180,7 @@ def build_view_model(company_meta: dict, dossier: dict, u_map: dict | None = Non
             "formatted_date": format_date_str(price_as_of)
         },
         "market_range": {
+            "as_of_date": format_date_str(range_row["price_as_of"]),
             "title": "52-Week Price Spectrum" if range_row["coverage"] == "FULL_YEAR" else "Available Price History",
             "low_label": "52W Low" if range_row["coverage"] == "FULL_YEAR" else "Observed Low",
             "high_label": "52W High" if range_row["coverage"] == "FULL_YEAR" else "Observed High",
@@ -229,6 +236,23 @@ def build_view_model(company_meta: dict, dossier: dict, u_map: dict | None = Non
         "meta_description": f"Explore {display_name} share price, market cap, revenue, profit, ROE, P/E, P/B and financial health using Stockerboard exchange-filing-based data.",
         "canonical_url": canonical_url
     }
+    contacts_path = STOCKS_DIR / "company_web_contact_v1.json"
+    contacts = json.loads(contacts_path.read_text(encoding="utf-8")).get("companies", {}) if contacts_path.exists() else {}
+    website = (contacts.get(symbol) or {}).get("website") or {}
+    url = website.get("url", "")
+    vm["company_website_html"] = (
+        '<a href="' + html.escape(url, quote=True) + '" target="_blank" rel="noopener noreferrer" style="color:var(--accent);font-weight:600;">Company website ↗</a>'
+        if url.startswith("https://") else "Company website unavailable in this release."
+    )
+    vm["profile_summary"] = "Business profile pending verification."
+    logo_path = ROOT / "assets/company-logos/manifest.json"
+    logos = json.loads(logo_path.read_text(encoding="utf-8")).get("logos", {}) if logo_path.exists() else {}
+    logo = logos.get(symbol) or {}
+    logo_file = logo.get("file", "")
+    vm["company_logo_html"] = (
+        '<img src="/assets/company-logos/' + html.escape(logo_file, quote=True) + '" alt="" width="48" height="48" style="width:100%;height:100%;object-fit:contain;" onerror="this.replaceWith(document.createTextNode(this.parentElement.dataset.symbol.slice(0,1)))">'
+        if logo_file else html.escape(symbol[:1])
+    )
     financial_groups = ("business", "health", "returns", "valuation")
     available_financials = sum(metric["status"] == "AVAILABLE" for group in financial_groups
                                for metric in vm[group].values())
@@ -344,6 +368,7 @@ def generate_pilot_pages(check_only: bool = False, *, stocks_dir: Path = STOCKS_
             raise ValueError(f"Price range does not match dossier price for {sym}")
         vm = build_view_model(comp, dossier, u_map=u_map, range_row=range_row)
         vm["footer_html"] = footer_str
+        vm["header_html"] = render_header("stocks")
         market_row = market_rows.get(sym)
         if market_row and len(market_row) > 6 and market_row[6] and market_row[6] >= str(vm["price"]["as_of"] or ""):
             vm["price"].update(value=market_row[2], as_of=market_row[6],
@@ -356,7 +381,10 @@ def generate_pilot_pages(check_only: bool = False, *, stocks_dir: Path = STOCKS_
                     f"52-week range through {format_date_str(range_row['price_as_of'])}; "
                     "latest price shown above. Range position reflects the earlier snapshot."
                 )
+        vm["market_range"]["position_pct"] = max(0, min(100, vm["market_range"]["position_pct"]))
         html_content = render_template(template_str, vm)
+        if "{%" in html_content or "{{" in html_content:
+            raise ValueError(f"Unresolved template syntax for {sym}")
 
         # Enforce LF endings and UTF-8 encoding
         html_bytes = html_content.replace("\r\n", "\n").encode("utf-8")

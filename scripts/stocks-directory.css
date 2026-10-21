@@ -1,0 +1,94 @@
+/* Stockerboard company directory: consistent cards and a deliberate density scale. */
+.sb-stocks-page { --dir-bg:#f4f8f5; --dir-panel:#fff; --dir-ink:#17291f; --dir-muted:#52675b; --dir-line:#dce6df; --dir-accent:#166534; --dir-soft:#eaf4ed; background:var(--dir-bg); color:var(--dir-ink); }
+[data-theme="dark"] .sb-stocks-page { --dir-bg:#0b1510; --dir-panel:#111f18; --dir-ink:#eef7f1; --dir-muted:#b0c5b7; --dir-line:#2d4336; --dir-accent:#9be6b2; --dir-soft:#1c3728; }
+.sb-stocks-page .container { max-width:1280px; padding:28px 28px 64px; }
+.sb-stocks-page .breadcrumb { margin-bottom:24px; font-size:.75rem; color:var(--dir-muted); }
+.sb-stocks-page .hero-section { display:flex; justify-content:space-between; align-items:flex-start; gap:24px; margin-bottom:28px; }
+.sb-stocks-page h1 { font-size:clamp(1.9rem,3.3vw,2.6rem); color:var(--dir-ink); letter-spacing:-.04em; line-height:1.2; margin-bottom:12px; }
+.sb-stocks-page .dir-intro { font-size:.93rem; line-height:1.8; color:var(--dir-muted); max-width:660px; }
+.directory-eyebrow { display:block; font-size:.68rem; font-weight:750; letter-spacing:.1em; color:var(--dir-accent); text-transform:uppercase; margin-bottom:10px; }
+.directory-snapshot { display:flex; flex-direction:column; gap:5px; padding:13px 16px; border:1px solid var(--dir-line); border-radius:10px; background:var(--dir-panel); color:var(--dir-muted); font-size:.72rem; min-width:160px; }
+.directory-snapshot strong { color:var(--dir-ink); font-size:.85rem; font-weight:700; }
+.directory-controls { padding:18px; background:var(--dir-panel); border:1px solid var(--dir-line); border-radius:14px; box-shadow:0 2px 10px #173d2408; }
+.directory-filters { display:grid; grid-template-columns:minmax(0,2fr) minmax(150px,1fr) minmax(150px,1fr); align-items:end; gap:14px; }
+.directory-field { display:flex; flex-direction:column; gap:7px; min-width:0; color:var(--dir-muted); font-size:.68rem; font-weight:700; letter-spacing:.02em; }
+.sb-stocks-page .search-box-wrap { margin:0; }
+.sb-stocks-page :is(.search-input,.directory-select) { min-height:44px; width:100%; border:1px solid var(--dir-line); background:var(--dir-bg); border-radius:8px; color:var(--dir-ink); font-family:inherit; font-size:.82rem; outline:none; }
+.sb-stocks-page .directory-select { padding:10px 12px; }
+.sb-stocks-page .search-input { padding:11px 14px 11px 40px; }
+.sb-stocks-page .search-icon { left:13px; color:var(--dir-muted); }
+.directory-controls-bottom { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:14px; margin-top:16px; padding-top:16px; border-top:1px solid var(--dir-line); }
+.directory-scope { display:flex; flex-wrap:wrap; gap:5px; }
+.directory-scope button,.directory-view button { display:inline-flex; align-items:center; justify-content:center; gap:7px; min-height:36px; padding:8px 12px; border-radius:7px; border:1px solid transparent; background:transparent; color:var(--dir-muted); font-family:inherit; font-size:.75rem; font-weight:650; cursor:pointer; }
+.directory-scope button[aria-pressed="true"],.directory-view button[aria-pressed="true"] { color:var(--dir-accent); background:var(--dir-soft); border-color:var(--dir-line); }
+.directory-scope span { font-size:.67rem; font-variant-numeric:tabular-nums; opacity:.85; }
+.directory-clear { border:0; background:transparent; color:var(--dir-accent); padding:8px 0; font:inherit; font-size:.75rem; font-weight:650; cursor:pointer; }
+.directory-results-bar { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-top:24px; }
+.directory-results-status { color:var(--dir-muted); font-size:.76rem; }
+.directory-view { display:flex; gap:3px; padding:3px; border:1px solid var(--dir-line); border-radius:9px; background:var(--dir-panel); }
+.sb-stocks-page .dir-section { margin-top:20px; }
+.sb-stocks-page .dir-header-row { margin-bottom:6px; gap:14px; }
+.sb-stocks-page h2 { font-size:1.02rem; letter-spacing:-.02em; color:var(--dir-ink); }
+.sb-stocks-page .dir-count-badge { border:0; background:var(--dir-soft); color:var(--dir-accent); font-size:.68rem; border-radius:6px; white-space:nowrap; }
+.sb-stocks-page .dir-section-note { color:var(--dir-muted); font-size:.74rem; line-height:1.7; margin:0 0 16px; }
+.sb-stocks-page .dir-list { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; align-items:stretch; }
+.sb-stocks-page .dir-card { display:flex; flex-direction:column; align-items:stretch; gap:0; min-width:0; padding:20px; border:1px solid var(--dir-line); border-radius:12px; background:var(--dir-panel); box-shadow:0 2px 5px #173d2405; color:var(--dir-ink); text-decoration:none; transition:border-color .15s,box-shadow .15s,transform .15s; }
+.sb-stocks-page .dir-card:hover { border-color:var(--dir-accent); background:var(--dir-panel); box-shadow:0 7px 20px #173d2412; transform:translateY(-2px); }
+.dir-company-top { display:flex; align-items:flex-start; gap:12px; min-width:0; }
+.dir-company-logo { position:relative; display:flex; flex:none; align-items:center; justify-content:center; width:42px; height:42px; overflow:hidden; background:var(--dir-soft); border:1px solid var(--dir-line); border-radius:10px; color:var(--dir-accent); font-size:.83rem; font-weight:800; }
+.dir-company-logo img { position:absolute; inset:0; width:100%; height:100%; object-fit:contain; padding:5px; background:#fff; }
+.sb-stocks-page .dir-info { flex:1; min-width:0; gap:5px; }
+.sb-stocks-page .dir-name-row { display:flex; flex-direction:column; align-items:flex-start; gap:5px; }
+.sb-stocks-page .dir-name { color:var(--dir-ink); font-size:.9rem; font-weight:750; line-height:1.5; min-height:2.7em; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+.sb-stocks-page .dir-symbol { padding:0; border:0; background:transparent; color:var(--dir-muted); font-family:var(--font-mono,monospace); font-size:.68rem; font-weight:550; letter-spacing:0; overflow-wrap:anywhere; }
+.sb-stocks-page .dir-sector { margin-top:14px; min-height:1.5em; color:var(--dir-muted); font-size:.72rem; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
+.sb-stocks-page .dir-metrics { margin-top:16px; padding-top:16px; border-top:1px solid var(--dir-line); text-align:left; display:flex; flex-direction:column; align-items:flex-start; gap:4px; }
+.dir-price-label { color:var(--dir-muted); font-size:.64rem; font-weight:600; }
+.sb-stocks-page .dir-price { color:var(--dir-ink); font-size:1.35rem; font-weight:750; line-height:1.3; font-variant-numeric:tabular-nums; letter-spacing:-.035em; }
+.sb-stocks-page .dir-route-note { color:var(--dir-muted); font-size:.64rem; }
+.dir-card-footer { display:flex; justify-content:space-between; align-items:center; gap:10px; margin-top:auto; padding-top:16px; color:var(--dir-accent); font-size:.7rem; font-weight:650; }
+.sb-stocks-page .dir-arrow { display:block; color:var(--dir-accent); font-size:1rem; }
+.sb-stocks-page .dir-load-more { min-height:42px; padding:11px 22px; border-color:var(--dir-line); background:var(--dir-panel); color:var(--dir-accent); border-radius:8px; font-size:.8rem; }
+.sb-stocks-page .dir-empty { background:var(--dir-panel); border-color:var(--dir-line); padding:38px 20px; color:var(--dir-ink); }
+.sb-stocks-page .dir-empty p { color:var(--dir-muted); }
+.sb-stocks-page [hidden] { display:none !important; }
+.sb-stocks-page :is(a,button,input,select):focus-visible { outline:3px solid var(--dir-accent); outline-offset:3px; }
+.sb-stocks-page[data-directory-view="compact"] .dir-list { grid-template-columns:1fr; gap:8px; }
+.sb-stocks-page[data-directory-view="compact"] .dir-card { display:grid; grid-template-columns:minmax(0,1.3fr) minmax(120px,.8fr) minmax(150px,.7fr) 120px; align-items:center; gap:20px; padding:14px 18px; }
+.sb-stocks-page[data-directory-view="compact"] .dir-name { min-height:0; -webkit-line-clamp:1; }
+.sb-stocks-page[data-directory-view="compact"] .dir-sector { margin:0; }
+.sb-stocks-page[data-directory-view="compact"] .dir-metrics { margin:0; padding:0; border:0; text-align:right; align-items:flex-end; }
+.sb-stocks-page[data-directory-view="compact"] .dir-price-label { display:none; }
+.sb-stocks-page[data-directory-view="compact"] .dir-price { font-size:1rem; }
+.sb-stocks-page[data-directory-view="compact"] .dir-card-footer { padding:0; margin:0; justify-content:flex-end; }
+@media(min-width:1450px) { .sb-stocks-page .dir-list { grid-template-columns:repeat(4,minmax(0,1fr)); } }
+@media(max-width:1000px) { .sb-stocks-page .dir-list { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(max-width:700px) {
+ .sb-stocks-page .container { padding:22px 16px 44px; }
+ .sb-stocks-page .hero-section { flex-direction:column; gap:14px; margin-bottom:20px; }
+ .directory-snapshot { flex-direction:row; align-items:center; gap:8px 14px; flex-wrap:wrap; width:100%; font-size:.68rem; }
+ .directory-snapshot strong { font-size:.75rem; }
+ .directory-filters { grid-template-columns:1fr 1fr; gap:12px; }
+ .directory-field:first-child { grid-column:1/-1; }
+ .directory-controls { padding:14px; }
+ .directory-results-bar { gap:10px; align-items:flex-start; }
+ .directory-view button { padding:8px; font-size:.7rem; }
+ .sb-stocks-page .dir-list { gap:12px; }
+ .sb-stocks-page .dir-card { padding:16px; }
+ .sb-stocks-page[data-directory-view="compact"] .dir-card { grid-template-columns:minmax(0,1fr) 110px; gap:8px 12px; }
+ .sb-stocks-page[data-directory-view="compact"] .dir-sector { grid-column:1; padding-left:54px; }
+ .sb-stocks-page[data-directory-view="compact"] .dir-metrics { grid-column:2; grid-row:1; }
+ .sb-stocks-page[data-directory-view="compact"] .dir-card-footer { grid-column:2; grid-row:2; font-size:.63rem; }
+}
+@media(max-width:520px) { .sb-stocks-page .dir-list { grid-template-columns:1fr; } }
+@media(prefers-reduced-motion:reduce) { .sb-stocks-page * { transition:none !important; scroll-behavior:auto !important; } }
+/* Keep the first company row close to the filters on laptop screens. */
+.sb-stocks-page .container { padding-top:20px; }
+.sb-stocks-page .breadcrumb { margin-bottom:16px; }
+.sb-stocks-page .hero-section { margin-bottom:20px; }
+.sb-stocks-page h1 { margin-bottom:8px; }
+.sb-stocks-page .dir-intro { max-width:760px; margin:0; line-height:1.6; }
+.directory-controls { padding:16px; }
+.directory-controls-bottom { margin-top:12px; padding-top:12px; }
+.directory-results-bar { margin-top:16px; }
+.sb-stocks-page .dir-section { margin-top:12px; }

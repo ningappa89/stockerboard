@@ -17,6 +17,11 @@ import re
 import sys
 from pathlib import Path
 
+try:
+    from .site_shell import render_header
+except ImportError:
+    from site_shell import render_header
+
 ROOT = Path(__file__).resolve().parents[1]
 STOCKS_DIR = ROOT / "stocks"
 TEMPLATES_DIR = ROOT / "templates"
@@ -97,21 +102,23 @@ def build_directory_entry(comp_meta: dict, dossier: dict, u_map: dict,
 
 def render_card_html(entry: dict) -> str:
     escaped = {key: html.escape(str(value), quote=True) for key, value in entry.items()}
+    initials = html.escape("".join(ch for ch in entry["company_name"] if ch.isalnum())[:2].upper())
     return f"""            <a href="/stocks/{escaped['canonical_slug']}/" class="dir-card" data-symbol="{escaped['symbol']}">
-                <div class="dir-info">
-                    <div class="dir-name-row">
-                        <span class="dir-name">{escaped['company_name']}</span>
+                <div class="dir-company-top">
+                    <span class="dir-company-logo" data-symbol="{escaped['symbol']}" aria-hidden="true">{initials}</span>
+                    <div class="dir-info"><div class="dir-name-row">
+                        <span class="dir-name" title="{escaped['company_name']}">{escaped['company_name']}</span>
                         <span class="dir-symbol">{escaped['symbol']}</span>
-                    </div>
-                    <div class="dir-sector">{escaped['sector']}</div>
+                    </div></div>
                 </div>
-                <div class="dir-metrics">
-                    <div class="dir-price">{escaped['price_formatted']}</div>
-                    <div class="dir-mcap">{escaped['market_cap_formatted']}</div>
-                    <div class="dir-route-note">Price {escaped['price_as_of']}</div>
+                <div class="dir-sector">{escaped['sector']}</div>
+                <div class="dir-metrics"><span class="dir-price-label">Last close</span>
+                    <span class="dir-price">{escaped['price_formatted']}</span>
+                    <span class="dir-route-note">{escaped['price_as_of']}</span>
                 </div>
-                <div class="dir-arrow" aria-hidden="true">→</div>
+                <div class="dir-card-footer"><span>Company details</span><span class="dir-arrow" aria-hidden="true">↗</span></div>
             </a>"""
+
 
 
 def build_directory(check_only: bool = False, universe_path: Path | None = None,
@@ -160,6 +167,7 @@ def build_directory(check_only: bool = False, universe_path: Path | None = None,
     cards_html = "\n".join(render_card_html(e) for e in entries)
 
     # Render complete HTML
+    template_str = template_str.replace("{{ header_html }}", render_header("stocks"))
     html_content = template_str.replace("{{ total_count }}", f"{len(universe_rows):,}")
     html_content = html_content.replace("{{ total_count_raw }}", str(len(universe_rows)))
     html_content = html_content.replace("{{ featured_count }}", str(len(entries)))

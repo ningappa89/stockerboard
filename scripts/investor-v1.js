@@ -49,6 +49,10 @@
             const body = element('div', 'investor-data-coverage-body');
             body.append(element('p', '', `${contract.population.count.toLocaleString('en-IN')} companies in the canonical universe. Technical screens in Pro use a separate 350-stock snapshot.`));
             body.append(element('p', '', `Universe prices: ${contract.dates.universe_as_of}. Pro technical snapshot: ${contract.dates.pro_market_session}. Ratio dates and scopes vary by company.`));
+            if (contract.dossier_coverage) {
+                const coverage = contract.dossier_coverage;
+                body.append(element('p', '', `${coverage.current_certified_count.toLocaleString('en-IN')} companies have certified financial dossiers; ${coverage.market_only_symbols.length} have market data with financials pending. All ${contract.population.count.toLocaleString('en-IN')} companies can be opened.`));
+            }
             const list = element('ul');
             for (const [key, label] of [['pe', 'P/E'], ['roe', 'ROE'], ['pb', 'P/B'], ['roce', 'ROCE'], ['revenue_yoy', 'Quarterly revenue growth'], ['market_cap', 'Market cap'], ['return_1y', '1-year return'], ['sales_growth_3y', '3-year sales growth'], ['debt_to_equity', 'Debt/equity']]) {
                 const item = contract.metrics[key];
@@ -431,7 +435,7 @@
         const rat = provenance.ratios || {};
         const val = provenance.valuation || {};
 
-        source.textContent = 'Financial values come from the certified public company dossier. Dates and scope are shown by section where published. Status semantics are certified across all financial measures.';
+        source.textContent = stock.dossier_provenance ? 'Financial values come from the certified public company dossier. Dates and scope are shown by section where published.' : 'Market data is available for this company. Certified financial statements and ratios are pending; unavailable values are shown below.';
         grid.replaceChildren(
             summaryGroup('Business', [
                 ['Revenue', formatSemanticValue(stock.revenue_crore, biz.REVENUE_TTM, {prefix: '₹', suffix: ' Cr', digits: 0}), biz.REVENUE_TTM],

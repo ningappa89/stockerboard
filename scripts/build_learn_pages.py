@@ -19,6 +19,11 @@ import re
 import sys
 from pathlib import Path
 
+try:
+    from .site_shell import render_header
+except ImportError:
+    from site_shell import render_header
+
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT_DIR = ROOT / "content" / "learn"
 CONCEPTS_DIR = CONTENT_DIR / "concepts"
@@ -1093,7 +1098,7 @@ def build_concept_page(concept_path: Path, template_html: str, financial_stocks:
         edge_cases_html += f"<li>{ec}</li>\n"
         
     # Template Replacement
-    html = template_html
+    html = template_html.replace("{{ header_html }}", render_header("learn"))
     html = html.replace("{{ title }}", concept["title"])
     html = html.replace("{{ short_title }}", concept["short_title"])
     html = html.replace("{{ meta_description }}", meta_desc)
@@ -1387,7 +1392,7 @@ def build_all(target_concept: str | None = None) -> list[str]:
     # Also generate the Learn Hub landing page (Phase 5)
     hub_template_path = TEMPLATES_DIR / "learn-landing.html"
     if hub_template_path.exists():
-        hub_html = hub_template_path.read_text(encoding="utf-8")
+        hub_html = hub_template_path.read_text(encoding="utf-8").replace("{{ header_html }}", render_header("learn"))
         hub_out = LEARN_DIR / "index.html"
         hub_out.write_text(hub_html, encoding="utf-8")
         hub_url = "https://stockerboard.com/learn/"

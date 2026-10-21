@@ -605,30 +605,15 @@
             .depth-switcher-wrap { flex-direction: column; align-items: flex-start; gap: 8px; }
         }
     </style>
+<link rel="stylesheet" href="/scripts/site-shell.css">
+<script defer src="/scripts/site-shell.js"></script>
+<link rel="stylesheet" href="/scripts/learn-ui.css">
+<script defer src="/scripts/learn-ui.js"></script>
 </head>
-<body>
+<body class="sb-learn-page">
 
     <!-- Header Navigation -->
-    <header class="header">
-        <div class="header-left">
-            <a href="/" class="logo">
-                <span class="logo-dot"></span>
-                <span>Stockerboard</span>
-            </a>
-            <nav class="header-nav">
-                <a href="/">Home</a>
-                <a href="/stocks/">Stocks</a>
-                <a href="/learn/" class="active">Learn</a>
-                <a href="/?mode=pro">Pro research</a>
-            </nav>
-        </div>
-        <div>
-            <button class="theme-btn" onclick="toggleTheme()" id="themeBtn">
-                <span id="themeIcon">🌙</span>
-                <span id="themeText">Theme</span>
-            </button>
-        </div>
-    </header>
+    {{ header_html }}
 
     <main class="lesson-container">
         
