@@ -244,7 +244,8 @@ def build_view_model(company_meta: dict, dossier: dict, u_map: dict | None = Non
         '<a href="' + html.escape(url, quote=True) + '" target="_blank" rel="noopener noreferrer" style="color:var(--accent);font-weight:600;">Company website ↗</a>'
         if url.startswith("https://") else "Company website unavailable in this release."
     )
-    vm["profile_summary"] = "Business profile pending verification."
+    vm["valuation_price_note"] = "Historical valuation price snapshot: " + format_date_str((val.get("P_E") or {}).get("price_as_of") or price_as_of)
+    vm["profile_summary"] = "Limited business coverage: profile pending official-source verification."
     logo_path = ROOT / "assets/company-logos/manifest.json"
     logos = json.loads(logo_path.read_text(encoding="utf-8")).get("logos", {}) if logo_path.exists() else {}
     logo = logos.get(symbol) or {}
@@ -383,6 +384,10 @@ def generate_pilot_pages(check_only: bool = False, *, stocks_dir: Path = STOCKS_
                 )
         vm["market_range"]["position_pct"] = max(0, min(100, vm["market_range"]["position_pct"]))
         html_content = render_template(template_str, vm)
+        if market_rows:
+            sys.path.insert(0, str(ROOT.parent))
+            from StockMe.core.deployment.publication_integrity import render_current_controls
+            html_content = render_current_controls(html_content, {'universe': list(market_rows.values()), 'session_date': market_index.get('as_of')})
         if "{%" in html_content or "{{" in html_content:
             raise ValueError(f"Unresolved template syntax for {sym}")
 

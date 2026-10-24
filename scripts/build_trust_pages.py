@@ -236,7 +236,7 @@ PAGES = [
                 <td><strong>Market prices</strong></td>
                 <td>National Stock Exchange of India official end-of-day market files (NSE Bhavcopy)</td>
                 <td>Closing prices are used for market-price displays, daily percentage changes, and price-derived calculations.</td>
-                <td>Each eligible trading day after end-of-day data becomes available (~18:30 IST).</td>
+                <td>Refresh attempts begin at 17:30 IST on eligible trading days. Publication follows source availability and validation; until then, the previous snapshot remains explicitly dated and may show a delay.</td>
                 <td>Stockerboard is not displaying real-time tick data in this dataset; all prices reflect end-of-day settlement.</td>
             </tr>
             <tr>
@@ -486,8 +486,8 @@ PAGES = [
 </p>
 <ul>
     <li>Your watchlists, starred companies, and active visual theme preferences (<code>stockerboard_theme</code>) are stored <strong>exclusively in your browser's local storage (<code>localStorage</code>)</strong>.</li>
-    <li>No personal identifying information, IP logs, or watchlists are transmitted to or stored on a Stockerboard cloud database.</li>
-    <li>Clearing your browser cache or using the in-app clear utility immediately wipes your local data.</li>
+    <li>Guest watchlists are not intentionally synced to Firestore. Hosting, authentication and analytics services may receive network request information, including IP addresses.</li>
+    <li>Clearing browser site data removes local records. Clearing only cached files does not necessarily clear localStorage. Local deletion does not delete an existing cloud copy.</li>
 </ul>
 
 <h3>2. Authenticated Mode (Optional Cloud Sync)</h3>
@@ -505,13 +505,13 @@ PAGES = [
     Signed-in users can remove their Stockerboard cloud data from within the application at any time:
 </p>
 <ul>
-    <li><strong>In-App Deletion:</strong> Clicking <strong>'Delete Stockerboard Data'</strong> in the account menu immediately removes your user document stored in Firestore (including your synced watchlist, name, and email), clears Stockerboard watchlist data stored in this browser, and signs you out of the application.</li>
+    <li><strong>In-App Deletion:</strong> Clicking <strong>'Delete Stockerboard Data'</strong> in the account menu requests removal of your user document stored in Firestore (including your synced watchlist, name, and email), clears Stockerboard watchlist data stored in this browser, and signs you out of the application.</li>
     <li><strong>Authentication Identity:</strong> This action does not delete the user's Google account or Firebase Authentication identity. If you wish to revoke Google account sign-in permissions permanently, you can manage linked application permissions directly in your Google Account Security Dashboard.</li>
 </ul>
 
 <h2>Telemetry &amp; Google Analytics 4 (GA4)</h2>
 <p>
-    Stockerboard uses <strong>Google Analytics 4 (Measurement ID: <code>G-STOCKERBOARD</code>)</strong> to monitor platform reliability, aggregate page view counts, and track high-level feature usage (such as screener preset clicks).
+    The site includes Google Analytics integration for aggregate page views and feature usage. Delivery depends on deployment configuration and browser consent or blocking settings; live event delivery has not been verified in this release.
 </p>
 <ul>
     <li>GA4 collects aggregate, pseudonymized telemetry such as browser type, operating system, and general geographic region.</li>

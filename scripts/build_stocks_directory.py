@@ -65,8 +65,8 @@ def build_directory_entry(comp_meta: dict, dossier: dict, u_map: dict,
         price_as_of = market_row[6]
 
     # Sector
-    sector = u_map.get(sym, {}).get("sector") or dossier.get("sector") or "Sector unavailable"
-    if sector in ("EQUITY", "EQ", "Unclassified"):
+    sector = (u_map[sym].get("sector") if sym in u_map else dossier.get("sector")) or "Sector unavailable"
+    if sector in ("EQUITY", "EQ", "Unclassified", "Diversified", "Broad Market"):
         sector = "Sector unavailable"
 
     # Market Cap from valuation or top-level dossier

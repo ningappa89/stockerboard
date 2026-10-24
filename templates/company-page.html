@@ -432,6 +432,8 @@
     </style>
 <link rel="stylesheet" href="/scripts/site-shell.css">
 <script defer src="/scripts/site-shell.js"></script>
+<link rel="stylesheet" href="/scripts/financial-statements.css?v=FS_UI_V1_6">
+<script defer src="/scripts/financial-statements.js?v=FS_UI_V1_6"></script>
 </head>
 <body>
     {{ header_html }}
@@ -502,6 +504,7 @@
         </section>
 
         <!-- Key Snapshot -->
+        <p class="card-sub">{{ valuation_price_note }} · applies to market cap, P/E and P/B.</p>
         <section class="grid-cards" aria-label="Key Snapshot">
             <div class="card">
                 <div class="card-label">Market Cap</div>
@@ -541,7 +544,7 @@
                 <span class="metric-value">{{ business.eps.formatted_value }}</span>
             </div>
             <div class="metric-row">
-                <span class="metric-name">Net Margin</span>
+                <span class="metric-name">Net Margin (latest quarter)</span>
                 <span class="metric-value">{{ business.net_margin_pct.formatted_value }}</span>
             </div>
         </section>
@@ -574,6 +577,7 @@
         <!-- Returns & Valuation -->
         <section class="section-box">
             <h2>Returns & Valuation</h2>
+            <p class="card-sub">{{ valuation_price_note }}. P/E, P/B and market cap use this historical price basis when it differs from the quote above.</p>
             <div class="metric-row">
                 <span class="metric-name">Return on Equity (ROE)</span>
                 <span class="metric-value">{{ returns.roe.formatted_value }}</span>
@@ -652,6 +656,7 @@
                 </div>
             </div>
         </section>
+    <section id="companyFinancialStatements" class="fs-root" data-financial-statements data-symbol="{{ identity.symbol }}" aria-label="Financial statements"></section>
     </main>
 
     {{ footer_html }}

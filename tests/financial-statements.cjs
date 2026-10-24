@@ -1,0 +1,14 @@
+const assert=require('node:assert/strict');
+const {formatCell,csvFor,csvValue}=require('../scripts/financial-statements.js');
+assert.equal(formatCell({value:123456789,status:'AVAILABLE',unit:'INR'}),'12.35');
+assert.equal(formatCell({value:0,status:'AVAILABLE',unit:'INR'}),'0.00');
+assert.equal(formatCell({value:15.48,status:'AVAILABLE',unit:'INR_PER_SHARE'}),'15.48');
+assert.equal(formatCell({value:12,status:'AVAILABLE',unit:'PERCENT'}),'12.00%');
+assert.equal(formatCell({value:2,status:'AVAILABLE',unit:'RATIO'}),'2.00×');
+assert.equal(formatCell({value:null,status:'UNAVAILABLE',unit:'INR'}),'—');
+assert.equal(csvValue('=HYPERLINK("bad")'),'"\'=HYPERLINK(""bad"")"');
+assert.equal(csvValue('-formula'),'"\'-formula"');
+assert.equal(csvValue(-20),'"-20"');
+const doc={symbol:'TEST',metric_labels:{A:'Quoted "name"'},statements:{quarterly:[{period_end:'2026-06-30',basis:'REPORTED',scope:'CONSOLIDATED',metrics:{A:{unit:'INR',value:100,status:'AVAILABLE'}}},{period_end:'2026-06-30',basis:'REPORTED',scope:'STANDALONE',metrics:{A:{unit:'INR',value:99,status:'AVAILABLE'}}}]}};
+const csv=csvFor(doc,'quarterly','CONSOLIDATED');assert(csv.includes('"100"'));assert(!csv.includes('"99"'));assert(csv.includes('Quoted ""name""'));
+console.log('PASS: 12 statement formatting, scope export and CSV injection checks');
