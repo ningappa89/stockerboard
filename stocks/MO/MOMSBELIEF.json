@@ -145,46 +145,70 @@
       "open": 283.0,
       "time": "2026-10-19",
       "volume": 5854597
+    },
+    {
+      "close": 273.97,
+      "high": 288.76,
+      "low": 270.7,
+      "open": 284.0,
+      "time": "2026-10-21",
+      "volume": 862831
+    },
+    {
+      "close": 263.39,
+      "high": 279.29,
+      "low": 256.01,
+      "open": 274.0,
+      "time": "2026-10-22",
+      "volume": 499985
+    },
+    {
+      "close": 264.09,
+      "high": 282.99,
+      "low": 246.02,
+      "open": 264.0,
+      "time": "2026-10-23",
+      "volume": 433713
     }
   ],
   "company_name": "Rays of Belief Limited",
   "history": {
     "first_session": "2026-09-23",
     "has_full_52w_history": false,
-    "last_session": "2026-10-19",
-    "sessions_available": 18
+    "last_session": "2026-10-23",
+    "sessions_available": 21
   },
   "industry": null,
   "isin": "INE1FCO01014",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 75,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "4.2x"
+    "is_stage2": false,
+    "momentum_score": 65,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.33x"
   },
   "price": {
-    "as_of": "2026-10-19",
-    "change": -1.11,
-    "change_pct": -0.39,
-    "close": 284.41,
-    "previous_close": 285.52,
+    "as_of": "2026-10-23",
+    "change": 0.7,
+    "change_pct": 0.27,
+    "close": 264.09,
+    "previous_close": 263.39,
     "type": "EOD_CLOSE",
-    "volume": 5854597
+    "volume": 433713
   },
   "range": {
-    "distance_from_high_pct": -9.7,
-    "distance_from_low_pct": 41.43,
+    "distance_from_high_pct": -16.15,
+    "distance_from_low_pct": 31.32,
     "high_52w": 314.95,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 201.1,
-    "range_position_pct": 73.18
+    "range_position_pct": 55.33
   },
   "risk_model": {
-    "invalidation_floor": 274.46,
-    "risk_per_share": 15.64,
-    "technical_pivot": 290.1
+    "invalidation_floor": 254.85,
+    "risk_per_share": 14.52,
+    "technical_pivot": 269.37
   },
   "schema_version": "1.0",
   "sector": null,

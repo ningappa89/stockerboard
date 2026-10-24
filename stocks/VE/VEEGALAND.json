@@ -89,14 +89,38 @@
       "open": 132.1,
       "time": "2026-10-19",
       "volume": 322190
+    },
+    {
+      "close": 133.17,
+      "high": 136.4,
+      "low": 131.05,
+      "open": 135.0,
+      "time": "2026-10-21",
+      "volume": 338718
+    },
+    {
+      "close": 131.16,
+      "high": 133.2,
+      "low": 130.0,
+      "open": 132.93,
+      "time": "2026-10-22",
+      "volume": 107504
+    },
+    {
+      "close": 126.71,
+      "high": 131.05,
+      "low": 124.0,
+      "open": 131.05,
+      "time": "2026-10-23",
+      "volume": 138363
     }
   ],
   "company_name": "Veegaland Developers Limited",
   "history": {
     "first_session": "2026-10-05",
     "has_full_52w_history": false,
-    "last_session": "2026-10-19",
-    "sessions_available": 11
+    "last_session": "2026-10-23",
+    "sessions_available": 14
   },
   "industry": null,
   "isin": "INE1JTV01015",
@@ -104,31 +128,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
+    "momentum_score": 63,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.36x"
+    "volume_multiplier": "0.18x"
   },
   "price": {
-    "as_of": "2026-10-19",
-    "change": 3.25,
-    "change_pct": 2.51,
-    "close": 132.88,
-    "previous_close": 129.63,
+    "as_of": "2026-10-23",
+    "change": -4.45,
+    "change_pct": -3.39,
+    "close": 126.71,
+    "previous_close": 131.16,
     "type": "EOD_CLOSE",
-    "volume": 322190
+    "volume": 138363
   },
   "range": {
-    "distance_from_high_pct": -13.6,
-    "distance_from_low_pct": 6.19,
+    "distance_from_high_pct": -17.61,
+    "distance_from_low_pct": 2.19,
     "high_52w": 153.8,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 125.13,
-    "range_position_pct": 27.03
+    "low_52w": 124.0,
+    "range_position_pct": 9.09
   },
   "risk_model": {
-    "invalidation_floor": 128.23,
-    "risk_per_share": 7.31,
-    "technical_pivot": 135.54
+    "invalidation_floor": 122.28,
+    "risk_per_share": 6.96,
+    "technical_pivot": 129.24
   },
   "schema_version": "1.0",
   "sector": null,

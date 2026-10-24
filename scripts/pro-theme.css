@@ -120,6 +120,8 @@
 @media (prefers-reduced-motion: reduce) {
     #intermediateTerminal *, #intermediateTerminal *::before { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
 }
+/* Inactive panels must also hide mobile-generated cell labels. */
+body:not(.screen-fresher) #intermediateTerminal .tab-content:not(.active) { display: none !important; }
 /* The legacy tab rule used !important; keep section visibility authoritative. */
 #intermediateTerminal .tab-bar[data-active-group="market"] .tab-btn:not([data-pro-group="market"]),
 #intermediateTerminal .tab-bar[data-active-group="stockme"] .tab-btn:not([data-pro-group="stockme"]),

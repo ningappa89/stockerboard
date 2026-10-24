@@ -382,6 +382,10 @@
         const finance = element('section', 'investor-company-panel');
         finance.id = 'investorCompanyFinancials';
         finance.append(financials);
+        const statements=element('section','fs-root');
+        statements.id='dossierFinancialStatements';
+        statements.setAttribute('aria-label','Financial statements');
+        finance.append(statements);
         const panels = [overview, market, finance, advanced];
         const tabs = element('nav', 'investor-dossier-tabs');
         tabs.id = 'investorDossierTabs';
@@ -438,10 +442,10 @@
         source.textContent = stock.dossier_provenance ? 'Financial values come from the certified public company dossier. Dates and scope are shown by section where published.' : 'Market data is available for this company. Certified financial statements and ratios are pending; unavailable values are shown below.';
         grid.replaceChildren(
             summaryGroup('Business', [
-                ['Revenue', formatSemanticValue(stock.revenue_crore, biz.REVENUE_TTM, {prefix: '₹', suffix: ' Cr', digits: 0}), biz.REVENUE_TTM],
-                ['Profit', formatSemanticValue(stock.pat_crore, biz.PAT_TTM, {prefix: '₹', suffix: ' Cr', digits: 0}), biz.PAT_TTM],
-                ['EPS', formatSemanticValue(stock.eps, biz.EPS_BASIC_TTM, {prefix: '₹', digits: 2}), biz.EPS_BASIC_TTM],
-                ['Net margin', formatSemanticValue(stock.net_margin_pct, biz.NET_MARGIN_PCT, {suffix: '%', digits: 1}), biz.NET_MARGIN_PCT]
+                ['Revenue (TTM)', formatSemanticValue(stock.revenue_crore, biz.REVENUE_TTM, {prefix: '₹', suffix: ' Cr', digits: 0}), biz.REVENUE_TTM],
+                ['Profit (TTM)', formatSemanticValue(stock.pat_crore, biz.PAT_TTM, {prefix: '₹', suffix: ' Cr', digits: 0}), biz.PAT_TTM],
+                ['Basic EPS (TTM)', formatSemanticValue(stock.eps, biz.EPS_BASIC_TTM, {prefix: '₹', digits: 2}), biz.EPS_BASIC_TTM],
+                ['Net margin (latest quarter)', formatSemanticValue(stock.net_margin_pct, biz.NET_MARGIN_PCT, {suffix: '%', digits: 1}), biz.NET_MARGIN_PCT]
             ], reportingContext(biz.REVENUE_TTM)),
             summaryGroup('Financial health', [
                 ['Net worth', formatSemanticValue(stock.net_worth_crore, bs.NET_WORTH, {prefix: '₹', suffix: ' Cr', digits: 0}), bs.NET_WORTH],

@@ -113,14 +113,38 @@
       "open": 127.1,
       "time": "2026-10-19",
       "volume": 2037500
+    },
+    {
+      "close": 132.87,
+      "high": 146.9,
+      "low": 129.9,
+      "open": 145.0,
+      "time": "2026-10-21",
+      "volume": 4760647
+    },
+    {
+      "close": 135.12,
+      "high": 136.05,
+      "low": 128.56,
+      "open": 136.0,
+      "time": "2026-10-22",
+      "volume": 1204249
+    },
+    {
+      "close": 127.15,
+      "high": 135.12,
+      "low": 125.85,
+      "open": 135.12,
+      "time": "2026-10-23",
+      "volume": 650625
     }
   ],
   "company_name": "Varmora Granito Limited",
   "history": {
     "first_session": "2026-09-29",
     "has_full_52w_history": false,
-    "last_session": "2026-10-19",
-    "sessions_available": 14
+    "last_session": "2026-10-23",
+    "sessions_available": 17
   },
   "industry": null,
   "isin": "INE0M5301040",
@@ -128,31 +152,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
+    "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.36x"
+    "volume_multiplier": "0.13x"
   },
   "price": {
-    "as_of": "2026-10-19",
-    "change": 7.61,
-    "change_pct": 5.95,
-    "close": 135.42,
-    "previous_close": 127.81,
+    "as_of": "2026-10-23",
+    "change": -7.97,
+    "change_pct": -5.9,
+    "close": 127.15,
+    "previous_close": 135.12,
     "type": "EOD_CLOSE",
-    "volume": 2037500
+    "volume": 650625
   },
   "range": {
-    "distance_from_high_pct": -17.31,
-    "distance_from_low_pct": 7.9,
+    "distance_from_high_pct": -22.36,
+    "distance_from_low_pct": 1.31,
     "high_52w": 163.77,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 125.5,
-    "range_position_pct": 25.92
+    "range_position_pct": 4.31
   },
   "risk_model": {
-    "invalidation_floor": 130.68,
-    "risk_per_share": 7.45,
-    "technical_pivot": 138.13
+    "invalidation_floor": 122.7,
+    "risk_per_share": 6.99,
+    "technical_pivot": 129.69
   },
   "schema_version": "1.0",
   "sector": null,

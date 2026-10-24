@@ -81,14 +81,38 @@
       "open": 49.37,
       "time": "2026-10-19",
       "volume": 1969665
+    },
+    {
+      "close": 46.17,
+      "high": 49.7,
+      "low": 46.0,
+      "open": 49.7,
+      "time": "2026-10-21",
+      "volume": 792822
+    },
+    {
+      "close": 45.85,
+      "high": 48.5,
+      "low": 44.91,
+      "open": 45.94,
+      "time": "2026-10-22",
+      "volume": 1130339
+    },
+    {
+      "close": 44.88,
+      "high": 46.25,
+      "low": 43.16,
+      "open": 45.21,
+      "time": "2026-10-23",
+      "volume": 768111
     }
   ],
   "company_name": "Manika Plastech Limited",
   "history": {
     "first_session": "2026-10-06",
     "has_full_52w_history": false,
-    "last_session": "2026-10-19",
-    "sessions_available": 10
+    "last_session": "2026-10-23",
+    "sessions_available": 13
   },
   "industry": null,
   "isin": "INE0KWF01020",
@@ -96,31 +120,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
+    "momentum_score": 49,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.45x"
+    "volume_multiplier": "0.21x"
   },
   "price": {
-    "as_of": "2026-10-19",
-    "change": -1.74,
-    "change_pct": -3.48,
-    "close": 48.31,
-    "previous_close": 50.05,
+    "as_of": "2026-10-23",
+    "change": -0.97,
+    "change_pct": -2.12,
+    "close": 44.88,
+    "previous_close": 45.85,
     "type": "EOD_CLOSE",
-    "volume": 1969665
+    "volume": 768111
   },
   "range": {
-    "distance_from_high_pct": -21.13,
-    "distance_from_low_pct": 15.02,
+    "distance_from_high_pct": -26.73,
+    "distance_from_low_pct": 6.86,
     "high_52w": 61.25,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 42.0,
-    "range_position_pct": 32.78
+    "range_position_pct": 14.96
   },
   "risk_model": {
-    "invalidation_floor": 46.62,
-    "risk_per_share": 2.66,
-    "technical_pivot": 49.28
+    "invalidation_floor": 43.31,
+    "risk_per_share": 2.47,
+    "technical_pivot": 45.78
   },
   "schema_version": "1.0",
   "sector": null,

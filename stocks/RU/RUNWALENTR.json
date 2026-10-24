@@ -89,14 +89,38 @@
       "open": 258.1,
       "time": "2026-10-19",
       "volume": 157484
+    },
+    {
+      "close": 231.9,
+      "high": 249.35,
+      "low": 230.15,
+      "open": 245.0,
+      "time": "2026-10-21",
+      "volume": 280404
+    },
+    {
+      "close": 221.9,
+      "high": 235.35,
+      "low": 220.25,
+      "open": 226.2,
+      "time": "2026-10-22",
+      "volume": 286724
+    },
+    {
+      "close": 213.55,
+      "high": 225.0,
+      "low": 207.75,
+      "open": 222.05,
+      "time": "2026-10-23",
+      "volume": 309736
     }
   ],
   "company_name": "Runwal Enterprises Limited",
   "history": {
     "first_session": "2026-10-05",
     "has_full_52w_history": false,
-    "last_session": "2026-10-19",
-    "sessions_available": 11
+    "last_session": "2026-10-23",
+    "sessions_available": 14
   },
   "industry": null,
   "isin": "INE804W01029",
@@ -104,31 +128,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 61,
+    "momentum_score": 44,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.09x"
+    "volume_multiplier": "0.21x"
   },
   "price": {
-    "as_of": "2026-10-19",
-    "change": -9.25,
-    "change_pct": -3.59,
-    "close": 248.65,
-    "previous_close": 257.9,
+    "as_of": "2026-10-23",
+    "change": -8.35,
+    "change_pct": -3.76,
+    "close": 213.55,
+    "previous_close": 221.9,
     "type": "EOD_CLOSE",
-    "volume": 157484
+    "volume": 309736
   },
   "range": {
-    "distance_from_high_pct": -19.2,
-    "distance_from_low_pct": 1.06,
+    "distance_from_high_pct": -30.61,
+    "distance_from_low_pct": 2.79,
     "high_52w": 307.75,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 246.05,
-    "range_position_pct": 4.21
+    "low_52w": 207.75,
+    "range_position_pct": 5.8
   },
   "risk_model": {
-    "invalidation_floor": 239.95,
-    "risk_per_share": 13.67,
-    "technical_pivot": 253.62
+    "invalidation_floor": 206.08,
+    "risk_per_share": 11.74,
+    "technical_pivot": 217.82
   },
   "schema_version": "1.0",
   "sector": null,

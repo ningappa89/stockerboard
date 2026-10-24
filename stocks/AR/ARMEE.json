@@ -105,14 +105,38 @@
       "open": 257.85,
       "time": "2026-10-19",
       "volume": 498254
+    },
+    {
+      "close": 252.7,
+      "high": 263.6,
+      "low": 246.15,
+      "open": 263.6,
+      "time": "2026-10-21",
+      "volume": 252480
+    },
+    {
+      "close": 265.45,
+      "high": 268.0,
+      "low": 245.3,
+      "open": 252.15,
+      "time": "2026-10-22",
+      "volume": 608380
+    },
+    {
+      "close": 271.85,
+      "high": 274.0,
+      "low": 256.0,
+      "open": 265.45,
+      "time": "2026-10-23",
+      "volume": 633599
     }
   ],
   "company_name": "ArMee Infotech Limited",
   "history": {
     "first_session": "2026-09-30",
     "has_full_52w_history": false,
-    "last_session": "2026-10-19",
-    "sessions_available": 13
+    "last_session": "2026-10-23",
+    "sessions_available": 16
   },
   "industry": null,
   "isin": "INE0TWE01016",
@@ -120,31 +144,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 45,
+    "momentum_score": 48,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.23x"
+    "volume_multiplier": "0.35x"
   },
   "price": {
-    "as_of": "2026-10-19",
-    "change": 3.1,
-    "change_pct": 1.19,
-    "close": 263.65,
-    "previous_close": 260.55,
+    "as_of": "2026-10-23",
+    "change": 6.4,
+    "change_pct": 2.41,
+    "close": 271.85,
+    "previous_close": 265.45,
     "type": "EOD_CLOSE",
-    "volume": 498254
+    "volume": 633599
   },
   "range": {
-    "distance_from_high_pct": -29.69,
-    "distance_from_low_pct": 11.93,
+    "distance_from_high_pct": -27.51,
+    "distance_from_low_pct": 15.41,
     "high_52w": 375.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 235.55,
-    "range_position_pct": 20.15
+    "range_position_pct": 26.03
   },
   "risk_model": {
-    "invalidation_floor": 254.42,
-    "risk_per_share": 14.5,
-    "technical_pivot": 268.92
+    "invalidation_floor": 262.34,
+    "risk_per_share": 14.95,
+    "technical_pivot": 277.29
   },
   "schema_version": "1.0",
   "sector": null,

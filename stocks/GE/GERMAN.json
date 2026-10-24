@@ -89,14 +89,38 @@
       "open": 120.9,
       "time": "2026-10-19",
       "volume": 1957746
+    },
+    {
+      "close": 104.79,
+      "high": 113.0,
+      "low": 103.55,
+      "open": 113.0,
+      "time": "2026-10-21",
+      "volume": 1308812
+    },
+    {
+      "close": 102.88,
+      "high": 108.4,
+      "low": 100.66,
+      "open": 104.6,
+      "time": "2026-10-22",
+      "volume": 1811353
+    },
+    {
+      "close": 100.89,
+      "high": 104.78,
+      "low": 97.0,
+      "open": 104.4,
+      "time": "2026-10-23",
+      "volume": 1696324
     }
   ],
   "company_name": "German Green Steel and Power Limited",
   "history": {
     "first_session": "2026-10-05",
     "has_full_52w_history": false,
-    "last_session": "2026-10-19",
-    "sessions_available": 11
+    "last_session": "2026-10-23",
+    "sessions_available": 14
   },
   "industry": null,
   "isin": "INE0D4501011",
@@ -104,31 +128,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 57,
+    "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.24x"
+    "volume_multiplier": "0.25x"
   },
   "price": {
-    "as_of": "2026-10-19",
-    "change": -8.2,
-    "change_pct": -6.85,
-    "close": 111.5,
-    "previous_close": 119.7,
+    "as_of": "2026-10-23",
+    "change": -1.99,
+    "change_pct": -1.93,
+    "close": 100.89,
+    "previous_close": 102.88,
     "type": "EOD_CLOSE",
-    "volume": 1957746
+    "volume": 1696324
   },
   "range": {
-    "distance_from_high_pct": -21.92,
-    "distance_from_low_pct": 11.06,
+    "distance_from_high_pct": -29.35,
+    "distance_from_low_pct": 4.01,
     "high_52w": 142.81,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 100.4,
-    "range_position_pct": 26.17
+    "low_52w": 97.0,
+    "range_position_pct": 8.49
   },
   "risk_model": {
-    "invalidation_floor": 107.6,
-    "risk_per_share": 6.13,
-    "technical_pivot": 113.73
+    "invalidation_floor": 97.36,
+    "risk_per_share": 5.55,
+    "technical_pivot": 102.91
   },
   "schema_version": "1.0",
   "sector": null,

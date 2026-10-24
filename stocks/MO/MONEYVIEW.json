@@ -97,14 +97,38 @@
       "open": 59.58,
       "time": "2026-10-19",
       "volume": 55268363
+    },
+    {
+      "close": 54.53,
+      "high": 57.49,
+      "low": 53.61,
+      "open": 56.55,
+      "time": "2026-10-21",
+      "volume": 65762348
+    },
+    {
+      "close": 52.61,
+      "high": 54.87,
+      "low": 52.0,
+      "open": 54.33,
+      "time": "2026-10-22",
+      "volume": 58787384
+    },
+    {
+      "close": 51.87,
+      "high": 53.01,
+      "low": 49.68,
+      "open": 52.65,
+      "time": "2026-10-23",
+      "volume": 46228908
     }
   ],
   "company_name": "Moneyview Limited",
   "history": {
     "first_session": "2026-10-01",
     "has_full_52w_history": false,
-    "last_session": "2026-10-19",
-    "sessions_available": 12
+    "last_session": "2026-10-23",
+    "sessions_available": 15
   },
   "industry": null,
   "isin": "INE0PTN01011",
@@ -112,31 +136,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 68,
+    "momentum_score": 58,
     "setup_type": "Liquid Active",
     "volume_multiplier": "0.21x"
   },
   "price": {
-    "as_of": "2026-10-19",
-    "change": -3.38,
-    "change_pct": -5.67,
-    "close": 56.22,
-    "previous_close": 59.6,
+    "as_of": "2026-10-23",
+    "change": -0.74,
+    "change_pct": -1.41,
+    "close": 51.87,
+    "previous_close": 52.61,
     "type": "EOD_CLOSE",
-    "volume": 55268363
+    "volume": 46228908
   },
   "range": {
-    "distance_from_high_pct": -14.13,
-    "distance_from_low_pct": 16.3,
+    "distance_from_high_pct": -20.77,
+    "distance_from_low_pct": 7.3,
     "high_52w": 65.47,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 48.34,
-    "range_position_pct": 46.0
+    "range_position_pct": 20.61
   },
   "risk_model": {
-    "invalidation_floor": 54.25,
-    "risk_per_share": 3.09,
-    "technical_pivot": 57.34
+    "invalidation_floor": 50.05,
+    "risk_per_share": 2.86,
+    "technical_pivot": 52.91
   },
   "schema_version": "1.0",
   "sector": null,

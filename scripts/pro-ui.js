@@ -22,6 +22,62 @@
     function validSimulation(entry, stop, allocation) {
         return [entry,stop,allocation].every(value=>Number.isFinite(value) && value > 0) && stop < entry;
     }
+    function cashPosition(capital, riskPercent, entry, stop) {
+        if (!validSimulation(entry,stop,capital) || !Number.isFinite(riskPercent) || riskPercent <= 0 || riskPercent > 100) return null;
+        const riskPerShare = Number((entry-stop).toFixed(8));
+        if (riskPerShare <= 0) return null;
+        const budget = capital*riskPercent/100;
+        const quantity = Math.max(0,Math.min(Math.floor(budget/riskPerShare),Math.floor(capital/entry)));
+        return {quantity,riskPerShare,budget,allocation:quantity*entry,plannedRisk:quantity*riskPerShare};
+    }
+    function quoteRecord(data,symbol) {
+        const row=(data?.universe || []).find(row=>row[0]===symbol);
+        if (!row || !Number.isFinite(Number(row[2])) || Number(row[2])<=0) return null;
+        return {symbol:row[0],company_name:row[1],cmp:Number(row[2]),sector:row[5]||'Sector unavailable',price_as_of:row[6]||data.universe_as_of};
+    }
+    function quote(symbol) {
+        return quoteRecord(typeof APP_DATA !== 'undefined' ? APP_DATA : root.APP_DATA,symbol);
+    }
+    function journalEvidence(entries) {
+        const groups=new Map(); let assessed=0, followed=0;
+        for(const e of entries || []) {
+            const closed=['target','stopped','closed','hit target','stopped out'].includes(String(e.status||'').toLowerCase());
+            const entry=number(e.entry),stop=number(e.stop_loss ?? e.sl),exit=number(e.exitPrice);
+            if(!closed || !validSimulation(entry,stop,1) || exit===null || exit<=0) continue;
+            const key=e.setup || e.strategy || 'Untagged';
+            const g=groups.get(key)||{name:key,count:0,wins:0,sumR:0,gains:0,losses:0,assessed:0,followed:0};
+            const r=(exit-entry)/(entry-stop);g.count++;g.sumR+=r;
+            if(r>0){g.wins++;g.gains+=r;}else g.losses-=r;
+            if(typeof e.followedRules==='boolean'){g.assessed++;assessed++;if(e.followedRules){g.followed++;followed++;}}
+            groups.set(key,g);
+        }
+        return {groups:[...groups.values()],assessed,discipline:assessed?100*followed/assessed:null};
+    }
+    function renderRadar(entries) {
+        const report=journalEvidence(entries);
+        const body=document.getElementById('radarSetupTableBody'),hero=document.getElementById('radarHeroCards'),empty=document.getElementById('radarNoData');
+        if(!body || !hero)return;
+        body.replaceChildren();hero.replaceChildren();
+        if(empty){empty.style.display=report.groups.length?'none':'block';empty.textContent='Not enough data. Record a completed setup with its actual exit price to calculate results. No sample trades are included.';}
+        const discipline=report.discipline===null?'Not enough data':report.discipline.toFixed(1)+'%';
+        for(const id of ['disciplineScoreVal','disciplineBadgeText']){const el=document.getElementById(id);if(el)el.textContent=id==='disciplineBadgeText'?`${report.assessed} completed setups with recorded rule adherence`:discipline;}
+        const fill=document.getElementById('disciplineProgressFill');if(fill)fill.style.width=(report.discipline||0)+'%';
+        for(const id of ['leakTotalAmount','leakStopWideningVal','leakPrematureVal','leakOffPlaybookVal']){const el=document.getElementById(id);if(el)el.textContent='Not assessed';}
+        const head=body.closest('table')?.tHead;
+        if(head){head.replaceChildren();const tr=head.insertRow();for(const label of ['Setup','Completed','Wins','Win rate','Average R / trade','Gain / loss R','Recorded rule adherence']){const th=document.createElement('th');th.textContent=label;tr.append(th);}}
+        for(const g of report.groups){const tr=document.createElement('tr');for(const value of [g.name,g.count,g.wins,(100*g.wins/g.count).toFixed(1)+'%',(g.sumR/g.count).toFixed(2),g.losses>0?(g.gains/g.losses).toFixed(2):'No observed losses',g.assessed?(100*g.followed/g.assessed).toFixed(1)+'%':'Not enough data']){const td=document.createElement('td');td.textContent=String(value);tr.append(td);}body.append(tr);}
+    }
+    function refreshQuoteOptions() {
+        const data=typeof APP_DATA !== 'undefined' ? APP_DATA : root.APP_DATA;
+        const select=document.getElementById('calcStockSelector');
+        if (!select || !data?.universe) return;
+        const selected=select.value; select.replaceChildren(new Option('Choose a company · dated EOD quote',''));
+        for (const row of data.universe) {
+            const q=quoteRecord(data,row[0]); if (!q) continue;
+            select.add(new Option(`${q.symbol} · ₹${q.cmp.toLocaleString('en-IN')} · ${q.price_as_of}`,q.symbol));
+        }
+        select.value=selected;
+    }
     function validateSandbox() {
         const entry = number(document.getElementById('whatifEntry')?.value);
         const stop = number(document.getElementById('whatifSL')?.value);
@@ -161,6 +217,7 @@
     }
     function init() {
         const terminal = document.getElementById('intermediateTerminal'); if (!terminal) return;
+        refreshQuoteOptions();
         terminal.querySelectorAll('.whatif-field,.calc-field,.journal-field').forEach(field=>{
             const input = field.querySelector('input,select'); const label = field.querySelector('label');
             if (input?.id && label) label.setAttribute('for',input.id);
@@ -194,8 +251,8 @@
         observer.observe(terminal.querySelector('.tab-bar'),{attributes:true,subtree:true,attributeFilter:['class']});
         syncToolbar();
     }
-    root.StockerboardPro = {metricState,setMetric,setSectorView,symbols,syncToolbar,updateSearchStatus,exportHeatmapCSV,validateSandbox,validatePlaybook};
-    if (typeof module !== 'undefined') module.exports = {metricState,palette,validSimulation};
+    root.StockerboardPro = {metricState,setMetric,setSectorView,symbols,syncToolbar,updateSearchStatus,exportHeatmapCSV,validateSandbox,validatePlaybook,cashPosition,quote,renderRadar};
+    if (typeof module !== 'undefined') module.exports = {metricState,palette,validSimulation,cashPosition,quoteRecord,journalEvidence};
     if (typeof document !== 'undefined') {
         if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded',init); else init();
     }

@@ -89,14 +89,38 @@
       "open": 24.94,
       "time": "2026-10-19",
       "volume": 5194434
+    },
+    {
+      "close": 22.75,
+      "high": 24.37,
+      "low": 22.32,
+      "open": 24.0,
+      "time": "2026-10-21",
+      "volume": 8132690
+    },
+    {
+      "close": 21.63,
+      "high": 23.08,
+      "low": 21.55,
+      "open": 22.5,
+      "time": "2026-10-22",
+      "volume": 4860966
+    },
+    {
+      "close": 20.69,
+      "high": 21.9,
+      "low": 20.2,
+      "open": 21.72,
+      "time": "2026-10-23",
+      "volume": 6757229
     }
   ],
   "company_name": "AceVector Limited",
   "history": {
     "first_session": "2026-10-05",
     "has_full_52w_history": false,
-    "last_session": "2026-10-19",
-    "sessions_available": 11
+    "last_session": "2026-10-23",
+    "sessions_available": 14
   },
   "industry": null,
   "isin": "INE580P01029",
@@ -104,31 +128,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.14x"
+    "volume_multiplier": "0.22x"
   },
   "price": {
-    "as_of": "2026-10-19",
-    "change": -0.9,
-    "change_pct": -3.61,
-    "close": 24.04,
-    "previous_close": 24.94,
+    "as_of": "2026-10-23",
+    "change": -0.94,
+    "change_pct": -4.35,
+    "close": 20.69,
+    "previous_close": 21.63,
     "type": "EOD_CLOSE",
-    "volume": 5194434
+    "volume": 6757229
   },
   "range": {
-    "distance_from_high_pct": -27.74,
-    "distance_from_low_pct": 2.87,
+    "distance_from_high_pct": -37.81,
+    "distance_from_low_pct": 2.43,
     "high_52w": 33.27,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 23.37,
-    "range_position_pct": 6.77
+    "low_52w": 20.2,
+    "range_position_pct": 3.75
   },
   "risk_model": {
-    "invalidation_floor": 23.2,
-    "risk_per_share": 1.32,
-    "technical_pivot": 24.52
+    "invalidation_floor": 19.97,
+    "risk_per_share": 1.13,
+    "technical_pivot": 21.1
   },
   "schema_version": "1.0",
   "sector": null,
