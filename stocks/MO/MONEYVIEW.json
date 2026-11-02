@@ -129,14 +129,54 @@
       "open": 51.9,
       "time": "2026-10-26",
       "volume": 32013308
+    },
+    {
+      "close": 49.86,
+      "high": 52.3,
+      "low": 49.17,
+      "open": 51.5,
+      "time": "2026-10-27",
+      "volume": 43706159
+    },
+    {
+      "close": 49.57,
+      "high": 50.68,
+      "low": 49.3,
+      "open": 49.86,
+      "time": "2026-10-28",
+      "volume": 28898956
+    },
+    {
+      "close": 52.64,
+      "high": 53.88,
+      "low": 45.76,
+      "open": 49.65,
+      "time": "2026-10-29",
+      "volume": 235403065
+    },
+    {
+      "close": 50.34,
+      "high": 52.59,
+      "low": 49.7,
+      "open": 52.59,
+      "time": "2026-10-30",
+      "volume": 82613003
+    },
+    {
+      "close": 51.54,
+      "high": 52.45,
+      "low": 49.12,
+      "open": 50.33,
+      "time": "2026-11-02",
+      "volume": 75326717
     }
   ],
   "company_name": "Moneyview Limited",
   "history": {
     "first_session": "2026-10-01",
     "has_full_52w_history": false,
-    "last_session": "2026-10-26",
-    "sessions_available": 16
+    "last_session": "2026-11-02",
+    "sessions_available": 21
   },
   "industry": null,
   "isin": "INE0PTN01011",
@@ -144,31 +184,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 57,
+    "momentum_score": 58,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.15x"
+    "volume_multiplier": "0.48x"
   },
   "price": {
-    "as_of": "2026-10-26",
-    "change": -0.72,
-    "change_pct": -1.39,
-    "close": 51.15,
-    "previous_close": 51.87,
+    "as_of": "2026-11-02",
+    "change": 1.2,
+    "change_pct": 2.38,
+    "close": 51.54,
+    "previous_close": 50.34,
     "type": "EOD_CLOSE",
-    "volume": 32013308
+    "volume": 75326717
   },
   "range": {
-    "distance_from_high_pct": -21.87,
-    "distance_from_low_pct": 5.81,
+    "distance_from_high_pct": -21.28,
+    "distance_from_low_pct": 12.63,
     "high_52w": 65.47,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 48.34,
-    "range_position_pct": 16.4
+    "low_52w": 45.76,
+    "range_position_pct": 29.33
   },
   "risk_model": {
-    "invalidation_floor": 49.36,
-    "risk_per_share": 2.81,
-    "technical_pivot": 52.17
+    "invalidation_floor": 49.74,
+    "risk_per_share": 2.83,
+    "technical_pivot": 52.57
   },
   "schema_version": "1.0",
   "sector": null,

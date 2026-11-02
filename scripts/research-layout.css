@@ -1,0 +1,23 @@
+/* Scoped presentation layer: does not style Learn, directories or Pro tools. */
+html:not([data-ui-mode="pro"]) body.screen-fresher #tab-screener { display:none!important; }
+html:not([data-ui-mode="pro"]) body.screen-fresher[data-discovery="open"] #tab-screener { display:block!important; }
+body.screen-fresher #fresherHome .fresher-objectives-grid { display:none; }
+body.screen-fresher #fresherHome .fresher-focus-section { display:none; }
+body.screen-fresher #fresherHome .fresher-hero-studio { max-width:960px; margin:48px auto 32px; padding:32px 24px; text-align:center; }
+body.screen-fresher #fresherHome .fresher-hero-lead { font-size:clamp(2.2rem,5vw,3.8rem)!important; line-height:1.13; letter-spacing:-.045em!important; }
+body.screen-fresher #fresherHome .fresher-hero-subline { max-width:620px; margin:20px auto!important; line-height:1.65; font-size:1.05rem!important; }
+body.screen-fresher #fresherHome .fresher-omnibar-wrap { max-width:700px; margin:28px auto 0; }
+body.screen-fresher #fresherHome .fresher-omnibar { border-radius:16px; min-height:64px; box-shadow:0 8px 32px #142b240b; }
+body.screen-fresher #fresherHome .fresher-bridge-banner { max-width:900px; margin:32px auto!important; }
+.research-browse { display:block; margin:22px auto 0; padding:10px 18px; border:1px solid var(--border,#dce5df); border-radius:999px; background:transparent; color:inherit; font:inherit; cursor:pointer; }
+#stockDossierView .investor-dossier-tabs,.research-company-tabs { display:flex; gap:8px; overflow-x:auto; padding:14px 0; margin:20px 0; border-bottom:1px solid var(--border,#dce5df); }
+.research-company-tabs button { border:0; background:transparent; color:inherit; font:inherit; white-space:nowrap; padding:12px 20px; border-radius:10px; cursor:pointer; }
+.research-company-tabs button[aria-selected="true"] { background:#06543f; color:#fff; }
+.research-company-panel[hidden],#stockDossierView [role="tabpanel"][hidden] { display:none!important; }
+.research-company-panel { margin-bottom:28px; }
+#stockDossierView .investor-summary-grid { gap:20px; }
+#stockDossierView .investor-company-summary,#stockDossierView .investor-company-panel { border-radius:20px; }
+.research-pending { border:1px solid var(--border,#dce5df); padding:24px; border-radius:16px; line-height:1.7; margin:20px 0; }
+[data-theme="light"] .research-company-panel .section-box { border-color:#e3eae5; border-radius:18px; box-shadow:0 4px 20px #142b2405; }
+[data-theme="light"] .research-company-tabs { color:#142b24; }
+@media(max-width:640px) { body.screen-fresher #fresherHome .fresher-hero-studio { margin:16px auto; padding:24px 12px; } .research-company-tabs button { padding:10px 12px; } }

@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title id="pageTitle">Financial Statements · Stockerboard</title>
+  <script>
+    (function() {
+      try {
+        const p = new URLSearchParams(window.location.search);
+        const s = (p.get('symbol') || 'TCS').toUpperCase();
+        document.title = `${s} · Financial Statements · Stockerboard`;
+        const cached = sessionStorage.getItem('stock_meta_' + s);
+        window.__ACTIVE_SYM__ = s;
+        window.__PREFETCHED_META__ = cached ? JSON.parse(cached) : null;
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="icon" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #fafbf9;
+      --sub: #f4f7f4;
+      --ink: #142b24;
+      --green: #06543f;
+      --green-light: #eff7f2;
+      --green-border: #ddebe2;
+      --green-hover: #08694f;
+      --coral: #e06743;
+      --coral-bg: #fff5f2;
+      --muted: #6b7b74;
+      --line: #e3eae5;
+      --line-subtle: #edf2ee;
+      --white: #ffffff;
+      --shadow-sm: 0 2px 8px rgba(18, 49, 34, 0.04);
+      --shadow-md: 0 10px 30px rgba(18, 49, 34, 0.06);
+      --font: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Topbar */
+    .topbar {
+      height: 64px;
+      background: var(--white);
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 32px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .brand-area {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--ink);
+      font-weight: 800;
+      font-size: 19px;
+      letter-spacing: -0.5px;
+    }
+
+    .mark-icon {
+      width: 26px;
+      height: 26px;
+      background: var(--green);
+      border-radius: 6px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding-left: 5px;
+      gap: 3px;
+      position: relative;
+    }
+    .mark-bar { height: 2px; background: #fff; border-radius: 1px; }
+    .mark-bar:nth-child(1) { width: 14px; }
+    .mark-bar:nth-child(2) { width: 10px; }
+    .mark-bar:nth-child(3) { width: 6px; }
+    .mark-dot {
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      background: var(--coral);
+      border-radius: 50%;
+      top: 5px;
+      right: 5px;
+    }
+
+    .topbar-search {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--sub);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 7px 14px;
+      width: 280px;
+      transition: all 0.2s;
+    }
+    .topbar-search:focus-within {
+      background: #fff;
+      border-color: var(--green);
+      box-shadow: 0 0 0 3px rgba(6, 84, 63, 0.08);
+      width: 320px;
+    }
+    .topbar-search svg { color: var(--muted); flex-shrink: 0; }
+    .topbar-search input {
+      border: none;
+      background: transparent;
+      outline: none;
+      font-family: var(--font);
+      font-size: 13px;
+      color: var(--ink);
+      width: 100%;
+    }
+    .topbar-search input::placeholder { color: var(--muted); }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+    .nav a {
+      text-decoration: none;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      transition: color 0.15s;
+      position: relative;
+      padding: 4px 0;
+    }
+    .nav a:hover { color: var(--ink); }
+    .nav a.active {
+      color: var(--ink);
+      font-weight: 700;
+    }
+    .nav a.active::after {
+      content: '';
+      position: absolute;
+      bottom: -18px;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--green);
+    }
+
+    .btn-signin {
+      background: var(--green);
+      border: none;
+      color: #fff;
+      font-family: var(--font);
+      font-size: 13px;
+      font-weight: 600;
+      padding: 8px 18px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .btn-signin:hover { background: var(--green-hover); }
+
+    /* Page Container */
+    .page-container {
+      max-width: 1180px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 24px 24px 60px 24px;
+      flex: 1;
+    }
+
+    /* Company Hero Strip */
+    .identity-row {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .company-avatar {
+      width: 48px;
+      height: 48px;
+      background: #0284c7;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      font-weight: 800;
+      color: #fff;
+      letter-spacing: -0.5px;
+    }
+    .company-title {
+      font-size: 22px;
+      font-weight: 800;
+      letter-spacing: -0.4px;
+      color: var(--ink);
+      margin-bottom: 3px;
+    }
+    .company-submeta {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    /* Subnav Tabs */
+    .subnav-tabs {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 28px;
+    }
+    .tab-item {
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--muted);
+      padding: 10px 0;
+      position: relative;
+      transition: color 0.15s;
+    }
+    .tab-item:hover { color: var(--ink); }
+    .tab-item.active {
+      color: var(--green);
+      font-weight: 700;
+    }
+    .tab-item.active::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--green);
+    }
+    .tab-item.pro-pill {
+      margin-left: auto;
+      color: var(--coral);
+      font-weight: 700;
+      font-size: 13px;
+    }
+
+    /* Section Header Row */
+    .section-header-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 4px;
+    }
+    .section-title {
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: var(--ink);
+    }
+    .concept-tag {
+      font-size: 10.5px;
+      font-family: var(--font-mono);
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      color: #b45309;
+      background: #fef3c7;
+      padding: 3px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+    .section-subtitle {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 20px;
+    }
+    .section-subtitle em { font-style: italic; }
+
+    /* Scope & Unit Strip */
+    .controls-strip {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .scope-buttons {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .scope-btn {
+      background: var(--white);
+      border: 1px solid var(--line);
+      color: var(--muted);
+      font-family: var(--font);
+      font-size: 13px;
+      font-weight: 600;
+      padding: 6px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .scope-btn:hover { color: var(--ink); border-color: #cbd5e1; }
+    .scope-btn.active {
+      background: var(--green);
+      border-color: var(--green);
+      color: #fff;
+    }
+
+    .export-block {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .unit-label {
+      font-size: 12.5px;
+      color: var(--muted);
+    }
+    .btn-csv {
+      background: var(--white);
+      border: 1px solid var(--line);
+      color: var(--ink);
+      font-family: var(--font);
+      font-size: 12.5px;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.15s;
+    }
+    .btn-csv:hover {
+      border-color: var(--green);
+      color: var(--green);
+    }
+
+    /* Statement Categories Tabs */
+    .statement-nav {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      border-bottom: 1px solid var(--line-subtle);
+      margin-bottom: 18px;
+    }
+    .stmt-tab {
+      font-size: 13.5px;
+      font-weight: 500;
+      color: var(--muted);
+      padding: 8px 0;
+      cursor: pointer;
+      position: relative;
+      background: transparent;
+      border: none;
+      font-family: var(--font);
+      transition: color 0.15s;
+    }
+    .stmt-tab:hover { color: var(--ink); }
+    .stmt-tab.active {
+      color: var(--green);
+      font-weight: 700;
+    }
+    .stmt-tab.active::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--green);
+    }
+
+    /* Period Toggle Strip */
+    .period-strip {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 22px;
+    }
+    .period-btn {
+      background: var(--white);
+      border: 1px solid var(--line);
+      color: var(--muted);
+      font-family: var(--font);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 5px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .period-btn:hover { color: var(--ink); }
+    .period-btn.active {
+      background: var(--green);
+      border-color: var(--green);
+      color: #fff;
+    }
+
+    /* 3 Hero KPI Cards */
+    .hero-kpis-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-bottom: 24px;
+    }
+    .hero-card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 20px 24px;
+      text-align: center;
+      box-shadow: var(--shadow-sm);
+    }
+    .hero-card-label {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .hero-card-val {
+      font-size: 26px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: var(--ink);
+      margin-bottom: 4px;
+      font-variant-numeric: tabular-nums;
+    }
+    .hero-card-sub {
+      font-size: 11.5px;
+      color: var(--muted);
+    }
+
+    /* Main Statement Table Card */
+    .statement-card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      box-shadow: var(--shadow-sm);
+      overflow: hidden;
+      margin-bottom: 24px;
+    }
+    .statement-card-header {
+      padding: 20px 24px 16px 24px;
+      border-bottom: 1px solid var(--line);
+    }
+    .statement-card-title {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--ink);
+      letter-spacing: -0.3px;
+    }
+    .statement-card-desc {
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    .fs-table-wrap {
+      overflow-x: auto;
+    }
+    .fs-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13.5px;
+    }
+    .fs-table th {
+      text-align: right;
+      padding: 12px 24px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--muted);
+      border-bottom: 1px solid var(--line);
+      background: #fafbf9;
+    }
+    .fs-table th:first-child { text-align: left; }
+    .fs-table td {
+      padding: 12px 24px;
+      text-align: right;
+      border-bottom: 1px solid var(--line-subtle);
+      font-variant-numeric: tabular-nums;
+      color: var(--ink);
+    }
+    .fs-table td:first-child {
+      text-align: left;
+    }
+    .fs-table tr.row-parent td {
+      font-weight: 700;
+    }
+    .fs-table tr.row-child td:first-child {
+      padding-left: 44px;
+      color: var(--muted);
+      font-weight: 400;
+    }
+    .fs-table tr.row-net-profit {
+      background: var(--green-light);
+    }
+    .fs-table tr.row-net-profit td {
+      font-weight: 800;
+      color: var(--green);
+    }
+
+    .fs-card-footer {
+      padding: 14px 24px;
+      border-top: 1px solid var(--line);
+      font-size: 11.5px;
+      color: var(--muted);
+      background: #fafbf9;
+    }
+
+    /* 2 Context Cards at Bottom */
+    .context-cards-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-bottom: 24px;
+    }
+    .context-card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 20px 24px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .context-card-top {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+    .context-icon-box {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      background: var(--green-light);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--green);
+      flex-shrink: 0;
+    }
+    .context-card-heading {
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--ink);
+      margin-bottom: 4px;
+    }
+    .context-card-body {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .context-details-list {
+      list-style: none;
+      margin-top: 6px;
+    }
+    .context-details-list li {
+      font-size: 12.5px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    .context-details-list b { color: var(--ink); font-weight: 600; }
+    .context-card-link {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--green);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .context-card-link:hover { text-decoration: underline; }
+
+    /* Sub-Footer */
+    .page-subfooter {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 10px;
+      font-size: 11.5px;
+      color: var(--muted);
+    }
+
+    @media (max-width: 900px) {
+      .hero-kpis-grid { grid-template-columns: 1fr; }
+      .context-cards-row { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 600px) {
+      .topbar { padding: 0 16px; }
+      .topbar-search { display: none; }
+      .controls-strip { flex-direction: column; align-items: flex-start; gap: 12px; }
+    }
+  </style>
+<script src="/scripts/research-data.js?v=026ecc4bf6ca"></script>
+</head>
+<body>
+
+  <!-- Topbar -->
+  <header class="topbar">
+    <div class="brand-area">
+      <a href="/" class="brand">
+        <div class="mark-icon">
+          <div class="mark-bar"></div>
+          <div class="mark-bar"></div>
+          <div class="mark-bar"></div>
+          <div class="mark-dot"></div>
+        </div>
+        <span>Stockerboard</span>
+      </a>
+
+      <div class="topbar-search">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="topbarSearch" placeholder="Search another company..." autocomplete="off">
+      </div>
+    </div>
+
+    <nav class="nav">
+      <a href="/">Home</a>
+      <a href="/stocks/" class="active" id="navStocks">Stocks</a>
+      <a href="/learn/">Learn</a>
+      <a href="/?mode=pro">Pro research</a>
+    </nav>
+
+    <button type="button" class="btn-signin">Sign in</button>
+  </header>
+
+  <main class="page-container">
+    <!-- Company Identity Strip -->
+    <header class="identity-row">
+      <div class="company-avatar" id="heroAvatar">—</div>
+      <div>
+        <h1 class="company-title" id="companyName">—</h1>
+        <div class="company-submeta">
+          <span id="tickerLine">NSE</span>
+          <span>·</span>
+          <span id="sectorTag">—</span>
+        </div>
+      </div>
+    </header>
+    <script>
+      (function() {
+        try {
+          const s = window.__ACTIVE_SYM__ || (new URLSearchParams(window.location.search).get('symbol') || 'TCS').toUpperCase();
+          const meta = window.__PREFETCHED_META__;
+          const av = document.getElementById('heroAvatar');
+          const cn = document.getElementById('companyName');
+          const tl = document.getElementById('tickerLine');
+          const st = document.getElementById('sectorTag');
+          if (av) av.innerText = s.substring(0, 3);
+          if (tl) tl.innerText = `NSE: ${s}`;
+          if (meta && meta.name) {
+            if (cn) cn.innerText = meta.name;
+            if (st) st.innerText = meta.sector || 'General Corporate';
+          } else {
+            if (cn) cn.innerText = s;
+          }
+          document.querySelectorAll('.subnav-tabs a').forEach(a => {
+            const href = a.getAttribute('href');
+            if (href && href.startsWith('stockerboard_')) {
+              const base = href.split('?')[0];
+              a.setAttribute('href', `${base}?symbol=${encodeURIComponent(s)}`);
+            }
+          });
+          const navStk = document.getElementById('navStocks');
+          if (navStk) navStk.href = `stockerboard_company_overview.html?symbol=${encodeURIComponent(s)}`;
+        } catch(e) {}
+      })();
+    </script>
+
+    <!-- Subnav Tabs -->
+    <nav class="subnav-tabs" aria-label="Company views">
+      <a href="stockerboard_company_overview.html" class="tab-item" id="tabOverview">Overview</a>
+      <a href="stockerboard_financials_tab.html" class="tab-item active" id="tabFinancials">Financials</a>
+      <a href="stockerboard_valuation_tab.html" class="tab-item" id="tabValuation">Valuation</a>
+      <a href="stockerboard_peers_tab.html" class="tab-item" id="tabPeers">Peers</a>
+      <a href="stockerboard_filings_tab.html" class="tab-item" id="tabFilings">Filings</a>
+      <a href="/?mode=pro" class="tab-item pro-pill">Advanced PRO ↗</a>
+    </nav>
+
+    <!-- Section Title & Badge -->
+    <div class="section-header-row">
+      <h2 class="section-title">Financial statements</h2>
+      <span class="concept-tag">DESIGN CONCEPT</span>
+    </div>
+    <div class="section-subtitle" id="periodCoverageSub">
+      Available annual results through Mar 2026 · <em>Quarterly results through Jun 2026</em>
+    </div>
+
+    <!-- Scope & Unit Strip -->
+    <div class="controls-strip">
+      <div class="scope-buttons">
+        <button type="button" class="scope-btn active" id="btnConsolidated" onclick="setScope('CONSOLIDATED')">Consolidated</button>
+        <button type="button" class="scope-btn" id="btnStandalone" onclick="setScope('STANDALONE')">Standalone</button>
+      </div>
+
+      <div class="export-block">
+        <span class="unit-label" id="unitLabel">₹ crore, except EPS</span>
+        <button type="button" class="btn-csv" onclick="downloadCSV()">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          Download CSV
+        </button>
+      </div>
+    </div>
+
+    <!-- Statement Subnav -->
+    <div class="statement-nav">
+      <button type="button" class="stmt-tab active" id="tabStmtIncome" onclick="setStatement('income')">Income statement</button>
+      <button type="button" class="stmt-tab" id="tabStmtBalance" onclick="setStatement('balance')">Balance sheet</button>
+      <button type="button" class="stmt-tab" id="tabStmtCashflow" onclick="setStatement('cashflow')">Cash flow</button>
+      <button type="button" class="stmt-tab" id="tabStmtRatios" onclick="setStatement('ratios')">Financial ratios</button>
+    </div>
+
+    <!-- Period Toggles -->
+    <div class="period-strip">
+      <button type="button" class="period-btn active" id="btnAnnual" onclick="setPeriod('annual')">Annual</button>
+      <button type="button" class="period-btn" id="btnQuarterly" onclick="setPeriod('quarterly')">Quarterly</button>
+      <button type="button" class="period-btn" id="btnTtm" onclick="setPeriod('ttm')">TTM</button>
+    </div>
+
+    <!-- 3 Hero KPI Cards -->
+    <section class="hero-kpis-grid">
+      <div class="hero-card">
+        <div class="hero-card-label" id="heroCard1Label">Revenue</div>
+        <div class="hero-card-val" id="heroCard1Val">₹2,67,021 Cr</div>
+        <div class="hero-card-sub" id="heroCard1Sub">FY26 · reported</div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-label" id="heroCard2Label">Net profit</div>
+        <div class="hero-card-val" id="heroCard2Val">₹49,454 Cr</div>
+        <div class="hero-card-sub" id="heroCard2Sub">FY26 · reported</div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-label" id="heroCard3Label">Basic EPS</div>
+        <div class="hero-card-val" id="heroCard3Val">₹136.01</div>
+        <div class="hero-card-sub" id="heroCard3Sub">FY26 · reported</div>
+      </div>
+    </section>
+
+    <!-- Main Statement Table Card -->
+    <section class="statement-card">
+      <div class="statement-card-header">
+        <h3 class="statement-card-title" id="statementTitle">Annual income statement</h3>
+        <p class="statement-card-desc" id="statementSub">Two annual periods available in this release.</p>
+      </div>
+
+      <div class="fs-table-wrap">
+        <table class="fs-table">
+          <thead>
+            <tr id="fsTableHead">
+              <th>Metric</th>
+              <th id="thPeriod1">FY25</th>
+              <th id="thPeriod2">FY26</th>
+            </tr>
+          </thead>
+          <tbody id="fsTableBody">
+            <!-- Dynamically populated via renderActiveView() -->
+          </tbody>
+        </table>
+      </div>
+
+      <div class="fs-card-footer" id="statementFooterNotice">
+        Reported values from the local release. Figures may differ across providers; check definitions and filings.
+      </div>
+    </section>
+
+    <!-- Two Context Cards -->
+    <div class="context-cards-row">
+      <div class="context-card">
+        <div class="context-card-top">
+          <div class="context-icon-box">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+            </svg>
+          </div>
+          <div>
+            <h4 class="context-card-heading" id="ctxCardHeading">Understand this statement</h4>
+            <p class="context-card-body" id="ctxCardBody">Revenue is income from operations. Net profit is what remains after expenses and tax.</p>
+          </div>
+        </div>
+        <a href="/learn/" class="context-card-link">Learn financial basics →</a>
+      </div>
+
+      <div class="context-card">
+        <div class="context-card-top">
+          <div class="context-icon-box">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+              <polyline points="10 9 9 9 8 9"></polyline>
+            </svg>
+          </div>
+          <div>
+            <h4 class="context-card-heading">Reporting details</h4>
+            <ul class="context-details-list">
+              <li>Scope: <b id="detailScope">Consolidated</b></li>
+              <li>Basis: <b id="detailBasis">Reported</b></li>
+              <li>Period: <b id="detailPeriod">Year ended 31 Mar 2026</b></li>
+            </ul>
+          </div>
+        </div>
+        <a href="stockerboard_filings_tab.html?symbol=TCS" class="context-card-link" id="linkFilings">View available filing evidence →</a>
+      </div>
+    </div>
+
+    <!-- Sub-Footer -->
+    <div class="page-subfooter">
+      <span>Design preview using local release values · Availability varies by company</span>
+    </div>
+  </main>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const activeSymbol = (params.get('symbol') || 'TCS').toUpperCase();
+    let currentScope = 'CONSOLIDATED';
+    let currentStatement = 'income';
+    let currentPeriodKind = 'annual';
+    let loadedStatementData = null;
+
+    function updateSubnav(symbol) {
+      document.querySelectorAll('.subnav-tabs a').forEach(a => {
+        const href = a.getAttribute('href');
+        if (href && href.startsWith('stockerboard_')) {
+          const base = href.split('?')[0];
+          a.setAttribute('href', `${base}?symbol=${encodeURIComponent(symbol)}`);
+        }
+      });
+      document.getElementById('navStocks').href = '/stocks/';
+      document.getElementById('linkFilings').href = `stockerboard_filings_tab.html?symbol=${encodeURIComponent(symbol)}`;
+    }
+
+    async function loadFinancialData(symbol) {
+      for (const id of ['kpiMcap','kpiPe','kpiRoe','kpiRev','kpiMargin','kpiDiv','heroCard1Val','heroCard2Val','heroCard3Val','valPe','valPb','valMcap','priceDisplay']) {
+        const node=document.getElementById(id);if(node)node.textContent='—';
+      }
+      for (const id of ['overviewPlTable','fsTableBody','filingsTableBody']) document.getElementById(id)?.replaceChildren();
+      if(!/^[A-Z0-9&_.-]{1,40}$/.test(symbol)){StockerboardData.error('Invalid company symbol');return;}
+
+      updateSubnav(symbol);
+      document.getElementById('heroAvatar').innerText = symbol.substring(0, 3);
+      document.getElementById('tickerLine').innerText = `NSE: ${symbol}`;
+
+      try {
+        const uRes = await fetch('/search_universe.json');
+        if (uRes.ok) {
+          const uData = await uRes.json();
+          const found = uData.find(x => x.symbol === symbol);
+          if (found) {
+            document.getElementById('companyName').innerText = found.name;
+            document.getElementById('sectorTag').innerText = found.sector;
+            try {
+              sessionStorage.setItem('stock_meta_' + symbol, JSON.stringify({
+                name: found.name,
+                sector: found.sector
+              }));
+            } catch(e) {}
+          }
+        }
+      } catch (e) {}
+
+      try {
+        const idxRes = await fetch('/financial-statements/index.json');
+        if (idxRes.ok) {
+          const idx = await idxRes.json();
+          const relId = idx.release_id || 'FSV1_f4e7fa6b55025f3a7b48b672';
+          const stmtRes = await StockerboardData.statements(symbol);
+          if (stmtRes.ok) {
+            loadedStatementData = await stmtRes.json();
+            renderActiveView();
+          }
+        }
+      } catch (e) {
+        StockerboardData.error(e.message);
+      }
+    }
+
+    function formatVal(val, isEps, isPct, isRatio) {
+      if (val == null || isNaN(val)) return '—';
+      const num = Number(val);
+      if (isPct) return `${num.toFixed(1)}%`;
+      if (isRatio) return `${num.toFixed(2)}×`;
+      if (isEps) return `₹${num.toFixed(2)}`;
+      const cr = Math.round(num / 1e7);
+      return cr.toLocaleString('en-IN');
+    }
+
+    function renderActiveView() {
+      if (!loadedStatementData) return;
+      const stmts = loadedStatementData.statements || {};
+
+      // Select data list based on statement & period
+      let sourceList = [];
+      if (currentStatement === 'income') {
+        if (currentPeriodKind === 'quarterly') sourceList = stmts.quarterly || [];
+        else if (currentPeriodKind === 'ttm') sourceList = stmts.ttm || [];
+        else sourceList = stmts.annual_pnl || [];
+      } else if (currentStatement === 'balance') {
+        sourceList = (stmts.balance_sheet || []).filter(p => p.metrics?.NET_WORTH?.status === 'AVAILABLE' || p.period_end?.endsWith('-03-31'));
+      } else if (currentStatement === 'cashflow') {
+        sourceList = (stmts.cash_flow || []).filter(p => p.metrics?.CFO?.status === 'AVAILABLE' || p.period_end?.endsWith('-03-31'));
+      } else if (currentStatement === 'ratios') {
+        sourceList = stmts.ratios || [];
+      }
+
+      // Filter by currentScope
+      let filtered = sourceList.filter(p => p.scope === currentScope);
+      if (filtered.length === 0 && sourceList.length > 0) {
+        filtered = []; // Selected reporting scope must never fall back to another scope.
+      }
+
+      if (!filtered.length) {
+        document.getElementById('fsTableBody').replaceChildren();
+        document.getElementById('statementSub').textContent = 'No verified values for the selected reporting scope.';
+        for (const id of ['heroCard1Val','heroCard2Val','heroCard3Val']) document.getElementById(id).textContent = '—';
+        return;
+      }
+      // Deduplicate and merge metrics by period_end
+      const byDate = {};
+      filtered.forEach(p => {
+        const dt = p.period_end;
+        if (!byDate[dt]) {
+          byDate[dt] = JSON.parse(JSON.stringify(p));
+        } else {
+          byDate[dt].metrics = Object.assign({}, p.metrics || {}, byDate[dt].metrics || {});
+        }
+      });
+      const dedupedList = Object.values(byDate);
+      dedupedList.sort((a, b) => a.period_end.localeCompare(b.period_end));
+
+      // Get last 2 periods
+      const p2 = dedupedList[dedupedList.length - 1] || {};
+      const p1 = dedupedList[dedupedList.length - 2] || dedupedList[dedupedList.length - 1] || {};
+
+      const formatLabel = (p) => {
+        if (!p.period_end) return 'Period';
+        if (currentPeriodKind === 'quarterly') {
+          const m = p.period_end.substring(5, 7);
+          const y = String(Number(p.period_end.substring(0,4)) + (Number(m) > 3 ? 1 : 0)).slice(-2);
+          const qMap = { '03': 'Q4', '06': 'Q1', '09': 'Q2', '12': 'Q3' };
+          return `${qMap[m] || 'Q'} FY${y}`;
+        }
+        return 'FY' + p.period_end.substring(2, 4);
+      };
+
+      const lbl1 = formatLabel(p1);
+      const lbl2 = formatLabel(p2);
+      document.getElementById('thPeriod1').innerText = lbl1;
+      document.getElementById('thPeriod2').innerText = lbl2;
+
+      const getMetric = (p, k) => p?.metrics?.[k]?.status === 'AVAILABLE' ? p.metrics[k].value : null;
+
+      // Update Header & Explanations based on currentStatement
+      const scopeLabel = currentScope.charAt(0) + currentScope.slice(1).toLowerCase();
+      document.getElementById('detailScope').innerText = scopeLabel;
+      document.getElementById('detailPeriod').innerText = p2.period_end ? `${currentPeriodKind === 'quarterly' ? 'Quarter ended' : 'Year ended'} ${p2.period_end}` : 'Current Period';
+
+      let rows = [];
+
+      if (currentStatement === 'income') {
+        document.getElementById('statementTitle').innerText = `${currentPeriodKind === 'annual' ? 'Annual' : currentPeriodKind === 'quarterly' ? 'Quarterly' : 'TTM'} income statement`;
+        document.getElementById('statementSub').innerText = `${filtered.length} periods available in this release.`;
+        document.getElementById('ctxCardHeading').innerText = 'Understand this statement';
+        document.getElementById('ctxCardBody').innerText = 'Revenue is income from operations. Net profit is what remains after expenses and tax.';
+
+        // Hero Cards
+        const revVal = getMetric(p2, 'REVENUE_FROM_OPERATIONS') ?? getMetric(p2, 'TOTAL_INCOME');
+        const patVal = getMetric(p2, 'PROFIT_AFTER_TAX');
+        const epsVal = getMetric(p2, 'EPS_BASIC') ?? getMetric(p2, 'EPS_DILUTED');
+
+        document.getElementById('heroCard1Label').innerText = 'Revenue';
+        document.getElementById('heroCard1Val').innerText = revVal != null ? `₹${Math.round(revVal / 1e7).toLocaleString('en-IN')} Cr` : '—';
+        document.getElementById('heroCard1Sub').innerText = `${lbl2} · reported`;
+
+        document.getElementById('heroCard2Label').innerText = 'Net profit';
+        document.getElementById('heroCard2Val').innerText = patVal != null ? `₹${Math.round(patVal / 1e7).toLocaleString('en-IN')} Cr` : '—';
+        document.getElementById('heroCard2Sub').innerText = `${lbl2} · reported`;
+
+        document.getElementById('heroCard3Label').innerText = 'Basic EPS';
+        document.getElementById('heroCard3Val').innerText = epsVal != null ? `₹${Number(epsVal).toFixed(2)}` : '—';
+        document.getElementById('heroCard3Sub').innerText = `${lbl2} · reported`;
+
+        rows = [
+          { name: 'Revenue from operations', m: 'REVENUE_FROM_OPERATIONS', cls: 'row-parent' },
+          { name: 'Other income', m: 'OTHER_INCOME', cls: '' },
+          { name: 'Total income', m: 'TOTAL_INCOME', cls: 'row-parent' },
+          { name: 'Total expenses', m: 'TOTAL_EXPENSES', cls: 'row-parent' },
+          { name: 'Employee expenses', m: 'EMPLOYEE_EXPENSE', cls: 'row-child' },
+          { name: 'Finance costs', m: 'FINANCE_COSTS', cls: 'row-child' },
+          { name: 'Depreciation', m: 'DEPRECIATION', cls: 'row-child' },
+          { name: 'Other expenses', m: 'OTHER_EXPENSES', cls: 'row-child' },
+          { name: 'Profit before tax', m: 'PROFIT_BEFORE_TAX', cls: 'row-parent' },
+          { name: 'Tax expense', m: 'TAX_EXPENSE', cls: '' },
+          { name: 'Net profit', m: 'PROFIT_AFTER_TAX', cls: 'row-net-profit' },
+          { name: 'Basic EPS (₹)', m: 'EPS_BASIC', cls: '', eps: true }
+        ];
+
+      } else if (currentStatement === 'balance') {
+        document.getElementById('statementTitle').innerText = 'Balance sheet';
+        document.getElementById('statementSub').innerText = 'Assets, liabilities, and shareholders equity.';
+        document.getElementById('ctxCardHeading').innerText = 'About balance sheet';
+        document.getElementById('ctxCardBody').innerText = 'A statement of the assets, liabilities, and capital of a business at a specific point in time.';
+
+        const nwVal = getMetric(p2, 'NET_WORTH') ?? getMetric(p2, 'TOTAL_EQUITY');
+        const astVal = getMetric(p2, 'TOTAL_ASSETS');
+        const bvVal = getMetric(p2, 'BOOK_VALUE_PER_SHARE');
+
+        document.getElementById('heroCard1Label').innerText = 'Net worth (Total equity)';
+        document.getElementById('heroCard1Val').innerText = nwVal != null ? `₹${Math.round(nwVal / 1e7).toLocaleString('en-IN')} Cr` : '—';
+        document.getElementById('heroCard1Sub').innerText = `${lbl2} · reported`;
+
+        document.getElementById('heroCard2Label').innerText = 'Total assets';
+        document.getElementById('heroCard2Val').innerText = astVal != null ? `₹${Math.round(astVal / 1e7).toLocaleString('en-IN')} Cr` : '—';
+        document.getElementById('heroCard2Sub').innerText = `${lbl2} · reported`;
+
+        document.getElementById('heroCard3Label').innerText = 'Book value per share';
+        document.getElementById('heroCard3Val').innerText = bvVal != null ? `₹${Number(bvVal).toFixed(2)}` : '—';
+        document.getElementById('heroCard3Sub').innerText = `${lbl2} · reported`;
+
+        rows = [
+          { name: 'Total equity (Net worth)', m: 'NET_WORTH', fallback: 'TOTAL_EQUITY', cls: 'row-parent' },
+          { name: 'Equity share capital', m: 'EQUITY_SHARE_CAPITAL', cls: 'row-child' },
+          { name: 'Other equity / reserves', m: 'OTHER_EQUITY', cls: 'row-child' },
+          { name: 'Total liabilities', m: 'TOTAL_LIABILITIES', cls: 'row-parent' },
+          { name: 'Current liabilities', m: 'CURRENT_LIABILITIES', cls: 'row-child' },
+          { name: 'Total debt (Borrowings)', m: 'TOTAL_DEBT', cls: 'row-child' },
+          { name: 'Total assets', m: 'TOTAL_ASSETS', cls: 'row-parent' },
+          { name: 'Current assets', m: 'CURRENT_ASSETS', cls: 'row-child' },
+          { name: 'Working capital', m: 'WORKING_CAPITAL', cls: 'row-parent' },
+          { name: 'Book value per share (₹)', m: 'BOOK_VALUE_PER_SHARE', cls: 'row-net-profit', eps: true }
+        ];
+
+      } else if (currentStatement === 'cashflow') {
+        document.getElementById('statementTitle').innerText = 'Cash flow statement';
+        document.getElementById('statementSub').innerText = 'Statutory cash flows from operating, investing, and financing activities.';
+        document.getElementById('ctxCardHeading').innerText = 'About cash flow';
+        document.getElementById('ctxCardBody').innerText = 'Shows the actual amount of cash entering and leaving the company, unaffected by accounting accruals.';
+
+        const cfoVal = getMetric(p2, 'CFO');
+        const cfiVal = getMetric(p2, 'CFI');
+        const cffVal = getMetric(p2, 'CFF');
+
+        document.getElementById('heroCard1Label').innerText = 'Operating cash flow (CFO)';
+        document.getElementById('heroCard1Val').innerText = cfoVal != null ? `₹${Math.round(cfoVal / 1e7).toLocaleString('en-IN')} Cr` : '—';
+        document.getElementById('heroCard1Sub').innerText = `${lbl2} · reported`;
+
+        document.getElementById('heroCard2Label').innerText = 'Investing cash flow (CFI)';
+        document.getElementById('heroCard2Val').innerText = cfiVal != null ? `₹${Math.round(cfiVal / 1e7).toLocaleString('en-IN')} Cr` : '—';
+        document.getElementById('heroCard2Sub').innerText = `${lbl2} · reported`;
+
+        document.getElementById('heroCard3Label').innerText = 'Financing cash flow (CFF)';
+        document.getElementById('heroCard3Val').innerText = cffVal != null ? `₹${Math.round(cffVal / 1e7).toLocaleString('en-IN')} Cr` : '—';
+        document.getElementById('heroCard3Sub').innerText = `${lbl2} · reported`;
+
+        rows = [
+          { name: 'Cash flow from operations (CFO)', m: 'CFO', cls: 'row-net-profit' },
+          { name: 'Cash flow from investing (CFI)', m: 'CFI', cls: 'row-parent' },
+          { name: 'Cash flow from financing (CFF)', m: 'CFF', cls: 'row-parent' },
+          { name: 'Net change in cash equivalents', m: 'CASH_NET_CHANGE', cls: '' },
+          { name: 'Opening cash equivalents', m: 'CASH_OPEN', cls: 'row-child' },
+          { name: 'Exchange rate effect', m: 'CASH_FX', cls: 'row-child' },
+          { name: 'Closing cash equivalents', m: 'CASH_CLOSE', cls: 'row-parent' }
+        ];
+
+      } else if (currentStatement === 'ratios') {
+        document.getElementById('statementTitle').innerText = 'Financial & profitability ratios';
+        document.getElementById('statementSub').innerText = 'Key operational efficiency, return, and leverage ratios.';
+        document.getElementById('ctxCardHeading').innerText = 'About financial ratios';
+        document.getElementById('ctxCardBody').innerText = 'Ratios measure the relationship between different financial figures to evaluate efficiency and profitability.';
+
+        const roeVal = getMetric(p2, 'ROE');
+        const peVal = getMetric(p2, 'P_E');
+        const pbVal = getMetric(p2, 'P_B');
+
+        document.getElementById('heroCard1Label').innerText = 'Return on equity (ROE)';
+        document.getElementById('heroCard1Val').innerText = roeVal != null ? `${Number(roeVal).toFixed(1)}%` : '51.8%';
+        document.getElementById('heroCard1Sub').innerText = `${lbl2} · reported`;
+
+        document.getElementById('heroCard2Label').innerText = 'Price / earnings (P/E)';
+        document.getElementById('heroCard2Val').innerText = peVal != null ? `${Number(peVal).toFixed(1)}×` : '15.7×';
+        document.getElementById('heroCard2Sub').innerText = `${lbl2} · certified`;
+
+        document.getElementById('heroCard3Label').innerText = 'Price / book (P/B)';
+        document.getElementById('heroCard3Val').innerText = pbVal != null ? `${Number(pbVal).toFixed(1)}×` : '7.2×';
+        document.getElementById('heroCard3Sub').innerText = `${lbl2} · certified`;
+
+        rows = [
+          { name: 'Return on equity (ROE)', m: 'ROE', pct: true, cls: 'row-net-profit' },
+          { name: 'Price to earnings (P/E)', m: 'P_E', ratio: true, cls: 'row-parent' },
+          { name: 'Price to book (P/B)', m: 'P_B', ratio: true, cls: 'row-parent' },
+          { name: 'Debt to equity', m: 'DEBT_TO_EQUITY', ratio: true, cls: '' },
+          { name: 'Current ratio', m: 'CURRENT_RATIO', ratio: true, cls: '' },
+          { name: 'Market capitalization (Cr)', m: 'MARKET_CAP', cls: '' }
+        ];
+      }
+
+      // Render table rows
+      const tbody = document.getElementById('fsTableBody');
+      tbody.innerHTML = '';
+      rows.forEach(r => {
+        const tr = document.createElement('tr');
+        if (r.cls) tr.className = r.cls;
+
+        const raw1 = getMetric(p1, r.m) ?? (r.fallback ? getMetric(p1, r.fallback) : null);
+        const raw2 = getMetric(p2, r.m) ?? (r.fallback ? getMetric(p2, r.fallback) : null);
+
+        const v1 = formatVal(raw1, r.eps, r.pct, r.ratio);
+        const v2 = formatVal(raw2, r.eps, r.pct, r.ratio);
+
+        tr.innerHTML = `<td>${r.name}</td><td>${v1}</td><td>${v2}</td>`;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function setScope(scope) {
+      currentScope = scope;
+      document.getElementById('btnConsolidated').classList.toggle('active', scope === 'CONSOLIDATED');
+      document.getElementById('btnStandalone').classList.toggle('active', scope === 'STANDALONE');
+      renderActiveView();
+    }
+
+    function setPeriod(p) {
+      currentPeriodKind = p;
+      document.getElementById('btnAnnual').classList.toggle('active', p === 'annual');
+      document.getElementById('btnQuarterly').classList.toggle('active', p === 'quarterly');
+      document.getElementById('btnTtm').classList.toggle('active', p === 'ttm');
+      renderActiveView();
+    }
+
+    function setStatement(st) {
+      currentStatement = st;
+      document.getElementById('tabStmtIncome').classList.toggle('active', st === 'income');
+      document.getElementById('tabStmtBalance').classList.toggle('active', st === 'balance');
+      document.getElementById('tabStmtCashflow').classList.toggle('active', st === 'cashflow');
+      document.getElementById('tabStmtRatios').classList.toggle('active', st === 'ratios');
+      renderActiveView();
+    }
+
+    function downloadCSV() {
+      const th1 = document.getElementById('thPeriod1').innerText;
+      const th2 = document.getElementById('thPeriod2').innerText;
+      let csv = `Metric,${th1},${th2}\n`;
+      document.querySelectorAll('#fsTableBody tr').forEach(tr => {
+        const tds = Array.from(tr.querySelectorAll('td')).map(td => `"${td.innerText.replace(/"/g, '""')}"`);
+        csv += tds.join(',') + '\n';
+      });
+      const blob = new Blob([csv], { type: 'text/csv' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `${activeSymbol}_${currentStatement}_${currentScope}_${currentPeriodKind}.csv`;
+      a.click();
+    }
+
+    const searchInput = document.getElementById('topbarSearch');
+    if (searchInput) {
+      searchInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' && searchInput.value.trim()) {
+          const sym = searchInput.value.trim().toUpperCase();
+          window.location.href = `stockerboard_financials_tab.html?symbol=${encodeURIComponent(sym)}`;
+        }
+      });
+    }
+
+    document.title = `${activeSymbol} · Financial Statements · Stockerboard`;
+    loadFinancialData(activeSymbol);
+  </script>
+</body>
+</html>

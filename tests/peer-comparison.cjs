@@ -1,0 +1,10 @@
+const assert=require('node:assert/strict');
+const {cohort,number}=require('../scripts/peer-comparison.js');
+const universe=['BANK','SMALLBANK','GOLDLENDER','JEWELLER','UNKNOWN'].map(symbol=>({symbol,sector:'Financial Services'}));
+const companies={BANK:{status:'AVAILABLE',group:'BANKING'},SMALLBANK:{status:'AVAILABLE',group:'BANKING'},GOLDLENDER:{status:'AVAILABLE',group:'NBFC:GOLD'},JEWELLER:{status:'AVAILABLE',group:'CORPORATE:JEWELLERY'},UNKNOWN:{status:'UNAVAILABLE',group:null}};
+assert.deepEqual(cohort('BANK',universe,{companies}).map(c=>c.symbol),['BANK','SMALLBANK']);
+assert.deepEqual(cohort('GOLDLENDER',universe,{companies}).map(c=>c.symbol),['GOLDLENDER']);
+assert.deepEqual(cohort('UNKNOWN',universe,{companies}),[]);
+assert.equal(number({status:'UNAVAILABLE',value:20}),null);
+assert.equal(number({status:'AVAILABLE',value:0}),0);
+console.log('PASS: no market fallback, banking/lender/jewellery separation, unknown classifications and metric status');

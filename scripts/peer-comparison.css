@@ -1,0 +1,63 @@
+/* Stockerboard Peer Comparison Table Styling */
+.peer-table a.peer-company-link,
+.peer-table a.peer-company-link:link,
+.peer-table a.peer-company-link:visited,
+.peers-table a.peer-company-link,
+.peers-table a.peer-company-link:link,
+.peers-table a.peer-company-link:visited,
+#peersTableBody a.peer-company-link,
+#peersTableBody a.peer-company-link:link,
+#peersTableBody a.peer-company-link:visited {
+    color: var(--ink, #142b24);
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 1.6;
+    border-radius: 4px;
+    transition: color 0.15s ease;
+    display: inline-block;
+}
+
+.peer-table a.peer-company-link:hover,
+.peers-table a.peer-company-link:hover,
+#peersTableBody a.peer-company-link:hover {
+    color: var(--green, #06543f);
+    text-decoration: underline;
+    text-decoration-color: var(--green-border, #ddebe2);
+    text-underline-offset: 4px;
+}
+
+.peer-table a.peer-company-link:focus-visible,
+.peers-table a.peer-company-link:focus-visible,
+#peersTableBody a.peer-company-link:focus-visible {
+    outline: 2px solid var(--green, #06543f);
+    outline-offset: 4px;
+}
+
+#peersTableBody tr:hover {
+    background: var(--green-light, #eff7f2);
+}
+
+#peersTableBody tr.row-active {
+    background: var(--green-light, #eff7f2);
+}
+
+#peersTableBody tr.row-active a.peer-company-link {
+    color: var(--green, #06543f);
+    font-weight: 700;
+}
+
+#peersTableBody td {
+    vertical-align: middle;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+#peersTableBody td:not(:first-child) {
+    font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .peer-company-link {
+        transition: none;
+    }
+}

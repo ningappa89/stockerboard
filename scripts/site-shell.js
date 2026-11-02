@@ -34,9 +34,9 @@
   }
  }
  function sectionForLocation(path,search) {
-  if (path.startsWith('/stocks/')) return 'stocks';
+  if (path.startsWith('/stocks/') || path.includes('stockerboard_company_') || path.includes('stockerboard_valuation_') || path.includes('stockerboard_financials_') || path.includes('stockerboard_peers_') || path.includes('stockerboard_filings_')) return 'stocks';
   if (path.startsWith('/learn/')) return 'learn';
-  if(path==='/'||path==='/index.html')return new URLSearchParams(search).get('mode')==='pro'?'pro':'home';
+  if(path==='/'||path==='/index.html'||path.includes('pro_research'))return new URLSearchParams(search).get('mode')==='pro'||path.includes('pro_research')?'pro':'home';
   return null;
  }
  function updateNavigation() {

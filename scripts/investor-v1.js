@@ -381,17 +381,25 @@
         market.append(chart);
         const finance = element('section', 'investor-company-panel');
         finance.id = 'investorCompanyFinancials';
-        finance.append(financials);
+        const supporting = element('details', 'fs-provenance');
+        supporting.append(element('summary', '', 'Supporting ratios and sector context'), financials);
         const statements=element('section','fs-root');
         statements.id='dossierFinancialStatements';
         statements.setAttribute('aria-label','Financial statements');
-        finance.append(statements);
-        const panels = [overview, market, finance, advanced];
+        finance.append(statements, supporting);
+        const valuation = element('section', 'investor-company-panel');
+        valuation.id = 'investorCompanyValuation';
+        const valuationGrid = element('div', 'investor-summary-grid');
+        valuationGrid.id = 'investorValuationGrid';
+        const pending = element('div', 'research-pending');
+        pending.append(element('h2', '', 'Additional valuation measures'), element('p', '', 'EV/Sales, EV/EBITDA, dividend yield and free-cash-flow yield are not yet certified for this release. Historical benchmarks require a validated history. Unavailable values are not estimated.'));
+        valuation.append(element('h2', '', 'Valuation'), valuationGrid, pending);
+        const panels = [overview, market, finance, valuation, advanced];
         const tabs = element('nav', 'investor-dossier-tabs');
         tabs.id = 'investorDossierTabs';
         tabs.setAttribute('role', 'tablist');
         tabs.setAttribute('aria-label', 'Company sections');
-        const labels = ['Overview', 'Price & chart', 'More financials', 'Technicals & risk'];
+        const labels = ['Overview', 'Price & chart', 'Financials', 'Valuation', 'Technicals & risk'];
         const buttons = panels.map((panel, index) => {
             panel.setAttribute('role', 'tabpanel');
             panel.setAttribute('aria-labelledby', `investorDossierTab${index}`);
@@ -419,7 +427,7 @@
             });
         }
         window.activateInvestorDossierTab = name => {
-            const index = ['overview', 'market', 'financials', 'technicals'].indexOf(name);
+            const index = ['overview', 'market', 'financials', 'valuation', 'technicals'].indexOf(name);
             activate(index < 0 ? 0 : index);
         };
         hero.after(tabs);
@@ -464,6 +472,8 @@
                 ['Book value / share', formatSemanticValue(stock.bvps, bs.BVPS, {prefix: '₹', digits: 2}), bs.BVPS]
             ], `Price as of ${val.P_E?.price_as_of || stock.price_as_of || 'date unavailable'}`)
         );
+        const valuationGrid = document.getElementById('investorValuationGrid');
+        if (valuationGrid && grid.lastElementChild) valuationGrid.replaceChildren(grid.lastElementChild);
         const marketCap = document.getElementById('dossierMarketCap');
         if (marketCap) {
             const mcapVal = formatSemanticValue(stock.market_cap_crore, val.MARKET_CAP, {prefix: '₹', suffix: ' Cr', digits: 0});

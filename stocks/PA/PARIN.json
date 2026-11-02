@@ -161,46 +161,86 @@
       "open": 713.9,
       "time": "2026-10-26",
       "volume": 11592
+    },
+    {
+      "close": 688.35,
+      "high": 697.6,
+      "low": 666.1,
+      "open": 690.05,
+      "time": "2026-10-27",
+      "volume": 8923
+    },
+    {
+      "close": 628.65,
+      "high": 697.0,
+      "low": 612.2,
+      "open": 697.0,
+      "time": "2026-10-28",
+      "volume": 21718
+    },
+    {
+      "close": 689.15,
+      "high": 704.0,
+      "low": 605.0,
+      "open": 635.0,
+      "time": "2026-10-29",
+      "volume": 31692
+    },
+    {
+      "close": 694.25,
+      "high": 699.0,
+      "low": 661.3,
+      "open": 690.0,
+      "time": "2026-10-30",
+      "volume": 6395
+    },
+    {
+      "close": 675.8,
+      "high": 701.0,
+      "low": 653.55,
+      "open": 701.0,
+      "time": "2026-11-02",
+      "volume": 11028
     }
   ],
   "company_name": "PARIN ENTERPRISES LIMITED",
   "history": {
     "first_session": "2026-09-25",
     "has_full_52w_history": false,
-    "last_session": "2026-10-26",
-    "sessions_available": 20
+    "last_session": "2026-11-02",
+    "sessions_available": 25
   },
   "industry": null,
   "isin": "INE00U801010",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
+    "is_stage2": false,
+    "momentum_score": 68,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.48x"
+    "volume_multiplier": "0.87x"
   },
   "price": {
-    "as_of": "2026-10-26",
-    "change": -14.2,
-    "change_pct": -2.02,
-    "close": 688.75,
-    "previous_close": 702.95,
+    "as_of": "2026-11-02",
+    "change": -18.45,
+    "change_pct": -2.66,
+    "close": 675.8,
+    "previous_close": 694.25,
     "type": "EOD_CLOSE",
-    "volume": 11592
+    "volume": 11028
   },
   "range": {
-    "distance_from_high_pct": -12.71,
-    "distance_from_low_pct": 5.36,
+    "distance_from_high_pct": -14.35,
+    "distance_from_low_pct": 11.7,
     "high_52w": 789.0,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 653.7,
-    "range_position_pct": 25.91
+    "low_52w": 605.0,
+    "range_position_pct": 38.48
   },
   "risk_model": {
-    "invalidation_floor": 664.64,
-    "risk_per_share": 37.88,
-    "technical_pivot": 702.52
+    "invalidation_floor": 652.15,
+    "risk_per_share": 37.17,
+    "technical_pivot": 689.32
   },
   "schema_version": "1.0",
   "sector": null,

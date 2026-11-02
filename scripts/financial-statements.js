@@ -69,6 +69,7 @@
    const doc=JSON.parse(new TextDecoder().decode(raw));if(doc.schema_version!=='1.0')throw Error('This financial statement format is unsupported.');if(doc.symbol!==symbol||doc.release_id!==index.release_id)throw Error('Financial statement identity check failed.');if(host._request!==request)return;render(host,doc);
   }catch(error){if(host._request!==request)return;host.replaceChildren(node('p','fs-empty',error.message));const retry=node('button','fs-download','Retry');retry.onclick=()=>load(host,symbol);host.append(retry);}
  }
+ root.StockerboardStatements={render};
  root.loadFinancialStatements=(symbol)=>{const host=document.getElementById('dossierFinancialStatements');if(host)load(host,symbol);};
  function init(){const initial=location.hash.match(/^#stock\/([^/]+)$/);if(initial)root.loadFinancialStatements(decodeURIComponent(initial[1]));document.querySelectorAll('[data-financial-statements]').forEach((host,i)=>{if(!host.id)host.id='companyFinancialStatements'+i;if(host.dataset.symbol)load(host,host.dataset.symbol);});}
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();

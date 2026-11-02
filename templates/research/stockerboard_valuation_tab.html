@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title id="pageTitle">Valuation · Stockerboard</title>
+  <script>
+    (function() {
+      try {
+        const p = new URLSearchParams(window.location.search);
+        const s = (p.get('symbol') || 'TCS').toUpperCase();
+        document.title = `${s} · Valuation · Stockerboard`;
+        const cached = sessionStorage.getItem('stock_meta_' + s);
+        window.__ACTIVE_SYM__ = s;
+        window.__PREFETCHED_META__ = cached ? JSON.parse(cached) : null;
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="icon" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #fafbf9;
+      --sub: #f4f7f4;
+      --ink: #142b24;
+      --green: #06543f;
+      --green-light: #eff7f2;
+      --green-border: #ddebe2;
+      --green-hover: #08694f;
+      --coral: #e06743;
+      --coral-bg: #fff5f2;
+      --amber-bg: #fffbeb;
+      --amber-border: #fef3c7;
+      --amber-text: #92400e;
+      --muted: #6b7b74;
+      --line: #e3eae5;
+      --line-subtle: #edf2ee;
+      --white: #ffffff;
+      --shadow-sm: 0 2px 8px rgba(18, 49, 34, 0.04);
+      --shadow-md: 0 10px 30px rgba(18, 49, 34, 0.06);
+      --font: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Topbar */
+    .topbar {
+      height: 64px;
+      background: var(--white);
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 32px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .brand-area {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--ink);
+      font-weight: 800;
+      font-size: 19px;
+      letter-spacing: -0.5px;
+    }
+
+    .mark-icon {
+      width: 26px;
+      height: 26px;
+      background: var(--green);
+      border-radius: 6px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding-left: 5px;
+      gap: 3px;
+      position: relative;
+    }
+    .mark-bar { height: 2px; background: #fff; border-radius: 1px; }
+    .mark-bar:nth-child(1) { width: 14px; }
+    .mark-bar:nth-child(2) { width: 10px; }
+    .mark-bar:nth-child(3) { width: 6px; }
+    .mark-dot {
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      background: var(--coral);
+      border-radius: 50%;
+      top: 5px;
+      right: 5px;
+    }
+
+    .topbar-search {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--sub);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 7px 14px;
+      width: 280px;
+      transition: all 0.2s;
+    }
+    .topbar-search:focus-within {
+      background: #fff;
+      border-color: var(--green);
+      box-shadow: 0 0 0 3px rgba(6, 84, 63, 0.08);
+      width: 320px;
+    }
+    .topbar-search svg { color: var(--muted); flex-shrink: 0; }
+    .topbar-search input {
+      border: none;
+      background: transparent;
+      outline: none;
+      font-family: var(--font);
+      font-size: 13px;
+      color: var(--ink);
+      width: 100%;
+    }
+    .topbar-search input::placeholder { color: var(--muted); }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+    .nav a {
+      text-decoration: none;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      transition: color 0.15s;
+      position: relative;
+      padding: 4px 0;
+    }
+    .nav a:hover { color: var(--ink); }
+    .nav a.active {
+      color: var(--ink);
+      font-weight: 700;
+    }
+    .nav a.active::after {
+      content: '';
+      position: absolute;
+      bottom: -18px;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--green);
+    }
+
+    .btn-signin {
+      background: var(--green);
+      border: none;
+      color: #fff;
+      font-family: var(--font);
+      font-size: 13px;
+      font-weight: 600;
+      padding: 8px 18px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .btn-signin:hover { background: var(--green-hover); }
+
+    /* Page Container */
+    .page-container {
+      max-width: 1180px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 24px 24px 60px 24px;
+      flex: 1;
+    }
+
+    /* Company Hero Strip */
+    .identity-row {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .company-avatar {
+      width: 48px;
+      height: 48px;
+      background: #0284c7;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      font-weight: 800;
+      color: #fff;
+      letter-spacing: -0.5px;
+    }
+    .company-title {
+      font-size: 22px;
+      font-weight: 800;
+      letter-spacing: -0.4px;
+      color: var(--ink);
+      margin-bottom: 3px;
+    }
+    .company-submeta {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    /* Subnav Tabs */
+    .subnav-tabs {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 28px;
+    }
+    .tab-item {
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--muted);
+      padding: 10px 0;
+      position: relative;
+      transition: color 0.15s;
+    }
+    .tab-item:hover { color: var(--ink); }
+    .tab-item.active {
+      color: var(--green);
+      font-weight: 700;
+    }
+    .tab-item.active::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--green);
+    }
+    .tab-item.pro-pill {
+      margin-left: auto;
+      color: var(--coral);
+      font-weight: 700;
+      font-size: 13px;
+    }
+
+    /* Section Title & Badge */
+    .section-header-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 4px;
+    }
+    .section-title {
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: var(--ink);
+    }
+    .concept-tag {
+      font-size: 10.5px;
+      font-family: var(--font-mono);
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      color: #b45309;
+      background: #fef3c7;
+      padding: 3px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+    .section-subtitle {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+
+    /* Amber Snapshot Notice Banner */
+    .snapshot-alert-banner {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: var(--amber-bg);
+      border: 1px solid var(--amber-border);
+      border-radius: 8px;
+      padding: 12px 18px;
+      margin-bottom: 24px;
+      font-size: 12.5px;
+      color: var(--amber-text);
+      line-height: 1.4;
+    }
+    .snapshot-alert-banner svg {
+      color: #d97706;
+      flex-shrink: 0;
+    }
+
+    /* 3 Valuation Cards Grid */
+    .valuation-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-bottom: 24px;
+    }
+    .val-card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 20px 24px;
+      box-shadow: var(--shadow-sm);
+    }
+    .val-card-label {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .val-card-num {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: -0.6px;
+      color: var(--ink);
+      margin-bottom: 4px;
+      font-variant-numeric: tabular-nums;
+    }
+    .val-card-sub {
+      font-size: 11.5px;
+      color: var(--muted);
+    }
+
+    /* Two Context Columns */
+    .context-columns-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-bottom: 24px;
+    }
+    .context-box-card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 20px 24px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .context-box-title {
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--ink);
+      margin-bottom: 4px;
+    }
+    .context-box-subtitle {
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 14px;
+    }
+    .context-def-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 16px;
+    }
+    .context-def-table tr td {
+      padding: 8px 0;
+      font-size: 13px;
+    }
+    .context-def-table td:first-child {
+      font-weight: 700;
+      color: var(--ink);
+      width: 25%;
+    }
+    .context-def-table td:last-child {
+      color: var(--muted);
+    }
+    .context-metrics-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 16px;
+    }
+    .context-metrics-table tr td {
+      padding: 8px 0;
+      font-size: 13px;
+    }
+    .context-metrics-table td:first-child {
+      color: var(--ink);
+      font-weight: 600;
+    }
+    .context-metrics-table td:last-child {
+      color: var(--ink);
+      font-weight: 700;
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* Warning Callout Box */
+    .info-callout-box {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--sub);
+      border: 1px solid var(--line-subtle);
+      border-radius: 6px;
+      padding: 10px 14px;
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.4;
+    }
+    .info-callout-box svg {
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+
+    /* Calculation Basis Table Card */
+    .basis-card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 20px 24px;
+      box-shadow: var(--shadow-sm);
+      margin-bottom: 24px;
+    }
+    .basis-header-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+    }
+    .basis-title {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--ink);
+    }
+    .basis-link {
+      font-size: 12.5px;
+      font-weight: 600;
+      color: var(--green);
+      text-decoration: none;
+    }
+    .basis-link:hover { text-decoration: underline; }
+
+    .basis-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    .basis-table th {
+      text-align: left;
+      padding: 10px 14px;
+      font-size: 11.5px;
+      font-weight: 600;
+      color: var(--muted);
+      border-bottom: 1px solid var(--line);
+      background: #fafbf9;
+    }
+    .basis-table td {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--line-subtle);
+      color: var(--ink);
+      font-variant-numeric: tabular-nums;
+    }
+    .basis-table tr:last-child td { border-bottom: none; }
+    .basis-footnote {
+      margin-top: 14px;
+      font-size: 11.5px;
+      color: var(--muted);
+    }
+
+    /* Historical Valuation Notice Card */
+    .history-notice-card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 18px 24px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .history-icon-box {
+      width: 36px;
+      height: 36px;
+      background: var(--sub);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted);
+      flex-shrink: 0;
+    }
+    .history-notice-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--ink);
+      margin-bottom: 2px;
+    }
+    .history-notice-body {
+      font-size: 12.5px;
+      color: var(--muted);
+    }
+
+    /* Sub-Footer */
+    .page-subfooter {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 10px;
+      font-size: 11.5px;
+      color: var(--muted);
+    }
+    .page-subfooter a {
+      color: var(--muted);
+      text-decoration: none;
+    }
+    .page-subfooter a:hover { color: var(--ink); }
+
+    @media (max-width: 900px) {
+      .valuation-cards-grid { grid-template-columns: 1fr; }
+      .context-columns-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+<script src="/scripts/research-data.js?v=026ecc4bf6ca"></script>
+</head>
+<body>
+
+  <!-- Topbar -->
+  <header class="topbar">
+    <div class="brand-area">
+      <a href="/" class="brand">
+        <div class="mark-icon">
+          <div class="mark-bar"></div>
+          <div class="mark-bar"></div>
+          <div class="mark-bar"></div>
+          <div class="mark-dot"></div>
+        </div>
+        <span>Stockerboard</span>
+      </a>
+
+      <div class="topbar-search">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="topbarSearch" placeholder="Search another company..." autocomplete="off">
+      </div>
+    </div>
+
+    <nav class="nav">
+      <a href="/">Home</a>
+      <a href="/stocks/" class="active" id="navStocks">Stocks</a>
+      <a href="/learn/">Learn</a>
+      <a href="/?mode=pro">Pro research</a>
+    </nav>
+
+    <button type="button" class="btn-signin">Sign in</button>
+  </header>
+
+  <main class="page-container">
+    <!-- Company Identity Strip -->
+    <header class="identity-row">
+      <div class="company-avatar" id="heroAvatar">—</div>
+      <div>
+        <h1 class="company-title" id="companyName">—</h1>
+        <div class="company-submeta">
+          <span id="tickerLine">NSE</span>
+          <span>·</span>
+          <span id="sectorTag">—</span>
+        </div>
+      </div>
+    </header>
+    <script>
+      (function() {
+        try {
+          const s = window.__ACTIVE_SYM__ || (new URLSearchParams(window.location.search).get('symbol') || 'TCS').toUpperCase();
+          const meta = window.__PREFETCHED_META__;
+          const av = document.getElementById('heroAvatar');
+          const cn = document.getElementById('companyName');
+          const tl = document.getElementById('tickerLine');
+          const st = document.getElementById('sectorTag');
+          if (av) av.innerText = s.substring(0, 3);
+          if (tl) tl.innerText = `NSE: ${s}`;
+          if (meta && meta.name) {
+            if (cn) cn.innerText = meta.name;
+            if (st) st.innerText = meta.sector || 'General Corporate';
+          } else {
+            if (cn) cn.innerText = s;
+          }
+          document.querySelectorAll('.subnav-tabs a').forEach(a => {
+            const href = a.getAttribute('href');
+            if (href && href.startsWith('stockerboard_')) {
+              const base = href.split('?')[0];
+              a.setAttribute('href', `${base}?symbol=${encodeURIComponent(s)}`);
+            }
+          });
+          const navStk = document.getElementById('navStocks');
+          if (navStk) navStk.href = `stockerboard_company_overview.html?symbol=${encodeURIComponent(s)}`;
+        } catch(e) {}
+      })();
+    </script>
+
+    <!-- Subnav Tabs -->
+    <nav class="subnav-tabs" aria-label="Company views">
+      <a href="stockerboard_company_overview.html" class="tab-item" id="tabOverview">Overview</a>
+      <a href="stockerboard_financials_tab.html" class="tab-item" id="tabFinancials">Financials</a>
+      <a href="stockerboard_valuation_tab.html" class="tab-item active" id="tabValuation">Valuation</a>
+      <a href="stockerboard_peers_tab.html" class="tab-item" id="tabPeers">Peers</a>
+      <a href="stockerboard_filings_tab.html" class="tab-item" id="tabFilings">Filings</a>
+      <a href="/?mode=pro" class="tab-item pro-pill">Advanced PRO ↗</a>
+    </nav>
+
+    <!-- Section Title & Badge -->
+    <div class="section-header-row">
+      <h2 class="section-title">Valuation</h2>
+      <span class="concept-tag">DESIGN CONCEPT</span>
+    </div>
+    <div class="section-subtitle">
+      Understand the price relative to earnings and book value.
+    </div>
+
+    <!-- Amber Alert Banner -->
+    <div class="snapshot-alert-banner">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="12" y1="8" x2="12" y2="12"></line>
+        <line x1="12" y1="16" x2="12.01" y2="16"></line>
+      </svg>
+      <div>
+        <strong>Historical snapshot · Price basis: <span id="bannerPriceDate">09 Oct 2026</span></strong>
+        <span>These multiples are not calculated using the latest market quote.</span>
+      </div>
+    </div>
+
+    <!-- 3 Valuation Cards Grid -->
+    <section class="valuation-cards-grid">
+      <div class="val-card">
+        <div class="val-card-label">Price / earnings</div>
+        <div class="val-card-num" id="valPe">15.66×</div>
+        <div class="val-card-sub" id="valPeSub">Consolidated · historical snapshot</div>
+      </div>
+      <div class="val-card">
+        <div class="val-card-label">Price / book</div>
+        <div class="val-card-num" id="valPb">7.19×</div>
+        <div class="val-card-sub" id="valPbSub">Consolidated · historical snapshot</div>
+      </div>
+      <div class="val-card">
+        <div class="val-card-label">Market capitalisation</div>
+        <div class="val-card-num" id="valMcap">₹7.80L Cr</div>
+        <div class="val-card-sub" id="valMcapSub">Price basis: 09 Oct 2026</div>
+      </div>
+    </section>
+
+    <!-- Two Context Columns -->
+    <div class="context-columns-grid">
+      <!-- Left Column: What these multiples mean -->
+      <section class="context-box-card">
+        <div>
+          <h3 class="context-box-title">What these multiples mean</h3>
+          <table class="context-def-table">
+            <tbody>
+              <tr>
+                <td>P/E</td>
+                <td>Share price relative to earnings per share.</td>
+              </tr>
+              <tr>
+                <td>P/B</td>
+                <td>Share price relative to book value per share.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="info-callout-box">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="8" x2="12" y2="12"></line>
+            <line x1="12" y1="16" x2="12.01" y2="16"></line>
+          </svg>
+          <span>A lower multiple alone does not establish that a company is undervalued.</span>
+        </div>
+      </section>
+
+      <!-- Right Column: Business context -->
+      <section class="context-box-card">
+        <div>
+          <h3 class="context-box-title">Business context</h3>
+          <div class="context-box-subtitle" id="bizContextSub">Supporting fundamentals · FY ended Mar 2026</div>
+          <table class="context-metrics-table">
+            <tbody>
+              <tr>
+                <td>Return on equity</td>
+                <td id="bizRoe">48.19%</td>
+              </tr>
+              <tr>
+                <td>Debt / equity</td>
+                <td id="bizDe">0.00×</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="info-callout-box">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="8" x2="12" y2="12"></line>
+            <line x1="12" y1="16" x2="12.01" y2="16"></line>
+          </svg>
+          <span>Context, not a valuation verdict.</span>
+        </div>
+      </section>
+    </div>
+
+    <!-- Calculation Basis Table Card -->
+    <section class="basis-card">
+      <div class="basis-header-row">
+        <h3 class="basis-title">Calculation basis</h3>
+        <a href="/methodology/" class="basis-link">View methodology →</a>
+      </div>
+
+      <table class="basis-table">
+        <thead>
+          <tr>
+            <th>Metric</th>
+            <th>Price date</th>
+            <th>Financial input period</th>
+            <th>Scope</th>
+          </tr>
+        </thead>
+        <tbody id="basisTableBody">
+          <tr>
+            <td>P/E</td>
+            <td id="basisPeDate">09 Oct 2026</td>
+            <td>Not specified in index</td>
+            <td id="basisPeScope">Consolidated</td>
+          </tr>
+          <tr>
+            <td>P/B</td>
+            <td id="basisPbDate">09 Oct 2026</td>
+            <td>Not specified in index</td>
+            <td id="basisPbScope">Consolidated</td>
+          </tr>
+          <tr>
+            <td>Market cap</td>
+            <td id="basisMcapDate">09 Oct 2026</td>
+            <td>Share-count date not shown</td>
+            <td>Company equity</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="basis-footnote">
+        Additional input metadata is needed to make every calculation traceable.
+      </div>
+    </section>
+
+    <!-- Historical Valuation Notice Card -->
+    <section class="history-notice-card">
+      <div class="history-icon-box">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="20" x2="18" y2="10"></line>
+          <line x1="12" y1="20" x2="12" y2="4"></line>
+          <line x1="6" y1="20" x2="6" y2="14"></line>
+        </svg>
+      </div>
+      <div>
+        <h4 class="history-notice-title">Historical valuation</h4>
+        <p class="history-notice-body">A validated valuation series is not available in this release. Price history alone cannot establish historical P/E or P/B.</p>
+      </div>
+    </section>
+
+    <!-- Sub-Footer -->
+    <div class="page-subfooter">
+      <span>Design preview using local index values · Not a live quote</span>
+      <a href="/learn/pe-ratio/">Learn about valuation →</a>
+    </div>
+  </main>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const activeSymbol = (params.get('symbol') || 'TCS').toUpperCase();
+
+    function updateSubnav(symbol) {
+      document.querySelectorAll('.subnav-tabs a').forEach(a => {
+        const href = a.getAttribute('href');
+        if (href && href.startsWith('stockerboard_')) {
+          const base = href.split('?')[0];
+          a.setAttribute('href', `${base}?symbol=${encodeURIComponent(symbol)}`);
+        }
+      });
+      document.getElementById('navStocks').href = '/stocks/';
+    }
+
+    async function hydrateValuation(symbol) {
+      for (const id of ['kpiMcap','kpiPe','kpiRoe','kpiRev','kpiMargin','kpiDiv','heroCard1Val','heroCard2Val','heroCard3Val','valPe','valPb','valMcap','priceDisplay']) {
+        const node=document.getElementById(id);if(node)node.textContent='—';
+      }
+      for (const id of ['overviewPlTable','fsTableBody','filingsTableBody']) document.getElementById(id)?.replaceChildren();
+      if(!/^[A-Z0-9&_.-]{1,40}$/.test(symbol)){StockerboardData.error('Invalid company symbol');return;}
+
+      updateSubnav(symbol);
+      document.getElementById('heroAvatar').innerText = symbol.substring(0, 3);
+      document.getElementById('tickerLine').innerText = `NSE: ${symbol}`;
+
+      // Check search_universe for name & sector
+      try {
+        const uRes = await fetch('/search_universe.json');
+        if (uRes.ok) {
+          const uData = await uRes.json();
+          const found = uData.find(x => x.symbol === symbol);
+          if (found) {
+            document.getElementById('companyName').innerText = found.name;
+            document.getElementById('sectorTag').innerText = found.sector;
+          }
+        }
+      } catch (e) {}
+
+      // Fetch stock JSON for latest Friday 30 Oct 2026 market data & fundamentals
+      let sData = null;
+      try {
+        const prefix = symbol.substring(0, 2).replace(/[^A-Z0-9]/g, '_').padEnd(2, '_');
+        const sRes = await StockerboardData.stock(symbol);
+        if (sRes.ok) {
+          sData = await sRes.json();
+          if (sData.company_name) {
+            document.getElementById('companyName').innerText = sData.company_name;
+          }
+          if (sData.sector) {
+            document.getElementById('sectorTag').innerText = sData.sector;
+          }
+          try {
+            sessionStorage.setItem('stock_meta_' + symbol, JSON.stringify({
+              name: sData.company_name || document.getElementById('companyName').innerText,
+              sector: sData.sector || document.getElementById('sectorTag').innerText
+            }));
+          } catch (e) {}
+          if (sData.roe != null) {
+            document.getElementById('bizRoe').innerText = `${Number(sData.roe).toFixed(2)}%`;
+          } else {
+            document.getElementById('bizRoe').innerText = '—';
+          }
+          if (sData.debt_to_equity != null) {
+            document.getElementById('bizDe').innerText = `${Number(sData.debt_to_equity).toFixed(2)}×`;
+          } else {
+            document.getElementById('bizDe').innerText = '—';
+          }
+        }
+      } catch (e) {
+        console.warn('Stock JSON fetch notice:', e);
+      }
+
+      // Fetch certified valuation export
+      try {
+        const vRes = await StockerboardData.valuations();
+        if (vRes.ok) {
+          const vData = await vRes.json();
+          const vItem = vData.companies?.[symbol];
+          if (vItem && vItem.metrics) {
+            const m = vItem.metrics;
+            const grid=document.getElementById('valPe').closest('.val-card').parentElement;
+            for(const [key,label,unit] of [['EV_SALES','EV / Sales','×'],['EV_EBITDA','EV / EBITDA','×'],['FCF_YIELD','Free cash flow yield','%'],['DIVIDEND_YIELD','Dividend yield','%']]){
+              const cell=m[key],card=document.createElement('div');card.className='val-card';
+              const title=document.createElement('div');title.className='val-card-label';title.textContent=label;
+              const value=document.createElement('div');value.className='val-card-num';value.textContent=cell?.status==='AVAILABLE'&&Number.isFinite(cell.value)?cell.value.toFixed(2)+unit:'—';
+              const note=document.createElement('div');note.className='val-card-sub';note.textContent=cell?.status==='AVAILABLE'?'Price basis: '+vItem.valuation_date:(cell?.reason||'No certified value').replaceAll('_',' ').toLowerCase();
+              card.append(title,value,note);grid.append(card);
+            }
+
+            const scope = vItem.scope || 'CONSOLIDATED';
+            const scopeLabel = scope.charAt(0) + scope.slice(1).toLowerCase();
+            const dateStr = vItem.valuation_date;
+            const parts = dateStr.split('-');
+            const dObj = new Date(parts[0], parts[1] - 1, parts[2]);
+            const formattedDate = !isNaN(dObj.getTime()) ? dObj.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' }) : dateStr;
+
+            // P/E
+            if (m.P_E && m.P_E.status === 'AVAILABLE') {
+              document.getElementById('valPe').innerText = `${Number(m.P_E.value).toFixed(2)}×`;
+              document.getElementById('valPeSub').innerText = `${scopeLabel} · certified release`;
+            } else if (sData && sData.pe != null) {
+              document.getElementById('valPe').innerText = `${Number(sData.pe).toFixed(2)}×`;
+              document.getElementById('valPeSub').innerText = `${scopeLabel} · snapshot multiple`;
+            } else {
+              document.getElementById('valPe').innerText = '—';
+            }
+
+            // P/B
+            if (m.P_B && m.P_B.status === 'AVAILABLE') {
+              document.getElementById('valPb').innerText = `${Number(m.P_B.value).toFixed(2)}×`;
+              document.getElementById('valPbSub').innerText = `${scopeLabel} · certified release`;
+            } else if (sData && sData.pb != null) {
+              document.getElementById('valPb').innerText = `${Number(sData.pb).toFixed(2)}×`;
+              document.getElementById('valPbSub').innerText = `${scopeLabel} · snapshot multiple`;
+            } else {
+              document.getElementById('valPb').innerText = '—';
+            }
+
+            // Market Cap
+            if (m.MARKET_CAP && m.MARKET_CAP.status === 'AVAILABLE') {
+              const cr = Number(m.MARKET_CAP.value) / 1e7;
+              document.getElementById('valMcap').innerText = cr >= 100000 ? `₹${(cr / 100000).toFixed(2)}L Cr` : `₹${Math.round(cr).toLocaleString('en-IN')} Cr`;
+              document.getElementById('valMcapSub').innerText = `Price basis: ${formattedDate}`;
+            } else if (sData && sData.market_cap != null) {
+              const cr = Number(sData.market_cap) / 1e7;
+              document.getElementById('valMcap').innerText = cr >= 100000 ? `₹${(cr / 100000).toFixed(2)}L Cr` : `₹${Math.round(cr).toLocaleString('en-IN')} Cr`;
+              document.getElementById('valMcapSub').innerText = `Price basis: ${formattedDate}`;
+            } else {
+              document.getElementById('valMcap').innerText = '—';
+            }
+
+            document.getElementById('bannerPriceDate').innerText = formattedDate;
+            document.getElementById('basisPeDate').innerText = formattedDate;
+            document.getElementById('basisPbDate').innerText = formattedDate;
+            document.getElementById('basisMcapDate').innerText = formattedDate;
+            document.getElementById('basisPeScope').innerText = scopeLabel;
+            document.getElementById('basisPbScope').innerText = scopeLabel;
+          }
+        }
+      } catch (e) {
+        StockerboardData.error(e.message);
+      }
+    }
+
+    const searchInput = document.getElementById('topbarSearch');
+    if (searchInput) {
+      searchInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' && searchInput.value.trim()) {
+          const sym = searchInput.value.trim().toUpperCase();
+          window.location.href = `stockerboard_valuation_tab.html?symbol=${encodeURIComponent(sym)}`;
+        }
+      });
+    }
+
+    document.title = `${activeSymbol} · Valuation · Stockerboard`;
+    hydrateValuation(activeSymbol);
+  </script>
+</body>
+</html>

@@ -434,11 +434,13 @@
 <script defer src="/scripts/site-shell.js"></script>
 <link rel="stylesheet" href="/scripts/financial-statements.css?v=FS_UI_V1_6">
 <script defer src="/scripts/financial-statements.js?v=FS_UI_V1_6"></script>
+<link rel="stylesheet" href="/scripts/research-layout.css?v=20261029">
+<script defer src="/scripts/research-layout.js?v=20261029"></script>
 </head>
 <body>
     {{ header_html }}
 
-    <main class="container">
+    <main class="container" data-research-company>
         <!-- Breadcrumb Navigation -->
         <nav class="breadcrumb" aria-label="Breadcrumb">
             <a href="/">Home</a>
@@ -528,6 +530,7 @@
             </div>
         </section>
 
+        <div id="research-overview" data-research-panel="overview">
         <!-- Business Performance (TTM) -->
         <section class="section-box">
             <h2>Business Performance</h2>
@@ -574,6 +577,8 @@
             </div>
         </section>
 
+        </div>
+        <div id="research-valuation" data-research-panel="valuation">
         <!-- Returns & Valuation -->
         <section class="section-box">
             <h2>Returns & Valuation</h2>
@@ -621,6 +626,9 @@
             </div>
         </section>
 
+        <div class="research-pending"><h2>Additional valuation measures</h2><p>EV/Sales, EV/EBITDA, dividend yield and free-cash-flow yield are not yet certified for this release. They are not estimated from incomplete inputs.</p><p>Historical valuation benchmarks will appear when a validated history is available.</p></div>
+        </div>
+        <div id="research-financials" data-research-panel="financials"><section id="companyFinancialStatements" class="fs-root" data-financial-statements data-symbol="{{ identity.symbol }}" aria-label="Financial statements"></section></div>
         <!-- Compact Page-Level Disclosure -->
         <div class="page-disclosure">
             <span class="disclosure-icon">ℹ️</span>
@@ -656,7 +664,6 @@
                 </div>
             </div>
         </section>
-    <section id="companyFinancialStatements" class="fs-root" data-financial-statements data-symbol="{{ identity.symbol }}" aria-label="Financial statements"></section>
     </main>
 
     {{ footer_html }}

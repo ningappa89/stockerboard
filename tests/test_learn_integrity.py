@@ -1098,11 +1098,13 @@ class TestLearnIntegrity(unittest.TestCase):
         dossier_cmp = dossier_data.get("cmp") # 1023.4 (as of 2026-10-09)
         dossier_as_of = dossier_data.get("price_as_of") # 2026-10-09
 
-        # Confirm divergence is genuine and temporal
-        self.assertNotEqual(uni_cmp, dossier_cmp)
-        self.assertNotEqual(uni_as_of, dossier_as_of)
-        self.assertEqual(uni_as_of, "2026-10-01")
-        self.assertEqual(dossier_as_of, "2026-10-09")
+        # A repaired projection may legitimately agree with its owner. Test
+        # the consumer contract rather than requiring permanent stale data.
+        html = (LEARN_DIR / 'share-price' / 'index.html').read_text(encoding='utf-8')
+        self.assertIn(f'₹{dossier_cmp:,.2f}', html)
+        if uni_cmp != dossier_cmp:
+            self.assertNotIn(f'₹{uni_cmp:,.2f}', html)
+        self.assertIsNotNone(dossier_as_of)
 
     def test_51_share_price_learn_uses_canonical_source_only(self):
         """Part P3 / C Gate: Verify Learn consumes only canonical dossier source and rejects stale universe prices."""

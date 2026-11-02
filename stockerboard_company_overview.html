@@ -1,0 +1,1546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title id="pageTitle">Company Overview · Stockerboard</title>
+  <script>
+    (function() {
+      try {
+        const p = new URLSearchParams(window.location.search);
+        const s = (p.get('symbol') || 'TCS').toUpperCase();
+        document.title = `${s} · Company Overview · Stockerboard`;
+        const cached = sessionStorage.getItem('stock_meta_' + s);
+        window.__ACTIVE_SYM__ = s;
+        window.__PREFETCHED_META__ = cached ? JSON.parse(cached) : null;
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="icon" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #fafbf9;
+      --sub: #f4f7f4;
+      --ink: #142b24;
+      --green: #06543f;
+      --green-light: #eff7f2;
+      --green-border: #ddebe2;
+      --green-hover: #08694f;
+      --coral: #e06743;
+      --coral-bg: #fff5f2;
+      --muted: #6b7b74;
+      --line: #e3eae5;
+      --line-subtle: #edf2ee;
+      --white: #ffffff;
+      --shadow-sm: 0 2px 8px rgba(18, 49, 34, 0.04);
+      --shadow-md: 0 10px 30px rgba(18, 49, 34, 0.06);
+      --font: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Topbar */
+    .topbar {
+      height: 64px;
+      background: var(--white);
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 32px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .brand-area {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--ink);
+      font-weight: 800;
+      font-size: 19px;
+      letter-spacing: -0.5px;
+    }
+
+    .mark-icon {
+      width: 26px;
+      height: 26px;
+      background: var(--green);
+      border-radius: 6px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding-left: 5px;
+      gap: 3px;
+      position: relative;
+    }
+    .mark-bar { height: 2px; background: #fff; border-radius: 1px; }
+    .mark-bar:nth-child(1) { width: 14px; }
+    .mark-bar:nth-child(2) { width: 10px; }
+    .mark-bar:nth-child(3) { width: 6px; }
+    .mark-dot {
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      background: var(--coral);
+      border-radius: 50%;
+      top: 5px;
+      right: 5px;
+    }
+
+    .topbar-search {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--sub);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 7px 14px;
+      width: 280px;
+      transition: all 0.2s;
+    }
+    .topbar-search:focus-within {
+      background: #fff;
+      border-color: var(--green);
+      box-shadow: 0 0 0 3px rgba(6, 84, 63, 0.08);
+      width: 320px;
+    }
+    .topbar-search svg { color: var(--muted); flex-shrink: 0; }
+    .topbar-search input {
+      border: none;
+      background: transparent;
+      outline: none;
+      font-family: var(--font);
+      font-size: 13px;
+      color: var(--ink);
+      width: 100%;
+    }
+    .topbar-search input::placeholder { color: var(--muted); }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+    .nav a {
+      text-decoration: none;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 500;
+      transition: color 0.15s;
+      position: relative;
+      padding: 4px 0;
+    }
+    .nav a:hover { color: var(--ink); }
+    .nav a.active {
+      color: var(--ink);
+      font-weight: 700;
+    }
+    .nav a.active::after {
+      content: '';
+      position: absolute;
+      bottom: -18px;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--green);
+    }
+
+    .btn-signin {
+      background: #fff;
+      border: 1px solid var(--line);
+      color: var(--ink);
+      font-family: var(--font);
+      font-size: 13px;
+      font-weight: 600;
+      padding: 7px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .btn-signin:hover {
+      border-color: var(--green);
+      color: var(--green);
+    }
+
+    /* Page Container */
+    .page-container {
+      max-width: 1180px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 24px 24px 60px 24px;
+      flex: 1;
+    }
+
+    /* Top Breadcrumb & Badge Row */
+    .top-meta-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12.5px;
+      color: var(--muted);
+    }
+    .breadcrumb a {
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .breadcrumb a:hover { color: var(--ink); }
+    .breadcrumb .active { color: var(--ink); font-weight: 600; }
+    .design-preview-tag {
+      font-size: 10.5px;
+      font-family: var(--font-mono);
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      color: var(--muted);
+      background: #fff;
+      border: 1px solid var(--line);
+      padding: 3px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+
+    /* Company Identity Row */
+    .identity-row {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 24px;
+      gap: 20px;
+    }
+    .id-left {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .company-avatar {
+      width: 52px;
+      height: 52px;
+      background: #eef4ff;
+      border: 1px solid #dbeafe;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      font-weight: 800;
+      color: #1e40af;
+      letter-spacing: -0.5px;
+    }
+    .company-title {
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: var(--ink);
+      margin-bottom: 4px;
+    }
+    .company-submeta {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .company-submeta .external-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .company-submeta .external-link:hover { color: var(--green); }
+
+    .id-right {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+    }
+    .price-box {
+      text-align: right;
+    }
+    .main-price {
+      font-size: 26px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: var(--ink);
+      line-height: 1.1;
+    }
+    .price-sub {
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+    .range-52w-container {
+      margin-top: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      width: 220px;
+      text-align: left;
+    }
+    .range-52w-labels {
+      display: flex;
+      justify-content: space-between;
+      font-size: 10.5px;
+      color: var(--muted);
+      font-family: var(--font-mono);
+    }
+    .range-52w-labels strong {
+      color: var(--ink);
+    }
+    .range-52w-track {
+      position: relative;
+      height: 4px;
+      background: #e2e8f0;
+      border-radius: 2px;
+    }
+    .range-52w-marker {
+      position: absolute;
+      top: -3px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--green);
+      border: 2px solid #fff;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+      transform: translateX(-50%);
+    }
+    .btn-watchlist {
+      background: var(--white);
+      border: 1px solid var(--line);
+      color: var(--ink);
+      font-family: var(--font);
+      font-size: 12.5px;
+      font-weight: 600;
+      padding: 7px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.15s;
+      margin-top: 2px;
+    }
+    .btn-watchlist:hover {
+      border-color: var(--green);
+      color: var(--green);
+    }
+
+    /* Subnav Tabs */
+    .subnav-tabs {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 24px;
+    }
+    .tab-item {
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--muted);
+      padding: 10px 0;
+      position: relative;
+      transition: color 0.15s;
+    }
+    .tab-item:hover { color: var(--ink); }
+    .tab-item.active {
+      color: var(--green);
+      font-weight: 700;
+    }
+    .tab-item.active::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: var(--green);
+    }
+    .tab-item.pro-pill {
+      margin-left: auto;
+      color: var(--coral);
+      font-weight: 700;
+      font-size: 13px;
+    }
+
+    /* 6 KPI Metric Cards Grid */
+    .kpi-row-card {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      box-shadow: var(--shadow-sm);
+      margin-bottom: 24px;
+      overflow: hidden;
+    }
+    .kpi-cell {
+      padding: 16px 18px;
+      border-right: 1px solid var(--line-subtle);
+    }
+    .kpi-cell:last-child { border-right: none; }
+    .kpi-label {
+      font-size: 11.5px;
+      font-weight: 500;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .kpi-value {
+      font-size: 19px;
+      font-weight: 800;
+      letter-spacing: -0.3px;
+      color: var(--ink);
+      margin-bottom: 4px;
+      font-variant-numeric: tabular-nums;
+    }
+    .kpi-meta {
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    /* Two Columns: Price Chart (Left) + The Business (Right) */
+    .content-columns {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 24px;
+      margin-bottom: 24px;
+    }
+
+    .card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 20px 24px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .card-header-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+    }
+    .card-title {
+      font-size: 17px;
+      font-weight: 800;
+      color: var(--ink);
+      letter-spacing: -0.3px;
+    }
+    .card-subtitle {
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    /* Timeframe switcher pills */
+    .time-pills {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      background: var(--sub);
+      padding: 3px;
+      border-radius: 6px;
+      border: 1px solid var(--line);
+    }
+    .time-btn {
+      background: transparent;
+      border: none;
+      font-family: var(--font);
+      font-size: 11.5px;
+      font-weight: 600;
+      color: var(--muted);
+      padding: 4px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .time-btn:hover { color: var(--ink); }
+    .time-btn.active {
+      background: #fff;
+      color: var(--green);
+      font-weight: 700;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    }
+
+    /* Chart SVG Area */
+    .chart-box {
+      width: 100%;
+      height: 210px;
+      position: relative;
+      margin-top: 4px;
+      cursor: default;
+    }
+    .chart-box svg {
+      width: 100%;
+      height: 100%;
+      overflow: visible;
+    }
+    .chart-tooltip {
+      position: absolute;
+      top: 8px;
+      left: 65px;
+      background: rgba(17, 36, 30, 0.94);
+      color: #fff;
+      font-size: 11.5px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 6px;
+      pointer-events: none;
+      display: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      z-index: 10;
+      font-variant-numeric: tabular-nums;
+    }
+    .chart-footnote {
+      font-size: 11px;
+      color: var(--muted);
+      margin-top: 8px;
+    }
+
+    /* The Business Meta List */
+    .biz-desc {
+      font-size: 13.5px;
+      line-height: 1.5;
+      color: var(--ink);
+      margin-bottom: 20px;
+    }
+    .biz-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    .biz-table tr {
+      border-bottom: 1px solid var(--line-subtle);
+    }
+    .biz-table tr:last-child { border-bottom: none; }
+    .biz-table td {
+      padding: 10px 0;
+      font-size: 13px;
+    }
+    .biz-table td:first-child {
+      color: var(--muted);
+      width: 45%;
+    }
+    .biz-table td:last-child {
+      color: var(--ink);
+      font-weight: 600;
+      text-align: right;
+    }
+    .biz-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--green);
+      text-decoration: none;
+    }
+    .biz-link:hover { text-decoration: underline; }
+
+    /* Bottom Card: Financial Performance */
+    .financial-card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 20px 24px;
+      box-shadow: var(--shadow-sm);
+    }
+    .financial-controls {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .period-toggle-group {
+      display: flex;
+      align-items: center;
+      background: var(--sub);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 2px;
+    }
+    .period-toggle-btn {
+      background: transparent;
+      border: none;
+      font-family: var(--font);
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--muted);
+      padding: 4px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .period-toggle-btn.active {
+      background: #fff;
+      color: var(--green);
+      font-weight: 700;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    }
+    .full-financials-link {
+      font-size: 12.5px;
+      font-weight: 600;
+      color: var(--green);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .full-financials-link:hover { text-decoration: underline; }
+
+    /* Summary Financials Table */
+    .summary-table-wrap {
+      margin-top: 16px;
+      overflow-x: auto;
+    }
+    .summary-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13.5px;
+    }
+    .summary-table th {
+      text-align: right;
+      padding: 10px 14px;
+      font-size: 11.5px;
+      font-weight: 600;
+      color: var(--muted);
+      border-bottom: 1px solid var(--line);
+      background: #fafbf9;
+    }
+    .summary-table th:first-child { text-align: left; }
+    .summary-table td {
+      padding: 12px 14px;
+      text-align: right;
+      border-bottom: 1px solid var(--line-subtle);
+      font-variant-numeric: tabular-nums;
+      color: var(--ink);
+    }
+    .summary-table td:first-child {
+      text-align: left;
+      font-weight: 600;
+    }
+    .summary-table tr:last-child td { border-bottom: none; }
+
+    .learn-footnote {
+      margin-top: 16px;
+      padding-top: 14px;
+      border-top: 1px solid var(--line-subtle);
+      font-size: 12.5px;
+      color: var(--muted);
+    }
+    .learn-footnote a {
+      color: var(--green);
+      text-decoration: none;
+      font-weight: 600;
+      margin-left: 4px;
+    }
+    .learn-footnote a:hover { text-decoration: underline; }
+
+    /* Sub-Footer */
+    .page-subfooter {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 24px;
+      font-size: 11.5px;
+      color: var(--muted);
+    }
+    .page-subfooter a {
+      color: var(--muted);
+      text-decoration: none;
+    }
+    .page-subfooter a:hover { color: var(--ink); }
+
+    @media (max-width: 900px) {
+      .kpi-row-card { grid-template-columns: repeat(3, 1fr); }
+      .content-columns { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 600px) {
+      .topbar { padding: 0 16px; }
+      .topbar-search { display: none; }
+      .kpi-row-card { grid-template-columns: repeat(2, 1fr); }
+      .identity-row { flex-direction: column; }
+      .id-right { width: 100%; justify-content: space-between; }
+    }
+  </style>
+<script src="/scripts/research-data.js?v=026ecc4bf6ca"></script>
+</head>
+<body>
+
+  <!-- Topbar -->
+  <header class="topbar">
+    <div class="brand-area">
+      <a href="/" class="brand">
+        <div class="mark-icon">
+          <div class="mark-bar"></div>
+          <div class="mark-bar"></div>
+          <div class="mark-bar"></div>
+          <div class="mark-dot"></div>
+        </div>
+        <span>Stockerboard</span>
+      </a>
+
+      <div class="topbar-search">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="topbarSearch" placeholder="Search another company..." autocomplete="off">
+      </div>
+    </div>
+
+    <nav class="nav">
+      <a href="/">Home</a>
+      <a href="/stocks/" class="active" id="navStocks">Stocks</a>
+      <a href="/learn/">Learn</a>
+      <a href="/?mode=pro">Pro research</a>
+    </nav>
+
+    <button type="button" class="btn-signin">Sign in</button>
+  </header>
+
+  <main class="page-container">
+    <!-- Breadcrumb & Tag -->
+    <div class="top-meta-row">
+      <div class="breadcrumb">
+        <a href="/">Home</a>
+        <span>/</span>
+        <a href="stockerboard_company_overview.html?symbol=TCS" id="crumbStocks">Stocks</a>
+        <span>/</span>
+        <span class="active" id="crumbSymbol">TCS</span>
+      </div>
+      <span class="design-preview-tag">DESIGN PREVIEW</span>
+    </div>
+
+    <!-- Company Identity Row -->
+    <section class="identity-row">
+      <div class="id-left">
+        <div class="company-avatar" id="avatarBox">—</div>
+        <div>
+          <h1 class="company-title" id="companyName">—</h1>
+          <div class="company-submeta">
+            <span id="tickerLine">NSE</span>
+            <span>·</span>
+            <span id="sectorTag">—</span>
+            <span id="webDot" style="display:none;">·</span>
+            <a href="#" target="_blank" class="external-link" id="websiteLink" style="display:none;">
+              <span id="domainText">—</span>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <script>
+        (function() {
+          try {
+            const s = window.__ACTIVE_SYM__ || (new URLSearchParams(window.location.search).get('symbol') || 'TCS').toUpperCase();
+            const meta = window.__PREFETCHED_META__;
+            const cr = document.getElementById('crumbSymbol');
+            const av = document.getElementById('avatarBox');
+            const cn = document.getElementById('companyName');
+            const tl = document.getElementById('tickerLine');
+            const st = document.getElementById('sectorTag');
+            if (cr) cr.innerText = s;
+            if (av) av.innerText = s.substring(0, 3);
+            if (tl) tl.innerText = `NSE: ${s}`;
+            if (meta && meta.name) {
+              if (cn) cn.innerText = meta.name;
+              if (st) st.innerText = meta.sector || 'General Corporate';
+            } else {
+              if (cn) cn.innerText = s;
+            }
+            document.querySelectorAll('.subnav-tabs a').forEach(a => {
+              const href = a.getAttribute('href');
+              if (href && href.startsWith('stockerboard_')) {
+                const base = href.split('?')[0];
+                a.setAttribute('href', `${base}?symbol=${encodeURIComponent(s)}`);
+              }
+            });
+            const crumb = document.getElementById('crumbStocks');
+            if (crumb) crumb.href = `stockerboard_company_overview.html?symbol=${encodeURIComponent(s)}`;
+            const navStk = document.getElementById('navStocks');
+            if (navStk) navStk.href = `stockerboard_company_overview.html?symbol=${encodeURIComponent(s)}`;
+          } catch(e) {}
+        })();
+      </script>
+
+      <div class="id-right">
+        <div class="price-box">
+          <div class="main-price" id="priceDisplay">₹2,530.00</div>
+          <div class="price-sub" id="priceDateSub">Price snapshot · 23 Oct 2026</div>
+          <div class="range-52w-container" id="range52wBox" style="display:none;">
+            <div class="range-52w-labels">
+              <span>52W L: <strong id="range52wLow">—</strong></span>
+              <span>52W H: <strong id="range52wHigh">—</strong></span>
+            </div>
+            <div class="range-52w-track">
+              <div class="range-52w-marker" id="range52wMarker" style="left: 50%;"></div>
+            </div>
+          </div>
+        </div>
+        <button class="btn-watchlist" onclick="this.innerHTML = this.innerHTML.includes('+') ? '✓ Saved' : '+ Watchlist'">
+          + Watchlist
+        </button>
+      </div>
+    </section>
+
+    <!-- Sub-Navigation Tabs -->
+    <nav class="subnav-tabs" aria-label="Company views">
+      <a href="stockerboard_company_overview.html?symbol=TCS" class="tab-item active" id="tabOverview">Overview</a>
+      <a href="stockerboard_financials_tab.html?symbol=TCS" class="tab-item" id="tabFinancials">Financials</a>
+      <a href="stockerboard_valuation_tab.html?symbol=TCS" class="tab-item" id="tabValuation">Valuation</a>
+      <a href="stockerboard_peers_tab.html?symbol=TCS" class="tab-item" id="tabPeers">Peers</a>
+      <a href="stockerboard_filings_tab.html?symbol=TCS" class="tab-item" id="tabFilings">Filings</a>
+      <a href="/?mode=pro" class="tab-item pro-pill">Advanced PRO ↗</a>
+    </nav>
+
+    <!-- 6 KPI Metric Cards Grid -->
+    <section class="kpi-row-card">
+      <div class="kpi-cell">
+        <div class="kpi-label">Market cap</div>
+        <div class="kpi-value" id="kpiMcap">₹9.15L Cr</div>
+        <div class="kpi-meta" id="kpiMcapSub">At snapshot price</div>
+      </div>
+      <div class="kpi-cell">
+        <div class="kpi-label">P/E</div>
+        <div class="kpi-value" id="kpiPe">16.8×</div>
+        <div class="kpi-meta">TTM earnings</div>
+      </div>
+      <div class="kpi-cell">
+        <div class="kpi-label">ROE</div>
+        <div class="kpi-value" id="kpiRoe">51.8%</div>
+        <div class="kpi-meta" id="kpiRoeSub">FY26 · consolidated</div>
+      </div>
+      <div class="kpi-cell">
+        <div class="kpi-label">Revenue</div>
+        <div class="kpi-value" id="kpiRev">₹2.64L Cr</div>
+        <div class="kpi-meta" id="kpiRevSub">FY26 · consolidated</div>
+      </div>
+      <div class="kpi-cell">
+        <div class="kpi-label" id="kpiMarginLabel">Net profit margin</div>
+        <div class="kpi-value" id="kpiMargin">18.6%</div>
+        <div class="kpi-meta" id="kpiMarginSub">TTM · reported</div>
+      </div>
+      <div class="kpi-cell">
+        <div class="kpi-label" id="kpiDivLabel">Book value / share</div>
+        <div class="kpi-value" id="kpiDiv">₹299.82</div>
+        <div class="kpi-meta" id="kpiDivSub">FY26 · reported</div>
+      </div>
+    </section>
+
+    <!-- Middle 2-Column Section -->
+    <div class="content-columns">
+      <!-- Left: Price History Chart -->
+      <section class="card">
+        <div class="card-header-row">
+          <div>
+            <h2 class="card-title">Price history</h2>
+            <div class="card-subtitle">Daily closing price · ₹</div>
+          </div>
+          <div class="time-pills">
+            <button type="button" class="time-btn" onclick="setTimeframe('1M')">1M</button>
+            <button type="button" class="time-btn" onclick="setTimeframe('6M')">6M</button>
+            <button type="button" class="time-btn active" onclick="setTimeframe('1Y')">1Y</button>
+            <button type="button" class="time-btn" onclick="setTimeframe('3Y')">3Y</button>
+            <button type="button" class="time-btn" onclick="setTimeframe('5Y')">5Y</button>
+          </div>
+        </div>
+
+        <div class="chart-box" id="chartBox">
+          <div class="chart-tooltip" id="chartTooltip"></div>
+          <svg id="chartSvg" viewBox="0 0 680 200" preserveAspectRatio="none">
+            <defs>
+              <linearGradient id="chartGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#06543f" stop-opacity="0.16" />
+                <stop offset="100%" stop-color="#06543f" stop-opacity="0.00" />
+              </linearGradient>
+            </defs>
+
+            <!-- Grid Lines and Y-Ticks -->
+            <g id="chartGrid"></g>
+
+            <!-- Area and Line -->
+            <path id="chartArea" fill="url(#chartGrad)" />
+            <path id="chartLine" fill="none" stroke="#06543f" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+
+            <!-- Hover Vertical Indicator Line & Pin -->
+            <line id="hoverLine" x1="0" y1="15" x2="0" y2="170" stroke="#06543f" stroke-dasharray="3,3" stroke-width="1.2" opacity="0" />
+            <circle id="hoverPin" cx="0" cy="0" r="4.5" fill="#06543f" stroke="#ffffff" stroke-width="2" opacity="0" />
+
+            <!-- X Axis Date Labels -->
+            <g id="chartXAxis"></g>
+          </svg>
+        </div>
+        <div class="chart-footnote">Loading published price history…</div>
+      </section>
+
+      <!-- Right: The Business -->
+      <section class="card">
+        <h2 class="card-title" style="margin-bottom: 8px;">The business</h2>
+        <p class="biz-desc" id="bizDescription">IT services, consulting and business solutions for enterprises worldwide.</p>
+
+        <table class="biz-table">
+          <tbody>
+            <tr>
+              <td>Industry</td>
+              <td id="bizIndustry">IT services</td>
+            </tr>
+            <tr>
+              <td>Business model</td>
+              <td id="bizModel">Enterprise services</td>
+            </tr>
+            <tr>
+              <td>Reporting basis</td>
+              <td id="bizReporting">Consolidated</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <a href="stockerboard_financials_tab.html?symbol=TCS" class="biz-link" id="bizLink">
+          Read company profile →
+        </a>
+      </section>
+    </div>
+
+    <!-- Bottom Card: Financial Performance -->
+    <section class="financial-card">
+      <div class="card-header-row">
+        <div>
+          <h2 class="card-title">Financial performance</h2>
+          <div class="card-subtitle" id="financialSub">Consolidated · ₹ crore</div>
+        </div>
+        <div class="financial-controls">
+          <div class="period-toggle-group">
+            <button type="button" class="period-toggle-btn active" id="btnYearly" onclick="setPeriod('yearly')">Yearly</button>
+            <button type="button" class="period-toggle-btn" id="btnQuarterly" onclick="setPeriod('quarterly')">Quarterly</button>
+          </div>
+          <a href="stockerboard_financials_tab.html?symbol=TCS" class="full-financials-link" id="linkFullFin">
+            Full financials →
+          </a>
+        </div>
+      </div>
+
+      <div class="summary-table-wrap">
+        <table class="summary-table">
+          <thead>
+            <tr id="tableHeadRow">
+              <th>Metric</th>
+              <th>FY24</th>
+              <th>FY25</th>
+              <th>FY26</th>
+            </tr>
+          </thead>
+          <tbody id="overviewPlTable">
+            <tr>
+              <td>Revenue</td>
+              <td>240,893</td>
+              <td>255,324</td>
+              <td>264,267</td>
+            </tr>
+            <tr>
+              <td>Operating profit</td>
+              <td>64,802</td>
+              <td>67,775</td>
+              <td>72,398</td>
+            </tr>
+            <tr>
+              <td>Net profit</td>
+              <td>45,908</td>
+              <td>48,797</td>
+              <td>49,454</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="learn-footnote">
+        New to these numbers? <a href="/learn/">Learn how to read financial statements →</a>
+      </div>
+    </section>
+
+    <!-- Sub-Footer -->
+    <div class="page-subfooter">
+      <span>Published data · quote dates and financial reporting periods are shown separately</span>
+      <a href="/methodology/">Data dates & methodology</a>
+    </div>
+  </main>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const activeSymbol = (params.get('symbol') || 'TCS').toUpperCase();
+    let allCandles = [];
+    let currentTimeframe = '1Y';
+    let currentPlotCoords = [];
+
+    const BASELINE_DATA = {
+      TCS: {
+        name: 'Tata Consultancy Services',
+        sector: 'IT services',
+        domain: 'tcs.com',
+        price: '₹2,530.00',
+        date: '23 Oct 2026',
+        mcap: '₹9.15L Cr',
+        pe: '16.8×',
+        roe: '51.8%',
+        rev: '₹2.64L Cr',
+        margin: '27.4%',
+        div: '2.53%',
+        desc: 'IT services, consulting and business solutions for enterprises worldwide.',
+        industry: 'IT services',
+        model: 'Enterprise services',
+        basis: 'Consolidated',
+        pl: [
+          { metric: 'Revenue', y1: '240,893', y2: '255,324', y3: '264,267' },
+          { metric: 'Operating profit', y1: '64,802', y2: '67,775', y3: '72,398' },
+          { metric: 'Net profit', y1: '45,908', y2: '48,797', y3: '49,454' }
+        ]
+      },
+      INFY: {
+        name: 'Infosys Limited',
+        sector: 'IT services',
+        domain: 'infosys.com',
+        price: '₹1,492.00',
+        date: '23 Oct 2026',
+        mcap: '₹6.20L Cr',
+        pe: '24.2×',
+        roe: '31.4%',
+        rev: '₹1.53L Cr',
+        margin: '24.1%',
+        div: '2.40%',
+        desc: 'Global leader in next-generation digital services and consulting.',
+        industry: 'IT services',
+        model: 'Digital Enterprise Services',
+        basis: 'Consolidated',
+        pl: [
+          { metric: 'Revenue', y1: '146,767', y2: '153,670', y3: '162,990' },
+          { metric: 'Operating profit', y1: '35,130', y2: '36,880', y3: '39,120' },
+          { metric: 'Net profit', y1: '24,095', y2: '26,233', y3: '28,140' }
+        ]
+      }
+    };
+
+    function updateSubnav(symbol) {
+      document.querySelectorAll('.subnav-tabs a').forEach(a => {
+        const href = a.getAttribute('href');
+        if (href && href.startsWith('stockerboard_')) {
+          const base = href.split('?')[0];
+          a.setAttribute('href', `${base}?symbol=${encodeURIComponent(symbol)}`);
+        }
+      });
+      document.getElementById('crumbStocks').href = `stockerboard_company_overview.html?symbol=${encodeURIComponent(symbol)}`;
+      document.getElementById('navStocks').href = '/stocks/';
+      document.getElementById('linkFullFin').href = `stockerboard_financials_tab.html?symbol=${encodeURIComponent(symbol)}`;
+      document.getElementById('bizLink').href = `stockerboard_financials_tab.html?symbol=${encodeURIComponent(symbol)}`;
+    }
+
+    async function hydrateOverview(symbol) {
+      for (const id of ['kpiMcap','kpiPe','kpiRoe','kpiRev','kpiMargin','kpiDiv','heroCard1Val','heroCard2Val','heroCard3Val','valPe','valPb','valMcap','priceDisplay']) {
+        const node=document.getElementById(id);if(node)node.textContent='—';
+      }
+      for (const id of ['overviewPlTable','fsTableBody','filingsTableBody']) document.getElementById(id)?.replaceChildren();
+      if(!/^[A-Z0-9&_.-]{1,40}$/.test(symbol)){StockerboardData.error('Invalid company symbol');return;}
+
+      updateSubnav(symbol);
+      document.getElementById('crumbSymbol').innerText = symbol;
+      document.getElementById('avatarBox').innerText = symbol.substring(0, 3);
+      document.getElementById('tickerLine').innerText = `NSE: ${symbol}`;
+      const linkFin = document.getElementById('linkFullFin');
+      if (linkFin) linkFin.href = `stockerboard_financials_tab.html?symbol=${encodeURIComponent(symbol)}`;
+      const bizLink = document.getElementById('bizLink');
+      if (bizLink) bizLink.href = `stockerboard_financials_tab.html?symbol=${encodeURIComponent(symbol)}`;
+
+      // Website domain
+      const webLink = document.getElementById('websiteLink');
+      const webDot = document.getElementById('webDot');
+      const knownDomains = {
+        'TCS': 'tcs.com',
+        'INFY': 'infosys.com',
+        'MRF': 'mrftyres.com',
+        'HDFCBANK': 'hdfcbank.com',
+        'RELIANCE': 'ril.com',
+        'ITC': 'itcportal.com'
+      };
+      const domain = knownDomains[symbol];
+      if (domain && webLink) {
+        webLink.href = `https://www.${domain}`;
+        document.getElementById('domainText').innerText = domain;
+        webLink.style.display = 'inline-flex';
+        if (webDot) webDot.style.display = 'inline';
+      } else if (webLink) {
+        webLink.style.display = 'none';
+        if (webDot) webDot.style.display = 'none';
+      }
+
+      let stockData = null;
+
+      document.getElementById('range52wBox').style.display = 'none';
+      // 1. Fetch stock JSON (price, candles, range, fundamentals, and embedded dossier)
+      try {
+        const prefix = symbol.substring(0, 2).replace(/[^A-Z0-9]/g, '_').padEnd(2, '_');
+        const sRes = await StockerboardData.stock(symbol);
+        if (sRes.ok) {
+          stockData = await sRes.json();
+          
+          // Render chart
+          if (stockData.candles && stockData.candles.length > 0) {
+            allCandles = stockData.candles;
+            const first=allCandles[0].time,last=allCandles.at(-1).time;
+            document.querySelector('.chart-footnote').textContent=`${first} to ${last} · ${allCandles.length} published sessions · Daily EOD close; corporate-action adjustments not asserted`;
+            for(const button of document.querySelectorAll('.time-btn')){
+              const years={'3Y':3,'5Y':5}[button.textContent.trim()];
+              if(years){const cutoff=new Date(last+'T00:00:00Z');cutoff.setUTCFullYear(cutoff.getUTCFullYear()-years);button.disabled=first>cutoff.toISOString().slice(0,10);if(button.disabled)button.title='This release does not contain '+years+' years of history';}
+            }
+
+            renderChart(currentTimeframe);
+          } else {
+            document.querySelector('.chart-footnote').textContent=stockData.history_error||'Insufficient published price history';
+            document.querySelectorAll('.time-btn').forEach(b=>b.disabled=true);
+          }
+
+          // Price & Date
+          if (stockData.price && stockData.price.close != null) {
+            document.getElementById('priceDisplay').innerText = `₹${stockData.price.close.toLocaleString('en-IN', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+            if (stockData.price.as_of) {
+              const parts = stockData.price.as_of.split('-');
+              const dObj = new Date(parts[0], parts[1] - 1, parts[2]);
+              const formattedDate = !isNaN(dObj.getTime()) ? dObj.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' }) : stockData.price.as_of;
+              document.getElementById('priceDateSub').innerText = `Price snapshot · ${formattedDate}`;
+            }
+          }
+
+          // 52-Week Range Bar
+          if (stockData.range && stockData.range.high_52w != null && stockData.range.low_52w != null) {
+            const low = Number(stockData.range.low_52w);
+            const high = Number(stockData.range.high_52w);
+            let pos = stockData.range.range_position_pct != null 
+              ? Number(stockData.range.range_position_pct) 
+              : ((stockData.price?.close - low) / (high - low)) * 100;
+            pos = Math.max(0, Math.min(100, pos));
+
+            document.getElementById('range52wLow').innerText = `₹${Math.round(low).toLocaleString('en-IN')}`;
+            document.getElementById('range52wHigh').innerText = `₹${Math.round(high).toLocaleString('en-IN')}`;
+            document.getElementById('range52wMarker').style.left = `${pos.toFixed(1)}%`;
+            document.getElementById('range52wBox').style.display = 'flex';
+          }
+
+          // Company Name fallback from stock file
+          if (stockData.company_name) {
+            document.getElementById('companyName').innerText = stockData.company_name;
+          }
+
+          // Save metadata in sessionStorage so navigating to tabs has 0ms flicker
+          try {
+            sessionStorage.setItem('stock_meta_' + symbol, JSON.stringify({
+              name: stockData.company_name || document.getElementById('companyName').innerText,
+              sector: stockData.sector || document.getElementById('sectorTag').innerText,
+              price: stockData.price?.close
+            }));
+          } catch (e) {}
+
+          // Market Cap
+          if (stockData.market_cap != null) {
+            document.getElementById('kpiMcap').nextElementSibling.textContent='Valuation basis: '+(stockData.v2_canonical?.valuation?.MARKET_CAP?.price_as_of||stockData.v2_canonical?.valuation?.P_E?.price_as_of||'date unavailable');
+            const cr = Math.round(stockData.market_cap / 1e7);
+            document.getElementById('kpiMcap').innerText = cr >= 100000 ? `₹${(cr / 100000).toFixed(2)}L Cr` : `₹${cr.toLocaleString('en-IN')} Cr`;
+          }
+
+          // P/E
+          if (stockData.pe != null && !isNaN(stockData.pe)) {
+            document.getElementById('kpiPe').innerText = `${Number(stockData.pe).toFixed(1)}×`;
+          } else {
+            document.getElementById('kpiPe').innerText = '—';
+          }
+
+          // ROE
+          if (stockData.roe != null && !isNaN(stockData.roe)) {
+            document.getElementById('kpiRoe').innerText = `${Number(stockData.roe).toFixed(1)}%`;
+          } else {
+            document.getElementById('kpiRoe').innerText = '—';
+          }
+
+          // Revenue (TTM)
+          if (stockData.revenue != null && !isNaN(stockData.revenue)) {
+            const cr = Math.round(stockData.revenue / 1e7);
+            document.getElementById('kpiRev').innerText = cr >= 100000 ? `₹${(cr / 100000).toFixed(2)}L Cr` : `₹${cr.toLocaleString('en-IN')} Cr`;
+          } else {
+            document.getElementById('kpiRev').innerText = '—';
+          }
+
+          document.getElementById('kpiRev').nextElementSibling.textContent='Trailing 12 months';
+          document.getElementById('kpiMargin').nextElementSibling.textContent='Latest reported quarter';
+          // Net Margin
+          if (stockData.net_margin_pct != null && !isNaN(stockData.net_margin_pct)) {
+            document.getElementById('kpiMargin').innerText = `${Number(stockData.net_margin_pct).toFixed(1)}%`;
+          } else {
+            document.getElementById('kpiMargin').innerText = '—';
+          }
+
+          // Card 6: Book value per share (or P/B)
+          if (stockData.bvps != null && !isNaN(stockData.bvps)) {
+            document.getElementById('kpiDiv').innerText = `₹${Number(stockData.bvps).toFixed(2)}`;
+          } else if (stockData.pb != null && !isNaN(stockData.pb)) {
+            document.getElementById('kpiDiv').innerText = `${Number(stockData.pb).toFixed(1)}×`;
+          } else {
+            document.getElementById('kpiDiv').innerText = '—';
+          }
+        }
+      } catch (e) {
+        StockerboardData.error(e.message);
+      }
+
+      // 2. Fetch search universe for curated company name & sector
+      let sectorName = 'General Corporate';
+      try {
+        const uRes = await fetch('/search_universe.json');
+        if (uRes.ok) {
+          const universe = await uRes.json();
+          const item = universe.find(x => x.symbol === symbol);
+          if (item) {
+            if (item.name) document.getElementById('companyName').innerText = item.name;
+            if (item.sector) {
+              sectorName = item.sector;
+              document.getElementById('sectorTag').innerText = item.sector;
+            }
+          }
+        }
+      } catch (e) {}
+
+      // Business descriptions
+      const compName = document.getElementById('companyName').innerText || symbol;
+      document.getElementById('bizDescription').innerText = `${compName} is a publicly traded corporate enterprise in the ${sectorName} sector, listed on the National Stock Exchange of India under ticker ${symbol}.`;
+      document.getElementById('bizIndustry').innerText = sectorName;
+      document.getElementById('bizModel').innerText = 'Business model awaiting verified profile';
+      document.getElementById('bizReporting').innerText = 'Consolidated';
+
+      // 3. Dynamic mini P&L table from financial statements
+      try {
+        const idxRes = await fetch('/financial-statements/index.json');
+        const relId = idxRes.ok ? (await idxRes.json()).release_id : 'FSV1_f4e7fa6b55025f3a7b48b672';
+        const fsRes = await StockerboardData.statements(symbol);
+        if (fsRes.ok) {
+          const fsData = await fsRes.json();
+          window.overviewStatements=fsData;
+          const pnlList = (fsData.statements?.annual_pnl || []).filter(p => p.scope === fsData.default_scope);
+          document.getElementById('bizReporting').textContent = fsData.default_scope;
+          
+          // Deduplicate by period_end
+          const byDate = {};
+          pnlList.forEach(p => {
+            const dt = p.period_end;
+            if (!byDate[dt]) byDate[dt] = p;
+            else byDate[dt].metrics = Object.assign({}, byDate[dt].metrics || {}, p.metrics || {});
+          });
+          const periods = Object.values(byDate).sort((a, b) => a.period_end.localeCompare(b.period_end));
+
+          if (periods.length >= 2) {
+            const displayPeriods = periods.slice(-3); // Last up to 3 years
+            
+            // Update table headers
+            const headTr = document.getElementById('tableHeadRow');
+            if (headTr) {
+              let headHtml = '<th>Metric</th>';
+              displayPeriods.forEach(p => {
+                const y = p.period_end ? p.period_end.substring(2, 4) : '—';
+                headHtml += `<th>FY${y}</th>`;
+              });
+              headTr.innerHTML = headHtml;
+            }
+
+            // Build rows
+            const getCr = (p, key) => {
+              const cell = p.metrics?.[key];
+              const val = cell?.status === 'AVAILABLE' ? cell.value : null;
+              if (val == null || isNaN(val)) return '—';
+              return Math.round(Number(val) / 1e7).toLocaleString('en-IN');
+            };
+
+            const revRow = displayPeriods.map(p => {
+              const v = getCr(p, 'REVENUE_FROM_OPERATIONS');
+              return v !== '—' ? v : getCr(p, 'INTEREST_EARNED');
+            });
+            const pbtRow = displayPeriods.map(p => {
+              const v = getCr(p, 'PROFIT_BEFORE_TAX');
+              return v;
+            });
+            const patRow = displayPeriods.map(p => getCr(p, 'PROFIT_AFTER_TAX'));
+
+            const tbody = document.getElementById('overviewPlTable');
+            if (tbody) {
+              tbody.innerHTML = `
+                <tr><td>Revenue</td>${revRow.map(v => `<td>${v}</td>`).join('')}</tr>
+                <tr><td>Profit before tax</td>${pbtRow.map(v => `<td>${v}</td>`).join('')}</tr>
+                <tr><td>Net profit</td>${patRow.map(v => `<td>${v}</td>`).join('')}</tr>
+              `;
+            }
+          }
+        }
+      } catch (e) {
+        StockerboardData.error(e.message);
+      }
+    }
+
+    function renderChart(tf) {
+      if (!allCandles || allCandles.length < 2) return;
+
+      // Slice candles by timeframe
+      let candles = allCandles;
+      if (tf === '1M') candles = allCandles.slice(-22);
+      else if (tf === '6M') candles = allCandles.slice(-126);
+      else if (tf === '1Y') candles = allCandles.slice(-252);
+      else if (tf === '3Y' || tf === '5Y') {
+        const cutoff=new Date(allCandles.at(-1).time+'T00:00:00Z');cutoff.setUTCFullYear(cutoff.getUTCFullYear()-(tf==='3Y'?3:5));
+        candles=allCandles.filter(c=>c.time>=cutoff.toISOString().slice(0,10));
+      }
+
+      const width = 680;
+      const height = 200;
+      const startX = 68;
+      const plotWidth = width - startX - 10;
+      const topY = 20;
+      const plotHeight = 150;
+      const baselineY = topY + plotHeight;
+
+      // Min & Max prices across sliced candles
+      const closes = candles.map(c => c.close);
+      const minP = Math.min(...closes);
+      const maxP = Math.max(...closes);
+
+      // Universal dynamic Y-scaling for any stock price range (from ₹5 to ₹1,50,000+)
+      const span = maxP - minP || 10;
+      const pad = span * 0.08;
+      const rawMin = Math.max(0, minP - pad);
+      const rawMax = maxP + pad;
+
+      const rawStep = (rawMax - rawMin) / 3;
+      const mag = Math.pow(10, Math.floor(Math.log10(rawStep)));
+      const relStep = rawStep / mag;
+      let niceStep = mag;
+      if (relStep < 1.5) niceStep = 1 * mag;
+      else if (relStep < 3.5) niceStep = 2 * mag;
+      else if (relStep < 7.5) niceStep = 5 * mag;
+      else niceStep = 10 * mag;
+
+      const yMin = Math.floor(rawMin / niceStep) * niceStep;
+      let yMax = yMin + 3 * niceStep;
+      if (yMax < maxP) yMax += niceStep;
+
+      const yTicks = Array.from({length: Math.round((yMax-yMin)/niceStep)+1}, (_,i) => yMax-i*niceStep);
+
+      // Draw Grid Lines & Y Labels
+      const gridG = document.getElementById('chartGrid');
+      gridG.innerHTML = '';
+      yTicks.forEach(tickVal => {
+        const yPos = topY + ((yMax - tickVal) / (yMax - yMin)) * plotHeight;
+        const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+        line.setAttribute('x1', startX);
+        line.setAttribute('y1', yPos);
+        line.setAttribute('x2', width);
+        line.setAttribute('y2', yPos);
+        line.setAttribute('stroke', '#edf2ee');
+        line.setAttribute('stroke-width', '1');
+        gridG.appendChild(line);
+
+        const txt = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        txt.setAttribute('x', '0');
+        txt.setAttribute('y', yPos + 4);
+        txt.setAttribute('fill', '#889890');
+        txt.setAttribute('font-size', '11');
+        txt.setAttribute('font-family', "'Plus Jakarta Sans', sans-serif");
+        txt.textContent = `₹${tickVal.toLocaleString('en-IN')}`;
+        gridG.appendChild(txt);
+      });
+
+      // Plot Points
+      currentPlotCoords = [];
+      const pts = [];
+      const count = candles.length;
+      document.querySelector('.chart-footnote').textContent=`${candles[0].time} to ${candles.at(-1).time} · ${count} of ${allCandles.length} published sessions · Daily EOD close; corporate-action adjustments not asserted`;
+      document.getElementById('chartSvg').setAttribute('aria-label',`Daily closing prices from ${candles[0].time} to ${candles.at(-1).time}, ${count} sessions`);
+      candles.forEach((c, i) => {
+        const x = startX + (i / (count - 1)) * plotWidth;
+        const y = topY + ((yMax - c.close) / (yMax - yMin)) * plotHeight;
+        pts.push(`${x.toFixed(1)},${y.toFixed(1)}`);
+        currentPlotCoords.push({ x, y, price: c.close, time: c.time });
+      });
+
+      const lineD = 'M ' + pts.join(' L ');
+      const areaD = lineD + ` L ${(startX + plotWidth).toFixed(1)},${baselineY} L ${startX},${baselineY} Z`;
+
+      document.getElementById('chartLine').setAttribute('d', lineD);
+      document.getElementById('chartArea').setAttribute('d', areaD);
+
+      // Draw X-Axis Date Labels (5 evenly spaced milestones)
+      const xG = document.getElementById('chartXAxis');
+      xG.innerHTML = '';
+      const stepIdx = Math.floor(count / 4);
+      const dateIndices = [...new Set([0, stepIdx, stepIdx * 2, stepIdx * 3, count - 1])];
+
+      dateIndices.forEach((cIdx, i) => {
+        const c = candles[cIdx];
+        if (!c) return;
+        const x = startX + (cIdx / (count - 1)) * plotWidth;
+        const dObj = new Date(c.time);
+        const month = dObj.toLocaleDateString('en-US', { month: 'short' });
+        const year = dObj.getFullYear();
+        const label = `${month} ${year}`;
+
+        const txt = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        const anchor = (i === 0) ? 'start' : (i === dateIndices.length-1) ? 'end' : 'middle';
+        txt.setAttribute('x', x);
+        txt.setAttribute('y', baselineY + 16);
+        txt.setAttribute('text-anchor', anchor);
+        txt.setAttribute('fill', '#889890');
+        txt.setAttribute('font-size', '11');
+        txt.setAttribute('font-family', "'Plus Jakarta Sans', sans-serif");
+        txt.textContent = label;
+        xG.appendChild(txt);
+      });
+
+      initChartHover(startX, startX + plotWidth);
+    }
+
+    function initChartHover(minX, maxX) {
+      const box = document.getElementById('chartBox');
+      const tooltip = document.getElementById('chartTooltip');
+      const hoverLine = document.getElementById('hoverLine');
+      const hoverPin = document.getElementById('hoverPin');
+
+      box.onmousemove = (e) => {
+        if (!currentPlotCoords || currentPlotCoords.length === 0) return;
+        const rect = box.getBoundingClientRect();
+        const mouseX = ((e.clientX - rect.left) / rect.width) * 680;
+
+        if (mouseX < minX || mouseX > maxX) {
+          tooltip.style.display = 'none';
+          hoverLine.setAttribute('opacity', '0');
+          hoverPin.setAttribute('opacity', '0');
+          return;
+        }
+
+        // Find closest point
+        let closest = currentPlotCoords[0];
+        let minDist = Math.abs(currentPlotCoords[0].x - mouseX);
+        for (let i = 1; i < currentPlotCoords.length; i++) {
+          const dist = Math.abs(currentPlotCoords[i].x - mouseX);
+          if (dist < minDist) {
+            minDist = dist;
+            closest = currentPlotCoords[i];
+          }
+        }
+
+        // Position crosshair
+        hoverLine.setAttribute('x1', closest.x);
+        hoverLine.setAttribute('x2', closest.x);
+        hoverLine.setAttribute('opacity', '1');
+
+        hoverPin.setAttribute('cx', closest.x);
+        hoverPin.setAttribute('cy', closest.y);
+        hoverPin.setAttribute('opacity', '1');
+
+        // Tooltip
+        const dObj = new Date(closest.time);
+        const dateStr = dObj.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
+        tooltip.innerText = `₹${closest.price.toFixed(2)} · ${dateStr}`;
+        tooltip.style.display = 'block';
+
+        const domX = (closest.x / 680) * rect.width;
+        tooltip.style.left = `${Math.min(Math.max(domX - 70, 60), rect.width - 160)}px`;
+      };
+
+      box.onmouseleave = () => {
+        tooltip.style.display = 'none';
+        hoverLine.setAttribute('opacity', '0');
+        hoverPin.setAttribute('opacity', '0');
+      };
+    }
+
+    function renderTable(rows) {
+      const tbody = document.getElementById('overviewPlTable');
+      tbody.innerHTML = '';
+      rows.forEach(r => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `<td>${r.metric}</td><td>${r.y1}</td><td>${r.y2}</td><td>${r.y3}</td>`;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function setTimeframe(tf) {
+      if ([...document.querySelectorAll('.time-btn')].some(b=>b.textContent.trim()===tf&&b.disabled)) return;
+      currentTimeframe = tf;
+      document.querySelectorAll('.time-btn').forEach(b => b.classList.toggle('active', b.innerText === tf));
+      renderChart(tf);
+    }
+
+
+    function renderOverviewTable(kind){
+      const doc=window.overviewStatements;if(!doc)return;
+      const family=kind==='quarterly'?'quarterly':'annual_pnl';
+      const periods=(doc.statements[family]||[]).filter(p=>p.scope===doc.default_scope).sort((a,b)=>a.period_end.localeCompare(b.period_end));
+      const unique=[...new Map(periods.map(p=>[p.period_end,p])).values()].slice(-3);
+      const head=document.getElementById('tableHeadRow'),body=document.getElementById('overviewPlTable');head.replaceChildren();body.replaceChildren();
+      const label=document.createElement('th');label.textContent='Metric';head.append(label);
+      for(const p of unique){const th=document.createElement('th');th.textContent=p.period_end;head.append(th);}
+      for(const [title,key] of [['Revenue','REVENUE_FROM_OPERATIONS'],['Profit before tax','PROFIT_BEFORE_TAX'],['Net profit','PROFIT_AFTER_TAX']]){
+        const tr=document.createElement('tr'),td=document.createElement('td');td.textContent=title;tr.append(td);
+        for(const p of unique){const c=p.metrics[key],v=document.createElement('td');v.textContent=c?.status==='AVAILABLE'&&Number.isFinite(c.value)?Math.round(c.value/1e7).toLocaleString('en-IN'):'—';tr.append(v);}body.append(tr);
+      }
+    }
+
+    function setPeriod(p) {
+      document.getElementById('btnYearly').classList.toggle('active', p === 'yearly');
+      document.getElementById('btnQuarterly').classList.toggle('active', p === 'quarterly');
+      renderOverviewTable(p);
+    }
+
+    const searchInput = document.getElementById('topbarSearch');
+    if (searchInput) {
+      searchInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' && searchInput.value.trim()) {
+          const sym = searchInput.value.trim().toUpperCase();
+          window.location.href = `stockerboard_company_overview.html?symbol=${encodeURIComponent(sym)}`;
+        }
+      });
+    }
+
+    document.title = `${activeSymbol} · Stockerboard Company Overview`;
+    hydrateOverview(activeSymbol);
+  </script>
+</body>
+</html>

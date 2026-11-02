@@ -129,14 +129,54 @@
       "open": 365.5,
       "time": "2026-10-26",
       "volume": 106460
+    },
+    {
+      "close": 380.65,
+      "high": 383.2,
+      "low": 370.05,
+      "open": 370.05,
+      "time": "2026-10-27",
+      "volume": 64261
+    },
+    {
+      "close": 374.2,
+      "high": 384.65,
+      "low": 371.4,
+      "open": 380.0,
+      "time": "2026-10-28",
+      "volume": 108295
+    },
+    {
+      "close": 372.65,
+      "high": 377.0,
+      "low": 366.15,
+      "open": 374.0,
+      "time": "2026-10-29",
+      "volume": 130743
+    },
+    {
+      "close": 371.0,
+      "high": 388.0,
+      "low": 368.65,
+      "open": 371.3,
+      "time": "2026-10-30",
+      "volume": 84996
+    },
+    {
+      "close": 355.05,
+      "high": 382.9,
+      "low": 349.85,
+      "open": 370.0,
+      "time": "2026-11-02",
+      "volume": 384267
     }
   ],
   "company_name": "A-One Steels India Limited",
   "history": {
     "first_session": "2026-10-01",
     "has_full_52w_history": false,
-    "last_session": "2026-10-26",
-    "sessions_available": 16
+    "last_session": "2026-11-02",
+    "sessions_available": 21
   },
   "industry": null,
   "isin": "INE0OTC01025",
@@ -144,31 +184,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
+    "momentum_score": 53,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.08x"
+    "volume_multiplier": "1.04x"
   },
   "price": {
-    "as_of": "2026-10-26",
-    "change": 0.55,
-    "change_pct": 0.15,
-    "close": 369.95,
-    "previous_close": 369.4,
+    "as_of": "2026-11-02",
+    "change": -15.95,
+    "change_pct": -4.3,
+    "close": 355.05,
+    "previous_close": 371.0,
     "type": "EOD_CLOSE",
-    "volume": 106460
+    "volume": 384267
   },
   "range": {
-    "distance_from_high_pct": -21.29,
-    "distance_from_low_pct": 2.89,
+    "distance_from_high_pct": -24.46,
+    "distance_from_low_pct": 1.49,
     "high_52w": 470.0,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 359.55,
-    "range_position_pct": 9.42
+    "low_52w": 349.85,
+    "range_position_pct": 4.33
   },
   "risk_model": {
-    "invalidation_floor": 357.0,
-    "risk_per_share": 20.35,
-    "technical_pivot": 377.35
+    "invalidation_floor": 342.62,
+    "risk_per_share": 19.53,
+    "technical_pivot": 362.15
   },
   "schema_version": "1.0",
   "sector": null,

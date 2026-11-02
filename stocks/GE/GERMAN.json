@@ -121,14 +121,54 @@
       "open": 102.69,
       "time": "2026-10-26",
       "volume": 1471127
+    },
+    {
+      "close": 103.53,
+      "high": 104.73,
+      "low": 98.35,
+      "open": 98.35,
+      "time": "2026-10-27",
+      "volume": 1163708
+    },
+    {
+      "close": 100.98,
+      "high": 105.31,
+      "low": 100.54,
+      "open": 103.53,
+      "time": "2026-10-28",
+      "volume": 701937
+    },
+    {
+      "close": 102.05,
+      "high": 104.55,
+      "low": 100.98,
+      "open": 100.98,
+      "time": "2026-10-29",
+      "volume": 755305
+    },
+    {
+      "close": 98.89,
+      "high": 102.8,
+      "low": 97.55,
+      "open": 102.8,
+      "time": "2026-10-30",
+      "volume": 1284765
+    },
+    {
+      "close": 101.35,
+      "high": 104.8,
+      "low": 99.39,
+      "open": 100.0,
+      "time": "2026-11-02",
+      "volume": 477432
     }
   ],
   "company_name": "German Green Steel and Power Limited",
   "history": {
     "first_session": "2026-10-05",
     "has_full_52w_history": false,
-    "last_session": "2026-10-26",
-    "sessions_available": 15
+    "last_session": "2026-11-02",
+    "sessions_available": 20
   },
   "industry": null,
   "isin": "INE0D4501011",
@@ -136,31 +176,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 43,
+    "momentum_score": 46,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.23x"
+    "volume_multiplier": "0.1x"
   },
   "price": {
-    "as_of": "2026-10-26",
-    "change": -2.22,
-    "change_pct": -2.2,
-    "close": 98.67,
-    "previous_close": 100.89,
+    "as_of": "2026-11-02",
+    "change": 2.46,
+    "change_pct": 2.49,
+    "close": 101.35,
+    "previous_close": 98.89,
     "type": "EOD_CLOSE",
-    "volume": 1471127
+    "volume": 477432
   },
   "range": {
-    "distance_from_high_pct": -30.91,
-    "distance_from_low_pct": 2.25,
+    "distance_from_high_pct": -29.03,
+    "distance_from_low_pct": 5.03,
     "high_52w": 142.81,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 96.5,
-    "range_position_pct": 4.69
+    "range_position_pct": 10.47
   },
   "risk_model": {
-    "invalidation_floor": 95.22,
-    "risk_per_share": 5.42,
-    "technical_pivot": 100.64
+    "invalidation_floor": 97.8,
+    "risk_per_share": 5.58,
+    "technical_pivot": 103.38
   },
   "schema_version": "1.0",
   "sector": null,
