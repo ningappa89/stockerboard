@@ -76,42 +76,40 @@
       gap: 28px;
     }
 
-    .brand {
+    .brand-unit {
       display: flex;
       align-items: center;
       gap: 10px;
       text-decoration: none;
-      color: var(--ink);
-      font-weight: 800;
-      font-size: 19px;
-      letter-spacing: -0.5px;
+      cursor: pointer;
     }
 
-    .mark-icon {
-      width: 26px;
-      height: 26px;
-      background: var(--green);
-      border-radius: 6px;
+    .brand-emblem {
+      width: 34px;
+      height: 34px;
       display: flex;
-      flex-direction: column;
+      align-items: center;
       justify-content: center;
-      align-items: flex-start;
-      padding-left: 5px;
-      gap: 3px;
-      position: relative;
+      flex-shrink: 0;
+      transition: transform 0.2s ease;
     }
-    .mark-bar { height: 2px; background: #fff; border-radius: 1px; }
-    .mark-bar:nth-child(1) { width: 14px; }
-    .mark-bar:nth-child(2) { width: 10px; }
-    .mark-bar:nth-child(3) { width: 6px; }
-    .mark-dot {
-      position: absolute;
-      width: 4px;
-      height: 4px;
-      background: var(--coral);
-      border-radius: 50%;
-      top: 5px;
-      right: 5px;
+
+    .brand-emblem:hover {
+      transform: scale(1.05);
+    }
+
+    .brand-emblem img {
+      display: block;
+      width: 34px;
+      height: 34px;
+    }
+
+    .brand-name {
+      font-size: 1.05rem;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      color: var(--ink);
+      line-height: 1;
     }
 
     .topbar-search {
@@ -454,14 +452,9 @@
   <!-- Topbar -->
   <header class="topbar">
     <div class="brand-area">
-      <a href="/" class="brand">
-        <div class="mark-icon">
-          <div class="mark-bar"></div>
-          <div class="mark-bar"></div>
-          <div class="mark-bar"></div>
-          <div class="mark-dot"></div>
-        </div>
-        <span>Stockerboard</span>
+      <a class="brand-unit" href="/" aria-label="Stockerboard home">
+        <span class="brand-emblem"><img src="/assets/logo.svg" alt="" width="34" height="34"></span>
+        <span class="brand-name">STOCKERBOARD</span>
       </a>
 
       <div class="topbar-search">
