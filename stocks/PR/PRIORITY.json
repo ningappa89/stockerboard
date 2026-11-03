@@ -233,14 +233,22 @@
       "open": 274.15,
       "time": "2026-11-02",
       "volume": 199283
+    },
+    {
+      "close": 270.8,
+      "high": 279.9,
+      "low": 261.65,
+      "open": 266.0,
+      "time": "2026-11-03",
+      "volume": 107604
     }
   ],
   "company_name": "Priority Jewels Limited",
   "history": {
     "first_session": "2026-09-21",
     "has_full_52w_history": false,
-    "last_session": "2026-11-02",
-    "sessions_available": 29
+    "last_session": "2026-11-03",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE15EH01014",
@@ -248,31 +256,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 43,
+    "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.24x"
+    "volume_multiplier": "0.13x"
   },
   "price": {
-    "as_of": "2026-11-02",
-    "change": -19.1,
-    "change_pct": -6.7,
-    "close": 266.0,
-    "previous_close": 285.1,
+    "as_of": "2026-11-03",
+    "change": 4.8,
+    "change_pct": 1.8,
+    "close": 270.8,
+    "previous_close": 266.0,
     "type": "EOD_CLOSE",
-    "volume": 199283
+    "volume": 107604
   },
   "range": {
-    "distance_from_high_pct": -31.09,
-    "distance_from_low_pct": 20.14,
+    "distance_from_high_pct": -29.84,
+    "distance_from_low_pct": 22.31,
     "high_52w": 386.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 221.41,
-    "range_position_pct": 27.09
+    "range_position_pct": 30.01
   },
   "risk_model": {
-    "invalidation_floor": 256.69,
-    "risk_per_share": 14.63,
-    "technical_pivot": 271.32
+    "invalidation_floor": 261.32,
+    "risk_per_share": 14.9,
+    "technical_pivot": 276.22
   },
   "schema_version": "1.0",
   "sector": null,

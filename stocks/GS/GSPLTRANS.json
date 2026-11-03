@@ -97,14 +97,22 @@
       "open": 114.61,
       "time": "2026-11-02",
       "volume": 1726292
+    },
+    {
+      "close": 114.81,
+      "high": 118.79,
+      "low": 113.75,
+      "open": 118.79,
+      "time": "2026-11-03",
+      "volume": 2044002
     }
   ],
   "company_name": "GSPL Transmission Limited",
   "history": {
     "first_session": "2026-10-15",
     "has_full_52w_history": false,
-    "last_session": "2026-11-02",
-    "sessions_available": 12
+    "last_session": "2026-11-03",
+    "sessions_available": 13
   },
   "industry": null,
   "isin": "INE1TUG01013",
@@ -112,31 +120,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 79,
+    "momentum_score": 76,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.99x"
+    "volume_multiplier": "1.16x"
   },
   "price": {
-    "as_of": "2026-11-02",
-    "change": 3.14,
-    "change_pct": 2.74,
-    "close": 117.75,
-    "previous_close": 114.61,
+    "as_of": "2026-11-03",
+    "change": -2.94,
+    "change_pct": -2.5,
+    "close": 114.81,
+    "previous_close": 117.75,
     "type": "EOD_CLOSE",
-    "volume": 1726292
+    "volume": 2044002
   },
   "range": {
-    "distance_from_high_pct": -6.88,
-    "distance_from_low_pct": 10.05,
+    "distance_from_high_pct": -9.21,
+    "distance_from_low_pct": 7.3,
     "high_52w": 126.45,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 107.0,
-    "range_position_pct": 55.27
+    "range_position_pct": 40.15
   },
   "risk_model": {
-    "invalidation_floor": 113.63,
-    "risk_per_share": 6.48,
-    "technical_pivot": 120.11
+    "invalidation_floor": 110.79,
+    "risk_per_share": 6.32,
+    "technical_pivot": 117.11
   },
   "schema_version": "1.0",
   "sector": null,

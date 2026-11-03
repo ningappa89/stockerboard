@@ -201,14 +201,22 @@
       "open": 701.0,
       "time": "2026-11-02",
       "volume": 11028
+    },
+    {
+      "close": 666.6,
+      "high": 699.0,
+      "low": 661.55,
+      "open": 689.25,
+      "time": "2026-11-03",
+      "volume": 2566
     }
   ],
   "company_name": "PARIN ENTERPRISES LIMITED",
   "history": {
     "first_session": "2026-09-25",
     "has_full_52w_history": false,
-    "last_session": "2026-11-02",
-    "sessions_available": 25
+    "last_session": "2026-11-03",
+    "sessions_available": 26
   },
   "industry": null,
   "isin": "INE00U801010",
@@ -216,31 +224,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 68,
+    "momentum_score": 66,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.87x"
+    "volume_multiplier": "0.2x"
   },
   "price": {
-    "as_of": "2026-11-02",
-    "change": -18.45,
-    "change_pct": -2.66,
-    "close": 675.8,
-    "previous_close": 694.25,
+    "as_of": "2026-11-03",
+    "change": -9.2,
+    "change_pct": -1.36,
+    "close": 666.6,
+    "previous_close": 675.8,
     "type": "EOD_CLOSE",
-    "volume": 11028
+    "volume": 2566
   },
   "range": {
-    "distance_from_high_pct": -14.35,
-    "distance_from_low_pct": 11.7,
+    "distance_from_high_pct": -15.51,
+    "distance_from_low_pct": 10.18,
     "high_52w": 789.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 605.0,
-    "range_position_pct": 38.48
+    "range_position_pct": 33.48
   },
   "risk_model": {
-    "invalidation_floor": 652.15,
-    "risk_per_share": 37.17,
-    "technical_pivot": 689.32
+    "invalidation_floor": 643.27,
+    "risk_per_share": 36.66,
+    "technical_pivot": 679.93
   },
   "schema_version": "1.0",
   "sector": null,

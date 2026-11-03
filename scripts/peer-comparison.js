@@ -3,9 +3,20 @@
  const number=cell=>cell?.status==='AVAILABLE'&&Number.isFinite(cell.value)?cell.value:null;
  function cohort(symbol,universe,groups){
   const target=groups.companies?.[symbol];if(target?.status!=='AVAILABLE'||!target.group)return [];
-  return universe.filter(c=>groups.companies?.[c.symbol]?.status==='AVAILABLE'&&groups.companies[c.symbol].group===target.group);
+  const seen=new Set(),selectedIssuer=target.company_id;
+  return universe.filter(c=>{
+   const entry=groups.companies?.[c.symbol];if(entry?.status!=='AVAILABLE'||entry.group!==target.group)return false;
+   if(selectedIssuer&&entry.company_id===selectedIssuer&&c.symbol!==symbol)return false;
+   const id=entry.company_id||c.symbol;if(seen.has(id))return false;seen.add(id);return true;
+  });
  }
- if(typeof module!=='undefined')module.exports={cohort,number};
+ function unavailableMessage(group,count){
+  if(group?.reason==='CURRENT_EQUITY_IDENTITY_REQUIRED')return 'The current eligible equity security or issuer identity is unresolved. Comparisons are held until identity is verified.';
+  if(group?.reason?.startsWith('INCOMPATIBLE_'))return 'The business classification and financial reporting domain conflict. Comparisons are held for review.';
+  if(count===1)return 'Only one eligible company is available in this cohort. Additional unrelated companies are not substituted.';
+  return 'Verified industry classification or additional comparable companies are missing. Unrelated companies are not substituted.';
+ }
+ if(typeof module!=='undefined')module.exports={cohort,number,unavailableMessage};
  if(typeof document==='undefined')return;
  const put=(id,text)=>{const n=document.getElementById(id);if(n)n.textContent=text;};
  const fmt=(n,suffix='')=>n===null||!Number.isFinite(n)?'—':n.toLocaleString('en-IN',{maximumFractionDigits:2})+suffix;
@@ -26,13 +37,17 @@
    put('companyName',active.name);put('sectorTag',active.sector);put('heroAvatar',symbol);put('tickerLine','NSE: '+symbol);
    const group=groups.companies[symbol],candidates=cohort(symbol,universe,groups);
    put('sectorBadge',group?.label||'Classification unavailable');
-   put('peerSubtitle',group?.group==='BANKING'?'Banks grouped by verified financial-reporting domain. This is a banking comparison cohort; business mix and size still differ.':'Companies sharing a published detailed industry and accounting domain.');
-   if(candidates.length<2){put('peersCount','No comparable cohort available');put('peerSubtitle','Verified industry classification or additional comparable companies are missing. Unrelated companies are not substituted.');return;}
+   put('peerSubtitle',group?.basis==='BASIC_INDUSTRY'?'Companies sharing the same evidenced basic industry.':group?.group==='BANKING'?'Banks grouped by verified financial-reporting domain. Business mix and size still differ.':'Broader sector context only: detailed business-industry classification is not available. These companies are not asserted to be direct business peers.');
+   if(candidates.length<2){put('peersCount','No comparable cohort available');put('peerSubtitle',unavailableMessage(group,candidates.length));return;}
    const vr=await root.StockerboardData.valuations(),valuation=await vr.json();
    const rows=candidates.map(c=>({...c,mcap:number(valuation.companies[c.symbol]?.metrics?.MARKET_CAP)})).sort((a,b)=>(b.mcap??-Infinity)-(a.mcap??-Infinity)||a.symbol.localeCompare(b.symbol));
    let selected=rows.slice(0,8);if(!selected.some(c=>c.symbol===symbol))selected=[...rows.slice(0,7),rows.find(c=>c.symbol===symbol)];
    const details=await Promise.all(selected.map(async c=>{
-    const response=await root.StockerboardData.statements(c.symbol),doc=await response.json(),scope=doc.default_scope;
+    let doc;
+    try{const response=await root.StockerboardData.statements(c.symbol);doc=await response.json();}catch(e){
+     return {...c,pe:null,pb:null,roe:null,financialStatus:'No verified financial statements'};
+    }
+    const scope=doc.default_scope;
     if(doc.release_id!==groups.statement_release||doc.financial_domain!==groups.companies[c.symbol].domain)throw Error('Peer financial identity changed; reload the current release');
     const latest=key=>{const p=(doc.statements.ratios||[]).filter(p=>p.scope===scope&&p.metrics[key]).sort((a,b)=>b.period_end.localeCompare(a.period_end))[0];return number(p?.metrics[key]);};
     const metrics=valuation.companies[c.symbol]?.metrics||{};

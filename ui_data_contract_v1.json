@@ -1,8 +1,8 @@
 {
   "dates": {
     "fundamentals_source_as_of": "2026-10-16",
-    "pro_market_session": "2026-11-02",
-    "universe_as_of": "2026-11-02"
+    "pro_market_session": "2026-11-03",
+    "universe_as_of": "2026-11-03"
   },
   "dossier_coverage": {
     "current_certified_count": 2517,
@@ -14,6 +14,7 @@
       "ELEVATE",
       "GERMAN",
       "GSPLTRANS",
+      "HDFIRE",
       "HEROMOTORS",
       "MANIKA",
       "MOMSBELIEF",
@@ -22,7 +23,9 @@
       "PARIN",
       "PRIORITY",
       "RUNWALENTR",
+      "SHAHINVEST",
       "SONA",
+      "SRIT",
       "SSRETAIL",
       "SWASTIKAIN",
       "VARMORA",
@@ -35,77 +38,77 @@
       "covered": 2047,
       "definition": "Published Dossier V2 debt/equity where applicable; not a beginner filter.",
       "enabled": false,
-      "population": 2537,
+      "population": 2540,
       "source": "certified_public_dossier_v2"
     },
     "market_cap": {
       "covered": 2517,
       "definition": "Published Dossier V2 market capitalization in crore; shown on the company page.",
       "enabled": false,
-      "population": 2537,
+      "population": 2540,
       "source": "certified_public_dossier_v2"
     },
     "pb": {
       "covered": 2129,
       "definition": "Published Dossier V2 price to book.",
       "enabled": true,
-      "population": 2537,
+      "population": 2540,
       "source": "certified_public_dossier_v2"
     },
     "pe": {
       "covered": 1634,
       "definition": "Published Dossier V2 P/E; its valuation price date can differ from the list quote date.",
       "enabled": true,
-      "population": 2537,
+      "population": 2540,
       "source": "certified_public_dossier_v2"
     },
     "price": {
-      "covered": 2537,
+      "covered": 2540,
       "definition": "Last price in INR on the canonical universe date; not a live quote.",
       "enabled": true,
-      "population": 2537,
+      "population": 2540,
       "source": "canonical_universe"
     },
     "return_1y": {
       "covered": 0,
       "definition": "One-year return needs an approved adjusted-price and corporate-action contract.",
       "enabled": false,
-      "population": 2537,
+      "population": 2540,
       "source": "unavailable"
     },
     "revenue_yoy": {
       "covered": 0,
       "definition": "Quarterly revenue growth is not exposed as a certified public Dossier V2 field.",
       "enabled": false,
-      "population": 2537,
+      "population": 2540,
       "source": "unavailable_in_public_dossier"
     },
     "roce": {
       "covered": 0,
       "definition": "Published Dossier V2 return on capital employed; unavailable values stay null.",
       "enabled": false,
-      "population": 2537,
+      "population": 2540,
       "source": "certified_public_dossier_v2"
     },
     "roe": {
       "covered": 1173,
       "definition": "Published Dossier V2 return on equity; period end varies by company.",
       "enabled": true,
-      "population": 2537,
+      "population": 2540,
       "source": "certified_public_dossier_v2"
     },
     "sales_growth_3y": {
       "covered": 0,
       "definition": "Three-year sales growth needs comparable annual periods and scope.",
       "enabled": false,
-      "population": 2537,
+      "population": 2540,
       "source": "unavailable"
     },
     "sector": {
-      "covered": 246,
+      "covered": 256,
       "definition": "Published sector label; unavailable when absent.",
       "enabled": true,
-      "population": 2537,
+      "population": 2540,
       "source": "canonical_universe"
     }
   },
@@ -150,9 +153,9 @@
     }
   ],
   "population": {
-    "canonical_universe_count": 2537,
+    "canonical_universe_count": 2540,
     "claim_full_universe": true,
-    "count": 2537,
+    "count": 2540,
     "name": "canonical_universe"
   },
   "ready_for_full_v1_release": false,

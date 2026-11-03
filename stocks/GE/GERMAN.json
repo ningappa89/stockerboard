@@ -161,14 +161,22 @@
       "open": 100.0,
       "time": "2026-11-02",
       "volume": 477432
+    },
+    {
+      "close": 102.08,
+      "high": 104.96,
+      "low": 101.41,
+      "open": 102.49,
+      "time": "2026-11-03",
+      "volume": 1056961
     }
   ],
   "company_name": "German Green Steel and Power Limited",
   "history": {
     "first_session": "2026-10-05",
     "has_full_52w_history": false,
-    "last_session": "2026-11-02",
-    "sessions_available": 20
+    "last_session": "2026-11-03",
+    "sessions_available": 21
   },
   "industry": null,
   "isin": "INE0D4501011",
@@ -176,31 +184,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 46,
+    "momentum_score": 47,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.1x"
+    "volume_multiplier": "0.29x"
   },
   "price": {
-    "as_of": "2026-11-02",
-    "change": 2.46,
-    "change_pct": 2.49,
-    "close": 101.35,
-    "previous_close": 98.89,
+    "as_of": "2026-11-03",
+    "change": 0.73,
+    "change_pct": 0.72,
+    "close": 102.08,
+    "previous_close": 101.35,
     "type": "EOD_CLOSE",
-    "volume": 477432
+    "volume": 1056961
   },
   "range": {
-    "distance_from_high_pct": -29.03,
-    "distance_from_low_pct": 5.03,
+    "distance_from_high_pct": -28.52,
+    "distance_from_low_pct": 5.78,
     "high_52w": 142.81,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 96.5,
-    "range_position_pct": 10.47
+    "range_position_pct": 12.05
   },
   "risk_model": {
-    "invalidation_floor": 97.8,
-    "risk_per_share": 5.58,
-    "technical_pivot": 103.38
+    "invalidation_floor": 98.51,
+    "risk_per_share": 5.61,
+    "technical_pivot": 104.12
   },
   "schema_version": "1.0",
   "sector": null,
