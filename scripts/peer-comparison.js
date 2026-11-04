@@ -25,7 +25,7 @@
   document.querySelectorAll('.subnav-tabs a').forEach(a=>{const href=a.getAttribute('href');if(href?.startsWith('stockerboard_'))a.href=href.split('?')[0]+'?symbol='+encodeURIComponent(symbol);});
   const stocks=document.getElementById('navStocks');if(stocks)stocks.href='/stocks/';
   const body=document.getElementById('peersTableBody');body.replaceChildren();for(const id of ['bmMcap','bmPe','bmRoe'])put(id,'—');put('peersCount','Checking peer classification…');
-  put('companyName',symbol);put('sectorBadge','Checking classification…');put('peerSubtitle','Checking comparable company classifications…');
+   put('companyName',symbol);put('sectorTag','Sector awaiting verification');put('sectorBadge','Checking classification…');put('peerSubtitle','Checking comparable company classifications…');
   try{
    const [ur,gr]=await Promise.all([fetch('/search_universe.json',{cache:'no-cache'}),fetch('/stocks/peer_groups_v1.json',{cache:'no-cache'})]);
    if(!ur.ok||!gr.ok)throw Error('Peer classification is not available in this release');

@@ -641,8 +641,8 @@
         <line x1="12" y1="16" x2="12.01" y2="16"></line>
       </svg>
       <div>
-        <strong>Historical snapshot · Price basis: <span id="bannerPriceDate">09 Oct 2026</span></strong>
-        <span>These multiples are not calculated using the latest market quote.</span>
+        <strong>Valuation basis · Price date: <span id="bannerPriceDate">Awaiting verified date</span></strong>
+        <span id="valuationBasisNote">Loading verified valuation inputs…</span>
       </div>
     </div>
 
@@ -804,6 +804,9 @@
     }
 
     async function hydrateValuation(symbol) {
+      document.getElementById('companyName').textContent=symbol;
+      document.getElementById('sectorTag').textContent='Sector awaiting verification';
+      for(const id of ['bizRoe','bizDe'])document.getElementById(id).textContent='—';
       for (const id of ['kpiMcap','kpiPe','kpiRoe','kpiRev','kpiMargin','kpiDiv','heroCard1Val','heroCard2Val','heroCard3Val','valPe','valPb','valMcap','priceDisplay']) {
         const node=document.getElementById(id);if(node)node.textContent='—';
       }
@@ -870,15 +873,15 @@
           if (vItem && vItem.metrics) {
             const m = vItem.metrics;
             const grid=document.getElementById('valPe').closest('.val-card').parentElement;
-            for(const [key,label,unit] of [['EV_SALES','EV / Sales','×'],['EV_EBITDA','EV / EBITDA','×'],['FCF_YIELD','Free cash flow yield','%'],['DIVIDEND_YIELD','Dividend yield','%']]){
+            for(const [key,label,unit] of [['EV_SALES','EV / Sales','×'],['EV_EBITDA','EV / EBITDA','×'],['FCF_YIELD','Annual free cash flow yield','%'],['DIVIDEND_YIELD','Dividend yield','%']]){
               const cell=m[key],card=document.createElement('div');card.className='val-card';
               const title=document.createElement('div');title.className='val-card-label';title.textContent=label;
               const value=document.createElement('div');value.className='val-card-num';value.textContent=cell?.status==='AVAILABLE'&&Number.isFinite(cell.value)?cell.value.toFixed(2)+unit:'—';
-              const note=document.createElement('div');note.className='val-card-sub';note.textContent=cell?.status==='AVAILABLE'?'Price basis: '+vItem.valuation_date:(cell?.reason||'No certified value').replaceAll('_',' ').toLowerCase();
+              const note=document.createElement('div');note.className='val-card-sub';note.textContent=cell?.status==='AVAILABLE'?'Price basis: '+vItem.valuation_date+(cell.financial_period_end?' · Financial period ended '+cell.financial_period_end:''):StockerboardData.reasonText(cell);
               card.append(title,value,note);grid.append(card);
             }
 
-            const scope = vItem.scope || 'CONSOLIDATED';
+            const scope = vItem.scope || 'UNAVAILABLE';
             const scopeLabel = scope.charAt(0) + scope.slice(1).toLowerCase();
             const dateStr = vItem.valuation_date;
             const parts = dateStr.split('-');
@@ -921,6 +924,10 @@
             }
 
             document.getElementById('bannerPriceDate').innerText = formattedDate;
+            document.getElementById('valuationBasisNote').textContent=vData.market_as_of===vData.valuation_date?'Available multiples use this market session. Financial inputs retain their own dates.':'These multiples use an older price snapshot. See the calculation dates below.';
+            document.getElementById('basisPeDate').nextElementSibling.textContent=m.P_E?.financial_period_end||'Verified financial period unavailable';
+            document.getElementById('basisPbDate').nextElementSibling.textContent=m.P_B?.financial_period_end||'Verified financial period unavailable';
+            document.getElementById('basisMcapDate').nextElementSibling.textContent=m.MARKET_CAP?.share_count_effective_from?'Share state effective from '+m.MARKET_CAP.share_count_effective_from:'Verified share state unavailable';
             document.getElementById('basisPeDate').innerText = formattedDate;
             document.getElementById('basisPbDate').innerText = formattedDate;
             document.getElementById('basisMcapDate').innerText = formattedDate;

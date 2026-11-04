@@ -1064,6 +1064,8 @@
     }
 
     async function hydrateOverview(symbol) {
+      document.getElementById('companyName').textContent=symbol;
+      document.getElementById('sectorTag').textContent='Sector awaiting verification';
       for (const id of ['kpiMcap','kpiPe','kpiRoe','kpiRev','kpiMargin','kpiDiv','heroCard1Val','heroCard2Val','heroCard3Val','valPe','valPb','valMcap','priceDisplay']) {
         const node=document.getElementById(id);if(node)node.textContent='—';
       }
@@ -1169,7 +1171,7 @@
 
           // Market Cap
           if (stockData.market_cap != null) {
-            document.getElementById('kpiMcap').nextElementSibling.textContent='Valuation basis: '+(stockData.v2_canonical?.valuation?.MARKET_CAP?.price_as_of||stockData.v2_canonical?.valuation?.P_E?.price_as_of||'date unavailable');
+            document.getElementById('kpiMcap').nextElementSibling.textContent='Valuation basis: '+(stockData.valuation_as_of||stockData.v2_canonical?.valuation?.MARKET_CAP?.price_as_of||stockData.v2_canonical?.valuation?.P_E?.price_as_of||'date unavailable');
             const cr = Math.round(stockData.market_cap / 1e7);
             document.getElementById('kpiMcap').innerText = cr >= 100000 ? `₹${(cr / 100000).toFixed(2)}L Cr` : `₹${cr.toLocaleString('en-IN')} Cr`;
           }
@@ -1219,7 +1221,7 @@
       }
 
       // 2. Fetch search universe for curated company name & sector
-      let sectorName = 'General Corporate';
+      let sectorName = 'Sector awaiting verification';
       try {
         const uRes = await fetch('/search_universe.json');
         if (uRes.ok) {
@@ -1307,6 +1309,7 @@
       } catch (e) {
         StockerboardData.error(e.message);
       }
+      if(stockData)StockerboardData.annotateMetrics(stockData);
     }
 
     function renderChart(tf) {

@@ -81,46 +81,54 @@
       "open": 117.6,
       "time": "2026-11-03",
       "volume": 969186
+    },
+    {
+      "close": 118.97,
+      "high": 120.8,
+      "low": 114.58,
+      "open": 116.99,
+      "time": "2026-11-04",
+      "volume": 415591
     }
   ],
   "company_name": "SRIT India Limited",
   "history": {
     "first_session": "2026-10-21",
     "has_full_52w_history": false,
-    "last_session": "2026-11-03",
-    "sessions_available": 10
+    "last_session": "2026-11-04",
+    "sessions_available": 11
   },
   "industry": null,
   "isin": "INE307K01028",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": false,
+    "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 82,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.77x"
+    "momentum_score": 86,
+    "setup_type": "Minervini VCP",
+    "volume_multiplier": "0.35x"
   },
   "price": {
-    "as_of": "2026-11-03",
-    "change": -3.83,
-    "change_pct": -3.2,
-    "close": 116.04,
-    "previous_close": 119.87,
+    "as_of": "2026-11-04",
+    "change": 2.93,
+    "change_pct": 2.52,
+    "close": 118.97,
+    "previous_close": 116.04,
     "type": "EOD_CLOSE",
-    "volume": 969186
+    "volume": 415591
   },
   "range": {
-    "distance_from_high_pct": -4.89,
-    "distance_from_low_pct": 22.15,
+    "distance_from_high_pct": -2.48,
+    "distance_from_low_pct": 25.23,
     "high_52w": 122.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 95.0,
-    "range_position_pct": 77.93
+    "range_position_pct": 88.78
   },
   "risk_model": {
-    "invalidation_floor": 111.98,
-    "risk_per_share": 6.38,
-    "technical_pivot": 118.36
+    "invalidation_floor": 114.81,
+    "risk_per_share": 6.54,
+    "technical_pivot": 121.35
   },
   "schema_version": "1.0",
   "sector": null,

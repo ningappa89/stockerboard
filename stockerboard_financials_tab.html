@@ -829,7 +829,7 @@
 
     <!-- Sub-Footer -->
     <div class="page-subfooter">
-      <span>Design preview using local release values · Availability varies by company</span>
+      <span>Figures show their reporting periods and price dates · Availability varies by company</span>
     </div>
   </main>
 
@@ -854,6 +854,7 @@
     }
 
     async function loadFinancialData(symbol) {
+      document.getElementById('companyName').textContent=symbol;
       for (const id of ['kpiMcap','kpiPe','kpiRoe','kpiRev','kpiMargin','kpiDiv','heroCard1Val','heroCard2Val','heroCard3Val','valPe','valPb','valMcap','priceDisplay']) {
         const node=document.getElementById(id);if(node)node.textContent='—';
       }
@@ -890,7 +891,21 @@
           const stmtRes = await StockerboardData.statements(symbol);
           if (stmtRes.ok) {
             loadedStatementData = await stmtRes.json();
-            renderActiveView();
+            try {
+              const valuation=await(await StockerboardData.valuations()).json(),company=valuation.companies[symbol];
+              if(company?.identity_status==='RESOLVED'&&company.scope===loadedStatementData.default_scope){
+                loadedStatementData.statements.ratios.push({scope:company.scope,period_end:company.valuation_date,
+                  duration_kind:'INSTANT',basis:'CURRENT_PRICE_VALUATION',metrics:Object.fromEntries(['P_E','P_B','MARKET_CAP'].map(k=>[k,company.metrics[k]]))});
+              }
+            } catch(e) { StockerboardData.notice?.('valuationAvailability','Current valuation data could not be verified. Financial statements retain their reporting dates.'); }
+            const initial=StockerboardData.initialFinancialView(loadedStatementData);
+            const latestEnd=family=>(loadedStatementData.statements[family]||[]).filter(p=>p.scope===initial.scope&&Object.values(p.metrics||{}).some(c=>c.status==='AVAILABLE')).map(p=>p.period_end).sort().at(-1);
+            document.getElementById('periodCoverageSub').textContent='Annual results: '+(latestEnd('annual_pnl')||'not available')+' · Quarterly results: '+(latestEnd('quarterly')||'not available');
+            currentPeriodKind=initial.period;
+            currentStatement=initial.statement;
+            setScope(initial.scope);
+            setPeriod(initial.period);
+            setStatement(initial.statement);
           }
         }
       } catch (e) {
@@ -910,6 +925,13 @@
 
     function renderActiveView() {
       if (!loadedStatementData) return;
+      const pointInTime=currentStatement==='balance'||currentStatement==='ratios';
+      document.getElementById('btnAnnual').disabled=pointInTime;
+      document.getElementById('btnQuarterly').disabled=pointInTime;
+      document.getElementById('btnQuarterly').textContent=currentStatement==='cashflow'?'Interim':'Quarterly';
+      document.getElementById('btnTtm').disabled=currentStatement!=='income';
+      if(currentStatement==='cashflow'&&currentPeriodKind==='ttm')currentPeriodKind='annual';
+      for(const [id,kind] of [['btnAnnual','annual'],['btnQuarterly','quarterly'],['btnTtm','ttm']])document.getElementById(id).classList.toggle('active',currentPeriodKind===kind);
       const stmts = loadedStatementData.statements || {};
 
       // Select data list based on statement & period
@@ -921,7 +943,7 @@
       } else if (currentStatement === 'balance') {
         sourceList = (stmts.balance_sheet || []).filter(p => p.metrics?.NET_WORTH?.status === 'AVAILABLE' || p.period_end?.endsWith('-03-31'));
       } else if (currentStatement === 'cashflow') {
-        sourceList = (stmts.cash_flow || []).filter(p => p.metrics?.CFO?.status === 'AVAILABLE' || p.period_end?.endsWith('-03-31'));
+        sourceList = (stmts.cash_flow || []).filter(p => currentPeriodKind==='annual'?p.duration_kind==='ANNUAL':p.duration_kind!=='ANNUAL'&&p.period_start);
       } else if (currentStatement === 'ratios') {
         sourceList = stmts.ratios || [];
       }
@@ -933,7 +955,9 @@
       }
 
       if (!filtered.length) {
-        document.getElementById('fsTableBody').replaceChildren();
+        const body=document.getElementById('fsTableBody');body.replaceChildren();
+        const tr=document.createElement('tr'),td=document.createElement('td');td.colSpan=3;
+        td.textContent='No verified values for this statement and reporting scope. Other statements or scopes may have data.';tr.append(td);body.append(tr);
         document.getElementById('statementSub').textContent = 'No verified values for the selected reporting scope.';
         for (const id of ['heroCard1Val','heroCard2Val','heroCard3Val']) document.getElementById(id).textContent = '—';
         return;
@@ -941,7 +965,7 @@
       // Deduplicate and merge metrics by period_end
       const byDate = {};
       filtered.forEach(p => {
-        const dt = p.period_end;
+        const dt = currentStatement==='cashflow'?p.period_end+'|'+p.period_start+'|'+p.duration_kind:p.period_end;
         if (!byDate[dt]) {
           byDate[dt] = JSON.parse(JSON.stringify(p));
         } else {
@@ -953,15 +977,17 @@
 
       // Get last 2 periods
       const p2 = dedupedList[dedupedList.length - 1] || {};
-      const p1 = dedupedList[dedupedList.length - 2] || dedupedList[dedupedList.length - 1] || {};
+      const p1 = dedupedList[dedupedList.length - 2] || {};
 
       const formatLabel = (p) => {
-        if (!p.period_end) return 'Period';
+        if (!p.period_end) return 'Earlier period unavailable';
+        if(currentStatement==='balance'||currentStatement==='ratios')return 'As of '+p.period_end;
+        if(currentStatement==='cashflow')return (p.period_start||'Period')+' to '+p.period_end;
         if (currentPeriodKind === 'quarterly') {
           const m = p.period_end.substring(5, 7);
           const y = String(Number(p.period_end.substring(0,4)) + (Number(m) > 3 ? 1 : 0)).slice(-2);
           const qMap = { '03': 'Q4', '06': 'Q1', '09': 'Q2', '12': 'Q3' };
-          return `${qMap[m] || 'Q'} FY${y}`;
+          return 'Quarter ended '+p.period_end;
         }
         return 'FY' + p.period_end.substring(2, 4);
       };
@@ -971,12 +997,20 @@
       document.getElementById('thPeriod1').innerText = lbl1;
       document.getElementById('thPeriod2').innerText = lbl2;
 
-      const getMetric = (p, k) => p?.metrics?.[k]?.status === 'AVAILABLE' ? p.metrics[k].value : null;
+      const getCell = (p,k) => {
+        if(p?.metrics?.[k])return p.metrics[k];
+        if(k==='BOOK_VALUE_PER_SHARE'){
+          const matches=(loadedStatementData.statements.ratios||[]).filter(r=>r.scope===currentScope&&r.period_end===p.period_end&&r.metrics?.[k]).map(r=>r.metrics[k]);
+          if(matches.length&&matches.every(c=>c.status==='AVAILABLE'&&c.value===matches[0].value))return matches[0];
+        }
+        return null;
+      };
+      const getMetric = (p,k) => {const c=getCell(p,k);return c?.status==='AVAILABLE'?c.value:null;};
 
       // Update Header & Explanations based on currentStatement
       const scopeLabel = currentScope.charAt(0) + currentScope.slice(1).toLowerCase();
       document.getElementById('detailScope').innerText = scopeLabel;
-      document.getElementById('detailPeriod').innerText = p2.period_end ? `${currentPeriodKind === 'quarterly' ? 'Quarter ended' : 'Year ended'} ${p2.period_end}` : 'Current Period';
+      document.getElementById('detailPeriod').innerText = p2.period_end ? pointInTime?'As of '+p2.period_end:currentStatement==='cashflow'?formatLabel(p2):`${currentPeriodKind === 'quarterly' ? 'Quarter ended' : 'Year ended'} ${p2.period_end}` : 'Current Period';
 
       let rows = [];
 
@@ -999,12 +1033,12 @@
         document.getElementById('heroCard2Val').innerText = patVal != null ? `₹${Math.round(patVal / 1e7).toLocaleString('en-IN')} Cr` : '—';
         document.getElementById('heroCard2Sub').innerText = `${lbl2} · reported`;
 
-        document.getElementById('heroCard3Label').innerText = 'Basic EPS';
+        document.getElementById('heroCard3Label').innerText = getMetric(p2,'EPS_BASIC')!=null?'Basic EPS':'Diluted EPS';
         document.getElementById('heroCard3Val').innerText = epsVal != null ? `₹${Number(epsVal).toFixed(2)}` : '—';
         document.getElementById('heroCard3Sub').innerText = `${lbl2} · reported`;
 
         rows = [
-          { name: 'Revenue from operations', m: 'REVENUE_FROM_OPERATIONS', cls: 'row-parent' },
+          { name: loadedStatementData.financial_domain?.startsWith('BANK')?'Interest earned':'Revenue from operations', m: loadedStatementData.financial_domain?.startsWith('BANK')?'INTEREST_EARNED':'REVENUE_FROM_OPERATIONS', cls: 'row-parent' },
           { name: 'Other income', m: 'OTHER_INCOME', cls: '' },
           { name: 'Total income', m: 'TOTAL_INCOME', cls: 'row-parent' },
           { name: 'Total expenses', m: 'TOTAL_EXPENSES', cls: 'row-parent' },
@@ -1090,21 +1124,24 @@
         document.getElementById('statementSub').innerText = 'Key operational efficiency, return, and leverage ratios.';
         document.getElementById('ctxCardHeading').innerText = 'About financial ratios';
         document.getElementById('ctxCardBody').innerText = 'Ratios measure the relationship between different financial figures to evaluate efficiency and profitability.';
+        document.getElementById('thPeriod1').textContent='Previous period';
+        document.getElementById('thPeriod2').textContent='Latest period';
+        document.getElementById('statementSub').textContent='Each ratio shows its own reporting or price date. Missing values are not inferred.';
 
         const roeVal = getMetric(p2, 'ROE');
         const peVal = getMetric(p2, 'P_E');
         const pbVal = getMetric(p2, 'P_B');
 
         document.getElementById('heroCard1Label').innerText = 'Return on equity (ROE)';
-        document.getElementById('heroCard1Val').innerText = roeVal != null ? `${Number(roeVal).toFixed(1)}%` : '51.8%';
+        document.getElementById('heroCard1Val').innerText = roeVal != null ? `${Number(roeVal).toFixed(1)}%` : '—';
         document.getElementById('heroCard1Sub').innerText = `${lbl2} · reported`;
 
         document.getElementById('heroCard2Label').innerText = 'Price / earnings (P/E)';
-        document.getElementById('heroCard2Val').innerText = peVal != null ? `${Number(peVal).toFixed(1)}×` : '15.7×';
+        document.getElementById('heroCard2Val').innerText = peVal != null ? `${Number(peVal).toFixed(1)}×` : '—';
         document.getElementById('heroCard2Sub').innerText = `${lbl2} · certified`;
 
         document.getElementById('heroCard3Label').innerText = 'Price / book (P/B)';
-        document.getElementById('heroCard3Val').innerText = pbVal != null ? `${Number(pbVal).toFixed(1)}×` : '7.2×';
+        document.getElementById('heroCard3Val').innerText = pbVal != null ? `${Number(pbVal).toFixed(1)}×` : '—';
         document.getElementById('heroCard3Sub').innerText = `${lbl2} · certified`;
 
         rows = [
@@ -1124,13 +1161,16 @@
         const tr = document.createElement('tr');
         if (r.cls) tr.className = r.cls;
 
-        const raw1 = getMetric(p1, r.m) ?? (r.fallback ? getMetric(p1, r.fallback) : null);
-        const raw2 = getMetric(p2, r.m) ?? (r.fallback ? getMetric(p2, r.fallback) : null);
+        const ratioPeriods=currentStatement==='ratios'?dedupedList.filter(p=>p.metrics?.[r.m]):null;
+        const rp1=ratioPeriods?(ratioPeriods.at(-2)||{}):p1,rp2=ratioPeriods?(ratioPeriods.at(-1)||{}):p2;
+        const raw1 = getMetric(rp1, r.m) ?? (r.fallback ? getMetric(rp1, r.fallback) : null);
+        const raw2 = getMetric(rp2, r.m) ?? (r.fallback ? getMetric(rp2, r.fallback) : null);
 
         const v1 = formatVal(raw1, r.eps, r.pct, r.ratio);
         const v2 = formatVal(raw2, r.eps, r.pct, r.ratio);
 
         tr.innerHTML = `<td>${r.name}</td><td>${v1}</td><td>${v2}</td>`;
+        [rp1,rp2].forEach((p,index)=>{const cell=getCell(p,r.m);if(!cell||cell.status!=='AVAILABLE')tr.children[index+1].title=StockerboardData.reasonText(cell);if(ratioPeriods&&p.period_end){const date=document.createElement('small');date.textContent=p.period_end;date.style.cssText='display:block;color:#6b7280;font-size:11px';tr.children[index+1].append(date);}});
         tbody.appendChild(tr);
       });
     }

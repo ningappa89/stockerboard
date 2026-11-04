@@ -177,14 +177,22 @@
       "open": 355.0,
       "time": "2026-11-03",
       "volume": 739200
+    },
+    {
+      "close": 400.4,
+      "high": 404.3,
+      "low": 372.55,
+      "open": 375.05,
+      "time": "2026-11-04",
+      "volume": 411786
     }
   ],
   "company_name": "A-One Steels India Limited",
   "history": {
     "first_session": "2026-10-01",
     "has_full_52w_history": false,
-    "last_session": "2026-11-03",
-    "sessions_available": 22
+    "last_session": "2026-11-04",
+    "sessions_available": 23
   },
   "industry": null,
   "isin": "INE0OTC01025",
@@ -192,31 +200,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 57,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.03x"
+    "momentum_score": 67,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.17x"
   },
   "price": {
-    "as_of": "2026-11-03",
-    "change": 14.45,
-    "change_pct": 4.07,
-    "close": 369.5,
-    "previous_close": 355.05,
+    "as_of": "2026-11-04",
+    "change": 30.9,
+    "change_pct": 8.36,
+    "close": 400.4,
+    "previous_close": 369.5,
     "type": "EOD_CLOSE",
-    "volume": 739200
+    "volume": 411786
   },
   "range": {
-    "distance_from_high_pct": -21.38,
-    "distance_from_low_pct": 5.62,
+    "distance_from_high_pct": -14.81,
+    "distance_from_low_pct": 14.45,
     "high_52w": 470.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 349.85,
-    "range_position_pct": 16.35
+    "range_position_pct": 42.07
   },
   "risk_model": {
-    "invalidation_floor": 356.57,
-    "risk_per_share": 20.32,
-    "technical_pivot": 376.89
+    "invalidation_floor": 386.39,
+    "risk_per_share": 22.02,
+    "technical_pivot": 408.41
   },
   "schema_version": "1.0",
   "sector": null,

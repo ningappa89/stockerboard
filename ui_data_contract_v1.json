@@ -1,17 +1,18 @@
 {
   "dates": {
     "fundamentals_source_as_of": "2026-10-16",
-    "pro_market_session": "2026-11-03",
-    "universe_as_of": "2026-11-03"
+    "pro_market_session": "2026-11-04",
+    "universe_as_of": "2026-11-04"
   },
   "dossier_coverage": {
-    "current_certified_count": 2517,
+    "current_certified_count": 2516,
     "market_only_symbols": [
       "ACEVECTOR",
       "ADROITIND",
       "AONESTEELS",
       "ARMEE",
       "ELEVATE",
+      "FUSIONCX",
       "GERMAN",
       "GSPLTRANS",
       "HDFIRE",
@@ -31,32 +32,32 @@
       "VARMORA",
       "VEEGALAND"
     ],
-    "outside_current_market_count": 7
+    "outside_current_market_count": 8
   },
   "metrics": {
     "debt_to_equity": {
-      "covered": 2047,
+      "covered": 2046,
       "definition": "Published Dossier V2 debt/equity where applicable; not a beginner filter.",
       "enabled": false,
       "population": 2540,
       "source": "certified_public_dossier_v2"
     },
     "market_cap": {
-      "covered": 2517,
+      "covered": 2516,
       "definition": "Published Dossier V2 market capitalization in crore; shown on the company page.",
       "enabled": false,
       "population": 2540,
       "source": "certified_public_dossier_v2"
     },
     "pb": {
-      "covered": 2129,
+      "covered": 2128,
       "definition": "Published Dossier V2 price to book.",
       "enabled": true,
       "population": 2540,
       "source": "certified_public_dossier_v2"
     },
     "pe": {
-      "covered": 1634,
+      "covered": 1633,
       "definition": "Published Dossier V2 P/E; its valuation price date can differ from the list quote date.",
       "enabled": true,
       "population": 2540,
@@ -105,7 +106,7 @@
       "source": "unavailable"
     },
     "sector": {
-      "covered": 256,
+      "covered": 749,
       "definition": "Published sector label; unavailable when absent.",
       "enabled": true,
       "population": 2540,
