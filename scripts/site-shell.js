@@ -21,6 +21,7 @@
    try{data=JSON.parse(contract.textContent);state=publicationState(data);}catch(_){state={status:'unverified'};}
    let banner=document.getElementById('publicationStatus');
    if(!banner){banner=document.createElement('div');banner.id='publicationStatus';banner.setAttribute('role','status');banner.style.cssText='padding:12px 24px;background:#17212b;color:#f1f5f9;border-bottom:1px solid #b08b42;font-size:14px';document.body.prepend(banner);}
+   banner.dataset.status=state.status;
    banner.textContent=state.status==='current'?`EOD market snapshot: ${data.session}. Individual quotes and financial reporting dates may differ.`:state.status==='delayed'?`Data delayed — market snapshot ${data.session}; expected session ${state.expected}. Prices and screens are historical.`:'Market freshness unverified — check the displayed quote dates before using these figures.';
   }
   const today=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
