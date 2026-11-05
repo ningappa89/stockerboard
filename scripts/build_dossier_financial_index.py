@@ -23,6 +23,11 @@ def reconcile_market_population(index: dict, market: dict) -> dict:
     certified = {**result.get("outside_market_stocks", {}), **result["stocks"]}
     certified = {symbol: row for symbol, row in certified.items()
                  if row.get("coverage_basis") != "MARKET_ONLY"}
+    # Normalize the whole retained owner set, including listings outside the
+    # new cohort. Repeated projection across a rename/exit must be identical
+    # to rebuilding directly from those same immutable dossiers.
+    for item in certified.values():
+        item['coverage_basis'] = 'CERTIFIED_DOSSIER'
     rows = market["stocks"]
     symbols = [row[0] for row in rows]
     if len(symbols) != len(set(symbols)) or len(symbols) != market["count"]:

@@ -444,7 +444,7 @@
     }
   </style>
 <script src="/scripts/research-data.js?v=026ecc4bf6ca"></script>
-<script src="/scripts/peer-comparison.js?v=eedc8655bd9a"></script>
+<script src="/scripts/peer-comparison.js?v=5bbac1a0453e"></script>
 <link rel="stylesheet" href="/scripts/peer-comparison.css?v=9604357b04ea">
 </head>
 <body>
@@ -516,7 +516,7 @@
             }
           });
           const navStk = document.getElementById('navStocks');
-          if (navStk) navStk.href = `stockerboard_company_overview.html?symbol=${encodeURIComponent(s)}`;
+          if (navStk) navStk.href = '/stocks/';
         } catch(e) {}
       })();
     </script>
@@ -534,10 +534,10 @@
     <!-- Section Title & Badge -->
     <div class="section-header-row">
       <h2 class="section-title">Peer comparison</h2>
-      <span class="concept-tag" id="sectorBadge">SECTOR: IT SERVICES</span>
+      <span class="concept-tag" id="sectorBadge">Checking classification…</span>
     </div>
     <div class="section-subtitle" id="peerSubtitle">
-      Compare TCS against other leading players in the IT services sector by market capitalization, valuation multiples, and profitability.
+      Checking comparable company classifications…
     </div>
 
     <!-- 3 Benchmark Cards -->
@@ -563,7 +563,7 @@
     <section class="peers-card">
       <div class="peers-card-header">
         <h3 class="peers-card-title">Classified comparison companies</h3>
-        <span class="peers-card-count" id="peersCount">Showing 8 verified peers</span>
+        <span class="peers-card-count" id="peersCount">Checking peer classification…</span>
       </div>
 
       <div class="peer-table-wrap">
@@ -586,7 +586,7 @@
       </div>
 
       <div class="peers-card-footer">
-        Peer metrics are calculated using latest published financial reports and certified valuation multiples. Click any peer row to navigate.
+        Comparisons appear only when a classified cohort is available. Dates and metric availability are shown with the results.
       </div>
     </section>
 
