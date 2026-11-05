@@ -113,14 +113,22 @@
       "open": 172.77,
       "time": "2026-11-04",
       "volume": 422185
+    },
+    {
+      "close": 171.11,
+      "high": 180.19,
+      "low": 170.0,
+      "open": 180.0,
+      "time": "2026-11-05",
+      "volume": 292116
     }
   ],
   "company_name": "Adroit Industries (India) Limited",
   "history": {
     "first_session": "2026-10-15",
     "has_full_52w_history": false,
-    "last_session": "2026-11-04",
-    "sessions_available": 14
+    "last_session": "2026-11-05",
+    "sessions_available": 15
   },
   "industry": null,
   "isin": "INE505M01015",
@@ -128,31 +136,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 69,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "0.43x"
   },
   "price": {
-    "as_of": "2026-11-04",
-    "change": 4.8,
-    "change_pct": 2.8,
-    "close": 176.32,
-    "previous_close": 171.52,
+    "as_of": "2026-11-05",
+    "change": -5.21,
+    "change_pct": -2.95,
+    "close": 171.11,
+    "previous_close": 176.32,
     "type": "EOD_CLOSE",
-    "volume": 422185
+    "volume": 292116
   },
   "range": {
-    "distance_from_high_pct": -13.53,
-    "distance_from_low_pct": 16.77,
+    "distance_from_high_pct": -16.08,
+    "distance_from_low_pct": 13.32,
     "high_52w": 203.9,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 151.0,
-    "range_position_pct": 47.86
+    "range_position_pct": 38.02
   },
   "risk_model": {
-    "invalidation_floor": 170.15,
-    "risk_per_share": 9.7,
-    "technical_pivot": 179.85
+    "invalidation_floor": 165.12,
+    "risk_per_share": 9.41,
+    "technical_pivot": 174.53
   },
   "schema_version": "1.0",
   "sector": null,

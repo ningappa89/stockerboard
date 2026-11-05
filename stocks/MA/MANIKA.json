@@ -169,14 +169,22 @@
       "open": 50.32,
       "time": "2026-11-04",
       "volume": 758272
+    },
+    {
+      "close": 48.02,
+      "high": 50.0,
+      "low": 47.11,
+      "open": 50.0,
+      "time": "2026-11-05",
+      "volume": 585803
     }
   ],
   "company_name": "Manika Plastech Limited",
   "history": {
     "first_session": "2026-10-06",
     "has_full_52w_history": false,
-    "last_session": "2026-11-04",
-    "sessions_available": 21
+    "last_session": "2026-11-05",
+    "sessions_available": 22
   },
   "industry": null,
   "isin": "INE0KWF01020",
@@ -184,31 +192,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 60,
+    "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.36x"
+    "volume_multiplier": "0.48x"
   },
   "price": {
-    "as_of": "2026-11-04",
-    "change": -1.29,
-    "change_pct": -2.56,
-    "close": 49.03,
-    "previous_close": 50.32,
+    "as_of": "2026-11-05",
+    "change": -1.01,
+    "change_pct": -2.06,
+    "close": 48.02,
+    "previous_close": 49.03,
     "type": "EOD_CLOSE",
-    "volume": 758272
+    "volume": 585803
   },
   "range": {
-    "distance_from_high_pct": -19.95,
-    "distance_from_low_pct": 16.74,
+    "distance_from_high_pct": -21.6,
+    "distance_from_low_pct": 14.33,
     "high_52w": 61.25,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 42.0,
-    "range_position_pct": 36.52
+    "range_position_pct": 31.27
   },
   "risk_model": {
-    "invalidation_floor": 47.31,
-    "risk_per_share": 2.7,
-    "technical_pivot": 50.01
+    "invalidation_floor": 46.34,
+    "risk_per_share": 2.64,
+    "technical_pivot": 48.98
   },
   "schema_version": "1.0",
   "sector": null,
