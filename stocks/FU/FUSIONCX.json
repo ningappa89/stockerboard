@@ -89,14 +89,62 @@
       "open": 288.8,
       "time": "2026-11-05",
       "volume": 175689
+    },
+    {
+      "close": 270.7,
+      "high": 278.65,
+      "low": 267.8,
+      "open": 278.2,
+      "time": "2026-11-06",
+      "volume": 99038
+    },
+    {
+      "close": 285.45,
+      "high": 289.0,
+      "low": 275.0,
+      "open": 275.0,
+      "time": "2026-11-08",
+      "volume": 113815
+    },
+    {
+      "close": 287.35,
+      "high": 291.95,
+      "low": 280.15,
+      "open": 284.1,
+      "time": "2026-11-09",
+      "volume": 222620
+    },
+    {
+      "close": 287.6,
+      "high": 301.4,
+      "low": 283.2,
+      "open": 288.0,
+      "time": "2026-11-11",
+      "volume": 426245
+    },
+    {
+      "close": 302.0,
+      "high": 305.1,
+      "low": 288.0,
+      "open": 288.7,
+      "time": "2026-11-12",
+      "volume": 664667
+    },
+    {
+      "close": 303.7,
+      "high": 314.9,
+      "low": 293.0,
+      "open": 305.15,
+      "time": "2026-11-13",
+      "volume": 1589887
     }
   ],
   "company_name": "Fusion CX Limited",
   "history": {
     "first_session": "2026-10-22",
     "has_full_52w_history": false,
-    "last_session": "2026-11-05",
-    "sessions_available": 11
+    "last_session": "2026-11-13",
+    "sessions_available": 17
   },
   "industry": null,
   "isin": "INE0N2201019",
@@ -104,31 +152,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 73,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.09x"
+    "momentum_score": 84,
+    "setup_type": "Minervini VCP",
+    "volume_multiplier": "1.06x"
   },
   "price": {
-    "as_of": "2026-11-05",
-    "change": -7.75,
-    "change_pct": -2.71,
-    "close": 278.2,
-    "previous_close": 285.95,
+    "as_of": "2026-11-13",
+    "change": 1.7,
+    "change_pct": 0.56,
+    "close": 303.7,
+    "previous_close": 302.0,
     "type": "EOD_CLOSE",
-    "volume": 175689
+    "volume": 1589887
   },
   "range": {
-    "distance_from_high_pct": -11.1,
-    "distance_from_low_pct": 6.06,
-    "high_52w": 312.95,
+    "distance_from_high_pct": -3.56,
+    "distance_from_low_pct": 15.78,
+    "high_52w": 314.9,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 262.3,
-    "range_position_pct": 31.39
+    "range_position_pct": 78.71
   },
   "risk_model": {
-    "invalidation_floor": 268.46,
-    "risk_per_share": 15.3,
-    "technical_pivot": 283.76
+    "invalidation_floor": 293.07,
+    "risk_per_share": 16.7,
+    "technical_pivot": 309.77
   },
   "schema_version": "1.0",
   "sector": null,

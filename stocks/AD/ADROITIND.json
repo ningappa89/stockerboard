@@ -121,46 +121,94 @@
       "open": 180.0,
       "time": "2026-11-05",
       "volume": 292116
+    },
+    {
+      "close": 164.93,
+      "high": 170.85,
+      "low": 162.64,
+      "open": 168.52,
+      "time": "2026-11-06",
+      "volume": 264424
+    },
+    {
+      "close": 171.69,
+      "high": 173.0,
+      "low": 166.06,
+      "open": 168.0,
+      "time": "2026-11-08",
+      "volume": 173290
+    },
+    {
+      "close": 168.76,
+      "high": 171.69,
+      "low": 166.0,
+      "open": 170.8,
+      "time": "2026-11-09",
+      "volume": 155417
+    },
+    {
+      "close": 174.13,
+      "high": 178.0,
+      "low": 168.11,
+      "open": 171.0,
+      "time": "2026-11-11",
+      "volume": 384273
+    },
+    {
+      "close": 198.35,
+      "high": 204.0,
+      "low": 174.66,
+      "open": 176.4,
+      "time": "2026-11-12",
+      "volume": 5685045
+    },
+    {
+      "close": 204.08,
+      "high": 207.9,
+      "low": 193.78,
+      "open": 197.36,
+      "time": "2026-11-13",
+      "volume": 1549059
     }
   ],
   "company_name": "Adroit Industries (India) Limited",
   "history": {
     "first_session": "2026-10-15",
     "has_full_52w_history": false,
-    "last_session": "2026-11-05",
-    "sessions_available": 15
+    "last_session": "2026-11-13",
+    "sessions_available": 21
   },
   "industry": null,
   "isin": "INE505M01015",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 65,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.43x"
+    "is_coiled": true,
+    "is_stage2": true,
+    "momentum_score": 87,
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "1.8x"
   },
   "price": {
-    "as_of": "2026-11-05",
-    "change": -5.21,
-    "change_pct": -2.95,
-    "close": 171.11,
-    "previous_close": 176.32,
+    "as_of": "2026-11-13",
+    "change": 5.73,
+    "change_pct": 2.89,
+    "close": 204.08,
+    "previous_close": 198.35,
     "type": "EOD_CLOSE",
-    "volume": 292116
+    "volume": 1549059
   },
   "range": {
-    "distance_from_high_pct": -16.08,
-    "distance_from_low_pct": 13.32,
-    "high_52w": 203.9,
+    "distance_from_high_pct": -1.84,
+    "distance_from_low_pct": 35.15,
+    "high_52w": 207.9,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 151.0,
-    "range_position_pct": 38.02
+    "range_position_pct": 93.29
   },
   "risk_model": {
-    "invalidation_floor": 165.12,
-    "risk_per_share": 9.41,
-    "technical_pivot": 174.53
+    "invalidation_floor": 196.94,
+    "risk_per_share": 11.22,
+    "technical_pivot": 208.16
   },
   "schema_version": "1.0",
   "sector": null,

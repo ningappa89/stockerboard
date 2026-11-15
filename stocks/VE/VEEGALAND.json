@@ -185,14 +185,62 @@
       "open": 136.0,
       "time": "2026-11-05",
       "volume": 1907384
+    },
+    {
+      "close": 137.58,
+      "high": 139.9,
+      "low": 135.05,
+      "open": 138.0,
+      "time": "2026-11-06",
+      "volume": 201919
+    },
+    {
+      "close": 138.83,
+      "high": 140.33,
+      "low": 135.55,
+      "open": 139.95,
+      "time": "2026-11-08",
+      "volume": 111134
+    },
+    {
+      "close": 137.36,
+      "high": 139.95,
+      "low": 135.28,
+      "open": 139.95,
+      "time": "2026-11-09",
+      "volume": 89498
+    },
+    {
+      "close": 138.74,
+      "high": 139.45,
+      "low": 136.1,
+      "open": 138.9,
+      "time": "2026-11-11",
+      "volume": 202104
+    },
+    {
+      "close": 137.11,
+      "high": 140.9,
+      "low": 136.25,
+      "open": 140.0,
+      "time": "2026-11-12",
+      "volume": 168205
+    },
+    {
+      "close": 142.6,
+      "high": 145.4,
+      "low": 136.01,
+      "open": 137.11,
+      "time": "2026-11-13",
+      "volume": 879051
     }
   ],
   "company_name": "Veegaland Developers Limited",
   "history": {
     "first_session": "2026-10-05",
     "has_full_52w_history": false,
-    "last_session": "2026-11-05",
-    "sessions_available": 23
+    "last_session": "2026-11-13",
+    "sessions_available": 29
   },
   "industry": null,
   "isin": "INE1JTV01015",
@@ -200,31 +248,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 74,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "5.59x"
+    "momentum_score": 79,
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "2.78x"
   },
   "price": {
-    "as_of": "2026-11-05",
-    "change": 5.38,
-    "change_pct": 4.06,
-    "close": 137.99,
-    "previous_close": 132.61,
+    "as_of": "2026-11-13",
+    "change": 5.49,
+    "change_pct": 4.0,
+    "close": 142.6,
+    "previous_close": 137.11,
     "type": "EOD_CLOSE",
-    "volume": 1907384
+    "volume": 879051
   },
   "range": {
-    "distance_from_high_pct": -10.28,
-    "distance_from_low_pct": 11.28,
+    "distance_from_high_pct": -7.28,
+    "distance_from_low_pct": 15.0,
     "high_52w": 153.8,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 124.0,
-    "range_position_pct": 46.95
+    "range_position_pct": 62.42
   },
   "risk_model": {
-    "invalidation_floor": 133.16,
-    "risk_per_share": 7.59,
-    "technical_pivot": 140.75
+    "invalidation_floor": 137.61,
+    "risk_per_share": 7.84,
+    "technical_pivot": 145.45
   },
   "schema_version": "1.0",
   "sector": null,

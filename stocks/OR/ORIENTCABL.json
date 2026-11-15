@@ -185,46 +185,94 @@
       "open": 360.0,
       "time": "2026-11-05",
       "volume": 219760
+    },
+    {
+      "close": 338.05,
+      "high": 346.5,
+      "low": 334.8,
+      "open": 346.5,
+      "time": "2026-11-06",
+      "volume": 184905
+    },
+    {
+      "close": 347.25,
+      "high": 349.7,
+      "low": 341.0,
+      "open": 341.0,
+      "time": "2026-11-08",
+      "volume": 66771
+    },
+    {
+      "close": 343.35,
+      "high": 350.0,
+      "low": 338.05,
+      "open": 348.0,
+      "time": "2026-11-09",
+      "volume": 164500
+    },
+    {
+      "close": 373.75,
+      "high": 377.65,
+      "low": 343.6,
+      "open": 343.6,
+      "time": "2026-11-11",
+      "volume": 756329
+    },
+    {
+      "close": 376.95,
+      "high": 384.9,
+      "low": 371.0,
+      "open": 380.0,
+      "time": "2026-11-12",
+      "volume": 652444
+    },
+    {
+      "close": 408.95,
+      "high": 414.55,
+      "low": 374.15,
+      "open": 391.6,
+      "time": "2026-11-13",
+      "volume": 2954328
     }
   ],
   "company_name": "Orient Cables (India) Limited",
   "history": {
     "first_session": "2026-10-05",
     "has_full_52w_history": false,
-    "last_session": "2026-11-05",
-    "sessions_available": 23
+    "last_session": "2026-11-13",
+    "sessions_available": 29
   },
   "industry": null,
   "isin": "INE0J1N01028",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 51,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.2x"
+    "is_stage2": true,
+    "momentum_score": 71,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "4.91x"
   },
   "price": {
-    "as_of": "2026-11-05",
-    "change": -6.35,
-    "change_pct": -1.81,
-    "close": 344.8,
-    "previous_close": 351.15,
+    "as_of": "2026-11-13",
+    "change": 32.0,
+    "change_pct": 8.49,
+    "close": 408.95,
+    "previous_close": 376.95,
     "type": "EOD_CLOSE",
-    "volume": 219760
+    "volume": 2954328
   },
   "range": {
-    "distance_from_high_pct": -25.83,
-    "distance_from_low_pct": 5.57,
+    "distance_from_high_pct": -12.03,
+    "distance_from_low_pct": 25.21,
     "high_52w": 464.85,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 326.6,
-    "range_position_pct": 13.16
+    "range_position_pct": 59.57
   },
   "risk_model": {
-    "invalidation_floor": 332.73,
-    "risk_per_share": 18.97,
-    "technical_pivot": 351.7
+    "invalidation_floor": 394.64,
+    "risk_per_share": 22.49,
+    "technical_pivot": 417.13
   },
   "schema_version": "1.0",
   "sector": null,

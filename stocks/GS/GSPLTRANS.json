@@ -121,46 +121,94 @@
       "open": 114.0,
       "time": "2026-11-05",
       "volume": 1910537
+    },
+    {
+      "close": 106.72,
+      "high": 110.58,
+      "low": 105.31,
+      "open": 110.52,
+      "time": "2026-11-06",
+      "volume": 885952
+    },
+    {
+      "close": 109.99,
+      "high": 110.5,
+      "low": 107.4,
+      "open": 107.4,
+      "time": "2026-11-08",
+      "volume": 229067
+    },
+    {
+      "close": 107.87,
+      "high": 111.8,
+      "low": 107.51,
+      "open": 110.4,
+      "time": "2026-11-09",
+      "volume": 1333288
+    },
+    {
+      "close": 106.83,
+      "high": 111.5,
+      "low": 106.41,
+      "open": 108.26,
+      "time": "2026-11-11",
+      "volume": 2939020
+    },
+    {
+      "close": 102.93,
+      "high": 107.99,
+      "low": 102.21,
+      "open": 107.99,
+      "time": "2026-11-12",
+      "volume": 1689508
+    },
+    {
+      "close": 99.92,
+      "high": 103.77,
+      "low": 99.42,
+      "open": 102.93,
+      "time": "2026-11-13",
+      "volume": 1689717
     }
   ],
   "company_name": "GSPL Transmission Limited",
   "history": {
     "first_session": "2026-10-15",
     "has_full_52w_history": false,
-    "last_session": "2026-11-05",
-    "sessions_available": 15
+    "last_session": "2026-11-13",
+    "sessions_available": 21
   },
   "industry": null,
   "isin": "INE1TUG01013",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 71,
+    "is_stage2": false,
+    "momentum_score": 58,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.06x"
+    "volume_multiplier": "1.02x"
   },
   "price": {
-    "as_of": "2026-11-05",
-    "change": -2.45,
-    "change_pct": -2.17,
-    "close": 110.52,
-    "previous_close": 112.97,
+    "as_of": "2026-11-13",
+    "change": -3.01,
+    "change_pct": -2.92,
+    "close": 99.92,
+    "previous_close": 102.93,
     "type": "EOD_CLOSE",
-    "volume": 1910537
+    "volume": 1689717
   },
   "range": {
-    "distance_from_high_pct": -12.6,
-    "distance_from_low_pct": 3.29,
+    "distance_from_high_pct": -20.98,
+    "distance_from_low_pct": 0.5,
     "high_52w": 126.45,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 107.0,
-    "range_position_pct": 18.1
+    "low_52w": 99.42,
+    "range_position_pct": 1.85
   },
   "risk_model": {
-    "invalidation_floor": 106.65,
-    "risk_per_share": 6.08,
-    "technical_pivot": 112.73
+    "invalidation_floor": 96.42,
+    "risk_per_share": 5.5,
+    "technical_pivot": 101.92
   },
   "schema_version": "1.0",
   "sector": null,

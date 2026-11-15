@@ -209,14 +209,62 @@
       "open": 137.48,
       "time": "2026-11-05",
       "volume": 951299
+    },
+    {
+      "close": 137.65,
+      "high": 148.28,
+      "low": 125.0,
+      "open": 129.88,
+      "time": "2026-11-06",
+      "volume": 1898653
+    },
+    {
+      "close": 133.74,
+      "high": 135.0,
+      "low": 132.45,
+      "open": 135.0,
+      "time": "2026-11-08",
+      "volume": 402034
+    },
+    {
+      "close": 131.19,
+      "high": 134.0,
+      "low": 129.2,
+      "open": 133.74,
+      "time": "2026-11-09",
+      "volume": 235442
+    },
+    {
+      "close": 132.8,
+      "high": 134.39,
+      "low": 131.19,
+      "open": 131.8,
+      "time": "2026-11-11",
+      "volume": 260096
+    },
+    {
+      "close": 133.74,
+      "high": 134.1,
+      "low": 131.51,
+      "open": 132.01,
+      "time": "2026-11-12",
+      "volume": 316373
+    },
+    {
+      "close": 131.62,
+      "high": 136.69,
+      "low": 130.06,
+      "open": 133.8,
+      "time": "2026-11-13",
+      "volume": 522559
     }
   ],
   "company_name": "Varmora Granito Limited",
   "history": {
     "first_session": "2026-09-29",
     "has_full_52w_history": false,
-    "last_session": "2026-11-05",
-    "sessions_available": 26
+    "last_session": "2026-11-13",
+    "sessions_available": 32
   },
   "industry": null,
   "isin": "INE0M5301040",
@@ -224,31 +272,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.87x"
+    "volume_multiplier": "0.5x"
   },
   "price": {
-    "as_of": "2026-11-05",
-    "change": -4.78,
-    "change_pct": -3.57,
-    "close": 129.3,
-    "previous_close": 134.08,
+    "as_of": "2026-11-13",
+    "change": -2.12,
+    "change_pct": -1.59,
+    "close": 131.62,
+    "previous_close": 133.74,
     "type": "EOD_CLOSE",
-    "volume": 951299
+    "volume": 522559
   },
   "range": {
-    "distance_from_high_pct": -21.05,
-    "distance_from_low_pct": 10.12,
+    "distance_from_high_pct": -19.63,
+    "distance_from_low_pct": 12.09,
     "high_52w": 163.77,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 117.42,
-    "range_position_pct": 25.63
+    "range_position_pct": 30.64
   },
   "risk_model": {
-    "invalidation_floor": 124.77,
-    "risk_per_share": 7.12,
-    "technical_pivot": 131.89
+    "invalidation_floor": 127.01,
+    "risk_per_share": 7.24,
+    "technical_pivot": 134.25
   },
   "schema_version": "1.0",
   "sector": null,

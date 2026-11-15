@@ -81,46 +81,94 @@
       "open": 489.0,
       "time": "2026-11-05",
       "volume": 1117895
+    },
+    {
+      "close": 525.95,
+      "high": 531.95,
+      "low": 485.2,
+      "open": 517.0,
+      "time": "2026-11-06",
+      "volume": 3543889
+    },
+    {
+      "close": 534.7,
+      "high": 542.0,
+      "low": 530.1,
+      "open": 535.0,
+      "time": "2026-11-08",
+      "volume": 244762
+    },
+    {
+      "close": 492.9,
+      "high": 537.9,
+      "low": 489.55,
+      "open": 535.9,
+      "time": "2026-11-09",
+      "volume": 657736
+    },
+    {
+      "close": 498.0,
+      "high": 504.0,
+      "low": 478.8,
+      "open": 502.8,
+      "time": "2026-11-11",
+      "volume": 472901
+    },
+    {
+      "close": 504.65,
+      "high": 518.95,
+      "low": 498.5,
+      "open": 504.2,
+      "time": "2026-11-12",
+      "volume": 475013
+    },
+    {
+      "close": 533.95,
+      "high": 544.0,
+      "low": 492.05,
+      "open": 505.0,
+      "time": "2026-11-13",
+      "volume": 1927485
     }
   ],
   "company_name": "Sahajanand Medical Technologies Limited",
   "history": {
     "first_session": "2026-10-23",
     "has_full_52w_history": false,
-    "last_session": "2026-11-05",
-    "sessions_available": 10
+    "last_session": "2026-11-13",
+    "sessions_available": 16
   },
   "industry": null,
   "isin": "INE356Y01018",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 69,
+    "is_stage2": true,
+    "momentum_score": 81,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.22x"
+    "volume_multiplier": "0.52x"
   },
   "price": {
-    "as_of": "2026-11-05",
-    "change": 1.85,
-    "change_pct": 0.38,
-    "close": 487.75,
-    "previous_close": 485.9,
+    "as_of": "2026-11-13",
+    "change": 29.3,
+    "change_pct": 5.81,
+    "close": 533.95,
+    "previous_close": 504.65,
     "type": "EOD_CLOSE",
-    "volume": 1117895
+    "volume": 1927485
   },
   "range": {
-    "distance_from_high_pct": -13.79,
-    "distance_from_low_pct": 40.7,
+    "distance_from_high_pct": -5.62,
+    "distance_from_low_pct": 54.03,
     "high_52w": 565.75,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 346.65,
-    "range_position_pct": 64.4
+    "range_position_pct": 85.49
   },
   "risk_model": {
-    "invalidation_floor": 470.68,
-    "risk_per_share": 26.82,
-    "technical_pivot": 497.5
+    "invalidation_floor": 515.26,
+    "risk_per_share": 29.37,
+    "technical_pivot": 544.63
   },
   "schema_version": "1.0",
   "sector": null,

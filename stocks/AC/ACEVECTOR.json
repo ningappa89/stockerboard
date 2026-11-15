@@ -185,14 +185,62 @@
       "open": 19.71,
       "time": "2026-11-05",
       "volume": 5064126
+    },
+    {
+      "close": 18.81,
+      "high": 19.78,
+      "low": 18.43,
+      "open": 19.78,
+      "time": "2026-11-06",
+      "volume": 4072706
+    },
+    {
+      "close": 19.31,
+      "high": 19.58,
+      "low": 19.05,
+      "open": 19.1,
+      "time": "2026-11-08",
+      "volume": 715124
+    },
+    {
+      "close": 19.43,
+      "high": 19.78,
+      "low": 19.0,
+      "open": 19.45,
+      "time": "2026-11-09",
+      "volume": 2264484
+    },
+    {
+      "close": 19.89,
+      "high": 20.24,
+      "low": 19.47,
+      "open": 19.6,
+      "time": "2026-11-11",
+      "volume": 2130180
+    },
+    {
+      "close": 19.7,
+      "high": 20.24,
+      "low": 19.5,
+      "open": 19.88,
+      "time": "2026-11-12",
+      "volume": 2339440
+    },
+    {
+      "close": 21.34,
+      "high": 21.67,
+      "low": 19.48,
+      "open": 19.7,
+      "time": "2026-11-13",
+      "volume": 9057961
     }
   ],
   "company_name": "AceVector Limited",
   "history": {
     "first_session": "2026-10-05",
     "has_full_52w_history": false,
-    "last_session": "2026-11-05",
-    "sessions_available": 23
+    "last_session": "2026-11-13",
+    "sessions_available": 29
   },
   "industry": null,
   "isin": "INE580P01029",
@@ -202,29 +250,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.32x"
+    "volume_multiplier": "1.3x"
   },
   "price": {
-    "as_of": "2026-11-05",
-    "change": 0.35,
-    "change_pct": 1.8,
-    "close": 19.82,
-    "previous_close": 19.47,
+    "as_of": "2026-11-13",
+    "change": 1.64,
+    "change_pct": 8.32,
+    "close": 21.34,
+    "previous_close": 19.7,
     "type": "EOD_CLOSE",
-    "volume": 5064126
+    "volume": 9057961
   },
   "range": {
-    "distance_from_high_pct": -40.43,
-    "distance_from_low_pct": 13.19,
+    "distance_from_high_pct": -35.86,
+    "distance_from_low_pct": 21.87,
     "high_52w": 33.27,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 17.51,
-    "range_position_pct": 14.66
+    "range_position_pct": 24.3
   },
   "risk_model": {
-    "invalidation_floor": 19.13,
-    "risk_per_share": 1.09,
-    "technical_pivot": 20.22
+    "invalidation_floor": 20.59,
+    "risk_per_share": 1.18,
+    "technical_pivot": 21.77
   },
   "schema_version": "1.0",
   "sector": null,

@@ -97,14 +97,62 @@
       "open": 143.0,
       "time": "2026-11-05",
       "volume": 25632
+    },
+    {
+      "close": 137.11,
+      "high": 139.83,
+      "low": 133.35,
+      "open": 138.96,
+      "time": "2026-11-06",
+      "volume": 15625
+    },
+    {
+      "close": 139.6,
+      "high": 141.45,
+      "low": 137.71,
+      "open": 139.0,
+      "time": "2026-11-08",
+      "volume": 3003
+    },
+    {
+      "close": 137.79,
+      "high": 140.0,
+      "low": 134.61,
+      "open": 139.5,
+      "time": "2026-11-09",
+      "volume": 29164
+    },
+    {
+      "close": 138.48,
+      "high": 140.98,
+      "low": 138.0,
+      "open": 138.97,
+      "time": "2026-11-11",
+      "volume": 9547
+    },
+    {
+      "close": 137.36,
+      "high": 141.0,
+      "low": 137.0,
+      "open": 137.79,
+      "time": "2026-11-12",
+      "volume": 19016
+    },
+    {
+      "close": 143.37,
+      "high": 147.7,
+      "low": 137.29,
+      "open": 138.98,
+      "time": "2026-11-13",
+      "volume": 43424
     }
   ],
   "company_name": "Shah Investor's Home Limited",
   "history": {
     "first_session": "2026-10-21",
     "has_full_52w_history": false,
-    "last_session": "2026-11-05",
-    "sessions_available": 12
+    "last_session": "2026-11-13",
+    "sessions_available": 18
   },
   "industry": null,
   "isin": "INE029N01014",
@@ -112,31 +160,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 71,
+    "momentum_score": 76,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.25x"
+    "volume_multiplier": "0.59x"
   },
   "price": {
-    "as_of": "2026-11-05",
-    "change": -0.58,
-    "change_pct": -0.42,
-    "close": 138.96,
-    "previous_close": 139.54,
+    "as_of": "2026-11-13",
+    "change": 6.01,
+    "change_pct": 4.38,
+    "close": 143.37,
+    "previous_close": 137.36,
     "type": "EOD_CLOSE",
-    "volume": 25632
+    "volume": 43424
   },
   "range": {
-    "distance_from_high_pct": -12.05,
-    "distance_from_low_pct": 3.86,
+    "distance_from_high_pct": -9.26,
+    "distance_from_low_pct": 7.51,
     "high_52w": 158.0,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 133.8,
-    "range_position_pct": 21.32
+    "low_52w": 133.35,
+    "range_position_pct": 40.65
   },
   "risk_model": {
-    "invalidation_floor": 134.1,
-    "risk_per_share": 7.64,
-    "technical_pivot": 141.74
+    "invalidation_floor": 138.35,
+    "risk_per_share": 7.89,
+    "technical_pivot": 146.24
   },
   "schema_version": "1.0",
   "sector": null,
