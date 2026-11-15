@@ -129,8 +129,8 @@ def build_directory(check_only: bool = False, universe_path: Path | None = None,
     template_str = TEMPLATE_PATH.read_text(encoding="utf-8")
 
     pilot_companies = [c for c in registry["companies"] if c.get("status") == "ACTIVE_PILOT"]
-    if len(pilot_companies) != 20:
-        raise ValueError(f"Expected 20 pilot companies, found {len(pilot_companies)}")
+    if len(pilot_companies) < 20:
+        raise ValueError(f"Expected at least 20 pilot companies, found {len(pilot_companies)}")
 
     # The same canonical universe drives home search and this browse page.
     u_map = {}

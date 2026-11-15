@@ -17,28 +17,176 @@
         }
         const main = document.querySelector('main[data-research-company]');
         if (!main) return;
+
+        const allowedPanels = ['overview', 'financials', 'valuation', 'peers', 'filings'];
+        const labelMap = {
+            overview: 'Overview',
+            financials: 'Financials',
+            valuation: 'Valuation',
+            peers: 'Peers',
+            filings: 'Filings'
+        };
+
+        const panelEntries = [];
+        for (const name of allowedPanels) {
+            const el = main.querySelector('[data-research-panel="' + name + '"]');
+            if (el) {
+                panelEntries.push({ name, el, label: labelMap[name] });
+            }
+        }
+        if (panelEntries.length === 0) return;
+
         const tabs = document.createElement('nav');
         tabs.className = 'research-company-tabs';
         tabs.setAttribute('role', 'tablist');
         tabs.setAttribute('aria-label', 'Company research');
-        const panels = ['overview','financials','valuation'].map(name => main.querySelector('[data-research-panel="'+name+'"]'));
-        if (panels.some(panel => !panel)) return;
-        const buttons = panels.map((panel, i) => {
+
+        const buttons = panelEntries.map((entry, i) => {
             const button = document.createElement('button');
-            button.type = 'button'; button.textContent = ['Overview','Financials','Valuation'][i];
-            button.id = 'research-tab-'+i;
-            button.setAttribute('role','tab'); button.setAttribute('aria-controls',panel.id);
-            panel.setAttribute('role','tabpanel'); panel.setAttribute('aria-labelledby',button.id);
-            panel.classList.add('research-company-panel');
-            button.onclick = () => activate(i);
+            button.type = 'button';
+            button.textContent = entry.label;
+            button.id = 'research-tab-' + entry.name;
+            button.setAttribute('role', 'tab');
+            button.setAttribute('aria-controls', entry.el.id || ('research-' + entry.name));
+            button.setAttribute('data-tab-name', entry.name);
+            entry.el.setAttribute('role', 'tabpanel');
+            entry.el.setAttribute('aria-labelledby', button.id);
+            entry.el.classList.add('research-company-panel');
+            button.onclick = () => activate(i, true);
             button.onkeydown = event => {
-                const next = event.key==='ArrowRight'?(i+1)%3:event.key==='ArrowLeft'?(i+2)%3:event.key==='Home'?0:event.key==='End'?2:-1;
-                if(next>=0){event.preventDefault();activate(next);buttons[next].focus();}
+                const n = panelEntries.length;
+                const next = event.key === 'ArrowRight' ? (i + 1) % n : event.key === 'ArrowLeft' ? (i + n - 1) % n : event.key === 'Home' ? 0 : event.key === 'End' ? n - 1 : -1;
+                if (next >= 0) {
+                    event.preventDefault();
+                    activate(next, true);
+                    buttons[next].focus();
+                }
             };
-            tabs.append(button); return button;
+            tabs.append(button);
+            return button;
         });
-        function activate(index) { panels.forEach((panel,i) => {panel.hidden=i!==index;buttons[i].setAttribute('aria-selected',String(i===index));buttons[i].tabIndex=i===index?0:-1;}); }
-        panels[0].before(tabs); activate(0);
+
+        // Advanced PRO link pill
+        const proPill = document.createElement('a');
+        proPill.href = '/?mode=pro';
+        proPill.className = 'tab-item pro-pill';
+        proPill.style.cssText = 'margin-left:auto;text-decoration:none;font-size:0.85rem;font-weight:600;padding:6px 14px;border-radius:999px;background:var(--surface-elevated, #f1f5f9);color:var(--text-secondary, #64748b);border:1px solid var(--border, #e2e8f0);display:inline-flex;align-items:center;gap:4px;white-space:nowrap;';
+        proPill.textContent = 'Advanced PRO ↗';
+        tabs.append(proPill);
+
+        function activate(index, updateUrl = false) {
+            panelEntries.forEach((entry, i) => {
+                entry.el.hidden = i !== index;
+                buttons[i].setAttribute('aria-selected', String(i === index));
+                buttons[i].tabIndex = i === index ? 0 : -1;
+            });
+            const activeEntry = panelEntries[index];
+            if (updateUrl && window.history && window.history.replaceState) {
+                const url = new URL(window.location.href);
+                if (activeEntry.name === 'overview') {
+                    url.searchParams.delete('tab');
+                } else {
+                    url.searchParams.set('tab', activeEntry.name);
+                }
+                window.history.replaceState(null, '', url.toString());
+            }
+
+            // Lazy initialization triggers for peers and filings
+            const sym = main.getAttribute('data-symbol') || (document.getElementById('companyFinancialStatements')?.getAttribute('data-symbol')) || '';
+            if (activeEntry.name === 'peers' && typeof window.StockerboardPeers !== 'undefined' && !window.__PEERS_HYDRATED__) {
+                if (sym) {
+                    window.__PEERS_HYDRATED__ = true;
+                    window.StockerboardPeers.load(sym);
+                }
+            }
+            if (activeEntry.name === 'filings' && typeof window.loadFilingsTable !== 'undefined' && !window.__FILINGS_HYDRATED__) {
+                if (sym) {
+                    window.__FILINGS_HYDRATED__ = true;
+                    window.loadFilingsTable(sym);
+                }
+            }
+        }
+
+        panelEntries[0].el.before(tabs);
+
+        // Check initial URL ?tab parameter
+        const p = new URLSearchParams(window.location.search);
+        const reqTab = (p.get('tab') || 'overview').toLowerCase();
+        const initIndex = panelEntries.findIndex(e => e.name === reqTab);
+        activate(initIndex >= 0 ? initIndex : 0, false);
+
+        // Wire Watchlist button if present
+        const btnWatchlist = document.getElementById('btnWatchlist');
+        if (btnWatchlist) {
+            const sym = main.getAttribute('data-symbol') || '';
+            const getWatchlist = () => {
+                try {
+                    const saved = JSON.parse(localStorage.getItem('stockerboard_watchlist') || '[]');
+                    return Array.isArray(saved) ? saved : [];
+                } catch (error) { return []; }
+            };
+            const updateBtn = () => {
+                const list = getWatchlist();
+                const isSaved = list.includes(sym);
+                btnWatchlist.textContent = isSaved ? '✓ Saved' : '+ Watchlist';
+                btnWatchlist.classList.toggle('active', isSaved);
+                btnWatchlist.setAttribute('aria-pressed', String(isSaved));
+                btnWatchlist.setAttribute('aria-label', `${isSaved ? 'Remove from' : 'Add to'} watchlist`);
+            };
+            updateBtn();
+            btnWatchlist.onclick = () => {
+                let list = getWatchlist();
+                if (list.includes(sym)) {
+                    list = list.filter(s => s !== sym);
+                } else {
+                    if (list.length >= 3) {
+                        showToast('Manage your full watchlist in Pro research.');
+                        return;
+                    }
+                    list.push(sym);
+                }
+                try {
+                    localStorage.setItem('stockerboard_watchlist', JSON.stringify(list));
+                } catch (error) {
+                    showToast('The browser could not save your watchlist.');
+                }
+                updateBtn();
+            };
+        }
+
+        // Wire Copy Research Link button if present
+        const btnCopyLink = document.getElementById('btnCopyLink');
+        if (btnCopyLink) {
+            btnCopyLink.onclick = async () => {
+                const url = window.location.href;
+                try {
+                    await navigator.clipboard.writeText(url);
+                    showToast('Research link copied to clipboard!');
+                } catch(e) {
+                    const inp = document.createElement('input');
+                    inp.value = url;
+                    document.body.appendChild(inp);
+                    inp.select();
+                    document.execCommand('copy');
+                    inp.remove();
+                    showToast('Research link copied to clipboard!');
+                }
+            };
+        }
+
+        function showToast(msg) {
+            let toast = document.getElementById('researchToast');
+            if (!toast) {
+                toast = document.createElement('div');
+                toast.id = 'researchToast';
+                toast.className = 'research-toast';
+                toast.setAttribute('role', 'status');
+                document.body.appendChild(toast);
+            }
+            toast.textContent = msg;
+            toast.classList.add('visible');
+            setTimeout(() => toast.classList.remove('visible'), 2800);
+        }
     }
-    if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',init); else init();
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
 })();

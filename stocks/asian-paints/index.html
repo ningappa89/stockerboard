@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
     <title>Asian Paints Limited Share Price, Fundamentals & Financials | Stockerboard</title>
     <meta name="description" content="Explore Asian Paints Limited share price, market cap, revenue, profit, ROE, P/E, P/B and financial health using Stockerboard exchange-filing-based data.">
     <link rel="canonical" href="https://stockerboard.com/stocks/asian-paints/">
@@ -412,9 +413,99 @@
             padding-top: 24px;
             border-top: 1px solid var(--border);
         }
+
+        /* Workstation Interactive Elements: Buttons, Chart, Tabs */
+        .btn-watchlist, .btn-copy-link {
+            background: var(--surface-elevated);
+            border: 1px solid var(--border);
+            color: var(--text-primary);
+            font-size: 0.85rem;
+            font-weight: 600;
+            padding: 7px 14px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-family: inherit;
+        }
+        .btn-watchlist:hover, .btn-copy-link:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+        .btn-watchlist.active {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: #ffffff;
+        }
+        .time-pills {
+            display: inline-flex;
+            background: var(--surface-elevated);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 2px;
+            gap: 2px;
+        }
+        .time-btn {
+            border: none;
+            background: transparent;
+            color: var(--text-muted);
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            font-family: inherit;
+        }
+        .time-btn:hover {
+            color: var(--text-primary);
+        }
+        .time-btn.active {
+            background: var(--accent);
+            color: #ffffff;
+        }
+        .time-btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+        .peer-table tr.row-active, .peers-table tr.row-active {
+            background: rgba(22, 163, 74, 0.08);
+            font-weight: 600;
+        }
+        .peer-company-link {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .peer-company-link:hover {
+            text-decoration: underline;
+        }
+        .research-toast {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            background: #06543f;
+            color: #ffffff;
+            font-size: 0.85rem;
+            font-weight: 600;
+            padding: 10px 18px;
+            border-radius: 8px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+            z-index: 9999;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: opacity 0.2s ease, transform 0.2s ease;
+            pointer-events: none;
+        }
+        .research-toast.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
         @media (max-width: 640px) {
-            .header { padding: 12px 14px; gap: 10px; }
-            .header { flex-wrap: wrap; }
+            .header { padding: 12px 14px; gap: 10px; flex-wrap: wrap; }
             .header-left { flex-wrap: wrap; flex: 1; min-width: 0; gap: 8px; justify-content: space-between; }
             .logo { font-size: .98rem; }
             .logo-badge { display: none; }
@@ -435,7 +526,11 @@
 <link rel="stylesheet" href="/scripts/financial-statements.css?v=FS_UI_V1_6">
 <script defer src="/scripts/financial-statements.js?v=FS_UI_V1_6"></script>
 <link rel="stylesheet" href="/scripts/research-layout.css?v=20261029">
-<script defer src="/scripts/research-layout.js?v=20261029"></script>
+<script defer src="/scripts/research-layout.js?v=company-v1"></script>
+<script defer src="/scripts/research-data.js"></script>
+<script defer src="/scripts/company-routes.js?v=company-v1"></script>
+<link rel="stylesheet" href="/scripts/peer-comparison.css">
+<script defer src="/scripts/peer-comparison.js?v=company-v1"></script>
 <script type="application/json" id="publicationHealth">{"version": 1, "session": "2026-11-13", "years": [2026], "cutoff": "17:30", "holidays": ["2026-01-26", "2026-02-15", "2026-03-03", "2026-03-21", "2026-03-26", "2026-03-31", "2026-04-03", "2026-04-14", "2026-05-01", "2026-05-28", "2026-06-26", "2026-08-15", "2026-09-14", "2026-10-02", "2026-10-20", "2026-11-10", "2026-11-24", "2026-12-25"], "unverifiedDates": ["2026-11-08"], "source": "https://nsearchives.nseindia.com/content/circulars/CMTR71775.pdf"}</script></head>
 <body>
     <header class="sb-site-header">
@@ -457,7 +552,7 @@
 </header>
 
 
-    <main class="container" data-research-company>
+    <main class="container" data-research-company data-symbol="ASIANPAINT">
         <!-- Breadcrumb Navigation -->
         <nav class="breadcrumb" aria-label="Breadcrumb">
             <a href="/">Home</a>
@@ -467,14 +562,22 @@
             <span>Asian Paints Limited</span>
         </nav>
 
-        <!-- Hero: Identity & Price Freshness -->
+        <!-- Hero: Identity & Price Freshness with Action Buttons -->
         <section class="hero">
-            <div class="hero-title-row">
-                <h1>Asian Paints Limited</h1>
-                <span class="badge">NSE: ASIANPAINT</span>
-            </div>
-            <div class="hero-meta">
-                Public Equity · NSE Listed Equity
+            <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;">
+                <div>
+                    <div class="hero-title-row">
+                        <h1>Asian Paints Limited</h1>
+                        <span class="badge">NSE: ASIANPAINT</span>
+                    </div>
+                    <div class="hero-meta">
+                        Public Equity · NSE Listed Equity
+                    </div>
+                </div>
+                <div class="hero-action-buttons" style="display:flex;align-items:center;gap:10px;">
+                    <button type="button" class="btn-watchlist" id="btnWatchlist" aria-label="Add to Watchlist">+ Watchlist</button>
+                    <button type="button" class="btn-copy-link" id="btnCopyLink" aria-label="Copy direct research link">🔗 Copy Link</button>
+                </div>
             </div>
             <div class="price-section">
                 <div class="cmp-val" id="companyMarketPrice">₹2,550.00</div>
@@ -498,47 +601,23 @@
             <span class="prov-item"><strong style="color:var(--text-primary);font-weight:650;">Financials:</strong> 2026-06-30 &middot; CONSOLIDATED</span>
         </div>
 
-        <!-- Business Focus & Profile (Company Identity & Enrichment V2) -->
-        <section class="section-box" id="business-profile-section" aria-label="Business Focus & Profile" style="margin-bottom:20px;">
-            <div style="display:flex;align-items:center;gap:14px;margin-bottom:12px;">
-                <div class="company-logo-slot" data-symbol="ASIANPAINT" style="width:48px;height:48px;border-radius:8px;background:var(--surface-elevated);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;overflow:hidden;flex-shrink:0;">
-                    A
-                </div>
-                <div>
-                    <h2 style="font-size:1.1rem;margin:0;color:var(--text-primary);font-weight:700;">Business Focus & Profile</h2>
-                    <div style="font-size:0.8rem;color:var(--text-muted);margin-top:2px;">
-                        ASIANPAINT · Public Equity / NSE Listed Equity
-                    </div>
-                </div>
-            </div>
-
-            <div style="margin-top:14px;">
-                <div style="font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.04em;color:var(--text-muted);margin-bottom:4px;">What the company does</div>
-                <p style="font-size:0.92rem;line-height:1.55;color:var(--text-secondary);margin:0 0 14px 0;">
-                    Limited business coverage: profile pending official-source verification.
-                </p>
-            </div>
-
-            <div style="margin-top:16px;padding-top:12px;border-top:1px solid var(--border);font-size:.85rem;">Company website unavailable in this release.</div>
-        </section>
-
-        <!-- Key Snapshot -->
-        <p class="card-sub">Historical valuation price snapshot: 9 Oct 2026 · applies to market cap, P/E and P/B.</p>
+        <!-- Key Snapshot (Applies across all workstation tabs) -->
+        <p class="card-sub" id="companyValuationStatus" role="status">Checking certified valuation data…</p>
         <section class="grid-cards" aria-label="Key Snapshot">
             <div class="card">
                 <div class="card-label">Market Cap</div>
-                <div class="card-val">₹224,366 Cr</div>
-                <div class="card-sub">CONSOLIDATED</div>
+                <div class="card-val" data-valuation-value="MARKET_CAP">—</div>
+                <div class="card-sub" data-valuation-basis="MARKET_CAP"></div>
             </div>
             <div class="card">
                 <div class="card-label">P/E Ratio</div>
-                <div class="card-val">47.05x</div>
-                <div class="card-sub">Available</div>
+                <div class="card-val" data-valuation-value="P_E">—</div>
+                <div class="card-sub" data-valuation-basis="P_E"></div>
             </div>
             <div class="card">
                 <div class="card-label">P/B Ratio</div>
-                <div class="card-val">10.19x</div>
-                <div class="card-sub">Available</div>
+                <div class="card-val" data-valuation-value="P_B">—</div>
+                <div class="card-sub" data-valuation-basis="P_B"></div>
             </div>
             <div class="card">
                 <div class="card-label">ROE</div>
@@ -547,105 +626,307 @@
             </div>
         </section>
 
+        <!-- ========================================== -->
+        <!-- TAB 1: OVERVIEW PANEL                      -->
+        <!-- ========================================== -->
         <div id="research-overview" data-research-panel="overview">
-        <!-- Business Performance (TTM) -->
-        <section class="section-box">
-            <h2>Business Performance</h2>
-            <div class="metric-row">
-                <span class="metric-name">Revenue (TTM)</span>
-                <span class="metric-value">₹37,186.9 Cr</span>
-            </div>
-            <div class="metric-row">
-                <span class="metric-name">Profit / PAT (TTM)</span>
-                <span class="metric-value">₹4,837.1 Cr</span>
-            </div>
-            <div class="metric-row">
-                <span class="metric-name">Basic EPS (TTM)</span>
-                <span class="metric-value">₹49.72</span>
-            </div>
-            <div class="metric-row">
-                <span class="metric-name">Net Margin (latest quarter)</span>
-                <span class="metric-value">14.8%</span>
-            </div>
-        </section>
+            <!-- Price History Interactive Chart Card -->
+            <section class="section-box" id="priceHistoryCard" aria-label="Price History">
+                <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:14px;">
+                    <div>
+                        <h2 style="font-size:1.15rem;margin:0;color:var(--text-primary);font-weight:700;">Price history</h2>
+                        <div style="font-size:0.8rem;color:var(--text-muted);margin-top:2px;">Daily closing price · ₹</div>
+                    </div>
+                    <div class="time-pills" role="group" aria-label="Chart timeframes">
+                        <button type="button" class="time-btn" onclick="setTimeframe('1M')">1M</button>
+                        <button type="button" class="time-btn" onclick="setTimeframe('6M')">6M</button>
+                        <button type="button" class="time-btn active" onclick="setTimeframe('1Y')">1Y</button>
+                    </div>
+                </div>
 
-        <!-- Financial Health & Capital Structure -->
-        <section class="section-box">
-            <h2>Financial Health</h2>
-            <div class="metric-row">
-                <span class="metric-name">Net Worth <small>Reported 31 Mar 2026 · Balance Sheet Gold</small></span>
-                <span class="metric-value">₹22,015.0 Cr</span>
-            </div>
-            <div class="metric-row">
-                <span class="metric-name">Total Debt <small>Reported 31 Mar 2026 · Balance Sheet Gold</small></span>
-                <span class="metric-value">₹2,293.3 Cr</span>
-            </div>
-            <div class="metric-row">
-                <span class="metric-name">Net Debt <small>Reported 31 Mar 2026 · Balance Sheet Gold</small></span>
-                <span class="metric-value">₹1,620.4 Cr</span>
-            </div>
-            <div class="metric-row">
-                <span class="metric-name">Debt to Equity <small>Reported 31 Mar 2026 · Financial Ratios Gold</small></span>
-                <span class="metric-value">0.10x</span>
-            </div>
-            <div class="metric-row">
-                <span class="metric-name">Current Ratio <small>Reported 31 Mar 2026 · Financial Ratios Gold</small></span>
-                <span class="metric-value">2.21x</span>
-            </div>
-        </section>
+                <div class="chart-box" id="chartBox" style="position:relative;width:100%;height:220px;background:var(--surface-elevated);border-radius:8px;overflow:hidden;border:1px solid var(--border);">
+                    <div class="chart-tooltip" id="chartTooltip" style="position:absolute;display:none;pointer-events:none;background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:6px 10px;font-size:0.75rem;box-shadow:var(--card-shadow);z-index:10;color:var(--text-primary);"></div>
+                    <svg id="chartSvg" viewBox="0 0 680 200" preserveAspectRatio="none" style="width:100%;height:100%;display:block;">
+                        <defs>
+                            <linearGradient id="chartGrad" x1="0" y1="0" x2="0" y2="1">
+                                <stop offset="0%" stop-color="#16a34a" stop-opacity="0.22" />
+                                <stop offset="100%" stop-color="#16a34a" stop-opacity="0.00" />
+                            </linearGradient>
+                        </defs>
+                        <g id="chartGrid"></g>
+                        <path id="chartArea" fill="url(#chartGrad)" />
+                        <path id="chartLine" fill="none" stroke="#16a34a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <line id="hoverLine" x1="0" y1="15" x2="0" y2="170" stroke="#16a34a" stroke-dasharray="3,3" stroke-width="1.2" opacity="0" />
+                        <circle id="hoverPin" cx="0" cy="0" r="4.5" fill="#16a34a" stroke="var(--surface)" stroke-width="2" opacity="0" />
+                        <g id="chartXAxis"></g>
+                    </svg>
+                </div>
+                <div class="chart-footnote" id="chartFootnote" style="font-size:0.75rem;color:var(--text-muted);margin-top:8px;">Daily closing prices · EOD snapshot</div>
+            </section>
 
+            <!-- Business Focus & Profile (Company Identity & Enrichment V2) -->
+            <section class="section-box" id="business-profile-section" aria-label="Business Focus & Profile" style="margin-bottom:20px;">
+                <div style="display:flex;align-items:center;gap:14px;margin-bottom:12px;">
+                    <div class="company-logo-slot" data-symbol="ASIANPAINT" style="width:48px;height:48px;border-radius:8px;background:var(--surface-elevated);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;overflow:hidden;flex-shrink:0;">
+                        A
+                    </div>
+                    <div>
+                        <h2 style="font-size:1.1rem;margin:0;color:var(--text-primary);font-weight:700;">Business Focus & Profile</h2>
+                        <div style="font-size:0.8rem;color:var(--text-muted);margin-top:2px;">
+                            ASIANPAINT · Public Equity / NSE Listed Equity
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top:14px;">
+                    <div style="font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.04em;color:var(--text-muted);margin-bottom:4px;">What the company does</div>
+                    <p style="font-size:0.92rem;line-height:1.55;color:var(--text-secondary);margin:0 0 14px 0;">
+                        Limited business coverage: profile pending official-source verification.
+                    </p>
+                </div>
+
+                <div style="display:flex;flex-wrap:wrap;gap:16px;margin-top:16px;padding-top:12px;border-top:1px solid var(--border);font-size:.85rem;">Company website unavailable in this release. </div>
+            </section>
+
+            <!-- Business Performance (TTM) -->
+            <section class="section-box">
+                <h2>Business Performance</h2>
+                <div class="metric-row">
+                    <span class="metric-name">Revenue (TTM)</span>
+                    <span class="metric-value">₹37,186.9 Cr</span>
+                </div>
+                <div class="metric-row">
+                    <span class="metric-name">Profit / PAT (TTM)</span>
+                    <span class="metric-value">₹4,837.1 Cr</span>
+                </div>
+                <div class="metric-row">
+                    <span class="metric-name">Basic EPS (TTM)</span>
+                    <span class="metric-value">₹49.72</span>
+                </div>
+                <div class="metric-row">
+                    <span class="metric-name">Net Margin (latest quarter)</span>
+                    <span class="metric-value">14.8%</span>
+                </div>
+            </section>
+
+            <!-- Financial Health & Capital Structure -->
+            <section class="section-box">
+                <h2>Financial Health</h2>
+                <div class="metric-row">
+                    <span class="metric-name">Net Worth <small>Reported 31 Mar 2026 · Balance Sheet Gold</small></span>
+                    <span class="metric-value">₹22,015.0 Cr</span>
+                </div>
+                <div class="metric-row">
+                    <span class="metric-name">Total Debt <small>Reported 31 Mar 2026 · Balance Sheet Gold</small></span>
+                    <span class="metric-value">₹2,293.3 Cr</span>
+                </div>
+                <div class="metric-row">
+                    <span class="metric-name">Net Debt <small>Reported 31 Mar 2026 · Balance Sheet Gold</small></span>
+                    <span class="metric-value">₹1,620.4 Cr</span>
+                </div>
+                <div class="metric-row">
+                    <span class="metric-name">Debt to Equity <small>Reported 31 Mar 2026 · Financial Ratios Gold</small></span>
+                    <span class="metric-value">0.10x</span>
+                </div>
+                <div class="metric-row">
+                    <span class="metric-name">Current Ratio <small>Reported 31 Mar 2026 · Financial Ratios Gold</small></span>
+                    <span class="metric-value">2.21x</span>
+                </div>
+            </section>
         </div>
+
+        <!-- ========================================== -->
+        <!-- TAB 2: FINANCIALS PANEL                    -->
+        <!-- ========================================== -->
+        <div id="research-financials" data-research-panel="financials">
+            <section id="companyFinancialStatements" class="fs-root" data-financial-statements data-symbol="ASIANPAINT" aria-label="Financial statements"></section>
+        </div>
+
+        <!-- ========================================== -->
+        <!-- TAB 3: VALUATION PANEL                     -->
+        <!-- ========================================== -->
         <div id="research-valuation" data-research-panel="valuation">
-        <!-- Returns & Valuation -->
-        <section class="section-box">
-            <h2>Returns & Valuation</h2>
-            <p class="card-sub">Historical valuation price snapshot: 9 Oct 2026. P/E, P/B and market cap use this historical price basis when it differs from the quote above.</p>
-            <div class="metric-row">
-                <span class="metric-name">Return on Equity (ROE)</span>
-                <span class="metric-value">20.6%</span>
-            </div>
-            <div class="metric-row">
-                <span class="metric-name">ROCE</span>
-                <span class="metric-value">Not available yet</span>
-            </div>
-            <div class="metric-row">
-                <span class="metric-name">Price to Earnings (P/E)</span>
-                <span class="metric-value">47.05x</span>
-            </div>
-            <div class="metric-row">
-                <span class="metric-name">Price to Book (P/B)</span>
-                <span class="metric-value">10.19x</span>
-            </div>
-            <div class="metric-row">
-                <span class="metric-name">Book Value Per Share (BVPS) <small>Reported 31 Mar 2026 · Balance Sheet Gold</small></span>
-                <span class="metric-value">₹229.51</span>
-            </div>
-        </section>
+            <!-- Returns & Valuation -->
+            <section class="section-box">
+                <h2>Returns & Valuation</h2>
+                <p class="card-sub">Price dates and reporting periods are shown for each available multiple.</p>
+                <div class="metric-row">
+                    <span class="metric-name">Return on Equity (ROE)</span>
+                    <span class="metric-value">20.6%</span>
+                </div>
+                <div class="metric-row">
+                    <span class="metric-name">ROCE</span>
+                    <span class="metric-value">Not available yet</span>
+                </div>
+                <div class="metric-row">
+                    <span class="metric-name">Price to Earnings (P/E) <small data-valuation-basis="P_E"></small></span>
+                    <span class="metric-value" data-valuation-value="P_E">—</span>
+                </div>
+                <div class="metric-row">
+                    <span class="metric-name">Price to Book (P/B) <small data-valuation-basis="P_B"></small></span>
+                    <span class="metric-value" data-valuation-value="P_B">—</span>
+                </div>
+                <div class="metric-row">
+                    <span class="metric-name">Book Value Per Share (BVPS) <small>Reported 31 Mar 2026 · Balance Sheet Gold</small></span>
+                    <span class="metric-value">₹229.51</span>
+                </div>
+            </section>
 
-        <!-- Plain Language Metric Explanations -->
-        <section class="section-box">
-            <h2>Understand These Numbers</h2>
-            <div class="expl-card">
-                <div class="expl-title">Price-to-Earnings (P/E) Ratio</div>
-                <div class="expl-desc">Price investors pay for each ₹1 of recent annual earnings per share.</div>
-            </div>
-            <div class="expl-card">
-                <div class="expl-title">Price-to-Book (P/B) Ratio</div>
-                <div class="expl-desc">Compares the current share price to the accounting net asset value per share.</div>
-            </div>
-            <div class="expl-card">
-                <div class="expl-title">Return on Equity (ROE)</div>
-                <div class="expl-desc">Measures how efficiently the company generated net profit on shareholder equity.</div>
-            </div>
-            <div class="expl-card">
-                <div class="expl-title">Debt to Equity</div>
-                <div class="expl-desc">Total borrowings relative to net worth; not applicable to banks or lending institutions.</div>
-            </div>
-        </section>
+            <!-- Plain Language Metric Explanations -->
+            <section class="section-box">
+                <h2>Understand These Numbers</h2>
+                <div class="expl-card">
+                    <div class="expl-title">Price-to-Earnings (P/E) Ratio</div>
+                    <div class="expl-desc">Price investors pay for each ₹1 of recent annual earnings per share.</div>
+                </div>
+                <div class="expl-card">
+                    <div class="expl-title">Price-to-Book (P/B) Ratio</div>
+                    <div class="expl-desc">Compares the current share price to the accounting net asset value per share.</div>
+                </div>
+                <div class="expl-card">
+                    <div class="expl-title">Return on Equity (ROE)</div>
+                    <div class="expl-desc">Measures how efficiently the company generated net profit on shareholder equity.</div>
+                </div>
+                <div class="expl-card">
+                    <div class="expl-title">Debt to Equity</div>
+                    <div class="expl-desc">Total borrowings relative to net worth; not applicable to banks or lending institutions.</div>
+                </div>
+            </section>
 
-        <div class="research-pending"><h2>Additional valuation measures</h2><p>EV/Sales, EV/EBITDA, dividend yield and free-cash-flow yield are not yet certified for this release. They are not estimated from incomplete inputs.</p><p>Historical valuation benchmarks will appear when a validated history is available.</p></div>
+            <section class="section-box">
+                <h2>Additional valuation measures</h2>
+                <div class="metric-row"><span class="metric-name">EV / Sales <small data-valuation-basis="EV_SALES"></small></span><span class="metric-value" data-valuation-value="EV_SALES">—</span></div>
+                <div class="metric-row"><span class="metric-name">EV / EBITDA <small data-valuation-basis="EV_EBITDA"></small></span><span class="metric-value" data-valuation-value="EV_EBITDA">—</span></div>
+                <div class="metric-row"><span class="metric-name">Dividend yield <small data-valuation-basis="DIVIDEND_YIELD"></small></span><span class="metric-value" data-valuation-value="DIVIDEND_YIELD">—</span></div>
+                <div class="metric-row"><span class="metric-name">Annual free cash flow yield <small data-valuation-basis="FCF_YIELD"></small></span><span class="metric-value" data-valuation-value="FCF_YIELD">—</span></div>
+            </section>
         </div>
-        <div id="research-financials" data-research-panel="financials"><section id="companyFinancialStatements" class="fs-root" data-financial-statements data-symbol="ASIANPAINT" aria-label="Financial statements"></section></div>
+
+        <!-- ========================================== -->
+        <!-- TAB 4: PEERS PANEL                         -->
+        <!-- ========================================== -->
+        <div id="research-peers" data-research-panel="peers">
+            <section class="section-box">
+                <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:6px;">
+                    <h2 style="margin:0;">Peer comparison</h2>
+                    <span class="badge" id="sectorBadge" style="background:var(--accent);color:#ffffff;border:none;">Checking classification…</span>
+                </div>
+                <p class="section-subtitle" id="peerSubtitle" style="font-size:0.88rem;color:var(--text-muted);margin-bottom:18px;">
+                    Checking comparable company classifications…
+                </p>
+
+                <!-- 3 Benchmark Cards -->
+                <div class="grid-cards" style="margin-bottom:20px;">
+                    <div class="card">
+                        <div class="card-label">Comparison median P/E</div>
+                        <div class="card-val" id="bmPe">—</div>
+                        <div class="card-sub">Shown comparables; selected company excluded</div>
+                    </div>
+                    <div class="card">
+                        <div class="card-label">Comparison median ROE</div>
+                        <div class="card-val" id="bmRoe">—</div>
+                        <div class="card-sub">Latest reported values; selected company excluded</div>
+                    </div>
+                    <div class="card">
+                        <div class="card-label">Comparison market cap</div>
+                        <div class="card-val" id="bmMcap">—</div>
+                        <div class="card-sub">Shown comparables; selected company excluded</div>
+                    </div>
+                </div>
+
+                <!-- Peer Table Card -->
+                <div class="peers-table-card" style="border:1px solid var(--border);border-radius:10px;overflow:hidden;background:var(--surface);">
+                    <div style="padding:14px 18px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;">
+                        <h3 style="font-size:1rem;font-weight:700;color:var(--text-primary);margin:0;">Classified comparison companies</h3>
+                        <span id="peersCount" style="font-size:0.8rem;color:var(--text-muted);">Checking peer classification…</span>
+                    </div>
+                    <div class="peer-table-wrap" style="overflow-x:auto;">
+                        <table class="peer-table" style="width:100%;border-collapse:collapse;font-size:0.88rem;text-align:left;">
+                            <thead>
+                                <tr style="border-bottom:1px solid var(--border);background:var(--surface-elevated);color:var(--text-muted);font-size:0.75rem;text-transform:uppercase;letter-spacing:0.04em;">
+                                    <th style="padding:10px 16px;">Company</th>
+                                    <th style="padding:10px 16px;">Price (₹)</th>
+                                    <th style="padding:10px 16px;">Market Cap (Cr)</th>
+                                    <th style="padding:10px 16px;">P/E (x)</th>
+                                    <th style="padding:10px 16px;">ROE (%)</th>
+                                    <th style="padding:10px 16px;">P/B (x)</th>
+                                    <th style="padding:10px 16px;">Quote date</th>
+                                </tr>
+                            </thead>
+                            <tbody id="peersTableBody">
+                                <!-- Injected via JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="peers-card-footer" style="padding:12px 18px;border-top:1px solid var(--border);font-size:0.75rem;color:var(--text-muted);background:var(--surface-elevated);line-height:1.45;">
+                        Comparisons appear only when a classified cohort is available. Dates and metric availability are shown with the results.
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- ========================================== -->
+        <!-- TAB 5: FILINGS PANEL                       -->
+        <!-- ========================================== -->
+        <div id="research-filings" data-research-panel="filings">
+            <section class="section-box">
+                <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:6px;">
+                    <h2 style="margin:0;">Statutory filings & audit trail</h2>
+                    <span class="badge" style="background:var(--accent);color:#ffffff;border:none;">STATUTORY FILINGS</span>
+                </div>
+                <p class="section-subtitle" style="font-size:0.88rem;color:var(--text-muted);margin-bottom:18px;">
+                    Source evidence for the annual and quarterly results included in Stockerboard’s statement release.
+                </p>
+
+                <!-- 3 Summary Cards -->
+                <div class="grid-cards" style="margin-bottom:20px;">
+                    <div class="card">
+                        <div class="card-label">Reporting records</div>
+                        <div class="card-val" id="filingsTotalCount" role="status">Checking…</div>
+                        <div class="card-sub">Annual and quarterly results by scope</div>
+                    </div>
+                    <div class="card">
+                        <div class="card-label">Annual periods</div>
+                        <div class="card-val" id="filingsAnnualPeriods">—</div>
+                        <div class="card-sub">Fiscal period end dates</div>
+                    </div>
+                    <div class="card">
+                        <div class="card-label">Source verification</div>
+                        <div class="card-val" style="color:var(--emerald);">Statutory Filings</div>
+                        <div class="card-sub">Anchored with SHA-256 hashes</div>
+                    </div>
+                </div>
+
+                <!-- Filings Table Card -->
+                <div class="filings-table-card" style="border:1px solid var(--border);border-radius:10px;overflow:hidden;background:var(--surface);">
+                    <div style="padding:14px 18px;border-bottom:1px solid var(--border);">
+                        <h3 style="font-size:1rem;font-weight:700;color:var(--text-primary);margin:0;">Verified Regulatory Filings Ledger</h3>
+                    </div>
+                    <div class="filings-table-wrap" style="overflow-x:auto;">
+                        <table class="filings-table" style="width:100%;border-collapse:collapse;font-size:0.88rem;text-align:left;">
+                            <thead>
+                                <tr style="border-bottom:1px solid var(--border);background:var(--surface-elevated);color:var(--text-muted);font-size:0.75rem;text-transform:uppercase;letter-spacing:0.04em;">
+                                    <th style="padding:10px 16px;">Filing Period</th>
+                                    <th style="padding:10px 16px;">Statement / Filing Type</th>
+                                    <th style="padding:10px 16px;">Scope</th>
+                                    <th style="padding:10px 16px;">Audit Status</th>
+                                    <th style="padding:10px 16px;text-align:right;">Revenue (Cr)</th>
+                                    <th style="padding:10px 16px;text-align:right;">PAT (Cr)</th>
+                                    <th style="padding:10px 16px;">Evidence Fingerprint</th>
+                                </tr>
+                            </thead>
+                            <tbody id="filingsTableBody">
+                                <!-- Injected via JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="filings-card-footer" style="padding:12px 18px;border-top:1px solid var(--border);font-size:0.75rem;color:var(--text-muted);background:var(--surface-elevated);line-height:1.45;">
+                        Original documents are linked where a source URL is available. A fingerprint identifies the retained source file.
+                    </div>
+                </div>
+            </section>
+        </div>
+
         <!-- Compact Page-Level Disclosure -->
         <div class="page-disclosure">
             <span class="disclosure-icon">ℹ️</span>
@@ -979,6 +1260,7 @@
             const saved = localStorage.getItem('stockerboard_theme');
             if (saved) document.documentElement.setAttribute('data-theme', saved);
         })();
+
         // Keep the market quote current independently of the certified financial cohort.
         fetch('/stocks/market_universe_index_v1.json', {cache: 'no-cache'})
             .then(response => { if (!response.ok) throw new Error('Market index unavailable'); return response.json(); })
@@ -995,6 +1277,256 @@
                 const rangeNote = document.querySelector('.hero-range-note');
                 if (rangeNote) rangeNote.textContent = 'Range through 9 Oct 2026; latest price shown above. Range position reflects the earlier snapshot.';
             }).catch(() => {});
+
+        async function loadCompanyValuation(symbol) {
+            const status = document.getElementById('companyValuationStatus');
+            try {
+                const release = await (await StockerboardData.valuations()).json();
+                const company = release.companies[symbol];
+                if (!company) throw new Error('No valuation entry for this company');
+                for (const node of document.querySelectorAll('[data-valuation-value]')) {
+                    const key = node.dataset.valuationValue;
+                    const metric = company.metrics[key];
+                    if (metric?.status !== 'AVAILABLE' || !Number.isFinite(metric.value)) continue;
+                    const value = key === 'MARKET_CAP' ? metric.value / 1e7 : metric.value;
+                    const display = value.toLocaleString('en-IN', { maximumFractionDigits: 2 });
+                    node.textContent = key === 'MARKET_CAP' ? `₹${display} Cr` : `${display}${key.endsWith('_YIELD') ? '%' : '×'}`;
+                }
+                for (const node of document.querySelectorAll('[data-valuation-basis]')) {
+                    const metric = company.metrics[node.dataset.valuationBasis];
+                    if (metric?.status !== 'AVAILABLE') {
+                        node.textContent = StockerboardData.reasonText(metric?.reason);
+                        continue;
+                    }
+                    node.textContent = [metric.price_as_of && `Price ${metric.price_as_of}`,
+                        metric.financial_period_end && `Period ended ${metric.financial_period_end}`,
+                        metric.scope && metric.scope.toLowerCase()].filter(Boolean).join(' · ');
+                }
+                status.textContent = `Valuation release · ${release.valuation_date}`;
+            } catch (error) {
+                status.textContent = 'Certified valuation data is unavailable. Reload to retry.';
+            }
+        }
+
+        function formattedFilingAmount(cell) {
+            return cell?.status === 'AVAILABLE' && Number.isFinite(cell.value)
+                ? `₹${Math.round(cell.value / 1e7).toLocaleString('en-IN')}` : '—';
+        }
+
+        window.loadFilingsTable = async function(symbol) {
+            const status = document.getElementById('filingsTotalCount');
+            try {
+                const data = await (await StockerboardData.statements(symbol)).json();
+                const tbody = document.getElementById('filingsTableBody');
+                tbody.replaceChildren();
+                const st = data.statements || {};
+                const annual = st.annual_pnl || [];
+                const annualDates = [...new Set(annual.map(period => period.period_end))].sort().reverse();
+                document.getElementById('filingsAnnualPeriods').textContent = annualDates.join(', ') || '—';
+                const periods = [
+                    ...annual.map(period => ({ period, type: 'Annual results' })),
+                    ...(st.quarterly || []).map(period => ({ period, type: 'Quarterly results' }))
+                ].filter(({ period }) => period.filing_id || period.artifact_sha256)
+                    .sort((a, b) => b.period.period_end.localeCompare(a.period.period_end));
+                status.textContent = periods.length ? String(periods.length) : 'No filing evidence available';
+                for (const { period, type } of periods) {
+                    const row = tbody.insertRow();
+                    const audit = { AUDITED: 'Audited', UNAUDITED: 'Unaudited', LIMITED_REVIEW: 'Limited review' }[period.audit_status] || 'Not stated';
+                    for (const value of [period.period_end, type, period.scope || '—', audit,
+                        formattedFilingAmount(period.metrics?.REVENUE_FROM_OPERATIONS),
+                        formattedFilingAmount(period.metrics?.PROFIT_AFTER_TAX)]) {
+                        row.insertCell().textContent = value;
+                    }
+                    const evidence = row.insertCell();
+                    if (/^[a-f0-9]{64}$/i.test(period.artifact_sha256 || '')) {
+                        evidence.title = period.artifact_sha256;
+                        evidence.textContent = `${period.artifact_sha256.slice(0, 12)}…`;
+                    } else {
+                        evidence.textContent = '—';
+                    }
+                    if (typeof period.source_url === 'string' && URL.canParse(period.source_url)) {
+                        const source = new URL(period.source_url);
+                        if (source.protocol === 'https:') {
+                            const link = document.createElement('a');
+                            link.href = source.href;
+                            link.rel = 'noopener noreferrer';
+                            link.target = '_blank';
+                            link.textContent = 'Open source';
+                            evidence.append(' ', link);
+                        }
+                    }
+                }
+            } catch (error) {
+                status.textContent = 'Filing evidence is unavailable. Reload to retry.';
+            }
+        };
+
+        // Interactive Price History Chart
+        let allCandles = [];
+        let currentTimeframe = '1Y';
+        let currentPlotCoords = [];
+
+        async function loadPriceHistory(symbol) {
+            try {
+                const res = await StockerboardData.stock(symbol);
+                const data = await res.json();
+                if (data.candles && data.candles.length > 1) {
+                    allCandles = data.candles;
+                    renderChart('1Y');
+                } else {
+                    const note = document.getElementById('chartFootnote');
+                    if (note) note.textContent = data.history_error || 'Insufficient published price history for chart.';
+                    document.querySelectorAll('.time-btn').forEach(b => b.disabled = true);
+                }
+            } catch (error) {
+                document.getElementById('chartFootnote').textContent = 'Certified price history is unavailable. Reload to retry.';
+                document.querySelectorAll('.time-btn').forEach(button => { button.disabled = true; });
+            }
+        }
+
+        function setTimeframe(tf) {
+            currentTimeframe = tf;
+            document.querySelectorAll('.time-btn').forEach(b => b.classList.toggle('active', b.textContent.trim() === tf));
+            renderChart(tf);
+        }
+
+        function renderChart(tf) {
+            if (!allCandles || allCandles.length < 2) return;
+            let candles = allCandles;
+            if (tf === '1M') candles = allCandles.slice(-22);
+            else if (tf === '6M') candles = allCandles.slice(-126);
+            else if (tf === '1Y') candles = allCandles.slice(-252);
+            if (candles.length < 2) candles = allCandles.slice(-22);
+
+            const width = 680, height = 200, startX = 68, plotWidth = width - startX - 10, topY = 20, plotHeight = 150, baselineY = topY + plotHeight;
+            const closes = candles.map(c => c.close);
+            const minP = Math.min(...closes), maxP = Math.max(...closes);
+            const span = maxP - minP || 10;
+            const pad = span * 0.08;
+            const rawMin = Math.max(0, minP - pad), rawMax = maxP + pad;
+            const rawStep = (rawMax - rawMin) / 3;
+            const mag = Math.pow(10, Math.floor(Math.log10(rawStep)));
+            const relStep = rawStep / mag;
+            let niceStep = mag;
+            if (relStep < 1.5) niceStep = 1 * mag;
+            else if (relStep < 3.5) niceStep = 2 * mag;
+            else if (relStep < 7.5) niceStep = 5 * mag;
+            else niceStep = 10 * mag;
+
+            const yMin = Math.floor(rawMin / niceStep) * niceStep;
+            let yMax = yMin + 3 * niceStep;
+            if (yMax < maxP) yMax += niceStep;
+
+            const yTicks = Array.from({length: Math.round((yMax-yMin)/niceStep)+1}, (_,i) => yMax-i*niceStep);
+            const gridG = document.getElementById('chartGrid');
+            if (gridG) {
+                gridG.innerHTML = '';
+                yTicks.forEach(tickVal => {
+                    const yPos = topY + ((yMax - tickVal) / (yMax - yMin)) * plotHeight;
+                    const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                    line.setAttribute('x1', startX); line.setAttribute('y1', yPos); line.setAttribute('x2', width); line.setAttribute('y2', yPos);
+                    line.setAttribute('stroke', 'var(--border)'); line.setAttribute('stroke-width', '1');
+                    gridG.appendChild(line);
+                    const txt = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                    txt.setAttribute('x', '0'); txt.setAttribute('y', yPos + 4); txt.setAttribute('fill', 'var(--text-muted)');
+                    txt.setAttribute('font-size', '10'); txt.setAttribute('font-family', 'var(--font)');
+                    txt.textContent = '₹' + tickVal.toLocaleString('en-IN');
+                    gridG.appendChild(txt);
+                });
+            }
+
+            currentPlotCoords = [];
+            const pts = [];
+            const count = candles.length;
+            const footnote = document.getElementById('chartFootnote');
+            if (footnote) footnote.textContent = `${candles[0].time} to ${candles.at(-1).time} · ${count} of ${allCandles.length} published sessions · Daily EOD close`;
+
+            candles.forEach((c, i) => {
+                const x = startX + (i / (count - 1)) * plotWidth;
+                const y = topY + ((yMax - c.close) / (yMax - yMin)) * plotHeight;
+                pts.push(`${x.toFixed(1)},${y.toFixed(1)}`);
+                currentPlotCoords.push({ x, y, price: c.close, time: c.time });
+            });
+
+            const lineD = 'M ' + pts.join(' L ');
+            const areaD = lineD + ` L ${(startX + plotWidth).toFixed(1)},${baselineY} L ${startX},${baselineY} Z`;
+            const cl = document.getElementById('chartLine'); if (cl) cl.setAttribute('d', lineD);
+            const ca = document.getElementById('chartArea'); if (ca) ca.setAttribute('d', areaD);
+
+            const xG = document.getElementById('chartXAxis');
+            if (xG) {
+                xG.innerHTML = '';
+                const stepIdx = Math.floor(count / 4);
+                const dateIndices = [...new Set([0, stepIdx, stepIdx * 2, stepIdx * 3, count - 1])];
+                dateIndices.forEach((cIdx, i) => {
+                    const c = candles[cIdx]; if (!c) return;
+                    const x = startX + (cIdx / (count - 1)) * plotWidth;
+                    const dObj = new Date(c.time);
+                    const label = dObj.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+                    const txt = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                    txt.setAttribute('x', x); txt.setAttribute('y', baselineY + 16);
+                    txt.setAttribute('text-anchor', i === 0 ? 'start' : i === dateIndices.length - 1 ? 'end' : 'middle');
+                    txt.setAttribute('fill', 'var(--text-muted)'); txt.setAttribute('font-size', '10'); txt.setAttribute('font-family', 'var(--font)');
+                    txt.textContent = label;
+                    xG.appendChild(txt);
+                });
+            }
+
+            initChartHover(startX, startX + plotWidth);
+        }
+
+        function initChartHover(minX, maxX) {
+            const box = document.getElementById('chartBox');
+            const tooltip = document.getElementById('chartTooltip');
+            const hoverLine = document.getElementById('hoverLine');
+            const hoverPin = document.getElementById('hoverPin');
+            if (!box || !tooltip || !hoverLine || !hoverPin) return;
+
+            box.onmousemove = (e) => {
+                if (!currentPlotCoords || currentPlotCoords.length === 0) return;
+                const rect = box.getBoundingClientRect();
+                const mouseX = ((e.clientX - rect.left) / rect.width) * 680;
+                if (mouseX < minX || mouseX > maxX) {
+                    tooltip.style.display = 'none';
+                    hoverLine.setAttribute('opacity', '0');
+                    hoverPin.setAttribute('opacity', '0');
+                    return;
+                }
+                let closest = currentPlotCoords[0];
+                let minDist = Math.abs(currentPlotCoords[0].x - mouseX);
+                for (let i = 1; i < currentPlotCoords.length; i++) {
+                    const dist = Math.abs(currentPlotCoords[i].x - mouseX);
+                    if (dist < minDist) {
+                        minDist = dist;
+                        closest = currentPlotCoords[i];
+                    }
+                }
+                hoverLine.setAttribute('x1', closest.x);
+                hoverLine.setAttribute('x2', closest.x);
+                hoverLine.setAttribute('opacity', '1');
+                hoverPin.setAttribute('cx', closest.x);
+                hoverPin.setAttribute('cy', closest.y);
+                hoverPin.setAttribute('opacity', '1');
+
+                const dObj = new Date(closest.time);
+                const dateStr = dObj.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
+                tooltip.innerText = `₹${closest.price.toFixed(2)} · ${dateStr}`;
+                tooltip.style.display = 'block';
+                const boxX = (closest.x / 680) * rect.width;
+                tooltip.style.left = Math.min(boxX + 10, rect.width - 130) + 'px';
+                tooltip.style.top = '12px';
+            };
+            box.onmouseleave = () => {
+                tooltip.style.display = 'none';
+                hoverLine.setAttribute('opacity', '0');
+                hoverPin.setAttribute('opacity', '0');
+            };
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            loadPriceHistory('ASIANPAINT');
+            loadCompanyValuation('ASIANPAINT');
+        });
     </script>
 </body>
 </html>

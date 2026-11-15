@@ -3,7 +3,7 @@
   "generated_from": "company_slug_registry_v1.json",
   "canonical_url": "https://stockerboard.com/stocks/",
   "company_count": 2550,
-  "featured_count": 20,
+  "featured_count": 21,
   "universe_as_of": "2026-11-13",
   "entries": [
     {
@@ -217,6 +217,26 @@
       "aliases_str": "lt l-and-t"
     },
     {
+      "canonical_company_id": "MRF",
+      "symbol": "MRF",
+      "company_name": "MRF Limited",
+      "canonical_slug": "mrf",
+      "canonical_url": "https://stockerboard.com/stocks/mrf/",
+      "sector": "Automobile and Auto Components",
+      "price": 127955.0,
+      "price_formatted": "\u20b9127,955.00",
+      "price_status": "AVAILABLE",
+      "price_as_of": "2026-11-13",
+      "market_cap": 51780.11,
+      "market_cap_formatted": "Market Cap \u20b951,780.1 Cr",
+      "market_cap_status": "AVAILABLE",
+      "aliases": [
+        "mrf",
+        "madras-rubber-factory"
+      ],
+      "aliases_str": "mrf madras-rubber-factory"
+    },
+    {
       "canonical_company_id": "M&M",
       "symbol": "M&M",
       "company_name": "Mahindra & Mahindra Limited",
@@ -388,5 +408,5 @@
       "aliases_str": "tatasteel"
     }
   ],
-  "output_sha256": "48e20c7209efcac8618ad81842e5e397278ab7f629e2a08a7c2f1c6556235a3c"
+  "output_sha256": "9e57aff012c449768a4541bc5c454ba60d1fc79c8f38cfe26fc6d54477f1ad5c"
 }

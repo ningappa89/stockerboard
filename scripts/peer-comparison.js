@@ -57,10 +57,11 @@
    put('bmMcap',others.every(c=>c.mcap!==null)?fmt(others.reduce((s,c)=>s+c.mcap,0)/1e7)+' Cr':'—');put('bmPe',fmt(median(others.map(c=>c.pe)),'×'));put('bmRoe',fmt(median(others.map(c=>c.roe)),'%'));
    put('peersCount',`${others.length} comparable companies + selected company · ${candidates.length} classified companies in total`);
    const headers=document.querySelectorAll('thead th');if(headers.length===7){headers[5].textContent='P/B (x)';headers[6].textContent='Quote date';}
-   for(const c of details){
+   const companyLinks = await Promise.all(details.map(c => root.StockerboardCompanyRoutes?.companyUrl(c.symbol)));
+   for(const [index, c] of details.entries()){
     const tr=document.createElement('tr');if(c.symbol===symbol)tr.className='row-active';
     for(const text of [c.name+' · '+c.symbol+(c.symbol===symbol?' (selected)':''),fmt(c.price_num),fmt(c.mcap===null?null:c.mcap/1e7),fmt(c.pe,'×'),fmt(c.roe,'%'),fmt(c.pb,'×'),c.price_as_of||'—']){const td=document.createElement('td');td.textContent=text;tr.append(td);}
-    const a=document.createElement('a');a.className='peer-company-link';a.href='/stockerboard_company_overview.html?symbol='+encodeURIComponent(c.symbol);a.textContent=tr.firstChild.textContent;tr.firstChild.replaceChildren(a);body.append(tr);
+    const a=document.createElement('a');a.className='peer-company-link';a.href=companyLinks[index]||'/stockerboard_company_overview.html?symbol='+encodeURIComponent(c.symbol);a.textContent=tr.firstChild.textContent;tr.firstChild.replaceChildren(a);body.append(tr);
    }
    const note=document.querySelector('.peers-card-footer');if(note)note.textContent=`Comparisons use up to 7 other companies, excluding the selected company from benchmark statistics. Prices use the quote dates shown; valuation basis ${valuation.valuation_date}. ROE uses the latest period in each company's default reporting scope. Missing values are excluded from medians; no data is inferred.`;
   }catch(e){body.replaceChildren();put('peersCount','Peer comparison unavailable');root.StockerboardData.error(e.message);}

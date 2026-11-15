@@ -17,6 +17,7 @@ import json
 import re
 import sys
 from pathlib import Path
+from urllib.parse import urlsplit
 
 try:
     from .site_shell import render_header
@@ -71,7 +72,7 @@ def format_percent(val: float | int | None) -> str:
 
 
 def build_view_model(company_meta: dict, dossier: dict, u_map: dict | None = None,
-                     range_row: dict | None = None) -> dict:
+                     range_row: dict | None = None, profile: dict | None = None) -> dict:
     symbol = company_meta["symbol"]
     slug = company_meta["canonical_slug"]
     display_name = company_meta["display_name"]
@@ -246,6 +247,11 @@ def build_view_model(company_meta: dict, dossier: dict, u_map: dict | None = Non
     )
     vm["valuation_price_note"] = "Historical valuation price snapshot: " + format_date_str((val.get("P_E") or {}).get("price_as_of") or price_as_of)
     vm["profile_summary"] = "Limited business coverage: profile pending official-source verification."
+    vm["profile_source_html"] = ""
+    if profile:
+        vm["profile_summary"] = html.escape(profile["business_summary"])
+        url = html.escape(profile["source_document_id"], quote=True)
+        vm["profile_source_html"] = f'<a href="{url}" target="_blank" rel="noopener noreferrer">Business profile source</a>'
     logo_path = ROOT / "assets/company-logos/manifest.json"
     logos = json.loads(logo_path.read_text(encoding="utf-8")).get("logos", {}) if logo_path.exists() else {}
     logo = logos.get(symbol) or {}
@@ -301,10 +307,17 @@ def generate_pilot_pages(check_only: bool = False, *, stocks_dir: Path = STOCKS_
         raise FileNotFoundError(f"Missing registry: {SLUG_REGISTRY_PATH}")
     registry = json.loads(SLUG_REGISTRY_PATH.read_text(encoding="utf-8"))
     template_str = TEMPLATE_PATH.read_text(encoding="utf-8")
+    profiles_path = STOCKS_DIR / "verified_business_profiles_v1.json"
+    profiles = json.loads(profiles_path.read_bytes()).get("profiles", {}) if profiles_path.is_file() else {}
+    statement_root = stocks_dir.parent / "financial-statements"
+    if not (statement_root / "index.json").is_file():
+        statement_root = ROOT / "financial-statements"
+    statement_index_path = statement_root / "index.json"
+    statement_index = json.loads(statement_index_path.read_bytes()) if statement_index_path.is_file() else {}
 
     pilot_companies = [c for c in registry["companies"] if c.get("status") == "ACTIVE_PILOT"]
-    if len(pilot_companies) != 20:
-        raise ValueError(f"Expected 20 pilot companies, found {len(pilot_companies)}")
+    if len(pilot_companies) < 20:
+        raise ValueError(f"Expected at least 20 pilot companies, found {len(pilot_companies)}")
     price_range_index = json.loads((stocks_dir / "price_range_index_v1.json").read_text(encoding="utf-8"))
     market_index_path = stocks_dir / "market_universe_index_v1.json"
     market_rows = {}
@@ -367,7 +380,22 @@ def generate_pilot_pages(check_only: bool = False, *, stocks_dir: Path = STOCKS_
             range_row.get("price_as_of") != price.get("as_of") or
             abs(range_row.get("reference_close", 0) - (price.get("close") or 0)) > 0.011):
             raise ValueError(f"Price range does not match dossier price for {sym}")
-        vm = build_view_model(comp, dossier, u_map=u_map, range_row=range_row)
+        profile = profiles.get(sym) or {}
+        entry = statement_index.get('companies', {}).get(sym) or {}
+        expected_path = f"releases/{statement_index.get('release_id')}/{sym}.json"
+        verified_profile = None
+        if (profile.get('profile_status') == 'VERIFIED' and profile.get('symbol') == sym
+                and profile.get('source_type') == 'OFFICIAL_WEBSITE' and profile.get('business_summary')
+                and urlsplit(profile.get('source_document_id') or '').scheme == 'https'
+                and entry.get('identity_status') == 'RESOLVED' and entry.get('path') == expected_path):
+            raw = (statement_root / expected_path).read_bytes()
+            if hashlib.sha256(raw).hexdigest() == entry.get('sha256'):
+                statement = json.loads(raw)
+                identity = statement.get('identity') or {}
+                if (statement.get('symbol') == sym and identity.get('company_id') == profile.get('issuer_id')
+                        and dossier.get('isin') in identity.get('isins', [])):
+                    verified_profile = profile
+        vm = build_view_model(comp, dossier, u_map=u_map, range_row=range_row, profile=verified_profile)
         vm["footer_html"] = footer_str
         vm["header_html"] = render_header("stocks")
         market_row = market_rows.get(sym)
