@@ -75,7 +75,7 @@ def build_view_model(company_meta: dict, dossier: dict, u_map: dict | None = Non
                      range_row: dict | None = None, profile: dict | None = None) -> dict:
     symbol = company_meta["symbol"]
     slug = company_meta["canonical_slug"]
-    display_name = company_meta["display_name"]
+    display_name = html.escape(company_meta["display_name"], quote=True)
     canonical_url = f"https://stockerboard.com/stocks/{slug}/"
     legacy_app_url = f"/#stock/{symbol}"
 
@@ -171,8 +171,8 @@ def build_view_model(company_meta: dict, dossier: dict, u_map: dict | None = Non
             "canonical_company_id": company_meta.get("canonical_company_id", symbol),
             "company_name": display_name,
             "symbol": symbol,
-            "sector": sector_display,
-            "industry": industry_display
+            "sector": html.escape(sector_display or "Sector awaiting verification"),
+            "industry": html.escape(industry_display or "Industry awaiting verification")
         },
         "price": {
             "value": price_val,
@@ -314,10 +314,21 @@ def generate_pilot_pages(check_only: bool = False, *, stocks_dir: Path = STOCKS_
         statement_root = ROOT / "financial-statements"
     statement_index_path = statement_root / "index.json"
     statement_index = json.loads(statement_index_path.read_bytes()) if statement_index_path.is_file() else {}
+    valuation_file = statement_root / 'valuation_public_index_v1.json'
+    valuation = {}
+    if valuation_file.is_file():
+        raw = valuation_file.read_bytes()
+        expected = valuation_file.with_suffix('.json.sha256').read_text(encoding='ascii').split()[0]
+        if hashlib.sha256(raw).hexdigest() != expected:
+            raise ValueError('Public valuation projection failed its checksum')
+        valuation = json.loads(raw)
 
     pilot_companies = [c for c in registry["companies"] if c.get("status") == "ACTIVE_PILOT"]
     if len(pilot_companies) < 20:
         raise ValueError(f"Expected at least 20 pilot companies, found {len(pilot_companies)}")
+    for key in ('symbol', 'canonical_slug', 'canonical_company_id'):
+        if len({company[key] for company in pilot_companies}) != len(pilot_companies):
+            raise ValueError(f'Duplicate {key} in company route registry')
     price_range_index = json.loads((stocks_dir / "price_range_index_v1.json").read_text(encoding="utf-8"))
     market_index_path = stocks_dir / "market_universe_index_v1.json"
     market_rows = {}
@@ -326,6 +337,13 @@ def generate_pilot_pages(check_only: bool = False, *, stocks_dir: Path = STOCKS_
         if len(market_index.get("stocks", [])) != market_index.get("count"):
             raise ValueError("Market universe index count mismatch")
         market_rows = {row[0]: row for row in market_index["stocks"]}
+        if valuation and (valuation.get('statement_release') != statement_index.get('release_id')
+                          or valuation.get('valuation_date') != market_index.get('as_of')
+                          or valuation.get('market_sha256') != hashlib.sha256(market_index_path.read_bytes()).hexdigest()
+                          or valuation.get('coverage_complete') is not True
+                          or valuation.get('policy_version') != 'VALUATION_INPUTS_CERT_V3'
+                          or set(valuation.get('companies', {})) != set(market_rows)):
+            raise ValueError('Public valuation projection does not match the company-page release')
     public_manifest = json.loads((stocks_dir / "manifest.json").read_text(encoding="utf-8"))
     dossier_release_id = public_manifest["source_dossier_release_id"]
     if price_range_index.get("contract") != "PRICE_RANGE_INDEX_V1" or price_range_index.get("dossier_release_id") != dossier_release_id:
@@ -368,6 +386,8 @@ def generate_pilot_pages(check_only: bool = False, *, stocks_dir: Path = STOCKS_
     for comp in pilot_companies:
         sym = comp["symbol"]
         slug = comp["canonical_slug"]
+        if not re.fullmatch(r'[A-Z0-9&_.-]{1,40}', sym) or '..' in sym or not re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', slug):
+            raise ValueError(f'Invalid route for {sym}')
         shard = "".join(c if c.isalnum() and c.isascii() else "_" for c in sym[:2]).ljust(2, "_")
         dossier_file = stocks_dir / shard / f"{sym}.json"
         if not dossier_file.exists():
@@ -384,17 +404,23 @@ def generate_pilot_pages(check_only: bool = False, *, stocks_dir: Path = STOCKS_
         entry = statement_index.get('companies', {}).get(sym) or {}
         expected_path = f"releases/{statement_index.get('release_id')}/{sym}.json"
         verified_profile = None
+        identity_verified = False
+        if entry.get('identity_status') == 'RESOLVED' and entry.get('path') == expected_path:
+            raw = (statement_root / expected_path).read_bytes()
+            if hashlib.sha256(raw).hexdigest() != entry.get('sha256'):
+                raise ValueError(f'Company statements failed verification for {sym}')
+            statement = json.loads(raw)
+            identity = statement.get('identity') or {}
+            identity_verified = (statement.get('symbol') == sym and identity.get('status') == 'RESOLVED'
+                                 and dossier.get('isin') in identity.get('isins', []))
+        if comp.get('require_verified_identity') and (
+                not identity_verified or identity.get('company_id') != comp['canonical_company_id']):
+            raise ValueError(f'Company route identity is unresolved or has changed for {sym}')
         if (profile.get('profile_status') == 'VERIFIED' and profile.get('symbol') == sym
                 and profile.get('source_type') == 'OFFICIAL_WEBSITE' and profile.get('business_summary')
                 and urlsplit(profile.get('source_document_id') or '').scheme == 'https'
-                and entry.get('identity_status') == 'RESOLVED' and entry.get('path') == expected_path):
-            raw = (statement_root / expected_path).read_bytes()
-            if hashlib.sha256(raw).hexdigest() == entry.get('sha256'):
-                statement = json.loads(raw)
-                identity = statement.get('identity') or {}
-                if (statement.get('symbol') == sym and identity.get('company_id') == profile.get('issuer_id')
-                        and dossier.get('isin') in identity.get('isins', [])):
-                    verified_profile = profile
+                and identity_verified and identity.get('company_id') == profile.get('issuer_id')):
+            verified_profile = profile
         vm = build_view_model(comp, dossier, u_map=u_map, range_row=range_row, profile=verified_profile)
         vm["footer_html"] = footer_str
         vm["header_html"] = render_header("stocks")
@@ -411,6 +437,18 @@ def generate_pilot_pages(check_only: bool = False, *, stocks_dir: Path = STOCKS_
                     "latest price shown above. Range position reflects the earlier snapshot."
                 )
         vm["market_range"]["position_pct"] = max(0, min(100, vm["market_range"]["position_pct"]))
+        indexable = (identity_verified and entry.get('status') == 'AVAILABLE'
+                     and (comp.get('initial_pilot') or (verified_profile and market_row
+                          and market_row[6] == market_index['as_of'])))
+        vm['robots'] = 'index, follow' if indexable else 'noindex, follow'
+        vm['market_session'] = market_index.get('as_of', '') if market_rows else ''
+        company_valuation = valuation.get('companies', {}).get(sym)
+        if company_valuation and (company_valuation['symbol'] != sym
+                                  or company_valuation['valuation_date'] != valuation['valuation_date']):
+            raise ValueError(f'Invalid valuation identity or session for {sym}')
+        vm['valuation_payload'] = json.dumps(company_valuation, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c')
+        if entry.get('status') != 'AVAILABLE':
+            vm['coverage_notice'] = 'Verified financial statements are unavailable in this release. Market information is shown with its observation date.'
         html_content = render_template(template_str, vm)
         if market_rows:
             sys.path.insert(0, str(ROOT.parent))
@@ -425,13 +463,15 @@ def generate_pilot_pages(check_only: bool = False, *, stocks_dir: Path = STOCKS_
 
         target_dir = stocks_dir / slug
         target_file = target_dir / "index.html"
-        canonical_urls.append(vm["canonical_url"])
+        if indexable:
+            canonical_urls.append(vm["canonical_url"])
 
         manifest_entries.append({
             "symbol": sym,
             "canonical_slug": slug,
             "canonical_url": vm["canonical_url"],
             "target_file": f"stocks/{slug}/index.html",
+            "indexable": bool(indexable),
             "size_bytes": len(html_bytes),
             "sha256": html_sha256
         })
@@ -451,11 +491,9 @@ def generate_pilot_pages(check_only: bool = False, *, stocks_dir: Path = STOCKS_
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
     ]
-    today_str = datetime.date.today().isoformat()
     for u in canonical_urls:
         sitemap_lines.append("  <url>")
         sitemap_lines.append(f"    <loc>{u}</loc>")
-        sitemap_lines.append(f"    <lastmod>{today_str}</lastmod>")
         sitemap_lines.append("  </url>")
     sitemap_lines.append("</urlset>\n")
     sitemap_content = "\n".join(sitemap_lines)

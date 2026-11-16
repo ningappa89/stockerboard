@@ -82,7 +82,7 @@
    document.querySelectorAll('[data-directory-scope]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.directoryScope===scope)));
    empty.hidden=visible.length>0;document.getElementById('dirCountBadge').textContent=visible.length.toLocaleString('en-IN');
    document.getElementById('browseHeading').textContent=scope==='featured'?'Featured companies':search.value.trim()||sector.value?'Matching companies':'All companies';
-   document.getElementById('browseNote').textContent=scope==='featured'?'A closer look at 20 companies, with reported financials and business context.':'Browse the complete company universe. Prices use each stock’s last available trading session.';
+   document.getElementById('browseNote').textContent=scope==='featured'?'Browse companies with a dedicated research page. Coverage varies by company.':'Browse the complete company universe. Prices use each stock’s last available trading session.';
    document.getElementById('dirClearFilters').hidden=!search.value&&!sector.value&&sort.value==='name'&&scope==='all';appendPage();syncUrl();
   }
   search.addEventListener('input',filterDirectory);sector.addEventListener('change',filterDirectory);sort.addEventListener('change',filterDirectory);more.addEventListener('click',appendPage);

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "total_canonical_count": 21,
+  "total_canonical_count": 125,
   "companies": [
     {
       "canonical_company_id": "RELIANCE",
@@ -11,7 +11,8 @@
       "aliases": [
         "ril"
       ],
-      "status": "ACTIVE_PILOT"
+      "status": "ACTIVE_PILOT",
+      "initial_pilot": true
     },
     {
       "canonical_company_id": "TCS",
@@ -22,7 +23,8 @@
       "aliases": [
         "tata-consultancy-services"
       ],
-      "status": "ACTIVE_PILOT"
+      "status": "ACTIVE_PILOT",
+      "initial_pilot": true
     },
     {
       "canonical_company_id": "INFY",
@@ -33,7 +35,8 @@
       "aliases": [
         "infy"
       ],
-      "status": "ACTIVE_PILOT"
+      "status": "ACTIVE_PILOT",
+      "initial_pilot": true
     },
     {
       "canonical_company_id": "HDFCBANK",
@@ -45,7 +48,8 @@
         "hdfcbank",
         "hdfc"
       ],
-      "status": "ACTIVE_PILOT"
+      "status": "ACTIVE_PILOT",
+      "initial_pilot": true
     },
     {
       "canonical_company_id": "ICICIBANK",
@@ -57,7 +61,8 @@
         "icicibank",
         "icici"
       ],
-      "status": "ACTIVE_PILOT"
+      "status": "ACTIVE_PILOT",
+      "initial_pilot": true
     },
     {
       "canonical_company_id": "SBIN",
@@ -69,7 +74,8 @@
         "sbin",
         "sbi"
       ],
-      "status": "ACTIVE_PILOT"
+      "status": "ACTIVE_PILOT",
+      "initial_pilot": true
     },
     {
       "canonical_company_id": "BHARTIARTL",
@@ -80,7 +86,8 @@
       "aliases": [
         "airtel"
       ],
-      "status": "ACTIVE_PILOT"
+      "status": "ACTIVE_PILOT",
+      "initial_pilot": true
     },
     {
       "canonical_company_id": "ITC",
@@ -89,7 +96,8 @@
       "display_name": "ITC Limited",
       "legacy_symbols": [],
       "aliases": [],
-      "status": "ACTIVE_PILOT"
+      "status": "ACTIVE_PILOT",
+      "initial_pilot": true
     },
     {
       "canonical_company_id": "LT",
@@ -101,7 +109,8 @@
         "lt",
         "l-and-t"
       ],
-      "status": "ACTIVE_PILOT"
+      "status": "ACTIVE_PILOT",
+      "initial_pilot": true
     },
     {
       "canonical_company_id": "HINDUNILVR",
@@ -112,7 +121,8 @@
       "aliases": [
         "hul"
       ],
-      "status": "ACTIVE_PILOT"
+      "status": "ACTIVE_PILOT",
+      "initial_pilot": true
     },
     {
       "canonical_company_id": "BAJFINANCE",
@@ -123,7 +133,8 @@
       "aliases": [
         "bajajfinance"
       ],
-      "status": "ACTIVE_PILOT"
+      "status": "ACTIVE_PILOT",
+      "initial_pilot": true
     },
     {
       "canonical_company_id": "MARUTI",
@@ -134,7 +145,8 @@
       "aliases": [
         "maruti"
       ],
-      "status": "ACTIVE_PILOT"
+      "status": "ACTIVE_PILOT",
+      "initial_pilot": true
     },
     {
       "canonical_company_id": "SUNPHARMA",
@@ -145,7 +157,8 @@
       "aliases": [
         "sunpharma"
       ],
-      "status": "ACTIVE_PILOT"
+      "status": "ACTIVE_PILOT",
+      "initial_pilot": true
     },
     {
       "canonical_company_id": "TATASTEEL",
@@ -156,7 +169,8 @@
       "aliases": [
         "tatasteel"
       ],
-      "status": "ACTIVE_PILOT"
+      "status": "ACTIVE_PILOT",
+      "initial_pilot": true
     },
     {
       "canonical_company_id": "NTPC",
@@ -165,7 +179,8 @@
       "display_name": "NTPC Limited",
       "legacy_symbols": [],
       "aliases": [],
-      "status": "ACTIVE_PILOT"
+      "status": "ACTIVE_PILOT",
+      "initial_pilot": true
     },
     {
       "canonical_company_id": "POWERGRID",
@@ -176,7 +191,8 @@
       "aliases": [
         "powergrid"
       ],
-      "status": "ACTIVE_PILOT"
+      "status": "ACTIVE_PILOT",
+      "initial_pilot": true
     },
     {
       "canonical_company_id": "HDFCLIFE",
@@ -187,7 +203,8 @@
       "aliases": [
         "hdfclife"
       ],
-      "status": "ACTIVE_PILOT"
+      "status": "ACTIVE_PILOT",
+      "initial_pilot": true
     },
     {
       "canonical_company_id": "ASIANPAINT",
@@ -198,7 +215,8 @@
       "aliases": [
         "asianpaints"
       ],
-      "status": "ACTIVE_PILOT"
+      "status": "ACTIVE_PILOT",
+      "initial_pilot": true
     },
     {
       "canonical_company_id": "ETERNAL",
@@ -211,7 +229,8 @@
       "aliases": [
         "zomato"
       ],
-      "status": "ACTIVE_PILOT"
+      "status": "ACTIVE_PILOT",
+      "initial_pilot": true
     },
     {
       "canonical_company_id": "M&M",
@@ -225,7 +244,8 @@
         "mm",
         "m-and-m"
       ],
-      "status": "ACTIVE_PILOT"
+      "status": "ACTIVE_PILOT",
+      "initial_pilot": true
     },
     {
       "canonical_company_id": "MRF",
@@ -237,7 +257,1048 @@
         "mrf",
         "madras-rubber-factory"
       ],
-      "status": "ACTIVE_PILOT"
+      "status": "ACTIVE_PILOT",
+      "initial_pilot": true
+    },
+    {
+      "canonical_company_id": "CMP_ABBOTINDIA_ABBOTTINDI",
+      "symbol": "ABBOTINDIA",
+      "canonical_slug": "abbotindia",
+      "display_name": "ABBOTT INDIA LIMITED",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_BAYERCROP_BAYERCROPS",
+      "symbol": "BAYERCROP",
+      "canonical_slug": "bayercrop",
+      "display_name": "BAYER CROPSCIENCE LTD",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_CANHLIFE_CANARAHSBC",
+      "symbol": "CANHLIFE",
+      "canonical_slug": "canhlife",
+      "display_name": "Canara HSBC Life Insurance Com",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_GICRE_GENERALINS",
+      "symbol": "GICRE",
+      "canonical_slug": "gicre",
+      "display_name": "General Insurance Corporation ",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_GODIGIT_GODIGITGEN",
+      "symbol": "GODIGIT",
+      "canonical_slug": "godigit",
+      "display_name": "Go Digit General Insurance Lim",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_ICICIGI_ICICILOMBA",
+      "symbol": "ICICIGI",
+      "canonical_slug": "icicigi",
+      "display_name": "ICICI Lombard General Insuranc",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_LICI_LIFEINSURA",
+      "symbol": "LICI",
+      "canonical_slug": "lici",
+      "display_name": "LIFE INSURANCE CORPORATION OF ",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_NIACL_THENEWINDI",
+      "symbol": "NIACL",
+      "canonical_slug": "niacl",
+      "display_name": "THE NEW INDIA ASSU CO LTD",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_21STCENMGM_21STCENTUR",
+      "symbol": "21STCENMGM",
+      "canonical_slug": "21stcenmgm",
+      "display_name": "21ST CENTURY MGMT SERVICE",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_3IINFOLTD_3IINFOTECH",
+      "symbol": "3IINFOLTD",
+      "canonical_slug": "3iinfoltd",
+      "display_name": "3I INFOTECH LIMITED",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_AARTISURF_AARTISURFA",
+      "symbol": "AARTISURF",
+      "canonical_slug": "aartisurf",
+      "display_name": "AARTI SURFACTANTS LIMITED",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_ABCOTS_ABCOTSPINI",
+      "symbol": "ABCOTS",
+      "canonical_slug": "abcots",
+      "display_name": "A B Cotspin India Limited",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_ABINFRA_ABINFRABUI",
+      "symbol": "ABINFRA",
+      "canonical_slug": "abinfra",
+      "display_name": "A B INFRABUILD LIMITED",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_ABMINTLLTD_ABMINTERNA",
+      "symbol": "ABMINTLLTD",
+      "canonical_slug": "abmintlltd",
+      "display_name": "ABM INTERNATIONAL LTD",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_ADROITINFO_ADROITINFO",
+      "symbol": "ADROITINFO",
+      "canonical_slug": "adroitinfo",
+      "display_name": "Adroit Infotech Limited",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_AFFORDABLE_AFFORDABLE",
+      "symbol": "AFFORDABLE",
+      "canonical_slug": "affordable",
+      "display_name": "Affordable Robotic & Automatio",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_ADANIPORTS_ADANIPORTS",
+      "symbol": "ADANIPORTS",
+      "canonical_slug": "adaniports",
+      "display_name": "ADANI PORTS AND SPECIAL ECONOM",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_ADANIPOWER_ADANIPOWER",
+      "symbol": "ADANIPOWER",
+      "canonical_slug": "adanipower",
+      "display_name": "ADANI POWER LTD",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_HCLTECH_HCLTECHNOL",
+      "symbol": "HCLTECH",
+      "canonical_slug": "hcltech",
+      "display_name": "HCL TECHNOLOGIES LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_ADANIENT_ADANIENTER",
+      "symbol": "ADANIENT",
+      "canonical_slug": "adanient",
+      "display_name": "ADANI ENTERPRISES LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_HAL_HINDUSTANA",
+      "symbol": "HAL",
+      "canonical_slug": "hal",
+      "display_name": "Hindustan Aeronautics Limited",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_BAJAJAUTO_BAJAJAUTO",
+      "symbol": "BAJAJ-AUTO",
+      "canonical_slug": "bajaj-auto",
+      "display_name": "BAJAJ AUTO LIMITED",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_BEL_BHARATELEC",
+      "symbol": "BEL",
+      "canonical_slug": "bel",
+      "display_name": "BHARAT ELECTRONICS LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_COALINDIA_COALINDIA",
+      "symbol": "COALINDIA",
+      "canonical_slug": "coalindia",
+      "display_name": "COAL INDIA LTD",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_ADANIGREEN_ADANIGREEN",
+      "symbol": "ADANIGREEN",
+      "canonical_slug": "adanigreen",
+      "display_name": "Adani Green Energy Limited",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_DMART_AVENUESUPE",
+      "symbol": "DMART",
+      "canonical_slug": "dmart",
+      "display_name": "Avenue Supermarts Limited",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_IOC_INDIANOIL",
+      "symbol": "IOC",
+      "canonical_slug": "ioc",
+      "display_name": "INDIAN OIL CORPORATION LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_WIPRO_WIPRO",
+      "symbol": "WIPRO",
+      "canonical_slug": "wipro",
+      "display_name": "WIPRO LTD",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_TRENT_TRENT",
+      "symbol": "TRENT",
+      "canonical_slug": "trent",
+      "display_name": "TRENT LTD",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_BHEL_BHARATHEAV",
+      "symbol": "BHEL",
+      "canonical_slug": "bhel",
+      "display_name": "BHARAT HEAVY ELECTRICALS LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_JIOFIN_JIOFINSERV",
+      "symbol": "JIOFIN",
+      "canonical_slug": "jiofin",
+      "display_name": "JIO FIN SERVICES LTD",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_ABB_ABBINDIA",
+      "symbol": "ABB",
+      "canonical_slug": "abb",
+      "display_name": "ABB INDIA LIMITED",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_VBL_VARUNBEVER",
+      "symbol": "VBL",
+      "canonical_slug": "vbl",
+      "display_name": "Varun Beverages Limited",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_BPCL_BHARATPETR",
+      "symbol": "BPCL",
+      "canonical_slug": "bpcl",
+      "display_name": "BHARAT PETROLEUM CORPORATION L",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_SIEMENS_SIEMENS",
+      "symbol": "SIEMENS",
+      "canonical_slug": "siemens",
+      "display_name": "SIEMENS LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_GAIL_GAILINDIA",
+      "symbol": "GAIL",
+      "canonical_slug": "gail",
+      "display_name": "GAIL (INDIA) LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_BAJAJHLDNG_BAJAJHOLDI",
+      "symbol": "BAJAJHLDNG",
+      "canonical_slug": "bajajhldng",
+      "display_name": "BAJAJ HOLDINGS & INVS LTD",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_CUMMINSIND_CUMMINSIND",
+      "symbol": "CUMMINSIND",
+      "canonical_slug": "cumminsind",
+      "display_name": "CUMMINS INDIA LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_POLYCAB_POLYCABIND",
+      "symbol": "POLYCAB",
+      "canonical_slug": "polycab",
+      "display_name": "POLYCAB INDIA LIMITED",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_MARICO_MARICO",
+      "symbol": "MARICO",
+      "canonical_slug": "marico",
+      "display_name": "MARICO LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_MUTHOOTFIN_MUTHOOTFIN",
+      "symbol": "MUTHOOTFIN",
+      "canonical_slug": "muthootfin",
+      "display_name": "MUTHOOT FINANCE LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_TATAPOWER_TATAPOWER",
+      "symbol": "TATAPOWER",
+      "canonical_slug": "tatapower",
+      "display_name": "TATA POWER CO.LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_PFC_POWERFIN",
+      "symbol": "PFC",
+      "canonical_slug": "pfc",
+      "display_name": "POWER FIN CORP LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_TATACONSUM_TATACONSUM",
+      "symbol": "TATACONSUM",
+      "canonical_slug": "tataconsum",
+      "display_name": "TATA CONSUMER PRODUCT LTD",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_JSWENERGY_JSWENERGY",
+      "symbol": "JSWENERGY",
+      "canonical_slug": "jswenergy",
+      "display_name": "JSW ENERGY LTD",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_GODREJCP_GODREJCONS",
+      "symbol": "GODREJCP",
+      "canonical_slug": "godrejcp",
+      "display_name": "GODREJ CONSUMER PRODUCTS",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_OFSS_ORACLEFINA",
+      "symbol": "OFSS",
+      "canonical_slug": "ofss",
+      "display_name": "ORACLE FINANCIAL SERVICES SOFT",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_NHPC_NHPC",
+      "symbol": "NHPC",
+      "canonical_slug": "nhpc",
+      "display_name": "NHPC LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_SAIL_STEELAUTHO",
+      "symbol": "SAIL",
+      "canonical_slug": "sail",
+      "display_name": "STEEL AUTHORITY OF INDIA LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_INDUSINDBK_INDUSINDBA",
+      "symbol": "INDUSINDBK",
+      "canonical_slug": "indusindbk",
+      "display_name": "INDUSIND BANK LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_DABUR_DABURINDIA",
+      "symbol": "DABUR",
+      "canonical_slug": "dabur",
+      "display_name": "DABUR INDIA LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_ATGL_ADANITOTAL",
+      "symbol": "ATGL",
+      "canonical_slug": "atgl",
+      "display_name": "ADANI TOTAL GAS LIMITED",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_TORNTPOWER_TORRENTPOW",
+      "symbol": "TORNTPOWER",
+      "canonical_slug": "torntpower",
+      "display_name": "TORRENT POWER LTD",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_NMDC_NMDC",
+      "symbol": "NMDC",
+      "canonical_slug": "nmdc",
+      "display_name": "NMDC LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_APARINDS_APARINDUST",
+      "symbol": "APARINDS",
+      "canonical_slug": "aparinds",
+      "display_name": "APAR INDUSTRIES LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_SUZLON_SUZLONENER",
+      "symbol": "SUZLON",
+      "canonical_slug": "suzlon",
+      "display_name": "SUZLON ENERGY LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_TATACOMM_TATACOMMUN",
+      "symbol": "TATACOMM",
+      "canonical_slug": "tatacomm",
+      "display_name": "TATA COMMUNICATIONS LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_360ONE_360ONEWAM",
+      "symbol": "360ONE",
+      "canonical_slug": "360one",
+      "display_name": "360 ONE WAM LIMITED",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_MPHASIS_MPHASIS",
+      "symbol": "MPHASIS",
+      "canonical_slug": "mphasis",
+      "display_name": "MPHASIS LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_COLPAL_COLGATEPAL",
+      "symbol": "COLPAL",
+      "canonical_slug": "colpal",
+      "display_name": "COLGATE-PALMOLIVE (INDIA) LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_PATANJALI_PATANJALIF",
+      "symbol": "PATANJALI",
+      "canonical_slug": "patanjali",
+      "display_name": "PATANJALI FOODS LIMITED",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_LTTS_LTTECHNOLO",
+      "symbol": "LTTS",
+      "canonical_slug": "ltts",
+      "display_name": "L&T TECHNOLOGY SER. LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_POONAWALLA_POONAWALLA",
+      "symbol": "POONAWALLA",
+      "canonical_slug": "poonawalla",
+      "display_name": "POONAWALLA FINCORP LTD",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_IRCTC_INDIANRAIL",
+      "symbol": "IRCTC",
+      "canonical_slug": "irctc",
+      "display_name": "Indian Railway Catering and To",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_PAGEIND_PAGEINDUST",
+      "symbol": "PAGEIND",
+      "canonical_slug": "pageind",
+      "display_name": "PAGE INDUSTRIES LTD",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_ASTRAL_ASTRAL",
+      "symbol": "ASTRAL",
+      "canonical_slug": "astral",
+      "display_name": "ASTRAL LIMITED",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_THERMAX_THERMAX",
+      "symbol": "THERMAX",
+      "canonical_slug": "thermax",
+      "display_name": "THERMAX LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_AIAENG_AIAENGINEE",
+      "symbol": "AIAENG",
+      "canonical_slug": "aiaeng",
+      "display_name": "AIA ENGINEERING LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_JUBLFOOD_JUBILANTFO",
+      "symbol": "JUBLFOOD",
+      "canonical_slug": "jublfood",
+      "display_name": "JUBILANT FOODWORKS LTD",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_TATAELXSI_TATAELXSI",
+      "symbol": "TATAELXSI",
+      "canonical_slug": "tataelxsi",
+      "display_name": "TATA ELXSI LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_TIMKEN_TIMKENINDI",
+      "symbol": "TIMKEN",
+      "canonical_slug": "timken",
+      "display_name": "TIMKEN INDIA LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_BEML_BEML",
+      "symbol": "BEML",
+      "canonical_slug": "beml",
+      "display_name": "BEML LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_CYIENT_CYIENT",
+      "symbol": "CYIENT",
+      "canonical_slug": "cyient",
+      "display_name": "CYIENT LIMITED",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_TITAGARH_TITAGARHRA",
+      "symbol": "TITAGARH",
+      "canonical_slug": "titagarh",
+      "display_name": "TITAGARH RAIL SYSTEMS LIMITED",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_BLS_BLSINTLSER",
+      "symbol": "BLS",
+      "canonical_slug": "bls",
+      "display_name": "BLS INTL SERVS LTD",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_CERA_CERASANITA",
+      "symbol": "CERA",
+      "canonical_slug": "cera",
+      "display_name": "CERA SANITARYWARE LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_ORIENTELEC_ORIENTELEC",
+      "symbol": "ORIENTELEC",
+      "canonical_slug": "orientelec",
+      "display_name": "Orient Electric Limited",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_HGINFRA_HGINFRAENG",
+      "symbol": "HGINFRA",
+      "canonical_slug": "hginfra",
+      "display_name": "H.G.INFRA ENGINEERING LTD",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_RAJRATAN_RAJRATANGL",
+      "symbol": "RAJRATAN",
+      "canonical_slug": "rajratan",
+      "display_name": "RAJRATAN GLOBAL WIRE LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_GREENPANEL_GREENPANEL",
+      "symbol": "GREENPANEL",
+      "canonical_slug": "greenpanel",
+      "display_name": "Greenpanel Industries Limited",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_SUBEXLTD_SUBEX",
+      "symbol": "SUBEXLTD",
+      "canonical_slug": "subexltd",
+      "display_name": "SUBEX LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_KSOLVES_KSOLVESIND",
+      "symbol": "KSOLVES",
+      "canonical_slug": "ksolves",
+      "display_name": "KSOLVES INDIA LIMITED",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_SHIVALIK_SHIVALIKRA",
+      "symbol": "SHIVALIK",
+      "canonical_slug": "shivalik",
+      "display_name": "Shivalik Rasayan Ltd.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_AXISBANK_AXISBANK",
+      "symbol": "AXISBANK",
+      "canonical_slug": "axisbank",
+      "display_name": "AXIS BANK LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_BAJAJFINSV_BAJAJFINSE",
+      "symbol": "BAJAJFINSV",
+      "canonical_slug": "bajajfinsv",
+      "display_name": "BAJAJ FINSERV LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_BANKBARODA_BANKOFBARO",
+      "symbol": "BANKBARODA",
+      "canonical_slug": "bankbaroda",
+      "display_name": "BANK OF BARODA",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_BRITANNIA_BRITANNIAI",
+      "symbol": "BRITANNIA",
+      "canonical_slug": "britannia",
+      "display_name": "BRITANNIA INDUSTRIES LTD",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_CANBK_CANARABANK",
+      "symbol": "CANBK",
+      "canonical_slug": "canbk",
+      "display_name": "CANARA BANK",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_COFORGE_COFORGE",
+      "symbol": "COFORGE",
+      "canonical_slug": "coforge",
+      "display_name": "COFORGE LIMITED",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_FEDERALBNK_FEDERALBAN",
+      "symbol": "FEDERALBNK",
+      "canonical_slug": "federalbnk",
+      "display_name": "FEDERAL BANK LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_MMFIN_MAHINDRAMA",
+      "symbol": "M&MFIN",
+      "canonical_slug": "m-mfin",
+      "display_name": "MAHINDRA & MAHINDRA FINANCIAL",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_NESTLEIND_NESTLEINDI",
+      "symbol": "NESTLEIND",
+      "canonical_slug": "nestleind",
+      "display_name": "NESTLE INDIA LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_ONGC_OILANDNATU",
+      "symbol": "ONGC",
+      "canonical_slug": "ongc",
+      "display_name": "OIL AND NATURAL GAS CORPORATIO",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_PERSISTENT_PERSISTENT",
+      "symbol": "PERSISTENT",
+      "canonical_slug": "persistent",
+      "display_name": "PERSISTENT SYSTEMS LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_PNB_PUNJABNATI",
+      "symbol": "PNB",
+      "canonical_slug": "pnb",
+      "display_name": "PUNJAB NATIONAL BANK",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_SHRIRAMFIN_SHRIRAMFIN",
+      "symbol": "SHRIRAMFIN",
+      "canonical_slug": "shriramfin",
+      "display_name": "SHRIRAM FINANCE LIMITED",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_TECHM_TECHMAHIND",
+      "symbol": "TECHM",
+      "canonical_slug": "techm",
+      "display_name": "TECH MAHINDRA LIMITED",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_TITAN_TITANCOMPA",
+      "symbol": "TITAN",
+      "canonical_slug": "titan",
+      "display_name": "TITAN COMPANY LIMITED",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_ULTRACEMCO_ULTRATECHC",
+      "symbol": "ULTRACEMCO",
+      "canonical_slug": "ultracemco",
+      "display_name": "ULTRATECH CEMENT LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_DIVISLAB_DIVISLABOR",
+      "symbol": "DIVISLAB",
+      "canonical_slug": "divislab",
+      "display_name": "DIVI S LABORATORIES LTD",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_HINDZINC_HINDUSTANZ",
+      "symbol": "HINDZINC",
+      "canonical_slug": "hindzinc",
+      "display_name": "HINDUSTAN ZINC LIMITED",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_INDIGO_INTERGLOBE",
+      "symbol": "INDIGO",
+      "canonical_slug": "indigo",
+      "display_name": "INTERGLOBE AVIATION LTD",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_HINDALCO_HINDALCOIN",
+      "symbol": "HINDALCO",
+      "canonical_slug": "hindalco",
+      "display_name": "HINDALCO INDUSTRIES LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
+    },
+    {
+      "canonical_company_id": "CMP_DLF_DLF",
+      "symbol": "DLF",
+      "canonical_slug": "dlf",
+      "display_name": "DLF LTD.",
+      "legacy_symbols": [],
+      "aliases": [],
+      "status": "ACTIVE_PILOT",
+      "require_verified_identity": true
     }
   ]
 }
