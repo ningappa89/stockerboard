@@ -5361,6 +5361,8 @@
             <button class="tab-btn" data-pro-group="stockme" id="tabBtnStockMe" onclick="switchTab('tab-stockme-analysis', this)">
                 📈 StockerBoard Analysis <span class="tab-counter">11</span>
             </button>
+            <!-- cup with handle button --><button type="button" class="tab-btn" data-pro-group="stockme" id="tabBtnCupWithHandle"
+        aria-controls="tab-cup-with-handle" onclick="switchTab('tab-cup-with-handle', this); StockerboardCup.open()">Cup with Handle</button><!-- cup with handle button -->
             <button class="tab-btn" data-pro-group="market" id="tabBtnBreakouts" onclick="switchTab('tab-breakouts', this)">
                 🚀 New 52W Highs <span class="tab-counter">4</span>
             </button>
@@ -10435,6 +10437,69 @@
         </div>
         </div>
 
+        <!-- cup with handle panel --><link rel="stylesheet" href="/scripts/cup-with-handle.css?v=2">
+    <script defer src="/scripts/cup-with-handle.js?v=2"></script>
+    <div id="tab-cup-with-handle" class="tab-content" data-session="2026-11-17" data-index-sha256="a84bce884d2dbf177107171197893cb32f40246340a666314529e137767b8978">
+        <section class="cup-panel" aria-labelledby="cup-heading">
+            <header class="cup-head">
+                <h2 id="cup-heading">Cup with Handle</h2>
+                <p class="cup-session">Market close <time id="cup-session" datetime="2026-11-17">2026-11-17</time></p>
+            </header>
+            <p class="cup-preview"><strong>Private preview</strong>
+                <span>Accuracy validation is in progress.</span></p>
+            <p class="cup-status" id="cup-status" role="status">Loading the daily scan…</p>
+            <dl class="cup-stats" id="cup-stats" hidden>
+                <div><dt>Securities scanned</dt><dd id="cup-scanned"></dd></div>
+                <div><dt>Setups found</dt><dd id="cup-matched"></dd></div>
+                <div><dt>Volume confirmed</dt><dd id="cup-confirmed"></dd></div>
+            </dl>
+            <details id="cup-coverage" class="cup-coverage" hidden>
+                <summary>View excluded securities <span id="cup-exclusion-count"></span></summary>
+                <dl id="cup-exclusions"></dl>
+            </details>
+            <div id="cup-workspace" class="cup-workspace" hidden>
+                <section id="cup-evidence" class="cup-evidence" aria-labelledby="cup-evidence-title" tabindex="-1" hidden>
+                    <header class="cup-evidence-head">
+                        <div><h3 id="cup-evidence-title"></h3><p id="cup-company-name"></p></div>
+                        <span id="cup-setup-badge" class="cup-badge"></span>
+                    </header>
+                    <dl class="cup-metrics" id="cup-metrics"></dl>
+                    <p id="cup-chart-status" class="cup-status" role="status"></p>
+                    <figure id="cup-figure" class="cup-figure" hidden>
+                        <figcaption class="cup-chart-key">
+                            <span class="cup-key-price">Adjusted close</span>
+                            <span class="cup-key-pivot">Pivot</span>
+                            <span class="cup-key-volume">Adjusted volume</span>
+                            <span class="cup-key-base">Cup window</span>
+                            <span class="cup-key-handle">Handle window</span>
+                            <span class="cup-key-breakout" id="cup-key-breakout" hidden>Breakout close</span>
+                        </figcaption>
+                        <p id="cup-chart-point" class="cup-chart-point"></p>
+                        <canvas id="cup-chart" role="img" aria-label="Adjusted closing prices and pattern levels"
+                            aria-describedby="cup-chart-point cup-chart-instructions" tabindex="0"></canvas>
+                        <p id="cup-chart-instructions" class="cup-visually-hidden">Use the left and right arrow keys to inspect daily values. Press Home or End to jump to the first or last session.</p>
+                        <p id="cup-chart-announcement" class="cup-visually-hidden" aria-live="polite"></p>
+                    </figure>
+                    <details class="cup-measurements"><summary>Pattern measurements</summary><dl id="cup-anchor-summary"></dl>
+                        <p>StockMe checks for an advance, a rounded cup, an upper-half handle and a close above the pivot.
+                            Volume confirmation requires at least 1.50× the average of the preceding 50 sessions.</p>
+                    </details>
+                    <a id="cup-company-link" class="cup-company-link">Open company research <span aria-hidden="true">↗</span></a>
+                </section>
+                <aside class="cup-shortlist" aria-labelledby="cup-shortlist-title">
+                    <h3 id="cup-shortlist-title">Shortlist</h3>
+                    <div id="cup-filters" class="cup-filters" hidden>
+                        <div><label for="cup-state">Setup status</label><select id="cup-state"><option value="">All setups</option>
+                            <option value="FORMING">Forming</option><option value="CLOSE_ABOVE_PIVOT">Price-only breakout</option>
+                            <option value="VOLUME_CONFIRMED">Volume confirmed</option></select></div>
+                        <div><label for="cup-sort">Sort by</label><select id="cup-sort"><option value="state">Setup status</option>
+                            <option value="distance">Distance from pivot</option><option value="symbol">Company symbol</option></select></div>
+                    </div>
+                    <ul id="cup-results" class="cup-results" aria-label="Cup with Handle results"></ul>
+                </aside>
+            </div>
+        </section>
+    </div><!-- cup with handle panel -->
         <div id="tab-stockme-analysis" class="tab-content"><div class="stockme-panel"><div class="stockme-heading"><div><span class="stockme-eyebrow">A focused research list</span><h2>StockerBoard Analysis</h2><p>Stocks near their yearly highs that meet StockMe’s existing score threshold.</p></div><span class="stockme-session">Market session 2026-11-17</span></div><div class="stockme-kpis"><div><strong>100</strong><span>Stocks reviewed</span></div><div><strong>11</strong><span>Met the screen rules</span></div></div><details class="stockme-method"><summary>How this list works</summary><p>StockMe reviews up to 100 stocks within 5% of their rolling 52-week high, with at least 5,000 shares traded in the latest session. The list shows those with a StockMe score of 60 or more. It uses the local OHLC database; P/E and ROE appear only when available in the certified public financial index.</p></details><div class="table-responsive"><table id="stockmeAnalysisTable"><thead><tr><th>Company</th><th class="col-right">Price</th><th class="col-right">Yearly high</th><th class="col-right">From high</th><th class="col-right">Screen score</th><th class="col-right">P/E</th><th class="col-right">ROE</th></tr></thead><tbody><tr data-sym="IGIL"><td><a class="stockme-company" href="#stock/IGIL">International Gemological Inst</a><span class="stockme-symbol">IGIL</span></td><td class="col-right mono">₹450.60</td><td class="col-right mono">₹453.65</td><td class="col-right mono">0.67%</td><td class="col-right mono"><strong>88.49</strong></td><td class="col-right mono">21.90</td><td class="col-right mono">—</td></tr><tr data-sym="ALUFLUOR"><td><a class="stockme-company" href="#stock/ALUFLUOR">ALUFLUORIDE LTD.</a><span class="stockme-symbol">ALUFLUOR</span></td><td class="col-right mono">₹690.35</td><td class="col-right mono">₹701.00</td><td class="col-right mono">1.52%</td><td class="col-right mono"><strong>83.57</strong></td><td class="col-right mono">—</td><td class="col-right mono">—</td></tr><tr data-sym="SOUTHBANK"><td><a class="stockme-company" href="#stock/SOUTHBANK">SOUTH INDIAN BANK LTD.</a><span class="stockme-symbol">SOUTHBANK</span></td><td class="col-right mono">₹60.70</td><td class="col-right mono">₹62.57</td><td class="col-right mono">2.99%</td><td class="col-right mono"><strong>81.23</strong></td><td class="col-right mono">—</td><td class="col-right mono">—</td></tr><tr data-sym="ENGINERSIN"><td><a class="stockme-company" href="#stock/ENGINERSIN">ENGINEERS INDIA LTD</a><span class="stockme-symbol">ENGINERSIN</span></td><td class="col-right mono">₹312.90</td><td class="col-right mono">₹323.65</td><td class="col-right mono">3.32%</td><td class="col-right mono"><strong>80.54</strong></td><td class="col-right mono">21.01</td><td class="col-right mono">23.79%</td></tr><tr data-sym="ALGOQUANT"><td><a class="stockme-company" href="#stock/ALGOQUANT">ALGOQUANT FINTECH LIMITED</a><span class="stockme-symbol">ALGOQUANT</span></td><td class="col-right mono">₹87.03</td><td class="col-right mono">₹87.38</td><td class="col-right mono">0.40%</td><td class="col-right mono"><strong>75.66</strong></td><td class="col-right mono">—</td><td class="col-right mono">—</td></tr><tr data-sym="KTKBANK"><td><a class="stockme-company" href="#stock/KTKBANK">KARNATAKA BANK LTD.</a><span class="stockme-symbol">KTKBANK</span></td><td class="col-right mono">₹368.80</td><td class="col-right mono">₹370.80</td><td class="col-right mono">0.54%</td><td class="col-right mono"><strong>70.84</strong></td><td class="col-right mono">—</td><td class="col-right mono">—</td></tr><tr data-sym="KMCSHIL"><td><a class="stockme-company" href="#stock/KMCSHIL">K M C SPECIALITY HOSP I L</a><span class="stockme-symbol">KMCSHIL</span></td><td class="col-right mono">₹194.52</td><td class="col-right mono">₹199.00</td><td class="col-right mono">2.25%</td><td class="col-right mono"><strong>70.19</strong></td><td class="col-right mono">—</td><td class="col-right mono">—</td></tr><tr data-sym="SBC"><td><a class="stockme-company" href="#stock/SBC">SBC EXPORTS LIMITED</a><span class="stockme-symbol">SBC</span></td><td class="col-right mono">₹68.99</td><td class="col-right mono">₹71.29</td><td class="col-right mono">3.23%</td><td class="col-right mono"><strong>70.00</strong></td><td class="col-right mono">69.37</td><td class="col-right mono">—</td></tr><tr data-sym="SHREEJISPG"><td><a class="stockme-company" href="#stock/SHREEJISPG">Shreeji Shipping Global Limite</a><span class="stockme-symbol">SHREEJISPG</span></td><td class="col-right mono">₹910.35</td><td class="col-right mono">₹924.75</td><td class="col-right mono">1.56%</td><td class="col-right mono"><strong>70.00</strong></td><td class="col-right mono">81.42</td><td class="col-right mono">—</td></tr><tr data-sym="SHUKRAPHAR"><td><a class="stockme-company" href="#stock/SHUKRAPHAR">Shukra Pharmaceuticals Limited</a><span class="stockme-symbol">SHUKRAPHAR</span></td><td class="col-right mono">₹82.25</td><td class="col-right mono">₹84.80</td><td class="col-right mono">3.01%</td><td class="col-right mono"><strong>68.90</strong></td><td class="col-right mono">—</td><td class="col-right mono">—</td></tr><tr data-sym="STEAMHOUSE"><td><a class="stockme-company" href="#stock/STEAMHOUSE">Steamhouse India Limited</a><span class="stockme-symbol">STEAMHOUSE</span></td><td class="col-right mono">₹155.62</td><td class="col-right mono">₹156.99</td><td class="col-right mono">0.87%</td><td class="col-right mono"><strong>65.30</strong></td><td class="col-right mono">—</td><td class="col-right mono">—</td></tr></tbody></table></div></div></div>
 
         <!-- TAB 1: 52W Breakouts -->
@@ -19999,7 +20064,10 @@
             } else {
                 switchUserMode('fresher');
             }
-            if (hash === '#tab-stockme-analysis') {
+            if (hash === '#tab-cup-with-handle') {
+                document.getElementById('tabBtnCupWithHandle').click();
+                requestAnimationFrame(() => document.getElementById('tab-cup-with-handle').scrollIntoView({ block: 'start' }));
+            } else if (hash === '#tab-stockme-analysis') {
                 switchTab('tab-stockme-analysis', document.getElementById('tabBtnStockMe'));
                 requestAnimationFrame(() => document.getElementById('tab-stockme-analysis')?.scrollIntoView({ block: 'start' }));
             } else if (hash === '#tab-playbook') {
