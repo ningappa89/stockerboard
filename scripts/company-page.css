@@ -6,7 +6,8 @@
     --border-card: rgba(255, 255, 255, 0.06);
     --text-primary: #F8FAFC;
     --text-secondary: #94A3B8;
-    --text-muted: #64748B;
+    --text-muted: #A8B8CD;
+    --focus-ring: #78D9B1;
     --brand-green: #15803D;
     --brand-green-light: #16A34A;
     --accent: #16A34A;
@@ -26,11 +27,12 @@
     --text-primary: #0F172A;
     --text-secondary: #475569;
     --text-muted: #64748B;
+    --focus-ring: #06543F;
     --brand-green: #15803D;
     --brand-green-light: #16A34A;
     --accent: #16A34A;
     --accent-hover: #15803D;
-    --emerald: #10B981;
+    --emerald: #08734C;
     --coral: #F43F5E;
     --card-shadow: 0 1px 3px rgba(15, 23, 42, 0.03), 0 10px 25px -5px rgba(15, 23, 42, 0.05);
 }
@@ -105,10 +107,13 @@ body {
 .hero {
     background: var(--surface);
     border: 1px solid var(--border);
-    border-radius: 12px;
+    border-radius: 18px;
     padding: 24px;
-    margin-bottom: 24px;
+    margin-bottom: 12px;
 }
+.company-hero-header { display:flex; flex-wrap:wrap; align-items:flex-start; justify-content:space-between; gap:12px 20px; }
+.company-hero-header > div:first-child { flex:1 1 28rem; min-width:0; }
+.hero-action-buttons { display:flex; flex-wrap:wrap; align-items:center; gap:8px; }
 .hero-title-row {
     display: flex;
     flex-wrap: wrap;
@@ -131,10 +136,10 @@ h1 {
     border-radius: 6px;
     border: 1px solid var(--border);
 }
+.badge--classification { background:#06543F; color:#fff; border-color:transparent; }
 .hero-meta {
     color: var(--text-muted);
     font-size: 0.9rem;
-    margin-bottom: 20px;
 }
 .price-section {
     display: flex;
@@ -142,6 +147,7 @@ h1 {
     gap: 12px;
     border-top: 1px solid var(--border);
     padding-top: 16px;
+    margin-top: 16px;
 }
 .cmp-val {
     font-size: 2rem;
@@ -151,6 +157,27 @@ h1 {
 .price-date {
     font-size: 0.875rem;
     color: var(--text-muted);
+}
+.company-reporting-date { color:var(--text-secondary); font-size:.8125rem; }
+[data-research-company] .research-company-tabs {
+    align-items:center;
+    flex-wrap:wrap;
+    gap:6px;
+    overflow:visible;
+    padding:6px 0 12px;
+    margin:12px 0 20px;
+}
+[data-research-company] .research-company-tabs button {
+    min-height:44px;
+    padding:8px 16px;
+    font-weight:600;
+    color:var(--text-secondary);
+}
+[data-research-company] .research-company-tabs button:hover:not([aria-selected="true"]) { background:var(--surface-elevated); color:var(--text-primary); }
+[data-research-company] .research-company-tabs button[aria-selected="true"] { background:#06543F; color:#fff; }
+[data-research-company] :is(a,button,select,[tabindex="0"]):focus-visible {
+    outline:2px solid var(--focus-ring);
+    outline-offset:2px;
 }
 .hero-range { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--border); }
 .hero-range-heading, .hero-range-bounds { display: flex; justify-content: space-between; gap: 12px; }
@@ -184,12 +211,17 @@ h1 {
     font-size: 1.35rem;
     font-weight: 600;
     color: var(--text-primary);
+    font-variant-numeric: tabular-nums;
 }
 .card-sub {
     font-size: 0.75rem;
     color: var(--text-muted);
     margin-top: 4px;
 }
+[data-valuation-release] { margin:0 0 10px; }
+.company-snapshot { grid-template-columns:repeat(4,minmax(0,1fr)); }
+.company-snapshot .card-label { letter-spacing:normal; text-transform:none; font-weight:600; }
+.company-snapshot .card-sub { overflow-wrap:anywhere; }
 .section-box {
     background: var(--surface);
     border: 1px solid var(--border);
@@ -213,6 +245,7 @@ h2 {
     padding: 10px 0;
     border-bottom: 1px solid var(--border);
     font-size: 0.95rem;
+    gap:12px;
 }
 .metric-row:last-child {
     border-bottom: none;
@@ -238,6 +271,7 @@ h2 {
 .metric-value {
     font-weight: 600;
     color: var(--text-primary);
+    text-align:right;
 }
 .expl-card {
     background: var(--surface-elevated);
@@ -353,14 +387,15 @@ footer {
     align-items: center;
     gap: 6px;
     font-family: inherit;
+    min-height: 44px;
 }
 .btn-watchlist:hover, .btn-copy-link:hover {
     border-color: var(--accent);
-    color: var(--accent);
+    color: var(--text-primary);
 }
 .btn-watchlist.active {
-    background: var(--accent);
-    border-color: var(--accent);
+    background: #06543F;
+    border-color: #06543F;
     color: #ffffff;
 }
 .time-pills {
@@ -382,12 +417,14 @@ footer {
     cursor: pointer;
     transition: all 0.15s ease;
     font-family: inherit;
+    min-width:44px;
+    min-height:44px;
 }
 .time-btn:hover {
     color: var(--text-primary);
 }
 .time-btn.active {
-    background: var(--accent);
+    background: #06543F;
     color: #ffffff;
 }
 .time-btn:disabled {
@@ -441,6 +478,17 @@ footer {
     .theme-toggle-btn::before { content: '🌓'; font-size: 16px; }
     h1 { font-size: 1.5rem; }
     .cmp-val { font-size: 1.6rem; }
-    .grid-cards { grid-template-columns: 1fr 1fr; }
+    .hero { padding:16px; }
+    .hero-title-row { gap:5px 10px; }
+    .company-hero-header > div:first-child { flex-basis:100%; }
+    .grid-cards { grid-template-columns: repeat(2,minmax(0,1fr)); gap:10px; }
+    .company-snapshot .card { padding:12px; }
+    .company-snapshot .card-val { font-size:1.125rem; }
+    [data-research-company] .research-company-tabs { display:grid; grid-template-columns: repeat(5,minmax(0,1fr)); gap:4px; }
+    [data-research-company] .research-company-tabs button { padding:6px 2px; font-size:.8125rem; }
     .container { padding: 16px 12px; }
+}
+
+@media (max-width: 359px) {
+    [data-research-company] .research-company-tabs { grid-template-columns:repeat(3,minmax(0,1fr)); }
 }

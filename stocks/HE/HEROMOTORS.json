@@ -289,14 +289,22 @@
       "open": 122.9,
       "time": "2026-11-13",
       "volume": 7526061
+    },
+    {
+      "close": 125.98,
+      "high": 131.58,
+      "low": 124.25,
+      "open": 131.58,
+      "time": "2026-11-16",
+      "volume": 14709385
     }
   ],
   "company_name": "Hero Motors Limited",
   "history": {
     "first_session": "2026-09-23",
     "has_full_52w_history": false,
-    "last_session": "2026-11-13",
-    "sessions_available": 36
+    "last_session": "2026-11-16",
+    "sessions_available": 37
   },
   "industry": null,
   "isin": "INE012G01022",
@@ -306,29 +314,29 @@
     "is_stage2": false,
     "momentum_score": 45,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.68x"
+    "volume_multiplier": "1.29x"
   },
   "price": {
-    "as_of": "2026-11-13",
-    "change": 2.77,
-    "change_pct": 2.26,
-    "close": 125.32,
-    "previous_close": 122.55,
+    "as_of": "2026-11-16",
+    "change": 0.66,
+    "change_pct": 0.53,
+    "close": 125.98,
+    "previous_close": 125.32,
     "type": "EOD_CLOSE",
-    "volume": 7526061
+    "volume": 14709385
   },
   "range": {
-    "distance_from_high_pct": -29.93,
-    "distance_from_low_pct": 55.68,
+    "distance_from_high_pct": -29.56,
+    "distance_from_low_pct": 56.5,
     "high_52w": 178.84,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 80.5,
-    "range_position_pct": 45.58
+    "range_position_pct": 46.25
   },
   "risk_model": {
-    "invalidation_floor": 120.93,
-    "risk_per_share": 6.9,
-    "technical_pivot": 127.83
+    "invalidation_floor": 121.57,
+    "risk_per_share": 6.93,
+    "technical_pivot": 128.5
   },
   "schema_version": "1.0",
   "sector": null,

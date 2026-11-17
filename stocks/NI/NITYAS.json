@@ -129,46 +129,54 @@
       "open": 66.94,
       "time": "2026-11-13",
       "volume": 652672
+    },
+    {
+      "close": 65.7,
+      "high": 67.7,
+      "low": 64.78,
+      "open": 67.38,
+      "time": "2026-11-16",
+      "volume": 276418
     }
   ],
   "company_name": "Nityas Gems and Jewellery Limited",
   "history": {
     "first_session": "2026-10-23",
     "has_full_52w_history": false,
-    "last_session": "2026-11-13",
-    "sessions_available": 16
+    "last_session": "2026-11-16",
+    "sessions_available": 17
   },
   "industry": null,
   "isin": "INE211501023",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 71,
+    "is_stage2": false,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.54x"
+    "volume_multiplier": "0.67x"
   },
   "price": {
-    "as_of": "2026-11-13",
-    "change": 2.01,
-    "change_pct": 3.09,
-    "close": 67.12,
-    "previous_close": 65.11,
+    "as_of": "2026-11-16",
+    "change": -1.42,
+    "change_pct": -2.12,
+    "close": 65.7,
+    "previous_close": 67.12,
     "type": "EOD_CLOSE",
-    "volume": 652672
+    "volume": 276418
   },
   "range": {
-    "distance_from_high_pct": -12.07,
-    "distance_from_low_pct": 15.52,
+    "distance_from_high_pct": -13.93,
+    "distance_from_low_pct": 13.08,
     "high_52w": 76.33,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 58.1,
-    "range_position_pct": 49.48
+    "range_position_pct": 41.69
   },
   "risk_model": {
-    "invalidation_floor": 64.77,
-    "risk_per_share": 3.69,
-    "technical_pivot": 68.46
+    "invalidation_floor": 63.4,
+    "risk_per_share": 3.61,
+    "technical_pivot": 67.01
   },
   "schema_version": "1.0",
   "sector": null,

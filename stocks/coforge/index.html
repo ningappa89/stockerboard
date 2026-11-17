@@ -73,19 +73,19 @@
     }
     </script>
     
-    <link rel="stylesheet" href="/scripts/company-page.css?v=company-v2">
+    <link rel="stylesheet" href="/scripts/company-page.css?v=company-v3">
 <link rel="stylesheet" href="/scripts/site-shell.css">
 <script defer src="/scripts/site-shell.js"></script>
 <link rel="stylesheet" href="/scripts/financial-statements.css?v=FS_UI_V1_6">
 <script defer src="/scripts/financial-statements.js?v=FS_UI_V1_6"></script>
 <link rel="stylesheet" href="/scripts/research-layout.css?v=20261029">
-<script defer src="/scripts/research-layout.js?v=company-v1"></script>
-<script defer src="/scripts/company-page.js?v=company-v2"></script>
+<script defer src="/scripts/research-layout.js?v=company-v3"></script>
+<script defer src="/scripts/company-page.js?v=company-v3"></script>
 <script defer src="/scripts/research-data.js?v=company-v2"></script>
 <script defer src="/scripts/company-routes.js?v=company-v1"></script>
 <link rel="stylesheet" href="/scripts/peer-comparison.css">
-<script defer src="/scripts/peer-comparison.js?v=company-v1"></script>
-<script type="application/json" id="publicationHealth">{"version": 1, "session": "2026-11-13", "years": [2026], "cutoff": "17:30", "holidays": ["2026-01-26", "2026-02-15", "2026-03-03", "2026-03-21", "2026-03-26", "2026-03-31", "2026-04-03", "2026-04-14", "2026-05-01", "2026-05-28", "2026-06-26", "2026-08-15", "2026-09-14", "2026-10-02", "2026-10-20", "2026-11-10", "2026-11-24", "2026-12-25"], "unverifiedDates": ["2026-11-08"], "source": "https://nsearchives.nseindia.com/content/circulars/CMTR71775.pdf"}</script></head>
+<script defer src="/scripts/peer-comparison.js?v=company-v3"></script>
+<script type="application/json" id="publicationHealth">{"version": 1, "session": "2026-11-16", "years": [2026], "cutoff": "17:30", "holidays": ["2026-01-26", "2026-02-15", "2026-03-03", "2026-03-21", "2026-03-26", "2026-03-31", "2026-04-03", "2026-04-14", "2026-05-01", "2026-05-28", "2026-06-26", "2026-08-15", "2026-09-14", "2026-10-02", "2026-10-20", "2026-11-10", "2026-11-24", "2026-12-25"], "unverifiedDates": ["2026-11-08"], "source": "https://nsearchives.nseindia.com/content/circulars/CMTR71775.pdf"}</script></head>
 <body>
     <header class="sb-site-header">
     <div class="sb-site-header-inner">
@@ -113,53 +113,44 @@
             <span>›</span>
             <a href="/stocks/">Stocks</a>
             <span>›</span>
-            <span>COFORGE LIMITED</span>
+            <span aria-current="page">COFORGE LIMITED</span>
         </nav>
 
         <!-- Hero: Identity & Price Freshness with Action Buttons -->
-        <section class="hero">
-            <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;">
+        <section class="hero" aria-labelledby="researchCompanyHeading">
+            <div class="company-hero-header">
                 <div>
                     <div class="hero-title-row">
-                        <h1>COFORGE LIMITED</h1>
+                        <h1 id="researchCompanyHeading">COFORGE LIMITED</h1>
                         <span class="badge">NSE: COFORGE</span>
                     </div>
                     <div class="hero-meta">
-                        Public Equity · NSE Listed Equity
+                        Information Technology
                     </div>
                 </div>
-                <div class="hero-action-buttons" style="display:flex;align-items:center;gap:10px;">
+                <div class="hero-action-buttons">
                     <button type="button" class="btn-watchlist" id="btnWatchlist" aria-label="Add to Watchlist">+ Watchlist</button>
-                    <button type="button" class="btn-copy-link" id="btnCopyLink" aria-label="Copy direct research link">🔗 Copy Link</button>
+                    <button type="button" class="btn-copy-link" id="btnCopyLink" aria-label="Copy direct research link">Copy link</button>
                 </div>
             </div>
             <div class="price-section">
-                <div class="cmp-val" id="companyMarketPrice">₹2,028.00</div>
-                <div class="price-date" id="companyMarketDate" data-as-of="2026-11-13">Price as of 13 Nov 2026</div>
-            </div>
-            <div class="hero-range" aria-label="52-Week Price Spectrum">
-                <div class="hero-range-heading"><span>52-Week Price Spectrum</span><span>Earlier range snapshot</span></div>
-                <div class="hero-range-track"><span class="hero-range-pin" style="left:84.9%"></span></div>
-                <div class="hero-range-bounds">
-                    <span>52W Low: <strong>₹1,008.10</strong></span>
-                    <span>52W High: <strong>₹2,021.20</strong></span>
-                </div>
-                <p class="hero-range-note">52-week range through 9 Oct 2026; latest price shown above. Range position reflects the earlier snapshot.</p>
+                <div class="cmp-val" id="companyMarketPrice">₹2,010.00</div>
+                <div class="price-date" id="companyMarketDate" data-as-of="2026-11-16">Price as of 16 Nov 2026</div>
             </div>
         </section>
 
         <p class="coverage-notice"></p>
-        <div class="data-provenance-strip" style="display:flex;flex-wrap:wrap;gap:6px 16px;margin:8px 0 14px;padding:10px 14px;border:1px solid var(--border);border-radius:10px;background:var(--surface-elevated);font-size:.78rem;line-height:1.45;color:var(--text-secondary);">
-            <span class="prov-item"><strong style="color:var(--text-primary);font-weight:650;">Market Price:</strong> <span id="companyMarketQuote">₹2,028.00 (13 Nov 2026)</span></span>
-            <span class="prov-divider" style="color:var(--text-muted);">&middot;</span>
-            <span class="prov-item"><strong style="color:var(--text-primary);font-weight:650;">Financials:</strong> 2026-06-30 &middot; CONSOLIDATED</span>
-        </div>
+        <p class="company-reporting-date">Financials through 30 Jun 2026 · Consolidated</p>
 
+        <!-- ========================================== -->
+        <!-- TAB 1: OVERVIEW PANEL                      -->
+        <!-- ========================================== -->
+        <div id="research-overview" data-research-panel="overview">
         <!-- Key Snapshot (Applies across all workstation tabs) -->
-        <p class="card-sub" id="companyValuationStatus" role="status">Checking certified valuation data…</p>
-        <section class="grid-cards" aria-label="Key Snapshot">
+        <p class="card-sub" id="companyValuationStatus" data-valuation-release role="status">Checking certified valuation data…</p>
+        <section class="grid-cards company-snapshot" aria-label="Key metrics">
             <div class="card">
-                <div class="card-label">Market Cap</div>
+                <div class="card-label">Market cap (₹ cr)</div>
                 <div class="card-val" data-valuation-value="MARKET_CAP">—</div>
                 <div class="card-sub" data-valuation-basis="MARKET_CAP"></div>
             </div>
@@ -180,10 +171,6 @@
             </div>
         </section>
 
-        <!-- ========================================== -->
-        <!-- TAB 1: OVERVIEW PANEL                      -->
-        <!-- ========================================== -->
-        <div id="research-overview" data-research-panel="overview">
             <!-- Price History Interactive Chart Card -->
             <section class="section-box" id="priceHistoryCard" aria-label="Price History">
                 <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:14px;">
@@ -192,15 +179,15 @@
                         <div style="font-size:0.8rem;color:var(--text-muted);margin-top:2px;">Daily closing price · ₹</div>
                     </div>
                     <div class="time-pills" role="group" aria-label="Chart timeframes">
-                        <button type="button" class="time-btn" onclick="setTimeframe('1M')">1M</button>
-                        <button type="button" class="time-btn" onclick="setTimeframe('6M')">6M</button>
-                        <button type="button" class="time-btn active" onclick="setTimeframe('1Y')">1Y</button>
+                        <button type="button" class="time-btn" aria-pressed="false" onclick="setTimeframe('1M')">1M</button>
+                        <button type="button" class="time-btn" aria-pressed="false" onclick="setTimeframe('6M')">6M</button>
+                        <button type="button" class="time-btn active" aria-pressed="true" onclick="setTimeframe('1Y')">1Y</button>
                     </div>
                 </div>
 
                 <div class="chart-box" id="chartBox" style="position:relative;width:100%;height:220px;background:var(--surface-elevated);border-radius:8px;overflow:hidden;border:1px solid var(--border);">
                     <div class="chart-tooltip" id="chartTooltip" style="position:absolute;display:none;pointer-events:none;background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:6px 10px;font-size:0.75rem;box-shadow:var(--card-shadow);z-index:10;color:var(--text-primary);"></div>
-                    <svg id="chartSvg" viewBox="0 0 680 200" preserveAspectRatio="none" style="width:100%;height:100%;display:block;">
+                    <svg id="chartSvg" role="img" aria-label="Daily closing prices" aria-describedby="chartFootnote" viewBox="0 0 680 200" style="width:100%;height:100%;display:block;">
                         <defs>
                             <linearGradient id="chartGrad" x1="0" y1="0" x2="0" y2="1">
                                 <stop offset="0%" stop-color="#16a34a" stop-opacity="0.22" />
@@ -216,6 +203,15 @@
                     </svg>
                 </div>
                 <div class="chart-footnote" id="chartFootnote" style="font-size:0.75rem;color:var(--text-muted);margin-top:8px;">Daily closing prices · EOD snapshot</div>
+            <div class="hero-range" aria-label="52-Week Price Spectrum">
+                <div class="hero-range-heading"><span>52-Week Price Spectrum</span><span>Earlier range snapshot</span></div>
+                <div class="hero-range-track"><span class="hero-range-pin" style="left:84.9%"></span></div>
+                <div class="hero-range-bounds">
+                    <span>52W Low: <strong>₹1,008.10</strong></span>
+                    <span>52W High: <strong>₹2,021.20</strong></span>
+                </div>
+                <p class="hero-range-note">52-week range through 9 Oct 2026; latest price shown above. Range position reflects the earlier snapshot.</p>
+            </div>
             </section>
 
             <!-- Business Focus & Profile (Company Identity & Enrichment V2) -->
@@ -227,7 +223,7 @@
                     <div>
                         <h2 style="font-size:1.1rem;margin:0;color:var(--text-primary);font-weight:700;">Business Focus & Profile</h2>
                         <div style="font-size:0.8rem;color:var(--text-muted);margin-top:2px;">
-                            COFORGE · Public Equity / NSE Listed Equity
+                            COFORGE · Information Technology / NSE Listed Equity
                         </div>
                     </div>
                 </div>
@@ -303,7 +299,7 @@
             <!-- Returns & Valuation -->
             <section class="section-box">
                 <h2>Returns & Valuation</h2>
-                <p class="card-sub">Price dates and reporting periods are shown for each available multiple.</p>
+                <p class="card-sub" data-valuation-release role="status">Checking certified valuation data…</p>
                 <div class="metric-row">
                     <span class="metric-name">Return on Equity (ROE)</span>
                     <span class="metric-value">— Not available</span>
@@ -363,7 +359,7 @@
             <section class="section-box">
                 <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:6px;">
                     <h2 style="margin:0;">Peer comparison</h2>
-                    <span class="badge" id="sectorBadge" style="background:var(--accent);color:#ffffff;border:none;">Checking classification…</span>
+                    <span class="badge badge--classification" id="sectorBadge">Checking classification…</span>
                 </div>
                 <p class="section-subtitle" id="peerSubtitle" style="font-size:0.88rem;color:var(--text-muted);margin-bottom:18px;">
                     Checking comparable company classifications…
@@ -374,17 +370,17 @@
                     <div class="card">
                         <div class="card-label">Comparison median P/E</div>
                         <div class="card-val" id="bmPe">—</div>
-                        <div class="card-sub">Shown comparables; selected company excluded</div>
+                        <div class="card-sub" id="peerPeCoverage">Verified peer P/E coverage</div>
                     </div>
                     <div class="card">
                         <div class="card-label">Comparison median ROE</div>
                         <div class="card-val" id="bmRoe">—</div>
-                        <div class="card-sub">Latest reported values; selected company excluded</div>
+                        <div class="card-sub" id="peerRoeCoverage">Verified peer ROE coverage</div>
                     </div>
                     <div class="card">
                         <div class="card-label">Comparison market cap</div>
                         <div class="card-val" id="bmMcap">—</div>
-                        <div class="card-sub">Shown comparables; selected company excluded</div>
+                        <div class="card-sub" id="peerMcapCoverage">Total when all shown peers have a verified value</div>
                     </div>
                 </div>
 
@@ -426,7 +422,6 @@
             <section class="section-box">
                 <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:6px;">
                     <h2 style="margin:0;">Statutory filings & audit trail</h2>
-                    <span class="badge" style="background:var(--accent);color:#ffffff;border:none;">STATUTORY FILINGS</span>
                 </div>
                 <p class="section-subtitle" style="font-size:0.88rem;color:var(--text-muted);margin-bottom:18px;">
                     Source evidence for the annual and quarterly results included in Stockerboard’s statement release.
@@ -500,7 +495,7 @@
             <div class="trust-grid">
                 <div class="trust-item">
                     <strong>Price Session</strong>
-                    <span>2026-11-13</span>
+                    <span>2026-11-16</span>
                 </div>
                 <div class="trust-item">
                     <strong>Earnings Period</strong>
@@ -802,6 +797,6 @@
 </style>
 
 
-    <script type="application/json" id="companyValuationPayload">{"identity_status":"RESOLVED","metrics":{"DIVIDEND_YIELD":{"financial_period_end":null,"financial_period_start":null,"price_as_of":null,"reason":"DIVIDEND_WINDOW_COMPLETENESS_UNVERIFIED","scope":null,"share_count_effective_from":null,"status":"UNAVAILABLE","unit":"PERCENT","value":null},"EV_EBITDA":{"financial_period_end":null,"financial_period_start":null,"price_as_of":null,"reason":"MISSING_BALANCE_SHEET_OR_MARKET_CAP","scope":null,"share_count_effective_from":null,"status":"UNAVAILABLE","unit":"MULTIPLE","value":null},"EV_SALES":{"financial_period_end":null,"financial_period_start":null,"price_as_of":null,"reason":"MISSING_BALANCE_SHEET_OR_MARKET_CAP","scope":null,"share_count_effective_from":null,"status":"UNAVAILABLE","unit":"MULTIPLE","value":null},"FCF_YIELD":{"financial_period_end":null,"financial_period_start":null,"price_as_of":null,"reason":"MISSING_CERTIFIED_INPUT","scope":null,"share_count_effective_from":null,"status":"UNAVAILABLE","unit":"PERCENT","value":null},"MARKET_CAP":{"financial_period_end":null,"financial_period_start":null,"price_as_of":"2026-11-13","reason":"MISSING_CERTIFIED_CURRENT_SHARE_STATE","scope":null,"share_count_effective_from":null,"status":"UNAVAILABLE","unit":"INR","value":null},"P_B":{"financial_period_end":"2026-03-31","financial_period_start":null,"price_as_of":"2026-11-13","reason":"MISSING_CERTIFIED_CURRENT_SHARE_STATE","scope":"CONSOLIDATED","share_count_effective_from":null,"status":"UNAVAILABLE","unit":"MULTIPLE","value":null},"P_E":{"financial_period_end":"2026-06-30","financial_period_start":null,"price_as_of":"2026-11-13","reason":"MISSING_CERTIFIED_CURRENT_SHARE_STATE","scope":"CONSOLIDATED","share_count_effective_from":null,"status":"UNAVAILABLE","unit":"MULTIPLE","value":null}},"scope":"CONSOLIDATED","symbol":"COFORGE","valuation_date":"2026-11-13"}</script>
+    <script type="application/json" id="companyValuationPayload">{"identity_status":"RESOLVED","metrics":{"DIVIDEND_YIELD":{"financial_period_end":null,"financial_period_start":null,"price_as_of":null,"reason":"DIVIDEND_WINDOW_COMPLETENESS_UNVERIFIED","scope":null,"share_count_effective_from":null,"status":"UNAVAILABLE","unit":"PERCENT","value":null},"EV_EBITDA":{"financial_period_end":null,"financial_period_start":null,"price_as_of":null,"reason":"MISSING_BALANCE_SHEET_OR_MARKET_CAP","scope":null,"share_count_effective_from":null,"status":"UNAVAILABLE","unit":"MULTIPLE","value":null},"EV_SALES":{"financial_period_end":null,"financial_period_start":null,"price_as_of":null,"reason":"MISSING_BALANCE_SHEET_OR_MARKET_CAP","scope":null,"share_count_effective_from":null,"status":"UNAVAILABLE","unit":"MULTIPLE","value":null},"FCF_YIELD":{"financial_period_end":null,"financial_period_start":null,"price_as_of":null,"reason":"MISSING_CERTIFIED_INPUT","scope":null,"share_count_effective_from":null,"status":"UNAVAILABLE","unit":"PERCENT","value":null},"MARKET_CAP":{"financial_period_end":null,"financial_period_start":null,"price_as_of":"2026-11-16","reason":"MISSING_CERTIFIED_CURRENT_SHARE_STATE","scope":null,"share_count_effective_from":null,"status":"UNAVAILABLE","unit":"INR","value":null},"P_B":{"financial_period_end":"2026-03-31","financial_period_start":null,"price_as_of":"2026-11-16","reason":"MISSING_CERTIFIED_CURRENT_SHARE_STATE","scope":"CONSOLIDATED","share_count_effective_from":null,"status":"UNAVAILABLE","unit":"MULTIPLE","value":null},"P_E":{"financial_period_end":"2026-06-30","financial_period_start":null,"price_as_of":"2026-11-16","reason":"MISSING_CERTIFIED_CURRENT_SHARE_STATE","scope":"CONSOLIDATED","share_count_effective_from":null,"status":"UNAVAILABLE","unit":"MULTIPLE","value":null}},"scope":"CONSOLIDATED","symbol":"COFORGE","valuation_date":"2026-11-16"}</script>
 </body>
 </html>

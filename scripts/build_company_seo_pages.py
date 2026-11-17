@@ -162,7 +162,9 @@ def build_view_model(company_meta: dict, dossier: dict, u_map: dict | None = Non
 
     # Sector resolution
     u_sec = (u_map or {}).get(symbol) or company_meta.get("sector")
-    sector_display = u_sec if (u_sec and u_sec != "EQUITY") else (dossier.get("sector") if dossier.get("sector") != "EQUITY" else "Public Equity")
+    sector_display = u_sec or dossier.get('sector')
+    if sector_display in ('EQUITY', 'Public Equity'):
+        sector_display = None
     industry_display = dossier.get("industry") if dossier.get("industry") != "EQ" else "NSE Listed Equity"
 
     # Build structured view model
@@ -360,6 +362,7 @@ def generate_pilot_pages(check_only: bool = False, *, stocks_dir: Path = STOCKS_
                     u_map[row[0]] = row[5]
         except Exception:
             pass
+    u_map.update({symbol: row[5] for symbol, row in market_rows.items() if row[5]})
 
     learn_concepts_dir = ROOT / "content" / "learn" / "concepts"
     learn_concept_urls = [
@@ -422,6 +425,10 @@ def generate_pilot_pages(check_only: bool = False, *, stocks_dir: Path = STOCKS_
                 and identity_verified and identity.get('company_id') == profile.get('issuer_id')):
             verified_profile = profile
         vm = build_view_model(comp, dossier, u_map=u_map, range_row=range_row, profile=verified_profile)
+        freshness = vm['freshness']
+        period = freshness['financial_period_end']
+        vm['reporting_basis'] = (f"Financials through {format_date_str(period)} · {freshness['consolidation_scope'].title()}"
+                                 if period else 'Financial reporting period unavailable')
         vm["footer_html"] = footer_str
         vm["header_html"] = render_header("stocks")
         market_row = market_rows.get(sym)
@@ -449,6 +456,7 @@ def generate_pilot_pages(check_only: bool = False, *, stocks_dir: Path = STOCKS_
         vm['valuation_payload'] = json.dumps(company_valuation, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c')
         if entry.get('status') != 'AVAILABLE':
             vm['coverage_notice'] = 'Verified financial statements are unavailable in this release. Market information is shown with its observation date.'
+            vm['reporting_basis'] = 'Financial reporting period unavailable'
         html_content = render_template(template_str, vm)
         if market_rows:
             sys.path.insert(0, str(ROOT.parent))

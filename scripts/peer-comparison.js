@@ -54,7 +54,15 @@
     return {...c,pe:number(metrics.P_E),pb:number(metrics.P_B),roe:latest('ROE'),valuationDate:valuation.companies[c.symbol]?.valuation_date};
    }));
    const others=details.filter(c=>c.symbol!==symbol);
-   put('bmMcap',others.every(c=>c.mcap!==null)?fmt(others.reduce((s,c)=>s+c.mcap,0)/1e7)+' Cr':'—');put('bmPe',fmt(median(others.map(c=>c.pe)),'×'));put('bmRoe',fmt(median(others.map(c=>c.roe)),'%'));
+   const capCoverage=others.filter(c=>Number.isFinite(c.mcap)).length;
+   const peValues=others.map(c=>c.pe).filter(Number.isFinite);
+   const roeValues=others.map(c=>c.roe).filter(Number.isFinite);
+   put('bmMcap',capCoverage===others.length?fmt(others.reduce((sum,c)=>sum+c.mcap,0)/1e7)+' Cr':'—');
+   put('bmPe',fmt(median(peValues),'×'));
+   put('bmRoe',fmt(median(roeValues),'%'));
+   put('peerPeCoverage',`${peValues.length} of ${others.length} shown peers have verified P/E`);
+   put('peerRoeCoverage',`${roeValues.length} of ${others.length} shown peers have verified ROE`);
+   put('peerMcapCoverage',`${capCoverage} of ${others.length} shown peers have verified market cap`);
    put('peersCount',`${others.length} comparable companies + selected company · ${candidates.length} classified companies in total`);
    const headers=document.querySelectorAll('thead th');if(headers.length===7){headers[5].textContent='P/B (x)';headers[6].textContent='Quote date';}
    const companyLinks = await Promise.all(details.map(c => root.StockerboardCompanyRoutes?.companyUrl(c.symbol)));

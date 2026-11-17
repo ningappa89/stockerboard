@@ -51,6 +51,7 @@
             button.setAttribute('data-tab-name', entry.name);
             entry.el.setAttribute('role', 'tabpanel');
             entry.el.setAttribute('aria-labelledby', button.id);
+            entry.el.tabIndex = 0;
             entry.el.classList.add('research-company-panel');
             button.onclick = () => activate(i, true);
             button.onkeydown = event => {
@@ -65,14 +66,6 @@
             tabs.append(button);
             return button;
         });
-
-        // Advanced PRO link pill
-        const proPill = document.createElement('a');
-        proPill.href = '/?mode=pro';
-        proPill.className = 'tab-item pro-pill';
-        proPill.style.cssText = 'margin-left:auto;text-decoration:none;font-size:0.85rem;font-weight:600;padding:6px 14px;border-radius:999px;background:var(--surface-elevated, #f1f5f9);color:var(--text-secondary, #64748b);border:1px solid var(--border, #e2e8f0);display:inline-flex;align-items:center;gap:4px;white-space:nowrap;';
-        proPill.textContent = 'Advanced PRO ↗';
-        tabs.append(proPill);
 
         function activate(index, updateUrl = false) {
             panelEntries.forEach((entry, i) => {

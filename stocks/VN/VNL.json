@@ -129,46 +129,54 @@
       "open": 119.0,
       "time": "2026-11-13",
       "volume": 100556
+    },
+    {
+      "close": 118.08,
+      "high": 119.29,
+      "low": 116.5,
+      "open": 116.5,
+      "time": "2026-11-16",
+      "volume": 125409
     }
   ],
   "company_name": "Vishal Nirmiti Limited",
   "history": {
     "first_session": "2026-10-23",
     "has_full_52w_history": false,
-    "last_session": "2026-11-13",
-    "sessions_available": 16
+    "last_session": "2026-11-16",
+    "sessions_available": 17
   },
   "industry": null,
   "isin": "INE1O5L01025",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 84,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.19x"
+    "momentum_score": 81,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.25x"
   },
   "price": {
-    "as_of": "2026-11-13",
-    "change": 1.35,
-    "change_pct": 1.13,
-    "close": 120.77,
-    "previous_close": 119.42,
+    "as_of": "2026-11-16",
+    "change": -2.69,
+    "change_pct": -2.23,
+    "close": 118.08,
+    "previous_close": 120.77,
     "type": "EOD_CLOSE",
-    "volume": 100556
+    "volume": 125409
   },
   "range": {
-    "distance_from_high_pct": -3.38,
-    "distance_from_low_pct": 35.41,
+    "distance_from_high_pct": -5.53,
+    "distance_from_low_pct": 32.39,
     "high_52w": 124.99,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 89.19,
-    "range_position_pct": 88.21
+    "range_position_pct": 80.7
   },
   "risk_model": {
-    "invalidation_floor": 116.54,
-    "risk_per_share": 6.65,
-    "technical_pivot": 123.19
+    "invalidation_floor": 113.95,
+    "risk_per_share": 6.49,
+    "technical_pivot": 120.44
   },
   "schema_version": "1.0",
   "sector": null,

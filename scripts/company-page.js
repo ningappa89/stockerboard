@@ -6,7 +6,7 @@ function toggleTheme() {
     localStorage.setItem('stockerboard_theme', next);
 }
 async function loadCompanyValuation(symbol) {
-    const status = document.getElementById('companyValuationStatus');
+    const statuses = document.querySelectorAll('[data-valuation-release]');
     try {
         const company = JSON.parse(document.getElementById('companyValuationPayload').textContent);
         if (company?.symbol !== symbol) throw new Error('No valuation entry for this company');
@@ -16,7 +16,7 @@ async function loadCompanyValuation(symbol) {
             if (metric?.status !== 'AVAILABLE' || !Number.isFinite(metric.value)) continue;
             const value = key === 'MARKET_CAP' ? metric.value / 1e7 : metric.value;
             const display = value.toLocaleString('en-IN', { maximumFractionDigits: 2 });
-            node.textContent = key === 'MARKET_CAP' ? `₹${display} Cr` : `${display}${key.endsWith('_YIELD') ? '%' : '×'}`;
+            node.textContent = key === 'MARKET_CAP' ? display : `${display}${key.endsWith('_YIELD') ? '%' : '×'}`;
         }
         for (const node of document.querySelectorAll('[data-valuation-basis]')) {
             const metric = company.metrics[node.dataset.valuationBasis];
@@ -28,9 +28,9 @@ async function loadCompanyValuation(symbol) {
                 metric.financial_period_end && `Period ended ${metric.financial_period_end}`,
                 metric.scope && metric.scope.toLowerCase()].filter(Boolean).join(' · ');
         }
-        status.textContent = `Valuation release · ${company.valuation_date}`;
+        statuses.forEach(node => { node.textContent = `Valuation release · ${company.valuation_date}`; });
     } catch (error) {
-        status.textContent = 'Certified valuation data is unavailable. Reload to retry.';
+        statuses.forEach(node => { node.textContent = 'Certified valuation data is unavailable. Reload to retry.'; });
     }
 }
 
@@ -98,7 +98,7 @@ async function loadPriceHistory(symbol) {
         const data = await StockerboardData.priceHistory(symbol, expectedDate);
         if (data.candles && data.candles.length > 1) {
             allCandles = data.candles;
-            renderChart('1Y');
+            renderChart(currentTimeframe);
         } else {
             const note = document.getElementById('chartFootnote');
             if (note) note.textContent = data.history_error || 'Insufficient published price history for chart.';
@@ -112,19 +112,28 @@ async function loadPriceHistory(symbol) {
 
 function setTimeframe(tf) {
     currentTimeframe = tf;
-    document.querySelectorAll('.time-btn').forEach(b => b.classList.toggle('active', b.textContent.trim() === tf));
+    document.querySelectorAll('.time-btn').forEach(button => {
+        const selected = button.textContent.trim() === tf;
+        button.classList.toggle('active', selected);
+        button.setAttribute('aria-pressed', String(selected));
+    });
     renderChart(tf);
 }
 
 function renderChart(tf) {
     if (!allCandles || allCandles.length < 2) return;
+    const svg = document.getElementById('chartSvg');
+    const { clientWidth: width, clientHeight: height } = svg;
+    if (!width || !height) return;
+    svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
     let candles = allCandles;
     if (tf === '1M') candles = allCandles.slice(-22);
     else if (tf === '6M') candles = allCandles.slice(-126);
     else if (tf === '1Y') candles = allCandles.slice(-252);
     if (candles.length < 2) candles = allCandles.slice(-22);
 
-    const width = 680, height = 200, startX = 68, plotWidth = width - startX - 10, topY = 20, plotHeight = 150, baselineY = topY + plotHeight;
+    const startX = 70, plotWidth = width - startX - 12, topY = 20, baselineY = height - 30;
+    const plotHeight = baselineY - topY;
     const closes = candles.map(c => c.close);
     const minP = Math.min(...closes), maxP = Math.max(...closes);
     const span = maxP - minP || 10;
@@ -154,9 +163,9 @@ function renderChart(tf) {
             line.setAttribute('stroke', 'var(--border)'); line.setAttribute('stroke-width', '1');
             gridG.appendChild(line);
             const txt = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-            txt.setAttribute('x', '0'); txt.setAttribute('y', yPos + 4); txt.setAttribute('fill', 'var(--text-muted)');
-            txt.setAttribute('font-size', '10'); txt.setAttribute('font-family', 'var(--font)');
-            txt.textContent = '₹' + tickVal.toLocaleString('en-IN');
+            txt.setAttribute('x', '8'); txt.setAttribute('y', yPos + 4); txt.setAttribute('fill', 'var(--text-muted)');
+            txt.setAttribute('font-size', '11'); txt.setAttribute('font-family', 'var(--font)');
+            txt.textContent = '₹' + tickVal.toLocaleString('en-IN', { maximumFractionDigits: 2 });
             gridG.appendChild(txt);
         });
     }
@@ -182,36 +191,37 @@ function renderChart(tf) {
     const xG = document.getElementById('chartXAxis');
     if (xG) {
         xG.innerHTML = '';
-        const stepIdx = Math.floor(count / 4);
-        const dateIndices = [...new Set([0, stepIdx, stepIdx * 2, stepIdx * 3, count - 1])];
+        const ticks = width < 500 ? 3 : 5;
+        const dateIndices = [...new Set(Array.from({length: ticks}, (_, i) => Math.round(i * (count - 1) / (ticks - 1))))];
+        const dateFormat = tf === '1M' ? {month:'short',day:'numeric'} : {month:'short',year:'numeric'};
         dateIndices.forEach((cIdx, i) => {
             const c = candles[cIdx]; if (!c) return;
             const x = startX + (cIdx / (count - 1)) * plotWidth;
             const dObj = new Date(c.time);
-            const label = dObj.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+            const label = dObj.toLocaleDateString('en-IN', dateFormat);
             const txt = document.createElementNS('http://www.w3.org/2000/svg', 'text');
             txt.setAttribute('x', x); txt.setAttribute('y', baselineY + 16);
             txt.setAttribute('text-anchor', i === 0 ? 'start' : i === dateIndices.length - 1 ? 'end' : 'middle');
-            txt.setAttribute('fill', 'var(--text-muted)'); txt.setAttribute('font-size', '10'); txt.setAttribute('font-family', 'var(--font)');
+            txt.setAttribute('fill', 'var(--text-muted)'); txt.setAttribute('font-size', '11'); txt.setAttribute('font-family', 'var(--font)');
             txt.textContent = label;
             xG.appendChild(txt);
         });
     }
 
-    initChartHover(startX, startX + plotWidth);
+    initChartHover(svg, startX, startX + plotWidth);
 }
 
-function initChartHover(minX, maxX) {
+function initChartHover(svg, minX, maxX) {
     const box = document.getElementById('chartBox');
     const tooltip = document.getElementById('chartTooltip');
     const hoverLine = document.getElementById('hoverLine');
     const hoverPin = document.getElementById('hoverPin');
     if (!box || !tooltip || !hoverLine || !hoverPin) return;
 
-    box.onmousemove = (e) => {
+    const showPoint = (e) => {
         if (!currentPlotCoords || currentPlotCoords.length === 0) return;
-        const rect = box.getBoundingClientRect();
-        const mouseX = ((e.clientX - rect.left) / rect.width) * 680;
+        const rect = svg.getBoundingClientRect();
+        const mouseX = ((e.clientX - rect.left) / rect.width) * svg.viewBox.baseVal.width;
         if (mouseX < minX || mouseX > maxX) {
             tooltip.style.display = 'none';
             hoverLine.setAttribute('opacity', '0');
@@ -238,11 +248,13 @@ function initChartHover(minX, maxX) {
         const dateStr = dObj.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' });
         tooltip.innerText = `₹${closest.price.toFixed(2)} · ${dateStr}`;
         tooltip.style.display = 'block';
-        const boxX = (closest.x / 680) * rect.width;
-        tooltip.style.left = Math.min(boxX + 10, rect.width - 130) + 'px';
+        const boxX = (closest.x / svg.viewBox.baseVal.width) * rect.width;
+        tooltip.style.left = Math.max(4, Math.min(boxX + 10, rect.width - tooltip.offsetWidth - 4)) + 'px';
         tooltip.style.top = '12px';
     };
-    box.onmouseleave = () => {
+    box.onpointermove = showPoint;
+    box.onpointerdown = showPoint;
+    box.onpointerleave = () => {
         tooltip.style.display = 'none';
         hoverLine.setAttribute('opacity', '0');
         hoverPin.setAttribute('opacity', '0');
@@ -251,6 +263,15 @@ function initChartHover(minX, maxX) {
 
 document.addEventListener('DOMContentLoaded', () => {
     const symbol = document.querySelector('[data-research-company]').dataset.symbol;
-    loadPriceHistory(symbol);
+    let priceHistoryRequested = false;
+    new ResizeObserver(([entry]) => {
+        if (!entry.contentRect.width) return;
+        if (!priceHistoryRequested) {
+            priceHistoryRequested = true;
+            loadPriceHistory(symbol);
+        } else {
+            renderChart(currentTimeframe);
+        }
+    }).observe(document.getElementById('chartBox'));
     loadCompanyValuation(symbol);
 });
