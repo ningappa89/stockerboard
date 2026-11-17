@@ -3,6 +3,86 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
+      "close": 107.42,
+      "high": 107.42,
+      "low": 102.31,
+      "open": 102.31,
+      "time": "2026-09-24",
+      "volume": 2223139
+    },
+    {
+      "close": 102.05,
+      "high": 104.0,
+      "low": 102.05,
+      "open": 104.0,
+      "time": "2026-09-25",
+      "volume": 959922
+    },
+    {
+      "close": 96.95,
+      "high": 100.6,
+      "low": 96.95,
+      "open": 100.1,
+      "time": "2026-09-28",
+      "volume": 513848
+    },
+    {
+      "close": 98.41,
+      "high": 99.99,
+      "low": 96.1,
+      "open": 96.1,
+      "time": "2026-09-29",
+      "volume": 378373
+    },
+    {
+      "close": 96.03,
+      "high": 99.7,
+      "low": 95.2,
+      "open": 97.98,
+      "time": "2026-09-30",
+      "volume": 197715
+    },
+    {
+      "close": 92.47,
+      "high": 97.0,
+      "low": 91.5,
+      "open": 95.5,
+      "time": "2026-10-01",
+      "volume": 238440
+    },
+    {
+      "close": 92.6,
+      "high": 93.45,
+      "low": 88.1,
+      "open": 91.0,
+      "time": "2026-10-05",
+      "volume": 144824
+    },
+    {
+      "close": 94.08,
+      "high": 96.5,
+      "low": 90.02,
+      "open": 92.0,
+      "time": "2026-10-06",
+      "volume": 64268
+    },
+    {
+      "close": 98.78,
+      "high": 98.78,
+      "low": 94.55,
+      "open": 95.88,
+      "time": "2026-10-07",
+      "volume": 93761
+    },
+    {
+      "close": 99.77,
+      "high": 103.0,
+      "low": 97.0,
+      "open": 103.0,
+      "time": "2026-10-08",
+      "volume": 127288
+    },
+    {
       "close": 97.88,
       "high": 102.0,
       "low": 95.41,
@@ -209,46 +289,54 @@
       "open": 122.92,
       "time": "2026-11-16",
       "volume": 570678
+    },
+    {
+      "close": 125.53,
+      "high": 129.94,
+      "low": 118.2,
+      "open": 118.2,
+      "time": "2026-11-17",
+      "volume": 1117151
     }
   ],
   "company_name": "Sonaselection India Limited",
   "history": {
-    "first_session": "2026-10-09",
+    "first_session": "2026-09-24",
     "has_full_52w_history": false,
-    "last_session": "2026-11-16",
-    "sessions_available": 26
+    "last_session": "2026-11-17",
+    "sessions_available": 37
   },
   "industry": null,
   "isin": "INE0LLZ01011",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": false,
+    "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 82,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.43x"
+    "momentum_score": 84,
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "2.47x"
   },
   "price": {
-    "as_of": "2026-11-16",
-    "change": -1.61,
-    "change_pct": -1.33,
-    "close": 119.33,
-    "previous_close": 120.94,
+    "as_of": "2026-11-17",
+    "change": 6.2,
+    "change_pct": 5.2,
+    "close": 125.53,
+    "previous_close": 119.33,
     "type": "EOD_CLOSE",
-    "volume": 570678
+    "volume": 1117151
   },
   "range": {
-    "distance_from_high_pct": -5.22,
-    "distance_from_low_pct": 31.33,
-    "high_52w": 125.9,
+    "distance_from_high_pct": -3.39,
+    "distance_from_low_pct": 42.49,
+    "high_52w": 129.94,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 90.86,
-    "range_position_pct": 81.25
+    "low_52w": 88.1,
+    "range_position_pct": 89.46
   },
   "risk_model": {
-    "invalidation_floor": 115.15,
-    "risk_per_share": 6.57,
-    "technical_pivot": 121.72
+    "invalidation_floor": 121.14,
+    "risk_per_share": 6.9,
+    "technical_pivot": 128.04
   },
   "schema_version": "1.0",
   "sector": null,

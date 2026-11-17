@@ -3,6 +3,86 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
+      "close": 146.3,
+      "high": 154.0,
+      "low": 146.3,
+      "open": 154.0,
+      "time": "2026-09-18",
+      "volume": 5227484
+    },
+    {
+      "close": 141.84,
+      "high": 143.02,
+      "low": 138.99,
+      "open": 142.0,
+      "time": "2026-09-21",
+      "volume": 1107338
+    },
+    {
+      "close": 139.84,
+      "high": 140.95,
+      "low": 135.2,
+      "open": 138.99,
+      "time": "2026-09-22",
+      "volume": 548154
+    },
+    {
+      "close": 142.87,
+      "high": 144.0,
+      "low": 139.99,
+      "open": 139.99,
+      "time": "2026-09-23",
+      "volume": 939901
+    },
+    {
+      "close": 142.38,
+      "high": 145.8,
+      "low": 140.9,
+      "open": 141.5,
+      "time": "2026-09-24",
+      "volume": 866388
+    },
+    {
+      "close": 141.16,
+      "high": 145.0,
+      "low": 140.0,
+      "open": 143.2,
+      "time": "2026-09-25",
+      "volume": 204051
+    },
+    {
+      "close": 140.62,
+      "high": 143.8,
+      "low": 138.5,
+      "open": 141.2,
+      "time": "2026-09-28",
+      "volume": 159386
+    },
+    {
+      "close": 141.17,
+      "high": 141.9,
+      "low": 138.05,
+      "open": 139.0,
+      "time": "2026-09-29",
+      "volume": 98618
+    },
+    {
+      "close": 142.41,
+      "high": 143.8,
+      "low": 141.0,
+      "open": 141.2,
+      "time": "2026-09-30",
+      "volume": 204231
+    },
+    {
+      "close": 141.79,
+      "high": 143.46,
+      "low": 139.55,
+      "open": 142.39,
+      "time": "2026-10-01",
+      "volume": 121565
+    },
+    {
       "close": 144.74,
       "high": 149.75,
       "low": 142.42,
@@ -241,14 +321,22 @@
       "open": 142.29,
       "time": "2026-11-16",
       "volume": 201640
+    },
+    {
+      "close": 138.96,
+      "high": 144.0,
+      "low": 136.28,
+      "open": 138.9,
+      "time": "2026-11-17",
+      "volume": 526130
     }
   ],
   "company_name": "Veegaland Developers Limited",
   "history": {
-    "first_session": "2026-10-05",
+    "first_session": "2026-09-18",
     "has_full_52w_history": false,
-    "last_session": "2026-11-16",
-    "sessions_available": 30
+    "last_session": "2026-11-17",
+    "sessions_available": 41
   },
   "industry": null,
   "isin": "INE1JTV01015",
@@ -256,31 +344,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 73,
+    "momentum_score": 75,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.73x"
+    "volume_multiplier": "1.83x"
   },
   "price": {
-    "as_of": "2026-11-16",
-    "change": -5.28,
-    "change_pct": -3.7,
-    "close": 137.32,
-    "previous_close": 142.6,
+    "as_of": "2026-11-17",
+    "change": 1.64,
+    "change_pct": 1.19,
+    "close": 138.96,
+    "previous_close": 137.32,
     "type": "EOD_CLOSE",
-    "volume": 201640
+    "volume": 526130
   },
   "range": {
-    "distance_from_high_pct": -10.72,
-    "distance_from_low_pct": 10.74,
-    "high_52w": 153.8,
+    "distance_from_high_pct": -9.77,
+    "distance_from_low_pct": 12.06,
+    "high_52w": 154.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 124.0,
-    "range_position_pct": 44.7
+    "range_position_pct": 49.87
   },
   "risk_model": {
-    "invalidation_floor": 132.51,
-    "risk_per_share": 7.56,
-    "technical_pivot": 140.07
+    "invalidation_floor": 134.1,
+    "risk_per_share": 7.64,
+    "technical_pivot": 141.74
   },
   "schema_version": "1.0",
   "sector": null,

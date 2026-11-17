@@ -3,6 +3,86 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
+      "close": 210.0,
+      "high": 210.0,
+      "low": 200.0,
+      "open": 200.0,
+      "time": "2026-09-30",
+      "volume": 3274663
+    },
+    {
+      "close": 215.53,
+      "high": 220.5,
+      "low": 199.5,
+      "open": 202.5,
+      "time": "2026-10-01",
+      "volume": 2043335
+    },
+    {
+      "close": 208.47,
+      "high": 215.0,
+      "low": 204.76,
+      "open": 208.1,
+      "time": "2026-10-05",
+      "volume": 435758
+    },
+    {
+      "close": 200.13,
+      "high": 217.0,
+      "low": 198.05,
+      "open": 205.0,
+      "time": "2026-10-06",
+      "volume": 445285
+    },
+    {
+      "close": 210.13,
+      "high": 210.13,
+      "low": 202.0,
+      "open": 209.8,
+      "time": "2026-10-07",
+      "volume": 273452
+    },
+    {
+      "close": 220.61,
+      "high": 220.63,
+      "low": 215.0,
+      "open": 220.63,
+      "time": "2026-10-08",
+      "volume": 705500
+    },
+    {
+      "close": 219.37,
+      "high": 230.7,
+      "low": 209.58,
+      "open": 209.58,
+      "time": "2026-10-09",
+      "volume": 360978
+    },
+    {
+      "close": 209.38,
+      "high": 220.0,
+      "low": 208.41,
+      "open": 210.6,
+      "time": "2026-10-12",
+      "volume": 185565
+    },
+    {
+      "close": 204.31,
+      "high": 210.0,
+      "low": 201.16,
+      "open": 207.5,
+      "time": "2026-10-13",
+      "volume": 96391
+    },
+    {
+      "close": 214.52,
+      "high": 214.52,
+      "low": 202.0,
+      "open": 202.0,
+      "time": "2026-10-14",
+      "volume": 116623
+    },
+    {
       "close": 225.51,
       "high": 239.0,
       "low": 219.0,
@@ -177,14 +257,22 @@
       "open": 195.11,
       "time": "2026-11-16",
       "volume": 97376
+    },
+    {
+      "close": 191.71,
+      "high": 198.0,
+      "low": 188.0,
+      "open": 194.1,
+      "time": "2026-11-17",
+      "volume": 184974
     }
   ],
   "company_name": "Swastika Infra Limited",
   "history": {
-    "first_session": "2026-10-15",
+    "first_session": "2026-09-30",
     "has_full_52w_history": false,
-    "last_session": "2026-11-16",
-    "sessions_available": 22
+    "last_session": "2026-11-17",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE1QJA01015",
@@ -192,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 51,
+    "momentum_score": 52,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.22x"
+    "volume_multiplier": "0.58x"
   },
   "price": {
-    "as_of": "2026-11-16",
-    "change": -4.49,
-    "change_pct": -2.32,
-    "close": 189.2,
-    "previous_close": 193.69,
+    "as_of": "2026-11-17",
+    "change": 2.51,
+    "change_pct": 1.33,
+    "close": 191.71,
+    "previous_close": 189.2,
     "type": "EOD_CLOSE",
-    "volume": 97376
+    "volume": 184974
   },
   "range": {
-    "distance_from_high_pct": -25.72,
-    "distance_from_low_pct": 1.39,
+    "distance_from_high_pct": -24.73,
+    "distance_from_low_pct": 2.74,
     "high_52w": 254.7,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 186.6,
-    "range_position_pct": 3.82
+    "range_position_pct": 7.5
   },
   "risk_model": {
-    "invalidation_floor": 182.58,
-    "risk_per_share": 10.4,
-    "technical_pivot": 192.98
+    "invalidation_floor": 185.0,
+    "risk_per_share": 10.54,
+    "technical_pivot": 195.54
   },
   "schema_version": "1.0",
   "sector": null,

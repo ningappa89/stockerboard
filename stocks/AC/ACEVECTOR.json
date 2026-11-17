@@ -241,14 +241,22 @@
       "open": 21.8,
       "time": "2026-11-16",
       "volume": 3927526
+    },
+    {
+      "close": 20.85,
+      "high": 21.2,
+      "low": 20.36,
+      "open": 21.11,
+      "time": "2026-11-17",
+      "volume": 2184881
     }
   ],
   "company_name": "AceVector Limited",
   "history": {
     "first_session": "2026-10-05",
     "has_full_52w_history": false,
-    "last_session": "2026-11-16",
-    "sessions_available": 30
+    "last_session": "2026-11-17",
+    "sessions_available": 31
   },
   "industry": null,
   "isin": "INE580P01029",
@@ -258,29 +266,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.58x"
+    "volume_multiplier": "0.33x"
   },
   "price": {
-    "as_of": "2026-11-16",
-    "change": -0.13,
-    "change_pct": -0.61,
-    "close": 21.21,
-    "previous_close": 21.34,
+    "as_of": "2026-11-17",
+    "change": -0.36,
+    "change_pct": -1.7,
+    "close": 20.85,
+    "previous_close": 21.21,
     "type": "EOD_CLOSE",
-    "volume": 3927526
+    "volume": 2184881
   },
   "range": {
-    "distance_from_high_pct": -36.25,
-    "distance_from_low_pct": 21.13,
+    "distance_from_high_pct": -37.33,
+    "distance_from_low_pct": 19.07,
     "high_52w": 33.27,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 17.51,
-    "range_position_pct": 23.48
+    "range_position_pct": 21.19
   },
   "risk_model": {
-    "invalidation_floor": 20.47,
-    "risk_per_share": 1.16,
-    "technical_pivot": 21.63
+    "invalidation_floor": 20.12,
+    "risk_per_share": 1.15,
+    "technical_pivot": 21.27
   },
   "schema_version": "1.0",
   "sector": null,

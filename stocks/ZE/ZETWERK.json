@@ -137,14 +137,22 @@
       "open": 179.25,
       "time": "2026-11-16",
       "volume": 3581992
+    },
+    {
+      "close": 176.31,
+      "high": 177.39,
+      "low": 168.31,
+      "open": 173.98,
+      "time": "2026-11-17",
+      "volume": 3105113
     }
   ],
   "company_name": "Zetwerk Manufacturing Businesses Limited",
   "history": {
     "first_session": "2026-10-23",
     "has_full_52w_history": false,
-    "last_session": "2026-11-16",
-    "sessions_available": 17
+    "last_session": "2026-11-17",
+    "sessions_available": 18
   },
   "industry": null,
   "isin": "INE09PO01019",
@@ -152,31 +160,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 78,
+    "momentum_score": 80,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.2x"
+    "volume_multiplier": "0.18x"
   },
   "price": {
-    "as_of": "2026-11-16",
-    "change": -10.56,
-    "change_pct": -5.72,
-    "close": 173.97,
-    "previous_close": 184.53,
+    "as_of": "2026-11-17",
+    "change": 2.34,
+    "change_pct": 1.35,
+    "close": 176.31,
+    "previous_close": 173.97,
     "type": "EOD_CLOSE",
-    "volume": 3581992
+    "volume": 3105113
   },
   "range": {
-    "distance_from_high_pct": -7.71,
-    "distance_from_low_pct": 36.55,
+    "distance_from_high_pct": -6.47,
+    "distance_from_low_pct": 38.39,
     "high_52w": 188.5,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 127.4,
-    "range_position_pct": 76.22
+    "range_position_pct": 80.05
   },
   "risk_model": {
-    "invalidation_floor": 167.88,
-    "risk_per_share": 9.57,
-    "technical_pivot": 177.45
+    "invalidation_floor": 170.14,
+    "risk_per_share": 9.7,
+    "technical_pivot": 179.84
   },
   "schema_version": "1.0",
   "sector": null,

@@ -3,6 +3,86 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
+      "close": 43.14,
+      "high": 43.5,
+      "low": 40.85,
+      "open": 43.0,
+      "time": "2026-09-21",
+      "volume": 9360527
+    },
+    {
+      "close": 41.79,
+      "high": 42.95,
+      "low": 41.25,
+      "open": 42.25,
+      "time": "2026-09-22",
+      "volume": 914028
+    },
+    {
+      "close": 42.58,
+      "high": 42.97,
+      "low": 39.71,
+      "open": 40.2,
+      "time": "2026-09-23",
+      "volume": 2991728
+    },
+    {
+      "close": 41.46,
+      "high": 42.57,
+      "low": 41.1,
+      "open": 42.0,
+      "time": "2026-09-24",
+      "volume": 559031
+    },
+    {
+      "close": 42.32,
+      "high": 42.53,
+      "low": 40.0,
+      "open": 40.46,
+      "time": "2026-09-25",
+      "volume": 513169
+    },
+    {
+      "close": 41.37,
+      "high": 43.0,
+      "low": 40.55,
+      "open": 41.99,
+      "time": "2026-09-28",
+      "volume": 1018884
+    },
+    {
+      "close": 41.83,
+      "high": 42.2,
+      "low": 40.0,
+      "open": 41.0,
+      "time": "2026-09-29",
+      "volume": 315655
+    },
+    {
+      "close": 42.34,
+      "high": 43.52,
+      "low": 40.99,
+      "open": 42.0,
+      "time": "2026-09-30",
+      "volume": 934281
+    },
+    {
+      "close": 41.98,
+      "high": 43.1,
+      "low": 41.0,
+      "open": 42.0,
+      "time": "2026-10-01",
+      "volume": 397420
+    },
+    {
+      "close": 43.11,
+      "high": 43.5,
+      "low": 41.0,
+      "open": 41.98,
+      "time": "2026-10-05",
+      "volume": 672015
+    },
+    {
       "close": 51.52,
       "high": 51.73,
       "low": 42.55,
@@ -233,14 +313,22 @@
       "open": 50.04,
       "time": "2026-11-16",
       "volume": 350218
+    },
+    {
+      "close": 46.81,
+      "high": 47.68,
+      "low": 46.5,
+      "open": 47.51,
+      "time": "2026-11-17",
+      "volume": 183625
     }
   ],
   "company_name": "Manika Plastech Limited",
   "history": {
-    "first_session": "2026-10-06",
+    "first_session": "2026-09-21",
     "has_full_52w_history": false,
-    "last_session": "2026-11-16",
-    "sessions_available": 29
+    "last_session": "2026-11-17",
+    "sessions_available": 40
   },
   "industry": null,
   "isin": "INE0KWF01020",
@@ -248,31 +336,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 55,
+    "momentum_score": 54,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "0.37x"
   },
   "price": {
-    "as_of": "2026-11-16",
-    "change": -3.13,
-    "change_pct": -6.21,
-    "close": 47.27,
-    "previous_close": 50.4,
+    "as_of": "2026-11-17",
+    "change": -0.46,
+    "change_pct": -0.97,
+    "close": 46.81,
+    "previous_close": 47.27,
     "type": "EOD_CLOSE",
-    "volume": 350218
+    "volume": 183625
   },
   "range": {
-    "distance_from_high_pct": -22.82,
-    "distance_from_low_pct": 12.55,
+    "distance_from_high_pct": -23.58,
+    "distance_from_low_pct": 17.88,
     "high_52w": 61.25,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 42.0,
-    "range_position_pct": 27.38
+    "low_52w": 39.71,
+    "range_position_pct": 32.96
   },
   "risk_model": {
-    "invalidation_floor": 45.62,
-    "risk_per_share": 2.6,
-    "technical_pivot": 48.22
+    "invalidation_floor": 45.17,
+    "risk_per_share": 2.58,
+    "technical_pivot": 47.75
   },
   "schema_version": "1.0",
   "sector": null,

@@ -249,14 +249,22 @@
       "open": 58.15,
       "time": "2026-11-16",
       "volume": 81014305
+    },
+    {
+      "close": 57.93,
+      "high": 60.55,
+      "low": 57.66,
+      "open": 58.6,
+      "time": "2026-11-17",
+      "volume": 53848773
     }
   ],
   "company_name": "Moneyview Limited",
   "history": {
     "first_session": "2026-10-01",
     "has_full_52w_history": false,
-    "last_session": "2026-11-16",
-    "sessions_available": 31
+    "last_session": "2026-11-17",
+    "sessions_available": 32
   },
   "industry": null,
   "isin": "INE0PTN01011",
@@ -264,31 +272,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 75,
+    "momentum_score": 72,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.99x"
+    "volume_multiplier": "0.66x"
   },
   "price": {
-    "as_of": "2026-11-16",
-    "change": 0.96,
-    "change_pct": 1.65,
-    "close": 59.11,
-    "previous_close": 58.15,
+    "as_of": "2026-11-17",
+    "change": -1.18,
+    "change_pct": -2.0,
+    "close": 57.93,
+    "previous_close": 59.11,
     "type": "EOD_CLOSE",
-    "volume": 81014305
+    "volume": 53848773
   },
   "range": {
-    "distance_from_high_pct": -9.71,
-    "distance_from_low_pct": 29.17,
+    "distance_from_high_pct": -11.52,
+    "distance_from_low_pct": 26.6,
     "high_52w": 65.47,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 45.76,
-    "range_position_pct": 67.73
+    "range_position_pct": 61.75
   },
   "risk_model": {
-    "invalidation_floor": 57.04,
-    "risk_per_share": 3.25,
-    "technical_pivot": 60.29
+    "invalidation_floor": 55.9,
+    "risk_per_share": 3.19,
+    "technical_pivot": 59.09
   },
   "schema_version": "1.0",
   "sector": null,

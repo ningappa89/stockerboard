@@ -3,6 +3,86 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
+      "close": 228.34,
+      "high": 239.0,
+      "low": 227.32,
+      "open": 239.0,
+      "time": "2026-09-08",
+      "volume": 1823943
+    },
+    {
+      "close": 229.81,
+      "high": 236.0,
+      "low": 216.93,
+      "open": 222.0,
+      "time": "2026-09-09",
+      "volume": 420436
+    },
+    {
+      "close": 218.97,
+      "high": 227.0,
+      "low": 218.32,
+      "open": 227.0,
+      "time": "2026-09-10",
+      "volume": 118759
+    },
+    {
+      "close": 224.96,
+      "high": 226.25,
+      "low": 208.03,
+      "open": 217.0,
+      "time": "2026-09-11",
+      "volume": 118302
+    },
+    {
+      "close": 224.88,
+      "high": 229.0,
+      "low": 216.55,
+      "open": 224.96,
+      "time": "2026-09-15",
+      "volume": 121277
+    },
+    {
+      "close": 224.3,
+      "high": 225.9,
+      "low": 214.24,
+      "open": 217.11,
+      "time": "2026-09-16",
+      "volume": 315661
+    },
+    {
+      "close": 216.04,
+      "high": 221.75,
+      "low": 214.6,
+      "open": 221.75,
+      "time": "2026-09-17",
+      "volume": 119613
+    },
+    {
+      "close": 223.73,
+      "high": 226.0,
+      "low": 213.72,
+      "open": 216.04,
+      "time": "2026-09-18",
+      "volume": 90045
+    },
+    {
+      "close": 223.89,
+      "high": 226.0,
+      "low": 220.45,
+      "open": 220.45,
+      "time": "2026-09-21",
+      "volume": 21447
+    },
+    {
+      "close": 228.33,
+      "high": 230.0,
+      "low": 221.02,
+      "open": 223.89,
+      "time": "2026-09-22",
+      "volume": 46009
+    },
+    {
       "close": 227.7,
       "high": 239.0,
       "low": 224.02,
@@ -297,14 +377,22 @@
       "open": 284.0,
       "time": "2026-11-16",
       "volume": 638794
+    },
+    {
+      "close": 293.83,
+      "high": 298.77,
+      "low": 280.61,
+      "open": 284.0,
+      "time": "2026-11-17",
+      "volume": 634244
     }
   ],
   "company_name": "Rays of Belief Limited",
   "history": {
-    "first_session": "2026-09-23",
+    "first_session": "2026-09-08",
     "has_full_52w_history": false,
-    "last_session": "2026-11-16",
-    "sessions_available": 37
+    "last_session": "2026-11-17",
+    "sessions_available": 48
   },
   "industry": null,
   "isin": "INE1FCO01014",
@@ -312,31 +400,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 74,
+    "momentum_score": 79,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.85x"
+    "volume_multiplier": "1.3x"
   },
   "price": {
-    "as_of": "2026-11-16",
-    "change": -1.29,
-    "change_pct": -0.46,
-    "close": 281.86,
-    "previous_close": 283.15,
+    "as_of": "2026-11-17",
+    "change": 11.97,
+    "change_pct": 4.25,
+    "close": 293.83,
+    "previous_close": 281.86,
     "type": "EOD_CLOSE",
-    "volume": 638794
+    "volume": 634244
   },
   "range": {
-    "distance_from_high_pct": -10.51,
-    "distance_from_low_pct": 40.16,
+    "distance_from_high_pct": -6.71,
+    "distance_from_low_pct": 46.11,
     "high_52w": 314.95,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 201.1,
-    "range_position_pct": 70.94
+    "range_position_pct": 81.45
   },
   "risk_model": {
-    "invalidation_floor": 271.99,
-    "risk_per_share": 15.51,
-    "technical_pivot": 287.5
+    "invalidation_floor": 283.55,
+    "risk_per_share": 16.16,
+    "technical_pivot": 299.71
   },
   "schema_version": "1.0",
   "sector": null,

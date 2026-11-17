@@ -3,6 +3,86 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
+      "close": 144.4,
+      "high": 159.6,
+      "low": 144.4,
+      "open": 152.0,
+      "time": "2026-09-30",
+      "volume": 256372
+    },
+    {
+      "close": 137.18,
+      "high": 137.18,
+      "low": 137.18,
+      "open": 137.18,
+      "time": "2026-10-01",
+      "volume": 38647
+    },
+    {
+      "close": 130.33,
+      "high": 134.99,
+      "low": 130.33,
+      "open": 130.33,
+      "time": "2026-10-05",
+      "volume": 2832332
+    },
+    {
+      "close": 123.82,
+      "high": 123.82,
+      "low": 123.82,
+      "open": 123.82,
+      "time": "2026-10-06",
+      "volume": 592716
+    },
+    {
+      "close": 117.63,
+      "high": 121.3,
+      "low": 117.63,
+      "open": 117.63,
+      "time": "2026-10-07",
+      "volume": 2125298
+    },
+    {
+      "close": 111.75,
+      "high": 116.8,
+      "low": 111.75,
+      "open": 111.75,
+      "time": "2026-10-08",
+      "volume": 1045573
+    },
+    {
+      "close": 106.19,
+      "high": 110.04,
+      "low": 106.17,
+      "open": 108.0,
+      "time": "2026-10-09",
+      "volume": 3764841
+    },
+    {
+      "close": 107.16,
+      "high": 110.4,
+      "low": 104.81,
+      "open": 105.2,
+      "time": "2026-10-12",
+      "volume": 1641091
+    },
+    {
+      "close": 112.51,
+      "high": 112.51,
+      "low": 105.91,
+      "open": 106.96,
+      "time": "2026-10-13",
+      "volume": 3374263
+    },
+    {
+      "close": 118.12,
+      "high": 118.13,
+      "low": 115.1,
+      "open": 118.13,
+      "time": "2026-10-14",
+      "volume": 2441283
+    },
+    {
       "close": 116.41,
       "high": 120.0,
       "low": 109.1,
@@ -177,14 +257,22 @@
       "open": 100.0,
       "time": "2026-11-16",
       "volume": 1079758
+    },
+    {
+      "close": 96.93,
+      "high": 100.04,
+      "low": 96.16,
+      "open": 100.04,
+      "time": "2026-11-17",
+      "volume": 930296
     }
   ],
   "company_name": "GSPL Transmission Limited",
   "history": {
-    "first_session": "2026-10-15",
+    "first_session": "2026-09-30",
     "has_full_52w_history": false,
-    "last_session": "2026-11-16",
-    "sessions_available": 22
+    "last_session": "2026-11-17",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE1TUG01013",
@@ -192,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 57,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.66x"
+    "volume_multiplier": "0.58x"
   },
   "price": {
-    "as_of": "2026-11-16",
-    "change": -1.11,
-    "change_pct": -1.11,
-    "close": 98.81,
-    "previous_close": 99.92,
+    "as_of": "2026-11-17",
+    "change": -1.88,
+    "change_pct": -1.9,
+    "close": 96.93,
+    "previous_close": 98.81,
     "type": "EOD_CLOSE",
-    "volume": 1079758
+    "volume": 930296
   },
   "range": {
-    "distance_from_high_pct": -21.86,
-    "distance_from_low_pct": 1.65,
-    "high_52w": 126.45,
+    "distance_from_high_pct": -39.27,
+    "distance_from_low_pct": 0.8,
+    "high_52w": 159.6,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 97.21,
-    "range_position_pct": 5.47
+    "low_52w": 96.16,
+    "range_position_pct": 1.21
   },
   "risk_model": {
-    "invalidation_floor": 95.35,
-    "risk_per_share": 5.44,
-    "technical_pivot": 100.79
+    "invalidation_floor": 93.54,
+    "risk_per_share": 5.33,
+    "technical_pivot": 98.87
   },
   "schema_version": "1.0",
   "sector": null,

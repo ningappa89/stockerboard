@@ -3,6 +3,86 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
+      "close": 155.09,
+      "high": 155.09,
+      "low": 148.0,
+      "open": 148.0,
+      "time": "2026-10-06",
+      "volume": 5130949
+    },
+    {
+      "close": 147.34,
+      "high": 153.0,
+      "low": 147.34,
+      "open": 153.0,
+      "time": "2026-10-07",
+      "volume": 785081
+    },
+    {
+      "close": 139.98,
+      "high": 139.98,
+      "low": 139.98,
+      "open": 139.98,
+      "time": "2026-10-08",
+      "volume": 126366
+    },
+    {
+      "close": 132.99,
+      "high": 132.99,
+      "low": 132.99,
+      "open": 132.99,
+      "time": "2026-10-09",
+      "volume": 100645
+    },
+    {
+      "close": 126.35,
+      "high": 130.33,
+      "low": 126.35,
+      "open": 127.6,
+      "time": "2026-10-12",
+      "volume": 1015051
+    },
+    {
+      "close": 120.04,
+      "high": 120.04,
+      "low": 120.04,
+      "open": 120.04,
+      "time": "2026-10-13",
+      "volume": 364073
+    },
+    {
+      "close": 126.04,
+      "high": 126.04,
+      "low": 114.04,
+      "open": 114.04,
+      "time": "2026-10-14",
+      "volume": 1973685
+    },
+    {
+      "close": 119.94,
+      "high": 126.0,
+      "low": 119.74,
+      "open": 122.5,
+      "time": "2026-10-15",
+      "volume": 933115
+    },
+    {
+      "close": 114.06,
+      "high": 121.0,
+      "low": 113.95,
+      "open": 116.75,
+      "time": "2026-10-16",
+      "volume": 596806
+    },
+    {
+      "close": 119.76,
+      "high": 119.76,
+      "low": 111.5,
+      "open": 111.5,
+      "time": "2026-10-19",
+      "volume": 262953
+    },
+    {
       "close": 101.53,
       "high": 122.0,
       "low": 97.13,
@@ -153,46 +233,54 @@
       "open": 128.0,
       "time": "2026-11-16",
       "volume": 1434831
+    },
+    {
+      "close": 130.11,
+      "high": 138.9,
+      "low": 129.38,
+      "open": 135.0,
+      "time": "2026-11-17",
+      "volume": 770667
     }
   ],
   "company_name": "SRIT India Limited",
   "history": {
-    "first_session": "2026-10-21",
+    "first_session": "2026-10-06",
     "has_full_52w_history": false,
-    "last_session": "2026-11-16",
-    "sessions_available": 19
+    "last_session": "2026-11-17",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE307K01028",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
-    "is_stage2": true,
-    "momentum_score": 86,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "1.42x"
+    "is_coiled": false,
+    "is_stage2": false,
+    "momentum_score": 65,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.77x"
   },
   "price": {
-    "as_of": "2026-11-16",
-    "change": 9.55,
-    "change_pct": 7.56,
-    "close": 135.93,
-    "previous_close": 126.38,
+    "as_of": "2026-11-17",
+    "change": -5.82,
+    "change_pct": -4.28,
+    "close": 130.11,
+    "previous_close": 135.93,
     "type": "EOD_CLOSE",
-    "volume": 1434831
+    "volume": 770667
   },
   "range": {
-    "distance_from_high_pct": -2.21,
-    "distance_from_low_pct": 43.08,
-    "high_52w": 139.0,
+    "distance_from_high_pct": -16.11,
+    "distance_from_low_pct": 36.96,
+    "high_52w": 155.09,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 95.0,
-    "range_position_pct": 93.02
+    "range_position_pct": 58.43
   },
   "risk_model": {
-    "invalidation_floor": 131.17,
-    "risk_per_share": 7.48,
-    "technical_pivot": 138.65
+    "invalidation_floor": 125.56,
+    "risk_per_share": 7.15,
+    "technical_pivot": 132.71
   },
   "schema_version": "1.0",
   "sector": null,
