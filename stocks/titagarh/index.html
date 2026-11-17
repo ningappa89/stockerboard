@@ -73,7 +73,7 @@
     }
     </script>
     
-    <link rel="stylesheet" href="/scripts/company-page.css?v=company-v3">
+    <link rel="stylesheet" href="/scripts/company-page.css?v=company-v4">
 <link rel="stylesheet" href="/scripts/site-shell.css">
 <script defer src="/scripts/site-shell.js"></script>
 <link rel="stylesheet" href="/scripts/financial-statements.css?v=FS_UI_V1_6">
@@ -274,8 +274,15 @@
                     <span class="metric-name">Net Debt <small>Reported 31 Mar 2026 · Balance Sheet Gold</small></span>
                     <span class="metric-value">₹360.00 Cr</span>
                 </div>
-                <div class="metric-row">
-                    <span class="metric-name">Debt to Equity <small>Reported 31 Mar 2026 · Financial Ratios Gold</small></span>
+                <div class="metric-row metric-row--help">
+                    <div class="metric-name">
+                        <details class="metric-help">
+                            <summary>Debt to equity <span class="metric-help-icon" aria-hidden="true">?</span></summary>
+                            <p>Total borrowings divided by shareholder equity.</p>
+                        </details>
+                        <small>Reported 31 Mar 2026 · Financial Ratios Gold</small>
+                        <small></small>
+                    </div>
                     <span class="metric-value">0.21x</span>
                 </div>
                 <div class="metric-row">
@@ -300,46 +307,43 @@
             <section class="section-box">
                 <h2>Returns & Valuation</h2>
                 <p class="card-sub" data-valuation-release role="status">Checking certified valuation data…</p>
-                <div class="metric-row">
-                    <span class="metric-name">Return on Equity (ROE)</span>
+                <div class="metric-row metric-row--help">
+                    <div class="metric-name">
+                        <details class="metric-help">
+                            <summary>Return on equity (ROE) <span class="metric-help-icon" aria-hidden="true">?</span></summary>
+                            <p>Shows how much profit a company earns relative to shareholder equity. <a href="/learn/roe/">Learn about ROE</a></p>
+                        </details>
+                        <small></small>
+                    </div>
                     <span class="metric-value">— Not available</span>
                 </div>
                 <div class="metric-row">
                     <span class="metric-name">ROCE</span>
                     <span class="metric-value">Not available yet</span>
                 </div>
-                <div class="metric-row">
-                    <span class="metric-name">Price to Earnings (P/E) <small data-valuation-basis="P_E"></small></span>
+                <div class="metric-row metric-row--help">
+                    <div class="metric-name">
+                        <details class="metric-help">
+                            <summary>Price to earnings (P/E) <span class="metric-help-icon" aria-hidden="true">?</span></summary>
+                            <p>Share price divided by earnings per share over the last 12 months. <a href="/learn/pe-ratio/">Learn about P/E</a></p>
+                        </details>
+                        <small data-valuation-basis="P_E"></small>
+                    </div>
                     <span class="metric-value" data-valuation-value="P_E">—</span>
                 </div>
-                <div class="metric-row">
-                    <span class="metric-name">Price to Book (P/B) <small data-valuation-basis="P_B"></small></span>
+                <div class="metric-row metric-row--help">
+                    <div class="metric-name">
+                        <details class="metric-help">
+                            <summary>Price to book (P/B) <span class="metric-help-icon" aria-hidden="true">?</span></summary>
+                            <p>Share price divided by book value per share. Book value is the company’s net assets on its balance sheet.</p>
+                        </details>
+                        <small data-valuation-basis="P_B"></small>
+                    </div>
                     <span class="metric-value" data-valuation-value="P_B">—</span>
                 </div>
                 <div class="metric-row">
                     <span class="metric-name">Book Value Per Share (BVPS) <small>Reported 31 Mar 2026 · Balance Sheet Gold</small></span>
                     <span class="metric-value">₹182.42</span>
-                </div>
-            </section>
-
-            <!-- Plain Language Metric Explanations -->
-            <section class="section-box">
-                <h2>Understand These Numbers</h2>
-                <div class="expl-card">
-                    <div class="expl-title">Price-to-Earnings (P/E) Ratio</div>
-                    <div class="expl-desc">Price investors pay for each ₹1 of recent annual earnings per share.</div>
-                </div>
-                <div class="expl-card">
-                    <div class="expl-title">Price-to-Book (P/B) Ratio</div>
-                    <div class="expl-desc">Compares the current share price to the accounting net asset value per share.</div>
-                </div>
-                <div class="expl-card">
-                    <div class="expl-title">Return on Equity (ROE)</div>
-                    <div class="expl-desc">Measures how efficiently the company generated net profit on shareholder equity.</div>
-                </div>
-                <div class="expl-card">
-                    <div class="expl-title">Debt to Equity</div>
-                    <div class="expl-desc">Total borrowings relative to net worth; not applicable to banks or lending institutions.</div>
                 </div>
             </section>
 

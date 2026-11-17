@@ -248,6 +248,8 @@ def build_view_model(company_meta: dict, dossier: dict, u_map: dict | None = Non
         if url.startswith("https://") else "Company website unavailable in this release."
     )
     vm["valuation_price_note"] = "Historical valuation price snapshot: " + format_date_str((val.get("P_E") or {}).get("price_as_of") or price_as_of)
+    if vm['health']['debt_to_equity']['status'] == 'NOT_APPLICABLE':
+        vm['health']['debt_to_equity']['context_note'] = 'Stockerboard uses different leverage measures for this reporting model.'
     vm["profile_summary"] = "Limited business coverage: profile pending official-source verification."
     vm["profile_source_html"] = ""
     if profile:

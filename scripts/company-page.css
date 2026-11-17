@@ -175,7 +175,7 @@ h1 {
 }
 [data-research-company] .research-company-tabs button:hover:not([aria-selected="true"]) { background:var(--surface-elevated); color:var(--text-primary); }
 [data-research-company] .research-company-tabs button[aria-selected="true"] { background:#06543F; color:#fff; }
-[data-research-company] :is(a,button,select,[tabindex="0"]):focus-visible {
+[data-research-company] :is(a,button,select,summary,[tabindex="0"]):focus-visible {
     outline:2px solid var(--focus-ring);
     outline-offset:2px;
 }
@@ -273,22 +273,32 @@ h2 {
     color: var(--text-primary);
     text-align:right;
 }
-.expl-card {
-    background: var(--surface-elevated);
-    border-radius: 8px;
-    padding: 14px;
-    margin-bottom: 12px;
+.metric-row--help { align-items: flex-start; }
+.metric-row--help .metric-value { padding-top: 8px; }
+.metric-help summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 38px;
+    border-radius: 4px;
+    list-style: none;
+    cursor: pointer;
 }
-.expl-title {
-    font-size: 0.95rem;
-    font-weight: 600;
-    color: var(--text-primary);
-    margin-bottom: 4px;
+.metric-help summary::-webkit-details-marker { display: none; }
+.metric-help-icon {
+    display: grid;
+    place-items: center;
+    flex: 0 0 18px;
+    height: 18px;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    color: var(--focus-ring);
+    font-size: .72rem;
+    font-weight: 700;
 }
-.expl-desc {
-    font-size: 0.85rem;
-    color: var(--text-secondary);
-}
+.metric-help[open] .metric-help-icon { background: var(--focus-ring); color: var(--surface); }
+.metric-help p { margin: 0 0 8px; font-size: .85rem; }
+.metric-help a { color: var(--focus-ring); text-underline-offset: 2px; }
 .cta-banner {
     background: linear-gradient(135deg, rgba(22, 163, 74, 0.12), rgba(15, 23, 42, 0.4));
     border: 1px solid rgba(22, 163, 74, 0.3);
