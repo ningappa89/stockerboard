@@ -5164,6 +5164,7 @@
                     <button class="fresher-qs-btn" id="qs-btn-value" onclick="applyQuickScreen('VALUE_PE', this)" title="Positive price-to-earnings ratio of 25 or less; excludes unavailable P/E">Value · P/E ≤25</button>
                     <button class="fresher-qs-btn" id="qs-btn-near52" onclick="applyQuickScreen('COILED', this)" title="Within 3% of the 52-week high, but below its immediate breakout range">Near 52-week high</button>
                     <button class="fresher-qs-btn" id="qs-btn-breakout" onclick="applyQuickScreen('BREAKOUT', this)" title="At or within 0.5% of the 52-week high">At 52-week high</button>
+                    <button class="fresher-qs-btn" id="qs-btn-cuphandle" onclick="switchUserMode('intermediate'); switchTab('tab-cup-with-handle', document.getElementById('tabBtnCupWithHandle')); window.StockerboardCup?.open();" title="O'Neil Cup with Handle breakout pattern">☕ Cup with Handle</button>
                 </div>
                 <p class="investor-quick-help">Each screen uses one stated rule. Explore the company before drawing a conclusion.</p>
 
@@ -5297,6 +5298,14 @@
 <div class="card-val mono" style="color: #8B5CF6;">25 <span style="font-size: 0.85rem; color: var(--text-muted); font-family: var(--font-sans); font-weight:600;">stocks</span></div>
 <div class="card-sub">Base formations within 3% of yearly high</div>
 </div>
+<div class="bento-card card-cup" style="cursor: pointer;" onclick="switchUserMode('intermediate'); switchTab('tab-cup-with-handle', document.getElementById('tabBtnCupWithHandle')); window.StockerboardCup?.open();" title="Click to open Cup with Handle scanner">
+<div class="card-label">
+<span>Cup with Handle</span>
+<span style="font-size: 0.8rem;">☕</span>
+</div>
+<div class="card-val mono" style="color: #10B981;">1 <span style="font-size: 0.85rem; color: var(--text-muted); font-weight: 500;">setup</span></div>
+<div class="card-sub">O'Neil breakout scanner · 1 setup found</div>
+</div>
 </div>
 <details class="pro-more-context">
 <summary>📊 View Full Market Breadth &amp; Outliers <span>Sector leadership and return on equity</span></summary>
@@ -5361,14 +5370,15 @@
             <button class="tab-btn" data-pro-group="stockme" id="tabBtnStockMe" onclick="switchTab('tab-stockme-analysis', this)">
                 📈 StockerBoard Analysis <span class="tab-counter">11</span>
             </button>
-            <!-- cup with handle button --><button type="button" class="tab-btn" data-pro-group="stockme" id="tabBtnCupWithHandle"
-        aria-controls="tab-cup-with-handle" onclick="switchTab('tab-cup-with-handle', this); StockerboardCup.open()">Cup with Handle</button><!-- cup with handle button -->
             <button class="tab-btn" data-pro-group="market" id="tabBtnBreakouts" onclick="switchTab('tab-breakouts', this)">
                 🚀 New 52W Highs <span class="tab-counter">4</span>
             </button>
             <button class="tab-btn" data-pro-group="market" id="tabBtnConsolidations" onclick="switchTab('tab-consolidations', this)">
                 ⚡ Near 52W Highs <span class="tab-counter">25</span>
             </button>
+            <!-- cup with handle button --><button type="button" class="tab-btn" data-pro-group="market stockme" id="tabBtnCupWithHandle"
+        aria-controls="tab-cup-with-handle" onclick="switchTab('tab-cup-with-handle', this); window.StockerboardCup?.open()">☕ Cup with Handle <span class="tab-counter">1</span></button><!-- cup with handle button -->
+
             <button class="tab-btn" data-pro-group="market" id="tabBtnSectors" onclick="switchTab('tab-sectors', this)">
                 📊 Sector Heatmap <span class="tab-counter">20</span>
             </button>
@@ -16522,7 +16532,7 @@
                 button.setAttribute('aria-current', selected ? 'true' : 'false');
             });
             if (openFirst) {
-                const first = bar.querySelector(`.tab-btn[data-pro-group="${group}"]`);
+                const first = bar.querySelector(`.tab-btn[data-pro-group~="${group}"]`);
                 if (first) switchTab(first.getAttribute('onclick').match(/'([^']+)'/)[1], first);
             }
         }
@@ -20065,8 +20075,10 @@
                 switchUserMode('fresher');
             }
             if (hash === '#tab-cup-with-handle') {
-                document.getElementById('tabBtnCupWithHandle').click();
-                requestAnimationFrame(() => document.getElementById('tab-cup-with-handle').scrollIntoView({ block: 'start' }));
+                switchUserMode('intermediate');
+                switchTab('tab-cup-with-handle', document.getElementById('tabBtnCupWithHandle'));
+                window.StockerboardCup?.open();
+                requestAnimationFrame(() => document.getElementById('tab-cup-with-handle')?.scrollIntoView({ block: 'start' }));
             } else if (hash === '#tab-stockme-analysis') {
                 switchTab('tab-stockme-analysis', document.getElementById('tabBtnStockMe'));
                 requestAnimationFrame(() => document.getElementById('tab-stockme-analysis')?.scrollIntoView({ block: 'start' }));
@@ -21123,7 +21135,12 @@
         // Wire SPA Hash Navigation (Back / Forward button support)
         window.addEventListener('hashchange', () => {
             const hash = window.location.hash;
-            if (hash === '#tab-stockme-analysis') {
+            if (hash === '#tab-cup-with-handle') {
+                switchUserMode('intermediate');
+                switchTab('tab-cup-with-handle', document.getElementById('tabBtnCupWithHandle'));
+                window.StockerboardCup?.open();
+                document.getElementById('tab-cup-with-handle')?.scrollIntoView({ block: 'start' });
+            } else if (hash === '#tab-stockme-analysis') {
                 switchUserMode('intermediate');
                 switchTab('tab-stockme-analysis', document.getElementById('tabBtnStockMe'));
                 document.getElementById('tab-stockme-analysis')?.scrollIntoView({ block: 'start' });

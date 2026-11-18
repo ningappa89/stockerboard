@@ -452,10 +452,10 @@ details:focus-visible {
 .pro-section-nav button { min-height: 42px; border: 1px solid var(--border-subtle); border-radius: 10px; background: var(--bg-surface); color: var(--text-secondary); padding: 9px 15px; font: inherit; font-size: .83rem; font-weight: 700; cursor: pointer; }
 .pro-section-nav button.active { color: var(--investor-positive); background: rgba(21,128,61,.09); border-color: rgba(21,128,61,.35); }
 .pro-section-nav button:focus-visible { outline: 3px solid var(--investor-positive); outline-offset: 2px; }
-.tab-bar[data-active-group="market"] .tab-btn:not([data-pro-group="market"]),
-.tab-bar[data-active-group="stockme"] .tab-btn:not([data-pro-group="stockme"]),
-.tab-bar[data-active-group="research"] .tab-btn:not([data-pro-group="research"]),
-.tab-bar[data-active-group="workspace"] .tab-btn:not([data-pro-group="workspace"]) { display: none; }
+.tab-bar[data-active-group="market"] .tab-btn:not([data-pro-group~="market"]),
+.tab-bar[data-active-group="stockme"] .tab-btn:not([data-pro-group~="stockme"]),
+.tab-bar[data-active-group="research"] .tab-btn:not([data-pro-group~="research"]),
+.tab-bar[data-active-group="workspace"] .tab-btn:not([data-pro-group~="workspace"]) { display: none; }
 #intermediateTerminal .bento-grid { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; margin-bottom: 8px !important; }
 #intermediateTerminal .bento-card { min-height: 146px; }
 .pro-more-context { margin-bottom: 18px; }

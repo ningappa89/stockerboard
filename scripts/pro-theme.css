@@ -123,10 +123,10 @@
 /* Inactive panels must also hide mobile-generated cell labels. */
 body:not(.screen-fresher) #intermediateTerminal .tab-content:not(.active) { display: none !important; }
 /* The legacy tab rule used !important; keep section visibility authoritative. */
-#intermediateTerminal .tab-bar[data-active-group="market"] .tab-btn:not([data-pro-group="market"]),
-#intermediateTerminal .tab-bar[data-active-group="stockme"] .tab-btn:not([data-pro-group="stockme"]),
-#intermediateTerminal .tab-bar[data-active-group="research"] .tab-btn:not([data-pro-group="research"]),
-#intermediateTerminal .tab-bar[data-active-group="workspace"] .tab-btn:not([data-pro-group="workspace"]) { display: none !important; }
+#intermediateTerminal .tab-bar[data-active-group="market"] .tab-btn:not([data-pro-group~="market"]),
+#intermediateTerminal .tab-bar[data-active-group="stockme"] .tab-btn:not([data-pro-group~="stockme"]),
+#intermediateTerminal .tab-bar[data-active-group="research"] .tab-btn:not([data-pro-group~="research"]),
+#intermediateTerminal .tab-bar[data-active-group="workspace"] .tab-btn:not([data-pro-group~="workspace"]) { display: none !important; }
 #intermediateTerminal .tab-bar { padding: 8px 0 14px !important; gap: 6px !important; background: transparent !important; border: 0 !important; border-bottom: 1px solid var(--pro-line) !important; border-radius: 0 !important; }
 #intermediateTerminal .tab-btn { color: var(--pro-muted) !important; }
 #intermediateTerminal .tab-btn.active { background: var(--pro-accent-soft) !important; color: var(--pro-accent) !important; border-color: var(--pro-line) !important; box-shadow: none !important; }
