@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3.22,
-      "high": 3.27,
-      "low": 3.21,
-      "open": 3.27,
-      "time": "2025-11-11",
-      "volume": 922934
-    },
-    {
       "close": 3.2,
       "high": 3.28,
       "low": 3.17,
@@ -2017,13 +2009,21 @@
       "open": 2.08,
       "time": "2026-11-17",
       "volume": 757495
+    },
+    {
+      "close": 2.05,
+      "high": 2.1,
+      "low": 2.04,
+      "open": 2.04,
+      "time": "2026-11-18",
+      "volume": 600712
     }
   ],
   "company_name": "GVK POW. & INFRA LTD.",
   "history": {
-    "first_session": "2025-11-11",
+    "first_session": "2025-11-12",
     "has_full_52w_history": true,
-    "last_session": "2026-11-17",
+    "last_session": "2026-11-18",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.57x"
+    "volume_multiplier": "1.19x"
   },
   "price": {
-    "as_of": "2026-11-17",
-    "change": -0.02,
-    "change_pct": -0.95,
-    "close": 2.08,
-    "previous_close": 2.1,
+    "as_of": "2026-11-18",
+    "change": -0.03,
+    "change_pct": -1.44,
+    "close": 2.05,
+    "previous_close": 2.08,
     "type": "EOD_CLOSE",
-    "volume": 757495
+    "volume": 600712
   },
   "range": {
-    "distance_from_high_pct": -43.01,
-    "distance_from_low_pct": 6.67,
+    "distance_from_high_pct": -43.84,
+    "distance_from_low_pct": 5.13,
     "high_52w": 3.65,
     "history_basis": "52_WEEK",
     "low_52w": 1.95,
-    "range_position_pct": 7.65
+    "range_position_pct": 5.88
   },
   "risk_model": {
-    "invalidation_floor": 2.01,
+    "invalidation_floor": 1.98,
     "risk_per_share": 0.5,
-    "technical_pivot": 2.12
+    "technical_pivot": 2.09
   },
   "schema_version": "1.0",
   "sector": null,

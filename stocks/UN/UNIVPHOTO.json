@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 265.8,
-      "high": 275.0,
-      "low": 262.1,
-      "open": 274.95,
-      "time": "2025-11-10",
-      "volume": 12575
-    },
-    {
       "close": 266.5,
       "high": 270.85,
       "low": 264.1,
@@ -2017,13 +2009,21 @@
       "open": 443.7,
       "time": "2026-11-17",
       "volume": 2013
+    },
+    {
+      "close": 450.0,
+      "high": 452.55,
+      "low": 435.0,
+      "open": 452.55,
+      "time": "2026-11-18",
+      "volume": 1473
     }
   ],
   "company_name": "UNIVERSUS PHOTO IMAGINGS LIMIT",
   "history": {
-    "first_session": "2025-11-10",
+    "first_session": "2025-11-11",
     "has_full_52w_history": true,
-    "last_session": "2026-11-17",
+    "last_session": "2026-11-18",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 46,
+    "momentum_score": 48,
     "setup_type": "Volume Expansion",
-    "volume_multiplier": "3.07x"
+    "volume_multiplier": "2.02x"
   },
   "price": {
-    "as_of": "2026-11-17",
-    "change": 8.7,
-    "change_pct": 2.0,
-    "close": 443.7,
-    "previous_close": 435.0,
+    "as_of": "2026-11-18",
+    "change": 6.3,
+    "change_pct": 1.42,
+    "close": 450.0,
+    "previous_close": 443.7,
     "type": "EOD_CLOSE",
-    "volume": 2013
+    "volume": 1473
   },
   "range": {
-    "distance_from_high_pct": -28.98,
-    "distance_from_low_pct": 145.68,
+    "distance_from_high_pct": -27.97,
+    "distance_from_low_pct": 149.17,
     "high_52w": 624.75,
     "history_basis": "52_WEEK",
     "low_52w": 180.6,
-    "range_position_pct": 59.24
+    "range_position_pct": 60.66
   },
   "risk_model": {
-    "invalidation_floor": 428.17,
-    "risk_per_share": 24.4,
-    "technical_pivot": 452.57
+    "invalidation_floor": 434.25,
+    "risk_per_share": 24.75,
+    "technical_pivot": 459.0
   },
   "schema_version": "1.0",
   "sector": null,

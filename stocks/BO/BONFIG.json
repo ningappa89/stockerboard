@@ -145,46 +145,54 @@
       "open": 807.75,
       "time": "2026-11-17",
       "volume": 1060813
+    },
+    {
+      "close": 800.05,
+      "high": 807.0,
+      "low": 762.0,
+      "open": 784.25,
+      "time": "2026-11-18",
+      "volume": 959674
     }
   ],
   "company_name": "Bonfiglioli Transmissions Limited",
   "history": {
     "first_session": "2026-10-23",
     "has_full_52w_history": false,
-    "last_session": "2026-11-17",
-    "sessions_available": 18
+    "last_session": "2026-11-18",
+    "sessions_available": 19
   },
   "industry": null,
   "isin": "INE28SO01013",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": false,
+    "is_coiled": true,
     "is_stage2": true,
-    "momentum_score": 83,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.27x"
+    "momentum_score": 86,
+    "setup_type": "Minervini VCP",
+    "volume_multiplier": "0.25x"
   },
   "price": {
-    "as_of": "2026-11-17",
-    "change": -16.45,
-    "change_pct": -2.05,
-    "close": 784.35,
-    "previous_close": 800.8,
+    "as_of": "2026-11-18",
+    "change": 15.7,
+    "change_pct": 2.0,
+    "close": 800.05,
+    "previous_close": 784.35,
     "type": "EOD_CLOSE",
-    "volume": 1060813
+    "volume": 959674
   },
   "range": {
-    "distance_from_high_pct": -4.57,
-    "distance_from_low_pct": 48.72,
+    "distance_from_high_pct": -2.66,
+    "distance_from_low_pct": 51.7,
     "high_52w": 821.9,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 527.4,
-    "range_position_pct": 87.25
+    "range_position_pct": 92.58
   },
   "risk_model": {
-    "invalidation_floor": 756.9,
-    "risk_per_share": 43.14,
-    "technical_pivot": 800.04
+    "invalidation_floor": 772.05,
+    "risk_per_share": 44.0,
+    "technical_pivot": 816.05
   },
   "schema_version": "1.0",
   "sector": null,

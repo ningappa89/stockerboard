@@ -121,14 +121,22 @@
       "open": 904.0,
       "time": "2026-11-17",
       "volume": 214135
+    },
+    {
+      "close": 829.8,
+      "high": 889.45,
+      "low": 817.45,
+      "open": 880.0,
+      "time": "2026-11-18",
+      "volume": 392630
     }
   ],
   "company_name": "Paras Healthcare Limited",
   "history": {
     "first_session": "2026-10-28",
     "has_full_52w_history": false,
-    "last_session": "2026-11-17",
-    "sessions_available": 15
+    "last_session": "2026-11-18",
+    "sessions_available": 16
   },
   "industry": null,
   "isin": "INE661T01029",
@@ -136,31 +144,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 79,
+    "momentum_score": 71,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.12x"
+    "volume_multiplier": "0.24x"
   },
   "price": {
-    "as_of": "2026-11-17",
-    "change": -20.55,
-    "change_pct": -2.28,
-    "close": 880.85,
-    "previous_close": 901.4,
+    "as_of": "2026-11-18",
+    "change": -51.05,
+    "change_pct": -5.8,
+    "close": 829.8,
+    "previous_close": 880.85,
     "type": "EOD_CLOSE",
-    "volume": 214135
+    "volume": 392630
   },
   "range": {
-    "distance_from_high_pct": -7.18,
-    "distance_from_low_pct": 24.77,
+    "distance_from_high_pct": -12.56,
+    "distance_from_low_pct": 17.54,
     "high_52w": 949.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 706.0,
-    "range_position_pct": 71.95
+    "range_position_pct": 50.95
   },
   "risk_model": {
-    "invalidation_floor": 850.02,
-    "risk_per_share": 48.45,
-    "technical_pivot": 898.47
+    "invalidation_floor": 800.76,
+    "risk_per_share": 45.64,
+    "technical_pivot": 846.4
   },
   "schema_version": "1.0",
   "sector": null,

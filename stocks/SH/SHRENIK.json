@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 0.55,
-      "high": 0.56,
-      "low": 0.55,
-      "open": 0.55,
-      "time": "2025-11-11",
-      "volume": 468148
-    },
-    {
       "close": 0.54,
       "high": 0.55,
       "low": 0.54,
@@ -2017,13 +2009,21 @@
       "open": 0.26,
       "time": "2026-11-17",
       "volume": 165512
+    },
+    {
+      "close": 0.26,
+      "high": 0.27,
+      "low": 0.26,
+      "open": 0.26,
+      "time": "2026-11-18",
+      "volume": 144098
     }
   ],
   "company_name": "SHRENIK LIMITED",
   "history": {
-    "first_session": "2025-11-11",
+    "first_session": "2025-11-12",
     "has_full_52w_history": true,
-    "last_session": "2026-11-17",
+    "last_session": "2026-11-18",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.42x"
+    "volume_multiplier": "0.41x"
   },
   "price": {
-    "as_of": "2026-11-17",
-    "change": 0.0,
-    "change_pct": 0.0,
-    "close": 0.27,
+    "as_of": "2026-11-18",
+    "change": -0.01,
+    "change_pct": -3.7,
+    "close": 0.26,
     "previous_close": 0.27,
     "type": "EOD_CLOSE",
-    "volume": 165512
+    "volume": 144098
   },
   "range": {
-    "distance_from_high_pct": -58.46,
-    "distance_from_low_pct": 42.11,
+    "distance_from_high_pct": -60.0,
+    "distance_from_low_pct": 36.84,
     "high_52w": 0.65,
     "history_basis": "52_WEEK",
     "low_52w": 0.19,
-    "range_position_pct": 17.39
+    "range_position_pct": 15.22
   },
   "risk_model": {
-    "invalidation_floor": 0.26,
+    "invalidation_floor": 0.25,
     "risk_per_share": 0.5,
-    "technical_pivot": 0.28
+    "technical_pivot": 0.27
   },
   "schema_version": "1.0",
   "sector": null,

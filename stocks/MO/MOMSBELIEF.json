@@ -385,14 +385,22 @@
       "open": 284.0,
       "time": "2026-11-17",
       "volume": 634244
+    },
+    {
+      "close": 284.42,
+      "high": 304.0,
+      "low": 282.05,
+      "open": 304.0,
+      "time": "2026-11-18",
+      "volume": 446668
     }
   ],
   "company_name": "Rays of Belief Limited",
   "history": {
     "first_session": "2026-09-08",
     "has_full_52w_history": false,
-    "last_session": "2026-11-17",
-    "sessions_available": 48
+    "last_session": "2026-11-18",
+    "sessions_available": 49
   },
   "industry": null,
   "isin": "INE1FCO01014",
@@ -400,31 +408,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 79,
+    "momentum_score": 75,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.3x"
+    "volume_multiplier": "0.96x"
   },
   "price": {
-    "as_of": "2026-11-17",
-    "change": 11.97,
-    "change_pct": 4.25,
-    "close": 293.83,
-    "previous_close": 281.86,
+    "as_of": "2026-11-18",
+    "change": -9.41,
+    "change_pct": -3.2,
+    "close": 284.42,
+    "previous_close": 293.83,
     "type": "EOD_CLOSE",
-    "volume": 634244
+    "volume": 446668
   },
   "range": {
-    "distance_from_high_pct": -6.71,
-    "distance_from_low_pct": 46.11,
+    "distance_from_high_pct": -9.69,
+    "distance_from_low_pct": 41.43,
     "high_52w": 314.95,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 201.1,
-    "range_position_pct": 81.45
+    "range_position_pct": 73.18
   },
   "risk_model": {
-    "invalidation_floor": 283.55,
-    "risk_per_share": 16.16,
-    "technical_pivot": 299.71
+    "invalidation_floor": 274.47,
+    "risk_per_share": 15.64,
+    "technical_pivot": 290.11
   },
   "schema_version": "1.0",
   "sector": null,

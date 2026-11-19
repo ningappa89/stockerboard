@@ -1745,14 +1745,22 @@
       "open": 70.54,
       "time": "2026-11-17",
       "volume": 1255
+    },
+    {
+      "close": 68.0,
+      "high": 74.0,
+      "low": 68.0,
+      "open": 74.0,
+      "time": "2026-11-18",
+      "volume": 232
     }
   ],
   "company_name": "EASTERN SILK INDUSTRIES LTD.",
   "history": {
     "first_session": "2025-08-18",
     "has_full_52w_history": false,
-    "last_session": "2026-11-17",
-    "sessions_available": 218
+    "last_session": "2026-11-18",
+    "sessions_available": 219
   },
   "industry": null,
   "isin": "INE962C01035",
@@ -1760,31 +1768,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 46,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.27x"
+    "momentum_score": 42,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.46x"
   },
   "price": {
-    "as_of": "2026-11-17",
-    "change": -3.71,
-    "change_pct": -5.0,
-    "close": 70.54,
-    "previous_close": 74.25,
+    "as_of": "2026-11-18",
+    "change": -2.54,
+    "change_pct": -3.6,
+    "close": 68.0,
+    "previous_close": 70.54,
     "type": "EOD_CLOSE",
-    "volume": 1255
+    "volume": 232
   },
   "range": {
-    "distance_from_high_pct": -28.93,
-    "distance_from_low_pct": 193.92,
+    "distance_from_high_pct": -31.49,
+    "distance_from_low_pct": 183.33,
     "high_52w": 99.25,
     "history_basis": "52_WEEK",
     "low_52w": 24.0,
-    "range_position_pct": 61.85
+    "range_position_pct": 58.47
   },
   "risk_model": {
-    "invalidation_floor": 68.07,
-    "risk_per_share": 3.88,
-    "technical_pivot": 71.95
+    "invalidation_floor": 65.62,
+    "risk_per_share": 3.74,
+    "technical_pivot": 69.36
   },
   "schema_version": "1.0",
   "sector": null,

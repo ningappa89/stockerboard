@@ -2,46 +2,49 @@
   "schema_version": 1,
   "status": "CERTIFIED",
   "screen_policy": "LIQUID_NSE_EQ_52W_V1",
-  "market_session": "2026-11-17",
-  "gold_run_id": "gold_run_5832e705dc7d",
+  "market_session": "2026-11-18",
+  "gold_run_id": "gold_run_6889b289e85f",
   "ratio_release_id": "DOSSIER_V2_ROE_eb43619079d11bfc_288d03e321878ac0",
   "screened_count": 350,
   "stockme_policy": "STOCKME_52W_SCORE_V1",
   "stockme_candidate_count": 100,
-  "stockme_qualified_count": 11,
-  "stockme_session": "2026-11-17",
-  "home_market_session": "2026-11-17",
+  "stockme_qualified_count": 10,
+  "stockme_session": "2026-11-18",
+  "home_market_session": "2026-11-18",
   "home_universe_count": 2627,
-  "main_roe_count": 168,
-  "breadth_pct": 9.4,
+  "main_roe_count": 167,
+  "breadth_pct": 7.7,
   "cup_with_handle": {
-    "status": "SHADOW",
-    "enabled": false,
-    "requested_mode": "live",
-    "session": "2026-11-17",
-    "runtime_seconds": 3.84,
+    "status": "PREVIEW",
+    "enabled": true,
+    "preview": true,
+    "requested_mode": "preview",
+    "session": "2026-11-18",
+    "runtime_seconds": 21.09,
     "coverage": {
-      "cohort": 350,
-      "excluded": 39,
+      "cohort": 2627,
+      "excluded": 1205,
       "exclusion_reasons": {
-        "INSUFFICIENT_CONTIGUOUS_COMPARABLE_HISTORY": 31,
-        "OUTSIDE_CERTIFIED_MARKET_UNIVERSE": 4,
-        "UNRESOLVED_SECURITY_IDENTITY": 4
+        "BELOW_LIQUIDITY_FLOOR": 831,
+        "INSUFFICIENT_CONTIGUOUS_COMPARABLE_HISTORY": 328,
+        "NO_CURRENT_SESSION_BAR": 35,
+        "UNRESOLVED_SECURITY_IDENTITY": 11
       },
-      "matched": 0,
-      "no_match": 311,
-      "scanned": 311
+      "matched": 2,
+      "no_match": 1420,
+      "scanned": 1422
     },
     "release_gates": {
       "ready": false,
       "backfill_passed": true,
       "holdout_passed": false,
       "shadow_passed": false,
-      "shadow_sessions": 1,
+      "shadow_sessions": 0,
       "required_shadow_sessions": 20,
-      "p95_seconds": 2.47
-    }
+      "p95_seconds": null
+    },
+    "index_sha256": "48cacf2093c2601dfcf2b5997964533698a448dc70aceae81293891027c6e42c"
   },
-  "html_sha256": "daeb6009b23eb584ae3405bf07df3c470cee8f61e7fb0e832685dfde47b28751",
-  "certified_at_utc": "2026-11-17T15:55:56.758100+00:00"
+  "html_sha256": "21baaf51aad6c6ab513e372a4c43427472d9eebf6e1a0d26cb3484bdb4bcc6d9",
+  "certified_at_utc": "2026-11-19T04:41:36.014657+00:00"
 }

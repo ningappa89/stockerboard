@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 5.33,
-      "high": 5.33,
-      "low": 5.33,
-      "open": 5.33,
-      "time": "2025-07-08",
-      "volume": 422227
-    },
-    {
       "close": 5.22,
       "high": 5.22,
       "low": 5.22,
@@ -2017,13 +2009,21 @@
       "open": 1.57,
       "time": "2026-11-17",
       "volume": 245027
+    },
+    {
+      "close": 1.48,
+      "high": 1.56,
+      "low": 1.48,
+      "open": 1.55,
+      "time": "2026-11-18",
+      "volume": 236544
     }
   ],
   "company_name": "Reliance Home Finance Limited",
   "history": {
-    "first_session": "2025-07-08",
+    "first_session": "2025-07-09",
     "has_full_52w_history": true,
-    "last_session": "2026-11-17",
+    "last_session": "2026-11-18",
     "sessions_available": 252
   },
   "industry": null,
@@ -2037,26 +2037,26 @@
     "volume_multiplier": "0.59x"
   },
   "price": {
-    "as_of": "2026-11-17",
-    "change": -0.02,
-    "change_pct": -1.27,
-    "close": 1.55,
-    "previous_close": 1.57,
+    "as_of": "2026-11-18",
+    "change": -0.07,
+    "change_pct": -4.52,
+    "close": 1.48,
+    "previous_close": 1.55,
     "type": "EOD_CLOSE",
-    "volume": 245027
+    "volume": 236544
   },
   "range": {
-    "distance_from_high_pct": -71.92,
-    "distance_from_low_pct": 39.64,
+    "distance_from_high_pct": -73.19,
+    "distance_from_low_pct": 33.33,
     "high_52w": 5.52,
     "history_basis": "52_WEEK",
     "low_52w": 1.11,
-    "range_position_pct": 9.98
+    "range_position_pct": 8.39
   },
   "risk_model": {
-    "invalidation_floor": 1.5,
+    "invalidation_floor": 1.43,
     "risk_per_share": 0.5,
-    "technical_pivot": 1.58
+    "technical_pivot": 1.51
   },
   "schema_version": "1.0",
   "sector": null,

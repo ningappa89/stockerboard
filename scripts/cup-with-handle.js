@@ -1,8 +1,14 @@
 /* Display dated, hash-checked outputs from the StockMe pattern scanner. */
 (() => {
     'use strict';
-    const labels = {FORMING: 'Forming', CLOSE_ABOVE_PIVOT: 'Price-only breakout', VOLUME_CONFIRMED: 'Volume confirmed'};
-    const rank = {VOLUME_CONFIRMED: 0, CLOSE_ABOVE_PIVOT: 1, FORMING: 2};
+    const labels = {
+        FORMING: 'Forming',
+        HANDLE_READY: 'Handle ready',
+        CLOSE_ABOVE_PIVOT: 'Price-only breakout',
+        VOLUME_CONFIRMED: 'Volume confirmed',
+        BELOW_PIVOT_RETEST: 'Below-pivot retest',
+    };
+    const rank = {VOLUME_CONFIRMED: 0, CLOSE_ABOVE_PIVOT: 1, BELOW_PIVOT_RETEST: 2, HANDLE_READY: 3, FORMING: 4};
     const anchors = {left_rim: 'Left rim', trough: 'Cup low', right_rim: 'Right rim', handle_low: 'Handle low'};
     const exclusionLabels = {
         BELOW_LIQUIDITY_FLOOR: 'Below the liquidity minimum',
@@ -137,9 +143,10 @@
         drawChart();
     }
 
-    function badge(element, state) {
-        element.dataset.state = state;
-        element.textContent = labels[state];
+    function badge(element, state, currentStatus) {
+        const effective = currentStatus === 'BELOW_PIVOT_RETEST' ? 'BELOW_PIVOT_RETEST' : state;
+        element.dataset.state = effective;
+        element.textContent = labels[effective] || labels[state] || state;
     }
 
     async function evidence(row, focus = false) {
@@ -158,16 +165,24 @@
         }
         el('cup-evidence-title').textContent = row.symbol;
         el('cup-company-name').textContent = row.name;
-        badge(el('cup-setup-badge'), row.state);
+        badge(el('cup-setup-badge'), row.state, row.current_status);
         el('cup-chart-status').textContent = 'Loading adjusted chart…';
         el('cup-figure').hidden = true;
         const metrics = el('cup-metrics');
         metrics.replaceChildren();
-        const breakoutVolume = row.volume_multiple == null ? '—' : `${number.format(row.volume_multiple)}×`;
+        const breakoutVolume = row.breakout ? (row.volume_multiple == null ? 'Not evaluated' : `${number.format(row.volume_multiple)}×`) : 'Not evaluated';
+        const distText = row.current_status === 'BELOW_PIVOT_RETEST'
+            ? `${number.format(Math.abs(row.distance_pct))}% below pivot · Retesting floor`
+            : row.current_status === 'FORMING'
+            ? `${number.format(Math.abs(row.distance_pct))}% below next hurdle`
+            : distanceLabel(row.distance_pct);
+        const pivotLabel = row.breakout ? 'Breakout pivot' : 'Next-session hurdle';
+        const pivotHurdle = rupees(row.next_session_pivot || row.pivot);
+        const pivotDetail = row.breakout ? `Crossed on ${dateLabel(row.breakout)}` : 'Awaiting close above';
         for (const [label, value, detail, className] of [
-            ['Latest close', '—', distanceLabel(row.distance_pct), row.distance_pct < 0 ? 'cup-below' : ''],
-            ['Pivot price', rupees(row.pivot), row.breakout ? `Crossed ${dateLabel(row.breakout)}` : 'Awaiting a close above', ''],
-            ['Breakout volume', breakoutVolume, row.breakout ? '1.50× required' : 'Awaiting breakout', ''],
+            ['Latest close', '—', distText, row.distance_pct < 0 ? 'cup-below' : ''],
+            [pivotLabel, pivotHurdle, pivotDetail, ''],
+            ['Breakout volume', breakoutVolume, row.breakout ? '1.50× required' : '1.50× required upon breakout', ''],
         ]) {
             const metric = document.createElement('div');
             metric.append(textNode('dt', label), textNode('dd', value), textNode('small', detail, className));
@@ -181,11 +196,70 @@
             const [date, value] = row.anchors[key];
             description.append(textNode('dt', label), textNode('dd', `${rupees(value)} · ${date}`));
         }
-        for (const [label, value] of [['Pivot', `${rupees(row.pivot)} · ${row.pivot_confirmed}`],
+        for (const [label, value] of [
+            ['Price basis', `${release.price_basis || 'CERTIFIED_ADJUSTED_DAILY_OHLCV'} · Session ${release.session}`],
+            ['Algorithm version', `${row.algorithm_version || 'Not recorded'} · Policy ${release.policy}`],
+            ['First detected', row.first_seen || 'Not recorded'],
+            ['Latest close', rupees(row.risk_metrics?.current_close || row.anchors.right_rim[1])],
+            ['Current session hurdle', row.evaluation_pivot ? `${rupees(row.evaluation_pivot)} (strictly prior highs)` : 'Not evaluated'],
+            ['Next-session hurdle', rupees(row.next_session_pivot || row.pivot)],
+            ['Observed handle low', rupees(row.risk_metrics?.observed_handle_low || row.anchors.handle_low[1])],
+            ['Structural invalidation boundary', rupees(row.risk_metrics?.invalidation_floor || row.structural_floor || 0)],
+            ['Confirmed breakout pivot', row.historical_breakout_pivot ? rupees(row.historical_breakout_pivot) : 'Not evaluated / Awaiting breakout'],
             ['Cup depth', `${number.format(row.depth_pct)}% over ${row.base_sessions} sessions`],
             ['Handle depth', `${number.format(row.handle_depth_pct)}% over ${row.handle_sessions} sessions`],
-            ['First detected', row.first_seen], ['Breakout close', row.breakout || 'Awaiting breakout']]) {
+            ['Pattern lifecycle', row.current_status === 'BELOW_PIVOT_RETEST'
+                ? 'Below-pivot retest (Pullback above handle low floor)'
+                : row.current_status === 'FORMING'
+                ? `Forming handle consolidation (${row.handle_sessions} sessions)`
+                : row.current_status === 'ABOVE_PIVOT'
+                ? 'Above pivot resistance (Breakout active)'
+                : row.current_status],
+            ['Breakout event', row.breakout
+                ? `Historical close cross on ${row.breakout} (${row.breakout_event?.confirmation_type || 'PRICE_ONLY'})`
+                : 'Not evaluated / Awaiting breakout close above hurdle']]) {
             description.append(textNode('dt', label), textNode('dd', value));
+        }
+        if (row.validation) {
+            description.append(textNode('dt', 'Structural Validation Rules', 'cup-section-heading'), textNode('dd', '8 StockMe Cup-with-Handle structural checks passed', 'cup-section-heading'));
+            const v = row.validation;
+            const items = [
+                ['Rule 1: Prior advance', `+${number.format(v.prior_uptrend.gain_pct)}% (min ${number.format(v.prior_uptrend.threshold_pct)}%) · PASS`],
+                ['Rule 2: Rim tolerance', `${number.format(v.rim_tolerance.diff_pct)}% diff (max ${number.format(v.rim_tolerance.threshold_pct)}%) · PASS`],
+                ['Rule 3: Cup depth', `${number.format(v.cup_depth.depth_pct)}% (${v.cup_depth.min_pct}%–${v.cup_depth.max_pct}%) · PASS`],
+                ['Rule 4: Cup duration', `${v.cup_duration.sessions} sessions (${v.cup_duration.min_sessions}–${v.cup_duration.max_sessions}) · PASS`],
+                ['Rule 5: Cup roundedness', `${number.format(v.roundedness.lower_third_pct)}% in lower third · PASS`],
+                ['Rule 6: Handle depth', `${number.format(v.handle_depth.handle_depth_pct)}% (max ${number.format(v.handle_depth.max_cup_fraction_pct)}% cup) · PASS`],
+                ['Rule 7: Handle duration', `${v.handle_duration.sessions} sessions (5–20 permitted) · PASS`],
+                ['Rule 8: Handle floor', `Low ${rupees(v.handle_floor.floor_price || v.handle_floor.observed_low)} > floor ${rupees(v.handle_floor.structural_floor || v.handle_floor.cup_midpoint)} · PASS`],
+            ];
+            for (const [lbl, val] of items) {
+                description.append(textNode('dt', lbl), textNode('dd', val));
+            }
+        }
+        if (row.diagnostics) {
+            description.append(textNode('dt', 'Observational Diagnostics', 'cup-section-heading'), textNode('dd', 'Non-blocking empirical criteria', 'cup-section-heading'));
+            const d = row.diagnostics;
+            if (d.handle_volume_ratio != null) {
+                description.append(textNode('dt', 'Handle volume'), textNode('dd', `${number.format(d.handle_volume_ratio)}× of prior baseline · ${d.handle_volume_dryup ? 'Contraction observed' : 'Contraction absent'}`));
+            } else {
+                description.append(textNode('dt', 'Handle volume contraction'), textNode('dd', 'Not evaluated'));
+            }
+            if (d.handle_slope_pct_per_session != null) {
+                description.append(textNode('dt', 'Handle drift slope'), textNode('dd', `Observational drift: ${d.handle_slope_pct_per_session >= 0 ? '+' : ''}${number.format(d.handle_slope_pct_per_session)}%/session (Informational)`));
+            } else {
+                description.append(textNode('dt', 'Handle drift slope'), textNode('dd', 'Not evaluated'));
+            }
+        }
+        if (row.risk_metrics) {
+            description.append(textNode('dt', 'Risk & Invalidation Limits', 'cup-section-heading'), textNode('dd', 'Floor vs Retest Boundaries', 'cup-section-heading'));
+            description.append(textNode('dt', 'Structural invalidation boundary'), textNode('dd', `${rupees(row.risk_metrics.invalidation_floor)} (+${number.format(row.risk_metrics.distance_from_floor_pct)}% buffer above breakdown)`));
+            description.append(textNode('dt', 'Observed handle low'), textNode('dd', `${rupees(row.risk_metrics.observed_handle_low || row.anchors.handle_low[1])} (+${number.format(row.risk_metrics.distance_from_observed_low_pct || 0)}% buffer)`));
+            description.append(textNode('dt', 'Boundary classification'), textNode('dd', row.current_status === 'BELOW_PIVOT_RETEST'
+                ? 'Pivot retest: close is below pivot but strictly above structural floor'
+                : row.current_status === 'FORMING'
+                ? 'Consolidation phase: strictly above structural invalidation boundary'
+                : 'Breakout phase: trading above pivot resistance'));
         }
         if (focus) panel.focus();
         Promise.resolve(window.StockerboardCompanyRoutes?.companyUrl(row.symbol)).then(href => {
@@ -239,8 +313,13 @@
             arrow.setAttribute('aria-hidden', 'true');
             label.append(textNode('strong', row.symbol), arrow);
             const status = textNode('span', '', 'cup-badge');
-            badge(status, row.state);
-            button.append(label, status, textNode('span', distanceLabel(row.distance_pct), 'cup-result-summary'));
+            badge(status, row.state, row.current_status);
+            const distSummary = row.current_status === 'BELOW_PIVOT_RETEST'
+                ? `${number.format(Math.abs(row.distance_pct))}% below pivot · Retest`
+                : row.current_status === 'FORMING'
+                ? `${number.format(Math.abs(row.distance_pct))}% below pivot · Forming`
+                : distanceLabel(row.distance_pct);
+            button.append(label, status, textNode('span', distSummary, 'cup-result-summary'));
             button.addEventListener('click', () => evidence(row, true));
             item.append(button);
             results.append(item);
@@ -335,4 +414,15 @@
     }
 
     window.StockerboardCup = {open: () => request ||= load()};
+    async function openRoute() {
+        if (location.hash !== '#tab-cup-with-handle' || !el('tabBtnCupWithHandle')) return;
+        await window.loadCanonicalUniverse?.();
+        if (location.hash !== '#tab-cup-with-handle') return;
+        window.switchUserMode?.('intermediate');
+        el('tabBtnCupWithHandle').click();
+        requestAnimationFrame(() => el('tab-cup-with-handle').scrollIntoView({block: 'start'}));
+    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', openRoute);
+    else openRoute();
+    window.addEventListener('hashchange', openRoute);
 })();

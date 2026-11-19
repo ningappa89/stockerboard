@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 16.21,
-      "high": 17.38,
-      "low": 16.08,
-      "open": 16.8,
-      "time": "2025-09-23",
-      "volume": 2602
-    },
-    {
       "close": 16.67,
       "high": 17.0,
       "low": 16.05,
@@ -2017,13 +2009,21 @@
       "open": 11.65,
       "time": "2026-11-17",
       "volume": 4829
+    },
+    {
+      "close": 11.93,
+      "high": 12.0,
+      "low": 11.75,
+      "open": 12.0,
+      "time": "2026-11-18",
+      "volume": 505
     }
   ],
   "company_name": "SEYA INDUSTRIES LIMITED",
   "history": {
-    "first_session": "2025-09-23",
+    "first_session": "2025-09-24",
     "has_full_52w_history": true,
-    "last_session": "2026-11-17",
+    "last_session": "2026-11-18",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.34x"
+    "volume_multiplier": "0.14x"
   },
   "price": {
-    "as_of": "2026-11-17",
-    "change": 0.21,
-    "change_pct": 1.78,
-    "close": 11.98,
-    "previous_close": 11.77,
+    "as_of": "2026-11-18",
+    "change": -0.05,
+    "change_pct": -0.42,
+    "close": 11.93,
+    "previous_close": 11.98,
     "type": "EOD_CLOSE",
-    "volume": 4829
+    "volume": 505
   },
   "range": {
-    "distance_from_high_pct": -50.06,
-    "distance_from_low_pct": 40.28,
+    "distance_from_high_pct": -50.27,
+    "distance_from_low_pct": 39.7,
     "high_52w": 23.99,
     "history_basis": "52_WEEK",
     "low_52w": 8.54,
-    "range_position_pct": 22.27
+    "range_position_pct": 21.94
   },
   "risk_model": {
-    "invalidation_floor": 11.56,
+    "invalidation_floor": 11.51,
     "risk_per_share": 0.66,
-    "technical_pivot": 12.22
+    "technical_pivot": 12.17
   },
   "schema_version": "1.0",
   "sector": null,

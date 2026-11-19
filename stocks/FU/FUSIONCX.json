@@ -153,14 +153,22 @@
       "open": 290.6,
       "time": "2026-11-17",
       "volume": 465984
+    },
+    {
+      "close": 277.4,
+      "high": 294.25,
+      "low": 275.8,
+      "open": 292.0,
+      "time": "2026-11-18",
+      "volume": 184616
     }
   ],
   "company_name": "Fusion CX Limited",
   "history": {
     "first_session": "2026-10-22",
     "has_full_52w_history": false,
-    "last_session": "2026-11-17",
-    "sessions_available": 19
+    "last_session": "2026-11-18",
+    "sessions_available": 20
   },
   "industry": null,
   "isin": "INE0N2201019",
@@ -168,31 +176,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 80,
+    "momentum_score": 72,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.33x"
+    "volume_multiplier": "0.14x"
   },
   "price": {
-    "as_of": "2026-11-17",
-    "change": 3.35,
-    "change_pct": 1.15,
-    "close": 294.85,
-    "previous_close": 291.5,
+    "as_of": "2026-11-18",
+    "change": -17.45,
+    "change_pct": -5.92,
+    "close": 277.4,
+    "previous_close": 294.85,
     "type": "EOD_CLOSE",
-    "volume": 465984
+    "volume": 184616
   },
   "range": {
-    "distance_from_high_pct": -6.37,
-    "distance_from_low_pct": 12.41,
+    "distance_from_high_pct": -11.91,
+    "distance_from_low_pct": 5.76,
     "high_52w": 314.9,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 262.3,
-    "range_position_pct": 61.88
+    "range_position_pct": 28.71
   },
   "risk_model": {
-    "invalidation_floor": 284.53,
-    "risk_per_share": 16.22,
-    "technical_pivot": 300.75
+    "invalidation_floor": 267.69,
+    "risk_per_share": 15.26,
+    "technical_pivot": 282.95
   },
   "schema_version": "1.0",
   "sector": null,
