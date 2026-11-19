@@ -505,14 +505,22 @@
       "open": 118.58,
       "time": "2026-11-18",
       "volume": 210
+    },
+    {
+      "close": 123.07,
+      "high": 127.0,
+      "low": 121.05,
+      "open": 125.73,
+      "time": "2026-11-19",
+      "volume": 439
     }
   ],
   "company_name": "MYSORE PETRO CHEMICALS LTD.",
   "history": {
     "first_session": "2026-08-18",
     "has_full_52w_history": false,
-    "last_session": "2026-11-18",
-    "sessions_available": 63
+    "last_session": "2026-11-19",
+    "sessions_available": 64
   },
   "industry": null,
   "isin": "INE741A01011",
@@ -520,31 +528,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 44,
+    "momentum_score": 41,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.15x"
+    "volume_multiplier": "0.32x"
   },
   "price": {
-    "as_of": "2026-11-18",
-    "change": 2.25,
-    "change_pct": 1.8,
-    "close": 127.0,
-    "previous_close": 124.75,
+    "as_of": "2026-11-19",
+    "change": -3.93,
+    "change_pct": -3.09,
+    "close": 123.07,
+    "previous_close": 127.0,
     "type": "EOD_CLOSE",
-    "volume": 210
+    "volume": 439
   },
   "range": {
-    "distance_from_high_pct": -30.23,
-    "distance_from_low_pct": 17.27,
+    "distance_from_high_pct": -32.39,
+    "distance_from_low_pct": 13.64,
     "high_52w": 182.03,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 108.3,
-    "range_position_pct": 25.36
+    "range_position_pct": 20.03
   },
   "risk_model": {
-    "invalidation_floor": 122.55,
-    "risk_per_share": 6.99,
-    "technical_pivot": 129.54
+    "invalidation_floor": 118.76,
+    "risk_per_share": 6.77,
+    "technical_pivot": 125.53
   },
   "schema_version": "1.0",
   "sector": null,

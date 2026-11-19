@@ -257,14 +257,22 @@
       "open": 399.0,
       "time": "2026-11-18",
       "volume": 325435
+    },
+    {
+      "close": 395.25,
+      "high": 400.0,
+      "low": 381.55,
+      "open": 390.0,
+      "time": "2026-11-19",
+      "volume": 464710
     }
   ],
   "company_name": "Orient Cables (India) Limited",
   "history": {
     "first_session": "2026-10-05",
     "has_full_52w_history": false,
-    "last_session": "2026-11-18",
-    "sessions_available": 32
+    "last_session": "2026-11-19",
+    "sessions_available": 33
   },
   "industry": null,
   "isin": "INE0J1N01028",
@@ -272,31 +280,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 65,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.59x"
+    "volume_multiplier": "0.85x"
   },
   "price": {
-    "as_of": "2026-11-18",
-    "change": -5.75,
-    "change_pct": -1.45,
-    "close": 389.55,
-    "previous_close": 395.3,
+    "as_of": "2026-11-19",
+    "change": 5.7,
+    "change_pct": 1.46,
+    "close": 395.25,
+    "previous_close": 389.55,
     "type": "EOD_CLOSE",
-    "volume": 325435
+    "volume": 464710
   },
   "range": {
-    "distance_from_high_pct": -16.2,
-    "distance_from_low_pct": 19.27,
+    "distance_from_high_pct": -14.97,
+    "distance_from_low_pct": 21.02,
     "high_52w": 464.85,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 326.6,
-    "range_position_pct": 45.53
+    "range_position_pct": 49.66
   },
   "risk_model": {
-    "invalidation_floor": 375.92,
-    "risk_per_share": 21.42,
-    "technical_pivot": 397.34
+    "invalidation_floor": 381.42,
+    "risk_per_share": 21.74,
+    "technical_pivot": 403.16
   },
   "schema_version": "1.0",
   "sector": null,

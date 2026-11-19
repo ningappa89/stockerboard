@@ -281,14 +281,22 @@
       "open": 131.2,
       "time": "2026-11-18",
       "volume": 197938
+    },
+    {
+      "close": 131.43,
+      "high": 133.75,
+      "low": 129.8,
+      "open": 131.31,
+      "time": "2026-11-19",
+      "volume": 487667
     }
   ],
   "company_name": "Varmora Granito Limited",
   "history": {
     "first_session": "2026-09-29",
     "has_full_52w_history": false,
-    "last_session": "2026-11-18",
-    "sessions_available": 35
+    "last_session": "2026-11-19",
+    "sessions_available": 36
   },
   "industry": null,
   "isin": "INE0M5301040",
@@ -296,31 +304,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 61,
+    "momentum_score": 60,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.27x"
+    "volume_multiplier": "0.7x"
   },
   "price": {
-    "as_of": "2026-11-18",
-    "change": 0.34,
-    "change_pct": 0.26,
-    "close": 132.89,
-    "previous_close": 132.55,
+    "as_of": "2026-11-19",
+    "change": -1.46,
+    "change_pct": -1.1,
+    "close": 131.43,
+    "previous_close": 132.89,
     "type": "EOD_CLOSE",
-    "volume": 197938
+    "volume": 487667
   },
   "range": {
-    "distance_from_high_pct": -18.86,
-    "distance_from_low_pct": 13.17,
+    "distance_from_high_pct": -19.75,
+    "distance_from_low_pct": 11.93,
     "high_52w": 163.77,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 117.42,
-    "range_position_pct": 33.38
+    "range_position_pct": 30.23
   },
   "risk_model": {
-    "invalidation_floor": 128.24,
-    "risk_per_share": 7.31,
-    "technical_pivot": 135.55
+    "invalidation_floor": 126.83,
+    "risk_per_share": 7.23,
+    "technical_pivot": 134.06
   },
   "schema_version": "1.0",
   "sector": null,

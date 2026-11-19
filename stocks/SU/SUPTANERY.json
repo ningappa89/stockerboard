@@ -521,14 +521,22 @@
       "open": 7.68,
       "time": "2026-11-18",
       "volume": 52631
+    },
+    {
+      "close": 7.57,
+      "high": 7.8,
+      "low": 7.36,
+      "open": 7.8,
+      "time": "2026-11-19",
+      "volume": 37023
     }
   ],
   "company_name": "SUPER TANNERY LTD.",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-11-18",
-    "sessions_available": 65
+    "last_session": "2026-11-19",
+    "sessions_available": 66
   },
   "industry": null,
   "isin": "INE460D01038",
@@ -538,29 +546,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.88x"
+    "volume_multiplier": "0.63x"
   },
   "price": {
-    "as_of": "2026-11-18",
-    "change": -0.17,
-    "change_pct": -2.21,
-    "close": 7.51,
-    "previous_close": 7.68,
+    "as_of": "2026-11-19",
+    "change": 0.06,
+    "change_pct": 0.8,
+    "close": 7.57,
+    "previous_close": 7.51,
     "type": "EOD_CLOSE",
-    "volume": 52631
+    "volume": 37023
   },
   "range": {
-    "distance_from_high_pct": -53.67,
-    "distance_from_low_pct": 10.28,
+    "distance_from_high_pct": -53.3,
+    "distance_from_low_pct": 11.16,
     "high_52w": 16.21,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 6.81,
-    "range_position_pct": 7.45
+    "range_position_pct": 8.09
   },
   "risk_model": {
-    "invalidation_floor": 7.25,
+    "invalidation_floor": 7.31,
     "risk_per_share": 0.5,
-    "technical_pivot": 7.66
+    "technical_pivot": 7.72
   },
   "schema_version": "1.0",
   "sector": null,

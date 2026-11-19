@@ -521,14 +521,22 @@
       "open": 1.91,
       "time": "2026-11-18",
       "volume": 183038
+    },
+    {
+      "close": 1.92,
+      "high": 2.0,
+      "low": 1.91,
+      "open": 2.0,
+      "time": "2026-11-19",
+      "volume": 143959
     }
   ],
   "company_name": "CRESSANDA RAILWAY SOLUT L",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-11-18",
-    "sessions_available": 65
+    "last_session": "2026-11-19",
+    "sessions_available": 66
   },
   "industry": null,
   "isin": "INE716D01033",
@@ -538,29 +546,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.86x"
+    "volume_multiplier": "0.68x"
   },
   "price": {
-    "as_of": "2026-11-18",
-    "change": 0.0,
-    "change_pct": 0.0,
-    "close": 1.96,
+    "as_of": "2026-11-19",
+    "change": -0.04,
+    "change_pct": -2.04,
+    "close": 1.92,
     "previous_close": 1.96,
     "type": "EOD_CLOSE",
-    "volume": 183038
+    "volume": 143959
   },
   "range": {
-    "distance_from_high_pct": -44.94,
-    "distance_from_low_pct": 13.95,
+    "distance_from_high_pct": -46.07,
+    "distance_from_low_pct": 11.63,
     "high_52w": 3.56,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 1.72,
-    "range_position_pct": 13.04
+    "range_position_pct": 10.87
   },
   "risk_model": {
-    "invalidation_floor": 1.89,
+    "invalidation_floor": 1.85,
     "risk_per_share": 0.5,
-    "technical_pivot": 2.0
+    "technical_pivot": 1.96
   },
   "schema_version": "1.0",
   "sector": null,

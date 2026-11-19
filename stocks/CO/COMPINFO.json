@@ -1737,14 +1737,22 @@
       "open": 0.92,
       "time": "2026-11-18",
       "volume": 13307
+    },
+    {
+      "close": 0.92,
+      "high": 0.95,
+      "low": 0.91,
+      "open": 0.95,
+      "time": "2026-11-19",
+      "volume": 74182
     }
   ],
   "company_name": "COMPUAGE INFOCOM LTD",
   "history": {
     "first_session": "2026-01-01",
     "has_full_52w_history": false,
-    "last_session": "2026-11-18",
-    "sessions_available": 217
+    "last_session": "2026-11-19",
+    "sessions_available": 218
   },
   "industry": null,
   "isin": "INE070C01037",
@@ -1753,30 +1761,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.75x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "3.96x"
   },
   "price": {
-    "as_of": "2026-11-18",
-    "change": -0.01,
-    "change_pct": -1.04,
-    "close": 0.95,
-    "previous_close": 0.96,
+    "as_of": "2026-11-19",
+    "change": -0.03,
+    "change_pct": -3.16,
+    "close": 0.92,
+    "previous_close": 0.95,
     "type": "EOD_CLOSE",
-    "volume": 13307
+    "volume": 74182
   },
   "range": {
-    "distance_from_high_pct": -45.71,
-    "distance_from_low_pct": 5.56,
+    "distance_from_high_pct": -47.43,
+    "distance_from_low_pct": 2.22,
     "high_52w": 1.75,
     "history_basis": "52_WEEK",
     "low_52w": 0.9,
-    "range_position_pct": 5.88
+    "range_position_pct": 2.35
   },
   "risk_model": {
-    "invalidation_floor": 0.92,
+    "invalidation_floor": 0.89,
     "risk_per_share": 0.5,
-    "technical_pivot": 0.97
+    "technical_pivot": 0.94
   },
   "schema_version": "1.0",
   "sector": null,

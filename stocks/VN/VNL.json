@@ -233,14 +233,22 @@
       "open": 116.01,
       "time": "2026-11-18",
       "volume": 72868
+    },
+    {
+      "close": 115.19,
+      "high": 116.0,
+      "low": 114.74,
+      "open": 115.25,
+      "time": "2026-11-19",
+      "volume": 144740
     }
   ],
   "company_name": "Vishal Nirmiti Limited",
   "history": {
     "first_session": "2026-10-08",
     "has_full_52w_history": false,
-    "last_session": "2026-11-18",
-    "sessions_available": 29
+    "last_session": "2026-11-19",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE1O5L01025",
@@ -250,29 +258,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.17x"
+    "volume_multiplier": "0.33x"
   },
   "price": {
-    "as_of": "2026-11-18",
-    "change": -0.75,
-    "change_pct": -0.64,
-    "close": 116.29,
-    "previous_close": 117.04,
+    "as_of": "2026-11-19",
+    "change": -1.1,
+    "change_pct": -0.95,
+    "close": 115.19,
+    "previous_close": 116.29,
     "type": "EOD_CLOSE",
-    "volume": 72868
+    "volume": 144740
   },
   "range": {
-    "distance_from_high_pct": -45.91,
-    "distance_from_low_pct": 30.38,
+    "distance_from_high_pct": -46.42,
+    "distance_from_low_pct": 29.15,
     "high_52w": 215.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 89.19,
-    "range_position_pct": 21.54
+    "range_position_pct": 20.67
   },
   "risk_model": {
-    "invalidation_floor": 112.22,
-    "risk_per_share": 6.4,
-    "technical_pivot": 118.62
+    "invalidation_floor": 111.16,
+    "risk_per_share": 6.33,
+    "technical_pivot": 117.49
   },
   "schema_version": "1.0",
   "sector": null,

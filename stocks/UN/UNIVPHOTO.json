@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 266.5,
-      "high": 270.85,
-      "low": 264.1,
-      "open": 270.3,
-      "time": "2025-11-11",
-      "volume": 1299
-    },
-    {
       "close": 260.25,
       "high": 274.95,
       "low": 252.05,
@@ -2017,13 +2009,21 @@
       "open": 452.55,
       "time": "2026-11-18",
       "volume": 1473
+    },
+    {
+      "close": 459.0,
+      "high": 459.0,
+      "low": 441.0,
+      "open": 441.0,
+      "time": "2026-11-19",
+      "volume": 1240
     }
   ],
   "company_name": "UNIVERSUS PHOTO IMAGINGS LIMIT",
   "history": {
-    "first_session": "2025-11-11",
+    "first_session": "2025-11-12",
     "has_full_52w_history": true,
-    "last_session": "2026-11-18",
+    "last_session": "2026-11-19",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.02x"
+    "momentum_score": 50,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.61x"
   },
   "price": {
-    "as_of": "2026-11-18",
-    "change": 6.3,
-    "change_pct": 1.42,
-    "close": 450.0,
-    "previous_close": 443.7,
+    "as_of": "2026-11-19",
+    "change": 9.0,
+    "change_pct": 2.0,
+    "close": 459.0,
+    "previous_close": 450.0,
     "type": "EOD_CLOSE",
-    "volume": 1473
+    "volume": 1240
   },
   "range": {
-    "distance_from_high_pct": -27.97,
-    "distance_from_low_pct": 149.17,
+    "distance_from_high_pct": -26.53,
+    "distance_from_low_pct": 154.15,
     "high_52w": 624.75,
     "history_basis": "52_WEEK",
     "low_52w": 180.6,
-    "range_position_pct": 60.66
+    "range_position_pct": 62.68
   },
   "risk_model": {
-    "invalidation_floor": 434.25,
-    "risk_per_share": 24.75,
-    "technical_pivot": 459.0
+    "invalidation_floor": 442.94,
+    "risk_per_share": 25.24,
+    "technical_pivot": 468.18
   },
   "schema_version": "1.0",
   "sector": null,
