@@ -2,49 +2,49 @@
   "schema_version": 1,
   "status": "CERTIFIED",
   "screen_policy": "LIQUID_NSE_EQ_52W_V1",
-  "market_session": "2026-11-19",
-  "gold_run_id": "gold_run_089beffc3359",
+  "market_session": "2026-11-20",
+  "gold_run_id": "gold_run_50a3c069ac86",
   "ratio_release_id": "DOSSIER_V2_ROE_eb43619079d11bfc_288d03e321878ac0",
   "screened_count": 350,
   "stockme_policy": "STOCKME_52W_SCORE_V1",
   "stockme_candidate_count": 100,
-  "stockme_qualified_count": 6,
-  "stockme_session": "2026-11-19",
-  "home_market_session": "2026-11-19",
+  "stockme_qualified_count": 3,
+  "stockme_session": "2026-11-20",
+  "home_market_session": "2026-11-20",
   "home_universe_count": 2628,
-  "main_roe_count": 175,
-  "breadth_pct": 8.0,
+  "main_roe_count": 172,
+  "breadth_pct": 9.1,
   "cup_with_handle": {
     "status": "PREVIEW",
     "enabled": true,
     "preview": true,
     "requested_mode": "preview",
-    "session": "2026-11-19",
-    "runtime_seconds": 39.78,
+    "session": "2026-11-20",
+    "runtime_seconds": 42.27,
     "coverage": {
       "cohort": 2628,
-      "excluded": 1208,
+      "excluded": 1206,
       "exclusion_reasons": {
-        "BELOW_LIQUIDITY_FLOOR": 836,
-        "INSUFFICIENT_CONTIGUOUS_COMPARABLE_HISTORY": 325,
-        "NO_CURRENT_SESSION_BAR": 36,
+        "BELOW_LIQUIDITY_FLOOR": 835,
+        "INSUFFICIENT_CONTIGUOUS_COMPARABLE_HISTORY": 322,
+        "NO_CURRENT_SESSION_BAR": 38,
         "UNRESOLVED_SECURITY_IDENTITY": 11
       },
       "matched": 4,
-      "no_match": 1416,
-      "scanned": 1420
+      "no_match": 1418,
+      "scanned": 1422
     },
     "release_gates": {
       "ready": false,
       "backfill_passed": true,
       "holdout_passed": false,
       "shadow_passed": false,
-      "shadow_sessions": 1,
+      "shadow_sessions": 2,
       "required_shadow_sessions": 20,
-      "p95_seconds": 39.61
+      "p95_seconds": 41.97
     },
-    "index_sha256": "3c44fb2e2ad0e101bbc62bc9108905fcd8b1797dd463ffcdb6d3bd0e8d81ff84"
+    "index_sha256": "931516807da829e5b72b6d10827a5d4cde89d7cdf24988a67cbd8bb147343ed6"
   },
-  "html_sha256": "d004371b3aeaf5f73e50e3fa2bdb0cb66b8f05954ba188d9eb52d9a805b3b442",
-  "certified_at_utc": "2026-11-19T12:31:41.609123+00:00"
+  "html_sha256": "348a344087998efdb816a760389c176a996a3502cc56163166152ba38a504f34",
+  "certified_at_utc": "2026-11-20T18:05:49.865641+00:00"
 }

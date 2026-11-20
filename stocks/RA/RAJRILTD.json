@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 25.25,
-      "high": 25.25,
-      "low": 24.4,
-      "open": 24.62,
-      "time": "2025-11-13",
-      "volume": 16519
-    },
-    {
       "close": 25.52,
       "high": 25.75,
       "low": 25.25,
@@ -2017,13 +2009,21 @@
       "open": 21.36,
       "time": "2026-11-19",
       "volume": 13851
+    },
+    {
+      "close": 22.3,
+      "high": 22.31,
+      "low": 21.45,
+      "open": 22.24,
+      "time": "2026-11-20",
+      "volume": 21741
     }
   ],
   "company_name": "RAJ RAYON INDUSTRIES LIMITED",
   "history": {
-    "first_session": "2025-11-13",
+    "first_session": "2025-11-14",
     "has_full_52w_history": true,
-    "last_session": "2026-11-19",
+    "last_session": "2026-11-20",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 66,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.92x"
+    "volume_multiplier": "1.36x"
   },
   "price": {
-    "as_of": "2026-11-19",
+    "as_of": "2026-11-20",
     "change": 0.42,
-    "change_pct": 1.96,
-    "close": 21.88,
-    "previous_close": 21.46,
+    "change_pct": 1.92,
+    "close": 22.3,
+    "previous_close": 21.88,
     "type": "EOD_CLOSE",
-    "volume": 13851
+    "volume": 21741
   },
   "range": {
-    "distance_from_high_pct": -15.36,
-    "distance_from_low_pct": 14.38,
+    "distance_from_high_pct": -13.73,
+    "distance_from_low_pct": 16.57,
     "high_52w": 25.85,
     "history_basis": "52_WEEK",
     "low_52w": 19.13,
-    "range_position_pct": 40.92
+    "range_position_pct": 47.17
   },
   "risk_model": {
-    "invalidation_floor": 21.11,
-    "risk_per_share": 1.21,
-    "technical_pivot": 22.32
+    "invalidation_floor": 21.52,
+    "risk_per_share": 1.23,
+    "technical_pivot": 22.75
   },
   "schema_version": "1.0",
   "sector": null,

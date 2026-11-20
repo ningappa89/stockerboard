@@ -1537,14 +1537,22 @@
       "open": 1.56,
       "time": "2026-11-19",
       "volume": 161205
+    },
+    {
+      "close": 1.49,
+      "high": 1.54,
+      "low": 1.47,
+      "open": 1.54,
+      "time": "2026-11-20",
+      "volume": 132388
     }
   ],
   "company_name": "HOUSING DEV & INFRA LTD",
   "history": {
     "first_session": "2026-01-01",
     "has_full_52w_history": false,
-    "last_session": "2026-11-19",
-    "sessions_available": 192
+    "last_session": "2026-11-20",
+    "sessions_available": 193
   },
   "industry": null,
   "isin": "INE191I01012",
@@ -1554,29 +1562,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.2x"
+    "volume_multiplier": "1.0x"
   },
   "price": {
-    "as_of": "2026-11-19",
-    "change": -0.02,
-    "change_pct": -1.28,
-    "close": 1.54,
-    "previous_close": 1.56,
+    "as_of": "2026-11-20",
+    "change": -0.05,
+    "change_pct": -3.25,
+    "close": 1.49,
+    "previous_close": 1.54,
     "type": "EOD_CLOSE",
-    "volume": 161205
+    "volume": 132388
   },
   "range": {
-    "distance_from_high_pct": -43.8,
-    "distance_from_low_pct": 27.27,
+    "distance_from_high_pct": -45.62,
+    "distance_from_low_pct": 23.14,
     "high_52w": 2.74,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 1.21,
-    "range_position_pct": 21.57
+    "range_position_pct": 18.3
   },
   "risk_model": {
-    "invalidation_floor": 1.49,
+    "invalidation_floor": 1.44,
     "risk_per_share": 0.5,
-    "technical_pivot": 1.57
+    "technical_pivot": 1.52
   },
   "schema_version": "1.0",
   "sector": null,

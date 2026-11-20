@@ -529,14 +529,22 @@
       "open": 2.99,
       "time": "2026-11-19",
       "volume": 10950
+    },
+    {
+      "close": 2.97,
+      "high": 3.08,
+      "low": 2.9,
+      "open": 3.08,
+      "time": "2026-11-20",
+      "volume": 20682
     }
   ],
   "company_name": "MINAL INDUSTRIES LIMITED",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-11-19",
-    "sessions_available": 66
+    "last_session": "2026-11-20",
+    "sessions_available": 67
   },
   "industry": null,
   "isin": "INE097E01028",
@@ -546,29 +554,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.21x"
+    "volume_multiplier": "0.4x"
   },
   "price": {
-    "as_of": "2026-11-19",
-    "change": -0.03,
-    "change_pct": -0.98,
-    "close": 3.02,
-    "previous_close": 3.05,
+    "as_of": "2026-11-20",
+    "change": -0.05,
+    "change_pct": -1.66,
+    "close": 2.97,
+    "previous_close": 3.02,
     "type": "EOD_CLOSE",
-    "volume": 10950
+    "volume": 20682
   },
   "range": {
-    "distance_from_high_pct": -48.73,
-    "distance_from_low_pct": 76.61,
+    "distance_from_high_pct": -49.58,
+    "distance_from_low_pct": 73.68,
     "high_52w": 5.89,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 1.71,
-    "range_position_pct": 31.34
+    "range_position_pct": 30.14
   },
   "risk_model": {
-    "invalidation_floor": 2.91,
+    "invalidation_floor": 2.87,
     "risk_per_share": 0.5,
-    "technical_pivot": 3.08
+    "technical_pivot": 3.03
   },
   "schema_version": "1.0",
   "sector": null,

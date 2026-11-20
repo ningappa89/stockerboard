@@ -1745,14 +1745,22 @@
       "open": 36.82,
       "time": "2026-11-19",
       "volume": 13506
+    },
+    {
+      "close": 37.9,
+      "high": 37.9,
+      "low": 37.14,
+      "open": 37.5,
+      "time": "2026-11-20",
+      "volume": 233002
     }
   ],
   "company_name": "IL&FS ENG AND CONS CO LTD",
   "history": {
     "first_session": "2026-01-01",
     "has_full_52w_history": false,
-    "last_session": "2026-11-19",
-    "sessions_available": 218
+    "last_session": "2026-11-20",
+    "sessions_available": 219
   },
   "industry": null,
   "isin": "INE369I01014",
@@ -1760,31 +1768,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 68,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.4x"
+    "momentum_score": 69,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "5.57x"
   },
   "price": {
-    "as_of": "2026-11-19",
-    "change": -0.12,
-    "change_pct": -0.32,
-    "close": 37.45,
-    "previous_close": 37.57,
+    "as_of": "2026-11-20",
+    "change": 0.45,
+    "change_pct": 1.2,
+    "close": 37.9,
+    "previous_close": 37.45,
     "type": "EOD_CLOSE",
-    "volume": 13506
+    "volume": 233002
   },
   "range": {
-    "distance_from_high_pct": -14.5,
-    "distance_from_low_pct": 78.33,
+    "distance_from_high_pct": -13.47,
+    "distance_from_low_pct": 80.48,
     "high_52w": 43.8,
     "history_basis": "52_WEEK",
     "low_52w": 21.0,
-    "range_position_pct": 72.15
+    "range_position_pct": 74.12
   },
   "risk_model": {
-    "invalidation_floor": 36.14,
-    "risk_per_share": 2.06,
-    "technical_pivot": 38.2
+    "invalidation_floor": 36.57,
+    "risk_per_share": 2.09,
+    "technical_pivot": 38.66
   },
   "schema_version": "1.0",
   "sector": null,

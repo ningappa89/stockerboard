@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 15.29,
-      "high": 15.6,
-      "low": 15.01,
-      "open": 15.39,
-      "time": "2025-08-07",
-      "volume": 17022
-    },
-    {
       "close": 15.21,
       "high": 15.48,
       "low": 15.15,
@@ -2017,13 +2009,21 @@
       "open": 6.2,
       "time": "2026-11-19",
       "volume": 3607
+    },
+    {
+      "close": 6.12,
+      "high": 6.12,
+      "low": 6.12,
+      "open": 6.12,
+      "time": "2026-11-20",
+      "volume": 15
     }
   ],
   "company_name": "Simbhaoli Sugars Ltd",
   "history": {
-    "first_session": "2025-08-07",
+    "first_session": "2025-08-08",
     "has_full_52w_history": true,
-    "last_session": "2026-11-19",
+    "last_session": "2026-11-20",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.25x"
+    "volume_multiplier": "0.0x"
   },
   "price": {
-    "as_of": "2026-11-19",
-    "change": -0.06,
-    "change_pct": -0.95,
-    "close": 6.24,
-    "previous_close": 6.3,
+    "as_of": "2026-11-20",
+    "change": -0.12,
+    "change_pct": -1.92,
+    "close": 6.12,
+    "previous_close": 6.24,
     "type": "EOD_CLOSE",
-    "volume": 3607
+    "volume": 15
   },
   "range": {
-    "distance_from_high_pct": -60.98,
-    "distance_from_low_pct": 4.87,
+    "distance_from_high_pct": -61.73,
+    "distance_from_low_pct": 2.86,
     "high_52w": 15.99,
     "history_basis": "52_WEEK",
     "low_52w": 5.95,
-    "range_position_pct": 2.89
+    "range_position_pct": 1.69
   },
   "risk_model": {
-    "invalidation_floor": 6.02,
+    "invalidation_floor": 5.91,
     "risk_per_share": 0.5,
-    "technical_pivot": 6.36
+    "technical_pivot": 6.24
   },
   "schema_version": "1.0",
   "sector": null,

@@ -121,14 +121,22 @@
       "open": 209.71,
       "time": "2026-11-19",
       "volume": 97546
+    },
+    {
+      "close": 208.31,
+      "high": 211.31,
+      "low": 197.2,
+      "open": 204.92,
+      "time": "2026-11-20",
+      "volume": 162004
     }
   ],
   "company_name": "ARHAM TECHNOLOGIES LTD",
   "history": {
     "first_session": "2026-10-30",
     "has_full_52w_history": false,
-    "last_session": "2026-11-19",
-    "sessions_available": 15
+    "last_session": "2026-11-20",
+    "sessions_available": 16
   },
   "industry": null,
   "isin": "INE0L2Y01011",
@@ -136,31 +144,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 71,
+    "momentum_score": 73,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.55x"
+    "volume_multiplier": "0.92x"
   },
   "price": {
-    "as_of": "2026-11-19",
-    "change": -4.0,
-    "change_pct": -1.92,
-    "close": 204.35,
-    "previous_close": 208.35,
+    "as_of": "2026-11-20",
+    "change": 3.96,
+    "change_pct": 1.94,
+    "close": 208.31,
+    "previous_close": 204.35,
     "type": "EOD_CLOSE",
-    "volume": 97546
+    "volume": 162004
   },
   "range": {
-    "distance_from_high_pct": -12.56,
-    "distance_from_low_pct": 4.63,
+    "distance_from_high_pct": -10.86,
+    "distance_from_low_pct": 6.66,
     "high_52w": 233.7,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 195.31,
-    "range_position_pct": 23.55
+    "range_position_pct": 33.86
   },
   "risk_model": {
-    "invalidation_floor": 197.2,
-    "risk_per_share": 11.24,
-    "technical_pivot": 208.44
+    "invalidation_floor": 201.02,
+    "risk_per_share": 11.46,
+    "technical_pivot": 212.48
   },
   "schema_version": "1.0",
   "sector": null,

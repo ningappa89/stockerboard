@@ -345,14 +345,22 @@
       "open": 141.25,
       "time": "2026-11-19",
       "volume": 214100
+    },
+    {
+      "close": 141.09,
+      "high": 148.7,
+      "low": 139.1,
+      "open": 140.11,
+      "time": "2026-11-20",
+      "volume": 757698
     }
   ],
   "company_name": "Veegaland Developers Limited",
   "history": {
     "first_session": "2026-09-18",
     "has_full_52w_history": false,
-    "last_session": "2026-11-19",
-    "sessions_available": 43
+    "last_session": "2026-11-20",
+    "sessions_available": 44
   },
   "industry": null,
   "isin": "INE1JTV01015",
@@ -360,31 +368,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 78,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.74x"
+    "momentum_score": 77,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.37x"
   },
   "price": {
-    "as_of": "2026-11-19",
-    "change": 1.69,
-    "change_pct": 1.2,
-    "close": 142.01,
-    "previous_close": 140.32,
+    "as_of": "2026-11-20",
+    "change": -0.92,
+    "change_pct": -0.65,
+    "close": 141.09,
+    "previous_close": 142.01,
     "type": "EOD_CLOSE",
-    "volume": 214100
+    "volume": 757698
   },
   "range": {
-    "distance_from_high_pct": -7.79,
-    "distance_from_low_pct": 14.52,
+    "distance_from_high_pct": -8.38,
+    "distance_from_low_pct": 13.78,
     "high_52w": 154.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 124.0,
-    "range_position_pct": 60.03
+    "range_position_pct": 56.97
   },
   "risk_model": {
-    "invalidation_floor": 137.04,
-    "risk_per_share": 7.81,
-    "technical_pivot": 144.85
+    "invalidation_floor": 136.15,
+    "risk_per_share": 7.76,
+    "technical_pivot": 143.91
   },
   "schema_version": "1.0",
   "sector": null,

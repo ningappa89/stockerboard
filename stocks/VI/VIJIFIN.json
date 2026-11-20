@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2.83,
-      "high": 3.04,
-      "low": 2.83,
-      "open": 2.9,
-      "time": "2025-11-13",
-      "volume": 187708
-    },
-    {
       "close": 2.97,
       "high": 2.97,
       "low": 2.7,
@@ -2017,13 +2009,21 @@
       "open": 14.6,
       "time": "2026-11-19",
       "volume": 145797
+    },
+    {
+      "close": 14.33,
+      "high": 14.75,
+      "low": 14.33,
+      "open": 14.75,
+      "time": "2026-11-20",
+      "volume": 103549
     }
   ],
   "company_name": "VIJI FINANCE LTD",
   "history": {
-    "first_session": "2025-11-13",
+    "first_session": "2025-11-14",
     "has_full_52w_history": true,
-    "last_session": "2026-11-19",
+    "last_session": "2026-11-20",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 67,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.89x"
+    "volume_multiplier": "0.63x"
   },
   "price": {
-    "as_of": "2026-11-19",
-    "change": 0.28,
-    "change_pct": 1.95,
-    "close": 14.62,
-    "previous_close": 14.34,
+    "as_of": "2026-11-20",
+    "change": -0.29,
+    "change_pct": -1.98,
+    "close": 14.33,
+    "previous_close": 14.62,
     "type": "EOD_CLOSE",
-    "volume": 145797
+    "volume": 103549
   },
   "range": {
-    "distance_from_high_pct": -15.2,
-    "distance_from_low_pct": 627.36,
+    "distance_from_high_pct": -16.88,
+    "distance_from_low_pct": 612.94,
     "high_52w": 17.24,
     "history_basis": "52_WEEK",
     "low_52w": 2.01,
-    "range_position_pct": 82.8
+    "range_position_pct": 80.89
   },
   "risk_model": {
-    "invalidation_floor": 14.11,
-    "risk_per_share": 0.8,
-    "technical_pivot": 14.91
+    "invalidation_floor": 13.83,
+    "risk_per_share": 0.79,
+    "technical_pivot": 14.62
   },
   "schema_version": "1.0",
   "sector": null,

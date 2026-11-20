@@ -321,14 +321,22 @@
       "open": 675.8,
       "time": "2026-11-19",
       "volume": 443150
+    },
+    {
+      "close": 650.35,
+      "high": 662.0,
+      "low": 649.0,
+      "open": 660.0,
+      "time": "2026-11-20",
+      "volume": 299515
     }
   ],
   "company_name": "SS Retail Limited",
   "history": {
     "first_session": "2026-09-23",
     "has_full_52w_history": false,
-    "last_session": "2026-11-19",
-    "sessions_available": 40
+    "last_session": "2026-11-20",
+    "sessions_available": 41
   },
   "industry": null,
   "isin": "INE1EQW01028",
@@ -336,31 +344,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 51,
+    "momentum_score": 49,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.36x"
+    "volume_multiplier": "0.26x"
   },
   "price": {
-    "as_of": "2026-11-19",
-    "change": -13.85,
-    "change_pct": -2.05,
-    "close": 661.95,
-    "previous_close": 675.8,
+    "as_of": "2026-11-20",
+    "change": -11.6,
+    "change_pct": -1.75,
+    "close": 650.35,
+    "previous_close": 661.95,
     "type": "EOD_CLOSE",
-    "volume": 443150
+    "volume": 299515
   },
   "range": {
-    "distance_from_high_pct": -25.46,
-    "distance_from_low_pct": 9.77,
+    "distance_from_high_pct": -26.76,
+    "distance_from_low_pct": 7.84,
     "high_52w": 888.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 603.05,
-    "range_position_pct": 20.67
+    "range_position_pct": 16.6
   },
   "risk_model": {
-    "invalidation_floor": 638.78,
-    "risk_per_share": 36.41,
-    "technical_pivot": 675.19
+    "invalidation_floor": 627.59,
+    "risk_per_share": 35.77,
+    "technical_pivot": 663.36
   },
   "schema_version": "1.0",
   "sector": null,

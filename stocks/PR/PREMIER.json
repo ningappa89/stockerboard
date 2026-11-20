@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 3.41,
-      "high": 3.43,
-      "low": 3.27,
-      "open": 3.27,
-      "time": "2025-11-13",
-      "volume": 3791
-    },
-    {
       "close": 3.34,
       "high": 3.49,
       "low": 3.25,
@@ -2017,13 +2009,21 @@
       "open": 2.8,
       "time": "2026-11-19",
       "volume": 22653
+    },
+    {
+      "close": 2.75,
+      "high": 2.92,
+      "low": 2.72,
+      "open": 2.92,
+      "time": "2026-11-20",
+      "volume": 28408
     }
   ],
   "company_name": "PREMIER LTD.",
   "history": {
-    "first_session": "2025-11-13",
+    "first_session": "2025-11-14",
     "has_full_52w_history": true,
-    "last_session": "2026-11-19",
+    "last_session": "2026-11-20",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 62,
+    "momentum_score": 58,
     "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.08x"
+    "volume_multiplier": "2.37x"
   },
   "price": {
-    "as_of": "2026-11-19",
-    "change": 0.07,
-    "change_pct": 2.51,
-    "close": 2.86,
-    "previous_close": 2.79,
+    "as_of": "2026-11-20",
+    "change": -0.11,
+    "change_pct": -3.85,
+    "close": 2.75,
+    "previous_close": 2.86,
     "type": "EOD_CLOSE",
-    "volume": 22653
+    "volume": 28408
   },
   "range": {
-    "distance_from_high_pct": -18.05,
-    "distance_from_low_pct": 15.79,
+    "distance_from_high_pct": -21.2,
+    "distance_from_low_pct": 11.34,
     "high_52w": 3.49,
     "history_basis": "52_WEEK",
     "low_52w": 2.47,
-    "range_position_pct": 38.24
+    "range_position_pct": 27.45
   },
   "risk_model": {
-    "invalidation_floor": 2.76,
+    "invalidation_floor": 2.65,
     "risk_per_share": 0.5,
-    "technical_pivot": 2.92
+    "technical_pivot": 2.81
   },
   "schema_version": "1.0",
   "sector": null,

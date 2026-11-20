@@ -1609,14 +1609,22 @@
       "open": 0.97,
       "time": "2026-11-19",
       "volume": 212855
+    },
+    {
+      "close": 0.85,
+      "high": 0.9,
+      "low": 0.85,
+      "open": 0.9,
+      "time": "2026-11-20",
+      "volume": 107694
     }
   ],
   "company_name": "ARSHIYA LIMITED",
   "history": {
     "first_session": "2025-01-01",
     "has_full_52w_history": false,
-    "last_session": "2026-11-19",
-    "sessions_available": 201
+    "last_session": "2026-11-20",
+    "sessions_available": 202
   },
   "industry": null,
   "isin": "INE968D01022",
@@ -1626,29 +1634,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.67x"
+    "volume_multiplier": "0.9x"
   },
   "price": {
-    "as_of": "2026-11-19",
+    "as_of": "2026-11-20",
     "change": -0.04,
-    "change_pct": -4.3,
-    "close": 0.89,
-    "previous_close": 0.93,
+    "change_pct": -4.49,
+    "close": 0.85,
+    "previous_close": 0.89,
     "type": "EOD_CLOSE",
-    "volume": 212855
+    "volume": 107694
   },
   "range": {
-    "distance_from_high_pct": -74.28,
-    "distance_from_low_pct": 30.88,
+    "distance_from_high_pct": -75.43,
+    "distance_from_low_pct": 25.0,
     "high_52w": 3.46,
     "history_basis": "52_WEEK",
     "low_52w": 0.68,
-    "range_position_pct": 7.55
+    "range_position_pct": 6.12
   },
   "risk_model": {
-    "invalidation_floor": 0.86,
+    "invalidation_floor": 0.82,
     "risk_per_share": 0.5,
-    "technical_pivot": 0.91
+    "technical_pivot": 0.87
   },
   "schema_version": "1.0",
   "sector": null,

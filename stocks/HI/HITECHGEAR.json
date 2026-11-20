@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 735.2,
-      "high": 773.85,
-      "low": 726.0,
-      "open": 773.85,
-      "time": "2025-11-13",
-      "volume": 1594
-    },
-    {
       "close": 736.6,
       "high": 755.0,
       "low": 731.55,
@@ -2017,13 +2009,21 @@
       "open": 485.0,
       "time": "2026-11-19",
       "volume": 655
+    },
+    {
+      "close": 490.65,
+      "high": 505.0,
+      "low": 486.7,
+      "open": 497.0,
+      "time": "2026-11-20",
+      "volume": 922
     }
   ],
   "company_name": "THE HI-TECH GEARS LIMITED",
   "history": {
-    "first_session": "2025-11-13",
+    "first_session": "2025-11-14",
     "has_full_52w_history": true,
-    "last_session": "2026-11-19",
+    "last_session": "2026-11-20",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.31x"
+    "volume_multiplier": "0.48x"
   },
   "price": {
-    "as_of": "2026-11-19",
-    "change": 2.45,
-    "change_pct": 0.5,
-    "close": 497.0,
-    "previous_close": 494.55,
+    "as_of": "2026-11-20",
+    "change": -6.35,
+    "change_pct": -1.28,
+    "close": 490.65,
+    "previous_close": 497.0,
     "type": "EOD_CLOSE",
-    "volume": 655
+    "volume": 922
   },
   "range": {
-    "distance_from_high_pct": -36.69,
-    "distance_from_low_pct": 5.7,
+    "distance_from_high_pct": -37.5,
+    "distance_from_low_pct": 4.35,
     "high_52w": 785.0,
     "history_basis": "52_WEEK",
     "low_52w": 470.2,
-    "range_position_pct": 8.51
+    "range_position_pct": 6.5
   },
   "risk_model": {
-    "invalidation_floor": 479.6,
-    "risk_per_share": 27.34,
-    "technical_pivot": 506.94
+    "invalidation_floor": 473.48,
+    "risk_per_share": 26.98,
+    "technical_pivot": 500.46
   },
   "schema_version": "1.0",
   "sector": null,

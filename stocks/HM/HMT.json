@@ -1745,14 +1745,22 @@
       "open": 49.0,
       "time": "2026-11-19",
       "volume": 5517
+    },
+    {
+      "close": 49.98,
+      "high": 51.49,
+      "low": 49.0,
+      "open": 51.49,
+      "time": "2026-11-20",
+      "volume": 14700
     }
   ],
   "company_name": "HMT LTD.",
   "history": {
     "first_session": "2026-01-01",
     "has_full_52w_history": false,
-    "last_session": "2026-11-19",
-    "sessions_available": 218
+    "last_session": "2026-11-20",
+    "sessions_available": 219
   },
   "industry": null,
   "isin": "INE262A01018",
@@ -1760,31 +1768,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 45,
+    "momentum_score": 42,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.53x"
+    "volume_multiplier": "1.46x"
   },
   "price": {
-    "as_of": "2026-11-19",
-    "change": 0.54,
-    "change_pct": 1.07,
-    "close": 51.2,
-    "previous_close": 50.66,
+    "as_of": "2026-11-20",
+    "change": -1.22,
+    "change_pct": -2.38,
+    "close": 49.98,
+    "previous_close": 51.2,
     "type": "EOD_CLOSE",
-    "volume": 5517
+    "volume": 14700
   },
   "range": {
-    "distance_from_high_pct": -29.81,
-    "distance_from_low_pct": 24.88,
+    "distance_from_high_pct": -31.49,
+    "distance_from_low_pct": 21.9,
     "high_52w": 72.95,
     "history_basis": "52_WEEK",
     "low_52w": 41.0,
-    "range_position_pct": 31.92
+    "range_position_pct": 28.11
   },
   "risk_model": {
-    "invalidation_floor": 49.41,
-    "risk_per_share": 2.81,
-    "technical_pivot": 52.22
+    "invalidation_floor": 48.23,
+    "risk_per_share": 2.75,
+    "technical_pivot": 50.98
   },
   "schema_version": "1.0",
   "sector": null,

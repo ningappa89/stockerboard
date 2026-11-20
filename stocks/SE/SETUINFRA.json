@@ -1593,14 +1593,22 @@
       "open": 0.44,
       "time": "2026-11-19",
       "volume": 151716
+    },
+    {
+      "close": 0.43,
+      "high": 0.45,
+      "low": 0.42,
+      "open": 0.44,
+      "time": "2026-11-20",
+      "volume": 5061
     }
   ],
   "company_name": "SETUBANDHAN INFRA LTD",
   "history": {
     "first_session": "2026-01-01",
     "has_full_52w_history": false,
-    "last_session": "2026-11-19",
-    "sessions_available": 199
+    "last_session": "2026-11-20",
+    "sessions_available": 200
   },
   "industry": null,
   "isin": "INE023M01027",
@@ -1610,29 +1618,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.7x"
+    "volume_multiplier": "0.06x"
   },
   "price": {
-    "as_of": "2026-11-19",
-    "change": 0.01,
-    "change_pct": 2.33,
-    "close": 0.44,
-    "previous_close": 0.43,
+    "as_of": "2026-11-20",
+    "change": -0.01,
+    "change_pct": -2.27,
+    "close": 0.43,
+    "previous_close": 0.44,
     "type": "EOD_CLOSE",
-    "volume": 151716
+    "volume": 5061
   },
   "range": {
-    "distance_from_high_pct": -37.14,
-    "distance_from_low_pct": 37.5,
+    "distance_from_high_pct": -38.57,
+    "distance_from_low_pct": 34.37,
     "high_52w": 0.7,
-    "history_basis": "AVAILABLE_HISTORY",
+    "history_basis": "52_WEEK",
     "low_52w": 0.32,
-    "range_position_pct": 31.58
+    "range_position_pct": 28.95
   },
   "risk_model": {
-    "invalidation_floor": 0.42,
+    "invalidation_floor": 0.41,
     "risk_per_share": 0.5,
-    "technical_pivot": 0.45
+    "technical_pivot": 0.44
   },
   "schema_version": "1.0",
   "sector": null,
