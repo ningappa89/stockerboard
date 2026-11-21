@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>Patterns · Stockerboard Pro</title></head><body>
+<p>Pattern scanners have moved to <a href="https://stockerboard.com/?mode=pro#tab-cup-with-handle">Stockerboard Pro → Patterns</a>.</p>
+<script>
+const params=new URLSearchParams(location.search);
+const allowed=['cup-with-handle','flat-base','double-bottom','ascending-triangle','vcp'];
+const family=allowed.includes(params.get('pattern'))?params.get('pattern'):"cup-with-handle";
+const target=new URL('https://stockerboard.com/');target.searchParams.set('mode','pro');
+if(params.get('symbol'))target.searchParams.set('symbol',params.get('symbol'));
+target.hash='tab-'+family;location.replace(target.href);
+</script></body></html>

@@ -5054,7 +5054,7 @@
 <link rel="stylesheet" href="/scripts/research-layout.css?v=HOME_HEADLINE_V3">
 <script defer src="/scripts/research-layout.js?v=20261029"></script>
 <script defer src="/scripts/company-routes.js?v=company-v1"></script>
-<script type="application/json" id="publicationHealth">{"version": 1, "session": "2026-11-20", "years": [2026], "cutoff": "17:30", "holidays": ["2026-01-15", "2026-01-26", "2026-02-15", "2026-03-03", "2026-03-21", "2026-03-26", "2026-03-31", "2026-04-03", "2026-04-14", "2026-05-01", "2026-05-28", "2026-06-26", "2026-08-15", "2026-09-14", "2026-10-02", "2026-10-20", "2026-11-10", "2026-11-24", "2026-12-25"], "unverifiedDates": ["2026-11-08"], "source": "https://nsearchives.nseindia.com/content/circulars/CMTR71775.pdf"}</script></head>
+<style id="patterns-group-filter">#intermediateTerminal .tab-bar[data-active-group="patterns"] .tab-btn:not([data-pro-group~="patterns"]){display:none!important}</style><script type="application/json" id="publicationHealth">{"version": 1, "session": "2026-11-20", "years": [2026], "cutoff": "17:30", "holidays": ["2026-01-15", "2026-01-26", "2026-02-15", "2026-03-03", "2026-03-21", "2026-03-26", "2026-03-31", "2026-04-03", "2026-04-14", "2026-05-01", "2026-05-28", "2026-06-26", "2026-08-15", "2026-09-14", "2026-10-02", "2026-10-20", "2026-11-10", "2026-11-24", "2026-12-25"], "unverifiedDates": ["2026-11-08"], "source": "https://nsearchives.nseindia.com/content/circulars/CMTR71775.pdf"}</script></head>
 <body>
 <script>document.body.classList.toggle("screen-fresher", document.documentElement.dataset.uiMode !== "pro");</script>
     <div class="container">
@@ -5303,8 +5303,8 @@
 <span>Cup with Handle</span>
 <span style="font-size: 0.8rem;">☕</span>
 </div>
-<div class="card-val mono" style="color: #10B981;">1 <span style="font-size: 0.85rem; color: var(--text-muted); font-weight: 500;">setup</span></div>
-<div class="card-sub">O'Neil breakout scanner · 1 setup found</div>
+<div class="card-val mono" style="color: #10B981;">3 current</div>
+<div class="card-sub">1 new volume-confirmed today · Research preview</div>
 </div>
 </div>
 <details class="pro-more-context">
@@ -5357,18 +5357,18 @@
         </div>
 
         <!-- Navigation Tabs --><!-- Navigation Tabs -->
-        <nav class="pro-section-nav" aria-label="Pro research sections">
+        <nav class="pro-section-nav" aria-label="Pro research sections"><button type="button" data-pro-section="patterns" onclick="showProGroup('patterns')">Patterns</button>
             <button type="button" class="active" data-pro-section="market" onclick="showProGroup('market')">Market screens</button>
             <button type="button" data-pro-section="stockme" onclick="showProGroup('stockme')">StockMe analysis</button>
             <button type="button" data-pro-section="research" onclick="showProGroup('research')">Learn &amp; research</button>
             <button type="button" data-pro-section="workspace" onclick="showProGroup('workspace')">My workspace</button>
         </nav>
-        <div class="tab-bar" data-active-group="market" aria-label="Views in selected Pro section">
+        <div class="tab-bar" data-active-group="market" aria-label="Views in selected Pro section"><!-- unified Pro patterns --><button type="button" class="tab-btn" data-pro-group="patterns" id="tabBtnCupWithHandle" aria-controls="tab-cup-with-handle" onclick="switchTab('tab-cup-with-handle', this); window.StockerboardPatterns.open('cup-with-handle')">Cup with Handle <span class="tab-counter" data-pattern-counter="cup-with-handle">3 current</span></button><button type="button" class="tab-btn" data-pro-group="patterns" id="tabBtnFlatBase" aria-controls="tab-flat-base" onclick="switchTab('tab-flat-base', this); window.StockerboardPatterns.open('flat-base')">Flat Base <span class="tab-counter" data-pattern-counter="flat-base">13 current</span></button><button type="button" class="tab-btn" data-pro-group="patterns" id="tabBtnDoubleBottom" aria-controls="tab-double-bottom" onclick="switchTab('tab-double-bottom', this); window.StockerboardPatterns.open('double-bottom')">Double Bottom (W) <span class="tab-counter" data-pattern-counter="double-bottom">132 current</span></button><button type="button" class="tab-btn" data-pro-group="patterns" id="tabBtnAscendingTriangle" aria-controls="tab-ascending-triangle" onclick="switchTab('tab-ascending-triangle', this); window.StockerboardPatterns.open('ascending-triangle')">Ascending Triangle <span class="tab-counter" data-pattern-counter="ascending-triangle">21 current</span></button><button type="button" class="tab-btn" data-pro-group="patterns" id="tabBtnVCP" aria-controls="tab-vcp" onclick="switchTab('tab-vcp', this); window.StockerboardPatterns.open('vcp')">Volatility Contraction (VCP) <span class="tab-counter" data-pattern-counter="vcp">69 current</span></button><!-- unified Pro patterns -->
             <button class="tab-btn active" data-pro-group="market" id="tabBtnScreener" onclick="switchTab('tab-screener', this)">
                 🔍 Market Explorer <span class="tab-counter">350</span>
             </button>
-            <!-- cup with handle button --><button type="button" class="tab-btn" data-pro-group="market" id="tabBtnCupWithHandle"
-        aria-controls="tab-cup-with-handle" onclick="switchTab('tab-cup-with-handle', this); StockerboardCup.open()">Cup with Handle</button><!-- cup with handle button -->
+            
+            
             
             
             <button class="tab-btn" data-pro-group="stockme" id="tabBtnStockMe" onclick="switchTab('tab-stockme-analysis', this)">
@@ -10453,70 +10453,9 @@
         
         
         
-        <!-- cup with handle panel --><link rel="stylesheet" href="/scripts/cup-with-handle.css?v=2">
-    <script defer src="/scripts/cup-with-handle.js?v=2"></script>
-    <div id="tab-cup-with-handle" class="tab-content" data-session="2026-11-20" data-index-sha256="931516807da829e5b72b6d10827a5d4cde89d7cdf24988a67cbd8bb147343ed6">
-        <section class="cup-panel" aria-labelledby="cup-heading">
-            <header class="cup-head">
-                <h2 id="cup-heading">Cup with Handle</h2>
-                <p class="cup-session">Market close <time id="cup-session" datetime="2026-11-20">2026-11-20</time></p>
-            </header>
-            <p class="cup-preview"><strong>Research preview</strong>
-                <span>Accuracy validation is in progress. NSE BE/BZ ingestion gaps limit coverage.</span></p>
-            <p class="cup-status" id="cup-status" role="status">Loading the daily scan…</p>
-            <dl class="cup-stats" id="cup-stats" hidden>
-                <div><dt>Securities scanned</dt><dd id="cup-scanned"></dd></div>
-                <div><dt>Setups found</dt><dd id="cup-matched"></dd></div>
-                <div><dt>Volume confirmed</dt><dd id="cup-confirmed"></dd></div>
-            </dl>
-            <details id="cup-coverage" class="cup-coverage" hidden>
-                <summary>View excluded securities <span id="cup-exclusion-count"></span></summary>
-                <dl id="cup-exclusions"></dl>
-            </details>
-            <div id="cup-workspace" class="cup-workspace" hidden>
-                <section id="cup-evidence" class="cup-evidence" aria-labelledby="cup-evidence-title" tabindex="-1" hidden>
-                    <header class="cup-evidence-head">
-                        <div><h3 id="cup-evidence-title"></h3><p id="cup-company-name"></p></div>
-                        <span id="cup-setup-badge" class="cup-badge"></span>
-                    </header>
-                    <dl class="cup-metrics" id="cup-metrics"></dl>
-                    <p id="cup-chart-status" class="cup-status" role="status"></p>
-                    <figure id="cup-figure" class="cup-figure" hidden>
-                        <figcaption class="cup-chart-key">
-                            <span class="cup-key-price">Adjusted close</span>
-                            <span class="cup-key-pivot">Pivot</span>
-                            <span class="cup-key-volume">Adjusted volume</span>
-                            <span class="cup-key-base">Cup window</span>
-                            <span class="cup-key-handle">Handle window</span>
-                            <span class="cup-key-breakout" id="cup-key-breakout" hidden>Breakout close</span>
-                        </figcaption>
-                        <p id="cup-chart-point" class="cup-chart-point"></p>
-                        <canvas id="cup-chart" role="img" aria-label="Adjusted closing prices and pattern levels"
-                            aria-describedby="cup-chart-point cup-chart-instructions" tabindex="0"></canvas>
-                        <p id="cup-chart-instructions" class="cup-visually-hidden">Use the left and right arrow keys to inspect daily values. Press Home or End to jump to the first or last session.</p>
-                        <p id="cup-chart-announcement" class="cup-visually-hidden" aria-live="polite"></p>
-                    </figure>
-                    <details class="cup-measurements"><summary>Pattern measurements</summary><dl id="cup-anchor-summary"></dl>
-                        <p>StockMe checks for an advance, a rounded cup, an upper-half handle and a close above the pivot.
-                            Volume confirmation requires at least 1.50× the average of the preceding 50 sessions.</p>
-                    </details>
-                    <a id="cup-company-link" class="cup-company-link">Open company research <span aria-hidden="true">↗</span></a>
-                </section>
-                <aside class="cup-shortlist" aria-labelledby="cup-shortlist-title">
-                    <h3 id="cup-shortlist-title">Shortlist</h3>
-                    <div id="cup-filters" class="cup-filters" hidden>
-                        <div><label for="cup-state">Setup status</label><select id="cup-state"><option value="">All setups</option>
-                            <option value="FORMING">Forming</option><option value="CLOSE_ABOVE_PIVOT">Price-only breakout</option>
-                            <option value="VOLUME_CONFIRMED">Volume confirmed</option></select></div>
-                        <div><label for="cup-sort">Sort by</label><select id="cup-sort"><option value="state">Setup status</option>
-                            <option value="distance">Distance from pivot</option><option value="symbol">Company symbol</option></select></div>
-                    </div>
-                    <ul id="cup-results" class="cup-results" aria-label="Cup with Handle results"></ul>
-                </aside>
-            </div>
-        </section>
-    </div><!-- cup with handle panel -->
-        <div id="tab-stockme-analysis" class="tab-content"><div class="stockme-panel"><div class="stockme-heading"><div><span class="stockme-eyebrow">A focused research list</span><h2>StockerBoard Analysis</h2><p>Stocks near their yearly highs that meet StockMe’s existing score threshold.</p></div><span class="stockme-session">Market session 2026-11-20</span></div><div class="stockme-kpis"><div><strong>100</strong><span>Stocks reviewed</span></div><div><strong>3</strong><span>Met the screen rules</span></div></div><details class="stockme-method"><summary>How this list works</summary><p>StockMe reviews up to 100 stocks within 5% of their rolling 52-week high, with at least 5,000 shares traded in the latest session. The list shows those with a StockMe score of 60 or more. It uses the local OHLC database; P/E and ROE appear only when available in the certified public financial index.</p></details><div class="table-responsive"><table id="stockmeAnalysisTable"><thead><tr><th>Company</th><th class="col-right">Price</th><th class="col-right">Yearly high</th><th class="col-right">From high</th><th class="col-right">Screen score</th><th class="col-right">P/E</th><th class="col-right">ROE</th></tr></thead><tbody><tr data-sym="KMCSHIL"><td><a class="stockme-company" href="#stock/KMCSHIL">K M C SPECIALITY HOSP I L</a><span class="stockme-symbol">KMCSHIL</span></td><td class="col-right mono">₹203.78</td><td class="col-right mono">₹210.25</td><td class="col-right mono">3.08%</td><td class="col-right mono"><strong>70.19</strong></td><td class="col-right mono">—</td><td class="col-right mono">—</td></tr><tr data-sym="SHREEJISPG"><td><a class="stockme-company" href="#stock/SHREEJISPG">Shreeji Shipping Global Limite</a><span class="stockme-symbol">SHREEJISPG</span></td><td class="col-right mono">₹913.80</td><td class="col-right mono">₹924.75</td><td class="col-right mono">1.18%</td><td class="col-right mono"><strong>70.00</strong></td><td class="col-right mono">81.42</td><td class="col-right mono">—</td></tr><tr data-sym="STEAMHOUSE"><td><a class="stockme-company" href="#stock/STEAMHOUSE">Steamhouse India Limited</a><span class="stockme-symbol">STEAMHOUSE</span></td><td class="col-right mono">₹160.91</td><td class="col-right mono">₹164.40</td><td class="col-right mono">2.12%</td><td class="col-right mono"><strong>65.30</strong></td><td class="col-right mono">—</td><td class="col-right mono">—</td></tr></tbody></table></div></div></div>
+        
+        
+        <!-- unified Pro patterns --><link rel="stylesheet" href="/scripts/patterns.css?v=10f2edb93c3d"><script defer src="/scripts/patterns.js?v=0920e5dbf8f9"></script><div id="patterns-release" hidden data-session="2026-11-20" data-index-sha256="6570ac700ed96d3e155e998bdfe4fbf218efc61499b58c3fa019cc3e2ac83a7d"></div><div id="tab-cup-with-handle" class="tab-content" data-pattern-family="cup-with-handle"><section class="pattern-panel" aria-label="Cup with Handle pattern research"></section></div><div id="tab-flat-base" class="tab-content" data-pattern-family="flat-base"><section class="pattern-panel" aria-label="Flat Base pattern research"></section></div><div id="tab-double-bottom" class="tab-content" data-pattern-family="double-bottom"><section class="pattern-panel" aria-label="Double Bottom (W) pattern research"></section></div><div id="tab-ascending-triangle" class="tab-content" data-pattern-family="ascending-triangle"><section class="pattern-panel" aria-label="Ascending Triangle pattern research"></section></div><div id="tab-vcp" class="tab-content" data-pattern-family="vcp"><section class="pattern-panel" aria-label="Volatility Contraction (VCP) pattern research"></section></div><!-- unified Pro patterns --><div id="tab-stockme-analysis" class="tab-content"><div class="stockme-panel"><div class="stockme-heading"><div><span class="stockme-eyebrow">A focused research list</span><h2>StockerBoard Analysis</h2><p>Stocks near their yearly highs that meet StockMe’s existing score threshold.</p></div><span class="stockme-session">Market session 2026-11-20</span></div><div class="stockme-kpis"><div><strong>100</strong><span>Stocks reviewed</span></div><div><strong>3</strong><span>Met the screen rules</span></div></div><details class="stockme-method"><summary>How this list works</summary><p>StockMe reviews up to 100 stocks within 5% of their rolling 52-week high, with at least 5,000 shares traded in the latest session. The list shows those with a StockMe score of 60 or more. It uses the local OHLC database; P/E and ROE appear only when available in the certified public financial index.</p></details><div class="table-responsive"><table id="stockmeAnalysisTable"><thead><tr><th>Company</th><th class="col-right">Price</th><th class="col-right">Yearly high</th><th class="col-right">From high</th><th class="col-right">Screen score</th><th class="col-right">P/E</th><th class="col-right">ROE</th></tr></thead><tbody><tr data-sym="KMCSHIL"><td><a class="stockme-company" href="#stock/KMCSHIL">K M C SPECIALITY HOSP I L</a><span class="stockme-symbol">KMCSHIL</span></td><td class="col-right mono">₹203.78</td><td class="col-right mono">₹210.25</td><td class="col-right mono">3.08%</td><td class="col-right mono"><strong>70.19</strong></td><td class="col-right mono">—</td><td class="col-right mono">—</td></tr><tr data-sym="SHREEJISPG"><td><a class="stockme-company" href="#stock/SHREEJISPG">Shreeji Shipping Global Limite</a><span class="stockme-symbol">SHREEJISPG</span></td><td class="col-right mono">₹913.80</td><td class="col-right mono">₹924.75</td><td class="col-right mono">1.18%</td><td class="col-right mono"><strong>70.00</strong></td><td class="col-right mono">81.42</td><td class="col-right mono">—</td></tr><tr data-sym="STEAMHOUSE"><td><a class="stockme-company" href="#stock/STEAMHOUSE">Steamhouse India Limited</a><span class="stockme-symbol">STEAMHOUSE</span></td><td class="col-right mono">₹160.91</td><td class="col-right mono">₹164.40</td><td class="col-right mono">2.12%</td><td class="col-right mono"><strong>65.30</strong></td><td class="col-right mono">—</td><td class="col-right mono">—</td></tr></tbody></table></div></div></div>
 
         <!-- TAB 1: 52W Breakouts -->
         <div id="tab-breakouts" class="tab-content">
@@ -16591,7 +16530,7 @@
             });
             if (openFirst) {
                 const first = bar.querySelector(`.tab-btn[data-pro-group~="${group}"]`);
-                if (first) switchTab(first.getAttribute('onclick').match(/'([^']+)'/)[1], first);
+                if (first) first.click();
             }
         }
 
