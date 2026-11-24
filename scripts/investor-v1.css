@@ -316,13 +316,26 @@ details:focus-visible {
         margin-bottom: 4px;
         padding-bottom: 12px;
     }
-    .screen-fresher .brand-unit { grid-column: 1; grid-row: 1; min-width: 0; }
+    .screen-fresher .brand-unit { grid-column: 1 / -1; grid-row: 1; min-width: 0; }
     .screen-fresher .brand-name { font-size: .89rem; white-space: nowrap; }
     .screen-fresher .brand-emblem { width: 32px; height: 32px; }
-    .screen-fresher .nav-right-controls { display: contents !important; }
-    .screen-fresher #authContainer { grid-column: 2; grid-row: 1; }
-    .screen-fresher #modeSwitcher { grid-column: 2; grid-row: 2; justify-self: end; }
-    .screen-fresher .header-nav-links { grid-column: 1; grid-row: 2; margin: 0 !important; gap: 18px !important; }
+    .screen-fresher .nav-right-controls {
+        display: flex !important;
+        grid-column: 1 / -1;
+        grid-row: 3;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        min-width: 0;
+    }
+    .screen-fresher .header-nav-links {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        margin: 0 !important;
+        gap: 2px !important;
+        justify-content: space-between;
+        min-width: 0;
+    }
+    .screen-fresher .header-nav-links a { flex: 0 0 auto; min-height: 44px; display: inline-flex; align-items: center; }
     .screen-fresher .mode-btn { padding: 5px 9px; }
     .screen-fresher .fresher-hero-studio { margin: 4px auto 10px; }
     .screen-fresher .fresher-hero-heading { margin: 9px auto 12px !important; }
