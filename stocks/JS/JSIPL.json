@@ -329,14 +329,22 @@
       "open": 163.22,
       "time": "2026-11-20",
       "volume": 92106
+    },
+    {
+      "close": 161.15,
+      "high": 163.0,
+      "low": 158.26,
+      "open": 163.0,
+      "time": "2026-11-23",
+      "volume": 82078
     }
   ],
   "company_name": "Jindal Supreme (India) Limited",
   "history": {
     "first_session": "2026-09-23",
     "has_full_52w_history": false,
-    "last_session": "2026-11-20",
-    "sessions_available": 41
+    "last_session": "2026-11-23",
+    "sessions_available": 42
   },
   "industry": null,
   "isin": "INE1DLO01028",
@@ -344,31 +352,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 54,
+    "momentum_score": 52,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.53x"
+    "volume_multiplier": "0.49x"
   },
   "price": {
-    "as_of": "2026-11-20",
-    "change": 0.92,
-    "change_pct": 0.56,
-    "close": 164.14,
-    "previous_close": 163.22,
+    "as_of": "2026-11-23",
+    "change": -2.99,
+    "change_pct": -1.82,
+    "close": 161.15,
+    "previous_close": 164.14,
     "type": "EOD_CLOSE",
-    "volume": 92106
+    "volume": 82078
   },
   "range": {
-    "distance_from_high_pct": -23.64,
-    "distance_from_low_pct": 36.78,
+    "distance_from_high_pct": -25.03,
+    "distance_from_low_pct": 34.29,
     "high_52w": 214.96,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 120.0,
-    "range_position_pct": 46.48
+    "range_position_pct": 43.33
   },
   "risk_model": {
-    "invalidation_floor": 158.4,
-    "risk_per_share": 9.02,
-    "technical_pivot": 167.42
+    "invalidation_floor": 155.51,
+    "risk_per_share": 8.86,
+    "technical_pivot": 164.37
   },
   "schema_version": "1.0",
   "sector": null,

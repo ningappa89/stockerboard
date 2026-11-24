@@ -185,14 +185,22 @@
       "open": 285.2,
       "time": "2026-11-20",
       "volume": 224304
+    },
+    {
+      "close": 292.65,
+      "high": 297.8,
+      "low": 285.0,
+      "open": 292.7,
+      "time": "2026-11-23",
+      "volume": 315739
     }
   ],
   "company_name": "HD Fire Protect Limited",
   "history": {
     "first_session": "2026-10-21",
     "has_full_52w_history": false,
-    "last_session": "2026-11-20",
-    "sessions_available": 23
+    "last_session": "2026-11-23",
+    "sessions_available": 24
   },
   "industry": null,
   "isin": "INE18AK01028",
@@ -200,31 +208,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 67,
+    "momentum_score": 69,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.22x"
+    "volume_multiplier": "0.36x"
   },
   "price": {
-    "as_of": "2026-11-20",
-    "change": 0.6,
-    "change_pct": 0.21,
-    "close": 288.0,
-    "previous_close": 287.4,
+    "as_of": "2026-11-23",
+    "change": 4.65,
+    "change_pct": 1.61,
+    "close": 292.65,
+    "previous_close": 288.0,
     "type": "EOD_CLOSE",
-    "volume": 224304
+    "volume": 315739
   },
   "range": {
-    "distance_from_high_pct": -15.29,
-    "distance_from_low_pct": 13.14,
+    "distance_from_high_pct": -13.93,
+    "distance_from_low_pct": 14.97,
     "high_52w": 340.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 254.55,
-    "range_position_pct": 39.15
+    "range_position_pct": 44.59
   },
   "risk_model": {
-    "invalidation_floor": 277.92,
-    "risk_per_share": 15.84,
-    "technical_pivot": 293.76
+    "invalidation_floor": 282.41,
+    "risk_per_share": 16.09,
+    "technical_pivot": 298.5
   },
   "schema_version": "1.0",
   "sector": null,

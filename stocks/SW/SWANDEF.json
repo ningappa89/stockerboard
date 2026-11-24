@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 78.2,
-      "high": 78.2,
-      "low": 78.2,
-      "open": 78.2,
-      "time": "2025-03-10",
-      "volume": 984
-    },
-    {
       "close": 82.11,
       "high": 82.11,
       "low": 82.11,
@@ -2017,13 +2009,21 @@
       "open": 2979.9,
       "time": "2026-11-20",
       "volume": 17805
+    },
+    {
+      "close": 2864.6,
+      "high": 2880.0,
+      "low": 2800.0,
+      "open": 2880.0,
+      "time": "2026-11-23",
+      "volume": 6039
     }
   ],
   "company_name": "SWAN DEFENCE N HEVY IND L",
   "history": {
-    "first_session": "2025-03-10",
+    "first_session": "2025-03-17",
     "has_full_52w_history": true,
-    "last_session": "2026-11-20",
+    "last_session": "2026-11-23",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": true,
     "momentum_score": 82,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "2.14x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.76x"
   },
   "price": {
-    "as_of": "2026-11-20",
-    "change": -3.6,
-    "change_pct": -0.13,
-    "close": 2860.6,
-    "previous_close": 2864.2,
+    "as_of": "2026-11-23",
+    "change": 4.0,
+    "change_pct": 0.14,
+    "close": 2864.6,
+    "previous_close": 2860.6,
     "type": "EOD_CLOSE",
-    "volume": 17805
+    "volume": 6039
   },
   "range": {
-    "distance_from_high_pct": -5.28,
-    "distance_from_low_pct": 3558.06,
+    "distance_from_high_pct": -5.15,
+    "distance_from_low_pct": 3388.73,
     "high_52w": 3020.0,
     "history_basis": "52_WEEK",
-    "low_52w": 78.2,
-    "range_position_pct": 94.58
+    "low_52w": 82.11,
+    "range_position_pct": 94.71
   },
   "risk_model": {
-    "invalidation_floor": 2760.48,
-    "risk_per_share": 157.33,
-    "technical_pivot": 2917.81
+    "invalidation_floor": 2764.34,
+    "risk_per_share": 157.55,
+    "technical_pivot": 2921.89
   },
   "schema_version": "1.0",
   "sector": null,

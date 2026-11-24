@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 5.3,
-      "high": 5.3,
-      "low": 5.25,
-      "open": 5.29,
-      "time": "2025-05-27",
-      "volume": 592678
-    },
-    {
       "close": 5.4,
       "high": 5.4,
       "low": 5.32,
@@ -2017,13 +2009,21 @@
       "open": 2.07,
       "time": "2026-11-20",
       "volume": 43153
+    },
+    {
+      "close": 2.0,
+      "high": 2.11,
+      "low": 1.93,
+      "open": 2.11,
+      "time": "2026-11-23",
+      "volume": 251037
     }
   ],
   "company_name": "AGS TRANSACT TECH LTD",
   "history": {
-    "first_session": "2025-05-27",
+    "first_session": "2025-05-28",
     "has_full_52w_history": true,
-    "last_session": "2026-11-20",
+    "last_session": "2026-11-23",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.45x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.32x"
   },
   "price": {
-    "as_of": "2026-11-20",
-    "change": -0.06,
-    "change_pct": -2.9,
-    "close": 2.01,
-    "previous_close": 2.07,
+    "as_of": "2026-11-23",
+    "change": -0.01,
+    "change_pct": -0.5,
+    "close": 2.0,
+    "previous_close": 2.01,
     "type": "EOD_CLOSE",
-    "volume": 43153
+    "volume": 251037
   },
   "range": {
-    "distance_from_high_pct": -68.54,
-    "distance_from_low_pct": 8.65,
+    "distance_from_high_pct": -68.7,
+    "distance_from_low_pct": 8.11,
     "high_52w": 6.39,
     "history_basis": "52_WEEK",
     "low_52w": 1.85,
-    "range_position_pct": 3.52
+    "range_position_pct": 3.3
   },
   "risk_model": {
-    "invalidation_floor": 1.94,
+    "invalidation_floor": 1.93,
     "risk_per_share": 0.5,
-    "technical_pivot": 2.05
+    "technical_pivot": 2.04
   },
   "schema_version": "1.0",
   "sector": null,

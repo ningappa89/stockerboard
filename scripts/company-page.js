@@ -26,9 +26,11 @@ async function loadCompanyValuation(symbol) {
             }
             node.textContent = [metric.price_as_of && `Price ${metric.price_as_of}`,
                 metric.financial_period_end && `Period ended ${metric.financial_period_end}`,
+                metric.period_basis && (metric.period_basis === 'TTM' ? 'TTM' : metric.period_basis === 'ANNUAL' ? 'Annual' : metric.period_basis === 'POINT_IN_TIME' ? 'Point-in-time' : metric.period_basis.toLowerCase()),
                 metric.scope && metric.scope.toLowerCase()].filter(Boolean).join(' · ');
         }
         statuses.forEach(node => { node.textContent = `Valuation release · ${company.valuation_date}`; });
+        window.StockerboardAnalytics?.track('company_opened', { symbol, entry_route: 'company' });
     } catch (error) {
         statuses.forEach(node => { node.textContent = 'Certified valuation data is unavailable. Reload to retry.'; });
     }

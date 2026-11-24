@@ -1785,14 +1785,22 @@
       "open": 0.25,
       "time": "2026-11-20",
       "volume": 340816
+    },
+    {
+      "close": 0.23,
+      "high": 0.25,
+      "low": 0.23,
+      "open": 0.25,
+      "time": "2026-11-23",
+      "volume": 560866
     }
   ],
   "company_name": "Siti Networks Ltd.",
   "history": {
     "first_session": "2025-01-01",
     "has_full_52w_history": false,
-    "last_session": "2026-11-20",
-    "sessions_available": 223
+    "last_session": "2026-11-23",
+    "sessions_available": 224
   },
   "industry": null,
   "isin": "INE965H01011",
@@ -1802,29 +1810,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.6x"
+    "volume_multiplier": "0.97x"
   },
   "price": {
-    "as_of": "2026-11-20",
-    "change": 0.0,
-    "change_pct": 0.0,
-    "close": 0.24,
+    "as_of": "2026-11-23",
+    "change": -0.01,
+    "change_pct": -4.17,
+    "close": 0.23,
     "previous_close": 0.24,
     "type": "EOD_CLOSE",
-    "volume": 340816
+    "volume": 560866
   },
   "range": {
-    "distance_from_high_pct": -71.08,
-    "distance_from_low_pct": 9.09,
+    "distance_from_high_pct": -72.29,
+    "distance_from_low_pct": 4.55,
     "high_52w": 0.83,
     "history_basis": "52_WEEK",
     "low_52w": 0.22,
-    "range_position_pct": 3.28
+    "range_position_pct": 1.64
   },
   "risk_model": {
-    "invalidation_floor": 0.23,
+    "invalidation_floor": 0.22,
     "risk_per_share": 0.5,
-    "technical_pivot": 0.24
+    "technical_pivot": 0.23
   },
   "schema_version": "1.0",
   "sector": null,

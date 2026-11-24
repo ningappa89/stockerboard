@@ -1457,14 +1457,22 @@
       "open": 2.04,
       "time": "2026-11-16",
       "volume": 128855
+    },
+    {
+      "close": 1.94,
+      "high": 1.94,
+      "low": 1.94,
+      "open": 1.94,
+      "time": "2026-11-23",
+      "volume": 45548
     }
   ],
   "company_name": "CEREBRA INT TECH LTD",
   "history": {
     "first_session": "2025-01-01",
     "has_full_52w_history": false,
-    "last_session": "2026-11-16",
-    "sessions_available": 182
+    "last_session": "2026-11-23",
+    "sessions_available": 183
   },
   "industry": null,
   "isin": "INE345B01019",
@@ -1474,29 +1482,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.66x"
+    "volume_multiplier": "0.58x"
   },
   "price": {
-    "as_of": "2026-11-16",
+    "as_of": "2026-11-23",
     "change": -0.1,
-    "change_pct": -4.67,
-    "close": 2.04,
-    "previous_close": 2.14,
+    "change_pct": -4.9,
+    "close": 1.94,
+    "previous_close": 2.04,
     "type": "EOD_CLOSE",
-    "volume": 128855
+    "volume": 45548
   },
   "range": {
-    "distance_from_high_pct": -79.78,
+    "distance_from_high_pct": -80.77,
     "distance_from_low_pct": 0.0,
     "high_52w": 10.09,
     "history_basis": "AVAILABLE_HISTORY",
-    "low_52w": 2.04,
+    "low_52w": 1.94,
     "range_position_pct": 0.0
   },
   "risk_model": {
-    "invalidation_floor": 1.97,
+    "invalidation_floor": 1.87,
     "risk_per_share": 0.5,
-    "technical_pivot": 2.08
+    "technical_pivot": 1.98
   },
   "schema_version": "1.0",
   "sector": null,

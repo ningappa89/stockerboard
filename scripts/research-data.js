@@ -13,6 +13,10 @@
   MISSING_RESOLVED_FINANCIAL_IDENTITY:'Verified company financial statements are not available yet.',
   MISSING_MATCHED_SCOPE_FINANCIAL_INPUT:'Verified financial inputs for this reporting scope are unavailable.',
   DIVIDEND_WINDOW_COMPLETENESS_UNVERIFIED:'The complete dividend history has not been verified yet.',
+  NEGATIVE_OR_ZERO_DENOMINATOR:'The denominator is nonpositive for this measure.',
+  REVALIDATION_REQUIRED:'This measure is undergoing policy revalidation.',
+  REPORTING_SCHEDULE_UNVERIFIED:'Company reporting schedule has not been verified.',
+  UNRESOLVED_CURRENT_IDENTITY:'Security identity is awaiting exchange reconciliation.',
   NO_VERIFIED_USABLE_VALUES:'Verified financial statements are not available in this release.'};
  const reasonText=cell=>messages[cell?.reason]||(cell?.status==='NOT_APPLICABLE'?'This measure is not applicable.':'A verified value is not available in this release.');
  function initialFinancialView(doc){

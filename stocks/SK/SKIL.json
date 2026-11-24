@@ -369,14 +369,22 @@
       "open": 1.06,
       "time": "2026-11-16",
       "volume": 40849
+    },
+    {
+      "close": 0.96,
+      "high": 0.99,
+      "low": 0.96,
+      "open": 0.96,
+      "time": "2026-11-23",
+      "volume": 6440
     }
   ],
   "company_name": "SKIL Infrastructure Limited",
   "history": {
     "first_session": "2026-01-05",
     "has_full_52w_history": false,
-    "last_session": "2026-11-16",
-    "sessions_available": 46
+    "last_session": "2026-11-23",
+    "sessions_available": 47
   },
   "industry": null,
   "isin": "INE429F01012",
@@ -384,31 +392,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 48,
+    "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.65x"
+    "volume_multiplier": "0.1x"
   },
   "price": {
-    "as_of": "2026-11-16",
+    "as_of": "2026-11-23",
     "change": -0.05,
-    "change_pct": -4.72,
-    "close": 1.01,
-    "previous_close": 1.06,
+    "change_pct": -4.95,
+    "close": 0.96,
+    "previous_close": 1.01,
     "type": "EOD_CLOSE",
-    "volume": 40849
+    "volume": 6440
   },
   "range": {
-    "distance_from_high_pct": -27.34,
-    "distance_from_low_pct": 29.49,
+    "distance_from_high_pct": -30.94,
+    "distance_from_low_pct": 23.08,
     "high_52w": 1.39,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 0.78,
-    "range_position_pct": 37.7
+    "range_position_pct": 29.51
   },
   "risk_model": {
-    "invalidation_floor": 0.97,
+    "invalidation_floor": 0.93,
     "risk_per_share": 0.5,
-    "technical_pivot": 1.03
+    "technical_pivot": 0.98
   },
   "schema_version": "1.0",
   "sector": null,

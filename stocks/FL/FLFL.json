@@ -1753,14 +1753,22 @@
       "open": 0.7,
       "time": "2026-11-20",
       "volume": 13861
+    },
+    {
+      "close": 0.71,
+      "high": 0.75,
+      "low": 0.7,
+      "open": 0.74,
+      "time": "2026-11-23",
+      "volume": 43020
     }
   ],
   "company_name": "FUT LIFESTYLE FASH LTD",
   "history": {
     "first_session": "2026-01-01",
     "has_full_52w_history": false,
-    "last_session": "2026-11-20",
-    "sessions_available": 219
+    "last_session": "2026-11-23",
+    "sessions_available": 220
   },
   "industry": null,
   "isin": "INE452O01016",
@@ -1770,29 +1778,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.56x"
+    "volume_multiplier": "1.66x"
   },
   "price": {
-    "as_of": "2026-11-20",
-    "change": 0.0,
-    "change_pct": 0.0,
-    "close": 0.73,
+    "as_of": "2026-11-23",
+    "change": -0.02,
+    "change_pct": -2.74,
+    "close": 0.71,
     "previous_close": 0.73,
     "type": "EOD_CLOSE",
-    "volume": 13861
+    "volume": 43020
   },
   "range": {
-    "distance_from_high_pct": -61.98,
-    "distance_from_low_pct": 7.35,
+    "distance_from_high_pct": -63.02,
+    "distance_from_low_pct": 4.41,
     "high_52w": 1.92,
     "history_basis": "52_WEEK",
     "low_52w": 0.68,
-    "range_position_pct": 4.03
+    "range_position_pct": 2.42
   },
   "risk_model": {
-    "invalidation_floor": 0.7,
+    "invalidation_floor": 0.69,
     "risk_per_share": 0.5,
-    "technical_pivot": 0.74
+    "technical_pivot": 0.72
   },
   "schema_version": "1.0",
   "sector": null,

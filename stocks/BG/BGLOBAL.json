@@ -369,46 +369,54 @@
       "open": 3.68,
       "time": "2026-11-16",
       "volume": 77934
+    },
+    {
+      "close": 3.62,
+      "high": 3.82,
+      "low": 3.59,
+      "open": 3.82,
+      "time": "2026-11-23",
+      "volume": 16604
     }
   ],
   "company_name": "BHARATIYA GLOBAL INFOMEDIA LTD",
   "history": {
     "first_session": "2026-01-05",
     "has_full_52w_history": false,
-    "last_session": "2026-11-16",
-    "sessions_available": 46
+    "last_session": "2026-11-23",
+    "sessions_available": 47
   },
   "industry": null,
   "isin": "INE224M01013",
   "metrics": {
     "is_breakout": false,
-    "is_coiled": true,
+    "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 84,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "2.72x"
+    "momentum_score": 82,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.59x"
   },
   "price": {
-    "as_of": "2026-11-16",
-    "change": 0.13,
-    "change_pct": 3.7,
-    "close": 3.64,
-    "previous_close": 3.51,
+    "as_of": "2026-11-23",
+    "change": -0.02,
+    "change_pct": -0.55,
+    "close": 3.62,
+    "previous_close": 3.64,
     "type": "EOD_CLOSE",
-    "volume": 77934
+    "volume": 16604
   },
   "range": {
-    "distance_from_high_pct": -3.45,
-    "distance_from_low_pct": 38.93,
-    "high_52w": 3.77,
+    "distance_from_high_pct": -5.24,
+    "distance_from_low_pct": 38.17,
+    "high_52w": 3.82,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 2.62,
-    "range_position_pct": 88.7
+    "range_position_pct": 83.33
   },
   "risk_model": {
-    "invalidation_floor": 3.51,
+    "invalidation_floor": 3.49,
     "risk_per_share": 0.5,
-    "technical_pivot": 3.71
+    "technical_pivot": 3.69
   },
   "schema_version": "1.0",
   "sector": null,

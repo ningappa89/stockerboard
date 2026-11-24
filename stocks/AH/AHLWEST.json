@@ -1265,14 +1265,22 @@
       "open": 510.0,
       "time": "2026-11-20",
       "volume": 143
+    },
+    {
+      "close": 500.0,
+      "high": 511.0,
+      "low": 490.0,
+      "open": 490.05,
+      "time": "2026-11-23",
+      "volume": 491
     }
   ],
   "company_name": "ASIAN HOTELS (WEST) LTD.",
   "history": {
     "first_session": "2026-04-06",
     "has_full_52w_history": false,
-    "last_session": "2026-11-20",
-    "sessions_available": 158
+    "last_session": "2026-11-23",
+    "sessions_available": 159
   },
   "industry": null,
   "isin": "INE915K01010",
@@ -1280,31 +1288,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 41,
+    "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.29x"
+    "volume_multiplier": "0.96x"
   },
   "price": {
-    "as_of": "2026-11-20",
-    "change": -15.85,
-    "change_pct": -3.04,
-    "close": 506.15,
-    "previous_close": 522.0,
+    "as_of": "2026-11-23",
+    "change": -6.15,
+    "change_pct": -1.22,
+    "close": 500.0,
+    "previous_close": 506.15,
     "type": "EOD_CLOSE",
-    "volume": 143
+    "volume": 491
   },
   "range": {
-    "distance_from_high_pct": -32.64,
-    "distance_from_low_pct": 269.45,
+    "distance_from_high_pct": -33.46,
+    "distance_from_low_pct": 264.96,
     "high_52w": 751.4,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 137.0,
-    "range_position_pct": 60.08
+    "range_position_pct": 59.08
   },
   "risk_model": {
-    "invalidation_floor": 488.43,
-    "risk_per_share": 27.84,
-    "technical_pivot": 516.27
+    "invalidation_floor": 482.5,
+    "risk_per_share": 27.5,
+    "technical_pivot": 510.0
   },
   "schema_version": "1.0",
   "sector": null,

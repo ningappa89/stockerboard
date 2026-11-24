@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 17.91,
-      "high": 18.3,
-      "low": 17.11,
-      "open": 17.94,
-      "time": "2025-11-14",
-      "volume": 19768
-    },
-    {
       "close": 17.05,
       "high": 17.8,
       "low": 17.01,
@@ -2017,13 +2009,21 @@
       "open": 21.15,
       "time": "2026-11-20",
       "volume": 713
+    },
+    {
+      "close": 20.16,
+      "high": 21.5,
+      "low": 19.95,
+      "open": 21.5,
+      "time": "2026-11-23",
+      "volume": 5617
     }
   ],
   "company_name": "EQUIPPP SOCIAL IMPACT TECHNOLO",
   "history": {
-    "first_session": "2025-11-14",
+    "first_session": "2025-11-17",
     "has_full_52w_history": true,
-    "last_session": "2026-11-20",
+    "last_session": "2026-11-23",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 61,
+    "momentum_score": 56,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.23x"
+    "volume_multiplier": "1.67x"
   },
   "price": {
-    "as_of": "2026-11-20",
-    "change": -0.62,
-    "change_pct": -2.87,
-    "close": 21.0,
-    "previous_close": 21.62,
+    "as_of": "2026-11-23",
+    "change": -0.84,
+    "change_pct": -4.0,
+    "close": 20.16,
+    "previous_close": 21.0,
     "type": "EOD_CLOSE",
-    "volume": 713
+    "volume": 5617
   },
   "range": {
-    "distance_from_high_pct": -18.89,
-    "distance_from_low_pct": 51.62,
+    "distance_from_high_pct": -22.13,
+    "distance_from_low_pct": 45.56,
     "high_52w": 25.89,
     "history_basis": "52_WEEK",
     "low_52w": 13.85,
-    "range_position_pct": 59.39
+    "range_position_pct": 52.41
   },
   "risk_model": {
-    "invalidation_floor": 20.27,
-    "risk_per_share": 1.15,
-    "technical_pivot": 21.42
+    "invalidation_floor": 19.45,
+    "risk_per_share": 1.11,
+    "technical_pivot": 20.56
   },
   "schema_version": "1.0",
   "sector": null,

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "enabled": false,
+  "consent_granted": false,
+  "measurement_id": null,
+  "environment": "production",
+  "anonymize_ip": true,
+  "allowlist_events": [
+    "search_submitted",
+    "search_no_results",
+    "company_opened",
+    "financial_section_viewed",
+    "pattern_viewed",
+    "pattern_explanation_opened",
+    "company_saved",
+    "research_returned"
+  ]
+}

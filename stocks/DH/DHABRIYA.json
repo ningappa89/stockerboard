@@ -537,14 +537,22 @@
       "open": 472.0,
       "time": "2026-11-20",
       "volume": 4440
+    },
+    {
+      "close": 472.65,
+      "high": 482.0,
+      "low": 467.0,
+      "open": 476.0,
+      "time": "2026-11-23",
+      "volume": 2955
     }
   ],
   "company_name": "Dhabriya Polywood Limited",
   "history": {
     "first_session": "2026-08-17",
     "has_full_52w_history": false,
-    "last_session": "2026-11-20",
-    "sessions_available": 67
+    "last_session": "2026-11-23",
+    "sessions_available": 68
   },
   "industry": null,
   "isin": "INE260R01016",
@@ -552,31 +560,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 58,
+    "momentum_score": 57,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.04x"
+    "volume_multiplier": "0.7x"
   },
   "price": {
-    "as_of": "2026-11-20",
-    "change": 4.75,
-    "change_pct": 1.01,
-    "close": 476.75,
-    "previous_close": 472.0,
+    "as_of": "2026-11-23",
+    "change": -4.1,
+    "change_pct": -0.86,
+    "close": 472.65,
+    "previous_close": 476.75,
     "type": "EOD_CLOSE",
-    "volume": 4440
+    "volume": 2955
   },
   "range": {
-    "distance_from_high_pct": -20.94,
-    "distance_from_low_pct": 13.19,
+    "distance_from_high_pct": -21.62,
+    "distance_from_low_pct": 12.22,
     "high_52w": 603.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 421.2,
-    "range_position_pct": 30.56
+    "range_position_pct": 28.3
   },
   "risk_model": {
-    "invalidation_floor": 460.06,
-    "risk_per_share": 26.23,
-    "technical_pivot": 486.29
+    "invalidation_floor": 456.11,
+    "risk_per_share": 25.99,
+    "technical_pivot": 482.1
   },
   "schema_version": "1.0",
   "sector": null,

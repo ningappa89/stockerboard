@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 2.97,
-      "high": 2.97,
-      "low": 2.7,
-      "open": 2.7,
-      "time": "2025-11-14",
-      "volume": 94984
-    },
-    {
       "close": 2.88,
       "high": 3.11,
       "low": 2.83,
@@ -2017,13 +2009,21 @@
       "open": 14.75,
       "time": "2026-11-20",
       "volume": 103549
+    },
+    {
+      "close": 13.71,
+      "high": 14.93,
+      "low": 13.62,
+      "open": 14.24,
+      "time": "2026-11-23",
+      "volume": 425647
     }
   ],
   "company_name": "VIJI FINANCE LTD",
   "history": {
-    "first_session": "2025-11-14",
+    "first_session": "2025-11-17",
     "has_full_52w_history": true,
-    "last_session": "2026-11-20",
+    "last_session": "2026-11-23",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 64,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.63x"
+    "momentum_score": 59,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.36x"
   },
   "price": {
-    "as_of": "2026-11-20",
-    "change": -0.29,
-    "change_pct": -1.98,
-    "close": 14.33,
-    "previous_close": 14.62,
+    "as_of": "2026-11-23",
+    "change": -0.62,
+    "change_pct": -4.33,
+    "close": 13.71,
+    "previous_close": 14.33,
     "type": "EOD_CLOSE",
-    "volume": 103549
+    "volume": 425647
   },
   "range": {
-    "distance_from_high_pct": -16.88,
-    "distance_from_low_pct": 612.94,
+    "distance_from_high_pct": -20.48,
+    "distance_from_low_pct": 582.09,
     "high_52w": 17.24,
     "history_basis": "52_WEEK",
     "low_52w": 2.01,
-    "range_position_pct": 80.89
+    "range_position_pct": 76.82
   },
   "risk_model": {
-    "invalidation_floor": 13.83,
-    "risk_per_share": 0.79,
-    "technical_pivot": 14.62
+    "invalidation_floor": 13.23,
+    "risk_per_share": 0.75,
+    "technical_pivot": 13.98
   },
   "schema_version": "1.0",
   "sector": null,

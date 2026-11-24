@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 123.95,
-      "high": 127.99,
-      "low": 123.43,
-      "open": 127.99,
-      "time": "2025-11-14",
-      "volume": 3438
-    },
-    {
       "close": 121.55,
       "high": 126.8,
       "low": 120.0,
@@ -2017,13 +2009,21 @@
       "open": 142.15,
       "time": "2026-11-20",
       "volume": 27344
+    },
+    {
+      "close": 141.78,
+      "high": 142.95,
+      "low": 137.05,
+      "open": 141.0,
+      "time": "2026-11-23",
+      "volume": 6323
     }
   ],
   "company_name": "VICEROY HOTELS LIMITED",
   "history": {
-    "first_session": "2025-11-14",
+    "first_session": "2025-11-17",
     "has_full_52w_history": true,
-    "last_session": "2026-11-20",
+    "last_session": "2026-11-23",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 70,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.05x"
+    "momentum_score": 71,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.48x"
   },
   "price": {
-    "as_of": "2026-11-20",
-    "change": -0.63,
-    "change_pct": -0.45,
-    "close": 140.71,
-    "previous_close": 141.34,
+    "as_of": "2026-11-23",
+    "change": 1.07,
+    "change_pct": 0.76,
+    "close": 141.78,
+    "previous_close": 140.71,
     "type": "EOD_CLOSE",
-    "volume": 27344
+    "volume": 6323
   },
   "range": {
-    "distance_from_high_pct": -12.98,
-    "distance_from_low_pct": 22.84,
+    "distance_from_high_pct": -12.32,
+    "distance_from_low_pct": 23.77,
     "high_52w": 161.7,
     "history_basis": "52_WEEK",
     "low_52w": 114.55,
-    "range_position_pct": 55.48
+    "range_position_pct": 57.75
   },
   "risk_model": {
-    "invalidation_floor": 135.79,
-    "risk_per_share": 7.73,
-    "technical_pivot": 143.52
+    "invalidation_floor": 136.82,
+    "risk_per_share": 7.8,
+    "technical_pivot": 144.62
   },
   "schema_version": "1.0",
   "sector": null,

@@ -34,6 +34,7 @@
   const tabs=node('div','fs-tabs');tabs.setAttribute('role','tablist');tabs.setAttribute('aria-label','Financial statement sections');const panel=node('div','fs-panel');panel.setAttribute('role','tabpanel');
   let selected='quarterly';const buttons=[];const growth=node('div','fs-growth');
   function draw(){
+   root.StockerboardAnalytics?.track('financial_section_viewed',{symbol:doc.symbol,section:selected,scope:scope.value});
    growth.replaceChildren();const summary=(doc.growth_summary||[]).find(p=>p.scope===scope.value);if(summary){const labels={REVENUE_YOY_PCT:'Revenue · year over year',PAT_YOY_PCT:'Profit · year over year',NET_MARGIN_PCT:'Net margin (latest quarter)'};for(const [key,label] of Object.entries(labels)){const card=node('div','fs-growth-card');card.append(node('span','',label),node('strong','',formatCell(summary.metrics[key])),node('small','',summary.period_end+' · '+scope.value.toLowerCase()));growth.append(card);}}
    panel.replaceChildren();for(const [key,button] of buttons){button.setAttribute('aria-selected',String(key===selected));button.tabIndex=key===selected?0:-1;}
    const active=buttons.find(([key])=>key===selected)[1];panel.setAttribute('aria-labelledby',active.id);

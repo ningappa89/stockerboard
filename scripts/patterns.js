@@ -12,6 +12,7 @@
     const dateFormat = new Intl.DateTimeFormat('en-IN', {dateStyle:'medium', timeZone:'UTC'});
     const dayLabel = day => dateFormat.format(new Date(day+'T00:00:00Z'));
     const goodDate = day => typeof day === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(day) && Number.isFinite(Date.parse(day)) && new Date(day).toISOString().slice(0,10) === day;
+    const goodInstant = value => typeof value==='string' && /T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$/.test(value) && Number.isFinite(Date.parse(value));
     const finite = value => typeof value === 'number' && Number.isFinite(value);
     const views = new Map();
     let indexRequest;
@@ -49,7 +50,11 @@
             && (row.breakout_volume_multiple==null || finite(row.breakout_volume_multiple)&&row.breakout_volume_multiple>=0)
             && row.data_eligible===true && finite(row.volume_threshold) && row.volume_threshold>0
             && (!['BREAKOUT_PRICE_ONLY','BREAKOUT_CONFIRMED'].includes(row.state)||row.breakout_date===session)
-            && (row.state!=='HISTORICAL_BREAKOUT'||goodDate(row.breakout_date)&&row.breakout_date<session);
+            && (row.state!=='HISTORICAL_BREAKOUT'||goodDate(row.breakout_date)&&row.breakout_date<session)
+            && (row.first_observed_session == null || (goodDate(row.first_observed_session) && row.first_observed_session <= session))
+            && (row.scan_completed_at==null || (goodInstant(row.scan_completed_at) && row.market_session===session && /^[a-f0-9]{12,64}$/.test(row.scan_run_id||'')
+                && row.source_availability_basis==='RETROSPECTIVE_CURRENT_SILVER'
+                && (row.first_observed_at==null ? row.first_observed_session==null : goodInstant(row.first_observed_at)&&row.first_observed_session!=null&&Date.parse(row.first_observed_at)<=Date.parse(row.scan_completed_at))));
     }
     function statusBadge(row) { return node('span',states[row.state],'pattern-state pattern-state-'+row.state.toLowerCase()); }
 
@@ -71,12 +76,17 @@
             <p class="pattern-chart-status" role="status"></p><figure class="pattern-figure" hidden><figcaption class="pattern-legend">Adjusted OHLCV <span>Resistance pivot · Structural floor · Pattern anchors</span></figcaption>
             <p class="pattern-point"></p><canvas tabindex="0" role="img" aria-label="Adjusted candlestick and volume chart"></canvas>
             <p class="pattern-sr-only pattern-instructions">Use left and right arrows to inspect sessions. Home and End jump to the first and last session.</p><p class="pattern-sr-only pattern-announcement" aria-live="polite"></p></figure>
-            <details class="pattern-method"><summary>Measurements and methodology</summary><p class="pattern-volume-rule"></p><dl class="pattern-rules"></dl><p class="pattern-lineage"></p></details>
+            <details class="pattern-method"><summary>Measurements and methodology</summary><p class="pattern-volume-rule"></p><dl class="pattern-rules"></dl><p class="pattern-lineage"></p><details class="pattern-provenance"><summary>Scan provenance and timing</summary><dl class="pattern-provenance-dl"></dl></details></details>
             <a class="pattern-company-link">Open company research ↗</a></section>
             <aside class="pattern-shortlist"><h3>Evaluated companies</h3><p class="pattern-list-count" role="status"></p><ul class="pattern-list"></ul></aside></div>`;
         view.el = selector => panel.querySelector(selector);
         view.el('h2').textContent=names[slug];
-        view.el('.pattern-date').textContent='Market close · '+dayLabel(config.dataset.session);
+        const healthEl=document.getElementById('publicationHealth');
+        let freshLabel=' · Freshness unverified';
+        if(healthEl&&window.StockerboardShell?.publicationState){
+            try{const st=window.StockerboardShell.publicationState(JSON.parse(healthEl.textContent));if(st.status==='delayed')freshLabel=` · Delayed (expected ${dayLabel(st.expected)})`;else if(st.status==='current')freshLabel='';}catch(_){}
+        }
+        view.el('.pattern-date').textContent='Market close · '+dayLabel(config.dataset.session)+freshLabel;
         const uid='patterns-'+slug;
         [['.pattern-search','Company'],['.pattern-scope','Show'],['.pattern-filter','State'],['.pattern-sort','Sort']].forEach(([selector,label])=>view.el(selector).setAttribute('aria-label',label));
         view.el('.pattern-point').id=uid+'-point'; view.el('.pattern-instructions').id=uid+'-instructions';
@@ -84,6 +94,7 @@
         view.el('form').addEventListener('submit',event=>event.preventDefault());
         ['.pattern-search','.pattern-scope','.pattern-filter','.pattern-sort'].forEach(selector=>view.el(selector).addEventListener(selector==='.pattern-search'?'input':'change',()=>renderList(view)));
         view.el('.pattern-retry').addEventListener('click',()=>{ view.request=null; open(slug); });
+        view.el('.pattern-method').addEventListener('toggle',event=>{if(event.target.open)window.StockerboardAnalytics?.track('pattern_explanation_opened',{family:slug,expansion_source:'methodology'});});
         const canvas=view.el('canvas');
         const pointAt=event=>{ if(!view.chart)return; const rect=canvas.getBoundingClientRect(); const i=Math.round((event.clientX-rect.left-46)/(rect.width-62)*(view.chart.candles.length-1)); inspect(view,Math.max(0,Math.min(view.chart.candles.length-1,i))); };
         canvas.addEventListener('pointermove',event=>{if(event.pointerType!=='touch')pointAt(event);});
@@ -161,6 +172,15 @@
             rules.append(term,value);
         }
         view.el('.pattern-lineage').textContent=`Verified adjusted price data · ${row.algorithm_version} · policy ${row.policy_sha256.slice(0,12)}… · independent recognition review pending.`;
+        const prov=view.el('.pattern-provenance-dl');
+        if(prov){
+            prov.replaceChildren();
+            const firstObs=row.first_observed_session?`${dayLabel(row.first_observed_session)}${row.first_observed_at?' · '+row.first_observed_at.slice(0,19).replace('T',' ')+' UTC':''}`:'First observation not retained';
+            const scanComp=row.scan_completed_at?`${row.scan_completed_at.slice(0,19).replace('T',' ')} UTC`:'Execution timing unavailable';
+            const scanRun=row.scan_run_id||view.release?.run_id||'Unavailable';
+            const basis=row.source_availability_basis==='RETROSPECTIVE_CURRENT_SILVER'?'Retrospective certified adjusted history':'Source observation basis not retained';
+            [['First observation',firstObs],['Scan completed',scanComp],['Scan run reference',scanRun],['Market session',dayLabel(row.session||view.release.session)],['Source basis',basis]].forEach(([k,v])=>metric(prov,k,v));
+        }
         const link=view.el('.pattern-company-link');link.href='/stockerboard_company_overview.html?symbol='+encodeURIComponent(row.symbol);
         Promise.resolve(window.StockerboardCompanyRoutes?.companyUrl(row.symbol)).then(href=>{if(version===view.selection&&href)link.href=href;}).catch(()=>{});
         view.el('.pattern-figure').hidden=true;view.el('.pattern-chart-status').textContent='Loading verified chart…';
@@ -224,6 +244,7 @@
                 Object.entries(states).forEach(([key,label])=>view.el('.pattern-filter').append(new Option(label,key)));
                 const symbol=new URLSearchParams(location.search).get('symbol');if(symbol)view.el('.pattern-search').value=symbol;
                 view.el('.pattern-controls').hidden=false;view.el('.pattern-workspace').hidden=false;renderList(view);
+                window.StockerboardAnalytics?.track('pattern_viewed',{family:slug,scope:view.el('.pattern-scope').value,market_session:release.session,status:'AVAILABLE'});
             } catch(error){view.request=null;view.el('.pattern-message').textContent='Verified scan unavailable. Retry, or refresh the page if a newer market release was published. This is not a “no patterns” result.';view.el('.pattern-retry').hidden=false;}
         })();return view.request;
     }

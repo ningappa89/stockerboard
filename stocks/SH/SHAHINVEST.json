@@ -265,14 +265,22 @@
       "open": 141.79,
       "time": "2026-11-20",
       "volume": 23913
+    },
+    {
+      "close": 143.1,
+      "high": 145.1,
+      "low": 143.0,
+      "open": 143.33,
+      "time": "2026-11-23",
+      "volume": 14548
     }
   ],
   "company_name": "Shah Investor's Home Limited",
   "history": {
     "first_session": "2026-10-06",
     "has_full_52w_history": false,
-    "last_session": "2026-11-20",
-    "sessions_available": 33
+    "last_session": "2026-11-23",
+    "sessions_available": 34
   },
   "industry": null,
   "isin": "INE029N01014",
@@ -280,31 +288,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 61,
+    "momentum_score": 59,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.74x"
+    "volume_multiplier": "0.49x"
   },
   "price": {
-    "as_of": "2026-11-20",
-    "change": 1.59,
-    "change_pct": 1.11,
-    "close": 145.22,
-    "previous_close": 143.63,
+    "as_of": "2026-11-23",
+    "change": -2.12,
+    "change_pct": -1.46,
+    "close": 143.1,
+    "previous_close": 145.22,
     "type": "EOD_CLOSE",
-    "volume": 23913
+    "volume": 14548
   },
   "range": {
-    "distance_from_high_pct": -19.12,
-    "distance_from_low_pct": 12.02,
+    "distance_from_high_pct": -20.3,
+    "distance_from_low_pct": 10.38,
     "high_52w": 179.55,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 129.64,
-    "range_position_pct": 31.22
+    "range_position_pct": 26.97
   },
   "risk_model": {
-    "invalidation_floor": 140.14,
-    "risk_per_share": 7.98,
-    "technical_pivot": 148.12
+    "invalidation_floor": 138.09,
+    "risk_per_share": 7.87,
+    "technical_pivot": 145.96
   },
   "schema_version": "1.0",
   "sector": null,

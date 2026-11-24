@@ -233,14 +233,22 @@
       "open": 441.0,
       "time": "2026-11-20",
       "volume": 135044
+    },
+    {
+      "close": 455.15,
+      "high": 462.35,
+      "low": 446.4,
+      "open": 455.25,
+      "time": "2026-11-23",
+      "volume": 84246
     }
   ],
   "company_name": "Triveni Power Transmission Limited",
   "history": {
     "first_session": "2026-10-12",
     "has_full_52w_history": false,
-    "last_session": "2026-11-20",
-    "sessions_available": 29
+    "last_session": "2026-11-23",
+    "sessions_available": 30
   },
   "industry": null,
   "isin": "INE2WKE01011",
@@ -250,29 +258,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.81x"
+    "volume_multiplier": "0.55x"
   },
   "price": {
-    "as_of": "2026-11-20",
-    "change": 4.25,
-    "change_pct": 0.94,
-    "close": 454.65,
-    "previous_close": 450.4,
+    "as_of": "2026-11-23",
+    "change": 0.5,
+    "change_pct": 0.11,
+    "close": 455.15,
+    "previous_close": 454.65,
     "type": "EOD_CLOSE",
-    "volume": 135044
+    "volume": 84246
   },
   "range": {
-    "distance_from_high_pct": -36.85,
-    "distance_from_low_pct": 10.86,
+    "distance_from_high_pct": -36.78,
+    "distance_from_low_pct": 10.99,
     "high_52w": 720.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 410.1,
-    "range_position_pct": 14.38
+    "range_position_pct": 14.54
   },
   "risk_model": {
-    "invalidation_floor": 438.74,
-    "risk_per_share": 25.0,
-    "technical_pivot": 463.74
+    "invalidation_floor": 439.22,
+    "risk_per_share": 25.03,
+    "technical_pivot": 464.25
   },
   "schema_version": "1.0",
   "sector": null,

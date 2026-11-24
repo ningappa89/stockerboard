@@ -369,14 +369,22 @@
       "open": 1.96,
       "time": "2026-11-16",
       "volume": 22364
+    },
+    {
+      "close": 1.95,
+      "high": 2.05,
+      "low": 1.95,
+      "open": 2.05,
+      "time": "2026-11-23",
+      "volume": 10588
     }
   ],
   "company_name": "CMI LTD.",
   "history": {
     "first_session": "2026-01-05",
     "has_full_52w_history": false,
-    "last_session": "2026-11-16",
-    "sessions_available": 46
+    "last_session": "2026-11-23",
+    "sessions_available": 47
   },
   "industry": null,
   "isin": "INE981B01011",
@@ -385,30 +393,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.5x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.12x"
   },
   "price": {
-    "as_of": "2026-11-16",
-    "change": 0.09,
-    "change_pct": 4.59,
-    "close": 2.05,
-    "previous_close": 1.96,
+    "as_of": "2026-11-23",
+    "change": -0.1,
+    "change_pct": -4.88,
+    "close": 1.95,
+    "previous_close": 2.05,
     "type": "EOD_CLOSE",
-    "volume": 22364
+    "volume": 10588
   },
   "range": {
-    "distance_from_high_pct": -65.95,
-    "distance_from_low_pct": 7.89,
+    "distance_from_high_pct": -67.61,
+    "distance_from_low_pct": 2.63,
     "high_52w": 6.02,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 1.9,
-    "range_position_pct": 3.64
+    "range_position_pct": 1.21
   },
   "risk_model": {
-    "invalidation_floor": 1.98,
+    "invalidation_floor": 1.88,
     "risk_per_share": 0.5,
-    "technical_pivot": 2.09
+    "technical_pivot": 1.99
   },
   "schema_version": "1.0",
   "sector": null,

@@ -7,14 +7,6 @@
       "high": 0.46,
       "low": 0.44,
       "open": 0.45,
-      "time": "2025-07-09",
-      "volume": 14552066
-    },
-    {
-      "close": 0.45,
-      "high": 0.46,
-      "low": 0.44,
-      "open": 0.45,
       "time": "2025-07-10",
       "volume": 9174074
     },
@@ -2017,13 +2009,21 @@
       "open": 0.13,
       "time": "2026-11-20",
       "volume": 8538710
+    },
+    {
+      "close": 0.12,
+      "high": 0.14,
+      "low": 0.12,
+      "open": 0.14,
+      "time": "2026-11-23",
+      "volume": 34501674
     }
   ],
   "company_name": "DHARAN INFRA-EPC LIMITED",
   "history": {
-    "first_session": "2025-07-09",
+    "first_session": "2025-07-10",
     "has_full_52w_history": true,
-    "last_session": "2026-11-20",
+    "last_session": "2026-11-23",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.08x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "3.84x"
   },
   "price": {
-    "as_of": "2026-11-20",
-    "change": 0.0,
-    "change_pct": 0.0,
-    "close": 0.13,
+    "as_of": "2026-11-23",
+    "change": -0.01,
+    "change_pct": -7.69,
+    "close": 0.12,
     "previous_close": 0.13,
     "type": "EOD_CLOSE",
-    "volume": 8538710
+    "volume": 34501674
   },
   "range": {
-    "distance_from_high_pct": -78.69,
-    "distance_from_low_pct": 18.18,
+    "distance_from_high_pct": -80.33,
+    "distance_from_low_pct": 9.09,
     "high_52w": 0.61,
     "history_basis": "52_WEEK",
     "low_52w": 0.11,
-    "range_position_pct": 4.0
+    "range_position_pct": 2.0
   },
   "risk_model": {
-    "invalidation_floor": 0.13,
+    "invalidation_floor": 0.12,
     "risk_per_share": 0.5,
-    "technical_pivot": 0.13
+    "technical_pivot": 0.12
   },
   "schema_version": "1.0",
   "sector": null,

@@ -169,46 +169,54 @@
       "open": 1489.0,
       "time": "2026-11-20",
       "volume": 1169620
+    },
+    {
+      "close": 1404.0,
+      "high": 1472.7,
+      "low": 1397.0,
+      "open": 1460.0,
+      "time": "2026-11-23",
+      "volume": 459085
     }
   ],
   "company_name": "Tonbo Imaging India Limited",
   "history": {
     "first_session": "2026-10-23",
     "has_full_52w_history": false,
-    "last_session": "2026-11-20",
-    "sessions_available": 21
+    "last_session": "2026-11-23",
+    "sessions_available": 22
   },
   "industry": null,
   "isin": "INE0LDG01026",
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 70,
+    "is_stage2": false,
+    "momentum_score": 65,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.3x"
+    "volume_multiplier": "0.13x"
   },
   "price": {
-    "as_of": "2026-11-20",
-    "change": -47.9,
-    "change_pct": -3.18,
-    "close": 1457.1,
-    "previous_close": 1505.0,
+    "as_of": "2026-11-23",
+    "change": -53.1,
+    "change_pct": -3.64,
+    "close": 1404.0,
+    "previous_close": 1457.1,
     "type": "EOD_CLOSE",
-    "volume": 1169620
+    "volume": 459085
   },
   "range": {
-    "distance_from_high_pct": -12.92,
-    "distance_from_low_pct": 43.74,
+    "distance_from_high_pct": -16.09,
+    "distance_from_low_pct": 38.5,
     "high_52w": 1673.3,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 1013.7,
-    "range_position_pct": 67.22
+    "range_position_pct": 59.17
   },
   "risk_model": {
-    "invalidation_floor": 1406.1,
-    "risk_per_share": 80.14,
-    "technical_pivot": 1486.24
+    "invalidation_floor": 1354.86,
+    "risk_per_share": 77.22,
+    "technical_pivot": 1432.08
   },
   "schema_version": "1.0",
   "sector": null,
