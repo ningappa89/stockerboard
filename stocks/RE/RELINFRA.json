@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 376.05,
-      "high": 383.95,
-      "low": 375.0,
-      "open": 383.1,
-      "time": "2025-07-22",
-      "volume": 1159348
-    },
-    {
       "close": 378.75,
       "high": 385.95,
       "low": 363.1,
@@ -2017,13 +2009,21 @@
       "open": 55.51,
       "time": "2026-11-23",
       "volume": 73071
+    },
+    {
+      "close": 54.4,
+      "high": 54.4,
+      "low": 54.4,
+      "open": 54.4,
+      "time": "2026-11-25",
+      "volume": 9218
     }
   ],
   "company_name": "RELIANCE INFRASTRUCTU LTD",
   "history": {
-    "first_session": "2025-07-22",
+    "first_session": "2025-07-23",
     "has_full_52w_history": true,
-    "last_session": "2026-11-23",
+    "last_session": "2026-11-25",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.19x"
+    "volume_multiplier": "0.03x"
   },
   "price": {
-    "as_of": "2026-11-23",
-    "change": -1.13,
+    "as_of": "2026-11-25",
+    "change": -1.11,
     "change_pct": -2.0,
-    "close": 55.51,
-    "previous_close": 56.64,
+    "close": 54.4,
+    "previous_close": 55.51,
     "type": "EOD_CLOSE",
-    "volume": 73071
+    "volume": 9218
   },
   "range": {
-    "distance_from_high_pct": -85.62,
-    "distance_from_low_pct": 30.43,
+    "distance_from_high_pct": -85.9,
+    "distance_from_low_pct": 27.82,
     "high_52w": 385.95,
     "history_basis": "52_WEEK",
     "low_52w": 42.56,
-    "range_position_pct": 3.77
+    "range_position_pct": 3.45
   },
   "risk_model": {
-    "invalidation_floor": 53.57,
-    "risk_per_share": 3.05,
-    "technical_pivot": 56.62
+    "invalidation_floor": 52.5,
+    "risk_per_share": 2.99,
+    "technical_pivot": 55.49
   },
   "schema_version": "1.0",
   "sector": null,

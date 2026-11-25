@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 179.18,
-      "high": 180.0,
-      "low": 176.15,
-      "open": 178.24,
-      "time": "2025-11-11",
-      "volume": 162852
-    },
-    {
       "close": 180.48,
       "high": 182.38,
       "low": 179.1,
@@ -2017,13 +2009,21 @@
       "open": 47.01,
       "time": "2026-11-23",
       "volume": 161808
+    },
+    {
+      "close": 45.57,
+      "high": 47.96,
+      "low": 44.45,
+      "open": 46.76,
+      "time": "2026-11-25",
+      "volume": 152843
     }
   ],
   "company_name": "RAJESH EXPORTS LTD.",
   "history": {
-    "first_session": "2025-11-11",
+    "first_session": "2025-11-12",
     "has_full_52w_history": true,
-    "last_session": "2026-11-23",
+    "last_session": "2026-11-25",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.13x"
+    "volume_multiplier": "1.05x"
   },
   "price": {
-    "as_of": "2026-11-23",
-    "change": -1.09,
-    "change_pct": -2.28,
-    "close": 46.75,
-    "previous_close": 47.84,
+    "as_of": "2026-11-25",
+    "change": -1.18,
+    "change_pct": -2.52,
+    "close": 45.57,
+    "previous_close": 46.75,
     "type": "EOD_CLOSE",
-    "volume": 161808
+    "volume": 152843
   },
   "range": {
-    "distance_from_high_pct": -80.35,
-    "distance_from_low_pct": 0.21,
+    "distance_from_high_pct": -80.84,
+    "distance_from_low_pct": 2.52,
     "high_52w": 237.88,
     "history_basis": "52_WEEK",
-    "low_52w": 46.65,
-    "range_position_pct": 0.05
+    "low_52w": 44.45,
+    "range_position_pct": 0.58
   },
   "risk_model": {
-    "invalidation_floor": 45.11,
-    "risk_per_share": 2.58,
-    "technical_pivot": 47.69
+    "invalidation_floor": 43.98,
+    "risk_per_share": 2.5,
+    "technical_pivot": 46.48
   },
   "schema_version": "1.0",
   "sector": null,

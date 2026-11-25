@@ -177,14 +177,22 @@
       "open": 530.0,
       "time": "2026-11-23",
       "volume": 777548
+    },
+    {
+      "close": 530.75,
+      "high": 561.8,
+      "low": 526.3,
+      "open": 558.0,
+      "time": "2026-11-25",
+      "volume": 195543
     }
   ],
   "company_name": "Sahajanand Medical Technologies Limited",
   "history": {
     "first_session": "2026-10-23",
     "has_full_52w_history": false,
-    "last_session": "2026-11-23",
-    "sessions_available": 22
+    "last_session": "2026-11-25",
+    "sessions_available": 23
   },
   "industry": null,
   "isin": "INE356Y01018",
@@ -192,31 +200,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 84,
-    "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.36x"
+    "momentum_score": 77,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.1x"
   },
   "price": {
-    "as_of": "2026-11-23",
-    "change": 29.85,
-    "change_pct": 5.66,
-    "close": 557.45,
-    "previous_close": 527.6,
+    "as_of": "2026-11-25",
+    "change": -26.7,
+    "change_pct": -4.79,
+    "close": 530.75,
+    "previous_close": 557.45,
     "type": "EOD_CLOSE",
-    "volume": 777548
+    "volume": 195543
   },
   "range": {
-    "distance_from_high_pct": -3.67,
-    "distance_from_low_pct": 60.81,
+    "distance_from_high_pct": -8.29,
+    "distance_from_low_pct": 53.11,
     "high_52w": 578.7,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 346.65,
-    "range_position_pct": 90.84
+    "range_position_pct": 79.34
   },
   "risk_model": {
-    "invalidation_floor": 537.94,
-    "risk_per_share": 30.66,
-    "technical_pivot": 568.6
+    "invalidation_floor": 512.17,
+    "risk_per_share": 29.2,
+    "technical_pivot": 541.37
   },
   "schema_version": "1.0",
   "sector": null,

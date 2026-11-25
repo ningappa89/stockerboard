@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 44.32,
-      "high": 45.32,
-      "low": 42.93,
-      "open": 45.3,
-      "time": "2025-09-03",
-      "volume": 309553
-    },
-    {
       "close": 44.96,
       "high": 46.13,
       "low": 44.41,
@@ -2017,13 +2009,21 @@
       "open": 13.63,
       "time": "2026-11-23",
       "volume": 8450
+    },
+    {
+      "close": 14.1,
+      "high": 14.17,
+      "low": 13.65,
+      "open": 14.17,
+      "time": "2026-11-25",
+      "volume": 32846
     }
   ],
   "company_name": "ABAN OFFSHORE LTD.",
   "history": {
-    "first_session": "2025-09-03",
+    "first_session": "2025-09-04",
     "has_full_52w_history": true,
-    "last_session": "2026-11-23",
+    "last_session": "2026-11-25",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.62x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.23x"
   },
   "price": {
-    "as_of": "2026-11-23",
-    "change": 0.27,
-    "change_pct": 1.98,
-    "close": 13.9,
-    "previous_close": 13.63,
+    "as_of": "2026-11-25",
+    "change": 0.2,
+    "change_pct": 1.44,
+    "close": 14.1,
+    "previous_close": 13.9,
     "type": "EOD_CLOSE",
-    "volume": 8450
+    "volume": 32846
   },
   "range": {
-    "distance_from_high_pct": -69.87,
-    "distance_from_low_pct": 7.84,
+    "distance_from_high_pct": -69.43,
+    "distance_from_low_pct": 9.39,
     "high_52w": 46.13,
     "history_basis": "52_WEEK",
     "low_52w": 12.89,
-    "range_position_pct": 3.04
+    "range_position_pct": 3.64
   },
   "risk_model": {
-    "invalidation_floor": 13.41,
+    "invalidation_floor": 13.61,
     "risk_per_share": 0.77,
-    "technical_pivot": 14.18
+    "technical_pivot": 14.38
   },
   "schema_version": "1.0",
   "sector": null,

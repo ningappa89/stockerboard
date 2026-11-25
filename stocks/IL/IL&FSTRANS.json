@@ -1761,14 +1761,22 @@
       "open": 1.45,
       "time": "2026-11-23",
       "volume": 42315
+    },
+    {
+      "close": 1.46,
+      "high": 1.49,
+      "low": 1.43,
+      "open": 1.44,
+      "time": "2026-11-25",
+      "volume": 25723
     }
   ],
   "company_name": "IL&FS TRANSPORTATION NETWORKS",
   "history": {
     "first_session": "2026-01-01",
     "has_full_52w_history": false,
-    "last_session": "2026-11-23",
-    "sessions_available": 220
+    "last_session": "2026-11-25",
+    "sessions_available": 221
   },
   "industry": null,
   "isin": "INE975G01012",
@@ -1778,29 +1786,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.79x"
+    "volume_multiplier": "0.49x"
   },
   "price": {
-    "as_of": "2026-11-23",
-    "change": 0.02,
-    "change_pct": 1.36,
-    "close": 1.49,
-    "previous_close": 1.47,
+    "as_of": "2026-11-25",
+    "change": -0.03,
+    "change_pct": -2.01,
+    "close": 1.46,
+    "previous_close": 1.49,
     "type": "EOD_CLOSE",
-    "volume": 42315
+    "volume": 25723
   },
   "range": {
-    "distance_from_high_pct": -50.99,
-    "distance_from_low_pct": 4.2,
+    "distance_from_high_pct": -51.97,
+    "distance_from_low_pct": 2.1,
     "high_52w": 3.04,
     "history_basis": "52_WEEK",
     "low_52w": 1.43,
-    "range_position_pct": 3.73
+    "range_position_pct": 1.86
   },
   "risk_model": {
-    "invalidation_floor": 1.44,
+    "invalidation_floor": 1.41,
     "risk_per_share": 0.5,
-    "technical_pivot": 1.52
+    "technical_pivot": 1.49
   },
   "schema_version": "1.0",
   "sector": null,

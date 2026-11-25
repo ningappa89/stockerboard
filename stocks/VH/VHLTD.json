@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 121.55,
-      "high": 126.8,
-      "low": 120.0,
-      "open": 126.8,
-      "time": "2025-11-17",
-      "volume": 99954
-    },
-    {
       "close": 124.0,
       "high": 124.8,
       "low": 121.5,
@@ -2017,13 +2009,21 @@
       "open": 141.0,
       "time": "2026-11-23",
       "volume": 6323
+    },
+    {
+      "close": 137.06,
+      "high": 141.78,
+      "low": 135.55,
+      "open": 141.78,
+      "time": "2026-11-25",
+      "volume": 8607
     }
   ],
   "company_name": "VICEROY HOTELS LIMITED",
   "history": {
-    "first_session": "2025-11-17",
+    "first_session": "2025-11-18",
     "has_full_52w_history": true,
-    "last_session": "2026-11-23",
+    "last_session": "2026-11-25",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": true,
-    "momentum_score": 71,
+    "is_stage2": false,
+    "momentum_score": 67,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.48x"
+    "volume_multiplier": "0.67x"
   },
   "price": {
-    "as_of": "2026-11-23",
-    "change": 1.07,
-    "change_pct": 0.76,
-    "close": 141.78,
-    "previous_close": 140.71,
+    "as_of": "2026-11-25",
+    "change": -4.72,
+    "change_pct": -3.33,
+    "close": 137.06,
+    "previous_close": 141.78,
     "type": "EOD_CLOSE",
-    "volume": 6323
+    "volume": 8607
   },
   "range": {
-    "distance_from_high_pct": -12.32,
-    "distance_from_low_pct": 23.77,
+    "distance_from_high_pct": -15.24,
+    "distance_from_low_pct": 19.65,
     "high_52w": 161.7,
     "history_basis": "52_WEEK",
     "low_52w": 114.55,
-    "range_position_pct": 57.75
+    "range_position_pct": 47.74
   },
   "risk_model": {
-    "invalidation_floor": 136.82,
-    "risk_per_share": 7.8,
-    "technical_pivot": 144.62
+    "invalidation_floor": 132.26,
+    "risk_per_share": 7.54,
+    "technical_pivot": 139.8
   },
   "schema_version": "1.0",
   "sector": null,

@@ -1057,14 +1057,22 @@
       "open": 10.0,
       "time": "2026-11-23",
       "volume": 18746
+    },
+    {
+      "close": 9.33,
+      "high": 9.69,
+      "low": 9.26,
+      "open": 9.42,
+      "time": "2026-11-25",
+      "volume": 16374
     }
   ],
   "company_name": "Neueon Corporation Limited",
   "history": {
     "first_session": "2025-12-23",
     "has_full_52w_history": false,
-    "last_session": "2026-11-23",
-    "sessions_available": 132
+    "last_session": "2026-11-25",
+    "sessions_available": 133
   },
   "industry": null,
   "isin": "INE333I01044",
@@ -1074,29 +1082,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.76x"
+    "volume_multiplier": "0.69x"
   },
   "price": {
-    "as_of": "2026-11-23",
-    "change": -0.08,
-    "change_pct": -0.81,
-    "close": 9.74,
-    "previous_close": 9.82,
+    "as_of": "2026-11-25",
+    "change": -0.41,
+    "change_pct": -4.21,
+    "close": 9.33,
+    "previous_close": 9.74,
     "type": "EOD_CLOSE",
-    "volume": 18746
+    "volume": 16374
   },
   "range": {
-    "distance_from_high_pct": -64.45,
-    "distance_from_low_pct": 69.1,
+    "distance_from_high_pct": -65.95,
+    "distance_from_low_pct": 61.98,
     "high_52w": 27.4,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 5.76,
-    "range_position_pct": 18.39
+    "range_position_pct": 16.5
   },
   "risk_model": {
-    "invalidation_floor": 9.4,
-    "risk_per_share": 0.53,
-    "technical_pivot": 9.93
+    "invalidation_floor": 9.0,
+    "risk_per_share": 0.52,
+    "technical_pivot": 9.52
   },
   "schema_version": "1.0",
   "sector": null,

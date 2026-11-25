@@ -1089,14 +1089,22 @@
       "open": 6.3,
       "time": "2026-11-23",
       "volume": 39124
+    },
+    {
+      "close": 6.1,
+      "high": 6.12,
+      "low": 5.55,
+      "open": 5.83,
+      "time": "2026-11-25",
+      "volume": 3266
     }
   ],
   "company_name": "MORARJEE TEXTILES LTD.",
   "history": {
     "first_session": "2026-01-05",
     "has_full_52w_history": false,
-    "last_session": "2026-11-23",
-    "sessions_available": 136
+    "last_session": "2026-11-25",
+    "sessions_available": 137
   },
   "industry": null,
   "isin": "INE161G01027",
@@ -1105,30 +1113,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "3.51x"
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "0.29x"
   },
   "price": {
-    "as_of": "2026-11-23",
-    "change": -0.29,
-    "change_pct": -4.74,
-    "close": 5.83,
-    "previous_close": 6.12,
+    "as_of": "2026-11-25",
+    "change": 0.27,
+    "change_pct": 4.63,
+    "close": 6.1,
+    "previous_close": 5.83,
     "type": "EOD_CLOSE",
-    "volume": 39124
+    "volume": 3266
   },
   "range": {
-    "distance_from_high_pct": -53.02,
-    "distance_from_low_pct": 54.23,
+    "distance_from_high_pct": -50.85,
+    "distance_from_low_pct": 61.38,
     "high_52w": 12.41,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 3.78,
-    "range_position_pct": 23.75
+    "range_position_pct": 26.88
   },
   "risk_model": {
-    "invalidation_floor": 5.63,
+    "invalidation_floor": 5.89,
     "risk_per_share": 0.5,
-    "technical_pivot": 5.95
+    "technical_pivot": 6.22
   },
   "schema_version": "1.0",
   "sector": null,

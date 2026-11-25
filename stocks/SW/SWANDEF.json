@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 82.11,
-      "high": 82.11,
-      "low": 82.11,
-      "open": 82.11,
-      "time": "2025-03-17",
-      "volume": 373
-    },
-    {
       "close": 86.21,
       "high": 86.21,
       "low": 85.0,
@@ -2017,13 +2009,21 @@
       "open": 2880.0,
       "time": "2026-11-23",
       "volume": 6039
+    },
+    {
+      "close": 2858.6,
+      "high": 2879.0,
+      "low": 2812.0,
+      "open": 2820.0,
+      "time": "2026-11-25",
+      "volume": 4866
     }
   ],
   "company_name": "SWAN DEFENCE N HEVY IND L",
   "history": {
-    "first_session": "2025-03-17",
+    "first_session": "2025-03-24",
     "has_full_52w_history": true,
-    "last_session": "2026-11-23",
+    "last_session": "2026-11-25",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 82,
+    "momentum_score": 81,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.76x"
+    "volume_multiplier": "0.61x"
   },
   "price": {
-    "as_of": "2026-11-23",
-    "change": 4.0,
-    "change_pct": 0.14,
-    "close": 2864.6,
-    "previous_close": 2860.6,
+    "as_of": "2026-11-25",
+    "change": -6.0,
+    "change_pct": -0.21,
+    "close": 2858.6,
+    "previous_close": 2864.6,
     "type": "EOD_CLOSE",
-    "volume": 6039
+    "volume": 4866
   },
   "range": {
-    "distance_from_high_pct": -5.15,
-    "distance_from_low_pct": 3388.73,
+    "distance_from_high_pct": -5.34,
+    "distance_from_low_pct": 3263.06,
     "high_52w": 3020.0,
     "history_basis": "52_WEEK",
-    "low_52w": 82.11,
-    "range_position_pct": 94.71
+    "low_52w": 85.0,
+    "range_position_pct": 94.5
   },
   "risk_model": {
-    "invalidation_floor": 2764.34,
-    "risk_per_share": 157.55,
-    "technical_pivot": 2921.89
+    "invalidation_floor": 2758.55,
+    "risk_per_share": 157.22,
+    "technical_pivot": 2915.77
   },
   "schema_version": "1.0",
   "sector": null,
