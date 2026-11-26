@@ -1769,14 +1769,22 @@
       "open": 0.31,
       "time": "2026-11-25",
       "volume": 183838
+    },
+    {
+      "close": 0.3,
+      "high": 0.3,
+      "low": 0.29,
+      "open": 0.3,
+      "time": "2026-11-26",
+      "volume": 30469
     }
   ],
   "company_name": "Future Enterprises Limited",
   "history": {
     "first_session": "2026-01-01",
     "has_full_52w_history": false,
-    "last_session": "2026-11-25",
-    "sessions_available": 221
+    "last_session": "2026-11-26",
+    "sessions_available": 222
   },
   "industry": null,
   "isin": "INE623B01027",
@@ -1786,29 +1794,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.77x"
+    "volume_multiplier": "0.14x"
   },
   "price": {
-    "as_of": "2026-11-25",
-    "change": -0.01,
-    "change_pct": -3.33,
-    "close": 0.29,
-    "previous_close": 0.3,
+    "as_of": "2026-11-26",
+    "change": 0.01,
+    "change_pct": 3.45,
+    "close": 0.3,
+    "previous_close": 0.29,
     "type": "EOD_CLOSE",
-    "volume": 183838
+    "volume": 30469
   },
   "range": {
-    "distance_from_high_pct": -43.14,
-    "distance_from_low_pct": 11.54,
+    "distance_from_high_pct": -41.18,
+    "distance_from_low_pct": 15.38,
     "high_52w": 0.51,
     "history_basis": "52_WEEK",
     "low_52w": 0.26,
-    "range_position_pct": 12.0
+    "range_position_pct": 16.0
   },
   "risk_model": {
-    "invalidation_floor": 0.28,
+    "invalidation_floor": 0.29,
     "risk_per_share": 0.5,
-    "technical_pivot": 0.3
+    "technical_pivot": 0.31
   },
   "schema_version": "1.0",
   "sector": null,

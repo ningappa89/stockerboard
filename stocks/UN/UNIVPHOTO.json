@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 239.8,
-      "high": 245.7,
-      "low": 239.45,
-      "open": 245.1,
-      "time": "2025-11-17",
-      "volume": 1457
-    },
-    {
       "close": 237.5,
       "high": 239.25,
       "low": 236.0,
@@ -2017,13 +2009,21 @@
       "open": 450.0,
       "time": "2026-11-25",
       "volume": 618
+    },
+    {
+      "close": 468.1,
+      "high": 468.1,
+      "low": 450.0,
+      "open": 459.0,
+      "time": "2026-11-26",
+      "volume": 557
     }
   ],
   "company_name": "UNIVERSUS PHOTO IMAGINGS LIMIT",
   "history": {
-    "first_session": "2025-11-17",
+    "first_session": "2025-11-18",
     "has_full_52w_history": true,
-    "last_session": "2026-11-25",
+    "last_session": "2026-11-26",
     "sessions_available": 252
   },
   "industry": null,
@@ -2032,31 +2032,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 50,
+    "momentum_score": 52,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.76x"
+    "volume_multiplier": "0.7x"
   },
   "price": {
-    "as_of": "2026-11-25",
-    "change": 8.1,
-    "change_pct": 1.8,
-    "close": 459.0,
-    "previous_close": 450.9,
+    "as_of": "2026-11-26",
+    "change": 9.1,
+    "change_pct": 1.98,
+    "close": 468.1,
+    "previous_close": 459.0,
     "type": "EOD_CLOSE",
-    "volume": 618
+    "volume": 557
   },
   "range": {
-    "distance_from_high_pct": -26.53,
-    "distance_from_low_pct": 154.15,
+    "distance_from_high_pct": -25.07,
+    "distance_from_low_pct": 159.19,
     "high_52w": 624.75,
     "history_basis": "52_WEEK",
     "low_52w": 180.6,
-    "range_position_pct": 62.68
+    "range_position_pct": 64.73
   },
   "risk_model": {
-    "invalidation_floor": 442.94,
-    "risk_per_share": 25.24,
-    "technical_pivot": 468.18
+    "invalidation_floor": 451.72,
+    "risk_per_share": 25.74,
+    "technical_pivot": 477.46
   },
   "schema_version": "1.0",
   "sector": null,

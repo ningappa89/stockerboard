@@ -1593,14 +1593,22 @@
       "open": 0.2,
       "time": "2026-11-25",
       "volume": 493707
+    },
+    {
+      "close": 0.18,
+      "high": 0.2,
+      "low": 0.18,
+      "open": 0.19,
+      "time": "2026-11-26",
+      "volume": 516053
     }
   ],
   "company_name": "SANWARIA CONSUMER LIMITED",
   "history": {
     "first_session": "2026-01-01",
     "has_full_52w_history": false,
-    "last_session": "2026-11-25",
-    "sessions_available": 199
+    "last_session": "2026-11-26",
+    "sessions_available": 200
   },
   "industry": null,
   "isin": "INE890C01046",
@@ -1610,29 +1618,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.59x"
+    "volume_multiplier": "1.6x"
   },
   "price": {
-    "as_of": "2026-11-25",
-    "change": 0.0,
-    "change_pct": 0.0,
-    "close": 0.19,
+    "as_of": "2026-11-26",
+    "change": -0.01,
+    "change_pct": -5.26,
+    "close": 0.18,
     "previous_close": 0.19,
     "type": "EOD_CLOSE",
-    "volume": 493707
+    "volume": 516053
   },
   "range": {
-    "distance_from_high_pct": -45.71,
-    "distance_from_low_pct": 5.56,
+    "distance_from_high_pct": -48.57,
+    "distance_from_low_pct": 0.0,
     "high_52w": 0.35,
-    "history_basis": "AVAILABLE_HISTORY",
+    "history_basis": "52_WEEK",
     "low_52w": 0.18,
-    "range_position_pct": 5.88
+    "range_position_pct": 0.0
   },
   "risk_model": {
-    "invalidation_floor": 0.18,
+    "invalidation_floor": 0.17,
     "risk_per_share": 0.5,
-    "technical_pivot": 0.19
+    "technical_pivot": 0.18
   },
   "schema_version": "1.0",
   "sector": null,

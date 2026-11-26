@@ -281,14 +281,22 @@
       "open": 122.55,
       "time": "2026-11-25",
       "volume": 231365
+    },
+    {
+      "close": 129.19,
+      "high": 131.45,
+      "low": 124.2,
+      "open": 125.0,
+      "time": "2026-11-26",
+      "volume": 417756
     }
   ],
   "company_name": "SRIT India Limited",
   "history": {
     "first_session": "2026-10-06",
     "has_full_52w_history": false,
-    "last_session": "2026-11-25",
-    "sessions_available": 35
+    "last_session": "2026-11-26",
+    "sessions_available": 36
   },
   "industry": null,
   "isin": "INE307K01028",
@@ -296,31 +304,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 60,
+    "momentum_score": 64,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.3x"
+    "volume_multiplier": "0.55x"
   },
   "price": {
-    "as_of": "2026-11-25",
-    "change": 2.09,
-    "change_pct": 1.71,
-    "close": 124.64,
-    "previous_close": 122.55,
+    "as_of": "2026-11-26",
+    "change": 4.55,
+    "change_pct": 3.65,
+    "close": 129.19,
+    "previous_close": 124.64,
     "type": "EOD_CLOSE",
-    "volume": 231365
+    "volume": 417756
   },
   "range": {
-    "distance_from_high_pct": -19.63,
-    "distance_from_low_pct": 31.2,
+    "distance_from_high_pct": -16.7,
+    "distance_from_low_pct": 35.99,
     "high_52w": 155.09,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 95.0,
-    "range_position_pct": 49.33
+    "range_position_pct": 56.9
   },
   "risk_model": {
-    "invalidation_floor": 120.28,
-    "risk_per_share": 6.85,
-    "technical_pivot": 127.13
+    "invalidation_floor": 124.67,
+    "risk_per_share": 7.1,
+    "technical_pivot": 131.77
   },
   "schema_version": "1.0",
   "sector": null,

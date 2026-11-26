@@ -2,208 +2,208 @@
   "schema_version": 1,
   "status": "CERTIFIED",
   "screen_policy": "LIQUID_NSE_EQ_52W_V1",
-  "market_session": "2026-11-25",
-  "gold_run_id": "gold_run_46356016d9e6",
+  "market_session": "2026-11-26",
+  "gold_run_id": "gold_run_cebafa41eb14",
   "ratio_release_id": "DOSSIER_V2_ROE_eb43619079d11bfc_288d03e321878ac0",
   "screened_count": 350,
   "stockme_policy": "STOCKME_52W_SCORE_V1",
   "stockme_candidate_count": 100,
-  "stockme_qualified_count": 3,
-  "stockme_session": "2026-11-25",
-  "home_market_session": "2026-11-25",
+  "stockme_qualified_count": 5,
+  "stockme_session": "2026-11-26",
+  "home_market_session": "2026-11-26",
   "home_universe_count": 2628,
-  "main_roe_count": 171,
-  "breadth_pct": 9.1,
+  "main_roe_count": 172,
+  "breadth_pct": 7.1,
   "cup_with_handle": {
     "status": "PREVIEW",
     "enabled": true,
     "preview": true,
     "requested_mode": "preview",
-    "session": "2026-11-25",
-    "runtime_seconds": 30.14,
+    "session": "2026-11-26",
+    "runtime_seconds": 20.97,
     "coverage": {
       "cohort": 2628,
-      "excluded": 1206,
+      "excluded": 1211,
       "exclusion_reasons": {
-        "BELOW_LIQUIDITY_FLOOR": 837,
-        "INSUFFICIENT_CONTIGUOUS_COMPARABLE_HISTORY": 321,
+        "BELOW_LIQUIDITY_FLOOR": 841,
+        "INSUFFICIENT_CONTIGUOUS_COMPARABLE_HISTORY": 322,
         "NO_CURRENT_SESSION_BAR": 37,
         "UNRESOLVED_SECURITY_IDENTITY": 11
       },
       "matched": 2,
-      "no_match": 1420,
-      "scanned": 1422
+      "no_match": 1415,
+      "scanned": 1417
     },
     "release_gates": {
       "ready": false,
       "backfill_passed": true,
       "holdout_passed": false,
       "shadow_passed": false,
-      "shadow_sessions": 3,
+      "shadow_sessions": 4,
       "required_shadow_sessions": 20,
       "p95_seconds": 53.0
     },
-    "index_sha256": "f34b3d5adfc315fb476d94934a2fd75e62cb77af78e08570a95199f0e3000053"
+    "index_sha256": "5480bab44e39e9954003a004983a07e19a480899fda4052c1f64ed9c70fed10c"
   },
   "patterns": {
     "revision": "PATTERNS_PRO_V2",
     "status": "AVAILABLE",
-    "session": "2026-11-25",
-    "gold_run_id": "gold_run_46356016d9e6",
-    "index_sha256": "c1b421d8eafd344b6c91f0bfb0594e9ac6e2aa144708e41c20a10b8f7df42685",
+    "session": "2026-11-26",
+    "gold_run_id": "gold_run_cebafa41eb14",
+    "index_sha256": "91cf05ced40748a1a49a013765fb96c7cc0e3b95ca071ddbdd9eaa297ed455ff",
     "families": {
       "cup-with-handle": {
         "title": "Cup with Handle",
         "status": "AVAILABLE",
-        "execution_key": "b966c1b70c038dd40217716d2d1d41c5",
-        "path": "pro-research/patterns/releases/db46d461c9e3ca35572a082b/cup-with-handle.json",
-        "sha256": "a2777e1c43346dd155c0507aa3377c57dacfff1f318e976cea9fef61e52db1ab",
+        "execution_key": "60cbfc85fd30bf79065fe686ccc34be0",
+        "path": "pro-research/patterns/releases/d923bdaaf8c6f58e60ec1e80/cup-with-handle.json",
+        "sha256": "5b2fc1dd08f6c642dab0d58dec12781c2973287f2bb4df63fb07c3c68e4e9d09",
         "coverage": {
           "closed": 0,
           "cohort": 2628,
           "confirmed_today": 0,
           "current": 0,
-          "excluded": 1206,
+          "excluded": 1211,
           "exclusion_reasons": {
-            "BELOW_LIQUIDITY_FLOOR": 837,
-            "INSUFFICIENT_CONTIGUOUS_COMPARABLE_HISTORY": 321,
+            "BELOW_LIQUIDITY_FLOOR": 841,
+            "INSUFFICIENT_CONTIGUOUS_COMPARABLE_HISTORY": 322,
             "NO_CURRENT_SESSION_BAR": 37,
             "UNRESOLVED_SECURITY_IDENTITY": 11
           },
           "historical": 2,
           "matched": 2,
-          "no_match": 1420,
-          "scanned": 1422
+          "no_match": 1415,
+          "scanned": 1417
         },
         "algorithm_version": "CUP_WITH_HANDLE_ENGINE_V2.2",
         "policy_sha256": "7b11a9aa8c189d5916191c085d23f0612ff4f1ccac048da16e6636d1d0db1970",
-        "runtime_seconds": 5.25,
-        "scan_run_id": "87b2641118d34485851ce627eaa7fab0",
-        "scan_completed_at": "2026-11-25T13:44:25.268910+00:00"
+        "runtime_seconds": 3.969,
+        "scan_run_id": "3063bc17ce924223b48ee90ddea11325",
+        "scan_completed_at": "2026-11-26T12:18:14.739242+00:00"
       },
       "flat-base": {
         "title": "Flat Base",
         "status": "AVAILABLE",
-        "execution_key": "edab14f8d7c1775d834f0a9d9396f268",
-        "path": "pro-research/patterns/releases/415b3cc2b22349c95ac46837/flat-base.json",
-        "sha256": "ca9a0a463a09f5016f7db2cb5f54b4fd4d700316be0e3778161c9dcd4ed8f386",
+        "execution_key": "8b6399676405ae10aa5771155b6d63a4",
+        "path": "pro-research/patterns/releases/7342a3df918c9849400cf053/flat-base.json",
+        "sha256": "ba58e9a49c722a08b8b5da23367f449f83cfb29bef8e97735c24473fc64b5595",
         "coverage": {
-          "closed": 477,
+          "closed": 478,
           "cohort": 2628,
           "confirmed_today": 0,
-          "current": 21,
-          "excluded": 1206,
+          "current": 23,
+          "excluded": 1211,
           "exclusion_reasons": {
-            "BELOW_LIQUIDITY_FLOOR": 837,
-            "INSUFFICIENT_CONTIGUOUS_COMPARABLE_HISTORY": 321,
+            "BELOW_LIQUIDITY_FLOOR": 841,
+            "INSUFFICIENT_CONTIGUOUS_COMPARABLE_HISTORY": 322,
             "NO_CURRENT_SESSION_BAR": 37,
             "UNRESOLVED_SECURITY_IDENTITY": 11
           },
           "historical": 28,
-          "matched": 526,
-          "no_match": 896,
-          "scanned": 1422
+          "matched": 529,
+          "no_match": 888,
+          "scanned": 1417
         },
         "algorithm_version": "FLAT_BASE_ENGINE_V1.2",
         "policy_sha256": "f0f4f07320928f3e83db48770b56bfb13da9073e66900edd349f10e7480a317e",
-        "runtime_seconds": 7.641,
-        "scan_run_id": "975dfe2ea5b54cb497ffb9b5238ceafd",
-        "scan_completed_at": "2026-11-25T13:44:27.659022+00:00"
+        "runtime_seconds": 5.094,
+        "scan_run_id": "0839f8eaa3184685bfce24e18fdae18c",
+        "scan_completed_at": "2026-11-26T12:18:15.858060+00:00"
       },
       "double-bottom": {
         "title": "Double Bottom (W)",
         "status": "AVAILABLE",
-        "execution_key": "674dadbc53c8d4221a86939668ec2830",
-        "path": "pro-research/patterns/releases/47792612b421d009da43d2fd/double-bottom.json",
-        "sha256": "b855777a3262ee4fab21450dce1ac56e82ad0946af2f042d548de5ece59e496a",
+        "execution_key": "3b2e27a6397936caf95d82ae3e664535",
+        "path": "pro-research/patterns/releases/436ef959e13f239fb26896df/double-bottom.json",
+        "sha256": "c1c66bb2eceb6aac2f7085cd8d1c6d26ec15a66b628ec48cf0265c7ec5f1fd98",
         "coverage": {
-          "closed": 838,
+          "closed": 835,
           "cohort": 2628,
-          "confirmed_today": 1,
-          "current": 137,
-          "excluded": 1206,
+          "confirmed_today": 0,
+          "current": 136,
+          "excluded": 1211,
           "exclusion_reasons": {
-            "BELOW_LIQUIDITY_FLOOR": 837,
-            "INSUFFICIENT_CONTIGUOUS_COMPARABLE_HISTORY": 321,
+            "BELOW_LIQUIDITY_FLOOR": 841,
+            "INSUFFICIENT_CONTIGUOUS_COMPARABLE_HISTORY": 322,
             "NO_CURRENT_SESSION_BAR": 37,
             "UNRESOLVED_SECURITY_IDENTITY": 11
           },
-          "historical": 360,
-          "matched": 1335,
+          "historical": 359,
+          "matched": 1330,
           "no_match": 87,
-          "scanned": 1422
+          "scanned": 1417
         },
         "algorithm_version": "DOUBLE_BOTTOM_ENGINE_V1.2",
         "policy_sha256": "8faf412e37e66042504664e3f2ef397dc3a9d642b32279828827c7a7cab951c4",
-        "runtime_seconds": 20.047,
-        "scan_run_id": "e7b3b6bf33504432a77360eb0ec73f00",
-        "scan_completed_at": "2026-11-25T13:44:40.068855+00:00"
+        "runtime_seconds": 10.797,
+        "scan_run_id": "458477b68cae46a9831401cb8196f595",
+        "scan_completed_at": "2026-11-26T12:18:21.558026+00:00"
       },
       "ascending-triangle": {
         "title": "Ascending Triangle",
         "status": "AVAILABLE",
-        "execution_key": "970ae62a14ba193156074741fd760294",
-        "path": "pro-research/patterns/releases/04cb01c69d90d53f636edbde/ascending-triangle.json",
-        "sha256": "610f8a2c2c6296ba3e2933c75b50fb0c65dcfa9d0a6dbe9a2e54322d1484335f",
-        "coverage": {
-          "closed": 0,
-          "cohort": 2628,
-          "confirmed_today": 0,
-          "current": 23,
-          "excluded": 1206,
-          "exclusion_reasons": {
-            "BELOW_LIQUIDITY_FLOOR": 837,
-            "INSUFFICIENT_CONTIGUOUS_COMPARABLE_HISTORY": 321,
-            "NO_CURRENT_SESSION_BAR": 37,
-            "UNRESOLVED_SECURITY_IDENTITY": 11
-          },
-          "historical": 199,
-          "matched": 222,
-          "no_match": 1200,
-          "scanned": 1422
-        },
-        "algorithm_version": "ASCENDING_TRIANGLE_ENGINE_V0.2",
-        "policy_sha256": "e18e4da6f61825d4a5033bb2863257383969bffdc23bf722186f40eb46f6457e",
-        "runtime_seconds": 145.25,
-        "scan_run_id": "4a2b282bb437419ba52a478f44f506a4",
-        "scan_completed_at": "2026-11-25T13:46:50.606079+00:00"
-      },
-      "vcp": {
-        "title": "Volatility Contraction (VCP)",
-        "status": "AVAILABLE",
-        "execution_key": "fe5c9ee43687e1b7e3ab747ed12eda65",
-        "path": "pro-research/patterns/releases/db7be338af122b0e2d1fa28f/vcp.json",
-        "sha256": "0c350464f369c6963aef680fd4cad4b998731fde097629ad80ddfe1381ea56b1",
+        "execution_key": "e663f57a81ca3fa4ab4e42749e10e012",
+        "path": "pro-research/patterns/releases/9174a0103a85fe382883820a/ascending-triangle.json",
+        "sha256": "f0c27d2daee629b5e630ac1186999a89195ffd89cf9dd34e197442c52b4f1295",
         "coverage": {
           "closed": 0,
           "cohort": 2628,
           "confirmed_today": 2,
-          "current": 65,
-          "excluded": 1206,
+          "current": 29,
+          "excluded": 1211,
           "exclusion_reasons": {
-            "BELOW_LIQUIDITY_FLOOR": 837,
-            "INSUFFICIENT_CONTIGUOUS_COMPARABLE_HISTORY": 321,
+            "BELOW_LIQUIDITY_FLOOR": 841,
+            "INSUFFICIENT_CONTIGUOUS_COMPARABLE_HISTORY": 322,
             "NO_CURRENT_SESSION_BAR": 37,
             "UNRESOLVED_SECURITY_IDENTITY": 11
           },
-          "historical": 363,
-          "matched": 428,
-          "no_match": 994,
-          "scanned": 1422
+          "historical": 197,
+          "matched": 226,
+          "no_match": 1191,
+          "scanned": 1417
+        },
+        "algorithm_version": "ASCENDING_TRIANGLE_ENGINE_V0.2",
+        "policy_sha256": "e18e4da6f61825d4a5033bb2863257383969bffdc23bf722186f40eb46f6457e",
+        "runtime_seconds": 40.188,
+        "scan_run_id": "23c5fd64c9a74809b626dcf62b25a3de",
+        "scan_completed_at": "2026-11-26T12:18:54.977505+00:00"
+      },
+      "vcp": {
+        "title": "Volatility Contraction (VCP)",
+        "status": "AVAILABLE",
+        "execution_key": "8813214a2fc915f37c0af6842763f4c8",
+        "path": "pro-research/patterns/releases/d9fa888d1201e2133b5b4ad1/vcp.json",
+        "sha256": "b140ee982a89d2bc39a90467ca2fd010fadb64dace5046342082f015983eebae",
+        "coverage": {
+          "closed": 0,
+          "cohort": 2628,
+          "confirmed_today": 2,
+          "current": 68,
+          "excluded": 1211,
+          "exclusion_reasons": {
+            "BELOW_LIQUIDITY_FLOOR": 841,
+            "INSUFFICIENT_CONTIGUOUS_COMPARABLE_HISTORY": 322,
+            "NO_CURRENT_SESSION_BAR": 37,
+            "UNRESOLVED_SECURITY_IDENTITY": 11
+          },
+          "historical": 361,
+          "matched": 429,
+          "no_match": 988,
+          "scanned": 1417
         },
         "algorithm_version": "VCP_ENGINE_V0.2",
         "policy_sha256": "0a40ca5e1f2f19ecc56b8c3c590600e264d28eb95d7ecca9ecedcdf20daa83a7",
-        "runtime_seconds": 230.875,
-        "scan_run_id": "d71383964dfe4eb09b03afdfbc0d7323",
-        "scan_completed_at": "2026-11-25T13:48:20.381267+00:00"
+        "runtime_seconds": 86.391,
+        "scan_run_id": "3469cf9edf9d4ab2b0030bcac8bd4bc3",
+        "scan_completed_at": "2026-11-26T12:19:43.145871+00:00"
       }
     },
     "assets": {
       "scripts/patterns.js": "2d4ae6273541eb29138188a00e09d690a18fac33b97a95fc794da2f8aff9c6a1",
       "scripts/patterns.css": "787963b6d6dffc5d1d1720be89a82dc6e27e742152575ddca8481128ce80d26f"
     },
-    "runtime_seconds": 69.25
+    "runtime_seconds": 146.172
   },
-  "html_sha256": "14342d3f53d4c0d03705605da51a13f45f5a9c78c8b1760acdfef96dc0c0065d",
-  "certified_at_utc": "2026-11-25T19:10:41.755855+00:00"
+  "html_sha256": "aa6e443a06e2a6955ec9133bf91196f241a3692ff5ee94bb4475d668a6b9b324",
+  "certified_at_utc": "2026-11-26T12:20:22.205989+00:00"
 }

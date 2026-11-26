@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 12.14,
-      "high": 12.94,
-      "low": 12.09,
-      "open": 12.36,
-      "time": "2025-10-10",
-      "volume": 6591
-    },
-    {
       "close": 12.19,
       "high": 12.71,
       "low": 12.08,
@@ -2017,13 +2009,21 @@
       "open": 4.1,
       "time": "2026-11-25",
       "volume": 3476
+    },
+    {
+      "close": 4.08,
+      "high": 4.15,
+      "low": 3.96,
+      "open": 4.06,
+      "time": "2026-11-26",
+      "volume": 3086
     }
   ],
   "company_name": "BIL VYAPAR LIMITED",
   "history": {
-    "first_session": "2025-10-10",
+    "first_session": "2025-10-13",
     "has_full_52w_history": true,
-    "last_session": "2026-11-25",
+    "last_session": "2026-11-26",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.83x"
+    "volume_multiplier": "0.95x"
   },
   "price": {
-    "as_of": "2026-11-25",
-    "change": -0.05,
-    "change_pct": -1.22,
-    "close": 4.04,
-    "previous_close": 4.09,
+    "as_of": "2026-11-26",
+    "change": 0.04,
+    "change_pct": 0.99,
+    "close": 4.08,
+    "previous_close": 4.04,
     "type": "EOD_CLOSE",
-    "volume": 3476
+    "volume": 3086
   },
   "range": {
-    "distance_from_high_pct": -68.78,
-    "distance_from_low_pct": 9.19,
-    "high_52w": 12.94,
+    "distance_from_high_pct": -68.17,
+    "distance_from_low_pct": 10.27,
+    "high_52w": 12.82,
     "history_basis": "52_WEEK",
     "low_52w": 3.7,
-    "range_position_pct": 3.68
+    "range_position_pct": 4.17
   },
   "risk_model": {
-    "invalidation_floor": 3.9,
+    "invalidation_floor": 3.94,
     "risk_per_share": 0.5,
-    "technical_pivot": 4.12
+    "technical_pivot": 4.16
   },
   "schema_version": "1.0",
   "sector": null,

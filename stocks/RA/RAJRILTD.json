@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 24.85,
-      "high": 25.72,
-      "low": 24.72,
-      "open": 24.82,
-      "time": "2025-11-18",
-      "volume": 28495
-    },
-    {
       "close": 24.42,
       "high": 25.15,
       "low": 24.35,
@@ -2017,13 +2009,21 @@
       "open": 21.61,
       "time": "2026-11-25",
       "volume": 10681
+    },
+    {
+      "close": 21.85,
+      "high": 21.85,
+      "low": 21.01,
+      "open": 21.43,
+      "time": "2026-11-26",
+      "volume": 47291
     }
   ],
   "company_name": "RAJ RAYON INDUSTRIES LIMITED",
   "history": {
-    "first_session": "2025-11-18",
+    "first_session": "2025-11-19",
     "has_full_52w_history": true,
-    "last_session": "2026-11-25",
+    "last_session": "2026-11-26",
     "sessions_available": 252
   },
   "industry": null,
@@ -2031,32 +2031,32 @@
   "metrics": {
     "is_breakout": false,
     "is_coiled": false,
-    "is_stage2": false,
-    "momentum_score": 64,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.55x"
+    "is_stage2": true,
+    "momentum_score": 70,
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.23x"
   },
   "price": {
-    "as_of": "2026-11-25",
-    "change": -0.43,
-    "change_pct": -1.97,
-    "close": 21.43,
-    "previous_close": 21.86,
+    "as_of": "2026-11-26",
+    "change": 0.42,
+    "change_pct": 1.96,
+    "close": 21.85,
+    "previous_close": 21.43,
     "type": "EOD_CLOSE",
-    "volume": 10681
+    "volume": 47291
   },
   "range": {
-    "distance_from_high_pct": -16.68,
-    "distance_from_low_pct": 12.02,
-    "high_52w": 25.72,
+    "distance_from_high_pct": -13.12,
+    "distance_from_low_pct": 14.22,
+    "high_52w": 25.15,
     "history_basis": "52_WEEK",
     "low_52w": 19.13,
-    "range_position_pct": 34.9
+    "range_position_pct": 45.18
   },
   "risk_model": {
-    "invalidation_floor": 20.68,
-    "risk_per_share": 1.18,
-    "technical_pivot": 21.86
+    "invalidation_floor": 21.09,
+    "risk_per_share": 1.2,
+    "technical_pivot": 22.29
   },
   "schema_version": "1.0",
   "sector": null,

@@ -337,14 +337,22 @@
       "open": 124.72,
       "time": "2026-11-25",
       "volume": 137252
+    },
+    {
+      "close": 123.11,
+      "high": 123.52,
+      "low": 121.02,
+      "open": 122.67,
+      "time": "2026-11-26",
+      "volume": 109308
     }
   ],
   "company_name": "Sonaselection India Limited",
   "history": {
     "first_session": "2026-09-24",
     "has_full_52w_history": false,
-    "last_session": "2026-11-25",
-    "sessions_available": 42
+    "last_session": "2026-11-26",
+    "sessions_available": 43
   },
   "industry": null,
   "isin": "INE0LLZ01011",
@@ -352,31 +360,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 81,
+    "momentum_score": 82,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.32x"
+    "volume_multiplier": "0.26x"
   },
   "price": {
-    "as_of": "2026-11-25",
-    "change": -2.05,
-    "change_pct": -1.64,
-    "close": 122.67,
-    "previous_close": 124.72,
+    "as_of": "2026-11-26",
+    "change": 0.44,
+    "change_pct": 0.36,
+    "close": 123.11,
+    "previous_close": 122.67,
     "type": "EOD_CLOSE",
-    "volume": 137252
+    "volume": 109308
   },
   "range": {
-    "distance_from_high_pct": -5.59,
-    "distance_from_low_pct": 39.24,
+    "distance_from_high_pct": -5.26,
+    "distance_from_low_pct": 39.74,
     "high_52w": 129.94,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 88.1,
-    "range_position_pct": 82.62
+    "range_position_pct": 83.68
   },
   "risk_model": {
-    "invalidation_floor": 118.38,
-    "risk_per_share": 6.74,
-    "technical_pivot": 125.12
+    "invalidation_floor": 118.8,
+    "risk_per_share": 6.77,
+    "technical_pivot": 125.57
   },
   "schema_version": "1.0",
   "sector": null,

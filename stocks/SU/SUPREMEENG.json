@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1.96,
-      "high": 1.99,
-      "low": 1.96,
-      "open": 1.99,
-      "time": "2025-05-05",
-      "volume": 35032
-    },
-    {
       "close": 1.92,
       "high": 1.95,
       "low": 1.92,
@@ -2017,13 +2009,21 @@
       "open": 6.68,
       "time": "2026-11-25",
       "volume": 939178
+    },
+    {
+      "close": 6.81,
+      "high": 6.81,
+      "low": 6.81,
+      "open": 6.81,
+      "time": "2026-11-26",
+      "volume": 249090
     }
   ],
   "company_name": "SUPREME ENGINEERING LTD",
   "history": {
-    "first_session": "2025-05-05",
+    "first_session": "2025-05-06",
     "has_full_52w_history": true,
-    "last_session": "2026-11-25",
+    "last_session": "2026-11-26",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": true,
     "momentum_score": 90,
     "setup_type": "52W High Breakout",
-    "volume_multiplier": "0.73x"
+    "volume_multiplier": "0.19x"
   },
   "price": {
-    "as_of": "2026-11-25",
+    "as_of": "2026-11-26",
     "change": 0.13,
-    "change_pct": 1.98,
-    "close": 6.68,
-    "previous_close": 6.55,
+    "change_pct": 1.95,
+    "close": 6.81,
+    "previous_close": 6.68,
     "type": "EOD_CLOSE",
-    "volume": 939178
+    "volume": 249090
   },
   "range": {
     "distance_from_high_pct": 0.0,
-    "distance_from_low_pct": 815.07,
-    "high_52w": 6.68,
+    "distance_from_low_pct": 832.88,
+    "high_52w": 6.81,
     "history_basis": "52_WEEK",
     "low_52w": 0.73,
     "range_position_pct": 100.0
   },
   "risk_model": {
-    "invalidation_floor": 6.45,
+    "invalidation_floor": 6.57,
     "risk_per_share": 0.5,
-    "technical_pivot": 6.73
+    "technical_pivot": 6.86
   },
   "schema_version": "1.0",
   "sector": null,

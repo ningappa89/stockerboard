@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1.33,
-      "high": 1.36,
-      "low": 1.3,
-      "open": 1.3,
-      "time": "2025-11-18",
-      "volume": 3038128
-    },
-    {
       "close": 1.27,
       "high": 1.35,
       "low": 1.26,
@@ -2017,13 +2009,21 @@
       "open": 0.79,
       "time": "2026-11-25",
       "volume": 1924493
+    },
+    {
+      "close": 0.78,
+      "high": 0.8,
+      "low": 0.78,
+      "open": 0.78,
+      "time": "2026-11-26",
+      "volume": 2723164
     }
   ],
   "company_name": "RELIANCE COMMUNICATIONS LTD.",
   "history": {
-    "first_session": "2025-11-18",
+    "first_session": "2025-11-19",
     "has_full_52w_history": true,
-    "last_session": "2026-11-25",
+    "last_session": "2026-11-26",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,24 +2034,24 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.69x"
+    "volume_multiplier": "1.05x"
   },
   "price": {
-    "as_of": "2026-11-25",
+    "as_of": "2026-11-26",
     "change": 0.0,
     "change_pct": 0.0,
     "close": 0.78,
     "previous_close": 0.78,
     "type": "EOD_CLOSE",
-    "volume": 1924493
+    "volume": 2723164
   },
   "range": {
-    "distance_from_high_pct": -42.65,
+    "distance_from_high_pct": -42.22,
     "distance_from_low_pct": 4.0,
-    "high_52w": 1.36,
+    "high_52w": 1.35,
     "history_basis": "52_WEEK",
     "low_52w": 0.75,
-    "range_position_pct": 4.92
+    "range_position_pct": 5.0
   },
   "risk_model": {
     "invalidation_floor": 0.75,

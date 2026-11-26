@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 760.0,
-      "high": 779.85,
-      "low": 734.05,
-      "open": 751.0,
-      "time": "2025-11-18",
-      "volume": 1015
-    },
-    {
       "close": 745.4,
       "high": 765.0,
       "low": 740.05,
@@ -2017,13 +2009,21 @@
       "open": 504.8,
       "time": "2026-11-25",
       "volume": 2139
+    },
+    {
+      "close": 470.4,
+      "high": 491.3,
+      "low": 463.2,
+      "open": 491.3,
+      "time": "2026-11-26",
+      "volume": 3865
     }
   ],
   "company_name": "THE HI-TECH GEARS LIMITED",
   "history": {
-    "first_session": "2025-11-18",
+    "first_session": "2025-11-19",
     "has_full_52w_history": true,
-    "last_session": "2026-11-25",
+    "last_session": "2026-11-26",
     "sessions_available": 252
   },
   "industry": null,
@@ -2033,30 +2033,30 @@
     "is_coiled": false,
     "is_stage2": false,
     "momentum_score": 40,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "1.27x"
+    "setup_type": "Volume Expansion",
+    "volume_multiplier": "2.08x"
   },
   "price": {
-    "as_of": "2026-11-25",
-    "change": -13.0,
-    "change_pct": -2.63,
-    "close": 481.0,
-    "previous_close": 494.0,
+    "as_of": "2026-11-26",
+    "change": -10.6,
+    "change_pct": -2.2,
+    "close": 470.4,
+    "previous_close": 481.0,
     "type": "EOD_CLOSE",
-    "volume": 2139
+    "volume": 3865
   },
   "range": {
-    "distance_from_high_pct": -38.73,
-    "distance_from_low_pct": 2.3,
+    "distance_from_high_pct": -40.08,
+    "distance_from_low_pct": 1.55,
     "high_52w": 785.0,
     "history_basis": "52_WEEK",
-    "low_52w": 470.2,
-    "range_position_pct": 3.43
+    "low_52w": 463.2,
+    "range_position_pct": 2.24
   },
   "risk_model": {
-    "invalidation_floor": 464.16,
-    "risk_per_share": 26.46,
-    "technical_pivot": 490.62
+    "invalidation_floor": 453.94,
+    "risk_per_share": 25.87,
+    "technical_pivot": 479.81
   },
   "schema_version": "1.0",
   "sector": null,
