@@ -150,3 +150,13 @@ body:not(.screen-fresher) #intermediateTerminal .tab-content:not(.active) { disp
     #intermediateTerminal :is(.whatif-input-pane,.whatif-output-pane) { min-width: 0; }
     #intermediateTerminal .action-radar-hdr { align-items: flex-start; flex-wrap: wrap; gap: 10px; }
 }
+
+
+/* Keep the legacy fixed-width search field inside narrow Pro headers. */
+@media (max-width: 480px) {
+    #intermediateTerminal .search-box { min-width: 0 !important; max-width: 100%; width: 100%; flex: 1 1 100%; }
+    #intermediateTerminal .search-box input { min-width: 0; box-sizing: border-box; }
+    #intermediateTerminal .pro-mobile-cards { grid-template-columns: minmax(0, 1fr); }
+    #intermediateTerminal .pro-stock-card { min-width: 0; }
+    #intermediateTerminal :is(.pro-card-main-metric, .pro-price-block) { flex-wrap: wrap; }
+}
