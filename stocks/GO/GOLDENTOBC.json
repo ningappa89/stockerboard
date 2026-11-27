@@ -1777,14 +1777,22 @@
       "open": 22.0,
       "time": "2026-11-26",
       "volume": 404
+    },
+    {
+      "close": 22.88,
+      "high": 22.89,
+      "low": 21.34,
+      "open": 21.34,
+      "time": "2026-11-27",
+      "volume": 1178
     }
   ],
   "company_name": "GOLDEN TOBACCO LTD.",
   "history": {
     "first_session": "2026-01-01",
     "has_full_52w_history": false,
-    "last_session": "2026-11-26",
-    "sessions_available": 222
+    "last_session": "2026-11-27",
+    "sessions_available": 223
   },
   "industry": null,
   "isin": "INE973A01010",
@@ -1792,31 +1800,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 41,
+    "momentum_score": 43,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.5x"
+    "volume_multiplier": "1.39x"
   },
   "price": {
-    "as_of": "2026-11-26",
-    "change": 0.17,
-    "change_pct": 0.76,
-    "close": 22.46,
-    "previous_close": 22.29,
+    "as_of": "2026-11-27",
+    "change": 0.42,
+    "change_pct": 1.87,
+    "close": 22.88,
+    "previous_close": 22.46,
     "type": "EOD_CLOSE",
-    "volume": 404
+    "volume": 1178
   },
   "range": {
-    "distance_from_high_pct": -32.55,
-    "distance_from_low_pct": 13.15,
+    "distance_from_high_pct": -31.29,
+    "distance_from_low_pct": 15.26,
     "high_52w": 33.3,
     "history_basis": "52_WEEK",
     "low_52w": 19.85,
-    "range_position_pct": 19.41
+    "range_position_pct": 22.53
   },
   "risk_model": {
-    "invalidation_floor": 21.67,
-    "risk_per_share": 1.24,
-    "technical_pivot": 22.91
+    "invalidation_floor": 22.08,
+    "risk_per_share": 1.26,
+    "technical_pivot": 23.34
   },
   "schema_version": "1.0",
   "sector": null,

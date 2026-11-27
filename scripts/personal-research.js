@@ -39,6 +39,10 @@
     let _broadcast = null;
     let _firebaseInitialized = false;
     let _authDeps = null;
+    let _loaded = {};
+    let _pendingViewRevision = -1;
+    const _retryEnvelopes = new Map();
+    let _deleteRequest = null;
 
     function notify() {
         const snapshot = getSnapshot();
@@ -212,6 +216,11 @@
     }
 
     function refreshSyncLabelFromRevision() {
+        if (_state.lifecycleState === Contract.STATES.UNAVAILABLE) {
+            _state.syncStatus = Contract.SYNC_STATUS.UNAVAILABLE;
+            _state.syncMessage = 'Private saving unavailable';
+            return;
+        }
         if (!_state.user) {
             _state.syncStatus = Contract.SYNC_STATUS.LOCAL;
             _state.syncMessage = 'Saved on this browser (guest limit: 3 companies)';
@@ -237,7 +246,7 @@
             _state.syncMessage = 'Unsaved changes';
             return;
         }
-        if (_state.serverObservedRevision >= _state.revision && _state.revision >= 0) {
+        if (_loaded.profile && _loaded.watchlist && _loaded.notes && _state.serverObservedRevision >= _state.revision && _state.revision >= 0) {
             _state.syncStatus = Contract.SYNC_STATUS.SYNCED;
             _state.syncMessage = 'Synced to your private account';
         } else {
@@ -265,6 +274,8 @@
 
     async function handleAuthChanged(user) {
         const gen = ++_sessionGeneration;
+        _loaded = {}; _pendingViewRevision = -1;
+        _retryEnvelopes.clear();
         detachAllListenersAndTimers();
         _inFlightOps = 0;
         _state.lastError = null;
@@ -309,7 +320,14 @@
 
             _state.accountEpoch = boot.accountEpoch;
             _state.revision = boot.revision || 0;
-            _state.serverObservedRevision = boot.revision || 0;
+            if (boot.lifecycle === 'MIGRATING') {
+                _state.lifecycleState = Contract.STATES.UNAVAILABLE;
+                _state.lastError = boot.migrationError || 'LEGACY_MIGRATION_REVIEW_REQUIRED';
+                _state.syncStatus = Contract.SYNC_STATUS.UNAVAILABLE;
+                _state.syncMessage = 'Legacy data needs review. Export remains available in Settings.';
+                notify(); return;
+            }
+            _state.serverObservedRevision = -1;
             _state.lifecycleState = Contract.STATES.READY;
             inspectLegacyImportOpportunity(user.uid);
             attachOwnerListeners(user.uid, gen);
@@ -325,11 +343,18 @@
         }
     }
 
+    function listenerFailed(err, gen) {
+        if (gen !== _sessionGeneration) return;
+        _state.lifecycleState = Contract.STATES.UNAVAILABLE;
+        _state.lastError = err?.code || 'LISTENER_UNAVAILABLE';
+        refreshSyncLabelFromRevision(); notify();
+    }
+
     function attachOwnerListeners(uid, gen) {
         if (!_authDeps || !_authDeps.db) return;
         const db = _authDeps.db;
 
-        const userDocUnsub = db.collection('users').doc(uid).onSnapshot((snap) => {
+        const userDocUnsub = db.collection('users').doc(uid).onSnapshot({includeMetadataChanges:true}, (snap) => {
             if (gen !== _sessionGeneration) return;
             if (!snap.exists) return;
             const d = snap.data() || {};
@@ -343,18 +368,19 @@
                 notify();
                 return;
             }
-            if (Number.isInteger(d.revision)) {
-                _state.serverObservedRevision = d.revision;
+            _loaded.profile = !snap.metadata?.fromCache;
+            if (Number.isInteger(d.revision) && _loaded.profile) {
+                _pendingViewRevision = d.revision;
                 if (d.revision > _state.revision) {
                     _state.revision = d.revision;
                 }
                 refreshSyncLabelFromRevision();
                 notify();
             }
-        }, () => {});
+        }, (err) => listenerFailed(err, gen));
         _unsubscribes.push(userDocUnsub);
 
-        const wlUnsub = db.collection('users').doc(uid).collection('watchlistItems').onSnapshot((snap) => {
+        const wlUnsub = db.collection('users').doc(uid).collection('watchlistItems').where('accountEpoch', '==', _state.accountEpoch).onSnapshot({includeMetadataChanges:true}, (snap) => {
             if (gen !== _sessionGeneration) return;
             const items = [];
             snap.forEach((doc) => {
@@ -365,15 +391,16 @@
             });
             items.sort((a, b) => String(a.symbol).localeCompare(String(b.symbol)));
             _state.watchlist = items;
+            _loaded.watchlist = !snap.metadata?.fromCache;
             refreshSyncLabelFromRevision();
             notify();
         }, (err) => {
             if (gen !== _sessionGeneration) return;
-            _state.lastError = err && err.message ? err.message : 'WATCHLIST_LISTEN_ERROR';
+            listenerFailed(err, gen);
         });
         _unsubscribes.push(wlUnsub);
 
-        const notesUnsub = db.collection('users').doc(uid).collection('notes').onSnapshot((snap) => {
+        const notesUnsub = db.collection('users').doc(uid).collection('notes').where('accountEpoch', '==', _state.accountEpoch).onSnapshot({includeMetadataChanges:true}, (snap) => {
             if (gen !== _sessionGeneration) return;
             const notes = [];
             snap.forEach((doc) => {
@@ -381,10 +408,18 @@
             });
             notes.sort((a, b) => String(b.updatedAtMs || '').localeCompare(String(a.updatedAtMs || '')));
             _state.notes = notes;
+            _loaded.notes = !snap.metadata?.fromCache;
             refreshSyncLabelFromRevision();
             notify();
-        }, () => {});
+        }, (err) => listenerFailed(err, gen));
         _unsubscribes.push(notesUnsub);
+        if (typeof db.onSnapshotsInSync === 'function') {
+            _unsubscribes.push(db.onSnapshotsInSync(() => {
+                if (gen !== _sessionGeneration || !_loaded.profile || !_loaded.notes || !_loaded.watchlist) return;
+                _state.serverObservedRevision = _pendingViewRevision;
+                refreshSyncLabelFromRevision(); notify();
+            }));
+        }
     }
 
     function init(options) {
@@ -395,7 +430,7 @@
         if (opts.identityCatalog) {
             setIdentityCatalog(opts.identityCatalog);
         }
-        const config = opts.config || (root.APP_DATA && root.APP_DATA.auth_config) || { enabled: false, mode: 'DISABLED' };
+        const config = root.StockerboardPersonalConfig || opts.config || (root.APP_DATA && root.APP_DATA.auth_config) || { enabled: false, mode: 'DISABLED' };
         const fbRes = (opts.firebaseAdapter || FirebaseAdapter).initOnce(config, opts.firebaseSdk);
         _state.mode = fbRes.mode;
         _firebaseInitialized = true;
@@ -432,9 +467,10 @@
             try { _authUnsubscribe(); } catch (_) {}
             _authUnsubscribe = null;
         }
-        _authUnsubscribe = fbRes.auth.onAuthStateChanged((user) => {
-            handleAuthChanged(user);
-        });
+        const adapter = opts.firebaseAdapter || FirebaseAdapter;
+        Promise.resolve(adapter.ready ? adapter.ready() : undefined).then(() => {
+            _authUnsubscribe = fbRes.auth.onAuthStateChanged(handleAuthChanged);
+        }).catch(err => listenerFailed(err, _sessionGeneration));
         return getSnapshot();
     }
 
@@ -475,17 +511,18 @@
             return { ok: writeRes.ok, watched: !exists, count: _state.watchlist.length };
         }
 
-        if (_state.lifecycleState !== Contract.STATES.READY) {
+        if (![Contract.STATES.READY, Contract.STATES.UNSAVED, Contract.STATES.CONFLICT].includes(_state.lifecycleState)) {
             return { ok: false, code: 'ACCOUNT_NOT_READY', state: _state.lifecycleState };
         }
 
         const gen = _sessionGeneration;
         const uid = _state.user.uid;
         const existing = _state.watchlist.find((w) => w.symbol === sym);
-        const command = existing ? 'WATCHLIST_REMOVE' : 'WATCHLIST_ADD';
+        const retry = _retryEnvelopes.get('wl:' + sym);
+        const command = retry ? retry.command : existing ? 'WATCHLIST_REMOVE' : 'WATCHLIST_ADD';
         const ref = resolveSymbolIdentity(sym);
 
-        const envelope = Contract.createMutationEnvelope({
+        const envelope = retry || Contract.createMutationEnvelope({
             operationId: makeOperationId('wl'),
             accountEpoch: _state.accountEpoch,
             expectedRevision: _state.revision,
@@ -502,6 +539,7 @@
                 },
         });
 
+        _retryEnvelopes.set('wl:' + sym, envelope);
         _inFlightOps += 1;
         _state.lifecycleState = Contract.STATES.SAVING;
         refreshSyncLabelFromRevision();
@@ -513,10 +551,10 @@
                 return { ok: false, code: 'STALE_SESSION_DISCARDED' };
             }
             _inFlightOps = Math.max(0, _inFlightOps - 1);
-            _state.revision = res.revision;
+            _state.revision = Math.max(_state.revision, res.revision);
             if (Array.isArray(res.watchlist)) {
                 _state.watchlist = res.watchlist;
-            } else if (command === 'WATCHLIST_ADD' && !existing) {
+            } else if (command === 'WATCHLIST_ADD' && !_state.watchlist.some(w => w.itemId === res.itemId)) {
                 _state.watchlist = [..._state.watchlist, { itemId: res.itemId || ref.companyId || `SYM_${sym}`, symbol: sym, companyId: ref.companyId, identityStatus: ref.identityStatus }];
             } else if (command === 'WATCHLIST_REMOVE') {
                 _state.watchlist = _state.watchlist.filter((w) => w.symbol !== sym);
@@ -524,12 +562,13 @@
             _state.lifecycleState = Contract.STATES.READY;
             refreshSyncLabelFromRevision();
             notify();
+            _retryEnvelopes.delete('wl:' + sym);
             return { ok: true, watched: command === 'WATCHLIST_ADD', revision: res.revision };
         } catch (err) {
             if (gen !== _sessionGeneration) return { ok: false, code: 'STALE_SESSION_DISCARDED' };
             _inFlightOps = Math.max(0, _inFlightOps - 1);
             const code = (err && err.code) || 'MUTATION_FAILED';
-            _state.lifecycleState = code === 'FAILED_PRECONDITION' ? Contract.STATES.CONFLICT : Contract.STATES.UNSAVED;
+            _state.lifecycleState = String(code).toLowerCase().replace('functions/', '') === 'failed-precondition' ? Contract.STATES.CONFLICT : Contract.STATES.UNSAVED;
             _state.lastError = (err && err.message) || code;
             refreshSyncLabelFromRevision();
             notify();
@@ -539,7 +578,7 @@
 
     async function saveNote(draft) {
         if (!_state.user) return { ok: false, code: 'SIGN_IN_REQUIRED' };
-        if (_state.lifecycleState === Contract.STATES.DELETING || _state.lifecycleState === Contract.STATES.UNAVAILABLE) {
+        if (![Contract.STATES.READY, Contract.STATES.UNSAVED, Contract.STATES.CONFLICT].includes(_state.lifecycleState)) {
             return { ok: false, code: 'ACCOUNT_NOT_WRITABLE' };
         }
         const validated = Contract.validateNoteDraft(draft);
@@ -548,7 +587,8 @@
         const gen = _sessionGeneration;
         const uid = _state.user.uid;
         const isUpdate = Boolean(validated.value.noteId);
-        const envelope = Contract.createMutationEnvelope({
+        const draftKey = 'note:' + JSON.stringify(validated.value);
+        const envelope = _retryEnvelopes.get(draftKey) || Contract.createMutationEnvelope({
             operationId: makeOperationId('note'),
             accountEpoch: _state.accountEpoch,
             expectedRevision: _state.revision,
@@ -556,6 +596,7 @@
             payload: validated.value,
         });
 
+        _retryEnvelopes.set(draftKey, envelope);
         _inFlightOps += 1;
         _state.lifecycleState = Contract.STATES.SAVING;
         refreshSyncLabelFromRevision();
@@ -567,10 +608,11 @@
                 return { ok: false, code: 'STALE_SESSION_DISCARDED' };
             }
             _inFlightOps = Math.max(0, _inFlightOps - 1);
-            _state.revision = res.revision;
+            _state.revision = Math.max(_state.revision, res.revision);
             _state.lifecycleState = Contract.STATES.READY;
             refreshSyncLabelFromRevision();
             notify();
+            _retryEnvelopes.delete(draftKey);
             return { ok: true, noteId: res.noteId, revision: res.revision };
         } catch (err) {
             if (gen !== _sessionGeneration) return { ok: false, code: 'STALE_SESSION_DISCARDED' };
@@ -604,7 +646,7 @@
                 return { ok: false, code: 'STALE_SESSION_DISCARDED' };
             }
             _inFlightOps = Math.max(0, _inFlightOps - 1);
-            _state.revision = res.revision;
+            _state.revision = Math.max(_state.revision, res.revision);
             _state.notes = _state.notes.filter((n) => n.noteId !== noteId);
             _state.lifecycleState = Contract.STATES.READY;
             refreshSyncLabelFromRevision();
@@ -641,8 +683,8 @@
         Storage.setLocalMigrationDecision(uid, sourceDigest, 'IMPORTED', _localStorageRef);
         _state.legacyPreview = null;
         if (Number.isInteger(res.revision)) {
-            _state.revision = res.revision;
-            _state.serverObservedRevision = res.revision;
+            _state.revision = Math.max(_state.revision, res.revision);
+            // A callable acknowledgement is Saved; listeners establish Synced.
         }
         refreshSyncLabelFromRevision();
         notify();
@@ -660,35 +702,62 @@
 
     async function exportAccountData() {
         if (!_state.user || !_authDeps) throw new Error('Sign in required');
-        return _authDeps.callManaged('exportAccountData', {
-            protocolVersion: Contract.PROTOCOL_VERSION,
-            accountEpoch: _state.accountEpoch,
-        });
+        const uid = _state.user.uid, gen = _sessionGeneration;
+        const result = await _authDeps.callManaged('exportAccountData', {protocolVersion: Contract.PROTOCOL_VERSION, accountEpoch: _state.accountEpoch});
+        if (gen !== _sessionGeneration || _state.user?.uid !== uid) throw new Error('STALE_SESSION_DISCARDED');
+        return result;
     }
 
     async function deleteAccount({ mode = 'CLEAR_CLOUD_DATA' } = {}) {
         if (!_state.user || !_authDeps) throw new Error('Sign in required');
         const uid = _state.user.uid;
-        // Fence client mutations/listeners immediately BEFORE invoking deletion — never call cloud save!
-        _sessionGeneration += 1;
-        detachAllListenersAndTimers();
-        _inFlightOps = 0;
+        if (!_deleteRequest || _deleteRequest.uid !== uid || _deleteRequest.confirmScope !== mode) {
+            _deleteRequest = {uid, protocolVersion: Contract.PROTOCOL_VERSION, accountEpoch: _state.accountEpoch, confirmScope: mode};
+        }
+        const gen = ++_sessionGeneration;
+        detachAllListenersAndTimers(); _inFlightOps = 0;
         _state.lifecycleState = Contract.STATES.DELETING;
         _state.syncStatus = Contract.SYNC_STATUS.LOADING;
-        _state.syncMessage = 'Deleting cloud research data...';
-        notify();
-
-        const res = await _authDeps.callManaged('deleteAccountData', {
-            protocolVersion: Contract.PROTOCOL_VERSION,
-            accountEpoch: _state.accountEpoch,
-            confirmScope: mode,
-        });
-        broadcastInvalidation(uid);
-        clearSignedInMemoryToGuest();
-        if (_authDeps && _authDeps.auth && typeof _authDeps.auth.signOut === 'function') {
-            try { await _authDeps.auth.signOut(); } catch (_) {}
+        _state.syncMessage = 'Deleting cloud research data...'; notify();
+        try {
+            const {uid: ignored, ...payload} = _deleteRequest;
+            const res = await _authDeps.callManaged('deleteAccountData', payload);
+            if (gen !== _sessionGeneration || _state.user?.uid !== uid) return {ok:false,code:'STALE_SESSION_DISCARDED'};
+            broadcastInvalidation(uid); _deleteRequest = null;
+            clearSignedInMemoryToGuest(); await _authDeps.auth.signOut(); return res;
+        } catch (err) {
+            if (gen !== _sessionGeneration || _state.user?.uid !== uid) return {ok:false,code:'STALE_SESSION_DISCARDED'};
+            _state.lifecycleState = Contract.STATES.UNAVAILABLE; _state.lastError = err.code || err.message;
+            refreshSyncLabelFromRevision(); notify(); throw err;
         }
-        return res;
+    }
+
+    async function replaceWatchlist(symbols) {
+        const uid = _state.user?.uid || null, gen = _sessionGeneration;
+        const normalized = [...new Set(symbols.map(Contract.normalizeSymbol))];
+        if (!uid) {
+            const result = Storage.writeGuestWatchlist(normalized, _localStorageRef);
+            if (result.ok) {loadGuestIntoState();notify();} return result;
+        }
+        for (const current of [..._state.watchlist]) {
+            if (!normalized.includes(current.symbol)) {
+                const result = await toggleWatchlistSymbol(current.symbol); if (!result.ok) return result;
+                if (gen !== _sessionGeneration || _state.user?.uid !== uid) return {ok:false,code:'STALE_SESSION_DISCARDED'};
+            }
+        }
+        for (const symbol of normalized) {
+            if (!_state.watchlist.some(w => w.symbol === symbol)) {
+                const result = await toggleWatchlistSymbol(symbol); if (!result.ok) return result;
+                if (gen !== _sessionGeneration || _state.user?.uid !== uid) return {ok:false,code:'STALE_SESSION_DISCARDED'};
+            }
+        }
+        return {ok:true};
+    }
+
+    async function startFresh() {
+        if (!_state.user) throw new Error('Sign in required');
+        await _authDeps.callManaged('bootstrapAccount', {protocolVersion:Contract.PROTOCOL_VERSION,startFresh:true});
+        return handleAuthChanged(_state.user);
     }
 
     function resetForTests() {
@@ -703,6 +772,7 @@
             _broadcast = null;
         }
         _inFlightOps = 0;
+        _loaded = {}; _retryEnvelopes.clear(); _deleteRequest = null;
         _firebaseInitialized = false;
         _authDeps = null;
         _state = DEFAULT_STATE();
@@ -721,6 +791,8 @@
         signInWithEmailPassword,
         signOut,
         toggleWatchlistSymbol,
+        replaceWatchlist,
+        startFresh,
         saveNote,
         deleteNote,
         importLegacySelected,

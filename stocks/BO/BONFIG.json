@@ -193,14 +193,22 @@
       "open": 796.1,
       "time": "2026-11-26",
       "volume": 1036169
+    },
+    {
+      "close": 803.0,
+      "high": 826.4,
+      "low": 797.0,
+      "open": 800.1,
+      "time": "2026-11-27",
+      "volume": 603269
     }
   ],
   "company_name": "Bonfiglioli Transmissions Limited",
   "history": {
     "first_session": "2026-10-23",
     "has_full_52w_history": false,
-    "last_session": "2026-11-26",
-    "sessions_available": 24
+    "last_session": "2026-11-27",
+    "sessions_available": 25
   },
   "industry": null,
   "isin": "INE28SO01013",
@@ -210,29 +218,29 @@
     "is_stage2": true,
     "momentum_score": 78,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.77x"
+    "volume_multiplier": "0.51x"
   },
   "price": {
-    "as_of": "2026-11-26",
-    "change": 5.4,
-    "change_pct": 0.68,
-    "close": 803.25,
-    "previous_close": 797.85,
+    "as_of": "2026-11-27",
+    "change": -0.25,
+    "change_pct": -0.03,
+    "close": 803.0,
+    "previous_close": 803.25,
     "type": "EOD_CLOSE",
-    "volume": 1036169
+    "volume": 603269
   },
   "range": {
-    "distance_from_high_pct": -7.86,
-    "distance_from_low_pct": 52.3,
+    "distance_from_high_pct": -7.89,
+    "distance_from_low_pct": 52.26,
     "high_52w": 871.75,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 527.4,
-    "range_position_pct": 80.11
+    "range_position_pct": 80.03
   },
   "risk_model": {
-    "invalidation_floor": 775.14,
-    "risk_per_share": 44.18,
-    "technical_pivot": 819.32
+    "invalidation_floor": 774.89,
+    "risk_per_share": 44.17,
+    "technical_pivot": 819.06
   },
   "schema_version": "1.0",
   "sector": null,

@@ -169,14 +169,22 @@
       "open": 1396.5,
       "time": "2026-11-26",
       "volume": 4024939
+    },
+    {
+      "close": 1371.4,
+      "high": 1391.5,
+      "low": 1366.1,
+      "open": 1385.3,
+      "time": "2026-11-27",
+      "volume": 10537647
     }
   ],
   "company_name": "Jio Platforms Limited",
   "history": {
     "first_session": "2026-10-28",
     "has_full_52w_history": false,
-    "last_session": "2026-11-26",
-    "sessions_available": 21
+    "last_session": "2026-11-27",
+    "sessions_available": 22
   },
   "industry": null,
   "isin": "INE0BJO01010",
@@ -184,31 +192,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 79,
-    "setup_type": "Liquid Active",
-    "volume_multiplier": "0.41x"
+    "momentum_score": 78,
+    "setup_type": "Pocket Pivot",
+    "volume_multiplier": "1.54x"
   },
   "price": {
-    "as_of": "2026-11-26",
-    "change": -12.3,
-    "change_pct": -0.88,
-    "close": 1385.3,
-    "previous_close": 1397.6,
+    "as_of": "2026-11-27",
+    "change": -13.9,
+    "change_pct": -1.0,
+    "close": 1371.4,
+    "previous_close": 1385.3,
     "type": "EOD_CLOSE",
-    "volume": 4024939
+    "volume": 10537647
   },
   "range": {
-    "distance_from_high_pct": -7.01,
-    "distance_from_low_pct": 2.09,
+    "distance_from_high_pct": -7.94,
+    "distance_from_low_pct": 1.06,
     "high_52w": 1489.7,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 1357.0,
-    "range_position_pct": 21.33
+    "range_position_pct": 10.85
   },
   "risk_model": {
-    "invalidation_floor": 1336.81,
-    "risk_per_share": 76.2,
-    "technical_pivot": 1413.01
+    "invalidation_floor": 1323.4,
+    "risk_per_share": 75.43,
+    "technical_pivot": 1398.83
   },
   "schema_version": "1.0",
   "sector": null,

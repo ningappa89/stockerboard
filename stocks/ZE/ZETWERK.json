@@ -193,14 +193,22 @@
       "open": 184.5,
       "time": "2026-11-26",
       "volume": 3904205
+    },
+    {
+      "close": 187.26,
+      "high": 190.01,
+      "low": 185.1,
+      "open": 188.83,
+      "time": "2026-11-27",
+      "volume": 1147140
     }
   ],
   "company_name": "Zetwerk Manufacturing Businesses Limited",
   "history": {
     "first_session": "2026-10-23",
     "has_full_52w_history": false,
-    "last_session": "2026-11-26",
-    "sessions_available": 24
+    "last_session": "2026-11-27",
+    "sessions_available": 25
   },
   "industry": null,
   "isin": "INE09PO01019",
@@ -210,29 +218,29 @@
     "is_stage2": true,
     "momentum_score": 85,
     "setup_type": "Minervini VCP",
-    "volume_multiplier": "0.61x"
+    "volume_multiplier": "0.2x"
   },
   "price": {
-    "as_of": "2026-11-26",
-    "change": 3.53,
-    "change_pct": 1.92,
-    "close": 187.58,
-    "previous_close": 184.05,
+    "as_of": "2026-11-27",
+    "change": -0.32,
+    "change_pct": -0.17,
+    "close": 187.26,
+    "previous_close": 187.58,
     "type": "EOD_CLOSE",
-    "volume": 3904205
+    "volume": 1147140
   },
   "range": {
-    "distance_from_high_pct": -2.81,
-    "distance_from_low_pct": 47.24,
+    "distance_from_high_pct": -2.97,
+    "distance_from_low_pct": 46.99,
     "high_52w": 193.0,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 127.4,
-    "range_position_pct": 91.74
+    "range_position_pct": 91.25
   },
   "risk_model": {
-    "invalidation_floor": 181.01,
-    "risk_per_share": 10.32,
-    "technical_pivot": 191.33
+    "invalidation_floor": 180.71,
+    "risk_per_share": 10.3,
+    "technical_pivot": 191.01
   },
   "schema_version": "1.0",
   "sector": null,

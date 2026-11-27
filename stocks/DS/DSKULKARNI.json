@@ -569,14 +569,22 @@
       "open": 51.9,
       "time": "2026-11-26",
       "volume": 2
+    },
+    {
+      "close": 52.93,
+      "high": 52.93,
+      "low": 52.93,
+      "open": 52.93,
+      "time": "2026-11-27",
+      "volume": 44
     }
   ],
   "company_name": "DS KULKARNI DEVELOPERS L",
   "history": {
     "first_session": "2026-08-03",
     "has_full_52w_history": false,
-    "last_session": "2026-11-26",
-    "sessions_available": 71
+    "last_session": "2026-11-27",
+    "sessions_available": 72
   },
   "industry": null,
   "isin": "INE891A01022",
@@ -586,29 +594,29 @@
     "is_stage2": true,
     "momentum_score": 90,
     "setup_type": "52W High Breakout",
-    "volume_multiplier": "0.0x"
+    "volume_multiplier": "0.03x"
   },
   "price": {
-    "as_of": "2026-11-26",
-    "change": 1.01,
+    "as_of": "2026-11-27",
+    "change": 1.03,
     "change_pct": 1.98,
-    "close": 51.9,
-    "previous_close": 50.89,
+    "close": 52.93,
+    "previous_close": 51.9,
     "type": "EOD_CLOSE",
-    "volume": 2
+    "volume": 44
   },
   "range": {
     "distance_from_high_pct": 0.0,
-    "distance_from_low_pct": 503.49,
-    "high_52w": 51.9,
+    "distance_from_low_pct": 515.47,
+    "high_52w": 52.93,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 8.6,
     "range_position_pct": 100.0
   },
   "risk_model": {
-    "invalidation_floor": 50.08,
-    "risk_per_share": 2.24,
-    "technical_pivot": 52.32
+    "invalidation_floor": 51.08,
+    "risk_per_share": 2.27,
+    "technical_pivot": 53.35
   },
   "schema_version": "1.0",
   "sector": null,

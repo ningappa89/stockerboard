@@ -313,14 +313,22 @@
       "open": 194.88,
       "time": "2026-11-26",
       "volume": 446550
+    },
+    {
+      "close": 194.64,
+      "high": 202.85,
+      "low": 192.01,
+      "open": 195.39,
+      "time": "2026-11-27",
+      "volume": 237063
     }
   ],
   "company_name": "Swastika Infra Limited",
   "history": {
     "first_session": "2026-09-30",
     "has_full_52w_history": false,
-    "last_session": "2026-11-26",
-    "sessions_available": 39
+    "last_session": "2026-11-27",
+    "sessions_available": 40
   },
   "industry": null,
   "isin": "INE1QJA01015",
@@ -328,31 +336,31 @@
     "is_breakout": false,
     "is_coiled": false,
     "is_stage2": false,
-    "momentum_score": 56,
-    "setup_type": "Volume Expansion",
-    "volume_multiplier": "2.82x"
+    "momentum_score": 54,
+    "setup_type": "Liquid Active",
+    "volume_multiplier": "1.5x"
   },
   "price": {
-    "as_of": "2026-11-26",
-    "change": 3.56,
-    "change_pct": 1.84,
-    "close": 197.19,
-    "previous_close": 193.63,
+    "as_of": "2026-11-27",
+    "change": -2.55,
+    "change_pct": -1.29,
+    "close": 194.64,
+    "previous_close": 197.19,
     "type": "EOD_CLOSE",
-    "volume": 446550
+    "volume": 237063
   },
   "range": {
-    "distance_from_high_pct": -22.58,
-    "distance_from_low_pct": 6.3,
+    "distance_from_high_pct": -23.58,
+    "distance_from_low_pct": 4.93,
     "high_52w": 254.7,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 185.5,
-    "range_position_pct": 16.89
+    "range_position_pct": 13.21
   },
   "risk_model": {
-    "invalidation_floor": 190.29,
-    "risk_per_share": 10.84,
-    "technical_pivot": 201.13
+    "invalidation_floor": 187.83,
+    "risk_per_share": 10.7,
+    "technical_pivot": 198.53
   },
   "schema_version": "1.0",
   "sector": null,

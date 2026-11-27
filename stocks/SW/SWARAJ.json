@@ -577,46 +577,54 @@
       "open": 364.0,
       "time": "2026-11-26",
       "volume": 226752
+    },
+    {
+      "close": 397.5,
+      "high": 397.5,
+      "low": 380.0,
+      "open": 384.85,
+      "time": "2026-11-27",
+      "volume": 175972
     }
   ],
   "company_name": "SWARAJ SUITING LIMITED",
   "history": {
     "first_session": "2026-08-13",
     "has_full_52w_history": false,
-    "last_session": "2026-11-26",
-    "sessions_available": 72
+    "last_session": "2026-11-27",
+    "sessions_available": 73
   },
   "industry": null,
   "isin": "INE0GMR01016",
   "metrics": {
-    "is_breakout": false,
+    "is_breakout": true,
     "is_coiled": false,
     "is_stage2": true,
-    "momentum_score": 83,
-    "setup_type": "Pocket Pivot",
-    "volume_multiplier": "3.32x"
+    "momentum_score": 90,
+    "setup_type": "52W High Breakout",
+    "volume_multiplier": "2.31x"
   },
   "price": {
-    "as_of": "2026-11-26",
-    "change": 18.0,
+    "as_of": "2026-11-27",
+    "change": 18.9,
     "change_pct": 4.99,
-    "close": 378.6,
-    "previous_close": 360.6,
+    "close": 397.5,
+    "previous_close": 378.6,
     "type": "EOD_CLOSE",
-    "volume": 226752
+    "volume": 175972
   },
   "range": {
-    "distance_from_high_pct": -4.15,
-    "distance_from_low_pct": 45.56,
-    "high_52w": 395.0,
+    "distance_from_high_pct": 0.0,
+    "distance_from_low_pct": 52.83,
+    "high_52w": 397.5,
     "history_basis": "AVAILABLE_HISTORY",
     "low_52w": 260.1,
-    "range_position_pct": 87.84
+    "range_position_pct": 100.0
   },
   "risk_model": {
-    "invalidation_floor": 365.35,
-    "risk_per_share": 20.82,
-    "technical_pivot": 386.17
+    "invalidation_floor": 383.59,
+    "risk_per_share": 17.09,
+    "technical_pivot": 400.68
   },
   "schema_version": "1.0",
   "sector": null,

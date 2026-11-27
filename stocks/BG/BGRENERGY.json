@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 414.15,
-      "high": 425.0,
-      "low": 411.5,
-      "open": 417.6,
-      "time": "2025-11-19",
-      "volume": 77421
-    },
-    {
       "close": 413.6,
       "high": 422.0,
       "low": 411.0,
@@ -2017,13 +2009,21 @@
       "open": 294.9,
       "time": "2026-11-26",
       "volume": 38913
+    },
+    {
+      "close": 286.2,
+      "high": 292.0,
+      "low": 280.0,
+      "open": 285.9,
+      "time": "2026-11-27",
+      "volume": 19255
     }
   ],
   "company_name": "BGR ENERGY SYSTEMS LTD.",
   "history": {
-    "first_session": "2025-11-19",
+    "first_session": "2025-11-20",
     "has_full_52w_history": true,
-    "last_session": "2026-11-26",
+    "last_session": "2026-11-27",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.68x"
+    "volume_multiplier": "0.34x"
   },
   "price": {
-    "as_of": "2026-11-26",
-    "change": -5.2,
-    "change_pct": -1.79,
-    "close": 285.9,
-    "previous_close": 291.1,
+    "as_of": "2026-11-27",
+    "change": 0.3,
+    "change_pct": 0.1,
+    "close": 286.2,
+    "previous_close": 285.9,
     "type": "EOD_CLOSE",
-    "volume": 38913
+    "volume": 19255
   },
   "range": {
-    "distance_from_high_pct": -35.79,
-    "distance_from_low_pct": 31.15,
+    "distance_from_high_pct": -35.72,
+    "distance_from_low_pct": 31.28,
     "high_52w": 445.25,
     "history_basis": "52_WEEK",
     "low_52w": 218.0,
-    "range_position_pct": 29.88
+    "range_position_pct": 30.01
   },
   "risk_model": {
-    "invalidation_floor": 275.89,
-    "risk_per_share": 15.73,
-    "technical_pivot": 291.62
+    "invalidation_floor": 276.18,
+    "risk_per_share": 15.74,
+    "technical_pivot": 291.92
   },
   "schema_version": "1.0",
   "sector": null,

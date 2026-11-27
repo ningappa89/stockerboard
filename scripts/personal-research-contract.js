@@ -93,7 +93,8 @@
         if (!config || typeof config !== 'object') {
             return { ok: false, mode: MODES.DISABLED, reason: 'MISSING_CONFIG' };
         }
-        const mode = config.mode || (config.enabled ? MODES.PRODUCTION : MODES.DISABLED);
+        const mode = config.mode || MODES.DISABLED;
+        if (mode === MODES.PRODUCTION && config.personal_research_enabled !== true) return { ok: true, mode: MODES.DISABLED, reason: 'ROLLOUT_DISABLED' };
         if (!Object.values(MODES).includes(mode)) {
             return { ok: false, mode: MODES.DISABLED, reason: 'INVALID_MODE' };
         }
@@ -112,6 +113,7 @@
             if (!em || !em.authUrl || !em.firestoreHost || !em.firestorePort || !em.functionsUrl) {
                 return { ok: false, mode, reason: 'INCOMPLETE_EMULATOR_ENDPOINTS' };
             }
+            if (em.authUrl !== 'http://127.0.0.1:19099' || em.firestoreHost !== '127.0.0.1' || Number(em.firestorePort) !== 18080 || em.functionsUrl !== 'http://127.0.0.1:15001') return { ok: false, mode, reason: 'EMULATOR_ENDPOINT_MISMATCH' };
             if (config.one_tap_enabled) {
                 return { ok: false, mode, reason: 'ONE_TAP_MUST_BE_DISABLED_IN_EMULATOR' };
             }

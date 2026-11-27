@@ -9,6 +9,10 @@
     let _unsavedDraftText = '';
     let _activePanel = null; // 'watchlist' | 'notes' | 'settings' | 'legacy'
     let _editingNote = null;
+    let _ownerKey = null;
+    let _draft = {symbol:'',title:'',body:''};
+    let _formMessage = '';
+    let _opener = null;
 
     function el(tag, attrs, text) {
         const node = document.createElement(tag);
@@ -50,6 +54,12 @@
         });
         document.body.appendChild(drawer);
         document.addEventListener('keydown', (ev) => {
+            if (ev.key === 'Tab' && !drawer.hidden) {
+                const nodes=[...drawer.querySelectorAll('button,input,textarea,a[href]')].filter(n=>!n.disabled);
+                const first=nodes[0],last=nodes[nodes.length-1];
+                if(ev.shiftKey && document.activeElement===first){ev.preventDefault();last?.focus();}
+                else if(!ev.shiftKey && document.activeElement===last){ev.preventDefault();first?.focus();}
+            }
             if (ev.key === 'Escape' && !drawer.hidden) {
                 closeDrawer();
             }
@@ -64,15 +74,20 @@
             drawer.replaceChildren();
         }
         _activePanel = null;
+        if (_opener && _opener.isConnected) _opener.focus();
     }
 
     function openDrawer(panel) {
+        _opener = document.activeElement;
         _activePanel = panel;
         renderDrawer(Account ? Account.getSnapshot() : null);
     }
 
     function renderDrawer(snap) {
         if (!_activePanel || !snap) return;
+        const focused = document.activeElement;
+        const focusLabel = focused?.getAttribute('aria-label');
+        const selection = focused?.selectionStart;
         const drawer = ensureDrawer();
         drawer.hidden = false;
         drawer.replaceChildren();
@@ -112,6 +127,8 @@
         }
 
         drawer.append(body);
+        const restore = focusLabel && [...drawer.querySelectorAll('[aria-label]')].find(n => n.getAttribute('aria-label') === focusLabel);
+        if (restore) {restore.focus(); if (typeof selection === 'number' && restore.setSelectionRange) restore.setSelectionRange(selection,selection);}
     }
 
     function renderWatchlistPanel(body, snap) {
@@ -164,7 +181,7 @@
             className: 'sb-pr-input',
             placeholder: 'Symbol (e.g. TCS)',
             maxlength: '40',
-            value: (_editingNote && _editingNote.symbol) || activeSymbol || '',
+            value: _draft.symbol || activeSymbol || '',
             'aria-label': 'Company symbol',
         });
         const titleInput = el('input', {
@@ -172,7 +189,7 @@
             className: 'sb-pr-input',
             placeholder: 'Note title (plain text, max 160 chars)',
             maxlength: '160',
-            value: (_editingNote && _editingNote.title) || '',
+            value: _draft.title || '',
             'aria-label': 'Note title',
         });
         const bodyInput = el('textarea', {
@@ -181,40 +198,50 @@
             rows: '5',
             'aria-label': 'Note body',
         });
-        bodyInput.value = (_editingNote && _editingNote.body) || _unsavedDraftText || '';
+        bodyInput.value = _draft.body || '';
+        symInput.addEventListener('input', () => {_draft.symbol = symInput.value;});
+        titleInput.addEventListener('input', () => {_draft.title = titleInput.value;});
         bodyInput.addEventListener('input', () => {
-            _unsavedDraftText = bodyInput.value;
+            _unsavedDraftText = bodyInput.value; _draft.body = bodyInput.value;
         });
 
-        const msgBox = el('div', { className: 'sb-pr-form-msg', role: 'status', 'aria-live': 'polite' }, '');
+        const msgBox = el('div', { className: 'sb-pr-form-msg', role: 'status', 'aria-live': 'polite' }, _formMessage);
         const btnRow = el('div', { className: 'sb-pr-actions' });
         const saveBtn = el('button', { type: 'submit', className: 'sb-pr-btn-primary' }, _editingNote ? 'Update Note' : 'Save Private Note');
         const copyBtn = el('button', {
             type: 'button',
             className: 'sb-pr-btn-secondary',
-            onClick: () => {
-                if (navigator.clipboard) navigator.clipboard.writeText(`${titleInput.value}\n\n${bodyInput.value}`).catch(() => {});
-                msgBox.textContent = 'Draft copied to clipboard.';
+            onClick: async () => {
+                try {
+                    if (!navigator.clipboard) throw new Error('Clipboard unavailable');
+                    await navigator.clipboard.writeText(`${_draft.title}\n\n${_draft.body}`);
+                    msgBox.textContent = 'Draft copied to clipboard.';
+                } catch (_) {msgBox.textContent = 'Copy unavailable. Select and copy the draft manually.';}
             },
         }, 'Copy draft');
         btnRow.append(saveBtn, copyBtn);
 
         form.addEventListener('submit', async (ev) => {
             ev.preventDefault();
-            msgBox.textContent = 'Saving...';
+            const owner = _ownerKey, gen = Account.getSessionGeneration();
+            _formMessage = 'Saving...';
+            const capturedDraft = {..._draft};
             const res = await Account.saveNote({
                 noteId: _editingNote ? _editingNote.noteId : null,
-                symbol: symInput.value,
-                title: titleInput.value,
-                body: bodyInput.value,
+                symbol: capturedDraft.symbol || symInput.value,
+                title: capturedDraft.title,
+                body: capturedDraft.body,
             });
+            if (owner !== _ownerKey || gen !== Account.getSessionGeneration()) return;
             if (res.ok) {
+                _draft = {symbol:'',title:'',body:''};
                 _unsavedDraftText = '';
                 _editingNote = null;
-                msgBox.textContent = 'Saved.';
+                _formMessage = 'Saved.';
             } else {
-                msgBox.textContent = `Unsaved (${res.message || res.code}). Use Retry or Copy draft.`;
+                _formMessage = `Unsaved (${res.message || res.code}). Retry Save or Copy draft.`;
             }
+            renderDrawer(Account.getSnapshot());
         });
 
         form.append(symInput, titleInput, bodyInput, msgBox, btnRow);
@@ -236,7 +263,7 @@
                     el('button', {
                         type: 'button',
                         className: 'sb-pr-btn-secondary',
-                        onClick: () => { _editingNote = note; renderDrawer(Account.getSnapshot()); },
+                        onClick: () => { _editingNote = note; _draft = {symbol:note.symbol||'',title:note.title,body:note.body}; _unsavedDraftText = note.body; renderDrawer(Account.getSnapshot()); },
                     }, 'Edit'),
                     el('button', {
                         type: 'button',
@@ -262,8 +289,8 @@
                 type: 'button',
                 className: 'sb-pr-btn-primary',
                 onClick: async () => {
-                    await Account.importLegacySelected(lp.items);
-                    openDrawer('watchlist');
+                    try { await Account.importLegacySelected(lp.items); openDrawer('watchlist'); }
+                    catch (err) { body.append(el('p', {role:'alert'}, 'Import failed: ' + (err.code || err.message))); }
                 },
             }, `Import ${lp.items.length} selected companies`));
         }
@@ -281,6 +308,15 @@
     function renderSettingsPanel(body, snap) {
         if (!snap.user) {
             body.append(el('p', { className: 'sb-pr-muted' }, 'Signed out. Using local guest storage.'));
+            if (snap.mode === 'EMULATOR') {
+                const form = el('form');
+                const email = el('input', {type:'email','aria-label':'Demo email',placeholder:'Synthetic email',required:'required'});
+                const password = el('input', {type:'password','aria-label':'Demo password',placeholder:'Synthetic password',required:'required'});
+                const message = el('p', {role:'status'});
+                form.append(email,password,el('button',{type:'submit'},'Sign in to local demo'),message);
+                form.addEventListener('submit', async ev => {ev.preventDefault();try {await Account.signInWithEmailPassword(email.value,password.value);}catch(err){message.textContent=err.code||'Sign-in failed';}});
+                body.append(form);
+            }
             return;
         }
         body.append(
@@ -289,6 +325,7 @@
         );
         const actions = body.lastChild;
         const msg = el('div', { className: 'sb-pr-form-msg', role: 'status' }, '');
+        if (snap.lastError) msg.textContent = snap.syncMessage + ' (' + snap.lastError + ')';
 
         actions.append(
             el('button', {
@@ -315,8 +352,7 @@
                 className: 'sb-pr-btn-danger',
                 onClick: async () => {
                     if (!root.confirm('Clear cloud research data? Your watchlist and private notes will be removed from the cloud; your Firebase Auth identity and local Decision Journal on this device remain.')) return;
-                    await Account.deleteAccount({ mode: 'CLEAR_CLOUD_DATA' });
-                    closeDrawer();
+                    try {const result=await Account.deleteAccount({ mode: 'CLEAR_CLOUD_DATA' }); if(result.code!=='STALE_SESSION_DISCARDED')closeDrawer();} catch(err) {msg.textContent = 'Clear failed. Retry this action: ' + (err.code || err.message);}
                 },
             }, 'Clear cloud research data'),
             el('button', {
@@ -324,11 +360,12 @@
                 className: 'sb-pr-btn-danger',
                 onClick: async () => {
                     if (!root.confirm('Delete account permanently? All cloud research data AND your Auth identity will be removed. The local Decision Journal on this device is separate and untouched.')) return;
-                    await Account.deleteAccount({ mode: 'DELETE_ACCOUNT' });
-                    closeDrawer();
+                    try {const result=await Account.deleteAccount({ mode: 'DELETE_ACCOUNT' }); if(result.code!=='STALE_SESSION_DISCARDED')closeDrawer();} catch(err) {msg.textContent = 'Delete failed. Retry this action: ' + (err.code || err.message);}
                 },
             }, 'Delete account')
         );
+        if (String(snap.lastError || '').includes('CLEARED')) actions.append(el('button', {type:'button', onClick:async()=>{await Account.startFresh();}}, 'Start fresh'));
+        actions.append(el('button', {type:'button',onClick:async()=>{if(root.StockerboardPersonalUI.confirmDiscardDraft()) await Account.signOut();}}, 'Sign out'));
         body.append(msg);
     }
 
@@ -400,6 +437,8 @@
         _mounted = true;
 
         Account.subscribe((snap) => {
+            const owner = snap.user ? snap.user.uid + ':' + snap.accountEpoch : null;
+            if (owner !== _ownerKey) {_ownerKey = owner; _draft = {symbol:'',title:'',body:''}; _unsavedDraftText=''; _editingNote=null; _formMessage='';}
             syncCompanyButtons(snap);
             syncHeaderControls(snap);
             if (_activePanel) renderDrawer(snap);
@@ -437,6 +476,10 @@
         }
 
         // Wire dropdown menu shortcuts if header exists
+        if (!document.getElementById('sbPersonalAccountButton')) {
+            const host = document.querySelector('.header-actions, .nav-actions, .header-controls, .header-right') || document.body;
+            host.append(el('button', {id:'sbPersonalAccountButton',type:'button',className:'sb-pr-btn-secondary',onClick:()=>openDrawer('settings')}, 'Research account'));
+        }
         const dropdown = document.getElementById('userDropdown');
         if (dropdown && !document.getElementById('sbMenuNotesBtn')) {
             const signoutBtn = dropdown.querySelector('.dropdown-btn-signout');
@@ -459,7 +502,12 @@
         mount,
         openDrawer,
         closeDrawer,
-        hasUnsavedDraft: () => Boolean(_unsavedDraftText.trim()),
+        hasUnsavedDraft: () => Boolean(_draft.title.trim() || _draft.body.trim()),
+        confirmDiscardDraft: () => {
+            if (!(_draft.title.trim() || _draft.body.trim())) return true;
+            if (!root.confirm('You have an unsaved private draft. Cancel to save or copy it, or confirm to discard it and sign out.')) return false;
+            _draft={symbol:'',title:'',body:''};_unsavedDraftText='';_editingNote=null;return true;
+        },
     };
 
     if (typeof document !== 'undefined') {

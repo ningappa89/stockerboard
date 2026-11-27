@@ -16,6 +16,7 @@
     let _functions = null;
     let _initError = null;
     let _emulatorsConnected = false;
+    let _ready = Promise.resolve();
 
     const PRODUCTION_BLOCKED_HOSTS = [
         'identitytoolkit.googleapis.com',
@@ -98,6 +99,7 @@
                     return { ok: false, mode: _mode, error: _initError, auth: null, db: null, functions: null, emulatorsConnected: false };
                 }
                 if (!_emulatorsConnected) {
+                    if (typeof _auth.useEmulator !== 'function' || typeof _db.useEmulator !== 'function' || typeof _functions.useEmulator !== 'function') throw new Error('EMULATOR_CONNECTOR_MISSING');
                     if (typeof _auth.useEmulator === 'function') {
                         _auth.useEmulator(em.authUrl, { disableWarnings: true });
                     }
@@ -114,7 +116,7 @@
 
             // Use session-scoped Auth persistence for the MVP (explicit sign-in survives same-tab navigation/refresh cleanly).
             if (_auth && typeof _auth.setPersistence === 'function' && sdk.auth && sdk.auth.Auth && sdk.auth.Auth.Persistence) {
-                _auth.setPersistence(sdk.auth.Auth.Persistence.SESSION).catch(() => {});
+                _ready = _auth.setPersistence(sdk.auth.Auth.Persistence.SESSION);
             }
 
             // Do not enable persistent Firestore offline queueing for V1.
@@ -142,6 +144,7 @@
         initOnce,
         callManaged,
         resetForTests,
+        ready: () => _ready,
         getState: () => ({ initialized: _initialized, mode: _mode, error: _initError, emulatorsConnected: _emulatorsConnected }),
     };
 });

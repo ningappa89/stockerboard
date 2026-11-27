@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 1.9,
-      "high": 1.99,
-      "low": 1.8,
-      "open": 1.99,
-      "time": "2025-11-19",
-      "volume": 25047
-    },
-    {
       "close": 1.99,
       "high": 1.99,
       "low": 1.81,
@@ -2017,13 +2009,21 @@
       "open": 1.44,
       "time": "2026-11-26",
       "volume": 13635
+    },
+    {
+      "close": 1.49,
+      "high": 1.51,
+      "low": 1.47,
+      "open": 1.51,
+      "time": "2026-11-27",
+      "volume": 3567
     }
   ],
   "company_name": "MT EDUCARE LTD.",
   "history": {
-    "first_session": "2025-11-19",
+    "first_session": "2025-11-20",
     "has_full_52w_history": true,
-    "last_session": "2026-11-26",
+    "last_session": "2026-11-27",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "1.41x"
+    "volume_multiplier": "0.37x"
   },
   "price": {
-    "as_of": "2026-11-26",
-    "change": 0.06,
-    "change_pct": 4.35,
-    "close": 1.44,
-    "previous_close": 1.38,
+    "as_of": "2026-11-27",
+    "change": 0.05,
+    "change_pct": 3.47,
+    "close": 1.49,
+    "previous_close": 1.44,
     "type": "EOD_CLOSE",
-    "volume": 13635
+    "volume": 3567
   },
   "range": {
-    "distance_from_high_pct": -43.08,
-    "distance_from_low_pct": 23.08,
+    "distance_from_high_pct": -41.11,
+    "distance_from_low_pct": 27.35,
     "high_52w": 2.53,
     "history_basis": "52_WEEK",
     "low_52w": 1.17,
-    "range_position_pct": 19.85
+    "range_position_pct": 23.53
   },
   "risk_model": {
-    "invalidation_floor": 1.39,
+    "invalidation_floor": 1.44,
     "risk_per_share": 0.5,
-    "technical_pivot": 1.47
+    "technical_pivot": 1.52
   },
   "schema_version": "1.0",
   "sector": null,

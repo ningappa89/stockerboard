@@ -3,14 +3,6 @@
   "analytics_status": "AVAILABLE",
   "candles": [
     {
-      "close": 551.85,
-      "high": 557.15,
-      "low": 529.0,
-      "open": 530.0,
-      "time": "2025-02-19",
-      "volume": 186088
-    },
-    {
       "close": 566.65,
       "high": 574.9,
       "low": 556.55,
@@ -2017,13 +2009,21 @@
       "open": 8.8,
       "time": "2026-11-26",
       "volume": 72765
+    },
+    {
+      "close": 9.49,
+      "high": 9.7,
+      "low": 8.81,
+      "open": 9.27,
+      "time": "2026-11-27",
+      "volume": 81457
     }
   ],
   "company_name": "Gensol Engineering Limited",
   "history": {
-    "first_session": "2025-02-19",
+    "first_session": "2025-02-20",
     "has_full_52w_history": true,
-    "last_session": "2026-11-26",
+    "last_session": "2026-11-27",
     "sessions_available": 252
   },
   "industry": null,
@@ -2034,29 +2034,29 @@
     "is_stage2": false,
     "momentum_score": 40,
     "setup_type": "Liquid Active",
-    "volume_multiplier": "0.9x"
+    "volume_multiplier": "1.0x"
   },
   "price": {
-    "as_of": "2026-11-26",
-    "change": 0.42,
-    "change_pct": 4.75,
-    "close": 9.27,
-    "previous_close": 8.85,
+    "as_of": "2026-11-27",
+    "change": 0.22,
+    "change_pct": 2.37,
+    "close": 9.49,
+    "previous_close": 9.27,
     "type": "EOD_CLOSE",
-    "volume": 72765
+    "volume": 81457
   },
   "range": {
-    "distance_from_high_pct": -98.42,
-    "distance_from_low_pct": 7.67,
+    "distance_from_high_pct": -98.38,
+    "distance_from_low_pct": 10.22,
     "high_52w": 587.3,
     "history_basis": "52_WEEK",
     "low_52w": 8.61,
-    "range_position_pct": 0.11
+    "range_position_pct": 0.15
   },
   "risk_model": {
-    "invalidation_floor": 8.95,
-    "risk_per_share": 0.51,
-    "technical_pivot": 9.46
+    "invalidation_floor": 9.16,
+    "risk_per_share": 0.52,
+    "technical_pivot": 9.68
   },
   "schema_version": "1.0",
   "sector": null,
