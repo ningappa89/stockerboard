@@ -589,11 +589,12 @@
  function setupWatchlist(symbol){
   const btn=byId('btnWatchlist');
   if(!btn)return;
+  const acct=window.StockerboardAccount;
+  const store=window.StockerboardPersonalStorage;
   const getWatchlist=()=>{
-   try{return JSON.parse(localStorage.getItem('stockerboard_watchlist')||'[]');}catch{return[];}
-  };
-  const setWatchlist=list=>{
-   try{localStorage.setItem('stockerboard_watchlist',JSON.stringify(list));}catch{}
+   if(acct)return acct.getSnapshot().watchlistSymbols;
+   if(store)return store.readGuestWatchlist().symbols;
+   return [];
   };
 
   const syncState=()=>{
@@ -603,16 +604,16 @@
    btn.textContent=inList?'✓ In Watchlist':'+ Watchlist';
   };
 
-  syncState();
-  btn.onclick=()=>{
-   let list=getWatchlist();
-   if(list.includes(symbol)){
-    list=list.filter(s=>s!==symbol);
-   }else{
-    list.push(symbol);
+  if(acct){acct.subscribe(syncState);}
+  else{syncState();}
+  btn.onclick=async()=>{
+   if(acct){await acct.toggleWatchlistSymbol(symbol);return;}
+   if(store){
+    const cur=store.readGuestWatchlist().symbols;
+    const next=cur.includes(symbol)?cur.filter(s=>s!==symbol):[...cur,symbol];
+    store.writeGuestWatchlist(next);
+    syncState();
    }
-   setWatchlist(list);
-   syncState();
   };
  }
 

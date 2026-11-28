@@ -108,42 +108,45 @@
         const initIndex = panelEntries.findIndex(e => e.name === reqTab);
         activate(initIndex >= 0 ? initIndex : 0, false);
 
-        // Wire Watchlist button if present
+        // Wire Watchlist button through the shared personal-research facade
         const btnWatchlist = document.getElementById('btnWatchlist');
         if (btnWatchlist) {
             const sym = main.getAttribute('data-symbol') || '';
-            const getWatchlist = () => {
-                try {
-                    const saved = JSON.parse(localStorage.getItem('stockerboard_watchlist') || '[]');
-                    return Array.isArray(saved) ? saved : [];
-                } catch (error) { return []; }
+            const acct = window.StockerboardAccount;
+            const store = window.StockerboardPersonalStorage;
+            const getSymbols = () => {
+                if (acct) return acct.getSnapshot().watchlistSymbols;
+                if (store) return store.readGuestWatchlist().symbols;
+                return [];
             };
             const updateBtn = () => {
-                const list = getWatchlist();
+                const list = getSymbols();
                 const isSaved = list.includes(sym);
                 btnWatchlist.textContent = isSaved ? '✓ Saved' : '+ Watchlist';
                 btnWatchlist.classList.toggle('active', isSaved);
                 btnWatchlist.setAttribute('aria-pressed', String(isSaved));
                 btnWatchlist.setAttribute('aria-label', `${isSaved ? 'Remove from' : 'Add to'} watchlist`);
             };
-            updateBtn();
-            btnWatchlist.onclick = () => {
-                let list = getWatchlist();
-                if (list.includes(sym)) {
-                    list = list.filter(s => s !== sym);
-                } else {
-                    if (list.length >= 3) {
+            if (acct) acct.subscribe(updateBtn);
+            else updateBtn();
+            btnWatchlist.onclick = async () => {
+                if (acct) {
+                    const res = await acct.toggleWatchlistSymbol(sym);
+                    if (!res.ok && res.code === 'GUEST_LIMIT_REACHED') {
+                        showToast('Guest limit reached (3 stocks). Manage your full watchlist on Home or Pro.');
+                    }
+                    return;
+                }
+                if (store) {
+                    const cur = store.readGuestWatchlist().symbols;
+                    const next = cur.includes(sym) ? cur.filter(s => s !== sym) : [...cur, sym];
+                    const wr = store.writeGuestWatchlist(next);
+                    if (!wr.ok) {
                         showToast('Manage your full watchlist in Pro research.');
                         return;
                     }
-                    list.push(sym);
+                    updateBtn();
                 }
-                try {
-                    localStorage.setItem('stockerboard_watchlist', JSON.stringify(list));
-                } catch (error) {
-                    showToast('The browser could not save your watchlist.');
-                }
-                updateBtn();
             };
         }
 

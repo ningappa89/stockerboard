@@ -307,7 +307,9 @@
 
     function renderSettingsPanel(body, snap) {
         if (!snap.user) {
-            body.append(el('p', { className: 'sb-pr-muted' }, 'Signed out. Using local guest storage.'));
+            body.append(el('p', { className: 'sb-pr-muted' }, snap.mode === 'DISABLED'
+                ? 'Account saving is temporarily unavailable. Public research and guest watchlists remain available.'
+                : 'Signed out. Using local guest storage.'));
             if (snap.mode === 'EMULATOR') {
                 const form = el('form');
                 const email = el('input', {type:'email','aria-label':'Demo email',placeholder:'Synthetic email',required:'required'});

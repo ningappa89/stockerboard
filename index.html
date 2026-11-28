@@ -5025,9 +5025,9 @@
 <link rel="stylesheet" href="/scripts/financial-statements.css?v=FS_UI_V1_6">
 <script defer src="/scripts/financial-statements.js?v=0c65b98ac6fd"></script>
 <link rel="stylesheet" href="/scripts/research-layout.css?v=HOME_HEADLINE_V3">
-<script defer src="/scripts/research-layout.js?v=20261029"></script>
+<script defer src="/scripts/research-layout.js?v=11ac8649eb1e"></script>
 <script defer src="/scripts/company-routes.js?v=company-v1"></script>
-<style id="patterns-group-filter">#intermediateTerminal .tab-bar[data-active-group="patterns"] .tab-btn:not([data-pro-group~="patterns"]){display:none!important}</style><script defer src="/scripts/analytics.js?v=71177ad86897" data-config-sha256="78dccc89f20ecae6ef1387a33a0f851184dfb6af41125d9f941d5fd8d1363b35"></script><script type="application/json" id="publicationHealth">{"version": 1, "session": "2026-11-27", "years": [2026], "cutoff": "17:30", "holidays": ["2026-01-15", "2026-01-26", "2026-02-15", "2026-03-03", "2026-03-21", "2026-03-26", "2026-03-31", "2026-04-03", "2026-04-14", "2026-05-01", "2026-05-28", "2026-06-26", "2026-08-15", "2026-09-14", "2026-10-02", "2026-10-20", "2026-11-10", "2026-11-24", "2026-12-25"], "unverifiedDates": ["2026-11-08"], "source": "https://nsearchives.nseindia.com/content/circulars/CMTR71775.pdf"}</script></head>
+<style id="patterns-group-filter">#intermediateTerminal .tab-bar[data-active-group="patterns"] .tab-btn:not([data-pro-group~="patterns"]){display:none!important}</style><link rel="stylesheet" href="/scripts/personal-research.css?v=61dcf9233f12"><script defer src="/scripts/personal-research-contract.js?v=35cb787189b1"></script><script defer src="/scripts/personal-research-storage.js?v=d7af3a27de57"></script><script defer src="/scripts/personal-research-firebase.js?v=3375cb8621b0"></script><script defer src="/scripts/personal-research.js?v=b78aa771a13d"></script><script defer src="/scripts/personal-research-ui.js?v=1e968f496d3e"></script><script defer src="/scripts/personal-research-bootstrap.js?v=a210fb176799"></script><script defer src="/scripts/analytics.js?v=71177ad86897" data-config-sha256="78dccc89f20ecae6ef1387a33a0f851184dfb6af41125d9f941d5fd8d1363b35"></script><script type="application/json" id="publicationHealth">{"version": 1, "session": "2026-11-27", "years": [2026], "cutoff": "17:30", "holidays": ["2026-01-15", "2026-01-26", "2026-02-15", "2026-03-03", "2026-03-21", "2026-03-26", "2026-03-31", "2026-04-03", "2026-04-14", "2026-05-01", "2026-05-28", "2026-06-26", "2026-08-15", "2026-09-14", "2026-10-02", "2026-10-20", "2026-11-10", "2026-11-24", "2026-12-25"], "unverifiedDates": ["2026-11-08"], "source": "https://nsearchives.nseindia.com/content/circulars/CMTR71775.pdf"}</script></head>
 <body>
 <script>document.body.classList.toggle("screen-fresher", document.documentElement.dataset.uiMode !== "pro");</script>
     <div class="container">
@@ -5336,10 +5336,11 @@
             <button type="button" data-pro-section="research" onclick="showProGroup('research')">Learn &amp; research</button>
             <button type="button" data-pro-section="workspace" onclick="showProGroup('workspace')">My workspace</button>
         </nav>
-        <div class="tab-bar" data-active-group="market" aria-label="Views in selected Pro section"><!-- unified Pro patterns --><button type="button" class="tab-btn" data-pro-group="patterns" id="tabBtnCupWithHandle" aria-controls="tab-cup-with-handle" onclick="switchTab('tab-cup-with-handle', this); window.StockerboardPatterns.open('cup-with-handle')">Cup with Handle <span class="tab-counter" data-pattern-counter="cup-with-handle">0 current</span></button><button type="button" class="tab-btn" data-pro-group="patterns" id="tabBtnFlatBase" aria-controls="tab-flat-base" onclick="switchTab('tab-flat-base', this); window.StockerboardPatterns.open('flat-base')">Flat Base <span class="tab-counter" data-pattern-counter="flat-base">40 current</span></button><button type="button" class="tab-btn" data-pro-group="patterns" id="tabBtnDoubleBottom" aria-controls="tab-double-bottom" onclick="switchTab('tab-double-bottom', this); window.StockerboardPatterns.open('double-bottom')">Double Bottom (W) <span class="tab-counter" data-pattern-counter="double-bottom">141 current</span></button><button type="button" class="tab-btn" data-pro-group="patterns" id="tabBtnAscendingTriangle" aria-controls="tab-ascending-triangle" onclick="switchTab('tab-ascending-triangle', this); window.StockerboardPatterns.open('ascending-triangle')">Ascending Triangle <span class="tab-counter" data-pattern-counter="ascending-triangle">— current</span></button><button type="button" class="tab-btn" data-pro-group="patterns" id="tabBtnVCP" aria-controls="tab-vcp" onclick="switchTab('tab-vcp', this); window.StockerboardPatterns.open('vcp')">Volatility Contraction (VCP) <span class="tab-counter" data-pattern-counter="vcp">— current</span></button><!-- unified Pro patterns -->
+        <div class="tab-bar" data-active-group="market" aria-label="Views in selected Pro section"><!-- unified Pro patterns --><button type="button" class="tab-btn" data-pro-group="patterns" id="tabBtnCupWithHandle" aria-controls="tab-cup-with-handle" onclick="switchTab('tab-cup-with-handle', this); window.StockerboardPatterns.open('cup-with-handle')">Cup with Handle <span class="tab-counter" data-pattern-counter="cup-with-handle">0 current</span></button><button type="button" class="tab-btn" data-pro-group="patterns" id="tabBtnFlatBase" aria-controls="tab-flat-base" onclick="switchTab('tab-flat-base', this); window.StockerboardPatterns.open('flat-base')">Flat Base <span class="tab-counter" data-pattern-counter="flat-base">40 current</span></button><button type="button" class="tab-btn" data-pro-group="patterns" id="tabBtnDoubleBottom" aria-controls="tab-double-bottom" onclick="switchTab('tab-double-bottom', this); window.StockerboardPatterns.open('double-bottom')">Double Bottom (W) <span class="tab-counter" data-pattern-counter="double-bottom">141 current</span></button><button type="button" class="tab-btn" data-pro-group="patterns" id="tabBtnAscendingTriangle" aria-controls="tab-ascending-triangle" onclick="switchTab('tab-ascending-triangle', this); window.StockerboardPatterns.open('ascending-triangle')">Ascending Triangle <span class="tab-counter" data-pattern-counter="ascending-triangle">27 current</span></button><button type="button" class="tab-btn" data-pro-group="patterns" id="tabBtnVCP" aria-controls="tab-vcp" onclick="switchTab('tab-vcp', this); window.StockerboardPatterns.open('vcp')">Volatility Contraction (VCP) <span class="tab-counter" data-pattern-counter="vcp">75 current</span></button><!-- unified Pro patterns -->
             <button class="tab-btn active" data-pro-group="market" id="tabBtnScreener" onclick="switchTab('tab-screener', this)">
                 🔍 Market Explorer <span class="tab-counter">350</span>
             </button>
+            
             
             
             
@@ -10442,7 +10443,8 @@
         
         
         
-        <!-- unified Pro patterns --><link rel="stylesheet" href="/scripts/patterns.css?v=787963b6d6df"><script defer src="/scripts/patterns.js?v=2d4ae6273541"></script><div id="patterns-release" hidden data-session="2026-11-27" data-index-sha256="538398244a1ccdadb83cc0891a513397b505390822faadd8145264b2f9fbe327"></div><div id="tab-cup-with-handle" class="tab-content" data-pattern-family="cup-with-handle"><section class="pattern-panel" aria-label="Cup with Handle pattern research"></section></div><div id="tab-flat-base" class="tab-content" data-pattern-family="flat-base"><section class="pattern-panel" aria-label="Flat Base pattern research"></section></div><div id="tab-double-bottom" class="tab-content" data-pattern-family="double-bottom"><section class="pattern-panel" aria-label="Double Bottom (W) pattern research"></section></div><div id="tab-ascending-triangle" class="tab-content" data-pattern-family="ascending-triangle"><section class="pattern-panel" aria-label="Ascending Triangle pattern research"></section></div><div id="tab-vcp" class="tab-content" data-pattern-family="vcp"><section class="pattern-panel" aria-label="Volatility Contraction (VCP) pattern research"></section></div><!-- unified Pro patterns --><div id="tab-stockme-analysis" class="tab-content"><div class="stockme-panel"><div class="stockme-heading"><div><span class="stockme-eyebrow">A focused research list</span><h2>StockerBoard Analysis</h2><p>Stocks near their yearly highs that meet StockMe’s existing score threshold.</p></div><span class="stockme-session">Market session 2026-11-27</span></div><div class="stockme-kpis"><div><strong>100</strong><span>Stocks reviewed</span></div><div><strong>7</strong><span>Met the screen rules</span></div></div><details class="stockme-method"><summary>How this list works</summary><p>StockMe reviews up to 100 stocks within 5% of their rolling 52-week high, with at least 5,000 shares traded in the latest session. The list shows those with a StockMe score of 60 or more. It uses the local OHLC database; P/E and ROE appear only when available in the certified public financial index.</p></details><div class="table-responsive"><table id="stockmeAnalysisTable"><thead><tr><th>Company</th><th class="col-right">Price</th><th class="col-right">Yearly high</th><th class="col-right">From high</th><th class="col-right">Screen score</th><th class="col-right">P/E</th><th class="col-right">ROE</th></tr></thead><tbody><tr data-sym="SAMBHV"><td><a class="stockme-company" href="#stock/SAMBHV">SAMBHV STEEL TUBES LIMITED</a><span class="stockme-symbol">SAMBHV</span></td><td class="col-right mono">₹177.30</td><td class="col-right mono">₹179.89</td><td class="col-right mono">1.44%</td><td class="col-right mono"><strong>75.63</strong></td><td class="col-right mono">28.64</td><td class="col-right mono">—</td></tr><tr data-sym="NINSYS"><td><a class="stockme-company" href="#stock/NINSYS">NINTEC SYSTEMS LIMITED</a><span class="stockme-symbol">NINSYS</span></td><td class="col-right mono">₹1,005.15</td><td class="col-right mono">₹1,008.00</td><td class="col-right mono">0.28%</td><td class="col-right mono"><strong>75.02</strong></td><td class="col-right mono">44.44</td><td class="col-right mono">41.85%</td></tr><tr data-sym="AEROPLANE"><td><a class="stockme-company" href="#stock/AEROPLANE">Amir Chand Jagdish Kumar (Expo</a><span class="stockme-symbol">AEROPLANE</span></td><td class="col-right mono">₹243.33</td><td class="col-right mono">₹252.00</td><td class="col-right mono">3.44%</td><td class="col-right mono"><strong>71.42</strong></td><td class="col-right mono">—</td><td class="col-right mono">—</td></tr><tr data-sym="INDOMIM"><td><a class="stockme-company" href="#stock/INDOMIM">INDO-MIM Limited</a><span class="stockme-symbol">INDOMIM</span></td><td class="col-right mono">₹1,342.40</td><td class="col-right mono">₹1,374.40</td><td class="col-right mono">2.33%</td><td class="col-right mono"><strong>70.00</strong></td><td class="col-right mono">—</td><td class="col-right mono">—</td></tr><tr data-sym="SHREEJISPG"><td><a class="stockme-company" href="#stock/SHREEJISPG">Shreeji Shipping Global Limite</a><span class="stockme-symbol">SHREEJISPG</span></td><td class="col-right mono">₹923.70</td><td class="col-right mono">₹937.95</td><td class="col-right mono">1.52%</td><td class="col-right mono"><strong>70.00</strong></td><td class="col-right mono">81.42</td><td class="col-right mono">—</td></tr><tr data-sym="STEAMHOUSE"><td><a class="stockme-company" href="#stock/STEAMHOUSE">Steamhouse India Limited</a><span class="stockme-symbol">STEAMHOUSE</span></td><td class="col-right mono">₹174.41</td><td class="col-right mono">₹175.10</td><td class="col-right mono">0.39%</td><td class="col-right mono"><strong>65.30</strong></td><td class="col-right mono">—</td><td class="col-right mono">—</td></tr><tr data-sym="ACE"><td><a class="stockme-company" href="#stock/ACE">ACTION CONSTRUCTION EQUIPMENT</a><span class="stockme-symbol">ACE</span></td><td class="col-right mono">₹1,325.70</td><td class="col-right mono">₹1,329.30</td><td class="col-right mono">0.27%</td><td class="col-right mono"><strong>61.44</strong></td><td class="col-right mono">32.06</td><td class="col-right mono">22.89%</td></tr></tbody></table></div></div></div>
+        
+        <!-- unified Pro patterns --><link rel="stylesheet" href="/scripts/patterns.css?v=787963b6d6df"><script defer src="/scripts/patterns.js?v=2d4ae6273541"></script><div id="patterns-release" hidden data-session="2026-11-27" data-index-sha256="34a0413a5dec7a24c250c41ba68549a448d85b929c266f71f08c1f65268d2880"></div><div id="tab-cup-with-handle" class="tab-content" data-pattern-family="cup-with-handle"><section class="pattern-panel" aria-label="Cup with Handle pattern research"></section></div><div id="tab-flat-base" class="tab-content" data-pattern-family="flat-base"><section class="pattern-panel" aria-label="Flat Base pattern research"></section></div><div id="tab-double-bottom" class="tab-content" data-pattern-family="double-bottom"><section class="pattern-panel" aria-label="Double Bottom (W) pattern research"></section></div><div id="tab-ascending-triangle" class="tab-content" data-pattern-family="ascending-triangle"><section class="pattern-panel" aria-label="Ascending Triangle pattern research"></section></div><div id="tab-vcp" class="tab-content" data-pattern-family="vcp"><section class="pattern-panel" aria-label="Volatility Contraction (VCP) pattern research"></section></div><!-- unified Pro patterns --><div id="tab-stockme-analysis" class="tab-content"><div class="stockme-panel"><div class="stockme-heading"><div><span class="stockme-eyebrow">A focused research list</span><h2>StockerBoard Analysis</h2><p>Stocks near their yearly highs that meet StockMe’s existing score threshold.</p></div><span class="stockme-session">Market session 2026-11-27</span></div><div class="stockme-kpis"><div><strong>100</strong><span>Stocks reviewed</span></div><div><strong>7</strong><span>Met the screen rules</span></div></div><details class="stockme-method"><summary>How this list works</summary><p>StockMe reviews up to 100 stocks within 5% of their rolling 52-week high, with at least 5,000 shares traded in the latest session. The list shows those with a StockMe score of 60 or more. It uses the local OHLC database; P/E and ROE appear only when available in the certified public financial index.</p></details><div class="table-responsive"><table id="stockmeAnalysisTable"><thead><tr><th>Company</th><th class="col-right">Price</th><th class="col-right">Yearly high</th><th class="col-right">From high</th><th class="col-right">Screen score</th><th class="col-right">P/E</th><th class="col-right">ROE</th></tr></thead><tbody><tr data-sym="SAMBHV"><td><a class="stockme-company" href="#stock/SAMBHV">SAMBHV STEEL TUBES LIMITED</a><span class="stockme-symbol">SAMBHV</span></td><td class="col-right mono">₹177.30</td><td class="col-right mono">₹179.89</td><td class="col-right mono">1.44%</td><td class="col-right mono"><strong>75.63</strong></td><td class="col-right mono">28.64</td><td class="col-right mono">—</td></tr><tr data-sym="NINSYS"><td><a class="stockme-company" href="#stock/NINSYS">NINTEC SYSTEMS LIMITED</a><span class="stockme-symbol">NINSYS</span></td><td class="col-right mono">₹1,005.15</td><td class="col-right mono">₹1,008.00</td><td class="col-right mono">0.28%</td><td class="col-right mono"><strong>75.02</strong></td><td class="col-right mono">44.44</td><td class="col-right mono">41.85%</td></tr><tr data-sym="AEROPLANE"><td><a class="stockme-company" href="#stock/AEROPLANE">Amir Chand Jagdish Kumar (Expo</a><span class="stockme-symbol">AEROPLANE</span></td><td class="col-right mono">₹243.33</td><td class="col-right mono">₹252.00</td><td class="col-right mono">3.44%</td><td class="col-right mono"><strong>71.42</strong></td><td class="col-right mono">—</td><td class="col-right mono">—</td></tr><tr data-sym="INDOMIM"><td><a class="stockme-company" href="#stock/INDOMIM">INDO-MIM Limited</a><span class="stockme-symbol">INDOMIM</span></td><td class="col-right mono">₹1,342.40</td><td class="col-right mono">₹1,374.40</td><td class="col-right mono">2.33%</td><td class="col-right mono"><strong>70.00</strong></td><td class="col-right mono">—</td><td class="col-right mono">—</td></tr><tr data-sym="SHREEJISPG"><td><a class="stockme-company" href="#stock/SHREEJISPG">Shreeji Shipping Global Limite</a><span class="stockme-symbol">SHREEJISPG</span></td><td class="col-right mono">₹923.70</td><td class="col-right mono">₹937.95</td><td class="col-right mono">1.52%</td><td class="col-right mono"><strong>70.00</strong></td><td class="col-right mono">81.42</td><td class="col-right mono">—</td></tr><tr data-sym="STEAMHOUSE"><td><a class="stockme-company" href="#stock/STEAMHOUSE">Steamhouse India Limited</a><span class="stockme-symbol">STEAMHOUSE</span></td><td class="col-right mono">₹174.41</td><td class="col-right mono">₹175.10</td><td class="col-right mono">0.39%</td><td class="col-right mono"><strong>65.30</strong></td><td class="col-right mono">—</td><td class="col-right mono">—</td></tr><tr data-sym="ACE"><td><a class="stockme-company" href="#stock/ACE">ACTION CONSTRUCTION EQUIPMENT</a><span class="stockme-symbol">ACE</span></td><td class="col-right mono">₹1,325.70</td><td class="col-right mono">₹1,329.30</td><td class="col-right mono">0.27%</td><td class="col-right mono"><strong>61.44</strong></td><td class="col-right mono">32.06</td><td class="col-right mono">22.89%</td></tr></tbody></table></div></div></div>
 
         <!-- TAB 1: 52W Breakouts -->
         <div id="tab-breakouts" class="tab-content">
@@ -18015,58 +18017,35 @@
         }
 
         function getWatchlist() {
-            try {
-                return JSON.parse(localStorage.getItem('stockerboard_watchlist') || '[]');
-            } catch {
-                return [];
-            }
+            if (window.StockerboardAccount) return window.StockerboardAccount.getSnapshot().watchlistSymbols;
+            if (window.StockerboardPersonalStorage) return window.StockerboardPersonalStorage.readGuestWatchlist().symbols;
+            return [];
         }
 
-        function saveWatchlist(list, syncToCloud = true) {
-            localStorage.setItem('stockerboard_watchlist', JSON.stringify(list));
-            updateWatchlistUI();
-            if (syncToCloud) syncWatchlistToCloud(list);
+        async function saveWatchlist(list) {
+            const res = await window.StockerboardAccount.replaceWatchlist(list);
+            if (!res.ok) showToast('Watchlist was not saved: ' + (res.code || 'Unavailable'));
+            updateWatchlistUI(); return res;
         }
 
         function toggleWatchlist(symbol, btn) {
-            let list = getWatchlist();
-            const idx = list.indexOf(symbol);
-            if (idx >= 0) {
-                list.splice(idx, 1);
-                showToast(`Removed ${symbol} from watchlist`);
-                saveWatchlist(list);
-                trackEvent('watchlist_toggled', {symbol, watched: list.includes(symbol)});
-            } else {
-                if (!currentAuthUser && list.length >= GUEST_WATCHLIST_LIMIT) {
-                    openWatchlistLimitModal(symbol);
-                    showToast('Guest limit reached (3 stocks). Sign in for unlimited! 🔒');
-                    return;
-                }
-                list.push(symbol);
-                showToast(`Added ${symbol} to watchlist ⭐`);
-                saveWatchlist(list);
-                trackEvent('watchlist_toggled', {symbol, watched: list.includes(symbol)});
+            if (window.StockerboardAccount) {
+                window.StockerboardAccount.toggleWatchlistSymbol(symbol).then((res) => {
+                    if (!res.ok && res.code === 'GUEST_LIMIT_REACHED') {
+                        openWatchlistLimitModal(symbol);
+                        showToast('Guest limit reached (3 stocks). Sign in for unlimited! 🔒');
+                    } else if (res.ok) {
+                        showToast(res.watched ? `Added ${symbol} to watchlist ⭐` : `Removed ${symbol} from watchlist`);
+                        renderWatchlistTable();
+                        trackEvent('watchlist_toggled', {symbol, watched: res.watched});
+                    }
+                });
             }
         }
 
         function toggleDrawerWatchlist() {
             if (!currentDrawerSym) return;
-            let list = getWatchlist();
-            const idx = list.indexOf(currentDrawerSym);
-            if (idx >= 0) {
-                list.splice(idx, 1);
-                showToast(`Removed ${currentDrawerSym} from watchlist`);
-                saveWatchlist(list);
-            } else {
-                if (!currentAuthUser && list.length >= GUEST_WATCHLIST_LIMIT) {
-                    openWatchlistLimitModal(currentDrawerSym);
-                    showToast('Guest limit reached (3 stocks). Sign in for unlimited! 🔒');
-                    return;
-                }
-                list.push(currentDrawerSym);
-                showToast(`Added ${currentDrawerSym} to watchlist ⭐`);
-                saveWatchlist(list);
-            }
+            toggleWatchlist(currentDrawerSym);
             updateDrawerWatchlistBtn();
         }
 
@@ -18077,9 +18056,10 @@
             btn.innerText = isStarred ? '★ Remove from Watchlist' : '⭐ Add to Watchlist';
         }
 
-        function clearWatchlist() {
+        async function clearWatchlist() {
             if (confirm('Are you sure you want to clear your watchlist?')) {
-                saveWatchlist([]);
+                const result = await saveWatchlist([]);
+                if (!result.ok) return;
                 renderWatchlistTable();
                 showToast('Watchlist cleared');
             }
@@ -18185,40 +18165,18 @@
             }, 3000);
         }
 
-        // 9. Stockerboard Cloud Identity & Sync Engine (FAANG Grade)
+        // 9. Stockerboard Cloud Identity & Facade Delegation (FAANG Grade)
         const AUTH_CONFIG = APP_DATA.auth_config || {};
         let currentAuthUser = null;
-        let firestoreDb = null;
-        let firebaseAuth = null;
-        let syncDebounceTimer = null;
 
         function initAuthEngine() {
-            try {
-                if (AUTH_CONFIG.enabled && AUTH_CONFIG.firebaseConfig && AUTH_CONFIG.firebaseConfig.apiKey && typeof firebase !== 'undefined') {
-                    if (!firebase.apps.length) {
-                        firebase.initializeApp(AUTH_CONFIG.firebaseConfig);
-                    }
-                    firebaseAuth = firebase.auth();
-                    firestoreDb = firebase.firestore();
-
-                    firebaseAuth.onAuthStateChanged((user) => {
-                        handleAuthStateChange(user);
-                    });
-
-                    // Initialize Google One-Tap if enabled
-                    if (AUTH_CONFIG.one_tap_enabled && typeof google !== 'undefined' && google.accounts && AUTH_CONFIG.client_id) {
-                        google.accounts.id.initialize({
-                            client_id: AUTH_CONFIG.client_id,
-                            callback: handleGoogleOneTapResponse
-                        });
-                        google.accounts.id.prompt();
-                    }
-                } else {
-                    console.log('Stockerboard running in Local-First Mode (localStorage)');
-                }
-            } catch (err) {
-                console.warn('Google Cloud Auth initialization skipped/blocked by privacy extension:', err);
-            }
+            if (!window.StockerboardAccount) return;
+            window.StockerboardAccount.init({ config: AUTH_CONFIG });
+            window.StockerboardAccount.subscribe((snap) => {
+                currentAuthUser = snap.user;
+                updateWatchlistUI();
+                renderWatchlistTable();
+            });
         }
 
         function openGoogleAuthModal() {
@@ -18236,16 +18194,19 @@
 
 
         function handleGoogleAuthClick() {
-            if (!AUTH_CONFIG.enabled || !firebaseAuth || !AUTH_CONFIG.client_id) {
+            if (window.StockerboardPersonalConfig?.mode === 'EMULATOR') { window.StockerboardPersonalUI.openDrawer('settings'); return; }
+            const fbState = window.StockerboardPersonalFirebase ? window.StockerboardPersonalFirebase.getState() : { initialized: false };
+            if (fbState.mode !== 'PRODUCTION' || !AUTH_CONFIG.enabled || !fbState.initialized || typeof firebase === 'undefined' || !firebase.apps.length) {
                 openGoogleAuthModal();
                 return;
             }
 
+            const authInst = firebase.auth();
             const provider = new firebase.auth.GoogleAuthProvider();
             provider.setCustomParameters({ prompt: 'select_account' });
             setSyncStatus('syncing');
 
-            firebaseAuth.signInWithPopup(provider)
+            authInst.signInWithPopup(provider)
                 .then((result) => {
                     showToast(`Signed in as ${result.user.displayName || result.user.email} ⭐`);
                 })
@@ -18259,45 +18220,14 @@
         }
 
         function handleGoogleOneTapResponse(response) {
-            if (!firebaseAuth || !response.credential) return;
+            if (window.StockerboardPersonalFirebase?.getState().mode !== 'PRODUCTION') return;
+            if (typeof firebase === 'undefined' || !firebase.apps.length || !response.credential) return;
             const cred = firebase.auth.GoogleAuthProvider.credential(response.credential);
-            firebaseAuth.signInWithCredential(cred).catch(err => console.error('One-Tap auth error:', err));
+            firebase.auth().signInWithCredential(cred).catch(err => console.error('One-Tap auth error:', err));
         }
 
         function handleAuthStateChange(user) {
             currentAuthUser = user;
-            const signinBtn = document.getElementById('gSigninBtn');
-            const userChip = document.getElementById('userChip');
-            const syncSub = document.getElementById('watchlistSyncSub');
-
-            if (user) {
-                if (signinBtn) signinBtn.style.display = 'none';
-                if (userChip) {
-                    userChip.style.display = 'inline-flex';
-                    const name = user.displayName ? user.displayName.split(' ')[0] : 'User';
-                    document.getElementById('userName').innerText = name;
-                    const avatar = document.getElementById('userAvatar');
-                    if (user.photoURL) {
-                        avatar.innerHTML = `<img src="${user.photoURL}" style="width:100%;height:100%;border-radius:50%;" alt="avatar" />`;
-                    } else {
-                        avatar.innerText = name.charAt(0).toUpperCase();
-                    }
-                }
-                if (syncSub) {
-                    syncSub.innerText = `☁️ Synced to Google Account (${user.email}) • Accessible across all your devices`;
-                    syncSub.style.color = 'var(--accent-emerald)';
-                }
-                document.getElementById('dropdownEmail').innerText = user.email || 'Google User';
-                mergeAndSyncWatchlistWithCloud(user);
-            } else {
-                if (signinBtn) signinBtn.style.display = 'inline-flex';
-                if (userChip) userChip.style.display = 'none';
-                if (syncSub) {
-                    syncSub.innerText = 'Saved to your browser storage • Sign in with Google for cross-device cloud sync';
-                    syncSub.style.color = 'var(--text-muted)';
-                }
-                setSyncStatus('offline');
-            }
             updateWatchlistUI();
             renderWatchlistTable();
         }
@@ -18319,14 +18249,13 @@
         });
 
         function signOutUser() {
-            if (firebaseAuth) {
-                firebaseAuth.signOut().then(() => {
-                    showToast('Signed out of Google account');
-                    document.getElementById('userDropdown').classList.remove('active');
+            if (window.StockerboardPersonalUI && !window.StockerboardPersonalUI.confirmDiscardDraft()) return;
+            if (window.StockerboardAccount) {
+                window.StockerboardAccount.signOut().then(() => {
+                    showToast('Signed out of account');
+                    const dd = document.getElementById('userDropdown');
+                    if (dd) dd.classList.remove('active');
                 });
-            } else {
-                currentAuthUser = null;
-                handleAuthStateChange(null);
             }
         }
 
@@ -18338,65 +18267,23 @@
                 badge.innerText = '🟢 Synced';
             } else if (status === 'syncing') {
                 badge.classList.add('syncing');
-                badge.innerText = '🟡 Syncing...';
+                badge.innerText = '🟡 Saving...';
             } else {
                 badge.classList.add('offline');
                 badge.innerText = '⚪ Local';
             }
         }
 
-        function mergeAndSyncWatchlistWithCloud(user) {
-            if (!firestoreDb || !user) return;
-            setSyncStatus('syncing');
-            const userDocRef = firestoreDb.collection('users').doc(user.uid);
-
-            userDocRef.get().then((doc) => {
-                const cloudData = doc.exists ? (doc.data().watchlist || []) : [];
-                const localData = getWatchlist();
-                const merged = Array.from(new Set([...localData, ...cloudData]));
-
-                saveWatchlist(merged, false);
-                setSyncStatus('synced');
-
-                userDocRef.set({
-                    email: user.email,
-                    name: user.displayName || '',
-                    watchlist: merged,
-                    updated_at: new Date().toISOString()
-                }, { merge: true });
-            }).catch((err) => {
-                console.warn('Cloud sync error:', err);
-                setSyncStatus('offline');
-            });
-        }
-
-        function syncWatchlistToCloud(list) {
-            if (!firestoreDb || !currentAuthUser) return;
-            setSyncStatus('syncing');
-            clearTimeout(syncDebounceTimer);
-            syncDebounceTimer = setTimeout(() => {
-                firestoreDb.collection('users').doc(currentAuthUser.uid).set({
-                    watchlist: list,
-                    updated_at: new Date().toISOString()
-                }, { merge: true })
-                .then(() => setSyncStatus('synced'))
-                .catch(() => setSyncStatus('offline'));
-            }, 500);
-        }
-
         function deleteUserCloudData() {
-            const confirmMsg = "Delete Stockerboard data?\n\nThis will remove your synced Stockerboard data, clear Stockerboard data stored in this browser, and sign you out.\n\nYour Google/Firebase authentication identity is not deleted by this action.";
+            const confirmMsg = "Delete Stockerboard cloud data? This removes your synced watchlist and private notes through the managed service. The local Decision Journal on this device remains untouched.";
             if (!confirm(confirmMsg)) return;
-            if (firestoreDb && currentAuthUser) {
-                firestoreDb.collection('users').doc(currentAuthUser.uid).delete()
-                    .then(() => {
-                        saveWatchlist([]);
-                        signOutUser();
-                        showToast('Stockerboard data successfully deleted');
-                    });
-            } else {
-                saveWatchlist([]);
-                showToast('Local Stockerboard data deleted');
+            if (window.StockerboardAccount && currentAuthUser) {
+                window.StockerboardAccount.deleteAccount({ mode: 'CLEAR_CLOUD_DATA' })
+                    .then(() => showToast('Cloud account data deleted'))
+                    .catch(() => showToast('Unable to delete cloud data right now'));
+            } else if (window.StockerboardPersonalStorage) {
+                window.StockerboardPersonalStorage.clearGuestWatchlist();
+                showToast('Local guest watchlist cleared');
             }
         }
 
@@ -18633,7 +18520,7 @@
             document.getElementById('tvImportInput').value = '';
         }
 
-        function applyTvImport() {
+        async function applyTvImport() {
             const raw = document.getElementById('tvImportInput').value;
             if (!raw.trim()) {
                 closeTvImportModal();
@@ -18669,7 +18556,8 @@
             }
 
             const updated = Array.from(new Set([...current, ...toAdd]));
-            saveWatchlist(updated);
+            const result = await saveWatchlist(updated);
+            if (!result.ok) return;
             renderWatchlistTable();
             closeTvImportModal();
 

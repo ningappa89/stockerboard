@@ -20,7 +20,7 @@
     "preview": true,
     "requested_mode": "preview",
     "session": "2026-11-27",
-    "runtime_seconds": 62.22,
+    "runtime_seconds": 19.95,
     "coverage": {
       "cohort": 2629,
       "excluded": 1215,
@@ -47,10 +47,10 @@
   },
   "patterns": {
     "revision": "PATTERNS_PRO_V2",
-    "status": "PARTIAL",
+    "status": "AVAILABLE",
     "session": "2026-11-27",
     "gold_run_id": "gold_run_3659172933b5",
-    "index_sha256": "538398244a1ccdadb83cc0891a513397b505390822faadd8145264b2f9fbe327",
+    "index_sha256": "34a0413a5dec7a24c250c41ba68549a448d85b929c266f71f08c1f65268d2880",
     "families": {
       "cup-with-handle": {
         "title": "Cup with Handle",
@@ -141,29 +141,69 @@
       },
       "ascending-triangle": {
         "title": "Ascending Triangle",
-        "status": "UNAVAILABLE",
+        "status": "AVAILABLE",
         "execution_key": "b7b4d808a0288c7f4fdd0559c1bef652",
-        "reason": "SCAN_VALIDATION_FAILED",
-        "error_reference": "d82acd98525e",
-        "retry_classification": "WORKER_TIMEOUT",
-        "next_retry_at_utc": "2026-11-27T17:03:08.318074+00:00"
+        "path": "pro-research/patterns/releases/b43d113b8f3a3a568165eaf4/ascending-triangle.json",
+        "sha256": "caf5db3986856ec46d24f766f0243e0881c922d0845efc0661e304765544567f",
+        "coverage": {
+          "closed": 0,
+          "cohort": 2629,
+          "confirmed_today": 1,
+          "current": 27,
+          "excluded": 1215,
+          "exclusion_reasons": {
+            "BELOW_LIQUIDITY_FLOOR": 843,
+            "INSUFFICIENT_CONTIGUOUS_COMPARABLE_HISTORY": 323,
+            "NO_CURRENT_SESSION_BAR": 38,
+            "UNRESOLVED_SECURITY_IDENTITY": 11
+          },
+          "historical": 199,
+          "matched": 226,
+          "no_match": 1188,
+          "scanned": 1414
+        },
+        "algorithm_version": "ASCENDING_TRIANGLE_ENGINE_V0.2",
+        "policy_sha256": "e18e4da6f61825d4a5033bb2863257383969bffdc23bf722186f40eb46f6457e",
+        "runtime_seconds": 41.813,
+        "scan_run_id": "62ae933fca564b358499719375501004",
+        "scan_completed_at": "2026-11-27T17:02:13.184059+00:00"
       },
       "vcp": {
         "title": "Volatility Contraction (VCP)",
-        "status": "UNAVAILABLE",
+        "status": "AVAILABLE",
         "execution_key": "bae26f5a930bc49ffe1d0d9eb6df83e9",
-        "reason": "SCAN_VALIDATION_FAILED",
-        "error_reference": "7f27bb58c8ee",
-        "retry_classification": "WORKER_TIMEOUT",
-        "next_retry_at_utc": "2026-11-27T17:05:11.383143+00:00"
+        "path": "pro-research/patterns/releases/0dbf1d4ad69522d824ee62bb/vcp.json",
+        "sha256": "c3249da15f414b7f5b7c73da62bd8eab02594326efe4a2a8038e9707754c5cc7",
+        "coverage": {
+          "closed": 0,
+          "cohort": 2629,
+          "confirmed_today": 0,
+          "current": 75,
+          "excluded": 1215,
+          "exclusion_reasons": {
+            "BELOW_LIQUIDITY_FLOOR": 843,
+            "INSUFFICIENT_CONTIGUOUS_COMPARABLE_HISTORY": 323,
+            "NO_CURRENT_SESSION_BAR": 38,
+            "UNRESOLVED_SECURITY_IDENTITY": 11
+          },
+          "historical": 363,
+          "matched": 438,
+          "no_match": 976,
+          "scanned": 1414
+        },
+        "algorithm_version": "VCP_ENGINE_V0.2",
+        "policy_sha256": "0a40ca5e1f2f19ecc56b8c3c590600e264d28eb95d7ecca9ecedcdf20daa83a7",
+        "runtime_seconds": 126.375,
+        "scan_run_id": "33d64dd7b8d341708d6eb6ba038a527a",
+        "scan_completed_at": "2026-11-27T17:03:39.456843+00:00"
       }
     },
     "assets": {
       "scripts/patterns.js": "2d4ae6273541eb29138188a00e09d690a18fac33b97a95fc794da2f8aff9c6a1",
       "scripts/patterns.css": "787963b6d6dffc5d1d1720be89a82dc6e27e742152575ddca8481128ce80d26f"
     },
-    "runtime_seconds": 4531.453
+    "runtime_seconds": 174.516
   },
-  "html_sha256": "5a03a134c243e91d3b44de196a9c3d845e6077d31ee7a938d37760b7fb32bb5e",
-  "certified_at_utc": "2026-11-27T16:35:45.362739+00:00"
+  "html_sha256": "47526bbe6d52acc705353d8ee607cc197a133cfdd88db96afdad4ac535d29c1b",
+  "certified_at_utc": "2026-11-27T17:04:11.945639+00:00"
 }
